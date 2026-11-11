@@ -6,9 +6,13 @@
 
 # Proof practicum: reconstruct the 1970 theory
 
-A rigorous Davis–Kahan perturbation argument begins with explicit self-adjointness, spectral-gap, residual, and norm hypotheses. The goal is to reconstruct the bound from those assumptions, then identify how the same mechanism adapts to Hilbert spaces, norm ideals, and the other angle theorems.
+A complete spectral-subspace perturbation proof can be rehearsed on a two-by-two diagonal matrix. Let the exact operator have eigenvalues zero and five, with horizontal target eigenspace. Tilt a trial unit vector by thirty degrees and assign it the trial eigenvalue zero. Its residual has length two and a half, while the unwanted spectral gap is five. The sine of the angle is one half, so the residual divided by the gap gives equality.
 
-The proof proceeds from geometric data to a residual equation, then uses spectral separation to bound the angle. Each additional norm class or operator setting requires a specific extension of that argument.
+Reconstruct the calculation without memorizing an inequality. First isolate the trial vector's component in the unwanted eigenspace. Second observe that applying the operator multiplies that component by five. Third write the residual equation and solve for the unwanted component. Fourth recognize that its length is the sine of the principal angle. The geometry, algebra and spectral gap each have one distinct job.
+
+The original Davis–Kahan theory extends this pattern to multiple directions, different norms, and several kinds of spectral separation. An ambient-angle theorem needs both directions of leakage; the double-angle theorem uses reflection and has a branch ambiguity; the tangent theorem requires a graph condition. Infinite-dimensional results need operator domains and legitimate approximation arguments.
+
+This practicum will reconstruct these results as connected mathematics, checking their actual hypotheses rather than moving symbolically from one theorem name to another. A finite example supplies the intuition, while the formal companion records the exact equations and the strengthened assumptions needed for broader conclusions.
 
 ## Stage one: identify the correct geometric data
 

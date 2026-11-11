@@ -6,9 +6,13 @@
 
 # Why a small doubled sine proves little alone
 
-The sine-two-theta theorem bounds the sine of twice an angle. It is tempting to conclude that a sufficiently small perturbation forces the two subspaces to be close. That conclusion requires another argument. Sine of twice an angle is small when the angle is near zero, but also when the angle is near ninety degrees.
+Two angles can have the same doubled sine while describing almost opposite relationships between subspaces. Ten degrees and eighty degrees are a simple pair: doubling them gives twenty and one hundred sixty degrees, whose sines agree.
 
-A bound on the sine of twice an angle leaves two possible angular branches. Matrix examples exhibit the ambiguity; continuity combined with spectral selection, or a direct small-angle theorem, supplies the additional information needed to select one branch.
+There is an even sharper example. Take a horizontal line and a vertical line. Their principal angle is ninety degrees, so the two lines are as far apart as lines can be under the projection-distance metric. Yet the sine of twice ninety degrees is zero. A bound on the doubled sine would report zero although the two subspaces are perpendicular.
+
+This is not an algebraic defect in the estimate. The scalar function already loses the distinction between the near-zero and near-ninety-degree branches. Replacing a scalar by an angle operator, and then taking an operator or Frobenius norm, cannot restore information that the function discarded.
+
+A perturbation theorem can still turn doubled-angle information into a useful angle estimate when its other hypotheses identify which spectral branch is selected. We will see how to obtain that missing information from continuity without spectral crossing, from spectral labels, or from the structural form-gap argument for an off-diagonal perturbation.
 
 ## Begin with the scalar graph
 
@@ -88,12 +92,22 @@ This is why the formal source distinguishes directed quarter-angle estimates, th
 
 A bound on sine twice theta creates two allowed branches. It does not choose between them. To obtain a perturbation error certificate for a specific spectral subspace, we must supply spectral identification, continuity with a no-crossing guarantee, or a structural theorem proving acuteness.
 
-
 <!-- END SPOKEN LECTURE -->
 
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### Doubled-sine ambiguity
+
+\[
+\sin(2\cdot10^\circ)=\sin(2\cdot80^\circ),\qquad
+\sin(2\cdot90^\circ)=0.
+\]
+For a line \(U\) and its perpendicular line \(V\), the
+projection distance is \(\|P_U-P_V\|=1\) even though the sine of
+twice their sole principal angle is zero. A doubled-angle inequality
+must be paired with a separate branch-selection condition.
 
 For `0 ≤ θ ≤ π/2` and `0 ≤ η < 1`,
 

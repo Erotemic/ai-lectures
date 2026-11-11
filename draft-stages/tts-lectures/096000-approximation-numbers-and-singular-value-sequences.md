@@ -96,7 +96,7 @@ The modulus of a compact operator is itself compact. The compact self-adjoint sp
 
 Truncating to the first k minus one singular directions gives an approximation with error equal to the k-th singular value. The same kernel-and-dimension argument supplies the matching lower bound.
 
-So for compact operators, approximation numbers and singular values are the same list, with the natural indexing adjustment if a formalization starts counting at zero.
+So for compact operators, approximation numbers and singular values are the same sequence when we use the convention that the first approximation number allows rank zero.
 
 For a general noncompact operator, the approximation numbers still make sense. But we must not assume they are a list of isolated eigenvalues of its modulus. The identity, for example, retains approximation number one forever. More complicated operators can have continuous spectrum rather than discrete singular directions.
 

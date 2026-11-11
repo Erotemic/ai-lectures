@@ -2,11 +2,11 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-A finite-dimensional self-adjoint matrix has real eigenvalues, and eigenvectors belonging to different eigenvalues are orthogonal. But are there enough eigenvectors to span the entire space? The finite spectral theorem answers yes, and its proof constructs an orthonormal eigenbasis.
+Consider the symmetric two-by-two matrix whose diagonal entries are two and whose off-diagonal entries are one. The vector with equal coordinates points along an eigenvector of eigenvalue three. The vector with opposite coordinates is an eigenvector of eigenvalue one. Normalize them and they form a perpendicular pair spanning the plane.
 
-Today we answer yes. We will prove the finite-dimensional spectral theorem. And then we will take an additional step: instead of describing an operator with a particular collection of eigenvectors, we will describe it using projections onto entire eigenspaces.
+Every vector can now be decomposed into these two directions. Applying the matrix simply multiplies one component by three and the other by one. That is what diagonalization accomplishes: the operator acts separately on orthogonal coordinates adapted to its own geometry.
 
-That second description will matter later. Choosing an eigenvector can be arbitrary when an eigenvalue repeats. Choosing its whole eigenspace is not.
+The finite spectral theorem says that this calculation always works for a real symmetric or complex Hermitian matrix. We will explain why a maximizing direction for the Rayleigh quotient yields an eigenvector, why its orthogonal complement is invariant, and how induction supplies enough eigenvectors to span the whole space. Self-adjointness is the essential hypothesis; general square matrices may lack a complete eigenbasis.
 
 ## First, what would a spectral decomposition accomplish?
 

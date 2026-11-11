@@ -2,11 +2,11 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-A Hilbert space can be decomposed into perpendicular subspaces, but another way to describe geometry is to choose a family of vectors. Such a family produces maps between coefficient lists and the underlying space. The central question is what those maps preserve and what their compositions reveal.
+Let two perpendicular unit arrows in the plane be our chosen coordinates. Given two scalar coefficients, form their linear combination: the result is a plane vector. This is synthesis. Given a plane vector, measure its inner products with the two arrows: this recovers its coefficients. This is analysis.
 
-We can build new vectors from it. We can measure other vectors against it. And we can compare what those two operations do when performed one after the other.
+The two maps run in opposite directions. Synthesis takes a coefficient vector into the ambient space; analysis takes an ambient vector into a coefficient space. For an orthonormal basis, they are inverse isometries. For an incomplete orthonormal family, synthesis followed by analysis is only projection onto the chosen span. For a nonorthogonal or redundant family, neither composite is automatically the identity.
 
-The names for the first two constructions are *synthesis* and *analysis*. They are simple enough to calculate by hand, but they become important machinery for principal angles, Rayleigh–Ritz methods, singular-value theory, and the Davis–Kahan perturbation theory.
+The adjoint connects the operations: for a bounded synthesis map, its adjoint is the analysis map. Once their source and target spaces are clear, Gram matrices and frame operators become ordinary compositions rather than new unexplained objects. We will introduce the general family only after checking these coordinate calculations, and we will keep clear which operator acts on the coefficients and which acts on the ambient vectors.
 
 ## A collection of vectors as a machine
 
@@ -117,12 +117,20 @@ We did not need to diagonalize either operator. Their positivity follows directl
 
 There are three ideas worth reconstructing. First, explain why a nonzero coefficient list synthesizing to zero is exactly a linear-dependence relation. Second, prove from the inner-product identity that analysis is the adjoint of synthesis. Third, distinguish analysis after synthesis from synthesis after analysis, and say which space each composition acts on.
 
-
 <!-- END SPOKEN LECTURE -->
 
 ---
 
 ## Companion: mathematical statements and Lean correspondence (display only)
+
+### Analysis and synthesis in coordinates
+
+For the standard orthonormal basis of \(\mathbb R^2\),
+\(S(a,b)=ae_1+be_2\) and \(S^*(x,y)=(x,y)\), so
+\(S^*S=I_{\mathbb R^2}=SS^*\). With only the first column,
+\(V(t)=te_1\), the coefficient identity remains \(V^*V=I_{\mathbb R}\),
+while \(VV^*=P_{\operatorname{span}\{e_1\}}\).
+These products have different domain and codomain spaces.
 
 For a finite family \(v_i\in H\), with coefficient Hilbert space \(\mathbb K^I\) and inner product linear in the second argument, define
 

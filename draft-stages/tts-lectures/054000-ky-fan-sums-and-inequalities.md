@@ -6,15 +6,13 @@
 
 # What can the first several singular values tell us?
 
-The largest singular value of a linear map is its operator norm: the greatest length its output can have on a unit input. But that single number ignores how much the map stretches its second, third, and other independent directions.
+A matrix may stretch its strongest direction by a factor of five and its next direction by a factor of two. The operator norm reports only five. But if an approximation must preserve both directions, the sum seven contains relevant information that the maximum alone discards.
 
-The Frobenius norm instead adds the squares of all singular values and takes a square root. It measures their combined squared stretching, while the operator norm only measures the maximum.
+For a matrix with singular values five, two and one, the leading Ky Fan sums are five, seven and eight. Each asks for the total of the largest k stretching strengths. These partial sums are monotone in k and are unchanged by orthogonal changes of input and output coordinates.
 
-There is another natural family of measurements. Choose a positive integer k, and add the first k singular values without squaring them. These are the Ky Fan sums.
+The surprising part is that they also satisfy useful triangle inequalities. When two operators are added, their leading singular-value sums cannot grow beyond the corresponding sums of the operands. This provides a way to compare complete lists of singular values rather than choosing one norm in advance.
 
-They let us ask how much of a map's action can be concentrated into k independent input and output directions. More importantly, each sum obeys a triangle inequality. That will eventually let us compare entire lists of singular values, even when no individual singular-value comparison is available.
-
-Our goal is to derive these statements rather than take them as definitions with unexplained properties.
+We will establish the variational characterization behind the sums, derive their fundamental inequalities, and explain how an all-prefix comparison leads to weak majorization and, under suitable hypotheses, to bounds in many other unitarily invariant norms.
 
 ## Define the partial sums carefully
 

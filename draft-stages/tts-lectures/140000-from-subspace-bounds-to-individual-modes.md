@@ -6,9 +6,13 @@
 
 # From subspace bounds to individual modes
 
-Consider the free-beam fourth-derivative operator on the unit interval on the self-adjoint domain of functions with four square-integrable weak derivatives and free endpoint conditions: the second and third derivatives vanish at both ends. Its kernel is the affine plane and the complementary spectrum lies above five hundred. Perturb it by multiplication by epsilon times t, with epsilon positive and smaller than one hundred. Choose the two normalized affine trial functions given by one over square root of two times one minus square root of three times the expression two t minus one, and one over square root of two times one plus that same expression. They form an orthonormal Ritz basis whose eigenvalues are epsilon over two times one minus one over square root of three and epsilon over two times one plus one over square root of three. Subspace estimates control how far the perturbed low eigenspace lies from this plane. But how close is a particular Ritz vector to a particular exact vibration mode? A subspace-angle estimate alone cannot answer that question.
+Imagine two coordinate axes drawn on the same sheet of paper. Rotate both axes through forty-five degrees, leaving the sheet itself fixed. The span of the axes is exactly the same two-dimensional plane before and after the rotation, so its subspace angle is zero. Yet each individual axis has moved.
 
-To see why, consider two orthonormal bases of the same plane, one rotated forty-five degrees from the other. The planes are identical, so their largest principal angle is zero. Yet the corresponding basis vectors are far from identical. We need to track motion within the trial plane as well as motion out of it.
+This distinction becomes essential when tracking eigenfunctions. A perturbation theorem may show that a low spectral plane of a differential operator has barely changed, even while the two eigenvectors selected inside that plane rotate significantly. The subspace estimate controls leakage outside the plane. To identify a specific eigenfunction, we must also separate the eigenvalues within the plane.
+
+Consider the self-adjoint free-beam fourth-derivative operator on the unit interval with vanishing second and third endpoint derivatives. Its kernel consists of affine functions. Add multiplication by epsilon times position, for a small positive epsilon. The perturbed low spectral plane lies close to the affine kernel, but its two individual modes are distinguished only by the two-by-two compressed operator and their internal eigenvalue separation.
+
+We will use a block eigenvalue equation to solve for the component outside the trial plane, then substitute back into an effective equation inside the plane. This separates the out-of-plane angle error from the in-plane eigenvector error.
 
 ## Separate the two angle contributions
 
@@ -95,6 +99,17 @@ If the internal gap closes, even a perfectly stable subspace may have unstable i
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### Frame displacement need not measure subspace displacement
+
+In \(\mathbb R^2\), take \(V=I_2\) and
+\(W=\left(\begin{smallmatrix}\cos\theta&-\sin\theta\\
+\sin\theta&\cos\theta\end{smallmatrix}\right)\).
+Both frames span the whole plane: \(VV^*=WW^*=I_2\), hence the
+projection distance is zero. Yet
+\(\|V-W\|_F^2=4(1-\cos\theta)\), which is nonzero unless
+\(\theta=0\) modulo a full turn. Optimizing over within-subspace
+coordinate changes removes this artificial disagreement.
 
 For a normalized eigenvector \(f=(x,y)\) of the block operator, with \(\lambda<\inf\sigma(A_1)\),
 \[

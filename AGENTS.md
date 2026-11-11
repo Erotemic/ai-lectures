@@ -1,4 +1,12 @@
-# Agent instructions for `visualizations/`
+# Agent instructions for `ai-lectures`
+
+The repository is an extensible AI-authored lecture library. The current
+mathematical material originated in a Davis--Kahan research project, but future
+curricula need not be about operator theory. Prioritize rigorous, standalone,
+listener-paced narration, supporting mathematics, and relevant reading notes
+when editing `draft-stages/tts-lectures/`. Preserve the existing working media
+production tools; broader reorganizations are outside a lecture-content pass.
+
 
 The visualizations are reusable Manim/VTK scenes composed into several decks.
 Shared slide/transcript/TTS/video production lives in `dkvis/presentation/`.

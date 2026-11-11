@@ -6,11 +6,13 @@
 
 # Two ways to transport a matrix through time
 
-An ordered spectral gap permits a Sylvester equation to be solved by integrating decaying exponentials. For interlaced but separated spectra, the differences do not all share a sign, so we need a different construction. We study a related construction that works when the spectra are separated but their differences may have either sign.
+A constant angular velocity in the plane generates a continuous family of rotations: rotating for time s and then for time t is equivalent to rotating once for the sum of those times. The family satisfies a group law, and its generator is the skew-symmetric matrix giving the instantaneous derivative at time zero.
 
-The key change is to use unitary groups: exponentials with an imaginary unit in the exponent. These produce oscillations rather than decay. Then a scalar Fourier multiplier will turn each oscillation back into the reciprocal of its spectral difference.
+For a self-adjoint matrix A, the operators obtained by exponentiating i times t A form a unitary group in complex Hilbert space. If A is positive, exponentiating negative t A for nonnegative times instead gives a contractive semigroup. These are different ways to package an operator into a time-evolution law.
 
-We will derive the orbit identities before stating the multiplier construction. That is the mathematical reason the method works.
+The group and semigroup perspectives become useful for spectral separation. Exponentials can turn a Sylvester equation into a time integral, whose convergence and norm are governed by the separation of the spectra. In infinite dimensions, unbounded generators require strong continuity and explicit domains; a formal power series is not enough.
+
+We will prove the finite-dimensional representation identities, then state what additional conditions are required when passing to strongly continuous unitary groups or contraction semigroups.
 
 ## The Sylvester orbit
 

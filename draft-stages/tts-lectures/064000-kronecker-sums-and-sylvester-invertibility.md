@@ -6,9 +6,13 @@
 
 # Turn an equation of matrices into one linear map
 
-For diagonal self-adjoint A and B, the Sylvester equation A X minus X B equals C can be solved entry by entry when every cross-spectral difference is nonzero. Here we treat the entire left-hand side as a single linear operator. Its input is a matrix X, and its output is the matrix A X minus X B. Once we understand the spectrum of that operator, we can state precisely when the Sylvester equation has a unique solution for every right-hand side.
+Consider the matrix equation A X minus X B equals C. Even when X is a matrix of many unknown entries, the left-hand side is linear in X. We can therefore treat the equation as one linear system on a larger vector space whose coordinates are the entries of X.
 
-There are two reasons to do this. First, it reveals why the differences of eigenvalues are unavoidable. Second, it separates an algebraic question, invertibility, from a quantitative question, how large the inverse can be.
+For a diagonal left matrix with eigenvalues one and four and a diagonal right matrix with eigenvalues two and three, the four scalar coefficients are negative one, negative two, two and one. The full linear system is invertible because none of these coefficients vanishes.
+
+The Kronecker product describes that system without manually writing every entry. Under the usual column-stacking convention, left multiplication by A becomes a Kronecker factor involving A, while right multiplication by B becomes a different factor involving the transpose of B. Their difference is the Kronecker form of the Sylvester operator.
+
+We will derive the vectorization identity, identify its spectrum when A and B are diagonalizable, and distinguish invertibility of the finite linear system from a sharp norm bound in a particular operator norm.
 
 ## A linear operator on a space of matrices
 

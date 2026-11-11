@@ -6,11 +6,13 @@
 
 # What happens at a right angle?
 
-Two closed subspaces can contain directions that meet at exactly ninety degrees. The cosine on such a direction is zero. Consequently, the canonical projection-based intertwiner can have a kernel, and its polar factor is only a partial isometry: it cannot by itself transport those missing directions. To obtain a unitary direct rotation, the right-angle directions lost on one side must be matched with those lost on the other.
+Place the horizontal and vertical coordinate axes in the plane. Their angle is ninety degrees, so neither axis has a nonzero projection onto the other. Any formula for transporting the first line to the second by dividing by the cosine of their angle breaks down immediately.
 
-That failure poses two questions. Can we supply the missing motion using the right-angle pieces? And if we can, is there still one preferred answer?
+In higher dimensions, a pair of subspaces may share some directions, meet at right angles in others, and have genuinely acute principal-angle pieces in the remainder. One map cannot use a single finite angle parameter to treat all of these pieces in the same way.
 
-The answers depend on the dimensions of two specific subspaces. We will derive them from the geometry before stating the general existence criterion.
+The right-angle directions are defect spaces. One is the portion of the first subspace perpendicular to the second; the other is the portion of the second subspace perpendicular to the first. A unitary transporter that exchanges their roles needs enough dimensions on both sides. If the defects have incompatible dimensions, an assumed direct-rotation construction can fail before any norm estimate is considered.
+
+We will separate these pieces, explain how matching defect dimensions permits a unitary completion, and identify exactly which acuteness assumptions guarantee a unique canonical direct rotation.
 
 ## The two crossed defects
 

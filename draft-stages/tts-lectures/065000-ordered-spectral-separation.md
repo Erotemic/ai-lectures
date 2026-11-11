@@ -6,11 +6,13 @@
 
 # A spectral gap that makes the solution decay
 
-For the Sylvester equation A X minus X B equals C, disjoint spectra can guarantee a unique solution, but existence alone gives no quantitative bound on its norm. An ordered positive gap between self-adjoint coefficient operators provides a much stronger conclusion.
+Suppose a self-adjoint matrix A has eigenvalues five and six, while another self-adjoint matrix B has eigenvalues one and two. Every eigenvalue of A lies at least three units above every eigenvalue of B. This is an ordered spectral gap, stronger than mere separation of the two spectral sets.
 
-Suppose A and B are self-adjoint, and every spectral value of A lies at least delta above every spectral value of B, where delta is positive. This is ordered spectral separation. Under that hypothesis, the solution of A X minus X B equals C can be written as an integral of decaying exponentials, and its operator norm is at most the norm of C divided by delta.
+For the scalar equation a x minus x b equals c, the denominator a minus b is then positive and at least three. In a matrix equation the coefficients act on opposite sides of X, so entrywise division is not the most useful general argument. Instead, consider the expression obtained by applying the decaying exponential of negative t A on the left of C and the growing exponential of t B on the right. The ordered gap ensures the combined norm decays at least like e to the negative three t.
 
-The constant one in that bound will come directly from integrating a decaying scalar exponential.
+Integrating this expression from zero to infinity constructs a solution of the Sylvester equation and gives a constant-one norm bound. We will derive the integral through differentiation and explain exactly where self-adjointness and spectral order enter.
+
+When the spectra are interlaced but still disjoint, this same decaying-integral proof no longer applies with one fixed sign. That distinction will determine the bounds available in the later operator equation.
 
 ## What ordered separation says
 
@@ -109,6 +111,18 @@ Reconstruct the scalar integral first, then the two exponential bounds, then the
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### A scalar Sylvester decay estimate
+
+For scalar spectral parameters \(a\ge5\) and \(b\le2\), the
+solution of \(ax-xb=c\) is \(x=c/(a-b)\). The ordered gap
+\(a-b\ge3\) gives \(|x|\le|c|/3\). Equivalently,
+\[
+x=\int_0^\infty e^{-ta}c\,e^{tb}\,dt
+=c\int_0^\infty e^{-t(a-b)}\,dt.
+\]
+The operator integral follows the same positive separation, with
+composition replacing scalar multiplication.
 
 If \(A=A^*\), \(B=B^*\), and \(\inf\sigma(A)-\sup\sigma(B)\ge\delta>0\), then
 \[

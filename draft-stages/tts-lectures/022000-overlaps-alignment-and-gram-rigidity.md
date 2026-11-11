@@ -2,11 +2,13 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-A family of vectors can be represented by its synthesis map, whose Gram operator records inner products among family members. For two families, the cross-Gram matrix records the inner products between one family and the other. Comparing these quantities separates internal coordinate choices from the geometry of their spans.
+A line is a geometric object, but a unit vector on that line is a choice of coordinates. A line and its negative-pointing unit vector represent the same subspace. Comparing vectors directly can therefore suggest a disagreement that disappears when we compare spans.
 
-Here is the question. If two lists of vectors look different, are they describing different geometry? Or have we merely chosen different coordinates for the same geometry?
+For two unit vectors making an angle theta, their cross-Gram matrix is the single number given by their inner product. Its absolute value is the cosine of the acute angle between their lines. For two higher-dimensional orthonormal families, the cross-Gram matrix records every pairwise overlap, and its singular values provide the cosines of principal angles.
 
-There are really two questions hiding here. One is whether each list has the same *internal* geometry: the same lengths and the same angles among its own vectors. The other is how the two lists are situated *relative to each other* inside a shared ambient space. The Gram matrix answers the first question. An overlap matrix helps answer the second.
+There is a related rigidity question. If two finite families have exactly the same Gram matrix, then they have the same pairwise inner products and determine the same geometry up to an isometry of their spans. The ambient placement of the spans is a separate question; matching internal Gram data does not automatically mean the two families occupy the same ambient subspace.
+
+We will work from line overlaps to rectangular cross-Gram maps and then distinguish internal alignment, coordinate choices, and geometric coincidence.
 
 ## Internal geometry is not position
 

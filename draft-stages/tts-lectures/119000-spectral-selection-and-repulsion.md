@@ -94,7 +94,7 @@ For the canonical branch theorem, these issues are addressed in its actual concl
 
 We now have a concrete mechanism for identifying the intended spectral subspace: form-separated diagonal blocks plus an off-diagonal self-adjoint perturbation preserve the open gap, define a canonical spectral projection, and keep the selected branch below a quarter turn. The compression identities then yield the eigenvalue and norm inequalities.
 
-It allows more general perturbations, but demands quantitative smallness relative to a spectral gap. We will show how that smallness can certify the correct angular branch.
+For a perturbation with nonzero diagonal blocks, exact gap repulsion may fail. A sufficiently small general perturbation can still support a separate branch-certification argument, provided the selected spectrum remains separated. The two conclusions rely on different hypotheses: off-diagonal structure protects this gap for arbitrarily large coupling, while smallness controls more general perturbations.
 
 <!-- END SPOKEN LECTURE -->
 

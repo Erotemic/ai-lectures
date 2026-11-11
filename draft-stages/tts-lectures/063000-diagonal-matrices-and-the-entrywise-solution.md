@@ -6,11 +6,13 @@
 
 # Solve every spectral block, then put the answer together
 
-When A and B are diagonal in orthonormal eigenbases, the unknown matrix coefficient between eigenvalues a and b is multiplied by a minus b.
+A scalar equation of the form a times x minus x times b equals c is easy to solve: provided a and b differ, x equals c divided by their difference. If a and b coincide, there is either no solution or an entire family of solutions, depending on c.
 
-For diagonal coefficient matrices, the Sylvester equation can be solved entry by entry. The cross-eigenvalue differences determine uniqueness, the available solutions when spectra overlap, and a sharp Frobenius estimate under positive separation.
+For diagonal matrices, each entry of the unknown matrix satisfies exactly this kind of scalar equation. Choose a left coefficient matrix with diagonal entries zero and five, and a right coefficient matrix with entries two and three. The four denominators are negative two, negative three, three and two. None is zero, so every matrix entry of the solution is uniquely determined by the corresponding entry of the right-hand side.
 
-Along the way, we will connect the entrywise formula to ordinary resolvents and to the coordinate-free language of spectral projections. The goal is to make the finite Sylvester inverse something we can derive rather than a formula we have to remember.
+The distances between the two spectra control these denominators. They show immediately why the equation is solvable in a matrix entry sense, and why the Hilbert–Schmidt norm admits a direct estimate from squared entries. But an operator-norm estimate involves the combined action of all entries, not a separate absolute value bound on each one.
+
+We will solve the diagonal equation first, then use it to identify precisely what a more general Sylvester theorem must replace when matrices cannot be diagonalized together.
 
 ## Write the matrix equation in coordinates
 

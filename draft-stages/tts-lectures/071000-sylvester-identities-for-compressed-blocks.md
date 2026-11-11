@@ -6,9 +6,13 @@
 
 # Finding the Sylvester equation inside a subspace problem
 
-A Sylvester estimate can turn a bound on an operator C into a bound on the unknown X. But a subspace perturbation problem is given in a different form. We have two self-adjoint operators and want to compare two subspaces that they preserve. Where is the Sylvester equation hiding?
+An approximate eigenvector tells us more than its approximate eigenvalue. It also carries a direction, and we want to know how far that direction lies from an exact eigenspace.
 
-Multiplication by the relevant spectral projections produces an exact identity before any gap condition is imposed. The gap enters only when we try to estimate its solution. Keeping those steps separate makes clear which claims are purely algebraic and which depend on spectral separation.
+Take a diagonal matrix with eigenvalues zero and five. If a unit trial vector has components cosine theta and sine theta, the vertical component is precisely its leakage into the unwanted exact eigenspace. Applying the matrix multiplies that leakage by five. A residual equation therefore relates the unknown geometric overlap to quantities computed from the trial vector and a chosen trial eigenvalue.
+
+For an approximate invariant plane, we need the same relationship at the level of operators. Choose orthonormal coordinates for the trial space and for the exact unwanted spectral subspace. The overlap map goes from trial coordinates to unwanted coordinates. Compressing the residual identity gives a Sylvester equation whose left and right coefficients are the two spectral blocks.
+
+We will derive the equation without equating the trial compression with an exact restriction, and identify which projection and domain conditions become necessary in Hilbert space.
 
 ## Two operators and two invariant subspaces
 

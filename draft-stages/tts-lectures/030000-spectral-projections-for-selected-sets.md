@@ -2,13 +2,11 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-Individual eigenvalues of a self-adjoint matrix can be ordered and compared using Rayleigh quotients and min-max characterizations. But many perturbation questions concern an entire selected collection of eigendirections rather than any one eigenvector.
+Suppose a symmetric three-by-three matrix is diagonal with entries zero, zero, and five. The eigenspace corresponding to zero is an entire plane. We can choose infinitely many different orthonormal bases of that plane, but the plane itself remains the same.
 
-But the Davis–Kahan theory that motivates this course is often not interested in one eigenvector at a time. It asks how a *subspace* associated with a group of eigenvalues behaves. To prepare for that question, we need a way to say: keep the part of a vector associated with these eigenvalues, and discard everything else.
+There is a coordinate-free way to select it. The orthogonal projection that keeps the first two coordinates and discards the third is determined by the spectral set containing zero. If we rotate the basis within the zero-eigenspace, the projection stays unchanged. This makes the projection a more stable object than any individual eigenvector, especially when an eigenvalue is repeated.
 
-The mathematical object that does exactly this is a spectral projection.
-
-In finite dimensions, a spectral projection is determined by a selected set of eigenvalues; it cannot be defined by an arbitrary collection of vectors without checking that they form an invariant spectral subspace.
+In finite dimensions, we obtain a spectral projection by summing the orthogonal rank-one projections for all eigenvectors with eigenvalues in a selected set. The projection reduces the matrix, so both its range and its orthogonal complement are invariant. We will derive this construction, distinguish selecting a whole spectral cluster from selecting a single eigenvector, and prepare the same language for infinite-dimensional spectral measures.
 
 ## Selecting frequencies in a simple analogy
 

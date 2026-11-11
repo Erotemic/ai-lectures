@@ -6,9 +6,13 @@
 
 # A comparative theorem decision procedure
 
-Four classical spectral-subspace estimates involve the sine of an angle, the tangent of an angle, the sine of twice an angle, and the tangent of twice an angle. Their formulas look similar, but they answer different questions about trial residuals, changes of self-adjoint operators, and selected spectral subspaces. Using one theorem with another theorem’s hypotheses can invalidate a proof. The assumptions are different enough that such a substitution can invalidate a proof.
+Suppose we have a symmetric matrix, a computed trial plane, and an estimate of the error of its Ritz vectors. We want to say how far that plane may be from an exact spectral subspace. Before reaching for an angle inequality, we must know what type of spectral separation is actually available.
 
-Selecting an angle theorem begins with the available spectral information and the norm to be controlled. We will apply it to three spectral-gap regimes, identify the object whose norm appears on the right side, and use examples to distinguish directed and ambient angles.
+An ordered gap means the entire unwanted spectrum is on one side of the trial spectrum, with a positive interval between them. A pairwise gap only says that no value of one spectrum is close to a value of the other; the two sets may be interlaced. These conditions lead to different estimates for the Sylvester equation. A constant-one inequality in the ordered case cannot simply be reused in operator norm under pairwise separation.
+
+Next ask what the right-hand side measures. Is it the defect of trial vectors under one operator, or the difference between two self-adjoint operators? The single-angle sine and tangent bounds use residuals, while the doubled-angle families use an operator perturbation and additional structure. Sine and tangent also measure different angular quantities, and doubling an angle introduces a branch ambiguity.
+
+We will compare concrete regimes without trying to force all the theorems into one formula. The aim is to choose an estimate by its hypotheses: the operator, the selected subspaces, the spectral gap, and the norm in which error is measured.
 
 ## Start with the question, not the bound
 

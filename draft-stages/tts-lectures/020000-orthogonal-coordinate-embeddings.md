@@ -2,9 +2,13 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-An orthonormal family can be packaged as an isometric embedding V of a smaller coefficient space into an ambient Hilbert space. Its adjoint V star measures coordinates. Composing V and V star in the two possible orders produces an identity on coefficient space and a projection on ambient space.
+Take the three-dimensional space of ordinary coordinate vectors. Select the plane spanned by the first and third coordinate axes. A small two-component coordinate vector can be embedded into that plane by putting zero in its middle coordinate. The embedding preserves lengths, even though its input and output spaces have different dimensions.
 
-The two compositions look nearly identical on the page. But they describe different operations on different spaces. Distinguishing them is one of the most useful habits you can develop for reading the operator expressions in the Davis–Kahan angle estimates.
+Applying its adjoint to an ambient vector reads the first and third coordinates. Embedding those readings again returns the orthogonal projection onto the chosen plane. In the other order, analysis after synthesis is the identity on the two-dimensional coefficient space.
+
+These two identities have distinct meanings. The embedding's adjoint followed by the embedding verifies that its chosen columns are orthonormal. The embedding followed by its adjoint is a projection on the ambient space, and it equals the ambient identity only when the subspace fills the whole space.
+
+The distinction lets us compress a large operator to a small set of trial coordinates while keeping the geometry exact. We will use explicit domain and codomain labels so that the two compositions cannot be confused.
 
 ## A smaller coordinate space inside a larger space
 
@@ -117,6 +121,17 @@ For any ambient operator A, the compression V star A V acts on the smaller coord
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### A rectangular orthonormal embedding
+
+The map \(V:\mathbb R^2\to\mathbb R^3\),
+\(V(a,b)=(a,0,b)\), satisfies
+\[
+V^*V=I_2,\qquad VV^*=\operatorname{diag}(1,0,1).
+\]
+The first product acts on the coefficient space \(\mathbb R^2\); the
+second acts on the ambient space \(\mathbb R^3\). Their sizes already
+prevent identifying them as the same identity operator.
 
 For an isometric linear embedding \(V:F\to E\) between Hilbert spaces, with adjoint \(V^*:E\to F\),
 

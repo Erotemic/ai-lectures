@@ -2,11 +2,11 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-An eigenvalue of a square linear map A is a scalar lambda for which there is a nonzero vector v satisfying A v equals lambda v. For diagonal or symmetric matrices, eigenvectors can give useful coordinates. A rectangular map instead produces two positive Gram operators whose nonzero eigenvalues are squared singular values. The goal here is to distinguish the eigenspace dimension from the multiplicity of a root of the characteristic polynomial.
+Take a diagonal matrix with the number two on both diagonal entries. Every vector in the plane is an eigenvector with eigenvalue two. Now change the upper-right entry to one, leaving the diagonal entries unchanged. The characteristic polynomial is still the square of lambda minus two, so two has algebraic multiplicity two. But the new matrix has only a one-dimensional eigenspace.
 
-Here is the issue. Two matrices can have exactly the same eigenvalues, with exactly the same repetition in their characteristic polynomials, while having very different collections of eigenvectors. One can have a full basis of eigenvectors. The other can have too few.
+This example separates two counts that are easy to confuse. Algebraic multiplicity counts occurrences of an eigenvalue as a root of the characteristic polynomial. Geometric multiplicity counts independent eigenvectors. The counts agree for self-adjoint matrices, which admit orthonormal eigenbases, but can differ for general matrices with Jordan blocks.
 
-Why? To answer, we need to distinguish an eigenvalue, its eigenspace, its algebraic multiplicity, and its geometric multiplicity. That distinction will make the finite spectral theorem much easier to understand when we reach it.
+In operator theory, eigenvalues are only part of the spectrum, and infinite-dimensional operators can have spectral points with no eigenvector at all. We will start with the finite calculation, keep the definitions precise, and reserve the broader spectral distinction for the setting where it becomes necessary. The immediate goal is to understand what an eigenspace represents and which information is lost when one counts eigenvalues without counting directions.
 
 ## The eigenvector equation
 

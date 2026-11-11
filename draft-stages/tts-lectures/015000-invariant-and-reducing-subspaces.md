@@ -2,13 +2,13 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-A closed subspace U of a Hilbert space has an orthogonal projection P. An operator A may preserve U, meaning A maps every vector of U back into U. The stronger reducing condition asks for the orthogonal complement to be preserved as well. These conditions control the block structure of A.
+Consider the upper-triangular matrix whose rows are one, one, and zero, two. It maps the horizontal axis into itself, because the first basis vector is sent to a multiple of itself. The vertical axis, however, is sent to a vector with both horizontal and vertical components.
 
-Suppose we choose a subspace M of a Hilbert space and apply an operator T to a vector in M. Does the output stay in M, or can it escape into directions perpendicular to M? That question introduces an invariant subspace.
+The horizontal line is invariant, but its orthogonal complement is not. In a basis adapted to this splitting the matrix has an upper-triangular block form. There is still a coupling from the complement back into the selected line.
 
-There is a second question that sounds similar but is stronger: can T mix vectors from the perpendicular complement back into M? If the answer is also no, we have a reducing subspace.
+Replace the matrix by a diagonal matrix with the same diagonal entries. Now both coordinate axes are invariant. We say the horizontal line reduces the matrix, and the operator breaks into two independent blocks. This distinction becomes central to spectral subspaces and perturbation theory: we can compress an operator to a trial subspace even if the complementary coupling is nonzero, but an exact self-adjoint spectral subspace comes with a reducing decomposition.
 
-These two conditions have different consequences. The distinction will eventually let us describe an operator in blocks, separate spectral pieces, and state exactly what it means for an operator to respect a chosen spectral subspace.
+We will make the projection identities explicit, then determine what self-adjointness adds. A closed invariant subspace for a bounded self-adjoint operator automatically has invariant orthogonal complement; for a general operator that implication fails.
 
 ## First, a subspace that stays put
 
@@ -123,6 +123,15 @@ They let us describe subspaces through collections of vectors and measure how mu
 ---
 
 ## Companion: symbolic facts and Lean correspondence (display only)
+
+### Invariant does not imply reducing
+
+For \(A=\left(\begin{smallmatrix}1&1\\0&2\end{smallmatrix}\right)\),
+\(U=\operatorname{span}\{e_1\}\) is invariant: \(Ae_1=e_1\).
+But \(Ae_2=e_1+2e_2\notin U^\perp\); hence \(U\) is not reducing.
+For \(D=\operatorname{diag}(1,2)\), both \(U\) and \(U^\perp\) are
+invariant. Equivalently, for the orthogonal projection \(P_U\),
+\(P_U D=D P_U\), whereas \(P_U A\ne A P_U\).
 
 Let \(M\subseteq H\) be a closed subspace of a Hilbert space and \(P=P_M\) its orthogonal projection. For bounded \(T:H\to H\):
 \[

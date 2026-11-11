@@ -6,11 +6,13 @@
 
 # Several ways to measure one linear map
 
-A linear map has several natural notions of size. If we care about its largest effect on a unit input, we use the operator norm. If we care about its total squared action on an orthonormal collection of inputs, we use the Frobenius norm. If we want the sum of all singular values, we use the nuclear norm.
+A diagonal matrix with entries three and one has singular values three and one. Its operator norm is three, the largest stretch. Its Frobenius norm is the square root of ten, the square root of total squared stretch. Its nuclear or trace norm is four, the sum of the stretches.
 
-Operator norm, Frobenius norm, nuclear norm, and other sums of powers of singular values belong to one family: the Schatten norms. Singular-value decomposition and majorization let us derive their formulas, compare them, and explain their triangle inequalities.
+Each number describes a different question. The operator norm asks for the worst direction. The Frobenius norm counts squared energy over an orthonormal basis. The trace norm counts the total singular-value mass, making it useful when many directions contribute.
 
-The central idea is simple. A Schatten norm is an ordinary finite-dimensional ell-p norm applied to the singular-value list. But establishing the consequences requires care, especially for rectangular maps and for different exponents.
+All three are examples of Schatten norms, obtained by taking an ordinary list norm of the singular values. Their definitions are invariant under unitary changes of input and output bases. The corresponding infinite-dimensional operator ideals require a summability condition on the singular-value sequence, so a bounded operator need not belong to every Schatten class.
+
+We will derive these formulas from singular-value decomposition, keep track of the distinction between a finite matrix and an infinite-dimensional compact operator, and explain why moving from a bound for one Schatten norm to a bound for another needs an actual comparison theorem.
 
 ## Start from the singular values
 

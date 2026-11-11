@@ -6,11 +6,13 @@
 
 # Comparing whole lists without comparing every entry
 
-A pair of matrices can defeat a tempting entrywise rule about singular values: the second singular value of a sum can exceed the sum of the two second singular values. Nevertheless, every cumulative sum of the largest singular values obeys a triangle inequality.
+Consider two lists of nonnegative numbers with the same total: four and zero, versus three and one. The first list concentrates all of its mass in one entry. The second spreads some of that mass into the smaller entry. Their totals agree, but their largest entries differ: four is greater than three.
 
-That observation suggests an ordering on lists of numbers. Instead of comparing the first entries, then the second entries, one at a time, compare their running totals. This is majorization. It is a useful language for stating how one spectrum is more concentrated than another.
+Majorization makes this observation precise. Sort both lists in descending order and compare every leading partial sum. The list three, one is majorized by four, zero because its first partial sum is smaller and its total is equal. If we allow the total to be smaller as well, the appropriate relation is weak majorization.
 
-There are two versions of majorization, distinguished by whether the full sum is required to agree. Their prefix inequalities lead directly to weighted comparisons of singular values. Our lists will be finite, real, nonnegative, and arranged from largest to smallest. These hypotheses are natural for singular values, and they let us focus on the geometry of the comparison.
+Why care about these scalar comparisons in operator theory? A matrix's singular values form a nonnegative sorted list, and the sum of the first k singular values is its k-th Ky Fan quantity. Proving all these partial-sum inequalities at once allows us to control many norms and convex functions of the singular values.
+
+We will prove the elementary relationships among the definitions, then explain exactly which conclusions need equal totals and which only require weak majorization.
 
 ## Begin with sorted nonnegative lists
 
@@ -118,7 +120,6 @@ Given two decreasing nonnegative lists, compute every prefix and decide whether 
 Next, prove the summation-by-parts identity by expanding the coefficients of each entry difference. Use it to prove the decreasing-nonnegative-weight comparison.
 
 Then verify the two T-transforms taking six, zero, zero to three, two, one. Finally, restate the Ky Fan triangle inequality as a weak-majorization statement about singular-value lists.
-
 
 <!-- END SPOKEN LECTURE -->
 

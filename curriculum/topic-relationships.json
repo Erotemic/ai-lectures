@@ -1663,6 +1663,54 @@
       "alternative_presentation",
       "g2:043000",
       "The short principal-angle discussion covers the same sine and cosine operators"
+    ],
+    [
+      "g2:072500",
+      "hard_depends_on",
+      "g2:010000",
+      "Weak vector convergence and strong operator convergence are defined in Hilbert spaces"
+    ],
+    [
+      "g2:072500",
+      "hard_depends_on",
+      "g2:004000",
+      "Strong and uniform operator convergence require bounded operators"
+    ],
+    [
+      "g2:082000",
+      "soft_depends_on",
+      "g2:072500",
+      "Spectral cutoff convergence depends on the distinction between strong and norm convergence"
+    ],
+    [
+      "g2:091500",
+      "soft_depends_on",
+      "g2:072500",
+      "Strong resolvent convergence uses the fixed-input topology"
+    ],
+    [
+      "g2:080500",
+      "hard_depends_on",
+      "g2:072000",
+      "Multiplication and diagonal operators furnish continuous-spectrum examples"
+    ],
+    [
+      "g2:080500",
+      "hard_depends_on",
+      "g2:030000",
+      "Spectral projections select approximate eigenspaces near spectral values"
+    ],
+    [
+      "g2:081000",
+      "soft_depends_on",
+      "g2:080500",
+      "Resolvent blowup is explained using approximate eigenvectors"
+    ],
+    [
+      "g2:086000",
+      "soft_depends_on",
+      "g2:080500",
+      "Spectral location tests can be interpreted through approximate eigenvectors"
     ]
   ]
 }

@@ -6,13 +6,11 @@
 
 # How do we measure the angle between two subspaces?
 
-You already know how to measure the angle between two nonzero vectors. Normalize them, take their inner product, and use the cosine to recover an angle.
+Two lines through the origin have one angle between them. Two planes in three-dimensional space can share a line while remaining perpendicular in their other directions. In that case, a single angle no longer describes their relationship: there is one angle of zero degrees along the shared line and a second angle that may be ninety degrees.
 
-But what if the objects we want to compare are entire subspaces? A plane contains infinitely many directions. In a higher-dimensional space, two planes can share one direction, disagree in another, and be perpendicular in yet another. One scalar angle cannot describe all of that.
+To make the example explicit, take one plane spanned by the first and second coordinate axes, and another spanned by the first and third. Each plane has a natural two-column orthonormal coordinate map. Taking the adjoint of the first map followed by the second produces a two-by-two overlap matrix with diagonal entries one and zero. Its singular values are one and zero, the cosines of the two principal angles.
 
-Principal angles measure the relative geometry of two subspaces. Orthonormal frames, adjoints, Gram operators, and singular values make the construction explicit.
-
-We will not start by assuming these angles exist. We will derive them.
+This calculation suggests a basis-independent way to describe angles between arbitrary finite-dimensional subspaces. Use orthonormal frames to compare their overlaps; the singular values are numbers between zero and one; take their inverse cosines to obtain the principal angles. We will explain how to pair the directions optimally, and why changing either frame by a unitary map leaves the angle list unchanged.
 
 ## A vector's angle is a measurement of overlap
 

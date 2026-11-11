@@ -6,11 +6,13 @@
 
 # Why spreading mass controls convex measurements
 
-One list is weakly majorized by another when all of its leading partial sums are no larger. If the full totals also agree, we call the relation ordinary majorization.
+Compare two distributions of the same total mass: the list four, zero and the list two, two. Squaring and adding gives sixteen for the concentrated list and eight for the balanced list. The convex function that squares a nonnegative number penalizes concentration.
 
-Today we will explain why that ordering controls many measurements beyond prefix sums. The mechanism is convexity. When we average different arrangements of the same data, a convex measurement cannot increase. And when we decrease the sizes of coordinates, an appropriate absolute-value-invariant measurement cannot increase either.
+This is the intuition behind majorization and convexity. When one sorted list is majorized by another, sums of convex functions, under the usual assumptions, are ordered in a predictable direction. For weak majorization, monotonicity of the convex function becomes important as well.
 
-Our main theorem says that weak majorization of nonnegative sorted lists implies an inequality for every convex gauge that is invariant under coordinate permutations and sign changes. We will build enough of the proof to see exactly where each hypothesis enters.
+In matrix analysis, the lists are often singular values. The largest singular values contribute disproportionately to Schatten norms with higher exponents, while Ky Fan sums measure their cumulative mass directly. If we establish the proper majorization relationship, we can derive multiple norm inequalities without repeating an operator proof for each exponent.
+
+We will start with concrete two-entry transfers of mass, derive the convexity inequality, and then explain its extension to ordered lists. The goal is to make clear which hypotheses come from the scalar theorem and which come from the operator inequality that supplied the singular-value comparison.
 
 ## Convexity as a usable inequality
 

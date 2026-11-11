@@ -6,9 +6,13 @@
 
 # Sharp examples and norm-class comparisons
 
-A sine or tangent perturbation theorem bounds an angular error by a residual divided by a spectral gap. To judge the quality of that theorem, we must test its numerical constant against examples satisfying the exact hypotheses. When a theorem has a gap in the denominator and a norm on each side, which factors are inevitable? What does it mean for an estimate to be sharp? And why must we be careful when changing from operator norm to Frobenius norm or a different unitarily invariant norm?
+A constant in an inequality earns its place only if no smaller constant works for all admissible examples. The easiest way to test a spectral-angle inequality is to choose a matrix where we can calculate every term.
 
-Our answers will come from matrices small enough to calculate by hand.
+Take a diagonal two-by-two matrix with entries zero and five, the horizontal target line, and a unit trial vector tilted by theta. If we use zero as the trial scalar, the residual length is five times sine theta; the gap to the unwanted eigenvalue is five. We get equality in the constant-one sine bound. Nothing in this calculation uses an approximation or an asymptotic limit.
+
+If we change the trial scalar to the Ritz compression, the residual becomes five times sine theta times cosine theta, and its gap to the unwanted eigenvalue becomes five times cosine squared theta. The resulting tangent inequality is again an equality. One example has shown why the denominator must change with the choice of trial operator.
+
+Norms introduce a further test. One planar example determines a largest singular value, but taking independent copies exposes the whole singular-value list. Operator, Frobenius, and nuclear norms count that list differently. To decide which constants are valid, we must pair each proposed norm with the exact spectral separation its proof uses. We will distinguish sharpness, correct hypotheses, and the possibility of extending a result from one norm class to another.
 
 ## Three separate questions about any bound
 

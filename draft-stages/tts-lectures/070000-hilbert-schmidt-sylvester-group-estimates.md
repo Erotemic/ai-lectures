@@ -6,9 +6,13 @@
 
 # Turning operators into vectors
 
-Consider A X minus X B equals C with self-adjoint coefficients. If every spectral value of A is at least delta away from every spectral value of B, the Hilbert–Schmidt norm obeys the sharp estimate delta times the norm of X at most the norm of C, even when the spectral sets interlace. The same constant-one statement can fail in operator norm. The difference comes from how the two norms combine matrix coefficients.
+Let A and B be diagonal self-adjoint matrices, and consider the equation A X minus X B equals C. If the spectra of A and B stay at least delta apart, every entry of X is the corresponding entry of C divided by a number of magnitude at least delta.
 
-Today we will explain the mechanism behind this difference. We will treat an operator as a vector in a larger Hilbert space, turn left and right multiplication into a single self-adjoint generator, and measure the Sylvester equation by the spectral gap of that generator. Our route begins with ordinary rectangular matrices and ends with the same idea on infinite-dimensional Hilbert spaces.
+Squaring those entrywise inequalities and summing gives delta times the Hilbert–Schmidt norm of X at most the Hilbert–Schmidt norm of C. There is no need for all the denominator differences to have the same sign; pairwise separation suffices.
+
+The reason this works is structural. The matrix units between the eigenbases of A and B form an orthonormal basis of the Hilbert space of Hilbert–Schmidt operators. The Sylvester map acts diagonally on those matrix units. In that Hilbert-space norm, the scalar denominator calculation is a full operator proof.
+
+We will extend the argument to spectral blocks, explain how Hilbert–Schmidt convergence works in infinite-dimensional spaces, and distinguish this theorem from operator-norm estimates that require stronger separation or different constants.
 
 ## A Hilbert space whose vectors are matrices
 

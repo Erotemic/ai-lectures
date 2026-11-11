@@ -2,11 +2,13 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-For a family of vectors, the synthesis map S turns coefficients into an ambient vector, and its adjoint S star measures the coefficients of an ambient vector. The composite S star S acts on coefficient space. The reverse composite S S star acts on the ambient space and is called the frame operator.
+An orthonormal basis makes energy accounting simple. In the plane, the squared length of a vector is the sum of the squares of its two coordinates. This is Parseval's identity in its most familiar form.
 
-This new composition is the frame operator. And its behavior tells us whether a family of vectors gives a faithful, incomplete, distorted, or redundant way of describing the space.
+Now replace the orthonormal pair by three vectors: two copies of the horizontal unit vector and one vertical unit vector. Analysis produces three measurements, but the horizontal component appears twice. The sum of squared measurement magnitudes is twice the horizontal energy plus the vertical energy. We have a stable measurement family, yet it is not Parseval.
 
-There is an important distinction to keep in mind. A collection of vectors can record every direction in a space without being a basis. In fact, it can contain repeated vectors and still allow perfect reconstruction, provided we interpret the measurements correctly.
+The frame operator records this weighting. It maps each ambient vector through analysis and back through synthesis, and in our example it multiplies the horizontal coordinate by two and leaves the vertical coordinate unchanged. Its positive upper and lower bounds explain stable recovery. Applying its inverse before synthesis corrects the unequal weighting.
+
+We will separate frames from bases, parsevality from mere completeness, and the operator on the ambient space from the Gram matrix on the coefficient space. Redundancy changes both reconstruction and the interpretation of squared measurements.
 
 ## Which way do the arrows go?
 
@@ -113,6 +115,19 @@ Before moving on, try to answer four questions without looking at a formula. Why
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### Redundancy changes the frame operator
+
+For \(S:\mathbb R^3\to\mathbb R^2\),
+\(S(a,b,c)=(a+b,c)\), the three frame columns are \(e_1,e_1,e_2\).
+Then
+\[
+SS^*=\begin{pmatrix}2&0\\0&1\end{pmatrix},\quad
+\|S^*(x,y)\|^2=2x^2+y^2,\quad
+(SS^*)^{-1}=\begin{pmatrix}\tfrac12&0\\0&1\end{pmatrix}.
+\]
+Thus a frame can span the space and admit stable reconstruction without
+satisfying the Parseval identity.
 
 Let `S : 𝕜^ι → E` denote finite synthesis of a family `v : ι → E`, with analysis `S*`. The operators have different domains:
 

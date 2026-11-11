@@ -2,11 +2,11 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-Given vectors v one through v n, the synthesis map S takes coefficients c and returns their linear combination. Its adjoint S star analyzes a vector by taking inner products with the selected vectors. The composite S star S acts on coefficient lists; it is the Gram operator.
+Take two vectors in the plane. The first is horizontal with coordinates one and zero. The second has coordinates one and one. Their lengths are one and the square root of two, and their inner product is one. Put those three inner-product measurements in a two-by-two matrix: its entries are one, one, one, and two.
 
-It may look like a device for storing a table of inner products. But that table encodes much more. It records lengths, angles, linear dependence, and enough information to reconstruct the geometry of a finite collection of vectors, up to an appropriate change of coordinates.
+This Gram matrix carries geometric information without explicitly listing the original coordinates. Its determinant is one, so the two vectors are linearly independent. If we replace the second vector by the horizontal vector twice as long, the Gram matrix becomes rank one, revealing that the vectors now lie on the same line.
 
-We are not assuming a spectral theorem today. We will prove the basic facts directly from inner products, so that when we eventually study eigenvalues of Gram operators, we know exactly what those eigenvalues are describing.
+To express this systematically, let synthesis send coefficient lists to linear combinations of the selected vectors. The Gram operator is synthesis adjoint followed by synthesis. It acts on the coefficient space, is positive semidefinite, and has exactly the coefficient dependencies that synthesis has. We will derive these facts, then distinguish the coefficient Gram operator from synthesis followed by its adjoint, which acts on the ambient space.
 
 ## Make the table by measuring each vector against every other
 
@@ -123,6 +123,19 @@ Try to reconstruct four arguments. Why is every Gram operator positive semidefin
 ---
 
 ## Companion: mathematical statements and Lean correspondence (display only)
+
+### Two Gram matrices that distinguish independence
+
+For \(v_1=(1,0)\), \(v_2=(1,1)\), the synthesis matrix
+\(S=[v_1\ v_2]\) has
+\[
+S^*S=\begin{pmatrix}1&1\\1&2\end{pmatrix},\qquad
+\det(S^*S)=1>0.
+\]
+Replacing \(v_2\) by \((2,0)\) gives
+\(S^*S=\left(\begin{smallmatrix}1&2\\2&4\end{smallmatrix}\right)\),
+whose determinant is zero. The kernel of \(S^*S\) always equals the
+kernel of \(S\), since \(\langle S^*Sc,c\rangle=\|Sc\|^2\).
 
 For a finite family \(v=(v_i)_{i\in I}\subset H\) and synthesis \(S_v:\mathbb K^I\to H\), define \(G_v=S_v^*S_v\). With the project's inner-product convention, \((G_v)_{ij}=\langle v_i,v_j\rangle\). Then
 

@@ -6,9 +6,13 @@
 
 # Off-diagonal perturbations and block reflection
 
-Let T be self-adjoint, with a reducing subspace U and a spectral gap between its two diagonal blocks. Perturb T to S and compare U with a reducing subspace of S. A useful tool is reflection through a subspace: it preserves the diagonal blocks of an operator and reverses the off-diagonal blocks. This elementary symmetry explains why perturbation estimates involving twice the principal angles arise.
+Consider a symmetric matrix made of two diagonal blocks and one coupling between them. For the smallest example, use a two-by-two matrix with diagonal entries minus one and one, and equal off-diagonal entries h. The diagonal entries describe the two uncoupled coordinates. The off-diagonal entries move information between them.
 
-We will derive this identity entirely from the two-by-two block matrix of an orthogonal splitting.
+Now change the sign of the second coordinate while leaving the first unchanged. This is an orthogonal reflection. Applying it before and after the matrix leaves the diagonal entries alone but changes both off-diagonal entries from h to minus h. If we add the reflected matrix to the original and divide by two, the coupling disappears. If we subtract them and divide by two, only the coupling remains.
+
+This is the block-reflection method in miniature. It separates perturbations that act within the chosen subspaces from perturbations that send vectors across the decomposition. The separation matters because the two pieces affect spectral gaps and subspace rotation differently.
+
+The reflection is defined by an orthogonal projection, so the same algebra works on Hilbert spaces. We will derive its exact action on a general two-block operator, then distinguish reflecting an operator's blocks from reflecting one subspace across another. The latter operation is what produces doubled-angle geometry.
 
 ## Split the ambient space into two components
 
@@ -101,6 +105,17 @@ In a principal plane, reflecting one line across another doubles the angle betwe
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### Exact two-block pinching
+
+For \(A=\left(\begin{smallmatrix}-1&h\\h&1\end{smallmatrix}\right)\)
+and \(J=\operatorname{diag}(1,-1)\),
+\[
+\tfrac12(A+JAJ)=\operatorname{diag}(-1,1),\qquad
+\tfrac12(A-JAJ)=\begin{pmatrix}0&h\\h&0\end{pmatrix}.
+\]
+The first expression is diagonal pinching; the second is the
+purely off-diagonal part relative to the chosen decomposition.
 
 For `P=P_U`, `Q=I-P`, `J=P-Q`, and `S=T+H`, with `U` reducing self-adjoint `T`,
 

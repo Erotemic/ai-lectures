@@ -6,11 +6,13 @@
 
 # Which measurements survive a change of orthonormal coordinates?
 
-Suppose two people measure the same linear map, but one uses a different orthonormal basis for the inputs and a different orthonormal basis for the outputs. They should agree on the map's intrinsic size. The operator, Frobenius, and nuclear norms all have this property. Their common property is invariance under unitary changes of input and output coordinates.
+Take a diagonal map with stretching factors three and one, and rotate both its input and output coordinate systems. The matrix entries can change substantially, yet its intrinsic stretching factors remain three and one.
 
-The statement we are heading toward is that, for a fixed finite matrix shape, an invariant norm can be read from its singular values using a symmetric gauge. Conversely, an appropriate symmetric gauge gives a norm on matrices by applying it to their singular values. The word appropriate matters: the triangle inequality is a theorem that we need to establish, rather than a consequence of merely choosing an arbitrary symmetric function.
+A unitarily invariant norm assigns the same size before and after those coordinate changes. This property tells us that the norm must depend on the singular-value list rather than on the particular bases. In finite dimensions, symmetric gauge functions provide exactly the possible ways to measure that list while respecting coordinate permutations and sign changes.
 
-We will also distinguish a property of one matrix space from a compatible rule that measures operators between many different spaces.
+The operator norm, Frobenius norm, trace norm and every Ky Fan norm are familiar examples. But a generic invariant norm cannot be treated as if it were one of these specific formulas. A common strategy is to prove inequalities for all leading singular-value sums, then use Ky Fan dominance to transfer them to any symmetric gauge norm for which the theorem applies.
+
+We will distinguish invariance from submultiplicativity, explain why rectangular maps require a consistent zero-padding convention, and identify the role of the complete singular-value list in norm comparisons.
 
 ## Begin with orthonormal changes of coordinates
 

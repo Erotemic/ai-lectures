@@ -6,9 +6,13 @@
 
 # The sine-two-theta theorem
 
-A subspace perturbation can be measured by twice its principal angles. Suppose a self-adjoint operator has a reducing subspace with its spectrum ordered above the spectrum on the orthogonal complement. If the operator changes by a self-adjoint perturbation, reflection through a reducing subspace of the perturbed operator turns the angular comparison into a residual with a sharp norm bound.
+Take a symmetric two-by-two matrix whose eigenvalues are minus one and one. Its two eigenspaces are the horizontal and vertical axes, with a spectral gap of two. Add a symmetric coupling h between the axes. The eigenvectors rotate, and the rotation angle theta is governed by twice theta: elementary diagonalization gives tangent of twice theta equal to h in absolute value.
 
-The conclusion says that the gap times the sine of twice the subspace angle is at most twice the perturbation size. We will derive this estimate carefully, and then explain what it can and cannot tell us about the original angle.
+Reflection supplies a route to an inequality without first diagonalizing the perturbed matrix. Reflect through a reducing subspace of the perturbed operator. That reflection preserves the perturbed operator, while the difference between the reflected original operator and the original is controlled by twice the size of the perturbation. A single-angle estimate applied to the reflected pair becomes a bound for the sine of twice the principal angle.
+
+The setting is a self-adjoint original operator with an ordered form gap between the restrictions to an exact reducing subspace and its orthogonal complement. The perturbed operator is also self-adjoint, and a chosen reducing subspace of it is compared with the exact one. The spectral-gap predicate, rather than just an arbitrary pairwise distance, permits the estimate.
+
+The resulting inequality is quantitative, but it has a built-in ambiguity: sine of twice an angle is small near zero and again near ninety degrees. We will derive the bound and then exhibit why an independent spectral-selection argument is needed before treating a small doubled sine as evidence of a small original angle.
 
 ## Set up the operators and reducing subspaces
 
@@ -111,6 +115,21 @@ A bound on the doubled sine alone does not rule out angles close to ninety degre
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### An exact off-diagonal two-level formula
+
+For
+\[
+S=\begin{pmatrix}-1&h\\h&1\end{pmatrix},
+\qquad \sigma(S)=\{-\sqrt{1+h^2},\sqrt{1+h^2}\},
+\]
+the acute rotation angle \(\theta\) of the negative spectral branch
+from the horizontal axis satisfies
+\(\tan(2\theta)=|h|\) and
+\(\sin(2\theta)=|h|/\sqrt{1+h^2}\).
+The ordered diagonal gap of the unperturbed matrix is two;
+consequently \(2\sin(2\theta)\le2|h|\), with equality in the
+zero-coupling limit to first order.
 
 For finite-dimensional self-adjoint `T,S`, `H=S-T`, reducing `U` of `T` and reducing `V` of `S`, and a two-block form gap `T|U ≥ b`, `T|Uᗮ ≤ a` (`δ=b-a>0`), the canonical ambient theorem is
 

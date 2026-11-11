@@ -2,13 +2,11 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-The finite spectral theorem states that every real symmetric or complex Hermitian matrix has an orthonormal eigenbasis. Thus a vector can be split into its eigenvector components, the matrix can act on each separately, and the results can be summed. This gives quantitative information about its quadratic form.
+Take a diagonal matrix with eigenvalues one and four. A unit vector making an angle theta with the first coordinate axis has coordinates cosine theta and sine theta. Its quadratic measurement under the matrix is one times cosine squared theta plus four times sine squared theta, or one plus three times sine squared theta.
 
-Today we will use that decomposition to answer a different question. Suppose I give you a self-adjoint matrix A and a nonzero vector x. Can a single number describe how strongly A acts along the direction of x?
+At theta equal to zero, the measurement is one. At ninety degrees it is four. At intermediate angles it lies between the eigenvalues, and changing the vector changes the weighted average. This is the Rayleigh quotient for unit vectors. For a nonunit vector we divide the same quadratic form by its squared length to remove the effect of scaling.
 
-There is a natural candidate. Take the inner product of A x with x, then divide by the squared length of x. This number is called the Rayleigh quotient. It connects eigenvectors, quadratic forms, geometric optimization, and eventually the variational formulas we will use for Davis–Kahan theory.
-
-The important part is not merely the definition. It is why optimizing this one number recovers the extreme eigenvalues, and why the directions at which it stops changing are precisely eigenvector directions.
+The extremal values recover the smallest and largest eigenvalues of a self-adjoint matrix. But a Rayleigh quotient alone does not identify an eigenvector unless its value attains a suitable extremum or we have additional information. We will derive the weighted-average formula from the spectral theorem, use it to prove the extrema, and then explain why the same variational viewpoint supports eigenvalue approximation on subspaces.
 
 ## What does the quotient measure?
 

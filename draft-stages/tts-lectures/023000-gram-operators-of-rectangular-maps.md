@@ -2,13 +2,13 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-An arbitrary rectangular linear map has two associated positive operators: A adjoint A on its input space and A A adjoint on its output space. These Gram operators reveal the same positive singular-value data despite acting on spaces of potentially different dimensions.
+Consider the rectangular map that takes the plane vector with coordinates x and y into the three-dimensional vector with coordinates twice x, y, and zero. It stretches the first input direction by two, preserves the second, and never produces a component along the third output axis.
 
-A map from a plane into three-dimensional space is represented by a three-by-two matrix. It is not square. So we cannot even ask for its eigenvalues in the ordinary sense, because the equation A of x equals lambda times x would compare vectors living in different spaces.
+Composing its adjoint after the map gives a two-by-two diagonal matrix with entries four and one. Reversing the order gives a three-by-three diagonal matrix with entries four, one, and zero. The matrices have different sizes, but their strictly positive eigenvalues agree. The extra zero records an unused output direction.
 
-But there is a way to turn that rectangular map into two square operators. The surprising fact is that both squares reveal the same positive nonzero spectral information, even though they act on different spaces.
+These are the two Gram operators of a rectangular map. One acts on the input space and measures squared output lengths. The other acts on the output space and measures the active range of the map. Their shared nonzero spectral data lead directly to singular values; their zero multiplicities depend on the dimensions and the kernel or range.
 
-This is the mathematical origin of the two sides of singular-value decomposition.
+We will prove the connection without assuming the map is square or invertible, then interpret why a left singular vector and a right singular vector must live in different spaces.
 
 ## A map and its adjoint
 

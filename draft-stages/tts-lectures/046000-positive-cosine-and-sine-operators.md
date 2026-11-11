@@ -6,11 +6,13 @@
 
 # Can an operator have a cosine?
 
-Think back to two lines meeting at an angle. The cosine tells us how much of a unit vector along one line survives when we project it onto the other. The sine tells us how much is lost into the perpendicular direction.
+A unit arrow pointing thirty degrees above the horizontal has horizontal component of length the square root of three divided by two and vertical component of length one half. Those are its cosine and sine relative to the horizontal axis.
 
-A finite-dimensional pair of subspaces can have several principal angles, one for each independent principal plane. But a list of angles requires choosing principal vectors, and in infinite dimensions there may be no complete list of them. Can we encode the same geometry without first choosing any vectors at all?
+For two subspaces, the same measurements vary with direction. Rather than choosing a particular pair of principal vectors each time, we package the measurements into positive operators on the coordinate space of one subspace. The cosine operator records how much of a vector survives projection into the other subspace. The sine operator records how much escapes.
 
-Yes. We can build positive operators that behave like cosine and sine, directly from the two orthogonal projections. Their central identity is the operator version of cosine squared plus sine squared equals one. It describes acute subspace pairs and the direct rotations between them.
+Their squares add to the identity on the common input coordinate space, just as squared horizontal and vertical lengths add to the squared length of an arrow. This is why positivity and the functional calculus are useful: the sine can be defined as the positive square root of a complementary projection Gram operator, and the cosine from the other Gram operator.
+
+We will derive the identities without assuming that the two subspaces have the same dimension. That directional convention is important when a perturbation theorem starts from a rectangular trial frame.
 
 ## Start with a single tilted line
 

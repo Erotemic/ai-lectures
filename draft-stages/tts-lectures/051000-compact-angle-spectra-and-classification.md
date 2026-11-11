@@ -6,11 +6,13 @@
 
 # Can a list of angles classify two subspaces?
 
-In finite-dimensional inner-product spaces, the principal angles of two subspaces come from the singular values of their cross-Gram matrix. Together with the dimensions of their common, crossed-perpendicular, and exterior parts, those angles classify the pair up to an orthogonal or unitary change of coordinates.
+Imagine a collection of independent two-dimensional planes. In plane number n, rotate a line by a small angle theta n. If these angles approach zero, the disagreement between the corresponding subspace projections becomes smaller and smaller on later planes.
 
-But we are working toward results about Hilbert spaces that may be infinite-dimensional. A bounded self-adjoint operator on an infinite-dimensional space need not have an eigenvector basis. So we should not assume that every pair of subspaces comes with a complete list of principal angles.
+When the sines of the angles tend to zero, the projection difference can be compact: it can be approximated in operator norm by retaining only the first finitely many principal planes. The individual principal angles can then be listed as discrete spectral data, apart from possible accumulation at zero.
 
-Today's question is precise: under what hypotheses does a numerical angle list give a complete classification? And what mathematical information is missing when the spectrum is continuous?
+That is the bridge between elementary principal-angle geometry and compact-operator classification. Compactness does not say the operator has finite rank. It says the tail of its significant singular values can be made uniformly small. We can use this property to classify the generic part of two subspaces through angle sequences, together with dimensions of intersections and perpendicular defect spaces.
+
+We will verify how compactness enters and why the dimension data cannot be discarded. Two pairs may share the same nonzero angle sequence but differ in their zero-angle and right-angle multiplicities.
 
 ## What exactly are we classifying?
 

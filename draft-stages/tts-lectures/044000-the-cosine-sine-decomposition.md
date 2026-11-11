@@ -6,11 +6,13 @@
 
 # Can two subspaces be understood one plane at a time?
 
-For two subspaces, their cosine and sine overlap operators satisfy a Pythagorean identity: the squared cosine contribution plus the squared sine contribution is the identity on the appropriate coordinates. Principal planes turn this operator relation into simple two-by-two projection matrices.
+Draw two lines in the plane that meet at an angle theta. A unit vector on the first line has one component along the second line and one component perpendicular to it. Their lengths are cosine theta and sine theta. Squaring and adding gives one.
 
-We will show that, in finite dimensions, a pair of subspaces can be studied through mutually perpendicular two-dimensional planes, together with directions where the projections already agree or are completely opposed.
+The cosine–sine decomposition performs this same bookkeeping for two subspaces with several principal angles. In the principal directions, each relationship looks like a two-dimensional rotation block. The cosine block says how much stays in the selected subspace; the sine block says how much escapes into its complement.
 
-On each tilted plane, the entire relationship reduces to an ordinary angle theta. This is the cosine–sine decomposition. It is a geometric explanation of why complicated projection formulas so often reduce to expressions involving sine theta, cosine theta, and sine of twice theta.
+To find the decomposition, start with orthonormal coordinate maps for the subspaces and use singular-value decomposition on their overlap. The same principal vectors then organize complementary overlaps. We will derive the unitary block relations, explain where intersections and right-angle directions enter, and keep track of which blocks act on the selected coordinates and which act on their orthogonal complements.
+
+A useful check throughout is that no length is created. In each principal plane, the squared cosine and squared sine still add to one, exactly as for a single unit vector.
 
 ## Begin with one tilted pair
 

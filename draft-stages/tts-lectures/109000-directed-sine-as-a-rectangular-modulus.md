@@ -6,9 +6,13 @@
 
 # Directed sine as a rectangular modulus
 
-Let X be the bounded overlap map that takes trial coordinates into the exact complementary spectral coordinates. A residual identity makes X solve a Sylvester equation, so a gap between the trial and complementary spectra controls its norm. The remaining geometric step is to identify the singular values of X with the sines of the directed principal angles.
+A line tilted by thirty degrees from the horizontal has an escape length of one half: project its unit direction onto the vertical axis, and the vertical component has length one half. That simple measurement is the sine of the angle.
 
-The main identity is a Gram-operator calculation. It works for real or complex Hilbert spaces, for finite-dimensional or infinite-dimensional trial spaces, and without choosing individual principal vectors.
+Now replace the line with a plane. Different unit directions in the trial plane may escape the desired exact plane by different amounts. We need one object that records all those escape lengths and behaves correctly when we change the orthonormal coordinates used to describe the trial plane.
+
+Let the exact target subspace be U, and let E carry trial-coordinate vectors isometrically into the ambient Hilbert space. Project E's outputs onto the orthogonal complement of U. Call the resulting map S. It sends each trial input to the part of its ambient vector lying outside the target. The positive square root of S adjoint S measures the length of that escape for every direction, and its singular values give the directed principal sines.
+
+There is another way to record exactly the same data. Choose orthonormal coordinates in the exact complement and take the overlap between those coordinates and E. That rectangular overlap is the variable solved for by the complementary Sylvester equation. We will show that its modulus is the same as the modulus of S. Once established, an estimate for the overlap becomes an estimate for subspace angles, with no need to match individual eigenvectors.
 
 ## Define the two projections
 
@@ -96,12 +100,20 @@ The ambient projection difference P minus the trial projection is yet another an
 
 We now have both ingredients. The complementary Sylvester equation controls X in terms of the compressed residual. The Gram identity identifies the modulus of X with the directed sine operator. Consequently a suitable Sylvester estimate becomes a principal-angle estimate with no further approximation.
 
-
 <!-- END SPOKEN LECTURE -->
 
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### Rectangular sine for a line
+
+For \(u=(\cos\theta,\sin\theta)^T\) and the horizontal reference
+line \(Q=\operatorname{span}\{e_1\}\), the escape map
+\((I-P_Q)u=(0,\sin\theta)^T\) has the sole singular value
+\(|\sin\theta|\). At thirty degrees that singular value is
+\(1/2\). In unequal dimensions the escape map remains rectangular;
+its nonzero singular values encode the directed principal sines.
 
 Let `P=F₀F₀*`, `S=(I−P)E`, and `X=F₁*E` with `F₁F₁*=I−P`. Then `S*S=E*(I−P)E=X*X`, hence `|S|=|X|`. Under trial frame change `E↦EW`, the modulus conjugates by `W`. The resulting source-indexed sine operator is rectangular; ideal membership and gauge transport use invariance of complete singular-value/approximation-number data.
 

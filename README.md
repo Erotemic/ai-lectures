@@ -1,20 +1,24 @@
-# Davis--Kahan visualizations
+# AI Lectures
 
-Executable geometric visualizations and narrated learning material for the
-Davis--Kahan formalization and its transport extensions. The library includes
-sine-theta geometry, the other angle bounds, the Proposition 4.4 counterexample
-and repair, and the real matching proof. Numerical examples are shared by the
-renderers rather than reimplemented in individual presentations.
+A general-purpose library for developing, organizing, and delivering
+AI-authored educational lectures. The initial comprehensive curriculum teaches
+mathematics from linear algebra and Hilbert spaces through spectral theory,
+operator equations, and Davis--Kahan perturbation results. The lecture scripts
+are designed for independent listening through text-to-speech, with separate
+mathematical companions and focused learning references.
 
-This directory is not part of the Lean build. It is a companion for developing
-intuition, figures, talks, and manuscript animations. Numerical assertions here
-do not replace the Lean proofs.
+The audio-first corpus is under `draft-stages/tts-lectures/`: numbered Markdown
+transcripts contain explicitly marked spoken sections and display-only
+mathematics. Their per-lecture source notes live in
+`draft-stages/tts-lectures/metadata/`, while `curriculum/` holds graph and topic
+navigation. The repository also retains the Manim/VTK visualization, presentation,
+and audio-production tooling extracted from the earlier research project. That
+infrastructure remains supported, but it does not define the scope of future
+subjects in the library.
 
-The [lecture project vision and history plan](docs/planning/lecture-project-vision-and-history.md)
-sets the north star: the entire Davis–Kahan paper, this project's extensions,
-and the prerequisites needed to understand them, with a learning map progressively
-validated against Lean 4 proofs. Useful lectures can be drafted before that
-formal correspondence is complete.
+The [lecture style rules](LECTURE_STYLE_RULES.md) govern transcript revisions.
+The [lecture vision and history plan](docs/planning/lecture-project-vision-and-history.md)
+records the origin and mathematical goals of the initial curriculum.
 
 ## Where to start
 
@@ -37,7 +41,7 @@ it is authored data to back up, not a render cache to clean.
 ## Setup
 
 This Python project is independent of the Lean build and supports Python
-3.11–3.13. From `visualizations/`, install the parts needed for slides, serving,
+3.11–3.13. From the repository root, install the parts needed for slides, serving,
 and tests:
 
 ```bash
@@ -50,7 +54,7 @@ explains the common commands and TTS configuration.
 
 ## Render narrated lectures
 
-From `visualizations/`, start a configured TTS server and render a lecture or
+From the repository root, start a configured TTS server and render a lecture or
 all registered lectures in dependency order:
 
 ```bash

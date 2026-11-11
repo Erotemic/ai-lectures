@@ -6,11 +6,13 @@
 
 # A measure whose values are projections
 
-In the finite spectral theorem, a self-adjoint matrix splits the space into mutually orthogonal eigenspaces. We assigned a projection to each eigenvalue. If we selected several eigenvalues, we added their projections, and the result was again a projection. That procedure was the finite prototype of a projection-valued measure.
+For a symmetric matrix with three distinct eigenvalues, we can project onto any chosen subset of its eigenspaces. Projecting onto two disjoint eigenvalue groups and adding the results gives the projection onto their union. Projecting onto the empty group gives zero, and projecting onto all three gives the identity.
 
-Now imagine the multiplication operator on square-integrable functions over the unit interval. The operator sends a function of t to t times that function. There are no ordinary eigenvectors, yet we can still select spectral values between one quarter and one half. The resulting operator keeps the function on that interval and sets it to zero elsewhere. It is an orthogonal projection.
+In infinite-dimensional spectral theory, eigenvectors may be absent. Nevertheless, a self-adjoint operator still supplies projections associated with Borel sets of spectral values. The rule assigning a projection to each measurable set is a projection-valued measure.
 
-We want one construction that includes both examples. It must work with Borel sets, not merely individual eigenvalues, and it must respect countably many disjoint sets. Our first task is to identify precisely what kind of countable addition makes sense for operators.
+The word measure signals countable additivity, but here the outputs are projections rather than numbers. For disjoint measurable spectral sets, the associated projections have orthogonal ranges. Their countable sum is interpreted through strong convergence on each Hilbert-space vector, not necessarily by operator-norm convergence.
+
+We will derive the finite matrix example, state the countable-additivity requirement carefully, and then connect projection-valued measures to scalar measures obtained by taking inner products. That connection is what permits spectral integration and functional calculus.
 
 ## The definition
 

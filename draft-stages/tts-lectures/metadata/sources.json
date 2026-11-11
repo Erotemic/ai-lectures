@@ -1125,6 +1125,398 @@
       "notes": "Read the Hermitian eigenvalue-perturbation corollary based on ordered eigenvalues, separate from the number-theory usage.",
       "access": "free_no_login",
       "format": "html"
+    },
+    "wiki-linear-map": {
+      "title": "Linear map - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Linear_map",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Linearity, kernels, coordinate matrices, and how an abstract map is represented.",
+      "access": "free_no_login"
+    },
+    "wiki-normed-vector-space": {
+      "title": "Normed vector space - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Normed_vector_space",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Definitions of norms, norm convergence, and basic examples.",
+      "access": "free_no_login"
+    },
+    "wiki-banach-space": {
+      "title": "Banach space - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Banach_space",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Completeness, Cauchy sequences, and why limits matter for analysis.",
+      "access": "free_no_login"
+    },
+    "wiki-cauchy-sequence": {
+      "title": "Cauchy sequence - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Cauchy_sequence",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "The Cauchy criterion and the distinction between completeness and convergence in an ambient space.",
+      "access": "free_no_login"
+    },
+    "wiki-bounded-operator": {
+      "title": "Bounded operator - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Bounded_operator",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Bounded linear maps and their equivalence with continuity.",
+      "access": "free_no_login"
+    },
+    "wiki-operator-norm": {
+      "title": "Operator norm - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Operator_norm",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Largest unit-vector amplification; useful for comparing operator and other matrix norms.",
+      "access": "free_no_login"
+    },
+    "wiki-dual-space": {
+      "title": "Dual space - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Dual_space",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Linear functionals, duals and the transition to adjoints.",
+      "access": "free_no_login"
+    },
+    "wiki-inner-product-space": {
+      "title": "Inner product space - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Inner_product_space",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Orthogonality, inner products, Cauchy–Schwarz, and induced norms.",
+      "access": "free_no_login"
+    },
+    "wiki-hilbert-space": {
+      "title": "Hilbert space - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hilbert_space",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Complete inner-product spaces, orthogonal projections and foundational examples.",
+      "access": "free_no_login"
+    },
+    "wiki-polarization-identity": {
+      "title": "Polarization identity - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Polarization_identity",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Recovering an inner product from its quadratic norm data.",
+      "access": "free_no_login"
+    },
+    "wiki-riesz-representation": {
+      "title": "Riesz representation theorem - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Riesz_representation_theorem",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Representation of continuous linear functionals by inner products.",
+      "access": "free_no_login"
+    },
+    "wiki-unitary-operator": {
+      "title": "Unitary operator - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Unitary_operator",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Isometries with unitary inverse and their norm-preserving action.",
+      "access": "free_no_login"
+    },
+    "wiki-hermitian-matrix": {
+      "title": "Hermitian matrix - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hermitian_matrix",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Self-adjoint matrix structure, real eigenvalues and orthogonal eigenspaces.",
+      "access": "free_no_login"
+    },
+    "wiki-invariant-subspace": {
+      "title": "Invariant subspace - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Invariant_subspace",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "What it means for a subspace to be preserved under a linear map.",
+      "access": "free_no_login"
+    },
+    "wiki-direct-sum": {
+      "title": "Direct sum - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Direct_sum",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Decomposing a vector space into independent pieces for block calculations.",
+      "access": "free_no_login"
+    },
+    "wiki-frame-linear-algebra": {
+      "title": "Frame (linear algebra) - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Frame_(linear_algebra)",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Analysis/synthesis operators, frame bounds and Parseval-type identities.",
+      "access": "free_no_login"
+    },
+    "wiki-gram-matrix": {
+      "title": "Gram matrix - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Gram_matrix",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Pairwise inner products, positive Gram operators, and geometric reconstruction.",
+      "access": "free_no_login"
+    },
+    "wiki-orthogonal-matrix": {
+      "title": "Orthogonal matrix - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Orthogonal_matrix",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Orthonormal columns, rotations, and change of basis in real spaces.",
+      "access": "free_no_login"
+    },
+    "wiki-eigenvalues-eigenvectors": {
+      "title": "Eigenvalues and eigenvectors - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Eigenvectors and eigenvalues before moving to spectral subspaces.",
+      "access": "free_no_login"
+    },
+    "wiki-finite-spectral": {
+      "title": "Spectral theorem - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Spectral_theorem",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Diagonalization of self-adjoint matrices and multiplication-operator interpretations.",
+      "access": "free_no_login"
+    },
+    "wiki-rayleigh-quotient": {
+      "title": "Rayleigh quotient - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh_quotient",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Extremal eigenvalue characterizations through quadratic forms.",
+      "access": "free_no_login"
+    },
+    "wiki-courant-minimax": {
+      "title": "Courant minimax principle - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Courant_minimax_principle",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "The variational min–max formula and the role of competing subspaces.",
+      "access": "free_no_login"
+    },
+    "wiki-positive-matrix": {
+      "title": "Definite matrix - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Positive-definite_matrix",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Positive-semidefinite quadratic forms and spectral positivity.",
+      "access": "free_no_login"
+    },
+    "wiki-spectrum-operator": {
+      "title": "Spectrum (functional analysis) - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Spectrum_(functional_analysis)",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Spectrum, resolvent set and the difference between eigenvalues and spectral points.",
+      "access": "free_no_login"
+    },
+    "wiki-spectral-theory": {
+      "title": "Spectral theory - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Spectral_theory",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Context connecting finite eigenvalue calculations to operator spectral theory.",
+      "access": "free_no_login"
+    },
+    "wiki-matrix-exponential": {
+      "title": "Matrix exponential - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Matrix_exponential",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Exponentials of matrices and one-parameter linear evolution.",
+      "access": "free_no_login"
+    },
+    "wiki-angles-between-flats": {
+      "title": "Angles between flats - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Angles_between_flats",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Principal angles defined using subspace vectors and singular values of overlaps.",
+      "access": "free_no_login"
+    },
+    "wiki-majorization-extra": {
+      "title": "Majorization - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Majorization",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Partial-sum inequalities, weak majorization and convex functions.",
+      "access": "free_no_login"
+    },
+    "wiki-schur-horn": {
+      "title": "Schur–Horn theorem - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Schur%E2%80%93Horn_theorem",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "A concrete link between spectral data, diagonals and majorization.",
+      "access": "free_no_login"
+    },
+    "wiki-low-rank-approx": {
+      "title": "Low-rank approximation - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Low-rank_approximation",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Best rank-constrained matrix approximations through singular values.",
+      "access": "free_no_login"
+    },
+    "wiki-kronecker-product": {
+      "title": "Kronecker product - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Kronecker_product",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Vectorization and the Kronecker formulation of matrix operator equations.",
+      "access": "free_no_login"
+    },
+    "wiki-weak-convergence": {
+      "title": "Weak convergence (Hilbert space) - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Weak_convergence_%28Hilbert_space%29",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "An orthonormal-sequence counterexample distinguishing weak and norm convergence.",
+      "access": "free_no_login"
+    },
+    "wiki-weak-op-topology": {
+      "title": "Weak operator topology - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Weak_operator_topology",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Scalar testing of operators, contrasted with norm and strong convergence.",
+      "access": "free_no_login"
+    },
+    "wiki-sigma-algebra": {
+      "title": "σ-algebra - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Sigma-algebra",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Measurable sets and the closure operations required by spectral measures.",
+      "access": "free_no_login"
+    },
+    "wiki-measure-math": {
+      "title": "Measure (mathematics) - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Measure_%28mathematics%29",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Countably additive measures and their role in integration.",
+      "access": "free_no_login"
+    },
+    "wiki-square-integrable": {
+      "title": "Square-integrable function - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Square-integrable_function",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Square-integrability, the L2 norm and quotienting almost-everywhere equality.",
+      "access": "free_no_login"
+    },
+    "wiki-sequence-space": {
+      "title": "Sequence space - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Sequence_space",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Sequence-space examples such as ℓ² and diagonal operators.",
+      "access": "free_no_login"
+    },
+    "wiki-closed-operator": {
+      "title": "Closed linear operator - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Closed_operator",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Closed graphs and domains of operators that are not defined everywhere.",
+      "access": "free_no_login"
+    },
+    "wiki-strong-op-topology": {
+      "title": "Strong operator topology - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Strong_operator_topology",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Convergence on each fixed input as distinct from uniform operator-norm convergence.",
+      "access": "free_no_login"
+    },
+    "wiki-orthogonal-procrustes": {
+      "title": "Orthogonal Procrustes problem - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Orthogonal_Procrustes_problem",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Finding the orthogonal alignment of two finite point or coordinate configurations.",
+      "access": "free_no_login"
+    },
+    "wiki-riccati-equation": {
+      "title": "Riccati equation - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Riccati_equation",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Quadratic matrix equations related to invariant graph-subspace calculations.",
+      "access": "free_no_login"
+    },
+    "wiki-eigen-perturbation-extra": {
+      "title": "Eigenvalue perturbation - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Eigenvalue_perturbation",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Examples of eigenvalue derivatives and dependence of eigenvectors on perturbations.",
+      "access": "free_no_login"
+    },
+    "wiki-schur-complement": {
+      "title": "Schur complement - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Schur_complement",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Eliminating blocks to get an effective operator or reduced eigenvalue equation.",
+      "access": "free_no_login"
+    },
+    "wiki-spectral-clustering": {
+      "title": "Spectral clustering - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Spectral_clustering",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Application of invariant subspaces and eigenvector embeddings to data partitioning.",
+      "access": "free_no_login"
+    },
+    "wiki-pca": {
+      "title": "Principal component analysis - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Application context for perturbed invariant subspaces and spectral estimators.",
+      "access": "free_no_login"
+    },
+    "wiki-analytic-matrix-function": {
+      "title": "Analytic function of a matrix - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Matrix_function",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Defining functions of matrices and recognizing analytic versus discontinuous functional calculus.",
+      "access": "free_no_login"
+    },
+    "wiki-orthogonal-projection-extra": {
+      "title": "Projection (linear algebra) - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Projection_%28linear_algebra%29",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Orthogonal projections, matrix formulas and their connection to subspace distance.",
+      "access": "free_no_login"
+    },
+    "wiki-unitary-rotation": {
+      "title": "Orthogonal matrix - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Orthogonal_matrix",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Simple rotations as real orthogonal maps and transport candidates.",
+      "access": "free_no_login"
+    },
+    "wiki-hermitian-trace": {
+      "title": "Trace (linear algebra) - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Trace_%28linear_algebra%29",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Trace as the sum of eigenvalues and the basis-independent total in finite dimensions.",
+      "access": "free_no_login"
     }
   }
 }

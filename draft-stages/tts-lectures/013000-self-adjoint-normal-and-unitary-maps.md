@@ -2,9 +2,11 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-For a bounded operator T between Hilbert spaces, its adjoint T star is the unique operator satisfying the inner-product identity: pairing T x with y equals pairing x with T star y. If T sends vectors from one Hilbert space to another, T star sends measuring directions backward. It is defined so that measuring T of x against y gives the same answer as measuring x against T star of y.
+A reflection across the horizontal axis preserves every vector's length. So does a quarter-turn rotation. But these transformations have different algebraic behavior. The reflection equals its transpose, while the quarter-turn does not. Both commute with their transposes, and both have inverses equal to their transposes.
 
-The adjoint distinguishes three classes of operators: self-adjoint, normal, and unitary. They all involve the adjoint, but they make different claims. Simple matrices show how the three classes overlap and which geometric properties each identity guarantees.
+Those observations motivate three operator classes. A self-adjoint operator equals its adjoint; a normal operator commutes with its adjoint; and a unitary operator has its adjoint as a two-sided inverse. The reflection is all three. The rotation is normal and unitary, but not self-adjoint. A generic shear need not be normal at all.
+
+The adjoint is defined by moving an operator from one side of an inner product to the other. Over the complex numbers, this operation also conjugates scalars, so a matrix's adjoint is its conjugate transpose. The distinctions among the three classes determine whether we can use orthogonal eigenvectors, preserve lengths, or transport spectral information. We will build the definitions from these actions rather than treating them as interchangeable names.
 
 ## What it means to equal your adjoint
 
@@ -78,12 +80,23 @@ Two operators are unitarily equivalent if conjugation by a unitary changes one i
 
 For now, reconstruct three arguments. Why must an eigenvalue of a self-adjoint operator be real? Why does equality of the lengths of T of x and T star of x, for every x, capture normality? And why is the right shift length-preserving but not unitary?
 
-
 <!-- END SPOKEN LECTURE -->
 
 ---
 
 ## Companion: symbolic facts and Lean correspondence (display only)
+
+### Matrices behind the opening comparison
+
+On the real plane, reflection and quarter-turn are
+\[
+J=\begin{pmatrix}1&0\\0&-1\end{pmatrix},\qquad
+U=\begin{pmatrix}0&-1\\1&0\end{pmatrix}.
+\]
+Then \(J^*=J\), \(J^*J=JJ^*=I\), and \(U^*=-U\), while \(U^*U=UU^*=I\).
+Thus both are normal and orthogonal, but only \(J\) is self-adjoint. The shear
+\(K=\left(\begin{smallmatrix}1&1\\0&1\end{smallmatrix}\right)\) satisfies
+\(K^*K\ne KK^*\) and is not normal.
 
 Let \(H\) be a real or complex Hilbert space and \(T\in\mathcal B(H)\). Then
 \[

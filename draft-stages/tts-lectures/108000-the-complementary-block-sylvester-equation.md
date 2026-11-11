@@ -6,9 +6,13 @@
 
 # The complementary-block Sylvester equation
 
-Consider a self-adjoint operator A, an exact reducing subspace U, and an approximate trial subspace V. Represent V by an orthonormal frame E, U by an orthonormal frame F zero, and the complement of U by an orthonormal frame F one. A residual measures how far the action of A on the trial frame disagrees with a chosen trial operator. The component of that residual perpendicular to U satisfies a Sylvester equation; its unknown measures how much of V lies outside U.
+Consider a diagonal matrix with entries zero and five. Its horizontal axis is the exact zero-eigenspace, and the vertical axis is the unwanted eigenspace. Tilt a trial line away from horizontal by thirty degrees. Half of its unit vector now points vertically, because the sine of thirty degrees is one half.
 
-This equation is the complementary-block Sylvester equation. Its derivation takes only a few lines of matrix algebra, but understanding the roles of the blocks prevents several errors that would otherwise appear in a perturbation bound.
+If the matrix acts on that trial vector, its vertical component is multiplied by five. Suppose the intended trial eigenvalue is zero. The vertical component of the residual is therefore five times one half, or two and a half. The unwanted spectral value is five units away from the trial value. Dividing the residual by that distance recovers the vertical overlap, one half. In this simple problem the entire perturbation estimate is a scalar division.
+
+For a larger problem, the vertical overlap becomes a map from trial coordinates into unwanted exact spectral coordinates. Multiplying by the unwanted block on its left and subtracting multiplication by the trial block on its right reproduces the projected residual. This is a Sylvester equation. We will derive it before taking any norm, so that every input space, output space and gap belongs to the right object.
+
+In particular, the trial block need not equal the exact target block. A residual may use a Ritz compression or another specified self-adjoint trial operator. That choice determines the spectral separation we must check.
 
 ## Start with an exact reducing decomposition
 
@@ -97,6 +101,21 @@ We have completed the algebraic bridge: exact reducing coordinates, trial residu
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### The rotated-line residual and complementary quotient
+
+Let \(A=\operatorname{diag}(0,5)\),
+\(e=(\sqrt3/2,1/2)^T\), and \(M=e^*Ae=5/4\). Then
+\[
+R=Ae-eM=\begin{pmatrix}-5\sqrt3/8\\15/8\end{pmatrix},\qquad
+\|R\|=5\sqrt3/4.
+\]
+For \(Q=\operatorname{span}\{(1,0)\}\), the complementary
+projection of \(R\) has length \(15/8\), while the gap between
+\(M=5/4\) and the unwanted eigenvalue \(5\) is \(15/4\).
+Their quotient is \(1/2\), the directed sine of the thirty-degree
+angle. The projected residual, not the full residual, yields equality
+in this complementary-block equation.
 
 With reducing coordinates `F₀,F₁`, `F₁* A=Λ₁ F₁*` on the legal domain. For `R=AE−EA₀` and `X=F₁*E`, derive `F₁*R=Λ₁X−XA₀`. A valid `FormBoundedSylvesterGap` plus the domain-aware `SylvesterEquation` gives `δ gauge(X)≤gauge(F₁*R)` in the supported symmetric ideal family, including the membership conclusion. The orientation in some Lean statements is adjointed: the unknown is `E*F₁` and the equation changes sign accordingly.
 

@@ -6,11 +6,13 @@
 
 # Applying a measurable function to a self-adjoint operator
 
-We know how to evaluate a continuous function at a bounded self-adjoint operator. We also know that an operator can be represented as multiplication by the spectral coordinate on a suitable collection of L two spaces. Now we will combine these ideas to handle a much larger class of functions: every bounded Borel measurable function.
+A diagonal matrix can be transformed by applying a function to its eigenvalues. If the function is continuous, the finite-dimensional rule has a direct bounded-operator analogue. But spectral projections require indicator functions, and indicators of intervals are generally discontinuous.
 
-This extension is needed for perturbation theory. A spectral region such as an interval is selected by an indicator function, and indicators are typically discontinuous. Continuous functional calculus alone does not produce the required projection when the spectral boundary passes through the spectrum.
+Consider again the multiplication operator A on square-integrable functions of t between zero and one. Applying the function that equals one on the lower half of the interval and zero elsewhere produces the orthogonal projection that keeps the lower-half support. It is a perfectly good bounded operator, even though the indicator function has a jump at one half.
 
-Our objective today is to define f of A rigorously and prove its algebraic, geometric, and convergence properties.
+The bounded Borel functional calculus extends the continuous calculus to such functions through spectral integration. Its outputs preserve multiplication and adjoints, and bounded pointwise convergence of functions leads to strong operator convergence under the appropriate dominated-convergence mechanism. Uniform convergence of scalar functions is a stronger hypothesis and yields operator-norm convergence.
+
+We will develop the simple-function approximation, identify how projection-valued measures enter, and keep the distinction between strong and norm convergence visible throughout.
 
 ## Begin with simple functions
 

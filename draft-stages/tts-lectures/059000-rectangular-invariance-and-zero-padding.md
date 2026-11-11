@@ -6,11 +6,13 @@
 
 # The same map inside a larger space
 
-Imagine a linear map that sends a two-dimensional input into three-dimensional output space. Suppose we add a fourth output coordinate, but the map always puts zero in that new coordinate. The map has not changed how it stretches any input. Should its norm change?
+Let A map a two-dimensional input vector with coordinates x and y to the three-dimensional output vector with coordinates twice x, y, and zero. Now add a fourth output coordinate that is always zero. The geometry of the map has not changed: it still stretches its input axes by factors two and one.
 
-For the operator, Frobenius, nuclear, and Schatten norms, the answer is no. But this conclusion relies on more than invariance under square unitary changes of coordinates. We must understand isometric embeddings, rectangular singular values, and the precise role of zero padding.
+The new matrix has another row of zeros, so its list of singular values is the original list together with a zero. For unitarily invariant matrix norms built from the singular values, such padding does not change the norm. For rank statements and dimension-sensitive theorems, however, we must still record which zero values were added by the ambient spaces.
 
-The geometric issue is that changing coordinates within one space and embedding that space into a larger one are different operations. An isometric embedding preserves positive singular values, while zero padding changes only the number of zero singular directions. A consistent cross-dimensional norm family must respect these facts.
+There are two operations to distinguish: changing coordinates by unitaries on the existing input or output space, and embedding the operator into a larger rectangular space by adding inactive directions. Both preserve positive singular-value data, but their domain and codomain declarations differ.
+
+We will derive the Gram-operator identities for the padded map and explain why this convention is needed when comparing directed angles between subspaces of unequal dimensions.
 
 ## The most direct calculation
 

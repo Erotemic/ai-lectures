@@ -6,11 +6,13 @@
 
 # Approximating an operator without losing its spectral geometry
 
-A spectral integral looks like an infinite version of a diagonal matrix. But to turn that analogy into proofs, we need to know exactly which finite approximations are legitimate, and which notion of convergence each approximation provides.
+A diagonal matrix is easy to approximate by retaining finitely many coordinates. The approximation becomes accurate on every fixed vector as we keep more coordinates, but that does not automatically make the operator-norm error small.
 
-Two approximation procedures play different roles. Simple functions approximate bounded measurable functions, while spectral cutoffs restrict an unbounded operator to larger and larger bounded spectral intervals. The first construction can converge in operator norm. The second usually converges only strongly, meaning on each fixed vector.
+For example, project a square-summable sequence onto its first n coordinates. Each fixed sequence has a tail whose squared sum tends to zero, so the projections converge strongly to the identity. But their operator-norm error is always one: the next basis vector is still discarded completely. This is the model to keep in mind when spectral integrals are approximated by cutoffs.
 
-That difference becomes essential as soon as the operator itself is unbounded.
+A spectral projection restricts a self-adjoint operator to selected spectral values. Increasing spectral windows may approximate the identity strongly. On the corresponding domains, functions of an unbounded operator may be approximated by bounded truncations, but a statement about convergence of vectors need not imply convergence in graph norm or in operator norm.
+
+We will make the allowable approximation steps explicit, explain which continuity theorem supports each passage, and separate finite-rank approximations from spectral cutoffs: a bounded spectral window can still have infinite-dimensional range.
 
 ## Finite spectral partitions
 
@@ -143,7 +145,6 @@ Without compactness, that conclusion can fail. In particular, taking K equal to 
 We now have two precise approximation tools. Bounded Borel symbols can be approximated in operator norm by finite spectral sums. For an unbounded self-adjoint operator, bounded spectral cutoffs converge strongly to the identity and approximate domain vectors in graph norm.
 
 The domain condition is not a technical footnote. It determines when spectral multiplication by lambda defines a genuine Hilbert-space vector.
-
 
 <!-- END SPOKEN LECTURE -->
 

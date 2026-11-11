@@ -6,9 +6,13 @@
 
 # Comparing angle and Ky Fan beam estimates
 
-Let A be the self-adjoint free-beam fourth-derivative operator on the unit interval, on the domain of functions with four square-integrable weak derivatives and with second and third derivatives zero at both endpoints. Its two-dimensional kernel is the affine plane, and the rest of its spectrum lies above five hundred. Let H multiply by epsilon times t, where zero is less than epsilon and epsilon is less than one hundred. An orthonormal basis of the affine trial plane is given by one over square root of two times one minus square root of three times two t minus one, and the corresponding function with a plus sign. We can use their exact residual singular values to compare several subspace perturbation bounds.
+Two spectral-angle estimates can be valid and still give noticeably different numerical bounds for the same trial plane. One might control only the worst principal angle; another might control the sum of the two largest principal sines. A third might improve the right-hand side by replacing an unrecentered defect with a true Ritz residual.
 
-Different Davis–Kahan estimates applied to the same beam model answer different questions. A stronger residual estimate can outweigh the choice of theorem, while largest-angle and Ky Fan bounds quantify different aspects of the subspace error.
+Our common example is the free beam on the unit interval. The unperturbed fourth-derivative operator has the two-dimensional affine kernel and positive spectrum above five hundred. We perturb it by multiplication by epsilon times position, where epsilon is positive and below one hundred. The trial plane is still the affine kernel, with normalized basis consisting of the constant function and a centered linear function.
+
+The original kernel is invariant under the unperturbed beam operator, so the perturbation alone determines the first residual. Its component outside the trial plane can be calculated explicitly by subtracting the two-by-two Ritz compression. Those two residuals have different norms; they are not interchangeable in a theorem unless the trial operator and gap are changed together.
+
+We will put the hypotheses and numerical values beside each candidate estimate. This is how to compare the single-angle, Ky Fan, and doubled-angle approaches without treating the smallest displayed number as automatically the strongest theorem.
 
 ## First use the unrecentered residual
 

@@ -6,7 +6,13 @@
 
 # From rotation counterexample to real transport matching
 
-The canonical direct rotation need not minimize an unsquared Schatten norm of whole-space displacement among all real orthogonal maps transporting one subspace onto another. A four-dimensional example with two equal principal angles refutes the broad claim. A useful positive problem remains: characterize the global minimum when the exponent p is strictly between one and two.
+Two equal-dimensional subspaces in real Euclidean space can be connected by many orthogonal transformations. One natural choice rotates each principal plane by its smallest angle. That is the direct rotation, and it has several genuine optimality properties.
+
+But suppose our objective is the sum of the singular values of the full displacement from the identity, or more generally a Schatten norm with exponent between one and two. In four dimensions, moving two principal planes separately can be beaten by a different orthogonal transporter that mixes the matching of directions. This is why the shortest individual rotations need not minimize every global norm of the full motion.
+
+The optimization problem has two inputs: a pair of subspaces and a class of allowed orthogonal maps carrying one onto the other. The objective is a function of the singular values of identity minus the transporter. The correct answer depends on the exponent and on which directions are paired in the transport.
+
+We will reduce the geometry to principal-angle blocks, identify the finite matching decision, and explain how lower bounds and explicit constructions fit together. The problem is over real orthogonal transports; a complex unitary problem can have a different feasible set and therefore requires its own analysis.
 
 ## What are we optimizing?
 

@@ -6,9 +6,13 @@
 
 # Doubled angles from symmetry
 
-Reflecting across a closed subspace means acting by plus one on that subspace and minus one on its orthogonal complement. Conjugation by this reflection reverses the off-diagonal blocks of an operator. Applied to another subspace, the same reflection produces an angle-doubling identity.
+Place a horizontal line through the origin and a second line inclined at thirty degrees. Reflect a point on the horizontal line across the inclined line. Its image lands on the line at sixty degrees: the reflection has doubled the original angle.
 
-For one line in the plane, the answer is straightforward: reflection across a line at angle theta sends the horizontal axis to a line at angle twice theta. Our task is to express that fact through orthogonal projections, then extend it to many principal-angle planes and even to a Hilbert space without a discrete principal-vector basis.
+This is an elementary fact of plane geometry. But it has an operator-theoretic form that remains meaningful when two subspaces have several principal angles rather than a single direction. Every closed subspace has an orthogonal projection. Twice that projection minus the identity acts by plus one along the subspace and minus one perpendicular to it. That is reflection across the subspace.
+
+If we use the tilted line for the reflection, the horizontal line moves to another line. In the plane, its angular displacement doubles. In a general Hilbert space, the principal-angle sine operator for the reflected subspace is the sine of twice the original angle operator, with the usual care about the selected directed or ambient representation.
+
+We will compute the projection matrices in the plane, then translate the calculation into a coordinate-free identity. The point of doubling is that a reflected operator can sometimes be compared with the original operator using a smaller algebraic expression. A perturbation estimate for that comparison can then control the doubled sine.
 
 ## Reflect the horizontal axis across a tilted line
 
@@ -107,6 +111,19 @@ The outcome is the sine-two-theta theorem, with a bound valid even when the perm
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### The reflection identity in a plane
+
+For \(u_\theta=(\cos\theta,\sin\theta)^T\), let
+\(P_\theta=u_\theta u_\theta^T\) and \(J_\theta=2P_\theta-I\).
+Then
+\[
+J_\theta e_1=
+\begin{pmatrix}\cos(2\theta)\\\sin(2\theta)\end{pmatrix}.
+\]
+At \(\theta=30^\circ\), this is a sixty-degree direction.
+This identity is the scalar model for the doubled-angle operator
+obtained by reflecting a subspace.
 
 Let `P=P_U`, `Q=P_V`, `J_V=2Q-I`, and `Θ=arcsin |P-Q|` (ambient positive angle). The operator identity is
 

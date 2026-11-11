@@ -6,13 +6,13 @@
 
 # Remove the coupling between two orthogonal subspaces
 
-Suppose a linear operator acts on a space split into two mutually orthogonal parts. In block coordinates, the operator has four pieces. Two blocks describe what happens within each part. The other two describe how the operator sends vectors from one part into the other.
+Take a symmetric two-by-two matrix with diagonal entries one and three and off-diagonal entries two. Relative to the two coordinate axes, the diagonal entries describe actions within each axis and the off-diagonal entries describe coupling between them.
 
-What happens to the operator's size if we erase those two cross terms?
+If we erase the coupling and keep only the diagonal, we obtain a pinched operator. For this example the operator norm of the original is two plus the square root of five, while the operator norm of its diagonal part is three. Removing the off-diagonal blocks has not increased the norm.
 
-For an arbitrary norm on a list of matrix entries, there is no universal answer. But for every unitarily invariant norm, the block-diagonal part cannot be larger than the original operator. This operation is called pinching.
+More generally, pinching is an average of an operator and its reflection by a sign change on one subspace. A unitarily invariant norm assigns the same size to the reflected operator, and the triangle inequality bounds the average by the original norm. This elementary observation turns into a powerful method for controlling block sums without choosing a particular Schatten exponent.
 
-Pinching removes off-diagonal blocks by averaging an operator with its reflection. Convexity and unitary invariance then show that pinching cannot increase a unitarily invariant norm. These ideas appear repeatedly when perturbation proofs separate a difficult operator into pieces adapted to spectral subspaces.
+We will derive the reflection identity, keep the input and output projections distinct in the rectangular case, and explain how pinching and direct-sum comparisons work together in spectral-subspace perturbation estimates.
 
 ## The four blocks of an operator
 
@@ -121,6 +121,18 @@ Finally, derive the operator, Frobenius, and nuclear direct-sum formulas from th
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### Block reflection preserves the diagonal
+
+For \(A=\left(\begin{smallmatrix}1&2\\2&3\end{smallmatrix}\right)\)
+and \(J=\operatorname{diag}(1,-1)\),
+\[
+JAJ=\begin{pmatrix}1&-2\\-2&3\end{pmatrix},\quad
+\tfrac12(A+JAJ)=\begin{pmatrix}1&0\\0&3\end{pmatrix}.
+\]
+The complementary difference \((A-JAJ)/2\) retains only the
+off-diagonal entries. Since \(J\) is unitary, this algebra also
+supplies a norm contraction for the diagonal pinching map.
 
 With \(P=P^*=P^2\), put \(J=2P-I\), so \(J=J^*=J^{-1}\). The pinching map is
 \[

@@ -6,7 +6,13 @@
 
 # Procrustes and spectral embeddings
 
-Principal angles compare eigenspaces independently of any chosen orthonormal basis. A numerical algorithm instead returns a table of eigenvector coordinates, which may be fed to clustering, classification, or geometric embedding. Orthogonal Procrustes alignment converts a subspace-angle bound into a coordinate bound while accounting for arbitrary rotations within the selected frame.
+Suppose two numerical eigensolvers return different orthonormal bases for the same two-dimensional subspace. One basis is simply the other rotated within the plane. Comparing the first column of one output with the first column of the other can report a large error, although the underlying subspaces are identical.
+
+The orthogonal Procrustes problem removes that coordinate ambiguity. Given two matrices with orthonormal columns, we allow an orthogonal change of basis on one set of columns and choose the change that minimizes their Frobenius distance. The optimal value depends on the singular values of the cross-Gram matrix, which are the cosines of the principal angles.
+
+For a single pair of unit vectors at an angle theta, after correcting the possible sign, their Euclidean distance is twice sine of half theta. The sine of theta, however, measures how far one line lies from the other. These quantities agree to first order for small angles, but they are not identical.
+
+We will derive the minimizing alignment from a singular-value decomposition, compare the exact Procrustes error to principal-sine error, and explain which additional assumptions are needed for eigenvector embeddings with nontrivial weights. This gives a mathematical way to turn a subspace perturbation bound into a bound on the coordinates used by a data-analysis algorithm.
 
 ## Two frames and one geometric object
 
@@ -89,6 +95,24 @@ Finally, you should be able to explain why identical Gram matrices describe iden
 ---
 
 ## Display-only mathematics and Lean correspondence
+
+### Deriving the orthogonal Procrustes objective
+
+For \(V,W\in\mathbb C^{n\times k}\) with
+\(V^*V=W^*W=I_k\) and \(U\in\mathcal U(k)\),
+\[
+\|V-WU\|_F^2
+=2k-2\operatorname{Re}\operatorname{tr}(V^*WU).
+\]
+Writing \(V^*W=L\Sigma R^*\), the minimizing alignment
+is \(U=RL^*\) (with arbitrary unitary extension for zero singular
+values); therefore
+\[
+\min_{U\in\mathcal U(k)}\|V-WU\|_F^2
+=2k-2\sum_{j=1}^{k}\sigma_j(V^*W).
+\]
+The singular values are cosines of principal angles. This formula
+keeps frame mismatch separate from the underlying subspace angles.
 
 For orthonormal frames \(U,V:\mathbb K^d\to H\) with cross-Gram matrix \(M=U^*V\) and singular values \(\sigma_i(M)=\cos\theta_i\),
 

@@ -6,9 +6,13 @@
 
 # Beam Rayleigh–Ritz calculation
 
-Consider the free-beam operator A on square-integrable functions on the unit interval. It acts as the fourth derivative on the self-adjoint domain of functions with four weak derivatives in the square-integrable class, whose second and third derivatives vanish at both endpoints. Its kernel consists of affine functions, while the remaining spectrum lies above five hundred. Perturb A by the bounded multiplication operator H of u equal to epsilon times t times u, with real epsilon positive and smaller than one hundred. We will compute how this perturbation acts on the two-dimensional affine trial space and how much escapes that space.
+A free elastic beam can move without bending: it can translate upward by a constant amount, or tilt as a straight line. Both motions have zero bending energy, because their second derivatives vanish. They form a two-dimensional space of zero modes of the free-beam fourth-derivative operator.
 
-This calculation is worth doing by hand. A perturbation estimate cannot tell us anything numerical until we supply a residual and a spectral gap. The beam example provides both using only elementary integrals.
+Now add a weak position-dependent potential. Multiplying a function by epsilon times its position along the beam changes those two modes. We can estimate the new low spectral plane by keeping the original constant and affine functions as a trial space. Before using a spectral-angle theorem, though, we need three quantities: an orthonormal basis of that plane, the small two-by-two matrix obtained by compressing the perturbed operator, and the residual left over after that compression.
+
+The beam operator is self-adjoint on its free-endpoint domain: functions with four square-integrable weak derivatives, whose second and third derivatives vanish at both ends. Its kernel is the affine plane, and the remaining spectral values lie above five hundred. The bounded multiplication perturbation preserves the operator domain.
+
+The calculation will start with elementary integrals of polynomials. Once the Ritz matrix and residual are explicit, we can see how recentering at the Ritz value improves an estimate and how the complementary spectral gap turns that estimate into an angle bound.
 
 ## Orthonormal coordinates for the affine kernel
 

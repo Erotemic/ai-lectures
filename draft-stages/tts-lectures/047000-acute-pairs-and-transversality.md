@@ -6,13 +6,13 @@
 
 # Almost perpendicular is not perpendicular
 
-Suppose two lines are almost at a right angle. Their cosine is positive, but extremely small. A projection from one line onto the other loses almost all of a vector's length.
+A line that makes an angle of eighty-nine degrees with the horizontal axis is not perpendicular to it, but projecting a unit vector on the line onto the horizontal axis retains only a very small component. Recovering the original vector from that projection requires division by the cosine, which is about one part in fifty-seven.
 
-Now imagine not one angle, but infinitely many independent angles, each closer to a right angle than the last. None is exactly a right angle. Nonetheless, projection can lose arbitrarily large fractions of the length of vectors chosen from farther and farther along the sequence.
+In finite dimensions, if no principal angle is exactly ninety degrees, the relevant cosine matrix is invertible. In infinite dimensions, the distinction is sharper: it is possible for every individual direction to have a positive cosine while the cosines of a sequence of directions approach zero. The cosine operator can then be injective without having a bounded inverse.
 
-That example raises today's question: what should it mean for two subspaces to be acute? Does it mean that no direction is exactly perpendicular, or that every direction stays a definite distance away from perpendicular?
+These are the issues behind acute pairs of subspaces and transversality. An algebraic condition that rules out a right-angle vector may not give uniform numerical control. A bound on the operator norm of the projection difference strictly below one gives a quantitative form of acuteness.
 
-The answer matters for the existence of bounded inverses, graph representations, and canonical rotations. We will develop both meanings and refuse to confuse them.
+We will distinguish kernel-freeness, surjectivity, closed range and bounded inverse, then see why graph representations and canonical rotation formulas require the correct combination of these conditions.
 
 ## Three ways to express an angle condition
 

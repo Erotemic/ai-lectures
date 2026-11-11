@@ -6,9 +6,13 @@
 
 # Classification and realizations of direct rotations
 
-What data determine a pair of closed subspaces up to unitary equivalence? Their intersections, crossed defects, and the generic principal-angle geometry all play distinct roles. The same classification determines when a canonical direct rotation can exist.
+In the plane, two distinct lines through the origin are classified up to a common rotation by the acute angle between them. If we rotate both lines together, their absolute coordinates change, but the angle between them does not.
 
-We will distinguish three problems. Can two pairs of subspaces be identified by a unitary map? Can a particular pair be carried into itself by a direct rotation that sends its first subspace onto its second? And can we prescribe the angles and then build a pair that has them? These problems have related, but different, answers.
+For two subspaces in a larger Hilbert space, one angle is no longer enough. Some directions may lie in both subspaces; some in one subspace and perpendicular to the other; and the remaining directions come in two-dimensional principal-angle pieces. Those cases must be recorded separately.
+
+For example, in three dimensions, compare the horizontal plane with a plane spanned by their common first coordinate axis and the vertical axis. The subspaces have one shared direction with principal angle zero and one perpendicular pair with principal angle ninety degrees. A single operator norm of their projection difference reports only the largest angle and loses the shared direction.
+
+The classification theorem packages the common and defect dimensions together with the cosine operator on the generic part. We will use it to ask when a direct rotation exists, what its uniqueness condition really means, and how to realize a prescribed list of angles. In infinite dimensions, compactness adds useful discrete spectral structure, while noncompact angle operators can carry continuous spectral data.
 
 ## Four elementary pieces
 

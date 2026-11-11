@@ -2,11 +2,11 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-For a self-adjoint matrix A, the Rayleigh quotient of a nonzero vector x is the inner product of A x with x divided by the squared norm of x. Expressing x in an orthonormal eigenbasis shows that this quotient is a weighted average of the eigenvalues. Its maximum is the largest eigenvalue, and its minimum is the smallest. The Courant-Fischer principle extends this optimization to every eigenvalue in the ordered list.
+Take a diagonal three-by-three matrix with eigenvalues one, three, and seven. Its smallest eigenvalue is easy to obtain by minimizing the Rayleigh quotient over unit vectors. Its largest is obtained by maximizing. But how can we locate the middle eigenvalue using a rule that makes no reference to coordinates or a characteristic polynomial?
 
-But that leaves a question. Suppose a matrix has ten eigenvalues. Can we recover the fourth one without first calculating all the eigenvectors? And could we describe that fourth eigenvalue in a way that does not depend on a particular eigenbasis?
+Choose a plane in the three-dimensional space and ask for the largest Rayleigh quotient among unit vectors in that plane. The plane spanned by the first two eigenvectors has largest quotient three. Any two-dimensional plane must intersect the plane spanned by the last two eigenvectors in a nonzero direction, where the quotient is at least three. So the smallest achievable maximum over all planes is exactly three.
 
-The Courant–Fischer theorem answers both questions. Its key idea is to optimize not over one vector at a time, but over whole subspaces. The proof rests on a piece of geometry we can understand before writing any complicated expression: if two subspaces occupy enough dimensions of the same space, they must have a nonzero vector in common.
+That is a concrete min–max principle. The Courant–Fischer theorem generalizes it to every ordered eigenvalue, with a choice of subspace dimension and an inner optimization. We will prove the dimension-intersection argument and explain why reversing min and max requires changing the dimension. This formula is the starting point for many eigenvalue inequalities and numerical approximations.
 
 ## Why simply finding the second-best vector fails
 

@@ -6,7 +6,13 @@
 
 # The squared displacement of orthonormal frames
 
-Proposition four point two asks what happens when we select an orthonormal family in the source subspace, transport every vector by the same unitary, and add up their angular errors. We will prove the lower bound from orthogonal projections and the trace of a positive operator. Along the way we must distinguish the square of a sine from the square of a Euclidean chord.
+A rotation can move one vector through an angle without changing its length. For a unit horizontal vector rotated through angle theta, the distance between the original vector and its image is twice the sine of half theta. The distance from the image to the entire horizontal line, however, is the sine of theta. These are different measurements.
+
+Suppose we have a source subspace and a target subspace, and we transport an orthonormal basis of the source by a unitary map. How small can the sum of the squared displacements of those basis vectors be? Orthogonal projection onto the target gives a lower bound independently for each vector: no transported vector in the target can be closer to the original than its orthogonal projection is.
+
+If the two spaces are tilted, their principal angles tell us the size of those projection errors. The sum of their squares is the squared Hilbert–Schmidt norm of the directed sine operator. This calculation explains the angular-energy claim associated with Proposition four point two.
+
+We will distinguish unit-vector displacement from the squared sine of a principal angle, then show how summing the projection inequalities over an orthonormal frame gives a basis-independent bound. The square is essential because the result is derived from Pythagoras and the trace of a positive operator.
 
 ## One vector, two error measures
 
@@ -77,6 +83,18 @@ We proved the inequality without choosing a special competing unitary and withou
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### Chord displacement of a rotated vector
+
+If unit vectors \(u\) and \(v\) meet at an angle \(\theta\),
+\[
+\|u-v\|^2=\langle u-v,u-v\rangle
+=2-2\cos\theta=4\sin^2(\theta/2).
+\]
+For two orthonormal frames aligned in their principal planes,
+these terms sum over their paired principal angles. Comparing frame
+alignments must respect the right action of an orthogonal or unitary
+coordinate change, which leaves the represented subspace invariant.
 
 For an orthonormal basis \((u_i)\) of \(U\), \(W U=V\), and \(\sin^2\angle(x,y)=1-|\langle x,y\rangle|^2\) for unit vectors,
 \[

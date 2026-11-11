@@ -6,9 +6,13 @@
 
 # One complete original-paper proof reconstruction
 
-A Davis-Kahan perturbation proof combines several ingredients: spectral projections select invariant subspaces; residual identities generate Sylvester equations; a spectral gap bounds their solutions; principal-angle operators express the resulting geometry; and Ky Fan or pinching inequalities transfer block estimates to broader operator norms. The argument must preserve each hypothesis through the chain.
+Take a diagonal symmetric matrix with eigenvalues zero and five. If a trial line makes a thirty-degree angle with its horizontal zero-eigenspace, its unwanted vertical overlap is one half. Applying the matrix to the trial unit vector and subtracting zero times that vector produces a vertical residual of length two and a half. The gap is five, so dividing the residual by the gap recovers the exact sine.
 
-Our goal is to prove that delta times the unitarily invariant norm of the sine of the ambient angle is at most the norm of the perturbation. We will identify every hypothesis, derive the two Sylvester equations, justify their norm bounds, recover the ambient sine singular values, and transfer the result to a symmetric norm ideal.
+This one-line calculation is the seed of the directed sine theorem. A general proof replaces the scalar vertical overlap by a rectangular map into the unwanted spectral coordinates. It proves a Sylvester equation, bounds the map using an ordered spectral gap, and identifies its singular values with the principal sines of the trial subspace.
+
+A theorem for the *ambient* sine between two reducing subspaces asks for more. Both directions of leakage have to be controlled, which requires two crossed spectral separations. Their singular values must be assembled without losing an inequality in the chosen unitary-invariant norm. The direct-sum prefix bound and reflection pinching supply exactly that passage.
+
+Our objective is to reconstruct the complete chain with the hypotheses visible at every step. The finite-dimensional calculation fixes the geometric meaning; the all-singular-values argument and the operator-ideal approximation specify what changes in a general Hilbert space.
 
 ## State the theorem precisely
 

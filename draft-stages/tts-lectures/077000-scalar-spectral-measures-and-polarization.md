@@ -6,11 +6,13 @@
 
 # How diagonal spectral measurements determine an operator
 
-The measure of a spectral set B was the squared length of the projection of x onto that set. These diagonal measurements are especially natural because they cannot be negative.
+Take a projection P and a vector x. The squared length of P x measures how much of x lies in the projected subspace. This is a nonnegative number. If the projection comes from a spectral set, the same construction assigns a number to every measurable set of spectral values.
 
-But an operator is determined by what happens between two potentially different vectors. If we only know the squared lengths of spectral pieces, can we recover inner products involving an arbitrary pair x and y?
+For a self-adjoint operator with spectral projection measure E, define the scalar measure for x by measuring the squared length of E of B applied to x. We can integrate a real or complex function against this scalar measure and obtain an expectation or quadratic measurement of a function of the operator.
 
-Yes. The key is the complex polarization identity: inner products can be reconstructed from the squared norms of sums of vectors and their multiples by the imaginary unit. Today we will reconstruct the missing cross terms, explain why they form complex measures, and see how those measures let us define the Borel functional calculus.
+But a spectral operator also has mixed inner products between two different vectors. These are generally complex, and their signed data are not captured by a single positive scalar measure. Polarization recovers the mixed information from quadratic measurements of combinations of vectors, with a formula that depends on the complex inner-product convention.
+
+We will explain the construction one step at a time, distinguish countable additivity from finite additivity, and show how scalar spectral measures support the matrix elements of the functional calculus.
 
 ## Begin with the diagonal
 

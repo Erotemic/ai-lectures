@@ -6,11 +6,13 @@
 
 # From inequalities on vectors to inequalities on singular values
 
-There are two common ways to compare operators. A quadratic-form inequality controls the value of an operator on every input vector. A singular-value inequality controls its ordered stretching strengths. How can we pass from the first kind of statement to the second?
+For two self-adjoint matrices, saying that A is at least B can mean that every vector x has quadratic measurement under A at least as large as under B. This is a quadratic-form order. It is defined by testing all vectors, not by comparing matrix entries.
 
-These languages are connected, but they are not interchangeable without assumptions. Today's goal is to derive the safe implications and identify the tempting steps that fail.
+Take A diagonal with entries two and three, and B diagonal with entries one and one. The difference is positive, so A is above B in quadratic-form order. Their ordered eigenvalues obey the same inequality by the min–max theorem. Because these particular matrices are positive, their singular values agree with their eigenvalues.
 
-Our main route will be through the Gram operator. Its quadratic form is exactly the squared output length of the original map. Combining that identity with the finite min–max theorem converts a pointwise inequality on every input vector into an ordered inequality for all singular values.
+But singular values discard signs. A matrix and its negative have the same singular values, even though they are oppositely ordered in quadratic-form terms when the matrix is positive. We therefore need positivity and self-adjointness hypotheses before converting a form inequality into a singular-value statement.
+
+We will derive the valid comparison using the variational principles, then explain how componentwise singular-value bounds differ from stronger statements about sums and unitarily invariant norms.
 
 ## Recall the positive-operator order
 

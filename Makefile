@@ -109,7 +109,7 @@ help:
 	@echo; echo 'Targets:'
 	@echo '  tts-experiment     compare original/previous/composite references with phrase-aligned visuals'
 	@echo '  list               list all presentations and transcript availability'
-	@echo '  serve              browse all 150 audio lectures at /audio plus existing renders'
+	@echo '  serve              browse the indexed audio lecture library at /audio plus existing renders'
 	@echo '                     AUDIO_TTS_PROFILE overrides reader default (public Breeze); AUDIO_TTS_ENDPOINT overrides its URL; TTS_CONFIG selects an ignored private profile config'
 	@echo '  operators          build the three accepted operator-foundation lectures'
 	@echo '  prerequisites      build the ordered prerequisite lectures and speech text'

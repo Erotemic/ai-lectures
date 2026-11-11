@@ -6,11 +6,11 @@
 
 # When are two groups of eigenvalues separated?
 
-Suppose someone tells you that two groups of eigenvalues are separated by a gap of two. What picture comes to mind? Perhaps one group sits to the left on a number line, there is an empty stretch of length two, and the other group sits to the right.
+Place three numbers on a line: zero, five, and ten. Consider the first spectral set containing zero and ten, and the second set containing five. Every cross-pair of numbers is at least five apart, so their spectral distance is five. Yet neither set sits entirely to one side of the other.
 
-That picture describes one kind of gap. But it does not describe every kind. Two groups can be separated from each other even when their eigenvalues alternate along the number line. The difference matters because different mathematical arguments require different kinds of separation.
+Now compare that with one set lying below zero and another entirely above five. Both configurations have a positive pairwise distance, but only the second has a single ordered gap between the sets. In a scalar division problem, either kind of separation gives a denominator bounded away from zero. In an operator Sylvester equation, uniform estimates in operator norm can depend critically on whether the denominator differences share one sign.
 
-These forms of spectral separation have different consequences for Sylvester equations and perturbation bounds.
+We will give precise definitions of pairwise distance and ordered spectral separation, draw the connection to block operators, and explain why an eigengap quoted without naming its two spectral sets can be ambiguous. These distinctions later determine which subspace-angle estimates can legitimately be applied.
 
 ## First, two sets on a number line
 

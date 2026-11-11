@@ -6,11 +6,13 @@
 
 # What does it mean to apply a function to a matrix?
 
-We know how to square a matrix. We multiply it by itself. We know how to form a polynomial in a matrix: take combinations of its powers and the identity.
+For a scalar number, calculating a square or a polynomial is straightforward. If we know the eigenvalues and eigenvectors of a symmetric matrix, the same operations can be done one eigenvalue at a time.
 
-But what could the square root of a matrix mean? Or the exponential? Or even a function that is one on some eigenvalues and zero on others?
+Take a diagonal matrix with entries one and four. Squaring it gives the diagonal matrix with entries one and sixteen. Applying the polynomial that sends t to t squared minus three gives diagonal entries negative two and thirteen. If we rotate the coordinate basis by an orthogonal matrix, the resulting operator is different as an array of entries but represents the same coordinate-free operation on the original self-adjoint map.
 
-It would be easy to misunderstand the phrase “apply a function to a matrix” as applying that function separately to every entry. Generally, that is *not* what we mean. The correct construction is about what the matrix does as an operator, and the spectral theorem supplies the key.
+The finite functional calculus makes this independence precise. We first decompose the Hilbert space into eigenspaces. Then a function acts by multiplying each eigenspace by the function's value at the corresponding eigenvalue. We must check that repeated eigenvalues cause no ambiguity and that a function of a self-adjoint operator remains well defined even when individual eigenvectors are chosen differently.
+
+We will build this calculation from spectral projections, then explain how polynomial identities, positivity and operator norms can be read directly from the scalar function on the spectrum.
 
 ## Start with one eigenvector
 

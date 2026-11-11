@@ -2,11 +2,11 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-The Courant–Fischer theorem gave us a way to locate any sorted eigenvalue of a self-adjoint operator. Instead of solving the characteristic polynomial, we can optimize its Rayleigh quotient over subspaces of a chosen dimension.
+A real symmetric matrix with diagonal entries zero and three has eigenvalues zero and three. Add a positive semidefinite matrix that raises only the first diagonal entry by one. The new eigenvalues become one and three: neither ordered eigenvalue has decreased.
 
-Consider two self-adjoint matrices, A and B. Their eigenvectors may point in entirely different directions. How could we compare their eigenvalues without finding an alignment between two separate eigenbases?
+The example reflects a general principle. If the difference B minus A is positive semidefinite, then every Rayleigh quotient of B is at least the corresponding Rayleigh quotient of A. Because eigenvalues can be characterized by min–max rules over subspaces, each ordered eigenvalue of B is at least that of A.
 
-The answer is to compare what the operators do to *every* vector. If one quadratic form is everywhere below another, then all its sorted eigenvalues must lie below the corresponding eigenvalues of the other. This is Weyl monotonicity. And if two quadratic forms differ only by a small amount, their corresponding eigenvalues cannot differ by much either.
+A perturbation need not be positive. If we only know that the operator norm of B minus A is at most epsilon, every unit-vector quadratic measurement changes by at most epsilon. The min–max formula then places the corresponding ordered eigenvalues within epsilon of one another. We will derive monotonicity and this norm perturbation estimate separately, keeping track of the ordering convention and of the self-adjointness required for the variational argument.
 
 ## Comparing quadratic forms
 
@@ -101,6 +101,18 @@ Try proving the operator-norm bound on a unit vector before looking at any eigen
 ---
 
 ## Companion: mathematical facts and Lean correspondence (display only)
+
+### Smallest and largest Rayleigh quotients
+
+For \(A=\operatorname{diag}(0,3)\), a unit vector
+\(x=(\cos\theta,\sin\theta)\) has Rayleigh quotient
+\[
+\langle Ax,x\rangle=3\sin^2\theta\in[0,3].
+\]
+Thus \(\min_{\|x\|=1}\langle Ax,x\rangle=0\),
+\(\max_{\|x\|=1}\langle Ax,x\rangle=3\).
+In dimension two these are the two extreme instances of the
+Courant--Fischer min--max principle.
 
 For self-adjoint \(A,B\) on an \(n\)-dimensional real or complex inner-product space, write eigenvalues in nonincreasing order: \(\lambda_1(\cdot)\ge\dots\ge\lambda_n(\cdot)\).
 

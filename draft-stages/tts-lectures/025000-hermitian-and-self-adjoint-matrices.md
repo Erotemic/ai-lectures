@@ -2,11 +2,13 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-Two matrices can have eigenvalue two with algebraic multiplicity two, yet have different eigenspaces. The diagonal matrix with both diagonal entries two has a whole plane of eigenvectors. The matrix whose rows are two, one and zero, two has only the horizontal eigenvector line. A repeated eigenvalue alone does not guarantee enough eigenvectors to diagonalize a matrix.
+A real symmetric matrix has the same entry above and below its diagonal. This simple-looking condition has strong consequences: its quadratic form is real, its eigenvalues are real, and eigenvectors with distinct eigenvalues are perpendicular.
 
-Self-adjoint matrices cannot have that defect. Their eigenvalues are real, and eigenvectors associated with different eigenvalues are perpendicular. In finite dimensions they admit a complete orthonormal eigenbasis. The inner product explains these properties.
+Take the symmetric matrix with diagonal entries one and off-diagonal entries two. The diagonal direction with equal coordinates is an eigenvector with eigenvalue three. The direction with opposite coordinates is an eigenvector with eigenvalue negative one. These perpendicular directions describe the matrix completely.
 
-The class is called self-adjoint, or, when we are speaking specifically about matrices, Hermitian. Let's find out why the inner product is doing the work.
+Over the complex numbers, the correct condition is Hermitian symmetry: the matrix equals its conjugate transpose. An imaginary entry may occur above the diagonal, provided its complex conjugate occurs below. Calling a complex matrix symmetric without conjugation describes a different class.
+
+We will examine exactly what Hermitian symmetry implies, why the inner-product convention matters, and how the self-adjoint finite-dimensional picture prepares us to use spectral subspaces rather than arbitrary matrix coordinates.
 
 ## What an adjoint does
 
@@ -99,6 +101,19 @@ These facts provide the ingredients for the finite spectral theorem: a self-adjo
 ---
 
 ## Companion: mathematical facts and Lean correspondence (display only)
+
+### Equal eigenvalue multiplicity, different eigenspaces
+
+Compare
+\[
+D=\begin{pmatrix}2&0\\0&2\end{pmatrix},\qquad
+J=\begin{pmatrix}2&1\\0&2\end{pmatrix}.
+\]
+Both characteristic polynomials are \((t-2)^2\), but
+\(\ker(D-2I)=\mathbb R^2\), while
+\(\ker(J-2I)=\operatorname{span}\{e_1\}\). Therefore algebraic
+multiplicity is two in both cases, whereas geometric multiplicity
+is two for \(D\) and one for \(J\).
 
 For a matrix over \(\mathbb C\), Hermitian means \(A=A^*\), where \(A^*=\overline A^{\mathsf T}\). If \(Av=\lambda v\) with \(v\ne0\), then
 \[

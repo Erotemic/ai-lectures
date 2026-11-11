@@ -2,9 +2,11 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-A subspace U is invariant under A if A maps U into itself. It is reducing if its orthogonal complement is invariant too. In a reducing decomposition, A acts independently on two perpendicular summands. A general operator can also be expressed in four blocks, whose off-diagonal entries measure the failure of reduction.
+A diagonal matrix acts on two coordinate axes independently. We can compute its output by computing the horizontal and vertical components separately and then adding them. A two-by-two upper-triangular matrix has one extra interaction: the vertical input may contribute to the horizontal output.
 
-This construction is important because the Davis–Kahan theorems often distinguish a perturbation that acts *within* a spectral subspace from one that moves vectors *between* two spectral subspaces. A block decomposition lets us say exactly what those two effects are. For now, the central objects are the diagonal and off-diagonal blocks of an operator. First we need to know how the blocks are made.
+Writing a linear map as a block matrix makes that interaction visible. The blocks are themselves maps between specified subspaces, with their own domains and codomains. If the chosen splitting is orthogonal, the adjoint of the whole block matrix is obtained by swapping the off-diagonal blocks and taking their adjoints.
+
+A reducing subspace is the case where the off-diagonal blocks vanish. An invariant subspace alone need only make one of them vanish. These simple facts prevent us from treating an arbitrary compression as an exact restriction. We will compute the block identities with projections, then see how the resulting algebra carries over from finite matrices to bounded operators on orthogonal Hilbert-space sums.
 
 ## One vector, two perpendicular components
 

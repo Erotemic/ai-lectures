@@ -2,9 +2,11 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-A linear map that preserves every vector length is an isometry, but it need not be onto. Its adjoint describes how the preserved geometry sits inside the target Hilbert space. Related identities distinguish isometries, coisometries, and partial isometries.
+Start with the map that sends a real number x to the plane vector with coordinates x and zero. It preserves lengths exactly, but it does not reach the vertical axis. It is an isometry from the real line into the plane, and its adjoint simply reads the first coordinate.
 
-There are three names to learn: isometry, coisometry, and partial isometry. The identities characterize how these maps preserve, discard, or transport geometric information, even between spaces of different dimensions.
+Now reverse the roles. The map from the plane to the real line that keeps the first coordinate is onto. Applying it after its adjoint gives the identity on the real line; applying its adjoint after it gives the projection onto the horizontal axis. This is a coisometry rather than an isometry.
+
+A partial isometry combines the two behaviors. It acts as an exact isometry on one selected initial subspace and kills the perpendicular directions. The corresponding initial and final projections describe where that length preservation occurs. These are the right objects for polar decomposition: a matrix may stretch some directions, transport others, and collapse a kernel, so its angular factor need not be a globally invertible unitary. We will derive the adjoint identities that distinguish the cases.
 
 ## A map that keeps lengths
 
@@ -87,6 +89,15 @@ To reconstruct today's lesson, explain the difference between the two equations 
 ---
 
 ## Companion: symbolic facts and Lean correspondence (display only)
+
+### Initial and final projections of the opening isometry
+
+Let \(V:\mathbb R\to\mathbb R^2\) be \(Vt=(t,0)\). Its adjoint is
+\(V^*(x,y)=x\), so \(V^*V=I_{\mathbb R}\) but
+\(VV^*=\operatorname{diag}(1,0)\ne I_{\mathbb R^2}\).
+Thus \(V\) is an isometry, while its adjoint is a coisometry. The
+same rank-one projection is the final projection in the polar
+factorization of the coordinate embedding.
 
 For bounded maps \(T:E\to F\) between Hilbert spaces:
 \[

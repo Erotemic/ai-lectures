@@ -6,9 +6,13 @@
 
 # The single-angle tangent theorem
 
-A trial subspace transverse to the exact orthogonal complement can be written as the graph of an operator from the exact subspace into its complement. Its slope has singular values equal to the tangents of principal angles. We now show how a spectral gap controls that slope using a residual. The result is a single-angle tangent theorem.
+Take a diagonal matrix with entries zero and five. Tilt the horizontal zero-eigenspace by an angle theta and compute the Ritz value of the tilted unit vector. It is five times sine squared theta. The unwanted exact eigenvalue is still five, so their distance is five times cosine squared theta.
 
-The proof has a similar outline to the sine theorem, but one essential extra step. We must prove that the trial space never points exactly into the unwanted complement. Otherwise the cosine has a kernel and the tangent cannot be recovered from finite graph coordinates.
+The Ritz residual has length five times sine theta times cosine theta. When we divide by the actual gap, we obtain tangent theta. This is an exact identity for every angle strictly between zero and ninety degrees. It explains why a tangent theorem needs a gap tied to the moving Ritz compression: the Ritz value approaches five as the line approaches vertical, so the denominator necessarily shrinks.
+
+The general result applies to a trial subspace and an exact reducing subspace of a self-adjoint operator. A graph over the exact subspace is the geometric representative of their tangent angles. To bound its slope, we use the same projected residual equation that controls the directed sine, but we must also prove that the trial subspace has no direction perpendicular to the target. Otherwise the graph slope does not exist as a bounded everywhere-defined operator.
+
+An ordered spectral gap with the Ritz operator supplies the needed geometry. The spectral hypotheses are part of the conclusion's mechanism, so we will keep track of the precise operators and the correct domain before stating the general inequality.
 
 ## Fix the setting
 
@@ -95,6 +99,19 @@ Doubled-angle bounds instead arise from reflection identities and different spec
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### Why the Ritz gap produces a tangent
+
+For \(A=\operatorname{diag}(0,5)\) and
+\(e=(\cos\theta,\sin\theta)\),
+\[
+M=e^*Ae=5\sin^2\theta,\qquad
+R=Ae-eM=5\sin\theta\cos\theta
+\begin{pmatrix}-\sin\theta\\\cos\theta\end{pmatrix}.
+\]
+Thus \(\|R\|=5|\sin\theta\cos\theta|\), and the
+complementary spectral gap is \(5-M=5\cos^2\theta\). For
+\(|\theta|<\pi/2\), their ratio is \(|\tan\theta|\).
 
 Let `E : F →ₗᵢ[𝕜] H`, `M = E* A E`, `R = A E - E M`, and let `U` reduce self-adjoint `A`. If the Ritz spectrum lies on one side of `A|Uᗮ` with ordered gap `δ > 0`, the source concludes both `Disjoint (range E) Uᗮ` and, for every rectangular unitarily invariant seminorm `N`,
 

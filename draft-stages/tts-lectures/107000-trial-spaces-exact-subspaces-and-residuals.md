@@ -6,9 +6,13 @@
 
 # Trial spaces, exact subspaces and residuals
 
-Suppose a self-adjoint operator has an invariant eigenspace that we cannot compute exactly. A numerical method produces a trial subspace instead. To estimate the angle between them, we first need a quantity that measures how far the trial subspace fails to be invariant under the original operator.
+A numerical eigensolver gives us a line in the plane and claims it is close to an eigenspace. How can we test that claim using the matrix, without first knowing the exact eigenvector?
 
-The exact subspace is invariant under the operator we want to understand. The trial subspace is the space produced by an algorithm, approximation, measurement, or a nearby operator. The residual will record what the target operator does to trial vectors that the trial space cannot explain internally.
+Take the symmetric matrix whose rows are zero, one, and one, three. Suppose the algorithm returns the horizontal unit vector. Multiplying by the matrix sends that vector straight upward. The trial line cannot account for the output: the entire transformed vector lies outside it. We have detected a failure of invariance using only one matrix multiplication.
+
+The same experiment works for a trial plane and a much larger matrix, provided we describe the trial plane by orthonormal columns. We compress the matrix to that plane to capture the part of the action that stays inside, and subtract that captured part. The remainder is a residual. Its input lives in the small trial-coordinate space; its output lives in the original ambient space.
+
+There are two subspaces to keep distinct. The trial subspace is what the algorithm gives us. The exact reducing subspace is the spectral target. Initially we can compute a residual using the trial subspace alone. A spectral gap will later let us convert that defect into a comparison with the target. First we need the exact identity satisfied by the residual.
 
 ## Choose orthonormal coordinates for the trial space
 
@@ -93,6 +97,19 @@ Projection of the residual onto the exact complementary subspace produces a Sylv
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### Exact residual in the opening numerical model
+
+With
+\[
+A=\begin{pmatrix}0&1\\1&3\end{pmatrix},\qquad
+E:\mathbb R\to\mathbb R^2,\quad Et=(t,0),
+\]
+we have \(M=E^*AE=0\) and
+\(R=AE-EM=(0,1)^T\). Thus \(E^*R=0\), and
+\(R=(I-EE^*)AE\) explicitly. The eigenvalues of \(A\) are
+\((3\pm\sqrt{13})/2\), showing that zero Ritz value is only an
+approximation even though the trial vector is normalized.
 
 For a finite-dimensional isometry `E : F → H`, define `P=EE*`, `M=E*AE`, and `R=AE−EM`. Then `E*R=0` and `R=(I−P)AE`. For an arbitrary trial operator `A₀`, `R₀=AE−EA₀=R+E(M−A₀)`; the two summands have orthogonal ranges. With unbounded `A`, use common-domain hypotheses before asserting a bounded extension.
 

@@ -6,11 +6,13 @@
 
 # How large must a linear map remain?
 
-The eigenvalue min–max theorem answers a question about a self-adjoint operator: if we are allowed to choose a subspace, how large or small can its quadratic form be on unit vectors in that subspace?
+Take a diagonal map that stretches three perpendicular directions by factors five, two and one. Its largest possible output length on a unit input is five. If we insist on ignoring one input direction, what is the smallest worst-case stretching left on a suitable two-dimensional choice?
 
-We now ask a related question for any linear map. It need not be square. It need not be self-adjoint. We might map three-dimensional vectors into a space of five dimensions, or the other way around. There may be no eigenvalues that describe the map at all.
+Choose the plane spanned by the second and third coordinate directions. The largest stretching on that plane is two. No two-dimensional input plane can avoid the span of the first two directions completely; an intersection argument shows that its largest stretching must be at least two. So the second singular value is two, characterized by a min–max rule.
 
-But one measurement always makes sense. Give the map a unit input, and measure the length of its output. Which input directions produce large outputs? How many independent directions must have large outputs? Singular values answer these questions, and min–max principles make their answers independent of a chosen matrix or basis.
+The singular-value min–max principle is the rectangular counterpart of the eigenvalue variational principle, but it measures lengths of images rather than signed quadratic forms. We will derive it from the positive operator A adjoint A, recover the singular values by taking square roots, and explain how rank constraints and orthogonal subspaces appear in the equivalent formulas.
+
+A careful distinction is needed: the input and output spaces of a rectangular map can have different dimensions, and any extra zero singular values require an explicit convention.
 
 ## Recover the geometry from the singular-value decomposition
 
@@ -97,7 +99,6 @@ Try proving the two singular-value games without naming any spectral theorem. Us
 Then take a three-dimensional diagonal map with singular values six, three, and one. Explain why discarding two input directions can reduce the largest surviving output length to one, but cannot reduce it below one.
 
 Finally, prove the kernel argument for a rank-one approximation. Ask yourself precisely where the dimension of the source appears, and why the dimension of the target does not enter the conclusion.
-
 
 <!-- END SPOKEN LECTURE -->
 

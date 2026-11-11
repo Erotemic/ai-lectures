@@ -6,11 +6,13 @@
 
 # Which gap gives which constant?
 
-The Sylvester equation A X minus X B equals C admits different estimates under different spectral-gap assumptions. An ordered gap yields a constant-one operator-norm estimate using decaying exponentials. Mere pairwise separation yields constant one in Hilbert-Schmidt norm; for the bounded self-adjoint operator-norm problem, a Fourier kernel gives a general factor of pi over two. These conclusions require distinct hypotheses.
+Suppose two spectra are separated by a positive distance. For a scalar equation we divide by one nonzero number. For a matrix Sylvester equation, many cross-spectral differences appear at once, and the norm chosen for the matrix determines how those entrywise divisions combine.
 
-Two properties determine the available Sylvester bounds: the spectral geometry of the two coefficient operators and the norm used to measure the solution.
+In the Hilbert–Schmidt norm, the squared norm is the sum of the squared magnitudes of all entries in orthonormal eigenbases. If every cross-spectral difference has magnitude at least delta, dividing each entry gives an immediate constant-one inequality. In operator norm, by contrast, the largest amplification can depend on interactions among several entries. The same entrywise proof does not establish a constant-one estimate.
 
-A two-by-two example shows that pairwise spectral separation alone does not give a constant-one operator-norm estimate.
+When one entire spectrum lies above the other, a time-integral representation gives an operator-norm bound with constant one. With merely pairwise separation, other resolvent or multiplier estimates are needed and can have a different constant.
+
+We will compare these arguments explicitly rather than identify the word gap with a single universal inequality. The theorem must specify both the gap geometry and the norm class.
 
 ## Three operator norms to keep distinct
 

@@ -6,11 +6,13 @@
 
 # The tangent-two-theta theorem
 
-The sine-two-theta theorem controls an operator that vanishes both at zero angle and at ninety degrees. To recover a stronger geometric conclusion, we need to know which branch of that function we occupy.
+Take a diagonal symmetric matrix with an upper eigenvalue b and a lower eigenvalue a, separated by a positive gap. Add a coupling h that is purely off-diagonal in the decomposition into their eigenspaces. The eigenvectors rotate, but the two spectral branches remain distinguishable.
 
-For a self-adjoint operator with an ordered two-block gap, an off-diagonal perturbation gives us exactly that information. The selected upper spectral subspace remains at angles strictly less than forty-five degrees from the original upper subspace. On that branch, the tangent of twice the angle is finite and can be controlled sharply.
+In the plane, diagonalizing the new matrix shows that the rotation angle theta of the upper eigenspace satisfies tangent of twice theta equal to two times the absolute coupling divided by the gap. For a gap of two and a coupling of one, the angle is twenty-two and a half degrees. Its doubled tangent is exactly one.
 
-We will prove the result first in a two-by-two matrix, then explain a finite-dimensional graph proof that contains the central estimate.
+Why is this stronger than a doubled-sine estimate? Because tangent of twice theta becomes unbounded as theta approaches forty-five degrees. To use it, we must first establish that the relevant spectral subspace really stays on the branch with angles below forty-five degrees. Off-diagonality and the ordered block gap are the structural facts that make this possible.
+
+We will prove spectral selection, represent the perturbed subspace as a graph, and then obtain the tangent estimate from its invariance equation. Along the way, the two-dimensional computation will identify both the sharp constant and the branch restriction. Neither conclusion follows from the doubled-sine inequality alone.
 
 ## State the strong hypotheses
 
@@ -117,6 +119,18 @@ The sharp doubled-tangent estimate is therefore a joint statement about a pertur
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### The doubled tangent and the diagonal gap
+
+For \(a<b\), \(\Delta=b-a\), and
+\(S=\left(\begin{smallmatrix}a&h\\h&b\end{smallmatrix}\right)\),
+the spectral-branch angle \(\theta\in[0,\pi/4)\) satisfies
+\[
+\tan(2\theta)=\frac{2|h|}{\Delta}.
+\]
+When \(\Delta=2\) and \(|h|=1\), the angle is \(22.5^\circ\).
+This conclusion uses the ordering of the two spectral branches;
+without branch selection, tangent alone does not label them.
 
 Let `T=T*` reduce `U`, with `T|U≥b`, `T|Uᗮ≤a`, `δ=b-a>0`. Let `S=T+H=S*` and assume `PHP=(I-P)H(I-P)=0`, `‖H‖≤ε`; let `V` reduce `S` and satisfy the corresponding form bounds on `V` and `Vᗮ`. Then with `t=‖P_U-P_V‖=sin θ_max` the source proves
 
