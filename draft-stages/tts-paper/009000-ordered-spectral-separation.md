@@ -6,7 +6,9 @@
 
 # A spectral gap that makes the solution decay
 
-For the Sylvester equation A X minus X B equals C, disjoint spectra can guarantee a unique solution, but existence alone gives no quantitative bound on its norm. An ordered positive gap between self-adjoint coefficient operators provides a much stronger conclusion.
+Start with three numbers. Five times an unknown, minus the unknown times two, equals six. The difference between five and two is three, so the answer is two. If we change the six on the right to a small error, dividing by three makes that error smaller. A separation between the two coefficients controls the solution.
+
+The matrix equation A times X minus X times B equals C asks for the same kind of control when A and B act on entire spaces. Merely knowing that they have no eigenvalue in common gives solvability in the finite-dimensional setting, but a particularly strong norm estimate comes when the spectrum of A sits entirely above the spectrum of B. We can then use the gap as a denominator without relying on individual matrix entries.
 
 Suppose A and B are self-adjoint, and every spectral value of A lies at least delta above every spectral value of B, where delta is positive. This is ordered spectral separation. Under that hypothesis, the solution of A X minus X B equals C can be written as an integral of decaying exponentials, and its operator norm is at most the norm of C divided by delta.
 

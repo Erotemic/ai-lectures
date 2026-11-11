@@ -6,7 +6,9 @@
 
 # How much can a distance-only gap say?
 
-The free-beam model separates low and high spectral clusters by an ordered gap. That configuration supports sharp constant-one Sylvester estimates. What changes when two spectra have a positive pairwise distance but interlace rather than lie on opposite sides of one gap?
+Put two sets of numbers on a line. The first set contains minus two and two; the second contains minus one and one. Every number in the first set stays at least one unit away from every number in the second, so the sets are disjoint with a positive distance. Yet neither set lies entirely above the other. No single ordered gap separates them.
+
+For a scalar Sylvester equation any nonzero difference gives a denominator. For a matrix equation, interlacing spectra still keep the entrywise denominators away from zero, but the operator norm of the assembled solution requires a different argument. Davis and Kahan's first question about improving residual-angle estimates brings this distinction to the foreground.
 
 This is the question Davis and Kahan raise in Question ten point one. It asks how sharply we can control the angle of a trial subspace using a residual if we know only that every trial spectral value is at least delta away from every complementary exact spectral value.
 

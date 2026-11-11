@@ -6,7 +6,9 @@
 
 # Off-diagonal perturbations and block reflection
 
-Let T be self-adjoint, with a reducing subspace U and a spectral gap between its two diagonal blocks. Perturb T to S and compare U with a reducing subspace of S. A useful tool is reflection through a subspace: it preserves the diagonal blocks of an operator and reverses the off-diagonal blocks. This elementary symmetry explains why perturbation estimates involving twice the principal angles arise.
+Take a symmetric two-by-two matrix with diagonal entries minus two and two. The horizontal and vertical axes are independent eigendirections, separated by a gap of four. Now put the same nonzero number in both off-diagonal positions. The axes begin to mix, although their original diagonal entries have not changed.
+
+There is a simple operation that reveals the coupling: leave the horizontal coordinate unchanged and reverse the vertical coordinate. This reflection leaves the diagonal entries alone and reverses both off-diagonal entries. Comparing the original and reflected operators lets us isolate the part responsible for rotating the eigenspaces. The appearance of twice an angle in the perturbation theorem will come from this reflection geometry.
 
 We will derive this identity entirely from the two-by-two block matrix of an orthogonal splitting.
 

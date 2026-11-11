@@ -6,7 +6,9 @@
 
 # What does it mean to rotate continuously?
 
-Until now our operators have usually described a transformation in one step. A matrix acts on a vector, and we compare the input with the output.
+Imagine a point on a rotating wheel. A quarter turn followed by another quarter turn has the same effect as a single half turn. Starting from no rotation, we would like one rule that produces the transformation for any elapsed time, and whose outputs combine correctly when we add time intervals.
+
+For numbers, the exponential function turns sums into products. For matrices, its power series produces a similar one-parameter family of linear transformations. The series also solves the differential equation that tells us the instantaneous change. This construction handles not only rotations but growth, decay, and shear, and it needs no eigenvector formula to get started.
 
 But suppose we want to describe a transformation that unfolds over time. Start at the identity, move a tiny amount, then move again, and keep doing so. We want a family of operators for which the transformation over two successive time intervals agrees with the transformation over their combined duration.
 

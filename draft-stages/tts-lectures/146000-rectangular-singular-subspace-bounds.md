@@ -6,11 +6,13 @@
 
 # Rectangular singular-subspace bounds
 
-The original Davis–Kahan theorems concern self-adjoint operators and their spectral subspaces. Many data matrices are rectangular, and their most informative subspaces are spanned by left or right singular vectors instead of eigenvectors of the original map. Rectangular singular-subspace perturbation can be reduced to self-adjoint spectral theory in two ways: Hermitian dilation and positive Gram operators.
+Consider a map from the plane into three-dimensional space. It multiplies the first input coordinate by three, keeps the second, and always produces zero in the third output coordinate. Its largest right singular direction is horizontal; its matching left singular direction also points along the first output axis. Now perturb the map by adding a small third output component to the image of the horizontal input. The right singular directions stay exactly the same, but the leading left singular direction tilts toward the third axis.
+
+This example shows why rectangular perturbation theory must distinguish input singular subspaces from output singular subspaces. A self-adjoint block matrix can combine both sides in one spectral problem, while the two Gram operators give another route. Each reduction carries its own gap conditions and estimates.
 
 ## One rectangular map, two subspaces
 
-Let A map a q-dimensional input space to a p-dimensional output space. Its singular-value decomposition pairs a right singular vector v with a left singular vector u and a nonnegative singular value sigma. The defining equations say that applying A to v gives sigma times u, and applying the adjoint of A to u gives sigma times v.
+In the opening example the input space has dimension two and the output space has dimension three; only the leading left singular line turns under the perturbation. Generally, let A map a q-dimensional input space to a p-dimensional output space. Its singular-value decomposition pairs a right singular vector v with a left singular vector u and a nonnegative singular value sigma. The defining equations say that applying A to v gives sigma times u, and applying the adjoint of A to u gives sigma times v.
 
 The right singular vectors live in the input space. The left singular vectors live in the output space. If the two spaces have different dimensions, even their ambient geometries differ. We must therefore choose explicitly which subspace error we want to estimate.
 
@@ -91,6 +93,26 @@ Keep three choices independent when applying rectangular perturbation estimates:
 ---
 
 ## Display-only mathematical and Lean correspondence
+
+**Rectangular example with different left and right motions.** Let
+\[
+A=\begin{pmatrix}3&0\\0&1\\0&0\end{pmatrix},\qquad
+\widehat A=\begin{pmatrix}3&0\\0&1\\\varepsilon&0\end{pmatrix}.
+\]
+The right Gram matrices are \(A^*A=\operatorname{diag}(9,1)\) and
+\(\widehat A^*\widehat A=\operatorname{diag}(9+\varepsilon^2,1)\).
+For every real \(\varepsilon\), the leading right singular line remains
+\(\operatorname{span}(e_1)\subset\mathbb R^2\). The leading left singular
+line, however, changes from \(\operatorname{span}(e_1)\) to
+\[
+\operatorname{span}\!\left(
+\frac{(3,0,\varepsilon)}{\sqrt{9+\varepsilon^2}}\right)
+\subset\mathbb R^3.
+\]
+Its angle to the original left line satisfies
+\(\tan\theta=|\varepsilon|/3\). This illustrates why left and right
+singular-subspace bounds must be distinguished.
+
 
 For `A : ℝ^q → ℝ^p`, `D=Ahat-A` and `G=A* A`,
 

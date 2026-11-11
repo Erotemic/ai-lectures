@@ -6,7 +6,9 @@
 
 # Whole-space squared displacement and Q-norms
 
-An orthogonal or unitary transporter W carries a source subspace U onto a target subspace V. Restricted displacement measures identity minus W only on U. Proposition four point three instead studies squared displacement on the entire ambient space. Its conclusion compares the direct rotation to all such transporters for a norm of this positive squared operator, under the stated hypotheses.
+Two lines in a plane differ by thirty degrees. A short rotation maps one onto the other; so does reflection across their angle bisector. Both satisfy the subspace constraint, but move other directions differently.
+
+A whole-space comparison must measure those other directions too. Proposition four point three compares the positive *square* of displacement. Squaring reveals squared lengths and supports a singular-value inequality that does not automatically extend to the unsquared operator.
 
 ## The positive displacement square
 

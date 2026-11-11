@@ -6,7 +6,9 @@
 
 # The generalized tangent bound
 
-The single-angle tangent theorem controls a tangent of the subspace error when spectral separation is measured from a Rayleigh–Ritz compression. Davis and Kahan's Theorem six point three develops this geometry in a generalized form. The trial space may have smaller dimension than the exact selected space, and the conclusion concerns a directed tangent.
+Take the diagonal matrix with eigenvalues zero and four. Its lower eigenspace is horizontal. Tilt a trial line through thirty degrees. The sine of its angle is one half, while its tangent is one over the square root of three. The Rayleigh quotient of the tilted unit vector is one, so the trial spectral value lies three units below the unwanted eigenvalue four.
+
+The residual component in the unwanted direction has magnitude square root of three. Dividing that residual by the three-unit separation gives one over square root of three, exactly the tangent of the angle. This two-dimensional identity is the model for a generalized tangent theorem. In larger spaces we must specify which direction of the angle is controlled and which spectral separation makes the division legitimate.
 
 A tangent bound is stronger than a sine bound when the angle is large. Yet the theorem does not simply divide a previously known sine estimate by a cosine. The Rayleigh–Ritz orthogonality and the placement of the unwanted spectrum do additional work. We will derive their role and prove the maximal-angle bound directly in finite dimensions before explaining the all-singular-values extension.
 
@@ -48,7 +50,7 @@ We did not obtain that cosine from the spectral gap. It came from the residual b
 
 ## Check the bound on a rotated line
 
-Take A diagonal with eigenvalues zero and d, with d positive. The exact selected subspace is the horizontal axis, and W is the vertical axis. Let the one-dimensional trial subspace be the line at angle theta above the horizontal.
+Return to the rotated-line example from the opening, but now let the second eigenvalue be any positive number d. The exact selected subspace is horizontal, the unwanted subspace is vertical, and the trial line makes an angle theta with horizontal.
 
 Its Ritz value is d times sine squared theta. The unwanted exact eigenvalue is d, so the gap between that eigenvalue and the Ritz compression is d cosine squared theta.
 
@@ -93,6 +95,26 @@ The operator-norm proof is memorable. Compare a principal direction's unwanted s
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+**Exact Ritz-residual equality in a plane.** Set
+\[
+A=\begin{pmatrix}0&0\\0&4\end{pmatrix},\quad
+z=\begin{pmatrix}\sqrt3/2\\1/2\end{pmatrix},\quad
+w=\begin{pmatrix}-1/2\\\sqrt3/2\end{pmatrix}.
+\]
+The one-dimensional trial Ritz value is \(z^*Az=1\). The exact unwanted
+eigenvalue is \(4\), so \(\delta=4-1=3\). The residual is
+\[
+r=Az-z(z^*Az),\qquad \|r\|=\sqrt3,
+\]
+and the directed angle to the horizontal zero-eigenspace is \(\pi/6\).
+Consequently
+\[
+\delta\tan(\pi/6)=3/\sqrt3=\sqrt3=\|r\|.
+\]
+The orthogonality \(z^*r=0\) produces the cosine factor used in the
+principal-vector derivation.
+
 
 
 The finite source-faithful strict-rank theorem takes `finrank 𝕜 F < finrank 𝕜 U`, an isometric trial frame `X`, `TanThetaIntervalGap`, and an explicit tangent representative whose singular values equal `(approximateSubspace X).principalTangents U`. It concludes

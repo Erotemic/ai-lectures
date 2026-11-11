@@ -6,7 +6,9 @@
 
 # Stability of functions of operators
 
-Many applications apply a function to an operator rather than asking for a particular eigenvector. They may take an operator square root, solve a resolvent equation, evolve a system by an exponential, or select a spectral cluster through a step function. Davis and Kahan ask which such operations admit useful perturbation bounds, and under what assumptions on the function and the operators.
+The square-root function is continuous on nonnegative numbers, but near zero a small change in its input can produce a much larger proportional change in its output. Compare the diagonal matrices with entries zero and one, and with entries epsilon squared and one, where epsilon is positive and smaller than one. Their operator-norm difference is epsilon squared. After taking positive square roots, the difference is epsilon. No fixed multiplier can bound that ratio as epsilon approaches zero.
+
+This elementary matrix example explains why continuity of a scalar function does not automatically provide a linear perturbation estimate for the corresponding operator function. Other functions, such as resolvents, may have stronger estimates when the spectra stay away from singularities. We will distinguish the hypotheses that support each conclusion.
 
 ## What a function of an operator means
 
@@ -66,7 +68,7 @@ The example also proves why comparing only eigenvalues cannot estimate the diffe
 
 ## Why divided differences appear
 
-For commuting diagonal matrices, the change in f acts coordinatewise. Each coordinate has scalar quotient: f of mu minus f of lambda, divided by mu minus lambda, when the denominator is nonzero. For noncommuting matrices, the same quotient appears between different eigenvectors.
+Our square-root example gives a scalar divided difference of one divided by epsilon: the output changes by epsilon while the input changes by epsilon squared. As epsilon approaches zero, that ratio grows without bound. For commuting diagonal matrices, the change in f acts coordinatewise. Each coordinate has scalar quotient: f of mu minus f of lambda, divided by mu minus lambda, when the denominator is nonzero. For noncommuting matrices, the same quotient appears between different eigenvectors.
 
 One can write a matrix-level formula using the spectral projections of A and B. The contribution between an A eigenvalue lambda and a B eigenvalue mu is the scalar divided difference multiplied by the corresponding cross projection and by H. This follows from the identity that the cross projection of H equals the spectral difference times the cross projection of the identity.
 
@@ -85,6 +87,23 @@ The polynomial telescoping identity, the resolvent identity, and the identificat
 ---
 
 ## Display-only mathematical and Lean correspondence
+
+**Operator square roots near zero.** For \(0<\varepsilon<1\), set
+\[
+A=\operatorname{diag}(0,1),\qquad
+B_\varepsilon=\operatorname{diag}(\varepsilon^2,1).
+\]
+Then both matrices are positive semidefinite, and
+\[
+\|B_\varepsilon-A\|_{\mathrm{op}}=\varepsilon^2,
+\qquad
+\|B_\varepsilon^{1/2}-A^{1/2}\|_{\mathrm{op}}=\varepsilon.
+\]
+The ratio is \(1/\varepsilon\), so no globally valid Lipschitz constant
+for the positive square-root map can hold on a class including arbitrarily
+small eigenvalues. This does not preclude weaker moduli of continuity or
+Lipschitz estimates under a uniform positive spectral lower bound.
+
 
 `DK-10.4` is transcribed in `prose/distilled_literature/DavisKahan1970_part_III.tex`; the step-function specialization is developed in `DavisKahan/Sources/DavisKahan1970/Section10FunctionalCalculus.lean`. It explicitly requires the perturbed reducing projection to be the spectral projection at the same cut.
 

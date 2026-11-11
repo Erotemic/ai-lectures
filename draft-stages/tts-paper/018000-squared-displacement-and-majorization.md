@@ -6,7 +6,9 @@
 
 # The squared sine-angle bound for orthonormal frames
 
-Proposition four point two asks what happens when we select an orthonormal family in the source subspace, transport every vector by the same unitary, and add up their angular errors. We will prove the lower bound from orthogonal projections and the trace of a positive operator. Along the way we must distinguish the square of a sine from the square of a Euclidean chord.
+Suppose a unit arrow points to the right. Turning it all the way around to point left moves its tip a distance of two, yet the line it spans is exactly the same line. A measurement of movement between vectors and a measurement of movement between one-dimensional subspaces can therefore give entirely different answers.
+
+Now take several perpendicular arrows spanning a source subspace and carry them into a target subspace with one orthogonal or unitary map. Proposition four point two asks how small their total *squared sine-angle* error can be. The proof will use projections and an orthonormal frame, so we need to keep this angle error separate from ordinary Euclidean displacement.
 
 ## One vector, two error measures
 

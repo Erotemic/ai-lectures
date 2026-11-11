@@ -6,7 +6,9 @@
 
 # Which gap gives which constant?
 
-The Sylvester equation A X minus X B equals C admits different estimates under different spectral-gap assumptions. An ordered gap yields a constant-one operator-norm estimate using decaying exponentials. Mere pairwise separation yields constant one in Hilbert-Schmidt norm; for the bounded self-adjoint operator-norm problem, a Fourier kernel gives a general factor of pi over two. These conclusions require distinct hypotheses.
+For the scalar equation five times x minus x times two equals c, the answer has absolute value at most the absolute value of c divided by three. The estimate follows immediately from the distance between the two numbers. If A and B are matrices, there are many such differences, one for each pair of spectral directions. Every individual denominator may be safe, yet bounding the assembled matrix can require more than checking entries separately.
+
+That is why the choice of matrix norm enters the Sylvester problem. The Hilbert–Schmidt norm measures the squares of all entries in suitable orthonormal coordinates. The operator norm measures the largest possible amplification of one vector, so its behavior under an entrywise division is subtler. We will compare the assumptions that recover a constant of one with those that require a larger general estimate.
 
 Two properties determine the available Sylvester bounds: the spectral geometry of the two coefficient operators and the norm used to measure the solution.
 

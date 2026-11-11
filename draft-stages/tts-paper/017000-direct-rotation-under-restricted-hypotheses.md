@@ -6,7 +6,9 @@
 
 # Restricted direct-rotation optimality
 
-For two closed subspaces U and V, a unitary or orthogonal transporter W sends U onto V. There may be many such maps. Which one moves vectors starting in U by the smallest amount? Proposition four point one of Davis and Kahan answers this question, and Corollary four point one extends the answer to every unitarily invariant norm of the restricted displacement. Measuring displacement only on U is a crucial hypothesis: minimizing displacement on the entire ambient space is a different optimization problem.
+Picture a horizontal line and another line tilted thirty degrees above it. To carry the first line onto the second, we can rotate through thirty degrees. We could also rotate through two hundred ten degrees; that maps the line onto the same target, but moves a horizontal unit vector much farther. Reaching the correct subspace therefore leaves a choice about how individual vectors travel.
+
+Davis and Kahan's restricted transport result makes that choice precise. It measures how far vectors *starting in the source subspace* move and shows why the direct rotation is optimal for a broad family of such measurements. Actions on the perpendicular complement are part of a full ambient transporter, but they are outside this particular cost. That qualification will matter when we consider other optimization problems.
 
 ## Set up the competitors
 

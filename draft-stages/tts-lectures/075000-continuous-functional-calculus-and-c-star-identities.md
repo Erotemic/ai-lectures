@@ -6,7 +6,9 @@
 
 # Defining a function of an operator without diagonalizing it
 
-Suppose A is a bounded self-adjoint operator on an infinite-dimensional Hilbert space. In finite dimensions, we could diagonalize A and apply a function to its eigenvalues. But multiplication by the coordinate on square-integrable functions over the unit interval has continuous spectrum and no nonzero eigenvectors at all.
+Take a square-integrable function on the interval from zero to one. Define an operator A by multiplying the function's value at t by t. The operator is bounded, but it has no nonzero eigenvector: an eigenvector would have to be supported at one point, which represents the zero function in this Hilbert space. Diagonalizing with a list of eigenvectors is therefore impossible.
+
+Nevertheless we can square A: doing so multiplies by t squared. We can also take its square root: the result multiplies by the square root of t. Those operations should belong to one general construction of a continuous function of A. Polynomial approximations provide that construction, and an operator-norm identity makes the limit well defined.
 
 We still want to make sense of A squared, the exponential of A, the square root of a positive A, and eventually the indicator of a spectral interval. Polynomial approximation provides the continuous functional calculus for bounded self-adjoint operators.
 

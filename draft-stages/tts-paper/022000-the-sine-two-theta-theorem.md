@@ -6,7 +6,9 @@
 
 # The sine-two-theta theorem
 
-A subspace perturbation can be measured by twice its principal angles. Suppose a self-adjoint operator has a reducing subspace with its spectrum ordered above the spectrum on the orthogonal complement. If the operator changes by a self-adjoint perturbation, reflection through a reducing subspace of the perturbed operator turns the angular comparison into a residual with a sharp norm bound.
+Reflect a horizontal arrow across a line inclined thirty degrees above the horizontal. The reflected arrow points sixty degrees above the horizontal. A reflection can turn a thirty-degree subspace difference into an expression involving twice the angle. That elementary observation becomes useful when an operator has two spectral blocks separated by an ordered gap.
+
+Suppose we perturb such a self-adjoint operator and follow one of its reducing subspaces. By reflecting through a suitable subspace, we can compare the perturbed operator with its reflected version and isolate the term responsible for the angular change. The sine-two-theta theorem turns that geometry into a sharp estimate involving the spectral gap and the perturbation size.
 
 The conclusion says that the gap times the sine of twice the subspace angle is at most twice the perturbation size. We will derive this estimate carefully, and then explain what it can and cannot tell us about the original angle.
 

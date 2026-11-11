@@ -4,7 +4,9 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-A subspace U is invariant under A if A maps U into itself. It is reducing if its orthogonal complement is invariant too. In a reducing decomposition, A acts independently on two perpendicular summands. A general operator can also be expressed in four blocks, whose off-diagonal entries measure the failure of reduction.
+Consider a three-dimensional vector with horizontal, vertical, and depth coordinates. An operator can act on the horizontal and vertical directions without ever sending either one into the depth direction, yet send a depth vector partly into the horizontal plane. The horizontal plane is then preserved by the operator, but the depth axis is not. Describing the operator as two independent pieces would be misleading.
+
+This is the distinction between an *invariant* subspace, which the operator maps into itself, and a *reducing* subspace, whose perpendicular complement is also invariant. When both pieces are preserved, the operator is block diagonal. Otherwise its off-diagonal blocks record exactly which directions cross between the pieces.
 
 This construction is important because the Davis–Kahan theorems often distinguish a perturbation that acts *within* a spectral subspace from one that moves vectors *between* two spectral subspaces. A block decomposition lets us say exactly what those two effects are. For now, the central objects are the diagonal and off-diagonal blocks of an operator. First we need to know how the blocks are made.
 

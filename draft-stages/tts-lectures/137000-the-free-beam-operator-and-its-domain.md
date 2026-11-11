@@ -6,7 +6,9 @@
 
 # The free-beam operator and its domain
 
-A beam with free endpoints has vibration modes described by a fourth-order differential operator. Davis and Kahan use this model to illustrate perturbation bounds for low-frequency spectral subspaces. To make the estimates rigorous, we need the operator domain and its boundary conditions, not just a formal fourth derivative.
+A thin beam can bend, but two simple motions cause no bending at all. The entire beam can shift upward by the same amount, or tilt so that its displacement increases linearly along its length. Both motions have zero second derivative and therefore zero bending energy in the elementary elastic-beam model.
+
+Those two motions become the zero modes of the fourth-derivative operator with free-end boundary conditions. To understand why, we need more than the expression 'take four derivatives': we must specify which functions belong to its domain and what happens at both endpoints. Once that operator is defined, its low-frequency subspace becomes a concrete setting for testing spectral perturbation estimates.
 
 The word free refers to the boundary conditions. It does not mean that the operator acts on every square-integrable function, and it does not mean that its zero eigenspace is trivial. In fact, the free boundary conditions produce two independent zero modes, and that is exactly what makes the perturbation example interesting.
 

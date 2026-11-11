@@ -6,7 +6,9 @@
 
 # Small-angle certification
 
-Theorem eight point one protects a two-block gap from an off-diagonal perturbation of arbitrary size. But not every perturbation is off-diagonal. A general self-adjoint perturbation can move the diagonal blocks, so the original gap may shrink. How small must such a perturbation be to identify a corresponding subspace and certify an angle below forty-five degrees?
+Take a diagonal symmetric matrix with eigenvalues zero and four. Its lower eigenspace is the horizontal axis, and the four-unit gap makes the two eigendirections easy to identify. Now add a diagonal perturbation that raises the lower eigenvalue by one and a half and lowers the upper one by one and a half. Their separation shrinks to one. A perturbation of size two could close it altogether.
+
+This calculation explains the appearance of *half a gap* in spectral-selection arguments. Each side of a separation can move toward the other. Theorem eight point two combines that safety margin with precise spectral placement to certify that the selected perturbed subspace remains on the near-zero angular branch. A small doubled sine, by itself, cannot select that branch.
 
 This question leads to Davis and Kahan's Theorem eight point two. The result has two alternative smallness conditions: one on the full perturbation and one on a residual. Both are compared with half of a specified spectral gap. We will explain the geometry of these conditions and the analytic steps by which they select the correct angular branch.
 

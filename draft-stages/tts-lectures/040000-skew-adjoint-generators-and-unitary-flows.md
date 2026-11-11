@@ -6,7 +6,9 @@
 
 # When does a motion preserve lengths?
 
-A real skew-symmetric two-by-two matrix K with first row zero, negative one and second row one, zero generates rotations. Its exponential at time t is the rotation matrix through angle t. The identity follows from the power series, because K squared is negative identity.
+A clock hand turns without changing its length. Over a short interval, its tip moves almost perpendicular to the hand rather than along it. The faster the clock turns, the larger this sideways motion becomes. This suggests a useful test for a continuous linear motion: its instantaneous generator must produce no change in the squared length of any moving vector.
+
+For a plane rotation, the generator is the skew-symmetric matrix that sends a horizontal unit vector upward and a vertical unit vector leftward. Exponentiating that matrix recovers rotation through an angle equal to elapsed time. We will derive both directions of this relationship: why a length-preserving flow has a skew-adjoint generator, and why such a generator yields a length-preserving flow.
 
 Suppose we are given a motion that preserves lengths and angles at every moment. What must its instantaneous generator look like? And if we start with a generator of that kind, can we prove that the motion preserves geometry for all time?
 

@@ -6,7 +6,9 @@
 
 # Ambient sine from an ambient perturbation
 
-A residual estimate for a trial subspace controls how far that trial subspace escapes one exact spectral subspace. That directed angle can miss a defect in the reverse direction. Proposition six point one of Davis and Kahan instead bounds the complete ambient subspace angle from a perturbation between two self-adjoint operators. Suppose two self-adjoint operators differ by a perturbation, and we have chosen one reducing subspace of each operator. Can we control the entire ambient difference between those two subspaces by the perturbation itself?
+Take a horizontal line inside a two-dimensional plane. Every vector on the line already belongs to the plane, so the distance from the line to the plane, measured in that direction, is zero. But the vertical unit vector in the plane is a full unit away from the line. Reversing the comparison changes the answer completely.
+
+The same asymmetry appears in perturbation theory when we compare a trial subspace with an exact spectral subspace. A residual often bounds only one directed escape. Proposition six point one seeks a bound for the entire ambient angle, which sees both directions. To obtain it, the proof uses two cross-block equations and a norm inequality that recombines their information.
 
 The answer is yes, under spectral separation in both crossed directions. We will derive the two Sylvester equations, combine their singular values, and see exactly why the pinching lemma is needed to recover a constant of one.
 

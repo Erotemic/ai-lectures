@@ -6,7 +6,9 @@
 
 # A constant-one bound from a bounded inverse
 
-The Sylvester equation asks for an operator X satisfying A X minus X B equals C. In a Banach space, we cannot generally diagonalize A and B, yet we can still estimate X by rearranging the equation whenever one coefficient has a bounded inverse and the other is sufficiently small in comparison. Davis and Kahan state this as Theorem five point one. The theorem uses a bounded inverse of A, a bound on B, and a compatible norm on the operators that connect their spaces. These hypotheses create a contraction in the Sylvester equation.
+Consider the equation four times x minus x times one equals six. Dividing by four first gives x minus one quarter of x equals one and a half. We can recover x by adding the geometric series one and a half, then one quarter of that, then one sixteenth, and so on. It converges because the correction factor is smaller than one.
+
+The same idea works for operators between Banach spaces. If A has a bounded inverse and the operator obtained by multiplying on one side by that inverse and on the other by B is a contraction, we can solve the Sylvester equation and bound the solution. The resulting estimate depends on concrete norm hypotheses. It does not follow from disjoint spectra alone.
 
 Our goal is to derive the estimate, explain what compatible means, distinguish the printed statement from a stronger reusable variant, and connect the result to spectral intervals without assuming that mere disjointness is enough.
 

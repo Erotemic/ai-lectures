@@ -6,7 +6,9 @@
 
 # The spectral theorem tells us the domain as well as the action
 
-For bounded self-adjoint operators, we learned to integrate functions against spectral projections. The unbounded spectral theorem preserves that idea, but adds one indispensable condition: the vector on which we act must have enough spectral integrability.
+Consider an infinite sequence of numbers. Multiply its first coordinate by one, its second by two, its third by three, and continue in that pattern. The rule defines a self-adjoint diagonal operator on square-summable sequences, but it does not produce another square-summable sequence for every square-summable input. For example, the coordinates one over n give a legitimate input vector; multiplying the n-th coordinate by n gives an endless sequence of ones, which is no longer square summable.
+
+The unbounded spectral theorem has to describe two things together: what an operator does in each spectral region, and which vectors can safely be acted on. The key condition is the finiteness of a squared spectral integral. Bounded spectral cutoffs then approximate the operator on exactly that domain.
 
 The unbounded spectral theorem defines both the action of an operator and the vectors on which that action exists. Bounded spectral cutoffs recover the operator on its domain.
 

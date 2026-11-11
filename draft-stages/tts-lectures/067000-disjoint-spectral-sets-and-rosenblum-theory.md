@@ -6,7 +6,9 @@
 
 # Solve a Sylvester equation without self-adjointness
 
-For self-adjoint Sylvester coefficients, an ordered real spectral gap produces an integral of decaying semigroups. Without self-adjointness there is no such spectral order. A complex contour of resolvents provides a different construction that requires only disjoint spectra of bounded operators.
+The scalar equation five times x minus x times two equals c has a unique solution because five and two differ. For matrices, the corresponding question is whether A times X minus X times B equals C can be solved for every C. One might hope to diagonalize the two coefficient matrices and divide entry by entry, but a matrix with an upper-triangular Jordan block has too few eigenvectors for that plan.
+
+A resolvent gives another route. Instead of asking for an eigenbasis, we ask which complex numbers make a shifted operator invertible. If the spectra of two bounded operators are disjoint, a suitable contour integral of their resolvents solves the Sylvester equation, even when the operators are not self-adjoint. The contour is what replaces the missing ordered real gap.
 
 The central question is whether the spectra of two bounded operators are disjoint. For bounded complex operators on Banach spaces, this is enough for the Sylvester operator to have a bounded inverse. The method is associated with Rosenblum, and its engine is a contour integral of resolvents.
 

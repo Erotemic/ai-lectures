@@ -6,11 +6,11 @@
 
 # The tangent-two-theta theorem
 
-The sine-two-theta theorem controls an operator that vanishes both at zero angle and at ninety degrees. To recover a stronger geometric conclusion, we need to know which branch of that function we occupy.
+Consider the symmetric matrix with minus one and one on the diagonal, and the same coupling h in both off-diagonal entries. At zero coupling, its lower eigenspace is horizontal. As h grows, that line tilts, but it never needs to pass the forty-five-degree direction. Its tilt theta obeys a concrete relationship: the absolute tangent of twice theta equals the absolute value of h, because the original diagonal gap is two.
 
-For a self-adjoint operator with an ordered two-block gap, an off-diagonal perturbation gives us exactly that information. The selected upper spectral subspace remains at angles strictly less than forty-five degrees from the original upper subspace. On that branch, the tangent of twice the angle is finite and can be controlled sharply.
+That example shows both the attraction and the limitation of a doubled-angle bound. Knowing a value of sine twice theta does not tell us whether theta is near zero or near ninety degrees. In the off-diagonal, ordered-gap setting, spectral selection chooses the near-zero branch. The tangent-two-theta theorem then gives a stronger quantitative description of the rotation.
 
-We will prove the result first in a two-by-two matrix, then explain a finite-dimensional graph proof that contains the central estimate.
+The general argument will replace the two coordinate axes with a reducing subspace and its perpendicular complement. It uses the ordered gap to control the tangent and a spectral-selection argument to ensure that the angle remains below forty-five degrees.
 
 ## State the strong hypotheses
 
@@ -28,7 +28,7 @@ This is an operator-norm theorem under the stated finite-dimensional hypotheses.
 
 ## Derive the exact planar formula
 
-Take T diagonal with entries b and a, where b is greater than a. Let the perturbation H zero have zero diagonal and off-diagonal entries h. Then S has rows b, h and h, a.
+The opening calculation followed the lower eigenspace. Following the upper eigenspace gives the same absolute angle by symmetry. More generally, take T diagonal with entries b and a, where b is greater than a. Let the perturbation H zero have zero diagonal and off-diagonal entries h. Then S has rows b, h and h, a.
 
 Consider an eigenvector for the upper eigenvalue, making an angle theta from the first coordinate axis. To diagonalize S, use an ordinary plane rotation. The off-diagonal entry in the rotated matrix is h times cosine twice theta minus half of b minus a times sine twice theta, with the sign depending on the orientation of the rotation.
 
@@ -117,6 +117,22 @@ The sharp doubled-tangent estimate is therefore a joint statement about a pertur
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+**Two-by-two phase and angular branch.** For
+\[
+A_h=\begin{pmatrix}-1&h\\h&1\end{pmatrix}
+\]
+the eigenvalues are \(\pm\sqrt{1+h^2}\). If \(\theta\in[0,\pi/4)\)
+is the acute angle between the lower eigenspace and the horizontal axis,
+diagonalizing the symmetric block gives
+\[
+\tan(2\theta)=|h|=\frac{2|h|}{\delta},\qquad \delta=2.
+\]
+At \(h=0\), the two subspaces agree. For finite \(h\), the selected lower
+eigenspace remains on the branch \(\theta<\pi/4\). This equality is the
+finite scalar model of the theorem, not a proof of the general
+operator inequality.
+
 
 Let `T=T*` reduce `U`, with `T|U≥b`, `T|Uᗮ≤a`, `δ=b-a>0`. Let `S=T+H=S*` and assume `PHP=(I-P)H(I-P)=0`, `‖H‖≤ε`; let `V` reduce `S` and satisfy the corresponding form bounds on `V` and `Vᗮ`. Then with `t=‖P_U-P_V‖=sin θ_max` the source proves
 

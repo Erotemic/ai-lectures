@@ -6,7 +6,9 @@
 
 # Joint movement of eigenvalues and angles
 
-Suppose we perturb a self-adjoint operator. One theorem tells us how much its eigenvalues can shift. Another tells us how far a selected eigenspace can rotate. Davis and Kahan's Question ten point three asks for the best inequalities that treat those changes simultaneously. A joint bound must account for the interaction between eigenvalue shifts and eigenvector rotations. Rayleigh quotient identities provide exact relations, and a two-dimensional model shows when separate worst-case bounds lose information.
+Start with a symmetric matrix whose eigenvalues are zero and four. Adding the same number to both diagonal entries shifts both eigenvalues but leaves the eigenvectors unchanged. Instead, add equal off-diagonal entries. The eigendirections now rotate, while for a small coupling the resulting eigenvalue shifts begin at second order in the coupling. The two kinds of perturbation spend their effect differently.
+
+That observation motivates a joint perturbation question: can one inequality describe eigenvalue movement and eigenvector rotation together, rather than adding two independently worst-case bounds? The Rayleigh quotient and the two-by-two eigenvalue formula expose the tradeoff, and the general problem requires careful spectral matching.
 
 ## The two quantities
 

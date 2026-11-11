@@ -6,7 +6,9 @@
 
 # Spectral selection and repulsion
 
-An off-diagonal perturbation preserves the form gap between two ordered diagonal blocks. The block-sign reflection makes the reason visible: it gives a positive coercive form even when the off-diagonal coupling is arbitrarily large. We will turn that estimate into a spectral theorem, not merely an argument excluding eigenvectors, and identify the canonical perturbed spectral subspace.
+Start with the symmetric matrix whose diagonal entries are minus two and two. Its eigenvalues leave an empty interval between them. Add an off-diagonal coupling h, with no change to either diagonal entry. The two eigenvalues become minus the square root of four plus h squared, and plus that same square root. They move farther apart, however large h becomes. The gap around zero survives.
+
+This two-dimensional calculation suggests a stronger principle. For ordered self-adjoint blocks, coupling only the two blocks cannot fill the spectral interval separating their original form bounds. We need a proof for whole operators, potentially without a basis of eigenvectors, and we need to identify the selected perturbed subspace as well as the gap.
 
 This is the starting point of Davis and Kahan's Theorem eight point one. We will derive the gap protection, identify the selected reducing branch, and explain the cosine factors in the theorem's stronger comparisons.
 
@@ -36,7 +38,7 @@ This excludes eigenvalues in the gap. In infinite-dimensional Hilbert space, sim
 
 ## See the effect in a plane
 
-Let A have diagonal entries negative one and one. The gap is the open interval from negative one to one. Add an off-diagonal symmetric perturbation whose two off-diagonal entries are h.
+The same behavior occurs with diagonal entries negative one and one instead of negative two and two. The gap is now the open interval from negative one to one. Add an off-diagonal symmetric perturbation whose two off-diagonal entries are h.
 
 The eigenvalues of S are negative and positive square root of one plus h squared. Both move away from zero as h increases. Neither can enter the original gap. For h equal to three, they become approximately negative three point one six two and positive three point one six two.
 
@@ -101,6 +103,19 @@ The strict quarter-angle branch comes from off-diagonal structure and the ordere
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+**A gap that repels under coupling.** On the real plane, take
+\[
+A=\begin{pmatrix}-2&0\\0&2\end{pmatrix},\qquad
+H=\begin{pmatrix}0&h\\h&0\end{pmatrix},\qquad
+A+H=\begin{pmatrix}-2&h\\h&2\end{pmatrix}.
+\]
+Its characteristic polynomial is \(\lambda^2-(4+h^2)\). Thus
+\(\sigma(A+H)=\{-\sqrt{4+h^2},\sqrt{4+h^2}\}\), which stays outside
+\((-2,2)\) for every real \(h\). The matrix computation motivates the
+block-form argument; it is not a proof of spectral repulsion for arbitrary
+self-adjoint operators.
+
 
 Assume `A=A*`, `P` reduces `A`, `A|P≤α`, `A|Pᗮ≥α+δ` with `δ>0`; let `H=H*` satisfy `PHP=(I-P)H(I-P)=0`. Then
 

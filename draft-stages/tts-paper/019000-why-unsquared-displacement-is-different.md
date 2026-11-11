@@ -6,7 +6,9 @@
 
 # Unsquared ambient displacement is different
 
-Section Four of Davis and Kahan investigates how to transport one subspace onto another. Restricted displacement and squared whole-space displacement admit valid direct-rotation optimality statements. A further printed claim asserts the corresponding optimality for every unitarily invariant norm of unsquared whole-space displacement. We will test that stronger assertion using a four-dimensional construction.
+Imagine two perpendicular planes, each containing a source line and a target line tilted through forty-five degrees. The direct rotation turns each plane separately. But if an orthogonal map is required only to carry the two-dimensional source space onto the target, it may mix the planes while doing so. The destination constraint does not prescribe what happens to every individual principal direction.
+
+For some norms, spreading motion over four directions is cheaper; for others, concentrating it into two directions is cheaper. We will use that distinction to examine a printed Davis–Kahan assertion about minimizing unsquared displacement on the *entire* ambient space. Its conclusion is stronger than the validated restricted and squared-displacement results.
 
 The proposition as printed proposes a threshold of sixty degrees in the real case. Our task is to understand why that threshold looks plausible, why the available proofs cannot establish it, and which piece of the optimization problem changes in higher dimension.
 

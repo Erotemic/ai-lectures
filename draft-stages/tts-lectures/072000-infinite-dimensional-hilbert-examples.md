@@ -6,7 +6,9 @@
 
 # A self-adjoint operator without eigenvectors
 
-Our finite-dimensional spectral theorem diagonalized every self-adjoint matrix. We selected eigenvectors, built orthogonal projections, and then defined functions of the matrix by changing its eigenvalues.
+Every real symmetric finite matrix has an orthonormal eigenbasis. Consider what that statement would mean for an operator on functions: could we find enough eigenfunctions to describe every square-integrable signal? For multiplication by the coordinate on the unit interval, the answer is no. An eigenfunction with eigenvalue lambda would have to be supported where the coordinate equals lambda, a set with only one point and hence zero measure.
+
+The operator is nevertheless bounded and self-adjoint, and it has a nonempty spectrum. This single example shows why infinite-dimensional spectral theory needs more than a list of eigenvectors. We will build the surrounding Hilbert-space models first, then explain how approximate eigenvectors and spectral measures recover the missing information.
 
 In infinite dimensions, the same procedure can fail at its first step. A bounded self-adjoint operator can have no nonzero eigenvectors at all. We need to understand a concrete example before replacing matrices with spectral measures.
 

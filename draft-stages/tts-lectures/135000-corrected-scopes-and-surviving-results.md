@@ -6,7 +6,9 @@
 
 # Corrected scopes and surviving results
 
-Davis and Kahan give several extremal statements about transports between subspaces. Restricted displacement and squared whole-space displacement have valid optimality theorems, while the printed universal claim for unsquared displacement is false. We will sort these statements by their precise objective, norm, scalar field, and subspace assumptions.
+A thirty-degree rotation of a unit arrow can be measured in several ways. The sine of the angle is one half. The Euclidean distance between the original and rotated arrows is twice the sine of fifteen degrees. Squaring that distance gives yet another number. If we have several arrows and add their costs, a change from lengths to squared lengths can even reverse which transformation is cheapest.
+
+The transport results in Davis and Kahan involve all these kinds of measurements. We need to identify the exact objective, the vectors on which it is evaluated, and the norm applied to it before transferring any optimality statement. This lecture separates the surviving theorems from the stronger printed claim that the four-dimensional example disproves.
 
 ## Four distinct quantities
 

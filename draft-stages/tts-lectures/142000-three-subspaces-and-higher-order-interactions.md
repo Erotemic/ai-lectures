@@ -6,7 +6,9 @@
 
 # Three subspaces and higher-order interactions
 
-Question ten point two of Davis and Kahan asks what happens when a two-way orthogonal decomposition is replaced by three mutually perpendicular subspaces. A pair of subspaces admits principal angles and a cross-block Sylvester equation. With three blocks, we must examine which identities persist and which estimates need additional hypotheses.
+Imagine three perpendicular coordinate axes rather than a division into just two subspaces. A symmetric matrix can couple the first axis to the second and the second to the third, even when it has no direct entry connecting the first and third. Information can travel from the first direction through the middle one to reach the third. Measuring each pair in isolation misses part of that interaction.
+
+Davis and Kahan asked how their two-subspace estimates should change for decompositions into three or more mutually perpendicular pieces. To investigate, we will compare the coordinate systems using a three-by-three matrix of operator blocks, identify the relations imposed by orthogonality, and see why a single two-block Sylvester equation no longer tells the whole story.
 
 ## The geometric data
 
