@@ -72,6 +72,10 @@ For this same diagonal matrix, all four measurements are invariant if we rotate 
 
 Now replace the diagonal matrix by a matrix with the same three singular values and completely different singular vectors. Every one of these norms still agrees. For questions that depend only on singular values, these two maps are indistinguishable.
 
+## Prefixes are not entries
+
+Compare the singular-value lists three, one and four, zero. The first Ky Fan sums are three and four; the two-entry sums both equal four. Thus the first list is weakly majorized by the second, although its smaller singular value, one, exceeds zero. The operator norms are three and four, the nuclear norms tie, and the Frobenius norms are square root of ten and four. Prefix inequalities justify all three comparisons without imposing an entrywise ordering.
+
 ## A general comparison theorem
 
 Suppose the singular values of A are weakly majorized by those of B. Then every symmetric gauge gives A no larger a value than B.
@@ -124,6 +128,12 @@ For a fixed matrix shape, a unitarily invariant norm satisfies \(\|UAV\|_\Phi=\|
 \phi(\sigma(A+B))\le\phi(\sigma(A)+\sigma(B))\le\phi(\sigma(A))+\phi(\sigma(B)).
 \]
 The normalized source-facing operator-ideal family has stronger cross-space compatibility than bare finite-dimensional unitary invariance.
+
+**A two-entry majorization check.** For \(x=(3,1)\) and \(y=(4,0)\), both sorted,
+\[
+ x_1=3\le4=y_1,\qquad x_1+x_2=4=y_1+y_2,
+\]
+so \(x\prec_w y\), although \(x_2>y_2\). Correspondingly \(\|x\|_\infty=3<4=\|y\|_\infty\), \(\|x\|_1=4=\|y\|_1\), and \(\|x\|_2=\sqrt{10}<4=\|y\|_2\). In the matrix application, take the nonnegative diagonal matrices with these singular-value lists.
 
 **Lean bridge (verbatim excerpts).**
 

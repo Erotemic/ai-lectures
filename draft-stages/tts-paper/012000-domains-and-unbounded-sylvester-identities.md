@@ -88,6 +88,16 @@ The existence of such a family is more useful than a single convenient formula. 
 
 The cutoff argument must establish each of those requirements. Merely having a sequence of bounded operators is insufficient if the cutoff introduces spectrum inside the needed gap or fails to converge on the original graph domain.
 
+## Build a filled cutoff in the diagonal example
+
+Return to the operators on square-summable sequences: A multiplies coordinate n by n plus two, and B multiplies it by negative n. Every spectral value of A is at least three. Every spectral value of B is at most negative one. Their ordered gap is therefore four.
+
+Keep the first N coordinates and replace the remaining diagonal entries by zero. Both resulting matrices are bounded, but their tails now have a common artificial eigenvalue zero. The ordered gap has disappeared.
+
+Instead, fill the discarded tail of A with the constant three and the discarded tail of B with negative one. The first N coordinates still use their original eigenvalues. Each filled operator is bounded for a fixed N. Every value in the filled A spectrum is at least three, and every value in the filled B spectrum is at most negative one. So the ordered gap stays four for every N.
+
+On any vector in the original weighted domain, the difference between the filled operator and the original is supported only in the discarded tail. That difference tends to zero in norm as N increases. This concrete construction preserves both the spectral estimate and the convergence needed to recover the original equation.
+
 ## A cutoff that converges without becoming close in norm
 
 In the Hilbert space of square-summable sequences, let P sub N keep the first N coordinates and erase the rest. For each fixed sequence x, the discarded tail has length tending to zero. Thus P sub N converges strongly to the identity.
@@ -118,6 +128,17 @@ A_{P^\perp}X-X\widetilde A_Q=-(I-P)V|_{QH},\qquad X=(I-P)|_{QH}.
 \]
 
 The proof uses both reducing-domain identities and \(D(A+V)=D(A)\). For cutoffs \(P_R,Q_R\), one studies \(X_R=P_RXQ_R\), not unmodified \(X\), and keeps the gap hypotheses on the bounded truncations. Strong limits of uniformly bounded maps give norm inequalities without requiring operator-norm convergence.
+
+**Filled diagonal cutoffs.** Index coordinates by \(n\ge1\). Set \(A e_n=(n+2)e_n\) and \(B e_n=-ne_n\), with their maximal weighted domains. For \(N\ge1\), define bounded diagonal operators
+\[
+ A_Ne_n=\begin{cases}(n+2)e_n&n\le N,\\3e_n&n>N,\end{cases}
+ \qquad B_Ne_n=\begin{cases}-ne_n&n\le N,\\-e_n&n>N.\end{cases}
+\]
+Then \(\inf\sigma(A_N)=3\) and \(\sup\sigma(B_N)=-1\), so the ordered separation \(4\) survives uniformly. Zero-filling would instead put \(0\) in both spectra. For \(x\in D(A)\),
+\[
+ \|(A_N-A)x\|^2=\sum_{n>N}(n-1)^2|x_n|^2\longrightarrow0;
+\]
+and for \(y\in D(B)\), \(\|(B_N-B)y\|^2=\sum_{n>N}(n-1)^2|y_n|^2\to0\). The tail bounds follow from the respective weighted-domain conditions. No operator-norm convergence is claimed.
 
 ### Actual source declarations
 

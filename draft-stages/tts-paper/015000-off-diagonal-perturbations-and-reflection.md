@@ -60,6 +60,14 @@ Subtract S, and the result has zero diagonal entries and off-diagonal entries ne
 
 If h equals zero, the original subspace U remains invariant. If h is nonzero, the new eigenvectors tilt away from the coordinate axes even though the perturbation has zero diagonal compressions.
 
+## See repulsion in the eigenvalue formula
+
+The same two-by-two model gives an exact spectral calculation. Its diagonal entries are three and negative one, and both off-diagonal entries are h. The midpoint of the diagonal eigenvalues is one, and their half-gap is two.
+
+The perturbed eigenvalues are one plus the square root of four plus h squared, and one minus that square root. Even when h is large, the square root cannot be smaller than two. Thus the upper eigenvalue stays at or above three and the lower at or below negative one.
+
+For h equal to two, the eigenvalues are approximately three point eight two eight and negative one point eight two eight. The interval strictly between negative one and three is still empty. This is spectral repulsion: purely off-diagonal coupling pushes the two levels away from one another. The block-reflection proof generalizes this scalar calculation to operators with many spectral values.
+
 ## Why this structure affects the spectrum
 
 Set c equal to the midpoint between a and b. Consider J multiplied by T minus c times the identity.
@@ -111,6 +119,13 @@ Off-diagonal `H` means `PHP=QHQ=0`, equivalently `JHJ=-H`; hence `JSJ-S=-2H`. Fo
 \[J_V T J_V-T=H-J_VHJ_V,\qquad N(J_V T J_V-T)\le 2N(H).\]
 
 The source distinguishes the finite block-reflection algebra from the general mirror-defect inequality; the latter requires the reducing comparison operator.
+
+**Repulsion in a two-dimensional block.** For \(S_h=\begin{psmallmatrix}3&h\\h&-1\end{psmallmatrix}\),
+\[
+ \det(S_h-\lambda I)=(1-\lambda)^2-(4+h^2),\qquad
+ \lambda_\pm=1\pm\sqrt{4+h^2}.
+\]
+Therefore \(\lambda_-\le-1\) and \(\lambda_+\ge3\) for every real \(h\), with strict inequalities for \(h\ne0\). The original gap \((-1,3)\) remains empty. This computation is a finite example of the more general form-accretivity argument in the narration.
 
 ### Source declaration excerpts
 

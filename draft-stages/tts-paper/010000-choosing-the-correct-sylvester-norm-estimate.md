@@ -66,6 +66,14 @@ The gap is one, so delta times the operator norm of X is about five point one si
 
 That disproves the claim that pairwise spectral separation always implies a constant-one estimate in operator norm. Its exact singular values and spectral gap yield a strict counterexample to the proposed operator-norm inequality.
 
+## Check the very same matrices in the square norm
+
+The failed operator-norm estimate does not imply that the Frobenius estimate fails. Our matrix X has four entries: three, negative three, negative three, and one. Their squares add to twenty-eight, so its Frobenius norm is the square root of twenty-eight.
+
+The matrix C has four entries each of absolute value three. Its Frobenius norm is six. With delta equal to one, the square-norm estimate reads: square root of twenty-eight is at most six. That is true.
+
+We have changed neither matrix nor spectral gap. We changed only the norm. The same example refutes constant one in operator norm and obeys constant one in Frobenius norm. That is why the choice of norm belongs in the theorem statement, not in an afterthought.
+
 ## What ordered separation restores
 
 If every spectral value of A lies at least delta above every spectral value of B, our exponential semigroup formula gives the stronger estimate: delta times the operator norm of X is at most the operator norm of C.
@@ -138,6 +146,19 @@ X=\begin{pmatrix}3&-3\\-3&1\end{pmatrix},\quad
 C=\begin{pmatrix}3&3\\3&-3\end{pmatrix}.
 \]
 For \(\delta=1\), \(\|X\|=2+\sqrt{10}>3\sqrt2=\|C\|\), refuting a constant-one pairwise-gap operator-norm claim.
+
+**Exact two-by-two separation test.** For
+\[
+ A=\begin{pmatrix}1&0\\0&-1\end{pmatrix},\quad
+ B=\begin{pmatrix}0&0\\0&2\end{pmatrix},\quad
+ X=\begin{pmatrix}3&-3\\-3&1\end{pmatrix},\quad
+ C=AX-XB=\begin{pmatrix}3&3\\3&-3\end{pmatrix},
+\]
+the pairwise distance between the coefficient spectra is \(\delta=1\). The eigenvalues of the symmetric \(X\) are \(2\pm\sqrt{10}\), hence \(\|X\|_{\rm op}=2+\sqrt{10}>3\sqrt2=\|C\|_{\rm op}\). In contrast,
+\[
+ \|X\|_{S_2}=\sqrt{28}\le6=\|C\|_{S_2}.
+\]
+The distinction is entirely in the norm, not in the spectral data.
 
 **Lean bridge (verbatim source excerpts).**
 

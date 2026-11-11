@@ -110,7 +110,7 @@ For any selected cluster of eigenvalues, the projection onto the sum of their ei
 
 Today's theorem is finite-dimensional and assumes self-adjointness. General matrices may fail to have a basis of eigenvectors. General bounded self-adjoint operators on infinite-dimensional spaces need not have an eigenbasis either, because the spectrum may contain values that are not eigenvalues.
 
-We will eventually replace finite sums over eigenvalues by integration with respect to projection-valued measures. That is not a minor change of notation; it requires new mathematics, which we will build later.
+On an infinite-dimensional Hilbert space the general spectral theorem replaces this finite sum by an integral against a projection-valued measure. Continuous spectral values need not be eigenvalues, so that extension requires a genuinely different construction.
 
 For now, the finite theorem is a complete result in its setting.
 
@@ -118,7 +118,7 @@ For now, the finite theorem is a complete result in its setting.
 
 The diagonal matrix with entries two, two, and five offers a final check. Its first two coordinate axes carry the repeated eigenvalue two. Rotate those axes within their plane: both new vectors are still eigenvectors, so no particular pair of basis vectors is distinguished. But the projection that keeps the first two coordinates and discards the third stays the same.
 
-The spectral theorem tells us that an entire eigenspace can be recovered from its orthogonal projection, independent of how we choose a basis inside it. That is exactly the object to compare when a perturbation mixes the eigenvectors within an eigenvalue cluster. The variational viewpoint asks a related question: how can we recognize the order of the eigenvalues without first finding those eigenvectors?
+The spectral theorem tells us that an entire eigenspace can be recovered from its orthogonal projection, independent of how we choose a basis inside it. That is exactly the object to compare when a perturbation mixes the eigenvectors within an eigenvalue cluster. The same decomposition also gives a starting point for variational characterizations of eigenvalues: a Rayleigh quotient is a weighted average of the eigenvalues, with weights determined by the spectral projections.
 
 <!-- END SPOKEN LECTURE -->
 

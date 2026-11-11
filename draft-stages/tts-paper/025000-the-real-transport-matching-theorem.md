@@ -46,6 +46,16 @@ The optimized cost of a paired block need not equal the cost of the direct rotat
 
 For three positive angles, the finite choices are: three singletons, or one pair and one singleton. For four, we also have two disjoint pairs. In general, the number of matchings grows, but the mathematical structure stays finite and explicit.
 
+## A paired candidate that genuinely wins inside the theorem's range
+
+We can test the matching idea without knowing the optimized pair weight. In real four-space let U be the plane of the first two coordinate axes. Form two perpendicular unit vectors by adding the first and third coordinate vectors, and by adding the second and fourth, normalizing each sum. Rotate their span by ninety degrees and leave its orthogonal complement fixed. Call this orthogonal map W and set V equal to W of U. The two principal angles between U and V are both forty-five degrees, as the cross-Gram calculation confirms. The canonical direct rotation has four displacement singular values, each about point seven six five. The map W has two displacement singular values equal to the square root of two and two zeros.
+
+Choose the exponent p equal to one point one. Raise each singular value to that power and add. For the direct rotation, the p-th power total is approximately two point nine eight one. For the coupled transporter, it is approximately two point nine two eight. The coupled transporter is better, and p lies strictly between one and two.
+
+Now choose p equal to one point five. The corresponding totals are approximately two point six seven eight for the direct rotation and three point three six four for this coupled candidate. Their order has reversed.
+
+A subtle point is that the coupled transporter we wrote down is a feasible four-dimensional block, but we have not shown it minimizes the pair weight. The optimized pair weight can only be smaller than or equal to its cost. At p equal to one point one, the example therefore proves that an admissible pair configuration can beat the independent direct rotations. At p equal to one point five, it proves only that this specific coupled candidate loses; another allowed transporter could still be better. The matching theorem is what resolves the global comparison.
+
 ## The two directions of an optimality proof
 
 A formula for the minimum needs two distinct inequalities. First, every admissible real orthogonal transporter must have a displacement cost at least the matching minimum. Second, every candidate matching, or at least an optimal matching, must be realizable by a genuine orthogonal transporter with exactly the assigned cost.
@@ -89,6 +99,19 @@ The source theorem `exists_minimizing_real_schatten_transport_matching` proves t
  \|I-D\|_{S_p}^{p}=2\bigl(2\sin(\pi/12)\bigr)^p+2\bigl(2\sin(\pi/6)\bigr)^p\approx2.74485.
 \]
 The matching optimum compares *optimized* singleton and pair weights. This expression is only an admissible candidate upper bound for that minimum.
+
+**Explicit interior-exponent witness, separate from the optimized pair weight.** Let \(U=\operatorname{span}(e_1,e_2)\) and
+\[
+W=\frac12\begin{pmatrix}
+1&-1&-1&-1\\1&1&1&-1\\-1&-1&1&-1\\1&-1&1&1
+\end{pmatrix},\qquad V=WU.
+\]
+The top-left \(2\times2\) cross-Gram block is \(\frac12\begin{psmallmatrix}1&-1\\1&1\end{psmallmatrix}\), with both singular values \(1/\sqrt2\), so both principal angles are \(\pi/4\). The map \(W\) fixes a two-plane and rotates its perpendicular plane by ninety degrees. Set \(a=\sqrt{2-\sqrt2}\) and \(b=\sqrt2\). Then
+\[
+ s(I-D)=(a,a,a,a),\quad s(I-W)=(b,b,0,0),\quad
+ F_D(p)=4a^p,\quad F_W(p)=2b^p.
+\]
+At \(p=11/10\), \(F_D\approx2.980689>2.928171\approx F_W\). At \(p=3/2\), \(F_D\approx2.678332<3.363586\approx F_W\). Since a paired block cost is defined by optimizing its admissible four-dimensional class, its value is **at most** the displayed candidate \(F_W(p)\); the candidate is not asserted to realize that optimized weight. In particular the first strict inequality exhibits a genuinely beneficial coupled choice in the theorem's interior exponent range.
 
 ## Exact Lean declaration excerpts
 

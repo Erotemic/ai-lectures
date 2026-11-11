@@ -86,6 +86,16 @@ Use sine theta equal two sine theta over two times cosine theta over two. Then f
 
 Consequently no positive universal angle threshold can repair the printed statement across all real dimensions. The failure persists arbitrarily close to coincident subspaces.
 
+## The same family behaves differently for other exponents
+
+The strict improvement we just proved holds for trace norm, which is Schatten exponent one. What if we raise the singular values to a different power before summing?
+
+For the two equal-angle construction, the direct rotation has four identical displacement singular values: twice sine of half theta. Our coupled competitor has two nonzero singular values: twice sine theta. Its p-th power cost is therefore twice the latter value to power p, versus four times the former value to power p for the direct rotation.
+
+At forty-five degrees and exponent one point one, the coupled competitor has lower cost. At exponent one point five, the direct rotation is cheaper than that particular competitor. This does not establish which transporter is globally optimal at one point five. It establishes that the preferred candidate changes as we change how displacement is aggregated.
+
+For a fixed exponent strictly greater than one, this particular coupled construction does not defeat the direct rotation at all sufficiently small positive angles. That is consistent with the trace-norm failure occurring at arbitrarily small angles: it does not say the same about every fixed exponent.
+
 ## Closing diagnosis
 
 The counterexample uses a four-by-four orthogonal matrix, an acute source-target pair, a trace norm represented as a Ky Fan sum, and exact trigonometric calculations. It proves the negation of the universal proposition, not just a gap in an argument.
@@ -112,6 +122,17 @@ s(I-D)=(\sqrt{2-\sqrt2},\sqrt{2-\sqrt2},\sqrt{2-\sqrt2},\sqrt{2-\sqrt2}).
 Hence \(\|I-W\|_1=2\sqrt2<4\sqrt{2-\sqrt2}=\|I-D\|_1\). Yet \(s((I-D)^*(I-D))\prec_w s((I-W)^*(I-W))\). The exact matrix and refutation are in `ShortRotationCounterexample.lean`; a continuum of equal-angle examples is documented in `papers/dk_formalization_journal/counterexample.tex`.
 
 **Numerical cross-check.** For two equal principal angles \(\pi/4\), the direct rotation has \(s(I-D)=(2\sin(\pi/8))^{\times4}\), hence \(\|I-D\|_1=8\sin(\pi/8)\approx3.06147\) and \(\|I-D\|_{\mathrm{op}}=2\sin(\pi/8)\approx0.76537\). The displayed competitor has \(s(I-W)=(\sqrt2,\sqrt2,0,0)\), so \(\|I-W\|_1=2\sqrt2\approx2.82843\) but \(\|I-W\|_{\mathrm{op}}=\sqrt2\).
+
+**Schatten-exponent comparison for the equal-angle family.** The direct-rotation and coupled candidate \(p\)-power costs are
+\[
+ F_D(p,\theta)=4\bigl(2\sin(\theta/2)\bigr)^p,
+ \qquad F_W(p,\theta)=2\bigl(2\sin\theta\bigr)^p.
+\]
+For \(0<\theta<\pi/2\), \(F_W<F_D\) iff \(\bigl(2\cos(\theta/2)\bigr)^p<2\). At \(\theta=\pi/4\), the crossover is
+\[
+ p_*=\frac{\log2}{\log\bigl(2\cos(\pi/8)\bigr)}\approx1.12895.
+\]
+Thus the same explicit orthogonal transporter beats \(D\) for \(1\le p<p_*\) and loses to \(D\) for \(p>p_*\). These comparisons concern two feasible candidates; no global optimality for \(p>p_*\) follows.
 
 ## Exact Lean declaration excerpts
 

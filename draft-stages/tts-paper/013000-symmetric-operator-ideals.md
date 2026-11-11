@@ -80,6 +80,14 @@ Finite-rank operators are dense in the compact ideal under operator norm. They a
 
 Do not generalize finite-rank density to every possible symmetric ideal without checking its definition. A carrier may have a norm in which the finite-rank closure is a proper subideal.
 
+## An approximation that converges in one ideal but not another
+
+For the diagonal operator with entries one divided by n, keep only the first N entries and set the tail to zero. This gives a finite-rank approximation.
+
+The squared Hilbert–Schmidt error is the sum of one over n squared, over the discarded tail. By comparing that decreasing series with an integral, we can bound the sum by one over N. So the Hilbert–Schmidt error is at most one over the square root of N, and it tends to zero.
+
+But the discarded tail is not trace class. Its trace norm would be the divergent harmonic tail. So this same truncation procedure proves convergence in Hilbert–Schmidt norm and cannot establish convergence in trace norm. Before applying an infinite-dimensional perturbation bound, we must check which ideal actually contains the operator and which norm the approximation controls.
+
 ## A test case to remember
 
 Let D be diagonal on ell two with coefficients one divided by n. It is compact, because its coefficients tend to zero. Its Hilbert–Schmidt gauge is finite because the sum of one over n squared converges. Its trace gauge is infinite because the harmonic series diverges.
@@ -94,6 +102,12 @@ The same bounded map therefore belongs to two ideals and lies outside a third. W
 ## Companion: mathematics and Lean correspondence (display only)
 
 A symmetric operator ideal family provides a carrier Mem(T) for rectangular bounded operators and a gauge with composition control and adjoint invariance. An extended gauge equals the finite gauge on members and infinity off the carrier. The compact ideal's carrier is compactness and its finite gauge is operator norm. Schatten p membership, for p at least one, means the p-th powers of approximation numbers are summable; p=2 is Hilbert–Schmidt and p=1 is trace class. The infinite-dimensional identity has finite operator norm but infinite p-gauge for each finite p.
+
+**Two different truncation topologies.** Let \(T=\mathrm{diag}(1/n)_{n\ge1}\) on \(\ell^2\), and \(T_N=\mathrm{diag}(1,1/2,\ldots,1/N,0,\ldots)\). Then
+\[
+ \|T-T_N\|_{S_2}^2=\sum_{n>N}\frac1{n^2}\le\int_N^\infty\frac{dx}{x^2}=\frac1N,
+\]
+whereas \(\|T-T_N\|_{S_1}=\sum_{n>N}1/n=+\infty\). The truncations are finite-rank and \(T_N\to T\) in \(S_2\), but \(T\notin S_1\).
 
 ### Actual Lean source declarations
 
