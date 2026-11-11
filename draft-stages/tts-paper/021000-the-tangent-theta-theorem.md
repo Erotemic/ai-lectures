@@ -44,6 +44,8 @@ Here is the decisive calculation for the operator norm. Choose a unit trial-coor
 
 Pair the residual R y with v. The unwanted block of A contributes at least alpha plus delta times s squared. The Ritz term contributes at most alpha times s squared. Therefore the real part of this pairing is at least delta times s squared.
 
+To locate that square, write the complementary component as s times a unit unwanted vector w. The inner product with v has two factors of s: one from each copy of the complementary component. The spectral gap bounds their coefficient difference. This is why the gap estimate begins with s squared, even though the final conclusion concerns the ratio s over c.
+
 Now use Galerkin orthogonality: R y is perpendicular to the entire trial space. We may replace v in the inner product by its projection perpendicular to the trial space. The squared length of that projected vector is s squared minus s to the fourth power, so its length is s times c.
 
 If rho bounds the operator norm of R, Cauchy–Schwarz gives delta times s squared at most rho times s times c. For s positive, divide by s. We obtain delta times s at most rho times c. Since c is positive by transversality, divide again to obtain delta times tangent theta at most rho.
@@ -59,6 +61,8 @@ Take A diagonal with entries zero and five. Let U be the horizontal axis, and ta
 The Ritz value M is five sine squared theta. The unwanted complementary eigenvalue is five. Therefore the actual ordered gap is five cosine squared theta.
 
 Apply A to the trial vector. Subtract the Ritz value times the same vector. The resulting Ritz residual is five sine theta cosine theta times a unit vector perpendicular to the trial line. Its length is five sine theta cosine theta.
+
+In coordinates, that perpendicular unit vector has horizontal entry negative sine theta and vertical entry cosine theta. The residual has exactly this direction. The unwanted vertical unit vector, after its trial-space projection is subtracted, equals cosine theta times the same perpendicular unit vector. Thus the Cauchy–Schwarz step in the proof is equality for this example: the residual and the corrected test vector point in the same direction.
 
 The directed tangent is tangent theta. Multiply it by the gap: five cosine squared theta times tangent theta equals five sine theta cosine theta. That is exactly the residual length.
 
@@ -82,7 +86,7 @@ In operator norm, the result controls the worst principal slope. If the largest 
 
 In Frobenius norm, the squares of all directed tangents add. The theorem limits the aggregate squared slope by the squared residual length after scaling by delta.
 
-For a Ky Fan norm, the estimate bounds the sum of the largest several tangent singular values. General unitarily invariant norms then follow from the symmetric-gauge framework established.
+For a Ky Fan norm, the estimate bounds the sum of the largest several tangent singular values. The all-prefix inequalities matter because a largest-singular-value estimate alone does not control their sum. For example, two singular values equal to one each have the same maximum as the pair one and zero, but a different sum. General unitarily invariant norms follow after the prefix comparisons have been proved.
 
 The source's exact theorem assumes an isometric trial frame and the Ritz identity. More general trial frames can be normalized, but the normalization and their lower bounds must be stated, rather than simply reusing the isometric formula.
 
@@ -103,6 +107,18 @@ Let `E : F →ₗᵢ[𝕜] H`, `M = E* A E`, `R = A E - E M`, and let `U` reduce
 \[\delta\,N(\mathrm{tanThetaEmbedding}(U,E))\leq N(R).\]
 
 The source's totalized tangent uses a Moore–Penrose inverse, but its singular-value interpretation as principal tangents is justified by the separate transversality theorem. In the planar Ritz example `A=diag(0,5)`, `M=5sin²θ`, `δ=5cos²θ`, and `‖R‖=5sinθcosθ=δtanθ`.
+
+**The planar cosine gain as a vector identity.** Write \(s=\sin\theta\), \(c=\cos\theta\), \(u=(c,s)^\top\), and \(w=(-s,c)^\top\). For \(A=\operatorname{diag}(0,5)\),
+\[
+ M=5s^2,\qquad r=Au-uM=5sc\,w,\qquad \delta=5c^2.
+\]
+If \(e_2=(0,1)^\top\), then \(P_{\operatorname{span}(u)}e_2=su\) and \(e_2-su=cw\). Consequently
+\[
+ \langle r,e_2\rangle=5sc^2=\delta s
+ \quad\text{and}\quad
+ \|r\|\,\|e_2-su\|=(5sc)c=\delta s.
+\]
+The Galerkin projection removes a vector of length \(s\) from the test direction, leaving length \(c\). Division by \(c^2\) in the gap and by \(c\) in this pairing yields \(\delta\tan\theta=\|r\|\).
 
 ### Source declaration excerpts
 

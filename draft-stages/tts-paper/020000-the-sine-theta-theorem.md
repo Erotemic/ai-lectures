@@ -32,6 +32,8 @@ Compress the residual with F one adjoint. Since U is reducing, the complementary
 
 We have reached the exact Sylvester equation. Its unknown is X, its right-hand side is the complementary part of the residual, and the two coefficient operators are precisely the operators in the spectral-gap hypothesis.
 
+To see how a gap enters, suppose both coefficient operators are diagonal matrices. The entry of X connecting one trial eigenvalue to one unwanted eigenvalue is multiplied by their difference. The corresponding residual entry must therefore supply at least the gap times that overlap. In a single trial dimension there is only one such division. In several dimensions, controlling all entries in the chosen norm is the content of the Sylvester estimate, so the precise separation hypothesis cannot be skipped.
+
 This is the critical connection between residual geometry and spectral separation. A small residual alone does not identify a small angle to an arbitrary exact subspace. The gap supplies the information about which complementary modes the residual must overcome.
 
 ## Second step: use spectral separation
@@ -68,7 +70,7 @@ Then the residual is A u, which equals five sine theta times the vertical basis 
 
 The distance from A zero to Lambda one is exactly five. The directed sine of the angle from the trial line to U is sine theta. So the theorem reads five times sine theta is at most five times sine theta. Equality holds at every such angle.
 
-This example is a genuine sharpness witness. Any smaller universal constant in front of the residual would fail for the same family.
+The numerical case at thirty degrees makes the equality tangible. The trial vector has coordinates square root of three over two and one half. Its unwanted component is one half, while the residual is the vertical vector of length two and one half. The gap of five multiplies the sine one half to give the same two and one half. Any smaller universal constant in front of the residual would fail for this family.
 
 Notice that A zero is not the Ritz compression unless theta is zero. That is permitted by the theorem, and it is why the residual is the full vertical vector. For a Ritz residual, the compressed eigenvalue and spectral gap change. We must not combine the smaller Ritz residual with the larger, unrelated gap.
 
@@ -77,6 +79,8 @@ Notice that A zero is not the Ritz compression unless theta is zero. That is per
 Suppose A zero does equal E adjoint A E. Then E adjoint R is zero, by Galerkin orthogonality. The proof still works, because it never required an arbitrary internal trial discrepancy.
 
 The advantage of Ritz residuals is that they measure only the escape of A from V. The spectral separation must now compare the Ritz spectrum of A zero to the exact complementary spectrum of Lambda one. If the Ritz values approach unwanted eigenvalues, the gap decreases, and the angle bound weakens accordingly.
+
+For that same thirty-degree trial vector, the Ritz value is five fourths rather than zero. The corresponding residual is shorter, but the separation from the unwanted eigenvalue is now fifteen fourths rather than five. These are different legitimate estimates, each using its own trial operator and residual. Mixing the shorter Ritz residual with the larger gap of five would invalidate the computation.
 
 In practice the theorem is valuable when numerical approximations provide both a small residual and a certified spectral separation. Those two pieces of information together bound the error in the computed invariant subspace.
 
@@ -105,6 +109,8 @@ We have proved the theorem using three exact bridges: residual to Sylvester equa
 ## Companion: mathematics and Lean correspondence (display only)
 
 Given a self-adjoint ambient `A`, a reducing exact decomposition `F₀,F₁`, an isometric trial `E`, self-adjoint `A₀,Λ₁`, a bounded residual `R` extending `AE−EA₀` on its common domain, an admissible `δ>0` `FormBoundedSylvesterGap A₀ Λ₁ δ`, and a Ky-Fan-dominant symmetric ideal `N` with `N.Mem R`, the isometric theorem gives `N.Mem((I−F₀F₀*)E)` and `δ N.gaugeReal((I−F₀F₀*)E) ≤ N.gaugeReal R`. Nonisometric trial maps with lower frame bound `ε>0` give `δε` on the left. For `A=diag(0,δ)`, `A₀=0`, `E=(cosθ,sinθ)`, equality holds.
+
+**Two trial operators on the same trial line.** Put \(A=\operatorname{diag}(0,5)\), \(u=(\sqrt3/2,1/2)^\top\), \(E(t)=tu\), and \(U=\operatorname{span}(e_1)\). With \(A_0=0\), \(R=AE=(5/2)e_2\), \(\Lambda_1=5\), \(X=F_1^*E=1/2\), and \(\delta=5\); hence \(\delta\|X\|=\|R\|=5/2\). With the Ritz choice \(M=u^*Au=5/4\), the residual is \(R_{\rm Ritz}=Au-uM=(-5\sqrt3/8,15/8)^\top\), whose norm is \(5\sqrt3/4\). The complementary spectral gap is then \(5-5/4=15/4\), so the sine estimate gives \((15/4)(1/2)=15/8\le5\sqrt3/4\). The pairs \((A_0,R)\) and \((M,R_{\rm Ritz})\) must be kept together.
 
 ### Source declaration excerpts
 

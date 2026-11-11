@@ -32,6 +32,8 @@ We get delta times the Frobenius norm of X at most the Frobenius norm of C. This
 
 The proof works because the Frobenius norm is exactly the square root of the sum of squared matrix entries in every pair of orthonormal bases. The operator norm lacks that decomposition, so the entrywise argument cannot simply be recycled.
 
+For a concrete picture, take the left diagonal entries one and negative one, and the right diagonal entries zero and two. The four differences, reading across the rows, are one, negative one, negative one, and negative three. Each magnitude is at least one. The Sylvester equation divides the four entries of its right-hand matrix by these four numbers. As a map on the four-dimensional space of matrix entries, that inverse has norm exactly one in Euclidean length. Euclidean length on matrix entries is the Frobenius norm. The same inverse can have a larger norm when matrices are measured by their largest singular value.
+
 ## Carry the argument into Hilbert space
 
 The Hilbert–Schmidt operators from one Hilbert space to another form a Hilbert space of their own. For self-adjoint A zero and Lambda one, the spectral theorem represents their left and right actions by multiplication in suitable spectral variables.
@@ -41,6 +43,8 @@ In that representation the Sylvester map acts, schematically, as multiplication 
 Integrating the squared magnitude of the transformed operator gives the same estimate: delta times the Hilbert–Schmidt norm of X is at most the Hilbert–Schmidt norm of the Sylvester right-hand side.
 
 For unbounded operators we must first justify the expression on the common domain or via spectral cutoffs. The inequality then survives by convergence in the Hilbert–Schmidt norm where the inputs have finite square energy. It is not permission to compose two arbitrary unbounded operators everywhere.
+
+The useful order of the argument is to localize both spectral variables in bounded intervals, apply the scalar squared inequality to the resulting bounded multipliers, and then enlarge the intervals. The limiting step uses the Hilbert-space norm on Hilbert–Schmidt operators. A bound on each finite cutoff is enough only after this convergence has been established. Otherwise an unbounded product might not even have a meaningful action on the proposed operator X.
 
 ## Insert the trial-space residual
 
@@ -62,6 +66,8 @@ Take X to have rows three, negative three, and negative three, one. Compute C as
 
 The matrix C has two orthogonal columns, each with length three times the square root of two. Its operator norm is therefore three square root two, around four point two four.
 
+Now compare squared energies before comparing the largest singular values. The four entries of X have squares nine, nine, nine, and one, totaling twenty-eight. Every entry of C has magnitude three, so its square energy is thirty-six. The Frobenius inequality says twenty-eight is at most thirty-six, which is true. Only the distribution of this energy among singular directions makes the operator-norm inequality fail.
+
 The symmetric matrix X has eigenvalues two plus the square root of ten and two minus the square root of ten. Its operator norm is two plus the square root of ten, around five point one six.
 
 Thus the gap, which is one, times the operator norm of X is larger than the operator norm of C. The constant-one operator-norm assertion is false under pairwise separation alone.
@@ -72,9 +78,9 @@ In the Frobenius norm, the inequality goes in the other direction. The Frobenius
 
 On an infinite-dimensional Hilbert space, some bounded operators are not Hilbert–Schmidt. The identity operator is an immediate example. Its squared singular-value sum diverges.
 
-When the right-hand operator does not belong to an ideal, its extended gauge is infinite, and a gauge inequality gives no finite estimate. If the right-hand gauge is finite, the corresponding membership and norm conclusions become substantive.
+For a finite estimate, require that the residual have finite Hilbert–Schmidt energy. Then its compressed right-hand side also has finite energy, and the multiplier estimate provides finite energy of X. The frame-normalization inequality transfers that finiteness to the directed sine.
 
-If R does not belong to the Hilbert–Schmidt ideal, the extended inequality has infinity on the right and is automatically true. This does not provide a finite bound. For an informative numerical estimate, R must have finite square energy.
+If the residual has infinite square energy, an extended-valued inequality can still be stated, but it provides no numerical angle bound. This is why ideal membership is a hypothesis in the finite-energy theorem, while the extended theorem allows an infinite right-hand side.
 
 A finite-norm statement and an extended-valued statement are logically different. State which one is intended, including whether ideal membership is a hypothesis or a conclusion.
 
@@ -105,6 +111,23 @@ After frame normalization,
 \[\delta\varepsilon\|\sin\Theta_0\|_{S_2}\le\|R\|_{S_2}.\]
 The source's finite-energy theorem assumes `approximationNumberEnergy R ≠ ⊤` and concludes finite energy of the sine representative. Its extended `ENNReal` theorem makes the inequality vacuous when the residual's square norm is infinite; it does not assert a finite operator-norm bound with the same constant.
 
+
+**The same interlaced spectra in two matrix norms.** Put
+\[
+ \Lambda_1=\operatorname{diag}(1,-1),\quad A_0=\operatorname{diag}(0,2),\quad
+ X=\begin{pmatrix}3&-3\\-3&1\end{pmatrix}.
+\]
+The cross differences are \(\begin{psmallmatrix}1&-1\\-1&-3\end{psmallmatrix}\), so the pairwise spectral separation is \(\delta=1\), and
+\[
+ C=\Lambda_1X-XA_0=\begin{pmatrix}3&3\\3&-3\end{pmatrix}.
+\]
+Consequently \(\|X\|_{S_2}^2=28<36=\|C\|_{S_2}^2\), whereas
+\[
+ \|X\|_{\mathrm{op}}=2+\sqrt{10}>3\sqrt2=\|C\|_{\mathrm{op}}.
+\]
+The entrywise scalar multiplier gives the constant-one \(S_2\) inequality; the same claim for operator norm is false under the identical gap hypothesis. In spectral-measure language, the finite identity
+\(\sum_{ij}|\lambda_i-\mu_j|^2|X_{ij}|^2\ge\delta^2\sum_{ij}|X_{ij}|^2\)
+becomes an \(L^2\) estimate on the two spectral variables.
 
 ### Exact Lean declaration excerpts
 

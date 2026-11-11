@@ -28,11 +28,15 @@ The proof depends on a min–max characterization, not on an invalid assertion o
 
 The dimension in that argument is fixed before the cutoff grows. This order of quantifiers is important.
 
+The identity operator on square-summable sequences shows exactly what the statement buys. Cut off to the first m coordinates. The cutoff operator has m singular values equal to one, followed by zeros. For any fixed index n, its nth singular value eventually becomes one, agreeing with that of the identity. Yet the operator-norm error between the cutoff and the identity stays equal to one for every m. Fixed-index convergence is real information, and it does not imply uniform convergence over all singular-value indices.
+
 ## Compactness gives a stronger statement
 
 If T is compact, strong convergence of finite-rank projections applied on the output side upgrades to operator-norm convergence for T. The reason is that T maps the unit ball to a set with compact closure, and strong convergence is uniform on compact sets.
 
 With input cutoffs, apply the same argument to the adjoint of T. In a Hilbert space the adjoint of a compact operator is compact, so both sides can be controlled.
+
+For example, let T be diagonal on square-summable sequences, with diagonal entries one, one half, one third, and so on. The operator norm of the tail after the first m input coordinates is exactly one divided by m plus one, so here the cutoff really does converge in operator norm. The identity and this decaying diagonal operator have the same fixed-index cutoff convergence, but only the latter has uniform tail control.
 
 For an arbitrary bounded noncompact T, this upgrade is false. A cutoff of the identity on an infinite-dimensional space remains at operator-norm distance one from the identity, no matter how many basis vectors we include.
 
@@ -50,7 +54,7 @@ The extended-valued formulation is helpful: it states the equality even when the
 
 ## State the finite-rank leakage problem
 
-Now take a bounded operator K between two Hilbert spaces. Let P be an orthogonal projection on the source and Q a projection on the target. Assume Q has rank at most a positive integer n.
+Now take a bounded operator K between two Hilbert spaces. Let P be an orthogonal projection on the source and Q a projection on the target. Assume Q has rank at most a positive integer n. In the source-exact finite-rank lemma, P also has rank at most n; the energy argument below uses Q's rank directly.
 
 The key block-invariance hypothesis is that K maps vectors in the range of P into the range of Q. In operator form, K P equals Q K P.
 
@@ -74,9 +78,13 @@ Form L equal to Q K. Since its range lies in Q, L has rank at most n. Split the 
 
 The block-invariance hypothesis identifies L P with K P. Therefore the energy of L is the energy of K P plus the energy of the leakage operator.
 
-Left compression by Q cannot increase any approximation singular value. Hence the leading n energy of L is at most that of K. Since L has rank at most n, its total Hilbert–Schmidt energy is already its leading n energy.
+Write the identity as an energy budget. The left side is the total squared Hilbert–Schmidt norm of Q K. On the right are the energy already caught by the chosen source P and the extra energy entering the same target Q from the source complement. The two source pieces are orthogonal, which makes the cross term vanish. We therefore get an equality of squared energies, rather than a triangle inequality with a loss in the constant.
 
-Subtract the near-saturation inequality. The leakage's squared Hilbert–Schmidt norm is strictly less than eta squared.
+Left compression by Q cannot increase any approximation singular value. Hence the leading n energy of L is at most that of K. Since L has rank at most n, its total Hilbert–Schmidt energy is already its leading n energy. Combine this bound with the energy budget:
+
+The leading n energy of K P, plus the squared Hilbert–Schmidt norm of the leakage, is at most the leading n energy of K.
+
+Our assumption says the first term falls short of the right side by strictly less than eta squared. Subtract that first term from both sides. The leakage's squared Hilbert–Schmidt norm is strictly less than eta squared. We now know exactly where the small number eta enters; it measures the missing energy budget, and the unwanted block cannot contain more squared energy than that deficit.
 
 Finally, the operator norm of any operator is at most its Hilbert–Schmidt norm. Thus the leakage operator has norm strictly less than eta. This completes the proof.
 
@@ -121,6 +129,15 @@ For Lemma 6.3 let \(P,Q\) be orthogonal projections, \(0<n\), \(\operatorname{ra
 \[\sum_{j<n}a_j(KP)^2>\sum_{j<n}a_j(K)^2-\eta^2,\]
 then \(\|QK(I-P)\|<\eta\). Replacing \(KP=QKP\) by \(KP=QK\) would force a zero leakage block and change the source result.
 
+
+**Two convergence modes and one energy identity.** On \(\ell^2(\mathbb N)\), let \(P_m\) project onto the first \(m\) basis vectors. For \(I\), the fixed \(n\)-th approximation singular value satisfies \(a_n(IP_m)=1\) for \(m>n\), but \(\|I-IP_m\|=1\) for every \(m\). For \(D=\operatorname{diag}(1,1/2,1/3,\ldots)\), however, \(\|D-DP_m\|=1/(m+1)\to0\).
+
+For the leakage lemma, \(L=QK\) has rank at most \(n\). By \(KP=QKP\) and orthogonality of the source projections,
+\[
+ \|QK\|_{S_2}^2=\|QKP\|_{S_2}^2+\|QK(I-P)\|_{S_2}^2
+ =\|KP\|_{S_2}^2+\|QK(I-P)\|_{S_2}^2.
+\]
+Since \(\operatorname{rank}Q\le n\), \(\|QK\|_{S_2}^2=\sum_{j<n}a_j(QK)^2\le\sum_{j<n}a_j(K)^2\). The near-saturation hypothesis then yields \(\|QK(I-P)\|_{S_2}^2<\eta^2\), hence its operator norm is less than \(\eta\).
 
 ### Exact Lean declaration excerpts
 

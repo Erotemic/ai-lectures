@@ -8,7 +8,7 @@
 
 Take the diagonal matrix with eigenvalues zero and four. Its lower eigenspace is horizontal. Tilt a trial line through thirty degrees. The sine of its angle is one half, while its tangent is one over the square root of three. The Rayleigh quotient of the tilted unit vector is one, so the trial spectral value lies three units below the unwanted eigenvalue four.
 
-The residual component in the unwanted direction has magnitude square root of three. Dividing that residual by the three-unit separation gives one over square root of three, exactly the tangent of the angle. This two-dimensional identity is the model for a generalized tangent theorem. In larger spaces we must specify which direction of the angle is controlled and which spectral separation makes the division legitimate.
+The full Ritz residual has length square root of three. Dividing that residual length by the three-unit separation gives one over square root of three, exactly the tangent of the angle. This two-dimensional identity is the model for a generalized tangent theorem. In larger spaces we must specify which direction of the angle is controlled and which spectral separation makes the division legitimate.
 
 A tangent bound is stronger than a sine bound when the angle is large. Yet the theorem does not simply divide a previously known sine estimate by a cosine. The Rayleigh–Ritz orthogonality and the placement of the unwanted spectrum do additional work. We will derive their role and prove the maximal-angle bound directly in finite dimensions before explaining the all-singular-values extension.
 
@@ -38,11 +38,13 @@ Choose a unit trial vector z realizing the largest directed principal angle thet
 
 Let T be the Rayleigh–Ritz compression of A to Z. Since z is in Z, the quadratic form of T at z is at most alpha. Since w is in W, the quadratic form of A at w is at least alpha plus delta.
 
-Take the inner product of the residual R z with w. The A term contributes sine theta times the quadratic form of A at w. The compression term contributes sine theta times the quadratic form of T at z, using the principal-vector projection identity.
+Take the inner product of the residual R z with w. Because V reduces A, its cross terms with W vanish; the ambient A term therefore contributes sine theta times the quadratic form of A at w. The Ritz term contributes sine theta times the quadratic form of T at z. Here the principal-vector identity is essential: the projection of w onto Z is sine theta times z, even though z need not itself be a Ritz eigenvector.
 
-Subtract. The result is at least delta times sine theta. This is the gap estimate in one chosen principal direction.
+The unwanted energy is at least alpha plus delta; the Ritz energy is at most alpha. Subtract those two bounds and retain the common sine factor. We obtain an inner product of R z with w of at least delta times sine theta. This is the spectral-gap estimate in one chosen principal direction.
 
-But we can improve the Cauchy–Schwarz step using Ritz orthogonality. Since R z is perpendicular to Z, its pairing with w equals its pairing with w minus sine theta times z. The latter vector has length cosine theta.
+But we can improve the Cauchy–Schwarz step using Ritz orthogonality. Since R z is perpendicular to Z, its pairing with w equals its pairing with w minus sine theta times z. To compute that new length, square it: one, minus twice sine squared theta, plus sine squared theta. The result is cosine squared theta. Thus the vector has length cosine theta.
+
+This is the key geometry. Without Galerkin orthogonality, we would compare R z with the unit vector w and obtain only sine theta. Orthogonality removes precisely the part of w already accounted for by the trial space; the remaining component has the extra cosine factor.
 
 Therefore delta times sine theta is at most the residual norm times cosine theta. Divide by cosine theta, which is positive by transversality. We obtain delta times tangent theta at most the residual norm.
 
@@ -88,7 +90,9 @@ The generalized tangent theorem therefore involves more than an angle identity. 
 
 ## Close
 
-The operator-norm proof is memorable. Compare a principal direction's unwanted spectral energy with its Ritz energy. Use residual orthogonality to gain a cosine factor. Divide to obtain tangent rather than sine. Then extend from the largest principal angle to all singular-value prefixes using the Ky Fan machinery.
+For a principal direction, the gap gives delta times sine theta on one side of the residual pairing. Galerkin orthogonality reduces the available test vector to length cosine theta. The resulting inequality is delta times tangent theta at most the residual norm.
+
+The finite-dimensional theorem controls every singular-value prefix under its interval-gap assumptions, extending that one-direction argument to symmetric norms. The direction of comparison remains from the trial space toward the selected exact subspace, including when their dimensions differ.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -121,6 +125,20 @@ The finite source-faithful strict-rank theorem takes `finrank 𝕜 F < finrank �
 \[\delta\,N(\tan\Theta_0)\le N(\operatorname{ritzResidual}(A,X)).\]
 The `theorem6_3_all_kyFan_core` declaration supplies every approximation-number prefix in the bounded infinite-ambient setting. The perturbation companion additionally assumes the trial subspace is invariant under \(T+E\), which implies a residual block bounded by the perturbation restricted to that trial subspace. These have different scopes; none is an unconditional assertion about arbitrary ambient tangents.
 
+
+**Principal-vector pairing in the general finite-dimensional argument.** For a unit principal vector \(z\in Z\), set \(s=\sin\theta\), \(c=\cos\theta>0\), and let \(w=P_{V^\perp}z/s\) when \(s>0\). Then \(P_Zw=sz\), \(\|w-sz\|=c\), and for the Ritz compression \(M=P_ZA|_Z\) and residual \(r=Az-Mz\),
+\[
+ \operatorname{Re}\langle r,w\rangle
+ =s\bigl(\langle Aw,w\rangle-\langle Mz,z\rangle\bigr)
+ \ge \delta s.
+\]
+Galerkin orthogonality gives \(r\perp Z\), hence
+\[
+ \delta s\le |\langle r,w-sz\rangle|
+ \le\|r\|c\le\|R\|_{\mathrm{op}}c,
+ \qquad \delta\tan\theta\le\|R\|_{\mathrm{op}}.
+\]
+This is the largest-principal-angle argument. The all-gauge theorem requires separate Ky Fan prefix estimates; it does not follow solely from this scalar bound.
 
 ### Exact Lean declaration excerpts
 

@@ -48,6 +48,8 @@ Let absolute value of T be the positive square root of T adjoint T. Then the for
 
 Divide the sine magnitude by the cosine magnitude. The denominator cancels, leaving absolute value of T. Thus the positive tangent operator of the graph is precisely the modulus of the graph slope.
 
+Check the normalization with a three-fourths slope. The unnormalized graph vector is one in the horizontal direction and three fourths in the vertical direction. Its length is five fourths. Dividing by that length gives horizontal component four fifths and vertical component three fifths. Their squares sum to one. Dividing the sine, three fifths, by the cosine, four fifths, returns three fourths. The graph formula performs exactly this calculation in every singular direction of T.
+
 For finite-dimensional U, the singular values of T are the tangents of the principal angles. In infinite dimensions we can formulate the same relation by functional calculus, without assuming the modulus has an eigenbasis.
 
 ## Recover the graph slope from a trial frame
@@ -92,7 +94,7 @@ The graph also turns an invariant-subspace question into an equation for a slope
 
 For the output to stay on the same graph line, the vertical component must equal t times the horizontal one. Thus h plus d t equals a t plus h t squared. That quadratic equation is the scalar Riccati equation for the invariant line. Its linear part is a spectral-difference term, while the t-squared correction records the coupling back into the first coordinate.
 
-If a is zero, d is five, and h is small, the solution near the horizontal axis has slope approximately negative h divided by five. This is the same gap-controlled rotation visible in elementary perturbation theory. For higher-dimensional blocks, t becomes an operator, and the quadratic term becomes an operator product. The graph representation lets us analyze the invariant subspace without choosing an eigenbasis inside it.
+If a is zero, d is five, and h is one, the equation becomes one plus five t minus t squared equals zero. Its root near zero is five minus the square root of twenty-nine, all divided by two, approximately negative zero point one nine three. The other root is larger than five; it describes the other invariant line. The small root is close to negative one fifth, the first-order approximation obtained by neglecting the quadratic term. This makes the gap-controlled rotation visible in an exact calculation. For higher-dimensional blocks, t becomes an operator, and the quadratic term becomes an operator product. The graph representation lets us analyze the invariant subspace without choosing an eigenbasis inside it.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -107,6 +109,10 @@ For `H=U⊕Uᗮ` and bounded `T:U→Uᗮ`, the graph frame is `E=(I,T)(I+T*T)⁻
  h+dt=t(a+ht),\qquad h+(d-a)t-ht^2=0.
 \]
 For \((a,d)=(0,5)\), the small root behaves as \(t=-h/5+O(h^3)\). This is the scalar form of the block identity \(B+A_-T=TA_++TB^*T\) with the indicated block orientation.
+
+**Two scalar checks.** For \(T=3/4\), the normalized graph frame is \(E=(4/5,3/5)\), so \(C=4/5\), \(S=3/5\), \(|S|/|C|=3/4=|T|\). For
+\(A=\begin{psmallmatrix}0&1\\1&5\end{psmallmatrix}\), invariance of \(\operatorname{span}(1,t)\) reads \(1+5t-t^2=0\). The slope of the eigenline near the first coordinate axis is
+\(t=(5-\sqrt{29})/2\approx-0.1925824036\), against its small-coupling approximation \(-1/5\).
 
 ### Source declaration excerpts
 

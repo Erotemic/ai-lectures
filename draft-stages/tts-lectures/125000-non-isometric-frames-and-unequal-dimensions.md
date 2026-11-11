@@ -28,6 +28,10 @@ Write the polar decomposition of E zero as W times its modulus. Because E zero i
 
 If the smallest singular value of E zero is epsilon, then the inverse of its modulus has operator norm at most one over epsilon. That one inequality will explain the entire normalization penalty.
 
+Consider a concrete two-column frame in three-dimensional space. Let the exact selected subspace be the plane spanned by the first two coordinate axes. The first trial column is twice the first basis vector. The second is one quarter of a unit vector tilted through angle theta from the second axis toward the third. The two columns are orthogonal, with lengths two and one quarter. Their Gram matrix is diagonal, with entries four and one sixteenth. Its square root is diagonal with entries two and one quarter.
+
+The smallest frame length is one quarter, so epsilon is one quarter. The normalized frame W has two unit columns; its second column still makes angle theta with the selected plane. Normalization changes the coordinates and the residual's scale, while the trial subspace and its angle stay the same.
+
 ## Choose exact spectral coordinates
 
 Let A be a possibly unbounded self-adjoint operator on H. Choose an exact reducing spectral decomposition with an exact selected component and its orthogonal complement. Let F one be an isometric coordinate map into that complementary component, and let Lambda one denote the restricted operator there.
@@ -50,13 +54,17 @@ But X still contains the nonorthonormal scaling of E zero. It is not yet the int
 
 Replace E zero by its polar factorization W times the modulus. Then X equals F one adjoint W followed by that modulus.
 
-The map F one adjoint W is the directed escape from the normalized trial space into the exact complementary space. Its singular values are the directed sines. Let us call it S.
+The map F one adjoint W goes from trial coordinates to complementary exact coordinates. Its singular values are the directed sines. Let us call it S. The raw cross operator X has the same domain and codomain, but its singular values also contain the scaling inherited from E zero.
 
 We have X equals S times the modulus. Multiply on the right by the inverse modulus. Then S equals X times that inverse. Since the inverse has norm at most one over epsilon, every supported unitarily invariant ideal norm obeys epsilon times the norm of S at most the norm of X.
 
 Combine this with the Sylvester bound. The conclusion is delta times epsilon times the directed sine norm no greater than the residual norm.
 
 The two factors have different sources. Delta comes from spectral separation. Epsilon comes from frame conditioning. Neither can be omitted without changing the data being estimated.
+
+We can finish the two-column calculation. Set the ambient operator to the diagonal matrix with entries zero, zero, and d, for positive d; take the trial operator A zero to be zero. The exact complement has eigenvalue d. Only the tilted trial column produces a residual, of length d times sine theta divided by four. Thus the residual operator has a single nonzero singular value of that size. The raw cross operator X has singular value sine theta divided by four, while the normalized directed sine S has singular value sine theta. The gap is d and the lower frame bound is one quarter. Every inequality in the chain is equality, in both operator norm and Frobenius norm.
+
+The calculation also shows why it is the smallest frame length that enters: the residual is concentrated in the column whose normalization requires the largest amplification.
 
 ## Check the constant in one dimension
 
@@ -105,6 +113,23 @@ For \(E_0:F\to H\), the Lean predicate `LowerFrameBound E₀ ε` records \(\|E_0
 \[\delta\,\varepsilon\,N(S)\le N(R).\]
 `SinThetaRepresentativeAcross` permits equivalent rectangular realizations, while `IsTrialResidualEquation` and `IsExactSpectralDecomposition` encode the actual domain and exact-reduction obligations. The paper-facing spectral condition is interval/exterior separation, rather than an arbitrary `PairwiseSpectrumGap`.
 
+
+**A conditioned two-column frame attaining the estimate.** On \(H=\mathbb R^3\), let \(U=\operatorname{span}(e_1,e_2)\), \(A=\operatorname{diag}(0,0,d)\) with \(d>0\), \(F=\mathbb R^2\), and
+\[
+ W=\begin{pmatrix}1&0\\0&\cos\theta\\0&\sin\theta\end{pmatrix},\qquad
+ D=\operatorname{diag}(2,\tfrac14),\qquad E_0=WD,\qquad A_0=0.
+\]
+Then \(E_0^*E_0=D^2=\operatorname{diag}(4,1/16)\), so \(\varepsilon=1/4\) is the optimal lower frame bound. With \(F_1=e_3\) and \(\Lambda_1=d\),
+\[
+ X=F_1^*E_0=(0,\tfrac14\sin\theta),\quad
+ S=F_1^*W=(0,\sin\theta),\quad
+ R=AE_0=(0,0,\tfrac d4\sin\theta)\,e_2^*.
+\]
+Here \(R\) denotes the \(3\times2\) map whose second column is \((d\sin\theta/4)e_3\); equivalently \(R=(d\sin\theta/4)e_3 e_2^*\). For \(0<\theta<\pi/2\), each map has rank one, and
+\[
+ \delta\varepsilon\|S\|_{S_q}=d\tfrac14\sin\theta=\|R\|_{S_q}
+\]
+for every finite Schatten \(q\) and in operator norm. This checks the factor \(1/\varepsilon\) and separates raw leakage from the intrinsic angle.
 
 ### Exact Lean declaration excerpts
 
