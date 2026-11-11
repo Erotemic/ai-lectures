@@ -32,6 +32,10 @@ That identity is more informative than applying Weyl and sine-theta independentl
 
 Another equivalent formula uses the cosine of twice theta. It equals g divided by the square root of g squared plus four t squared. The displacement and the angle are two aspects of one characteristic equation; they are not free variables.
 
+For a numerical anchor, let g equal four and t equal one. The unperturbed diagonal entries are minus two and plus two. The new eigenvalues are minus square root of five and plus square root of five, so the magnitude of each eigenvalue's movement is square root of five minus two, about zero point two three six. The lower eigendirection turns through about thirteen point three degrees. The identity we derived reads: square root of five minus two equals the tangent of that angle, because t equals one.
+
+This also checks the Rayleigh-quotient calculation coming next. If v is the lower eigenvector, its expectation of A exceeds minus two by four times sine squared theta. But its expectation of H is negative: the off-diagonal perturbation lowers its energy. Adding those two contributions recovers the new lower eigenvalue minus square root of five exactly. Thus the angle, spectral displacement, and direction of the perturbation all enter a single equation.
+
 ## Rayleigh quotients measure angle with spectral weights
 
 There is a useful exact identity for a general self-adjoint A. Suppose u is a lowest-eigenvalue vector with eigenvalue lambda zero. Expand an arbitrary unit vector v in an orthonormal eigenbasis beginning with u. Let its coefficient along u have magnitude cosine theta. The remaining coefficients have squared magnitudes summing to sine squared theta.
@@ -70,6 +74,10 @@ That is a genuinely joint inequality. It allocates one finite perturbation-energ
 
 We can derive its basic intuition from orthogonal eigenvector expansions. Express the perturbation between eigenbases of the two operators. Its Frobenius energy is the sum of squared spectral differences weighted by squared cross-overlaps. Split this sum into matched diagonal contributions and off-diagonal mixing. A lower bound on each off-diagonal spectral denominator gives the rotation term; the matched terms give eigenvalue displacement. The two contributions add before we compare against the perturbation energy.
 
+Here is the underlying finite-dimensional identity, before making any separation estimate. Take complete orthonormal eigenvector bases u-j for A and v-i for B. Record how much of each new eigenvector lies along each old one. The weights are the squared absolute overlaps; every row and every column adds to one. Expand the Frobenius norm squared of B minus A in those two bases. The exact result is the sum over every pair i and j of the squared difference between the new eigenvalue mu-i and old eigenvalue lambda-j, multiplied by that overlap weight.
+
+For our two-level model, diagonal matching weights are cosine squared theta, and cross-matching weights are sine squared theta. If r is the positive new eigenvalue and a is the old positive eigenvalue, the exact Frobenius budget is twice the smaller eigenvalue shift squared times cosine squared theta, plus twice the sum r plus a squared times sine squared theta. This is exactly twice t squared, the Frobenius norm squared of the off-diagonal perturbation. No estimate has been used yet. A joint theorem begins by deciding which parts of that exact budget can be bounded by the gap and a chosen matching.
+
 This is the right mathematical model for Question ten point three, though it does not settle every possible best-constant or block-multiplicity version of that question.
 
 ## What the optimization question really asks
@@ -87,6 +95,25 @@ As an exercise, reproduce the two-level eigenvalue and angle formulas without me
 ---
 
 ## Display-only mathematical and Lean correspondence
+
+### Exact mixed-eigenbasis energy identity
+
+Let \(Au_j=\lambda_j u_j\), \(Bv_i=\mu_i v_i\), with complete orthonormal eigenbases of a finite-dimensional space. Then
+\[
+ \|B-A\|_F^2
+ =\sum_{i,j}\|\langle v_i,(B-A)u_j\rangle\|^2
+ =\sum_{i,j}(\mu_i-\lambda_j)^2|\langle v_i,u_j\rangle|^2.
+\]
+The overlap weights \(w_{ij}=|\langle v_i,u_j\rangle|^2\) sum to one along every row and every column. For
+\[
+ A=\operatorname{diag}(-a,a),\quad B=\begin{pmatrix}-a&t\\t&a\end{pmatrix},\quad
+ r=\sqrt{a^2+t^2},\quad d=r-a,
+\]
+with the smaller eigenspaces meeting at angle \(\theta\), the identity becomes
+\[
+ 2t^2=2d^2\cos^2\theta+2(r+a)^2\sin^2\theta.
+\]
+The diagonal and cross terms in this **equality** must be kept separate when deriving an inequality under matching and gap assumptions. For \(a=2,t=1\), the angle satisfies \(\tan(2\theta)=1/2\) and the eigenvalue shift is \(d=\sqrt5-2=\tan\theta\).
 
 The original source's `DK-10.3` is an open question on simultaneous eigenvalue/eigenvector displacement; see `prose/distilled_literature/DavisKahan1970_part_III.tex`. The exact two-level model has
 

@@ -54,6 +54,10 @@ The operator norm of C is three times square root of two. The operator norm of X
 
 Yet the Frobenius comparison holds: X has squared Frobenius norm twenty-eight, while C has squared Frobenius norm thirty-six. No contradiction occurs because these norms use different aggregation rules.
 
+The numbers are useful for judging the size of the failure. The ratio between the operator norms is approximately one point two one seven. It already exceeds one with only two spectral values on each side. By contrast, the ratio between the Frobenius norms is the square root of twenty-eight divided by thirty-six, which is less than one. The gap is one in both comparisons; changing the norm is the entire reason the conclusions differ.
+
+To see exactly where the naive proof breaks, look at one column of the forcing matrix. Dividing its entries by the signed spectral differences can turn aligned contributions into a larger output for a suitable input vector, even though the magnitude of each individual entry decreases. The operator norm optimizes over such input vectors. Squaring entries before summing, as the Frobenius norm does, eliminates that interference.
+
 This example proves that the constant-one operator-norm estimate cannot follow from pairwise spectral distance alone.
 
 ## Ordered separation changes the proof
@@ -78,6 +82,8 @@ Optimality of the factor pi over two depends on the specified class of spectral 
 
 One useful intermediate result involves low rank. If C has rank r, its Frobenius norm is at most square root of r times its operator norm. Combining that with the Frobenius Sylvester estimate and the fact that operator norm is at most Frobenius norm gives delta times the operator norm of X no greater than square root of r times the operator norm of C. It may be weaker than the Fourier bound for large r, but it is elementary and sometimes useful when r is small.
 
+For rank one, the elementary square-root-of-rank estimate does recover constant one, because a rank-one forcing term has equal operator and Frobenius norms. At rank two it gives square root of two, which is weaker than our actual two-by-two ratio but better than the general pi-over-two bound. These are three different kinds of claims: a particular counterexample gives a lower limit on a universal constant; the rank estimate gives an upper bound under an extra rank hypothesis; and the Fourier representation gives an upper bound without that rank hypothesis.
+
 ## Read Question ten point one precisely
 
 The historical question asks how sharp a residual-to-angle theorem can be under distance-only spectral separation. Theorem six point two gives constant-one Hilbert-Schmidt control under its spectral separation assumptions. The broader operator-norm story requires different techniques and constants. Our two-by-two example rules out a universal constant-one result in operator norm.
@@ -93,6 +99,15 @@ The same caution becomes stronger for three reducing subspaces: multiple off-dia
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+The norms in the displayed witness are
+\[
+ \|X\|_{\mathrm{op}}=2+\sqrt{10},\qquad
+ \|C\|_{\mathrm{op}}=3\sqrt2,\qquad
+ \|X\|_{S_2}^2=28,\qquad
+ \|C\|_{S_2}^2=36.
+\]
+Thus \(\|X\|_{\rm op}/\|C\|_{\rm op}\approx1.21676>1\), while \(\|X\|_{S_2}/\|C\|_{S_2}=\sqrt{7/9}<1\). If \(\operatorname{rank}C\le r\), then \(\delta\|X\|_{\rm op}\le\delta\|X\|_{S_2}\le\|C\|_{S_2}\le\sqrt r\,\|C\|_{\rm op}\).
 
 For finite-dimensional self-adjoint blocks \(A,B\) with \(\operatorname{dist}(\sigma(A),\sigma(B))\ge\delta>0\), and \(AX-XB=C\), the spectral matrix-unit decomposition proves
 \[\delta\|X\|_{S_2}\le\|C\|_{S_2}.\]

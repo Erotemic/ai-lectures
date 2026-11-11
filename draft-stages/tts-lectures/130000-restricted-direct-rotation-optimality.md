@@ -6,7 +6,11 @@
 
 # Restricted direct-rotation optimality
 
-For two closed subspaces U and V, a unitary or orthogonal transporter W sends U onto V. There may be many such maps. Which one moves vectors starting in U by the smallest amount? Proposition four point one of Davis and Kahan answers this question, and Corollary four point one extends the answer to every unitarily invariant norm of the restricted displacement. Measuring displacement only on U is a crucial hypothesis: minimizing displacement on the entire ambient space is a different optimization problem.
+Turn a unit line through sixty degrees inside a plane. Its unit vector moves by a straight-line distance of one. A rotation through the shorter arc achieves that distance. Any longer turn that reaches the same target line moves the vector at least as far, once we choose the target direction with positive overlap.
+
+Now replace the line by a two-dimensional subspace. An orthogonal or unitary map carrying it onto a target subspace may mix the two principal directions, so the one-line argument no longer settles the problem. Can that mixing reduce the largest displacement, or the sum of displacements measured by a different norm?
+
+The restricted direct-rotation theorem answers this for every unitarily invariant norm: among all admissible transports, the canonical direct rotation minimizes the displacement **of vectors starting in the source subspace**. Its proof rests on a singular-value min–max argument, and we will see exactly why a tempting pointwise Gram-matrix comparison is too strong. The displacement of vectors outside the source is a separate question.
 
 ## Set up the competitors
 
@@ -42,6 +46,12 @@ To see the direct list explicitly, consider a principal vector u with principal 
 
 Here is a numerical example. Take two source directions with principal angles thirty and sixty degrees. The direct restricted displacement has singular values approximately one point zero and zero point five one eight. Any unitary carrying the source plane onto the target must have its first singular value at least one and its second at least zero point five one eight. This conclusion allows the competitor to mix the two directions.
 
+Here is an actual competitor that mixes them. Place the two source directions in four-dimensional space, with independent principal planes. The first makes a sixty-degree angle with its target vector, and the second a thirty-degree angle. Instead of mapping each source vector to its corresponding target vector, let the competitor send the first source vector to a target combination obtained by a ten-degree rotation within V. Send the second source vector to the perpendicular target combination. These two images remain orthonormal, so this is an isometry on U that extends to an orthogonal map of the ambient space.
+
+What happens to its displacement Gram matrix? In the principal source coordinates, the direct rotation has a diagonal cosine-overlap matrix: one half in the first entry, and square root of three divided by two in the second. The mixed competitor multiplies this matrix by a ten-degree planar rotation. The restricted displacement Gram matrix is twice identity minus that overlap matrix and its transpose. Subtract the direct Gram matrix. The resulting two-by-two symmetric matrix has positive diagonal entries but a negative determinant, hence one negative eigenvalue.
+
+So it would be false to claim that the direct displacement Gram operator is below the competitor's Gram operator in positive-semidefinite order. Nevertheless the min–max argument just proved that the competitor's singular values cannot be smaller than the two principal chords. Its conclusion survives precisely because it uses a carefully chosen subspace for each index rather than a pointwise comparison for all source vectors.
+
 ## Passing to every invariant norm
 
 A unitarily invariant norm depends only on the singular values through a symmetric gauge. Every such gauge is monotone under coordinatewise domination of nonnegative sorted singular values. Since we proved the stronger pointwise comparison, the direct rotation minimizes every unitarily invariant norm of the restricted displacement.
@@ -71,6 +81,25 @@ This establishes restricted-norm optimality. It does not assert that the same tr
 ## Companion: mathematics and Lean correspondence (display only)
 
 The relevant restricted maps are \(T_D=(I-D)|_U\) and \(T_W=(I-W)|_U\). The finite conclusion is \(s_k(T_D)\le s_k(T_W)\) for all \(k\), and consequently \(N(T_D)\le N(T_W)\) for any unitarily invariant norm \(N\). The direct singular values are \(2\sin(\theta_j/2)\).
+
+### A competitor that defeats Gram ordering but not singular-value ordering
+
+Let \(c_1=\cos(\pi/3)=1/2\), \(c_2=\cos(\pi/6)=\sqrt3/2\), \(C=\operatorname{diag}(c_1,c_2)\), and \(R_\varphi=\begin{psmallmatrix}\cos\varphi&-\sin\varphi\\\sin\varphi&\cos\varphi\end{psmallmatrix}\). Choose orthonormal principal vectors \((u_1,u_2)\) and \((v_1,v_2)\) with \(\langle u_i,v_j\rangle=c_i\delta_{ij}\). The restricted isometry \(W|_U\) sending the source basis to \((v_1,v_2)R_\varphi\) extends to an ambient orthogonal map. Let \(S=(I-W)|_U\) and \(T=(I-D)|_U\). Then
+\[
+ S^*S=2I-CR_\varphi-R_\varphi^TC,\qquad
+ T^*T=2I-2C,
+\]
+\[
+ S^*S-T^*T=\begin{pmatrix}
+ 2c_1(1-\cos\varphi)&-(c_2-c_1)\sin\varphi\\
+ -(c_2-c_1)\sin\varphi&2c_2(1-\cos\varphi)
+ \end{pmatrix}.
+\]
+Its determinant is
+\[
+ 4c_1c_2(1-\cos\varphi)^2-(c_2-c_1)^2\sin^2\varphi.
+\]
+This is negative for all sufficiently small nonzero \(\varphi\), and in particular for \(\varphi=\pi/18\). Thus the Gram difference is not positive semidefinite. Still \(s_k(T)\le s_k(S)\) by the principal-vector subspace min–max proof, so all unitarily invariant restricted-displacement norm conclusions remain valid.
 
 **Proof-scope note.** The proof uses the pointwise projection-length bound **plus** a k-dimensional principal-vector subspace and the min–max characterization of singular values. It deliberately does not assert quadratic-form ordering of the two displacement Gram operators. In the nonacute case the source uses matched crossed defects and the nonacute direct-rotation construction. The compact Hilbert-space result is stated for approximation numbers and has additional existence/ideal hypotheses.
 

@@ -42,7 +42,7 @@ Choose an orthonormal basis u-one through u-r of U. Apply the preceding inequali
 
 Define T as the rectangular projection map from U into V perpendicular. The sum on the right is the squared Frobenius norm of T. Equivalently, it is the trace of T adjoint T, its positive Gram operator.
 
-Why is this independent of the chosen orthonormal basis? If we change the basis by a unitary coordinate transformation, the trace of the Gram operator does not change. More concretely, the sum of squared output lengths of T over an orthonormal basis equals the sum of its squared singular values. That identity was the starting point of our Hilbert–Schmidt lectures.
+Why is this independent of the chosen orthonormal basis? If we change the basis by a unitary coordinate transformation, the trace of the Gram operator does not change. More concretely, the sum of squared output lengths of T over an orthonormal basis equals the sum of its squared singular values. That is the basic Hilbert–Schmidt identity, obtained by taking the trace of the Gram operator.
 
 The singular values of T are the sines of the principal angles between U and V. Thus the bound becomes: the sum of sine-squared transport angles over any orthonormal basis of U is at least the sum of sine-squared principal angles.
 
@@ -57,6 +57,12 @@ The sines are one half and square root of three over two. Their squares add to o
 For the canonical direct rotation and the principal basis, the individual angles are exactly thirty and sixty degrees. Therefore equality holds, and the lower bound is sharp.
 
 Now change the orthonormal basis within U by forty-five degrees. The two new basis vectors are mixtures of the original principal directions. Their individual escape norms are generally different from the original sine values, but their squared escape norms still add to one. This is because the Frobenius norm does not depend on the basis.
+
+There is a subtle distinction here. Although the *sum of squared escape norms* stays equal to one, the sum of squared angles between each basis vector and its transported image need not remain one after changing the basis. For the same thirty- and sixty-degree principal planes, use the direct rotation but replace the two principal source vectors by their equal-weight sum and equal-weight difference.
+
+Each new unit vector has inner product with its rotated image equal to the average of cosine thirty degrees and cosine sixty degrees. Its sine-squared angular displacement therefore equals six minus square root of three, divided by eight. Adding the two errors gives six minus square root of three, divided by four, approximately one point zero six seven. The geometric escape-energy sum is still exactly one.
+
+Why did equality disappear? The projection bound compares the absolute inner product with one selected image to the norm of the entire projection onto V. A mixed vector's transported image need not point along that projection. Principal basis vectors have that alignment, which is why equality holds there. The trace lower bound is basis independent; equality for a chosen transport and chosen basis is a separate statement.
 
 If we also rotate the target basis after the canonical transport, the angular errors may increase. They cannot decrease below the total geometric leakage of U into V perpendicular.
 
@@ -104,6 +110,25 @@ For an orthonormal basis \((u_i)\) of \(U\), \(W U=V\), and \(\sin^2\angle(x,y)=
 =\sum_j\sin^2\theta_j.
 \]
 In infinite dimension interpret as sums in \([0,\infty]\). The theorem's angular square is **not** the squared Euclidean chord \(\|u_i-Wu_i\|^2\). The Section 4 source-shaped wrappers carry compactness and crossed-defect hypotheses even though the underlying estimate is more general.
+
+### The basis-sensitive equality case
+
+For orthogonal principal planes with \(\theta_1=\pi/6\), \(\theta_2=\pi/3\), the leakage sum is
+\[
+ \sin^2\theta_1+\sin^2\theta_2=\tfrac14+\tfrac34=1.
+\]
+For the principal basis, the direct rotation \(D\) attains the bound. Now put \(x_\pm=(u_1\pm u_2)/\sqrt2\). For both signs,
+\[
+ \langle x_\pm,Dx_\pm\rangle
+   =\frac{\cos(\pi/6)+\cos(\pi/3)}2
+   =\frac{\sqrt3+1}4,
+\]
+\[
+ \sin^2\angle(x_\pm,Dx_\pm)
+   =1-\left(\frac{\sqrt3+1}4\right)^2
+   =\frac{6-\sqrt3}8.
+\]
+Thus the total angular error of these basis vectors is \((6-\sqrt3)/4>1\), although their total projection leakage remains \(1\). The inequality is basis independent on the *right-hand side*, while its left-hand side can vary with the chosen basis.
 
 ## Exact Lean declaration excerpts
 

@@ -72,7 +72,13 @@ Our square-root example gives a scalar divided difference of one divided by epsi
 
 One can write a matrix-level formula using the spectral projections of A and B. The contribution between an A eigenvalue lambda and a B eigenvalue mu is the scalar divided difference multiplied by the corresponding cross projection and by H. This follows from the identity that the cross projection of H equals the spectral difference times the cross projection of the identity.
 
-A bound on each scalar quotient is necessary, but an operator-norm estimate of the resulting sum can be harder. It is a Schur-multiplier problem, closely related to the norm dependence we studied for Sylvester inverses. In Hilbert–Schmidt norm, orthogonality of the matrix entries often makes estimates easier. In operator norm, coherent interactions among entries can change the best constant.
+A bound on each scalar quotient is necessary, but an operator-norm estimate of the resulting sum can be harder. It is a Schur-multiplier problem, with the same norm dependence that appears when a Sylvester inverse divides matrix entries by their spectral differences. In Hilbert–Schmidt norm, orthogonality of the matrix entries often makes estimates easier. In operator norm, coherent interactions among entries can change the best constant.
+
+We can make that distinction into a complete finite-dimensional proof. Let the new operator B have eigenvalues mu and the original operator A have eigenvalues lambda. Use the orthogonal spectral projections of B on the left and of A on the right. A block of the perturbation H between those eigenspaces equals mu minus lambda times their overlap block. The corresponding block of f of B minus f of A equals f of mu minus f of lambda times the same overlap block.
+
+For different eigenvalues we therefore divide one scalar difference by the other to express the function-difference block as a multiplier of the H block. If the two eigenvalues coincide, the H block is zero, and we can assign that multiplier zero. Now sum the *squares* of the Frobenius norms of all these blocks. They are pairwise orthogonal in Hilbert–Schmidt inner product because both families of spectral projections are orthogonal. If f is scalar Lipschitz with constant L on the union of the two spectra, each block changes by at most L times its H block, so the whole Frobenius norm changes by at most L times the Frobenius norm of H.
+
+This result is stronger than a vague warning that scalar Lipschitz conditions may fail. They do give constant L for finite-dimensional Hilbert–Schmidt perturbations. The obstacle is specifically extending such entrywise bounds to operator norm, arbitrary unitarily invariant norms, or infinite-dimensional operator-Lipschitz claims without additional structure.
 
 This explains, at a structural level, why scalar Lipschitz continuity is not the complete answer to Question ten point four. Additional regularity of f, spectral assumptions, or a different norm can be required.
 
@@ -113,6 +119,26 @@ For `B=A+H`, the polynomial and resolvent identities used in the lecture are
 \[(B-zI)^{-1}-(A-zI)^{-1}=-(B-zI)^{-1}H(A-zI)^{-1}.\]
 
 The source formalizes the spectral step-function identities below; it does not claim a universal operator-Lipschitz inequality for arbitrary scalar-Lipschitz `f`.
+
+### Divided differences between two eigenbases
+
+Write \(A=\sum_\lambda\lambda P_\lambda\), \(B=\sum_\mu\mu Q_\mu\), \(H=B-A\). The finite spectral calculus gives
+\[
+ Q_\mu H P_\lambda=(\mu-\lambda)Q_\mu P_\lambda,\qquad
+ Q_\mu(f(B)-f(A))P_\lambda
+   =(f(\mu)-f(\lambda))Q_\mu P_\lambda.
+\]
+Define the divided difference \(d_f(\mu,\lambda)=(f(\mu)-f(\lambda))/(\mu-\lambda)\) when \(\mu\neq\lambda\), and take it to be zero when \(\mu=\lambda\). The blocks with equal eigenvalues of \(H\) and \(f(B)-f(A)\) both vanish. Hence
+\[
+ f(B)-f(A)=\sum_{\mu,\lambda}d_f(\mu,\lambda)\,Q_\mu H P_\lambda.
+\]
+The blocks \(Q_\mu H P_\lambda\) are pairwise orthogonal in Hilbert–Schmidt inner product. Consequently, if \(|f(\mu)-f(\lambda)|\le L|\mu-\lambda|\) for spectral values of \(A,B\), then
+\[
+ \|f(B)-f(A)\|_F^2
+ =\sum_{\mu,\lambda}|d_f(\mu,\lambda)|^2\|Q_\mu H P_\lambda\|_F^2
+ \le L^2\|H\|_F^2.
+\]
+This proof is **finite-dimensional**. The same blockwise scalar inequality is not, by itself, an operator-norm estimate: its block multiplier need not have operator-norm bound \(L\).
 
 ## Exact Lean declaration excerpts
 

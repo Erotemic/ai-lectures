@@ -30,7 +30,9 @@ There is a matching pair of row equations. For any E row i, the sum of block i,j
 
 These four identities constrain the three-way overlaps. Arbitrary collections of pairwise sine angles do not automatically obey them.
 
-Let us make that concrete with three one-dimensional pieces. The comparison operator is now an ordinary three-by-three unitary matrix. If its first column has overlap magnitudes one half, one half, and the square root of one half, these magnitudes are impossible because their squares sum to one quarter plus one quarter plus one half, which actually equals one; so that particular list is permitted by the column-length test. But it still may not extend to all three prescribed columns. Orthogonality between columns supplies further constraints. A column-length test is necessary, never sufficient for a complete overlap table.
+A genuine obstruction already appears with three one-dimensional pieces. Suppose someone proposes a table of *squared overlap magnitudes* with these rows: one half, one half, zero; then one half, zero, one half; then zero, one half, one half. Every row adds to one. Every column also adds to one. So the table passes all length-distribution tests.
+
+But try to build the first two unitary columns. Both must have nonzero first coordinates of magnitude one over square root of two. The first column's other nonzero coordinate lies in row two; the second column's other nonzero coordinate lies in row three. When we take the inner product of those two columns, the only overlapping nonzero terms come from row one. Their product has magnitude one half, whatever phases we choose. The columns cannot be orthogonal. Therefore no unitary matrix realizes that table. Row and column normalization alone do not capture the cross-column cancellation conditions.
 
 ## Why an intermediate block matters
 
@@ -60,7 +62,11 @@ Suppose A is diagonal with three distinct eigenvalues: minus g, zero, and g, whe
 
 A first-order eigenvector correction to the lowest eigenvector points toward the middle coordinate with size proportional to s divided by g. The correction to the highest eigenvector points toward the middle with size proportional to t divided by g. The first-to-third mixing appears one order later, approximately s times t divided by g squared, with coefficients depending on the actual spectral denominators.
 
-The exact coefficient can be computed from the eigenvector equation, rather than guessed from that approximation. The lowest eigenvector satisfies three coupled scalar equations. Eliminating its middle component produces an effective first-to-third term containing the product s times t and two spectral denominators. This is a Schur-complement mechanism, closely related to the beam example we studied.
+The exact coefficient can be computed from the eigenvector equation, rather than guessed from that approximation. The lowest eigenvector satisfies three coupled scalar equations. Eliminating its middle component produces an effective first-to-third term containing the product s times t and two spectral denominators. This is a Schur-complement mechanism: a middle coordinate mediates an interaction between endpoints that have no direct matrix coupling.
+
+Write the low eigenvalue as lambda, and write its corresponding eigenvector with first, middle, and last coordinates x, y, and z. The last eigenvector equation says that z equals minus t times y divided by g minus lambda. The middle equation says that s times x equals lambda times y plus t squared times y divided by g minus lambda. Eliminate y. The exact ratio of z to x is the negative product s times t, divided by a denominator equal to lambda times the difference g minus lambda, plus t squared.
+
+When the couplings are small compared with g, the low eigenvalue is close to minus g. The denominator therefore approaches minus two g squared. The first-to-third coordinate ratio approaches s times t divided by two g squared, to leading order. That factor of two has a concrete origin: the low level is one gap below the middle level but two gaps below the high level. An estimate that remembers only the smallest gap misses that coefficient.
 
 The example explains why a three-space theorem might strengthen a two-space theorem. It also shows what the theorem cannot ignore: the middle spectral location matters, because its denominators control the indirect coupling.
 
@@ -87,6 +93,25 @@ If `AEᵢ=Eᵢ Aᵢ`, `BFⱼ=Fⱼ Bⱼ`, and `B=A+H`, then
 \[A_iW_{ij}-W_{ij}B_j=-E_i^*HF_j.\]
 
 This is an elementary consequence of block algebra. The supporting Lean source declarations below formalize the component operator vocabulary; they do **not** prove a sharp three-way analogue of Davis–Kahan Question 10.2.
+
+### A doubly stochastic table with no unitary realization
+
+The nonnegative squared-modulus table
+\[
+ M=\frac12\begin{pmatrix}1&1&0\\1&0&1\\0&1&1\end{pmatrix}
+\]
+has every row and column sum equal to \(1\). Were \(M_{ij}=|W_{ij}|^2\) for a unitary \(W\), the inner product of its first two columns would have a single nonzero term, \(\overline{W_{11}}W_{12}\), of modulus \(1/2\), contradicting orthogonality. Thus \(M\) is doubly stochastic but not unistochastic.
+
+For \(A=\operatorname{diag}(-g,0,g)\) and \(H=\begin{psmallmatrix}0&s&0\\s&0&t\\0&t&0\end{psmallmatrix}\), let \((x,y,z)\) be an eigenvector of \(B=A+H\) with eigenvalue \(\lambda\) near \(-g\). From
+\[
+ (-g-\lambda)x+sy=0,\quad sx-\lambda y+tz=0,\quad ty+(g-\lambda)z=0
+\]
+one obtains (when the denominators are nonzero)
+\[
+ \frac zx=-\frac{st}{\lambda(g-\lambda)+t^2}
+ =\frac{st}{2g^2}+\text{higher-order terms as }(s,t)\to(0,0).
+\]
+The leading coefficient follows from the **two distinct denominators** \(-g\) and \(-2g\). The mixed term illustrates mediated coupling, not a sharp general three-subspace theorem.
 
 ## Exact Lean declaration excerpts
 

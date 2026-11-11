@@ -58,6 +58,10 @@ The second separation hypothesis gives the same all-prefix inequality for X prim
 
 This step is the reason Proposition six point one is symmetric. A single trial residual would give only one equation; our two reducing subspaces and ambient perturbation give a matched pair.
 
+To see both equations at once, take a two-dimensional matrix with eigenvalues zero and four, and select its zero-eigenvalue line. Rotate the whole eigensystem through an angle theta to obtain the perturbed matrix and its selected line. The two complementary eigenvalues remain four. Both crossed spectral gaps therefore equal four.
+
+For the first equation, the cross projection from the original selected line into the rotated perpendicular line is minus sine theta. Its projected perturbation block is minus four times sine theta. For the reverse equation, the cross projection from the original perpendicular line into the rotated selected line is plus sine theta, while its forcing block is minus four times sine theta. The signs differ because the Sylvester equations put their spectral blocks in different orders. In each equation the absolute forcing is four times the absolute overlap. Thus both crossed estimates are equalities, on the very same example.
+
 ## Identify the ambient angle algebraically
 
 Let D be P minus Q. Expand D squared. Since P and Q are orthogonal projections, D squared equals P plus Q minus P Q minus Q P.
@@ -78,6 +82,8 @@ Apply this identity to X and X prime. Because each of their prefix sums is bound
 
 This is Lemma six point one's forward direction. We did not need its converse, and we did not assume the component singular-value lists matched.
 
+A short numerical merge makes this step easier to hear. Imagine that the first cross map has singular values six tenths and one tenth, while the second has a singular value of four tenths. The ambient block sum has singular values six tenths, four tenths, and one tenth, in that order. Its first two have sum one. That sum comes from taking one singular value from each cross map, rather than blindly taking two from the first. The maximum-over-splits formula automatically considers every such choice. This example concerns the list-merging algebra; a particular pair of projection cross maps may impose further geometric restrictions on which lists occur.
+
 ## Prove the pinching step
 
 The pair of right-hand-side K blocks occupies orthogonal input and output corners, after reordering the output decomposition V plus V perpendicular. Call their block sum K pinched.
@@ -90,6 +96,10 @@ Both reflections are unitary. Therefore every unitarily invariant norm gives N o
 
 This is Lemma six point two. It gives the constant one that would have been lost by bounding the two blocks separately.
 
+Write the perturbation as a two-by-two array of blocks, with input columns ordered as U and its perpendicular, and output rows ordered as V perpendicular and V. The two blocks used by the crossed equations occupy the upper-left and lower-right corners. The other two corners have no role in the crossed estimates.
+
+For an ordinary two-by-two numerical array, take entries three and four in the first row, and five and six in the second. Flipping the signs of both the second output row and the second input column changes the two off-diagonal entries from four and five to their negatives while retaining three and six. Averaging gives the diagonal array with entries three and six. Its Frobenius norm is the square root of forty-five, compared with the original square root of eighty-six. The same averaging argument works for *every* unitarily invariant norm because both sign flips are unitary, even when the Frobenius calculation is no longer available.
+
 ## Put the inequalities together
 
 We have three all-prefix comparisons. First, the two crossed Sylvester equations yield the respective delta-scaled bounds. Second, direct-sum comparison combines them into an ambient sine prefix inequality. Third, pinching bounds the combined perturbation blocks by the original K at every prefix.
@@ -99,6 +109,8 @@ Thus, for each k, delta times the Ky Fan k norm of the ambient sine is at most t
 In finite dimensions every unitarily invariant norm is determined by a symmetric gauge of the singular values. A weak-majorization inequality for all prefixes implies the corresponding symmetric-gauge inequality. Consequently delta times N of the ambient sine is at most N of K.
 
 That completes the finite-dimensional proof, with no hidden dependence on a particular singular-vector basis.
+
+Return to the rotated zero-eigenvalue example. The difference of its selected projections has two singular values, each equal to the absolute sine of theta. The difference of the two self-adjoint matrices has two singular values, each equal to four times that sine. Consequently every Ky Fan prefix reaches equality after multiplying the projection difference by the gap four. The direct-sum and pinching steps therefore preserve the sharp constant in a fully ambient, rather than merely directed, example.
 
 ## Extend the logic to Hilbert-space ideals
 
@@ -140,6 +152,35 @@ Reconstruction target: the bounded self-adjoint, **two-crossed-gap** Proposition
  \end{aligned}
 \]
 The last line combines Ky Fan direct-sum comparison (`lemma61_all_kyFan`) and two-sided pinching (`lemma6_2_separable`). For a Fan-dominant normalized unitarily invariant ideal, all-prefix dominance transfers membership and the gauge bound. The proof's finite-dimensional part is fully expanded in the narration; the Hilbert-space step uses the spectral/Sylvester and approximation-number results proved in earlier lectures, as indicated, rather than silently asserting operator-norm cutoff convergence.
+
+### One example through both Sylvester blocks and the ambient bound
+
+Put \(c=\cos\theta\), \(s=\sin\theta\), \(R=\begin{psmallmatrix}c&-s\\s&c\end{psmallmatrix}\), and
+\[
+ A=\begin{pmatrix}0&0\\0&4\end{pmatrix},\qquad
+ B=RAR^{\!*}=4\begin{pmatrix}s^2&-cs\\-cs&c^2\end{pmatrix},\qquad
+ K=B-A=4\begin{pmatrix}s^2&-cs\\-cs&-s^2\end{pmatrix}.
+\]
+Take \(U=\operatorname{span}(e_1)\), \(V=\operatorname{span}((c,s))\), with \(v_\perp=(-s,c)\).
+The scalar crossed maps, and their right sides, are
+\[
+ X=v_\perp^*e_1=-s,\quad C_1=v_\perp^*Ke_1=-4s,\qquad
+ X'=v^*e_2=s,\quad C_2=v^*Ke_2=-4s.
+\]
+The respective Sylvester equations are \(4X=C_1\) and \(-4X'=C_2\). Both gaps are \(\delta=4\). In the mixed output/input coordinates \((v_\perp,v)\) and \((e_1,e_2)\),
+\[
+ \begin{pmatrix}v_\perp^*\\v^*\end{pmatrix}K
+ \begin{pmatrix}e_1&e_2\end{pmatrix}
+ =\begin{pmatrix}-4s&0\\0&-4s\end{pmatrix}.
+\]
+Consequently \(\operatorname{sv}(|P_U-P_V|)=(|s|,|s|)\) and \(\operatorname{sv}(K)=(4|s|,4|s|)\), where \(\operatorname{sv}\) denotes the decreasing singular-value list. Every Ky Fan prefix satisfies equality. This is an example of sharpness; the general proof still needs the pinching estimate for perturbations whose discarded corners do not vanish.
+
+For an arbitrary block array \(Y=\begin{psmallmatrix}a&b\\c&d\end{psmallmatrix}\), with \(J=\operatorname{diag}(1,-1)\),
+\[
+ \frac{Y+JYJ}{2}=\begin{pmatrix}a&0\\0&d\end{pmatrix},\qquad
+ N\!\left(\frac{Y+JYJ}{2}\right)\le N(Y).
+\]
+This is the elementary two-sided pinching used to keep the sharp constant.
 
 
 ### Exact Lean declaration excerpts
