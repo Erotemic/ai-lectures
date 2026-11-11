@@ -146,6 +146,67 @@ def create_app(directory=ROOT/'renders', *, feedback_directory=None,
     if feedback_root.is_relative_to(root):
         raise ValueError('Keep feedback outside the publicly served render directory')
 
+    def audio_feedback_record(payload, text):
+        """Bind a TTS note to the exact source, page, and optional audio artifact."""
+        track, lecture_id = payload.get('track'), payload.get('lecture_id')
+        profile, voice, speed = payload.get('profile'), payload.get('voice'), payload.get('speed')
+        page_index = payload.get('page_index')
+        if (not isinstance(track, str) or not isinstance(lecture_id, str)
+                or not isinstance(profile, str) or not isinstance(voice, str)
+                or isinstance(page_index, bool) or not isinstance(page_index, int)
+                or isinstance(speed, bool) or not isinstance(speed, (int, float))):
+            raise HTTPException(400, 'Specify a lecture, speech page, and TTS settings.')
+        try:
+            engine = audio_engine(profile, track)
+            settings = engine.settings(voice, speed)
+            lecture = engine.detail(lecture_id)
+        except (ValueError, TypeError) as exc:
+            raise HTTPException(400, str(exc)) from exc
+        except (KeyError, IndexError) as exc:
+            raise HTTPException(404, 'Audio lecture not found.') from exc
+        if not 0 <= page_index < lecture['page_count']:
+            raise HTTPException(404, 'Speech page not found.')
+        if payload.get('transcript_sha256') != lecture['transcript_sha256']:
+            raise HTTPException(409, 'The lecture text changed since this draft was started. Refresh before submitting.')
+        seconds = payload.get('playback_seconds')
+        if seconds is not None and (isinstance(seconds, bool) or not isinstance(seconds, (int, float))
+                                    or not math.isfinite(seconds) or seconds < 0):
+            raise HTTPException(400, 'Invalid playback timestamp.')
+        key = payload.get('audio_key')
+        if key is not None and (not isinstance(key, str) or not re.fullmatch(r'[a-f0-9]{64}', key)):
+            raise HTTPException(400, 'Invalid audio cache identity.')
+        if key is None and seconds is not None:
+            raise HTTPException(400, 'A playback timestamp requires a generated audio page.')
+        artifact = None
+        if key is not None:
+            status = engine.status(lecture_id, page_index, settings)
+            if status['key'] != key or status['state'] != 'ready':
+                raise HTTPException(409, 'This audio page has changed or is no longer available. Refresh before submitting.')
+            try:
+                media = engine.audio_file(lecture_id, page_index, settings)
+                before = media.stat()
+                with media.open('rb') as stream:
+                    digest = hashlib.file_digest(stream, 'sha256').hexdigest()
+                after = media.stat()
+            except FileNotFoundError as exc:
+                raise HTTPException(409, 'This audio page is no longer available.') from exc
+            # Bind the record to the bytes actually read, even if another process
+            # regenerates the page during the request.
+            current = engine.status(lecture_id, page_index, settings)
+            if (before.st_mtime_ns != after.st_mtime_ns or before.st_size != after.st_size
+                    or current['key'] != key or current['state'] != 'ready'):
+                raise HTTPException(409, 'This audio page changed while saving feedback.')
+            artifact = dict(key=key, sha256=digest, model=settings.model,
+                            profile=engine.profile, voice=settings.voice, speed=settings.speed,
+                            format='mp3')
+        return dict(schema_version=1, id=str(uuid4()), created_at=datetime.now(timezone.utc).isoformat(),
+                    kind='tts_audio', text=text, track=track, lecture_id=lecture['id'],
+                    title=lecture['title'], page_index=page_index, page_count=lecture['page_count'],
+                    transcript_sha256=lecture['transcript_sha256'], source_modified=lecture['source_modified'],
+                    page_sha256=hashlib.sha256(lecture['pages'][page_index].encode('utf-8')).hexdigest(),
+                    speech=dict(model=settings.model, profile=engine.profile, voice=settings.voice,
+                                speed=settings.speed), audio=artifact, playback_seconds=seconds)
+
     def save_feedback(payload):
         from dkvis.presentation.library import catalog as deck_catalog
         if not isinstance(payload, dict):
@@ -153,40 +214,45 @@ def create_app(directory=ROOT/'renders', *, feedback_directory=None,
         text = payload.get('text')
         if not isinstance(text, str) or not text.strip() or len(text) > 10000:
             raise HTTPException(400, 'Enter feedback between 1 and 10,000 characters.')
-        lecture = next((row for row in deck_catalog(root) if row['id'] == payload.get('deck')), None)
-        if lecture is None:
-            raise HTTPException(404, 'Lecture not found.')
-        record = dict(schema_version=1, id=str(uuid4()), created_at=datetime.now(timezone.utc).isoformat(),
-                      deck=lecture['id'], title=lecture['title'], text=text.strip(),
-                      current_lecture_provenance=lecture['provenance'], asset=None,
-                      playback_seconds=None, chapter=None, timeline=None)
-        if payload.get('path') is not None:
-            selected = next((a for a in lecture['assets'] if a['path'] == payload['path']), None)
-            if selected is None:
-                raise HTTPException(404, 'Selected lecture file not found.')
-            if payload.get('version') != selected['version']:
-                raise HTTPException(409, 'This file has been regenerated. Your text has not been saved; copy it before refreshing the lecture.')
-            media = within(root, selected['path'])
-            before = media.stat()
-            with media.open('rb') as stream:
-                digest = hashlib.file_digest(stream, 'sha256').hexdigest()
-            after = media.stat()
-            if before.st_mtime_ns != after.st_mtime_ns or before.st_size != after.st_size or str(after.st_mtime_ns) != selected['version']:
-                raise HTTPException(409, 'This file changed while saving. Refresh the lecture and try again.')
-            record['asset'] = {**selected, 'sha256': digest}
-            seconds = payload.get('playback_seconds')
-            if seconds is not None:
-                if (selected['kind'] not in {'video', 'audio'} or isinstance(seconds, bool)
-                        or not isinstance(seconds, (float, int)) or not math.isfinite(seconds) or seconds < 0):
-                    raise HTTPException(400, 'Invalid playback timestamp.')
-                record['playback_seconds'] = seconds
-                timeline, entries = timeline_for(root, media)
-                if timeline:
-                    raw = timeline.read_bytes()
-                    record['timeline'] = dict(path=timeline.relative_to(root).as_posix(),
-                                              sha256=hashlib.sha256(raw).hexdigest())
-                record['chapter'] = next((dict(scene=e.get('scene'), title=e.get('title'), start=e['start'])
-                                          for e in reversed(entries) if e.get('start', math.inf) <= seconds), None)
+        if payload.get('kind') == 'tts_audio':
+            record = audio_feedback_record(payload, text.strip())
+        else:
+            if payload.get('kind') is not None:
+                raise HTTPException(400, 'Unknown feedback kind.')
+            lecture = next((row for row in deck_catalog(root) if row['id'] == payload.get('deck')), None)
+            if lecture is None:
+                raise HTTPException(404, 'Lecture not found.')
+            record = dict(schema_version=1, id=str(uuid4()), created_at=datetime.now(timezone.utc).isoformat(),
+                          deck=lecture['id'], title=lecture['title'], text=text.strip(),
+                          current_lecture_provenance=lecture['provenance'], asset=None,
+                          playback_seconds=None, chapter=None, timeline=None)
+            if payload.get('path') is not None:
+                selected = next((a for a in lecture['assets'] if a['path'] == payload['path']), None)
+                if selected is None:
+                    raise HTTPException(404, 'Selected lecture file not found.')
+                if payload.get('version') != selected['version']:
+                    raise HTTPException(409, 'This file has been regenerated. Your text has not been saved; copy it before refreshing the lecture.')
+                media = within(root, selected['path'])
+                before = media.stat()
+                with media.open('rb') as stream:
+                    digest = hashlib.file_digest(stream, 'sha256').hexdigest()
+                after = media.stat()
+                if before.st_mtime_ns != after.st_mtime_ns or before.st_size != after.st_size or str(after.st_mtime_ns) != selected['version']:
+                    raise HTTPException(409, 'This file changed while saving. Refresh the lecture and try again.')
+                record['asset'] = {**selected, 'sha256': digest}
+                seconds = payload.get('playback_seconds')
+                if seconds is not None:
+                    if (selected['kind'] not in {'video', 'audio'} or isinstance(seconds, bool)
+                            or not isinstance(seconds, (float, int)) or not math.isfinite(seconds) or seconds < 0):
+                        raise HTTPException(400, 'Invalid playback timestamp.')
+                    record['playback_seconds'] = seconds
+                    timeline, entries = timeline_for(root, media)
+                    if timeline:
+                        raw = timeline.read_bytes()
+                        record['timeline'] = dict(path=timeline.relative_to(root).as_posix(),
+                                                  sha256=hashlib.sha256(raw).hexdigest())
+                    record['chapter'] = next((dict(scene=e.get('scene'), title=e.get('title'), start=e['start'])
+                                              for e in reversed(entries) if e.get('start', math.inf) <= seconds), None)
         feedback_root.mkdir(parents=True, exist_ok=True)
         target = feedback_root/f'{record["id"]}.json'
         temporary = target.with_suffix('.tmp')

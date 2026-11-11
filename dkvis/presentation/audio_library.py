@@ -285,6 +285,7 @@ class AudioLectureLibrary:
         # Lecture number is already displayed separately in the reader.
         title = re.sub(r'^\d{6}\s*[—–-]\s*', '', title)
         record = dict(id=path.name[:6], title=title, words=len(spoken.split()),
+                      transcript_sha256=hashlib.sha256(spoken.encode('utf-8')).hexdigest(),
                       page_count=len(pages), page_chars=self.page_chars,
                       pagination_version=PAGINATION_VERSION,
                       source_modified=path.stat().st_mtime,

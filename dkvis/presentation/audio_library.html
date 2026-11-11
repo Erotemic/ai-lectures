@@ -19,6 +19,7 @@
 .queue-list li{display:flex;justify-content:space-between;align-items:center;gap:9px;flex-wrap:wrap;border-top:1px solid var(--border);padding:9px 0}
 .queue-list li button{padding:5px 9px;font-size:.82rem}
 #stopGeneration{padding:6px 10px;font-size:.84rem}
+.feedback-panel{padding:18px 22px;margin:0 0 20px;border:1px solid var(--border);border-radius:12px;background:var(--side)}.feedback-panel label{display:block;font-weight:650}.feedback-panel textarea{display:block;width:100%;min-height:110px;resize:vertical;background:var(--panel);border:1px solid var(--border);border-radius:9px;color:var(--text);font:inherit;line-height:1.55;padding:11px 12px;margin:10px 0}.feedback-panel textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.feedback-panel .row{margin-top:9px}#feedbackMessage{white-space:pre-wrap}
 </style>
 </head>
 <body>
@@ -61,6 +62,12 @@
 <button id="registerVoice" type="button">Register voice</button></div><p id="registerMessage" class="subtle" role="status"></p>
 </details></div></div>
 </div>
+<form class="feedback-panel" id="feedbackForm">
+  <label for="feedbackText">Lecture feedback</label>
+  <p id="feedbackContext" class="subtle">For the selected lecture and page</p>
+  <textarea id="feedbackText" rows="4" maxlength="10000" required placeholder="What was unclear, incorrect, or helpful? Mention a word or equation if pronunciation needs correction."></textarea>
+  <div class="row"><button type="submit" id="feedbackSave" class="primary">Save feedback</button><span class="subtle" id="feedbackMessage" role="status" aria-live="polite"></span></div>
+</form>
 <div class="learning-layout" id="learningLayout">
 <section class="slides-panel" id="slidesPanel" aria-label="Linked companion slides">
 <div class="row space"><strong>Companion slides</strong><span id="slidesInfo" class="subtle"></span></div>
@@ -79,7 +86,7 @@
 'use strict';
 const $ = id => document.getElementById(id);
 const audio = $('audio');
-const state = {track:'g2', items:[], doc:null, page:0, token:0, audioId:'', cacheJob:0, playing:false, profile:null, voiceRequest:0, segments:[], sentenceNodes:[], segmentsByPage:[], nodesByPage:[], pageSections:[], activeSentence:-1, durations:[], pendingSeekFraction:null, scrubbing:false, companionDecks:[], slideBusy:false, slideToken:0, pageTimings:null, pendingSeekSentence:null, inventoryBusy:false, inventoryToken:0, catalogToken:0, cacheCatalog:new Map(), catalogFetched:0};
+const state = {track:'g2', items:[], doc:null, page:0, token:0, audioId:'', loadedAudioKey:null, cacheJob:0, playing:false, profile:null, voiceRequest:0, segments:[], sentenceNodes:[], segmentsByPage:[], nodesByPage:[], pageSections:[], activeSentence:-1, durations:[], pendingSeekFraction:null, scrubbing:false, companionDecks:[], slideBusy:false, slideToken:0, pageTimings:null, pendingSeekSentence:null, inventoryBusy:false, inventoryToken:0, catalogToken:0, cacheCatalog:new Map(), catalogFetched:0};
 const saved = (key, fallback) => {try {return JSON.parse(localStorage.getItem('dkps-audio-'+key)) ?? fallback} catch {return fallback}};
 const remember = (key, val) => {try {localStorage.setItem('dkps-audio-'+key, JSON.stringify(val))} catch {}};
 const sleep = ms => new Promise(ok => setTimeout(ok,ms));
@@ -88,6 +95,71 @@ async function api(path, options){const res=await fetch(path,options); if(!res.o
 function settings(){return {track:state.track,profile:$('profile').value,voice:$('voice').value.trim(),speed:Number($('ttsSpeed').value)}}
 function query(){const p=new URLSearchParams(settings());return p.toString()}
 function pageUrl(page){return `/api/audio-lectures/${state.doc.id}/pages/${page}`}
+// Feedback drafts follow the lecture and selected narrator, not the currently
+// selected speech page. The page and recording are captured on first typing.
+let feedbackKey=null, feedbackDraft={text:'',context:null}, feedbackSaving=false;
+function feedbackStorageKey(){
+  if(!state.doc)return null;
+  const s=settings();
+  return JSON.stringify([state.track,state.doc.id,s.profile,s.voice,s.speed]);
+}
+function captureFeedbackContext(){
+  if(!state.doc)return null;
+  const s=settings();
+  const loaded=Boolean(state.audioId&&state.loadedAudioKey&&audio.currentSrc);
+  return {track:state.track,lecture_id:state.doc.id,page_index:state.page,
+    transcript_sha256:state.doc.transcript_sha256,profile:s.profile,voice:s.voice,speed:s.speed,
+    audio_key:loaded?state.loadedAudioKey:null,
+    playback_seconds:loaded&&Number.isFinite(audio.currentTime)?audio.currentTime:null};
+}
+function showFeedbackContext(){
+  const context=feedbackDraft.context||captureFeedbackContext();
+  if(!context)return;
+  const parts=[context.track.toUpperCase(),`lecture ${context.lecture_id}`,
+    `speech page ${context.page_index+1}`,`${context.profile} / ${context.voice}`];
+  if(context.playback_seconds!==null&&context.playback_seconds!==undefined){
+    parts.push(`at ${clock(context.playback_seconds)}`);
+  }
+  $('feedbackContext').textContent='For '+parts.join(' · ');
+}
+function loadFeedback(){
+  feedbackKey=feedbackStorageKey();
+  const draft=feedbackKey?saved('feedback-'+feedbackKey,{}):{};
+  feedbackDraft={text:typeof draft?.text==='string'?draft.text:'',
+    context:draft?.context&&typeof draft.context==='object'?draft.context:null};
+  $('feedbackText').value=feedbackDraft.text;
+  $('feedbackMessage').textContent='';
+  showFeedbackContext();
+}
+$('feedbackText').oninput=()=>{
+  if(!feedbackKey)return;
+  const text=$('feedbackText').value;
+  feedbackDraft={text,context:text?(feedbackDraft.context||captureFeedbackContext()):null};
+  remember('feedback-'+feedbackKey,feedbackDraft);
+  showFeedbackContext();
+};
+$('feedbackForm').onsubmit=async event=>{
+  event.preventDefault();
+  if(feedbackSaving||!state.doc||!feedbackKey)return;
+  const text=$('feedbackText').value.trim();
+  if(!text)return;
+  const key=feedbackKey, context=feedbackDraft.context||captureFeedbackContext();
+  const payload={kind:'tts_audio',...context,text};
+  feedbackSaving=true;$('feedbackSave').disabled=true;$('feedbackMessage').textContent='Saving…';
+  try{
+    const receipt=await api('/api/feedback',{method:'POST',
+      headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+    if(feedbackKey===key&&$('feedbackText').value.trim()===text){
+      feedbackDraft={text:'',context:null};$('feedbackText').value='';
+      remember('feedback-'+key,feedbackDraft);showFeedbackContext();
+    }else{
+      const stored=saved('feedback-'+key,{});
+      if(stored?.text?.trim()===text)remember('feedback-'+key,{text:'',context:null});
+    }
+    if(feedbackKey===key)$('feedbackMessage').textContent='Feedback saved · '+new Date(receipt.created_at).toLocaleString();
+  }catch(error){if(feedbackKey===key)$('feedbackMessage').textContent=error.message}
+  finally{feedbackSaving=false;$('feedbackSave').disabled=false}
+};
 function highlight(){document.querySelectorAll('#list button').forEach(b=>b.setAttribute('aria-current',String(b.dataset.id===state.doc?.id)))}
 function cacheLabel(id){
   const entry=state.cacheCatalog.get(id);
@@ -290,7 +362,7 @@ function selectPage(index,start=false,fraction=0,sentenceIndex=null){
   if(!state.doc)return;
   index=Math.max(0,Math.min(state.doc.pages.length-1,index));
   state.token++;state.page=index;state.playing=false;
-  audio.pause();audio.removeAttribute('src');audio.load();state.audioId='';
+  audio.pause();audio.removeAttribute('src');audio.load();state.audioId='';state.loadedAudioKey=null;
   state.pendingSeekFraction=start?fraction:null;
   state.pendingSeekSentence=start?sentenceIndex:null;
   state.pageTimings=null;
@@ -304,7 +376,7 @@ function selectPage(index,start=false,fraction=0,sentenceIndex=null){
   $('play').textContent='▶ Play page';
   setStatus('Page selected. Press Play to generate or replay.');
   remember('page-'+state.track+'-'+state.doc.id,index);
-  updateTranscriptFocus();
+  updateTranscriptFocus();showFeedbackContext();
   if(start)playPage();
 }
 function activeDeck(){return state.companionDecks.find(x=>x.id===$('slideDeckSelect').value)||state.companionDecks[0]||null}
@@ -356,7 +428,7 @@ const panel=$('referencePanel'),list=$('references');list.replaceChildren();pane
 for(const source of doc.related_resources||[]){const li=document.createElement('li'),link=document.createElement('a');link.href=source.url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=source.title;li.append(link);const why=document.createElement('span');why.className='subtle';why.textContent=source.reason;li.append(why);list.append(li)}
 const graphList=$('connections'),graphPanel=$('connectionPanel');graphList.replaceChildren();graphPanel.hidden=!doc.course_connections?.length;
 for(const connection of doc.course_connections||[]){const li=document.createElement('li');const label=document.createElement('span');label.textContent=`${connection.direction==='incoming'?'Referenced by':'Relation'}: ${connection.type.replaceAll('_',' ')} - `;li.append(label);const link=document.createElement('a');link.textContent=connection.title+' ('+connection.node_id+')';link.href=connection.url||('/learning-paths?'+new URLSearchParams({track:connection.node_id.split(':')[0],node:connection.node_id}));li.append(link);graphList.append(li)}
-selectPage(Number(saved('page-'+state.track+'-'+id,0))||0);highlight();refreshInventory();}catch(err){if(token===state.token){$('loading').textContent='Could not load lecture: '+err.message}}}
+selectPage(Number(saved('page-'+state.track+'-'+id,0))||0);loadFeedback();highlight();refreshInventory();}catch(err){if(token===state.token){$('loading').textContent='Could not load lecture: '+err.message}}}
 function formatGenerationStatus(status){
   if(!status)return 'Preparing speech…';
   const stateName=status.state==='rendering'?
@@ -460,7 +532,7 @@ async function ensurePage(lectureId, page, config, onStatus=()=>{}, purpose='pla
   }
   throw Error('Speech generation has not completed. Try the page again.');
 }
-async function playPage(){if(!state.doc)return;const docId=state.doc.id,index=state.page,config=settings(),token=++state.token;const identifier=JSON.stringify([docId,index,config]);if(state.audioId===identifier && audio.src){try{await audio.play();state.playing=true;$('play').textContent='❚❚ Pause'}catch(err){setStatus('Playback: '+err.message,true)}return}state.playing=true;$('play').disabled=true;setStatus('Preparing speech…');try{const result=await ensurePage(docId,index,config,status=>{if(token===state.token)setStatus(formatGenerationStatus(status))},'playback',()=>token===state.token);if(token!==state.token||state.doc?.id!==docId)return;state.pageTimings=result.timings||null;audio.src=result.url;audio.playbackRate=Number($('rate').value);state.audioId=identifier;await audio.play();if(token!==state.token)return;$('play').textContent='❚❚ Pause';setStatus('Playing page '+(index+1));if($('prefetch').checked && index+1<state.doc.pages.length){ensurePage(docId,index+1,config,()=>{},'prefetch',()=>docId===state.doc?.id&&token===state.token).catch(()=>{});}}catch(err){if(token===state.token){state.playing=false;setStatus(err.message,true);$('play').textContent='▶ Retry page'}}finally{if(token===state.token)$('play').disabled=false}}
+async function playPage(){if(!state.doc)return;const docId=state.doc.id,index=state.page,config=settings(),token=++state.token;const identifier=JSON.stringify([docId,index,config]);if(state.audioId===identifier && audio.src){try{await audio.play();state.playing=true;$('play').textContent='❚❚ Pause'}catch(err){setStatus('Playback: '+err.message,true)}return}state.playing=true;$('play').disabled=true;setStatus('Preparing speech…');try{const result=await ensurePage(docId,index,config,status=>{if(token===state.token)setStatus(formatGenerationStatus(status))},'playback',()=>token===state.token);if(token!==state.token||state.doc?.id!==docId)return;state.pageTimings=result.timings||null;state.loadedAudioKey=result.key;audio.src=result.url;audio.playbackRate=Number($('rate').value);state.audioId=identifier;showFeedbackContext();await audio.play();if(token!==state.token)return;$('play').textContent='❚❚ Pause';setStatus('Playing page '+(index+1));if($('prefetch').checked && index+1<state.doc.pages.length){ensurePage(docId,index+1,config,()=>{},'prefetch',()=>docId===state.doc?.id&&token===state.token).catch(()=>{});}}catch(err){if(token===state.token){state.playing=false;setStatus(err.message,true);$('play').textContent='▶ Retry page'}}finally{if(token===state.token)$('play').disabled=false}}
 function togglePlay(){if(!state.doc)return;if(!audio.paused&&audio.src){audio.pause();state.playing=false;$('play').textContent='▶ Resume';return}playPage()}
 async function cacheAll(){
   if(!state.doc)return;
@@ -493,7 +565,7 @@ async function refreshVoices(profile, restore=true){
 async function switchProfile(profile){
   remember('profile',profile);
   state.cacheJob++;state.inventoryToken++;state.cacheCatalog=new Map();$('generateAll').disabled=false;$('cacheCount').textContent='';
-  try{await refreshVoices(profile);if(state.doc){loadDurations();selectPage(state.page);refreshInventory();refreshCacheCatalog()}}catch(err){setStatus('Could not load voices: '+err.message,true)}
+  try{await refreshVoices(profile);if(state.doc){loadDurations();selectPage(state.page);loadFeedback();refreshInventory();refreshCacheCatalog()}}catch(err){setStatus('Could not load voices: '+err.message,true)}
 }
 $('profile').onchange=()=>switchProfile($('profile').value);
 $('registerVoice').onclick=async()=>{
@@ -510,7 +582,7 @@ $('lectureProgress').oninput=()=>{state.scrubbing=true;const pos=progressModel()
 $('lectureProgress').onchange=()=>{const fraction=Number($('lectureProgress').value)/10000;state.scrubbing=false;seekLectureFraction(fraction)};
 async function switchTrack(track){
   if(track!=='g2'&&track!=='g3')return;
-  state.track=track;state.inventoryToken++;state.catalogToken++;state.cacheCatalog=new Map();state.token++;state.cacheJob++;state.doc=null;state.items=[];state.audioId='';
+  state.track=track;state.inventoryToken++;state.catalogToken++;state.cacheCatalog=new Map();state.token++;state.cacheJob++;state.doc=null;state.items=[];state.audioId='';state.loadedAudioKey=null;
   audio.pause();audio.removeAttribute('src');audio.load();$('content').hidden=true;$('empty').hidden=true;
   $('loading').hidden=false;$('loading').textContent='Loading '+track.toUpperCase()+' lectures…';
   document.querySelectorAll('[data-track]').forEach(b=>b.setAttribute('aria-current',b.dataset.track===track?'page':'false'));
@@ -533,7 +605,7 @@ $('stopGeneration').onclick=()=>stopJobsForLecture(state.doc?.id);
 $('search').oninput=renderList;$('prev').onclick=()=>selectPage(state.page-1);$('next').onclick=()=>selectPage(state.page+1);$('pages').oninput=()=>selectPage(Number($('pages').value)-1);$('play').onclick=togglePlay;$('generateAll').onclick=cacheAll;
 audio.addEventListener('timeupdate',updateTranscriptFocus);audio.addEventListener('seeked',updateTranscriptFocus);audio.addEventListener('loadedmetadata',()=>{recordPageDuration();if(Number.isFinite(audio.duration)&&audio.duration>0){if(state.pendingSeekSentence!==null){state.pendingSeekFraction=sentenceStartFraction(state.pendingSeekSentence);state.pendingSeekSentence=null;}if(state.pendingSeekFraction!==null){audio.currentTime=Math.min(audio.duration-.01,audio.duration*state.pendingSeekFraction);state.pendingSeekFraction=null;}}updateTranscriptFocus()});
 audio.onended=()=>{if(!audio.ended||!state.audioId||!state.doc)return;updateLectureProgress();state.playing=false;$('play').textContent='▶ Play page';if($('autoNext').checked&&state.page<state.doc.pages.length-1){selectPage(state.page+1,true)}else setStatus('Page finished.')};audio.onpause=()=>{if(audio.src&&!audio.ended){$('play').textContent='▶ Resume'}};audio.onplay=()=>{$('play').textContent='❚❚ Pause'};audio.onerror=()=>setStatus('The browser could not play this audio page.',true);
-for(const id of ['voice','ttsSpeed']){$(id).addEventListener('change',()=>{remember(id==='voice'?'voice-'+(state.profile||'default'):id,$(id).value);state.cacheJob++;$('generateAll').disabled=false;$('cacheCount').textContent='';if(state.doc){state.inventoryToken++;loadDurations();selectPage(state.page);refreshInventory();refreshCacheCatalog()}})}for(const id of ['rate','autoNext','prefetch','followText']){$(id).addEventListener('change',()=>{remember(id,$(id).type==='checkbox'?$(id).checked:$(id).value);if(id==='rate'){audio.playbackRate=Number($('rate').value);updateLectureProgress()}})}
+for(const id of ['voice','ttsSpeed']){$(id).addEventListener('change',()=>{remember(id==='voice'?'voice-'+(state.profile||'default'):id,$(id).value);state.cacheJob++;$('generateAll').disabled=false;$('cacheCount').textContent='';if(state.doc){state.inventoryToken++;loadDurations();selectPage(state.page);loadFeedback();refreshInventory();refreshCacheCatalog()}})}for(const id of ['rate','autoNext','prefetch','followText']){$(id).addEventListener('change',()=>{remember(id,$(id).type==='checkbox'?$(id).checked:$(id).value);if(id==='rate'){audio.playbackRate=Number($('rate').value);updateLectureProgress()}})}
 async function init(){
   for(const id of ['ttsSpeed','rate']){$(id).value=saved(id,'1')};
   for(const id of ['autoNext','prefetch'])$(id).checked=Boolean(saved(id,true));

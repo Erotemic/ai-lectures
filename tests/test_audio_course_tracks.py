@@ -92,3 +92,25 @@ def test_g3_learning_resources_reference_existing_catalog(tmp_path):
         assert all(row['url'].startswith('https://') for row in g3['related_resources'])
     finally:
         hub.close()
+
+
+def test_audio_feedback_uses_selected_course_track(tmp_path):
+    hub = AudioLectureHub(cache=tmp_path/'cache', profile='kokoro')
+    renders = tmp_path/'renders'
+    renders.mkdir()
+    with TestClient(create_app(renders, audio_library=hub)) as client:
+        g2 = client.get('/api/audio-lectures/000000?track=g2').json()
+        g3 = client.get('/api/audio-lectures/000000?track=g3').json()
+        payload = dict(kind='tts_audio', track='g3', lecture_id='000000',
+                       page_index=0, transcript_sha256=g3['transcript_sha256'],
+                       profile='kokoro', voice=hub.default_voice, speed=1.0,
+                       audio_key=None, playback_seconds=None,
+                       text='The opening of the paper track could use another example.')
+        response = client.post('/api/feedback', json=payload)
+        assert response.status_code == 201, response.text
+        saved = json.loads((tmp_path/'feedback'/(response.json()['id']+'.json')).read_text())
+        assert saved['track'] == 'g3' and saved['title'] == g3['title']
+        assert saved['transcript_sha256'] == g3['transcript_sha256']
+        assert client.post('/api/feedback', json={**payload, 'track': 'g2'}).status_code == 409
+        assert client.post('/api/feedback', json={**payload,
+            'transcript_sha256': g2['transcript_sha256']}).status_code == 409

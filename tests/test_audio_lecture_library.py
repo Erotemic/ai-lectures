@@ -1439,3 +1439,74 @@ def test_reader_status_preserves_upstream_wait_estimate_source(audio_site, monke
         assert 'eta_seconds' not in status
     finally:
         release.set()
+
+
+def test_audio_feedback_preserves_page_source_and_voice_context(audio_site):
+    import hashlib
+    import json
+    client, lecture_path, library, _calls = audio_site
+    assert 'Lecture feedback' in client.get('/audio').text
+    doc = client.get('/api/audio-lectures/123000').json()
+    payload = dict(kind='tts_audio', track='g2', lecture_id=doc['id'],
+                   page_index=1, transcript_sha256=doc['transcript_sha256'],
+                   profile=library.profile, voice='af_heart', speed=1.0,
+                   audio_key=None, playback_seconds=None,
+                   text='Please explain the second-page calculation.')
+    before = client.post('/api/feedback', json=payload)
+    assert before.status_code == 201, before.text
+    # The media render directory and the audio cache do not contain submissions.
+    feedback_root = library.cache.parent / 'feedback'
+    initial = json.loads((feedback_root / (before.json()['id'] + '.json')).read_text())
+    assert initial['kind'] == 'tts_audio'
+    assert initial['track'] == 'g2' and initial['lecture_id'] == '123000'
+    assert initial['page_index'] == 1 and initial['audio'] is None
+    assert initial['speech'] == dict(model=library.model, profile=library.profile,
+                                     voice='af_heart', speed=1.0)
+    assert initial['page_sha256'] == hashlib.sha256(doc['pages'][1].encode()).hexdigest()
+    assert initial['transcript_sha256'] == doc['transcript_sha256']
+
+    ready_page = ready(client, 1)
+    with_audio = {**payload, 'text': 'Pause at this pronunciation.',
+                  'audio_key': ready_page['key'], 'playback_seconds': 12.25}
+    response = client.post('/api/feedback', json=with_audio)
+    assert response.status_code == 201, response.text
+    stored = json.loads((feedback_root / (response.json()['id'] + '.json')).read_text())
+    assert stored['playback_seconds'] == 12.25
+    assert stored['audio']['key'] == ready_page['key']
+    assert stored['audio']['sha256'] == hashlib.sha256(library.audio_file(
+        '123000', 1, library.settings('af_heart', 1.0)).read_bytes()).hexdigest()
+    assert stored['audio']['voice'] == 'af_heart'
+    assert json.loads((feedback_root / (before.json()['id'] + '.json')).read_text()) == initial
+
+    # The generation identity is bound to the selected narrator and source text.
+    assert client.post('/api/feedback', json={**with_audio, 'voice': 'af_alloy'}).status_code == 409
+    assert client.post('/api/feedback', json={**with_audio, 'audio_key': '0' * 64}).status_code == 409
+    lecture_path.write_text(lecture_path.read_text() + '\n<!-- a later revision -->\n')
+    # Non-spoken edits do not change the narration fingerprint.
+    assert client.post('/api/feedback', json=payload).status_code == 201
+    lecture_path.write_text(lecture_path.read_text().replace('We study a linear operator.',
+        'We study a substantially revised linear operator.'))
+    assert client.post('/api/feedback', json=payload).status_code == 409
+    assert json.loads((feedback_root / (response.json()['id'] + '.json')).read_text()) == stored
+
+
+def test_audio_feedback_rejects_invalid_context_without_writing(audio_site):
+    client, _lecture, library, _calls = audio_site
+    doc = client.get('/api/audio-lectures/123000').json()
+    payload = dict(kind='tts_audio', track='g2', lecture_id='123000',
+                   page_index=0, transcript_sha256=doc['transcript_sha256'],
+                   profile=library.profile, voice='af_heart', speed=1.0,
+                   audio_key=None, playback_seconds=None, text='A useful note')
+    for update, status in [
+        ({'track': 'g3'}, 400), ({'track': '../g2'}, 400),
+        ({'lecture_id': '111111'}, 404), ({'page_index': 999}, 404),
+        ({'page_index': True}, 400), ({'page_index': '0'}, 400),
+        ({'transcript_sha256': '0' * 64}, 409),
+        ({'voice': '!invalid'}, 400), ({'speed': -1}, 400),
+        ({'playback_seconds': -1}, 400), ({'playback_seconds': 5}, 400),
+        ({'audio_key': '../audio.mp3'}, 400),
+        ({'text': ' '}, 400), ({'text': 'x' * 10001}, 400),
+    ]:
+        response = client.post('/api/feedback', json={**payload, **update})
+        assert response.status_code == status, (update, response.text)
+    assert not (library.cache.parent / 'feedback').exists()

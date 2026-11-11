@@ -319,3 +319,24 @@ from speech and final muxing. Timeline entries retain `visual_source`, `visual`
 and `animation_cues`. The retimed visual's sidecar includes the measured schedule
 and alignment key. Keep cue phrases unique within their build and source offsets
 strictly increasing. Re-render changed scene clips before changing these offsets.
+
+### Feedback on on-demand audio lectures (G2 and G3)
+
+The audio player at `/audio` now has the same **Lecture feedback** form as the
+visual lecture player. Open G2 or G3, select a speech page, and type a note.
+The first keystroke captures the track, lecture, page, voice, TTS profile,
+speech-generation speed, and playback position when a generated page is loaded.
+A page can receive feedback before its audio has been generated; in that case
+only the lecture/page context is saved. Changing pages after typing begins does
+not silently retarget the draft.
+
+**Save feedback** writes a new JSON record under the same private `feedback/`
+directory used by the visual player. Records contain the spoken-text and page
+fingerprints; generated-page feedback additionally includes the audio cache
+identity and audio SHA-256. A source edit or regeneration that invalidates the
+captured identity prevents stale submissions. Browser-local drafts are keyed
+by track, lecture, TTS profile, voice, and synthesis speed, and survive page
+and lecture switching. A failed save retains the draft.
+
+Both players use `/api/feedback` and the server's `--feedback-directory` option.
+This does not require re-synthesizing speech or changing the lecture sources.
