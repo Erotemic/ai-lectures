@@ -8,7 +8,7 @@ Consider a three-dimensional vector with horizontal, vertical, and depth coordin
 
 This is the distinction between an *invariant* subspace, which the operator maps into itself, and a *reducing* subspace, whose perpendicular complement is also invariant. When both pieces are preserved, the operator is block diagonal. Otherwise its off-diagonal blocks record exactly which directions cross between the pieces.
 
-This construction is important because the Davis–Kahan theorems often distinguish a perturbation that acts *within* a spectral subspace from one that moves vectors *between* two spectral subspaces. A block decomposition lets us say exactly what those two effects are. For now, the central objects are the diagonal and off-diagonal blocks of an operator. First we need to know how the blocks are made.
+Davis–Kahan bounds distinguish a perturbation acting within a spectral subspace from coupling across its complement. A block decomposition lets us say exactly what those two effects are. The diagonal blocks describe action within each part; the off-diagonal blocks describe crossing between them.
 
 ## One vector, two perpendicular components
 
@@ -72,6 +72,12 @@ For our numerical example, pinching removes the two threes. The resulting diagon
 
 We have two separate questions now. Does the whole operator have crossing blocks? And does the operator have within-subspace blocks? The words *reducing* and *off-diagonal* answer different questions, as our examples show.
 
+### Invariance can be one-way
+
+Consider a plane operator that sends x comma y to two x plus y comma three y. Start with a horizontal vector: the second output coordinate is zero, so the horizontal axis is invariant. Start with a vertical vector instead: the output has a horizontal component one, so the vertical axis is not invariant.
+
+The block that crosses from horizontal input to vertical output vanishes, but the reverse block does not. We can therefore say the horizontal axis is invariant without saying that it reduces the operator. If we insist that the operator be self-adjoint, however, the two crossing blocks are adjoints. They must vanish together. This explains why self-adjoint spectral subspaces are reducing rather than merely invariant.
+
 ## How the adjoint changes the blocks
 
 The block picture becomes even more powerful when T has an adjoint. Recall that taking an adjoint reverses the direction of a map: a block taking M into M perp becomes an adjoint block taking M perp into M.
@@ -104,13 +110,15 @@ For the symmetric two-by-two matrix with diagonal entries zero and five, and off
 
 Now apply the reflection that preserves the horizontal axis and reverses the vertical axis. The diagonal entries remain zero and five, while both off-diagonal entries change sign. Conjugating the matrix by that reflection changes t to negative t without altering the eigenvalues.
 
-This symmetry is more useful than a block notation alone. It provides the algebraic reflection behind the doubled-angle estimates. It also reveals why a perturbation restricted to diagonal blocks has a different effect from one that only couples the blocks.
+The reflection isolates the coupling that drives doubled-angle estimates. Changing diagonal energies has a different effect.
 
 <!-- END SPOKEN LECTURE -->
 
 ---
 
 ## Companion: mathematical statements and Lean correspondence (display only)
+
+**One-way invariance.** For \(T=\begin{pmatrix}2&1\\0&3\end{pmatrix}\) and \(M=\operatorname{span}(e_1)\), \(T(M)\subseteq M\), while \(T(e_2)=e_1+3e_2\notin M^\perp\). Thus the horizontal axis is invariant but not reducing; a self-adjoint operator cannot exhibit this one-sided crossing for an orthogonal splitting.
 
 Let \(H=M\oplus M^\perp\) with orthogonal projections \(P\) and \(Q=I-P\). For bounded \(T:H\to H\), relative to this splitting,
 

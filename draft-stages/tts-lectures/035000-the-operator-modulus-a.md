@@ -66,6 +66,12 @@ But the modulus produces an output along the diagonal of the input plane. A prod
 
 That is the separation we wanted.
 
+### Check a single direction before the formula
+
+Return to the map that sends x comma y to x plus y comma zero. Use the unit diagonal input with both coordinates equal to one over the square root of two. The original map sends it to the horizontal vector of length square root of two.
+
+The modulus instead sends that same unit diagonal input to a diagonal vector of length square root of two. In contrast, the unit anti-diagonal input is sent to zero by both maps. This is the whole story in two directions: one survives with the same stretching factor, the other is lost. The Gram eigenvectors tell us which directions to test; the modulus tells us their stretching without choosing output directions.
+
 ## Three examples that test the definition
 
 First, suppose A is itself a positive operator on E. It is already the unique positive square root of A squared. Because A adjoint equals A, the modulus of A equals A. A positive operator has no sign or orientation change for the modulus to remove.

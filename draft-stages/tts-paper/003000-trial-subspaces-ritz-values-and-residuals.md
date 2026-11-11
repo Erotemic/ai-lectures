@@ -74,6 +74,10 @@ If A zero equals M, the internal discrepancy disappears. But in perturbation arg
 
 Take the example where A is diagonal with entries zero and five. Let the trial unit vector make an angle theta with the horizontal axis. If A zero is multiplication by zero, the general residual has length five times the sine of theta. If instead A zero is the Ritz value five sine squared theta, the residual length is five times the absolute value of sine theta times cosine theta.
 
+At thirty degrees, the two residual lengths are two and a half, and approximately two point one six five. The Ritz value is one and a quarter. That means the distance from the Ritz value to the unwanted exact eigenvalue five is three and three quarters. Dividing the Ritz residual length by that gap gives about zero point five seven seven, a valid bound on the actual sine of the angle, which is one half.
+
+Notice the tradeoff. The Ritz residual is smaller because its trial-space component has been removed. But its associated gap is also smaller. A residual bound is meaningful only after we name the spectral block whose separation supplies its denominator.
+
 These are two different residuals for the same trial line. Both are mathematically valid. Their associated spectral gaps to the exact complement differ, so a theorem must pair each residual with its own specified trial operator.
 
 ## Make the exact subspace explicit
@@ -101,6 +105,8 @@ Projection of the residual onto the exact complementary subspace produces a Sylv
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+**One trial line, two denominators.** For \(A=\operatorname{diag}(0,5)\), \(u=(\sqrt3/2,1/2)\), \(M=u^*Au=5/4\), and \(E:t\mapsto tu\): \(\|AE\|=5/2\), while \(\|AE-EM\|=5\sqrt3/4\). Comparing the Ritz scalar \(5/4\) with the unwanted eigenvalue \(5\) gives gap \(15/4\), so \(\sin(\pi/6)=1/2\le (5\sqrt3/4)/(15/4)=\sqrt3/3\). The non-Ritz choice \(A_0=0\) uses residual \(5/2\) and gap \(5\), giving equality.
+
 
 For a finite-dimensional isometry `E : F → H`, define `P=EE*`, `M=E*AE`, and `R=AE−EM`. Then `E*R=0` and `R=(I−P)AE`. For an arbitrary trial operator `A₀`, `R₀=AE−EA₀=R+E(M−A₀)`; the two summands have orthogonal ranges. With unbounded `A`, use common-domain hypotheses before asserting a bounded extension.
 

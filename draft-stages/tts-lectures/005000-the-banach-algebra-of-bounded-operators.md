@@ -44,11 +44,15 @@ Start with a very simple example on the plane. Let T halve horizontal coordinate
 
 Watch what happens if we try to build that inverse by repeated corrections. Start with the identity. Add T. Add T composed with T. Then add T applied three times, and so on. On a horizontal input, these terms contribute one, one half, one quarter, one eighth, and so forth. Their total is two. On a vertical input, T and all its later powers vanish, leaving one. We recover the inverse exactly.
 
+Pause at the third partial sum on the horizontal axis. Keeping the identity, T, and T squared gives a multiplier of one and three quarters. The exact inverse gives two. The missing quarter is the entire remaining tail, not a mysterious error from matrix algebra. Every new power of T halves that tail.
+
 Now prove this in general. Because the norm of a product is at most the product of the norms, the norm of T applied n times is at most the nth power of the norm of T. The operator norms of the powers are therefore bounded by an ordinary geometric series with ratio smaller than one.
 
 That geometric series has a finite sum. Our Banach-algebra completeness theorem tells us that the infinite series of operator powers converges in operator norm. Call its limit S.
 
-Multiply a finite partial sum by identity minus T. All intermediate terms cancel: the first identity remains, and we subtract the final power of T. As we include more terms, that final power tends to zero in operator norm. Passing to the limit gives identity minus T, composed with S, equals the identity.
+Multiply a finite partial sum by identity minus T. All intermediate terms cancel: the first identity remains, and we subtract the final power of T. As we include more terms, that final power tends to zero in operator norm. The difference between the infinite inverse and the partial sum through the n-th power has norm at most the n-plus-first power of the norm of T, divided by one minus that norm. This bound tells us how many corrections are needed for a specified accuracy.
+
+Passing to the limit gives identity minus T, composed with S, equals the identity.
 
 The cancellation also works in the opposite multiplication order, because all the terms are powers of the same T. Thus S is a two-sided inverse.
 
@@ -88,6 +92,8 @@ For a Banach space \(E\), \(\mathcal B(E)=\{T:E\to E:T\text{ linear and bounded}
 \|(I-T)^{-1}\|\le\frac1{1-\|T\|}.
 \]
 For an invertible bounded operator \(A\), if \(\|A^{-1}H\|<1\), then \(A+H=A(I+A^{-1}H)\) is invertible. The multiplication order matters.
+
+**Finite correction error.** If \(\|T\|=q<1\) and \(S_N=\sum_{k=0}^N T^k\), then \((I-T)S_N=I-T^{N+1}\) and \(\|(I-T)^{-1}-S_N\|\le q^{N+1}/(1-q)\). For \(T=\operatorname{diag}(1/2,0)\), \(S_2=\operatorname{diag}(7/4,1)\) and the exact inverse is \(\operatorname{diag}(2,1)\).
 
 **Lean bridge.** `DavisKahan/Sources/DavisKahan1970/DoubleAngleTangentOperator.lean` uses the Neumann-series construction in a later, more specialized proof. This excerpt is from the proof of `norm_ringInverse_doubleAngleDenominator_le`:
 

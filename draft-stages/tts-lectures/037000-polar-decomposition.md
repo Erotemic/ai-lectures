@@ -100,9 +100,9 @@ Polar decomposition also explains canonical alignment between subspaces: the pos
 
 It also separates two quantities that appear throughout operator theory: the positive operator that records singular values, and the partial isometry that records where surviving vectors go. This separation extends to bounded operators on Hilbert spaces. In infinite dimensions the initial space is the closure of the modulus range, and the polar factor is defined there by continuous extension before being set to zero on its orthogonal complement.
 
-One last reconstruction. Without looking at a formula, explain how to define U on the range of the modulus. Explain why that definition is unambiguous. Explain why it preserves length there. Then explain what happens on the kernel.
+Return to the map that takes the vertical component, doubles it, and places it horizontally. The modulus handles the doubling while staying on the vertical axis. The polar factor carries the stretched vertical vector to the horizontal axis without changing its length. The horizontal input, which the original map kills, is also killed by the canonical polar factor.
 
-If you can give those four arguments, you can recover the polar decomposition on your own.
+The construction is determined because the kernel has been accounted for and because two inputs with the same modulus image have the same original output. In that way, the equation A equals U times its modulus follows from a geometric rule that is both well-defined and length-preserving on surviving directions.
 
 <!-- END SPOKEN LECTURE -->
 

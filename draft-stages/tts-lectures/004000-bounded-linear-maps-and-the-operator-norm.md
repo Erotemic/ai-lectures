@@ -67,6 +67,14 @@ Therefore differentiation is not bounded as a map from this polynomial space to 
 
 We will eventually study operators like differentiation on carefully chosen domains. That is why the distinction between linear and bounded is fundamental, and why an operator's domain cannot be treated as an irrelevant technicality.
 
+### One linear rule that defeats every bound
+
+The word bounded can sound as if it only rules out matrices with very large entries. Consider instead the vector space of real polynomials on the interval from zero to one, with size measured by the maximum absolute value of a polynomial on that interval. Differentiation sends each polynomial to another polynomial, so it is a perfectly good linear rule on this space.
+
+Take the polynomial that raises the input coordinate to the n-th power. Every one of these polynomials has maximum absolute value one on the interval. But its derivative, evaluated at the endpoint one, equals n. The derivative's maximum absolute value is therefore at least n, however large n becomes.
+
+No fixed amplification constant can cover all of these inputs. Differentiation is linear on the polynomial space but unbounded for this choice of norm. It is the *uniform* control of every unit input that fails. This example also clarifies why a domain and a norm must be named before calling an operator bounded.
+
 ## Reconstruct the argument
 
 Try two questions before moving on.
@@ -84,6 +92,8 @@ The central conclusion is that boundedness, continuity, and uniform control of o
 ## Companion: symbolic facts and Lean correspondence (display only)
 
 For normed spaces \(E,F\) and a linear map \(T:E\to F\), boundedness means \(\exists M\ge0\,\forall x\;\|Tx\|\le M\|x\|\). For a linear map this is equivalent to continuity at zero, and hence continuity everywhere. The operator norm is \(\|T\|=\sup_{\|x\|=1}\|Tx\|\) when the unit sphere is nonempty; the defining supremum over \(\|x\|\le1\) also works for the zero space. For bounded maps \(T:E\to F\), \(S:F\to G\), \(\|S\circ T\|\le\|S\|\|T\|\).
+
+**A domain-sensitive example.** On the normed polynomial space \(\mathbb R[t]\) with \(\|p\|_\infty=\max_{0\le t\le1}|p(t)|\), differentiation \(D:p\mapsto p'\) is linear but not bounded: \(p_n(t)=t^n\) obeys \(\|p_n\|_\infty=1\) and \(\|Dp_n\|_\infty=n\). This is a map on the polynomial space; it is not an everywhere-defined derivative operator on \(C[0,1]\).
 
 **Lean bridge.** The codebase represents bounded linear maps as `E →L[𝕜] F`, not merely `E →ₗ[𝕜] F`. In the actual DKPS module `ForTauCeti/Analysis/Normed/Operator/Restriction.lean`, the theorem `ContinuousLinearMap.opNorm_codRestrict_eq` uses the following steps:
 

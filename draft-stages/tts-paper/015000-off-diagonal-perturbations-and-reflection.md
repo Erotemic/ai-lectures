@@ -62,6 +62,12 @@ Subtract S, and the result has zero diagonal entries and off-diagonal entries ne
 
 If h equals zero, the original subspace U remains invariant. If h is nonzero, the new eigenvectors tilt away from the coordinate axes even though the perturbation has zero diagonal compressions.
 
+### What the mirror comparison actually preserves
+
+In the two-dimensional example, reflection through the horizontal axis leaves the diagonal matrix T unchanged, while it reverses the signs of both off-diagonal entries of H. So conjugating T plus H by the reflection gives T minus H.
+
+Average those two mirror images and the coupling cancels, leaving T. Subtract them and the diagonal parts cancel, leaving twice the coupling. This does not prove a norm bound by itself. It identifies *which part* of the perturbed operator is responsible for moving eigenvectors, and it explains why the diagonal separation can survive even when the coupling is large.
+
 ## See repulsion in the eigenvalue formula
 
 The same two-by-two model gives an exact spectral calculation. Its diagonal entries are three and negative one, and both off-diagonal entries are h. The midpoint of the diagonal eigenvalues is one, and their half-gap is two.

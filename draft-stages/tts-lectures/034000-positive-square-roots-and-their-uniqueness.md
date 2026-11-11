@@ -70,6 +70,12 @@ That is the uniqueness proof. It does not assume in advance that B and P have co
 
 If we remove positivity, uniqueness fails immediately: the negative of S also squares to P. In our numerical example, the matrix with ones on the diagonal and twos off the diagonal also squares to P, but it has a negative eigenvalue. Positivity rules out these alternative signs.
 
+### A degeneracy that tests uniqueness
+
+The identity matrix provides a useful stress test. Every direction is an eigenvector with eigenvalue one, so there is no preferred eigenbasis. Its positive square root must nevertheless be the identity, because the nonnegative square root of that eigenvalue is one on *every* direction.
+
+There are other square roots of the identity. A reflection, for example, squares to the identity. But it has a negative eigenvalue, so it is not positive. This shows exactly how positivity resolves the apparent ambiguity: it chooses the nonnegative scalar square root on each spectral direction, even when the eigenspace contains many possible bases.
+
 ## What happens on zero eigenspaces?
 
 Suppose P has a zero eigenvalue. Our positive square root uses square root of zero, which is zero. So S vanishes on exactly the same eigendirections as P.

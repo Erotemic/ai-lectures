@@ -46,6 +46,12 @@ Those freedoms allow an orthogonal W whose rotation is concentrated into a singl
 
 The trace norm is especially sensitive to this redistribution because it adds displacement singular values linearly. Rotating two planes a little and rotating one plane more can have different trace costs, even if both transformations carry the same subspace to its target.
 
+### Separate a vector's travel from a line's travel
+
+Suppose a horizontal unit vector is rotated through sixty degrees. Its endpoint is one unit away from its starting point. The *line* containing that endpoint is also sixty degrees from the original line. But a reflection could map the horizontal line onto that same target line while sending the horizontal unit vector to a different endpoint on the target.
+
+The subspace constraint fixes the destination line, not which unit vector along that line must be chosen. In a single plane we can enumerate that freedom. In four dimensions, a competing orthogonal map can couple two principal planes, so its displacement singular values need not be the union of two independent planar lists. This is the point at which an argument about principal angles stops determining an ambient norm.
+
 ## Compare with Proposition four point three
 
 Why does the squared theorem not prohibit this? Consider two lists. The direct rotation may have four equal displacement singular values a. A competing orthogonal map may have two larger singular values b and two zeros.

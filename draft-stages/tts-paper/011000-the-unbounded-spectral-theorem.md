@@ -68,6 +68,14 @@ Likewise, the sequence with N-th coordinate one divided by N lies in the Hilbert
 
 These examples show why a spectral formula and its domain must always be stated together.
 
+### Watch a cutoff sequence in graph norm
+
+Return to the diagonal example with the n-th eigenvalue equal to n. For the input with n-th coordinate one over n squared, keep only the first N coordinates. The ordinary squared error is the sum of one over n to the fourth power beyond N. The squared error after applying A is the sum of one over n squared beyond N. Both tails tend to zero.
+
+Now try the input with n-th coordinate one over n. Its ordinary cutoff error tends to zero, but applying A to the first N coordinates produces N entries equal to one. The output norm is square root of N, so it diverges. Both inputs are valid vectors in ell two; only the first belongs to the domain of A.
+
+The cutoff theorem is therefore a statement about a *pair* of convergences—input and transformed input—on the operator's domain, not a promise that every Hilbert-space vector can be differentiated or multiplied by an unbounded spectral variable.
+
 ## Continuous spectrum without eigenvectors
 
 Consider square-integrable functions on the real line. Define A to multiply a function by its coordinate: at t, the output is t times the original function value.
@@ -105,6 +113,10 @@ The unbounded spectral theorem thus supplies more than a way to compute function
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+**Graph-norm cutoff test.** On \(\ell^2\) with \((Ax)_n=nx_n\), if \(x_n=n^{-2}\) then for \(P_N\) truncating at \(N\),
+\[\|(I-P_N)x\|^2+\|A(I-P_N)x\|^2=\sum_{n>N}(n^{-4}+n^{-2})\longrightarrow0.\]
+For \(y_n=n^{-1}\), \(\|(I-P_N)y\|\to0\) but \(\|AP_Ny\|=\sqrt N\to\infty\).
 
 For a self-adjoint \(A\) with projection-valued measure \(E\), put \(\mu_x(B)=\|E(B)x\|^2\). The domain of a measurable spectral operator is \(D(f(A))=\{x:\int |f(\lambda)|^2\,d\mu_x(\lambda)<\infty\}\). In particular \(D(A)\) requires the finite second spectral moment, and \(\|Ax\|^2=\int\lambda^2\,d\mu_x\). The cutoff \(P_R=E([-R,R])\) maps all of \(H\) into \(D(A)\), and for \(x\in D(A)\) satisfies \(AP_Rx=P_RAx\to Ax\), while \(P_Rx\to x\).
 

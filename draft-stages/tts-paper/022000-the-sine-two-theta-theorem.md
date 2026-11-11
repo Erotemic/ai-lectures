@@ -50,6 +50,12 @@ Which cross projection do we obtain? Project from U onto the reflected perpendic
 
 This is exactly the reflected overlap given by composing the reflected projections. The relevant ambient positive operator, after matching the polar and singular-value representations, is sine of twice the angle operator.
 
+### A reflection makes the angle visible twice
+
+Keep just one principal plane in view. A line U meets V at angle theta. Reflect U across V; its image is a line at twice theta from U, measured with the appropriate directed orientation. The single-angle sine estimate for the reflected problem therefore measures sine of twice theta.
+
+The operator difference that drives that estimate is also a mirror difference. Because V reduces the perturbed operator S, reflection through V leaves S unchanged. Subtracting the reflected and original versions of T turns the difference into two copies of the perturbation, with the sign reversed in one copy. That is where the factor of two on the right comes from.
+
 ## Put the two inequalities together
 
 The single-angle theorem for the reflected pair yields delta times the norm of sine two theta at most the norm of the mirror defect J T J minus T.

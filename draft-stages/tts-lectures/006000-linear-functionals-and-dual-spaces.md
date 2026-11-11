@@ -72,6 +72,16 @@ We have extended the functional by one direction without losing the norm bound. 
 
 Extending a functional across one additional direction establishes the local step. The infinite-dimensional Hahn–Banach theorem additionally requires a maximal-extension argument, commonly obtained from Zorn's lemma. The one-direction calculation alone does not establish that general theorem.
 
+### A measurement tailored to one vector
+
+Here is a concrete use of extension. Fix any nonzero vector x in a normed space. On the one-dimensional line it spans, define a measurement by sending a scalar multiple of x to that scalar times the length of x.
+
+This functional has norm one on that line. Indeed, the absolute value of its output is exactly the length of its input, whether the scalar is real or complex.
+
+The Hahn–Banach theorem extends this measurement to the whole space without increasing its norm. After extension, it still reads the number equal to the length of x when applied to x itself. So an abstract norm can be detected exactly by a suitably chosen norm-one numerical measurement. We did not have to guess a coordinate system or an inner product to find it.
+
+This construction gives a practical reason to care about the dual: the collection of bounded measurements can recover the size of every vector.
+
 ## Why this tool will return
 
 Hahn–Banach allows us to extend numerical measurements from a subspace while controlling their norm. One consequence is that bounded linear functionals can distinguish a nonzero vector from zero. Another is that, for a continuous seminorm, we can sometimes select a functional that exactly witnesses the size of a particular vector.
@@ -89,6 +99,8 @@ We have learned that a dual space is a space of controlled numerical measurement
 ## Companion: symbolic facts and Lean correspondence (display only)
 
 The continuous dual is \(E^*=\mathcal B(E,\mathbb K)\), where \(\mathbb K\in\{\mathbb R,\mathbb C\}\) is the scalar field. For \(\varphi\in E^*\), \(\|\varphi\|=\sup_{\|x\|\le1}|\varphi(x)|\). Every continuous dual is Banach. Real Hahn–Banach (norm form): if \(M\subseteq E\) is a linear subspace and \(f:M\to\mathbb R\) is bounded and linear, there is a bounded linear \(F:E\to\mathbb R\) extending \(f\) with \(\|F\|=\|f\|\). The spoken lecture develops the one-dimensional extension argument and does **not** present the infinite-dimensional maximal-extension argument as completed.
+
+**A norming functional.** Given \(x\ne0\) in a real or complex normed space \(E\), set \(f_0(\alpha x)=\alpha\|x\|\) on \(\operatorname{span}\{x\}\). Then \(\|f_0\|=1\). Hahn–Banach supplies \(f\in E^*\) extending \(f_0\), with \(\|f\|=1\) and \(f(x)=\|x\|\). In particular \(\|x\|=\sup_{\|f\|\le1}|f(x)|\).
 
 **Lean bridge.** In `ForTauCeti/Analysis/OperatorIdeal/ApproximationNumber/KyFanBochner.lean`, the DKPS development applies a Hahn–Banach extension theorem in the proof of a Bochner-integral inequality:
 

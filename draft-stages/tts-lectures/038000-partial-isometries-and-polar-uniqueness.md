@@ -74,6 +74,8 @@ But the reflection that keeps the horizontal axis fixed and reverses the vertica
 
 Both factors are orthogonal maps of the whole plane. Neither is the canonical partial isometry: the canonical factor is the projection onto the horizontal axis, which kills the vertical direction.
 
+The distinction is observable on one test vector. Feed the vertical unit vector directly into the two orthogonal factors: the identity leaves it fixed while the reflection reverses it. But feed it first through the modulus: the modulus returns zero, so both factorizations agree after composition. The factorization can test only what survives the modulus.
+
 There is no contradiction. We are discussing two different optimization criteria for the missing part: either demand zero on the kernel, giving the unique partial isometry, or demand a unitary extension, which may allow choices.
 
 ## When can we complete the motion?

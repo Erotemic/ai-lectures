@@ -44,6 +44,14 @@ To see the direct list explicitly, consider a principal vector u with principal 
 
 Here is a numerical example. Take two source directions with principal angles thirty and sixty degrees. The direct restricted displacement has singular values approximately one point zero and zero point five one eight. Any unitary carrying the source plane onto the target must have its first singular value at least one and its second at least zero point five one eight. This conclusion allows the competitor to mix the two directions.
 
+### A two-angle min–max picture
+
+Suppose the two source principal angles are sixty and thirty degrees. The restricted direct displacement has a largest singular value one, corresponding to sixty degrees, and a second singular value about zero point five one eight, corresponding to thirty degrees.
+
+Why do we need *two* min–max tests? On the one-dimensional direction with the larger angle, the competing transporter must cause displacement at least one somewhere. That controls the largest singular value. To control the second singular value, we examine the entire two-dimensional source plane and ask for its least displacement under the competitor. The projection argument bounds this least displacement *from below* by the smaller principal chord.
+
+One well-chosen vector suffices for the first question. An entire subspace is needed for the second. This is the mental picture behind the k-dimensional min–max principle and why a per-vector argument is weaker.
+
 ## Passing to every invariant norm
 
 A unitarily invariant norm depends only on the singular values through a symmetric gauge. Every such gauge is monotone under coordinatewise domination of nonnegative sorted singular values. Since we proved the stronger pointwise comparison, the direct rotation minimizes every unitarily invariant norm of the restricted displacement.

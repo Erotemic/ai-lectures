@@ -62,6 +62,14 @@ The rectangular sine map keeps track of the unpaired source direction. If our go
 
 This is why we must always ask what space a principal-angle operator acts on, and which direction the comparison goes. The maps from U to V and from V to U can have different numbers of singular values and different kernels.
 
+### Read a Gram identity in coordinates
+
+Return to the example where U is a plane and V is a line lying inside it. Choose one source coordinate along V and the other perpendicular to V, but still inside U.
+
+On the first source direction, projection into V preserves the entire length; escape has length zero. On the second, projection into V gives zero and escape preserves the entire length. In these coordinates the cosine Gram operator has diagonal entries one and zero. The sine Gram operator has diagonal entries zero and one.
+
+Adding them gives the identity, direction by direction. The operators share source eigenvectors because they are complementary parts of the same length budget. This does not make their output spaces identical; the cosine map lands in V, while the sine map lands in V perpendicular.
+
 ## The difference between two projections
 
 There is another natural geometric quantity: the operator P minus Q. It takes any ambient vector and compares its two projected versions.

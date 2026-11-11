@@ -56,6 +56,16 @@ Now change the orthonormal basis within U by forty-five degrees. The two new bas
 
 If we also rotate the target basis after the canonical transport, the angular errors may increase. They cannot decrease below the total geometric leakage of U into V perpendicular.
 
+### Why an orthonormal basis does not change the total
+
+Take a source plane with two principal directions. Suppose the first lies entirely in V and the second meets V at forty-five degrees. In that principal basis, their squared escape lengths are zero and one half. Now turn the two basis vectors within the source plane by forty-five degrees. Each new basis vector has escape length one half, so each squared escape is one quarter. The sum is still one half.
+
+The individual escape lengths have changed because the new basis vectors combine the two principal directions. The total has stayed fixed.
+
+The reason is algebraic: the escape map has one fixed positive Gram operator on the source plane. Adding its quadratic form over any orthonormal basis gives the trace of that Gram operator. A trace does not change when the basis is rotated.
+
+What does this buy us? The lower bound obtained by projecting each transported vector can be added without depending on how we happened to label the trial vectors. We are measuring a property of the subspace, not a fortunate coordinate choice.
+
 ## Why squared sine is convenient
 
 For a general set of vectors, summing angles themselves does not produce a simple trace identity. Squaring the sine turns the problem into the sum of squared norms of a linear map. That is why spectral theory enters so naturally.
@@ -79,6 +89,8 @@ We proved the inequality without choosing a special competing unitary and withou
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+**A rotated orthonormal basis.** Take \(U=\operatorname{span}(e_1,e_2)\subset\mathbb R^3\) and \(V=\operatorname{span}\bigl(e_1,(e_2+e_3)/\sqrt2\bigr)\). For \(S=(I-P_V)|_U\), \(\|Se_1\|^2=0\) and \(\|Se_2\|^2=1/2\). For \(f_\pm=(e_1\pm e_2)/\sqrt2\), \(\|Sf_+\|^2=\|Sf_-\|^2=1/4\), illustrating \(\operatorname{tr}(S^*S)=1/2\) in either basis.
 
 For an orthonormal basis \((u_i)\) of \(U\), \(W U=V\), and \(\sin^2\angle(x,y)=1-|\langle x,y\rangle|^2\) for unit vectors,
 \[

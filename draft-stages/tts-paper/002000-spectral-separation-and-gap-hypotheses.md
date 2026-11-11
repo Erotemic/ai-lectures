@@ -86,6 +86,14 @@ When the two spectra interlace, the sign can change from one pair to another. Th
 
 For the Sylvester equation A X minus X B equals C, an ordered spectral gap supports a decay-integral estimate with constant one, while an interlaced pairwise gap can require a different bound. The location of the spectral sets, not merely the size of a number called a gap, decides which estimate applies.
 
+### A two-entry check of the spectral picture
+
+Let the left operator have diagonal entries negative three and three, and let the right operator multiply a scalar by zero. The unknown map now has two output coordinates. Give the right-hand side the value one in each coordinate.
+
+The first Sylvester equation says negative three times the first unknown equals one; the second says positive three times the second unknown equals one. The solution is negative one third and positive one third. Both denominators have magnitude three, yet their signs differ.
+
+The Frobenius estimate is easy: the solution length is one third of the right-hand-side length. What fails is the *single-direction exponential argument*, because one spectral difference wants decay in one time direction and the other wants the reverse. This example separates a useful bound from the particular method used to obtain it.
+
 ## Ordered gaps and quadratic forms
 
 There is another description of ordered separation that connects back to Rayleigh quotients.
@@ -117,6 +125,8 @@ For self-adjoint restrictions with finite spectra \(\Sigma_1,\Sigma_2\subseteq\m
 An interval/exterior condition, \(\Sigma_1\subseteq[a,b]\) and \(\Sigma_2\cap(a-\delta,b+\delta)=\varnothing\), implies pairwise distance separation for \(\delta\ge0\), but need not imply a single ordering of the sets.
 
 For diagonal \(A=\operatorname{diag}(a_i)\), \(B=\operatorname{diag}(b_j)\), the Sylvester equation \(AX-XB=C\) reads \((a_i-b_j)X_{ij}=C_{ij}\). If all denominators have absolute value at least \(\delta>0\), then \(\|X\|_F\le\|C\|_F/\delta\). **This does not assert a universal constant-one operator-norm bound in the unordered case.**
+
+**A two-entry separated, interlaced Sylvester example.** For \(A=\operatorname{diag}(-3,3):\mathbb R^2\to\mathbb R^2\), \(B=0:\mathbb R\to\mathbb R\), and \(C=(1,1)^{\mathsf T}\), the solution to \(AX-XB=C\) is \(X=(-1/3,1/3)^{\mathsf T}\). Thus \(\|X\|_F=\|C\|_F/3\), although the signed differences are \(-3,3\) and there is no global spectral order.
 
 **Lean bridge.** In the current DKPS staging source, `ForTauCeti/Analysis/InnerProductSpace/Spectral/Gap.lean` defines the two gap predicates and proves one implication:
 

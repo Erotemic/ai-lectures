@@ -38,6 +38,14 @@ Now take the diagonal matrix with entries negative one and two. Its entries are 
 
 Positivity means the quadratic form is nonnegative on every vector, regardless of the signs of individual matrix entries.
 
+### Why positive entries do not suffice either
+
+We have seen that negative entries do not rule out positivity. The opposite error is just as easy to make. Consider the symmetric matrix whose diagonal entries are one and whose off-diagonal entries are two. All four entries are positive.
+
+Test the direction with first coordinate one and second coordinate negative one. The matrix sends that vector to its negative. Its quadratic form is therefore negative two. So this matrix is not positive, even though every entry in its displayed array is positive.
+
+The two examples point to the same test: choose a direction and ask whether the operator gives a nonnegative quadratic measurement there. Checking a table of entries cannot answer that question.
+
 ## The spectral criterion
 
 We can test positivity using the finite spectral theorem.
@@ -140,6 +148,8 @@ A\preceq B\implies C^*AC\preceq C^*BC.
 \]
 
 In particular \(S^*S\succeq0\), because \(\langle S^*Sx,x\rangle=\|Sx\|^2\). The strict condition \(\langle Ax,x\rangle>0\) for all \(x\ne0\) implies a uniform positive lower bound in finite dimensions; this implication must **not** be silently extended to all infinite-dimensional operators.
+
+**Entrywise signs do not decide operator positivity.** The matrix \(\bigl(\begin{smallmatrix}2&-1\\-1&2\end{smallmatrix}\bigr)\) has eigenvalues \(1,3\), whereas the entrywise positive matrix \(B=\bigl(\begin{smallmatrix}1&2\\2&1\end{smallmatrix}\bigr)\) has eigenvalues \(3,-1\) and \(\langle B(1,-1),(1,-1)\rangle=-2\).
 
 **Lean bridge.** A source-level representation of a two-block quadratic-form hypothesis occurs in `ForTauCeti/Analysis/InnerProductSpace/Spectral/Gap.lean`:
 

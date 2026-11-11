@@ -60,6 +60,12 @@ Using the product estimate for operator norms, the norm of our integrand is at m
 
 This is the central estimate. The same spectral gap that appears in the denominator of the solution controls the rate of decay of the integrand.
 
+### What the integral does to two coefficients
+
+Return to the diagonal example with A having eigenvalues three and five and B having zero and one. Consider the entry that connects the left eigenvalue three to the right eigenvalue one. Its factor in the integrand is an exponential decaying at rate two. Integrating it produces one half.
+
+The entry connecting five to zero decays at rate five, so its integral is one fifth. Every entry gets exactly its own reciprocal spectral difference, but the *norm estimate* uses the slowest possible decay, which is rate two. That is why the final bound sees the smallest ordered gap rather than a list of four unrelated denominators.
+
 ## Integrate the norm bound
 
 Since delta is positive, the exponential of negative delta times t is integrable over nonnegative times. Its integral is one over delta.

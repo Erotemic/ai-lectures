@@ -34,7 +34,11 @@ Take the inner product of the first equation with x and of the second with y. Su
 
 The remainder is the positive quantity associated with lambda minus A low on x, plus the positive quantity associated with A high minus lambda on y. Each term is bounded below by its distance from the corresponding edge of the gap times the squared norm of its vector. Hence both x and y are zero, a contradiction.
 
-This excludes eigenvalues in the gap. In infinite-dimensional Hilbert space, simply excluding eigenvectors would not be enough. Instead, use the same coercive estimate with a block-sign reflection to obtain a lower norm bound for S minus lambda. Self-adjointness makes the range dense; bounded below and closed range then make it surjective. Thus lambda lies in the resolvent set. The argument proves full spectral repulsion, not merely absence of point spectrum.
+This excludes eigenvalues in the gap. In infinite-dimensional Hilbert space, simply excluding eigenvectors would not be enough. Let J reverse the low block and preserve the high block. Apply S minus lambda times the identity, then reflect the result with J. The real inner product of that output with the original vector measures the same two positive diagonal contributions; the off-diagonal terms cancel.
+
+Each contribution is at least the distance from lambda to the corresponding gap edge times the squared length of that component. Therefore S minus lambda cannot make any vector arbitrarily small relative to its input: it has a positive lower norm bound.
+
+That makes its range closed. Because S minus lambda is self-adjoint and has zero kernel, its range is also dense: the range's orthogonal complement equals the kernel of its adjoint. Closed and dense means the entire space. Thus S minus lambda is invertible with a bounded inverse. We have excluded continuous spectrum in the gap as well as eigenvalues.
 
 ## See the effect in a plane
 
@@ -103,6 +107,10 @@ The strict quarter-angle branch comes from off-diagonal structure and the ordere
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+**The full-gap coercive estimate.** If \(A_-\le\alpha I\) and \(A_+\ge(\alpha+\delta)I\), and \(H\) is self-adjoint and off-diagonal, then with \(J=\operatorname{diag}(-I,I)\), for \(\lambda\in(\alpha,\alpha+\delta)\),
+\[\operatorname{Re}\langle J(S-\lambda I)z,z\rangle\ge c_\lambda\|z\|^2,\quad c_\lambda=\min\{\lambda-\alpha,\alpha+\delta-\lambda\}>0.\]
+Since \(J\) is isometric, \(\|(S-\lambda I)z\|\ge c_\lambda\|z\|\). Closed range plus self-adjointness then implies surjectivity, ruling out continuous spectrum inside the gap as well.
 
 **A gap that repels under coupling.** On the real plane, take
 \[

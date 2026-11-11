@@ -40,6 +40,14 @@ Similarly, the vector one, eye has eigenvalue negative eye. We have not changed 
 
 The two complex eigenvectors are not two real directions hiding in the original plane. They are useful algebraic descriptions of the real rotation. In fact, their eigenvalues occur as a conjugate pair, matching the reality of the original matrix.
 
+### What a complex eigenvector actually is
+
+The quarter-turn is a useful place to be precise. In ordinary real coordinates it sends a horizontal unit vector upward. Applying it twice sends that vector backward, so no nonzero real vector could be merely rescaled by the first quarter-turn.
+
+After complexification, however, we can use an input whose first coordinate is one and whose second coordinate is negative eye. The quarter-turn sends that pair to eye and one. Multiplying the original pair by eye gives exactly the same result. So this complex vector has eigenvalue eye. Choosing the second coordinate to be positive eye instead gives eigenvalue negative eye.
+
+These vectors are elements of the *complexified* plane. They are not previously overlooked real arrows. The extension permits complex coefficients, which reveal a decomposition unavailable over the real scalar field.
+
 ## Why the scalar field matters to invertibility
 
 
@@ -102,6 +110,8 @@ R=\begin{pmatrix}0&-1\\1&0\end{pmatrix},\qquad R^2=-I.
 Over \(\mathbb R\), \((aI-R)^{-1}=(aI+R)/(a^2+1)\) for every real \(a\). Its complexification has characteristic polynomial \(z^2+1\), with eigenvalues \(i\) and \(-i\). An example of eigenvectors is \((1,-i)\) for eigenvalue \(i\), and \((1,i)\) for eigenvalue \(-i\).
 
 For a real-linear map \(T:E\to E\), the complexified map obeys \(T_{\mathbb C}(x+iy)=Tx+iTy\). Normed and inner-product complexification need additional structure, developed in later lessons.
+
+**Quarter-turn after complexification.** With \(R=\begin{psmallmatrix}0&-1\\1&0\end{psmallmatrix}\), one has \(R(1,-i)^{\mathsf T}=i(1,-i)^{\mathsf T}\) and \(R(1,i)^{\mathsf T}=-i(1,i)^{\mathsf T}\). Both eigenvectors lie in \(\mathbb C^2\), whereas \(R\) has no nonzero eigenvector in \(\mathbb R^2\).
 
 **Lean bridge.** A source-grounded result in `ForTauCeti/Analysis/InnerProductSpace/Complexification/Spectrum.lean` states, for a real Hilbert space and bounded real-linear operator, that real invertibility is preserved and reflected by complexification:
 

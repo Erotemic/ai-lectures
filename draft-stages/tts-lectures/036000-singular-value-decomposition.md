@@ -114,7 +114,9 @@ The source Gram operator A adjoint A and the output Gram operator A A adjoint li
 
 We can now see why. Every positive singular value sigma yields an input vector v and output vector u satisfying A v equals sigma u. Applying A adjoint to u gives sigma v. It follows that A A adjoint acts on u by sigma squared, just as A adjoint A acts on v.
 
-The reverse construction works too for every nonzero eigenvalue, so the positive eigenspaces match in dimension. Their zero eigenspaces can have different dimensions because E and F need not have equal dimensions.
+The reverse construction works too for every nonzero eigenvalue: start with an output eigenvector and apply A adjoint to recover an input eigenvector. Dividing by the positive eigenvalue provides an inverse on those eigenspaces. This is why multiplicities match, not just the set of positive values.
+
+Now return to the two-to-three example. The source Gram matrix has one positive eigenvalue and one zero. The output Gram matrix has that same positive eigenvalue but *two* zero eigenvalues. The extra zero comes from a direction in the output space that no input can reach. The zero lists differ because E and F have different dimensions.
 
 The number of positive singular values is the rank of A. And the largest singular value is the operator norm of A: the largest amount any unit input can be stretched.
 
