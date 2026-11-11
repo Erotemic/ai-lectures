@@ -76,7 +76,13 @@ Similarly, the modulus of A is the positive square root of A adjoint A. Its eige
 
 This is why the nuclear norm is called the trace norm. For a rectangular map, we take the trace of the positive modulus on the source, not a trace of the rectangular map itself.
 
-These formulas are finite-dimensional. In infinite-dimensional Hilbert space, the Hilbert–Schmidt and trace-class norms require the respective square-summability and summability conditions on the singular values.
+These formulas explain why the finite-dimensional names carry over to infinite-dimensional Hilbert spaces. But here a new question arises. An operator can be bounded in every input direction and still have infinitely many small stretches. Does the sum of those stretches converge?
+
+Consider a diagonal operator on square-summable sequences. It divides the first coordinate by one, the second by two, the third by three, and in general the k-th coordinate by k. Its largest stretch is one, so its operator norm is one.
+
+Take just the first n coordinates and set all the rest to zero. These finite-rank truncations approach the operator in operator norm: the greatest omitted stretch is one divided by n plus one. They also approach it in Hilbert–Schmidt norm, because the sum of squares of the omitted reciprocals tends to zero.
+
+But their trace norms are the partial sums of the harmonic series. Those sums grow without bound. The full operator is compact and Hilbert–Schmidt, yet not trace class. Compactness, square-summability, and summability describe three different levels of control. We cannot infer one from a finite-dimensional equivalence of norms when the rank keeps growing.
 
 ## Why the Schatten measurements are norms
 
@@ -96,7 +102,9 @@ Now use the ordinary ell-p triangle inequality, sometimes called Minkowski's ine
 
 Combining the inequalities proves the Schatten p triangle inequality.
 
-The proof does not require A and B to share singular vectors. That is its main strength. The singular-value lists of A and B cannot generally be added position by position to obtain the singular-value list of their sum, but the majorization comparison is enough.
+The proof does not require A and B to share singular vectors. Imagine two maps that stretch different input directions. Adding them changes the singular vectors, so the singular values of the sum need not be the sums of the original singular values.
+
+The Ky Fan step avoids trying to identify those new vectors. It asks a coarser question: how large can the strongest one direction be, then the strongest two directions together, and so on? Those prefix inequalities survive the addition. The symmetric gauge transfers that shared information into the desired norm bound. The last step, Minkowski, is an ordinary triangle inequality for a numerical list.
 
 For p equal to infinity, the same argument can use the maximum-coordinate gauge, or we can return to the direct operator-norm triangle inequality.
 
@@ -136,21 +144,31 @@ Using several Schatten norms lets us state perturbation estimates at different l
 
 Our majorization work says even more: we can often prove an inequality about every Ky Fan sum and then deduce all the Schatten estimates at once.
 
-## What to reconstruct
+## What the argument establishes
 
-Compute all four measurements of the rectangular example with singular values four and three. Prove the Frobenius column-energy identity by expanding an arbitrary orthonormal basis in a right singular basis.
+The finite rank-one case shows why every Schatten norm agrees on one singular direction. The diagonal operator with stretches one, one half, one third, and so on shows what changes when the number of directions is infinite. Its truncations converge in operator and Hilbert–Schmidt norms, while their trace norms diverge.
 
-Then reproduce the Schatten triangle inequality as two steps: first weak majorization, then Minkowski's inequality.
-
-Finally, prove the rank-dependent comparisons, and identify examples attaining equality.
-
-These calculations turn singular-value lists into concrete operator measurements that we can use in perturbation estimates.
-
+This is the useful distinction to retain: the exponent decides how the stretches are aggregated. In finite dimension every choice is finite, and dimension-dependent comparisons are available. In infinite dimension the choice of exponent can determine whether the operator belongs to the normed ideal at all.
 <!-- END SPOKEN LECTURE -->
 
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### Finite-rank truncation reveals distinct operator ideals
+
+On \(\ell^2(\mathbb N)\), let \(D e_k=k^{-1}e_k\) and \(D_n=\sum_{k=1}^n k^{-1}e_k\otimes e_k\). Then
+\[
+\|D-D_n\|_{op}=\frac1{n+1}\longrightarrow0,\qquad
+\|D-D_n\|_{S_2}^2=\sum_{k>n}\frac1{k^2}\longrightarrow0.
+\]
+The compact operator \(D\) lies in \(S_2\) but not in \(S_1\):
+\[
+\|D\|_{S_2}^2=\sum_{k\ge1}k^{-2}=\frac{\pi^2}{6},\qquad
+\|D_n\|_{S_1}=\sum_{k=1}^n\frac1k\longrightarrow\infty.
+\]
+For \(1\le p<\infty\), \(D\in S_p\) exactly when \(p>1\). The finite-dimensional comparison \(\|A\|_{S_1}\le \sqrt{\operatorname{rank}A}\|A\|_{S_2}\) cannot be applied with a uniform rank bound to this sequence.
+
 
 For a finite-dimensional map \(A:E\to F\) with singular values \(\sigma_i(A)\ge0\),
 \[

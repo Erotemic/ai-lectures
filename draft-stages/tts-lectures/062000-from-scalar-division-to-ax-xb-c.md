@@ -14,7 +14,7 @@ This elementary observation is the seed of the Sylvester equation, a central too
 
 For operators, the corresponding equation has A acting on one side of an unknown map X, and B acting on the other. The known map C is the defect we are trying to explain. Our job today is to understand what this equation asks, why differences of eigenvalues appear, and how separation of spectra controls the inverse problem.
 
-The scalar equation and the finite spectral theorem already explain how the Sylvester operator can be inverted under spectral separation.
+A useful way to listen to the proof is to keep asking which space each action belongs to. The right coefficient acts on the input before the unknown map. The left coefficient acts on its output afterward. The spectral gap is a relation between those two actions, even when they live on different spaces.
 
 ## Keep the domains and codomains straight
 
@@ -106,7 +106,9 @@ We have turned an operator equation into an ordinary diagonal linear system on t
 
 This also makes the kernel transparent. Each zero spectral difference contributes a free matrix coefficient. If there are no zero differences, the Sylvester operator is invertible.
 
-## Why we will need this in perturbation theory
+Now return to the list of denominators. If every absolute difference is at least delta, then every coefficient of the solution has magnitude at most the corresponding coefficient of C divided by delta. Squaring and adding all these inequalities gives a Frobenius estimate with constant one. But taking the operator norm of a matrix is not the same as taking the largest magnitude of its entries. A single denominator bound therefore does not prove an equally sharp operator-norm estimate.
+
+## A use in perturbation theory
 
 Suppose we have two spectral subspaces and want to quantify the extent to which a perturbation couples them. A residual block may measure the failure of an approximate eigenspace to be invariant.
 
@@ -116,16 +118,13 @@ If those spectral regions are separated, we can hope to solve for X and bound it
 
 The eigenvalue differences are not decorative assumptions. They are the denominators of the inverse problem.
 
-Next we will carry out the entire calculation in diagonal coordinates, including a numerical example, the exact compatibility condition when denominators vanish, and the Frobenius bound.
+A diagonal-coordinate calculation makes these claims concrete: division works away from shared spectral values, equal eigenvalues create obstructions or free components, and squaring the coefficients gives a Frobenius bound.
 
-## What to reconstruct
+## What the argument establishes
 
-Begin with the scalar equation and classify the cases a different from b and a equal to b. Verify the domain and codomain of every composition in A X minus X B.
+The Sylvester equation is a linear inverse problem on the space of maps from E to F. The two coefficient operators act on opposite sides of the unknown map, and each pair of spectral directions supplies one scalar denominator.
 
-Then use orthonormal eigenvectors u and v to derive the scalar coefficient equation. Explain how the spectral difference becomes an eigenvalue of the Sylvester operator acting on rank-one matrix units.
-
-Finally, distinguish three claims: the spectra do not intersect, their pairwise distance has a positive lower bound, and they are ordered on opposite sides of a gap. Identify which claim is strongest and why the distinction affects operator-norm estimates.
-
+Disjoint finite spectra make those denominators nonzero and give an inverse. A positive separation bounds their sizes. To turn those individual bounds into a bound for a chosen matrix norm, we must use that norm's geometry. This last step is where Hilbert–Schmidt and operator-norm arguments can diverge.
 <!-- END SPOKEN LECTURE -->
 
 ---

@@ -24,7 +24,9 @@ In the finite-dimensional self-adjoint setting, the min–max principle says tha
 
 Why? Choose any fixed trial subspace. Every vector in it has a Rayleigh quotient for H no larger than the corresponding quotient for K. Taking a maximum over that subspace preserves the inequality, and then taking the appropriate minimum over all trial subspaces preserves it again.
 
-This is a direct consequence of the nested minimization and maximization in Courant–Fischer. No assumption that H and K commute is needed.
+This is a direct consequence of the nested minimization and maximization in Courant–Fischer. We compare the two quadratic measurements on the very same trial vector before taking any extremum, so the subspaces used in the two optimizations can also be the same. No assumption that H and K commute is needed.
+
+There is a useful caution here. Loewner order is a statement about every vector in the ambient space. Comparing a couple of diagonal entries in one basis would not suffice. A matrix can have smaller diagonal entries and still have a larger quadratic form on a tilted vector because the off-diagonal terms contribute.
 
 ## Positive operators give singular-value comparisons
 
@@ -70,7 +72,9 @@ Therefore A adjoint A is below B adjoint B. The singular values of A are three a
 
 The inequalities hold individually, and hence also for the operator, Frobenius, nuclear, and Ky Fan norms. For example, the Frobenius norm of A is the square root of ten, while that of B is the square root of twenty.
 
-The example is simple because the Gram operators commute. The theorem does not rely on that feature. Their eigenvectors could be different; the Rayleigh-quotient argument would still work.
+The example is simple because the Gram operators commute. The theorem does not rely on that feature. What makes it work is the shared input: we can compare the squared lengths of A x and B x for every x in that one space. Their output spaces may differ.
+
+To picture the noncommuting case, tilt one output measurement so that its strongest direction is not a coordinate axis. If the quadratic comparison still holds on every input vector, the min–max theorem still compares the ordered Gram eigenvalues. We never need to match their individual eigenvectors.
 
 ## Why squaring a form inequality can fail
 
@@ -106,27 +110,37 @@ But trace control by itself does not imply operator-norm control. A matrix can h
 
 A trace bound, an inequality of quadratic forms on every vector, and a sequence of ordered eigenvalue inequalities are different assertions. Each requires its own justification.
 
-## Prepare for the Sylvester equation
+## Where the comparison is useful
 
-Soon we will meet an operator equation that asks us to recover an unknown map from a difference of two compositions. A spectral-gap assumption will allow us to bound that unknown by the known defect.
+Consider recovering an unknown map from a difference of two compositions. This kind of equation often comes with a spectral gap, and the goal is to control an unknown correction by a known residual.
 
 The estimates will involve norms, including Frobenius and general unitarily invariant norms. To manipulate them safely, we must recognize when a hypothesis controls a quadratic form, when it controls singular values, and when a separate argument is required for an operator-norm bound.
 
-Today's Gram and min–max argument is one standard bridge between these languages. It is powerful precisely because its hypotheses and conclusions are explicit.
+The Gram and min–max argument is a standard bridge between these languages. Its strength comes from the exact hypotheses and the explicit intermediate comparison.
 
-## What to reconstruct
+## What the argument establishes
 
-Prove the eigenvalue monotonicity statement directly from Courant–Fischer. Then apply it to A adjoint A and B adjoint B to derive singular-value domination from inequalities of squared output lengths.
+The key route has three steps. A comparison of output lengths for every input vector becomes a Loewner comparison of the two source Gram operators. Min–max compares their ordered eigenvalues. Finally, square roots turn those eigenvalues into singular values, which symmetric gauges can measure.
 
-Compute the singular values in the rectangular example. Verify every step in the two-by-two counterexample, including the positive difference K minus H and the negative determinant after squaring.
-
-Finally, explain why the negative-identity example defeats singular-value monotonicity for self-adjoint operators that are not positive.
-
+Each step has a hypothesis that cannot be discarded. Self-adjoint form order does not compare singular values if signs are unrestricted. Even positive Loewner order does not allow us to square noncommuting operators. The proof succeeds by comparing the Gram operators directly.
 <!-- END SPOKEN LECTURE -->
 
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### The comparison uses one common input space
+
+For \(A:E\to F\) and \(B:E\to G\), the same vector \(x\in E\) appears in both measurements:
+\[
+\|Ax\|^2=\langle A^*Ax,x\rangle,
+\quad \|Bx\|^2=\langle B^*Bx,x\rangle.
+\]
+This is why the Loewner comparison is well-typed even when \(F\ne G\). The min–max principle gives
+\(\lambda_j(A^*A)\le\lambda_j(B^*B)\) and hence \(\sigma_j(A)\le\sigma_j(B)\), with source-indexed zeros included.
+
+A matrix-entry comparison is not enough: \(\operatorname{diag}(1,1)\) and \(\begin{pmatrix}1&1\\1&1\end{pmatrix}\) have equal diagonal entries, but their forms differ on \((1,1)\) and \((1,-1)\). One must compare quadratic forms on every vector.
+
 
 For \(0\preceq H\preceq K\), Courant–Fischer yields \(\lambda_j(H)\le\lambda_j(K)\), so \(\sigma_j(H)\le\sigma_j(K)\). For rectangular \(A:E\to F\), \(B:E\to G\),
 \[

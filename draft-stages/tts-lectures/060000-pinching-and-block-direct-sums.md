@@ -6,9 +6,9 @@
 
 # Remove the coupling between two orthogonal subspaces
 
-Take a symmetric two-by-two matrix with diagonal entries one and three and off-diagonal entries two. Relative to the two coordinate axes, the diagonal entries describe actions within each axis and the off-diagonal entries describe coupling between them.
+Imagine two coordinate directions that both carry a diagonal action of three, but are coupled to one another with strength four. The corresponding symmetric matrix has threes on its diagonal and fours off the diagonal. Applied to the direction where the coordinates agree, it stretches by seven. On the direction where they oppose one another, it reverses by one.
 
-If we erase the coupling and keep only the diagonal, we obtain a pinched operator. For this example the operator norm of the original is two plus the square root of five, while the operator norm of its diagonal part is three. Removing the off-diagonal blocks has not increased the norm.
+If we erase the coupling and keep only the threes, we obtain a pinched operator. Its operator norm is three, rather than seven. But the second singular value rises from one to three. So pinching can reduce every leading singular-value sum without reducing every singular value separately. That is why we need the weak-majorization viewpoint.
 
 More generally, pinching is an average of an operator and its reflection by a sign change on one subspace. A unitarily invariant norm assigns the same size to the reflected operator, and the triangle inequality bounds the average by the original norm. This elementary observation turns into a powerful method for controlling block sums without choosing a particular Schatten exponent.
 
@@ -70,9 +70,9 @@ The operator norm drops from seven to three. The nuclear norm drops from eight t
 
 The Ky Fan one norm is just the operator norm, so it also decreases. The Ky Fan two norm is the nuclear norm for this two-by-two example, and decreases as well.
 
-But there is a subtler pattern: the leading singular value of the pinch is smaller, yet its second singular value is larger. Three is greater than one. So pinching does not imply a coordinatewise singular-value inequality.
+But focus on the second singular value: three is larger than one. The pinch has made the smaller stretch larger while making the largest stretch smaller. A coordinate-by-coordinate argument would fail.
 
-Instead it implies a comparison of partial sums. That is exactly the distinction between weak majorization and entrywise domination defined by comparing leading partial sums.
+Check the two prefix totals instead. The original has seven in its first prefix and eight in its full sum. The pinch has three and six. Both totals decrease. This is exactly weak majorization: we compare the strongest direction, then the strongest two together. The second comparison is allowed to succeed even when the second entry alone grows.
 
 ## Pinching as a Ky Fan statement
 
@@ -108,14 +108,11 @@ Pinching gives a controlled way to delete cross terms when comparing singular-va
 
 The two operations should not be conflated. Pinching starts with one operator and deletes couplings. Taking a direct sum builds a new operator from separate pieces whose singular values combine in a precise way.
 
-## What to reconstruct
+## What the argument establishes
 
-Using the decomposition into M and its orthogonal complement, write J as plus identity on the first block and minus identity on the second. Multiply the block matrices to verify that the diagonal part is the average of A and J A J.
+The two-direction example contains the entire mechanism. The reflection changes the sign of each coupling term. Averaging the original and reflected operators removes those terms. Unitary invariance and the triangle inequality then show that the pinch cannot increase the chosen norm.
 
-Derive the invariant-norm contraction from the triangle inequality. Then check the singular values seven and one for our two-by-two example, and explain why the second singular value can increase even though every Ky Fan prefix sum decreases.
-
-Finally, derive the operator, Frobenius, and nuclear direct-sum formulas from the union of singular-value lists.
-
+The singular values seven and one becoming three and three explain why the conclusion belongs to Ky Fan prefix sums rather than entrywise singular-value inequalities. Direct sums are different: their singular-value lists concatenate, giving exact power-sum formulas for Schatten norms. Keep these two operations separate when reading a block argument.
 <!-- END SPOKEN LECTURE -->
 
 ---
@@ -124,12 +121,15 @@ Finally, derive the operator, Frobenius, and nuclear direct-sum formulas from th
 
 ### Block reflection preserves the diagonal
 
-For \(A=\left(\begin{smallmatrix}1&2\\2&3\end{smallmatrix}\right)\)
+For \(A=\left(\begin{smallmatrix}3&4\\4&3\end{smallmatrix}\right)\)
 and \(J=\operatorname{diag}(1,-1)\),
 \[
-JAJ=\begin{pmatrix}1&-2\\-2&3\end{pmatrix},\quad
-\tfrac12(A+JAJ)=\begin{pmatrix}1&0\\0&3\end{pmatrix}.
+JAJ=\begin{pmatrix}3&-4\\-4&3\end{pmatrix},\quad
+\tfrac12(A+JAJ)=\begin{pmatrix}3&0\\0&3\end{pmatrix}.
 \]
+The eigenvalues of \(A\) are \(7,-1\). Thus
+\(\sigma(A)=(7,1)\) and \(\sigma(\mathcal P(A))=(3,3)\).
+Although \(3>1\), the Ky Fan prefix sums are \((3,6)\le(7,8)\).
 The complementary difference \((A-JAJ)/2\) retains only the
 off-diagonal entries. Since \(J\) is unitary, this algebra also
 supplies a norm contraction for the diagonal pinching map.

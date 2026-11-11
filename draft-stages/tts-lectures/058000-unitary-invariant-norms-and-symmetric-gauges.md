@@ -60,7 +60,9 @@ A symmetric gauge is monotone under weak majorization of nonnegative lists: if e
 
 We have proved the matrix triangle inequality in three moves: Ky Fan comparison, gauge monotonicity, then the gauge's own triangle inequality.
 
-This is a useful proof strategy because it can establish many norm inequalities without repeating an argument for each Schatten exponent.
+One can hear the logical order of this proof as three separate operations. First compare leading sums of singular values. Then translate that ordering through the chosen gauge. Finally use the gauge's triangle inequality for two numerical lists. Each operation solves a different problem, and none requires the singular vectors of A and B to align.
+
+This strategy can establish many norm inequalities without repeating an argument for each Schatten exponent.
 
 ## Compare the gauges with an example
 
@@ -75,6 +77,10 @@ For this same diagonal matrix, all four measurements are invariant if we rotate 
 Now replace the diagonal matrix by a matrix with the same three singular values and completely different singular vectors. Every one of these norms still agrees. For questions that depend only on singular values, these two maps are indistinguishable.
 
 ## A general comparison theorem
+
+To see why leading sums give more information than an entry-by-entry test, compare two ordered lists: three, two, one; and four, one, one. The first list has a larger second entry, so it is not dominated coordinate by coordinate. But its largest entry is smaller, and the sums of its first two and first three entries are no larger. The prefix totals are three versus four, then five versus five, then six versus six.
+
+For these lists, the operator norm decreases from four to three. The nuclear norm stays six. The Frobenius norm decreases from the square root of eighteen to the square root of fourteen. This is the sort of conclusion that weak majorization captures without comparing every position separately.
 
 Suppose the singular values of A are weakly majorized by those of B. Then every symmetric gauge gives A no larger a value than B.
 
@@ -94,7 +100,9 @@ Then the norm is part of a family, often called an operator ideal norm. In addit
 
 For example, composing A with a contraction on the output side should not increase its ideal norm. The same is expected for a contraction on the input side. In the finite-dimensional setting, singular-value inequalities explain these facts for standard gauges.
 
-But this compatibility is additional information. Knowing only that each individual matrix space carries some unitarily invariant norm does not ensure consistency when the dimensions change.
+The ideal property has a concrete meaning. If an operator A has finite ideal norm and we first prepare its input by a bounded map R, then apply A, then process its output by a bounded map L, the new ideal norm is at most the original ideal norm multiplied by the operator norms of L and R. Contractive preparation and processing cannot make the ideal measurement larger.
+
+But this compatibility is additional information. Knowing only that each individual matrix space carries some unitarily invariant norm does not ensure consistency when the dimensions change. For example, multiplying the operator norm by the number of matrix rows gives a unitarily invariant norm separately in each shape, but padding with zero rows changes the number assigned.
 
 A compatible family of unitarily invariant norms needs more than invariance for one matrix size: it must respect appropriate ideal operations, agree with rank-one normalization, and obey the Ky Fan dominance principle used to transfer singular-value comparisons.
 
@@ -104,19 +112,37 @@ A perturbation may rotate several mutually orthogonal directions by different am
 
 Our proofs show that the same singular-value comparison can control all these choices. We have converted an apparently open-ended question about norms into concrete inequalities about ordered nonnegative lists.
 
-The next issue is rectangularity. An operator might be represented in a larger output space or with extra zero input directions. Exactly when does adding those zero directions preserve a norm?
+One remaining distinction is dimensional compatibility. The same geometric map can be represented in a larger output space or with extra zero input directions. Such additions preserve an ideal norm when its cross-space rules treat those directions as inactive.
 
-## What to reconstruct
+## What the argument establishes
 
-Start with a unitarily invariant norm on matrices of one fixed shape. Use the singular-value decomposition to derive its symmetric gauge. Prove the reverse triangle inequality using weak majorization and the gauge triangle inequality.
+The two lists three, two, one and four, one, one give the central picture. Their second entries move in the wrong direction for an entrywise comparison, yet every leading sum of the first list is no larger. Every symmetric gauge therefore respects the comparison.
 
-Then calculate the operator, nuclear, Frobenius, and Ky Fan two values of the diagonal example with singular values four, two, and one. Finally, explain why invariance in one dimension does not yet guarantee consistency with another matrix dimension.
-
+The principle has a boundary. Singular-value invariance within a fixed matrix shape describes what the measurement sees. An ideal norm across many spaces also specifies how the measurement behaves under embeddings and bounded composition. Those are the extra rules that make finite-dimensional estimates portable.
 <!-- END SPOKEN LECTURE -->
 
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### An audible weak-majorization witness
+
+Let \(a=(3,2,1)\) and \(b=(4,1,1)\), both decreasing. The leading sums are
+\[
+(3,5,6)\le(4,5,6),\qquad a\prec_w b,
+\]
+but \(a_2>b_2\). Thus coordinatewise domination fails while
+\[
+\|a\|_{\ell^\infty}=3<4=\|b\|_{\ell^\infty},\quad
+\|a\|_{\ell^1}=6=\|b\|_{\ell^1},\quad
+\|a\|_{\ell^2}=\sqrt{14}<\sqrt{18}=\|b\|_{\ell^2}.
+\]
+A two-sided ideal norm satisfies, for compatible bounded maps \(L,R\) and \(A\) in the ideal,
+\[
+\|LAR\|_{\mathcal I}\le\|L\|_{op}\,\|A\|_{\mathcal I}\,\|R\|_{op}.
+\]
+This cross-space law is separate from unitary invariance of each fixed matrix space.
+
 
 For a fixed matrix shape, a unitarily invariant norm satisfies \(\|UAV\|_\Phi=\|A\|_\Phi\) for unitary \(U,V\) and is determined by a symmetric gauge \(\phi\) via \(\|A\|_\Phi=\phi(\sigma(A))\). The triangle inequality uses
 \[

@@ -8,7 +8,7 @@
 
 A scalar equation of the form a times x minus x times b equals c is easy to solve: provided a and b differ, x equals c divided by their difference. If a and b coincide, there is either no solution or an entire family of solutions, depending on c.
 
-For diagonal matrices, each entry of the unknown matrix satisfies exactly this kind of scalar equation. Choose a left coefficient matrix with diagonal entries zero and five, and a right coefficient matrix with entries two and three. The four denominators are negative two, negative three, three and two. None is zero, so every matrix entry of the solution is uniquely determined by the corresponding entry of the right-hand side.
+For diagonal matrices, each entry of the unknown matrix satisfies exactly this kind of scalar equation. We will use two-by-two coefficients throughout: the left operator has eigenvalues one and four, and the right operator has eigenvalues zero and three. The four spectral differences are one, negative two, four, and one. None is zero, so every entry of the solution is determined by the matching entry of the right-hand side.
 
 The distances between the two spectra control these denominators. They show immediately why the equation is solvable in a matrix entry sense, and why the Hilbert–Schmidt norm admits a direct estimate from squared entries. But an operator-norm estimate involves the combined action of all entries, not a separate absolute value bound on each one.
 
@@ -49,6 +49,8 @@ Divide corresponding entries. The solution X has first row two, negative three a
 Let's verify directly. A X has first row two, negative three and second row eight, forty. X B has first row zero, negative nine and second row zero, thirty. Subtracting gives first row two, six and second row eight, ten, exactly C.
 
 The check also fixes the order of multiplication. If we had written X A or B X instead, the denominators would be attached to the wrong row or column.
+
+Notice one small piece of the example. The upper-right entry of C is six, but the spectral difference for that entry is negative two. So the corresponding entry of X is negative three. The negative sign is dictated by the spectral locations, not by a negative entry in the data. Once we understand this one entry, the other three are the same operation with different denominators.
 
 ## Why uniqueness follows
 
@@ -132,17 +134,33 @@ For self-adjoint A, its operator norm equals the reciprocal of the distance from
 
 The full Sylvester problem is a two-sided generalization: instead of one scalar b, the right action has many spectral values, and every left-right pair creates its own denominator.
 
-## What to reconstruct
+## What the argument establishes
 
-Solve the two-by-two example and verify by direct multiplication. Prove the uniqueness statement by subtracting two solutions. Then classify existence and free parameters when A and B share an eigenvalue of multiplicities r and s.
+Our two-by-two example has one negative spectral difference and three positive ones. Entrywise division solves every component regardless of sign. For the upper-right component, six divided by negative two produces negative three, and direct substitution verifies the result.
 
-Derive the Frobenius bound from the coefficient formula, and produce a one-entry example attaining equality. Finally, write the spectral-projection formula for the solution and show why it is independent of the chosen bases inside repeated eigenspaces.
-
+The Frobenius estimate works because matrix units form an orthonormal basis for that norm. Squared coefficient bounds add directly. An operator-norm estimate must control how all those coefficients act together on one vector. The difference is a feature of the norm, rather than a missing algebraic step in the entrywise solution.
 <!-- END SPOKEN LECTURE -->
 
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### The same two-by-two data from opening through verification
+
+Take
+\[
+A=\operatorname{diag}(1,4),\quad B=\operatorname{diag}(0,3),\quad
+C=\begin{pmatrix}2&6\\8&10\end{pmatrix}.
+\]
+Then \(\delta=1\) and
+\[
+(a_i-b_j)_{ij}=\begin{pmatrix}1&-2\\4&1\end{pmatrix},\quad
+X=\begin{pmatrix}2&-3\\2&10\end{pmatrix},\quad AX-XB=C.
+\]
+The squared Frobenius norms are \(\|X\|_{S_2}^2=117\) and
+\(\|C\|_{S_2}^2=204\). The sharp general estimate reads
+\(\|X\|_{S_2}\le\delta^{-1}\|C\|_{S_2}\); this particular \(C\) does not attain equality.
+
 
 For diagonal \(A=\operatorname{diag}(a_i)\) and \(B=\operatorname{diag}(b_j)\),
 \[

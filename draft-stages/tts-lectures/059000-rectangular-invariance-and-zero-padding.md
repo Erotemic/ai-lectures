@@ -6,9 +6,9 @@
 
 # The same map inside a larger space
 
-Let A map a two-dimensional input vector with coordinates x and y to the three-dimensional output vector with coordinates twice x, y, and zero. Now add a fourth output coordinate that is always zero. The geometry of the map has not changed: it still stretches its input axes by factors two and one.
+Take a map from two-dimensional input space to three-dimensional output space. It stretches the first input coordinate by four and the second by two, using the first two output directions. The third output direction stays empty. Now place its output inside a four-dimensional space with another unused direction.
 
-The new matrix has another row of zeros, so its list of singular values is the original list together with a zero. For unitarily invariant matrix norms built from the singular values, such padding does not change the norm. For rank statements and dimension-sensitive theorems, however, we must still record which zero values were added by the ambient spaces.
+The map has the same two nonzero stretches, four and two. Its source Gram operator still has just two eigenvalues, sixteen and four. The output Gram operator acquires another zero eigenvalue. The positive singular values stay the same, and so do consistent singular-value norms. The exact number of zeros depends on which Gram operator and which indexing convention we use.
 
 There are two operations to distinguish: changing coordinates by unitaries on the existing input or output space, and embedding the operator into a larger rectangular space by adding inactive directions. Both preserve positive singular-value data, but their domain and codomain declarations differ.
 
@@ -24,7 +24,9 @@ Its adjoint followed by itself is a two-by-two diagonal matrix with entries sixt
 
 Its self-composition with the adjoint, in the other order, is a three-by-three diagonal matrix with entries sixteen, four, and zero. The positive eigenvalues are still sixteen and four, with an extra zero because the output space has an unused direction.
 
-Now place the entire output space inside a four-dimensional space by appending one more zero row. The adjoint Gram operator is unchanged. The positive singular values are unchanged, and so are the operator, Frobenius, and nuclear norms.
+Now place the output space inside a four-dimensional space by appending one more zero row. The source Gram stays two-by-two, with eigenvalues sixteen and four. The new output Gram is four-by-four, with sixteen, four, zero, and zero on the diagonal. We have added a zero output eigenvalue, but no new input singular direction.
+
+The operator norm remains four. The Frobenius norm remains the square root of twenty. The nuclear norm remains six. This is the same numerical map, represented in a larger codomain.
 
 This calculation suggests a general proof.
 
@@ -102,21 +104,36 @@ Those operations frequently involve isometric inclusions, adjoints of those incl
 
 Adding zero coordinates changes neither the positive singular values nor any unitarily invariant measurement determined by those values. Indeed, the source Gram operators before and after zero-padding are the same up to an isometry of coefficient spaces.
 
-We will actively suppress its off-diagonal blocks by a process called pinching, and prove that this operation cannot increase any unitarily invariant norm compatible with the contraction laws.
+A residual does not become larger simply because we store its output in a larger orthonormal coordinate system. That is the practical point of padding invariance. Erasing a nonzero component, by contrast, is a genuine change to the map and must be treated as a contraction or compression, with a separate inequality.
 
-## What to reconstruct
+## What the argument establishes
 
-Compute both Gram operators for the three-by-two example. Then append a zero output row and verify that the source Gram operator does not change. Append a zero input column and identify the extra zero eigenvalue of the new source Gram operator.
+The one map with stretches four and two gives a reliable test. Adding unused output space changes the codomain and the zero multiplicity of the output Gram, while leaving the input Gram exactly the same. Adding unused input directions creates zero singular directions in the input Gram as well.
 
-Prove the identity J adjoint J equals the identity for an isometric embedding. Use it to prove equality of nonzero singular values under output inclusion.
-
-Finally, construct a dimension-dependent invariant norm that fails zero-padding invariance, and explain exactly which cross-dimensional compatibility property is missing.
-
+The principle is preservation of the nonzero singular-value data under isometric padding. It becomes a norm equality only after we choose a norm family compatible with those embeddings. Projecting away a nonzero output direction is a different operation and can strictly reduce the measured size.
 <!-- END SPOKEN LECTURE -->
 
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### Track both Gram operators, rather than a single list of zeros
+
+For \(A:\mathbb R^2\to\mathbb R^3\), set
+\[
+A=\begin{pmatrix}4&0\\0&2\\0&0\end{pmatrix},\quad
+A^*A=\operatorname{diag}(16,4),\quad
+AA^*=\operatorname{diag}(16,4,0).
+\]
+After an output inclusion \(J:\mathbb R^3\hookrightarrow\mathbb R^4\),
+\[
+(JA)^*(JA)=\operatorname{diag}(16,4),\qquad
+(JA)(JA)^*=\operatorname{diag}(16,4,0,0).
+\]
+After adding a zero input column instead, \(\widetilde A:\mathbb R^3\to\mathbb R^3\) has
+\(\widetilde A^*\widetilde A=\operatorname{diag}(16,4,0)\).
+The full source- and target-indexed zero multiplicities differ, while the positive singular spectrum is \((4,2)\) throughout.
+
 
 If \(J:F\hookrightarrow G\) is an isometry, then \(J^*J=I_F\), so
 \[

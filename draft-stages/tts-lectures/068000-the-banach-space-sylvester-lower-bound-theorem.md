@@ -10,7 +10,7 @@ Consider the equation four times x minus x times one equals six. Dividing by fou
 
 The same idea works for operators between Banach spaces. If A has a bounded inverse and the operator obtained by multiplying on one side by that inverse and on the other by B is a contraction, we can solve the Sylvester equation and bound the solution. The resulting estimate depends on concrete norm hypotheses. It does not follow from disjoint spectra alone.
 
-Our goal is to derive the estimate, explain what compatible means, distinguish the printed statement from a stronger reusable variant, and connect the result to spectral intervals without assuming that mere disjointness is enough.
+The essential question is what replaces scalar division when the unknown is a map between two different spaces. The bound comes from moving one term to the other side, using an inverse on the output space, and measuring a contraction. We will keep each of those jobs separate.
 
 ## Set up two Banach spaces
 
@@ -62,7 +62,7 @@ That is Theorem five point one's principal estimate. The constant is exactly one
 
 ## Why the hypothesis is stronger than spectral disjointness
 
-The existence theorem we just studied needed disjoint spectra, but it did not impose a size bound on the resolvents that enter its contour formula.
+Disjoint spectra guarantee solvability for bounded complex operators through a resolvent argument, but that fact alone gives no constant-one estimate from spectral distance in an arbitrary Banach-space norm.
 
 Here we demand a specific bound on the inverse of A and on the norm of B. This is much more quantitative.
 
@@ -112,15 +112,15 @@ The inequality we have derived applies to any T and C satisfying the Sylvester e
 
 Under the bounded inverse hypotheses, we can also prove existence by a separate Neumann-series argument. Define the linear map that sends T to A inverse T B. Its operator norm is at most gamma divided by gamma plus delta, strictly less than one. Repeated application therefore produces a convergent geometric series.
 
-Starting from A inverse C, sum its successive images under that contraction. The series converges in the complete space of bounded cross-operators, and the sum solves the fixed-point equation. Thus existence follows as an additional argument.
+Starting from A inverse C, sum its successive images under that contraction. The series converges in the complete space of bounded cross-operators, and the sum solves the fixed-point equation. If C belongs to a complete compatible operator ideal, the same geometric bound makes the series converge in its ideal norm as well. Existence follows by this additional argument, with the relevant completeness hypothesis explicit.
 
 The estimate attributed to Theorem five point one concerns a solution that is already given. Existence and uniqueness of a solution require additional arguments, and should not be inferred from this inequality alone.
 
-## Reconstruct the argument
+## Why the bound has constant one
 
-There are only three algebraic moves to remember. First, shift both diagonal blocks by the same scalar when useful. Second, solve for T using a bounded left inverse of A. Third, use the two-sided ideal inequality and collect the T terms.
+Begin with a scalar equation and a geometric series: an inverse handles the main coefficient, and the remaining smaller coefficient produces a contraction. For operators, the same picture works when the inverse on the output space and the right coefficient have operator norms whose product is strictly below one.
 
-The final estimate has no dimension factor and no reference to eigenvectors. That is why it is so useful when a perturbation argument passes from a finite matrix to a Banach-space operator setting.
+The ideal inequality measures each composition without counting coordinates. Collecting the unknown terms leaves the gap margin delta times the unknown norm bounded by the known residual norm. The constant is one because no dimension-dependent comparison was needed. The result gives a stable bound for any solution; constructing that solution uses a separate convergent series.
 
 <!-- END SPOKEN LECTURE -->
 

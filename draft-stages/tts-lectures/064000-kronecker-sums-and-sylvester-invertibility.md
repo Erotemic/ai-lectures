@@ -8,7 +8,7 @@
 
 Consider the matrix equation A X minus X B equals C. Even when X is a matrix of many unknown entries, the left-hand side is linear in X. We can therefore treat the equation as one linear system on a larger vector space whose coordinates are the entries of X.
 
-For a diagonal left matrix with eigenvalues one and four and a diagonal right matrix with eigenvalues two and three, the four scalar coefficients are negative one, negative two, two and one. The full linear system is invertible because none of these coefficients vanishes.
+For a diagonal left matrix with eigenvalues one and four and a diagonal right matrix with eigenvalues zero and three, the four scalar coefficients are one, negative two, four, and one in row-by-row order. None vanishes, so the full linear system is invertible. When we stack columns, the same coefficients appear in a different order: one, four, negative two, one.
 
 The Kronecker product describes that system without manually writing every entry. Under the usual column-stacking convention, left multiplication by A becomes a Kronecker factor involving A, while right multiplication by B becomes a different factor involving the transpose of B. Their difference is the Kronecker form of the Sylvester operator.
 
@@ -31,6 +31,8 @@ What happens to left multiplication by A? Each column of X is transformed by the
 What happens to right multiplication by B? It mixes the columns of X according to B's coefficients. The resulting matrix is described using the Kronecker product: the matrix of S is identity of size n tensor A, minus the transpose of B tensor identity of size m.
 
 The transpose is important. Right multiplication mixes column labels in the opposite index order from left multiplication. If we forget that transpose, the displayed Kronecker formula generally becomes false.
+
+There is a practical listening check: multiplying X on the left by A changes each column separately. Multiplying on the right by B mixes the columns with one another. The tensor formula simply encodes those two visibly different operations in a single large matrix.
 
 A tensor or Kronecker product is just a systematic way to build a block matrix. If R has scalar entries and T is another matrix, their Kronecker product replaces each entry of R by that entry multiplied by the full matrix T. No abstract tensor theory is needed to verify the formula, only the row and column indices.
 
@@ -88,9 +90,9 @@ In the bounded-operator setting, S acts on a space of bounded linear maps betwee
 
 In finite dimensions, disjoint spectra guarantee invertibility of S by our triangularization argument. In infinite-dimensional Banach spaces, that same general conclusion requires a deeper theorem: the Sylvester–Rosenblum result, which uses resolvents and contour integration. We will prove its mechanism after studying exponential representations.
 
-For now, rebuild the vectorization formula by examining one entry at a time. Verify the four-by-four diagonal example. Then prove the finite invertibility criterion by triangularizing A and B, and explain why the large-M example defeats a naive universal norm bound.
+The diagonal example says exactly what the larger matrix records: all four left-minus-right spectral differences, with column stacking deciding their order. Triangularization shows that the same difference spectrum persists even without eigenbases.
 
-These are three different accomplishments: describing S, deciding whether S is invertible, and controlling the size of its inverse. We will use all three in the perturbation theory to come.
+Invertibility answers whether the equation has a unique solution. The large upper-triangular example shows that this answer says little about its numerical size: a fixed spectral distance can coexist with a growing inverse norm for nonnormal operators. The shape of the coefficients is therefore essential when passing from solvability to a stable bound.
 
 <!-- END SPOKEN LECTURE -->
 

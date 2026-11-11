@@ -8,11 +8,13 @@
 
 Suppose a self-adjoint matrix A has eigenvalues five and six, while another self-adjoint matrix B has eigenvalues one and two. Every eigenvalue of A lies at least three units above every eigenvalue of B. This is an ordered spectral gap, stronger than mere separation of the two spectral sets.
 
-For the scalar equation a x minus x b equals c, the denominator a minus b is then positive and at least three. In a matrix equation the coefficients act on opposite sides of X, so entrywise division is not the most useful general argument. Instead, consider the expression obtained by applying the decaying exponential of negative t A on the left of C and the growing exponential of t B on the right. The ordered gap ensures the combined norm decays at least like e to the negative three t.
+For the scalar equation a times x minus x times b equals c, the denominator a minus b is positive and at least three. Here is a way to hear the operator construction before its notation. Imagine carrying a signal forward along the right-hand spectrum while simultaneously damping it along the left-hand spectrum. Each spectral pair experiences the difference of the two rates, and that difference is at least three.
+
+The matrix version uses an exponential on each side of the known map C. One exponential alone may grow if the eigenvalues are negative; the point is that the product of both bounds decays at least at rate three. We can integrate that decay to recover the solution.
 
 Integrating this expression from zero to infinity constructs a solution of the Sylvester equation and gives a constant-one norm bound. We will derive the integral through differentiation and explain exactly where self-adjointness and spectral order enter.
 
-When the spectra are interlaced but still disjoint, this same decaying-integral proof no longer applies with one fixed sign. That distinction will determine the bounds available in the later operator equation.
+When the spectra are interlaced but still disjoint, this same decaying-integral proof no longer applies with one fixed sign. The spectral geometry, rather than mere nonintersection, explains when this constant-one operator-norm argument is available.
 
 ## What ordered separation says
 
@@ -58,7 +60,7 @@ Multiply the two bounds. The factors involving c cancel. What remains is the exp
 
 Using the product estimate for operator norms, the norm of our integrand is at most the exponential of negative delta times t, multiplied by the norm of C.
 
-This is the central estimate. The same spectral gap that appears in the denominator of the solution controls the rate of decay of the integrand.
+This is the central estimate. The arbitrary cut c has disappeared from the final bound. The only rate that survives is the gap delta between the two spectral regions. That cancellation is why this proof yields a dimension-free constant of one in operator norm, whereas a bound obtained by separately counting matrix entries would not.
 
 ## Integrate the norm bound
 
@@ -104,7 +106,7 @@ If the order is reversed, with A entirely below B, we can exchange the direction
 
 Finally, be careful about hypotheses. The exact decay proof used self-adjoint functional calculus and a common ordered cut. Mere nonoverlap of spectral sets does not provide the same semigroup estimate.
 
-Reconstruct the scalar integral first, then the two exponential bounds, then the derivative identity. Those three steps give the existence, uniqueness, and constant-one estimate.
+The scalar reciprocal becomes a time integral. The ordered spectral gap guarantees the integrand decays in operator norm, and differentiation shows that integrating it solves the Sylvester equation. The three steps together give existence, uniqueness, and the sharp constant-one estimate. The conclusion depends on spectral order; pairwise nonintersection alone does not justify this particular decaying integral.
 
 <!-- END SPOKEN LECTURE -->
 
