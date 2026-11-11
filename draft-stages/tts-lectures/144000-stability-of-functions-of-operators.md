@@ -76,7 +76,13 @@ A bound on each scalar quotient is necessary, but an operator-norm estimate of t
 
 We can make that distinction into a complete finite-dimensional proof. Let the new operator B have eigenvalues mu and the original operator A have eigenvalues lambda. Use the orthogonal spectral projections of B on the left and of A on the right. A block of the perturbation H between those eigenspaces equals mu minus lambda times their overlap block. The corresponding block of f of B minus f of A equals f of mu minus f of lambda times the same overlap block.
 
-For different eigenvalues we therefore divide one scalar difference by the other to express the function-difference block as a multiplier of the H block. If the two eigenvalues coincide, the H block is zero, and we can assign that multiplier zero. Now sum the *squares* of the Frobenius norms of all these blocks. They are pairwise orthogonal in Hilbert–Schmidt inner product because both families of spectral projections are orthogonal. If f is scalar Lipschitz with constant L on the union of the two spectra, each block changes by at most L times its H block, so the whole Frobenius norm changes by at most L times the Frobenius norm of H.
+On one pair of eigenspaces, the function difference is the perturbation block multiplied by a scalar divided difference. That scalar compares how much f changes between the two eigenvalues with how far apart the eigenvalues are. If the eigenvalues coincide, the perturbation block is zero and we may assign the multiplier zero there.
+
+Now square the Frobenius norm of each block and add. Because distinct blocks use orthogonal input and output eigenspaces, their squared Hilbert–Schmidt lengths add without cross terms.
+
+If f is Lipschitz on the combined two spectra with constant L, every divided difference has magnitude at most L. Each function-difference block then contributes at most L squared times the corresponding perturbation energy. Adding yields a full Frobenius bound: the Frobenius norm of f of B minus f of A is at most L times the Frobenius norm of B minus A.
+
+The conclusion uses the squared-sum structure of Frobenius norm. The same entrywise comparison does not establish an operator-norm bound.
 
 This result is stronger than a vague warning that scalar Lipschitz conditions may fail. They do give constant L for finite-dimensional Hilbert–Schmidt perturbations. The obstacle is specifically extending such entrywise bounds to operator norm, arbitrary unitarily invariant norms, or infinite-dimensional operator-Lipschitz claims without additional structure.
 

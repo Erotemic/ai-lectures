@@ -8,17 +8,23 @@
 
 The printed universal minimization claim of Proposition four point four fails already in a four-dimensional real inner-product space. We will construct two acute two-dimensional subspaces and an orthogonal transporter whose whole-space trace-norm displacement is smaller than that of the canonical direct rotation. Both the principal angles and the displacement singular values will be computed exactly.
 
-## Start with an orthogonal four-by-four matrix
+## Build an orthogonal motion from two planes
 
-Let U be the plane spanned by the first and second standard coordinate vectors in real four-space. Define a matrix W by taking one half of the following four-by-four sign matrix. Its first row is one, minus one, minus one, minus one. Its second row is one, one, one, minus one. Its third row is minus one, minus one, one, minus one. Its fourth row is one, minus one, one, one.
+Start in real four-dimensional space. Let U be the plane of the first two coordinate axes. We will define a transporter W by its action on two orthogonal planes.
 
-The matrix looks cumbersome when read aloud, but it has a simple property: each row has four entries of magnitude one, and distinct rows have dot product zero. After multiplication by one half, each row has length one. Thus W is orthogonal.
+Take one plane spanned by two normalized vectors: the sum of the first and third coordinate directions, and the sum of the second and fourth. Rotate this plane by ninety degrees, sending the first of these normalized vectors to the second. Fix its orthogonal complementary plane point by point.
+
+This specifies W completely. We can determine its effect on the source plane and its displacement directly from these two actions.
+
+A ninety-degree rotation preserves lengths and inner products on its plane. The identity preserves them on the perpendicular plane. Because the planes are orthogonal, their combined action W is orthogonal on all of real four-space.
 
 Define V to be W of U. By construction W is admissible as a transporter from U to V. We now need to determine the geometric position of V and then compare the costs of W and the canonical direct rotation.
 
 ## Verify both principal angles
 
-Use the first two columns of W as an orthonormal basis of V. Their top two coordinates form the two-by-two matrix whose rows are one half times one, minus one and one half times one, one. This is the cross-Gram matrix between the standard basis of U and our chosen basis of V.
+To find the principal angles, apply W to the first two standard basis vectors. Their images form an orthonormal basis of V. Project those images back onto U.
+
+The projected first image has first two coordinates one half and one half. The projected second has coordinates minus one half and one half. These projected vectors are perpendicular and both have length one over square root of two.
 
 Multiply this cross-Gram matrix by its transpose. The result is one half times the two-by-two identity. Hence both singular values of the cross-Gram matrix are one over square root of two.
 
@@ -28,7 +34,7 @@ The geometry satisfies every condition relevant to the purported universal small
 
 ## Compute the competitor's displacement
 
-The special advantage of W is its own spectral decomposition. There is an orthonormal plane on which W makes a quarter-turn and an orthogonal complementary plane on which W acts as the identity. In the chosen standard coordinates, the turning plane is spanned by the normalized sums of the first and third basis vectors and of the second and fourth basis vectors. One can verify directly by applying the matrix to those two vectors that their images form a ninety-degree rotation.
+The construction already tells us the spectral behavior of W. On one plane it makes a quarter-turn; on the perpendicular plane it fixes every vector. We can compute its displacement singular values from those two actions.
 
 Thus the eigenvalues of W, after allowing complex eigenvalues to describe a real rotation, are positive i, negative i, one, and one. Its displacement operator identity minus W has singular values square root of two, square root of two, zero, and zero.
 
@@ -114,7 +120,21 @@ W=\tfrac12\begin{pmatrix}
 1&-1&-1&-1\\1&1&1&-1\\-1&-1&1&-1\\1&-1&1&1
 \end{pmatrix},\quad V=WU,
 \]
-the cross-Gram matrix has \(C^*C=\tfrac12I_2\), so \(\theta_1=\theta_2=\pi/4\). The singular values are
+For the geometric construction used in the narration, put
+\[
+a=\frac{e_1+e_3}{\sqrt2},\quad b=\frac{e_2+e_4}{\sqrt2},\quad
+c=\frac{e_1-e_3}{\sqrt2},\quad d=\frac{e_2-e_4}{\sqrt2}.
+\]
+These four vectors are orthonormal, and the displayed matrix satisfies
+\(Wa=b\), \(Wb=-a\), \(Wc=c\), \(Wd=d\).
+Thus its action is a quarter-turn on \(\operatorname{span}(a,b)\) and
+identity on its orthogonal complement. Expanding \(e_1=(a+c)/\sqrt2\)
+and \(e_2=(b+d)/\sqrt2\) recovers the first two columns of the
+matrix and the source/target cross-Gram calculation. In particular,
+\(P_UWe_1=(e_1+e_2)/2\) and
+\(P_UWe_2=(-e_1+e_2)/2\).
+
+The cross-Gram matrix has \(C^*C=\tfrac12I_2\), so \(\theta_1=\theta_2=\pi/4\). The singular values are
 \[
 s(I-W)=(\sqrt2,\sqrt2,0,0),\qquad
 s(I-D)=(\sqrt{2-\sqrt2},\sqrt{2-\sqrt2},\sqrt{2-\sqrt2},\sqrt{2-\sqrt2}).

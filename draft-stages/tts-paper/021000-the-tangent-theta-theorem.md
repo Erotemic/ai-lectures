@@ -40,7 +40,11 @@ Let F one be an isometric coordinate map onto U perpendicular, and let Lambda on
 
 An ordered spectral gap allows a constant-one Sylvester estimate on X. That immediately bounds the sine, since X has the same positive modulus as S. But the tangent is larger than the sine. Dividing by cosine without another argument would create an uncontrolled factor.
 
-Here is the decisive calculation for the operator norm. Choose a unit trial-coordinate vector y that is a right singular vector of S. Let its singular value be s, so the corresponding positive cosine magnitude is c, the square root of one minus s squared. Put v equal to the complementary component of E y. Then v has length s, and E adjoint v equals s squared times y.
+Choose a principal trial direction y with maximal unwanted overlap. Call its sine s and its cosine c. The sine measures how much lies outside the exact space; the cosine measures how much remains inside.
+
+Call the outside component v. It has length s, and its trial-space projection is s squared times y. This principal-vector identity supports the residual estimate.
+
+The corrected test vector has length c. Dividing by that positive cosine turns the sine into the tangent. The argument requires c greater than zero.
 
 Pair the residual R y with v. The unwanted block of A contributes at least alpha plus delta times s squared. The Ritz term contributes at most alpha times s squared. Therefore the real part of this pairing is at least delta times s squared.
 

@@ -94,7 +94,11 @@ The graph also turns an invariant-subspace question into an equation for a slope
 
 For the output to stay on the same graph line, the vertical component must equal t times the horizontal one. Thus h plus d t equals a t plus h t squared. That quadratic equation is the scalar Riccati equation for the invariant line. Its linear part is a spectral-difference term, while the t-squared correction records the coupling back into the first coordinate.
 
-If a is zero, d is five, and h is one, the equation becomes one plus five t minus t squared equals zero. Its root near zero is five minus the square root of twenty-nine, all divided by two, approximately negative zero point one nine three. The other root is larger than five; it describes the other invariant line. The small root is close to negative one fifth, the first-order approximation obtained by neglecting the quadratic term. This makes the gap-controlled rotation visible in an exact calculation. For higher-dimensional blocks, t becomes an operator, and the quadratic term becomes an operator product. The graph representation lets us analyze the invariant subspace without choosing an eigenbasis inside it.
+Take the simplest coupled two-by-two matrix: its diagonal values are zero and five, with off-diagonal coupling one. A line close to the first coordinate axis can be written as a graph with slope t. Asking that the matrix preserve that line gives the scalar Riccati equation: one plus five t minus t squared equals zero.
+
+The root near zero is approximately negative point one nine three. This is close to negative one fifth, the slope obtained by dropping the quadratic term. That approximation has a meaning: the coupling is one while the diagonal gap is five, so the tilt should be roughly coupling divided by gap, with the appropriate sign.
+
+The other root lies above five and describes the other invariant line. In larger blocks, t becomes an operator and the square t squared becomes a noncommuting product. The graph construction preserves the same question: which tilted subspace remains invariant?
 
 <!-- END SPOKEN LECTURE -->
 

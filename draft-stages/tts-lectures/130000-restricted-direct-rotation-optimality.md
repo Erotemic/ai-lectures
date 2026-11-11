@@ -46,9 +46,17 @@ To see the direct list explicitly, consider a principal vector u with principal 
 
 Here is a numerical example. Take two source directions with principal angles thirty and sixty degrees. The direct restricted displacement has singular values approximately one point zero and zero point five one eight. Any unitary carrying the source plane onto the target must have its first singular value at least one and its second at least zero point five one eight. This conclusion allows the competitor to mix the two directions.
 
-Here is an actual competitor that mixes them. Place the two source directions in four-dimensional space, with independent principal planes. The first makes a sixty-degree angle with its target vector, and the second a thirty-degree angle. Instead of mapping each source vector to its corresponding target vector, let the competitor send the first source vector to a target combination obtained by a ten-degree rotation within V. Send the second source vector to the perpendicular target combination. These two images remain orthonormal, so this is an isometry on U that extends to an orthogonal map of the ambient space.
+The pointwise Gram comparison fails even for a small internal mixing. Take two orthogonal source directions in four-space. The first is sixty degrees from its matched target, the second thirty degrees away. Their canonical target vectors are also orthogonal.
 
-What happens to its displacement Gram matrix? In the principal source coordinates, the direct rotation has a diagonal cosine-overlap matrix: one half in the first entry, and square root of three divided by two in the second. The mixed competitor multiplies this matrix by a ten-degree planar rotation. The restricted displacement Gram matrix is twice identity minus that overlap matrix and its transpose. Subtract the direct Gram matrix. The resulting two-by-two symmetric matrix has positive diagonal entries but a negative determinant, hence one negative eigenvalue.
+Build a competitor that maps the first source direction to a combination of those two target vectors, rotated by ten degrees within the target plane. Send the second source direction to the perpendicular combination. The images are still orthonormal, so this source map extends to an orthogonal map of all four-space.
+
+The competitor now mixes the two principal directions. Nevertheless the min–max argument still gives the lower bound for each ordered restricted-displacement singular value. It was designed for such mixing, rather than for a fixed principal basis.
+
+Look at the two-by-two Gram matrix of restricted displacement. In principal source coordinates, the overlap with the target has diagonal entries one half and square root of three over two. For the mixed competitor, multiply that overlap by the ten-degree rotation.
+
+The displacement Gram matrix is twice the identity minus the overlap and its transpose. Subtracting the direct-rotation Gram matrix produces a symmetric two-by-two difference. Its diagonal entries are positive, but its determinant is negative. Hence one direction has a negative quadratic value.
+
+So the direct Gram matrix is not pointwise smaller in positive-semidefinite order. The theorem survives because it compares *ordered singular values* through min–max, a weaker kind of comparison that still controls every unitarily invariant norm of the restricted displacement.
 
 So it would be false to claim that the direct displacement Gram operator is below the competitor's Gram operator in positive-semidefinite order. Nevertheless the min–max argument just proved that the competitor's singular values cannot be smaller than the two principal chords. Its conclusion survives precisely because it uses a carefully chosen subspace for each index rather than a pointwise comparison for all source vectors.
 

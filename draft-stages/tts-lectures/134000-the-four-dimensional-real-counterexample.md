@@ -52,7 +52,11 @@ Set theta equal to forty-five degrees. The two nonzero singular values of identi
 
 For D, all four singular values are equal. Each is approximately point seven six five. Exactly, it is the square root of the quantity two minus square root of two. Adding four copies gives a trace cost of approximately three point zero six one.
 
-The decimal comparison is clear, but there is also a short exact check. Both costs are positive, so we may square them without changing which is larger. The direct cost squared is sixteen times the quantity two minus square root of two. The competing cost squared is eight. The first exceeds the second precisely when square root of two is less than three halves. That last inequality holds because two is less than nine quarters.
+The decimal comparison tells us which cost is smaller. To verify it exactly, both costs are positive, so compare their squares.
+
+The direct trace cost squared is sixteen times two minus square root of two. The competitor cost squared is eight. Subtracting gives a positive quantity precisely when square root of two is less than three halves. That last statement follows by squaring again: two is less than nine quarters.
+
+So the strict improvement is an exact inequality, with no reliance on rounding.
 
 This supplies two acute real subspaces, an admissible orthogonal transporter, and a specific invariant norm for which the direct rotation loses. That is enough to disprove a statement asserting that D minimizes *every* such norm under a sixty-degree threshold.
 

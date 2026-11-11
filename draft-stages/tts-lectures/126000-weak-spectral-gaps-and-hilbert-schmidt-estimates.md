@@ -32,7 +32,13 @@ We get delta times the Frobenius norm of X at most the Frobenius norm of C. This
 
 The proof works because the Frobenius norm is exactly the square root of the sum of squared matrix entries in every pair of orthonormal bases. The operator norm lacks that decomposition, so the entrywise argument cannot simply be recycled.
 
-For a concrete picture, take the left diagonal entries one and negative one, and the right diagonal entries zero and two. The four differences, reading across the rows, are one, negative one, negative one, and negative three. Each magnitude is at least one. The Sylvester equation divides the four entries of its right-hand matrix by these four numbers. As a map on the four-dimensional space of matrix entries, that inverse has norm exactly one in Euclidean length. Euclidean length on matrix entries is the Frobenius norm. The same inverse can have a larger norm when matrices are measured by their largest singular value.
+Work with a two-by-two unknown matrix X. Let the operator multiplying it on the left have eigenvalues one and negative one. Let the operator on the right have eigenvalues zero and two.
+
+The Sylvester equation acts on each matrix entry by multiplying it by a difference of those eigenvalues. Reading across the first row, the differences are one and negative one. Across the second row, they are negative one and negative three. None is smaller than one in magnitude.
+
+If the forcing matrix is C, solving the equation divides each entry of C by its corresponding difference. The sum of squares of the entries can therefore only decrease. That sum of squares is the square of the Frobenius norm. It gives the constant-one Hilbert–Schmidt estimate immediately.
+
+The operator norm measures the largest stretching direction of the whole matrix. It is sensitive to how entries cooperate. Dividing every entry by a number of magnitude at least one does not give the same constant-one assertion in that norm. The spectral geometry must justify a stronger estimate separately.
 
 ## Carry the argument into Hilbert space
 
@@ -44,7 +50,9 @@ Integrating the squared magnitude of the transformed operator gives the same est
 
 For unbounded operators we must first justify the expression on the common domain or via spectral cutoffs. The inequality then survives by convergence in the Hilbert–Schmidt norm where the inputs have finite square energy. It is not permission to compose two arbitrary unbounded operators everywhere.
 
-The useful order of the argument is to localize both spectral variables in bounded intervals, apply the scalar squared inequality to the resulting bounded multipliers, and then enlarge the intervals. The limiting step uses the Hilbert-space norm on Hilbert–Schmidt operators. A bound on each finite cutoff is enough only after this convergence has been established. Otherwise an unbounded product might not even have a meaningful action on the proposed operator X.
+The infinite-dimensional proof follows the same matrix-entry idea, except that the entries are replaced by a continuous distribution of spectral coordinates. First keep only spectral values in bounded intervals. Within those intervals, multiplication by the inverse spectral difference is well defined and uniformly bounded by one over the gap.
+
+Now enlarge the intervals. Hilbert–Schmidt operators form a Hilbert space, so their spectral cutoffs converge in its squared-sum norm. That convergence passes the estimate to the limit. We need this step because, for unbounded operators, writing a product of operators does not guarantee that every input belongs to the required domains.
 
 ## Insert the trial-space residual
 

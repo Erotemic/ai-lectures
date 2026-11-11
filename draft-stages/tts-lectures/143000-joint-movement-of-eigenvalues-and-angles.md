@@ -74,9 +74,17 @@ That is a genuinely joint inequality. It allocates one finite perturbation-energ
 
 We can derive its basic intuition from orthogonal eigenvector expansions. Express the perturbation between eigenbases of the two operators. Its Frobenius energy is the sum of squared spectral differences weighted by squared cross-overlaps. Split this sum into matched diagonal contributions and off-diagonal mixing. A lower bound on each off-diagonal spectral denominator gives the rotation term; the matched terms give eigenvalue displacement. The two contributions add before we compare against the perturbation energy.
 
-Here is the underlying finite-dimensional identity, before making any separation estimate. Take complete orthonormal eigenvector bases u-j for A and v-i for B. Record how much of each new eigenvector lies along each old one. The weights are the squared absolute overlaps; every row and every column adds to one. Expand the Frobenius norm squared of B minus A in those two bases. The exact result is the sum over every pair i and j of the squared difference between the new eigenvalue mu-i and old eigenvalue lambda-j, multiplied by that overlap weight.
+To account for both eigenvalue motion and eigenvector rotation, take an eigenbasis for A and another for the perturbed operator B. Each new eigenvector is a combination of the old ones. Record the squared magnitudes of those coefficients in a table.
 
-For our two-level model, diagonal matching weights are cosine squared theta, and cross-matching weights are sine squared theta. If r is the positive new eigenvalue and a is the old positive eigenvalue, the exact Frobenius budget is twice the smaller eigenvalue shift squared times cosine squared theta, plus twice the sum r plus a squared times sine squared theta. This is exactly twice t squared, the Frobenius norm squared of the off-diagonal perturbation. No estimate has been used yet. A joint theorem begins by deciding which parts of that exact budget can be bounded by the gap and a chosen matching.
+Every row and column of the table sums to one because both bases are orthonormal. A large entry near the expected diagonal means that the corresponding eigenvectors remain closely aligned. An off-diagonal entry records leaked weight.
+
+Now expand the Frobenius norm squared of B minus A in those two bases. Every pair of an old eigenvalue and a new eigenvalue contributes its squared difference, multiplied by the corresponding overlap weight. This is an identity, before invoking any spectral gap. The gap becomes useful when we bound contributions from off-diagonal weights.
+
+Return to the two-level matrix. The squared overlap table has cosine squared theta on its matched diagonal and sine squared theta off the diagonal.
+
+Call the positive old eigenvalue a and the positive new one r. The matched entries carry the eigenvalue shift r minus a. The crossed entries carry the larger separation r plus a. The Frobenius energy is twice the squared shift times cosine squared theta, plus twice the squared sum r plus a times sine squared theta.
+
+For this off-diagonal perturbation, that exact total also equals two t squared. The identity exposes how one fixed perturbation budget pays for both eigenvalue movement and angular leakage. A joint estimate begins by bounding the crossed spectral differences using an actual separation hypothesis.
 
 This is the right mathematical model for Question ten point three, though it does not settle every possible best-constant or block-multiplicity version of that question.
 

@@ -42,7 +42,13 @@ This sign reversal is the structural opening. A positive gradient eigenvalue mus
 
 A general real orthogonal matrix can contain many simultaneous rotations. Why can the minimizing one be divided into much smaller pieces?
 
-The gradient is obtained from the eigenphases of the orthogonal map. A rotation through phase phi has displacement chord twice the sine of half phi. Differentiating its p-th power gives p times the chord to power p minus one, multiplied by cosine of half phi. This derivative starts at zero, rises to one maximum, and then falls to zero as the phase approaches a half-turn. The turning point occurs when the square of the tangent of half phi equals p minus one. At exponent three halves, the maximum occurs near seventy-one degrees: one lower phase and one higher phase can give the same gradient value, but no third phase can. Thus for exponents strictly between one and two, fixing a positive gradient level leaves at most two permitted phase branches. So on that level the optimizer acts through a two-phase operator. This is a restriction caused by stationarity and the scalar shape of the Schatten cost, rather than a restriction imposed at the outset.
+We need to understand why a gradient level can support only a small number of rotation phases. For one rotation through phase phi, the displacement chord is twice the sine of half phi. Raising that chord to power p gives its contribution to the cost.
+
+Differentiate with respect to phi. The slope is p times the chord to power p minus one, times the cosine of half phi. For p strictly between one and two, this slope starts at zero, rises to one peak, and then falls back to zero at a half-turn.
+
+The peak occurs when the square of the tangent of half phi equals p minus one. At p equal three halves, the peak is near seventy-one degrees. A horizontal line below it meets the slope curve in at most two phases.
+
+Thus one positive gradient level allows at most two rotation phases. This follows from the cost function before any principal-plane decomposition.
 
 Two phases still need not determine a preferred basis when an eigenvalue has multiplicity. The argument uses the reflection of K and complex conjugation, which remembers that the original matrix is real. Invariant complex lines and planes can be chosen compatibly with these symmetries. Pair each positive-gradient piece with its negative-gradient reflection and descend to the original real space. The resulting mutually orthogonal blocks have real dimension two or four. Each block is preserved by both the actual optimizer and the projection onto K.
 
@@ -60,7 +66,11 @@ Therefore every two-dimensional restriction achieves its true one-angle minimum,
 
 ## Recover the original angle labels
 
-A two-dimensional block supplies one principal angle; a four-dimensional block supplies two. Because both source and target projections reduce each block, the combined list of block angles is exactly the original list of principal angles of K and L, including multiplicities. No angle can disappear or be counted twice. Assign one label to each two-dimensional block and two labels to each four-dimensional block. This is a matching on the original angle indices. For example, suppose there are three positive angles. A decomposition with one four-dimensional block and one two-dimensional block makes exactly one pair and one singleton. Three two-dimensional blocks leave all three angles unmatched. The proof has shown that some globally optimal transporter fits one of those possibilities, even though the original search allowed mixing among all three planes.
+We have reduced the optimizer to orthogonal blocks, and each block preserves the source and target projections. In a two-dimensional block the source and target are lines, so it contributes one principal angle. In a four-dimensional block they are both planes, so it contributes two.
+
+The principal angles of the whole pair are obtained by gathering the angles from all these blocks. Every original angle, including every repeated one, appears in this combined list. Think of placing a separate label on each positive angle before any pairing occurs.
+
+Give one label to a two-dimensional block. Give two labels to a four-dimensional block and connect them as a pair. Since the blocks are disjoint, no label belongs to two pairs. We have constructed a matching from the geometry of the actual optimizer, rather than from a guess about how the principal directions ought to be coupled.
 
 Zero angles can be removed without changing the optimal cost: directions shared by K and L need no displacement. A four-dimensional block's unrestricted pair cost is the smaller of its positive-determinant pair cost and the sum of its two singleton minima. If the second choice wins, replace that pair by two unmatched labels. We obtain a matching using positive-angle labels and the designated pair weights, with exactly the cost of T star.
 

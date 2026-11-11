@@ -42,7 +42,11 @@ Let A be an ordinary rotation by theta inside the two-dimensional source coordin
 
 What changes is W's action on the ambient four-space. Two orthogonal planes, built by pairing a vector with its quarter-turned copy, reveal the answer. On one such plane W is the identity. On the other it is a rotation through twice theta. The direct map D instead rotates two planes through theta each.
 
-Therefore the displacement singular values of D are four copies of twice the sine of half theta. Those of W are twice the sine of theta, repeated twice, followed by two zeros. The extra internal motion has redistributed displacement among the ambient directions. Two directions now do not move at all; the other two move farther. Keep that picture in mind before taking a norm: fewer moving directions can lower a sum of lengths, even when it raises the largest displacement.
+Now measure how much each ambient direction moves. The direct rotation gives four equal displacement singular values. Each is twice the sine of half theta. All four directions contribute.
+
+The coupled transporter has a different list: twice sine theta, twice sine theta, zero, zero. On a suitable two-plane the vectors move farther, while on its perpendicular two-plane the map acts as the identity.
+
+The trace norm adds the four lengths before squaring any of them. It can therefore reward the coupled map for leaving half the directions fixed, despite its larger maximum displacement. The operator norm asks the opposite question: how far does the most affected direction move?
 
 For trace norm the direct cost is eight times the sine of half theta. The coupled map costs four times the sine of theta. The double-angle formula says this second cost equals the first times the cosine of half theta. For every strictly positive theta, that cosine is less than one. Thus W has strictly smaller trace cost, even if theta is far below sixty degrees.
 

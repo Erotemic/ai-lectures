@@ -50,7 +50,11 @@ The norms whose squares can be written as invariant norms of the positive Gram o
 
 Here is the practical meaning. If we care about the single worst displacement, or about the sum of squared displacements, direct rotation wins. If we care instead about the sum of unsquared lengths, we have changed the question.
 
-Trace norm is different. It sums the singular values before any squaring. In the example from our opening, the direct rotation has four equal singular values of about point seven six five, giving trace cost three point zero six one. The coupled map has two singular values of about one point four one four and two zeros, giving trace cost two point eight two eight. Squared energy and largest displacement favor D, but trace cost favors the coupled map.
+Go back to the two four-element displacement lists. The direct rotation gives about point seven six five in every position. The coupled transporter gives about one point four one four in two positions and zero in the other two.
+
+The maximum entry favors the direct rotation. So does the sum of squares. But trace norm adds the entries directly: about three point zero six one for the direct rotation, versus two point eight two eight for the coupled map.
+
+These are three answers to three different questions about the same motions. Before applying an optimality theorem, we must ask whether it measures the largest movement, total squared movement, or total movement length.
 
 Thus the printed general statement about **every** invariant norm of unsquared ambient displacement cannot be correct. An acute two-subspace pair in real four-space refutes it, and an equal-angle family gives the same failure at every strictly positive angle.
 

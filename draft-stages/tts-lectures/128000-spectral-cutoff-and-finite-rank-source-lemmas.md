@@ -28,7 +28,11 @@ The proof depends on a min–max characterization, not on an invalid assertion o
 
 The dimension in that argument is fixed before the cutoff grows. This order of quantifiers is important.
 
-The identity operator on square-summable sequences shows exactly what the statement buys. Cut off to the first m coordinates. The cutoff operator has m singular values equal to one, followed by zeros. For any fixed index n, its nth singular value eventually becomes one, agreeing with that of the identity. Yet the operator-norm error between the cutoff and the identity stays equal to one for every m. Fixed-index convergence is real information, and it does not imply uniform convergence over all singular-value indices.
+Take square-summable sequences, and let the cutoff keep only the first m coordinates. Apply the cutoff to the identity operator. Its first m singular values are one, and every later singular value is zero.
+
+Pick a fixed position in the singular-value list, say the tenth. Once m reaches ten, the value in that position is one forever. So singular values converge at every fixed index.
+
+But the cutoff still discards the next coordinate entirely. There is always a unit vector supported just beyond the cutoff on which the error has length one. The operator-norm error therefore stays one. A fixed position in the list settles down even though the worst missed direction never does.
 
 ## Compactness gives a stronger statement
 
@@ -78,7 +82,9 @@ Form L equal to Q K. Since its range lies in Q, L has rank at most n. Split the 
 
 The block-invariance hypothesis identifies L P with K P. Therefore the energy of L is the energy of K P plus the energy of the leakage operator.
 
-Write the identity as an energy budget. The left side is the total squared Hilbert–Schmidt norm of Q K. On the right are the energy already caught by the chosen source P and the extra energy entering the same target Q from the source complement. The two source pieces are orthogonal, which makes the cross term vanish. We therefore get an equality of squared energies, rather than a triangle inequality with a loss in the constant.
+Think of the Hilbert–Schmidt norm as adding squared output lengths across orthogonal input directions. Split those inputs into directions selected by P and directions perpendicular to P. Their outputs may land in the same target subspace Q, but their squared Hilbert–Schmidt contributions add exactly.
+
+The total energy of Q K is therefore the energy contributed by Q K P plus the energy contributed by Q K on the source complement. If the selected part already uses nearly all the available leading singular-value energy, the complementary part has very little left. This proves the leakage conclusion by subtraction of squared energies, with no triangle-inequality loss.
 
 Left compression by Q cannot increase any approximation singular value. Hence the leading n energy of L is at most that of K. Since L has rank at most n, its total Hilbert–Schmidt energy is already its leading n energy. Combine this bound with the energy budget:
 

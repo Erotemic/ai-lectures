@@ -104,7 +104,11 @@ In the Hilbert space of square-summable sequences, let P sub N keep the first N 
 
 Yet the operator norm of identity minus P sub N is one for every N: choose the unit vector supported at coordinate N plus one. This moving test vector depends on N, so it does not contradict convergence for each fixed x.
 
-For the diagonal unbounded operator multiplying coordinate n by n, finite-coordinate truncations are convenient because their range stays inside the operator domain. On an actual domain vector, both the vector and its weighted image can be approximated by finite-coordinate truncations. This is graph-norm convergence. It is a stronger assertion about domain vectors than strong convergence of the projections on the ambient Hilbert space, but it still does not claim norm convergence of the cutoffs as operators on that space.
+Return to the diagonal operator that multiplies coordinate n by n. Its domain consists of sequences for which the weighted sequence is still square summable.
+
+A finite-coordinate cutoff has finite support, so its output belongs to the domain. For an original domain vector, the omitted ordinary coordinates have vanishing squared sum. So do the omitted coordinates after multiplication by n.
+
+Both tails tend to zero. That is graph-norm convergence: we approximate the vector and its image under the unbounded operator. Strong convergence on the ambient space alone controls only the first tail.
 
 ## Passing from bounded estimates back to unbounded ones
 

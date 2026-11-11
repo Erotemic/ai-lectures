@@ -28,7 +28,11 @@ Write the polar decomposition of E zero as W times its modulus. Because E zero i
 
 If the smallest singular value of E zero is epsilon, then the inverse of its modulus has operator norm at most one over epsilon. That one inequality will explain the entire normalization penalty.
 
-Consider a concrete two-column frame in three-dimensional space. Let the exact selected subspace be the plane spanned by the first two coordinate axes. The first trial column is twice the first basis vector. The second is one quarter of a unit vector tilted through angle theta from the second axis toward the third. The two columns are orthogonal, with lengths two and one quarter. Their Gram matrix is diagonal, with entries four and one sixteenth. Its square root is diagonal with entries two and one quarter.
+Picture an exact horizontal plane in three-dimensional space, spanned by the first two coordinate axes. We measure how far a trial plane rises out of it.
+
+Use two trial columns. The first points along the first coordinate axis and has length two. The second has length one quarter. It tilts away from the second coordinate axis toward the vertical axis through an angle theta. The columns are perpendicular, but their lengths differ by a factor of eight.
+
+Their Gram matrix measures those column lengths squared: four and one sixteenth on the diagonal. Taking its positive square root recovers the lengths two and one quarter. This is the matrix we divide out when we turn the columns into an orthonormal frame. The small second column then becomes a unit vector with the same tilt theta.
 
 The smallest frame length is one quarter, so epsilon is one quarter. The normalized frame W has two unit columns; its second column still makes angle theta with the selected plane. Normalization changes the coordinates and the residual's scale, while the trial subspace and its angle stay the same.
 
@@ -62,7 +66,11 @@ Combine this with the Sylvester bound. The conclusion is delta times epsilon tim
 
 The two factors have different sources. Delta comes from spectral separation. Epsilon comes from frame conditioning. Neither can be omitted without changing the data being estimated.
 
-We can finish the two-column calculation. Set the ambient operator to the diagonal matrix with entries zero, zero, and d, for positive d; take the trial operator A zero to be zero. The exact complement has eigenvalue d. Only the tilted trial column produces a residual, of length d times sine theta divided by four. Thus the residual operator has a single nonzero singular value of that size. The raw cross operator X has singular value sine theta divided by four, while the normalized directed sine S has singular value sine theta. The gap is d and the lower frame bound is one quarter. Every inequality in the chain is equality, in both operator norm and Frobenius norm.
+Return to the tilted second column. Choose the ambient diagonal operator with eigenvalues zero, zero, and positive d. It ignores horizontal motion and multiplies the vertical coordinate by d. Choose the trial operator to be zero.
+
+The long first column has no vertical component, so its residual vanishes. The shorter column has vertical component one quarter times sine theta. Applying the ambient operator makes its residual length d times sine theta divided by four. That is the only nonzero singular value of the residual.
+
+The unnormalized cross projection has size sine theta divided by four. Once we normalize the frame, the geometric sine is simply sine theta. We have gained a factor of four in the normalized sine because we divided out the quarter-length column. The lower frame bound, one quarter, restores the correct scale: gap d times one quarter times sine theta equals the residual length. Here the estimate is exact.
 
 The calculation also shows why it is the smallest frame length that enters: the residual is concentrated in the column whose normalization requires the largest amplification.
 

@@ -48,7 +48,11 @@ To relate those diagonal blocks to the full G, use **pinching**. Let J be the re
 
 A two-by-two example makes the direction of the inequality visible. Start with the positive matrix having diagonal entries three and off-diagonal entries two. Its eigenvalues are five and one. Pinching to the coordinate axes gives the diagonal matrix with entries three and three. The largest eigenvalue drops from five to three; the sum of both eigenvalues remains six. The smaller eigenvalue has grown. So pinching controls the cumulative largest eigenvalues. It does not say that each individual eigenvalue goes down.
 
-We can check this mechanism in the line-rotation example too. A reflection across the line halfway between source and target has the same source displacement energy as the direct rotation: twice one minus the cosine of theta. But on the source-perpendicular direction its displacement energy is twice one plus the cosine of theta. Those are the diagonal blocks of the reflection's squared displacement. Its full squared-displacement eigenvalues are four and zero, because a reflection fixes one direction and reverses the other. Pinching removes the cross terms, leaving just the two diagonal energies. The direct rotation has the smaller first diagonal energy on both source blocks, with equality on the source line, and the prefix comparison follows. This is the abstract proof made visible in a two-by-two matrix.
+Return to a single source line, its target line, and angle theta between them. The direct rotation moves both plane directions by the same chord length. Its squared-displacement operator is a scalar matrix on that plane.
+
+Now choose the reflection that also carries the source line to the target. It moves one direction not at all and reverses the perpendicular direction. Relative to the original source line and its complement, the squared-displacement operator has diagonal energies two times one minus cosine theta, and two times one plus cosine theta.
+
+The first energy matches the direct rotation's source energy. The second is larger. The reflection can therefore have a very different full operator even though the source-line calculation alone looks optimal. This is why we must control both halves before comparing whole-space motion.
 
 For D, something special happens. On a principal plane, D plus its adjoint is twice the cosine of the principal angle times the identity. The squared-displacement operator for D is therefore scalar on each such plane. It already respects the split into U and U perpendicular. Pinching D changes nothing.
 
@@ -60,7 +64,11 @@ Can we turn that result into a theorem about the norm of identity minus W? Somet
 
 More generally, for a Schatten p norm with p at least two, the square of the Schatten p norm of a matrix X equals the Schatten p-over-two norm of X adjoint X. Since p over two is at least one, that second expression is a genuine unitarily invariant norm. Norms with such a representation are called Q-norms, and the squared theorem gives optimality for their unsquared displacements as well.
 
-Why does this reasoning fail for the trace norm, the sum of singular values? Its square contains cross terms between different singular values. In fact, it cannot arise as a norm of X adjoint X in this way. To see the obstruction, look at a two-by-two diagonal matrix with entries one and zero. A hypothetical norm M representing the square of trace norm would assign its Gram matrix value one. The same holds with the one in the other diagonal position. But for the identity matrix, the squared trace norm is four. The triangle inequality for M would bound its value by one plus one, or two. That contradiction identifies the failed step: the purported M is not a norm.
+What goes wrong if we use trace norm? Start with a diagonal matrix having singular values one and zero. Its trace norm is one, and the square of that norm is one. For a diagonal matrix having singular values zero and one, the same is true.
+
+A hypothetical norm of the Gram matrix representing squared trace norm would assign value one to each of the two coordinate projections. The triangle inequality would then force its value on their sum, the identity, to be at most two.
+
+But the identity has trace norm two. Squaring gives four. That contradicts the proposed representation. The obstruction is the cross terms produced when we square a *sum* of singular values. Pinching still controls squared-displacement spectra; it cannot by itself produce a trace-norm theorem for the unsquared displacement.
 
 ## Return to two equal principal angles
 

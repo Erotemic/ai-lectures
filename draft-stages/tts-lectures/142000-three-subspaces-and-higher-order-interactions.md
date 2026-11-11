@@ -32,7 +32,11 @@ These four identities constrain the three-way overlaps. Arbitrary collections of
 
 A genuine obstruction already appears with three one-dimensional pieces. Suppose someone proposes a table of *squared overlap magnitudes* with these rows: one half, one half, zero; then one half, zero, one half; then zero, one half, one half. Every row adds to one. Every column also adds to one. So the table passes all length-distribution tests.
 
-But try to build the first two unitary columns. Both must have nonzero first coordinates of magnitude one over square root of two. The first column's other nonzero coordinate lies in row two; the second column's other nonzero coordinate lies in row three. When we take the inner product of those two columns, the only overlapping nonzero terms come from row one. Their product has magnitude one half, whatever phases we choose. The columns cannot be orthogonal. Therefore no unitary matrix realizes that table. Row and column normalization alone do not capture the cross-column cancellation conditions.
+Now test whether that normalized overlap table could actually come from a unitary matrix. A unitary's columns must be orthogonal.
+
+The first proposed column has a nonzero first coordinate and a nonzero second coordinate, each of magnitude one over square root of two. The second has a nonzero first coordinate and a nonzero third coordinate of the same size. Their nonzero positions overlap in exactly one row: the first.
+
+In the inner product of the two columns, all other terms vanish. The remaining term has magnitude one half, regardless of which complex phases we assign. There is nothing available to cancel it. The two columns cannot be orthogonal, so no unitary realizes the table. Row and column sums alone did not enforce the needed cancellation.
 
 ## Why an intermediate block matters
 
@@ -64,7 +68,11 @@ A first-order eigenvector correction to the lowest eigenvector points toward the
 
 The exact coefficient can be computed from the eigenvector equation, rather than guessed from that approximation. The lowest eigenvector satisfies three coupled scalar equations. Eliminating its middle component produces an effective first-to-third term containing the product s times t and two spectral denominators. This is a Schur-complement mechanism: a middle coordinate mediates an interaction between endpoints that have no direct matrix coupling.
 
-Write the low eigenvalue as lambda, and write its corresponding eigenvector with first, middle, and last coordinates x, y, and z. The last eigenvector equation says that z equals minus t times y divided by g minus lambda. The middle equation says that s times x equals lambda times y plus t squared times y divided by g minus lambda. Eliminate y. The exact ratio of z to x is the negative product s times t, divided by a denominator equal to lambda times the difference g minus lambda, plus t squared.
+We can make the middle-coordinate mechanism exact. Let lambda be the lowest eigenvalue, and let x, y, z be the three coordinates of its eigenvector. The matrix has a coupling s from the first coordinate to the middle, and a coupling t from the middle to the last. There is no direct first-to-last coupling.
+
+The last coordinate equation expresses z in terms of y: multiply y by minus t, then divide by g minus lambda. Substitute that into the middle equation. Now y can be expressed in terms of x.
+
+After this elimination, the ratio of the last coordinate to the first contains the product s times t in its numerator. Two couplings were needed to get from one end to the other. The denominators record the two spectral obstacles. This is the concrete meaning of a Schur complement in the three-coordinate model.
 
 When the couplings are small compared with g, the low eigenvalue is close to minus g. The denominator therefore approaches minus two g squared. The first-to-third coordinate ratio approaches s times t divided by two g squared, to leading order. That factor of two has a concrete origin: the low level is one gap below the middle level but two gaps below the high level. An estimate that remembers only the smallest gap misses that coefficient.
 

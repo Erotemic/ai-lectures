@@ -38,7 +38,11 @@ Choose a unit trial vector z realizing the largest directed principal angle thet
 
 Let T be the Rayleigh–Ritz compression of A to Z. Since z is in Z, the quadratic form of T at z is at most alpha. Since w is in W, the quadratic form of A at w is at least alpha plus delta.
 
-Take the inner product of the residual R z with w. Because V reduces A, its cross terms with W vanish; the ambient A term therefore contributes sine theta times the quadratic form of A at w. The Ritz term contributes sine theta times the quadratic form of T at z. Here the principal-vector identity is essential: the projection of w onto Z is sine theta times z, even though z need not itself be a Ritz eigenvector.
+Fix a principal vector z in the trial subspace and its paired perpendicular direction w. The angle between the trial and exact spaces is theta. The crucial identity is that the trial-space projection of w equals sine theta times z. It is a geometric statement about principal vectors; it does not say that z is a Ritz eigenvector.
+
+Now take the inner product of the residual applied to z with w. Because the exact space reduces A, the ambient operator contributes sine theta times its quadratic form at w. The Ritz operator contributes sine theta times its quadratic form at z, with the opposite sign. The residual therefore measures the difference of those two Rayleigh quotients, multiplied by sine theta.
+
+This is where the tangent proof gets its starting estimate. We still need the Galerkin orthogonality argument to turn that sine factor into the sharper tangent factor.
 
 The unwanted energy is at least alpha plus delta; the Ritz energy is at most alpha. Subtract those two bounds and retain the common sine factor. We obtain an inner product of R z with w of at least delta times sine theta. This is the spectral-gap estimate in one chosen principal direction.
 

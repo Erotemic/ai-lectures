@@ -34,7 +34,9 @@ In orthonormal eigenbases, the Sylvester solution is obtained by dividing each e
 
 This follows by diagonalizing the self-adjoint coefficients and estimating each squared matrix coefficient. No ordering of the spectra is required. The constant one is sharp in the scalar case.
 
-Why does the argument work? Because the Frobenius norm sees the matrix entries as coordinates in an inner-product space of operators. The spectral blocks are orthogonal in this square norm, so we can estimate each block separately and add the resulting squared inequalities.
+Take a two-by-two Sylvester equation in diagonal coordinates. Each entry of the unknown connects one left eigenvalue with one right eigenvalue. The equation says that their difference, multiplied by that entry, equals the corresponding residual entry.
+
+With a clean ordered gap, every one of those differences has the same sign and magnitude at least delta. An integral formula can then combine the entrywise divisions into one operator estimate with constant one. If the two spectra are interlaced, the signed differences point in opposing directions. In that setting the same entrywise bound still controls Frobenius energy, while the operator-norm constant needs a separate argument.
 
 A comparable statement extends to Hilbert–Schmidt operators on infinite-dimensional Hilbert spaces. There, square-summability replaces finite sums, and the Sylvester group has a self-adjoint generator acting on the Hilbert space of Hilbert–Schmidt maps.
 

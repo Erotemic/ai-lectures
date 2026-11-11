@@ -56,7 +56,11 @@ Yet the Frobenius comparison holds: X has squared Frobenius norm twenty-eight, w
 
 The numbers are useful for judging the size of the failure. The ratio between the operator norms is approximately one point two one seven. It already exceeds one with only two spectral values on each side. By contrast, the ratio between the Frobenius norms is the square root of twenty-eight divided by thirty-six, which is less than one. The gap is one in both comparisons; changing the norm is the entire reason the conclusions differ.
 
-To see exactly where the naive proof breaks, look at one column of the forcing matrix. Dividing its entries by the signed spectral differences can turn aligned contributions into a larger output for a suitable input vector, even though the magnitude of each individual entry decreases. The operator norm optimizes over such input vectors. Squaring entries before summing, as the Frobenius norm does, eliminates that interference.
+Why can dividing each entry by a number of magnitude at least the gap fail in operator norm? Imagine applying the resulting matrix to one input vector. Several entries contribute to the same output coordinate, and their signs determine whether those contributions reinforce or cancel.
+
+The inverse Sylvester map divides each entry by its own signed spectral difference. That operation can change the cancellation pattern. The largest output length can increase, even though no individual entry has grown.
+
+The Frobenius norm avoids this difficulty because it adds the squares of *individual entries*. Each entry shrinks, so their total squared sum shrinks. This is the part of the argument for which a distance-only gap is sufficient.
 
 This example proves that the constant-one operator-norm estimate cannot follow from pairwise spectral distance alone.
 
@@ -80,7 +84,11 @@ The proof is more delicate than entrywise division. One must construct a Fourier
 
 Optimality of the factor pi over two depends on the specified class of spectral configurations. It gives a general guarantee where the naive constant one fails. If more is known about the arrangement of spectra, stronger bounds can be recovered.
 
-One useful intermediate result involves low rank. If C has rank r, its Frobenius norm is at most square root of r times its operator norm. Combining that with the Frobenius Sylvester estimate and the fact that operator norm is at most Frobenius norm gives delta times the operator norm of X no greater than square root of r times the operator norm of C. It may be weaker than the Fourier bound for large r, but it is elementary and sometimes useful when r is small.
+Low-rank forcing gives an elementary fallback bound. Suppose the forcing matrix C has rank r. Its Frobenius norm is at most square root of r times its operator norm: there are at most r nonzero singular values, and none exceeds the largest.
+
+The distance-gap Sylvester estimate controls X in Frobenius norm by the Frobenius norm of C divided by delta. And the operator norm of X is at most its Frobenius norm.
+
+Putting those three steps in order gives an operator-norm estimate with constant square root of r over delta. It is a rank-dependent guarantee. When r is small it can beat the general distance-gap bound, while for large r it may be worse.
 
 For rank one, the elementary square-root-of-rank estimate does recover constant one, because a rank-one forcing term has equal operator and Frobenius norms. At rank two it gives square root of two, which is weaker than our actual two-by-two ratio but better than the general pi-over-two bound. These are three different kinds of claims: a particular counterexample gives a lower limit on a universal constant; the rank estimate gives an upper bound under an extra rank hypothesis; and the Fourier representation gives an upper bound without that rank hypothesis.
 

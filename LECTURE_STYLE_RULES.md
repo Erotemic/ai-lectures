@@ -78,6 +78,17 @@ Use short interpretive pauses in prose instead of reciting several identities
 in one sentence. The goal is an argument the listener can reconstruct without
 looking at the screen; artificial filler and repeated recaps do not help.
 
+**Make the calculation speakable.** When a proof requires a matrix with many
+entries, first explain what the matrix *does*: which subspace it preserves,
+which direction moves, and what property is being tested. Put the explicit
+coordinate array in the mathematical companion. In speech, work through one
+representative entry or projected vector and then explain how the remaining
+entries follow. Avoid reading entire matrix rows or long chains of exact
+radicals when the listener needs the geometric action first. For a norm proof,
+explain which quantity is being added, squared, or maximized before reciting
+the resulting inequality. This applies to previously revised lectures as
+well as new material.
+
 **Audio-first editorial test.** Read the extracted spoken region in order, with
 appendices and visuals hidden. At each mathematical transition ask: can the
 listener identify the current objects; perform or visualize the example; see

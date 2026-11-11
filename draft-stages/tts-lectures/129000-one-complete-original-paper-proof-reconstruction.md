@@ -82,7 +82,11 @@ Apply this identity to X and X prime. Because each of their prefix sums is bound
 
 This is Lemma six point one's forward direction. We did not need its converse, and we did not assume the component singular-value lists matched.
 
-A short numerical merge makes this step easier to hear. Imagine that the first cross map has singular values six tenths and one tenth, while the second has a singular value of four tenths. The ambient block sum has singular values six tenths, four tenths, and one tenth, in that order. Its first two have sum one. That sum comes from taking one singular value from each cross map, rather than blindly taking two from the first. The maximum-over-splits formula automatically considers every such choice. This example concerns the list-merging algebra; a particular pair of projection cross maps may impose further geometric restrictions on which lists occur.
+Here is the singular-value merge without any operators yet. The first list is six tenths and one tenth. The second contains four tenths. Put all three numbers together and sort them: six tenths, four tenths, one tenth.
+
+Suppose we want the largest two. They sum to one, taking the largest from each original list. Taking two values from the first list would have given only seven tenths. That is why a block direct sum requires considering every split of the number of values we keep.
+
+The example explains the list algebra. A concrete pair of projection cross maps may satisfy further geometric constraints; those are handled by the projection identities elsewhere in the proof.
 
 ## Prove the pinching step
 
@@ -98,7 +102,11 @@ This is Lemma six point two. It gives the constant one that would have been lost
 
 Write the perturbation as a two-by-two array of blocks, with input columns ordered as U and its perpendicular, and output rows ordered as V perpendicular and V. The two blocks used by the crossed equations occupy the upper-left and lower-right corners. The other two corners have no role in the crossed estimates.
 
-For an ordinary two-by-two numerical array, take entries three and four in the first row, and five and six in the second. Flipping the signs of both the second output row and the second input column changes the two off-diagonal entries from four and five to their negatives while retaining three and six. Averaging gives the diagonal array with entries three and six. Its Frobenius norm is the square root of forty-five, compared with the original square root of eighty-six. The same averaging argument works for *every* unitarily invariant norm because both sign flips are unitary, even when the Frobenius calculation is no longer available.
+You can hear the pinching calculation with a two-by-two array. Put three and four in its first row, and five and six in its second. Its off-diagonal entries are four and five.
+
+Flip the signs of the second output coordinate and the second input coordinate. That changes the signs of exactly the off-diagonal entries. Average this new array with the original. The fours and fives cancel, leaving diagonal entries three and six.
+
+The Frobenius norm has fallen from the square root of eighty-six to the square root of forty-five. More importantly, a sign flip is unitary. Unitary invariance and the triangle inequality show that the averaging step cannot increase *any* unitarily invariant norm. We will use that general fact, rather than the numerical Frobenius calculation, in the theorem.
 
 ## Put the inequalities together
 

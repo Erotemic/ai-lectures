@@ -32,7 +32,11 @@ Compress the residual with F one adjoint. Since U is reducing, the complementary
 
 We have reached the exact Sylvester equation. Its unknown is X, its right-hand side is the complementary part of the residual, and the two coefficient operators are precisely the operators in the spectral-gap hypothesis.
 
-To see how a gap enters, suppose both coefficient operators are diagonal matrices. The entry of X connecting one trial eigenvalue to one unwanted eigenvalue is multiplied by their difference. The corresponding residual entry must therefore supply at least the gap times that overlap. In a single trial dimension there is only one such division. In several dimensions, controlling all entries in the chosen norm is the content of the Sylvester estimate, so the precise separation hypothesis cannot be skipped.
+Picture one trial eigenvector and one unwanted eigenvector, with different eigenvalues. The Sylvester equation multiplies their overlap by the eigenvalue difference to produce the matching residual entry.
+
+If the difference is at least delta in magnitude, the residual entry must be at least delta times the overlap. In one dimension, this division is the entire estimate.
+
+With several trial directions, entries interact in operator norm. The Sylvester theorem gives their collective bound under its stated separation hypotheses. The scalar calculation supplies the picture, while the theorem supplies the matrix estimate.
 
 This is the critical connection between residual geometry and spectral separation. A small residual alone does not identify a small angle to an arbitrary exact subspace. The gap supplies the information about which complementary modes the residual must overcome.
 
