@@ -22,6 +22,8 @@ That difference appears in an inner product. The smaller rotation moves a horizo
 
 So positivity can help choose between transports. But in higher dimensions, merely asking that one particular inner product be positive is not enough. We need a condition on whole diagonal blocks of the operator, and we must keep track of how the two off-diagonal blocks relate.
 
+If the source is horizontal and the target lies thirty degrees above it, the direct rotation turns the plane thirty degrees. Both displacement singular values equal twice sine fifteen degrees. A reflection can map the same source to the same target but has displacement singular values two and zero. The transport condition alone does not determine the cost.
+
 ## Reassemble the two projections
 
 Write P for projection onto U and Q for projection onto V. A natural transport candidate K is the sum of Q P and the product of identity minus Q with identity minus P.
@@ -102,17 +104,13 @@ The same observation explains why the squared reflection product reverses. Its a
 
 We have therefore obtained more than a means of moving a subspace: we have a transport specified by the pair, positive on the diagonal, compatible with reversal, and geometrically a half-angle of two reflections.
 
-## Reconstruction
+## Why the canonical choice is identifiable
 
-There are four things to prove for yourself.
+Return to two real lines meeting at angle theta less than ninety degrees. The shorter rotation through theta takes the first line to the second, but infinitely many other orthogonal maps also do so. The canonical direct rotation is picked out by positivity of its cosine-type diagonal blocks, not merely by the condition that it transports one subspace to the other.
 
-First, calculate the polar modulus of K and show it is the positive cosine operator.
+In higher dimensions, the same choice is made simultaneously on the principal-angle planes. The polar factor identifies the transporter while keeping track of how it acts on both a subspace and its orthogonal complement. If the cosine operator has no bounded inverse, the crossed-defect conditions become important for obtaining a unitary polar factor; simple finite-dimensional intuition about an invertible cosine matrix is then insufficient.
 
-Second, explain why vanishing crossed defects makes the polar factor unitary even when cosine has no bounded inverse.
-
-Third, prove uniqueness: an intertwining unitary with positive diagonal blocks factors K as that unitary times a positive block-diagonal operator. Identify the latter with the modulus of K.
-
-Fourth, verify on an actual plane that two reflections give twice the angle, and explain why the principal half-angle branch fails at minus one.
+The half-angle picture also explains the branch boundary. Two reflections give twice the principal rotation, but a square root cannot select a unique principal half-angle when the reflected product reaches minus one. This is a geometric reason for keeping acuteness and defect hypotheses explicit.
 
 <!-- END SPOKEN LECTURE -->
 

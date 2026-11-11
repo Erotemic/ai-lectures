@@ -1,6 +1,6 @@
 # G3 — Audio paper track
 
-G3 is the shorter, paper-focused alternative to G2's 150-lecture comprehensive sequence.
+G3 is the shorter, paper-focused alternative to G2's 156-lecture comprehensive sequence.
 The browser exposes three course entries:
 
 - **G1 — Manim:** original animated presentations, served at `/`.
@@ -24,7 +24,9 @@ G3 assumes elementary linear algebra, singular values, Hilbert-space notation, a
 
 The first draft contains one newly written G3 course introduction and 26 adapted, independently listenable G2 recordings. This gives G3 27 complete TTS inputs now; it also makes the provenance of every adapted lecture explicit through `source_g2` entries in `track.json`.
 
-The next editorial pass should review the shortened sequence as a unit: remove repeated explanations across adjacent G3 recordings, strengthen transitions that matter for the 1970 paper, and decide where the assumptions can be shortened for the intended audience. Keep the six result recordings mathematically precise, especially the spectral-gap hypotheses, branch selection, ideal membership, Proposition 4.4's failed scope, and the real matching theorem's exponent and dimension restrictions.
+The November 2026 concept-first editing pass tightened the foundations-to-theorem narrative, added concrete checks for zero residuals, graph slopes, spectral cutoffs, and Ky Fan squared displacement, and replaced several exercise-style endings with mathematical conclusions. The four angle theorems and six Section 4 transport recordings retain their specialized hypotheses. The sidecars now include focused Wikipedia readings alongside existing papers and lecture notes; none of those links is spoken.
+
+Further content review should use learner feedback to target confusing passages and proof transitions, particularly the general ideal-norm reductions and the real matching theorem's global lower bound. The G3 sequence deliberately remains compact and does not duplicate G2's extended background lectures.
 
 The `metadata/` sidecars contain optional free learning resources and G2 source mappings. No metadata is narrated. Audio caching uses `visualizations/audio-cache/g3/`, separate from G2's existing cache; TTS profile and voice registration are shared.
 

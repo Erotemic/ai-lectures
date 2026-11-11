@@ -96,17 +96,13 @@ You can verify this directly from the two-by-two projection matrices. In this eq
 
 But do not conclude that the two directional errors are always equal. If U is a proper subspace of V, every vector in U lies in V, so identity minus Q followed by P is zero. Yet V has directions perpendicular to U, so identity minus P followed by Q has norm one. The difference of the projections has norm one. The maximum in our formula is essential.
 
-## What we have built
+## What these three measurements tell us
 
-We now have three complementary measurements. A cosine map tells us what remains inside a target subspace. A sine map tells us what escapes it. The difference of projections measures the larger of the two directional escapes.
+Consider again a line inside a plane. Every vector in the line lies in the plane, so its directed sine error toward the plane is zero. But a unit direction in the plane perpendicular to the line has a reverse sine error of one. This is why the norm of the difference between the two projections is one, even though one directed error vanishes.
 
-All three are constructed using operators we already know. None requires us to invent coordinates beyond those needed for a worked example. And the Gram identity tells us why the cosine and sine measurements come from the same principal directions.
+For equal-dimensional lines meeting at forty-five degrees, both directed errors instead equal one over the square root of two. The two cases involve the same projection formulas but different dimension and incidence geometry.
 
-Here is your reconstruction exercise. Starting only from the identities P squared equals P, Q squared equals Q, and the fact that both projections equal their adjoints, derive the formula for the square of P minus Q. Identify its two orthogonal blocks and explain why its norm is the maximum of the two directional projection errors.
-
-Then revisit a plane containing a line. Explain why one directional error vanishes while the reverse error does not.
-
-Inside each block, both projections will have simple two-by-two matrices, and sine and cosine will become visible together.
+A sine theorem can control the escape of a trial space from a target space using the map from trial coordinates into the target's complement. A symmetric projection-gap conclusion requires control in both directions, or hypotheses that make those errors agree. The Gram identity supplies the cosine-and-sine relationship within one direction; it does not erase this distinction.
 
 <!-- END SPOKEN LECTURE -->
 

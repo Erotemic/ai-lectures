@@ -824,7 +824,7 @@ media, references, reports and model caches remain untracked.
 
 ### Three course tracks in the lecture library
 
-The server exposes **G1 Manim** at `/`, **G2 comprehensive audio** at `/audio?track=g2` (150 recordings), and **G3 paper audio** at `/audio?track=g3` (26 recordings). The audio reader provides track selection, complete transcripts, lecture-wide progress, selectable voices, and on-demand TTS. The G3 syllabus and first-draft source mappings are under `draft-stages/tts-paper/`; see `docs/audio-library-on-demand.md`.
+The server exposes **G1 Manim** at `/`, **G2 comprehensive audio** at `/audio?track=g2` (156 recordings), and **G3 paper audio** at `/audio?track=g3` (27 recordings). The audio reader provides track selection, complete transcripts, lecture-wide progress, selectable voices, and on-demand TTS. The G3 syllabus and first-draft source mappings are under `draft-stages/tts-paper/`; see `docs/audio-library-on-demand.md`.
 
 ### Shared course graph (G1/G2/G3/G4)
 

@@ -6,9 +6,11 @@
 
 # The single-angle tangent theorem
 
-A trial subspace transverse to the exact orthogonal complement can be written as the graph of an operator from the exact subspace into its complement. Its slope has singular values equal to the tangents of principal angles. We now show how a spectral gap controls that slope using a residual. The result is a single-angle tangent theorem.
+Imagine approximating a horizontal eigenvector by a tilted line. At thirty degrees, the line has a modest slope. At eighty-nine degrees, its vertical component is still at most one, but its slope is enormous. Measuring only the sine of the angle cannot express that growth very well.
 
-The proof has a similar outline to the sine theorem, but one essential extra step. We must prove that the trial space never points exactly into the unwanted complement. Otherwise the cosine has a kernel and the tangent cannot be recovered from finite graph coordinates.
+The tangent theorem asks whether an operator residual and a spectral gap control the slope itself. To define that slope, projecting the trial line back onto the horizontal axis must never erase a nonzero trial vector. For subspaces, this is the transversality requirement: the trial space must not contain a direction entirely in the exact orthogonal complement.
+
+We will see that a suitable ordered gap between Ritz values and the unwanted exact spectrum both guarantees transversality and gives a sharp tangent estimate. The proof needs one additional geometric step beyond the sine theorem: Galerkin orthogonality supplies the cosine factor that turns a sine estimate into a tangent estimate.
 
 ## Fix the setting
 

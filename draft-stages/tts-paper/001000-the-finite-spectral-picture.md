@@ -114,13 +114,11 @@ We will eventually replace finite sums over eigenvalues by integration with resp
 
 For now, the finite theorem is a complete result in its setting.
 
-## Reconstructing the theorem
+## Why spectral projections are the useful conclusion
 
-Try to reproduce the induction without looking back. Where does the first eigenvector come from? Why does the perpendicular complement stay invariant? What makes the restricted operator self-adjoint? And how do we know the pieces span the original space?
+The diagonal matrix with entries two, two, and five offers a final check. Its first two coordinate axes carry the repeated eigenvalue two. Rotate those axes within their plane: both new vectors are still eigenvectors, so no particular pair of basis vectors is distinguished. But the projection that keeps the first two coordinates and discards the third stays the same.
 
-Then reconstruct the two-by-two example from its two spectral projections. Explain why changing the eigenbasis within a repeated eigenspace does not change its projection.
-
-That question leads to Rayleigh quotients, and eventually to the variational theory of eigenvalues.
+The spectral theorem tells us that an entire eigenspace can be recovered from its orthogonal projection, independent of how we choose a basis inside it. That is exactly the object to compare when a perturbation mixes the eigenvectors within an eigenvalue cluster. The variational viewpoint asks a related question: how can we recognize the order of the eigenvalues without first finding those eigenvectors?
 
 <!-- END SPOKEN LECTURE -->
 

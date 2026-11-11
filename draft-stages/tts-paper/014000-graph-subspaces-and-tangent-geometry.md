@@ -88,7 +88,11 @@ The graph operator gives an explicit way to reconstruct trial vectors from exact
 
 The norm of T bounds that relative complementary error. The largest principal tangent measures the worst slope, while symmetric singular-value norms describe how slopes are distributed across directions.
 
-This information is useful for perturbation theory because a graph can be manipulated algebraically. The invariance of a graph under a block operator leads to a Riccati equation, where the unknown is T. Indeed, substituting vectors of the form x plus T x into the invariant-subspace equation produces a Riccati equation, a nonlinear relation for the unknown graph slope T.
+The graph also turns an invariant-subspace question into an equation for a slope. For a real symmetric two-by-two matrix with diagonal entries a and d and off-diagonal entry h, apply the matrix to the graph vector with coordinates one and t. Its output has horizontal component a plus h t and vertical component h plus d t.
+
+For the output to stay on the same graph line, the vertical component must equal t times the horizontal one. Thus h plus d t equals a t plus h t squared. That quadratic equation is the scalar Riccati equation for the invariant line. Its linear part is a spectral-difference term, while the t-squared correction records the coupling back into the first coordinate.
+
+If a is zero, d is five, and h is small, the solution near the horizontal axis has slope approximately negative h divided by five. This is the same gap-controlled rotation visible in elementary perturbation theory. For higher-dimensional blocks, t becomes an operator, and the quadratic term becomes an operator product. The graph representation lets us analyze the invariant subspace without choosing an eigenbasis inside it.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -97,6 +101,12 @@ This information is useful for perturbation theory because a graph can be manipu
 ## Companion: mathematics and Lean correspondence (display only)
 
 For `H=U⊕Uᗮ` and bounded `T:U→Uᗮ`, the graph frame is `E=(I,T)(I+T*T)⁻¹ᐟ²`. Then `C=P_U E=(I+T*T)⁻¹ᐟ²`, `S=P_{Uᗮ}E=T(I+T*T)⁻¹ᐟ²`, and `|S|=|T|(I+|T|²)⁻¹ᐟ²`. Hence on the graph domain `tanΘ=|T|`. For a finite-dimensional trial isometry `X`, `tanThetaEmbedding U X` is the totalized map `sinThetaEmbedding U X ∘ moorePenroseInverse(cosThetaMagnitude U X)`; singular-value identification requires transversality.
+
+**Graph invariance as a Riccati equation.** With \(S=\begin{psmallmatrix}a&h\\h&d\end{psmallmatrix}\) and \(V_t=\operatorname{span}(1,t)\), the condition \(S(V_t)\subseteq V_t\) is
+\[
+ h+dt=t(a+ht),\qquad h+(d-a)t-ht^2=0.
+\]
+For \((a,d)=(0,5)\), the small root behaves as \(t=-h/5+O(h^3)\). This is the scalar form of the block identity \(B+A_-T=TA_++TB^*T\) with the indicated block orientation.
 
 ### Source declaration excerpts
 

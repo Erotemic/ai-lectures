@@ -104,6 +104,8 @@ We began with a self-adjoint T whose reducing subspace U lies on one side of a f
 
 The result has a clean constant and accommodates arbitrary angles, but it does not select the near-zero branch.
 
+For example, a principal angle of ten degrees and one of eighty degrees have exactly the same sine of twice the angle: sine twenty degrees equals sine one hundred sixty degrees. One subspace pair is close; the other is close to perpendicular. The doubled-sine bound alone sees the same number in both cases.
+
 A bound on the doubled sine alone does not rule out angles close to ninety degrees. To deduce a doubled-tangent bound, one needs additional conditions selecting the spectral branch and keeping every relevant angle strictly below forty-five degrees. Off-diagonal perturbations with appropriately matched spectral subspaces provide one such setting.
 
 <!-- END SPOKEN LECTURE -->

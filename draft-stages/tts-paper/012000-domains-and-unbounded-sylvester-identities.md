@@ -88,6 +88,14 @@ The existence of such a family is more useful than a single convenient formula. 
 
 The cutoff argument must establish each of those requirements. Merely having a sequence of bounded operators is insufficient if the cutoff introduces spectrum inside the needed gap or fails to converge on the original graph domain.
 
+## A cutoff that converges without becoming close in norm
+
+In the Hilbert space of square-summable sequences, let P sub N keep the first N coordinates and erase the rest. For each fixed sequence x, the discarded tail has length tending to zero. Thus P sub N converges strongly to the identity.
+
+Yet the operator norm of identity minus P sub N is one for every N: choose the unit vector supported at coordinate N plus one. This moving test vector depends on N, so it does not contradict convergence for each fixed x.
+
+For the diagonal unbounded operator multiplying coordinate n by n, finite-coordinate truncations are convenient because their range stays inside the operator domain. On an actual domain vector, both the vector and its weighted image can be approximated by finite-coordinate truncations. This is graph-norm convergence. It is a stronger assertion about domain vectors than strong convergence of the projections on the ambient Hilbert space, but it still does not claim norm convergence of the cutoffs as operators on that space.
+
 ## Passing from bounded estimates back to unbounded ones
 
 Suppose each cutoff equation yields a uniform bound on the cross map. The cutoffs converge strongly on fixed vectors, so we can pass the estimate to the limit for each vector. Taking the supremum over unit vectors then gives the operator-norm bound for the original X.
@@ -166,3 +174,5 @@ theorem reducesSubspace_specRange : _root_.LinearPMap.IsReducing A (specRange hA
 **Type and hypothesis map.** `X C : F →L[𝕜] E` are everywhere-defined bounded maps, but `A` and `B` are partial maps. The `LinearPMap.SylvesterEquation` hypothesis carries the domain mapping condition, which `equation_of_mem` uses together with the supplied witness `hx`. `SpectralCutoffInterface` separately records projection, range-in-domain, commutation-on-domain and strong convergence. `filledTruncation_eq_on_cutoff` gives a bounded operator that agrees with `A` where its domain has already been justified. `reducesSubspace_specRange` supplies the reducing conditions for a spectral range.
 
 **Scope:** The domain-aware equation is represented by `LinearPMap.SylvesterEquation`, with its domain-mapping requirement, while the cutoff and truncation interfaces state the precise approximation obligations. The cross-block identity is derived in the narration from reducing spectral restrictions and a bounded perturbation; no claim is made that one quoted declaration alone is the entire perturbation theorem. All excerpts are from the supplied repository snapshot.
+
+**Strong versus norm cutoff.** On \(\ell^2\), let \(P_N(x_1,x_2,\ldots)=(x_1,\ldots,x_N,0,\ldots)\). Then \(P_Nx\to x\) for every \(x\in\ell^2\), while \(\|I-P_N\|=1\) for every \(N\). For \(A(x_n)=(n x_n)\) with \(D(A)=\{x:\sum n^2|x_n|^2<\infty\}\), \(\|(I-P_N)x\|^2+\|A(I-P_N)x\|^2=\sum_{n>N}(1+n^2)|x_n|^2\to0\) for \(x\in D(A)\).

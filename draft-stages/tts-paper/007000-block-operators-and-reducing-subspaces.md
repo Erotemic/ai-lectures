@@ -96,9 +96,13 @@ We can recover the diagonal part by averaging T with J T J. We can recover the o
 
 That algebraic identity is a useful piece of future double-angle reasoning. A reflection can separate the part of an operator that respects a splitting from the part that crosses it, without choosing coordinates or explicitly writing a four-block table.
 
-## Check that you can reconstruct it
+## Read a perturbation from its blocks
 
-Try three small problems. First, given an operator on the plane and the horizontal axis, determine all four blocks by applying it to one horizontal and one vertical vector. Second, explain why the adjoint swaps the crossing blocks. Third, starting with the reflection that keeps M and reverses M perp, explain why conjugating an operator by the reflection changes exactly the off-diagonal signs.
+For the symmetric two-by-two matrix with diagonal entries zero and five, and off-diagonal entries equal to t, take the horizontal and vertical axes as the two blocks. The diagonal part remembers the original energies zero and five. The off-diagonal part sends each coordinate direction into the other, with strength t.
+
+Now apply the reflection that preserves the horizontal axis and reverses the vertical axis. The diagonal entries remain zero and five, while both off-diagonal entries change sign. Conjugating the matrix by that reflection changes t to negative t without altering the eigenvalues.
+
+This symmetry is more useful than a block notation alone. It provides the algebraic reflection behind the doubled-angle estimates. It also reveals why a perturbation restricted to diagonal blocks has a different effect from one that only couples the blocks.
 
 <!-- END SPOKEN LECTURE -->
 

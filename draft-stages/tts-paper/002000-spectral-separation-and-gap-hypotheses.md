@@ -98,17 +98,13 @@ Why? An eigenvector's Rayleigh quotient equals its eigenvalue. So the bounds on 
 
 That is the bridge between a geometric picture of two groups of eigenvalues and inequalities we can verify directly on vectors.
 
-## A diagnostic exercise
+## Test three spectral pictures
 
-Here are three questions to test whether the distinctions are clear.
+Place negative four and four in the selected group, and zero in the complementary group. Every selected value is four units from the complement, yet the selected group lies on both sides of it. There is a pairwise distance gap of four, but no ordered gap.
 
-First: selected eigenvalues are negative four and four, and the complement has eigenvalue zero. Is there a positive distance gap? Yes, of size four. Is there a global ordered gap between those two named blocks? No.
+Now place one and two in the selected group, and five and seven in the complementary group. The entire selected group lies below the complement, with ordered gap three. An exponential decay argument can exploit this consistent order, whereas it cannot do the same with the first configuration.
 
-Second: selected eigenvalues are one and two, and complementary eigenvalues are five and seven. What ordered gap is guaranteed? Three, with the selected group below the complement.
-
-Third: why does knowing the spectrum of the whole matrix not by itself tell you which gap a theorem is using? Because the theorem may compare *restricted* spectra associated with particular subspaces, or even restrictions belonging to two different operators.
-
-The lesson to carry forward is simple. Before applying a spectral theorem, draw the relevant groups on a number line. Then ask not just how far apart they are, but whether they are ordered, interlaced, or separated as an interval and its exterior.
+Finally, imagine the full operator has eigenvalues zero, one, and ten. That list alone does not identify a gap for a theorem about a chosen trial space: we must know which operator is compressed, which part of the exact spectrum is excluded, and which spectral sets the proposed bound compares. Drawing those labeled sets on a number line is often the fastest way to avoid applying the wrong inequality.
 
 <!-- END SPOKEN LECTURE -->
 

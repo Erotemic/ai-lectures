@@ -118,13 +118,13 @@ The eigenvalue differences are not decorative assumptions. They are the denomina
 
 Next we will carry out the entire calculation in diagonal coordinates, including a numerical example, the exact compatibility condition when denominators vanish, and the Frobenius bound.
 
-## What to reconstruct
+## From denominators to subspace angles
 
-Begin with the scalar equation and classify the cases a different from b and a equal to b. Verify the domain and codomain of every composition in A X minus X B.
+In the scalar equation, if a and b are different, x is c divided by a minus b. If they coincide, a nonzero c makes the equation impossible and a zero c leaves x undetermined. The denominator is the entire issue.
 
-Then use orthonormal eigenvectors u and v to derive the scalar coefficient equation. Explain how the spectral difference becomes an eigenvalue of the Sylvester operator acting on rank-one matrix units.
+For diagonal matrices, each matrix entry of the unknown has its own denominator: a left eigenvalue minus a right eigenvalue. A uniform positive distance between every such pair makes the Sylvester map invertible on the finite-dimensional space of matrices. But estimating the solution in operator norm requires more than estimating each matrix entry independently.
 
-Finally, distinguish three claims: the spectra do not intersect, their pairwise distance has a positive lower bound, and they are ordered on opposite sides of a gap. Identify which claim is strongest and why the distinction affects operator-norm estimates.
+In the subspace problem, the unknown matrix records components of trial vectors in an unwanted exact spectral subspace. The right-hand side is a compressed residual. We can therefore read a Sylvester inequality geometrically: a prescribed spectral separation prevents a small residual from concealing a large wrong-subspace component. The precise norm constant depends on the shape of that separation.
 
 <!-- END SPOKEN LECTURE -->
 

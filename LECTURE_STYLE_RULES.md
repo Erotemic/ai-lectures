@@ -558,7 +558,7 @@ For schema, validator, and editing workflow, see
 
 ## Course tracks (G1, G2, G3)
 
-G1 presents the existing Manim material. G2 is the comprehensive, expanding mathematical audio curriculum. G3 is the shorter, 26-lecture paper-focused audio curriculum. G3 assumes linear algebra, singular values, and elementary measure theory and ends with six result-focused lectures: the sine-theta, tangent-theta, sine-two-theta, and tangent-two-theta theorems, the Proposition 4.4 counterexample, and the real transport matching theorem.
+G1 presents the existing Manim material. G2 is the comprehensive, expanding mathematical audio curriculum. G3 is the shorter, 27-lecture paper-focused audio curriculum, including the standalone whole-space squared-displacement result. G3 assumes linear algebra, singular values, and elementary measure theory and presents the four angle theorems together, then closes with the Section 4 transport sequence through Proposition 4.3, the Proposition 4.4 counterexample, and the real transport matching theorem.
 
 Keep each track's lecture identifiers, transcript files, sidecars, and audio cache independent. Common mathematics may be reused, but each recording must stand alone for listening. Record reused G2 material in G3's `track.json`; edit G3 narration separately as the short curriculum is refined. Citation metadata stays outside the narrated region.
 

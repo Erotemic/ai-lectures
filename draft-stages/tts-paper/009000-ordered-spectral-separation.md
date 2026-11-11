@@ -96,13 +96,11 @@ The smallest gap is two, so our general conclusion is that the operator norm of 
 
 ## Sharpness and reversed order
 
-The constant one is optimal. Take one-dimensional spaces. Let A multiply by delta, B multiply by zero, and C multiply by one. Then X multiplies by one over delta, so the bound is an equality.
+The constant one cannot be decreased. In one dimension, let A multiply by delta, B multiply by zero, and C multiply by one. The unique solution multiplies by one over delta. Both sides of the proposed estimate are then equal.
 
-If the order is reversed, with A entirely below B, we can exchange the direction of time and the sign of the formula, or apply the result after swapping A and B. The same norm estimate holds. What matters is consistent ordering, not which operator is above.
+If A lies below B, the time direction in the exponential integral is reversed; the same norm estimate follows. The argument needs a common spectral cut and a consistent order, not a preference for which side is higher.
 
-Finally, be careful about hypotheses. The exact decay proof used self-adjoint functional calculus and a common ordered cut. Mere nonoverlap of spectral sets does not provide the same semigroup estimate.
-
-Reconstruct the scalar integral first, then the two exponential bounds, then the derivative identity. Those three steps give the existence, uniqueness, and constant-one estimate.
+That is the useful distinction: a gap between two ordered intervals supplies a decay mechanism for the whole operator. Separated but interlaced eigenvalues have denominators bounded away from zero entry by entry, yet they do not supply that one-sided decay. The difference becomes visible when operator norms, rather than sums of squared entries, are estimated.
 
 <!-- END SPOKEN LECTURE -->
 

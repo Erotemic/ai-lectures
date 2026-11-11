@@ -52,7 +52,7 @@ This definition has no arbitrary eigenbasis or angle choices. The spectral repul
 
 Theorem eight point one goes further: the maximal angle between P and this Q is strictly below forty-five degrees. Consequently the canonical branch is on the correct side of the doubled-angle ambiguity, even for large off-diagonal couplings.
 
-The source also proves uniqueness: a reducing subspace with the relevant spectral orientation and the closed quarter-angle characterization must coincide with Q. This is stronger than saying that some nearby subspace exists.
+There is a uniqueness statement as well. Among reducing subspaces satisfying the matched low-versus-high spectral placement, the selected low branch is Q. The quarter-angle condition is part of a precise characterization of this branch; the selection is not made by guessing an eigenbasis or choosing whichever eigenspace happens to look close in a plot.
 
 ## Recover the block compression inequality
 

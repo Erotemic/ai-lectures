@@ -66,13 +66,13 @@ There are also delicate endpoint questions. A theorem proved for exponents stric
 
 ## Scope of the matching theorem
 
-For real finite-dimensional Hilbert spaces with equal-dimensional source and target subspaces, and Schatten exponent p strictly between one and two, there is an orthogonal transporter attaining the matching minimum. Every admissible orthogonal transporter has pth-power displacement cost at least this value, and an optimizing matching can be realized geometrically.
+For real finite-dimensional spaces and source and target subspaces of equal dimension, with Schatten exponent p strictly between one and two, the minimum pth-power displacement cost is the minimum of the matching costs. There is a real orthogonal transporter realizing it, and every admissible transporter has at least that cost.
 
-The assumptions include finite dimension, a real inner product, equal source and target dimension, and p strictly between one and two. The conclusion concerns the pth power of the Schatten norm of identity minus the transporter; taking the pth root preserves comparisons because p is positive. The theorem does not state a universal result for arbitrary symmetric gauges or every exponent.
+A small calculation makes the competing possibilities concrete. Take two principal angles, thirty and sixty degrees, and let p equal three halves. If we choose the canonical direct rotation independently in the two principal planes, their chord lengths are approximately zero point five one eight and one. Each occurs twice among the displacement singular values. The resulting pth-power cost is about two point seven four five. That is an explicit feasible cost, not an assertion that it is the minimum.
 
-To reconstruct the argument, begin with principal planes, calculate the two equal singular values of a planar rotation, state the optimized one- and two-angle costs, and prove that any matching can be assembled by orthogonal direct sum. Then identify the genuinely difficult converse: ruling out an ambient transport more efficient than every matching. That converse is why this is a mathematical theorem rather than a convenient search heuristic.
+The matching problem compares the optimized singleton configuration with the optimized coupled four-dimensional block. Whichever has the smaller *optimized* cost yields a realizable transporter. The difficult direction of the theorem is proving that no more complicated orthogonal mixing does better than every matching. Without that global lower bound, a matching construction would supply only candidate transports.
 
-The matching theorem supplies a positive classification for the stated real Schatten optimization problem. Its assumptions on dimension, rank, and exponent remain part of the claim.
+The theorem concerns real finite-dimensional spaces, equal subspace dimensions, and exponents strictly between one and two. The endpoints and arbitrary symmetric gauges require their own arguments. The geometry of principal-angle blocks explains the candidate costs; the matching theorem establishes that these blocks are sufficient for the stated global optimization.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -83,6 +83,12 @@ The matching theorem supplies a positive classification for the stated real Scha
 The matching program lives in `DavisKahan/FiniteDimensional/DirectRotation/SchattenRealMatching.lean`, `.../SchattenRealMatchingWeights.lean`, and `.../RealMatchingAttainment.lean`. For a planar rotation by `θ`, the two displacement singular values equal `2 sin(θ/2)`; the direct-rotation **candidate** p-cost is therefore `2(2 sin(θ/2))^p`. The singleton and paired weights in the matching theorem refer to their own optimized class-specific definitions, not to this candidate formula by default.
 
 The source theorem `exists_minimizing_real_schatten_transport_matching` proves the unrestricted ambient minimum for real finite-dimensional equally ranked subspaces and `1<p<2`. Do not extend the result to other exponents merely from this declaration.
+
+**A feasible cost is not the matching minimum.** For \(\theta_1=\pi/6\), \(\theta_2=\pi/3\) and \(p=3/2\), the two-plane canonical direct rotation has
+\[
+ \|I-D\|_{S_p}^{p}=2\bigl(2\sin(\pi/12)\bigr)^p+2\bigl(2\sin(\pi/6)\bigr)^p\approx2.74485.
+\]
+The matching optimum compares *optimized* singleton and pair weights. This expression is only an admissible candidate upper bound for that minimum.
 
 ## Exact Lean declaration excerpts
 

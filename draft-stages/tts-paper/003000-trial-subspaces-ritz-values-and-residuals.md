@@ -54,6 +54,14 @@ The trial space is not invariant. Importantly, the residual is orthogonal to the
 
 If we instead choose a normalized eigenvector of A as our trial vector, the compressed scalar equals its exact eigenvalue and R becomes zero. The residual detects exact invariance regardless of which orthonormal coordinates we use for the resulting one-dimensional space.
 
+## Why a zero residual can still identify the wrong subspace
+
+There is a limitation worth seeing before any inequality. Take A diagonal with entries zero and five. Suppose the target U is the horizontal zero-eigenvalue line, but a numerical method returns the vertical eigenvector as its trial direction. Its Ritz value is five, and its Ritz residual is exactly zero: the trial line really is invariant. Yet it makes a right angle with U.
+
+There is no contradiction. To bound the angle toward U, the sine theorem compares the Ritz value with the spectrum on U perpendicular. That complementary spectrum also contains five, so the relevant gap is zero. The method has found an exact spectral subspace, but the wrong one.
+
+Thus residual and gap answer different questions. The residual says how close a trial space is to invariance. The gap, together with the chosen target spectral band, says which invariant subspace that information can identify.
+
 ## A residual depends on the chosen trial operator
 
 The Ritz operator is natural, but sometimes the numerical method supplies a separate self-adjoint trial operator A zero. Then we may define a more general residual R zero equals A E minus E A zero.
@@ -95,6 +103,8 @@ Projection of the residual onto the exact complementary subspace produces a Sylv
 ## Companion: mathematics and Lean correspondence (display only)
 
 For a finite-dimensional isometry `E : F → H`, define `P=EE*`, `M=E*AE`, and `R=AE−EM`. Then `E*R=0` and `R=(I−P)AE`. For an arbitrary trial operator `A₀`, `R₀=AE−EA₀=R+E(M−A₀)`; the two summands have orthogonal ranges. With unbounded `A`, use common-domain hypotheses before asserting a bounded extension.
+
+**A zero-residual wrong-target example.** Take \(A=\operatorname{diag}(0,5)\), \(U=\operatorname{span}(e_1)\), \(E:e\mapsto e e_2\). Then \(M=5\), \(R=AE-EM=0\), but \(\|(I-P_U)E\|=1\). The complementary block has spectrum \(\{5\}\), so \(\operatorname{dist}(\sigma(M),\sigma(A|_{U^\perp}))=0\). No positive-gap sine estimate applies.
 
 ### Source declaration excerpts
 

@@ -104,11 +104,13 @@ Our proofs show that the same singular-value comparison can control all these ch
 
 The next issue is rectangularity. An operator might be represented in a larger output space or with extra zero input directions. Exactly when does adding those zero directions preserve a norm?
 
-## What to reconstruct
+## Why Ky Fan comparison is the right bridge
 
-Start with a unitarily invariant norm on matrices of one fixed shape. Use the singular-value decomposition to derive its symmetric gauge. Prove the reverse triangle inequality using weak majorization and the gauge triangle inequality.
+Suppose one singular-value list is three and one, while another is two and two. Both lists have total sum four, but the first has the larger largest singular value. Their Ky Fan first sums are three and two; their Ky Fan second sums are both four. The first list weakly majorizes the second.
 
-Then calculate the operator, nuclear, Frobenius, and Ky Fan two values of the diagonal example with singular values four, two, and one. Finally, explain why invariance in one dimension does not yet guarantee consistency with another matrix dimension.
+Consequently every symmetric gauge norm assigns at least as much size to the first list as to the second. The operator norms are three and two; the Frobenius norms are the square roots of ten and eight; and the trace norms tie at four. This example shows why a prefix comparison carries more information than a comparison of total sums alone.
+
+The same reasoning transfers a theorem about singular-value prefixes into a theorem about many unitarily invariant norms. In infinite dimensions, membership in the chosen operator ideal and a gauge consistent across dimensions must still be established. Those conditions belong to the result, not to a choice of coordinates.
 
 <!-- END SPOKEN LECTURE -->
 

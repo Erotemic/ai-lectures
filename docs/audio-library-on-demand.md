@@ -184,7 +184,7 @@ uses the two distinct cached MP3s and the live transcript follows seeking.
 
 ## Course tracks
 
-The reader offers three routes. **G1 · Manim** opens the existing presentation/video browser at `/`. **G2 · Comprehensive audio** opens `/audio?track=g2`, with all 150 standalone lectures. **G3 · Paper audio** opens `/audio?track=g3`, with 26 paper-focused lectures and its own introduction. G3 starts with a fast spectral-geometry crash course, develops the supporting proofs, and ends with six result-focused recordings: the four angle theorems, Proposition 4.4's counterexample, and real transport matching.
+The reader offers three routes. **G1 · Manim** opens the existing presentation/video browser at `/`. **G2 · Comprehensive audio** opens `/audio?track=g2`, with 156 standalone lectures. **G3 · Paper audio** opens `/audio?track=g3`, with 27 paper-focused lectures, including its introduction. G3 starts with a compact spectral-geometry foundation, develops the supporting proofs, presents the four angle theorems together, and ends with the six-recording Section 4 transport sequence through Proposition 4.3, the Proposition 4.4 counterexample, and real transport matching.
 
 Both audio tracks share playback controls, Kokoro/Crall profiles, custom voices, and non-spoken learning references. They have separate transcript directories and audio caches. Switching tracks preserves G2's original identifiers and cached audio. Track selection uses a fixed server-side allowlist rather than arbitrary filesystem paths.
 

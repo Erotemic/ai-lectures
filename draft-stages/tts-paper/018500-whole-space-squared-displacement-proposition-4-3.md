@@ -52,6 +52,14 @@ In fact the direct rotation's squared displacement need not have every singular 
 
 If we replaced the prefix statement with an individual-eigenvalue statement, we would be claiming something stronger than Proposition four point three, and it would be false.
 
+## Compare the two squared-cost lists in a plane
+
+Take two real lines making thirty degrees. The direct planar rotation moves every unit principal-plane direction by a chord of length twice sine fifteen degrees, approximately point five one eight. Its squared displacement has two equal eigenvalues, each about point two six eight.
+
+A reflection mapping the first line onto the second has one displacement singular value two and one zero. Its squared displacement has eigenvalues four and zero. Compare the largest entries first: about point two six eight is below four. Compare both entries together: about point five three six is below four. Both Ky Fan prefix inequalities hold.
+
+The comparison works despite the reflection having a smaller second eigenvalue. That is the shape of a majorization result: the first prefix and the combined total are controlled, rather than every corresponding eigenvalue individually. This small example explains the kind of statement Proposition four point three proves in general.
+
 ## Which unsquared norms follow?
 
 Suppose we are interested in a norm of identity minus W itself. Can we take square roots of the squared-displacement inequality?
@@ -93,6 +101,8 @@ Define \(G_W=(I-W)^*(I-W)=2I-W-W^*\). Proposition 4.3 gives
 not pointwise domination of each \(s_j\). The proof uses restricted displacement on \(U\) and \(U^\perp\), squaring through \(s_j(X^*X)=s_j(X)^2\), block-sum Ky Fan comparison, and pinching.
 
 A Q-norm \(N\) has \(N(X)^2=M(X^*X)\) for some unitarily invariant norm \(M\). Schatten \(p\) for \(2\le p\le\infty\) satisfy this with \(M=S_{p/2}\). The source also proves full-displacement operator- and Hilbert–Schmidt-norm consequences in infinite-dimensional matched-defect scope.
+
+**Plane prefix check.** For principal angle \(\theta=\pi/6\), \(G_D\) has eigenvalues \(4\sin^2(\pi/12)=2-\sqrt3\), twice; a reflection transporter has \(G_W\) eigenvalues \((4,0)\). Therefore \(K_1(G_D)=2-\sqrt3\le4=K_1(G_W)\) and \(K_2(G_D)=4-2\sqrt3\le4=K_2(G_W)\). This illustrates prefix dominance but cannot replace the general pinching argument.
 
 ## Exact Lean declaration excerpts
 

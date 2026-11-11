@@ -52,6 +52,8 @@ The inequality can be checked exactly without decimals. Square the two positive 
 
 We have therefore established a complete contradiction to the printed claim for trace norm, despite both principal angles satisfying the stated sixty-degree bound.
 
+The operator-norm comparison goes the other way: the competitor’s largest displacement singular value is the square root of two, while the direct rotation’s is about point seven six five. So the same pair of transports is ordered differently by trace norm and operator norm.
+
 ## Why this does not contradict earlier propositions
 
 Let us compute the positive squared displacement and compare its Ky Fan sums. For D, all four squared displacement singular values equal two minus square root of two, approximately point five eight six.
@@ -108,6 +110,8 @@ s(I-W)=(\sqrt2,\sqrt2,0,0),\qquad
 s(I-D)=(\sqrt{2-\sqrt2},\sqrt{2-\sqrt2},\sqrt{2-\sqrt2},\sqrt{2-\sqrt2}).
 \]
 Hence \(\|I-W\|_1=2\sqrt2<4\sqrt{2-\sqrt2}=\|I-D\|_1\). Yet \(s((I-D)^*(I-D))\prec_w s((I-W)^*(I-W))\). The exact matrix and refutation are in `ShortRotationCounterexample.lean`; a continuum of equal-angle examples is documented in `papers/dk_formalization_journal/counterexample.tex`.
+
+**Numerical cross-check.** For two equal principal angles \(\pi/4\), the direct rotation has \(s(I-D)=(2\sin(\pi/8))^{\times4}\), hence \(\|I-D\|_1=8\sin(\pi/8)\approx3.06147\) and \(\|I-D\|_{\mathrm{op}}=2\sin(\pi/8)\approx0.76537\). The displayed competitor has \(s(I-W)=(\sqrt2,\sqrt2,0,0)\), so \(\|I-W\|_1=2\sqrt2\approx2.82843\) but \(\|I-W\|_{\mathrm{op}}=\sqrt2\).
 
 ## Exact Lean declaration excerpts
 
