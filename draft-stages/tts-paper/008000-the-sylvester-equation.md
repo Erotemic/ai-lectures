@@ -116,15 +116,15 @@ If those spectral regions are separated, we can hope to solve for X and bound it
 
 The eigenvalue differences are not decorative assumptions. They are the denominators of the inverse problem.
 
-Next we will carry out the entire calculation in diagonal coordinates, including a numerical example, the exact compatibility condition when denominators vanish, and the Frobenius bound.
+## Work through four denominators
 
-## From denominators to subspace angles
+Take A diagonal with entries five and one. Take B diagonal with entries two and negative one. For their four matrix positions, the differences of eigenvalues are three, six, negative one, and two. Notice the negative difference: the spectra are separated, but not ordered from one side to the other.
 
-In the scalar equation, if a and b are different, x is c divided by a minus b. If they coincide, a nonzero c makes the equation impossible and a zero c leaves x undetermined. The denominator is the entire issue.
+Let every entry of C equal one. Divide each entry by its own difference. The solution X has entries one third, one sixth, negative one, and one half, in row order. The largest absolute entry is one because the smallest absolute gap is one.
 
-For diagonal matrices, each matrix entry of the unknown has its own denominator: a left eigenvalue minus a right eigenvalue. A uniform positive distance between every such pair makes the Sylvester map invertible on the finite-dimensional space of matrices. But estimating the solution in operator norm requires more than estimating each matrix entry independently.
+There is also a statement about the whole matrix. Squaring and adding those four solution entries gives twenty-five eighteenths. Squaring and adding the entries of C gives four. Thus the Frobenius norm of X is below the Frobenius norm of C divided by the gap, exactly as the entrywise proof predicts. This calculation alone does not establish the same constant for the operator norm.
 
-In the subspace problem, the unknown matrix records components of trial vectors in an unwanted exact spectral subspace. The right-hand side is a compressed residual. We can therefore read a Sylvester inequality geometrically: a prescribed spectral separation prevents a small residual from concealing a large wrong-subspace component. The precise norm constant depends on the shape of that separation.
+In a subspace perturbation problem, X records how trial vectors enter an unwanted exact spectral subspace, while C is a compressed residual. The four-entry calculation explains the mental picture: the residual is known, the wrong-subspace component is unknown, and spectral differences are the denominators that let us recover it. The geometry of the gap determines which matrix norm estimate we may claim.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -137,6 +137,21 @@ For \(A:F\to F\), \(B:E\to E\) and \(X,C:E\to F\), define \(\mathcal S_{A,B}(X)=
 \langle u_i,\mathcal S_{A,B}(X)v_j\rangle=(a_i-b_j)\langle u_i,Xv_j\rangle.
 \]
 The finite Sylvester operator is invertible iff \(a_i\ne b_j\) for every pair. Ordered spectral separation yields stronger integral representations than arbitrary pairwise separation; a sharp Frobenius bound holds in finite dimension under the latter.
+
+
+**Interlaced two-by-two example.** For
+\[
+A=\begin{pmatrix}5&0\\0&1\end{pmatrix},\qquad
+B=\begin{pmatrix}2&0\\0&-1\end{pmatrix},\qquad
+C=\begin{pmatrix}1&1\\1&1\end{pmatrix},
+\]
+the entrywise differences are \(\begin{psmallmatrix}3&6\\-1&2\end{psmallmatrix}\), so
+\[
+X=\begin{pmatrix}1/3&1/6\\-1&1/2\end{pmatrix},\qquad
+\|X\|_F^2=\frac{25}{18}\le 4=\|C\|_F^2,
+\qquad \delta=1.
+\]
+The negative denominator prevents use of the one-sided ordered-gap integral even though every entry is uniquely solvable.
 
 **Lean bridge (verbatim excerpts).**
 

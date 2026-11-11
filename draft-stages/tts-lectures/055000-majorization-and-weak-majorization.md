@@ -20,7 +20,7 @@ Take two lists, each containing n numbers, called x and y. Sort each in decreasi
 
 For any positive integer k up to n, add the first k entries of x. Call the result the k-th prefix sum of x. Do the same for y.
 
-We say x is weakly majorized by y when every prefix sum of x is at most the corresponding prefix sum of y.
+We say x is weakly majorized by y when every prefix sum of x is at most the corresponding prefix sum of y. Think of reading each list from its largest entry downward while maintaining a running total. At no checkpoint may x have accumulated more than y. But a single entry of x may still exceed the entry in the same position of y, because the running total has room left from earlier checkpoints.
 
 Notice the word every. Comparing only the first entry checks the largest value, but it does not control how many large values appear. Comparing only the total checks the total mass, but it does not control concentration. Weak majorization requires all the intermediate checks too.
 
@@ -113,13 +113,11 @@ The same finite-length convention matters too. When two operators have different
 
 And our nonnegativity hypothesis is deliberate. It is automatic for singular values but not for eigenvalues of arbitrary self-adjoint operators. Signed eigenvalue majorization is possible, but its exact hypotheses and consequences differ from the nonnegative weak-majorization setting used here.
 
-## What to reconstruct
+## What the prefix comparisons preserve
 
-Given two decreasing nonnegative lists, compute every prefix and decide whether weak or ordinary majorization holds. Explain why comparing only their totals is insufficient.
+The pair three, three versus five, one shows the meaning of the order. Both lists total six, yet the second concentrates more of that total in its largest entry. A cumulative comparison notices the concentration without demanding that each position be individually smaller.
 
-Next, prove the summation-by-parts identity by expanding the coefficients of each entry difference. Use it to prove the decreasing-nonnegative-weight comparison.
-
-Then verify the two T-transforms taking six, zero, zero to three, two, one. Finally, restate the Ky Fan triangle inequality as a weak-majorization statement about singular-value lists.
+For singular values, each checkpoint is a Ky Fan sum. The triangle inequality and pinching theorem control every checkpoint, so they control the whole singular-value list in the weak-majorization sense. A decreasing weighted sum then follows by summation by parts. Equal totals add the stronger mass-redistribution interpretation of ordinary majorization. These three descriptions—prefixes, weights, and transfers—are ways to understand the same order.
 
 <!-- END SPOKEN LECTURE -->
 

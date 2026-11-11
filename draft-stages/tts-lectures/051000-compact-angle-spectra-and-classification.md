@@ -48,7 +48,7 @@ Recall what compactness means for a bounded operator: it sends every bounded seq
 
 For a positive compact operator A, suppose A is nonzero. Its operator norm equals the maximum possible Rayleigh quotient. Choose unit vectors whose Rayleigh quotients approach that norm.
 
-The unit ball of a Hilbert space is weakly sequentially compact. We can choose a weakly convergent subsequence. Compactness upgrades the images under A to strong convergence. This is enough to show that the maximum is attained by a unit vector. For a positive compact self-adjoint operator, a unit vector maximizing its Rayleigh quotient is an eigenvector at the top spectral value: the first variation of the quotient in directions perpendicular to that vector vanishes. Compactness ensures that this top value is attained when the operator is nonzero.
+A maximizing sequence of unit vectors need not converge in norm. It may keep moving into new orthogonal directions. In a Hilbert space we can still extract a weakly convergent subsequence, meaning that each fixed inner-product measurement converges. A compact operator turns those weakly convergent inputs into strongly convergent images. The positive Rayleigh quotients then identify a maximizing vector: because the top value is positive, the limit cannot be the zero vector. After normalization it attains the operator norm. A self-adjoint operator attaining its top Rayleigh quotient there has that vector as an eigenvector. This is the bridge from compactness to an actual principal direction.
 
 Take its orthogonal complement. Self-adjointness makes that complement invariant, so we may repeat. We obtain orthogonal eigenvectors with nonnegative eigenvalues arranged in decreasing order.
 
@@ -118,17 +118,11 @@ For sufficiency, match the four elementary pieces using their given isometries. 
 
 Compactness is the condition that makes the second half possible using just numbers.
 
-## Reconstruction
+## When an angle list is complete
 
-First, explain why an ambient equivalence must preserve each of the four elementary Halmos parts.
+For the diagonal sequence example, there are countably many genuine principal directions. Each gives a cosine value, with its multiplicity, and those numbers determine the generic compact block up to unitary equivalence. A limiting right angle can appear as cosines tending to zero without creating another right-angle vector.
 
-Second, derive positivity of the generic compression of P U P V P U, and interpret each of its eigenvalues as cosine squared of a principal angle.
-
-Third, reproduce the compactness argument showing that nonzero eigenvalues have finite multiplicity and can accumulate only at zero.
-
-Finally, compare the diagonal sequence example with the multiplication-by-t example. Which one admits a complete numerical list, and why does the other not?
-
-We have completed the classification foundations for two subspaces.
+For multiplication by the coordinate, no nonzero eigenvector is supported on a single level. Its continuous spectrum still describes real geometry, but a list of eigenvalue multiplicities records none of it. Thus the classification invariant is always the cosine operator on the generic part; compactness is what permits that operator to be summarized by a numerical angle list.
 
 <!-- END SPOKEN LECTURE -->
 

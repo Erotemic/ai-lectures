@@ -38,7 +38,7 @@ First prove that the adversary can achieve no more than sigma j. Discard the spa
 
 Now prove that the adversary cannot do better. Take any discarded subspace of dimension j minus one, even one that is not aligned with the singular vectors. Consider the j-dimensional span of the first j right singular vectors. Because that span has one dimension more than the discarded space, there must be a nonzero vector in the leading span that is orthogonal to every discarded direction.
 
-Normalize it to length one. All of its singular coordinates come from the first j positions, so its output length is at least sigma j. It survives the adversary's choice. Thus every discarded subspace leaves behind an input stretched by at least sigma j.
+Normalize that shared vector to length one. For three input dimensions and j equal to two, this is the familiar fact that a two-dimensional plane must meet the perpendicular complement of any discarded line. The shared vector uses only the first j singular directions, so its output length is at least sigma j. It survives the adversary's choice. Thus every discarded subspace leaves behind an input stretched by at least sigma j.
 
 The upper and lower bounds agree. This proves the first min–max formula.
 
@@ -92,13 +92,11 @@ So A minus B has operator norm at least sigma j. Every approximation that uses f
 
 This is already half of the Eckart–Young theorem.
 
-## What to reconstruct
+## Two games, one singular value
 
-Try proving the two singular-value games without naming any spectral theorem. Use only the orthonormal singular bases, the formula for the squared output length, and the dimension-intersection inequality.
+For the diagonal map with stretching factors five, two and one, discarding one carefully chosen input direction leaves worst-case stretch two. Keeping a carefully chosen two-dimensional input plane guarantees stretch at least two, even for its least-stretched unit direction. The two games reverse who chooses the subspace and who chooses the vector. The dimension intersection forces both answers to equal the second singular value.
 
-Then take a three-dimensional diagonal map with singular values six, three, and one. Explain why discarding two input directions can reduce the largest surviving output length to one, but cannot reduce it below one.
-
-Finally, prove the kernel argument for a rank-one approximation. Ask yourself precisely where the dimension of the source appears, and why the dimension of the target does not enter the conclusion.
+The same geometry applies when the output space has more dimensions than the input. The variational tests take place in the source space, and the squared output lengths come from the positive source operator A adjoint A. In particular, a low-rank approximation cannot evade these tests by mixing singular directions: the kernel of the approximant must meet a sufficiently large leading singular subspace.
 
 <!-- END SPOKEN LECTURE -->
 

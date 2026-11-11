@@ -56,9 +56,9 @@ By Pythagoras, the length of the U component of v is at least the square root of
 
 So projecting V onto U cannot send a nonzero vector to zero. More than that, its inverse, if it covers U, will be bounded by the same lower estimate.
 
-Why should it cover U? Look at the map that sends u in U first into V by Q, then back into U by P. This is the compressed operator P Q P on U. Its quadratic form on a vector u is the squared length of Q u. Applying the same gap argument, its value is bounded below by one minus d squared times the squared length of u.
+Why should it cover U? Start with a desired horizontal coordinate u in U. We need a vector v in V whose projection back to U is u. Consider the compressed map P Q P on U. Its quadratic form at a vector x of U is the squared length of Q x. The projection-gap bound makes this at least one minus d squared times the squared length of x. So this compressed map is positive and bounded below.
 
-A bounded, positive self-adjoint operator with such a lower bound is invertible on U, by the argument we just used for the cosine. Therefore every u in U can be written as P Q w for some w in U. The vector Q w belongs to V and projects back to u.
+A positive self-adjoint operator with that lower bound has a bounded inverse on U. Apply the inverse to our desired u and call the result x. Now take v to be Q x. This vector belongs to V. When we project it back to U, we obtain P Q x, which equals P Q P x because x lies in U. By construction, that is u. This explicit preimage proves surjectivity; the earlier length estimate gave injectivity.
 
 We have proved that projection from V to U is both injective and onto. Define the graph correction L by taking its inverse and then extracting the perpendicular component. Linearity and boundedness follow from the projection maps and the lower bound.
 
@@ -88,7 +88,7 @@ But those horizontal components approach zero. The corresponding angles approach
 
 If we tried to write V as the graph of a bounded operator from U into U perpendicular, its action on e number n would have slope equal to the ratio of the vertical component to the horizontal component. That ratio grows without bound.
 
-No bounded graph map can represent this V over all of U. The obstruction is not an actual perpendicular vector. It is a sequence of increasingly perpendicular directions.
+For example, when the horizontal coefficient is one half, the graph slope is the square root of three. When the coefficient is one tenth, the slope is the square root of ninety-nine. The slopes increase without bound. No bounded graph map can represent V over all of U. The obstruction is a sequence of increasingly perpendicular directions, even though no individual direction is exactly perpendicular.
 
 The exact-crossed-defect criterion and the uniform-gap criterion are therefore different in infinite dimensions.
 
@@ -100,17 +100,11 @@ In the uniformly acute case, the positive cosine is invertible, and that will ma
 
 Those are the subjects.
 
-## Reconstruction
+## Two different meanings of being acute
 
-First, prove that norm of P minus Q less than one forces both crossed intersections to vanish.
+A trivial crossed intersection tells us that no single vector is lost entirely by projection. A projection gap below one tells us something quantitative: every unit vector keeps at least a fixed amount of its component in the other subspace. That second statement is what gives a bounded inverse and a bounded graph slope.
 
-Second, show why an operator bounded below by a positive constant has closed range, and why a self-adjoint operator with zero kernel has dense range.
-
-Third, reconstruct the graph argument: find the compression P Q P, prove it invertible on U, and use it to recover one vector of V for every coordinate in U.
-
-Finally, explain why the infinite sequence of angles approaching ninety degrees defeats a bounded graph representation without creating a single exact right-angle vector.
-
-The distinction is between having no direction with complete information loss and having a uniform positive lower bound on the cosine operator. Only the latter guarantees a bounded inverse on the relevant range.
+The sequence of tilted planes separates the two claims. Every cosine is positive, yet the cosines approach zero. That is the mental picture to retain when an infinite-dimensional transport proof has a kernel-free cosine operator but cannot divide by it as a bounded operator.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -127,6 +121,10 @@ The restricted map \(P|_V:V\to U\) is bijective when \(d<1\). Its inverse follow
 V=\{u+Lu:u\in U\},\qquad \|L\|\le \frac{d}{\sqrt{1-d^2}}.
 \]
 The construction uses \(PQP|_U\ge(1-d^2)I\).
+
+
+**Surjectivity of the graph coordinate.** Set \(d=\|P-Q\|<1\) and \(B=(PQP)|_U\). Since \(\langle Bu,u
+angle=\|Qu\|^2\ge(1-d^2)\|u\|^2\), \(B\) is invertible. For any \(u\in U\), the vector \(v=Q B^{-1}u\in V\) satisfies \(Pv=P Q P B^{-1}u=u\). The formula identifies the preimage rather than inferring it from injectivity alone.
 
 **Lean bridge.** `DavisKahan/Geometry/Angle/AcuteCosine.lean` proves the crucial infinite-dimensional inverse statement:
 

@@ -40,7 +40,7 @@ Why the word ambient? Because this operator acts on the whole Hilbert space. A d
 
 ## Construct the cosine from what remains
 
-The sine operator squared is D squared. If sine squared plus cosine squared is to equal the identity, the natural cosine squared is the identity minus D squared.
+The sine operator squared is D squared. On the tilted plane, that number is sine squared theta on each coordinate direction. The remaining part of the unit length is cosine squared theta. For the whole space we make the same construction: cosine squared is the identity minus D squared.
 
 This operator is positive, since D squared is at most the identity. Take its unique positive square root. Call that the ambient cosine operator.
 
@@ -56,7 +56,7 @@ This is the operator version of the Pythagorean identity. It does not depend on 
 
 There is a second identity hiding in the projection algebra. Expand D squared. It equals P plus Q minus P Q minus Q P.
 
-Multiply that expression by P on the left. Then multiply it by P on the right. The results are the same, because P squared equals P. The same argument works with Q.
+Multiply the expression by P on the left. The terms containing P Q cancel, leaving P minus P Q P. Multiply by P on the right and the other mixed terms cancel, leaving exactly the same expression. This proves that D squared commutes with P. Repeating the calculation with Q leaves Q minus Q P Q on both sides, so D squared commutes with Q as well.
 
 So D squared commutes with P and Q. Functions of D squared, including its positive square roots, also commute with both projections.
 
@@ -74,7 +74,7 @@ Taking its positive square root on U produces a positive cosine operator intrins
 
 These source-side operators are useful because their singular values are indexed by directions in U. They do not automatically have the same shape as the ambient operators. For example, if U is a line and V is a different line in the plane, the source cosine acts on a one-dimensional space, while the ambient cosine acts on two dimensions.
 
-Still, they measure the same geometric angle. The coordinate representation has changed; the geometry has not.
+The distinction becomes visible when U is the horizontal line and V is the entire plane. Every vector of U already lies in V, so the directed sine measured from U is zero. But the ambient sine equals one on the vertical axis, because that direction belongs to V and lies perpendicular to U. The two measurements answer different questions, even before we enter infinite dimensions.
 
 ## Zero and right angles without guessing
 
@@ -98,15 +98,11 @@ So we have an exact operator analogue of saying theta is an angle, rather than m
 
 The construction is especially valuable when there is no complete basis of principal-angle eigenvectors. Functional calculus still makes sense of sine, cosine, and arcsine on the operator as a whole.
 
-## Reconstruction
+## What the two measurements tell us
 
-There are three calculations worth doing before moving on.
+One unit arrow gave us sine and cosine as two complementary lengths. Two projections gave us their operator analogues: the magnitude of the projection difference, and the positive square root of what remains. The squared identity still says that the two measurements account for the entire length.
 
-First, write the two projection matrices for lines meeting at angle theta. Subtract them and square the result. Check that sine squared theta appears on both diagonal entries.
-
-Second, use only P squared equals P and Q squared equals Q to show that the square of P minus Q commutes with P and Q. Notice that the statement does not require P and Q to commute.
-
-Third, identify the sine and cosine actions on each of the four elementary Halmos pieces.
+The ambient operators see both directions of every principal plane, as well as unmatched directions. The directed operators see only inputs from one chosen subspace. When a theorem measures how far a trial subspace leaks into an unwanted complement, the directed sine is the relevant object. When it measures how different two ambient projections are, the ambient sine is the relevant one. Keeping their domains distinct prevents a correct scalar angle picture from becoming a false operator statement.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -121,6 +117,15 @@ S=|D|=(D^2)^{1/2},\qquad C=(I-D^2)^{1/2}.
 For orthogonal projections, \(0\le D^2\le I\), hence \(S,C\ge0\), \(S^2+C^2=I\), and \(SC=CS\). Both commute with \(P,Q\), since \(D^2=P+Q-PQ-QP\) commutes with each. The angle operator is \(\Theta=\arcsin(S)\), with \(0\le\Theta\le\pi/2\) in the spectral sense.
 
 For \(x\in U\), \(\langle PQP x,x\rangle=\|Qx\|^2\), and \(\langle P(I-Q)P x,x\rangle=\|(I-Q)x\|^2\). Their positive square roots define the **source-side** cosine and sine. Ambient and directed operators have different natural multiplicities and need not be interchangeable as operators.
+
+
+**Nested subspaces show why ambient and directed sine differ.** In \(\mathbb R^2\), take \(U=\operatorname{span}(e_1)\) and \(V=\mathbb R^2\). Then
+\[
+P=\operatorname{diag}(1,0),\qquad Q=I,\qquad
+|P-Q|=\operatorname{diag}(0,1),\qquad
+\bigl(P(I-Q)P\bigr)|_U=0.
+\]
+The ambient sine detects the unmatched vertical direction; the source-side sine is zero because \(U\subseteq V\). This example also checks the domain distinction when the source and target ranks differ.
 
 **Lean bridge.** In `DavisKahan/Geometry/Angle/OperatorAngleGeneric.lean`, the scalar-generic literal angle is defined by
 

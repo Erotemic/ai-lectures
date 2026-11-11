@@ -68,7 +68,7 @@ Apply this to every right singular vector and add. We obtain a lower bound equal
 
 Each squared projection length lies between zero and one. The sum of these lengths over the left singular family is at most the dimension of R, which is at most k. One way to see this is to extend the singular vectors to an orthonormal basis of F and calculate the trace of P. That trace is the dimension of R.
 
-We therefore have a simple allocation problem. There is a capacity of at most k units. How should we distribute it among numbers between zero and one to capture as much as possible of the ordered values sigma j squared?
+We therefore have a simple allocation problem. There is a capacity of at most k units. How should we distribute it among numbers between zero and one to capture as much as possible of the ordered values sigma j squared? For the diagonal example with singular values five, two and one, a rank-one output space has one unit of capacity. Spending it entirely on the first left singular direction captures twenty-five units of squared output energy. Spending any of it on the weaker directions cannot increase that total.
 
 The answer is to allocate one unit to each of the first k values. To prove this, suppose a smaller singular value has positive allocation while a larger one is not fully allocated. Move a little allocation from the smaller to the larger. The weighted sum cannot decrease. Repeating this exchange leaves the first k positions filled, with all later positions empty.
 
@@ -96,13 +96,11 @@ Consider a map whose two largest singular values are both three. Suppose we are 
 
 When there is a strict gap between the k-th and k-plus-one-st singular values, the leading singular subspaces are more tightly determined. But we should distinguish the uniqueness of a selected subspace from the uniqueness of an arbitrary optimizer, especially in the operator norm. We are not proving a general uniqueness theorem here.
 
-## What to reconstruct
+## Why truncation wins twice
 
-First, write out the truncated expansion and show that its operator-norm error is the largest discarded singular value.
+The diagonal map with singular values five, two and one gives two answers at rank one. The largest error of the truncated map is two: one remaining direction is stretched by two. Its squared total error is five: the discarded directions contribute four and one.
 
-Second, repeat the kernel-intersection argument against an arbitrary rank-k map.
-
-Third, prove the squared-error result using the projection onto the range of the competitor. Account for the fact that its rank may be smaller than k. Then derive the weighted-allocation bound instead of quoting it.
+The first lower bound comes from a kernel: every rank-one competitor vanishes on some input from the leading two-dimensional singular subspace. The second comes from an output-space budget: a one-dimensional range can capture at most one unit of orthonormal projection weight, best spent on the largest squared singular value. These are different arguments because maximum error and total squared error are different measurements. The same truncated map meets both bounds, which is the substance of Eckart–Young.
 
 <!-- END SPOKEN LECTURE -->
 

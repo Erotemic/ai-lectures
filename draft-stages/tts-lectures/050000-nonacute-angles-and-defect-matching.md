@@ -28,7 +28,7 @@ They are orthogonal to one another. Indeed, every source-defect vector belongs t
 
 These are also exactly the vectors killed by the cosine operator associated with K. On either defect, the difference between the two projections has length one, and its squared norm is unchanged. Consequently identity minus the squared projection difference vanishes.
 
-The kernel of K is precisely the direct sum of these two defects. Outside them, the polar factor still works.
+We can see why these are exactly the vectors killed by K. Split an input into its U part and its U-perpendicular part. K sends the first into V and the second into V perpendicular. Those outputs are orthogonal, so their sum can be zero only if both are zero. The first vanishes exactly when its U part is perpendicular to V. The second vanishes exactly when its U-perpendicular part lies in V. Hence the kernel of K is precisely the direct sum of the two defects. Outside them, the polar factor still works.
 
 ## A right-angle plane
 
@@ -38,7 +38,7 @@ Here P projects onto the horizontal direction, Q onto the vertical direction, an
 
 So the polar factor of K is the zero operator. But the geometry obviously admits rotations from U to V. Rotate counterclockwise by ninety degrees, or clockwise by ninety degrees. Both work.
 
-The choice is a choice of how to match the horizontal source-defect line with the vertical target-defect line. A unit horizontal vector may be sent to either unit vertical vector. Having made that choice, the map must send the vertical direction back to the corresponding negative horizontal direction, to form a quarter-turn rather than a reflection.
+The choice is a choice of how to match the horizontal source-defect line with the vertical target-defect line. A unit horizontal vector may be sent to either unit vertical vector. To form the canonical quarter-turn, the map sends the vertical direction back to the negative horizontal direction. The minus sign is the important choice: sending vertical back to positive horizontal would give a reflection, which still transports the line but does not have the required skew relation between the off-diagonal blocks.
 
 Both choices are unitary, and both have zero diagonal blocks. Neither violates the positivity rule, because zero is positive. So the uniqueness we proved for acute pairs has genuinely disappeared.
 
@@ -106,17 +106,11 @@ A useful application occurs when the difference between P and Q is compact. The 
 
 In that setting, numerical dimension equality really is enough to build the matching. Without a finite-dimensional or separability framework, the correct general statement is the existence of the isometric equivalence itself.
 
-## Reconstruction
+## What the right-angle sector changes
 
-First, show that K kills both crossed defects, and explain why its kernel contains nothing else.
+A cosine of zero prevents us from dividing K by its modulus. It does not, by itself, prevent a unitary transport. On the regular part, the polar factor already performs the required motion. On the right-angle part, a separate isometry between the two crossed defects supplies a quarter-turn.
 
-Second, write down a two-by-two ninety-degree rotation and identify the source-to-target map J and the negative reverse map.
-
-Third, prove that this quarter-turn is unitary on the defect sum, while the polar factor is unitary on its orthogonal complement. Combine them.
-
-Fourth, examine the integer-indexed basis example. Why does an ambient unitary exist while a direct rotation fails?
-
-The conclusion is precise. A nonacute direct rotation exists exactly when the two crossed right-angle spaces admit an isometric matching. The choice of matching controls the nonuniqueness.
+The equal-dimension condition belongs specifically to that second step. It gives enough directions to match the defects without stretching or collapsing any of them. But it does not select the matching uniquely. The acute case needs no such choice; a nonacute canonical completion requires one.
 
 <!-- END SPOKEN LECTURE -->
 

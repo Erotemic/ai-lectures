@@ -46,7 +46,9 @@ To prove the upper bound, we need to show that no other pairing does better. We 
 
 ## Why arbitrary pairings cannot exceed the top k sum
 
-Expand A in its singular-value decomposition. Each term is a singular value times a rank-one map from a right singular vector to a left singular vector.
+A two-dimensional example makes the variational claim audible. Take the diagonal matrix with stretching factors five and two. If we test only the diagonal direction halfway between the axes, using that direction for both input and output, the pairing is three and a half. Testing the first axis gives five. If we instead test an entire orthonormal pair of axes, the best total is seven. The variational theorem says these are the best one-direction and two-direction totals, even after allowing independent input and output frames.
+
+Now expand a general A in its singular-value decomposition. Each term is a singular value times a rank-one map from a right singular vector to a left singular vector.
 
 When we insert this expansion into our sum of k inner products, the contribution from singular direction j is sigma j multiplied by a sum of products of two sets of coefficients: how strongly our chosen input vectors overlap the j-th right singular vector, and how strongly the chosen output vectors overlap its left singular vector.
 
@@ -112,17 +114,11 @@ So every Ky Fan sum of A is at most the corresponding sum for B. Yet the second 
 
 These are comparisons of cumulative totals, not component-by-component comparisons. The name for this kind of ordering is weak majorization.
 
-## What to reconstruct
+## Why the sums are the right units of comparison
 
-First, start from the singular-value decomposition and derive the orthonormal-pairing upper bound. Write down the overlap weights and prove both their individual upper bounds and their total upper bound.
+An individual singular value can move upward when two operators are added, even if the corresponding singular value of each summand is zero. The two diagonal matrices showed that directly. What remains stable is the sum of the largest one, the largest two, and so on.
 
-Second, use that variational characterization to prove the triangle inequality, carefully distinguishing the test frames from the maximizing frames.
-
-Third, calculate the two-by-two diagonal counterexample and explain exactly which false inequality it disproves.
-
-Finally, derive the pinching identity by multiplying the two-by-two block matrices. From that one identity, recover Ky Fan contraction under pinching.
-
-We now have the ingredients for a theory that compares whole spectra by their partial sums.
+The frame experiment explains why: we test the sum against one common pair of orthonormal frames, then bound the contributions of the two summands separately. Pinching works by an equally concrete operation, averaging a map with its reflection-conjugate. The leading singular-value sums do not increase under either comparison. They are precisely the quantities that make list-wise perturbation inequalities possible.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -138,6 +134,10 @@ K_k(A)=\max_{\substack{u_1,\ldots,u_k\ \mathrm{orthonormal\ in}\ F\\v_1,\ldots,v
 By SVD, the pairing is bounded by \(\sum_j\sigma_j a_jb_j\), where \(a_j^2=\sum_i|\langle u_i,u_j^{(A)}\rangle|^2\), \(b_j^2=\sum_i|\langle v_j^{(A)},v_i\rangle|^2\), and \(\sum_j a_j^2,\sum_jb_j^2\le k\); hence \(w_j=a_jb_j\in[0,1]\), \(\sum_j w_j\le k\), and the weighted decreasing-sum bound yields \(K_k(A)\). SVD witnesses attain the bound. This proves \(K_k(A+B)\le K_k(A)+K_k(B)\), together with unitary invariance and absolute homogeneity.
 
 For square \(A\) and orthogonal \(P\), define \(\Pi_P(A)=PAP+(I-P)A(I-P)\) and \(J=2P-I\). Since \(\Pi_P(A)=\frac12(A+JAJ)\) and \(J\) is unitary, \(K_k(\Pi_P(A))\le K_k(A)\). Both examples in the narration distinguish cumulative domination from coordinatewise singular-value inequalities.
+
+
+**Audible two-direction frame example.** For \(A=\operatorname{diag}(5,2)\), take \(u=v=(e_1+e_2)/\sqrt2\). Then \(\langle v,Au
+angle=(5+2)/2=7/2\), below \(\sigma_1(A)=5\). With the two standard orthonormal frames the sum is \(5+2=7\), attaining the second Ky Fan sum.
 
 **Lean bridge (verbatim excerpts).** `ForTauCeti/Analysis/OperatorIdeal/ApproximationNumber/KyFan.lean` proves the following localization form of the Ky Fan triangle inequality, assuming the finite-restriction approximation hypothesis `hfr`:
 

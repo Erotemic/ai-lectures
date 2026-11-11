@@ -24,7 +24,7 @@ For the operator norm, the reason is immediate. A unitary maps the unit sphere o
 
 For the Frobenius norm, we can use the sum of squared singular values. For the nuclear norm, we use their sum. In both cases the singular values are unchanged by unitary multiplication.
 
-The interesting question is whether all unitarily invariant norms depend on singular values in essentially this way.
+The question is whether every invariant norm depends on singular values this way.
 
 ## Use the singular-value decomposition
 
@@ -54,11 +54,11 @@ The Ky Fan inequalities give the needed common comparison across every leading s
 
 In other words, the singular-value list of A plus B is weakly majorized by the coordinatewise sum of the two sorted singular-value lists.
 
-A symmetric gauge is monotone under weak majorization of nonnegative lists: if every leading partial sum of one list is bounded by the corresponding sum of another, the first gauge cannot exceed the second. Applying that fact gives an upper bound by the gauge of the coordinatewise sum. Finally, the ordinary triangle inequality for the gauge bounds that by the sum of the two separate gauges.
+Why does the gauge respect this prefix comparison? For nonnegative lists, the prefix inequalities allow the larger list to be converted toward the smaller one by averaging coordinates and, if the total decreases, shrinking coordinates. A symmetric gauge is unchanged when we permute or flip signs. Its convexity means averaging cannot increase its value. Therefore the gauge is monotone under weak majorization. Applying this to the list for A plus B bounds it by the gauge of the coordinatewise sum. The ordinary triangle inequality for the gauge then bounds it by the sum of the separate gauges.
 
 We have proved the matrix triangle inequality in three moves: Ky Fan comparison, gauge monotonicity, then the gauge's own triangle inequality.
 
-This is a useful proof strategy because it can establish many norm inequalities without repeating an argument for each Schatten exponent.
+We have used three different facts for three different jobs: Ky Fan controls prefixes, convexity controls their effect on a gauge, and the gauge triangle inequality handles the final coordinatewise sum. None of the steps assumes that singular vectors of A and B align.
 
 ## Compare the gauges with an example
 
@@ -80,13 +80,9 @@ Compare the singular-value lists three, one and four, zero. The first Ky Fan sum
 
 Suppose the singular values of A are weakly majorized by those of B. Then every symmetric gauge gives A no larger a value than B.
 
-The proof is the same majorization principle used in the triangle inequality. It gives a way to move from finitely many scalar prefix inequalities to a whole family of norm inequalities.
-
 The converse is visible through the Ky Fan gauges. If all invariant gauges make A no larger than B, in particular each Ky Fan gauge does. Those Ky Fan comparisons are precisely the defining prefix inequalities of weak majorization.
 
 Thus the Ky Fan sums capture the common order information seen by all unitarily invariant norms in a fixed finite matrix shape.
-
-This is one reason Davis–Kahan estimates are sometimes proved first at the level of singular-value sums. A single family of prefix inequalities can imply operator, Frobenius, nuclear, and many other bounds.
 
 ## An operator ideal is an additional structure
 
@@ -106,7 +102,7 @@ A perturbation may rotate several mutually orthogonal directions by different am
 
 Our proofs show that the same singular-value comparison can control all these choices. We have converted an apparently open-ended question about norms into concrete inequalities about ordered nonnegative lists.
 
-The next issue is rectangularity. An operator might be represented in a larger output space or with extra zero input directions. Exactly when does adding those zero directions preserve a norm?
+Adding zero input or output directions changes the matrix shape. A cross-space ideal law must specify how the norm behaves under that change.
 
 ## Why Ky Fan comparison is the right bridge
 

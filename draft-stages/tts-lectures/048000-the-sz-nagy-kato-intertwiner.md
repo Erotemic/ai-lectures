@@ -8,7 +8,7 @@
 
 Let U and V be two closed subspaces with orthogonal projections P and Q. Suppose the operator norm of P minus Q is strictly below one. This quantitative angle condition prevents either subspace from containing a nonzero direction perpendicular to the other, and it makes the corresponding cosine operator boundedly invertible. Can we turn that geometric compatibility into a single unitary map carrying U onto V?
 
-But an angle is a measurement, not a motion. If we want to carry the first subspace onto the second, we need an operator that actually moves vectors.
+An angle gives a size for the motion, but it does not specify what happens to the perpendicular directions. A transporter must move those too, while continuing to preserve lengths and orthogonality.
 
 There are many possible unitary maps that can do that, even in a small Euclidean space. We want one determined by the pair of projections themselves, without choosing a basis or arbitrarily twisting the complementary directions.
 
@@ -58,7 +58,7 @@ Therefore K preserves the squared length of x, except for the squared length rem
 
 Equivalently, K adjoint times K is the identity minus the square of P minus Q.
 
-That is the cosine-squared operator defined by the overlap of the two projections.
+That is the cosine-squared operator defined by the overlap of the two projections. For two lines meeting at sixty degrees, K shrinks both orthogonal principal-plane directions by cosine sixty degrees, or one half. Its positive modulus corrects precisely that shrinkage, without changing the directions K has chosen.
 
 This is a satisfying connection. The operator assembled from projections automatically stretches each principal plane by its cosine. It has the right directions, but the wrong lengths.
 
@@ -123,17 +123,11 @@ But the word canonical does not mean that no other unitary can send U onto V. We
 
 There is also an important boundary. If the projection gap reaches one, C may no longer have a bounded inverse. The formula using C inverse may then fail, even when a polar factor still exists. Nonacute pairs require a more careful analysis of kernels, crossed defects, and possible unitary completions.
 
-## Reconstruction
+## Why the construction succeeds
 
-First, derive K P equals Q K directly from the projection identities.
+The projection sum K solved the directional problem first: it sent the source part toward V and the source-perpendicular part toward V perpendicular. Its norm identity then revealed the entire distortion as a positive cosine factor. Under a projection gap strictly below one, this factor has a bounded inverse. Dividing it out produces the unitary W without changing the intertwining identity.
 
-Second, use orthogonality of the two output pieces to prove that K adjoint K equals identity minus the square of P minus Q.
-
-Third, derive K minus identity as Q minus P followed by reflection through U. Explain why a projection gap below one permits the Neumann series.
-
-Finally, show that the modulus C commutes with P, and use that fact to prove that the polar factor W still intertwines P with Q.
-
-When you can reconstruct those four steps, you have built a unitary transport from first principles.
+This argument also identifies the boundary. The method requires the cosine factor to be boundedly invertible. When it is not, the polar factor may still define a transport, but that requires studying its kernel and range rather than performing an illegal division. A geometric choice becomes a rigorous operator construction only after those analytic conditions are checked.
 
 <!-- END SPOKEN LECTURE -->
 

@@ -84,6 +84,8 @@ Consider a single coordinate of a vector q, and suppose we want to replace its v
 
 Convexity bounds the measurement of this average by the average measurements of the two endpoint vectors. Sign-change invariance makes those endpoint measurements equal. Therefore shrinking that coordinate does not increase F.
 
+Here are explicit averaging weights. To reduce a coordinate from four to three, average the original vector with its sign-flipped version, giving the flipped version one eighth of the weight. To reduce a coordinate from two to one, give its flipped version one quarter of the weight. In both cases the resulting coordinate is smaller, while every other coordinate is unchanged.
+
 Repeat this independently for every coordinate. We conclude that for nonnegative x and q, if x is coordinatewise at most q, then F of x is at most F of q.
 
 Now combine the operations. A finite weak-majorization descent can perform T-transforms on y until it reaches a vector q that dominates x coordinate by coordinate. The same prefix-domination argument as before guides the transfers, and an integer count of unmatched coordinates guarantees termination. Then shrink q to x, one coordinate at a time.
@@ -126,15 +128,11 @@ This explains why the Ky Fan sums are a useful collection of tests. Instead of p
 
 We will put this to work immediately for Schatten norms, where the gauges are power sums of singular values.
 
-## What to reconstruct
+## From a list comparison to a norm inequality
 
-Prove the two-coordinate mixing inequality for a convex permutation-invariant function. Prove the one-coordinate shrinkage inequality using an average with a sign-flipped vector.
+The example from six, zero, zero to three, two, one contains the central operation: redistribute a fixed total by averaging with a swapped list. Convexity says a symmetric measurement cannot increase. Weak majorization permits the total to decrease as well, so sign-change symmetry adds the second operation: shrink one coordinate by averaging with its sign-flipped copy.
 
-Then identify the termination measure in the transfer descent: how many coordinates still disagree with the target? Explain why strict decrease matters.
-
-Finally, calculate the three gauges of three, three and five, one, and explain the reversed comparison for the exponent below one.
-
-We now know how an inequality about all prefix sums can control a broad family of convex spectral measurements.
+Those are the two mechanisms behind Ky Fan dominance. The prefix inequalities ensure that the needed transfers and shrinkages are available; convexity ensures each step moves the measurement in the required direction. The result applies to symmetric convex gauges, including ordinary unitarily invariant matrix norms, and it cannot be extended to nonconvex quasi-norms using the same argument.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -147,6 +145,9 @@ For a convex function \(F:\mathbb R^n\to\mathbb R\) invariant under coordinate p
 F((1-t)q+t\pi q)\le (1-t)F(q)+tF(\pi q)=F(q),\quad 0\le t\le1,
 \]
 where \(\pi\) swaps two coordinates. A finite sequence of these **T-transforms** carries \(y\) toward \(x\) when \(x\prec y\). When \(F\) is also sign-invariant, its convexity implies coordinatewise monotonicity on the nonnegative orthant: changing \(q_j\) into \(tq_j\) for \(0\le t\le1\) is a convex combination of \(q\) and its sign flip at coordinate \(j\). Together, T-transform descent and coordinate shrinkage give the weak-majorization gauge comparison \(x\prec_w y\Rightarrow F(x)\le F(y)\) for convex permutation- and sign-invariant gauges.
+
+
+**Concrete sign-flip weights.** In one coordinate, \((1-t)a+t(-a)=(1-2t)a\). Thus \(4\mapsto3\) uses \(t=1/8\), and \(2\mapsto1\) uses \(t=1/4\). For any symmetric convex gauge \(F\), \(F((1-t)x+t\,\mathrm{flip}_j(x))\le F(x)\) because \(F(\mathrm{flip}_j(x))=F(x)\).
 
 **Lean bridge (verbatim source excerpts).** `ForTauCeti/Analysis/Convex/Majorization.lean` retains a constructive one-step transfer whose output has strictly fewer mismatched coordinates:
 
