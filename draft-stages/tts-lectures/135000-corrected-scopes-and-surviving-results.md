@@ -6,101 +6,126 @@
 
 # Corrected scopes and surviving results
 
-A thirty-degree rotation of a unit arrow can be measured in several ways. The sine of the angle is one half. The Euclidean distance between the original and rotated arrows is twice the sine of fifteen degrees. Squaring that distance gives yet another number. If we have several arrows and add their costs, a change from lengths to squared lengths can even reverse which transformation is cheapest.
+Imagine four directions in space. A transporter moves each of them by a distance just under point eight. Another transporter moves two directions by about one point four and fixes two completely. Which motion is cheaper? If the cost is the largest displacement, the first one wins. If the cost is the sum of squared displacements, the first also wins. If the cost is the sum of the displacement lengths, the second wins.
 
-The transport results in Davis and Kahan involve all these kinds of measurements. We need to identify the exact objective, the vectors on which it is evaluated, and the norm applied to it before transferring any optimality statement. This lecture separates the surviving theorems from the stronger printed claim that the four-dimensional example disproves.
+These are the actual singular-value patterns in a four-dimensional subspace transport example with two principal angles of forty-five degrees. They give us a practical way to distinguish the theorems that hold from a printed claim about unsquared ambient transport that does not.
 
-## Four distinct quantities
+## The geometric data do not determine the cost function
 
-Fix subspaces U and V, and consider orthogonal or unitary transporters W satisfying W U equals V. Let D denote a source-defined direct rotation, when one exists.
+Let U and V be subspaces of equal finite dimension in a real or complex inner-product space, and let W range over unitary or orthogonal maps carrying U onto V. When the appropriate direct rotation D exists, it is an especially symmetric choice. Its action is fixed by the principal-angle geometry.
 
-The first quantity is the restricted displacement: identity minus W, applied only to U. The second is the sum of squared sine-angle errors of an orthonormal basis of U. The third is the positive squared full displacement: identity minus W adjoint multiplied by identity minus W. The fourth is the unsquared full displacement identity minus W, measured by some unitarily invariant norm.
+To tell whether W is economical, we must decide which movement is being charged. We might charge only vectors that **start in the source U**. We might instead measure how far an orthonormal source frame tilts away from the target. Or we might charge movement in **every ambient direction**, including those perpendicular to U.
 
-The first three have source-backed theorems with precisely stated hypotheses. The fourth is a separate optimization problem. Understanding the first three does not automatically solve it for every norm.
+For whole-space movement, there is one more choice. We can square displacement lengths first, forming the positive Gram operator of identity minus W, or we can measure unsquared displacement directly. Those choices lead to different comparisons.
 
-## Restricted displacement remains universally minimal
+This gives a hierarchy of questions. First: which input directions count? Second: how are their movements combined? The word optimal must answer both questions before we can state a theorem.
 
-Proposition four point one proves that the restricted displacement of D has singular values no larger than those of any competitor, pointwise by index. Corollary four point one then says D minimizes every unitarily invariant norm of the restricted displacement.
+## Restricted movement has the strongest pointwise control
 
-This is a particularly strong theorem because it requires no arbitrary choice of norm in the proof. The principal-chord values, two sine of half the principal angles, serve as a common lower bound for all the singular values.
+For a source unit vector x, the canonical principal match has a displacement chord of length twice the sine of half its angle. The restricted theorem formalizes this across all directions in U. It says the ordered singular values of identity minus D restricted to U are no larger than those for identity minus W restricted to U.
 
-In infinite-dimensional Hilbert space, the corresponding estimate must account for compact principal-angle sequences and for matched crossed defects when right-angle components occur. Approximation numbers replace finite singular-value lists, and the hypotheses that make the direct rotation well-defined must be retained.
+This is a pointwise statement about an ordered list, so it immediately controls every invariant norm of the restricted map. It has no claim about the independent motion of W on U perpendicular.
 
-If a competitor belongs to a relevant symmetric operator ideal, ideal membership of the direct displacement is a conclusion obtained through approximation-number domination. We must not write an infinite-dimensional finite-norm inequality without first establishing that membership.
+For a simple example, take two perpendicular lines in separate principal planes, both at forty-five degrees to their targets. Restricted to the two-dimensional source, D has two equal singular values of approximately point seven six five. A transporter can agree with D on the source while rotating or reflecting the source complement very differently. Its restricted cost remains the same, but its full displacement can change.
 
-## Orthonormal-frame angular energy remains bounded below
+The other source-only result concerns angular error of an orthonormal frame. For each source basis vector x, its sine-angle error relative to its transported image dominates the length of the component of x perpendicular to V. Summing the squares of those projection escapes over the source basis gives the sum of the squared principal sines. This is an energy lower bound, not a pointwise eigenvalue assertion for full displacement.
 
-Proposition four point two concerns sine squared of the angle between each basis vector and its transported image. Every such error dominates the squared escape norm into V perpendicular. Summing over an orthonormal basis gives the sum of squared principal sines.
+## Squared whole-space movement uses a second argument
 
-This result does not select a particular unsquared displacement norm, and it does not compare every vector's Euclidean displacement with its direct-rotation displacement. It is an energy inequality derived from the Gram operator of the projection escape map.
+To include the whole ambient space, count directions in U and also directions perpendicular to U. Because W carries U onto V, it carries the perpendicular pieces onto one another as well. So the restricted singular-value comparison applies **twice**.
 
-The infinite-dimensional theorem interprets the sum as an extended nonnegative value. This makes the statement meaningful even without a trace-class hypothesis.
+Squaring these two comparisons gives control of the two diagonal blocks of the positive Gram operator of full displacement. But the competitor may still have cross terms connecting the blocks. Merely combining the two diagonal eigenvalue lists would overlook those terms.
 
-## Squared ambient displacement remains universally minimal
+Pinching supplies the missing step. Reflect across the split into U and its perpendicular complement, conjugate the competitor's Gram operator by that reflection, and average the result with the original. The cross terms cancel. Averaging cannot increase any Ky Fan sum, meaning the sum of the largest chosen number of eigenvalues.
 
-Proposition four point three compares the positive displacement squares. The direct rotation minimizes all Ky Fan prefix sums of the squared displacement, and therefore every unitarily invariant norm of that positive operator.
+The direct rotation's Gram operator already respects the split, so it is unchanged by this average. Comparing the two source halves, merging their eigenvalue lists, and then applying pinching gives the whole-space result. We get control of the *prefix sums of squared singular values*. That conclusion is weaker than controlling each unsquared singular value separately, and it is exactly strong enough for the next class of norms.
 
-The proof combines the restricted result on U and U perpendicular, squares the singular values, and uses pinching to control the full competitor. The critical conclusion is **prefix dominance**, not pointwise dominance of every individual squared singular value.
+This is what the whole-space squared-displacement theorem proves. Its proof supplies weak-majorization control of squared singular values, not pointwise control of unsquared singular values.
 
-The result also gives optimality of the unsquared full displacement in the operator norm and in Hilbert–Schmidt norm. More generally, it gives optimality for Q-norms: those whose squares are invariant norms of the positive Gram operator. Every Schatten p norm with p at least two is in this class.
+## Which full-displacement norms inherit the result?
 
-Importantly, none of these Q-norm conclusions needs a universal sixty-degree angle restriction. The norm class supplies the correct hypothesis.
+The operator norm does: the largest squared singular value is the square of the largest singular value. The Hilbert–Schmidt norm does too: its square is the trace of the positive Gram operator. More generally, the Schatten p norms for p at least two satisfy the same pattern. Their squares are invariant norms of the Gram operator with exponent p over two.
 
-## What fails and why angle restrictions do not fix it
+The norms whose squares can be written as invariant norms of the positive Gram operator are called Q-norms. For these norms, the squared-displacement theorem does give exact optimality of the direct rotation, under the hypotheses that provide the direct rotation and the restricted bounds. There is no separate universal sixty-degree restriction in this result.
 
-The printed Proposition four point four claimed that, in real spaces with maximal principal angle at most sixty degrees, the direct rotation minimizes **every** invariant norm of unsquared ambient displacement. The four-dimensional witness refutes it in trace norm at forty-five degrees. A continuous equal-angle family refutes any proposed positive universal angle threshold.
+Here is the practical meaning. If we care about the single worst displacement, or about the sum of squared displacements, direct rotation wins. If we care instead about the sum of unsquared lengths, we have changed the question.
 
-The failure is compatible with every preceding theorem. Restricted displacement can be optimal while a competitor's action on the complement changes the total trace cost. Squared displacement can be Ky Fan minimal even if the unsquared trace sum is larger. The objective determines which inequalities are valid.
+Trace norm is different. It sums the singular values before any squaring. In the example from our opening, the direct rotation has four equal singular values of about point seven six five, giving trace cost three point zero six one. The coupled map has two singular values of about one point four one four and two zeros, giving trace cost two point eight two eight. Squared energy and largest displacement favor D, but trace cost favors the coupled map.
 
-A modest correct replacement is therefore: the direct rotation minimizes all Q-norms of full displacement under its usual existence hypotheses. For arbitrary invariant norms, one can still use the projection-difference lower bound, but the direct rotation need not attain it.
+Thus the printed general statement about **every** invariant norm of unsquared ambient displacement cannot be correct. An acute two-subspace pair in real four-space refutes it, and an equal-angle family gives the same failure at every strictly positive angle.
 
-## A quantitative comparison when the norm is arbitrary
+## A universal lower bound and a controlled approximation
 
-There is also a useful approximation guarantee. The projection difference is a lower bound for every competitor's full displacement in any unitarily invariant norm.
+Even when D does not minimize a chosen unsquared norm, the difference of source and target projections gives a universal lower bound. If P and Q are those projections and W transports U onto V, then for every invariant norm N, the norm of P minus Q is no greater than the norm of identity minus W.
 
-For a direct rotation, the singular values of its full displacement are the principal chords, repeated on both directions of each principal plane. Those of the projection difference are the corresponding principal sines, also repeated. Their ratio on a nonzero principal angle theta is one divided by the cosine of half theta.
+The proof uses the source and target reflections, twice their projections minus identity. Their conjugacy under W expresses twice the projection difference as a commutator involving W minus identity. The triangle inequality gives the bound with constant one, because the factor of two from the reflection difference cancels the factor of two from the commutator estimate.
 
-Therefore the full displacement of the canonical D has invariant norm at most the secant of half the largest principal angle, times the norm of P minus Q. Combining this with the universal lower bound gives an approximation factor relative to **every** competing transporter.
+For D itself, each positive principal angle theta contributes two displacement singular values, each equal to twice the sine of half theta. For P minus Q, it contributes two singular values equal to the sine of theta. The ratio is one divided by the cosine of half theta.
 
-When the largest principal angle is at most sixty degrees, the cosine of half that angle is at least the square root of three divided by two. The approximation factor is at most two divided by square root of three, about one point one five five. It is not a claim of exact minimization. The factor can be attained at fixed angles, so this approximation ratio is sharp for the stated class.
+If the largest principal angle is at most sixty degrees, each ratio is at most two divided by the square root of three. Symmetric-gauge monotonicity therefore gives an approximation guarantee: the norm of identity minus D is at most that factor times the norm of identity minus W for every competitor W. It does **not** say D minimizes the norm.
 
-This distinction is useful in applications: a canonical choice can have provably controlled cost without being an optimizer for a given norm.
+The four-dimensional equal-angle example shows this factor is attained in trace norm at theta equal to sixty degrees. The direct trace cost is four, while the coupled map costs two times the square root of three and attains the projection-difference lower bound. Their ratio is exactly two divided by the square root of three. This makes the approximation constant sharp for the stated short-angle comparison.
 
-## The complex field has additional flexibility
+## Real and complex transport have different choices
 
-Complex unitaries have phase degrees of freedom absent from real orthogonal matrices. On a single complex principal plane with angle theta, a phase-corrected transporter can have displacement singular values two sine theta and zero, instead of two copies of twice the sine of half theta.
+There is one last distinction: we can carry subspaces over the real numbers or over the complex numbers. In complex space, multiplying every vector in a complex line by the same unit-magnitude phase does not change the line. It does change how far individual vectors travel. So complex transport has an extra way to adjust full displacement.
 
-Its trace cost is two sine theta, exactly the trace norm of the difference of the two rank-one projections. As a result it attains the universal projection-difference lower bound.
+On one complex principal plane of angle theta, take the ordinary direct rotation, interpreted as a unitary map. Its two eigenphases are plus theta and minus theta. Now multiply the whole two-dimensional block by the complex phase corresponding to minus theta. The two eigenphases become zero and minus twice theta. The map still carries the source complex line to the target complex line, because multiplying all its outputs by a scalar phase does not change that line.
 
-For several principal planes, choose the phase-corrected transports separately and take their orthogonal direct sum. The trace cost is twice the sum of the principal sines, equal to the trace norm of the projection difference. This supplies a global trace-minimizing transport in the stated finite-dimensional complex setting.
+One eigenphase is now zero, so one singular value of displacement vanishes. The other is twice the sine of theta. The trace cost on this plane is therefore twice the sine of theta, equal to the trace norm of the difference between the two rank-one projections. We have concentrated the motion into one complex direction instead of distributing it across two.
 
-This does not mean the **canonical direct rotation** is trace optimal in complex space. The phase-corrected map is generally a different transporter. The field changes the feasible family, so claims about real and complex optimizers must be kept separate.
+Do this independently on each complex principal plane, with identity on common directions. In finite dimension, the resulting unitary transporter attains the projection-difference trace lower bound and is therefore globally trace-optimal. The canonical direct rotation generally does not have that trace cost.
 
-## What the real low-dimensional analysis adds
-
-For a real line, or a real hyperplane, the ambient transport problem has an exact conventional solution for every invariant norm. The determinant-positive component has the direct-plane rotation as a minimizer. The determinant-negative component has a Householder reflection as a minimizer. The global optimum is the smaller of the two costs, given by singular-value lists consisting of two principal chords or a single two.
-
-For real lines and hyperplanes, the sixty-degree all-gauge conclusion holds. Every proper nonzero pair of equal-dimensional subspaces in real ambient dimension at most three has one of these forms, by a finite-dimensional dimension count. This dimension-minimality claim is a separate mathematical argument from the explicit four-dimensional counterexample.
-
-An explicit four-dimensional real counterexample refutes the proposed general all-gauge statement. Combined with the line-and-hyperplane analysis in lower ambient dimensions, this identifies four as the first dimension where such a failure can occur. The dimension-minimality deduction uses the stated finite-dimensional classification, rather than only the counterexample calculation.
-
-## A disciplined theorem-selection checklist
-
-When presented with a new two-subspace optimization problem, first identify whether the input is restricted to U or ranges over the whole ambient space. Next decide whether the objective measures an angular sine, a squared Gram displacement, or an unsquared chord. Then identify the norm: operator, Frobenius, a Q-norm, trace norm, or a general invariant gauge. Finally check real versus complex scalars, compactness and defect matching, and ideal membership in infinite dimension.
-
-These checks identify the correct theorem. They also reveal when the question is a new optimization problem rather than an immediate consequence of a known extremal principle.
+In real space, multiplying a two-dimensional block by an arbitrary complex phase is unavailable. In the minimal plane, the competing choices are a rotation and a reflection; weak majorization yields the sixty-degree threshold for the direct rotation to beat reflection in every invariant norm. In four real dimensions, separate principal planes can be coupled. That is the first ambient dimension where the corresponding universal claim fails.
 
 ## Conclusion
 
-The restricted and squared-displacement extremal theorems remain valid. The unsquared full-displacement statement of Proposition four point four is false as printed; the real four-dimensional counterexample proves it directly. Q-norm optimality, projection-distance lower bounds, quantitative approximation factors, and separate complex trace optimizers provide precise replacements.
-
-With the optimization scopes now settled, we can distinguish the geometry of constructing a direct rotation from the separate problem of minimizing a chosen transport cost.
+Restricted displacement has pointwise singular-value control. Squared full displacement has Ky Fan prefix control. Q-norms carry that squared result back to selected unsquared norms. For an arbitrary unsquared invariant norm, the projection difference is a lower bound and the direct rotation has a quantitative approximation guarantee, but exact optimization depends on the scalar field and on the admissible ambient couplings. These statements answer distinct mathematical questions and can all be true simultaneously.
 
 <!-- END SPOKEN LECTURE -->
 
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### Numerical scope comparison and sharp short-angle ratio
+
+For the real equal-angle pair \(\theta_1=\theta_2=\pi/4\), let
+\(a=\sqrt{2-\sqrt2}\) and \(b=\sqrt2\). A canonical direct rotation
+and a coupled admissible transport have displacement singular-value lists
+\(a^{[4]}\) and \((b,b,0,0)\). Their costs are
+\[
+\begin{array}{c|cc}
+& D & W\\\hline
+\|I-\cdot\|_\infty & a & b\\
+\|I-\cdot\|_2 & 2a & 2\\
+\|I-\cdot\|_1 & 4a & 2b\\
+\|\,(I-\cdot)^*(I-\cdot)\,\|_1 & 4a^2 & 4
+\end{array}
+\]
+Thus the Q-norm comparisons and the reversed nuclear-norm ordering are
+consistent on the same input pair.
+
+For a principal angle \(\theta\), the two nonzero singular values of
+\(I-D\) on its real principal plane are \(2\sin(\theta/2)\),
+whereas those of \(P_U-P_V\) are \(\sin\theta\). Hence, for maximum angle
+\(\theta_{\max}<\pi\) in the direct-rotation regime,
+\[
+\|I-D\|_N\le\sec(\theta_{\max}/2)\|P_U-P_V\|_N
+\le\sec(\theta_{\max}/2)\|I-W\|_N.
+\]
+At \(\theta_{\max}=\pi/3\) the factor is \(2/\sqrt3\). The real
+four-dimensional equal-angle family gives
+\(\|I-D\|_1=4\), \(\|I-W\|_1=2\sqrt3\), with \(W\) attaining the
+projection-difference lower bound: the factor is sharp.
+
+For a **complex** principal plane, \(D_\theta\) has eigenvalues
+\(e^{\pm i\theta}\). Multiplication by the complex scalar
+\(e^{-i\theta}\) preserves the target complex line and gives a transporter
+with eigenvalues \((1,e^{-2i\theta})\), displacement singular values
+\((0,2\sin\theta)\), and trace cost equal to the rank-one projection
+trace distance. Direct sums produce finite-dimensional complex trace attainers.
+The real scalar field does not permit this phase multiplier.
 
 For \(WU=V\), the source-supported inequalities include:
 \[

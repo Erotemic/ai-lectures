@@ -67,6 +67,17 @@ mathematical/Lean companion when the exposition changes a convention, example,
 or theorem statement. In particular, use consistent resolvent signs within a
 lecture and explain any convention change across its displayed sources.
 
+**Spoken proof pacing.** At a difficult inference, give the listener a concrete
+picture, perform one mathematical operation, and explain what that operation
+established before introducing another. In particular, separate a projection,
+its complement, a displacement operator and its Gram operator in the narration:
+they play different roles even when their symbols look similar on paper.
+State numerical radicals and eigenvalue lists in intelligible spoken chunks,
+using approximations to support rather than replace exact companion equations.
+Use short interpretive pauses in prose instead of reciting several identities
+in one sentence. The goal is an argument the listener can reconstruct without
+looking at the screen; artificial filler and repeated recaps do not help.
+
 **Audio-first editorial test.** Read the extracted spoken region in order, with
 appendices and visuals hidden. At each mathematical transition ask: can the
 listener identify the current objects; perform or visualize the example; see

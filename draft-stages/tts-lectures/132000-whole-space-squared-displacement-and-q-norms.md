@@ -6,85 +6,140 @@
 
 # Whole-space squared displacement and Q-norms
 
-A horizontal line can be carried onto a line tilted thirty degrees by a thirty-degree rotation. It can also be carried there by reflection across the line at fifteen degrees. Both transformations obey the same subspace constraint. But the rotation moves every direction by a modest amount, whereas the reflection fixes one direction and reverses another, moving that direction a distance of two.
+Rotate a line in the plane through forty-five degrees. The rotation carries the original line to the target line, moving both coordinate directions by the same modest amount. Reflection across the halfway line also maps the original line to the target. It fixes one direction and reverses another. We can compare the two transformations by how far they move every vector in the ambient plane.
 
-To compare such full-space movements, Proposition four point three forms the positive squared displacement operator. Its quadratic form measures the squared distance moved by each vector, and its singular values allow a norm comparison across all directions. The theorem applies to this squared quantity. It does not automatically settle a norm comparison of unsquared displacement.
+Imagine accounting for motion direction by direction. We could add the distances traveled. Or we could square each distance before adding, making a large movement more expensive relative to a small one. Both are reasonable ways to measure the same transformation. They can rank two transformations differently.
 
-## The positive displacement square
+Our question is which part of the direct rotation's minimal-motion property survives when we measure **every direction in the whole space**, rather than just directions in the source. We will first prove a statement about squared movement. Only then will we ask which unsquared norms it controls.
 
-Let U and V be two closed subspaces that admit a direct rotation D. Let W be any other unitary satisfying W U equals V. Define the full displacement of W as identity minus W. Its positive displacement square is the adjoint of identity minus W multiplied by identity minus W.
+## A positive operator records squared movement
 
-For any vector x, the quadratic form of this positive operator at x is the squared length of x minus W x. It is therefore a natural measure of displacement energy. But our theorem will compare unitarily invariant **norms of the positive operator**, not simply the energy at one chosen vector.
+Work first in a finite-dimensional real or complex inner-product space. Let the source and target subspaces be called U and V, with a direct rotation D carrying U to V. A competing orthogonal or unitary map W also carries U to V, but may act differently on vectors outside U.
 
-Expand the product. Because W is unitary, the result is two times the identity minus W minus W adjoint. The same formula holds with D in place of W.
+Start with one unit vector x. Its displacement is the vector from W x back to x. We want its length squared. There is an operator that records exactly this quantity: take identity minus W, follow it by its adjoint, in Gram order. More precisely, apply identity minus W first, and then apply its adjoint. Call the resulting positive operator G.
 
-The positive square has eigenvalues equal to the squared singular values of identity minus W. This is a Gram-operator identity, and it will be the decisive link to the single-vector angular-energy calculation.
+When we take the inner product of G x with x, we get the squared distance between x and W x. The vector x can point anywhere in the ambient space. G is therefore a device for measuring the squared motion of a direction, even when W mixes principal planes.
 
-## Why one restricted comparison is insufficient
+Unitarity simplifies the formula. Expanding the product gives twice the identity minus W minus its adjoint. The eigenvalues of G are nonnegative. They are precisely the squared singular values of identity minus W. Those eigenvalues let us compare movement across all directions without relying on a particular basis.
 
-The source-restricted theorem compared identity minus D and identity minus W on U. For the full displacement square we must control behavior on both U and U perpendicular. Those are orthogonal source blocks.
+For one principal plane of angle theta, the direct rotation turns both orthogonal directions through theta. The distance moved by either unit basis vector is a chord of length twice the sine of half theta. The associated G for D is therefore a scalar multiple of the identity on that plane, with scalar four times the sine squared of half theta. This is the numerical value we want to compare to other transporters.
 
-The direct rotation has a compatibility property: interchanging U with U perpendicular and V with V perpendicular gives the same direct rotation. Therefore Proposition four point one can be applied a second time, now to the complementary subspaces.
+## First control each half of the source space
 
-On U, the restricted displacement of D has singular values no larger than those of W. On U perpendicular, the same comparison holds for the complementary restricted maps. Squaring these values preserves the pointwise inequalities because the singular values are nonnegative.
+Here is the first reason to separate directions. Every ambient vector has a part in U and a part perpendicular to U. We will examine the two starting parts separately, even though W can send them to different output spaces.
 
-That gives the spectral data of two diagonal blocks of the displacement square, but it does not immediately compare the entire positive operators. The competitor can have nonzero off-diagonal blocks coupling U and U perpendicular. We need to handle them without losing constants.
+Start with vectors lying in U. Restrict identity minus W to those input vectors. The restricted-displacement theorem says that the ordered singular values for the direct rotation are no larger, one by one, than those for W. Geometrically, the canonical principal-vector match is optimal on the source itself, even when a competitor chooses a different orthonormal basis in the target.
 
-## Combine the squared singular values
+The key point is that this statement only controls vectors in U. We need an independent estimate for vectors in the perpendicular complement. Fortunately, a unitary W carrying U onto V also carries U perpendicular onto V perpendicular. The direct rotation for the complementary pair is the same full-space operator D. Applying the restricted theorem a second time gives the analogous singular-value comparison on the complement.
 
-First recall how Ky Fan sums work for a block diagonal operator. The k largest singular values of a direct sum are obtained by merging the two individual sorted lists. Thus its Ky Fan k sum is the maximum of all possible splits: take i values from the first block and k minus i from the second.
+Now square those restricted singular values. The squares are the eigenvalues of the two **diagonal compressions** of G. One compression describes displacements starting in U; the other describes displacements starting in U perpendicular.
 
-The squared singular-value lists on the source subspace and its perpendicular complement are compared separately. A direct-sum inequality then says that domination of every Ky Fan prefix on both orthogonal blocks implies domination of the prefixes after merging the lists. This supplies the required whole-space comparison.
+There is a trap here. The full operator G for W need not be block diagonal. It can have cross terms between the two source blocks. We cannot simply concatenate the two restricted spectra and call the result the spectrum of G.
 
-Now let G be the full displacement square of W. Its diagonal blocks relative to U plus U perpendicular are the two Gram operators of the restricted displacements. The off-diagonal blocks are not generally zero.
+## Merge and then pinch
 
-Erase them by pinching G with respect to that decomposition. Pinching is the average of G and its conjugate by the reflection that is plus one on U and minus one on U perpendicular. A convex unitarily invariant norm cannot increase under that average. At the Ky Fan level, every prefix of the pinched operator is no greater than the corresponding prefix of G.
+First imagine a positive operator with no cross terms. Its two diagonal blocks have separate eigenvalue lists. Joining the blocks means joining the lists and sorting them. For example, if the first list is four and one, and the second is three and two, the combined list is four, three, two, one. The largest two add to seven: we took one from each list. The largest three add to nine: we took the four from the first list and the three and two from the second. The calculation considers every possible split, then keeps the largest total.
 
-For the direct rotation, the displacement square is already block diagonal. Indeed, it equals two times identity minus D minus D adjoint, and the positive cosine part D plus D adjoint commutes with the source projection. Consequently pinching does not change the direct operator.
+More generally, a sum of the largest k eigenvalues can be computed by trying every split of those k places between the two blocks. Such sums are called Ky Fan prefix sums. Because the direct rotation has no larger eigenvalue at each position in either block, it has no larger prefix after the two lists are merged.
 
-Putting these facts together gives, for every k, the Ky Fan k norm of the direct displacement square no greater than that of the competitor's displacement square. From Ky Fan dominance, every unitarily invariant norm has the same inequality.
+But we have only compared the **block-diagonal part** of W's squared displacement. The cross terms are still missing. That is the precise reason we need one more operation.
 
-## A warning about individual eigenvalues
+To relate those diagonal blocks to the full G, use **pinching**. Let J be the reflection that acts as plus one on U and minus one on U perpendicular. Average G with J G J. The off-diagonal blocks cancel, leaving exactly the two diagonal compressions. Unitary conjugation preserves every unitarily invariant norm, and taking an average cannot increase a norm. In particular, pinching cannot increase any Ky Fan prefix sum of this positive operator.
 
-The conclusion concerns cumulative prefixes, not every individual eigenvalue. A pinched positive matrix may have a smaller total of its largest k eigenvalues while some lower eigenvalue increases. For example, pinching the two-by-two matrix with diagonal entries three and off-diagonal entries four removes the cross terms. Its singular values change from seven and one to three and three: the largest decreases while the smaller increases. Thus prefix-sum control is the appropriate general conclusion.
+A two-by-two example makes the direction of the inequality visible. Start with the positive matrix having diagonal entries three and off-diagonal entries two. Its eigenvalues are five and one. Pinching to the coordinate axes gives the diagonal matrix with entries three and three. The largest eigenvalue drops from five to three; the sum of both eigenvalues remains six. The smaller eigenvalue has grown. So pinching controls the cumulative largest eigenvalues. It does not say that each individual eigenvalue goes down.
 
-In fact the direct rotation's squared displacement need not have every singular value below the corresponding competitor's value. A four-dimensional example with two equal principal angles has four equal positive eigenvalues for the direct square, while a competing rotation has two large eigenvalues and two zeros. The lower individual eigenvalues favor the competitor, even though every Ky Fan prefix sum favors the direct rotation.
+We can check this mechanism in the line-rotation example too. A reflection across the line halfway between source and target has the same source displacement energy as the direct rotation: twice one minus the cosine of theta. But on the source-perpendicular direction its displacement energy is twice one plus the cosine of theta. Those are the diagonal blocks of the reflection's squared displacement. Its full squared-displacement eigenvalues are four and zero, because a reflection fixes one direction and reverses the other. Pinching removes the cross terms, leaving just the two diagonal energies. The direct rotation has the smaller first diagonal energy on both source blocks, with equality on the source line, and the prefix comparison follows. This is the abstract proof made visible in a two-by-two matrix.
 
-If we replaced the prefix statement with an individual-eigenvalue statement, we would be claiming something stronger than Proposition four point three, and it would be false.
+For D, something special happens. On a principal plane, D plus its adjoint is twice the cosine of the principal angle times the identity. The squared-displacement operator for D is therefore scalar on each such plane. It already respects the split into U and U perpendicular. Pinching D changes nothing.
 
-## Which unsquared norms follow?
+The proof now has all its pieces. We can read them in order: compare the squared restricted singular values on U, compare them again on U perpendicular, merge those two lists, and pinch the competitor to bound the merged prefixes by those of its full squared displacement. Therefore every Ky Fan prefix of the direct G is at most the corresponding prefix of the competitor G. Ky Fan dominance extends this comparison to every unitarily invariant norm of the **positive squared-displacement operator**.
 
-Suppose we are interested in a norm of identity minus W itself. Can we take square roots of the squared-displacement inequality?
+## What squaring allows, and what it does not
 
-For the operator norm, yes. The norm of X adjoint X equals the square of the norm of X. Therefore minimizing the operator norm of the positive square also minimizes the operator norm of X.
+Can we turn that result into a theorem about the norm of identity minus W? Sometimes. The operator norm of the squared-displacement operator is the square of the operator norm of displacement. Its trace is the square of the Frobenius, or Hilbert–Schmidt, norm of displacement. Both inherit the direct rotation's optimality.
 
-For the Frobenius or Hilbert–Schmidt norm, also yes. The trace norm of X adjoint X equals the square of the Hilbert–Schmidt norm of X. Because Proposition four point three applies to the trace norm of the positive square, it gives the Frobenius comparison for unsquared displacement.
+More generally, for a Schatten p norm with p at least two, the square of the Schatten p norm of a matrix X equals the Schatten p-over-two norm of X adjoint X. Since p over two is at least one, that second expression is a genuine unitarily invariant norm. Norms with such a representation are called Q-norms, and the squared theorem gives optimality for their unsquared displacements as well.
 
-The same pattern extends to Schatten p norms with p at least two. The square of the Schatten p norm of X is the Schatten p over two norm of X adjoint X, and p over two is then at least one, so it is a genuine unitarily invariant norm. These norms belong to a class called Q-norms.
+Why does this reasoning fail for the trace norm, the sum of singular values? Its square contains cross terms between different singular values. In fact, it cannot arise as a norm of X adjoint X in this way. To see the obstruction, look at a two-by-two diagonal matrix with entries one and zero. A hypothetical norm M representing the square of trace norm would assign its Gram matrix value one. The same holds with the one in the other diagonal position. But for the identity matrix, the squared trace norm is four. The triangle inequality for M would bound its value by one plus one, or two. That contradiction identifies the failed step: the purported M is not a norm.
 
-A Q-norm N is a unitarily invariant norm for which there exists another unitarily invariant norm M satisfying N of X squared equals M of X adjoint X, for every X. Once that property is established, Proposition four point three immediately gives optimality of the full displacement for N.
+## Return to two equal principal angles
 
-The trace norm of X does not satisfy this pattern. Squaring the sum of singular values introduces cross terms, while the trace of X adjoint X sums squares. There is no generally valid unitarily invariant norm of X adjoint X whose value equals the square of the trace norm of X. An explicit counterexample shows that the trace norm cannot be represented as a Q-norm of the squared displacement.
+Consider two perpendicular principal planes, each with angle forty-five degrees. The direct rotation moves four independent directions by the same amount, approximately point seven six five. The exact chord length is the square root of the quantity two minus square root of two. When squared, each of the four displacement singular values becomes two minus square root of two, about point five eight six.
 
-## A plane example and the boundary of the result
+A different admissible orthogonal transporter can fix one two-plane and turn its perpendicular two-plane through ninety degrees. Its displacement singular values are square root of two, square root of two, zero, and zero. The squared list is two, two, zero, zero.
 
-Take two real lines meeting at angle theta. The direct rotation through theta has displacement singular values equal to twice the sine of half theta, repeated twice. A reflecting transporter can have displacement singular values two and zero.
+The direct rotation's squared prefixes are approximately point five eight six, one point one seven two, one point seven five seven, and two point three four three. Those of the competitor are two, four, four, and four. Every squared prefix favors the direct rotation, exactly as the theorem predicts.
 
-Under the operator norm, the direct rotation wins because its largest chord is at most square root of two for principal theta at most a right angle. Under the Frobenius norm, its two squared chords sum to a value at most four, tying the reflection at a right angle. Under the trace norm, however, the direct rotation costs four times the sine of half theta, while the reflection costs two. Above sixty degrees, the reflection wins.
+Yet the unsquared trace totals go in the other direction: the direct rotation costs about three point zero six one, while the competitor costs about two point eight two eight. The operator and Frobenius norms still favor the direct rotation. The same admissible pair thus separates the two optimization questions without contradicting either theorem.
 
-Even without mixing principal planes, minimizing the unsquared trace norm can differ from minimizing squared displacement. In four real dimensions, two equal principal angles allow a transporter that reduces the former cost without contradicting the squared-displacement theorem.
+## Conclusion
 
-## Close
-
-The proof of Proposition four point three consists of squared restricted singular-value bounds, a Ky Fan direct-sum argument, and a pinching contraction. Those operations control all unitarily invariant norms of the positive displacement square. They also control full displacement in Q-norms, including operator, Frobenius, and Schatten p norms for p at least two.
-
-Optimality for a norm of squared displacement does not establish optimality for an arbitrary unitarily invariant norm of identity minus W itself. Proposition four point four as printed asserts the latter without a valid general proof; explicit counterexamples show why the distinction is necessary.
+The whole-space squared-displacement theorem depends on a specific chain: restricted singular values on both complementary source spaces, merging Ky Fan sums, and pinching away cross terms. Its conclusion is robust for the positive Gram operator. To infer optimality for an unsquared displacement norm, that norm must also respect the squaring operation through the Q-norm identity. The trace norm does not, and the four-dimensional example shows the consequence.
 
 <!-- END SPOKEN LECTURE -->
 
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### Worked proof: compressions, pinching, and the Q-norm boundary
+
+In finite dimension, write \(P=P_U\), \(J=2P-I\), and \(X_W=I-W\). Define
+\[
+G_W=X_W^*X_W=2I-W-W^*\succeq0,\qquad
+\mathcal P_P(G_W)=PG_WP+(I-P)G_W(I-P)=\tfrac12(G_W+JG_WJ).
+\]
+The compressions of \(G_W\) to \(U\) and \(U^\perp\) equal the Gram operators
+of \(X_W|_U\) and \(X_W|_{U^\perp}\). The restricted displacement theorem for
+\((U,V)\) and \((U^\perp,V^\perp)\), followed by squaring nonnegative singular
+values, gives componentwise domination of the corresponding compressed
+eigenvalue lists for the direct rotation \(D\).
+
+For positive block matrices \(A\oplus B\), each Ky Fan prefix is the maximum
+over all splits \(i+j=k\) of the two block-prefix sums. Consequently
+\[
+\sum_{r=1}^k\lambda_r(G_D)
+=\sum_{r=1}^k\lambda_r(\mathcal P_P(G_D))
+\le\sum_{r=1}^k\lambda_r(\mathcal P_P(G_W))
+\le\sum_{r=1}^k\lambda_r(G_W).
+\]
+The last step is Ky Fan convexity and unitary invariance applied to the average
+\(\mathcal P_P\). The first equality uses \(\mathcal P_P(G_D)=G_D\).
+
+For real lines \(U=\operatorname{span}(e_1)\) and
+\(V=\operatorname{span}((c,s))\), the reflecting transporter
+\(F=\begin{psmallmatrix}c&s\\s&-c\end{psmallmatrix}\) satisfies
+\(F(U)=V\) and \(G_F=2(I-F)\). Relative to \(U\oplus U^\perp\),
+\[
+G_F=\begin{pmatrix}2(1-c)&-2s\\-2s&2(1+c)\end{pmatrix},\qquad
+\mathcal P_P(G_F)=\operatorname{diag}(2(1-c),2(1+c)),
+\]
+while \(G_D=2(1-c)I_2\). The full eigenvalues of \(G_F\) are \((4,0)\),
+so the last Ky Fan comparison is visible directly in the planar model.
+
+A valid **positive** pinching example is
+\[
+\begin{pmatrix}3&2\\2&3\end{pmatrix}
+\mapsto\begin{pmatrix}3&0\\0&3\end{pmatrix},\qquad
+(5,1)\mapsto(3,3).
+\]
+The smaller eigenvalue *increases*; the claim is prefix (weak-majorization)
+comparison, not pointwise eigenvalue comparison.
+
+If \(N(X)^2=M(X^*X)\) with \(M\) a unitarily invariant norm, the theorem
+applies to \(N\). For \(2\le p<\infty\),
+\(\|X\|_p^2=\|X^*X\|_{p/2}\); the operator-norm case is the \(p=\infty\)
+limit. Nuclear norm cannot have this Q-representation: if
+\(N(X)=\|X\|_1\), then hypothetical \(M\) must give
+\(M(E_{11})=M(E_{22})=1\) but \(M(I_2)=\|I_2\|_1^2=4\),
+contradicting \(M(I_2)\le M(E_{11})+M(E_{22})=2\).
+
+For \(\theta=\pi/4\) repeated twice, put
+\(a=\sqrt{2-\sqrt2}\), \(b=\sqrt2\). There are transporters with
+\(s(I-D)=(a,a,a,a)\) and \(s(I-W)=(b,b,0,0)\), so their Gram spectra are
+\((a^2,a^2,a^2,a^2)\) and \((2,2,0,0)\). The squared prefixes satisfy
+\(k(2-\sqrt2)\le2\min(k,2)\) for \(1\le k\le4\), whereas
+\(4a>2b\) for unsquared trace norm.
 
 Define \(G_W=(I-W)^*(I-W)=2I-W-W^*\). Proposition 4.3 gives
 \[

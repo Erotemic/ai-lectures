@@ -6,95 +6,125 @@
 
 # The four-dimensional real counterexample
 
-The printed universal minimization claim of Proposition four point four fails already in a four-dimensional real inner-product space. We will construct two acute two-dimensional subspaces and an orthogonal transporter whose whole-space trace-norm displacement is smaller than that of the canonical direct rotation. Both the principal angles and the displacement singular values will be computed exactly.
+Consider two two-dimensional subspaces in real four-space whose principal angles are both forty-five degrees. The canonical direct rotation is obvious once the principal planes are known: rotate each plane by forty-five degrees. We will build a second, equally admissible orthogonal motion that fixes two ambient directions completely and turns the other two through ninety degrees. Its trace-norm displacement is strictly smaller.
 
-## Start with an orthogonal four-by-four matrix
+We will verify three things independently: that the competing map really carries the source onto the target, that the subspaces have the claimed principal angles, and that the competing map has the claimed singular values. Only after those checks can the cost comparison refute a universal optimality statement.
 
-Let U be the plane spanned by the first and second standard coordinate vectors in real four-space. Define a matrix W by taking one half of the following four-by-four sign matrix. Its first row is one, minus one, minus one, minus one. Its second row is one, one, one, minus one. Its third row is minus one, minus one, one, minus one. Its fourth row is one, minus one, one, one.
+## Construct the subspaces first
 
-The matrix is orthogonal for a simple reason: each row has four entries of magnitude one, and distinct rows have dot product zero. After multiplication by one half, each row has length one. Thus W is orthogonal.
+Write real four-space as two copies of the ordinary coordinate plane. We can specify any ambient vector by giving two planar vectors, x and y. The source U consists of all pairs where y is zero. So x can move freely in two directions, while the other two coordinates begin at zero. This is a two-dimensional source inside a four-dimensional ambient space.
 
-Define V to be W of U. By construction W is admissible as a transporter from U to V. We now need to determine the geometric position of V and then compare the costs of W and the canonical direct rotation.
+Fix an angle theta strictly between zero and ninety degrees, and abbreviate its cosine and sine by c and s. Define the direct rotation D of this four-space by the following rule. Its first output component is c times x minus s times y. Its second output component is s times x plus c times y.
 
-## Verify both principal angles
+This is an orthogonal map because the usual cosine-sine rotation identity works componentwise. It sends U onto V, where V consists of the pairs c x and s x as x ranges over the coordinate plane. The source and target both have dimension two.
 
-Use the first two columns of W as an orthonormal basis of V. Their top two coordinates form the two-by-two matrix whose rows are one half times one, minus one and one half times one, one. This is the cross-Gram matrix between the standard basis of U and our chosen basis of V.
+To find their principal angles, choose an orthonormal basis of U and use its images under D as an orthonormal basis of V. The matrix of overlaps between these two bases is simply c times the two-by-two identity. Its two singular values are c. Therefore both principal angles equal theta. In particular, theta equal forty-five degrees satisfies the printed sixty-degree restriction with room to spare.
 
-Multiply this cross-Gram matrix by its transpose. The result is one half times the two-by-two identity. Hence both singular values of the cross-Gram matrix are one over square root of two.
+## Introduce an internal rotation
 
-Principal cosines are precisely those singular values. Therefore both principal angles equal forty-five degrees. They are strictly acute, and forty-five degrees is less than the sixty-degree threshold required by the printed proposition.
+Inside the two-dimensional coordinate plane, let A be the ordinary counterclockwise rotation by theta. Construct a new ambient orthogonal operator W by first applying A to x and A to y, and then applying D.
 
-The geometry satisfies every condition relevant to the purported universal small-angle conclusion. We have not selected a borderline right angle or a nonmatching pair of dimensions.
+The first stage is orthogonal because each A is. The second stage is orthogonal because D is. Therefore their composition W is orthogonal. On a vector in U, whose second component is zero, the result is the pair c times A x and s times A x. As x ranges over the plane, so does A x. Thus W of U equals V exactly.
 
-## Compute the competitor's displacement
+This is a proof of admissibility, not an assertion based on the appearance of a matrix. We are now free to compare W against D for a norm that measures full ambient displacement.
 
-The special advantage of W is its own spectral decomposition. There is an orthonormal plane on which W makes a quarter-turn and an orthogonal complementary plane on which W acts as the identity. In the chosen standard coordinates, the turning plane is spanned by the normalized sums of the first and third basis vectors and of the second and fourth basis vectors. One can verify directly by applying the matrix to those two vectors that their images form a ninety-degree rotation.
+## Find the two planes on which W acts simply
 
-The eigenvalues of W, allowing complex eigenvalues to describe the real quarter-turn, are i, negative i, one, and one, where i is the imaginary unit. Its displacement operator identity minus W has singular values square root of two, square root of two, zero, and zero.
+We want to understand W without expanding a four-by-four characteristic polynomial. The trick is to describe two planes by how their two coordinate pieces relate.
 
-Why? For a unitary eigenvalue e to the i phi, the magnitude of one minus that eigenvalue is twice the absolute value of the sine of half phi. A quarter-turn has phi ninety degrees and therefore gives square root of two. The fixed directions give zero.
+Let J be the quarter-turn in the ordinary coordinate plane. It rotates a vector by ninety degrees, and applying J twice sends a vector to its negative. The internal rotation A is cosine theta times identity plus sine theta times J.
 
-The trace norm of identity minus W, which is the sum of all four singular values, is therefore two square roots of two. Numerically that is about two point eight two eight.
+Consider first the pairs x and J x. If x points to the right, J x points upward. So one example of such a four-dimensional vector is the pair of planar arrows right and up. These pairs fill a two-dimensional plane inside the ambient four-space.
 
-Notice that the competitor moves only one two-dimensional plane. That plane is not one of the two canonical principal planes. The competitor mixes the repeated-angle directions, yet still maps the prescribed U onto the prescribed V.
+Apply W to such a pair. The internal A turns both pieces forward by theta. The subsequent D turns this linked pair back by theta. The two effects cancel. Every vector of this form is fixed by W.
 
-## Compute the direct rotation
+For a second family, use the pairs x and minus J x: right paired with down in the example. These pairs form the orthogonal complement of the fixed plane. This time the internal turn and the direct rotation reinforce one another. W sends x to A applied twice to x, a rotation through twice theta, and preserves the negative-quarter-turn relation between the two components.
 
-Now construct the canonical direct rotation D between U and V. Since both principal angles are forty-five degrees, the cosine–sine decomposition tells us that D is a direct sum of two forty-five-degree rotations in orthogonal principal planes.
+We have accounted for all four ambient dimensions. Two form a fixed plane; the other two form a plane rotated through twice theta. That is the mental picture behind the singular values.
 
-Each two-dimensional principal rotation has displacement singular values equal to two sine of twenty-two point five degrees, repeated twice. Across two principal planes, all four singular values of identity minus D equal two sine of twenty-two point five degrees.
+The eigenvalue picture follows without diagonalizing a four-by-four characteristic polynomial. W fixes two orthogonal directions and rotates their perpendicular plane through twice theta. Its displacement has two zero singular values and two equal nonzero singular values, each twice the sine of theta.
 
-Use the half-angle identity. Two sine of twenty-two point five degrees equals the square root of the quantity two minus square root of two. This number is approximately point seven six five.
+The canonical D has a different distribution. It rotates two perpendicular principal planes through theta, so all four singular values of identity minus D are twice the sine of half theta.
 
-The direct rotation's trace-norm cost is four times that number, or about three point zero six one. The competitor's cost was approximately two point eight two eight. The competitor is strictly better.
+## Compare the costs at forty-five degrees
 
-The inequality can be checked exactly without decimals. Square the two positive quantities. The direct cost squared is sixteen times the quantity two minus square root of two. The competitor cost squared is eight. The direct cost is larger precisely because square root of two is less than three halves, which is an elementary inequality.
+Set theta equal to forty-five degrees. The two nonzero singular values of identity minus W become square root of two, while the other two are zero. Its trace norm, the sum of all four singular values, is two square roots of two, approximately two point eight two eight.
 
-We have therefore established a complete contradiction to the printed claim for trace norm, despite both principal angles satisfying the stated sixty-degree bound.
+For D, all four singular values are equal. Each is approximately point seven six five. Exactly, it is the square root of the quantity two minus square root of two. Adding four copies gives a trace cost of approximately three point zero six one.
 
-## Why this does not contradict earlier propositions
+The decimal comparison is clear, but there is also a short exact check. Both costs are positive, so we may square them without changing which is larger. The direct cost squared is sixteen times the quantity two minus square root of two. The competing cost squared is eight. The first exceeds the second precisely when square root of two is less than three halves. That last inequality holds because two is less than nine quarters.
 
-Let us compute the positive squared displacement and compare its Ky Fan sums. For D, all four squared displacement singular values equal two minus square root of two, approximately point five eight six.
+This supplies two acute real subspaces, an admissible orthogonal transporter, and a specific invariant norm for which the direct rotation loses. That is enough to disprove a statement asserting that D minimizes *every* such norm under a sixty-degree threshold.
 
-For W, the squared displacement singular values are two, two, zero, zero. At the first prefix, point five eight six is less than two. At the second, about one point one seven two is less than four. At the third, about one point seven five seven is less than four. At the fourth, about two point three four three is less than four.
+## Check the positive squared displacement too
 
-Thus the direct rotation really does minimize every Ky Fan sum of the **squared** displacement in this example. It also minimizes the Frobenius norm of the unsquared displacement, because that norm squares and sums its singular values.
+The example is stronger when we calculate the quantity that remains optimal. For D, the eigenvalues of its positive squared displacement are four copies of two minus square root of two, about point five eight six. For W, they are two, two, zero, zero.
 
-But the trace-norm totals of the unsquared lists reverse: four copies of about point seven six five sum to more than two copies of square root of two. Square-rooting entries changes their aggregate comparison.
+At prefixes of length one through four, the direct sums are approximately point five eight six, one point one seven two, one point seven five seven, and two point three four three. The competitor prefixes are two, four, four, and four. Every prefix of the direct squared list is smaller.
 
-Proposition four point three survives, while Proposition four point four fails. This example exposes exactly why one cannot pass from squared Ky Fan dominance to unsquared Ky Fan dominance.
+Consequently the direct rotation satisfies the squared-displacement theorem here. It also has smaller Frobenius displacement, whose square is the sum of the squared singular values. It loses only the unsquared trace-norm comparison in this calculation. The two conclusions concern different spectral operations.
 
-## An equality with the projection lower bound
+## Certify global trace optimality
 
-A universal bound says that every admissible W satisfies trace norm of P minus Q no greater than trace norm of identity minus W.
+We have proved that W beats D. To know whether W is actually best among *all* orthogonal transports, we need a lower bound that applies to every competitor.
 
-For each principal angle theta, the projection difference has two singular values equal to sine theta. Here there are two angles, both forty-five degrees. Therefore the four singular values of P minus Q are all one over square root of two, whose sum is two square roots of two.
+The source and target each have an orthogonal projection. Their difference measures the unavoidable geometric change between the subspaces. For any orthogonal transporter Z carrying U to V, the trace norm of its full displacement is at least the trace norm of that projection difference. A reflection-commutator argument proves the bound without assuming Z preserves principal planes.
 
-That is exactly the trace norm of our competitor's displacement. So the competitor is not merely better than D; it attains the universal lower bound and is a global trace-norm minimizer.
+Our two principal angles are both theta. Each contributes two projection-difference singular values, each equal to the sine of theta. So the projection-difference trace norm is four times the sine of theta.
 
-That conclusion is stronger than the bare refutation, and its proof is short once the general projection lower bound and the explicit singular-value computation are both available.
+Now look back at W. It has exactly two moving singular directions, each with displacement twice the sine of theta. Their sum is also four times the sine of theta. W reaches the lower bound shared by all admissible transports. That is why it is a global trace-norm minimizer, not just an improvement over D.
 
-## The entire acute family
+The same calculation works for every positive theta at most a right angle. D costs eight times the sine of half theta, while W costs four times the sine of theta. The double-angle formula makes the second cost the first multiplied by the cosine of half theta, strictly less than one for positive theta. Thus no positive angle threshold, however small, can make the printed unsquared all-norm assertion valid for arbitrary real ambient dimensions.
 
-The four-dimensional construction extends to every principal angle strictly between zero and ninety degrees: take two equal angles theta and choose a real orthogonal competitor with one rotation through twice theta and two fixed directions. Its singular-value distribution can differ from that of two independent direct rotations.
+## Conclusion
 
-The competitor's two nonzero displacement singular values are each twice the sine of theta. Its trace cost is four times the sine of theta. The canonical direct rotation has four singular values equal to twice the sine of half theta, so its trace cost is eight times the sine of half theta.
-
-Use the identity: the sine of theta equals twice the sine of half theta times the cosine of half theta. Then four times the sine of theta equals eight times the sine of half theta times the cosine of half theta. Because the cosine of half theta is strictly less than one for every positive theta, the competitor is strictly cheaper for every positive angle in the family.
-
-Consequently no positive universal angle threshold can repair the printed statement across all real dimensions. The failure persists arbitrarily close to coincident subspaces.
-
-## Closing diagnosis
-
-The counterexample uses a four-by-four orthogonal matrix, an acute source-target pair, a trace norm represented as a Ky Fan sum, and exact trigonometric calculations. It proves the negation of the universal proposition, not just a gap in an argument.
-
-The physical lesson is about where movement occurs. The canonical direct rotation spreads displacement over two prescribed principal planes. A competing real orthogonal transport can couple the planes and concentrate movement into a different two-plane. For squared cost this is expensive; for trace cost it can be cheaper.
+The transport constraint allows a coordinated internal rotation of the source and its complement. In four real dimensions that freedom changes two small ambient rotations into one larger rotation and one fixed plane. The full trace norm favors the latter, while the squared displacement favors the canonical direct rotation. The distinction comes from the actual singular-value lists, and it persists for arbitrarily small positive principal angles.
 
 <!-- END SPOKEN LECTURE -->
 
 ---
 
 ## Companion: mathematics and Lean correspondence (display only)
+
+### A parameterized, verified four-dimensional family
+
+Write \(\mathbb R^4=\mathbb R^2\oplus\mathbb R^2\),
+\(J=\begin{psmallmatrix}0&-1\\1&0\end{psmallmatrix}\),
+\(c=\cos\theta\), \(s=\sin\theta\), and
+\[
+A_\theta=cI+sJ,\qquad
+D_\theta=\begin{pmatrix}cI&-sI\\sI&cI\end{pmatrix},\qquad
+W_\theta=D_\theta\begin{pmatrix}A_\theta&0\\0&A_\theta\end{pmatrix}.
+\]
+Both factors in \(W_\theta\) are orthogonal. Let
+\(U=\{(x,0):x\in\mathbb R^2\}\),
+\(V=\{(cx,sx):x\in\mathbb R^2\}\). Since
+\(W_\theta(x,0)=(cA_\theta x,sA_\theta x)\), one has \(W_\theta U=V\).
+The cross-Gram matrix for the natural orthonormal frames of \(U,V\) is
+\(cI_2\), giving exactly two principal angles equal to \(\theta\).
+
+Set \(M_+=\{(x,Jx)\}\) and \(M_-=\{(x,-Jx)\}\). These are orthogonal,
+span \(\mathbb R^4\), and satisfy
+\[
+W_\theta|_{M_+}=I,\qquad
+W_\theta(x,-Jx)=(A_\theta^2x,-JA_\theta^2x).
+\]
+Thus the latter restriction rotates through \(2\theta\). Exact singular values:
+\[
+\begin{aligned}
+s(I-D_\theta)&=(2\sin(\theta/2))^{[4]},\\
+s(I-W_\theta)&=(2\sin\theta,2\sin\theta,0,0),\\
+s(P_U-P_V)&=(\sin\theta)^{[4]}.
+\end{aligned}
+\]
+Therefore \(\|I-W_\theta\|_1=4\sin\theta=\|P_U-P_V\|_1\) is
+the **global** trace minimum; for \(0<\theta\le\pi/2\),
+\(\|I-D_\theta\|_1=8\sin(\theta/2)>4\sin\theta\).
+
+At \(\theta=\pi/4\), a separate coordinate realization already certified
+by `ShortRotationCounterexample.lean` is the sign matrix \(W\) displayed
+below. Its eigenvalues and trace costs agree with the family above; no
+identity between these two coordinate matrices is asserted.
 
 With \(U=\operatorname{span}(e_1,e_2)\) and
 \[
