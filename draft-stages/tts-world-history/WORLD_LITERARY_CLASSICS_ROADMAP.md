@@ -27,9 +27,9 @@ The collection currently includes:
 - **Late-Imperial Chinese Literature**, with *Journey to the West*, lectures
   048000–054000, and a dedicated historical/textual lecture. The seventh-century
   Xuanzang is the historical pilgrim, not the date of the complete novel.
-- **World Literary Epics and Classics**, currently with *Romance of the Three
-  Kingdoms*, lectures 058000–074000, including a research lecture on Chen Shou,
-  Pei Songzhi, Luo Guanzhong, and the early printed recensions.
+- **World Literary Epics and Classics**, with *Romance of the Three Kingdoms*
+  at 058000–074000 and Ferdowsi's *Shahnameh* at 075000–087000. Each series
+  includes a research lecture dedicated to its historical and textual evidence.
 
 The section names reflect the present library navigation; they can be grouped
 under a richer UI hierarchy later without renumbering or duplicating lecture
@@ -57,8 +57,6 @@ within the broader curriculum, not be classified as ancient by default.
 
 ## Possible future series
 
-- *Shahnameh*: Firdausi's Persian epic, its historical horizon and the
-  manuscript and illustrated traditions.
 - *Water Margin*: the outlaws, versions of the text, government corruption,
   moral ambiguity, and the later novel's editorial history.
 - *Dream of the Red Chamber*: family life, fiction and autobiography, and the

@@ -154,6 +154,18 @@ Guanzhong attribution, translations and later reception. See the
 [Romance of the Three Kingdoms roadmap](ROMANCE_OF_THE_THREE_KINGDOMS_ROADMAP.md)
 and the overarching [World Literary Epics and Classics roadmap](WORLD_LITERARY_CLASSICS_ROADMAP.md).
 
+## World Literary Epics and Classics: Ferdowsi's Shahnameh
+
+Thirteen substantial lectures, **075000–087000**, tell the Persian epic from
+Kayumars, Jamshid, Zahhak and Kaveh through Zal and Rostam, the tragedies of
+Sohrab and Siyavash, Kay Khosrow, Esfandiyar, Alexander, and the Sasanian kings.
+The sequence ends with the fall of the dynasty and a dedicated historical and
+textual lecture examining Ferdowsi, prior royal traditions, Daqiqi, manuscript
+witnesses, illustrated codices and translations. Narrative witnesses and
+historical claims receive distinct treatments without interrupting the story.
+
+See the [Shahnameh lecture roadmap](SHAHNAMEH_ROADMAP.md) for the full syllabus.
+
 These lectures include named original contributors in the spoken narrative when
 supported by the source record. Each also has non-spoken attribution and
 research notes; the metadata link cards point to original methods, field
@@ -177,19 +189,3 @@ feedback are namespaced by track.
 
 Run `make serve` at the repository root, and select **World History** in the
 reader. The server synthesizes audio on demand with the existing TTS profiles.
-
-## How We Know: environmental evidence and ancient commodities
-
-- **200000 · Seeds Before Farming** — Ohalo II, flotation, archaeobotanical evidence, and the difference between gathering, cultivation, and domestication.
-- **201000 · Water, Climate, and Ancient Cities** — Tikal reservoirs and Angkor hydrology, lidar, sediment chemistry, and tree-ring reconstructions.
-- **202000 · Ancient Food in Pots and Cargoes** — Jiahu residues, Berenike pepper, Roman amphorae, and the limits of commodity identification.
-
-For concurrent contributions, the `200000`–`299000` World History ID range is reserved for the How We Know strand. The existing `029000`–`057000` archaeology lectures retain their established identifiers. Other strands should select IDs outside this range.
-
-## How We Know: textiles, African farming, and ancient DNA
-
-- **203000 · Threads, Colors, and Invisible Labor** — Huaca Prieta indigo, Timna purple, Hallstatt preserved textiles; spinning, dye chemistry, and context.
-- **204000 · Fields Without Written Records** — Sahel pearl millet, Inland Niger Delta rice and urban subsistence, and Konso terraced land management.
-- **205000 · Ancient DNA** — authenticity and contamination, population models, the Swahili coast, and research ethics.
-
-How We Know reserves IDs `200000`–`299000`; literary tracks should use other ranges.
