@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025000",
+  "transcript": "025000-hotelling.md",
+  "related_resources": [
+    {
+      "source_id": "history-hotelling-bio",
+      "reason": "Career chronology, teaching, statistics, economics, wartime group, and principal components."
+    },
+    {
+      "source_id": "history-hotelling-primary",
+      "reason": "Journal of Educational Psychology 24(6), 417-441. Original population-components analysis and acknowledgments to Kelley."
+    },
+    {
+      "source_id": "history-hotelling-topic",
+      "reason": "Modern formulae for whitened covariance and singular values; distinguished from 1936 original."
+    },
+    {
+      "source_id": "history-hotelling-nas",
+      "reason": "National Academy of Sciences Biographical Memoirs 87, pp. 220-233: career, statistics, economics, students, education and wartime group. Memorial has a discrepant early-death year for his first wife."
+    },
+    {
+      "source_id": "history-hotelling-mactutor",
+      "reason": "Birth, Seattle upbringing, journalism, Bell, Princeton/Veblen, Rothamsted, Floy Tracy death in October 1932, second marriage."
+    },
+    {
+      "source_id": "history-hotelling-oxford",
+      "reason": "Birth, Fulda, hay merchant, Seattle, journalism, military service."
+    },
+    {
+      "source_id": "history-hotelling-pca2",
+      "reason": "Journal of Educational Psychology 24(7), 498-520; sampling, score estimation and computation."
+    },
+    {
+      "source_id": "history-hotelling-pca-full1",
+      "reason": "Scan of original paper, pp. 417-441; motivation, correlated variables, normalization, attribution."
+    },
+    {
+      "source_id": "history-hotelling-pca-full2",
+      "reason": "Scan of continuation, pp. 498-520; sampling, measurement reliability, estimation."
+    },
+    {
+      "source_id": "history-hotelling-t2",
+      "reason": "Annals of Mathematical Statistics 2, 360-378; multivariate extension of Student t."
+    },
+    {
+      "source_id": "history-hotelling-cca",
+      "reason": "Biometrika 28(3-4), 321-377. Original canonical correlation analysis and applications."
+    },
+    {
+      "source_id": "history-hotelling-cca-facsimile",
+      "reason": "Accessible scan of original mathematical treatment."
+    },
+    {
+      "source_id": "history-hotelling-pabst",
+      "reason": "Annals of Mathematical Statistics 7, 29-43, with Margaret Richards Pabst."
+    },
+    {
+      "source_id": "history-hotelling-teaching",
+      "reason": "Annals of Mathematical Statistics 11, 457-470; institutional case for specialist statistics teaching."
+    },
+    {
+      "source_id": "history-hotelling-econ-study",
+      "reason": "Journal of Economic Literature 62(3), 1186-1212. Recent archive-based interpretation of mathematical economics."
+    },
+    {
+      "source_id": "history-hotelling-location",
+      "reason": "Economic Journal 39, 41-57. Location and price competition model."
+    },
+    {
+      "source_id": "history-hotelling-location-correction",
+      "reason": "Econometrica 47(5), 1145-1150; no equilibrium price at close locations under original assumptions; corrected countermodel."
+    },
+    {
+      "source_id": "history-hotelling-resource",
+      "reason": "Journal of Political Economy 39(2), 137-175; intertemporal scarcity rent."
+    },
+    {
+      "source_id": "history-hotelling-inference",
+      "reason": "Arrow/Lehmann discussion: 1929 Working confidence bands, 1931 multivariate statistic, 1936 canonical correlation, rank methods."
+    },
+    {
+      "source_id": "history-hotelling-geometry",
+      "reason": "Do not attribute all orthogonal-fit or eigenvector geometry to Hotelling; 1933 introduced statistical principal-component framework."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "025000-h01",
+      "anchor": "Harold Hotelling was born on September twenty-ninth, eighteen ninety-five, in Fulda, Minnesota.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-mactutor",
+        "history-hotelling-nas",
+        "history-hotelling-oxford"
+      ],
+      "source_locator": "birth, Fulda",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h02",
+      "anchor": "His father worked in the hay business.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-mactutor",
+        "history-hotelling-oxford"
+      ],
+      "source_locator": "early family and trade",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h03",
+      "anchor": "When Harold was a boy, his family moved to Seattle.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-mactutor",
+        "history-hotelling-oxford"
+      ],
+      "source_locator": "Seattle move",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h04",
+      "anchor": "His intended profession was journalism, and he worked on newspapers while studying.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-mactutor"
+      ],
+      "source_locator": "University of Washington",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h05",
+      "anchor": "Military service interrupted his education during the First World War.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-mactutor",
+        "history-hotelling-oxford"
+      ],
+      "source_locator": "wartime interruption",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h06",
+      "anchor": "An important intervention came from Eric Temple Bell,",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-mactutor",
+        "history-hotelling-bio"
+      ],
+      "source_locator": "Bell mentorship",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h07",
+      "anchor": "earning a master's degree in nineteen twenty-one.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-mactutor",
+        "history-hotelling-bio"
+      ],
+      "source_locator": "1921 MS",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h08",
+      "anchor": "His dissertation, completed in nineteen twenty-four, concerned topology and the geometry of states of motion.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-mactutor",
+        "history-hotelling-nas"
+      ],
+      "source_locator": "Princeton/Veblen thesis",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h09",
+      "anchor": "Hotelling's next appointment took him to the Food Research Institute at Stanford.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-bio"
+      ],
+      "source_locator": "Stanford appointment",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h10",
+      "anchor": "In nineteen twenty-seven he published a paper called An Application of Analysis Situs to Statistics.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas"
+      ],
+      "source_locator": "NAS selected bibliography: 1927",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h11",
+      "anchor": "In nineteen twenty-nine he spent several months at the Rothamsted agricultural research station",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-mactutor"
+      ],
+      "source_locator": "Fisher visit",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h12",
+      "anchor": "nineteen thirty-one paper, The Generalization of Student's Ratio.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-t2",
+        "history-hotelling-nas"
+      ],
+      "source_locator": "1931 original",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h13",
+      "anchor": "His nineteen twenty-five work on depreciation",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-econ-study"
+      ],
+      "source_locator": "1925 depreciation",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h14",
+      "anchor": "In nineteen twenty-nine he published Stability in Competition,",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-location",
+        "history-hotelling-nas"
+      ],
+      "source_locator": "1929 spatial model",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h15",
+      "anchor": "Later economists, notably d'Aspremont, Gabszewicz, and Thisse in nineteen seventy-nine, demonstrated the problem",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-location-correction",
+        "history-hotelling-nas"
+      ],
+      "source_locator": "1979 correction",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h16",
+      "anchor": "In nineteen thirty-one he published The Economics of Exhaustible Resources,",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-resource"
+      ],
+      "source_locator": "1931 JPE 39 137-175",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h17",
+      "anchor": "In a nineteen forty-seven letter concerning national parks,",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas"
+      ],
+      "source_locator": "NAS discussion 1947 letter",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h18",
+      "anchor": "In nineteen thirty-one Hotelling moved to Columbia University",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-bio"
+      ],
+      "source_locator": "Columbia move",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h19",
+      "anchor": "Among the people associated with the Columbia group were Abraham Wald, Samuel Wilks, Jacob Wolfowitz, W. Allen Wallis,",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas"
+      ],
+      "source_locator": "Columbia program",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h20",
+      "anchor": "His first wife, Floy Tracy, died in nineteen thirty-two,",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-mactutor"
+      ],
+      "source_locator": "October 1932; discrepancy with NAS memoir",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h21",
+      "anchor": "He later married Susanna Porter Edmonson in nineteen thirty-four.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-mactutor"
+      ],
+      "source_locator": "June 1934 second marriage",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h22",
+      "anchor": "His nineteen thirty-three work on principal components belongs to these years.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-pca-full1",
+        "history-hotelling-primary",
+        "history-hotelling-pca2"
+      ],
+      "source_locator": "1933 two-part publication",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h23",
+      "anchor": "It appeared in the Journal of Educational Psychology, in two installments,",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-primary",
+        "history-hotelling-pca2"
+      ],
+      "source_locator": "JEP 24(6) and 24(7)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h24",
+      "anchor": "Hotelling's original paper frequently worked with standardized variables,",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-pca-full1",
+        "history-hotelling-pca-full2"
+      ],
+      "source_locator": "PCA standard measures",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h25",
+      "anchor": "Hotelling turned this problem into his nineteen thirty-six paper, Relations Between Two Sets of Variates,",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-cca",
+        "history-hotelling-cca-facsimile"
+      ],
+      "source_locator": "Biometrika 28 321-377",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h26",
+      "anchor": "In nineteen thirty-six, with Margaret Richards Pabst, he published research on rank correlation",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-pabst",
+        "history-hotelling-nas"
+      ],
+      "source_locator": "1936 coauthored nonparametric rank paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h27",
+      "anchor": "During the Second World War Hotelling helped create and direct the Statistical Research Group at Columbia.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-bio"
+      ],
+      "source_locator": "SRG wartime",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h28",
+      "anchor": "In nineteen forty he published The Teaching of Statistics.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-teaching",
+        "history-hotelling-nas"
+      ],
+      "source_locator": "1940 journal",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h29",
+      "anchor": "In nineteen forty-six he accepted an invitation to the University of North Carolina at Chapel Hill,",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-bio"
+      ],
+      "source_locator": "UNC department",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h30",
+      "anchor": "The community included scholars such as Raj Chandra Bose, Wassily Hoeffding, P. L. Hsu, Herbert Robbins, and S. N. Roy.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-bio"
+      ],
+      "source_locator": "UNC recruitment",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025000-h31",
+      "anchor": "He retired from Chapel Hill in nineteen sixty-six and died there on December twenty-six, nineteen seventy-three.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-mactutor"
+      ],
+      "source_locator": "retirement/death",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

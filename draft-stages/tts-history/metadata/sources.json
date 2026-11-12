@@ -515,25 +515,25 @@
       "notes": "Discusses nineteenth-century orthogonal-fitting predecessors, Pearson and Hotelling; not a claim of sole invention."
     },
     "history-hotelling-bio": {
-      "title": "Harold Hotelling — biographical or contributor record",
-      "kind": "biography_or_author_record",
-      "url": "https://encyclopediaofmath.org/wiki/Hotelling%2C_Harold",
+      "title": "Harold Hotelling, Encyclopedia of Mathematics (Allan R. Sampson)",
+      "kind": "biography",
+      "url": "https://encyclopediaofmath.org/wiki/Hotelling,_Harold",
       "access": "free_no_login",
-      "notes": "Person-specific source for Harold Hotelling; for living contributors some records document authorship rather than personal biography."
+      "notes": "Career chronology, teaching, statistics, economics, wartime group, and principal components."
     },
     "history-hotelling-primary": {
-      "title": "Harold Hotelling — Mathematical context and introductory reading",
-      "kind": "mathematical_exposition",
-      "url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
-      "access": "free_no_login",
-      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+      "title": "Hotelling, Analysis of a Complex of Statistical Variables Into Principal Components (1933, part I)",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1037/h0071325",
+      "access": "publisher_metadata",
+      "notes": "Journal of Educational Psychology 24(6), 417-441. Original population-components analysis and acknowledgments to Kelley."
     },
     "history-hotelling-topic": {
-      "title": "Canonical correlation",
-      "kind": "accessible_topic_reference",
+      "title": "Canonical correlation, mathematical overview",
+      "kind": "mathematical_exposition",
       "url": "https://en.wikipedia.org/wiki/Canonical_correlation",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the Harold Hotelling lecture."
+      "notes": "Modern formulae for whitened covariance and singular values; distinguished from 1936 original."
     },
     "history-yu-bio": {
       "title": "Yi Yu — biographical or contributor record",
@@ -2572,6 +2572,125 @@
       "url": "https://www.cambridge.org/core/books/abs/biology-medicine-and-society-18401940/sociobiologies-in-competition-the-biometricianmendelian-debate/4491AC8F18217465E13BB8CB543A420F",
       "access": "free_no_login",
       "notes": "Historical interpretation of biometrician-Mendelian disputes around 1900."
+    },
+    "history-hotelling-nas": {
+      "title": "Kenneth J. Arrow and E. L. Lehmann, Harold Hotelling (2005)",
+      "kind": "biographical_memoir",
+      "url": "https://www.nationalacademies.org/read/11522/chapter/13",
+      "access": "free_no_login",
+      "notes": "National Academy of Sciences Biographical Memoirs 87, pp. 220-233: career, statistics, economics, students, education and wartime group. Memorial has a discrepant early-death year for his first wife."
+    },
+    "history-hotelling-mactutor": {
+      "title": "MacTutor, Harold Hotelling biography",
+      "kind": "biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hotelling/",
+      "access": "free_no_login",
+      "notes": "Birth, Seattle upbringing, journalism, Bell, Princeton/Veblen, Rothamsted, Floy Tracy death in October 1932, second marriage."
+    },
+    "history-hotelling-oxford": {
+      "title": "American National Biography, Harold Hotelling",
+      "kind": "biography_or_author_record",
+      "url": "https://academic.oup.com/american-national-biography/reference/63042/reference-article-abstract/570405811",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Birth, Fulda, hay merchant, Seattle, journalism, military service."
+    },
+    "history-hotelling-pca2": {
+      "title": "Hotelling, Analysis ... Principal Components (1933, part II)",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1037/h0070888",
+      "access": "publisher_metadata",
+      "notes": "Journal of Educational Psychology 24(7), 498-520; sampling, score estimation and computation."
+    },
+    "history-hotelling-pca-full1": {
+      "title": "Hotelling (1933), PCA paper, part I facsimile",
+      "kind": "historical_primary",
+      "url": "https://home.cis.rit.edu/~rlepci/Erho/Derek/Useful_References/Principal%20Components%20Analysis/Hotelling_PCA_part1.pdf",
+      "access": "free_no_login",
+      "notes": "Scan of original paper, pp. 417-441; motivation, correlated variables, normalization, attribution."
+    },
+    "history-hotelling-pca-full2": {
+      "title": "Hotelling (1933), PCA paper, part II facsimile",
+      "kind": "historical_primary",
+      "url": "https://www.cis.rit.edu/~rlepci/Erho/Derek/Useful_References/Principal%20Components%20Analysis/Hotelling_PCA_part2.pdf",
+      "access": "free_no_login",
+      "notes": "Scan of continuation, pp. 498-520; sampling, measurement reliability, estimation."
+    },
+    "history-hotelling-t2": {
+      "title": "Hotelling (1931), The Generalization of Student's Ratio",
+      "kind": "historical_primary",
+      "url": "https://openlibrary.org/books/OL52411917M/The_generalization_of_Student%27s_ratio",
+      "access": "bibliographic_record",
+      "notes": "Annals of Mathematical Statistics 2, 360-378; multivariate extension of Student t."
+    },
+    "history-hotelling-cca": {
+      "title": "Hotelling (1936), Relations Between Two Sets of Variates",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1093/biomet/28.3-4.321",
+      "access": "publisher_metadata",
+      "notes": "Biometrika 28(3-4), 321-377. Original canonical correlation analysis and applications."
+    },
+    "history-hotelling-cca-facsimile": {
+      "title": "Hotelling (1936), Relations Between Two Sets of Variates facsimile",
+      "kind": "historical_primary",
+      "url": "https://gwern.net/doc/statistics/probability/1936-hotelling.pdf",
+      "access": "free_no_login",
+      "notes": "Accessible scan of original mathematical treatment."
+    },
+    "history-hotelling-pabst": {
+      "title": "Hotelling and Margaret Richards Pabst (1936), rank correlation",
+      "kind": "historical_primary",
+      "url": "https://www.jstor.org/stable/2957508",
+      "access": "publisher_metadata",
+      "notes": "Annals of Mathematical Statistics 7, 29-43, with Margaret Richards Pabst."
+    },
+    "history-hotelling-teaching": {
+      "title": "Hotelling (1940), The Teaching of Statistics",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1214/aoms/1177731833",
+      "access": "publisher_metadata",
+      "notes": "Annals of Mathematical Statistics 11, 457-470; institutional case for specialist statistics teaching."
+    },
+    "history-hotelling-econ-study": {
+      "title": "Gaspard, Missemer and Mueller (2024), A Journey into Harold Hotelling's Economics",
+      "kind": "historical_scholarship",
+      "url": "https://doi.org/10.1257/jel.20231700",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Journal of Economic Literature 62(3), 1186-1212. Recent archive-based interpretation of mathematical economics."
+    },
+    "history-hotelling-location": {
+      "title": "Hotelling (1929), Stability in Competition",
+      "kind": "historical_primary",
+      "url": "https://www.edegan.com/pdfs/Hotelling%20%281929%29%20-%20Stability%20in%20competition.pdf",
+      "access": "free_no_login",
+      "notes": "Economic Journal 39, 41-57. Location and price competition model."
+    },
+    "history-hotelling-location-correction": {
+      "title": "d'Aspremont, Gabszewicz and Thisse (1979), On Hotelling's Stability in Competition",
+      "kind": "historical_primary",
+      "url": "https://www.di.ens.fr/~aspremon/Claude/PDFs/dAsp79a.pdf",
+      "access": "free_no_login",
+      "notes": "Econometrica 47(5), 1145-1150; no equilibrium price at close locations under original assumptions; corrected countermodel."
+    },
+    "history-hotelling-resource": {
+      "title": "Hotelling (1931), The Economics of Exhaustible Resources",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1086/254195",
+      "access": "publisher_metadata",
+      "notes": "Journal of Political Economy 39(2), 137-175; intertemporal scarcity rent."
+    },
+    "history-hotelling-inference": {
+      "title": "Hotelling, Fisher, and development of modern multivariate analysis, NAS memoir",
+      "kind": "historical_scholarship",
+      "url": "https://www.nationalacademies.org/read/11522/chapter/13",
+      "access": "free_no_login",
+      "notes": "Arrow/Lehmann discussion: 1929 Working confidence bands, 1931 multivariate statistic, 1936 canonical correlation, rank methods."
+    },
+    "history-hotelling-geometry": {
+      "title": "Pearson (1901) nearest subspace fitting, Hotelling (1933) statistical PCA",
+      "kind": "historical_context",
+      "url": "https://doi.org/10.1037/h0071325",
+      "access": "publisher_metadata",
+      "notes": "Do not attribute all orthogonal-fit or eigenvector geometry to Hotelling; 1933 introduced statistical principal-component framework."
     }
   }
 }
