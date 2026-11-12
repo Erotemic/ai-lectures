@@ -161,3 +161,68 @@ for(const name of ['cacheAll','renderInventory','formatGenerationStatus']) {
   assert.equal(queueFields.queueList.children.length,0);
   console.log('Server-owned lecture preparation and cache progress passed');
 })().catch(error=>{console.error(error);process.exitCode=1});
+
+// The generated-audio selector uses the same profile-specific cache inventory
+// as playback. Check actual list behavior, including the asynchronous interval
+// before that inventory arrives.
+const libraryFields = Object.fromEntries(['search','audioAvailability','count','list','listStatus']
+  .map(id=>[id,new MockElement()]));
+libraryFields.search.value='';
+libraryFields.audioAvailability.value='all';
+const libraryState={
+  items:[
+    {id:'011000',title:'Projection geometry',page_count:3,estimated_minutes:9},
+    {id:'012000',title:'Unbounded operators',page_count:2,estimated_minutes:7},
+    {id:'013000',title:'Ritz residuals',page_count:4,estimated_minutes:8}
+  ],
+  cacheCatalog:new Map(),cacheCatalogLoaded:false,cacheCatalogError:false,doc:null
+};
+let pickedLecture=null;
+const libraryContext=vm.createContext({
+  state:libraryState,$:id=>libraryFields[id],
+  document:{createElement:tag=>new MockElement(tag)},
+  highlight:()=>{},selectLecture:id=>{pickedLecture=id},
+  Number,String,Boolean,Math
+});
+for(const name of ['cacheLabel','audioLectureMatchesAvailability','renderList'])
+  vm.runInContext(extract(name),libraryContext);
+const renderLibrary=()=>vm.runInContext('renderList()',libraryContext);
+const shownIds=()=>libraryFields.list.children.map(li=>li.children[0].dataset.id);
+renderLibrary();
+assert.deepEqual(shownIds(),['011000','012000','013000']);
+assert.equal(libraryFields.count.textContent,'3/3');
+libraryFields.audioAvailability.value='some';
+renderLibrary();
+assert.deepEqual(shownIds(),[]);
+assert.equal(libraryFields.count.textContent,'Checking…');
+assert.match(libraryFields.listStatus.textContent,/Checking generated audio/);
+assert.equal(libraryFields.listStatus.hidden,false);
+libraryState.cacheCatalog=new Map([
+  ['011000',{ready:1,total:3}],
+  ['012000',{ready:0,total:2}],
+  ['013000',{ready:4,total:4}]
+]);
+libraryState.cacheCatalogLoaded=true;
+renderLibrary();
+assert.deepEqual(shownIds(),['011000','013000'],'partial and complete audio both qualify');
+assert.equal(libraryFields.count.textContent,'2/3');
+libraryFields.list.children[0].children[0].onclick();
+assert.equal(pickedLecture,'011000');
+libraryFields.audioAvailability.value='complete';
+renderLibrary();
+assert.deepEqual(shownIds(),['013000'],'complete requires all current speech pages');
+libraryFields.search.value='projection';
+renderLibrary();
+assert.deepEqual(shownIds(),[],'search and audio availability combine');
+libraryFields.audioAvailability.value='some';
+renderLibrary();
+assert.deepEqual(shownIds(),['011000']);
+libraryFields.search.value='';
+libraryState.cacheCatalog=new Map();libraryState.cacheCatalogLoaded=false;
+renderLibrary();
+assert.equal(libraryFields.count.textContent,'Checking…','a changed voice must wait for fresh inventory');
+libraryState.cacheCatalogLoaded=true;
+renderLibrary();
+assert.deepEqual(shownIds(),[]);
+assert.match(libraryFields.listStatus.textContent,/No generated audio/);
+console.log('Generated-audio lecture selector tests passed');

@@ -140,6 +140,19 @@ are not returned for new keys; a separate cache cleanup can reclaim space.
 If `.env` explicitly sets `DKVIS_AUDIO_PAGE_CHARS=1200`, change that value to
 `600` to use the new page length.
 
+### Browse lectures with generated audio
+
+In the sidebar, use **Audio availability** to choose **All lectures**, **Has
+generated audio**, or **Fully cached lectures**. “Has generated audio” means
+at least one speech page is ready; “Fully cached” means every current page is
+ready. The search field works together with this filter. Readiness is checked
+for the **selected G2/G3 track, TTS profile, voice, and synthesis speed**, so a
+recording cached under a different voice or old narration version is not shown
+as ready. The list updates as the cache fills and when the voice or track
+changes. A filter can be selected before the cache check finishes; the sidebar
+shows that it is checking rather than incorrectly reporting an empty cache.
+Filtering does not stop audio already playing or delete cached pages.
+
 The reader supports manual page navigation, browser audio seeking, adjustable
 synthesis/playback speed, optional next-page prefetch, automatic advancement,
 and **Cache whole lecture**. The canonical narration extractor strips

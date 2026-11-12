@@ -126,20 +126,28 @@ of spoken mathematical lessons. Record those in provenance files and source
 notes. Mathematical history can motivate a construction; project history must
 not interrupt the explanation of that construction.
 
-## Standalone transcript-first narration (8 November 2026 update)
+## Standalone narration without chronological references (11 November 2026 clarification)
 
-The standalone requirement is **literal for every TTS recording**, regardless of its
-place in the course. Write each spoken mathematical lecture as though it may
-be played alone or out of sequence. Do not say “in the previous lecture,”
-“last time,” “we covered this earlier,” “in the next lesson,” or similar
-references to another episode. Do not announce a sequel in the conclusion.
+The curriculum has real prerequisites, and a learner may reasonably need to
+study them before an advanced lecture. **Do not require each recording to
+re-teach its entire dependency chain.** Preserve the intended prerequisite
+order in curriculum metadata and introduce the current topic at the level of
+its intended audience.
 
-Reminders and concise reviews are welcome **when they state the mathematics**.
-If a proof uses a standard result, give its applicable statement and assumptions,
-then explain how it is used. If an example originated in another lecture,
-reintroduce the actual vectors, matrix, parameter values, or operator needed
-for the current calculation. The listener should never need a prior recording
-just to know what an unnamed object or numerical result refers to.
+At the same time, listeners often choose recordings out of order. Avoid spoken
+chronology such as “in the previous lecture,” “last time,” “we covered this
+earlier,” “in the next lesson,” or numbered episode references. State the
+mathematical fact or prerequisite directly when needed, without discussing
+which video teaches it. Short reminders help connect concepts, but do not
+re-prove standard background solely to make every recording self-contained
+from first principles.
+
+Define the objects, conventions, and concrete examples **specific to this
+recording** before using them, even when an example also appears elsewhere.
+A listener with the expected mathematical prerequisites should be able to
+follow the present argument without knowing the exact narration of another
+video. Conclusions should finish the current mathematical argument, not
+announce the next recording.
 
 Keep prompting, authoring instructions, curriculum planning, provenance
 bookkeeping, repository details, proof-assistant implementation, extraction
@@ -151,11 +159,12 @@ Lean names, definitions, source locations, verified declaration excerpts,
 current dependency locations, and original DKPS donor provenance in the
 separate display-only appendix.
 
-For the transcript-first DKPS fundamentals course, the intended listener knows
-basic linear algebra and calculus but has **no assumed prior functional
-analysis or spectral theory**. Introduce jargon and symbols when they first
-matter in the recording. A more advanced slide series may use a different
-audience baseline; do not apply its shorthand to the foundations TTS scripts.
+The introductory G2 material begins with basic linear algebra and calculus.
+Later lectures can assume the functional-analysis and spectral-theory material
+listed as prerequisites in the course graph. Introduce notation and less
+familiar terms at the point of use, and use concise reminders where useful.
+G3 has its own, more advanced audience baseline; do not flatten the two tracks
+into a single prerequisite level.
 
 Prefer a clear self-contained mathematical question, followed by the setting,
 argument, example where helpful, and a conclusion about the theorem and its
@@ -164,11 +173,11 @@ same rhetorical pattern; avoid contrived hooks or recitations of the whole
 course plan. Speak equations naturally, keeping exact formulas and Lean
 connections outside the spoken region when necessary for TTS clarity.
 
-**Independent-listening edit test:** extract the narration alone, ignoring
-metadata and appendices. Can a new listener identify every named object,
-assumption, example and conclusion without being told what was said in any
-other lecture? Is every sentence about the mathematics rather than the
-instructions used to produce the lecture? This editorial test is separate
+**Out-of-order listening edit test:** extract the narration alone, ignoring
+metadata and appendices. Can a listener with the stated prerequisites identify
+the current objects, assumptions, example and conclusion without a pointer to
+another recording? Are references to background expressed as mathematics,
+rather than as chronology or authoring instructions? This editorial test is separate
 from proof verification and from listening to synthesized audio.
 
 ## Standalone revision checks (8 November 2026)
@@ -206,8 +215,8 @@ optional audio spot checks separately identified in completion records.
 ## Pedagogical structure audit (8 November 2026)
 
 Review the mathematical teaching sequence, not just editorial trigger words.
-For each standalone recording, check that its opening identifies a definite
-mathematical question, its assumptions are supplied before they are needed,
+For each recording, check that its opening identifies a definite
+mathematical question, its local assumptions are supplied before they are needed,
 and its definitions support the examples and proof that actually follow.
 A successful section should explain why the next lemma or construction is
 needed, what it gives, and what remains to be established. End with the
