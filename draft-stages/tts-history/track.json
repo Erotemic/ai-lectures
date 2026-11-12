@@ -1,16 +1,28 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "Five researched long-form histories on Weyl, Hilbert, Kato, Davis, and Kahan. Deferred drafts remain outside the playable catalog in stubs/.",
+  "summary": "Six researched long-form histories spanning Jordan, Weyl, Hilbert, Kato, Davis, and Kahan. Short sketches remain archived in stubs/.",
   "assumed_background": [
     "elementary vectors and eigenvalues; advanced concepts are introduced locally"
   ],
   "sections": [
+    "geometry",
     "variational",
     "operators",
     "davis-kahan"
   ],
   "lectures": [
+    {
+      "id": "002000",
+      "title": "Camille Jordan: What survives when coordinates change?",
+      "person": "Camille Jordan",
+      "section": "geometry",
+      "file": "002000-jordan.md",
+      "spoken_words": 4796,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 33.1
+    },
     {
       "id": "005000",
       "title": "Hermann Weyl: When do spectra survive a changing world?",

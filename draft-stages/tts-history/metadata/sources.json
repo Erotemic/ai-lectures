@@ -23,25 +23,25 @@
       "notes": "Background on the mathematical concept explained in the James Joseph Sylvester lecture."
     },
     "history-jordan-bio": {
-      "title": "Camille Jordan — biographical or contributor record",
+      "title": "Camille Jordan (1838–1922) — MacTutor biography",
       "kind": "biography_or_author_record",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Jordan/",
       "access": "free_no_login",
-      "notes": "Person-specific source for Camille Jordan; for living contributors some records document authorship rather than personal biography."
+      "notes": "Biographical chronology: École Polytechnique, engineer, group theory, teaching, editorial career and family."
     },
     "history-jordan-primary": {
-      "title": "Camille Jordan — Research publication",
+      "title": "Jordan, Essai sur la géométrie à n dimensions (1875)",
       "kind": "historical_primary_or_exposition",
-      "url": "https://doi.org/10.24033/bsmf.90",
+      "url": "https://www.numdam.org/articles/10.24033/bsmf.90/",
       "access": "free_no_login",
-      "notes": "Published mathematical research relevant to this person's contribution; authorship is discussed in the lecture."
+      "notes": "Jordan’s primary 1875 paper in Bulletin de la Société Mathématique de France 3, 103–174; historical source for higher-dimensional subspace geometry."
     },
     "history-jordan-topic": {
-      "title": "Angles between flats",
+      "title": "Angles between flats — principal angles",
       "kind": "accessible_topic_reference",
       "url": "https://en.wikipedia.org/wiki/Angles_between_flats",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the Camille Jordan lecture."
+      "notes": "Accessible overview of the original geometric problem and modern variational, projection, and SVD formulations."
     },
     "history-rayleigh-bio": {
       "title": "Lord Rayleigh — biographical or contributor record",
@@ -700,6 +700,83 @@
       "url": "https://en.wikipedia.org/wiki/Equidistribution_theorem",
       "access": "free_no_login",
       "notes": "Introduces Weyl’s distinct uniform distribution theorem for sequences modulo one."
+    },
+    "history-jordan-lebesgue": {
+      "title": "Camille Jordan by Henri Lebesgue (1923 memorial, English translation)",
+      "kind": "historical_biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Jordan_Lebesgue/",
+      "access": "free_no_login",
+      "notes": "Contemporary memorial discussing Jordan’s mathematics, colleagues, teaching, and death; useful for contextualizing later retellings."
+    },
+    "history-jordan-treatise": {
+      "title": "Jordan, Traité des substitutions et des équations algébriques (1870)",
+      "kind": "historical_primary",
+      "url": "https://books.google.com/books/about/Trait%C3%A9_des_substitutions_et_des_%C3%A9quati.html?id=1ZQoc0-V08YC",
+      "access": "free_no_login",
+      "notes": "Digitized 1870 book with contents on substitutions, composition factors, Galois theory and linear substitutions."
+    },
+    "history-jordan-maa": {
+      "title": "MAA: Mathematical Treasure — Jordan’s pioneering group theory",
+      "kind": "historical_exposition",
+      "url": "https://old.maa.org/press/periodicals/convergence/mathematical-treasure-jordans-pioneering-group-theory",
+      "access": "free_no_login",
+      "notes": "Short accessible history of Jordan’s 1870 treatise and its influence on permutation-group theory."
+    },
+    "history-jordan-matrices-history": {
+      "title": "MacTutor: Matrices and determinants — historical development",
+      "kind": "historical_exposition",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+      "access": "free_no_login",
+      "notes": "Places the 1870 canonical-form results alongside Weierstrass and the later matrix-theory tradition."
+    },
+    "history-jordan-form": {
+      "title": "Jordan normal form",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Jordan_normal_form",
+      "access": "free_no_login",
+      "notes": "Accessible modern statement of Jordan blocks and generalized eigenvectors; includes numerical cautions."
+    },
+    "history-jordan-holder": {
+      "title": "Jordan–Hölder theorem — Encyclopedia of Mathematics",
+      "kind": "mathematical_exposition",
+      "url": "https://encyclopediaofmath.org/wiki/Jordan%E2%80%93H%C3%B6lder_theorem",
+      "access": "free_no_login",
+      "notes": "Distinguishes composition-factor invariants and the historical roles of Jordan, Hölder, and Schreier."
+    },
+    "history-jordan-finite-linear": {
+      "title": "Breuillard: Exposition of Jordan’s original finite linear group theorem (2023)",
+      "kind": "mathematical_exposition",
+      "url": "https://arxiv.org/abs/2305.00722",
+      "access": "free_no_login",
+      "notes": "Modern mathematically detailed explanation of the 1878 finite GL_n(C) theorem, with its differential-equation motivations."
+    },
+    "history-jordan-curve": {
+      "title": "Jordan curve theorem",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Jordan_curve_theorem",
+      "access": "free_no_login",
+      "notes": "Precise topological claim, examples, the embedding requirement, and proof history."
+    },
+    "history-jordan-curve-review": {
+      "title": "Thomas Hales: Jordan’s Proof of the Jordan Curve Theorem (2007)",
+      "kind": "historical_exposition",
+      "url": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/hales1.pdf",
+      "access": "free_no_login",
+      "notes": "Historical reappraisal of criticism of Jordan’s original proof; consult alongside Veblen’s later proof."
+    },
+    "history-jordan-bounded-variation": {
+      "title": "Bounded variation",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Bounded_variation",
+      "access": "free_no_login",
+      "notes": "Explains partition sums and the accumulated-oscillation concept developed in the lecture."
+    },
+    "history-jordan-person": {
+      "title": "Camille Jordan — overview",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Camille_Jordan",
+      "access": "free_no_login",
+      "notes": "Accessible overview of the person and the distinct mathematical names associated with him."
     }
   }
 }
