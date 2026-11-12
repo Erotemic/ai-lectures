@@ -1,15 +1,12 @@
-# Deferred history lecture drafts
+# Archived History sketches
 
-There are **8 short historical sketches** awaiting researched long-form
-expansion. They retain their original identifiers and reference sidecars,
-but do not appear in the playable History track.
+Shorter research sketches are excluded from the playable History track until
+expanded into substantial standalone portraits. They remain as research seeds,
+not recordings. Historical source records remain in the shared history catalog.
 
-The expanded portraits include Jordan, Rayleigh, Ritz, Weyl, Courant, Fischer,
-Hilbert, Riesz, von Neumann, Schatten, Fan, Szőkefalvi-Nagy, Halmos, Dixmier,
-Kato, Rosenblum, Davis, Kahan, Wedin, and **Björck**. The next archived
-numerical slot is **Gene H. Golub (`022000`)**. Sylvester (`001000`)
-remains archived as an earlier unexpanded slot.
+There are **7 archived sketches**. Gene H. Golub (`022000`) has been promoted to
+a long-form lecture. The next numerical slot awaiting expansion is
+**G. W. Stewart** (`023000`). Sylvester (`001000`) is deferred.
 
-The reader exposes only root-level lecture files listed in `../track.json`.
-`manifest.json` lists the remaining sketches; `../metadata/sources.json`
-holds the shared reading catalog.
+See `manifest.json` for the complete list. Do not include this directory in
+audio-library scanning or present the sketches as finished lessons.

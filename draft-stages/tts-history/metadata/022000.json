@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "lecture_id": "022000",
+  "transcript": "022000-golub.md",
+  "related_resources": [
+    {
+      "source_id": "history-golub-bio",
+      "reason": "Detailed memoir of childhood, education, Cambridge, Stanford, SVD, Krylov methods, books and scientific community."
+    },
+    {
+      "source_id": "history-golub-primary",
+      "reason": "J. SIAM Ser. B Numer. Anal. 2(2):205–224, submitted July 1964; orthogonal bidiagonal reduction and singular values."
+    },
+    {
+      "source_id": "history-golub-oral",
+      "reason": "Golub discusses childhood, ILLIAC, J. P. Nash, Taub, Kahan, Varga, Reinsch, Björck, Van Loan, books and community."
+    },
+    {
+      "source_id": "history-golub-mactutor",
+      "reason": "Biographical chronology, schooling, Cambridge, Stanford, research and books."
+    },
+    {
+      "source_id": "history-golub-stanford",
+      "reason": "Institutional obituary, contributions, mentoring, academy honors and SIAM leadership."
+    },
+    {
+      "source_id": "history-golub-illinois",
+      "reason": "Education, computer lab, doctoral supervision and professional distinctions."
+    },
+    {
+      "source_id": "history-golub-jpnash",
+      "reason": "Names John Purcell Nash in list of early Illinois computer laboratory people."
+    },
+    {
+      "source_id": "history-golub-varga",
+      "reason": "Numerische Mathematik 3, 147–156; links thesis topic to semi-iteration."
+    },
+    {
+      "source_id": "history-golub-kahan-facsimile",
+      "reason": "Facsimile of original SVD and pseudoinverse paper."
+    },
+    {
+      "source_id": "history-golub-reinsch",
+      "reason": "Numerische Mathematik 14, 403–420; computational SVD algorithm."
+    },
+    {
+      "source_id": "history-golub-reinsch-full",
+      "reason": "Full paper, including discussion of avoiding explicit A^T A formation."
+    },
+    {
+      "source_id": "history-golub-bjorck",
+      "reason": "Mathematics of Computation 27, 579–594; orthonormal bases, principal angle algorithms and error analysis."
+    },
+    {
+      "source_id": "history-golub-tls",
+      "reason": "SIAM Journal on Numerical Analysis 17(6), 883–893; SVD formulation, sensitivity and error model."
+    },
+    {
+      "source_id": "history-golub-tls-full",
+      "reason": "Original text of the 1980 analysis."
+    },
+    {
+      "source_id": "history-golub-pcg",
+      "reason": "1976 proceedings preprint, with Hestenes–Stiefel origin distinguished from preconditioned method."
+    },
+    {
+      "source_id": "history-golub-svd-retrospective",
+      "reason": "Links retrospective research history, research organization and Stanford program."
+    },
+    {
+      "source_id": "history-golub-book",
+      "reason": "First edition 1983, published by Johns Hopkins University Press; later editions documented in NAS memoir."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "022000-h01",
+      "anchor": "was born in Chicago on February twenty-ninth, nineteen thirty-two",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-golub-oral",
+        "history-golub-bio"
+      ],
+      "source_locator": "Oral history opening and NAS memoir p.2",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h02",
+      "anchor": "His parents had immigrated to the United States during the nineteen twenties",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-golub-oral",
+        "history-golub-bio"
+      ],
+      "source_locator": "Interview pp. 2–3; memoir p.2",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h03",
+      "anchor": "He attended Wright Junior College, spent a year at the University of Chicago",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-golub-mactutor",
+        "history-golub-oral"
+      ],
+      "source_locator": "MacTutor education chronology",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h04",
+      "anchor": "In nineteen fifty-three he completed a bachelor's degree in mathematics",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-golub-bio",
+        "history-golub-illinois"
+      ],
+      "source_locator": "Memoir p.2; Illinois degrees",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h05",
+      "anchor": "The computer available at Illinois was the ILLIAC One",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-golub-bio",
+        "history-golub-oral"
+      ],
+      "source_locator": "Memoir p.2, interview computer lab discussion",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h06",
+      "anchor": "he worked under John Purcell Nash",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-golub-oral",
+        "history-golub-jpnash"
+      ],
+      "source_locator": "Interview identifies J. P. Nash and Illinois programming course",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h07",
+      "anchor": "For his doctorate, Golub worked with Abraham Taub",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-golub-bio",
+        "history-golub-mactutor"
+      ],
+      "source_locator": "Thesis 1959; memoir and MacTutor",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h08",
+      "anchor": "Their two-part nineteen sixty-one paper analyzed Chebyshev semi-iteration",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-golub-varga",
+        "history-golub-oral"
+      ],
+      "source_locator": "Numerische Mathematik 3 (1961) Parts I/II",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h09",
+      "anchor": "He shared an office with William, often called Velvel, Kahan",
+      "kind": "historical_relationship",
+      "source_ids": [
+        "history-golub-oral",
+        "history-golub-bio"
+      ],
+      "source_locator": "Oral-history abstract and Cambridge section",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h10",
+      "anchor": "in nineteen sixty-two arrived at Stanford as a visiting assistant professor",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-golub-stanford",
+        "history-golub-mactutor"
+      ],
+      "source_locator": "Stanford chronology",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h11",
+      "anchor": "return to Stanford as an associate professor",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-golub-bio",
+        "history-golub-mactutor"
+      ],
+      "source_locator": "Memoir and institutional chronology 1966",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h12",
+      "anchor": "Golub and Kahan's nineteen sixty-five paper",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-golub-primary",
+        "history-golub-kahan-facsimile"
+      ],
+      "source_locator": "J. SIAM Numer. Anal. 2(2), 205–224",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h13",
+      "anchor": "The nineteen seventy paper with Christian Reinsch",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-golub-reinsch",
+        "history-golub-oral"
+      ],
+      "source_locator": "Numerische Mathematik 14:403–420 (1970)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h14",
+      "anchor": "Later work with Peter Businger treated complex matrices",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-golub-bio",
+        "history-golub-oral"
+      ],
+      "source_locator": "1969 ACM Algorithm 358",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h15",
+      "anchor": "Åke Björck and Golub answered this computational question in their nineteen seventy-three paper",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-golub-bjorck"
+      ],
+      "source_locator": "Mathematics of Computation 27:579–594",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h16",
+      "anchor": "Their nineteen eighty paper, *An Analysis of the Total Least Squares Problem*",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-golub-tls",
+        "history-golub-tls-full"
+      ],
+      "source_locator": "SIAM JNA 17:883–893",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h17",
+      "anchor": "Paul Concus, Golub, and Dianne O'Leary developed a generalized conjugate-gradient treatment",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-golub-pcg"
+      ],
+      "source_locator": "Sparse Matrix Computations 1976 pp.309–332",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h18",
+      "anchor": "Golub worked with Bill Buzbee and Clair Nielson on fast direct methods",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-golub-bio",
+        "history-golub-oral"
+      ],
+      "source_locator": "Memoir fast Poisson solvers, memoir p.5",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h19",
+      "anchor": "He became a full professor in nineteen seventy",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-golub-mactutor"
+      ],
+      "source_locator": "Stanford tenure chronology",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h20",
+      "anchor": "Golub advised about thirty doctoral students",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-golub-stanford",
+        "history-golub-illinois"
+      ],
+      "source_locator": "Institutional obituary and award record",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h21",
+      "anchor": "In the nineteen eighties Golub served as president of the Society for Industrial and Applied Mathematics",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-golub-bio",
+        "history-golub-stanford"
+      ],
+      "source_locator": "NAS memoir and Stanford obituary",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h22",
+      "anchor": "The NA-Digest circulated research news",
+      "kind": "historical_contemporary_record",
+      "source_ids": [
+        "history-golub-bio"
+      ],
+      "source_locator": "NAS memoir, communication and NA-Digest",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h23",
+      "anchor": "In nineteen eighty-three Golub and Charles Van Loan published *Matrix Computations*",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-golub-bio",
+        "history-golub-book"
+      ],
+      "source_locator": "NAS memoir p.9 and first edition",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h24",
+      "anchor": "a fourth edition was published after his death",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-golub-bio"
+      ],
+      "source_locator": "NAS memoir gives fourth edition 2013",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h25",
+      "anchor": "He had been born on leap day",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-golub-bio"
+      ],
+      "source_locator": "NAS memoir p.2",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "022000-h26",
+      "anchor": "Golub died in November two thousand seven",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-golub-stanford",
+        "history-golub-bio"
+      ],
+      "source_locator": "Stanford obituary November 16 2007",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

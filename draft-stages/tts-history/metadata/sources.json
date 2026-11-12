@@ -452,18 +452,18 @@
       "notes": "Basic geometric background; priority claims must use originals."
     },
     "history-golub-bio": {
-      "title": "Gene H. Golub — biographical or contributor record",
-      "kind": "biography_or_author_record",
-      "url": "https://en.wikipedia.org/wiki/Gene_H._Golub",
+      "title": "Dianne P. O’Leary, Gene Howard Golub, National Academy of Sciences Biographical Memoirs (2018)",
+      "kind": "historical_memorial_biography",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/golub-gene.pdf",
       "access": "free_no_login",
-      "notes": "Person-specific source for Gene H. Golub; for living contributors some records document authorship rather than personal biography."
+      "notes": "Detailed memoir of childhood, education, Cambridge, Stanford, SVD, Krylov methods, books and scientific community."
     },
     "history-golub-primary": {
-      "title": "Gene H. Golub — Research publication",
+      "title": "Golub and Kahan, Calculating the Singular Values and Pseudo-Inverse of a Matrix (1965)",
       "kind": "historical_primary_or_exposition",
-      "url": "https://doi.org/10.1090/S0025-5718-1973-0348991-3",
-      "access": "free_no_login",
-      "notes": "Published mathematical research relevant to this person's contribution; authorship is discussed in the lecture."
+      "url": "https://doi.org/10.1137/0702016",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "J. SIAM Ser. B Numer. Anal. 2(2):205–224, submitted July 1964; orthogonal bidiagonal reduction and singular values."
     },
     "history-golub-topic": {
       "title": "QR decomposition",
@@ -2264,6 +2264,111 @@
       "url": "https://www.wikidata.org/wiki/Q112497705",
       "access": "free_no_login",
       "notes": "2014 fellowship; original award rationale for numerical linear algebra, especially least squares, quoted via SIAM listing in Wikidata and SIAM book biography."
+    },
+    "history-golub-oral": {
+      "title": "Thomas Haigh interview with Gene Golub, 22–23 October 2005, Computer History Museum",
+      "kind": "historical_first_person",
+      "url": "https://archive.computerhistory.org/resources/access/text/2013/12/102746795-05-01-acc.pdf",
+      "access": "free_no_login",
+      "notes": "Golub discusses childhood, ILLIAC, J. P. Nash, Taub, Kahan, Varga, Reinsch, Björck, Van Loan, books and community."
+    },
+    "history-golub-mactutor": {
+      "title": "Gene Howard Golub biography, MacTutor History of Mathematics",
+      "kind": "historical_biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Golub/",
+      "access": "free_no_login",
+      "notes": "Biographical chronology, schooling, Cambridge, Stanford, research and books."
+    },
+    "history-golub-stanford": {
+      "title": "Stanford Computer Science, Professor Gene H. Golub, In Memoriam (2007)",
+      "kind": "historical_institutional_record",
+      "url": "https://legacy.cs.stanford.edu/memoriam/professor-gene-h-golub",
+      "access": "free_no_login",
+      "notes": "Institutional obituary, contributions, mentoring, academy honors and SIAM leadership."
+    },
+    "history-golub-illinois": {
+      "title": "University of Illinois, Gene H. Golub Hall of Fame profile",
+      "kind": "historical_institutional_record",
+      "url": "https://grainger.illinois.edu/alumni/hall-of-fame/9649",
+      "access": "free_no_login",
+      "notes": "Education, computer lab, doctoral supervision and professional distinctions."
+    },
+    "history-golub-jpnash": {
+      "title": "SIAM historical interviews, Gene Golub",
+      "kind": "historical_first_person",
+      "url": "https://history.siam.org/golub.htm",
+      "access": "free_no_login",
+      "notes": "Names John Purcell Nash in list of early Illinois computer laboratory people."
+    },
+    "history-golub-varga": {
+      "title": "Golub and Varga, Chebyshev semi-iterative methods, Part I (1961)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://www.math.kent.edu/~varga/pub/paper_17.pdf",
+      "access": "free_no_login",
+      "notes": "Numerische Mathematik 3, 147–156; links thesis topic to semi-iteration."
+    },
+    "history-golub-kahan-facsimile": {
+      "title": "Golub and Kahan (1965), full paper from William Kahan’s Berkeley site",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://people.eecs.berkeley.edu/~wkahan/GlbKhnSv.pdf",
+      "access": "free_no_login",
+      "notes": "Facsimile of original SVD and pseudoinverse paper."
+    },
+    "history-golub-reinsch": {
+      "title": "Golub and Reinsch, Singular Value Decomposition and Least Squares Solutions (1970)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1007/BF02163027",
+      "access": "publisher_metadata",
+      "notes": "Numerische Mathematik 14, 403–420; computational SVD algorithm."
+    },
+    "history-golub-reinsch-full": {
+      "title": "Golub and Reinsch (1970), full paper",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://people.duke.edu/~hpgavin/SystemID/References/Golub%2BReinsch-NM-1970.pdf",
+      "access": "free_no_login",
+      "notes": "Full paper, including discussion of avoiding explicit A^T A formation."
+    },
+    "history-golub-bjorck": {
+      "title": "Björck and Golub, Numerical Methods for Computing Angles Between Linear Subspaces (1973)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1090/S0025-5718-1973-0348991-3",
+      "access": "free_no_login",
+      "notes": "Mathematics of Computation 27, 579–594; orthonormal bases, principal angle algorithms and error analysis."
+    },
+    "history-golub-tls": {
+      "title": "Golub and Van Loan, An Analysis of the Total Least Squares Problem (1980)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1137/0717073",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "SIAM Journal on Numerical Analysis 17(6), 883–893; SVD formulation, sensitivity and error model."
+    },
+    "history-golub-tls-full": {
+      "title": "Golub and Van Loan, Total Least Squares (1980), author PDF mirror",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://people.duke.edu/~hpgavin/cee502/golub80.pdf",
+      "access": "free_no_login",
+      "notes": "Original text of the 1980 analysis."
+    },
+    "history-golub-pcg": {
+      "title": "Concus, Golub and O’Leary, Generalized Conjugate Gradient Method for Elliptic PDEs (1976)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://math.berkeley.edu/~concus/cgo.pdf",
+      "access": "free_no_login",
+      "notes": "1976 proceedings preprint, with Hestenes–Stiefel origin distinguished from preconditioned method."
+    },
+    "history-golub-svd-retrospective": {
+      "title": "Stanford ICME, Gene Golub: Faculty Pioneers",
+      "kind": "historical_institutional_record",
+      "url": "https://icme.stanford.edu/research-impact/faculty-pioneers",
+      "access": "free_no_login",
+      "notes": "Links retrospective research history, research organization and Stanford program."
+    },
+    "history-golub-book": {
+      "title": "Golub and Van Loan, Matrix Computations (1983)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://openlibrary.org/books/OL3165929M/Matrix_computations",
+      "access": "bibliographic_metadata",
+      "notes": "First edition 1983, published by Johns Hopkins University Press; later editions documented in NAS memoir."
     }
   }
 }
