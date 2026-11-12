@@ -1,7 +1,7 @@
 {
   "id": "world-history",
   "title": "World History",
-  "summary": "Standalone long-form audio essays on world history and literature, including Gilgamesh, Homer, the Ramayana, the Popol Wuj, the Mahabharata, Ugaritic myth, and the Book of Job.",
+  "summary": "Standalone long-form audio essays on world history and literature, including Gilgamesh, Homer, the Ramayana, the Popol Wuj, the Mahabharata, Ugaritic myth, and the Book of Job. A separate How We Know strand examines excavation, dating, decipherment, and archaeological tests of literary claims.",
   "assumed_background": [
     "general curiosity about world history; each lecture provides its own context"
   ],
@@ -13,7 +13,8 @@
     "new-kingdom-egypt",
     "shang-china",
     "austronesian-expansion",
-    "ancient-literature"
+    "ancient-literature",
+    "how-we-know"
   ],
   "lectures": [
     {
@@ -267,6 +268,42 @@
       "spoken_words": 4238,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 29.2
+    },
+    {
+      "id": "029000",
+      "title": "Reading the Ground: How Archaeologists Reconstruct a Lost World",
+      "section": "how-we-know",
+      "file": "029000-archaeology-reading-the-ground.md",
+      "spoken_words": 4237,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 29.2
+    },
+    {
+      "id": "030000",
+      "title": "Dating the Past: Clocks in Wood, Carbon, and Volcanic Ash",
+      "section": "how-we-know",
+      "file": "030000-archaeology-dating-the-past.md",
+      "spoken_words": 3513,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 24.2
+    },
+    {
+      "id": "031000",
+      "title": "Recovering Gilgamesh: Excavation, Decipherment, and Broken Tablets",
+      "section": "how-we-know",
+      "file": "031000-archaeology-recovering-gilgamesh.md",
+      "spoken_words": 3571,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 24.6
+    },
+    {
+      "id": "032000",
+      "title": "Searching for Troy: What Excavation Can Tell Us About Homer",
+      "section": "how-we-know",
+      "file": "032000-archaeology-troy-and-homer.md",
+      "spoken_words": 3850,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 26.6
     }
   ],
   "editorial_policy": "Publish substantive, source-grounded lectures that are self-contained and useful in any listening order. The manifest order is a browsing default, not a prerequisite sequence."

@@ -55,6 +55,20 @@ These lectures share a browsing section but do not depend on listening order:
 - **027000 · The Baal Cycle: The Storm, the Sea, and the House of Death** — Ugaritic poetry, divine kingship, and the fragmentary Sea, palace, and Death narratives.
 - **028000 · The Book of Job: The Argument with the Whirlwind** — innocent suffering, the friends’ debate, divine speeches, and the contested ending.
 
+## How We Know: archaeology and the making of historical evidence
+
+- **029000 · Reading the Ground** — excavation context, stratigraphy, site formation, and the credited work of Kenyon, Harris, Schiffer, and other researchers.
+- **030000 · Dating the Past** — tree rings, radiocarbon, calibration, Laetoli geology, luminescence, and original scientific teams.
+- **031000 · Recovering Gilgamesh** — the ancient scribal record, excavators including Hormuzd Rassam, George Smith, decipherers, critical editions, and digital corpora.
+- **032000 · Searching for Troy** — Calvert, Schliemann, Dörpfeld, Blegen, Korfmann, and the evidence behind competing interpretations of Homer's city.
+
+These lectures include named original contributors in the spoken narrative when
+supported by the source record. Each also has non-spoken attribution and
+research notes; the metadata link cards point to original methods, field
+reports, archives, and scholarly reassessments. See
+[How We Know: Sources and Research](HOW_WE_KNOW_ROADMAP.md) for the continuing
+methodological strand and attribution guidelines.
+
 The [ancient-literature roadmap](ANCIENT_LITERATURE_ROADMAP.md) describes further candidates and the editorial approach. These are full narrative essays with contextual analysis rather than annotated readings or verbatim reproductions of modern translations.
 
 The source Markdown files contain a spoken lecture between explicit markers.
