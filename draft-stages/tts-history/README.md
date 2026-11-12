@@ -1,19 +1,21 @@
 # History · People and ideas
 
-The playable History track contains **six researched long-form lectures**:
-Camille Jordan, Hermann Weyl, David Hilbert, Tosio Kato, Chandler Davis,
-and William Kahan. Jordan's recording connects permutation groups, canonical
-forms, principal-angle geometry, and analysis with full worked examples.
+The playable History track contains **seven researched long-form lectures**:
+Camille Jordan, Lord Rayleigh, Hermann Weyl, David Hilbert, Tosio Kato,
+Chandler Davis, and William Kahan. Rayleigh's recording connects physical
+vibrations and energy estimates to Rayleigh quotients, spectral gaps,
+experimental acoustics, gas-density measurements, optics, and fluid stability.
 
-The six spoken recordings are approximately **27–35 minutes** at the
-reader’s 145-words-per-minute reference estimate. Actual duration varies by
-voice, speed, and pauses; this change does not synthesize audio.
+The estimated listening lengths are about **27–35 minutes** at the reader's
+reference rate of 145 spoken words per minute. Actual TTS duration depends on
+the voice, playback speed, and prosody; no new audio was synthesized.
 
-The remaining **22 short drafts** are under `stubs/`, with their sidecars and
-original identifiers retained. They are editorial seeds, not playable
-recordings. Promote a person only when the narration supports sustained
-listening and its mathematical and historical claims have been checked.
+The remaining **21 short drafts** are under `stubs/`, with their source
+sidecars and original identifiers retained. Those are editorial starting
+points, excluded from the playable catalog until expanded and checked.
 
-History uses the existing audio player, independent cache, progress,
-feedback, search, and audio-availability filtering. Mathematical companions
-and bibliographic notes are excluded from spoken extraction.
+History uses the existing audio player, with independent audio cache, listening
+progress, feedback, search, and availability filtering. Mathematical companions
+and bibliographies are excluded from TTS narration extraction. Lectures can
+be heard out of order by listeners with the stated mathematical background;
+their narration does not refer to other recordings as prerequisite videos.

@@ -1,9 +1,9 @@
 # Deferred history lecture drafts
 
-These are **22 short historical sketches** awaiting research and long-form
-authoring. Hermann Weyl (`005000`) and Camille Jordan (`002000`) were expanded
-and promoted as playable lectures. The other stubs keep their original
-identifiers and source sidecars.
+These are **21 short historical sketches** awaiting research and long-form
+authoring. Camille Jordan (`002000`), Lord Rayleigh (`003000`), and Hermann
+Weyl (`005000`) were expanded and promoted as playable lectures. The other
+stubs retain their original identifiers and reference sidecars.
 
 The player exposes only root-level files listed in `../track.json`. Do not
 include a stub in that manifest until its mathematical and historical

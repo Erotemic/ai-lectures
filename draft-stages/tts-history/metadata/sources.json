@@ -44,25 +44,25 @@
       "notes": "Accessible overview of the original geometric problem and modern variational, projection, and SVD formulations."
     },
     "history-rayleigh-bio": {
-      "title": "Lord Rayleigh — biographical or contributor record",
+      "title": "John William Strutt (Lord Rayleigh) — MacTutor",
       "kind": "biography_or_author_record",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Rayleigh/",
       "access": "free_no_login",
-      "notes": "Person-specific source for Lord Rayleigh; for living contributors some records document authorship rather than personal biography."
+      "notes": "Biographical chronology: Cambridge studies, Terling Place, sound, measurement, and argon."
     },
     "history-rayleigh-primary": {
-      "title": "Lord Rayleigh — bibliography and The Theory of Sound",
-      "kind": "mathematical_exposition",
-      "url": "https://en.wikipedia.org/wiki/John_William_Strutt%2C_3rd_Baron_Rayleigh",
+      "title": "Rayleigh — The Theory of Sound (1877), digitized first edition",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://archive.org/details/theorysound06raylgoog",
       "access": "free_no_login",
-      "notes": "The publications section identifies the original volumes of The Theory of Sound."
+      "notes": "Primary 1877 book; the first volume develops vibrations and includes energy approaches to approximate frequencies."
     },
     "history-rayleigh-topic": {
-      "title": "Rayleigh quotient",
+      "title": "Rayleigh quotient — Wikipedia",
       "kind": "accessible_topic_reference",
       "url": "https://en.wikipedia.org/wiki/Rayleigh_quotient",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the Lord Rayleigh lecture."
+      "notes": "Eigenvalue weighted-average, Hermitian min–max, and general variational context."
     },
     "history-ritz-bio": {
       "title": "Walther Ritz — biographical or contributor record",
@@ -777,6 +777,104 @@
       "url": "https://en.wikipedia.org/wiki/Camille_Jordan",
       "access": "free_no_login",
       "notes": "Accessible overview of the person and the distinct mathematical names associated with him."
+    },
+    "history-rayleigh-ri": {
+      "title": "Royal Institution — Lord Rayleigh biography",
+      "kind": "biography_or_author_record",
+      "url": "https://www.rigb.org/explore-science/explore/person/john-william-strutt-3rd-baron-rayleigh-1842-1919",
+      "access": "free_no_login",
+      "notes": "Independent career and institutional record, including Cavendish and Terling laboratory."
+    },
+    "history-rayleigh-cambridge": {
+      "title": "Cambridge — The Theory of Sound (two volumes)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://www.cambridge.org/core/books/the-theory-of-sound/289B292AC5A7CBE894D18B2DD99D6F7E",
+      "access": "free_no_login",
+      "notes": "Bibliographic confirmation that the first two sound volumes appeared in 1877 and 1878."
+    },
+    "history-rayleigh-helmholtz": {
+      "title": "Helmholtz reviews The Theory of Sound, volume I (1878)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://www.nature.com/articles/017237a0",
+      "access": "free_no_login",
+      "notes": "Contemporary assessment of Rayleigh’s aims, mathematics, and unsolved acoustic problems."
+    },
+    "history-rayleigh-leissa": {
+      "title": "Leissa (2005), The historical bases of the Rayleigh and Ritz methods",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1016/j.jsv.2004.12.021",
+      "access": "free_no_login",
+      "notes": "Technical historical comparison that distinguishes one-shape Rayleigh estimates from Ritz’s systematic basis expansion."
+    },
+    "history-rayleigh-ritz": {
+      "title": "Rayleigh–Ritz method — Wikipedia",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Ritz_method",
+      "access": "free_no_login",
+      "notes": "Accessible summary of trial subspaces and small generalized eigenproblems; consult Leissa for attribution."
+    },
+    "history-rayleigh-nobel": {
+      "title": "Nobel Prize in Physics 1904 — Lord Rayleigh",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://www.nobelprize.org/prizes/physics/1904/summary/",
+      "access": "free_no_login",
+      "notes": "Original Nobel award description for the gas density work and argon discovery."
+    },
+    "history-rayleigh-nitrogen": {
+      "title": "Rayleigh, Density of Nitrogen (Nature, 1892)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1038/046512c0",
+      "access": "free_no_login",
+      "notes": "Rayleigh’s contemporary report of a reproducible discrepancy between differently prepared nitrogen samples."
+    },
+    "history-rayleigh-argon": {
+      "title": "Royal Society of Chemistry — Argon",
+      "kind": "accessible_topic_reference",
+      "url": "https://edu.rsc.org/elements/argon/2020002.article",
+      "access": "free_no_login",
+      "notes": "Historical details of Rayleigh and Ramsay’s isolation and identification of argon."
+    },
+    "history-rayleigh-scattering": {
+      "title": "Rayleigh scattering — Wikipedia",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh_scattering",
+      "access": "free_no_login",
+      "notes": "Regime of short-wavelength enhancement, its assumptions, and atmospheric examples."
+    },
+    "history-rayleigh-surface-paper": {
+      "title": "Rayleigh, On Waves Propagated along the Plane Surface of an Elastic Solid (1885)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1112/plms/s1-17.1.4",
+      "access": "free_no_login",
+      "notes": "Original surface-wave paper and its elastic half-space boundary condition."
+    },
+    "history-rayleigh-wave": {
+      "title": "Rayleigh wave — Wikipedia",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh_wave",
+      "access": "free_no_login",
+      "notes": "Surface elastic waves, depth localization, and seismological interpretation."
+    },
+    "history-rayleigh-radiation": {
+      "title": "Rayleigh–Jeans law — Wikipedia",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Jeans_law",
+      "access": "free_no_login",
+      "notes": "Classical low-frequency radiation law, ultraviolet divergence, and its historical scope."
+    },
+    "history-rayleigh-convection-paper": {
+      "title": "Rayleigh, On convection currents in a horizontal layer of fluid (1916)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1080/14786441608635602",
+      "access": "free_no_login",
+      "notes": "Primary analysis of buoyancy-driven thermal instability in a horizontal fluid layer."
+    },
+    "history-rayleigh-convection": {
+      "title": "Rayleigh–Bénard convection — Wikipedia",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh%E2%80%93B%C3%A9nard_convection",
+      "access": "free_no_login",
+      "notes": "History and differing mechanisms of buoyancy-driven and surface-tension-driven convection."
     }
   }
 }
