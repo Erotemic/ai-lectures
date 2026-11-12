@@ -17,6 +17,9 @@ The substantive, standalone lectures are:
 - **004000 · Mansa Musa: Gold, Pilgrimage, and the Empire of Mali** —
   Sundiata and the formation of Mali, trade and political power, the 1324–1325
   pilgrimage, Cairo diplomacy, Timbuktu, and the historical sources.
+- **005000 · Hatshepsut: The Woman Who Became King of Egypt** —
+  Eighteenth Dynasty kingship, the co-regency with Thutmose III, royal imagery,
+  Deir el-Bahri, Karnak, the expedition to Punt, and later monument erasure.
 
 The source Markdown files contain a spoken lecture between explicit markers.
 Historical notes and references after the spoken region are for reading and

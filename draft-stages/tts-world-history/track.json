@@ -1,7 +1,7 @@
 {
   "id": "world-history",
   "title": "World History",
-  "summary": "Standalone long-form audio essays on people, events, texts, and historical processes. Current subjects include the Epic of Gilgamesh, Mary Leakey, Uruk, and Mansa Musa.",
+  "summary": "Standalone long-form audio essays on people, events, texts, and historical processes. Current subjects include Gilgamesh, Mary Leakey, Uruk, Mansa Musa, and Hatshepsut.",
   "assumed_background": [
     "general curiosity about world history; each lecture provides its own context"
   ],
@@ -9,7 +9,8 @@
     "early-literature",
     "human-origins",
     "early-cities",
-    "medieval-west-africa"
+    "medieval-west-africa",
+    "new-kingdom-egypt"
   ],
   "lectures": [
     {
@@ -47,6 +48,15 @@
       "spoken_words": 5753,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 39.7
+    },
+    {
+      "id": "005000",
+      "title": "Hatshepsut: The Woman Who Became King of Egypt",
+      "section": "new-kingdom-egypt",
+      "file": "005000-hatshepsut-king-of-egypt.md",
+      "spoken_words": 5689,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 39.2
     }
   ],
   "editorial_policy": "Publish substantive, source-grounded lectures that are self-contained and useful in any listening order. The manifest order is a browsing default, not a prerequisite sequence."
