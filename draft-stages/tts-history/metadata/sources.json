@@ -347,25 +347,25 @@
       "notes": "Background on the mathematical concept explained in the Tosio Kato lecture."
     },
     "history-rosenblum-bio": {
-      "title": "Marvin Rosenblum — biographical or contributor record",
+      "title": "Marvin Rosenblum — Institute for Advanced Study member record",
       "kind": "biography_or_author_record",
       "url": "https://www.ias.edu/scholars/marvin-rosenblum",
       "access": "free_no_login",
-      "notes": "Person-specific source for Marvin Rosenblum; for living contributors some records document authorship rather than personal biography."
+      "notes": "Berkeley Ph.D. 1955; IAS membership September 1959 to August 1960."
     },
     "history-rosenblum-primary": {
-      "title": "Marvin Rosenblum — Research publication",
+      "title": "Rosenblum, On the Operator Equation BX−XA=Q, Duke Math. J. 23 (1956), 263–269",
       "kind": "historical_primary_or_exposition",
       "url": "https://doi.org/10.1215/S0012-7094-56-02324-9",
       "access": "free_no_login",
-      "notes": "Published mathematical research relevant to this person's contribution; authorship is discussed in the lecture."
+      "notes": "Original 1956 Sylvester-equation research paper; confirm hypotheses and contour sign against 1969 review."
     },
     "history-rosenblum-topic": {
-      "title": "Sylvester equation",
+      "title": "Nick Higham — What Is the Sylvester Equation?",
       "kind": "accessible_topic_reference",
-      "url": "https://en.wikipedia.org/wiki/Sylvester_equation",
+      "url": "https://nhigham.com/2020/09/01/what-is-the-sylvester-equation/",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the Marvin Rosenblum lecture."
+      "notes": "Modern finite-dimensional introduction; distinction between solvability and norm estimates."
     },
     "history-davis-bio": {
       "title": "Chandler Davis — biographical or contributor record",
@@ -1928,6 +1928,97 @@
       "access": "free_no_login",
       "format": "pdf",
       "notes": "Raussen interview, pp. 39–40, comments on oral lecture preparation, 20 doctoral students, Connes, Duflo and Vergne and post-retirement research."
+    },
+    "history-rosenblum-uva-board": {
+      "title": "University of Virginia Board of Visitors, establishment of Marvin Rosenblum Professorship (Nov. 2010)",
+      "kind": "historical_institutional_record",
+      "url": "https://paperzz.com/doc/7540378/materials",
+      "access": "free_no_login",
+      "notes": "Transcription of original UVA educational-policy board materials: engineering training, Berkeley degrees, Virginia appointments 1955–2000, department chair 1969–73, Commonwealth Professor 1978, 18 Ph.D. dissertations, family and memorial gift. Prefer the board text over downstream summaries for chronology."
+    },
+    "history-rosenblum-uva-news": {
+      "title": "University of Virginia, Gift Creates Endowed Professorship in Math Department (2011)",
+      "kind": "historical_institutional_record",
+      "url": "https://stage2.news.virginia.edu/content/gift-creates-endowed-professorship-math-department",
+      "access": "free_no_login",
+      "notes": "University reporting on retirement, death, family gift, reminiscences, and scholarly career."
+    },
+    "history-rosenblum-ias-community": {
+      "title": "Institute for Advanced Study, A Community of Scholars — Rosenblum entry",
+      "kind": "historical_institutional_record",
+      "url": "https://www.ias.edu/sites/default/files/library/pdfs/hs/cos.pdf",
+      "access": "free_no_login",
+      "notes": "Author index reports birth 1926 in Brooklyn, Berkeley Ph.D. 1955, IAS mathematics visit 1959–1960."
+    },
+    "history-rosenblum-thesis": {
+      "title": "Rosenblum, Perturbation of the Continuous Spectrum, Ph.D. thesis (1955)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://books.google.com/books/about/Perturbation_of_the_Continuous_Spectrum.html?id=lmNIAQAAMAAJ",
+      "access": "free_no_login",
+      "notes": "UC Berkeley thesis 164 pp.; contents list Friedrichs perturbation theory, resolvents, and several operator equations."
+    },
+    "history-rosenblum-simon": {
+      "title": "Barry Simon, Tosio Kato’s work on non-relativistic quantum mechanics, Part 2 (2019), §13",
+      "kind": "historical_scholarly_reconstruction",
+      "url": "https://link.springer.com/article/10.1007/s13373-018-0121-5",
+      "access": "free_no_login",
+      "notes": "Detailed history of Rosenblum thesis (March 1955), December 1955 report, 1956 submission and 1957 publication, Kato correspondence and trace-class generalization; see also PDF pp. 24–25."
+    },
+    "history-rosenblum-1957": {
+      "title": "Rosenblum, Perturbation of the Continuous Spectrum and Unitary Equivalence, Pacific J. Math. 7 (1957), 997–1010",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.2140/pjm.1957.7.997",
+      "access": "free_no_login",
+      "notes": "Original 1957 published trace-class absolute-continuity theorem in purely absolutely continuous setting."
+    },
+    "history-rosenblum-1958": {
+      "title": "Rosenblum, On a Theorem of Fuglede and Putnam, J. London Math. Soc. 33 (1958), 376–377",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1112/jlms/s1-33.3.376",
+      "access": "free_no_login",
+      "notes": "Original two-page analytic proof of adjoint-intertwining theorem."
+    },
+    "history-rosenblum-fuglede-proof": {
+      "title": "Mathlib, Analysis.CStarAlgebra.Fuglede — Rosenblum/Liouville proof",
+      "kind": "mathematical_exposition",
+      "url": "https://imperialcollegelondon.github.io/FLT/docs/Mathlib/Analysis/CStarAlgebra/Fuglede.html",
+      "access": "free_no_login",
+      "notes": "Modern formal and expository reconstruction of Rosenblum’s proof via entire functions and Liouville."
+    },
+    "history-rosenblum-1969": {
+      "title": "Rosenblum, The Operator Equation BX−XA=Q with Selfadjoint A and B, Proc. AMS 20 (1969), 115–120",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.2307/2035971",
+      "access": "free_no_login",
+      "notes": "Original 1969 paper: §1 recaps 1956 contour solution; regularization by shifts B+iy and A−iy and norm boundedness criterion."
+    },
+    "history-rosenblum-toeplitz-1960": {
+      "title": "Rosenblum, The Absolute Continuity of Toeplitz’s Matrices, Pacific J. Math. 10 (1960), 987–996",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.2140/pjm.1960.10.987",
+      "access": "free_no_login",
+      "notes": "Original study of semibounded real-symbol Toeplitz operators and absolute continuity."
+    },
+    "history-rosenblum-toeplitz-modern": {
+      "title": "Sobolev and Yafaev, On Spectral Analysis of Self-Adjoint Toeplitz Operators",
+      "kind": "mathematical_historical_review",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10113145/1/Toeplitz_operators_accepted.pdf",
+      "access": "free_no_login",
+      "notes": "Modern overview explicitly traces the detailed spectral theory to Rosenblum’s 1960s work."
+    },
+    "history-rosenblum-hardy-1985": {
+      "title": "Rosenblum and Rovnyak, Hardy Classes and Operator Theory (1985)",
+      "kind": "historical_publication_record",
+      "url": "https://search.worldcat.org/title/Hardy-classes-and-operator-theory/oclc/11533093",
+      "access": "free_no_login",
+      "notes": "Oxford 1985 monograph covering shift operators, Toeplitz operators, Hardy classes, and operator-valued functions."
+    },
+    "history-rosenblum-hardy-1994": {
+      "title": "Rosenblum and Rovnyak, Topics in Hardy Classes and Univalent Functions (1994)",
+      "kind": "historical_publication_record",
+      "url": "https://books.google.com/books?id=bDPvAAAAMAAJ",
+      "access": "free_no_login",
+      "notes": "Springer 1994 text based on UVA lectures, including harmonic, subharmonic, Hardy, Nevanlinna and univalent functions."
     }
   }
 }
