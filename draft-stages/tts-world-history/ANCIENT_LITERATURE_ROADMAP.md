@@ -92,3 +92,12 @@ transmission histories.
   specific scenes and values in each literature.
 - The story of creation and legitimate rule: *Enuma Elish* and other ancient
   accounts, without forcing every tradition into a uniform framework.
+
+## Later Chinese novels and the larger literary curriculum
+
+The late-Ming *Journey to the West* sequence (048000–054000) and
+*Romance of the Three Kingdoms* (055000–071000) have been placed outside
+Ancient Literature. The latter is set in the late Han and Three Kingdoms
+period, but its surviving novel is a much later literary work. Both belong to
+the [World Literary Epics and Classics](WORLD_LITERARY_CLASSICS_ROADMAP.md)
+curriculum; see the dedicated [Three Kingdoms roadmap](ROMANCE_OF_THE_THREE_KINGDOMS_ROADMAP.md).

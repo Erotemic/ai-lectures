@@ -4,7 +4,7 @@ This is a separate, audio-first collection within AI Lectures. It does not
 change the mathematical curricula or their course graph. Open the **World
 History** tab in the audio reader, or visit `/audio?track=world-history`.
 
-The substantive, standalone lectures are:
+The substantive, standalone lectures include:
 
 - **001000 · The Epic of Gilgamesh: The King Who Could Not Defeat Death** —
   narrative, archaeology, transmission of the text, flood traditions, and mortality.
@@ -81,9 +81,6 @@ These lectures share a browsing section but do not depend on listening order:
 - **045000 · The Swahili Coast** — Shanga, Kilwa, Songo Mnara, revised dating, local pottery, the house-foundation coin deposit, and the distinct evidence of archaeology, genealogy, and ancient DNA.
 - **046000 · The Lost Harbor** — Portus and Ostia sediment cores, geophysical survey, dredging, and underwater archaeology and photogrammetry at Caesarea.
 - **047000 · Saving a Shipwreck** — the Mary Rose and Vasa, treatment of waterlogged timbers, iron and sulfur chemistry, documenting artifacts, and ongoing conservation.
-- **055000 · The Obsidian Fingerprint — volcanic glass sourcing, Cann and Renfrew, Franchthi and Melos, XRF, and why source does not establish trade route.**
-- **056000 · Where Did They Grow Up? — teeth, isotopes, Boscombe Bowmen, Stonehenge cremations, and the limits of geographic assignments.**
-- **057000 · The Bronze Question — Uluburun, copper and tin provenance, isotope analysis, metal mixing, and the published sourcing dispute.**
 
 ## Late-Imperial Chinese Literature: Journey to the West
 
@@ -115,6 +112,39 @@ includes historical qualifications in the narration where they clarify a
 particular episode, and has non-spoken reading references. See the
 [Journey to the West roadmap](JOURNEY_TO_THE_WEST_ROADMAP.md) for boundaries,
 source and edition conventions, and the intended reading order.
+
+## World Literary Epics and Classics: Romance of the Three Kingdoms
+
+The novel is a historical romance written many centuries after the late-Han and
+Three-Kingdoms wars it describes. This new **dedicated browsing section** uses
+the familiar 120-chapter recension and follows it in sixteen story arcs and one
+research lecture. The earliest surviving large-scale printing dates to 1522;
+Luo Guanzhong is the traditional, debated author attribution.
+
+- **055000 · Three Kingdoms, Part I: The Peach Garden and the Burning Capital** — chapters 1–6; about 36 minutes.
+- **056000 · Three Kingdoms, Part II: The Fall of Dong Zhuo and the Captive Emperor** — chapters 7–14; about 34 minutes.
+- **057000 · Three Kingdoms, Part III: The Rival Lords and the Fall of Lü Bu** — chapters 15–22; about 34 minutes.
+- **058000 · Three Kingdoms, Part IV: Guan Yu's Road Home and the Succession in Jiangdong** — chapters 23–29; about 32 minutes.
+- **059000 · Three Kingdoms, Part V: Guandu and the Defeat of a Greater Army** — chapters 30–36; about 33 minutes.
+- **060000 · Three Kingdoms, Part VI: The Sleeping Dragon and the Flight at Changban** — chapters 37–42; about 34 minutes.
+- **061000 · Three Kingdoms, Part VII: Red Cliffs, Fire on the River** — chapters 43–50; about 34 minutes.
+- **062000 · Three Kingdoms, Part VIII: The Province Between Allies** — chapters 51–57; about 33 minutes.
+- **063000 · Three Kingdoms, Part IX: The Road into the Western Kingdom** — chapters 58–65; about 34 minutes.
+- **064000 · Three Kingdoms, Part X: Hanzhong and the Rivalry Over Jing** — chapters 66–72; about 32 minutes.
+- **065000 · Three Kingdoms, Part XI: Guan Yu's Last Campaign and the End of Han** — chapters 73–80; about 30 minutes.
+- **066000 · Three Kingdoms, Part XII: The Revenge Campaign and the Fires of Yiling** — chapters 81–86; about 30 minutes.
+- **067000 · Three Kingdoms, Part XIII: Seven Captures and the First Northern Expeditions** — chapters 87–96; about 30 minutes.
+- **068000 · Three Kingdoms, Part XIV: The Last Campaign of Zhuge Liang** — chapters 97–104; about 31 minutes.
+- **069000 · Three Kingdoms, Part XV: The Sima Family Takes the Court** — chapters 105–115; about 31 minutes.
+- **070000 · Three Kingdoms, Part XVI: The Fall of Shu and the End of the Three Kingdoms** — chapters 116–120; about 31 minutes.
+- **071000 · Three Kingdoms: How History Became a Novel** — research; about 32 minutes.
+
+The series compares the novel with Chen Shou, Pei Songzhi and later source
+traditions while preserving the narrative experience. Its final research
+lecture examines early printings, the influence of the Mao recension, Luo
+Guanzhong attribution, translations and later reception. See the
+[Romance of the Three Kingdoms roadmap](ROMANCE_OF_THE_THREE_KINGDOMS_ROADMAP.md)
+and the overarching [World Literary Epics and Classics roadmap](WORLD_LITERARY_CLASSICS_ROADMAP.md).
 
 These lectures include named original contributors in the spoken narrative when
 supported by the source record. Each also has non-spoken attribution and
