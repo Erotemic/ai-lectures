@@ -67,7 +67,7 @@ def test_graph_api_and_reader_links(tmp_path):
         assert client.get('/learning-paths?track=g4').status_code == 200
         assert 'DKPS · Course graph' in client.get('/learning-paths').text
         tracks = client.get('/api/audio-tracks').json()['tracks']
-        assert [track['id'] for track in tracks] == ['g1', 'g2', 'g3', 'history', 'g4']
+        assert [track['id'] for track in tracks] == ['g1', 'g2', 'g3', 'history', 'world-history', 'g4']
         assert tracks[-1]['kind'] == 'graph'
         detail = client.get('/api/audio-lectures/147000?track=g2').json()
         assert any(row['node_id'] == 'g1:003875_yws'

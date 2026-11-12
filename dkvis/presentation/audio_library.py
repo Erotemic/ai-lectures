@@ -31,6 +31,7 @@ from dkvis.presentation.audio_preparation import PreparationManager
 SOURCE_DIRECTORY = ROOT / 'draft-stages' / 'tts-lectures'
 PAPER_DIRECTORY = ROOT / 'draft-stages' / 'tts-paper'
 HISTORY_DIRECTORY = ROOT / 'draft-stages' / 'tts-history'
+WORLD_HISTORY_DIRECTORY = ROOT / 'draft-stages' / 'tts-world-history'
 EXTRACTOR = SOURCE_DIRECTORY / 'extract_narration.py'
 AUDIO_PAGE = Path(__file__).with_name('audio_library.html')
 LECTURE_NAME = re.compile(r'^(\d{6})-.*\.md$')
@@ -259,7 +260,8 @@ class AudioLectureLibrary:
             return []
         files = sorted(p for p in self.sources.iterdir()
                        if p.is_file() and LECTURE_NAME.fullmatch(p.name))
-        if self.sources not in {PAPER_DIRECTORY.resolve(), HISTORY_DIRECTORY.resolve()}:
+        if self.sources not in {PAPER_DIRECTORY.resolve(), HISTORY_DIRECTORY.resolve(),
+                                WORLD_HISTORY_DIRECTORY.resolve()}:
             return files
         # Curated audio tracks use their own manifest order, independently of
         # their six-digit source identifiers.
@@ -953,6 +955,8 @@ class AudioLectureHub:
             self.tracks['g3'] = PAPER_DIRECTORY.resolve()
         if self.sources == SOURCE_DIRECTORY.resolve() and HISTORY_DIRECTORY.is_dir():
             self.tracks['history'] = HISTORY_DIRECTORY.resolve()
+        if self.sources == SOURCE_DIRECTORY.resolve() and WORLD_HISTORY_DIRECTORY.is_dir():
+            self.tracks['world-history'] = WORLD_HISTORY_DIRECTORY.resolve()
         self._engines = {}
         self._lock = threading.RLock()
         self._voice_registry = self.cache / 'registered-voices.json'
@@ -1012,11 +1016,16 @@ class AudioLectureHub:
                     count=len(self.engine(self.profile, 'g3')._files()),
                     summary='Shorter path to four angle theorems, counterexample, and matching theorem')]
               if 'g3' in self.tracks else []),
-            *([dict(id='history', label='History · People and ideas', kind='audio',
+            *([dict(id='history', label='Math history · People and ideas', kind='audio',
                     url='/audio?track=history',
                     count=len(self.engine(self.profile, 'history')._files()),
                     summary='Biographical stories behind spectral geometry and perturbation theory')]
               if 'history' in self.tracks else []),
+            *([dict(id='world-history', label='World History', kind='audio',
+                    url='/audio?track=world-history',
+                    count=len(self.engine(self.profile, 'world-history')._files()),
+                    summary='Independent long-form world-history stories, beginning with Gilgamesh and Mary Leakey')]
+              if 'world-history' in self.tracks else []),
         ]
 
     def _read_registry(self):

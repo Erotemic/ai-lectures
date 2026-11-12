@@ -1,0 +1,33 @@
+{
+  "id": "world-history",
+  "title": "World History",
+  "summary": "Standalone long-form audio essays on people, events, texts, and historical processes. The initial collection covers Gilgamesh and Mary Leakey.",
+  "assumed_background": [
+    "general curiosity about world history; each lecture provides its own context"
+  ],
+  "sections": [
+    "early-literature",
+    "human-origins"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "The Epic of Gilgamesh: The King Who Could Not Defeat Death",
+      "section": "early-literature",
+      "file": "001000-epic-of-gilgamesh.md",
+      "spoken_words": 4639,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 32.0
+    },
+    {
+      "id": "002000",
+      "title": "Mary Leakey: Reading the Footprints of Deep Time",
+      "section": "human-origins",
+      "file": "002000-mary-leakey.md",
+      "spoken_words": 5018,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 34.6
+    }
+  ],
+  "editorial_policy": "Publish substantive, source-grounded lectures that are self-contained and useful in any listening order. The manifest order is a browsing default, not a prerequisite sequence."
+}

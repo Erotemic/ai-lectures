@@ -5,7 +5,7 @@ import re
 import time
 
 from starlette.testclient import TestClient
-from dkvis.presentation.audio_library import AudioLectureHub, SOURCE_DIRECTORY, PAPER_DIRECTORY, HISTORY_DIRECTORY, narration_extractor
+from dkvis.presentation.audio_library import AudioLectureHub, SOURCE_DIRECTORY, PAPER_DIRECTORY, HISTORY_DIRECTORY, WORLD_HISTORY_DIRECTORY, narration_extractor
 from dkvis.presentation.serve import create_app
 
 
@@ -45,7 +45,7 @@ def test_course_tracks_and_track_isolation(tmp_path):
     renders.mkdir()
     with TestClient(create_app(renders, audio_library=hub)) as client:
         tracks = client.get('/api/audio-tracks').json()['tracks']
-        assert [r['id'] for r in tracks] == ['g1', 'g2', 'g3', 'history', 'g4']
+        assert [r['id'] for r in tracks] == ['g1', 'g2', 'g3', 'history', 'world-history', 'g4']
         assert tracks[0]['url'] == '/'
         assert tracks[1]['count'] >= 154
         assert tracks[2]['count'] == 27
@@ -185,3 +185,73 @@ def test_history_audio_and_feedback_are_isolated_from_math_tracks(tmp_path):
         assert client.get(status['url']).status_code == 200
         assert client.get('/api/audio-lectures/018000/pages/0',
                           params={'track':'g2'}).json()['state'] == 'missing'
+
+
+def test_world_history_manifest_and_spoken_lectures():
+    plan = json.loads((WORLD_HISTORY_DIRECTORY / 'track.json').read_text())
+    rows = plan['lectures']
+    assert plan['id'] == 'world-history'
+    assert [row['id'] for row in rows] == ['001000', '002000']
+    assert len({row['id'] for row in rows}) == len(rows)
+    assert {row['file'] for row in rows} == {
+        path.name for path in WORLD_HISTORY_DIRECTORY.glob('[0-9]' * 6 + '-*.md')
+    }
+    sources = json.loads((WORLD_HISTORY_DIRECTORY / 'metadata' / 'sources.json').read_text())['sources']
+    for row in rows:
+        path = WORLD_HISTORY_DIRECTORY / row['file']
+        raw = path.read_text(encoding='utf-8')
+        assert raw.count('<!-- BEGIN SPOKEN LECTURE -->') == 1
+        assert raw.count('<!-- END SPOKEN LECTURE -->') == 1
+        spoken = narration_extractor(path)
+        assert 3500 <= len(spoken.split()) <= 6500
+        assert len(spoken.split()) == row['spoken_words']
+        assert 'http' not in spoken  # reading references stay outside the audio
+        metadata = json.loads((WORLD_HISTORY_DIRECTORY / 'metadata' / f"{row['id']}.json").read_text())
+        assert metadata['transcript'] == row['file']
+        assert len(metadata['related_resources']) >= 3
+        for resource in metadata['related_resources']:
+            assert resource['source_id'] in sources
+            assert sources[resource['source_id']]['url'].startswith('https://')
+
+
+def test_world_history_reader_api_and_isolated_audio(tmp_path):
+    def synth(text, settings, dest):
+        dest.write_bytes(b'ID3' + b'\0' * 1024)
+
+    hub = AudioLectureHub(cache=tmp_path / 'cache', profile='kokoro', sender=synth)
+    renders = tmp_path / 'renders'
+    renders.mkdir()
+    with TestClient(create_app(renders, audio_library=hub)) as client:
+        tracks = client.get('/api/audio-tracks').json()['tracks']
+        world = next(row for row in tracks if row['id'] == 'world-history')
+        assert world['count'] == 2
+        assert world['url'] == '/audio?track=world-history'
+        catalog = client.get('/api/audio-lectures?track=world-history').json()['items']
+        assert [row['id'] for row in catalog] == ['001000', '002000']
+        gilgamesh = client.get('/api/audio-lectures/001000?track=world-history').json()
+        mary = client.get('/api/audio-lectures/002000?track=world-history').json()
+        assert gilgamesh['page_count'] > 20 and mary['page_count'] > 20
+        assert len(gilgamesh['related_resources']) >= 3
+        assert len(mary['related_resources']) >= 3
+        assert client.get('/api/audio-lectures/001000/transcript.txt?track=world-history').text == gilgamesh['transcript']
+        assert client.get('/api/audio-lectures/002000/transcript.txt?track=world-history').text == mary['transcript']
+        assert client.get('/api/audio-lectures?track=world-history/../../').status_code == 400
+        assert hub.engine('kokoro', 'world-history').cache != hub.engine('kokoro', 'history').cache
+        assert hub.engine('kokoro', 'world-history').cache != hub.engine('kokoro', 'g2').cache
+        assert hub.engine('kokoro', 'world-history').cache != hub.engine('kokoro', 'g3').cache
+        result = client.post('/api/audio-lectures/001000/pages/0/render', json={'track': 'world-history'})
+        assert result.status_code in (200, 202), result.text
+        for _ in range(50):
+            state = client.get('/api/audio-lectures/001000/pages/0', params={'track': 'world-history'}).json()
+            if state['state'] == 'ready':
+                break
+            time.sleep(.02)
+        assert state['state'] == 'ready'
+        assert 'track=world-history' in state['url']
+        assert client.get(state['url']).status_code == 200
+        for other in ['g2', 'g3', 'history']:
+            response = client.get('/api/audio-lectures/001000/pages/0', params={'track': other})
+            if response.status_code == 200:
+                assert response.json()['state'] == 'missing'
+            else:
+                assert response.status_code == 404  # this track has no lecture 001000
