@@ -494,25 +494,25 @@
       "notes": "Publisher title, authors, year, and subject coverage. Distinguish the mathematical setting when transferring norm or angle bounds."
     },
     "history-pearson-bio": {
-      "title": "Karl Pearson — biographical or contributor record",
-      "kind": "biography_or_author_record",
-      "url": "https://en.wikipedia.org/wiki/Karl_Pearson",
+      "title": "Karl Pearson Papers — UCL Special Collections",
+      "kind": "archival_finding_aid",
+      "url": "https://www.ucl.ac.uk/library/collections/digital-collections/special-collections-digital-collections/karl-pearson-papers",
       "access": "free_no_login",
-      "notes": "Person-specific source for Karl Pearson; for living contributors some records document authorship rather than personal biography."
+      "notes": "Archive covers letters, family, Men and Women’s Club, statistical and departmental records; institutional career and lab history."
     },
     "history-pearson-primary": {
-      "title": "Karl Pearson — Mathematical context and introductory reading",
-      "kind": "mathematical_exposition",
-      "url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "title": "Pearson (1901), On lines and planes of closest fit to systems of points in space",
+      "kind": "primary_mathematical_publication",
+      "url": "https://doi.org/10.1080/14786440109462720",
       "access": "free_no_login",
-      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+      "notes": "Philosophical Magazine Series 6 2(11), 559–572; original orthogonal-distance fitting problem."
     },
     "history-pearson-topic": {
-      "title": "Principal component analysis",
-      "kind": "accessible_topic_reference",
-      "url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "title": "Farebrother (2022), Notes on the prehistory of principal components analysis",
+      "kind": "history_of_statistics",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0047259X21000920",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the Karl Pearson lecture."
+      "notes": "Discusses nineteenth-century orthogonal-fitting predecessors, Pearson and Hotelling; not a claim of sole invention."
     },
     "history-hotelling-bio": {
       "title": "Harold Hotelling — biographical or contributor record",
@@ -2460,6 +2460,118 @@
       "url": "https://www.umiacs.umd.edu/our-experts/faculty/gw-pete-stewart",
       "access": "free_no_login",
       "notes": "Institutional appointments and numerical linear algebra contributions; older cached faculty profile can predate 2026 death."
+    },
+    "history-pearson-mactutor": {
+      "title": "Karl Pearson — MacTutor History of Mathematics",
+      "kind": "scholarly_biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Pearson/",
+      "access": "free_no_login",
+      "notes": "Family, Cambridge, German studies, legal training, books, teaching, Weldon/Galton, statistical publications and death."
+    },
+    "history-pearson-rs": {
+      "title": "Pearson — Royal Society historical personal record",
+      "kind": "institutional_biography",
+      "url": "https://catalogues.royalsociety.org/CalmView/Record.aspx/Record.aspx?id=NA8002&src=CalmView.Persons",
+      "access": "free_no_login",
+      "notes": "Birth/death, offices, Cambridge third wrangler, German institutions, marriage, later honors."
+    },
+    "history-pearson-archive": {
+      "title": "Pearson Papers — archival collection biographical outline",
+      "kind": "archival_finding_aid",
+      "url": "https://www.york.ac.uk/depts/maths/histstat/pearson_ucl.htm",
+      "access": "free_no_login",
+      "notes": "Appointments, 1884 UCL, 1885 club, 1901 journal, 1911 endowed chair, 1925 journal."
+    },
+    "history-pearson-early": {
+      "title": "UCL — Our Early History",
+      "kind": "institutional_history",
+      "url": "https://www.ucl.ac.uk/mathematical-physical-sciences/our-early-history",
+      "access": "free_no_login",
+      "notes": "Historical account of Pearson, Weldon and Galton and UCL’s eugenics institutions; later renaming and 1933 succession."
+    },
+    "history-pearson-eugenics": {
+      "title": "UCL — History of Eugenics Inside UCL",
+      "kind": "archival_historical_analysis",
+      "url": "https://www.ucl.ac.uk/engage/prejudice-in-power/digital-showcase/history-eugenics-inside-ucl",
+      "access": "free_no_login",
+      "notes": "Institutional research on Pearsons 1907 lab, racism targeting immigrant Jewish people, staff culture and institutional support."
+    },
+    "history-pearson-legacy": {
+      "title": "UCL — Legacies of Eugenics digital collection",
+      "kind": "archival_collection",
+      "url": "https://www.ucl.ac.uk/library/collections/ucl-digital-collections/special-collections-digital-collections/legacies-eugenics",
+      "access": "free_no_login",
+      "notes": "Research records on eugenics and biometric lab, successors and digital collections."
+    },
+    "history-pearson-denaming": {
+      "title": "UCL denames buildings named after eugenicists, June 19 2020",
+      "kind": "institutional_announcement",
+      "url": "https://www.ucl.ac.uk/news/2020/jun/ucl-denames-buildings-named-after-eugenicists",
+      "access": "free_no_login",
+      "notes": "Announcement that Pearson and Galton names were removed from specified campus spaces."
+    },
+    "history-pearson-1896": {
+      "title": "Pearson (1896), Regression, heredity and panmixia — bibliographic entry",
+      "kind": "historical_bibliography",
+      "url": "https://www.york.ac.uk/depts/maths/histstat/haldcontents.htm",
+      "access": "free_no_login",
+      "notes": "Contains bibliographic detail for Pearson 1895–1900 statistics and 1900 chi-square paper."
+    },
+    "history-pearson-chi-history": {
+      "title": "Classic Topics on the History of Modern Mathematical Statistics — chapters on Pearson chi-square",
+      "kind": "history_of_statistics",
+      "url": "https://old.maa.org/node/743958",
+      "access": "free_no_login",
+      "notes": "Historical account of 1900 chi-square, fitted parameters, and Fisher degrees-of-freedom correction."
+    },
+    "history-pearson-fisher": {
+      "title": "Fisher, Statistical Methods for Research Workers (1925), chapter 4",
+      "kind": "primary_statistical_publication",
+      "url": "https://psychclassics.yorku.ca/Fisher/Methods/chap4.htm",
+      "access": "free_no_login",
+      "notes": "Historical explanation of chi-square degrees of freedom and Pearson attribution."
+    },
+    "history-pearson-magnello": {
+      "title": "M. E. Magnello, Karl Pearson’s mathematization of inheritance (1895–1909)",
+      "kind": "history_of_science",
+      "url": "https://doi.org/10.1080/00033799800200111",
+      "access": "free_no_login",
+      "notes": "Historical analysis qualifies simplistic claim that Pearson entirely rejected Mendelian inheritance."
+    },
+    "history-pearson-biometrika": {
+      "title": "Nature (1901), A Periodical for Statistical Biologists",
+      "kind": "contemporary_historical_source",
+      "url": "https://www.nature.com/articles/065106b0",
+      "access": "free_no_login",
+      "notes": "Contemporary review of inaugural Biometrika issue and authors including Galton, Weldon, Pearson, Beeton."
+    },
+    "history-pearson-lee": {
+      "title": "Alice Lee — MacTutor History of Mathematics",
+      "kind": "scholarly_biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lee/",
+      "access": "free_no_login",
+      "notes": "Lee’s work on skull measurement and criticism of using skull size as a measure of intelligence."
+    },
+    "history-pearson-lee-primary": {
+      "title": "Alice Lee and Karl Pearson (1901), First Study of the Correlation of the Human Skull",
+      "kind": "primary_mathematical_publication",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Lee_papers/",
+      "access": "free_no_login",
+      "notes": "Article description and Pearson’s prefatory note on Lee’s London D.Sc. thesis."
+    },
+    "history-pearson-hotelling": {
+      "title": "Harold Hotelling (1933), Analysis of a Complex of Statistical Variables into Principal Components",
+      "kind": "primary_mathematical_publication",
+      "url": "https://home.cis.rit.edu/~rlepci/Erho/Derek/Useful_References/Principal%20Components%20Analysis/Hotelling_PCA_part1.pdf",
+      "access": "free_no_login",
+      "notes": "1933 principal components statistical paper; introduction and historical scope."
+    },
+    "history-pearson-debate": {
+      "title": "MacKenzie, Sociobiologies in Competition: Biometrician–Mendelian Debate",
+      "kind": "history_of_science",
+      "url": "https://www.cambridge.org/core/books/abs/biology-medicine-and-society-18401940/sociobiologies-in-competition-the-biometricianmendelian-debate/4491AC8F18217465E13BB8CB543A420F",
+      "access": "free_no_login",
+      "notes": "Historical interpretation of biometrician-Mendelian disputes around 1900."
     }
   }
 }

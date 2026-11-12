@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "22 researched long-form biographies in operator theory, variational methods, Davis–Kahan history and numerical computation; shorter sketches remain archived in stubs/.",
+  "summary": "23 researched long-form biographies in geometry, variational analysis, operator theory, numerical computation and statistics; shorter sketches remain archived in stubs/.",
   "assumed_background": [
     "elementary vectors and eigenvalues; advanced concepts are introduced locally"
   ],
@@ -9,7 +9,8 @@
     "geometry",
     "variational",
     "operators",
-    "davis-kahan"
+    "davis-kahan",
+    "statistics"
   ],
   "lectures": [
     {
@@ -253,6 +254,17 @@
       "draft_status": "substantive",
       "source_g2": null,
       "estimated_minutes_at_145_wpm": 40.8
+    },
+    {
+      "id": "024000",
+      "title": "Karl Pearson: Why is a principal component an optimization problem?",
+      "person": "Karl Pearson",
+      "section": "statistics",
+      "file": "024000-pearson.md",
+      "spoken_words": 5949,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 41.0
     }
   ],
   "editorial_policy": "Expose only researched substantive portraits. Draft biographies live in stubs/ until expanded, checked and promoted."

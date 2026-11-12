@@ -1,12 +1,7 @@
 # Archived History sketches
 
-Short historical portraits remain outside the playable History track until
-expanded into substantial, sourced biographies. They are research seeds, not
-recordings. Historical source records remain in the shared catalog.
+Short portraits stay outside the playable History track until substantially expanded and sourced. They are research seeds, not recordings. Source records remain in the shared catalog.
 
-There are **6 archived sketches**. G. W. Stewart (`023000`) has been promoted
-to a long-form lecture. The next numerical sketch is **Karl Pearson**
-(`024000`); Sylvester (`001000`) remains deferred.
+There are **5 archived sketches**. Karl Pearson (`024000`) has been promoted to a full portrait. **Harold Hotelling** (`025000`) is the next draft in numerical order; Sylvester (`001000`) remains deferred.
 
-See `manifest.json` for the complete list. Do not include this directory in
-audio-library scanning or present the sketches as finished lessons.
+See `manifest.json` for the exact list; do not scan this directory as playable audio.
