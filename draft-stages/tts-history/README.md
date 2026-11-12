@@ -1,23 +1,27 @@
 # History · People and ideas
 
-The playable History track contains **eleven researched long-form biographies**:
+The playable History track contains **twelve researched long-form biographies**:
 Camille Jordan, Lord Rayleigh, Walther Ritz, Hermann Weyl, Richard Courant,
-Ernst Fischer, David Hilbert, Frigyes Riesz, Tosio Kato, Chandler Davis,
-and William Kahan.
+Ernst Fischer, David Hilbert, Frigyes Riesz, John von Neumann, Tosio Kato,
+Chandler Davis, and William Kahan.
 
-The new 5,825-word Frigyes Riesz lecture develops orthogonal-series coefficient
-realization, Fréchet–Riesz representation, Riesz's distinct 1909 Stieltjes
-representation, weak convergence, compact-operator spectral theory, vector
-lattices, and the mean ergodic theorem. It also covers the Szeged school,
-Bolyai Institute, collaboration with Szőkefalvi-Nagy, and documented
-persecution during the Second World War. The mathematical companion
-separates modern examples from historical authorship.
+The new 5,152-word John von Neumann lecture explores quantum states,
+spectral projections, mixtures and density operators, the Murray-von Neumann
+operator-ring program, continuous dimension, singular-value gauge norms,
+the 1937 trace inequality, mean ergodic averages, game-theoretic minimax,
+stored-program computing, and wartime scientific responsibility.
 
-Estimated listening lengths range roughly **27–41 minutes** at 145 spoken words
-per minute. Actual TTS duration depends on the selected voice, synthesis
-speed and pauses; audio is generated on demand.
+The historical companion distinguishes von Neumann's contributions from
+those of Born, Dirac, Murray, Birkhoff, Morgenstern, Eckert, Mauchly,
+Goldstine, Burks, Turing, and other researchers. It includes bibliographic
+references and mathematical demonstrations not spoken in the audio.
 
-The remaining **17 short sketches** are in `stubs/` with original IDs and
-metadata, excluded from the audio catalog until fully researched and expanded.
-The reader isolates progress, audio caches, and feedback by track; the
-history lectures do not assume a particular listening order.
+Estimated listening lengths range roughly **27–41 minutes** at 145 spoken
+words per minute. Actual TTS duration depends on the selected voice,
+synthesis speed, and pauses; audio is generated on demand.
+
+The remaining **16 short sketches** are in `stubs/` with original IDs and
+metadata, excluded from the audio catalog until researched and expanded.
+History lectures may assume elementary background but never refer to
+"previous" recordings; audio caches, progress and feedback are isolated
+by track.
