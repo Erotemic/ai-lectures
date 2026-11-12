@@ -1,0 +1,593 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "history-sylvester-bio": {
+      "title": "James Joseph Sylvester — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Sylvester/",
+      "access": "free_no_login",
+      "notes": "Person-specific source for James Joseph Sylvester; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-sylvester-primary": {
+      "title": "James Joseph Sylvester — Expository treatment of the modern equation",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://nhigham.com/2020/09/01/what-is-the-sylvester-equation/",
+      "access": "free_no_login",
+      "notes": "Publication, historical account, or relevant expository discussion; check its role before citing a priority claim."
+    },
+    "history-sylvester-topic": {
+      "title": "Sylvester equation",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Sylvester_equation",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the James Joseph Sylvester lecture."
+    },
+    "history-jordan-bio": {
+      "title": "Camille Jordan — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Jordan/",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Camille Jordan; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-jordan-primary": {
+      "title": "Camille Jordan — Research publication",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.24033/bsmf.90",
+      "access": "free_no_login",
+      "notes": "Published mathematical research relevant to this person's contribution; authorship is discussed in the lecture."
+    },
+    "history-jordan-topic": {
+      "title": "Angles between flats",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Angles_between_flats",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Camille Jordan lecture."
+    },
+    "history-rayleigh-bio": {
+      "title": "Lord Rayleigh — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Rayleigh/",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Lord Rayleigh; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-rayleigh-primary": {
+      "title": "Lord Rayleigh — bibliography and The Theory of Sound",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/John_William_Strutt%2C_3rd_Baron_Rayleigh",
+      "access": "free_no_login",
+      "notes": "The publications section identifies the original volumes of The Theory of Sound."
+    },
+    "history-rayleigh-topic": {
+      "title": "Rayleigh quotient",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh_quotient",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Lord Rayleigh lecture."
+    },
+    "history-ritz-bio": {
+      "title": "Walther Ritz — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://hls-dhs-dss.ch/de/articles/032001/2010-11-10/",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Walther Ritz; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-ritz-primary": {
+      "title": "Walther Ritz — Mathematical context and introductory reading",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Ritz_method",
+      "access": "free_no_login",
+      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+    },
+    "history-ritz-topic": {
+      "title": "Rayleigh–Ritz method",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Ritz_method",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Walther Ritz lecture."
+    },
+    "history-weyl-bio": {
+      "title": "Hermann Weyl — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Hermann Weyl; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-weyl-primary": {
+      "title": "Hermann Weyl — Mathematical context and introductory reading",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/Weyl%27s_inequality",
+      "access": "free_no_login",
+      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+    },
+    "history-weyl-topic": {
+      "title": "Weyl’s eigenvalue inequality",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Weyl%27s_inequality",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Hermann Weyl lecture."
+    },
+    "history-courant-bio": {
+      "title": "Richard Courant — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://en.wikipedia.org/wiki/Richard_Courant",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Richard Courant; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-courant-primary": {
+      "title": "Richard Courant — Mathematical context and introductory reading",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/Min-max_theorem",
+      "access": "free_no_login",
+      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+    },
+    "history-courant-topic": {
+      "title": "Min–max theorem",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Min-max_theorem",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Richard Courant lecture."
+    },
+    "history-fischer-bio": {
+      "title": "Ernst Fischer — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fischer/",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Ernst Fischer; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-fischer-primary": {
+      "title": "Ernst Fischer — Mathematical context and introductory reading",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/Courant_minimax_principle",
+      "access": "free_no_login",
+      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+    },
+    "history-fischer-topic": {
+      "title": "Courant–Fischer principle",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Courant_minimax_principle",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Ernst Fischer lecture."
+    },
+    "history-hilbert-bio": {
+      "title": "David Hilbert — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+      "access": "free_no_login",
+      "notes": "Person-specific source for David Hilbert; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-hilbert-primary": {
+      "title": "David Hilbert — Mathematical context and introductory reading",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/Hilbert_space",
+      "access": "free_no_login",
+      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+    },
+    "history-hilbert-topic": {
+      "title": "Hilbert space",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Hilbert_space",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the David Hilbert lecture."
+    },
+    "history-riesz-bio": {
+      "title": "Frigyes Riesz — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Riesz/",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Frigyes Riesz; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-riesz-primary": {
+      "title": "Frigyes Riesz — Mathematical context and introductory reading",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/Riesz_representation_theorem",
+      "access": "free_no_login",
+      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+    },
+    "history-riesz-topic": {
+      "title": "Riesz representation theorem",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Riesz_representation_theorem",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Frigyes Riesz lecture."
+    },
+    "history-vonneumann-bio": {
+      "title": "John von Neumann — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
+      "access": "free_no_login",
+      "notes": "Person-specific source for John von Neumann; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-vonneumann-primary": {
+      "title": "John von Neumann — trace inequality",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/Trace_inequality",
+      "access": "free_no_login",
+      "notes": "See the subsection on von Neumann’s trace inequality and its singular-value formulation."
+    },
+    "history-vonneumann-topic": {
+      "title": "Von Neumann trace inequality",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Von_Neumann_trace_inequality",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the John von Neumann lecture."
+    },
+    "history-schatten-bio": {
+      "title": "Robert Schatten — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://en.wikipedia.org/wiki/Robert_Schatten",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Robert Schatten; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-schatten-primary": {
+      "title": "Robert Schatten — Primary mathematical source",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://press.princeton.edu/books/paperback/9780691083964/a-theory-of-cross-spaces",
+      "access": "free_no_login",
+      "notes": "Publication, historical account, or relevant expository discussion; check its role before citing a priority claim."
+    },
+    "history-schatten-topic": {
+      "title": "Schatten norm",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Schatten_norm",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Robert Schatten lecture."
+    },
+    "history-fan-bio": {
+      "title": "Ky Fan — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://en.wikipedia.org/wiki/Ky_Fan",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Ky Fan; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-fan-primary": {
+      "title": "Ky Fan — Mathematical context and introductory reading",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/Ky_Fan_norm",
+      "access": "free_no_login",
+      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+    },
+    "history-fan-topic": {
+      "title": "Majorization",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Majorization",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Ky Fan lecture."
+    },
+    "history-sznagy-bio": {
+      "title": "Béla Szőkefalvi-Nagy — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://en.wikipedia.org/wiki/B%C3%A9la_Sz%C5%91kefalvi-Nagy",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Béla Szőkefalvi-Nagy; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-sznagy-primary": {
+      "title": "Béla Szőkefalvi-Nagy — Mathematical context and introductory reading",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/Projection_(linear_algebra)",
+      "access": "free_no_login",
+      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+    },
+    "history-sznagy-topic": {
+      "title": "Unitary operator",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Unitary_operator",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Béla Szőkefalvi-Nagy lecture."
+    },
+    "history-halmos-bio": {
+      "title": "Paul Halmos — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Halmos/",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Paul Halmos; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-halmos-primary": {
+      "title": "Paul Halmos — Research publication",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1090/S0002-9947-1969-0251519-5",
+      "access": "free_no_login",
+      "notes": "Published mathematical research relevant to this person's contribution; authorship is discussed in the lecture."
+    },
+    "history-halmos-topic": {
+      "title": "Orthogonal projection",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Projection_(linear_algebra)",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Paul Halmos lecture."
+    },
+    "history-dixmier-bio": {
+      "title": "Jacques Dixmier — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://en.wikipedia.org/wiki/Jacques_Dixmier",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Jacques Dixmier; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-dixmier-primary": {
+      "title": "Jacques Dixmier — Mathematical context and introductory reading",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/Angles_between_flats",
+      "access": "free_no_login",
+      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+    },
+    "history-dixmier-topic": {
+      "title": "Principal angles and subspaces",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Angles_between_flats",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Jacques Dixmier lecture."
+    },
+    "history-kato-bio": {
+      "title": "Tosio Kato — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kato/",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Tosio Kato; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-kato-primary": {
+      "title": "Tosio Kato — Mathematical context and introductory reading",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/Perturbation_theory_(quantum_mechanics)",
+      "access": "free_no_login",
+      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+    },
+    "history-kato-topic": {
+      "title": "Spectral theorem",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Spectral_theorem",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Tosio Kato lecture."
+    },
+    "history-rosenblum-bio": {
+      "title": "Marvin Rosenblum — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://www.ias.edu/scholars/marvin-rosenblum",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Marvin Rosenblum; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-rosenblum-primary": {
+      "title": "Marvin Rosenblum — Research publication",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1215/S0012-7094-56-02324-9",
+      "access": "free_no_login",
+      "notes": "Published mathematical research relevant to this person's contribution; authorship is discussed in the lecture."
+    },
+    "history-rosenblum-topic": {
+      "title": "Sylvester equation",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Sylvester_equation",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Marvin Rosenblum lecture."
+    },
+    "history-davis-bio": {
+      "title": "Chandler Davis — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://www.utoronto.ca/news/chandler-davis-science-and-social-justice-break-some-rules",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Chandler Davis; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-davis-primary": {
+      "title": "Chandler Davis — Research publication",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1137/0707001",
+      "access": "free_no_login",
+      "notes": "Published mathematical research relevant to this person's contribution; authorship is discussed in the lecture."
+    },
+    "history-davis-topic": {
+      "title": "Davis–Kahan theorem",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Davis%E2%80%93Kahan_theorem",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Chandler Davis lecture."
+    },
+    "history-kahan-bio": {
+      "title": "William Kahan — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://amturing.acm.org/pdf/KahanTuringTranscript.pdf",
+      "access": "free_no_login",
+      "notes": "Person-specific source for William Kahan; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-kahan-primary": {
+      "title": "William Kahan — Research publication",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1137/0707001",
+      "access": "free_no_login",
+      "notes": "Published mathematical research relevant to this person's contribution; authorship is discussed in the lecture."
+    },
+    "history-kahan-topic": {
+      "title": "Davis–Kahan theorem",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Davis%E2%80%93Kahan_theorem",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the William Kahan lecture."
+    },
+    "history-wedin-bio": {
+      "title": "Per-Åke Wedin — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://cir.nii.ac.jp/crid/1360298342261921536",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Per-Åke Wedin; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-wedin-primary": {
+      "title": "Per-Åke Wedin — Verified 1972 primary paper and publication metadata",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1007/BF01932678",
+      "access": "free_no_login",
+      "notes": "Published mathematical research relevant to this person's contribution; authorship is discussed in the lecture."
+    },
+    "history-wedin-topic": {
+      "title": "Singular value decomposition",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Singular_value_decomposition",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Per-Åke Wedin lecture."
+    },
+    "history-bjorck-bio": {
+      "title": "Åke Björck — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://cir.nii.ac.jp/crid/1361981468336614144",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Åke Björck; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-bjorck-primary": {
+      "title": "Åke Björck — Research publication",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1090/S0025-5718-1973-0348991-3",
+      "access": "free_no_login",
+      "notes": "Published mathematical research relevant to this person's contribution; authorship is discussed in the lecture."
+    },
+    "history-bjorck-topic": {
+      "title": "Angles between flats",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Angles_between_flats",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Åke Björck lecture."
+    },
+    "history-golub-bio": {
+      "title": "Gene H. Golub — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://en.wikipedia.org/wiki/Gene_H._Golub",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Gene H. Golub; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-golub-primary": {
+      "title": "Gene H. Golub — Research publication",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1090/S0025-5718-1973-0348991-3",
+      "access": "free_no_login",
+      "notes": "Published mathematical research relevant to this person's contribution; authorship is discussed in the lecture."
+    },
+    "history-golub-topic": {
+      "title": "QR decomposition",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/QR_decomposition",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Gene H. Golub lecture."
+    },
+    "history-stewart-bio": {
+      "title": "G. W. Stewart — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://www.umiacs.umd.edu/our-experts/faculty/gw-pete-stewart",
+      "access": "free_no_login",
+      "notes": "Person-specific source for G. W. Stewart; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-stewart-primary": {
+      "title": "Matrix analysis — eigenvalue perturbations",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/Matrix_analysis",
+      "access": "free_no_login",
+      "notes": "See the subsection on perturbations of eigenvalues and the related matrix norms."
+    },
+    "history-stewart-topic": {
+      "title": "Condition number",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Condition_number",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the G. W. Stewart lecture."
+    },
+    "history-pearson-bio": {
+      "title": "Karl Pearson — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://en.wikipedia.org/wiki/Karl_Pearson",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Karl Pearson; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-pearson-primary": {
+      "title": "Karl Pearson — Mathematical context and introductory reading",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "access": "free_no_login",
+      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+    },
+    "history-pearson-topic": {
+      "title": "Principal component analysis",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Karl Pearson lecture."
+    },
+    "history-hotelling-bio": {
+      "title": "Harold Hotelling — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://encyclopediaofmath.org/wiki/Hotelling%2C_Harold",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Harold Hotelling; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-hotelling-primary": {
+      "title": "Harold Hotelling — Mathematical context and introductory reading",
+      "kind": "mathematical_exposition",
+      "url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "access": "free_no_login",
+      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+    },
+    "history-hotelling-topic": {
+      "title": "Canonical correlation",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Canonical_correlation",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Harold Hotelling lecture."
+    },
+    "history-yu-bio": {
+      "title": "Yi Yu — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://research-information.bris.ac.uk/en/publications/a-useful-variant-of-the-davis-kahan-theorem-for-statisticians/",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Yi Yu; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-yu-primary": {
+      "title": "Yi Yu — Primary mathematical source",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10055409/",
+      "access": "free_no_login",
+      "notes": "Publication, historical account, or relevant expository discussion; check its role before citing a priority claim."
+    },
+    "history-yu-topic": {
+      "title": "Davis–Kahan theorem",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Davis%E2%80%93Kahan_theorem",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Yi Yu lecture."
+    },
+    "history-wang-bio": {
+      "title": "Tengyao Wang — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://research-information.bris.ac.uk/en/publications/a-useful-variant-of-the-davis-kahan-theorem-for-statisticians/",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Tengyao Wang; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-wang-primary": {
+      "title": "Tengyao Wang — Primary mathematical source",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10055409/",
+      "access": "free_no_login",
+      "notes": "Publication, historical account, or relevant expository discussion; check its role before citing a priority claim."
+    },
+    "history-wang-topic": {
+      "title": "Singular value decomposition",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Singular_value_decomposition",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Tengyao Wang lecture."
+    },
+    "history-samworth-bio": {
+      "title": "Richard J. Samworth — biographical or contributor record",
+      "kind": "biography_or_author_record",
+      "url": "https://research-information.bris.ac.uk/en/publications/a-useful-variant-of-the-davis-kahan-theorem-for-statisticians/",
+      "access": "free_no_login",
+      "notes": "Person-specific source for Richard J. Samworth; for living contributors some records document authorship rather than personal biography."
+    },
+    "history-samworth-primary": {
+      "title": "Richard J. Samworth — Primary mathematical source",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10055409/",
+      "access": "free_no_login",
+      "notes": "Publication, historical account, or relevant expository discussion; check its role before citing a priority claim."
+    },
+    "history-samworth-topic": {
+      "title": "Principal component analysis",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "access": "free_no_login",
+      "notes": "Background on the mathematical concept explained in the Richard J. Samworth lecture."
+    }
+  }
+}

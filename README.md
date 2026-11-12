@@ -822,9 +822,9 @@ lineage, source snapshot, alignment revision and processing measurements accompa
 the output. Detailed stage timings also enter `renders/logs/`. All generated
 media, references, reports and model caches remain untracked.
 
-### Three course tracks in the lecture library
+### Lecture library: visual, mathematical audio, and history
 
-The server exposes **G1 Manim** at `/`, **G2 comprehensive audio** at `/audio?track=g2` (156 recordings), and **G3 paper audio** at `/audio?track=g3` (27 recordings). The audio reader provides track selection, complete transcripts, lecture-wide progress, selectable voices, and on-demand TTS. The G3 syllabus and first-draft source mappings are under `draft-stages/tts-paper/`; see `docs/audio-library-on-demand.md`.
+The server exposes **G1 Manim** at `/`, **G2 comprehensive audio** at `/audio?track=g2` (156 lectures), **G3 paper audio** at `/audio?track=g3` (27 lectures), and **History · People and ideas** at `/audio?track=history` (28 person-focused recordings). Each audio track has separate cache, listening progress, feedback context, and non-spoken reading references. The reader supports track selection, full transcripts, generated-audio filtering, voices, and on-demand TTS. The G3 syllabus is in `draft-stages/tts-paper/`; the historical biographies and sources are in `draft-stages/tts-history/`. See `docs/audio-library-on-demand.md`.
 
 ### Shared course graph (G1/G2/G3/G4)
 

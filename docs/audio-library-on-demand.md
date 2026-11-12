@@ -146,7 +146,7 @@ In the sidebar, use **Audio availability** to choose **All lectures**, **Has
 generated audio**, or **Fully cached lectures**. “Has generated audio” means
 at least one speech page is ready; “Fully cached” means every current page is
 ready. The search field works together with this filter. Readiness is checked
-for the **selected G2/G3 track, TTS profile, voice, and synthesis speed**, so a
+for the **selected G2, G3, or History track, TTS profile, voice, and synthesis speed**, so a
 recording cached under a different voice or old narration version is not shown
 as ready. The list updates as the cache fills and when the voice or track
 changes. A filter can be selected before the cache check finishes; the sidebar
@@ -197,11 +197,11 @@ uses the two distinct cached MP3s and the live transcript follows seeking.
 
 ## Course tracks
 
-The reader offers three routes. **G1 · Manim** opens the existing presentation/video browser at `/`. **G2 · Comprehensive audio** opens `/audio?track=g2`, with 156 standalone lectures. **G3 · Paper audio** opens `/audio?track=g3`, with 27 paper-focused lectures, including its introduction. G3 starts with a compact spectral-geometry foundation, develops the supporting proofs, presents the four angle theorems together, and ends with the six-recording Section 4 transport sequence through Proposition 4.3, the Proposition 4.4 counterexample, and real transport matching.
+The reader offers four media routes, plus the G4 topic graph. **G1 · Manim** opens the existing presentation/video browser at `/`. **G2 · Comprehensive audio** opens `/audio?track=g2`, with 156 mathematical lectures. **G3 · Paper audio** opens `/audio?track=g3`, with 27 paper-focused lectures, including its introduction. **History · People and ideas** opens `/audio?track=history`, with 28 individually authored biographical recordings about the people who developed the surrounding mathematics. G3 develops spectral geometry, supporting proofs, four angle theorems, and the Section 4 transport results.
 
-Both audio tracks share playback controls, Kokoro/Crall profiles, custom voices, and non-spoken learning references. They have separate transcript directories and audio caches. Switching tracks preserves G2's original identifiers and cached audio. Track selection uses a fixed server-side allowlist rather than arbitrary filesystem paths.
+The G2, G3, and History audio tracks share playback controls, Kokoro/Crall profiles, custom voices, generated-audio filtering, feedback, and non-spoken reading links. Each has a separate transcript directory and audio cache. Switching tracks preserves G2's original identifiers and cached audio. Track selection uses a fixed server-side allowlist rather than arbitrary filesystem paths.
 
-The G3 sequence and its G2 source correspondence are in `draft-stages/tts-paper/track.json`; the course is documented in `draft-stages/tts-paper/README.md`. The first G3 draft reuses 25 edited G2 recordings and adds a newly written paper-track introduction.
+The G3 sequence and its G2 source correspondence are in `draft-stages/tts-paper/track.json`; the course is documented in `draft-stages/tts-paper/README.md`. The history series has its own order and sources in `draft-stages/tts-history/track.json`, `README.md`, and `metadata/`. The history track is separate from the mathematical prerequisite graph: each recording provides the setting needed for its particular historical contribution. The first G3 draft reuses 25 edited G2 recordings and adds a newly written paper-track introduction.
 
 ### Breeze playback completeness and follow-along timing
 
@@ -223,10 +223,11 @@ Page forwarding remains tied to the HTML audio element's actual `ended` event.
 Each audio lecture offers **Plain text / copy all** above the full transcript.
 The link opens a new tab with only the canonical spoken narration and no audio
 controls, speech-page boundaries, Markdown source metadata, or annotations.
-Select all and copy the page into a local TTS reader. Both tracks are supported:
+Select all and copy the page into a local TTS reader. The audio tracks are supported:
 
 - `/api/audio-lectures/000000/transcript.txt?track=g2`
 - `/api/audio-lectures/000000/transcript.txt?track=g3`
+- `/api/audio-lectures/001000/transcript.txt?track=history`
 
 These endpoints do not synthesize audio or use the TTS cache.
 

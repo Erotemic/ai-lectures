@@ -383,7 +383,8 @@ def create_app(directory=ROOT/'renders', *, feedback_directory=None,
             audio_error(exc)
 
     def audio_query(engine, settings, *, key=None):
-        track = 'g2' if engine.sources == speech_library.sources else 'g3'
+        track = next((name for name, directory in speech_library.tracks.items()
+                      if engine.sources == directory), 'g2') if hasattr(speech_library, 'tracks') else 'g2'
         query = dict(profile=engine.profile, voice=settings.voice, speed=settings.speed,
                      track=track)
         # The audio URL must change when a server-side input changes. In

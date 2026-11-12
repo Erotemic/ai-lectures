@@ -24,7 +24,7 @@
 </head>
 <body>
 <header><div><div class="eyebrow">Davis–Kahan · Listen</div><h1>Audio lecture library</h1><p class="subtle" id="trackDescription">Choose a course track · speech generated when requested</p></div><a href="/">Presentations &amp; media</a></header>
-<nav class="course-tracks" aria-label="Course tracks"><a href="/" id="g1Link">G1 · Manim presentations</a><button type="button" id="g2Track" data-track="g2">G2 · Comprehensive audio</button><button type="button" id="g3Track" data-track="g3">G3 · Paper audio</button><a href="/learning-paths?track=g4">G4 · YWS path</a><a href="/learning-paths">Course map</a></nav>
+<nav class="course-tracks" aria-label="Course tracks"><a href="/" id="g1Link">G1 · Manim presentations</a><button type="button" id="g2Track" data-track="g2">G2 · Comprehensive audio</button><button type="button" id="g3Track" data-track="g3">G3 · Paper audio</button><button type="button" id="historyTrack" data-track="history" hidden>History · People &amp; ideas</button><a href="/learning-paths?track=g4">G4 · YWS path</a><a href="/learning-paths">Course map</a></nav>
 <main>
 <aside aria-label="Lecture selection">
 <div class="row space"><strong>Lectures</strong><span id="count" class="subtle"></span></div>
@@ -618,12 +618,12 @@ $('registerVoice').onclick=async()=>{
 $('lectureProgress').oninput=()=>{state.scrubbing=true;const pos=progressModel();if(pos){const pct=Number($('lectureProgress').value)/100;$('lecturePercent').textContent=pct.toFixed(1)+'%';$('lectureRemaining').textContent=`Seek to ${clock(pos.total*pct/100/Math.max(.25,Number($('rate').value)||1))}`}};
 $('lectureProgress').onchange=()=>{const fraction=Number($('lectureProgress').value)/10000;state.scrubbing=false;seekLectureFraction(fraction)};
 async function switchTrack(track){
-  if(track!=='g2'&&track!=='g3')return;
+  if(!['g2','g3','history'].includes(track))return;
   state.track=track;state.inventoryToken++;state.catalogToken++;state.cacheCatalog=new Map();state.cacheCatalogLoaded=false;state.cacheCatalogError=false;state.catalogFetched=0;state.token++;state.cacheJob++;state.doc=null;state.items=[];state.audioId='';state.loadedAudioKey=null;
   audio.pause();audio.removeAttribute('src');audio.load();$('content').hidden=true;$('empty').hidden=true;
   $('loading').hidden=false;$('loading').textContent='Loading '+track.toUpperCase()+' lectures…';
   document.querySelectorAll('[data-track]').forEach(b=>b.setAttribute('aria-current',b.dataset.track===track?'page':'false'));
-  $('trackDescription').textContent=track==='g3'?'27 paper-focused recordings · four angle theorems, counterexample, and matching theorem':'154 comprehensive recordings · complete foundations and theorem development';
+  $('trackDescription').textContent=track==='history'?'Biographical audio essays · the people, publications, and ideas behind spectral theory':track==='g3'?'Paper-focused recordings · four angle theorems, counterexample, and matching theorem':'Comprehensive recordings · foundations and theorem development';
   const queryParams=new URLSearchParams(location.search);const requestedLecture=queryParams.get('track')===track?queryParams.get('lecture'):null;
   try{history.replaceState(null,'','/audio?'+new URLSearchParams({track}));}catch{}
   try{
@@ -638,6 +638,7 @@ async function switchTrack(track){
 }
 $('g2Track').onclick=()=>switchTrack('g2');
 $('g3Track').onclick=()=>switchTrack('g3');
+$('historyTrack').onclick=()=>switchTrack('history');
 $('stopGeneration').onclick=()=>stopJobsForLecture(state.doc?.id);
 $('search').oninput=renderList;
 $('audioAvailability').value=['all','some','complete'].includes(saved('audio-availability','all'))?saved('audio-availability','all'):'all';
@@ -654,7 +655,9 @@ async function init(){
     const requested=new URLSearchParams(location.search).get('track');
     const supportsG3=tracks.tracks.some(x=>x.id==='g3');
     $('g3Track').hidden=!supportsG3;
-    const desired=requested==='g3'&&supportsG3?'g3':'g2';
+    const supportsHistory=tracks.tracks.some(x=>x.id==='history');
+    $('historyTrack').hidden=!supportsHistory;
+    const desired=(requested==='g3'&&supportsG3)||(requested==='history'&&supportsHistory)?requested:'g2';
     const select=$('profile');
     for(const row of profiles.profiles){const option=document.createElement('option');option.value=row.id;option.textContent=row.label;select.append(option)}
     const preferred=saved('profile',profiles.default_profile);

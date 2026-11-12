@@ -320,10 +320,10 @@ and `animation_cues`. The retimed visual's sidecar includes the measured schedul
 and alignment key. Keep cue phrases unique within their build and source offsets
 strictly increasing. Re-render changed scene clips before changing these offsets.
 
-### Feedback on on-demand audio lectures (G2 and G3)
+### Feedback on on-demand audio lectures (G2, G3, and History)
 
 The audio player at `/audio` now has the same **Lecture feedback** form as the
-visual lecture player. Open G2 or G3, select a speech page, and type a note.
+visual lecture player. Open G2, G3, or History, select a speech page, and type a note.
 The first keystroke captures the track, lecture, page, voice, TTS profile,
 speech-generation speed, and playback position when a generated page is loaded.
 A page can receive feedback before its audio has been generated; in that case

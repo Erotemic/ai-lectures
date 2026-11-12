@@ -30,6 +30,7 @@ from dkvis.presentation.audio_preparation import PreparationManager
 
 SOURCE_DIRECTORY = ROOT / 'draft-stages' / 'tts-lectures'
 PAPER_DIRECTORY = ROOT / 'draft-stages' / 'tts-paper'
+HISTORY_DIRECTORY = ROOT / 'draft-stages' / 'tts-history'
 EXTRACTOR = SOURCE_DIRECTORY / 'extract_narration.py'
 AUDIO_PAGE = Path(__file__).with_name('audio_library.html')
 LECTURE_NAME = re.compile(r'^(\d{6})-.*\.md$')
@@ -258,15 +259,15 @@ class AudioLectureLibrary:
             return []
         files = sorted(p for p in self.sources.iterdir()
                        if p.is_file() and LECTURE_NAME.fullmatch(p.name))
-        if self.sources != PAPER_DIRECTORY.resolve():
+        if self.sources not in {PAPER_DIRECTORY.resolve(), HISTORY_DIRECTORY.resolve()}:
             return files
-        # G3 has a deliberately curated listening order independent of its
-        # permanent numeric IDs. Use exactly the course-graph source order.
+        # Curated audio tracks use their own manifest order, independently of
+        # their six-digit source identifiers.
         plan = json.loads((self.sources / 'track.json').read_text(encoding='utf-8'))
         paths = {path.name: path for path in files}
         names = [row['file'] for row in plan['lectures']]
         if len(names) != len(set(names)) or set(names) != set(paths):
-            raise ValueError('G3 listening path and transcript inventory differ')
+            raise ValueError(f'{self.sources.name} listening path and transcript inventory differ')
         return [paths[name] for name in names]
 
     def _lecture_path(self, lecture_id):
@@ -950,6 +951,8 @@ class AudioLectureHub:
         self.tracks = {'g2': self.sources}
         if self.sources == SOURCE_DIRECTORY.resolve() and PAPER_DIRECTORY.is_dir():
             self.tracks['g3'] = PAPER_DIRECTORY.resolve()
+        if self.sources == SOURCE_DIRECTORY.resolve() and HISTORY_DIRECTORY.is_dir():
+            self.tracks['history'] = HISTORY_DIRECTORY.resolve()
         self._engines = {}
         self._lock = threading.RLock()
         self._voice_registry = self.cache / 'registered-voices.json'
@@ -972,7 +975,7 @@ class AudioLectureHub:
         with self._lock:
             key = (profile, track)
             if key not in self._engines:
-                # G2 preserves preexisting cache locations; G3 remains isolated.
+                # G2 preserves its cache locations; other tracks are isolated.
                 cache = self.cache if track == 'g2' else self.cache / track
                 self._engines[key] = AudioLectureLibrary(
                     sources=self.tracks[track], cache=cache, profile=profile,
@@ -1009,6 +1012,11 @@ class AudioLectureHub:
                     count=len(self.engine(self.profile, 'g3')._files()),
                     summary='Shorter path to four angle theorems, counterexample, and matching theorem')]
               if 'g3' in self.tracks else []),
+            *([dict(id='history', label='History · People and ideas', kind='audio',
+                    url='/audio?track=history',
+                    count=len(self.engine(self.profile, 'history')._files()),
+                    summary='Biographical stories behind spectral geometry and perturbation theory')]
+              if 'history' in self.tracks else []),
         ]
 
     def _read_registry(self):
