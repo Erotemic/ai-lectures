@@ -78,6 +78,10 @@ These lectures share a browsing section but do not depend on listening order:
 - **043000 · Berenike and the Monsoon** — Red Sea excavation teams, Cappers's pepper cache, Tomber's pottery analysis, the *Periplus*, and competing evidence for Roman-period Indian Ocean connections.
 - **044000 · The Belitung Shipwreck** — Tang-period ceramic production, Flecker's sewn-plank hull, the dated 826 bowl, commercial recovery, and Pearson's analysis of its heritage afterlife.
 
+- **045000 · The Swahili Coast** — Shanga, Kilwa, Songo Mnara, revised dating, local pottery, the house-foundation coin deposit, and the distinct evidence of archaeology, genealogy, and ancient DNA.
+- **046000 · The Lost Harbor** — Portus and Ostia sediment cores, geophysical survey, dredging, and underwater archaeology and photogrammetry at Caesarea.
+- **047000 · Saving a Shipwreck** — the Mary Rose and Vasa, treatment of waterlogged timbers, iron and sulfur chemistry, documenting artifacts, and ongoing conservation.
+
 These lectures include named original contributors in the spoken narrative when
 supported by the source record. Each also has non-spoken attribution and
 research notes; the metadata link cards point to original methods, field
