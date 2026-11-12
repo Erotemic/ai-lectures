@@ -48,6 +48,13 @@ These lectures share a browsing section but do not depend on listening order:
 - **021000 · Popol Wuj, Part II: The Road Through Xibalba** — the Hero Twins’ underworld contests, humanity of maize, and K’iche’ ancestral histories.
 - **022000 · The Shipwrecked Sailor: An Island, a Serpent, and an Unwelcome Return** — Egyptian maritime imagination, nested narratives, and the skeptical ending.
 
+- **023000 · The Mahabharata, Part I: A Kingdom Lost at Dice** — Kuru genealogy, Karna, Draupadi, the failed assembly, and exile.
+- **024000 · The Mahabharata, Part II: Exile, the Last Embassy, and the Gita** — forest stories, disguise, negotiations, and Arjuna’s philosophical crisis.
+- **025000 · The Mahabharata, Part III: The Eighteen Days and the Broken Rules** — the battle, famous deaths, violations of combat rules, and revenge.
+- **026000 · The Mahabharata, Part IV: The Kingdom After the War** — grief, Bhishma’s teaching, governance, the Yadava collapse, and the final journey.
+- **027000 · The Baal Cycle: The Storm, the Sea, and the House of Death** — Ugaritic poetry, divine kingship, and the fragmentary Sea, palace, and Death narratives.
+- **028000 · The Book of Job: The Argument with the Whirlwind** — innocent suffering, the friends’ debate, divine speeches, and the contested ending.
+
 The [ancient-literature roadmap](ANCIENT_LITERATURE_ROADMAP.md) describes further candidates and the editorial approach. These are full narrative essays with contextual analysis rather than annotated readings or verbatim reproductions of modern translations.
 
 The source Markdown files contain a spoken lecture between explicit markers.

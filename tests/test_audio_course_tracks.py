@@ -191,7 +191,7 @@ def test_world_history_manifest_and_spoken_lectures():
     plan = json.loads((WORLD_HISTORY_DIRECTORY / 'track.json').read_text())
     rows = plan['lectures']
     assert plan['id'] == 'world-history'
-    assert [row['id'] for row in rows] == ['001000', '002000', '003000', '004000', '005000', '006000', '007000', '008000', '009000', '010000', '011000', '012000', '013000', '014000', '015000', '016000', '017000', '018000', '019000', '020000', '021000', '022000']
+    assert [row['id'] for row in rows] == ['001000', '002000', '003000', '004000', '005000', '006000', '007000', '008000', '009000', '010000', '011000', '012000', '013000', '014000', '015000', '016000', '017000', '018000', '019000', '020000', '021000', '022000', '023000', '024000', '025000', '026000', '027000', '028000']
     assert len({row['id'] for row in rows}) == len(rows)
     assert {row['file'] for row in rows} == {
         path.name for path in WORLD_HISTORY_DIRECTORY.glob('[0-9]' * 6 + '-*.md')
@@ -224,10 +224,10 @@ def test_world_history_reader_api_and_isolated_audio(tmp_path):
     with TestClient(create_app(renders, audio_library=hub)) as client:
         tracks = client.get('/api/audio-tracks').json()['tracks']
         world = next(row for row in tracks if row['id'] == 'world-history')
-        assert world['count'] == 22
+        assert world['count'] == 28
         assert world['url'] == '/audio?track=world-history'
         catalog = client.get('/api/audio-lectures?track=world-history').json()['items']
-        assert [row['id'] for row in catalog] == ['001000', '002000', '003000', '004000', '005000', '006000', '007000', '008000', '009000', '010000', '011000', '012000', '013000', '014000', '015000', '016000', '017000', '018000', '019000', '020000', '021000', '022000']
+        assert [row['id'] for row in catalog] == ['001000', '002000', '003000', '004000', '005000', '006000', '007000', '008000', '009000', '010000', '011000', '012000', '013000', '014000', '015000', '016000', '017000', '018000', '019000', '020000', '021000', '022000', '023000', '024000', '025000', '026000', '027000', '028000']
         for item in catalog:
             detail = client.get(f"/api/audio-lectures/{item['id']}?track=world-history").json()
             assert detail['page_count'] > 20

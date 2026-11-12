@@ -25,6 +25,13 @@ scholars can infer from their historical setting.
 | 021000 | Popol Wuj, Part II | Xibalba, Hero Twins, maize people, and K’iche’ ancestral lineages |
 | 022000 | Shipwrecked Sailor | Single Egyptian tale, nested framing and ambiguous final answer |
 
+| 023000 | Mahabharata, Part I | Kuru kinship, Karna, Draupadi, and the dice assembly (*Adi* and *Sabha*) |
+| 024000 | Mahabharata, Part II | Forest stories, final embassy, and the Bhagavad Gita (*Vana* through early *Bhishma*) |
+| 025000 | Mahabharata, Part III | Eighteen-day war, its broken rules, and the night raid (*Bhishma* through *Sauptika*) |
+| 026000 | Mahabharata, Part IV | Lamentation, instruction, rulership, and the final journey (*Stri* through *Svargarohana*) |
+| 027000 | Baal Cycle | Ugaritic KTU 1.1–1.6: Yam, the palace, and Mot; substantial tablet lacunae |
+| 028000 | Book of Job | Prose frame, poetic dialogues, Elihu, whirlwind speeches, and epilogue |
+
 The order above is a browsing suggestion, not a required prerequisite chain.
 Every narration supplies its own context. Companion resources and source
 transmission notes remain outside spoken regions.
@@ -35,16 +42,11 @@ transmission notes remain outside spoken regions.
 - The *Iliad* and *Odyssey* are covered through all 24 books of each work in five independently listenable lectures. Further Homeric topics could examine the ancient epic cycle, contrasting receptions, and the archaeological setting without claiming the poems are documentary history.
 
 **Other ancient literary worlds**
-- *The Baal Cycle*: Ugaritic divine kingship and sea/death conflict, with
-  attention to substantial gaps in the tablets.
-- *Mahabharata*: dynastic conflict, the dice game, ethical dilemmas, war,
-  and aftermath; divide into coherent listening units.
+- *Mahabharata*, *Baal Cycle*, and the *Book of Job* are now covered in lectures 023000–028000. Further close readings can expand scenes or source variants where the surviving literature supports it.
 - *Classic of Poetry* (Shijing): selected poems in the social worlds in
   which they were gathered and interpreted; do not pretend one long plot.
 - *Zhuangzi*: linked narrative arguments and thought experiments, with
   careful distinctions among chapters and transmission histories.
-- The Hebrew *Book of Job*: suffering, justice, the friends' arguments,
-  and literary form.
 
 **Later traditions to incorporate when the ancient strand grows:**
 Sundiata, the *Shahnameh*, and Norse poetry. They are not all ancient works
