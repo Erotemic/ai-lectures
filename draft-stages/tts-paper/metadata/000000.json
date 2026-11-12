@@ -42,7 +42,7 @@
     },
     {
       "id": "000000-h02",
-      "anchor": "Then, in Proposition 4.4, they claim that for real spaces with all angles at most sixty degrees, it also minimizes the unsquared motion in every such norm.",
+      "anchor": "Then, in Proposition 4.4, they claim that for real spaces with all principal angles at most sixty degrees, it also minimizes the unsquared displacement of all vectors in every such norm.",
       "kind": "source_scope",
       "source_ids": [
         "davis-kahan-1970"
@@ -52,7 +52,7 @@
     },
     {
       "id": "000000-h03",
-      "anchor": "The construction is a real form of a complex example Davis and Kahan themselves gave.",
+      "anchor": "This construction is a real form of a complex example that Davis and Kahan themselves gave.",
       "kind": "source_attribution",
       "source_ids": [
         "davis-kahan-1970"
@@ -62,12 +62,32 @@
     },
     {
       "id": "000000-h04",
-      "anchor": "The journal paper also checks every other selected result of the 1970 paper, twenty-eight in all, under their stated hypotheses",
+      "anchor": "It proves twenty-eight of them under their stated hypotheses",
       "kind": "source_scope",
       "source_ids": [
         "davis-kahan-1970"
       ],
-      "source_locator": "Journal paper, abstract and Section 3",
+      "source_locator": "Journal paper, introduction (Contributions) and Appendix inventory",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000000-h05",
+      "anchor": "The 1970 paper remarks that the constants in all four of its main theorems are best possible for exactly this reason: two-dimensional examples attain them.",
+      "kind": "source_scope",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Section 2, remark after the four headline theorems",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000000-h06",
+      "anchor": "The journal paper shows in two dimensions why nothing like this holds for eigenvectors.",
+      "kind": "source_scope",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Journal paper, Section 2, equation (history-swap-example); the 1970 paper is the subject, the journal paper the locator",
       "audit_status": "pending_primary_passage_comparison"
     }
   ]
