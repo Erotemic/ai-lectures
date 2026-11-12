@@ -1,7 +1,7 @@
 {
   "id": "world-history",
   "title": "World History",
-  "summary": "Standalone long-form audio essays on people, events, texts, and historical processes. Current subjects include Gilgamesh, Mary Leakey, Uruk, Mansa Musa, Hatshepsut, Fu Hao, and the Austronesian expansion.",
+  "summary": "Standalone long-form audio essays on people, events, texts, and historical processes, including a six-part ancient-literature sequence spanning Sumer, Egypt, Babylon, and Homeric Greece.",
   "assumed_background": [
     "general curiosity about world history; each lecture provides its own context"
   ],
@@ -12,7 +12,8 @@
     "medieval-west-africa",
     "new-kingdom-egypt",
     "shang-china",
-    "austronesian-expansion"
+    "austronesian-expansion",
+    "ancient-literature"
   ],
   "lectures": [
     {
@@ -77,6 +78,60 @@
       "spoken_words": 6108,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 42.1
+    },
+    {
+      "id": "008000",
+      "title": "Gilgamesh Beyond the Epic: The Other Stories of Uruk's King",
+      "section": "ancient-literature",
+      "file": "008000-gilgamesh-other-stories.md",
+      "spoken_words": 5040,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 34.8
+    },
+    {
+      "id": "009000",
+      "title": "Inanna's Descent: Seven Gates to the Land of No Return",
+      "section": "ancient-literature",
+      "file": "009000-inannas-descent.md",
+      "spoken_words": 5045,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 34.8
+    },
+    {
+      "id": "010000",
+      "title": "The Story of Sinuhe: Exile, Honor, and Homecoming in Ancient Egypt",
+      "section": "ancient-literature",
+      "file": "010000-story-of-sinuhe.md",
+      "spoken_words": 5183,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 35.7
+    },
+    {
+      "id": "011000",
+      "title": "Atrahasis: The Flood Before Noah",
+      "section": "ancient-literature",
+      "file": "011000-atrahasis-flood.md",
+      "spoken_words": 5053,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 34.8
+    },
+    {
+      "id": "012000",
+      "title": "Enuma Elish: How Babylon's God Won the World",
+      "section": "ancient-literature",
+      "file": "012000-enuma-elish-creation.md",
+      "spoken_words": 4938,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 34.1
+    },
+    {
+      "id": "013000",
+      "title": "The Iliad, Part I: The Anger of Achilles",
+      "section": "ancient-literature",
+      "file": "013000-iliad-wrath-of-achilles.md",
+      "spoken_words": 5382,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 37.1
     }
   ],
   "editorial_policy": "Publish substantive, source-grounded lectures that are self-contained and useful in any listening order. The manifest order is a browsing default, not a prerequisite sequence."

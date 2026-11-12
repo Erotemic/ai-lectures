@@ -27,6 +27,19 @@ The substantive, standalone lectures are:
   Taiwan and Island Southeast Asia, Near Oceania and Lapita, navigation,
   Micronesia, Polynesian settlement, Madagascar, and long-distance contact.
 
+## Ancient-literature sequence (new)
+
+The following six lectures share a browsing section but do not depend on listening order:
+
+- **008000 · Gilgamesh Beyond the Epic: The Other Stories of Uruk's King** — Sumerian *Gilgamesh and Aga*, *Huwawa*, *Netherworld*, and *Death of Gilgamesh*.
+- **009000 · Inanna's Descent: Seven Gates to the Land of No Return** — the Sumerian poem, Ninshubur's rescue, Dumuzi's fate, and the Akkadian variant.
+- **010000 · The Story of Sinuhe: Exile, Honor, and Homecoming in Ancient Egypt** — a Twelfth Dynasty literary journey through foreign success and Egyptian return.
+- **011000 · Atrahasis: The Flood Before Noah** — divine labor, human creation, successive disasters, flood, and comparison with Gilgamesh and Genesis.
+- **012000 · Enuma Elish: How Babylon's God Won the World** — Marduk's rise, Tiamat, cosmic organization, creation of humans, and Babylonian divine kingship.
+- **013000 · The Iliad, Part I: The Anger of Achilles** — Homeric Books 1–9, the withdrawal, Hector's household, and the failed embassy.
+
+The [ancient-literature roadmap](ANCIENT_LITERATURE_ROADMAP.md) describes further candidates and the editorial approach. These are full narrative essays with contextual analysis rather than annotated readings or verbatim reproductions of modern translations.
+
 The source Markdown files contain a spoken lecture between explicit markers.
 Historical notes and references after the spoken region are for reading and
 editorial review; they are not synthesized. Non-spoken reading links for the
