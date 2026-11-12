@@ -1,7 +1,7 @@
 {
   "id": "world-history",
   "title": "World History",
-  "summary": "Standalone long-form audio essays on people, events, texts, and historical processes. Current subjects include Gilgamesh, Mary Leakey, Uruk, Mansa Musa, and Hatshepsut.",
+  "summary": "Standalone long-form audio essays on people, events, texts, and historical processes. Current subjects include Gilgamesh, Mary Leakey, Uruk, Mansa Musa, Hatshepsut, and Fu Hao.",
   "assumed_background": [
     "general curiosity about world history; each lecture provides its own context"
   ],
@@ -10,7 +10,8 @@
     "human-origins",
     "early-cities",
     "medieval-west-africa",
-    "new-kingdom-egypt"
+    "new-kingdom-egypt",
+    "shang-china"
   ],
   "lectures": [
     {
@@ -57,6 +58,15 @@
       "spoken_words": 5689,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 39.2
+    },
+    {
+      "id": "006000",
+      "title": "Fu Hao: The General, the Oracle Bones, and the Shang World",
+      "section": "shang-china",
+      "file": "006000-fu-hao-and-the-shang-world.md",
+      "spoken_words": 5925,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 40.9
     }
   ],
   "editorial_policy": "Publish substantive, source-grounded lectures that are self-contained and useful in any listening order. The manifest order is a browsing default, not a prerequisite sequence."

@@ -20,6 +20,9 @@ The substantive, standalone lectures are:
 - **005000 · Hatshepsut: The Woman Who Became King of Egypt** —
   Eighteenth Dynasty kingship, the co-regency with Thutmose III, royal imagery,
   Deir el-Bahri, Karnak, the expedition to Punt, and later monument erasure.
+- **006000 · Fu Hao: The General, the Oracle Bones, and the Shang World** —
+  Shang kingship, divination and early writing, military leadership, bronze
+  craftsmanship, ancestral ritual, sacrifice, and the excavated tomb at Anyang.
 
 The source Markdown files contain a spoken lecture between explicit markers.
 Historical notes and references after the spoken region are for reading and
