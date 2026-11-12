@@ -4,83 +4,93 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Turning operators into vectors
+# The matrix equation becomes an equation on a Hilbert space
 
-Let A and B be diagonal self-adjoint matrices, and consider the equation A X minus X B equals C. If the spectra of A and B stay at least delta apart, every entry of X is the corresponding entry of C divided by a number of magnitude at least delta.
+Take a column map C with entries two and four. Let A on the output plane have eigenvalues negative two and positive two, while B on the input line is zero. To solve A X minus X B equals C, divide the two coordinates by their spectral differences. The answer X is the column negative one, two.
 
-Squaring those entrywise inequalities and summing gives delta times the Hilbert–Schmidt norm of X at most the Hilbert–Schmidt norm of C. There is no need for all the denominator differences to have the same sign; pairwise separation suffices.
+The length of C is twice the square root of five. The length of X is the square root of five. Their ratio reflects the spectral gap of two. In this column example there is only one input direction, so the ordinary operator norm and the Hilbert-Schmidt norm happen to agree.
 
-The reason this works is structural. The matrix units between the eigenbases of A and B form an orthonormal basis of the Hilbert space of Hilbert–Schmidt operators. The Sylvester map acts diagonally on those matrix units. In that Hilbert-space norm, the scalar denominator calculation is a full operator proof.
+With more columns, the Hilbert-Schmidt norm has a special advantage. It treats the entries of a matrix as orthogonal coordinates of a new vector. Once we make that change of viewpoint, the Sylvester equation becomes an ordinary self-adjoint operator equation on a Hilbert space of maps.
 
-We will extend the argument to spectral blocks, explain how Hilbert–Schmidt convergence works in infinite-dimensional spaces, and distinguish this theorem from operator-norm estimates that require stronger separation or different constants.
+## Treat rectangular maps as vectors
 
-## A Hilbert space whose vectors are matrices
+Consider a two-by-three complex matrix. It is a map from three-dimensional input space to two-dimensional output space. But it can also be seen as a vector with six complex coordinates.
 
-Consider a two-by-three complex matrix Z. Its Hilbert–Schmidt norm is the square root of the sum of the squared absolute values of its six entries. Now introduce an inner product on matrices: multiply the conjugate of each entry of Z by the matching entry of W, and sum. Its induced norm is exactly the Frobenius norm.
+Its Hilbert-Schmidt norm is the square root of the sum of the squared magnitudes of those six entries. We can define an inner product of two matrices by summing the conjugate of each entry of the first times the corresponding entry of the second.
 
-A matrix can therefore be a point in a six-dimensional complex inner-product space. The original matrices act on vectors in two different spaces, but we can study all rectangular maps together as a third space.
+Why is this useful? Imagine separating a matrix into blocks by orthogonal output and input projections. Blocks belonging to different pairs of projections are perpendicular in this matrix Hilbert space. The total squared norm is exactly the sum of their squared norms.
 
-This matters because orthogonality is now available between distinct matrix blocks. If a matrix is split into four submatrices by orthogonal row and column projections, the square of its Frobenius norm is the sum of the four block energies. The operator norm does not have this property. Two blocks can interfere when they act on the same input directions.
+For the two-by-two matrix with entries one, two, three, four, that total squared norm is one plus four plus nine plus sixteen, or thirty. Rearranging it into individual entry blocks does not change the sum. Operator norm, which asks for the single most stretched input direction, has no such additivity rule.
 
-To see it numerically, take Z with entries one, two, three, and four in a two-by-two array. Its squared Hilbert–Schmidt norm is one plus four plus nine plus sixteen, namely thirty. Cutting it into its four individual entries leaves the same total energy of thirty. There is no corresponding sum-of-squares identity for the largest singular value.
+## The Sylvester map is self-adjoint here
 
-## The Sylvester operator becomes one linear map
+Let A be bounded and self-adjoint on the output Hilbert space and B bounded and self-adjoint on the input Hilbert space. Define a new operator on Hilbert-Schmidt maps: send Z to A Z minus Z B. Call it the Sylvester map S.
 
-Let A be a self-adjoint operator on the output space and B a self-adjoint operator on the input space. Define S of Z to be A times Z minus Z times B.
+We can move A from one argument of the Hilbert-Schmidt inner product to the other, because A equals its adjoint. We can do the same for B. The minus sign stays attached to the right multiplication. Therefore S is self-adjoint on this Hilbert space of maps.
 
-For now, assume the spaces are finite-dimensional. The Hilbert–Schmidt inner product shows that S is itself self-adjoint. To check this, move A across the inner product using its adjoint, which equals A. Do the same for B. The two minus signs match. Consequently, the inner product of S of Z with W equals the inner product of Z with S of W.
+This is a change in the level at which we apply spectral theory. A and B act on ordinary vectors in different spaces. S acts on entire cross-space operators, and its spectral values describe differences between the spectral values of A and B.
 
-Choose orthonormal eigenvectors for A and B. From one left eigenvector u and one right eigenvector v, construct the rank-one map taking an input x to u times the inner product of v with x. These rank-one maps form an orthonormal basis of the matrix Hilbert space.
+## One rank-one map at a time
 
-If A sends u to a times u and B sends v to b times v, the Sylvester operator sends this rank-one map to a minus b times itself. Thus the spectrum of the Sylvester operator consists of all left-right eigenvalue differences. We have built the familiar entrywise denominators into the spectrum of a single self-adjoint operator.
+In finite dimensions choose an orthonormal eigenbasis for A and another for B. Pick one output eigenvector u, with eigenvalue a, and one input eigenvector v, with eigenvalue b.
 
-## The square-norm inequality
+Build a rank-one map that measures how much an input points along v, and produces that multiple of u. Apply the Sylvester map to this rank-one operator. Left multiplication by A gives a copies of the map. Right multiplication by B gives b copies. Their difference is a minus b copies.
 
-Suppose every such difference has absolute value at least delta, with delta positive. Expand Z in our rank-one basis. Applying S multiplies every coefficient by a number of absolute value at least delta.
+So the rank-one map is an eigenvector of S, with eigenvalue a minus b. All pairs of eigenvectors give an orthonormal basis for the Hilbert space of matrices.
 
-Square its Hilbert–Schmidt norm. Each squared coefficient is multiplied by at least delta squared. Add the inequalities. Taking a square root proves that the Hilbert–Schmidt norm of S of Z is at least delta times the Hilbert–Schmidt norm of Z.
+In the running column example, there are two such rank-one maps and their Sylvester eigenvalues are negative two and positive two. A spectral gap around zero for S is exactly the assertion that neither cross difference is too small.
 
-If S of X equals C, this is precisely delta times the Hilbert–Schmidt norm of X at most that of C. There is no factor counting how many entries the matrices have, and no need to put the spectra in any particular order.
+## Prove the square-norm gap estimate
 
-Take A diagonal with entries negative two and three, and B diagonal with entries negative one and two. All four differences have absolute value one or greater. So delta equals one. Whatever matrix C we choose, the unique solution X has Hilbert–Schmidt norm no greater than that of C. In contrast, the operator-norm argument cannot simply square the individual entries and add.
+Suppose every cross-spectral difference has absolute value at least delta, where delta is positive. Expand any matrix Z in the rank-one eigenbasis. The Sylvester map multiplies each coefficient by its own difference a minus b.
 
-## The time-dependent group
+Square the Hilbert-Schmidt norm after applying S. Each coefficient contributes its original squared magnitude times the square of that difference. Every multiplier is at least delta squared. Add over all coefficients, and take a square root.
 
-There is a second perspective that survives without an eigenvector basis. Exponentiate the self-adjoint operators with imaginary time. For each real time t, define a transformation of Z by multiplying on the left by the exponential of i times t times A, and on the right by the exponential of negative i times t times B.
+The result says: the Hilbert-Schmidt norm of S Z is at least delta times the Hilbert-Schmidt norm of Z. If S X equals C, this becomes delta times the Hilbert-Schmidt norm of X at most the Hilbert-Schmidt norm of C.
 
-Both exponential factors are unitary. Consequently, this transformation preserves the Hilbert–Schmidt inner product. The family of transformations is a one-parameter unitary group: time zero acts as the identity, and composing two times adds them.
+Notice why the constant is one. We used a spectral lower bound on each orthogonal coordinate and then added squares. We never inserted a comparison between different matrix norms.
 
-Differentiate the trajectory at time zero. Its derivative is i times A Z minus Z B. In other words, the self-adjoint Sylvester map S is the generator after removing the factor i. We now have a way to study the Sylvester equation through spectral theory of one unitary group acting on a Hilbert space of operators.
+For our column, delta is two, and the estimate is an equality. In a full matrix with interlaced spectra, it remains valid even when the same constant-one statement in operator norm fails. The proof has not changed; the definition of the norm is doing essential work.
 
-For bounded A and B, differentiation holds in the Hilbert–Schmidt norm. For unbounded self-adjoint generators it becomes a statement on an appropriate domain. That domain is part of the theorem, not a detail to ignore.
+## A unitary group on the space of maps
 
-## What changes in infinite dimensions
+There is a dynamical way to view the same self-adjoint Sylvester map. Evolve a map Z by multiplying it on the left with the exponential of i times t A, and on the right with the exponential of negative i times t B.
 
-Let the original input and output spaces have countably infinite orthonormal bases. A bounded map Z need not be Hilbert–Schmidt: the identity on an infinite-dimensional space has infinitely many columns of length one, so the sum of squared column lengths diverges.
+Because both factors are unitary, this evolution preserves the Hilbert-Schmidt inner product. Applying time s and then time t is the same as evolving for s plus t. We have a unitary group acting on a space whose vectors happen to be operators.
 
-The Hilbert–Schmidt maps form their own complete Hilbert space. We may measure a map by summing squared column lengths in any orthonormal basis; the answer is independent of the basis.
+For bounded A and B, differentiating at zero gives i times A Z minus Z B, or i times S Z. So S is the self-adjoint generator after removing i. Its spectral gap is the cross-spectral gap between A and B.
 
-Left and right multiplication by bounded operators preserve this class. In particular, unitary multiplication preserves its norm. So the same Sylvester group acts by unitaries on the Hilbert space of Hilbert–Schmidt maps.
+This viewpoint replaces entrywise manipulation with spectral theory for a single operator. It also explains the appearance of the same left-right evolution in Fourier representations of Sylvester inverses.
 
-For self-adjoint A and B with pairwise spectral separation, the associated Sylvester generator has no spectral values near zero. A spectral gap for that generator gives the same lower bound as in the finite matrix calculation. Applied to a Hilbert–Schmidt right-hand side, the inverse produces a Hilbert–Schmidt solution with constant one.
+## Extend from matrices to infinite dimensions
 
-There is a further conclusion beyond the scalar inequality. Suppose X is already known as a bounded solution, but we know only that C has finite Hilbert–Schmidt energy. The theorem establishes that X is Hilbert–Schmidt as well, then proves the bound. Membership of the solution in the smaller operator ideal is itself a conclusion.
+An infinite-dimensional bounded operator need not be Hilbert-Schmidt. The identity map on a countably infinite-dimensional Hilbert space sends every basis vector to a vector of length one, so the sum of squared output lengths diverges.
 
-## Recovering the gap without eigenvectors
+Hilbert-Schmidt operators form a complete Hilbert space in their own norm. Left or right multiplication by a bounded operator preserves this class, and unitary multiplications preserve its inner product.
 
-How can we prove the gap if neither A nor B has an eigenbasis? Replace individual eigenspaces by narrow spectral bands. Divide the spectra into small measurable pieces, and cut an operator on the left and right with the corresponding spectral projections.
+For bounded self-adjoint A and B, we can define the same self-adjoint Sylvester map on that Hilbert-Schmidt space. We cannot expect ordinary eigenvectors of A and B to span everything when their spectra have continuous parts. Instead, use their spectral projections onto narrow bands.
 
-On one block, A is close to multiplication by a chosen scalar a, and B is close to multiplication by a chosen scalar b. Hence the Sylvester operator is close to multiplication by a minus b. If all possible spectral differences have magnitude at least delta, the scalar part is large compared with sufficiently narrow correction terms.
+A block of an operator connecting one output band to one input band is almost multiplied by the difference of the two band centers. The approximation error is controlled by the band widths. Blocks for different pairs of spectral bands are orthogonal in Hilbert-Schmidt norm.
 
-Each block has its own Hilbert–Schmidt energy. Orthogonality of spectral projections makes the total squared energy the sum of those block energies. Let the band widths tend to zero. The lower bound for the full Sylvester generator emerges from all the blockwise lower bounds together.
+As the bands narrow, the approximate scalar differences give the same lower bound. One may express this more directly with the spectral measure of S: the entire spectrum of S stays at least delta away from zero when the two original spectra are separated by delta.
 
-This is the step at which the Hilbert-space structure of operators becomes essential. We can reassemble squared norms because distinct spectral blocks are orthogonal. The proof also explains why an operator-norm claim cannot be imported unchanged: operator norm has no comparable orthogonal energy sum.
+The gap then makes S invertible on the Hilbert-Schmidt space, with inverse norm at most one over delta.
 
-## Turning Sylvester estimates into angle estimates
+## When the known solution was only bounded
 
-A subspace perturbation theorem does not initially present us with an arbitrary Sylvester equation. Instead, it presents us with spectral projections for two operators. We must discover which cross-projection block is the unknown X, what the two compressed generators are, and why the perturbation appears as the right-hand side.
+There is a further issue worth distinguishing from the inequality. Suppose C is Hilbert-Schmidt but someone has handed us a merely bounded solution X of the Sylvester equation. Are we allowed to apply a Hilbert-Schmidt estimate to X before knowing that X is Hilbert-Schmidt?
 
-This estimate converts a residual bound into a bound on the angle between spectral subspaces.
+No. First construct a Hilbert-Schmidt solution Y using the inverse of S on the Hilbert-Schmidt space. This Y also solves the equation as a bounded cross-operator. For bounded operators A and B with disjoint spectra, the bounded Sylvester solution is unique. Hence X equals Y, and X is Hilbert-Schmidt after all. Only then apply the square-norm estimate.
+
+This order prevents a common circular argument: assuming ideal membership in order to prove ideal membership.
+
+For unbounded self-adjoint A or B, the unitary groups remain strongly continuous, but their generator lives on a specified domain. One must prove domain compatibility of the Sylvester expression and use the appropriate closed generator; a formula using A Z and Z B cannot automatically be applied to every Hilbert-Schmidt Z.
+
+## What the estimate gives a subspace problem
+
+If a projected subspace error X satisfies a Sylvester equation, its residual C is the known quantity. The spectral gap for the two compressed coefficients controls the Hilbert-Schmidt size of X without a dimension factor.
+
+The geometric interpretation of X then converts that estimate into an angle bound. But the intermediate step is still a theorem about the space of Hilbert-Schmidt maps. It is the square-sum structure, rather than a generic appeal to spectral distance, that provides the constant-one estimate under arbitrary pairwise separation.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -99,6 +109,25 @@ For self-adjoint \(A,B\), the induced \(\mathscr S\) is self-adjoint; on rank-on
 \ge\delta^2\|Z\|_{HS}^2.
 \]
 For infinite-dimensional Hilbert spaces, the spectral-block and unitary-group construction replaces the finite eigenbasis. The source theorem also proves Hilbert–Schmidt membership of a bounded solution when the defect has finite energy.
+
+**The same exact column in the matrix-Hilbert-space picture.** For
+\[
+ A=\operatorname{diag}(-2,2),\quad B=[0],\quad
+ C=(2,4)^\mathsf T,\quad X=(-1,2)^\mathsf T,
+\]
+we have \(\mathscr S(X)=AX-XB=C\) and
+\[
+\|C\|_{HS}^2=20,\qquad \|X\|_{HS}^2=5,\qquad
+\delta^2\|X\|_{HS}^2=4\cdot5=20=\|C\|_{HS}^2.
+\]
+For bounded self-adjoint \(A,B\), the induced bounded self-adjoint
+\(\mathscr S\) acts on the Hilbert space \(S_2(H_{in},H_{out})\).
+Spectral separation yields
+\(\operatorname{dist}(0,\sigma(\mathscr S))\ge\delta\), hence
+\(\|\mathscr S^{-1}\|_{S_2\to S_2}\le1/\delta\).
+A bounded solution for a Hilbert-Schmidt right-hand side belongs to \(S_2\)
+by bounded-solution uniqueness and comparison with this \(S_2\) solution.
+The generator for unbounded \(A,B\) requires its own domain statement.
 
 **Lean bridge (verified source excerpts).**
 

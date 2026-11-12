@@ -4,113 +4,85 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Solve a Sylvester equation without self-adjointness
+# Dividing by spectral differences without eigenvectors
 
-The scalar equation five times x minus x times two equals c has a unique solution because five and two differ. For matrices, the corresponding question is whether A times X minus X times B equals C can be solved for every C. One might hope to diagonalize the two coefficient matrices and divide entry by entry, but a matrix with an upper-triangular Jordan block has too few eigenvectors for that plan.
+Imagine two spectral values on the left: negative two and positive two. On the right there is just zero. The Sylvester equation asks for a map X such that A X minus X B equals C. Take A to be the diagonal matrix with values negative two and positive two, B equal to zero, and C the column two, four. Entrywise division gives X equal to negative one, two.
 
-A resolvent gives another route. Instead of asking for an eigenbasis, we ask which complex numbers make a shifted operator invertible. If the spectra of two bounded operators are disjoint, a suitable contour integral of their resolvents solves the Sylvester equation, even when the operators are not self-adjoint. The contour is what replaces the missing ordered real gap.
+That is an easy calculation because A is diagonal. But suppose A has a Jordan block and does not possess enough eigenvectors to diagonalize. Or suppose A acts on an infinite-dimensional Banach space. Can we still divide by the separation between the two spectra?
 
-The central question is whether the spectra of two bounded operators are disjoint. For bounded complex operators on Banach spaces, this is enough for the Sylvester operator to have a bounded inverse. The method is associated with Rosenblum, and its engine is a contour integral of resolvents.
+The answer is yes for bounded complex operators with disjoint spectra. The method is associated with Rosenblum. Its engine is a contour integral of resolvents. The contour allows us to isolate one spectrum from the other without constructing eigenvectors.
 
-We will derive the algebraic identity that makes the contour work, first in scalar form and then for operators. We will also distinguish the theorem proved by a single circular contour from its more general version using a collection of contours.
+## A resolvent is division by a shifted operator
 
-## Recall the resolvent
+For a scalar a, the number one divided by z minus a is defined whenever z differs from a. Here z may be complex. Replace a by a bounded operator A: the resolvent at z is the inverse of z times identity minus A, wherever that inverse exists.
 
-Let A be a bounded operator. For a complex number z outside its spectrum, the operator z times the identity minus A has a bounded inverse. We call that inverse the resolvent of A at z.
+The collection of z for which the inverse fails is the spectrum. For a nonnormal matrix, a spectral value may belong to a Jordan block; for an infinite-dimensional operator it may fail to be an eigenvalue at all. The resolvent still describes its spectral boundary.
 
-The resolvent is a function of z. It is analytic away from the spectrum, and integrating it around a closed contour can select spectral components of the operator.
+In the complex plane, integrating the scalar function one over z minus a around a counterclockwise loop yields one after dividing by two pi i if a lies inside, and zero if it lies outside. The operator version is a Riesz spectral projection. When the loop surrounds the entire spectrum of A, the resulting projection is the identity.
 
-For a one-by-one matrix consisting of scalar a, the resolvent is just one over z minus a. Its integral around a positively oriented circle is two pi i if the circle encloses a and zero otherwise, after dividing by the usual normalization.
+This is exactly the kind of selector we need: a contour that counts A's spectrum but excludes B's.
 
-Thus contour integration can detect whether a spectral value lies inside a curve. In finite dimensions this follows from the residue theorem. For bounded Banach-space operators it is expressed by Riesz spectral projections.
+## Put the spaces and the factors in order
 
-## The two-resolvent integrand
+Let A act on a complex Banach space Y, and B act on a possibly different complex Banach space H. The unknown X and the given C both map H into Y.
 
-Let A act on a Banach space Y and B act on another Banach space X. Our right-hand side C maps X to Y.
+At a complex number z outside both spectra, build a map by applying B's resolvent first to a vector in H, then C, then A's resolvent on Y. The order is important: the operator product is the A resolvent, then C, then the B resolvent.
 
-For a complex number z outside both spectra, form the resolvent of A at z, followed by C, followed by the resolvent of B at z. Call this operator K of z.
+Call that product K of z. Integrate K around a counterclockwise contour that encloses A's spectrum and excludes B's. Divide the integral by two pi i. Our claim is that this operator is the solution X.
 
-Notice the order. The right resolvent acts first on a vector in X, C sends that vector into Y, and the left resolvent then acts on Y. Every composition is type-correct even though the two Banach spaces need not be the same.
+The proof comes from one cancellation identity. We can derive it without spectral decompositions.
 
-The proposed solution is the contour integral of K, divided by two pi i, over a positively oriented closed contour that encloses all of A's spectrum and none of B's spectrum.
+## Watch the cancellation
 
-Let's work out why this solves the Sylvester equation.
+For the A resolvent, multiplying by A is the same as multiplying by z and then subtracting the identity. For the B resolvent, multiplying by B on the right is likewise multiplying by z and subtracting the identity.
 
-## The cancellation identity
+Apply the Sylvester operator to K. In the first term, A acts on the left resolvent. In the second term, B acts on the right resolvent.
 
-Write R A for the resolvent of A and R B for the resolvent of B, evaluated at the same z.
+The first substitution creates z times K, minus C followed by the B resolvent. The second creates z times K, minus the A resolvent followed by C. Subtract the second from the first. The two copies of z times K cancel.
 
-Because z identity minus A multiplied by R A is the identity, we can rearrange to obtain A R A equals z R A minus the identity.
+What remains is the A resolvent followed by C, minus C followed by the B resolvent.
 
-Similarly, R B multiplied by B equals z R B minus the identity. These identities do not require A or B to be self-adjoint.
+Now integrate. The normalized integral of the A resolvent is identity because A is enclosed. The normalized integral of the B resolvent is zero because B is excluded. So the integral of that difference is C. The proposed X therefore satisfies A X minus X B equals C.
 
-Apply the Sylvester operator to K of z. The first term is A R A C R B. The second is R A C R B B.
+Notice the work done by each ingredient. Resolvent algebra creates the cancellation. The contour distinguishes the two spectral sets. Neither step asks for orthogonal eigenvectors, real eigenvalues, or an ordering of the spectra.
 
-Substitute the resolvent identities. The first becomes z R A C R B minus C R B. The second becomes z R A C R B minus R A C.
+## The two-loop example
 
-Subtracting cancels the z-dependent terms. What remains is R A C minus C R B.
+Return to A with diagonal entries negative two and positive two, and B equal to zero. There is no single disk containing both left eigenvalues while excluding zero: a disk is convex, so a disk containing both endpoints also contains their midpoint.
 
-That is the key cancellation. The complicated product of two resolvents has turned into the difference of two single-resolvent terms, which contour integration can evaluate.
+Instead choose two small counterclockwise circles, one around negative two and the other around positive two. Neither contains zero. Add their contour integrals.
 
-## Integrate around the spectra
+For the horizontal component of C, the integrand has a pole at negative two and a harmless factor from the B resolvent. The residue supplies two divided by negative two, which is negative one. The second circle supplies four divided by positive two, which is two. The same two-entry answer appears, now obtained by contour integration.
 
-Assume first that a single circle contains all of A's spectrum strictly inside and contains no spectral value of B even in its closed disk.
+This is the concrete reason to allow several contour components. A spectral separator need not be a single circle, even for three scalar spectral values.
 
-Integrate the cancellation identity around that circle and divide by two pi i. The integral of the A resolvent becomes the identity operator, because the circle encloses all of A's spectrum. The integral of the B resolvent becomes zero, because B has no spectrum inside the circle.
+## What changes for a Jordan block
 
-Hence the integral of R A C minus C R B equals C. Because bounded composition commutes with the operator-valued contour integral, we obtain A times the proposed solution minus the proposed solution times B equals C.
+Consider the upper-triangular matrix with negative two on the diagonal and one immediately above the diagonal. Its only eigenvalue is negative two, yet it has too few eigenvectors for ordinary diagonalization. Keep B equal to zero.
 
-Existence is proved. The formula is constructive, although it is an analytic construction rather than an entrywise division.
+Solving A X equals C with C equal to the column two, four gives X equal to negative two, negative two. The first output includes a contribution from the second entry of C because of the off-diagonal one. A simple rule that divides each entry of C by negative two would miss that coupling.
 
-## Why uniqueness comes from the same computation
+The contour formula does not miss it. The resolvent of this Jordan block contains both a first-order pole and a second-order pole at negative two. Integrating their residues reproduces the coupling term in the inverse. The details belong in the companion equations, but the lesson is concrete: resolvents know about Jordan structure even when eigenvectors do not provide a basis.
 
-Suppose an arbitrary map X is given and let its Sylvester residual be A X minus X B.
+## Why the solution is unique
 
-Insert that residual into the same two-resolvent integrand. Using the resolvent identities in the opposite direction, one finds that R A times the residual times R B equals R A X minus X R B.
+So far we have shown that the contour recipe produces a solution for every C. We also need to rule out a second solution.
 
-Integrate. The first term gives identity times X, and the second gives X times zero. The result is X itself.
+Start with any map Y and form its residual A Y minus Y B. Feed that residual into the contour recipe. Another resolvent cancellation reduces the integrand to the A resolvent followed by Y, minus Y followed by the B resolvent. Integrating gives identity times Y minus Y times zero, which is Y.
 
-Thus the contour construction is a left inverse of the Sylvester map as well as a right inverse. It follows that every C has exactly one solution. The Sylvester operator is an isomorphism of Banach spaces, because the contour integral defines a bounded linear map of C.
+Thus the contour recipe recovers any map from its Sylvester residual. If two maps had the same residual, their difference would have residual zero and therefore be zero. Existence and uniqueness hold together.
 
-The norm of this inverse can be estimated using the length of the contour and the largest resolvent norms along it. But for nonnormal operators, resolvent norms can be large even when the contour remains a positive distance from the spectrum. So this argument alone does not produce a universal sharp constant depending only on spectral distance.
+For bounded complex operators with disjoint compact spectra, one can choose a finite union of suitable contours in the common resolvent set. This yields a bounded inverse of the Sylvester map on the Banach space of bounded cross-operators.
 
-## Check the scalar case
+## The size of the inverse is another question
 
-Let A multiply by a and B multiply by b, with a different from b. Choose a circle containing a and excluding b. The integrand is C divided by the product of z minus a and z minus b.
+Look again at the example with negative two and positive two. It has a gap of two from zero, and the solution is half as large as C in norm. That numerical statement used the special diagonal matrix.
 
-The integrand has a simple pole at a inside the contour. Its residue is C divided by a minus b. The normalized contour integral therefore gives exactly that value.
+For a nonnormal operator, resolvent norms can become large far from what a simple spectral-distance picture would suggest. The contour formula gives a bound involving contour lengths and resolvent norms along the curves, not a universal constant-one estimate based only on distance between the two spectral sets.
 
-We have recovered the scalar equation a X minus X b equals C, solved by division by a minus b. The contour formula is the complex-analytic version of that division.
+This separates two questions that are easy to conflate. Disjoint spectra give a unique bounded solution for bounded complex operators. A quantitative error estimate requires additional information about operator geometry and the norm used to measure X and C.
 
-For a diagonal matrix, the same residue calculation can be performed in every spectral block. The benefit of the contour method is that it continues to work for operators that are not diagonalizable, and even for bounded operators acting on infinite-dimensional Banach spaces.
-
-## When one circle is not enough
-
-A careful distinction is needed here. Disjoint compact spectra do not always admit one circle that encloses all of A's spectrum while excluding all of B's spectrum.
-
-For example, let A have eigenvalues negative two and positive two, and let B have eigenvalue zero. The spectra are disjoint. Any closed disk containing both endpoints contains their midpoint zero, by convexity. So no single circle can contain all of A's spectrum inside its disk while excluding B's spectral value.
-
-What do we do? Use a contour made from several positively oriented loops that together enclose A's spectral pieces but avoid B's spectrum. In finite dimensions, small disjoint circles around A's distinct eigenvalues suffice. For compact spectral subsets of the complex plane, one can construct an appropriate finite contour within the resolvent region, possibly using multiple components.
-
-The same resolvent cancellation identity holds on each loop. Summing their integrals gives the full Riesz projection for A, which is the identity, and the zero projection for B. This proves the general bounded-operator Rosenblum result.
-
-A circle-contour solution is justified when a circle separates the two spectra. More general disjoint spectral configurations require a contour adapted to those spectral sets; the circular case alone does not cover all configurations.
-
-## Connection to spectral projections
-
-We met spectral projections earlier by selecting eigenspaces of a self-adjoint matrix. Riesz projections generalize that selection to operators with possibly complex spectra and nontrivial Jordan structure.
-
-A Riesz projection associated with a contour is the normalized integral of the resolvent around that contour. It commutes with the original operator and projects onto the spectral component enclosed by the contour. Unlike an orthogonal spectral projection, it need not be self-adjoint for a nonnormal operator.
-
-This explains why the Rosenblum proof is so flexible. It needs analytic resolvents and projection identities, not orthogonal eigenvectors or Hilbert geometry.
-
-## What this lesson establishes
-
-The Sylvester map is invertible for bounded complex Banach-space operators with disjoint spectra. The proof is based on resolvent cancellation, contour spectral projections, and the recovery of any unknown map from its own residual.
-
-But there is a separate quantitative problem. How can we prove an explicit estimate for the size of a solution in a useful operator norm? When the spectra have additional separation geometry, an elementary inverse-based argument can give a constant-one bound even on Banach spaces.
-
-Before moving on, derive the cancellation identity on paper and evaluate the scalar contour integral. Those two computations are the proof's core.
+A Riesz projection need not be orthogonal for a nonnormal operator. The contour argument works because its projection algebra is valid, not because it preserves Euclidean lengths. That distinction explains both the breadth of the existence theorem and why norm estimates need separate proofs.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -129,6 +101,36 @@ X=\frac1{2\pi i}\oint_\Gamma R_A(z)CR_B(z)\,dz,
 \qquad AX-XB=C.
 \]
 The complementary identity \(R_A(z)(AX-XB)R_B(z)=R_A(z)X-XR_B(z)\) proves uniqueness. The cited Lean existence/uniqueness theorem uses one positively oriented separating **circle**; general disjoint compact spectra may require a union of contour components, not covered by that exact theorem statement.
+
+**Two-component contour.** For
+\[
+A=\begin{bmatrix}-2&0\\0&2\end{bmatrix},\quad B=[0],\quad
+C=\begin{bmatrix}2\\4\end{bmatrix},
+\]
+choose \(\Gamma=\Gamma_{-2}+\Gamma_{2}\), the sum of two positively
+oriented circles with radius smaller than 2. They surround \(\sigma(A)\)
+but have winding number zero about \(\sigma(B)=\{0\}\). Then
+\[
+X=\frac{1}{2\pi i}\int_{\Gamma}(zI-A)^{-1}C(zI-B)^{-1}\,dz
+=\begin{bmatrix}2/(-2)\\4/2\end{bmatrix}
+=\begin{bmatrix}-1\\2\end{bmatrix}.
+\]
+A single disk enclosing both \(-2\) and \(2\) must contain \(0\), so two
+contour components (or a noncircular separator with suitable winding) are
+needed.
+
+**Nonnormal Jordan check.** With
+\[
+A_J=\begin{bmatrix}-2&1\\0&-2\end{bmatrix},\quad B=[0],\quad
+C=\begin{bmatrix}2\\4\end{bmatrix},\quad
+A_J^{-1}=\begin{bmatrix}-\tfrac12&-\tfrac14\\0&-\tfrac12\end{bmatrix},
+\]
+we obtain \(X=A_J^{-1}C=(-2,-2)^\mathsf T\). The resolvent is
+\[
+(zI-A_J)^{-1}=\begin{bmatrix}(z+2)^{-1}&(z+2)^{-2}\\0&(z+2)^{-1}\end{bmatrix}.
+\]
+The second-order pole contributes the off-diagonal inverse term. This is
+why dividing individual entries by the eigenvalue is invalid for a Jordan block.
 
 **Lean bridge (verbatim source excerpts).**
 

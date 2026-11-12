@@ -4,123 +4,85 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# A constant-one bound from a bounded inverse
+# A gap estimate from a geometric series
 
-Consider the equation four times x minus x times one equals six. Dividing by four first gives x minus one quarter of x equals one and a half. We can recover x by adding the geometric series one and a half, then one quarter of that, then one sixteenth, and so on. It converges because the correction factor is smaller than one.
+Start with a scalar equation: four times an unknown, minus the unknown itself, equals six. The answer is two. But there is a revealing way to obtain it without dividing by three immediately.
 
-The same idea works for operators between Banach spaces. If A has a bounded inverse and the operator obtained by multiplying on one side by that inverse and on the other by B is a contraction, we can solve the Sylvester equation and bound the solution. The resulting estimate depends on concrete norm hypotheses. It does not follow from disjoint spectra alone.
+Move the smaller term to the right and divide by four. The unknown equals one and a half plus one quarter of itself. Substitute that formula back into itself. The result is one and a half, plus a quarter of one and a half, plus another quarter of that, and so on. Every correction is one quarter of its predecessor.
 
-The essential question is what replaces scalar division when the unknown is a map between two different spaces. The bound comes from moving one term to the other side, using an inverse on the output space, and measuring a contraction. We will keep each of those jobs separate.
+The sum converges because the correction shrinks. More importantly, its total size is controlled by the margin between the large coefficient and the small one. Davis and Kahan's Theorem five point one turns this elementary picture into a bound on a map between two Banach spaces.
 
-## Set up two Banach spaces
+## Which operator acts on which space?
 
-Let X and Y be complex or real Banach spaces. The letter X here names the input space, so to avoid confusion call the unknown operator T. It maps X into Y.
+A Banach space is a complete normed vector space: every Cauchy sequence has a limit in the space. We need two of them because a Sylvester unknown may be rectangular.
 
-Let A be a bounded linear operator on Y, and B a bounded linear operator on X. Let C also map X to Y. We want to solve A T minus T B equals C.
+Call the input space H and the output space Y. The unknown map T carries vectors from H into Y. A acts on Y, B acts on H, and the known residual C also maps H into Y. The equation is A T minus T B equals C.
 
-Assume there are real numbers gamma and delta, with gamma nonnegative and delta strictly positive. Suppose the norm of B is at most gamma.
+We are going to measure T with a norm N. It may be the ordinary operator norm, or a compatible operator ideal norm when the spaces have that additional structure. Only three properties are used: the triangle inequality, scaling by scalars, and control under multiplication on the left and right.
 
-Now assume A has a bounded two-sided inverse, with inverse norm at most one divided by gamma plus delta.
+Specifically, if L acts on Y and R acts on H, then N of L T R is at most the operator norm of L, times N of T, times the operator norm of R. Think of this as a rule against magnifying T more than the two outside multipliers can magnify it.
 
-Those inequalities encode an asymmetry. B is small compared with the scale gamma; the inverse of A is small enough that multiplying by B leaves a contraction ratio less than one.
+For the ordinary operator norm this follows by applying the composite to a unit vector. For a Schatten norm on Hilbert spaces it follows from the ideal property. For arbitrary Banach spaces it must be an explicit assumption; there is no basis-independent Frobenius norm available for every Banach space.
 
-The strict extra margin is delta. Our final lower bound will contain exactly that margin.
+## Identify the contraction
 
-## What a compatible operator norm means
+Assume B has operator norm at most gamma, where gamma is nonnegative. Assume A has a bounded inverse, whose norm is at most one over gamma plus delta, for some positive delta.
 
-The standard operator norm of T is the largest possible output norm on an input of norm one. But the theorem is designed to work for more general sizes of cross-space operators.
+Why these two bounds? Apply the inverse of A to the equation. The result is T equals A inverse C plus A inverse T B. This is the operator version of our scalar geometric-series equation.
 
-Call such a size N of T. It must obey the norm-like rules: it is nonnegative, zero only at zero, homogeneous under scalar multiplication, and subadditive under addition.
+The first term is the known starting point. The second term is the correction, which takes any map T, applies B before it and A inverse after it. By compatibility, its size is at most gamma over gamma plus delta times the size of T.
 
-The additional condition is compatibility with contractions. If L acts on Y and R acts on X, and both have operator norm at most one, then composing T as L T R cannot increase N of T.
+That ratio is strictly less than one. We have identified a contraction on the space of cross-operators. The number delta is the leftover margin that makes contraction possible.
 
-This one condition implies the general two-sided ideal inequality. For arbitrary bounded L and R, normalize each nonzero one by its operator norm so that the normalized maps are contractions. Apply compatibility, then restore their scaling factors. We obtain that N of L T R is at most the norm of L times N of T times the norm of R.
+## Derive the constant-one estimate
 
-If either multiplier is zero, the same inequality is immediate. This proves the ideal estimate in every case.
+Apply the norm N to the fixed-point identity. The triangle inequality bounds N of T by N of A inverse C plus N of A inverse T B.
 
-The ordinary operator norm satisfies compatibility by submultiplicativity. Many singular-value-based norms do as well in finite-dimensional Hilbert spaces. On general Banach spaces we cannot define a Frobenius norm from an arbitrary basis and expect the same properties, so the theorem states compatibility explicitly rather than listing all possible examples.
+Use the two-sided multiplication rule. The first term is at most N of C divided by gamma plus delta. The second is at most gamma over gamma plus delta times N of T.
 
-## Rearrange the Sylvester equation
+Now gather the unknown terms. Multiply by gamma plus delta, and move gamma times N of T to the left. Precisely delta times N of T remains. The result is delta times N of T at most N of C.
 
-Start from A T minus T B equals C. Move the second term to the right: A T equals C plus T B.
+No matrix size appears. We did not compare Frobenius and operator norms or count eigenvalues. The constant is one because the same contraction margin, delta, appears when the unknown term is moved across the inequality.
 
-Now apply the bounded inverse of A on the left. Because that inverse cancels A, we get an exact fixed-point identity: T equals A inverse C plus A inverse T B.
+This estimate applies to any solution T that satisfies the equation. To obtain a solution from scratch, use the geometric series of repeated correction maps. In the ordinary bounded-operator norm, the space of cross-operators is complete, so that series converges. In an operator ideal, convergence in its own norm requires the ideal to be complete and stable under the multiplications used here.
 
-This identity says that T is a fixed point of an affine map. One part depends only on C; the other sends T to A inverse T B.
+## Revisit a two-sided spectral example
 
-We can estimate its effect using compatibility. The size of A inverse C is at most the norm of A inverse times N of C. The size of A inverse T B is at most the inverse norm times N of T times the norm of B.
+Now use a concrete example with spectral values on both sides of zero. Let the input space be one-dimensional and B equal to zero. Let A on the output plane be diagonal with entries negative two and positive two. Let C send one to the column two, four.
 
-Apply the triangle inequality to the fixed-point identity. We obtain N of T at most inverse norm times N of C, plus inverse norm times B norm times N of T.
+The inverse of A is diagonal with entries negative one half and positive one half. Its norm is one half. Choose gamma equal to zero and delta equal to two. Our contraction has ratio zero, because B is zero, and the geometric series stops after its first term.
 
-Now insert the hypotheses. The inverse norm is at most one over gamma plus delta, and B norm is at most gamma. Therefore N of T is at most N of C divided by gamma plus delta, plus gamma over gamma plus delta times N of T.
+Applying A inverse gives T with entries negative one and positive two. Its length is the square root of five. The length of C is twice the square root of five. Thus delta times the norm of T equals the norm of C, an exact instance of the constant-one estimate.
 
-Multiply through by gamma plus delta. The left is gamma plus delta times N of T. The right is N of C plus gamma times N of T.
+Here the spectral values of A straddle B. We did not need an ordered gap. We needed a controlled inverse of A relative to the small norm of B.
 
-Subtract gamma times N of T from both sides. The gamma terms cancel, leaving delta times N of T at most N of C.
+## Shifting the center of the picture
 
-That is Theorem five point one's principal estimate. The constant is exactly one.
+The equation does not change if the same scalar c is subtracted from A and B. The extra terms are negative c times T on both sides of the Sylvester difference, so they cancel.
 
-## Why the hypothesis is stronger than spectral disjointness
+This lets us move the center of a spectral picture to zero. Suppose B is self-adjoint with spectrum inside an interval of radius gamma around c. Then B minus c identity has norm at most gamma.
 
-Disjoint spectra guarantee solvability for bounded complex operators through a resolvent argument, but that fact alone gives no constant-one estimate from spectral distance in an arbitrary Banach-space norm.
+Suppose A is self-adjoint and every spectral value lies at least gamma plus delta away from c. Then A minus c identity has a bounded inverse with norm at most one over gamma plus delta. Apply the same contraction proof to these shifted operators.
 
-Here we demand a specific bound on the inverse of A and on the norm of B. This is much more quantitative.
+Geometrically, the B spectrum is contained in a central interval while the A spectrum stays outside a larger interval. A may lie to the left, to the right, or on both sides. This is the interval-versus-exterior situation. The ordinary ordered semigroup proof cannot handle both sides simultaneously, but the bounded-inverse proof can.
 
-For arbitrary Banach operators, knowing that zero lies some distance away from A's spectrum does not in general imply that the norm of A inverse is the reciprocal of that distance. Nonnormal behavior can make inverses much larger. Thus we cannot derive the current theorem solely from a picture of two separated spectra.
+## Spectral separation is not enough on a Banach space
 
-In a self-adjoint Hilbert setting, the spectral theorem does give the needed inverse norm bounds. That is one important bridge from geometric spectral separation to this Banach-space argument.
+The hypotheses refer to an inverse norm, not merely a distance to the spectrum. That difference is decisive when operators are nonnormal.
 
-## Move the spectral picture by a common shift
+For example, take an upper-triangular two-by-two matrix with diagonal entries one and a very large upper-right entry. Its only spectral value is one, at distance one from zero. Yet its inverse has a correspondingly large off-diagonal entry, and its norm can be much greater than one.
 
-An important trick is that the Sylvester expression does not change if we subtract the same scalar c from both A and B.
+Thus knowing that the spectrum of A stays away from zero does not ensure the inverse norm bound used by this theorem. For self-adjoint operators on Hilbert spaces, spectral calculus supplies the reciprocal-distance formula. For arbitrary Banach operators, the theorem insists on the actual inverse estimate.
 
-Expand the shifted equation. On the left, A minus c identity, applied to T, gives A T minus c T. On the right, T followed by B minus c identity gives T B minus c T. Subtracting cancels the two scalar terms.
+There is also a useful refinement. The inequality itself only needs a bounded left inverse L of A, meaning L A is identity. In the fixed-point derivation, nothing uses A L equal to identity. The original printed hypothesis includes a two-sided inverse, and the reusable result can be stated under the weaker explicit left-inverse condition.
 
-So A T minus T B equals the same expression built from A minus c identity and B minus c identity.
+A lower bound on vector lengths does not automatically supply such an everywhere-defined bounded left inverse on a general Banach space: the range may lack a bounded complement. State the inverse data rather than assume it.
 
-Suppose B is self-adjoint with spectrum inside the interval from c minus gamma to c plus gamma. Then the norm of B minus c identity is at most gamma.
+## What has been established
 
-Suppose A is self-adjoint and its spectrum lies outside the larger open interval centered at c with radius gamma plus delta. Then A minus c identity is invertible, and its inverse norm is at most one over gamma plus delta.
+The estimate attributed to Theorem five point one concerns a solution that is already given. Under its bounded-inverse and compatible-norm hypotheses, the residual C controls the unknown T with constant one and margin delta. A separate contraction argument can construct the solution when the relevant operator space is complete.
 
-The Banach-space estimate applies to these shifted operators. Therefore delta times N of T is at most N of C.
-
-This is the interval-versus-exterior configuration: one spectral block occupies a bounded interval, while the other avoids a surrounding gap on both sides. Unlike the purely ordered configuration, the exterior spectrum may lie to the left and right simultaneously.
-
-## A simple example where order is absent
-
-Let B be the scalar zero operator and A the diagonal matrix with entries negative two and positive two. Choose gamma equal to zero and delta equal to two.
-
-B has norm zero. The inverse of A is diagonal with entries negative one half and positive one half, so its operator norm is one half. That equals one divided by gamma plus delta.
-
-If C is any column with two entries, the solution is simply A inverse C. Its norm is exactly half the norm of C, because both diagonal entries of A inverse have absolute value one half.
-
-This achieves the constant-one bound even though A's spectrum lies on both sides of B's spectrum. Ordered separation was not needed; a suitably bounded inverse was enough.
-
-## A one-sided inverse is sufficient for the estimate
-
-Read the fixed-point proof again. We used only an operator L satisfying L A equals the identity, and a norm bound on L. We never used A L equals the identity.
-
-The inequality therefore needs only a bounded left inverse in this setting, not a two-sided inverse. When comparing it with a statement formulated using a genuine inverse, keep the hypotheses distinct.
-
-On arbitrary Banach spaces, a lower bound on A by itself need not give an everywhere-defined bounded left inverse. The range of A may fail to be complemented. Therefore the reusable theorem assumes actual left-inverse data rather than silently manufacturing it from an inequality on vectors.
-
-The lower bound therefore requires the stated left-inverse hypotheses; a norm lower bound alone does not supply that structure on a general Banach space.
-
-## Does this theorem itself prove existence?
-
-The inequality we have derived applies to any T and C satisfying the Sylvester equation. It proves a lower bound for the Sylvester operator and, in particular, uniqueness: if C is zero, the estimate forces T to be zero.
-
-Under the bounded inverse hypotheses, we can also prove existence by a separate Neumann-series argument. Define the linear map that sends T to A inverse T B. Its operator norm is at most gamma divided by gamma plus delta, strictly less than one. Repeated application therefore produces a convergent geometric series.
-
-Starting from A inverse C, sum its successive images under that contraction. The series converges in the complete space of bounded cross-operators, and the sum solves the fixed-point equation. If C belongs to a complete compatible operator ideal, the same geometric bound makes the series converge in its ideal norm as well. Existence follows by this additional argument, with the relevant completeness hypothesis explicit.
-
-The estimate attributed to Theorem five point one concerns a solution that is already given. Existence and uniqueness of a solution require additional arguments, and should not be inferred from this inequality alone.
-
-## Why the bound has constant one
-
-Begin with a scalar equation and a geometric series: an inverse handles the main coefficient, and the remaining smaller coefficient produces a contraction. For operators, the same picture works when the inverse on the output space and the right coefficient have operator norms whose product is strictly below one.
-
-The ideal inequality measures each composition without counting coordinates. Collecting the unknown terms leaves the gap margin delta times the unknown norm bounded by the known residual norm. The constant is one because no dimension-dependent comparison was needed. The result gives a stable bound for any solution; constructing that solution uses a separate convergent series.
+The same two-sided spectral example can therefore support several different conclusions. Spectral separation alone ensures invertibility in the bounded complex Rosenblum setting. A quantitative inverse-norm condition supplies this constant-one estimate. The distinction is worth retaining whenever a spectral gap appears in the denominator of a subspace perturbation theorem.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -143,6 +105,28 @@ N(T)\le(\gamma+\delta)^{-1}N(C)
 +\gamma(\gamma+\delta)^{-1}N(T).
 \]
 The reusable strengthened theorem needs only a *bounded left inverse*; the printed statement includes a two-sided inverse. A lower bound \(\|Ay\|\ge c\|y\|\) on an arbitrary Banach space need not provide a bounded everywhere-defined left inverse without further hypotheses.
+
+**Contraction and example.** Set \(\mathcal K(T)=A^{-1}TB\). The hypotheses give
+\[
+N(\mathcal K T)\le\frac{\gamma}{\gamma+\delta}N(T),\qquad
+T=(I-\mathcal K)^{-1}(A^{-1}C)
+=\sum_{n=0}^\infty\mathcal K^n(A^{-1}C),
+\]
+where the series assertion requires completeness of the chosen normed space
+and a two-sided inverse to recover the Sylvester equation from the fixed point.
+In the printed theorem, \(A^{-1}\) is two-sided; the **estimate alone** also
+holds with an explicitly supplied bounded left inverse.
+
+For \(A=\operatorname{diag}(-2,2)\), \(B=[0]\), and
+\(C=(2,4)^\mathsf T\), choose \(\gamma=0,\delta=2\). Then
+\[
+T=A^{-1}C=(-1,2)^\mathsf T,\qquad
+\delta\|T\|=2\sqrt5=\|C\|.
+\]
+A nonnormal counterpoint is \(A_M=\begin{bmatrix}1&M\\0&1\end{bmatrix}\),
+\(A_M^{-1}=\begin{bmatrix}1&-M\\0&1\end{bmatrix}\): its spectrum is
+\(\{1\}\), while \(\|A_M^{-1}\|\ge\sqrt{1+M^2}\) by applying it to the
+second coordinate vector.
 
 **Lean bridge (verbatim source excerpts).**
 

@@ -4,117 +4,81 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Which gap gives which constant?
+# A spectral gap does not choose your norm
 
-Suppose two spectra are separated by a positive distance. For a scalar equation we divide by one nonzero number. For a matrix Sylvester equation, many cross-spectral differences appear at once, and the norm chosen for the matrix determines how those entrywise divisions combine.
+Suppose two operators have no spectral values closer than two units. You might reasonably expect that solving a Sylvester equation divides the size of its residual by at least two. In a one-column example that intuition is exactly right.
 
-In the Hilbert–Schmidt norm, the squared norm is the sum of the squared magnitudes of all entries in orthonormal eigenbases. If every cross-spectral difference has magnitude at least delta, dividing each entry gives an immediate constant-one inequality. In operator norm, by contrast, the largest amplification can depend on interactions among several entries. The same entrywise proof does not establish a constant-one estimate.
+Let A be diagonal on the plane, with values negative two and positive two, and B be zero on the input line. With C equal to the column two, four, the solution X has entries negative one and positive two. The output length is precisely half the residual length.
 
-When one entire spectrum lies above the other, a time-integral representation gives an operator-norm bound with constant one. With merely pairwise separation, other resolvent or multiplier estimates are needed and can have a different constant.
+But now change the input space from a line to a plane. The unknown becomes a full matrix. Even if every individual coefficient is divided by a spectral difference of magnitude at least one, its operator norm can behave differently from the sum of the squares of its entries. This is why any claim about a Sylvester gap must name both the gap configuration and the norm.
 
-We will compare these arguments explicitly rather than identify the word gap with a single universal inequality. The theorem must specify both the gap geometry and the norm class.
+## Three ways to measure the same matrix
 
-## Three operator norms to keep distinct
+The operator norm asks: among unit input vectors, which one is stretched the most? It is the largest singular value.
 
-Start with a finite matrix X. Its operator norm is the largest length of X applied to a unit vector. By the singular-value decomposition, this is its largest singular value.
+The Hilbert-Schmidt, or Frobenius, norm takes the square root of the total sum of squared entry magnitudes in orthonormal coordinates. Equivalently it takes the square root of the sum of squares of the singular values. It measures total energy over independent directions.
 
-Its Frobenius norm is the square root of the sum of the squares of all singular values. In an orthonormal matrix coordinate system, it is also the square root of the sum of squared absolute entries.
+The nuclear norm adds the singular values without squaring. These norms agree on the absolute value of a one-by-one matrix. For matrices with multiple independent directions, they need not agree at all.
 
-Its nuclear norm is the sum of all singular values. More generally, the Schatten p norm takes the p-th powers of singular values, adds them, and takes the p-th root. Every Schatten norm and every symmetric-gauge norm is unitarily invariant in finite dimensions.
+That is the first lesson of our column example. Its operator norm and Hilbert-Schmidt norm happen to coincide because a column has rank one. It cannot reveal the difficulty that arises with a full matrix.
 
-Although these norms are related, they answer different questions. The operator norm records the most amplified input direction. The Frobenius norm sums energy over orthogonal directions. The nuclear norm sums all singular values without squaring them.
+## What every cross-spectral denominator guarantees
 
-A proof exploiting entrywise orthogonality may be sharp for Frobenius norm and insufficient for operator norm.
+Let A and B be finite-dimensional self-adjoint matrices, and suppose every difference between their respective eigenvalues has absolute value at least delta, with delta positive.
 
-## Pairwise separation gives a sharp square-norm estimate
+Choose orthonormal eigenbases. In those coordinates, the equation A X minus X B equals C says that each coefficient of X equals the matching coefficient of C divided by its left eigenvalue minus its right eigenvalue.
 
-Suppose A and B are finite-dimensional self-adjoint matrices and every left-right eigenvalue difference has absolute value at least delta.
+For each coefficient, its squared magnitude in X is at most one over delta squared times the squared magnitude in C. Add these inequalities across all pairs of eigenvectors. Taking the square root gives delta times the Hilbert-Schmidt norm of X at most the Hilbert-Schmidt norm of C.
 
-In orthonormal eigenbases, the Sylvester solution is obtained by dividing each entry of C by its spectral difference. Squaring and summing gives delta times the Frobenius norm of X at most the Frobenius norm of C.
+The spectral values may interlace. Some differences may be positive and others negative. Absolute squares remove that sign issue. The estimate is sharp, because a single pair of eigenvectors with separation exactly delta attains equality.
 
-This follows by diagonalizing the self-adjoint coefficients and estimating each squared matrix coefficient. No ordering of the spectra is required. The constant one is sharp in the scalar case.
+Pause at the key step: summing squared coefficients is exactly how the Hilbert-Schmidt norm works. There is no analogous step that sums independent coefficientwise estimates into a sharp operator-norm inequality.
 
-Why does the argument work? Because the Frobenius norm sees the matrix entries as coordinates in an inner-product space of operators. The spectral blocks are orthogonal in this square norm, so we can estimate each block separately and add the resulting squared inequalities.
+## A two-by-two matrix that defeats constant one
 
-A comparable statement extends to Hilbert–Schmidt operators on infinite-dimensional Hilbert spaces. There, square-summability replaces finite sums, and the Sylvester group has a self-adjoint generator acting on the Hilbert space of Hilbert–Schmidt maps.
+Let A have diagonal entries positive one and negative one. Let B have diagonal entries zero and two. The two spectra are disjoint, and every cross difference has magnitude at least one. The gap delta is one.
 
-## From the square norm to the operator norm
+Choose X to be the symmetric matrix whose first row is three, negative three, and whose second row is negative three, one. Form the residual C by multiplying X on the left by A and subtracting X multiplied on the right by B.
 
-Every finite matrix has operator norm at most its Frobenius norm. If C has rank r, its Frobenius norm is at most the square root of r times its operator norm, because it has at most r nonzero singular values and none exceeds the largest.
+The result C has rows three, three, and three, negative three. Its columns are perpendicular and have the same length. As a consequence, C stretches every unit direction by three times the square root of two, approximately four point two four.
 
-Combine those comparisons with the sharp square-norm Sylvester estimate. First, delta times the operator norm of X is at most delta times the Frobenius norm of X. Next, that is at most the Frobenius norm of C. Finally, it is at most square root of r times the operator norm of C.
+Now examine X. Its largest absolute eigenvalue is two plus the square root of ten, about five point one six. A unit vector aligned with that eigenvector is stretched by X more than any unit input direction is stretched by C.
 
-Thus pairwise separation yields an operator-norm estimate with a rank factor. This is a valid consequence, but it is not usually the most effective general operator-norm estimate.
+So the operator norm of X exceeds the operator norm of C, even though every entry of X was obtained by dividing by a denominator of absolute value at least one.
 
-The rank enters because we changed norms. It is not part of the underlying square-norm theorem.
+Nothing contradicts the coefficientwise argument. The Frobenius norm of X is the square root of twenty-eight; the Frobenius norm of C is six. The square-norm inequality still holds. The counterexample isolates the false step: translating independent coefficient bounds into a constant-one claim about maximum directional amplification.
 
-## A two-by-two obstruction
+## Recovering a rank-dependent operator estimate
 
-Now take A diagonal with entries one and negative one. Take B diagonal with entries zero and two. Their spectra are separated pairwise by at least one, so delta equals one.
+There is a safe route from the square norm to the operator norm, but it has a price. The operator norm of X is at most its Hilbert-Schmidt norm. And if C has rank r, the Hilbert-Schmidt norm of C is at most the square root of r times its operator norm.
 
-Let X have first row three, negative three, and second row negative three, one. This is a symmetric two-by-two matrix.
+Chaining these facts gives delta times the operator norm of X at most the square root of r times the operator norm of C. The rank factor belongs to the norm comparison, not to the underlying spectral division.
 
-Compute C as A X minus X B. Multiplying on the left by A preserves the first row and reverses the second. Multiplying on the right by B sets the first column to zero and doubles the second.
+In the two-by-two counterexample, r is two. A factor of the square root of two is more than enough to accommodate the observed increase. But for large rank, that estimate grows with dimension and may be wasteful.
 
-Subtract the results. C has first row three, three, and second row three, negative three.
+## Two ways to obtain dimension-free control
 
-The columns of C are orthogonal, each with length three times the square root of two. Therefore its operator norm is three times the square root of two, approximately four point two four.
+Return to the spectral picture. If all left eigenvalues lie at least delta above all right eigenvalues, there is a single orientation in which the exponential transport decays. Integrating that decay gives the operator-norm inequality with constant one. The same argument works for compatible ideal norms because left and right multiplication obey their ideal estimates.
 
-For X, the trace is four and the determinant is negative six. Its characteristic polynomial is the scalar variable squared minus four times that variable minus six. The eigenvalues are two plus the square root of ten and two minus the square root of ten.
+There is also the interval-versus-exterior picture. After a common scalar shift, suppose B has norm at most gamma and A has a bounded inverse of norm at most one over gamma plus delta. The fixed-point identity then gives constant one. In a self-adjoint Hilbert setting, the spectral theorem can supply those inverse bounds from a central interval and an exterior set.
 
-Since X is symmetric, its operator norm is the larger absolute eigenvalue, two plus the square root of ten, approximately five point one six.
+Our original column with left values negative two and positive two and right value zero belongs to the interval-versus-exterior setting, even though it is not ordered. Its constant-one behavior has an explanation stronger than pairwise separation alone.
 
-The gap is one, so delta times the operator norm of X is about five point one six, strictly larger than the operator norm of C, about four point two four.
+## A universal Fourier estimate for pairwise gaps
 
-That disproves the claim that pairwise spectral separation always implies a constant-one estimate in operator norm. Its exact singular values and spectral gap yield a strict counterexample to the proposed operator-norm inequality.
+For bounded self-adjoint A and B under arbitrary pairwise separation, use their unitary groups instead. Weight the left-right evolution by an integrable scalar function whose Fourier transform divides by the spectral differences.
 
-## What ordered separation restores
+Unitary multiplication preserves operator norms. The norm of the weighted integral is therefore controlled by the absolute integral of the scalar kernel. A suitable kernel has mass pi divided by twice delta. This yields delta times the operator norm of X at most pi over two times the operator norm of C, without any rank factor.
 
-If every spectral value of A lies at least delta above every spectral value of B, our exponential semigroup formula gives the stronger estimate: delta times the operator norm of X is at most the operator norm of C.
+The same integral argument applies to suitable compatible unitarily invariant ideal norms. It provides a general bound. It does not change the fact that in the Hilbert-Schmidt norm, orthogonal spectral blocks already give the better constant one.
 
-The key is a single decay estimate for the entire transported operator. It does not depend on how different entries interact in the operator norm. The same argument works for compatible operator ideal norms whenever the integral is defined in that norm.
+## What to carry into a subspace theorem
 
-The interval-versus-exterior configuration also admits a constant-one conclusion under the bounded-inverse hypotheses of Theorem five point one. After a common scalar shift, one block has norm at most gamma, while the other has a bounded inverse with norm at most one over gamma plus delta.
+An angle estimate often comes from dividing a projected residual by a spectral separation. Before choosing the division theorem, identify the two compressed operators, locate their spectra, and decide which norm is measuring the unknown cross block.
 
-The proof then uses a fixed-point inequality instead of semigroup decay.
+If the proof squares and sums spectral coefficients, the natural output is a Hilbert-Schmidt estimate. If it needs the largest directional error, the operator norm is relevant, and pairwise separation alone cannot justify constant one. Ordered decay, central-interval inverse bounds, or a Fourier multiplier each come with their own hypotheses.
 
-Both configurations are more structured than arbitrary pairwise distance. In one, all spectral differences have a consistent sign. In the other, one block is trapped in a central interval and the other avoids a larger surrounding interval.
-
-## What general separation gives instead
-
-For bounded self-adjoint A and B whose spectra have pairwise distance at least a positive delta, a Fourier-multiplier representation of the Sylvester inverse gives a dimension-free operator-norm bound: delta times the norm of X is at most pi over two times the norm of C. This estimate does not require the spectral sets to be ordered.
-
-The pi-over-two factor is the exact integral of the absolute value of the chosen scalar multiplier, after scaling by delta. The proof works because unitary left and right multiplication preserve the operator norm.
-
-Compatible symmetric-gauge norms also admit the same type of bound in finite-dimensional settings. Left and right unitary multiplications preserve singular values; multiplying by the scalar kernel scales every norm; the triangle inequality controls the integral.
-
-This shows where norm compatibility enters. A quantity that can increase under left or right unitary transport, or that lacks the appropriate triangle inequality, cannot inherit the Fourier bound by this argument.
-
-The argument gives a universal upper bound with factor pi over two. Whether that factor is optimal in a specified norm and spectral class is a separate extremal question.
-
-## A compact hierarchy of conclusions
-
-Let's organize the statements verbally.
-
-First: for self-adjoint A and B with a positive pairwise gap, the Hilbert–Schmidt solution satisfies a constant-one estimate in the square norm.
-
-Second: under the same pairwise gap, an operator-norm estimate with a square-root rank factor follows if the right-hand side has finite rank. An independent Fourier argument gives a dimension-free pi-over-two bound.
-
-Third: under ordered spectral separation, a decaying semigroup gives the constant-one operator-norm bound, and similarly for compatible ideal norms.
-
-Fourth: under the Banach-space bounded-inverse and compatible-norm hypotheses of Theorem five point one, the fixed-point proof also gives a constant-one estimate, without requiring an inner product.
-
-None of these statements makes the others redundant. They cover different hypotheses and sometimes different operator classes.
-
-## A test for any new Sylvester estimate
-
-Whenever someone presents a perturbation inequality that contains a spectral gap in the denominator, ask what theorem supplies it.
-
-Can we point to a common spectral cut? Can we center a small block and control the other block's inverse? Are we only given pairwise spectral distance? Are the operators self-adjoint or possibly nonnormal? Is the relevant norm operator, Frobenius, or another invariant ideal norm?
-
-Each answer changes the proof that is permitted.
-
-The Hilbert-Schmidt estimate is obtained by treating operators as vectors in a Hilbert space. The scalar cross-spectral differences then give constant-one control even when the spectra interlace, provided their distance is bounded below.
+A spectral gap controls division; the chosen norm determines how the divided coefficients can be combined. Both decisions are needed for a correct bound.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -140,6 +104,18 @@ X=\begin{pmatrix}3&-3\\-3&1\end{pmatrix},\quad
 C=\begin{pmatrix}3&3\\3&-3\end{pmatrix}.
 \]
 For \(\delta=1\), \(\|X\|=2+\sqrt{10}>3\sqrt2=\|C\|\), refuting a constant-one pairwise-gap operator-norm claim.
+
+**Shared scalar example and the matrix obstruction.** With
+\(A=\operatorname{diag}(-2,2)\), \(B=[0]\), and \(C=(2,4)^\mathsf T\),
+\(X=(-1,2)^\mathsf T\) and \(\delta\|X\|_2=\|C\|_2=2\sqrt5\).
+For the interlaced two-by-two witness already displayed above,
+\[
+\|X\|_{S_2}^2=3^2+(-3)^2+(-3)^2+1^2=28,
+\qquad \|C\|_{S_2}^2=36.
+\]
+Thus \(\|X\|_{S_2}\le\|C\|_{S_2}\) with \(\delta=1\), while
+\(\|X\|_{op}=2+\sqrt{10}>3\sqrt2=\|C\|_{op}\). The example separates
+the two *norm* claims without altering the spectral configuration.
 
 **Lean bridge (verbatim source excerpts).**
 

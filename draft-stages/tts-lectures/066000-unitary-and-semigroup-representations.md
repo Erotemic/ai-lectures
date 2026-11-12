@@ -4,109 +4,83 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Two ways to transport a matrix through time
+# When two spectral directions move in opposite ways
 
-A constant angular velocity in the plane generates a continuous family of rotations: rotating for time s and then for time t is equivalent to rotating once for the sum of those times. The family satisfies a group law, and its generator is the skew-symmetric matrix giving the instantaneous derivative at time zero.
+Consider a map from the real numbers into the plane. It sends the number one to the column with entries two and four. Call the map C. On the plane, let A stretch the horizontal direction by negative two and the vertical direction by positive two. On the input line, let B be zero.
 
-For a self-adjoint matrix A, the operators obtained by exponentiating i times t A form a unitary group in complex Hilbert space. If A is positive, exponentiating negative t A for nonnegative times instead gives a contractive semigroup. These are different ways to package an operator into a time-evolution law.
+We want a map X for which A applied to X, minus X followed by B, equals C. Because B is zero, we can solve this one by inspection. The horizontal entry of X is negative one, and the vertical entry is positive two. Applying A gives back two and four.
 
-The group and semigroup perspectives become useful for spectral separation. Exponentials can turn a Sylvester equation into a time integral, whose convergence and norm are governed by the separation of the spectra. In infinite dimensions, unbounded generators require strong continuity and explicit domains; a formal power series is not enough.
+The two coordinates tell us something important. One spectral difference is negative two and the other is positive two. Both are safely away from zero. But a method that requires every spectral difference to have the same sign cannot handle this example as a single decaying evolution. We need to understand two kinds of time evolution and the different inverse formulas they support.
 
-We will prove the finite-dimensional representation identities, then state what additional conditions are required when passing to strongly continuous unitary groups or contraction semigroups.
+## A Sylvester equation as a moving map
 
-## The Sylvester orbit
+Let A be a bounded self-adjoint operator on an output Hilbert space, and B a bounded self-adjoint operator on an input Hilbert space. The unknown X maps inputs to outputs. Its equation is A X minus X B equals C, where C is a known map with the same input and output spaces as X.
 
-Let A and B be bounded self-adjoint operators on complex Hilbert spaces. Let C be a bounded map from the space on which B acts into the space on which A acts.
+First forget about inversion. Imagine observing a map as the two spaces evolve independently. At time t, evolve the output using the exponential of i times t A. Evolve the input using the exponential of i times t B, and undo that evolution on the right. The resulting map is called F of t. At time zero it is the original map.
 
-For each real time t, define an operator U of t by exponentiating i times t times A. Define V of t using B the same way. Because the generators are self-adjoint, U and V are unitary: they preserve lengths and have their adjoints as inverses.
+Because A and B are self-adjoint, both evolutions are unitary. Unitary means they preserve lengths. Left and right unitary multiplication therefore preserve both the operator norm and, when applicable, the Hilbert-Schmidt norm of the map they transport.
 
-Now transport C by applying U of t on the left and the inverse of V of t on the right. Call the result F of t.
+Differentiate F in finite dimensions. The left exponential contributes i A F. Differentiating the reversed right evolution contributes negative i F B. Putting the pieces together, the derivative is i times the Sylvester expression A F minus F B.
 
-At time zero, both unitary maps are identities, so F of zero equals C. At any other time, F describes how C looks after a left and right unitary evolution.
+This is the mental model: the Sylvester operator measures the instantaneous relative motion of a map under two different unitary evolutions. It is an operator acting on operators.
 
-We should derive its differential equation. Differentiate the exponential of i t A: its derivative is i A times that exponential. Differentiate the inverse B evolution: its derivative is negative i times the exponential followed by B. Apply the product rule.
+## Hear the two frequencies in the example
 
-The derivative of F is i times A F minus F B. In words, the Sylvester operator is the infinitesimal generator of the left-right transport.
+Return to the diagonal A with values negative two and positive two, and B equal to zero. Apply the unitary transport to the column C with entries two and four.
 
-If C happened to be a solution X of a homogeneous Sylvester equation, the derivative would vanish, and the orbit would be constant. That observation is another path to uniqueness under spectral separation.
+Its horizontal component acquires a complex phase that winds at frequency negative two. Its vertical component acquires a phase that winds at frequency positive two. Both keep their magnitudes. The components rotate in opposite directions in the complex plane.
 
-## Check the orbit in diagonal coordinates
+A phase of negative two must eventually produce the reciprocal negative one half. A phase of positive two must produce positive one half. Multiplying those reciprocals by two and four gives our solution column, negative one and positive two.
 
-Assume for the moment that A and B are diagonal, with real eigenvalues a and b in the corresponding positions. On the matrix entry joining a to b, left unitary evolution multiplies by the exponential of i t a. Right inverse evolution multiplies by the exponential of negative i t b.
+The question is how an integral over time can perform that division without referring to a particular eigenbasis.
 
-The product is the exponential of i t times a minus b. Each matrix coefficient therefore oscillates with frequency equal to its spectral difference.
+## Why an ordered gap gives a simpler integral
 
-Different entries can oscillate clockwise or counterclockwise depending on the sign of the difference. Unlike the ordered semigroup, there is no single exponential decay envelope.
+Suppose, unlike our example, that every spectral value of A is at least delta greater than every spectral value of B, with delta positive. Evolve by ordinary exponentials rather than imaginary ones: apply the exponential of negative t A on the left, and the exponential of positive t B on the right.
 
-This is why simply integrating F over positive time does not give a convergent Sylvester inverse in general. We need a weight whose oscillatory integral has exactly the reciprocal-frequency response we want.
+Every difference of spectral values is now positive. Consequently, each coefficient of the transported C decays at least as rapidly as the exponential of negative delta times t. Integration from time zero to infinity divides a coefficient by its positive spectral difference. The integral of the common decay envelope is one over delta.
 
-## A scalar reciprocal multiplier
+This gives a Sylvester solution and a constant-one norm estimate: delta times the norm of X is at most the norm of C. The proof works because the entire operator decays under one common bound, not because we divided individual entries and added their sizes.
 
-Suppose every absolute difference between a spectral value of A and one of B is at least a positive number delta. We want an integrable complex-valued function of time, call it mu, with this property: integrate mu of t times the exponential of i t omega over all real times, and the result is one over omega whenever the absolute value of omega is at least delta.
+Try that orientation on our two-coordinate example. The positive-two component decays, but the negative-two component grows. Reversing the orientation merely exchanges which one grows. The ordered semigroup argument has failed to meet its own hypothesis; the Sylvester equation has not failed to be solvable.
 
-Think of the time variable as an input to the Fourier transform. We prescribe the transform of mu away from a forbidden interval around zero. Inside that interval, we have freedom, because no spectral difference we need to invert can occur there.
+## Build a two-sided oscillatory inverse
 
-That freedom matters. The function one over frequency is singular at zero, and its naive inverse Fourier transform cannot be used as an absolutely integrable weight. By modifying the desired transform inside the spectral gap, we can obtain an integrable time-domain multiplier.
+Return to unitary evolution, where neither component grows. Instead of integrating the orbit without a weight, multiply it by a suitable scalar function of time and integrate over all real times, both positive and negative.
 
-A scaled reciprocal Fourier kernel can be chosen so that its Fourier multiplier equals the inverse of a spectral difference on the separated sets. Its absolute integral equals pi divided by twice the gap, giving the corresponding operator-norm constant.
+The weight is chosen by its Fourier transform. At every frequency whose absolute value is at least delta, its transform must equal the reciprocal of that frequency. In our example delta is two, so the transform must take negative two to negative one half and positive two to positive one half.
 
-## Build the operator inverse
+Why specify the weight only outside the gap around zero? The reciprocal function becomes singular at zero. But zero cannot occur as a spectral difference under the assumed separation. We may modify the Fourier multiplier near zero to obtain an integrable time weight without changing any frequency needed by the equation.
 
-Return to the operator orbit of C. Multiply it by mu of t and integrate over all real t. Call the resulting operator Y.
+There is a construction whose total absolute mass is pi divided by twice delta. This number measures the size of the integral kernel; it is not the time for a physical evolution, and it is not the actual cost of our two-coordinate example.
 
-In diagonal coordinates, the entry of Y joining eigenvalues a and b is the entry of C times the integral of mu of t times the exponential of i t times a minus b. The multiplier property evaluates this integral as one divided by a minus b.
+Integrating the weighted unitary orbit of C now reconstructs X. On each pair of spectral values, the Fourier transform supplies exactly one over their difference. In our example the two resulting entries are negative one and positive two.
 
-Therefore the entry of Y is the entry of C divided by the spectral difference. We have reconstructed the unique entrywise Sylvester solution.
+## From a formula to a norm estimate
 
-This is more than a compact notation for the finite calculation. The expression is basis independent, and its integrand is defined directly in the space of bounded operators.
+Each unitary factor preserves norms, so the size of the transported C never exceeds the size of C. Multiplying by the weight contributes its absolute value. The norm of an operator-valued integral is at most the integral of the norms.
 
-Because U of t and V of t are unitary, the operator norm of their composition with C equals the operator norm of C. Multiplying by mu scales the norm by the absolute value of mu.
+We therefore obtain the operator-norm bound: delta times the norm of X is at most pi over two times the norm of C. The gap need only separate every left spectral value from every right spectral value. It does not impose an order on them.
 
-Thus the integrand has norm at most the absolute value of mu times the norm of C. The kernel is integrable, so Y exists as a Bochner integral in the complete normed space of bounded operators.
+Notice what the constant records. For the ordered semigroup we integrated a decaying envelope of total mass one over delta. For general separated spectra we use a two-sided oscillatory kernel whose absolute mass is pi over two delta. The latter is a general bound, even though a particular solution may be considerably smaller.
 
-Apply the norm-of-integral inequality. The norm of Y is at most the integral of the absolute value of mu, multiplied by the norm of C. The exact mass of the chosen multiplier gives pi over two delta times the norm of C.
+## What survives without eigenvectors
 
-We have obtained an operator-norm bound for arbitrary pairwise-separated self-adjoint spectra. Its constant is pi over two, rather than the constant one obtained from a one-sided spectral ordering.
+In an infinite-dimensional Hilbert space, a self-adjoint operator need not have a basis of eigenvectors. The finite coefficient story remains a guide, but a proof must use the spectral theorem.
 
-## Why the infinite-dimensional argument needs care
+For bounded self-adjoint A and B, approximate each by a finite spectral step operator, assembled from orthogonal spectral projections. Choose step values inside the original spectral sets. That choice preserves the lower bound on every cross-spectral difference.
 
-In finite dimensions we checked every coefficient in eigenbases. But a bounded self-adjoint operator on an infinite-dimensional Hilbert space may have continuous spectrum and no orthonormal basis of eigenvectors.
+The weighted integral works on each pair of spectral blocks. As the spectral steps approach A and B in operator norm, their unitary exponentials converge at each fixed time. The same integrable kernel dominates all these integrands. Dominated convergence gives the representation for the original bounded operators.
 
-We cannot write an entrywise sum over eigenvalues and pretend it still covers every operator. Instead, the spectral theorem lets us approximate each self-adjoint operator by a finite spectral step operator: a finite linear combination of spectral projections, with coefficients chosen from the original spectrum.
+For unbounded self-adjoint operators, exponential evolution still gives strongly continuous unitary groups, but differentiating requires vectors in the generator's domain. One cannot replace that domain argument by a formal infinite power series. The distinction is between a valid group representation and a derivative identity that is meaningful only on its domain.
 
-For these finite spectral steps, the multiplier identity applies block by block. The approximations converge in operator norm. Their unitary evolutions converge at each fixed time, and the integrable majorant supplied by mu controls the limit under the integral.
+## A second Hilbert space made of maps
 
-Dominated convergence passes the reconstruction formula from spectral truncations to the original operators. Uniform integrable bounds on the approximating integrands justify taking the limit.
+There is also a useful change of viewpoint. Hilbert-Schmidt maps form a Hilbert space whose squared norm sums the squared magnitudes of matrix entries in orthonormal bases. Left-right unitary transport acts unitarily on this new Hilbert space.
 
-It is important that the approximate spectral representatives remain in the original spectra. Otherwise approximation might accidentally shrink the separation and invalidate the reciprocal-frequency formula.
+Its generator is i times the Sylvester operator. The spectral differences become the generator's frequencies. In the Hilbert-Schmidt norm, orthogonality of distinct spectral blocks permits a sharper constant-one estimate even when positive and negative differences coexist.
 
-## How the semigroup and unitary methods differ
-
-Let us compare the two integral constructions.
-
-When A is entirely above B by delta, the semigroup integrand decays as the exponential of negative delta times time. We integrate only over nonnegative times, and the mass of the scalar envelope is one over delta.
-
-For general pairwise-separated spectra, some spectral differences are positive and others negative. A single decaying semigroup cannot treat them all. The unitary representation works with both signs by oscillating over all real times and inserting a Fourier multiplier. The multiplier's absolute mass produces pi over two delta.
-
-The difference in constants comes from the geometry of the spectral configurations and the analytic representation used. We should never replace the second constant by the first without verifying stronger hypotheses.
-
-## An example with both signs
-
-Let A be diagonal with entries negative one and positive one, and B the one-dimensional zero operator. Let C be the column with entries two and three.
-
-The spectral differences are negative one and positive one, so delta equals one. The Sylvester solution has entries negative two and positive three.
-
-For the first coefficient, the unitary orbit oscillates with frequency negative one; for the second, with frequency positive one. The scalar multiplier returns negative one for the first reciprocal and positive one for the second, producing exactly the required signs.
-
-No single choice of positive-time exponential decay using the same orientation can handle both entries. That is the simplest example of why the Fourier method adds genuine coverage.
-
-## The generator viewpoint
-
-There is a broader interpretation. The maps sending X to U of t X V of negative t form a one-parameter unitary group on the Hilbert space of Hilbert–Schmidt operators. Its generator is multiplication by i times the Sylvester operator.
-
-In that Hilbert–Schmidt setting, the entire spectral calculation can be understood as functional calculus for a self-adjoint generator. This will later yield a sharper estimate in the square-summable operator norm.
-
-For now, reconstruct the derivative of the orbit, verify the opposite-frequency example, and derive the norm estimate from the integral's absolute majorant. Those steps prepare us for another solution method that does not require self-adjointness at all: contour integration of resolvents.
+Our small example thus has three readings. Direct division solves it. A semigroup cannot use a single decaying orientation because the differences have opposite signs. The unitary Fourier method handles both signs and gives a general operator-norm bound, while the Hilbert-Schmidt geometry supplies additional square-summable control. The hypotheses on the spectrum and the norm determine which argument is available.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -131,6 +105,29 @@ X=\int_\mathbb R\mu_\delta(t)e^{itA}Ce^{-itB}\,dt,
 \qquad \|X\|\le\frac\pi{2\delta}\|C\|.
 \]
 The source proves bounded infinite-dimensional reconstruction using finite spectral step approximations and dominated convergence. Compare `065000` for the better constant-one ordered case.
+
+**One column through both signs.** With
+\[
+ A=\operatorname{diag}(-2,2),\quad B=[0],\quad
+ C=\begin{bmatrix}2\\4\end{bmatrix},\quad
+ X=\begin{bmatrix}-1\\2\end{bmatrix},
+\]
+we have \(AX-XB=C\), \(\delta=2\),
+\(\|C\|=2\sqrt5\), and \(\|X\|=\sqrt5\).
+The two spectral differences are \(-2\) and \(2\), with reciprocal multipliers
+\(-\tfrac12\) and \(\tfrac12\). This particular column attains
+\(\delta\|X\|=\|C\|\) even though the general operator-norm Fourier bound is
+\(\delta\|X\|\le(\pi/2)\|C\|\). The universal upper bound need not be sharp
+for a given pair of operators.
+
+**Ordered comparison.** If \(A\ge aI\), \(B\le bI\), and \(a-b\ge\delta>0\),
+then for bounded self-adjoint \(A,B\),
+\[
+ X=\int_0^\infty e^{-tA}Ce^{tB}\,dt,
+ \quad \|e^{-tA}Ce^{tB}\|\le e^{-\delta t}\|C\|.
+\]
+The integral is operator-norm convergent. The two-sided example does not
+satisfy this ordering, although its spectra are pairwise separated.
 
 **Lean bridge (verbatim source excerpts).**
 

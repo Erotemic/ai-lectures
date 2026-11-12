@@ -4,99 +4,107 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Finding the Sylvester equation inside a subspace problem
+# Where the Sylvester unknown comes from in subspace geometry
 
-An approximate eigenvector tells us more than its approximate eigenvalue. It also carries a direction, and we want to know how far that direction lies from an exact eigenspace.
+Imagine trying to estimate the error in a spectral subspace. You know an operator, a perturbed operator, and some spectral information, but the quantity you want is an angle between two subspaces. It is not obvious why an equation of the form A X minus X B should appear.
 
-Take a diagonal matrix with eigenvalues zero and five. If a unit trial vector has components cosine theta and sine theta, the vertical component is precisely its leakage into the unwanted exact eigenspace. Applying the matrix multiplies that leakage by five. A residual equation therefore relates the unknown geometric overlap to quantities computed from the trial vector and a chosen trial eigenvalue.
+The key is to find a map X that literally measures how much a vector in one subspace leaks outside the other. Once we project the operator equation onto the right spaces, that leakage map satisfies a Sylvester equation. We can then divide the projected residual by a spectral gap.
 
-For an approximate invariant plane, we need the same relationship at the level of operators. Choose orthonormal coordinates for the trial space and for the exact unwanted spectral subspace. The overlap map goes from trial coordinates to unwanted coordinates. Compressing the residual identity gives a Sylvester equation whose left and right coefficients are the two spectral blocks.
+We will derive the identity before estimating it, and check every piece in a two-dimensional example.
 
-We will derive the equation without equating the trial compression with an exact restriction, and identify which projection and domain conditions become necessary in Hilbert space.
+## Choose the two spectral subspaces
 
-## Two operators and two invariant subspaces
+Let T be a bounded self-adjoint operator on a Hilbert space. Let P be an orthogonal projection onto one of its reducing subspaces. Reducing means T preserves the selected subspace and also its orthogonal complement, or equivalently T commutes with P.
 
-Let T be a bounded self-adjoint operator on a Hilbert space. Let S equal T plus a perturbation E, also self-adjoint. Choose an orthogonal projection P whose range is invariant under T. Choose another orthogonal projection Q whose range is invariant under S. For spectral projections, invariance is automatic and the orthogonal complements are invariant as well.
+Now let S be another bounded self-adjoint operator, with S equal to T plus a perturbation E. Let Q project onto a reducing subspace of S.
 
-We want to measure how much of a vector in the P subspace falls outside the Q subspace. The relevant map first includes a vector from the P subspace into the ambient Hilbert space, then applies I minus Q. Call this map X.
+Call the range of P the old selected space and the range of Q the new selected space. We want to know how far a unit vector from the old space can fall outside the new one.
 
-Its norm is the largest possible length outside Q of a unit vector from P. This is the directed sine of the principal angles from the first subspace to the second: projecting a unit vector into the complementary target space measures the sine of its escape angle. Thus our unknown Sylvester operator will have a direct geometric meaning.
+Take such a vector p. Project it onto the orthogonal complement of Q. This is the part of p that misses the new space. The map performing that operation, restricted to the old space, is our unknown X.
 
-Now restrict S to the orthogonal complement of Q; call this restricted operator A. Restrict T to the range of P; call that operator B. Because both original subspaces reduce their respective self-adjoint operators, A and B are self-adjoint on their smaller Hilbert spaces.
+Its operator norm is the largest length of this missed component over unit vectors in the old selected space. For finite-dimensional equal-rank subspaces, it is the sine of the largest principal angle. More generally, it is the directed sine from the old space to the new one.
 
-The desired equation will be A times X minus X times B equals a projected piece of E.
+## Compress the operators to the right sides
 
-## Derivation one line at a time
+X sends an old selected vector into the complement of the new selected space. So the left coefficient of our Sylvester equation must act on that complement, and the right coefficient must act on the old selected space.
 
-Take a vector p in the range of P. The value X of p is the component of p orthogonal to the range of Q.
+Let A be S restricted to the orthogonal complement of Q. This is legitimate because Q reduces S. Let B be T restricted to the range of P, which is legitimate because P reduces T.
 
-Apply A to X of p. Since S preserves the complement of Q, the result is I minus Q applied to S of p. We used commutation of S with Q to remove an unnecessary second projection.
+The residual should be a map from the old selected space to the new complement, just like X. We will see that it is the perturbation E, first restricted to the old space and then projected outside Q.
 
-Next apply X to B of p. Since B is simply T restricted to the P subspace, and T preserves that subspace, the result is I minus Q applied to T of p.
+Notice the roles. X measures leakage; A and B describe the spectral pieces we need to separate; E is the known change in the original operator.
 
-Subtract. We get I minus Q applied to S of p minus T of p. Since S minus T equals E, the answer is I minus Q applied to E of p.
+## Derive one projected identity
 
-We have proved the exact identity: A X minus X B equals the perturbation E, restricted to the P subspace on the input side and projected outside Q on the output side.
+Take a vector p in the range of P. Apply X: the result is p projected outside Q. Apply A: because S commutes with Q, this is the same as applying S to p and then projecting outside Q.
 
-Nothing in this computation used an estimate. Nothing required the two subspaces to be close. We used only the reducing properties and the equality S equals T plus E.
+Now apply B to p first. B is just T acting within the old selected subspace. Applying X afterward projects T p outside Q.
 
-This order of work is important. First prove an identity with the correct spaces and projections. Only afterward ask what spectral separation is available for A and B.
+Subtract those two results. The projected S p and projected T p differ by the projection of S minus T, applied to p. Since S minus T is E, we get the projection of E p outside Q.
 
-## A two-dimensional calculation
+That is the whole algebraic argument. In operator language, A X minus X B equals the restriction of I minus Q, followed by E, to the range of P. The identity has the correct input and output spaces on both sides.
 
-Let T be diagonal with entries zero and two. Its zero eigenspace is the horizontal coordinate axis, and P projects onto that axis.
+We did not use a small perturbation or a spectral gap. Those hypotheses enter only when we decide how to estimate X from this exact equation.
 
-Let S be the matrix with every entry equal to one. It has eigenvalue zero on the line spanned by the vector one, negative one, and eigenvalue two on the line spanned by one, one. Let Q project onto the zero eigenspace of S.
+## Compute a complete two-dimensional example
 
-The perturbation E is S minus T. Its first column is one, one, while its second column is one, negative one.
+Let T be diagonal with values zero and two. The old selected subspace is the horizontal coordinate axis, so P projects onto that axis.
 
-The Q complement is the line spanned by the normalized vector one, one. The vector e-one, which generates the P subspace, has projection onto that line of length one over the square root of two. Therefore the norm of X is one over the square root of two.
+Let S be the matrix whose four entries are all one. It has eigenvalue zero on the diagonal line pointing down and right, represented by the vector one, negative one. It has eigenvalue two on the other diagonal, represented by one, one. Choose Q as the projection onto the zero eigenspace of S.
 
-A is multiplication by two on that Q-complement line. B is multiplication by zero on the P line. So A X minus X B is simply twice X, whose norm is the square root of two.
+Start with the unit vector e-one along the old horizontal axis. Its component outside Q lies on the up-right diagonal. That component is the vector one half, one half, whose length is one over the square root of two.
 
-Meanwhile E sends e-one to one, one, which already lies in the Q complement. Its norm is the square root of two. The right-hand side agrees exactly, not just approximately.
+Thus X has norm one over the square root of two. It is exactly the directed sine of a forty-five-degree angle between the old horizontal line and the new down-right diagonal line.
 
-The spectral gap between A and B is two. The constant-one Sylvester inequality becomes two times one over the square root of two at most the square root of two. Here equality holds.
+Next identify the compressed coefficients. On the new complement, S acts as multiplication by two. On the old selected line, T acts as multiplication by zero. So A X minus X B is simply twice X.
 
-## What the gap does and does not compare
+Compute E as S minus T. Applied to e-one, E produces the vector one, one. That is already in the new complement. Its length is the square root of two. Twice the length of X is also the square root of two.
 
-Notice which spectra appear: the selected spectral part of T, and the complementary spectral part of S. In this example they were the eigenvalues zero and two.
+Every part of the compressed Sylvester identity agrees. The restricted spectral gap is two, the residual has norm the square root of two, and the exact sine of the angle is one over the square root of two. The constant-one inequality holds with equality here.
 
-A gap between the entire spectra of T and S would be irrelevant and often impossible to assume. Both operators may have eigenvalues in the same region. The useful condition separates the target cluster of one operator from the exterior cluster of the other.
+## What gap must actually be checked?
 
-The identity alone gives no angle bound if those two restricted spectra meet. When A and B share a value, the Sylvester operator may have a kernel, so a small residual need not imply a small cross-projection block.
+The two compressed spectra in the example are zero, from the old selected piece of T, and two, from the complementary piece of S. The gap is between those two particular pieces.
 
-If A and B are separated by a positive ordered gap, the semigroup theorem gives the operator-norm estimate. Under merely pairwise separation, the Hilbert–Schmidt theorem gives its square-norm bound, with the corresponding operator-norm bounds needing their own hypotheses.
+It would make little sense to demand that the *entire* spectra of T and S be disjoint. In this example they both have zero and two as eigenvalues. Yet the useful compressed spectral blocks are separated.
 
-This explains why exact spectral-gap wording is essential in any sine-theta theorem.
+If the compressed spectra are ordered, the semigroup estimate gives delta times the operator norm of X at most the projected residual norm. If they are merely pairwise separated, the Hilbert-Schmidt argument controls the corresponding square norm, and the operator-norm estimate may have a different constant.
 
-## The companion directed block
+This is why a sine-theta theorem must state exactly which selected cluster is separated from which complementary cluster, and in which norm.
 
-There is a second directed error, obtained by starting with a vector in Q and measuring how much lies outside P. Its operator maps the Q subspace to the complement of P.
+## The opposite directed leakage
 
-Run the same construction with S and T exchanged. The right-hand side is now the corresponding projection of negative E. Its norm obeys the same elementary estimate because replacing E by negative E does not change norm.
+We can reverse the question. Start with a vector in the new selected space and ask how much of it lies outside the old selected space. The corresponding map projects a vector from the range of Q onto the complement of P.
 
-For equal-dimensional finite subspaces, the nontrivial principal angles agree in the two directions. In different dimensions or infinite dimensions, the directed blocks carry different information about defects and right-angle directions. We cannot discard one solely because the other is small unless the geometry supplies an additional identification.
+Applying the same derivation with the roles of S and T exchanged produces a second Sylvester equation, with the corresponding projected negative perturbation.
 
-The two crossed blocks encode escape in opposite directions. When dimensions differ, one direction can have a right-angle defect that the other does not; the ambient difference between the two projections records both.
+For two one-dimensional lines, the directed sine is the same in both directions. In higher dimensions, unequal ranks and right-angle defects can make the two directed errors different. A bound on one direction does not automatically control the other unless a separate geometric argument applies.
 
-## The Rayleigh–Ritz version
+The two crossed maps are therefore separate pieces of information in an ambient projection estimate.
 
-The same algebra works when the P subspace is only a trial subspace and need not be invariant. Let V be an isometric embedding of the trial coordinate space. Form the compressed matrix M by applying V adjoint, then T, then V. Its residual R is T V minus V M.
+## The trial-subspace version
 
-Let Q now be a genuine reducing spectral projection of T. The cross map X is I minus Q applied to V. Let A be T restricted to the Q complement. Multiply X by A, subtract X M, and use commutation of Q with T.
+A closely related identity works even when our trial subspace is not invariant. Suppose V embeds a finite-dimensional coordinate space isometrically into the Hilbert space. Its columns form an orthonormal trial frame.
 
-The result is I minus Q applied to R. The proof takes the same three lines as before. We obtain a Sylvester equation whose right-hand side is the portion of the Rayleigh–Ritz residual outside the exact spectral subspace.
+Let M be the compression V adjoint T V. This is the matrix of the trial operator in the chosen coordinates. Define the residual R to be T V minus V M. The residual measures the part of the action of T that the trial compression does not reproduce.
 
-This version explains the appearance of residual norms in eigenvector and invariant-subspace approximation theory. One does not need to first construct a perturbed operator S. The trial subspace itself supplies the compression and the residual.
+Let Q now be an exact reducing spectral projection of T. Our leakage map X is V followed by projection outside Q. The left coefficient is T restricted to that exact complement, and the right coefficient is the finite matrix M.
 
-## Domains in the unbounded setting
+Apply the same projected subtraction. We obtain A X minus X M equal to the projection of R outside Q.
 
-The extension requires an additional hypothesis. If T or S is unbounded, its action is defined only on its domain. The expression T applied to a vector in the P subspace is meaningful only if that vector belongs to the domain. The apparent matrix multiplication may be illegal otherwise.
+Here is a quick numerical check. Let T again be diagonal with values zero and two. Take a unit trial vector making thirty degrees with the horizontal zero-eigenvector. Its compression M is one half. Its leakage into the vertical complementary eigenspace has length one half.
 
-The infinite-dimensional source develops bounded spectral cut operators and proves block identities first on dense domains. It then extends the resulting bounded expressions using continuity. Spectral projections commute with the self-adjoint operator in a domain-aware sense, and bounded spectral windows control the terms individually.
+The difference between the exact exterior eigenvalue two and the trial compression one half is one and a half. The exterior component of the residual has length three quarters. Multiplying the gap one and a half by the leakage one half gives precisely three quarters.
 
-The exact bounded-operator residual identity identifies the unknown cross-projection block, both compressed generators, and the residual. The Hilbert-space extension requires spectral projections with the right measurability properties; for unbounded generators it additionally requires domain compatibility.
+The full residual is larger because it also has a component along the exact zero eigenspace. It is the projected exterior residual that appears in the identity. A bound using the full residual is valid but may lose sharpness.
+
+## Domain boundaries in infinite dimensions
+
+If T or S is unbounded, a spectral projection may preserve the operator's domain in the proper spectral-theoretic sense, but that must be established. We cannot apply T to an arbitrary vector merely because the vector lies in its ambient Hilbert space.
+
+A domain-aware proof begins on vectors for which every composition is defined. It may use bounded spectral windows to control the operators and extend a bounded identity after proving continuity. The compressed left and right operators must have stated domains, and the range of X must meet those domains wherever the Sylvester expression is evaluated.
+
+For bounded self-adjoint operators the derivation is elementary projection algebra. Its value is that it shows which object an angle theorem must estimate: a cross-projection map satisfying an exact Sylvester equation, whose right-hand side is a projected perturbation or Ritz residual. Spectral separation supplies the inequality only after that geometry is in place.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -119,6 +127,39 @@ This also has a Rayleigh–Ritz variant: if \(V^*V=I\), \(M=V^*TV\), \(R=TV-VM\)
 (T|_{Q^\perp})[(I-Q)V]-[(I-Q)V]M=(I-Q)R.
 \]
 The infinite-dimensional Lean source uses domain-aware spectral cuts, and its block identity is more general than the bounded-algebra proof narrated here.
+
+**Projected perturbation worked example.** With
+\[
+T=\begin{bmatrix}0&0\\0&2\end{bmatrix},\qquad
+S=\begin{bmatrix}1&1\\1&1\end{bmatrix},\qquad
+E=S-T=\begin{bmatrix}1&1\\1&-1\end{bmatrix},
+\]
+let \(P=e_1e_1^*\) and \(Q=qq^*\) for
+\(q=(1,-1)^\mathsf T/\sqrt2\). Then
+\[
+Xe_1=(I-Q)e_1=(1/2,1/2)^\mathsf T,\quad
+A=\left.S\right|_{Q^\perp}=2,\quad B=\left.T\right|_P=0,
+\]
+and \(AXe_1-XBe_1=(1,1)^\mathsf T=(I-Q)Ee_1\). Consequently
+\(2\|X\|=\sqrt2=\|(I-Q)E|_P\|\) with \(\|X\|=1/\sqrt2\).
+
+**Ritz-residual worked example.** For the same
+\(T=\operatorname{diag}(0,2)\), choose
+\(v=(\sqrt3/2,1/2)^\mathsf T\), \(V:\mathbb C\to\mathbb C^2\),
+\(V(1)=v\), and \(Q=e_1e_1^*\). Then
+\[
+M=V^*TV=1/2,\quad
+R=Tv-vM=(-\sqrt3/4,3/4)^\mathsf T,\quad
+X=(I-Q)v=(0,1/2)^\mathsf T.
+\]
+The restricted exterior operator is \(A=2\), and
+\[
+AX-XM=(2-1/2)(0,1/2)^\mathsf T=(0,3/4)^\mathsf T
+=(I-Q)R,\quad
+\|R\|=\sqrt3/2,\quad \|(I-Q)R\|=3/4.
+\]
+The exact sine of the trial-vector angle is \(1/2\), and the projected
+residual gives \((3/2)(1/2)=3/4\) without excess.
 
 **Lean bridge (verified source excerpts).**
 
