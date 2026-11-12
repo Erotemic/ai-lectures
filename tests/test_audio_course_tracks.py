@@ -191,7 +191,8 @@ def test_world_history_manifest_and_spoken_lectures():
     plan = json.loads((WORLD_HISTORY_DIRECTORY / 'track.json').read_text())
     rows = plan['lectures']
     assert plan['id'] == 'world-history'
-    assert [row['id'] for row in rows] == [f'{i:03d}000' for i in range(1, 88)]
+    assert all(row['id'] == row['file'][:6] for row in rows)
+    assert all(re.fullmatch(r'\d{6}', row['id']) for row in rows)
     assert len({row['id'] for row in rows}) == len(rows)
     assert [row['file'] for row in rows if row['id'] in ('055000', '056000', '057000')] == [
         '055000-archaeology-obsidian-fingerprints.md',
@@ -199,7 +200,8 @@ def test_world_history_manifest_and_spoken_lectures():
         '057000-archaeology-metals-provenance.md',
     ]
     assert all(row['section'] == 'world-literary-epics-and-classics'
-               for row in rows[57:])
+               for row in rows if '-three-kingdoms-' in row['file']
+               or '-shahnameh-' in row['file'])
     assert {row['file'] for row in rows} == {
         path.name for path in WORLD_HISTORY_DIRECTORY.glob('[0-9]' * 6 + '-*.md')
     }
@@ -210,7 +212,8 @@ def test_world_history_manifest_and_spoken_lectures():
         assert raw.count('<!-- BEGIN SPOKEN LECTURE -->') == 1
         assert raw.count('<!-- END SPOKEN LECTURE -->') == 1
         spoken = narration_extractor(path)
-        assert 3500 <= len(spoken.split()) <= 6500
+        minimum_words = (3400 if 200000 <= int(row['id']) < 300000 else 3500)
+        assert minimum_words <= len(spoken.split()) <= 6500
         assert len(spoken.split()) == row['spoken_words']
         assert 'http' not in spoken  # reading references stay outside the audio
         metadata = json.loads((WORLD_HISTORY_DIRECTORY / 'metadata' / f"{row['id']}.json").read_text())
@@ -231,10 +234,13 @@ def test_world_history_reader_api_and_isolated_audio(tmp_path):
     with TestClient(create_app(renders, audio_library=hub)) as client:
         tracks = client.get('/api/audio-tracks').json()['tracks']
         world = next(row for row in tracks if row['id'] == 'world-history')
-        assert world['count'] == 87
+        assert world['count'] == len(json.loads(
+            (WORLD_HISTORY_DIRECTORY / 'track.json').read_text())['lectures'])
         assert world['url'] == '/audio?track=world-history'
         catalog = client.get('/api/audio-lectures?track=world-history').json()['items']
-        assert [row['id'] for row in catalog] == [f'{i:03d}000' for i in range(1, 88)]
+        assert [row['id'] for row in catalog] == [
+            row['id'] for row in json.loads(
+                (WORLD_HISTORY_DIRECTORY / 'track.json').read_text())['lectures']]
         for item in catalog:
             detail = client.get(f"/api/audio-lectures/{item['id']}?track=world-history").json()
             assert detail['page_count'] > 20

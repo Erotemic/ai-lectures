@@ -128,3 +128,22 @@ experiment outputs must remain in ignored local storage and out of committed
 examples or documentation. Use only approved reference names in shared
 examples. Raw voice recordings remain untracked even when their basenames
 are approved for documentation.
+
+## Concurrent World History lecture work
+
+The World History audio track accepts contributions from multiple agents.
+Stable lecture IDs are public playback/cache identifiers. Reserve and verify
+new IDs against the *current* repository before starting a series. The
+`200000`–`299000` range belongs to the independent *How We Know* archaeology
+strand; literary series must use another free range.
+
+Do not install a stale overlay with `unzip -o` over the repository. It can
+replace `draft-stages/tts-world-history/track.json`,
+`metadata/sources.json`, shared tests, or the README and discard work by
+other agents. Instead apply lecture overlays with
+`python tools/merge_world_history_overlay.py --zip /path/to/overlay.zip`.
+That tool merges catalog additions by ID and refuses differing existing files.
+Contributions should contain new transcript and per-lecture metadata files,
+unique per-series documentation, and proposed shared JSON catalogs. Avoid
+rewriting common tests and README files for routine lecture additions. Run the
+world-history reader tests after integrating and verify the full inventory.
