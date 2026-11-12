@@ -1,28 +1,27 @@
 # History · People and ideas
 
-The playable History track contains **fifteen researched long-form biographies**:
+The playable History track contains **sixteen researched long-form biographies**:
 Camille Jordan, Lord Rayleigh, Walther Ritz, Hermann Weyl, Richard Courant,
 Ernst Fischer, David Hilbert, Frigyes Riesz, John von Neumann, Robert Schatten,
-Ky Fan, Béla Szőkefalvi-Nagy, Tosio Kato, Chandler Davis, and William Kahan.
+Ky Fan, Béla Szőkefalvi-Nagy, Paul Halmos, Tosio Kato, Chandler Davis,
+and William Kahan.
 
-The expanded **Béla Szőkefalvi-Nagy** lecture (`013000`) has **6,224 spoken
-words** (approximately **42.9 minutes** at 145 words per minute). It
-follows his life in Kolozsvár and Szeged, the 1947 perturbation and nearby-
-projection construction, the 1953 unitary power-dilation theorem, exact
-examples of one-step failure and all-powers success, defect operators,
-Fourier moments, von Neumann's inequality, the Sz.-Nagy–Foiaș program, and
-his collaboration with Riesz. A display-only companion contains the proofs,
-calculations, and source chronology.
+**Paul Halmos** (`014000`) is a 6,310-word spoken lecture (approximately
+43.5 minutes at 145 words per minute). His mathematical life runs from
+probability and measure under Doob through von Neumann and Princeton to
+ergodic theory, logic, and modern operator theory. The 1969 *Two Subspaces*
+normal form is taught through rank-one angles, four exceptional intersections,
+positive cosine/sine operators, generic and limiting geometry, graph operators,
+half-angle constructions, commutants, and spectral-subspace perturbation.
+A non-spoken companion contains the equations, derivations and source record.
 
-The Ky Fan lecture (`012000`) has **5,758 spoken words**, approximately **39.7
-minutes** at 145 words per minute, and covers spectral inequalities,
-majorization, and minimax theory.
+The Szőkefalvi-Nagy portrait (`013000`) has 6,224 spoken words, approximately
+42.9 minutes; Ky Fan (`012000`) has 5,758 spoken words, approximately
+39.7 minutes. Each portrait can be heard on its own and contains no spoken
+references to neighboring lectures.
 
-All recordings stand alone for their mathematical audience. TTS extraction
-excludes display-only mathematics and reading metadata. Estimated portrait
-lengths are approximately **27–43 minutes** at 145 words per minute;
-synthesized duration varies by voice and settings.
-
-The remaining **thirteen short sketches** are retained in `stubs/`, excluded
-from the playable track until researched and expanded. Stable historical IDs
-are preserved, including gaps in the playable sequence.
+The remaining **twelve shorter historical sketches** are retained in `stubs/`
+and excluded from playback. Stable lecture identifiers are preserved.
+The spoken region is delimited by the lecture comment markers; mathematical
+appendices and source references are display-only. Duration estimates depend
+on TTS voice and speed; no audio is bundled here.

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-halmos.md",
+  "related_resources": [
+    {
+      "source_id": "history-halmos-bio",
+      "reason": "Full historical life and career reconstruction, including family and emigration."
+    },
+    {
+      "source_id": "history-halmos-iu",
+      "reason": "Independent institutional career chronology and award dates."
+    },
+    {
+      "source_id": "history-halmos-primary",
+      "reason": "Original 1969 mathematical paper: theorems 1–3, commutant, classification corollary."
+    },
+    {
+      "source_id": "history-halmos-jstor-1969",
+      "reason": "Period bibliography and exact 1969 pagination."
+    },
+    {
+      "source_id": "history-halmos-ams-abstract",
+      "reason": "Author’s original 1969 meeting abstract and geometric half-angle motivation."
+    },
+    {
+      "source_id": "history-halmos-dixmier",
+      "reason": "Historical priority for the earlier Dixmier classification."
+    },
+    {
+      "source_id": "history-halmos-generic-pair-review",
+      "reason": "Modern precise statement of the CS block and four exceptional intersections."
+    },
+    {
+      "source_id": "history-halmos-1944-mixing",
+      "reason": "Original paper on topological genericity of mixing."
+    },
+    {
+      "source_id": "history-halmos-mixing-2008",
+      "reason": "Modern terminology and priority for 1944 generic weak mixing."
+    },
+    {
+      "source_id": "history-halmos-ias-pup",
+      "reason": "Princeton publisher confirmation of 1942 book and von Neumann context."
+    },
+    {
+      "source_id": "history-halmos-books",
+      "reason": "Contemporary reviews and bibliographic chronology of major textbooks."
+    },
+    {
+      "source_id": "history-halmos-books-2",
+      "reason": "Hilbert space and ergodic theory book descriptions."
+    },
+    {
+      "source_id": "history-halmos-how-to-write",
+      "reason": "Publication bibliographic record for essay on mathematical writing."
+    },
+    {
+      "source_id": "history-halmos-chauvenet",
+      "reason": "Official record of the Chauvenet Prize for his probability exposition."
+    },
+    {
+      "source_id": "history-halmos-steele",
+      "reason": "1983 Steele Prize and teaching/academic awards."
+    },
+    {
+      "source_id": "history-halmos-photographs",
+      "reason": "Primary contextual photo archive, with no binary assets included."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "014000-h01",
+      "anchor": "Paul Richard Halmos was born on March third, nineteen sixteen, in Budapest",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-halmos-bio"
+      ],
+      "source_locator": "MacTutor biographical chronology, birth and emigration",
+      "audit_status": "historical_sources_cross_checked"
+    },
+    {
+      "id": "014000-h02",
+      "anchor": "In nineteen thirty-eight he completed a doctorate under Joseph Doob",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-halmos-bio",
+        "history-halmos-iu"
+      ],
+      "source_locator": "MacTutor and IU education records",
+      "audit_status": "historical_sources_cross_checked"
+    },
+    {
+      "id": "014000-h03",
+      "anchor": "A course by von Neumann inspired Halmos to write *Finite Dimensional Vector Spaces*, published in nineteen forty-two.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-halmos-ias-pup",
+        "history-halmos-bio"
+      ],
+      "source_locator": "Princeton 100-year book review, page 10; MacTutor biography",
+      "audit_status": "historical_sources_cross_checked"
+    },
+    {
+      "id": "014000-h04",
+      "anchor": "In a nineteen forty-four paper, he proved that weak mixing is generic in a suitable topological sense",
+      "kind": "historical_mathematical_priority",
+      "source_ids": [
+        "history-halmos-1944-mixing",
+        "history-halmos-mixing-2008"
+      ],
+      "source_locator": "Annals of Mathematics 45 (1944), 786–792; Glasner and Weiss 2008 historical summary",
+      "audit_status": "historical_sources_cross_checked"
+    },
+    {
+      "id": "014000-h05",
+      "anchor": "This is the problem at the heart of a paper that Paul Halmos published in nineteen sixty-nine, with the remarkably plain title, *Two Subspaces*.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-halmos-primary",
+        "history-halmos-jstor-1969"
+      ],
+      "source_locator": "Transactions AMS 144 (1969), 381–389",
+      "audit_status": "primary_text_checked"
+    },
+    {
+      "id": "014000-h06",
+      "anchor": "In this remaining space, none of the four special intersections contains a nonzero vector.",
+      "kind": "mathematical_theorem",
+      "source_ids": [
+        "history-halmos-primary"
+      ],
+      "source_locator": "Primary paper original p. 381, introduction: four exceptional intersections and generic component",
+      "audit_status": "primary_text_checked"
+    },
+    {
+      "id": "014000-h07",
+      "anchor": "The first projection has the block form: identity in the upper left, zero everywhere else.",
+      "kind": "mathematical_theorem",
+      "source_ids": [
+        "history-halmos-primary"
+      ],
+      "source_locator": "Original Theorem 2, printed p. 384",
+      "audit_status": "primary_text_checked"
+    },
+    {
+      "id": "014000-h08",
+      "anchor": "Halmos turned this elementary picture into a third theorem in his paper.",
+      "kind": "mathematical_theorem",
+      "source_ids": [
+        "history-halmos-primary",
+        "history-halmos-ams-abstract"
+      ],
+      "source_locator": "Original Theorem 3, printed pp. 387–388, bounded half-angle graph and its negative",
+      "audit_status": "primary_text_checked"
+    },
+    {
+      "id": "014000-h09",
+      "anchor": "Halmos used his normal form to offer a transparent new route to that classification in generic position.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "history-halmos-primary",
+        "history-halmos-dixmier"
+      ],
+      "source_locator": "Original pp. 388–389, explicit acknowledgement of Dixmier 1948",
+      "audit_status": "primary_text_checked"
+    },
+    {
+      "id": "014000-h10",
+      "anchor": "The American Mathematical Society awarded Halmos its Steele Prize for exposition in nineteen eighty-three.",
+      "kind": "historical_award",
+      "source_ids": [
+        "history-halmos-iu",
+        "history-halmos-bio"
+      ],
+      "source_locator": "IU honors list and MacTutor record",
+      "audit_status": "historical_sources_cross_checked"
+    },
+    {
+      "id": "014000-h11",
+      "anchor": "He died in California in October two thousand six, aged ninety.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-halmos-bio",
+        "history-halmos-iu"
+      ],
+      "source_locator": "MacTutor and Indiana institutional records",
+      "audit_status": "historical_sources_cross_checked"
+    }
+  ]
+}

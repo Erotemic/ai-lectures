@@ -278,25 +278,28 @@
       "notes": "Accessible meaning of unitarity and examples; introduction rather than an historical primary document."
     },
     "history-halmos-bio": {
-      "title": "Paul Halmos — biographical or contributor record",
-      "kind": "biography_or_author_record",
+      "title": "MacTutor — Paul Richard Halmos (1916–2006)",
+      "kind": "historical_biography",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Halmos/",
       "access": "free_no_login",
-      "notes": "Person-specific source for Paul Halmos; for living contributors some records document authorship rather than personal biography."
+      "format": "html",
+      "notes": "Detailed biographical chronology: Budapest, Chicago, Illinois, Doob, Princeton, von Neumann, books, career moves, family, death."
     },
     "history-halmos-primary": {
-      "title": "Paul Halmos — Research publication",
-      "kind": "historical_primary_or_exposition",
-      "url": "https://doi.org/10.1090/S0002-9947-1969-0251519-5",
+      "title": "P. R. Halmos, Two Subspaces, Transactions AMS 144 (1969), 381–389",
+      "kind": "historical_primary_publication",
+      "url": "https://www.ams.org/tran/1969-144-00/S0002-9947-1969-0251519-5/S0002-9947-1969-0251519-5.pdf",
       "access": "free_no_login",
-      "notes": "Published mathematical research relevant to this person's contribution; authorship is discussed in the lecture."
+      "format": "pdf",
+      "notes": "Original 1969 paper. Theorem 1 (pp. 382–383): axis/graph with densely-defined closed transformation. Theorem 2 (pp. 384–385): cosine–sine positive-operator block. Theorem 3 (pp. 387–388): bounded half-angle ±graph. Dixmier classification as corollary (pp. 388–389). The scanned PDF is indexed as full text; image screenshot endpoint gave 403."
     },
     "history-halmos-topic": {
       "title": "Orthogonal projection",
       "kind": "accessible_topic_reference",
       "url": "https://en.wikipedia.org/wiki/Projection_(linear_algebra)",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the Paul Halmos lecture."
+      "format": "html",
+      "notes": "Definition, symmetry and idempotence of orthogonal projections, accessible background to block calculations."
     },
     "history-dixmier-bio": {
       "title": "Jacques Dixmier — biographical or contributor record",
@@ -1706,6 +1709,126 @@
       "access": "free_no_login",
       "format": "html",
       "notes": "Photo credit: Zsuzsa G. Fábri, Hungarian Academy collection, 1982. Image not included; verify reuse rights before presentation use."
+    },
+    "history-halmos-iu": {
+      "title": "Indiana University — Paul R. Halmos institutional biography",
+      "kind": "institutional_biography",
+      "url": "https://honorsandawards.iu.edu/awards/honoree/1615.html",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Confirms academic appointments, degrees, honors and awards, including 1969 joining Indiana and 1983 Steele Prize."
+    },
+    "history-halmos-ias-pup": {
+      "title": "Princeton University Press, 100-year retrospective: Finite Dimensional Vector Spaces (1942)",
+      "kind": "historical_publisher_record",
+      "url": "https://assets.press.princeton.edu/about_pup/PUP100/book/1eWright.pdf",
+      "access": "free_no_login",
+      "format": "pdf",
+      "notes": "Princeton publisher account of 1942 book and its von Neumann lecture context; page 10."
+    },
+    "history-halmos-jstor-1969": {
+      "title": "JSTOR Transactions AMS 144 (October 1969) contents",
+      "kind": "historical_bibliography",
+      "url": "https://www.jstor.org/stable/i334290",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Volume 144 October 1969 entry, Two Subspaces, pages 381–389, DOI link."
+    },
+    "history-halmos-ams-abstract": {
+      "title": "Halmos, Two subspaces, 1969 Bulletin AMS meeting abstract",
+      "kind": "historical_primary_abstract",
+      "url": "https://www.ams.org/journals/notices/196908/196908FullIssue.pdf",
+      "access": "free_no_login",
+      "format": "pdf",
+      "notes": "Halmos abstract 667-19 at original p. 761, describing graph models and half-angle reflected graphs."
+    },
+    "history-halmos-dixmier": {
+      "title": "J. Dixmier, Position relative de deux variétés linéaires fermées dans un espace de Hilbert (1948)",
+      "kind": "historical_primary_bibliography",
+      "url": "https://www.ams.org/tran/1969-144-00/S0002-9947-1969-0251519-5/S0002-9947-1969-0251519-5.pdf",
+      "access": "free_no_login",
+      "format": "pdf",
+      "notes": "Halmos 1969 original paper explicitly cites Dixmier, Revue Sci. 86 (1948) 387–399; corollary credits the earlier classification theorem."
+    },
+    "history-halmos-generic-pair-review": {
+      "title": "The numerical range and spectrum of a product of two orthogonal projections (2013)",
+      "kind": "mathematical_exposition",
+      "url": "https://doi.org/10.1016/j.jmaa.2013.09.024",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Later reference displaying the five-piece decomposition and positive cosine–sine block form as Halmos two-subspace theorem."
+    },
+    "history-halmos-1944-mixing": {
+      "title": "Halmos, In General a Measure Preserving Transformation is Mixing, Annals Math 45 (1944), 786–792",
+      "kind": "historical_primary_publication",
+      "url": "https://doi.org/10.2307/1969304",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Original paper on generic mixing; modern terminology distinguishes generic weak mixing from strong mixing, as described by Glasner and Weiss."
+    },
+    "history-halmos-mixing-2008": {
+      "title": "Glasner and Weiss, Topological Groups with Rokhlin Properties (2008)",
+      "kind": "historical_mathematical_review",
+      "url": "https://cris.huji.ac.il/en/publications/topological-groups-with-rokhlin-properties/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Modern peer-reviewed abstract confirms Halmos 1944 generic weak mixing and subsequent Rokhlin simplification."
+    },
+    "history-halmos-books": {
+      "title": "MacTutor — reviews of Halmos books",
+      "kind": "historical_book_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Halmos_books/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Dates, bibliographic context and contemporary reviews of major books, including 1942 linear algebra and 1950 measure theory."
+    },
+    "history-halmos-books-2": {
+      "title": "MacTutor — book reviews and early editions",
+      "kind": "historical_book_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Halmos_books_1/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "1951 Hilbert space/spectral multiplicity, 1956 ergodic theory, and further original reviewer descriptions."
+    },
+    "history-halmos-steele": {
+      "title": "Indiana University award chronology for Paul Halmos",
+      "kind": "institutional_award_record",
+      "url": "https://honorsandawards.iu.edu/awards/honoree/1615.html",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Institutional listing of 1983 AMS Steele Prize and other academic honors."
+    },
+    "history-halmos-chauvenet": {
+      "title": "MAA Chauvenet Prize official winners",
+      "kind": "institutional_award_record",
+      "url": "https://maa.org/chauvenet-prizes/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "MAA list credits Halmos 1947 award for 1944 article The Foundations of Probability; IU chronology uses 1948, so lecture does not specify award year."
+    },
+    "history-halmos-how-to-write": {
+      "title": "Halmos, How to Write Mathematics (1970), publication record",
+      "kind": "historical_primary_bibliography",
+      "url": "https://www.compadre.org/gradta/items/detail.cfm?ID=9875",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Publication record, L’Enseignement Mathématique 16 (1970), 123–152; referenced for editorial work, not quoted in the narration."
+    },
+    "history-halmos-photographs": {
+      "title": "Mathematical Association of America, Paul R. Halmos photograph collection",
+      "kind": "historical_photo_archive",
+      "url": "https://old.maa.org/press/periodicals/convergence/whos-that-mathematician-images-from-the-paul-r-halmos-photograph-collection",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Institutional contextual account of photographic record. No images are bundled in overlay."
+    },
+    "history-halmos-autobiography": {
+      "title": "MacTutor biography — Halmos autobiography and interviews",
+      "kind": "historical_biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Halmos/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Cites Halmos, I Want to Be a Mathematician: An Automathography (1985); biography recounts autobiographical events."
     }
   }
 }
