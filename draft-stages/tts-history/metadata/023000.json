@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "lecture_id": "023000",
+  "transcript": "023000-stewart.md",
+  "related_resources": [
+    {
+      "source_id": "history-stewart-bio",
+      "reason": "Obituary by colleagues and son documents the complete life, honors, memory and 2026 death."
+    },
+    {
+      "source_id": "history-stewart-oral",
+      "reason": "Stewart’s account of his early computing career and collaborations recorded in 2006."
+    },
+    {
+      "source_id": "history-stewart-umd",
+      "reason": "University of Maryland remembrance and institutional service chronology."
+    },
+    {
+      "source_id": "history-stewart-duff",
+      "reason": "Iain Duff’s retrospective biographical chapter in the selected works."
+    },
+    {
+      "source_id": "history-stewart-bartels",
+      "reason": "1972 original Bartels–Stewart algorithm for Sylvester equations."
+    },
+    {
+      "source_id": "history-stewart-qz",
+      "reason": "Original 1973 Moler–Stewart generalized eigenvalue/QZ paper."
+    },
+    {
+      "source_id": "history-stewart-primary",
+      "reason": "1973 characteristic subspace perturbation theory and constructive iteration."
+    },
+    {
+      "source_id": "history-stewart-1977qr",
+      "reason": "Original study of QR factor perturbations."
+    },
+    {
+      "source_id": "history-stewart-1977ls",
+      "reason": "Survey of pseudoinverses, orthogonal projectors and least-squares perturbations."
+    },
+    {
+      "source_id": "history-stewart-linpack",
+      "reason": "LINPACK authorship and release documentation."
+    },
+    {
+      "source_id": "history-stewart-stochastic",
+      "reason": "First-order random-error treatment from 1990."
+    },
+    {
+      "source_id": "history-stewart-topic",
+      "reason": "1990 matrix perturbation theory monograph with Ji-guang Sun."
+    },
+    {
+      "source_id": "history-stewart-selected",
+      "reason": "2010 selected works, topical commentaries and career retrospective."
+    },
+    {
+      "source_id": "history-stewart-gauss",
+      "reason": "Historical Gauss translation and commentary, 1995."
+    },
+    {
+      "source_id": "history-stewart-introbook",
+      "reason": "Early book and pedagogy."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "023000-h01",
+      "anchor": "Pete Stewart was born on October first, nineteen forty",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-bio",
+        "history-stewart-oral"
+      ],
+      "source_locator": "SIAM obituary, early life; oral-history profile, 1940 birth",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h02",
+      "anchor": "His father worked as a journalist",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-bio"
+      ],
+      "source_locator": "SIAM obituary, paragraph 2",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h03",
+      "anchor": "He completed high school there in nineteen fifty-seven",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-oral",
+        "history-stewart-duff"
+      ],
+      "source_locator": "Oral history 1957; Duff 2010 biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h04",
+      "anchor": "In nineteen fifty-nine, after his second year, a summer job at the Oak Ridge gaseous diffusion plant",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-duff",
+        "history-stewart-bio"
+      ],
+      "source_locator": "Duff 2010 account of 1959 summer; obituary Oak Ridge",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h05",
+      "anchor": "Stewart graduated from Tennessee in nineteen sixty-three",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-oral"
+      ],
+      "source_locator": "SIAM 2006 oral history, university chronology",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h06",
+      "anchor": "He returned to Oak Ridge, spent a period programming for General Electric",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-oral",
+        "history-stewart-bio"
+      ],
+      "source_locator": "SIAM 2006 oral-history summary; SIAM 2026 obituary",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h07",
+      "anchor": "Stewart completed his doctorate under Householder in nineteen sixty-eight",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-oral",
+        "history-stewart-bio"
+      ],
+      "source_locator": "SIAM interview and obituary, thesis",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h08",
+      "anchor": "After his doctorate, Stewart joined the University of Texas at Austin",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-oral",
+        "history-stewart-umd"
+      ],
+      "source_locator": "Oral history Texas 1968–1972; UMD appointments",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h09",
+      "anchor": "Richard Bartels and Pete Stewart published their numerical method in nineteen seventy-two",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-stewart-bartels"
+      ],
+      "source_locator": "Communications of the ACM 15(9) (1972) 820–826",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h10",
+      "anchor": "Stewart and Cleve Moler developed the QZ algorithm, published in nineteen seventy-three",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-stewart-qz"
+      ],
+      "source_locator": "SIAM J Numer Anal 10(2) (1973), original abstract",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h11",
+      "anchor": "the algorithm makes no inversions of B or its submatrices",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-stewart-qz"
+      ],
+      "source_locator": "1973 original paper abstract",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h12",
+      "anchor": "In nineteen seventy-three, Stewart published a major paper in SIAM Review",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-stewart-primary"
+      ],
+      "source_locator": "SIAM Review 15(4) (1973), 727–764",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h13",
+      "anchor": "It tied the existence of a nearby invariant subspace to an iterative construction",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-stewart-primary"
+      ],
+      "source_locator": "1973 abstract, iterative process to bound error and perturbation",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h14",
+      "anchor": "Stewart's nineteen seventy-three analysis used constructive iteration",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-stewart-primary"
+      ],
+      "source_locator": "1973 original abstract, iterative technique",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h15",
+      "anchor": "in nineteen seventy-four he joined the University of Maryland",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-oral",
+        "history-stewart-bio",
+        "history-stewart-umd"
+      ],
+      "source_locator": "2006 interview and 2026 remembrance",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h16",
+      "anchor": "retiring in two thousand eight",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-bio",
+        "history-stewart-umd"
+      ],
+      "source_locator": "SIAM obituary and UMD remembrance",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h17",
+      "anchor": "Stewart joined Cleve Moler, James Bunch, and later Jack Dongarra",
+      "kind": "historical_collaboration",
+      "source_ids": [
+        "history-stewart-bio",
+        "history-stewart-linpack"
+      ],
+      "source_locator": "SIAM obituary LINPACK team and Users Guide 1979",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h18",
+      "anchor": "Stewart chaired the project group",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-bio"
+      ],
+      "source_locator": "SIAM obituary LINPACK paragraph",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h19",
+      "anchor": "The LINPACK users' guide, published in nineteen seventy-nine",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-stewart-linpack",
+        "history-stewart-bio"
+      ],
+      "source_locator": "Netlib HPL reference; SIAM obituary",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h20",
+      "anchor": "His nineteen seventy-seven paper examined the sensitivity of the QR factors",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-stewart-1977qr"
+      ],
+      "source_locator": "SIAM J Numer Anal 14 (1977), 509–518",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h21",
+      "anchor": "Stewart's work on perturbations of pseudoinverses and projections",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-stewart-1977ls"
+      ],
+      "source_locator": "SIAM Review 19 (1977), 634–662",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h22",
+      "anchor": "In nineteen ninety, Stewart published a paper called *Stochastic Perturbation Theory*",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-stewart-stochastic"
+      ],
+      "source_locator": "SIAM Review 32(4) (1990) 579–610",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h23",
+      "anchor": "Stewart applied this style of analysis to linear systems, least squares, eigenvalues, eigenvectors, and invariant subspaces",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-stewart-stochastic"
+      ],
+      "source_locator": "1990 publication abstract and subjects",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h24",
+      "anchor": "Their book *Matrix Perturbation Theory*, published in nineteen ninety",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-stewart-topic"
+      ],
+      "source_locator": "Elsevier 1990 publisher and contents",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h25",
+      "anchor": "During lunch breaks he studied Latin",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-bio"
+      ],
+      "source_locator": "SIAM 2026 obituary anecdote",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h26",
+      "anchor": "In nineteen ninety-five he published an English translation",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-stewart-gauss",
+        "history-stewart-bio"
+      ],
+      "source_locator": "SIAM Gauss edition 1995",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h27",
+      "anchor": "Among his books were *Introduction to Matrix Computations*",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-stewart-introbook",
+        "history-stewart-bio"
+      ],
+      "source_locator": "Academic Press 1973; SIAM obituary other books",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h28",
+      "anchor": "He received the Friedrich L. Bauer Prize in nineteen ninety-eight",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-bio",
+        "history-stewart-selected"
+      ],
+      "source_locator": "SIAM obituary awards; Selected Works publisher overview",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h29",
+      "anchor": "was elected to the National Academy of Engineering in two thousand four",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-bio",
+        "history-stewart-umd"
+      ],
+      "source_locator": "SIAM and UMD honors",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h30",
+      "anchor": "In two thousand ten, Misha Kilmer and Dianne O'Leary edited",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-stewart-selected"
+      ],
+      "source_locator": "2010 Birkhäuser book publication",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "023000-h31",
+      "anchor": "Pete Stewart died on June ninth, twenty twenty-six",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-stewart-bio",
+        "history-stewart-umd"
+      ],
+      "source_locator": "SIAM obituary 16 October 2026; UMD obituary July 2026",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

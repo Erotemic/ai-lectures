@@ -473,25 +473,25 @@
       "notes": "Background on the mathematical concept explained in the Gene H. Golub lecture."
     },
     "history-stewart-bio": {
-      "title": "G. W. Stewart — biographical or contributor record",
+      "title": "G.W. \"Pete\" Stewart, 1940–2026 — SIAM obituary by Misha Kilmer, Dianne O’Leary and Michael Stewart",
       "kind": "biography_or_author_record",
-      "url": "https://www.umiacs.umd.edu/our-experts/faculty/gw-pete-stewart",
+      "url": "https://www.siam.org/publications/siam-news/articles/obituary-gw-pete-stewart/",
       "access": "free_no_login",
-      "notes": "Person-specific source for G. W. Stewart; for living contributors some records document authorship rather than personal biography."
+      "notes": "October 16, 2026. Dates and biographical details, Householder, LINPACK and its architects, awards, Gauss translation, teaching and recollections."
     },
     "history-stewart-primary": {
-      "title": "Matrix analysis — eigenvalue perturbations",
-      "kind": "mathematical_exposition",
-      "url": "https://en.wikipedia.org/wiki/Matrix_analysis",
+      "title": "G. W. Stewart, Error and Perturbation Bounds for Subspaces Associated with Certain Eigenvalue Problems (1973)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://www.jstor.org/stable/2028728",
       "access": "free_no_login",
-      "notes": "See the subsection on perturbations of eigenvalues and the related matrix norms."
+      "notes": "SIAM Review 15(4), 727–764. Original abstract on characteristic/invariant subspaces, iteration and estimation in ordinary and generalized eigenproblems and SVD."
     },
     "history-stewart-topic": {
-      "title": "Condition number",
-      "kind": "accessible_topic_reference",
-      "url": "https://en.wikipedia.org/wiki/Condition_number",
+      "title": "Stewart and Sun, Matrix Perturbation Theory (1990)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://shop.elsevier.com/books/matrix-perturbation-theory/stewart/978-0-08-092613-1",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the G. W. Stewart lecture."
+      "notes": "Publisher title, authors, year, and subject coverage. Distinguish the mathematical setting when transferring norm or angle bounds."
     },
     "history-pearson-bio": {
       "title": "Karl Pearson — biographical or contributor record",
@@ -2369,6 +2369,97 @@
       "url": "https://openlibrary.org/books/OL3165929M/Matrix_computations",
       "access": "bibliographic_metadata",
       "notes": "First edition 1983, published by Johns Hopkins University Press; later editions documented in NAS memoir."
+    },
+    "history-stewart-oral": {
+      "title": "G.W. \"Pete\" Stewart — SIAM oral history, interviewed by Thomas Haigh in March 2006",
+      "kind": "oral_history",
+      "url": "https://history.siam.org/oralhistories/stewart.htm",
+      "access": "free_no_login",
+      "notes": "First-person career narrative, 1957 Tennessee enrollment, Householder Ph.D., Texas, CMU, Maryland, Bartels–Stewart, QZ and LINPACK. PDF linked on page; page abstract used."
+    },
+    "history-stewart-umd": {
+      "title": "Remembering G.W. “Pete” Stewart (1940–2026) — University of Maryland",
+      "kind": "biography_or_author_record",
+      "url": "https://www.cs.umd.edu/article/2026/07/remembering-gw-%E2%80%9Cpete%E2%80%9D-stewart-1940-2026",
+      "access": "free_no_login",
+      "notes": "UMD tribute July 9, 2026; faculty appointments, research, LINPACK, book and student counts."
+    },
+    "history-stewart-duff": {
+      "title": "Iain S. Duff, Biography of G. W. Stewart (2010)",
+      "kind": "biography_or_author_record",
+      "url": "https://link.springer.com/book/10.1007/978-0-8176-4968-5",
+      "access": "free_no_login",
+      "notes": "Part of Kilmer–O’Leary edited Selected Works with Commentaries, pp. 3–9. Publisher listing gives contents; biography accessible via institutional access."
+    },
+    "history-stewart-bartels": {
+      "title": "R. H. Bartels and G. W. Stewart, Algorithm 432: Solution of AX+XB=C (1972)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1145/361573.361582",
+      "access": "free_no_login",
+      "notes": "Communications of the ACM 15(9), 820–826, published September 1972; Schur-based Sylvester solver."
+    },
+    "history-stewart-qz": {
+      "title": "C. B. Moler and G. W. Stewart, An Algorithm for Generalized Matrix Eigenvalue Problems (1973)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://epubs.siam.org/doi/abs/10.1137/0710024",
+      "access": "free_no_login",
+      "notes": "SIAM J Numer Anal 10(2), 241–256. QZ method, works without B inverse, singular B discussed."
+    },
+    "history-stewart-1977qr": {
+      "title": "G. W. Stewart, Perturbation Bounds for the QR Factorization of a Matrix (1977)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://epubs.siam.org/doi/10.1137/0714030",
+      "access": "free_no_login",
+      "notes": "SIAM J Numer Anal 14, 509–518. Effects of perturbation on Q and R factors for full-column-rank A."
+    },
+    "history-stewart-1977ls": {
+      "title": "G. W. Stewart, On the Perturbation of Pseudo-Inverses, Projections and Linear Least Squares Problems (1977)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://epubs.siam.org/doi/10.1137/1019104",
+      "access": "free_no_login",
+      "notes": "SIAM Review 19, 634–662; explicit survey of pseudoinverse, orthogonal projection and linear least-squares perturbations."
+    },
+    "history-stewart-stochastic": {
+      "title": "G. W. Stewart, Stochastic Perturbation Theory (1990)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://epubs.siam.org/doi/10.1137/1032121",
+      "access": "free_no_login",
+      "notes": "SIAM Review 32(4), 579–610. First-order perturbation expansion with random perturbations; statistics vs worst-case bounds."
+    },
+    "history-stewart-linpack": {
+      "title": "LINPACK Users’ Guide (1979) — reference in Netlib benchmark bibliography",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://netlib.sandia.gov/benchmark/hpl/references.html",
+      "access": "free_no_login",
+      "notes": "Coauthors J. Dongarra, J. Bunch, C. Moler, G. W. Stewart; SIAM 1979. Obituary covers collaboration and BLAS portability."
+    },
+    "history-stewart-introbook": {
+      "title": "G. W. Stewart, Introduction to Matrix Computations (1973)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://shop.elsevier.com/books/introduction-to-matrix-computations/stewart/978-0-08-092614-8",
+      "access": "free_no_login",
+      "notes": "Publisher book record, focus on dense linear systems, least squares, norms, perturbations and eigenproblems."
+    },
+    "history-stewart-gauss": {
+      "title": "C. F. Gauss, Theory of the Combination of Observations Least Subject to Errors — Stewart translation (1995)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://epubs.siam.org/doi/book/10.1137/1.9781611971248",
+      "access": "free_no_login",
+      "notes": "SIAM Classics in Applied Mathematics, 1995. Stewart translator/editor and commentary, contextualizing earlier work on least squares."
+    },
+    "history-stewart-selected": {
+      "title": "G.W. Stewart: Selected Works with Commentaries, Kilmer and O’Leary (eds., 2010)",
+      "kind": "historical_retrospective",
+      "url": "https://link.springer.com/book/10.1007/978-0-8176-4968-5",
+      "access": "free_no_login",
+      "notes": "Birkhäuser 2010; 44 selected papers, bibliography, Duff biography, specialist commentaries on algorithms, updates, perturbation theory."
+    },
+    "history-stewart-2006": {
+      "title": "UMIACS — G. W. \"Pete\" Stewart emeritus profile",
+      "kind": "biography_or_author_record",
+      "url": "https://www.umiacs.umd.edu/our-experts/faculty/gw-pete-stewart",
+      "access": "free_no_login",
+      "notes": "Institutional appointments and numerical linear algebra contributions; older cached faculty profile can predate 2026 death."
     }
   }
 }
