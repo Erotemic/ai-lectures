@@ -4,13 +4,16 @@ This is a separate, audio-first collection within AI Lectures. It does not
 change the mathematical curricula or their course graph. Open the **World
 History** tab in the audio reader, or visit `/audio?track=world-history`.
 
-The initial substantial, standalone lectures are:
+The substantive, standalone lectures are:
 
 - **001000 · The Epic of Gilgamesh: The King Who Could Not Defeat Death** —
   narrative, archaeology, transmission of the text, flood traditions, and mortality.
 - **002000 · Mary Leakey: Reading the Footprints of Deep Time** —
   early human evolution, field methods, Olduvai Gorge, Laetoli, and the
   attribution of team discoveries.
+- **003000 · Uruk: How a City Learned to Count** —
+  late fourth-millennium urbanism, irrigation, institutions, proto-cuneiform,
+  regional exchange, and the later traditions of Gilgamesh.
 
 The source Markdown files contain a spoken lecture between explicit markers.
 Historical notes and references after the spoken region are for reading and

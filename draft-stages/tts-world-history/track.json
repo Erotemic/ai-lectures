@@ -1,13 +1,14 @@
 {
   "id": "world-history",
   "title": "World History",
-  "summary": "Standalone long-form audio essays on people, events, texts, and historical processes. The initial collection covers Gilgamesh and Mary Leakey.",
+  "summary": "Standalone long-form audio essays on people, events, texts, and historical processes. Current subjects include the Epic of Gilgamesh, Mary Leakey, and the rise of Uruk.",
   "assumed_background": [
     "general curiosity about world history; each lecture provides its own context"
   ],
   "sections": [
     "early-literature",
-    "human-origins"
+    "human-origins",
+    "early-cities"
   ],
   "lectures": [
     {
@@ -27,6 +28,15 @@
       "spoken_words": 5018,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 34.6
+    },
+    {
+      "id": "003000",
+      "title": "Uruk: How a City Learned to Count",
+      "section": "early-cities",
+      "file": "003000-uruk-rise-of-the-city.md",
+      "spoken_words": 5861,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 40.4
     }
   ],
   "editorial_policy": "Publish substantive, source-grounded lectures that are self-contained and useful in any listening order. The manifest order is a browsing default, not a prerequisite sequence."
