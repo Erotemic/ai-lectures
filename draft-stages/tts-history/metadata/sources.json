@@ -302,25 +302,28 @@
       "notes": "Definition, symmetry and idempotence of orthogonal projections, accessible background to block calculations."
     },
     "history-dixmier-bio": {
-      "title": "Jacques Dixmier — biographical or contributor record",
-      "kind": "biography_or_author_record",
-      "url": "https://en.wikipedia.org/wiki/Jacques_Dixmier",
+      "title": "Jacques Dixmier — MacTutor History of Mathematics",
+      "kind": "historical_biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dixmier/",
       "access": "free_no_login",
-      "notes": "Person-specific source for Jacques Dixmier; for living contributors some records document authorship rather than personal biography."
+      "format": "html",
+      "notes": "Schooling, occupation, family, academic appointments, research, books, students and retirement. Summarizes original 2009 interview."
     },
     "history-dixmier-primary": {
-      "title": "Jacques Dixmier — Mathematical context and introductory reading",
-      "kind": "mathematical_exposition",
-      "url": "https://en.wikipedia.org/wiki/Angles_between_flats",
+      "title": "J. Dixmier, Position relative de deux variétés linéaires fermées dans un espace de Hilbert (1948)",
+      "kind": "historical_primary_bibliography",
+      "url": "https://www.numdam.org/articles/10.24033/bsmf.1403/",
       "access": "free_no_login",
-      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+      "format": "html",
+      "notes": "Dixmier 1949 original thesis bibliography, entry [4], records Revue Scientifique 86 (1948), 367–380. Halmos 1969 gives conflicting 387–399; pagination unresolved. Original 1948 article not directly inspected."
     },
     "history-dixmier-topic": {
-      "title": "Principal angles and subspaces",
-      "kind": "accessible_topic_reference",
-      "url": "https://en.wikipedia.org/wiki/Angles_between_flats",
+      "title": "Friedrichs and Dixmier angles of closed subspaces",
+      "kind": "mathematical_exposition",
+      "url": "https://www.mate.unlp.edu.ar/~demetrio/files/u4/28.pdf",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the Jacques Dixmier lecture."
+      "format": "pdf",
+      "notes": "Weighted projections and Riesz frames, sec. 2.1, contains both definitions and c(M,N)<1 iff M+N closed, with c0=||PMPN||."
     },
     "history-kato-bio": {
       "title": "Tosio Kato — biographical or contributor record",
@@ -1829,6 +1832,102 @@
       "access": "free_no_login",
       "format": "html",
       "notes": "Cites Halmos, I Want to Be a Mathematician: An Automathography (1985); biography recounts autobiographical events."
+    },
+    "history-dixmier-interview": {
+      "title": "Martin Raussen, Interview with Jacques Dixmier, EMS Newsletter 72 (June 2009), 34–40",
+      "kind": "historical_first_person_interview",
+      "url": "https://ems.press/content/serial-issue-files/13682?nt=1",
+      "access": "free_no_login",
+      "format": "pdf",
+      "notes": "Primary first-person source: childhood p.34; Gestapo raid and Julia pp. 35–36; appointments, research and naming p.37; Bourbaki pp.38–39; students p.39; teaching and retirement pp.39–40. Reviewed interview text and first portrait page."
+    },
+    "history-dixmier-thesis": {
+      "title": "J. Dixmier, Étude sur les variétés et les opérateurs de Julia, avec quelques applications (1949)",
+      "kind": "historical_primary_publication",
+      "url": "https://www.numdam.org/articles/10.24033/bsmf.1403/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Bulletin S.M.F. 77 (1949), 11–101; 1948 defended dissertation published 1949. Bibliography includes earlier 1946–1948 papers on graphs, domains and relative positions."
+    },
+    "history-dixmier-1949": {
+      "title": "J. Dixmier, Les anneaux d’opérateurs de classe finie (1949)",
+      "kind": "historical_primary_publication",
+      "url": "https://www.numdam.org/articles/10.24033/asens.970/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Annales scientifiques de l’É.N.S., ser. 3, 66 (1949), 209–261; references Murray and von Neumann and the 1948 subspace paper."
+    },
+    "history-dixmier-halmos": {
+      "title": "P. R. Halmos, Two Subspaces (1969)",
+      "kind": "historical_primary_publication",
+      "url": "https://www.ams.org/tran/1969-144-00/S0002-9947-1969-0251519-5/S0002-9947-1969-0251519-5.pdf",
+      "access": "free_no_login",
+      "format": "pdf",
+      "notes": "Transactions AMS 144 (1969), 381–389. Introduction credits Dixmier classification, and the end contains a new proof. Halmos’s models are his own later contribution."
+    },
+    "history-dixmier-angles": {
+      "title": "Friedrichs and Dixmier angles — later precise operator discussion",
+      "kind": "mathematical_exposition",
+      "url": "https://www.mate.unlp.edu.ar/~demetrio/files/u4/28.pdf",
+      "access": "free_no_login",
+      "format": "pdf",
+      "notes": "Section 2.1 distinguishes c and c0, projection formulas and closed-sum criterion. A secondary technical source, not the original 1948 paper."
+    },
+    "history-dixmier-traces-1963": {
+      "title": "J. Dixmier, Traces sur les C*-algèbres (1963)",
+      "kind": "historical_primary_publication",
+      "url": "https://www.numdam.org/articles/10.5802/aif.139/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Annales de l’Institut Fourier 13 (1963), no.1, 219–262; traces, GCR algebras and Plancherel theory."
+    },
+    "history-dixmier-trace-1966": {
+      "title": "J. Dixmier, Existence de traces non normales (1966)",
+      "kind": "historical_primary_bibliography",
+      "url": "https://numdam.org/articles/10.24033/bsmf.1712/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Bibliography lists C. R. Acad. Sci. Paris 262 (1966), series A, 1107–1108. Guichardet 2015/16 traces the mathematical construction."
+    },
+    "history-dixmier-trace-review": {
+      "title": "Alain Guichardet, La trace de Dixmier et autres traces (2015/2016)",
+      "kind": "historical_mathematical_review",
+      "url": "https://ems.press/journals/lem/articles/13991",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "L’Enseignement Mathématique 61 (2015), 461–481, published 2016; rigorous history of Dixmier’s 1966 nonnormal traces and later use by Connes."
+    },
+    "history-dixmier-books": {
+      "title": "Jacques Dixmier — publisher bibliographic catalog",
+      "kind": "historical_publisher_record",
+      "url": "https://www.gabay-editeur.com/AUTEURS/D/DIXMIER",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Dates for Algèbres de von Neumann (1957), Les C*-algèbres et leurs représentations (1964), and historical author profile."
+    },
+    "history-dixmier-steele": {
+      "title": "AMS Steele Prize for mathematical exposition, 1992 recipients presented in January 1993",
+      "kind": "historical_award_record",
+      "url": "https://www.ams.org/journals/notices/199303/199303FullIssue.pdf",
+      "access": "free_no_login",
+      "format": "pdf",
+      "notes": "Original 1993 AMS Notices prize citation: 1992 prize for Dixmier’s three operator/algebra exposition books; presentation Jan 15 1993."
+    },
+    "history-dixmier-bourbaki": {
+      "title": "Jacques Dixmier on Bourbaki drafts and root systems (2009 interview)",
+      "kind": "historical_first_person_interview",
+      "url": "https://ems.press/content/serial-issue-files/13682?nt=1",
+      "access": "free_no_login",
+      "format": "pdf",
+      "notes": "Raussen interview, pp. 38–39: Serre and Samuel invitation in 1949, drafts for Lie algebras, Cartier and Borel contributions, writing role."
+    },
+    "history-dixmier-teaching": {
+      "title": "Jacques Dixmier on teaching, writing, students and IHES (2009 interview)",
+      "kind": "historical_first_person_interview",
+      "url": "https://ems.press/content/serial-issue-files/13682?nt=1",
+      "access": "free_no_login",
+      "format": "pdf",
+      "notes": "Raussen interview, pp. 39–40, comments on oral lecture preparation, 20 doctoral students, Connes, Duflo and Vergne and post-retirement research."
     }
   }
 }

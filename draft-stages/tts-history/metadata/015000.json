@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-dixmier.md",
+  "related_resources": [
+    {
+      "source_id": "history-dixmier-interview",
+      "reason": "First-person account of schooling, occupation, research, collaborators, Bourbaki, teaching, students, and retirement."
+    },
+    {
+      "source_id": "history-dixmier-bio",
+      "reason": "Independent biographical synthesis and chronological cross-check."
+    },
+    {
+      "source_id": "history-dixmier-thesis",
+      "reason": "Published 1949 doctoral work on Julia varieties and geometry of closed-operator domains."
+    },
+    {
+      "source_id": "history-dixmier-primary",
+      "reason": "Bibliographic record for the 1948 relative-position work."
+    },
+    {
+      "source_id": "history-dixmier-1949",
+      "reason": "Original 1949 finite-class operator-ring paper and its bibliography."
+    },
+    {
+      "source_id": "history-dixmier-halmos",
+      "reason": "1969 explicit attribution of pair classification to Dixmier."
+    },
+    {
+      "source_id": "history-dixmier-angles",
+      "reason": "Precise modern definitions and closed-sum equivalence."
+    },
+    {
+      "source_id": "history-dixmier-traces-1963",
+      "reason": "1963 research on C-star traces preceding the nonnormal construction."
+    },
+    {
+      "source_id": "history-dixmier-trace-1966",
+      "reason": "1966 original paper bibliographic citation."
+    },
+    {
+      "source_id": "history-dixmier-trace-review",
+      "reason": "Historical and mathematical discussion of Dixmier traces and Connes."
+    },
+    {
+      "source_id": "history-dixmier-books",
+      "reason": "Bibliographic chronology of major monographs."
+    },
+    {
+      "source_id": "history-dixmier-steele",
+      "reason": "1992 AMS prize recognition of exposition, awarded 1993."
+    },
+    {
+      "source_id": "history-dixmier-bourbaki",
+      "reason": "Original recollection of collaboration and mathematical writing."
+    },
+    {
+      "source_id": "history-dixmier-teaching",
+      "reason": "Original recollection of students and classroom practice."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "015000-h01",
+      "anchor": "Jacques Dixmier was born in Saint-Étienne, France, in May of nineteen twenty-four.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-dixmier-interview",
+        "history-dixmier-bio"
+      ],
+      "source_locator": "EMS 2009 p.34; MacTutor date May 24 1924",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h02",
+      "anchor": "Dixmier entered the École Normale Supérieure in Paris in nineteen forty-two, under German occupation.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-dixmier-interview"
+      ],
+      "source_locator": "EMS 2009 pp.34–35",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h03",
+      "anchor": "A few days before the liberation of Paris in August nineteen forty-four, Gestapo officers came to the École Normale.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-dixmier-interview",
+        "history-dixmier-bio"
+      ],
+      "source_locator": "Dixmier own recollection, EMS 2009 p.35",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h04",
+      "anchor": "Two teachers were particularly important to him: Henri Cartan and Gaston Julia.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-dixmier-interview"
+      ],
+      "source_locator": "Dixmier 2009 pp.35–36",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h05",
+      "anchor": "Dixmier's thesis studied special linear sets of this kind.",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-dixmier-thesis",
+        "history-dixmier-interview"
+      ],
+      "source_locator": "1949 BSMF thesis title/contents; Dixmier p.36 on Julia varieties",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h06",
+      "anchor": "In nineteen forty-eight he published a study of the relative position of two closed linear subspaces in a Hilbert space.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-dixmier-primary",
+        "history-dixmier-halmos"
+      ],
+      "source_locator": "Dixmier 1949 bibliography [4], Halmos 1969 reference [2]",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h07",
+      "anchor": "One is often called the Dixmier angle, or minimal angle.",
+      "kind": "mathematical_attribution",
+      "source_ids": [
+        "history-dixmier-angles"
+      ],
+      "source_locator": "Modern specialist sec. 2.1, Definition 2.2",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h08",
+      "anchor": "For two closed subspaces, a positive Friedrichs angle is equivalent to the closedness of their sum.",
+      "kind": "mathematical_theorem",
+      "source_ids": [
+        "history-dixmier-angles"
+      ],
+      "source_locator": "Modern specialist sec.2.1, Proposition 2.3 item 6",
+      "audit_status": "mathematically_verified"
+    },
+    {
+      "id": "015000-h09",
+      "anchor": "Halmos explicitly credited Dixmier with an earlier theorem classifying pairs of subspaces up to unitary equivalence",
+      "kind": "historical_mathematical_priority",
+      "source_ids": [
+        "history-dixmier-halmos"
+      ],
+      "source_locator": "Halmos 1969 introduction and closing corollary",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h10",
+      "anchor": "His nineteen forty-nine paper on finite-class rings of operators is a major early step in this direction.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-dixmier-1949"
+      ],
+      "source_locator": "1949 Ann. Sci. ENS article metadata and references",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h11",
+      "anchor": "Dixmier met von Neumann briefly in Paris in nineteen forty-seven.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-dixmier-interview"
+      ],
+      "source_locator": "EMS 2009 p.37",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h12",
+      "anchor": "Dixmier gave the credit to Jean Dieudonné, who proposed it during a Bourbaki discussion.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "history-dixmier-interview"
+      ],
+      "source_locator": "EMS 2009 p.37, direct answer to naming question",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h13",
+      "anchor": "Dixmier's nineteen sixty-four book on C-star algebras and their representations was part of the consolidation of this field.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-dixmier-books",
+        "history-dixmier-interview"
+      ],
+      "source_locator": "Gabay catalog and Dixmier interview p.37",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h14",
+      "anchor": "In nineteen sixty-six, Dixmier constructed a non-normal trace associated with this borderline logarithmic growth.",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-dixmier-trace-1966",
+        "history-dixmier-trace-review"
+      ],
+      "source_locator": "1966 C. R. A.S. 262, A 1107–1108; Guichardet overview",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h15",
+      "anchor": "Dixmier joined the Bourbaki group in nineteen forty-nine, after Jean-Pierre Serre and Pierre Samuel invited him.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-dixmier-bourbaki"
+      ],
+      "source_locator": "EMS 2009 pp.37–39",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h16",
+      "anchor": "In the interview, he explained that he prepared mathematical talks word for word.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-dixmier-teaching"
+      ],
+      "source_locator": "EMS 2009 p.40",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h17",
+      "anchor": "His students included Alain Connes, Michel Duflo, and Michèle Vergne.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-dixmier-teaching"
+      ],
+      "source_locator": "EMS 2009 p.39",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h18",
+      "anchor": "Dixmier retired at sixty, in nineteen eighty-four, under a law that allowed retirement at that age.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-dixmier-interview",
+        "history-dixmier-bio"
+      ],
+      "source_locator": "EMS 2009 pp.36,40; 1924 birth",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}
