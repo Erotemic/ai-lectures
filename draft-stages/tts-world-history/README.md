@@ -74,6 +74,10 @@ These lectures share a browsing section but do not depend on listening order:
 - **040000 · Finding Voyagers** — Lapita excavation and dating, Teouma, Vanuatu ancient DNA, and evidence from traditional navigators and experimental voyaging.
 - **041000 · Olduvai and Laetoli** — fossil context, volcanic dating, tool/bone associations, named field contributors, and the reanalysis of footprint trails.
 
+- **042000 · Uluburun: A Bronze Age Shipwreck and the Geography of Things** — Turkish sponge diver Mehmet Çakır, Bass and Pulak's underwater excavations, the scientific provenance of metal ingots, dating uncertainty, and the limits of cargo-based route reconstruction.
+- **043000 · Berenike and the Monsoon** — Red Sea excavation teams, Cappers's pepper cache, Tomber's pottery analysis, the *Periplus*, and competing evidence for Roman-period Indian Ocean connections.
+- **044000 · The Belitung Shipwreck** — Tang-period ceramic production, Flecker's sewn-plank hull, the dated 826 bowl, commercial recovery, and Pearson's analysis of its heritage afterlife.
+
 These lectures include named original contributors in the spoken narrative when
 supported by the source record. Each also has non-spoken attribution and
 research notes; the metadata link cards point to original methods, field

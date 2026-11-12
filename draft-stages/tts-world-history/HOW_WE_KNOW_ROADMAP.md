@@ -49,9 +49,19 @@ These lectures use the same full-narration and source-attribution standard as th
 | 040000 | Finding Pacific voyagers | Bedford, Spriggs, Regenvanu and Teouma; Lapita objects and associated dates; Higham and Anderson on chronology; Skoglund and collaborators on DNA; Mau Piailug and voyaging crews on practical navigation |
 | 041000 | Olduvai and Laetoli | OH 5 and Bed I, the distinct contributions of Mary Leakey, Evernden, Curtis, Hay and Tobias; Hill, Jones, Philip Leakey and Abell on early tracks; Masao, Ichumbaki and McNutt teams on later footprint discoveries and reanalysis |
 
+## Fifth batch: listening-ready
+
+| ID | Case study | Research and evidence distinctions |
+|---|---|---|
+| 042000 | Uluburun and the Bronze Age cargo | Mehmet Çakır's discovery, Bass and Pulak's excavation, metallurgy, hull recording, ingot provenance and chronology; origin of goods differs from itinerary of ship |
+| 043000 | Berenike and monsoon trade | Sidebotham and field teams, Cappers's pepper study, Tomber's ceramic comparisons, Peacock and Blue's Myos Hormos reports, the anonymous *Periplus*, Arikamedu and Begley's revised history |
+| 044000 | Belitung: cargo and recovery | Flecker on vessel construction, Wilson and museum curators on 826 inscription, Pearson on commercial salvage and museum history; distinguish evidence in objects from context lost during recovery |
+
 ## Future candidates
 
-- **Reconstructing ancient maritime trade** — shipwreck excavation, amphora and cargo provenancing, and the archaeology of the Indian Ocean.
+- **The Swahili coast as an archaeological archive** — Kilwa, Shanga, East African ceramics, coral architecture, coins, and competing narratives about local and overseas participation.
+- **Ancient harbor reconstruction** — shoreline change, sediment cores, coastal geoarchaeology, and why ports disappear or move.
+- **Shipwreck science and conservation** — wood, salt, corrosion, cargo residues, underwater photogrammetry, and the limits of chemical provenance.
 
 The sequence should remain selected for depth and interesting lines of
 inquiry, without turning each named site or technique into a mandatory
