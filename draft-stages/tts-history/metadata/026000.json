@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "lecture_id": "026000",
+  "transcript": "026000-yu.md",
+  "related_resources": [
+    {
+      "source_id": "history-yu-warwick",
+      "reason": "Degrees, supervisors, career dates, Warwick appointments, award and editorial roles."
+    },
+    {
+      "source_id": "history-yu-bibliography",
+      "reason": "Authored research chronology, coauthors, change-point, network, privacy, Cox and early selection papers."
+    },
+    {
+      "source_id": "history-yu-fudanlasso",
+      "reason": "Oracle inequalities for lasso in Cox model, Annals of Statistics 41, 1142-1165."
+    },
+    {
+      "source_id": "history-wang-personal",
+      "reason": "Career, supervisor, 2011-2026 publications, code and research program."
+    },
+    {
+      "source_id": "history-yu-collaboration",
+      "reason": "Biometrika 102(2), 315-323, Theorems 2-3; published April 2015; 2014 preprint."
+    },
+    {
+      "source_id": "history-yu-author-ms",
+      "reason": "Accessible manuscript, detailed equations and examples including diagonal mixed-gap failure."
+    },
+    {
+      "source_id": "history-yu-network",
+      "reason": "JRSS C 66, 607-627; spectral clustering for connectivity dynamics."
+    },
+    {
+      "source_id": "history-yu-change",
+      "reason": "Electronic Journal of Statistics 14(1), 1917-1961: signal threshold, CUSUM, penalized estimators."
+    },
+    {
+      "source_id": "history-yu-online",
+      "reason": "Sequential CUSUM procedures, false-alarm and delay control; arXiv preprint 2020, later publication."
+    },
+    {
+      "source_id": "history-yu-private",
+      "reason": "Annals of Statistics 51, 717-737; minimax bounds and examples."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "026000-h01",
+      "anchor": "Yi Yu studied mathematics at Fudan University in Shanghai",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-warwick"
+      ],
+      "source_locator": "degrees",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h02",
+      "anchor": "earning a bachelor's degree in 2009 and a doctorate in mathematical statistics in 2013",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-warwick"
+      ],
+      "source_locator": "degrees",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h03",
+      "anchor": "Her doctoral supervisor was Zhiliang Ying",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-bibliography"
+      ],
+      "source_locator": "PhD thesis",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h04",
+      "anchor": "including work with Jian Huang, Tingni Sun, Zhiliang Ying and Cun-Hui Zhang",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-fudanlasso"
+      ],
+      "source_locator": "Annals 2013",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h05",
+      "anchor": "Her work with Yang Feng on computational paths for penalized likelihood",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-bibliography"
+      ],
+      "source_locator": "APPLE and cross-validation",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h06",
+      "anchor": "Yu worked as a postdoctoral researcher with Richard Samworth at Cambridge",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-warwick"
+      ],
+      "source_locator": "2013-2016 postdoc",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h07",
+      "anchor": "Tengyao Wang was undertaking doctoral research in the same statistical environment",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-personal"
+      ],
+      "source_locator": "Cambridge PhD",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h08",
+      "anchor": "Their collaboration produced the 2015 article A Useful Variant of the Davis–Kahan Theorem for Statisticians",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-collaboration"
+      ],
+      "source_locator": "article title and authors",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h09",
+      "anchor": "developed in 1970 by Chandler Davis and William Kahan",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-collaboration"
+      ],
+      "source_locator": "historical precursor",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h10",
+      "anchor": "The 2015 theorem gives both a principal-angle bound and a corresponding aligned-basis bound",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-author-ms"
+      ],
+      "source_locator": "Theorem 2",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h11",
+      "anchor": "The paper also addressed rectangular matrices, where singular vectors replace the eigenvectors of a symmetric matrix.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-author-ms"
+      ],
+      "source_locator": "Theorem 3",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h12",
+      "anchor": "the conventional mixed-spectrum gap vanishes even though the target eigenspace is completely unambiguous",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-author-ms"
+      ],
+      "source_locator": "diagonal example",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h13",
+      "anchor": "They also compared the two formulations in a high-dimensional spiked-covariance simulation",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-author-ms"
+      ],
+      "source_locator": "section 3 simulation",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h14",
+      "anchor": "Her work with Ivor Cribben on estimating whole-brain dynamics using spectral clustering",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-network"
+      ],
+      "source_locator": "2017",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h15",
+      "anchor": "In 2017 Yu became a lecturer at the University of Bristol",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-warwick"
+      ],
+      "source_locator": "appointments",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h16",
+      "anchor": "in 2019 she joined the University of Warwick as an associate professor",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-warwick"
+      ],
+      "source_locator": "appointments",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h17",
+      "anchor": "She was promoted to Reader in 2021 and professor in 2023",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-warwick"
+      ],
+      "source_locator": "appointments",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h18",
+      "anchor": "In their 2020 paper on univariate mean change-point detection, Yu, Daren Wang and Alessandro Rinaldo",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-change"
+      ],
+      "source_locator": "paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h19",
+      "anchor": "A 2023 note by Yu and collaborators studied this sequential problem",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-online"
+      ],
+      "source_locator": "online change paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h20",
+      "anchor": "Yu, Mengchu Li and Thomas Berrett investigated that interaction in a 2023 Annals of Statistics paper",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-private"
+      ],
+      "source_locator": "paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h21",
+      "anchor": "In 2023 Yi Yu received a Philip Leverhulme Prize",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-warwick"
+      ],
+      "source_locator": "prize",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "026000-h22",
+      "anchor": "Her academic record includes editorial work for journals such as Biometrika and Bernoulli",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-yu-warwick"
+      ],
+      "source_locator": "editorial",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "lecture_id": "027000",
+  "transcript": "027000-wang.md",
+  "related_resources": [
+    {
+      "source_id": "history-wang-personal",
+      "reason": "Career, supervisor, 2011-2026 publications, code and research program."
+    },
+    {
+      "source_id": "history-wang-thesis",
+      "reason": "Full title and year of Cambridge PhD as listed on faculty homepage."
+    },
+    {
+      "source_id": "history-wang-lse",
+      "reason": "Professor, positions, interests, Research Prize 2019 and Guy Medal Bronze 2023."
+    },
+    {
+      "source_id": "history-wang-spectral",
+      "reason": "Biometrika 102, 315-323; joint theorem; Gram-based squared singular gap statement."
+    },
+    {
+      "source_id": "history-wang-sparse",
+      "reason": "Annals of Statistics 44, 1896-1930; conditional hardness under planted clique assumption and SDP relaxation."
+    },
+    {
+      "source_id": "history-wang-inspect",
+      "reason": "JRSS B 80, 57-83; inspect algorithm and projection via CUSUM convex relaxation."
+    },
+    {
+      "source_id": "history-wang-missing",
+      "reason": "JRSS B 84, 2000-2031; primePCA algorithm and noiseless contraction results."
+    },
+    {
+      "source_id": "history-wang-cox",
+      "reason": "First-person 2023 Harvard Data Science Review perspective on Cox, practical inference and dense nuisance."
+    },
+    {
+      "source_id": "history-wang-gao",
+      "reason": "Annals of Statistics 50(5), 2950-2972; two sample coefficient test with dense nuisance."
+    },
+    {
+      "source_id": "history-wang-rss",
+      "reason": "Guy Medal Bronze awarded for high-dimensional change points, dimension reduction, missing data."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "027000-h01",
+      "anchor": "early research on generalized Schur functions and rational interpolation with Joseph Weiss and Vladimir Bolotnikov",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-personal"
+      ],
+      "source_locator": "2011-2012 publications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h02",
+      "anchor": "At Cambridge he wrote a 2013 Part Three essay on applications of empirical process theory",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-personal"
+      ],
+      "source_locator": "2013 Part III essay",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h03",
+      "anchor": "completed a 2016 doctorate entitled Spectral Methods and Computational Trade-offs in High-Dimensional Statistical Inference",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-thesis"
+      ],
+      "source_locator": "thesis",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h04",
+      "anchor": "Richard Samworth was his doctoral supervisor",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-personal"
+      ],
+      "source_locator": "advisor",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h05",
+      "anchor": "An early collaboration with Sébastien Bubeck and Nitin Viswanathan concerned multiple identifications in multi-armed bandits",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-personal"
+      ],
+      "source_locator": "2013 ICML",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h06",
+      "anchor": "a research fellowship at the Cantab Capital Institute for the Mathematics of Information in Cambridge",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-lse"
+      ],
+      "source_locator": "appointments",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h07",
+      "anchor": "then a lectureship at University College London",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-lse"
+      ],
+      "source_locator": "appointments",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h08",
+      "anchor": "He moved to the London School of Economics",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-lse"
+      ],
+      "source_locator": "appointment",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h09",
+      "anchor": "the 2015 Biometrika paper A Useful Variant of the Davis–Kahan Theorem for Statisticians with Yi Yu and Richard Samworth",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-spectral"
+      ],
+      "source_locator": "publication",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h10",
+      "anchor": "In 1972 Per-Åke Wedin developed influential singular-subspace perturbation bounds",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-spectral"
+      ],
+      "source_locator": "prior theory",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h11",
+      "anchor": "Their rectangular extension performed an analogous service for singular subspaces",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-spectral"
+      ],
+      "source_locator": "Theorem 3",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h12",
+      "anchor": "In a 2016 Annals of Statistics paper, Wang, Quentin Berthet and Richard Samworth investigated this trade-off",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-sparse"
+      ],
+      "source_locator": "2016 paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h13",
+      "anchor": "Under a widely used computational-hardness assumption associated with planted clique problems",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-sparse"
+      ],
+      "source_locator": "conditional lower bound",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h14",
+      "anchor": "Wang and Samworth's 2018 paper on high-dimensional change-point estimation via sparse projection",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-inspect"
+      ],
+      "source_locator": "2018 paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h15",
+      "anchor": "Their method, called inspect, uses a cumulative-sum transformation",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-inspect"
+      ],
+      "source_locator": "algorithm",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h16",
+      "anchor": "Wang's 2022 work with Ziwei Zhu and Richard Samworth studied high-dimensional PCA with heterogeneous missingness",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-missing"
+      ],
+      "source_locator": "2022 paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h17",
+      "anchor": "They proposed primePCA, an iterative procedure",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-missing"
+      ],
+      "source_locator": "algorithm",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h18",
+      "anchor": "In 2023 Wang wrote a short personal commentary for Harvard Data Science Review about the influence of Sir David Cox",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-cox"
+      ],
+      "source_locator": "first person article",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h19",
+      "anchor": "In a 2022 paper with Feng Gao, Wang investigated two-sample testing",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-gao"
+      ],
+      "source_locator": "complementary sketching paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h20",
+      "anchor": "In 2023 the Royal Statistical Society awarded Wang the Guy Medal in Bronze",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-rss"
+      ],
+      "source_locator": "award",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h21",
+      "anchor": "He also received the Society's Research Prize in 2019",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-lse"
+      ],
+      "source_locator": "research prize",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "027000-h22",
+      "anchor": "His work with Yi Yu and others on robust mean change-point testing",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-wang-personal"
+      ],
+      "source_locator": "2026 publication",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

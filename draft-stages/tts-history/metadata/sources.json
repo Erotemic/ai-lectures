@@ -536,11 +536,11 @@
       "notes": "Modern formulae for whitened covariance and singular values; distinguished from 1936 original."
     },
     "history-yu-bio": {
-      "title": "Yi Yu — biographical or contributor record",
-      "kind": "biography_or_author_record",
-      "url": "https://research-information.bris.ac.uk/en/publications/a-useful-variant-of-the-davis-kahan-theorem-for-statisticians/",
+      "title": "Yi Yu, University of Warwick biography",
+      "kind": "institutional_biography",
+      "url": "https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/yu/",
       "access": "free_no_login",
-      "notes": "Person-specific source for Yi Yu; for living contributors some records document authorship rather than personal biography."
+      "notes": "Person-specific academic biography; replaces paper-metadata fallback."
     },
     "history-yu-primary": {
       "title": "Yi Yu — Primary mathematical source",
@@ -557,11 +557,11 @@
       "notes": "Background on the mathematical concept explained in the Yi Yu lecture."
     },
     "history-wang-bio": {
-      "title": "Tengyao Wang — biographical or contributor record",
-      "kind": "biography_or_author_record",
-      "url": "https://research-information.bris.ac.uk/en/publications/a-useful-variant-of-the-davis-kahan-theorem-for-statisticians/",
+      "title": "Tengyao Wang, LSE profile",
+      "kind": "institutional_biography",
+      "url": "https://www.lse.ac.uk/people/tengyao-wang",
       "access": "free_no_login",
-      "notes": "Person-specific source for Tengyao Wang; for living contributors some records document authorship rather than personal biography."
+      "notes": "Person-specific academic biography; replaces paper-metadata fallback."
     },
     "history-wang-primary": {
       "title": "Tengyao Wang — Primary mathematical source",
@@ -2691,6 +2691,139 @@
       "url": "https://doi.org/10.1037/h0071325",
       "access": "publisher_metadata",
       "notes": "Do not attribute all orthogonal-fit or eigenvector geometry to Hotelling; 1933 introduced statistical principal-component framework."
+    },
+    "history-yu-warwick": {
+      "title": "Yi Yu, University of Warwick faculty biography",
+      "kind": "institutional_biography",
+      "url": "https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/yu/",
+      "access": "free_no_login",
+      "notes": "Degrees, supervisors, career dates, Warwick appointments, award and editorial roles."
+    },
+    "history-yu-bibliography": {
+      "title": "Yi Yu, research bibliography and software",
+      "kind": "author_publication_list",
+      "url": "https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/yu/research/",
+      "access": "free_no_login",
+      "notes": "Authored research chronology, coauthors, change-point, network, privacy, Cox and early selection papers."
+    },
+    "history-yu-collaboration": {
+      "title": "Yu, Wang and Samworth, population-gap theorem (2015)",
+      "kind": "primary_research",
+      "url": "https://doi.org/10.1093/biomet/asv008",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Biometrika 102(2), 315-323, Theorems 2-3; published April 2015; 2014 preprint."
+    },
+    "history-yu-author-ms": {
+      "title": "Yu, Wang and Samworth, author manuscript",
+      "kind": "primary_research_full_text",
+      "url": "https://www.statslab.cam.ac.uk/~rjs57/Biometrika-2015-Yu-315-23.pdf",
+      "access": "free_no_login",
+      "notes": "Accessible manuscript, detailed equations and examples including diagonal mixed-gap failure."
+    },
+    "history-yu-fudanlasso": {
+      "title": "Huang, Sun, Ying, Yu and Zhang, Cox lasso (2013)",
+      "kind": "primary_research",
+      "url": "https://doi.org/10.1214/13-AOS1098",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Oracle inequalities for lasso in Cox model, Annals of Statistics 41, 1142-1165."
+    },
+    "history-yu-change": {
+      "title": "Daren Wang, Yi Yu and Alessandro Rinaldo, change points (2020)",
+      "kind": "primary_research",
+      "url": "https://doi.org/10.1214/20-EJS1710",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Electronic Journal of Statistics 14(1), 1917-1961: signal threshold, CUSUM, penalized estimators."
+    },
+    "history-yu-private": {
+      "title": "Li, Berrett and Yu, robustness and local differential privacy (2023)",
+      "kind": "primary_research",
+      "url": "https://doi.org/10.1214/23-AOS2267",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Annals of Statistics 51, 717-737; minimax bounds and examples."
+    },
+    "history-yu-network": {
+      "title": "Cribben and Yu, whole-brain dynamics via spectral clustering (2017)",
+      "kind": "primary_research",
+      "url": "https://doi.org/10.1111/rssc.12169",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "JRSS C 66, 607-627; spectral clustering for connectivity dynamics."
+    },
+    "history-yu-online": {
+      "title": "Yi Yu and coauthors, a note on online change-point detection",
+      "kind": "primary_research",
+      "url": "https://arxiv.org/abs/2006.03283",
+      "access": "free_no_login",
+      "notes": "Sequential CUSUM procedures, false-alarm and delay control; arXiv preprint 2020, later publication."
+    },
+    "history-wang-lse": {
+      "title": "Tengyao Wang, LSE institutional biography",
+      "kind": "institutional_biography",
+      "url": "https://www.lse.ac.uk/people/tengyao-wang",
+      "access": "free_no_login",
+      "notes": "Professor, positions, interests, Research Prize 2019 and Guy Medal Bronze 2023."
+    },
+    "history-wang-personal": {
+      "title": "Tengyao Wang, faculty homepage and publication list",
+      "kind": "author_publication_list",
+      "url": "https://personal.lse.ac.uk/wangt60/",
+      "access": "free_no_login",
+      "notes": "Career, supervisor, 2011-2026 publications, code and research program."
+    },
+    "history-wang-thesis": {
+      "title": "Tengyao Wang, PhD thesis (2016)",
+      "kind": "primary_research",
+      "url": "https://personal.lse.ac.uk/wangt60/",
+      "access": "free_no_login",
+      "notes": "Full title and year of Cambridge PhD as listed on faculty homepage."
+    },
+    "history-wang-spectral": {
+      "title": "Yu, Wang and Samworth, population gap and rectangular extension (2015)",
+      "kind": "primary_research",
+      "url": "https://doi.org/10.1093/biomet/asv008",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Biometrika 102, 315-323; joint theorem; Gram-based squared singular gap statement."
+    },
+    "history-wang-sparse": {
+      "title": "Wang, Berthet and Samworth, computational trade-offs in sparse PCA (2016)",
+      "kind": "primary_research",
+      "url": "https://doi.org/10.1214/15-AOS1369",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Annals of Statistics 44, 1896-1930; conditional hardness under planted clique assumption and SDP relaxation."
+    },
+    "history-wang-inspect": {
+      "title": "Wang and Samworth, high-dimensional change point estimation via sparse projection (2018)",
+      "kind": "primary_research",
+      "url": "https://doi.org/10.1111/rssb.12243",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "JRSS B 80, 57-83; inspect algorithm and projection via CUSUM convex relaxation."
+    },
+    "history-wang-missing": {
+      "title": "Zhu, Wang and Samworth, high-dimensional PCA with heterogeneous missingness (2022)",
+      "kind": "primary_research",
+      "url": "https://doi.org/10.1111/rssb.12550",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "JRSS B 84, 2000-2031; primePCA algorithm and noiseless contraction results."
+    },
+    "history-wang-cox": {
+      "title": "Tengyao Wang, David Cox influence (2023)",
+      "kind": "first_person_commentary",
+      "url": "https://doi.org/10.1162/99608f92.971da134",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "First-person 2023 Harvard Data Science Review perspective on Cox, practical inference and dense nuisance."
+    },
+    "history-wang-gao": {
+      "title": "Gao and Wang, complementary sketching (2022)",
+      "kind": "primary_research",
+      "url": "https://doi.org/10.1214/22-AOS2216",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Annals of Statistics 50(5), 2950-2972; two sample coefficient test with dense nuisance."
+    },
+    "history-wang-rss": {
+      "title": "Royal Statistical Society, 2023 medal citations",
+      "kind": "institutional_award_record",
+      "url": "https://rss.org.uk/news-publication/news-publications/2023/general-news/announcing-our-honours-recipients-for-2023/",
+      "access": "free_no_login",
+      "notes": "Guy Medal Bronze awarded for high-dimensional change points, dimension reduction, missing data."
     }
   }
 }
