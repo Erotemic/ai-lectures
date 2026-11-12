@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "26 researched long-form biographies in geometry, variational analysis, operator theory, numerical computation and statistics; shorter sketches remain archived in stubs/.",
+  "summary": "28 researched long-form portraits in geometry, variational analysis, operator theory, numerical computation and statistics; no archived sketches remain.",
   "assumed_background": [
     "elementary vectors and eigenvalues; advanced concepts are introduced locally"
   ],
@@ -13,6 +13,17 @@
     "statistics"
   ],
   "lectures": [
+    {
+      "id": "001000",
+      "title": "James Joseph Sylvester: How did matrices become objects that could be solved for?",
+      "person": "James Joseph Sylvester",
+      "section": "geometry",
+      "file": "001000-sylvester.md",
+      "spoken_words": 5069,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 35.0
+    },
     {
       "id": "002000",
       "title": "Camille Jordan: What survives when coordinates change?",
@@ -298,6 +309,17 @@
       "draft_status": "substantive",
       "source_g2": null,
       "estimated_minutes_at_145_wpm": 35.5
+    },
+    {
+      "id": "028000",
+      "title": "Richard J. Samworth: How can statistical methods remain trustworthy when data are scarce or complicated?",
+      "person": "Richard J. Samworth",
+      "section": "statistics",
+      "file": "028000-samworth.md",
+      "spoken_words": 4870,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 33.6
     }
   ],
   "editorial_policy": "Expose only researched substantive portraits. Draft biographies live in stubs/ until expanded, checked and promoted."
