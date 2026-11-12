@@ -19,6 +19,11 @@ scholars can infer from their historical setting.
 | 015000 | Iliad, Part III | Books 18–24, Achilles' return, Hector's death, funeral games, and Priam's appeal |
 | 016000 | Odyssey, Part I | Books 1–12, Telemachus, Calypso, the Phaeacians, and the voyage narrated by Odysseus |
 | 017000 | Odyssey, Part II | Books 13–24, disguise, recognition, slaughter, reunion, and the political aftermath |
+| 018000 | Ramayana, Part I | Valmiki tradition, birth to exile and Sita’s abduction; alternative versions distinguished |
+| 019000 | Ramayana, Part II | Hanuman, Kishkindha and Lanka, Sita’s ordeal, and the Uttara continuation |
+| 020000 | Popol Wuj, Part I | K’iche’ creation episodes, Seven Macaw, and family origins of the Hero Twins |
+| 021000 | Popol Wuj, Part II | Xibalba, Hero Twins, maize people, and K’iche’ ancestral lineages |
+| 022000 | Shipwrecked Sailor | Single Egyptian tale, nested framing and ambiguous final answer |
 
 The order above is a browsing suggestion, not a required prerequisite chain.
 Every narration supplies its own context. Companion resources and source
@@ -30,20 +35,14 @@ transmission notes remain outside spoken regions.
 - The *Iliad* and *Odyssey* are covered through all 24 books of each work in five independently listenable lectures. Further Homeric topics could examine the ancient epic cycle, contrasting receptions, and the archaeological setting without claiming the poems are documentary history.
 
 **Other ancient literary worlds**
-- *The Tale of the Shipwrecked Sailor*: Egyptian adventure and the speaking
-  serpent; distinguish its shorter primary narrative from surrounding context.
 - *The Baal Cycle*: Ugaritic divine kingship and sea/death conflict, with
   attention to substantial gaps in the tablets.
-- *The Ramayana*: exile, Sita, Hanuman, Ravana, and transformations of the
-  tradition; identify the edition or regional tradition being told.
 - *Mahabharata*: dynastic conflict, the dice game, ethical dilemmas, war,
   and aftermath; divide into coherent listening units.
 - *Classic of Poetry* (Shijing): selected poems in the social worlds in
   which they were gathered and interpreted; do not pretend one long plot.
 - *Zhuangzi*: linked narrative arguments and thought experiments, with
   careful distinctions among chapters and transmission histories.
-- *Popol Wuj*: K'iche' Maya creation and Hero Twins, transmitted in a
-  colonial-period manuscript containing precolonial traditions.
 - The Hebrew *Book of Job*: suffering, justice, the friends' arguments,
   and literary form.
 

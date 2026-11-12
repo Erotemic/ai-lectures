@@ -42,6 +42,12 @@ These lectures share a browsing section but do not depend on listening order:
 - **016000 · The Odyssey, Part I: The Long Way Home** — Books 1–12, Telemachus, the Phaeacians, and Odysseus' account of the voyage.
 - **017000 · The Odyssey, Part II: The House of Ithaca** — Books 13–24, disguise, Penelope's test, the suitors, and the consequences of return.
 
+- **018000 · The Ramayana, Part I: A Kingdom Given Away** — Ayodhya, Sita, the contested succession, exile, and abduction in the Sanskrit epic.
+- **019000 · The Ramayana, Part II: Hanuman and the War for Sita** — alliance, the search across the sea, the war in Lanka, reunion, and the contested Uttara continuation.
+- **020000 · Popol Wuj, Part I: Before the Sun, Before the People** — K’iche’ creation, the people of mud and wood, Seven Macaw, and the origins of the Hero Twins.
+- **021000 · Popol Wuj, Part II: The Road Through Xibalba** — the Hero Twins’ underworld contests, humanity of maize, and K’iche’ ancestral histories.
+- **022000 · The Shipwrecked Sailor: An Island, a Serpent, and an Unwelcome Return** — Egyptian maritime imagination, nested narratives, and the skeptical ending.
+
 The [ancient-literature roadmap](ANCIENT_LITERATURE_ROADMAP.md) describes further candidates and the editorial approach. These are full narrative essays with contextual analysis rather than annotated readings or verbatim reproductions of modern translations.
 
 The source Markdown files contain a spoken lecture between explicit markers.
