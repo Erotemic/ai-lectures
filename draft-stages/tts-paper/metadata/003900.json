@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003900",
+  "source_g2": null,
+  "transcript": "003900-principal-angles-between-subspaces.md",
+  "historical_claims": [
+    {
+      "id": "003900-h01",
+      "anchor": "Camille Jordan, in his 1875 essay on geometry in n dimensions, made this into a general definition.",
+      "kind": "historical_attribution",
+      "source_ids": ["jordan-1875-essai"],
+      "source_locator": "Bull. Soc. Math. France 3 (1875), 103-174; angles between linear subspaces",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "003900-h02",
+      "anchor": "Paige and Wei's history of the decomposition traces it from Jordan's geometry, through the principal ideas assembled by Davis and Kahan in their 1970 paper, to G. W. Stewart, who completed and explicitly formulated the matrix decomposition in 1977.",
+      "kind": "historical_attribution",
+      "source_ids": ["paige-wei-1994", "davis-kahan-1970", "stewart-1977"],
+      "source_locator": "Paige and Wei (1994), historical account; cited in the journal paper, Section 2.1",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "003900-h03",
+      "anchor": "Harold Hotelling's 1936 paper on relations between two sets of variates introduced canonical correlation analysis.",
+      "kind": "historical_attribution",
+      "source_ids": ["hotelling-1936"],
+      "source_locator": "Biometrika 28 (1936), 321-377",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "003900-h04",
+      "anchor": "Åke Björck and Gene Golub gave numerical methods in 1973 for computing principal angles and vectors from orthonormal bases and the singular value decomposition",
+      "kind": "historical_attribution",
+      "source_ids": ["bjorck-golub-1973"],
+      "source_locator": "Math. Comp. 27 (1973), 579-594",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "003900-h05",
+      "anchor": "That number reappears as the smallest possible trace-norm displacement in the counterexample to the paper's Proposition four point four.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Proposition 4.4; journal paper Section 5 (global trace-norm minimum 4 sin theta)",
+      "audit_status": "pending_primary_passage_comparison"
+    }
+  ],
+  "related_resources": [
+    {
+      "source_id": "wiki-angles-between-flats",
+      "reason": "Definition of principal angles and vectors through the singular values of an overlap matrix; finite-dimensional, matching the lecture's first half."
+    },
+    {
+      "source_id": "wiki-singular-value-decomposition",
+      "reason": "Review the variational characterization of singular values used to identify Jordan's recursive maxima with the SVD of the overlap matrix."
+    },
+    {
+      "source_id": "higham-cs-decomposition",
+      "reason": "Short explainer of the CS decomposition; compare its cosine and sine blocks with the target basis written in source coordinates."
+    },
+    {
+      "source_id": "intel-principal-angles",
+      "reason": "Computing principal angles in practice with QR and SVD, including why sines are preferred for small angles."
+    },
+    {
+      "source_id": "wiki-canonical-correlation",
+      "reason": "Canonical correlation analysis; read the section relating canonical correlations to principal angles between column spaces."
+    },
+    {
+      "source_id": "zhu-knyazev-tangent-angles",
+      "reason": "Research-level survey of cosine, sine, and tangent formulas for principal angles via projectors and frames; useful after the lecture."
+    }
+  ]
+}

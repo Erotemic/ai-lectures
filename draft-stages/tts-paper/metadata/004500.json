@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004500",
+  "source_g2": null,
+  "transcript": "004500-two-projections-and-the-classification-of-pairs.md",
+  "historical_claims": [
+    {
+      "id": "004500-h01",
+      "anchor": "Davis and Kahan state this as Theorem 3.1 of their paper, in terms of the two directed angle operators Theta zero and Theta one.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Theorem 3.1",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "004500-h02",
+      "anchor": "Davis and Kahan call a pair acute when both defects are zero.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Definition 3.2",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "004500-h03",
+      "anchor": "In infinite dimensions, subtraction fails, and so does the conclusion. Davis and Kahan give an example.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Remark after Proposition 3.2 (bilateral shift example comparing (1.5) and (3.5))",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "004500-h04",
+      "anchor": "Corollary 3.1 of the paper describes the invariants as lists.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Corollary 3.1",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "004500-h05",
+      "anchor": "Paul Halmos published the five-piece decomposition and the block form of the generic part in his 1969 paper titled Two Subspaces.",
+      "kind": "historical_attribution",
+      "source_ids": ["halmos-1969"],
+      "source_locator": "Trans. AMS 144 (1969), 381-389",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "004500-h06",
+      "anchor": "Böttcher and Spitkovsky's survey of two-projection theory relates Halmos's representation to earlier formulations by Jacques Dixmier in 1948 and by Chandler Davis in 1958, and to the closely related projection constructions in the Davis–Kahan paper.",
+      "kind": "historical_attribution",
+      "source_ids": ["bottcher-spitkovsky-2010", "davis-1958-separation"],
+      "source_locator": "Böttcher and Spitkovsky (2010), Remark 1.3",
+      "audit_status": "pending_primary_passage_comparison"
+    }
+  ],
+  "related_resources": [
+    {
+      "source_id": "halmos-1969",
+      "reason": "The original two-subspace paper: the five-part decomposition and the generic block form derived in the lecture."
+    },
+    {
+      "source_id": "bottcher-spitkovsky-2010",
+      "reason": "A readable survey of two-projection theory; Sections 1-2 cover Halmos's theorem and its history, including Dixmier and Davis."
+    },
+    {
+      "source_id": "wiki-projection-linear-algebra",
+      "reason": "Basic properties of orthogonal projections used throughout the decomposition."
+    },
+    {
+      "source_id": "wiki-spectral-theorem",
+      "reason": "Background for the multiplicity-function invariant; the Hahn-Hellinger multiplicity theory goes beyond this article."
+    }
+  ]
+}

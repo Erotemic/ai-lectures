@@ -1,41 +1,46 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "source_g2": "026000",
-  "related_resources": [
+  "source_g2": null,
+  "transcript": "001000-spectral-subspaces-and-exact-decompositions.md",
+  "historical_claims": [
     {
-      "source_id": "mit-strang-svd",
-      "reason": "Finite-dimensional singular-direction intuition; general operator-ideal and infinite-dimensional claims require additional sources."
+      "id": "001000-h01",
+      "anchor": "In their Section 1, Davis and Kahan state explicitly that no assumption is made that the projections are spectral projectors or that the spectra of the two blocks are disjoint.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 1, after equation (1.3)",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "mit-strang-18-06",
-      "reason": "MIT 18.06 lectures 21 and 25–27 cover eigenvectors, spectral structure and positive definite matrices."
-    },
-    {
-      "source_id": "threeblue-eigenvalues",
-      "reason": "Study a two-dimensional eigenvector example before the spectral argument."
-    },
-    {
-      "source_id": "axler-open-linear-algebra",
-      "reason": "Consult the proof-led account of linear operators, inner products, adjoints and spectral structure."
-    },
-    {
-      "source_id": "tao-hermitian-matrix-sums",
-      "reason": "Study min-max proofs and eigenvalue inequalities from a matrix-analysis viewpoint."
-    },
-    {
-      "source_id": "bindel-hermitian-svd",
-      "reason": "Review a computational proof of symmetric eigenvalue and singular-value properties."
-    },
-    {
-      "source_id": "wiki-spectral-theorem",
-      "reason": "The finite spectral theorem and the organization of orthogonal eigenspaces."
-    },
-    {
-      "source_id": "wiki-hermitian-matrix",
-      "reason": "Properties of self-adjoint matrices and orthogonal eigenvectors."
+      "id": "001000-h02",
+      "anchor": "This is the classical reason, central to Kato's perturbation theory, that isolated spectral subspaces move continuously.",
+      "kind": "historical_attribution",
+      "source_ids": ["kato-1966", "simon-2018-kato"],
+      "source_locator": "Kato (1966); journal paper Section 2.5",
+      "audit_status": "pending_primary_passage_comparison"
     }
   ],
-  "transcript": "001000-the-finite-spectral-picture.md",
-  "historical_claims": []
+  "related_resources": [
+    {
+      "source_id": "wiki-spectral-theorem",
+      "reason": "Statement of the spectral theorem for self-adjoint operators; read the projection-valued-measure formulation."
+    },
+    {
+      "source_id": "wiki-projection-valued-measure",
+      "reason": "Definition and properties of projection-valued measures used to define spectral projections for Borel sets."
+    },
+    {
+      "source_id": "jordan-bell-pvm",
+      "reason": "Detailed notes on projection-valued measures and spectral integrals, for the infinite-dimensional construction."
+    },
+    {
+      "source_id": "wiki-invariant-subspace",
+      "reason": "Invariant subspaces; compare with the reducing condition, which coincides with invariance for self-adjoint operators."
+    },
+    {
+      "source_id": "wiki-resolvent-formalism",
+      "reason": "Resolvents and the Riesz contour-integral projection onto an isolated part of the spectrum."
+    }
+  ]
 }

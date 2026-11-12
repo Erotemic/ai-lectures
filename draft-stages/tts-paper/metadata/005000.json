@@ -1,37 +1,82 @@
 {
   "schema_version": 1,
   "lecture_id": "005000",
-  "source_g2": "049000",
-  "related_resources": [
+  "source_g2": null,
+  "transcript": "005000-the-direct-rotation.md",
+  "historical_claims": [
     {
-      "source_id": "higham-polar",
-      "reason": "Alternative polar-factor explanation; distinguish a kernel-zero partial isometry from full unitary extensions."
+      "id": "005000-h01",
+      "anchor": "This was the construction of Béla Sz.-Nagy, in work published in 1947, given a streamlined algebraic form by Tosio Kato",
+      "kind": "historical_attribution",
+      "source_ids": ["simon-2018-kato", "kato-1966"],
+      "source_locator": "Simon (2018), Section 5 and Theorem 5.1; Kato (1966), Chapter I, Section 4.6",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "halmos-1969",
-      "reason": "Original treatment of two subspaces and their generic part; complements principal-angle geometry."
+      "id": "005000-h02",
+      "anchor": "Proposition 3.1 of the paper says more than existence.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Definition 3.2 and Proposition 3.1",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "davis-kahan-1970",
-      "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+      "id": "005000-h03",
+      "anchor": "Davis and Kahan's Proposition 3.3 states this in general",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Equations (3.6)-(3.8) and Proposition 3.3",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "zhu-knyazev-tangent-angles",
-      "reason": "Compare projector and frame formulas for principal-angle cosines, sines, and tangents."
+      "id": "005000-h04",
+      "anchor": "These are the commutation statements of Proposition 3.5.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Proposition 3.5 and equation (1.18)",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "wiki-polar-decomposition",
-      "reason": "The polar factor as a canonical orthogonal or unitary transformation."
+      "id": "005000-h05",
+      "anchor": "This is Corollary 3.2 of the paper.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Corollary 3.2",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "wiki-orthogonal-matrix",
-      "reason": "The plane rotation and reflection calculations used to distinguish admissible transports."
+      "id": "005000-h06",
+      "anchor": "The intertwiner T and its unitary polar factor go back to Sz.-Nagy's 1947 work on perturbations of spectral projections; Kato gave the algebraic formula in a 1955 report and in his book Perturbation Theory for Linear Operators.",
+      "kind": "historical_attribution",
+      "source_ids": ["simon-2018-kato", "kato-1966"],
+      "source_locator": "Simon (2018), Section 5; Kato (1966), Chapter I, Section 4.6, equations (4.33)-(4.42)",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "wiki-angles-between-flats",
-      "reason": "Principal-angle blocks that determine the direct-rotation construction."
+      "id": "005000-h07",
+      "anchor": "Davis and Kahan named the direct rotation, characterized it by positive diagonal blocks, proved uniqueness in the acute case, and identified it as the principal square root of the product of two reflections.",
+      "kind": "historical_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 3: Definition 3.1, Propositions 3.1 and 3.3",
+      "audit_status": "pending_primary_passage_comparison"
     }
   ],
-  "transcript": "005000-canonical-direct-rotation.md",
-  "historical_claims": []
+  "related_resources": [
+    {
+      "source_id": "wiki-polar-decomposition",
+      "reason": "The unitary polar factor that turns the intertwiner T into the direct rotation; read the bounded-operator section."
+    },
+    {
+      "source_id": "simon-2018-kato",
+      "reason": "Section 5 recounts Sz.-Nagy's and Kato's constructions for pairs of projections, the history behind T and its polar factor."
+    },
+    {
+      "source_id": "wiki-unitary-rotation",
+      "reason": "Rotation matrices and their angle-addition structure; the planar model of the direct rotation and of the product of two reflections."
+    },
+    {
+      "source_id": "higham-cs-decomposition",
+      "reason": "The CS decomposition shows the same cosine-sine block structure that the direct rotation has in principal-plane coordinates."
+    }
+  ]
 }

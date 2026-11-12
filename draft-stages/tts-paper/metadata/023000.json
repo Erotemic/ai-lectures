@@ -1,41 +1,76 @@
 {
   "schema_version": 1,
   "lecture_id": "023000",
-  "source_g2": "117000",
-  "related_resources": [
+  "source_g2": null,
+  "transcript": "023000-the-doubled-tangent-theorem.md",
+  "historical_claims": [
     {
-      "source_id": "kato-1995",
-      "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+      "id": "023000-h01",
+      "anchor": "As Davis and Kahan emphasize, no separate hypothesis excludes the angles where the tangent of two theta is infinite, at forty-five degrees, and no spectral hypothesis is placed on the perturbed blocks.",
+      "kind": "source_scope",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Section 2, tan 2theta statement; Section 7 proof",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "davis-kahan-1970",
-      "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+      "id": "023000-h02",
+      "anchor": "That is how the paper uses the theorem for the free beam.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Section 9, equation (9.7)",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "hsu-dk-notes",
-      "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+      "id": "023000-h03",
+      "anchor": "Davis and Kahan state that all four constants are best possible, attained in two dimensions, and that for a perturbation depending linearly on a small parameter the four estimates agree to first order.",
+      "kind": "source_scope",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Section 2, sharpness paragraph",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "kostrykin-tan2-theorem",
-      "reason": "Compare the off-diagonal perturbation theorem with a graph/Riccati formulation."
+      "id": "023000-h04",
+      "anchor": "Davis and Kahan record that, unlike the doubled-sine theorem, no extension of the doubled-tangent theorem to a trial subspace of smaller dimension than the exact one was known to them.",
+      "kind": "source_scope",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Final paragraph of Section 8",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "motovilov-selin-subspace-bounds",
-      "reason": "Contrast ordered-gap and convex-hull gap hypotheses in sharp tangent estimates."
-    },
-    {
-      "source_id": "wiki-spectral-gap",
-      "reason": "The interval separating low and high spectral blocks."
-    },
-    {
-      "source_id": "wiki-angles-between-flats",
-      "reason": "Interpreting the doubled tangent after selecting the small-angle branch."
-    },
-    {
-      "source_id": "wiki-quadratic-form",
-      "reason": "The form inequalities underlying spectral repulsion."
+      "id": "023000-h05",
+      "anchor": "This is the rotation used in Jacobi's classical method for symmetric eigenvalue problems, which annihilates one off-diagonal entry at a time.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "wiki-jacobi-eigenvalue"
+      ],
+      "source_locator": "Secondary account of the Jacobi eigenvalue method",
+      "audit_status": "pending_primary_passage_comparison"
     }
   ],
-  "transcript": "023000-the-tangent-two-theta-theorem.md",
-  "historical_claims": []
+  "related_resources": [
+    {
+      "source_id": "wiki-jacobi-eigenvalue",
+      "reason": "The Jacobi rotation and its angle formula, the planar case of the doubled-tangent theorem."
+    },
+    {
+      "source_id": "wiki-eigenvalue-perturbation",
+      "reason": "Two-by-two eigenvector rotation formulas, including the doubled-angle form."
+    },
+    {
+      "source_id": "bindel-ritz-eigensolvers",
+      "reason": "Rayleigh-Ritz compressions on a subspace and its complement, the setting in which the off-diagonal hypothesis is arranged."
+    },
+    {
+      "source_id": "wiki-schur-complement",
+      "reason": "Block elimination for 2x2 block operators with an ordered diagonal, related to the invariance identity."
+    }
+  ]
 }

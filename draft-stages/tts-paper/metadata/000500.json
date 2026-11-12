@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "lecture_id": "000500",
+  "source_g2": null,
+  "transcript": "000500-where-the-constructions-come-from.md",
+  "historical_claims": [
+    {
+      "id": "000500-h01",
+      "anchor": "Camille Jordan, in his 1875 essay on geometry in n dimensions, introduced the sequence of angles now called principal angles",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "jordan-1875-essai"
+      ],
+      "source_locator": "Bull. SMF 3 (1875)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h02",
+      "anchor": "Harold Hotelling's 1936 paper on relations between two sets of variates introduced canonical correlations",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "hotelling-1936"
+      ],
+      "source_locator": "Biometrika 28 (1936)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h03",
+      "anchor": "Åke Björck and Gene Golub gave numerical methods in 1973 for computing principal angles and vectors from orthonormal bases.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "bjorck-golub-1973"
+      ],
+      "source_locator": "Math. Comp. 27 (1973)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h04",
+      "anchor": "Jacques Dixmier in 1948 and Chandler Davis in 1958 studied the relative position of two closed subspaces in operator terms",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "bottcher-spitkovsky-2010",
+        "davis-1958-separation"
+      ],
+      "source_locator": "Böttcher-Spitkovsky Remark 1.3; Davis (1958)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h05",
+      "anchor": "Paul Halmos's 1969 paper titled Two Subspaces gave the block form",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "halmos-1969"
+      ],
+      "source_locator": "Trans. AMS 144 (1969)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h06",
+      "anchor": "Paige and Wei's history traces it from Jordan through the ideas assembled by Davis and Kahan to G. W. Stewart's explicit formulation in 1977.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "paige-wei-1994",
+        "stewart-1977"
+      ],
+      "source_locator": "Paige-Wei (1994)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h07",
+      "anchor": "Rayleigh, in The Theory of Sound, published in 1877, estimated vibration frequencies by evaluating energy ratios on guessed shapes",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "leissa-2005"
+      ],
+      "source_locator": "Leissa (2005)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h08",
+      "anchor": "Walter Ritz, in work published in 1909, made this systematic",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "ritz-1909",
+        "leissa-2005"
+      ],
+      "source_locator": "Ritz (1909)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h09",
+      "anchor": "Hermann Weyl's 1912 work on the distribution of eigenvalues contains comparison inequalities",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "weyl-1912"
+      ],
+      "source_locator": "Math. Ann. 71 (1912); passage to be located",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h10",
+      "anchor": "Franz Rellich, in papers from 1937 to 1942, developed a rigorous perturbation theory for self-adjoint operators depending on a parameter.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "simon-2018-kato"
+      ],
+      "source_locator": "Simon (2018), Section 5 (secondary)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h11",
+      "anchor": "Béla Sz.-Nagy, in work published in 1947, constructed a unitary operator carrying one spectral projection onto a nearby one",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "simon-2018-kato"
+      ],
+      "source_locator": "Simon (2018), Section 5",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h12",
+      "anchor": "Barry Simon's survey of Kato's work recounts this history.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "simon-2018-kato"
+      ],
+      "source_locator": "Simon (2018)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h13",
+      "anchor": "James Joseph Sylvester studied the matrix equation A X minus X B equals C in 1884",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "wiki-sylvester-equation"
+      ],
+      "source_locator": "Secondary; Comptes Rendus 99 (1884)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h14",
+      "anchor": "Marvin Rosenblum extended the theory to bounded operators with disjoint spectra in 1956, and studied the case of self-adjoint coefficients in 1969.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "rosenblum-1956",
+        "rosenblum-1969"
+      ],
+      "source_locator": "Duke 1956; Proc. AMS 1969",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h15",
+      "anchor": "John von Neumann in 1937 characterized the unitarily invariant norms on matrices as symmetric gauge functions of the singular values.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "bhatia-1997"
+      ],
+      "source_locator": "Bhatia Ch. IV (secondary); Tomsk Univ. Rev. 1 (1937)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h16",
+      "anchor": "Robert Schatten's 1950 monograph developed normed operator ideals",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "bhatia-1997"
+      ],
+      "source_locator": "Secondary; A Theory of Cross-Spaces (1950)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h17",
+      "anchor": "Ky Fan's 1951 inequalities for sums of the largest eigenvalues and singular values",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "fan-1951"
+      ],
+      "source_locator": "PNAS 37 (1951)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h18",
+      "anchor": "Chandler Davis studied the rotation of eigenvectors under perturbation in papers of 1963 and 1965.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "davis-1963",
+        "davis-1965"
+      ],
+      "source_locator": "JMAA 1963, 1965",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h19",
+      "anchor": "With William Kahan he announced new bounds in 1969, and published the full treatment in 1970",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "davis-kahan-1969",
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Bull. AMS 1969; SIAM J. Numer. Anal. 1970",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h20",
+      "anchor": "Per-Åke Wedin, in 1972, gave the corresponding perturbation bounds for singular subspaces of general rectangular matrices.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "wedin-1972"
+      ],
+      "source_locator": "BIT 12 (1972)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h21",
+      "anchor": "Yi Yu, Tengyao Wang, and Richard Samworth gave in 2015 a variant of the sine-theta theorem whose gap is measured in the population spectrum",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "yu-wang-samworth-2015"
+      ],
+      "source_locator": "Biometrika 102 (2015)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h22",
+      "anchor": "Chen, Chi, Fan, and Ma's survey of spectral methods",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "chen-chi-fan-ma-2021"
+      ],
+      "source_locator": "Found. Trends ML (2021)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h23",
+      "anchor": "Bolotnikov, Li, and Rodman, in 2001, studied minimal distortion problems for unitary maps carrying one subspace onto another",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "bolotnikov-li-rodman-2001"
+      ],
+      "source_locator": "ELA 8 (2001)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000500-h24",
+      "anchor": "It finds that twenty-eight of the twenty-nine selected results hold as stated, and that Proposition 4.4",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Journal paper, abstract and Section 3",
+      "audit_status": "pending_primary_passage_comparison"
+    }
+  ],
+  "related_resources": [
+    {
+      "source_id": "paige-wei-1994",
+      "reason": "History of the CS decomposition from Jordan to Stewart."
+    },
+    {
+      "source_id": "simon-2018-kato",
+      "reason": "History of moving spectral projections: Rellich, Sz.-Nagy and Kato."
+    },
+    {
+      "source_id": "bottcher-spitkovsky-2010",
+      "reason": "Two-projection theory and its history: Dixmier, Davis, Halmos."
+    },
+    {
+      "source_id": "leissa-2005",
+      "reason": "Historical bases of the Rayleigh and Ritz methods."
+    },
+    {
+      "source_id": "davis-kahan-1970",
+      "reason": "The 1970 synthesis."
+    }
+  ]
+}

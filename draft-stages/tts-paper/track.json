@@ -1,7 +1,7 @@
 {
   "id": "g3",
   "title": "G3 · Audio paper track",
-  "summary": "A 27-lecture path through the four Davis–Kahan angle theorems and the contiguous Section 4 sequence from restricted transport through Proposition 4.3, the Proposition 4.4 counterexample, and real matching.",
+  "summary": "A paper-focused path to mastery of the Davis–Kahan journal paper: subspace geometry and direct rotations, spectral subspaces and residuals, unitarily invariant norms and operator ideals, Sylvester estimates, the sine-theta theorem, the tangent and double-angle theorems, and the Section 4 transport results through the Proposition 4.4 counterexample and real matching. Being rewritten lecture by lecture; see PAPER_COVERAGE_PLAN.md.",
   "assumed_background": [
     "linear algebra",
     "singular values",
@@ -9,257 +9,302 @@
   ],
   "sections": [
     "orientation",
-    "foundation",
     "geometry",
+    "spectral",
     "norms",
-    "machinery",
-    "reflection-selection",
-    "angle-theorems",
-    "section4-transport"
+    "sylvester",
+    "sine-theta",
+    "tangent-double-angle",
+    "transport"
   ],
   "lectures": [
     {
       "id": "000000",
-      "title": "A fast path to Davis–Kahan",
+      "title": "The problem and the paper",
       "section": "orientation",
-      "file": "000000-a-fast-path-to-davis-kahan.md",
+      "file": "000000-the-problem-and-the-paper.md",
       "source_g2": null,
-      "draft_status": "new_draft",
-      "spoken_words": 1271
+      "draft_status": "g3_rewrite",
+      "spoken_words": 1582
     },
     {
-      "id": "001000",
-      "title": "The finite spectral picture",
-      "section": "foundation",
-      "file": "001000-the-finite-spectral-picture.md",
-      "source_g2": "026000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1584
+      "id": "000500",
+      "title": "Where the constructions come from",
+      "section": "orientation",
+      "file": "000500-where-the-constructions-come-from.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 1653
     },
     {
-      "id": "002000",
-      "title": "Spectral separation and gap hypotheses",
-      "section": "foundation",
-      "file": "002000-spectral-separation-and-gap-hypotheses.md",
-      "source_g2": "031000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1667
-    },
-    {
-      "id": "003000",
-      "title": "Trial subspaces, Ritz values, and residuals",
-      "section": "foundation",
-      "file": "003000-trial-subspaces-ritz-values-and-residuals.md",
-      "source_g2": "107000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1575
+      "id": "003900",
+      "title": "Principal angles between subspaces",
+      "section": "geometry",
+      "file": "003900-principal-angles-between-subspaces.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 4286
     },
     {
       "id": "004000",
-      "title": "Principal-angle sine and cosine operators",
+      "title": "The angle operator of two subspaces",
       "section": "geometry",
-      "file": "004000-principal-angle-sine-and-cosine-operators.md",
-      "source_g2": "043000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1720
+      "file": "004000-the-angle-operator-of-two-subspaces.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 3685
+    },
+    {
+      "id": "004500",
+      "title": "Two projections and the classification of pairs",
+      "section": "geometry",
+      "file": "004500-two-projections-and-the-classification-of-pairs.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 3268
     },
     {
       "id": "005000",
-      "title": "Canonical direct rotation",
+      "title": "The direct rotation",
       "section": "geometry",
-      "file": "005000-canonical-direct-rotation.md",
-      "source_g2": "049000",
-      "draft_status": "adapted_revised",
-      "spoken_words": 1745
+      "file": "005000-the-direct-rotation.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2893
+    },
+    {
+      "id": "005500",
+      "title": "Nonacute pairs and the squared rotation",
+      "section": "geometry",
+      "file": "005500-nonacute-pairs-and-the-squared-rotation.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2330
+    },
+    {
+      "id": "001000",
+      "title": "Spectral subspaces and exact decompositions",
+      "section": "spectral",
+      "file": "001000-spectral-subspaces-and-exact-decompositions.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2500
+    },
+    {
+      "id": "011000",
+      "title": "Unbounded self-adjoint operators and their domains",
+      "section": "spectral",
+      "file": "011000-unbounded-self-adjoint-operators-and-domains.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2570
+    },
+    {
+      "id": "003000",
+      "title": "Trial subspaces and residuals",
+      "section": "spectral",
+      "file": "003000-trial-subspaces-and-residuals.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2768
+    },
+    {
+      "id": "002000",
+      "title": "The geometry of spectral gaps",
+      "section": "spectral",
+      "file": "002000-the-geometry-of-spectral-gaps.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2181
     },
     {
       "id": "006000",
       "title": "Unitarily invariant norms and Ky Fan dominance",
       "section": "norms",
       "file": "006000-unitarily-invariant-norms-and-ky-fan-dominance.md",
-      "source_g2": "058000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1727
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2332
     },
     {
-      "id": "007000",
-      "title": "Block operators and reducing subspaces",
-      "section": "machinery",
-      "file": "007000-block-operators-and-reducing-subspaces.md",
-      "source_g2": "016000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1726
+      "id": "013000",
+      "title": "Operator ideals and finite norms",
+      "section": "norms",
+      "file": "013000-operator-ideals-and-finite-norms.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 1926
     },
     {
       "id": "008000",
       "title": "The Sylvester equation",
-      "section": "machinery",
+      "section": "sylvester",
       "file": "008000-the-sylvester-equation.md",
-      "source_g2": "062000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1656
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2337
     },
     {
       "id": "009000",
-      "title": "Ordered spectral separation",
-      "section": "machinery",
-      "file": "009000-ordered-spectral-separation.md",
-      "source_g2": "065000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1632
+      "title": "Ordered separation and Theorem 5.2",
+      "section": "sylvester",
+      "file": "009000-ordered-separation-and-theorem-5-2.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 1946
     },
     {
       "id": "010000",
-      "title": "Choosing the correct Sylvester norm estimate",
-      "section": "machinery",
-      "file": "010000-choosing-the-correct-sylvester-norm-estimate.md",
-      "source_g2": "069000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1731
-    },
-    {
-      "id": "011000",
-      "title": "The unbounded spectral theorem",
-      "section": "machinery",
-      "file": "011000-the-unbounded-spectral-theorem.md",
-      "source_g2": "088000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1631
+      "title": "Distance gaps and the Hilbert–Schmidt estimate",
+      "section": "sylvester",
+      "file": "010000-distance-gaps-and-the-hilbert-schmidt-estimate.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 1738
     },
     {
       "id": "012000",
-      "title": "Domains and unbounded Sylvester identities",
-      "section": "machinery",
-      "file": "012000-domains-and-unbounded-sylvester-identities.md",
-      "source_g2": "093000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1728
-    },
-    {
-      "id": "013000",
-      "title": "Symmetric operator ideals",
-      "section": "machinery",
-      "file": "013000-symmetric-operator-ideals.md",
-      "source_g2": "098000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1456
-    },
-    {
-      "id": "014000",
-      "title": "Graph subspaces and tangent geometry",
-      "section": "reflection-selection",
-      "file": "014000-graph-subspaces-and-tangent-geometry.md",
-      "source_g2": "111000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1641
-    },
-    {
-      "id": "015000",
-      "title": "Off-diagonal perturbations and reflection",
-      "section": "reflection-selection",
-      "file": "015000-off-diagonal-perturbations-and-reflection.md",
-      "source_g2": "114000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1528
-    },
-    {
-      "id": "016000",
-      "title": "Spectral selection and repulsion",
-      "section": "reflection-selection",
-      "file": "016000-spectral-selection-and-repulsion.md",
-      "source_g2": "119000",
-      "draft_status": "adapted_revised",
-      "spoken_words": 1678
+      "title": "Unbounded Sylvester identities and spectral cutoffs",
+      "section": "sylvester",
+      "file": "012000-unbounded-sylvester-identities-and-cutoffs.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2123
     },
     {
       "id": "020000",
       "title": "The sine-theta theorem",
-      "section": "angle-theorems",
+      "section": "sine-theta",
       "file": "020000-the-sine-theta-theorem.md",
-      "source_g2": "110000",
-      "draft_status": "adapted_revised",
-      "spoken_words": 1740
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2646
+    },
+    {
+      "id": "020500",
+      "title": "Generalizations of the sine theorem",
+      "section": "sine-theta",
+      "file": "020500-generalizations-of-the-sine-theorem.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2356
+    },
+    {
+      "id": "020700",
+      "title": "Real and complex scalars",
+      "section": "sine-theta",
+      "file": "020700-real-and-complex-scalars.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2045
+    },
+    {
+      "id": "014000",
+      "title": "Graph subspaces and tangents",
+      "section": "tangent-double-angle",
+      "file": "014000-graph-subspaces-and-tangents.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 1855
     },
     {
       "id": "021000",
-      "title": "The tangent-theta theorem",
-      "section": "angle-theorems",
-      "file": "021000-the-tangent-theta-theorem.md",
-      "source_g2": "112000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1729
+      "title": "The tangent theorem",
+      "section": "tangent-double-angle",
+      "file": "021000-the-tangent-theorem.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2544
+    },
+    {
+      "id": "016000",
+      "title": "Off-diagonal perturbations, branch selection, and repulsion",
+      "section": "tangent-double-angle",
+      "file": "016000-off-diagonal-perturbations-branch-selection-and-repulsion.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2058
     },
     {
       "id": "022000",
-      "title": "The sine-two-theta theorem",
-      "section": "angle-theorems",
-      "file": "022000-the-sine-two-theta-theorem.md",
-      "source_g2": "116000",
-      "draft_status": "adapted_revised",
-      "spoken_words": 1698
+      "title": "The doubled-sine theorem and smallness",
+      "section": "tangent-double-angle",
+      "file": "022000-the-doubled-sine-theorem-and-smallness.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2310
     },
     {
       "id": "023000",
-      "title": "The tangent-two-theta theorem",
-      "section": "angle-theorems",
-      "file": "023000-the-tangent-two-theta-theorem.md",
-      "source_g2": "117000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1707
+      "title": "The doubled-tangent theorem",
+      "section": "tangent-double-angle",
+      "file": "023000-the-doubled-tangent-theorem.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 1946
     },
     {
       "id": "017000",
-      "title": "Direct rotation under restricted hypotheses",
-      "section": "section4-transport",
-      "file": "017000-direct-rotation-under-restricted-hypotheses.md",
-      "source_g2": "130000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1554
+      "title": "The transport problem and restricted displacement",
+      "section": "transport",
+      "file": "017000-the-transport-problem-and-restricted-displacement.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 1774
     },
     {
       "id": "018000",
-      "title": "The squared sine-angle bound (Proposition 4.2)",
-      "section": "section4-transport",
-      "file": "018000-squared-displacement-and-majorization.md",
-      "source_g2": "131000",
-      "draft_status": "adapted_revised",
-      "spoken_words": 1501
+      "title": "Basis square sums of sines",
+      "section": "transport",
+      "file": "018000-basis-square-sums-of-sines.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 1533
     },
     {
       "id": "018500",
-      "title": "Whole-space squared displacement (Proposition 4.3)",
-      "section": "section4-transport",
-      "file": "018500-whole-space-squared-displacement-proposition-4-3.md",
-      "source_g2": "132000",
-      "draft_status": "adapted_revised",
-      "spoken_words": 1729
-    },
-    {
-      "id": "019000",
-      "title": "Why unsquared displacement is different",
-      "section": "section4-transport",
-      "file": "019000-why-unsquared-displacement-is-different.md",
-      "source_g2": "133000",
-      "draft_status": "adapted_revised",
-      "spoken_words": 1497
+      "title": "Squared displacement and Q-norms",
+      "section": "transport",
+      "file": "018500-squared-displacement-and-q-norms.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 1656
     },
     {
       "id": "024000",
-      "title": "The Proposition 4.4 counterexample",
-      "section": "section4-transport",
-      "file": "024000-the-proposition-4-4-counterexample.md",
-      "source_g2": "134000",
-      "draft_status": "adapted_draft",
-      "spoken_words": 1658
+      "title": "Proposition 4.4 and its counterexample",
+      "section": "transport",
+      "file": "024000-proposition-4-4-and-its-counterexample.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2206
     },
     {
       "id": "025000",
-      "title": "The real transport matching theorem",
-      "section": "section4-transport",
-      "file": "025000-the-real-transport-matching-theorem.md",
-      "source_g2": "145000",
-      "draft_status": "adapted_revised",
-      "spoken_words": 1712
+      "title": "The matching theorem",
+      "section": "transport",
+      "file": "025000-the-matching-theorem.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 1961
+    },
+    {
+      "id": "025500",
+      "title": "The matching proof, I: optimal transporters split into blocks",
+      "section": "transport",
+      "file": "025500-the-matching-proof-i-optimal-transporters-split-into-blocks.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2534
+    },
+    {
+      "id": "025700",
+      "title": "The matching proof, II: block costs and the trace-norm limit",
+      "section": "transport",
+      "file": "025700-the-matching-proof-ii-block-costs-and-the-trace-norm-limit.md",
+      "source_g2": null,
+      "draft_status": "g3_rewrite",
+      "spoken_words": 2268
     }
   ]
 }

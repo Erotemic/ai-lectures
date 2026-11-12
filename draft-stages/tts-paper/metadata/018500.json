@@ -1,60 +1,54 @@
 {
   "schema_version": 1,
   "lecture_id": "018500",
-  "transcript": "018500-whole-space-squared-displacement-proposition-4-3.md",
+  "source_g2": null,
+  "transcript": "018500-squared-displacement-and-q-norms.md",
   "historical_claims": [
     {
       "id": "018500-h01",
-      "anchor": "Proposition four point three instead studies squared displacement on the entire ambient space.",
+      "anchor": "That is Proposition 4.3, and it is correct.",
       "kind": "source_attribution",
-      "source_ids": [
-        "davis-kahan-1970"
-      ],
+      "source_ids": ["davis-kahan-1970"],
       "source_locator": "Proposition 4.3",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "018500-h02",
+      "anchor": "Davis and Kahan already note that Proposition 4.3 implies minimality in the operator norm and the Hilbert–Schmidt norm.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 4, after Proposition 4.3",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "018500-h03",
+      "anchor": "Bolotnikov, Li, and Rodman had earlier studied minimal distortion problems for this class of subspace-transport constraints, including Q-norm minimization and counterexamples for Schatten norms with exponent between one and two.",
+      "kind": "historical_attribution",
+      "source_ids": ["bolotnikov-li-rodman-2001"],
+      "source_locator": "Theorem 3.1 and Lemma 3.3",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "018500-h04",
+      "anchor": "This is the source of the sixty-degree threshold in the printed Proposition 4.4",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Examples 4.1-4.2 and Proposition 4.4",
       "audit_status": "pending_primary_passage_comparison"
     }
   ],
   "related_resources": [
     {
-      "source_id": "higham-polar",
-      "reason": "Alternative polar-factor explanation; distinguish a kernel-zero partial isometry from full unitary extensions."
-    },
-    {
-      "source_id": "bhatia-1997",
-      "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
-    },
-    {
-      "source_id": "davis-kahan-1970",
-      "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
-    },
-    {
-      "source_id": "higham-unitarily-invariant-norm",
-      "reason": "Connect singular-value inequalities with symmetric gauges, Schatten and Ky Fan norms."
-    },
-    {
-      "source_id": "higham-matrix-trace",
-      "reason": "Review trace identities used in norm and displacement calculations."
-    },
-    {
-      "source_id": "mit-matrix-calculus",
-      "reason": "Compare the lecture’s matrix variations with scalar-by-matrix derivative examples."
-    },
-    {
-      "source_id": "mit-strang-18065-procrustes",
-      "reason": "See an orthogonal transport problem where minimizing displacement becomes a matrix alignment calculation."
+      "source_id": "bolotnikov-li-rodman-2001",
+      "reason": "Minimal distortion problems for unitary transports: Q-norm optimality and Schatten counterexamples."
     },
     {
       "source_id": "wiki-majorization",
-      "reason": "Ky Fan prefix comparisons, stronger than comparing only a single operator norm."
-    },
-    {
-      "source_id": "wiki-matrix-norm",
-      "reason": "The distinction between norms of squared displacement and norms of displacement."
+      "reason": "Weak majorization and which functions preserve it; concave functions such as the square root do not."
     },
     {
       "source_id": "wiki-schatten-norm",
-      "reason": "Why the Q-norm consequences include Schatten exponents at least two."
+      "reason": "Schatten norms; those with p >= 2 are Q-norms, the trace norm (p = 1) is not."
     }
-  ],
-  "source_g2": "132000"
+  ]
 }
