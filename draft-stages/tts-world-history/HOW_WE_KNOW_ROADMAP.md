@@ -34,10 +34,19 @@ history of the evidence and the research that produced our present account.
 
 These lectures use the same full-narration and source-attribution standard as the first batch. The primary object, original publication or archival record, and later scholarly interpretation remain distinct in each source dossier.
 
+## Third batch: listening-ready
+
+| ID | Case study | Evidentiary question and attributed researchers |
+|---|---|---|
+| 037000 | The Popol Wuj: How a Maya Book Survived | Anonymous K'iche' writers and storytellers; Francisco Ximenez's colonial copy; Brasseur de Bourbourg, manuscript collectors, Sam Colop, Adrian Ines Chavez, Edmonson, Tedlock, Christenson, van Akkeren; a living tradition and disputed textual transmission |
+| 038000 | Finding Mali's Trade Networks in the Ground | Susan Keech and Roderick McIntosh at Jenne-jeno; Sam Nixon, Thilo Rehren, Maria Filomena Guerra at Tadmekka; Timothy Insoll at Timbuktu; medieval Arabic writers; Malian manuscript custodians; triangulating settlement, production, texts and exchange |
+
 ## Future candidates
 
-- **From buried manuscripts to the Popol Wuj** — colonial-era copying, Francisco Ximénez, modern K'iche' scholarship, and the relationship between oral traditions and preserved texts.
-- **The archaeology of African trade networks** — West African site excavations, Mali and Timbuktu manuscripts, archaeological evidence for commerce and settlement.
+- **Reading the Classic Maya inscriptions** — Tatiana Proskouriakoff, Yuri Knorosov, David Stuart, and contemporary Maya epigraphers; decipherment, contested history, and living languages.
+- **Testing Pacific migration histories** — Lapita archaeology, radiocarbon, linguistics, canoe traditions, and ancient DNA, with credit to Pacific navigators and researchers.
+- **Olduvai and Laetoli field records** — Mary Leakey and named field collaborators, fossil-site stratigraphy, footprint recording, and later conservation.
+- **Reconstructing ancient maritime trade** — shipwreck excavation, amphora and cargo provenancing, and the archaeology of the Indian Ocean.
 
 The sequence should remain selected for depth and interesting lines of
 inquiry, without turning each named site or technique into a mandatory

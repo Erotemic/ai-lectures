@@ -67,6 +67,9 @@ These lectures share a browsing section but do not depend on listening order:
 - **035000 · The Indus cities** — Sahni, Bandyopadhyay, Kenoyer, Parpola, undeciphered seals, urban archaeology, and independent material evidence.
 - **036000 · Fu Hao's tomb and the oracle bones** — Zheng Zhenxiang, Anyang archaeology, inscription interpretation, and joining material and written records.
 
+- **037000 · The Popol Wuj: How a Maya Book Survived** — K'iche' authorship and colonial copying, Ximenez's bilingual manuscript, contested provenance, editorial decisions, and the scholarship of Sam Colop and others.
+- **038000 · Finding Mali's Trade Networks in the Ground** — Jenne-jeno urbanism, Tadmekka gold-working equipment, Timbuktu manuscripts, and how archaeologists check medieval trade narratives.
+
 These lectures include named original contributors in the spoken narrative when
 supported by the source record. Each also has non-spoken attribution and
 research notes; the metadata link cards point to original methods, field
