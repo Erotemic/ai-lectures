@@ -6,7 +6,7 @@
 
 # Resolvents from spectral integrals
 
-For a diagonal matrix, taking an inverse is a coordinate-by-coordinate calculation. If a diagonal entry is three and we subtract a shift of one, the corresponding entry of the inverse is one half. Each coordinate is handled by taking the reciprocal of its shifted multiplier.
+For a diagonal matrix, taking an inverse is a coordinate-by-coordinate calculation. The resolvent of an operator A at a complex number z means the bounded inverse of A minus z times the identity, provided that inverse exists. If a diagonal entry is three and we subtract a shift of one, the corresponding entry of the inverse is one half. Each coordinate is handled by taking the reciprocal of its shifted multiplier.
 
 But many self-adjoint operators do not have a basis of eigenvectors. Some have continuous spectrum, where no individual eigenvector represents a spectral value. How can the same idea of taking reciprocals still work?
 
@@ -112,7 +112,7 @@ To see why it is informative, take z with real part u and positive imaginary par
 
 That expression is nonnegative. It is largest when lambda is near u, and becomes more concentrated near u as eta decreases. The imaginary part of our scalar resolvent is the integral of this concentrated kernel against the spectral measure.
 
-The kernel has total area pi when integrated along the real line in u. Consequently, if we integrate the imaginary part of the scalar resolvent over a real interval, divide by pi, and let eta approach zero, we recover the spectral measure of that interval, provided its endpoints carry no atoms. Other endpoint cases have the corresponding half-weight corrections.
+Fix eta. As u moves along the real line, the kernel is a rounded peak of total area pi, centered at each spectral value lambda. Dividing by pi therefore gives a normalized averaging kernel. Now let eta decrease. The peak narrows while retaining that area. If we integrate its contribution over an interval whose endpoints carry no spectral mass, the normalized limit records exactly the measure inside the interval. At an endpoint atom, symmetric boundary limits contribute half that atom instead. This is a recovery procedure for a scalar measure, using only resolvent values near the real axis.
 
 So the resolvent does more than report where the spectrum is. Its behavior near the real axis contains information about how a vector's spectral mass is distributed.
 
@@ -142,7 +142,7 @@ For a diagonal matrix, inversion means taking a reciprocal at each eigenvalue. F
 
 From this one construction we obtain the exact inverse-distance norm formula, approximate eigenvectors near spectral points, and a scalar transform that reveals spectral mass.
 
-For a final check, imagine moving the point z vertically toward the spectrum of the matrix with entries negative two and three. Explain why the inverse grows like one over the height above negative two. Then ask how the same idea works when the eigenvalues have been replaced by every number in an interval. The spectral integral is the answer.
+One last calculation connects the cases. Move z vertically toward negative two in the diagonal example. Its distance from the spectrum is just the height above the real axis once z is close enough to that eigenvalue. The resolvent norm is the reciprocal of that height. In the multiplication example, moving toward any point inside the continuous spectral interval produces the same growth without creating an eigenvector. Spectral integration explains both behaviors with the same scalar reciprocal.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -151,6 +151,23 @@ For a final check, imagine moving the point z vertically toward the spectrum of 
 ## Companion: mathematics and Lean correspondence (display only)
 
 With `A = A*` bounded and `z` in the complex resolvent set, `R_A(z) = (A - z I)^(-1) = integral (lambda - z)^(-1) dE(lambda)`, and `||R_A(z)|| = 1 / dist(z,spectrum(A))` on a nonzero Hilbert space. For a scalar spectral measure `mu_x`, `<x,R_A(z)x> = integral (lambda-z)^(-1) d mu_x(lambda)`. For \(z=u+i\eta\) with \(\eta>0\), the imaginary part of the scalar transform has kernel \(\eta/((\lambda-u)^2+\eta^2)\); integrating over an interval and dividing by \(\pi\) recovers its measure in the \(\eta\to0^+\) limit when the endpoints have zero mass. The source formalizes inverse-distance *upper bounds* for bounded self-adjoint resolvents and resolvent identities; the full equality and scalar-transform interpretation here are derived mathematically, not attributed to those specific theorem headers.
+
+### Resolvent and scalar-measure recovery
+
+For bounded self-adjoint \(A\) with PVM \(E_A\), define \(R(z)=(A-zI)^{-1}\) for \(z\notin\sigma(A)\). Then
+\[
+R(z)=\int_{\sigma(A)}\frac{1}{\lambda-z}\,dE_A(\lambda),\qquad
+\|R(z)\|=\frac{1}{\operatorname{dist}(z,\sigma(A))},
+\]
+\[
+R(z)-R(w)=(z-w)R(z)R(w).
+\]
+For \(\mu_x(B)=\|E_A(B)x\|^2\), taking \(z=u+i\eta\), \(\eta>0\), gives
+\[
+\operatorname{Im}\langle x,R(u+i\eta)x\rangle
+=\int\frac{\eta}{(\lambda-u)^2+\eta^2}\,d\mu_x(\lambda).
+\]
+For an interval \((a,b)\) with \(\mu_x(\{a,b\})=0\), integrate the imaginary part in \(u\in(a,b)\), divide by \(\pi\), then let \(\eta\downarrow0\) to recover \(\mu_x((a,b))\). Without the no-atoms condition the symmetric kernel contributes half of each endpoint mass.
 
 **Lean bridge (verbatim source declaration headers).**
 

@@ -4,7 +4,7 @@
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# When every approximate eigenvector exists but no eigenvector does
+# A spectral value without an eigenvector
 
 In a two-by-two diagonal matrix, a number belongs to the spectrum precisely when it appears as an eigenvalue. We can find a nonzero vector on which the matrix acts by multiplication by that number. Infinite-dimensional self-adjoint operators behave differently: a spectral value may admit vectors that are arbitrarily close to being eigenvectors without admitting any actual eigenvector.
 
@@ -16,9 +16,9 @@ Could one-half be an eigenvalue? That would require a nonzero square-integrable 
 
 Now choose a small interval centered at one-half, of total width two epsilon. Define f epsilon to be a constant on that short interval and zero outside it. Choose the constant so that the integral of its squared magnitude is one. The resulting function is a unit vector.
 
-When A acts on f epsilon, it multiplies each value by a number t that lies within epsilon of one-half. The difference between A f epsilon and one-half times f epsilon is therefore small: its norm is at most epsilon. As epsilon approaches zero, this defect tends to zero.
+When A acts on f epsilon, it multiplies each value by a number t that lies within epsilon of one-half. The difference between A f epsilon and one-half times f epsilon is therefore small: its norm is at most epsilon. We can calculate more. The normalization constant is one divided by the square root of two epsilon. Integrating the squared distance from one-half across the interval gives a residual norm of epsilon divided by the square root of three. As epsilon approaches zero, this defect tends to zero.
 
-We have produced a sequence of unit vectors with arbitrarily small eigen-equation residual for one-half. Such vectors are called approximate eigenvectors, and one-half belongs to the approximate point spectrum. The vectors become narrower and taller; they do not converge in norm to a nonzero eigenvector.
+We have produced a sequence of unit vectors with arbitrarily small eigen-equation residual for one-half. They are called approximate eigenvectors because the operator acts almost like multiplication by one-half on each one. It is the residual that approaches zero; the unit vectors themselves do not have to converge to a fixed vector. One-half belongs to the approximate point spectrum. The vectors become narrower and taller; they do not converge in norm to a nonzero eigenvector.
 
 The same construction works at every point strictly inside the interval from zero to one, and one-sided shrinking intervals work at the endpoints. Thus each point of the interval has approximate eigenvectors although this particular multiplication operator has no eigenvectors at all.
 

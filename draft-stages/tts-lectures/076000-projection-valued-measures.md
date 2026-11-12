@@ -6,7 +6,7 @@
 
 # A measure whose values are projections
 
-For a symmetric matrix with three distinct eigenvalues, we can project onto any chosen subset of its eigenspaces. Projecting onto two disjoint eigenvalue groups and adding the results gives the projection onto their union. Projecting onto the empty group gives zero, and projecting onto all three gives the identity.
+For a real symmetric matrix with three distinct eigenvalues, we can project onto any chosen subset of its eigenspaces. Each such projection keeps the selected eigenvector components and removes the others. Projecting onto two disjoint eigenvalue groups and adding the results gives the projection onto their union. Projecting onto the empty group gives zero, and projecting onto all three gives the identity.
 
 In infinite-dimensional spectral theory, eigenvectors may be absent. Nevertheless, a self-adjoint operator still supplies projections associated with Borel sets of spectral values. The rule assigning a projection to each measurable set is a projection-valued measure.
 
@@ -16,7 +16,7 @@ We will derive the finite matrix example, state the countable-additivity require
 
 ## The definition
 
-Let H be a complex Hilbert space. A projection-valued measure, abbreviated P V M, assigns to each Borel subset B of the real line a bounded operator E of B on H.
+Let H be a complex Hilbert space. An orthogonal projection is an operator that keeps a closed subspace and discards its orthogonal complement; it is self-adjoint and idempotent. A Borel set is a set of real numbers built from open sets by complements and countable unions. A projection-valued measure, abbreviated P V M, assigns to each Borel subset B a bounded operator E of B on H.
 
 Three requirements control the assignment. First, every E of B is an orthogonal projection: it is self-adjoint and its square equals itself. Second, E of the whole real line is the identity operator. Third, for pairwise disjoint Borel sets B-one, B-two, and so forth, E of their union is the sum of the individual projections, where the infinite sum converges strongly.
 
@@ -50,7 +50,7 @@ This scalar measure answers a concrete question: how much of the squared length 
 
 For the multiplication operator on the unit interval, E of B multiplies by the indicator of B. If x is represented by a function h of t, then mu sub x of B is the integral over B intersected with the unit interval of the squared magnitude of h.
 
-For a diagonal matrix, mu sub x is a discrete measure: the mass at an eigenvalue is the squared length of the component of x in that eigenspace. The continuous and discrete examples are two versions of the same rule.
+For a diagonal matrix, mu sub x is a discrete measure: the mass at an eigenvalue is the squared length of the component of x in that eigenspace. For example, take a two-by-two diagonal matrix with eigenvalues zero and two. Give x the coordinates three and four. The spectral mass at zero is nine, the mass at two is sixteen, and the total is twenty-five, exactly the squared length of x. If we normalize x to a unit vector, those two masses become nine twenty-fifths and sixteen twenty-fifths. This makes the measure feel like a distribution of squared energy across spectral regions. The continuous and discrete examples are two versions of the same rule.
 
 ## Recovering a self-adjoint operator
 
@@ -92,7 +92,7 @@ Thus Borel sets are precise inputs, but the effect of changing a set depends on 
 
 A projection-valued measure assigns a compatible orthogonal decomposition of H to every Borel spectral region. Its countable additivity is strong, and each vector converts it into an ordinary finite positive measure.
 
-We have also outlined the construction from continuous calculus through scalar measures, polarization, and Riesz representation.
+The two-coordinate example shows the meaning: each vector splits into orthogonal pieces, and the scalar measure records their squared lengths. The projection-valued measure performs the splitting for all vectors simultaneously, even when the spectrum cannot be listed as eigenvalues. Strong countable additivity ensures that infinitely many pieces still reconstruct every fixed vector.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -101,6 +101,16 @@ We have also outlined the construction from continuous calculus through scalar m
 ## Companion: mathematics and Lean correspondence (display only)
 
 For a bounded self-adjoint `A`, the spectral measure is a projection-valued measure `E` on the real Borel sets, characterized by `E(B)^* = E(B)`, `E(B)^2 = E(B)`, `E(R) = I`, `E(B) E(C) = E(B intersect C)`, and strong countable additivity. Each vector defines the finite positive measure `mu_x(B) = <x,E(B)x> = ||E(B)x||^2`. The construction here uses bounded Borel calculus; general scalar measure-representation and polarization results form earlier foundations.
+
+### Two-level spectral energy calculation
+
+Let \(A=\operatorname{diag}(0,2)\), with spectral PVM \(E\), and take \(x=(3,4)\). Then
+\[
+E(\{0\})=\begin{pmatrix}1&0\\0&0\end{pmatrix},\qquad
+E(\{2\})=\begin{pmatrix}0&0\\0&1\end{pmatrix},
+\quad \mu_x=9\,\delta_0+16\,\delta_2,
+\]
+and \(\mu_x(\mathbb R)=25=\|x\|^2\). For \(x/5\), the two atom masses are \(9/25\) and \(16/25\). In \(L^2([0,1])\) with \(Af(t)=tf(t)\), the corresponding measure is \(\mu_x(B)=\int_{B\cap[0,1]}|x(t)|^2dt\), which may have no atoms at all.
 
 **Lean bridge (verbatim source declaration headers).**
 

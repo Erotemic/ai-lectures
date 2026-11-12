@@ -8,7 +8,7 @@
 
 Take a projection P and a vector x. The squared length of P x measures how much of x lies in the projected subspace. This is a nonnegative number. If the projection comes from a spectral set, the same construction assigns a number to every measurable set of spectral values.
 
-For a self-adjoint operator with spectral projection measure E, define the scalar measure for x by measuring the squared length of E of B applied to x. We can integrate a real or complex function against this scalar measure and obtain an expectation or quadratic measurement of a function of the operator.
+Here is the setting. Let A be a bounded self-adjoint operator on a complex Hilbert space. Its spectral projection E of B keeps the components of a vector carried by a Borel set B of spectral values. Define the scalar measure for x by measuring the squared length of E of B applied to x. We can integrate a real or complex function against this scalar measure and obtain an expectation or quadratic measurement of a function of the operator.
 
 But a spectral operator also has mixed inner products between two different vectors. These are generally complex, and their signed data are not captured by a single positive scalar measure. Polarization recovers the mixed information from quadratic measurements of combinations of vectors, with a formula that depends on the complex inner-product convention.
 
@@ -30,7 +30,7 @@ The same formula remains meaningful when there is no discrete eigenvalue list. F
 
 Consider any bounded operator T and the expression obtained by pairing x with T applied to x. Call this its diagonal quadratic expression. If T is self-adjoint, it is real-valued, but the complex polarization identity works more generally for the sesquilinear form obtained from T.
 
-Evaluate that diagonal expression at four vectors: x plus y, x minus y, x plus i times y, and x minus i times y. Expanding the inner products gives a system of four equations. The diagonal contributions cancel when we take the appropriate signed combination. What remains is the desired cross term involving x and T applied to y.
+Evaluate that diagonal expression at four vectors: x plus y, x minus y, x plus i times y, and x minus i times y. Before doing any algebra, notice what these combinations change. Adding and subtracting y detects a real cross term. Multiplying y by i and repeating the subtraction detects its imaginary part. Expanding the inner products gives a system of four equations. The diagonal contributions cancel when we take the appropriate signed combination. What remains is the desired cross term involving x and T applied to y.
 
 The exact signs depend on which inner-product argument is complex-linear. The essential point is invariant: four diagonal measurements determine one off-diagonal matrix element. This is why working over the complex field requires keeping track of multiplication by i, rather than using only sums and differences.
 
@@ -72,9 +72,9 @@ Take a two-dimensional space with A diagonal, having eigenvalues zero and two. L
 
 The spectral measure on the eigenvalue zero depends only on the first coordinates. Its cross term is the inner product of the first component of x with the first component of y. The measure on two depends only on the second coordinates and may be complex because of i.
 
-For the symbol f with f of zero equal to seven and f of two equal to minus one, the integral of f against the cross measure equals the matrix element of the diagonal operator with entries seven and minus one.
+For the symbol f with f of zero equal to seven and f of two equal to minus one, the cross mass at zero is one. With the convention that the inner product conjugates the first coordinate, the cross mass at two is negative i. Multiply these masses by seven and negative one, respectively, then add. The answer is seven plus i. We can check it directly: apply the diagonal operator with entries seven and negative one to y, obtaining seven and negative one; pairing this with x gives seven plus i.
 
-The diagonal measures alone did not visibly contain that complex cross term. Polarization recovered it without choosing any basis as part of the construction.
+This small calculation is why the complex part of polarization cannot be skipped. Diagonal masses alone describe squared lengths. Mixed masses also describe relative phase, and the operator's off-diagonal matrix elements depend on it.
 
 ## Extension from continuous to measurable symbols
 
@@ -84,7 +84,9 @@ For one fixed pair x and y, we need to control four diagonal measures from the p
 
 When proving an identity involving finitely many vectors and finitely many symbols, use one dominating finite measure for all of them. The continuous identity can then pass to bounded Borel symbols through the integral estimate.
 
-This method proves more than existence. It transports addition, multiplication, and adjoints from continuous functional calculus to the Borel calculus. Those identities depend on handling all matrix elements consistently, which is why the polarizing construction matters.
+For the product law there is one additional step. It is not enough to know that individual scalar integrals converge. The operators must act consistently on vectors before and after composition. One way to guarantee this is to establish the product and adjoint rules first for finite combinations of spectral projections. Those rules are exact because projections of sets multiply as intersections. Uniform simple-function approximation then passes the rules to every bounded Borel symbol in operator norm.
+
+Polarization remains essential to the original construction: it supplies the mixed matrix elements from the positive scalar measures. The projection product rule, together with bounded approximation, supplies the multiplicative calculus.
 
 Notice the strength and the limitation of the approximation. L one convergence depends on the selected measures. It does not imply uniform convergence of the symbols, and it need not imply convergence in operator norm. The operator-level conclusions follow from separate bounds and uniqueness of matrix elements.
 
@@ -98,9 +100,9 @@ By contrast, for the multiplication operator on the interval with Lebesgue measu
 
 These two cases explain why the Borel calculus is determined by how all scalar spectral measures see a function, rather than by bare pointwise equality on a formal parameter set.
 
-## The bridge to multiplication models
+## What the scalar measures determine
 
-We now have a strong dictionary. A vector supplies a positive measure. Two vectors supply a complex measure. A bounded Borel function supplies an operator whose matrix elements are the integrals of that function against the cross measures.
+The result is a useful dictionary. A vector supplies a finite positive measure recording squared spectral mass. A pair of vectors supplies a finite complex measure recording their mixed spectral information. Integrating a bounded Borel function against that pair measure recovers a matrix element of the corresponding operator. Knowing all those matrix elements determines the operator itself.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -109,6 +111,24 @@ We now have a strong dictionary. A vector supplies a positive measure. Two vecto
 ## Companion: mathematics and Lean correspondence (display only)
 
 Given spectral projections `E(B)`, define the finite positive measure `mu_x(B) = <x,E(B)x>` and the complex cross measure `mu_{x,y}(B) = <x,E(B)y>`. Polarization reconstructs the cross measure as a complex linear combination of four diagonal measures. The spectral integral `f(A)` is specified weakly by `<x,f(A)y> = integral f d mu_{x,y}`. The quoted `pair` API takes normal operators and symbols on their complex spectrum; the self-adjoint real-spectrum construction transports it to `R`.
+
+### Polarization signs and the two-level check
+
+Using the convention that \(\langle\cdot,\cdot\rangle\) is conjugate-linear in its first argument, let \(q_T(v)=\langle v,Tv\rangle\) for a complex-linear operator \(T\). Expansion (no self-adjointness needed) gives
+\[
+\langle x,Ty\rangle=\tfrac14\big(q_T(x+y)-q_T(x-y)
+-iq_T(x+iy)+iq_T(x-iy)\big).
+\]
+For \(A=\operatorname{diag}(0,2)\), \(x=(1,i)\), \(y=(1,1)\), the cross measure is
+\[
+\mu_{x,y}=\delta_0-i\delta_2.
+\]
+If \(f(0)=7\) and \(f(2)=-1\), then
+\[
+\int f\,d\mu_{x,y}=7+i
+=\langle (1,i),\operatorname{diag}(7,-1)(1,1)\rangle.
+\]
+This is the mixed matrix element recovered from diagonal measures by polarization.
 
 **Lean bridge (verbatim source declaration headers).**
 

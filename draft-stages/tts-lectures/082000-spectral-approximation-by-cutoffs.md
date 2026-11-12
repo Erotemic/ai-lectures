@@ -6,11 +6,11 @@
 
 # Approximating an operator without losing its spectral geometry
 
-A diagonal matrix is easy to approximate by retaining finitely many coordinates. The approximation becomes accurate on every fixed vector as we keep more coordinates, but that does not automatically make the operator-norm error small.
+An infinite diagonal operator on square-summable sequences can be studied by retaining finitely many coordinates. The approximations improve on each fixed square-summable vector as we keep more coordinates, but the operator-norm error need not become small.
 
 For example, project a square-summable sequence onto its first n coordinates. Each fixed sequence has a tail whose squared sum tends to zero, so the projections converge strongly to the identity. But their operator-norm error is always one: the next basis vector is still discarded completely. This is the model to keep in mind when spectral integrals are approximated by cutoffs.
 
-A spectral projection restricts a self-adjoint operator to selected spectral values. Increasing spectral windows may approximate the identity strongly. On the corresponding domains, functions of an unbounded operator may be approximated by bounded truncations, but a statement about convergence of vectors need not imply convergence in graph norm or in operator norm.
+For a self-adjoint operator A, a spectral projection is the orthogonal projection selecting a specified Borel set of its spectral values. In the diagonal case it keeps chosen eigenvector components; for multiplication by t on an L two space it keeps a region of the function's support. Increasing spectral windows may approximate the identity strongly. On the corresponding domains, functions of an unbounded operator may be approximated by bounded truncations, but a statement about convergence of vectors need not imply convergence in graph norm or in operator norm.
 
 We will make the allowable approximation steps explicit, explain which continuity theorem supports each passage, and separate finite-rank approximations from spectral cutoffs: a bounded spectral window can still have infinite-dimensional range.
 
@@ -36,7 +36,7 @@ The values of f lie in a bounded region of the complex plane. Divide that region
 
 Choose one representative value in each square. This produces a simple function s whose value differs from f by less than epsilon at every spectral point.
 
-The squared-norm formula for simple functions, followed by passage to the functional-calculus limit, shows that f of A minus s of A has operator norm at most epsilon.
+The squared-norm formula for simple functions, followed by passage to the functional-calculus limit, shows that f of A minus s of A has operator norm at most epsilon. The reason is orthogonality: errors supported on disjoint spectral slices do not reinforce each other in a vector norm. We need the largest scalar error, rather than the sum of all slice errors.
 
 This is genuine operator-norm approximation. One finite spectral sum approximates the action of f of A uniformly on every unit vector.
 
@@ -102,7 +102,7 @@ This is the correct interpretation of truncating an unbounded operator. We are n
 
 ## Commutation and convergence in the graph norm
 
-Because P R comes from the spectral measure of A, it commutes with A wherever applying A makes sense.
+Because P R comes from the spectral measure of A, it commutes with A wherever applying A makes sense. Here the domain matters: when A is unbounded, the expression A x is not defined for an arbitrary x in the Hilbert space. A statement about A P R x can hold for every x, while A x itself only makes sense for domain vectors.
 
 More precisely, if x is already in the domain of A, then P R x is in that domain, and A applied to P R x equals P R applied to A x.
 
@@ -110,7 +110,7 @@ We already know P R x tends to x. Apply the strong convergence theorem again, th
 
 Thus cutoff vectors approximate every domain vector in both ordinary length and the length of its image under A.
 
-The graph norm combines these two quantities: its square is the squared length of x plus the squared length of A x. We have proved convergence in this graph norm for vectors in the domain.
+The graph norm combines these two quantities: its square is the squared length of x plus the squared length of A x. Picture the graph as pairs consisting of the input vector and its image under A. Converging in graph norm means that both parts of the pair converge together. We have proved convergence in this graph norm for vectors in the domain.
 
 This is stronger than ordinary strong convergence, and it is the reason bounded spectral cutoffs can safely support proofs involving an unbounded operator.
 
@@ -144,7 +144,7 @@ Without compactness, that conclusion can fail. In particular, taking K equal to 
 
 We now have two precise approximation tools. Bounded Borel symbols can be approximated in operator norm by finite spectral sums. For an unbounded self-adjoint operator, bounded spectral cutoffs converge strongly to the identity and approximate domain vectors in graph norm.
 
-The domain condition is not a technical footnote. It determines when spectral multiplication by lambda defines a genuine Hilbert-space vector.
+The diagonal example identifies the boundary exactly. For the vector with coordinates one over n, the cutoffs converge in ordinary length, but their images under A have lengths growing like square root of N. There is no graph limit because the original vector is outside the domain. For a vector already in the domain, the same cutoffs converge in graph norm. The domain condition determines which approximation statement is true.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -161,6 +161,23 @@ Let `E` be the projection-valued measure of a self-adjoint operator `A`, possibl
 The bounded truncation `A_R = A P_R = \int_{[-R,R]}\lambda\,dE(\lambda)` is defined on all of `H` and has `\|A_R\|\le R`. Every `P_R x` is in `Dom(A)`; if `x∈Dom(A)`, then `A P_Rx=P_R Ax\to Ax`. In particular, `P_Rx → x` in the graph norm for each domain vector. For a bounded Borel `f`, uniformly approximating its values by finite simple functions gives operator-norm approximation of `f(A)`. None of these assertions makes `P_R` finite rank.
 
 For a compact bounded operator `K`, strong convergence `P_R → I`, the uniform bound `\|P_R\|≤1`, and compactness give `\|P_RK P_R-K\|→0`; this compact-operator extension is a mathematical argument in the lecture rather than an assertion that the source declarations quoted below directly formalize it.
+
+### Domain-sensitive cutoff example
+
+For \(Ae_n=n e_n\) on \(\ell^2\), put
+\[
+D(A)=\{x:\sum_{n\ge1}n^2|x_n|^2<\infty\},\quad
+P_Nx=(x_1,\ldots,x_N,0,\ldots).
+\]
+For \(x=(1/n)_{n\ge1}\in\ell^2\setminus D(A)\), \(P_Nx\to x\) in \(\ell^2\), but
+\[
+\|AP_Nx\|^2=\sum_{n=1}^N1=N\to\infty.
+\]
+For \(y\in D(A)\) instead, \(P_Ny\to y\) and \(AP_Ny=P_NAy\to Ay\), hence
+\[
+\|P_Ny-y\|_A^2=\|P_Ny-y\|^2+\|AP_Ny-Ay\|^2\to0.
+\]
+Thus the cutoff sequence converges strongly on all of \(H\), and in graph norm only when the target vector is in the operator domain.
 
 **Lean bridge (verbatim source declaration headers).**
 

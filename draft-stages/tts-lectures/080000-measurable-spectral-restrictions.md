@@ -8,7 +8,7 @@
 
 In finite-dimensional linear algebra, selecting several eigenspaces and restricting a self-adjoint matrix to their direct sum is routine. We now know how to make a similar selection even when the operator has no eigenvectors.
 
-Take a bounded self-adjoint A and choose a Borel set B of real numbers. Its spectral projection E of B gives us a closed subspace K, namely the range of that projection. We want to study the operator that A induces on K, and to understand how its spectral calculus relates to the original one.
+Take a bounded self-adjoint operator A on a complex Hilbert space H. By the spectral theorem, every Borel set B of real spectral values has an orthogonal spectral projection E of B. The projection keeps the part of a vector carried by B, and sets its orthogonal complement to zero. Choose B and let K be the closed range of that projection. We want to study the operator that A induces on K, and to understand how its spectral calculus relates to the original one.
 
 The key fact is that spectral selection is compatible with restriction. But there is an important boundary issue: the spectrum of the restricted operator need not lie inside B itself when B is not closed.
 
@@ -84,13 +84,13 @@ The mathematical result depends on the operator and spectral set, not on whichev
 
 ## Two different operators are different
 
-There is a possible confusion that later perturbation theory will punish. Spectral projections of the same self-adjoint operator commute. Projections associated with different self-adjoint operators generally do not.
+A tempting inference must be avoided. Spectral projections of the same self-adjoint operator commute. Projections associated with different self-adjoint operators generally do not.
 
-Take a two-dimensional space. The first operator may have the coordinate axes as eigenspaces. A second operator obtained by rotating the eigenbasis has different rank-one spectral projections. Unless those axes line up in a special way, the selected projections do not commute.
+Take the two-dimensional plane. Let P project onto the horizontal axis. Let Q project onto the diagonal line through the vector with equal coordinates. Applying Q to the horizontal unit vector yields a vector with both coordinates equal to one half. Following Q by P keeps its horizontal half. But applying P first leaves the original horizontal vector, and following that by Q gives the diagonal vector. One result is horizontal and the other is diagonal. Therefore P times Q differs from Q times P.
 
-Two orthogonal projections for different subspaces need not commute: on a principal plane meeting at an intermediate angle, their two-by-two projection matrices generally have a nonzero commutator. The spectral calculus does not make it disappear.
+Each projection could be a spectral projection of a different self-adjoint operator. The fact that projections from one spectral measure commute tells us nothing about this cross-operator pair.
 
-If we perturb A to A plus a small self-adjoint operator V, it is meaningful to compare the old spectral projection P and the new spectral projection Q. We will need spectral gaps and resolvent estimates to control their difference. The result is not a consequence of a single P V M product law, because P and Q come from distinct measures.
+If we perturb A to A plus a small self-adjoint operator V, it is meaningful to compare the old spectral projection P and the new spectral projection Q. Quantitative control of their difference requires additional hypotheses, such as a spectral gap and a sufficiently controlled perturbation. The result is not a consequence of a single P V M product law, because P and Q come from distinct measures.
 
 ## Restricting a bounded Borel symbol
 
@@ -106,7 +106,7 @@ This compression identity follows from commutation with spectral projections and
 
 A Borel spectral region defines a closed reducing subspace. Its restricted functional calculus is the ambient calculus restricted to that subspace, and the restricted spectral projection for C is simply the ambient projection for C acting on the selected subspace.
 
-The spectrum of the restriction lies in the original spectrum and in the closure of the selected region, but may include boundary points not contained in the original Borel set.
+The spectrum of the restriction lies in the original spectrum and in the closure of the selected region, but may include boundary points not contained in the original Borel set. The multiplication example makes that boundary effect tangible: spectral mass can approach a threshold without placing an eigenvector at the threshold.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -115,6 +115,20 @@ The spectrum of the restriction lies in the original spectrum and in the closure
 ## Companion: mathematics and Lean correspondence (display only)
 
 For `P = E(B)` and `K = range P`, `PA = AP` makes `K` reducing and `A|K` self-adjoint. For a Borel `C`, `E_K(C) = E(C)|K`. For bounded Borel `f`, the restricted calculus satisfies `f(A|K) = f(A)|K` after composing symbols with the spectral inclusion. `spectrum(A|K)` is a subset of `spectrum(A)` and is contained in `closure(B intersect spectrum(A))`; it need not be a subset of a nonclosed `B`.
+
+### Noncommuting spectral selections
+
+The projections onto the horizontal axis and the forty-five-degree line in \(\mathbb R^2\) are
+\[
+P=\begin{pmatrix}1&0\\0&0\end{pmatrix},\qquad
+Q=\frac12\begin{pmatrix}1&1\\1&1\end{pmatrix}.
+\]
+Then
+\[
+PQ=\frac12\begin{pmatrix}1&1\\0&0\end{pmatrix},\qquad
+QP=\frac12\begin{pmatrix}1&0\\1&0\end{pmatrix},
+\]
+so they do not commute, though each may be a spectral projection for its *own* self-adjoint operator. In contrast, projections \(E_A(B)\) and \(E_A(C)\) of one operator always obey \(E_A(B)E_A(C)=E_A(B\cap C)\). If \(K=\operatorname{ran}E_A(B)\), then \(\sigma(A|_K)\subseteq\sigma(A)\cap\overline B\) for nonzero \(K\).
 
 **Lean bridge (verbatim source declaration headers).**
 

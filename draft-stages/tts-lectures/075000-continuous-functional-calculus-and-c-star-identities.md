@@ -10,9 +10,7 @@ Take a square-integrable function on the interval from zero to one. Define an op
 
 Nevertheless we can square A: doing so multiplies by t squared. We can also take its square root: the result multiplies by the square root of t. Those operations should belong to one general construction of a continuous function of A. Polynomial approximations provide that construction, and an operator-norm identity makes the limit well defined.
 
-We still want to make sense of A squared, the exponential of A, the square root of a positive A, and eventually the indicator of a spectral interval. Polynomial approximation provides the continuous functional calculus for bounded self-adjoint operators.
-
-The central idea is to begin with expressions we already know how to evaluate, then use operator-norm limits. A special norm identity, called the C-star identity, ensures the construction is stable.
+To make this work without an eigenbasis, begin with polynomial expressions in A, which are already defined by operator composition. Then approximate a desired continuous scalar function by polynomials. The crucial issue is not finding the polynomials; it is showing that close scalar functions produce close operators. A special norm identity, called the C-star identity, leads to exactly the estimate we need.
 
 ## Polynomial functions of an operator
 
@@ -42,7 +40,7 @@ This equality is far stronger than a bound obtained by summing the magnitudes of
 
 For any bounded operator T on a Hilbert space, its adjoint times itself is positive. Consider its operator norm. By the definition of an adjoint, the squared length of T applied to x equals the inner product of T adjoint T applied to x with x.
 
-This gives the inequality that the norm of T squared is at most the norm of T adjoint T. The reverse inequality follows from submultiplicativity: the norm of T adjoint T is at most the product of the norms of T adjoint and T, which are equal.
+Taking the supremum over all unit vectors gives this first comparison: the square of the operator norm of T is at most the operator norm of T adjoint composed with T. For the reverse direction, use the usual product estimate for operator norms. The norm of T adjoint composed with T is at most the norm of T adjoint times the norm of T, and the adjoint has the same norm as T.
 
 Thus the norm of T adjoint T equals the square of the norm of T.
 
@@ -56,7 +54,7 @@ A classical approximation theorem says that on a compact subset of the real line
 
 Choose polynomials p-one, p-two, and so forth that converge uniformly to f on K.
 
-The spectral norm formula says the operator norm of p-n of A minus p-m of A equals the maximum of the absolute value of p-n minus p-m on K. Since our polynomial sequence is uniformly Cauchy, the corresponding operator sequence is Cauchy in operator norm.
+The spectral norm formula says the operator norm of p-n of A minus p-m of A equals the maximum of the absolute value of p-n minus p-m on K. Think of this equality as a bridge: the left side measures the largest error over all unit vectors, while the right side measures only the worst scalar error over spectral values. If the scalar polynomials become uniformly close, then so do the resulting operators. This is precisely the kind of control a limit construction needs.
 
 Bounded operators on a Hilbert space form a complete normed algebra. Thus the operators p-n of A converge in operator norm to a bounded operator. Define this limit to be f of A.
 
@@ -112,9 +110,7 @@ This is the passage from continuous functional calculus to Borel functional calc
 
 Continuous functional calculus already lets us express a bounded self-adjoint operator as a function of its spectrum, even when there are no eigenvectors. It gives exact norm control, multiplication, adjoints, positivity, and spectral mapping.
 
-The next step is to replace continuous scalar functions by bounded Borel functions. Indicators then become spectral projections. We will prove how those projections add over countably many disjoint sets and why their convergence is strong rather than uniformly in operator norm.
-
-We are now ready to reconstruct the infinite-dimensional spectral theorem in the language appropriate to actual spectral subspaces.
+There is also a sharp boundary. Continuous functions are obtained by uniform approximation, but indicator functions with jumps generally cannot be obtained that way. To select a spectral interval, one needs a measurable functional calculus and its projection-valued measure. Continuous functional calculus gives the stable operator arithmetic; measurable calculus adds the ability to cut out spectral regions.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -129,6 +125,14 @@ C(K,\mathbb C)\longrightarrow\mathcal B(H),\qquad f\mapsto f(A),
 with \(\|f(A)\|=\sup_{\lambda\in K}|f(\lambda)|\), \(\sigma(f(A))=f(K)\), and \(\overline f(A)=f(A)^*\). For nonnegative \(f\), \(f(A)\ge0\).
 
 The source's `realSpectrumCfcHom` transports Mathlib's existing continuous \(*\)-algebra calculus to symbols on the real spectrum. The construction in this lecture is a mathematical derivation, not a claim that the repository re-proves the general Stone–Weierstrass or C-star identity libraries.
+
+### Norm bridge and multiplication example
+
+For bounded self-adjoint \(A\), with compact spectrum \(K=\sigma(A)\), polynomial calculus obeys
+\[
+\|p(A)\|=\max_{\lambda\in K}|p(\lambda)|.
+\]
+It follows that \(p_n\to f\) uniformly on \(K\) implies \(p_n(A)\to f(A)\) in operator norm. For \(Af(t)=t f(t)\) on \(L^2([0,1])\), this yields \((\sqrt A f)(t)=\sqrt t\,f(t)\) and \((\sqrt A)^2=A\). The C-star identity \(\|T^*T\|=\|T\|^2\) is used in the normal-operator spectral norm formula, not as a direct substitute for that formula.
 
 **Lean bridge (verified source excerpts).**
 

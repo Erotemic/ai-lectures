@@ -6,9 +6,9 @@
 
 # From measurable sets to a Hilbert space of functions
 
-A sigma-algebra tells us which sets can be used in countable constructions. But it does not assign a size to those sets. To integrate functions, measure lengths and probabilities, or build a Hilbert space of square-integrable functions, we need a measure.
+Consider two functions on the interval from zero to one. One is concentrated on a short interval, and the other is spread across the whole unit interval. To compare their sizes, we need an operation that adds the squared magnitude of each function across its support. That operation is an integral, and the resulting geometry is the Hilbert space called L two.
 
-Today we will take the sequence from measurable sets to countably additive measures, from simple functions to integration, and from squared integrals to the complete Hilbert space L two. We will also see why three convergence theorems are needed for infinite-dimensional spectral theory.
+Before integrating, we need a way to assign sizes to sets. A sigma-algebra is a collection of allowed sets closed under complements and countable unions. A measure assigns a nonnegative size to each allowed set. From those two ingredients we can build integrals, explain which limiting operations preserve them, and obtain a complete space of functions. Everything will be illustrated with ordinary lengths on the unit interval.
 
 ## What a measure supplies
 
@@ -20,7 +20,7 @@ For Lebesgue measure on the real line, an interval receives its ordinary length.
 
 A different example is the Dirac measure concentrated at a point a. A measurable set has measure one if it contains a, and zero otherwise. In this measure, a singleton can have positive measure. The same Borel set may therefore have very different significance under different measures.
 
-These examples explain an earlier contrast. An interval endpoint is negligible for multiplication on Lebesgue L two, but a spectral atom at an eigenvalue need not be negligible.
+This distinction matters even in the simplest spectral example. Multiplication by the coordinate t on L two of the unit interval cannot detect a change at a single point under Lebesgue measure. A diagonal matrix, however, can put positive weight on a single eigenvalue. A spectral measure generalizes both situations by recording which sets actually carry weight.
 
 ## Three consequences of countable additivity
 
@@ -50,7 +50,7 @@ Every nonnegative measurable function can be approximated from below by an incre
 
 Here is the construction idea. For each positive integer n, round function values downward to multiples of one over two to the n, and cap the values at n. This gives a finite-valued measurable approximation. As n grows, the grid becomes finer and the cap becomes larger. With a suitable choice of partitions, the approximations increase pointwise to the original function.
 
-The monotone convergence theorem says that their integrals increase to the integral of the limit function. Its proof follows the construction of the integral as a supremum of simple integrals and the countable-additivity properties of the measure.
+The monotone convergence theorem says that their integrals increase to the integral of the limit function. The direction of approximation matters: every partial integral is below the target integral. Conversely, any simple function below the limit can be captured in the integral estimate to arbitrary precision using the increasing approximation and countable additivity. These two inequalities force equality of the limit and the integral. The principle allows an increasing limit and integration to be interchanged even when the answer is infinite.
 
 The theorem is stronger than a mere computational recipe. It permits interchange of an increasing limit and integration without assuming a uniform bound on the functions.
 
@@ -64,7 +64,7 @@ Why is domination necessary? Consider functions that equal n on an interval of l
 
 The mass is concentrating in a narrower region as its height rises. There is no single integrable dominating function for this entire sequence. Pointwise convergence alone cannot control integrals.
 
-These convergence theorems will later justify passing from finite spectral sums and simple symbols to measurable functions of an operator.
+These convergence theorems justify passing from finite spectral sums and simple symbols to measurable functions of an operator. Each limit needs its own hypothesis: monotonicity for monotone convergence, nonnegativity for Fatou, and one integrable majorant for dominated convergence.
 
 ## The L two norm
 
@@ -92,9 +92,9 @@ The most important analytic claim is that every Cauchy sequence in the L two nor
 
 Here is a proof outline that shows where integration is needed. From a Cauchy sequence, choose a subsequence whose successive L two distances are smaller than one over two to the n. The sum of these distances is finite.
 
-Use the integral triangle inequality to show that the series of absolute successive differences is integrable in an appropriate limit sense and finite almost everywhere. At almost every point, the selected subsequence therefore converges pointwise. Call its limit f.
+Take the pointwise sum of the absolute values of those successive differences. Each partial sum has L two norm no larger than the sum of the corresponding L two distances, by the triangle inequality. That sum is finite. Fatou's lemma therefore gives a limiting absolute-sum function with finite L two norm, so it is finite almost everywhere. At those points the subsequence is an absolutely convergent series of functions; call its pointwise limit f.
 
-Fatou's lemma and the Cauchy bounds show that f belongs to L two and that the subsequence converges to f in L two norm. Since the original sequence was Cauchy and has a convergent subsequence, the entire sequence converges to f.
+Apply Fatou's lemma again to the squared differences between a fixed subsequence term and later terms. The Cauchy estimates bound the eventual integral of the squared difference from f. As the fixed term moves farther along the subsequence, this bound tends to zero. Thus the subsequence converges to f in L two norm and f belongs to L two. Since the original sequence was Cauchy and has a convergent subsequence, the entire sequence converges to f.
 
 This produces the completeness missing from a space of ordinary continuous functions with only an integral norm. L two is a Hilbert space.
 
@@ -104,13 +104,13 @@ Take pairwise disjoint measurable sets, each of finite positive measure. Divide 
 
 If there are infinitely many such sets, we obtain an infinite orthonormal family. Hence L two cannot be finite-dimensional.
 
-To exhibit infinitely many orthogonal directions, choose disjoint intervals such as those from one over n plus two to one over n plus one. Each has positive finite length. Their normalized indicator functions form an infinite orthonormal family in the square-integrable space.
+To exhibit infinitely many orthogonal directions in the unit interval, for each positive n choose the interval from one divided by the quantity n plus two, up to one divided by the quantity n plus one. These intervals are adjacent and disjoint apart from endpoints of measure zero. Each has positive finite length. Their normalized indicator functions form an infinite orthonormal family in the square-integrable space.
 
 ## Returning to spectral theory
 
 When a projection-valued measure assigns a projection to each Borel set, each vector will induce a scalar measure: the squared norm of its projected component. Integrals against that scalar measure will define norms of functions of the operator.
 
-Everything we developed today supports that construction. Countable additivity controls disjoint spectral pieces. Simple functions provide initial approximations. Monotone and dominated convergence justify limits. L two and its completeness provide the ambient space in which spectral models live.
+The essential mental model is now complete. A measure weighs sets. Integration weighs function values using those sets. Identifying functions that differ only on null sets turns the squared integral into a genuine norm. Completeness then lets approximating functions converge without escaping the space. This is the framework in which a multiplication operator can represent a continuous spectrum.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -121,6 +121,15 @@ Everything we developed today supports that construction. Countable additivity c
 For a measure \(\mu\) on \((X,\Sigma)\), \(L^2(\mu)\) consists of equivalence classes of measurable functions with \(\int |f|^2\,d\mu<\infty\). The inner product is \(\langle f,g\rangle=\int\overline f g\,d\mu\). Disjoint, measurable sets \(E_n\) with \(0<\mu(E_n)<\infty\) yield orthonormal normalized indicators \(1_{E_n}/\sqrt{\mu(E_n)}\), proving infinite dimensionality.
 
 The monotone convergence, Fatou, and dominated convergence theorems are mathematical background supplied by Mathlib's measure-theory infrastructure; the cited DKPS/TauCeti modules use those foundations rather than re-proving their general statements.
+
+### A complete concrete example
+
+For Lebesgue measure \(m\) on \([0,1]\), the vectors \(u(t)=1\) and \(v(t)=t\) satisfy
+\[
+\|u\|_2=1,\qquad \|v\|_2^2=\int_0^1t^2dt=\frac13,
+\qquad \langle u,v\rangle=\int_0^1t\,dt=\frac12.
+\]
+Thus the orthogonal projection of \(v\) onto \(\operatorname{span}\{u\}\) is \(\frac12u\). For completeness, choose a Cauchy subsequence \((f_{n_k})\) with \(\|f_{n_{k+1}}-f_{n_k}\|_2\le2^{-k}\); the sum of absolute successive differences belongs to \(L^2\) by Minkowski and Fatou. Its finiteness a.e. yields a pointwise convergent subsequence, and another Fatou estimate gives convergence in \(L^2\).
 
 **Lean bridge (verified source excerpts).**
 

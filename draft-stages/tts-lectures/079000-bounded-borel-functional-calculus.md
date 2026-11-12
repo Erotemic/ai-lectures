@@ -10,7 +10,7 @@ A diagonal matrix can be transformed by applying a function to its eigenvalues. 
 
 Consider again the multiplication operator A on square-integrable functions of t between zero and one. Applying the function that equals one on the lower half of the interval and zero elsewhere produces the orthogonal projection that keeps the lower-half support. It is a perfectly good bounded operator, even though the indicator function has a jump at one half.
 
-The bounded Borel functional calculus extends the continuous calculus to such functions through spectral integration. Its outputs preserve multiplication and adjoints, and bounded pointwise convergence of functions leads to strong operator convergence under the appropriate dominated-convergence mechanism. Uniform convergence of scalar functions is a stronger hypothesis and yields operator-norm convergence.
+A Borel set is any set generated from open real sets using complements and countable unions. A bounded Borel function is a bounded function whose inverse images of open sets are Borel. The bounded Borel functional calculus extends continuous calculus to these functions through spectral integration. Its outputs preserve multiplication and adjoints, and bounded pointwise convergence of functions leads to strong operator convergence under the appropriate dominated-convergence mechanism. Uniform convergence of scalar functions is a stronger hypothesis and yields operator-norm convergence.
 
 We will develop the simple-function approximation, identify how projection-valued measures enter, and keep the distinction between strong and norm convergence visible throughout.
 
@@ -18,7 +18,7 @@ We will develop the simple-function approximation, identify how projection-value
 
 A simple function takes finitely many values. Write it as a sum of scalar coefficients times indicators of pairwise disjoint Borel sets.
 
-For each indicator of B, we already have a projection E of B. Define the operator assigned to the simple function as the corresponding finite linear combination of these projections.
+For each indicator of B, use the spectral projection E of B. This means the orthogonal projection onto the portion of the Hilbert space whose spectral values belong to B. Such projections are supplied by the spectral theorem for a bounded self-adjoint operator A. Define the operator assigned to the simple function as the corresponding finite linear combination of these projections.
 
 We should check that the answer does not depend on the representation of the simple function. If we divide the underlying sets into a common finite partition, both expressions agree cell by cell. The finite additivity of E then gives the same operator.
 
@@ -82,7 +82,7 @@ The indicator of a Borel set B yields precisely E of B. Hence every spectral pro
 
 This gives a precise language for selecting a spectral cluster. Suppose A has spectrum in two separated closed intervals, one below zero and the other above two. Choosing the indicator of the lower interval gives the orthogonal projection onto the lower spectral subspace. That selection does not require selecting eigenvectors or assuming finite-dimensionality.
 
-In later perturbation estimates we will compare the spectral projections of two different operators. Those projections need not commute because they come from different functional calculi. The commuting property applies only to projections belonging to the same P V M.
+When comparing the spectral projections of two different self-adjoint operators, we must be more careful. Those projections need not commute because they come from different functional calculi. The commuting property applies only to projections belonging to the same P V M.
 
 ## Bounded and unbounded symbols
 
@@ -96,7 +96,7 @@ The theory of unbounded measurable functions requires explicit domains and graph
 
 We have constructed bounded Borel functional calculus using simple spectral integrals and uniform approximation. We proved the unit, product, adjoint, positivity, and uniform norm bound. We also proved strong convergence under uniformly bounded pointwise limits by reducing it to dominated convergence for scalar spectral measures.
 
-These properties are exactly what we need to restrict an operator to a measurable spectral region.
+The simplest test case remains the lower-half interval. Its indicator yields an actual orthogonal projection, even though the indicator jumps at the midpoint. Bounded pointwise convergence yields strong convergence on each vector, while uniform scalar error yields operator-norm error. These are different guarantees, and the multiplication example exhibits both.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -105,6 +105,15 @@ These properties are exactly what we need to restrict an operator to a measurabl
 ## Companion: mathematics and Lean correspondence (display only)
 
 For bounded self-adjoint `A` with PVM `E`, bounded Borel `f` gives `f(A) = integral f(lambda) dE(lambda)`, first for simple functions and then by uniform simple approximation. The calculus is a unital star-homomorphism and satisfies `||f(A)|| <= sup |f|`. Uniformly bounded pointwise convergence of symbols implies strong operator convergence by dominated convergence for each scalar spectral measure. Source declarations below use a more general normal operator `a` and symbols on `spectrum C a`; the self-adjoint real-spectrum API pulls back along the real coordinate.
+
+### Three different senses of size and limit
+
+For \(A=M_t\) on \(L^2([0,1])\), let \(g=10^6\mathbf1_{\{1/2\}}\). Its pointwise supremum on the spectrum is \(10^6\), while \(g(A)=0\), because \(E_A(\{1/2\})=0\). Hence
+\[
+\|f(A)\|=\operatorname*{ess\,sup}_{E_A}|f|
+\le\sup_{\lambda\in\sigma(A)}|f(\lambda)|.
+\]
+For \(f_n=\mathbf1_{(0,1/n)}\), \(f_n(t)\to0\) at every \(t\in[0,1]\), and dominated convergence gives \(f_n(A)x\to0\) for each \(x\in H\), but \(\|f_n(A)\|=1\) for every \(n\). Thus bounded pointwise convergence gives strong convergence, not generally norm convergence.
 
 **Lean bridge (verbatim source declaration headers).**
 
