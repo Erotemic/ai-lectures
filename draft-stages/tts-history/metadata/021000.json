@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-bjorck.md",
+  "related_resources": [
+    {
+      "source_id": "history-bjorck-bio",
+      "reason": "Björck institutional and SIAM professional biography"
+    },
+    {
+      "source_id": "history-bjorck-person",
+      "reason": "Birth, education and adviser"
+    },
+    {
+      "source_id": "history-bjorck-career",
+      "reason": "KTH and Linköping career dates"
+    },
+    {
+      "source_id": "history-bjorck-primary",
+      "reason": "1973 principal-angle algorithm, proof, experiments and limitations"
+    },
+    {
+      "source_id": "history-bjorck-golub-recollection",
+      "reason": "First-person recollection of Stanford and the origin of the collaboration"
+    },
+    {
+      "source_id": "history-bjorck-1971-report",
+      "reason": "Earlier 1971 Stanford publication"
+    },
+    {
+      "source_id": "history-bjorck-1967-gram",
+      "reason": "Early Gram-Schmidt and least-squares work"
+    },
+    {
+      "source_id": "history-bjorck-1967-refinement",
+      "reason": "Accuracy of iterative refinement of least squares"
+    },
+    {
+      "source_id": "history-bjorck-dahlquist",
+      "reason": "Historical account of 1969 and 1974 textbooks"
+    },
+    {
+      "source_id": "history-bjorck-1992-paige",
+      "reason": "Loss and recapture of orthogonality"
+    },
+    {
+      "source_id": "history-bjorck-1995-conference",
+      "reason": "Sixtieth birthday conference"
+    },
+    {
+      "source_id": "history-bjorck-2000-conference",
+      "reason": "Sixty-fifth birthday conference"
+    },
+    {
+      "source_id": "history-bjorck-1996-book",
+      "reason": "1996 least-squares monograph"
+    },
+    {
+      "source_id": "history-bjorck-2015-book",
+      "reason": "2015 comprehensive matrix computations text"
+    },
+    {
+      "source_id": "history-bjorck-2024-book",
+      "reason": "Second edition and editorial history"
+    },
+    {
+      "source_id": "history-bjorck-topic",
+      "reason": "Basic mathematical introduction to principal angles"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "021000-h01",
+      "anchor": "was born in nineteen thirty-four",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-bjorck-person"
+      ],
+      "source_locator": "Wikidata: date of birth, 1934-12-26",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h02",
+      "anchor": "Dahlquist is identified as his doctoral adviser",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-bjorck-person"
+      ],
+      "source_locator": "Wikidata education and advisor",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h03",
+      "anchor": "During the nineteen sixties Björck was a lecturer at the Royal Institute of Technology",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-bjorck-career"
+      ],
+      "source_locator": "KTH 1964–1969 appointment history",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h04",
+      "anchor": "By nineteen sixty-nine he had moved to Linköping",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-bjorck-career",
+        "history-bjorck-liu"
+      ],
+      "source_locator": "Linköping 1969–1999 professorship",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h05",
+      "anchor": "Their Swedish-language *Numeriska metoder* appeared in nineteen sixty-nine",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-bjorck-dahlquist"
+      ],
+      "source_locator": "Björck et al. obituary of Dahlquist, 2005",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h06",
+      "anchor": "a revised and enlarged English-language *Numerical Methods* followed in nineteen seventy-four",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-bjorck-dahlquist",
+        "history-bjorck-dahlquist-book"
+      ],
+      "source_locator": "1974 English edition and retrospective account",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h07",
+      "anchor": "George Forsythe, a major force in the development of computer science at Stanford, encouraged the expanded English edition",
+      "kind": "historical_relationship",
+      "source_ids": [
+        "history-bjorck-dahlquist"
+      ],
+      "source_locator": "2005 obituary retrospective, book history",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h08",
+      "anchor": "In nineteen sixty-seven Björck published *Solving Linear Least Squares Problems by Gram-Schmidt Orthogonalization*",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-bjorck-1967-gram"
+      ],
+      "source_locator": "BIT 7:1–21 (1967)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h09",
+      "anchor": "With Golub he also studied refinement based on Householder transformations",
+      "kind": "historical_relationship",
+      "source_ids": [
+        "history-bjorck-1967-golub"
+      ],
+      "source_locator": "BIT 7:322–337 (1967)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h10",
+      "anchor": "During the academic year nineteen sixty-eight to nineteen sixty-nine, Björck was a postdoctoral visitor at Stanford University and the University of California, Berkeley",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-bjorck-golub-recollection"
+      ],
+      "source_locator": "Björck first-person recollection, Golub collected works",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h11",
+      "anchor": "He recalled Golub sitting down with a sheet of paper and rapidly sketching an elegant outline",
+      "kind": "historical_relationship",
+      "source_ids": [
+        "history-bjorck-golub-recollection"
+      ],
+      "source_locator": "Björck first-person recollection",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h12",
+      "anchor": "The collaboration first circulated as a Stanford technical report in nineteen seventy-one",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-bjorck-1971-report"
+      ],
+      "source_locator": "STAN-CS-71-225, July 1971",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h13",
+      "anchor": "appeared in *Mathematics of Computation* in nineteen seventy-three",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-bjorck-primary"
+      ],
+      "source_locator": "Mathematics of Computation 27(123), pp. 579–594",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h14",
+      "anchor": "The nineteen seventy-three paper explicitly derived formulas for both cosines and sines",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-bjorck-primary"
+      ],
+      "source_locator": "Sections 3 and 5",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h15",
+      "anchor": "Björck and Golub performed a perturbation analysis",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-bjorck-primary"
+      ],
+      "source_locator": "Section 4, perturbation of principal angles",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h16",
+      "anchor": "connected principal angles to canonical correlation analysis in statistics",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-bjorck-primary"
+      ],
+      "source_locator": "Section 2: Canonical Correlations",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h17",
+      "anchor": "Björck and Christopher Paige published *Loss and Recapture of Orthogonality in the Modified Gram-Schmidt Algorithm*",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-bjorck-1992-paige"
+      ],
+      "source_locator": "SIAM J. Matrix Anal. Appl. 13 (1992):176–190",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h18",
+      "anchor": "In January nineteen ninety-five, Linköping hosted a conference marking his sixtieth birthday",
+      "kind": "historical_contemporary_record",
+      "source_ids": [
+        "history-bjorck-1995-conference"
+      ],
+      "source_locator": "NA Digest 1994 vol.94 no.26 announcement",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h19",
+      "anchor": "Five years later, another event at Linköping celebrated his sixty-fifth birthday",
+      "kind": "historical_contemporary_record",
+      "source_ids": [
+        "history-bjorck-2000-conference"
+      ],
+      "source_locator": "NA Digest 2000 vol.00 no.05",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h20",
+      "anchor": "Björck served as managing editor of the journal BIT Numerical Mathematics from nineteen ninety-three through two thousand three",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-bjorck-bio"
+      ],
+      "source_locator": "SIAM second edition About the Author",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h21",
+      "anchor": "In nineteen ninety-six Björck published *Numerical Methods for Least Squares Problems*",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-bjorck-1996-book"
+      ],
+      "source_locator": "SIAM publication year 1996",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h22",
+      "anchor": "A second edition was published much later, in twenty twenty-four",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-bjorck-2024-book"
+      ],
+      "source_locator": "SIAM 2024 second edition",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h23",
+      "anchor": "Another major volume, *Numerical Methods in Matrix Computations*, appeared in twenty fifteen",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-bjorck-2015-book"
+      ],
+      "source_locator": "Springer book catalog and 2015 copyright",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h24",
+      "anchor": "In twenty fourteen, the Society for Industrial and Applied Mathematics named Björck a Fellow",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-bjorck-bio",
+        "history-bjorck-siam-fellow"
+      ],
+      "source_locator": "SIAM author biography and 2014 fellow listing",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

@@ -431,25 +431,25 @@
       "notes": "Background on the mathematical concept explained in the Per-Åke Wedin lecture."
     },
     "history-bjorck-bio": {
-      "title": "Åke Björck — biographical or contributor record",
+      "title": "Åke Björck — SIAM publisher biography (professor emeritus, editorial history and fellowship)",
       "kind": "biography_or_author_record",
-      "url": "https://cir.nii.ac.jp/crid/1361981468336614144",
-      "access": "free_no_login",
-      "notes": "Person-specific source for Åke Björck; for living contributors some records document authorship rather than personal biography."
+      "url": "https://epubs.siam.org/doi/book/10.1137/1.9781611977950",
+      "access": "publisher_metadata",
+      "notes": "SIAM About the Author: professor emeritus Linköping University; BIT managing editor 1993–2003; SIAM Fellow since 2014."
     },
     "history-bjorck-primary": {
-      "title": "Åke Björck — Research publication",
+      "title": "Björck & Golub (1973), Numerical Methods for Computing Angles Between Linear Subspaces",
       "kind": "historical_primary_or_exposition",
-      "url": "https://doi.org/10.1090/S0025-5718-1973-0348991-3",
+      "url": "https://www.ams.org/mcom/1973-27-123/S0025-5718-1973-0348991-3/S0025-5718-1973-0348991-3.pdf",
       "access": "free_no_login",
-      "notes": "Published mathematical research relevant to this person's contribution; authorship is discussed in the lecture."
+      "notes": "Mathematics of Computation 27(123), 579–594. Original primary paper; numerical angle algorithms, canonical correlation, direct rotations, perturbation analysis, rank deficiency, Householder and MGS experiments."
     },
     "history-bjorck-topic": {
-      "title": "Angles between flats",
+      "title": "Principal angles between linear subspaces",
       "kind": "accessible_topic_reference",
       "url": "https://en.wikipedia.org/wiki/Angles_between_flats",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the Åke Björck lecture."
+      "notes": "Basic geometric background; priority claims must use originals."
     },
     "history-golub-bio": {
       "title": "Gene H. Golub — biographical or contributor record",
@@ -2145,6 +2145,125 @@
       "url": "https://doi.org/10.1137/0707001",
       "access": "publisher_metadata_or_abstract",
       "notes": "SIAM J Numerical Analysis 7, 1–46. Precedes 1972 Wedin paper."
+    },
+    "history-bjorck-person": {
+      "title": "Åke Björck (birth, education, advisor) — Wikidata",
+      "kind": "biography_or_author_record",
+      "url": "https://www.wikidata.org/wiki/Q112497705",
+      "access": "free_no_login",
+      "notes": "Records birth 26 December 1934, Royal Institute of Technology education, and Germund Dahlquist as doctoral adviser; community-maintained source, so avoid invented childhood details."
+    },
+    "history-bjorck-liu": {
+      "title": "Åke Björck — Springer author biography",
+      "kind": "biography_or_author_record",
+      "url": "https://link.springer.com/book/10.1007/978-3-319-05089-8",
+      "access": "publisher_metadata",
+      "notes": "Publisher notes Linköping professorship and visiting appointments at Stanford and USC, book extent and 2015 year."
+    },
+    "history-bjorck-career": {
+      "title": "Åke Björck professional appointments — ResearchGate author profile",
+      "kind": "biography_or_author_record",
+      "url": "https://www.researchgate.net/profile/Ake-Bjorck",
+      "access": "free_no_login",
+      "notes": "Self/academic profile lists 1964–1969 KTH and 1969–1999 Linköping, emeritus 2000 onward. Career years cross-check only."
+    },
+    "history-bjorck-1967-gram": {
+      "title": "Björck (1967), Solving Linear Least Squares Problems by Gram-Schmidt Orthogonalization",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1007/BF01934122",
+      "access": "publisher_metadata",
+      "notes": "BIT 7, 1–21; bibliographic identification also recorded by 2013 Gram-Schmidt history article."
+    },
+    "history-bjorck-1967-refinement": {
+      "title": "Björck (1967), Iterative refinement of linear least squares solutions I",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1007/BF01939321",
+      "access": "publisher_metadata",
+      "notes": "BIT 7, 257–278; accurate residual-based refinement with added precision."
+    },
+    "history-bjorck-1967-golub": {
+      "title": "Björck and Golub (1967), Iterative refinement by Householder transformation",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1007/BF01939326",
+      "access": "publisher_metadata",
+      "notes": "BIT 7, 322–337; see bibliographic citations in subsequent Gram-Schmidt survey."
+    },
+    "history-bjorck-golub-recollection": {
+      "title": "Björck, recollection of collaborating with Golub, Collected Works of Gene H. Golub",
+      "kind": "historical_first_person",
+      "url": "https://academic.oup.com/book/52895/chapter-abstract/421920881",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "First-person reminiscence of 1968–69 Stanford/Berkeley visit, encounters with Golub and Forsythe, outline of the 1973 paper. Björck explicitly says the exact start of the collaboration is not remembered."
+    },
+    "history-bjorck-1971-report": {
+      "title": "Björck and Golub, Numerical Methods for Computing Angles Between Linear Subspaces, Stanford report (1971)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://ftpmirror.your.org/pub/misc/bitsavers/pdf/stanford/Stanford_CS_TR_Collection_2025-12-12/OCR/CS-TR-71-225-ocr.pdf",
+      "access": "free_no_login",
+      "notes": "Report identifier STAN-CS-71-225, July 1971, earlier than 1973 journal paper."
+    },
+    "history-bjorck-dahlquist": {
+      "title": "Björck, Gear and Söderlind, obituary of Germund Dahlquist (2005)",
+      "kind": "historical_first_person",
+      "url": "https://swe-math-soc.se/pdf/utskick0505.pdf",
+      "access": "free_no_login",
+      "notes": "Contemporary authors describe 1969 Swedish numerical methods text, encouragement by George Forsythe, 1974 enlarged English book and Dahlquist’s role in Swedish computing."
+    },
+    "history-bjorck-dahlquist-book": {
+      "title": "Germund Dahlquist and Åke Björck, Numerical Methods (1974)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://books.google.com/books/about/Numerical_Methods.html?id=8RfvAAAAMAAJ",
+      "access": "publisher_metadata",
+      "notes": "Prentice-Hall 1974 573-page English edition, broad topics across numerical computation; expanded translation of 1969 Swedish text."
+    },
+    "history-bjorck-1992-paige": {
+      "title": "Björck & Paige, Loss and Recapture of Orthogonality in the Modified Gram-Schmidt Algorithm (1992)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://epubs.siam.org/doi/10.1137/0613015",
+      "access": "publisher_metadata",
+      "notes": "SIAM Journal on Matrix Analysis and Applications 13(1), 176–190."
+    },
+    "history-bjorck-1995-conference": {
+      "title": "NA Digest 1994, Björck sixtieth-birthday conference announcement",
+      "kind": "historical_contemporary_record",
+      "url": "https://na-digest.coecis.cornell.edu/na-digest-html/94/v94n26.html",
+      "access": "free_no_login",
+      "notes": "Event January 9–10 1995 at Linköping; theme Least Squares Methods: Theory, Algorithms and Applications; lists speakers."
+    },
+    "history-bjorck-2000-conference": {
+      "title": "Lars Eldén, Åke Björck Honored (NA Digest January 2000)",
+      "kind": "historical_contemporary_record",
+      "url": "https://www.netlib.org/na-digest-html/00/v00n05.html",
+      "access": "free_no_login",
+      "notes": "Contemporary January 21, 2000 conference account, title Thirty years of numerical linear algebra in Sweden; lists Dahlquist, Wedin, Ruhe, Eldén and others."
+    },
+    "history-bjorck-1996-book": {
+      "title": "Björck, Numerical Methods for Least Squares Problems (1996)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://epubs.siam.org/doi/10.1137/1.9781611971484.ch1",
+      "access": "publisher_metadata",
+      "notes": "1996 SIAM original, 407/408 pages; chapter 1 introduction and publication details."
+    },
+    "history-bjorck-2024-book": {
+      "title": "Björck, Numerical Methods for Least Squares Problems, Second Edition (2024)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://epubs.siam.org/doi/book/10.1137/1.9781611977950",
+      "access": "publisher_metadata",
+      "notes": "Second edition of classic least-squares monograph; source also provides SIAM fellowship and BIT editorial data."
+    },
+    "history-bjorck-2015-book": {
+      "title": "Björck, Numerical Methods in Matrix Computations (2015)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://link.springer.com/book/10.1007/978-3-319-05089-8",
+      "access": "publisher_metadata",
+      "notes": "Springer 800-page text, first edition listed with 2015 copyright and 2014 release dates."
+    },
+    "history-bjorck-siam-fellow": {
+      "title": "Björck SIAM Fellow award rationale",
+      "kind": "historical_contemporary_record",
+      "url": "https://www.wikidata.org/wiki/Q112497705",
+      "access": "free_no_login",
+      "notes": "2014 fellowship; original award rationale for numerical linear algebra, especially least squares, quoted via SIAM listing in Wikidata and SIAM book biography."
     }
   }
 }

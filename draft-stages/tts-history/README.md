@@ -1,27 +1,26 @@
 # History · People and ideas
 
-The playable History track contains **19 researched long-form biographies**:
-Camille Jordan, Lord Rayleigh, Walther Ritz, Hermann Weyl, Richard Courant,
-Ernst Fischer, David Hilbert, Frigyes Riesz, John von Neumann, Robert Schatten,
-Ky Fan, Béla Szőkefalvi-Nagy, Paul Halmos, Jacques Dixmier, Tosio Kato,
-Marvin Rosenblum, Chandler Davis, William Kahan, and Per-Åke Wedin.
+The playable History track contains **20 researched long-form biographies**, from
+Camille Jordan through Åke Björck, across geometry, variational analysis,
+operator theory and computation. Each lecture is individually understandable
+with the mathematical prerequisites listed in its heading.
 
-**Per-Åke Wedin** (`020000`) is a **5,658-word** narrated portrait
-(approximately **39.0 minutes** at 145 WPM). Its mathematical narrative
-follows two-sided singular-subspace geometry, the 1972 residual-based sin-theta
-bound, rectangular zero-direction sensitivity, pseudoinverses, and nearly
-rank-deficient least squares. Its biography traces the Lund and Umeå research
-career, later nonlinear optimization collaborations, and a 1993 biomechanics
-application that reconstructs skeletal motion from well-placed markers. A
-non-spoken companion contains the coupled-overlap proof, numerical examples,
-and source-linked historical claims.
+**Åke Björck** (`021000`) is a **6,434-word** narrated portrait
+(approximately **44.4 minutes** at 145 WPM). It covers his career
+in Swedish numerical analysis, the 1967 least-squares and orthogonalization
+work, his Stanford–Berkeley year and collaboration with Gene Golub, and the
+1973 principal-angle paper. Worked examples connect QR, singular values,
+small-angle sine computations, subspace conditioning, and canonical correlations.
+The portrait also discusses iterative refinement, later work with Christopher
+Paige, books with Germund Dahlquist, and his editorial career. The display-only
+companion supplies exact formulas and historical source pointers.
 
-The Rosenblum portrait (`017000`) has 5,852 spoken words; Dixmier (`015000`)
-has 6,062; Halmos (`014000`) has 6,310; Szőkefalvi-Nagy (`013000`) has 6,224;
-and Ky Fan (`012000`) has 5,758. Each portrait can be heard independently.
+The prior portraits include Wedin (`020000`), Rosenblum (`017000`), Dixmier
+(`015000`), Halmos (`014000`), Szőkefalvi-Nagy (`013000`), and Ky Fan (`012000`).
 
-The remaining **9 shorter historical sketches** are retained in `stubs/`
-and excluded from playback. Stable identifiers are preserved. The spoken
-region is delimited by lecture comment markers; mathematical appendices and
-source references are display-only. Duration depends on TTS voice and speed;
-no audio is bundled here.
+The remaining **8 shorter historical sketches** are retained in `stubs/`
+and excluded from playback. The next numerical slot is **Gene H. Golub**
+(`022000`); Sylvester (`001000`) is an earlier deferred sketch. Stable
+identifiers are preserved. Spoken content is between the lecture comment
+markers; mathematical appendices and source citations are display-only.
+Duration depends on the TTS voice and speed. No audio is included.
