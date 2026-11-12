@@ -95,3 +95,13 @@ The dedicated `200000`–`299000` range is reserved for future How We Know lectu
 | 202000 | Ancient Food in Pots and Cargoes | McGovern, Zhang, Tang, Zhao, Cappers, Sidebotham, Tomber, Pecci, Tanasi and colleagues; botanical finds, residues, and trade evidence |
 
 **Future candidates:** environmental archaeology of African cities, stable isotope studies of food webs, and the origins and movements of ancient textiles and dyes.
+
+## Ninth batch: textiles, farming landscapes, and ancient DNA
+
+| ID | Study | Evidence and original researchers |
+|---|---|---|
+| 203000 | Ancient textiles and dyes | Splitstoser, Dillehay, Wouters, Claro; Sukenik, Iluz, Amar, Varvak, Shamir, Ben-Yosef; Grömer, Gleba, Boudin, Reschreiter |
+| 204000 | African agricultural landscapes | Fuller, Barron, Champion, Dupuy, Commelin, Raimbault, Denham; Susan and Roderick McIntosh; Dia rice investigators; Konso communities |
+| 205000 | Ancient DNA | Higuchi, Pääbo, Krings, Pinhasi, Fernandes, Sirak, Haak, Lazaridis, Reich, Brielle, Fleisher, Wynne-Jones and collaborators |
+
+These lectures distinguish measurements, dating, interpretation, and research ethics. **Future directions:** archaeological parasites and disease, dung and ancient land use, and experimental reconstruction of ancient crafts.

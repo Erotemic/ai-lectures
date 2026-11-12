@@ -185,3 +185,11 @@ reader. The server synthesizes audio on demand with the existing TTS profiles.
 - **202000 · Ancient Food in Pots and Cargoes** — Jiahu residues, Berenike pepper, Roman amphorae, and the limits of commodity identification.
 
 For concurrent contributions, the `200000`–`299000` World History ID range is reserved for the How We Know strand. The existing `029000`–`057000` archaeology lectures retain their established identifiers. Other strands should select IDs outside this range.
+
+## How We Know: textiles, African farming, and ancient DNA
+
+- **203000 · Threads, Colors, and Invisible Labor** — Huaca Prieta indigo, Timna purple, Hallstatt preserved textiles; spinning, dye chemistry, and context.
+- **204000 · Fields Without Written Records** — Sahel pearl millet, Inland Niger Delta rice and urban subsistence, and Konso terraced land management.
+- **205000 · Ancient DNA** — authenticity and contamination, population models, the Swahili coast, and research ethics.
+
+How We Know reserves IDs `200000`–`299000`; literary tracks should use other ranges.
