@@ -410,18 +410,18 @@
       "notes": "Background on the mathematical concept explained in the William Kahan lecture."
     },
     "history-wedin-bio": {
-      "title": "Per-Åke Wedin — biographical or contributor record",
-      "kind": "biography_or_author_record",
-      "url": "https://cir.nii.ac.jp/crid/1360298342261921536",
+      "title": "Swedish government calendar, Umeå University 1978 appointment",
+      "kind": "institutional_biography",
+      "url": "https://runeberg.org/statskal/1978/0702.html",
       "access": "free_no_login",
-      "notes": "Person-specific source for Per-Åke Wedin; for living contributors some records document authorship rather than personal biography."
+      "notes": "Official institutional roster: Nils Per-Åke Wedin, Ph.D., information processing, particularly numerical analysis; appointment year 1976. It does not supply a life narrative."
     },
     "history-wedin-primary": {
-      "title": "Per-Åke Wedin — Verified 1972 primary paper and publication metadata",
-      "kind": "historical_primary_or_exposition",
+      "title": "Wedin, Perturbation Bounds in Connection with Singular Value Decomposition (1972)",
+      "kind": "primary_mathematical_publication",
       "url": "https://doi.org/10.1007/BF01932678",
-      "access": "free_no_login",
-      "notes": "Published mathematical research relevant to this person's contribution; authorship is discussed in the lecture."
+      "access": "publisher_metadata_or_abstract",
+      "notes": "BIT 12(1), 99–111 (March 1972); original abstract discusses subspaces of A* A and A A*, Davis–Kahan and overdetermined systems."
     },
     "history-wedin-topic": {
       "title": "Singular value decomposition",
@@ -2019,6 +2019,132 @@
       "url": "https://books.google.com/books?id=bDPvAAAAMAAJ",
       "access": "free_no_login",
       "notes": "Springer 1994 text based on UVA lectures, including harmonic, subharmonic, Hardy, Nevanlinna and univalent functions."
+    },
+    "history-wedin-1972-abstract": {
+      "title": "OpenAIRE abstract of Wedin 1972",
+      "kind": "primary_abstract",
+      "url": "https://oamonitor.ireland.openaire.eu/national/search/publication?pid=10.1007%2Fbf01932678",
+      "access": "free_no_login",
+      "notes": "Original author abstract as provided by publisher metadata; includes Davis–Kahan special-case assertion, rank deficiency and least squares."
+    },
+    "history-wedin-1984-calendar": {
+      "title": "Swedish government calendar, Umeå University 1984",
+      "kind": "institutional_biography",
+      "url": "https://runeberg.org/statskal/1984/0534.html",
+      "access": "free_no_login",
+      "notes": "Lists Nils Per-Åke Wedin, Ph.D., docent and numerical-analysis university appointment."
+    },
+    "history-wedin-umea-directory": {
+      "title": "Umeå Department of Computing Science, personnel directory",
+      "kind": "institutional_biography",
+      "url": "https://people.cs.umu.se/stric/personal/",
+      "access": "free_no_login",
+      "notes": "Lists Wedin as professor emeritus (Befattning Professor emeritus); institutional page may be archival."
+    },
+    "history-wedin-lund-1969": {
+      "title": "Golub and Pereyra 1973 references: Wedin Lund report of 1969",
+      "kind": "historical_publication_reference",
+      "url": "https://epubs.siam.org/doi/10.1137/0710036",
+      "access": "publisher_metadata_or_abstract",
+      "notes": "References On Pseudoinverses of Perturbed Matrices (1969), Department of Computer Science, Lund, 56 pages."
+    },
+    "history-wedin-1972-least-squares": {
+      "title": "Ruhe and Wedin 1980 references: 1972 Lund report",
+      "kind": "historical_publication_reference",
+      "url": "https://epubs.siam.org/doi/10.1137/1022057",
+      "access": "publisher_metadata_or_abstract",
+      "notes": "References The Non-Linear Least Squares Problem from a Numerical Point of View, I: Geometrical Properties, Lund 1972."
+    },
+    "history-wedin-1973-pseudoinverse": {
+      "title": "Wedin, Perturbation Theory for Pseudo-Inverses (1973)",
+      "kind": "primary_publication_metadata",
+      "url": "https://doi.org/10.1007/BF01933494",
+      "access": "publisher_metadata_or_abstract",
+      "notes": "BIT 13, 217–232; research on sensitivity of generalized inverses."
+    },
+    "history-wedin-1973-rank": {
+      "title": "Wedin, On the Almost Rank Deficient Case of the Least Squares Problem (1973)",
+      "kind": "primary_publication_metadata",
+      "url": "https://doi.org/10.1007/BF01951945",
+      "access": "publisher_metadata_or_abstract",
+      "notes": "BIT 13, 344–354. Describes sensitivity under approximate rank truncation and variable scaling."
+    },
+    "history-wedin-stewart-1990": {
+      "title": "G. W. Stewart, Perturbation Theory for the Singular Value Decomposition (1990)",
+      "kind": "mathematical_exposition",
+      "url": "https://users.math.msu.edu/users/iwenmark/Teaching/MTH995/Papers/SVD_Stewart.pdf",
+      "access": "free_no_login",
+      "notes": "Technical report, §7 pp. 10–12: residual-based Wedin theorem, rectangular zero directions, 45-degree example; the example is attributed to Stewart survey."
+    },
+    "history-wedin-1980-ruhe": {
+      "title": "Axel Ruhe and Per-Åke Wedin, Algorithms for Separable Nonlinear Least Squares Problems (1980)",
+      "kind": "primary_publication_metadata",
+      "url": "https://doi.org/10.1137/1022057",
+      "access": "publisher_metadata_or_abstract",
+      "notes": "SIAM Review 22(3), 318–337, abstract addresses Gauss–Newton methods and separated variables."
+    },
+    "history-wedin-1984-lindstrom": {
+      "title": "Per Lindström and Per-Åke Wedin, New Line Search Algorithm (1984)",
+      "kind": "primary_publication_metadata",
+      "url": "https://doi.org/10.1007/BF02591997",
+      "access": "publisher_metadata_or_abstract",
+      "notes": "Mathematical Programming 29, 268–296."
+    },
+    "history-wedin-1992-qr": {
+      "title": "Mårten Gulliksson and Per-Åke Wedin, Modifying QR Decomposition (1992)",
+      "kind": "primary_publication_metadata",
+      "url": "https://epubs.siam.org/doi/abs/10.1137/0613079",
+      "access": "publisher_metadata_or_abstract",
+      "notes": "SIAM Journal on Matrix Analysis and Applications; constrained and weighted linear least squares."
+    },
+    "history-wedin-1993-skeleton": {
+      "title": "Inge Söderkvist and Per-Åke Wedin, Skeleton movement and marker placement (1993)",
+      "kind": "primary_publication_abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8308052/",
+      "access": "free_no_login",
+      "notes": "Journal of Biomechanics 26(12), 1473–1477. SVD rigid body fit and condition number depending on landmark configuration."
+    },
+    "history-wedin-1994-motion": {
+      "title": "Wedin, On Condition Numbers and Algorithms for Determining a Rigid Body Movement (1994)",
+      "kind": "primary_publication_abstract",
+      "url": "https://doi.org/10.1007/BF01935651",
+      "access": "publisher_metadata_or_abstract",
+      "notes": "BIT 34(3), 424–436; problem reformulated via orthogonal Procrustes and nonlinear least squares. Some direct URLs require browser verification."
+    },
+    "history-wedin-1995-edsberg": {
+      "title": "Lennart Edsberg and Per-Åke Wedin, Numerical Tools for Parameter Estimation in ODE-Systems (1995)",
+      "kind": "primary_publication_abstract",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10556789508805633",
+      "access": "publisher_metadata_or_abstract",
+      "notes": "Optimization Methods and Software; original manuscript received 1993; published issue identified as 1995 despite later online posting."
+    },
+    "history-wedin-2005-honor": {
+      "title": "Umeå HPC2N, conferences in 2005",
+      "kind": "institutional_event_record",
+      "url": "https://www.hpc2n.umu.se/events/workshops",
+      "access": "free_no_login",
+      "notes": "Records Conference on Least Squares and Optimization in honour of Per-Åke Wedin, November 16–17, 2005."
+    },
+    "history-wedin-mentorship": {
+      "title": "Umeå dissertation acknowledgement of Wedin as doctoral advisor",
+      "kind": "institutional_thesis",
+      "url": "https://www.diva-portal.org/smash/get/diva2%3A867799/FULLTEXT01.pdf",
+      "access": "free_no_login",
+      "notes": "Mårten Gulliksson, Algorithms for Overdetermined Systems of Equations, UMINF 93-11, Umeå 1993, cover, preface, acknowledgements: explicitly names Wedin doctoral advisor and shows joint publication work."
+    },
+    "history-wedin-svd-foundations": {
+      "title": "G. W. Stewart 1990 historical SVD overview",
+      "kind": "historical_exposition",
+      "url": "https://users.math.msu.edu/users/iwenmark/Teaching/MTH995/Papers/SVD_Stewart.pdf",
+      "access": "free_no_login",
+      "notes": "§1 credits nineteenth-century singular-value antecedents; Wedin not credited with inventing the SVD."
+    },
+    "history-wedin-davis-kahan": {
+      "title": "Davis and Kahan 1970, The Rotation of Eigenvectors by a Perturbation III",
+      "kind": "primary_publication_metadata",
+      "url": "https://doi.org/10.1137/0707001",
+      "access": "publisher_metadata_or_abstract",
+      "notes": "SIAM J Numerical Analysis 7, 1–46. Precedes 1972 Wedin paper."
     }
   }
 }

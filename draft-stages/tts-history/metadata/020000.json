@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-wedin.md",
+  "related_resources": [
+    {
+      "source_id": "history-wedin-bio",
+      "reason": "1978 Swedish institutional numerical-analysis appointment and full recorded name."
+    },
+    {
+      "source_id": "history-wedin-umea-directory",
+      "reason": "Later Umeå professorship and emeritus status."
+    },
+    {
+      "source_id": "history-wedin-1972-abstract",
+      "reason": "Wedin original abstract, relation to Davis–Kahan and least-squares applications."
+    },
+    {
+      "source_id": "history-wedin-primary",
+      "reason": "Exact 1972 paper citation, DOI and historical scope."
+    },
+    {
+      "source_id": "history-wedin-stewart-1990",
+      "reason": "Checked technical statement, residual proof and zero-direction example."
+    },
+    {
+      "source_id": "history-wedin-1973-pseudoinverse",
+      "reason": "Later development of matrix pseudoinverse perturbation theory."
+    },
+    {
+      "source_id": "history-wedin-1973-rank",
+      "reason": "Wedin’s rank-deficient least-squares analysis."
+    },
+    {
+      "source_id": "history-wedin-1980-ruhe",
+      "reason": "Separable nonlinear least-squares method and historical collaboration."
+    },
+    {
+      "source_id": "history-wedin-1984-lindstrom",
+      "reason": "Nonlinear least-squares line search."
+    },
+    {
+      "source_id": "history-wedin-1993-skeleton",
+      "reason": "Skeletal landmark configuration and rigid-body sensitivity."
+    },
+    {
+      "source_id": "history-wedin-1995-edsberg",
+      "reason": "Differential-equation parameter fitting collaboration."
+    },
+    {
+      "source_id": "history-wedin-2005-honor",
+      "reason": "Umeå least-squares conference in his honor."
+    },
+    {
+      "source_id": "history-wedin-topic",
+      "reason": "Accessible SVD introduction for readers."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "020000-h01",
+      "anchor": "Nils Per-Åke Wedin.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-wedin-bio"
+      ],
+      "source_locator": "Swedish 1978 state university calendar, p.702",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h02",
+      "anchor": "The official university directory from nineteen seventy-eight places him at Umeå University",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-wedin-bio"
+      ],
+      "source_locator": "1978 university listing, p.702",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h03",
+      "anchor": "A later university record identifies him as a docent",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-wedin-1984-calendar"
+      ],
+      "source_locator": "1984 university listing, p.532",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h04",
+      "anchor": "the university's computing-science directory lists him as professor emeritus.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-wedin-umea-directory"
+      ],
+      "source_locator": "Umeå personnel roster, Wedin entry",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h05",
+      "anchor": "In nineteen sixty-nine, a technical report on pseudoinverses of perturbed matrices appeared from the Department of Computer Science at Lund University.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-wedin-lund-1969"
+      ],
+      "source_locator": "Golub–Pereyra 1973 references, #30",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h06",
+      "anchor": "His nineteen seventy-two paper on singular-subspace perturbations was published in BIT, the Nordic numerical mathematics journal.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-wedin-primary"
+      ],
+      "source_locator": "BIT 12(1), 1972 99–111",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h07",
+      "anchor": "In that same period he circulated a report from Lund on the geometry of nonlinear least squares.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-wedin-1972-least-squares"
+      ],
+      "source_locator": "Ruhe–Wedin 1980 references #17",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h08",
+      "anchor": "In nineteen seventy, Chandler Davis and William Kahan published a major treatment of the rotation of eigenspaces under perturbation.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-wedin-davis-kahan"
+      ],
+      "source_locator": "SIAM J Numer Anal 7 (1970) 1–46",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h09",
+      "anchor": "The abstract of his nineteen seventy-two paper explicitly identifies the Davis–Kahan sine-theta theorem as a special case",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-wedin-1972-abstract"
+      ],
+      "source_locator": "Author abstract, OpenAIRE 1972 paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h10",
+      "anchor": "Wedin's central estimate binds the two rotations together while respecting their separate spaces.",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-wedin-primary",
+        "history-wedin-stewart-1990"
+      ],
+      "source_locator": "Wedin 1972; Stewart 1990 §7",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h11",
+      "anchor": "This example appears in Stewart's later survey of singular-value perturbations",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "history-wedin-stewart-1990"
+      ],
+      "source_locator": "Stewart 1990 §7 pp.11–12",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h12",
+      "anchor": "George Stewart later used the memorable term ghost singular values",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "history-wedin-stewart-1990"
+      ],
+      "source_locator": "Stewart 1990 §§4–7",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h13",
+      "anchor": "His original nineteen seventy-two abstract names overdetermined linear systems and rank-deficient approximations as applications.",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-wedin-1972-abstract"
+      ],
+      "source_locator": "Author abstract 1972",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h14",
+      "anchor": "His nineteen seventy-three papers continued directly into perturbation theory for pseudoinverses and the nearly rank-deficient least-squares problem.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-wedin-1973-pseudoinverse",
+        "history-wedin-1973-rank"
+      ],
+      "source_locator": "BIT 13 217–232 and 344–354",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h15",
+      "anchor": "Gene Golub and Victor Pereyra developed influential variable-projection methods for problems of this sort.",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-wedin-1980-ruhe"
+      ],
+      "source_locator": "Ruhe–Wedin 1980 abstract compares Golub–Pereyra variable projection",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h16",
+      "anchor": "In nineteen eighty, Axel Ruhe and Wedin published Algorithms for Separable Nonlinear Least Squares Problems in SIAM Review.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-wedin-1980-ruhe"
+      ],
+      "source_locator": "SIAM Review 22(3) 318–337",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h17",
+      "anchor": "Wedin also worked with Per Lindström on a nineteen eighty-four line-search algorithm for nonlinear least squares.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-wedin-1984-lindstrom"
+      ],
+      "source_locator": "Mathematical Programming 29(3) 268–296",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h18",
+      "anchor": "Later collaborations at Umeå explored weighted and constrained least squares, modifications of QR decompositions, regularization, and parameter estimation in systems of differential equations.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-wedin-1992-qr",
+        "history-wedin-1995-edsberg"
+      ],
+      "source_locator": "1992 SIAM and 1995 OMS publication summaries",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h19",
+      "anchor": "In nineteen ninety-three Inge Söderkvist and Wedin published Determining the Movements of the Skeleton Using Well-Configured Markers in the Journal of Biomechanics.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-wedin-1993-skeleton"
+      ],
+      "source_locator": "PubMed PMID 8308052",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h20",
+      "anchor": "They formulated the rigid-motion fit using singular value decomposition and developed a geometrically interpretable condition number",
+      "kind": "historical_mathematical_work",
+      "source_ids": [
+        "history-wedin-1993-skeleton"
+      ],
+      "source_locator": "PubMed author abstract",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h21",
+      "anchor": "With Mårten Gulliksson and other colleagues he published on weighted and constrained least squares",
+      "kind": "historical_relationship",
+      "source_ids": [
+        "history-wedin-1992-qr"
+      ],
+      "source_locator": "SIAM publication author list",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h22",
+      "anchor": "With Lennart Edsberg he worked on numerical parameter estimation for differential-equation systems",
+      "kind": "historical_relationship",
+      "source_ids": [
+        "history-wedin-1995-edsberg"
+      ],
+      "source_locator": "1995 paper author list and abstract",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h23",
+      "anchor": "In November two thousand five, Umeå University hosted a conference on least squares and optimization in his honor.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-wedin-2005-honor"
+      ],
+      "source_locator": "Umeå HPC2N 2005 conference list",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h24",
+      "anchor": "In nineteen ninety-three Mårten Gulliksson completed a doctoral dissertation at Umeå titled Algorithms for Overdetermined Systems of Equations.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-wedin-mentorship"
+      ],
+      "source_locator": "Mårten Gulliksson, Umeå PhD thesis, April 7 1993, cover, preface and acknowledgements",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h25",
+      "anchor": "Davis and Kahan had already established self-adjoint subspace perturbation results.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "history-wedin-davis-kahan"
+      ],
+      "source_locator": "1970 original paper",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}
