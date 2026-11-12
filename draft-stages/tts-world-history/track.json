@@ -1,7 +1,7 @@
 {
   "id": "world-history",
   "title": "World History",
-  "summary": "Standalone long-form audio essays on people, events, texts, and historical processes. Current subjects include Gilgamesh, Mary Leakey, Uruk, Mansa Musa, Hatshepsut, and Fu Hao.",
+  "summary": "Standalone long-form audio essays on people, events, texts, and historical processes. Current subjects include Gilgamesh, Mary Leakey, Uruk, Mansa Musa, Hatshepsut, Fu Hao, and the Austronesian expansion.",
   "assumed_background": [
     "general curiosity about world history; each lecture provides its own context"
   ],
@@ -11,7 +11,8 @@
     "early-cities",
     "medieval-west-africa",
     "new-kingdom-egypt",
-    "shang-china"
+    "shang-china",
+    "austronesian-expansion"
   ],
   "lectures": [
     {
@@ -67,6 +68,15 @@
       "spoken_words": 5925,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 40.9
+    },
+    {
+      "id": "007000",
+      "title": "The Austronesian Expansion: How People Crossed an Ocean World",
+      "section": "austronesian-expansion",
+      "file": "007000-austronesian-expansion-ocean-world.md",
+      "spoken_words": 6108,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 42.1
     }
   ],
   "editorial_policy": "Publish substantive, source-grounded lectures that are self-contained and useful in any listening order. The manifest order is a browsing default, not a prerequisite sequence."

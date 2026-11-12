@@ -23,6 +23,9 @@ The substantive, standalone lectures are:
 - **006000 · Fu Hao: The General, the Oracle Bones, and the Shang World** —
   Shang kingship, divination and early writing, military leadership, bronze
   craftsmanship, ancestral ritual, sacrifice, and the excavated tomb at Anyang.
+- **007000 · The Austronesian Expansion: How People Crossed an Ocean World** —
+  Taiwan and Island Southeast Asia, Near Oceania and Lapita, navigation,
+  Micronesia, Polynesian settlement, Madagascar, and long-distance contact.
 
 The source Markdown files contain a spoken lecture between explicit markers.
 Historical notes and references after the spoken region are for reading and
