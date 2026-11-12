@@ -81,6 +81,9 @@ These lectures share a browsing section but do not depend on listening order:
 - **045000 · The Swahili Coast** — Shanga, Kilwa, Songo Mnara, revised dating, local pottery, the house-foundation coin deposit, and the distinct evidence of archaeology, genealogy, and ancient DNA.
 - **046000 · The Lost Harbor** — Portus and Ostia sediment cores, geophysical survey, dredging, and underwater archaeology and photogrammetry at Caesarea.
 - **047000 · Saving a Shipwreck** — the Mary Rose and Vasa, treatment of waterlogged timbers, iron and sulfur chemistry, documenting artifacts, and ongoing conservation.
+- **055000 · The Obsidian Fingerprint — volcanic glass sourcing, Cann and Renfrew, Franchthi and Melos, XRF, and why source does not establish trade route.**
+- **056000 · Where Did They Grow Up? — teeth, isotopes, Boscombe Bowmen, Stonehenge cremations, and the limits of geographic assignments.**
+- **057000 · The Bronze Question — Uluburun, copper and tin provenance, isotope analysis, metal mixing, and the published sourcing dispute.**
 
 ## Late-Imperial Chinese Literature: Journey to the West
 

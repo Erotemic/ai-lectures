@@ -65,6 +65,15 @@ These lectures use the same full-narration and source-attribution standard as th
 | 046000 | The Lost Harbor: reading an ancient coastline | Keay, Millett, Paroli, Strutt and Italian researchers on Portus; sediment specialists on dredging and water conditions; Oleson, Hohlfelder, Raban and Vann at Caesarea; 2025 underwater 3D study by Gambash and colleagues |
 | 047000 | Saving a Shipwreck | McKee, Rule, the Mary Rose Trust, conservation engineers and museum staff; Sandstrom, Jalilehvand and collaborators on sulfur in Vasa and Mary Rose timbers; preservation after recovery, treatment records and sampling |
 
+
+## Seventh batch: listening-ready
+
+| ID | Case study | Researchers and evidence questions |
+|---|---|---|
+| 055000 | Obsidian fingerprints | Cann, Renfrew, Dixon, Durrani, Tykot, Shackley, and Dillian; trace-element source assignments and their limits |
+| 056000 | Teeth and ancient mobility | Evans, Chenery, Fitzpatrick, Snoeck, Willis and collaborators; strontium and oxygen records of mobility |
+| 057000 | Metals and provenance | Pulak, Gale, Stos-Gale, Powell, Frachetti, Yener, Berger, Kaniuth, Brügmann, and Pernicka; mixing, isotope overlap, and contested tin sources |
+
 ## Future candidates
 
 - **The archaeology of Indian Ocean commodities** — beads, glass, botanical remains, and tracking a commodity without assuming a direct merchant route.
