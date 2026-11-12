@@ -1,27 +1,27 @@
 # History · People and ideas
 
-The playable History track contains **twelve researched long-form biographies**:
+The playable History track contains **thirteen researched long-form biographies**:
 Camille Jordan, Lord Rayleigh, Walther Ritz, Hermann Weyl, Richard Courant,
-Ernst Fischer, David Hilbert, Frigyes Riesz, John von Neumann, Tosio Kato,
-Chandler Davis, and William Kahan.
+Ernst Fischer, David Hilbert, Frigyes Riesz, John von Neumann, Robert Schatten,
+Tosio Kato, Chandler Davis, and William Kahan.
 
-The new 5,152-word John von Neumann lecture explores quantum states,
-spectral projections, mixtures and density operators, the Murray-von Neumann
-operator-ring program, continuous dimension, singular-value gauge norms,
-the 1937 trace inequality, mean ergodic averages, game-theoretic minimax,
-stored-program computing, and wartime scientific responsibility.
+The newly expanded **Robert Schatten** lecture (`011000`) has 5,736 spoken words
+(about 39.6 minutes at 145 words per minute). It develops Schatten's
+Banach-school training and emigration, his work with Murray, Dunford, and
+von Neumann, crossnorms on Banach-space tensor products, the injective / Hilbert /
+projective norm comparison, trace-class and Hilbert–Schmidt ideals, norm duality,
+and the later spectral-subspace applications.
 
-The historical companion distinguishes von Neumann's contributions from
-those of Born, Dirac, Murray, Birkhoff, Morgenstern, Eckert, Mauchly,
-Goldstine, Burks, Turing, and other researchers. It includes bibliographic
-references and mathematical demonstrations not spoken in the audio.
+The display-only companion records exact operator formulas, examples, and
+historical sources, with specific priority distinctions. The speech does not
+require listening to the neighboring recordings in sequence. Background in
+matrices, singular values, norms and convergent numerical series is assumed.
 
 Estimated listening lengths range roughly **27–41 minutes** at 145 spoken
-words per minute. Actual TTS duration depends on the selected voice,
-synthesis speed, and pauses; audio is generated on demand.
+words per minute. Actual TTS duration depends on voice and settings; audio
+is generated on demand.
 
-The remaining **16 short sketches** are in `stubs/` with original IDs and
+The remaining **15 short sketches** are in `stubs/` with original IDs and
 metadata, excluded from the audio catalog until researched and expanded.
-History lectures may assume elementary background but never refer to
-"previous" recordings; audio caches, progress and feedback are isolated
-by track.
+History lectures may depend on mathematical prerequisites but must not refer
+to earlier or later recordings as required context.

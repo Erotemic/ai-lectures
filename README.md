@@ -843,7 +843,7 @@ the build cache is Git-ignored. See [companion slide documentation](docs/compani
 
 ## History audio track editorial status
 
-The separate history audio track exposes twelve substantive biographies
+The separate history audio track exposes thirteen substantive biographies
 currently ready for listening, including Camille Jordan and Lord Rayleigh. Short drafts on 16 other contributors are
 preserved under `draft-stages/tts-history/stubs/` and deliberately excluded
 from the audio catalog until they receive substantive historical and
