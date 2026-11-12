@@ -5,7 +5,7 @@ curricula. The intention is to learn ancient societies through complete,
 substantive accounts of what their stories say, how they survive, and what
 scholars can infer from their historical setting.
 
-## Listening-ready batch
+## Listening-ready sequence
 
 | ID | Topic | Primary narrative boundary |
 |---|---|---|
@@ -14,7 +14,11 @@ scholars can infer from their historical setting.
 | 010000 | Story of Sinuhe | Egyptian courtier's flight, foreign career, and homecoming; literary narrator, not a verified personal memoir |
 | 011000 | Atrahasis | Divine work revolt, creation of humans, escalating disasters, flood, negotiated aftermath |
 | 012000 | Enuma Elish | Divine succession, Marduk's bargain and victory, cosmic ordering, Babylonian legitimacy |
-| 013000 | Iliad, Part I | The Homeric Iliad, Books 1-9, from the plague and quarrel through the failed embassy |
+| 013000 | Iliad, Part I | Books 1–9, from the plague and quarrel through the failed embassy |
+| 014000 | Iliad, Part II | Books 10–17, the night raid, attack on ships, and death of Patroclus |
+| 015000 | Iliad, Part III | Books 18–24, Achilles' return, Hector's death, funeral games, and Priam's appeal |
+| 016000 | Odyssey, Part I | Books 1–12, Telemachus, Calypso, the Phaeacians, and the voyage narrated by Odysseus |
+| 017000 | Odyssey, Part II | Books 13–24, disguise, recognition, slaughter, reunion, and the political aftermath |
 
 The order above is a browsing suggestion, not a required prerequisite chain.
 Every narration supplies its own context. Companion resources and source
@@ -23,11 +27,7 @@ transmission notes remain outside spoken regions.
 ## Possible further lectures
 
 **Greek epic and the Trojan tradition**
-- *Iliad*, Part II: the battle for the ships, Patroclus, Achilles' return,
-  Hector's death, and Priam's appeal (Books 10-24, likely split into two
-  substantial lectures if close reading warrants it).
-- *Odyssey*: homecoming, hospitality, disguise, and identity (multiple
-  independent close readings, with enough plot recapitulation in each).
+- The *Iliad* and *Odyssey* are covered through all 24 books of each work in five independently listenable lectures. Further Homeric topics could examine the ancient epic cycle, contrasting receptions, and the archaeological setting without claiming the poems are documentary history.
 
 **Other ancient literary worlds**
 - *The Tale of the Shipwrecked Sailor*: Egyptian adventure and the speaking

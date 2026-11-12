@@ -27,9 +27,9 @@ The substantive, standalone lectures are:
   Taiwan and Island Southeast Asia, Near Oceania and Lapita, navigation,
   Micronesia, Polynesian settlement, Madagascar, and long-distance contact.
 
-## Ancient-literature sequence (new)
+## Ancient-literature sequence
 
-The following six lectures share a browsing section but do not depend on listening order:
+These lectures share a browsing section but do not depend on listening order:
 
 - **008000 · Gilgamesh Beyond the Epic: The Other Stories of Uruk's King** — Sumerian *Gilgamesh and Aga*, *Huwawa*, *Netherworld*, and *Death of Gilgamesh*.
 - **009000 · Inanna's Descent: Seven Gates to the Land of No Return** — the Sumerian poem, Ninshubur's rescue, Dumuzi's fate, and the Akkadian variant.
@@ -37,6 +37,10 @@ The following six lectures share a browsing section but do not depend on listeni
 - **011000 · Atrahasis: The Flood Before Noah** — divine labor, human creation, successive disasters, flood, and comparison with Gilgamesh and Genesis.
 - **012000 · Enuma Elish: How Babylon's God Won the World** — Marduk's rise, Tiamat, cosmic organization, creation of humans, and Babylonian divine kingship.
 - **013000 · The Iliad, Part I: The Anger of Achilles** — Homeric Books 1–9, the withdrawal, Hector's household, and the failed embassy.
+- **014000 · The Iliad, Part II: Patroclus and the Burning Ships** — Books 10–17, the defense of the ships, Sarpedon, and Patroclus' death.
+- **015000 · The Iliad, Part III: Achilles, Hector, and Priam** — Books 18–24, the shield, Hector's death, funeral games, and Priam's appeal.
+- **016000 · The Odyssey, Part I: The Long Way Home** — Books 1–12, Telemachus, the Phaeacians, and Odysseus' account of the voyage.
+- **017000 · The Odyssey, Part II: The House of Ithaca** — Books 13–24, disguise, Penelope's test, the suitors, and the consequences of return.
 
 The [ancient-literature roadmap](ANCIENT_LITERATURE_ROADMAP.md) describes further candidates and the editorial approach. These are full narrative essays with contextual analysis rather than annotated readings or verbatim reproductions of modern translations.
 
