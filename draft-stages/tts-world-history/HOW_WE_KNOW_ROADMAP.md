@@ -41,11 +41,16 @@ These lectures use the same full-narration and source-attribution standard as th
 | 037000 | The Popol Wuj: How a Maya Book Survived | Anonymous K'iche' writers and storytellers; Francisco Ximenez's colonial copy; Brasseur de Bourbourg, manuscript collectors, Sam Colop, Adrian Ines Chavez, Edmonson, Tedlock, Christenson, van Akkeren; a living tradition and disputed textual transmission |
 | 038000 | Finding Mali's Trade Networks in the Ground | Susan Keech and Roderick McIntosh at Jenne-jeno; Sam Nixon, Thilo Rehren, Maria Filomena Guerra at Tadmekka; Timothy Insoll at Timbuktu; medieval Arabic writers; Malian manuscript custodians; triangulating settlement, production, texts and exchange |
 
+## Fourth batch: listening-ready
+
+| ID | Case study | Evidentiary question and credited contributions |
+|---|---|---|
+| 039000 | Deciphering Maya writing | Knorozov's syllabic readings, Proskouriakoff's historical dates, Berlin's dynastic titles, Stuart's spelling variants, Maya language specialists, and inscriptions as political claims |
+| 040000 | Finding Pacific voyagers | Bedford, Spriggs, Regenvanu and Teouma; Lapita objects and associated dates; Higham and Anderson on chronology; Skoglund and collaborators on DNA; Mau Piailug and voyaging crews on practical navigation |
+| 041000 | Olduvai and Laetoli | OH 5 and Bed I, the distinct contributions of Mary Leakey, Evernden, Curtis, Hay and Tobias; Hill, Jones, Philip Leakey and Abell on early tracks; Masao, Ichumbaki and McNutt teams on later footprint discoveries and reanalysis |
+
 ## Future candidates
 
-- **Reading the Classic Maya inscriptions** — Tatiana Proskouriakoff, Yuri Knorosov, David Stuart, and contemporary Maya epigraphers; decipherment, contested history, and living languages.
-- **Testing Pacific migration histories** — Lapita archaeology, radiocarbon, linguistics, canoe traditions, and ancient DNA, with credit to Pacific navigators and researchers.
-- **Olduvai and Laetoli field records** — Mary Leakey and named field collaborators, fossil-site stratigraphy, footprint recording, and later conservation.
 - **Reconstructing ancient maritime trade** — shipwreck excavation, amphora and cargo provenancing, and the archaeology of the Indian Ocean.
 
 The sequence should remain selected for depth and interesting lines of

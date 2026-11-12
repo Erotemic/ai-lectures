@@ -9,12 +9,18 @@ from dkvis.presentation.audio_library import AudioLectureHub, SOURCE_DIRECTORY, 
 from dkvis.presentation.serve import create_app
 
 
-def test_g3_syllabus_lectures_are_complete():
+def test_g3_syllabus_has_27_complete_spoken_lectures():
     plan = json.loads((PAPER_DIRECTORY / 'track.json').read_text())
     rows = plan['lectures']
-    assert len({row['id'] for row in rows}) == len(rows)
-    assert {p.name for p in PAPER_DIRECTORY.glob('[0-9]' * 6 + '-*.md')} == {row['file'] for row in rows}
+    assert len(rows) == 27
+    assert len({row['id'] for row in rows}) == 27
+    assert len(list(PAPER_DIRECTORY.glob('[0-9]' * 6 + '-*.md'))) == 27
     assert rows[0]['section'] == 'orientation'
+    assert [row['section'] for row in rows[-6:]] == ['section4-transport'] * 6
+    assert [row['id'] for row in rows[-6:]] == [
+        '017000','018000','018500','019000','024000','025000']
+    assert [row['source_g2'] for row in rows[-6:]] == [
+        '130000', '131000', '132000', '133000', '134000', '145000']
     for row in rows:
         path = PAPER_DIRECTORY / row['file']
         raw = path.read_text()
@@ -22,6 +28,7 @@ def test_g3_syllabus_lectures_are_complete():
         assert raw.count('<!-- END SPOKEN LECTURE -->') == 1
         spoken = narration_extractor(path)
         assert len(spoken.split()) >= 1150, row['file']
+        assert len(spoken.split()) <= 1750, row['file']
         assert 'Source declaration excerpts' not in spoken
         assert (PAPER_DIRECTORY/'metadata'/f"{row['id']}.json").is_file()
 
@@ -41,13 +48,12 @@ def test_course_tracks_and_track_isolation(tmp_path):
         assert [r['id'] for r in tracks] == ['g1', 'g2', 'g3', 'history', 'world-history', 'g4']
         assert tracks[0]['url'] == '/'
         assert tracks[1]['count'] >= 154
-        g3_count = len(json.loads((PAPER_DIRECTORY / 'track.json').read_text())['lectures'])
-        assert tracks[2]['count'] == g3_count
+        assert tracks[2]['count'] == 27
         assert tracks[3]['count'] == len(json.loads((HISTORY_DIRECTORY/'track.json').read_text())['lectures'])
         assert tracks[3]['url'] == '/audio?track=history'
         assert len(client.get('/api/audio-lectures?track=history').json()['items']) == tracks[3]['count']
         assert len(client.get('/api/audio-lectures').json()['items']) >= 154
-        assert len(client.get('/api/audio-lectures?track=g3').json()['items']) == g3_count
+        assert len(client.get('/api/audio-lectures?track=g3').json()['items']) == 27
         assert client.get('/api/audio-lectures?track=g2').json()['items'][0]['id'] == '000000'
         assert client.get('/api/audio-lectures?track=g3').json()['items'][0]['id'] == '000000'
         g2 = client.get('/api/audio-lectures/000000?track=g2').json()
@@ -62,7 +68,7 @@ def test_course_tracks_and_track_isolation(tmp_path):
             assert text_response.status_code == 200
             assert text_response.text == doc['transcript']
         assert client.get('/api/audio-lectures/000000/transcript.txt?track=invalid').status_code == 400
-        assert g3['transcript'].strip()
+        assert 'An eigenvector can change' in g3['transcript']
         assert not any('<!-- END SPOKEN LECTURE -->' in p for p in g3['pages'])
         assert client.get('/api/audio-lectures?track=../../etc').status_code == 400
         assert client.get('/api/audio-lectures/000000?track=../../etc').status_code == 400
@@ -185,7 +191,7 @@ def test_world_history_manifest_and_spoken_lectures():
     plan = json.loads((WORLD_HISTORY_DIRECTORY / 'track.json').read_text())
     rows = plan['lectures']
     assert plan['id'] == 'world-history'
-    assert [row['id'] for row in rows] == ['001000', '002000', '003000', '004000', '005000', '006000', '007000', '008000', '009000', '010000', '011000', '012000', '013000', '014000', '015000', '016000', '017000', '018000', '019000', '020000', '021000', '022000', '023000', '024000', '025000', '026000', '027000', '028000', '029000', '030000', '031000', '032000', '033000', '034000', '035000', '036000', '037000', '038000']
+    assert [row['id'] for row in rows] == ['001000', '002000', '003000', '004000', '005000', '006000', '007000', '008000', '009000', '010000', '011000', '012000', '013000', '014000', '015000', '016000', '017000', '018000', '019000', '020000', '021000', '022000', '023000', '024000', '025000', '026000', '027000', '028000', '029000', '030000', '031000', '032000', '033000', '034000', '035000', '036000', '037000', '038000', '039000', '040000', '041000']
     assert len({row['id'] for row in rows}) == len(rows)
     assert {row['file'] for row in rows} == {
         path.name for path in WORLD_HISTORY_DIRECTORY.glob('[0-9]' * 6 + '-*.md')
@@ -218,10 +224,10 @@ def test_world_history_reader_api_and_isolated_audio(tmp_path):
     with TestClient(create_app(renders, audio_library=hub)) as client:
         tracks = client.get('/api/audio-tracks').json()['tracks']
         world = next(row for row in tracks if row['id'] == 'world-history')
-        assert world['count'] == 38
+        assert world['count'] == 41
         assert world['url'] == '/audio?track=world-history'
         catalog = client.get('/api/audio-lectures?track=world-history').json()['items']
-        assert [row['id'] for row in catalog] == ['001000', '002000', '003000', '004000', '005000', '006000', '007000', '008000', '009000', '010000', '011000', '012000', '013000', '014000', '015000', '016000', '017000', '018000', '019000', '020000', '021000', '022000', '023000', '024000', '025000', '026000', '027000', '028000', '029000', '030000', '031000', '032000', '033000', '034000', '035000', '036000', '037000', '038000']
+        assert [row['id'] for row in catalog] == ['001000', '002000', '003000', '004000', '005000', '006000', '007000', '008000', '009000', '010000', '011000', '012000', '013000', '014000', '015000', '016000', '017000', '018000', '019000', '020000', '021000', '022000', '023000', '024000', '025000', '026000', '027000', '028000', '029000', '030000', '031000', '032000', '033000', '034000', '035000', '036000', '037000', '038000', '039000', '040000', '041000']
         for item in catalog:
             detail = client.get(f"/api/audio-lectures/{item['id']}?track=world-history").json()
             assert detail['page_count'] > 20

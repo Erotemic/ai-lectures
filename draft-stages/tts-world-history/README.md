@@ -70,6 +70,10 @@ These lectures share a browsing section but do not depend on listening order:
 - **037000 · The Popol Wuj: How a Maya Book Survived** — K'iche' authorship and colonial copying, Ximenez's bilingual manuscript, contested provenance, editorial decisions, and the scholarship of Sam Colop and others.
 - **038000 · Finding Mali's Trade Networks in the Ground** — Jenne-jeno urbanism, Tadmekka gold-working equipment, Timbuktu manuscripts, and how archaeologists check medieval trade narratives.
 
+- **039000 · Deciphering Maya Writing** — Knorozov, Proskouriakoff, Berlin, Stuart, and living-language approaches to identifying political history in inscriptions.
+- **040000 · Finding Voyagers** — Lapita excavation and dating, Teouma, Vanuatu ancient DNA, and evidence from traditional navigators and experimental voyaging.
+- **041000 · Olduvai and Laetoli** — fossil context, volcanic dating, tool/bone associations, named field contributors, and the reanalysis of footprint trails.
+
 These lectures include named original contributors in the spoken narrative when
 supported by the source record. Each also has non-spoken attribution and
 research notes; the metadata link cards point to original methods, field
