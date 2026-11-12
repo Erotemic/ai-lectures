@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-sznagy.md",
+  "related_resources": [
+    {
+      "source_id": "history-sznagy-bio",
+      "reason": "Academy verified dates, degree, Leipzig study, and institutional appointments."
+    },
+    {
+      "source_id": "history-sznagy-szeged",
+      "reason": "Szeged school and research across spectra, Fourier analysis, and operators."
+    },
+    {
+      "source_id": "history-sznagy-szeged-biography",
+      "reason": "Additional local biographical account and family history."
+    },
+    {
+      "source_id": "history-sznagy-szeged-city",
+      "reason": "City record of teaching career and Szeged institutional history."
+    },
+    {
+      "source_id": "history-sznagy-obituary-1999",
+      "reason": "Contemporary memorial context on teaching and the Szeged mathematical community."
+    },
+    {
+      "source_id": "history-sznagy-simon-kato",
+      "reason": "Precise historical context for the 1947 close-projection theorem, Rellich, and Kato."
+    },
+    {
+      "source_id": "history-sznagy-primary",
+      "reason": "Original 1946/47 paper and its journal issue record for further historical reading."
+    },
+    {
+      "source_id": "history-sznagy-1953-acta",
+      "reason": "The original theorem, particularly Theorem I on printed page 88."
+    },
+    {
+      "source_id": "history-sznagy-1955-schaffer",
+      "reason": "Direct constructive follow-up differentiating one-step and all-powers dilations."
+    },
+    {
+      "source_id": "history-sznagy-acta-history",
+      "reason": "The 1953 paper, Acta Szeged and the joint contraction-theory program."
+    },
+    {
+      "source_id": "history-sznagy-riesz-preface",
+      "reason": "The coauthors’ own division of labor and teaching origins of their 1952 book."
+    },
+    {
+      "source_id": "history-sznagy-foias-xi",
+      "reason": "Later joint primary paper within the numbered research series."
+    },
+    {
+      "source_id": "history-sznagy-foias-book",
+      "reason": "Original French and English-language publication history of the model-theory book."
+    },
+    {
+      "source_id": "history-sznagy-springer-book",
+      "reason": "Modern full study of unitary dilation, defect spaces and Sz.-Nagy–Foiaș models."
+    },
+    {
+      "source_id": "history-sznagy-dilation-wiki",
+      "reason": "Accessible construction and theorem statement beyond the scalar and shift examples."
+    },
+    {
+      "source_id": "history-sznagy-contraction-wiki",
+      "reason": "Reference for defects, contraction classes and unitary direct summands."
+    },
+    {
+      "source_id": "history-sznagy-photo-mta",
+      "reason": "Archived portrait with photographer identification; future slide asset must be rights-checked."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "013000-h01",
+      "anchor": "In nineteen fifty-three, he proved that every contraction on a Hilbert space can be represented through the powers of a unitary operator on a suitably larger Hilbert space.",
+      "kind": "mathematical_priority",
+      "source_ids": [
+        "history-sznagy-1953-acta"
+      ],
+      "source_locator": "Printed p. 88, Théorème I, formula (1)",
+      "audit_status": "primary_passage_confirmed",
+      "verification": {
+        "reviewer": "GPT-6",
+        "checked_on": "2026-11-12",
+        "primary_locator": "Acta Sci. Math. 15 (1953), printed p. 88, Théorème I and formula (1); original journal PDF page 2 inspected"
+      }
+    },
+    {
+      "id": "013000-h02",
+      "anchor": "In his nineteen forty-seven work on self-adjoint perturbations, Szőkefalvi-Nagy made a major contribution to this problem.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "history-sznagy-primary",
+        "history-sznagy-simon-kato"
+      ],
+      "source_locator": "Comment. Math. Helv. 19 (1946/47), 347–366; Simon (2018), discussion of unitary relation of close projections",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "013000-h03",
+      "anchor": "In nineteen thirty-six Szőkefalvi-Nagy completed his qualification to teach mathematics and physics.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-sznagy-bio",
+        "history-sznagy-szeged-biography"
+      ],
+      "source_locator": "MTA academic biography, education",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "013000-h04",
+      "anchor": "Szőkefalvi-Nagy's early book, published in nineteen forty-two, concerned the spectral representation of linear transformations on Hilbert space.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-sznagy-szeged",
+        "history-sznagy-simon-kato"
+      ],
+      "source_locator": "Spektraldarstellung linearer Transformationen des Hilbertschen Raumes (1942)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "013000-h05",
+      "anchor": "In nineteen forty-eight he became a professor and departmental leader at the University of Szeged, a position he held until his retirement in nineteen eighty-three.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-sznagy-szeged-city"
+      ],
+      "source_locator": "Municipal honorary citizen record, academic appointments",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "013000-h06",
+      "anchor": "In nineteen fifty-two, he and Frigyes Riesz published Leçons d'analyse fonctionnelle, a large text on functional analysis.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-sznagy-riesz-preface"
+      ],
+      "source_locator": "1952 first edition and co-authored preface",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "013000-h07",
+      "anchor": "Their joint work led to a sequence of papers and to a major book published in French in nineteen sixty-seven, later known in English as Harmonic Analysis of Operators on Hilbert Space.",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-sznagy-foias-book",
+        "history-sznagy-acta-history"
+      ],
+      "source_locator": "1967 French book, distinct 1970 English edition",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "013000-h08",
+      "anchor": "He received several major honors, including the Lomonosov Gold Medal in nineteen seventy-nine.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-sznagy-szeged-city",
+        "history-sznagy-bio",
+        "history-sznagy-szeged-biography"
+      ],
+      "source_locator": "Career honors in university and municipal accounts",
+      "audit_status": "pending_primary_passage_comparison"
+    }
+  ]
+}

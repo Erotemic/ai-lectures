@@ -1,27 +1,28 @@
 # History · People and ideas
 
-The playable History track contains **fourteen researched long-form biographies**:
+The playable History track contains **fifteen researched long-form biographies**:
 Camille Jordan, Lord Rayleigh, Walther Ritz, Hermann Weyl, Richard Courant,
 Ernst Fischer, David Hilbert, Frigyes Riesz, John von Neumann, Robert Schatten,
-Ky Fan, Tosio Kato, Chandler Davis, and William Kahan.
+Ky Fan, Béla Szőkefalvi-Nagy, Tosio Kato, Chandler Davis, and William Kahan.
 
-The expanded **Ky Fan** lecture (`012000`) contains **5,758 spoken words**
-(approximately **39.7 minutes** at 145 words per minute).
-It follows Fan's life and institutions, his 1949–1951 response to Weyl and
-compact-operator extrema, singular-value partial sums and their geometric
-meaning, majorization, finite-matrix dominance across unitarily invariant
-norms, a variational triangle-inequality argument, and his distinct research
-in fixed-point and minimax theory. The final sections cover his teaching,
-mathematical exchange, and philanthropy. A display-only companion contains
-exact formulas, explicit counterexamples, primary publication dates, and
-source references.
+The expanded **Béla Szőkefalvi-Nagy** lecture (`013000`) has **6,224 spoken
+words** (approximately **42.9 minutes** at 145 words per minute). It
+follows his life in Kolozsvár and Szeged, the 1947 perturbation and nearby-
+projection construction, the 1953 unitary power-dilation theorem, exact
+examples of one-step failure and all-powers success, defect operators,
+Fourier moments, von Neumann's inequality, the Sz.-Nagy–Foiaș program, and
+his collaboration with Riesz. A display-only companion contains the proofs,
+calculations, and source chronology.
 
-The lectures stand alone for their intended mathematical audience. They do
-not require listening to neighboring episodes in order, and TTS extraction
-excludes companion mathematics. Estimated lengths across the track range
-roughly **27–41 minutes** at 145 spoken words per minute; synthesized length
-varies by voice and settings.
+The Ky Fan lecture (`012000`) has **5,758 spoken words**, approximately **39.7
+minutes** at 145 words per minute, and covers spectral inequalities,
+majorization, and minimax theory.
 
-The remaining **fourteen short sketches** are retained in `stubs/`, excluded
-from the audio catalog until researched and expanded. The stable historical
-IDs are preserved, including gaps in the playable track.
+All recordings stand alone for their mathematical audience. TTS extraction
+excludes display-only mathematics and reading metadata. Estimated portrait
+lengths are approximately **27–43 minutes** at 145 words per minute;
+synthesized duration varies by voice and settings.
+
+The remaining **thirteen short sketches** are retained in `stubs/`, excluded
+from the playable track until researched and expanded. Stable historical IDs
+are preserved, including gaps in the playable sequence.

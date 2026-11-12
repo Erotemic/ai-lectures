@@ -254,25 +254,28 @@
       "notes": "Background on the mathematical concept explained in the Ky Fan lecture."
     },
     "history-sznagy-bio": {
-      "title": "Béla Szőkefalvi-Nagy — biographical or contributor record",
-      "kind": "biography_or_author_record",
-      "url": "https://en.wikipedia.org/wiki/B%C3%A9la_Sz%C5%91kefalvi-Nagy",
+      "title": "Hungarian Academy of Sciences — Béla Szőkefalvi-Nagy",
+      "kind": "institutional_biography",
+      "url": "https://akademikus.mtak.hu/adatlap/szokefalvi-nagy-bela/",
       "access": "free_no_login",
-      "notes": "Person-specific source for Béla Szőkefalvi-Nagy; for living contributors some records document authorship rather than personal biography."
+      "format": "html",
+      "notes": "Official birth/death dates, degrees, Leipzig study, and academy roles; Hungarian-language institutional authority."
     },
     "history-sznagy-primary": {
-      "title": "Béla Szőkefalvi-Nagy — Mathematical context and introductory reading",
-      "kind": "mathematical_exposition",
-      "url": "https://en.wikipedia.org/wiki/Projection_(linear_algebra)",
+      "title": "Sz.-Nagy, Perturbations des transformations autoadjointes dans l’espace de Hilbert (1946/47)",
+      "kind": "historical_primary_publication",
+      "url": "https://www.e-periodica.ch/cntmng?pid=com-001%3A1946%3A19%3A%3A4",
       "access": "free_no_login",
-      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+      "format": "pdf",
+      "notes": "Original journal-volume table of contents identifies the paper at p. 347, Comment. Math. Helv. 19, 347–366. The projection-intertwiner attribution is corroborated by Simon 2018; direct theorem passage not audited."
     },
     "history-sznagy-topic": {
       "title": "Unitary operator",
-      "kind": "accessible_topic_reference",
+      "kind": "encyclopedia_article",
       "url": "https://en.wikipedia.org/wiki/Unitary_operator",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the Béla Szőkefalvi-Nagy lecture."
+      "format": "html",
+      "notes": "Accessible meaning of unitarity and examples; introduction rather than an historical primary document."
     },
     "history-halmos-bio": {
       "title": "Paul Halmos — biographical or contributor record",
@@ -1575,6 +1578,134 @@
       "url": "https://doi.org/10.1007/s11464-011-0097-x",
       "access": "free_no_login",
       "notes": "Peer-reviewed historical survey across matrix inequalities, topology, nonlinear functional analysis and mathematical exchange."
+    },
+    "history-sznagy-szeged": {
+      "title": "University of Szeged — Bolyai Institute history, Béla Szőkefalvi-Nagy",
+      "kind": "institutional_history",
+      "url": "https://www.math.u-szeged.hu/mathweb/index.php/en/erdekessegek/a-bolyai-intezet-toertenete",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "University account of the 1942 monograph, Riesz and Haar school, Foias collaboration, and broader analysis work."
+    },
+    "history-sznagy-szeged-biography": {
+      "title": "University of Szeged library — Szőkefalvi-Nagy Béla",
+      "kind": "institutional_biography",
+      "url": "https://edu.ek.szte.hu/szegedi-tudosok-a-halozatban/a-szegedi-matematikai-iskola/a-szegedi-matematikai-iskola-matematikus-kislexikon2/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Szeged educational library record of family, moves, university training, posts and honors."
+    },
+    "history-sznagy-szeged-city": {
+      "title": "City of Szeged — honorary citizen Dr. Béla Szőkefalvi-Nagy",
+      "kind": "institutional_biography",
+      "url": "https://www.szegedvaros.hu/diszpolgarok/dr-szokefalvi-nagy-bela-akademikus",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Municipal record of 1929 move, university teaching, and 1948–1983 departmental appointment."
+    },
+    "history-sznagy-obituary-1999": {
+      "title": "Ákos Császár, memorial for Béla Szőkefalvi-Nagy (1999)",
+      "kind": "historical_obituary",
+      "url": "https://www.termvil.hu/archiv/tv99/tv9903/szokefalvi.html",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Contemporary Hungarian-language memorial; notes family move, Szeged mathematics and research breadth."
+    },
+    "history-sznagy-simon-kato": {
+      "title": "Barry Simon, Tosio Kato’s work on non-relativistic quantum mechanics: part 1 (2018)",
+      "kind": "historical_mathematical_review",
+      "url": "https://link.springer.com/article/10.1007/s13373-018-0118-0",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Open mathematical history explicitly attributes the close-projection unitary construction to Sz.-Nagy 1947 and distinguishes Rellich and later Kato."
+    },
+    "history-sznagy-1953-acta": {
+      "title": "Sz.-Nagy, Sur les contractions de l’espace de Hilbert, Acta Sci. Math. 15, 87–92 (1953)",
+      "kind": "historical_primary_publication",
+      "url": "https://acta.bibl.u-szeged.hu/13732/1/math_015_087-092.pdf",
+      "access": "free_no_login",
+      "format": "pdf",
+      "notes": "Theorem I on printed p. 88 explicitly states unitary powers compress to all nonnegative powers of a contraction. Inspected original page images. Some repositories categorize volume 15 as 1954."
+    },
+    "history-sznagy-1953-archive": {
+      "title": "Hungarian Academy REAL archive — Sur les contractions de l’espace de Hilbert",
+      "kind": "primary_bibliographic_record",
+      "url": "https://real.mtak.hu/212287/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Institutional manuscript listing, vol. 15 pp. 87–92; digital catalogue uses 1954 while contemporaneous cross-references and standard histories use 1953."
+    },
+    "history-sznagy-1955-schaffer": {
+      "title": "J. J. Schaffer, On Unitary Dilations of Contractions (1955)",
+      "kind": "historical_primary_publication",
+      "url": "https://www.ams.org/proc/1955-006-02/S0002-9939-1955-0068740-7/S0002-9939-1955-0068740-7.pdf",
+      "access": "free_no_login",
+      "format": "pdf",
+      "notes": "Direct subsequent constructive proof, explicitly distinguishes Sz.-Nagy all-powers result from Halmos single-step dilation; AMS Proc. 6 (1955), 322."
+    },
+    "history-sznagy-acta-history": {
+      "title": "Lajos Molnár, 100 years of Acta Szeged (EMS Magazine)",
+      "kind": "historical_mathematical_review",
+      "url": "https://euromathsoc.org/magazine/articles/113",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Historical university-journal context, 1953 power theorem, 1958 collaboration and the 1967 book."
+    },
+    "history-sznagy-riesz-preface": {
+      "title": "MacTutor — Frigyes Riesz books and 1952 coauthored Leçons preface",
+      "kind": "historical_book_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Riesz_books/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Translated original 1952 book preface explicitly says Riesz principally wrote Part I and Sz.-Nagy principally wrote Part II; documents revisions and 1955 English edition."
+    },
+    "history-sznagy-foias-xi": {
+      "title": "Sz.-Nagy and Foiaș, Sur les contractions de l’espace de Hilbert XI (1965)",
+      "kind": "historical_primary_publication",
+      "url": "https://real.mtak.hu/212300/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Collaborative paper in Acta Sci. Math. 26 (1965), 301–324, documents later joint program."
+    },
+    "history-sznagy-foias-book": {
+      "title": "Sz.-Nagy–Foiaș, Analyse harmonique (1967) and English edition (1970)",
+      "kind": "historical_book_record",
+      "url": "https://ci.nii.ac.jp/ncid/BA61575972",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Library bibliographic record distinguishes the 1967 French original and 1970 revised English edition."
+    },
+    "history-sznagy-springer-book": {
+      "title": "Sz.-Nagy, Foiaș, Bercovici and Kérchy, Harmonic Analysis of Operators on Hilbert Space (2010)",
+      "kind": "modern_reference",
+      "url": "https://link.springer.com/book/10.1007/978-1-4419-6094-8",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Second expanded edition, modern operator model theory and dilation; bibliographic and chapter overview."
+    },
+    "history-sznagy-dilation-wiki": {
+      "title": "Sz.-Nagy’s dilation theorem",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Sz.-Nagy%27s_dilation_theorem",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Accessible theorem statement and constructive proof, useful entry after the narrated examples."
+    },
+    "history-sznagy-contraction-wiki": {
+      "title": "Contraction (operator theory)",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Contraction_%28operator_theory%29",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Introductory defect operators, dilation and unitary versus completely non-unitary parts."
+    },
+    "history-sznagy-photo-mta": {
+      "title": "Hungarian Academy archive — Béla Szőkefalvi-Nagy photograph (1982)",
+      "kind": "historical_portrait_record",
+      "url": "https://real-i.mtak.hu/2495/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Photo credit: Zsuzsa G. Fábri, Hungarian Academy collection, 1982. Image not included; verify reuse rights before presentation use."
     }
   }
 }
