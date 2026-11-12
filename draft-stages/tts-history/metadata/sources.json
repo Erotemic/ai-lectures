@@ -212,25 +212,25 @@
       "notes": "Explains von Neumann 1937 characterization of unitarily invariant norms using symmetric gauges."
     },
     "history-schatten-bio": {
-      "title": "Robert Schatten — biographical or contributor record",
+      "title": "Robert Schatten (1911–1977) — MacTutor, based on Elliott W. Cheney memorial",
       "kind": "biography_or_author_record",
-      "url": "https://en.wikipedia.org/wiki/Robert_Schatten",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Schatten/",
       "access": "free_no_login",
-      "notes": "Person-specific source for Robert Schatten; for living contributors some records document authorship rather than personal biography."
+      "notes": "Former-student reminiscences, academic career, training injury, World War II family losses, and crossnorm contributions."
     },
     "history-schatten-primary": {
-      "title": "Robert Schatten — Primary mathematical source",
+      "title": "Schatten, A Theory of Cross-Spaces — original 1950 volume (JSTOR)",
       "kind": "historical_primary_or_exposition",
-      "url": "https://press.princeton.edu/books/paperback/9780691083964/a-theory-of-cross-spaces",
-      "access": "free_no_login",
-      "notes": "Publication, historical account, or relevant expository discussion; check its role before citing a priority claim."
+      "url": "https://www.jstor.org/stable/j.ctt1b9rzn0",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Original monograph copyright 1950; modern Princeton paperback catalog lists 1985 reissue."
     },
     "history-schatten-topic": {
-      "title": "Schatten norm",
+      "title": "Schatten class — modern introductory overview",
       "kind": "accessible_topic_reference",
       "url": "https://en.wikipedia.org/wiki/Schatten_norm",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the Robert Schatten lecture."
+      "notes": "Terminology and basic S_p norm formulas; not an authority for biographical priority."
     },
     "history-fan-bio": {
       "title": "Ky Fan — biographical or contributor record",
@@ -1351,6 +1351,118 @@
       "url": "https://www.ias.edu/von-neumann",
       "access": "free_no_login",
       "notes": "IAS project and broader applications of fast digital computers, including weather modelling."
+    },
+    "history-schatten-archival": {
+      "title": "Maligranda and Prytuła, Rubin (Robert) Schatten (1911–1977), Antiquitates Mathematicae 17 (2023)",
+      "kind": "scholarly_historical_research",
+      "url": "https://www.diva-portal.org/smash/get/diva2%3A1849851/FULLTEXT01.pdf",
+      "access": "free_no_login",
+      "notes": "Archival Lwów university records; Banach 1933 thesis; 1936/1938 immigration; wartime history, US appointments, manuscripts, publication bibliography and mentoring."
+    },
+    "history-schatten-archival-doi": {
+      "title": "Maligranda and Prytuła, Rubin (Robert) Schatten, journal DOI",
+      "kind": "scholarly_historical_research",
+      "url": "https://doi.org/10.14708/am.v17i1.7273",
+      "access": "free_no_login",
+      "notes": "Journal record for the 2023 archival study, independent of its full-text mirror."
+    },
+    "history-schatten-ias": {
+      "title": "Institute for Advanced Study — Robert Schatten scholar record",
+      "kind": "institutional_record",
+      "url": "https://www.ias.edu/scholars/robert-schatten",
+      "access": "free_no_login",
+      "notes": "Membership visits 1944–1946, 1950–1951 and 1952–1953; Columbia doctorate listed as 1942."
+    },
+    "history-schatten-1943-product": {
+      "title": "Schatten, On the Direct Product of Banach Spaces (1943)",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1090/S0002-9947-1943-0007568-7",
+      "access": "free_no_login",
+      "notes": "Original Trans. Amer. Math. Soc. 53 (1943), 195–217; early mathematical crossnorm research."
+    },
+    "history-schatten-1943-reflexive": {
+      "title": "Schatten, On Reflexive Norms for the Direct Product of Banach Spaces (1943)",
+      "kind": "historical_primary",
+      "url": "https://www.jstor.org/stable/1990258",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Original Trans. Amer. Math. Soc. 54 (1943), 498–506, confirming the second 1943 paper."
+    },
+    "history-schatten-1946-first": {
+      "title": "Schatten, The Cross-Space of Linear Transformations (1946), part I",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.2307/1969036",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Original Ann. of Math. 47 (1946), 73–84; sole author Robert Schatten."
+    },
+    "history-schatten-1946-dunford": {
+      "title": "Dunford and Schatten, On the Associate and Conjugate Space for the Direct Product of Banach Spaces (1946)",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.2307/1990265",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Original Trans. Amer. Math. Soc. 59 (1946), 430–436; joint author attribution."
+    },
+    "history-schatten-1946-vonneumann": {
+      "title": "Schatten and von Neumann, The Cross-Space of Linear Transformations II (1946)",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.2307/1969096",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Original Ann. of Math. 47 (1946), 608–630; joint work on cross-spaces and transformations."
+    },
+    "history-schatten-1948-vonneumann": {
+      "title": "Schatten and von Neumann, The Cross-Space of Linear Transformations III (1948)",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.2307/1969045",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Original Ann. of Math. 49 (1948), 557–582; sequel to 1946 collaboration."
+    },
+    "history-schatten-1947-projection": {
+      "title": "Schatten, On Projections with Bound 1 (1947)",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.2307/1969173",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Original Ann. of Math. 48 (1947), 321–325; projection norm one and tensor crossnorm extension."
+    },
+    "history-schatten-1950-sequences": {
+      "title": "Schatten, Closing-Up of Sequence Spaces (1950)",
+      "kind": "historical_primary",
+      "url": "https://www.tandfonline.com/toc/uamm20/57/9",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Original American Mathematical Monthly 57 (1950), 603–616; completion of finitely supported sequence spaces."
+    },
+    "history-schatten-princeton": {
+      "title": "Princeton University Press — A Theory of Cross-Spaces",
+      "kind": "publisher_record",
+      "url": "https://press.princeton.edu/books/paperback/9780691083964/a-theory-of-cross-spaces",
+      "access": "free_no_login",
+      "notes": "Publisher catalog for a 1985 reissue of the 1950 original; distinguish reprint from original publication date."
+    },
+    "history-schatten-1960-book": {
+      "title": "Schatten, Norm Ideals of Completely Continuous Operators (1960)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://link.springer.com/book/10.1007/978-3-642-87652-3",
+      "access": "free_no_login",
+      "notes": "Publisher record for original 1960 Springer monograph, operator ideals and their norm theory."
+    },
+    "history-schatten-1957-compact": {
+      "title": "Schatten, The Space of Completely Continuous Operators on a Hilbert Space (1957)",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1007/BF01342831",
+      "access": "free_no_login",
+      "notes": "Original Math. Ann. 134 (1957), 47–49; compact-operator space geometry."
+    },
+    "history-schatten-operator-background": {
+      "title": "Schatten-p spaces and matrix gauges — specialist mathematical exposition",
+      "kind": "mathematical_background",
+      "url": "https://www.its.caltech.edu/~oeh/thesis_final.pdf",
+      "access": "free_no_login",
+      "notes": "Finite matrix symmetric-gauge characterization, 1937 von Neumann attribution and later Schatten class formulation."
+    },
+    "history-schatten-vonneumann-1937": {
+      "title": "Von Neumann, Some Matrix Inequalities and Metrization of Matrix Space (1937)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://netlib.org/bibnet/authors/v/von-neumann-john.html",
+      "access": "free_no_login",
+      "notes": "Bibliographic reference confirming von Neumann 1937 priority; does not credit the matrix gauge theorem exclusively to Schatten."
     }
   }
 }

@@ -122,6 +122,10 @@ def test_history_track_manifest_references_and_speech_extraction():
     plan = json.loads((HISTORY_DIRECTORY / 'track.json').read_text(encoding='utf-8'))
     rows = plan['lectures']
     assert len(rows) >= 4
+    # A promoted history biography must be playable and no longer archived.
+    assert {'009000', '011000'} <= {row['id'] for row in rows}
+    assert not (HISTORY_DIRECTORY / 'stubs' / '009000-riesz.md').exists()
+    assert not (HISTORY_DIRECTORY / 'stubs' / '011000-schatten.md').exists()
     assert len({row['id'] for row in rows}) == len(rows)
     assert len({row['person'] for row in rows}) == len(rows)
     assert len(list(HISTORY_DIRECTORY.glob('[0-9]'*6 + '-*.md'))) == len(rows)
@@ -185,7 +189,7 @@ def test_world_history_manifest_and_spoken_lectures():
     plan = json.loads((WORLD_HISTORY_DIRECTORY / 'track.json').read_text())
     rows = plan['lectures']
     assert plan['id'] == 'world-history'
-    assert [row['id'] for row in rows] == ['001000', '002000', '003000', '004000', '005000', '006000', '007000', '008000', '009000', '010000', '011000', '012000', '013000', '014000', '015000', '016000', '017000', '018000', '019000', '020000', '021000', '022000', '023000', '024000', '025000', '026000', '027000', '028000']
+    assert [row['id'] for row in rows] == ['001000', '002000']
     assert len({row['id'] for row in rows}) == len(rows)
     assert {row['file'] for row in rows} == {
         path.name for path in WORLD_HISTORY_DIRECTORY.glob('[0-9]' * 6 + '-*.md')
@@ -218,16 +222,17 @@ def test_world_history_reader_api_and_isolated_audio(tmp_path):
     with TestClient(create_app(renders, audio_library=hub)) as client:
         tracks = client.get('/api/audio-tracks').json()['tracks']
         world = next(row for row in tracks if row['id'] == 'world-history')
-        assert world['count'] == 28
+        assert world['count'] == 2
         assert world['url'] == '/audio?track=world-history'
         catalog = client.get('/api/audio-lectures?track=world-history').json()['items']
-        assert [row['id'] for row in catalog] == ['001000', '002000', '003000', '004000', '005000', '006000', '007000', '008000', '009000', '010000', '011000', '012000', '013000', '014000', '015000', '016000', '017000', '018000', '019000', '020000', '021000', '022000', '023000', '024000', '025000', '026000', '027000', '028000']
-        for item in catalog:
-            detail = client.get(f"/api/audio-lectures/{item['id']}?track=world-history").json()
-            assert detail['page_count'] > 20
-            assert len(detail['related_resources']) >= 3
-            transcript = client.get(f"/api/audio-lectures/{item['id']}/transcript.txt?track=world-history").text
-            assert transcript == detail['transcript']
+        assert [row['id'] for row in catalog] == ['001000', '002000']
+        gilgamesh = client.get('/api/audio-lectures/001000?track=world-history').json()
+        mary = client.get('/api/audio-lectures/002000?track=world-history').json()
+        assert gilgamesh['page_count'] > 20 and mary['page_count'] > 20
+        assert len(gilgamesh['related_resources']) >= 3
+        assert len(mary['related_resources']) >= 3
+        assert client.get('/api/audio-lectures/001000/transcript.txt?track=world-history').text == gilgamesh['transcript']
+        assert client.get('/api/audio-lectures/002000/transcript.txt?track=world-history').text == mary['transcript']
         assert client.get('/api/audio-lectures?track=world-history/../../').status_code == 400
         assert hub.engine('kokoro', 'world-history').cache != hub.engine('kokoro', 'history').cache
         assert hub.engine('kokoro', 'world-history').cache != hub.engine('kokoro', 'g2').cache
