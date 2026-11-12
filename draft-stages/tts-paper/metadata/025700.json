@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025700",
+  "source_g2": null,
+  "transcript": "025700-the-matching-proof-ii-block-costs-and-the-trace-norm-limit.md",
+  "historical_claims": [],
+  "related_resources": [
+    {
+      "source_id": "wiki-orthogonal-matrix",
+      "reason": "Eigenvalues of real orthogonal matrices in conjugate pairs and the determinant cases used for two-angle blocks."
+    },
+    {
+      "source_id": "wiki-matching-graph",
+      "reason": "Maximum-weight matching, the finite problem left after the block costs are computed."
+    },
+    {
+      "source_id": "wiki-schatten-norm",
+      "reason": "Schatten p-norms between 1 and 2, used to smooth the trace norm before passing to the limit."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005500",
+  "source_g2": null,
+  "transcript": "005500-nonacute-pairs-and-the-squared-rotation.md",
+  "historical_claims": [
+    {
+      "id": "005500-h01",
+      "anchor": "First, Davis and Kahan's Proposition 3.2: for an arbitrary pair of closed subspaces, a direct rotation exists if and only if the two defect spaces have the same dimension.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Proposition 3.2 and equation (3.5)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "005500-h02",
+      "anchor": "After proving Proposition 3.2, Davis and Kahan adopt a standing convention for the rest of the paper",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 3, standing convention after the proof of Proposition 3.2",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "005500-h03",
+      "anchor": "Davis and Kahan's Proposition 3.4 states the general version.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Proposition 3.4",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "005500-h04",
+      "anchor": "Proposition 3.3 accepts such a square root as a direct rotation exactly when it carries the source defect onto the target defect.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Proposition 3.3 (converse)",
+      "audit_status": "pending_primary_passage_comparison"
+    }
+  ],
+  "related_resources": [
+    {
+      "source_id": "halmos-1969",
+      "reason": "The defect subspaces and generic part used to build and parametrize direct rotations."
+    },
+    {
+      "source_id": "bottcher-spitkovsky-2010",
+      "reason": "Survey of two-projection theory, including when two projections are unitarily equivalent and the role of the defect dimensions."
+    },
+    {
+      "source_id": "wiki-unitary-rotation",
+      "reason": "Planar rotations and reflections: the plus-or-minus ninety degree choices and the double-angle composition used here."
+    }
+  ]
+}

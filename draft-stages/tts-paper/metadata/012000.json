@@ -1,45 +1,42 @@
 {
   "schema_version": 1,
   "lecture_id": "012000",
-  "source_g2": "093000",
+  "source_g2": null,
+  "transcript": "012000-unbounded-sylvester-identities-and-cutoffs.md",
+  "historical_claims": [
+    {
+      "id": "012000-h01",
+      "anchor": "Davis and Kahan state the requirement explicitly for half-infinite spectral intervals",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Appendix to Section 6, unbounded sine passage",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "012000-h02",
+      "anchor": "A lemma about such near-maximizing projections, Lemma 6.3, controls the error they leave behind.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Appendix to Section 6, equations (6.7)-(6.11), and Lemma 6.3",
+      "audit_status": "pending_primary_passage_comparison"
+    }
+  ],
   "related_resources": [
     {
-      "source_id": "higham-sylvester",
-      "reason": "Matrix Sylvester equation; note the lecture-specific operator norm and spectral-gap conditions."
-    },
-    {
-      "source_id": "rosenblum-1956",
-      "reason": "Primary paper on the operator equation and disjoint spectra; comparison resource, not a verified source check."
-    },
-    {
-      "source_id": "kato-1995",
-      "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
-    },
-    {
-      "source_id": "teschl-qm-free",
-      "reason": "Use the full free text for spectral calculus and domains of unbounded self-adjoint operators."
-    },
-    {
-      "source_id": "bell-unbounded-operators",
-      "reason": "Follow the concrete graph/domain argument and the unbounded adjoint definition."
-    },
-    {
-      "source_id": "bell-sturm-liouville",
-      "reason": "Relate differential-operator spectra to integral-operator reductions and boundary conditions."
-    },
-    {
-      "source_id": "wiki-closed-operator",
-      "reason": "Graph closedness and its role in passing to limits of domain vectors."
-    },
-    {
       "source_id": "wiki-unbounded-operator",
-      "reason": "Unbounded-domain precautions for the Sylvester identity."
+      "reason": "Adjoints of unbounded operators and the domain of the adjoint, used in the duality test."
     },
     {
       "source_id": "wiki-strong-operator-topology",
-      "reason": "Strong convergence of spectral cutoffs; this is weaker than operator-norm convergence."
+      "reason": "Strong versus norm convergence of operators; spectral cutoffs converge strongly but not in norm."
+    },
+    {
+      "source_id": "wiki-closed-operator",
+      "reason": "Graph norm and graph-norm convergence for vectors in the domain."
+    },
+    {
+      "source_id": "jordan-bell-pvm",
+      "reason": "Spectral projections for bounded intervals and the resulting bounded truncations."
     }
-  ],
-  "transcript": "012000-domains-and-unbounded-sylvester-identities.md",
-  "historical_claims": []
+  ]
 }

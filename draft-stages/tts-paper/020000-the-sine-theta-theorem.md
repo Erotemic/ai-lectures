@@ -1,110 +1,82 @@
 # 020000 — The sine-theta theorem
 
-**Track:** G3 audio paper track. **Draft:** adapted from G2 lecture 110000. **Section:** angle-theorems. **Audience:** prior linear algebra and basic analysis.
+**Track:** G3 audio paper track. **Draft:** new G3 lecture, 12 November 2026. **Section:** sine-theta. **Audience:** the angle operator and its modulus identity; exact decompositions and trial residuals; the three gap shapes; Theorems 5.1 and 5.2; operator-ideal norms.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# The single-angle sine theorem
+The sine-theta theorem
 
-Suppose A is self-adjoint, U is an exact reducing subspace, and V is a trial subspace whose vectors nearly satisfy the operator equation for a trial operator. How does the failure of that equation control the angle from V to U? The Davis–Kahan sine theorem answers using the residual and the spectral separation between the trial operator and A on the unwanted complement. A sharp constant-one inequality requires a gap hypothesis that supports a corresponding Sylvester bound.
+This is the theorem the paper is built around. Everything in the course so far has been preparation for stating it with all of its hypotheses and proving it in a way a reader can reconstruct. The statement is short: delta times the size of the sine of the angle is at most the size of the residual. The content lies in what the angle is, what the residual is, what delta separates, and which sizes are allowed.
 
-We will state the isometric version first, prove it directly, verify sharpness in the plane, and then explain the more general normalization and unbounded-operator forms.
+Here is the plan. First, the statement in full, every hypothesis spoken in the form one would check. Second, the proof, as three bridges: from the residual to a Sylvester equation, from the gap to a bound on its solution, and from that solution to the sine of the angle. Third, sharpness: a two-dimensional example in which the inequality is an equality at every angle. Fourth, the perturbation form, where the residual is H E zero, and a warning about the difference between the gap delta and an eigenvalue gap of the original operator. Fifth, how the theorem appears in the journal paper, and what it does not claim.
 
-## State the spaces and assumptions
+The statement
 
-Let H be a real or complex Hilbert space, and let A be self-adjoint on H. Choose an exact reducing subspace U with orthogonal projection P. Let F zero and F one be isometric coordinate maps for U and its orthogonal complement, respectively.
+The setting is a separable Hilbert space over the real or the complex numbers. On it there is a self-adjoint operator A hat, the operator under study, which may be unbounded.
 
-On the exact complement, A acts as a self-adjoint operator Lambda one. Choose an isometric trial map E from another Hilbert space F into H. Its range V is the approximate subspace.
+Trial data. There is a coordinate Hilbert space for the trial subspace, an isometry E zero from it into the ambient space, and a self-adjoint operator A zero on the trial coordinates, which may also be unbounded. E zero maps the domain of A zero into the domain of A hat. There is a bounded operator R from trial coordinates into the ambient space that agrees with A hat E zero minus E zero A zero on the domain of A zero. That is the residual.
 
-Choose a self-adjoint trial operator A zero on F. Define R equal to A E minus E A zero, first in the bounded setting. The trial operator may be the Ritz compression, but the theorem also permits a separately chosen operator.
+Exact data. There are isometries F zero and F one from two coordinate spaces into the ambient space, whose ranges are perpendicular and together fill the space: F zero star F one is zero, and F zero F zero star plus F one F one star is the identity. There is a self-adjoint operator Lambda one on the coordinates of F one. F one maps the domain of Lambda one into the domain of A hat, and A hat F one equals F one Lambda one there. The range of F zero is the exact wanted subspace; P exact is its projection, F zero F zero star.
 
-Assume a positive spectral-gap parameter delta for the two operators A zero and Lambda one. In the sharp constant-one version we are proving, the gap must satisfy one of the supported separation conditions, such as the form-ordered gap or the specified interval-and-exterior configuration.
+The angle. The sine of Theta zero is the positive square root of the identity minus E zero star, P exact, E zero, an operator on trial coordinates. Its eigenvalues, when it has them, are the sines of the angles from the trial subspace toward the exact wanted subspace.
 
-For the operator-norm statement, suppose the relevant Sylvester theorem controls the operator norm under that gap. For a symmetric operator ideal, assume additionally that R belongs to the ideal and that the ideal has the Ky Fan dominance and composition properties required by the symmetric-ideal Sylvester estimate.
+The gap. There is a positive number delta, and one of four configurations holds. Either the spectrum of A zero lies in an interval from beta to alpha, and the spectrum of Lambda one does not meet the open interval from beta minus delta to alpha plus delta. Or the same with A zero and Lambda one exchanged. Or, for some number b, A zero is at least b plus delta and Lambda one is at most b, as quadratic forms on their domains. Or A zero is at most b and Lambda one is at least b plus delta.
 
-The conclusion is that delta times the ideal norm of the directed sine of V relative to U is at most the ideal norm of R. The result also asserts that the sine representative belongs to the ideal.
+The norm. N is a normalized symmetric operator-ideal norm with Ky Fan dominance where defined. The operator, Hilbert–Schmidt, trace, Schatten, and Ky Fan norms are examples.
 
-## First step: derive the complementary equation
+The conclusion. If the sine of Theta zero and the residual R both belong to the ideal of N, then delta times N of the sine of Theta zero is at most N of R.
 
-Define X equal to F one adjoint E. The map X measures overlap with the orthogonal complement of the exact subspace: F one adjoint first measures complementary coordinates, then E supplies trial vectors.
+Notice what is not assumed. The trial operator need not be the Rayleigh–Ritz compression; any self-adjoint A zero works, provided the residual and the gap are formed with that same A zero. The wanted block Lambda zero is never mentioned. The trial and exact subspaces need not have the same dimension. And no assumption is made that the exact subspace is a spectral subspace; it only has to reduce A hat, with the gap condition on Lambda one doing the spectral work.
 
-Compress the residual with F one adjoint. Since U is reducing, the complementary action of A is Lambda one. Therefore F one adjoint R equals Lambda one X minus X A zero.
+The proof, in three bridges
 
-We have reached the exact Sylvester equation. Its unknown is X, its right-hand side is the complementary part of the residual, and the two coefficient operators are precisely the operators in the spectral-gap hypothesis.
+The first bridge turns the residual into a Sylvester equation. Let X be F one star E zero: it takes trial coordinates, forms the trial vector, and reads off its coordinates in the unwanted space. Apply F one star to the residual. On the domain of A zero, F one star R equals Lambda one X minus X A zero. For bounded operators this is algebra, using the adjoint of the intertwining identity. For unbounded operators, the duality test shows that X carries the domain of A zero into the domain of Lambda one: pair X x against Lambda one z for z in the domain of Lambda one, move Lambda one across using the intertwining identity and self-adjointness of A hat, and observe that the result is bounded in z.
 
-Picture one trial eigenvector and one unwanted eigenvector, with different eigenvalues. The Sylvester equation multiplies their overlap by the eigenvalue difference to produce the matching residual entry.
+The second bridge turns the gap into a bound on X. In the interval configurations, shift both operators by the center of the interval. The operator in the interval then has norm at most its half-width a, and the operator outside has a bounded inverse of norm at most one over a plus delta. Theorem 5.1 gives delta times N of X at most N of F one star R. In the ordered configurations, the solution of the Sylvester equation is an integral of e to the minus t times the upper operator, times the right-hand side, times e to the t times the lower operator, whose integrand decays like e to the minus t delta; equivalently, filled spectral cutoffs reduce the problem to bounded operators and Lemma 5.1 passes to the limit. Theorem 5.2 gives the same inequality, now with both A zero and Lambda one possibly unbounded. In every case the estimate is first obtained for each Ky Fan norm and then extended to N by Ky Fan dominance.
 
-If the difference is at least delta in magnitude, the residual entry must be at least delta times the overlap. In one dimension, this division is the entire estimate.
+Then the contraction law: F one star has norm at most one, so N of F one star R is at most N of R.
 
-With several trial directions, entries interact in operator norm. The Sylvester theorem gives their collective bound under its stated separation hypotheses. The scalar calculation supplies the picture, while the theorem supplies the matrix estimate.
+The third bridge identifies the size of X with the size of the sine. X star X equals E zero star F one F one star E zero, which is E zero star times the identity minus P exact, times E zero, because F one F one star is the projection onto the complement. That equals the identity minus E zero star P exact E zero, which is the square of the sine of Theta zero. So the modulus of X is the sine of Theta zero, and since a symmetric ideal norm depends only on singular values, N of X equals N of the sine of Theta zero.
 
-This is the critical connection between residual geometry and spectral separation. A small residual alone does not identify a small angle to an arbitrary exact subspace. The gap supplies the information about which complementary modes the residual must overcome.
+Chaining the three: delta times N of the sine of Theta zero equals delta times N of X, which is at most N of F one star R, which is at most N of R. That is the theorem.
 
-## Second step: use spectral separation
+The factor in front of N of R is exactly one. It comes from the window or cut geometry of the gap. Under a distance-only gap, the same chain works in the Hilbert–Schmidt norm with factor one, but in the operator norm the factor must be larger.
 
-Apply the Sylvester estimate appropriate to the stated gap. In the operator-norm case, delta times the norm of X is at most the norm of F one adjoint R.
+Sharpness
 
-In a symmetric ideal, the conclusion includes membership of X and an analogous gauge inequality. We cannot omit the membership assumption: a bounded residual need not belong to trace class, for example, and a trace-class bound has no finite meaning without membership.
+The constant cannot be improved. Take the plane, with A hat the diagonal matrix with entries zero and delta. Let the exact wanted subspace be the horizontal axis, so F zero is the first coordinate vector, F one the second, and Lambda one is the number delta. For an angle theta between zero and ninety degrees, let the trial vector be cosine theta, sine theta, and take the trial operator A zero to be zero. The interval configuration holds: zero lies in the interval from zero to zero, and delta lies outside the open interval from minus delta to delta.
 
-Because F one is an isometry, F one adjoint is a contraction. Therefore the ideal norm of F one adjoint R is at most the ideal norm of R. In particular, delta times the ideal norm of X is at most the ideal norm of R.
+The residual is A hat applied to the trial vector minus zero, which is the vector zero, delta times sine theta. Its length is delta sine theta. The sine of the angle from the trial line to the horizontal axis is sine theta. So delta times sine theta is at most delta times sine theta, with equality, at every angle. Davis and Kahan note that orthogonal direct sums of such planar examples give equality simultaneously in every unitarily invariant norm.
 
-Note that the sharp factor one came from the chosen Sylvester separation theorem. A mere positive pairwise distance between two interlaced spectral sets does not automatically supply the same operator-norm constant. That distinction survives unchanged when we translate the equation into geometry.
+Notice that A zero equal to zero is not the Rayleigh–Ritz value of the trial vector unless theta is zero. The Rayleigh quotient would be delta sine squared theta, which gives a shorter residual and a smaller separation, delta cosine squared theta. In the paper's figure, with A hat the diagonal matrix with entries one point nine and zero point seven and the trial vector at forty degrees, the Rayleigh quotient is about one point four zero, the separation from zero point seven is about zero point seven zero, the residual has length about zero point five nine, and the bound on the sine is about zero point eight four, against a true value of about zero point six four. Each choice of trial operator gives a valid inequality with its own residual and its own separation.
 
-## Third step: identify the angle
+What the theorem says in the operator norm
 
-Write S equal to the identity minus P, composed with E. For every trial-coordinate vector, S extracts the part of its ambient trial vector outside U.
+In the operator norm, N of the sine of Theta zero is the sine of the largest directed angle from the trial subspace toward the exact wanted subspace. So the theorem says: the sine of the largest such angle is at most the operator norm of the residual divided by delta. In particular, if the residual has norm less than delta, no trial vector is perpendicular to the exact wanted subspace.
 
-The Gram identity gives S adjoint S equals X adjoint X. Consequently S and X have identical positive moduli and identical nonzero singular-value information. Their common modulus is the directed sine operator associated with the trial subspace relative to U.
+That last statement is directed. It does not say the exact subspace is close to the trial subspace in the other direction. If the exact subspace has more dimensions than the trial subspace, some exact directions may be far from the trial subspace or perpendicular to it, and the theorem says nothing about them. A symmetric conclusion needs a second gap condition, as in Proposition 6.1 of the paper.
 
-For the operator norm, the norms of S and X are equal immediately because their output lengths agree on every input. For a suitable rectangular unitarily invariant ideal, modulus and singular-value invariance give equality of the corresponding gauges and transfer membership.
+The perturbation form, and two different gaps
 
-Substitute this equality into the Sylvester estimate. We obtain the sine theorem: delta times the size of the directed sine is bounded by the size of the residual.
+In applications, the theorem is often used with a perturbation. Let A be a self-adjoint operator whose spectral subspace we know, and A hat equal to A plus H, with H bounded. Take E zero to be a frame for the known spectral subspace of A, and A zero the block of A on it. Then the residual is H E zero, and N of R is at most N of H. If the gap condition holds between A zero and the unwanted block Lambda one of the perturbed operator, the theorem gives delta times N of the sine at most N of H.
 
-In operator norm this means that the sine of the largest directed principal angle is at most residual norm divided by delta. A useful consequence is that if residual norm is strictly smaller than delta, the largest directed angle is strictly less than ninety degrees.
+Here is a two by two example. Let A be the diagonal matrix with entries three and zero, so the wanted eigenvector is the horizontal axis, with eigenvalue three, and the unwanted eigenvalue is zero. Let H have zeros on the diagonal and one half off the diagonal. Then A hat has eigenvalues about three point zero eight and minus zero point zero eight, and its top eigenvector is tilted about nine point two degrees from the horizontal, with sine about zero point one six zero. The residual, H applied to the horizontal unit vector, is the vector zero, one half, with length one half. The gap delta is between A zero, which is three, and Lambda one, the perturbed unwanted eigenvalue, about minus zero point zero eight. So delta is about three point zero eight, and the bound on the sine is one half divided by three point zero eight, about zero point one six two. The true value is zero point one six zero.
 
-The latter conclusion concerns the direction from the trial space toward the exact subspace. Without matching dimensions and related hypotheses, it should not be silently converted into a symmetric projection-gap bound.
+The point to notice is that delta involves the perturbed spectrum, which is usually unknown. The original operator has an eigenvalue gap, three, which we may write g. The theorem is not stated with g. To use the theorem without computing the perturbed spectrum, one certifies a separation: by Weyl's inequality, the unwanted eigenvalue of A hat lies within the norm of H, one half, of the unwanted eigenvalue of A. So the perturbed unwanted spectrum lies at or below one half, and the separation from three is at least two point five. That gives the certified bound one half over two point five, which is zero point two. Using g, three, in place of a certified delta would give one sixth, which happens to be a valid bound here but is not what the theorem proves. In general an original eigengap and a certified separation are different numbers, and only the second goes into the theorem.
 
-## Prove the constant cannot be improved
+How the theorem appears in the journal paper
 
-Take the real plane. Let A be diagonal with eigenvalues zero and five. Choose the exact target U to be the horizontal axis, so Lambda one is the scalar five.
+The recent journal paper on this theory states the theorem with exactly these hypotheses, grouped into three bundles. The trial bundle contains the isometry of E zero, the domain inclusion, and the residual identity. The exact bundle contains the two isometries, perpendicularity, completeness, the domain inclusion for F one, and the intertwining identity. The gap condition has three cases: the interval case, which covers both orders of the two operators, and the two ordered cases stated as quadratic-form bounds. The norm is a normalized symmetric ideal norm, and the conclusion is stated under the two membership hypotheses, for the sine and for the residual.
 
-For an angle theta between zero and ninety degrees, choose the trial unit vector u with coordinates cosine theta and sine theta. Let E map a scalar to that scalar times u. Choose A zero equal to zero.
+Two details are worth knowing when reading it. The sine in the conclusion is defined by applying the sine function to the angle operator, and a separate result shows that it equals the modulus of the rectangular block, the identity minus P exact, times E zero. That identity is the third bridge of the proof. And the ordered cases of the gap are stated as quadratic-form bounds rather than spectral containments; for self-adjoint operators the two are equivalent, and the form-bound version is the one that is easiest to verify directly.
 
-Then the residual is A u, which equals five sine theta times the vertical basis vector. Its norm is five sine theta.
+Where the theorem comes from
 
-The distance from A zero to Lambda one is exactly five. The directed sine of the angle from the trial line to U is sine theta. So the theorem reads five times sine theta is at most five times sine theta. Equality holds at every such angle.
+Chandler Davis studied the rotation of eigenvectors under perturbation in 1963 and 1965, and the sine-theta theorem appears, with the tangent and double-angle theorems, among the four headline results of Section 2 of the 1970 paper by Davis and William Kahan, after their 1969 announcement. Davis and Kahan assert that the constants in all four are best possible, attained by two-dimensional examples, and that when the perturbation depends linearly on a small parameter the four estimates agree to first order. They state the theorem for infinite as well as finite dimensional separable Hilbert spaces, for every unitarily invariant norm, and, with the domain conditions and a bounded residual, for unbounded self-adjoint operators with half-infinite spectral intervals.
 
-The numerical case at thirty degrees makes the equality tangible. The trial vector has coordinates square root of three over two and one half. Its unwanted component is one half, while the residual is the vertical vector of length two and one half. The gap of five multiplies the sine one half to give the same two and one half. Any smaller universal constant in front of the residual would fail for this family.
+To summarize. If a self-adjoint A hat has an exact reducing decomposition with unwanted block Lambda one, and a trial frame E zero with trial operator A zero has bounded residual R, and the spectra of A zero and Lambda one are separated by delta as a window or a cut, then delta times the size of the sine of Theta zero is at most the size of R, in every normalized symmetric ideal norm in which both are finite. The proof converts the residual into the Sylvester equation Lambda one X minus X A zero equals F one star R, bounds X by Theorem 5.1 or 5.2, and identifies the modulus of X with the sine. The constant one is sharp, attained in a plane at every angle.
 
-Notice that A zero is not the Ritz compression unless theta is zero. That is permitted by the theorem, and it is why the residual is the full vertical vector. For a Ritz residual, the compressed eigenvalue and spectral gap change. We must not combine the smaller Ritz residual with the larger, unrelated gap.
-
-## Specialize to Ritz trial spaces
-
-Suppose A zero does equal E adjoint A E. Then E adjoint R is zero, by Galerkin orthogonality. The proof still works, because it never required an arbitrary internal trial discrepancy.
-
-The advantage of Ritz residuals is that they measure only the escape of A from V. The spectral separation must now compare the Ritz spectrum of A zero to the exact complementary spectrum of Lambda one. If the Ritz values approach unwanted eigenvalues, the gap decreases, and the angle bound weakens accordingly.
-
-For that same thirty-degree trial vector, the Ritz value is five fourths rather than zero. The corresponding residual is shorter, but the separation from the unwanted eigenvalue is now fifteen fourths rather than five. These are different legitimate estimates, each using its own trial operator and residual. Mixing the shorter Ritz residual with the larger gap of five would invalidate the computation.
-
-In practice the theorem is valuable when numerical approximations provide both a small residual and a certified spectral separation. Those two pieces of information together bound the error in the computed invariant subspace.
-
-## General trial frames and the epsilon factor
-
-So far E has been isometric. Suppose instead E is bounded below by a positive constant epsilon. This means every output E x has length at least epsilon times the length of x.
-
-Factor the trial map E as W times its positive modulus, where W is an isometry onto the trial range V. This W is a polar factor, distinct from the exact reducing subspace U. The inverse modulus has norm at most one divided by epsilon. The complementary block for E differs from the complementary block for W by the modulus factor.
-
-When we normalize the frame, the ideal estimate acquires that inverse factor. Multiplying through, the conclusion becomes delta times epsilon times the directed sine gauge is at most the residual gauge.
-
-That epsilon is required for scaling. Multiplying E by a positive scalar multiplies its residual and lower frame bound by that scalar, but leaves its range and principal angles unchanged.
-
-## Restore the unbounded version
-
-When A is unbounded, self-adjointness alone does not legitimize the expression A E. The trial map must carry the domain of A zero into the domain of A; the residual identity must hold on that common domain and extend to a bounded operator. The complementary coordinate map must respect the domain of Lambda one and intertwine its action with A.
-
-With those hypotheses, the same Sylvester equation holds as an equality of partially defined operators on the legal domain. The unbounded Sylvester theorem then produces the ideal estimate and membership conclusion. For real Hilbert spaces, the corresponding complexification and descent results supply the real statement.
-
-We have proved the theorem using three exact bridges: residual to Sylvester equation, spectral gap to norm bound, and complementary overlap to directed sine. The same reasoning applies whenever a residual equation can be converted into a valid Sylvester estimate for the correct complementary angle operator.
+The theorem is one-sided in two ways. It measures angles from the trial subspace toward the exact subspace, not back; and its gap compares the trial operator with the perturbed unwanted block, not the original operator's eigenvalues with each other. Each of these limitations has its own repair in the paper, and each repair needs an additional hypothesis.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -112,37 +84,53 @@ We have proved the theorem using three exact bridges: residual to Sylvester equa
 
 ## Companion: mathematics and Lean correspondence (display only)
 
-Given a self-adjoint ambient `A`, a reducing exact decomposition `F₀,F₁`, an isometric trial `E`, self-adjoint `A₀,Λ₁`, a bounded residual `R` extending `AE−EA₀` on its common domain, an admissible `δ>0` `FormBoundedSylvesterGap A₀ Λ₁ δ`, and a Ky-Fan-dominant symmetric ideal `N` with `N.Mem R`, the isometric theorem gives `N.Mem((I−F₀F₀*)E)` and `δ N.gaugeReal((I−F₀F₀*)E) ≤ N.gaugeReal R`. Nonisometric trial maps with lower frame bound `ε>0` give `δε` on the left. For `A=diag(0,δ)`, `A₀=0`, `E=(cosθ,sinθ)`, equality holds.
+### Statement (journal paper, Theorem 1)
 
-**Two trial operators on the same trial line.** Put \(A=\operatorname{diag}(0,5)\), \(u=(\sqrt3/2,1/2)^\top\), \(E(t)=tu\), and \(U=\operatorname{span}(e_1)\). With \(A_0=0\), \(R=AE=(5/2)e_2\), \(\Lambda_1=5\), \(X=F_1^*E=1/2\), and \(\delta=5\); hence \(\delta\|X\|=\|R\|=5/2\). With the Ritz choice \(M=u^*Au=5/4\), the residual is \(R_{\rm Ritz}=Au-uM=(-5\sqrt3/8,15/8)^\top\), whose norm is \(5\sqrt3/4\). The complementary spectral gap is then \(5-5/4=15/4\), so the sine estimate gives \((15/4)(1/2)=15/8\le5\sqrt3/4\). The pairs \((A_0,R)\) and \((M,R_{\rm Ritz})\) must be kept together.
+Separable \(\mathcal E\) over \(\mathbb R\) or \(\mathbb C\); \(\widehat A,A_0,\Lambda_1\) self-adjoint (possibly unbounded); isometries \(E_0,F_0,F_1\); \(E_0(\operatorname{dom}A_0)\subseteq\operatorname{dom}\widehat A\), \(R=\widehat AE_0-E_0A_0\) on \(\operatorname{dom}A_0\), bounded; \(F_0^*F_1=0\), \(F_0F_0^*+F_1F_1^*=I\), \(F_1(\operatorname{dom}\Lambda_1)\subseteq\operatorname{dom}\widehat A\), \(\widehat AF_1=F_1\Lambda_1\); \(\delta>0\) with \(\mathrm{SineGap}(A_0,\Lambda_1)\):
+\[
+\mathcal I_\delta(A_0,\Lambda_1)\ \vee\ \mathcal I_\delta(\Lambda_1,A_0)\ \vee\ \bigl(A_0\ge(b+\delta)I\wedge\Lambda_1\le bI\bigr)\ \vee\ \bigl(A_0\le bI\wedge\Lambda_1\ge(b+\delta)I\bigr).
+\]
+\(N\) a normalized symmetric operator-ideal norm with Ky Fan dominance. If \(\sin\Theta_0,R\in\mathfrak I_N\):
+\[
+\delta\,N(\sin\Theta_0)\le N(R),\qquad \sin\Theta_0=(I-E_0^*P_{\rm exact}E_0)^{1/2}.
+\]
 
-### Source declaration excerpts
+### Proof chain
 
-`DavisKahan/Sources/DavisKahan1970/SineTheta/ScalarGeneric.lean` — `sinTheta_unbounded_formGap_idealFamily_rclike` (exact declaration header; body omitted):
+\(X=F_1^*E_0\); \(\Lambda_1X-XA_0=F_1^*R\) on \(\operatorname{dom}A_0\); \(\delta N(X)\le N(F_1^*R)\) (Thm 5.1 after centering, or Thm 5.2); \(N(F_1^*R)\le N(R)\); \(X^*X=I-E_0^*P_{\rm exact}E_0\Rightarrow|X|=\sin\Theta_0\Rightarrow N(X)=N(\sin\Theta_0)\).
+
+### Examples
+
+- **Sharpness:** \(\widehat A=\operatorname{diag}(0,\delta)\), \(v_\theta=(\cos\theta,\sin\theta)\), \(A_0=0\), \(\Lambda_1=\delta\): \(R=(0,\delta\sin\theta)\), equality.
+- **Figure 1:** \(\widehat A=\operatorname{diag}(1.9,0.7)\), \(\theta=40^\circ\), \(\rho\approx1.404\), \(\delta\approx0.704\), \(\|r\|\approx0.591\), bound \(\approx0.839\), true \(\sin\theta\approx0.643\).
+- **Perturbation:** \(A=\operatorname{diag}(3,0)\), \(H=\begin{pmatrix}0&\tfrac12\\\tfrac12&0\end{pmatrix}\): \(\sigma(\widehat A)=\{\tfrac{3\pm\sqrt{10}}2\}\approx\{3.081,-0.081\}\), \(\theta\approx9.22^\circ\), \(\sin\theta\approx0.1602\); \(R=HE_0=(0,\tfrac12)\); \(\delta=3-\lambda_{\min}(\widehat A)\approx3.081\), bound \(\approx0.1623\). Certified: Weyl gives \(\lambda_{\min}(\widehat A)\le\tfrac12\), \(\delta\ge g-\|H\|=2.5\), bound \(0.2\). Original eigengap \(g=3\) is not \(\delta\).
+
+### Lean correspondence
+
+Journal paper, Listing 1; declared in `DavisKahan/Sources/DavisKahan1970/SineTheta/Presentation.lean`, `namespace TauCeti.DavisKahan1970`:
 
 ```lean
-theorem sinTheta_unbounded_formGap_idealFamily_rclike
-    (N : TauCeti.SymmetricOperatorIdealFamily 𝕜)
-    [N.toOperatorIdealFamily.IsKyFanDominant]
-    (D : UnboundedSinThetaData (𝕜 := 𝕜) (E := E) (F := F) (G := G))
+theorem sinTheta_unbounded_formGap_whereDefinedUIN_rclike
+    [TopologicalSpace.SeparableSpace E]
+    (N : NormalizedSymmetricOperatorIdealFamily K)
+    (A : LinearPMap K E E)
+    (A0 : LinearPMap K F F)
+    (Lambda1 : LinearPMap K G G)
+    (E0 : ContinuousLinearMap K F E)
+    (F0 : ContinuousLinearMap K H E)
+    (F1 : ContinuousLinearMap K G E)
+    (R : ContinuousLinearMap K F E)
+    (hA : IsSelfAdjoint A)
+    (hA0 : IsSelfAdjoint A0)
+    (hLambda1 : IsSelfAdjoint Lambda1)
+    (htrial : IsTrialResidual A A0 E0 R)
+    (hexact : IsExactSpectralDecomposition A Lambda1 F0 F1)
+    (delta : Real) (hdelta : 0 < delta)
+    (hgap : FormBoundedSylvesterGap A0 Lambda1 delta) :
+    N.Mem (sourceDirectedSinThetaOperator E0 F0) ->
+    N.Mem R ->
+      delta * N.gaugeReal (sourceDirectedSinThetaOperator E0 F0) <=
+        N.gaugeReal R
 ```
 
-`DavisKahan/Sources/DavisKahan1970/SineTheta/Theorem61.lean` — `result` (exact declaration header; body omitted):
-
-```lean
-theorem result
-    (N : TauCeti.SymmetricOperatorIdealFamily ℂ)
-    [N.toOperatorIdealFamily.IsKyFanDominant]
-    (P : GeneralSinThetaRepresentativeProblem (E := E) (F := F)
-```
-
-`DavisKahan/Sources/DavisKahan1970/SineTheta/Theorem61.lean` — `result` (exact declaration header; body omitted):
-
-```lean
-theorem result
-    (N : TauCeti.SymmetricOperatorIdealFamily ℂ)
-    [N.toOperatorIdealFamily.IsKyFanDominant]
-    (P : IsometricSinThetaRepresentativeProblem (E := E) (F := F)
-```
-
-**Mapping.** `ScalarGeneric.sinTheta_unbounded_formGap_idealFamily_rclike` states the canonical isometric result for `UnboundedSinThetaData` and a `SymmetricOperatorIdealFamily` with `IsKyFanDominant`. `Theorem61.GeneralSinThetaRepresentativeProblem.result` carries the nonisometric `frameLowerBound` and `gap` factors, and transfers to a paper-facing representative with matching singular-value data. The general paper-facing theorem's gap and domain hypotheses are contained in its `problem` data; one cannot infer them from the displayed result type alone.
+**Reading the signature.** `K` is the scalar field (`RCLike`: ℝ or ℂ); Lean's `A` is \(\widehat A\); `E, F, G, H` are the ambient, trial, unwanted and exact coordinate spaces (so Lean's `H` is a space, not the perturbation). `LinearPMap` encodes possibly unbounded operators with domains. `IsTrialResidual`, `IsExactSpectralDecomposition` and `FormBoundedSylvesterGap` bundle the hypotheses listed above. `N.Mem` is finiteness of the gauge; `N.gaugeReal` its value. `sourceDirectedSinThetaOperator_eq_modulus` (`SineTheta/Presentation.lean`) is the third bridge.

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020500",
+  "source_g2": null,
+  "transcript": "020500-generalizations-of-the-sine-theorem.md",
+  "historical_claims": [
+    {
+      "id": "020500-h01",
+      "anchor": "Davis and Kahan give this warning explicitly.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 6, sine proof and ambient limitation before Proposition 6.1",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "020500-h02",
+      "anchor": "Davis and Kahan prove the converse when the two blocks of K have the same singular values as each other, and likewise for L.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Lemma 6.1",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "020500-h03",
+      "anchor": "Theorem 6.1 drops the assumption that E zero is an isometry and assumes only a lower frame bound",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Theorem 6.1",
+      "audit_status": "pending_primary_passage_comparison"
+    }
+  ],
+  "related_resources": [
+    {
+      "source_id": "bhatia-1997",
+      "reason": "Pinching inequalities and block-diagonal comparisons for unitarily invariant norms (Chapter IV)."
+    },
+    {
+      "source_id": "wiki-polar-decomposition",
+      "reason": "Polar decomposition of a non-orthonormal frame into an isometry and its modulus, used in Theorem 6.1."
+    },
+    {
+      "source_id": "wiki-majorization",
+      "reason": "Weak majorization of merged singular-value lists, the mechanism behind Lemma 6.1."
+    }
+  ]
+}

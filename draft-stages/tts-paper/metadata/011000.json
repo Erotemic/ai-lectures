@@ -1,49 +1,62 @@
 {
   "schema_version": 1,
   "lecture_id": "011000",
-  "source_g2": "088000",
-  "related_resources": [
+  "source_g2": null,
+  "transcript": "011000-unbounded-self-adjoint-operators-and-domains.md",
+  "historical_claims": [
     {
-      "source_id": "kato-1995",
-      "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+      "id": "011000-h01",
+      "anchor": "The Hellinger–Toeplitz theorem, from 1910, says that a symmetric operator defined on all of a Hilbert space is bounded.",
+      "kind": "historical_attribution",
+      "source_ids": ["hellinger-toeplitz-1910"],
+      "source_locator": "Math. Ann. 69 (1910), 289-330",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "higham-matrix-function",
-      "reason": "Compare the finite-matrix functional calculus with the lecture’s operator calculus."
+      "id": "011000-h02",
+      "anchor": "Davis and Kahan perturb this operator by H, multiplication by epsilon times t, with epsilon between zero and one hundred.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 9, free-beam Rayleigh-Ritz model",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "011000-h03",
+      "anchor": "Davis and Kahan make this point explicitly for half-infinite spectral intervals: without a bounded residual, no useful conclusion follows.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Appendix to Section 6, unbounded sine passage",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "011000-h04",
+      "anchor": "Davis and Kahan state their unbounded results for this situation: the domain of H contains the domain of A, and the pertinent perturbation or residual extends boundedly.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 1 and closing scope paragraphs of Section 2",
+      "audit_status": "pending_primary_passage_comparison"
+    }
+  ],
+  "related_resources": [
+    {
+      "source_id": "wiki-unbounded-operator",
+      "reason": "Domains, closed and self-adjoint operators, and why unbounded operators cannot be defined everywhere."
+    },
+    {
+      "source_id": "wiki-hellinger-toeplitz-theorem",
+      "reason": "Statement and closed-graph proof of the Hellinger-Toeplitz theorem used at the start of the lecture."
+    },
+    {
+      "source_id": "wiki-closed-operator",
+      "reason": "Closed graphs and the closed graph theorem behind Hellinger-Toeplitz."
+    },
+    {
+      "source_id": "wiki-spectral-theorem",
+      "reason": "The spectral theorem for unbounded self-adjoint operators and the description of the domain through the spectral measure."
     },
     {
       "source_id": "jordan-bell-pvm",
-      "reason": "Work through spectral measures and spectral integrals from their definitions."
-    },
-    {
-      "source_id": "hunter-nachtergaele-applied",
-      "reason": "Read the matching open chapter for foundational analytic hypotheses and worked proofs."
-    },
-    {
-      "source_id": "teschl-qm-free",
-      "reason": "Use the full free text for spectral calculus and domains of unbounded self-adjoint operators."
-    },
-    {
-      "source_id": "bell-unbounded-operators",
-      "reason": "Follow the concrete graph/domain argument and the unbounded adjoint definition."
-    },
-    {
-      "source_id": "bell-sturm-liouville",
-      "reason": "Relate differential-operator spectra to integral-operator reductions and boundary conditions."
-    },
-    {
-      "source_id": "wiki-unbounded-operator",
-      "reason": "Why the operator domain is part of the mathematical object."
-    },
-    {
-      "source_id": "wiki-projection-valued-measure",
-      "reason": "Spectral projections for measurable sets of spectral values."
-    },
-    {
-      "source_id": "wiki-functional-calculus",
-      "reason": "Construction of functions of a self-adjoint operator and their domains."
+      "reason": "Spectral integrals for unbounded functions and domains defined by finite second moments."
     }
-  ],
-  "transcript": "011000-the-unbounded-spectral-theorem.md",
-  "historical_claims": []
+  ]
 }

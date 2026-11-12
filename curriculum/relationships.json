@@ -13,11 +13,6 @@
       "g3:001000"
     ],
     [
-      "g3:004000",
-      "hard_depends_on",
-      "g3:001000"
-    ],
-    [
       "g3:005000",
       "hard_depends_on",
       "g3:004000"
@@ -26,16 +21,6 @@
       "g3:006000",
       "soft_depends_on",
       "g3:001000"
-    ],
-    [
-      "g3:007000",
-      "soft_depends_on",
-      "g3:001000"
-    ],
-    [
-      "g3:008000",
-      "hard_depends_on",
-      "g3:007000"
     ],
     [
       "g3:009000",
@@ -73,11 +58,6 @@
       "g3:004000"
     ],
     [
-      "g3:015000",
-      "soft_depends_on",
-      "g3:007000"
-    ],
-    [
       "g3:016000",
       "soft_depends_on",
       "g3:002000"
@@ -93,7 +73,7 @@
       "g3:006000"
     ],
     [
-      "g3:019000",
+      "g3:024000",
       "hard_depends_on",
       "g3:017000"
     ],
@@ -125,12 +105,12 @@
     [
       "g3:022000",
       "hard_depends_on",
-      "g3:015000"
+      "g3:016000"
     ],
     [
       "g3:023000",
       "hard_depends_on",
-      "g3:015000"
+      "g3:016000"
     ],
     [
       "g3:023000",
@@ -138,14 +118,9 @@
       "g3:014000"
     ],
     [
-      "g3:024000",
-      "hard_depends_on",
-      "g3:019000"
-    ],
-    [
       "g3:025000",
       "hard_depends_on",
-      "g3:019000"
+      "g3:024000"
     ],
     [
       "g3:025000",
@@ -165,16 +140,10 @@
       "Squared transport requires the distinction between sine-angle energy and full chord displacement."
     ],
     [
-      "g3:019000",
-      "hard_depends_on",
-      "g3:018500",
-      "The unsquared counterexample compares with the valid squared-displacement inequality."
-    ],
-    [
       "g3:024000",
       "hard_depends_on",
       "g3:018500",
-      "The comparison explicitly verifies the Proposition 4.3 Ky Fan prefixes."
+      "The unsquared counterexample compares with the valid squared-displacement inequality."
     ],
     [
       "g2:110000",
@@ -380,6 +349,70 @@
       "hard_depends_on",
       "g2:099000",
       "The smoothing-domain theorem uses the Hilbert-Schmidt and trace-class distinction."
+    ],
+    [
+      "g3:008000",
+      "hard_depends_on",
+      "g3:001000"
+    ],
+    [
+      "g3:016000",
+      "soft_depends_on",
+      "g3:001000"
+    ],
+    [
+      "g3:004000",
+      "hard_depends_on",
+      "g3:003900",
+      "The angle operator generalizes finite principal angles to compressions of projections."
+    ],
+    [
+      "g3:004500",
+      "hard_depends_on",
+      "g3:004000",
+      "Halmos form and the classification are stated through the angle operator."
+    ],
+    [
+      "g3:005000",
+      "hard_depends_on",
+      "g3:004500",
+      "The direct rotation is built in Halmos coordinates and uses the defect spaces."
+    ],
+    [
+      "g3:005500",
+      "hard_depends_on",
+      "g3:005000",
+      "Nonacute existence and the squared rotation extend the acute direct rotation."
+    ],
+    [
+      "g3:001000",
+      "soft_depends_on",
+      "g3:004000",
+      "Exact decompositions use isometric frames and projections in the same way as angle operators."
+    ],
+    [
+      "g3:020500",
+      "hard_depends_on",
+      "g3:020000",
+      "Proposition 6.1 and Theorem 6.1 extend the sine-theta proof."
+    ],
+    [
+      "g3:020700",
+      "soft_depends_on",
+      "g3:020000",
+      "Transfers the complex sine-theta theorem to real Hilbert spaces."
+    ],
+    [
+      "g3:025500",
+      "hard_depends_on",
+      "g3:025000",
+      "Proves the structural half of the matching theorem stated there."
+    ],
+    [
+      "g3:025700",
+      "hard_depends_on",
+      "g3:025500",
+      "Completes the matching proof using the block structure of a minimizer."
     ]
   ]
 }

@@ -1,41 +1,46 @@
 {
   "schema_version": 1,
   "lecture_id": "025000",
-  "source_g2": "145000",
-  "related_resources": [
+  "source_g2": null,
+  "transcript": "025000-the-matching-theorem.md",
+  "historical_claims": [
     {
-      "source_id": "higham-polar",
-      "reason": "Alternative polar-factor explanation; distinguish a kernel-zero partial isometry from full unitary extensions."
+      "id": "025000-h01",
+      "anchor": "It is solvable in polynomial time, by the blossom methods that descend from Jack Edmonds's 1965 work on matchings in general graphs.",
+      "kind": "historical_attribution",
+      "source_ids": ["edmonds-1965"],
+      "source_locator": "Canad. J. Math. 17 (1965), 449-467; weighted extension in Edmonds's companion 1965 paper (to be confirmed)",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "bhatia-1997",
-      "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
+      "id": "025000-h02",
+      "anchor": "Bolotnikov, Li, and Rodman formulated the ambient minimal-distortion problem for unitary maps and proved Q-norm and Frobenius optimality results.",
+      "kind": "historical_attribution",
+      "source_ids": ["bolotnikov-li-rodman-2001"],
+      "source_locator": "Problem 1.1, Theorems 3.1 and 4.2",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "wisc-uniform-convergence",
-      "reason": "Review the uniform-control principle used when passing from approximating costs to limiting minima."
-    },
-    {
-      "source_id": "mit-strang-18065-procrustes",
-      "reason": "See an orthogonal transport problem where minimizing displacement becomes a matrix alignment calculation."
-    },
-    {
-      "source_id": "mml-free-text",
-      "reason": "Use analytic-geometry, decomposition or PCA examples to connect the operator calculation to data analysis."
-    },
-    {
-      "source_id": "wiki-schatten-norm",
-      "reason": "The p-power cost used in the real transport theorem."
-    },
-    {
-      "source_id": "wiki-orthogonal-procrustes",
-      "reason": "Related finite-dimensional orthogonal optimization; the transport constraints differ."
-    },
-    {
-      "source_id": "wiki-angles-between-flats",
-      "reason": "Principal-angle labels used by singleton and paired matching weights."
+      "id": "025000-h03",
+      "anchor": "the authors of the journal paper did not locate this exact formula in the sources they compared.",
+      "kind": "source_scope",
+      "source_ids": ["bolotnikov-li-rodman-2001", "davis-kahan-1970"],
+      "source_locator": "Journal paper, Section 6 (novelty statement)",
+      "audit_status": "pending_primary_passage_comparison"
     }
   ],
-  "transcript": "025000-the-real-transport-matching-theorem.md",
-  "historical_claims": []
+  "related_resources": [
+    {
+      "source_id": "wiki-matching-graph",
+      "reason": "Maximum-weight matching in general graphs, the combinatorial problem the transport minimum reduces to."
+    },
+    {
+      "source_id": "edmonds-1965",
+      "reason": "Edmonds's blossom method for matchings in general (non-bipartite) graphs."
+    },
+    {
+      "source_id": "bolotnikov-li-rodman-2001",
+      "reason": "The minimal distortion problem for unitary transports and its Q-norm solution."
+    }
+  ]
 }

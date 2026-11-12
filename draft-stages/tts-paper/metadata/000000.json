@@ -16,10 +16,6 @@
       "reason": "How singular values control matrix norm comparisons and transport costs."
     },
     {
-      "source_id": "mit-strang-18065-procrustes",
-      "reason": "Orthogonal transport and alignment from an applied linear algebra viewpoint."
-    },
-    {
       "source_id": "wiki-eigenvalue-perturbation",
       "reason": "The two-by-two perturbation picture and the role of eigenvalue separation."
     },
@@ -32,16 +28,46 @@
       "reason": "Why an invariant subspace is more stable than a particular eigenbasis."
     }
   ],
-  "transcript": "000000-a-fast-path-to-davis-kahan.md",
+  "transcript": "000000-the-problem-and-the-paper.md",
   "historical_claims": [
     {
       "id": "000000-h01",
-      "anchor": "the original paper's broad Proposition four point four is false for an unsquared trace-norm objective.",
+      "anchor": "the Davis–Kahan theory, from the 1970 paper by Chandler Davis and William Kahan titled The Rotation of Eigenvectors by a Perturbation, Part Three.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "SIAM J. Numer. Anal. 7 (1970), 1-46",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000000-h02",
+      "anchor": "Then, in Proposition 4.4, they claim that for real spaces with all angles at most sixty degrees, it also minimizes the unsquared motion in every such norm.",
       "kind": "source_scope",
       "source_ids": [
         "davis-kahan-1970"
       ],
       "source_locator": "Proposition 4.4",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000000-h03",
+      "anchor": "The construction is a real form of a complex example Davis and Kahan themselves gave.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Example 4.2",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "000000-h04",
+      "anchor": "The journal paper also checks every other selected result of the 1970 paper, twenty-eight in all, under their stated hypotheses",
+      "kind": "source_scope",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Journal paper, abstract and Section 3",
       "audit_status": "pending_primary_passage_comparison"
     }
   ]

@@ -1,45 +1,80 @@
 {
   "schema_version": 1,
   "lecture_id": "006000",
-  "source_g2": "058000",
+  "source_g2": null,
+  "transcript": "006000-unitarily-invariant-norms-and-ky-fan-dominance.md",
+  "historical_claims": [
+    {
+      "id": "006000-h01",
+      "anchor": "John von Neumann answered this in 1937 for matrices.",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "bhatia-1997"
+      ],
+      "source_locator": "Bhatia, Matrix Analysis, Chapter IV (von Neumann's theorem on symmetric gauge functions); von Neumann, Tomsk Univ. Rev. 1 (1937), 286-300",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "006000-h02",
+      "anchor": "Ky Fan showed in 1951 that this is also the largest value of the real part of the sum",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "fan-1951"
+      ],
+      "source_locator": "PNAS 37 (1951), 760-766",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "006000-h03",
+      "anchor": "Proposition 4.4 claimed that the direct rotation wins in every unitarily invariant norm, and this pair shows that it does not.",
+      "kind": "source_scope",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Proposition 4.4; journal paper Section 5",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "006000-h04",
+      "anchor": "Davis and Kahan prove that the direct rotation minimizes the squared displacement, the identity minus W, star, times the identity minus W, in every unitarily invariant norm.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Proposition 4.3",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "006000-h05",
+      "anchor": "Davis and Kahan write the Ky Fan norms with a subscript, so their subscript one is the Ky Fan one-norm, the largest singular value, which is the operator norm.",
+      "kind": "source_scope",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Section 1, equation (1.11) and the norm conventions",
+      "audit_status": "pending_primary_passage_comparison"
+    }
+  ],
   "related_resources": [
     {
-      "source_id": "mit-strang-svd",
-      "reason": "Finite-dimensional singular-direction intuition; general operator-ideal and infinite-dimensional claims require additional sources."
-    },
-    {
-      "source_id": "bhatia-1997",
-      "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
-    },
-    {
-      "source_id": "higham-unitarily-invariant-norm",
-      "reason": "Connect singular-value inequalities with symmetric gauges, Schatten and Ky Fan norms."
-    },
-    {
-      "source_id": "boyd-stanford-ee263-archive",
-      "reason": "Use the publicly available course-reader slides for block matrices, quadratic forms, or dynamical examples."
-    },
-    {
-      "source_id": "mit-strang-18065-norms",
-      "reason": "Compare vector, operator, Frobenius and nuclear norms in worked matrix calculations."
-    },
-    {
-      "source_id": "bell-trace-ideals",
-      "reason": "Work through trace-ideal and Hilbert-Schmidt definitions and inequalities in Hilbert space."
-    },
-    {
-      "source_id": "wiki-majorization",
-      "reason": "Partial sums of ordered singular values and their norm consequences."
+      "source_id": "wiki-matrix-norm",
+      "reason": "Survey of matrix norms; read the sections on unitarily invariant norms, Schatten norms and Ky Fan norms."
     },
     {
       "source_id": "wiki-schatten-norm",
-      "reason": "Operator, Frobenius, trace, and intermediate singular-value norms."
+      "reason": "Schatten p-norms as singular-value p-norms, including which are Q-norms."
     },
     {
-      "source_id": "wiki-singular-value-decomposition",
-      "reason": "Why orthogonal coordinate changes preserve singular-value data."
+      "source_id": "wiki-majorization",
+      "reason": "Majorization and weak majorization, and the Hardy-Littlewood-Polya averaging characterization used in the dominance proof."
+    },
+    {
+      "source_id": "bhatia-1997",
+      "reason": "Chapters III-IV: singular-value inequalities, symmetric gauge functions, von Neumann's theorem and Fan dominance in full detail."
+    },
+    {
+      "source_id": "fan-1951",
+      "reason": "Ky Fan's original paper on extremal properties of eigenvalue and singular-value sums."
     }
-  ],
-  "transcript": "006000-unitarily-invariant-norms-and-ky-fan-dominance.md",
-  "historical_claims": []
+  ]
 }

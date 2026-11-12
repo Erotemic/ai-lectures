@@ -1,41 +1,62 @@
 # G3 — Audio paper track
 
-G3 is the shorter, paper-focused alternative to G2's 156-lecture comprehensive sequence.
-The browser exposes three course entries:
+G3 is the paper-focused audio course. Its goal is mastery of the Davis–Kahan
+journal paper (`aiq-dkps-formalization/papers/dk_formalization_journal/`): the
+background constructions, the sine-theta theorem with its exact hypotheses, the
+29 Davis–Kahan results, the Proposition 4.4 counterexample and Q-norm repair,
+and the real trace-norm matching theorem. G2 is the complete course that skips
+nothing; G3 is written for its own audience and does not adapt G2 lectures,
+although topics overlap.
 
-- **G1 — Manim:** original animated presentations, served at `/`.
-- **G2 — Audio comprehensive:** all 150 staged recordings, served at `/audio?track=g2`.
-- **G3 — Audio paper:** 27 recordings, served at `/audio?track=g3`.
+The browser exposes the tracks at `/` (G1, Manim), `/audio?track=g2` and
+`/audio?track=g3`.
 
-G3 assumes elementary linear algebra, singular values, Hilbert-space notation, and basic measure theory. Its goal is a tractable path through the original Davis–Kahan angle-theorem families, the failure of Proposition 4.4 for an unsquared displacement norm, and the positive real matching result.
+G3 assumes linear algebra, singular values, inner-product notation, and some
+comfort with limits and integrals. Hilbert-space and operator-theoretic ideas
+are introduced where needed.
 
 ## Sequence
 
-| Position | Recordings | Purpose |
-| --- | --- | --- |
-| Orientation | `000000` | New high-level entry point and two-by-two perturbation example |
-| Foundations and machinery | `001000`–`016000` | Spectral geometry, residuals, Sylvester bounds, domains, norms, reflection, repulsion, and selection |
-| Four angle theorems | `020000`–`023000` | Sine θ, tangent θ, sine 2θ, tangent 2θ |
-| Section 4 transport | `017000`, `018000`, `018500`, `019000`, `024000`, `025000` | Restricted displacement (4.1), squared sine-angle (4.2), whole-space squared displacement (4.3), scope of 4.4, four-dimensional counterexample, real matching |
+`track.json` is the source of order and section membership; the reader and the
+course graph follow its list order, not numeric ID order.
 
-`track.json` is the source of ordering, cross-track provenance, and section classification. The audio reader and course graph follow its **explicit list order**, not the six-digit numerical order. Existing IDs remain stable; `018500` is inserted between `018000` and `019000`. The 1970 paper presents Section 4 before the Section 6 angle theorems; G3 deliberately teaches the four angle theorems first and concludes with the repaired Section 4 transport story. It is **not** read as narration. Individual `.md` files use the existing `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. The reader invokes the canonical G2 narration extractor for both tracks.
+| Section | Lectures | Content |
+| --- | --- | --- |
+| orientation | 000000, 000500 | The problem and the paper; where the constructions come from |
+| geometry | 003900, 004000, 004500, 005000, 005500 | Principal angles; angle operators; Halmos form and classification; the direct rotation; nonacute pairs and the squared rotation |
+| spectral | 001000, 011000, 003000, 002000 | Exact decompositions; unbounded operators; trial subspaces and residuals; gap geometry |
+| norms | 006000, 013000 | Unitarily invariant norms and Ky Fan dominance; operator ideals |
+| sylvester | 008000, 009000, 010000, 012000 | Sylvester equation and Theorem 5.1; Theorem 5.2; distance gaps and Theorem 6.2; unbounded identities and cutoffs |
+| sine-theta | 020000, 020500, 020700 | The sine-theta theorem; generalizations (Lemmas 6.1–6.2, Proposition 6.1, Theorem 6.1); real and complex scalars |
+| tangent-double-angle | 014000, 021000, 016000, 022000, 023000 | Graph subspaces; tangent theorem; branch selection and repulsion (8.1); doubled sine and smallness (8.2); doubled tangent |
+| transport | 017000, 018000, 018500, 024000, 025000, 025500, 025700 | Restricted displacement (4.1); basis square sums (4.2); squared displacement and Q-norms (4.3); Proposition 4.4 counterexample; matching theorem and its two-part proof |
 
 ## Editorial state
 
-The first draft contains one newly written G3 course introduction and 26 adapted, independently listenable G2 recordings. This gives G3 27 complete TTS inputs now; it also makes the provenance of every adapted lecture explicit through `source_g2` entries in `track.json`.
+All 32 lectures were rewritten from the mathematics on 12 November 2026
+(`draft_status: g3_rewrite`, `source_g2: null`), following
+[`../../LECTURE_STYLE_RULES.md`](../../LECTURE_STYLE_RULES.md). There is no
+length target. Each file has one spoken region and a display-only companion
+with exact statements, worked numbers, and Lean declaration anchors checked
+against the pinned Tau Ceti revision and the Davis–Kahan library.
 
-The November 2026 concept-first editing pass tightened the foundations-to-theorem narrative, added concrete checks for zero residuals, graph slopes, spectral cutoffs, and Ky Fan squared displacement, and replaced several exercise-style endings with mathematical conclusions. The four angle theorems and six Section 4 transport recordings retain their specialized hypotheses. The sidecars now include focused Wikipedia readings alongside existing papers and lecture notes; none of those links is spoken.
+[`PAPER_COVERAGE_PLAN.md`](PAPER_COVERAGE_PLAN.md) maps the paper's content and
+the 29 results to lectures, records ID assignments, and lists findings that
+need a primary-source check.
 
-A subsequent mathematical-example pass makes weak majorization distinct from pointwise singular-value comparison; checks the Sylvester two-by-two obstruction in both operator and Hilbert–Schmidt norms; supplies gap-preserving filled cutoffs, ideal-norm truncation rates, and a spectral-repulsion eigenvalue calculation; and exhibits an explicit coupled transport that wins at Schatten exponent 1.1 but loses against the direct rotation at 1.5. These are worked examples of the stated theorems, not additional recording dependencies. The G3 sequence deliberately remains compact and does not duplicate G2's extended background lectures. The final real matching lecture now explains the unrestricted lower-bound mechanism: compact minimization, real-constrained stationarity, two-phase and kernel block decomposition, blockwise replacement by cheaper transports, and recovery of the original labelled angles. Its display-only companion records the exact singleton and pair weights, the matching inequalities, and verified formal theorem anchors.
-
-The `metadata/` sidecars contain optional free learning resources and G2 source mappings. No metadata is narrated. Audio caching uses `visualizations/audio-cache/g3/`, separate from G2's existing cache; TTS profile and voice registration are shared.
+Sidecars in `metadata/` anchor historical and source-scope claims to spoken
+text, with audit status, and list related reading. Nothing in them is spoken.
+Companion slide decks under `companion-slides/` for G3 predate the rewrite and
+describe the earlier lectures; decks for retired lectures (007000, 015000,
+019000) were removed.
 
 ## Checks
 
 ```bash
-cd /home/joncrall/code/aiq-dkps-formalization
-python3 visualizations/draft-stages/tts-lectures/extract_narration.py --check \
-  visualizations/draft-stages/tts-paper/[0-9]*-*.md
-cd visualizations
-uv run --extra serve --extra test pytest tests/test_audio_course_tracks.py
+python3 draft-stages/tts-lectures/extract_narration.py --check draft-stages/tts-paper/[0-9]*-*.md
+python3 tools/audit_g3_presentation.py
+uv run --extra serve --extra test pytest tests/test_audio_course_tracks.py tests/test_g3_presentation_repair.py tests/test_course_graph.py
 ```
+
+Sidecar anchors are validated with `reference_metadata.validate_lecture` against
+the shared catalog `draft-stages/tts-lectures/metadata/sources.json`.

@@ -1,49 +1,62 @@
 {
   "schema_version": 1,
   "lecture_id": "021000",
-  "source_g2": "112000",
-  "related_resources": [
+  "source_g2": null,
+  "transcript": "021000-the-tangent-theorem.md",
+  "historical_claims": [
     {
-      "source_id": "higham-sylvester",
-      "reason": "Matrix Sylvester equation; note the lecture-specific operator norm and spectral-gap conditions."
+      "id": "021000-h01",
+      "anchor": "The generalized form, Theorem 6.3 of the paper, keeps the Rayleigh–Ritz trial data and the ordered gap, and allows the trial subspace to have smaller dimension than the exact subspace.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Theorem 6.3",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "bhatia-1997",
-      "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
+      "id": "021000-h02",
+      "anchor": "Davis and Kahan label this equation 6.5.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 6, equations (6.2)-(6.6)",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "davis-kahan-1970",
-      "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+      "id": "021000-h03",
+      "anchor": "Davis and Kahan give an example with gap one, tangent one, and residual one over root two, in which unwanted spectrum lies on both sides.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Example 6.1",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "hsu-dk-notes",
-      "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+      "id": "021000-h04",
+      "anchor": "The paper's numerical example uses exactly this improvement.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 9, equations (9.5)-(9.6)",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "zhu-knyazev-tangent-angles",
-      "reason": "Compare projector and frame formulas for principal-angle cosines, sines, and tangents."
-    },
-    {
-      "source_id": "kostrykin-tan2-theorem",
-      "reason": "Compare the off-diagonal perturbation theorem with a graph/Riccati formulation."
-    },
-    {
-      "source_id": "motovilov-selin-subspace-bounds",
-      "reason": "Contrast ordered-gap and convex-hull gap hypotheses in sharp tangent estimates."
-    },
-    {
-      "source_id": "wiki-angles-between-flats",
-      "reason": "Principal tangents and the distinction between transverse and nontransverse pairs."
-    },
-    {
-      "source_id": "wiki-sylvester-equation",
-      "reason": "How the ordered gap bounds the graph-coordinate operator."
-    },
-    {
-      "source_id": "wiki-operator-norm",
-      "reason": "Interpretation of a maximal graph slope."
+      "id": "021000-h05",
+      "anchor": "The tangent theorem is printed in Section 2, before Davis and Kahan introduce, in Section 3, the standing assumption that the two defect spaces have the same dimension.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 2 statement; Section 3 standing convention after Proposition 3.2",
+      "audit_status": "pending_primary_passage_comparison"
     }
   ],
-  "transcript": "021000-the-tangent-theta-theorem.md",
-  "historical_claims": []
+  "related_resources": [
+    {
+      "source_id": "zhu-knyazev-tangent-angles",
+      "reason": "Tangent-of-angle formulas and their relation to Rayleigh-Ritz error bounds."
+    },
+    {
+      "source_id": "wiki-rayleigh-ritz-method",
+      "reason": "The Rayleigh-Ritz condition that the tangent theorem requires."
+    },
+    {
+      "source_id": "bindel-ritz-eigensolvers",
+      "reason": "Ritz residuals and tangent-type error bounds in eigensolver practice."
+    }
+  ]
 }

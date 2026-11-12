@@ -1,130 +1,80 @@
 # 008000 — The Sylvester equation
 
-**Track:** G3 audio paper track. **Draft:** adapted from G2 lecture 062000. **Section:** machinery. **Audience:** prior linear algebra and basic analysis.
+**Track:** G3 audio paper track. **Draft:** new G3 lecture, 12 November 2026. **Section:** sylvester. **Audience:** trial residuals and exact decompositions, the angle operator and its modulus identity, unitarily invariant norms and the contraction law.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Why a spectral gap can make an operator equation solvable
+The Sylvester equation
 
-Suppose we know a number c and want to recover an unknown number x from the equation a times x minus x times b equals c.
+The bridge from a residual to an angle is a single operator equation. This lecture derives it from the trial and exact data, explains why a spectral gap makes its solution small, and proves the first of the paper's Sylvester estimates, Theorem 5.1, which already gives the sine-theta theorem with constant one when the trial spectrum lies in an interval and the unwanted spectrum stays outside it.
 
-Because numbers commute, the left side is a minus b, multiplied by x. If a and b are different, we divide by their difference and obtain one solution. If a and b agree, either there is no solution or there are infinitely many, depending on whether c is zero.
+Here is what we will establish. First, with X equal to F one star E zero, the coordinates of the trial vectors in the unwanted space, the residual identity becomes Lambda one X minus X A zero equals F one star R. This is a Sylvester equation, with coefficients the unwanted block and the trial operator. Second, when both coefficients are diagonal, the equation divides each entry of the right-hand side by an eigenvalue difference; a distance gap then controls the Hilbert–Schmidt norm of X with constant one. Third, Theorem 5.1: if one coefficient has norm at most a and the other has an inverse of norm at most one over a plus delta, then delta times the norm of X is at most the norm of the right-hand side, in every norm compatible with operator multiplication. Fourth, after shifting by the center of the trial interval, the interval and exterior gap hypothesis is exactly this situation, and the sine-theta inequality follows.
 
-This elementary observation is the seed of the Sylvester equation, a central tool in matrix perturbation theory and, eventually, the Davis–Kahan estimates.
+From the residual to an equation for the angle
 
-For operators, the corresponding equation has A acting on one side of an unknown map X, and B acting on the other. The known map C is the defect we are trying to explain. Our job today is to understand what this equation asks, why differences of eigenvalues appear, and how separation of spectra controls the inverse problem.
+Recall the data. E zero is an isometric frame for the trial subspace and A zero is the self-adjoint trial operator, with residual R equal to A hat E zero minus E zero A zero. F zero and F one are isometric frames for the exact wanted subspace and its complement, and Lambda one is the self-adjoint operator on the complement, so that A hat F one equals F one Lambda one.
 
-The scalar equation and the finite spectral theorem already explain how the Sylvester operator can be inverted under spectral separation.
+The angle is measured by how much of each trial vector lies in the unwanted space. In coordinates of the unwanted space, that is X, defined as F one star E zero. It takes trial coordinates, builds the trial vector, and reads off its unwanted coordinates. From the angle-operator lecture, the modulus of X is the sine of Theta zero, so every unitarily invariant norm of X equals the same norm of the sine.
 
-## Keep the domains and codomains straight
+Now apply F one star to the residual. The second term gives F one star E zero A zero, which is X A zero. For the first term, take the adjoint of the intertwining equation: since A hat and Lambda one are self-adjoint, A hat F one equals F one Lambda one implies F one star A hat equals Lambda one F one star. So F one star A hat E zero equals Lambda one F one star E zero, which is Lambda one X. Therefore F one star R equals Lambda one X minus X A zero.
 
-Let E and F be finite-dimensional inner-product spaces. Let B act from E to E, and let A act from F to F. The unknown X maps E into F, and the known right-hand side C also maps E into F.
+In words: the residual, seen from the unwanted space, equals the unwanted block acting on the leaked part, minus the leaked part acted on by the trial operator. If the trial subspace were exactly the wanted spectral subspace, X would be zero and so would this part of the residual. When the operators are unbounded, the equation holds on the domain of A zero, and part of the work in a complete proof is checking that X carries that domain into the domain of Lambda one; the right-hand side is bounded, because R is.
 
-Then A followed by X is a map from E to F. So is X followed by B. Their difference is well-defined, even when E and F have different dimensions.
+An equation of the form C X minus X B equals Y, with X unknown, is called a Sylvester equation, after James Joseph Sylvester, who studied its matrix form in 1884. The rest of the sine-theta proof is a single question: how large can X be, given Y, under a spectral gap between B and C?
 
-The Sylvester equation says that A X minus X B equals C.
+The scalar case and the diagonal case
 
-This form of the equation is important. The two terms represent different actions: A acts after X in the output space, while B acts before X in the input space. We cannot factor out X as if A and B were scalar numbers living in one commutative algebra.
+When everything is a number, the equation reads c times x minus x times b equals y, so x equals y divided by c minus b. If c and b differ by at least delta, the absolute value of x is at most the absolute value of y divided by delta. This is the forty-degree example from the residual lecture: the unwanted part of the residual equals the unwanted eigenvalue minus the trial value, times the unwanted component of the trial vector.
 
-Instead, we treat the whole expression as a linear transformation on the vector space of maps from E to F. Call that transformation the Sylvester operator associated with A and B.
+Now let B and C be diagonal matrices, with diagonal entries b j and c i. The equation decouples entry by entry. The entry of C X in row i and column j is c i times x i j, and the corresponding entry of X B is x i j times b j. So c i minus b j, times x i j, equals y i j, and each entry of X is the corresponding entry of Y divided by an eigenvalue difference.
 
-Because composing with A and B is linear in X, the Sylvester operator is linear. Its invertibility is an ordinary linear-algebra question on a new, larger vector space.
+If every c i differs from every b j by at least delta, each entry of X is at most the entry of Y divided by delta in absolute value. Squaring and summing, the Hilbert–Schmidt norm of X is at most the Hilbert–Schmidt norm of Y divided by delta. For self-adjoint matrices, which can be diagonalized by unitaries that leave the Hilbert–Schmidt norm unchanged, this gives a general fact: a distance gap of delta between the spectra gives the Hilbert–Schmidt estimate with constant one. Davis and Kahan record this as their inequality 5.1.
 
-## Return to the scalar case
+The operator norm is different, because entrywise division by differences does not respect the operator norm. Davis and Kahan's example uses C diagonal with entries one and minus one, B diagonal with entries zero and two, and Y the symmetric matrix with rows three, three and three, minus three. The differences are one, minus one, minus one, and minus three, so X has rows three, minus three and minus three, one. The spectra are a distance one apart, but the operator norm of X is two plus root ten, about five point one six, while the operator norm of Y is three root two, about four point two four. So no operator-norm estimate with constant one follows from distance alone. The spectra here interlace: zero lies between minus one and one.
 
-Let a equal five and b equal two. If c equals twelve, the equation becomes five x minus two x equals twelve. The difference is three, so x equals four.
+Theorem 5.1: a window gives constant one
 
-If c changes to negative six, x becomes negative two. The solution scales linearly with c because the equation itself is linear.
+Davis and Kahan's first general estimate avoids diagonalization entirely. It holds in Banach spaces, for any norm on operators compatible with multiplication.
 
-Now let a approach b. If their difference is one tenth and c is one, the solution has magnitude ten. If the difference is one hundredth, the solution has magnitude one hundred.
+Suppose B is an operator with norm at most a, where a is at least zero, and C is an invertible operator whose inverse has norm at most one over a plus delta, with delta positive. Suppose C X minus X B equals Y. Then delta times the norm of X is at most the norm of Y.
 
-We already see the stability issue. Even when the solution is unique, it may be very sensitive to the right-hand side when a and b are close.
+The proof is three lines. Rearranging, C X equals Y plus X B. Apply the inverse of C: X equals C inverse times Y, plus C inverse times X B. Take norms, using compatibility with multiplication: the norm of X is at most one over a plus delta, times the norm of Y plus a times the norm of X. Multiply through by a plus delta: a plus delta, times the norm of X, is at most the norm of Y plus a times the norm of X. Subtract a times the norm of X from both sides. Delta times the norm of X is at most the norm of Y.
 
-The quantity one divided by the absolute value of a minus b is the norm of the scalar inverse. It tells us how large the solution can be relative to the data.
+The hypotheses can also be interchanged, with B the operator having a large inverse and C the small one; the same argument works with the inverse applied on the right. And C may be unbounded, as long as it has a bounded inverse of the stated size and B and X are bounded.
 
-If we demand that the absolute difference be at least a positive number delta, we obtain the bound: the magnitude of x is at most the magnitude of c divided by delta.
+What does compatible with multiplication mean? The norm of K times X times L must be at most the operator norm of K, times the norm of X, times the operator norm of L. Every unitarily invariant norm and every operator-ideal norm of the paper has this property; it is the contraction law. So Theorem 5.1 holds simultaneously in the operator norm, the Hilbert–Schmidt norm, the trace norm, and the rest. In fact, the argument uses only a left inverse of C with the stated bound, so the printed hypothesis can be weakened slightly.
 
-This is the simplest spectral-gap estimate.
+From Theorem 5.1 to the sine-theta inequality
 
-## Eigenvectors reveal the same denominators
+Now connect this to the interval and exterior gap. Suppose the spectrum of the trial operator A zero lies in an interval from beta to alpha, and the spectrum of Lambda one lies outside the larger interval from beta minus delta to alpha plus delta.
 
-Now assume A and B are self-adjoint, so the finite spectral theorem supplies orthonormal eigenbases.
+Let c be the center of the trial interval, beta plus alpha over two, and a its half-width, alpha minus beta over two. Shift both operators by c: replace A zero by A zero minus c times the identity, and Lambda one by Lambda one minus c times the identity. The Sylvester equation does not change, since c times X minus X times c is zero. After the shift, the trial operator is self-adjoint with spectrum in the interval from minus a to a, so its norm is at most a. The shifted Lambda one is self-adjoint with every spectral point at distance at least a plus delta from zero, so it is invertible and its inverse has norm at most one over a plus delta. These are exactly the hypotheses of Theorem 5.1.
 
-Let u be an eigenvector of A with eigenvalue a. Let v be an eigenvector of B with eigenvalue b.
+Therefore delta times N of X is at most N of F one star R, for every unitarily invariant norm N. By the contraction law, N of F one star R is at most N of R, since F one star is a contraction. And N of X equals N of the sine of Theta zero. Putting the pieces together, delta times N of the sine of Theta zero is at most N of R. That is the sine-theta inequality, with constant one, for the interval and exterior configuration with a bounded trial operator, including the case where Lambda one is unbounded.
 
-We want to understand the component of X that sends v toward u. Take the inner product of the Sylvester equation applied to v with u.
+The same works with the roles exchanged: if the spectrum of Lambda one lies in the interval and the trial spectrum outside, the interchanged form of Theorem 5.1 applies.
 
-For the first term, A X v, self-adjointness lets us move A to u. That produces a times the coefficient of X v along u.
+A worked check
 
-For the second term, X B v, the eigenvalue equation B v equals b v. That produces b times the same coefficient.
+Use the three by three example. The matrix with rows two, one, zero; one, two, zero; zero, zero, five has the wanted plane of e one and e two, on which it acts with eigenvalues one and three, and the unwanted direction e three, with eigenvalue five. Take a trial operator with spectrum one and three. The trial interval runs from one to three, with center two and half-width one. After shifting by two, the trial operator has norm one and Lambda one becomes three, whose inverse has norm one third, which is one over one plus two. So delta is two.
 
-Thus the component equation is precisely a minus b times the unknown coefficient of X, equal to the corresponding coefficient of C.
+In the free beam example, the trial operator is zero, so the interval is the single point zero, with half-width zero. The unwanted block of the perturbed beam has spectrum above five hundred, so its inverse has norm less than one over five hundred. The equation reduces to Lambda one X equals the unwanted part of the residual, and the norm of X is at most the norm of that part divided by five hundred. With the residual Gram matrix from the paper, whose larger eigenvalue is epsilon squared over thirty times eleven plus root seventy-six, the operator norm of R is about zero point eight one times epsilon, and so the largest sine is at most about zero point eight one times epsilon over five hundred.
 
-The scalar denominator reappears for every pair consisting of one eigenvalue of A and one eigenvalue of B.
+What the window argument cannot do
 
-This is the central structural fact. Instead of one division, the matrix equation needs a division for every spectral pair.
+Theorem 5.1 needs one coefficient to be bounded and the other to have a bounded inverse of the right size. That is a window: one spectrum in a bounded interval, the other outside it.
 
-## What spectral separation means
+It cannot handle ordered separation with both operators unbounded, such as the trial operator multiplying the n-th entry by n plus delta and Lambda one multiplying by minus n. Neither operator is bounded, and no shift makes one of them bounded. That case needs a different argument: Theorem 5.2, which can be proved by representing the solution of the Sylvester equation as an integral of exponentials.
 
-The spectrum of a finite self-adjoint matrix is the finite set of its real eigenvalues. If A and B have no common eigenvalue, every spectral difference a minus b is nonzero.
+And it cannot handle distance-only separation, where the spectra interlace and no window exists. There, as the two by two example shows, the operator-norm constant one is false, and only the Hilbert–Schmidt estimate survives with constant one.
 
-Since there are only finitely many pairs, the smallest absolute difference is a positive number. Call it delta.
+Where the equation comes from
 
-In this setting, the Sylvester equation has one solution for every right-hand side C.
+Sylvester studied the matrix equation in 1884 and showed that it has a unique solution for every right-hand side exactly when the two coefficient matrices have no common eigenvalue: the linear map taking X to C X minus X B has eigenvalues equal to the differences of eigenvalues of C and B. Marvin Rosenblum extended solvability to bounded operators with disjoint spectra in 1956, and studied the equation with self-adjoint coefficients in 1969. Davis and Kahan needed a quantitative version: not whether the solution exists, but how large it can be, in every unitarily invariant norm, depending on the geometry of the gap.
 
-If the spectra overlap, at least one denominator vanishes. On the corresponding pair of eigenspaces, the Sylvester operator cannot recover an arbitrary component of C. A nonzero right-hand-side component there makes the equation inconsistent. A zero component leaves the corresponding part of X undetermined.
+To summarize. With X equal to F one star E zero, the residual identity becomes the Sylvester equation Lambda one X minus X A zero equals F one star R, and the modulus of X is the sine of Theta zero. For diagonal coefficients the equation divides entries by eigenvalue differences, which gives the Hilbert–Schmidt estimate under a distance gap, but not the operator-norm estimate. Theorem 5.1 gives delta times the norm of X at most the norm of the right-hand side whenever one coefficient has norm at most a and the other an inverse of norm at most one over a plus delta, in every norm compatible with multiplication. Shifting by the center of the trial interval turns the interval and exterior hypothesis into that form, and the sine-theta inequality follows with constant one.
 
-So the spectral condition has two logical jobs. Nonzero differences give existence and uniqueness; a uniform positive lower bound on their magnitudes gives quantitative stability.
-
-For finite self-adjoint matrices, disjoint spectra automatically provide a positive separation. For infinite spectra, a pair may have no common point and still approach arbitrarily close. There, the existence of a positive gap is genuinely stronger than set disjointness.
-
-## Ordered gaps and mere distance gaps
-
-Remember the distinction between ordered spectral sets. One hypothesis says every eigenvalue of A lies at least delta above every eigenvalue of B. That is an ordered gap.
-
-A weaker hypothesis says every eigenvalue of A is at least delta away from every eigenvalue of B, without requiring A to lie entirely above or below B. That is a distance gap, also called pairwise spectral separation.
-
-Either condition makes every scalar denominator nonzero. But the ordered condition also gives those denominators a common sign.
-
-That sign coherence can support a simple integral formula for the Sylvester inverse: an exponential applied on the left decays while another exponential applied on the right compensates, and their combined decay is governed by delta.
-
-With interlaced eigenvalues, the denominators can have opposite signs. The entrywise solution still exists, but a single one-sided decaying exponential formula does not capture all terms at once.
-
-This distinction will matter when we ask how sharply the operator norm of X is bounded by the operator norm of C. A pairwise gap immediately gives a sharp Frobenius estimate in finite dimensions. A constant-one estimate for the operator norm follows under the stronger ordered-gap hypothesis; it does not follow from entrywise division alone for arbitrary interlaced spectra.
-
-## The new operator on matrices
-
-We can represent X by an m-by-n matrix. The entire space of such matrices has dimension m times n.
-
-For each pair of eigenvectors u and v, consider the rank-one map that takes an input's component along v and sends it in the direction u. There are m times n such maps, and they form an orthonormal basis of the matrix space when it is equipped with the Frobenius inner product.
-
-The Sylvester operator acts on that rank-one map by multiplication by the scalar a minus b. This is because left composition with A contributes a, and right composition with B contributes b.
-
-Therefore the Sylvester operator is diagonal in this natural basis of matrix units. Its eigenvalues are all the pairwise differences between the eigenvalues of A and B, counted with multiplicities coming from the eigenvalue lists.
-
-We have turned an operator equation into an ordinary diagonal linear system on the space of matrices.
-
-This also makes the kernel transparent. Each zero spectral difference contributes a free matrix coefficient. If there are no zero differences, the Sylvester operator is invertible.
-
-## Why we will need this in perturbation theory
-
-Suppose we have two spectral subspaces and want to quantify the extent to which a perturbation couples them. A residual block may measure the failure of an approximate eigenspace to be invariant.
-
-The desired correction block often obeys a Sylvester equation. The operators A and B represent restrictions to two spectral regions, and C represents the known residual.
-
-If those spectral regions are separated, we can hope to solve for X and bound it in terms of C and the gap. This explains, at a structural level, why spectral separation appears in subspace perturbation estimates.
-
-The eigenvalue differences are not decorative assumptions. They are the denominators of the inverse problem.
-
-## Work through four denominators
-
-Take A diagonal with entries five and one. Take B diagonal with entries two and negative one. For their four matrix positions, the differences of eigenvalues are three, six, negative one, and two. Notice the negative difference: the spectra are separated, but not ordered from one side to the other.
-
-Let every entry of C equal one. Divide each entry by its own difference. The solution X has entries one third, one sixth, negative one, and one half, in row order. The largest absolute entry is one because the smallest absolute gap is one.
-
-There is also a statement about the whole matrix. Squaring and adding those four solution entries gives twenty-five eighteenths. Squaring and adding the entries of C gives four. Thus the Frobenius norm of X is below the Frobenius norm of C divided by the gap, exactly as the entrywise proof predicts. This calculation alone does not establish the same constant for the operator norm.
-
-In a subspace perturbation problem, X records how trial vectors enter an unwanted exact spectral subspace, while C is a compressed residual. The four-entry calculation explains the mental picture: the residual is known, the wrong-subspace component is unknown, and spectral differences are the denominators that let us recover it. The geometry of the gap determines which matrix norm estimate we may claim.
+The window argument is limited to configurations where one side is bounded. Ordered gaps between two unbounded operators require the integral method of Theorem 5.2.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -132,60 +82,51 @@ In a subspace perturbation problem, X records how trial vectors enter an unwante
 
 ## Companion: mathematics and Lean correspondence (display only)
 
-For \(A:F\to F\), \(B:E\to E\) and \(X,C:E\to F\), define \(\mathcal S_{A,B}(X)=AX-XB\). If \(Au_i=a_i u_i\) and \(Bv_j=b_j v_j\), then in orthonormal eigenbases,
+### Derivation
+
+\(X=F_1^*E_0\), \(|X|=\sin\Theta_0\). From \(\widehat AF_1=F_1\Lambda_1\) and self-adjointness, \(F_1^*\widehat A=\Lambda_1F_1^*\) (on the appropriate domain), so
 \[
-\langle u_i,\mathcal S_{A,B}(X)v_j\rangle=(a_i-b_j)\langle u_i,Xv_j\rangle.
+F_1^*R=F_1^*\widehat AE_0-F_1^*E_0A_0=\Lambda_1X-XA_0\quad\text{on }\operatorname{dom}A_0 .
 \]
-The finite Sylvester operator is invertible iff \(a_i\ne b_j\) for every pair. Ordered spectral separation yields stronger integral representations than arbitrary pairwise separation; a sharp Frobenius bound holds in finite dimension under the latter.
 
+### Diagonal case and (5.1)
 
-**Interlaced two-by-two example.** For
+\(B=\operatorname{diag}(b_j)\), \(C=\operatorname{diag}(c_i)\): \((c_i-b_j)x_{ij}=y_{ij}\). If \(|c_i-b_j|\ge\delta\): \(\delta\|X\|_{\rm HS}\le\|Y\|_{\rm HS}\) (Davis–Kahan (5.1)); and \(\delta\|X\|_{\rm op}\le\sqrt{\operatorname{rank}Y}\,\|Y\|_{\rm op}\) ((5.2)).
+Example (Section 5): \(C=\operatorname{diag}(1,-1)\), \(B=\operatorname{diag}(0,2)\), \(Y=\begin{pmatrix}3&3\\3&-3\end{pmatrix}\), \(X=\begin{pmatrix}3&-3\\-3&1\end{pmatrix}\); \(\|X\|=2+\sqrt{10}>3\sqrt2=\|Y\|\).
+
+### Theorem 5.1
+
+\(\|B\|\le a\), \(\|C^{-1}\|\le(a+\delta)^{-1}\), \(CX-XB=Y\), \(N(KXL)\le\|K\|N(X)\|L\|\):
 \[
-A=\begin{pmatrix}5&0\\0&1\end{pmatrix},\qquad
-B=\begin{pmatrix}2&0\\0&-1\end{pmatrix},\qquad
-C=\begin{pmatrix}1&1\\1&1\end{pmatrix},
+X=C^{-1}Y+C^{-1}XB\ \Rightarrow\ N(X)\le\frac{N(Y)+aN(X)}{a+\delta}\ \Rightarrow\ \delta N(X)\le N(Y).
 \]
-the entrywise differences are \(\begin{psmallmatrix}3&6\\-1&2\end{psmallmatrix}\), so
+
+### Interval/exterior sine-theta
+
+\(\sigma(A_0)\subseteq[\beta,\alpha]\), \(\sigma(\Lambda_1)\cap(\beta-\delta,\alpha+\delta)=\varnothing\); \(c=\tfrac{\alpha+\beta}2\), \(a=\tfrac{\alpha-\beta}2\): \(\|A_0-c\|\le a\), \(\|(\Lambda_1-c)^{-1}\|\le(a+\delta)^{-1}\). Hence
 \[
-X=\begin{pmatrix}1/3&1/6\\-1&1/2\end{pmatrix},\qquad
-\|X\|_F^2=\frac{25}{18}\le 4=\|C\|_F^2,
-\qquad \delta=1.
+\delta N(\sin\Theta_0)=\delta N(X)\le N(F_1^*R)\le N(R).
 \]
-The negative denominator prevents use of the one-sided ordered-gap integral even though every entry is uniquely solvable.
+Examples: \(\sigma(A_0)=\{1,3\}\), \(\Lambda_1=5\): \(c=2,a=1,\delta=2\). Beam: \(A_0=0\), \(\sigma(\Lambda_1)\subset(500,\infty)\), \(\|R\|_{\rm op}=\varepsilon\sqrt{(11+\sqrt{76})/30}\approx0.811\varepsilon\), so \(\|\sin\Theta_0\|\le0.811\varepsilon/500\).
 
-**Lean bridge (verbatim excerpts).**
+### Lean correspondence
 
-`DavisKahan/Sylvester/FiniteBlockReconstruction.lean`:
+`DavisKahan/Sources/DavisKahan1970/Section5BanachSylvester.lean`:
 
 ```lean
-theorem finiteDiagonal_sylvester_block
-    {m n : ℕ}
-    (P : Fin m → F →L[ℂ] F) (Q : Fin n → E →L[ℂ] E)
-    (a : Fin m → ℝ) (b : Fin n → ℝ)
-    (hPid : ∀ i, P i * P i = P i)
-    (hPorth : ∀ i j, i ≠ j → P i * P j = 0)
-    (hQid : ∀ i, Q i * Q i = Q i)
-    (hQorth : ∀ i j, i ≠ j → Q i * Q j = 0)
-    (X : E →L[ℂ] F) (i : Fin m) (j : Fin n) :
-    P i ∘L (finiteDiagonalOperator P a ∘L X -
-      X ∘L finiteDiagonalOperator Q b) ∘L Q j =
-      (((a i - b j : ℝ) : ℂ)) • (P i ∘L X ∘L Q j) := by
+theorem theorem5_1_banach_sylvester
+    (N : CompatibleCrossOperatorNorm (𝕜 := 𝕜) (X := X) (Y := Y))
+    (A : Y →L[𝕜] Y) (B : X →L[𝕜] X)
+    (T C : X →L[𝕜] Y) {gamma delta : ℝ}
+    (hgamma : 0 ≤ gamma) (hdelta : 0 < delta)
+    (hB : ‖B‖ ≤ gamma)
+    (hleft : BoundedLeftInverseData A (gamma + delta)⁻¹)
+    (hEq : A ∘L T - T ∘L B = C) :
+    delta * N T ≤ N C
 ```
 
-A rectangular spectral block of the Sylvester defect equals its cross-eigenvalue difference times the corresponding block of the unknown map.
+**Mapping notes.**
 
-`DavisKahan/InfiniteDimensional/Sylvester/Basic.lean`:
-
-```lean
-theorem norm_sylvester_le_of_orderedSeparation
-    {A : Fc →L[ℂ] Fc} {B : Ec →L[ℂ] Ec} {X C : Ec →L[ℂ] Fc}
-    (hA : A.IsSymmetric) (hB : B.IsSymmetric)
-    {d : ℝ} (hd : 0 < d)
-    (hsep : OrderedSpectraSeparated B ⊤ A ⊤ d)
-    (hEq : ContinuousLinearMap.sylvester A B X = C) :
-    d * ‖X‖ ≤ ‖C‖ := by
-```
-
-This source theorem states the sharp constant-one operator-norm bound under ordered spectral separation. It does not assert the same constant for interlaced arbitrary pairwise gaps.
-
-**Reconstruction exercise:** Reprove the principal displayed identity from the spoken lecture, then identify the exact source/target types and extra assumptions in each displayed Lean declaration.
+- Lean's `A, B, T, C` are the lecture's \(C, B, X, Y\) (the source writes \(AX-XB=C\)).
+- The docstring records that only a bounded *left* inverse is used, so this reusable theorem is stronger than the printed one; `theorem5_1_banach_sylvester_exact` restores the two-sided inverse hypothesis for source auditing. Interchanged and unbounded-`A` variants: `theorem5_1_banach_sylvester_interchanged`, `banach_sylvester_lower_bound_unboundedA`.
+- `CompatibleCrossOperatorNorm` is the formal version of “compatible with multiplication.”

@@ -1,45 +1,58 @@
 {
   "schema_version": 1,
   "lecture_id": "020000",
-  "source_g2": "110000",
-  "related_resources": [
+  "source_g2": null,
+  "transcript": "020000-the-sine-theta-theorem.md",
+  "historical_claims": [
     {
-      "source_id": "higham-sylvester",
-      "reason": "Matrix Sylvester equation; note the lecture-specific operator norm and spectral-gap conditions."
+      "id": "020000-h01",
+      "anchor": "Davis and Kahan note that orthogonal direct sums of such planar examples give equality simultaneously in every unitarily invariant norm.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 2, paragraph after the four theorem statements",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "davis-kahan-1970",
-      "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+      "id": "020000-h02",
+      "anchor": "Chandler Davis studied the rotation of eigenvectors under perturbation in 1963 and 1965, and the sine-theta theorem appears, with the tangent and double-angle theorems, among the four headline results of Section 2 of the 1970 paper by Davis and William Kahan, after their 1969 announcement.",
+      "kind": "historical_attribution",
+      "source_ids": ["davis-1963", "davis-1965", "davis-kahan-1969", "davis-kahan-1970"],
+      "source_locator": "Davis-Kahan (1970), Section 2",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "hsu-dk-notes",
-      "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+      "id": "020000-h03",
+      "anchor": "Davis and Kahan assert that the constants in all four are best possible, attained by two-dimensional examples, and that when the perturbation depends linearly on a small parameter the four estimates agree to first order.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 2, sharpness paragraph",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "motovilov-selin-subspace-bounds",
-      "reason": "Contrast ordered-gap and convex-hull gap hypotheses in sharp tangent estimates."
-    },
-    {
-      "source_id": "bindel-eigen-perturbation",
-      "reason": "Study concrete perturbation examples and first-order spectral sensitivity."
-    },
-    {
-      "source_id": "bindel-ritz-eigensolvers",
-      "reason": "Follow Rayleigh-Ritz residual orthogonality and the logic of extracting approximate eigenpairs."
-    },
-    {
-      "source_id": "wiki-rayleigh-ritz-method",
-      "reason": "Trial-space compressions and the residual entering the sine theorem."
-    },
-    {
-      "source_id": "wiki-angles-between-flats",
-      "reason": "Directed sine angles represented by complementary projections."
-    },
-    {
-      "source_id": "wiki-sylvester-equation",
-      "reason": "The spectral-gap equation producing the quantitative bound."
+      "id": "020000-h04",
+      "anchor": "They state the theorem for infinite as well as finite dimensional separable Hilbert spaces, for every unitarily invariant norm, and, with the domain conditions and a bounded residual, for unbounded self-adjoint operators with half-infinite spectral intervals.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Introduction; closing scope paragraphs of Section 2; Appendix to Section 6",
+      "audit_status": "pending_primary_passage_comparison"
     }
   ],
-  "transcript": "020000-the-sine-theta-theorem.md",
-  "historical_claims": []
+  "related_resources": [
+    {
+      "source_id": "davis-kahan-1970",
+      "reason": "The original paper; read Section 2 for the four headline theorems and Section 6 for the sine-theta proof."
+    },
+    {
+      "source_id": "wiki-eigenvalue-perturbation",
+      "reason": "First-order eigenvector perturbation, which the sine-theta theorem makes rigorous and non-asymptotic."
+    },
+    {
+      "source_id": "bhatia-1997",
+      "reason": "Chapter VII presents the Davis-Kahan sin theta theorem for matrices and related perturbation bounds."
+    },
+    {
+      "source_id": "wiki-weyl-inequality",
+      "reason": "Weyl's inequality is the usual way to certify the separation delta from an original eigengap and the size of the perturbation."
+    }
+  ]
 }

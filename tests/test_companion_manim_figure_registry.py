@@ -37,7 +37,8 @@ def test_manim_composer_has_native_geometry_and_browser_uses_rendered_frames():
 def test_cumulative_editorial_inventory():
     library = CompanionSlideLibrary()
     stages = Counter(row['editorial_stage'] for row in library.catalog())
-    assert stages['expanded'] >= 97
+    # G3's rewrite retires decks for merged lectures (007000, 015000, 019000).
+    assert stages['expanded'] >= 94
     assert stages['baseline'] >= 84
     assert stages['baseline'] + stages['expanded'] == len(library.catalog())
     for lecture in ('091250','091500','092250','099500'):

@@ -1,611 +1,383 @@
 # Lecture style rules
 
-These rules collect preferences Jon directly expressed while reviewing these
-lectures. They are not a general presentation style guide or a list of new
-agent suggestions. Technical implementation belongs in the
-[authoring guide](dkvis/learning/README.md) and
+These rules collect preferences Jon has directly expressed while reviewing the
+lectures. They are not a general style guide or a place for new agent
+suggestions. Technical mechanics belong in the
+[authoring guide](dkvis/learning/README.md) and the
 [slide implementation notes](briefs/slide-authoring.md).
 
-## Concept-first teaching and realistic listening pace (11 November 2026)
+The rules were consolidated on 12 November 2026. Earlier versions had grown
+through repeated audits and, applied together, produced uniform, cautious
+lectures. Fewer, clearer rules are intended. When a rule here conflicts with
+good mathematical teaching, raise the conflict rather than writing around it.
 
-The governing aim is **to develop mathematical understanding at the speed at
-which a listener can build a mental model**. Correct definitions and complete
-theorems are essential, but a sequence of correct statements is not by itself a
-teachable lecture. A reader can pause and inspect symbols; a TTS listener must
-follow the argument in real time without a board to look back at.
+Sections 1–7 govern the spoken mathematics tracks (G2 and G3). Sections 8–10
+cover visual versions, history lectures and track bookkeeping.
 
-**Ten minutes is a soft target, not a limit or a writing quota.** Take as long as
-is useful to establish the concept, work an example, and justify the important
-steps. Do not remove hypotheses, rush a proof, omit a calculation, or compress
-explanations to meet a spoken-word or runtime target. Do not pad a short,
-complete lesson either. If several substantial independent ideas are being
-introduced, consider separate, individually standalone recordings; maintain
-the mathematical coverage and the course's identifiers and navigation.
+## 1. What the mathematics lectures are for (12 November 2026)
 
-**Build an explanation before presenting its abstraction.** Plan a mathematical
-learning path, not merely a theorem outline:
+The G2 and G3 audio tracks have two purposes:
 
-1. Find an accessible problem or observation that the intended audience can
-   already reason about. Give the listener a concrete reason to care about the
-   question. Avoid starting with a dense inventory of named maps and spaces.
-2. Work a small, audible example. Explain the objects and the calculation in
-   plain language. When the example fails or leaves a question, make that
-   obstacle explicit; it provides the reason for introducing a new definition.
-3. Introduce the general construction when the listener has a referent for it.
-   State the mathematical setting and hypotheses at the point where they are
-   needed. Revisit the same example to interpret the definition and to expose
-   which features were specific to the example.
-4. Before a substantial proof, explain the desired conclusion and the idea of
-   the argument. At each key step, say what has now been established and what
-   remains. Slow down at domain restrictions, changes of space, and
-   implications that are not reversible.
-5. Consolidate with a second use of the running example, a meaningful failure
-   case, or a small calculation the listener can reconstruct. End with the
-   actual mathematical result and its important limitation.
+1. help a serious reader understand the Davis–Kahan theory as formalized in the
+   journal paper: its definitions, hypotheses, constructions and proofs,
+   well enough to read the paper and its proofs with confidence; and
+2. serve as an evergreen, careful course in the operator theory those results
+   depend on. The course is meant to be more than an introduction.
 
-This is a **reasoning pattern, not a fixed section template**. Sometimes a
-theorem is the right opening, sometimes a physical model or an immediate
-calculation. Do not force repeated question headings, recaps, or exercises.
+The lectures are **text-to-speech first**. They must not rely on visuals. A
+listener who is paying attention and working to internalize the ideas should
+come away with a usable mental model *and* with the details: exact
+definitions, real hypotheses, the steps of the proofs, and the examples that
+show why each hypothesis is there. At minimum, a lecture should make the
+corresponding written mathematics noticeably easier to read afterwards.
+
+The lectures are mathematical content. They do not refer to the repositories in
+which the formalization was developed or to the lineage of its code. When
+visual versions are made, Lean receives real treatment there, as independently
+checkable grounding for the statements and their dependencies (Section 8).
+
+Revise slowly, one lecture at a time. A lecture that has been rethought from the
+mathematics is worth more than many lightly edited ones.
+
+## 2. Length
+
+**There is no duration target.** A lecture is as long as it needs to be to
+convey its mathematics reliably and correctly. Ten minutes is generally too
+short for this material; longer lectures are welcome. Do not compress a proof,
+drop a hypothesis, skip a calculation or omit an example to save time.
+
+Length must come from substance: a fuller argument, a second example, a slower
+pass through a hard inference. Do not pad with recaps, generic transitions or
+restatements. Split a recording only when it contains genuinely separate
+subjects, not to meet a length.
+
+## 3. Teaching method
+
+The aim is **to develop understanding at the speed at which a listener can
+build a mental model**. A reader can pause and look back at symbols; a listener
+follows the argument in real time. A sequence of correct statements is not by
+itself a teachable lecture.
+
+**Build the explanation before the abstraction.** Plan a learning path, not a
+theorem outline:
+
+1. Start from a problem or observation the audience can already reason about,
+   and give a concrete reason to care. Do not open with an inventory of named
+   maps and spaces.
+2. Work a small, audible example. When it fails or leaves a question, make the
+   obstacle explicit; that obstacle motivates the next definition.
+3. Introduce the general construction once the listener has a referent for it.
+   Return to the example to interpret the definition and to show which
+   features were special to the example.
+4. Before a substantial proof, say what it concludes and the idea of the
+   argument. At each key step, say what is now established and what remains.
+   Slow down at domain restrictions, changes of space, and implications that
+   do not reverse.
+5. Consolidate with a second use of the example, a meaningful failure case, or
+   a calculation the listener can reconstruct. End with the actual result and
+   its important limitation.
+
+This is a reasoning pattern, not a section template. Sometimes the theorem is
+the right opening; sometimes a physical model or an immediate calculation is.
 What is required is an intelligible thread of *why this step comes next*.
 
-**Control the number of active objects.** Introduce the input, output, and
-role of a new map before naming the next one. Whenever a new coordinate space,
-projection, residual, spectral cluster, gap, or domain appears, locate it
-relative to the objects already in use. Reuse a small running example rather
-than changing numerical models at every definition. Revisiting the example
-with a new purpose is useful; repeating the same sentence is not. If several
-constructions are needed for a theorem, give a verbal preview of their jobs
-before presenting the full notation.
+> “Start with the high level true statements we are going to learn.”
+> “It turns out that <true statement>, let's think about why.”
+
+Early on, state the true conclusions the lecture will reach, in accessible
+terms, then use them as the roadmap. Do not withhold the destination to create
+suspense.
+
+> “Good intros / motivations / a small bit of historical context / summaries.”
+> “The important information is very abrupt, and we are failing to establish a coherent thread that ties the entire lecture together.”
+
+Give the concept's motivation and a little historical context where it helps.
+Write the lecture as one connected explanation: carry the current question and
+what has been established into each new section, give important information a
+lead-in, and explain its consequence before moving on. Generic transition
+phrases do not supply this thread. End by returning to the opening claims so
+the listener can see what has now been justified.
+
+**Control the number of active objects.** Give a new map's input, output and
+role before naming the next one. When a new space, projection, residual,
+spectral cluster, gap or domain appears, place it relative to the objects
+already in use. If a theorem needs several constructions, preview their jobs in
+words before giving the notation.
+
+**Explain notation and jargon at the point of use.**
+
+> “It's the jargon and shorthand for concepts viewers are not familiar with.”
+> “It's not enough to just say what it is ... the context ... is primed.”
+
+Describe an operation in plain language before naming it, for example show how
+small coefficients describe a vector in the big space before calling it a
+“lift”. Unpack shorthand such as “normal-to-normal action” into which input and
+output components are meant. Replace “by symmetry” with the particular symmetry
+and why it gives the relation, unless that step is already familiar.
+
+**Spoken proof pacing.** At a difficult inference, give a concrete picture,
+perform one operation, and say what it established before starting the next.
+Keep a projection, its complement, a displacement operator and its Gram
+operator distinct in the narration; their symbols look alike, but their roles
+differ. Prefer short interpretive sentences to several identities recited in
+one breath.
+
+**Make calculations speakable.** For a matrix with many entries, first say what
+it *does*: which subspace it preserves, which direction moves, what property is
+being tested. Work one representative entry or vector aloud and explain how the
+rest follow; put the full array in the companion. State radicals and eigenvalue
+lists in intelligible chunks, with approximations supporting the exact values.
 
 **Work from the mathematics, not from the existing paragraphs.** In a deep
-revision, first record the correct definitions, hypotheses, main proof steps,
-examples, and target conclusions. Design the teaching progression independently
-of the draft's original order, and rewrite the spoken region accordingly.
-Preserve the mathematical coverage, exact conditions and counterexamples in the
-recording or a deliberately revised curriculum plan. Update the display-only
-mathematical/Lean companion when the exposition changes a convention, example,
-or theorem statement. In particular, use consistent resolvent signs within a
-lecture and explain any convention change across its displayed sources.
+revision, first write down the definitions, exact hypotheses, proof steps,
+examples and conclusions. Design the teaching order independently of the old
+draft and rewrite the spoken region to match. Keep the mathematical coverage,
+exact conditions and counterexamples, or record a deliberate curriculum change.
 
-**Spoken proof pacing.** At a difficult inference, give the listener a concrete
-picture, perform one mathematical operation, and explain what that operation
-established before introducing another. In particular, separate a projection,
-its complement, a displacement operator and its Gram operator in the narration:
-they play different roles even when their symbols look similar on paper.
-State numerical radicals and eigenvalue lists in intelligible spoken chunks,
-using approximations to support rather than replace exact companion equations.
-Use short interpretive pauses in prose instead of reciting several identities
-in one sentence. The goal is an argument the listener can reconstruct without
-looking at the screen; artificial filler and repeated recaps do not help.
+## 4. Mathematical precision
 
-**Make the calculation speakable.** When a proof requires a matrix with many
-entries, first explain what the matrix *does*: which subspace it preserves,
-which direction moves, and what property is being tested. Put the explicit
-coordinate array in the mathematical companion. In speech, work through one
-representative entry or projected vector and then explain how the remaining
-entries follow. Avoid reading entire matrix rows or long chains of exact
-radicals when the listener needs the geometric action first. For a norm proof,
-explain which quantity is being added, squared, or maximized before reciting
-the resulting inequality. This applies to previously revised lectures as
-well as new material.
-
-**Audio-first editorial test.** Read the extracted spoken region in order, with
-appendices and visuals hidden. At each mathematical transition ask: can the
-listener identify the current objects; perform or visualize the example; see
-why the new fact was needed; and reconstruct the reason for the conclusion?
-A phrase scan, presence of headings, target word count, or satisfactory
-narration extraction is not a substitute for this judgement.
-
-**Review is feedback-driven.** The author should self-edit the transcript for
-clarity, mathematical fidelity, and clean TTS extraction. There is no required
-per-lecture A/B comparison, controlled listening study, or manual audio
-acceptance gate. Publish the revised lecture and use listener feedback to
-identify specific passages for another pass. Audio synthesis and spot
-listening remain useful when a concrete pronunciation or pacing problem needs
-testing, not as a recurring obligation for every lecture.
-
-## Standalone and evergreen
-
-> “The lectures should stand alone.”
-> “I do want to make these videos more ‘evergreen’.”
-
-Write for a viewer who has not participated in the authoring conversation.
-A transcript must not answer a prompt or refer to the author's earlier remarks.
-For example, replace “your displacement intuition is useful” with a direct
-explanation of displacement. This applies to spoken narration as well as
-visible slide text.
-
-Give the lecture its own mathematical question and explanation. A connection
-to matching or this formalization is fine as an application, but do not rely on
-an unexplained reference to “the proof” or “the paper” to supply the motivation.
-
-> “Provenance and historical details of the project ... does not belong there.”
-
-Keep project bookkeeping, implementation ancestry, and repository ownership out
-of spoken mathematical lessons. Record those in provenance files and source
-notes. Mathematical history can motivate a construction; project history must
-not interrupt the explanation of that construction.
-
-## Standalone narration without chronological references (11 November 2026 clarification)
-
-The curriculum has real prerequisites, and a learner may reasonably need to
-study them before an advanced lecture. **Do not require each recording to
-re-teach its entire dependency chain.** Preserve the intended prerequisite
-order in curriculum metadata and introduce the current topic at the level of
-its intended audience.
-
-At the same time, listeners often choose recordings out of order. Avoid spoken
-chronology such as “in the previous lecture,” “last time,” “we covered this
-earlier,” “in the next lesson,” or numbered episode references. State the
-mathematical fact or prerequisite directly when needed, without discussing
-which video teaches it. Short reminders help connect concepts, but do not
-re-prove standard background solely to make every recording self-contained
-from first principles.
-
-Define the objects, conventions, and concrete examples **specific to this
-recording** before using them, even when an example also appears elsewhere.
-A listener with the expected mathematical prerequisites should be able to
-follow the present argument without knowing the exact narration of another
-video. Conclusions should finish the current mathematical argument, not
-announce the next recording.
-
-Keep prompting, authoring instructions, curriculum planning, provenance
-bookkeeping, repository details, proof-assistant implementation, extraction
-instructions, and remarks about what a source file happens to formalize out of
-ordinary spoken mathematics. Preserve true attribution and the theorem's exact
-hypotheses: name the mathematician, theorem, source paper, or mathematical
-construction **when that information actually explains the result**. Put
-Lean names, definitions, source locations, verified declaration excerpts,
-current dependency locations, and original DKPS donor provenance in the
-separate display-only appendix.
-
-The introductory G2 material begins with basic linear algebra and calculus.
-Later lectures can assume the functional-analysis and spectral-theory material
-listed as prerequisites in the course graph. Introduce notation and less
-familiar terms at the point of use, and use concise reminders where useful.
-G3 has its own, more advanced audience baseline; do not flatten the two tracks
-into a single prerequisite level.
-
-Prefer a clear self-contained mathematical question, followed by the setting,
-argument, example where helpful, and a conclusion about the theorem and its
-limits. Within-lecture callbacks are fine. Don't force every section into the
-same rhetorical pattern; avoid contrived hooks or recitations of the whole
-course plan. Speak equations naturally, keeping exact formulas and Lean
-connections outside the spoken region when necessary for TTS clarity.
-
-**Out-of-order listening edit test:** extract the narration alone, ignoring
-metadata and appendices. Can a listener with the stated prerequisites identify
-the current objects, assumptions, example and conclusion without a pointer to
-another recording? Are references to background expressed as mathematics,
-rather than as chronology or authoring instructions? This editorial test is separate
-from proof verification and from listening to synthesized audio.
-
-## Standalone revision checks (8 November 2026)
-
-Before editing a reference to another recording, identify the mathematical
-antecedent it carries. Restore the operator, matrix, vectors, theorem premises,
-parameter range, or earlier calculation locally **before** removing chronology.
-A cross-episode reference can hide missing mathematics; a text-only substitution
-is insufficient when the proof depends on that data.
-
-Read the first substantive paragraph and the last substantive paragraph after
-editing, not merely the changed sentence. A deleted recap can strand a pronoun
-or leave a leading comma; a deleted sequel announcement can leave an empty or
-fragmentary conclusion. End on a consequence or limitation established in the
-current recording. An invitation to independently reconstruct that proof is
-fine; an announcement about another recording is not.
-
-A series-wide phrase scan must distinguish technical uses of words like
-"source" (domain of a linear map, a source defect subspace) from repository
-or editorial references. Likewise, "next" may describe the next step **within
-the present proof**. Inspect the context rather than blindly deleting all
-matches.
-
-For recurring numerical models, each lecture should introduce the model
-domain, boundary conditions, parameter restrictions, trial space, chosen basis
-when relevant, and the particular residual and gap used. Recompute at least
-one defining step when reusing a Gram matrix or Ritz residual, rather than
-merely asserting a result calculated in another recording.
-
-The narration extractor validates markers and printable input, not prose,
-logic, operator domains, theorem correspondence, or voice quality. Keep
-editorial review, mathematical source checks, compilation checks, and any
-optional audio spot checks separately identified in completion records.
-
-## Pedagogical structure audit (8 November 2026)
-
-Review the mathematical teaching sequence, not just editorial trigger words.
-For each recording, check that its opening identifies a definite
-mathematical question, its local assumptions are supplied before they are needed,
-and its definitions support the examples and proof that actually follow.
-A successful section should explain why the next lemma or construction is
-needed, what it gives, and what remains to be established. End with the
-precise result and any limitation that the recording has justified.
-
-References to another episode can be disguised as names: “lecture seventy-two,” “our pinching lecture,” “the earlier Sylvester unit,” or “as we
-studied.” Detect spelled-out numbers as well as digits, and substitute the
-**applicable mathematical statement**, not merely a generic transition.
-Read the resulting paragraph to ensure that the prerequisite or example data
-has not been lost and that the new opening or conclusion is grammatical.
-
-For perturbation results, keep apart the source and target subspaces,
-spectral clusters, residual operator, gap hypothesis, domain conditions,
-angle branch, scalar field, and norm class. A statement about squared ambient
-displacement does not on its own yield the same statement about unsquared
-trace-norm displacement. Numerical examples require the actual parameters
-and defining calculation, especially when they are reused elsewhere.
-
-Track structural findings in a per-lecture disposition record. Lexical
-heuristics, section counts, and spoken-word estimates are useful *screening*
-signals; they are not grades for mathematical pedagogy, and a lack of a
-phrase such as “for example” does not prove that the lesson has no example.
-Do not rewrite clear mathematics to satisfy a uniform lecture template.
-Distinguish transcript extraction, editorial review, theorem-source checks,
-Lean compilation, and any optional synthesized-audio checks in the validation record.
-
-The current TTS course phase is *lecture structure and narration audit*.
-Visualizations, slide decks, and a companion presentation are future work.
-The present recordings should remain mathematically understandable without
-those aids; do not add slide cues or visual dependencies prematurely.
-
-## Human-lecture voice: remove drafting and validation artifacts (8 November 2026)
-
-Judge the **spoken region only** as a finished mathematical lecture. A listener
-should hear a mathematician developing an argument, not an assistant reporting
-what its author, code repository, or proof assistant did. Keep edit history,
-compilation status, theorem-file provenance, machine-checking details, source
-wrappers, and validation disclaimers in the companion appendix or review report.
-Do not announce those facts in the narration to establish credibility.
-
-Use direct mathematical claims when their hypotheses are satisfied. Avoid
-ritual qualifiers such as "we are not claiming," "it would be wrong to claim,"
-"this is not just an example," "we have not yet validated," "the source
-formalizes," or "the proof is not mere paperwork." Replace each with the
-specific fact: a conclusion under its assumptions, the reason a tempting
-inference fails, or the exact counterexample. Avoid repetitive contrasts of
-the form "not X, but Y" when Y can be stated on its own. Treat phrases such as
-"what matters," "the lesson is," "quietly," "silently," "the payoff," and
-"the machinery" as editing prompts, **not** forbidden vocabulary; retain one
-only when it genuinely helps the explanation.
+**State hypotheses in content, not by pointer.** A theorem's hypotheses are
+spoken as conditions the listener can check: “every eigenvalue of A zero lies
+in the interval from a to b, and every eigenvalue of Lambda one lies at least
+delta outside it”, rather than “under one of the supported separation
+conditions” or “assuming the relevant Sylvester theorem applies”. If an exact
+condition is too intricate to speak, explain its shape and why it is needed,
+and give the precise form in the companion.
 
 **Mathematical qualifications stay.** Say what was proved, what remains open,
 and why the hypotheses matter. Distinguish a theorem from an unsupported
-extension; distinguish an explicit counterexample from a merely failed proof;
-retain finite/infinite-dimensional, real/complex, domain, norm-ideal, and
-spectral-gap constraints. Do not remove these distinctions merely because the
-original phrasing sounds defensive. Prefer, for example, "A pairwise spectral
-gap yields the constant-one Hilbert–Schmidt estimate but not the corresponding
-operator-norm estimate" over "We cannot claim the stronger bound."
+extension, and an explicit counterexample from a failed proof. Retain
+finite/infinite-dimensional, real/complex, domain, operator-ideal and
+spectral-gap constraints. For perturbation results, keep apart the source and
+target subspaces, spectral clusters, residual, gap hypothesis, domain
+conditions, angle branch, scalar field and norm class. A statement about squared
+displacement does not by itself give the unsquared one.
 
-An ordinary human instructor can say "we will prove" or ask the listener to
-try a calculation. But dozens of episodes opening "Today we will..." and
-closing with prescribed "lessons" sound templated. Vary the rhythm by stating
-the problem, the relevant construction, or a precise result directly. A course
-introduction and a proof practicum may discuss course goals and exercises;
-an ordinary lecture should stay focused on its own subject. Rewrite former
-"yesterday" and "later we will" transitions as local mathematical context.
-
-After an edit, read the **whole paragraph** and its neighbors. Check that
-removing a disclaimer has not made a stronger theorem appear, stranded a
-pronoun, or created an abrupt definition. Treat audit phrase matches as review
-candidates, not automated proof that a sentence is defective.
-
-## Editorial reports and metadata: report facts directly (8 November 2026)
-
-Apply the same human-writing standard to audit reports, completion summaries,
-README files, sidecar descriptions, and recommendations. Describe the change,
-show the result, and identify specific remaining work. Avoid ritual assertions
-about what a review, citation, Lean build, or source locator does *not* prove.
-
-Prefer a compact record such as “150 narration files pass extraction; 49
-historical claims await comparison with the cited passages; Lean compilation
-was not run.” Each item has a useful operational meaning. Do not append
-paragraphs explaining why a bibliographic link cannot certify a theorem, why
-an editorial scan is not a proof, or why a step was not performed unless a
-specific reader decision depends on that distinction.
-
-Report statuses in the audit ledger and validation table. The prose should
-explain substantive findings, corrections, and priorities, without rehearsing
-obvious epistemic limitations. When uncertainty affects a mathematical or
-historical claim, name the exact disputed proposition and the evidence needed.
-Never substitute confident language for accurate scope. Keep real limitations
-where they prevent a misleading concrete conclusion.
-
-**Final editorial check:** delete each sentence whose only contribution is
-“this does not establish X” or “we are not claiming Y,” then see whether any
-specific information was lost. If the information matters, replace the sentence
-with the actual check performed, missing source passage, or affected theorem.
-
-## Audience and scope
-
-> “It's the jargon and shorthand for concepts viewers are not familiar with.”
-> “It's not lack of examples that makes following this hard.”
-
-Make the explanation accessible to the stated audience. Explain unfamiliar
-concepts and shorthand instead of trying to solve every clarity problem by
-adding examples. A learner's walkthrough and a compact specialist presentation
-serve different purposes. The requested specialist proof presentation should
-not reteach background its audience already knows.
-
-## Introductions, motivation, and summaries
-
-> “Start with the high level true statements we are going to learn.”
-> “A few crash course slides ... give them the entire picture, and then the rest ... are details.”
-
-After the title, give a compact overview of the true conclusions the learner
-will be able to explain. State their setting and limits in accessible terms;
-do not introduce a page of unexplained notation. Use a few connected overview
-slides when the topic needs them, then use those conclusions as the roadmap
-for the detailed explanation. Revisit the same claims at the end so the viewer
-can see what has been justified.
-
-> “Each slide needs some motivation.”
-> “Good intros / motivations / a small bit of historical context / summaries.”
-
-Start with the concept and why it matters. Include a small amount of historical
-context and end with a summary of what the viewer learned. As the argument
-progresses, keep its bigger picture and the current step in view. Explain why a
-new construction is being introduced and connect it to information already seen.
-
-> “It starts the discussion with a command to the listener. This is not desirable.”
-> “It would be better to start these sort of sections off with a question.”
-> “We work to ‘discover’ what we must do in order to answer the question.”
-
-Introduce an explanatory section through its purpose, rather than an
-instruction such as “Keep the same trial plane.” A motivating question can
-establish what we are trying to find out before presenting a procedure. Develop the construction through
-reasoned exploration: what if we try this, what information would it give us,
-and does that help answer our question? Explain why each move is useful and
-what its answer leaves unresolved. Keep these local questions grounded in the
-lecture's larger goal. A question-shaped heading followed immediately by an
-unmotivated recipe does not supply this discovery thread.
-
-> “It feels like everything starts with a question now.”
-> “Statements of fact can also be pedagogical.”
-
-Use questions at real points of investigation, not as a required opening for
-every slide or paragraph. State established facts directly and let conclusions
-carry the explanation forward. Mix questions, observations and deductions so
-the lecture retains motivation without sounding like a sequence of quizzes.
-
-> “It turns out that <true statement>, let's think about why.”
-
-When a question opens a long derivation, state the result we are working toward
-before unpacking it. Let the viewer know both what is true and why its
-explanation matters. Do not withhold the destination merely to create suspense.
-
-## Continuity between slides
-
-> “The transition between slides is not very good.”
-> “The important information is very abrupt, and we are failing to establish a coherent thread that ties the entire lecture together.”
-
-Write the lecture as a connected explanation. Carry the current question and
-what has already been established into the next slide, so the learner has a
-reason to follow the next construction. Give important information a lead-in,
-then explain its consequence before moving on. The spoken narration must carry
-this thread; a motivation subtitle alone does not establish it. Introduce key
-formulas as the explanation reaches them, rather than displaying a complete
-derivation immediately. Use the same objects and visual relationships to
-connect successive steps, without filling the narration with generic transition
-phrases.
-
-## Notation, reasoning, and key ideas
-
-> “Grant might also explain notation too. Like I have no idea what fancy L is.”
-> “If there are any key ideas, it's likely a good idea to highlight them.”
-
-Explain notation when introducing it. Do not assume a symbol, block matrix,
-or named condition is familiar just because it has a short label. Build the
-intuition for block structure, not only the algebra that follows from it.
-
-> “It's not enough to just say what it is ... the context ... is primed.”
-
-Introduce the operation or problem in plain language before naming it. For
-example, show how small coefficients describe a vector in the original space
-before using “lift,” and explain why a small-matrix eigenvalue is being proposed
-as a candidate for the original problem before calling it a “Ritz value.” Give
-the term a concrete referent and revisit its role when it is used later.
-Unpack phrases such as “normal-to-normal action” into which input and output
-components are meant. Replace “by symmetry” with the particular symmetry and
-the reason it implies the stated relation when that step is not yet familiar.
+**Use the paper's notation.** Lectures that prepare the reader for the
+Davis–Kahan paper use its names, spoken naturally: A, A hat, E zero, A zero,
+F zero, F one, Lambda one, R, delta, Theta zero. See the canonical notation in
+[AGENTS.md](AGENTS.md#canonical-sine-theta-notation). Where another source's
+notation is genuinely the subject, say so and translate.
 
 > “We don't need to explain the difference between transpose and conjugate transpose ... every time.”
 
-Teach the real/complex transpose and adjoint convention in **Before the Series:
-Foundations**. Later lectures should state their setting once and use that
-convention. Repeat the distinction only when a new argument depends on it.
+State the scalar field and adjoint convention once per lecture and use it.
+Return to the real/complex distinction only where an argument depends on it.
 
-Spell out why a proof step is available. In the motivating example, requiring
-B to commute with P needs an explanation of how such directions are constructed
-and why testing them is legitimate. Keep the viewer able to follow and explain
-the reasoning, rather than merely recognize the final equation.
+**Numerical examples carry their data.** A reused example states its matrix,
+vectors, parameters, boundary conditions and assumptions in the present
+recording, and recomputes at least one defining step rather than quoting a
+result.
 
-Visually highlight key ideas and the general tool being learned.
+## 5. Continuity across the course (12 November 2026)
 
-> “It looks like we applied TTS rules to the slides themselves.”
+Some chronology is acceptable. The course has a real order, and a careful
+course may build on itself:
 
-Keep pronunciation hints confined to synthesis input. Typeset mathematics on
-slides normally: for example, use $P=QQ^T$ rather than “P = QQ transpose.”
-Spoken renderings of formulas belong in narration, not in displayed equations.
+- A lecture may say that a fact has been established or will be developed,
+  such as “we have seen that a bounded linear map is continuous” or “this
+  becomes essential once operators are unbounded”, provided the fact itself is
+  stated.
+- Running examples may recur across lectures with consistent names and numbers.
+  Each recording restates the data it uses.
+- Course-level orientation (where a topic sits, why it is coming now) is fine
+  in moderation.
 
-## Visual explanations and consistent colors
+Limits that remain:
 
-> “Tying new information back to information we've already seen.”
-> “Judicious and careful animations to really make the points salient.”
-> “Connecting these graphs with standardized colors will really help.”
+- Do not let a callback stand in for mathematics. If the argument uses a
+  hypothesis, matrix, computation or theorem, state it in this recording.
+  Listeners skip around, and must be able to follow with the stated
+  prerequisites.
+- Do not refer to episodes by number or by production title (“lecture
+  seventy-two”, “our pinching unit”).
+- End on what this lecture established, not on an announcement of the next
+  one.
 
-Use animation to make a mathematical relationship or step salient. Connect a
-new view to the earlier picture and keep colors consistent across related
-graphs, equations, and geometric quantities.
+G2 begins from basic linear algebra and calculus; later lectures assume the
+material listed as their prerequisites. G3 has its own, more advanced baseline.
+Do not flatten the two tracks into one prerequisite level, and do not re-teach a
+whole dependency chain in every recording.
 
-For the matrix-exponential introduction specifically, show scalar and matrix
-output graphs, use a small matrix such as a two-by-two example, and highlight
-the same changing time t in both views. The velocity interpretation motivates
-the topic, but the pure mathematical viewpoint must also be explained.
+## 6. Voice
 
-> “These slides are all lacking in visualization, animation, and color coding.”
-> “Voice outputs are better when they are longer.”
+The spoken region should sound like a mathematician developing an argument,
+not like an assistant reporting on its work.
 
-Build pictures that explain the mathematical construction, rather than relying
-on formulas and text alone. Connect their colors and motion to the narration.
-A visual event does not need its own independent vocal generation: preserve
-coherent spoken passages when planning synchronized animation.
+**Keep production out of the narration.** Leave prompting, authoring
+instructions, curriculum planning, provenance, repository details,
+proof-assistant implementation, compilation status and validation disclaimers
+out of the spoken text. Mathematical history belongs in the narration when it
+explains the result; project history does not. Do not answer the authoring
+conversation (“your displacement intuition is useful”); explain the idea
+directly.
 
-> “There is no visual cue to tell the student which part of the slide they should be paying attention to wrt to the narration.”
+**Contrast constructions: allowed, used sparingly and with care.** The
+“not X, but Y” pattern and its variants are no longer banned, because some of
+the most important facts in this subject are contrasts: sine versus doubled
+sine, ordered versus distance gaps, squared versus unsquared displacement.
+LLM-drafted prose overuses the pattern, though, and overuse makes a lecture
+distracting and unnatural. Variants include “X, not Y”; “this is not X; it is
+Y”; “not just X but Y”; “rather than”; and “we did not ask X; we asked Y”.
 
-Make the current referent visible through a highlight, pointer, diagram change
-or staged calculation that follows the narration. When a passage discusses
-several mathematical relationships, supply corresponding visuals rather than
-leaving the viewer to infer which part of a static slide is being explained.
+- Use a contrast when the two things are ones a listener could plausibly
+  confuse, and the difference is mathematical content. Example: “Bounded does
+  not mean the outputs fit in one ball; it means output size grows at most in
+  proportion to input size.”
+- Do not use it for emphasis, to set up a point nobody doubted, or to sound
+  decisive. Example to avoid: “This is not a mere technicality; it is the heart
+  of the argument.”
+- First try stating Y alone. Keep the contrast only if Y alone would leave a
+  likely misreading in place.
+- Expect a handful per lecture, not one per paragraph. Never stack two in
+  succession. Reread the whole lecture for them before finishing.
 
-## Examples and the general tool
+**Avoid other recurring LLM habits.** Watch for ritual qualifiers (“we are not
+claiming”, “it would be wrong to say”), stock phrases (“what matters”, “the
+lesson is”, “quietly”, “the payoff”, “the machinery”), triads of near-synonyms,
+and formulaic openings and closings (“Today we will…”, a closing “lesson”, a
+recurring “Reconstruct the argument” section). These are prompts for an edit,
+not forbidden words; keep one when it really helps.
 
-> “Make sure the slide says it's an example and highlight the general tool.”
+**Questions where there is real investigation.**
 
-Label worked examples as examples. Distinguish their particular values from
-the reusable statement. When there is room, show the symbolic tool in a box;
-otherwise emphasize it with color, boldness, or another clear visual treatment.
+> “It would be better to start these sort of sections off with a question.”
+> “It feels like everything starts with a question now.”
+> “Statements of fact can also be pedagogical.”
 
-## Symbolic facts and Lean companions
+Use a question when it sets up a real investigation: what if we try this, what
+would it tell us, does it answer the larger question? State established facts
+directly. Mix questions, observations and deductions so the lecture does not
+sound like a quiz. Do not open sections with commands to the listener (“Keep
+the same trial plane.”).
+
+**Speak equations naturally.** No raw LaTeX, Lean or code in the spoken region.
+Exact formulas go in the companion when speech would obscure them.
+
+## 7. Companions, references and review
+
+**Display-only companion.** Below `<!-- END SPOKEN LECTURE -->`, a mathematical
+lecture gives the exact statements, the displayed computations, and
+correspondence to actual Lean declarations, including namespace and typeclass
+assumptions. Use real identifiers. Record current location and original
+provenance as separate facts. The course introduction is exempt.
 
 > “The symbolic math facts that you learned here and can use in a proof.”
 > “Have these correspond to Lean statements.”
 
-Close prerequisite lectures with the reusable symbolic mathematical facts and
-then their corresponding Lean statements, especially relevant definitions and
-results that landed in Tau Ceti. When showing the Lean, repeat the symbolic
-statement beside it so the viewer can connect the two representations.
+Close prerequisite lectures' companions with the reusable symbolic facts and
+their Lean statements, with the symbolic statement beside each.
 
-Use a readable code font, syntax highlighting, and highlights that draw
-attention to the relevant part of the Lean statement or proof.
+**Citations stay out of speech.** Claims about publications (authorship, date,
+theorem number, printed hypotheses, priority, errata) go in the non-spoken
+sidecar with an exact spoken-text anchor and an audit status. Ordinary
+mathematics is supported by its proof and the Lean companion. The schema is in
+`draft-stages/tts-lectures/metadata/README.md`.
 
-## Numerical considerations are optional
-
-> “Numeric considerations should always be an extra bonus slide.”
-
-When a topic has a non-obvious computational side, add a separate bonus slide
-that hints at how the computation is actually done. Keep it distinct from the
-core mathematical explanation.
-
-## Study questions
-
-> “Add multiple choice study questions at the end of each video.”
-
-> “The questions at the end of each lecture have been too easy, or contrived.”
-> “Maybe we add 2 more so 4 questions for new slides, that check if the listener understands.”
-
-End new lectures with four multiple-choice questions. The first two can check
-basic attention and terminology. The additional two should test understanding:
-ask the viewer to apply an idea, predict what changes, or distinguish claims in
-a new situation. Avoid contrived distractors and questions answerable solely by
-recognizing a phrase from the narration.
-
-> “Questions should always be very clear about what object they are referring to.”
-> “Let's just have everything take 5 seconds, because we can always pause.”
-
-State the objects, definitions and relevant assumptions needed to answer a
-question. Avoid ambiguous labels such as “full residual” without defining the
-vector. Distinguish a vector's coordinate entries from its projection onto a
-subspace; a zero projection does not mean specific original-coordinate entries
-vanish. The question should test the mathematics, not the learner's ability to
-guess what the wording means. New and revised study questions use a five-second
-thinking pause; viewers can pause playback for longer. Do not lengthen the
-pause for a harder question.
-
-## External learning companions
+**Learning resources.**
 
 > “Focused external sources like a Wikipedia page, not a sprawling textbook or a dense paper.”
 > “Lecture notes from universities or presentations, or YouTube videos on the topic.”
 
-Give each lecture a companion list of external sources that help a learner
-understand its material. Link to the particular topic page, lesson, video, or
-short set of notes. Explain briefly what each item teaches and where to focus.
-Keep this learning list distinct from the research bibliography.
+Each lecture's sidecar lists focused, free resources with a short note on what
+each teaches and where to focus. Include a directly relevant Wikipedia article
+when one exists. For advanced material, note where the article's scope differs.
+Do not add weakly related links to fill a quota. Check the references when
+revising a lecture.
 
-**Include relevant wiki topic pages by default.** A focused Wikipedia article is
-an accessible first reference for a mathematical topic, and should appear in the
-non-spoken `related_resources` when a genuinely relevant article exists. Other
-specialist wikis can be used as well. Prefer a direct article about the lecture's
-central concept rather than a generic encyclopedia homepage; check that the
-page exists and actually explains the material. For advanced material, give a
-short `reason` distinguishing the article's elementary or finite-dimensional
-scope from the theorem in the lecture. Do not invent an exact wiki match when
-none exists or add weakly related articles to meet a quota. Wikipedia complements
-worked university notes, open textbooks and original papers; it does not
-replace them.
+**Review is feedback-driven.** Self-edit for clarity, mathematical fidelity and
+clean extraction, then publish and use listener feedback to target the next
+pass. There is no required A/B comparison or audio acceptance gate; synthesize
+and listen when a specific pronunciation or pacing problem needs testing. After
+any edit, reread the whole paragraph and its neighbors: a deleted sentence can
+strand a pronoun, strengthen a claim, or leave an abrupt definition.
 
-Store reusable wiki entries in `draft-stages/tts-lectures/metadata/sources.json`
-with `access: free_no_login` and link them from each touched lecture's
-`related_resources`. Keep links, citation keys and reference notes outside the
-spoken markers. When revising an existing lecture, check its learning references
-as part of the edit. Do not make a separate A/B listening pass or a reference
-collection project a prerequisite for releasing an otherwise complete lecture.
+**Reports.** In audits, READMEs and summaries, state what changed, the result,
+and the specific remaining work, e.g. “27 narration files pass extraction;
+Lean compilation was not run.” Do not append paragraphs about what a review
+does not prove unless a reader's decision depends on it.
 
-## Title slides, attribution, and history
+## 8. Visual versions and slides
 
-> “Don't need to read out the entire thing, just say the main concept.”
-> “The title slides should have a :robot: emoji on them.”
+These apply to Manim and companion-slide versions of lectures. The spoken
+lecture must already work without them.
 
-Give each lecture a title slide. Its narration should name the main concept
-briefly and move into the lecture. Show a robot marker and the recorded model
-name to disclose LLM generation. Track slide and transcript model provenance.
+**Lean in visual versions.** Use Lean to ground the mathematics in something
+independently checkable: show the symbolic statement beside its Lean statement,
+in a readable highlighted code font, with the relevant part emphasized. Show
+how a theorem's hypotheses and dependencies appear in the formal statement.
 
-Git is sufficient for historical tracking. The library does not need to present
-all historical versions of the slides or lectures.
+> “Grant might also explain notation too. Like I have no idea what fancy L is.”
+> “These slides are all lacking in visualization, animation, and color coding.”
+> “There is no visual cue to tell the student which part of the slide they should be paying attention to wrt to the narration.”
 
-## Historical portraits and supporting images
+Build pictures that explain the construction. Connect colors and motion to the
+narration and keep colors consistent across related graphs, equations and
+geometric quantities. Make the current referent visible with a highlight,
+pointer or staged calculation. Introduce formulas as the explanation reaches
+them rather than displaying a whole derivation at once. A visual event does not
+need its own voice clip; keep coherent spoken passages.
+
+> “Make sure the slide says it's an example and highlight the general tool.”
+
+Label worked examples and distinguish their values from the reusable statement;
+box or otherwise emphasize the general tool.
+
+> “It looks like we applied TTS rules to the slides themselves.”
+
+Typeset mathematics normally on slides, for example $P=QQ^T$. Spoken renderings
+belong only in narration.
+
+> “Numeric considerations should always be an extra bonus slide.”
+
+Put how a computation is done in practice on a separate bonus slide.
+
+**Title slides.** Name the main concept briefly in narration. Show a robot
+marker and the recorded model name to disclose LLM generation, and track slide
+and transcript model provenance. Git is sufficient history.
+
+**Study questions.**
+
+> “The questions at the end of each lecture have been too easy, or contrived.”
+> “Questions should always be very clear about what object they are referring to.”
+
+End a video with four multiple-choice questions: two may check attention and
+terminology; two should test understanding by applying an idea, predicting a
+change, or distinguishing claims in a new situation. State the objects and
+assumptions each question needs. Avoid distractors answerable by phrase
+recognition. Use a five-second thinking pause.
+
+For the matrix-exponential introduction specifically, show scalar and matrix
+output graphs for a small (for example two-by-two) matrix and highlight the same
+time t in both views; explain the pure mathematical viewpoint as well as the
+velocity interpretation.
+
+## 9. History lectures and images
 
 > “Always use images with attribution in slides.”
 > “Do not check images into the repo. We check the logic to access the images into the repo.”
 
-Use suitable Creative Commons or otherwise openly reusable portraits and
-supporting images to put faces to the people. Show attribution in the slides.
-Keep downloaded images outside Git, together with the records needed to transfer
-them between machines. People-focused history can be split into several lectures.
+Use openly licensed portraits and images with visible attribution. Keep
+downloaded images out of Git, with the records needed to fetch them.
 
-## Historical citations and learning references (8 November 2026)
+A person-focused lecture must earn its place: verified biographical context,
+the person's actual mathematical contributions, a developed example, the later
+use of the ideas, and the limits of the attribution. Such lectures are
+long-form, generally 25–35 minutes. Do not pad; keep an underdeveloped draft in
+`tts-history/stubs/` until it is ready, and check actual spoken word counts
+before promoting it.
 
-Keep spoken text as direct mathematical exposition. A claim about a publication
-(its authorship, date, theorem number, stated hypotheses, historical priority,
-reported erratum, or open questions) belongs in a **non-spoken citation sidecar**
-with an exact spoken-text anchor and a primary-source audit status. Do not
-insert bracketed citations, bibliographic notes, links, citation keys, metadata
-tags, source-verification progress, or requests for citations in the narration.
-A source link and a checked source passage are distinct audit stages.
+## 10. Course tracks
 
-Ordinary mathematical assertions are supported by their proofs and the Lean
-companion; they do not need an external-reference tag merely because a related
-book exists. Add optional further-learning resources separately, describing
-what they explain and any material differences in assumptions or scope.
-For learning references, include relevant Wikipedia topic articles as
-accessible orientation, together with verified university material and the
-existing curated sources. Reserve primary papers for exact historical claims
-and advanced follow-up when useful. Those references are displayed by the
-eventual learning system, never spoken. The TTS extractor operates
-exclusively on the original marked spoken region.
+G1 presents the Manim material. G2 is the comprehensive mathematical audio
+course. G3 is the shorter, paper-focused audio course: it assumes linear
+algebra, singular values and elementary measure theory, presents the four angle
+theorems together, and closes with the Section 4 transport sequence through
+Proposition 4.3, the Proposition 4.4 counterexample and the real transport
+matching theorem. For G3, prioritize the hypotheses needed for the 1970
+paper-facing results, and keep ordered gaps, distance gaps, self-adjoint
+domains, operator ideals and squared versus unsquared displacement distinct.
 
-For schema, validator, and editing workflow, see
-`draft-stages/tts-lectures/metadata/README.md`.
-
-## Course tracks (G1, G2, G3)
-
-G1 presents the existing Manim material. G2 is the comprehensive, expanding mathematical audio curriculum. G3 is the shorter, 27-lecture paper-focused audio curriculum, including the standalone whole-space squared-displacement result. G3 assumes linear algebra, singular values, and elementary measure theory and presents the four angle theorems together, then closes with the Section 4 transport sequence through Proposition 4.3, the Proposition 4.4 counterexample, and the real transport matching theorem.
-
-Keep each track's lecture identifiers, transcript files, sidecars, and audio cache independent. Common mathematics may be reused, but each recording must stand alone for listening. Record reused G2 material in G3's `track.json`; edit G3 narration separately as the short curriculum is refined. Citation metadata stays outside the narrated region.
-
-For G3, prioritize the hypotheses needed to prove the 1970 paper-facing results. Preserve distinctions among ordered gaps, distance gaps, self-adjoint domains, operator ideals, and squared versus unsquared displacement. Use the same direct, mathematically precise, non-defensive style as G2.
-
-## Person-focused history lectures: substantive delivery
-
-A person-focused lecture must earn its place as a full recording. Include
-biographical context verified against appropriate sources, the person’s actual
-mathematical contributions, a developed example, a meaningful account of the
-ideas’ later use, and the limits of the attribution. Keep bibliographical links
-and technical derivations in the non-spoken companion. The intended History
-track experience is a substantive long-form recording, generally about
-25–35 minutes at the selected speech rate, rather than a two- or three-minute
-portrait mislabeled as a lecture. **Do not pad to hit a stopwatch target**;
-if the material is not developed enough to justify long-form treatment, keep
-it under `tts-history/stubs/`, outside the browseable audio track, until it is.
-The manifest records only listening-ready lectures, and actual spoken word
-counts should be checked before promotion.
+Keep each track's identifiers, transcripts, sidecars and audio caches
+independent. Record G2 material reused in G3 in G3's `track.json`; edit G3
+narration separately.

@@ -19,7 +19,8 @@ def test_course_graph_inventory_and_yws_reuse():
     tracks = {track['id']: track for track in graph['tracks']}
     assert len(tracks['g1']['path']) == 22
     assert len(tracks['g2']['path']) >= 154
-    assert len(tracks['g3']['path']) == 27
+    g3_rows = json.loads((Path(__file__).resolve().parents[1] / 'draft-stages/tts-paper/track.json').read_text())['lectures']
+    assert tracks['g3']['path'] == ['g3:' + row['id'] for row in g3_rows]
     assert tracks['g4']['available_count'] == 7
     assert tracks['g4']['planned_count'] == 6
     assert tracks['g4']['path'].count('g3:003000') == 1
@@ -27,14 +28,11 @@ def test_course_graph_inventory_and_yws_reuse():
     assert graph['nodes']['g2:147000']['url'].startswith('/audio?track=g2')
     assert graph['nodes']['g3:003000']['url'].startswith('/audio?track=g3')
     original = [e for e in graph['edges'] if e['type'] == 'original_parent']
-    assert len(original) == 26
-    assert {'from': 'g3:020000', 'to': 'g2:110000', 'type': 'original_parent'} in original
+    expected = {('g3:' + row['id'], 'g2:' + row['source_g2']) for row in g3_rows if row.get('source_g2')}
+    assert {(e['from'], e['to']) for e in original} == expected
     assert all(graph['nodes'][e['from']]['track'] == 'g3' for e in original)
     assert any(e['type'] == 'hard_depends_on' and e['to'] == 'g3:003000'
                for e in graph['edges'])
-    incoming = connections(graph, 'g2:110000')
-    assert any(row['node_id'] == 'g3:020000' and row['direction'] == 'incoming'
-               for row in incoming)
 
 
 def test_graph_rejects_invalid_edges_and_cycles(tmp_path):
@@ -164,7 +162,8 @@ def test_listening_order_is_explicit_and_not_a_mathematical_dependency():
             row = path_edges[first, second]
             assert track['id'].upper() in row['why']
     assert ('g1:000505_history_overview', 'g1:000670_history_people_foundations') in path_edges
-    assert ('g3:000000', 'g3:001000') in path_edges
+    g3_path = next(track['path'] for track in graph['tracks'] if track['id'] == 'g3')
+    assert (g3_path[0], g3_path[1]) in path_edges
     assert ('g4:overview', 'g3:001000') in path_edges
     assert 'Next' in graph['relations']['listening_next']
 
@@ -172,7 +171,7 @@ def test_listening_order_is_explicit_and_not_a_mathematical_dependency():
 def test_proof_links_are_curated_with_explicit_reasons():
     graph = build_course_graph()
     proof_edges = [e for e in graph['edges'] if e['type'] == 'proof_depends_on']
-    assert len(proof_edges) == 42
+    assert len(proof_edges) == 41  # G3 019000 merged into 024000
     assert all(e['why'] and len(e['why']) > 25 for e in proof_edges)
     assert any(e['from'] == 'g2:110000' and e['to'] == 'g2:071000'
                for e in proof_edges)

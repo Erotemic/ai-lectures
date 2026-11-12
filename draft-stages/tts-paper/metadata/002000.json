@@ -1,45 +1,63 @@
 {
   "schema_version": 1,
   "lecture_id": "002000",
-  "source_g2": "031000",
-  "related_resources": [
+  "source_g2": null,
+  "transcript": "002000-the-geometry-of-spectral-gaps.md",
+  "historical_claims": [
     {
-      "source_id": "mit-strang-18-06",
-      "reason": "MIT 18.06 lectures 21 and 25–27 cover eigenvectors, spectral structure and positive definite matrices."
+      "id": "002000-h01",
+      "anchor": "Davis and Kahan prove that distance-only separation always gives constant one in the Hilbert–Schmidt norm, and an operator-norm bound with an extra factor of the square root of the rank.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Theorem 6.2",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "mit-strang-positive",
-      "reason": "Quadratic-form and minimization examples in matrices; see the lecture assumptions for generalization."
+      "id": "002000-h02",
+      "anchor": "The two spectral-selection theorems of Section 8 use, respectively, an ordered gap between the reference blocks, and the doubled-sine hypothesis on the perturbed blocks",
+      "kind": "source_scope",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Theorems 8.1 and 8.2",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "higham-eigen-ineq",
-      "reason": "Concise matrix-level comparison of Rayleigh quotients and eigenvalue inequalities."
+      "id": "002000-h03",
+      "anchor": "With only distance separation, neither argument applies, and the constant one fails in the operator norm. Davis and Kahan give a two by two example.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Section 5, discussion of (5.1)-(5.2) preceding Theorem 5.2",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "threeblue-eigenvalues",
-      "reason": "Study a two-dimensional eigenvector example before the spectral argument."
-    },
-    {
-      "source_id": "tao-hermitian-matrix-sums",
-      "reason": "Study min-max proofs and eigenvalue inequalities from a matrix-analysis viewpoint."
-    },
-    {
-      "source_id": "tao-eigenvalue-stability",
-      "reason": "Contrast Hermitian spectral stability with nonnormal sensitivity and pseudospectra."
-    },
-    {
-      "source_id": "bindel-eigen-perturbation",
-      "reason": "Study concrete perturbation examples and first-order spectral sensitivity."
-    },
-    {
-      "source_id": "wiki-spectral-gap",
-      "reason": "Orientation to spectral gaps; compare its terminology with the lecture’s precise ordered and pairwise distinctions."
-    },
-    {
-      "source_id": "wiki-spectrum-operator",
-      "reason": "The spectrum of an operator, including values beyond ordinary eigenvalues."
+      "id": "002000-h04",
+      "anchor": "Davis and Kahan asked whether the square root of the rank could be replaced by a universal constant.",
+      "kind": "source_scope",
+      "source_ids": [
+        "davis-kahan-1970",
+        "bhatia-1997"
+      ],
+      "source_locator": "Section 5 after (5.2); the pi/2 constant: Bhatia, Matrix Analysis, Section VII.2",
+      "audit_status": "pending_primary_passage_comparison"
     }
   ],
-  "transcript": "002000-spectral-separation-and-gap-hypotheses.md",
-  "historical_claims": []
+  "related_resources": [
+    {
+      "source_id": "wiki-spectral-gap",
+      "reason": "General idea of a spectral gap; the lecture distinguishes three geometric shapes of separation that this article does not."
+    },
+    {
+      "source_id": "wiki-sylvester-equation",
+      "reason": "The Sylvester equation behind every gap estimate; the window argument is a Neumann-series style bound on its solution."
+    },
+    {
+      "source_id": "wiki-eigenvalue-perturbation",
+      "reason": "How eigenvalue gaps enter first-order eigenvector perturbation formulas, a heuristic for why separation controls subspace motion."
+    }
+  ]
 }

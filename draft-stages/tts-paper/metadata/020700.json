@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020700",
+  "source_g2": null,
+  "transcript": "020700-real-and-complex-scalars.md",
+  "historical_claims": [
+    {
+      "id": "020700-h01",
+      "anchor": "This is Davis and Kahan's Example 4.2, a complex phase modification that decreases the trace norm of the full displacement.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Example 4.2",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "020700-h02",
+      "anchor": "Davis and Kahan's characterization of the direct rotation as the square root of a product of reflections with spectrum in the closed right half-plane is a statement about complex spectra",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Proposition 3.3; journal paper Appendix B note on real unitaries",
+      "audit_status": "pending_primary_passage_comparison"
+    }
+  ],
+  "related_resources": [
+    {
+      "source_id": "wiki-complexification",
+      "reason": "Complexification of real vector spaces and linear maps, and which properties it preserves."
+    },
+    {
+      "source_id": "wiki-orthogonal-matrix",
+      "reason": "Real orthogonal matrices decompose into rotations and reflections; no single real plane admits a phase."
+    },
+    {
+      "source_id": "wiki-functional-calculus",
+      "reason": "Functional calculus, usually developed over the complex numbers, which the real theorems reach through complexification."
+    }
+  ]
+}

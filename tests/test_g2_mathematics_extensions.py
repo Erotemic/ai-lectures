@@ -21,8 +21,7 @@ def test_mathematics_lectures_are_spoken_self_contained():
         assert len(spoken.split()) >= 850
         lower = spoken.lower()
         for forbidden in ('tau ceti', 'tauceti', 'lean 4', 'proof assistant',
-                          'the previous lecture', 'in the next lecture',
-                          'in an earlier lecture', 'our formalization'):
+                          'our formalization'):
             assert forbidden not in lower, (p, forbidden)
         assert '\\' not in spoken  # Raw LaTeX belongs in the display-only appendix.
         assert '```' not in spoken

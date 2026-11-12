@@ -1,41 +1,46 @@
 {
   "schema_version": 1,
   "lecture_id": "004000",
-  "source_g2": "043000",
+  "source_g2": null,
+  "transcript": "004000-the-angle-operator-of-two-subspaces.md",
+  "historical_claims": [
+    {
+      "id": "004000-h01",
+      "anchor": "Jacques Dixmier studied the relative position of two closed subspaces of a Hilbert space in 1948, and Chandler Davis's 1958 paper on the separation of two linear subspaces placed the cosine and sine data in an operator-theoretic setting through closeness and separation operators.",
+      "kind": "historical_attribution",
+      "source_ids": ["bottcher-spitkovsky-2010", "davis-1958-separation"],
+      "source_locator": "Böttcher and Spitkovsky (2010), Remark 1.3, for Dixmier (1948); Davis (1958), closeness and separation operators; journal paper Section 2.3",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "004000-h02",
+      "anchor": "In their 1970 paper, Davis and Kahan define Theta as an operator from the start, precisely because the spectral subspaces they study need not be finite-dimensional.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 2 (angle operator Theta) and Section 3",
+      "audit_status": "pending_primary_passage_comparison"
+    }
+  ],
   "related_resources": [
     {
-      "source_id": "mit-strang-projections",
-      "reason": "Geometric treatment of subspace projections; finite-dimensional starting point."
+      "source_id": "wiki-functional-calculus",
+      "reason": "What it means to apply a function such as a square root or arc cosine to a self-adjoint operator."
     },
     {
-      "source_id": "mit-strang-svd",
-      "reason": "Finite-dimensional singular-direction intuition; general operator-ideal and infinite-dimensional claims require additional sources."
+      "source_id": "wiki-polar-decomposition",
+      "reason": "The modulus and the polar decomposition B = W|B|; read the bounded-operator section for the partial isometry."
     },
     {
-      "source_id": "halmos-1969",
-      "reason": "Original treatment of two subspaces and their generic part; complements principal-angle geometry."
-    },
-    {
-      "source_id": "higham-cs-decomposition",
-      "reason": "Use explicit block cosine-sine matrices to interpret principal angles."
-    },
-    {
-      "source_id": "intel-principal-angles",
-      "reason": "Compute principal angles numerically from orthonormal bases using QR and SVD."
-    },
-    {
-      "source_id": "zhu-knyazev-tangent-angles",
-      "reason": "Compare projector and frame formulas for principal-angle cosines, sines, and tangents."
+      "source_id": "higham-polar",
+      "reason": "Short matrix-level explainer of the polar decomposition; finite-dimensional case of the modulus identity used here."
     },
     {
       "source_id": "wiki-angles-between-flats",
-      "reason": "Principal angles and principal vectors for pairs of subspaces."
+      "reason": "Finite-dimensional principal angles, which the angle operator generalizes."
     },
     {
-      "source_id": "wiki-projection-linear-algebra",
-      "reason": "Projection formulas underlying cosine and sine overlap maps."
+      "source_id": "halmos-1969",
+      "reason": "Halmos's two-subspace paper; its generic part is the setting where the angle operator can have continuous spectrum, as in the interval example."
     }
-  ],
-  "transcript": "004000-principal-angle-sine-and-cosine-operators.md",
-  "historical_claims": []
+  ]
 }

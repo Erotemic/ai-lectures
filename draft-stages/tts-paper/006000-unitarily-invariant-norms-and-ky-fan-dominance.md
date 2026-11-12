@@ -1,116 +1,72 @@
 # 006000 — Unitarily invariant norms and Ky Fan dominance
 
-**Track:** G3 audio paper track. **Draft:** adapted from G2 lecture 058000. **Section:** norms. **Audience:** prior linear algebra and basic analysis.
+**Track:** G3 audio paper track. **Draft:** new G3 lecture, 12 November 2026. **Section:** norms. **Audience:** singular values and the singular value decomposition, the min-max principle, principal angles.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Which measurements survive a change of orthonormal coordinates?
+Unitarily invariant norms and Ky Fan dominance
 
-Suppose two people measure the same linear map, but one uses a different orthonormal basis for the inputs and a different orthonormal basis for the outputs. They should agree on the map's intrinsic size. The operator, Frobenius, and nuclear norms all have this property. Their common property is invariance under unitary changes of input and output coordinates.
+The sine-theta theorem says that delta times the size of the sine of the angle operator is at most the size of the residual. Which size? The paper's answer is: every unitarily invariant norm at once. The operator norm, which records the largest sine; the Frobenius norm, which records the root sum of squares; the trace norm, which adds the sines; and infinitely many others. This lecture explains what these norms are, why one inequality can hold for all of them simultaneously, and why, in the transport part of the paper, different norms can disagree about which of two maps is better.
 
-The statement we are heading toward is that, for a fixed finite matrix shape, an invariant norm can be read from its singular values using a symmetric gauge. Conversely, an appropriate symmetric gauge gives a norm on matrices by applying it to their singular values. The word appropriate matters: the triangle inequality is a theorem that we need to establish, rather than a consequence of merely choosing an arbitrary symmetric function.
+Here is what we will establish. A norm on operators is unitarily invariant if multiplying by unitaries on either side does not change it; such a norm depends only on the singular values, and von Neumann showed that these norms correspond exactly to symmetric gauge functions, norms on sequences that ignore order and signs. Normalized means a rank-one operator built from two unit vectors has norm one. Every such norm satisfies the contraction law: multiplying by operators of norm at most one cannot increase it. The Ky Fan k-norm is the sum of the k largest singular values. Ky Fan's dominance theorem says that one operator is no larger than another in every unitarily invariant norm exactly when it is no larger in every Ky Fan norm, that is, when its singular values are weakly majorized. Finally, Q-norms are those whose square is a unitarily invariant norm of Z star Z; the Frobenius norm is one, the trace norm is not, and that difference is the center of the paper's correction to Proposition 4.4.
 
-We will also distinguish a property of one matrix space from a compatible rule that measures operators between many different spaces.
+Many ways to measure one list
 
-## Begin with orthonormal changes of coordinates
+Recall the four-dimensional example with principal angles of thirty and sixty degrees. The sine of the angle operator has singular values one half and root three over two. How large is it? The operator norm says root three over two, about zero point eight seven. The Frobenius norm says the square root of one quarter plus three quarters, which is one. The trace norm says one half plus root three over two, about one point three seven. Each is a reasonable answer to a different question: the worst direction, an energy over all directions, or a total over all directions.
 
-Let A send an input space of dimension n to an output space of dimension m. Choose orthonormal bases. The resulting matrix has m rows and n columns.
+All three share a property. If we change orthonormal bases in the input space or in the output space, none of them changes, because singular values do not change. That is the property that matters for subspace errors, since an error measure should not depend on how we chose bases.
 
-Changing the output basis multiplies the matrix on the left by a unitary matrix. Changing the input basis multiplies it on the right by a unitary matrix, with an adjoint depending on which direction the coordinate change is written. So the mathematical question is whether a norm of A stays the same after multiplying by arbitrary unitaries on both sides.
+Unitarily invariant norms
 
-Call a matrix norm unitarily invariant if it does.
+A norm N on operators between Hilbert spaces is unitarily invariant if N of U times Z times V equals N of Z for all unitaries U and V of the appropriate spaces. By the singular value decomposition, Z equals a unitary times a diagonal matrix of singular values times another unitary, so a unitarily invariant norm of Z depends only on the list of singular values.
 
-For the operator norm, the reason is immediate. A unitary maps the unit sphere onto itself and preserves the length of every output vector. So maximizing output length over unit inputs yields the same value before and after changing bases.
+Which functions of the singular value list arise this way? John von Neumann answered this in 1937 for matrices. Define a symmetric gauge function to be a norm on real sequences that does not change when the entries are permuted or when their signs are changed. Every unitarily invariant matrix norm is a symmetric gauge function applied to the singular values, and conversely every symmetric gauge function applied to singular values gives a unitarily invariant norm. The converse is the hard direction, because one must prove the triangle inequality for operators from a triangle inequality for sequences, even though the singular values of a sum are not the sums of singular values.
 
-For the Frobenius norm, we can use the sum of squared singular values. For the nuclear norm, we use their sum. In both cases the singular values are unchanged by unitary multiplication.
+The examples are the familiar sequence norms. The maximum gives the operator norm. The square root of the sum of squares gives the Frobenius, or Hilbert–Schmidt, norm. The sum gives the trace norm, also called the nuclear norm. The p-th root of the sum of p-th powers gives the Schatten p-norm, for p at least one. And the sum of the k largest entries gives the Ky Fan k-norm.
 
-The question is whether every invariant norm depends on singular values this way.
+Normalization and the contraction law
 
-## Use the singular-value decomposition
+Davis and Kahan add two conventions. First, normalization: a rank-one operator that sends x to u times the inner product of v with x has norm equal to the length of u times the length of v. In sequence terms, the gauge of the list one, zero, zero, and so on, is one. Under normalization every unitarily invariant norm lies between the operator norm and the trace norm: it is at least the largest singular value and at most the sum of all of them.
 
-The singular-value decomposition says that A can be expressed as a unitary change of output coordinates, followed by a rectangular diagonal matrix of singular values, followed by a unitary change of input coordinates.
+Second, the contraction law: for bounded operators K and L, the norm of K Z L is at most the operator norm of K, times the norm of Z, times the operator norm of L. This follows from a fact about singular values. By the min-max principle, the j-th singular value of Z is the smallest possible maximum of the length of Z x over unit vectors x perpendicular to a subspace of dimension j minus one. Multiplying by K on the left can multiply each such length by at most the norm of K, so each singular value of K Z is at most the norm of K times the corresponding singular value of Z. Since a symmetric gauge function is monotone in each entry, the norm grows by at most that factor. The argument for L on the right is similar, applied to the adjoint.
 
-Because our norm is invariant under the two unitary factors, its value on A equals its value on that rectangular diagonal matrix.
+The contraction law is used constantly in the paper. In the sine-theta proof, the complementary part of the residual is F one star R, where F one star is a contraction; so its norm is at most the norm of R. That one line is the last inequality in the chain from angle to residual.
 
-Every singular value is nonnegative. We can arrange them from largest to smallest. There are at most the smaller of m and n positive values, and we include zeros to get a fixed-length list.
+Ky Fan norms and dominance
 
-Thus a unitarily invariant norm is determined by a function of this list. But which functions are possible?
+Ky Fan norms deserve special attention. The Ky Fan k-norm of Z is the sum of its k largest singular values. Ky Fan showed in 1951 that this is also the largest value of the real part of the sum, over k pairs, of the inner product of y i with Z x i, where x one through x k are orthonormal and y one through y k are orthonormal. That formula makes the triangle inequality obvious, since a supremum of linear expressions is subadditive, and it is a working tool: to bound a Ky Fan norm from below, exhibit orthonormal vectors; to bound it from above, bound every such sum.
 
-First, permuting the diagonal positions does not change the matrix norm. We can implement the same permutation using unitary permutation matrices. Second, changing the sign or complex phase of one diagonal entry also leaves the norm unchanged, because a diagonal unitary can supply that sign or phase.
+A warning about notation, for reading the 1970 paper. Davis and Kahan write the Ky Fan norms with a subscript, so their subscript one is the Ky Fan one-norm, the largest singular value, which is the operator norm. They write the Hilbert–Schmidt norm with the subscript s q. Most modern texts, including the recent journal paper on this theory, follow the other convention, in which a subscript one denotes the trace norm. The same symbol therefore means the operator norm in one text and the trace norm in the other.
 
-Consequently the associated function of diagonal entries is invariant under permutations and sign changes. Its positive homogeneity and triangle inequality come from the matrix norm applied to diagonal matrices. So it is a symmetric gauge: a norm on an ordinary coordinate list that is blind to signs and reordering.
+Ky Fan's dominance theorem is the reason a single theorem can hold for every unitarily invariant norm. It says: for operators K and L, the norm of K is at most the norm of L in every unitarily invariant norm if and only if, for every k, the Ky Fan k-norm of K is at most the Ky Fan k-norm of L. The condition on Ky Fan norms is called weak majorization of the singular values: each partial sum of the largest singular values of K is at most the corresponding partial sum for L.
 
-This proves the forward direction for a fixed shape. We did not assume that the norm was Schatten p. The operator, Frobenius, and nuclear norms are just three choices of gauge.
+Weak majorization is not entrywise comparison. Take K with singular values two and two, and L with singular values three and one. The second singular value of K is larger than the second singular value of L, so entrywise comparison fails. But the partial sums are two versus three, and four versus four, so K is weakly majorized by L. Dominance says every unitarily invariant norm of K is at most the same norm of L. Check: the operator norms are two and three, the Frobenius norms are root eight and root ten, and the trace norms are four and four.
 
-## Construct an invariant norm from a gauge
+Why is the theorem true? The direction from all norms to Ky Fan norms is immediate, since Ky Fan norms are among the unitarily invariant norms. For the other direction, suppose the partial sums of K's singular values are dominated by those of L. First increase the smallest singular values of K, if necessary, until the total equals the total for L; a symmetric gauge function is monotone in each entry, so this can only increase the norm of K. Now the two lists have the same total, and the partial sums of the first are still dominated. A theorem of Hardy, Littlewood, and Pólya then says the first list is an average of rearrangements of the second. In our example, two, two is the average of three, one and one, three. A symmetric gauge function gives every rearrangement of L's list the same value, and by convexity the value of an average is at most the average of the values. So the norm of K is at most the norm of L.
 
-Now begin with a symmetric gauge on lists of length equal to the smaller matrix dimension. Define the size of A to be the gauge of A's singular-value list.
+Davis and Kahan use dominance in exactly this way. They prove inequalities for every Ky Fan norm, often through the orthonormal-vectors formula, and then conclude the inequality for every unitarily invariant norm at once.
 
-Nonnegativity and scaling are straightforward. The size is zero only if all singular values are zero, which happens exactly when A is the zero map. Unitary invariance follows from singular-value invariance.
+When norms disagree
 
-The challenge is the triangle inequality. The singular values of A plus B are generally not the coordinatewise sums of the singular values of A and B. Their singular vectors may point in entirely different directions.
+Dominance also explains when norms disagree. If neither list weakly majorizes the other, some unitarily invariant norm prefers one and some other norm prefers the other.
 
-The Ky Fan inequalities give the needed common comparison across every leading singular-value prefix. For every prefix length, the sum of the largest singular values of A plus B is at most the corresponding prefix sum for A plus the corresponding prefix sum for B.
+The paper's counterexample to Proposition 4.4 is built on such a pair. Two orthogonal maps of four-dimensional real space carry the same plane onto the same tilted plane, with both principal angles equal to theta. The displacement of the direct rotation, the identity minus the rotation, has four singular values, each equal to two sine of theta over two. The displacement of a competing map has singular values two sine theta, two sine theta, zero, zero. At forty-five degrees, the first list is four copies of about zero point seven seven, and the second is two copies of about one point four one and two zeros.
 
-In other words, the singular-value list of A plus B is weakly majorized by the coordinatewise sum of the two sorted singular-value lists.
+Compare. The largest entry favors the direct rotation: zero point seven seven against one point four one. The total favors the competitor: about three point zero six against two point eight three. So the operator norm says the direct rotation moves less, and the trace norm says the competitor moves less. The Frobenius norm agrees with the operator norm here: the squared lists sum to about two point three four for the direct rotation and four for the competitor. Neither list weakly majorizes the other, so no single answer holds for all unitarily invariant norms. Proposition 4.4 claimed that the direct rotation wins in every unitarily invariant norm, and this pair shows that it does not.
 
-Why does the gauge respect this prefix comparison? For nonnegative lists, the prefix inequalities allow the larger list to be converted toward the smaller one by averaging coordinates and, if the total decreases, shrinking coordinates. A symmetric gauge is unchanged when we permute or flip signs. Its convexity means averaging cannot increase its value. Therefore the gauge is monotone under weak majorization. Applying this to the list for A plus B bounds it by the gauge of the coordinatewise sum. The ordinary triangle inequality for the gauge then bounds it by the sum of the separate gauges.
+Q-norms
 
-We have proved the matrix triangle inequality in three moves: Ky Fan comparison, gauge monotonicity, then the gauge's own triangle inequality.
+Some unitarily invariant norms are better behaved with respect to squaring. Call N a Q-norm if there is a unitarily invariant norm M such that N of Z, squared, equals M of Z star Z, for every Z. The Frobenius norm is a Q-norm: its square is the sum of squared singular values, which is the trace norm of Z star Z. The operator norm is a Q-norm, with M the operator norm. The Schatten p-norm is a Q-norm when p is at least two, with M the Schatten p over two norm, which is a norm because p over two is at least one. The trace norm is not a Q-norm: its square would require the Schatten one-half functional of Z star Z, which is not a norm.
 
-We have used three different facts for three different jobs: Ky Fan controls prefixes, convexity controls their effect on a gauge, and the gauge triangle inequality handles the final coordinatewise sum. None of the steps assumes that singular vectors of A and B align.
+The point of Q-norms is that an inequality for Z star Z in every unitarily invariant norm, which is a statement about squared singular values, transfers to an inequality for Z in every Q-norm, by taking square roots. Davis and Kahan prove that the direct rotation minimizes the squared displacement, the identity minus W, star, times the identity minus W, in every unitarily invariant norm. That gives minimality of the unsquared displacement in every Q-norm, including the Frobenius norm and the operator norm, but not in the trace norm, which is where the counterexample lives.
 
-## Compare the gauges with an example
+The norms in the paper's theorems
 
-Take a square diagonal matrix with singular values four, two, and one.
+In infinite dimensions, the paper's norms are norms on operator ideals, defined through the same singular-value data and finite only on part of the space of bounded operators. The paper's hypotheses on such a norm are: it is symmetric, meaning unitarily invariant; it is normalized; it satisfies the contraction law; and it has Ky Fan dominance whenever both values are finite. Each of the familiar examples has these properties, and the next lecture explains the infinite-dimensional setting in which membership in the ideal must be assumed.
 
-The operator norm gives four, since it retains the largest entry. The nuclear norm gives seven, since it adds all entries. The Frobenius norm gives the square root of sixteen plus four plus one, which is the square root of twenty-one.
+To summarize. A unitarily invariant norm depends only on singular values, and von Neumann's theorem identifies these norms with symmetric gauge functions. Normalized norms lie between the operator norm and the trace norm and satisfy the contraction law, which is what lets the sine-theta proof discard the contraction F one star. Ky Fan norms add the k largest singular values; an operator is smaller in every unitarily invariant norm exactly when it is smaller in every Ky Fan norm, by majorization and averaging over rearrangements. Lists that do not weakly majorize each other are ranked differently by different norms, as the direct rotation and its competitor are in the Proposition 4.4 counterexample. Q-norms are those whose square is a norm of Z star Z, and they inherit squared-displacement inequalities.
 
-The Ky Fan two norm gives six, the sum of the two largest singular values. Do not confuse that with the Schatten two norm, which is Frobenius. The two names both contain the number two, but one counts how many leading singular values we add, while the other specifies a power.
-
-For this same diagonal matrix, all four measurements are invariant if we rotate the input and output bases. They distinguish different features of the map, but they do not depend on how the coordinates were named.
-
-Now replace the diagonal matrix by a matrix with the same three singular values and completely different singular vectors. Every one of these norms still agrees. For questions that depend only on singular values, these two maps are indistinguishable.
-
-## Prefixes are not entries
-
-Compare the singular-value lists three, one and four, zero. The first Ky Fan sums are three and four; the two-entry sums both equal four. Thus the first list is weakly majorized by the second, although its smaller singular value, one, exceeds zero. The operator norms are three and four, the nuclear norms tie, and the Frobenius norms are square root of ten and four. Prefix inequalities justify all three comparisons without imposing an entrywise ordering.
-
-## A general comparison theorem
-
-Suppose the singular values of A are weakly majorized by those of B. Then every symmetric gauge gives A no larger a value than B.
-
-The converse is visible through the Ky Fan gauges. If all invariant gauges make A no larger than B, in particular each Ky Fan gauge does. Those Ky Fan comparisons are precisely the defining prefix inequalities of weak majorization.
-
-Thus the Ky Fan sums capture the common order information seen by all unitarily invariant norms in a fixed finite matrix shape.
-
-## An operator ideal is an additional structure
-
-So far, A and B have had one fixed matrix shape. In infinite-dimensional analysis, we may want to measure maps between many Hilbert spaces and restrict the domain to operators on which the chosen measurement is finite.
-
-Then the norm is part of a family, often called an operator ideal norm. In addition to ordinary norm laws, the family is required to behave predictably under composing with bounded operators on the left and right.
-
-For example, composing A with a contraction on the output side should not increase its ideal norm. The same is expected for a contraction on the input side. In the finite-dimensional setting, singular-value inequalities explain these facts for standard gauges.
-
-But this compatibility is additional information. Knowing only that each individual matrix space carries some unitarily invariant norm does not ensure consistency when the dimensions change.
-
-A compatible family of unitarily invariant norms needs more than invariance for one matrix size: it must respect appropriate ideal operations, agree with rank-one normalization, and obey the Ky Fan dominance principle used to transfer singular-value comparisons.
-
-## Why this matters for perturbations
-
-A perturbation may rotate several mutually orthogonal directions by different amounts. An operator-norm estimate captures only the worst direction. A Frobenius estimate aggregates squared effects. A nuclear estimate sums their magnitudes. A general unitarily invariant norm lets us decide which aggregate is appropriate for the application.
-
-Our proofs show that the same singular-value comparison can control all these choices. We have converted an apparently open-ended question about norms into concrete inequalities about ordered nonnegative lists.
-
-Adding zero input or output directions changes the matrix shape. A cross-space ideal law must specify how the norm behaves under that change.
-
-## Why Ky Fan comparison is the right bridge
-
-Suppose one singular-value list is three and one, while another is two and two. Both lists have total sum four, but the first has the larger largest singular value. Their Ky Fan first sums are three and two; their Ky Fan second sums are both four. The first list weakly majorizes the second.
-
-Consequently every symmetric gauge norm assigns at least as much size to the first list as to the second. The operator norms are three and two; the Frobenius norms are the square roots of ten and eight; and the trace norms tie at four. This example shows why a prefix comparison carries more information than a comparison of total sums alone.
-
-The same reasoning transfers a theorem about singular-value prefixes into a theorem about many unitarily invariant norms. In infinite dimensions, membership in the chosen operator ideal and a gauge consistent across dimensions must still be established. Those conditions belong to the result, not to a choice of coordinates.
+A theorem "for every unitarily invariant norm" is therefore a theorem about weak majorization of singular values. Where a comparison of singular-value lists fails, as it does for the full displacement of transports, no choice of argument can recover a statement for every norm.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -118,39 +74,59 @@ The same reasoning transfers a theorem about singular-value prefixes into a theo
 
 ## Companion: mathematics and Lean correspondence (display only)
 
-For a fixed matrix shape, a unitarily invariant norm satisfies \(\|UAV\|_\Phi=\|A\|_\Phi\) for unitary \(U,V\) and is determined by a symmetric gauge \(\phi\) via \(\|A\|_\Phi=\phi(\sigma(A))\). The triangle inequality uses
-\[
-\sigma(A+B)\prec_w\sigma(A)+\sigma(B),\qquad
-\phi(\sigma(A+B))\le\phi(\sigma(A)+\sigma(B))\le\phi(\sigma(A))+\phi(\sigma(B)).
-\]
-The normalized source-facing operator-ideal family has stronger cross-space compatibility than bare finite-dimensional unitary invariance.
+### Definitions and facts
 
-**A two-entry majorization check.** For \(x=(3,1)\) and \(y=(4,0)\), both sorted,
-\[
- x_1=3\le4=y_1,\qquad x_1+x_2=4=y_1+y_2,
-\]
-so \(x\prec_w y\), although \(x_2>y_2\). Correspondingly \(\|x\|_\infty=3<4=\|y\|_\infty\), \(\|x\|_1=4=\|y\|_1\), and \(\|x\|_2=\sqrt{10}<4=\|y\|_2\). In the matrix application, take the nonnegative diagonal matrices with these singular-value lists.
+- **Unitarily invariant:** \(N(UZV)=N(Z)\); \(N(Z)=\Phi(s_1(Z),s_2(Z),\dots)\) for a symmetric gauge function \(\Phi\) (von Neumann 1937).
+- **Normalized:** \(N(uv^*)=\|u\|\|v\|\); then \(\|Z\|_{\rm op}\le N(Z)\le\|Z\|_1\).
+- **Contraction law:** \(s_j(KZL)\le\|K\|\,s_j(Z)\,\|L\|\) (min-max), hence \(N(KZL)\le\|K\|N(Z)\|L\|\).
+- **Davis–Kahan (1.10)–(1.13):** \(\kappa_k=\inf_{\dim\mathcal S=k-1}\sup_{\|x\|=1,x\perp\mathcal S}\|Kx\|\); \(\|K\|_{(\nu)}=\kappa_1+\dots+\kappa_\nu=\sup_\Omega\|K\Omega\|_{(\nu)}=\sup\operatorname{Re}\sum_{k=1}^\nu y_k^*Kx_k\) over orthonormal \(\nu\)-tuples.
+- **Fan dominance:** \(N(K)\le N(L)\ \forall N\iff\|K\|_{(k)}\le\|L\|_{(k)}\ \forall k\) (\(s(K)\prec_w s(L)\)). Proof: raise \(s(K)\) to \(z\ge s(K)\) with \(z\prec s(L)\); \(z\) is a convex combination of permutations of \(s(L)\) (Hardy–Littlewood–Pólya / Birkhoff); \(\Phi\) is symmetric, convex, monotone.
+- **Example:** \((2,2)\prec_w(3,1)\): \(2\le3\), \(4\le4\); norms \(2\le3\), \(\sqrt8\le\sqrt{10}\), \(4\le4\).
+- **Notation:** Davis–Kahan write \(\|K\|_\nu\) for the Ky Fan \(\nu\)-norm, so their \(\|\cdot\|_1\) is the operator norm and \(\|\cdot\|_{\rm sq}\) the Hilbert–Schmidt norm; the journal paper writes \(\|\cdot\|_1\) for the trace norm and \(\|\cdot\|_{(j)}\) for Ky Fan norms.
+- **Q-norm:** \(N(Z)^2=M(Z^*Z)\). Frobenius (\(M=\|\cdot\|_1\)), operator (\(M=\|\cdot\|_{\rm op}\)), Schatten \(p\ge2\) (\(M=\|\cdot\|_{p/2}\)); trace norm is not.
 
-**Lean bridge (verbatim excerpts).**
+### Prop 4.4 lists at \(\theta=45^\circ\)
 
-`DavisKahan/OperatorIdeal/NormalizedUnitaryInvariantNorm.lean`:
+| | singular values of \(I-W\) | max | sum | sum of squares |
+|---|---|---|---|---|
+| direct rotation | \(4\times2\sin22.5^\circ\approx0.765\) | 0.765 | 3.061 | 2.343 |
+| competitor | \(2\sin45^\circ\approx1.414\) (×2), 0, 0 | 1.414 | 2.828 | 4 |
 
-```lean
-theorem gauge_comp_isometryEquiv (e : F ≃ₗᵢ[𝕜] G) (f : H ≃ₗᵢ[𝕜] E)
-    {A : E →L[𝕜] F} (hA : N.Mem A) :
-    N.gauge ((e.toContinuousLinearEquiv : F →L[𝕜] G) ∘L A ∘L
-      (f.toContinuousLinearEquiv : H →L[𝕜] E)) = N.gauge A := by
-```
+### Lean correspondence
 
-This is the cross-space version of unitary invariance: both coordinate changes are linear isometric equivalences. Its ideal-membership assumption is explicit and the underlying family supplies the ideal laws.
-
-`DavisKahan/OperatorIdeal/NormalizedUnitaryInvariantNorm.lean`:
+Tau Ceti, `TauCeti/Analysis/InnerProductSpace/KyFan.lean`:
 
 ```lean
-theorem gauge_comp_left_le (L : F →L[𝕜] G) {A : E →L[𝕜] F} (hA : N.Mem A)
-    (hL : ‖L‖ ≤ 1) : N.gauge (L ∘L A) ≤ N.gauge A :=
+noncomputable def kyFanSum (A : E →ₗ[𝕜] F) (k : ℕ) : ℝ :=
+  ∑ i ∈ Finset.range k, A.singularValues i
 ```
 
-This is the contraction rule for left composition, a condition stronger than assigning unrelated invariant norms to separate matrix shapes.
+`TauCeti/Analysis/OperatorIdeal/SymmetricGauge/Basic.lean`:
 
-**Reconstruction exercise:** Reprove the principal displayed identity from the spoken lecture, then identify the exact source/target types and extra assumptions in each displayed Lean declaration.
+```lean
+structure SymmetricGauge where
+  toFun : (ℕ →₀ ℝ≥0) → ℝ≥0
+  map_add_le' : ∀ a b, toFun (a + b) ≤ toFun a + toFun b
+  map_smul' : ∀ (c : ℝ≥0) a, toFun (c • a) = c * toFun a
+  map_equivMapDomain' : ∀ (σ : Equiv.Perm ℕ) a, toFun (a.equivMapDomain σ) = toFun a
+  monotone' : Monotone toFun
+  map_single_zero_one' : toFun (Finsupp.single 0 1) = 1
+```
+
+`TauCeti/Analysis/OperatorIdeal/Family/KyFan/Dominance.lean`, `namespace TauCeti.OperatorIdealFamily`:
+
+```lean
+class IsKyFanDominant (Φ : OperatorIdealFamily.{u, v, w} 𝕜) : Prop where
+  gauge_le_of_forall_kyFanGauge_le : ∀ {E G : Type v} {F H : Type w}
+    [NormedAddCommGroup E] [InnerProductSpace 𝕜 E] [CompleteSpace E]
+    [NormedAddCommGroup F] [InnerProductSpace 𝕜 F] [CompleteSpace F]
+    [NormedAddCommGroup G] [InnerProductSpace 𝕜 G] [CompleteSpace G]
+    [NormedAddCommGroup H] [InnerProductSpace 𝕜 H] [CompleteSpace H]
+    {A : E →L[𝕜] F} {B : G →L[𝕜] H},
+    (∀ k, A.kyFanGauge k ≤ B.kyFanGauge k) → Φ.gauge A ≤ Φ.gauge B
+```
+
+**Mapping notes.**
+
+- `SymmetricGauge` records exactly the lecture's properties (subadditive, homogeneous, permutation invariant, monotone, normalized); sign invariance is built in because the gauge acts on nonnegative sequences.
+- Ky Fan dominance is a separate class. The module docstring states that the ideal-family laws do not force it, and gives instances for the operator-norm, Ky Fan, trace-class, Schatten, Hilbert–Schmidt families and every symmetric-gauge family. The paper's sine-theta theorem carries `[N.toOperatorIdealFamily.IsKyFanDominant]` (or the normalized-symmetric family structure that provides it) as a hypothesis.

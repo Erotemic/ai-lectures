@@ -1,48 +1,70 @@
 {
   "schema_version": 1,
   "lecture_id": "024000",
-  "source_g2": "134000",
-  "related_resources": [
-    {
-      "source_id": "higham-polar",
-      "reason": "Alternative polar-factor explanation; distinguish a kernel-zero partial isometry from full unitary extensions."
-    },
-    {
-      "source_id": "bhatia-1997",
-      "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
-    },
-    {
-      "source_id": "davis-kahan-1970",
-      "reason": "Original Section 4 statements on transport minimization, including Proposition 4.4."
-    },
-    {
-      "source_id": "higham-unitarily-invariant-norm",
-      "reason": "Connect singular-value inequalities with symmetric gauges, Schatten and Ky Fan norms."
-    },
-    {
-      "source_id": "wiki-orthogonal-matrix",
-      "reason": "The explicit real orthogonal transporter in four dimensions."
-    },
-    {
-      "source_id": "wiki-schatten-norm",
-      "reason": "Trace-norm displacement and its singular-value calculation."
-    },
-    {
-      "source_id": "wiki-angles-between-flats",
-      "reason": "Checking the two acute principal angles of the counterexample."
-    }
-  ],
-  "transcript": "024000-the-proposition-4-4-counterexample.md",
+  "source_g2": null,
+  "transcript": "024000-proposition-4-4-and-its-counterexample.md",
   "historical_claims": [
     {
       "id": "024000-h01",
-      "anchor": "The printed universal minimization claim of Proposition four point four fails already in a four-dimensional real inner-product space.",
+      "anchor": "It claims that for real subspaces whose principal angles are all at most sixty degrees, the direct rotation minimizes every unitarily invariant norm of the full displacement.",
       "kind": "source_scope",
-      "source_ids": [
-        "davis-kahan-1970"
-      ],
+      "source_ids": ["davis-kahan-1970"],
       "source_locator": "Proposition 4.4",
       "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "024000-h02",
+      "anchor": "Davis and Kahan also give two examples showing that the unsquared statement fails in general.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Examples 4.1-4.2",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "024000-h03",
+      "anchor": "over the first nu over two principal planes, of the Ky Fan two-norm of K restricted to that plane. This is equation 4.3 of the paper.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Equation (4.3)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "024000-h04",
+      "anchor": "Bolotnikov, Li, and Rodman, in 2001, studied minimal distortion problems for unitary maps carrying one subspace onto another, proved Q-norm optimality, and gave counterexamples for Schatten norms with exponent between one and two.",
+      "kind": "historical_attribution",
+      "source_ids": ["bolotnikov-li-rodman-2001"],
+      "source_locator": "Theorem 3.1 and Lemma 3.3",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "024000-h05",
+      "anchor": "Qiu, Zhang, and Li later repeated the sixty-degree assertion, and Zhang and Qiu noted in 2010 that trace-norm minimality fails in general, without addressing the particular real, small-angle restriction.",
+      "kind": "historical_attribution",
+      "source_ids": ["qiu-zhang-li-2005", "zhang-qiu-2010"],
+      "source_locator": "Qiu-Zhang-Li Section 5; Zhang-Qiu Section 4, p. 1615",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "024000-h06",
+      "anchor": "As far as the journal paper's authors could determine, the contradiction of the printed real claim at every positive angle had not previously been made explicit.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970", "bolotnikov-li-rodman-2001"],
+      "source_locator": "Journal paper, Section 5 (novelty statement)",
+      "audit_status": "pending_primary_passage_comparison"
+    }
+  ],
+  "related_resources": [
+    {
+      "source_id": "bolotnikov-li-rodman-2001",
+      "reason": "Minimal distortion problems: Q-norm optimality and counterexamples for Schatten norms below p = 2."
+    },
+    {
+      "source_id": "zhang-qiu-2010",
+      "reason": "Canonical-angle inequalities and the observation that trace-norm displacement need not be minimized by the direct rotation."
+    },
+    {
+      "source_id": "wiki-schatten-norm",
+      "reason": "Trace and Frobenius norms as Schatten norms, ranking the two transports differently."
     }
   ]
 }

@@ -1,37 +1,62 @@
 {
   "schema_version": 1,
   "lecture_id": "010000",
-  "source_g2": "069000",
-  "related_resources": [
+  "source_g2": null,
+  "transcript": "010000-distance-gaps-and-the-hilbert-schmidt-estimate.md",
+  "historical_claims": [
     {
-      "source_id": "higham-sylvester",
-      "reason": "Matrix Sylvester equation; note the lecture-specific operator norm and spectral-gap conditions."
+      "id": "010000-h01",
+      "anchor": "Davis and Kahan state this as their inequality 5.1, and the same argument extends to unbounded self-adjoint coefficients",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 5, equation (5.1)",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "rosenblum-1956",
-      "reason": "Primary paper on the operator equation and disjoint spectra; comparison resource, not a verified source check."
+      "id": "010000-h02",
+      "anchor": "This is Davis and Kahan's inequality 5.2.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 5, equation (5.2)",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "tao-eigenvalue-stability",
-      "reason": "Contrast Hermitian spectral stability with nonnormal sensitivity and pseudospectra."
+      "id": "010000-h03",
+      "anchor": "Davis and Kahan remark that 5.2 is not best possible unless the rank is one, and ask whether the factor root r can be replaced by a universal constant.",
+      "kind": "source_scope",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Section 5, after (5.2)",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "bell-banach-algebras",
-      "reason": "Review the Banach-algebra spectral language behind resolvents and invertibility."
+      "id": "010000-h04",
+      "anchor": "Later work answered yes: for self-adjoint coefficients whose spectra are distance delta apart, the operator norm of X is at most pi over two times the operator norm of Y divided by delta, and pi over two cannot be improved.",
+      "kind": "historical_attribution",
+      "source_ids": ["bhatia-1997"],
+      "source_locator": "Bhatia, Matrix Analysis, Section VII.2 (secondary; primary papers by Bhatia, Davis, McIntosh and by Bhatia, Davis, Koosis to be confirmed)",
+      "audit_status": "pending_primary_passage_comparison"
     },
     {
-      "source_id": "wiki-matrix-norm",
-      "reason": "Why an estimate in Frobenius norm need not have the same constant in operator norm."
-    },
-    {
-      "source_id": "wiki-hilbert-schmidt-operator",
-      "reason": "The square-summability mechanism behind constant-one Hilbert–Schmidt bounds."
-    },
-    {
-      "source_id": "wiki-sylvester-equation",
-      "reason": "The shared equation behind the competing norm estimates."
+      "id": "010000-h05",
+      "anchor": "That is the core of Davis and Kahan's Theorem 6.2.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Theorem 6.2",
+      "audit_status": "pending_primary_passage_comparison"
     }
   ],
-  "transcript": "010000-choosing-the-correct-sylvester-norm-estimate.md",
-  "historical_claims": []
+  "related_resources": [
+    {
+      "source_id": "wiki-hilbert-schmidt-operator",
+      "reason": "Hilbert-Schmidt operators and the trace inner product that makes them a Hilbert space."
+    },
+    {
+      "source_id": "wiki-kronecker-product",
+      "reason": "In finite dimensions the Sylvester map is a Kronecker sum, whose eigenvalues are differences of eigenvalues."
+    },
+    {
+      "source_id": "bhatia-1997",
+      "reason": "Chapter VII: perturbation of spectral subspaces under distance-only separation and the pi/2 constant."
+    }
+  ]
 }

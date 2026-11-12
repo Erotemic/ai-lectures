@@ -1,29 +1,34 @@
 {
   "schema_version": 1,
   "lecture_id": "009000",
-  "source_g2": "065000",
-  "related_resources": [
+  "source_g2": null,
+  "transcript": "009000-ordered-separation-and-theorem-5-2.md",
+  "historical_claims": [
     {
-      "source_id": "higham-sylvester",
-      "reason": "Matrix Sylvester equation; note the lecture-specific operator norm and spectral-gap conditions."
-    },
-    {
-      "source_id": "rosenblum-1956",
-      "reason": "Primary paper on the operator equation and disjoint spectra; comparison resource, not a verified source check."
-    },
-    {
-      "source_id": "boyd-stanford-ee263-archive",
-      "reason": "Use the publicly available course-reader slides for block matrices, quadratic forms, or dynamical examples."
-    },
-    {
-      "source_id": "wiki-sylvester-equation",
-      "reason": "The matrix equation whose solution is controlled by a gap."
-    },
-    {
-      "source_id": "wiki-spectral-gap",
-      "reason": "Compare ordinary separation with the stronger consistent spectral ordering used for decay."
+      "id": "009000-h01",
+      "anchor": "Davis and Kahan's Theorem 5.2 handles this case.",
+      "kind": "source_attribution",
+      "source_ids": ["davis-kahan-1970"],
+      "source_locator": "Theorem 5.2",
+      "audit_status": "pending_primary_passage_comparison"
     }
   ],
-  "transcript": "009000-ordered-spectral-separation.md",
-  "historical_claims": []
+  "related_resources": [
+    {
+      "source_id": "wiki-sylvester-equation",
+      "reason": "The Sylvester equation; compare the integral solution formula with the Kronecker-sum view."
+    },
+    {
+      "source_id": "wiki-matrix-exponential",
+      "reason": "Matrix exponentials and the derivative identity used to verify the integral solution."
+    },
+    {
+      "source_id": "wiki-c0-semigroup",
+      "reason": "Exponentials of unbounded self-adjoint operators bounded below, which keep the integral meaningful in the unbounded case."
+    },
+    {
+      "source_id": "bhatia-1997",
+      "reason": "Chapter VII: integral representations of solutions of AX - XB = Y and the resulting norm bounds."
+    }
+  ]
 }

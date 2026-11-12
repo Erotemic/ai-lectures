@@ -1517,6 +1517,310 @@
       "origin": "Wikipedia (English); checked 2026-11-11",
       "notes": "Trace as the sum of eigenvalues and the basis-independent total in finite dimensions.",
       "access": "free_no_login"
+    },
+    "jordan-1875-essai": {
+      "title": "Essai sur la géométrie à n dimensions",
+      "authors": [
+        "Camille Jordan"
+      ],
+      "year": 1875,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.24033/bsmf.90",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Bulletin de la Société Mathématique de France 3, pp. 103-174. Introduces the angles between linear subspaces of n-dimensional space."
+    },
+    "hotelling-1936": {
+      "title": "Relations Between Two Sets of Variates",
+      "authors": [
+        "Harold Hotelling"
+      ],
+      "year": 1936,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1093/biomet/28.3-4.321",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Biometrika 28(3-4), pp. 321-377. Canonical correlation analysis."
+    },
+    "bjorck-golub-1973": {
+      "title": "Numerical Methods for Computing Angles Between Linear Subspaces",
+      "authors": [
+        "Åke Björck",
+        "Gene H. Golub"
+      ],
+      "year": 1973,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1090/S0025-5718-1973-0348991-3",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Mathematics of Computation 27(123), pp. 579-594."
+    },
+    "stewart-1977": {
+      "title": "On the Perturbation of Pseudo-Inverses, Projections and Linear Least Squares Problems",
+      "authors": [
+        "G. W. Stewart"
+      ],
+      "year": 1977,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1137/1019104",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "SIAM Review 19(4), pp. 634-662. Explicit formulation of the CS decomposition, per Paige and Wei (1994)."
+    },
+    "paige-wei-1994": {
+      "title": "History and Generality of the CS Decomposition",
+      "authors": [
+        "C. C. Paige",
+        "M. Wei"
+      ],
+      "year": 1994,
+      "kind": "historical_survey",
+      "url": "https://doi.org/10.1016/0024-3795(94)90446-4",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Linear Algebra and its Applications 208-209, pp. 303-326. Traces the CS decomposition from Jordan through Davis-Kahan to Stewart."
+    },
+    "wiki-canonical-correlation": {
+      "title": "Canonical correlation - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Canonical_correlation",
+      "origin": "Wikipedia (English)",
+      "notes": "Canonical correlation analysis; connection to principal angles between column spaces.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "davis-1958-separation": {
+      "title": "Separation of Two Linear Subspaces",
+      "authors": [
+        "Chandler Davis"
+      ],
+      "year": 1958,
+      "kind": "primary_paper",
+      "url": "https://acta.bibl.u-szeged.hu/13858/1/math_019_fasc_003_004_172-187.pdf",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Acta Scientiarum Mathematicarum (Szeged) 19, pp. 172-187. Closeness and separation operators for two subspaces; Theorems 7.3-7.4 give extremal properties of the direct rotation."
+    },
+    "bottcher-spitkovsky-2010": {
+      "title": "A Gentle Guide to the Basics of Two Projections Theory",
+      "authors": [
+        "Albrecht Böttcher",
+        "Ilya M. Spitkovsky"
+      ],
+      "year": 2010,
+      "kind": "historical_survey",
+      "url": "https://doi.org/10.1016/j.laa.2009.11.002",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Linear Algebra and its Applications 432(6), pp. 1412-1459. Remark 1.3 relates Halmos (1969) to Dixmier (1948) and Davis (1958). Dixmier, Revue Scientifique 86 (1948), 387-399, has no verified online link in this catalog."
+    },
+    "kato-1966": {
+      "title": "Perturbation Theory for Linear Operators (first edition)",
+      "authors": [
+        "Tosio Kato"
+      ],
+      "year": 1966,
+      "kind": "book",
+      "url": "https://doi.org/10.1007/978-3-662-12678-3",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Springer. Chapter I, Section 4.6, equations (4.33)-(4.42): the algebraic intertwiner construction for nearby projections. Distinguish from the 1976/1995 editions (kato-1995)."
+    },
+    "simon-2018-kato": {
+      "title": "Tosio Kato's work on non-relativistic quantum mechanics: part 1",
+      "authors": [
+        "Barry Simon"
+      ],
+      "year": 2018,
+      "kind": "historical_survey",
+      "url": "https://doi.org/10.1007/s13373-018-0118-0",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Bulletin of Mathematical Sciences. Section 5 traces Sz.-Nagy (1947) and Kato's pairs-of-projections construction; Theorem 5.1."
+    },
+    "hellinger-toeplitz-1910": {
+      "title": "Grundlagen für eine Theorie der unendlichen Matrizen",
+      "authors": [
+        "Ernst Hellinger",
+        "Otto Toeplitz"
+      ],
+      "year": 1910,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1007/BF01456325",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Mathematische Annalen 69, pp. 289-330. Everywhere-defined symmetric operators are bounded."
+    },
+    "leissa-2005": {
+      "title": "The Historical Bases of the Rayleigh and Ritz Methods",
+      "authors": [
+        "A. W. Leissa"
+      ],
+      "year": 2005,
+      "kind": "historical_survey",
+      "url": "https://doi.org/10.1016/j.jsv.2004.12.021",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Journal of Sound and Vibration 287(4-5), pp. 961-978. Rayleigh (Theory of Sound, 1877) and Ritz (1909)."
+    },
+    "ritz-1909": {
+      "title": "Über eine neue Methode zur Lösung gewisser Variationsprobleme der mathematischen Physik",
+      "authors": [
+        "Walter Ritz"
+      ],
+      "year": 1909,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1515/crll.1909.135.1",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Journal für die reine und angewandte Mathematik 135, pp. 1-61."
+    },
+    "weyl-1912": {
+      "title": "Das asymptotische Verteilungsgesetz der Eigenwerte linearer partieller Differentialgleichungen",
+      "authors": [
+        "Hermann Weyl"
+      ],
+      "year": 1912,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1007/BF01456804",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Mathematische Annalen 71, pp. 441-479. Locate the exact eigenvalue comparison passage before confirming."
+    },
+    "davis-1963": {
+      "title": "The Rotation of Eigenvectors by a Perturbation",
+      "authors": [
+        "Chandler Davis"
+      ],
+      "year": 1963,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1016/0022-247X(63)90001-5",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "J. Math. Anal. Appl. 6, pp. 159-173."
+    },
+    "davis-1965": {
+      "title": "The Rotation of Eigenvectors by a Perturbation. II",
+      "authors": [
+        "Chandler Davis"
+      ],
+      "year": 1965,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1016/0022-247X(65)90066-1",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "J. Math. Anal. Appl. 11, pp. 20-27."
+    },
+    "davis-kahan-1969": {
+      "title": "Some New Bounds on Perturbation of Subspaces",
+      "authors": [
+        "Chandler Davis",
+        "W. M. Kahan"
+      ],
+      "year": 1969,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1090/S0002-9904-1969-12330-X",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Bull. AMS 75, pp. 863-868. Announcement preceding the 1970 paper."
+    },
+    "fan-1951": {
+      "title": "Maximum Properties and Inequalities for the Eigenvalues of Completely Continuous Operators",
+      "authors": [
+        "Ky Fan"
+      ],
+      "year": 1951,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1073/pnas.37.11.760",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "PNAS 37, pp. 760-766. Ky Fan norms, the extremal characterization, and the dominance principle."
+    },
+    "rosenblum-1969": {
+      "title": "The Operator Equation BX - XA = Q with Selfadjoint A and B",
+      "authors": [
+        "Marvin Rosenblum"
+      ],
+      "year": 1969,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.2307/2035971",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Proceedings of the AMS 20, pp. 115-120."
+    },
+    "wiki-jacobi-eigenvalue": {
+      "title": "Jacobi eigenvalue algorithm - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Jacobi_eigenvalue_algorithm",
+      "origin": "Wikipedia (English)",
+      "notes": "Jacobi rotations; the rotation angle satisfies tan 2theta = 2b/(a1 - a0).",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "bolotnikov-li-rodman-2001": {
+      "title": "Minimal Distortion Problems for Classes of Unitary Matrices",
+      "authors": [
+        "Vladimir Bolotnikov",
+        "Chi-Kwong Li",
+        "Leiba Rodman"
+      ],
+      "year": 2001,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.13001/1081-3810.1058",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Electronic Journal of Linear Algebra 8, pp. 26-46. Q-norm and Frobenius minimality; Schatten p<2 counterexamples (Theorem 3.1, Lemma 3.3)."
+    },
+    "qiu-zhang-li-2005": {
+      "title": "Unitarily Invariant Metrics on the Grassmann Space",
+      "authors": [
+        "Li Qiu",
+        "Yanxia Zhang",
+        "Chi-Kwong Li"
+      ],
+      "year": 2005,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1137/040607605",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "SIAM J. Matrix Anal. Appl. 27(2), pp. 507-531 (published online 2006). Section 5 repeats the pi/3 assertion."
+    },
+    "zhang-qiu-2010": {
+      "title": "From Subadditive Inequalities of Singular Values to Triangle Inequalities of Canonical Angles",
+      "authors": [
+        "Yanxia Zhang",
+        "Li Qiu"
+      ],
+      "year": 2010,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1137/09074841X",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "SIAM J. Matrix Anal. Appl. 31(4), pp. 1606-1620. Section 4, p. 1615: general trace-norm nonminimality."
+    },
+    "edmonds-1965": {
+      "title": "Paths, Trees, and Flowers",
+      "authors": [
+        "Jack Edmonds"
+      ],
+      "year": 1965,
+      "kind": "primary_paper",
+      "url": "https://web.eecs.umich.edu/~pettie/matching/Edmonds-paths-trees-flowers.pdf",
+      "origin": "docs/planning/lecture-project-vision-and-history.md (Canadian Journal of Mathematics 17, 449-467)",
+      "notes": "Blossom algorithm for maximum (cardinality) matching in general graphs; weighted matching is treated in Edmonds's companion 1965 work. Distinguish cardinality and weighted sources before crediting a specific algorithm."
+    },
+    "wiki-matching-graph": {
+      "title": "Maximum weight matching - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Maximum_weight_matching",
+      "origin": "Wikipedia (English)",
+      "notes": "Maximum-weight matching in general graphs and blossom algorithms.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wedin-1972": {
+      "title": "Perturbation Bounds in Connection with Singular Value Decomposition",
+      "authors": [
+        "Per-Åke Wedin"
+      ],
+      "year": 1972,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1007/BF01932678",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "BIT Numerical Mathematics 12, pp. 99-111. Singular-subspace perturbation bounds."
+    },
+    "chen-chi-fan-ma-2021": {
+      "title": "Spectral Methods for Data Science: A Statistical Perspective",
+      "authors": [
+        "Yuxin Chen",
+        "Yuejie Chi",
+        "Jianqing Fan",
+        "Cong Ma"
+      ],
+      "year": 2021,
+      "kind": "survey",
+      "url": "https://doi.org/10.1561/2200000079",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Foundations and Trends in Machine Learning. Survey of spectral methods and eigenspace perturbation in statistics."
     }
   }
 }
