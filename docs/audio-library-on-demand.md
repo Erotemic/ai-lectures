@@ -197,7 +197,7 @@ uses the two distinct cached MP3s and the live transcript follows seeking.
 
 ## Course tracks
 
-The reader offers four media routes, plus the G4 topic graph. **G1 · Manim** opens the existing presentation/video browser at `/`. **G2 · Comprehensive audio** opens `/audio?track=g2`, with 156 mathematical lectures. **G3 · Paper audio** opens `/audio?track=g3`, with 27 paper-focused lectures, including its introduction. **History · People and ideas** opens `/audio?track=history`, with 28 individually authored biographical recordings about the people who developed the surrounding mathematics. G3 develops spectral geometry, supporting proofs, four angle theorems, and the Section 4 transport results.
+The reader offers four media routes, plus the G4 topic graph. **G1 · Manim** opens the existing presentation/video browser at `/`. **G2 · Comprehensive audio** opens `/audio?track=g2`, with 156 mathematical lectures. **G3 · Paper audio** opens `/audio?track=g3`, with 27 paper-focused lectures, including its introduction. **History · People and ideas** opens `/audio?track=history`, with four full-length historical biographies; 24 short drafts have been archived under `draft-stages/tts-history/stubs/` pending expansion. G3 develops spectral geometry, supporting proofs, four angle theorems, and the Section 4 transport results.
 
 The G2, G3, and History audio tracks share playback controls, Kokoro/Crall profiles, custom voices, generated-audio filtering, feedback, and non-spoken reading links. Each has a separate transcript directory and audio cache. Switching tracks preserves G2's original identifiers and cached audio. Track selection uses a fixed server-side allowlist rather than arbitrary filesystem paths.
 

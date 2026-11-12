@@ -1,169 +1,25 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "Twenty-eight person-focused audio essays following the geometry, approximation, operator theory, computing, and statistical uses of spectral subspaces.",
+  "summary": "Four full-length historical lectures on Hilbert, Kato, Davis, and Kahan; short drafts remain outside the playable catalog in stubs/.",
   "assumed_background": [
     "elementary vectors and eigenvalues; advanced concepts are introduced locally"
   ],
   "sections": [
-    "geometry",
-    "variational",
     "operators",
-    "norms",
-    "davis-kahan",
-    "computation",
-    "statistics"
+    "davis-kahan"
   ],
   "lectures": [
-    {
-      "id": "001000",
-      "title": "James Joseph Sylvester: When can one matrix equation be solved uniquely?",
-      "person": "James Joseph Sylvester",
-      "section": "geometry",
-      "file": "001000-sylvester.md",
-      "spoken_words": 409,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "002000",
-      "title": "Camille Jordan: How can two higher-dimensional spaces have several angles?",
-      "person": "Camille Jordan",
-      "section": "geometry",
-      "file": "002000-jordan.md",
-      "spoken_words": 357,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "003000",
-      "title": "Lord Rayleigh: What can a trial vibration tell us before we solve the full equation?",
-      "person": "Lord Rayleigh",
-      "section": "variational",
-      "file": "003000-rayleigh.md",
-      "spoken_words": 384,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "004000",
-      "title": "Walther Ritz: How do infinitely many possible motions become a finite calculation?",
-      "person": "Walther Ritz",
-      "section": "variational",
-      "file": "004000-ritz.md",
-      "spoken_words": 367,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "005000",
-      "title": "Hermann Weyl: Why can eigenvalues remain stable while their eigenvectors rotate?",
-      "person": "Hermann Weyl",
-      "section": "variational",
-      "file": "005000-weyl.md",
-      "spoken_words": 357,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "006000",
-      "title": "Richard Courant: How can an eigenvalue be characterized without finding its eigenvector?",
-      "person": "Richard Courant",
-      "section": "variational",
-      "file": "006000-courant.md",
-      "spoken_words": 350,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "007000",
-      "title": "Ernst Fischer: What does spectral order have to do with the dimension of a subspace?",
-      "person": "Ernst Fischer",
-      "section": "variational",
-      "file": "007000-fischer.md",
-      "spoken_words": 367,
-      "draft_status": "authored",
-      "source_g2": null
-    },
     {
       "id": "008000",
       "title": "David Hilbert: Why do infinitely many coordinates still have geometry?",
       "person": "David Hilbert",
       "section": "operators",
       "file": "008000-hilbert.md",
-      "spoken_words": 357,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "009000",
-      "title": "Frigyes Riesz: How do inner products represent the measurements we make?",
-      "person": "Frigyes Riesz",
-      "section": "operators",
-      "file": "009000-riesz.md",
-      "spoken_words": 367,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "010000",
-      "title": "John von Neumann: How can matrix displacement be compared without choosing coordinates?",
-      "person": "John von Neumann",
-      "section": "norms",
-      "file": "010000-vonneumann.md",
-      "spoken_words": 343,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "011000",
-      "title": "Robert Schatten: What happens when a matrix norm becomes an operator ideal?",
-      "person": "Robert Schatten",
-      "section": "norms",
-      "file": "011000-schatten.md",
-      "spoken_words": 372,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "012000",
-      "title": "Ky Fan: How can a whole list of singular values be compared at once?",
-      "person": "Ky Fan",
-      "section": "norms",
-      "file": "012000-fan.md",
-      "spoken_words": 369,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "013000",
-      "title": "Béla Szőkefalvi-Nagy: Can one nearby projection be carried to another by a controlled unitary?",
-      "person": "Béla Szőkefalvi-Nagy",
-      "section": "operators",
-      "file": "013000-sznagy.md",
-      "spoken_words": 365,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "014000",
-      "title": "Paul Halmos: What is the geometry hidden inside a pair of projections?",
-      "person": "Paul Halmos",
-      "section": "operators",
-      "file": "014000-halmos.md",
-      "spoken_words": 370,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "015000",
-      "title": "Jacques Dixmier: What can two infinite-dimensional closed subspaces share?",
-      "person": "Jacques Dixmier",
-      "section": "operators",
-      "file": "015000-dixmier.md",
-      "spoken_words": 357,
-      "draft_status": "authored",
-      "source_g2": null
+      "spoken_words": 3936,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 27.1
     },
     {
       "id": "016000",
@@ -171,19 +27,10 @@
       "person": "Tosio Kato",
       "section": "operators",
       "file": "016000-kato.md",
-      "spoken_words": 336,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "017000",
-      "title": "Marvin Rosenblum: How does separating two spectra allow an operator equation to be solved?",
-      "person": "Marvin Rosenblum",
-      "section": "operators",
-      "file": "017000-rosenblum.md",
-      "spoken_words": 389,
-      "draft_status": "authored",
-      "source_g2": null
+      "spoken_words": 3996,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 27.6
     },
     {
       "id": "018000",
@@ -191,9 +38,10 @@
       "person": "Chandler Davis",
       "section": "davis-kahan",
       "file": "018000-davis.md",
-      "spoken_words": 372,
-      "draft_status": "authored",
-      "source_g2": null
+      "spoken_words": 4074,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 28.1
     },
     {
       "id": "019000",
@@ -201,99 +49,11 @@
       "person": "William Kahan",
       "section": "davis-kahan",
       "file": "019000-kahan.md",
-      "spoken_words": 361,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "020000",
-      "title": "Per-Åke Wedin: How do singular subspaces change when a rectangular matrix changes?",
-      "person": "Per-Åke Wedin",
-      "section": "computation",
-      "file": "020000-wedin.md",
-      "spoken_words": 398,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "021000",
-      "title": "Åke Björck: How can principal angles be computed reliably from matrices?",
-      "person": "Åke Björck",
-      "section": "computation",
-      "file": "021000-bjorck.md",
-      "spoken_words": 369,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "022000",
-      "title": "Gene H. Golub: Why does a good algorithm need to respect subspace geometry?",
-      "person": "Gene H. Golub",
-      "section": "computation",
-      "file": "022000-golub.md",
-      "spoken_words": 344,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "023000",
-      "title": "G. W. Stewart: How should matrix perturbation bounds guide actual numerical work?",
-      "person": "G. W. Stewart",
-      "section": "computation",
-      "file": "023000-stewart.md",
-      "spoken_words": 365,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "024000",
-      "title": "Karl Pearson: Why is a principal component an optimization problem?",
-      "person": "Karl Pearson",
-      "section": "statistics",
-      "file": "024000-pearson.md",
-      "spoken_words": 354,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "025000",
-      "title": "Harold Hotelling: How did subspace geometry become statistical inference?",
-      "person": "Harold Hotelling",
-      "section": "statistics",
-      "file": "025000-hotelling.md",
-      "spoken_words": 361,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "026000",
-      "title": "Yi Yu: Can a statistical eigenspace bound use a population gap alone?",
-      "person": "Yi Yu",
-      "section": "statistics",
-      "file": "026000-yu.md",
-      "spoken_words": 393,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "027000",
-      "title": "Tengyao Wang: Why do rectangular data require a singular-subspace theorem?",
-      "person": "Tengyao Wang",
-      "section": "statistics",
-      "file": "027000-wang.md",
-      "spoken_words": 356,
-      "draft_status": "authored",
-      "source_g2": null
-    },
-    {
-      "id": "028000",
-      "title": "Richard J. Samworth: How do we turn a deterministic angle theorem into a statistical guarantee?",
-      "person": "Richard J. Samworth",
-      "section": "statistics",
-      "file": "028000-samworth.md",
-      "spoken_words": 387,
-      "draft_status": "authored",
-      "source_g2": null
+      "spoken_words": 4046,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 27.9
     }
-  ]
+  ],
+  "editorial_policy": "Expose only researched substantive portraits. Draft biographies live in stubs/ until expanded, checked and promoted."
 }

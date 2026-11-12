@@ -594,3 +594,18 @@ G1 presents the existing Manim material. G2 is the comprehensive, expanding math
 Keep each track's lecture identifiers, transcript files, sidecars, and audio cache independent. Common mathematics may be reused, but each recording must stand alone for listening. Record reused G2 material in G3's `track.json`; edit G3 narration separately as the short curriculum is refined. Citation metadata stays outside the narrated region.
 
 For G3, prioritize the hypotheses needed to prove the 1970 paper-facing results. Preserve distinctions among ordered gaps, distance gaps, self-adjoint domains, operator ideals, and squared versus unsquared displacement. Use the same direct, mathematically precise, non-defensive style as G2.
+
+## Person-focused history lectures: substantive delivery
+
+A person-focused lecture must earn its place as a full recording. Include
+biographical context verified against appropriate sources, the person’s actual
+mathematical contributions, a developed example, a meaningful account of the
+ideas’ later use, and the limits of the attribution. Keep bibliographical links
+and technical derivations in the non-spoken companion. The intended History
+track experience is a substantive long-form recording, generally about
+25–35 minutes at the selected speech rate, rather than a two- or three-minute
+portrait mislabeled as a lecture. **Do not pad to hit a stopwatch target**;
+if the material is not developed enough to justify long-form treatment, keep
+it under `tts-history/stubs/`, outside the browseable audio track, until it is.
+The manifest records only listening-ready lectures, and actual spoken word
+counts should be checked before promotion.

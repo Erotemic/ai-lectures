@@ -1,7 +1,18 @@
 # History · People and ideas
 
-A separate TTS track with **28 individual historical lectures** about people who shaped the mathematics of spectral subspaces. The track has its own identifiers, cache, progress, feedback, lecture catalog, and reference metadata.
+The playable history track contains **four substantive, researched lectures**:
+David Hilbert, Tosio Kato, Chandler Davis, and William Kahan. Each develops
+its subject's historical role, a sustained mathematical example, the core
+argument, and relevant limitations. The spoken drafts are approximately
+27–28 minutes at the reader's standard 145-words-per-minute estimate; actual
+TTS durations depend on voice, speed, and pauses.
 
-Each lecture begins with a mathematical problem, introduces the person and a documented contribution, and develops one illustrative calculation or geometric mental model. The source links, mathematical notation, and historiographic qualifications belong outside the spoken narration. The ordering is a listening suggestion rather than a prerequisite chain; each recording assumes only the background its subject requires.
+The other **24 short historical sketches have been archived to `stubs/`**,
+with their mathematical companions, sidecars, and identifiers preserved. They
+are drafts rather than playable episodes. Expand and verify them before
+adding them to `track.json`. No lecture should appear in the browsing catalog
+solely because a short biography exists.
 
-See `track.json` for the browsable person and section list. Readings are in `metadata/`. The existing visual history overview and group biography scenes remain unchanged, and no images or audio binaries are checked into Git.
+History shares the audio player's synthesis, progress, feedback, search and
+availability controls. Mathematical companion sections and reference URLs are
+non-spoken. G2, G3, and visual lecture content are unaffected.
