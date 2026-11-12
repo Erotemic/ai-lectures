@@ -83,3 +83,15 @@ These lectures use the same full-narration and source-attribution standard as th
 The sequence should remain selected for depth and interesting lines of
 inquiry, without turning each named site or technique into a mandatory
 lecture. Continue the mathematics curricula independently.
+
+## Eighth batch: environmental evidence and ancient commodities
+
+The dedicated `200000`–`299000` range is reserved for future How We Know lectures, so agents expanding literary tracks can use other IDs without colliding.
+
+| ID | Case study | Key researchers and evidence |
+|---|---|---|
+| 200000 | Seeds Before Farming | Struever, Nadel, Weiss, Wetterstrom, Piperno, Holst, Snir, and Bogaard; flotation, starch, seeds, and crop domestication |
+| 201000 | Water, Climate, and Ancient Cities | Lentz, Hamilton, Dunning, Scarborough, Fletcher, Evans, Pottier, Penny, Buckley, APSARA collaborators; reservoirs, lidar, and tree rings |
+| 202000 | Ancient Food in Pots and Cargoes | McGovern, Zhang, Tang, Zhao, Cappers, Sidebotham, Tomber, Pecci, Tanasi and colleagues; botanical finds, residues, and trade evidence |
+
+**Future candidates:** environmental archaeology of African cities, stable isotope studies of food webs, and the origins and movements of ancient textiles and dyes.

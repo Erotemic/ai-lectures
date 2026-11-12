@@ -177,3 +177,11 @@ feedback are namespaced by track.
 
 Run `make serve` at the repository root, and select **World History** in the
 reader. The server synthesizes audio on demand with the existing TTS profiles.
+
+## How We Know: environmental evidence and ancient commodities
+
+- **200000 · Seeds Before Farming** — Ohalo II, flotation, archaeobotanical evidence, and the difference between gathering, cultivation, and domestication.
+- **201000 · Water, Climate, and Ancient Cities** — Tikal reservoirs and Angkor hydrology, lidar, sediment chemistry, and tree-ring reconstructions.
+- **202000 · Ancient Food in Pots and Cargoes** — Jiahu residues, Berenike pepper, Roman amphorae, and the limits of commodity identification.
+
+For concurrent contributions, the `200000`–`299000` World History ID range is reserved for the How We Know strand. The existing `029000`–`057000` archaeology lectures retain their established identifiers. Other strands should select IDs outside this range.

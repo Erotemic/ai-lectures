@@ -1,0 +1,137 @@
+# 201000 - Water, Climate, and Ancient Cities: Reading a Damaged Landscape
+
+**Track:** World History. **Strand:** How We Know. **Background:** None. **Format:** Standalone spoken lecture; reference notes are excluded from narration.
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+# Water, Climate, and Ancient Cities: Reading a Damaged Landscape
+
+An ancient city can disappear without its buildings falling all at once. A reservoir stops being cleaned. A canal fills with sediment. Houses stand empty for a generation, then collapse under vegetation. Later visitors find stone temples and tell a story about a vanished people, but the city was far larger than its temples, and its decline may have been slower and more complicated than any single dramatic event.
+
+If archaeologists want to understand that city, what should they measure? They can map walls, date abandonment deposits, and read inscriptions. But to investigate its water supply, they may also need lake mud, ancient tree rings, traces of mercury, and tiny chemical residues in sediment. The problem is to reconstruct an environmental system that no longer functions, then distinguish what the evidence shows from the causes historians propose.
+
+We will examine two large urban landscapes: Tikal in the Maya lowlands of present-day Guatemala, and Angkor in Cambodia. The cases differ in time, climate, political institutions, and geography. Their usefulness together is methodological. At Tikal, archaeologists have investigated reservoir sediments for evidence of water management and pollution. At Angkor, landscape mapping and climate reconstructions reveal a vast system of canals and reservoirs exposed to fluctuating monsoons. The researchers include David Lentz, Nicholas Dunning, Vernon Scarborough, Roland Fletcher, Damian Evans, Daniel Penny, Christophe Pottier, Brendan Buckley, and many collaborators. Their investigations let us ask how different instruments can reveal different parts of the same historical problem.
+
+## The city outside the monument
+
+Visitors who approach Tikal's great temples encounter steep stone pyramids rising out of tropical forest. The surviving masonry is impressive, but the political and religious center depended on a much larger inhabited landscape. People needed homes, food, fuel, roads, craft materials, places to collect rainwater, and arrangements for maintaining them. The Classic-period city sustained a substantial population in an environment with strongly seasonal rainfall. How the city stored and distributed water was therefore connected to its ability to function.
+
+For Angkor, visitors often encounter Angkor Wat, a monumental complex constructed in the twelfth century under the Khmer Empire. But its towers and galleries were embedded within a spread-out urban and agricultural landscape. Networks of embankments, canals, ponds, reservoirs, occupation mounds, and temples covered an extensive area. The density of houses varied, and the boundaries between 'city' and 'countryside' were less rigid than familiar modern maps might suggest.
+
+This already exposes a sampling problem. Stone monuments are conspicuous and long-lived. Houses constructed with perishable materials may vanish except for their foundations, floor deposits, pits, and altered soils. If an archaeologist maps only monuments, the resulting plan can make the population look concentrated around ceremonial sites, while overlooking thousands of places where people cooked, grew food, and managed water. Recovering the whole urban landscape changes the unit of historical explanation.
+
+It also changes how credit for a city is assigned. Royal inscriptions may celebrate one ruler for constructing a reservoir or temple. That is important testimony to political sponsorship, but the structure required surveyors, laborers, engineers, farmers, and communities maintaining it over time. An inscription gives us a voice from the past; physical infrastructure reveals a collective accomplishment. Both kinds of evidence matter, and they answer different questions.
+
+## How a reservoir becomes an archive
+
+Imagine a reservoir beside a palace. Rain falls on roofs and courtyards, flows across plastered surfaces, and carries particles into the basin. People use the water. Kitchen waste and soil enter. Leaves and algae grow and die. Sediment settles in successive layers. At some point the basin is abandoned or filled in. Centuries later, an archaeologist drills into the deposit and retrieves a narrow cylinder of layered mud.
+
+The core is an environmental archive, but it is not a diary with a page for each year. The sedimentation rate may vary with rainfall, maintenance, erosion, or dredging. A single storm can deposit a thick layer. A quiet century might leave very little. Some sediment can be stirred up and redeposited. Dating relies on a combination of stratigraphy, radiocarbon where appropriate material survives, and archaeological context. Researchers ask whether the sediment layer was laid down while the reservoir was used or long after its abandonment.
+
+Samples from different depths can be analyzed for minerals, nutrients, metals, microscopic organisms, and biological molecules. Each measurement has to be calibrated. An elevated concentration of phosphate may be consistent with organic waste or other inputs; by itself it does not tell us exactly who disposed of what. Mercury might originate in pigments, natural deposits, burning, or later contamination. A particular group of microorganisms might indicate environmental conditions, but DNA left in sediment does not automatically tell us what the living population of a reservoir looked like on a given afternoon.
+
+Here is a simplified example. A team samples four ancient reservoirs. Two near the central monumental precinct show high mercury readings in deposits dating near the end of intensive occupation. Two more distant basins show much lower levels. A reasonable next question concerns local sources: did the central drainage catchment contain buildings decorated with mercury-based pigment? Could wash-off from plaster and paint have carried contamination into the water? The spatial difference is valuable because it can help distinguish a local source from a uniform regional process. But several alternative processes still need consideration.
+
+## What researchers found at Tikal
+
+In a study published in *Scientific Reports* in 2020, David Lentz and colleagues combined geochemical and molecular methods to investigate sediments from four principal reservoirs at Tikal. The team included Trinity Hamilton, Nicholas Dunning, Vernon Scarborough, Todd Luxton, Anne Vonderheide, Liwy Grazioso, Kenneth Tankersley, and others with different kinds of expertise. Their report identified high concentrations of mercury and phosphate in certain sediments from the Temple and Palace reservoirs, alongside molecular evidence of cyanobacteria associated with harmful algal blooms.
+
+The distinction between the measurements and the interpretation is essential. Mercury concentrations are measurable properties of sediment samples. The presence of genetic material associated with certain cyanobacterial taxa is another measurement. The suggestion that polluted drinking water harmed urban sustainability is an interpretation connecting these data to how people used reservoirs and to a difficult period in the city's history. The researchers provided reasons for that connection, but they did not observe a sick person drinking from the reservoir fourteen centuries ago.
+
+The study also considered why some reservoirs differed from others. The Temple and Palace reservoirs were close to heavily used, decorated, and inhabited parts of the city. Mercury-containing cinnabar, a red mineral pigment, was present in important Maya ritual and architectural contexts. Runoff from those areas could have transported mercury into nearby water. Phosphate levels may reflect organic waste entering a basin from human activity along its banks. The pattern suggests a relationship between city life and water quality, rather than a mysterious poison appearing from nowhere.
+
+The researchers also described evidence from a more distant reservoir interpreted as having water-filtering arrangements involving natural materials. This is a reminder that ancient engineers were not helpless before environmental problems. They developed practical arrangements to collect and manage water. The real question is which arrangements worked under particular conditions and whether they could remain effective as the city and its environmental pressures changed.
+
+A striking finding does not automatically establish a single cause of urban decline. Tikal was part of a wider Maya world shaped by diplomacy, warfare, shifting alliances, agricultural production, and climatic variability. Its political history is documented partly through inscriptions, and nearby settlements followed different trajectories. A reservoir study can identify a serious problem for urban living. It cannot, on its own, rank every cause of change in the late ninth century. A careful account says that pollution was likely a contributing vulnerability, then asks how that interacted with drought, politics, and population movement.
+
+## The chemistry of a historical claim
+
+Why do investigators bother to report exact analytical methods? Because a chemical number is meaningful only when we know how it was produced. If a sediment sample contains mercury, the laboratory must distinguish it from contamination introduced by tools, containers, or reagents. Duplicate measurements and reference standards establish the stability of the procedure. Background samples from different locations help define what counts as elevated relative to local conditions. An independent laboratory may test whether the results replicate.
+
+For cyanobacteria, researchers can use molecular assays to identify genetic signatures preserved in sediment. This adds a different line of evidence, but the interpretation is not equivalent to growing a living organism from the ancient water. Some microorganisms have close relatives, and DNA can persist or move through sediments under conditions that require study. A genetic signature is strongest when interpreted alongside sediment chemistry, dating, and the ecological preferences of the identified group.
+
+Suppose the report gives the concentration of mercury in dry sediment. That concentration is not the same as the concentration in ancient drinking water. To estimate historical exposure, one would need to understand how mercury was distributed among particles, the water column, food, and the human body, and how water was collected or treated. The archaeological data may demonstrate contamination of the reservoir system without yielding a credible dose for a particular person. Precise words prevent an exciting measurement from becoming an invented medical history.
+
+The Tikal case teaches us to ask three nested questions: what material was measured, which environmental process might have created it, and what consequences did that process have for people? The first can be answered by laboratory results. The second requires ecological and archaeological reasoning. The third introduces social history. These are connected stages, but no stage can be skipped just because the narrative conclusion is compelling.
+
+## Seeing through the forest at Angkor
+
+Across the world, investigators faced a different visibility problem at Angkor. A landscape covered by vegetation hides traces of roads, ponds, embankments, and settlement mounds. Ordinary aerial photographs show the canopy, not the underlying ground. Surveyors can walk and map individual features, but a huge engineered landscape demands a way of integrating many observations across space.
+
+Airborne lidar, or light detection and ranging, provides one approach. A sensor sends laser pulses toward the surface and measures the returning signals. Some pulses reach the ground through gaps in the vegetation. Combining enough returns allows analysts to estimate a digital elevation model of the landscape. After carefully removing the effects of canopy and known modern features, low ridges and depressions may emerge, showing the outlines of structures that are difficult to recognize on foot.
+
+In 2013, a team led by Damian Evans reported a major lidar investigation of Angkor, building on extensive earlier archaeological and mapping work by colleagues including Roland Fletcher, Christophe Pottier, and Cambodian heritage specialists. The laser survey revealed planned urban spaces, ponds, roads, and occupation mounds extending far beyond the famous stone temples. Earlier researchers had already argued for a sprawling, low-density settlement. Lidar provided a new way to map its details and test those arguments against broad topographic evidence.
+
+Lidar does not simply 'see through' trees like an X-ray. It measures surfaces; software classifies returns and estimates what the ground looks like. A ditch could be ancient or recent. A raised line might be a road, a bund, a natural levee, or a modern intervention. Researchers must check features against maps, aerial photographs, stratigraphy, excavations, and local knowledge. A tempting pattern visible on a screen becomes an archaeological feature only after a sequence of decisions that should be documented.
+
+The role of Cambodian researchers is central. The Authority for the Protection and Management of Angkor and the Region of Siem Reap, known as APSARA, and Cambodian archaeologists have contributed to surveying, conservation, documentation, and interpretation. The archaeological landscape is part of a living country with communities, heritage institutions, and changing land use. Describing lidar as an achievement of a single foreign explorer obscures the extensive field knowledge necessary to understand what the laser returns represent.
+
+## Canals as a changing network
+
+Once mapped, Angkor's canals and reservoirs can be studied as a connected system. The question is not merely how much water they held, but where it could move, what controlled its flow, and how the network changed through construction and repair. Researchers including Roland Fletcher, Daniel Penny, Damian Evans, Christophe Pottier, and the APSARA archaeology team published investigations of this water-management network. Some channels carried water toward reservoirs or agricultural areas. Others helped divert excess flow toward lower ground and the Tonle Sap lake system.
+
+Suppose one canal cuts across another. Their intersection may preserve a relative chronology: the structure cut by the other was probably there first, provided we are interpreting the deposits and later repairs correctly. Dated sediments or artifacts from construction fills can constrain when a feature was built or modified. Remote mapping gives the geometry; excavation supplies dates and use histories. The hydraulic function must be modeled using elevation, channel form, water supply, and possible gates or embankments. The same trench in the landscape can serve different purposes at different periods.
+
+An archaeologist also has to distinguish design from performance. A reservoir's theoretical volume can be calculated from its dimensions, but the usable water supply depends on rainfall, seepage, evaporation, sedimentation, and maintenance. A canal drawn as a continuous blue line on a map might have been blocked during part of its history. A breach in an embankment could be a deliberate overflow, storm damage, or a later cut. The system should be reconstructed as a history of modifications, not as one perfect design operating unchanged for five hundred years.
+
+Water management itself was socially organized. Maintaining a canal requires deciding who clears sediment, who controls diversion, and whose fields receive water when supplies are limited. Inscriptions and archaeological features can sometimes point toward temples or local communities involved in infrastructure. But the full administrative arrangements are not preserved. A diagram of waterways illustrates physical capacity; a political account must also ask how labor and authority made that capacity available in practice.
+
+## What trees can tell a city
+
+The landscape record describes engineering. To investigate climatic stresses, researchers can turn to trees that lived during the medieval period. In suitable species and environments, annual growth rings vary in ways related to moisture. A series of overlapping tree-ring patterns can establish a dated chronology. The technical difficulty is to separate climate signals from the effects of tree age, local soils, damage, and other influences. Researchers build statistical reconstructions using many trees, calibrate them against instrumental observations where available, and test how well the patterns hold up outside the calibration sample.
+
+In a 2010 paper, Brendan Buckley, Kevin Anchukaitis, Daniel Penny, Roland Fletcher, Edward Cook, and collaborators reported a long hydroclimate reconstruction based on tree rings from tropical southern Vietnam. The analysis indicated intervals of prolonged drought interrupted by episodes of intense monsoon rainfall during the fourteenth and fifteenth centuries, overlapping a period of major change at Angkor. The team interpreted climate as a contributing factor to the city's transformation rather than as an all-purpose explanation.
+
+A tree-ring record from Vietnam is not a rain gauge standing beside every reservoir at Angkor. It is a regional climate proxy. The investigators need to show how their sampled trees respond to moisture and how that relationship bears on Angkor's region. Other records can test the reconstruction. Tree rings offer annual resolution in favorable cases, while sediment cores might integrate decades or longer. Combining them requires careful treatment of their different dating uncertainties.
+
+The alternation between drought and strong monsoon years may have posed a special challenge. Drought reduces water availability. Intense rain can damage channels and embankments through erosion, sediment transport, or sudden flooding. A network designed for earlier conditions may be vulnerable to both extremes. But a plausible mechanical pathway does not by itself prove that a particular damaged channel failed during one specific recorded drought. Archaeologists seek dated evidence of repairs or channel abandonment to strengthen that link.
+
+## A map is also a hypothesis
+
+There is one further complication in the reconstruction of Angkor's water system. A modern digital elevation model can make every channel appear connected to every other channel. Yet a line of lower ground does not prove that water moved along it when the city was occupied. Embankments might have been rebuilt. Canals may have been filled in, while a neighboring reservoir was still in use. If the dates of two adjoining features differ by three centuries, drawing them as one working network creates an impossible historical machine. Archaeologists therefore need maps not only of structures, but also of uncertainty: which segments have been excavated, which have been dated by association, and which are inferred from surface form alone.
+
+One way to test a reconstruction is to ask whether the elevations make the proposed flow physically possible. Would gravity carry water from the source to the proposed destination? Does a channel's cross section plausibly accommodate the necessary volume? Is a low point a designed gate or damage from a flood? These questions invite hydraulic modeling, but the model needs assumptions about rainfall, vegetation, maintenance, and sediment that cannot all be observed directly. A calculation showing that a reservoir *could* supply a district establishes capacity under the assumptions. It does not prove that the authorities consistently distributed water that way.
+
+This is a useful general rule for environmental archaeology. A beautiful visualization is the beginning of an explanation, not its end. The map guides fieldwork, and fieldwork can force the map to be redrawn. When the corrections are published, the researchers are improving a shared model of an ancient system, rather than proving that their first picture was exact.
+
+## A city's decline is not one event
+
+The familiar phrase 'the collapse of Angkor' can suggest a sudden disaster that emptied the whole region. The historical process was more complicated. Political centers moved, communities persisted, and religious, economic, and institutional life changed over time. Angkor remained inhabited and important after periods of major transformation. A discussion of climate should not erase the agency of Khmer communities or imply that environmental variability predetermined a particular political result.
+
+Similarly, Tikal's late Classic changes occurred in a world of competing polities and shifting regional networks. Environmental archaeology can identify stresses and opportunities, but it is one strand of a larger historical explanation. When drought, reservoir pollution, warfare, and political competition overlap, assigning a precise share of causation to each is difficult. The best research compares independent evidence, considers alternative sequences, and looks for differences among settlements rather than assuming every city followed the same path.
+
+There is a danger in making ancient cities into moral parables. A story that says 'they exhausted their resources, so they disappeared' may be memorable but scientifically careless. Some ancient engineering systems remained effective for centuries. Modern research can illuminate vulnerabilities without treating complex societies as illustrations of a foregone conclusion. The useful comparison is a set of mechanisms: water storage, landscape modification, maintenance, exposure to variable climate, and institutions for collective action.
+
+We should also pay attention to how the evidence changes with scale. At Tikal, a narrow core provides detailed chemical measurements at particular places. At Angkor, lidar describes extensive surfaces and networks. Tree rings reconstruct regional hydroclimate. Inscriptions and monuments document political institutions and royal claims. None of these automatically translates into the others. An argument becomes stronger when several records, produced by different processes, converge on a coherent chronology without being forced to agree.
+
+## An experiment in historical reasoning
+
+Imagine that you have been given three results from an ancient city. First, its central reservoir contains elevated phosphate in later deposits. Second, nearby settlement layers suggest increased household activity. Third, a regional tree-ring series shows a prolonged dry interval. What could you reasonably conclude? The city experienced environmental and social changes that might have affected water quality and supply. You could propose interactions among waste, human activity, and drought. But you could not yet determine that contaminated water caused population loss. You would want dates with uncertainties, evidence of reservoir use, comparisons with cleaner basins, and a chronology of settlement change.
+
+Now add an inscription praising a king for expanding a canal. Does that settle when the canal was built? It gives a historical claim that may be tested against construction layers. It does not prove that every visible section of the channel dates to that reign. The archaeologist should use the inscription to guide investigation while remaining open to earlier construction and later rebuilding. The same applies if a temple inscription credits a ruler with a city: the material landscape may contain centuries of collective work.
+
+These examples make attribution part of the method. A laboratory analyst can establish the chemical profile of sediment. An archaeologist records the reservoir's stratigraphy. A specialist in remote sensing maps the watershed. A dendrochronologist reconstructs climate. Historians read inscriptions and compare political events. Their conclusions depend on different forms of expertise. Naming investigators such as Lentz, Scarborough, Evans, Pottier, and Buckley is not a decorative addition; it helps us understand which contribution supports which claim.
+
+## The landscape as evidence
+
+In the end, the ancient city does not supply one explanation of itself. It supplies a set of surviving traces: reservoir mud, canal banks, abandoned houses, carved inscriptions, pollen, tree rings, and artifacts. Each trace can be measured or interpreted in more than one way. Environmental archaeology works by connecting these observations and keeping track of the assumptions required for each connection.
+
+Tikal shows that urban activity could alter the quality of water on which the city depended. Angkor shows how enormous engineered landscapes can be reconstructed from subtle topography, and how climate records can be compared with the history of infrastructure. Both cases show the dangers of a one-cause explanation and the value of bringing geology, chemistry, ecology, archaeology, and history into the same conversation.
+
+A ruined canal may initially look like a line in the soil. To understand it, researchers need to know when it was cut, which way water flowed, what sediment filled it, what communities used it, and whether storms or repairs changed its function. The answer is built from many observations. And once those observations are documented, a future researcher can challenge the interpretation, remeasure the sediments, or propose a better one. That is how an ancient landscape becomes historical knowledge.
+
+<!-- END SPOKEN LECTURE -->
+
+## Research and attribution notes (not spoken)
+
+- David L. Lentz, Trinity L. Hamilton, Nicholas P. Dunning, Vernon L. Scarborough, and colleagues (2020), “Molecular genetic and geochemical assays reveal severe contamination of drinking water reservoirs at the ancient Maya city of Tikal,” *Scientific Reports*. https://doi.org/10.1038/s41598-020-67044-z
+- Damian Evans and collaborators (2013), “Uncovering archaeological landscapes at Angkor using lidar,” *PNAS*. https://pmc.ncbi.nlm.nih.gov/articles/PMC3732978/
+- Roland Fletcher, Daniel Penny, Damian Evans, Christophe Pottier, Mike Barbetti, Matti Kummu, Terry Lustig, and APSARA collaborators, “The water management network of Angkor, Cambodia,” *Antiquity*. https://www.cambridge.org/core/journals/antiquity/article/abs/water-management-network-of-angkor-cambodia/EC4E312C23A724E6B629B4A252FF15D9
+- Brendan Buckley, Kevin Anchukaitis, Daniel Penny, Roland Fletcher, Edward R. Cook, and colleagues (2010), “Climate as a contributing factor in the demise of Angkor, Cambodia,” *PNAS*. https://pmc.ncbi.nlm.nih.gov/articles/PMC2872380/
+- Damian Evans (2016), “Airborne laser scanning as a method for exploring long-term socio-ecological dynamics in Cambodia,” *Journal of Archaeological Science*. https://doi.org/10.1016/j.jas.2016.05.009
+
+### Interpretation checks
+
+- Chemical contamination in sampled Tikal reservoir sediments does not establish measured exposure doses for particular residents.
+- Lidar-derived topography requires field verification and independent dating; its map alone does not date every feature.
+- Climate is one proposed contributing mechanism in Angkor's transformation, not a uniquely proven cause.
