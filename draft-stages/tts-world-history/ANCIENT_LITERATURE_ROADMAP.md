@@ -71,6 +71,17 @@ in their surviving literary forms; that chronology should be stated plainly.
    outside the spoken region. Existing mathematics files remain untouched.
 7. Avoid spoken episode-order references so any lecture can be selected first.
 
+## Chronology note: Journey to the West
+
+The late-imperial novel *Journey to the West* is covered in its own World History
+section, **Late-Imperial Chinese Literature**, with seven substantial lectures
+(048000–054000). Its fictional pilgrimage is set in the Tang period, drawing
+on the seventh-century historical monk Xuanzang, but the surviving long novel
+is known from a Ming printing dated 1592. See
+[JOURNEY_TO_THE_WEST_ROADMAP.md](JOURNEY_TO_THE_WEST_ROADMAP.md). This keeps the
+ancient-literature strand focused on works with appropriately stated ancient
+transmission histories.
+
 ## Comparative lectures to consider after the works are understood
 
 - The land of the dead: Inanna, Gilgamesh, Egyptian funerary literature,

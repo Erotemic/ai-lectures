@@ -82,6 +82,37 @@ These lectures share a browsing section but do not depend on listening order:
 - **046000 · The Lost Harbor** — Portus and Ostia sediment cores, geophysical survey, dredging, and underwater archaeology and photogrammetry at Caesarea.
 - **047000 · Saving a Shipwreck** — the Mary Rose and Vasa, treatment of waterlogged timbers, iron and sulfur chemistry, documenting artifacts, and ongoing conservation.
 
+## Late-Imperial Chinese Literature: Journey to the West
+
+This sequence lives in a **separate browsing section from Ancient Literature**.
+The novel's fictional Tang-era setting draws on a historical seventh-century
+journey, while its earliest surviving complete hundred-chapter printing is
+from 1592. The author is traditionally identified as Wu Cheng'en, with the
+attribution still debated.
+
+- **048000 · Part I: The Stone Monkey and the Court of Heaven** — the waterfall
+  cave, immortality, heavenly offices and peaches, Erlang, and the Buddha's hand.
+- **049000 · Part II: The Monk, the Vow, and the Companions** — the mission, the
+  monk's calling, Guanyin, the fillet, dragon horse, Pigsy, Sandy, and first tests.
+- **050000 · Part III: The White Bone Demon and the Problem of Appearances** —
+  ginseng fruit, Monkey's dismissal, Precious Elephant, Wuji, and Red Boy.
+- **051000 · Part IV: The Kingdoms of Desire and the Two Monkey Kings** — Chechi,
+  the River of Heaven, women's kingdom, the double Monkey, and Flaming Mountain.
+- **052000 · Part V: False Paradise and the Kingdom of Children** — Yellow Brow,
+  Zhuzi, the spiders, Lion-Camel country, and the threatened children.
+- **053000 · Part VI: The Last Trials and the Return with Scriptures** — final
+  kingdoms, the jade rabbit, blank scrolls, the turtle and the return.
+- **054000 · The Historical Pilgrim and the Making of a Novel** — Xuanzang's
+  actual journey and translation career, story cycles, editions, the 1592 book,
+  chapter nine, authorship, interpretations, and adaptations.
+
+The six narrative lectures follow the complete novel in large arcs; the
+seventh focuses on evidence and transmission. Every recording stands alone,
+includes historical qualifications in the narration where they clarify a
+particular episode, and has non-spoken reading references. See the
+[Journey to the West roadmap](JOURNEY_TO_THE_WEST_ROADMAP.md) for boundaries,
+source and edition conventions, and the intended reading order.
+
 These lectures include named original contributors in the spoken narrative when
 supported by the source record. Each also has non-spoken attribution and
 research notes; the metadata link cards point to original methods, field
