@@ -1,12 +1,11 @@
 # Deferred history lecture drafts
 
-These are **18 short historical sketches** awaiting research and long-form
-authoring. Camille Jordan (`002000`), Lord Rayleigh (`003000`), Walther Ritz
-(`004000`), Hermann Weyl (`005000`) Richard Courant (`006000`) and Ernst Fischer (`007000`) have been
-expanded and promoted as playable lectures. The other stubs retain their
-original identifiers and reference sidecars.
+There are **17 short historical sketches** awaiting researched long-form expansion.
+These drafts retain their original identifiers and reference sidecars but do not
+appear in the playable history track. The expanded biographies promoted from
+this archive include Jordan, Rayleigh, Ritz, Weyl, Courant, Fischer, and Riesz;
+Hilbert, Kato, Davis, and Kahan are also available as long-form lectures.
 
-The reader exposes only root-level files listed in `../track.json`. Do not
-include a stub until its mathematical and historical substance supports a full
-recording. `manifest.json` tracks these drafts; `../metadata/sources.json`
-holds the shared reading catalog.
+The reader exposes only root-level lecture files listed in `../track.json`.
+`manifest.json` records the remaining sketches, while
+`../metadata/sources.json` holds the shared reading catalog.

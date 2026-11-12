@@ -170,25 +170,25 @@
       "notes": "Background on the mathematical concept explained in the David Hilbert lecture."
     },
     "history-riesz-bio": {
-      "title": "Frigyes Riesz — biographical or contributor record",
+      "title": "Frigyes Riesz (1880–1956) — MacTutor detailed biography",
       "kind": "biography_or_author_record",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Riesz/",
       "access": "free_no_login",
-      "notes": "Person-specific source for Frigyes Riesz; for living contributors some records document authorship rather than personal biography."
+      "notes": "Győr family, appointments, Kolozsvár/Szeged, 1936 appointment rejection, 1944 persecution, and postwar academic service."
     },
     "history-riesz-primary": {
-      "title": "Frigyes Riesz — Mathematical context and introductory reading",
-      "kind": "mathematical_exposition",
-      "url": "https://en.wikipedia.org/wiki/Riesz_representation_theorem",
+      "title": "Riesz, Sur les opérations fonctionnelles linéaires (1909), original note and translation",
+      "kind": "historical_primary",
+      "url": "https://nonagon.org/ExLibris/node/49",
       "access": "free_no_login",
-      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+      "notes": "Original 1909 C. R. Acad. Sci. 149, 974–977: functional on C[0,1] represented by Stieltjes integral; do not conflate with Hilbert-dual theorem."
     },
     "history-riesz-topic": {
-      "title": "Riesz representation theorem",
+      "title": "Riesz representation theorems — distinctions among Hilbert and measure formulations",
       "kind": "accessible_topic_reference",
       "url": "https://en.wikipedia.org/wiki/Riesz_representation_theorem",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the Frigyes Riesz lecture."
+      "notes": "Accessible overview; check the topology and representing object before equating different versions."
     },
     "history-vonneumann-bio": {
       "title": "John von Neumann — biographical or contributor record",
@@ -1134,6 +1134,118 @@
       "url": "https://de.wikipedia.org/wiki/Satz_von_Courant-Fischer",
       "access": "free_no_login",
       "notes": "Bibliography lists Fischer (1905) and Courant (1920) original titles/pages."
+    },
+    "history-riesz-horvath": {
+      "title": "John Horváth — On the Riesz–Fischer theorem",
+      "kind": "historical_mathematical_analysis",
+      "url": "https://nuhag-old.univie.ac.at/FEICOURS/ws0506/Riesz-Fisher.pdf",
+      "access": "free_no_login",
+      "notes": "Detailed analysis of the three 1907 notes, later 1910 work, and distinction between Fischer completeness and Riesz coefficient realization."
+    },
+    "history-riesz-university": {
+      "title": "Bolyai Institute — Frigyes Riesz and the history of Szeged mathematics",
+      "kind": "institutional_history",
+      "url": "https://www.math.u-szeged.hu/SzNagy100/history.php",
+      "access": "free_no_login",
+      "notes": "Research on 1907 theorem, 1922 institute/journal, Riesz spaces, and Szeged period."
+    },
+    "history-riesz-dsb": {
+      "title": "Dictionary of Scientific Biography — Frigyes Riesz",
+      "kind": "biography_or_author_record",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/riesz-frigyes-fred",
+      "access": "free_no_login",
+      "notes": "Career, major functional-analysis results, and published oeuvre."
+    },
+    "history-riesz-1907-bibliography": {
+      "title": "University of Auckland — selected Frigyes Riesz papers and dates",
+      "kind": "historical_bibliography",
+      "url": "https://www.math.auckland.ac.nz/hat/people/riesz_f.html",
+      "access": "free_no_login",
+      "notes": "Selected original publication metadata for 1909–1918; includes exact 1918 article citation."
+    },
+    "history-riesz-1914-primary": {
+      "title": "Riesz — Démonstration nouvelle d’un théorème concernant les opérations fonctionnelles linéaires",
+      "kind": "historical_primary",
+      "url": "https://www.numdam.org/item/10.24033/asens.669.pdf",
+      "access": "free_no_login",
+      "notes": "Riesz’s later primary account explicitly refers to the 1909 note and Stieltjes representation."
+    },
+    "history-riesz-1918-primary": {
+      "title": "Riesz — Über lineare Funktionalgleichungen, Acta Math. 41 (1918), 71–98",
+      "kind": "historical_primary",
+      "url": "https://history-of-approximation-theory.com/fpapers/rie1.pdf",
+      "access": "free_no_login",
+      "notes": "Original paper on compactness and linear functional equations; historical paper uses continuous-function space."
+    },
+    "history-riesz-1918-context": {
+      "title": "Frigyes Riesz and compact-operator theory",
+      "kind": "mathematical_exposition",
+      "url": "https://openmaths.org/courses/foundations-of-von-neumann-algebras/hilbert-spaces-and-compact-operators.html",
+      "access": "free_no_login",
+      "notes": "Modern operator-theory theorem statements and direct link to Riesz’s 1918 paper."
+    },
+    "history-riesz-1928-primary": {
+      "title": "Riesz — Sur la décomposition des opérations fonctionnelles linéaires (ICM 1928)",
+      "kind": "historical_primary",
+      "url": "https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1928.3/ICM1928.3.ocr.pdf",
+      "access": "free_no_login",
+      "notes": "Riesz’s first-person overview of 1909 functionals and decomposition into positive parts."
+    },
+    "history-riesz-lattice": {
+      "title": "Introduction to Operator Theory in Riesz Spaces — historical background",
+      "kind": "mathematical_exposition",
+      "url": "https://link.springer.com/book/10.1007/978-3-642-60637-3",
+      "access": "free_no_login",
+      "notes": "Historical outline of ordered vector spaces developed by Riesz, Kantorovich, and Freudenthal."
+    },
+    "history-riesz-ergodic-primary": {
+      "title": "Riesz — Some Mean Ergodic Theorems (1938)",
+      "kind": "historical_primary",
+      "url": "https://academic.oup.com/jlms/article-abstract/s1-13/4/274/840953",
+      "access": "free_no_login",
+      "notes": "Original publication metadata (J. London Math. Soc., 1938), distinct from von Neumann’s earlier mean ergodic theorem."
+    },
+    "history-riesz-ergodic-followup": {
+      "title": "Riesz — Another proof of the mean ergodic theorem (Acta Sci. Math.)",
+      "kind": "historical_primary",
+      "url": "https://acta.bibl.u-szeged.hu/38561/1/math_010.pdf",
+      "access": "free_no_login",
+      "notes": "Original short article demonstrating an elementary mean ergodic argument."
+    },
+    "history-riesz-books": {
+      "title": "MacTutor — Frigyes Riesz’s books and Leçons d’analyse fonctionnelle",
+      "kind": "historical_book_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Riesz_books/",
+      "access": "free_no_login",
+      "notes": "1952 original book with Szőkefalvi-Nagy, 1953 revision, 1955 English translation; editors and authors describe division of topics."
+    },
+    "history-riesz-hungarian-academy": {
+      "title": "Hungarian Academy — Béla Szőkefalvi-Nagy memorial to Riesz (1956)",
+      "kind": "historical_biography",
+      "url": "https://real.mtak.hu/200423/",
+      "access": "free_no_login",
+      "notes": "Contemporary memorial and Hungarian scholarly record."
+    },
+    "history-riesz-jewish-gyor": {
+      "title": "Jewish Roots in Győr — The Riesz brothers",
+      "kind": "regional_biography",
+      "url": "https://jewishgyor.org/en/2022/05/20/the-famous-mathematical-geniuses-of-gyor-the-riesz-brothers/",
+      "access": "free_no_login",
+      "notes": "Family background and brothers’ different academic paths; cross-check personal events with MacTutor."
+    },
+    "history-riesz-national-heritage": {
+      "title": "National Heritage Institute of Hungary — Riesz Frigyes",
+      "kind": "biography_or_author_record",
+      "url": "https://intezet.nori.gov.hu/public/nemzeti-sirkert/budapest/fiumei-uti-sirkert/riesz-frigyes",
+      "access": "free_no_login",
+      "notes": "Hungarian institutional appointments and 20th-century chronology."
+    },
+    "history-riesz-2014-biography": {
+      "title": "Szenkovits — Frigyes Riesz and Functional Analysis, 2014",
+      "kind": "historical_mathematical_analysis",
+      "url": "https://www.cs.ubbcluj.ro/~studia-m/2014-4/02-szenkovits-final.pdf",
+      "access": "free_no_login",
+      "notes": "Academic survey of Riesz’s biography, work and evolution of functional analysis."
     }
   }
 }
