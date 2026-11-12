@@ -1,15 +1,27 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "Four full-length historical lectures on Hilbert, Kato, Davis, and Kahan; short drafts remain outside the playable catalog in stubs/.",
+  "summary": "Five researched long-form histories on Weyl, Hilbert, Kato, Davis, and Kahan. Deferred drafts remain outside the playable catalog in stubs/.",
   "assumed_background": [
     "elementary vectors and eigenvalues; advanced concepts are introduced locally"
   ],
   "sections": [
+    "variational",
     "operators",
     "davis-kahan"
   ],
   "lectures": [
+    {
+      "id": "005000",
+      "title": "Hermann Weyl: When do spectra survive a changing world?",
+      "person": "Hermann Weyl",
+      "section": "variational",
+      "file": "005000-weyl.md",
+      "spoken_words": 5035,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 34.7
+    },
     {
       "id": "008000",
       "title": "David Hilbert: Why do infinitely many coordinates still have geometry?",

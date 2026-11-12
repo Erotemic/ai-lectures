@@ -49,9 +49,9 @@ def test_course_tracks_and_track_isolation(tmp_path):
         assert tracks[0]['url'] == '/'
         assert tracks[1]['count'] >= 154
         assert tracks[2]['count'] == 27
-        assert tracks[3]['count'] == 4
+        assert tracks[3]['count'] == len(json.loads((HISTORY_DIRECTORY/'track.json').read_text())['lectures'])
         assert tracks[3]['url'] == '/audio?track=history'
-        assert len(client.get('/api/audio-lectures?track=history').json()['items']) == 4
+        assert len(client.get('/api/audio-lectures?track=history').json()['items']) == tracks[3]['count']
         assert len(client.get('/api/audio-lectures').json()['items']) >= 154
         assert len(client.get('/api/audio-lectures?track=g3').json()['items']) == 27
         assert client.get('/api/audio-lectures?track=g2').json()['items'][0]['id'] == '000000'
@@ -127,13 +127,13 @@ def test_audio_feedback_uses_selected_course_track(tmp_path):
 def test_history_track_manifest_references_and_speech_extraction():
     plan = json.loads((HISTORY_DIRECTORY / 'track.json').read_text(encoding='utf-8'))
     rows = plan['lectures']
-    assert len(rows) == 4
+    assert len(rows) >= 4
     assert len({row['id'] for row in rows}) == len(rows)
     assert len({row['person'] for row in rows}) == len(rows)
     assert len(list(HISTORY_DIRECTORY.glob('[0-9]'*6 + '-*.md'))) == len(rows)
     catalog = json.loads((HISTORY_DIRECTORY / 'metadata' / 'sources.json').read_text())['sources']
     archive = json.loads((HISTORY_DIRECTORY / 'stubs' / 'manifest.json').read_text())
-    assert len(archive['lectures']) == 24
+    assert len(rows) + len(archive['lectures']) == 28
     assert not {r['id'] for r in rows} & {r['id'] for r in archive['lectures']}
     assert all((HISTORY_DIRECTORY / 'stubs' / r['file']).is_file() for r in archive['lectures'])
     assert len(catalog) >= 84

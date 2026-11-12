@@ -1,18 +1,20 @@
 # History · People and ideas
 
-The playable history track contains **four substantive, researched lectures**:
-David Hilbert, Tosio Kato, Chandler Davis, and William Kahan. Each develops
-its subject's historical role, a sustained mathematical example, the core
-argument, and relevant limitations. The spoken drafts are approximately
-27–28 minutes at the reader's standard 145-words-per-minute estimate; actual
-TTS durations depend on voice, speed, and pauses.
+The playable History track contains **five researched long-form lectures**:
+Hermann Weyl, David Hilbert, Tosio Kato, Chandler Davis, and William Kahan.
+The Weyl lecture develops spectral perturbation, spectral counting, essential
+spectrum, equidistribution, and symmetry through connected calculations.
 
-The other **24 short historical sketches have been archived to `stubs/`**,
-with their mathematical companions, sidecars, and identifiers preserved. They
-are drafts rather than playable episodes. Expand and verify them before
-adding them to `track.json`. No lecture should appear in the browsing catalog
-solely because a short biography exists.
+The five spoken recordings are approximately **27–35 minutes** at the
+reader’s 145-words-per-minute estimate. Actual duration varies by voice,
+speed, and pauses; audio has not been synthesized for this revision.
 
-History shares the audio player's synthesis, progress, feedback, search and
-availability controls. Mathematical companion sections and reference URLs are
-non-spoken. G2, G3, and visual lecture content are unaffected.
+The remaining **23 short drafts** are under `stubs/`, with their sidecars and
+original identifiers retained. They are editorial seeds, not playable
+recordings. Promote a person only when the narration merits sustained
+listening, its mathematics and historical claims are reviewed, and the
+sidecar supplies useful references.
+
+History uses the existing audio player, independent cache, progress, feedback,
+search, and audio-availability filtering. The mathematical companion and
+reading notes are not included in speech.

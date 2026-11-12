@@ -86,18 +86,18 @@
       "notes": "Background on the mathematical concept explained in the Walther Ritz lecture."
     },
     "history-weyl-bio": {
-      "title": "Hermann Weyl — biographical or contributor record",
+      "title": "Hermann Weyl — MacTutor biography",
       "kind": "biography_or_author_record",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
       "access": "free_no_login",
-      "notes": "Person-specific source for Hermann Weyl; for living contributors some records document authorship rather than personal biography."
+      "notes": "Person-specific chronology and mathematical career from the University of St Andrews MacTutor archive."
     },
     "history-weyl-primary": {
-      "title": "Hermann Weyl — Mathematical context and introductory reading",
+      "title": "Weyl’s inequality — accessible mathematical overview",
       "kind": "mathematical_exposition",
       "url": "https://en.wikipedia.org/wiki/Weyl%27s_inequality",
       "access": "free_no_login",
-      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+      "notes": "Secondary mathematical exposition; not Weyl’s 1912 primary paper."
     },
     "history-weyl-topic": {
       "title": "Weyl’s eigenvalue inequality",
@@ -598,7 +598,7 @@
     },
     "history-hilbert-foundations": {
       "title": "Hilbert’s program — Stanford Encyclopedia of Philosophy",
-      "kind": "historical_exposition",
+      "kind": "mathematical_exposition",
       "url": "https://plato.stanford.edu/entries/hilbert-program/",
       "access": "free_no_login",
       "notes": "Explains a separate chapter of Hilbert’s career and its subsequent logical limits."
@@ -644,6 +644,62 @@
       "url": "https://doi.org/10.1137/0707001",
       "access": "free_no_login",
       "notes": "1970 SIAM Journal on Numerical Analysis paper abstract describing spectral-subspace rotation and residual estimates."
+    },
+    "history-weyl-ias-life": {
+      "title": "Hermann Weyl: Life — Institute for Advanced Study",
+      "kind": "biography_or_author_record",
+      "url": "https://www.ias.edu/hermann-weyl-life",
+      "access": "free_no_login",
+      "notes": "IAS institutional account of Weyl’s training, posts, and migration."
+    },
+    "history-weyl-ias-work": {
+      "title": "Hermann Weyl: Work — Institute for Advanced Study",
+      "kind": "mathematical_exposition",
+      "url": "https://www.ias.edu/hermann-weyl-work",
+      "access": "free_no_login",
+      "notes": "Institutional historical overview of the research linking mathematics and physics."
+    },
+    "history-weyl-sep": {
+      "title": "Hermann Weyl — Stanford Encyclopedia of Philosophy",
+      "kind": "mathematical_exposition",
+      "url": "https://plato.stanford.edu/entries/weyl/",
+      "access": "free_no_login",
+      "notes": "Substantive history of Weyl’s mathematical, philosophical, symmetry, and gauge work."
+    },
+    "history-weyl-sums-review": {
+      "title": "Eigenvalues of sums of Hermitian matrices — Bourbaki Seminar",
+      "kind": "mathematical_exposition",
+      "url": "https://www.numdam.org/article/SB_1997-1998__40__255_0.pdf",
+      "access": "free_no_login",
+      "notes": "Modern historical account and mathematical context for Weyl’s 1912 eigenvalue inequalities."
+    },
+    "history-weyl-law-review": {
+      "title": "100 years of Weyl’s law",
+      "kind": "mathematical_exposition",
+      "url": "https://link.springer.com/article/10.1007/s13373-016-0089-y",
+      "access": "free_no_login",
+      "notes": "Historical and technical account of Weyl’s 1911 spectral counting asymptotic."
+    },
+    "history-weyl-law-wikipedia": {
+      "title": "Weyl law — Wikipedia",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Weyl%27s_law",
+      "access": "free_no_login",
+      "notes": "Introductory exposition of spectral mode counting and its leading term."
+    },
+    "history-weyl-essential-wikipedia": {
+      "title": "Essential spectrum — Wikipedia",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Essential_spectrum",
+      "access": "free_no_login",
+      "notes": "Explains essential spectrum for self-adjoint operators and the weak-null Weyl criterion."
+    },
+    "history-weyl-equidistribution-wikipedia": {
+      "title": "Equidistribution theorem — Wikipedia",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Equidistribution_theorem",
+      "access": "free_no_login",
+      "notes": "Introduces Weyl’s distinct uniform distribution theorem for sequences modulo one."
     }
   }
 }

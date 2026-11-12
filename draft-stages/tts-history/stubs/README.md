@@ -1,14 +1,11 @@
 # Deferred history lecture drafts
 
-These are the 24 short biographical sketches removed from the listening
-catalog. They remain as editorial seeds, with their original reference
-sidecars in `metadata/` and their original identifiers preserved.
+These are **23 short historical sketches** awaiting research and long-form
+authoring. The Hermann Weyl portrait was expanded and promoted as playable
+lecture `005000`; other stubs keep their original identifiers and source
+sidecars.
 
-The audio player enumerates only the root-level files listed in
-`../track.json`. A person is promoted from here only after a substantive,
-well-sourced, listener-ready narrative has been written, its actual spoken
-duration reviewed, and the mathematical and historical companion checked.
-Keep this directory out of the ordinary lecture catalog.
-
-`manifest.json` records the archive list. The shared source catalog remains
-`../metadata/sources.json`, including readings for deferred people.
+The player exposes only root-level files listed in `../track.json`. Do not
+include a stub in that manifest until its actual spoken duration and
+substance justify a full lecture. `manifest.json` records deferred drafts,
+and `../metadata/sources.json` holds the shared reading catalog.
