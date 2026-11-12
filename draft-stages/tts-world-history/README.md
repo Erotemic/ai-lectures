@@ -14,6 +14,9 @@ The substantive, standalone lectures are:
 - **003000 · Uruk: How a City Learned to Count** —
   late fourth-millennium urbanism, irrigation, institutions, proto-cuneiform,
   regional exchange, and the later traditions of Gilgamesh.
+- **004000 · Mansa Musa: Gold, Pilgrimage, and the Empire of Mali** —
+  Sundiata and the formation of Mali, trade and political power, the 1324–1325
+  pilgrimage, Cairo diplomacy, Timbuktu, and the historical sources.
 
 The source Markdown files contain a spoken lecture between explicit markers.
 Historical notes and references after the spoken region are for reading and

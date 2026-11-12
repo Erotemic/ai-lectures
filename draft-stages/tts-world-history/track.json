@@ -1,14 +1,15 @@
 {
   "id": "world-history",
   "title": "World History",
-  "summary": "Standalone long-form audio essays on people, events, texts, and historical processes. Current subjects include the Epic of Gilgamesh, Mary Leakey, and the rise of Uruk.",
+  "summary": "Standalone long-form audio essays on people, events, texts, and historical processes. Current subjects include the Epic of Gilgamesh, Mary Leakey, Uruk, and Mansa Musa.",
   "assumed_background": [
     "general curiosity about world history; each lecture provides its own context"
   ],
   "sections": [
     "early-literature",
     "human-origins",
-    "early-cities"
+    "early-cities",
+    "medieval-west-africa"
   ],
   "lectures": [
     {
@@ -37,6 +38,15 @@
       "spoken_words": 5861,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 40.4
+    },
+    {
+      "id": "004000",
+      "title": "Mansa Musa: Gold, Pilgrimage, and the Empire of Mali",
+      "section": "medieval-west-africa",
+      "file": "004000-mansa-musa-and-the-mali-empire.md",
+      "spoken_words": 5753,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 39.7
     }
   ],
   "editorial_policy": "Publish substantive, source-grounded lectures that are self-contained and useful in any listening order. The manifest order is a browsing default, not a prerequisite sequence."
