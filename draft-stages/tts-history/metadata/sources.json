@@ -128,25 +128,25 @@
       "notes": "Accessible background to the Courant–Fischer characterization; the proof in the companion is self-contained."
     },
     "history-fischer-bio": {
-      "title": "Ernst Fischer — biographical or contributor record",
+      "title": "Ernst Fischer — MacTutor biography",
       "kind": "biography_or_author_record",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fischer/",
       "access": "free_no_login",
-      "notes": "Person-specific source for Ernst Fischer; for living contributors some records document authorship rather than personal biography."
+      "notes": "Biographical chronology and work in analysis and algebra, including the role at Erlangen."
     },
     "history-fischer-primary": {
-      "title": "Ernst Fischer — Mathematical context and introductory reading",
-      "kind": "mathematical_exposition",
-      "url": "https://en.wikipedia.org/wiki/Courant_minimax_principle",
+      "title": "Fischer, Über quadratische Formen mit reellen Koeffizienten (1905)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://de.wikisource.org/wiki/Monatshefte_f%C3%BCr_Mathematik",
       "access": "free_no_login",
-      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+      "notes": "The journal table of contents lists Fischer 1905, vol. 16, pp. 234–249; catalog/bibliographic witness to original publication."
     },
     "history-fischer-topic": {
-      "title": "Courant–Fischer principle",
-      "kind": "accessible_topic_reference",
-      "url": "https://en.wikipedia.org/wiki/Courant_minimax_principle",
+      "title": "Courant–Fischer variational theorem — Carl D. Meyer",
+      "kind": "mathematical_exposition",
+      "url": "https://www.stat.uchicago.edu/~lekheng/courses/309/books/Meyer.pdf",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the Ernst Fischer lecture."
+      "notes": "Finite-dimensional min–max proof and historical dates Fischer 1905 / Courant 1920 (chapter on eigenvalues)."
     },
     "history-hilbert-bio": {
       "title": "David Hilbert — biographical or contributor record",
@@ -1050,6 +1050,90 @@
       "url": "https://doi.org/10.1016/S0377-0427(00)00507-0",
       "access": "free_no_login",
       "notes": "Scholarly comparison of Rayleigh, Ritz, Courant and later finite-element development; avoids sole-inventor attribution."
+    },
+    "history-fischer-deutsche": {
+      "title": "Ernst Sigismund Fischer — Neue Deutsche Biographie",
+      "kind": "biography_or_author_record",
+      "url": "https://www.deutsche-biographie.de/sfz19606.html",
+      "access": "free_no_login",
+      "notes": "Family, employment, 1907 analysis, 1908 determinant and algebraic publications; short 1938 retirement record without political context."
+    },
+    "history-fischer-erlangen": {
+      "title": "Faculty register, Friedrich-Alexander-Universität Erlangen 1743–1960 (2009)",
+      "kind": "institutional_historical_record",
+      "url": "https://d-nb.info/1056019476/34",
+      "access": "free_no_login",
+      "notes": "University register gives October 1 1938 political retirement and winter 1945/46 teaching resumption."
+    },
+    "history-fischer-nazi-history": {
+      "title": "German mathematics under National Socialism — dismissal analysis",
+      "kind": "historical_research",
+      "url": "https://irma.math.unistra.fr/~schappa/NSch/Publications_files/1990_NSchMKn.pdf",
+      "access": "free_no_login",
+      "notes": "Historical study explicitly notes Fischer as a Cologne professor of partly Jewish ancestry forced into early retirement in 1938."
+    },
+    "history-fischer-riesz-horvath": {
+      "title": "John Horváth, On the Riesz–Fischer theorem",
+      "kind": "mathematical_history",
+      "url": "https://nuhag-old.univie.ac.at/FEICOURS/ws0506/Riesz-Fisher.pdf",
+      "access": "free_no_login",
+      "notes": "Analyzes original 1907 chronology and subtle differences between completeness and coefficient-existence formulations."
+    },
+    "history-fischer-1907-index": {
+      "title": "Comptes rendus 144 (1907) — original-paper contents",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://fr.wikisource.org/wiki/Comptes_rendus_de_l%E2%80%99Acad%C3%A9mie_des_sciences/Tome_144%2C_1907/Table_des_mati%C3%A8res",
+      "access": "free_no_login",
+      "notes": "Bibliographic record of Riesz p.615, Fischer p.1022 and Fischer p.1148."
+    },
+    "history-fischer-1908-survey": {
+      "title": "Hadamard maximal determinant survey with Fischer 1908 proof",
+      "kind": "mathematical_history",
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v28i4p41/pdf",
+      "access": "free_no_login",
+      "notes": "Scholarly treatment of Fischer 1908 block determinant inequality and distinction from Hadamard."
+    },
+    "history-fischer-noether": {
+      "title": "Emmy Noether — MacTutor biography",
+      "kind": "biography_or_author_record",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/",
+      "access": "free_no_login",
+      "notes": "Noether’s own retrospective acknowledgment of Fischer; professional and gender barriers at Erlangen."
+    },
+    "history-fischer-weyl-noether": {
+      "title": "Hermann Weyl on Emmy Noether — MacTutor archive",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Weyl_Noether/",
+      "access": "free_no_login",
+      "notes": "Weyl’s memorial setting and context for Noether’s mathematics and displacement."
+    },
+    "history-fischer-hadamard": {
+      "title": "The Hadamard–Fischer determinant inequality — technical treatment",
+      "kind": "mathematical_exposition",
+      "url": "https://people.math.wisc.edu/hans/paper_archive/other_papers/hs057.pdf",
+      "access": "free_no_login",
+      "notes": "Historical attribution Fischer 1908; matrix-inequality statement for positive definite block matrices."
+    },
+    "history-fischer-noether-deutsche": {
+      "title": "Emmy Noether — Neue Deutsche Biographie",
+      "kind": "biography_or_author_record",
+      "url": "https://www.deutsche-biographie.de/gnd118588443.html",
+      "access": "free_no_login",
+      "notes": "Independent German scholarly biography documenting Fischer’s influence in Erlangen and Noether’s subsequent Göttingen move."
+    },
+    "history-fischer-dmv-context": {
+      "title": "Mathematics exile and racial exclusion — University of Stuttgart history",
+      "kind": "historical_research",
+      "url": "https://www.hi.uni-stuttgart.de/gnt/exil/Mathematik.html",
+      "access": "free_no_login",
+      "notes": "Broader mathematical exile and institutional discrimination; do not use to infer undocumented individual actions."
+    },
+    "history-fischer-1905-bibliography": {
+      "title": "Fischer 1905 and Courant 1920 original references",
+      "kind": "mathematical_history",
+      "url": "https://de.wikipedia.org/wiki/Satz_von_Courant-Fischer",
+      "access": "free_no_login",
+      "notes": "Bibliography lists Fischer (1905) and Courant (1920) original titles/pages."
     }
   }
 }

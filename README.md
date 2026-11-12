@@ -824,7 +824,7 @@ media, references, reports and model caches remain untracked.
 
 ### Lecture library: visual, mathematical audio, and history
 
-The server exposes **G1 Manim** at `/`, **G2 comprehensive audio** at `/audio?track=g2` (156 lectures), **G3 paper audio** at `/audio?track=g3` (27 lectures), **Math history · People and ideas** at `/audio?track=history` (9 full-length biographies; 19 deferred drafts in `stubs/`), and **World History** at `/audio?track=world-history` (2 substantive, standalone lectures: Gilgamesh and Mary Leakey). Each audio track has a separate transcript directory, cache, listening progress, feedback context, and non-spoken reading references. The reader supports track selection, full transcripts, generated-audio filtering, voices, and on-demand TTS. The G3 syllabus is in `draft-stages/tts-paper/`; math biographies remain in `draft-stages/tts-history/`, and the new world-history collection is in `draft-stages/tts-world-history/`. See `docs/audio-library-on-demand.md`.
+The server exposes **G1 Manim** at `/`, **G2 comprehensive audio** at `/audio?track=g2` (156 lectures), **G3 paper audio** at `/audio?track=g3` (27 lectures), **Math history · People and ideas** at `/audio?track=history` (10 full-length biographies; 18 deferred drafts in `stubs/`), and **World History** at `/audio?track=world-history` (2 substantive, standalone lectures: Gilgamesh and Mary Leakey). Each audio track has a separate transcript directory, cache, listening progress, feedback context, and non-spoken reading references. The reader supports track selection, full transcripts, generated-audio filtering, voices, and on-demand TTS. The G3 syllabus is in `draft-stages/tts-paper/`; math biographies remain in `draft-stages/tts-history/`, and the new world-history collection is in `draft-stages/tts-world-history/`. See `docs/audio-library-on-demand.md`.
 
 ### Shared course graph (G1/G2/G3/G4)
 
@@ -843,8 +843,8 @@ the build cache is Git-ignored. See [companion slide documentation](docs/compani
 
 ## History audio track editorial status
 
-The separate history audio track exposes nine substantive biographies
-currently ready for listening, including Camille Jordan and Lord Rayleigh. Short drafts on 19 other contributors are
+The separate history audio track exposes ten substantive biographies
+currently ready for listening, including Camille Jordan and Lord Rayleigh. Short drafts on 18 other contributors are
 preserved under `draft-stages/tts-history/stubs/` and deliberately excluded
 from the audio catalog until they receive substantive historical and
 mathematical development. See `draft-stages/tts-history/README.md`.

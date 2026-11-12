@@ -1,8 +1,8 @@
 # Deferred history lecture drafts
 
-These are **19 short historical sketches** awaiting research and long-form
+These are **18 short historical sketches** awaiting research and long-form
 authoring. Camille Jordan (`002000`), Lord Rayleigh (`003000`), Walther Ritz
-(`004000`), Hermann Weyl (`005000`) and Richard Courant (`006000`) have been
+(`004000`), Hermann Weyl (`005000`) Richard Courant (`006000`) and Ernst Fischer (`007000`) have been
 expanded and promoted as playable lectures. The other stubs retain their
 original identifiers and reference sidecars.
 
