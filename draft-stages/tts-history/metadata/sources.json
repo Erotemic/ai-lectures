@@ -107,25 +107,25 @@
       "notes": "Background on the mathematical concept explained in the Hermann Weyl lecture."
     },
     "history-courant-bio": {
-      "title": "Richard Courant — biographical or contributor record",
-      "kind": "biography_or_author_record",
-      "url": "https://en.wikipedia.org/wiki/Richard_Courant",
+      "title": "Richard Courant — MacTutor biography",
+      "kind": "historical_biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Courant/",
       "access": "free_no_login",
-      "notes": "Person-specific source for Richard Courant; for living contributors some records document authorship rather than personal biography."
+      "notes": "Family and early education, Göttingen, war service, dismissal, migration, books and relationships."
     },
     "history-courant-primary": {
-      "title": "Richard Courant — Mathematical context and introductory reading",
-      "kind": "mathematical_exposition",
-      "url": "https://en.wikipedia.org/wiki/Min-max_theorem",
+      "title": "Courant (1943), Variational Methods for the Solution of Problems of Equilibrium and Vibrations",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1090/S0002-9904-1943-07818-4",
       "access": "free_no_login",
-      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+      "notes": "Original 1943 Bulletin of the AMS article, based on the 1941 address, on quadratic energies, boundary data, variational approximations and triangular grids."
     },
     "history-courant-topic": {
-      "title": "Min–max theorem",
+      "title": "Min–max theorem — mathematical overview",
       "kind": "accessible_topic_reference",
       "url": "https://en.wikipedia.org/wiki/Min-max_theorem",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the Richard Courant lecture."
+      "notes": "Accessible background to the Courant–Fischer characterization; the proof in the companion is self-contained."
     },
     "history-fischer-bio": {
       "title": "Ernst Fischer — biographical or contributor record",
@@ -959,6 +959,97 @@
       "url": "https://link.springer.com/article/10.1007/s00211-026-01577-9",
       "access": "free_no_login",
       "notes": "Modern variational upper-bound principle in finite-element spectral approximations; not historical evidence for Ritz’s own work."
+    },
+    "history-courant-lax": {
+      "title": "Peter D. Lax, Richard Courant — National Academy biographical memoir",
+      "kind": "historical_biography",
+      "url": "https://www.nationalacademies.org/read/10683/chapter/6",
+      "access": "free_no_login",
+      "notes": "Detailed scholarly biography documenting Courant’s training, work on Dirichlet principle, character, career, and institution-building."
+    },
+    "history-courant-nyu-bio": {
+      "title": "Biography of Richard Courant — NYU Courant",
+      "kind": "institutional_biography",
+      "url": "https://cims.nyu.edu/about/courant_bio.html",
+      "access": "free_no_login",
+      "notes": "Institutional account of Courant’s research style and contributions, 1934 arrival, and later leadership."
+    },
+    "history-courant-nyu-history": {
+      "title": "History of the Courant Institute — New York University",
+      "kind": "institutional_biography",
+      "url": "https://cims.nyu.edu/dynamic/about/history/",
+      "access": "free_no_login",
+      "notes": "Dating of NYU arrival, 1935 expansion mandate, Friedrichs and Stoker appointments, computing programs."
+    },
+    "history-courant-gottingen": {
+      "title": "Richard Courant (1888 to 1972) — University of Göttingen",
+      "kind": "institutional_biography",
+      "url": "https://www.uni-goettingen.de/en/richard%2Bcourant%2B%281888%2Bto%2B1972%29/74443.html",
+      "access": "free_no_login",
+      "notes": "Director from 1920–1933 and institution-building, collaboration with Hilbert, forced departure."
+    },
+    "history-courant-deutsche": {
+      "title": "Richard Courant — Deutsche Biographie",
+      "kind": "historical_biography",
+      "url": "https://www.deutsche-biographie.de/dbo026039.html",
+      "access": "free_no_login",
+      "notes": "Detailed verified chronological dates and appointments; note differing descriptions of institutional construction."
+    },
+    "history-courant-cfl-1928": {
+      "title": "Courant, Friedrichs and Lewy (1928), On the Partial Difference Equations of Mathematical Physics",
+      "kind": "historical_primary",
+      "url": "https://web.stanford.edu/class/cme324/classics/courant-friedrichs-lewy.pdf",
+      "access": "free_no_login",
+      "notes": "Readable English translation (IBM Journal 1967) of the 1928 paper, including domain-of-dependence mesh restrictions."
+    },
+    "history-courant-cfl-demo": {
+      "title": "CFL condition — University of Illinois scientific computing module",
+      "kind": "mathematical_exposition",
+      "url": "https://heath.cs.illinois.edu/iem/pde/wavecfl/",
+      "access": "free_no_login",
+      "notes": "Explains continuous vs discrete domain of dependence; a CFL inequality is generally necessary, not universally sufficient."
+    },
+    "history-courant-nodal-1923": {
+      "title": "Courant nodal domain theorem — historical and mathematical discussion",
+      "kind": "historical_research",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11880090/",
+      "access": "free_no_login",
+      "notes": "Modern mathematical exposition and theorem variants; Courant’s 1923 result and its assumptions are discussed in specialized sources."
+    },
+    "history-courant-nodal-proof": {
+      "title": "Properties of eigenfunctions and nodal sets — University of Toronto",
+      "kind": "mathematical_exposition",
+      "url": "https://www.math.toronto.edu/courses/apm346h1/20169/PDE-textbook/Chapter13/S13.3.html",
+      "access": "free_no_login",
+      "notes": "Short variational proof of nodal-domain count and connection to eigenfunction pieces."
+    },
+    "history-courant-hilbert-1924": {
+      "title": "Courant and Hilbert (1924), Methoden der Mathematischen Physik",
+      "kind": "primary_monograph",
+      "url": "https://link.springer.com/book/10.1007/978-3-662-36445-1",
+      "access": "free_no_login",
+      "notes": "Publication data for the first volume and its coverage of eigenvalues, variational methods and integral equations."
+    },
+    "history-courant-hilbert-1937": {
+      "title": "Courant and Hilbert (1937), Methoden der Mathematischen Physik",
+      "kind": "primary_monograph",
+      "url": "https://link.springer.com/book/10.1007/978-3-642-47434-7",
+      "access": "free_no_login",
+      "notes": "Second volume, originally published in 1937, on differential equations and related applications."
+    },
+    "history-courant-fem-review": {
+      "title": "Liu, Li and Park (2022), Eighty Years of the Finite Element Method",
+      "kind": "historical_research",
+      "url": "https://link.springer.com/article/10.1007/s11831-022-09740-9",
+      "access": "free_no_login",
+      "notes": "Historical account of the 1941 address, 1943 publication, triangle-based approximation and earlier/later parallel developments."
+    },
+    "history-courant-fem-short-history": {
+      "title": "From finite differences to finite elements: a short history (2000)",
+      "kind": "historical_research",
+      "url": "https://doi.org/10.1016/S0377-0427(00)00507-0",
+      "access": "free_no_login",
+      "notes": "Scholarly comparison of Rayleigh, Ritz, Courant and later finite-element development; avoids sole-inventor attribution."
     }
   }
 }
