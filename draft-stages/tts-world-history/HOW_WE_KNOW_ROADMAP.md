@@ -23,12 +23,19 @@ history of the evidence and the research that produced our present account.
 - **Make revisions teachable**: show what evidence led a later researcher to revise an earlier claim. Avoid blanket pronouncements when the stratigraphy, sample, or text witness supports a more precise account.
 - **Keep audio listenable**: narration should credit people naturally, without reading bibliographic URLs or citation keys. Place full links and detailed evidence mappings after the spoken markers and in `metadata/`.
 
+## Second batch: now listening-ready
+
+| ID | Case study | Source record and original contributors |
+|---|---|---|
+| 033000 | Reading the Rosetta Stone | Priestly authors of the 196 BCE decree; Åkerblad, Thomas Young, Champollion, and the survival of Coptic; modern scholarship distinguishes languages, scripts, and the stone's imperial provenance |
+| 034000 | Excavating Tutankhamun | Carter and Mace diaries, Harry Burton photographs, Alfred Lucas conservation records; Egyptian foremen Ahmed Gerigar, Gad Hassan, Hussein Abu Awad, Hussein Ahmed Said; contemporary archival recovery of Egyptian labor histories |
+| 035000 | The Indus cities and their undeciphered seals | Sahni, Bandyopadhyay, Marshall, Vats, Kenoyer, Meadow, Parpola; the difference between an excavated material pattern and a translated text |
+| 036000 | Fu Hao: named inscriptions and an intact tomb | Zheng Zhenxiang's 1976 archaeological team, Anyang oracle-bone specialists, ancient bronzeworkers and scribes; convergent and selective evidence |
+
+These lectures use the same full-narration and source-attribution standard as the first batch. The primary object, original publication or archival record, and later scholarly interpretation remain distinct in each source dossier.
+
 ## Future candidates
 
-- **The Rosetta Stone and Egyptian hieroglyphs** — Thomas Young, Jean-François Champollion, ancient Egyptian priestly authors, and the limitations of the Greek-Egyptian parallel.
-- **Tutankhamun's tomb as a historical record** — Howard Carter, Egyptian field workers including Ahmed Gerigar, conservation and cataloging, and the politics of excavation.
-- **The Indus civilization without deciphered texts** — Daya Ram Sahni, Rakhaldas Bandyopadhyay, John Marshall, excavation reports, seal typology, dating, and contested decipherment claims.
-- **Fu Hao's tomb and oracle bones** — Zheng Zhenxiang, the Anyang excavations, inscriptions, bronze typology, and problems of joining names to material finds.
 - **From buried manuscripts to the Popol Wuj** — colonial-era copying, Francisco Ximénez, modern K'iche' scholarship, and the relationship between oral traditions and preserved texts.
 - **The archaeology of African trade networks** — West African site excavations, Mali and Timbuktu manuscripts, archaeological evidence for commerce and settlement.
 

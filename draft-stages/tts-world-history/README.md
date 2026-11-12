@@ -62,6 +62,11 @@ These lectures share a browsing section but do not depend on listening order:
 - **031000 · Recovering Gilgamesh** — the ancient scribal record, excavators including Hormuzd Rassam, George Smith, decipherers, critical editions, and digital corpora.
 - **032000 · Searching for Troy** — Calvert, Schliemann, Dörpfeld, Blegen, Korfmann, and the evidence behind competing interpretations of Homer's city.
 
+- **033000 · The Rosetta Stone** — the 196 BCE priestly decree, Åkerblad, Young, Champollion, Coptic, and the testing of hieroglyph readings.
+- **034000 · Tutankhamun and the archaeological record** — Carter, Egyptian foremen, Burton, Lucas, the excavation archive, and the limits of royal burial evidence.
+- **035000 · The Indus cities** — Sahni, Bandyopadhyay, Kenoyer, Parpola, undeciphered seals, urban archaeology, and independent material evidence.
+- **036000 · Fu Hao's tomb and the oracle bones** — Zheng Zhenxiang, Anyang archaeology, inscription interpretation, and joining material and written records.
+
 These lectures include named original contributors in the spoken narrative when
 supported by the source record. Each also has non-spoken attribution and
 research notes; the metadata link cards point to original methods, field
