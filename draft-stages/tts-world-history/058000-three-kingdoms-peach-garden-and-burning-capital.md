@@ -1,4 +1,4 @@
-# 055000 — Three Kingdoms, Part I: The Peach Garden and the Burning Capital
+# 058000 — Three Kingdoms, Part I: The Peach Garden and the Burning Capital
 
 **Track:** World History. **Curriculum:** World Literary Epics and Classics / Late-imperial Chinese literature. **Primary narrative:** *Romance of the Three Kingdoms*, chapters 1–6 in the familiar 120-chapter recension. **Format:** Original spoken retelling with analysis; source notes are excluded from audio.
 

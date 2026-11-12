@@ -191,7 +191,7 @@ def test_world_history_manifest_and_spoken_lectures():
     plan = json.loads((WORLD_HISTORY_DIRECTORY / 'track.json').read_text())
     rows = plan['lectures']
     assert plan['id'] == 'world-history'
-    assert [row['id'] for row in rows] == [f'{i:03d}000' for i in range(1, 72)]
+    assert [row['id'] for row in rows] == [f'{i:03d}000' for i in range(1, 75)]
     assert len({row['id'] for row in rows}) == len(rows)
     assert {row['file'] for row in rows} == {
         path.name for path in WORLD_HISTORY_DIRECTORY.glob('[0-9]' * 6 + '-*.md')
@@ -224,10 +224,10 @@ def test_world_history_reader_api_and_isolated_audio(tmp_path):
     with TestClient(create_app(renders, audio_library=hub)) as client:
         tracks = client.get('/api/audio-tracks').json()['tracks']
         world = next(row for row in tracks if row['id'] == 'world-history')
-        assert world['count'] == 71
+        assert world['count'] == 74
         assert world['url'] == '/audio?track=world-history'
         catalog = client.get('/api/audio-lectures?track=world-history').json()['items']
-        assert [row['id'] for row in catalog] == [f'{i:03d}000' for i in range(1, 72)]
+        assert [row['id'] for row in catalog] == [f'{i:03d}000' for i in range(1, 75)]
         for item in catalog:
             detail = client.get(f"/api/audio-lectures/{item['id']}?track=world-history").json()
             assert detail['page_count'] > 20

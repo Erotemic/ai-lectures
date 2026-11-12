@@ -1,4 +1,4 @@
-# 066000 — Three Kingdoms, Part XII: The Revenge Campaign and the Fires of Yiling
+# 069000 — Three Kingdoms, Part XII: The Revenge Campaign and the Fires of Yiling
 
 **Track:** World History. **Curriculum:** World Literary Epics and Classics / Late-imperial Chinese literature. **Primary narrative:** chapters 81–86 of the 120-chapter novel.
 

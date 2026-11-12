@@ -1,4 +1,4 @@
-# 060000 — Three Kingdoms, Part VI: The Sleeping Dragon and the Flight at Changban
+# 063000 — Three Kingdoms, Part VI: The Sleeping Dragon and the Flight at Changban
 
 **Track:** World History. **Curriculum:** World Literary Epics and Classics / Late-imperial Chinese literature. **Primary narrative:** chapters 37–42 of the 120-chapter novel.
 

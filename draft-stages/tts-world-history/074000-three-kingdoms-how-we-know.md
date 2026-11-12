@@ -1,4 +1,4 @@
-# 071000 — Three Kingdoms: How History Became a Novel
+# 074000 — Three Kingdoms: How History Became a Novel
 
 **Track:** World History. **Curriculum:** World Literary Epics and Classics / Late-imperial Chinese literature. **Primary question:** Historiography, editions, authorship, historical uncertainty, and reception of *Romance of the Three Kingdoms*.
 

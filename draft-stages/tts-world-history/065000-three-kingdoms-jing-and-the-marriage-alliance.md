@@ -1,4 +1,4 @@
-# 062000 — Three Kingdoms, Part VIII: The Province Between Allies
+# 065000 — Three Kingdoms, Part VIII: The Province Between Allies
 
 **Track:** World History. **Curriculum:** World Literary Epics and Classics / Late-imperial Chinese literature. **Primary narrative:** chapters 51–57 of the 120-chapter novel.
 

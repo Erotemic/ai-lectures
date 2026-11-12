@@ -28,7 +28,7 @@ The collection currently includes:
   048000–054000, and a dedicated historical/textual lecture. The seventh-century
   Xuanzang is the historical pilgrim, not the date of the complete novel.
 - **World Literary Epics and Classics**, currently with *Romance of the Three
-  Kingdoms*, lectures 055000–071000, including a research lecture on Chen Shou,
+  Kingdoms*, lectures 058000–074000, including a research lecture on Chen Shou,
   Pei Songzhi, Luo Guanzhong, and the early printed recensions.
 
 The section names reflect the present library navigation; they can be grouped

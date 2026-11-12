@@ -1,4 +1,4 @@
-# 070000 — Three Kingdoms, Part XVI: The Fall of Shu and the End of the Three Kingdoms
+# 073000 — Three Kingdoms, Part XVI: The Fall of Shu and the End of the Three Kingdoms
 
 **Track:** World History. **Curriculum:** World Literary Epics and Classics / Late-imperial Chinese literature. **Primary narrative:** chapters 116–120 of the 120-chapter novel.
 

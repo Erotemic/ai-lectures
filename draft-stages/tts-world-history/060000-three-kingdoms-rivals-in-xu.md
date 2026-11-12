@@ -1,4 +1,4 @@
-# 057000 — Three Kingdoms, Part III: The Rival Lords and the Fall of Lü Bu
+# 060000 — Three Kingdoms, Part III: The Rival Lords and the Fall of Lü Bu
 
 **Track:** World History. **Curriculum:** World Literary Epics and Classics / Late-imperial Chinese literature. **Primary narrative:** chapters 15–22 of the 120-chapter novel.
 

@@ -1,4 +1,4 @@
-# 064000 — Three Kingdoms, Part X: Hanzhong and the Rivalry Over Jing
+# 067000 — Three Kingdoms, Part X: Hanzhong and the Rivalry Over Jing
 
 **Track:** World History. **Curriculum:** World Literary Epics and Classics / Late-imperial Chinese literature. **Primary narrative:** chapters 66–72 of the 120-chapter novel.
 

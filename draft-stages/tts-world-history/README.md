@@ -113,6 +113,14 @@ particular episode, and has non-spoken reading references. See the
 [Journey to the West roadmap](JOURNEY_TO_THE_WEST_ROADMAP.md) for boundaries,
 source and edition conventions, and the intended reading order.
 
+## How We Know: Scientific Archaeology (continued)
+
+- **055000 · The Obsidian Fingerprint: From Volcano to Village** — archaeological geochemistry, matching stone artifacts to geological sources.
+- **056000 · Where Did They Grow Up? Isotopes, Teeth, and Ancient Mobility** — using isotopes in ancient teeth to investigate childhood and movement.
+- **057000 · The Bronze Question: Tracking Copper and Tin Across the Ancient World** — lead isotopes, mixing, and uncertain metal provenance.
+
+These three lectures retain their existing identifiers and research records.
+
 ## World Literary Epics and Classics: Romance of the Three Kingdoms
 
 The novel is a historical romance written many centuries after the late-Han and
@@ -121,23 +129,23 @@ the familiar 120-chapter recension and follows it in sixteen story arcs and one
 research lecture. The earliest surviving large-scale printing dates to 1522;
 Luo Guanzhong is the traditional, debated author attribution.
 
-- **055000 · Three Kingdoms, Part I: The Peach Garden and the Burning Capital** — chapters 1–6; about 36 minutes.
-- **056000 · Three Kingdoms, Part II: The Fall of Dong Zhuo and the Captive Emperor** — chapters 7–14; about 34 minutes.
-- **057000 · Three Kingdoms, Part III: The Rival Lords and the Fall of Lü Bu** — chapters 15–22; about 34 minutes.
-- **058000 · Three Kingdoms, Part IV: Guan Yu's Road Home and the Succession in Jiangdong** — chapters 23–29; about 32 minutes.
-- **059000 · Three Kingdoms, Part V: Guandu and the Defeat of a Greater Army** — chapters 30–36; about 33 minutes.
-- **060000 · Three Kingdoms, Part VI: The Sleeping Dragon and the Flight at Changban** — chapters 37–42; about 34 minutes.
-- **061000 · Three Kingdoms, Part VII: Red Cliffs, Fire on the River** — chapters 43–50; about 34 minutes.
-- **062000 · Three Kingdoms, Part VIII: The Province Between Allies** — chapters 51–57; about 33 minutes.
-- **063000 · Three Kingdoms, Part IX: The Road into the Western Kingdom** — chapters 58–65; about 34 minutes.
-- **064000 · Three Kingdoms, Part X: Hanzhong and the Rivalry Over Jing** — chapters 66–72; about 32 minutes.
-- **065000 · Three Kingdoms, Part XI: Guan Yu's Last Campaign and the End of Han** — chapters 73–80; about 30 minutes.
-- **066000 · Three Kingdoms, Part XII: The Revenge Campaign and the Fires of Yiling** — chapters 81–86; about 30 minutes.
-- **067000 · Three Kingdoms, Part XIII: Seven Captures and the First Northern Expeditions** — chapters 87–96; about 30 minutes.
-- **068000 · Three Kingdoms, Part XIV: The Last Campaign of Zhuge Liang** — chapters 97–104; about 31 minutes.
-- **069000 · Three Kingdoms, Part XV: The Sima Family Takes the Court** — chapters 105–115; about 31 minutes.
-- **070000 · Three Kingdoms, Part XVI: The Fall of Shu and the End of the Three Kingdoms** — chapters 116–120; about 31 minutes.
-- **071000 · Three Kingdoms: How History Became a Novel** — research; about 32 minutes.
+- **058000 · Three Kingdoms, Part I: The Peach Garden and the Burning Capital** — chapters 1–6; about 36 minutes.
+- **059000 · Three Kingdoms, Part II: The Fall of Dong Zhuo and the Captive Emperor** — chapters 7–14; about 34 minutes.
+- **060000 · Three Kingdoms, Part III: The Rival Lords and the Fall of Lü Bu** — chapters 15–22; about 34 minutes.
+- **061000 · Three Kingdoms, Part IV: Guan Yu's Road Home and the Succession in Jiangdong** — chapters 23–29; about 32 minutes.
+- **062000 · Three Kingdoms, Part V: Guandu and the Defeat of a Greater Army** — chapters 30–36; about 33 minutes.
+- **063000 · Three Kingdoms, Part VI: The Sleeping Dragon and the Flight at Changban** — chapters 37–42; about 34 minutes.
+- **064000 · Three Kingdoms, Part VII: Red Cliffs, Fire on the River** — chapters 43–50; about 34 minutes.
+- **065000 · Three Kingdoms, Part VIII: The Province Between Allies** — chapters 51–57; about 33 minutes.
+- **066000 · Three Kingdoms, Part IX: The Road into the Western Kingdom** — chapters 58–65; about 34 minutes.
+- **067000 · Three Kingdoms, Part X: Hanzhong and the Rivalry Over Jing** — chapters 66–72; about 32 minutes.
+- **068000 · Three Kingdoms, Part XI: Guan Yu's Last Campaign and the End of Han** — chapters 73–80; about 30 minutes.
+- **069000 · Three Kingdoms, Part XII: The Revenge Campaign and the Fires of Yiling** — chapters 81–86; about 30 minutes.
+- **070000 · Three Kingdoms, Part XIII: Seven Captures and the First Northern Expeditions** — chapters 87–96; about 30 minutes.
+- **071000 · Three Kingdoms, Part XIV: The Last Campaign of Zhuge Liang** — chapters 97–104; about 31 minutes.
+- **072000 · Three Kingdoms, Part XV: The Sima Family Takes the Court** — chapters 105–115; about 31 minutes.
+- **073000 · Three Kingdoms, Part XVI: The Fall of Shu and the End of the Three Kingdoms** — chapters 116–120; about 31 minutes.
+- **074000 · Three Kingdoms: How History Became a Novel** — research; about 32 minutes.
 
 The series compares the novel with Chen Shou, Pei Songzhi and later source
 traditions while preserving the narrative experience. Its final research

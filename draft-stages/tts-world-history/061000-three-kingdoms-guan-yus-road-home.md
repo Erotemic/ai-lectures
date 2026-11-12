@@ -1,4 +1,4 @@
-# 058000 — Three Kingdoms, Part IV: Guan Yu's Road Home and the Succession in Jiangdong
+# 061000 — Three Kingdoms, Part IV: Guan Yu's Road Home and the Succession in Jiangdong
 
 **Track:** World History. **Curriculum:** World Literary Epics and Classics / Late-imperial Chinese literature. **Primary narrative:** chapters 23–29 of the 120-chapter novel.
 

@@ -1,4 +1,4 @@
-# 068000 — Three Kingdoms, Part XIV: The Last Campaign of Zhuge Liang
+# 071000 — Three Kingdoms, Part XIV: The Last Campaign of Zhuge Liang
 
 **Track:** World History. **Curriculum:** World Literary Epics and Classics / Late-imperial Chinese literature. **Primary narrative:** chapters 97–104 of the 120-chapter novel.
 

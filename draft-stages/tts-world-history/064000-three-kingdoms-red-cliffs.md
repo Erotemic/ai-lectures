@@ -1,4 +1,4 @@
-# 061000 — Three Kingdoms, Part VII: Red Cliffs, Fire on the River
+# 064000 — Three Kingdoms, Part VII: Red Cliffs, Fire on the River
 
 **Track:** World History. **Curriculum:** World Literary Epics and Classics / Late-imperial Chinese literature. **Primary narrative:** chapters 43–50 of the 120-chapter novel.
 

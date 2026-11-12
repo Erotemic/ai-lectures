@@ -96,7 +96,7 @@ transmission histories.
 ## Later Chinese novels and the larger literary curriculum
 
 The late-Ming *Journey to the West* sequence (048000–054000) and
-*Romance of the Three Kingdoms* (055000–071000) have been placed outside
+*Romance of the Three Kingdoms* (058000–074000) have been placed outside
 Ancient Literature. The latter is set in the late Han and Three Kingdoms
 period, but its surviving novel is a much later literary work. Both belong to
 the [World Literary Epics and Classics](WORLD_LITERARY_CLASSICS_ROADMAP.md)

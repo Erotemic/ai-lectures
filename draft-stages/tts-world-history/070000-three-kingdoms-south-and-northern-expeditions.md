@@ -1,4 +1,4 @@
-# 067000 — Three Kingdoms, Part XIII: Seven Captures and the First Northern Expeditions
+# 070000 — Three Kingdoms, Part XIII: Seven Captures and the First Northern Expeditions
 
 **Track:** World History. **Curriculum:** World Literary Epics and Classics / Late-imperial Chinese literature. **Primary narrative:** chapters 87–96 of the 120-chapter novel.
 

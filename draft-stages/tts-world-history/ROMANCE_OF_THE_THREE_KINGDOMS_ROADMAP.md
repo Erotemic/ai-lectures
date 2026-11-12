@@ -1,7 +1,7 @@
 # Romance of the Three Kingdoms: narrative and research roadmap
 
 **Placement:** World History audio → World Literary Epics and Classics.
-**Status:** seventeen complete standalone long-form lectures, 055000–071000.
+**Status:** seventeen complete standalone long-form lectures, 058000–074000.
 **Narrative version:** the familiar 120-chapter Chinese novel, indexed using the
 Chinese Text Project's received text. The episode plan does not pretend that
 this chapter numbering reproduces the earliest surviving printing.
@@ -17,23 +17,23 @@ not a demonstrated byline for every layer of the surviving text.
 
 | ID | Story arc | Received chapters | Main scenes and questions |
 |---|---|---:|---|
-| 055000 | The Peach Garden and the Burning Capital | 1–6 | The three companions, Yellow Turbans, child emperors, Dong Zhuo, coalition and Luoyang |
-| 056000 | Dong Zhuo falls; the emperor is captive | 7–14 | Sun Jian, Wang Yun, Diaochan, Lü Bu, Xu Province, the imperial flight and Cao Cao |
-| 057000 | Rival lords and Lü Bu's defeat | 15–22 | Sun Ce, Yuan Shu, Lü Bu at Xiapi, the emperor's secret command, and Cao Cao's wine-table test |
-| 058000 | Guan Yu's road home | 23–29 | The temporary service under Cao Cao, White Horse, the passes, Sun Ce's death and Sun Quan |
-| 059000 | Guandu and the northern struggle | 30–36 | Yuan Shao's council, Wuchao, succession among the Yuan heirs and the search for Xu Shu |
-| 060000 | The Sleeping Dragon and Changban | 37–42 | Three visits, Longzhong, Bowang, retreating civilians, Zhao Yun and Zhang Fei |
-| 061000 | Red Cliffs | 43–50 | The southern court, Zhou Yu, Huang Gai, deceptions, fire and the competing claims on victory |
-| 062000 | Jing between allies | 51–57 | Borrowed territory, the wedding, Lu Su, Zhou Yu, Pang Tong, and the politics of the alliance |
-| 063000 | Into the western kingdom | 58–65 | Ma Chao, Liu Zhang's invitation, Fa Zheng, Pang Tong, Yan Yan and Chengdu |
-| 064000 | Hanzhong and Jing | 66–72 | The Jing banquet, Hefei, Hanzhong, Huang Zhong, Yang Xiu, and political titles |
-| 065000 | Guan Yu's last campaign; end of Han | 73–80 | Fan Castle, the flood, Lü Meng's advance, Maicheng, Cao Cao, Cao Pi and Han succession |
-| 066000 | Yiling and Baidi | 81–86 | Zhang Fei, revenge, Lu Xun, the burning camps, Liu Bei's death and Shu-Wu diplomacy |
-| 067000 | The south and first northern expeditions | 87–96 | Meng Huo, the memorial, Ma Su and Jieting, the Empty Fort story and criticism |
-| 068000 | The final campaigns of Zhuge Liang | 97–104 | Northern campaigns, supply, Sima Yi, Wuzhang Plains and the minister's death |
-| 069000 | The Sima family | 105–115 | Gaoping Tombs, Cao Shuang, Sima Shi and Zhao, late Wei and Wu court crises |
-| 070000 | The fall of Shu and Wu | 116–120 | Deng Ai, Jiang Wei, Chengdu's surrender, the Jin dynasty and 280 reunification |
-| 071000 | How history became a novel | Research | Chen Shou, Pei Songzhi, earlier narrative traditions, the 1522 edition, Mao recension, translations and reception |
+| 058000 | The Peach Garden and the Burning Capital | 1–6 | The three companions, Yellow Turbans, child emperors, Dong Zhuo, coalition and Luoyang |
+| 059000 | Dong Zhuo falls; the emperor is captive | 7–14 | Sun Jian, Wang Yun, Diaochan, Lü Bu, Xu Province, the imperial flight and Cao Cao |
+| 060000 | Rival lords and Lü Bu's defeat | 15–22 | Sun Ce, Yuan Shu, Lü Bu at Xiapi, the emperor's secret command, and Cao Cao's wine-table test |
+| 061000 | Guan Yu's road home | 23–29 | The temporary service under Cao Cao, White Horse, the passes, Sun Ce's death and Sun Quan |
+| 062000 | Guandu and the northern struggle | 30–36 | Yuan Shao's council, Wuchao, succession among the Yuan heirs and the search for Xu Shu |
+| 063000 | The Sleeping Dragon and Changban | 37–42 | Three visits, Longzhong, Bowang, retreating civilians, Zhao Yun and Zhang Fei |
+| 064000 | Red Cliffs | 43–50 | The southern court, Zhou Yu, Huang Gai, deceptions, fire and the competing claims on victory |
+| 065000 | Jing between allies | 51–57 | Borrowed territory, the wedding, Lu Su, Zhou Yu, Pang Tong, and the politics of the alliance |
+| 066000 | Into the western kingdom | 58–65 | Ma Chao, Liu Zhang's invitation, Fa Zheng, Pang Tong, Yan Yan and Chengdu |
+| 067000 | Hanzhong and Jing | 66–72 | The Jing banquet, Hefei, Hanzhong, Huang Zhong, Yang Xiu, and political titles |
+| 068000 | Guan Yu's last campaign; end of Han | 73–80 | Fan Castle, the flood, Lü Meng's advance, Maicheng, Cao Cao, Cao Pi and Han succession |
+| 069000 | Yiling and Baidi | 81–86 | Zhang Fei, revenge, Lu Xun, the burning camps, Liu Bei's death and Shu-Wu diplomacy |
+| 070000 | The south and first northern expeditions | 87–96 | Meng Huo, the memorial, Ma Su and Jieting, the Empty Fort story and criticism |
+| 071000 | The final campaigns of Zhuge Liang | 97–104 | Northern campaigns, supply, Sima Yi, Wuzhang Plains and the minister's death |
+| 072000 | The Sima family | 105–115 | Gaoping Tombs, Cao Shuang, Sima Shi and Zhao, late Wei and Wu court crises |
+| 073000 | The fall of Shu and Wu | 116–120 | Deng Ai, Jiang Wei, Chengdu's surrender, the Jin dynasty and 280 reunification |
+| 074000 | How history became a novel | Research | Chen Shou, Pei Songzhi, earlier narrative traditions, the 1522 edition, Mao recension, translations and reception |
 
 The first sixteen are complete narrative arcs; the last is a sustained research
 lecture. In-story analysis covers military logistics, personal loyalty versus
@@ -84,7 +84,7 @@ production details within speech markers.
 
 ## Research anchors
 
-Research cards in `metadata/055000.json` through `metadata/071000.json` refer
+Research cards in `metadata/058000.json` through `metadata/074000.json` refer
 to stable entries in `metadata/sources.json`: the Chinese Text Project text,
 Moss Roberts' complete translation (University of California Press), a study
 of Chen Shou and Pei Songzhi, scholarly work on early editions and legitimacy,

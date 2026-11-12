@@ -1,4 +1,4 @@
-# 063000 — Three Kingdoms, Part IX: The Road into the Western Kingdom
+# 066000 — Three Kingdoms, Part IX: The Road into the Western Kingdom
 
 **Track:** World History. **Curriculum:** World Literary Epics and Classics / Late-imperial Chinese literature. **Primary narrative:** chapters 58–65 of the 120-chapter novel.
 
