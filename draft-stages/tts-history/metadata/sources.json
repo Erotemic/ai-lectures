@@ -65,25 +65,25 @@
       "notes": "Eigenvalue weighted-average, Hermitian min–max, and general variational context."
     },
     "history-ritz-bio": {
-      "title": "Walther Ritz — biographical or contributor record",
+      "title": "Walther Ritz — Historical Dictionary of Switzerland",
       "kind": "biography_or_author_record",
       "url": "https://hls-dhs-dss.ch/de/articles/032001/2010-11-10/",
       "access": "free_no_login",
-      "notes": "Person-specific source for Walther Ritz; for living contributors some records document authorship rather than personal biography."
+      "notes": "Swiss scholarly chronology, studies, illness, research fields, and the 1908 combination principle."
     },
     "history-ritz-primary": {
-      "title": "Walther Ritz — Mathematical context and introductory reading",
-      "kind": "mathematical_exposition",
-      "url": "https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Ritz_method",
-      "access": "free_no_login",
-      "notes": "Accessible explanation of the named mathematical contribution and its later use; not an original publication."
+      "title": "W. Ritz, Über eine neue Methode zur Lösung gewisser Variationsprobleme der mathematischen Physik (1909)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://www.degruyterbrill.com/de/document/doi/10.1515/crll.1909.135.1/html",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Original 61-page journal article on the variational method; original publication year 1909, regardless of online-posting dates."
     },
     "history-ritz-topic": {
-      "title": "Rayleigh–Ritz method",
+      "title": "Rayleigh–Ritz method — Wikipedia",
       "kind": "accessible_topic_reference",
       "url": "https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Ritz_method",
       "access": "free_no_login",
-      "notes": "Background on the mathematical concept explained in the Walther Ritz lecture."
+      "notes": "Accessible introduction to finite trial spaces and generalized eigenvalue approximations."
     },
     "history-weyl-bio": {
       "title": "Hermann Weyl — MacTutor biography",
@@ -875,6 +875,90 @@
       "url": "https://en.wikipedia.org/wiki/Rayleigh%E2%80%93B%C3%A9nard_convection",
       "access": "free_no_login",
       "notes": "History and differing mechanisms of buoyancy-driven and surface-tension-driven convection."
+    },
+    "history-ritz-german-biography": {
+      "title": "Walter Ritz — Deutsche Biographie",
+      "kind": "biography_or_author_record",
+      "url": "https://www.deutsche-biographie.de/pnd116574372.html?language=en",
+      "access": "free_no_login",
+      "notes": "Expanded research chronology, studies under Voigt, plate vibrations, spectroscopy, and electrodynamics."
+    },
+    "history-ritz-wikipedia": {
+      "title": "Walther Ritz — Wikipedia",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Walther_Ritz",
+      "access": "free_no_login",
+      "notes": "Accessible summary of life, fields, and main named contributions."
+    },
+    "history-ritz-1908-variational": {
+      "title": "Ritz, Ueber eine neue Methode zur Lösung gewisser Randwertaufgaben (1908)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://geodesic.mathdoc.fr/item/NGWGMP_1908__1908_58716/",
+      "access": "free_no_login",
+      "notes": "Original Göttingen academy proceedings paper, 1908, pp. 236–248, an early presentation of the method."
+    },
+    "history-ritz-1909-plate": {
+      "title": "Ritz, Theorie der Transversalschwingungen einer quadratischen Platte mit freien Rändern (1909)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/andp.19093330403",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Primary study of bending vibrations of a completely free square plate."
+    },
+    "history-ritz-rayleigh-attribution": {
+      "title": "A. W. Leissa, The historical bases of the Rayleigh and Ritz methods (2005)",
+      "kind": "historical_research",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022460X05000362",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Historian of engineering mathematics compares Rayleigh’s energy estimates and Ritz’s systematic finite-trial-function method, including later attribution dispute."
+    },
+    "history-ritz-atomic-study": {
+      "title": "El’yashevich, Kembrovskaya, Tomil’chik, Walter Ritz as a theoretical physicist (1995)",
+      "kind": "historical_research",
+      "url": "https://ufn.ru/en/articles/1995/4/d/",
+      "access": "free_no_login",
+      "notes": "Detailed analysis of Ritz’s elastic and magnetic atomic models and the mathematical origins of the combination principle."
+    },
+    "history-ritz-spectral-paper": {
+      "title": "Ritz, On a new law of series spectra (1908)",
+      "kind": "historical_primary_or_exposition",
+      "url": "https://doi.org/10.1086/141591",
+      "access": "free_no_login",
+      "notes": "Ritz’s Astrophysical Journal paper on the combination law of line spectra."
+    },
+    "history-ritz-combination": {
+      "title": "Rydberg–Ritz combination principle — Wikipedia",
+      "kind": "accessible_topic_reference",
+      "url": "https://en.wikipedia.org/wiki/Rydberg%E2%80%93Ritz_combination_principle",
+      "access": "free_no_login",
+      "notes": "Term-difference formulation, spectral-series background, and later energy-level interpretation."
+    },
+    "history-ritz-nist": {
+      "title": "NIST Atomic Spectra Database — spectral line help",
+      "kind": "technical_reference",
+      "url": "https://physics.nist.gov/PhysRefData/ASD/Html/lineshelp.html",
+      "access": "free_no_login",
+      "notes": "Modern definition of Ritz wavenumber and wavelength from level energy differences, with units."
+    },
+    "history-ritz-einstein-debate": {
+      "title": "Frisch and Pietsch, Reassessing the Ritz–Einstein debate (2016)",
+      "kind": "historical_research",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1355219815300150",
+      "access": "publisher_abstract_or_metadata",
+      "notes": "Nuanced historical analysis of the radiation-time asymmetry controversy and its action-at-a-distance context."
+    },
+    "history-ritz-thermo-time": {
+      "title": "Stanford Encyclopedia of Philosophy, Thermodynamic Asymmetry in Time",
+      "kind": "academic_exposition",
+      "url": "https://plato.stanford.edu/entries/time-thermo/",
+      "access": "free_no_login",
+      "notes": "Accessible expert discussion of electromagnetic radiation asymmetry and the 1909 Ritz–Einstein exchange."
+    },
+    "history-ritz-variational-fem": {
+      "title": "Rayleigh–Ritz and conforming finite-element eigenvalue bounds",
+      "kind": "mathematical_exposition",
+      "url": "https://link.springer.com/article/10.1007/s00211-026-01577-9",
+      "access": "free_no_login",
+      "notes": "Modern variational upper-bound principle in finite-element spectral approximations; not historical evidence for Ritz’s own work."
     }
   }
 }

@@ -824,11 +824,11 @@ media, references, reports and model caches remain untracked.
 
 ### Lecture library: visual, mathematical audio, and history
 
-The server exposes **G1 Manim** at `/`, **G2 comprehensive audio** at `/audio?track=g2` (156 lectures), **G3 paper audio** at `/audio?track=g3` (27 lectures), **Math history · People and ideas** at `/audio?track=history` (7 full-length biographies; 21 deferred drafts in `stubs/`), and **World History** at `/audio?track=world-history` (2 substantive, standalone lectures: Gilgamesh and Mary Leakey). Each audio track has a separate transcript directory, cache, listening progress, feedback context, and non-spoken reading references. The reader supports track selection, full transcripts, generated-audio filtering, voices, and on-demand TTS. The G3 syllabus is in `draft-stages/tts-paper/`; math biographies remain in `draft-stages/tts-history/`, and the new world-history collection is in `draft-stages/tts-world-history/`. See `docs/audio-library-on-demand.md`.
+The server exposes **G1 Manim** at `/`, **G2 comprehensive audio** at `/audio?track=g2` (156 lectures), **G3 paper audio** at `/audio?track=g3` (27 lectures), **Math history · People and ideas** at `/audio?track=history` (8 full-length biographies; 20 deferred drafts in `stubs/`), and **World History** at `/audio?track=world-history` (2 substantive, standalone lectures: Gilgamesh and Mary Leakey). Each audio track has a separate transcript directory, cache, listening progress, feedback context, and non-spoken reading references. The reader supports track selection, full transcripts, generated-audio filtering, voices, and on-demand TTS. The G3 syllabus is in `draft-stages/tts-paper/`; math biographies remain in `draft-stages/tts-history/`, and the new world-history collection is in `draft-stages/tts-world-history/`. See `docs/audio-library-on-demand.md`.
 
 ### Shared course graph (G1/G2/G3/G4)
 
-Open `/learning-paths` to see all 204 G1–G4 lecture nodes in one interactive graph. Toggle the edge types independently, including `listening_next` (path order) and `proof_depends_on` (a theorem's supporting mathematical result). The full graph is connected under the default edge preset; topic/track filters and local neighborhoods remain available. G4 is a planned Yu–Wang–Samworth path that reuses seven playable G2/G3 recordings and has six YWS-specific lectures to author. For data and relationship definitions, see `docs/interactive-course-graph-2026-11-08.md`.
+Open `/learning-paths` to see all 204 G1–G4 lecture nodes in one interactive graph. Toggle the edge types independently, including `listening_next` (path order) and `proof_depends_on` (a theorem's supporting mathematical result). The full graph is connected under the default edge preset; topic/track filters and local neighborhoods remain available. G4 is a planned Yu–Wang–Samworth path that reuses eight playable G2/G3 recordings and has six YWS-specific lectures to author. For data and relationship definitions, see `docs/interactive-course-graph-2026-11-08.md`.
 
 The graph is generated from the current lecture inventories plus `curriculum/relationships.json` and `curriculum/g4-yws.json`. Run `python -m dkvis.presentation.course_graph` to validate it. The audit and authoring guidance are in `docs/course-graph-audit-2026-11-08.md`.
 
@@ -843,8 +843,8 @@ the build cache is Git-ignored. See [companion slide documentation](docs/compani
 
 ## History audio track editorial status
 
-The separate history audio track exposes seven substantive biographies
-currently ready for listening, including Camille Jordan and Lord Rayleigh. Short drafts on 21 other contributors are
+The separate history audio track exposes eight substantive biographies
+currently ready for listening, including Camille Jordan and Lord Rayleigh. Short drafts on 20 other contributors are
 preserved under `draft-stages/tts-history/stubs/` and deliberately excluded
 from the audio catalog until they receive substantive historical and
 mathematical development. See `draft-stages/tts-history/README.md`.
