@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "32 researched long-form historical portraits, with new biographies of Carl Runge and Martin Wilhelm Kutta on numerical ODE methods, interpolation, experimental spectroscopy, and aerodynamics; no archived sketches remain.",
+  "summary": "34 researched long-form historical portraits, with Grace Hopper and Ada Lovelace extending the collection into the mathematical and institutional origins of programming; no archived sketches remain.",
   "assumed_background": [
     "elementary vectors and eigenvalues; advanced concepts are introduced locally"
   ],
@@ -13,7 +13,8 @@
     "statistics",
     "number-theory",
     "surface-geometry",
-    "numerical-integration"
+    "numerical-integration",
+    "computing"
   ],
   "lectures": [
     {
@@ -367,6 +368,28 @@
       "draft_status": "substantive",
       "source_g2": null,
       "estimated_minutes_at_145_wpm": 34.2
+    },
+    {
+      "id": "033000",
+      "title": "Grace Hopper: How did mathematics become a language a machine could understand?",
+      "person": "Grace Hopper",
+      "section": "computing",
+      "file": "033000-hopper.md",
+      "spoken_words": 5143,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 35.5
+    },
+    {
+      "id": "034000",
+      "title": "Ada Lovelace: What does it mean to give a machine an idea?",
+      "person": "Ada Lovelace",
+      "section": "computing",
+      "file": "034000-lovelace.md",
+      "spoken_words": 4805,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 33.1
     }
   ],
   "editorial_policy": "Expose only researched substantive portraits. Draft biographies live in stubs/ until expanded, checked and promoted."

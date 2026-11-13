@@ -1,5 +1,5 @@
 # Archived History sketches
 
-All 32 historical portraits are substantive and part of the playable History track. No shorter sketches remain archived.
+No sketches are currently archived. All 34 subjects in the History track have substantive standalone lectures.
 
-This directory is reserved for new research seeds that have not yet been developed into standalone sourced lectures. The exact archive inventory is `manifest.json`.
+This directory remains available for new subjects that do not yet have adequate research and narration.

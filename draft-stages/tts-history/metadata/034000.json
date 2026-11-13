@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "lecture_id": "034000",
+  "transcript": "034000-lovelace.md",
+  "related_resources": [
+    {
+      "source_id": "history-lovelace-primary",
+      "reason": "Contemporary primary text of Notes A–G and Menabrea translation, 1843 Scientific Memoirs."
+    },
+    {
+      "source_id": "history-lovelace-mactutor",
+      "reason": "Birth and death, education, Somerville, De Morgan, Babbage, Menabrea, 1843 Notes and correspondence."
+    },
+    {
+      "source_id": "history-lovelace-maa",
+      "reason": "Study of surviving mathematical exercises, Note G algorithm and historical qualifications."
+    },
+    {
+      "source_id": "history-lovelace-misa",
+      "reason": "Specialist discussion of Lovelace–Babbage collaboration, contemporary correspondence and debated priorities."
+    },
+    {
+      "source_id": "history-lovelace-huskey",
+      "reason": "Scholarly study of correspondence, Note G revisions, algorithm details and disputes."
+    },
+    {
+      "source_id": "history-lovelace-scholarship",
+      "reason": "Skeptical historiographical treatment of priority and originality; use alongside Misa and primary letters."
+    },
+    {
+      "source_id": "history-lovelace-turing",
+      "reason": "Turing's 1950 article, including the named discussion of Lady Lovelace's objection."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "034000-h01",
+      "anchor": "Ada lived between eighteen fifteen and eighteen fifty-two",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h02",
+      "anchor": "Augusta Ada Byron was born on December tenth, eighteen fifteen",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h03",
+      "anchor": "Her father was the poet Lord Byron, and her mother was Annabella Milbanke",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h04",
+      "anchor": "Ada's parents separated a few weeks after her birth",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h05",
+      "anchor": "Her schooling was conducted by private tutors",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h06",
+      "anchor": "In eighteen thirty-three Ada met Charles Babbage",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h07",
+      "anchor": "Through Mary Somerville, the distinguished writer on mathematics and science",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h08",
+      "anchor": "Ada married William King in eighteen thirty-five",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h09",
+      "anchor": "When he became Earl of Lovelace in eighteen thirty-eight",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h10",
+      "anchor": "In the early eighteen forties she studied more advanced mathematics with Augustus De Morgan",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor",
+        "history-lovelace-maa"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h11",
+      "anchor": "Surviving exercise books and letters show her wrestling with calculus",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-maa"
+      ],
+      "source_locator": "Helping Ada Lovelace with her Homework — Mathematical Association of America",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h12",
+      "anchor": "In eighteen forty Babbage discussed his Analytical Engine in Turin",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-primary",
+        "history-lovelace-mactutor"
+      ],
+      "source_locator": "A. A. Lovelace, Notes on the Analytical Engine (1843), transcribed",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h13",
+      "anchor": "Luigi Federico Menabrea, an Italian engineer and mathematician",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h14",
+      "anchor": "Ada Lovelace translated Menabrea's article into English",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-primary"
+      ],
+      "source_locator": "A. A. Lovelace, Notes on the Analytical Engine (1843), transcribed",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h15",
+      "anchor": "The resulting paper appeared in eighteen forty-three in Richard Taylor's Scientific Memoirs",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-primary"
+      ],
+      "source_locator": "A. A. Lovelace, Notes on the Analytical Engine (1843), transcribed",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h16",
+      "anchor": "Her Notes, labeled A through G, were considerably longer than the original article",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-primary"
+      ],
+      "source_locator": "A. A. Lovelace, Notes on the Analytical Engine (1843), transcribed",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h17",
+      "anchor": "Surviving correspondence shows revisions, corrections, and arguments",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-huskey",
+        "history-lovelace-misa"
+      ],
+      "source_locator": "Velma Huskey and Harry Huskey, Lady Lovelace and Charles Babbage (1980)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h18",
+      "anchor": "Babbage later recalled assisting with algebraic working for the Bernoulli-number example",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor",
+        "history-lovelace-misa"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h19",
+      "anchor": "Some of Babbage's plans for programming the engine predate the published Notes",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-scholarship",
+        "history-lovelace-misa"
+      ],
+      "source_locator": "Historian analysis of Lovelace and Babbage — Christopher D. Green",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h20",
+      "anchor": "The most celebrated part of the paper is Note G",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-primary"
+      ],
+      "source_locator": "A. A. Lovelace, Notes on the Analytical Engine (1843), transcribed",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h21",
+      "anchor": "Lovelace's published diagram laid out changing values and operations",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-primary",
+        "history-lovelace-maa"
+      ],
+      "source_locator": "A. A. Lovelace, Notes on the Analytical Engine (1843), transcribed",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h22",
+      "anchor": "Lovelace suggested that the Analytical Engine might operate on objects other than numbers",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-primary"
+      ],
+      "source_locator": "A. A. Lovelace, Notes on the Analytical Engine (1843), transcribed",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h23",
+      "anchor": "She used musical composition as an example",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-primary"
+      ],
+      "source_locator": "A. A. Lovelace, Notes on the Analytical Engine (1843), transcribed",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h24",
+      "anchor": "Later thinkers, including Alan Turing, discussed this",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-turing"
+      ],
+      "source_locator": "A. M. Turing, Computing Machinery and Intelligence (1950), Mind",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h25",
+      "anchor": "Ada Lovelace died on November twenty-seventh, eighteen fifty-two",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h26",
+      "anchor": "The claim that she was the first person ever to program a computer depends on contested definitions",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-misa",
+        "history-lovelace-maa"
+      ],
+      "source_locator": "Thomas J. Misa, Charles Babbage, Ada Lovelace, and the Bernoulli Numbers (2023)",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

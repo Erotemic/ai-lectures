@@ -1,10 +1,12 @@
 # History · People and ideas
 
-The playable History track contains **32 researched, substantive, standalone historical portraits**, including the original 28 in matrix, spectral, numerical, and statistical history. Four additional portraits extend the collection beyond the original backlog:
+The History track contains **34 researched, substantive, standalone portraits** with audio-first narration, checked worked mathematics, display-only companions, and claim-level reference metadata. Stable identifiers are preserved.
 
-- **Sophie Germain** (`029000`): number theory and the mathematics of vibrating plates.
-- **Maryam Mirzakhani** (`030000`): geodesics, moduli spaces, Weil–Petersson volumes, and dynamics.
-- **Carl Runge** (`031000`), *How can a differential equation become a reliable calculation?* Berlin training, complex approximation, Hannover experimental spectroscopy, 1895 one-step numerical integration, the 1901 interpolation counterexample, and Göttingen applied mathematics.
-- **Martin Wilhelm Kutta** (`032000`), *How can four slope measurements predict a changing world?* The 1900–1901 high-order integration research, worked four-stage Runge–Kutta methods, stability and order, lift and circulation, and aerodynamics at Munich and Stuttgart.
+The original 28 portraits concern matrix, spectral, numerical and statistical history. Added subjects include Sophie Germain (`029000`), Maryam Mirzakhani (`030000`), Carl Runge (`031000`), Martin Wilhelm Kutta (`032000`), **Grace Hopper (`033000`)**, and **Ada Lovelace (`034000`)**.
 
-Each portrait includes audio-first narration, worked mathematics, a display-only companion, and claim-level reference metadata. Stable identifiers remain unchanged. The archived-sketch directory is empty; new sketches can be developed there when needed. Spoken markers delimit TTS content; sources and mathematical details after the marker are display-only. Audio is not bundled.
+- **Grace Hopper** — From polynomial irreducibility and Newton–Hopper polygons to Mark I programming, A-0 automatic program assembly, FLOW-MATIC, COBOL and Navy standardization. The lecture distinguishes the A-0 system from a modern optimizing compiler and credits COBOL's collaborative development.
+- **Ada Lovelace** — Finite differences, the planned Analytical Engine, the 1843 translation and Notes, Bernoulli-number computation and symbolic representation. The lecture reconstructs the arithmetic and treats the documented Babbage collaboration and debated priority with care.
+
+Spoken markers delimit TTS content; sources and full mathematical notation after the markers are display-only. The archived-sketch directory currently has no entries. Audio is not bundled.
+
+Further candidate portraits and pair order are recorded in [`docs/history-portrait-expansion-backlog-2026-11-12.md`](../../docs/history-portrait-expansion-backlog-2026-11-12.md). The next requested pair is Isaac Newton and Marie Curie.

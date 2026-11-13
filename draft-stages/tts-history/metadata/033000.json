@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "lecture_id": "033000",
+  "transcript": "033000-hopper.md",
+  "related_resources": [
+    {
+      "source_id": "history-hopper-navy",
+      "reason": "Navy institutional chronology, ranks, appointments, education and dates."
+    },
+    {
+      "source_id": "history-hopper-smithsonian",
+      "reason": "Institutional biographical and collections account, Navy, Mark I, Eckert-Mauchly, FLOW-MATIC and later service."
+    },
+    {
+      "source_id": "history-hopper-yale",
+      "reason": "Yale institutional account of A-0 (1952), FLOW-MATIC, CODASYL and COBOL."
+    },
+    {
+      "source_id": "history-hopper-auel",
+      "reason": "Specialist mathematical research on Hopper 1934 dissertation and Newton–Hopper polygon, with links to primary materials."
+    },
+    {
+      "source_id": "history-hopper-ieee",
+      "reason": "A-0 as link/load precursor, 1952 automatic programming, FLOW-MATIC and 1959 COBOL."
+    },
+    {
+      "source_id": "history-hopper-bug",
+      "reason": "Mark II moth, prior usage of bug and context for computing labor and Hopper biography."
+    },
+    {
+      "source_id": "history-hopper-mactutor",
+      "reason": "Education, doctoral adviser Øystein Ore, Mark I, industrial and naval career."
+    },
+    {
+      "source_id": "history-hopper-yale-math",
+      "reason": "Research discussion of 1934 dissertation and archimedean Newton polygon constructions."
+    },
+    {
+      "source_id": "history-hopper-nanosecond",
+      "reason": "Museum artifact, original bundles of ~30-cm wire used by Hopper for teaching propagation-time scales."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "033000-h01",
+      "anchor": "Grace Brewster Murray Hopper lived from nineteen oh six to nineteen ninety-two",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-navy"
+      ],
+      "source_locator": "Hopper, Grace Murray — Naval History and Heritage Command",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h02",
+      "anchor": "Grace Murray was born in New York City on December ninth, nineteen oh six",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-navy"
+      ],
+      "source_locator": "Hopper, Grace Murray — Naval History and Heritage Command",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h03",
+      "anchor": "Her mother, Mary Van Horne Murray, was interested in mathematics",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-mactutor"
+      ],
+      "source_locator": "Grace Hopper — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h04",
+      "anchor": "She attended Vassar College and graduated in nineteen twenty-eight",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-navy"
+      ],
+      "source_locator": "Hopper, Grace Murray — Naval History and Heritage Command",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h05",
+      "anchor": "At Yale she earned a master's degree in nineteen thirty",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-navy"
+      ],
+      "source_locator": "Hopper, Grace Murray — Naval History and Heritage Command",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h06",
+      "anchor": "Her doctoral adviser at Yale was the algebraist Øystein Ore",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-mactutor",
+        "history-hopper-auel"
+      ],
+      "source_locator": "Grace Hopper — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h07",
+      "anchor": "Hopper received her doctorate in nineteen thirty-four",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-auel",
+        "history-hopper-yale-math"
+      ],
+      "source_locator": "Asher Auel, The Mathematics of Grace Murray Hopper (2019)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h08",
+      "anchor": "New Types of Irreducibility Criteria",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-auel"
+      ],
+      "source_locator": "Asher Auel, The Mathematics of Grace Murray Hopper (2019)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h09",
+      "anchor": "Her dissertation investigated different criteria from this elementary example",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-auel"
+      ],
+      "source_locator": "Asher Auel, The Mathematics of Grace Murray Hopper (2019)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h10",
+      "anchor": "Hopper's thesis used a particular archimedean version of this polygonal reasoning",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-auel",
+        "history-hopper-yale-math"
+      ],
+      "source_locator": "Asher Auel, The Mathematics of Grace Murray Hopper (2019)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h11",
+      "anchor": "In December nineteen forty-three Hopper entered the United States Naval Reserve",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-navy"
+      ],
+      "source_locator": "Hopper, Grace Murray — Naval History and Heritage Command",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h12",
+      "anchor": "In nineteen forty-four she arrived at Harvard's Cruft Laboratory",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-smithsonian"
+      ],
+      "source_locator": "Grace Hopper: The Navy and Computers — Smithsonian National Museum of American History",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h13",
+      "anchor": "Hopper became one of the first programmers of the Mark I",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-yale",
+        "history-hopper-mactutor"
+      ],
+      "source_locator": "Biography of Grace Murray Hopper — Yale University",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h14",
+      "anchor": "She worked on calculations for the Navy and later wrote a detailed manual",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-yale",
+        "history-hopper-1952"
+      ],
+      "source_locator": "Biography of Grace Murray Hopper — Yale University",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h15",
+      "anchor": "The famous moth preserved in the Mark II team's logbook in nineteen forty-seven",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-bug"
+      ],
+      "source_locator": "Grace under pressure — Smithsonian National Museum of American History",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h16",
+      "anchor": "the term bug had been used for technical faults before that day",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-bug"
+      ],
+      "source_locator": "Grace under pressure — Smithsonian National Museum of American History",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h17",
+      "anchor": "In nineteen forty-nine she joined the Eckert-Mauchly Computer Corporation",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-yale",
+        "history-hopper-navy"
+      ],
+      "source_locator": "Biography of Grace Murray Hopper — Yale University",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h18",
+      "anchor": "That was the essential setting of Hopper's A-zero system",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-ieee",
+        "history-hopper-yale"
+      ],
+      "source_locator": "About Grace Hopper — IEEE Spectrum",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h19",
+      "anchor": "Its operation was closer to what a modern programmer would call a linker or loader",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-ieee"
+      ],
+      "source_locator": "About Grace Hopper — IEEE Spectrum",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h20",
+      "anchor": "Hopper's team developed FLOW-MATIC in the nineteen fifties",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-yale",
+        "history-hopper-smithsonian"
+      ],
+      "source_locator": "Biography of Grace Murray Hopper — Yale University",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h21",
+      "anchor": "In nineteen fifty-nine the Conference on Data Systems Languages",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-yale"
+      ],
+      "source_locator": "Biography of Grace Murray Hopper — Yale University",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h22",
+      "anchor": "The resulting COBOL specification drew heavily on FLOW-MATIC",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-yale",
+        "history-hopper-ieee"
+      ],
+      "source_locator": "Biography of Grace Murray Hopper — Yale University",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h23",
+      "anchor": "Hopper did not personally write every rule of COBOL",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-yale"
+      ],
+      "source_locator": "Biography of Grace Murray Hopper — Yale University",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h24",
+      "anchor": "Hopper's famous demonstrations of a nanosecond",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-nanosecond"
+      ],
+      "source_locator": "Nanoseconds Associated with Grace Hopper — Smithsonian object record",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h25",
+      "anchor": "The Navy called Hopper back to active duty in nineteen sixty-seven",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-navy",
+        "history-hopper-yale"
+      ],
+      "source_locator": "Hopper, Grace Murray — Naval History and Heritage Command",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h26",
+      "anchor": "retiring as a rear admiral",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-smithsonian",
+        "history-hopper-navy"
+      ],
+      "source_locator": "Grace Hopper: The Navy and Computers — Smithsonian National Museum of American History",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h27",
+      "anchor": "Grace Hopper died on January first, nineteen ninety-two",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-navy"
+      ],
+      "source_locator": "Hopper, Grace Murray — Naval History and Heritage Command",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}
