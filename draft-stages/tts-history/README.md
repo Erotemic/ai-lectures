@@ -30,3 +30,11 @@ Four existing lectures were revised without changing their identifiers or mathem
 ## Human-portrait and continuity revisions (13 November 2026)
 
 Camille Jordan (002000), Lord Rayleigh (003000), Walther Ritz (004000), and Hermann Weyl (005000) now develop documented personal circumstances alongside their mathematical problems. The revisions integrate family and collaborators, work environments, intellectual disagreements, illness or displacement, and the human consequences of historical events without changing the technical companions.
+
+
+The biographies of **Richard Courant** (`006000`), **Ernst Fischer** (`007000`),
+**David Hilbert** (`008000`), and **Frigyes Riesz** (`009000`) received a
+human-history and narrative-continuity revision on 13 November 2026. The
+mathematical companions remain unchanged. New passages draw on contemporary
+recollections, scholarly biographies, university records and oral histories,
+with historical claim anchors in their individual metadata.

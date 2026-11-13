@@ -22,7 +22,91 @@
     {
       "source_id": "history-hilbert-foundations",
       "reason": "A distinct chapter of Hilbert’s work in logic and mathematical foundations."
+    },
+    {
+      "source_id": "history-hilbert-mactutor-biography",
+      "reason": "Source for documented biographical scenes in the revised portrait."
+    },
+    {
+      "source_id": "history-hilbert-noether-mactutor",
+      "reason": "Source for documented biographical scenes in the revised portrait."
+    },
+    {
+      "source_id": "history-hilbert-noether-scholarship",
+      "reason": "Source for documented biographical scenes in the revised portrait."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "008000-human-01",
+      "anchor": "His childhood gives little warning of the way he would transform mathematical",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-hilbert-mactutor-biography"
+      ],
+      "source_locator": "MacTutor Hilbert childhood and education",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "008000-human-02",
+      "anchor": "Minkowski and Hilbert spent years exchanging ideas before either became a universally",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-hilbert-mactutor-biography"
+      ],
+      "source_locator": "MacTutor Minkowski and Hilbert",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "008000-human-03",
+      "anchor": "At Göttingen, Felix Klein encouraged mathematics to remain in contact with physical",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-hilbert-mactutor-biography"
+      ],
+      "source_locator": "MacTutor Göttingen and Courant",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "008000-human-04",
+      "anchor": "The difference between a historical program and its later formal completion is",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-hilbert-mactutor-biography"
+      ],
+      "source_locator": "MacTutor research community",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "008000-human-05",
+      "anchor": "The same willingness to challenge conventions appeared in his defense of Emmy",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-hilbert-noether-mactutor",
+        "history-hilbert-noether-scholarship"
+      ],
+      "source_locator": "Noether scholarship and MacTutor",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "008000-human-06",
+      "anchor": "By the middle of the 1920s, the institute Hilbert had helped make",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-hilbert-mactutor-biography"
+      ],
+      "source_locator": "MacTutor Hilbert later illness",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "008000-human-07",
+      "anchor": "The final years of Göttingen's old mathematical community were harsher still. After",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-hilbert-mactutor-biography"
+      ],
+      "source_locator": "MacTutor Hilbert and Göttingen under Nazis",
+      "audit_status": "source_cross_checked"
+    }
+  ]
 }

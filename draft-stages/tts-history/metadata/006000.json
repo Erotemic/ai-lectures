@@ -66,7 +66,86 @@
     {
       "source_id": "history-courant-topic",
       "reason": "Accessible introduction to the finite-dimensional min–max formula."
+    },
+    {
+      "source_id": "history-courant-lax-memoir-2003",
+      "reason": "Source for documented biographical scenes in the revised portrait."
+    },
+    {
+      "source_id": "history-courant-hans-oral",
+      "reason": "Source for documented biographical scenes in the revised portrait."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "006000-human-01",
+      "anchor": "His route into that world began in a household where money did",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-courant-lax-memoir-2003"
+      ],
+      "source_locator": "Peter Lax, National Academies biographical memoir",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006000-human-02",
+      "anchor": "Göttingen was also a place of strong personalities, not an impersonal machine",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-courant-lax-memoir-2003"
+      ],
+      "source_locator": "Peter Lax, Göttingen reminiscences",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006000-human-03",
+      "anchor": "The Göttingen community Courant helped organize did not emerge untouched from the",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-courant-lax-memoir-2003"
+      ],
+      "source_locator": "Peter Lax memoir, wartime and Courant household",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006000-human-04",
+      "anchor": "Peter Lax, a later colleague and student of Courant's institutional tradition, remembered",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-courant-lax-memoir-2003"
+      ],
+      "source_locator": "Peter Lax, Courant’s teaching and temperament",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006000-human-05",
+      "anchor": "This was a personal catastrophe as well as an institutional dismissal. Courant",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-courant-hans-oral"
+      ],
+      "source_locator": "Hans Courant, family oral history",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006000-human-06",
+      "anchor": "People who encountered Courant in New York remembered that he took the",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-courant-lax-memoir-2003"
+      ],
+      "source_locator": "Lax, mentorship and institute culture",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006000-human-07",
+      "anchor": "Courant's legacy therefore includes a style of scientific sociability. To him, the",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-courant-lax-memoir-2003"
+      ],
+      "source_locator": "Lax, portrait of Courant’s character",
+      "audit_status": "source_cross_checked"
+    }
+  ]
 }

@@ -62,7 +62,76 @@
     {
       "source_id": "history-fischer-dmv-context",
       "reason": "General institutional context of Nazi mathematical expulsions, not an individual claim."
+    },
+    {
+      "source_id": "history-fischer-ndb-biography",
+      "reason": "Source for documented biographical scenes in the revised portrait."
+    },
+    {
+      "source_id": "history-fischer-mactutor-biography",
+      "reason": "Source for documented biographical scenes in the revised portrait."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "007000-human-01",
+      "anchor": "His family background deserves a little more than a line in a",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-fischer-ndb-biography"
+      ],
+      "source_locator": "NDB Fischer genealogy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "007000-human-02",
+      "anchor": "This was a mobile early career. Fischer studied in Vienna under Franz",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-fischer-ndb-biography"
+      ],
+      "source_locator": "NDB Fischer educational and appointment chronology",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "007000-human-03",
+      "anchor": "In 1907, while Fischer was working in Brünn, Riesz was teaching in",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-fischer-mactutor-biography"
+      ],
+      "source_locator": "MacTutor Fischer 1907 chronology",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "007000-human-04",
+      "anchor": "Emmy Noether's relationship with Fischer brings another side of his working character",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-fischer-mactutor-biography"
+      ],
+      "source_locator": "Weyl quoted in MacTutor Fischer biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "007000-human-05",
+      "anchor": "The war and marriage also make the dates of his publications less",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-fischer-ndb-biography"
+      ],
+      "source_locator": "NDB marriage and WWI service record",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "007000-human-06",
+      "anchor": "There is also a difference between Fischer's visible public record and what",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-fischer-mactutor-biography"
+      ],
+      "source_locator": "MacTutor Fischer chronology",
+      "audit_status": "source_cross_checked"
+    }
+  ]
 }

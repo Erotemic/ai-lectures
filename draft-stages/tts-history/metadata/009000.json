@@ -74,7 +74,76 @@
     {
       "source_id": "history-riesz-2014-biography",
       "reason": "Academic history of Frigyes Riesz and functional analysis."
+    },
+    {
+      "source_id": "history-riesz-mactutor-wartime",
+      "reason": "Source for documented biographical scenes in the revised portrait."
+    },
+    {
+      "source_id": "history-riesz-lorch-recollections",
+      "reason": "Source for documented biographical scenes in the revised portrait."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "009000-human-01",
+      "anchor": "The early career helps explain an aspect of Riesz that students later",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-riesz-mactutor-wartime"
+      ],
+      "source_locator": "MacTutor Riesz early career",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "009000-human-03",
+      "anchor": "The Szeged environment had a personality of its own. Edgar Lorch, an",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-riesz-lorch-recollections"
+      ],
+      "source_locator": "Lorch 1934 recollections",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "009000-human-04",
+      "anchor": "Other recollections complicate the portrait. Riesz liked the measured social world of",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-riesz-lorch-recollections"
+      ],
+      "source_locator": "Vincze retrospective account",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "009000-human-05",
+      "anchor": "A story Lorch attributed to Tibor Radó makes the point vividly. Radó",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-riesz-lorch-recollections"
+      ],
+      "source_locator": "Lorch and Radó recollected manuscript",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "009000-human-06",
+      "anchor": "The lecture room was not immune to politics. In 1936 a vacant",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-riesz-mactutor-wartime"
+      ],
+      "source_locator": "MacTutor 1936 Budapest selection",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "009000-human-07",
+      "anchor": "The wartime record is more painful than that earlier disappointment. Riesz had",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-riesz-mactutor-wartime"
+      ],
+      "source_locator": "MacTutor wartime survival account",
+      "audit_status": "source_cross_checked"
+    }
+  ]
 }
