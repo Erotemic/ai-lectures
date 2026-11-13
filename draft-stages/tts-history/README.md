@@ -25,3 +25,8 @@ The human-portrait revisions of **Grace Hopper** (`033000`), **Marie Curie** (`0
 ## Human portrait and narration continuity revisions (13 November 2026)
 
 Four existing lectures were revised without changing their identifiers or mathematical companions: Pythagoras (`040000`), Hypatia (`042000`), Carl Runge (`031000`), and Martin Wilhelm Kutta (`032000`). Pythagoras and Hypatia now develop the documented community and student relationships while distinguishing contemporary testimony from later legends. Runge includes his bilingual childhood, family, physical habits, and wartime experience; Kutta includes early orphanhood, intellectual interests, and a contemporary's recollection of his relative solitude. Kutta's previously reversed teaching/death chronology has also been repaired. Historical claims remain in individual non-spoken metadata. The spoken narratives retain complete mathematical examples.
+
+
+## Human-portrait and continuity revisions (13 November 2026)
+
+Camille Jordan (002000), Lord Rayleigh (003000), Walther Ritz (004000), and Hermann Weyl (005000) now develop documented personal circumstances alongside their mathematical problems. The revisions integrate family and collaborators, work environments, intellectual disagreements, illness or displacement, and the human consequences of historical events without changing the technical companions.

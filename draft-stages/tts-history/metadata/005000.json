@@ -42,7 +42,100 @@
     {
       "source_id": "history-weyl-equidistribution-wikipedia",
       "reason": "Background on the separate 1916 uniform distribution theorem."
+    },
+    {
+      "source_id": "history-weyl-nas-memoir",
+      "reason": "Biographical evidence for 005000 historical-portrait revisions."
+    },
+    {
+      "source_id": "history-weyl-noether-funeral",
+      "reason": "Biographical evidence for 005000 historical-portrait revisions."
+    },
+    {
+      "source_id": "history-weyl-ias-archive",
+      "reason": "Biographical evidence for 005000 historical-portrait revisions."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "005000-h01",
+      "anchor": "Weyl described taking Hilbert's great report on algebraic number theory home for a summer",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-weyl-nas-memoir"
+      ],
+      "source_locator": "National Academy of Sciences, Hermann Weyl memoir",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "005000-h02",
+      "anchor": "In 1913 he married Helene Joseph, known as Hella",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-weyl-ias-life"
+      ],
+      "source_locator": "Institute for Advanced Study, Hermann Weyl: Life",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "005000-h03",
+      "anchor": "Their two sons were Joachim and Michael",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-weyl-ias-life"
+      ],
+      "source_locator": "Institute for Advanced Study, Hermann Weyl: Life",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "005000-h04",
+      "anchor": "His wife Hella was Jewish",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-weyl-ias-life"
+      ],
+      "source_locator": "Institute for Advanced Study, Hermann Weyl: Life",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "005000-h05",
+      "anchor": "His negotiations with the Institute for Advanced Study involved repeated acceptances and withdrawals",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-weyl-ias-life"
+      ],
+      "source_locator": "Institute for Advanced Study, Hermann Weyl: Life",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "005000-h06",
+      "anchor": "When she died unexpectedly in 1935, Weyl spoke at her funeral",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-weyl-noether-funeral"
+      ],
+      "source_locator": "Hermann Weyl, funeral address for Emmy Noether",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "005000-h07",
+      "anchor": "Letters in the Institute's archive show that family contact continued alongside mathematical collaboration",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-weyl-ias-archive"
+      ],
+      "source_locator": "IAS finding aid, Hermann Weyl papers",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "005000-h08",
+      "anchor": "Hella died in 1948",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-weyl-ias-life"
+      ],
+      "source_locator": "Institute for Advanced Study, Hermann Weyl: Life",
+      "audit_status": "source_cross_checked"
+    }
+  ]
 }

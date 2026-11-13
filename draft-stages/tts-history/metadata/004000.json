@@ -62,7 +62,82 @@
     {
       "source_id": "history-ritz-thermo-time",
       "reason": "Philosophical and physical background for the electromagnetic arrow of time."
+    },
+    {
+      "source_id": "history-ritz-hls",
+      "reason": "Biographical evidence for 004000 historical-portrait revisions."
+    },
+    {
+      "source_id": "history-ritz-dsb",
+      "reason": "Biographical evidence for 004000 historical-portrait revisions."
+    },
+    {
+      "source_id": "history-ritz-carlen-letters",
+      "reason": "Biographical evidence for 004000 historical-portrait revisions."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "004000-h01",
+      "anchor": "His father Raphael Ritz was a landscape and genre painter",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-ritz-hls",
+        "history-ritz-dsb"
+      ],
+      "source_locator": "Historical Dictionary of Switzerland; Dictionary of Scientific Biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "004000-h02",
+      "anchor": "Among his fellow students was Albert Einstein",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-ritz-dsb"
+      ],
+      "source_locator": "Dictionary of Scientific Biography, Walter Ritz",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "004000-h03",
+      "anchor": "While climbing in the Alps with friends in 1897",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-ritz-dsb"
+      ],
+      "source_locator": "Dictionary of Scientific Biography, Walter Ritz, Alpine incident",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "004000-h04",
+      "anchor": "Between 1904 and 1907 he spent long periods seeking treatment for tuberculosis",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-ritz-hls"
+      ],
+      "source_locator": "Historical Dictionary of Switzerland, Walter Ritz",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "004000-h05",
+      "anchor": "Surviving letters to Carl Runge",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-ritz-dsb",
+        "history-ritz-carlen-letters"
+      ],
+      "source_locator": "Dictionary of Scientific Biography; Carlen letters",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "004000-h06",
+      "anchor": "Runge later spoke at his funeral",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-ritz-dsb"
+      ],
+      "source_locator": "Dictionary of Scientific Biography, Walter Ritz",
+      "audit_status": "source_cross_checked"
+    }
+  ]
 }

@@ -70,7 +70,72 @@
     {
       "source_id": "history-rayleigh-convection",
       "reason": "Distinguishes convective buoyancy from the surface-tension physics relevant to some Bénard experiments."
+    },
+    {
+      "source_id": "history-rayleigh-nora-cambridge",
+      "reason": "Biographical evidence for 003000 historical-portrait revisions."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "003000-h01",
+      "anchor": "In 1871 he married Evelyn Balfour",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-rayleigh-nora-cambridge"
+      ],
+      "source_locator": "University of Cambridge, Nora Sidgwick at the Cavendish Laboratory",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "003000-h02",
+      "anchor": "In 1872 a severe episode of rheumatic fever",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-rayleigh-nora-cambridge"
+      ],
+      "source_locator": "University of Cambridge, Nora Sidgwick at the Cavendish Laboratory",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "003000-h03",
+      "anchor": "Evelyn's sister Eleanor, known as Nora Balfour",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-rayleigh-nora-cambridge"
+      ],
+      "source_locator": "University of Cambridge, Nora Sidgwick at the Cavendish Laboratory",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "003000-h04",
+      "anchor": "Rayleigh spent only five years as Cavendish professor",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-rayleigh-ri"
+      ],
+      "source_locator": "Royal Institution, Lord Rayleigh biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "003000-h05",
+      "anchor": "Rayleigh's 1904 Nobel Prize recognized the discovery of argon",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-rayleigh-nobel"
+      ],
+      "source_locator": "Nobel prize record, 1904",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "003000-h06",
+      "anchor": "including as an adviser to Trinity House",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-rayleigh-ri"
+      ],
+      "source_locator": "Royal Institution, Lord Rayleigh biography",
+      "audit_status": "source_cross_checked"
+    }
+  ]
 }

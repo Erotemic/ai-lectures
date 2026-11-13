@@ -58,7 +58,62 @@
     {
       "source_id": "history-jordan-person",
       "reason": "Overview and further pointers for the mathematician and similarly named concepts."
+    },
+    {
+      "source_id": "history-jordan-lebesgue-memorial",
+      "reason": "Biographical evidence for 002000 historical-portrait revisions."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "002000-h01",
+      "anchor": "Jordan was born in Lyon in 1838, into a family in which public service, engineering, and the arts were all familiar occupations",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-jordan-bio"
+      ],
+      "source_locator": "MacTutor, Camille Jordan biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "002000-h02",
+      "anchor": "In 1862 he married Marie-Isabelle Munet",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-jordan-bio"
+      ],
+      "source_locator": "MacTutor, Camille Jordan biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "002000-h03",
+      "anchor": "Their household eventually included eight children",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-jordan-bio"
+      ],
+      "source_locator": "MacTutor, Camille Jordan biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "002000-h04",
+      "anchor": "Georges Humbert had been Jordan's student",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-jordan-lebesgue-memorial"
+      ],
+      "source_locator": "Henri Lebesgue, Camille Jordan memorial",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "002000-h05",
+      "anchor": "Three of Jordan's six sons died during World War I",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-jordan-bio"
+      ],
+      "source_locator": "MacTutor, Camille Jordan biography",
+      "audit_status": "source_cross_checked"
+    }
+  ]
 }
