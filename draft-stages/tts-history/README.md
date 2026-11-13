@@ -11,3 +11,7 @@ These entries follow Galois (`037000`) and Gödel (`038000`) without altering an
 
 
 Portraits `041000` (Joseph Fourier) and `042000` (Hypatia of Alexandria) extend the History track with the mathematics of heat and trigonometric decomposition, and late-antique Alexandrian mathematics, source transmission, and philosophy. Both contain standalone narration and display-only mathematical companions.
+
+## Human portraits
+
+Historical narrations integrate mathematical contributions with a source-grounded picture of each subject as a person: character, working habits, relationships, political and institutional circumstances, and the consequences of their choices. The November 2026 revisions to Isaac Newton (`035000`) and Joseph Fourier (`041000`) provide examples. The evergreen policy is in `LECTURE_STYLE_RULES.md`.
