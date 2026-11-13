@@ -6,14 +6,14 @@ The History track is a growing collection of long-form, standalone, evidence-gro
 | --- | --- | --- | --- |
 | 1 | Grace Hopper | Completed in this overlay | `033000` |
 | 2 | Ada Lovelace | Completed in this overlay | `034000` |
-| 3 | Isaac Newton | Next batch | — |
-| 4 | Marie Curie | Next batch | — |
-| 5 | Évariste Galois | Planned | — |
-| 6 | Kurt Gödel | Planned | — |
-| 7 | Gottfried Wilhelm Leibniz | Planned | — |
-| 8 | Pythagoras | Planned | — |
-| 9 | Joseph Fourier | Planned | — |
-| 10 | Hypatia of Alexandria | Planned | — |
+| 3 | Isaac Newton | Completed | `035000` |
+| 4 | Marie Curie | Completed | `036000` |
+| 5 | Évariste Galois | Completed in this overlay | `037000` |
+| 6 | Kurt Gödel | Completed in this overlay | `038000` |
+| 7 | Gottfried Wilhelm Leibniz | Completed | `039000` |
+| 8 | Pythagoras | Completed | `040000` |
+| 9 | Joseph Fourier | Next batch | — |
+| 10 | Hypatia of Alexandria | Next batch | — |
 | 11 | Henri Lebesgue | Planned | — |
 | 12 | Geoffrey Hinton | Planned | — |
 | 13 | Terence Tao | Planned | — |

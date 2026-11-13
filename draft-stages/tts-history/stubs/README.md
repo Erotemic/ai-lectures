@@ -1,5 +1,3 @@
 # Archived History sketches
 
-No sketches are currently archived. All 34 subjects in the History track have substantive standalone lectures.
-
-This directory remains available for new subjects that do not yet have adequate research and narration.
+The original set of 28 sketch candidates has been expanded into substantive historical portraits, and the `stubs/` manifest is empty. The History track now has 40 completed lectures, including the latest Leibniz and Pythagoras portraits (`039000` and `040000`). New requested subjects are documented in the ordered expansion backlog until written and checked.

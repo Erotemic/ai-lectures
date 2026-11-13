@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "lecture_id": "040000",
+  "transcript": "040000-pythagoras.md",
+  "related_resources": [
+    {
+      "source_id": "history-pythagoras-sep",
+      "reason": "Earliest evidence, historical subject and late Pythagoras mythology."
+    },
+    {
+      "source_id": "history-pythagoreanism-sep",
+      "reason": "Historical differences among Pythagorean generations and schools."
+    },
+    {
+      "source_id": "history-pythagoras-mactutor",
+      "reason": "Biographical overview with stated uncertainty and Croton context."
+    },
+    {
+      "source_id": "history-pythagoras-euclid-i47",
+      "reason": "Greek proof and geometric context of Pythagorean theorem."
+    },
+    {
+      "source_id": "history-pythagoras-euclid-i48",
+      "reason": "Euclid’s converse of the right triangle theorem."
+    },
+    {
+      "source_id": "history-pythagoras-babylon-nyu",
+      "reason": "Archaeological evidence for much earlier right-triangle calculations."
+    },
+    {
+      "source_id": "history-pythagoras-babylon-maa",
+      "reason": "Sexagesimal approximation to square root of two."
+    },
+    {
+      "source_id": "history-pythagoras-music",
+      "reason": "Mathematical tuning, intervals and Pythagorean comma."
+    },
+    {
+      "source_id": "history-pythagoras-women",
+      "reason": "Early evidence and uncertain later traditions about Pythagorean women."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "040000-h01",
+      "anchor": "Pythagoras probably lived from around five hundred seventy to four hundred ninety",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-sep"
+      ],
+      "source_locator": "Pythagoras, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h02",
+      "anchor": "He was associated with Samos",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-sep",
+        "history-pythagoras-mactutor"
+      ],
+      "source_locator": "Pythagoras, Stanford Encyclopedia of Philosophy; Pythagoras of Samos, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h03",
+      "anchor": "Pythagoras left no surviving writings",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-sep"
+      ],
+      "source_locator": "Pythagoras, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h04",
+      "anchor": "The fullest ancient lives, by Porphyry and Iamblichus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-sep"
+      ],
+      "source_locator": "Pythagoras, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h05",
+      "anchor": "Pythagoras appears as a religious and ethical teacher",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-sep"
+      ],
+      "source_locator": "Pythagoras, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h06",
+      "anchor": "a soul survives death and may inhabit another body",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-sep"
+      ],
+      "source_locator": "Pythagoras, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h07",
+      "anchor": "Later traditions told of Pythagoras discovering musical ratios",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-sep"
+      ],
+      "source_locator": "Pythagoras, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h08",
+      "anchor": "a perfect fourth to four to three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-music"
+      ],
+      "source_locator": "John Baez, The Mathematics of Tuning Systems",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h09",
+      "anchor": "This tiny discrepancy is called the Pythagorean comma",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-music"
+      ],
+      "source_locator": "John Baez, The Mathematics of Tuning Systems",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h10",
+      "anchor": "Euclid's Elements, compiled in the third century before the common era",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-euclid-i47"
+      ],
+      "source_locator": "Euclid, Elements, Book I, Proposition 47",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h11",
+      "anchor": "Proposition Forty-Seven",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-euclid-i47"
+      ],
+      "source_locator": "Euclid, Elements, Book I, Proposition 47",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h12",
+      "anchor": "Old Babylonian tablets, created in the second millennium before the common era",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-babylon-nyu"
+      ],
+      "source_locator": "NYU Institute for the Study of the Ancient World, YBC 7289",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h13",
+      "anchor": "The tablet known as YBC seven-two-eight-nine",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-babylon-nyu",
+        "history-pythagoras-babylon-maa"
+      ],
+      "source_locator": "NYU Institute for the Study of the Ancient World, YBC 7289; MAA: The Best Known Old Babylonian Tablet?",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h14",
+      "anchor": "one unit, twenty-four sixtieths",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-babylon-maa"
+      ],
+      "source_locator": "MAA: The Best Known Old Babylonian Tablet?",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h15",
+      "anchor": "The converse needs its own proof",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-euclid-i48"
+      ],
+      "source_locator": "Euclid, Elements, Book I, Proposition 48",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h16",
+      "anchor": "A famous later legend claims that Hippasus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-sep"
+      ],
+      "source_locator": "Pythagoras, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h17",
+      "anchor": "Aristotle discusses thinkers he calls the so-called Pythagoreans",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoreanism-sep"
+      ],
+      "source_locator": "Pythagoreanism, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h18",
+      "anchor": "One figure worth distinguishing is Philolaus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoreanism-sep"
+      ],
+      "source_locator": "Pythagoreanism, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h19",
+      "anchor": "Another important successor is Archytas of Tarentum",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoreanism-sep"
+      ],
+      "source_locator": "Pythagoreanism, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h20",
+      "anchor": "The followers of Pythagoras were also entangled in the politics of Greek city-states",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-sep"
+      ],
+      "source_locator": "Pythagoras, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h21",
+      "anchor": "The name Theano is especially prominent",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-women"
+      ],
+      "source_locator": "Stanford Encyclopedia, Pythagoreanism: Pythagorean Women",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h22",
+      "anchor": "Early testimony nevertheless supports women's participation",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-women"
+      ],
+      "source_locator": "Stanford Encyclopedia, Pythagoreanism: Pythagorean Women",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h23",
+      "anchor": "Stories about avoiding beans",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-sep"
+      ],
+      "source_locator": "Pythagoras, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h24",
+      "anchor": "Xenophanes seems to mock the doctrine of transmigration",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-sep"
+      ],
+      "source_locator": "Pythagoras, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h25",
+      "anchor": "Heraclitus sharply criticizes Pythagoras's claims to learning",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-sep"
+      ],
+      "source_locator": "Pythagoras, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h26",
+      "anchor": "Some of the most colorful travel stories say that Pythagoras studied in Egypt",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-sep"
+      ],
+      "source_locator": "Pythagoras, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h27",
+      "anchor": "The reception of Pythagoras changed dramatically in later antiquity",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoreanism-sep"
+      ],
+      "source_locator": "Pythagoreanism, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h28",
+      "anchor": "Some texts were written under the names of earlier Pythagoreans",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoreanism-sep"
+      ],
+      "source_locator": "Pythagoreanism, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "040000-h29",
+      "anchor": "Euclid's proof became part of the educational canon",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pythagoras-euclid-i47"
+      ],
+      "source_locator": "Euclid, Elements, Book I, Proposition 47",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

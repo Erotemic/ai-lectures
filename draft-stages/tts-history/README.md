@@ -1,30 +1,10 @@
 # History · People and ideas
 
-The playable History track contains **fifteen researched long-form biographies**:
-Camille Jordan, Lord Rayleigh, Walther Ritz, Hermann Weyl, Richard Courant,
-Ernst Fischer, David Hilbert, Frigyes Riesz, John von Neumann, Robert Schatten,
-Tosio Kato, Chandler Davis, and William Kahan.
+The History track contains **40 substantive, standalone historical portraits**, including the original 28 and twelve additional subjects. All narration is self-contained for a reader with the background indicated in each lecture. Historical claims have linked research sources in `metadata/sources.json`; mathematical appendices after the spoken markers preserve exact formulas without burdening narration.
 
-The newly expanded **Robert Schatten** lecture (`011000`) has 5,736 spoken words
-(about 39.6 minutes at 145 words per minute). It develops Schatten's
-Banach-school training and emigration, his work with Murray, Dunford, and
-von Neumann, crossnorms on Banach-space tensor products, the injective / Hilbert /
-projective norm comparison, trace-class and Hilbert–Schmidt ideals, norm duality,
-and the later spectral-subspace applications.
+The newest additions are:
 
-The display-only companion records exact operator formulas, examples, and
-historical sources, with specific priority distinctions. The speech does not
-require listening to the neighboring recordings in sequence. Background in
-matrices, singular values, norms and convergent numerical series is assumed.
+- **Gottfried Wilhelm Leibniz (`039000`)** — Paris and Huygens, the differential and integral calculi, the Newton priority dispute, numerical notation, binary arithmetic, the stepped reckoner, symbolic logic, and broader philosophical and institutional life. **4,813 spoken words**, about **33.2 minutes** at 145 WPM.
+- **Pythagoras (`040000`)** — Samos and Croton, religious-philosophical community, music and proportion, the right-triangle theorem, integer triples, irrationality, numerical cultures before Pythagoras, and later Pythagorean traditions. The lecture distinguishes the historical teacher from mathematics attributed to him centuries later. **4,811 spoken words**, about **33.2 minutes** at 145 WPM.
 
-Estimated listening lengths range roughly **27–41 minutes** at 145 spoken
-words per minute. Actual TTS duration depends on voice and settings; audio
-is generated on demand.
-
-The remaining **15 short sketches** are in `stubs/` with original IDs and
-metadata, excluded from the audio catalog until researched and expanded.
-History lectures may depend on mathematical prerequisites but must not refer
-to earlier or later recordings as required context.
-
-
-The track now also includes **Isaac Newton** (`035000`) and **Marie Curie** (`036000`). These additions broaden the collection beyond the operator-theory spine into mechanics, calculus, optics, radioactivity, and scientific measurement.
+These entries follow Galois (`037000`) and Gödel (`038000`) without altering any previously indexed narration. Future expansion subjects and IDs are recorded in `docs/history-portrait-expansion-backlog-2026-11-12.md`. Audio is generated on demand; no binary media are tracked in this overlay.

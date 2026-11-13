@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "lecture_id": "039000",
+  "transcript": "039000-leibniz.md",
+  "related_resources": [
+    {
+      "source_id": "history-leibniz-mactutor",
+      "reason": "Personal chronology and early education, court appointments, mathematical career."
+    },
+    {
+      "source_id": "history-leibniz-sep",
+      "reason": "Philosophy, epistemology, logical ambitions, Paris period and correspondence."
+    },
+    {
+      "source_id": "history-leibniz-first-calculus",
+      "reason": "Original October 1684 differential-calculus publication."
+    },
+    {
+      "source_id": "history-leibniz-integral-calculus",
+      "reason": "Original 1686 integral-calculus publication."
+    },
+    {
+      "source_id": "history-leibniz-manuscripts",
+      "reason": "1675 notation and manuscript chronology."
+    },
+    {
+      "source_id": "history-leibniz-priority",
+      "reason": "Chronology and contested Newton–Leibniz calculus priority."
+    },
+    {
+      "source_id": "history-leibniz-step-reckoner",
+      "reason": "Mechanical calculator and stepped drum."
+    },
+    {
+      "source_id": "history-leibniz-binary-primary",
+      "reason": "Primary article on binary arithmetic from 1703."
+    },
+    {
+      "source_id": "history-leibniz-binary-history",
+      "reason": "Earlier binary scholarship and limits of sole-invention claims."
+    },
+    {
+      "source_id": "history-leibniz-oxford-life",
+      "reason": "Mining, court work and Hanover life."
+    },
+    {
+      "source_id": "history-leibniz-continuity",
+      "reason": "Infinitesimals, continuity and historical mathematical method."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "039000-h01",
+      "anchor": "Leibniz was born in Leipzig in sixteen forty-six",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor",
+        "history-leibniz-sep"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics; Gottfried Wilhelm Leibniz, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h02",
+      "anchor": "His father, Friedrich, taught moral philosophy at the university",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h03",
+      "anchor": "In sixteen sixty-six he published a dissertation on the art of combinations",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor",
+        "history-leibniz-sep"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics; Gottfried Wilhelm Leibniz, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h04",
+      "anchor": "He obtained a doctorate in law at Altdorf in sixteen sixty-seven",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h05",
+      "anchor": "He entered court service, first through connections with Johann Christian von Boineburg",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-sep"
+      ],
+      "source_locator": "Gottfried Wilhelm Leibniz, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h06",
+      "anchor": "The decisive journey was to Paris in sixteen seventy-two",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-sep"
+      ],
+      "source_locator": "Gottfried Wilhelm Leibniz, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h07",
+      "anchor": "He met Christiaan Huygens",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor",
+        "history-leibniz-sep"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics; Gottfried Wilhelm Leibniz, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h08",
+      "anchor": "Leibniz himself did not define differentiation by modern epsilon-and-delta limits",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-continuity"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Continuity and Infinitesimals",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h09",
+      "anchor": "In October sixteen eighty-four Leibniz published a short paper",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-first-calculus"
+      ],
+      "source_locator": "Mathematical Association of America: Leibniz differential calculus paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h10",
+      "anchor": "Leibniz chose an elongated letter S",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-manuscripts",
+        "history-leibniz-integral-calculus"
+      ],
+      "source_locator": "Mathematical Association of America: Leibniz papers on calculus; Mathematical Association of America: Leibniz integral calculus paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h11",
+      "anchor": "appeared publicly in his sixteen eighty-six work on integral calculus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-integral-calculus"
+      ],
+      "source_locator": "Mathematical Association of America: Leibniz integral calculus paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h12",
+      "anchor": "The fundamental theorem is not the achievement of one isolated author",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-integral-calculus"
+      ],
+      "source_locator": "Mathematical Association of America: Leibniz integral calculus paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h13",
+      "anchor": "Jakob and Johann Bernoulli used the new calculus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h14",
+      "anchor": "The catenary was another famous challenge",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h15",
+      "anchor": "Isaac Newton had developed methods of fluxions earlier than Leibniz's published papers",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-priority"
+      ],
+      "source_locator": "Notices of the AMS: History of Newton–Leibniz calculus priority",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h16",
+      "anchor": "The Royal Society's inquiry was compromised by Newton's influence",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-priority"
+      ],
+      "source_locator": "Notices of the AMS: History of Newton–Leibniz calculus priority",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h17",
+      "anchor": "Leibniz's work on physics also reveals his independent mathematical taste",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h18",
+      "anchor": "he worked on a mechanical calculator",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-step-reckoner"
+      ],
+      "source_locator": "Computer History Museum: Leibniz stepped reckoner",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h19",
+      "anchor": "Its most distinctive feature was the stepped drum",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-step-reckoner"
+      ],
+      "source_locator": "Computer History Museum: Leibniz stepped reckoner",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h20",
+      "anchor": "published an explanation in seventeen oh three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-binary-primary",
+        "history-leibniz-binary-history"
+      ],
+      "source_locator": "Leibniz, Explication de l’arithmétique binaire (1703); A brief history of positional binary numeration in Europe",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h21",
+      "anchor": "He linked binary notation to an interpretation of the sixty-four hexagrams",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-binary-primary",
+        "history-leibniz-binary-maa"
+      ],
+      "source_locator": "Leibniz, Explication de l’arithmétique binaire (1703); MAA: Russian Multiplication, Microprocessors, and Leibniz",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h22",
+      "anchor": "binary representations had appeared in other mathematical contexts",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-binary-history"
+      ],
+      "source_locator": "A brief history of positional binary numeration in Europe",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h23",
+      "anchor": "Leibniz imagined a characteristica universalis",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-sep"
+      ],
+      "source_locator": "Gottfried Wilhelm Leibniz, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h24",
+      "anchor": "a principle of sufficient reason",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-sep"
+      ],
+      "source_locator": "Gottfried Wilhelm Leibniz, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h25",
+      "anchor": "He tried to improve drainage in the Harz mining region",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-oxford-life"
+      ],
+      "source_locator": "Oxford Handbook of Leibniz: Life and Works",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h26",
+      "anchor": "He helped found the scientific academy in Berlin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h27",
+      "anchor": "Among the correspondents and patrons who helped keep his intellectual projects alive were Sophie of Hanover",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-oxford-life"
+      ],
+      "source_locator": "Oxford Handbook of Leibniz: Life and Works",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h28",
+      "anchor": "commonly called the Gregory–Leibniz series",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039000-h29",
+      "anchor": "He died there in November seventeen sixteen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}
