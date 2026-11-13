@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "34 researched long-form historical portraits, with Grace Hopper and Ada Lovelace extending the collection into the mathematical and institutional origins of programming; no archived sketches remain.",
+  "summary": "Fifteen researched long-form biographies spanning operator theory, variational methods, Davis–Kahan history, and broader mathematical history; shorter sketches remain archived in stubs/.",
   "assumed_background": [
     "elementary vectors and eigenvalues; advanced concepts are introduced locally"
   ],
@@ -10,24 +10,9 @@
     "variational",
     "operators",
     "davis-kahan",
-    "statistics",
-    "number-theory",
-    "surface-geometry",
-    "numerical-integration",
-    "computing"
+    "broader-history"
   ],
   "lectures": [
-    {
-      "id": "001000",
-      "title": "James Joseph Sylvester: How did matrices become objects that could be solved for?",
-      "person": "James Joseph Sylvester",
-      "section": "geometry",
-      "file": "001000-sylvester.md",
-      "spoken_words": 5069,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 35.0
-    },
     {
       "id": "002000",
       "title": "Camille Jordan: What survives when coordinates change?",
@@ -139,50 +124,6 @@
       "estimated_minutes_at_145_wpm": 39.6
     },
     {
-      "id": "012000",
-      "title": "Ky Fan: How can a whole list of singular values be compared at once?",
-      "person": "Ky Fan",
-      "section": "operators",
-      "file": "012000-fan.md",
-      "spoken_words": 5758,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 39.7
-    },
-    {
-      "id": "013000",
-      "title": "Béla Szőkefalvi-Nagy: How can an imperfect transformation be understood through exact geometry?",
-      "person": "Béla Szőkefalvi-Nagy",
-      "section": "operators",
-      "file": "013000-sznagy.md",
-      "spoken_words": 6224,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 42.9
-    },
-    {
-      "id": "014000",
-      "title": "Paul Halmos: What is the geometry hidden inside a pair of projections?",
-      "person": "Paul Halmos",
-      "section": "operators",
-      "file": "014000-halmos.md",
-      "spoken_words": 6310,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 43.5
-    },
-    {
-      "id": "015000",
-      "title": "Jacques Dixmier: What can two infinite-dimensional closed subspaces share?",
-      "person": "Jacques Dixmier",
-      "section": "operators",
-      "file": "015000-dixmier.md",
-      "spoken_words": 6062,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 41.8
-    },
-    {
       "id": "016000",
       "title": "Tosio Kato: How can a spectral subspace be followed while an operator changes?",
       "person": "Tosio Kato",
@@ -192,17 +133,6 @@
       "draft_status": "substantive",
       "source_g2": null,
       "estimated_minutes_at_145_wpm": 27.6
-    },
-    {
-      "id": "017000",
-      "title": "Marvin Rosenblum: How does separating two spectra allow an operator equation to be solved?",
-      "person": "Marvin Rosenblum",
-      "section": "operators",
-      "file": "017000-rosenblum.md",
-      "spoken_words": 5852,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 40.4
     },
     {
       "id": "018000",
@@ -227,169 +157,26 @@
       "estimated_minutes_at_145_wpm": 27.9
     },
     {
-      "id": "020000",
-      "title": "Per-Åke Wedin: How do singular subspaces change when a rectangular matrix changes?",
-      "person": "Per-Åke Wedin",
-      "section": "computation",
-      "file": "020000-wedin.md",
-      "spoken_words": 5658,
+      "id": "035000",
+      "title": "Isaac Newton: How can the same mathematics explain the sky and the falling apple?",
+      "person": "Isaac Newton",
+      "section": "broader-history",
+      "file": "035000-newton.md",
+      "spoken_words": 3726,
       "draft_status": "substantive",
       "source_g2": null,
-      "estimated_minutes_at_145_wpm": 39.0
+      "estimated_minutes_at_145_wpm": 25.7
     },
     {
-      "id": "021000",
-      "title": "Åke Björck: How can principal angles be computed reliably from matrices?",
-      "person": "Åke Björck",
-      "section": "computation",
-      "file": "021000-bjorck.md",
-      "spoken_words": 6434,
+      "id": "036000",
+      "title": "Marie Curie: How can an invisible phenomenon be measured, isolated, and named?",
+      "person": "Marie Curie",
+      "section": "broader-history",
+      "file": "036000-curie.md",
+      "spoken_words": 3709,
       "draft_status": "substantive",
       "source_g2": null,
-      "estimated_minutes_at_145_wpm": 44.4
-    },
-    {
-      "id": "022000",
-      "title": "Gene H. Golub: Why does a good algorithm need to respect subspace geometry?",
-      "person": "Gene H. Golub",
-      "section": "computation",
-      "file": "022000-golub.md",
-      "spoken_words": 6101,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 42.1
-    },
-    {
-      "id": "023000",
-      "title": "G. W. Stewart: How should matrix perturbation bounds guide actual numerical work?",
-      "person": "G. W. Stewart",
-      "section": "computation",
-      "file": "023000-stewart.md",
-      "spoken_words": 5909,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 40.8
-    },
-    {
-      "id": "024000",
-      "title": "Karl Pearson: Why is a principal component an optimization problem?",
-      "person": "Karl Pearson",
-      "section": "statistics",
-      "file": "024000-pearson.md",
-      "spoken_words": 5949,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 41.0
-    },
-    {
-      "id": "025000",
-      "title": "Harold Hotelling: How did subspace geometry become statistical inference?",
-      "person": "Harold Hotelling",
-      "section": "statistics",
-      "file": "025000-hotelling.md",
-      "spoken_words": 6306,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 43.5
-    },
-    {
-      "id": "026000",
-      "title": "Yi Yu: Can a statistical eigenspace bound use a population gap alone?",
-      "person": "Yi Yu",
-      "section": "statistics",
-      "file": "026000-yu.md",
-      "spoken_words": 4913,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 33.9
-    },
-    {
-      "id": "027000",
-      "title": "Tengyao Wang: Why do rectangular data require a singular-subspace theorem?",
-      "person": "Tengyao Wang",
-      "section": "statistics",
-      "file": "027000-wang.md",
-      "spoken_words": 5146,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 35.5
-    },
-    {
-      "id": "028000",
-      "title": "Richard J. Samworth: How can statistical methods remain trustworthy when data are scarce or complicated?",
-      "person": "Richard J. Samworth",
-      "section": "statistics",
-      "file": "028000-samworth.md",
-      "spoken_words": 4870,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 33.6
-    },
-    {
-      "id": "029000",
-      "title": "Sophie Germain: How can a mathematician prove something beyond the reach of her world?",
-      "person": "Sophie Germain",
-      "section": "number-theory",
-      "file": "029000-germain.md",
-      "spoken_words": 4598,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 31.7
-    },
-    {
-      "id": "030000",
-      "title": "Maryam Mirzakhani: How can we count the paths through every possible surface?",
-      "person": "Maryam Mirzakhani",
-      "section": "surface-geometry",
-      "file": "030000-mirzakhani.md",
-      "spoken_words": 4782,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 33.0
-    },
-    {
-      "id": "031000",
-      "title": "Carl Runge: How can a differential equation become a reliable calculation?",
-      "person": "Carl Runge",
-      "section": "numerical-integration",
-      "file": "031000-runge.md",
-      "spoken_words": 4910,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 33.9
-    },
-    {
-      "id": "032000",
-      "title": "Martin Wilhelm Kutta: How can four slope measurements predict a changing world?",
-      "person": "Martin Wilhelm Kutta",
-      "section": "numerical-integration",
-      "file": "032000-kutta.md",
-      "spoken_words": 4958,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 34.2
-    },
-    {
-      "id": "033000",
-      "title": "Grace Hopper: How did mathematics become a language a machine could understand?",
-      "person": "Grace Hopper",
-      "section": "computing",
-      "file": "033000-hopper.md",
-      "spoken_words": 5143,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 35.5
-    },
-    {
-      "id": "034000",
-      "title": "Ada Lovelace: What does it mean to give a machine an idea?",
-      "person": "Ada Lovelace",
-      "section": "computing",
-      "file": "034000-lovelace.md",
-      "spoken_words": 4805,
-      "draft_status": "substantive",
-      "source_g2": null,
-      "estimated_minutes_at_145_wpm": 33.1
+      "estimated_minutes_at_145_wpm": 25.6
     }
   ],
   "editorial_policy": "Expose only researched substantive portraits. Draft biographies live in stubs/ until expanded, checked and promoted."

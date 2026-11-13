@@ -137,6 +137,7 @@ def test_history_track_manifest_references_and_speech_extraction():
     assert len(list(HISTORY_DIRECTORY.glob('[0-9]'*6 + '-*.md'))) == len(rows)
     catalog = json.loads((HISTORY_DIRECTORY / 'metadata' / 'sources.json').read_text())['sources']
     archive = json.loads((HISTORY_DIRECTORY / 'stubs' / 'manifest.json').read_text())
+    assert len(rows) + len(archive['lectures']) >= 28
     assert not {r['id'] for r in rows} & {r['id'] for r in archive['lectures']}
     assert all((HISTORY_DIRECTORY / 'stubs' / r['file']).is_file() for r in archive['lectures'])
     assert len(catalog) >= 84

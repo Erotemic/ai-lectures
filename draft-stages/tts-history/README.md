@@ -1,12 +1,30 @@
 # History · People and ideas
 
-The History track contains **34 researched, substantive, standalone portraits** with audio-first narration, checked worked mathematics, display-only companions, and claim-level reference metadata. Stable identifiers are preserved.
+The playable History track contains **fifteen researched long-form biographies**:
+Camille Jordan, Lord Rayleigh, Walther Ritz, Hermann Weyl, Richard Courant,
+Ernst Fischer, David Hilbert, Frigyes Riesz, John von Neumann, Robert Schatten,
+Tosio Kato, Chandler Davis, and William Kahan.
 
-The original 28 portraits concern matrix, spectral, numerical and statistical history. Added subjects include Sophie Germain (`029000`), Maryam Mirzakhani (`030000`), Carl Runge (`031000`), Martin Wilhelm Kutta (`032000`), **Grace Hopper (`033000`)**, and **Ada Lovelace (`034000`)**.
+The newly expanded **Robert Schatten** lecture (`011000`) has 5,736 spoken words
+(about 39.6 minutes at 145 words per minute). It develops Schatten's
+Banach-school training and emigration, his work with Murray, Dunford, and
+von Neumann, crossnorms on Banach-space tensor products, the injective / Hilbert /
+projective norm comparison, trace-class and Hilbert–Schmidt ideals, norm duality,
+and the later spectral-subspace applications.
 
-- **Grace Hopper** — From polynomial irreducibility and Newton–Hopper polygons to Mark I programming, A-0 automatic program assembly, FLOW-MATIC, COBOL and Navy standardization. The lecture distinguishes the A-0 system from a modern optimizing compiler and credits COBOL's collaborative development.
-- **Ada Lovelace** — Finite differences, the planned Analytical Engine, the 1843 translation and Notes, Bernoulli-number computation and symbolic representation. The lecture reconstructs the arithmetic and treats the documented Babbage collaboration and debated priority with care.
+The display-only companion records exact operator formulas, examples, and
+historical sources, with specific priority distinctions. The speech does not
+require listening to the neighboring recordings in sequence. Background in
+matrices, singular values, norms and convergent numerical series is assumed.
 
-Spoken markers delimit TTS content; sources and full mathematical notation after the markers are display-only. The archived-sketch directory currently has no entries. Audio is not bundled.
+Estimated listening lengths range roughly **27–41 minutes** at 145 spoken
+words per minute. Actual TTS duration depends on voice and settings; audio
+is generated on demand.
 
-Further candidate portraits and pair order are recorded in [`docs/history-portrait-expansion-backlog-2026-11-12.md`](../../docs/history-portrait-expansion-backlog-2026-11-12.md). The next requested pair is Isaac Newton and Marie Curie.
+The remaining **15 short sketches** are in `stubs/` with original IDs and
+metadata, excluded from the audio catalog until researched and expanded.
+History lectures may depend on mathematical prerequisites but must not refer
+to earlier or later recordings as required context.
+
+
+The track now also includes **Isaac Newton** (`035000`) and **Marie Curie** (`036000`). These additions broaden the collection beyond the operator-theory spine into mechanics, calculus, optics, radioactivity, and scientific measurement.
