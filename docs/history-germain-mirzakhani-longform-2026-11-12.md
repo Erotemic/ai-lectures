@@ -1,0 +1,9 @@
+# Two new historical portraits: Sophie Germain and Maryam Mirzakhani
+
+- **Baseline:** `ai-lectures-source-2026-11-12T102426-5-f613739f847b.tar.gz` plus cumulative history portrait overlays through `028000`.
+- **Catalog:** Adds `029000-germain.md` and `030000-mirzakhani.md`, preserving the original 28 identifiers. The track now lists 30 researched lectures; no drafts are archived.
+- **Germain:** Biographical development; Le Blanc correspondence; Fermat's equation and prime-exponent reduction; fifth powers modulo 11; auxiliary prime conditions and first-case theorem; larger research plan recovered from manuscripts; Chladni figures and the Academy's 1816 prize; mechanics versus modern idealized plate PDEs.
+- **Mirzakhani:** Tehran and Olympiad experience; Harvard thesis and Stanford career; primitive torus routes as a counting analogy; hyperbolic area; pants decompositions, lengths and twists; Weil–Petersson volume polynomial and recursive integration; Witten–Kontsevich connection; simple closed geodesic asymptotics; `SL(2,R)` actions and Eskin–Mirzakhani–Mohammadi orbit-closure theorems.
+- **Attribution:** 20 Germain historical claim anchors and 23 Mirzakhani claim anchors. Sources are in the shared history source ledger; the mathematics companion is excluded from audio.
+- **Scope:** Text only: two narration/companion files, catalog and source metadata, archive description, one editorial doc, and an existing test inventory check revised to permit catalog growth. No binaries or audio.
+- **Review:** The formula for `V_{1,1}` varies by orbifold-volume normalization; narration avoids a numerical constant. The elastic-plate equations are explicitly identified as later explanatory models. Germain's theorem is presented as a first-case result and not a complete proof of Fermat's Last Theorem.

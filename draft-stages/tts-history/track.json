@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "28 researched long-form portraits in geometry, variational analysis, operator theory, numerical computation and statistics; no archived sketches remain.",
+  "summary": "30 researched long-form portraits: the original 28 in matrix and spectral history, plus Sophie Germain in number theory and elasticity and Maryam Mirzakhani in hyperbolic geometry and dynamics; no archived sketches remain.",
   "assumed_background": [
     "elementary vectors and eigenvalues; advanced concepts are introduced locally"
   ],
@@ -10,7 +10,9 @@
     "variational",
     "operators",
     "davis-kahan",
-    "statistics"
+    "statistics",
+    "number-theory",
+    "surface-geometry"
   ],
   "lectures": [
     {
@@ -320,6 +322,28 @@
       "draft_status": "substantive",
       "source_g2": null,
       "estimated_minutes_at_145_wpm": 33.6
+    },
+    {
+      "id": "029000",
+      "title": "Sophie Germain: How can a mathematician prove something beyond the reach of her world?",
+      "person": "Sophie Germain",
+      "section": "number-theory",
+      "file": "029000-germain.md",
+      "spoken_words": 4598,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 31.7
+    },
+    {
+      "id": "030000",
+      "title": "Maryam Mirzakhani: How can we count the paths through every possible surface?",
+      "person": "Maryam Mirzakhani",
+      "section": "surface-geometry",
+      "file": "030000-mirzakhani.md",
+      "spoken_words": 4782,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 33.0
     }
   ],
   "editorial_policy": "Expose only researched substantive portraits. Draft biographies live in stubs/ until expanded, checked and promoted."
