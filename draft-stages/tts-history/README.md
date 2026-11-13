@@ -38,3 +38,6 @@ human-history and narrative-continuity revision on 13 November 2026. The
 mathematical companions remain unchanged. New passages draw on contemporary
 recollections, scholarly biographies, university records and oral histories,
 with historical claim anchors in their individual metadata.
+
+
+In the November 2026 operator-history human-portrait revision, the lectures on John von Neumann, Robert Schatten, Ky Fan, and Bela Szokefalvi-Nagy gain documented biographical scenes and smoother links between the historical circumstances and the existing mathematical explanations. The display-only mathematical companions are unchanged.

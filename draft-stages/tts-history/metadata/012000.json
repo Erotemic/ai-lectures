@@ -66,7 +66,46 @@
     {
       "source_id": "history-fan-maa-photo",
       "reason": "Historical portrait and contextual institutional record; not an asset inclusion."
+    },
+    {
+      "source_id": "history-fan-memorial-2010",
+      "reason": "Documented biographical detail or contemporary recollection woven into the portrait."
+    },
+    {
+      "source_id": "history-fan-yuan-human",
+      "reason": "Documented biographical detail or contemporary recollection woven into the portrait."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "012000-human-01",
+      "anchor": "The decision becomes more tangible when we look at what Fan did with his student years.",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-fan-memorial-2010"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-human-02",
+      "anchor": "Students and colleagues later remembered a demanding teacher.",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-fan-yuan-human"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-human-03",
+      "anchor": "He also gave material support to mathematical institutions in China.",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-fan-yuan-human"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    }
+  ]
 }

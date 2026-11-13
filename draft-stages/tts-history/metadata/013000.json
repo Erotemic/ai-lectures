@@ -70,6 +70,14 @@
     {
       "source_id": "history-sznagy-photo-mta",
       "reason": "Archived portrait with photographer identification; future slide asset must be rights-checked."
+    },
+    {
+      "source_id": "history-sznagy-hungarian-memorial",
+      "reason": "Documented biographical detail or contemporary recollection woven into the portrait."
+    },
+    {
+      "source_id": "history-sznagy-szeged-institute",
+      "reason": "Documented biographical detail or contemporary recollection woven into the portrait."
     }
   ],
   "historical_claims": [
@@ -163,6 +171,37 @@
       ],
       "source_locator": "Career honors in university and municipal accounts",
       "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "013000-human-01",
+      "anchor": "His father's career gives a more specific reason for the family's move.",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-sznagy-hungarian-memorial",
+        "history-sznagy-szeged-institute"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-human-02",
+      "anchor": "The university's own history describes him as severe and disciplined",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-sznagy-szeged-institute"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-human-03",
+      "anchor": "Beginning in nineteen forty-seven he spent decades helping edit Acta",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-sznagy-szeged-institute"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
     }
   ]
 }

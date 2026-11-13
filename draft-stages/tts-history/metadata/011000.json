@@ -78,7 +78,52 @@
     {
       "source_id": "history-schatten-vonneumann-1937",
       "reason": "Bibliographic check on von Neumann’s 1937 unitarily invariant norm theorem."
+    },
+    {
+      "source_id": "history-schatten-cheney-human",
+      "reason": "Documented biographical detail or contemporary recollection woven into the portrait."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "011000-human-01",
+      "anchor": "During American military training, Schatten suffered a broken back",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-schatten-cheney-human"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-human-02",
+      "anchor": "The former students' recollections are specific enough to let us hear the room.",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-schatten-cheney-human"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-human-03",
+      "anchor": "The long corridor and its numbered hooks are especially fitting",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-schatten-cheney-human"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-human-04",
+      "anchor": "Friends also remembered an exacting man with remarkably ordinary frustrations.",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-schatten-cheney-human"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    }
+  ]
 }

@@ -74,7 +74,71 @@
     {
       "source_id": "history-vonneumann-ias-computer",
       "reason": "IAS documentary history of the Electronic Computer Project."
+    },
+    {
+      "source_id": "history-vonneumann-ias-human",
+      "reason": "Documented biographical detail or contemporary recollection woven into the portrait."
+    },
+    {
+      "source_id": "history-vonneumann-mactutor-human",
+      "reason": "Documented biographical detail or contemporary recollection woven into the portrait."
+    },
+    {
+      "source_id": "history-vonneumann-loc-klara",
+      "reason": "Documented biographical detail or contemporary recollection woven into the portrait."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "010000-human-01",
+      "anchor": "The recollections of his colleagues make the childhood stories more believable",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-vonneumann-ias-human"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-human-02",
+      "anchor": "Princeton brought a change in setting as well as subject.",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-vonneumann-mactutor-human",
+        "history-vonneumann-ias-human"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-human-03",
+      "anchor": "Games were an appropriate subject for a researcher who enjoyed company as much as formal calculation.",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-vonneumann-ias-human"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-human-04",
+      "anchor": "One person's contribution is especially easy to lose behind the phrase von Neumann computer.",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-vonneumann-loc-klara"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-human-05",
+      "anchor": "Friends and colleagues could disagree sharply with his postwar strategic judgments.",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-vonneumann-ias-human"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    }
+  ]
 }
