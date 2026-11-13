@@ -19,3 +19,5 @@ Historical narrations integrate mathematical contributions with a source-grounde
 
 
 The November 2026 human-portrait revision expanded Germain (`029000`), Mirzakhani (`030000`), Lovelace (`034000`), and Galois (`037000`) with documentary evidence about family, correspondence, education, working practices and personal circumstances. Their existing mathematical derivations remain in place.
+
+The human-portrait revisions of **Grace Hopper** (`033000`), **Marie Curie** (`036000`), **Kurt Gödel** (`038000`), and **Gottfried Wilhelm Leibniz** (`039000`) integrate documented personal scenes with their mathematical work and connect chapters through chronological and explanatory bridges. Curie’s narration was reorganized to place previously appended biographical material in the relevant part of her life.

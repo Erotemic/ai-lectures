@@ -22,7 +22,187 @@
     {
       "source_id": "history-curie-war",
       "reason": "Historical account of Curie's wartime radiography work."
+    },
+    {
+      "source_id": "history-curie-aip-paris",
+      "reason": "Firsthand recollections of Pierre, courtship, 1895 marriage and bicycle honeymoon."
+    },
+    {
+      "source_id": "history-curie-aip-family",
+      "reason": "Irene’s birth, family childcare, Pierre’s father, and daily laboratory work."
+    },
+    {
+      "source_id": "history-curie-aip-legend",
+      "reason": "Curie’s autobiographical self-presentation and historical evaluation of the solitary-shed legend."
+    },
+    {
+      "source_id": "history-curie-aip-grief",
+      "reason": "Death of Pierre, Sorbonne chair, pension refusal and personal adjustment."
+    },
+    {
+      "source_id": "history-curie-columbia-meloney",
+      "reason": "Meloney fundraiser, family travel, correspondence, and American visit."
+    },
+    {
+      "source_id": "history-curie-nist-radium-1921",
+      "reason": "The 1921 gram-of-radium gift, custody and calibration, and non-patenting decision."
+    },
+    {
+      "source_id": "history-curie-aip-health",
+      "reason": "Cataracts, surgery, and Curie’s changing approach to radiation risks."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "036000-h01",
+      "anchor": "Maria would work as a governess to help finance Bronya",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-bio"
+      ],
+      "source_locator": "MacTutor History of Mathematics, Marie Curie biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "036000-h02",
+      "anchor": "She often lived alone with too little money for food or heating",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-aip-paris"
+      ],
+      "source_locator": "American Institute of Physics, Marie Curie: A Student in Paris",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "036000-h03",
+      "anchor": "She met Pierre Curie in 1894",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-aip-paris"
+      ],
+      "source_locator": "American Institute of Physics, Marie Curie: A Student in Paris",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "036000-h04",
+      "anchor": "They married in 1895 with a simple civil ceremony",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-aip-paris"
+      ],
+      "source_locator": "American Institute of Physics, Marie Curie: A Student in Paris",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "036000-h05",
+      "anchor": "A wedding gift bought them bicycles",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-aip-paris"
+      ],
+      "source_locator": "American Institute of Physics, Marie Curie: A Student in Paris",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "036000-h06",
+      "anchor": "Their first daughter, Irène, was born in 1897",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-aip-family"
+      ],
+      "source_locator": "American Institute of Physics, Marie Curie: A Student in Paris, work and family",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "036000-h07",
+      "anchor": "Pierre's father, a physician, became an important caregiver",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-aip-family"
+      ],
+      "source_locator": "American Institute of Physics, Marie Curie: A Student in Paris, work and family",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "036000-h08",
+      "anchor": "The way their work was received shows why the partnership deserves careful attention",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-aip-legend"
+      ],
+      "source_locator": "American Institute of Physics, Marie Curie and Her Legend",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "036000-h09",
+      "anchor": "in April 1906, Pierre was killed by a horse-drawn wagon",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-aip-grief"
+      ],
+      "source_locator": "American Institute of Physics, Marie Curie: Tragedy and Adjustment (1906–1910)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "036000-h10",
+      "anchor": "She refused the government's offer of a pension",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-aip-grief"
+      ],
+      "source_locator": "American Institute of Physics, Marie Curie: Tragedy and Adjustment (1906–1910)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "036000-h11",
+      "anchor": "she was urged by some to stay away from the prize ceremony",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-nobel-chemistry",
+        "history-curie-aip-legend"
+      ],
+      "source_locator": "Nobel Prize, Marie Curie – Facts (1911 Chemistry)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "036000-h12",
+      "anchor": "Marie Mattingly Meloney, visited and became her friend",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-columbia-meloney"
+      ],
+      "source_locator": "Columbia Libraries, Marie Curie and Marie Mattingly Meloney (1921)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "036000-h13",
+      "anchor": "a gram of radium",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-nist-radium-1921"
+      ],
+      "source_locator": "NIST, 1921: Marie Curie Visits the U.S.",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "036000-h14",
+      "anchor": "her eyesight had been damaged by cataracts",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-aip-health"
+      ],
+      "source_locator": "American Institute of Physics, Marie Curie: The Radium Institute, physical decline",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "036000-h15",
+      "anchor": "she sometimes wrote very large lecture notes",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-curie-aip-health"
+      ],
+      "source_locator": "American Institute of Physics, Marie Curie: The Radium Institute, physical decline",
+      "audit_status": "source_cross_checked"
+    }
+  ]
 }

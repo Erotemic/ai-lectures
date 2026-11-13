@@ -1,0 +1,448 @@
+{
+  "schema_version": 1,
+  "lecture_id": "038000",
+  "transcript": "038000-godel.md",
+  "related_resources": [
+    {
+      "source_id": "history-godel-mactutor",
+      "reason": "Life from Brno and Vienna to Princeton, completeness and incompleteness, set theory, and Einstein."
+    },
+    {
+      "source_id": "history-godel-ias-scholar",
+      "reason": "IAS dates, career appointments, honors, constructibility, and relative consistency."
+    },
+    {
+      "source_id": "history-godel-ias-life",
+      "reason": "Family and Vienna years, marriage, 1940 emigration, Adele, and later life."
+    },
+    {
+      "source_id": "history-godel-sep",
+      "reason": "Technical work and philosophical interests, completeness and incompleteness, constructible universe, relativity, Dialectica interpretation."
+    },
+    {
+      "source_id": "history-godel-incompleteness",
+      "reason": "Technical hypotheses, proofs, omega-consistency, Rosser, and distinctions of completeness and provability."
+    },
+    {
+      "source_id": "history-godel-self-reference",
+      "reason": "The self-reference/diagonalization construction and connection with provability."
+    },
+    {
+      "source_id": "history-godel-set-theory",
+      "reason": "Set-theoretic axioms, continuum hypothesis, constructibility and independence."
+    },
+    {
+      "source_id": "history-godel-university",
+      "reason": "Student history, habilitation, and Vienna historical context."
+    },
+    {
+      "source_id": "history-godel-1930-1931",
+      "reason": "Bibliographic pointers to 1930 completeness and 1931 incompleteness papers."
+    },
+    {
+      "source_id": "history-godel-ias-human",
+      "reason": "Childhood nickname, health concerns, operetta, teaching, Adele, emigration and later personal struggles."
+    },
+    {
+      "source_id": "history-godel-ias-einstein",
+      "reason": "Einstein friendship, shared walks, appointment chronology and naturalization recollection."
+    },
+    {
+      "source_id": "history-godel-morgenstern-citizenship",
+      "reason": "A 1971 recollection of Gödel’s citizenship preparation and interview, not a formal constitutional proof."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "038000-h01",
+      "anchor": "Kurt Friedrich Gödel was born in nineteen oh six in Brno",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-ias-life"
+      ],
+      "source_locator": "Institute for Advanced Study: Kurt Gödel—Life, Work and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h02",
+      "anchor": "He went to Vienna to study in the nineteen twenties",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-university"
+      ],
+      "source_locator": "University of Vienna: Kurt Gödel profile",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h03",
+      "anchor": "Gödel came into contact with the Vienna Circle",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-sep"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Kurt Gödel",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h04",
+      "anchor": "Gödel answered this question in work completed as his doctoral dissertation",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-1930-1931"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Gödel—Selected Works",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h05",
+      "anchor": "His completeness theorem showed that",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-sep"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Kurt Gödel",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h06",
+      "anchor": "A helpful consequence of first-order completeness is the compactness theorem",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-sep"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Kurt Gödel",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h07",
+      "anchor": "Hilbert and collaborators sought clear formal systems",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-incompleteness"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h08",
+      "anchor": "arithmetization of syntax, usually called Gödel numbering",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-incompleteness"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h09",
+      "anchor": "Self-reference is the next move",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-self-reference"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Self-Reference and Paradox",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h10",
+      "anchor": "a diagonalization method",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-incompleteness"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h11",
+      "anchor": "Gödel's original argument required a stronger assumption called omega-consistency",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-incompleteness"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h12",
+      "anchor": "J. Barkley Rosser strengthened the first incompleteness result",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-incompleteness"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h13",
+      "anchor": "the second incompleteness theorem",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-incompleteness"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h14",
+      "anchor": "Gödel announced the incompleteness result at the Königsberg conference",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-incompleteness"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h15",
+      "anchor": "John von Neumann, who was engaged with Hilbert's program",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-incompleteness"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h16",
+      "anchor": "Turing's later model of computation",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-sep"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Kurt Gödel",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h17",
+      "anchor": "He and his wife Adele eventually left Europe",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-ias-life"
+      ],
+      "source_locator": "Institute for Advanced Study: Kurt Gödel—Life, Work and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h18",
+      "anchor": "a close friendship with Albert Einstein",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-ias-scholar"
+      ],
+      "source_locator": "Institute for Advanced Study: Kurt Gödel scholar record",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h19",
+      "anchor": "One of Gödel's next major achievements concerned the continuum hypothesis",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-sep"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Kurt Gödel",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h20",
+      "anchor": "Gödel introduced the constructible universe",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-set-theory"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Set Theory",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h21",
+      "anchor": "Paul Cohen introduced forcing",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-set-theory"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Set Theory",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h22",
+      "anchor": "In nineteen forty-nine he found solutions of Einstein's equations",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-sep"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Kurt Gödel",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h23",
+      "anchor": "Adele, whom he married in nineteen thirty-eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-ias-life"
+      ],
+      "source_locator": "Institute for Advanced Study: Kurt Gödel—Life, Work and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h24",
+      "anchor": "He died in Princeton in January nineteen seventy-eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-ias-life"
+      ],
+      "source_locator": "Institute for Advanced Study: Kurt Gödel—Life, Work and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h25",
+      "anchor": "his work on the Dialectica interpretation",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-sep"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Kurt Gödel",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h26",
+      "anchor": "a formal theory T whose axioms can be effectively enumerated",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-incompleteness"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h27",
+      "anchor": "The set of all true statements about standard natural numbers",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-incompleteness"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h28",
+      "anchor": "first-order semantic consequence and proof",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-incompleteness"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h29",
+      "anchor": "The boy had a family nickname: Mister Why",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-godel-ias-human"
+      ],
+      "source_locator": "Institute for Advanced Study, Kurt Gödel: Life, Work, and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h30",
+      "anchor": "he worried that his heart had been damaged",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-godel-ias-human"
+      ],
+      "source_locator": "Institute for Advanced Study, Kurt Gödel: Life, Work, and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h31",
+      "anchor": "Gödel also studied with Hans Hahn",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-godel-ias-human"
+      ],
+      "source_locator": "Institute for Advanced Study, Kurt Gödel: Life, Work, and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h32",
+      "anchor": "In 1927 he met Adele",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-godel-ias-human"
+      ],
+      "source_locator": "Institute for Advanced Study, Kurt Gödel: Life, Work, and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h33",
+      "anchor": "His parents objected to the relationship",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-godel-ias-human"
+      ],
+      "source_locator": "Institute for Advanced Study, Kurt Gödel: Life, Work, and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h34",
+      "anchor": "Schlick, who had hosted the Vienna Circle's discussions, was murdered in 1936",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-godel-ias-human"
+      ],
+      "source_locator": "Institute for Advanced Study, Kurt Gödel: Life, Work, and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h35",
+      "anchor": "in 1940 they made a difficult journey out of Europe",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-godel-ias-human"
+      ],
+      "source_locator": "Institute for Advanced Study, Kurt Gödel: Life, Work, and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h36",
+      "anchor": "Gödel and Albert Einstein walked together to and from the Institute",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-godel-ias-einstein"
+      ],
+      "source_locator": "Institute for Advanced Study, Kurt Gödel and the Institute",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h37",
+      "anchor": "Oskar Morgenstern later recalled taking Gödel to the naturalization interview with Einstein",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-godel-ias-einstein",
+        "history-godel-morgenstern-citizenship"
+      ],
+      "source_locator": "Institute for Advanced Study, Kurt Gödel and the Institute",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h38",
+      "anchor": "Georg Kreisel, who visited the Gödels, recalled a more relaxed Kurt in Adele's company",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-godel-ias-human"
+      ],
+      "source_locator": "Institute for Advanced Study, Kurt Gödel: Life, Work, and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038000-h39",
+      "anchor": "His death involved extreme malnutrition",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-godel-ias-human"
+      ],
+      "source_locator": "Institute for Advanced Study, Kurt Gödel: Life, Work, and Legacy",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

@@ -18,6 +18,27 @@ The mathematical contribution still needs a complete, listenable explanation. We
 
 **Portrait review:** After reading the spoken narration by itself, ask whether you could describe two or three concrete traits or experiences of the subject that are supported by evidence, whether their relationships and historical circumstances feel real, and whether the important mathematics remains intelligible. If only a theorem list remains, revise the biography; if anecdotes displace the mathematics, restore the argument.
 
+## Continuity in historical portraits (13 November 2026)
+
+The biography and the mathematical explanation should follow one unfolding story.
+Use the subject's current problem, relationship, working environment, or historical
+circumstance to carry the listener into a mathematical construction; after the
+calculation, return to the consequence it had for that person and their work.
+A scene about a family member, laboratory or political dispute should earn its
+place through what happens before and after it. Do not paste a separate block
+of personality facts into a lecture, or use a phrase such as “on another note”
+to disguise an abrupt change of subject.
+
+Check the timeline after revisions. New scenes should appear where they occurred,
+not after the conclusion as a late appendix. Read across every section boundary,
+including the final sentence before the heading and the first sentence after
+it. When moving from a proof to a remembered conversation, first establish the
+question they share. When returning from the human scene to mathematics, name
+the unresolved problem or decision that now calls for analysis. Vary the
+transition pattern so the prose sounds like one sustained account rather than
+a repeated formula. A person can be contradictory; the chronology should still
+be coherent. Keep jokes, conflicts and intimate details anchored to sources.
+
 ## Concept-first teaching and realistic listening pace (11 November 2026)
 
 The governing aim is **to develop mathematical understanding at the speed at

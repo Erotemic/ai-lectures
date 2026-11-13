@@ -38,6 +38,26 @@
     {
       "source_id": "history-hopper-nanosecond",
       "reason": "Museum artifact, original bundles of ~30-cm wire used by Hopper for teaching propagation-time scales."
+    },
+    {
+      "source_id": "history-hopper-nyhistory-human",
+      "reason": "Childhood clocks, family, education, and career with differences in retrospective anecdote details."
+    },
+    {
+      "source_id": "history-hopper-chm-oral-1980",
+      "reason": "First-person accounts of childhood surveying, programmer/manager communication, A-0, Howard Aiken, and teaching; see pp. 6–12 and later sections."
+    },
+    {
+      "source_id": "history-hopper-smithsonian-pressure",
+      "reason": "Pearl Harbor recollection, moth logbook, professional choices and naval return."
+    },
+    {
+      "source_id": "history-hopper-usni-profile-1992",
+      "reason": "Aiken's first arctangent interpolation request and remembered family and naval context."
+    },
+    {
+      "source_id": "history-hopper-counterclockwise",
+      "reason": "Documents Hopper’s criticism of convention and her counter-clockwise wall clock, while distinguishing wording variants."
     }
   ],
   "historical_claims": [
@@ -320,6 +340,127 @@
         "history-hopper-navy"
       ],
       "source_locator": "Hopper, Grace Murray — Naval History and Heritage Command",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h28",
+      "anchor": "took apart one alarm clock",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-nyhistory-human"
+      ],
+      "source_locator": "New York Historical, Grace Brewster Murray Hopper: Women and the American Story",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h29",
+      "anchor": "Her grandfather, a civil engineer, sometimes took her surveying",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-chm-oral-1980"
+      ],
+      "source_locator": "Computer History Museum, Oral History of Captain Grace Hopper (1980 interview by Angeline Pantages)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h30",
+      "anchor": "She wanted to become an engineer",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-chm-oral-1980"
+      ],
+      "source_locator": "Computer History Museum, Oral History of Captain Grace Hopper (1980 interview by Angeline Pantages)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h31",
+      "anchor": "she could describe the same technical idea in one vocabulary for programmers",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-chm-oral-1980"
+      ],
+      "source_locator": "Computer History Museum, Oral History of Captain Grace Hopper (1980 interview by Angeline Pantages)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h32",
+      "anchor": "When she remembered Pearl Harbor",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-smithsonian-pressure"
+      ],
+      "source_locator": "Smithsonian National Museum of American History, Grace under pressure (2021)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h33",
+      "anchor": "arctangent interpolation by the next Thursday",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-usni-profile-1992"
+      ],
+      "source_locator": "U.S. Naval Institute, In Profile—Grace Murray Hopper (1992)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h34",
+      "anchor": "Hopper drew cartoons about kinds of computer bugs",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-smithsonian-pressure"
+      ],
+      "source_locator": "Smithsonian National Museum of American History, Grace under pressure (2021)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h35",
+      "anchor": "she chose to stay with the new machines",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-smithsonian-pressure",
+        "history-hopper-chm-oral-1980"
+      ],
+      "source_locator": "Smithsonian National Museum of American History, Grace under pressure (2021)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h36",
+      "anchor": "In her oral history she recalled the need to speak technically to programmers",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-chm-oral-1980"
+      ],
+      "source_locator": "Computer History Museum, Oral History of Captain Grace Hopper (1980 interview by Angeline Pantages)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h37",
+      "anchor": "a clock running backward on the wall",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-counterclockwise"
+      ],
+      "source_locator": "Quote Investigator, The Most Dangerous Phrase (2014; updated)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h38",
+      "anchor": "students approached new technology with fewer inherited prohibitions",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-chm-oral-1980"
+      ],
+      "source_locator": "Computer History Museum, Oral History of Captain Grace Hopper (1980 interview by Angeline Pantages)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "033000-h39",
+      "anchor": "The Navy had once refused her transfer into the regular service",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hopper-smithsonian-pressure"
+      ],
+      "source_locator": "Smithsonian National Museum of American History, Grace under pressure (2021)",
       "audit_status": "source_cross_checked"
     }
   ]
