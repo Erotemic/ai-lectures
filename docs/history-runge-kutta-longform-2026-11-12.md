@@ -1,0 +1,9 @@
+# Two historical portraits: Carl Runge and Martin Wilhelm Kutta
+
+- **Baseline:** The repository snapshot with the two preceding Germain and Mirzakhani lectures applied (`029000` and `030000`), after all original 28 portraits.
+- **Catalog:** Two new substantive portraits `031000` and `032000`; all earlier stable identifiers preserved. The collection has 32 substantive historical portraits and no archived stubs.
+- **Runge:** Early algebraic root methods and complex approximation; laboratory spectroscopy with Kayser and Paschen; two-stage numerical ODE schemes in the 1895 paper, worked exponential and stability cases; the 1901 equispaced interpolation counterexample and the distinction between approximation existence and interpolant convergence; Göttingen applied mathematics and graphical computation.
+- **Kutta:** Childhood and Munich academic training; 1900 doctoral thesis, 1901 publication, and four-stage fourth-order method; order conditions, nonlinear trial states, stability region counterexample; aerodynamic lift, circulation, Kutta condition, and conformal mappings; later research on photogrammetry, glaciers, calorimetry, historical mathematics, and engineering teaching.
+- **Source chronology:** Distinguish Runge 1895, Heun 1900, Kutta 1901, and much later Butcher order theory. Kutta's Stuttgart start follows Neue Deutsche Biographie (1912) rather than the differing MacTutor date (1911).
+- **Checks:** `metadata/031000.json` and `032000.json` hold historical-claim anchors; all source IDs resolve in `metadata/sources.json`. Companion equations are display-only. Check exact extraction and test suite before publishing.
+- **Scope:** Text only. Two combined narration/companion Markdown files, two metadata files, shared source ledger, catalog and README, and this editorial note. No binary images, synthesized audio, or production-tool changes.

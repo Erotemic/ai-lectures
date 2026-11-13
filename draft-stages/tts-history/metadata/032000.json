@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032000",
+  "transcript": "032000-kutta.md",
+  "related_resources": [
+    {
+      "source_id": "history-kutta-mactutor",
+      "reason": "Early life, Munich doctorate, aerodynamics, university appointments, teaching, glacier and history research."
+    },
+    {
+      "source_id": "history-kutta-deutsche",
+      "reason": "German scholarly biography; 1912 Stuttgart start, engineering, Wallis, calorimetry, glacier mapping, aerodynamics."
+    },
+    {
+      "source_id": "history-kutta-primary1901",
+      "reason": "Digitized 19-page 1901 thesis publication, Z. Math. Phys. 46:435–453."
+    },
+    {
+      "source_id": "history-kutta-primary1902",
+      "reason": "Lilienthal Museum catalog record for the 1902 article on lift."
+    },
+    {
+      "source_id": "history-kutta-papers",
+      "reason": "Published 1901 Wallis paper, 1910–11 circulation-flow papers, and 1911 balloon photogrammetry."
+    },
+    {
+      "source_id": "history-rk-butcher",
+      "reason": "Specialist centenary history of Runge (1895), Heun (1900), Kutta (1901) and later method theory."
+    },
+    {
+      "source_id": "history-rk-butcher-wanner",
+      "reason": "Review of early work and later order, stability and numerical integration theory."
+    },
+    {
+      "source_id": "history-rk-hairer-wanner",
+      "reason": "Specialist reference to the method, original papers, modern order theory and implicit schemes."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "032000-h01",
+      "anchor": "Kutta lived from eighteen sixty-seven to nineteen forty-four",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-mactutor"
+      ],
+      "source_locator": "Martin Wilhelm Kutta (1867–1944), MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h02",
+      "anchor": "His doctoral thesis, submitted in nineteen hundred and published in nineteen oh one",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-mactutor",
+        "history-kutta-primary1901"
+      ],
+      "source_locator": "Martin Wilhelm Kutta (1867–1944), MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h03",
+      "anchor": "Kutta was born on November third, eighteen sixty-seven",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-mactutor",
+        "history-kutta-deutsche"
+      ],
+      "source_locator": "Martin Wilhelm Kutta (1867–1944), MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h04",
+      "anchor": "His parents, Wilhelm Kutta and Anna Koschinsky, died",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-mactutor"
+      ],
+      "source_locator": "Martin Wilhelm Kutta (1867–1944), MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h05",
+      "anchor": "He and his older brother Karl were raised by an uncle",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-mactutor",
+        "history-kutta-deutsche"
+      ],
+      "source_locator": "Martin Wilhelm Kutta (1867–1944), MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h06",
+      "anchor": "Kutta attended the University of Breslau and later the University of Munich",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-mactutor",
+        "history-kutta-deutsche"
+      ],
+      "source_locator": "Martin Wilhelm Kutta (1867–1944), MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h07",
+      "anchor": "In Munich he assisted Walther von Dyck",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-deutsche"
+      ],
+      "source_locator": "Werner Schulz, Wilhelm Kutta, Neue Deutsche Biographie",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h08",
+      "anchor": "He spent the eighteen ninety-eight to eighteen ninety-nine academic year at Cambridge",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-mactutor"
+      ],
+      "source_locator": "Martin Wilhelm Kutta (1867–1944), MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h09",
+      "anchor": "Carl Runge's eighteen ninety-five work",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-runge-original1895",
+        "history-rk-butcher"
+      ],
+      "source_locator": "C. Runge, Ueber die numerische Auflösung von Differentialgleichungen (1895)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h10",
+      "anchor": "Karl Heun's work in nineteen hundred",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-rk-butcher"
+      ],
+      "source_locator": "J. C. Butcher, A history of Runge–Kutta methods (1996)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h11",
+      "anchor": "His doctoral thesis, submitted in nineteen hundred and published in nineteen oh one",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-primary1901",
+        "history-kutta-mactutor"
+      ],
+      "source_locator": "W. Kutta, Beitrag zur näherungsweisen Integration totaler Differentialgleichungen (1901)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h12",
+      "anchor": "The modern framework is a family of algorithms",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-rk-hairer-wanner"
+      ],
+      "source_locator": "E. Hairer and G. Wanner, Runge–Kutta Methods, Explicit, Implicit (2015)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h13",
+      "anchor": "Modern order theory represents those dependencies by rooted trees",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-rk-butcher-wanner",
+        "history-rk-hairer-wanner"
+      ],
+      "source_locator": "J. C. Butcher and G. Wanner, Runge–Kutta methods: Some historical notes (1996)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h14",
+      "anchor": "Sebastian Finsterwalder, a geodesist and mathematician working in Munich",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-mactutor"
+      ],
+      "source_locator": "Martin Wilhelm Kutta (1867–1944), MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h15",
+      "anchor": "The Kutta–Joukowski theorem relates circulation to lift",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-deutsche",
+        "history-kutta-mactutor"
+      ],
+      "source_locator": "Werner Schulz, Wilhelm Kutta, Neue Deutsche Biographie",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h16",
+      "anchor": "The phrase Kutta condition appears frequently in aerodynamics",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-mactutor",
+        "history-kutta-papers"
+      ],
+      "source_locator": "Martin Wilhelm Kutta (1867–1944), MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h17",
+      "anchor": "Kutta's work on these questions led to his nineteen oh two habilitation",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-mactutor",
+        "history-kutta-deutsche"
+      ],
+      "source_locator": "Martin Wilhelm Kutta (1867–1944), MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h18",
+      "anchor": "Nikolai Zhukovsky, frequently transliterated Joukowski",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-mactutor"
+      ],
+      "source_locator": "Martin Wilhelm Kutta (1867–1944), MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h19",
+      "anchor": "Kutta subsequently published important work on plane circulation flows",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-papers"
+      ],
+      "source_locator": "Wilhelm Kutta, works bibliography, Neue Deutsche Biographie",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h20",
+      "anchor": "He worked on heat transfer in calorimeters",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-deutsche"
+      ],
+      "source_locator": "Werner Schulz, Wilhelm Kutta, Neue Deutsche Biographie",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h21",
+      "anchor": "Some of his glacier research involved photographs taken in the eastern Alps",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-mactutor"
+      ],
+      "source_locator": "Martin Wilhelm Kutta (1867–1944), MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h22",
+      "anchor": "One of his papers examined John Wallis's seventeenth-century work",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-mactutor",
+        "history-kutta-papers"
+      ],
+      "source_locator": "Martin Wilhelm Kutta (1867–1944), MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h23",
+      "anchor": "eventually the technical university in Stuttgart, where the German biographical record places his appointment in nineteen twelve",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-deutsche"
+      ],
+      "source_locator": "Werner Schulz, Wilhelm Kutta, Neue Deutsche Biographie",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h24",
+      "anchor": "He taught there until retirement in nineteen thirty-five",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-deutsche"
+      ],
+      "source_locator": "Werner Schulz, Wilhelm Kutta, Neue Deutsche Biographie",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h25",
+      "anchor": "He died on December twenty-fifth, nineteen forty-four",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-kutta-deutsche",
+        "history-kutta-mactutor"
+      ],
+      "source_locator": "Werner Schulz, Wilhelm Kutta, Neue Deutsche Biographie",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "032000-h26",
+      "anchor": "John Butcher and other twentieth-century researchers developed systematic order theory",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-rk-butcher-wanner",
+        "history-rk-hairer-wanner"
+      ],
+      "source_locator": "J. C. Butcher and G. Wanner, Runge–Kutta methods: Some historical notes (1996)",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

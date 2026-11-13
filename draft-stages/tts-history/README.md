@@ -1,8 +1,10 @@
 # History · People and ideas
 
-The playable History track contains **30 researched, substantive, standalone historical portraits**. The first 28 portraits follow the development of geometric, operator-theoretic, numerical, and statistical methods from Sylvester through Richard J. Samworth. Two newly commissioned portraits extend the collection beyond the initial 28-subject backlog:
+The playable History track contains **32 researched, substantive, standalone historical portraits**, including the original 28 in matrix, spectral, numerical, and statistical history. Four additional portraits extend the collection beyond the original backlog:
 
-- **Sophie Germain** (`029000`), *How can a mathematician prove something beyond the reach of her world?* Explores Germain's self-directed mathematical education, correspondence with Lagrange and Gauss, her first-case theorem and broader auxiliary-prime program for Fermat's equation, the Chladni plate prize, and the relation between physical modeling and proof.
-- **Maryam Mirzakhani** (`030000`), *How can we count the paths through every possible surface?* Develops her life from Tehran to Harvard, Princeton and Stanford; her counts of simple closed geodesics; Weil–Petersson volume recursion and intersection theory; and joint dynamical rigidity work with Eskin and Mohammadi.
+- **Sophie Germain** (`029000`): number theory and the mathematics of vibrating plates.
+- **Maryam Mirzakhani** (`030000`): geodesics, moduli spaces, Weil–Petersson volumes, and dynamics.
+- **Carl Runge** (`031000`), *How can a differential equation become a reliable calculation?* Berlin training, complex approximation, Hannover experimental spectroscopy, 1895 one-step numerical integration, the 1901 interpolation counterexample, and Göttingen applied mathematics.
+- **Martin Wilhelm Kutta** (`032000`), *How can four slope measurements predict a changing world?* The 1900–1901 high-order integration research, worked four-stage Runge–Kutta methods, stability and order, lift and circulation, and aerodynamics at Munich and Stuttgart.
 
-Each portrait includes audio-first narration, worked mathematics, a display-only companion, and claim-level reference metadata. Stable IDs `001000` through `028000` remain unchanged. The archive of shorter sketches remains empty; new seeds can be retained in `stubs/` until developed. Spoken markers delimit TTS content; mathematical details and sources after the marker are display-only. Audio is not bundled.
+Each portrait includes audio-first narration, worked mathematics, a display-only companion, and claim-level reference metadata. Stable identifiers remain unchanged. The archived-sketch directory is empty; new sketches can be developed there when needed. Spoken markers delimit TTS content; sources and mathematical details after the marker are display-only. Audio is not bundled.

@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "30 researched long-form portraits: the original 28 in matrix and spectral history, plus Sophie Germain in number theory and elasticity and Maryam Mirzakhani in hyperbolic geometry and dynamics; no archived sketches remain.",
+  "summary": "32 researched long-form historical portraits, with new biographies of Carl Runge and Martin Wilhelm Kutta on numerical ODE methods, interpolation, experimental spectroscopy, and aerodynamics; no archived sketches remain.",
   "assumed_background": [
     "elementary vectors and eigenvalues; advanced concepts are introduced locally"
   ],
@@ -12,7 +12,8 @@
     "davis-kahan",
     "statistics",
     "number-theory",
-    "surface-geometry"
+    "surface-geometry",
+    "numerical-integration"
   ],
   "lectures": [
     {
@@ -344,6 +345,28 @@
       "draft_status": "substantive",
       "source_g2": null,
       "estimated_minutes_at_145_wpm": 33.0
+    },
+    {
+      "id": "031000",
+      "title": "Carl Runge: How can a differential equation become a reliable calculation?",
+      "person": "Carl Runge",
+      "section": "numerical-integration",
+      "file": "031000-runge.md",
+      "spoken_words": 4910,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 33.9
+    },
+    {
+      "id": "032000",
+      "title": "Martin Wilhelm Kutta: How can four slope measurements predict a changing world?",
+      "person": "Martin Wilhelm Kutta",
+      "section": "numerical-integration",
+      "file": "032000-kutta.md",
+      "spoken_words": 4958,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 34.2
     }
   ],
   "editorial_policy": "Expose only researched substantive portraits. Draft biographies live in stubs/ until expanded, checked and promoted."
