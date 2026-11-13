@@ -29,6 +29,8 @@ place through what happens before and after it. Do not paste a separate block
 of personality facts into a lecture, or use a phrase such as “on another note”
 to disguise an abrupt change of subject.
 
+For historical portraits with thin sources, let disagreement among witnesses and the actual practices of a community supply the human story; do not manufacture a diary-like inner life. For better-documented subjects, make relationships and habits concrete without attributing motives that testimony cannot establish.
+
 Check the timeline after revisions. New scenes should appear where they occurred,
 not after the conclusion as a late appendix. Read across every section boundary,
 including the final sentence before the heading and the first sentence after
