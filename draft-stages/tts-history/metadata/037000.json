@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "lecture_id": "037000",
+  "transcript": "037000-galois.md",
+  "related_resources": [
+    {
+      "source_id": "history-galois-mactutor",
+      "reason": "Schooling, academy submissions, politics, exile from school, imprisonment, last letter and duel."
+    },
+    {
+      "source_id": "history-galois-ems-introduction",
+      "reason": "Primary manuscript overview and chronology of 1830 finite fields, 1831 memoir, 1832 Chevalier letter, 1846 Liouville edition."
+    },
+    {
+      "source_id": "history-galois-neumann-editions",
+      "reason": "Manuscript transmission, 1831 rejection, 1846 publication, and critical editorial work."
+    },
+    {
+      "source_id": "history-galois-1846",
+      "reason": "Published collection of Galois writings and 1832 letter; originally Journal de Mathématiques Pures et Appliquées."
+    },
+    {
+      "source_id": "history-galois-groups-exposition",
+      "reason": "Radical-solvability criterion and concrete quintic examples."
+    },
+    {
+      "source_id": "history-galois-quintic-example",
+      "reason": "Checked example x^5−6x+3 with Galois group S5; Eisenstein and root-count argument."
+    },
+    {
+      "source_id": "history-galois-computational",
+      "reason": "Examples connecting factorization modulo primes with cycle types of Galois groups."
+    },
+    {
+      "source_id": "history-galois-abel",
+      "reason": "Abel and the impossibility of a general radical formula for the quintic before Galois."
+    },
+    {
+      "source_id": "history-galois-jordan",
+      "reason": "Later systematic development of permutation groups and algebraic equations."
+    },
+    {
+      "source_id": "history-galois-bio-context",
+      "reason": "Historical evidence about the subject’s life, relationships or working habits."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "037000-h01",
+      "anchor": "Évariste Galois was born in Bourg-la-Reine",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h02",
+      "anchor": "His father, Nicolas-Gabriel Galois",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h03",
+      "anchor": "In eighteen twenty-three he entered the Lycée Louis-le-Grand",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h04",
+      "anchor": "During the sixteenth century, mathematicians including del Ferro",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-groups-exposition"
+      ],
+      "source_locator": "Thomas Judson, Abstract Algebra: Galois Theory Applications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h05",
+      "anchor": "Paolo Ruffini argued that the general quintic",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-abel"
+      ],
+      "source_locator": "MacTutor: Niels Henrik Abel biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h06",
+      "anchor": "Niels Henrik Abel gave a decisive proof",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-abel"
+      ],
+      "source_locator": "MacTutor: Niels Henrik Abel biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h07",
+      "anchor": "for a quadratic with distinct roots alpha and beta",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-groups-exposition"
+      ],
+      "source_locator": "Thomas Judson, Abstract Algebra: Galois Theory Applications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h08",
+      "anchor": "For x cubed minus two, the discriminant is minus one hundred eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-groups-exposition"
+      ],
+      "source_locator": "Thomas Judson, Abstract Algebra: Galois Theory Applications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h09",
+      "anchor": "In eighteen twenty-nine he published a paper on continued fractions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h10",
+      "anchor": "his father died by suicide amid a local scandal",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h11",
+      "anchor": "Galois twice failed to gain admission",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h12",
+      "anchor": "He entered the École Normale instead",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h13",
+      "anchor": "France underwent the July Revolution of eighteen thirty",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h14",
+      "anchor": "In eighteen thirty Galois published on the theory of numbers",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-ems-introduction"
+      ],
+      "source_locator": "Peter M. Neumann, The Mathematical Writings of Évariste Galois: Introduction",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h15",
+      "anchor": "the Frobenius map in characteristic p",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-ems-introduction"
+      ],
+      "source_locator": "Peter M. Neumann, The Mathematical Writings of Évariste Galois: Introduction",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h16",
+      "anchor": "for a polynomial over a field of characteristic zero",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-groups-exposition"
+      ],
+      "source_locator": "Thomas Judson, Abstract Algebra: Galois Theory Applications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h17",
+      "anchor": "The group S three is solvable",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-groups-exposition"
+      ],
+      "source_locator": "Thomas Judson, Abstract Algebra: Galois Theory Applications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h18",
+      "anchor": "A five is a nonabelian simple group",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-groups-exposition"
+      ],
+      "source_locator": "Thomas Judson, Abstract Algebra: Galois Theory Applications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h19",
+      "anchor": "The sixty elements of A five divide into conjugacy classes",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-groups-exposition"
+      ],
+      "source_locator": "Thomas Judson, Abstract Algebra: Galois Theory Applications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h20",
+      "anchor": "Consider x to the fifth minus six x plus three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-quintic-example"
+      ],
+      "source_locator": "Michael Mertens, Galois Theory course notes, Example 5.5.16",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h21",
+      "anchor": "A five-cycle together with a transposition",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-quintic-example"
+      ],
+      "source_locator": "Michael Mertens, Galois Theory course notes, Example 5.5.16",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h22",
+      "anchor": "Camille Jordan's eighteen seventy treatise",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-jordan"
+      ],
+      "source_locator": "MacTutor: Camille Jordan biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h23",
+      "anchor": "He was arrested after a public gathering",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h24",
+      "anchor": "Siméon-Denis Poisson, who judged the arguments",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h25",
+      "anchor": "The circumstances of the duel on May thirtieth remain disputed",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h26",
+      "anchor": "On May twenty-ninth, Galois wrote a letter",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-ems-introduction"
+      ],
+      "source_locator": "Peter M. Neumann, The Mathematical Writings of Évariste Galois: Introduction",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h27",
+      "anchor": "Chevalier published the letter later in eighteen thirty-two",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-archive-review"
+      ],
+      "source_locator": "MacTutor: Peter Neumann book reviews",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h28",
+      "anchor": "Joseph Liouville eventually presented substantial manuscripts",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-neumann-editions"
+      ],
+      "source_locator": "Peter M. Neumann (2012), The editors and editions of the writings of Évariste Galois",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h29",
+      "anchor": "The fundamental theorem of Galois theory",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-groups-exposition"
+      ],
+      "source_locator": "Thomas Judson, Abstract Algebra: Galois Theory Applications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h30",
+      "anchor": "If we can factor a polynomial modulo carefully chosen primes",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-computational"
+      ],
+      "source_locator": "Keith Conrad, Galois Theory at Work",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h31",
+      "anchor": "His father, Nicolas-Gabriel Galois, served as mayor of Bourg-la-Reine",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h32",
+      "anchor": "He twice failed the competitive entrance examination for the École Polytechnique",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h33",
+      "anchor": "His father was driven into a public scandal involving forged satirical verses",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h34",
+      "anchor": "Biographical accounts preserve distressing episodes of drinking, isolation, and a suicide attempt",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-galois-bio-context"
+      ],
+      "source_locator": "MacTutor History of Mathematics: Évariste Galois, biographical detail",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h35",
+      "anchor": "Their correspondence suggests a painful and troubled relationship",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-galois-bio-context"
+      ],
+      "source_locator": "MacTutor History of Mathematics: Évariste Galois, biographical detail",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037000-h36",
+      "anchor": "His letter to Auguste Chevalier addressed a trusted friend",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-galois-mactutor",
+        "history-galois-1846"
+      ],
+      "source_locator": "MacTutor: Évariste Galois biography",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

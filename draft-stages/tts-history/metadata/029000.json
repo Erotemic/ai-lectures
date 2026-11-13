@@ -30,6 +30,14 @@
     {
       "source_id": "history-germain-overview",
       "reason": "Historical discussion of the recovered research plan and its reception."
+    },
+    {
+      "source_id": "history-germain-gauss-2012",
+      "reason": "Historical evidence about the subject’s life, relationships or working habits."
+    },
+    {
+      "source_id": "history-fourier-germain-correspondence",
+      "reason": "Historical evidence about the subject’s life, relationships or working habits."
     }
   ],
   "historical_claims": [
@@ -235,6 +243,67 @@
         "history-germain-mactutor"
       ],
       "source_locator": "Sophie Germain, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "029000-h21",
+      "anchor": "Her father, Ambroise-François Germain, was a prosperous merchant",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-germain-mactutor"
+      ],
+      "source_locator": "Sophie Germain, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "029000-h22",
+      "anchor": "The best-known account says her family tried to interrupt the late-night studying",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-germain-mactutor"
+      ],
+      "source_locator": "Sophie Germain, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "029000-h23",
+      "anchor": "When French troops occupied the region around his home in Brunswick",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-germain-mactutor",
+        "history-germain-gauss-2012"
+      ],
+      "source_locator": "Sophie Germain, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "029000-h24",
+      "anchor": "Gauss admired her command of his book, but the correspondence eventually thinned",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-germain-gauss-2012"
+      ],
+      "source_locator": "Del Centina and Fiocca, The Correspondence between Sophie Germain and Carl Friedrich Gauss (2012)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "029000-h25",
+      "anchor": "Germain entered repeated prize rounds and met criticism",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-germain-mactutor"
+      ],
+      "source_locator": "Sophie Germain, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "029000-h26",
+      "anchor": "Letters to Joseph Fourier survive",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-fourier-germain-correspondence"
+      ],
+      "source_locator": "Correspondence of Sophie Germain, including Fourier letters of May and June 1823",
       "audit_status": "source_cross_checked"
     }
   ]

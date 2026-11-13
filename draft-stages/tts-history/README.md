@@ -15,3 +15,7 @@ Portraits `041000` (Joseph Fourier) and `042000` (Hypatia of Alexandria) extend 
 ## Human portraits
 
 Historical narrations integrate mathematical contributions with a source-grounded picture of each subject as a person: character, working habits, relationships, political and institutional circumstances, and the consequences of their choices. The November 2026 revisions to Isaac Newton (`035000`) and Joseph Fourier (`041000`) provide examples. The evergreen policy is in `LECTURE_STYLE_RULES.md`.
+
+
+
+The November 2026 human-portrait revision expanded Germain (`029000`), Mirzakhani (`030000`), Lovelace (`034000`), and Galois (`037000`) with documentary evidence about family, correspondence, education, working practices and personal circumstances. Their existing mathematical derivations remain in place.

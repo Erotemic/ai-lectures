@@ -30,6 +30,18 @@
     {
       "source_id": "history-lovelace-turing",
       "reason": "Turing's 1950 article, including the named discussion of Lady Lovelace's objection."
+    },
+    {
+      "source_id": "history-lovelace-early-education-2017",
+      "reason": "Historical evidence about the subject’s life, relationships or working habits."
+    },
+    {
+      "source_id": "history-lovelace-demorgan-archive",
+      "reason": "Historical evidence about the subject’s life, relationships or working habits."
+    },
+    {
+      "source_id": "history-lovelace-demorgan-reappraisal",
+      "reason": "Historical evidence about the subject’s life, relationships or working habits."
     }
   ],
   "historical_claims": [
@@ -298,6 +310,67 @@
         "history-lovelace-maa"
       ],
       "source_locator": "Thomas J. Misa, Charles Babbage, Ada Lovelace, and the Bernoulli Numbers (2023)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h27",
+      "anchor": "As a child she experimented with boats, drawing and building devices",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-early-education-2017"
+      ],
+      "source_locator": "Hollings, Martin and Rice, The Early Mathematical Education of Ada Lovelace (2017)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h28",
+      "anchor": "Her education was neither a smooth university course",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-early-education-2017"
+      ],
+      "source_locator": "Hollings, Martin and Rice, The Early Mathematical Education of Ada Lovelace (2017)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h29",
+      "anchor": "In one letter she struggled over the meaning of differentials and ratios",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-demorgan-archive",
+        "history-lovelace-demorgan-reappraisal"
+      ],
+      "source_locator": "Clay Mathematics Institute, Index of Lovelace–De Morgan Correspondence",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h30",
+      "anchor": "Their correspondence could be enthusiastic and strained",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h31",
+      "anchor": "Illness interrupted study, and surviving biographies describe problems with gambling and debts",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-mactutor"
+      ],
+      "source_locator": "Ada Lovelace — MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "034000-h32",
+      "anchor": "Lovelace had to think about an apparatus that could not be tested by running its program",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-lovelace-primary"
+      ],
+      "source_locator": "A. A. Lovelace, Notes on the Analytical Engine (1843), transcribed",
       "audit_status": "source_cross_checked"
     }
   ]
