@@ -12,8 +12,8 @@ The History track is a growing collection of long-form, standalone, evidence-gro
 | 6 | Kurt Gödel | Completed in this overlay | `038000` |
 | 7 | Gottfried Wilhelm Leibniz | Completed | `039000` |
 | 8 | Pythagoras | Completed | `040000` |
-| 9 | Joseph Fourier | Next batch | — |
-| 10 | Hypatia of Alexandria | Next batch | — |
+| 9 | Joseph Fourier | Completed | `041000` |
+| 10 | Hypatia of Alexandria | Completed | `042000` |
 | 11 | Henri Lebesgue | Planned | — |
 | 12 | Geoffrey Hinton | Planned | — |
 | 13 | Terence Tao | Planned | — |
@@ -28,3 +28,5 @@ The History track is a growing collection of long-form, standalone, evidence-gro
 Name expansions used here: Curie → Marie Curie; 'galwah' → Évariste Galois; 'lebeque' → Henri Lebesgue; 'Geoff Hinton' → Geoffrey Hinton; 'Ramanujen' → Srinivasa Ramanujan; 'Kepplar' → Johannes Kepler; and 'Zeno' → Zeno of Elea. These are working identifications from the supplied list; if a different person was intended, update this plan rather than assuming it retroactively.
 
 Chronological ordering within the track is not required: continue allocating stable IDs in increments of 1000. Pairing follows the request list, not birth dates. Biographical coverage should use source-supported claims and distinguish later legends, disputed attributions, and primary historical evidence, especially for antiquity. This backlog belongs in documentation, not spoken narration.
+
+The next requested pair is **Henri Lebesgue (`043000`)** and **Geoffrey Hinton (`044000`)**.

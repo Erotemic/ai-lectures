@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "lecture_id": "042000",
+  "transcript": "042000-hypatia.md",
+  "related_resources": [
+    {
+      "source_id": "history-hypatia-mactutor",
+      "reason": "Theon, lost commentary titles, Synesius correspondence, dates and source uncertainties."
+    },
+    {
+      "source_id": "history-hypatia-gresham",
+      "reason": "Historical reconstruction of Hypatia teaching, mathematical writings and instrumentation."
+    },
+    {
+      "source_id": "history-hypatia-socrates",
+      "reason": "Near-contemporary Christian account of teaching, public reputation, Orestes conflict, and murder."
+    },
+    {
+      "source_id": "history-hypatia-letter15",
+      "reason": "Hydroscope request, technical specifications; no inference that Hypatia invented it."
+    },
+    {
+      "source_id": "history-hypatia-watts",
+      "reason": "Research monograph record: teacher, circle, civic influence, death, and reception."
+    },
+    {
+      "source_id": "history-hypatia-smithsonian",
+      "reason": "Birthdate uncertainty, Theon and Almagest material, mathematics and scientific instruments."
+    },
+    {
+      "source_id": "history-hypatia-watts-letters",
+      "reason": "Epistolary relations, editing of letters, hydroscope and school network."
+    },
+    {
+      "source_id": "history-hypatia-ancient-math",
+      "reason": "Technical reconstruction of mathematical context and evidence limits."
+    },
+    {
+      "source_id": "history-hypatia-coptic",
+      "reason": "Historical account of factional conflict, civic authority and murder."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "042000-h01",
+      "anchor": "Hypatia lived in Alexandria",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-mactutor"
+      ],
+      "source_locator": "Hypatia of Alexandria, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h02",
+      "anchor": "Her date of birth is uncertain",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-mactutor",
+        "history-hypatia-smithsonian"
+      ],
+      "source_locator": "Hypatia of Alexandria, MacTutor History of Mathematics; Smithsonian Learning Lab, Hypatia: Ancient Alexandria’s Great Female Scholar",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h03",
+      "anchor": "Historians agree much more securely on her death in four hundred fifteen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-socrates",
+        "history-hypatia-mactutor"
+      ],
+      "source_locator": "Socrates Scholasticus, Ecclesiastical History VII.15; Hypatia of Alexandria, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h04",
+      "anchor": "Her father, Theon of Alexandria",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-mactutor"
+      ],
+      "source_locator": "Hypatia of Alexandria, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h05",
+      "anchor": "He wrote on Ptolemy's Almagest",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-mactutor"
+      ],
+      "source_locator": "Hypatia of Alexandria, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h06",
+      "anchor": "One, Synesius of Cyrene, left letters",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-watts",
+        "history-hypatia-letter15"
+      ],
+      "source_locator": "Edward J. Watts, Hypatia: The Life and Legend of an Ancient Philosopher (2017); Synesius of Cyrene, Letter 15 to Hypatia, Livius translation",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h07",
+      "anchor": "A tenth-century Byzantine encyclopedia, the Suda, credits Hypatia",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-mactutor",
+        "history-hypatia-gresham"
+      ],
+      "source_locator": "Hypatia of Alexandria, MacTutor History of Mathematics; Hypatia: Sifting the Myths, Gresham College",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h08",
+      "anchor": "An annotation to Theon's commentary on Book Three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-smithsonian",
+        "history-hypatia-gresham"
+      ],
+      "source_locator": "Smithsonian Learning Lab, Hypatia: Ancient Alexandria’s Great Female Scholar; Hypatia: Sifting the Myths, Gresham College",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h09",
+      "anchor": "Scholars debate the extent of her independent authorship",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-gresham"
+      ],
+      "source_locator": "Hypatia: Sifting the Myths, Gresham College",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h10",
+      "anchor": "His Arithmetica collects problems involving unknown numbers",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-mactutor",
+        "history-hypatia-ancient-math"
+      ],
+      "source_locator": "Hypatia of Alexandria, MacTutor History of Mathematics; M. A. B. Deakin, Hypatia and Her Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h11",
+      "anchor": "Apollonius's Conics studied curves",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-gresham"
+      ],
+      "source_locator": "Hypatia: Sifting the Myths, Gresham College",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h12",
+      "anchor": "Ptolemy's Almagest provided a sophisticated mathematical astronomy",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-mactutor"
+      ],
+      "source_locator": "Hypatia of Alexandria, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h13",
+      "anchor": "Synesius of Cyrene gives us direct evidence",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-watts-letters",
+        "history-hypatia-watts"
+      ],
+      "source_locator": "Edward J. Watts, Hypatia in the Letter Collection of Synesius (2019); Edward J. Watts, Hypatia: The Life and Legend of an Ancient Philosopher (2017)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h14",
+      "anchor": "His surviving correspondence speaks of her",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-watts-letters"
+      ],
+      "source_locator": "Edward J. Watts, Hypatia in the Letter Collection of Synesius (2019)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h15",
+      "anchor": "One of Synesius's writings discusses an astronomical instrument",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-gresham"
+      ],
+      "source_locator": "Hypatia: Sifting the Myths, Gresham College",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h16",
+      "anchor": "It does not justify the popular claim that she invented the astrolabe",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-gresham"
+      ],
+      "source_locator": "Hypatia: Sifting the Myths, Gresham College",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h17",
+      "anchor": "Another letter asks Hypatia to arrange for an instrument",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-letter15"
+      ],
+      "source_locator": "Synesius of Cyrene, Letter 15 to Hypatia, Livius translation",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h18",
+      "anchor": "A floating body displaces liquid",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-letter15"
+      ],
+      "source_locator": "Synesius of Cyrene, Letter 15 to Hypatia, Livius translation",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h19",
+      "anchor": "Hypatia's philosophical teaching was connected with Platonism",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-watts",
+        "history-hypatia-gresham"
+      ],
+      "source_locator": "Edward J. Watts, Hypatia: The Life and Legend of an Ancient Philosopher (2017); Hypatia: Sifting the Myths, Gresham College",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h20",
+      "anchor": "In four hundred twelve, Cyril became bishop of Alexandria",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-coptic",
+        "history-hypatia-socrates"
+      ],
+      "source_locator": "David Brakke, Hypatia, Claremont Coptic Encyclopedia; Socrates Scholasticus, Ecclesiastical History VII.15",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h21",
+      "anchor": "Hypatia was associated with Orestes",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-socrates"
+      ],
+      "source_locator": "Socrates Scholasticus, Ecclesiastical History VII.15",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h22",
+      "anchor": "In March of four hundred fifteen, a Christian mob attacked Hypatia",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-socrates",
+        "history-hypatia-coptic"
+      ],
+      "source_locator": "Socrates Scholasticus, Ecclesiastical History VII.15; David Brakke, Hypatia, Claremont Coptic Encyclopedia",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h23",
+      "anchor": "Socrates Scholasticus describes the event and condemns it",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-socrates"
+      ],
+      "source_locator": "Socrates Scholasticus, Ecclesiastical History VII.15",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h24",
+      "anchor": "We do not have evidence that Cyril personally issued an order",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-coptic",
+        "history-hypatia-socrates"
+      ],
+      "source_locator": "David Brakke, Hypatia, Claremont Coptic Encyclopedia; Socrates Scholasticus, Ecclesiastical History VII.15",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h25",
+      "anchor": "Hypatia's death has sometimes been described as the day classical science ended",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-watts",
+        "history-hypatia-gresham"
+      ],
+      "source_locator": "Edward J. Watts, Hypatia: The Life and Legend of an Ancient Philosopher (2017); Hypatia: Sifting the Myths, Gresham College",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h26",
+      "anchor": "Damascius, writing much later",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-gresham"
+      ],
+      "source_locator": "Hypatia: Sifting the Myths, Gresham College",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h27",
+      "anchor": "John of Nikiu, writing still later",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-gresham"
+      ],
+      "source_locator": "Hypatia: Sifting the Myths, Gresham College",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "042000-h28",
+      "anchor": "her Christian pupils and the civic rivalry",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hypatia-watts",
+        "history-hypatia-socrates"
+      ],
+      "source_locator": "Edward J. Watts, Hypatia: The Life and Legend of an Ancient Philosopher (2017); Socrates Scholasticus, Ecclesiastical History VII.15",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

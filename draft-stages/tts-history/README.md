@@ -8,3 +8,6 @@ The newest additions are:
 - **Pythagoras (`040000`)** — Samos and Croton, religious-philosophical community, music and proportion, the right-triangle theorem, integer triples, irrationality, numerical cultures before Pythagoras, and later Pythagorean traditions. The lecture distinguishes the historical teacher from mathematics attributed to him centuries later. **4,811 spoken words**, about **33.2 minutes** at 145 WPM.
 
 These entries follow Galois (`037000`) and Gödel (`038000`) without altering any previously indexed narration. Future expansion subjects and IDs are recorded in `docs/history-portrait-expansion-backlog-2026-11-12.md`. Audio is generated on demand; no binary media are tracked in this overlay.
+
+
+Portraits `041000` (Joseph Fourier) and `042000` (Hypatia of Alexandria) extend the History track with the mathematics of heat and trigonometric decomposition, and late-antique Alexandrian mathematics, source transmission, and philosophy. Both contain standalone narration and display-only mathematical companions.

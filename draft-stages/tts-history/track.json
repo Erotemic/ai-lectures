@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "Forty substantive standalone historical portraits covering mathematics, statistics, computing, physics, and history of ideas, with original 28-subject backlog completed.",
+  "summary": "Forty-two substantive standalone historical portraits covering mathematics, statistics, computing, physics, ancient scholarship, and the history of ideas.",
   "assumed_background": [
     "elementary vectors and eigenvalues; advanced concepts are introduced locally"
   ],
@@ -19,7 +19,9 @@
     "algebra",
     "logic",
     "calculus",
-    "ancient-mathematics"
+    "ancient-mathematics",
+    "analysis-and-heat",
+    "alexandrian-mathematics"
   ],
   "lectures": [
     {
@@ -461,6 +463,28 @@
       "draft_status": "substantive",
       "source_g2": null,
       "estimated_minutes_at_145_wpm": 33.2
+    },
+    {
+      "id": "041000",
+      "title": "Joseph Fourier: Can an irregular temperature become a sum of simple waves?",
+      "person": "Joseph Fourier",
+      "section": "analysis-and-heat",
+      "file": "041000-fourier.md",
+      "spoken_words": 4780,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 33.0
+    },
+    {
+      "id": "042000",
+      "title": "Hypatia of Alexandria: What survives when a mathematician's books are lost?",
+      "person": "Hypatia of Alexandria",
+      "section": "alexandrian-mathematics",
+      "file": "042000-hypatia.md",
+      "spoken_words": 4700,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 32.4
     }
   ],
   "editorial_policy": "Expose only researched substantive portraits. Draft biographies live in stubs/ until expanded, checked and promoted."

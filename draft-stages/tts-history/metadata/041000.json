@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "lecture_id": "041000",
+  "transcript": "041000-fourier.md",
+  "related_resources": [
+    {
+      "source_id": "history-fourier-mactutor",
+      "reason": "Childhood, French Revolution, Egyptian expedition, Grenoble administration and Paris career."
+    },
+    {
+      "source_id": "history-fourier-mitpress",
+      "reason": "Research history of 1807 memoir, originality and refereeing of heat theory."
+    },
+    {
+      "source_id": "history-fourier-heatbook",
+      "reason": "1822 French original, later 1878 English translation, boundary value problems and series."
+    },
+    {
+      "source_id": "history-fourier-landmark",
+      "reason": "Historical interpretation of the representability and generality questions."
+    },
+    {
+      "source_id": "history-fourier-grenoble",
+      "reason": "Prefect duties and Grenoble heat memoir development."
+    },
+    {
+      "source_id": "history-fourier-prize",
+      "reason": "1807 memoir, revised prize submission and 1822 publication."
+    },
+    {
+      "source_id": "history-fourier-ipcc",
+      "reason": "Fourier 1824 atmospheric heat discussion and later Tyndall work."
+    },
+    {
+      "source_id": "history-fourier-earth",
+      "reason": "1824 terrestrial-temperature work and cautions against retrospective greenhouse attribution."
+    },
+    {
+      "source_id": "history-fourier-britannica",
+      "reason": "Scientific and administrative chronology, publication, Paris academy and Egyptology."
+    },
+    {
+      "source_id": "history-fourier-foote-noaa",
+      "reason": "Eunice Newton Foote 1856 greenhouse-gas experimental chronology."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "041000-h01",
+      "anchor": "He was born in seventeen sixty-eight in Auxerre",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-mactutor"
+      ],
+      "source_locator": "Joseph Fourier: Biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h02",
+      "anchor": "Orphaned young, he received an education",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-mactutor"
+      ],
+      "source_locator": "Joseph Fourier: Biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h03",
+      "anchor": "He lived through the French Revolution",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-mactutor"
+      ],
+      "source_locator": "Joseph Fourier: Biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h04",
+      "anchor": "He became associated with the École Normale and the École Polytechnique",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-mactutor"
+      ],
+      "source_locator": "Joseph Fourier: Biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h05",
+      "anchor": "Fourier was caught in local factional conflict",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-mactutor"
+      ],
+      "source_locator": "Joseph Fourier: Biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h06",
+      "anchor": "In seventeen ninety-eight Fourier joined the French expedition to Egypt",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-mactutor",
+        "history-fourier-britannica"
+      ],
+      "source_locator": "Joseph Fourier: Biography, MacTutor History of Mathematics; Encyclopaedia Britannica, Joseph Fourier, historical biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h07",
+      "anchor": "Fourier worked with the Institut d'Égypte",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-mactutor"
+      ],
+      "source_locator": "Joseph Fourier: Biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h08",
+      "anchor": "the monumental Description de l'Égypte",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-britannica"
+      ],
+      "source_locator": "Encyclopaedia Britannica, Joseph Fourier, historical biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h09",
+      "anchor": "Fourier was appointed prefect of the department of Isère in eighteen oh two",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-grenoble",
+        "history-fourier-mactutor"
+      ],
+      "source_locator": "Université Grenoble Alpes, Joseph Fourier: prefect and researcher; Joseph Fourier: Biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h10",
+      "anchor": "draining of marshes near Bourgoin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-grenoble"
+      ],
+      "source_locator": "Université Grenoble Alpes, Joseph Fourier: prefect and researcher",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h11",
+      "anchor": "His first major memoir on heat was submitted to the Academy in eighteen oh seven",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-mitpress",
+        "history-fourier-prize"
+      ],
+      "source_locator": "John Herivel, Joseph Fourier 1768–1830, MIT Press; Stemma, The Analytical Theory of Heat and Fourier Series",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h12",
+      "anchor": "The Academy's reaction to Fourier's memoir was mixed",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-mitpress",
+        "history-fourier-prize"
+      ],
+      "source_locator": "John Herivel, Joseph Fourier 1768–1830, MIT Press; Stemma, The Analytical Theory of Heat and Fourier Series",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h13",
+      "anchor": "received the prize associated with the eighteen eleven submission",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-prize",
+        "history-fourier-mactutor"
+      ],
+      "source_locator": "Stemma, The Analytical Theory of Heat and Fourier Series; Joseph Fourier: Biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h14",
+      "anchor": "Théorie analytique de la chaleur, appeared in eighteen twenty-two",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-heatbook"
+      ],
+      "source_locator": "Fourier, The Analytical Theory of Heat, Cambridge University Press record",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h15",
+      "anchor": "He joined the Academy of Sciences and became its permanent secretary in eighteen twenty-two",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-britannica"
+      ],
+      "source_locator": "Encyclopaedia Britannica, Joseph Fourier, historical biography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h16",
+      "anchor": "In a paper published in eighteen twenty-four",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-earth",
+        "history-fourier-ipcc"
+      ],
+      "source_locator": "Joseph Fourier’s Theory of Terrestrial Temperatures, Oxford Academic; IPCC Fourth Assessment Report, historical science of greenhouse effect",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h17",
+      "anchor": "an atmosphere can alter the exchange of incoming light and outgoing heat",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-ipcc"
+      ],
+      "source_locator": "IPCC Fourth Assessment Report, historical science of greenhouse effect",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h18",
+      "anchor": "John Tyndall later measured selective infrared absorption",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-ipcc"
+      ],
+      "source_locator": "IPCC Fourth Assessment Report, historical science of greenhouse effect",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h19",
+      "anchor": "Eunice Foote had reported experiments",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-foote-noaa"
+      ],
+      "source_locator": "NOAA, Five Significant Moments in Climate Science History",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h20",
+      "anchor": "Svante Arrhenius made quantitative calculations",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-ipcc"
+      ],
+      "source_locator": "IPCC Fourth Assessment Report, historical science of greenhouse effect",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h21",
+      "anchor": "Euler, Daniel Bernoulli, d'Alembert, and Lagrange had argued",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-landmark"
+      ],
+      "source_locator": "I. Grattan-Guinness, Fourier’s Analytical Theory of Heat, Landmark Writings",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h22",
+      "anchor": "a systematic treatment of heat",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-heatbook",
+        "history-fourier-landmark"
+      ],
+      "source_locator": "Fourier, The Analytical Theory of Heat, Cambridge University Press record; I. Grattan-Guinness, Fourier’s Analytical Theory of Heat, Landmark Writings",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h23",
+      "anchor": "Fourier's broad ideas were enormously productive",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-landmark",
+        "history-fourier-mitpress"
+      ],
+      "source_locator": "I. Grattan-Guinness, Fourier’s Analytical Theory of Heat, Landmark Writings; John Herivel, Joseph Fourier 1768–1830, MIT Press",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h24",
+      "anchor": "including the work of Dirichlet, Riemann, Lebesgue",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-landmark"
+      ],
+      "source_locator": "I. Grattan-Guinness, Fourier’s Analytical Theory of Heat, Landmark Writings",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}
