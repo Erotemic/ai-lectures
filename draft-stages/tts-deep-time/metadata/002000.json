@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-light-cone-redshift-distance.md",
+  "related_resources": [
+    {
+      "source_id": "dt-nasa-distance",
+      "reason": "Parallax, Cepheid, Type Ia supernova distance ladder and the difference between local and CMB-inferred Hubble constants."
+    },
+    {
+      "source_id": "dt-time-dilation-des",
+      "reason": "Existing deep-time source for independent evidence and context"
+    },
+    {
+      "source_id": "dt-desi-dr2",
+      "reason": "Existing deep-time source for independent evidence and context"
+    },
+    {
+      "source_id": "dt-desi-lyman",
+      "reason": "Line-of-sight and transverse acoustic scale in quasar absorption; explicit ratios to sound horizon."
+    },
+    {
+      "source_id": "dt-planck-esa",
+      "reason": "Existing deep-time source for independent evidence and context"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-e01",
+      "anchor": "A second telescope confirms the positions.",
+      "kind": "instrument_context",
+      "source_ids": [
+        "dt-nasa-distance"
+      ],
+      "source_locator": "Line identification and wavelength calibration",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-e02",
+      "anchor": "In that description, redshift zero point five means the scale factor at emission was two thirds of today's value.",
+      "kind": "model_inference",
+      "source_ids": [
+        "dt-planck-esa"
+      ],
+      "source_locator": "1+z=a0/aem; example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-e03",
+      "anchor": "Missions such as Gaia measure stellar positions with extraordinary precision",
+      "kind": "instrument_context",
+      "source_ids": [
+        "dt-nasa-distance"
+      ],
+      "source_locator": "Parallax and quality calibration; overview",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-e04",
+      "anchor": "Its second data release yielded measurements based on more than fourteen million galaxies and quasars.",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-desi-dr2"
+      ],
+      "source_locator": "DESI DR2 sample",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-e05",
+      "anchor": "The Dark Energy Survey analyzed the light curves of more than fifteen hundred Type Ia supernovae",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-time-dilation-des"
+      ],
+      "source_locator": "DES 1504 supernovae and b~1",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

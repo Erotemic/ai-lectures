@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-microwave-sky-first-free-light.md",
+  "related_resources": [
+    {
+      "source_id": "dt-firas",
+      "reason": "Existing deep-time source for independent evidence and context"
+    },
+    {
+      "source_id": "dt-firas-instrument",
+      "reason": "Instrument calibration, Galactic subtraction, blackbody shape and measured deviations."
+    },
+    {
+      "source_id": "dt-cmb-esa-history",
+      "reason": "Existing deep-time source for independent evidence and context"
+    },
+    {
+      "source_id": "dt-planck-esa",
+      "reason": "Existing deep-time source for independent evidence and context"
+    },
+    {
+      "source_id": "dt-planck-inflation-esa",
+      "reason": "CMB temperature fluctuations, sound-wave explanation and qualitative inflation discussion; speculative dates should not be assumed measured."
+    },
+    {
+      "source_id": "dt-act-dr6",
+      "reason": "Temperature and polarization spectra at fine angular scale and comparison with Planck and WMAP."
+    },
+    {
+      "source_id": "dt-act-extended",
+      "reason": "Joint ACT/Planck/lensing/BAO constraints on baseline and extended models."
+    },
+    {
+      "source_id": "dt-pdg-inflation-2026",
+      "reason": "Horizon, curvature, perturbation and tensor constraints; current model and measurement status."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "003000-e01",
+      "anchor": "Arno Penzias and Robert Wilson encountered an unexplained background",
+      "kind": "history_of_science",
+      "source_ids": [
+        "dt-cmb-esa-history"
+      ],
+      "source_locator": "Penzias/Wilson discovery and Princeton collaboration",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "003000-e02",
+      "anchor": "The COBE satellite carried an instrument called the Far Infrared Absolute Spectrophotometer",
+      "kind": "instrument_result",
+      "source_ids": [
+        "dt-firas-instrument"
+      ],
+      "source_locator": "Instrument description",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "003000-e03",
+      "anchor": "Within the baseline cosmological model, this occurred around three hundred eighty thousand years",
+      "kind": "model_inference",
+      "source_ids": [
+        "dt-planck-esa"
+      ],
+      "source_locator": "Recombination model timing",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "003000-e04",
+      "anchor": "This is called cosmic variance.",
+      "kind": "conceptual_result",
+      "source_ids": [
+        "dt-pdg-inflation-2026"
+      ],
+      "source_locator": "Finite-sky estimator limit",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "003000-e05",
+      "anchor": "ACT's published Data Release 6 analysis in 2025 measured temperature and polarization spectra",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-act-dr6",
+        "dt-act-extended"
+      ],
+      "source_locator": "DR6 maps power spectra",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

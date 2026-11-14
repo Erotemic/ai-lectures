@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-inflation-bounces-extrapolation.md",
+  "related_resources": [
+    {
+      "source_id": "dt-pdg-inflation-2026",
+      "reason": "Horizon, curvature, perturbation and tensor constraints; current model and measurement status."
+    },
+    {
+      "source_id": "dt-bk18",
+      "reason": "BICEP/Keck + WMAP/Planck foreground modeling, r_0.05 < 0.036 at 95% confidence."
+    },
+    {
+      "source_id": "dt-act-dr6",
+      "reason": "Temperature and polarization spectra at fine angular scale and comparison with Planck and WMAP."
+    },
+    {
+      "source_id": "dt-bounce-2025",
+      "reason": "Ekpyrotic smoothing, bounce energy condition requirements and numerical-relativity modeling."
+    },
+    {
+      "source_id": "dt-bgv",
+      "reason": "Conditional positive average expansion implies past geodesic incompleteness for relevant histories; not proof of physical creation from nothing."
+    },
+    {
+      "source_id": "dt-bbn-pdg-2025",
+      "reason": "Weak freeze-out, deuterium bottleneck, helium fraction, lithium discrepancy, particle-physics parameters."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "005000-e01",
+      "anchor": "This is called the horizon problem.",
+      "kind": "conceptual_model",
+      "source_ids": [
+        "dt-pdg-inflation-2026"
+      ],
+      "source_locator": "Horizon and causal contact",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "005000-e02",
+      "anchor": "The Atacama Cosmology Telescope's 2025 Data Release 6 analysis",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-act-dr6",
+        "dt-pdg-inflation-2026"
+      ],
+      "source_locator": "ACT spectral index variation and cross probe inference",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "005000-e03",
+      "anchor": "The BICEP and Keck experiments, working with WMAP and Planck data, reported an upper bound",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-bk18"
+      ],
+      "source_locator": "BK18 r bound",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "005000-e04",
+      "anchor": "An ekpyrotic model typically uses a slowly contracting phase",
+      "kind": "theoretical_proposal",
+      "source_ids": [
+        "dt-bounce-2025"
+      ],
+      "source_locator": "Ekpyrotic contracting background",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "005000-e05",
+      "anchor": "In the early two thousands, Arvind Borde, Alan Guth, and Alexander Vilenkin proved",
+      "kind": "mathematical_result",
+      "source_ids": [
+        "dt-bgv"
+      ],
+      "source_locator": "Conditional past incompleteness",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-primordial-nuclei.md",
+  "related_resources": [
+    {
+      "source_id": "dt-bbn-pdg-2025",
+      "reason": "Weak freeze-out, deuterium bottleneck, helium fraction, lithium discrepancy, particle-physics parameters."
+    },
+    {
+      "source_id": "dt-deuterium-cooke",
+      "reason": "Near-pristine quasar absorber, isotope lines and combined primordial deuterium estimate."
+    },
+    {
+      "source_id": "dt-deuterium-2024",
+      "reason": "High resolution z=3.42 cloud spectroscopy; D/H = (2.533 +/- 0.024) x 10^-5 including prior sample."
+    },
+    {
+      "source_id": "dt-bbn-2026",
+      "reason": "Existing deep-time source for independent evidence and context"
+    },
+    {
+      "source_id": "dt-planck-esa",
+      "reason": "Existing deep-time source for independent evidence and context"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "004000-e01",
+      "anchor": "The surviving neutron-to-proton ratio is crucial because almost every available neutron",
+      "kind": "model_inference",
+      "source_ids": [
+        "dt-bbn-pdg-2025"
+      ],
+      "source_locator": "Neutron abundance and helium yield",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "004000-e02",
+      "anchor": "That delay is called the deuterium bottleneck.",
+      "kind": "physical_model",
+      "source_ids": [
+        "dt-bbn-pdg-2025"
+      ],
+      "source_locator": "Photon-to-baryon ratio and deuterium binding energy",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "004000-e03",
+      "anchor": "A 2024 study of an absorption system at redshift about three point four two",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-deuterium-2024"
+      ],
+      "source_locator": "z=3.42 updated combined D/H",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "004000-e04",
+      "anchor": "A 2026 review of the light-element evidence similarly assembled precision deuterium determinations",
+      "kind": "technical_review",
+      "source_ids": [
+        "dt-bbn-2026"
+      ],
+      "source_locator": "2026 D/H and nuclear rate discussion",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "004000-e05",
+      "anchor": "Lithium has long resisted that tidy ending.",
+      "kind": "open_problem",
+      "source_ids": [
+        "dt-bbn-pdg-2025"
+      ],
+      "source_locator": "Lithium discrepancy and stellar explanations",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

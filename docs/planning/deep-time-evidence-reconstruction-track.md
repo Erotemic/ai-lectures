@@ -1,6 +1,6 @@
 # Deep Time — reconstructing what happened, and how we know
 
-**Status:** New curriculum plan, 14 November 2026. One substantive lecture delivered (`001000`); all others proposed, not represented as completed manuscripts. This track complements *World History*, the *How We Know* archaeology strand, *The Physical World*, and *The World Reconsidered*. Its identity is a chronological reconstruction from observable traces, reaching backward as far as current methods allow.
+**Status:** New curriculum plan, 14 November 2026. Five substantive lectures delivered (`001000` through `005000`); remaining IDs proposed and not represented as completed manuscripts. This track complements *World History*, the *How We Know* archaeology strand, *The Physical World*, and *The World Reconsidered*. Its identity is a chronological reconstruction from observable traces, reaching backward as far as current methods allow.
 
 ## The question
 
@@ -46,10 +46,10 @@ Six arcs are navigational groupings. Numbers are reserved proposals within the `
 | ID | Status | Arc | Proposed title and central problem | Evidence and non-mainstream question |
 | --- | --- | --- | --- | --- |
 | 001000 | **Delivered** | Cosmic | **The Universe We Can Measure: Cosmology, Reconstruction, and the Limits of Our Knowledge** | Galaxy spectra, CMB, light nuclei, lensing, supernovae, DESI; compare baseline, live alternatives, and historically falsified models |
-| 002000 | Proposed | Cosmic | **A Light Cone Is Not a Time Machine: Reading Redshift and Cosmic Distance** | Spectral calibration, candles, rulers, distance ladders, selection bias; distance versus lookback time; tired-light tests |
-| 003000 | Proposed | Cosmic | **The Microwave Sky: What the First Free Light Records** | COBE/FIRAS, WMAP, Planck spectra, anisotropies and polarization; foregrounds, acoustic inference, cosmic variance |
-| 004000 | Proposed | Cosmic | **Before There Were Atoms: The Evidence from Primordial Nuclei** | Deuterium/helium quasar absorption and nuclear reaction rates; lithium problem, nonstandard expansion |
-| 005000 | Proposed | Cosmic | **Inflation, Bounces, and the Edge of Extrapolation** | Primordial scalar/tensor spectra, horizon problem, inflation mechanisms, ekpyrotic/cyclic possibilities; constraints vs inaccessible beginnings |
+| 002000 | **Delivered** | Cosmic | **A Light Cone Is Not a Time Machine: Reading Redshift and Cosmic Distance** | Spectral calibration, candles, rulers, distance ladders, selection bias; distance versus lookback time; tired-light tests |
+| 003000 | **Delivered** | Cosmic | **The Microwave Sky: What the First Free Light Records** | COBE/FIRAS, WMAP, Planck spectra, anisotropies and polarization; foregrounds, acoustic inference, cosmic variance |
+| 004000 | **Delivered** | Cosmic | **Before There Were Atoms: The Evidence from Primordial Nuclei** | Deuterium/helium quasar absorption and nuclear reaction rates; lithium problem, nonstandard expansion |
+| 005000 | **Delivered** | Cosmic | **Inflation, Bounces, and the Edge of Extrapolation** | Primordial scalar/tensor spectra, horizon problem, inflation mechanisms, ekpyrotic/cyclic possibilities; constraints vs inaccessible beginnings |
 | 006000 | Proposed | Cosmic | **Missing Mass: Dark Matter or Different Gravity?** | Rotation, lensing, collisions, structure growth, CMB; particle candidates, MOND and relativistic extensions |
 | 007000 | Proposed | Cosmic | **Does the Vacuum Accelerate? The Expansion History Under Test** | Type Ia supernovae, BAO, weak lensing, standard ruler dependence; Lambda versus time-dependent components; Hubble tension |
 | 008000 | Proposed | Stars | **When the First Galaxies Appeared** | Spectroscopic redshifts and galaxy-age inferences, JWST selection and stellar populations; early-galaxy formation models |
