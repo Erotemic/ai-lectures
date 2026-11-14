@@ -1,6 +1,6 @@
 # An Introduction to Category Theory
 
-A concept-first, proof-bearing introductory mathematics track with eight substantive standalone spoken lectures, each with a display-only mathematical companion and exercises with answers. The track begins with sets, functions, orders, and simple algebra. The category-theoretic vocabulary is developed from those examples and is then used to derive more general results.
+A concept-first, proof-bearing mathematics track with twelve substantive standalone spoken lectures, each with a display-only mathematical companion and exercises with answers. The track begins with sets, functions, orders, and simple algebra. Its final four recordings form a second arc for readers ready to use those foundations. The category-theoretic vocabulary is developed from those examples and is then used to derive more general results.
 
 The material is written for listeners comfortable with functions and elementary algebra who have not previously studied category theory. It assumes no algebraic topology, group theory beyond an explained example, or programming-language background. The displayed mathematics supplies exact notation and proofs after the spoken markers; it is not synthesized as audio.
 
@@ -14,6 +14,10 @@ The material is written for listeners comfortable with functions and elementary 
 | 006000 | Adjunctions | Free and forgetful constructions, hom bijections, unit, counit |
 | 007000 | Yoneda | Representable functors, proof of lemma, fully faithful Yoneda embedding |
 | 008000 | Monads | Maybe, lists, Kleisli composition, monad laws, adjunction origin |
+| 009000 | Equivalence of Categories | Fully faithful and essentially surjective functors, skeletons, quasi-inverses |
+| 010000 | Monoidal Categories | Tensor, associators, unitors, coherence, symmetric structures |
+| 011000 | String Diagrams | Typed wires, interchange, crossings, copying, duality limits |
+| 012000 | Categorical Logic | Subobjects, exponentials, quantifiers as adjoints, Heyting logic |
 
 ## Narration principles
 
@@ -29,4 +33,4 @@ The material is written for listeners comfortable with functions and elementary 
 
 **Sources:** `metadata/sources.json`; per-lecture source selections and claim anchors live in `metadata/<id>.json`.
 
-**Extension directions:** equivalence of categories and skeletons, monoidal categories and string diagrams, Galois connections, representability in algebraic geometry, categories in logic and type theory, the categorical treatment of algebraic theories, sheaves and topoi, and carefully motivated introductions to Kan extensions. These are candidates for later recorded lectures, not missing sections in the introductory core.
+**Further directions:** Galois connections, enriched categories, algebraic theories, sheaves and topoi, categorical semantics of dependent types, bicategories, and carefully motivated introductions to Kan extensions. These topics remain potential successors, not unfulfilled requirements of the twelve-lecture course.

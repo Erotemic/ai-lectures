@@ -13,7 +13,7 @@ def test_category_theory_manuscripts_and_references():
     manifest = json.loads((root / 'track.json').read_text())
     rows = manifest['lectures']
     assert manifest['id'] == 'category-theory'
-    assert [row['id'] for row in rows] == [f'{n:03d}000' for n in range(1, 9)]
+    assert [row['id'] for row in rows] == [f'{n:03d}000' for n in range(1, 13)]
     actual = {p.name for p in root.iterdir() if p.is_file() and LECTURE_NAME.fullmatch(p.name)}
     assert {row['file'] for row in rows} == actual
     catalog = json.loads((root/'metadata'/'sources.json').read_text())['sources']
@@ -44,10 +44,10 @@ def test_category_theory_in_reader(tmp_path):
         with TestClient(create_app(renders, audio_library=hub)) as client:
             tracks = client.get('/api/audio-tracks').json()['tracks']
             category = next(row for row in tracks if row['id'] == 'category-theory')
-            assert category['count'] == 8
+            assert category['count'] == 12
             assert category['url'] == '/audio?track=category-theory'
             rows = client.get('/api/audio-lectures?track=category-theory').json()['items']
-            assert [row['id'] for row in rows] == [f'{n:03d}000' for n in range(1, 9)]
+            assert [row['id'] for row in rows] == [f'{n:03d}000' for n in range(1, 13)]
             for row in rows:
                 lecture_id=row['id']
                 detail=client.get(f'/api/audio-lectures/{lecture_id}?track=category-theory').json()

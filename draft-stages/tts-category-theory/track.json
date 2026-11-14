@@ -1,7 +1,7 @@
 {
   "id": "category-theory",
-  "title": "Introduction to Category Theory · Objects, arrows, and universal constructions",
-  "summary": "A concept-first introductory mathematics course using sets, functions, orders, and elementary algebra to develop category theory through examples and proofs.",
+  "title": "Introduction to Category Theory · Foundations and Further Connections",
+  "summary": "A concept-first, proof-bearing course using sets, functions, orders, algebra, and typed processes to develop categories, functors, universality, monads, equivalence, monoidal composition, string diagrams, and categorical logic.",
   "assumed_background": [
     "sets and functions, basic algebra, willingness to follow short proofs; each categorical concept is introduced from examples"
   ],
@@ -11,7 +11,11 @@
     "universal-properties",
     "adjunctions",
     "representables",
-    "structured-composition"
+    "structured-composition",
+    "equivalences",
+    "monoidal-structure",
+    "graphical-reasoning",
+    "categorical-logic"
   ],
   "lectures": [
     {
@@ -85,6 +89,42 @@
       "spoken_words": 3702,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 25.5
+    },
+    {
+      "id": "009000",
+      "title": "Equivalence of Categories: When Different Descriptions Mean the Same Mathematics",
+      "section": "equivalences",
+      "file": "009000-equivalence-of-categories.md",
+      "spoken_words": 3016,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 20.8
+    },
+    {
+      "id": "010000",
+      "title": "Monoidal Categories: Composition Side by Side",
+      "section": "monoidal-structure",
+      "file": "010000-monoidal-categories.md",
+      "spoken_words": 3002,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 20.7
+    },
+    {
+      "id": "011000",
+      "title": "String Diagrams: Proving Equations by Following Wires",
+      "section": "graphical-reasoning",
+      "file": "011000-string-diagrams.md",
+      "spoken_words": 3134,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.6
+    },
+    {
+      "id": "012000",
+      "title": "Categorical Logic: When Maps Behave Like Proofs",
+      "section": "categorical-logic",
+      "file": "012000-categorical-logic.md",
+      "spoken_words": 3396,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 23.4
     }
   ]
 }
