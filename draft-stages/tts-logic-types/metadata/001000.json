@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-proofs-as-objects.md",
+  "related_resources": [
+    {
+      "source_id": "lt-lean-book",
+      "reason": "Theorem Proving in Lean 4, Avigad et al."
+    },
+    {
+      "source_id": "lt-howard",
+      "reason": "W. A. Howard, The Formulae-as-Types Notion of Construction (1969 notes, 1980 publication)"
+    },
+    {
+      "source_id": "lt-martinlof",
+      "reason": "Per Martin-Lof, Intuitionistic Type Theory (1984)"
+    },
+    {
+      "source_id": "lt-pierce",
+      "reason": "Benjamin C. Pierce, Types and Programming Languages (2002)"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "001000-h01",
+      "anchor": "William Alvin Howard circulated notes in 1969",
+      "kind": "historical_research",
+      "source_ids": [
+        "lt-howard"
+      ],
+      "source_locator": "Publication history: privately circulated 1969, later published in 1980",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-h02",
+      "anchor": "In Lean, for instance, propositions live in a special sort called Prop",
+      "kind": "historical_research",
+      "source_ids": [
+        "lt-lean-book"
+      ],
+      "source_locator": "Chapter 3: Propositions and proofs",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

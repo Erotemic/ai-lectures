@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-optimality-and-certificates.md",
+  "related_resources": [
+    {
+      "source_id": "od-boyd",
+      "reason": "Stephen Boyd and Lieven Vandenberghe, Convex Optimization (2004)"
+    },
+    {
+      "source_id": "od-dantzig",
+      "reason": "George Dantzig, oral history interview with Irv Lustig (2001)"
+    },
+    {
+      "source_id": "od-origins",
+      "reason": "George B. Dantzig, Origins of the Simplex Method"
+    },
+    {
+      "source_id": "od-bertsimas",
+      "reason": "Dimitris Bertsimas and John N. Tsitsiklis, Introduction to Linear Optimization (1997)"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "001000-h01",
+      "anchor": "George Dantzig worked on mechanizing aspects of planning for the United States military",
+      "kind": "historical_research",
+      "source_ids": [
+        "od-dantzig"
+      ],
+      "source_locator": "INFORMS oral history, early chapters",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-h02",
+      "anchor": "Dantzig described formulating a linear programming model in June 1947",
+      "kind": "historical_research",
+      "source_ids": [
+        "od-dantzig"
+      ],
+      "source_locator": "INFORMS interview: Origins of linear programming",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-h03",
+      "anchor": "He initially considered movement along the edges of a feasible polyhedron unattractive",
+      "kind": "historical_research",
+      "source_ids": [
+        "od-origins"
+      ],
+      "source_locator": "Origins of the Simplex Method, opening recollection",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

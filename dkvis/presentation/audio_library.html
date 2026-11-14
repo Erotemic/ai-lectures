@@ -24,7 +24,7 @@
 </head>
 <body>
 <header><div><div class="eyebrow">AI Lectures · Listen</div><h1>Audio lecture library</h1><p class="subtle" id="trackDescription">Choose a course track · speech generated when requested</p></div><a href="/">Presentations &amp; media</a></header>
-<nav class="course-tracks" aria-label="Course tracks"><a href="/" id="g1Link">G1 · Manim presentations</a><button type="button" id="g2Track" data-track="g2">G2 · Comprehensive audio</button><button type="button" id="g3Track" data-track="g3">G3 · Paper audio</button><button type="button" id="historyTrack" data-track="history" hidden>Math history · People &amp; ideas</button><button type="button" id="worldHistoryTrack" data-track="world-history" hidden>World History</button><button type="button" id="worldReconsideredTrack" data-track="world-reconsidered" hidden>The World Reconsidered</button><button type="button" id="categoryTheoryTrack" data-track="category-theory" hidden>Category Theory</button><a href="/learning-paths?track=g4">G4 · YWS path</a><a href="/learning-paths">Course map</a></nav>
+<nav class="course-tracks" aria-label="Course tracks"><a href="/" id="g1Link">G1 · Manim presentations</a><button type="button" id="g2Track" data-track="g2">G2 · Comprehensive audio</button><button type="button" id="g3Track" data-track="g3">G3 · Paper audio</button><button type="button" id="historyTrack" data-track="history" hidden>Math history · People &amp; ideas</button><button type="button" id="worldHistoryTrack" data-track="world-history" hidden>World History</button><button type="button" id="worldReconsideredTrack" data-track="world-reconsidered" hidden>The World Reconsidered</button><button type="button" id="categoryTheoryTrack" data-track="category-theory" hidden>Category Theory</button><button type="button" id="logicTypesTrack" data-track="logic-types" hidden>Logic &amp; Type Theory</button><button type="button" id="optimizationDualityTrack" data-track="optimization-duality" hidden>Optimization</button><button type="button" id="probabilityMeasureTrack" data-track="probability-measure" hidden>Probability &amp; Measure</button><a href="/learning-paths?track=g4">G4 · YWS path</a><a href="/learning-paths">Course map</a></nav>
 <main>
 <aside aria-label="Lecture selection">
 <div class="row space"><strong>Lectures</strong><span id="count" class="subtle"></span></div>
@@ -618,7 +618,7 @@ $('registerVoice').onclick=async()=>{
 $('lectureProgress').oninput=()=>{state.scrubbing=true;const pos=progressModel();if(pos){const pct=Number($('lectureProgress').value)/100;$('lecturePercent').textContent=pct.toFixed(1)+'%';$('lectureRemaining').textContent=`Seek to ${clock(pos.total*pct/100/Math.max(.25,Number($('rate').value)||1))}`}};
 $('lectureProgress').onchange=()=>{const fraction=Number($('lectureProgress').value)/10000;state.scrubbing=false;seekLectureFraction(fraction)};
 async function switchTrack(track){
-  if(!['g2','g3','history','world-history','world-reconsidered','category-theory'].includes(track))return;
+  if(!['g2','g3','history','world-history','world-reconsidered','category-theory','logic-types','optimization-duality','probability-measure'].includes(track))return;
   state.track=track;state.inventoryToken++;state.catalogToken++;state.cacheCatalog=new Map();state.cacheCatalogLoaded=false;state.cacheCatalogError=false;state.catalogFetched=0;state.token++;state.cacheJob++;state.doc=null;state.items=[];state.audioId='';state.loadedAudioKey=null;
   audio.pause();audio.removeAttribute('src');audio.load();$('content').hidden=true;$('empty').hidden=true;
   $('loading').hidden=false;$('loading').textContent='Loading '+track.toUpperCase()+' lectures…';
@@ -627,6 +627,9 @@ async function switchTrack(track){
     'world-history':'Standalone historical lectures · people, events, sources, and societies',
     'world-reconsidered':'Question-centered lectures · evidence, explanations, and worked models',
     'category-theory':'Introduction to category theory · examples, universal properties, and proofs',
+    'logic-types':'Proofs as programs · constructive logic and dependent types',
+    'optimization-duality':'Global optimization · convexity, duality, and checkable certificates',
+    'probability-measure':'Reasoning with uncertainty · events, evidence, and expectation',
     'history':'Biographical audio essays · the people, publications, and ideas behind spectral theory',
     'g3':'Paper-focused recordings · four angle theorems, counterexample, and matching theorem',
     'g2':'Comprehensive recordings · foundations and theorem development',
@@ -649,6 +652,9 @@ $('historyTrack').onclick=()=>switchTrack('history');
 $('worldHistoryTrack').onclick=()=>switchTrack('world-history');
 $('worldReconsideredTrack').onclick=()=>switchTrack('world-reconsidered');
 $('categoryTheoryTrack').onclick=()=>switchTrack('category-theory');
+$('logicTypesTrack').onclick=()=>switchTrack('logic-types');
+$('optimizationDualityTrack').onclick=()=>switchTrack('optimization-duality');
+$('probabilityMeasureTrack').onclick=()=>switchTrack('probability-measure');
 $('stopGeneration').onclick=()=>stopJobsForLecture(state.doc?.id);
 $('search').oninput=renderList;
 $('audioAvailability').value=['all','some','complete'].includes(saved('audio-availability','all'))?saved('audio-availability','all'):'all';
@@ -673,7 +679,13 @@ async function init(){
     $('worldReconsideredTrack').hidden=!supportsWorldReconsidered;
     const supportsCategoryTheory=tracks.tracks.some(x=>x.id==='category-theory');
     $('categoryTheoryTrack').hidden=!supportsCategoryTheory;
-    const desired=(requested==='g3'&&supportsG3)||(requested==='history'&&supportsHistory)||(requested==='world-history'&&supportsWorldHistory)||(requested==='world-reconsidered'&&supportsWorldReconsidered)||(requested==='category-theory'&&supportsCategoryTheory)?requested:'g2';
+    for(const [trackId, elementId] of [
+      ['logic-types','logicTypesTrack'],
+      ['optimization-duality','optimizationDualityTrack'],
+      ['probability-measure','probabilityMeasureTrack'],
+    ]){$(elementId).hidden=!tracks.tracks.some(x=>x.id===trackId)}
+    const availableAudioTracks=new Set(tracks.tracks.filter(x=>x.kind==='audio').map(x=>x.id));
+    const desired=availableAudioTracks.has(requested)?requested:'g2';
     const select=$('profile');
     for(const row of profiles.profiles){const option=document.createElement('option');option.value=row.id;option.textContent=row.label;select.append(option)}
     const preferred=saved('profile',profiles.default_profile);

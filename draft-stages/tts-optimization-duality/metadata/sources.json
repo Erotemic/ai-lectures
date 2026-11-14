@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "od-boyd": {
+      "title": "Stephen Boyd and Lieven Vandenberghe, Convex Optimization (2004)",
+      "kind": "scholarly_textbook",
+      "url": "https://web.stanford.edu/~boyd/cvxbook/",
+      "access": "free_no_login",
+      "notes": "Author-hosted full book; convexity, weak and strong duality, and KKT conditions."
+    },
+    "od-dantzig": {
+      "title": "George Dantzig, oral history interview with Irv Lustig (2001)",
+      "kind": "historical_primary",
+      "url": "https://www.informs.org/Explore/History-of-O.R.-Excellence/Oral-Histories/George-Dantzig",
+      "access": "free_no_login",
+      "notes": "First-person recollections about military planning, 1947 linear programming, and simplex method."
+    },
+    "od-origins": {
+      "title": "George B. Dantzig, Origins of the Simplex Method",
+      "kind": "historical_primary",
+      "url": "https://archive.computerhistory.org/resources/access/text/2024/06/102739347-05-0002-acc.pdf",
+      "access": "free_no_login",
+      "notes": "Dantzig recounts initial doubts about edge-descent and historical development."
+    },
+    "od-bertsimas": {
+      "title": "Dimitris Bertsimas and John N. Tsitsiklis, Introduction to Linear Optimization (1997)",
+      "kind": "scholarly_textbook",
+      "url": "https://web.mit.edu/dimitrib/www/linopt.html",
+      "access": "publisher_or_author",
+      "notes": "Primal-dual theory and optimization algorithms; author publication information."
+    }
+  }
+}

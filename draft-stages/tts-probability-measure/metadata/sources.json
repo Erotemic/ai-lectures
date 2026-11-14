@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "pm-mit": {
+      "title": "MIT OpenCourseWare, Probability and Random Variables (18.600, 2019)",
+      "kind": "course_material",
+      "url": "https://ocw.mit.edu/courses/18-600-probability-and-random-variables-fall-2019/pages/lecture-notes/",
+      "access": "free_no_login",
+      "notes": "Course lecture notes covering axioms, conditioning, Bayes and expectations."
+    },
+    "pm-vovkshafer": {
+      "title": "Vladimir Vovk and Glenn Shafer, Kolmogorov’s Contributions to the Foundations of Probability (2003)",
+      "kind": "scholarly_history",
+      "url": "https://glennshafer.com/assets/downloads/articles/article68.pdf",
+      "access": "free_no_login",
+      "notes": "Historical account of 1933 measure-theoretic formulation and later perspectives."
+    },
+    "pm-blitzstein": {
+      "title": "Joseph K. Blitzstein and Jessica Hwang, Introduction to Probability (2nd ed. 2019)",
+      "kind": "scholarly_textbook",
+      "url": "https://stat110.hsites.harvard.edu/",
+      "access": "free_no_login",
+      "notes": "Harvard Stat 110 teaching resources and book; conditioning and interpretation."
+    },
+    "pm-klenke": {
+      "title": "Achim Klenke, Probability Theory: A Comprehensive Course (3rd ed. 2020)",
+      "kind": "scholarly_textbook",
+      "url": "https://link.springer.com/book/10.1007/978-3-030-56402-5",
+      "access": "publisher_or_author",
+      "notes": "Measure-theoretic foundation and conditional expectations."
+    }
+  }
+}

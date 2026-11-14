@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-events-evidence-expectation.md",
+  "related_resources": [
+    {
+      "source_id": "pm-mit",
+      "reason": "MIT OpenCourseWare, Probability and Random Variables (18.600, 2019)"
+    },
+    {
+      "source_id": "pm-vovkshafer",
+      "reason": "Vladimir Vovk and Glenn Shafer, Kolmogorov’s Contributions to the Foundations of Probability (2003)"
+    },
+    {
+      "source_id": "pm-blitzstein",
+      "reason": "Joseph K. Blitzstein and Jessica Hwang, Introduction to Probability (2nd ed. 2019)"
+    },
+    {
+      "source_id": "pm-klenke",
+      "reason": "Achim Klenke, Probability Theory: A Comprehensive Course (3rd ed. 2020)"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "001000-h01",
+      "anchor": "In 1933, Andrey Kolmogorov published a systematic axiomatic foundation of probability using measure theory",
+      "kind": "historical_research",
+      "source_ids": [
+        "pm-vovkshafer"
+      ],
+      "source_locator": "Vovk and Shafer (2003), Section 1",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

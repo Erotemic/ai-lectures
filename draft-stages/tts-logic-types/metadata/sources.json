@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "lt-lean-book": {
+      "title": "Theorem Proving in Lean 4, Avigad et al.",
+      "kind": "official_documentation",
+      "url": "https://leanprover.github.io/theorem_proving_in_lean4/",
+      "access": "free_no_login",
+      "notes": "Official treatment of dependent type theory, propositions as types and Lean logical foundations."
+    },
+    "lt-howard": {
+      "title": "W. A. Howard, The Formulae-as-Types Notion of Construction (1969 notes, 1980 publication)",
+      "kind": "historical_primary",
+      "url": "https://homepages.inf.ed.ac.uk/wadler/papers/oopsla/oopsla.pdf",
+      "access": "free_no_login",
+      "notes": "Reproduced original work; notes circulated in 1969 and published in 1980."
+    },
+    "lt-martinlof": {
+      "title": "Per Martin-Lof, Intuitionistic Type Theory (1984)",
+      "kind": "scholarly_primary",
+      "url": "https://www.cs.cmu.edu/~rwh/courses/chtt/pdfs/martinlof84.pdf",
+      "access": "free_no_login",
+      "notes": "Canonical constructive dependent-type development."
+    },
+    "lt-pierce": {
+      "title": "Benjamin C. Pierce, Types and Programming Languages (2002)",
+      "kind": "scholarly_textbook",
+      "url": "https://www.cis.upenn.edu/~bcpierce/tapl/",
+      "access": "publisher_or_author",
+      "notes": "Type systems, operational semantics and typed lambda calculus."
+    }
+  }
+}

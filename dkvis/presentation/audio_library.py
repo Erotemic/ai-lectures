@@ -34,6 +34,9 @@ HISTORY_DIRECTORY = ROOT / 'draft-stages' / 'tts-history'
 WORLD_HISTORY_DIRECTORY = ROOT / 'draft-stages' / 'tts-world-history'
 WORLD_RECONSIDERED_DIRECTORY = ROOT / 'draft-stages' / 'tts-world-reconsidered'
 CATEGORY_THEORY_DIRECTORY = ROOT / 'draft-stages' / 'tts-category-theory'
+LOGIC_TYPES_DIRECTORY = ROOT / 'draft-stages' / 'tts-logic-types'
+OPTIMIZATION_DUALITY_DIRECTORY = ROOT / 'draft-stages' / 'tts-optimization-duality'
+PROBABILITY_MEASURE_DIRECTORY = ROOT / 'draft-stages' / 'tts-probability-measure'
 EXTRACTOR = SOURCE_DIRECTORY / 'extract_narration.py'
 AUDIO_PAGE = Path(__file__).with_name('audio_library.html')
 LECTURE_NAME = re.compile(r'^(\d{6})-.*\.md$')
@@ -964,6 +967,13 @@ class AudioLectureHub:
             self.tracks['world-reconsidered'] = WORLD_RECONSIDERED_DIRECTORY.resolve()
         if self.sources == SOURCE_DIRECTORY.resolve() and CATEGORY_THEORY_DIRECTORY.is_dir():
             self.tracks['category-theory'] = CATEGORY_THEORY_DIRECTORY.resolve()
+        for track_id, directory in (
+            ('logic-types', LOGIC_TYPES_DIRECTORY),
+            ('optimization-duality', OPTIMIZATION_DUALITY_DIRECTORY),
+            ('probability-measure', PROBABILITY_MEASURE_DIRECTORY),
+        ):
+            if self.sources == SOURCE_DIRECTORY.resolve() and directory.is_dir():
+                self.tracks[track_id] = directory.resolve()
         self._engines = {}
         self._lock = threading.RLock()
         self._voice_registry = self.cache / 'registered-voices.json'
@@ -1043,6 +1053,21 @@ class AudioLectureHub:
                     count=len(self.engine(self.profile, 'category-theory')._files()),
                     summary='Objects, arrows, functors, universal properties, adjunctions, Yoneda, and monads')]
               if 'category-theory' in self.tracks else []),
+            *([dict(id='logic-types', label='Logic and Type Theory', kind='audio',
+                    url='/audio?track=logic-types',
+                    count=len(self.engine(self.profile, 'logic-types')._files()),
+                    summary='Proofs, types, constructive logic, and verified computation')]
+              if 'logic-types' in self.tracks else []),
+            *([dict(id='optimization-duality', label='Optimization and Duality', kind='audio',
+                    url='/audio?track=optimization-duality',
+                    count=len(self.engine(self.profile, 'optimization-duality')._files()),
+                    summary='Convexity, bounds, duality, and optimization certificates')]
+              if 'optimization-duality' in self.tracks else []),
+            *([dict(id='probability-measure', label='Probability and Measure', kind='audio',
+                    url='/audio?track=probability-measure',
+                    count=len(self.engine(self.profile, 'probability-measure')._files()),
+                    summary='Uncertainty, conditioning, expectation, and rigorous probability')]
+              if 'probability-measure' in self.tracks else []),
         ]
 
     def _read_registry(self):
