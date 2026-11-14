@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-what-causes-something.md",
+  "related_resources": [
+    {
+      "source_id": "wr-snow-primary",
+      "reason": "Primary account, Soho observations, Table IX and the water-supplier comparison"
+    },
+    {
+      "source_id": "wr-snow-paneth",
+      "reason": "Historiographical correction: the epidemic was declining before the handle was removed"
+    },
+    {
+      "source_id": "wr-snow-york",
+      "reason": "Snow’s family, apprenticeship, habits, and career"
+    },
+    {
+      "source_id": "wr-semmelweis-shi",
+      "reason": "Semmelweis’s education, colleague, hand hygiene and workplace context"
+    },
+    {
+      "source_id": "wr-semmelweis-record",
+      "reason": "Historical maternal mortality figures and clinic comparison"
+    },
+    {
+      "source_id": "wr-yoshioka-mrc",
+      "reason": "1947–48 streptomycin trial allocation and its institutional context"
+    },
+    {
+      "source_id": "wr-simpson-stanford",
+      "reason": "Modern mathematical interpretation of Simpson’s paradox and adjustment"
+    },
+    {
+      "source_id": "wr-bradford-hill",
+      "reason": "Primary 1965 essay on evaluating causal associations"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "001000-h01",
+      "anchor": "Snow was born in York in eighteen thirteen, the eldest of nine children",
+      "kind": "historical_biography",
+      "source_ids": [
+        "wr-snow-york"
+      ],
+      "source_locator": "Biography, family and birth",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "001000-h02",
+      "anchor": "Snow began his medical apprenticeship at fourteen",
+      "kind": "historical_biography",
+      "source_ids": [
+        "wr-snow-york"
+      ],
+      "source_locator": "Biography, apprenticeship",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "001000-h03",
+      "anchor": "Snow obtained death records and visited affected households",
+      "kind": "historical_research",
+      "source_ids": [
+        "wr-snow-primary"
+      ],
+      "source_locator": "1855, pp. 39–46",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "001000-h04",
+      "anchor": "more than seventy workers were employed there and none had suffered severe cholera",
+      "kind": "historical_research",
+      "source_ids": [
+        "wr-snow-primary"
+      ],
+      "source_locator": "1855, brewery passage, p. 42",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "001000-h05",
+      "anchor": "On the evening of September seventh, eighteen fifty-four",
+      "kind": "historical_research",
+      "source_ids": [
+        "wr-snow-primary",
+        "wr-snow-paneth"
+      ],
+      "source_locator": "1855, p. 41 and Paneth 2004",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "001000-h06",
+      "anchor": "the outbreak was already declining",
+      "kind": "historical_research",
+      "source_ids": [
+        "wr-snow-primary",
+        "wr-snow-paneth"
+      ],
+      "source_locator": "1855, pp. 51–52; Paneth 2004",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "001000-h07",
+      "anchor": "He also credited a colleague, John Joseph Whiting",
+      "kind": "historical_research",
+      "source_ids": [
+        "wr-snow-primary"
+      ],
+      "source_locator": "1855, pp. 78–79",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "001000-h08",
+      "anchor": "one thousand two hundred sixty-three cholera deaths among approximately forty thousand supplied houses",
+      "kind": "historical_research",
+      "source_ids": [
+        "wr-snow-primary"
+      ],
+      "source_locator": "1855 Table IX, p. 86",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "001000-h09",
+      "anchor": "For Lambeth, it was ninety-eight deaths among approximately twenty-six thousand supplied houses",
+      "kind": "historical_research",
+      "source_ids": [
+        "wr-snow-primary"
+      ],
+      "source_locator": "1855 Table IX, p. 86",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "001000-h10",
+      "anchor": "He was born in eighteen eighteen in Buda",
+      "kind": "historical_biography",
+      "source_ids": [
+        "wr-semmelweis-shi"
+      ],
+      "source_locator": "Science History Institute biography",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "001000-h11",
+      "anchor": "his colleague Jakob Kolletschka died after a wound",
+      "kind": "historical_biography",
+      "source_ids": [
+        "wr-semmelweis-shi"
+      ],
+      "source_locator": "Science History Institute, Pathway to Obstetrics",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "001000-h12",
+      "anchor": "in eighteen forty-eight the rate in that clinic was about thirteen deaths per thousand births",
+      "kind": "historical_research",
+      "source_ids": [
+        "wr-semmelweis-record"
+      ],
+      "source_locator": "Table 1 and 1848 description",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "001000-h13",
+      "anchor": "The first patients entered the study in nineteen forty-seven",
+      "kind": "historical_research",
+      "source_ids": [
+        "wr-yoshioka-mrc"
+      ],
+      "source_locator": "Yoshioka 1998, trial chronology",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "001000-h14",
+      "anchor": "treatment assignments determined using random-number schedules and sealed, numbered envelopes",
+      "kind": "historical_research",
+      "source_ids": [
+        "wr-yoshioka-mrc"
+      ],
+      "source_locator": "Yoshioka 1998, allocation scheme",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "001000-h15",
+      "anchor": "In nineteen sixty-five, the British statistician and epidemiologist Austin Bradford Hill",
+      "kind": "historical_research",
+      "source_ids": [
+        "wr-bradford-hill"
+      ],
+      "source_locator": "Hill 1965, pp. 295–300",
+      "audit_status": "source_passage_checked"
+    }
+  ]
+}

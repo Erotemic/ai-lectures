@@ -13,7 +13,7 @@ def test_world_reconsidered_manifest_and_references():
     folder = WORLD_RECONSIDERED_DIRECTORY
     manifest = json.loads((folder/'track.json').read_text())
     assert manifest['id'] == 'world-reconsidered'
-    assert [row['id'] for row in manifest['lectures']] == ['001000', '002000', '003000', '004000', '005000']
+    assert [row['id'] for row in manifest['lectures']] == [f'{n:03d}000' for n in range(1, 13)]
     assert {row['file'] for row in manifest['lectures']} == {
         p.name for p in folder.iterdir() if p.is_file() and LECTURE_NAME.fullmatch(p.name)
     }
@@ -46,11 +46,11 @@ def test_world_reconsidered_reader_and_isolation(tmp_path):
         with TestClient(create_app(render, audio_library=hub)) as client:
             tracks=client.get('/api/audio-tracks').json()['tracks']
             pilot=next(row for row in tracks if row['id']=='world-reconsidered')
-            assert pilot['count'] == 5
+            assert pilot['count'] == 12
             assert pilot['url'] == '/audio?track=world-reconsidered'
             catalog=client.get('/api/audio-lectures?track=world-reconsidered').json()['items']
-            assert [row['id'] for row in catalog] == ['001000', '002000', '003000', '004000', '005000']
-            for lecture_id in ('001000', '002000', '003000', '004000', '005000'):
+            assert [row['id'] for row in catalog] == [f'{n:03d}000' for n in range(1, 13)]
+            for lecture_id in (f'{n:03d}000' for n in range(1, 13)):
                 detail=client.get(f'/api/audio-lectures/{lecture_id}?track=world-reconsidered').json()
                 assert detail['words'] > 4000
                 assert len(detail['related_resources']) >= 5
