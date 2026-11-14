@@ -1,7 +1,7 @@
 {
   "id": "category-theory",
   "title": "Introduction to Category Theory · Foundations and Further Connections",
-  "summary": "A concept-first, proof-bearing sequence from categories and universal properties through monads, enrichment, dependent types, higher composition, monadicity, descent, stacks and operads.",
+  "summary": "A concept-first sequence from categories, universal properties, and monads through local-to-global reasoning, higher categorical composition, infinity-operads, and derived geometry.",
   "assumed_background": [
     "sets and functions, basic algebra, willingness to follow short proofs; each categorical concept is introduced from examples"
   ],
@@ -33,7 +33,11 @@
     "monadicity",
     "descent",
     "stacks",
-    "operads"
+    "operads",
+    "infinity-categories",
+    "homotopy-limits",
+    "infinity-operads",
+    "derived-and-higher-stacks"
   ],
   "lectures": [
     {
@@ -305,6 +309,42 @@
       "spoken_words": 3303,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 22.8
+    },
+    {
+      "id": "031000",
+      "title": "Infinity-Categories: When Composition Has More Than One Witness",
+      "section": "infinity-categories",
+      "file": "031000-infinity-categories-and-coherent-composition.md",
+      "spoken_words": 3064,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.1
+    },
+    {
+      "id": "032000",
+      "title": "Homotopy Limits: Why a Pullback Can Contain Loops",
+      "section": "homotopy-limits",
+      "file": "032000-homotopy-limits-and-loop-spaces.md",
+      "spoken_words": 3036,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 20.9
+    },
+    {
+      "id": "033000",
+      "title": "Infinity-Operads: Algebraic Laws with Room to Deform",
+      "section": "infinity-operads",
+      "file": "033000-infinity-operads-and-coherent-algebra.md",
+      "spoken_words": 3108,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.4
+    },
+    {
+      "id": "034000",
+      "title": "Derived and Higher Stacks: What an Intersection Can Remember",
+      "section": "derived-and-higher-stacks",
+      "file": "034000-derived-stacks-and-hidden-intersections.md",
+      "spoken_words": 3075,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.2
     }
   ]
 }

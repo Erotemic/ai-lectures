@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "034000",
+  "transcript": "034000-derived-stacks-and-hidden-intersections.md",
+  "related_resources": [
+    {
+      "source_id": "ct-toen-vezzosi-hag2",
+      "reason": "Homotopical algebraic geometry and geometric derived stacks."
+    },
+    {
+      "source_id": "ct-pantev-vezzosi-dag",
+      "reason": "Introductory derived intersections, affine geometry and deformation theory."
+    },
+    {
+      "source_id": "ct-vezzosi-whatis-dag",
+      "reason": "Space-valued derived stacks and descent on derived rings."
+    },
+    {
+      "source_id": "ct-stacks-project-browse",
+      "reason": "Homological algebra, derived categories and stacks background."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "034000-h01",
+      "anchor": "Its degree-zero homology is k, matching the ordinary tensor product. Its degree-one homology is also k.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-pantev-vezzosi-dag"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "034000-h02",
+      "anchor": "The result does not come from inventing a new geometric point or doubling the number of ordinary points.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-pantev-vezzosi-dag"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "034000-h03",
+      "anchor": "A derived stack adds sensitivity to derived test rings and related deformation data.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-toen-vezzosi-hag2"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "034000-h04",
+      "anchor": "Additional finiteness, smoothness, and representability conditions are needed to obtain geometric derived stacks in the more restricted sense used in derived algebraic geometry.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-toen-vezzosi-hag2"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "034000-h05",
+      "anchor": "The cotangent complex is one systematic tool for this analysis.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-pantev-vezzosi-dag"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

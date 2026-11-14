@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032000",
+  "transcript": "032000-homotopy-limits-and-loop-spaces.md",
+  "related_resources": [
+    {
+      "source_id": "ct-dugger-hocolims",
+      "reason": "Standard path-space calculation of homotopy pullbacks."
+    },
+    {
+      "source_id": "ct-nlab-homotopy-pullback",
+      "reason": "Homotopy fibers and loop-space examples."
+    },
+    {
+      "source_id": "ct-kerodon-limits",
+      "reason": "Universal property of limits in infinity-categories."
+    },
+    {
+      "source_id": "ct-kerodon-spaces-limits",
+      "reason": "Characterization and existence of limits of spaces."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "032000-h01",
+      "anchor": "A point in the resulting construction is a triple: an element of A, an element of B, and a connecting path in C.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-dugger-hocolims"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-h02",
+      "anchor": "The resulting space is called the based loop space of the circle.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-nlab-homotopy-pullback"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-h03",
+      "anchor": "The based loop space is homotopy equivalent to the discrete set of integers.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-nlab-homotopy-pullback"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-h04",
+      "anchor": "A homotopy limit is an object that represents the space of such cones.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-kerodon-limits"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-h05",
+      "anchor": "The result is a graph with two vertices connected by two edges, which has the homotopy type of a circle.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-dugger-hocolims"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

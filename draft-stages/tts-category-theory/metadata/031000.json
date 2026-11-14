@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "031000",
+  "transcript": "031000-infinity-categories-and-coherent-composition.md",
+  "related_resources": [
+    {
+      "source_id": "ct-kerodon-inner-fibrations",
+      "reason": "Inner horn fillers and the quasi-category condition."
+    },
+    {
+      "source_id": "ct-kerodon-nerve",
+      "reason": "Nerves of ordinary categories and uniqueness of inner horn fillers."
+    },
+    {
+      "source_id": "ct-kerodon-limits",
+      "reason": "Mapping-space universal properties of infinity-categorical limits."
+    },
+    {
+      "source_id": "ct-lurie-htt",
+      "reason": "Foundations, mapping spaces and homotopy categories."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "031000-h01",
+      "anchor": "An infinity-category is one answer. More precisely, the kind we will study is an infinity-one-category.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-kerodon-inner-fibrations"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "031000-h02",
+      "anchor": "A simplicial set is called a quasi-category, or infinity-category in this model, when every such inner horn has a filler.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-kerodon-inner-fibrations"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "031000-h03",
+      "anchor": "We can recover any ordinary category from a simplicial set called its nerve.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-kerodon-nerve"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "031000-h04",
+      "anchor": "The homotopy category of an infinity-category has the same objects, while its arrows are homotopy classes, or components, of mapping spaces.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-lurie-htt"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "031000-h05",
+      "anchor": "For every test object X, the mapping space into the product must be equivalent to the product of the two mapping spaces.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-kerodon-limits"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "033000",
+  "transcript": "033000-infinity-operads-and-coherent-algebra.md",
+  "related_resources": [
+    {
+      "source_id": "ct-lurie-higher-algebra",
+      "reason": "Infinity-operads, active-inert factorization and algebra objects."
+    },
+    {
+      "source_id": "ct-cnossen-operad-comparison",
+      "reason": "Comparison to Lurie infinity-operads and Segal maps."
+    },
+    {
+      "source_id": "ct-may-operads",
+      "reason": "Little disks and iterated loop-space operads."
+    },
+    {
+      "source_id": "ct-leinster-higher",
+      "reason": "Multicategories, operads and substitution structure."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "033000-h01",
+      "anchor": "The little-two-disks operad is called E two.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-may-operads"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-h02",
+      "anchor": "The little-n-disks operad E n organizes operations by configurations in n dimensions.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-may-operads"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-h03",
+      "anchor": "An infinity-operad is represented by an infinity-category equipped with a map to the nerve of the finite pointed sets, satisfying lifting and mapping-space conditions.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-lurie-higher-algebra"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-h04",
+      "anchor": "The full definition has technical coherence clauses.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-cnossen-operad-comparison"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-h05",
+      "anchor": "Pasting small cubes inside a larger cube produces operations on iterated loops.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-may-operads"
+      ],
+      "source_locator": "Referenced source, designated construction or example",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
