@@ -6,7 +6,7 @@
 
 # Ernst Fischer: What Does It Mean for an Infinite Calculation to Have an Answer?
 
-Imagine trying to describe a sound by its pure tones. You listen to a complicated note and identify the strength of its first harmonic, its second harmonic, its third, and so on. Each measurement produces a number. But the list is infinite. Even if the individual numbers grow smaller, how can you be sure that all those numbers describe an actual sound? You might be able to write down every finite partial reconstruction while never obtaining a legitimate limiting function. A recipe that works for the first thousand tones must still survive the transition to infinitely many tones.
+A complicated musical note can be described by the strengths of its harmonics. Measure the first, the second, the third, and so on. Each measurement produces a number, and the list is infinite. Even if the individual numbers grow smaller, how can you be sure that all those numbers describe an actual sound? You might be able to write down every finite partial reconstruction while never obtaining a legitimate limiting function. A recipe that works for the first thousand tones must still survive the transition to infinitely many tones.
 
 Now imagine a different problem: you have a symmetric matrix with a hundred eigenvalues. The largest and smallest have an immediate characterization through the Rayleigh quotient, the energy of a unit vector. But how could you identify the forty-third eigenvalue without first finding forty-two eigenvectors? Is there a geometric property that makes this number unavoidable, regardless of which trial subspaces you examine?
 

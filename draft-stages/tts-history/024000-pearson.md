@@ -6,7 +6,7 @@
 
 # Karl Pearson: Why is a principal component an optimization problem?
 
-Imagine a naturalist with a table of measurements. For each specimen there is a length, a width, perhaps a weight, perhaps a dozen other numbers. The table is too large to picture directly. Some measurements rise together. Others behave almost independently. The naturalist wants to know whether the apparent complexity conceals a simpler pattern.
+A naturalist has assembled a table of measurements. Each specimen has a recorded length, width, perhaps a weight, and perhaps a dozen other quantities. The table is too large to picture directly. Some measurements rise together. Others behave almost independently. The naturalist wants to know whether the apparent complexity conceals a simpler pattern.
 
 There are several possible meanings of simpler. We might want a formula that predicts width from length. We might want to place the specimens along a single line while throwing away as little information as possible. Or we might want to distinguish genuine structure from accidental variations in a small sample. Those requests lead to related calculations, but they are not identical.
 
@@ -190,7 +190,7 @@ The distinction between continuous measurements and inheritance mechanisms is fu
 
 Pearson also had difficult intellectual relations with Ronald Fisher, whose statistical innovations addressed estimation, likelihood and the chi-square degrees-of-freedom problem. Fisher would become a major architect of twentieth-century statistics and population genetics. Pearson's son Egon later collaborated with Jerzy Neyman on a different framework for statistical testing. Their work is important in its own right, and the older Pearson's scientific authority should not be confused with an exclusive ownership of the methods that came after him.
 
-A historical portrait can acknowledge brilliance, contention and error without trying to resolve every controversy in favor of a single hero. The collaborative network generated mathematics of enormous scope, while its participants held competing views about biology, probability and society.
+Pearson's career joined influential mathematical work to contentious scientific arguments and harmful political commitments. The broader network generated mathematical methods of enormous scope, even as its participants disagreed about biology, probability, and society.
 
 ## How principal components acquired their later form
 

@@ -6,7 +6,7 @@
 
 # James Joseph Sylvester: How did matrices become objects that could be solved for?
 
-Imagine two clocks, each with a pair of hands. On the first clock one hand turns at two revolutions per minute and the other at five. On the second, the speeds are one and four. We are looking for a way of translating a motion described by the first pair of hands into one described by the second. The unknown translation is a rule that takes two numbers as input and returns two numbers. It is itself a matrix. There is no single unknown number to isolate. The whole transformation is unknown.
+Two devices each have a pair of rotating pointers. On the first, they turn at two and five revolutions per minute; on the second, at one and four. Suppose we want a linear rule that translates the state of the first pair into the state of the second. The unknown is a transformation taking two numbers in and returning two numbers. It is itself a matrix. We are trying to solve for the whole transformation rather than for one scalar.
 
 One modern equation for that problem asks us to find a matrix X such that A times X, minus X times B, equals a known matrix C. If A and B are diagonal, we can solve the entries of X by dividing by differences between the numbers on their diagonals. If one of those differences is zero, the division breaks down. The same mathematical question survives when the matrices are not diagonal: what can their spectra tell us about the existence and uniqueness of an unknown transformation?
 

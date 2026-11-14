@@ -206,7 +206,7 @@ A university is an institution that transmits mathematics through more than publ
 
 ## Why the equation keeps returning
 
-Let's finish with the expression that opened this lecture: B times X minus X times A equals Q. We learned first that it is a collection of scalar divisions when the two operators are diagonal. We then replaced those divisions with a resolvent contour, allowing the same equation to be solved for bounded operators without a basis of eigenvectors. We saw that separated spectra provide existence and uniqueness, while good quantitative bounds require attention to the norms and the operator structure.
+Return to the equation we began with: B times X minus X times A equals Q. We learned first that it is a collection of scalar divisions when the two operators are diagonal. We then replaced those divisions with a resolvent contour, allowing the same equation to be solved for bounded operators without a basis of eigenvectors. We saw that separated spectra provide existence and uniqueness, while good quantitative bounds require attention to the norms and the operator structure.
 
 We found two distinct warnings. Even for self-adjoint operators, interlacing spectra can invalidate a constant-one operator-norm estimate based only on minimum distance, although the analogous Hilbert–Schmidt estimate works for diagonal operators. For nonnormal operators, the spectral distance may remain fixed while the solution becomes arbitrarily large. Those are exact reasons to avoid treating all measures of separation as interchangeable.
 

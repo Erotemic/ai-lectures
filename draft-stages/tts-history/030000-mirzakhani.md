@@ -176,7 +176,7 @@ Let's collect the ideas without turning them into a list of theorems. We began w
 
 Later, the same habit of looking for structure in the space of surfaces allowed her and her collaborators to classify dynamical orbit closures that at first seemed resistant to any tidy description. In both research programs, the object being studied was not one particular surface, but the mathematical space of all surfaces of a given kind and the laws governing movements within that space.
 
-The most useful lesson from this portrait is perhaps a method of mathematical imagination. A hard problem on one object may become clearer after we build a space whose points are entire objects like it. We can then ask new questions: what are the coordinates of that space, what does it mean to measure a region inside it, and which transformations preserve its structure? For Maryam Mirzakhani, those questions turned a problem about counting curves into new mathematics about the geometry and dynamics of worlds of possible surfaces.
+Mirzakhani's work illustrates a method of mathematical imagination. A hard problem on one object may become clearer after we build a space whose points are entire objects like it. We can then ask new questions: what are the coordinates of that space, what does it mean to measure a region inside it, and which transformations preserve its structure? For Maryam Mirzakhani, those questions turned a problem about counting curves into new mathematics about the geometry and dynamics of worlds of possible surfaces.
 
 <!-- END SPOKEN LECTURE -->
 

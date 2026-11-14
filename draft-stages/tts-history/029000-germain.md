@@ -6,7 +6,7 @@
 
 # Sophie Germain: How can a mathematician prove something beyond the reach of her world?
 
-Imagine a sheet of metal sprinkled with fine sand. Draw a violin bow along its edge and the plate begins to sing. The sand jumps away from the regions that move and collects along the lines that remain almost still. Some patterns are simple crosses. Others branch into delicate curves. Change the way the plate is held, or the frequency of the bow, and the pattern changes. Two questions arise. Can an equation predict these pictures? And if an equation predicts a particular picture, does that mean we understand why the plate moves as it does?
+A thin metal sheet is sprinkled with sand. Draw a violin bow along its edge, and the plate begins to sing. The sand jumps away from the regions that move and collects along the lines that remain almost still. Some patterns are simple crosses. Others branch into delicate curves. Change the way the plate is held, or the frequency of the bow, and the pattern changes. Two questions arise. Can an equation predict these pictures? And if an equation predicts a particular picture, does that mean we understand why the plate moves as it does?
 
 Now imagine an entirely different problem. Three whole numbers might satisfy the Pythagorean equation: the square of three plus the square of four equals the square of five. What happens when every square becomes a fifth power? Or an eleventh power? How could we rule out all possible whole-number solutions without checking numbers forever?
 

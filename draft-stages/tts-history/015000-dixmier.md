@@ -90,7 +90,7 @@ There is another consequence. What happens if we take sums of vectors from K and
 
 The range of A is not closed. To see this, return to the one-over-index sequence. It is a legitimate square-summable output, and we can approximate it by finitely supported outputs of A. But producing the full one-over-index output would require an input sequence of all ones. That input is not square summable. Thus the target lies in the closure of the range, while remaining outside the range itself.
 
-Consequently, the sum of K and L is not closed, even though K and L individually are. This answers the question that began the lecture. Two closed subspaces can fail to intersect and yet approach one another through a sequence of directions so closely that their algebraic sum loses closedness.
+Consequently, the sum of K and L is not closed, even though K and L individually are. It answers our opening question. Two closed subspaces can fail to intersect and yet approach one another through a sequence of directions so closely that their algebraic sum loses closedness.
 
 The Friedrichs angle packages this phenomenon. For two closed subspaces, a positive Friedrichs angle is equivalent to the closedness of their sum. In the special case where their intersection is zero, the Friedrichs and Dixmier angles agree. Our example has zero angle and a nonclosed sum. The finite-dimensional rule survives as a theorem only when we impose a uniform separation condition.
 

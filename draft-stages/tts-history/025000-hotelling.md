@@ -6,7 +6,7 @@
 
 # Harold Hotelling: How did subspace geometry become statistical inference?
 
-Imagine a school with thousands of pupils. Every pupil has a score in arithmetic, reading, writing, memory, and speed of response. Now imagine being handed a large table containing all those scores, without any explanation of what patterns you ought to seek. You could compute the average arithmetic score. You could look for pupils who excel in reading. But suppose that arithmetic and reading tend to rise together, while two different measures of speed tend to rise and fall together for other reasons. The table may contain many columns but fewer distinct directions of variation.
+A school tests thousands of pupils in arithmetic, reading, writing, memory, and speed of response. The result is a large table of scores, with no indication of which patterns deserve attention. You could compute the average arithmetic score. You could look for pupils who excel in reading. But suppose that arithmetic and reading tend to rise together, while two different measures of speed tend to rise and fall together for other reasons. The table may contain many columns but fewer distinct directions of variation.
 
 There are at least three mathematical questions hiding inside that observation. First, which linear combination of the scores varies the most? Second, if we divide the scores into two groups, which combination from the first group is most closely associated with a combination from the second? Third, when a sample suggests an association, how can we tell whether we have seen a dependable feature of the population or an accident of finite observations?
 
