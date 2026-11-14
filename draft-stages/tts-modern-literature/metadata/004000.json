@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-remains-of-the-day.md",
+  "related_resources": [
+    {
+      "source_id": "ml-remains-primary",
+      "reason": "Primary text and publication history."
+    },
+    {
+      "source_id": "ml-remains-nobel",
+      "reason": "Ishiguro’s biography and recollection of composing the book."
+    },
+    {
+      "source_id": "ml-remains-crash",
+      "reason": "Firsthand account of the four-week 1987 draft and later rewriting."
+    },
+    {
+      "source_id": "ml-remains-criticism",
+      "reason": "Scholarly analysis of guilt, memory, class, and unreliable narration."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "004000-h01",
+      "anchor": "Kazuo Ishiguro was born in Nagasaki in 1954 and moved with his family to England in 1960, when his father took up research work as an oceanographer.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-remains-nobel"
+      ],
+      "source_locator": "Ishiguro Nobel lecture: Nagasaki, move and father",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "004000-h02",
+      "anchor": "In his Nobel lecture, Ishiguro described growing up with an imagined Japan sustained by family conversation, childhood memory, and materials sent from abroad.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-remains-nobel"
+      ],
+      "source_locator": "Nobel lecture 2017: preservation of an imagined Japan",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "004000-h03",
+      "anchor": "Ishiguro and his wife Lorna arranged a four-week period in 1987 during which he cleared his schedule and wrote for much of each day.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-remains-crash"
+      ],
+      "source_locator": "Author Booker essay on Crash, 1987",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "004000-h04",
+      "anchor": "Ishiguro had prepared through reading about servants, interwar politics, and the English countryside.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-remains-crash"
+      ],
+      "source_locator": "Author essay: research for novel",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "004000-h05",
+      "anchor": "The book won the Booker Prize in 1989.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-remains-primary"
+      ],
+      "source_locator": "Booker official winner listing",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "004000-h06",
+      "anchor": "One of the novel's clearest moral tests concerns two Jewish employees, Ruth and Sarah.",
+      "kind": "textual_quotation_or_plot",
+      "source_ids": [
+        "ml-remains-primary",
+        "ml-remains-criticism"
+      ],
+      "source_locator": "Novel episode; scholarly essay recounts Ruth and Sarah dismissals",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

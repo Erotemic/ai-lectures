@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-beloved.md",
+  "related_resources": [
+    {
+      "source_id": "ml-beloved-primary",
+      "reason": "Read the original, particularly the nonlinear sequence, voice shifts, and closing movement."
+    },
+    {
+      "source_id": "ml-beloved-nea",
+      "reason": "Overview of novel and Morrison’s editorial and biographical background."
+    },
+    {
+      "source_id": "ml-beloved-interview",
+      "reason": "First-person account of the conception of the returned daughter."
+    },
+    {
+      "source_id": "ml-beloved-garner",
+      "reason": "Distinguish actual Garner case from fictional Sethe."
+    },
+    {
+      "source_id": "ml-beloved-1987",
+      "reason": "Contemporary interview on the historical and ethical starting point."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "003000-h01",
+      "anchor": "Toni Morrison was born Chloe Ardelia Wofford in Lorain, Ohio, in 1931.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-beloved-nea"
+      ],
+      "source_locator": "NEA Big Read: Toni Morrison biography",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "003000-h02",
+      "anchor": "At Random House she helped bring Black writers and thinkers into a publishing system that had too often treated their experiences as marginal.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-beloved-nea"
+      ],
+      "source_locator": "NEA: senior editor and publishing of authors",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "003000-h03",
+      "anchor": "One project was The Black Book, a 1974 collection of archival materials about Black American experience, edited and assembled through a collaboration involving Middleton A. Harris and others, with Morrison as an important editorial participant.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-beloved-nea",
+        "ml-beloved-garner"
+      ],
+      "source_locator": "NEA: The Black Book; Lehigh Garner clipping history",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "003000-h04",
+      "anchor": "Among the documents she encountered was a newspaper account of Margaret Garner, an enslaved woman who escaped with her family to Ohio in 1856 and killed a child when capture threatened.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-beloved-nea",
+        "ml-beloved-garner"
+      ],
+      "source_locator": "NEA and Lehigh: historical Garner case",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "003000-h05",
+      "anchor": "One striking difference is that Sethe and Denver remain alive and free at the novel's close, while Margaret Garner was recaptured and died enslaved.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-beloved-garner"
+      ],
+      "source_locator": "Lehigh: specific differences between Garner and Sethe",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "003000-h06",
+      "anchor": "In an interview published by the National Endowment for the Arts, Morrison explained a discovery she made while writing: the dead daughter had to be allowed to respond.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-beloved-interview"
+      ],
+      "source_locator": "NEA 2015 interview: dead daughter as necessary perspective",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "003000-h07",
+      "anchor": "The novel begins after almost all of this has happened.",
+      "kind": "textual_quotation_or_plot",
+      "source_ids": [
+        "ml-beloved-primary",
+        "ml-beloved-nea"
+      ],
+      "source_locator": "Novel opening / NEA narrative overview",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

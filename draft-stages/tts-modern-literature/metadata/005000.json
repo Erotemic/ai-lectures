@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-left-hand-of-darkness.md",
+  "related_resources": [
+    {
+      "source_id": "ml-left-primary",
+      "reason": "Original novel: gender experiment, political narrative, voice alternation and ice crossing."
+    },
+    {
+      "source_id": "ml-left-interview",
+      "reason": "Author’s firsthand account of Antarctic exploration reading."
+    },
+    {
+      "source_id": "ml-left-publicbooks",
+      "reason": "Author interview on questions about gender and fiction."
+    },
+    {
+      "source_id": "ml-left-essays",
+      "reason": "Le Guin’s retrospective critique of original gender-pronoun choices."
+    },
+    {
+      "source_id": "ml-left-loa",
+      "reason": "Edition contents and novel publication context."
+    },
+    {
+      "source_id": "ml-left-loabio",
+      "reason": "Biographical grounding of Le Guin’s upbringing and family."
+    },
+    {
+      "source_id": "ml-left-criticism",
+      "reason": "One scholarly approach to narrative multiplicity and gender."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "005000-h01",
+      "anchor": "Ursula K. Le Guin was born in Berkeley in 1929.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-left-loabio"
+      ],
+      "source_locator": "LOA author biography",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "005000-h02",
+      "anchor": "Her father, Alfred L. Kroeber, was an anthropologist; her mother, Theodora Kroeber, was a writer and biographer.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-left-loabio"
+      ],
+      "source_locator": "LOA biography",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "005000-h03",
+      "anchor": "In an interview later in her career, Le Guin described The Left Hand of Darkness as a way to investigate questions about gender that were pressing on her and on the culture around her.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-left-publicbooks"
+      ],
+      "source_locator": "Public Books interview: writing novel as inquiry into gender",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "005000-h04",
+      "anchor": "In an interview with the Library of America, she recalled reading accounts of Antarctic expeditions by Scott, Shackleton, and Cherry-Garrard for pleasure.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-left-interview"
+      ],
+      "source_locator": "LOA interview: polar exploration reading",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "005000-h05",
+      "anchor": "Le Guin later engaged that criticism directly, especially in her essay Is Gender Necessary? and its revised form.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-left-essays",
+        "ml-left-loa"
+      ],
+      "source_locator": "Essay original and redux in the collection / LOA edition",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "005000-h06",
+      "anchor": "Their relationship does not need to be reduced to a standard romance in order to be profound.",
+      "kind": "textual_quotation_or_plot",
+      "source_ids": [
+        "ml-left-primary"
+      ],
+      "source_locator": "Literary inference from Genly/Estraven ice crossing",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
