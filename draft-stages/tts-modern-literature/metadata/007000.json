@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-kindred.md",
+  "related_resources": [
+    {
+      "source_id": "ml-kindred-huntington",
+      "reason": "Biography, childhood, working life, manuscripts and author comments about Kindred."
+    },
+    {
+      "source_id": "ml-kindred-interview",
+      "reason": "Butler discusses researching Kindred, library sources, 1976 setting and intended emotional engagement."
+    },
+    {
+      "source_id": "ml-kindred-primary",
+      "reason": "Original copyrighted novel; the linked archive exhibition establishes bibliography and context."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "007000-h01",
+      "anchor": "Octavia Butler was born in Pasadena, California, in 1947.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-kindred-huntington"
+      ],
+      "source_locator": "Huntington biography",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "007000-h02",
+      "anchor": "Her father died when she was young, and her mother worked as a domestic employee.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-kindred-huntington"
+      ],
+      "source_locator": "Huntington biography",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "007000-h03",
+      "anchor": "The Huntington Library's exhibition of her papers documents the notebooks, photographs, and working habits behind that persistence.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-kindred-huntington"
+      ],
+      "source_locator": "Huntington manuscript exhibition",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "007000-h04",
+      "anchor": "In a 2004 interview with Joshunda Sanders, Butler recalled researching Kindred through slave narratives, historical studies, and writings by the wives of plantation owners.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-kindred-interview"
+      ],
+      "source_locator": "2004 Butler interview",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "007000-h05",
+      "anchor": "She also discussed her decision to begin in 1976, the United States bicentennial year.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-kindred-interview"
+      ],
+      "source_locator": "2004 Butler interview: bicentennial",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "007000-h06",
+      "anchor": "The novel was published in 1979, after the civil-rights movement had changed law and public life, and amid ongoing conflicts over inequality, memory, and the interpretation of American history.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-kindred-primary",
+        "ml-kindred-huntington"
+      ],
+      "source_locator": "Publication date and interpretive context",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

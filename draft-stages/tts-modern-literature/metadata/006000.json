@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-one-hundred-years-of-solitude.md",
+  "related_resources": [
+    {
+      "source_id": "ml-solitude-nobel",
+      "reason": "Public lecture connecting Latin American political history, repression, and literary expression."
+    },
+    {
+      "source_id": "ml-solitude-paris",
+      "reason": "Author discussing grandmother, tone, journalism, banana massacre and fiction."
+    },
+    {
+      "source_id": "ml-solitude-primary",
+      "reason": "Original copyrighted novel. Linked archive exhibition provides bibliographic context, not the text."
+    },
+    {
+      "source_id": "ml-solitude-ransom",
+      "reason": "Childhood grandparents, Aracataca, archival manuscript and composition."
+    },
+    {
+      "source_id": "ml-solitude-unesco",
+      "reason": "First-person discussion of his grandfather, regional history and literary imagination."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "006000-h01",
+      "anchor": "García Márquez was born in 1927 in Aracataca, a town in Colombia's Caribbean region.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-solitude-ransom"
+      ],
+      "source_locator": "Harry Ransom Center — Origins",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "006000-h02",
+      "anchor": "His grandfather Nicolás Márquez was a veteran of civil war.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-solitude-ransom",
+        "ml-solitude-unesco"
+      ],
+      "source_locator": "Harry Ransom Center / UNESCO interview",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "006000-h03",
+      "anchor": "His grandmother Tranquilina Iguarán recounted family and supernatural stories with an assurance that stayed with the boy.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-solitude-ransom",
+        "ml-solitude-paris"
+      ],
+      "source_locator": "Grandmother and method of telling",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "006000-h04",
+      "anchor": "He worked toward this novel for years, struggling with its form before completing the manuscript in the 1960s.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-solitude-ransom"
+      ],
+      "source_locator": "Archive manuscript and composition timeline",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "006000-h05",
+      "anchor": "The episode is connected to the real 1928 massacre of banana workers in Colombia, a history García Márquez discussed in interviews and in his Nobel lecture.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-solitude-paris",
+        "ml-solitude-nobel"
+      ],
+      "source_locator": "Banana workers massacre and literary treatment",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "006000-h06",
+      "anchor": "The novel's number of victims belongs to the fictional account; historians disagree about the exact historical death toll, and we should not import the novel's figure into a factual record.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ml-solitude-paris",
+        "ml-solitude-ransom"
+      ],
+      "source_locator": "Historical-versus-fictional death counts; cautious assessment",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

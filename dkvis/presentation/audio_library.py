@@ -37,6 +37,7 @@ CATEGORY_THEORY_DIRECTORY = ROOT / 'draft-stages' / 'tts-category-theory'
 LOGIC_TYPES_DIRECTORY = ROOT / 'draft-stages' / 'tts-logic-types'
 OPTIMIZATION_DUALITY_DIRECTORY = ROOT / 'draft-stages' / 'tts-optimization-duality'
 PROBABILITY_MEASURE_DIRECTORY = ROOT / 'draft-stages' / 'tts-probability-measure'
+MODERN_LITERATURE_DIRECTORY = ROOT / 'draft-stages' / 'tts-modern-literature'
 EXTRACTOR = SOURCE_DIRECTORY / 'extract_narration.py'
 AUDIO_PAGE = Path(__file__).with_name('audio_library.html')
 LECTURE_NAME = re.compile(r'^(\d{6})-.*\.md$')
@@ -971,6 +972,7 @@ class AudioLectureHub:
             ('logic-types', LOGIC_TYPES_DIRECTORY),
             ('optimization-duality', OPTIMIZATION_DUALITY_DIRECTORY),
             ('probability-measure', PROBABILITY_MEASURE_DIRECTORY),
+            ('modern-literature', MODERN_LITERATURE_DIRECTORY),
         ):
             if self.sources == SOURCE_DIRECTORY.resolve() and directory.is_dir():
                 self.tracks[track_id] = directory.resolve()
@@ -1068,6 +1070,11 @@ class AudioLectureHub:
                     count=len(self.engine(self.profile, 'probability-measure')._files()),
                     summary='Uncertainty, conditioning, expectation, and rigorous probability')]
               if 'probability-measure' in self.tracks else []),
+            *([dict(id='modern-literature', label='20th-Century Literature', kind='audio',
+                    url='/audio?track=modern-literature',
+                    count=len(self.engine(self.profile, 'modern-literature')._files()),
+                    summary='Close readings of novels, narrative voices, historical contexts, and moral complexity')]
+              if 'modern-literature' in self.tracks else []),
         ]
 
     def _read_registry(self):

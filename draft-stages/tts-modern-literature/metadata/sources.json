@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "ml-novel": {
+      "title": "Harper Lee, To Kill a Mockingbird (J. B. Lippincott, 1960)",
+      "kind": "literary_primary",
+      "url": "https://www.nationalbook.org/people/harper-lee/",
+      "access": "published_copyrighted_work",
+      "notes": "Primary text for interpretation and plot; the original is copyrighted. The URL documents the author, not a free full-text edition."
+    },
+    "ml-nea": {
+      "title": "National Endowment for the Arts, To Kill a Mockingbird (Big Read reader guide)",
+      "kind": "public_reader_guide",
+      "url": "https://www.arts.gov/initiatives/nea-big-read/kill-mockingbird",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Novel structure, characterization, editorial history, and broad thematic discussion."
+    },
+    "ml-ala-lee": {
+      "title": "Encyclopedia of Alabama, Harper Lee",
+      "kind": "regional_scholarly_encyclopedia",
+      "url": "https://encyclopediaofalabama.org/article/harper-lee/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Author biography, editorial and publication history, Watchman manuscript context."
+    },
+    "ml-ala-novel": {
+      "title": "Encyclopedia of Alabama, To Kill a Mockingbird",
+      "kind": "regional_scholarly_encyclopedia",
+      "url": "https://encyclopediaofalabama.org/article/to-kill-a-mockingbird/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Connections and distinctions between fictional trial and Alabama cases; setting and reception."
+    },
+    "ml-scottsboro": {
+      "title": "National Museum of African American History and Culture, The Scottsboro Boys",
+      "kind": "museum_history",
+      "url": "https://nmaahc.si.edu/explore/stories/scottsboro-boys",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Documented account of the 1931 arrests, trials and their longer political history."
+    },
+    "ml-ucla": {
+      "title": "UCLA Library, Rare 1964 Harper Lee radio interview",
+      "kind": "archival_primary_interview",
+      "url": "https://newsroom.ucla.edu/stories/ucla-library-releases-audio-of-rare-harper-lee-radio-interview",
+      "access": "free_no_login",
+      "format": "article_and_audio",
+      "notes": "First-person recorded evidence of Lee’s remarks about reception and literary ambitions."
+    },
+    "ml-facing": {
+      "title": "Facing History & Ourselves, Teaching Mockingbird",
+      "kind": "critical_pedagogy",
+      "url": "https://www.facinghistory.org/resource-library/teaching-mockingbird-0",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Balancing moral-courage readings with limits of a white-centered perspective; responsible classroom treatment."
+    },
+    "ml-cambridge": {
+      "title": "Cambridge History of American Literature, Novels of Race and Class",
+      "kind": "scholarly_interpretation",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-american-literature/novels-of-race-and-class/DCA541275C3D4290574B3C7BD0555619",
+      "access": "publisher_abstract",
+      "format": "abstract",
+      "notes": "Scholarly perspective on class, race, childhood narration, and the novel’s liberal politics; full chapter may require access."
+    },
+    "ml-watchman": {
+      "title": "Encyclopedia of Alabama, Go Set a Watchman",
+      "kind": "regional_scholarly_encyclopedia",
+      "url": "https://encyclopediaofalabama.org/article/go-set-a-watchman/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Manuscript’s relationship to 1960 novel and controversy surrounding 2015 publication."
+    },
+    "ml-chicago": {
+      "title": "Chicago Public Library, To Kill a Mockingbird discussion questions",
+      "kind": "library_learning_resource",
+      "url": "https://www.chipublib.org/to-kill-a-mockingbir-discussion-questions/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Questions about voice, Boo, law, race, class, and novel versus film."
+    },
+    "ml-dpla": {
+      "title": "Digital Public Library of America, To Kill a Mockingbird primary-source set",
+      "kind": "historical_context_resource",
+      "url": "https://dp.la/primary-source-sets/to-kill-a-mockingbird-by-harper-lee",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Period documents and historical context to distinguish historical setting from publication context."
+    },
+    "ml-wiki": {
+      "title": "Wikipedia, To Kill a Mockingbird",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "General orientation to publication, literary reception, adaptations; not a primary authority."
+    },
+    "ml-achebe-primary": {
+      "title": "Chinua Achebe, Things Fall Apart (Heinemann, 1958)",
+      "kind": "literary_primary",
+      "url": "https://www.penguinrandomhouse.com/series/TFI/the-african-trilogy/",
+      "access": "published_copyrighted_work",
+      "notes": "Primary fictional text; publisher listing provides bibliographic orientation and description, not full text."
+    },
+    "ml-achebe-paris": {
+      "title": "Chinua Achebe, The Art of Fiction No. 139, interviewed by Jerome Brooks, The Paris Review (1994)",
+      "kind": "author_primary_interview",
+      "url": "https://www.theparisreview.org/interviews/1720/the-art-of-fiction-no-139-chinua-achebe",
+      "access": "free_no_login",
+      "notes": "First-person testimony: childhood stories and Christianity, Ibadan education, language choices, and the lost-at-typists manuscript episode."
+    },
+    "ml-achebe-oxford": {
+      "title": "Isidore Okpewho, ed., Chinua Achebe’s Things Fall Apart: A Casebook (Oxford UP, 2003)",
+      "kind": "scholarly_criticism",
+      "url": "https://academic.oup.com/book/48533",
+      "access": "publisher_abstract_contents",
+      "notes": "Scholarly criticism on Igbo cosmology, gender, tragic form, ethics of the Ikemefuna killing, and colonial representation; abstract and table of contents only."
+    },
+    "ml-achebe-loc": {
+      "title": "Library of Congress, Achebe’s Impact: 50th anniversary symposium (2008)",
+      "kind": "public_cultural_institution",
+      "url": "https://www.loc.gov/loc/lcib/0812/achebe.html",
+      "access": "free_no_login",
+      "notes": "1958 publication and international literary reception; not a source for close readings."
+    },
+    "ml-achebe-penguin": {
+      "title": "Penguin Random House, Things Fall Apart educator guide",
+      "kind": "publisher_education",
+      "url": "https://images.penguinrandomhouse.com/promo_image/9780385474542_9379.pdf",
+      "access": "free_pdf",
+      "notes": "Teaching guide discussing plot, form, language, and colonialism. Cross-check plot in a published edition."
+    },
+    "ml-beloved-primary": {
+      "title": "Toni Morrison, Beloved (Alfred A. Knopf, 1987)",
+      "kind": "literary_primary",
+      "url": "https://www.arts.gov/initiatives/nea-big-read/beloved",
+      "access": "published_copyrighted_work",
+      "notes": "Primary novel. URL points to NEA background guide; not a full-text edition."
+    },
+    "ml-beloved-nea": {
+      "title": "National Endowment for the Arts, Big Read: Beloved",
+      "kind": "public_reader_guide",
+      "url": "https://www.arts.gov/initiatives/nea-big-read/beloved",
+      "access": "free_no_login",
+      "notes": "Detailed overview of narrative technique, author biography, editorial history, and Garner inspiration."
+    },
+    "ml-beloved-interview": {
+      "title": "National Endowment for the Arts, Toni Morrison, on How Beloved Came to Be (2015)",
+      "kind": "author_primary_interview",
+      "url": "https://www.arts.gov/stories/blog/2015/toni-morrison-how-beloved-came-be",
+      "access": "free_no_login",
+      "notes": "Morrison on her discovery that the dead daughter needed to speak and on how the novel took form."
+    },
+    "ml-beloved-garner": {
+      "title": "Lehigh University, The Story of Margaret Garner: Inspiration for Beloved (Amardeep Singh)",
+      "kind": "university_historical_research",
+      "url": "https://scalar.lehigh.edu/toni-morrison/the-story-of-margaret-garner-inspiration-for-beloved?path=beloved-1987-overview-and-links",
+      "access": "free_no_login",
+      "notes": "1856 contemporary records and concrete differences between Garner’s history and Morrison’s fiction."
+    },
+    "ml-beloved-1987": {
+      "title": "Los Angeles Times, A Haunting Death Inspires Beloved (1987)",
+      "kind": "contemporary_author_interview",
+      "url": "https://www.latimes.com/archives/la-xpm-1987-10-14-vw-9326-story.html",
+      "access": "free_article",
+      "notes": "Contemporary publication-era Morrison discussion about Garner and the novel’s underlying dilemma."
+    },
+    "ml-remains-primary": {
+      "title": "Kazuo Ishiguro, The Remains of the Day (Faber and Faber, 1989)",
+      "kind": "literary_primary",
+      "url": "https://thebookerprizes.com/the-booker-library/books/the-remains-of-the-day",
+      "access": "published_copyrighted_work",
+      "notes": "Primary novel; Booker page verifies publication and prize, and gives plot orientation."
+    },
+    "ml-remains-nobel": {
+      "title": "Kazuo Ishiguro, My Twentieth Century Evening — and Other Small Breakthroughs (Nobel lecture, 2017)",
+      "kind": "author_primary_lecture",
+      "url": "https://www.nobelprize.org/prizes/literature/2017/ishiguro/lecture/",
+      "access": "free_no_login",
+      "notes": "First-person biography, childhood in Japan/England, authorial interest in memory and narrative, and role of music in shaping the ending."
+    },
+    "ml-remains-crash": {
+      "title": "Kazuo Ishiguro, How I Wrote The Remains of the Day in Four Weeks (2014)",
+      "kind": "author_primary_essay",
+      "url": "https://thebookerprizes.com/the-booker-library/features/how-kazuo-ishiguro-wrote-the-remains-of-the-day",
+      "access": "free_no_login",
+      "notes": "Firsthand account of the 1987 drafting crash, Lorna’s logistical help, sources read, and later revisions."
+    },
+    "ml-remains-criticism": {
+      "title": "Cynthia F. Wong, Kazuo Ishiguro’s The Remains of the Day, in A Companion to the British and Irish Novel 1945–2000",
+      "kind": "scholarly_criticism",
+      "url": "https://blogs.baruch.cuny.edu/summer3015/files/2024/07/Wong-Kazuo-Ishiguro-s-The-Remains-of-the-Day-1-1.pdf",
+      "access": "university_hosted_article",
+      "notes": "Interpretation of Stevens’s narrative distance, Darlington’s antisemitism, class and moral complicity."
+    },
+    "ml-left-primary": {
+      "title": "Ursula K. Le Guin, The Left Hand of Darkness (Ace, 1969)",
+      "kind": "literary_primary",
+      "url": "https://www.loa.org/books/552-hainish-novels-amp-stories-volume-one/",
+      "access": "published_copyrighted_work",
+      "notes": "Primary text; Library of America edition includes contextual essays and later commentary."
+    },
+    "ml-left-loa": {
+      "title": "Library of America, Hainish Novels & Stories, Volume One",
+      "kind": "publisher_scholarly_edition",
+      "url": "https://www.loa.org/books/552-hainish-novels-amp-stories-volume-one/",
+      "access": "edition_description",
+      "notes": "Publication history, central story outline, included author introductions and Is Gender Necessary? Redux."
+    },
+    "ml-left-interview": {
+      "title": "Library of America, Pure Imagining, Within Limits: interview with Ursula K. Le Guin",
+      "kind": "author_primary_interview",
+      "url": "https://www.loa.org/news-and-views/1327-pure-imagining-within-limits-ursula-k-le-guin-on-the-hainish-novels-amp-stories/",
+      "access": "free_no_login",
+      "notes": "Le Guin’s firsthand account of reading polar exploration and constructing the cold environment."
+    },
+    "ml-left-publicbooks": {
+      "title": "Public Books, The Story’s Where I Go: An Interview with Ursula K. Le Guin (2015)",
+      "kind": "author_primary_interview",
+      "url": "https://www.publicbooks.org/the-storys-where-i-go-an-interview-with-ursula-k-le-guin/",
+      "access": "free_no_login",
+      "notes": "Le Guin on gender as a question explored through the novel, and on literary genre."
+    },
+    "ml-left-essays": {
+      "title": "Ursula K. Le Guin, The Language of the Night (essay collection)",
+      "kind": "author_primary_essays",
+      "url": "https://www.ursulakleguin.com/the-language-of-the-night?rq=the+child+and+the+shadow",
+      "access": "publisher_description",
+      "notes": "Contains introductions and Is Gender Necessary? / Is Gender Necessary? Redux: later reevaluation of pronoun decisions and limits."
+    },
+    "ml-left-loabio": {
+      "title": "Library of America, Ursula K. Le Guin: author biography",
+      "kind": "institutional_biography",
+      "url": "https://www.loa.org/writers/655-ursula-k-le-guin/",
+      "access": "free_no_login",
+      "notes": "Writer family and biographical context, including anthropologist Alfred Kroeber and Theodora Kroeber."
+    },
+    "ml-left-criticism": {
+      "title": "Ursula K. Le Guin official site, Postmodern Anarchism in the Novels of Ursula K. Le Guin (scholarly essay)",
+      "kind": "scholarly_interpretation",
+      "url": "https://www.ursulakleguin.com/postmodern-anarchism",
+      "access": "free_no_login",
+      "notes": "Example of a critical reading of narrative multiplicity, gender, political forms; interpretations remain disputed."
+    },
+    "ml-solitude-primary": {
+      "title": "Gabriel García Márquez, Cien años de soledad (Editorial Sudamericana, 1967)",
+      "kind": "literary_primary",
+      "url": "https://www.hrc.utexas.edu/exhibitions/2020/gabriel-garcia-marquez/",
+      "access": "published_copyrighted_work",
+      "format": "html",
+      "notes": "Original copyrighted novel. Linked archive exhibition provides bibliographic context, not the text."
+    },
+    "ml-solitude-ransom": {
+      "title": "Harry Ransom Center, Gabriel García Márquez: The Making of a Global Writer",
+      "kind": "archive_exhibition",
+      "url": "https://www.hrc.utexas.edu/exhibitions/2020/gabriel-garcia-marquez/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Childhood grandparents, Aracataca, archival manuscript and composition."
+    },
+    "ml-solitude-paris": {
+      "title": "Gabriel García Márquez, The Art of Fiction No. 69, The Paris Review",
+      "kind": "author_primary_interview",
+      "url": "https://www.theparisreview.org/interviews/3196/the-art-of-fiction-no-69-gabriel-garcia-marquez",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Author discussing grandmother, tone, journalism, banana massacre and fiction."
+    },
+    "ml-solitude-nobel": {
+      "title": "Gabriel García Márquez, The Solitude of Latin America, Nobel Lecture, 8 December 1982",
+      "kind": "author_primary_lecture",
+      "url": "https://www.nobelprize.org/prizes/literature/1982/marquez/lecture/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Public lecture connecting Latin American political history, repression, and literary expression."
+    },
+    "ml-solitude-unesco": {
+      "title": "UNESCO, Interview with Gabriel García Márquez",
+      "kind": "author_primary_interview",
+      "url": "https://www.unesco.org/en/articles/interview-gabriel-garcia-marquez-0",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "First-person discussion of his grandfather, regional history and literary imagination."
+    },
+    "ml-kindred-primary": {
+      "title": "Octavia E. Butler, Kindred (Doubleday, 1979)",
+      "kind": "literary_primary",
+      "url": "https://www.huntington.org/exhibitions/octavia-e-butler-telling-my-stories",
+      "access": "published_copyrighted_work",
+      "format": "html",
+      "notes": "Original copyrighted novel; the linked archive exhibition establishes bibliography and context."
+    },
+    "ml-kindred-huntington": {
+      "title": "The Huntington, Octavia E. Butler: Telling My Stories",
+      "kind": "archive_exhibition",
+      "url": "https://www.huntington.org/exhibitions/octavia-e-butler-telling-my-stories",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Biography, childhood, working life, manuscripts and author comments about Kindred."
+    },
+    "ml-kindred-interview": {
+      "title": "Joshunda Sanders, My 2004 Interview with Octavia Butler",
+      "kind": "author_primary_interview",
+      "url": "https://joshundasanders.com/2018/06/22/my-2004-interview-with-octavia-butler/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Butler discusses researching Kindred, library sources, 1976 setting and intended emotional engagement."
+    },
+    "ml-kindred-resources": {
+      "title": "The Huntington, Octavia E. Butler Papers: Additional Resources",
+      "kind": "library_research_guide",
+      "url": "https://researchguides.huntington.org/oeb/additional",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Archival guide to Butler interviews and bibliographic material."
+    },
+    "ml-invisible-primary": {
+      "title": "Ralph Ellison, Invisible Man (Random House, 1952)",
+      "kind": "literary_primary",
+      "url": "https://www.nationalbook.org/books/invisible-man/",
+      "access": "published_copyrighted_work",
+      "format": "html",
+      "notes": "Original copyrighted novel; National Book Foundation provides bibliographic record and synopsis."
+    },
+    "ml-invisible-national": {
+      "title": "National Book Foundation, Invisible Man — Winner, 1953 National Book Award",
+      "kind": "award_archive",
+      "url": "https://www.nationalbook.org/books/invisible-man/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Publication date, award, literary significance and main narrative progression."
+    },
+    "ml-invisible-loc": {
+      "title": "Library of Congress, Ralph Ellison (Read.gov)",
+      "kind": "institutional_author_bio",
+      "url": "https://www.read.gov/fiction/ellison.html",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Early life, musical education, Tuskegee and New York career."
+    },
+    "ml-invisible-paris": {
+      "title": "Ralph Ellison, The Art of Fiction No. 8, The Paris Review, Spring 1955",
+      "kind": "author_primary_interview",
+      "url": "https://www.theparisreview.org/interviews/5053/the-art-of-fiction-no-8-ralph-ellison",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "First-person view of artistic purpose and relation between literature and social experience."
+    },
+    "ml-invisible-papers": {
+      "title": "Library of Congress, Ralph Ellison Papers",
+      "kind": "archive_finding_aid",
+      "url": "https://findingaids.loc.gov/repositories/19/resources/2429",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Publication and archive timeline."
+    },
+    "ml-dispossessed-primary": {
+      "title": "Ursula K. Le Guin, The Dispossessed: An Ambiguous Utopia (Harper & Row, 1974)",
+      "kind": "literary_primary",
+      "url": "https://www.ursulakleguin.com/dispossessed",
+      "access": "published_copyrighted_work",
+      "format": "html",
+      "notes": "Author estate bibliography and synopsis; novel copyrighted."
+    },
+    "ml-dispossessed-author": {
+      "title": "Ursula K. Le Guin, The Dispossessed — Author official site",
+      "kind": "author_bibliography",
+      "url": "https://www.ursulakleguin.com/dispossessed",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Publisher and award information; official synopsis."
+    },
+    "ml-dispossessed-interview": {
+      "title": "Ursula K. Le Guin, Verbal Dance: An Interview, Fifth Estate (2010)",
+      "kind": "author_primary_interview",
+      "url": "https://fifthestate.anarchistlibraries.net/library/382-spring-2010-verbal-dance-interview-ursula-k-le-guin",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Le Guin discusses her anarchist reading, Kropotkin, Goodmans, and development of the physicist character."
+    },
+    "ml-dispossessed-criticism": {
+      "title": "Schemata of Estrangement in Ursula K. Le Guin’s The Dispossessed, Language and Literature (2024)",
+      "kind": "scholarly_criticism",
+      "url": "https://journals.sagepub.com/doi/10.1177/09639470241240923",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Peer-reviewed treatment of estrangement and the institutional limits of Anarresti society."
+    },
+    "ml-dispossessed-nebula": {
+      "title": "Science Fiction and Fantasy Writers Association, Nebula Awards — The Dispossessed",
+      "kind": "award_archive",
+      "url": "https://nebulas.sfwa.org/nominated-work/the-dispossessed/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Best Novel 1974 award record."
+    }
+  }
+}
