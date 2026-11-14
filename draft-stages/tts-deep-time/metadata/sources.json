@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "dt-firas": {
+      "title": "NASA LAMBDA, COBE/FIRAS Overview",
+      "kind": "instrument_result",
+      "url": "https://lambda.gsfc.nasa.gov/product/cobe/firas_overview.html",
+      "access": "free_no_login",
+      "notes": "Direct measurement of the near-blackbody CMB spectrum near 2.725 K and its foreground/instrument context."
+    },
+    "dt-planck-results": {
+      "title": "Planck Collaboration, Planck 2018 results VI: Cosmological parameters (2020)",
+      "kind": "research_primary",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10110087/",
+      "access": "free_no_login",
+      "notes": "Six-parameter base-Lambda-CDM fit; published derived parameters, precision conditional on model, joint probe consistency."
+    },
+    "dt-planck-esa": {
+      "title": "European Space Agency, Planck science highlights",
+      "kind": "mission_summary",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights",
+      "access": "free_no_login",
+      "notes": "CMB measured anisotropies, last-scattering inference, Planck composition and mission history."
+    },
+    "dt-cmb-esa-history": {
+      "title": "European Space Agency, Planck and the cosmic microwave background",
+      "kind": "mission_summary",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/planck/planck-and-the-cosmic-microwave-background",
+      "access": "free_no_login",
+      "notes": "Historical roles of Gamow, Alpher, Herman, Penzias, Wilson; early radiation detection and interpretation."
+    },
+    "dt-bbn-pdg": {
+      "title": "Particle Data Group, Big Bang Nucleosynthesis (2024 review)",
+      "kind": "technical_review",
+      "url": "https://pdg.lbl.gov/2024/reviews/rpp2024-rev-bbang-nucleosynthesis.pdf",
+      "access": "free_no_login",
+      "notes": "BBN theory, deuterium absorption spectra, baryon density cross-checks, outstanding lithium problem."
+    },
+    "dt-bbn-2026": {
+      "title": "Precision cosmology with the lightest elements (2026 review)",
+      "kind": "technical_review",
+      "url": "https://doi.org/10.1007/s10509-026-04551-x",
+      "access": "free_no_login",
+      "notes": "2026 primordial D/H = (2.510 +/- 0.028) x 10^-5 and inferred Omega_b h^2 = 0.02241 +/- 0.00031."
+    },
+    "dt-time-dilation-des": {
+      "title": "Dark Energy Survey, Slow supernovae show cosmological time dilation out to z ~ 1 (2024)",
+      "kind": "research_primary",
+      "url": "https://doi.org/10.1093/mnras/stae2008",
+      "access": "free_no_login",
+      "notes": "1504 Type Ia SNe; fitted time-dilation exponent b = 1.003 +/- 0.005(stat) +/- 0.010(sys)."
+    },
+    "dt-bullet": {
+      "title": "NASA, Bullet Cluster multiwavelength and gravitational-lensing observations",
+      "kind": "mission_summary",
+      "url": "https://science.nasa.gov/asset/hubble/visible-light-and-x-ray-composite-image-of-galaxy-cluster-1e-0657-556/",
+      "access": "free_no_login",
+      "notes": "Lensing-inferred gravitating matter displaced from X-ray luminous plasma in cluster collision."
+    },
+    "dt-shoes": {
+      "title": "Riess et al., A Comprehensive Measurement of the Local Hubble Constant (2022)",
+      "kind": "research_primary",
+      "url": "https://doi.org/10.3847/2041-8213/ac5c5b",
+      "access": "free_no_login",
+      "notes": "SH0ES 73.04 +/- 1.04 km/s/Mpc with Cepheid-calibrated Type Ia supernovae."
+    },
+    "dt-desi-dr2": {
+      "title": "DESI Collaboration, DR2 Results II: BAO measurements and cosmological constraints (2025)",
+      "kind": "research_primary",
+      "url": "https://doi.org/10.1103/tr6y-kpc6",
+      "access": "free_no_login",
+      "notes": "BAO from 14+ million galaxies/quasars; dynamical-dark-energy preference arises through combined analyses."
+    },
+    "dt-desi-review-2026": {
+      "title": "Turyshev, Dark energy after DESI DR2: Observational status, reconstructions, and physical models (2026)",
+      "kind": "technical_review",
+      "url": "https://doi.org/10.1103/dqxw-yp1j",
+      "access": "free_no_login",
+      "notes": "Dataset and calibration dependence of constraints on evolving dark energy."
+    },
+    "dt-nasa-early": {
+      "title": "NASA, Big Bang and the Evolution of the Universe",
+      "kind": "mission_summary",
+      "url": "https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/big-bang-and-the-evolution-of-the-universe/",
+      "access": "free_no_login",
+      "notes": "Recombination around 380,000 years; inflation compatible with but not established uniquely by CMB data."
+    },
+    "dt-nasa-webb": {
+      "title": "NASA, Webb Science: Galaxies Through Time (2025)",
+      "kind": "mission_summary",
+      "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/webb-science-galaxies-through-time/",
+      "access": "free_no_login",
+      "notes": "Early galaxies, selection and interpretation; JWST observations have not disproved hot Big Bang history."
+    },
+    "dt-alternatives-history": {
+      "title": "Alternative explanations of the cosmic microwave background: A historical and epistemological perspective (2018)",
+      "kind": "scholarly_history",
+      "url": "https://doi.org/10.1016/j.shpsb.2017.04.005",
+      "access": "free_no_login",
+      "notes": "Historical CMB alternatives, how observational tests constrained them, epistemology of cosmological inference. Abstract public; full text availability may vary."
+    }
+  }
+}

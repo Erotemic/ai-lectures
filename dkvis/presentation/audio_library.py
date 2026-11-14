@@ -38,6 +38,7 @@ LOGIC_TYPES_DIRECTORY = ROOT / 'draft-stages' / 'tts-logic-types'
 OPTIMIZATION_DUALITY_DIRECTORY = ROOT / 'draft-stages' / 'tts-optimization-duality'
 PROBABILITY_MEASURE_DIRECTORY = ROOT / 'draft-stages' / 'tts-probability-measure'
 MODERN_LITERATURE_DIRECTORY = ROOT / 'draft-stages' / 'tts-modern-literature'
+DEEP_TIME_DIRECTORY = ROOT / 'draft-stages' / 'tts-deep-time'
 EXTRACTOR = SOURCE_DIRECTORY / 'extract_narration.py'
 AUDIO_PAGE = Path(__file__).with_name('audio_library.html')
 LECTURE_NAME = re.compile(r'^(\d{6})-.*\.md$')
@@ -973,6 +974,7 @@ class AudioLectureHub:
             ('optimization-duality', OPTIMIZATION_DUALITY_DIRECTORY),
             ('probability-measure', PROBABILITY_MEASURE_DIRECTORY),
             ('modern-literature', MODERN_LITERATURE_DIRECTORY),
+            ('deep-time', DEEP_TIME_DIRECTORY),
         ):
             if self.sources == SOURCE_DIRECTORY.resolve() and directory.is_dir():
                 self.tracks[track_id] = directory.resolve()
@@ -1075,6 +1077,11 @@ class AudioLectureHub:
                     count=len(self.engine(self.profile, 'modern-literature')._files()),
                     summary='Close readings of novels, narrative voices, historical contexts, and moral complexity')]
               if 'modern-literature' in self.tracks else []),
+            *([dict(id='deep-time', label='Deep Time · Evidence and Reconstruction', kind='audio',
+                    url='/audio?track=deep-time',
+                    count=len(self.engine(self.profile, 'deep-time')._files()),
+                    summary='Cosmic and Earth history reconstructed from observations, dated traces, and competing models')]
+              if 'deep-time' in self.tracks else []),
         ]
 
     def _read_registry(self):

@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-cosmology-what-have-we-measured.md",
+  "related_resources": [
+    {
+      "source_id": "dt-firas",
+      "reason": "Measured CMB spectrum and instrument context"
+    },
+    {
+      "source_id": "dt-planck-results",
+      "reason": "Model-conditioned cosmic age, component budgets and parameter precision"
+    },
+    {
+      "source_id": "dt-planck-esa",
+      "reason": "CMB anisotropy measurements and last scattering"
+    },
+    {
+      "source_id": "dt-cmb-esa-history",
+      "reason": "History of CMB prediction and detection"
+    },
+    {
+      "source_id": "dt-bbn-pdg",
+      "reason": "Primordial nuclei, quasar absorption, and lithium discrepancy"
+    },
+    {
+      "source_id": "dt-bbn-2026",
+      "reason": "Independent deuterium-derived baryon density estimate"
+    },
+    {
+      "source_id": "dt-time-dilation-des",
+      "reason": "Cosmological time dilation from supernova light curves"
+    },
+    {
+      "source_id": "dt-bullet",
+      "reason": "Observed cluster lensing and X-ray gas displacement"
+    },
+    {
+      "source_id": "dt-shoes",
+      "reason": "Locally calibrated Hubble-constant estimate"
+    },
+    {
+      "source_id": "dt-desi-dr2",
+      "reason": "DESI BAO measurement and combined-model fits"
+    },
+    {
+      "source_id": "dt-desi-review-2026",
+      "reason": "Sensitivity of evolving-dark-energy claims to model and data"
+    },
+    {
+      "source_id": "dt-nasa-early",
+      "reason": "Early-universe model and inflation boundaries"
+    },
+    {
+      "source_id": "dt-nasa-webb",
+      "reason": "Early galaxies and telescope selection/interpretation"
+    },
+    {
+      "source_id": "dt-alternatives-history",
+      "reason": "Historical rejected and competing CMB explanations"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "001000-e01",
+      "anchor": "Imagine holding a spectrograph up to a faint galaxy.",
+      "kind": "expository_model",
+      "source_ids": [
+        "dt-planck-esa"
+      ],
+      "source_locator": "Conceptual illustration of redshift measurement",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e02",
+      "anchor": "In a study of more than fifteen hundred Type Ia supernovae, researchers found this time stretching close to the predicted dependence.",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-time-dilation-des"
+      ],
+      "source_locator": "DES 2024, 1504 supernovae",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e03",
+      "anchor": "The COBE satellite's spectrometer measured a temperature near two point seven two five kelvin.",
+      "kind": "instrument_result",
+      "source_ids": [
+        "dt-firas"
+      ],
+      "source_locator": "FIRAS temperature",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e04",
+      "anchor": "The commonly quoted time of this transition is about three hundred eighty thousand years after the beginning of the standard hot Big Bang timeline.",
+      "kind": "model_inference",
+      "source_ids": [
+        "dt-planck-esa",
+        "dt-nasa-early"
+      ],
+      "source_locator": "Last scattering age conditional on cosmology",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e05",
+      "anchor": "The satellite missions COBE, WMAP, and Planck measured these variations increasingly well.",
+      "kind": "history_of_science",
+      "source_ids": [
+        "dt-planck-esa",
+        "dt-cmb-esa-history"
+      ],
+      "source_locator": "Mission history and anisotropy measurement",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e06",
+      "anchor": "A commonly quoted numerical result is thirteen point seven nine seven billion years with a formal uncertainty of about twenty-three million years for that particular data combination and model.",
+      "kind": "model_inference",
+      "source_ids": [
+        "dt-planck-results"
+      ],
+      "source_locator": "Planck 2018 parameter table",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e07",
+      "anchor": "The same analysis gives a present-day energy budget of roughly five percent ordinary matter, twenty-seven percent dark matter, and sixty-eight percent a component described as dark energy.",
+      "kind": "model_inference",
+      "source_ids": [
+        "dt-planck-results",
+        "dt-planck-esa"
+      ],
+      "source_locator": "Derived fractional densities, base Lambda CDM",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e08",
+      "anchor": "Some of the lightest atomic nuclei were produced when the universe was only minutes old in the standard reconstruction.",
+      "kind": "model_inference",
+      "source_ids": [
+        "dt-bbn-pdg"
+      ],
+      "source_locator": "PDG BBN review, early hot epoch",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e09",
+      "anchor": "A recent synthesis gives an inferred baryon-density parameter from deuterium of about zero point zero two two four, in close agreement with the value inferred from microwave fluctuations.",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-bbn-2026",
+        "dt-planck-results"
+      ],
+      "source_locator": "2026 light elements review Omega_b h^2",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e10",
+      "anchor": "Simple standard calculations overpredict the abundance of lithium compared with what is inferred from some ancient, metal-poor stars.",
+      "kind": "open_problem",
+      "source_ids": [
+        "dt-bbn-pdg"
+      ],
+      "source_locator": "PDG lithium discrepancy",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e11",
+      "anchor": "A particularly instructive case is a collision of galaxy clusters called the Bullet Cluster.",
+      "kind": "observational_case",
+      "source_ids": [
+        "dt-bullet"
+      ],
+      "source_locator": "Multiwavelength Bullet Cluster study",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e12",
+      "anchor": "One route uses the microwave background and a Lambda cold dark matter model to infer today's expansion rate, about sixty-seven kilometers per second per megaparsec.",
+      "kind": "model_inference",
+      "source_ids": [
+        "dt-planck-results"
+      ],
+      "source_locator": "Planck baseline H0",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e13",
+      "anchor": "Another builds a distance ladder using geometric calibrations, pulsating stars, and supernovae, and some prominent analyses obtain roughly seventy-three in the same units.",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-shoes"
+      ],
+      "source_locator": "SH0ES baseline 2022 H0",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e14",
+      "anchor": "The DESI measurements of baryon acoustic oscillations are real observations.",
+      "kind": "instrument_result",
+      "source_ids": [
+        "dt-desi-dr2"
+      ],
+      "source_locator": "BAO catalog observations and statistics",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e15",
+      "anchor": "When combined with selected microwave and supernova datasets, some fits improve if dark energy is allowed to evolve.",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-desi-dr2",
+        "dt-desi-review-2026"
+      ],
+      "source_locator": "Conditional dynamical dark energy fits",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e16",
+      "anchor": "There are alternatives worth studying seriously.",
+      "kind": "scientific_scope",
+      "source_ids": [
+        "dt-alternatives-history",
+        "dt-nasa-early"
+      ],
+      "source_locator": "Competing early-universe mechanisms are not equally established",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-e17",
+      "anchor": "Simple tired-light explanations of redshift lack the observed time dilation of distant events.",
+      "kind": "model_comparison",
+      "source_ids": [
+        "dt-time-dilation-des"
+      ],
+      "source_locator": "Time dilation discriminates naive nonexpanding redshift mechanisms",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
