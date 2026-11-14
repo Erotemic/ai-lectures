@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-missing-mass-gravity.md",
+  "related_resources": [
+    {
+      "source_id": "dt-clowe-2006",
+      "reason": "Bullet Cluster galaxy/gas weak-lensing peak displacement under relativistic gravity."
+    },
+    {
+      "source_id": "dt-rar-2016",
+      "reason": "153 SPARC disk galaxies, 2693 measurements; observed-baryonic acceleration relation."
+    },
+    {
+      "source_id": "dt-planck-results",
+      "reason": "Six-parameter base-Lambda-CDM fit; published derived parameters, precision conditional on model, joint probe consistency."
+    },
+    {
+      "source_id": "dt-lz-neutrino-2026",
+      "reason": "August 2026 light-dark-matter limits and 4.5-sigma coherent solar-neutrino scattering evidence."
+    },
+    {
+      "source_id": "dt-lz-sept-2026",
+      "reason": "Global 2.6-sigma anomaly, local 3.4 sigma; not a particle discovery."
+    },
+    {
+      "source_id": "dt-euclid-dr1f-2026",
+      "reason": "November 2026 foundation release; >15,000 strong-lens candidates; shear cosmology data are later."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "006000-e01",
+      "anchor": "The observed quantity is the motion of emitting gas.",
+      "kind": "observation",
+      "source_ids": [
+        "dt-rar-2016"
+      ],
+      "source_locator": "rotation curves, inference of enclosed mass",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "006000-e02",
+      "anchor": "In 2016, Stacy McGaugh, Federico Lelli, and James Schombert",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-rar-2016"
+      ],
+      "source_locator": "153 disk sample radial acceleration relation",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "006000-e03",
+      "anchor": "Consider the Bullet Cluster",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-clowe-2006"
+      ],
+      "source_locator": "2006 weak lensing / X-ray plasma offset",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "006000-e04",
+      "anchor": "The microwave sky constrains the gravitational inventory",
+      "kind": "model_inference",
+      "source_ids": [
+        "dt-planck-results"
+      ],
+      "source_locator": "CMB baryons vs dark density",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "006000-e05",
+      "anchor": "In September 2026 the collaboration also reported one high-energy nuclear-recoil-like event",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-lz-sept-2026"
+      ],
+      "source_locator": "2.6 global sigma search correction",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "006000-e06",
+      "anchor": "In August 2026 LZ reported evidence of coherent scattering of solar neutrinos",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-lz-neutrino-2026"
+      ],
+      "source_locator": "4.5 sigma solar CEvNS search",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "006000-e07",
+      "anchor": "On November twelfth, 2026, the Euclid mission released",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-euclid-dr1f-2026"
+      ],
+      "source_locator": "first DR1 foundation date, candidates vs cosmology",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-vacuum-acceleration-under-test.md",
+  "related_resources": [
+    {
+      "source_id": "dt-des-sn5-2024",
+      "reason": "Type Ia light curves and model-dependent acceleration, ~1600 DES events."
+    },
+    {
+      "source_id": "dt-desi-dr2-pubs",
+      "reason": "March 2025 BAO results and 30 July 2026 Lyman-alpha Alcock-Paczynski full-shape analysis."
+    },
+    {
+      "source_id": "dt-desi-ap-2026",
+      "reason": "z_eff 2.33, AP 1% precision, joint preference 2.7 sigma DESI+CMB and 3.2 with supernovae."
+    },
+    {
+      "source_id": "dt-desi-review-2026",
+      "reason": "Dataset and calibration dependence of constraints on evolving dark energy."
+    },
+    {
+      "source_id": "dt-planck-results",
+      "reason": "Six-parameter base-Lambda-CDM fit; published derived parameters, precision conditional on model, joint probe consistency."
+    },
+    {
+      "source_id": "dt-shoes-2025",
+      "reason": "H0 73.49 +/- 0.93 Cepheid calibration and 73.18 +/- 0.88 with TRGB; JWST crowding tests."
+    },
+    {
+      "source_id": "dt-cchp-2025",
+      "reason": "TRGB combined calibration H0 70.39 with stat, sys, SN scatter; lower JWST-only estimates."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "007000-e01",
+      "anchor": "The Dark Energy Survey's five-year supernova analysis",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-des-sn5-2024"
+      ],
+      "source_locator": "DES 5Y acceleration under flat Lambda-CDM",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "007000-e02",
+      "anchor": "DESI, the Dark Energy Spectroscopic Instrument",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-desi-dr2-pubs"
+      ],
+      "source_locator": "first three years BAO DR2",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "007000-e03",
+      "anchor": "On July thirtieth, 2026, DESI published",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-desi-ap-2026"
+      ],
+      "source_locator": "new full-shape AP Ly-alpha data",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "007000-e04",
+      "anchor": "about two point seven sigma with DESI and microwave data",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-desi-ap-2026"
+      ],
+      "source_locator": "DESI+CMB preference",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "007000-e05",
+      "anchor": "A widely cited Planck result",
+      "kind": "model_inference",
+      "source_ids": [
+        "dt-planck-results"
+      ],
+      "source_locator": "CMB conditional H0",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "007000-e06",
+      "anchor": "A 2025 analysis from the SH0ES team",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-shoes-2025"
+      ],
+      "source_locator": "JWST and HST Cepheid H0",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "007000-e07",
+      "anchor": "The Chicago-Carnegie Hubble Program",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-cchp-2025"
+      ],
+      "source_locator": "TRGB and JAGB alternative methods",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

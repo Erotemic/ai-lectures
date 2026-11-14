@@ -3,7 +3,7 @@
 This audio track reconstructs cosmic and terrestrial history from what remains observable: radiation, spectra, minerals, chemical isotope ratios, fossils, genomes, archaeological deposits, and documentary traces. It distinguishes measurement, calibration, dating, model-dependent inference, and presently untested alternatives.
 
 - **Audio reader:** `/audio?track=deep-time`
-- **Delivered manuscripts:** `001000`-`005000` (five substantive cosmic-history lectures).
+- **Delivered manuscripts:** `001000`-`009000` (nine substantive cosmic-history and stellar-history lectures).
 - **Future curriculum:** `docs/planning/deep-time-evidence-reconstruction-track.md` (32 proposed/reserved IDs total, but only delivered lectures appear in `track.json`)
 - **Source records:** `metadata/sources.json`, with per-lecture links and claim anchors under `metadata/<id>.json`
 - **Content boundaries:** No assertion that every claim has the same confidence; no forced equivalence between well-tested models and hypotheses contradicted by observations. Numerical age and composition estimates name their assumptions.

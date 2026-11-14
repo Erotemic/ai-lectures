@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-starlight-stardust-elements.md",
+  "related_resources": [
+    {
+      "source_id": "dt-nuclear-astro-2026",
+      "reason": "Open-access review of nuclear processes, stellar models and elemental production."
+    },
+    {
+      "source_id": "dt-rprocess-review-2026",
+      "reason": "Open-access review of rapid neutron capture and astrophysical site constraints."
+    },
+    {
+      "source_id": "dt-gw170817-model",
+      "reason": "Interpretation of GW170817 optical/infrared emission and ejecta compositions."
+    },
+    {
+      "source_id": "dt-gw170817-sr",
+      "reason": "X-shooter spectroscopic strontium identification in GW170817 ejecta."
+    },
+    {
+      "source_id": "dt-grb230307-2023",
+      "reason": "Kilonova-like GRB 230307A and proposed [Te III] identification."
+    },
+    {
+      "source_id": "dt-grb230307-2026",
+      "reason": "Critical 2026 reanalysis of 2.1-micrometer feature and continuum/dust model."
+    },
+    {
+      "source_id": "dt-jades-alma-2025",
+      "reason": "ALMA 6.6-sigma oxygen-line detection, redshift, inferred metal enrichment with models."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "009000-e01",
+      "anchor": "A helium-burning star can combine three helium nuclei",
+      "kind": "nuclear_model",
+      "source_ids": [
+        "dt-nuclear-astro-2026"
+      ],
+      "source_locator": "triple alpha",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "009000-e02",
+      "anchor": "This is the slow neutron-capture process",
+      "kind": "nuclear_model",
+      "source_ids": [
+        "dt-nuclear-astro-2026"
+      ],
+      "source_locator": "s-process AGB and massive stars",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "009000-e03",
+      "anchor": "On August seventeenth, 2017, the gravitational-wave event GW170817",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-gw170817-model"
+      ],
+      "source_locator": "merger electromagnetic counterpart",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "009000-e04",
+      "anchor": "In 2019 a reanalysis of spectra",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-gw170817-sr"
+      ],
+      "source_locator": "strontium identification",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "009000-e05",
+      "anchor": "In 2023 researchers used the James Webb Space Telescope",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-grb230307-2023"
+      ],
+      "source_locator": "tellurium interpretation",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "009000-e06",
+      "anchor": "A paper published in July 2026 reanalyzed",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-grb230307-2026"
+      ],
+      "source_locator": "continuum dust / progenitor reanalysis",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "009000-e07",
+      "anchor": "Other possible r-process sites include rare kinds of massive-star collapse",
+      "kind": "theoretical_proposal",
+      "source_ids": [
+        "dt-rprocess-review-2026"
+      ],
+      "source_locator": "alternate r-process sources",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

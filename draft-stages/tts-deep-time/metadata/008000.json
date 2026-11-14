@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-first-galaxies.md",
+  "related_resources": [
+    {
+      "source_id": "dt-momz14-2026",
+      "reason": "MoM-z14 spectroscopic Lyman-alpha break, UV line indications, luminosity and rare-object density."
+    },
+    {
+      "source_id": "dt-momz14-nasa",
+      "reason": "MoM-z14 redshift 14.44, age 280 Myr under standard cosmology, NIRSpec measurement."
+    },
+    {
+      "source_id": "dt-jades-z14-2024",
+      "reason": "Initial NIRSpec spectroscopic confirmation of JADES-GS-z14-0 and -z14-1."
+    },
+    {
+      "source_id": "dt-jades-alma-2025",
+      "reason": "ALMA 6.6-sigma oxygen-line detection, redshift, inferred metal enrichment with models."
+    },
+    {
+      "source_id": "dt-jades-miri-2025",
+      "reason": "MIRI mid-infrared flux, inferred stellar populations, model degeneracies."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "008000-e01",
+      "anchor": "In January 2026, researchers reported the spectroscopic confirmation of MoM-z14",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-momz14-2026"
+      ],
+      "source_locator": "MoM-z14 2026 paper and redshift",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "008000-e02",
+      "anchor": "roughly two hundred eighty million years after",
+      "kind": "model_inference",
+      "source_ids": [
+        "dt-momz14-nasa"
+      ],
+      "source_locator": "cosmic age under Lambda-CDM",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "008000-e03",
+      "anchor": "The survey authors estimated that bright sources",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-momz14-2026"
+      ],
+      "source_locator": "high redshift bright galaxy number density",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "008000-e04",
+      "anchor": "JADES-GS-z14-0 was identified",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-jades-z14-2024"
+      ],
+      "source_locator": "JWST initial high-z confirmation",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "008000-e05",
+      "anchor": "In 2025 researchers detected the eighty-eight-micrometer",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-jades-alma-2025"
+      ],
+      "source_locator": "ALMA oxygen transition and precision redshift",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "008000-e06",
+      "anchor": "perhaps a few to twenty percent of the Sun's overall metallicity",
+      "kind": "model_inference",
+      "source_ids": [
+        "dt-jades-alma-2025"
+      ],
+      "source_locator": "line model to abundance",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
