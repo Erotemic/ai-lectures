@@ -22,7 +22,137 @@
     {
       "source_id": "history-davis-ams",
       "reason": "Extended biographical context and account of his linear-algebra contributions."
+    },
+    {
+      "source_id": "history-davis-mary-gray-interview",
+      "reason": "Mary Gray, A Committed Life: An Interview with Chandler Davis (2013)"
+    },
+    {
+      "source_id": "history-davis-natalie-memorial",
+      "reason": "University of Toronto Department of History: Natalie Zemon Davis — In Memoriam (2023)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "018000-h01",
+      "anchor": "Davis was born in Ithaca, New York, in nineteen twenty-six",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-davis-ams",
+        "history-davis-mary-gray-interview"
+      ],
+      "source_locator": "AMS remembrance; 2013 Davis oral interview, opening",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "018000-h02",
+      "anchor": "His parents were economists, both committed to left-wing causes",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-davis-ams"
+      ],
+      "source_locator": "AMS remembrance, family upbringing",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "018000-h03",
+      "anchor": "He learned from Birkhoff and from the work of Paul Halmos and Olga Taussky-Todd",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-davis-mary-gray-interview"
+      ],
+      "source_locator": "Mary Gray interview, p. 2, mentors",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "018000-h04",
+      "anchor": "Their household would include three children and two demanding scholarly careers",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-davis-natalie-memorial"
+      ],
+      "source_locator": "University of Toronto remembrance of Natalie Zemon Davis",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "018000-h05",
+      "anchor": "Chandler later recalled that he and Natalie had independently arrived at the same position when the subpoena came",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-davis-mary-gray-interview"
+      ],
+      "source_locator": "Mary Gray interview, p. 2, First Amendment decision",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "018000-h06",
+      "anchor": "He worked for Mathematical Reviews and held visiting positions, including at the Courant Institute in New York",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-davis-mary-gray-interview"
+      ],
+      "source_locator": "Mary Gray interview, pp. 2–3, employment exile",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "018000-h07",
+      "anchor": "one of his best results in an office there that occupied a former hat factory",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-davis-mary-gray-interview"
+      ],
+      "source_locator": "Mary Gray interview, p. 3, Greenwich Village hat factory",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "018000-h08",
+      "anchor": "with the help of the Canadian geometer H. S. M. Coxeter",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-davis-ams"
+      ],
+      "source_locator": "AMS remembrance, Coxeter invitation",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "018000-h09",
+      "anchor": "James Arthur, later recalled taking his real and complex analysis course",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-davis-ams"
+      ],
+      "source_locator": "AMS remembrance, quotation by James Arthur",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "018000-h10",
+      "anchor": "he remained proud of challenging the committee under the First Amendment but regretted tactical decisions",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-davis-mary-gray-interview"
+      ],
+      "source_locator": "Mary Gray interview, p. 3, regrets",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "018000-h11",
+      "anchor": "He also described his disillusionment with the Soviet leadership",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-davis-mary-gray-interview"
+      ],
+      "source_locator": "Mary Gray interview, p. 3, political reassessment",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "018000-h12",
+      "anchor": "served for more than twenty years as an editor of The Mathematical Intelligencer",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-davis-mary-gray-interview"
+      ],
+      "source_locator": "Mary Gray interview, p. 5, editorship",
+      "audit_status": "source_passage_checked"
+    }
+  ]
 }

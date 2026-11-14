@@ -54,6 +54,18 @@
     {
       "source_id": "history-wedin-topic",
       "reason": "Accessible SVD introduction for readers."
+    },
+    {
+      "source_id": "history-wedin-liu-1978-report",
+      "reason": "Linköping University, Mathematics Department annual report, 1977–78"
+    },
+    {
+      "source_id": "history-wedin-wikstrom-2002-thesis",
+      "reason": "Gunilla Wikström, Computation of Parameters in Some Mathematical Models, Umeå (2002)"
+    },
+    {
+      "source_id": "history-wedin-ruhe-obituary",
+      "reason": "Åke Björck and Lars Eldén, Axel Ruhe 1942–2015, BIT Numerical Mathematics 55 (2015)"
     }
   ],
   "historical_claims": [
@@ -211,7 +223,7 @@
     },
     {
       "id": "020000-h16",
-      "anchor": "In nineteen eighty, Axel Ruhe and Wedin published Algorithms for Separable Nonlinear Least Squares Problems in SIAM Review.",
+      "anchor": "In nineteen eighty, Axel Ruhe and Wedin published *Algorithms for Separable Nonlinear Least Squares Problems* in *SIAM Review*",
       "kind": "historical_publication",
       "source_ids": [
         "history-wedin-1980-ruhe"
@@ -242,7 +254,7 @@
     },
     {
       "id": "020000-h19",
-      "anchor": "In nineteen ninety-three Inge Söderkvist and Wedin published Determining the Movements of the Skeleton Using Well-Configured Markers in the Journal of Biomechanics.",
+      "anchor": "In nineteen ninety-three Inge Söderkvist and Wedin published *Determining the Movements of the Skeleton Using Well-Configured Markers* in the *Journal of Biomechanics*",
       "kind": "historical_publication",
       "source_ids": [
         "history-wedin-1993-skeleton"
@@ -262,7 +274,7 @@
     },
     {
       "id": "020000-h21",
-      "anchor": "With Mårten Gulliksson and other colleagues he published on weighted and constrained least squares",
+      "anchor": "with Mårten Gulliksson and other colleagues he published on weighted and constrained least squares",
       "kind": "historical_relationship",
       "source_ids": [
         "history-wedin-1992-qr"
@@ -292,7 +304,7 @@
     },
     {
       "id": "020000-h24",
-      "anchor": "In nineteen ninety-three Mårten Gulliksson completed a doctoral dissertation at Umeå titled Algorithms for Overdetermined Systems of Equations.",
+      "anchor": "In nineteen ninety-three Mårten Gulliksson completed a doctoral dissertation at Umeå titled *Algorithms for Overdetermined Systems of Equations*",
       "kind": "historical_biography",
       "source_ids": [
         "history-wedin-mentorship"
@@ -309,6 +321,57 @@
       ],
       "source_locator": "1970 original paper",
       "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "020000-h26",
+      "anchor": "Lars Eldén was defending a dissertation on the regularization of constrained least-squares problems",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-wedin-liu-1978-report"
+      ],
+      "source_locator": "Linköping 1977–78 annual report, Section 8 p.32",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "020000-h27",
+      "anchor": "Wedin came from Umeå as the faculty opponent",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-wedin-liu-1978-report"
+      ],
+      "source_locator": "Linköping 1977–78 annual report, Section 8 p.32",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "020000-h28",
+      "anchor": "In the acknowledgments of her two thousand two Umeå doctoral thesis",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-wedin-wikstrom-2002-thesis"
+      ],
+      "source_locator": "Wikström 2002 dissertation, Acknowledgments p. iii",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "020000-h29",
+      "anchor": "They developed methods for separable nonlinear least squares",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-wedin-1980-ruhe",
+        "history-wedin-ruhe-obituary"
+      ],
+      "source_locator": "Ruhe & Wedin 1980; Björck and Eldén 2015 remembrance",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "020000-h30",
+      "anchor": "remembered Ruhe as a lively lecturer",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-wedin-ruhe-obituary"
+      ],
+      "source_locator": "Björck and Eldén 2015, description explicitly of Ruhe",
+      "audit_status": "source_passage_checked"
     }
   ]
 }

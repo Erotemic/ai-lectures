@@ -1,6 +1,6 @@
 # History · People and ideas
 
-The History track contains **40 substantive, standalone historical portraits**, including the original 28 and twelve additional subjects. All narration is self-contained for a reader with the background indicated in each lecture. Historical claims have linked research sources in `metadata/sources.json`; mathematical appendices after the spoken markers preserve exact formulas without burdening narration.
+The History track contains **42 substantive, standalone historical portraits**, including the original 28 and fourteen additional subjects. All narration is self-contained for a reader with the background indicated in each lecture. Historical claims have linked research sources in `metadata/sources.json`; mathematical appendices after the spoken markers preserve exact formulas without burdening narration.
 
 The newest additions are:
 
@@ -45,3 +45,7 @@ In the November 2026 operator-history human-portrait revision, the lectures on J
 ## Human-portrait and continuity revisions, batch 6 (13 November 2026)
 
 Paul Halmos (`014000`), Jacques Dixmier (`015000`), Tosio Kato (`016000`), and Marvin Rosenblum (`017000`) now include additional documented scenes from their education, personal life, teaching, colleagues, and later years. Mathematical companions are unchanged. Sources and claim anchors are recorded in the individual metadata, and narration runtimes in `track.json` reflect the new text. See `docs/history-four-human-continuity-revisions-batch6-2026-11-13.md`.
+
+## Human-portrait and continuity revisions, batch 7 (13 November 2026)
+
+Chandler Davis (`018000`), William Kahan (`019000`), Per-Åke Wedin (`020000`), and Åke Björck (`021000`) have further revisions that connect their mathematics to their education, friendships and family where documented, political or institutional pressures, teaching, students, and collaborators. The first-person interviews with Davis and Kahan supply substantial personal history. Wedin and Björck draw on Swedish institutional records, a student's doctoral acknowledgments, and a colleague's memorial. The display-only mathematical companions and lecture IDs remain unchanged. Sources and claim anchors are recorded in the individual metadata. See `docs/history-four-human-continuity-revisions-batch7-2026-11-13.md`.

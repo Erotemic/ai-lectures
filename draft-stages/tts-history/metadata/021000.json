@@ -66,6 +66,18 @@
     {
       "source_id": "history-bjorck-topic",
       "reason": "Basic mathematical introduction to principal angles"
+    },
+    {
+      "source_id": "history-bjorck-1992-dedication",
+      "reason": "Åke Björck and Christopher C. Paige, Loss and Recapture of Orthogonality in the Modified Gram–Schmidt Algorithm (1992)"
+    },
+    {
+      "source_id": "history-wedin-liu-1978-report",
+      "reason": "Linköping University, Mathematics Department annual report, 1977–78"
+    },
+    {
+      "source_id": "history-bjorck-ruhe-memorial",
+      "reason": "Åke Björck and Lars Eldén, Axel Ruhe 1942–2015 (2015)"
     }
   ],
   "historical_claims": [
@@ -253,7 +265,7 @@
     },
     {
       "id": "021000-h19",
-      "anchor": "Five years later, another event at Linköping celebrated his sixty-fifth birthday",
+      "anchor": "Five years after the nineteen ninety-five gathering, another event at Linköping celebrated his sixty-fifth birthday",
       "kind": "historical_contemporary_record",
       "source_ids": [
         "history-bjorck-2000-conference"
@@ -263,7 +275,7 @@
     },
     {
       "id": "021000-h20",
-      "anchor": "Björck served as managing editor of the journal BIT Numerical Mathematics from nineteen ninety-three through two thousand three",
+      "anchor": "From nineteen ninety-three through two thousand three, Björck served as managing editor of the journal BIT Numerical Mathematics",
       "kind": "historical_biography",
       "source_ids": [
         "history-bjorck-bio"
@@ -283,7 +295,7 @@
     },
     {
       "id": "021000-h22",
-      "anchor": "A second edition was published much later, in twenty twenty-four",
+      "anchor": "A second edition of *Numerical Methods for Least Squares Problems* was published much later, in twenty twenty-four",
       "kind": "historical_mathematical_work",
       "source_ids": [
         "history-bjorck-2024-book"
@@ -311,6 +323,66 @@
       ],
       "source_locator": "SIAM author biography and 2014 fellow listing",
       "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "021000-h25",
+      "anchor": "Their later paper was dedicated to their friend and mentor Gene Golub on his sixtieth birthday",
+      "kind": "historical_publication",
+      "source_ids": [
+        "history-bjorck-1992-dedication"
+      ],
+      "source_locator": "Björck & Paige 1992, opening dedication and abstract",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "021000-h26",
+      "anchor": "In January nineteen seventy-eight, Björck examined Lars Eldén",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-wedin-liu-1978-report"
+      ],
+      "source_locator": "Linköping 1977–78 annual report, Section 8 p.32",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "021000-h27",
+      "anchor": "Björck teaching a course in advanced numerical methods",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-wedin-liu-1978-report"
+      ],
+      "source_locator": "Linköping 1977–78 annual report, course table 3.2.2",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "021000-h28",
+      "anchor": "After his term, Axel Ruhe took over the journal",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-bjorck-ruhe-memorial"
+      ],
+      "source_locator": "Björck and Eldén 2015, editorial history",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "021000-h29",
+      "anchor": "When Ruhe died in two thousand fifteen, Björck and Lars Eldén wrote a remembrance",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-bjorck-ruhe-memorial"
+      ],
+      "source_locator": "Björck and Eldén 2015",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "021000-h30",
+      "anchor": "visitors went skiing on the frozen Gulf of Bothnia",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-bjorck-ruhe-memorial"
+      ],
+      "source_locator": "Björck and Eldén 2015, Ruhe Piteå conference",
+      "audit_status": "source_passage_checked"
     }
   ]
 }

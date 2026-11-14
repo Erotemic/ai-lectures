@@ -22,7 +22,93 @@
     {
       "source_id": "history-kahan-1970",
       "reason": "The source publication jointly authored with Chandler Davis."
+    },
+    {
+      "source_id": "history-kahan-oral-history",
+      "reason": "Thomas Haigh, Oral History Interview with William M. Kahan, August 5–8 2005"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "019000-h01",
+      "anchor": "the son of immigrants whose family histories were marked by antisemitism in Europe",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-kahan-oral-history"
+      ],
+      "source_locator": "Haigh interview, early family and name section, pp. 6–8",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "019000-h02",
+      "anchor": "At home, however, they called him Velvel",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-kahan-oral-history"
+      ],
+      "source_locator": "Haigh interview, p. 8, name recollection",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "019000-h03",
+      "anchor": "adapted French literature",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-kahan-oral-history"
+      ],
+      "source_locator": "Haigh interview, p. 8, school recollection",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "019000-h04",
+      "anchor": "In the spring of nineteen fifty-three he first learned that the university had a computer",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-kahan-oral-history"
+      ],
+      "source_locator": "Haigh interview, early Toronto computer account",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "019000-h05",
+      "anchor": "he built tape winders from Meccano parts salvaged from a disused differential analyzer",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-kahan-oral-history"
+      ],
+      "source_locator": "Haigh interview, FERUT Meccano tape winding",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "019000-h06",
+      "anchor": "One early computation helped engineers design electric transformers",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-kahan-oral-history"
+      ],
+      "source_locator": "Haigh interview, FERUT transformer program",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "019000-h07",
+      "anchor": "His later role in the IEEE floating-point standard grew from years of encountering the mismatch",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-kahan-oral-history",
+        "history-kahan-berkeley"
+      ],
+      "source_locator": "Haigh interview and Berkeley faculty biography",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "019000-h08",
+      "anchor": "a compiler could reorganize a computation in ways that undermined expectations",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-kahan-oral-history"
+      ],
+      "source_locator": "Haigh interview, compiler and numerical standards discussion",
+      "audit_status": "source_passage_checked"
+    }
+  ]
 }
