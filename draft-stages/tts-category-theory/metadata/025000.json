@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025000",
+  "transcript": "025000-identity-types-and-paths.md",
+  "related_resources": [
+    {
+      "source_id": "ct-hofmann-streicher-groupoid",
+      "reason": "Primary result showing proof-relevant identity models and failure of UIP in intensional theory."
+    },
+    {
+      "source_id": "ct-awodey-warren-path",
+      "reason": "Path objects and model-category semantics of identity types."
+    },
+    {
+      "source_id": "ct-hott-book",
+      "reason": "Path induction, transport, infinity groupoids and truncation."
+    },
+    {
+      "source_id": "ct-sep-intuitionistic-type-theory",
+      "reason": "History of dependent type theory and the Hofmann–Streicher groupoid model."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "025000-h01",
+      "anchor": "Hofmann and Streicher's groupoid model demonstrates this",
+      "kind": "historical_development",
+      "source_ids": [
+        "ct-hofmann-streicher-groupoid",
+        "ct-sep-intuitionistic-type-theory"
+      ],
+      "source_locator": "Referenced work, formal formulation and context",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "025000-h02",
+      "anchor": "A mere factorization of the diagonal in an arbitrary category is not enough.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-awodey-warren-path"
+      ],
+      "source_locator": "Referenced work, formal formulation and context",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

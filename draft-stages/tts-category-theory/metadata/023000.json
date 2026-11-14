@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "lecture_id": "023000",
+  "transcript": "023000-algebraic-theories-and-monad-algebras.md",
+  "related_resources": [
+    {
+      "source_id": "ct-lawvere-algebraic-primary",
+      "reason": "Primary 1963 paper on the categorical semantics of algebraic theories."
+    },
+    {
+      "source_id": "ct-em-monad-algebras",
+      "reason": "Algebra laws, algebra homomorphisms and the EM category."
+    },
+    {
+      "source_id": "ct-tate-monad-algebras",
+      "reason": "Concrete monad algebras and list/semilattice examples."
+    },
+    {
+      "source_id": "ct-finitary-monad",
+      "reason": "Relation of finitary monads to Lawvere theories."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "023000-h01",
+      "anchor": "The name is historical, referring to the categorical development of algebraic structures by Samuel Eilenberg and John Moore.",
+      "kind": "historical_development",
+      "source_ids": [
+        "ct-em-monad-algebras"
+      ],
+      "source_locator": "Referenced work, formal formulation and context",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "023000-h02",
+      "anchor": "For ordinary single-sorted finitary algebraic theories on sets, Lawvere theories correspond to finitary monads on sets.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-finitary-monad",
+        "ct-lawvere-algebraic-primary"
+      ],
+      "source_locator": "Referenced work, formal formulation and context",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

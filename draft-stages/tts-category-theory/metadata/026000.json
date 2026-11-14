@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "lecture_id": "026000",
+  "transcript": "026000-bicategories-and-higher-composition.md",
+  "related_resources": [
+    {
+      "source_id": "ct-leinster-higher",
+      "reason": "Bicategories, coherence, and limits of strictification."
+    },
+    {
+      "source_id": "ct-nlab-bicategory",
+      "reason": "Hom-categories, associators, pentagon and triangle laws."
+    },
+    {
+      "source_id": "ct-nlab-two-cat",
+      "reason": "Cat, natural transformations, horizontal and vertical composition, and spans."
+    },
+    {
+      "source_id": "ct-nlab-natural",
+      "reason": "Horizontal composition and naturality."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "026000-h01",
+      "anchor": "A bicategory retains the levels of objects, one-cells, and two-cells but weakens the associativity and unit requirements for one-cell composition.",
+      "kind": "historical_development",
+      "source_ids": [
+        "ct-nlab-bicategory",
+        "ct-leinster-higher"
+      ],
+      "source_locator": "Referenced work, formal formulation and context",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026000-h02",
+      "anchor": "In many two-dimensional settings a coherence theorem says that every bicategory is biequivalent to some strict 2-category.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-leinster-higher"
+      ],
+      "source_locator": "Referenced work, formal formulation and context",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

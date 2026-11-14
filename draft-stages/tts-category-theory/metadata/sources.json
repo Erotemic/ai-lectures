@@ -203,6 +203,118 @@
       "url": "https://www.tac.mta.ca/tac/volumes/41/42/41-42abs.html",
       "access": "free_no_login",
       "notes": "Categorical relationship between comprehension categories and categories with families."
+    },
+    "ct-lawvere-algebraic-primary": {
+      "title": "F. William Lawvere, Functorial Semantics of Algebraic Theories (1963)",
+      "kind": "historical_primary",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC221940/",
+      "access": "free_no_login",
+      "notes": "Primary 1963 paper on the categorical semantics of algebraic theories."
+    },
+    "ct-em-monad-algebras": {
+      "title": "nLab, Eilenberg–Moore Category",
+      "kind": "research_reference",
+      "url": "https://ncatlab.org/nlab/show/Eilenberg-Moore+category",
+      "access": "free_no_login",
+      "notes": "Algebra laws, algebra homomorphisms and the EM category."
+    },
+    "ct-tate-monad-algebras": {
+      "title": "Ross Tate, Monad Algebras (Cornell lecture notes, 2018)",
+      "kind": "course_material",
+      "url": "https://www.cs.cornell.edu/courses/cs6117/2020sp/Lectures/MonadAlgebras.pdf",
+      "access": "free_no_login",
+      "notes": "Concrete monad algebras and list/semilattice examples."
+    },
+    "ct-finitary-monad": {
+      "title": "nLab, Finitary Monad",
+      "kind": "research_reference",
+      "url": "https://ncatlab.org/nlab/show/finitary+monad",
+      "access": "free_no_login",
+      "notes": "Relation of finitary monads to Lawvere theories."
+    },
+    "ct-grothendieck-construction": {
+      "title": "nLab, Grothendieck Construction",
+      "kind": "research_reference",
+      "url": "https://ncatlab.org/nlab/show/Grothendieck+construction",
+      "access": "free_no_login",
+      "notes": "Pseudofunctor indexed categories, total category, and equivalence with fibrations."
+    },
+    "ct-grothendieck-fibration": {
+      "title": "nLab, Grothendieck Fibration",
+      "kind": "research_reference",
+      "url": "https://ncatlab.org/nlab/show/Grothendieck+fibration",
+      "access": "free_no_login",
+      "notes": "Cartesian lifts, reindexing, and fibers."
+    },
+    "ct-abbott-containers": {
+      "title": "Michael Abbott, Categories of Containers, chapter 3 (2003 dissertation)",
+      "kind": "scholarly_textbook",
+      "url": "https://www.cs.le.ac.uk/people/mabbott/docs/thesis.pdf",
+      "access": "free_no_login",
+      "notes": "Indexed categories, family fibrations, and the Grothendieck construction."
+    },
+    "ct-grothendieck-moncat": {
+      "title": "Joe Moeller and Christina Vasilakopoulou, Monoidal Grothendieck Construction (2020)",
+      "kind": "scholarly_article",
+      "url": "https://tac.mta.ca/tac/volumes/35/31/35-31abs.html",
+      "access": "free_no_login",
+      "notes": "Overview of indexed categories and fibrations as equivalent presentations."
+    },
+    "ct-hofmann-streicher-groupoid": {
+      "title": "Martin Hofmann and Thomas Streicher, The Groupoid Interpretation of Type Theory (1998)",
+      "kind": "historical_primary",
+      "url": "https://homotopytypetheory.org/references/hofmann-streicher-the-groupoid-interpretation-of-type-theory/",
+      "access": "free_no_login",
+      "notes": "Primary result showing proof-relevant identity models and failure of UIP in intensional theory."
+    },
+    "ct-awodey-warren-path": {
+      "title": "Steve Awodey and Michael Warren, Homotopy Theoretic Models of Identity Types (2009)",
+      "kind": "scholarly_article",
+      "url": "https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/abs/homotopy-theoretic-models-of-identity-types/4EC809C083667FEBC0D0D0F64E604E78",
+      "access": "publisher_preview",
+      "notes": "Path objects and model-category semantics of identity types."
+    },
+    "ct-hott-book": {
+      "title": "The Univalent Foundations Program, Homotopy Type Theory (2013)",
+      "kind": "scholarly_textbook",
+      "url": "https://homotopytypetheory.org/book/",
+      "access": "free_no_login",
+      "notes": "Path induction, transport, infinity groupoids and truncation."
+    },
+    "ct-sep-intuitionistic-type-theory": {
+      "title": "Stanford Encyclopedia of Philosophy, Intuitionistic Type Theory",
+      "kind": "research_reference",
+      "url": "https://plato.stanford.edu/entries/type-theory-intuitionistic/",
+      "access": "free_no_login",
+      "notes": "History of dependent type theory and the Hofmann–Streicher groupoid model."
+    },
+    "ct-leinster-higher": {
+      "title": "Tom Leinster, Higher Operads, Higher Categories (2004)",
+      "kind": "scholarly_textbook",
+      "url": "https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/leinster-book.pdf",
+      "access": "free_no_login",
+      "notes": "Bicategories, coherence, and limits of strictification."
+    },
+    "ct-nlab-bicategory": {
+      "title": "nLab, Bicategory",
+      "kind": "research_reference",
+      "url": "https://ncatlab.org/nlab/show/bicategory",
+      "access": "free_no_login",
+      "notes": "Hom-categories, associators, pentagon and triangle laws."
+    },
+    "ct-nlab-two-cat": {
+      "title": "nLab, 2-Category",
+      "kind": "research_reference",
+      "url": "https://ncatlab.org/nlab/show/2-category",
+      "access": "free_no_login",
+      "notes": "Cat, natural transformations, horizontal and vertical composition, and spans."
+    },
+    "ct-nlab-natural": {
+      "title": "nLab, Natural Transformation",
+      "kind": "research_reference",
+      "url": "https://ncatlab.org/nlab/show/natural+transformation",
+      "access": "free_no_login",
+      "notes": "Horizontal composition and naturality."
     }
   }
 }

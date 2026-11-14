@@ -1,52 +1,60 @@
 # An Introduction to Category Theory
 
-A concept-first, proof-bearing mathematics track with twenty-two substantive standalone spoken lectures, each with a display-only mathematical companion and exercises with answers. The track begins with sets, functions, orders, and simple algebra. Recordings nine through twelve form a second arc, while thirteen and fourteen develop local-to-global reasoning and sheaf-based logic. Lectures fifteen through eighteen study enrichment, ends/coends, Kan extensions, and typed-program semantics. The category-theoretic vocabulary is developed from those examples and is then used to derive more general results.
+A concept-first, proof-bearing mathematics track with **26 standalone lectures** and a separate display-only mathematical companion for each recording. The course begins with sets, functions, and universal properties, then develops structures used in geometry, logic, semantics, and higher category theory. Each lecture builds from a concrete example into precise definitions and proof arguments.
 
-The material is written for listeners comfortable with functions and elementary algebra who have not previously studied category theory. It assumes no algebraic topology, group theory beyond an explained example, or programming-language background. The displayed mathematics supplies exact notation and proofs after the spoken markers; it is not synthesized as audio.
+**Audience:** A listener comfortable with functions, basic algebra, and following short proofs. The later lectures introduce advanced concepts, but explain their specific examples and conventions rather than relying on the wording of earlier recordings. Recordings can be listened to individually.
 
-| ID | Lecture | Concepts |
+**Audio reader:** `/audio?track=category-theory` (existing identifier unchanged).
+
+## Course index
+
+| ID | Lecture | Mathematical focus |
 | --- | --- | --- |
-| 001000 | Categories and Composition | Objects, arrows, associativity, identity, isomorphisms, orders, paths, monoids |
-| 002000 | Functors | Structure-preserving translations, covariant/contravariant maps, full, faithful |
-| 003000 | Natural Transformations | Naturality squares, coordinate-free choices, natural isomorphisms |
-| 004000 | Universal Properties | Terminal/initial objects, products, coproducts, uniqueness |
-| 005000 | Limits and Colimits | Equalizers, pullbacks, pushouts, cones, gluing |
-| 006000 | Adjunctions | Free and forgetful constructions, hom bijections, unit, counit |
-| 007000 | Yoneda | Representable functors, proof of lemma, fully faithful Yoneda embedding |
-| 008000 | Monads | Maybe, lists, Kleisli composition, monad laws, adjunction origin |
-| 009000 | Equivalence of Categories | Fully faithful and essentially surjective functors, skeletons, quasi-inverses |
-| 010000 | Monoidal Categories | Tensor, associators, unitors, coherence, symmetric structures |
-| 011000 | String Diagrams | Typed wires, interchange, crossings, copying, duality limits |
-| 012000 | Categorical Logic | Subobjects, exponentials, quantifiers as adjoints, Heyting logic |
-| 013000 | Sheaves and Gluing | Presheaves, local agreement, existence and uniqueness, stalks, sheafification |
-| 014000 | Topoi and Local Truth | Subobject classifiers, Sierpiński opens, Heyting algebra, internal logic |
+| 001000 | Categories and Composition: What Can Arrows Tell Us? | Objects, arrows, identities, associativity, isomorphism |
+| 002000 | Functors: Translating One Mathematical World into Another | Functoriality, covariant and contravariant maps, full and faithful functors |
+| 003000 | Natural Transformations: What Does It Mean to Work the Same Way Everywhere? | Naturality squares, natural isomorphism, canonical choices |
+| 004000 | Universal Properties: Defining an Object by What It Does | Terminal objects, products, coproducts, uniqueness |
+| 005000 | Limits and Colimits: Solving an Entire Diagram | Equalizers, pullbacks, pushouts, cones, gluing |
+| 006000 | Adjunctions: Why Free Constructions Fit Forgetful Ones | Free/forgetful adjunction, hom bijections, unit and counit |
+| 007000 | The Yoneda Lemma: Knowing an Object by All Its Relationships | Representable functors, Yoneda lemma, Yoneda embedding |
+| 008000 | Monads: Making Structured Computations Compose | List and Maybe monads, Kleisli composition, monad laws |
+| 009000 | Equivalence of Categories: When Different Descriptions Mean the Same Mathematics | Full, faithful, essentially surjective, quasi-inverses |
+| 010000 | Monoidal Categories: Composition Side by Side | Tensor, associators, unitors, coherence, symmetry |
+| 011000 | String Diagrams: Proving Equations by Following Wires | Interchange, typed wires, symmetry, copying and duality |
+| 012000 | Categorical Logic: When Maps Behave Like Proofs | Exponentials, subobjects, quantifiers as adjoints, Heyting logic |
+| 013000 | Sheaves: When Local Answers Become a Global Answer | Sheaf gluing, stalks, sheafification, local-to-global |
+| 014000 | Topoi: Mathematical Universes with Local Truth | Subobject classifier, Sierpiński opens, internal logic |
+| 015000 | Enriched Categories: How Distance Can Be Composition | Lawvere metrics, nonexpansive maps, shortest paths |
+| 016000 | Ends and Coends: Compatibility and Identification | Naturality as end; coend quotient and identification |
+| 017000 | Kan Extensions: Extending a Diagram Without Guesswork | Kan universal properties, comma categories, pointwise formulas |
+| 018000 | Categorical Semantics: Types, Programs, and Universal Laws | Typed lambda calculus, CCCs, beta and eta equations |
+| 019000 | Profunctors: Relations That Know How to Compose | Profunctor composition, coends, bicategory laws |
+| 020000 | Enriched Yoneda: Recovering Distance from Every Point of View | Asymmetric metric Yoneda, enriched representables |
+| 021000 | Weighted Limits: When a Diagram Asks More Than One Question | Functorial weights, kernel pairs, enriched weighted limits |
+| 022000 | Dependent Types: Contexts, Substitution, and Comprehension | Categories with families, substitution, Σ and Π |
+| 023000 | Algebraic Theories: What Does It Mean to Interpret a Monad? | Eilenberg–Moore algebras, list fold, finitary algebraic theories |
+| 024000 | Fibrations: How Categories Vary with Their Contexts | Indexed categories, cartesian lifts, Grothendieck construction |
+| 025000 | Identity Types: When Equality Has Structure | Identity elimination, transport, groupoid models, path objects |
+| 026000 | Higher Categories: When Compositions Have Their Own Comparisons | 2-categories, bicategories, spans, associators and coherence |
 
-| 015000 | Enriched Categories | Lawvere metrics, reversed order, nonexpansive functors, shortest paths, distance profiles |
-| 016000 | Ends and Coends | Natural transformation equalizers, coend quotients, contravariance and balancing |
-| 017000 | Kan Extensions | Left/right universal extensions, comma categories, pointwise (co)limits, Kan adjunctions |
-| 018000 | Categorical Semantics | Cartesian closed categories, lambda abstraction, beta/eta laws, typed terms as arrows |
+## Authoring conventions
 
-## Narration principles
+- Spoken manuscripts are marked with `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE`. Exact formulas, exercises, and bibliography sit in a display-only mathematical companion after the spoken region.
+- Each lecture supplies its own setting, notation, and hypotheses at the point they are used. It does not direct listeners to an earlier recording or to prompt-related authoring instructions.
+- Begin with a specific mathematical construction; use small examples and work through at least one characteristic calculation or proof. State limitations when a general theorem needs hypotheses.
+- Universal properties and constructions are not automatically preserved by all functors. Equality, equivalence, isomorphism, and coherent comparison are kept distinct.
+- Metadata lives in `metadata/sources.json` and `metadata/<id>.json`; source URLs do not appear in speech.
+- The course intentionally distinguishes homotopy-theoretic identity proofs from Lean's proof-irrelevant equality in `Prop`.
 
-- Each recording supplies the objects and hypotheses it uses, even when a previous recording covers related ideas.
-- Begin from a concrete mathematical operation or obstruction; introduce categorical definitions only when the example warrants them.
-- Say what a proof must show, then track each arrow's domain and codomain through the critical equation.
-- Explain the distinction between existence and uniqueness; a universal property does not assert a solution always exists.
-- Avoid asserting that every diagram is a pullback or that all functors preserve every universal construction.
-- Historical references are kept modest and grounded in recorded sources; do not invent dialogue or personal motives.
-- Keep LaTeX, source URLs, exact symbolic companions, and exercises outside the spoken region.
+## Planning documents
 
-**Audio reader:** `/audio?track=category-theory`.
+- `docs/planning/category-theory-intro-track.md`
+- `docs/planning/category-theory-second-arc.md`
+- `docs/planning/category-theory-third-arc.md`
+- `docs/planning/category-theory-fourth-arc.md`
+- `docs/planning/category-theory-fifth-arc.md`
+- `docs/planning/category-theory-sixth-arc.md`
 
-**Sources:** `metadata/sources.json`; per-lecture source selections and claim anchors live in `metadata/<id>.json`.
+## Further directions
 
-**Further directions:** Galois connections, profunctors, enriched Yoneda and weighted limits, sheafification on sites, algebraic theories, dependent-type semantics, and bicategories. The twenty-two-lecture sequence remains extensible rather than a claim of total coverage.
-
-**Third arc planning:** `docs/planning/category-theory-third-arc.md`. **Fourth arc planning:** `docs/planning/category-theory-fourth-arc.md`.
-
-| 019000 | Profunctors | Set-valued generalized relations, coend composition, identity hom-profunctors, bicategory coherence |
-| 020000 | Enriched Yoneda | Directed distance profiles, metric presheaves, evaluation, enriching hom-objects |
-| 021000 | Weighted Limits | Functorial weights, finite kernel-pair example, category of elements, enriched universal properties |
-| 022000 | Dependent Type Semantics | Categories with families, reindexing, context comprehension, dependent sums/products |
-
-**Fifth arc planning:** `docs/planning/category-theory-fifth-arc.md`.
+Monadicity and Beck's theorem, descent and stacks, operads, infinity-categorical limits, and a carefully scoped treatment of cubical or univalent foundations. This track is extensible rather than intended to be an exhaustive treatment of category theory.

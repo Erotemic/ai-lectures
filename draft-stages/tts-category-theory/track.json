@@ -1,7 +1,7 @@
 {
   "id": "category-theory",
   "title": "Introduction to Category Theory · Foundations and Further Connections",
-  "summary": "A concept-first, proof-bearing sequence from categories and universal properties through enriched structures, profunctors, Yoneda, weighted limits, and categorical models of dependent type theory.",
+  "summary": "A concept-first, proof-bearing sequence from categories and universal properties through enrichment, profunctors, dependent types, algebraic theories, fibrations, identity and higher composition.",
   "assumed_background": [
     "sets and functions, basic algebra, willingness to follow short proofs; each categorical concept is introduced from examples"
   ],
@@ -25,7 +25,11 @@
     "profunctors",
     "enriched-yoneda",
     "weighted-limits",
-    "dependent-type-semantics"
+    "dependent-type-semantics",
+    "algebraic-theories",
+    "fibrations",
+    "identity-types",
+    "higher-composition"
   ],
   "lectures": [
     {
@@ -225,6 +229,42 @@
       "spoken_words": 3262,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 22.5
+    },
+    {
+      "id": "023000",
+      "title": "Algebraic Theories: What Does It Mean to Interpret a Monad?",
+      "section": "algebraic-theories",
+      "file": "023000-algebraic-theories-and-monad-algebras.md",
+      "spoken_words": 3140,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.7
+    },
+    {
+      "id": "024000",
+      "title": "Fibrations: How Categories Vary with Their Contexts",
+      "section": "fibrations",
+      "file": "024000-fibrations-and-grothendieck-construction.md",
+      "spoken_words": 3232,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.3
+    },
+    {
+      "id": "025000",
+      "title": "Identity Types: When Equality Has Structure",
+      "section": "identity-types",
+      "file": "025000-identity-types-and-paths.md",
+      "spoken_words": 3263,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.5
+    },
+    {
+      "id": "026000",
+      "title": "Higher Categories: When Compositions Have Their Own Comparisons",
+      "section": "higher-composition",
+      "file": "026000-bicategories-and-higher-composition.md",
+      "spoken_words": 3181,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.9
     }
   ]
 }

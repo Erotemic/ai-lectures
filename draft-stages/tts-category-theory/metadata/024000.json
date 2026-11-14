@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "lecture_id": "024000",
+  "transcript": "024000-fibrations-and-grothendieck-construction.md",
+  "related_resources": [
+    {
+      "source_id": "ct-grothendieck-construction",
+      "reason": "Pseudofunctor indexed categories, total category, and equivalence with fibrations."
+    },
+    {
+      "source_id": "ct-grothendieck-fibration",
+      "reason": "Cartesian lifts, reindexing, and fibers."
+    },
+    {
+      "source_id": "ct-abbott-containers",
+      "reason": "Indexed categories, family fibrations, and the Grothendieck construction."
+    },
+    {
+      "source_id": "ct-grothendieck-moncat",
+      "reason": "Overview of indexed categories and fibrations as equivalent presentations."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "024000-h01",
+      "anchor": "A Grothendieck fibration is one answer.",
+      "kind": "historical_development",
+      "source_ids": [
+        "ct-grothendieck-fibration"
+      ],
+      "source_locator": "Referenced work, formal formulation and context",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "024000-h02",
+      "anchor": "The Grothendieck construction assembles these into a total category.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-grothendieck-construction",
+        "ct-abbott-containers"
+      ],
+      "source_locator": "Referenced work, formal formulation and context",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
