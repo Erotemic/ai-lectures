@@ -1,0 +1,31 @@
+{
+  "id": "analysis",
+  "title": "Analysis from First Principles",
+  "summary": "Limits, continuity, completeness, differentiation, integration, function spaces, and rigorous reasoning.",
+  "assumed_background": [
+    "Elementary algebra, inequalities, and familiarity with fractions"
+  ],
+  "sections": [
+    "sequences"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "What Does It Mean for a Sequence to Converge?",
+      "section": "sequences",
+      "file": "001000-what-convergence-means.md",
+      "spoken_words": 3264,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.5
+    },
+    {
+      "id": "002000",
+      "title": "The Number Line Without Gaps: Completeness and the Real Numbers",
+      "section": "sequences",
+      "file": "002000-completeness-and-real-numbers.md",
+      "spoken_words": 3231,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.3
+    }
+  ]
+}

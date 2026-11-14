@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "an-openstax": {
+      "title": "OpenStax, Calculus Volume 2, Section 5.1: Sequences",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/5-1-sequences",
+      "access": "free_no_login",
+      "notes": "Epsilon-N definition and examples."
+    },
+    "an-sep-continuity": {
+      "title": "Stanford Encyclopedia of Philosophy, Continuity and Infinitesimals",
+      "kind": "scholarly_history",
+      "url": "https://plato.stanford.edu/entries/continuity/",
+      "access": "free_no_login",
+      "notes": "Cauchy, Weierstrass and Dedekind, nineteenth-century analytical rigor."
+    },
+    "an-tao": {
+      "title": "Terence Tao, Analysis I",
+      "kind": "scholarly_textbook",
+      "url": "https://link.springer.com/book/10.1007/978-981-19-7261-4",
+      "access": "publisher_or_author",
+      "notes": "Real number construction, completeness and sequences."
+    },
+    "an-abbott": {
+      "title": "Stephen Abbott, Understanding Analysis",
+      "kind": "scholarly_textbook",
+      "url": "https://link.springer.com/book/10.1007/978-1-4939-2712-8",
+      "access": "publisher_or_author",
+      "notes": "Rigorously motivated real analysis."
+    },
+    "an-sep-dedekind": {
+      "title": "Stanford Encyclopedia of Philosophy, Dedekind’s Contributions to the Foundations of Mathematics",
+      "kind": "scholarly_history",
+      "url": "https://plato.stanford.edu/entries/dedekind-foundations/",
+      "access": "free_no_login",
+      "notes": "Dedekind cuts, publication in 1872, Cantor alternative."
+    }
+  }
+}

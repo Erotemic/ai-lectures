@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-rounding-and-error-propagation.md",
+  "related_resources": [
+    {
+      "source_id": "na-goldberg",
+      "reason": "Floating-point encoding, rounding, ulps and error behavior."
+    },
+    {
+      "source_id": "na-higham",
+      "reason": "Forward/backward error, conditioning, numerical stability, summation."
+    },
+    {
+      "source_id": "na-kahan",
+      "reason": "Compensated summation and accumulation of rounding error."
+    },
+    {
+      "source_id": "na-wilkinson",
+      "reason": "Development of backward-error viewpoint in numerical linear algebra."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-h01",
+      "anchor": "Binary64, the common IEEE double-precision format",
+      "kind": "historical_research",
+      "source_ids": [
+        "na-goldberg"
+      ],
+      "source_locator": "binary64 significand precision",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-h02",
+      "anchor": "Another approach is compensated summation, associated especially with William Kahan",
+      "kind": "historical_research",
+      "source_ids": [
+        "na-kahan"
+      ],
+      "source_locator": "Kahan compensated summation",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

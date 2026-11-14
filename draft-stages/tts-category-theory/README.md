@@ -1,6 +1,6 @@
 # An Introduction to Category Theory
 
-A concept-first, proof-bearing mathematics track with twelve substantive standalone spoken lectures, each with a display-only mathematical companion and exercises with answers. The track begins with sets, functions, orders, and simple algebra. Its final four recordings form a second arc for readers ready to use those foundations. The category-theoretic vocabulary is developed from those examples and is then used to derive more general results.
+A concept-first, proof-bearing mathematics track with fourteen substantive standalone spoken lectures, each with a display-only mathematical companion and exercises with answers. The track begins with sets, functions, orders, and simple algebra. Recordings nine through twelve form a second arc, while thirteen and fourteen develop local-to-global reasoning and sheaf-based logic. The category-theoretic vocabulary is developed from those examples and is then used to derive more general results.
 
 The material is written for listeners comfortable with functions and elementary algebra who have not previously studied category theory. It assumes no algebraic topology, group theory beyond an explained example, or programming-language background. The displayed mathematics supplies exact notation and proofs after the spoken markers; it is not synthesized as audio.
 
@@ -18,6 +18,8 @@ The material is written for listeners comfortable with functions and elementary 
 | 010000 | Monoidal Categories | Tensor, associators, unitors, coherence, symmetric structures |
 | 011000 | String Diagrams | Typed wires, interchange, crossings, copying, duality limits |
 | 012000 | Categorical Logic | Subobjects, exponentials, quantifiers as adjoints, Heyting logic |
+| 013000 | Sheaves and Gluing | Presheaves, local agreement, existence and uniqueness, stalks, sheafification |
+| 014000 | Topoi and Local Truth | Subobject classifiers, Sierpiński opens, Heyting algebra, internal logic |
 
 ## Narration principles
 
@@ -33,4 +35,6 @@ The material is written for listeners comfortable with functions and elementary 
 
 **Sources:** `metadata/sources.json`; per-lecture source selections and claim anchors live in `metadata/<id>.json`.
 
-**Further directions:** Galois connections, enriched categories, algebraic theories, sheaves and topoi, categorical semantics of dependent types, bicategories, and carefully motivated introductions to Kan extensions. These topics remain potential successors, not unfulfilled requirements of the twelve-lecture course.
+**Further directions:** Galois connections, enriched categories, algebraic theories, categorical semantics of dependent types, bicategories, and carefully motivated introductions to Kan extensions. These topics remain potential successors, not unfulfilled requirements of the fourteen-lecture course.
+
+**Third arc planning:** `docs/planning/category-theory-third-arc.md`.

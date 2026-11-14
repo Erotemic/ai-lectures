@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-conservation-of-energy.md",
+  "related_resources": [
+    {
+      "source_id": "ph-aps-joule",
+      "reason": "Joule, historical apparatus, heat and work."
+    },
+    {
+      "source_id": "ph-science-joule",
+      "reason": "Joule biography, laboratory, instruments."
+    },
+    {
+      "source_id": "ph-iop-energy",
+      "reason": "Mayer 1842, Helmholtz 1847, Joule measurements and Thomson."
+    },
+    {
+      "source_id": "ph-openstax",
+      "reason": "Kinematics, forces, Newtonian mechanics and orbital motion."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-h01",
+      "anchor": "James Prescott Joule grew up in a family",
+      "kind": "historical_research",
+      "source_ids": [
+        "ph-science-joule"
+      ],
+      "source_locator": "Joule family and occupation",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-h02",
+      "anchor": "His education was largely private",
+      "kind": "historical_research",
+      "source_ids": [
+        "ph-aps-joule"
+      ],
+      "source_locator": "John Dalton tutoring",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-h03",
+      "anchor": "Julius Robert Mayer published an account of energy conservation in 1842",
+      "kind": "historical_research",
+      "source_ids": [
+        "ph-iop-energy"
+      ],
+      "source_locator": "Mayer historical chronology",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-h04",
+      "anchor": "Hermann von Helmholtz presented a general argument in 1847",
+      "kind": "historical_research",
+      "source_ids": [
+        "ph-iop-energy"
+      ],
+      "source_locator": "Helmholtz 1847",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-h05",
+      "anchor": "A surviving instrument in the Science Museum collection",
+      "kind": "historical_research",
+      "source_ids": [
+        "ph-science-joule"
+      ],
+      "source_locator": "Surviving Joule instruments",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

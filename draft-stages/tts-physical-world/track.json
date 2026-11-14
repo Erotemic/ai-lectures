@@ -1,0 +1,31 @@
+{
+  "id": "physical-world",
+  "title": "The Physical World: Motion, Energy, Fields, and Matter",
+  "summary": "Core physics developed through measurable problems, mathematical models, human discoveries, and limits of approximation.",
+  "assumed_background": [
+    "Arithmetic, elementary algebra, and coordinate graphs; no calculus required initially"
+  ],
+  "sections": [
+    "mechanics"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "How Did We Discover the Laws of Motion?",
+      "section": "mechanics",
+      "file": "001000-discovering-laws-of-motion.md",
+      "spoken_words": 3101,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.4
+    },
+    {
+      "id": "002000",
+      "title": "Where Does the Energy Go? Conservation, Work, and Heat",
+      "section": "mechanics",
+      "file": "002000-conservation-of-energy.md",
+      "spoken_words": 3012,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 20.8
+    }
+  ]
+}

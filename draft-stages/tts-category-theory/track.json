@@ -1,7 +1,7 @@
 {
   "id": "category-theory",
   "title": "Introduction to Category Theory · Foundations and Further Connections",
-  "summary": "A concept-first, proof-bearing course using sets, functions, orders, algebra, and typed processes to develop categories, functors, universality, monads, equivalence, monoidal composition, string diagrams, and categorical logic.",
+  "summary": "A concept-first, proof-bearing course using sets, functions, orders, algebra, and typed processes to develop categories, functors, universality, monads, equivalence, monoidal composition, string diagrams, and categorical logic. The extended course develops sheaves, gluing, and topoi with local intuitionistic truth values.",
   "assumed_background": [
     "sets and functions, basic algebra, willingness to follow short proofs; each categorical concept is introduced from examples"
   ],
@@ -15,7 +15,9 @@
     "equivalences",
     "monoidal-structure",
     "graphical-reasoning",
-    "categorical-logic"
+    "categorical-logic",
+    "sheaves-and-locality",
+    "topoi-and-logic"
   ],
   "lectures": [
     {
@@ -125,6 +127,24 @@
       "spoken_words": 3396,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 23.4
+    },
+    {
+      "id": "013000",
+      "title": "Sheaves: When Local Answers Become a Global Answer",
+      "section": "sheaves-and-locality",
+      "file": "013000-sheaves-and-gluing.md",
+      "spoken_words": 3172,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.9
+    },
+    {
+      "id": "014000",
+      "title": "Topoi: Mathematical Universes with Local Truth",
+      "section": "topoi-and-logic",
+      "file": "014000-topoi-and-local-truth.md",
+      "spoken_words": 3082,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.3
     }
   ]
 }

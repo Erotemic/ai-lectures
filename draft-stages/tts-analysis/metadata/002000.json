@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-completeness-and-real-numbers.md",
+  "related_resources": [
+    {
+      "source_id": "an-sep-dedekind",
+      "reason": "Dedekind cuts, publication in 1872, Cantor alternative."
+    },
+    {
+      "source_id": "an-sep-continuity",
+      "reason": "Cauchy, Weierstrass and Dedekind, nineteenth-century analytical rigor."
+    },
+    {
+      "source_id": "an-tao",
+      "reason": "Real number construction, completeness and sequences."
+    },
+    {
+      "source_id": "an-abbott",
+      "reason": "Rigorously motivated real analysis."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-h01",
+      "anchor": "Richard Dedekind developed a systematic way",
+      "kind": "historical_research",
+      "source_ids": [
+        "an-sep-dedekind"
+      ],
+      "source_locator": "Dedekind cuts and construction",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-h02",
+      "anchor": "His account appeared in 1872",
+      "kind": "historical_research",
+      "source_ids": [
+        "an-sep-dedekind"
+      ],
+      "source_locator": "1872 publication",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-h03",
+      "anchor": "Georg Cantor published another approach",
+      "kind": "historical_research",
+      "source_ids": [
+        "an-sep-dedekind"
+      ],
+      "source_locator": "Cauchy-sequence construction",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

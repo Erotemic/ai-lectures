@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-topoi-and-local-truth.md",
+  "related_resources": [
+    {
+      "source_id": "ct-stacks-sites",
+      "reason": "Presheaves, sheaves, topoi, and general sites."
+    },
+    {
+      "source_id": "ct-nlab-classifier",
+      "reason": "Omega in sheaf topos and classification."
+    },
+    {
+      "source_id": "ct-awodey-logic",
+      "reason": "Categorical semantics of propositions, typed lambda calculus, quantification and topoi."
+    },
+    {
+      "source_id": "ct-leinster-basic",
+      "reason": "Introductory treatment with examples, Yoneda, adjoints, limits; manuscript freely available."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "014000-h01",
+      "anchor": "Alexander Grothendieck's school used sheaf categories",
+      "kind": "historical_research",
+      "source_ids": [
+        "ct-stacks-sites"
+      ],
+      "source_locator": "Sheaves and Grothendieck topoi",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "014000-h02",
+      "anchor": "F. William Lawvere and Myles Tierney developed",
+      "kind": "historical_research",
+      "source_ids": [
+        "ct-awodey-logic"
+      ],
+      "source_locator": "Elementary topoi and categorical logic",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

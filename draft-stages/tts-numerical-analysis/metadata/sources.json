@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "na-goldberg": {
+      "title": "David Goldberg, What Every Computer Scientist Should Know About Floating-Point Arithmetic (1991)",
+      "kind": "scholarly_primary",
+      "url": "https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html",
+      "access": "free_no_login",
+      "notes": "Floating-point encoding, rounding, ulps and error behavior."
+    },
+    "na-higham": {
+      "title": "Nicholas J. Higham, Accuracy and Stability of Numerical Algorithms, 2nd edition",
+      "kind": "scholarly_textbook",
+      "url": "https://epubs.siam.org/doi/book/10.1137/1.9780898718027",
+      "access": "publisher_or_author",
+      "notes": "Forward/backward error, conditioning, numerical stability, summation."
+    },
+    "na-wilkinson": {
+      "title": "James H. Wilkinson, Rounding Errors in Algebraic Processes",
+      "kind": "scholarly_primary",
+      "url": "https://epubs.siam.org/doi/10.1137/1.9781611977523",
+      "access": "publisher_or_author",
+      "notes": "Development of backward-error viewpoint in numerical linear algebra."
+    },
+    "na-kahan": {
+      "title": "William Kahan, Analysis and Application of Simply Compensated Summation (1993)",
+      "kind": "scholarly_primary",
+      "url": "https://www.arithmazium.org/library/lib/wk_analysis_and_application_of_simply_compensated_summation_oct93.pdf",
+      "access": "free_no_login",
+      "notes": "Compensated summation and accumulation of rounding error."
+    }
+  }
+}
