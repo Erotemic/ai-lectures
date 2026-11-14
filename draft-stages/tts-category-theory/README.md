@@ -1,6 +1,6 @@
 # An Introduction to Category Theory
 
-A concept-first, proof-bearing mathematics track with fourteen substantive standalone spoken lectures, each with a display-only mathematical companion and exercises with answers. The track begins with sets, functions, orders, and simple algebra. Recordings nine through twelve form a second arc, while thirteen and fourteen develop local-to-global reasoning and sheaf-based logic. The category-theoretic vocabulary is developed from those examples and is then used to derive more general results.
+A concept-first, proof-bearing mathematics track with eighteen substantive standalone spoken lectures, each with a display-only mathematical companion and exercises with answers. The track begins with sets, functions, orders, and simple algebra. Recordings nine through twelve form a second arc, while thirteen and fourteen develop local-to-global reasoning and sheaf-based logic. Lectures fifteen through eighteen study enrichment, ends/coends, Kan extensions, and typed-program semantics. The category-theoretic vocabulary is developed from those examples and is then used to derive more general results.
 
 The material is written for listeners comfortable with functions and elementary algebra who have not previously studied category theory. It assumes no algebraic topology, group theory beyond an explained example, or programming-language background. The displayed mathematics supplies exact notation and proofs after the spoken markers; it is not synthesized as audio.
 
@@ -21,6 +21,11 @@ The material is written for listeners comfortable with functions and elementary 
 | 013000 | Sheaves and Gluing | Presheaves, local agreement, existence and uniqueness, stalks, sheafification |
 | 014000 | Topoi and Local Truth | Subobject classifiers, Sierpiński opens, Heyting algebra, internal logic |
 
+| 015000 | Enriched Categories | Lawvere metrics, reversed order, nonexpansive functors, shortest paths, distance profiles |
+| 016000 | Ends and Coends | Natural transformation equalizers, coend quotients, contravariance and balancing |
+| 017000 | Kan Extensions | Left/right universal extensions, comma categories, pointwise (co)limits, Kan adjunctions |
+| 018000 | Categorical Semantics | Cartesian closed categories, lambda abstraction, beta/eta laws, typed terms as arrows |
+
 ## Narration principles
 
 - Each recording supplies the objects and hypotheses it uses, even when a previous recording covers related ideas.
@@ -35,6 +40,6 @@ The material is written for listeners comfortable with functions and elementary 
 
 **Sources:** `metadata/sources.json`; per-lecture source selections and claim anchors live in `metadata/<id>.json`.
 
-**Further directions:** Galois connections, enriched categories, algebraic theories, categorical semantics of dependent types, bicategories, and carefully motivated introductions to Kan extensions. These topics remain potential successors, not unfulfilled requirements of the fourteen-lecture course.
+**Further directions:** Galois connections, profunctors, enriched Yoneda and weighted limits, sheafification on sites, algebraic theories, dependent-type semantics, and bicategories. The eighteen-lecture sequence remains extensible rather than a claim of total coverage.
 
-**Third arc planning:** `docs/planning/category-theory-third-arc.md`.
+**Third arc planning:** `docs/planning/category-theory-third-arc.md`. **Fourth arc planning:** `docs/planning/category-theory-fourth-arc.md`.

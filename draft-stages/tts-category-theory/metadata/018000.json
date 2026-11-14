@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-categorical-program-semantics.md",
+  "related_resources": [
+    {
+      "source_id": "ct-lambek-scott",
+      "reason": "Classical treatment of typed lambda calculi and cartesian closed categories."
+    },
+    {
+      "source_id": "ct-stanford-category",
+      "reason": "Historical and mathematical context for categorical semantics, logic, and categorical foundations."
+    },
+    {
+      "source_id": "ct-stanford-lambda",
+      "reason": "Lambda calculus, historical background, and semantics."
+    },
+    {
+      "source_id": "ct-awodey-logic",
+      "reason": "Categorical semantics of propositions, typed lambda calculus, quantification and topoi."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "018000-h01",
+      "anchor": "The lambda calculus grew out of foundational work by Alonzo Church",
+      "kind": "historical_research",
+      "source_ids": [
+        "ct-stanford-lambda"
+      ],
+      "source_locator": "historical development and attribution",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "018000-h02",
+      "anchor": "categorical work associated with Joachim Lambek",
+      "kind": "historical_research",
+      "source_ids": [
+        "ct-lambek-scott",
+        "ct-stanford-category"
+      ],
+      "source_locator": "historical development and attribution",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "id": "category-theory",
   "title": "Introduction to Category Theory · Foundations and Further Connections",
-  "summary": "A concept-first, proof-bearing course using sets, functions, orders, algebra, and typed processes to develop categories, functors, universality, monads, equivalence, monoidal composition, string diagrams, and categorical logic. The extended course develops sheaves, gluing, and topoi with local intuitionistic truth values.",
+  "summary": "A concept-first, proof-bearing sequence from categories, functors, and universal properties through adjunctions, Yoneda, monads, monoidal structure, sheaves, topoi, enriched categories, ends and coends, Kan extensions, and categorical semantics.",
   "assumed_background": [
     "sets and functions, basic algebra, willingness to follow short proofs; each categorical concept is introduced from examples"
   ],
@@ -17,7 +17,11 @@
     "graphical-reasoning",
     "categorical-logic",
     "sheaves-and-locality",
-    "topoi-and-logic"
+    "topoi-and-logic",
+    "enriched-categories",
+    "ends-and-coends",
+    "kan-extensions",
+    "categorical-semantics"
   ],
   "lectures": [
     {
@@ -145,6 +149,42 @@
       "spoken_words": 3082,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 21.3
+    },
+    {
+      "id": "015000",
+      "title": "Enriched Categories: How Distance Can Be Composition",
+      "section": "enriched-categories",
+      "file": "015000-enriched-categories.md",
+      "spoken_words": 3047,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.0
+    },
+    {
+      "id": "016000",
+      "title": "Ends and Coends: Compatibility and Identification",
+      "section": "ends-and-coends",
+      "file": "016000-ends-and-coends.md",
+      "spoken_words": 3016,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 20.8
+    },
+    {
+      "id": "017000",
+      "title": "Kan Extensions: Extending a Diagram Without Guesswork",
+      "section": "kan-extensions",
+      "file": "017000-kan-extensions.md",
+      "spoken_words": 3134,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.6
+    },
+    {
+      "id": "018000",
+      "title": "Categorical Semantics: Types, Programs, and Universal Laws",
+      "section": "categorical-semantics",
+      "file": "018000-categorical-program-semantics.md",
+      "spoken_words": 3152,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.7
     }
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-kan-extensions.md",
+  "related_resources": [
+    {
+      "source_id": "ct-riehl-context",
+      "reason": "Author-hosted overview and private-use book access; mathematical reference, not replicated text."
+    },
+    {
+      "source_id": "ct-riehl-homotopy",
+      "reason": "Introductory chapter on Kan extensions and coend formulas."
+    },
+    {
+      "source_id": "ct-maclane-working",
+      "reason": "Classical text; publisher preview and book description."
+    },
+    {
+      "source_id": "ct-leinster-basic",
+      "reason": "Introductory treatment with examples, Yoneda, adjoints, limits; manuscript freely available."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "017000-h01",
+      "anchor": "associated with Mac Lane's presentation",
+      "kind": "historical_research",
+      "source_ids": [
+        "ct-maclane-working"
+      ],
+      "source_locator": "historical development and attribution",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
