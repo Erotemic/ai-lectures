@@ -23,7 +23,7 @@ def test_foundation_manuscript_manifest_sources(track_id, folder):
     manifest = json.loads((folder/'track.json').read_text())
     assert manifest['id'] == track_id
     rows = manifest['lectures']
-    assert [row['id'] for row in rows] == ['001000', '002000', '003000']
+    assert [row['id'] for row in rows] == ['001000', '002000', '003000', '004000']
     catalog = json.loads((folder/'metadata'/'sources.json').read_text())['sources']
     for row in rows:
         path = folder / row['file']
@@ -59,12 +59,12 @@ def test_three_foundations_audio_reader_independent_tracks(tmp_path):
             track_rows = {row['id']: row for row in track_resp.json()['tracks']}
             html = client.get('/audio').text
             for track_id in TRACKS:
-                assert track_rows[track_id]['count'] == 3
+                assert track_rows[track_id]['count'] == 4
                 assert track_rows[track_id]['url'] == '/audio?track=' + track_id
                 inventory = client.get('/api/audio-lectures', params={'track':track_id})
                 assert inventory.status_code == 200
-                assert [row['id'] for row in inventory.json()['items']] == ['001000', '002000', '003000']
-                for lecture_id in ['001000', '002000', '003000']:
+                assert [row['id'] for row in inventory.json()['items']] == ['001000', '002000', '003000', '004000']
+                for lecture_id in ['001000', '002000', '003000', '004000']:
                     detail = client.get(f'/api/audio-lectures/{lecture_id}', params={'track':track_id})
                     assert detail.status_code == 200
                     doc = detail.json()

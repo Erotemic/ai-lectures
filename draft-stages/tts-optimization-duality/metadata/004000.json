@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-kkt-conditions-and-constraint-qualifications.md",
+  "related_resources": [
+    {
+      "source_id": "od-boyd",
+      "reason": "KKT sufficiency, Slater qualification, strong duality"
+    },
+    {
+      "source_id": "od-stanford-kkt",
+      "reason": "Teaching development of complementary slackness and KKT"
+    },
+    {
+      "source_id": "od-bertsimas",
+      "reason": "Primal-dual certification background"
+    },
+    {
+      "source_id": "od-stanford-course",
+      "reason": "The Stanford convex optimization syllabus and free teaching materials"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "004000-s01",
+      "anchor": "We have zero duality gap but no attained dual optimum.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "od-boyd"
+      ],
+      "source_locator": "Chapter 5: KKT, constraint qualifications, and dual attainment",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

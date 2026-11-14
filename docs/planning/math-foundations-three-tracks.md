@@ -1,6 +1,6 @@
 # Three complementary mathematics foundations tracks
 
-**Date:** 14 November 2026. **Status:** Three substantive lectures delivered in each track; remaining lectures are a prioritized curriculum proposal. **Existing courses:** category theory, advanced spectral/perturbation theory, historical portraits, World Reconsidered.
+**Date:** 14 November 2026. **Status:** Four substantive lectures delivered in each track; remaining lectures are a prioritized curriculum proposal. **Existing courses:** category theory, advanced spectral/perturbation theory, historical portraits, World Reconsidered.
 
 ## Why these three
 
@@ -17,7 +17,7 @@ The nine lectures delivered across the three tracks are designed for a mathemati
 - 001000 (delivered): *Proofs as Objects: Why Propositions Can Be Types*. Functions as implications, conjunctions/disjunctions, quantifiers, `Prop` vs `Type`, dependent witnesses, and honest specification limits.
 - 002000 (delivered): *Natural Deduction and Lambda Calculus: How Proofs Compute*. Standalone spoken manuscript, mathematical companion, exercises, and source sidecar.
 - 003000 (delivered): *Dependent Functions and Quantifiers: What Does a Witness Contain?*. Standalone spoken manuscript, mathematical companion, exercises, and source sidecar.
-- 004000: Inductive datatypes, recursion, and structural induction; how elimination rules enable proofs.
+- 004000 (delivered): *Inductive Types, Recursion, and Structural Induction: Building Proofs from Constructors*. Constructors, eliminators, structural induction and termination.
 - 005000: Definitional/propositional equality, rewriting, transport, and quotient types.
 - 006000: Classical axioms, excluded middle, choice, proof irrelevance, and what remains computational.
 - 007000: Universes, consistency boundaries, and the small kernel.
@@ -28,7 +28,7 @@ The nine lectures delivered across the three tracks are designed for a mathemati
 - 001000 (delivered): *When Is a Solution Truly Best? Optimization and Certificates*. Exact primal/dual LP solutions, convex quadratic and Lagrangian, weak versus strong duality.
 - 002000 (delivered): *Convex Sets and Supporting Hyperplanes: Geometry That Proves Bounds*. Standalone spoken manuscript, mathematical companion, exercises, and source sidecar.
 - 003000 (delivered): *Linear Programming and Duality: Two Answers That Certify Each Other*. Standalone spoken manuscript, mathematical companion, exercises, and source sidecar.
-- 004000: Lagrangians, KKT and Slater conditions; counterexamples without qualifications.
+- 004000 (delivered): *Lagrange Multipliers and KKT Conditions: When Local Equations Certify an Optimum*. KKT sufficiency, Slater, nonattainment and nonconvex counterexamples.
 - 005000: Gradient and accelerated methods; smoothness, conditioning and convergence bounds.
 - 006000: Nonsmooth convexity; subgradients, proximal maps, Fenchel duality.
 - 007000: Eigenvalue variational principles and semidefinite programming; spectral constraints.
@@ -40,7 +40,7 @@ The nine lectures delivered across the three tracks are designed for a mathemati
 - 001000 (delivered): *Measuring Uncertainty: Events, Evidence, and Expectation*. Conditional probability, Bayes, independence, expected value, variance, and continuous measures.
 - 002000 (delivered): *Counting, Conditioning, and Independence: How Evidence Changes the Sample Space*. Standalone spoken manuscript, mathematical companion, exercises, and source sidecar.
 - 003000 (delivered): *Random Variables, Distributions, and Expectation: Turning Outcomes into Quantities*. Standalone spoken manuscript, mathematical companion, exercises, and source sidecar.
-- 004000: Sigma algebras, measures, integration, null sets, convergence modes.
+- 004000 (delivered): *Sigma Algebras and Measure: How Probability Handles Infinite Events*. Countable additivity, Lebesgue integration, null sets and distinct convergence modes.
 - 005000: Conditional expectation as integration, projection and information restriction.
 - 006000: Laws of large numbers, concentration, central limit behavior and dependence assumptions.
 - 007000: Martingales, filtrations, stopping times and optional-stopping qualifications.
@@ -65,8 +65,8 @@ Each track now has IDs 001000-003000 registered in the existing audio reader, wi
 
 ## Follow-on sequence
 
-Highest-leverage next lectures: (a) inductive datatypes and recursion, (b) Lagrange multipliers and KKT conditions, and (c) sigma algebras and almost-sure reasoning. After those, deepen the tracks independently. Preserve the ability to take any lecture out of order; later lectures can state real prerequisites in metadata.
+The 004000 lectures identified as the highest-leverage continuations are now delivered. Follow-on priorities: definitional equality and transport (logic), gradient convergence (optimization), and conditional expectation (probability). Deepen the tracks independently. Preserve the ability to take any lecture out of order; later lectures can state real prerequisites in metadata.
 
 ## Integration boundaries
 
-Use new track IDs `logic-types`, `optimization-duality`, `probability-measure` and directories `draft-stages/tts-logic-types`, `draft-stages/tts-optimization-duality`, `draft-stages/tts-probability-measure`. Each now holds stable lecture IDs `001000`-`003000` within its track: cache and API keys are track-qualified. No change to historical tracks or category theory is required. Their initial audio reader registrations are already in place; continuation requires only manifest, transcript, reference, and test updates, not changes to shared synthesis behavior.
+Use new track IDs `logic-types`, `optimization-duality`, `probability-measure` and directories `draft-stages/tts-logic-types`, `draft-stages/tts-optimization-duality`, `draft-stages/tts-probability-measure`. Each now holds stable lecture IDs `001000`-`004000` within its track: cache and API keys are track-qualified. No change to historical tracks or category theory is required. Their initial audio reader registrations are already in place; continuation requires only manifest, transcript, reference, and test updates, not changes to shared synthesis behavior.

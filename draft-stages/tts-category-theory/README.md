@@ -1,6 +1,6 @@
 # An Introduction to Category Theory
 
-A concept-first, proof-bearing mathematics track with **34 standalone lectures** and a separate display-only mathematical companion for each recording. The course begins with sets, functions, and universal properties, then develops structures used in geometry, logic, semantics, and higher category theory. Each lecture builds from a concrete example into precise definitions and proof arguments.
+A concept-first, proof-bearing mathematics track with **35 standalone lectures** and a separate display-only mathematical companion for each recording. The course begins with sets, functions, and universal properties, then develops structures used in geometry, logic, semantics, and higher category theory. Each lecture builds from a concrete example into precise definitions and proof arguments.
 
 **Audience:** A listener comfortable with functions, basic algebra, and following short proofs. The later lectures introduce advanced concepts, but explain their specific examples and conventions rather than relying on the wording of earlier recordings. Recordings can be listened to individually.
 
@@ -44,6 +44,7 @@ A concept-first, proof-bearing mathematics track with **34 standalone lectures**
 | 032000 | Homotopy Limits: Why a Pullback Can Contain Loops | Path-space pullbacks, loop spaces, homotopy fibers and invariant limits |
 | 033000 | Infinity-Operads: Algebraic Laws with Room to Deform | Little disks, E_n algebras, coherence and finite-pointed-set structure |
 | 034000 | Derived and Higher Stacks: What an Intersection Can Remember | Derived tensor products, Tor, higher descent and deformation information |
+| 035000 | Chain Complexes and Resolutions: How Algebra Measures Failed Exactness | Exact sequences, free resolutions, Tor and quasi-isomorphisms |
 
 ## Authoring conventions
 
@@ -64,6 +65,7 @@ A concept-first, proof-bearing mathematics track with **34 standalone lectures**
 - `docs/planning/category-theory-sixth-arc.md`
 - `docs/planning/category-theory-seventh-arc.md`
 - `docs/planning/category-theory-eighth-arc.md`
+- `docs/planning/category-theory-ninth-arc.md`
 
 ## Further directions
 

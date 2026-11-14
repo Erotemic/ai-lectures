@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-sigma-algebras-measures-and-almost-sure.md",
+  "related_resources": [
+    {
+      "source_id": "pm-mit-measure",
+      "reason": "Foundations of sigma algebras and Lebesgue integration"
+    },
+    {
+      "source_id": "pm-klenke",
+      "reason": "Measure-theoretic probability, limit theorems and integration"
+    },
+    {
+      "source_id": "pm-vovkshafer",
+      "reason": "Historical context for modern axiomatic probability"
+    },
+    {
+      "source_id": "pm-mit",
+      "reason": "Earlier MIT probability treatment of random variables and expectation"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "004000-s01",
+      "anchor": "We have pointwise convergence, indeed almost-sure convergence, and still the expectations do not converge to the expectation of the limit.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-mit-measure"
+      ],
+      "source_locator": "Lecture notes 1–5: measure, integration, monotone and dominated convergence",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

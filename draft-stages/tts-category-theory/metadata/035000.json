@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "lecture_id": "035000",
+  "transcript": "035000-chain-complexes-and-resolutions.md",
+  "related_resources": [
+    {
+      "source_id": "ct-stacks-project-browse",
+      "reason": "Exact sequences, complexes, resolutions, derived functors"
+    },
+    {
+      "source_id": "ct-weibel-homological",
+      "reason": "Tor, homotopy, quasi-isomorphisms and projective resolutions"
+    },
+    {
+      "source_id": "ct-maclane-homology",
+      "reason": "Historical and categorical foundations of homology"
+    },
+    {
+      "source_id": "ct-stacks-computing-tor",
+      "reason": "Derived Tor from projective resolutions"
+    },
+    {
+      "source_id": "ct-stacks-derived-tensor",
+      "reason": "Derived tensor products and K-flat resolution invariance"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "035000-s01",
+      "anchor": "The extra group records the failure of tensoring to preserve the injection in the free resolution.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-stacks-project-browse"
+      ],
+      "source_locator": "Homological Algebra and Derived Categories: resolutions and derived tensor",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

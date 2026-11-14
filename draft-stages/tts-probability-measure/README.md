@@ -10,9 +10,10 @@
 - 002000: [Counting, Conditioning, and Independence: How Evidence Changes the Sample Space](002000-counting-conditioning-independence.md) (3,118 spoken words; ~22 minutes).
 - 003000: [Random Variables, Distributions, and Expectation: Turning Outcomes into Quantities](003000-random-variables-and-expectation.md) (3,314 spoken words; ~23 minutes).
 
+- 004000: [Sigma Algebras and Measure: How Probability Handles Infinite Events](004000-sigma-algebras-measures-and-almost-sure.md) (3,245 spoken words; ~22 minutes).
+
 ## Planned continuation
 
-- 004000: Measure, Integration, and Almost-Sure Statements
 - 005000: Conditional Expectation as Projection
 - 006000: Concentration, Laws of Large Numbers, and Limit Theorems
 - 007000: Martingales, Filtrations, and Stopping Times

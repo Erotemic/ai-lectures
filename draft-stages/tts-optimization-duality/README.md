@@ -10,9 +10,10 @@
 - 002000: [Convex Sets and Supporting Hyperplanes: Geometry That Proves Bounds](002000-convexity-and-supporting-hyperplanes.md) (3,308 spoken words; ~23 minutes).
 - 003000: [Linear Programming and Duality: Two Answers That Certify Each Other](003000-linear-programming-duality.md) (3,156 spoken words; ~22 minutes).
 
+- 004000: [Lagrange Multipliers and KKT Conditions: When Local Equations Certify an Optimum](004000-kkt-conditions-and-constraint-qualifications.md) (3,001 spoken words; ~21 minutes).
+
 ## Planned continuation
 
-- 004000: Lagrangians, KKT Conditions, and Constraint Qualifications
 - 005000: Gradient Methods, Conditioning, and Convergence
 - 006000: Proximal Algorithms and Nonsmooth Convexity
 - 007000: Spectral and Semidefinite Optimization

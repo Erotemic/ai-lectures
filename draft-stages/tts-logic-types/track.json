@@ -8,7 +8,8 @@
   "sections": [
     "proofs-as-objects",
     "proof-normalization",
-    "dependent-quantifiers"
+    "dependent-quantifiers",
+    "inductive-structures"
   ],
   "lectures": [
     {
@@ -37,6 +38,15 @@
       "spoken_words": 3121,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 21.5
+    },
+    {
+      "id": "004000",
+      "title": "Inductive Types, Recursion, and Structural Induction: Building Proofs from Constructors",
+      "section": "inductive-structures",
+      "file": "004000-inductive-types-and-recursion.md",
+      "spoken_words": 3223,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.2
     }
   ]
 }

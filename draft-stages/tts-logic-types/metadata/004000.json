@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-inductive-types-and-recursion.md",
+  "related_resources": [
+    {
+      "source_id": "lt-lean-book",
+      "reason": "Inductive types, recursion and reduction principles"
+    },
+    {
+      "source_id": "lt-martinlof",
+      "reason": "Dependent eliminators and induction"
+    },
+    {
+      "source_id": "lt-pierce",
+      "reason": "Datatype constructors and termination"
+    },
+    {
+      "source_id": "lt-type-theory-sep",
+      "reason": "Logical foundations of inductive families"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "004000-s01",
+      "anchor": "An inductive type therefore gives us three things at once.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "lt-lean-book"
+      ],
+      "source_locator": "Chapters 7 and 8; constructors and eliminators",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

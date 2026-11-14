@@ -10,9 +10,10 @@
 - 002000: [Natural Deduction and Lambda Calculus: How Proofs Compute](002000-natural-deduction-and-lambda-calculus.md) (3,269 spoken words; ~23 minutes).
 - 003000: [Dependent Functions and Quantifiers: What Does a Witness Contain?](003000-dependent-quantifiers.md) (3,121 spoken words; ~22 minutes).
 
+- 004000: [Inductive Types, Recursion, and Structural Induction: Building Proofs from Constructors](004000-inductive-types-and-recursion.md) (3,223 spoken words; ~22 minutes).
+
 ## Planned continuation
 
-- 004000: Inductive Types, Recursion, and Structural Induction
 - 005000: Equality, Rewriting, and Definitional Computation
 - 006000: Constructive and Classical Mathematics
 - 007000: Universes, Axioms, and Consistency
