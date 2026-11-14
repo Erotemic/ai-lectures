@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "ct-eilenberg-maclane-1945": {
+      "title": "Samuel Eilenberg and Saunders Mac Lane, General Theory of Natural Equivalences (1945)",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1090/S0002-9947-1945-0013131-6",
+      "access": "free_no_login",
+      "notes": "Original paper introducing categories, functors and natural transformations in algebraic topology."
+    },
+    "ct-leinster-basic": {
+      "title": "Tom Leinster, Basic Category Theory (2016)",
+      "kind": "scholarly_textbook",
+      "url": "https://arxiv.org/abs/1612.09375",
+      "access": "free_no_login",
+      "notes": "Introductory treatment with examples, Yoneda, adjoints, limits; manuscript freely available."
+    },
+    "ct-riehl-context": {
+      "title": "Emily Riehl, Category Theory in Context (2016)",
+      "kind": "scholarly_textbook",
+      "url": "https://emilyriehl.github.io/books/",
+      "access": "free_no_login",
+      "notes": "Author-hosted overview and private-use book access; mathematical reference, not replicated text."
+    },
+    "ct-maclane-working": {
+      "title": "Saunders Mac Lane, Categories for the Working Mathematician (1971; 2nd ed. 1998)",
+      "kind": "scholarly_textbook",
+      "url": "https://link.springer.com/book/10.1007/978-1-4612-9839-7",
+      "access": "publisher_preview",
+      "notes": "Classical text; publisher preview and book description."
+    },
+    "ct-eisenbud-recollection": {
+      "title": "David Eisenbud, Saunders and Sammy (MacTutor recollection)",
+      "kind": "historical_recollection",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/MacLane_Eisenbud/",
+      "access": "free_no_login",
+      "notes": "Firsthand recollection of Eilenberg/Mac Lane relationship and 1969 conference."
+    },
+    "ct-fong-spivak": {
+      "title": "Brendan Fong and David I. Spivak, Seven Sketches in Compositionality (2018)",
+      "kind": "scholarly_textbook",
+      "url": "https://arxiv.org/abs/1803.05316",
+      "access": "free_no_login",
+      "notes": "Applied category theory, order, databases and compositional reasoning."
+    },
+    "ct-ocw-applied": {
+      "title": "MIT OpenCourseWare, Applied Category Theory (2019)",
+      "kind": "course_material",
+      "url": "https://ocw.mit.edu/courses/18-s097-applied-category-theory-january-iap-2019/pages/lecture-videos-and-readings/",
+      "access": "free_no_login",
+      "notes": "Video syllabus linking abstract structure to databases, order, and circuits."
+    },
+    "ct-nlab-monad": {
+      "title": "nLab, Monad",
+      "kind": "research_reference",
+      "url": "https://ncatlab.org/nlab/show/monad",
+      "access": "free_no_login",
+      "notes": "Standard categorical monad formulation and examples; advanced reference."
+    },
+    "ct-riehl-syllabus": {
+      "title": "Emily Riehl, undergraduate Category Theory in Context course",
+      "kind": "course_material",
+      "url": "https://math.jhu.edu/~eriehl/161/",
+      "access": "free_no_login",
+      "notes": "Outlines a teaching progression from categories through monads."
+    }
+  }
+}

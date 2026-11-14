@@ -33,6 +33,7 @@ PAPER_DIRECTORY = ROOT / 'draft-stages' / 'tts-paper'
 HISTORY_DIRECTORY = ROOT / 'draft-stages' / 'tts-history'
 WORLD_HISTORY_DIRECTORY = ROOT / 'draft-stages' / 'tts-world-history'
 WORLD_RECONSIDERED_DIRECTORY = ROOT / 'draft-stages' / 'tts-world-reconsidered'
+CATEGORY_THEORY_DIRECTORY = ROOT / 'draft-stages' / 'tts-category-theory'
 EXTRACTOR = SOURCE_DIRECTORY / 'extract_narration.py'
 AUDIO_PAGE = Path(__file__).with_name('audio_library.html')
 LECTURE_NAME = re.compile(r'^(\d{6})-.*\.md$')
@@ -262,7 +263,8 @@ class AudioLectureLibrary:
         files = sorted(p for p in self.sources.iterdir()
                        if p.is_file() and LECTURE_NAME.fullmatch(p.name))
         if self.sources not in {PAPER_DIRECTORY.resolve(), HISTORY_DIRECTORY.resolve(),
-                                WORLD_HISTORY_DIRECTORY.resolve(), WORLD_RECONSIDERED_DIRECTORY.resolve()}:
+                                WORLD_HISTORY_DIRECTORY.resolve(), WORLD_RECONSIDERED_DIRECTORY.resolve(),
+                                CATEGORY_THEORY_DIRECTORY.resolve()}:
             return files
         # Curated audio tracks use their own manifest order, independently of
         # their six-digit source identifiers.
@@ -960,6 +962,8 @@ class AudioLectureHub:
             self.tracks['world-history'] = WORLD_HISTORY_DIRECTORY.resolve()
         if self.sources == SOURCE_DIRECTORY.resolve() and WORLD_RECONSIDERED_DIRECTORY.is_dir():
             self.tracks['world-reconsidered'] = WORLD_RECONSIDERED_DIRECTORY.resolve()
+        if self.sources == SOURCE_DIRECTORY.resolve() and CATEGORY_THEORY_DIRECTORY.is_dir():
+            self.tracks['category-theory'] = CATEGORY_THEORY_DIRECTORY.resolve()
         self._engines = {}
         self._lock = threading.RLock()
         self._voice_registry = self.cache / 'registered-voices.json'
@@ -1034,6 +1038,11 @@ class AudioLectureHub:
                     count=len(self.engine(self.profile, 'world-reconsidered')._files()),
                     summary='Ideas that change how we think: evidence, causality, systems, and humanity')]
               if 'world-reconsidered' in self.tracks else []),
+            *([dict(id='category-theory', label='Category Theory · Introduction', kind='audio',
+                    url='/audio?track=category-theory',
+                    count=len(self.engine(self.profile, 'category-theory')._files()),
+                    summary='Objects, arrows, functors, universal properties, adjunctions, Yoneda, and monads')]
+              if 'category-theory' in self.tracks else []),
         ]
 
     def _read_registry(self):

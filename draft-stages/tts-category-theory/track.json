@@ -1,0 +1,90 @@
+{
+  "id": "category-theory",
+  "title": "Introduction to Category Theory · Objects, arrows, and universal constructions",
+  "summary": "A concept-first introductory mathematics course using sets, functions, orders, and elementary algebra to develop category theory through examples and proofs.",
+  "assumed_background": [
+    "sets and functions, basic algebra, willingness to follow short proofs; each categorical concept is introduced from examples"
+  ],
+  "sections": [
+    "foundations",
+    "structure-preserving-maps",
+    "universal-properties",
+    "adjunctions",
+    "representables",
+    "structured-composition"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "Categories and Composition: What Can Arrows Tell Us?",
+      "section": "foundations",
+      "file": "001000-categories-and-composition.md",
+      "spoken_words": 3670,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 25.3
+    },
+    {
+      "id": "002000",
+      "title": "Functors: Translating One Mathematical World into Another",
+      "section": "structure-preserving-maps",
+      "file": "002000-functors.md",
+      "spoken_words": 3433,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 23.7
+    },
+    {
+      "id": "003000",
+      "title": "Natural Transformations: What Does It Mean to Work the Same Way Everywhere?",
+      "section": "structure-preserving-maps",
+      "file": "003000-natural-transformations.md",
+      "spoken_words": 3613,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 24.9
+    },
+    {
+      "id": "004000",
+      "title": "Universal Properties: Defining an Object by What It Does",
+      "section": "universal-properties",
+      "file": "004000-universal-properties.md",
+      "spoken_words": 3548,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 24.5
+    },
+    {
+      "id": "005000",
+      "title": "Limits and Colimits: Solving an Entire Diagram",
+      "section": "universal-properties",
+      "file": "005000-limits-and-colimits.md",
+      "spoken_words": 3633,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 25.1
+    },
+    {
+      "id": "006000",
+      "title": "Adjunctions: Why Free Constructions Fit Forgetful Ones",
+      "section": "adjunctions",
+      "file": "006000-adjunctions.md",
+      "spoken_words": 3402,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 23.5
+    },
+    {
+      "id": "007000",
+      "title": "The Yoneda Lemma: Knowing an Object by All Its Relationships",
+      "section": "representables",
+      "file": "007000-yoneda.md",
+      "spoken_words": 3966,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 27.4
+    },
+    {
+      "id": "008000",
+      "title": "Monads: Making Structured Computations Compose",
+      "section": "structured-composition",
+      "file": "008000-monads.md",
+      "spoken_words": 3702,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 25.5
+    }
+  ]
+}
