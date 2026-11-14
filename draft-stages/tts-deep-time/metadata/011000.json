@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-age-of-earth-rock-clocks.md",
+  "related_resources": [
+    {
+      "source_id": "dt-wiki-age-earth",
+      "reason": "Introductory account of radiometric dating and historical age estimates."
+    },
+    {
+      "source_id": "dt-nist-chronology",
+      "reason": "U isotope half-lives and terrestrial age 4.54 +/- 0.05 Ga; carbon-14 range."
+    },
+    {
+      "source_id": "dt-usgs-patterson",
+      "reason": "Patterson 1956 Canyon Diablo meteorite and lead chronology."
+    },
+    {
+      "source_id": "dt-patterson-1956",
+      "reason": "Original 4.55 +/- 0.07 Ga lead-isotope argument."
+    },
+    {
+      "source_id": "dt-cai-connelly-2012",
+      "reason": "U-corrected Pb-Pb age 4567.30 +/- 0.16 Ma on selected CAIs and chronology of chondrules."
+    },
+    {
+      "source_id": "dt-jackhills-wilde-2001",
+      "reason": "4,404 +/- 8 Ma detrital zircon, oxygen isotope and trace element interpretation."
+    },
+    {
+      "source_id": "dt-nuvvuagittuq-2025",
+      "reason": "Two Sm-Nd decay systems support approximately 4.16-4.2 Ga intrusions; debate remains on full context."
+    },
+    {
+      "source_id": "dt-early-disk-2025",
+      "reason": "Meteoritic age systems, chondrule alteration, NC/CC isotope reservoirs and early differentiation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "011000-e01",
+      "anchor": "The widely quoted estimate is about four point five four billion years",
+      "kind": "model_inference",
+      "source_ids": [
+        "dt-nist-chronology"
+      ],
+      "source_locator": "4.54 +/-0.05 Ga age of Earth",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "011000-e02",
+      "anchor": "Uranium two hundred thirty-eight decays",
+      "kind": "physical_reference",
+      "source_ids": [
+        "dt-nist-chronology"
+      ],
+      "source_locator": "half lives of 238U and 235U",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "011000-e03",
+      "anchor": "In 1956 the geochemist Clair Cameron Patterson",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-patterson-1956"
+      ],
+      "source_locator": "original 1956 meteorite Pb-Pb dating",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "011000-e04",
+      "anchor": "The Solar System's oldest mineral inclusions",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-cai-connelly-2012"
+      ],
+      "source_locator": "CAI time anchor",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "011000-e05",
+      "anchor": "One of the most informative places for this distinction is the Jack Hills",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-jackhills-wilde-2001"
+      ],
+      "source_locator": "detrital 4.4Ga zircon",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "011000-e06",
+      "anchor": "In June 2025 a team studying the Nuvvuagittuq Greenstone Belt",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-nuvvuagittuq-2025"
+      ],
+      "source_locator": "Sm-Nd intrusion ages and constraints",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Deep Time — reconstructing what happened, and how we know
 
-**Status:** New curriculum plan, 14 November 2026. Nine substantive lectures delivered (`001000` through `009000`); remaining IDs proposed and not represented as completed manuscripts. This track complements *World History*, the *How We Know* archaeology strand, *The Physical World*, and *The World Reconsidered*. Its identity is a chronological reconstruction from observable traces, reaching backward as far as current methods allow.
+**Status:** New curriculum plan, 14 November 2026. Thirteen substantive lectures delivered (`001000` through `013000`); remaining IDs proposed and not represented as completed manuscripts. This track complements *World History*, the *How We Know* archaeology strand, *The Physical World*, and *The World Reconsidered*. Its identity is a chronological reconstruction from observable traces, reaching backward as far as current methods allow.
 
 ## The question
 
@@ -54,10 +54,10 @@ Six arcs are navigational groupings. Numbers are reserved proposals within the `
 | 007000 | **Delivered** | Cosmic | **Does the Vacuum Accelerate? The Expansion History Under Test** | Type Ia supernovae, BAO, weak lensing, standard ruler dependence; Lambda versus time-dependent components; Hubble tension |
 | 008000 | **Delivered** | Stars | **When the First Galaxies Appeared** | Spectroscopic redshifts and galaxy-age inferences, JWST selection and stellar populations; early-galaxy formation models |
 | 009000 | **Delivered** | Stars | **Starlight, Stardust, and the Origin of Heavy Elements** | Stellar spectroscopy, nucleosynthesis, supernova remnants, neutron-star mergers; chemical fingerprints and model yields |
-| 010000 | Proposed | Stars | **The Birth of the Sun and Solar System** | Meteorite radiometric ages, isotope anomalies, disk observations, planetary dynamics; migration and alternative formation histories |
-| 011000 | Proposed | Earth | **How Old Is Earth? Building a Clock from Rock** | U–Pb geochronology, zircon, meteorites, decay calibration, closure temperature and inherited grains; why a date needs context |
-| 012000 | Proposed | Earth | **A Planet with Oceans: Atmosphere, Water, and Early Crust** | Isotopic proxies, geological exposures, impact and volatile-delivery models; interpretations of very old zircons |
-| 013000 | Proposed | Earth | **Plate Tectonics and the Reconstruction of Lost Continents** | Paleomagnetism, marine stripes, seismology, geochronology; ancient tectonic regimes and alternative early-Earth models |
+| 010000 | **Delivered** | Stars | **The Birth of the Sun and Solar System** | Meteorite radiometric ages, isotope anomalies, disk observations, planetary dynamics; migration and alternative formation histories |
+| 011000 | **Delivered** | Earth | **How Old Is Earth? Building a Clock from Rock** | U–Pb geochronology, zircon, meteorites, decay calibration, closure temperature and inherited grains; why a date needs context |
+| 012000 | **Delivered** | Earth | **A Planet with Oceans: Atmosphere, Water, and Early Crust** | Isotopic proxies, geological exposures, impact and volatile-delivery models; interpretations of very old zircons |
+| 013000 | **Delivered** | Earth | **Plate Tectonics and the Reconstruction of Lost Continents** | Paleomagnetism, marine stripes, seismology, geochronology; ancient tectonic regimes and alternative early-Earth models |
 | 014000 | Proposed | Life | **When Does a Rock Count as Evidence of Life?** | Carbon isotope fractionation, stromatolites, microfossils, abiotic mimics, early-Earth controversy; habitability vs actual life |
 | 015000 | Proposed | Life | **From Chemistry to Cells: What Origin-of-Life Research Has Achieved** | Laboratory synthesis, protocells, phylogenetic limits, hydrothermal and surface chemistry; distinguish plausibility from historical reconstruction |
 | 016000 | Proposed | Life | **Oxygen Changes the Planet** | Banded iron formation, sulfur isotopes, oxygen-sensitive minerals, atmospheric models; dates and competing triggers of the Great Oxidation Event |

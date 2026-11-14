@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-birth-sun-solar-system.md",
+  "related_resources": [
+    {
+      "source_id": "dt-wiki-solar-system",
+      "reason": "Orientation to disk, accretion and migration; use paper sources to assess debated timings."
+    },
+    {
+      "source_id": "dt-cai-connelly-2012",
+      "reason": "U-corrected Pb-Pb age 4567.30 +/- 0.16 Ma on selected CAIs and chronology of chondrules."
+    },
+    {
+      "source_id": "dt-early-disk-2025",
+      "reason": "Meteoritic age systems, chondrule alteration, NC/CC isotope reservoirs and early differentiation."
+    },
+    {
+      "source_id": "dt-dsharp-2018",
+      "reason": "ALMA high angular resolution dust rings and gaps in 20 protoplanetary disks."
+    },
+    {
+      "source_id": "dt-bennu-provenance-2025",
+      "reason": "Returned sample isotope heterogeneity and inherited material across disk reservoirs."
+    },
+    {
+      "source_id": "dt-bennu-nasa-2025",
+      "reason": "Returned samples evidence for water alteration and complex organic ingredients, not life."
+    },
+    {
+      "source_id": "dt-moon-tungsten-2021",
+      "reason": "Earth-Moon isotope similarity constrains canonical impact and mixing models."
+    },
+    {
+      "source_id": "dt-piani-water-2020",
+      "reason": "Enstatite-chondrite hydrogen inventory and isotopic similarity to terrestrial materials."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "010000-e01",
+      "anchor": "In a widely used uranium-corrected lead-lead chronology",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-cai-connelly-2012"
+      ],
+      "source_locator": "2012 CAI weighted formation age and uncertainty",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "010000-e02",
+      "anchor": "We do see disks around young stars",
+      "kind": "observation",
+      "source_ids": [
+        "dt-dsharp-2018"
+      ],
+      "source_locator": "DSHARP high resolution protoplanetary disk millimeter imaging",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "010000-e03",
+      "anchor": "Other components of primitive meteorites are chondrules",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-early-disk-2025"
+      ],
+      "source_locator": "chondrule chronology and alteration",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "010000-e04",
+      "anchor": "The isotope archive also separates many meteorites into two broad families",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-early-disk-2025"
+      ],
+      "source_locator": "nucleosynthetic NC/CC reservoirs",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "010000-e05",
+      "anchor": "The Grand Tack scenario proposes that Jupiter migrated",
+      "kind": "theoretical_proposal",
+      "source_ids": [
+        "dt-early-disk-2025"
+      ],
+      "source_locator": "formation-model family; discussion of migration scenarios",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "010000-e06",
+      "anchor": "Lunar samples and remote observations indicate that the Moon shares",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-moon-tungsten-2021"
+      ],
+      "source_locator": "Earth-Moon isotopic similarity and modeling",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "010000-e07",
+      "anchor": "Isotopic measurements of certain enstatite chondrites",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-piani-water-2020"
+      ],
+      "source_locator": "2020 enstatite-chondrite water source",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "010000-e08",
+      "anchor": "NASA's OSIRIS-REx spacecraft delivered samples from Bennu",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-bennu-nasa-2025"
+      ],
+      "source_locator": "returned sample context",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

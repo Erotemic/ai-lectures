@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-plate-tectonics-lost-continents.md",
+  "related_resources": [
+    {
+      "source_id": "dt-wiki-plate",
+      "reason": "Accessible orientation to modern boundaries, evidence and reconstruction methods."
+    },
+    {
+      "source_id": "dt-usgs-plate-velocity",
+      "reason": "GNSS displacement and marine reversal evidence for modern motions."
+    },
+    {
+      "source_id": "dt-earthscope-reference-frames",
+      "reason": "Plate motions depend on reference frame; GNSS directly tracks present geodetic rates."
+    },
+    {
+      "source_id": "dt-smithsonian-magnetics",
+      "reason": "Magnetic stripe reversal geometry and seafloor spreading."
+    },
+    {
+      "source_id": "dt-pilbara-2020",
+      "reason": "East Pilbara paleolatitude drift with fold and micromagnetic tests."
+    },
+    {
+      "source_id": "dt-pilbara-2022",
+      "reason": "Time-resolved East Pilbara paleomagnetic rotation/motion with interpretation of mobile lid."
+    },
+    {
+      "source_id": "dt-pilbara-2026",
+      "reason": "3.48 Ga differential Pilbara–Barberton motion; episodic mobile versus active tectonics."
+    },
+    {
+      "source_id": "dt-early-shuffle-2024",
+      "reason": "Review advancing alternative interpretation of Archean subduction-like signatures."
+    },
+    {
+      "source_id": "dt-planet-evolution-2025",
+      "reason": "Survey of uncertainty and onset hypotheses for mobile-lid/plate tectonics."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "013000-e01",
+      "anchor": "Satellite geodesy tracks their positions repeatedly",
+      "kind": "observation",
+      "source_ids": [
+        "dt-usgs-plate-velocity"
+      ],
+      "source_locator": "GNSS present motion",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "013000-e02",
+      "anchor": "Across many ridges, those magnetic patterns are roughly mirrored",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-smithsonian-magnetics"
+      ],
+      "source_locator": "mirror magnetic stripes",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "013000-e03",
+      "anchor": "Paleomagnetic work published in 2020",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-pilbara-2020"
+      ],
+      "source_locator": "East Pilbara 3.2 Ga motion",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "013000-e04",
+      "anchor": "A later study obtained additional poles",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-pilbara-2022"
+      ],
+      "source_locator": "3.25 Ga paleomagnetic pole",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "013000-e05",
+      "anchor": "In March 2026 another study reported paleomagnetic differences",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-pilbara-2026"
+      ],
+      "source_locator": "relative Pilbara–Barberton motion",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "013000-e06",
+      "anchor": "A 2024 review even proposed short-lived",
+      "kind": "technical_interpretation",
+      "source_ids": [
+        "dt-early-shuffle-2024"
+      ],
+      "source_locator": "Archean shuffle tectonics hypothesis",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "013000-e07",
+      "anchor": "A 2025 planetary-evolution review summarized competing estimates",
+      "kind": "technical_review",
+      "source_ids": [
+        "dt-planet-evolution-2025"
+      ],
+      "source_locator": "review of onset disagreement",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

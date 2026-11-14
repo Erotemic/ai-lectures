@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-oceans-atmosphere-early-crust.md",
+  "related_resources": [
+    {
+      "source_id": "dt-wiki-hadean",
+      "reason": "Overview of early Earth rocks, water, atmosphere and limitations of reconstruction."
+    },
+    {
+      "source_id": "dt-jackhills-wilde-2001",
+      "reason": "4,404 +/- 8 Ma detrital zircon, oxygen isotope and trace element interpretation."
+    },
+    {
+      "source_id": "dt-jackhills-watson-2005",
+      "reason": "Titanium-in-zircon inferred temperatures around 700 C under activity assumptions."
+    },
+    {
+      "source_id": "dt-jackhills-precipitation-2024",
+      "reason": "Low delta18O signatures in Jack Hills zircons, modeled meteoric-water interactions."
+    },
+    {
+      "source_id": "dt-piani-water-2020",
+      "reason": "Enstatite-chondrite hydrogen inventory and isotopic similarity to terrestrial materials."
+    },
+    {
+      "source_id": "dt-water-core-2025",
+      "reason": "Metal-silicate partitioning model indicating noncarbonaceous and carbonaceous contributions."
+    },
+    {
+      "source_id": "dt-moon-xenon-2026",
+      "reason": "Conditional 40–90 Myr Moon-forming-impact age with two mantle reservoirs and outgassing model."
+    },
+    {
+      "source_id": "dt-nuvvuagittuq-2025",
+      "reason": "Two Sm-Nd decay systems support approximately 4.16-4.2 Ga intrusions; debate remains on full context."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "012000-e01",
+      "anchor": "Individual grains have yielded uranium-lead crystallization ages",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-jackhills-wilde-2001"
+      ],
+      "source_locator": "Jack Hills zircon age",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "012000-e02",
+      "anchor": "A study published in 2001 reported a Jack Hills zircon",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-jackhills-wilde-2001"
+      ],
+      "source_locator": "O isotopes and wet crust inference",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "012000-e03",
+      "anchor": "Later work used titanium concentration in zircon",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-jackhills-watson-2005"
+      ],
+      "source_locator": "Ti thermometry around 700C",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "012000-e04",
+      "anchor": "A 2024 analysis of Jack Hills zircons examined oxygen isotope ratios",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-jackhills-precipitation-2024"
+      ],
+      "source_locator": "meteoric water at ~4.0 Ga",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "012000-e05",
+      "anchor": "A 2020 study argued that their hydrogen inventory",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-piani-water-2020"
+      ],
+      "source_locator": "enstatite hydrogen supply",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "012000-e06",
+      "anchor": "A 2025 study combining high-pressure experiments",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-water-core-2025"
+      ],
+      "source_locator": "core mantle partition model alternative",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "012000-e07",
+      "anchor": "A 2026 analysis using tungsten and xenon isotope evolution",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-moon-xenon-2026"
+      ],
+      "source_locator": "conditional impact age",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
