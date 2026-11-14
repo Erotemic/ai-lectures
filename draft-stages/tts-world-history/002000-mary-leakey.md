@@ -32,7 +32,9 @@ In the early 1930s she met Louis Leakey, a British-Kenyan archaeologist and anth
 
 ## Why look in Africa?
 
-Long before Mary began digging, Charles Darwin had suggested that Africa was a likely place to investigate the origins of the human lineage, partly because our closest living relatives, chimpanzees and gorillas, are African. It was a sensible inference, though a hypothesis is not a fossil. By the early twentieth century, scientists still argued over where and how our ancestors had evolved. European and Asian fossil finds received enormous attention, and many researchers were reluctant to place a small-brained African fossil near the beginning of the human story.
+In 1871, Charles Darwin asked where our early ancestors had lived. Chimpanzees and gorillas were known from Africa, and Darwin regarded them as the closest living relatives of humans. He therefore thought an African origin was somewhat more probable than an origin elsewhere. This was an inference from anatomy and geography, not a conclusion drawn from African ancestral fossils. Darwin also knew of fossil apes in Europe, and he immediately pointed out that ancient migrations could have changed where different lineages lived. He treated the birthplace of the human lineage as an open question.
+
+By the early twentieth century, scientists still argued over where and how our ancestors had evolved. European and Asian fossil finds received enormous attention, and many researchers were reluctant to place a small-brained African fossil near the beginning of the human story.
 
 In 1924, a young fossil from South Africa, later called the Taung Child, was recognized by Raymond Dart as an early human relative. Its significance was controversial. The creature had a brain much smaller than that of a modern human, yet features of the skull suggested it might have held its head upright and moved on two legs. If that interpretation was correct, a large brain had not necessarily evolved before habitual walking.
 
@@ -188,6 +190,7 @@ Mary Leakey's name belongs to that moment of recovery. She helped make the dista
 
 ### Chronology and evidence anchors
 
+- **1871:** In *The Descent of Man*, volume I, chapter VI, page 199, Charles Darwin describes an African birthplace for early human ancestors as somewhat more probable, then immediately notes European fossil apes and the possibility of ancient migrations.
 - **1913:** Mary Douglas Nicol is born in London (February 6). Field training begins through excavation and scientific illustration, notably with Dorothy Liddell at Hembury.
 - **1936:** Mary and Louis Leakey marry. Mary's first Olduvai/Laetoli field experience dates to the 1930s, including the 1935 expedition.
 - **1948:** Mary discovers a major *Proconsul* skull at Rusinga Island, Kenya. The fossil belongs to the Miocene, roughly eighteen million years ago. It is an early ape, not an identified human ancestor.
@@ -205,19 +208,21 @@ Mary Leakey's name belongs to that moment of recovery. She helped make the dista
 
 ### Further reading and source anchors
 
-1. **Mary D. Leakey and Richard L. Hay, “The Fossil Footprints of Laetoli,” *Scientific American* 246, no. 2 (1982).** Coauthored description of discovery history and geological setting. <https://www.scientificamerican.com/article/the-fossil-footprints-of-laetoli/>
-2. **Smithsonian Human Origins Program, “Laetoli Footprint Trails.”** Physical evidence, track length, dating, species attribution, and Paul Abell's participation. <https://humanorigins.si.edu/evidence/behavior/footprints/laetoli-footprint-trails>
-3. **Smithsonian Human Origins Program, “OH 5” and “Paranthropus boisei.”** The 1959 fossil, revised classification, dental morphology, and interpretation as a side branch. <https://humanorigins.si.edu/evidence/human-fossils/fossils/oh-5> and <https://humanorigins.si.edu/evidence/human-fossils/species/paranthropus-boisei>
-4. **The Leakey Foundation, “The Leakey Family,” section on Mary Douglas Leakey.** Biography, early field training, Rusinga discovery, Kimeu's reconstruction work, and later research. <https://leakeyfoundation.org/about-us/the-leakey-family/>
-5. **Catherine K. Miller, Ryan A. McCann, Kevin G. Hatala, Charles Musiba, and Jeremy M. DeSilva, “Early Hominin Movement Patterns at Laetoli, Northern Tanzania,” *PaleoAnthropology* (2024), 139–147.** Credits Paul Abell and Ndibo Mbuika in the Site G discovery and examines questions of track interpretation and movement direction. <https://doi.org/10.48738/2024.iss1.1086>
-6. **E. A. McNutt and colleagues, “Footprint evidence of early hominin locomotor diversity at Laetoli, Tanzania,” *Nature* 600 (2021), 468–471.** Reassessment of Site A tracks and the possibility of multiple hominin forms at Laetoli. <https://doi.org/10.1038/s41586-021-04187-7>
-7. **Getty Conservation Institute, “Project Origins,” Hominid Trackway at Laetoli.** Excavation history, reburial, root damage, and Tanzanian-led conservation response. <https://www.getty.edu/projects/hominid-trackway-laetoli/project-origins/>
-8. **Mary D. Leakey, *Olduvai Gorge*, vol. 3, *Excavations in Beds I and II, 1960–1963* (Cambridge University Press, 1971); *Disclosing the Past* (1984); *Laetoli: A Pliocene Site in Northern Tanzania* (1987).** Scientific and autobiographical primary works; cited bibliographic details are independently indexed at <https://olduvai-paleo.org/bibliography/> and <https://obnb.uk/a00078904-mary-d-leakey>.
-9. **British Museum, “Tanzania,” African Rock Art research project.** Mary and Louis Leakey's documentation of Kondoa-area rock painting and subsequent research. <https://africanrockart.britishmuseum.org/country/tanzania/>
-10. **CARTA, “Oldupai Gorge (Olduvai).”** The indigenous place-name and its relationship to the long-standing archaeological spelling. <https://carta.anthropogeny.org/glossary/oldupai-gorge-olduvai>
+1. **Charles Darwin, *The Descent of Man, and Selection in Relation to Sex* (London: John Murray, 1871), volume I, chapter VI, "On the Birthplace and Antiquity of Man," page 199.** Primary source for Darwin's qualified African-origin inference and his counterpoint about European fossil apes and migration. First-edition text at Darwin Online: <https://darwin-online.org.uk/content/contentblock?basepage=1&itemID=F937.1&viewtype=text>
+2. **Mary D. Leakey and Richard L. Hay, “The Fossil Footprints of Laetoli,” *Scientific American* 246, no. 2 (1982).** Coauthored description of discovery history and geological setting. <https://www.scientificamerican.com/article/the-fossil-footprints-of-laetoli/>
+3. **Smithsonian Human Origins Program, “Laetoli Footprint Trails.”** Physical evidence, track length, dating, species attribution, and Paul Abell's participation. <https://humanorigins.si.edu/evidence/behavior/footprints/laetoli-footprint-trails>
+4. **Smithsonian Human Origins Program, “OH 5” and “Paranthropus boisei.”** The 1959 fossil, revised classification, dental morphology, and interpretation as a side branch. <https://humanorigins.si.edu/evidence/human-fossils/fossils/oh-5> and <https://humanorigins.si.edu/evidence/human-fossils/species/paranthropus-boisei>
+5. **The Leakey Foundation, “The Leakey Family,” section on Mary Douglas Leakey.** Biography, early field training, Rusinga discovery, Kimeu's reconstruction work, and later research. <https://leakeyfoundation.org/about-us/the-leakey-family/>
+6. **Catherine K. Miller, Ryan A. McCann, Kevin G. Hatala, Charles Musiba, and Jeremy M. DeSilva, “Early Hominin Movement Patterns at Laetoli, Northern Tanzania,” *PaleoAnthropology* (2024), 139–147.** Credits Paul Abell and Ndibo Mbuika in the Site G discovery and examines questions of track interpretation and movement direction. <https://doi.org/10.48738/2024.iss1.1086>
+7. **E. A. McNutt and colleagues, “Footprint evidence of early hominin locomotor diversity at Laetoli, Tanzania,” *Nature* 600 (2021), 468–471.** Reassessment of Site A tracks and the possibility of multiple hominin forms at Laetoli. <https://doi.org/10.1038/s41586-021-04187-7>
+8. **Getty Conservation Institute, “Project Origins,” Hominid Trackway at Laetoli.** Excavation history, reburial, root damage, and Tanzanian-led conservation response. <https://www.getty.edu/projects/hominid-trackway-laetoli/project-origins/>
+9. **Mary D. Leakey, *Olduvai Gorge*, vol. 3, *Excavations in Beds I and II, 1960–1963* (Cambridge University Press, 1971); *Disclosing the Past* (1984); *Laetoli: A Pliocene Site in Northern Tanzania* (1987).** Scientific and autobiographical primary works; cited bibliographic details are independently indexed at <https://olduvai-paleo.org/bibliography/> and <https://obnb.uk/a00078904-mary-d-leakey>.
+10. **British Museum, “Tanzania,” African Rock Art research project.** Mary and Louis Leakey's documentation of Kondoa-area rock painting and subsequent research. <https://africanrockart.britishmuseum.org/country/tanzania/>
+11. **CARTA, “Oldupai Gorge (Olduvai).”** The indigenous place-name and its relationship to the long-standing archaeological spelling. <https://carta.anthropogeny.org/glossary/oldupai-gorge-olduvai>
 
 ### Interpretive boundaries and narration conventions
 
+- Darwin's 1871 proposal was an inference from comparative anatomy and geographic distribution. His discussion immediately acknowledges European fossil apes and ancient migration; do not attribute later genetics or African hominin fossil discoveries to him.
 - The opening is a generalized imagined scene. No claim is made about the exact thoughts, names, family ties, or intentions of the Laetoli track makers.
 - The famous Site G tracks are broadly accepted as evidence of early bipedalism. Specific gait reconstructions and the identity or number of the walkers remain research questions; narration avoids treating a popular “family outing” reconstruction as fact.
 - Mary led the Laetoli project; individual discoveries are credited to Andrew Hill, Peter Jones, Philip Leakey, Paul Abell, and Ndibo Mbuika where the published historical accounts support them. Brief biographies sometimes compress the discovery to 1976, 1977, or 1978 depending on which evidence is counted.
