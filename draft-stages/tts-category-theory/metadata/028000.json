@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "lecture_id": "028000",
+  "transcript": "028000-descent-local-data.md",
+  "related_resources": [
+    {
+      "source_id": "ct-vistoli-descent",
+      "reason": "Geometric gluing, effective descent and categories of descent data."
+    },
+    {
+      "source_id": "ct-stacks-flat-descent",
+      "reason": "Faithfully flat descent for modules and equalizer reconstruction."
+    },
+    {
+      "source_id": "ct-stacks-stack-definition",
+      "reason": "General descent condition for object and morphism categories."
+    },
+    {
+      "source_id": "ct-stacks-sheaves",
+      "reason": "Relation to ordinary sheaf gluing."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "028000-h01",
+      "anchor": "A collection of local objects E i together with isomorphisms phi i j satisfying those equations is a descent datum.",
+      "kind": "mathematical_definition",
+      "source_ids": [
+        "ct-vistoli-descent",
+        "ct-stacks-stack-definition"
+      ],
+      "source_locator": "Referenced work, specified theorem or construction",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "028000-h02",
+      "anchor": "If B is faithfully flat over A, compatible modules with such descent data are equivalent to A-modules.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-stacks-flat-descent"
+      ],
+      "source_locator": "Referenced work, specified theorem or construction",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "028000-h03",
+      "anchor": "The correct notion of sameness is often an isomorphism of objects, not equality of presentations.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-vistoli-descent"
+      ],
+      "source_locator": "Referenced work, specified theorem or construction",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

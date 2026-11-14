@@ -1,7 +1,7 @@
 {
   "id": "category-theory",
   "title": "Introduction to Category Theory · Foundations and Further Connections",
-  "summary": "A concept-first, proof-bearing sequence from categories and universal properties through enrichment, profunctors, dependent types, algebraic theories, fibrations, identity and higher composition.",
+  "summary": "A concept-first, proof-bearing sequence from categories and universal properties through monads, enrichment, dependent types, higher composition, monadicity, descent, stacks and operads.",
   "assumed_background": [
     "sets and functions, basic algebra, willingness to follow short proofs; each categorical concept is introduced from examples"
   ],
@@ -29,7 +29,11 @@
     "algebraic-theories",
     "fibrations",
     "identity-types",
-    "higher-composition"
+    "higher-composition",
+    "monadicity",
+    "descent",
+    "stacks",
+    "operads"
   ],
   "lectures": [
     {
@@ -265,6 +269,42 @@
       "spoken_words": 3181,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 21.9
+    },
+    {
+      "id": "027000",
+      "title": "Beck's Monadicity Theorem: When Structure Can Be Recovered from a Monad",
+      "section": "monadicity",
+      "file": "027000-beck-monadicity.md",
+      "spoken_words": 3072,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.2
+    },
+    {
+      "id": "028000",
+      "title": "Descent: Reconstructing Global Objects from Local Data",
+      "section": "descent",
+      "file": "028000-descent-local-data.md",
+      "spoken_words": 3293,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.7
+    },
+    {
+      "id": "029000",
+      "title": "Stacks: Gluing Objects Without Forgetting Their Symmetries",
+      "section": "stacks",
+      "file": "029000-stacks-and-symmetry.md",
+      "spoken_words": 3158,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.8
+    },
+    {
+      "id": "030000",
+      "title": "Operads: How Operations Compose Inside Operations",
+      "section": "operads",
+      "file": "030000-operads-operations-and-trees.md",
+      "spoken_words": 3303,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.8
     }
   ]
 }

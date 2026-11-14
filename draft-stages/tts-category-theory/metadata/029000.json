@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "lecture_id": "029000",
+  "transcript": "029000-stacks-and-symmetry.md",
+  "related_resources": [
+    {
+      "source_id": "ct-stacks-groupoid-stack",
+      "reason": "Stacks in groupoids: sheaves of isomorphisms and effective descent."
+    },
+    {
+      "source_id": "ct-stacks-stack-definition",
+      "reason": "General categorical stack definition and descent of maps."
+    },
+    {
+      "source_id": "ct-vistoli-descent",
+      "reason": "Groupoids, descent and moduli motivation."
+    },
+    {
+      "source_id": "ct-grothendieck-fibration",
+      "reason": "Fibered categories and varying groupoids."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "029000-h01",
+      "anchor": "A stack in groupoids has two major descent properties.",
+      "kind": "mathematical_definition",
+      "source_ids": [
+        "ct-stacks-groupoid-stack"
+      ],
+      "source_locator": "Referenced work, specified theorem or construction",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "029000-h02",
+      "anchor": "One can package this groupoid under the name B G, the classifying stack of G.",
+      "kind": "mathematical_definition",
+      "source_ids": [
+        "ct-vistoli-descent",
+        "ct-stacks-groupoid-stack"
+      ],
+      "source_locator": "Referenced work, specified theorem or construction",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "029000-h03",
+      "anchor": "A stack in groupoids does not automatically require all higher homotopies.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-stacks-groupoid-stack"
+      ],
+      "source_locator": "Referenced work, specified theorem or construction",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

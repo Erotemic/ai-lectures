@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "lecture_id": "027000",
+  "transcript": "027000-beck-monadicity.md",
+  "related_resources": [
+    {
+      "source_id": "ct-beck-monadicity",
+      "reason": "Precisely stated recognition theorem and creation of U-split coequalizers."
+    },
+    {
+      "source_id": "ct-beck-primary",
+      "reason": "Historical identification and source history of the theorem."
+    },
+    {
+      "source_id": "ct-riehl-context",
+      "reason": "Monadicity proof via free-algebra presentations."
+    },
+    {
+      "source_id": "ct-maclane-working",
+      "reason": "Foundational category-theoretic treatment of monadicity."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "027000-h01",
+      "anchor": "Jon Beck's monadicity theorem tells us what additional structure must survive if the original category is to be recovered as the category of algebras for that monad.",
+      "kind": "historical_development",
+      "source_ids": [
+        "ct-beck-primary",
+        "ct-beck-monadicity"
+      ],
+      "source_locator": "Referenced work, specified theorem or construction",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "027000-h02",
+      "anchor": "Beck's monadicity theorem says that K is an equivalence exactly when U creates coequalizers of U-split pairs.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-beck-monadicity",
+        "ct-riehl-context"
+      ],
+      "source_locator": "Referenced work, specified theorem or construction",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "027000-h03",
+      "anchor": "A functor is conservative when a map whose image is an isomorphism was already an isomorphism.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-beck-monadicity"
+      ],
+      "source_locator": "Referenced work, specified theorem or construction",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

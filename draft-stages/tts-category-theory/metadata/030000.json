@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "030000",
+  "transcript": "030000-operads-operations-and-trees.md",
+  "related_resources": [
+    {
+      "source_id": "ct-nlab-operad",
+      "reason": "Basic operad definition, substitution, symmetry, and operad algebras."
+    },
+    {
+      "source_id": "ct-nlab-assoc-operad",
+      "reason": "Nonsymmetric and symmetric associative operads."
+    },
+    {
+      "source_id": "ct-leinster-higher",
+      "reason": "Higher operads, multicategories, and substitution structures."
+    },
+    {
+      "source_id": "ct-may-operads",
+      "reason": "Little-cubes operads and the origins of homotopy-coherent operadic structure."
+    },
+    {
+      "source_id": "ct-loday-vallette-operads",
+      "reason": "Algebraic and symmetric operads in monoidal settings."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "030000-h01",
+      "anchor": "An operad captures the grammar of these many-input operations and the laws governing their substitution.",
+      "kind": "mathematical_definition",
+      "source_ids": [
+        "ct-nlab-operad"
+      ],
+      "source_locator": "Referenced work, specified theorem or construction",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "030000-h02",
+      "anchor": "In the standard symmetric associative operad on sets, the operations of arity n can be indexed by permutations of n inputs.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-nlab-assoc-operad"
+      ],
+      "source_locator": "Referenced work, specified theorem or construction",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "030000-h03",
+      "anchor": "The operad of little one-dimensional intervals supplies a homotopy-coherent form of associativity.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "ct-may-operads"
+      ],
+      "source_locator": "Referenced work, specified theorem or construction",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # An Introduction to Category Theory
 
-A concept-first, proof-bearing mathematics track with **26 standalone lectures** and a separate display-only mathematical companion for each recording. The course begins with sets, functions, and universal properties, then develops structures used in geometry, logic, semantics, and higher category theory. Each lecture builds from a concrete example into precise definitions and proof arguments.
+A concept-first, proof-bearing mathematics track with **30 standalone lectures** and a separate display-only mathematical companion for each recording. The course begins with sets, functions, and universal properties, then develops structures used in geometry, logic, semantics, and higher category theory. Each lecture builds from a concrete example into precise definitions and proof arguments.
 
 **Audience:** A listener comfortable with functions, basic algebra, and following short proofs. The later lectures introduce advanced concepts, but explain their specific examples and conventions rather than relying on the wording of earlier recordings. Recordings can be listened to individually.
 
@@ -36,6 +36,10 @@ A concept-first, proof-bearing mathematics track with **26 standalone lectures**
 | 024000 | Fibrations: How Categories Vary with Their Contexts | Indexed categories, cartesian lifts, Grothendieck construction |
 | 025000 | Identity Types: When Equality Has Structure | Identity elimination, transport, groupoid models, path objects |
 | 026000 | Higher Categories: When Compositions Have Their Own Comparisons | 2-categories, bicategories, spans, associators and coherence |
+| 027000 | Beck's Monadicity Theorem: When Structure Can Be Recovered from a Monad | Comparison functor, split coequalizers, conservative right adjoints |
+| 028000 | Descent: Reconstructing Global Objects from Local Data | Transition cocycles, effective descent and faithfully flat modules |
+| 029000 | Stacks: Gluing Objects Without Forgetting Their Symmetries | Groupoids, principal bundles, classifying stacks, quotient stacks |
+| 030000 | Operads: How Operations Compose Inside Operations | Many-input substitution, symmetric actions, little disks |
 
 ## Authoring conventions
 
@@ -54,7 +58,8 @@ A concept-first, proof-bearing mathematics track with **26 standalone lectures**
 - `docs/planning/category-theory-fourth-arc.md`
 - `docs/planning/category-theory-fifth-arc.md`
 - `docs/planning/category-theory-sixth-arc.md`
+- `docs/planning/category-theory-seventh-arc.md`
 
 ## Further directions
 
-Monadicity and Beck's theorem, descent and stacks, operads, infinity-categorical limits, and a carefully scoped treatment of cubical or univalent foundations. This track is extensible rather than intended to be an exhaustive treatment of category theory.
+Further directions include operadic algebras in homotopy theory, derived and higher stacks, infinity-categorical limits, and carefully scoped treatments of cubical and univalent foundations. This track is extensible rather than intended to be an exhaustive treatment of category theory.
