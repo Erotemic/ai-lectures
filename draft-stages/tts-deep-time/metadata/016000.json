@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-oxygen-changes-planet.md",
+  "related_resources": [
+    {
+      "source_id": "dt-oxygen-ocean-2025",
+      "reason": "Marine versus atmospheric oxygenation and sulfur MIF timing."
+    },
+    {
+      "source_id": "dt-oxygen-transition-2025",
+      "reason": "Long-term mass-independent oxygen isotope reconstruction of fluctuating low oxygen."
+    },
+    {
+      "source_id": "dt-oxygen-nutrient-2026",
+      "reason": "S MIF onset and nutrient-based oxygenation modeling."
+    },
+    {
+      "source_id": "dt-oxygen-review-2026",
+      "reason": "Different defensible ranges for GOE O2 abundances and uncertainties in thresholds."
+    },
+    {
+      "source_id": "dt-atmosphere-review-2026",
+      "reason": "Earth atmosphere-hydrosphere redox history, 4.4 Ga hydrosphere modeling and GOE context."
+    },
+    {
+      "source_id": "dt-oxidative-u-2025",
+      "reason": "Redox-sensitive U mobility in dated 2.06 Ga basalt weathering."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "016000-e01",
+      "anchor": "A 2026 study exploring nutrient control of oxygenation",
+      "kind": "model_result",
+      "source_ids": [
+        "dt-oxygen-nutrient-2026"
+      ],
+      "source_locator": "sulfur chronology and nutrient feedback hypothesis",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "016000-e02",
+      "anchor": "A 2025 study of persistent surface-ocean oxygenation",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-oxygen-ocean-2025"
+      ],
+      "source_locator": "marine oxygenation vs atmosphere",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "016000-e03",
+      "anchor": "Yet a 2026 review called",
+      "kind": "technical_review",
+      "source_ids": [
+        "dt-oxygen-review-2026"
+      ],
+      "source_locator": "O2 partial pressure spans orders of magnitude",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "016000-e04",
+      "anchor": "A 2025 reconstruction based on mass-independent oxygen isotopes",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-oxygen-transition-2025"
+      ],
+      "source_locator": "long transitional oxygen proxy series",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "016000-e05",
+      "anchor": "There are several broad proposals.",
+      "kind": "technical_interpretation",
+      "source_ids": [
+        "dt-atmosphere-review-2026"
+      ],
+      "source_locator": "competing biological geological mechanisms",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-rock-evidence-of-life.md",
+  "related_resources": [
+    {
+      "source_id": "dt-earliest-life-review-2026",
+      "reason": "Geological evidence ~3.5 Ga and possible older traces, with uncertain molecular-clock reconstructions."
+    },
+    {
+      "source_id": "dt-dresser-miss-2013",
+      "reason": "Field evidence of mat-like lamination, gas domes and textures; biogenic interpretation."
+    },
+    {
+      "source_id": "dt-dresser-hot-spring-2017",
+      "reason": "Geyserite, subaerial hot springs and associated proposed microbial biosignatures."
+    },
+    {
+      "source_id": "dt-isua-2016",
+      "reason": "Primary claim of ca. 3.7 Ga Isua stromatolite-like structures."
+    },
+    {
+      "source_id": "dt-isua-rebuttal-2018",
+      "reason": "Three-dimensional deformation and mineral fabrics support postdepositional nonbiological origin."
+    },
+    {
+      "source_id": "dt-nuvvuagittuq-biosign-2017",
+      "reason": "Putative hematite tubes and filaments with carbon context; age and biogenic origin debated."
+    },
+    {
+      "source_id": "dt-life-review-2025",
+      "reason": "Context on Dresser, Isua, anoxygenic phototrophy and early biosignature interpretation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "014000-e01",
+      "anchor": "In research published in 2013",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-dresser-miss-2013"
+      ],
+      "source_locator": "Dresser microbial-mat-like fabric report",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "014000-e02",
+      "anchor": "A 2017 study by Tara Djokic",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-dresser-hot-spring-2017"
+      ],
+      "source_locator": "Dresser hydrothermal surface deposit and microbial associations",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "014000-e03",
+      "anchor": "In 2016 a team reported conical",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-isua-2016"
+      ],
+      "source_locator": "Isua 3.7 Ga proposed stromatolites",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "014000-e04",
+      "anchor": "In 2018 Abigail Allwood and colleagues",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-isua-rebuttal-2018"
+      ],
+      "source_locator": "3D alternative metamorphic morphology",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "014000-e05",
+      "anchor": "A 2017 study described hematite tubes and filaments",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-nuvvuagittuq-biosign-2017"
+      ],
+      "source_locator": "Quebec hydrothermal filament interpretation",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "014000-e06",
+      "anchor": "A 2026 review by Elizabeth Bell and Gregory Fournier",
+      "kind": "technical_review",
+      "source_ids": [
+        "dt-earliest-life-review-2026"
+      ],
+      "source_locator": "certainty distinction 3.5Ga vs possible older biosignatures",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

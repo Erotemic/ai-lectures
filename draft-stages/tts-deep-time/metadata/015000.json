@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-chemistry-to-cells.md",
+  "related_resources": [
+    {
+      "source_id": "dt-wetdry-2024",
+      "reason": "Experimental wet–dry nucleotide oligomerization with mass spectrometry and nanopore evidence."
+    },
+    {
+      "source_id": "dt-clay-rna-model-2025",
+      "reason": "Computational and theoretical oscillating clay–water RNA model, not experimental history."
+    },
+    {
+      "source_id": "dt-prebiotic-vesicle-lipids-2025",
+      "reason": "Cysteine–thioester reaction yields diacyl lipids and protocell-like vesicles in aqueous experiments."
+    },
+    {
+      "source_id": "dt-abiotic-vesicle-repro-2025",
+      "reason": "Synthetic photochemical polymer vesicle reproduction without genes or modern biochemistry."
+    },
+    {
+      "source_id": "dt-dna-protocell-evolution-2024",
+      "reason": "Adaptation of a DNA replicator in vesicles using supplied protein synthesis and phage polymerase machinery."
+    },
+    {
+      "source_id": "dt-rna-review-2026",
+      "reason": "Review of RNA-world experimental support, replication, chirality and limitations."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "015000-e01",
+      "anchor": "In work published in 2024, experiments exposed nucleic acid monomers",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-wetdry-2024"
+      ],
+      "source_locator": "polymerization with wet-dry cycles",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "015000-e02",
+      "anchor": "A 2025 study explored another possibility: RNA growth",
+      "kind": "model_result",
+      "source_ids": [
+        "dt-clay-rna-model-2025"
+      ],
+      "source_locator": "theoretical clay-water oscillation model",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "015000-e03",
+      "anchor": "A 2026 review by Paul Higgs",
+      "kind": "technical_review",
+      "source_ids": [
+        "dt-rna-review-2026"
+      ],
+      "source_locator": "RNA world review and remaining gaps",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "015000-e04",
+      "anchor": "In 2025, researchers reported that the amino acid cysteine",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-prebiotic-vesicle-lipids-2025"
+      ],
+      "source_locator": "cysteine thioester protocell membrane chemistry",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "015000-e05",
+      "anchor": "A second 2025 experiment reported self-reproduction",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-abiotic-vesicle-repro-2025"
+      ],
+      "source_locator": "abiotic photochemical vesicle reproduction",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "015000-e06",
+      "anchor": "In 2024 a research team built a synthetic protocell system",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-dna-protocell-evolution-2024"
+      ],
+      "source_locator": "DNA evolution conditional on preexisting machinery",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

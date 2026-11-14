@@ -1,6 +1,6 @@
 # Deep Time — reconstructing what happened, and how we know
 
-**Status:** New curriculum plan, 14 November 2026. Thirteen substantive lectures delivered (`001000` through `013000`); remaining IDs proposed and not represented as completed manuscripts. This track complements *World History*, the *How We Know* archaeology strand, *The Physical World*, and *The World Reconsidered*. Its identity is a chronological reconstruction from observable traces, reaching backward as far as current methods allow.
+**Status:** New curriculum plan, 14 November 2026. Seventeen substantive lectures delivered (`001000` through `017000`); remaining IDs proposed and not represented as completed manuscripts. This track complements *World History*, the *How We Know* archaeology strand, *The Physical World*, and *The World Reconsidered*. Its identity is a chronological reconstruction from observable traces, reaching backward as far as current methods allow.
 
 ## The question
 
@@ -58,10 +58,10 @@ Six arcs are navigational groupings. Numbers are reserved proposals within the `
 | 011000 | **Delivered** | Earth | **How Old Is Earth? Building a Clock from Rock** | U–Pb geochronology, zircon, meteorites, decay calibration, closure temperature and inherited grains; why a date needs context |
 | 012000 | **Delivered** | Earth | **A Planet with Oceans: Atmosphere, Water, and Early Crust** | Isotopic proxies, geological exposures, impact and volatile-delivery models; interpretations of very old zircons |
 | 013000 | **Delivered** | Earth | **Plate Tectonics and the Reconstruction of Lost Continents** | Paleomagnetism, marine stripes, seismology, geochronology; ancient tectonic regimes and alternative early-Earth models |
-| 014000 | Proposed | Life | **When Does a Rock Count as Evidence of Life?** | Carbon isotope fractionation, stromatolites, microfossils, abiotic mimics, early-Earth controversy; habitability vs actual life |
-| 015000 | Proposed | Life | **From Chemistry to Cells: What Origin-of-Life Research Has Achieved** | Laboratory synthesis, protocells, phylogenetic limits, hydrothermal and surface chemistry; distinguish plausibility from historical reconstruction |
-| 016000 | Proposed | Life | **Oxygen Changes the Planet** | Banded iron formation, sulfur isotopes, oxygen-sensitive minerals, atmospheric models; dates and competing triggers of the Great Oxidation Event |
-| 017000 | Proposed | Life | **The Last Universal Common Ancestor and the Deep Tree of Life** | Comparative genomics, molecular clocks, horizontal gene transfer; why LUCA is not the first cell |
+| 014000 | **Delivered** | Life | **When Does a Rock Count as Evidence of Life?** | Carbon isotope fractionation, stromatolites, microfossils, abiotic mimics, early-Earth controversy; habitability vs actual life |
+| 015000 | **Delivered** | Life | **From Chemistry to Cells: What Origin-of-Life Research Has Achieved** | Laboratory synthesis, protocells, phylogenetic limits, hydrothermal and surface chemistry; distinguish plausibility from historical reconstruction |
+| 016000 | **Delivered** | Life | **Oxygen Changes the Planet** | Banded iron formation, sulfur isotopes, oxygen-sensitive minerals, atmospheric models; dates and competing triggers of the Great Oxidation Event |
+| 017000 | **Delivered** | Life | **The Last Universal Common Ancestor and the Deep Tree of Life** | Comparative genomics, molecular clocks, horizontal gene transfer; why LUCA is not the first cell |
 | 018000 | Proposed | Life | **How Complex Cells Emerged** | Endosymbiosis, molecular phylogeny, fossils and organelle genomes; timing uncertainties and alternative sequences |
 | 019000 | Proposed | Life | **Multicellular Experiments and the Cambrian Record** | Ediacaran body fossils, trace fossils, preservation biases, oxygen/ecology/development hypotheses; sudden appearance versus incomplete record |
 | 020000 | Proposed | Life | **Mass Extinctions as Natural Experiments** | Stratigraphy, impact layers, volcanism, climate proxies, fossil turnover; separate causes and feedbacks in multiple extinctions |

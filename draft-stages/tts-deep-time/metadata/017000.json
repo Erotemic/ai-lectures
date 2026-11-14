@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-luca-deep-tree.md",
+  "related_resources": [
+    {
+      "source_id": "dt-common-ancestry-2010",
+      "reason": "Likelihood/model selection evidence for universal common ancestry under considered alternatives."
+    },
+    {
+      "source_id": "dt-luca-molecular-2024",
+      "reason": "Model-based LUCA ~4.2 Ga, ancestral genome and anaerobic metabolism hypothesis."
+    },
+    {
+      "source_id": "dt-luca-brief-2024",
+      "reason": "Accessible account of 2024 LUCA modeling and key conditional claims."
+    },
+    {
+      "source_id": "dt-luca-hgt-2015",
+      "reason": "Gene-specific ancestors can predate or differ from organismal LUCA due to lateral transfers."
+    },
+    {
+      "source_id": "dt-luca-ancestral-2018",
+      "reason": "Comparative biology of LUCA and chemistry-dependent ancestral metabolism."
+    },
+    {
+      "source_id": "dt-luca-consensus-2022",
+      "reason": "Compares conserved protein functions and inferred LUCA proteome."
+    },
+    {
+      "source_id": "dt-earliest-life-review-2026",
+      "reason": "Geological evidence ~3.5 Ga and possible older traces, with uncertain molecular-clock reconstructions."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "017000-e01",
+      "anchor": "A 2010 study by Douglas Theobald",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-common-ancestry-2010"
+      ],
+      "source_locator": "formal universal ancestry model comparison",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "017000-e02",
+      "anchor": "A 2015 analysis of ancient gene families",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-luca-hgt-2015"
+      ],
+      "source_locator": "HGT changes gene vs organism MRCA",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "017000-e03",
+      "anchor": "In 2024 a team led by Edmund Moody",
+      "kind": "model_result",
+      "source_ids": [
+        "dt-luca-molecular-2024"
+      ],
+      "source_locator": "Moody LUCA gene inventory, ecosystem, calibrated date",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "017000-e04",
+      "anchor": "The 2024 LUCA study used gene duplications",
+      "kind": "model_result",
+      "source_ids": [
+        "dt-luca-brief-2024"
+      ],
+      "source_locator": "pre-LUCA duplicates and clock model",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "017000-e05",
+      "anchor": "A 2026 review of geological and genomic early-life evidence",
+      "kind": "technical_review",
+      "source_ids": [
+        "dt-earliest-life-review-2026"
+      ],
+      "source_locator": "uncertainty in molecular clock",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
