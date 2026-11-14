@@ -28,6 +28,34 @@
       "url": "https://www.cis.upenn.edu/~bcpierce/tapl/",
       "access": "publisher_or_author",
       "notes": "Type systems, operational semantics and typed lambda calculus."
+    },
+    "lt-gentzen-sep": {
+      "title": "Stanford Encyclopedia of Philosophy, The Development of Proof Theory (Gentzen and natural deduction)",
+      "kind": "scholarly_history",
+      "url": "https://plato.stanford.edu/entries/proof-theory-development/",
+      "access": "free_no_login",
+      "notes": "Natural deduction and sequent calculus, 1934-1935."
+    },
+    "lt-church-sep": {
+      "title": "Stanford Encyclopedia of Philosophy, Alonzo Church",
+      "kind": "scholarly_history",
+      "url": "https://plato.stanford.edu/entries/church/",
+      "access": "free_no_login",
+      "notes": "Early lambda calculus, 1932-1933, foundational motivations."
+    },
+    "lt-type-theory-sep": {
+      "title": "Stanford Encyclopedia of Philosophy, Intuitionistic Type Theory",
+      "kind": "scholarly_exposition",
+      "url": "https://plato.stanford.edu/entries/type-theory-intuitionistic/",
+      "access": "free_no_login",
+      "notes": "Pi, Sigma, Curry-Howard and Martin-Lof development."
+    },
+    "lt-lean-quant": {
+      "title": "Theorem Proving in Lean 4, Quantifiers and Equality",
+      "kind": "official_documentation",
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/Quantifiers-and-Equality/",
+      "access": "free_no_login",
+      "notes": "Forall, Exists, and differences from dependent data."
     }
   }
 }

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-natural-deduction-and-lambda-calculus.md",
+  "related_resources": [
+    {
+      "source_id": "lt-gentzen-sep",
+      "reason": "Gentzen and natural deduction history"
+    },
+    {
+      "source_id": "lt-church-sep",
+      "reason": "Church and the lambda calculus"
+    },
+    {
+      "source_id": "lt-lean-book",
+      "reason": "Typed proofs and the Curry-Howard interpretation"
+    },
+    {
+      "source_id": "lt-howard",
+      "reason": "Howard correspondence history"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-h01",
+      "anchor": "Gerhard Gentzen, working in Germany in the 1930s",
+      "kind": "historical_research",
+      "source_ids": [
+        "lt-gentzen-sep"
+      ],
+      "source_locator": "Section 4: natural deduction and sequent calculus",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-h02",
+      "anchor": "Around the same period, Alonzo Church developed the lambda calculus",
+      "kind": "historical_research",
+      "source_ids": [
+        "lt-church-sep"
+      ],
+      "source_locator": "Section 5.1: attempts at type-free foundations",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

@@ -6,7 +6,9 @@
     "algebra, coordinate geometry, functions; elementary calculus introduced as needed"
   ],
   "sections": [
-    "optimization-certificates"
+    "optimization-certificates",
+    "convex-geometry",
+    "linear-duality"
   ],
   "lectures": [
     {
@@ -17,6 +19,24 @@
       "spoken_words": 3148,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 21.7
+    },
+    {
+      "id": "002000",
+      "title": "Convex Sets and Supporting Hyperplanes: Geometry That Proves Bounds",
+      "section": "convex-geometry",
+      "file": "002000-convexity-and-supporting-hyperplanes.md",
+      "spoken_words": 3308,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.8
+    },
+    {
+      "id": "003000",
+      "title": "Linear Programming and Duality: Two Answers That Certify Each Other",
+      "section": "linear-duality",
+      "file": "003000-linear-programming-duality.md",
+      "spoken_words": 3156,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.8
     }
   ]
 }

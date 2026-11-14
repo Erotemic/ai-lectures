@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-counting-conditioning-independence.md",
+  "related_resources": [
+    {
+      "source_id": "pm-mit",
+      "reason": "Conditional probability and independence"
+    },
+    {
+      "source_id": "pm-blitzstein",
+      "reason": "Counting, Monty Hall and Bayes"
+    },
+    {
+      "source_id": "pm-pascal-fermat",
+      "reason": "Historical correspondence"
+    },
+    {
+      "source_id": "pm-bayes1763",
+      "reason": "Original essay and Price correspondence"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-h01",
+      "anchor": "In their 1654 correspondence, Blaise Pascal and Pierre de Fermat investigated such problems",
+      "kind": "historical_research",
+      "source_ids": [
+        "pm-pascal-fermat"
+      ],
+      "source_locator": "1654 correspondence introduction",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-h02",
+      "anchor": "Thomas Bayes's essay on probability was communicated after his death by Richard Price and appeared in 1763",
+      "kind": "historical_research",
+      "source_ids": [
+        "pm-bayes1763"
+      ],
+      "source_locator": "Title and introductory letter by Price",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

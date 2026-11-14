@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-random-variables-and-expectation.md",
+  "related_resources": [
+    {
+      "source_id": "pm-mit",
+      "reason": "Distributions and random variables"
+    },
+    {
+      "source_id": "pm-blitzstein",
+      "reason": "Expectations, LOTUS and transformations"
+    },
+    {
+      "source_id": "pm-klenke",
+      "reason": "Measures, integration and laws"
+    },
+    {
+      "source_id": "pm-vovkshafer",
+      "reason": "Kolmogorov 1933 historical development"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "003000-h01",
+      "anchor": "Andrey Kolmogorov's axiomatic formulation placed probability within measure theory",
+      "kind": "historical_research",
+      "source_ids": [
+        "pm-vovkshafer"
+      ],
+      "source_locator": "Kolmogorov foundations historical account",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

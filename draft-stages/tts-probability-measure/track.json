@@ -6,7 +6,9 @@
     "fractions, functions, elementary sets and arithmetic"
   ],
   "sections": [
-    "event-spaces"
+    "event-spaces",
+    "conditioning-independence",
+    "random-variables"
   ],
   "lectures": [
     {
@@ -17,6 +19,24 @@
       "spoken_words": 3683,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 25.4
+    },
+    {
+      "id": "002000",
+      "title": "Counting, Conditioning, and Independence: How Evidence Changes the Sample Space",
+      "section": "conditioning-independence",
+      "file": "002000-counting-conditioning-independence.md",
+      "spoken_words": 3118,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.5
+    },
+    {
+      "id": "003000",
+      "title": "Random Variables, Distributions, and Expectation: Turning Outcomes into Quantities",
+      "section": "random-variables",
+      "file": "003000-random-variables-and-expectation.md",
+      "spoken_words": 3314,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.9
     }
   ]
 }

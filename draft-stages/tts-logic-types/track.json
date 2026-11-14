@@ -6,7 +6,9 @@
     "sets, functions, propositional logic, and basic proof habits"
   ],
   "sections": [
-    "proofs-as-objects"
+    "proofs-as-objects",
+    "proof-normalization",
+    "dependent-quantifiers"
   ],
   "lectures": [
     {
@@ -17,6 +19,24 @@
       "spoken_words": 3231,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 22.3
+    },
+    {
+      "id": "002000",
+      "title": "Natural Deduction and Lambda Calculus: How Proofs Compute",
+      "section": "proof-normalization",
+      "file": "002000-natural-deduction-and-lambda-calculus.md",
+      "spoken_words": 3269,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.5
+    },
+    {
+      "id": "003000",
+      "title": "Dependent Functions and Quantifiers: What Does a Witness Contain?",
+      "section": "dependent-quantifiers",
+      "file": "003000-dependent-quantifiers.md",
+      "spoken_words": 3121,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.5
     }
   ]
 }

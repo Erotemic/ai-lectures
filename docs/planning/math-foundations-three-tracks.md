@@ -1,6 +1,6 @@
 # Three complementary mathematics foundations tracks
 
-**Date:** 14 November 2026. **Status:** Initial lectures delivered; remainder is a prioritized curriculum proposal. **Existing courses:** category theory, advanced spectral/perturbation theory, historical portraits, World Reconsidered.
+**Date:** 14 November 2026. **Status:** Three substantive lectures delivered in each track; remaining lectures are a prioritized curriculum proposal. **Existing courses:** category theory, advanced spectral/perturbation theory, historical portraits, World Reconsidered.
 
 ## Why these three
 
@@ -8,15 +8,15 @@
 2. **Optimization, Convexity, and Duality** develops a general language for optimizing algorithms, verifying numerical outputs, and proving bounds. Dual certificates, KKT hypotheses, linear and semidefinite relaxations connect naturally to spectral perturbation theory, combinatorial optimization, and practical engineering.
 3. **Probability, Measure, and Statistical Reasoning** supplies the foundations for uncertainty, estimation, stochastic processes, statistical learning, and calibration. The measure-theoretic direction makes probability compatible with rigorous functional analysis and eventual formalization.
 
-The three lectures are designed for a mathematically curious listener, with concept-first spoken explanations and substantive written companions. Together they answer distinct questions: **What constitutes a proof?** **What demonstrates that a solution is optimal?** **How can uncertainty be represented and updated?**
+The nine lectures delivered across the three tracks are designed for a mathematically curious listener, with concept-first spoken explanations and substantive written companions. Together they answer distinct questions: **What constitutes a proof?** **What demonstrates that a solution is optimal?** **How can uncertainty be represented and updated?**
 
 ## Course inventories and intended progression
 
 ### Logic, Type Theory, and Constructive Mathematics
 
 - 001000 (delivered): *Proofs as Objects: Why Propositions Can Be Types*. Functions as implications, conjunctions/disjunctions, quantifiers, `Prop` vs `Type`, dependent witnesses, and honest specification limits.
-- 002000: Natural deduction and lambda calculus; normalization and proof substitution.
-- 003000: Pi, sigma, universal and existential quantification; witness extraction and constructive existence.
+- 002000 (delivered): *Natural Deduction and Lambda Calculus: How Proofs Compute*. Standalone spoken manuscript, mathematical companion, exercises, and source sidecar.
+- 003000 (delivered): *Dependent Functions and Quantifiers: What Does a Witness Contain?*. Standalone spoken manuscript, mathematical companion, exercises, and source sidecar.
 - 004000: Inductive datatypes, recursion, and structural induction; how elimination rules enable proofs.
 - 005000: Definitional/propositional equality, rewriting, transport, and quotient types.
 - 006000: Classical axioms, excluded middle, choice, proof irrelevance, and what remains computational.
@@ -26,8 +26,8 @@ The three lectures are designed for a mathematically curious listener, with conc
 ### Optimization, Convexity, and Duality
 
 - 001000 (delivered): *When Is a Solution Truly Best? Optimization and Certificates*. Exact primal/dual LP solutions, convex quadratic and Lagrangian, weak versus strong duality.
-- 002000: Convex sets and supporting hyperplanes; separating arguments and geometric assumptions.
-- 003000: Linear programming, feasible polytopes, weak and strong duality; complementary slackness.
+- 002000 (delivered): *Convex Sets and Supporting Hyperplanes: Geometry That Proves Bounds*. Standalone spoken manuscript, mathematical companion, exercises, and source sidecar.
+- 003000 (delivered): *Linear Programming and Duality: Two Answers That Certify Each Other*. Standalone spoken manuscript, mathematical companion, exercises, and source sidecar.
 - 004000: Lagrangians, KKT and Slater conditions; counterexamples without qualifications.
 - 005000: Gradient and accelerated methods; smoothness, conditioning and convergence bounds.
 - 006000: Nonsmooth convexity; subgradients, proximal maps, Fenchel duality.
@@ -38,8 +38,8 @@ The three lectures are designed for a mathematically curious listener, with conc
 ### Probability, Measure, and Statistical Reasoning
 
 - 001000 (delivered): *Measuring Uncertainty: Events, Evidence, and Expectation*. Conditional probability, Bayes, independence, expected value, variance, and continuous measures.
-- 002000: Combinatorics of events, conditional distributions and independence pitfalls.
-- 003000: Random variables, distributions, change of variables, moments and transforms.
+- 002000 (delivered): *Counting, Conditioning, and Independence: How Evidence Changes the Sample Space*. Standalone spoken manuscript, mathematical companion, exercises, and source sidecar.
+- 003000 (delivered): *Random Variables, Distributions, and Expectation: Turning Outcomes into Quantities*. Standalone spoken manuscript, mathematical companion, exercises, and source sidecar.
 - 004000: Sigma algebras, measures, integration, null sets, convergence modes.
 - 005000: Conditional expectation as integration, projection and information restriction.
 - 006000: Laws of large numbers, concentration, central limit behavior and dependence assumptions.
@@ -59,10 +59,14 @@ The three lectures are designed for a mathematically curious listener, with conc
 - No fixed word target beyond substantive depth; add explanation when it improves the listener's reasoning rather than padding to a duration.
 - Confirm each new transcript can be extracted with the canonical TTS extractor, that track manifests and metadata agree, and that the reader API can select all three tracks.
 
+## Three-lecture launch milestone (14 November 2026)
+
+Each track now has IDs 001000-003000 registered in the existing audio reader, with no additional routing code. Six new manuscripts add natural deduction and dependent quantifiers, convexity and LP duality, and conditioning and random variables. Their per-lecture reference sidecars and source catalogs record historical provenance. Future lectures should preserve the emphasis on explicit hypotheses, proof certificates, and carefully specified probabilistic models.
+
 ## Follow-on sequence
 
-Highest-leverage next lectures: (a) natural deduction and proof normalization, (b) convex sets and supporting hyperplanes, (c) conditional probability and independence. After those, deepen the tracks independently. Preserve the ability to take any lecture out of order; later lectures can state real prerequisites in metadata.
+Highest-leverage next lectures: (a) inductive datatypes and recursion, (b) Lagrange multipliers and KKT conditions, and (c) sigma algebras and almost-sure reasoning. After those, deepen the tracks independently. Preserve the ability to take any lecture out of order; later lectures can state real prerequisites in metadata.
 
 ## Integration boundaries
 
-Use new track IDs `logic-types`, `optimization-duality`, `probability-measure` and directories `draft-stages/tts-logic-types`, `draft-stages/tts-optimization-duality`, `draft-stages/tts-probability-measure`. Each starts at stable lecture ID `001000` within its track: cache and API keys are track-qualified. No change to historical tracks or category theory is required. The three new tracks need small audio reader registrations, a navigation entry each, and integrity tests; they do not require changing shared synthesis behavior.
+Use new track IDs `logic-types`, `optimization-duality`, `probability-measure` and directories `draft-stages/tts-logic-types`, `draft-stages/tts-optimization-duality`, `draft-stages/tts-probability-measure`. Each now holds stable lecture IDs `001000`-`003000` within its track: cache and API keys are track-qualified. No change to historical tracks or category theory is required. Their initial audio reader registrations are already in place; continuation requires only manifest, transcript, reference, and test updates, not changes to shared synthesis behavior.

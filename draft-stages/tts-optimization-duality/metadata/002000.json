@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-convexity-and-supporting-hyperplanes.md",
+  "related_resources": [
+    {
+      "source_id": "od-boyd",
+      "reason": "Convex sets and differentiable convexity; projection"
+    },
+    {
+      "source_id": "od-minkowski",
+      "reason": "Convex geometry history"
+    },
+    {
+      "source_id": "od-hahnbanach",
+      "reason": "Hahn-Banach historical framing"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-h01",
+      "anchor": "Hermann Minkowski developed geometric methods involving convex bodies and numbers",
+      "kind": "historical_research",
+      "source_ids": [
+        "od-minkowski"
+      ],
+      "source_locator": "History: geometry of numbers and convex bodies",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-h02",
+      "anchor": "The Hahn-Banach theorem, in work associated with Hans Hahn and Stefan Banach",
+      "kind": "historical_research",
+      "source_ids": [
+        "od-hahnbanach"
+      ],
+      "source_locator": "Historical note on 1927 and 1929 proofs",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

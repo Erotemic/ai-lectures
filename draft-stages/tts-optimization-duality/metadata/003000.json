@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-linear-programming-duality.md",
+  "related_resources": [
+    {
+      "source_id": "od-boyd",
+      "reason": "Weak and strong duality"
+    },
+    {
+      "source_id": "od-mit-lp",
+      "reason": "LP duality and certificates"
+    },
+    {
+      "source_id": "od-dantzig",
+      "reason": "First-person account of mechanized planning"
+    },
+    {
+      "source_id": "od-kantorovich",
+      "reason": "Kantorovich plywood production and 1939 methods"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "003000-h01",
+      "anchor": "In the late 1930s, Leonid Kantorovich worked on allocating equipment and materials for Soviet plywood production",
+      "kind": "historical_research",
+      "source_ids": [
+        "od-kantorovich"
+      ],
+      "source_locator": "Biographical section on the plywood trust",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "003000-h02",
+      "anchor": "By 1947 he had developed the linear-programming formulation and the simplex method",
+      "kind": "historical_research",
+      "source_ids": [
+        "od-dantzig"
+      ],
+      "source_locator": "Interview: June and August 1947",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

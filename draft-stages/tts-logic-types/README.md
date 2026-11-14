@@ -4,18 +4,22 @@
 
 **Audience:** sets, functions, propositional logic, and basic proof habits. This lecture stands alone and introduces the track's central idea using worked examples, with proofs and calculations in the display-only companion.
 
-## Proposed continuation
+## Completed lectures
 
-- 002000: Natural Deduction, Lambda Calculus, and Proof Normalization
-- 003000: Dependent Functions and the Meaning of Quantifiers
+- 001000: [Proofs as Objects: Why Propositions Can Be Types](001000-proofs-as-objects.md) (3,231 spoken words; ~22 minutes).
+- 002000: [Natural Deduction and Lambda Calculus: How Proofs Compute](002000-natural-deduction-and-lambda-calculus.md) (3,269 spoken words; ~23 minutes).
+- 003000: [Dependent Functions and Quantifiers: What Does a Witness Contain?](003000-dependent-quantifiers.md) (3,121 spoken words; ~22 minutes).
+
+## Planned continuation
+
 - 004000: Inductive Types, Recursion, and Structural Induction
 - 005000: Equality, Rewriting, and Definitional Computation
 - 006000: Constructive and Classical Mathematics
 - 007000: Universes, Axioms, and Consistency
 - 008000: Formal Specifications and Verified Algorithms
 
-The titles above are planning proposals; only lecture 001000 is authored and registered.
+The remaining titles are planning proposals.
 
 ## Reading and source records
 
-See `metadata/sources.json` and `metadata/001000.json`. Historical citations are outside the spoken narration, and claim anchors point to literal extracted narration.
+See `metadata/sources.json` and the per-lecture sidecars. Citation details and mathematical companions remain outside the spoken narration.

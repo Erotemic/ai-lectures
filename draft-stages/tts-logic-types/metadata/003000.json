@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-dependent-quantifiers.md",
+  "related_resources": [
+    {
+      "source_id": "lt-martinlof",
+      "reason": "Foundations of intuitionistic dependent type theory"
+    },
+    {
+      "source_id": "lt-lean-quant",
+      "reason": "Lean universal and existential introduction and elimination"
+    },
+    {
+      "source_id": "lt-type-theory-sep",
+      "reason": "Pi and Sigma types"
+    },
+    {
+      "source_id": "lt-lean-book",
+      "reason": "Lean Prop versus Type"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "003000-h01",
+      "anchor": "Per Martin-Lof's work in the 1970s and 1980s",
+      "kind": "historical_research",
+      "source_ids": [
+        "lt-type-theory-sep",
+        "lt-martinlof"
+      ],
+      "source_locator": "Historical overview and 1984 lectures",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
