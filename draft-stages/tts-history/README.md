@@ -41,3 +41,7 @@ with historical claim anchors in their individual metadata.
 
 
 In the November 2026 operator-history human-portrait revision, the lectures on John von Neumann, Robert Schatten, Ky Fan, and Bela Szokefalvi-Nagy gain documented biographical scenes and smoother links between the historical circumstances and the existing mathematical explanations. The display-only mathematical companions are unchanged.
+
+## Human-portrait and continuity revisions, batch 6 (13 November 2026)
+
+Paul Halmos (`014000`), Jacques Dixmier (`015000`), Tosio Kato (`016000`), and Marvin Rosenblum (`017000`) now include additional documented scenes from their education, personal life, teaching, colleagues, and later years. Mathematical companions are unchanged. Sources and claim anchors are recorded in the individual metadata, and narration runtimes in `track.json` reflect the new text. See `docs/history-four-human-continuity-revisions-batch6-2026-11-13.md`.

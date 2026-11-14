@@ -66,6 +66,14 @@
     {
       "source_id": "history-halmos-photographs",
       "reason": "Primary contextual photo archive, with no binary assets included."
+    },
+    {
+      "source_id": "history-halmos-oral-history",
+      "reason": "Specific biographical evidence used in the human-portrait revision."
+    },
+    {
+      "source_id": "history-halmos-maa-automathography",
+      "reason": "Specific biographical evidence used in the human-portrait revision."
     }
   ],
   "historical_claims": [
@@ -186,6 +194,67 @@
       ],
       "source_locator": "MacTutor and Indiana institutional records",
       "audit_status": "historical_sources_cross_checked"
+    },
+    {
+      "id": "014000-h12",
+      "anchor": "The route into mathematics was less smooth than his later authority suggested.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-halmos-oral-history"
+      ],
+      "source_locator": "Halmos recollections on coursework, philosophy exam, Room 213",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "014000-h13",
+      "anchor": "Halmos recalled typing roughly one hundred twenty applications and receiving two answers, both refusals.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-halmos-oral-history"
+      ],
+      "source_locator": "Halmos recollection of his 1938–39 job search",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "014000-h14",
+      "anchor": "His memoirs were deliberately centered on mathematics, but he also acknowledged the ordinary pleasures of cats, Haydn, detective stories, walks, and dark beer.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-halmos-maa-automathography"
+      ],
+      "source_locator": "Quoted memoir introduction in MAA 2006 review",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "014000-h15",
+      "anchor": "In nineteen sixty, Halmos left Chicago for Michigan.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-halmos-oral-history"
+      ],
+      "source_locator": "Interview on Michigan career move and salary",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "014000-h16",
+      "anchor": "He also photographed his classes.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-halmos-oral-history",
+        "history-halmos-photographs"
+      ],
+      "source_locator": "Interview class photograph recollection; MAA collection",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "014000-h17",
+      "anchor": "He said that he revised published sentences repeatedly and might rehearse a talk twenty times.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-halmos-oral-history"
+      ],
+      "source_locator": "Interview on prose revisions and rehearsal",
+      "audit_status": "biographical_sources_cross_checked"
     }
   ]
 }

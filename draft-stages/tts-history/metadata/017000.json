@@ -54,6 +54,10 @@
     {
       "source_id": "history-rosenblum-hardy-1994",
       "reason": "Rosenblum–Rovnyak second book and lectures."
+    },
+    {
+      "source_id": "history-rosenblum-uva-news",
+      "reason": "Specific biographical evidence used in the human-portrait revision."
     }
   ],
   "historical_claims": [
@@ -130,7 +134,7 @@
     },
     {
       "id": "017000-h08",
-      "anchor": "In nineteen fifty-five Rosenblum joined the University of Virginia as an assistant professor.",
+      "anchor": "When he arrived at Virginia in nineteen fifty-five, he was starting a career",
       "kind": "historical_biography",
       "source_ids": [
         "history-rosenblum-uva-board"
@@ -284,7 +288,7 @@
     },
     {
       "id": "017000-h23",
-      "anchor": "A former student described him as fair, gracious, intelligent, and good-humored.",
+      "anchor": "A former student remembered him as someone who treated others fairly",
       "kind": "historical_recollection",
       "source_ids": [
         "history-rosenblum-uva-board"
@@ -313,6 +317,37 @@
       ],
       "source_locator": "Nov 2010 Board approval; April 2011 news announcement",
       "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "017000-h26",
+      "anchor": "An institutional tribute after his death describes his generosity and a habit of treating people with respect and good humor.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-rosenblum-uva-news"
+      ],
+      "source_locator": "UVA Today, 6 April 2011",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "017000-h27",
+      "anchor": "The turn toward Hardy spaces also meant a sustained collaboration with James Rovnyak,",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-rosenblum-hardy-1985",
+        "history-rosenblum-hardy-1994"
+      ],
+      "source_locator": "Coauthored volumes, 1985 and 1994",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "017000-h28",
+      "anchor": "His wife, Elizabeth Parker Rosenblum, and their five children were also part of the life remembered in Virginia's account.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-rosenblum-uva-news"
+      ],
+      "source_locator": "UVA Today 2011, survivors and family",
+      "audit_status": "biographical_sources_cross_checked"
     }
   ]
 }

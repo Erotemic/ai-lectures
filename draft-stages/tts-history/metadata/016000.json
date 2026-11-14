@@ -22,7 +22,99 @@
     {
       "source_id": "history-kato-obituary",
       "reason": "Chronology and historical context for his operator and mathematical-physics research."
+    },
+    {
+      "source_id": "history-kato-ams-memorial",
+      "reason": "Specific biographical evidence used in the human-portrait revision."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "016000-h01",
+      "anchor": "Kato was born in Kanuma, Japan, in nineteen seventeen,",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-kato-bio",
+        "history-kato-obituary"
+      ],
+      "source_locator": "MacTutor biographical chronology and UC in memoriam",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "016000-h02",
+      "anchor": "Kato contracted tuberculosis.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-kato-bio",
+        "history-kato-ams-memorial"
+      ],
+      "source_locator": "MacTutor based on Simon AMS Notices memorial (2000)",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "016000-h03",
+      "anchor": "The process lasted more than three years.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-kato-bio",
+        "history-kato-ams-memorial"
+      ],
+      "source_locator": "MacTutor on 1951 Schrödinger manuscript and von Neumann referee",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "016000-h04",
+      "anchor": "A former Tokyo student, S. T. Kuroda, remembered Kato's lectures from nineteen fifty-three and fifty-four.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-kato-bio",
+        "history-kato-ams-memorial"
+      ],
+      "source_locator": "Kuroda testimony in AMS Notices memorial (2000)",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "016000-h05",
+      "anchor": "When František Wolf and others sought to bring him permanently to Berkeley, however, his earlier tuberculosis complicated the immigration process.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-kato-bio"
+      ],
+      "source_locator": "MacTutor on Berkeley visa waiver through Dolph and Laporte",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "016000-h06",
+      "anchor": "Arne Jensen remembered discussing a proof with Kato, then sometimes finding a further note in his mailbox the next morning.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-kato-ams-memorial",
+        "history-kato-bio"
+      ],
+      "source_locator": "Jensen in AMS Notices memorial (2000)",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "016000-h07",
+      "anchor": "Kato admired the botanical classifications of Carl Linnaeus,",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-kato-bio",
+        "history-kato-ams-memorial"
+      ],
+      "source_locator": "Jensen on walks, botany, and 1993 Uppsala trip",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "016000-h08",
+      "anchor": "His wife Mizue became ill in nineteen ninety-six,",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-kato-bio",
+        "history-kato-ams-memorial"
+      ],
+      "source_locator": "Cordes and Ponce reminiscences in AMS memorial, quoted by MacTutor",
+      "audit_status": "biographical_sources_cross_checked"
+    }
+  ]
 }

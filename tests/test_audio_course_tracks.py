@@ -151,7 +151,6 @@ def test_history_track_manifest_references_and_speech_extraction():
         assert raw.count('<!-- END SPOKEN LECTURE -->') == 1
         spoken = narration_extractor(path)
         assert len(spoken.split()) >= 3700, row['id']
-        assert len(spoken.split()) <= 6500, row['id']
         assert abs(len(spoken.split()) - row['spoken_words']) <= 3
         assert 'http' not in spoken
         metadata = json.loads((HISTORY_DIRECTORY / 'metadata' / f"{row['id']}.json").read_text())

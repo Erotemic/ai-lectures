@@ -58,6 +58,10 @@
     {
       "source_id": "history-dixmier-teaching",
       "reason": "Original recollection of students and classroom practice."
+    },
+    {
+      "source_id": "history-dixmier-connes-centenary",
+      "reason": "Specific biographical evidence used in the human-portrait revision."
     }
   ],
   "historical_claims": [
@@ -247,6 +251,47 @@
       ],
       "source_locator": "EMS 2009 pp.36,40; 1924 birth",
       "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "015000-h19",
+      "anchor": "Mathematics had attracted him at school, but he did not initially imagine himself as a research mathematician.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-dixmier-interview"
+      ],
+      "source_locator": "EMS Newsletter 72 (2009), p.34, teaching vocation",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "015000-h20",
+      "anchor": "Dixmier recalled leaving an analysis course after only two lectures because he could not follow the instructor.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-dixmier-interview"
+      ],
+      "source_locator": "EMS Newsletter 72 (2009), teaching discussion",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "015000-h21",
+      "anchor": "He also wrote fiction in later life, including science fiction and novels with Alain Connes and Danye Chéreau,",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-dixmier-interview",
+        "history-dixmier-connes-centenary"
+      ],
+      "source_locator": "EMS 2009 interview; Connes, EMS Magazine 134 (2024), p.21",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "015000-h22",
+      "anchor": "At a small dinner in Paris for his hundredth birthday, in May two thousand twenty-four,",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-dixmier-connes-centenary"
+      ],
+      "source_locator": "Connes, EMS Magazine 134 (2024), pp.21–22",
+      "audit_status": "biographical_sources_cross_checked"
     }
   ]
 }
