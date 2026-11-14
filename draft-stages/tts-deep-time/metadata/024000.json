@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "lecture_id": "024000",
+  "transcript": "024000-ancient-dna-limits.md",
+  "related_resources": [
+    {
+      "source_id": "dt-hum-adna-smith",
+      "reason": "Ancient DNA chemical damage and authentication"
+    },
+    {
+      "source_id": "dt-hum-denisova-2010",
+      "reason": "Initial Denisovan mtDNA discovery"
+    },
+    {
+      "source_id": "dt-hum-baishiya-2024",
+      "reason": "Denisovan presence via proteomics on Tibetan Plateau"
+    },
+    {
+      "source_id": "dt-hum-denisovan-protein-2026",
+      "reason": "Denisovan 2026 proteomic identification"
+    },
+    {
+      "source_id": "dt-hum-ranis-2025",
+      "reason": "Early Eurasian ancient genomes and admixture estimates"
+    },
+    {
+      "source_id": "dt-hum-neanderthal-belgium-2026",
+      "reason": "Regional Neanderthal genomes and negative gene-flow result"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "024000-e01",
+      "anchor": "In 2024, proteomic and archaeological research at Baishiya Karst Cave",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-hum-baishiya-2024"
+      ],
+      "source_locator": "Tibetan Plateau molecular evidence",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "024000-e02",
+      "anchor": "In September 2026, ancient proteins identified additional Denisovan remains",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-hum-denisovan-protein-2026"
+      ],
+      "source_locator": "Bianfu proteomic findings",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "024000-e03",
+      "anchor": "A study published in December 2024, appearing in a 2025 journal volume",
+      "kind": "model_result",
+      "source_ids": [
+        "dt-hum-ranis-2025"
+      ],
+      "source_locator": "Ranis and Zlata kun ancestry chronology",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "024000-e04",
+      "anchor": "In 2026 researchers produced genetic data from twenty-seven late Neanderthals",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-hum-neanderthal-belgium-2026"
+      ],
+      "source_locator": "27 Belgian/French genomes",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

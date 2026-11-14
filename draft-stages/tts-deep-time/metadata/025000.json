@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025000",
+  "transcript": "025000-peopling-world.md",
+  "related_resources": [
+    {
+      "source_id": "dt-hum-ranis-2025",
+      "reason": "Shared Neanderthal admixture and out-of-Africa constraints"
+    },
+    {
+      "source_id": "dt-hum-bacho-2021",
+      "reason": "Bacho Kiro early European modern humans"
+    },
+    {
+      "source_id": "dt-hum-madjedbebe-2017",
+      "reason": "Madjedbebe stratigraphy and optical dates"
+    },
+    {
+      "source_id": "dt-hum-sahul-dna-2025",
+      "reason": "Long/short Sahul migration timeline comparison"
+    },
+    {
+      "source_id": "dt-hum-white-sands-2025",
+      "reason": "Independent White Sands dates and paleolake history"
+    },
+    {
+      "source_id": "dt-hum-white-sands-usgs",
+      "reason": "Detailed White Sands dating explanation"
+    },
+    {
+      "source_id": "dt-hum-white-sands-2026",
+      "reason": "Expanded White Sands horizon count and chronology"
+    },
+    {
+      "source_id": "dt-hum-coastal-review-2026",
+      "reason": "Pacific coastal vs inland routes and preservation gaps"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "025000-e01",
+      "anchor": "A 2017 study reported human occupation at Madjedbebe",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-hum-madjedbebe-2017"
+      ],
+      "source_locator": "65 ka Madjedbebe age model",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "025000-e02",
+      "anchor": "A study published in late 2025 analyzed extensive mitochondrial DNA variation",
+      "kind": "model_result",
+      "source_ids": [
+        "dt-hum-sahul-dna-2025"
+      ],
+      "source_locator": "Sahul ancestry chronology",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "025000-e03",
+      "anchor": "In October 2026 a further study documented many footprint-bearing horizons",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-hum-white-sands-2026"
+      ],
+      "source_locator": "White Sands dated strata",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "025000-e04",
+      "anchor": "A 2026 research review discussed a Pacific coastal dispersal framework",
+      "kind": "technical_review",
+      "source_ids": [
+        "dt-hum-coastal-review-2026"
+      ],
+      "source_locator": "Initial coastal route review",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

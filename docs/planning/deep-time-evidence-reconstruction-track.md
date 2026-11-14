@@ -1,6 +1,6 @@
 # Deep Time — reconstructing what happened, and how we know
 
-**Status:** New curriculum plan, 14 November 2026. Twenty-one substantive lectures delivered (`001000` through `021000`); remaining IDs proposed and not represented as completed manuscripts. This track complements *World History*, the *How We Know* archaeology strand, *The Physical World*, and *The World Reconsidered*. Its identity is a chronological reconstruction from observable traces, reaching backward as far as current methods allow.
+**Status:** New curriculum plan, 14 November 2026. Twenty-nine substantive lectures delivered (`001000` through `029000`); remaining IDs proposed and not represented as completed manuscripts. This track complements *World History*, the *How We Know* archaeology strand, *The Physical World*, and *The World Reconsidered*. Its identity is a chronological reconstruction from observable traces, reaching backward as far as current methods allow.
 
 ## The question
 
@@ -66,14 +66,14 @@ Six arcs are navigational groupings. Numbers are reserved proposals within the `
 | 019000 | **Delivered** | Life | **Multicellularity, the Ediacaran Seafloor, and the Cambrian Record** | Ediacaran body fossils, trace fossils, preservation biases, oxygen/ecology/development hypotheses; sudden appearance versus incomplete record |
 | 020000 | **Delivered** | Life | **Mass Extinctions as Natural Experiments** | Stratigraphy, impact layers, volcanism, climate proxies, fossil turnover; separate causes and feedbacks in multiple extinctions |
 | 021000 | **Delivered** | Life | **The Changing Web of Life: Plants, Animals, and Deep Ecology** | Palynology, fossil flora, marine sediments, functional anatomy; evolutionary convergence and differing environmental reconstructions |
-| 022000 | Proposed | Humans | **How We Date Human Origins** | Fossils, stone tools, volcanic ash, radiometric/relative dates, genetics; species concepts and disputed assignments |
-| 023000 | Proposed | Humans | **Hominins, Tools, and Adaptation** | Skeletal anatomy, site taphonomy, lithic analysis; multiple lineages instead of a linear ladder |
-| 024000 | Proposed | Humans | **What Ancient DNA Can and Cannot Tell Us** | Sequencing, contamination control, admixture models, demographic assumptions; ancestry does not equal culture or ethnicity |
-| 025000 | Proposed | Humans | **How People Peopled the World** | Archaeological site sequences, genetics, paleoecology, sea levels; competing settlement dates and routes |
-| 026000 | Proposed | Humans | **Fire, Food, Language, and the Evidence for Behavior** | Burn layers, isotopes, tools, comparative anatomy; limitations of dating cognition and language |
-| 027000 | Proposed | Societies | **Ice Ages and the Landscapes People Inhabited** | Ice cores, ocean cores, pollen, orbital cycles and archaeology; dating regional transitions and abrupt change |
-| 028000 | Proposed | Societies | **Why Farming Began in Different Places** | Dated seeds, domestication signatures, settlement, land use; climate, population, agency, multiple independent pathways |
-| 029000 | Proposed | Societies | **Before Writing: Networks, Rituals, and Political Organization** | Dwellings, burials, trade materials, ancient DNA and sampling bias; what material remains cannot reveal |
+| 022000 | **Delivered** | Humans | **How We Date Human Origins** | Fossils, stone tools, volcanic ash, radiometric/relative dates, genetics; species concepts and disputed assignments |
+| 023000 | **Delivered** | Humans | **Hominins, Tools, and Adaptation** | Skeletal anatomy, site taphonomy, lithic analysis; multiple lineages instead of a linear ladder |
+| 024000 | **Delivered** | Humans | **What Ancient DNA Can and Cannot Tell Us** | Sequencing, contamination control, admixture models, demographic assumptions; ancestry does not equal culture or ethnicity |
+| 025000 | **Delivered** | Humans | **How People Peopled the World** | Archaeological site sequences, genetics, paleoecology, sea levels; competing settlement dates and routes |
+| 026000 | **Delivered** | Humans | **Fire, Food, Language, and the Evidence for Behavior** | Burn layers, isotopes, tools, comparative anatomy; limitations of dating cognition and language |
+| 027000 | **Delivered** | Societies | **Ice Ages and the Landscapes People Inhabited** | Ice cores, ocean cores, pollen, orbital cycles and archaeology; dating regional transitions and abrupt change |
+| 028000 | **Delivered** | Societies | **Why Farming Began in Different Places** | Dated seeds, domestication signatures, settlement, land use; climate, population, agency, multiple independent pathways |
+| 029000 | **Delivered** | Societies | **Before Writing: Networks, Rituals, and Political Organization** | Dwellings, burials, trade materials, ancient DNA and sampling bias; what material remains cannot reveal |
 | 030000 | Proposed | Societies | **Written History and the Problem of Missing Voices** | Decipherment, epigraphy, oral histories, archives and archaeology; rhetoric and selective survival in written sources |
 | 031000 | Proposed | Synthesis | **When a New Discovery Rewrites Deep History** | Three case studies of revised dates or models; compare error bars, systematic uncertainty, and scientific correction |
 | 032000 | Proposed | Synthesis | **What the Evidence Cannot Currently Recover** | Cosmic horizons, unpreserved rock, extinct lineages, undiscovered archives; the boundary between ignorance and testable proposals |

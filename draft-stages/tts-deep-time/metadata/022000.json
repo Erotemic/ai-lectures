@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "022000",
+  "transcript": "022000-how-we-date-human-origins.md",
+  "related_resources": [
+    {
+      "source_id": "dt-hum-jerbel-date-2017",
+      "reason": "Jebel Irhoud thermoluminescence and ESR dates"
+    },
+    {
+      "source_id": "dt-hum-jerbel-fossils-2017",
+      "reason": "Anatomical and taxonomic placement of Jebel Irhoud"
+    },
+    {
+      "source_id": "dt-hum-omo-2022",
+      "reason": "Omo I tephra chronology and lower bound"
+    },
+    {
+      "source_id": "dt-hum-casablanca-2026",
+      "reason": "Casablanca 773 ka fossils and phylogenetic inference"
+    },
+    {
+      "source_id": "dt-hum-dating-nist",
+      "reason": "Physical mechanisms of scientific dating"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "022000-e01",
+      "anchor": "A 2017 study dated heated flint artifacts",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-hum-jerbel-date-2017"
+      ],
+      "source_locator": "Jebel Irhoud heated-flint age",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "022000-e02",
+      "anchor": "In a 2022 study, scientists compared the chemical fingerprint",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-hum-omo-2022"
+      ],
+      "source_locator": "KHS tuff correlation and Omo I minimum",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "022000-e03",
+      "anchor": "In January 2026 researchers described hominin fossils",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-hum-casablanca-2026"
+      ],
+      "source_locator": "Casablanca around 773 ka fossil study",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

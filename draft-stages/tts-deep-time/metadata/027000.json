@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "027000",
+  "transcript": "027000-ice-ages-lived-landscapes.md",
+  "related_resources": [
+    {
+      "source_id": "dt-soc-ice-beyond-epica-2026",
+      "reason": "Status of the long Antarctic ice-core archive"
+    },
+    {
+      "source_id": "dt-soc-ice-cambridge-2026",
+      "reason": "Gas analysis and isotopic measurements"
+    },
+    {
+      "source_id": "dt-soc-ice-nasa-orbits",
+      "reason": "Orbital drivers and climate seasonality"
+    },
+    {
+      "source_id": "dt-soc-ice-lgm-clark-2009",
+      "reason": "Timing and dating of maximal glacial extent"
+    },
+    {
+      "source_id": "dt-soc-ice-yd-gisp2",
+      "reason": "Abrupt Greenland climate changes"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "027000-e01",
+      "anchor": "The EPICA Antarctic core provided a long record",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-soc-ice-beyond-epica-2026",
+        "dt-soc-ice-cambridge-2026"
+      ],
+      "source_locator": "Recovered ice and ongoing gas analysis",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "027000-e02",
+      "anchor": "Earth's orbit and its rotational axis change",
+      "kind": "technical_review",
+      "source_ids": [
+        "dt-soc-ice-nasa-orbits"
+      ],
+      "source_locator": "Milankovitch physical orbital forcing",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "027000-e03",
+      "anchor": "A synthesis of thousands of radiometric ages",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-soc-ice-lgm-clark-2009"
+      ],
+      "source_locator": "Last Glacial Maximum extent synthesis",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "027000-e04",
+      "anchor": "Greenland ice contains abrupt shifts",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-soc-ice-yd-gisp2"
+      ],
+      "source_locator": "Abrupt Greenland Younger Dryas signals",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
