@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "wr-snow-primary": {
+      "title": "John Snow, On the Mode of Communication of Cholera (2nd ed., 1855)",
+      "kind": "historical_primary",
+      "url": "https://www.gutenberg.org/files/72894/72894-h/72894-h.htm",
+      "access": "free_no_login",
+      "notes": "See pp. 39–53 for Soho and handle timing; pp. 76–88 and Table IX for water-company investigation and denominators."
+    },
+    "wr-snow-paneth": {
+      "title": "Nigel Paneth, Assessing the Contributions of John Snow to Epidemiology 150 Years After Removal of the Broad Street Pump Handle (2004)",
+      "kind": "historical_analysis",
+      "url": "https://www.ph.ucla.edu/epi/snow/epidemiology15%285%29_514_516_2004.pdf",
+      "access": "free_no_login",
+      "notes": "Corrects handle-ended-epidemic myth; discusses prior decline, Snow’s other epidemiological work."
+    },
+    "wr-snow-york": {
+      "title": "York Civic Trust, John Snow (1813–1858)",
+      "kind": "biography",
+      "url": "https://yorkcivictrust.co.uk/heritage/civic-trust-plaques/john-snow-1813-1858/",
+      "access": "free_no_login",
+      "notes": "Family, apprenticeship, early cholera, vegetarianism/temperance, career."
+    },
+    "wr-semmelweis-shi": {
+      "title": "Science History Institute, Ignaz Semmelweis",
+      "kind": "research_biography",
+      "url": "https://www.sciencehistory.org/education/scientific-biographies/ignaz-semmelweis/",
+      "access": "free_no_login",
+      "notes": "Kolletschka, 1847 intervention, education, professional opposition and institutional context."
+    },
+    "wr-semmelweis-record": {
+      "title": "Ignaz Phillip Semmelweis’ studies of death in childbirth (2013)",
+      "kind": "historical_analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807776/",
+      "access": "free_no_login",
+      "notes": "1784-to-1859 hospital data retrospective; 1848 first-clinic mortality 12.7 per 1,000 births."
+    },
+    "wr-yoshioka-mrc": {
+      "title": "Alan Yoshioka, Use of randomisation in the MRC streptomycin trial in the 1940s (1998)",
+      "kind": "historical_analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1114162/",
+      "access": "free_no_login",
+      "notes": "Archival account of sealed envelopes, trial timing and rationed streptomycin."
+    },
+    "wr-simpson-stanford": {
+      "title": "Stanford Encyclopedia of Philosophy, Simpson’s Paradox (2026 update)",
+      "kind": "scholarly_exposition",
+      "url": "https://plato.stanford.edu/entries/paradox-simpson/",
+      "access": "free_no_login",
+      "notes": "Modern treatment of reversals and their role in causal inference; teaching table is synthetic."
+    },
+    "wr-bradford-hill": {
+      "title": "Austin Bradford Hill, The Environment and Disease: Association or Causation? (1965)",
+      "kind": "historical_primary",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1898525/",
+      "access": "free_no_login",
+      "notes": "The nine considerations in the original essay, contextualized as guides to inference."
+    },
+    "wr-helmholtz-sep": {
+      "title": "Stanford Encyclopedia of Philosophy, “Hermann von Helmholtz,” especially the biography and theory of perception",
+      "kind": "historical_analysis",
+      "url": "https://plato.stanford.edu/archives/spr2023/entries/hermann-helmholtz/",
+      "access": "free_no_login",
+      "notes": "Biography and theories of perception; distinguish historical unconscious inference from modern Bayesian analogy"
+    },
+    "wr-helmholtz-bio": {
+      "title": "MacTutor History of Mathematics, “Hermann von Helmholtz”",
+      "kind": "biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Helmholtz/",
+      "access": "free_no_login",
+      "notes": "Medical education, childhood and scientific career"
+    },
+    "wr-helmholtz-ophthalmoscope": {
+      "title": "American Academy of Ophthalmology, “Hermann von Helmholtz”",
+      "kind": "biography",
+      "url": "https://www.aao.org/biographies-detail/hermann-von-helmholtz-md",
+      "access": "free_no_login",
+      "notes": "Ophthalmoscope invention and historical eye examination"
+    },
+    "wr-bartlett-archive": {
+      "title": "Cambridge University Library, “Bartlett's Intellectual Biography”",
+      "kind": "biography",
+      "url": "https://bio.lib.cam.ac.uk/special-collection/sir-frederic-bartlett-archive/introduction-bartlett/bartletts-intellectual",
+      "access": "free_no_login",
+      "notes": "Bartlett life, Cambridge work and experimental background"
+    },
+    "wr-bartlett-cambridge": {
+      "title": "University of Cambridge, “The Cambridge view on memory”",
+      "kind": "historical_analysis",
+      "url": "https://www.cam.ac.uk/research/news/the-cambridge-view-on-memory",
+      "access": "free_no_login",
+      "notes": "Bartlett memory research, schemas and cultural context"
+    },
+    "wr-inattention-1999": {
+      "title": "Simons and Chabris, “Gorillas in Our Midst: Sustained Inattentional Blindness for Dynamic Events,” Perception 28 (1999)",
+      "kind": "research_primary",
+      "url": "https://doi.org/10.1068/p281059",
+      "access": "free_no_login",
+      "notes": "Primary 1999 experimental study of sustained inattentional blindness"
+    },
+    "wr-loftus-palmer-1974": {
+      "title": "Loftus and Palmer, “Reconstruction of Automobile Destruction,” Journal of Verbal Learning and Verbal Behavior 13 (1974), 585–589",
+      "kind": "research_primary",
+      "url": "https://web.stanford.edu/class/psych205/papers/Loftus-Palmer-1974.pdf",
+      "access": "free_no_login",
+      "notes": "Primary experiments; verb manipulation, 40.5 and 34 mph means, broken-glass yes counts"
+    },
+    "wr-talarico-rubin-2003": {
+      "title": "Jennifer M. Talarico and David C. Rubin, “Confidence, Not Consistency, Characterizes Flashbulb Memories,” Psychological Science 14 (2003), 455–461",
+      "kind": "research_primary",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12930476/",
+      "access": "free_no_login",
+      "notes": "Primary flashbulb-memory study, fifty-four Duke students and repeated comparison"
+    },
+    "wr-kahneman-autobio": {
+      "title": "Daniel Kahneman, Nobel autobiographical essay (2002 prize)",
+      "kind": "historical_primary",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/biographical/",
+      "access": "free_no_login",
+      "notes": "First-person account of family, wartime childhood, work with Tversky and collaboration"
+    },
+    "wr-heuristics-1974": {
+      "title": "Tversky and Kahneman, “Judgment under Uncertainty: Heuristics and Biases,” Science 185 (1974)",
+      "kind": "research_primary",
+      "url": "https://doi.org/10.1126/science.185.4157.1124",
+      "access": "free_no_login",
+      "notes": "Primary heuristics and biases research"
+    },
+    "wr-prospect-1979": {
+      "title": "Kahneman and Tversky, “Prospect Theory: An Analysis of Decision under Risk,” Econometrica 47 (1979)",
+      "kind": "research_primary",
+      "url": "https://ideas.repec.org/a/ecm/emetrp/v47y1979i2p263-91.html",
+      "access": "free_no_login",
+      "notes": "Primary prospect theory and reference-dependent choice"
+    },
+    "wr-framing-1981": {
+      "title": "Tversky and Kahneman, “The Framing of Decisions and the Psychology of Choice,” Science 211 (1981)",
+      "kind": "research_primary",
+      "url": "https://doi.org/10.1126/science.7455683",
+      "access": "free_no_login",
+      "notes": "Primary 600-person hypothetical outbreak experiment and framing response proportions"
+    },
+    "wr-natural-freq-1995": {
+      "title": "Gerd Gigerenzer and Ulrich Hoffrage, “How to Improve Bayesian Reasoning Without Instruction: Frequency Formats,” Psychological Review 102 (1995)",
+      "kind": "research_primary",
+      "url": "https://eric.ed.gov/?id=EJ517158",
+      "access": "free_no_login",
+      "notes": "Experimental role of natural-frequency representations in Bayesian reasoning"
+    },
+    "wr-kahneman-nobel-lecture": {
+      "title": "Daniel Kahneman, “Maps of Bounded Rationality,” Nobel prize lecture (2002)",
+      "kind": "historical_primary",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/lecture/",
+      "access": "free_no_login",
+      "notes": "Bounded rationality, map of judgment and decision-making"
+    },
+    "wr-conjunction-1983": {
+      "title": "Amos Tversky and Daniel Kahneman, “Extensional Versus Intuitive Reasoning: The Conjunction Fallacy in Probability Judgment,” Psychological Review 90 (1983), 293–315",
+      "kind": "research_primary",
+      "url": "https://e1-cause.science.psu.edu/cause/research/literature/extensional-versus-intuitive-reasoning-conjunction-fallacy-probability-judgement",
+      "access": "free_no_login",
+      "notes": "Primary conjunction-fallacy experiments and probability inclusion principle"
+    },
+    "wr-axelrod-2012": {
+      "title": "Robert Axelrod, “Launching ‘The Evolution of Cooperation,’” Journal of Theoretical Biology 299 (2012), 21–24",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1016/j.jtbi.2011.04.015",
+      "access": "free_no_login",
+      "notes": "Axelrod retrospective on tournament design, Rapoport and error/noise limitations"
+    },
+    "wr-ostrom-autobio": {
+      "title": "Elinor Ostrom, Nobel autobiographical statement (2009)",
+      "kind": "historical_primary",
+      "url": "https://ideas.repec.org/p/ris/nobelp/2009_006.html",
+      "access": "free_no_login",
+      "notes": "Ostrom first-person education, garden, graduate experience, Vincent and institutional research"
+    },
+    "wr-ostrom-facts": {
+      "title": "Elinor Ostrom, Nobel facts and biographical overview",
+      "kind": "biography",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/",
+      "access": "free_no_login",
+      "notes": "Ostrom prize and career record"
+    },
+    "wr-ostrom-ecology-2004": {
+      "title": "Elinor Ostrom, “A Framework to Analyze the Robustness of Social-ecological Systems from an Institutional Perspective,” Ecology and Society 9 (2004)",
+      "kind": "research_primary",
+      "url": "https://ecologyandsociety.org/vol9/iss1/art18/inline.html",
+      "access": "free_no_login",
+      "notes": "Institutional approaches to social-ecological systems and rule adaptation"
+    },
+    "wr-academies-design": {
+      "title": "National Academies, “Designing the Microbial Research Commons,” design-principles discussion",
+      "kind": "historical_analysis",
+      "url": "https://www.nationalacademies.org/read/13245/chapter/23",
+      "access": "free_no_login",
+      "notes": "Discussion of Ostrom design principles for managed commons"
+    },
+    "wr-commons-retro-2019": {
+      "title": "Frischmann, Marciano, and Ramello, “Retrospectives: Tragedy of the Commons after 50 Years,” Journal of Economic Perspectives 33 (2019)",
+      "kind": "historical_analysis",
+      "url": "https://pubs.aeaweb.org/doi/10.1257/jep.33.4.211",
+      "access": "free_no_login",
+      "notes": "Distinction between open-access tragedy and governed commons"
+    },
+    "wr-axelrod-ford": {
+      "title": "University of Michigan Ford School, “Changing the game: Bob Axelrod’s powerful blueprint for peace”",
+      "kind": "historical_analysis",
+      "url": "https://fordschool.umich.edu/news/2012/changing-game-bob-axelrods-powerful-blueprint-peace",
+      "access": "free_no_login",
+      "notes": "Background on Axelrod cooperation research and career"
+    },
+    "wr-asch-1955": {
+      "title": "Solomon E. Asch, “Opinions and Social Pressure,” Scientific American 193 (1955), 31–35, and related experiments",
+      "kind": "research_primary",
+      "url": "https://www.jstor.org/stable/24943779",
+      "access": "free_no_login",
+      "notes": "Primary line-judgment experiments, unanimity and dissent"
+    },
+    "wr-milgram-1963": {
+      "title": "Stanley Milgram, “Behavioral Study of Obedience,” Journal of Abnormal and Social Psychology 67 (1963), 371–378",
+      "kind": "research_primary",
+      "url": "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Influence_Compliance/Milgrim_1963_Behavioral_study_of_obedience.pdf",
+      "access": "free_no_login",
+      "notes": "Primary obedience report, study design, 26 of 40 endpoint count"
+    },
+    "wr-perry-milgram-2020": {
+      "title": "Gina Perry et al., “Credibility and Incredulity in Milgram's Obedience Experiments,” Social Psychology Quarterly 83 (2020)",
+      "kind": "historical_analysis",
+      "url": "https://doi.org/10.1177/0190272519861952",
+      "access": "free_no_login",
+      "notes": "Archive-based reconsideration of participants beliefs about shocks"
+    },
+    "wr-reicher-haslam-2017": {
+      "title": "Stephen Reicher and S. Alexander Haslam, “50 Years of ‘Obedience to Authority’: From Blind Conformity to Engaged Followership,” Annual Review of Law and Social Science 13 (2017)",
+      "kind": "historical_analysis",
+      "url": "https://doi.org/10.1146/annurev-lawsocsci-110316-113710",
+      "access": "free_no_login",
+      "notes": "Interpretive debate concerning obedience versus engaged followership"
+    },
+    "wr-bandura-1999": {
+      "title": "Albert Bandura, “Moral Disengagement in the Perpetration of Inhumanities,” Personality and Social Psychology Review 3 (1999)",
+      "kind": "research_primary",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15661671/",
+      "access": "free_no_login",
+      "notes": "Moral disengagement mechanisms and diffusion of responsibility"
+    },
+    "wr-tuskegee-cdc-timeline": {
+      "title": "US Centers for Disease Control and Prevention, “The Untreated Syphilis Study at Tuskegee: Timeline”",
+      "kind": "institutional_record",
+      "url": "https://www.cdc.gov/tuskegee/about/timeline.html",
+      "access": "free_no_login",
+      "notes": "Official timeline, informed consent, denial of treatment and closure"
+    },
+    "wr-tuskegee-cdc-history": {
+      "title": "US Centers for Disease Control and Prevention, “Public Health Service Study of Untreated Syphilis at Tuskegee and Macon County”",
+      "kind": "institutional_record",
+      "url": "https://www.cdc.gov/museum/online/story-of-cdc/tuskegee/index.html",
+      "access": "free_no_login",
+      "notes": "Official account of Public Health Service study and affected men"
+    },
+    "wr-genovese-2007": {
+      "title": "Rachel Manning, Mark Levine, and Alan Collins, “The Kitty Genovese Murder and the Social Psychology of Helping,” American Psychologist 62 (2007)",
+      "kind": "historical_analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17874896/",
+      "access": "free_no_login",
+      "notes": "Historical correction to simplistic bystander-effect retellings"
+    },
+    "wr-mylai-us-army": {
+      "title": "U.S. Army Combined Arms Center, “My Lai at 50”",
+      "kind": "institutional_record",
+      "url": "https://usacac.army.mil/Article-Library/View-Content?ArtMID=575&ArticleID=1355&PageID=527&PgrID=1586",
+      "access": "free_no_login",
+      "notes": "Army history of My Lai and Hugh Thompson intervention"
+    },
+    "wr-thompson-va": {
+      "title": "U.S. Department of Veterans Affairs, “Army Veteran Hugh Thompson Jr.”",
+      "kind": "institutional_record",
+      "url": "https://news.va.gov/111176/america250-army-veteran-hugh-thompson-jr/",
+      "access": "free_no_login",
+      "notes": "Veterans Affairs historical portrait of Hugh Thompson and crew"
+    },
+    "wr-challenger-commission-v": {
+      "title": "Presidential Commission on the Space Shuttle Challenger Accident, Report, Chapter V, “The Contributing Cause of the Accident” (1986)",
+      "kind": "historical_primary",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch5.htm",
+      "access": "free_no_login",
+      "notes": "Original Rogers Commission report on launch communications and objections"
+    },
+    "wr-challenger-commission-vi": {
+      "title": "Presidential Commission on the Space Shuttle Challenger Accident, Report, Chapter VI, “An Accident Rooted in History” (1986)",
+      "kind": "historical_primary",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch6.htm",
+      "access": "free_no_login",
+      "notes": "Original commission findings on seal damage and risk normalization"
+    },
+    "wr-tuskegee-apology": {
+      "title": "William J. Clinton, “Remarks in Apology to African-Americans on the Tuskegee Experiment,” May 16, 1997",
+      "kind": "historical_primary",
+      "url": "https://www.presidency.ucsb.edu/documents/remarks-apology-african-americans-the-tuskegee-experiment",
+      "access": "free_no_login",
+      "notes": "Primary 1997 presidential apology and Herman Shaw account"
+    }
+  }
+}
