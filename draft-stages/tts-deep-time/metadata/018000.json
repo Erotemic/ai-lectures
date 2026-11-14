@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-how-complex-cells-emerged.md",
+  "related_resources": [
+    {
+      "source_id": "dt-euk-asgard-2026",
+      "reason": "Comparative gene-family ancestry and Asgard role"
+    },
+    {
+      "source_id": "dt-euk-gene-dups-2026",
+      "reason": "Proposed sequence from pre-mitochondrial gene duplication dating"
+    },
+    {
+      "source_id": "dt-euk-asgard-culture-2020",
+      "reason": "Cultured Asgard physiology and syntrophy"
+    },
+    {
+      "source_id": "dt-euk-fossil-2026",
+      "reason": "Geology of oldest fossil eukaryote habitats"
+    },
+    {
+      "source_id": "dt-euk-asgard-review-2026",
+      "reason": "Open questions and alternative routes"
+    },
+    {
+      "source_id": "dt-euk-asgard-diversity-2026",
+      "reason": "Broad genomic and physiological diversity"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "018000-e01",
+      "anchor": "One cultivated Asgard archaeon, described in 2020",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-euk-asgard-culture-2020"
+      ],
+      "source_locator": "Imachi cultivation and physiology",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "018000-e02",
+      "anchor": "A phylogenomic analysis led by Victor Tobiasson",
+      "kind": "model_result",
+      "source_ids": [
+        "dt-euk-asgard-2026"
+      ],
+      "source_locator": "Tobiasson gene origin model",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "018000-e03",
+      "anchor": "A separate study used the relative ages of ancient gene duplications",
+      "kind": "model_result",
+      "source_ids": [
+        "dt-euk-gene-dups-2026"
+      ],
+      "source_locator": "clock-calibrated duplicated gene ordering",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "018000-e04",
+      "anchor": "A study published in May 2026 examined the sedimentary environments",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-euk-fossil-2026"
+      ],
+      "source_locator": "fossil habitat analysis",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

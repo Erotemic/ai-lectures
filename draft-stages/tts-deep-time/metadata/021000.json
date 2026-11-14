@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-changing-web-of-life.md",
+  "related_resources": [
+    {
+      "source_id": "dt-eco-forest-2024",
+      "reason": "390 Ma Devonian forest evidence"
+    },
+    {
+      "source_id": "dt-eco-spore-clock-2026",
+      "reason": "Recalibration of earliest land plant spores"
+    },
+    {
+      "source_id": "dt-eco-angiosperm-review-2025",
+      "reason": "Stepwise angiosperm ecological rise"
+    },
+    {
+      "source_id": "dt-eco-angiosperm-clock-2026",
+      "reason": "Joint fossil molecular angiosperm dates"
+    },
+    {
+      "source_id": "dt-eco-insect-2024",
+      "reason": "Plant and insect diversification rate models"
+    },
+    {
+      "source_id": "dt-eco-pollination-2025",
+      "reason": "Pre-angiosperm pollination"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "021000-e01",
+      "anchor": "Researchers described this assemblage in 2024",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-eco-forest-2024"
+      ],
+      "source_locator": "Somerset Devonian forest",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "021000-e02",
+      "anchor": "In October 2026 a study reconstructing the evolution of spore characters",
+      "kind": "model_result",
+      "source_ids": [
+        "dt-eco-spore-clock-2026"
+      ],
+      "source_locator": "spore origin and clock recalibration",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "021000-e03",
+      "anchor": "A 2026 study integrating fossil occurrences with molecular dating",
+      "kind": "model_result",
+      "source_ids": [
+        "dt-eco-angiosperm-clock-2026"
+      ],
+      "source_locator": "angiosperm timing model",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "021000-e04",
+      "anchor": "A 2025 review of terrestrial vegetation concluded",
+      "kind": "technical_review",
+      "source_ids": [
+        "dt-eco-angiosperm-review-2025"
+      ],
+      "source_locator": "stepwise angiosperm dominance",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "021000-e05",
+      "anchor": "A 2024 study examining insect-family fossil histories",
+      "kind": "model_result",
+      "source_ids": [
+        "dt-eco-insect-2024"
+      ],
+      "source_locator": "insect diversification and angiosperms",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

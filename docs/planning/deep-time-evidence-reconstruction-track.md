@@ -1,6 +1,6 @@
 # Deep Time — reconstructing what happened, and how we know
 
-**Status:** New curriculum plan, 14 November 2026. Seventeen substantive lectures delivered (`001000` through `017000`); remaining IDs proposed and not represented as completed manuscripts. This track complements *World History*, the *How We Know* archaeology strand, *The Physical World*, and *The World Reconsidered*. Its identity is a chronological reconstruction from observable traces, reaching backward as far as current methods allow.
+**Status:** New curriculum plan, 14 November 2026. Twenty-one substantive lectures delivered (`001000` through `021000`); remaining IDs proposed and not represented as completed manuscripts. This track complements *World History*, the *How We Know* archaeology strand, *The Physical World*, and *The World Reconsidered*. Its identity is a chronological reconstruction from observable traces, reaching backward as far as current methods allow.
 
 ## The question
 
@@ -62,10 +62,10 @@ Six arcs are navigational groupings. Numbers are reserved proposals within the `
 | 015000 | **Delivered** | Life | **From Chemistry to Cells: What Origin-of-Life Research Has Achieved** | Laboratory synthesis, protocells, phylogenetic limits, hydrothermal and surface chemistry; distinguish plausibility from historical reconstruction |
 | 016000 | **Delivered** | Life | **Oxygen Changes the Planet** | Banded iron formation, sulfur isotopes, oxygen-sensitive minerals, atmospheric models; dates and competing triggers of the Great Oxidation Event |
 | 017000 | **Delivered** | Life | **The Last Universal Common Ancestor and the Deep Tree of Life** | Comparative genomics, molecular clocks, horizontal gene transfer; why LUCA is not the first cell |
-| 018000 | Proposed | Life | **How Complex Cells Emerged** | Endosymbiosis, molecular phylogeny, fossils and organelle genomes; timing uncertainties and alternative sequences |
-| 019000 | Proposed | Life | **Multicellular Experiments and the Cambrian Record** | Ediacaran body fossils, trace fossils, preservation biases, oxygen/ecology/development hypotheses; sudden appearance versus incomplete record |
-| 020000 | Proposed | Life | **Mass Extinctions as Natural Experiments** | Stratigraphy, impact layers, volcanism, climate proxies, fossil turnover; separate causes and feedbacks in multiple extinctions |
-| 021000 | Proposed | Life | **The Changing Web of Life: Plants, Animals, and Deep Ecology** | Palynology, fossil flora, marine sediments, functional anatomy; evolutionary convergence and differing environmental reconstructions |
+| 018000 | **Delivered** | Life | **How Complex Cells Emerged** | Endosymbiosis, molecular phylogeny, fossils and organelle genomes; timing uncertainties and alternative sequences |
+| 019000 | **Delivered** | Life | **Multicellularity, the Ediacaran Seafloor, and the Cambrian Record** | Ediacaran body fossils, trace fossils, preservation biases, oxygen/ecology/development hypotheses; sudden appearance versus incomplete record |
+| 020000 | **Delivered** | Life | **Mass Extinctions as Natural Experiments** | Stratigraphy, impact layers, volcanism, climate proxies, fossil turnover; separate causes and feedbacks in multiple extinctions |
+| 021000 | **Delivered** | Life | **The Changing Web of Life: Plants, Animals, and Deep Ecology** | Palynology, fossil flora, marine sediments, functional anatomy; evolutionary convergence and differing environmental reconstructions |
 | 022000 | Proposed | Humans | **How We Date Human Origins** | Fossils, stone tools, volcanic ash, radiometric/relative dates, genetics; species concepts and disputed assignments |
 | 023000 | Proposed | Humans | **Hominins, Tools, and Adaptation** | Skeletal anatomy, site taphonomy, lithic analysis; multiple lineages instead of a linear ladder |
 | 024000 | Proposed | Humans | **What Ancient DNA Can and Cannot Tell Us** | Sequencing, contamination control, admixture models, demographic assumptions; ancestry does not equal culture or ethnicity |
