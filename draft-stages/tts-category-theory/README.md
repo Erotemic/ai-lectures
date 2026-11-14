@@ -1,6 +1,6 @@
 # An Introduction to Category Theory
 
-A concept-first, proof-bearing mathematics track with eighteen substantive standalone spoken lectures, each with a display-only mathematical companion and exercises with answers. The track begins with sets, functions, orders, and simple algebra. Recordings nine through twelve form a second arc, while thirteen and fourteen develop local-to-global reasoning and sheaf-based logic. Lectures fifteen through eighteen study enrichment, ends/coends, Kan extensions, and typed-program semantics. The category-theoretic vocabulary is developed from those examples and is then used to derive more general results.
+A concept-first, proof-bearing mathematics track with twenty-two substantive standalone spoken lectures, each with a display-only mathematical companion and exercises with answers. The track begins with sets, functions, orders, and simple algebra. Recordings nine through twelve form a second arc, while thirteen and fourteen develop local-to-global reasoning and sheaf-based logic. Lectures fifteen through eighteen study enrichment, ends/coends, Kan extensions, and typed-program semantics. The category-theoretic vocabulary is developed from those examples and is then used to derive more general results.
 
 The material is written for listeners comfortable with functions and elementary algebra who have not previously studied category theory. It assumes no algebraic topology, group theory beyond an explained example, or programming-language background. The displayed mathematics supplies exact notation and proofs after the spoken markers; it is not synthesized as audio.
 
@@ -40,6 +40,13 @@ The material is written for listeners comfortable with functions and elementary 
 
 **Sources:** `metadata/sources.json`; per-lecture source selections and claim anchors live in `metadata/<id>.json`.
 
-**Further directions:** Galois connections, profunctors, enriched Yoneda and weighted limits, sheafification on sites, algebraic theories, dependent-type semantics, and bicategories. The eighteen-lecture sequence remains extensible rather than a claim of total coverage.
+**Further directions:** Galois connections, profunctors, enriched Yoneda and weighted limits, sheafification on sites, algebraic theories, dependent-type semantics, and bicategories. The twenty-two-lecture sequence remains extensible rather than a claim of total coverage.
 
 **Third arc planning:** `docs/planning/category-theory-third-arc.md`. **Fourth arc planning:** `docs/planning/category-theory-fourth-arc.md`.
+
+| 019000 | Profunctors | Set-valued generalized relations, coend composition, identity hom-profunctors, bicategory coherence |
+| 020000 | Enriched Yoneda | Directed distance profiles, metric presheaves, evaluation, enriching hom-objects |
+| 021000 | Weighted Limits | Functorial weights, finite kernel-pair example, category of elements, enriched universal properties |
+| 022000 | Dependent Type Semantics | Categories with families, reindexing, context comprehension, dependent sums/products |
+
+**Fifth arc planning:** `docs/planning/category-theory-fifth-arc.md`.

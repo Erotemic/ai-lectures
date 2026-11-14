@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "lecture_id": "022000",
+  "transcript": "022000-dependent-type-semantics.md",
+  "related_resources": [
+    {
+      "source_id": "ct-sep-dependent-types",
+      "reason": "Categories with families, substitution, contexts and comprehension."
+    },
+    {
+      "source_id": "ct-cwf-castellan",
+      "reason": "Definition of categories with families and context comprehension."
+    },
+    {
+      "source_id": "ct-jacobs-comprehension",
+      "reason": "Dependent types and comprehension categories."
+    },
+    {
+      "source_id": "ct-coraglia-emmenegger",
+      "reason": "Categorical relationship between comprehension categories and categories with families."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "022000-h01",
+      "anchor": "structures called categories with families, and related structures called comprehension categories",
+      "kind": "historical_development",
+      "source_ids": [
+        "ct-sep-dependent-types",
+        "ct-jacobs-comprehension"
+      ],
+      "source_locator": "Historical development of semantic frameworks",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

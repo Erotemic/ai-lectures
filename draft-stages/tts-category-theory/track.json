@@ -1,7 +1,7 @@
 {
   "id": "category-theory",
   "title": "Introduction to Category Theory · Foundations and Further Connections",
-  "summary": "A concept-first, proof-bearing sequence from categories, functors, and universal properties through adjunctions, Yoneda, monads, monoidal structure, sheaves, topoi, enriched categories, ends and coends, Kan extensions, and categorical semantics.",
+  "summary": "A concept-first, proof-bearing sequence from categories and universal properties through enriched structures, profunctors, Yoneda, weighted limits, and categorical models of dependent type theory.",
   "assumed_background": [
     "sets and functions, basic algebra, willingness to follow short proofs; each categorical concept is introduced from examples"
   ],
@@ -21,7 +21,11 @@
     "enriched-categories",
     "ends-and-coends",
     "kan-extensions",
-    "categorical-semantics"
+    "categorical-semantics",
+    "profunctors",
+    "enriched-yoneda",
+    "weighted-limits",
+    "dependent-type-semantics"
   ],
   "lectures": [
     {
@@ -185,6 +189,42 @@
       "spoken_words": 3152,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 21.7
+    },
+    {
+      "id": "019000",
+      "title": "Profunctors: Relations That Know How to Compose",
+      "section": "profunctors",
+      "file": "019000-profunctors.md",
+      "spoken_words": 3264,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.5
+    },
+    {
+      "id": "020000",
+      "title": "Enriched Yoneda: Recovering Distance from Every Point of View",
+      "section": "enriched-yoneda",
+      "file": "020000-enriched-yoneda.md",
+      "spoken_words": 3124,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.5
+    },
+    {
+      "id": "021000",
+      "title": "Weighted Limits: When a Diagram Asks More Than One Question",
+      "section": "weighted-limits",
+      "file": "021000-weighted-limits.md",
+      "spoken_words": 3263,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.5
+    },
+    {
+      "id": "022000",
+      "title": "Dependent Types: Contexts, Substitution, and Comprehension",
+      "section": "dependent-type-semantics",
+      "file": "022000-dependent-type-semantics.md",
+      "spoken_words": 3262,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.5
     }
   ]
 }

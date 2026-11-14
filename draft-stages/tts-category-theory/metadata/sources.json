@@ -154,6 +154,55 @@
       "url": "https://search.worldcat.org/title/Introduction-to-higher-order-categorical-logic/oclc/18230304",
       "access": "catalog_entry",
       "notes": "Classical treatment of typed lambda calculi and cartesian closed categories."
+    },
+    "ct-mathlib-profunctor": {
+      "title": "Mathlib, CategoryTheory.Profunctor.Comp",
+      "kind": "formal_library_documentation",
+      "url": "https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Profunctor/Comp.html",
+      "access": "free_no_login",
+      "notes": "Typed profunctor composition as a coend; unitors and associator in Lean."
+    },
+    "ct-hefford-profunctor": {
+      "title": "James Hefford, doctoral work on generalized process theories and profunctors",
+      "kind": "research_reference",
+      "url": "https://www.cs.ox.ac.uk/people/aleks.kissinger/theses/hefford-thesis.pdf",
+      "access": "free_no_login",
+      "notes": "Profunctors, hom identities, coend composition, and applications."
+    },
+    "ct-enriched-tendas": {
+      "title": "G. Tendas, Enriched Categories: Theory and Examples",
+      "kind": "course_notes",
+      "url": "https://gtendas.github.io/pdfs/ECTE.pdf",
+      "access": "free_no_login",
+      "notes": "Enriched category theory and concrete weighted limits and powers."
+    },
+    "ct-sep-dependent-types": {
+      "title": "Stanford Encyclopedia of Philosophy, Intuitionistic Type Theory",
+      "kind": "scholarly_reference",
+      "url": "https://plato.stanford.edu/entries/type-theory-intuitionistic/",
+      "access": "free_no_login",
+      "notes": "Categories with families, substitution, contexts and comprehension."
+    },
+    "ct-cwf-castellan": {
+      "title": "Simon Castellan, Pierre Clairambault and Peter Dybjer, Categories with Families",
+      "kind": "scholarly_reference",
+      "url": "https://perso.ens-lyon.fr/pierre.clairambault/cwfs.pdf",
+      "access": "free_no_login",
+      "notes": "Definition of categories with families and context comprehension."
+    },
+    "ct-jacobs-comprehension": {
+      "title": "Bart Jacobs, Comprehension Categories and the Semantics of Type Dependency (1993)",
+      "kind": "scholarly_paper",
+      "url": "https://doi.org/10.1016/0304-3975(93)90169-T",
+      "access": "publisher_abstract",
+      "notes": "Dependent types and comprehension categories."
+    },
+    "ct-coraglia-emmenegger": {
+      "title": "Greta Coraglia and Jacopo Emmenegger, A 2-Categorical Analysis of Context Comprehension (2024)",
+      "kind": "scholarly_paper",
+      "url": "https://www.tac.mta.ca/tac/volumes/41/42/41-42abs.html",
+      "access": "free_no_login",
+      "notes": "Categorical relationship between comprehension categories and categories with families."
     }
   }
 }

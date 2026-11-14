@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-enriched-yoneda.md",
+  "related_resources": [
+    {
+      "source_id": "ct-lawvere-metric-1973",
+      "reason": "Original formulation of generalized metric spaces via enrichment in extended nonnegative reals."
+    },
+    {
+      "source_id": "ct-enriched-tendas",
+      "reason": "Enriched category theory and concrete weighted limits and powers."
+    },
+    {
+      "source_id": "ct-riehl-context",
+      "reason": "Author-hosted overview and private-use book access; mathematical reference, not replicated text."
+    },
+    {
+      "source_id": "ct-leinster-basic",
+      "reason": "Introductory treatment with examples, Yoneda, adjoints, limits; manuscript freely available."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "020000-h01",
+      "anchor": "A Lawvere metric space can be described as a category enriched over the extended nonnegative reals",
+      "kind": "mathematical_attribution",
+      "source_ids": [
+        "ct-lawvere-metric-1973"
+      ],
+      "source_locator": "Original 1973 formulation and later reprint",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
