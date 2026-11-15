@@ -472,6 +472,62 @@
       "access": "free_no_login",
       "format": "html",
       "notes": "VST effects, plugin state, parameter automation and offline rendering."
+    },
+    "mt-dawdreamer-quickstart": {
+      "title": "DawDreamer Documentation, Quick Start",
+      "kind": "official_technical_manual",
+      "url": "https://github.com/DBraun/DawDreamer/blob/main/docs/quickstart.rst",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "RenderEngine graph construction, rendering by time or beats, sample-array shape and exports."
+    },
+    "mt-dawdreamer-userguide": {
+      "title": "DawDreamer Documentation, User Guide",
+      "kind": "official_technical_manual",
+      "url": "https://github.com/DBraun/DawDreamer/blob/main/docs/user_guide/index.rst",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Graph topology, processor types, automation and parameter state."
+    },
+    "mt-ardour-midi-edit": {
+      "title": "Ardour Manual, MIDI Editing",
+      "kind": "official_technical_manual",
+      "url": "https://manual.ardour.org/working-with-midi/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "In-track MIDI editing, channels and instrument events versus audio."
+    },
+    "mt-ardour-session-setup": {
+      "title": "Ardour Manual, Audio/MIDI Setup",
+      "kind": "official_technical_manual",
+      "url": "https://manual.ardour.org/sessions-tracks/sessions/audiomidi-setup/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Sample rate, buffer size, hardware monitoring and audio setup."
+    },
+    "mt-ardour-sidechain": {
+      "title": "Ardour Manual, Sidechaining",
+      "kind": "official_technical_manual",
+      "url": "https://manual.ardour.org/signal-routing/sidechaining/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "External detector paths for compatible plugins, including kick-to-bass examples."
+    },
+    "mt-ardour-filters": {
+      "title": "Ardour Manual, Filters and Effects",
+      "kind": "official_technical_manual",
+      "url": "https://manual.ardour.org/plugins-filters/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "ACE Compressor attack, release, threshold, ratio, sidechain and delay effects."
+    },
+    "mt-smith-combfilters": {
+      "title": "Julius O. Smith III, Physical Audio Signal Processing: Comb Filters",
+      "kind": "scholarly_online_textbook",
+      "url": "https://www.dsprelated.com/freebooks/pasp/Comb_Filters.html",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Derivation of feedforward delayed-signal comb filtering and frequency-response cancellation."
     }
   }
 }

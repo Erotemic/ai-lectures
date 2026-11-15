@@ -1,7 +1,7 @@
 {
   "id": "music-theory",
   "title": "Music Theory and Composition",
-  "summary": "A standalone, instrument-agnostic course in melody, rhythmic design, harmony, counterpoint, form, modulation, comparative musical grammars, timbre, arrangement, and long-form composition. Original written scores are usable without audio; guitar, voice and keyboard appear as optional realizations, not prerequisites.",
+  "summary": "A standalone, instrument-agnostic course in melody, rhythm, harmony, composition, comparative musical systems, and production. Later lectures teach MIDI/audio distinctions, EQ, dynamics, alignment, stereo space, and reproducible DawDreamer–Ardour workflows without requiring playable audio examples.",
   "assumed_background": [
     "General audience; no notation, instrument, or earlier music theory required."
   ],
@@ -21,7 +21,11 @@
     "changing-home",
     "comparative-musical-grammars",
     "timbre-and-production",
-    "larger-scale-composition"
+    "larger-scale-composition",
+    "notes-to-sound",
+    "eq-and-dynamics",
+    "timing-phase-and-space",
+    "reproducible-production"
   ],
   "lectures": [
     {
@@ -203,6 +207,42 @@
       "spoken_words": 1898,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 13.1
+    },
+    {
+      "id": "021000",
+      "title": "From Notes to Waveforms: MIDI, Sampling, Synthesis, and Recording",
+      "section": "notes-to-sound",
+      "file": "021000-from-notes-to-waveforms.md",
+      "spoken_words": 3493,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 24.1
+    },
+    {
+      "id": "022000",
+      "title": "What EQ and Compression Actually Do: Spectrum, Level, and Dynamics",
+      "section": "eq-and-dynamics",
+      "file": "022000-equalizers-compressors-and-dynamics.md",
+      "spoken_words": 3341,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 23.0
+    },
+    {
+      "id": "023000",
+      "title": "Timing, Phase, and Stereo Space: When Adding Tracks Changes the Sound",
+      "section": "timing-phase-and-space",
+      "file": "023000-timing-phase-and-stereo-space.md",
+      "spoken_words": 2908,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 20.1
+    },
+    {
+      "id": "024000",
+      "title": "From Four Agents to One Finished Mix: A Reproducible DawDreamer and Ardour Workflow",
+      "section": "reproducible-production",
+      "file": "024000-building-a-reproducible-production-pipeline.md",
+      "spoken_words": 3289,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.7
     }
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "lecture_id": "024000",
+  "transcript": "024000-building-a-reproducible-production-pipeline.md",
+  "related_resources": [
+    {
+      "source_id": "mt-dawdreamer-quickstart",
+      "reason": "RenderEngine parameters, sample arrays and rendering graphs."
+    },
+    {
+      "source_id": "mt-dawdreamer-threading",
+      "reason": "Multiple engines with private state for parallel batch rendering."
+    },
+    {
+      "source_id": "mt-dawdreamer-plugin",
+      "reason": "Plugin state and reproducible instrument rendering."
+    },
+    {
+      "source_id": "mt-ardour-session-setup",
+      "reason": "Project sample-rate and buffer configuration."
+    },
+    {
+      "source_id": "mt-ardour-signal-flow",
+      "reason": "Track, bus, send and processor routing."
+    },
+    {
+      "source_id": "mt-ardour-stems",
+      "reason": "Stem export with time-aligned silence and optional track processing."
+    },
+    {
+      "source_id": "mt-ardour-export",
+      "reason": "Format and normalization choices during export."
+    }
+  ],
+  "historical_claims": []
+}

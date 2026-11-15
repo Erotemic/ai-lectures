@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "lecture_id": "023000",
+  "transcript": "023000-timing-phase-and-stereo-space.md",
+  "related_resources": [
+    {
+      "source_id": "mt-smith-combfilters",
+      "reason": "Mathematics of adding delayed copies and frequency-dependent cancellations."
+    },
+    {
+      "source_id": "mt-ardour-latency",
+      "reason": "Processor and recording latency versus alignment."
+    },
+    {
+      "source_id": "mt-ardour-signal-flow",
+      "reason": "Polarity, track/bus routing, plugin-delay compensation."
+    },
+    {
+      "source_id": "mt-ardour-stems",
+      "reason": "Maintaining a common timeline origin in exported stems."
+    },
+    {
+      "source_id": "mt-dawdreamer-userguide",
+      "reason": "Graph dependency and offline processor routing."
+    }
+  ],
+  "historical_claims": []
+}

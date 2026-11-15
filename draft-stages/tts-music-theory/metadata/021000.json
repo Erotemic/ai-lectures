@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-from-notes-to-waveforms.md",
+  "related_resources": [
+    {
+      "source_id": "mt-dawdreamer-quickstart",
+      "reason": "Render-engine timing, loading graphs, and obtaining audio samples."
+    },
+    {
+      "source_id": "mt-dawdreamer-userguide",
+      "reason": "Event and graph distinctions for instruments, plugin processing and automation."
+    },
+    {
+      "source_id": "mt-ardour-midi-edit",
+      "reason": "Editing MIDI notes separately from rendered audio."
+    },
+    {
+      "source_id": "mt-ardour-session-setup",
+      "reason": "Clock and sample-rate choices in a DAW session."
+    },
+    {
+      "source_id": "mt-dawdreamer-threading",
+      "reason": "Parallel rendering with separately owned engines."
+    }
+  ],
+  "historical_claims": []
+}
