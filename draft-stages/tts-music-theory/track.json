@@ -1,7 +1,7 @@
 {
   "id": "music-theory",
   "title": "Music Theory and Composition",
-  "summary": "A standalone, instrument-agnostic course in melody, rhythmic design, harmony, voice leading, phrasing, modal centers, chromatic color, interlocking cycles, form and composition revision. Original event grids permit study without audio; guitar and keyboard are optional examples.",
+  "summary": "A standalone, instrument-agnostic course in melody, rhythmic design, harmony, counterpoint, form, modulation, comparative musical grammars, timbre, arrangement, and long-form composition. Original written scores are usable without audio; guitar, voice and keyboard appear as optional realizations, not prerequisites.",
   "assumed_background": [
     "General audience; no notation, instrument, or earlier music theory required."
   ],
@@ -17,7 +17,11 @@
     "modal-centers",
     "chromatic-harmony",
     "rhythmic-cycles",
-    "composition-workshop"
+    "composition-workshop",
+    "changing-home",
+    "comparative-musical-grammars",
+    "timbre-and-production",
+    "larger-scale-composition"
   ],
   "lectures": [
     {
@@ -127,6 +131,42 @@
       "spoken_words": 2414,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 16.6
+    },
+    {
+      "id": "013000",
+      "title": "Changing Musical Home: Tonicization, Modulation, and the Return",
+      "section": "changing-home",
+      "file": "013000-changing-musical-home-modulation.md",
+      "spoken_words": 1798,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.4
+    },
+    {
+      "id": "014000",
+      "title": "Beyond a Scale: Musical Grammars, Rāga, Tāla, and Maqām",
+      "section": "comparative-musical-grammars",
+      "file": "014000-musical-grammars-raga-tala-maqam.md",
+      "spoken_words": 1973,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.6
+    },
+    {
+      "id": "015000",
+      "title": "Timbre as Composition: Arrangement, Sound Design, and a First Mix",
+      "section": "timbre-and-production",
+      "file": "015000-timbre-arrangement-and-production.md",
+      "spoken_words": 2001,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.8
+    },
+    {
+      "id": "016000",
+      "title": "The Long Arc: Composing and Revising a Forty-Eight-Bar Work",
+      "section": "larger-scale-composition",
+      "file": "016000-composing-a-forty-eight-bar-work.md",
+      "spoken_words": 2100,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.5
     }
   ]
 }

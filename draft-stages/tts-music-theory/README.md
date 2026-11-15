@@ -1,42 +1,46 @@
 # Music Theory and Composition
 
-**Current collection:** Twelve substantive, standalone, audio-first lecture manuscripts. Musical examples are original and reproducible as pitch-and-rhythm text grids. No embedded, generated, or copyrighted audio is required. The teaching is instrument-agnostic; voice, tapping, guitar, keyboard, and other instruments are optional ways to realize the same ideas.
+**Collection:** Sixteen standalone, audio-first lecture manuscripts. The course is instrument-agnostic and its original text scores remain useful before audio demonstrations are available. Sound-producing examples are an eventual extension, not a requirement for understanding the descriptions.
 
-## Completed lectures
+## Completed and indexed lectures
 
-- **001000** — [Music as Pattern in Time: A Listener's Way into Composition](001000-music-as-pattern-in-time.md). 2,218 spoken words, approximately 15.3 minutes at 145 words per minute.
-- **002000** — [Pitch, Intervals, and the Shape of a Melody](002000-pitch-intervals-and-melodic-shape.md). 2,573 spoken words, approximately 17.7 minutes at 145 words per minute.
-- **003000** — [Rhythm, Meter, and Groove: How Music Organizes Time](003000-rhythm-meter-and-groove.md). 2,717 spoken words, approximately 18.7 minutes at 145 words per minute.
-- **004000** — [Scales, Chords, and Harmonic Direction: Compose a Four-Bar Phrase](004000-scales-chords-and-composing-a-phrase.md). 2,909 spoken words, approximately 20.1 minutes at 145 words per minute.
+| ID | Lecture | Spoken words | Approx. minutes at 145 wpm |
+|---|---|---:|---:|
+| 001000 | [Music as Pattern in Time: A Listener's Way into Composition](001000-music-as-pattern-in-time.md) | 2,214 | 15.3 |
+| 002000 | [Pitch, Intervals, and the Shape of a Melody](002000-pitch-intervals-and-melodic-shape.md) | 2,554 | 17.6 |
+| 003000 | [Rhythm, Meter, and Groove: How Music Organizes Time](003000-rhythm-meter-and-groove.md) | 2,674 | 18.4 |
+| 004000 | [Scales, Chords, and Harmonic Direction: Compose a Four-Bar Phrase](004000-scales-chords-and-composing-a-phrase.md) | 2,895 | 20.0 |
+| 005000 | [Voice Leading and Counterpoint: How Musical Lines Work Together](005000-voice-leading-and-independent-lines.md) | 2,409 | 16.6 |
+| 006000 | [Phrases, Cadences, and Development: Making a Musical Idea Go Somewhere](006000-phrases-cadences-and-musical-development.md) | 2,401 | 16.6 |
+| 007000 | [Chord Voicing, Inversions, and Harmonic Color](007000-chord-voicing-inversions-and-harmonic-color.md) | 2,663 | 18.4 |
+| 008000 | [Form, Texture, and Arrangement: Turning an Idea into a Piece](008000-form-texture-and-arrangement.md) | 2,662 | 18.4 |
+| 009000 | [Modes, Tonal Centers, and Pitch Collections: The Same Notes, a Different Home](009000-modes-tonal-centers-and-pitch-collections.md) | 1,739 | 12.0 |
+| 010000 | [Chromatic Harmony: Borrowed Colors and Temporary Destinations](010000-chromatic-harmony-and-borrowed-colors.md) | 1,750 | 12.1 |
+| 011000 | [Unequal Beats and Interlocking Cycles: Meter Beyond Four](011000-additive-meter-polyrhythm-and-rhythmic-cycles.md) | 1,881 | 13.0 |
+| 012000 | [From Sketch to Piece: Variation, Contrast, and Musical Revision](012000-composition-workshop-variation-and-revision.md) | 2,414 | 16.6 |
+| 013000 | [Changing Musical Home: Tonicization, Modulation, and the Return](013000-changing-musical-home-modulation.md) | 1,798 | 12.4 |
+| 014000 | [Beyond a Scale: Musical Grammars, Rāga, Tāla, and Maqām](014000-musical-grammars-raga-tala-maqam.md) | 1,973 | 13.6 |
+| 015000 | [Timbre as Composition: Arrangement, Sound Design, and a First Mix](015000-timbre-arrangement-and-production.md) | 2,001 | 13.8 |
+| 016000 | [The Long Arc: Composing and Revising a Forty-Eight-Bar Work](016000-composing-a-forty-eight-bar-work.md) | 2,100 | 14.5 |
 
-- **005000** — [Voice Leading and Counterpoint: How Musical Lines Work Together](005000-voice-leading-and-independent-lines.md). 2,420 spoken words, approximately 16.7 minutes at 145 words per minute.
-- **006000** — [Phrases, Cadences, and Development: Making a Musical Idea Go Somewhere](006000-phrases-cadences-and-musical-development.md). 2,406 spoken words, approximately 16.6 minutes at 145 words per minute.
-- **007000** — [Chord Voicing, Inversions, and Harmonic Color](007000-chord-voicing-inversions-and-harmonic-color.md). 2,686 spoken words, approximately 18.5 minutes at 145 words per minute.
-- **008000** — [Form, Texture, and Arrangement: Turning an Idea into a Piece](008000-form-texture-and-arrangement.md). 2,679 spoken words, approximately 18.5 minutes at 145 words per minute.
+Word counts are descriptive: they use whitespace-separated words in the narration extractor output, matching the track inventory. Duration is only a rough read-through estimate, not an editorial target.
 
+## Course approach
 
-- **009000** — [Modes, Tonal Centers, and Pitch Collections: The Same Notes, a Different Home](009000-modes-tonal-centers-and-pitch-collections.md). 1,756 spoken words, approximately 12.1 minutes at 145 words per minute.
-- **010000** — [Chromatic Harmony: Borrowed Colors and Temporary Destinations](010000-chromatic-harmony-and-borrowed-colors.md). 1,730 spoken words, approximately 11.9 minutes at 145 words per minute.
-- **011000** — [Unequal Beats and Interlocking Cycles: Meter Beyond Four](011000-additive-meter-polyrhythm-and-rhythmic-cycles.md). 1,919 spoken words, approximately 13.2 minutes at 145 words per minute.
-- **012000** — [From Sketch to Piece: Variation, Contrast, and Musical Revision](012000-composition-workshop-variation-and-revision.md). 2,430 spoken words, approximately 16.8 minutes at 145 words per minute.
+The first twelve lectures move from musical pattern, pitch and rhythm through harmonic and contrapuntal construction, phrase/form analysis, modal center, chromatic harmony, polyrhythms and revision of a sixteen-bar study. The four new lectures extend this foundation into changes of tonal home, **carefully scoped** cross-cultural comparison, timbre and production, and a complete 48-bar two-line study.
 
-## Course design
+Examples in `examples/` are optional machine-readable companions to some earlier scores. There is no claim that written pitch grids capture the intonation, ornamentation, idiom, or artistic effect of every musical practice. For traditions best transmitted through performance and listening, further training and direct encounters with sound remain essential.
 
-The sequence begins with listening and original sound gestures, introduces a specific named pitch system without equating it to all music, builds metric and rhythmic tools, then integrates melody and harmony in a fully specified miniature. Lectures are standalone for out-of-order listening but cumulative as composition exercises. Every lecture has a spoken region, non-spoken workbook, focused source links, and an individual metadata sidecar.
+## Further work (not indexed as completed)
 
-## Further directions (not indexed as completed work)
+1. Ear-training and score-to-sound correspondence once a reproducible audio-demonstration mechanism exists; first add source-linked original examples and permissioned listening materials.
+2. Comparative tuning, including temperaments and context-dependent microtonality, taught without forcing every musical system into fixed Western keyboard notes.
+3. Deeper contrapuntal techniques, imitation, canon, and multi-voice arrangement.
+4. Contemporary songwriting, production workflows and collaborating with performers, including feedback-led edits to actual sounding work.
+5. Additional large-scale formal types and composition contexts beyond major/minor tonal writing.
 
-1. Counterpoint in more depth, including species exercises, canon, and multi-part imitation.
-2. Alternate tunings and comparative pitch organizations, beyond diatonic Western modes.
-3. Instrumentation, arranging, orchestration, and sound design with case studies.
-4. Extended form: variation sets, theme and variations, song forms, and larger multi-section works.
-5. Electronic music, recording, timbral design, notation, and collaborative performance.
-6. Optional audio demonstrations generated from original, instrument-agnostic event grids.
+## Reference and integrity conventions
 
-**Structured example data:** The [machine-checkable score companion](examples/README.md) encodes seven selected original text scores in rational-beat JSON with a standard-library validator. It checks source-row synchronization and timing, not musical quality. No playable media is included.
-
-The text-only event tables are deliberate: each note has an explicit pitch, attack order, and duration where needed, making later synthesis or MIDI-like rendering possible without inserting binary assets into the course now. No audio preview or player is included or implied.
-
-## Sources and production
-
-Track-specific references are in `metadata/sources.json`, with per-lecture reading suggestions in `metadata/<id>.json`. Sources and exercises stay outside the spoken delimiters. This overlay is restricted to `draft-stages/tts-music-theory/` and does not modify the shared audio reader or any other track. Install it on top of the four-agent baseline that already provides automatic track discovery, then restart the audio server to load the new track.
+- `track.json` lists **only existing** numbered manuscripts; each has one spoken marker pair and a corresponding `metadata/<id>.json` citation sidecar.
+- `metadata/sources.json` records per-track references, including references to musical traditions by specialist sources rather than treating the original classroom exercises as transcriptions.
+- Do not embed copyrighted music or binary audio in overlay ZIPs. Any future sound renderer should use authorized or original material and track the associated musical data and rights.
