@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-to-live-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-tolive-primary",
+      "reason": "English translation published August 2003; novel differs materially from 1994 film."
+    },
+    {
+      "source_id": "ml-tolive-nea",
+      "reason": "Publication as 1993 book, folk-song collector frame, author postscript Old Black Joe inspiration, social history and reception."
+    },
+    {
+      "source_id": "ml-tolive-winship",
+      "reason": "Yu Hua’s formal change to spare first-person narration and substantive differences between novel and film."
+    },
+    {
+      "source_id": "ml-tolive-ucla",
+      "reason": "Translator, 2003 translation publication, 1994 film adaptation and institutional reception."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "015000-c01",
+      "anchor": "The novel was published in book form in 1993",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-tolive-nea",
+        "ml-tolive-primary"
+      ],
+      "source_locator": "1993 book vs 1992 magazine serial; publisher/NEA bibliographic detail",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "015000-c02",
+      "anchor": "James A. Winship, writing about the novel for Education About Asia",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-tolive-winship"
+      ],
+      "source_locator": "Winship’s 2003 review of narration, novel and adaptation",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "015000-c03",
+      "anchor": "Many listeners will know To Live from Zhang Yimou's 1994 film.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-tolive-ucla",
+        "ml-tolive-winship"
+      ],
+      "source_locator": "1994 film and need not substitute its plot for the novel",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "015000-c04",
+      "anchor": "The English translation by Michael Berry was published in 2003",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-tolive-primary",
+        "ml-tolive-ucla"
+      ],
+      "source_locator": "English translation date and translator",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "015000-c05",
+      "anchor": "In a postscript, Yu Hua relates that an American song called Old Black Joe",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-tolive-nea"
+      ],
+      "source_locator": "Documented author postscript inspiration",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

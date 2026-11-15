@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013200",
+  "transcript": "013200-wide-sargasso-sea-the-story.md",
+  "related_resources": [
+    {
+      "source_id": "ml-wide-primary",
+      "reason": "Edition and bibliographic detail; original publication 1966. English-language Caribbean prequel/revision to Jane Eyre."
+    },
+    {
+      "source_id": "ml-wide-plot-spark",
+      "reason": "Independent plot and three-part structure check; Antoinette, Annette, Daniel, Christophine, Grace Poole and final candle."
+    },
+    {
+      "source_id": "ml-wide-plot-litcharts",
+      "reason": "Corroborates Coulibri in Jamaica, Granbois in Dominica, husband unnamed, competing narrators and unresolved on-page fire."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "013200-c01",
+      "anchor": "Antoinette Cosway grows up in Jamaica after the abolition of slavery in the British Empire.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-wide-primary",
+        "ml-wide-plot-spark"
+      ],
+      "source_locator": "Post-emancipation setting, Coulibri and Antoinette childhood",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "013200-c02",
+      "anchor": "Her mother, Annette, is a white Creole woman from Martinique",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-wide-plot-spark",
+        "ml-wide-plot-litcharts"
+      ],
+      "source_locator": "Annette, Antoinette, Pierre, Coulibri",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "013200-c03",
+      "anchor": "The newly married couple travel to Granbois, an estate on the island of Dominica.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-wide-primary",
+        "ml-wide-plot-litcharts"
+      ],
+      "source_locator": "Distinct island settings: Jamaica then Dominica",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "013200-c04",
+      "anchor": "A man calling himself Daniel Cosway writes to the husband.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-wide-plot-litcharts",
+        "ml-wide-plot-spark"
+      ],
+      "source_locator": "Daniel’s letter and changing narrative reliability",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "013200-c05",
+      "anchor": "Then she wakes. She takes a candle and moves toward the stairs.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-wide-plot-litcharts",
+        "ml-wide-plot-spark"
+      ],
+      "source_locator": "Rhys’s final scene, not a narrated completed blaze",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

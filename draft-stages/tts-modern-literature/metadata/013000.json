@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-ceremony-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-ceremony-primary",
+      "reason": "Publication, author, and edition data. The full novel is the primary literary text, not reproduced here."
+    },
+    {
+      "source_id": "ml-ceremony-cambridge-native",
+      "reason": "Silko and the specific Laguna Pueblo relationship between oral and written storytelling and adaptation. Abstract, not full chapter."
+    },
+    {
+      "source_id": "ml-ceremony-cambridge-politics",
+      "reason": "Decolonization, nuclearism, environmental and antiwar politics, ceremony as an evolving literary form. Abstract available."
+    },
+    {
+      "source_id": "ml-ceremony-matsunaga",
+      "reason": "Named author Kyoko Matsunaga (not Katsunori). Nuclear colonialism, uranium, the Southwest and transpacific war."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "013000-c01",
+      "anchor": "Silko's novel was published in 1977.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-ceremony-primary"
+      ],
+      "source_locator": "Original publication year",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "013000-c02",
+      "anchor": "She grew up at Laguna Pueblo,",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-ceremony-primary",
+        "ml-ceremony-cambridge-native"
+      ],
+      "source_locator": "Silko’s biographical and storytelling context",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "013000-c03",
+      "anchor": "The Cambridge Companion to Native American Literature describes Silko's work",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-ceremony-cambridge-native"
+      ],
+      "source_locator": "Published chapter abstract on Laguna storytelling and adaptation",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "013000-c04",
+      "anchor": "Literary scholar Kyoko Matsunaga has read Silko's fiction as dissent from Cold War nuclearism",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-ceremony-matsunaga"
+      ],
+      "source_locator": "Matsunaga, 2014 article, introduction and nuclearism argument",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "013000-c05",
+      "anchor": "Another account in the Cambridge Companion to the Twentieth-Century American Novel and Politics",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-ceremony-cambridge-politics"
+      ],
+      "source_locator": "Publisher abstract on politics, nuclear weapons and decolonization",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

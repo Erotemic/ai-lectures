@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014200",
+  "transcript": "014200-to-live-the-story.md",
+  "related_resources": [
+    {
+      "source_id": "ml-tolive-primary",
+      "reason": "English translation published August 2003; novel differs materially from 1994 film."
+    },
+    {
+      "source_id": "ml-tolive-nea",
+      "reason": "Publication as 1993 book, folk-song collector frame, author postscript Old Black Joe inspiration, social history and reception."
+    },
+    {
+      "source_id": "ml-tolive-plot",
+      "reason": "Crosscheck only for exact novel-only death sequence and character names; subordinate to published and scholarly sources."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "014200-c01",
+      "anchor": "His name is Xu Fugui. The ox is also called Fugui.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-tolive-primary",
+        "ml-tolive-nea"
+      ],
+      "source_locator": "Folk-song collector and ox frame",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "014200-c02",
+      "anchor": "Long Er is condemned and executed.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-tolive-nea",
+        "ml-tolive-plot"
+      ],
+      "source_locator": "Land reform reversal of Fugui’s original loss",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "014200-c03",
+      "anchor": "Youqing is brought in as a donor because his blood type matches.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-tolive-plot",
+        "ml-tolive-primary"
+      ],
+      "source_locator": "Novel-specific son’s death; film changes it",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "014200-c04",
+      "anchor": "Fengxia dies.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-tolive-plot",
+        "ml-tolive-primary"
+      ],
+      "source_locator": "Childbirth death in novel",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "014200-c05",
+      "anchor": "Kugen dies after eating beans that Fugui has given him.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-tolive-plot",
+        "ml-tolive-primary"
+      ],
+      "source_locator": "Final grandson death before Fugui buys an ox",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

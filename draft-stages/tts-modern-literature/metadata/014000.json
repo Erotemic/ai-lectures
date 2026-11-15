@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-wide-sargasso-sea-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-wide-primary",
+      "reason": "Edition and bibliographic detail; original publication 1966. English-language Caribbean prequel/revision to Jane Eyre."
+    },
+    {
+      "source_id": "ml-wide-jane",
+      "reason": "Primary 1847 intertext and Bertha Mason context; do not infer that Rhys narrates the later fire in full."
+    },
+    {
+      "source_id": "ml-wide-madness",
+      "reason": "Contextualizes forms of mental suffering beyond Antoinette alone. Only the abstract was consulted; avoid attributing detailed arguments from inaccessible full article."
+    },
+    {
+      "source_id": "ml-wide-plot-litcharts",
+      "reason": "Corroborates Coulibri in Jamaica, Granbois in Dominica, husband unnamed, competing narrators and unresolved on-page fire."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "014000-c01",
+      "anchor": "Jean Rhys's Wide Sargasso Sea, published in 1966",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-wide-primary"
+      ],
+      "source_locator": "Publication date and relation to Jane Eyre",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "014000-c02",
+      "anchor": "In Charlotte Brontë's Jane Eyre, the woman imprisoned in the attic",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-wide-jane"
+      ],
+      "source_locator": "Primary intertext Jane Eyre",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "014000-c03",
+      "anchor": "The middle section's English husband is unnamed in Rhys's text.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-wide-primary",
+        "ml-wide-plot-litcharts"
+      ],
+      "source_locator": "Narrator anonymity in part two; Rochester is intertextual identification",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "014000-c04",
+      "anchor": "A published study on the historicization of madness in Wide Sargasso Sea",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-wide-madness"
+      ],
+      "source_locator": "Article abstract describing broader constructions of mental disturbance",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "014000-c05",
+      "anchor": "Rhys does not stage the fire as a finished spectacle viewed from a safe distance.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-wide-primary",
+        "ml-wide-plot-litcharts"
+      ],
+      "source_locator": "Distinction between Rhys ending and Jane Eyre later events",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
