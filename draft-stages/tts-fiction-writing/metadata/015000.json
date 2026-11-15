@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-hypertext-interactive-fiction-and-reader-agency.md",
+  "related_resources": [
+    {
+      "source_id": "fw-modern-montfort",
+      "reason": "Parser-based IF history and its relation to literary art and games."
+    },
+    {
+      "source_id": "fw-modern-rettberg",
+      "reason": "Hypertext fiction community and Storyspace history distinct from text games."
+    },
+    {
+      "source_id": "fw-modern-twine",
+      "reason": "Twine nonlinear HTML story tooling, choices, passages and variables."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "015000-c01",
+      "anchor": "Nick Montfort's Twisty Little Passages, published in 2003",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "fw-modern-montfort",
+        "fw-modern-rettberg"
+      ],
+      "source_locator": "source linked under related_resources; claim phrased within the limits of the available source",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
