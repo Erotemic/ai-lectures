@@ -66,3 +66,14 @@ metadata sidecars. No claim of measured developmental efficacy.
 - 021000 — Tavi's Nest of Soft Things: tactile trial-and-error with a supportive adult, comforting closure.
 
 **Quality rule:** Fun and a satisfying bedtime close are sufficient. Keep caregiver sources precise and outside narration. Claims about benefits from hearing any of these exact manuscripts require research we have not performed. No fixed lecture/story duration target.
+
+## Added: 022000–027000 — imaginative worlds outside the woodland
+
+- 022000 — Underwater pebble-and-bubble garden; playful, no assigned moral.
+- 023000 — A cloud's seven pockets and an accidentally collected yawn; cumulative fantasy.
+- 024000 — A reflected star changes with a leaf and breeze; small observation mystery.
+- 025000 — A very tall hat in a miniature mushroom village; size-based comedy.
+- 026000 — Bedroom toy train to Pillow Mountain; explicitly pretend and calmly resolved.
+- 027000 — Friendly cave echo heard from outside with a trusted adult; wordplay and quiet listening.
+
+All six remain original, one-narrator fiction for ages 3–4 (primarily three). Parent references are direct and scoped to the editorial approach; the story texts are not presented as developmental intervention evidence. No set length policy, audiovisual dependency, or moral requirement.

@@ -36,7 +36,14 @@ course browser; each story sidecar repeats genre and age-range metadata.
 | 019000 | [Hazel's Museum of Ordinary Things](019000-hazels-museum-of-ordinary-things.md) | Hazel opens a tiny museum containing a stone, a leaf window, a pine cone, and a surprise gift shop. |
 | 020000 | [Otis and the Leaf Umbrella](020000-otis-and-the-leaf-umbrella.md) | Otis enjoys the rain, Pip dislikes wet socks, and a broad leaf makes the walk home easier. |
 | 021000 | [Tavi's Nest of Soft Things](021000-tavis-nest-of-soft-things.md) | Tavi searches for a comfy resting spot, testing grass and a crinkly leaf with help from Mama Bird. |
-## Parents' rationale and citations (004000–021000)
+| 022000 | [Luma and the Underwater Garden](022000-luma-and-the-underwater-garden.md) | Luma the octopus builds a sand garden with pebbles, ribbons of seaweed, and bubbles that keep rising. |
+| 023000 | [Puff and the Too-Many Pockets](023000-puff-and-the-too-many-pockets.md) | A cloud with seven pockets collects a paper crown, a cookie, a feather, and even a yawn. |
+| 024000 | [Reed and the Star in the Pond](024000-reed-and-the-star-in-the-pond.md) | Reed the otter notices a star reflected in the pond and follows changes when a leaf and breeze pass. |
+| 025000 | [The Tallest Hat in Mushroom Village](025000-the-tallest-hat-in-mushroom-village.md) | A beetle builds a hat too tall for any doorway; it becomes a strange little roof for village visitors. |
+| 026000 | [The Night Train to Pillow Mountain](026000-the-night-train-to-pillow-mountain.md) | A child imagines a wooden train traveling over Button Bridge through Blanket Meadow to a pillow-shaped mountain. |
+| 027000 | [The Cave That Giggled Back](027000-the-cave-that-giggled-back.md) | Fern the little goat and Grandpa discover a soft echo outside a shallow cave, then settle into listening. |
+
+## Parents' rationale and citations (004000–027000)
 
 [**A quiet guide for parents and caregivers**](PARENTS_GUIDE.md) explains the
 earlier developmental themes and newer play-first stories, gives optional
@@ -54,7 +61,7 @@ that our stories have been tested or cause measured learning outcomes.
 The original three pilot stories (001000–003000) remain unchanged and are
 original fiction without claimed developmental intervention effects.
 
-The **twenty-one** stories require no character-specific synthesized voices: dialogue
+The **twenty-seven** stories require no character-specific synthesized voices: dialogue
 is reported by the narrator, or is absent. The stories are not required to
 have a particular duration. They stand alone even though one includes a small
 cross-story reference.
@@ -65,9 +72,9 @@ The exact TTS text is between the `BEGIN SPOKEN LECTURE` and `END SPOKEN
 LECTURE` markers. Author companions below the end marker give reading notes
 and explain what the story is trying to accomplish. They are **not** spoken.
 
-All twenty-one manuscripts are newly authored original fiction. They do not adapt
+All twenty-seven manuscripts are newly authored original fiction. They do not adapt
 published plots or reuse external story text. `metadata/sources.json` holds
-parent-facing developmental and play references for 004000–021000 only. Original
+parent-facing developmental and play references for 004000–027000 only. Original
 fictional descriptions and bedtime choices should not be misrepresented as
 scientific findings about childhood development.
 
@@ -84,3 +91,7 @@ remains comfortable near bedtime, and whether the ending feels complete.
 Ask caregivers for feedback without treating subjective preferences as
 universal outcomes. Avoid requiring images, character voices, background
 music, or sound effects to understand the story.
+
+## Added: 022000–027000 — different imagined places
+
+The six new manuscripts shift among an underwater garden, a cloud's pockets, a reflected star, a miniature mushroom village, a bedroom train journey, and a cave's echo. These are mostly **fun-first** stories. A few contain simple observation questions within the plot; none has an assigned moral. The single narrator, age-range labeling, direct caregiver source links, and separation of spoken fiction from parent notes remain unchanged.

@@ -1,7 +1,7 @@
 # A quiet guide for parents and caregivers
 
 **Collection:** Children's Bedtime Stories (Ages 3–4; primarily age three)  
-**Covers:** Stories `004000`–`021000`  
+**Covers:** Stories `004000`–`027000`  
 **Audience:** Adults. **None of this document is TTS narration.**
 
 ## What these stories are for
@@ -54,6 +54,19 @@ This batch keeps the same single narrator and the same **ages 3–4** classifica
 | [019000 — Hazel's Museum of Ordinary Things](019000-hazels-museum-of-ordinary-things.md) | A stone, a leaf, and a pine cone become museum treasures | What ordinary thing belongs in your imaginary museum? | [NAEYC observation questions][NAEYC-STEAM] and [AAP play][AAP-PLAY] inform the approach. **The museum is fictional, and no learning gain has been measured**. |
 | [020000 — Otis and the Leaf Umbrella](020000-otis-and-the-leaf-umbrella.md) | Otis enjoys the rain while Pip wishes his socks were dry | Do you like rain sounds or dry socks? | [AAP on emerging social sensitivity][AAP-SOCIAL] and [ZERO TO THREE early perspectives][ZTT-THINKING] provide context, **not proof that the story changes empathy**. |
 | [021000 — Tavi's Nest of Soft Things](021000-tavis-nest-of-soft-things.md) | Tavi experiments with dry grass and a crinkly leaf to make her resting spot comfortable | Which part of your bed feels coziest? | [Harvard p. 6 on support and changing play plans][HARVARD-EF] and [ZERO TO THREE on coaching][ZTT-FRUSTRATION] motivate the adult's gentle involvement. **The bird is fictional; this is not wild-bird-care advice**. |
+
+## Stories 022000–027000: new places and small wonders
+
+All six stories are complete without a teaching objective; **no story is assigned a moral**. The links explain age-related practices such as imaginative play, shared noticing, and open-ended questions. They are *not* research testing this fiction or its effects on sleep, judgment, or resilience. Even a silent response is fine; these questions are optional and need not be asked at bedtime.
+
+| Story | Fun or discovery | Optional caregiver question | Related guidance and what it does **not** establish |
+| --- | --- | --- | --- |
+| [022000 — Luma and the Underwater Garden](022000-luma-and-the-underwater-garden.md) | An octopus builds a garden of pebbles and bubbles that float upward | Which funny thing belongs in a pretend underwater garden? | [AAP (2022), *Young Children Learn a Lot When They Play*][AAP-PLAY] encourages imagination; [NAEYC (2020), *Questioning*][NAEYC-STEAM] suggests open observation. Neither validates the story or the imagined sea life. |
+| [023000 — Puff and the Too-Many Pockets](023000-puff-and-the-too-many-pockets.md) | A cloud's seven pockets overflow with small, silly objects, including a yawn | What would you put in a cloud's pocket? | [CDC (2026), *Milestones by 3 Years*, Parenting Tips][CDC-3] describes songs, rhymes, and counting games; [AAP play guidance][AAP-PLAY] discusses pretending. No effect on counting ability or sleep is claimed. |
+| [024000 — Reed and the Star in the Pond](024000-reed-and-the-star-in-the-pond.md) | An otter notices a star's reflection disappearing behind a drifting leaf | Where else can you see a picture without drawing it? | [NAEYC (2020), *Questioning*][NAEYC-STEAM] describes asking what a child notices; [CDC (2026)][CDC-3] suggests simple book questions. Not a scientific optics lesson or water-safety instruction. |
+| [025000 — The Tallest Hat in Mushroom Village](025000-the-tallest-hat-in-mushroom-village.md) | A hat too tall to wear becomes a village landmark | What would you wear for a very silly hat? | [AAP play guidance][AAP-PLAY] encourages imaginative materials; [CDC (2026)][CDC-3] suggests size/opposites games. No measurement outcome is claimed. |
+| [026000 — The Night Train to Pillow Mountain](026000-the-night-train-to-pillow-mountain.md) | A toy train crosses three imagined places and returns to a familiar bedroom | Where could a small pretend train go? | [CDC (2026)][CDC-3] suggests story conversations and pretend play; [AAP play guidance][AAP-PLAY] discusses imagination. No evidence that the train story helps a child sleep. |
+| [027000 — The Cave That Giggled Back](027000-the-cave-that-giggled-back.md) | A goat hears her own words come back and listens to quieter sounds | Which quiet sound did Fern hear? | [NAEYC, Rebecca Parlakian (2020), *Fostering Curiosity*][NAEYC-CURIOSITY] discusses noticing changes; [CDC (2026)][CDC-3] discusses songs and rhymes. Not a measured intervention or invitation to explore caves. |
 
 ### About these citations
 
