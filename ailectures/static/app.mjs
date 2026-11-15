@@ -3,6 +3,7 @@ import { Player } from "./player.mjs";
 import { reviewFeedback } from "./feedback.mjs";
 import { ListeningQueue } from "./queue.mjs";
 import { speechSegments } from "./transcript.mjs";
+import { showStorage } from "./storage.mjs";
 import {
   legacyPositions,
   approximateLegacyPosition,
@@ -949,8 +950,9 @@ function packsPage() {
       ...catalog.packs.map((pack) =>
         el(
           "article",
-          { class: "card" },
+          { class: "card", "data-pack": pack.id },
           el("h3", { text: pack.title }),
+          el("p", { "data-coverage": "", class: "muted" }),
           el("p", { text: pack.id }),
           el("span", {
             class: "badge",
@@ -976,6 +978,9 @@ function packsPage() {
       ),
     ),
   );
+  const storage = el("section", { class: "section" });
+  main.append(storage);
+  showStorage(storage, main, catalog);
   const path = el("input", {
     type: "text",
     placeholder: "/path/to/pack-or-archive.zip",

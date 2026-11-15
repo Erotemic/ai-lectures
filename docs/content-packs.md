@@ -45,6 +45,38 @@ loader. Without that override, a source checkout uses the shared configuration
 and its ignored machine-local overlay. Private endpoints and reference material
 remain local. No browser can choose an arbitrary TTS endpoint.
 
+## Storage and backups
+
+Packs shows lecture/audio coverage and narration counts. Its storage section
+separates active releases, retained history, personal state, build caches, exported
+copies, and unregistered pack files. Accounting runs on request and does not
+synthesize audio or validate lecture content.
+
+```bash
+python -m ailectures --library /path/to/library storage
+python -m ailectures --library /path/to/library backup /path/to/library-backup.zip
+python -m ailectures --library /path/to/new-library restore /path/to/library-backup.zip
+```
+
+A library backup includes installed releases and durable state: listener profiles,
+progress, queues, feedback, catalog history, and preparation requests. SQLite
+snapshots include committed database data while the server runs. Restore uses a
+new or empty directory and supports a different machine/path. Immutable recording
+URLs retain their identity. Missing retained files are reported in the backup
+receipt; available data still backs up.
+
+Authored files in the repository remain a separate backup concern. Preserve them
+with Git or the source ZIP workflow; export their packs when moving to a reader
+without the checkout. Unregistered/staged candidates and duplicate `exports/`
+are not included in a library backup. Keep those separately when needed.
+
+Removing a pack disables discovery and retains media required by old playback,
+feedback, and history. Automatic media garbage collection remains deferred.
+`build-cache/` can be cleared with the server and preparation workers stopped;
+completed recordings in installed packs remain available. Clearing build work can
+require unfinished preparations to synthesize their missing pages again. The old
+repository `audio-cache/` is preserved and is not part of this cleanup policy.
+
 ## Author an independent source pack
 
 Use a namespace that does not conflict with an existing pack. Numeric local IDs

@@ -338,9 +338,19 @@ class PackStore:
             with self.connect() as connection:
                 return self.active(connection)
         return [
-            dict(r) for r in db.execute("""SELECT r.* FROM releases r JOIN selections s
+            self.release_row(r)
+            for r in db.execute("""SELECT r.* FROM releases r JOIN selections s
                 ON r.release=s.release WHERE s.enabled=1 ORDER BY r.pack_id""")
         ]
+
+    def release_row(self, row):
+        # Library roots can move between machines or be restored from backup.
+        # Pack identity, rather than an old machine's absolute path, owns lookup.
+        row = dict(row)
+        name(row["pack_id"])
+        checksum(row["release"])
+        row["directory"] = str(self.packs / row["pack_id"] / row["release"])
+        return row
 
     def compose(self, rows):
         result = dict(
@@ -596,6 +606,7 @@ class PackStore:
             ).fetchone()
         if row is None:
             raise KeyError("Unknown historical release")
+        row = self.release_row(row)
         lecture = json.loads(row["catalog"])["lectures"][lecture_id]
         return lecture, Path(row["directory"])
 
@@ -608,6 +619,7 @@ class PackStore:
             ).fetchone()
         if row is None:
             raise KeyError("Unknown release")
+        row = self.release_row(row)
         catalog = json.loads(row["catalog"])
         for lecture in catalog["lectures"].values():
             for rec in lecture.get("recordings", []):

@@ -133,6 +133,13 @@ def create_app(
             headers={"Cache-Control": "no-store"},
         )
 
+    def storage(request):
+        from .storage import storage_summary
+
+        return JSONResponse(
+            storage_summary(library.store), headers={"Cache-Control": "no-store"}
+        )
+
     def lecture(request):
         key = qualified(request.path_params["lecture_id"])
         snapshot = library.snapshot()
@@ -419,6 +426,7 @@ def create_app(
     ]
     routes += [
         Route("/api/library/catalog", catalog),
+        Route("/api/library/storage", storage),
         Route("/api/library/lectures/{lecture_id}/transcript.txt", transcript),
         Route("/api/library/lectures/{lecture_id}", lecture),
         Route("/api/library/media/{release}/{recording}/{index:int}", media),

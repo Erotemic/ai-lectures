@@ -74,6 +74,11 @@ def main(argv=None):
     validate = commands.add_parser("validate")
     validate.add_argument("path", type=Path)
     commands.add_parser("list")
+    commands.add_parser("storage")
+    backup = commands.add_parser("backup")
+    backup.add_argument("output", type=Path)
+    restore = commands.add_parser("restore")
+    restore.add_argument("path", type=Path)
     feedback_export = commands.add_parser("feedback-export")
     feedback_export.add_argument("output", type=Path)
     feedback_export.add_argument("--lecture")
@@ -164,6 +169,22 @@ def main(argv=None):
                     print(f'{lecture_id}: published {job["published"]}', flush=True)
             finally:
                 manager.close()
+        elif args.command == "backup":
+            from .storage import backup_library
+
+            print(
+                json.dumps(
+                    backup_library(PackStore(args.library), args.output), indent=2
+                )
+            )
+        elif args.command == "restore":
+            from .storage import restore_library
+
+            print(restore_library(args.path, args.library))
+        elif args.command == "storage":
+            from .storage import storage_summary
+
+            print(json.dumps(storage_summary(PackStore(args.library)), indent=2))
         elif args.command == "validate":
             print(json.dumps(load_release(args.path)["manifest"], indent=2))
         elif args.command == "install":

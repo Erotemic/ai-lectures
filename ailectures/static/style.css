@@ -422,6 +422,9 @@ dialog p {
   margin: 1rem 0;
   color: var(--muted);
 }
+code {
+  overflow-wrap: anywhere;
+}
 pre {
   white-space: pre-wrap;
   overflow-wrap: anywhere;
