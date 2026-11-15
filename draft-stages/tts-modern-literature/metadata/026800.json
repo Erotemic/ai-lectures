@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "lecture_id": "026800",
+  "transcript": "026800-lotr-language-ruins-and-deep-time.md",
+  "related_resources": [
+    {
+      "source_id": "ml-lotr-primary",
+      "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+    },
+    {
+      "source_id": "ml-lotr-hostetter",
+      "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+    },
+    {
+      "source_id": "ml-lotr-fimi",
+      "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+    },
+    {
+      "source_id": "ml-lotr-marquette",
+      "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+    },
+    {
+      "source_id": "ml-lotr-manuscript-exhibit",
+      "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "026800-c01",
+      "anchor": "Carl Hostetter, writing for the Tolkien Estate, explains the long development of Tolkien's Elvish languages",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-lotr-hostetter"
+      ],
+      "source_locator": "Elvish construction and linguistic chronology",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026800-c02",
+      "anchor": "Within Tolkien's fictional frame, the common language used by many characters is called Westron.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-lotr-primary",
+        "ml-lotr-hostetter"
+      ],
+      "source_locator": "Translation conceit, Appendix F",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026800-c03",
+      "anchor": "The barrow-blades offer a particularly elegant example.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-lotr-primary"
+      ],
+      "source_locator": "Old Forest to Pelennor historical consequence",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026800-c04",
+      "anchor": "At Marquette University, researchers can study different drafts and revisions of The Lord of the Rings.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-lotr-marquette"
+      ],
+      "source_locator": "Manuscript archive",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026800-c05",
+      "anchor": "The Silmarillion appeared after Tolkien's death through the editorial work of his son Christopher.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-lotr-fimi"
+      ],
+      "source_locator": "Posthumous text and changing mythology",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

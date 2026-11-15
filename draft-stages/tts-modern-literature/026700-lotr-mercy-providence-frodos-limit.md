@@ -1,0 +1,47 @@
+# The Lord of the Rings: Mercy, Chance, and Frodo's Limit
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+If we told the story of the Ring in the form most heroic adventures encourage, its final moment would be simple. The small traveler would reach the fire, summon the last strength of his will, and choose to destroy the thing he has carried so far. The victory would prove that courage, made sufficiently pure, can overcome every temptation. Tolkien does something more difficult. Frodo reaches the place, and he cannot surrender the Ring. The great project succeeds because another creature takes it and falls.
+
+The event matters so much because the rest of the novel has not prepared us to despise Frodo. It has shown the ordinary fear from which his courage grew, the burden he accepted without claiming mastery, the patience he extended to a miserable enemy, and the gradual exhaustion of every resource of his body and mind. To call his final act a failure is descriptively unavoidable: he does not do what he came to do. To make it the total judgment of his character is to ignore how the story has taught us to evaluate endurance.
+
+Tolkien addressed precisely this question in a letter to Eileen Elgar in 1963. He argued that Frodo had reached a limit no embodied person could reasonably be expected to surpass after such deprivation and prolonged pressure. The letter distinguishes the ideal toward which we should strive from the standards by which we judge another person's capacities under circumstances we scarcely comprehend. Tolkien did not erase Frodo's action. He refused to treat the action as evidence that all of Frodo's earlier choices had been meaningless. That is a much harder moral argument than saying heroes never fail.
+
+## Why Gollum survives long enough to matter
+
+Early in the novel Frodo listens to Gandalf explain who Gollum is. The creature was once a person with some ordinary life, though he was capable of killing to obtain the Ring. Centuries of possession have distorted him. He has become furtive, jealous, terrified of losing the only object around which his thoughts have organized themselves. Frodo's response is understandable: surely this dangerous being would be better dead. Gandalf questions whether Frodo has sufficient knowledge to make so final a judgment. The possibility that Gollum still has a part to play is neither a prediction of useful service nor a command to trust him.
+
+The distinction is crucial. Mercy offered only because a person may later prove useful is closer to strategic investment than to mercy. Gandalf asks Frodo to recognize the limits of his right to dispose of another life. The practical results become visible only much later. Gollum survives and becomes their guide. His knowledge makes possible a route through the marshes and around the Black Gate. His betrayal also leads to Shelob. He is both indispensable and dangerous, a person whose suffering does not erase his responsibility for harm.
+
+Frodo's treatment of Gollum is not sentimental. He watches him, binds him with a promise, and sometimes speaks sternly about what will happen if the pledge is broken. But he also calls him by the personal name Sméagol and insists that Sam see something other than a beast to be despised. His patience comes partly from identifying with a creature made miserable by the same burden he now bears. Frodo cannot know whether a recovery is possible; he can act without foreclosing it.
+
+Sam sees the threat more directly. He is not wrong that Gollum is untrustworthy. Sam's task is to keep Frodo alive, and he has seen the guide's hunger for the Ring in a way Frodo sometimes seems to overlook. Yet the narrative allows Sam's protection to become impatience and contempt. On the stairs leading toward Shelob, there is a moment when Gollum sees the sleeping hobbits and comes close to a gesture of tenderness. Sam wakes, suspects an attack, and drives him away with harsh words. The possibility of turning back from betrayal recedes. Tolkien later reflected on this moment as a genuine moral turning point, while also recognizing that Sam's exhausted fear made his reaction comprehensible.
+
+We should not convert that reflection into a courtroom verdict saying that Sam alone caused every death or that Gollum would certainly have been redeemed. The text leaves room for a brief possibility, not a guaranteed alternate timeline. Gollum's own craving is present before and after the encounter. What matters is that our treatment of another person's first hesitant movement toward goodness can affect whether that movement survives. A justified suspicion does not make every expression of contempt wise.
+
+## Providence is not a replacement for choice
+
+A reader may describe the fall into Mount Doom as chance. Gollum, overwhelmed by possession, rejoices and loses his footing. Nothing in the visible mechanics requires a person to reach out and push him. But the story also builds a pattern of consequences from earlier choices. Bilbo spared Gollum. Gandalf counseled pity. Frodo repeatedly resisted the impulse to punish or discard the guide. Sam, even at the edge of Mount Doom, finally refrained from killing Gollum when he had the chance. The ending does not make those decisions morally valuable only because they happened to help achieve victory. It shows how human purposes can be exceeded by their consequences.
+
+Tolkien's theological imagination gives a name to the possibility that events may have meaning beyond the plans of the characters: providence. That does not mean that every cruelty has been secretly justified or that individuals are chess pieces moved without responsibility. The same novel depicts Boromir choosing wrongly, then choosing to defend the hobbits; Faramir refusing a tempting weapon; Denethor surrendering to despair; and Gollum capable of betraying someone who has shown him pity. Choice is not dissolved. The plot is interested in how choices have consequences their makers cannot calculate.
+
+Providence here is not a permission slip for passivity. Frodo cannot sit in Bag End waiting for destiny to carry the Ring to the fire. Gandalf cannot stay home and assume the right outcome will happen. Sam spends himself in work that could still have ended in disaster. Their agency remains necessary even though it cannot guarantee the result. The novel allows moral effort to be both indispensable and insufficient.
+
+There is a temptation to turn the story into a neat proof that mercy always pays. It does not. Mercy may expose someone to further danger. It may be exploited. Frodo's life with Gollum is a repeated demonstration of that risk. The ethical question is whether another person's guilt gives us unlimited authority over their future. Tolkien's answer involves judgment, prudence, and a reluctance to claim final knowledge of an entire life.
+
+## Why the ending cannot be simple restoration
+
+Frodo survives the collapse of Mordor. He is publicly honored. He lives to see the world he helped preserve. And yet he cannot simply recover the Shire as the person who departed it. The attack at Weathertop, the encounter with Shelob, and the long possession of the Ring have left injuries that flare after the apparent victory. He wishes his friends happiness and actively helps restore their home, but a place can be saved without becoming a cure for what saving it cost.
+
+This is often treated as a sad coda attached to a happy adventure. It is more central than that. If Frodo emerged completely healed by applause, the narrative would suggest that sacrifices can be refunded through recognition. Tolkien gives Sam a homecoming shaped by gardens, love, family and civic repair. Frodo receives care, gratitude and a place in the account, but not the same future. The two endings stand beside one another rather than cancelling each other. Healing is not identical for everybody, and the good of the world does not require that every survivor must be able to pronounce the price worthwhile.
+
+The departure from the Grey Havens is neither the same as dying nor the ordinary prospect of sailing to another country for a new career. Within Tolkien's fictional cosmology it is an extraordinary leave-taking connected with the Elves and their departing age. Its emotional force lies in the fact that Frodo cannot remain. Sam's return to Rosie and their children does not mean that he understands Frodo's pain less deeply. It means he honors their bond by continuing the life they meant to protect.
+
+This returns us to the fire. The crucial moral events are not confined to the last instant. A hero who could always do the right thing under infinite pressure would be less interesting than a person who acts well for as long as his strength allows, and then depends on the mercy that he offered when he still had a choice. The novel's victory is not the triumph of invulnerability. It is the achievement of finite, interdependent lives whose best actions remain meaningful even when the final outcome exceeds their control.
+
+<!-- END SPOKEN LECTURE -->
+
+## Evidence note
+
+For Frodo's limit and the role of mercy, the central authorial source is Tolkien's September 1963 letter to Eileen Elgar, reproduced by the Tolkien Estate. The interpretations of Sam's behavior, Gollum's possibilities, and providence are tied to the published novel; a retrospective authorial letter is evidence of Tolkien's view, not proof that every reader must adopt it. See `metadata/026700.json`.

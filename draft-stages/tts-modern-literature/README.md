@@ -1,6 +1,6 @@
 # 20th-Century Literature: Story, Then Analysis
 
-The track currently covers **twenty-six novels**. For each, a single continuous plot-orientation lecture comes immediately before a critical interpretation. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
+The track currently covers **twenty-seven literary works** (one receives extended multi-lecture treatment). For each, a single continuous plot-orientation lecture comes immediately before a critical interpretation. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
 
 ## Scope and the latest expansion
 
@@ -68,3 +68,23 @@ These pairs add more widely read twentieth-century fiction, alongside rather tha
 ## Further blind spots and familiar classics
 
 Choose a specific work and verify its primary plot and historical context before drafting. Candidates for further units include Clarice Lispector's *The Hour of the Star* (Brazilian Portuguese), *Nervous Conditions* (Zimbabwean women's experience), James Baldwin's *Giovanni's Room*, and Milan Kundera's Czech-language fiction are now covered. Further candidates include Clarice Lispector's *The Hour of the Star* (Brazilian Portuguese), Yasunari Kawabata's *Snow Country*, and works from Southeast Asian and Middle Eastern traditions. The purpose is to add perspectives and literary techniques the existing selections have not taught, not to fill a numerical quota. Each selected work gets its **own full story lecture followed by analysis**, packaged as a single independently applicable Agent A ZIP.
+
+## Special treatment: Tolkien's *The Lord of the Rings*
+
+**`026200`–`027200` — eleven dedicated lectures.** Tolkien's novel is one continuous work internally arranged in six books and published in three volumes. We use those volume boundaries as natural narrative divisions, rather than splitting at an arbitrary speaking duration:
+
+- `026200`: an accessible entrance to Middle-earth without requiring *The Hobbit* or lore familiarity
+- `026300`: *The Fellowship of the Ring*, complete story of Books I–II, including Bombadil and the Barrow-downs
+- `026400`: *The Two Towers*, Books III–IV, both the Rohan/Isengard and Frodo/Sam branches
+- `026500`: *The Return of the King*, Books V–VI, including the Paths of the Dead in the novel, the Scouring of the Shire, and the Grey Havens
+- `026600`: the Ring and the corruption of apparently virtuous political aims
+- `026700`: mercy, Gollum, providence and Frodo's limit, grounded in Tolkien's correspondence
+- `026800`: languages, ruins and how deep time becomes perceptible
+- `026900`: fellowship, class, service and friendship across inherited hostility
+- `027000`: war, environmental injury, the Scouring and the different possibilities of return
+- `027100`: kingship, gender, peoples, the moral status of Orcs and the representation of outsiders
+- `027200`: the creation of the book, philology, interlacing, fantasy inheritance and Tolkien's rejection of one-to-one allegory
+
+This is a single literary work, not three separate novels. The narrator introduces geography and characters when needed; the plot lectures contain full spoilers and run in sequence *before* criticism. The analysis lectures are thematically self-contained after that context. No rigid length target or word quota was used. Metadata lengths describe the files after authoring.
+
+Historical and bibliographic anchors include the Tolkien Estate, manuscript records at Marquette, primary Tolkien correspondence, Carl Hostetter's philological scholarship, Dimitra Fimi's published account of the legendarium, Vincent Ferré on contemplative pacing, the 2022 academic companion, and environmental scholarship. Sources restricted to public abstracts are explicitly marked; claims from the primary novel are differentiated from authorial intention and our own interpretation. This pack changes no shared code or any other agent's content.

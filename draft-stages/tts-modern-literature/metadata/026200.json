@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "lecture_id": "026200",
+  "transcript": "026200-lord-of-the-rings-before-the-road.md",
+  "related_resources": [
+    {
+      "source_id": "ml-lotr-primary",
+      "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+    },
+    {
+      "source_id": "ml-lotr-estate-history",
+      "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+    },
+    {
+      "source_id": "ml-lotr-fimi",
+      "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+    },
+    {
+      "source_id": "ml-lotr-sixbooks",
+      "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+    },
+    {
+      "source_id": "ml-lotr-ferre",
+      "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "026200-c01",
+      "anchor": "The Lord of the Rings is one long novel, though its original publishers released it in three volumes:",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-lotr-estate-history"
+      ],
+      "source_locator": "Three volumes, six internal books",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026200-c02",
+      "anchor": "The story takes place near the end of what its inhabitants call the Third Age.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-lotr-fimi",
+        "ml-lotr-primary"
+      ],
+      "source_locator": "Secondary world chronology",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026200-c03",
+      "anchor": "The Ring belongs to a program of control:",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-lotr-primary",
+        "ml-lotr-sixbooks"
+      ],
+      "source_locator": "The Ring and its moral purposes",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026200-c04",
+      "anchor": "Tolkien changes scale and register.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-lotr-ferre",
+        "ml-lotr-holmes"
+      ],
+      "source_locator": "Narrative texture and interlace",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
