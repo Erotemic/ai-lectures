@@ -2,8 +2,8 @@
 
 **Agent:** B (exclusive track owner)  
 **Scope:** `draft-stages/tts-comedy-history/**` and this agent's planning namespace  
-**Status:** An extended `030500` orientation plus eleven completed modern audio-first lectures, IDs `031000`–`041000`, based on the prior six-lecture comedy track.  
-**Baseline requirement:** Apply the previous Agent B overlay `003000`–`006000` first; the previous two Agent B modern-school overlays (031000–037000 and 030500) must also be applied before this overlay. The current manifest lists all 18 manuscripts.
+**Status:** An extended `030500` orientation plus fifteen completed modern audio-first lectures, IDs `031000`–`045000`, based on the prior six-lecture comedy track.  
+**Baseline requirement:** Apply the previous Agent B overlay `003000`–`006000` first; the previous two Agent B modern-school overlays (031000–037000 and 030500) must also be applied before this overlay. The current manifest lists all 22 manuscripts.
 
 ## Why a separate high-number sequence?
 
@@ -61,3 +61,20 @@ The lecture is a substantial standalone orientation, written to precede and not 
 ## Additional manuscripts completed (038000–041000)
 
 This batch develops four distinct approaches with original continuous scenes, practical revision exercises, claim-specific sidecars, and an updated per-track bibliography. The previous `030500` introduction and 001000–037000 manuscripts are preserved without rewriting. No other agent namespace or shared reader code is modified.
+
+## Improvisation and script-writing schools: delivered 042000–045000
+
+| Lecture | Intellectual focus | Boundaries of the comparison |
+|---|---|---|
+| 042000 | Spolin's theater games and Johnstone's status/spontaneity work | Collaboration is not unconditional consent; a scene can feature characters saying no while the actors accept a shared world. Neither system constitutes a law of humor. |
+| 043000 | Compass Players, Second City, ensemble devising, satirical revue | Training, improvisational discovery, editing, and a polished revue are distinct stages; institutional lineages do not imply a single inventor. |
+| 044000 | Close and Halpern's Harold, iO long form, UCB's game of the scene | A scenic comic game is not the same thing as the Harold's group-game segment. Structure varies by troupe; long form and game analysis can coexist. |
+| 045000 | Napier / Annoyance, character choice, sketch construction, revision | No school is asserted to have universal priority. Alternative endings demonstrate how premise, character, physical action, and audience recognition differ. |
+
+Each recording stands alone, includes a recurring, original example, traces its school without mythologizing founders, compares a failure case, and ends with a worked writing exercise. Sources are in the comedy track's bibliography; per-lecture claims identify which history and research records are being relied on. Spoken passages contain no URLs, citations, unsupported measurements, or source-management commentary.
+
+**Dependencies:** This batch assumes the four earlier Agent B overlays have been installed, ending at 041000. The ZIP replaces the existing per-track manifest and per-track bibliography with updated complete versions and adds the four new manuscripts plus four sidecars. No other agent's files or shared reader code are included.
+
+## Editorial length rule
+
+There is no target duration, minimum length, maximum length, or soft target. Each topic determines the amount of explanation, evidence, comparison, and worked practice it needs. Displayed spoken-word counts and minute estimates describe the finished manuscript; they are not rules. Future lectures should be expanded or shortened only to improve substance and pacing.

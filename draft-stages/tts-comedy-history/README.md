@@ -1,6 +1,6 @@
 # Comedy: Theory, History, and Craft
 
-**Current collection:** 18 substantive, standalone audio-first manuscripts, including an extended modern theory sequence.
+**Current collection:** 22 substantive, standalone audio-first manuscripts, including an extended modern theory sequence.
 
 ## Completed lectures
 
@@ -33,9 +33,23 @@ These lectures add material on performance, reception, politics and contemporary
 - 040000: [Does Satire Change Anyone's Mind? The Political Comedy Research Debate](040000-satire-and-its-measurable-effects.md) (2,479 spoken words; approximately 17.1 minutes).
 - 041000: [Can a Joke Be Sincere? Post-Irony, New Sincerity, and Metamodern Comedy](041000-new-sincerity-post-irony-and-metamodern-comedy.md) (2,809 spoken words; approximately 19.4 minutes).
 
+
+## Improvisation theory and competing writing schools (042000–045000)
+
+The minutes shown in this index are descriptive listening-time estimates calculated from the completed spoken text, not duration targets or constraints on the author. Content determines length.
+
+These four completed modern-school lectures focus on performance practice, script-making, and the limits of popular improv slogans. They are independent of the reserved historical IDs 007000–030000.
+
+- 042000: [What Does Yes, And Actually Mean? Spolin, Johnstone, and the Grammar of Agreement](042000-spolin-johnstone-and-the-grammar-of-agreement.md) (2,265 spoken words; approximately 15.6 minutes).
+- 043000: [The Second City Workshop: From a Living Scene to a Written Satirical Revue](043000-second-city-and-the-satirical-revue.md) (2,176 spoken words; approximately 15.0 minutes).
+- 044000: [The Harold and the Game of the Scene: Del Close, iO, and the Long-Form Argument](044000-del-close-harold-and-the-game-of-the-scene.md) (2,323 spoken words; approximately 16.0 minutes).
+- 045000: [The Writer's Improv Laboratory: Annoyance, Sketch, and Competing Ways to Build a Joke](045000-annoyance-sketch-and-writing-as-experiment.md) (2,500 spoken words; approximately 17.2 minutes).
+
+The spoken examples are all invented. Documented professional lineages are anchored to publisher and institution records plus contemporary research on improvisational emergence.
+
 ## Planned continuation
 
-The historical deep dives 003000–006000 are complete. The remaining proposed historical and craft episodes are 007000–030000; the modern theory sequence currently runs through 041000.
+The historical deep dives 003000–006000 are complete. The remaining proposed historical episodes are 007000–030000; the modern theory sequence now runs through 045000.
 
 The full staged curriculum is in [`docs/planning/comedy-theory-history-curriculum.md`](../../docs/planning/comedy-theory-history-curriculum.md). Titles not listed under completed lectures remain proposals.
 
