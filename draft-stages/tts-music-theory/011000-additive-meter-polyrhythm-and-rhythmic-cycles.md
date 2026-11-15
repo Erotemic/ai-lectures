@@ -42,6 +42,9 @@ To compose with these tools, begin by choosing the question you want the rhythm 
 
 <!-- END SPOKEN LECTURE -->
 
+**Machine-readable companion:** [Original event grids and validator](examples/README.md); source-table rows for lecture 011000 are checked against `examples/scores.json`. Chord names are harmonic plans, not complete performed voicings.
+
+
 ## Reproducible grids (not spoken)
 
 `e` means one eighth-note unit; `q` means two eighths; `dq` means dotted quarter, three eighths. A plus sign marks a grouping boundary, not an extra attack. All patterns are original and specify integer time indices.
@@ -77,6 +80,7 @@ Eight eighth units indexed 1 through 8. Accents on 1, 4, 7. An optional independ
 
 ### References
 
+- [London, *Hearing in Time*, second edition](https://doi.org/10.1093/acprof:oso/9780199744374.001.0001) — meter, non-isochronous patterns, and perceptual entrainment (publisher abstract).
 - [Music Theory for the 21st-Century Classroom](https://musictheory.pugetsound.edu/mt21c/), chapters on rhythm and 3+3+2 accompaniment.
 - [Open Music Theory](https://openmusictheory.github.io/contents), rhythm and meter lessons.
 - [Additive rhythm and meter](https://en.wikipedia.org/wiki/Additive_rhythm_and_divisive_rhythm), for terminology and examples.

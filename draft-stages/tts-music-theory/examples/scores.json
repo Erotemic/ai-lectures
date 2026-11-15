@@ -1,0 +1,1452 @@
+{
+  "version": 1,
+  "unit": "quarter_note",
+  "pitch_convention": "Scientific pitch names; C4 is middle C. MIDI integer numbers are computed for 12-TET demonstrations, but no instrument, temperament, timbre or audio is supplied.",
+  "event_convention": "at and dur are exact rational numbers as strings, zero-based within a 1-based bar. Chord labels state intended harmony but do not automatically create sounding voices. Rhythm-grid attacks are unit indices, not MIDI notes.",
+  "examples": [
+    {
+      "id": "004000-four-bar-phrase",
+      "kind": "pitched_score",
+      "lecture_id": "004000",
+      "source": "004000-scales-chords-and-composing-a-phrase.md",
+      "meter": "4/4",
+      "melody_column": "Melody, in order",
+      "harmony_column": "Chord",
+      "bars": [
+        {
+          "bar": 1,
+          "chord": "C",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "C4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "D4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "G4",
+              "dur": "1"
+            }
+          ],
+          "bass": [
+            {
+              "at": "0",
+              "pitch": "C3",
+              "dur": "4"
+            }
+          ]
+        },
+        {
+          "bar": 2,
+          "chord": "F",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "F4",
+              "dur": "2"
+            }
+          ],
+          "bass": [
+            {
+              "at": "0",
+              "pitch": "F3",
+              "dur": "4"
+            }
+          ]
+        },
+        {
+          "bar": 3,
+          "chord": "G",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "B4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "G4",
+              "dur": "1"
+            }
+          ],
+          "bass": [
+            {
+              "at": "0",
+              "pitch": "G2",
+              "dur": "4"
+            }
+          ]
+        },
+        {
+          "bar": 4,
+          "chord": "C",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "D4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "C4",
+              "dur": "2"
+            }
+          ],
+          "bass": [
+            {
+              "at": "0",
+              "pitch": "C3",
+              "dur": "4"
+            }
+          ]
+        }
+      ],
+      "has_bass": true
+    },
+    {
+      "id": "005000-two-line-counterpoint",
+      "kind": "counterpoint",
+      "lecture_id": "005000",
+      "source": "005000-voice-leading-and-independent-lines.md",
+      "meter": "4/4",
+      "bars": [
+        {
+          "bar": 1,
+          "upper": [
+            {
+              "at": "0",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "F4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "E4",
+              "dur": "1"
+            }
+          ],
+          "lower": [
+            {
+              "at": "0",
+              "pitch": "C4",
+              "dur": "2"
+            },
+            {
+              "at": "2",
+              "pitch": "E4",
+              "dur": "2"
+            }
+          ]
+        },
+        {
+          "bar": 2,
+          "upper": [
+            {
+              "at": "0",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "E4",
+              "dur": "1"
+            }
+          ],
+          "lower": [
+            {
+              "at": "0",
+              "pitch": "C4",
+              "dur": "2"
+            },
+            {
+              "at": "2",
+              "pitch": "E4",
+              "dur": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "006000-eight-bar-period",
+      "kind": "pitched_score",
+      "lecture_id": "006000",
+      "source": "006000-phrases-cadences-and-musical-development.md",
+      "meter": "4/4",
+      "melody_column": "Melody and durations",
+      "harmony_column": "Harmony",
+      "bars": [
+        {
+          "bar": 1,
+          "chord": "C",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "C4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "D4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "G4",
+              "dur": "1"
+            }
+          ],
+          "bass": [
+            {
+              "at": "0",
+              "pitch": "C3",
+              "dur": "4"
+            }
+          ]
+        },
+        {
+          "bar": 2,
+          "chord": "F",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "F4",
+              "dur": "2"
+            }
+          ],
+          "bass": [
+            {
+              "at": "0",
+              "pitch": "F3",
+              "dur": "4"
+            }
+          ]
+        },
+        {
+          "bar": 3,
+          "chord": "G",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "B4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "G4",
+              "dur": "1"
+            }
+          ],
+          "bass": [
+            {
+              "at": "0",
+              "pitch": "G2",
+              "dur": "4"
+            }
+          ]
+        },
+        {
+          "bar": 4,
+          "chord": "G",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "B4",
+              "dur": "2"
+            },
+            {
+              "at": "2",
+              "pitch": "D5",
+              "dur": "2"
+            }
+          ],
+          "bass": [
+            {
+              "at": "0",
+              "pitch": "G2",
+              "dur": "4"
+            }
+          ]
+        },
+        {
+          "bar": 5,
+          "chord": "C",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "C4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "D4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "G4",
+              "dur": "1"
+            }
+          ],
+          "bass": [
+            {
+              "at": "0",
+              "pitch": "C3",
+              "dur": "4"
+            }
+          ]
+        },
+        {
+          "bar": 6,
+          "chord": "F",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "F4",
+              "dur": "2"
+            }
+          ],
+          "bass": [
+            {
+              "at": "0",
+              "pitch": "F3",
+              "dur": "4"
+            }
+          ]
+        },
+        {
+          "bar": 7,
+          "chord": "G",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "B4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "G4",
+              "dur": "1"
+            }
+          ],
+          "bass": [
+            {
+              "at": "0",
+              "pitch": "G2",
+              "dur": "4"
+            }
+          ]
+        },
+        {
+          "bar": 8,
+          "chord": "C",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "C5",
+              "dur": "4"
+            }
+          ],
+          "bass": [
+            {
+              "at": "0",
+              "pitch": "C3",
+              "dur": "4"
+            }
+          ]
+        }
+      ],
+      "has_bass": true
+    },
+    {
+      "id": "008000-form-arrangement",
+      "kind": "pitched_score",
+      "lecture_id": "008000",
+      "source": "008000-form-texture-and-arrangement.md",
+      "meter": "4/4",
+      "melody_column": "Melody events",
+      "harmony_column": "Chord",
+      "bars": [
+        {
+          "bar": 1,
+          "chord": "C",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "G4",
+              "dur": "1"
+            }
+          ],
+          "section": "A",
+          "nonchord": [
+            "A"
+          ]
+        },
+        {
+          "bar": 2,
+          "chord": "Am",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "D4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "C4",
+              "dur": "2"
+            }
+          ],
+          "section": "A",
+          "nonchord": [
+            "D"
+          ]
+        },
+        {
+          "bar": 3,
+          "chord": "F",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "F4",
+              "dur": "1"
+            }
+          ],
+          "section": "A",
+          "nonchord": [
+            "G"
+          ]
+        },
+        {
+          "bar": 4,
+          "chord": "G",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "G4",
+              "dur": "2"
+            },
+            {
+              "at": "2",
+              "pitch": "B4",
+              "dur": "2"
+            }
+          ],
+          "section": "A"
+        },
+        {
+          "bar": 5,
+          "chord": "Am",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "C5",
+              "dur": "2"
+            },
+            {
+              "at": "2",
+              "pitch": "A4",
+              "dur": "2"
+            }
+          ],
+          "section": "B"
+        },
+        {
+          "bar": 6,
+          "chord": "F",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "A4",
+              "dur": "2"
+            },
+            {
+              "at": "2",
+              "pitch": "F4",
+              "dur": "2"
+            }
+          ],
+          "section": "B"
+        },
+        {
+          "bar": 7,
+          "chord": "Dm",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "F4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "D4",
+              "dur": "2"
+            }
+          ],
+          "section": "B",
+          "nonchord": [
+            "E"
+          ],
+          "reply": [
+            {
+              "at": "2",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "G4",
+              "dur": "1"
+            }
+          ]
+        },
+        {
+          "bar": 8,
+          "chord": "G",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "G4",
+              "dur": "4"
+            }
+          ],
+          "section": "B"
+        },
+        {
+          "bar": 9,
+          "chord": "C",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "G4",
+              "dur": "1"
+            }
+          ],
+          "section": "A′",
+          "nonchord": [
+            "A"
+          ]
+        },
+        {
+          "bar": 10,
+          "chord": "Am",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "D4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "C4",
+              "dur": "2"
+            }
+          ],
+          "section": "A′",
+          "nonchord": [
+            "D"
+          ]
+        },
+        {
+          "bar": 11,
+          "chord": "G",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "B4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "G4",
+              "dur": "1"
+            }
+          ],
+          "section": "A′",
+          "nonchord": [
+            "A"
+          ]
+        },
+        {
+          "bar": 12,
+          "chord": "C",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "C5",
+              "dur": "4"
+            }
+          ],
+          "section": "A′"
+        }
+      ]
+    },
+    {
+      "id": "010000-eight-bar-chromaticism",
+      "kind": "pitched_score",
+      "lecture_id": "010000",
+      "source": "010000-chromatic-harmony-and-borrowed-colors.md",
+      "meter": "4/4",
+      "melody_column": "Upper melody",
+      "harmony_column": "Harmony",
+      "bars": [
+        {
+          "bar": 1,
+          "chord": "C",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "G4",
+              "dur": "1"
+            }
+          ]
+        },
+        {
+          "bar": 2,
+          "chord": "Am",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "C5",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "E5",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "C5",
+              "dur": "1"
+            }
+          ]
+        },
+        {
+          "bar": 3,
+          "chord": "D7",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "F#4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "C5",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "F#4",
+              "dur": "1"
+            }
+          ]
+        },
+        {
+          "bar": 4,
+          "chord": "G",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "G4",
+              "dur": "2"
+            },
+            {
+              "at": "2",
+              "pitch": "B4",
+              "dur": "2"
+            }
+          ]
+        },
+        {
+          "bar": 5,
+          "chord": "C",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "D4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "C4",
+              "dur": "1"
+            }
+          ]
+        },
+        {
+          "bar": 6,
+          "chord": "Fm",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "Ab4",
+              "dur": "2"
+            },
+            {
+              "at": "2",
+              "pitch": "F4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "Ab4",
+              "dur": "1"
+            }
+          ]
+        },
+        {
+          "bar": 7,
+          "chord": "G7",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "B4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "F4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "D4",
+              "dur": "1"
+            }
+          ]
+        },
+        {
+          "bar": 8,
+          "chord": "C",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "E4",
+              "dur": "2"
+            },
+            {
+              "at": "2",
+              "pitch": "C5",
+              "dur": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "011000-rhythm-grids",
+      "kind": "rhythm_grid",
+      "lecture_id": "011000",
+      "source": "011000-additive-meter-polyrhythm-and-rhythmic-cycles.md",
+      "variants": [
+        {
+          "id": "A",
+          "grouping": "2+2+3",
+          "accented_eighth_positions": [
+            1,
+            3,
+            5
+          ],
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "C4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "D4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "G4",
+              "dur": "3/2"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "grouping": "3+2+2",
+          "accented_eighth_positions": [
+            1,
+            4,
+            6
+          ],
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "E4",
+              "dur": "3/2"
+            },
+            {
+              "at": "3/2",
+              "pitch": "F4",
+              "dur": "1"
+            },
+            {
+              "at": "5/2",
+              "pitch": "C4",
+              "dur": "1"
+            }
+          ]
+        }
+      ],
+      "three_against_two": {
+        "cycle_units": 6,
+        "three": [
+          0,
+          2,
+          4
+        ],
+        "two": [
+          0,
+          3
+        ]
+      }
+    },
+    {
+      "id": "012000-sixteen-bar-workshop",
+      "kind": "pitched_score",
+      "lecture_id": "012000",
+      "source": "012000-composition-workshop-variation-and-revision.md",
+      "meter": "4/4",
+      "melody_column": "Upper melody",
+      "harmony_column": "Harmony",
+      "bars": [
+        {
+          "bar": 1,
+          "chord": "Dm",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "D4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "F4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "A4",
+              "dur": "1"
+            }
+          ],
+          "section": "A",
+          "nonchord": [
+            "G"
+          ]
+        },
+        {
+          "bar": 2,
+          "chord": "G",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "F4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "D4",
+              "dur": "1"
+            }
+          ],
+          "section": "A",
+          "nonchord": [
+            "E",
+            "F"
+          ]
+        },
+        {
+          "bar": 3,
+          "chord": "Em",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "E4",
+              "dur": "2"
+            },
+            {
+              "at": "2",
+              "pitch": "B4",
+              "dur": "2"
+            }
+          ],
+          "section": "A"
+        },
+        {
+          "bar": 4,
+          "chord": "Dm",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "A4",
+              "dur": "2"
+            },
+            {
+              "at": "2",
+              "pitch": "D4",
+              "dur": "2"
+            }
+          ],
+          "section": "A"
+        },
+        {
+          "bar": 5,
+          "chord": "Dm",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "D4",
+              "dur": "1/2"
+            },
+            {
+              "at": "1/2",
+              "pitch": "E4",
+              "dur": "1/2"
+            },
+            {
+              "at": "1",
+              "pitch": "F4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "A4",
+              "dur": "1"
+            }
+          ],
+          "section": "A′",
+          "nonchord": [
+            "E",
+            "G"
+          ]
+        },
+        {
+          "bar": 6,
+          "chord": "G",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "G4",
+              "dur": "2"
+            },
+            {
+              "at": "2",
+              "pitch": "F4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "E4",
+              "dur": "1"
+            }
+          ],
+          "section": "A′",
+          "nonchord": [
+            "E",
+            "F"
+          ]
+        },
+        {
+          "bar": 7,
+          "chord": "Em",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "B4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "E4",
+              "dur": "1"
+            }
+          ],
+          "section": "A′",
+          "nonchord": [
+            "A"
+          ]
+        },
+        {
+          "bar": 8,
+          "chord": "Dm",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "F4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "D4",
+              "dur": "2"
+            }
+          ],
+          "section": "A′",
+          "nonchord": [
+            "E"
+          ]
+        },
+        {
+          "bar": 9,
+          "chord": "D7",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "F#4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "C5",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "A4",
+              "dur": "1"
+            }
+          ],
+          "section": "B"
+        },
+        {
+          "bar": 10,
+          "chord": "G",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "G4",
+              "dur": "2"
+            },
+            {
+              "at": "2",
+              "pitch": "B4",
+              "dur": "2"
+            }
+          ],
+          "section": "B"
+        },
+        {
+          "bar": 11,
+          "chord": "Em",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "B4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "G4",
+              "dur": "1"
+            }
+          ],
+          "section": "B"
+        },
+        {
+          "bar": 12,
+          "chord": "A7",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "B4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "C#5",
+              "dur": "1"
+            }
+          ],
+          "section": "B",
+          "nonchord": [
+            "B"
+          ]
+        },
+        {
+          "bar": 13,
+          "chord": "Dm",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "D5",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "A4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "F4",
+              "dur": "1"
+            }
+          ],
+          "section": "A″",
+          "nonchord": [
+            "G"
+          ]
+        },
+        {
+          "bar": 14,
+          "chord": "G",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "F4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "D4",
+              "dur": "1"
+            }
+          ],
+          "section": "A″",
+          "nonchord": [
+            "E",
+            "F"
+          ]
+        },
+        {
+          "bar": 15,
+          "chord": "Em",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "B4",
+              "dur": "1"
+            },
+            {
+              "at": "1",
+              "pitch": "G4",
+              "dur": "1"
+            },
+            {
+              "at": "2",
+              "pitch": "E4",
+              "dur": "1"
+            },
+            {
+              "at": "3",
+              "pitch": "D4",
+              "dur": "1"
+            }
+          ],
+          "section": "A″",
+          "nonchord": [
+            "D"
+          ]
+        },
+        {
+          "bar": 16,
+          "chord": "Dm",
+          "melody": [
+            {
+              "at": "0",
+              "pitch": "D4",
+              "dur": "4"
+            }
+          ],
+          "section": "A″"
+        }
+      ]
+    }
+  ]
+}

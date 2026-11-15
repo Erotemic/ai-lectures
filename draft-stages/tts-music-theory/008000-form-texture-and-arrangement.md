@@ -82,6 +82,9 @@ Our twelve-bar piece gives us a practical result: a melody, a harmonic framework
 
 <!-- END SPOKEN LECTURE -->
 
+**Machine-readable companion:** [Original event grids and validator](examples/README.md); source-table rows for lecture 008000 are checked against `examples/scores.json`. Chord names are harmonic plans, not complete performed voicings.
+
+
 ## Twelve-bar source score (not spoken)
 
 **All content is original.** The example is in C major and 4/4. q = one quarter-note beat; h = two beats; w = four beats. The harmony shown starts on beat one and is held through the bar unless an arrangement variant explicitly says otherwise. Naming a chord does not commit to a keyboard or guitar voicing.
@@ -113,13 +116,13 @@ All tracks below are optional and can be realized by voice, percussion, guitar, 
 | A: bar 2 | melodic notes above | Am root A sustained four beats | silent | silent |
 | A: bars 3–4 | melodic notes above | chord root sustained four beats | quiet attacks on beats 1, 2, 3, 4 | silent |
 | B: bars 5–6 | melody in half notes | root sustained four beats | silent | silent |
-| B: bar 7 | F4 q, E4 q, D4 h | D root sustained | silent | short answer E4 q on beat 3, G4 q on beat 4; E4 over held D4 makes a minor second on beat 3, followed by G4 over D4 (a perfect fourth) |
+| B: bar 7 | F4 q, E4 q, D4 h | D root sustained | silent | short answer E4 q on beat 3, G4 q on beat 4; E4 over held D4 makes a major second on beat 3, followed by G4 over D4 (a perfect fourth) |
 | B: bar 8 | G4 whole | G root sustained | silent | silent |
 | A′: bars 9–10 | opening melody restored | root sustained | four quiet beats | silent |
 | A′: bar 11 | new G-chord melody | G for two beats, D for two beats | four quiet beats | silent |
 | A′: bar 12 | C5 whole | C root sustained | attack on beat 1, then rest | silent |
 
-**Note on bar 7:** The reply E4–G4 overlaps D4 in the melody on both beats: E/D gives a second, followed by G/D, a fourth. These vertical intervals are part of an exploratory texture, not an example of strict consonant counterpoint. The reply can be changed or omitted to match the desired style. The example is not prescribed as a consonance exercise.
+**Note on bar 7:** The reply E4–G4 overlaps D4 in the melody on both beats: E/D gives a major second, followed by G/D, a perfect fourth. These vertical intervals are part of an exploratory texture, not an example of strict consonant counterpoint. The reply can be changed or omitted to match the desired style. The example is not prescribed as a consonance exercise.
 
 ### Exercises
 

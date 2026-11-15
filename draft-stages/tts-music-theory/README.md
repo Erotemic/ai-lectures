@@ -18,7 +18,7 @@
 - **009000** — [Modes, Tonal Centers, and Pitch Collections: The Same Notes, a Different Home](009000-modes-tonal-centers-and-pitch-collections.md). 1,756 spoken words, approximately 12.1 minutes at 145 words per minute.
 - **010000** — [Chromatic Harmony: Borrowed Colors and Temporary Destinations](010000-chromatic-harmony-and-borrowed-colors.md). 1,730 spoken words, approximately 11.9 minutes at 145 words per minute.
 - **011000** — [Unequal Beats and Interlocking Cycles: Meter Beyond Four](011000-additive-meter-polyrhythm-and-rhythmic-cycles.md). 1,919 spoken words, approximately 13.2 minutes at 145 words per minute.
-- **012000** — [From Sketch to Piece: Variation, Contrast, and Musical Revision](012000-composition-workshop-variation-and-revision.md). 2,407 spoken words, approximately 16.6 minutes at 145 words per minute.
+- **012000** — [From Sketch to Piece: Variation, Contrast, and Musical Revision](012000-composition-workshop-variation-and-revision.md). 2,430 spoken words, approximately 16.8 minutes at 145 words per minute.
 
 ## Course design
 
@@ -32,6 +32,8 @@ The sequence begins with listening and original sound gestures, introduces a spe
 4. Extended form: variation sets, theme and variations, song forms, and larger multi-section works.
 5. Electronic music, recording, timbral design, notation, and collaborative performance.
 6. Optional audio demonstrations generated from original, instrument-agnostic event grids.
+
+**Structured example data:** The [machine-checkable score companion](examples/README.md) encodes seven selected original text scores in rational-beat JSON with a standard-library validator. It checks source-row synchronization and timing, not musical quality. No playable media is included.
 
 The text-only event tables are deliberate: each note has an explicit pitch, attack order, and duration where needed, making later synthesis or MIDI-like rendering possible without inserting binary assets into the course now. No audio preview or player is included or implied.
 

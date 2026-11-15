@@ -74,6 +74,9 @@ Voice leading turns harmony from a row of chord names into a set of paths. Count
 
 <!-- END SPOKEN LECTURE -->
 
+**Machine-readable companion:** [Original event grids and validator](examples/README.md); source-table rows for lecture 005000 are checked against `examples/scores.json`. Chord names are harmonic plans, not complete performed voicings.
+
+
 ## Text score and practice (not spoken)
 
 All examples are original. Sounding pitch uses scientific notation; C4 is middle C. A quarter note lasts one beat and a half note two beats. In the two-line grid, **both lines attack at the beginning of a note**; a half note sustains through the next beat.

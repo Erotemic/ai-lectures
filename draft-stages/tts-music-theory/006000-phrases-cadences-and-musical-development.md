@@ -78,6 +78,9 @@ Now return to our eight measures. You can state exactly why the opening returns,
 
 <!-- END SPOKEN LECTURE -->
 
+**Machine-readable companion:** [Original event grids and validator](examples/README.md); source-table rows for lecture 006000 are checked against `examples/scores.json`. Chord names are harmonic plans, not complete performed voicings.
+
+
 ## Eight-bar period: complete event table (not spoken)
 
 Original miniature in C major, 4/4. Unless marked **half** or **whole**, each melody note lasts one quarter-note beat. Chord/bass sound from beat 1 of the bar and sustain to the next bar. A chord symbol is a harmonic plan rather than a claim about exact instrumentation.

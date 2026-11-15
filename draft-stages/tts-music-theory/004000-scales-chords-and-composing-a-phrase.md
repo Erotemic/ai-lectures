@@ -88,6 +88,9 @@ A successful first harmonized phrase is not one that checks every rule in a text
 
 <!-- END SPOKEN LECTURE -->
 
+**Machine-readable companion:** [Original event grids and validator](examples/README.md); source-table rows for lecture 004000 are checked against `examples/scores.json`. Chord names are harmonic plans, not complete performed voicings.
+
+
 ## Composition scorecard (display only)
 
 ### Original four-bar miniature in C major, 4/4

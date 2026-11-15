@@ -38,6 +38,9 @@ The practical skill to retain is very specific. When you add an altered note, id
 
 <!-- END SPOKEN LECTURE -->
 
+**Machine-readable companion:** [Original event grids and validator](examples/README.md); source-table rows for lecture 010000 are checked against `examples/scores.json`. Chord names are harmonic plans, not complete performed voicings.
+
+
 ## Original eight-bar score (not spoken)
 
 `q` is one beat, `h` is two beats. Four quarter-note beats per bar, harmony begins on beat one and lasts the whole bar. The melody is deliberately simple enough for verbal reading; chord labels name pitch classes, not required voicings.

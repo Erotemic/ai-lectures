@@ -52,6 +52,9 @@ We began with D, F, G, A: four attacks and a rising shape. We now have sixteen b
 
 <!-- END SPOKEN LECTURE -->
 
+**Machine-readable companion:** [Original event grids and validator](examples/README.md); source-table rows for lecture 012000 are checked against `examples/scores.json`. Chord names are harmonic plans, not complete performed voicings.
+
+
 ## Original sixteen-bar score (not spoken)
 
 **All material is original.** `q` = one quarter-note beat, `h` = two beats, `e` = half a beat, `w` = four beats. 4/4 throughout; each chord starts on beat one of its bar and persists until the next bar. Octave numbers use middle C = C4. The abstract chords can be realized by any instrument(s), not only keyboard or guitar.
