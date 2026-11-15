@@ -1,59 +1,17 @@
-# 20th-Century Literature: Novels, Voices, and the Human Condition
+# 20th-Century Literature: Story, Then Analysis
 
-Long-form audio lectures on fiction published in the twentieth century. Story-first episodes acquaint listeners with the novel's events and characters; interpretive lectures then examine its structure, voice, historical setting, human conflicts, and competing readings. Full plot spoilers are present.
+Each of the nine novels has **one continuous story-orientation lecture**, immediately followed by its previously authored analysis lecture. The plot retelling gives the listener characters, setting, major events, and the ending. The critical reading then examines form, history, and interpretation.
 
-## Story-first listening order
+The nine analysis manuscripts have not been changed by the story-consolidation pass. Story lectures use lower-significance numeric IDs before each analysis ID; the original analysis IDs and URLs remain stable.
 
-The story orientations are complete plot summaries intended for a listener who has
-not read the novel. They disclose the ending. Listen to the numbered sequence of
-story episodes immediately before the analysis. The story chapters avoid critical
-analysis of symbolism, narrative technique, and historical debates; those belong
-in the existing interpretive lectures.
+## Editorial principles
 
-| Novel | Story-first IDs | Analysis ID |
-| --- | --- | --- |
-| *To Kill a Mockingbird* | 000200, 000500, 000800 | 001000 |
-| *Things Fall Apart* | 001200, 001500, 001800 | 002000 |
-| *Beloved* | 002200, 002500, 002800 | 003000 |
-| *The Remains of the Day* | 003300, 003600 | 004000 |
-| *The Left Hand of Darkness* | 004200, 004500, 004800 | 005000 |
-| *One Hundred Years of Solitude* | 005200, 005500, 005800 | 006000 |
-| *Kindred* | 006200, 006600 | 007000 |
-| *Invisible Man* | 007200, 007500, 007800 | 008000 |
-| *The Dispossessed* | 008200, 008500, 008800 | 009000 |
+- **No lecture-duration or word-count target, minimum, or maximum.** Tell the story as fully as necessary, without padding or arbitrary segmentation.
+- A single narrative unit should stay whole when it works best as one listening experience. Split a book only if a genuine narrative or pedagogical reason makes separate episodes better, not to satisfy a duration target.
+- Do not assume the listener has recently read the work. Introduce people and relationships and narrate the consequences of major choices through the ending.
+- Prefer spoken, original prose over plot outlines. Avoid long quotations and invented lines attributed to the author.
+- Keep source links and claim anchors in the nonspoken companion metadata; validate the actual spoken text against them.
+- `spoken_words` and `estimated_minutes_at_145_wpm` are **measurements**, not authoring constraints.
+- `track.json` lists only existing, playable manuscripts. Do not index plans or deleted episodes.
 
-The analyses have not been rewritten. Every story and analysis ID remains stable.
-No word-count or chapter-count quota is imposed; division reflects the material.
-These are narrated summaries in original prose, not adaptations or substitutes
-for the novels' full language and scenes.
-
-## Promoted lectures
-
-1. `001000` — *To Kill a Mockingbird: The Stories a Town Tells About Itself* (Harper Lee). Childhood narration, unequal credibility, Boo Radley and Tom Robinson.
-2. `002000` — *Things Fall Apart: A Life Too Narrow for a Changing World* (Chinua Achebe). Okonkwo's character, social institutions, internal disagreement, colonial power, and the right to represent a life.
-3. `003000` — *Beloved: The Past That Demands a Voice* (Toni Morrison). Fragmented recollection, motherhood under slavery, haunting, community, and contested moral authority.
-4. `004000` — *The Remains of the Day: A Life Explained Away* (Kazuo Ishiguro). Professional language and self-deception, political complicity, loyalty, regret, and missed intimacy.
-5. `005000` — *The Left Hand of Darkness: Learning to See a Person* (Ursula K. Le Guin). Gender assumptions, intercultural misunderstanding, comparative politics, trust, and a journey through ice.
-
-6. `006000` — *One Hundred Years of Solitude: A Family That Cannot Escape Its Stories* (Gabriel García Márquez). Generational repetition, Macondo, remembered and denied history.
-7. `007000` — *Kindred: The Past That Will Not Release Its Hold* (Octavia E. Butler). Ancestry, coercion, time travel and bodily historical memory.
-8. `008000` — *Invisible Man: The People Who Refuse to See* (Ralph Ellison). Social recognition, performance, music, institutions and voice.
-9. `009000` — *The Dispossessed: Freedom on Both Sides of the Wall* (Ursula K. Le Guin). Critical utopia, social power, knowledge, and freedom.
-
-## Editorial and source policy
-
-- Each episode gives enough orientation to be intelligible; listeners may follow the recommended story-first sequence or enter directly at an analysis. Reading the novel is rewarding, but not required for understanding these lectures. Endings are disclosed.
-- Analysis lectures develop scene-level readings; story-orientation lectures are allowed to devote themselves to the plot. Neither format should be judged by the other's checklist.
-- Authors' lives appear where reliable evidence illuminates their work. No imagined private conversations or asserted psychological motives.
-- Historical events, fictional inventions, and interpretations are distinguished. Biographical and historical claims are anchored in `metadata/<id>.json`, with bibliographic records in `metadata/sources.json`.
-- The spoken region lies between one pair of `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. The companions, reading prompts, and source references remain display-only.
-- Avoid extended quotations from copyrighted novels. Quotations needed for critical study should be short and accurately checked.
-- Validate narration extraction, sources, claim anchors, and audio-reader retrieval. Listen to the synthesized audio before treating pacing as final.
-
-For backlog candidates and development guidance, see `docs/planning/modern-literature-track.md`.
-
-## Third batch: 20th-century period identification and four additional novels (14 November 2026)
-
-The display title now uses a fixed publication period. The stable internal ID, folder name, and URL `modern-literature` remain unchanged for reader links and cached audio compatibility. New twenty-first-century works belong in a separately identified period track, not by silently broadening this one.
-
-Lectures `006000`–`009000` each develop a distinct narrative method and contain a critical companion, bibliographic source entries and historical claim anchors. All include spoilers. Future literature can be organized by publication period without assuming that the word *modern* has a permanent boundary.
+For future works, the recommended initial shape is a complete story orientation followed by analysis. There is no obligation to divide the story into fixed-size parts; one book may need a short account and another a long one.
