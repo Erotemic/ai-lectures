@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "lecture_id": "019000",
+  "transcript": "019000-contact-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-contact-primary",
+      "reason": "Primary text or bibliography"
+    },
+    {
+      "source_id": "ml-contact-loc",
+      "reason": "Plot cross-check, history, or critical interpretation as appropriate"
+    },
+    {
+      "source_id": "ml-contact-pw",
+      "reason": "Plot cross-check, history, or critical interpretation as appropriate"
+    },
+    {
+      "source_id": "ml-contact-wpost",
+      "reason": "Plot cross-check, history, or critical interpretation as appropriate"
+    },
+    {
+      "source_id": "ml-contact-cornell",
+      "reason": "Plot cross-check, history, or critical interpretation as appropriate"
+    },
+    {
+      "source_id": "ml-contact-latimes",
+      "reason": "Plot cross-check, history, or critical interpretation as appropriate"
+    },
+    {
+      "source_id": "ml-contact-plot",
+      "reason": "Plot cross-check, history, or critical interpretation as appropriate"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "019000-c01",
+      "anchor": "Contact appeared in 1985",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-contact-primary",
+        "ml-contact-pw"
+      ],
+      "source_locator": "1985 publication",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "019000-c02",
+      "anchor": "Sagan was an astronomer",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-contact-primary",
+        "ml-contact-loc"
+      ],
+      "source_locator": "Scientist and SETI engagement",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "019000-c03",
+      "anchor": "Palmer Joss and Billy Jo Rankin are both religious figures",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-contact-plot",
+        "ml-contact-cornell"
+      ],
+      "source_locator": "Religious debates",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "019000-c04",
+      "anchor": "Contemporary reviewers differed over whether the scientific argument",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-contact-pw",
+        "ml-contact-wpost"
+      ],
+      "source_locator": "Contemporaneous critical reception",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "019000-c05",
+      "anchor": "The final circle hidden among the digits of pi",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-contact-primary",
+        "ml-contact-plot"
+      ],
+      "source_locator": "Fictional ending",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "editorial_scope": "Standalone interpretive analysis after plot orientation; scholarship and synthesis clearly differentiated",
+  "reference_caveat": "Sources with restricted full text are cited only to the extent of accessible abstracts and bibliographic records; the primary book remains under copyright."
+}

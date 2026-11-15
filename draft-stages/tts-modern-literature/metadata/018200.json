@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018200",
+  "transcript": "018200-contact-the-story.md",
+  "related_resources": [
+    {
+      "source_id": "ml-contact-primary",
+      "reason": "Primary text or bibliography"
+    },
+    {
+      "source_id": "ml-contact-plot",
+      "reason": "Plot cross-check, history, or critical interpretation as appropriate"
+    },
+    {
+      "source_id": "ml-contact-wiki",
+      "reason": "Plot cross-check, history, or critical interpretation as appropriate"
+    },
+    {
+      "source_id": "ml-contact-loc",
+      "reason": "Plot cross-check, history, or critical interpretation as appropriate"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "018200-c01",
+      "anchor": "Ellie studies physics, advances through a world",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-contact-primary",
+        "ml-contact-plot"
+      ],
+      "source_locator": "Ellie childhood and training",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "018200-c02",
+      "anchor": "The first recognizable content is a sequence of prime numbers.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-contact-primary",
+        "ml-contact-plot"
+      ],
+      "source_locator": "Vega prime signal",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "018200-c03",
+      "anchor": "They recover images of Adolf Hitler speaking at the 1936 Berlin Olympics.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-contact-plot",
+        "ml-contact-wiki"
+      ],
+      "source_locator": "Returned broadcast",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "018200-c04",
+      "anchor": "The five people selected for this attempt embody several countries and kinds of expertise.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-contact-plot",
+        "ml-contact-wiki"
+      ],
+      "source_locator": "Five travelers, not the single-traveler film",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "018200-c05",
+      "anchor": "On Earth, only about twenty minutes have passed.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-contact-plot",
+        "ml-contact-wiki"
+      ],
+      "source_locator": "Earth time on return",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "018200-c06",
+      "anchor": "Then the mathematical search produces its answer.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-contact-plot",
+        "ml-contact-wiki"
+      ],
+      "source_locator": "Circle in base-eleven pi",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "editorial_scope": "Continuous original-prose spoiler narrative, based on the novel rather than its film adaptation; no outside plot knowledge needed",
+  "reference_caveat": "Sources with restricted full text are cited only to the extent of accessible abstracts and bibliographic records; the primary book remains under copyright."
+}

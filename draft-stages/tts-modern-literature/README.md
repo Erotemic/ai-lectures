@@ -1,6 +1,6 @@
 # 20th-Century Literature: Story, Then Analysis
 
-The track currently covers **eighteen novels**. For each, a single continuous plot-orientation lecture comes immediately before a critical interpretation. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
+The track currently covers **twenty novels**. For each, a single continuous plot-orientation lecture comes immediately before a critical interpretation. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
 
 ## Scope and the latest expansion
 
@@ -27,6 +27,13 @@ Each adds a single full spoiler-containing plot orientation and a distinct inter
 - `017200` then `018000`: Milan Kundera, *The Unbearable Lightness of Being* (1984, Czech-language work first published in French translation; Prague Spring, personal freedom, kitsch)
 
 Each has one original, complete story telling followed by a distinct analysis. The earlier story and analysis manuscripts remain unchanged.
+
+## Science fiction as literature: Sagan and Vonnegut
+
+- `018200` then `019000`: Carl Sagan, *Contact* (1985): a full story orientation to the **novel** (five international travelers, the base-eleven pi ending), followed by analysis of scientific evidence, witness testimony, science and religion, public institutions, and communication. Do not substitute the 1997 film plot.
+- `019200` then `020000`: Kurt Vonnegut, *Slaughterhouse-Five* (1969): the authorial frame, Dresden, Billy Pilgrim's life and reported Tralfamadorian encounters, followed by analysis of traumatic narrative time, fatalism, black comedy, and historical memory. Do not interpret fictional time travel as established physics or repeat the novel's inflated Dresden death toll as a fact.
+
+The two works offer contrasting science-fiction methodologies: a speculative scientific-process novel and a fragmented anti-war novel. Story and analysis remain separate. Each recording is as long as the material needs; length metadata are measurements only.
 
 ## Editorial principles
 
