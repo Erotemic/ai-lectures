@@ -1,6 +1,6 @@
 # Fiction Writing and Worldbuilding
 
-**Current collection:** 24 substantive, independently understandable audio-first manuscripts, including an overview, eight focused contemporary-approaches lectures, four historical deep dives, and four author-centered arguments.
+**Current collection:** 28 substantive, independently understandable audio-first manuscripts, including an overview, eight focused contemporary-approaches lectures, four historical deep dives, and four author-centered arguments.
 
 ## Completed lectures
 
@@ -45,6 +45,17 @@ These standalone lectures compare different questions about fiction. All use var
 - 021000: [John Gardner: Moral Fiction, the Continuous Dream, and the Reader's Freedom](021000-gardner-moral-fiction-and-the-dream.md)
 - 022000: [John Barth: Exhaustion, Replenishment, and the Pleasure of the Made-Up Story](022000-barth-exhaustion-replenishment-and-metafiction.md)
 - 023000: [George Saunders: The Reader's Mind, the Sentence, and Revision as Discovery](023000-saunders-reader-attention-and-revision.md)
+
+## Schools in conversation: four comparative craft lectures (024000-027000)
+
+This unit moves beyond author portraits into direct comparison. These are constructed dialogues between ideas, not claims that the writers engaged in these particular exchanges. The shared bathhouse premise makes the tradeoffs visible. The lecture manuscripts, exercises, and references remain track-local.
+
+- 024000: [Le Guin and Plot Architecture: Beyond the Hero's Arc](024000-le-guin-and-plot-architecture.md). A goal-obstacle plot, an ensemble carrier-bag form, and a designed hybrid.
+- 025000: [Gardner and Barth: Moral Vision and Fiction That Shows Its Seams](025000-gardner-and-barth-ethics-and-metafiction.md). Immersion, visible narration, evidence, and the ethical costs of each form.
+- 026000: [Saunders and the Beat Sheet: Two Scales of Revision](026000-saunders-and-beat-sheets-two-scales-of-revision.md). Whole-story causal design versus moment-by-moment reader experience.
+- 027000: [Choosing a Poetics: How to Combine Schools Without Losing the Story](027000-choosing-and-combining-schools-of-fiction.md). A practical synthesis showing when to borrow, alter, and refuse each framework.
+
+Spoken-word counts in the track manifest describe what exists; there is no target length or duration requirement. Form and extent follow the material.
 
 ## Planned continuation
 
