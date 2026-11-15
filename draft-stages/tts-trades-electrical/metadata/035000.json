@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "lecture_id": "035000",
+  "transcript": "035000-receptacles-switches-and-lighting-controls.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-doe-residential-lighting",
+      "reason": "Claim-specific support in source map for 035000"
+    },
+    {
+      "source_id": "electrical-doe-ssl-controls",
+      "reason": "Claim-specific support in source map for 035000"
+    },
+    {
+      "source_id": "electrical-gsa-lighting",
+      "reason": "Claim-specific support in source map for 035000"
+    },
+    {
+      "source_id": "electrical-lutron-no-neutral",
+      "reason": "Claim-specific support in source map for 035000"
+    },
+    {
+      "source_id": "electrical-openstax-acpower",
+      "reason": "Claim-specific support in source map for 035000"
+    },
+    {
+      "source_id": "electrical-openstax-kirchhoff",
+      "reason": "Claim-specific support in source map for 035000"
+    },
+    {
+      "source_id": "electrical-osha305",
+      "reason": "Claim-specific support in source map for 035000"
+    },
+    {
+      "source_id": "electrical-osha333",
+      "reason": "Claim-specific support in source map for 035000"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E035000-01",
+      "claim": "Receptacle configurations distinguish electrical ratings, and grounding contacts have specific protective meaning",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "§1910.305(j)(2)(i)–(iii), primary U.S. workplace construction/rating rules",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Regional connector systems differ; receptacle appearance does not verify installation wiring",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E035000-02",
+      "claim": "Switching, control and safe isolation are separate functions",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "§1910.305(c), (j)(4) context",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333 qualified safe-work verification, different function",
+          "role": "primary_regulatory_text"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No wiring recipe implied; workplace clauses not generalized to private residences",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E035000-03",
+      "claim": "Two changeover contacts and an intermediate cross-over contact can implement multi-location switching",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-kirchhoff",
+          "location": "§10.3 path analysis, physics context",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-osha305",
+          "location": "switch category context",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Truth table follows topology mathematically; no normative or model-specific wiring diagram verified",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E035000-04",
+      "claim": "LED systems use electronic drivers and dimming depends on system compatibility",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-ssl-controls",
+          "location": "DOE 2020 Lighting Market Characterization §3.2, control definitions",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-gsa-lighting",
+          "location": "compatible LED dimming guidance",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific leading/trailing edge support and compatibility require product documentation",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E035000-05",
+      "claim": "Occupancy, photosensors, dimmers and timers control different aspects of lighting demand",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-gsa-lighting",
+          "location": "control definitions",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-doe-ssl-controls",
+          "location": "§3.2 mechanism and application",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Savings not additive; detection does not guarantee presence",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E035000-06",
+      "claim": "A motion-only system can turn off while people are stationary",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-gsa-lighting",
+          "location": "infrared/motion sensor explanation",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-doe-residential-lighting",
+          "location": "controls chapter, still occupants and delay",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Sensor technology and deployment determine actual behavior",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E035000-07",
+      "claim": "Power-factor current calculations do not cover LED-driver inrush or switching compatibility",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "real/apparent power relation",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-doe-ssl-controls",
+          "location": "electronic lighting control context",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Inrush magnitude requires product-specific source; claim is a separation of variables, not a device rating",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E035000-08",
+      "claim": "Unpowered smart controls and no-neutral switching strategies can have different load-interaction behavior",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-lutron-no-neutral",
+          "location": "manufacturer support explanation: small current through LED loads on specified two-wire dimmers",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Verified for Lutron product behavior, not a universal claim for all smart controls; independently general theory not verified",
+      "professional_review": "editorial_source_review_only"
+    }
+  ]
+}

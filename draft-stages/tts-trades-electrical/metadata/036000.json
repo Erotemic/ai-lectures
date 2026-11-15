@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "lecture_id": "036000",
+  "transcript": "036000-motors-starting-current-and-protection.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-doe-motor-guide",
+      "reason": "Claim-specific support in source map for 036000"
+    },
+    {
+      "source_id": "electrical-doe-motor-theory",
+      "reason": "Claim-specific support in source map for 036000"
+    },
+    {
+      "source_id": "electrical-iowa-motor-speed",
+      "reason": "Claim-specific support in source map for 036000"
+    },
+    {
+      "source_id": "electrical-openstax-acpower",
+      "reason": "Claim-specific support in source map for 036000"
+    },
+    {
+      "source_id": "electrical-openstax-ohm",
+      "reason": "Claim-specific support in source map for 036000"
+    },
+    {
+      "source_id": "electrical-osha305",
+      "reason": "Claim-specific support in source map for 036000"
+    },
+    {
+      "source_id": "electrical-se-asynchronous-motors",
+      "reason": "Claim-specific support in source map for 036000"
+    },
+    {
+      "source_id": "electrical-se-motor-starters",
+      "reason": "Claim-specific support in source map for 036000"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E036000-01",
+      "claim": "Direct-on-line induction motors can exhibit high starting current compared with full-load running",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-motor-starters",
+          "location": "DOL starting, 6–7x example",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-se-asynchronous-motors",
+          "location": "starting constraints",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Both are same-publisher engineering material, not independent empirical confirmation for a specific motor",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E036000-02",
+      "claim": "Starting current interacting with source impedance can produce voltage drop",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-se-asynchronous-motors",
+          "location": "startup voltage drop",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "§9.4 voltage/resistance/current",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Simple 0.1 Ω example ignores reactance and dynamic source behavior",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E036000-03",
+      "claim": "Motor overload/failure-to-start protection and fault protection are distinct requirements",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "§1910.305(j)(4)(vii), primary U.S. workplace regulation",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-se-asynchronous-motors",
+          "location": "motor starter protection context",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No model-specific settings, breaker choice or jurisdictional installation advice inferred",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E036000-04",
+      "claim": "Motor disconnect and controller serve different roles",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "§1910.305(j)(4)(ii)–(vi), disconnect requirements",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-se-motor-starters",
+          "location": "controller strategies",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Workplace normative scope and exact product ratings require review",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E036000-05",
+      "claim": "Soft starting and variable frequency drives alter acceleration/current/control behavior",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-motor-starters",
+          "location": "DOL, soft starter and VFD descriptions",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-doe-motor-guide",
+          "location": "motor selection and starting context, independent DOE guide",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Exact savings, harmonics or motor compatibility need model-specific study",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E036000-06",
+      "claim": "Motor output power, efficiency and power factor must be distinguished",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "§15.4 real/apparent power",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-doe-motor-guide",
+          "location": "mechanical output and energy-efficient motors",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Sample numbers hypothetical, not nameplate ratings",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E036000-07",
+      "claim": "Motor nameplate/rated operating point cannot independently predict startup behavior",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-motor-guide",
+          "location": "nameplate information and inrush",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-se-motor-starters",
+          "location": "starting modes",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Motor type, load and source conditions are required",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E036000-08",
+      "claim": "Motor slip and rotating field yield a relationship between frequency, pole count and synchronous speed",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-iowa-motor-speed",
+          "location": "Applied Industrial Electricity, motor characteristics, rotating-field speed",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-doe-motor-theory",
+          "location": "DOE electrical-science motor theory, synchronous speed/slip",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Ideal field speed is not measured rotor speed; nameplate speed and motor type must be considered",
+      "professional_review": "editorial_source_review_only"
+    }
+  ]
+}

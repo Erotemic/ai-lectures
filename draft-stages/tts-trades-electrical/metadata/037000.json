@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "lecture_id": "037000",
+  "transcript": "037000-resistance-heating-induction-and-thermal-controls.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-doe-heat-pumps",
+      "reason": "Claim-specific support in source map for 037000"
+    },
+    {
+      "source_id": "electrical-doe-induction",
+      "reason": "Claim-specific support in source map for 037000"
+    },
+    {
+      "source_id": "electrical-doe-process-heat",
+      "reason": "Claim-specific support in source map for 037000"
+    },
+    {
+      "source_id": "electrical-doe-resistance-heat",
+      "reason": "Claim-specific support in source map for 037000"
+    },
+    {
+      "source_id": "electrical-openstax-heat",
+      "reason": "Claim-specific support in source map for 037000"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Claim-specific support in source map for 037000"
+    },
+    {
+      "source_id": "electrical-osha305",
+      "reason": "Claim-specific support in source map for 037000"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E037000-01",
+      "claim": "Resistive electrical loads convert local electrical input to heat by Joule heating",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "§9.5 P=I²R",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-doe-process-heat",
+          "location": "DOE process heating examples",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Element temperature and losses affect actual operation",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E037000-02",
+      "claim": "Power, duty and elapsed time determine accumulated electrical energy",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "§9.5 power and energy",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Duty-cycle example assumes constant on-state input",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E037000-03",
+      "claim": "Resistance heat site conversion can approach 100%, while heat pumps move heat with COP>1",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-resistance-heat",
+          "location": "DOE Energy Saver resistance/heat-pump distinction",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-doe-heat-pumps",
+          "location": "heat transfer rather than resistance generation",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "COP, grid boundary and end-use conditions explicitly differ; archival link used for legacy DOE page",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E037000-04",
+      "claim": "Induction cooking uses changing magnetic fields to heat cookware rather than directly heating a radiant element",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-induction",
+          "location": "DOE, Vivien Bui, How it Works",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-doe-process-heat",
+          "location": "DOE industrial induction heating overview, independent agency division",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Same department and high-level mechanism, not independent lab verification of performance figures",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E037000-05",
+      "claim": "Reported cooking efficiency depends on the metric and tested appliance",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-induction",
+          "location": "qualitative efficiency comparisons",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No particular percentage is used as universal; comparable test method not checked",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E037000-06",
+      "claim": "Heat-storage mass delays temperature response",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-heat",
+          "location": "specific heat and Q=mc delta T",
+          "role": "textbook_or_physical_principle"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "energy input",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific heat varies with temperature; no-loss thermal models do not predict real appliance response",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E037000-07",
+      "claim": "Appliances carry nameplate electrical ratings and supply requirements",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "§1910.305(j)(3)(iii), primary U.S. workplace marking rule",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Field wiring/rating selection belongs to actual adopted code and model instructions",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E037000-08",
+      "claim": "Control thermostat and abnormal high-temperature limit provide different functions",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-resistance-heat",
+          "location": "thermostat and heater type context",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Model-specific independent source for protective high-limit behavior still required; do not claim design certification",
+      "professional_review": "editorial_source_review_only"
+    }
+  ]
+}

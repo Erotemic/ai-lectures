@@ -28,7 +28,7 @@ No simulated exercise should normalize intentionally defeating protective device
 
 ## Full proposed listening roadmap
 
-`001000`–`033000` now have completed, indexed manuscripts. Items from `034000` onward remain planned, **not indexed as playable** until authored and checked. Numbering can expand as the track matures.
+`001000`–`037000` now have completed, indexed manuscripts. Items from `038000` onward remain planned, **not indexed as playable** until authored and checked. Numbering can expand as the track matures.
 
 | ID | Module | Lecture / intended core question | Practice surface |
 |---|---|---|---|

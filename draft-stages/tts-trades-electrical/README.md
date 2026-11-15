@@ -10,7 +10,7 @@ This course is not authorization to work on hazardous circuits, a substitute for
 
 **Editorial emphasis:** Teach the electrical mechanism, diagnostic reasoning and trade vocabulary directly. Integrate safety information where it changes the explanation; do not fill spoken narration with repeated generic warnings. Preserve detailed qualified-review and jurisdiction caveats in companions and claim maps.
 
-## Available audio lectures
+## Completed source lectures
 
 - `001000` — Electricity Is a System: Voltage, Current, Power, and the Closed Path
 - `002000` — Electricity Can Hurt: The Hazard Model and the Safe-Work Boundary
@@ -47,6 +47,10 @@ This course is not authorization to work on hazardous circuits, a substitute for
 - `031000` — The Cable Route Is Part of the Circuit: Protection, Penetrations, and Moisture
 - `032000` — Which Breaker Trips? Time-Current Curves, Selectivity, and Fault Current
 - `033000` — Earth Is Not the Return Wire: Grounding Electrodes and Fault Paths
+- `034000` — Water, Weather, and Electrical Circuits
+- `035000` — Receptacles, Switches, and the Logic of Lighting
+- `036000` — Motors: Why Starting Is Different from Running
+- `037000` — Electric Heating: From Current to Temperature
 
 The track's broader proposed curriculum is in [`CURRICULUM.md`](CURRICULUM.md). Planned lectures are not registered until they have real manuscripts and metadata.
 
@@ -56,4 +60,4 @@ Current published lessons use desk calculations, visual-only surveys and control
 
 ## Evidence requirements before publication
 
-This is a high-consequence trades track. Read [`EVIDENCE_POLICY.md`](EVIDENCE_POLICY.md) before authoring or revising any lecture. Source density is measured by **traceable claims with suitable evidence**, not bibliography length. The first thirty-three lectures have claim-specific maps and structured records in their metadata. Reference scope and standards accessibility are explicit. **Qualified electrical/safety review is pending**: successful indexing does not mean the material has been approved as installation instruction.
+This is a high-consequence trades track. Read [`EVIDENCE_POLICY.md`](EVIDENCE_POLICY.md) before authoring or revising any lecture. Source density is measured by **traceable claims with suitable evidence**, not bibliography length. The first thirty-seven lectures have claim-specific maps and structured records in their metadata. Reference scope and standards accessibility are explicit. **Qualified electrical/safety review is pending**: successful indexing does not mean the material has been approved as installation instruction.

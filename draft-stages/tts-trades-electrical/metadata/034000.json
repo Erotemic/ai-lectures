@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "lecture_id": "034000",
+  "transcript": "034000-water-weather-and-outdoor-circuits.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-iec60529",
+      "reason": "Claim-specific support in source map for 034000"
+    },
+    {
+      "source_id": "electrical-nidec-nema-enclosures",
+      "reason": "Claim-specific support in source map for 034000"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Claim-specific support in source map for 034000"
+    },
+    {
+      "source_id": "electrical-osha-gfci",
+      "reason": "Claim-specific support in source map for 034000"
+    },
+    {
+      "source_id": "electrical-osha305",
+      "reason": "Claim-specific support in source map for 034000"
+    },
+    {
+      "source_id": "electrical-schneider-nema-faq",
+      "reason": "Claim-specific support in source map for 034000"
+    },
+    {
+      "source_id": "electrical-se-cable-sizing",
+      "reason": "Claim-specific support in source map for 034000"
+    },
+    {
+      "source_id": "electrical-ul-enclosure-accessories",
+      "reason": "Claim-specific support in source map for 034000"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E034000-01",
+      "claim": "Wet/damp receptacles require equipment suitable to exposure; weather protection while a plug is inserted depends on use conditions",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "§1910.305(j)(2)(iv)–(vii), primary U.S. workplace requirements",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Do not generalize workplace installation wording to every residence or code edition",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E034000-02",
+      "claim": "Wet/damp luminaires and enclosures must address water accumulation and ingress",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "§1910.305(e), (j)(1)(iv), primary workplace rules",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Product-specific construction and regional zones differ",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E034000-03",
+      "claim": "IEC 60529 specifies classifications of enclosure degrees of protection",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-iec60529",
+          "location": "official title, consolidated edition and scope, publisher abstract only",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Detailed IP tests and certification not reviewed from full IEC text",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E034000-04",
+      "claim": "NEMA environmental enclosure types identify differentiated conditions including rain, water jets and corrosion",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-schneider-nema-faq",
+          "location": "Type 3R, 4, 4X differences",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-nidec-nema-enclosures",
+          "location": "independent manufacturer reference table; neither replaces the standard itself",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Official scope and secondary descriptions do not certify an individual assembled enclosure",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E034000-05",
+      "claim": "The completed entry, cover and fitting system determines whether environmental protection is preserved",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-ul-enclosure-accessories",
+          "location": "UL environmental accessories/product context",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-osha305",
+          "location": "§1910.305(b),(e), box entry and exposure requirements",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Exact assembly and listed fittings require product-specific review",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E034000-06",
+      "claim": "Buried wiring route and conductor construction must account for location, insulation and soil thermal properties",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "§1910.305(f)(2), location-suitable conductor insulation",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "soil thermal resistivity corrections",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Neither cited item alone establishes the exact adopted underground-raceway rule or burial depth",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E034000-07",
+      "claim": "Leakage, overcurrent and shock protection are distinct functions",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha-gfci",
+          "location": "GFCI explanation",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "§9.5 I²R electrical power",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Hypothetical leakage current does not specify injury threshold or actual device response",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E034000-08",
+      "claim": "Moisture can affect electrical equipment through corrosion/contamination even without an immediate overcurrent",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul-enclosure-accessories",
+          "location": "environmental accessory rating context",
+          "role": "engineering_or_manufacturer_context"
+        },
+        {
+          "source_id": "electrical-schneider-nema-faq",
+          "location": "corrosion protection differences among enclosure types",
+          "role": "engineering_or_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Mechanistic synthesis, not a quantitative field failure prediction",
+      "professional_review": "editorial_source_review_only"
+    }
+  ]
+}
