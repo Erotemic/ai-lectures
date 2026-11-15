@@ -1,7 +1,7 @@
 {
   "id": "bedtime-stories",
   "title": "Children's Bedtime Stories (Ages 3–4)",
-  "summary": "Original, gentle, audio-first bedtime stories for children ages 3 to 4, written primarily for a three-year-old listener. All nine standalone stories use one narrator, and the later six include non-spoken parent rationales with linked developmental references and explicit evidence limits. Every story ends calmly without relying on character voices, music or sound effects.",
+  "summary": "Original, gentle, audio-first bedtime stories for children ages 3 to 4, primarily age three. Fifteen standalone stories use one narrator. Several explore everyday social experiences; others exist simply to be funny, playful, or imaginative. Parent notes with explicit evidence limitations are not spoken. Every story resolves gently without relying on voice acting, music, or sound effects.",
   "assumed_background": [
     "Designed for listeners ages 3–4; no prior familiarity with the characters or other episodes required."
   ],
@@ -20,7 +20,10 @@
     "nighttime-discoveries",
     "friendship-and-boundaries",
     "resilience-and-help",
-    "other-perspectives"
+    "other-perspectives",
+    "playful-little-adventures",
+    "silly-bedtime-surprises",
+    "imaginative-worlds"
   ],
   "lectures": [
     {
@@ -119,6 +122,72 @@
       "spoken_words": 605,
       "draft_status": "substantive",
       "description": "Pip plays in a puddle, Hazel notices the sky reflected in it, and Moss finds a dry way around.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    },
+    {
+      "id": "010000",
+      "title": "Pip's Very Small Parade",
+      "section": "playful-little-adventures",
+      "file": "010000-pips-very-small-parade.md",
+      "spoken_words": 627,
+      "draft_status": "substantive",
+      "description": "Pip marches with a red leaf; friends join him, and the parade accidentally gives a snail a splendid hat.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    },
+    {
+      "id": "011000",
+      "title": "Nia and the Backward Pajamas",
+      "section": "silly-bedtime-surprises",
+      "file": "011000-nia-and-the-backward-pajamas.md",
+      "spoken_words": 480,
+      "draft_status": "substantive",
+      "description": "A backward pajama top leads to slipper mittens, a very serious teddy bear, and a pretend moon in a pocket.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    },
+    {
+      "id": "012000",
+      "title": "Otis and the Leaf Letter",
+      "section": "playful-little-adventures",
+      "file": "012000-otis-and-the-leaf-letter.md",
+      "spoken_words": 623,
+      "draft_status": "substantive",
+      "description": "A garden snail carries a little picture-letter past a pebble hill and grass forest to invite Hazel to watch the evening sky.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    },
+    {
+      "id": "013000",
+      "title": "Pip's Pillow Orchestra",
+      "section": "silly-bedtime-surprises",
+      "file": "013000-pips-pillow-orchestra.md",
+      "spoken_words": 559,
+      "draft_status": "substantive",
+      "description": "Friends find a soft thump, a puff, a rustle, and a tap, then notice the quieter sounds around them.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    },
+    {
+      "id": "014000",
+      "title": "Hazel's Hat Shop",
+      "section": "silly-bedtime-surprises",
+      "file": "014000-hazels-hat-shop.md",
+      "spoken_words": 643,
+      "draft_status": "substantive",
+      "description": "Hazel tries hats on a watering can, a pumpkin, a fence post, and eventually a very fashionable mouse.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    },
+    {
+      "id": "015000",
+      "title": "Nia's Carpet Sea",
+      "section": "imaginative-worlds",
+      "file": "015000-nias-carpet-sea.md",
+      "spoken_words": 611,
+      "draft_status": "substantive",
+      "description": "A blanket becomes a sea, a towel becomes a mountain, and a stuffed bear finds a quiet bay for a nap.",
       "genre": "children_bedtime_stories",
       "age_range_label": "Ages 3–4"
     }

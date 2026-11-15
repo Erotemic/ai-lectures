@@ -12,7 +12,7 @@ That is an **editorial intention**, not a measured educational outcome. No rando
 
 The stories also have to stand on their own as bedtime entertainment. A child is not required to answer questions, identify the intended theme, perform a skill, or finish a conversation before sleeping. If a child wants to talk about a story, the questions below are optional invitations. Save longer play or problem-solving for daytime.
 
-## The six stories, with clear rationales
+## The earlier six, with clear rationales
 
 | Story | The small experience | A possible child-level thought | Optional follow-up | Research or professional basis |
 | --- | --- | --- | --- | --- |
@@ -22,6 +22,24 @@ The stories also have to stand on their own as bedtime entertainment. A child is
 | [007000 — The Hedgehog Who Didn't Say Hello](007000-the-hedgehog-who-didnt-say-hello.md) | Moss worries over a missed greeting; Hazel was occupied and couldn't hear | “Maybe there is another reason.” | What could Moss ask Hazel? | [ZERO TO THREE developing awareness of others' feelings][ZTT-THINKING]; [AAP social development][AAP-SOCIAL] |
 | [008000 — The Little Bird Who Needed Help](008000-the-little-bird-who-needed-help.md) | Tavi has a plan that needs two helpers; an adult steadies the leaf while Tavi finishes it | “I can ask for just the help I need.” | What part did Tavi do? | [Harvard age-adapted adult scaffolding][HARVARD-EF]; [ZERO TO THREE problem-solving coaching][ZTT-FRUSTRATION] |
 | [009000 — The Very Important Puddle](009000-the-very-important-puddle.md) | A puddle is fun to Pip, pretty to Hazel, and inconvenient to Moss | “The same thing can matter differently to different people.” | Why did Moss use the grass? | [ZERO TO THREE perspective-taking in the third year][ZTT-THINKING]; [AAP social development][AAP-SOCIAL] |
+
+
+## The next six: permission to have fun
+
+The stories numbered 010000–015000 have a different balance. Four have **no assigned moral whatsoever**; two gently invite noticing sounds or pretending. Their primary job is to be enjoyable to listen to. A soft ending is still part of bedtime design, but the plot does not need to deliver a behavior lesson to justify itself.
+
+| Story | What happens | An optional, light conversation | Related reading and the exact limit |
+| --- | --- | --- | --- |
+| [010000 — Pip's Very Small Parade](010000-pips-very-small-parade.md) | A mouse starts a parade that accidentally gives a snail a red-leaf hat | What would your parade carry? | [CDC play suggestions][CDC-TODDLER] include parades; **no evaluation of this fiction** |
+| [011000 — Nia and the Backward Pajamas](011000-nia-and-the-backward-pajamas.md) | A backward pajama top turns a normal bedtime routine into a joke | Where would you keep a pretend moon? | [AAP play guidance][AAP-PLAY] discusses shared play; **not the story's effects** |
+| [012000 — Otis and the Leaf Letter](012000-otis-and-the-leaf-letter.md) | For a snail, a pebble is a hill and three grass blades a forest | What would be enormous to a snail? | [CDC age-three activities][CDC-3] suggest following play interests; **not a study of scale-based jokes** |
+| [013000 — Pip's Pillow Orchestra](013000-pips-pillow-orchestra.md) | Soft household sounds become an orchestra, then the room settles | Which soft sound would you add? | [CDC rhymes and opposites][CDC-3], [AAP play][AAP-PLAY]; **no measured outcome from listening** |
+| [014000 — Hazel's Hat Shop](014000-hazels-hat-shop.md) | A watering can, pumpkin, fence post, rabbit and mouse wear hats | What else would look funny in a hat? | [AAP play][AAP-PLAY] supports age-appropriate pretending generally; **no lesson is assigned** |
+| [015000 — Nia's Carpet Sea](015000-nias-carpet-sea.md) | A blanket becomes a sea and a folded towel becomes a mountain | Where should the pretend boat sail? | [CDC play][CDC-3] and [Harvard imaginary play][HARVARD-EF] offer background only; **no demonstrated effect of this manuscript** |
+
+No child is required to answer the questions. The parent sections exist for caregivers who *want* to engage, including after the story on another day. A child who giggles at a snail wearing a leaf hat and then falls asleep has used the story exactly as intended.
+
+The [CDC's 2026 positive-parenting guidance for ages 2–3][CDC-TODDLER] specifically suggests a play parade or follow-the-leader, and encourages pretend play. These are examples of activities for caregivers, not research establishing that bedtime stories built around such activities change cognitive ability. This distinction is important: *a plausible editorial rationale is not a measured developmental effect*.
 
 ## Age fitting, without treating milestones as a checklist
 
@@ -66,3 +84,5 @@ These are links to independently authored **guidance**, not to sources for the s
 [NAEYC-STEAM]: https://www.naeyc.org/resources/pubs/tyc/aug2020/breaking-down-steam
 [NAEYC-CURIOSITY]: https://www.naeyc.org/resources/pubs/yc/dec2020/fostering-curiosity-infants
 [NSPCC-PANTS]: https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/
+
+[CDC-TODDLER]: https://www.cdc.gov/child-development/positive-parenting-tips/toddlers-2-3-years.html

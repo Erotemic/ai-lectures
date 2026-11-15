@@ -23,15 +23,24 @@ course browser; each story sidecar repeats genre and age-range metadata.
 | 007000 | [The Hedgehog Who Didn't Say Hello](007000-the-hedgehog-who-didnt-say-hello.md) | Other people can have reasons we do not see |
 | 008000 | [The Little Bird Who Needed Help](008000-the-little-bird-who-needed-help.md) | Asking for help while keeping agency |
 | 009000 | [The Very Important Puddle](009000-the-very-important-puddle.md) | The same thing can matter differently to different people |
+| 010000 | [Pip's Very Small Parade](010000-pips-very-small-parade.md) | Pip marches with a red leaf; friends join him, and the parade accidentally gives a snail a splendid hat. |
+| 011000 | [Nia and the Backward Pajamas](011000-nia-and-the-backward-pajamas.md) | A backward pajama top leads to slipper mittens, a very serious teddy bear, and a pretend moon in a pocket. |
+| 012000 | [Otis and the Leaf Letter](012000-otis-and-the-leaf-letter.md) | A garden snail carries a little picture-letter past a pebble hill and grass forest to invite Hazel to watch the evening sky. |
+| 013000 | [Pip's Pillow Orchestra](013000-pips-pillow-orchestra.md) | Friends find a soft thump, a puff, a rustle, and a tap, then notice the quieter sounds around them. |
+| 014000 | [Hazel's Hat Shop](014000-hazels-hat-shop.md) | Hazel tries hats on a watering can, a pumpkin, a fence post, and eventually a very fashionable mouse. |
+| 015000 | [Nia's Carpet Sea](015000-nias-carpet-sea.md) | A blanket becomes a sea, a towel becomes a mountain, and a stuffed bear finds a quiet bay for a nap. |
 
-## Parents' rationale and citations (004000–009000)
+## Parents' rationale and citations (004000–015000)
 
 [**A quiet guide for parents and caregivers**](PARENTS_GUIDE.md) explains the
-six intended themes, gives optional conversation prompts, and links directly
-to age-relevant child-development guidance. Each new story has an unspoken
+earlier developmental themes and newer play-first stories, gives optional
+conversation prompts, and links to age-relevant child-development guidance.
+Each story from 004000 onward has an unspoken
 **For parents and caregivers** section with its own citations, and the
 corresponding metadata sidecar contains `rationale_citations` mapping exact
-story passages to source IDs and scope notes. `metadata/sources.json` stores
+story passages to source IDs and scope notes. Lighthearted stories have no
+assigned moral or learning outcome; citations describe related play guidance,
+not benefits attributed to a specific plot. `metadata/sources.json` stores
 reference titles, institutional authorship, publication dates, sections, and
 limitations. These references support **editorial approaches**, not claims
 that our stories have been tested or cause measured learning outcomes.
@@ -39,7 +48,7 @@ that our stories have been tested or cause measured learning outcomes.
 The original three pilot stories (001000–003000) remain unchanged and are
 original fiction without claimed developmental intervention effects.
 
-The **nine** stories require no character-specific synthesized voices: dialogue
+The **fifteen** stories require no character-specific synthesized voices: dialogue
 is reported by the narrator, or is absent. The stories are not required to
 have a particular duration. They stand alone even though one includes a small
 cross-story reference.
@@ -50,11 +59,15 @@ The exact TTS text is between the `BEGIN SPOKEN LECTURE` and `END SPOKEN
 LECTURE` markers. Author companions below the end marker give reading notes
 and explain what the story is trying to accomplish. They are **not** spoken.
 
-All nine manuscripts are newly authored original fiction. They do not adapt
+All fifteen manuscripts are newly authored original fiction. They do not adapt
 published plots or reuse external story text. `metadata/sources.json` holds
-parent-facing developmental references for 004000–009000 only. Original
+parent-facing developmental and play references for 004000–015000 only. Original
 fictional descriptions and bedtime choices should not be misrepresented as
 scientific findings about childhood development.
+
+## Playfulness in this second batch
+
+Stories 010000–015000 include **four stories with no assigned moral**, a gentle sound-play story, and an imaginative voyage. Fun is enough of a reason for a story to exist. The child does not need to answer a prompt, identify a virtue, or demonstrate a skill. As elsewhere in this pack, no fixed duration is imposed.
 
 ## Suggested pilot evaluation
 

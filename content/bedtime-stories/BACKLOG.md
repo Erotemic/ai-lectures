@@ -44,3 +44,14 @@ metadata sidecars. No claim of measured developmental efficacy.
 - Is the balance of gentle conflict and settling suitable for the individual child?
 - A future story could explore saying no to unwanted affection or contacting
   a trusted adult, but only with child-safety review; toy sharing is not a substitute.
+
+## Added: 010000–015000 — lighter stories for the same age range
+
+- 010000 — Pip's Very Small Parade: a gentle escalating parade and accidental snail hat; no assigned moral.
+- 011000 — Nia and the Backward Pajamas: ordinary bedtime turned silly; no assigned moral.
+- 012000 — Otis and the Leaf Letter: a miniature journey with scale jokes; no assigned moral.
+- 013000 — Pip's Pillow Orchestra: soft-sound play, comic mistakes, and a quieter ending.
+- 014000 — Hazel's Hat Shop: visual comedy and pretend hats for garden objects; no assigned moral.
+- 015000 — Nia's Carpet Sea: imaginative play returns to a familiar room before bed.
+
+**Editorial balance:** Across the collection, stories may be playful, emotionally substantive, curious, or soothing. No virtue-of-the-week obligation. Cited caregiver notes stay outside narration and never claim the stories were evaluated for developmental effects.
