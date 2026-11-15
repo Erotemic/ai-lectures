@@ -1,6 +1,6 @@
 # 20th-Century Literature: Story, Then Analysis
 
-The track currently covers **twenty novels**. For each, a single continuous plot-orientation lecture comes immediately before a critical interpretation. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
+The track currently covers **twenty-three novels**. For each, a single continuous plot-orientation lecture comes immediately before a critical interpretation. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
 
 ## Scope and the latest expansion
 
@@ -35,6 +35,16 @@ Each has one original, complete story telling followed by a distinct analysis. T
 
 The two works offer contrasting science-fiction methodologies: a speculative scientific-process novel and a fragmented anti-war novel. Story and analysis remain separate. Each recording is as long as the material needs; length metadata are measurements only.
 
+## Mainstream twentieth-century landmarks: Fitzgerald, Orwell, Herbert
+
+The next three complete pairs deliberately strengthen mainstream and genre-defining coverage without undoing earlier geographic and formal breadth:
+
+- `020200` then `021000`: F. Scott Fitzgerald, *The Great Gatsby* (1925). The story follows Nick's account from his arrival at West Egg to the deaths of Myrtle, George and Gatsby and the nearly empty funeral. The analysis examines time, narrative mediation, wealth, class impunity, racism and antisemitic stereotypes in the narrated world, and the contradictions in Gatsby's dream.
+- `021200` then `022000`: George Orwell, *Nineteen Eighty-Four* (1949). The story follows Winston's Ministry work, private record, relationship with Julia, the trap, torture and final capitulation. The analysis distinguishes evidence from command, explores historical roots and language, and treats the appendix's historical tense as debatable rather than proof of an offstage revolution.
+- `022200` then `023000`: Frank Herbert, *Dune* (1965). The single story lecture covers **the first novel**, not its film versions or sequels, from the imperial trap through Paul and Jessica's Fremen lives, the spice monopoly and Paul's victory with its unresolved religious consequences. The analysis treats ecology, political economy, Bene Gesserit engineering, Indigenous and Islamic resonances, narrative perspective and the danger of a messianic leader.
+
+In each case, narration is a complete spoiler-containing account before interpretation. There is no runtime or word quota: the plots determine how much explanation and pacing they require. Later books and adaptations are not silently imported into first-novel summaries. The pack is wholly within Agent A's authoring boundary.
+
 ## Editorial principles
 
 - No target, minimum, or maximum duration. One complete story can be short or long, according to its needs; do not split to hit a time box.
@@ -45,6 +55,6 @@ The two works offer contrasting science-fiction methodologies: a speculative sci
 - `spoken_words` and duration are descriptive measurements, never stylistic constraints. `track.json` lists only manuscripts that exist and can be played.
 - Source catalog and sidecars are outside the spoken region. Every source ID must resolve and every claim anchor must match the extracted narration exactly.
 
-## Further blind spots
+## Further blind spots and familiar classics
 
 Choose a specific work and verify its primary plot and historical context before drafting. Candidates for further units include Clarice Lispector's *The Hour of the Star* (Brazilian Portuguese), *Nervous Conditions* (Zimbabwean women's experience), James Baldwin's *Giovanni's Room*, and Milan Kundera's Czech-language fiction are now covered. Further candidates include Clarice Lispector's *The Hour of the Star* (Brazilian Portuguese), Yasunari Kawabata's *Snow Country*, and works from Southeast Asian and Middle Eastern traditions. The purpose is to add perspectives and literary techniques the existing selections have not taught, not to fill a numerical quota. Each selected work gets its **own full story lecture followed by analysis**, packaged as a single independently applicable Agent A ZIP.
