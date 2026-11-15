@@ -1,4 +1,11 @@
 import { getStored, store, clock, lectureURL } from "./api.mjs";
+import {
+  words,
+  speechSegments,
+  wordAtTime,
+  timeAtWord,
+  sentenceAtWord,
+} from "./transcript.mjs";
 export function pageDurations(recording) {
   return recording.pages.map(
     (page, index) =>
@@ -24,6 +31,7 @@ export class Player {
     this.row = null;
     this.recording = null;
     this.ready = false;
+    this.started = false;
     this.index = 0;
     this.lastSave = 0;
     this.loadToken = 0;
@@ -40,6 +48,7 @@ export class Player {
       store("rate", Number(speed.value));
     };
     this.audio.onplay = () => {
+      this.started = true;
       document.getElementById("toggle-play").textContent = "Pause";
     };
     this.audio.onpause = () => {
@@ -82,6 +91,7 @@ export class Player {
       return;
     this.save();
     this.ready = false;
+    this.started = false;
     this.audio.pause();
     this.loadToken++;
     this.audio.removeAttribute("src");
@@ -109,14 +119,18 @@ export class Player {
             const count = this.recording.pages[i].split(/\s+/).length;
             if (words < count) {
               this.index = i;
-              seconds = (words / count) * pageDurations(this.recording)[i];
+              seconds = timeAtWord(
+                this.recording.pages[i],
+                this.recording.segments.find((s) => s.index === i),
+                words,
+              );
               break;
             }
             words -= count;
           }
           this.message("Resume position is approximate for this narrator.");
         }
-      } else if (progress)
+      } else if (progress && !progress.legacy)
         this.message(
           "This lecture has been revised. Your previous listening history is retained; this version starts at the beginning.",
         );
@@ -150,24 +164,32 @@ export class Player {
         seconds,
         Math.max(0, this.audio.duration - 0.05),
       );
-      if (autoplay) this.audio.play().catch((e) => this.message(e.message));
+      if (autoplay) this.audio.play().catch((e) => this.playbackError(e));
       this.update();
     };
     this.audio.src = segment.url;
     this.audio.load();
     document.getElementById("playing-note").textContent =
       this.recording.label || this.recording.variant;
-    for (const node of document.querySelectorAll(".passage"))
-      node.classList.toggle("active", Number(node.dataset.index) === index);
+    this.update();
+  }
+  seekSentence(index, sentence) {
+    const text = this.recording.pages[index];
+    const before = speechSegments(text)
+      .slice(0, sentence)
+      .reduce((sum, part) => sum + words(part), 0);
+    const segment = this.recording.segments.find((s) => s.index === index);
+    this.play(index, timeAtWord(text, segment, before));
   }
   play(index = this.index, seconds = null) {
     if (!this.recording)
       return this.message(
         "No recording is installed. The full transcript is available.",
       );
+    this.started = true;
     if (index === this.index && this.audio.getAttribute("src")) {
       if (seconds !== null) this.audio.currentTime = seconds;
-      this.audio.play().catch((e) => this.message(e.message));
+      this.audio.play().catch((e) => this.playbackError(e));
     } else this.load(index, seconds || 0, true);
   }
   update() {
@@ -183,18 +205,47 @@ export class Player {
     document.getElementById("timeline").value = String(
       total ? (elapsed / total) * 10000 : 0,
     );
+    const root = document.querySelector(".transcript[data-recording]");
+    if (
+      root?.dataset.recording === this.recording.id &&
+      root.dataset.lecture === this.row.id
+    ) {
+      const segment = this.recording.segments.find(
+        (s) => s.index === this.index,
+      );
+      const active = sentenceAtWord(
+        speechSegments(this.recording.pages[this.index]),
+        wordAtTime(
+          this.recording.pages[this.index],
+          segment,
+          this.audio.currentTime || 0,
+        ),
+      );
+      for (const passage of root.querySelectorAll(".passage")) {
+        const current = Number(passage.dataset.index) === this.index;
+        passage.classList.toggle("active", current);
+        for (const sentence of passage.querySelectorAll(".speech-segment")) {
+          const selected =
+            current && Number(sentence.dataset.sentence) === active;
+          sentence.classList.toggle("active", selected);
+          if (selected) sentence.setAttribute("aria-current", "true");
+          else sentence.removeAttribute("aria-current");
+        }
+      }
+    }
+  }
+  playbackError(error) {
+    // Pausing or changing sources can cancel an outstanding play request.
+    if (error.name !== "AbortError") this.message(error.message);
   }
   position(completed = false) {
     if (!this.row || !this.recording) return null;
     const segment = this.recording.segments.find((s) => s.index === this.index);
-    const words = this.recording.pages
+    const precedingWords = this.recording.pages
       .slice(0, this.index)
       .join(" ")
       .split(/\s+/)
       .filter(Boolean).length;
-    const fraction = segment
-      ? Math.min(1, (this.audio.currentTime || 0) / segment.duration)
-      : 0;
     return {
       lecture_id: this.row.id,
       revision: this.row.revision,
@@ -206,12 +257,22 @@ export class Player {
       seconds: this.audio.currentTime || 0,
       completed,
       anchor_word:
-        words + fraction * this.recording.pages[this.index].split(/\s+/).length,
+        precedingWords +
+        wordAtTime(
+          this.recording.pages[this.index],
+          segment,
+          this.audio.currentTime || 0,
+        ),
     };
   }
   save(completed = false) {
     const position = this.position(completed);
-    if (position && this.ready && this.audio.getAttribute("src")) {
+    if (
+      position &&
+      this.started &&
+      this.ready &&
+      this.audio.getAttribute("src")
+    ) {
       this.lastSave = Date.now();
       this.checkpoint(position);
     }

@@ -317,6 +317,21 @@ main {
   background: var(--soft);
   border-left: 3px solid var(--accent);
 }
+.speech-segment {
+  cursor: pointer;
+  border-radius: 3px;
+}
+.speech-segment.active {
+  background: var(--panel);
+  box-shadow: 0 2px var(--accent);
+}
+.speech-segment:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.speech-segment[aria-disabled="true"] {
+  opacity: 0.75;
+}
 .passage[aria-disabled="true"] {
   opacity: 0.8;
 }

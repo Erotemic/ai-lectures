@@ -183,7 +183,13 @@ def create_app(
             )
         payload = await body(request)
         qualified(payload["lecture_id"])
-        checksum(payload["revision"])
+        if payload.get("revision") is None and isinstance(payload.get("legacy"), dict):
+            # The old reader retained a page index, not a content revision.
+            index = payload["legacy"].get("page_index")
+            if isinstance(index, bool) or not isinstance(index, int) or index < 0:
+                raise ValueError("Invalid legacy page selection")
+        else:
+            checksum(payload["revision"])
         if payload.get("recording_id") is not None:
             checksum(payload["recording_id"])
         result = listeners.save_progress(profile, payload)

@@ -2,6 +2,11 @@ import { api, post, el, getStored, store, lectureURL, clock } from "./api.mjs";
 import { Player } from "./player.mjs";
 import { reviewFeedback } from "./feedback.mjs";
 import { ListeningQueue } from "./queue.mjs";
+import { speechSegments } from "./transcript.mjs";
+import {
+  legacyPositions,
+  approximateLegacyPosition,
+} from "./legacy-progress.mjs";
 const $ = (id) => document.getElementById(id);
 let catalog = { lectures: [], courses: [], packs: [] },
   profile = getStored("listener", ""),
@@ -289,7 +294,7 @@ function lectureItem(row, course = null) {
       { class: "copy" },
       link(row.title, lectureLink(row.id, course)),
       el("small", {
-        text: `${row.namespace} · ${row.estimated_minutes || Math.round((row.words || 0) / 145)} min${saved?.completed ? " · Completed" : saved ? " · In progress" : ""}`,
+        text: `${row.namespace} · ${row.estimated_minutes || Math.round((row.words || 0) / 145)} min${saved?.legacy ? " · Old reader: passage " + (saved.legacy.page_index + 1) : saved?.completed ? " · Completed" : saved ? " · In progress" : ""}`,
       }),
     ),
     badge(row),
@@ -525,6 +530,29 @@ async function lecturePage(id, autoplay = false, historical = null) {
       ),
     );
   const saved = progress[id];
+  if (saved?.legacy)
+    top.append(
+      el(
+        "div",
+        { class: "notice" },
+        `The old reader saved passage ${saved.legacy.page_index + 1}, without source or narrator revisions. Its original history is retained. `,
+        player.recording
+          ? button("Resume approximately", () => {
+              const position = approximateLegacyPosition(
+                saved,
+                player.recording,
+              );
+              player.play(position.index, position.seconds);
+              message(
+                "This is an approximate position from the old reader's selected passage.",
+              );
+            })
+          : null,
+        player.recording
+          ? button("Start from beginning", () => player.play(0, 0))
+          : null,
+      ),
+    );
   if (saved?.release && saved.spoken_sha256 !== row.spoken_sha256)
     top.append(
       el(
@@ -548,20 +576,47 @@ async function lecturePage(id, autoplay = false, historical = null) {
     "aria-label": "Lecture transcript",
   });
   if (player.recording) {
+    text.dataset.lecture = row.id;
+    text.dataset.recording = player.recording.id;
     player.recording.pages.forEach((page, index) => {
-      const node = el("button", {
-        type: "button",
+      const node = el("section", {
         class: "passage" + (player.index === index ? " active" : ""),
         "data-index": index,
-        "aria-label": `Listen from passage ${index + 1}`,
-        "aria-disabled": !player.recording.segments.some(
-          (s) => s.index === index,
-        ),
-        text: page,
-        onclick: () => player.play(index, 0),
+      });
+      const available = player.recording.segments.some(
+        (s) => s.index === index,
+      );
+      speechSegments(page).forEach((sentence, sentenceIndex) => {
+        const seek = () => player.seekSentence(index, sentenceIndex);
+        const trailing = sentence.match(/\s*$/)[0];
+        node.append(
+          el("span", {
+            class: "speech-segment",
+            role: "button",
+            tabindex: "0",
+            "data-sentence": sentenceIndex,
+            "aria-label": `Listen from sentence ${sentenceIndex + 1} in passage ${index + 1}`,
+            "aria-disabled": !available,
+            text: sentence.slice(0, sentence.length - trailing.length),
+            onclick: seek,
+            onkeydown: (event) => {
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                seek();
+              }
+            },
+          }),
+          trailing,
+        );
       });
       text.append(node);
     });
+    top.append(
+      el("p", {
+        class: "muted",
+        text: "Select a sentence to seek. Highlights interpolate within recorded speech chunks when available; sentence positions are approximate.",
+      }),
+    );
   } else
     row.transcript
       .split(/\n\s*\n/)
@@ -668,6 +723,7 @@ async function lecturePage(id, autoplay = false, historical = null) {
     top,
     el("div", { class: "lecture-layout" }, text, side),
   );
+  player.update();
   if (autoplay) player.play();
 }
 function feedbackForm(row) {
@@ -763,6 +819,24 @@ function listeningPage() {
   main.append(queuePanel);
   listeningQueue.render(queuePanel);
   main.append(el("h2", { class: "section", text: "Listening history" }));
+  let oldPositions = [];
+  try {
+    oldPositions = legacyPositions(localStorage).filter(
+      (position) => !progress[position.lecture_id],
+    );
+  } catch {}
+  if (oldPositions.length)
+    main.append(
+      button(`Import old reader history (${oldPositions.length})`, async () => {
+        store("legacy-reader-history", legacyPositions(localStorage));
+        for (const position of oldPositions) saveCheckpoint(position);
+        await saveChain;
+        await render();
+        message(
+          "Old selected pages imported. Source and narrator revisions remain unknown; existing positions and old browser records are unchanged.",
+        );
+      }),
+    );
   const values = Object.values(progress).sort((a, b) =>
     (b.updated_at || "").localeCompare(a.updated_at || ""),
   );

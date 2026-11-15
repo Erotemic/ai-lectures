@@ -249,7 +249,18 @@ optimistic record versions and stable event IDs. Deliberate rewinds are valid;
 a late checkpoint from another device cannot overwrite a newer position. The
 UI retains conflicting local progress and offers an explicit choice. Completion
 can be changed in Listening. Resume across narrators uses an approximate text
-anchor when exact timing cannot be reused.
+anchor when exact timing cannot be reused. Sentence seeking and highlighting use
+measured speech-chunk boundaries where available and interpolate within each
+chunk. Recordings without usable timing metadata use an estimated position;
+optional timing problems never prevent playback.
+
+Listening offers **Import old reader history** when this browser has the old
+`/audio` page selections. Existing positions are left alone and original browser
+keys are retained. The old reader did not record timestamps, completion, or source
+and recording revisions; those identities remain unknown in imported history.
+Lecture pages offer an explicit approximate resume or a restart. Available old
+layout/settings records remain with personal history, separate from content packs.
+Merely loading an audio file does not overwrite a saved listening position.
 
 Feedback stays bound to the exact content revision and recording the listener
 had open, even after an update. The form retains drafts across navigation and
