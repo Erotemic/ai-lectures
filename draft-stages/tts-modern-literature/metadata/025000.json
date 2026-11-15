@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025000",
+  "transcript": "025000-the-grapes-of-wrath-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-grapes-primary",
+      "reason": "Bibliography, direct plot corroboration, archival historical context, or labeled critical interpretation as appropriate"
+    },
+    {
+      "source_id": "ml-grapes-nara",
+      "reason": "Bibliography, direct plot corroboration, archival historical context, or labeled critical interpretation as appropriate"
+    },
+    {
+      "source_id": "ml-grapes-loc",
+      "reason": "Bibliography, direct plot corroboration, archival historical context, or labeled critical interpretation as appropriate"
+    },
+    {
+      "source_id": "ml-grapes-ransom",
+      "reason": "Bibliography, direct plot corroboration, archival historical context, or labeled critical interpretation as appropriate"
+    },
+    {
+      "source_id": "ml-grapes-smith",
+      "reason": "Bibliography, direct plot corroboration, archival historical context, or labeled critical interpretation as appropriate"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "025000-c01",
+      "anchor": "The novel was published in 1939, during the Great Depression, and draws on mass displacement from the southern Plains and surrounding states toward California.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-grapes-primary",
+        "ml-grapes-loc"
+      ],
+      "source_locator": "Date and context",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "025000-c02",
+      "anchor": "The National Archives documents the combined role of drought, banking and agricultural transformations, oversupplied labor markets, and the federal migrant camps that tried to improve living conditions.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-grapes-nara",
+        "ml-grapes-loc"
+      ],
+      "source_locator": "Displacement factors and camps",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "025000-c03",
+      "anchor": "National Archives research explicitly documents that longer labor history.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-grapes-nara"
+      ],
+      "source_locator": "Pre-Okie diverse labor history",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "025000-c04",
+      "anchor": "She gathered material from migrant labor camps and worked on her own novel about displaced families, Whose Names Are Unknown.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-grapes-ransom",
+        "ml-grapes-smith"
+      ],
+      "source_locator": "Sanora Babb archive",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "025000-c05",
+      "anchor": "Steinbeck did extensive field research and developed a relationship with Tom Collins, a federal migrant camp manager whose reports and experiences helped shape the book.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-grapes-nara"
+      ],
+      "source_locator": "Collins documentary influence",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

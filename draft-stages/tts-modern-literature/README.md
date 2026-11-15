@@ -1,6 +1,6 @@
 # 20th-Century Literature: Story, Then Analysis
 
-The track currently covers **twenty-three novels**. For each, a single continuous plot-orientation lecture comes immediately before a critical interpretation. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
+The track currently covers **twenty-six novels**. For each, a single continuous plot-orientation lecture comes immediately before a critical interpretation. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
 
 ## Scope and the latest expansion
 
@@ -44,6 +44,16 @@ The next three complete pairs deliberately strengthen mainstream and genre-defin
 - `022200` then `023000`: Frank Herbert, *Dune* (1965). The single story lecture covers **the first novel**, not its film versions or sequels, from the imperial trap through Paul and Jessica's Fremen lives, the spice monopoly and Paul's victory with its unresolved religious consequences. The analysis treats ecology, political economy, Bene Gesserit engineering, Indigenous and Islamic resonances, narrative perspective and the danger of a messianic leader.
 
 In each case, narration is a complete spoiler-containing account before interpretation. There is no runtime or word quota: the plots determine how much explanation and pacing they require. Later books and adaptations are not silently imported into first-novel summaries. The pack is wholly within Agent A's authoring boundary.
+
+## Mainstream expansion: Joseph Heller, John Steinbeck, Aldous Huxley
+
+The following story-first pairs continue the sequence without imposing any runtime ceiling or dividing a novel for a time target:
+
+- `023200` then `024000`: Joseph Heller, *Catch-22* (1961). A connected telling of Yossarian, the Pianosa squadron, Cathcart, Milo, Nately, Rome, Snowden, and the uncertain attempt to reach Sweden; analysis of recursive narration, administrative logic, satire, self-preservation, and moral responsibility. The interpretation does **not** treat the novel's invented command as a literal military history.
+- `024200` then `025000`: John Steinbeck, *The Grapes of Wrath* (1939). The Joads' departure from Oklahoma, losses on the road, work and exploitation in California, Tom's departure, and the stillbirth and barn ending; analysis of intercalary chapters, land and labor, the social family, and historical sources. The 1940 film's altered ending is **not** substituted for the novel's ending. Tom Collins's federal camp research and Sanora Babb's fieldwork receive specific attribution, while claims of direct borrowing are appropriately qualified.
+- `025200` then `026000`: Aldous Huxley, *Brave New World* (1932). The Hatchery, Bernard, Lenina, Helmholtz, Linda, John, Mond, the soma revolt, exile, and the lighthouse ending; analysis of socially engineered desire, caste, commodified dissent, and limits of both the State's and John's positions. The comparison with Orwell's *Nineteen Eighty-Four* is critical rather than reducing the novels to a slogan.
+
+These pairs add more widely read twentieth-century fiction, alongside rather than in place of the track's global and formal range. Their historical records distinguish original novels, secondary plot guides, publisher commentary, government archives, and archival research. Original prose retellings are not substitutions for the copyrighted books.
 
 ## Editorial principles
 
