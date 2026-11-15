@@ -1,6 +1,6 @@
 # Comedy: Theory, History, and Craft
 
-**Current collection:** 26 substantive, standalone audio-first manuscripts, including an extended modern theory sequence.
+**Current collection:** 34 substantive, standalone audio-first manuscripts, including an extended modern theory sequence.
 
 ## Completed lectures
 
@@ -11,7 +11,7 @@
 - 005000: [Rakugo and Manzai: One Voice, Two Voices, and the Comic City](005000-rakugo-and-manzai.md) (2,689 spoken words; approximately 18.5 minutes at 145 words per minute).
 - 006000: [China and Comic Speech: Xiangsheng, Language, and Public Life](006000-china-and-comic-speech.md) (2,930 spoken words; approximately 20.2 minutes at 145 words per minute).
 
-## Modern schools of thought (extended introduction plus nineteen specialized lectures)
+## Modern schools of thought (extended introduction and specialized lectures)
 
 The initial seven specialized lectures retain IDs `031000`–`037000`: the historical/craft curriculum reserves `007000`–`030000`. The extended orientation uses `030500`, after the reserved sequence and before the specialized work. It is separately listenable and does not imply the historical proposals are complete.
 
@@ -61,7 +61,7 @@ Comparisons among lineages are tools for understanding their different artistic 
 
 ## Planned continuation
 
-The historical deep dives 003000–006000 are complete. The remaining proposed historical episodes are 007000–030000; the modern theory sequence now runs through 049000.
+The historical deep dives 003000–006000 are complete. The remaining proposed historical episodes are 007000–030000; the modern theory sequence now runs through 057000.
 
 The full staged curriculum is in [`docs/planning/comedy-theory-history-curriculum.md`](../../docs/planning/comedy-theory-history-curriculum.md). Titles not listed under completed lectures remain proposals.
 
@@ -70,3 +70,22 @@ The full staged curriculum is in [`docs/planning/comedy-theory-history-curriculu
 Source records: `metadata/sources.json`; per-lecture metadata: `metadata/<id>.json`. Only text within the spoken lecture delimiters is narrated. Companion notes, exercises, bibliography, and claim anchors remain display-only.
 
 This collection is text only and contains no generated images or audio.
+
+
+## Cross-cultural humor, translation, and multilingual performance (050000-053000)
+
+These four audio-first lectures distinguish verbal equivalence from comic action, examine the knowledge that audiences contribute, and compare translation of scripted audiovisual timing with multilingual comedy as social performance. Sources are verified against scholarly publisher or institution records; all teaching scenarios are original. Lengths below measure the finished material rather than constrain it.
+
+- 050000: [When a Joke Crosses Languages: Wordplay, Meaning, and the Translator's Choice](050000-when-a-joke-crosses-languages.md) (2,096 spoken words).
+- 051000: [The Audience Knows Something You Don't: Cultural Allusions, Local Knowledge, and Humor](051000-the-audience-knows-something-you-dont.md) (2,325 spoken words).
+- 052000: [Comedy Under the Clock: Subtitles, Dubbing, and the Shape of a Laugh](052000-comedy-under-the-clock.md) (2,206 spoken words).
+- 053000: [The Multilingual Comic Voice: Code-Switching, Identity, and Who Gets the Joke](053000-the-multilingual-comic-voice.md) (2,424 spoken words).
+
+## Absurdism, surrealism and contemporary formal experimentation (054000–057000)
+
+Four additional standalone, audio-first lectures distinguish the historical Theatre of the Absurd from philosophical accounts of absurdity, Dada/surrealism, and contemporary anti-comedy and nonfiction performance. Source claims cite scholarly publisher, museum, and national-library records; every workshop scene is original. There is no duration target or quota.
+
+- 054000: [The World Stops Explaining Itself: Beckett, Ionesco, and the Comedy of Waiting](054000-the-world-stops-explaining-itself.md) (2,255 spoken words).
+- 055000: [The Surrealist Comic Imagination: Dada, Dream Logic, and the Joke Against Common Sense](055000-the-surrealist-comic-imagination.md) (2,301 spoken words).
+- 056000: [Is Existence a Joke? Camus, Nagel, and the Comic View from Outside](056000-is-existence-a-joke.md) (2,459 spoken words).
+- 057000: [The Scene That Refuses to End: From Surreal Sketch to Reality-Based Anti-Comedy](057000-the-scene-that-refuses-to-end.md) (2,620 spoken words).
