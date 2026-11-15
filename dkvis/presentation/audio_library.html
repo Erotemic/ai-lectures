@@ -90,6 +90,7 @@
 'use strict';
 const $ = id => document.getElementById(id);
 const audio = $('audio');
+let availableAudioTracks=new Map([['g2',{id:'g2',summary:'Comprehensive recordings'}]]);
 const state = {track:'g2', items:[], doc:null, page:0, token:0, audioId:'', loadedAudioKey:null, cacheJob:0, playing:false, profile:null, voiceRequest:0, segments:[], sentenceNodes:[], segmentsByPage:[], nodesByPage:[], pageSections:[], activeSentence:-1, durations:[], pendingSeekFraction:null, scrubbing:false, companionDecks:[], slideBusy:false, slideToken:0, pageTimings:null, pendingSeekSentence:null, inventoryBusy:false, inventoryToken:0, catalogToken:0, cacheCatalog:new Map(), catalogFetched:0, cacheCatalogLoaded:false, cacheCatalogError:false};
 const saved = (key, fallback) => {try {return JSON.parse(localStorage.getItem('dkps-audio-'+key)) ?? fallback} catch {return fallback}};
 const remember = (key, val) => {try {localStorage.setItem('dkps-audio-'+key, JSON.stringify(val))} catch {}};
@@ -618,12 +619,12 @@ $('registerVoice').onclick=async()=>{
 $('lectureProgress').oninput=()=>{state.scrubbing=true;const pos=progressModel();if(pos){const pct=Number($('lectureProgress').value)/100;$('lecturePercent').textContent=pct.toFixed(1)+'%';$('lectureRemaining').textContent=`Seek to ${clock(pos.total*pct/100/Math.max(.25,Number($('rate').value)||1))}`}};
 $('lectureProgress').onchange=()=>{const fraction=Number($('lectureProgress').value)/10000;state.scrubbing=false;seekLectureFraction(fraction)};
 async function switchTrack(track){
-  if(!['g2','g3','history','world-history','world-reconsidered','category-theory','logic-types','optimization-duality','probability-measure','modern-literature','deep-time','fiction-writing','comedy-history'].includes(track))return;
+  if(!availableAudioTracks.has(track))return;
   state.track=track;state.inventoryToken++;state.catalogToken++;state.cacheCatalog=new Map();state.cacheCatalogLoaded=false;state.cacheCatalogError=false;state.catalogFetched=0;state.token++;state.cacheJob++;state.doc=null;state.items=[];state.audioId='';state.loadedAudioKey=null;
   audio.pause();audio.removeAttribute('src');audio.load();$('content').hidden=true;$('empty').hidden=true;
   $('loading').hidden=false;$('loading').textContent='Loading '+track.toUpperCase()+' lectures…';
   document.querySelectorAll('[data-track]').forEach(b=>b.setAttribute('aria-current',b.dataset.track===track?'page':'false'));
-  $('trackDescription').textContent=({
+  $('trackDescription').textContent=availableAudioTracks.get(track)?.summary || ({
     'world-history':'Standalone historical lectures · people, events, sources, and societies',
     'world-reconsidered':'Question-centered lectures · evidence, explanations, and worked models',
     'category-theory':'Introduction to category theory · examples, universal properties, and proofs',
@@ -637,7 +638,7 @@ async function switchTrack(track){
     'g2':'Comprehensive recordings · foundations and theorem development',
       'fiction-writing':'Fiction craft · character, scene, structure, worldbuilding, and revision',
     'comedy-history':'Comedy scholarship · laughter theories, history, performance, and craft',
-})[track];
+})[track] || '';
   const queryParams=new URLSearchParams(location.search);const requestedLecture=queryParams.get('track')===track?queryParams.get('lecture'):null;
   try{history.replaceState(null,'','/audio?'+new URLSearchParams({track}));}catch{}
   try{
@@ -662,10 +663,20 @@ async function init(){
   for(const id of ['autoNext','prefetch'])$(id).checked=Boolean(saved(id,true));
   $('followText').checked=Boolean(saved('followText',false));
   try{
-    const [tracks,profiles]=await Promise.all([api('/api/audio-tracks'),api('/api/audio-profiles')]);
+    // Populate TTS options independently: a track catalog error must not
+    // hide configured profiles, including private tts.local.toml entries.
+    const profiles=await api('/api/audio-profiles');
+    const select=$('profile');
+    for(const row of profiles.profiles){const option=document.createElement('option');option.value=row.id;option.textContent=row.label;select.append(option)}
+    const preferred=saved('profile',profiles.default_profile);
+    select.value=profiles.profiles.some(row=>row.id===preferred)?preferred:profiles.default_profile;
+    try{await refreshVoices(select.value)}catch(err){setStatus('Could not load voices: '+err.message,true)}
+
+    const tracks=await api('/api/audio-tracks');
     // Build the reader tabs from the server's discovered track manifests.
     const nav=$('courseTracks');
-    for(const track of tracks.tracks.filter(item=>item.kind==='audio')){
+    availableAudioTracks=new Map(tracks.tracks.filter(item=>item.kind==='audio').map(item=>[item.id,item]));
+    for(const track of availableAudioTracks.values()){
       const button=document.createElement('button');
       button.type='button';
       button.dataset.track=track.id;
@@ -673,13 +684,8 @@ async function init(){
       button.onclick=()=>switchTrack(track.id);
       nav.insertBefore(button,$('g4Link'));
     }
-    const availableAudioTracks=new Set(tracks.tracks.filter(x=>x.kind==='audio').map(x=>x.id));
+    const requested=new URLSearchParams(location.search).get('track');
     const desired=availableAudioTracks.has(requested)?requested:'g2';
-    const select=$('profile');
-    for(const row of profiles.profiles){const option=document.createElement('option');option.value=row.id;option.textContent=row.label;select.append(option)}
-    const preferred=saved('profile',profiles.default_profile);
-    select.value=profiles.profiles.some(row=>row.id===preferred)?preferred:profiles.default_profile;
-    await refreshVoices(select.value);
     await switchTrack(desired);
     window.setInterval(()=>{
       if(state.doc)refreshInventory();
