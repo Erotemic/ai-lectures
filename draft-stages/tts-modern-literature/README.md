@@ -4,32 +4,28 @@ Long-form audio lectures on fiction published in the twentieth century. Story-fi
 
 ## Story-first listening order
 
-Listeners do not need to have read or recently reread a novel before hearing its
-analysis. Each literary work should acquire a **story-orientation sequence**:
-original spoken plot narration in chronological/listenable order, followed by
-the existing critical reading. These are distinct lecture types. A plot lecture
-may devote its whole length to telling what happens, without interrupting to
-analyze symbols, craft, or historical debates; the analysis lecture then has
-permission to examine scenes deeply without spending its opening re-telling the
-entire book.
+The story orientations are complete plot summaries intended for a listener who has
+not read the novel. They disclose the ending. Listen to the numbered sequence of
+story episodes immediately before the analysis. The story chapters avoid critical
+analysis of symbolism, narrative technique, and historical debates; those belong
+in the existing interpretive lectures.
 
-For **Harper Lee, *To Kill a Mockingbird***, the listening order is:
+| Novel | Story-first IDs | Analysis ID |
+| --- | --- | --- |
+| *To Kill a Mockingbird* | 000200, 000500, 000800 | 001000 |
+| *Things Fall Apart* | 001200, 001500, 001800 | 002000 |
+| *Beloved* | 002200, 002500, 002800 | 003000 |
+| *The Remains of the Day* | 003300, 003600 | 004000 |
+| *The Left Hand of Darkness* | 004200, 004500, 004800 | 005000 |
+| *One Hundred Years of Solitude* | 005200, 005500, 005800 | 006000 |
+| *Kindred* | 006200, 006600 | 007000 |
+| *Invisible Man* | 007200, 007500, 007800 | 008000 |
+| *The Dispossessed* | 008200, 008500, 008800 | 009000 |
 
-1. `000200` — The Story, Part One: Maycomb and the Radleys.
-2. `000500` — The Story, Part Two: Tom Robinson's Trial.
-3. `000800` — The Story, Part Three: After the Verdict.
-4. `001000` — The Stories a Town Tells About Itself (interpretive analysis).
-
-These prequels are plot guides in original language, **not readings of the
-copyrighted book**. Their details are grounded in the book and annotated reader
-resources. All four parts contain spoilers; the original novel remains worth
-reading for its language, voice, rhythm, and nuanced scenes.
-
-The existing `002000`–`009000` recordings are **analyses awaiting story-first
-introductions**. Their absence is tracked as pending work, never as phantom
-manifest entries. Reserve available IDs between each predecessor's thousand and
-the analysis ID for introductions (for example, between `001000` and `002000`
-for *Things Fall Apart*). Add only completed, sourced manuscripts to `track.json`.
+The analyses have not been rewritten. Every story and analysis ID remains stable.
+No word-count or chapter-count quota is imposed; division reflects the material.
+These are narrated summaries in original prose, not adaptations or substitutes
+for the novels' full language and scenes.
 
 ## Promoted lectures
 

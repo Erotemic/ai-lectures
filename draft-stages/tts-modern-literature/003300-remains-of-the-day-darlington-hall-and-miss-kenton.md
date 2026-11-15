@@ -1,0 +1,33 @@
+# The Remains of the Day — The Story, Part 1: Darlington Hall and Miss Kenton
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+The Remains of the Day is told by Stevens, an English butler who has spent his working life in a great country house. It is 1956 when he begins his story, but most of what he tells us happened years earlier. We will follow the events in the order that makes his life easiest to grasp. The novel itself moves between a motoring holiday and memories that Stevens offers slowly, often while believing he is explaining something else.
+
+Stevens learned his profession from a father who also worked as a butler. The elder Stevens believed in dignity, reserve, and absolute reliability. The son has taken these qualities as the basis of his whole life. He works at Darlington Hall, where the owner, Lord Darlington, receives diplomats, politicians, and visiting gentlemen who discuss the aftermath of the First World War and the future of Europe. Stevens considers it a privilege to serve a household where consequential people meet. A great butler, he believes, does not ask to become the protagonist of history. His achievement is to make the house function while its master attends to affairs beyond the servants' rooms.
+
+Stevens's father grows old while still working at the Hall. His strength and coordination decline, and there are accidents that would once have been impossible. Stevens is forced to accept that his father cannot carry out all his former duties, but the conversation remains formal, as if both men are discussing a staffing problem. Stevens manages his emotions in the same way he manages schedules and silver: by moving them out of sight so the work can continue.
+
+A new housekeeper, Miss Kenton, joins the staff. She is capable, direct, and willing to challenge Stevens when his rules produce absurd or hurtful results. They disagree over how to manage people, whether the old man's declining health should be acknowledged, and what counts as proper concern between colleagues. She sees Stevens's attachment to professional language and tries, sometimes gently and sometimes with frustration, to draw him into ordinary human conversation. He is attentive to her competence and to the smooth running of their shared household. What he rarely admits, even to himself, is how much her companionship matters.
+
+Lord Darlington organizes important gatherings intended to help reshape relations among European powers. At one conference Stevens manages a demanding service schedule while his father lies dying upstairs. He is told how ill the elder man has become. He continues to serve the guests. Eventually his father dies. Stevens does not leave his work to mourn in the way another son might. Later he describes the evening with pride in his professional control, while also revealing how much was at stake for him personally. The two events cannot be separated: the great diplomatic meeting and the death in the servants' quarters occurred in the same house, on the same night.
+
+Over time Lord Darlington becomes involved with political figures who advocate conciliating Nazi Germany. Stevens sees much of this through the practical needs of running a house: visitors to accommodate, rooms to prepare, questions that should not be asked. Yet political choices enter the servants' lives directly. Lord Darlington orders that two Jewish young women on the staff be dismissed. Miss Kenton is appalled and tells Stevens that the action is wrong. Stevens answers that it is the employer's decision, beyond the legitimate discretion of servants. The women leave. Miss Kenton does not, despite saying that she wishes she could. Lord Darlington later regrets the dismissals, but the damage to the dismissed employees has already been done.
+
+There is a young guest at Darlington Hall, Reginald Cardinal, who gradually realizes how closely the estate's political gatherings are tied to dangerous ambitions beyond England. He tries to speak with Stevens about the consequences of Lord Darlington's associations. Stevens can describe the order of service, the guest list, and the correct conduct of a butler, but he cannot easily move from those duties into judging the purposes for which his employer is using the house. Cardinal's alarm is one more warning Stevens hears without allowing it to interrupt the work.
+
+On smaller occasions Miss Kenton also tries to reach the person behind Stevens's reserve. She brings flowers to his pantry, finds him reading, and asks whether he ever allows himself pleasures that are not part of the job. Stevens protects his privacy as if every question were an intrusion. Their arguments can be amusing and awkward, but they accumulate. When Miss Kenton receives attention from another man, Stevens can see the possibility of her leaving. He cannot say what he feels. She eventually decides to marry a man named Benn and leave the house. Stevens accepts her decision in the manner of a supervisor acknowledging a resignation. To anyone watching from outside, he may appear almost indifferent.
+
+The years pass. Lord Darlington's political hopes are discredited by the war and by what becomes known about the Nazis. Stevens remains loyal to a memory of his master as a decent gentleman who wanted peace, even though that account cannot absorb all that his employer helped to enable. Darlington dies. The estate is purchased by an American businessman, Mr. Farraday. Stevens stays on with a smaller staff, trying to preserve his professional standards in a household no longer organized like the one he served for decades.
+
+This is the Stevens who will set out on the road in 1956. He has an almost empty great house behind him, a new employer who expects a different kind of human warmth, and a letter from Miss Kenton, now Mrs. Benn, that seems to suggest she may be unhappy. Stevens decides that a journey to see her might solve a staffing problem at Darlington Hall. It might also allow him to say something he has avoided saying for most of his adult life. He does not quite put the second possibility into words.
+
+<!-- END SPOKEN LECTURE -->
+
+## Listening companion
+
+**Reading order:** Story orientation 1 of 2 for The Remains of the Day; continue with the next story episode or the existing critical analysis. Spoilers include the ending.
+
+These episodes are independent, original-language plot summaries, not dramatic recreations or recordings of the novel. Their purpose is to establish the characters and narrative events before criticism; the author's novel remains the source for the complete literary experience.
+
+**References:** The Remains of the Day (primary text); [SparkNotes, The Remains of the Day: Plot Summary](https://www.sparknotes.com/lit/remains/summary/).
