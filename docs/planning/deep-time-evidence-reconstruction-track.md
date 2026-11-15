@@ -1,6 +1,6 @@
 # Deep Time — reconstructing what happened, and how we know
 
-**Status:** New curriculum plan, 14 November 2026. Twenty-nine substantive lectures delivered (`001000` through `029000`); remaining IDs proposed and not represented as completed manuscripts. This track complements *World History*, the *How We Know* archaeology strand, *The Physical World*, and *The World Reconsidered*. Its identity is a chronological reconstruction from observable traces, reaching backward as far as current methods allow.
+**Status:** New curriculum plan, 14 November 2026. Thirty-two substantive lectures delivered (`001000` through `032000`); the initial curriculum is complete. This track complements *World History*, the *How We Know* archaeology strand, *The Physical World*, and *The World Reconsidered*. Its identity is a chronological reconstruction from observable traces, reaching backward as far as current methods allow.
 
 ## The question
 
@@ -74,9 +74,9 @@ Six arcs are navigational groupings. Numbers are reserved proposals within the `
 | 027000 | **Delivered** | Societies | **Ice Ages and the Landscapes People Inhabited** | Ice cores, ocean cores, pollen, orbital cycles and archaeology; dating regional transitions and abrupt change |
 | 028000 | **Delivered** | Societies | **Why Farming Began in Different Places** | Dated seeds, domestication signatures, settlement, land use; climate, population, agency, multiple independent pathways |
 | 029000 | **Delivered** | Societies | **Before Writing: Networks, Rituals, and Political Organization** | Dwellings, burials, trade materials, ancient DNA and sampling bias; what material remains cannot reveal |
-| 030000 | Proposed | Societies | **Written History and the Problem of Missing Voices** | Decipherment, epigraphy, oral histories, archives and archaeology; rhetoric and selective survival in written sources |
-| 031000 | Proposed | Synthesis | **When a New Discovery Rewrites Deep History** | Three case studies of revised dates or models; compare error bars, systematic uncertainty, and scientific correction |
-| 032000 | Proposed | Synthesis | **What the Evidence Cannot Currently Recover** | Cosmic horizons, unpreserved rock, extinct lineages, undiscovered archives; the boundary between ignorance and testable proposals |
+| 030000 | **Delivered** | Societies | **Written History and the Problem of Missing Voices** | Decipherment, epigraphy, oral histories, archives and archaeology; rhetoric and selective survival in written sources |
+| 031000 | **Delivered** | Synthesis | **When a New Discovery Rewrites Deep History** | Three case studies of revised dates or models; compare error bars, systematic uncertainty, and scientific correction |
+| 032000 | **Delivered** | Synthesis | **What the Evidence Cannot Currently Recover** | Cosmic horizons, unpreserved rock, extinct lineages, undiscovered archives; the boundary between ignorance and testable proposals |
 
 ## First lecture evidence scope (001000)
 

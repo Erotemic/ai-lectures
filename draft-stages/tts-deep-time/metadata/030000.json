@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "lecture_id": "030000",
+  "transcript": "030000-written-history-missing-voices.md",
+  "related_resources": [
+    {
+      "source_id": "dt-final-writing-met",
+      "reason": "Mesopotamian early administrative writing and historical scope"
+    },
+    {
+      "source_id": "dt-final-writing-loc",
+      "reason": "Tablet preservation, school exercises and archive genres"
+    },
+    {
+      "source_id": "dt-final-maya-tulane",
+      "reason": "Decipherment of Maya history and syllabic writing"
+    },
+    {
+      "source_id": "dt-final-herculaneum-esrf",
+      "reason": "2026 recovered Herculaneum papyrus text"
+    },
+    {
+      "source_id": "dt-final-nmai-oral",
+      "reason": "Oral traditions, pictography and winter counts"
+    },
+    {
+      "source_id": "dt-final-smithsonian-oral",
+      "reason": "Oral history methodology"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "030000-e01",
+      "anchor": "Some of the earliest surviving Mesopotamian tablets",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-final-writing-met"
+      ],
+      "source_locator": "Late fourth millennium BCE administrative records",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "030000-e02",
+      "anchor": "At the Library of Congress, a modest collection of cuneiform tablets",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-final-writing-loc"
+      ],
+      "source_locator": "Collection composition and scribal exercises",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "030000-e03",
+      "anchor": "Ancient Maya writing offers a striking history",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-final-maya-tulane"
+      ],
+      "source_locator": "Twentieth century Maya decipherment",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "030000-e04",
+      "anchor": "By 2026, high-resolution X-ray tomography",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-final-herculaneum-esrf"
+      ],
+      "source_locator": "PHerc 1667 recovered text",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "030000-e05",
+      "anchor": "The Smithsonian's National Museum of the American Indian describes winter counts",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-final-nmai-oral"
+      ],
+      "source_locator": "Winter counts and oral history",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

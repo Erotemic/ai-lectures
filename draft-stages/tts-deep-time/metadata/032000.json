@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032000",
+  "transcript": "032000-what-evidence-cannot-recover.md",
+  "related_resources": [
+    {
+      "source_id": "dt-final-cmb-nasa",
+      "reason": "Photon last-scattering boundary"
+    },
+    {
+      "source_id": "dt-final-proxy-usgs",
+      "reason": "Measurement and reconstruction using natural archives"
+    },
+    {
+      "source_id": "dt-final-ipcc-ar6",
+      "reason": "Independent proxies, indigenous knowledge and context"
+    },
+    {
+      "source_id": "dt-final-herculaneum-esrf",
+      "reason": "Archive recovered via virtual unwrapping"
+    },
+    {
+      "source_id": "dt-final-smithsonian-oral",
+      "reason": "Limitations and significance of oral history"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "032000-e01",
+      "anchor": "In the hot early universe, free electrons scattered photons",
+      "kind": "technical_review",
+      "source_ids": [
+        "dt-final-cmb-nasa"
+      ],
+      "source_locator": "Cosmic transparency and last scattering",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-e02",
+      "anchor": "The Earth has a different kind of archive",
+      "kind": "technical_review",
+      "source_ids": [
+        "dt-final-proxy-usgs",
+        "dt-final-ipcc-ar6"
+      ],
+      "source_locator": "Geological evidence preservation and interpretation",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-e03",
+      "anchor": "The Herculaneum papyri show how one boundary can move",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-final-herculaneum-esrf"
+      ],
+      "source_locator": "Text recovery versus complete loss",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-e04",
+      "anchor": "The hot early universe is supported by expansion observations",
+      "kind": "technical_review",
+      "source_ids": [
+        "dt-final-cmb-nasa"
+      ],
+      "source_locator": "Independent cosmological evidence example",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
