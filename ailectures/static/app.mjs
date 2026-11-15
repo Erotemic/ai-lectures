@@ -587,7 +587,8 @@ async function lecturePage(id, autoplay = false, historical = null) {
       ),
     ),
   );
-  const resources = (row.metadata?.related_resources || [])
+  const resources = (Array.isArray(row.metadata?.related_resources) ? row.metadata.related_resources : [])
+    .filter((r) => r && typeof r === "object")
     .map((r) => ({ ...r, source: row.sources?.[r.source_id] }))
     .filter((r) => r.source && /^https?:\/\//.test(r.source.url));
   if (resources.length)

@@ -166,14 +166,11 @@ def load_release(directory):
         checksum(expected)
         if file_digest(contained(directory, path)) != expected:
             raise ValueError(f"Checksum mismatch: {path}")
-    actual = set()
     for path in directory.rglob("*"):
         if path.is_symlink():
             raise ValueError("Pack symlinks are not supported")
-        if path.is_file():
-            actual.add(path.relative_to(directory).as_posix())
-    if actual != set(sums) | {"pack.json", "checksums.json"}:
-        raise ValueError("Unindexed files in pack")
+    # Side notes and unrelated files do not invalidate declared playable media.
+    # Only indexed payloads participate in the release identity and serving API.
     identity = {k: v for k, v in manifest.items() if k != "release"}
     if digest({"manifest": identity, "checksums": sums}) != manifest.get("release"):
         raise ValueError("Pack release digest mismatch")

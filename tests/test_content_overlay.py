@@ -116,7 +116,7 @@ def test_new_namespace_needs_no_shared_registry(tmp_path):
     assert not (repo / "registry.json").exists()
 
 
-def test_invalid_resulting_inventory_is_rejected_before_mutation(tmp_path):
+def test_incomplete_course_manifest_is_imported_without_a_content_gate(tmp_path):
     repo = tmp_path / "repo"
     repo.mkdir()
     pack(repo, "music")
@@ -128,10 +128,14 @@ def test_invalid_resulting_inventory_is_rejected_before_mutation(tmp_path):
     plan["lectures"] = []
     manifest.write_text(json.dumps(plan))
     build(agent, ["content/music"], tmp_path / "invalid.zip")
-    old = (repo / "content/music/track.json").read_bytes()
-    with pytest.raises(ValueError, match="manifest"):
-        apply(repo, tmp_path / "invalid.zip")
-    assert (repo / "content/music/track.json").read_bytes() == old
+    assert len(apply(repo, tmp_path / "invalid.zip")) == 1
+    from ailectures.catalog import RepositoryCatalog
+
+    catalog = RepositoryCatalog(repo)
+    published = catalog.snapshot()["music"]
+    assert "music:001000" in published["lectures"]
+    assert published["courses"]["music:main"]["lectures"] == []
+    assert catalog.errors  # Editorial diagnostics do not block delivery.
 
 
 def test_source_deletions_require_explicit_review(tmp_path):

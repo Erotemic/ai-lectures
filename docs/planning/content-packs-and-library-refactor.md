@@ -21,6 +21,21 @@ a shared authored registry. All content is accessible without login. Optional
 listener profiles provide remembered progress across devices; they do not grant
 or restrict access.
 
+## Source delivery simplification
+
+Source delivery accepts ordinary pack ZIPs. Snapshot receipts and the earlier
+hash-aware envelope are optional tool conveniences, not authoring requirements.
+An import protects paths and existing work, stages incoming files and undo copies,
+and publishes under the same lock used by catalog reads. Failed or interrupted
+imports recover to the previous source version. Plain ZIPs can replace one
+explicitly owned directory while retaining a backup.
+
+Delivery does not require complete manifests, citations, recordings, or access
+to TTS. The reader discovers unindexed numbered manuscripts outside the declared
+course order, isolates bad items, and keeps usable catalog snapshots across
+restarts. Editorial diagnostics and optional authoring checks remain separate
+from service availability. Routine imports run no tests or media builds.
+
 ## Implementation status
 
 The first implementation now lives in `ailectures/`; see the

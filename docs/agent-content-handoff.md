@@ -1,135 +1,109 @@
-# Independent content authoring while the library evolves
+# Sharing content updates
 
-Content agents can continue now. Give them a committed source snapshot and assign
-each one an existing track or a new namespace. They author the same Markdown,
-per-lecture metadata, reading records, and local course manifests used today.
-The coordinator can keep changing the server, UI, and runtime export format.
-Those implementation changes do not require agents to rewrite their lectures.
+Content agents can send an ordinary ZIP containing their pack directory. They do
+not need a snapshot receipt, a special ZIP format, or knowledge of runtime pack
+internals. Keep each agent's manuscripts, metadata, reading records, and examples
+inside its assigned `content/<namespace>/` or `draft-stages/tts-<namespace>/`
+directory. Server and UI development can continue separately.
 
-The source-overlay envelope is deliberately separate from the runtime pack
-schema. Runtime releases and media transfer are implemented and tested, but can
-continue to be exercised and refined before treating their layout as a permanent
-external authoring API. Agents should use the exporter when needed, rather than
-hand-authoring generated `pack.json`, `catalog.json`, recording indexes, or hashes.
+## Start an authoring backlog
 
-## Prepare a handoff
+Give each independent agent the source ZIP and one distinct pack directory.
+Agents can begin drafting immediately; server work does not need to finish first.
+For a new subject, use the minimal source layout in the
+[content pack guide](content-packs.md#author-an-independent-source-pack).
 
-Commit the source state you intend to share, then run:
+A task you can give an agent:
+
+> Work only in `content/ASSIGNED-NAMESPACE/` (or the existing pack I assigned).
+> Read AGENTS.md and LECTURE_STYLE_RULES.md. Build standalone audio-first
+> lecture sources, keeping stable local lecture IDs and all supporting metadata,
+> reading records, and examples in that directory. You may keep a BACKLOG.md
+> there for planned topics, draft status, and unresolved questions. Return a ZIP
+> of that directory and a short report of new or revised lectures and remaining
+> questions. Do not edit shared registries, server code, or other packs. No TTS,
+> runtime pack build, or repository-wide tests are needed for this handoff.
+
+`BACKLOG.md` is optional authoring context, not a server input or publication
+requirement. Keep revisions under their existing IDs. A new pack needs no central
+reservation file; distinct namespaces keep agents independent. Agents sharing a
+legacy pack must coordinate IDs and merge their additions, as with World History.
+
+## Import a download
+
+For a ZIP containing repository-relative paths:
 
 ```bash
-python tools/content_overlay.py snapshot --output /path/to/ai-lectures-agent-source.zip
+python tools/content_overlay.py apply "$HOME/Downloads/electrical-overlay.zip"
 ```
 
-The archive contains the committed Git tree and a generated
-`SOURCE_SNAPSHOT.json` receipt with the commit and file hashes. It contains no
-Git history or ignored local data: no `.env`, private TTS overrides, recordings,
-audio caches, installed packs, listener history, or experiment output. Transfer
-prepared audio separately when an agent actually needs it.
+The same command accepts older hash-aware overlays. `--check` is an optional
+conflict preview; there is no reason to run it before every import. Importing does
+not run tests, check lecture completeness, start TTS, or build runtime packs.
 
-Agents can unzip this snapshot into their own working directory. The receipt
-must remain unchanged and uncommitted. They can initialize a local Git repository
-for their own commits, but Git history is not required to return an overlay.
-A file-hash receipt allows integration even after the coordinator has made
-unrelated commits.
+A ZIP containing just a pack's files can identify the destination through its
+`track.json`. If the destination is ambiguous, specify it:
 
-## Instructions to send with an assignment
+```bash
+python tools/content_overlay.py apply update.zip --pack content/my-subject
+```
 
-Use an assignment with a concrete owned path, for example
-`draft-stages/tts-music-theory/`, or a new `content/<namespace>/` directory.
-Verify new namespaces and local lecture IDs against the supplied snapshot and
-coordinate ownership. Existing World History ID reservations still apply.
+Identical files are left alone. New files are added. A differing existing file
+is preserved unless a supplied base hash matches. For a plain ZIP updating one
+**exclusively owned** directory, explicitly allow replacement:
 
-Suggested handoff text:
+```bash
+python tools/content_overlay.py apply electrical.zip --replace-owned
+```
 
-> Read AGENTS.md and LECTURE_STYLE_RULES.md before authoring. Own only the
-> assigned source-pack directory. Keep its course manifest, manuscripts,
-> per-lecture metadata, reading source records, and examples together. Continue
-> using the existing authored source format. Do not modify shared reader code,
-> registries, common tests, root documentation, TTS configuration, or generated
-> runtime-pack indexes as part of this content contribution. Put any new series
-> notes or example validators inside your assigned directory. Preserve the
-> SOURCE_SNAPSHOT.json receipt. Return a source overlay and a short change report.
-> Include any unresolved source or teaching questions; do not hide them in audio.
+This option is limited to one pack. The importer keeps the previous files in
+an ignored `.content-update/` recovery directory and prints its location. ZIP
+omissions never delete existing files. For shared tracks, conflicting edits still
+need a merge; World History additions continue to use
+`tools/merge_world_history_overlay.py` as described in AGENTS.md.
 
-For an existing track, keep its current location and qualified lecture identities.
-For a new track, use `content/<namespace>/track.json` and the layout in the
-[content pack guide](content-packs.md#author-an-independent-source-pack).
-No shared register needs an update for discovery. Avoid moving established
-folders during content authoring; adapters keep them usable during the refactor.
+## Interrupted updates and live reading
 
-A pack can have several contributors, but changes to the same file require a
-merge. Prefer separate pack ownership for this round. For concurrent additions
-inside World History, retain the specialized additive merge workflow documented
-in AGENTS.md; do not replace its shared catalogs with an older snapshot.
+The importer stages incoming files and undo copies before changing sources.
+Catalog reads and imports share a lock, so the server sees the coherent version
+before or after an import. A write error rolls back the import. After a process
+interruption, the next import or catalog read recovers the unfinished update.
 
-## Produce an overlay
+The reader keeps usable catalog snapshots in ignored `.content-state/` storage.
+It can retain a previous lecture across restarts while that file is being fixed.
+Missing or malformed items, unfinished references, and unindexed manuscripts
+produce diagnostics without disabling usable neighboring lectures. Newly
+unindexed numbered manuscripts appear in the library; the declared course order
+remains separate. Direct extraction into an exclusively owned directory still
+works, but bypasses the importer's rollback and coherent-read protection.
 
-From the unpacked snapshot:
+## Packaging is the agent's work
+
+A normal ZIP of the assigned pack is sufficient. The optional helper handles
+packaging details:
 
 ```bash
 python tools/content_overlay.py build \
-  --pack draft-stages/tts-music-theory \
-  --output /path/to/music-theory-overlay.zip
+  --pack draft-stages/tts-trades-electrical \
+  --output electrical-overlay.zip
 ```
 
-A new namespace uses `--pack content/<namespace>`. Repeat `--pack` only when an
-agent has been assigned several disjoint directories. The tool packages changed
-and new source files only, with each file's base and resulting SHA-256. It omits
-unchanged files and binary media, and rejects source deletions. Propose removals
-or renames separately for coordinator review so they cannot silently discard
-work. Keep private materials outside source-pack directories.
+Without a receipt it makes an ordinary ZIP. If a source snapshot includes a
+usable receipt, it automatically includes base hashes for changed files. The
+recipient uses the same import command in either case. Receipts help merges;
+they are not a prerequisite for writing or sharing content.
 
-Before returning work, run its relevant example validators, check spoken-region
-extraction, and verify manifest membership and source references. Legacy audio
-tracks use:
+For a source-only handoff of the committed repository:
 
 ```bash
-python tools/lecture_inventory.py
+python tools/content_overlay.py snapshot --output ai-lectures-source.zip
 ```
 
-The new source adapter can also be checked without any speech server:
+That archive excludes ignored settings, recordings, caches, and listener data.
+Its optional receipt is handled by the tools. Agents should return their source
+files and a short change report, not modify generated runtime indexes. See the
+[content pack guide](content-packs.md) for optional prepared-media exports.
 
-```bash
-python - <<'PY'
-from pathlib import Path
-from ailectures.catalog import RepositoryCatalog
-catalog = RepositoryCatalog(Path.cwd())
-catalog.snapshot()
-assert not catalog.errors, catalog.errors
-PY
-```
-
-Return the overlay ZIP, its assigned directories, added/revised lecture IDs,
-validation results, and any deliberate follow-up proposals. The coordinator
-regenerates runtime packs and narration variants from the accepted sources.
-
-## Integrate without replacing concurrent work
-
-On the coordinator's current checkout:
-
-```bash
-python tools/content_overlay.py apply /path/to/music-theory-overlay.zip --check
-python tools/content_overlay.py apply /path/to/music-theory-overlay.zip
-```
-
-The installer verifies scope and checksums, checks every existing file against
-its base hash, and validates the resulting track before writing. The coordinator's
-HEAD does not have to equal the snapshot commit. Unrelated server work and other
-pack updates survive. Reapplying an identical overlay is harmless.
-
-If a touched file changed independently, the entire preflight fails before
-writing. Merge that specific conflict against the current source; do not bypass
-it with `unzip -o`. The helper does not perform arbitrary textual or semantic
-merges, execute incoming validators, commit changes, or delete files. Successful
-writes publish manifests last so source discovery can retain its previous valid
-view while new manuscripts and metadata arrive.
-
-For World History additions that share catalogs with other authors, use
-`tools/merge_world_history_overlay.py` as required by AGENTS.md. The older
-completion-campaign `apply_track_overlay.py` has fixed campaign ownership and
-lacks this general base-hash contract; it should not be the default for new
-handoffs.
-
-After integration, run the inventory and relevant tests, review the source diff,
-and commit the accepted contribution. Runtime pack export/install can happen
-independently of when agents finish their next writing batch.
+Content checks remain authoring tools. Run a relevant example validator when
+changing its example or logic; run focused importer/server tests when changing
+that code. Routine content delivery does not require a repository-wide test run.

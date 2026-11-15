@@ -74,16 +74,19 @@ A minimal `track.json`:
 ```
 
 The Markdown uses the existing single `BEGIN SPOKEN LECTURE` / `END SPOKEN
-LECTURE` HTML-comment pair. The shared extractor is now `ailectures.core.extract`;
+LECTURE` HTML-comment pair. The shared extractor is now `ailectures.core.extract_text`;
 the original script remains a compatible command. Reading references in sidecars
-must resolve in the pack's `metadata/sources.json`. Legacy G2/G3 source-catalog
-fallbacks are resolved into explicit records at export time.
+should resolve in the pack's `metadata/sources.json`; missing reading records
+produce diagnostics while usable lectures remain available. Legacy G2/G3
+source-catalog fallbacks are resolved into explicit records at export time.
 
-Source discovery retains the last valid snapshot while a manuscript or manifest
-is being written. For independently transferred updates, publish immutable
-releases rather than copying over a live source tree. Agents changing the same
-source pack still need branches/worktrees or a deliberate merge. Existing World
-History contributions continue to use `tools/merge_world_history_overlay.py`.
+For source handoffs, agents can return ordinary ZIPs of their assigned directory;
+see the [handoff guide](agent-content-handoff.md). The source importer retains
+conflicting originals and makes updates recoverable. Source discovery retains
+usable snapshots across restarts while individual files are being fixed.
+Agents changing the same source pack still need a deliberate merge. Existing
+World History contributions continue to use `tools/merge_world_history_overlay.py`.
+Use the immutable releases below when transferring prepared playback packs.
 
 ## Export and transfer
 
@@ -266,8 +269,9 @@ Schema version 1 is validated by `ailectures.packs.load_release`:
   measured/interpolated timing records, and an explicit completeness flag.
 - `checksums.json` indexes every payload file. The release digest hashes the
   canonical manifest without its own digest, together with that checksum index.
-  Unindexed files, escaping paths, links, unsupported schemas, and damaged bytes
-  are rejected. Installation always stages and validates before activation.
+  Escaping paths, links, unsupported schemas, and damaged declared payloads
+  are rejected. Unindexed side notes are ignored. Installation stages and
+  validates declared payloads before activation.
 
 New renderers and synchronized music/visual production can attach companion
 sources and artifacts later. Existing validated score JSON and source notes are

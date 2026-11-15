@@ -5,102 +5,232 @@ from __future__ import annotations
 from copy import deepcopy
 from pathlib import Path
 import re
+import json
 import threading
 
-from .core import digest, extract_text, lecture_revision, name, read_json, text_digest
+from .core import (
+    digest,
+    extract_text,
+    lecture_revision,
+    name,
+    qualified,
+    read_json,
+    text_digest,
+)
+from .source_updates import atomic_bytes, source_lock
 
 LECTURE_FILE = re.compile(r"^([0-9]{6})-.*\.md$")
 
 
-def referenced_sources(metadata, sources):
-    keys = {r["source_id"] for r in metadata.get("related_resources", [])}
-    keys.update(
-        key
-        for claim in metadata.get("historical_claims", [])
-        for key in claim.get("source_ids", [])
-    )
+def referenced_sources(metadata, sources, issue=lambda message: None):
+    keys = set()
+    for reading in (
+        metadata.get("related_resources", [])
+        if isinstance(metadata.get("related_resources", []), list)
+        else []
+    ):
+        if isinstance(reading, dict) and isinstance(reading.get("source_id"), str):
+            keys.add(reading["source_id"])
+    for claim in (
+        metadata.get("historical_claims", [])
+        if isinstance(metadata.get("historical_claims", []), list)
+        else []
+    ):
+        if isinstance(claim, dict) and isinstance(claim.get("source_ids", []), list):
+            keys.update(key for key in claim["source_ids"] if isinstance(key, str))
     missing = keys - sources.keys()
     if missing:
-        raise ValueError(f"Undefined reading sources: {sorted(missing)}")
-    return {key: sources[key] for key in sorted(keys)}
+        issue(f"Undefined reading sources: {sorted(missing)}")
+    return {key: sources[key] for key in sorted(keys & sources.keys())}
 
 
-def repository_track(directory):
+def repository_track(directory, *, previous=None, strict=False):
+    """Discover usable lectures, isolating editorial and per-file problems.
+
+    strict=True is an optional authoring check, never the delivery/import gate.
+    """
     directory = Path(directory)
-    manifest = directory / "track.json"
+    previous = previous or {}
+    warnings = []
+
+    def issue(message):
+        if strict:
+            raise ValueError(message)
+        warnings.append(f"{directory.name}: {message}")
+
+    def load(path, fallback):
+        try:
+            value = read_json(path)
+            if not isinstance(value, dict):
+                raise ValueError("expected a JSON object")
+            return value
+        except (OSError, ValueError) as exc:
+            issue(f"{path.name}: {exc}")
+            return fallback
+
+    guessed = {"tts-lectures": "g2", "tts-paper": "g3"}.get(
+        directory.name, directory.name.removeprefix("tts-")
+    )
+    namespace = previous.get("id", guessed)
     plan = (
-        read_json(manifest)
-        if manifest.exists()
-        else {
-            "id": "g2",
-            "title": "Operator Theory and Spectral Perturbation",
-            "summary": "Comprehensive audio lectures from foundations through Davis–Kahan.",
-            "lectures": [
-                {"id": p.name[:6], "file": p.name}
-                for p in sorted(directory.glob("*.md"))
-                if LECTURE_FILE.fullmatch(p.name)
-            ],
-        }
+        load(directory / "track.json", {})
+        if (directory / "track.json").exists()
+        else {}
     )
-    namespace = name(plan["id"])
-    rows = plan["lectures"]
-    files = {p.name for p in directory.glob("*.md") if LECTURE_FILE.fullmatch(p.name)}
-    names = [row["file"] for row in rows]
-    ids = [row["id"] for row in rows]
-    if (
-        len(set(ids)) != len(ids)
-        or len(set(names)) != len(names)
-        or set(names) != files
-    ):
-        raise ValueError(f"{namespace}: manifest does not match manuscripts")
+    try:
+        namespace = name(plan.get("id", namespace))
+    except ValueError:
+        issue("Invalid track ID; using the previous identity or directory name")
+        namespace = name(namespace)
+    old_course = next(iter(previous.get("courses", {}).values()), {})
+    title = (
+        plan.get("title")
+        or old_course.get("title")
+        or (
+            "Operator Theory and Spectral Perturbation"
+            if namespace == "g2"
+            else namespace.replace("-", " ").title()
+        )
+    )
+    files = {
+        p.name: p
+        for p in sorted(directory.glob("*.md"))
+        if LECTURE_FILE.fullmatch(p.name)
+    }
+    declared = plan.get("lectures")
+    if not isinstance(declared, list):
+        if declared is not None:
+            issue("Lecture list is malformed; discovering numbered manuscripts")
+        declared = [{"id": path[:6], "file": path} for path in files]
+        old_order = old_course.get("lectures", [])
+        if old_order:
+            declared.sort(
+                key=lambda row: (
+                    old_order.index(namespace + ":" + row["id"])
+                    if namespace + ":" + row["id"] in old_order
+                    else len(old_order)
+                )
+            )
+    entries = []
+    seen_ids, seen_files = set(), set()
+    course_members = []
+    for entry in declared:
+        try:
+            if not isinstance(entry, dict):
+                raise ValueError("lecture entry is not an object")
+            filename, local_id = entry["file"], entry["id"]
+            qualified(namespace + ":" + local_id)
+            if (
+                not isinstance(filename, str)
+                or Path(filename).name != filename
+                or not filename.endswith(".md")
+            ):
+                raise ValueError(
+                    "lecture filename must name a Markdown file in this directory"
+                )
+            if local_id in seen_ids or filename in seen_files:
+                raise ValueError(f"duplicate lecture identity or filename: {local_id}")
+            seen_ids.add(local_id)
+            seen_files.add(filename)
+            entries.append(entry)
+            course_members.append(namespace + ":" + local_id)
+        except (KeyError, TypeError, ValueError) as exc:
+            issue(str(exc))
+    for filename in files:
+        if filename not in seen_files:
+            local_id = filename[:6]
+            if local_id in seen_ids:
+                issue(f"Ambiguous manuscript {filename}; another file uses this ID")
+                continue
+            entries.append({"id": local_id, "file": filename})
+            seen_ids.add(local_id)
+            issue(
+                f"{filename} is not indexed; available in the library outside the course order"
+            )
     source_path = directory / "metadata" / "sources.json"
-    if not source_path.exists():
+    if not source_path.exists() and directory.name in {"tts-lectures", "tts-paper"}:
         source_path = directory.parent / "tts-lectures" / "metadata" / "sources.json"
+    old_sources = {
+        key: source
+        for row in previous.get("lectures", {}).values()
+        for key, source in row.get("sources", {}).items()
+    }
     source_catalog = (
-        read_json(source_path).get("sources", {}) if source_path.exists() else {}
+        load(source_path, {"sources": old_sources}).get("sources", {})
+        if source_path.exists()
+        else old_sources
     )
+    if not isinstance(source_catalog, dict):
+        issue(
+            "Reading source catalog is malformed; using available recorded references"
+        )
+        source_catalog = old_sources
     lectures = {}
-    for entry in rows:
-        filename = entry["file"]
-        if not LECTURE_FILE.fullmatch(filename) or filename[:6] != entry["id"]:
-            raise ValueError(f"{namespace}: invalid lecture filename")
-        path = directory / filename
-        source = path.read_text(encoding="utf-8")
-        transcript = extract_text(source, str(path)).strip()
+    for entry in entries:
+        key = namespace + ":" + entry["id"]
+        old = previous.get("lectures", {}).get(key)
+        path = directory / entry["file"]
+        try:
+            source = path.read_text(encoding="utf-8")
+            transcript = extract_text(source, str(path)).strip()
+        except (OSError, ValueError) as exc:
+            issue(f"{entry['file']}: {exc}")
+            if old:
+                lectures[key] = deepcopy(old)
+            continue
         sidecar = directory / "metadata" / (entry["id"] + ".json")
-        metadata = read_json(sidecar) if sidecar.exists() else {}
-        title = entry.get("title") or source.splitlines()[0].removeprefix("# ").strip()
-        title = re.sub(r"^\d{6}\s*[—–-]\s*", "", title)
+        metadata = (
+            load(sidecar, old.get("metadata", {}) if old else {})
+            if sidecar.exists()
+            else {}
+        )
+        for field in ("related_resources", "historical_claims"):
+            if field in metadata and not isinstance(metadata[field], list):
+                issue(f"{sidecar.name}: {field} is not a list; ignoring that field")
+                metadata[field] = []
+        if "related_resources" in metadata:
+            readings = metadata["related_resources"]
+            usable = [reading for reading in readings if isinstance(reading, dict)]
+            if len(usable) != len(readings):
+                issue(f"{sidecar.name}: ignoring malformed reading entries")
+            metadata["related_resources"] = usable
+        heading = source.splitlines()[0].removeprefix(
+            "# "
+        ).strip() or path.stem.replace("-", " ")
+        title_text = (
+            entry.get("title") if isinstance(entry.get("title"), str) else heading
+        )
         row = dict(
-            id=f'{namespace}:{entry["id"]}',
-            title=title,
+            id=key,
+            title=re.sub(r"^\d{6}\s*[—–-]\s*", "", title_text),
             namespace=namespace,
             transcript=transcript,
             spoken_sha256=text_digest(transcript),
             source=source,
             metadata=metadata,
-            sources=referenced_sources(metadata, source_catalog),
+            sources=referenced_sources(metadata, source_catalog, issue),
             section=entry.get("section", ""),
             kind="audio",
             recordings=[],
         )
         row["revision"] = lecture_revision(row)
-        lectures[row["id"]] = row
+        lectures[key] = row
     course = dict(
         id=f"{namespace}:main",
-        title=plan["title"],
-        summary=plan.get("summary", ""),
-        background=plan.get("assumed_background", ""),
-        sections=plan.get("sections", []),
-        lectures=list(lectures),
+        title=title,
+        summary=plan.get("summary", old_course.get("summary", "")),
+        background=plan.get("assumed_background", old_course.get("background", "")),
+        sections=plan.get("sections", old_course.get("sections", [])),
+        lectures=course_members,
     )
     return dict(
         id=namespace,
-        title=plan["title"],
+        title=title,
         lectures=lectures,
         courses={course["id"]: course},
         relationships=[],
         extra_files={},
+        warnings=warnings,
     )
 
 
@@ -111,8 +241,30 @@ class RepositoryCatalog:
         self._packs = {}
         self.errors = []
         self._lock = threading.RLock()
+        self._cache = self.root / ".content-state"
+        self._directories = {}
+        for path in self._cache.glob("*.json"):
+            try:
+                saved = read_json(path)
+                if (self.root / saved["directory"]).is_dir():
+                    saved["pack"]["extra_files"] = {}
+                    self._packs[saved["pack"]["id"]] = saved["pack"]
+                    self._directories[saved["directory"]] = saved["pack"]["id"]
+            except (OSError, ValueError, KeyError, TypeError):
+                continue
 
     def snapshot(self):
+        with self._lock:
+            try:
+                with source_lock(self.root):
+                    return self._read_snapshot()
+            except (OSError, ValueError, KeyError) as exc:
+                self.errors = [
+                    f"Source update unavailable: {exc}; serving the last published catalog"
+                ]
+                return deepcopy(self._packs)
+
+    def _read_snapshot(self):
         with self._lock:
             drafts = self.root / "draft-stages"
             paths = sorted(
@@ -125,7 +277,13 @@ class RepositoryCatalog:
             paths += sorted(drafts.glob("tts-*/examples/*.json"))
             content = self.root / "content"
             directories = sorted(drafts.glob("tts-*")) + sorted(
-                p for p in content.glob("*") if (p / "track.json").is_file()
+                p
+                for p in content.glob("*")
+                if p.is_dir()
+                and (
+                    (p / "track.json").is_file()
+                    or any(LECTURE_FILE.fullmatch(f.name) for f in p.glob("*.md"))
+                )
             )
             paths += sorted(
                 p
@@ -146,26 +304,57 @@ class RepositoryCatalog:
                 errors = []
                 existing = set()
                 for directory in directories:
-                    if (
-                        not (directory / "track.json").exists()
-                        and directory.name != "tts-lectures"
+                    if not (directory / "track.json").exists() and not any(
+                        LECTURE_FILE.fullmatch(f.name) for f in directory.glob("*.md")
                     ):
                         continue
                     try:
-                        pack = repository_track(directory)
+                        rel = directory.relative_to(self.root).as_posix()
+                        previous_id = self._directories.get(rel)
+                        pack = repository_track(
+                            directory, previous=packs.get(previous_id)
+                        )
+                        errors.extend(pack.pop("warnings", []))
                         if pack["id"] in existing:
                             raise ValueError(f'Duplicate track namespace: {pack["id"]}')
                         existing.add(pack["id"])
-                        for doc in ("README.md", "provenance.yaml"):
-                            if (directory / doc).is_file():
-                                pack["extra_files"][doc] = (
-                                    directory / doc
-                                ).read_bytes()
-                        for example in sorted((directory / "examples").glob("*.json")):
-                            pack["extra_files"][
-                                "examples/" + example.name
-                            ] = example.read_bytes()
+                        extras = [
+                            directory / "README.md",
+                            directory / "provenance.yaml",
+                            *sorted((directory / "examples").glob("*.json")),
+                        ]
+                        for extra in extras:
+                            if extra.is_file():
+                                try:
+                                    pack["extra_files"][
+                                        extra.relative_to(directory).as_posix()
+                                    ] = extra.read_bytes()
+                                except OSError as exc:
+                                    errors.append(
+                                        f"{directory.name}/{extra.name}: {exc}"
+                                    )
                         packs[pack["id"]] = pack
+                        self._directories[rel] = pack["id"]
+                        saved = {
+                            "directory": rel,
+                            "pack": {
+                                k: v for k, v in pack.items() if k != "extra_files"
+                            },
+                        }
+                        cache_path = self._cache / (digest(rel) + ".json")
+                        try:
+                            if (
+                                not cache_path.exists()
+                                or read_json(cache_path) != saved
+                            ):
+                                atomic_bytes(
+                                    cache_path,
+                                    json.dumps(saved, ensure_ascii=False).encode(),
+                                )
+                        except (OSError, ValueError) as exc:
+                            errors.append(
+                                f"{directory.name}: could not retain its published snapshot: {exc}"
+                            )
                     except (OSError, ValueError, KeyError, TypeError) as exc:
                         errors.append(f"{directory.name}: {exc}")
                         # A partially written update cannot erase the previous snapshot.

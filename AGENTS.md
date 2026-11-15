@@ -137,9 +137,15 @@ agent source snapshots. Each content agent should own an explicit pack directory
 keep its manuscripts, metadata, source records, and examples together. Existing
 source paths remain supported; new packs can use `content/<namespace>/`.
 
-Use `tools/content_overlay.py` to produce source snapshots and base-hash-checked
-overlays. Do not overwrite the repository with a returned ZIP. Content-only
-overlays must not modify shared server code, global registries, or machine state.
+Ordinary ZIPs of assigned pack directories are supported. Use
+`tools/content_overlay.py apply` for recoverable imports and conflict protection;
+snapshot receipts and hash-aware packaging are optional conveniences handled by
+the tools. Plain ZIP replacements require an explicitly exclusive pack scope.
+Content-only updates must not modify shared server code, global registries, or
+machine state. Keep editorial diagnostics separate from delivery: an unindexed
+manuscript or incomplete citation must not disable usable lectures. Do not run
+repository-wide tests, TTS, or builds for routine content imports; use focused
+checks when changing the relevant tooling.
 Runtime pack files are exporter outputs, not an authoring contract that agents
 need to hand-maintain. The specialized World History merge rules below continue
 to apply to concurrent additions within that shared track.

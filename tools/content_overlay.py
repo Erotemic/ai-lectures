@@ -1,28 +1,27 @@
 #!/usr/bin/env python3
-"""Share source snapshots and merge independently authored content overlays.
+"""Import ordinary content ZIPs or optional hash-aware overlays.
 
-The overlay contract is intentionally independent of the runtime pack format.
-Each changed file carries its source-snapshot hash; stale updates fail before
-writing. Producers never provide a shared registry or server configuration.
+Imports preserve conflicting files, stage replacements with an undo journal,
+and never run content checks, tests, TTS, or runtime builds.
 """
 
 from __future__ import annotations
 
 import argparse
-from contextlib import contextmanager
-import fcntl
 import hashlib
 import io
 import json
 from pathlib import Path, PurePosixPath
-import shutil
 import stat
 import subprocess
 import sys
-import tempfile
 from zipfile import ZipFile, ZIP_DEFLATED
 
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from ailectures.source_updates import apply_files, source_lock
+
 SNAPSHOT = "SOURCE_SNAPSHOT.json"
 OVERLAY = "content-overlay.json"
 TEXT = {".md", ".json", ".yaml", ".yml", ".txt", ".tsv", ".toml", ".py", ".html"}
@@ -109,12 +108,17 @@ def snapshot(repo, output):
 
 def build(repo, packs, output):
     repo = Path(repo).resolve()
-    baseline = json.loads((repo / SNAPSHOT).read_text())
-    if baseline.get("schema_version") != 1:
-        raise ValueError("Unsupported source snapshot")
+    baseline = None
+    if (repo / SNAPSHOT).exists():
+        try:
+            candidate = json.loads((repo / SNAPSHOT).read_text())
+            if candidate.get("schema_version") == 1:
+                baseline = candidate
+        except (OSError, ValueError):
+            pass
     roots = [pack_path(p) for p in packs]
     files, payload = {}, {}
-    for relative in baseline["files"]:
+    for relative in baseline["files"] if baseline else []:
         path = PurePosixPath(relative)
         if any(path.is_relative_to(root) for root in roots) and path.suffix in TEXT:
             if not destination(repo, relative).exists():
@@ -143,7 +147,7 @@ def build(repo, packs, output):
             data.decode("utf-8")
             if b"\0" in data:
                 raise ValueError(f"Binary source payload: {relative}")
-            base = baseline["files"].get(relative)
+            base = baseline["files"].get(relative) if baseline else None
             if sha(data) == base:
                 continue
             files[relative] = {"base_sha256": base, "sha256": sha(data)}
@@ -152,116 +156,166 @@ def build(repo, packs, output):
         raise ValueError("No changed source files in the selected packs")
     manifest = {
         "schema_version": 1,
-        "base_commit": baseline["base_commit"],
+        "base_commit": baseline["base_commit"] if baseline else None,
         "pack_roots": [str(p) for p in roots],
         "files": files,
     }
     with ZipFile(output, "x", compression=ZIP_DEFLATED) as archive:
-        archive.writestr(OVERLAY, encode(manifest))
+        if baseline:
+            archive.writestr(OVERLAY, encode(manifest))
         for path, data in payload.items():
             archive.writestr(path, data)
     return manifest
 
 
-@contextmanager
-def merge_lock(repo):
-    with (repo / ".content-overlay.lock").open("a") as stream:
-        fcntl.flock(stream, fcntl.LOCK_EX)
+class ImportResult(list):
+    def __init__(self, paths, backup=None):
+        super().__init__(paths)
+        self.backup = backup
+
+
+def _infer_root(repo, payload):
+    if "track.json" in payload:
         try:
-            yield
-        finally:
-            fcntl.flock(stream, fcntl.LOCK_UN)
+            namespace = json.loads(payload["track.json"])["id"]
+            if (
+                not isinstance(namespace, str)
+                or not namespace
+                or any(
+                    c not in "abcdefghijklmnopqrstuvwxyz0123456789-_."
+                    for c in namespace
+                )
+            ):
+                raise ValueError("invalid namespace")
+            matches = []
+            for path in [
+                *(repo / "content").glob("*/track.json"),
+                *(repo / "draft-stages").glob("tts-*/track.json"),
+            ]:
+                try:
+                    if json.loads(path.read_text()).get("id") == namespace:
+                        matches.append(path.parent.relative_to(repo).as_posix())
+                except (OSError, ValueError, AttributeError):
+                    continue
+            if len(matches) == 1:
+                return matches[0]
+            if not matches:
+                return "content/" + namespace
+        except (ValueError, KeyError, TypeError):
+            pass
+    raise ValueError(
+        "ZIP destination is ambiguous; supply --pack content/<namespace> or draft-stages/tts-<namespace>"
+    )
 
 
-def validate_candidate(repo, roots, payload):
-    # Use the current extraction/manifest contract, never execute incoming code.
-    if str(ROOT) not in sys.path:
-        sys.path.insert(0, str(ROOT))
-    from ailectures.catalog import repository_track
-
-    with tempfile.TemporaryDirectory(prefix="lecture-overlay-") as tmp:
-        candidate = Path(tmp)
-        for root in roots:
-            existing = destination(repo, str(root))
-            if existing.exists():
-                shutil.copytree(existing, candidate / root, symlinks=True)
-        legacy_sources = repo / "draft-stages/tts-lectures/metadata/sources.json"
-        fallback = candidate / "draft-stages/tts-lectures/metadata/sources.json"
-        if legacy_sources.exists() and not fallback.exists():
-            fallback.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copyfile(legacy_sources, fallback)
-        for path, data in payload.items():
-            target = destination(candidate, path)
-            target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_bytes(data)
-        for root in roots:
-            repository_track(candidate / root)
-
-
-def apply(repo, archive, *, check=False):
-    repo = Path(repo).resolve()
+def _read_archive(repo, archive, pack=None):
+    payload = {}
     with ZipFile(archive) as source:
         entries = source.infolist()
-        names = [e.filename for e in entries]
-        if len(set(names)) != len(names) or OVERLAY not in names:
-            raise ValueError("Missing overlay manifest or duplicate archive entry")
         if sum(e.file_size for e in entries) > 128 * 1024**2:
-            raise ValueError("Source overlay exceeds 128 MiB")
-        manifest = json.loads(source.read(OVERLAY))
-        if manifest.get("schema_version") != 1:
-            raise ValueError("Unsupported overlay version")
-        roots = [pack_path(p) for p in manifest["pack_roots"]]
-        if set(names) != set(manifest["files"]) | {OVERLAY}:
-            raise ValueError("Overlay manifest does not match archive contents")
-        payload = {}
+            raise ValueError(
+                "Source update exceeds 128 MiB; transfer large prepared media separately"
+            )
         for entry in entries:
-            if entry.filename == OVERLAY:
+            if (
+                entry.is_dir()
+                or entry.filename.startswith("__MACOSX/")
+                or PurePosixPath(entry.filename).name == ".DS_Store"
+            ):
                 continue
-            path = safe_path(entry.filename)
-            if (
-                not any(path.is_relative_to(root) for root in roots)
-                or path.suffix not in TEXT
-            ):
-                raise ValueError(f"File outside declared pack: {path}")
-            mode = stat.S_IFMT(entry.external_attr >> 16)
-            if mode not in (0, stat.S_IFREG):
+            if entry.filename in payload:
+                raise ValueError("Duplicate archive entry")
+            safe_path(entry.filename)
+            if stat.S_IFMT(entry.external_attr >> 16) not in (0, stat.S_IFREG):
                 raise ValueError("Only regular source files are accepted")
-            data = source.read(entry)
-            data.decode("utf-8")
-            if (
-                b"\0" in data
-                or sha(data) != manifest["files"][entry.filename]["sha256"]
-            ):
+            payload[entry.filename] = source.read(entry)
+    manifest = json.loads(payload.pop(OVERLAY)) if OVERLAY in payload else None
+    payload.pop(SNAPSHOT, None)
+    if manifest is not None:
+        if manifest.get("schema_version") != 1 or set(payload) != set(
+            manifest["files"]
+        ):
+            raise ValueError("Overlay manifest does not match archive contents")
+        roots = [pack_path(p) for p in manifest["pack_roots"]]
+        for path, data in payload.items():
+            if sha(data) != manifest["files"][path]["sha256"]:
                 raise ValueError("Corrupt source payload")
-            payload[entry.filename] = data
-    with merge_lock(repo):
+        bases = {path: item["base_sha256"] for path, item in manifest["files"].items()}
+    else:
+        bases = {}
+
+        def repository_relative():
+            return all(
+                len(PurePosixPath(p).parts) >= 3
+                and (
+                    PurePosixPath(p).parts[0] == "content"
+                    or PurePosixPath(p).parts[0] == "draft-stages"
+                    and PurePosixPath(p).parts[1].startswith("tts-")
+                )
+                for p in payload
+            )
+
+        enclosing = None
+        if not repository_relative():
+            first = {PurePosixPath(path).parts[0] for path in payload}
+            if len(first) == 1 and all(
+                len(PurePosixPath(path).parts) > 1 for path in payload
+            ):
+                enclosing = next(iter(first))
+                payload = {
+                    path[len(enclosing) + 1 :]: data for path, data in payload.items()
+                }
+        if repository_relative():
+            roots = sorted(
+                {pack_path("/".join(PurePosixPath(p).parts[:2])) for p in payload},
+                key=str,
+            )
+        else:
+            inferred = (
+                "draft-stages/" + enclosing
+                if enclosing and enclosing.startswith("tts-")
+                else None
+            )
+            root = str(pack_path(pack or inferred or _infer_root(repo, payload)))
+            payload = {root + "/" + path: data for path, data in payload.items()}
+            roots = [PurePosixPath(root)]
+    if pack and {str(root) for root in roots} != {str(pack_path(pack))}:
+        raise ValueError("ZIP paths do not match the selected pack")
+    if not payload:
+        raise ValueError("ZIP contains no source files")
+    for path in payload:
+        if not any(safe_path(path).is_relative_to(root) for root in roots):
+            raise ValueError(f"File outside declared pack: {path}")
+    return roots, payload, bases
+
+
+def apply(repo, archive, *, check=False, pack=None, replace_owned=False):
+    repo = Path(repo).resolve()
+    roots, payload, bases = _read_archive(repo, archive, pack)
+    if replace_owned and len(roots) != 1:
+        raise ValueError(
+            "--replace-owned applies to one exclusively owned pack at a time"
+        )
+    with source_lock(repo, write=True):
         pending = {}
         for path, data in payload.items():
             target = destination(repo, path)
-            base = manifest["files"][path]["base_sha256"]
+            base = bases.get(path)
             if target.exists():
                 if not target.is_file():
                     raise OverlayConflict(f"Existing path is not a file: {path}")
                 current = sha(target.read_bytes())
                 if current == sha(data):
                     continue
-                if base is None or current != base:
+                if not replace_owned and (base is None or current != base):
                     raise OverlayConflict(
-                        f"File changed since this agent's snapshot: {path}"
+                        f"Existing file differs: {path}. Original left untouched. For one exclusively owned pack, use --replace-owned."
                     )
-            elif base is not None:
+            elif base is not None and not replace_owned:
                 raise OverlayConflict(f"Previously existing file was removed: {path}")
             pending[path] = data
-        validate_candidate(repo, roots, pending)
-        if not check:
-            # Publish manifests last; source discovery retains its last valid view
-            # while new files and their metadata are being written.
-            ordered = sorted(pending, key=lambda p: (p.endswith("/track.json"), p))
-            for path in ordered:
-                target = destination(repo, path)
-                target.parent.mkdir(parents=True, exist_ok=True)
-                target.write_bytes(pending[path])
-        return list(pending)
+        backup = apply_files(repo, pending) if not check else None
+        return ImportResult(pending, backup)
 
 
 def main(argv=None):
@@ -275,7 +329,19 @@ def main(argv=None):
             cmd.add_argument("--pack", action="append", required=True)
     cmd = commands.add_parser("apply")
     cmd.add_argument("archive", type=Path)
-    cmd.add_argument("--check", action="store_true")
+    cmd.add_argument(
+        "--check",
+        action="store_true",
+        help="optional conflict preview; no new update is applied",
+    )
+    cmd.add_argument(
+        "--pack", help="destination for ZIPs without repository-relative paths"
+    )
+    cmd.add_argument(
+        "--replace-owned",
+        action="store_true",
+        help="replace differing files in one exclusively owned pack, retaining a backup",
+    )
     args = parser.parse_args(argv)
     try:
         if args.command == "snapshot":
@@ -285,9 +351,19 @@ def main(argv=None):
                 f'{len(build(args.repo, args.pack, args.output)["files"])} changed source files exported'
             )
         else:
-            print(
-                f'{len(apply(args.repo, args.archive, check=args.check))} source files {"checked" if args.check else "applied"}'
+            result = apply(
+                args.repo,
+                args.archive,
+                check=args.check,
+                pack=args.pack,
+                replace_owned=args.replace_owned,
             )
+            print(
+                f'{len(result)} source files {"checked" if args.check else "applied"}'
+            )
+            if result.backup:
+                print(f"Local recovery copy: {result.backup}")
+
     except (OSError, ValueError, KeyError) as exc:
         parser.exit(1, f"{exc}\n")
 

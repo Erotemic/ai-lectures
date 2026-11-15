@@ -43,3 +43,7 @@ slides-*/
 # Source handoff receipts and local overlay integration locks.
 /SOURCE_SNAPSHOT.json
 /.content-overlay.lock
+
+# Local source import recovery copies and last usable catalog snapshots.
+/.content-update/
+/.content-state/
