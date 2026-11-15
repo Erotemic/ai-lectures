@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-when-harvests-failed.md",
+  "related_resources": [
+    {
+      "source_id": "famine-sen",
+      "reason": "Chapter 1, pp. 1–8, publisher abstract; theory primarily tested in later twentieth-century cases, application to 1870s is ours",
+      "access_scope": "abstract_only"
+    },
+    {
+      "source_id": "famine-climate",
+      "reason": "Abstract; sections 1 and 3, discussion; climatic mechanisms, data uncertainty and chronology",
+      "access_scope": "direct_article"
+    },
+    {
+      "source_id": "famine-madras",
+      "reason": "Publisher abstract only: competing interpretations starvation/disease",
+      "access_scope": "abstract_only"
+    },
+    {
+      "source_id": "famine-irish-archives",
+      "reason": "1845–52 chronology; Distress Papers, Relief Commission; archival scope and preservation limits",
+      "access_scope": "direct_page"
+    },
+    {
+      "source_id": "famine-irish-gray",
+      "reason": "Chapter 27 pp. 544–561; publisher abstract only, controversies over state responsibility",
+      "access_scope": "abstract_only"
+    },
+    {
+      "source_id": "famine-irish-poor",
+      "reason": "Workhouses, Poor Law Unions, 1838 Act and workhouse occupancy 1851",
+      "access_scope": "direct_page"
+    },
+    {
+      "source_id": "famine-policy",
+      "reason": "University abstract only: official policy and ideology during 1876–78 famine",
+      "access_scope": "abstract_only"
+    },
+    {
+      "source_id": "famine-china",
+      "reason": "Publisher introduction abstract, 1876–79 north-China drought and famine; full book not reviewed",
+      "access_scope": "abstract_only"
+    },
+    {
+      "source_id": "famine-china-research",
+      "reason": "Article abstract and text; local records, Shaanxi, Qing conflict and relief changes, mortality uncertainty",
+      "access_scope": "direct_article"
+    },
+    {
+      "source_id": "famine-qing-demography",
+      "reason": "Population and ecology; famine testimony from Ning Lao Tai Tai relates to 1887–88, NOT 1876–79",
+      "access_scope": "direct_page"
+    },
+    {
+      "source_id": "famine-qing-climate",
+      "reason": "Abstract and regional discussion; quantitative famine-climate link",
+      "access_scope": "direct_article"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "018000-p01",
+      "anchor": "Imagine two households after a crop failure. One has land, some savings, and",
+      "kind": "interpretive_illustration",
+      "source_ids": [
+        "famine-sen",
+        "famine-climate"
+      ],
+      "source_locator": "Sen Poverty and Entitlements conceptual model; global drought paper as environmental context",
+      "audit_status": "source_page_or_abstract_inspected",
+      "source_limitations": "Invented comparative example explicitly marked."
+    },
+    {
+      "id": "018000-p02",
+      "anchor": "The economist Amartya Sen argued in Poverty and Famines, first published in",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-sen",
+        "famine-climate"
+      ],
+      "source_locator": "Sen ch. 1, pp. 1–8 publisher abstract and original publication record; global drought study §1",
+      "audit_status": "source_page_or_abstract_inspected",
+      "source_limitations": "The model is later; historic application is analytical, not Sen’s own case study."
+    },
+    {
+      "id": "018000-p03",
+      "anchor": "This distinction is a reason for more empirical work, not a reason to ignore",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-climate",
+        "famine-madras",
+        "famine-sen"
+      ],
+      "source_locator": "Climate and Global Famine §§1–4; Sami abstract on Madras causes; Sen ch. 1",
+      "audit_status": "source_page_or_abstract_inspected",
+      "source_limitations": "Causal framework distinguishes observation and interpretation."
+    },
+    {
+      "id": "018000-p04",
+      "anchor": "Ireland’s Great Famine, commonly dated from 1845 through 1852, began with",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-irish-archives",
+        "famine-irish-gray"
+      ],
+      "source_locator": "National Archives of Ireland background; Gray, Famine and Land chapter abstract",
+      "audit_status": "source_page_or_abstract_inspected",
+      "source_limitations": "Publisher abstract for Gray, archive guide for documents."
+    },
+    {
+      "id": "018000-p05",
+      "anchor": "An archive of petitions is an unusually close view of disaster, but it is not a",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-irish-archives"
+      ],
+      "source_locator": "National Archives Distress Papers CSO CR series and Relief Commission RLFC collections",
+      "audit_status": "source_page_inspected_with_scope",
+      "source_limitations": "The archive guide is not a claim to have examined the original letters."
+    },
+    {
+      "id": "018000-p06",
+      "anchor": "Relief was also organized through the poor-law system, which placed workhouses",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-irish-poor"
+      ],
+      "source_locator": "National Archives of Ireland, Poor Law Records: 1838 Act, unions, 1851 occupancy and record types",
+      "audit_status": "source_page_inspected_with_scope",
+      "source_limitations": "Use documented proportions only when necessary; avoid generalizing one workhouse."
+    },
+    {
+      "id": "018000-p07",
+      "anchor": "Historian Peter Gray’s chapter Famine and Land emphasizes disagreement over the",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-irish-gray",
+        "famine-irish-archives"
+      ],
+      "source_locator": "Gray, Oxford Handbook ch. 27 abstract, pp. 544–561; Irish archive guide",
+      "audit_status": "source_page_or_abstract_inspected",
+      "source_limitations": "Abstract-only claim scoped explicitly."
+    },
+    {
+      "id": "018000-p08",
+      "anchor": "It is therefore misleading to offer either “the blight did it” or “the market",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-irish-gray",
+        "famine-irish-archives",
+        "famine-sen"
+      ],
+      "source_locator": "Gray abstract on state responsibility; National Archives; Sen entitlement framework",
+      "audit_status": "source_page_or_abstract_inspected",
+      "source_limitations": "Argument is a synthesis, not a numerical attribution study."
+    },
+    {
+      "id": "018000-p09",
+      "anchor": "In the middle and late 1870s, large areas of South and East Asia suffered",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-climate"
+      ],
+      "source_locator": "Dee et al., Climate and the Global Famine, abstract and §§1,3–4; event timing and multi-ocean drivers",
+      "audit_status": "source_page_inspected_with_scope",
+      "source_limitations": "Meteorology not used as sole explanation of deaths."
+    },
+    {
+      "id": "018000-p10",
+      "anchor": "What can such a climate reconstruction establish? It can estimate which regions",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-climate"
+      ],
+      "source_locator": "Journal of Climate paper §§1,3,4: reconstruction methods, historical causes distinction",
+      "audit_status": "source_page_inspected_with_scope",
+      "source_limitations": "Explicit limits on climate-model inference."
+    },
+    {
+      "id": "018000-p11",
+      "anchor": "Some global estimates of nineteenth-century famine mortality are enormously",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-climate"
+      ],
+      "source_locator": "Journal of Climate introduction: source-dependent mortality estimates; caution about secondary historical totals",
+      "audit_status": "source_page_inspected_with_scope",
+      "source_limitations": "No single global death count repeated as firm fact."
+    },
+    {
+      "id": "018000-p12",
+      "anchor": "In British-ruled parts of India, the famine of 1876–78 occurred amid severe",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-climate",
+        "famine-policy"
+      ],
+      "source_locator": "Global Famine article §3 India; Stahl chapter university abstract on colonial policy debates",
+      "audit_status": "source_page_or_abstract_inspected",
+      "source_limitations": "Stahl is abstract-only; do not overstate direct evidence."
+    },
+    {
+      "id": "018000-p13",
+      "anchor": "Mortality raises a further question. Did people die directly from prolonged",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-madras",
+        "famine-climate"
+      ],
+      "source_locator": "Sami, Social History of Medicine 24(3), abstract; global drought article §3 rainfall recovery and disease",
+      "audit_status": "source_page_or_abstract_inspected",
+      "source_limitations": "No fabricated percentage or universal mechanism."
+    },
+    {
+      "id": "018000-p14",
+      "anchor": "Colonial rule mattered partly because its fiscal and legal structures shaped",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-policy",
+        "famine-madras",
+        "famine-sen"
+      ],
+      "source_locator": "Stahl abstract on policy debates; Sami abstract on mortality; Sen ch. 1 on access",
+      "audit_status": "source_page_or_abstract_inspected",
+      "source_limitations": "The local-data list is methodological guidance, not a claim of records inspected."
+    },
+    {
+      "id": "018000-p15",
+      "anchor": "Nor can the history end with the fact that drought passed. Farmers may have",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-sen",
+        "famine-policy"
+      ],
+      "source_locator": "Sen entitlement framework; colonial policy historiography",
+      "audit_status": "source_page_or_abstract_inspected",
+      "source_limitations": "Possible mechanisms, not undocumented case-level assertions."
+    },
+    {
+      "id": "018000-p16",
+      "anchor": "North China experienced a catastrophic drought-famine from 1876 through 1879,",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-china",
+        "famine-china-research"
+      ],
+      "source_locator": "Edgerton-Tarpley introduction abstract; Journal of Chinese History article regional records",
+      "audit_status": "source_page_or_abstract_inspected",
+      "source_limitations": "Exact mortality totals deliberately omitted."
+    },
+    {
+      "id": "018000-p17",
+      "anchor": "The Shaanxi study demonstrates why even an exceptionally large famine should",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-china-research"
+      ],
+      "source_locator": "“Drought and Famine in Northwest China,” text on regional progress, war, and selective local histories",
+      "audit_status": "source_page_inspected_with_scope",
+      "source_limitations": "Archival silence is an inference, clearly marked."
+    },
+    {
+      "id": "018000-p18",
+      "anchor": "Columbia University’s teaching unit includes an autobiographical account",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-qing-demography"
+      ],
+      "source_locator": "Columbia Qing Demographic Crisis, primary “Starvation” testimony; explicitly dated to 1887–88",
+      "audit_status": "source_page_inspected_with_scope",
+      "source_limitations": "Primary witness not attributed to 1876–79."
+    },
+    {
+      "id": "018000-p19",
+      "anchor": "The 1870s famine is also a case for combining climate research with locally",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-qing-climate",
+        "famine-china-research"
+      ],
+      "source_locator": "Weather Climate and Society abstract; Journal of Chinese History local studies",
+      "audit_status": "source_page_inspected_with_scope",
+      "source_limitations": "No extrapolation of general statistical correlations to a specific town."
+    },
+    {
+      "id": "018000-p20",
+      "anchor": "We have crossed Ireland, India, and North China. They share disasters involving",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-irish-archives",
+        "famine-policy",
+        "famine-china-research",
+        "famine-climate"
+      ],
+      "source_locator": "Four contrasting corpora: Ireland archive, policy history, Qing regional scholarship, physical climate reconstruction",
+      "audit_status": "source_page_or_abstract_inspected",
+      "source_limitations": "Comparative methodological conclusion."
+    },
+    {
+      "id": "018000-p21",
+      "anchor": "Try a practical source audit. Choose one factual sentence: “The famine followed",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-climate",
+        "famine-madras",
+        "famine-irish-gray"
+      ],
+      "source_locator": "Drought methods; disease historiography; historical responsibility debate",
+      "audit_status": "source_page_or_abstract_inspected",
+      "source_limitations": "Questions for source criticism; not new factual assertion."
+    },
+    {
+      "id": "018000-p22",
+      "anchor": "Return to the two imagined households. The drought was shared. Their protection",
+      "kind": "historical_research",
+      "source_ids": [
+        "famine-sen",
+        "famine-climate",
+        "famine-irish-archives"
+      ],
+      "source_locator": "Sen entitlements; climate study; Irish archival coverage",
+      "audit_status": "source_page_or_abstract_inspected",
+      "source_limitations": "Closing analytic synthesis, imagined households remain nonhistorical."
+    }
+  ],
+  "citation_method": "One anchored evidence note per substantive spoken paragraph; display-only direct links, locators, access level and limitations."
+}

@@ -29,3 +29,16 @@ All word counts describe written manuscripts; they are not targets or limits. Th
 - **014000 — [A City Built to Work: Industry, Childhood, Collective Action, and the Environmental Bill](014000-city-of-work.md).** Paid and unpaid labor, early factory regulation, Chartism, housing, urban mortality, sanitation, pollution and uneven global industrial development.
 
 **Editorial rule for this track and the wider lecture project:** The subject matter determines how much explanation is needed. **There is no 10-minute goal or any other mandatory lecture duration.** Manifest word counts and time estimates are measurements of finished text, never constraints, defaults, or pass/fail checks.
+
+## Nineteenth-century states, land, and environmental crises (015000–018000)
+
+- **015000 — [The Qing Was Not Standing Still](015000-qing-was-not-standing-still.md).** Late-Qing rural institutions, the Opium War, Taiping, self-strengthening, and competing reform visions.
+- **016000 — [Whose Restoration? Meiji Japan](016000-whose-restoration-meiji-japan.md).** Property and revenue reform, the political rights movement, women’s industrial labor, constitutionalism and empire.
+- **017000 — [States Before the Scramble](017000-states-before-the-scramble.md).** Sokoto, Asante, Samori, Ethiopia, Benin, colonial conquest, and the limits of state and museum archives.
+- **018000 — [When Harvests Failed](018000-when-harvests-failed.md).** Ireland, India, north China; drought reconstruction, social access to food, state relief, local mortality and source criticism.
+
+### Granular citation convention for this batch
+
+Each spoken paragraph is linked to a source-ledger entry **after** the narration markers. Entries identify an exact source record, a direct URL, the relevant document/chapter/section, what the accessible source can support, and an explicit caution where interpretation outruns direct documentation. Sidecar `metadata/<id>.json` has one `historical_claims` entry per paragraph. Check the source-access scope (`direct_page`, `direct_article`, `abstract_only`, `catalog_only`, `excerpt_only`) before treating a supporting reference as inspected full text. The scope does **not** assert that every clause of a long source has been independently audited.
+
+The project does **not** have a ten-minute (or any other fixed) lecture length target. Word counts and duration estimates are descriptive metadata.

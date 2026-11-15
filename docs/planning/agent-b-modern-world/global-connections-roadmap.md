@@ -40,3 +40,16 @@ These are research directions, **not** lecture-length requirements or preapprove
 - Energy and environment across the long nineteenth century: transport, coal and oil, urban infrastructures, extraction landscapes, and scientific capacity to measure global changes.
 
 **Length guidance:** The repository-wide fixed-duration target was removed. No episode is aimed at ten minutes or any other prescribed length; word counts and derived estimated durations remain descriptive metadata only. The listener's understanding and historical source confidence govern scope and detail. Do not impose mechanical thresholds when reviewing or generating lectures.
+
+## Completed: nineteenth-century states and agrarian vulnerability (015000–018000)
+
+- **015000 — Qing transformations.** A Qing-centered account of wars, fiscal/rural pressures, Taiping and reform, with archival document limitations and conflicting date warnings.
+- **016000 — Meiji Japan.** Domain reform, land and fiscal policy, textile women’s work, political representation, and expansion to Korea; differentiates official promises from social outcomes.
+- **017000 — African states and conquest.** States as subjects before the Scramble; Sokoto, Asante, Samori, Ethiopian victory at Adwa and the loss of the Benin royal archive in 1897. The 1884–85 Berlin conference is **not** represented as a map-drawing session for current borders.
+- **018000 — Agrarian vulnerability and famine.** Cross-regional analysis of Irish, colonial Indian and north-China disasters; climate, legal entitlement, relief, disease, and documentation have separate evidentiary bases.
+
+### Batch-wide attribution protocol
+
+The user prioritizes unusually explicit provenance. Each source entry links directly to institutional, original documentary, museum or academic material rather than a search-results page. Each narrated paragraph has a corresponding display-only source ledger and structured sidecar claim record, including precise section/title locators and a limitation note. Source access scope is recorded honestly: **a publisher abstract is not equivalent to reviewing the full paper or book**; a primary document describes the author's view, not the empirical truth of the entire event. The reader must be able to follow from prose to source URL without reverse-engineering a general reading list.
+
+Potential next batch: post-emancipation indenture and labor migration, imperial agrarian policy in South Asia, late Ottoman transformations, and changing global energy/transport. These are unindexed research directions only. No fixed length target.
