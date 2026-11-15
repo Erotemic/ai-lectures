@@ -50,7 +50,7 @@ course browser; each story sidecar repeats genre and age-range metadata.
 | 032000 | [The Giant's Small Quilt](032000-the-giants-small-quilt.md) | A mouse offers a little patchwork quilt to a giant, who finds it makes an excellent blanket for one chilly toe. |
 | 033000 | [The Stars' Small Camping Trip](033000-the-stars-small-camping-trip.md) | Three make-believe stars camp between clouds with a tiny spoon, pretend moonberry soup, and an unhurried goodnight. |
 
-## Parents' rationale and citations (004000–033000)
+## Parents' rationale and citations (004000–039000)
 
 [**A quiet guide for parents and caregivers**](PARENTS_GUIDE.md) explains the
 earlier developmental themes and newer play-first stories, gives optional
@@ -68,7 +68,7 @@ that our stories have been tested or cause measured learning outcomes.
 The original three pilot stories (001000–003000) remain unchanged and are
 original fiction without claimed developmental intervention effects.
 
-The **thirty-three** stories require no character-specific synthesized voices: dialogue
+The **thirty-nine** stories require no character-specific synthesized voices: dialogue
 is reported by the narrator, or is absent. The stories are not required to
 have a particular duration. They stand alone even though one includes a small
 cross-story reference.
@@ -79,9 +79,9 @@ The exact TTS text is between the `BEGIN SPOKEN LECTURE` and `END SPOKEN
 LECTURE` markers. Author companions below the end marker give reading notes
 and explain what the story is trying to accomplish. They are **not** spoken.
 
-All thirty-three manuscripts are newly authored original fiction. They do not adapt
+All thirty-nine manuscripts are newly authored original fiction. They do not adapt
 published plots or reuse external story text. `metadata/sources.json` holds
-parent-facing developmental and play references for 004000–033000 only. Original
+parent-facing developmental and play references for 004000–039000 only. Original
 fictional descriptions and bedtime choices should not be misrepresented as
 scientific findings about childhood development.
 
@@ -106,3 +106,21 @@ The six new manuscripts shift among an underwater garden, a cloud's pockets, a r
 ## Added: 028000–033000 — garden jokes, gentle puzzles, and a sleeping sky
 
 The six new stories include a flower-sneezing dragon, a garden wagon's holiday, an upside-down map, a moth's changing shadow, a giant's tiny toe quilt, and an invented camping trip among the stars. They deliberately range from nonsense to simple inquiry to quiet fantasy. **No story is required to teach a moral or meet a duration target.** The parent-facing citations explain shared-reading choices and their evidence limits; NASA's shadow activity is the specific reference for the moth story's physical light/shadow idea. All stories require only one TTS narrator, not distinct acting voices, images or sounds.
+
+## Added: 034000–039000 — playful premises and one quiet coast
+
+| Story ID | Title | Shape |
+| --- | --- | --- |
+| 034000 | [Olive and the Bakery That Went for a Walk](034000-olive-and-the-bakery-that-went-for-a-walk.md) | A turtle carries a tiny bakery on her shell, so the shop visits its customers and finds a quiet place under an apple tree. |
+| 035000 | [Nia and the Invisible Dinosaur](035000-nia-and-the-invisible-dinosaur.md) | Nia and Grandpa search for an invisible pretend dinosaur whose footprints are slippers and whose tail is a scarf. |
+| 036000 | [Bram's Upside-Down Bed](036000-brams-upside-down-bed.md) | Otis the snail discovers why Bram the bat is comfortable resting upside down while Otis prefers his leaf and shell. |
+| 037000 | [The Clock That Wanted a Nap](037000-the-clock-that-wanted-a-nap.md) | A round kitchen clock imagines cozy places to nap while the house gets quieter and Nia wishes it goodnight. |
+| 038000 | [Hazel's Painting for the Wind](038000-hazels-painting-for-the-wind.md) | Hazel draws swirls and helps hang colored ribbons that move with the wind, creating a picture that changes. |
+| 039000 | [Sula and the Sea's Smallest Song](039000-sula-and-the-seas-smallest-song.md) | A young seal listens to waves, water between stones, and the softer sounds of a sheltered cove beside her mother. |
+
+These six are mostly play-first; none has an assigned moral. The bat story
+uses a real natural-history detail (many bats roost upside down), and the
+wind-painting story uses directly observable movement of leaves and ribbons.
+Those claims have targeted parent citations. All fantasy, artistic judgments,
+and suggestions for discussion are labeled accordingly. No sound effects,
+voice acting, images, or fixed duration target are required.

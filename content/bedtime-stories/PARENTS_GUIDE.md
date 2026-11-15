@@ -130,3 +130,18 @@ These are links to independently authored **guidance**, not to sources for the s
 [NSPCC-PANTS]: https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/
 
 [CDC-TODDLER]: https://www.cdc.gov/child-development/positive-parenting-tips/toddlers-2-3-years.html
+
+
+## Stories 034000–039000 — imagination, familiar objects, and resting
+
+- **034000, Olive and the Bakery That Went for a Walk.** A shop moving on a turtle's shell supplies a repeated joke and a clear path through the village. There is no educational target beyond enjoying the story. The [AAP guide for sharing books with 2- and 3-year-olds](https://www.healthychildren.org/English/ages-stages/toddler/Pages/How-to-Share-Books-with-2-and-3-Year-Olds.aspx) suggests following a child's comments; it does not support any measured effect from Olive's bakery.
+- **035000, Nia and the Invisible Dinosaur.** A scarf and slippers become dinosaur clues in explicitly pretend play. [NAEYC, *Playdough Power*](https://www.naeyc.org/our-work/families/playdough-power), section “Creativity and imagination,” describes symbolic use of everyday materials, not the developmental effects of this story.
+- **036000, Bram's Upside-Down Bed.** The natural-history premise is real: many bats rest hanging by their feet. [Kristen Pope, Bat Conservation International, *Why Do Bats Hang Upside Down?* (2023)](https://www.batcon.org/why-do-bats-hang-upside-down/) and [National Park Service, *Bats — Yellowstone*, “Behavior”](https://www.nps.gov/yell/learn/nature/bats.htm) support that point. Otis's leaf pillow and the friendship conversation are invented; no empathy benefit is claimed. If a child asks, you can say that some animals are comfortable in ways humans are not.
+- **037000, The Clock That Wanted a Nap.** This is openly make-believe; clocks do not want or take naps. Repetition is used as a literary device, supported only as a shared-reading possibility by the [AAP's age-specific guidance](https://www.healthychildren.org/English/ages-stages/toddler/Pages/How-to-Share-Books-with-2-and-3-Year-Olds.aspx). The story itself has not been evaluated as a sleep intervention.
+- **038000, Hazel's Painting for the Wind.** The [National Weather Service's visual wind clues](https://www.weather.gov/pqr/wind) describe observable leaf, twig, and flag movement; this is the narrowly factual part of the plot. The rest is invented play involving a ribbon picture; it is not an experiment or a recommended craft procedure for unsupervised children.
+- **039000, Sula and the Sea's Smallest Song.** This is a quiet progression among contrasting sounds, with a nearby caregiver. The [AAP shared-reading guide](https://www.healthychildren.org/English/ages-stages/toddler/Pages/How-to-Share-Books-with-2-and-3-Year-Olds.aspx) offers context for repeated words and interaction. It does not verify the invented seal narrative, predict response to the sound words, or demonstrate sleep improvement.
+
+The **two exact story anchors per manuscript** are recorded in
+`metadata/<ID>.json` under `rationale_citations`; `metadata/sources.json`
+stores source metadata and precise evidence limits. Parent prompts are optional
+and always outside the TTS narration. Some nights, simply listening is enough.

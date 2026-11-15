@@ -88,3 +88,18 @@ All six remain original, one-narrator fiction for ages 3–4 (primarily three). 
 - 033000 — Three entirely imaginary stars camp in the sky; soft cumulative goodnight, not an astronomy lesson.
 
 All six remain text-only single-narrator stories for ages 3–4, primarily age three. Caregiver citations are bounded by their actual scope. There is no assigned moral or duration policy. Later work should prioritize actual TTS listening over more validators or infrastructure work.
+
+
+## Added: 034000–039000 — a varied six-story batch
+
+- 034000 — Walking bakery on Olive's turtle shell, harmless neighborhood comedy.
+- 035000 — Nia's invisible *pretend* dinosaur; ordinary bedroom objects become clues.
+- 036000 — Bram the bat's upside-down rest; factual roosting, fictional companionship.
+- 037000 — Make-believe clock dreams while Nia's household grows quiet.
+- 038000 — Hazel paints the wind through moving ribbons; visual observation and art.
+- 039000 — Young seal Sula finds quieter sounds beside her mother at the shore.
+
+Each remains one-narrator original fiction for ages 3–4, primarily three,
+with direct caregiver references and source-specific limits. None has an
+assigned moral. Future work should prioritize live TTS listening feedback
+for this now larger collection, not extra infrastructure or compulsive tests.
