@@ -1,0 +1,52 @@
+{
+  "id": "trades-electrical",
+  "title": "Electrical Systems: Principles, Practice, Codes, and Judgment",
+  "summary": "Electrical physics, household distribution, safe-work boundaries, regional codes, materials, diagnostics, resilient energy systems, and qualified practice for homeowners.",
+  "assumed_background": [
+    "Ordinary arithmetic; no prior electrical training required"
+  ],
+  "sections": [
+    "fundamental-physics",
+    "safe-work",
+    "home-anatomy",
+    "code-literacy"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "Electricity Is a System: Voltage, Current, Power, and the Closed Path",
+      "section": "fundamental-physics",
+      "file": "001000-electricity-is-a-system.md",
+      "spoken_words": 1983,
+      "draft_status": "substantive",
+      "practice_classification": "desk_or_visual_only"
+    },
+    {
+      "id": "002000",
+      "title": "Electricity Can Hurt: The Hazard Model and the Safe-Work Boundary",
+      "section": "safe-work",
+      "file": "002000-electrical-hazards-and-safe-work.md",
+      "spoken_words": 1971,
+      "draft_status": "substantive",
+      "practice_classification": "desk_or_visual_only"
+    },
+    {
+      "id": "003000",
+      "title": "The Anatomy of a Home Electrical System: Sources, Circuits, and Return Paths",
+      "section": "home-anatomy",
+      "file": "003000-anatomy-of-home-electrical-system.md",
+      "spoken_words": 2251,
+      "draft_status": "substantive",
+      "practice_classification": "desk_or_visual_only"
+    },
+    {
+      "id": "004000",
+      "title": "Reading Electrical Codes: How Rules, Reasons, and Authorities Fit Together",
+      "section": "code-literacy",
+      "file": "004000-reading-electrical-codes.md",
+      "spoken_words": 2312,
+      "draft_status": "substantive",
+      "practice_classification": "desk_or_visual_only"
+    }
+  ]
+}

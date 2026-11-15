@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "electrical-iec60364": {
+      "title": "IEC 60364-1:2025, Low-voltage electrical installations: fundamental principles",
+      "kind": "standard",
+      "url": "https://webstore.iec.ch/en/publication/63699",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "Official IEC scope and safety objectives; does not by itself determine local adoption"
+    },
+    "electrical-nfpa70": {
+      "title": "NFPA 70, National Electrical Code, official development page",
+      "kind": "model_code",
+      "url": "https://www.nfpa.org/en/Codes-and-Standards/Document-information-pages/70",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "2026 is published edition as checked November 2026; the locally adopted edition can differ"
+    },
+    "electrical-osha333": {
+      "title": "OSHA 29 CFR 1910.333, Selection and use of work practices",
+      "kind": "regulation",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "US occupational safety; emphasizes de-energizing, safeguarding and verification by qualified persons; not a generic homeowner licensing law"
+    },
+    "electrical-osha334": {
+      "title": "OSHA 29 CFR 1910.334, Use of equipment",
+      "kind": "regulation",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.334",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "Use and ratings of instruments, portable electrical equipment and test leads in US workplaces"
+    },
+    "electrical-osha-arc": {
+      "title": "OSHA, Electric Arc Flash Hazards",
+      "kind": "safety_reference",
+      "url": "https://www.osha.gov/electrical/flash-hazards",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "Low-voltage installations can have serious arc-flash hazards"
+    },
+    "electrical-esfi-gfci": {
+      "title": "Electrical Safety Foundation International, Ground Fault Circuit Interrupters",
+      "kind": "safety_education",
+      "url": "https://www.esfi.org/ground-fault-circuit-interrupters-gfci",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "Explains ground-fault interruption and limits of protection; US-focused"
+    },
+    "electrical-esfi-afci": {
+      "title": "Electrical Safety Foundation International, Arc Fault Circuit Interrupters",
+      "kind": "safety_education",
+      "url": "https://www.esfi.org/arc-fault-circuit-interrupter-afci-advanced-electrical-fire-protection-for-the-home/",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "Distinguishes arc-fault mitigation from personnel GFCI protection"
+    },
+    "electrical-osha-ground": {
+      "title": "OSHA, Construction Electrical Incidents: Grounding",
+      "kind": "safety_reference",
+      "url": "https://www.osha.gov/etools/construction/electrical-incidents/grounding",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "Grounding and bonding purposes and maintaining fault-current paths"
+    },
+    "electrical-doe-solar-design": {
+      "title": "U.S. Department of Energy, Solar Photovoltaic System Design Basics",
+      "kind": "energy_reference",
+      "url": "https://www.energy.gov/cmei/systems/solar-photovoltaic-system-design-basics",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "Solar modules, inverters, and storage architectures"
+    },
+    "electrical-doe-solar-resilience": {
+      "title": "U.S. Department of Energy, Solar and Resilience Basics",
+      "kind": "energy_reference",
+      "url": "https://www.energy.gov/cmei/systems/solar-and-resilience-basics",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "Grid-interactive solar generally shuts off without a properly configured independent source and controls"
+    },
+    "electrical-iet": {
+      "title": "IET, BS 7671 Wiring Regulations current-edition guidance",
+      "kind": "standard_guide",
+      "url": "https://electrical.theiet.org/bs-7671-18th-edition-wiring-regulations/",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "UK standard and current-amendment information; verify local legislation and competent-person schemes"
+    },
+    "electrical-csa": {
+      "title": "CSA Group, Canadian Electrical Code Part I (CSA C22.1:24)",
+      "kind": "standard",
+      "url": "https://store.csastandards.org/store/product/CSA_C22.1%3A24/",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "Canadian safety standard; adoption and provincial modifications vary"
+    },
+    "electrical-asnzs": {
+      "title": "Standards Australia, AS/NZS 3000 Wiring Rules",
+      "kind": "standard",
+      "url": "https://www.standards.org.au/flagship-projects/wiring-rules",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "Australian/New Zealand standards family and distinction between safety principles and deemed-to-comply practices"
+    },
+    "electrical-osha-construction": {
+      "title": "OSHA 29 CFR 1926.404, Wiring design and protection",
+      "kind": "regulation",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.404",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "US construction workplace rules: overcurrent, grounding and GFCI"
+    },
+    "electrical-nfpa70e": {
+      "title": "NFPA 70E, Standard for Electrical Safety in the Workplace, official NFPA development page",
+      "kind": "workplace_safety_standard",
+      "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70E",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "NFPA official page lists current published 2027 edition as of November 2026; adoption and legal obligations must be evaluated separately"
+    },
+    "electrical-osha-nrtl": {
+      "title": "OSHA Nationally Recognized Testing Laboratory (NRTL) Program FAQ",
+      "kind": "workplace_approval_guidance",
+      "url": "https://www.osha.gov/nationally-recognized-testing-laboratory-program/frequently-asked-questions",
+      "access": "public_overview_or_regulatory_text",
+      "notes": "OSHA approval routes apply in their regulatory scope, not a universal household permitting or installation authorization"
+    }
+  }
+}
