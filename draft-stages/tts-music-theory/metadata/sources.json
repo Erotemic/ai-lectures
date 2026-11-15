@@ -1095,6 +1095,110 @@
       "access": "free_no_login",
       "format": "html",
       "notes": "Official Ardour manual, Session > Import, Region List and drag-drop to editor; tool behavior only, not mixing outcome."
+    },
+    "mt-038-mcadams-grouping": {
+      "title": "A Taxonomy of Orchestral Grouping Effects Derived from Principles of Auditory Perception",
+      "kind": "peer_reviewed_music_analysis_open_full_text",
+      "url": "https://mtosmt.org/issues/mto.22.28.3/mto.22.28.3.mcadams.php",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Stephen McAdams, Meghan Goodchild and Kit Soden, Music Theory Online 28(3), 2022, DOI 10.30535/mto.28.3.6. Full text: paragraphs [3.2],[3.7],[4.1],[5.1],[5.5],[6.2] and Examples 2/12/22; hypothesis-based account of orchestral grouping, not a test of our scores."
+    },
+    "mt-038-rimsky-orchestration": {
+      "title": "Principles of Orchestration (Steinberg-edited, 1922 English edition)",
+      "kind": "primary_historical_composer_treatise",
+      "url": "https://www.gutenberg.org/files/33900/33900-h/33900-h.htm",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Nikolay Rimsky-Korsakov; editor Maximilian Steinberg; translator Edward Agate. Prefaces and Volume I, Chapters I–II and doubling subsections. A historically situated perspective, not a physical or cross-cultural universal."
+    },
+    "mt-038-phil-flute": {
+      "title": "Philharmonia Orchestra: Flute",
+      "kind": "orchestra_player_instrument_guide",
+      "url": "https://philharmonia.co.uk/resources/instruments/flute/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Instrument guide, Range. C4 normal lowest note, optional B-foot B3; piccolo sounds one octave higher than written."
+    },
+    "mt-038-phil-violin": {
+      "title": "Philharmonia Orchestra: Violin",
+      "kind": "orchestra_player_instrument_guide",
+      "url": "https://philharmonia.co.uk/resources/instruments/violin/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Instrument guide, Range and Bowing. G3 D4 A4 E5 string tuning, timbre varies with string choice at a given pitch; bow direction and articulation discussed."
+    },
+    "mt-038-phil-cello": {
+      "title": "Philharmonia Orchestra: Cello",
+      "kind": "orchestra_player_instrument_guide",
+      "url": "https://philharmonia.co.uk/resources/instruments/cello/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Instrument guide, Introduction, Range and Bowing; C G D A open-string tunings, low-to-high melodic roles, bowing variation, sul C / sul G."
+    },
+    "mt-038-phil-bass": {
+      "title": "Philharmonia Orchestra: Double Bass",
+      "kind": "orchestra_player_instrument_guide",
+      "url": "https://philharmonia.co.uk/resources/instruments/double-bass/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Instrument guide, Range; instrument sounds an octave below written and standard sounding open strings E1 A1 D2 G2."
+    },
+    "mt-038-phil-horn": {
+      "title": "Philharmonia Orchestra: Horn",
+      "kind": "orchestra_player_instrument_guide",
+      "url": "https://philharmonia.co.uk/resources/instruments/horn/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Instrument guide, Introduction. Describes long sustained inner harmony as common horn role alongside powerful tutti passages. Descriptive repertoire practice, not universal range/loudness rule."
+    },
+    "mt-038-phil-trumpet": {
+      "title": "Philharmonia Orchestra: Trumpet",
+      "kind": "orchestra_player_instrument_guide",
+      "url": "https://philharmonia.co.uk/resources/instruments/trumpet/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Instrument guide, Introduction: muted lyrical passages and bright, forceful projection among possible roles."
+    },
+    "mt-038-goodchild-oxford": {
+      "title": "Perceptual Processes in Orchestration",
+      "kind": "scholarly_book_chapter_abstract",
+      "url": "https://doi.org/10.1093/oxfordhb/9780190637224.013.10",
+      "access": "abstract_free_full_text_may_require_access",
+      "format": "html",
+      "notes": "Meghan Goodchild and Stephen McAdams, The Oxford Handbook of Timbre, pp. 496–524; publisher abstract accessible. Background corroboration only; precise grouping claims grounded in the freely accessible 2022 MTO full text."
+    },
+    "mt-038-dawdreamer": {
+      "title": "DawDreamer User Guide",
+      "kind": "official_software_documentation",
+      "url": "https://dirt.design/DawDreamer/user_guide/index.html",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Overview and Basic Workflow; RenderEngine, processor graphs, automation, offline rendering. Does not validate acoustic instrument realism."
+    },
+    "mt-038-dawdreamer-render": {
+      "title": "DawDreamer Render Engine and BPM",
+      "kind": "official_software_documentation",
+      "url": "https://dirt.design/DawDreamer/user_guide/render_engine.html",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Rendering audio by time or beats, loading processor graphs, retrieving rendered samples."
+    },
+    "mt-038-ardour-automation": {
+      "title": "Ardour Manual: Automation",
+      "kind": "official_software_documentation",
+      "url": "https://manual.ardour.org/automation/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Fader, trim, mute, pan and processor automation. Describes capabilities not mixing outcomes."
+    },
+    "mt-038-ardour-pan": {
+      "title": "Ardour Manual: Panning",
+      "kind": "official_software_documentation",
+      "url": "https://manual.ardour.org/mixing/panning/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Panning for mono/stereo and multi-channel outputs; practical capability rather than perceptual guarantee."
     }
   }
 }

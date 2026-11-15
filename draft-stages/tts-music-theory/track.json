@@ -1,7 +1,7 @@
 {
   "id": "music-theory",
   "title": "Music Theory and Composition",
-  "summary": "Instrument-agnostic, audio-first foundations in composition, comparative musical systems and sound production, now extending into auditory perception, listening practice, tuning and temperaments, counterpoint, transcription, and strategies for musical development beyond call and response. Exercises use original text-defined scores and optional local WAV synthesis, with claim-level research attribution.",
+  "summary": "Instrument-agnostic, audio-first foundations in composition, comparative musical systems, sound production, listening, tuning, counterpoint, and transcription; recent chapters examine motivic development beyond call and response and how orchestration shapes musical roles, grouping, and form. Original text-defined scores support reproducible local listening studies, accompanied by claim-level research attribution.",
   "assumed_background": [
     "General audience; no notation, instrument, or earlier music theory required."
   ],
@@ -34,7 +34,8 @@
     "tuning-and-intonation",
     "counterpoint-imitation-and-canon",
     "transcription-and-revision",
-    "motivic-development-and-compositional-strategies"
+    "motivic-development-and-compositional-strategies",
+    "orchestration-and-perceptual-form"
   ],
   "lectures": [
     {
@@ -369,6 +370,15 @@
       "spoken_words": 4617,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 31.8
+    },
+    {
+      "id": "038000",
+      "title": "Orchestration as Composition: Register, Timbre, Layers, and Attention",
+      "section": "orchestration-and-perceptual-form",
+      "file": "038000-orchestration-as-composition.md",
+      "spoken_words": 4459,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 30.8
     }
   ]
 }

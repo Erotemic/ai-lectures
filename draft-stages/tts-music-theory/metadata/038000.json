@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "lecture_id": "038000",
+  "transcript": "038000-orchestration-as-composition.md",
+  "related_resources": [
+    {
+      "source_id": "mt-038-mcadams-grouping",
+      "reason": "Primary open-access modern analysis of orchestral grouping. Key precise locators in the companion."
+    },
+    {
+      "source_id": "mt-038-rimsky-orchestration",
+      "reason": "Historically situated primary orchestration treatise; not a universal law."
+    },
+    {
+      "source_id": "mt-038-phil-flute",
+      "reason": "Concert flute and piccolo compass and transposition."
+    },
+    {
+      "source_id": "mt-038-phil-violin",
+      "reason": "Open-string pitches, string-specific timbre and bowing."
+    },
+    {
+      "source_id": "mt-038-phil-cello",
+      "reason": "Cello range and bow techniques."
+    },
+    {
+      "source_id": "mt-038-phil-bass",
+      "reason": "Double bass sounding-pitch transposition."
+    },
+    {
+      "source_id": "mt-038-phil-horn",
+      "reason": "Working orchestra discussion of inner-harmony role."
+    },
+    {
+      "source_id": "mt-038-phil-trumpet",
+      "reason": "Working orchestra discussion of contrasting dynamic/articulation roles."
+    },
+    {
+      "source_id": "mt-038-goodchild-oxford",
+      "reason": "Additional scholarly context; public abstract only, not relied on for specific details."
+    },
+    {
+      "source_id": "mt-038-dawdreamer",
+      "reason": "Documented programmatic rendering capability."
+    },
+    {
+      "source_id": "mt-038-dawdreamer-render",
+      "reason": "Documented offline render and graph API."
+    },
+    {
+      "source_id": "mt-038-ardour-automation",
+      "reason": "Documented DAW editing and automation capabilities."
+    },
+    {
+      "source_id": "mt-038-ardour-pan",
+      "reason": "Documented panning capabilities."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "Stephen McAdams, Meghan Goodchild, and Kit Soden develop a taxonomy of orchestral grouping in a 2022 article",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Bibliographic author/year, Music Theory Online 28(3), 2022; abstract and heading.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Concurrent grouping concerns components that are heard together as one event",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "[3.2], Example 2, concurrent grouping: event formation.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Sequential grouping connects events across time into streams",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "[3.2], Example 2 and [5.1], sequential grouping.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Segmental grouping divides those streams into larger units",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "[3.2] and [6.2], segmentation and orchestral contrasts.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "onset synchrony, harmonic relationships, and correlated changes as grouping cues",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "[3.7] concurrent grouping; common onset, harmonicity and parallel spectral change.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "They do not say that unison doubling always creates a single instrument",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "[4.1] specifically distinguishes blend and non-blend for coupled sound sources. Text interpretation.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "The taxonomy's discussion of orchestral contrasts",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "[6.2] and Example 22 on timbral shifts, antiphonal contrasts and boundaries.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The supplied event lists make the examples reproducible with a small offline renderer",
+      "source_ids": [
+        "mt-038-dawdreamer"
+      ],
+      "evidence_detail": "Original text-only score and standard-library renderer in this pack, distinct from official DawDreamer API.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "Each bar starts with E above middle C for one beat",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Original local JSON score, common foreground across all variants. This musical content is not from the cited taxonomy.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "In the fourth and eighth bars the final tone changes to C above middle C",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Original local score bars 4/8, E4 G4 A4 C5; not a source-derived cadence.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "A quiet low C remains throughout all eight bars",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Original lab event list; eight C2 whole-bar notes for each variant.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "In the second study, the reference melody is played by two differently colored synthetic voices",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Original local source melody plus unison copy, guided by [4.1] doubling vocabulary.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "Nikolay Rimsky-Korsakov's Principles of Orchestration devotes sustained attention to doubling",
+      "source_ids": [
+        "mt-038-rimsky-orchestration"
+      ],
+      "evidence_detail": "1922 Vol. I Chapter II doubled melodies and instruments; historic primary text.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "appeared in the edition edited by Maximilian Steinberg, published in 1922",
+      "source_ids": [
+        "mt-038-rimsky-orchestration"
+      ],
+      "evidence_detail": "Title/editor page in Project Gutenberg, Édition Russe de Musique 1922; note unfinished manuscript origins discussed in prefatory matter.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "If two identical sine waves were aligned in phase",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Linear superposition of two in-phase sinusoids at equal frequency is a mathematical example, not claimed from the MTO paper.",
+      "provenance": "original_derivation"
+    },
+    {
+      "anchor": "the new part lives in the same broad register as the melody",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Original JSON crowded_background; explicit C4 E4 G4 E4, score observation.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "the identical pitch classes and rhythm are placed one octave lower",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Original JSON spaced_background; exact C3 E3 G3 E3 at same note times.",
+      "provenance": "original_derivation"
+    },
+    {
+      "anchor": "McAdams, Goodchild, and Soden relate perceptual organization to similarities in pitch, timbre, intensity, and temporal proximity",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "[5.1] sequential grouping, with cited foundational work.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Their article also cites David Huron's work on the differentiation of timbres in part writing",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "[5.1], Huron (2016, pp. 114–116) attribution via paper; secondary citation, not independently checked in the Huron book.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "the Philharmonia Orchestra's instrument guide describes violin bowing",
+      "source_ids": [
+        "mt-038-phil-violin"
+      ],
+      "evidence_detail": "Violin article, Bowing section, including up/down-bow distinctions.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Its cello guide explains how bow strokes affect repeated-note accompaniments",
+      "source_ids": [
+        "mt-038-phil-cello"
+      ],
+      "evidence_detail": "Cello article, Bowing section and Introduction; on-string and bouncing strokes.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "In the third bar, the lower arpeggiating line enters",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Original staged_entrances JSON accompaniment starts beat 8, first beat of bar 3.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "In the fifth bar, a higher sustained line joins",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Original staged_entrances JSON upper sustained E5 begins beat 16, bar 5.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "the first four bars of the melody use one synthetic color",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Original timbral_handoff JSON, foreground sine bars 1–4 and harmonic bars 5–8.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "McAdams, Goodchild, and Soden call attention to timbral shifts",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "[6.2] and Example 22 distinguish timbral shifts from antiphonal/call-response contrasts.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The Philharmonia's flute guide identifies middle C as the normal bottom",
+      "source_ids": [
+        "mt-038-phil-flute"
+      ],
+      "evidence_detail": "Flute article, Range: C4, optional B3 on B foot, and piccolo sounds octave higher than written.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "A violin's strings are normally tuned G3, D4, A4, and E5",
+      "source_ids": [
+        "mt-038-phil-violin"
+      ],
+      "evidence_detail": "Violin article, Range, string tunings.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The cello, tuned C2, G2, D3, and A3",
+      "source_ids": [
+        "mt-038-phil-cello"
+      ],
+      "evidence_detail": "Cello article, Range: open string pitches C/G/D/A; octaves are standard scientific pitch notation.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The double bass usually sounds an octave below its written part",
+      "source_ids": [
+        "mt-038-phil-bass"
+      ],
+      "evidence_detail": "Double bass article, Range: sounds octave lower than written; sounding string pitches E1/A1/D2/G2.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The Philharmonia describes sustained inner harmonies as a common role for horns",
+      "source_ids": [
+        "mt-038-phil-horn"
+      ],
+      "evidence_detail": "Horn article, Introduction, sustained inner-harmony use and powerful full-ensemble role.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The trumpet guide describes both forceful projection and subtle, muted lyrical playing",
+      "source_ids": [
+        "mt-038-phil-trumpet"
+      ],
+      "evidence_detail": "Trumpet article, Introduction, contrasting forceful/muted melodic uses.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The Philharmonia's violin discussion notes that a passage at a given sounding pitch may differ",
+      "source_ids": [
+        "mt-038-phil-violin"
+      ],
+      "evidence_detail": "Violin article, Range: same pitch on G versus A string yields different tonal character.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "its cello materials discuss sul C and sul G instructions",
+      "source_ids": [
+        "mt-038-phil-cello"
+      ],
+      "evidence_detail": "Cello article, Range, specific string instruction labels.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "DawDreamer's official user guide describes the RenderEngine",
+      "source_ids": [
+        "mt-038-dawdreamer",
+        "mt-038-dawdreamer-render"
+      ],
+      "evidence_detail": "Official docs Overview, Basic Workflow, Rendering Audio and Graph Management.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Ardour's official manual documents automation of gain and panning",
+      "source_ids": [
+        "mt-038-ardour-automation",
+        "mt-038-ardour-pan"
+      ],
+      "evidence_detail": "Ardour Manual: Automation bullet list and Panning overview.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Source-track count, DSP cost, and perceptual density are three different quantities",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Conceptual comparison of source-track count, computational cost and perceptual grouping; synthesis not a quoted empirical result.",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "The unison version asks whether simultaneous attacks form one composite sound",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Original study; perceptual question motivated by MTO [4.1], no result claimed.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "The crowded and spaced versions ask how register affects the distinction between layers",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Original lab contrasting registers; hypotheses, not published listener responses.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "The growing version asks whether entrances can articulate form",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Original study, motivated by MTO grouping theory, not a source transcription.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "The handoff version asks whether changing a source can mark a section",
+      "source_ids": [
+        "mt-038-mcadams-grouping"
+      ],
+      "evidence_detail": "Original handoff test, motivated by MTO [6.2], no guaranteed perceptual effect.",
+      "provenance": "original_example"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Claims mapped to exact audible text anchors and source locators. Source records distinguish available full text from chapter abstracts. Studies are original note-event data, not material extracted from cited compositions. Mechanical reference checks do not establish interpretive correctness."
+}
