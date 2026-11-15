@@ -140,27 +140,24 @@ def main(argv=None):
                 library, config=args.tts_config, repository=repository
             )
             try:
-                for lecture_id in dict.fromkeys(selection):
-                    job = manager.prepare(
-                        lecture_id, args.profile, voice=args.voice, speed=args.speed
-                    )
+                requested = manager.prepare_many(
+                    selection, args.profile, voice=args.voice, speed=args.speed
+                )
+                for job in requested:
+                    lecture_id = job["lecture_id"]
                     previous = None
                     while not job["published"]:
                         inventory = job["inventory"]
-                        state = (inventory["ready"], inventory["total"])
+                        state = (inventory["ready"], inventory["total"], job["state"])
                         if state != previous:
                             print(
-                                f"{lecture_id}: {state[0]}/{state[1]} passages ready",
+                                f"{lecture_id}: {state[0]}/{state[1]} passages ready · {job['state']}",
                                 flush=True,
                             )
                             previous = state
-                        campaign = inventory.get("preparation") or {}
-                        if campaign.get("state") in {
-                            "finished_with_errors",
-                            "cancelled",
-                        }:
+                        if job["state"] in {"failed", "cancelled", "settings_changed"}:
                             raise ValueError(
-                                f'{lecture_id}: preparation {campaign["state"]}; rerun to reuse completed pages'
+                                f'{lecture_id}: preparation {job["state"]}: {job.get("error") or ""}; rerun to reuse completed pages'
                             )
                         time.sleep(0.5)
                         job = manager.status(job["id"])

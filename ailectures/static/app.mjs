@@ -943,7 +943,6 @@ function packsPage() {
     ),
   );
 }
-let jobIds = getStored("jobs", []);
 async function productionPage() {
   const main = $("main");
   main.replaceChildren(
@@ -964,6 +963,12 @@ async function productionPage() {
     );
     return;
   }
+  const scope = el(
+    "select",
+    { "aria-label": "Preparation selection" },
+    el("option", { value: "lecture", text: "Lecture" }),
+    el("option", { value: "course", text: "Whole course" }),
+  );
   const lectures = el(
     "select",
     { "aria-label": "Lecture to prepare" },
@@ -971,10 +976,20 @@ async function productionPage() {
       .filter((r) => r.kind === "audio")
       .map((r) => el("option", { value: r.id, text: r.title })),
   );
-  lectures.value =
-    new URLSearchParams(location.search).get("lecture") ||
-    catalog.lectures[0]?.id ||
-    "";
+  const requestedLecture = new URLSearchParams(location.search).get("lecture");
+  if ([...lectures.options].some((option) => option.value === requestedLecture))
+    lectures.value = requestedLecture;
+  scope.onchange = () => {
+    const rows =
+      scope.value === "course"
+        ? catalog.courses.filter((c) =>
+            c.lectures.some((id) => byId(id)?.kind === "audio"),
+          )
+        : catalog.lectures.filter((r) => r.kind === "audio");
+    lectures.replaceChildren(
+      ...rows.map((row) => el("option", { value: row.id, text: row.title })),
+    );
+  };
   const providers = el(
     "select",
     { id: "production-profile", "aria-label": "TTS profile" },
@@ -998,7 +1013,8 @@ async function productionPage() {
     el(
       "div",
       { class: "filters" },
-      el("label", {}, "Lecture", lectures),
+      el("label", {}, "Prepare", scope),
+      el("label", {}, "Selection", lectures),
       el("label", {}, "TTS profile", providers),
       el("label", {}, "Voice", voice),
     ),
@@ -1013,15 +1029,11 @@ async function productionPage() {
   form.onsubmit = async (e) => {
     e.preventDefault();
     try {
-      const job = await post("/api/library/production/prepare", {
-        lecture_id: lectures.value,
+      await post("/api/library/production/prepare", {
+        [scope.value === "course" ? "course_id" : "lecture_id"]: lectures.value,
         profile: providers.value,
         voice: voice.value,
       });
-      if (!jobIds.includes(job.id)) {
-        jobIds.push(job.id);
-        store("jobs", jobIds);
-      }
       await showJobs();
     } catch (error) {
       message(error.message);
@@ -1053,9 +1065,10 @@ async function showJobs() {
   const target = $("jobs");
   if (!target) return;
   const cards = [];
-  for (const id of jobIds) {
+  const jobs = (await api("/api/library/production/jobs")).jobs;
+  for (const job of jobs) {
+    const id = job.id;
     try {
-      const job = await api("/api/library/production/jobs/" + id);
       const inv = job.inventory;
       cards.push(
         el(
@@ -1065,14 +1078,24 @@ async function showJobs() {
           el("p", {
             text: job.published
               ? "Recording published"
-              : `${inv.ready} / ${inv.total} passages ready`,
+              : `${job.state} · ${inv.ready} / ${inv.total || "?"} passages ready`,
           }),
           el("progress", {
             value: inv.ready,
-            max: inv.total,
+            max: Math.max(1, inv.total),
             "aria-label": "Prepared passages",
           }),
-          !job.published
+          job.error ? el("p", { class: "notice", text: job.error }) : null,
+          job.state === "settings_changed"
+            ? link("Prepare with current settings", "/production?lecture=" + encodeURIComponent(job.lecture_id))
+            : ["failed", "cancelled"].includes(job.state)
+            ? button("Retry preparation", async () => {
+                await post("/api/library/production/jobs/" + id + "/retry", {});
+                await showJobs();
+              })
+            : null,
+          !job.published &&
+            !["failed", "cancelled", "settings_changed"].includes(job.state)
             ? button("Cancel generation", () =>
                 api("/api/library/production/jobs/" + id, { method: "DELETE" }),
               )
@@ -1089,7 +1112,7 @@ async function showJobs() {
       cards.push(
         el("p", {
           class: "muted",
-          text: "A previous preparation can be resumed by selecting its lecture and settings again.",
+          text: error.message,
         }),
       );
     }

@@ -214,11 +214,21 @@ python -m ailectures prepare --repository . \
 ```
 
 Completed recordings publish as media packs and appear in the library. Different
-narrators are retained independently. Completed speech pages and the batch
-selection survive in `build-cache/generation/`; rerunning with matching settings
-reuses them after interruption. The process-local queue must be restarted or
-reselected after a server restart. No TTS request runs during ordinary catalog
-loading or prepared playback.
+narrators are retained independently. Explicitly requested preparations are stored
+in `state/production.sqlite3`, including their source revision and synthesis
+configuration. Course batches enqueue their full selection before processing.
+The Production page lists these server-owned requests across browsers and provides
+cancellation and retry controls.
+
+Pending work resumes automatically after a restart. Worker leases bound concurrent
+preparations across processes, and completed request-addressed pages in
+`build-cache/speech/` are reused. Changing one passage can reuse unchanged pages;
+a bibliography-only edit reuses all unchanged speech. Backend failures use bounded
+retries; cancellation survives restarts. A changed voice/backend configuration
+blocks the old request with an explicit status rather than generating different
+speech under the old recipe. Start a new preparation to use the revised settings.
+No TTS request runs during ordinary catalog loading or prepared playback; only
+previously requested preparations are resumed in the background.
 
 ## Listeners and feedback
 

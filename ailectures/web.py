@@ -240,6 +240,7 @@ def create_app(
             type="submission",
             lecture_id=key,
             release=release,
+            pack_release=row.get("origin", {}).get("pack_release", release),
             revision=row["revision"],
             spoken_sha256=row["spoken_sha256"],
             recording=recording,
@@ -283,6 +284,22 @@ def create_app(
 
     async def prepare(request):
         payload = await body(request)
+        if payload.get("course_id") or payload.get("lecture_ids"):
+            selection = payload.get("lecture_ids", [])
+            if payload.get("course_id"):
+                selection = library.snapshot()["courses"][
+                    qualified(payload["course_id"])
+                ]["lectures"]
+            if not isinstance(selection, list):
+                raise ValueError("Select a list of lectures or one course")
+            result = await run_in_threadpool(
+                production().prepare_many,
+                [qualified(key) for key in selection],
+                payload["profile"],
+                voice=payload.get("voice"),
+                speed=payload.get("speed", 1),
+            )
+            return JSONResponse({"jobs": result}, status_code=202)
         result = await run_in_threadpool(
             production().prepare,
             qualified(payload["lecture_id"]),
@@ -301,6 +318,15 @@ def create_app(
             )
         return JSONResponse(
             await run_in_threadpool(production().status, request.path_params["job_id"])
+        )
+
+    def jobs(request):
+        return JSONResponse({"jobs": production().list()})
+
+    async def retry_job(request):
+        return JSONResponse(
+            await run_in_threadpool(production().retry, request.path_params["job_id"]),
+            status_code=202,
         )
 
     async def body(request):
@@ -332,20 +358,22 @@ def create_app(
             try:
                 await run_in_threadpool(library.store.reconcile)
                 if producer is not None:
-                    # Completed campaigns publish even after the browser closes.
-                    for job_id in list(getattr(producer, "_jobs", {})):
-                        try:
-                            await run_in_threadpool(producer.status, job_id)
-                        except (OSError, ValueError, KeyError) as exc:
-                            library.store.errors.append(
-                                f"Generation publication: {exc}"
-                            )
+                    await run_in_threadpool(producer.tick)
             except (OSError, ValueError) as exc:
                 library.store.errors = [str(exc)]
             await asyncio.sleep(max(0.05, interval))
 
     @asynccontextmanager
     async def lifespan(app):
+        # Inspect durable intent without importing renderers for an ordinary reader.
+        if (library.store.state / "production.sqlite3").exists():
+            from .jobs import JobStore
+
+            if any(
+                record["state"] in {"queued", "running"}
+                for record in JobStore(library.store.state).list()
+            ):
+                production()
         task = asyncio.create_task(reconcile())
         try:
             yield
@@ -387,6 +415,10 @@ def create_app(
         Route("/api/library/packs", pack_change, methods=["POST"]),
         Route("/api/library/production", production_profiles),
         Route("/api/library/production/prepare", prepare, methods=["POST"]),
+        Route("/api/library/production/jobs", jobs),
+        Route(
+            "/api/library/production/jobs/{job_id}/retry", retry_job, methods=["POST"]
+        ),
         Route("/api/library/production/jobs/{job_id}", job, methods=["GET", "DELETE"]),
         Mount("/library-assets", StaticFiles(directory=STATIC)),
     ]

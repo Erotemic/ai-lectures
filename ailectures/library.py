@@ -100,6 +100,35 @@ class Library:
                 "sources": [p["release"] for p in result["packs"]],
             }
         )
+        # A source release plus independently installed media is a composed view.
+        # Retain that view so feedback can resolve its selected recording even
+        # though the original source-only catalog did not contain the add-on.
+        installed_groups = {}
+        for key, row in result["lectures"].items():
+            if not row.get("origin", {}).get("source"):
+                installed_groups.setdefault(row["origin"]["release"], {})[key] = row
+        for pack_release, rows in installed_groups.items():
+            view = digest(
+                {
+                    "pack_release": pack_release,
+                    "lectures": {key: row["revision"] for key, row in rows.items()},
+                    "recordings": {
+                        key: [(r["id"], r["_release"]) for r in row["recordings"]]
+                        for key, row in rows.items()
+                    },
+                }
+            )
+            for row in rows.values():
+                row["origin"] = dict(
+                    row["origin"], release=view, pack_release=pack_release
+                )
+            if view not in self._saved_snapshots:
+                with self.store.connect() as db:
+                    db.execute(
+                        "INSERT OR IGNORE INTO source_snapshots VALUES (?,?)",
+                        (view, canonical(rows).decode()),
+                    )
+                self._saved_snapshots.add(view)
         result["aliases"] = {
             alias: row["id"]
             for row in result["lectures"].values()
