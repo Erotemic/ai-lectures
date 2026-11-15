@@ -61,3 +61,12 @@ All four lectures carry paragraph-level display-only evidence ledgers with direc
 - **026000 — [The Right to Count: Citizenship, Gender, Race, and the Vote](026000-the-right-to-count.md).** Citizenship versus enfranchisement, Reconstruction in the United States, Māori and Pākehā suffrage campaigns, and early twentieth-century Indian women’s political demands.
 
 Every spoken paragraph in these four lectures maps to a display-only numbered evidence entry with direct source links, passage locators and limitations. Publisher summaries are not labeled as fully reviewed books. No lecture duration or word-count policy is in force. This content pack belongs exclusively to Agent B.
+
+## World war and the contested postwar order (027000–030000)
+
+- **027000 — [A War With More Than One Front: Empire, Carriers, and the Global First World War](027000-a-war-with-more-than-one-front.md).** The First World War as connected campaigns and compulsory labor across Africa, Asia, Europe, and the Pacific; source criticism and imperial inequality.
+- **028000 — [The Armistice Was Not the End: Work, Debt, Pandemic, and Demobilization](028000-the-armistice-was-not-the-end.md).** Wartime economic organization, unequal labor demands, influenza in India and Samoa, finance, and demobilization.
+- **029000 — [Who Got to Make the Peace? Versailles, Mandates, and Unanswered Claims](029000-who-got-to-make-the-peace.md).** Paris peace treaties, League mandates, Shandong, Korean and Vietnamese petitions, Egypt, and Pan-African rights claims.
+- **030000 — [The Public Enters the Argument: Labor, Protest, and Mass Politics After 1918](030000-the-public-enters-the-argument.md).** ILO institutions, Winnipeg strike, qualified suffrage, Egypt 1919, Indian non-cooperation, Caribbean veterans and political membership.
+
+All four lectures separate narrated prose from display-only paragraph citation ledgers with direct URLs, passage locators and evidence-limit labels. Full-text scholarship, source translations, primary diplomatic texts and summaries are identified at their real review scope. No word-count or duration policy is in force.

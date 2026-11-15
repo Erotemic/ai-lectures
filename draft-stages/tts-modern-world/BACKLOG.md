@@ -34,3 +34,19 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **024000:** Official U.S., Canadian and Australian institutional histories establish legal restrictions and documented organization, but do not exhaust migrant experiences. Find Chinese-language writings and community-led archives before narrating specific families. A 1905 U.S. diplomatic dispatch reports a foreign official's perspective on the boycott.
 - **025000:** Read the Congo commission as a document produced within a colonial administrative structure; confront its categories with local testimony and specialist historians. The Putumayo congressional debates record political accounts of violence, not an exhaustive inventory of victims. No Congo or Putumayo total is asserted without independent demographic work.
 - **026000:** Legal milestones are not universal empirical participation. Verify specific voting and candidacy conditions, and supplement official archives with Māori-authored and Indian women-organized contemporary sources, including vernacular records.
+
+## Completed world war and peace section (027000–030000)
+
+- **027000:** A War With More Than One Front: Empire, Carriers, and the Global First World War. The First World War as connected campaigns and compulsory labor across Africa, Asia, Europe, and the Pacific; source criticism and imperial inequality.
+- **028000:** The Armistice Was Not the End: Work, Debt, Pandemic, and Demobilization. Wartime economic organization, unequal labor demands, influenza in India and Samoa, finance, and demobilization.
+- **029000:** Who Got to Make the Peace? Versailles, Mandates, and Unanswered Claims. Paris peace treaties, League mandates, Shandong, Korean and Vietnamese petitions, Egypt, and Pan-African rights claims.
+- **030000:** The Public Enters the Argument: Labor, Protest, and Mass Politics After 1918. ILO institutions, Winnipeg strike, qualified suffrage, Egypt 1919, Indian non-cooperation, Caribbean veterans and political membership.
+
+## Next questions (unindexed)
+
+- **031000–034000 (proposed):** Interwar political economy, mass consumption and organized exclusion; anticolonial movements and changing states in South Asia, East Asia, Africa and the Middle East; the global Depression and its political effects; competing responses to social crisis and violence. Verify the sequence against newly incorporated material before drafting.
+- Build additional local/vernacular or participant-authored evidence for African carriers in the Great War, Chinese laborers, Samoan influenza survivors, Korean protestors, and 1919 Egyptian women organizers. A military archive, government inquiry or treaty is not a substitute for the communities those institutions describe.
+- **027000:** British Library censor excerpts are mediated and selected. Further local letters and translated primary evidence should be reviewed before adding first-person narratives.
+- **028000:** Competing global influenza mortality estimates use distinct methods; keep denominator and sample differences explicit. 1919 Samoan inquiry is a colonial administrative source, not comprehensive Samoan testimony.
+- **029000:** Treaty text establishes legal dispositions and the 1919 petitions show organizing demands, not the opinions of entire national populations. Expand with local press and archival collections.
+- **030000:** The ILO convention is an international standard subject to ratification and exceptions. Further scholarship on gender, rank-and-file unions, and Indian regional political organizations would deepen this comparison.
