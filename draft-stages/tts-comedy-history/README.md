@@ -61,7 +61,7 @@ Comparisons among lineages are tools for understanding their different artistic 
 
 ## Planned continuation
 
-The historical deep dives 003000–006000 are complete. The remaining proposed historical episodes are 007000–030000; available modern theory lectures extend through 057000, with the 050000–053000 gap assigned for recovery.
+The historical deep dives 003000–006000 are complete. The remaining proposed historical episodes are 007000–030000; available modern theory lectures extend continuously through 057000, with the restored 050000–053000 translation and reception sequence now playable.
 
 The full staged curriculum is in [`docs/planning/comedy-theory-history-curriculum.md`](../../docs/planning/comedy-theory-history-curriculum.md). Titles not listed under completed lectures remain proposals.
 
@@ -72,14 +72,14 @@ Source records: `metadata/sources.json`; per-lecture metadata: `metadata/<id>.js
 This collection is text only and contains no generated images or audio.
 
 
-## Pending recovery: cross-cultural comedy and translation (050000–053000)
+## Cross-cultural comedy and translation (050000–053000)
 
-**Not yet available as playable manuscripts.** A prior manifest listed these four lectures as complete, but the source snapshot includes neither the manuscripts nor their claim sidecars. Agent B owns their recovery or independent re-authoring; see the four-agent completion campaign. These are proposed titles and reserved IDs, not finished episodes. Do not add them to `track.json` until each corresponding manuscript and metadata sidecar is present.
+The four recovered manuscripts now have their original per-lecture claim sidecars again. They explain translation as a problem of function and interpretation, cultural knowledge as part of audience reception, time/space constraints in audiovisual translation, and code-switching as a comic resource shaped by power and identity. Each is a substantive standalone lecture; real manuscript and bibliography files are present, rather than placeholder manifest entries.
 
-- 050000: When a Joke Crosses Languages: Wordplay, Meaning, and the Translator's Choice.
-- 051000: The Audience Knows Something You Don't: Cultural Allusions, Local Knowledge, and Humor.
-- 052000: Comedy Under the Clock: Subtitles, Dubbing, and the Shape of a Laugh.
-- 053000: The Multilingual Comic Voice: Code-Switching, Identity, and Who Gets the Joke.
+- 050000: [When a Joke Crosses Languages: Wordplay, Meaning, and the Translator's Choice](050000-when-a-joke-crosses-languages.md) (2,096 spoken words).
+- 051000: [The Audience Knows Something You Don't: Cultural Allusions, Local Knowledge, and Humor](051000-the-audience-knows-something-you-dont.md) (2,325 spoken words).
+- 052000: [Comedy Under the Clock: Subtitles, Dubbing, and the Shape of a Laugh](052000-comedy-under-the-clock.md) (2,206 spoken words).
+- 053000: [The Multilingual Comic Voice: Code-Switching, Identity, and Who Gets the Joke](053000-the-multilingual-comic-voice.md) (2,424 spoken words).
 
 ## Absurdism, surrealism and contemporary formal experimentation (054000–057000)
 
