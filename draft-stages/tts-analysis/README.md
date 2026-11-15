@@ -118,3 +118,23 @@ analysis via measure and Lebesgue integration. No planned manuscripts are indexe
 ## Editorial review and source verification
 
 See [`polishing-audit-2026-11-14.md`](../../docs/planning/agent-c-analysis/polishing-audit-2026-11-14.md) for the review census, theorem-qualification checks, the fixed open-versus-closed disk exercise, repaired source metadata, and replacement of a broken reference. The complete 28-lecture sequence retains its ID ordering.
+
+## Measure theory and Lebesgue integration (029000–032000)
+
+- 029000 — Sigma-Algebras: What Does It Mean to Measure a Set?
+- 030000 — Building Lebesgue Measure: Coverings, Null Sets, and a Necessary Boundary
+- 031000 — Measurable Functions: Seeing a Function Through Its Level Sets
+- 032000 — The Lebesgue Integral: Building an Area That Survives Limits
+
+The sequence develops a general measurable-space framework, constructs Lebesgue
+outer measure and the Carathéodory sigma-algebra, distinguishes Borel sets
+from their Lebesgue completion, and derives simple approximations,
+almost-everywhere convergence, Egoroff's theorem, monotone convergence,
+and Fatou's lemma. Definite failure examples (Vitali selection, nonuniform
+function limits, concentrating mass) are retained alongside proof hypotheses.
+Source notes link to Axler's open-access textbook, MIT 18.125, Tao's notes,
+and selected Wikipedia overviews. Lecture length has no target or threshold;
+word counts and estimates are descriptive metadata.
+
+Next: dominated convergence, signed and complex integration, product measures
+and Fubini–Tonelli, followed by L-p spaces and Hilbert-space foundations.

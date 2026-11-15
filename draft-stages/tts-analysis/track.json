@@ -1,7 +1,7 @@
 {
   "id": "analysis",
   "title": "Analysis from First Principles",
-  "summary": "Real and complex analysis from limits and completeness through rigorous calculus, metric spaces, holomorphic functions, Cauchy theory, residues, mapping principles, normal families, Möbius transformations, hyperbolic geometry, the Riemann mapping theorem, and conformal boundary behavior.",
+  "summary": "Real and complex analysis from limits and completeness through rigorous calculus, metric spaces, holomorphic functions, Cauchy theory, residues, mapping principles, normal families, Möbius transformations, hyperbolic geometry, the Riemann mapping theorem, and conformal boundary behavior, and measure-theoretic foundations for Lebesgue integration.",
   "assumed_background": [
     "Elementary algebra, inequalities, and familiarity with fractions"
   ],
@@ -27,7 +27,11 @@
     "mobius-transformations",
     "conformal-geometry",
     "riemann-mapping",
-    "boundary-conformal-mapping"
+    "boundary-conformal-mapping",
+    "sigma-algebras-and-measures",
+    "lebesgue-measure",
+    "measurable-functions",
+    "lebesgue-integration"
   ],
   "lectures": [
     {
@@ -281,6 +285,42 @@
       "spoken_words": 2463,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 17.0
+    },
+    {
+      "id": "029000",
+      "title": "Sigma-Algebras: What Does It Mean to Measure a Set?",
+      "section": "sigma-algebras-and-measures",
+      "file": "029000-sigma-algebras-and-measure-spaces.md",
+      "spoken_words": 1966,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.6
+    },
+    {
+      "id": "030000",
+      "title": "Building Lebesgue Measure: Coverings, Null Sets, and a Necessary Boundary",
+      "section": "lebesgue-measure",
+      "file": "030000-building-lebesgue-measure.md",
+      "spoken_words": 2101,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.5
+    },
+    {
+      "id": "031000",
+      "title": "Measurable Functions: Seeing a Function Through Its Level Sets",
+      "section": "measurable-functions",
+      "file": "031000-measurable-functions-and-almost-everywhere.md",
+      "spoken_words": 2348,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.2
+    },
+    {
+      "id": "032000",
+      "title": "The Lebesgue Integral: Building an Area That Survives Limits",
+      "section": "lebesgue-integration",
+      "file": "032000-lebesgue-integral-and-monotone-convergence.md",
+      "spoken_words": 2522,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.4
     }
   ]
 }
