@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015200",
+  "transcript": "015200-giovannis-room-the-story.md",
+  "related_resources": [
+    {
+      "source_id": "ml-baldwin-primary",
+      "reason": "Primary literary text or its bibliographic record"
+    },
+    {
+      "source_id": "ml-baldwin-spark",
+      "reason": "Supporting reference: Plot and character cross-check; subordinate to the novel."
+    },
+    {
+      "source_id": "ml-baldwin-litcharts",
+      "reason": "Supporting reference: Plot, David and Hella, Giovanni, Guillaume; reconstructive conjecture not fact."
+    },
+    {
+      "source_id": "ml-baldwin-interview",
+      "reason": "Supporting reference: Primary author testimony about expatriate writing, literary vocation, identity and publishers."
+    },
+    {
+      "source_id": "ml-baldwin-uchicago",
+      "reason": "Supporting reference: Novel published in 1956 in UK after American refusals; historical context."
+    },
+    {
+      "source_id": "ml-baldwin-sydney",
+      "reason": "Supporting reference: Sexuality, narration, publishing reception."
+    },
+    {
+      "source_id": "ml-baldwin-armengol",
+      "reason": "Supporting reference: Cited as one scholarly reading of sexuality and race, not definitive authorial intention."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "015200-c01",
+      "anchor": "David grows up without his mother, who died when he was small.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-baldwin-spark"
+      ],
+      "source_locator": "David childhood",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "015200-c02",
+      "anchor": "In France, David becomes involved with another American, Hella.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-baldwin-spark",
+        "ml-baldwin-litcharts"
+      ],
+      "source_locator": "Hella and proposed marriage",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "015200-c03",
+      "anchor": "Giovanni rents a cramped room in Paris.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-baldwin-primary",
+        "ml-baldwin-litcharts"
+      ],
+      "source_locator": "David and Giovanni room",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "015200-c04",
+      "anchor": "Then Guillaume is found murdered.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-baldwin-spark",
+        "ml-baldwin-litcharts"
+      ],
+      "source_locator": "Guillaume murder and accusation",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "015200-c05",
+      "anchor": "Hella finds him.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-baldwin-spark",
+        "ml-baldwin-litcharts"
+      ],
+      "source_locator": "Hella discovery in Nice",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "editorial_scope": "Original plot narration for James Baldwin. David does not witness the killing; his account of Guillaume and Giovanni is explicitly conjectural."
+}

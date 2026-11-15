@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-the-unbearable-lightness-of-being-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-kundera-primary",
+      "reason": "Primary literary text or its bibliographic record"
+    },
+    {
+      "source_id": "ml-kundera-spark",
+      "reason": "Supporting reference: Parallel plots and dates; confirms final accident and Franz/Sabina arcs."
+    },
+    {
+      "source_id": "ml-kundera-litcharts",
+      "reason": "Supporting reference: Country life, Karenin, nonchronological ending."
+    },
+    {
+      "source_id": "ml-kundera-interview",
+      "reason": "Supporting reference: Author testimony about musicality, ellipsis, thinking in novels and narrative form."
+    },
+    {
+      "source_id": "ml-kundera-excerpt",
+      "reason": "Supporting reference: Direct excerpt from novel, verifying characters and Swiss exile sequence."
+    },
+    {
+      "source_id": "ml-kundera-chapter",
+      "reason": "Supporting reference: Kitsch, Grand March and individual existence; scholarly analysis."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "018000-c01",
+      "anchor": "Kundera described his fictional practice in a 1984",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-kundera-interview"
+      ],
+      "source_locator": "Interview date and form",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "018000-c02",
+      "anchor": "Tomas writes a political article drawing on Oedipus's ignorance of his own actions.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-kundera-spark",
+        "ml-kundera-litcharts"
+      ],
+      "source_locator": "Tomas article",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "018000-c03",
+      "anchor": "Franz joins a humanitarian march toward the Cambodian border",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-kundera-spark",
+        "ml-kundera-chapter"
+      ],
+      "source_locator": "The Grand March",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "018000-c04",
+      "anchor": "Kundera's discussions of kitsch are among the book's best-known passages.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-kundera-chapter",
+        "ml-kundera-interview"
+      ],
+      "source_locator": "Political kitsch and literary form",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "editorial_scope": "Philosophical interpretation identified as synthesis, not a doctrinal position imported from Nietzsche or a categorical verdict by Kundera."
+}

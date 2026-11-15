@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-giovannis-room-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-baldwin-primary",
+      "reason": "Primary literary text or its bibliographic record"
+    },
+    {
+      "source_id": "ml-baldwin-spark",
+      "reason": "Supporting reference: Plot and character cross-check; subordinate to the novel."
+    },
+    {
+      "source_id": "ml-baldwin-litcharts",
+      "reason": "Supporting reference: Plot, David and Hella, Giovanni, Guillaume; reconstructive conjecture not fact."
+    },
+    {
+      "source_id": "ml-baldwin-interview",
+      "reason": "Supporting reference: Primary author testimony about expatriate writing, literary vocation, identity and publishers."
+    },
+    {
+      "source_id": "ml-baldwin-uchicago",
+      "reason": "Supporting reference: Novel published in 1956 in UK after American refusals; historical context."
+    },
+    {
+      "source_id": "ml-baldwin-sydney",
+      "reason": "Supporting reference: Sexuality, narration, publishing reception."
+    },
+    {
+      "source_id": "ml-baldwin-armengol",
+      "reason": "Supporting reference: Cited as one scholarly reading of sexuality and race, not definitive authorial intention."
+    },
+    {
+      "source_id": "ml-baldwin-obnb",
+      "reason": "British National Bibliography (OBNB): New York Dial Press 1956, London Michael Joseph 1957; edition sequence distinguishes publisher acceptance from publication."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "016000-c01",
+      "anchor": "His original American publisher rejected this next novel.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-baldwin-uchicago",
+        "ml-baldwin-sydney"
+      ],
+      "source_locator": "Publishing history of 1956 novel",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "016000-c02",
+      "anchor": "A British publisher agreed to take the manuscript, and Dial Press published it in New York in 1956; a London edition followed in 1957.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-baldwin-obnb",
+        "ml-baldwin-uchicago",
+        "ml-baldwin-sydney"
+      ],
+      "source_locator": "Bibliographic first-edition chronology: NY Dial 1956; London Michael Joseph 1957",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "016000-c03",
+      "anchor": "Baldwin later described pressure to remain within the expected role of a young Black writer",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-baldwin-interview",
+        "ml-baldwin-sydney"
+      ],
+      "source_locator": "Baldwin and publishing expectations",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "016000-c04",
+      "anchor": "Later criticism has explored how racial and sexual categories interact",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-baldwin-armengol"
+      ],
+      "source_locator": "Scholarly readings of race and sexuality",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "editorial_scope": "Historical publication claims distinguished from the lecture’s interpretation of David’s narration and other people’s agency."
+}

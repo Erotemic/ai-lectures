@@ -1,6 +1,6 @@
 # 20th-Century Literature: Story, Then Analysis
 
-The track currently covers **fifteen novels**. For each, a single continuous plot-orientation lecture comes immediately before a critical interpretation. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
+The track currently covers **eighteen novels**. For each, a single continuous plot-orientation lecture comes immediately before a critical interpretation. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
 
 ## Scope and the latest expansion
 
@@ -12,13 +12,21 @@ The original nine pairs remain intact. Recent additions:
 
 These bring in East Asian modernity, Arabic-language African literature, and South Asian literature.
 
-The next three pairs are now also complete:
+The earlier three additional pairs are complete:
 
 - `012200` and `013000`: Leslie Marmon Silko, *Ceremony* (Laguna Pueblo, 1977)
 - `013200` and `014000`: Jean Rhys, *Wide Sargasso Sea* (Caribbean, 1966)
 - `014200` and `015000`: Yu Hua, *To Live* (China, originally written in Chinese, 1993)
 
 Each adds a single full spoiler-containing plot orientation and a distinct interpretive lecture. Existing narratives and analyses are unchanged. **This is not a claim that geographic representation is now complete.** Eastern European literature, major queer literary traditions, several African and Asian languages, and additional Indigenous and Caribbean traditions remain significant omissions.
+
+## New expansion: queer intimacy, Southern African education, Central European philosophy
+
+- `015200` then `016000`: James Baldwin, *Giovanni's Room* (1956, United States / Paris; sexual shame, class, unreliable confession)
+- `016200` then `017000`: Tsitsi Dangarembga, *Nervous Conditions* (1988, colonial Rhodesia / Zimbabwe; schooling, gender, and unequal institutions)
+- `017200` then `018000`: Milan Kundera, *The Unbearable Lightness of Being* (1984, Czech-language work first published in French translation; Prague Spring, personal freedom, kitsch)
+
+Each has one original, complete story telling followed by a distinct analysis. The earlier story and analysis manuscripts remain unchanged.
 
 ## Editorial principles
 
@@ -32,4 +40,4 @@ Each adds a single full spoiler-containing plot orientation and a distinct inter
 
 ## Further blind spots
 
-Choose a specific work and verify its primary plot and historical context before drafting. Candidates for further units include Clarice Lispector's *The Hour of the Star* (Brazilian Portuguese), Tsitsi Dangarembga's *Nervous Conditions* (Zimbabwean women's experience), James Baldwin's *Giovanni's Room*, and contemporary Eastern European works. The purpose is to add perspectives and literary techniques the existing selections have not taught, not to fill a numerical quota. Each selected work gets its **own full story lecture followed by analysis**, packaged as a single independently applicable Agent A ZIP.
+Choose a specific work and verify its primary plot and historical context before drafting. Candidates for further units include Clarice Lispector's *The Hour of the Star* (Brazilian Portuguese), *Nervous Conditions* (Zimbabwean women's experience), James Baldwin's *Giovanni's Room*, and Milan Kundera's Czech-language fiction are now covered. Further candidates include Clarice Lispector's *The Hour of the Star* (Brazilian Portuguese), Yasunari Kawabata's *Snow Country*, and works from Southeast Asian and Middle Eastern traditions. The purpose is to add perspectives and literary techniques the existing selections have not taught, not to fill a numerical quota. Each selected work gets its **own full story lecture followed by analysis**, packaged as a single independently applicable Agent A ZIP.

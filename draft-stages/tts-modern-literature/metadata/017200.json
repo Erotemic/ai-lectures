@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017200",
+  "transcript": "017200-the-unbearable-lightness-of-being-the-story.md",
+  "related_resources": [
+    {
+      "source_id": "ml-kundera-primary",
+      "reason": "Primary literary text or its bibliographic record"
+    },
+    {
+      "source_id": "ml-kundera-spark",
+      "reason": "Supporting reference: Parallel plots and dates; confirms final accident and Franz/Sabina arcs."
+    },
+    {
+      "source_id": "ml-kundera-litcharts",
+      "reason": "Supporting reference: Country life, Karenin, nonchronological ending."
+    },
+    {
+      "source_id": "ml-kundera-interview",
+      "reason": "Supporting reference: Author testimony about musicality, ellipsis, thinking in novels and narrative form."
+    },
+    {
+      "source_id": "ml-kundera-excerpt",
+      "reason": "Supporting reference: Direct excerpt from novel, verifying characters and Swiss exile sequence."
+    },
+    {
+      "source_id": "ml-kundera-chapter",
+      "reason": "Supporting reference: Kitsch, Grand March and individual existence; scholarly analysis."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "017200-c01",
+      "anchor": "In August 1968, forces led by the Soviet Union enter Czechoslovakia",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-kundera-spark",
+        "ml-kundera-excerpt"
+      ],
+      "source_locator": "Prague Spring invasion",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "017200-c02",
+      "anchor": "Tomas has written a political article using the story of Oedipus",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-kundera-spark",
+        "ml-kundera-litcharts"
+      ],
+      "source_locator": "Article, political retaliation",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "017200-c03",
+      "anchor": "The dog develops cancer and deteriorates despite their care.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-kundera-spark",
+        "ml-kundera-litcharts"
+      ],
+      "source_locator": "Karenin final illness",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "017200-c04",
+      "anchor": "Franz returns to Bangkok and is attacked while out walking.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-kundera-spark",
+        "ml-kundera-litcharts"
+      ],
+      "source_locator": "Franz fatal mugging following Cambodia march",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "017200-c05",
+      "anchor": "Tomas and Tereza will soon die in a road accident.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-kundera-spark",
+        "ml-kundera-litcharts"
+      ],
+      "source_locator": "Preannounced death and final dance",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "editorial_scope": "Primarily chronological orientation; announces the narrator’s own early disclosure of the final accident. Avoid confusing novel and film."
+}
