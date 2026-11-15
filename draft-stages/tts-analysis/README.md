@@ -77,3 +77,19 @@ Lecture length is determined by mathematical teaching needs, without a runtime
 or word-count target. The metadata records observed word counts, not quotas.
 The next topics may include maximum modulus, open mapping, Schwarz lemma,
 normal families, harmonic functions, and selected applications.
+
+## Boundary rigidity, harmonicity, and compactness (021000–024000)
+
+- 021000 — The Maximum Modulus Principle: Why the Interior Cannot Hide a Peak
+- 022000 — The Open Mapping Theorem and Schwarz's Lemma: Two Forms of Rigidity
+- 023000 — Harmonic Functions: A Value Determined by Its Neighbors
+- 024000 — Normal Families: Finding Convergent Functions in an Infinite Collection
+
+The lectures use local maximum-modulus rigidity to explain compact-boundary
+bounds, Rouché zero-counting to prove openness even at branch points, and
+disk automorphisms to obtain Schwarz–Pick. Harmonic conjugates, the Poisson
+formula, and punctured-plane periods distinguish local PDE constraints from
+global topology. Montel compactness leads to Hurwitz zero-stability and
+Vitali convergence, with finite-valued versus spherical normal-family
+conventions explained. Each lesson has a proof-and-exercise companion and
+track-local references. No lecture duration or word-count threshold is used.

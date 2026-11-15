@@ -97,3 +97,21 @@ This is an incremental Agent C-only ZIP; apply after the 013000–016000 ZIP.
 It updates only this track's manifest, text manuscripts, README, metadata and
 Agent C-owned planning file. It does not modify shared tests or style rules.
 No word-count floor, 10-minute heuristic, or arbitrary length gate is used.
+
+## Completed analytic rigidity and compactness sequence: 021000–024000
+
+| ID | Topic | Main proof mechanism and boundary |
+| --- | --- | --- |
+| 021000 | Maximum modulus | Circular Taylor Parseval equality; local rigidity versus bounded-domain boundary estimates; zero-free minimum; unbounded-region counterexample |
+| 022000 | Open mapping and Schwarz | Rouché under small output shifts; disk quotient trick; equality rotations; Schwarz–Pick normalization |
+| 023000 | Harmonic functions | CR implies Laplace; closed conjugate form with simply-connected exactness; logarithm period obstruction; Poisson kernel and Dirichlet uniqueness |
+| 024000 | Normal families | Cauchy derivative estimates → Arzelà–Ascoli and diagonal extraction; locally uniform holomorphic limit; Hurwitz via Rouché; Vitali via Montel + identity |
+
+This Agent C-only overlay must be applied after lectures 017000–020000. It
+updates only `draft-stages/tts-analysis/**` and
+`docs/planning/agent-c-analysis/**`; no shared test or reader code is touched.
+Spoken word counts and duration estimates are descriptive, not thresholds.
+Potential future topics: conformal maps, Möbius and Riemann surfaces, a
+carefully staged proof of the Riemann mapping theorem, and then selected
+analytic applications. Avoid assuming a global harmonic conjugate on domains
+with holes, or uniform convergence right up to an open domain's boundary.

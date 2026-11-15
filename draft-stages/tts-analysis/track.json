@@ -1,7 +1,7 @@
 {
   "id": "analysis",
   "title": "Analysis from First Principles",
-  "summary": "Foundations of real and complex analysis: limits, integration, metric spaces, uniform convergence, holomorphic functions, Cauchy theory, analytic continuation, singularities, residues, and zero-counting.",
+  "summary": "Real and complex analysis from rigorous limits and integration through metric-space convergence, Cauchy theory, analytic continuation, residues, mapping principles, harmonic functions, and normal families.",
   "assumed_background": [
     "Elementary algebra, inequalities, and familiarity with fractions"
   ],
@@ -19,7 +19,11 @@
     "cauchy-theory",
     "isolated-singularities",
     "residue-calculus",
-    "zero-counting"
+    "zero-counting",
+    "maximum-principles",
+    "holomorphic-mappings",
+    "harmonic-functions",
+    "normal-families"
   ],
   "lectures": [
     {
@@ -201,6 +205,42 @@
       "spoken_words": 2487,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 17.2
+    },
+    {
+      "id": "021000",
+      "title": "The Maximum Modulus Principle: Why the Interior Cannot Hide a Peak",
+      "section": "maximum-principles",
+      "file": "021000-maximum-modulus-and-boundary-control.md",
+      "spoken_words": 2039,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.1
+    },
+    {
+      "id": "022000",
+      "title": "The Open Mapping Theorem and Schwarz's Lemma: Two Forms of Rigidity",
+      "section": "holomorphic-mappings",
+      "file": "022000-open-mapping-and-schwarz-lemma.md",
+      "spoken_words": 2272,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.7
+    },
+    {
+      "id": "023000",
+      "title": "Harmonic Functions: A Value Determined by Its Neighbors",
+      "section": "harmonic-functions",
+      "file": "023000-harmonic-functions-and-poisson-boundary-values.md",
+      "spoken_words": 2200,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.2
+    },
+    {
+      "id": "024000",
+      "title": "Normal Families: Finding Convergent Functions in an Infinite Collection",
+      "section": "normal-families",
+      "file": "024000-normal-families-and-montel.md",
+      "spoken_words": 2386,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.5
     }
   ]
 }
