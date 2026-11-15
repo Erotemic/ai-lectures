@@ -1,0 +1,95 @@
+# The Empire Is Not the Map: Ottomans, Safavids, and Mughals
+
+**Track:** The Making of the Modern World. **Background:** a general orientation to the world around 1500. **Focus:** early modern land empires, sovereignty, revenue, religious difference, frontier societies, and the limits of the “gunpowder empire” label.
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+# The Empire Is Not the Map: Ottomans, Safavids, and Mughals
+
+Look at a map of Asia around 1600. Across Anatolia and much of the eastern Mediterranean lies the Ottoman Empire. Iran is ruled by the Safavids. Across much of northern India, and extending southward, the Mughal emperor claims authority. The borders, if they are drawn confidently enough, seem to explain the age. Three enormous states, three capitals, three dynasties: history appears to have sorted itself into colored territories.
+
+But a map has smoothed away almost everything that made those states difficult to govern. Between a ruler's order and a village's harvest stood soldiers, notables, judges, landlords, accountants, religious scholars, and local power holders. A boundary on paper was a claim as well as a fact. A town might accept an empire's coinage, send revenue to one governor, seek legal assistance elsewhere, and maintain religious institutions with their own sources of authority. To describe an empire, we need to ask not only what its ruler held, but how claims to rule traveled, how they were paid for, and who could resist them.
+
+The Ottomans, Safavids, and Mughals are often grouped as the “gunpowder empires.” Firearms and artillery did matter in their wars. Yet a cannon cannot determine a harvest, recruit an interpreter, or hold together an alliance with a local notable. The category is worth using only if it directs our attention to a question; it fails when it is treated as the answer.
+
+## Three histories, not three simultaneous beginnings
+
+The Ottoman dynasty did not begin in 1500. Its rise stretched back to the late thirteenth and early fourteenth centuries in Anatolia. The conquest of Constantinople in 1453 was a turning point, but it did not make all Ottoman institutions new. The empire developed amid Byzantine, Islamic, Balkan, and Anatolian political inheritances. By the early sixteenth century, the Ottoman court was already governing a vast, complicated realm.
+
+The Safavid state had a different beginning. In 1501, Ismail, leader of a religious-political movement with roots in the Safaviyya Sufi order, took Tabriz and assumed the title of shah. His military followers included Qizilbash groups whose loyalty helped him conquer territory but whose independent power later presented his successors with formidable problems. The Safavid state's subsequent association with Twelver Shi'a Islam transformed the religious and political history of Iran. It did not mean that everyone in the realm had instantly adopted one doctrine or that the dynasty had already built all the institutions of its later maturity.
+
+The Mughal dynasty was later still. Babur, a Timurid prince who had struggled for territory in Central Asia, held Kabul and then defeated Ibrahim Lodi at Panipat in 1526. His victories opened a new political possibility in northern India. They did not deliver a fully consolidated imperial apparatus to his heirs. Babur's son Humayun lost control for years and regained Delhi and Agra in 1555, with assistance from Safavid Iran. Akbar, who ruled from 1556 to 1605, developed the institutions that made Mughal claims much more durable across a large and socially diverse realm.
+
+The dates already tell us that the map's three blocks were produced through different sequences. They cannot simply be treated as three versions of one institutional invention. Their rulers also negotiated with political inheritances much older than themselves. In Iran, patterns of Persianate literary culture, Iranian administration, and Turko-Mongolian warfare shaped Safavid rule. In India, Mughal officials entered a world of established sultanates, Rajput polities, religious institutions, agricultural communities, and commercial cities. The Ottomans governed areas with long Byzantine, Arab, Balkan, Armenian, Jewish, and other histories. None of these peoples waited for an imperial dynasty to begin having a past.
+
+## Revenue: the hidden architecture of power
+
+Imagine an imperial officer who has been promised income from a district. The promise sounds like money. In practice it is a claim on produce, taxes, labor, or payments collected through institutions that already exist. The officer must know what can be raised, who has authority locally, how peasants are assessed, how records are kept, and what happens during drought, flight, or resistance.
+
+Large early modern empires depended on agricultural surplus. Their courts could be impressive and their armies formidable, but the palace was supported by villages whose work rarely appears in court paintings. Revenue institutions linked land and political service. The connection took different forms and changed over time. Ottoman fiscal arrangements included grants associated with military service in some regions, alongside diverse forms of taxation and administration. In the Mughal empire, ranked officers known as mansabdars were tied to obligations of service, and many were supported by assignments to collect revenue, known as jagirs. These assignments were not all the same as private ownership of the soil. They gave officials claims to a share of revenue under imperial arrangements; rights of peasants, village communities, local elites, and other intermediaries remained crucial and often contested.
+
+Under Akbar, administrative reforms attempted to regularize the assessment of cultivation, production, prices, and revenue in important regions. The policies often associated with Todar Mal, and with the ten-year calculation introduced around 1580, did not instantly cover all Mughal territory in a uniform fashion. Written fiscal ideals should not be confused with successful extraction in every village. A land survey may show what a central government wished to know, while the actual relationship with farmers could depend on negotiation or coercion.
+
+These systems demanded information. A record was a tool of government and a potential source of dispute. If a collector inflated expected yields, the burden could become unbearable. If a cultivator abandoned a field during war, the empire might lose revenue as well as people. If an official occupied an assignment too briefly to benefit from future production, the temptation to over-collect could be strong. Historians study the interaction between imperial ideals and local practice partly by reading such records against their own administrative promises.
+
+An empire's treasury was also exposed to trade. Market towns needed grain, cloth, credit, and transport. Merchants needed safe routes and predictable terms. In western India, the Mughal conquest of Gujarat under Akbar in the 1570s connected the empire more closely to major Arabian Sea commerce. This was not the sudden birth of Gujarati trade, which had flourished long before Mughal authority reached it. It was the acquisition of an existing commercial region by a developing imperial state. The distinction matters: a land empire can benefit from maritime networks it did not create and cannot entirely command.
+
+## Ottoman strength and the problem of difference
+
+The Ottoman state grew through conquests, alliances, and bureaucratic institutions over centuries. Its rulers governed populations divided by language, locality, religious practice, status, and political tradition. Expansion into Syria and Egypt in 1516 and 1517 transformed its access to the eastern Mediterranean, the Red Sea, and important pilgrimage networks. These territories were not empty prizes. They contained existing merchants, scholars, farmers, cities, and ruling families whose interests had to be managed.
+
+Ottoman military power included sophisticated siege warfare and artillery, but also cavalry, fortifications, logistics, and personnel systems. The Janissaries are famous as an infantry corps associated with the devshirme levy, through which Christian boys from certain Ottoman territories were recruited into the sultan's service and converted to Islam. That institution involved coercion and the severing of family ties; it also could create paths to high office for some recruits. Neither fact cancels the other. And the Janissaries were only one part of a broad and changing political-military system, not a stand-in for all Ottoman soldiers.
+
+Religious identities mattered. Ottoman rulers increasingly articulated Sunni legitimacy in relation to Shi'a Safavid rivals. Yet the empire included Orthodox Christians, Jews, Catholics, Armenians, diverse Muslim communities, and many local traditions. Institutions for dealing with religious difference were historically variable. The later standardized picture of fixed “millets,” with each religious community neatly governed under an autonomous corporate framework, should not be projected without qualification onto every province in 1500. The practical arrangements through which people worshipped, paid taxes, litigated, and governed communal affairs differed by period and place.
+
+The empire's cultural wealth also emerged through artisans and institutions. The architect Sinan's work in the sixteenth century depended on the resources of a vast court and on specialized labor. Buildings sponsored by imperial figures could express sovereignty, piety, civic provisioning, and artistic ambition at once. A mosque complex might include facilities for teaching, feeding, or caring for people. Architecture expressed a political vision, but its operation involved the routines of inhabitants who used it.
+
+## Safavid Iran: making a state and a confessional identity
+
+When Shah Ismail and his followers established Safavid rule, they faced the challenge of turning military momentum and religious charisma into lasting institutions. Ismail's Qizilbash supporters had their own leaders, traditions, expectations, and claims to influence. Over time, rulers sought to balance these powerful groups against administrative households, court servants, and other military forces. Centralization was an effort, not a completed event.
+
+The adoption and promotion of Twelver Shi'ism as a state religion was one of the most consequential features of Safavid rule. Religious specialists, shrines, rituals, and legal debates acquired new political significance. Conversion and confessional consolidation occurred over time and involved various forms of persuasion, patronage, coercion, and institutional change. A phrase such as “Iran became Shi'a” compresses several generations of uneven processes. It should be unpacked whenever it matters for the people who lived them.
+
+Safavid rulers competed with Ottomans to the west and Central Asian powers to the east. Their empire was not an isolated territory sealed between armies. Silk commerce connected Iranian producers and merchants to other parts of Asia and eventually to European markets. Armenian merchants and other trading communities became important participants in wider exchange. Under Shah Abbas, who took power in 1587, reforms of military and administration were accompanied by new patronage. The transfer of the capital to Isfahan in 1597–98 helped create an imperial urban setting in which commerce, art, public ceremonial space, and royal authority were carefully staged.
+
+It is tempting to treat silk, carpets, and illustrated manuscripts as the aesthetic reward for military success. But they were also outcomes of complex skilled labor and commercial exchange. A royal workshop required artists, materials, patronage, and an audience. Its products could help present the dynasty as an heir to Persian literary and political traditions. Such objects provide evidence for the ambitions of the state; they do not speak automatically for villagers in a different province or for people whose faith the court considered suspect.
+
+## Mughal India: a court governing through many communities
+
+The Mughal Empire demonstrates with particular clarity that conquest and durability are different achievements. Babur's military victories mattered. His descendants also needed institutions that could secure loyalty over generations. Akbar expanded the empire through war and diplomacy, especially through relationships with regional elites. His service system incorporated soldiers and administrators from varied backgrounds, including Rajput elites, Indo-Muslim groups, Persians, Central Asians, and others.
+
+This was not an empire in which religious difference disappeared. It was an empire whose rulers recognized the practical importance of administering a population with varied religious and political loyalties. Akbar's court became known for discussions among Muslim and non-Muslim scholars. The phrase sulh-i kul, often rendered as “peace with all,” became associated with an expansive ideal of public order and a ruler's capacity to govern across sectarian divisions. His own religious interests were complex and changed over time; describing him simply as a modern secularist would be anachronistic. Toleration, intellectual inquiry, sovereign authority, and political calculation could coexist.
+
+Mughal manuscript painting is a useful window into this composite world. Artists trained in Persianate traditions worked alongside Indian painters; patronage could incorporate European visual elements as well. One may read these manuscripts as evidence of artistic collaboration and court interests without assuming that the empire had erased distinctions among the people who produced them. A painted page gives an archive of choices—whose face is shown, what costume is emphasized, what ruler is central, and what kinds of work remain outside the frame.
+
+Court history is only part of Mughal history. Farmers sustained revenues. Merchants moved cotton textiles, indigo, food, and other commodities. Craftspeople made objects for nearby purchasers and distant consumers. Temples, mosques, shrines, markets, and households organized lives in ways that did not always align with imperial projects. The empire's military and fiscal reach changed across the subcontinent and was never complete.
+
+## What the cannon can—and cannot—explain
+
+Let us return to the phrase “gunpowder empire.” It captures a genuine transformation: firearms, artillery, and trained forces could assist territorial conquest and the maintenance of fortified positions. But it obscures differences in chronology, social organization, and the way military technologies interacted with other institutions. The Ottoman state predates the early modern gunpowder revolution; the Safavid movement's origins cannot be understood as an artillery project; and Mughal success required more than the victory at Panipat.
+
+A cannon can help an army breach a wall. Someone must still recruit and feed the soldiers, manufacture or obtain munitions, provide routes and supplies, settle disputes among commanders, and govern the conquered territory. A dynasty may win a campaign only to face a rebellion or a succession crisis. Technological capability is one variable in a political system, not a complete explanation for it.
+
+The three states were also connected to one another. People, ideas, manuscripts, military specialists, diplomats, and artists crossed their frontiers. Humayun's Safavid support is one clear example. Conflict between Ottoman and Safavid powers shaped confessional boundary-making, but merchants and religious travelers did not stop moving every time courts declared enemies. These borders were both formidable and permeable.
+
+## The view from a frontier
+
+Imagine standing in a border district rather than a capital. A passing army might call you a subject of one emperor, while a neighboring ruler might demand similar loyalty. The harvest comes whether or not a treaty has been signed. Family connections cross the hills. A shrine has visitors whose loyalties do not fit political colors. Tax demands may be made by several authorities over a lifetime. This is not a reconstructed biography; it is a way to ask what imperial claims meant to people living near their limits.
+
+We have three dynasties whose histories are often taught together. There is a reason for the comparison, but there is no single formula that explains their rise. The Ottomans developed an empire whose institutions had deep medieval roots and extended across Europe, Asia, and Africa. The Safavids transformed political and religious life in Iran through a new dynastic project. The Mughals built a powerful but incomplete imperial order across diverse South Asian societies. Each had armies, taxes, culture, and religious politics. Each depended on local cooperation as well as coercion.
+
+A map can show where imperial claims reached at a given date. It cannot show how much persuasion was needed for a province to comply, or the price that soldiers and farmers paid for an ambitious court. To study early modern empires is to read the map and then turn it over, looking for the people and institutions whose work held it together.
+
+<!-- END SPOKEN LECTURE -->
+
+## Research references (display only)
+
+- [Stephen P. Blake, *Time in Early Modern Islam*, chapter “Safavid, Mughal, and Ottoman Empires” (Cambridge University Press)](https://www.cambridge.org/core/books/time-in-early-modern-islam/safavid-mughal-and-ottoman-empires/9D55F0A0262017473EC8A9A7ED86C508). Comparative political, military, agrarian and fiscal institutions, and Akbar's reforms.
+- [Sarah Mortimer, “The Empires of the East: Political Thought in Ottoman, Safavid, and Mughal Lands” (Oxford University Press)](https://academic.oup.com/book/39817/chapter-abstract/339939495). Religious pluralism and imperial legitimation.
+- [The Metropolitan Museum of Art, “Anatolia and the Caucasus, 1400–1600”](https://www.metmuseum.org/ja/toah/ht/08/waa). Ottoman dates, Selim, Süleyman and Sinan.
+- [The Metropolitan Museum of Art, “The Art of the Safavids before 1600”](https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600). Ismail, Qizilbash, Shi'ism, Shah Abbas, Isfahan.
+- [The Metropolitan Museum of Art, “The Art of the Mughals before 1600”](https://www.metmuseum.org/essays/the-art-of-the-mughals-before-1600). Babur, Humayun, Akbar, Gujarat and multicultural ateliers.
+- [Rudi Matthee, “Safavid Dynasty,” *Encyclopaedia Iranica*](https://www.iranicaonline.org/articles/safavids/). Caution against the modern nation-state anachronism and Safavid political chronology.
+- [Stephen F. Dale, *The Muslim Empires of the Ottomans, Safavids, and Mughals*, Cambridge University Press](https://www.cambridge.org/core/books/muslim-empires-of-the-ottomans-safavids-and-mughals/E672C426EF2A9EF89C502CAE111C376A/listing). Background on long institutional histories.
+
+The narrated frontier example is explicitly hypothetical and does not claim to reconstruct an individual life.
