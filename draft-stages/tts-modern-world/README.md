@@ -70,3 +70,12 @@ Every spoken paragraph in these four lectures maps to a display-only numbered ev
 - **030000 — [The Public Enters the Argument: Labor, Protest, and Mass Politics After 1918](030000-the-public-enters-the-argument.md).** ILO institutions, Winnipeg strike, qualified suffrage, Egypt 1919, Indian non-cooperation, Caribbean veterans and political membership.
 
 All four lectures separate narrated prose from display-only paragraph citation ledgers with direct URLs, passage locators and evidence-limit labels. Full-text scholarship, source translations, primary diplomatic texts and summaries are identified at their real review scope. No word-count or duration policy is in force.
+
+## Interwar economic and political choices (031000–034000)
+
+- **031000 — [The Price of Recovery: Debt, Credit, and the Uneven Twenties](031000-the-price-of-recovery.md).** Postwar reparations and loans, 1923 German hyperinflation, U.S. installment credit, Japanese banking, agricultural export markets, and contested gold-standard stability.
+- **032000 — [Who Could Claim a Country? Anticolonial Organizing Between the Wars](032000-who-could-claim-a-country.md).** Civil disobedience in India, New Culture debates in China, constitutional West African organizing, women’s resistance in Nigeria and qualified Egyptian sovereignty.
+- **033000 — [When the Price Falls Everywhere: The Great Depression Across Borders](033000-when-the-price-falls-everywhere.md).** Bank runs, debt deflation, gold-standard transmission, Gold Coast cocoa, Australian exports, colonial Indian debt, and Japanese and U.S. responses.
+- **034000 — [Who Can Order a Society? Dictatorship, Planning, and Democratic Reform](034000-who-can-order-a-society.md).** Italian Fascism, Nazi dictatorship, Soviet collectivization and famine, Japanese expansion, and competing democratic, labor, and agrarian reforms.
+
+Each manuscript pairs an independently speakable lecture with display-only source records mapped paragraph by paragraph. Direct source links, author attribution, locators, review scope, and limits are recorded in sidecars and in the texts. No duration rule is used.

@@ -50,3 +50,19 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **028000:** Competing global influenza mortality estimates use distinct methods; keep denominator and sample differences explicit. 1919 Samoan inquiry is a colonial administrative source, not comprehensive Samoan testimony.
 - **029000:** Treaty text establishes legal dispositions and the 1919 petitions show organizing demands, not the opinions of entire national populations. Expand with local press and archival collections.
 - **030000:** The ILO convention is an international standard subject to ratification and exceptions. Further scholarship on gender, rank-and-file unions, and Indian regional political organizations would deepen this comparison.
+
+## Completed interwar section (031000–034000)
+
+- **031000:** The Price of Recovery: Debt, Credit, and the Uneven Twenties. Postwar reparations and loans, 1923 German hyperinflation, U.S. installment credit, Japanese banking, agricultural export markets, and contested gold-standard stability.
+- **032000:** Who Could Claim a Country? Anticolonial Organizing Between the Wars. Civil disobedience in India, New Culture debates in China, constitutional West African organizing, women’s resistance in Nigeria and qualified Egyptian sovereignty.
+- **033000:** When the Price Falls Everywhere: The Great Depression Across Borders. Bank runs, debt deflation, gold-standard transmission, Gold Coast cocoa, Australian exports, colonial Indian debt, and Japanese and U.S. responses.
+- **034000:** Who Can Order a Society? Dictatorship, Planning, and Democratic Reform. Italian Fascism, Nazi dictatorship, Soviet collectivization and famine, Japanese expansion, and competing democratic, labor, and agrarian reforms.
+
+## Future work (unindexed)
+
+- **035000 onward:** The Second World War as connected wars, with East Asian aggression before 1939, the German war of conquest, colonial participation and forced labor, genocide and its institutions, civilian displacement, and the war's consequences for decolonization. Develop an evidence-driven sequence rather than allocating fixed lengths or a predetermined number of lectures.
+- For **031000**, find household archives from Germany, Japan, Australia, and African exporting regions. Monetary indices establish trends but not personal testimony.
+- For **032000**, expand primary participation records from Indian women's organizations, Igbo and Ibibio women, Egyptian parties, and different Chinese labor movements. The Gandhi and Nehru texts represent organizers, not all participants.
+- For **033000**, seek locally authored accounts of the Gold Coast cocoa hold-up, full Madras debt research, and non-English sources on Japanese employment and social consequences. The colonial report and economic models must not be mistaken for entire lived experiences.
+- For **034000**, strengthen Soviet famine coverage with regional survivor histories and Ukrainian, Kazakh and other national archives. The Kulchytsky publisher description and Naumenko abstract establish the authors' published positions, not a full primary-source audit. Study Chinese civilian records of Japanese occupation in addition to diplomatic histories.
+- **Editorial rule:** attribution, original scholars' names, direct links, source passages, evidentiary limits, and contested interpretations remain explicit. No fixed duration target, quotas or mechanical narrative requirements.
