@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "lecture_id": "026000",
+  "transcript": "026000-copper-aluminum-and-conductor-connections.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-cpsc-aluminum-1978",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-cpsc-aluminum-2003",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-iec60228-2023",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-openstax-resistivity",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-osha303",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-ul-cable-guide",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-ul486-2025",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [
+    {
+      "claim": "CPSC publicly reported investigation of 1965-1973-era U.S. residential aluminum wiring connection hazards in 1978, with related 2003 agency followup; historical scope excludes present-day aluminum feeder performance.",
+      "attribution_status": "primary_agency_publication",
+      "sources": [
+        "electrical-cpsc-aluminum-1978",
+        "electrical-cpsc-aluminum-2003"
+      ]
+    }
+  ],
+  "evidence_claims": [
+    {
+      "claim_id": "E026000-01",
+      "claim": "Uniform-conductor resistance scales with resistivity and length, and inversely with cross-section",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-resistivity",
+          "location": "§9.3 uniform conductor resistance derivation",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Assumes homogeneous material and geometry.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E026000-02",
+      "claim": "Aluminum has greater 20°C resistivity than copper so equal-resistance area is larger",
+      "kind": "materials",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-resistivity",
+          "location": "§9.3 Table 9.1",
+          "role": "physics_table"
+        },
+        {
+          "source_id": "electrical-iec60228-2023",
+          "location": "official catalogue scope of conductor materials and resistance",
+          "role": "standard_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Illustrative pure-metal ratios are not alloy-specific standardized cable dimensions.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E026000-03",
+      "claim": "Conductor electrical cross section is distinct from outside diameter, stranding and insulation",
+      "kind": "materials",
+      "supports": [
+        {
+          "source_id": "electrical-iec60228-2023",
+          "location": "official scope on nominal areas, solid and stranded classes",
+          "role": "standard_scope"
+        },
+        {
+          "source_id": "electrical-ul-cable-guide",
+          "location": "wire/cable designations and marking",
+          "role": "independent_product_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Actual dimensional tolerances and stranding types depend on specific product standards.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E026000-04",
+      "claim": "Conductor resistivity commonly increases with temperature; linear alpha is a limited approximation",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-resistivity",
+          "location": "§9.3 temperature dependence and coefficients",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Not valid for every temperature/material condition; fixed geometry approximation.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E026000-05",
+      "claim": "Resistance creates localized I-squared-R heating at a connection",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "§9.5 electrical energy and power",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-cpsc-aluminum-2003",
+          "location": "description of connection deterioration and heat",
+          "role": "independent_historical_observation"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "The numeric contact-resistance example is constructed; thermal outcome needs real geometry and current.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E026000-06",
+      "claim": "Pressure contact quality and surface condition are central to conductor-terminal performance",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul486-2025",
+          "location": "connector scope and test-product families",
+          "role": "product_standard_scope"
+        },
+        {
+          "source_id": "electrical-cpsc-aluminum-1978",
+          "location": "connection-focused hazard population",
+          "role": "agency_observation"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Microscopic mechanism is engineering synthesis; product-specific long-term data not independently examined.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E026000-07",
+      "claim": "Conductor alloy, size, stranding and terminal compatibility must be jointly evaluated",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul486-2025",
+          "location": "public connector scope",
+          "role": "primary_product_standard_context"
+        },
+        {
+          "source_id": "electrical-osha303",
+          "location": "1910.303(b) suitability, size and instructions",
+          "role": "independent_us_workplace_rule"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Scope neither permits arbitrary conductor combinations nor fixes torque or crimp tool.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E026000-08",
+      "claim": "CPSC investigated overheating of 1965–1973-era aluminum residential branch wiring",
+      "kind": "historical",
+      "supports": [
+        {
+          "source_id": "electrical-cpsc-aluminum-1978",
+          "location": "1978 release, opening paragraphs",
+          "role": "primary_historical"
+        },
+        {
+          "source_id": "electrical-cpsc-aluminum-2003",
+          "location": "2003 release, hazard description",
+          "role": "same_agency_followup"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Historical population only; two CPSC publications are not independent authorities.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E026000-09",
+      "claim": "Older aluminum branch wiring concerns do not prove that all modern large aluminum feeders are defective",
+      "kind": "scope",
+      "supports": [
+        {
+          "source_id": "electrical-cpsc-aluminum-1978",
+          "location": "scope of CPSC investigation",
+          "role": "specific_population"
+        },
+        {
+          "source_id": "electrical-iec60228-2023",
+          "location": "current standards recognize Al/alloy conductor families",
+          "role": "independent_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No quantitative comparison of modern feeder reliability has been established.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E026000-10",
+      "claim": "Contact force can be affected by thermal cycling and mechanical behavior",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul486-2025",
+          "location": "evaluated connector families (scope only)",
+          "role": "standard_context"
+        },
+        {
+          "source_id": "electrical-cpsc-aluminum-2003",
+          "location": "connection deterioration context",
+          "role": "failure_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Exact creep, expansion and contact-force models require alloy/terminal research and product data.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E026000-11",
+      "claim": "Torque and compression tools must follow the evaluated connector installation method",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "1910.303(b)(2) listing/labeling instructions",
+          "role": "primary_workplace_rule"
+        },
+        {
+          "source_id": "electrical-ul486-2025",
+          "location": "scope of connector classes",
+          "role": "product_standard_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No universal torque value or connector procedure is asserted.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E026000-12",
+      "claim": "Same conductor resistance and current imply same I²R loss, not necessarily same installation suitability",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-resistivity",
+          "location": "§9.3 resistivity and geometry",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "§9.5 Joule heating",
+          "role": "same_textbook_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Heat removal, installed geometry and connection constraints not captured.",
+      "professional_review": "editorial_source_review_only"
+    }
+  ]
+}

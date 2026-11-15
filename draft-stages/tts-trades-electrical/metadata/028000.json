@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "lecture_id": "028000",
+  "transcript": "028000-ampacity-temperature-and-derating.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-iec60287-2023",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-iec60364-552-2024",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-openstax-resistivity",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-osha303",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-se-cable-sizing",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-se-neutral-sizing",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-se-voltage-drop",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E028000-01",
+      "claim": "I-squared-R heating increases quadratically with current at fixed resistance",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "§9.5 electrical power",
+          "role": "physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Current RMS and resistance model must be appropriate to waveform.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-02",
+      "claim": "Ampacity combines internal heat generation and external heat removal",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "Joule heating basis",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-iec60287-2023",
+          "location": "steady-state current rating and losses scope",
+          "role": "engineering_standard_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Lumped thermal model is original synthesis, not a standard calculation procedure.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-03",
+      "claim": "Reference ampacity depends on insulation type and installation method",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "reference methods A-G and insulation temperature chart",
+          "role": "public_engineering_guide"
+        },
+        {
+          "source_id": "electrical-iec60364-552-2024",
+          "location": "standard selection/erection scope",
+          "role": "standard_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Published guide may rely on specific earlier tables; adopted full clauses not checked.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-04",
+      "claim": "Ambient temperature can require correction of reference current ratings",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "air temperature corrections reference 30°C",
+          "role": "public_engineering_guide"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Not universal across every cable standard or application.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-05",
+      "claim": "Grouping loaded circuits can reduce permissible continuous current",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "group reduction factors and installation differences",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-osha303",
+          "location": "heating effects considered in suitability",
+          "role": "independent_workplace_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No actual group factor selected for field use.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-06",
+      "claim": "Loaded neutral status may depend on harmonics and waveform, not insulation color",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-neutral-sizing",
+          "location": "neutral and harmonic sizing discussion",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "grouping of current-carrying conductors",
+          "role": "same_publisher_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Product and rule-specific conductor-count treatment not independently checked.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-07",
+      "claim": "Buried cable heat rejection depends on soil temperature and thermal resistivity",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "ground conditions and soil resistivity correction",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-iec60287-2023",
+          "location": "buried and ducted steady-state cables in scope",
+          "role": "independent_standard_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Actual soil properties, drying and transient thermal behavior need site-specific study.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-08",
+      "claim": "IEC 60287-1-1:2023 uses steady-state cable current-rating equations at 100% load factor",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec60287-2023",
+          "location": "official catalogue abstract",
+          "role": "publisher_scope_only"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Cannot reproduce normative methods from publisher summary.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-09",
+      "claim": "Terminal restrictions can limit use of high-temperature insulation ratings",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "equipment heating, ratings, instructions",
+          "role": "workplace_rule"
+        },
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "insulation conductor temperature classes",
+          "role": "engineering_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific code column and allowed correction basis depends on edition and device.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-10",
+      "claim": "Thermal mass delays temperature response to a transient current",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-iec60287-2023",
+          "location": "steady-state versus other regimes explicit",
+          "role": "standard_scope"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "electrical heat generation",
+          "role": "physics_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Thermal capacitance ODE is original teaching model, not verified cable transient standard.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-11",
+      "claim": "Conductor length affects total resistance and voltage drop even if local heat rate is similar",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-resistivity",
+          "location": "R proportional to length",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-se-voltage-drop",
+          "location": "voltage drop formula and length",
+          "role": "independent_engineering_guide"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Local cooling uniformity assumed; cables in varying conditions may have different ratings.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-12",
+      "claim": "Ampacity check is distinct from fault withstand and voltage delivery",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "thermal sizing criteria",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-se-voltage-drop",
+          "location": "separate voltage-drop analysis",
+          "role": "same_publisher_context"
+        },
+        {
+          "source_id": "electrical-osha303",
+          "location": "interrupting rating and heating requirements",
+          "role": "independent_us_workplace_rule"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific fault withstand and protective coordination not calculated.",
+      "professional_review": "editorial_source_review_only"
+    }
+  ]
+}

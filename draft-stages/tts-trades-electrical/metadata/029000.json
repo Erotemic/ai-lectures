@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "lecture_id": "029000",
+  "transcript": "029000-voltage-drop-and-conductor-sizing.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-iec60364-552-2024",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-openstax-ac-circuits",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-openstax-ac-sources",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-openstax-kirchhoff",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-openstax-ohm",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-openstax-resistivity",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-se-cable-sizing",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-se-nec21019-historic",
+      "reason": "Historical voltage-drop guidance; edition and adoption limits in E029000-10"
+    },
+    {
+      "source_id": "electrical-se-voltage-drop",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-ul486-2025",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E029000-01",
+      "claim": "Two-wire supply-return geometry uses total loop length for DC/resistive drop",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-resistivity",
+          "location": "R proportional to conductor length and inverse area",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "Ohm law",
+          "role": "same_textbook_equation"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Only valid for explicitly stated symmetric two-wire loop geometry.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-02",
+      "claim": "Resistive voltage drop grows with current and length at fixed area and resistivity",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "Ohm law",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-openstax-resistivity",
+          "location": "resistivity expression",
+          "role": "same_publisher_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Not a complete dynamic source/load network model.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-03",
+      "claim": "Dissipation increases with square of current while idealized drop grows linearly",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "P=I²R",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "V=IR",
+          "role": "same_textbook_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Resistance and source/load states held fixed.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-04",
+      "claim": "Reference resistivity and temperature coefficient determine hypothetical hot-loop resistance",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-resistivity",
+          "location": "20°C table and linear temperature relation",
+          "role": "physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Actual cable composition, hot spots and temperature vary.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-05",
+      "claim": "Thermal ampacity and voltage-drop criteria are different sizing constraints",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "reference current ratings",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-se-voltage-drop",
+          "location": "steady voltage-drop analysis",
+          "role": "same_publisher_other_guide"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Independently check installed code, equipment voltage tolerance, fault and terminal constraints.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-06",
+      "claim": "In AC wiring the resistive and reactive components of impedance affect voltage drop",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-voltage-drop",
+          "location": "R cos φ + X sin φ terms",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-openstax-ac-circuits",
+          "location": "phasor circuit impedance principles",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Sinusoidal steady-state conditions; nonlinear loads and transients may violate assumptions.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-07",
+      "claim": "Balanced three-phase voltage drop uses phasor geometry and a square-root-of-three factor",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-voltage-drop",
+          "location": "balanced three-phase formula in public guide",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-openstax-ac-sources",
+          "location": "AC phase relationships",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Not for arbitrary unbalanced harmonics, or single-phase DC.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-08",
+      "claim": "Upstream source sag must be distinguished from losses in downstream cable",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-voltage-drop",
+          "location": "guide example includes upstream distribution-board drop",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-openstax-kirchhoff",
+          "location": "loop voltage conservation",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Requires load-current and source-impedance model for quantitative diagnosis.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-09",
+      "claim": "Load voltage dependence differs between fixed resistance and regulated constant power",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "resistance current-versus-voltage relationship",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "power/current relation",
+          "role": "same_textbook_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Constant-power behavior only over converter regulation range; actual equipment specs needed.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-10",
+      "claim": "Common U.S. 3% branch and 5% feeder-plus-branch guidelines are not universally mandatory",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-se-nec21019-historic",
+          "location": "NEC 210.19 Informational Note excerpt, historical 3% and 5% guidance",
+          "role": "secondary_historical_code_excerpt"
+        },
+        {
+          "source_id": "electrical-se-voltage-drop",
+          "location": "engineering performance criteria context",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-iec60364-552-2024",
+          "location": "IEC Clause 525 catalogue changes and annex reference",
+          "role": "separate_standard_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "This secondary excerpt documents an older NEC informational note, not the 2026 NEC text or a binding universally adopted limit; local code and equipment requirements differ.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-11",
+      "claim": "IEC 60364-5-52 scope covers wiring-system voltage drop and a 2024 clause revision",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec60364-552-2024",
+          "location": "official catalogue Clause 525 change note",
+          "role": "publisher_scope_only"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Publisher summary not full adopted annex; local requirements unknown.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-12",
+      "claim": "Conductor upsizing trades resistance and loss against material, route and terminal constraints",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-resistivity",
+          "location": "R decreases with area",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-ul486-2025",
+          "location": "connector material and size scope",
+          "role": "separate_product_standard_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No life-cycle economic or field-sizing conclusion without duty and product info.",
+      "professional_review": "editorial_source_review_only"
+    }
+  ]
+}
