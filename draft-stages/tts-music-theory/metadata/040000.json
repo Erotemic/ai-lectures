@@ -1,0 +1,537 @@
+{
+  "schema_version": 1,
+  "lecture_id": "040000",
+  "transcript": "040000-from-motif-to-finished-piece.md",
+  "related_resources": [
+    {
+      "source_id": "mt-040-schoenberg-biblio",
+      "reason": "Primary work bibliographic authentication; chapters III–V on motive and theme construction; catalog not full text."
+    },
+    {
+      "source_id": "mt-040-frisch",
+      "reason": "Walter Frisch secondary scholarly discussion of Schoenberg motivic pedagogy; ch.8 around discussion of sketches and generative motives."
+    },
+    {
+      "source_id": "mt-040-caplin-functions",
+      "reason": "Original chapter 1 introduction to formal functions and historical scope, not directly classifying this original score."
+    },
+    {
+      "source_id": "mt-040-caplin-sentence",
+      "reason": "Publisher abstract Chapter 3 Sentence, pp.35–48, presentation/continuation/cadential; full text may require institutional access."
+    },
+    {
+      "source_id": "mt-040-margulis",
+      "reason": "Publisher book description and chapters 1,3 on repetition, attention, and listening."
+    },
+    {
+      "source_id": "mt-040-margulis-attention",
+      "reason": "Chapter 3 abstract, pp.55–74: repetition affecting orientation of temporal attention."
+    },
+    {
+      "source_id": "mt-040-huron",
+      "reason": "MIT Press overview of 2006 book on expectation and distinct response systems."
+    },
+    {
+      "source_id": "mt-040-mcadams",
+      "reason": "Article abstract and perceptual grouping categories, Music Theory Online 28(3), 2022."
+    },
+    {
+      "source_id": "mt-040-ardour-automation",
+      "reason": "Official Ardour guide on volume/pan/processor automation."
+    },
+    {
+      "source_id": "mt-040-ardour-stems",
+      "reason": "Official Ardour guide on aligned stem export and optional baked processors."
+    },
+    {
+      "source_id": "mt-040-ardour-import",
+      "reason": "Official Ardour guide on importing existing media."
+    },
+    {
+      "source_id": "mt-040-ardour-loudness",
+      "reason": "Official Ardour guide on measured loudness and peak, for carefully managed comparison."
+    },
+    {
+      "source_id": "mt-040-dawdreamer-guide",
+      "reason": "DawDreamer graph and rendering API; not an execution record for this lecture."
+    },
+    {
+      "source_id": "mt-040-dawdreamer-plugins",
+      "reason": "DawDreamer plugin state/compatibility documentation; code here uses standard-library oscillators."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "mt-040-c001",
+      "anchor": "A four-note melody is not yet a composition.",
+      "source_ids": [
+        "mt-040-schoenberg-biblio",
+        "mt-040-frisch"
+      ],
+      "evidence_detail": "Opening rhetorical thesis. Frisch chapter 8 discusses generative motivic potential, not a necessary or sufficient condition for a finished work.",
+      "provenance": "editorial_inference",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c002",
+      "anchor": "Its title is *The Returning Line*.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Original lecture composition; actual title and source of music: examples/complete-work-040000.json, piece_title. Caplin used only as analytic context.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c003",
+      "anchor": "Every pitch and event in the accompanying score belongs to this original study.",
+      "source_ids": [
+        "mt-040-frisch"
+      ],
+      "evidence_detail": "Authorship declaration; auditable at examples/complete-work-040000.json; scholarly source explains the practice of motivic analysis, not the events.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c004",
+      "anchor": "Hear four pitches: E, G, A, G.",
+      "source_ids": [
+        "mt-040-schoenberg-biblio"
+      ],
+      "evidence_detail": "Original bar 1 lead, `bar_harmonies[0].melody`; chapter III of Schoenberg is conceptual background only.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c005",
+      "anchor": "The pitch contour rises a minor third, then a whole step, then falls a whole step.",
+      "source_ids": [
+        "mt-040-frisch"
+      ],
+      "evidence_detail": "Pitch-class subtraction E4=64 G4=67 A4=69 G4=67; direct derivation from original bar 1.",
+      "provenance": "original_calculation",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c006",
+      "anchor": "A is not a chord tone of the simple C-major triad.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Pitch class A not in C-E-G; source not a published verdict about our original notes.",
+      "provenance": "original_derivation",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c007",
+      "anchor": "Arnold Schoenberg's *Fundamentals of Musical Composition* treats the motive and the ways it can be connected, varied, and developed as central problems of composition.",
+      "source_ids": [
+        "mt-040-schoenberg-biblio",
+        "mt-040-frisch"
+      ],
+      "evidence_detail": "Schoenberg published book 1967, contents ch. III The Motive and ch. IV Connecting Motive-Forms; Frisch UC Press monograph ch.8 discussion of generative motives and use of the 1967 book.",
+      "provenance": "source_backed",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c008",
+      "anchor": "a second bar moves through A, C, B, A over an A-minor harmony.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Score bars 1 and 2, chord tags. External source only introduces formal comparison vocabulary.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c009",
+      "anchor": "We organize the piece into five sections of eight bars.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Five sections are declared in formal_sections of the original score; no claim that Caplin prescribes them.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c010",
+      "anchor": "William Caplin, writing about eighteenth-century Classical instrumental music, distinguishes formal functions",
+      "source_ids": [
+        "mt-040-caplin-functions",
+        "mt-040-caplin-sentence"
+      ],
+      "evidence_detail": "Caplin 1998 original chapter 1 overview and chapter 3 Sentence abstract; his scope explicitly Haydn/Mozart/Beethoven. Exact term formal function from source.",
+      "provenance": "source_backed",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c011",
+      "anchor": "The opening eight bars use this harmonic path:",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Exact chord list in score bar_harmonies bars 1–8; Caplin contextualized formal/cadential names only.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c012",
+      "anchor": "In bar seven, the melody moves G, F, D, B.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Bar 7 lead events in JSON. No borrowed musical example.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c013",
+      "anchor": "We should not automatically certify every such boundary a perfect authentic cadence.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Historical tonal cadence conditions require more than chord labels; deliberately refuses unwarranted certification in original accompaniment.",
+      "provenance": "supported_interpretation",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c014",
+      "anchor": "Elizabeth Hellmuth Margulis's research-oriented book *On Repeat* makes a serious case for repetition's role in musical experience and attention.",
+      "source_ids": [
+        "mt-040-margulis",
+        "mt-040-margulis-attention"
+      ],
+      "evidence_detail": "OUP book abstract plus ch.3 abstract (pp.55–74) on temporal attention and repetition, no claim about actual response to this composition.",
+      "provenance": "source_backed",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c015",
+      "anchor": "At bar nine, E, G, A, G returns with exactly the same rhythm and pitches as bar one.",
+      "source_ids": [
+        "mt-040-margulis"
+      ],
+      "evidence_detail": "Bar 1 vs bar 9 data; validator checks equality. Margulis supplies theoretical background on repetition only.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c016",
+      "anchor": "That G can be heard as the minor seventh above A,",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "G above A is 10 semitones modulo octave; original bar 9 Am harmony. Actual heard effect remains interpretive.",
+      "provenance": "original_calculation",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c017",
+      "anchor": "The middle of this section uses E minor and F major, then an E dominant seventh that includes G sharp.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Original harmonic map bars 10–12; bar 12 lead includes G#4; no historical case claimed.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c018",
+      "anchor": "Bar sixteen ends on a melody C over A minor.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Bar 16 final melody C4 and chord Am; third-of-triad interpretation by pitch-class analysis.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c019",
+      "anchor": "David Huron's *Sweet Anticipation* develops a psychological account of expectations in music.",
+      "source_ids": [
+        "mt-040-huron"
+      ],
+      "evidence_detail": "MIT Press description of the 2006 book and its theoretical proposal; no lab measure asserted for this score.",
+      "provenance": "source_backed",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c020",
+      "anchor": "At bar seventeen, the head returns as B, D, E, D.",
+      "source_ids": [
+        "mt-040-frisch"
+      ],
+      "evidence_detail": "Original score bar 17, thematic transposition; Frisch ch.8 only conceptual motivic context.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c021",
+      "anchor": "an exact transposition upward by seven semitones.",
+      "source_ids": [
+        "mt-040-frisch"
+      ],
+      "evidence_detail": "Bar 17 vs bar 1 semitone deltas all +7; verified by render_complete_work_040000.py.",
+      "provenance": "original_calculation",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c022",
+      "anchor": "But its final D-seventh chord does not resolve to G in the next bar.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Bar 24 is D7 and bar 25 is C in machine-readable chord map. Descriptive observation.",
+      "provenance": "original_derivation",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c023",
+      "anchor": "In our deliberately less focused draft, the last melody note is F natural.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Dense_first_draft melody bar 20 beat offset 3 is F5; source for tonal vocabulary only.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c024",
+      "anchor": "In the revision, that note becomes F sharp.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Revised_score melody bar 20 beat offset 3 F#5; validator asserts exact replacement.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c025",
+      "anchor": "We are choosing the F sharp because this particular arrangement aims to make the G-oriented passage more legible,",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Author intent, not a documented empirical result or universal standard of note correctness.",
+      "provenance": "editorial_inference",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c026",
+      "anchor": "Bars twenty-five through thirty-two return to the opening harmonic path,",
+      "source_ids": [
+        "mt-040-margulis"
+      ],
+      "evidence_detail": "Chord array for bars 25–32 equals opening bars 1–8. Source only about repetition generally.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c027",
+      "anchor": "The return also differs in its continuation.",
+      "source_ids": [
+        "mt-040-margulis"
+      ],
+      "evidence_detail": "Compare lead at bars 2 vs 26 and 3 vs 27 in original score; not a source quotation.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c028",
+      "anchor": "Bar twenty-six uses C, B, A, G,",
+      "source_ids": [
+        "mt-040-margulis"
+      ],
+      "evidence_detail": "Original score bar 26 event pitches; comparison with bar 2.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c029",
+      "anchor": "In the first full draft, the inner voices are present in all forty bars.",
+      "source_ids": [
+        "mt-040-mcadams"
+      ],
+      "evidence_detail": "Dense_first_draft inner_third and inner_upper 40 events each; McAdams framework is not test results on this score.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c030",
+      "anchor": "Stephen McAdams, Meghan Goodchild, and Kit Soden provide a useful research framework for orchestral grouping.",
+      "source_ids": [
+        "mt-040-mcadams"
+      ],
+      "evidence_detail": "Music Theory Online 28(3) 2022 authors and abstract; theory from analyses of orchestral practices.",
+      "provenance": "source_backed",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c031",
+      "anchor": "Their account distinguishes concurrent blending, separated auditory streams, and segmental contrasts",
+      "source_ids": [
+        "mt-040-mcadams"
+      ],
+      "evidence_detail": "Article abstract sentences on concurrent, sequential, segmental grouping. No causal validation claimed for present oscillator study.",
+      "provenance": "source_backed",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c032",
+      "anchor": "This means the original forty continuously padded bars become twenty padded bars.",
+      "source_ids": [
+        "mt-040-mcadams"
+      ],
+      "evidence_detail": "Dense_first_draft has 40 inner-third events; texture_revision has 20, validated in accompanying script.",
+      "provenance": "original_calculation",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c033",
+      "anchor": "Each figure has four short events, for thirty-two additional note events in the entire piece.",
+      "source_ids": [
+        "mt-040-mcadams"
+      ],
+      "evidence_detail": "8 named bars × 4 events = 32 secondary_fragment events, validated. Pure original count.",
+      "provenance": "original_calculation",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c034",
+      "anchor": "The first is at the final beat of bar twenty: F natural becomes F sharp over D dominant seventh.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Score document_revisions bar 20 beat3 F5 to F#5; D7 shown in bar map. This is one edit, not published example.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c035",
+      "anchor": "The second is at the final beat of bar forty, the last bar of the piece: G becomes C in the top voice.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Original score document_revisions bar 40 beat3 G4 to C5, checked.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c036",
+      "anchor": "So we are not presenting the final event as a formal proof of a perfect authentic cadence",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Caplin historical scope and actual root/fifth bass timing; refusal to over-classify exact cadential type.",
+      "provenance": "supported_interpretation",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c037",
+      "anchor": "Our sixth rendering is not a sixth composition.",
+      "source_ids": [
+        "mt-040-ardour-automation"
+      ],
+      "evidence_detail": "Revised_score and alternate_mix note event signatures identical; only gain/pan data differs.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c038",
+      "anchor": "The score checker proves that the musical events agree between these two renderings.",
+      "source_ids": [
+        "mt-040-dawdreamer-guide"
+      ],
+      "evidence_detail": "See `validate` equality loop in examples/render_complete_work_040000.py; DawDreamer not used to perform this check.",
+      "provenance": "original_derivation",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c039",
+      "anchor": "The Ardour manual documents automation of track volume, trim, panning, and processor parameters.",
+      "source_ids": [
+        "mt-040-ardour-automation"
+      ],
+      "evidence_detail": "Ardour Automation introduction, parameter list, lane editing.",
+      "provenance": "source_backed",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c040",
+      "anchor": "It also documents importing existing audio, routing through buses, and exporting individual stems.",
+      "source_ids": [
+        "mt-040-ardour-import",
+        "mt-040-ardour-stems"
+      ],
+      "evidence_detail": "Official import page; stem exports page, including inclusion of silence and optional processing; routing reference in general manual.",
+      "provenance": "source_backed",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c041",
+      "anchor": "Its documented rendering engine creates processing graphs, hosts instruments and effects, and captures rendered audio.",
+      "source_ids": [
+        "mt-040-dawdreamer-guide",
+        "mt-040-dawdreamer-plugins"
+      ],
+      "evidence_detail": "DawDreamer User Guide Overview and Basic Workflow, Plugin Processor Guide Graph Integration and State Management.",
+      "provenance": "source_backed",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c042",
+      "anchor": "Where plugins are nondeterministic, record that limitation rather than pretending the hash will be identical on every machine.",
+      "source_ids": [
+        "mt-040-dawdreamer-plugins"
+      ],
+      "evidence_detail": "Operational reproducibility guidance; plugin guide documents state loading and cautions, not a universal guarantee of determinism.",
+      "provenance": "editorial_inference",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c043",
+      "anchor": "To study orchestration, compare the dense draft with the texture-only version.",
+      "source_ids": [
+        "mt-040-mcadams"
+      ],
+      "evidence_detail": "The experimental comparison is original; from score validator, lead signature fixed while pad and fragment events change. Source supplies grouping concepts.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c044",
+      "anchor": "To study the two pitch choices, compare the texture-only version with the revised score.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Validator shows exactly two pitch edits with otherwise identical support voices.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c045",
+      "anchor": "To study balance, compare the revised score with the alternate mix.",
+      "source_ids": [
+        "mt-040-ardour-loudness",
+        "mt-040-ardour-automation"
+      ],
+      "evidence_detail": "Note lists identical but gains/pans differ; Ardour sources explain controls and meters, not a preferred setting.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    },
+    {
+      "id": "mt-040-c046",
+      "anchor": "The first eight bars present a small ascending figure and a familiar harmonic floor.",
+      "source_ids": [
+        "mt-040-caplin-functions"
+      ],
+      "evidence_detail": "Analytic summary of score bars 1–8, original, no source music borrowed.",
+      "provenance": "original_example",
+      "source_locator": "metadata/sources.json and examples/complete-work-040000.json as indicated; see manuscript companion for full citation"
+    }
+  ],
+  "original_source_artifacts": [
+    "examples/complete-work-040000.json",
+    "examples/render_complete_work_040000.py"
+  ],
+  "evidence_scope_note": "Mechanical anchor/source validation is not substantive corroboration. Original-score claims refer to local note-event data; externally sourced claims refer to named scholarly or official references with access limits stated."
+}

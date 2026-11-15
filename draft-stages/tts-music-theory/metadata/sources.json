@@ -1274,6 +1274,118 @@
       "access": "search_preview_only_direct_fetch_403_in_research_environment",
       "format": "html",
       "notes": "Exposition and real/tonal answer definitions visible in indexed search extract; direct full page inaccessible (403) in this pass. Use Gotham/Hutchinson as inspectable corroboration for detailed claims."
+    },
+    "mt-040-schoenberg-biblio": {
+      "title": "Arnold Schoenberg, Fundamentals of Musical Composition (ed. Gerald Strang with Leonard Stein, Faber 1967): National Library of New Zealand catalogue",
+      "kind": "library_bibliographic_record",
+      "url": "https://natlib.govt.nz/records/21668797",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Authenticates title, editors, publisher, date. Does not furnish open full text or independently verify every passage. Chapters III–V cited from table of contents; no copyrighted score/text reproduced."
+    },
+    "mt-040-frisch": {
+      "title": "Walter Frisch, The Early Works of Arnold Schoenberg, 1893–1908 (University of California Press, 1993), chapter 8 and note on motivic generative power",
+      "kind": "scholarly_monograph",
+      "url": "https://publishing.cdlib.org/ucpressebooks/public/book/the-early-works-of-arnold-schoenberg-1893-1908.html",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Open monograph; chapter 8 discussion of motives and Schoenberg compositional exercises, with reference to 1967 Fundamentals pp.64–67. Secondary scholarly corroboration of motivic pedagogy, not source of this lecture score."
+    },
+    "mt-040-caplin-functions": {
+      "title": "William E. Caplin, Classical Form: A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven (Oxford, 1998), Chapter 1",
+      "kind": "scholarly_monograph_chapter",
+      "url": "https://www.some.ox.ac.uk/wp-content/uploads/2020/08/28.-Caplin-1998-Some-basic-formal-functions.pdf",
+      "access": "open_pdf",
+      "format": "pdf",
+      "notes": "Original chapter 1, Some Basic Formal Functions: An Overview. Source for historical scope of formal functions and roles, not a classification of our original piece. PDF bibliographic title corroborated by Oxford University Press book."
+    },
+    "mt-040-caplin-sentence": {
+      "title": "William E. Caplin, Classical Form (Oxford University Press, 1998), Chapter 3: Sentence, pp.35–48",
+      "kind": "scholarly_monograph_chapter",
+      "url": "https://academic.oup.com/book/49159/chapter-abstract/422032516",
+      "access": "abstract_free_full_text_may_require_access",
+      "format": "html",
+      "notes": "Publisher abstract describing presentation, continuation and cadential functions of Classical sentence, with scope limited to Haydn/Mozart/Beethoven repertoire. DOI 10.1093/oso/9780195104806.003.0004."
+    },
+    "mt-040-margulis": {
+      "title": "Elizabeth Hellmuth Margulis, On Repeat: How Music Plays the Mind (Oxford University Press, 2013/2014)",
+      "kind": "scholarly_monograph",
+      "url": "https://academic.oup.com/book/9924",
+      "access": "abstract_free_full_text_may_require_access",
+      "format": "html",
+      "notes": "Publisher book abstract and chapters 1 (The Puzzle of Musical Repetition, pp.1–25) and 3 (Attention, Temporality, and Music that Repeats Itself, pp.55–74). Not experimental evidence about this lecture score."
+    },
+    "mt-040-margulis-attention": {
+      "title": "Elizabeth Hellmuth Margulis, On Repeat (2013), Chapter 3: Attention, Temporality, and Music that Repeats Itself, pp.55–74",
+      "kind": "scholarly_monograph_chapter",
+      "url": "https://academic.oup.com/book/9924/chapter-abstract/157252036",
+      "access": "abstract_free_full_text_may_require_access",
+      "format": "html",
+      "notes": "Publisher abstract describes attention-oriented theories of repetition. Supports only general hypothesis that repetition affects temporal attention; no predicted preference for our score."
+    },
+    "mt-040-huron": {
+      "title": "David Huron, Sweet Anticipation: Music and the Psychology of Expectation (MIT Press, 2006)",
+      "kind": "scholarly_monograph",
+      "url": "https://mitpress.mit.edu/9780262582780/sweet-anticipation/",
+      "access": "publisher_description_free",
+      "format": "html",
+      "notes": "Publisher description identifies a psychological theory of musical expectations and distinctions among response mechanisms; no quantitative prediction about these original bars."
+    },
+    "mt-040-mcadams": {
+      "title": "Stephen McAdams, Meghan Goodchild, and Kit Soden (2022), A Taxonomy of Orchestral Grouping Effects Derived from Principles of Auditory Perception, Music Theory Online 28(3)",
+      "kind": "peer_reviewed_article",
+      "url": "https://mtosmt.org/ojs/index.php/mto/article/view/885",
+      "access": "abstract_free_full_article_linked",
+      "format": "html",
+      "notes": "Article abstract paragraphs on concurrent blending, sequential segregation, and segmental boundary-making. No experimental evaluation of the original oscillator piece."
+    },
+    "mt-040-ardour-automation": {
+      "title": "Ardour Manual, Automation",
+      "kind": "official_software_documentation",
+      "url": "https://manual.ardour.org/automation/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Track fader, trim, mute, pan and plugin-parameter automation; refer to introductory feature list."
+    },
+    "mt-040-ardour-stems": {
+      "title": "Ardour Manual, Stem Exports",
+      "kind": "official_software_documentation",
+      "url": "https://manual.ardour.org/working-with-sessions/interchange-with-other-daws/stem-exports/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Explains exporting independent track/bus files with silence to preserve synchronization and optional track processing. Does not promise plugin-equivalent cross-DAW reproduction."
+    },
+    "mt-040-ardour-import": {
+      "title": "Ardour Manual, Adding Pre-existing Material",
+      "kind": "official_software_documentation",
+      "url": "https://manual.ardour.org/adding-pre-existing-material/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Documents import dialog and drag/drop of audio or MIDI into sessions."
+    },
+    "mt-040-ardour-loudness": {
+      "title": "Ardour Manual, Loudness Analyzer and Normalizer",
+      "kind": "official_software_documentation",
+      "url": "https://manual.ardour.org/mixing/basic-mixing/loudness-analyzer-and-normalizer/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Documents peak/true-peak/integrated loudness analysis and gain normalization; source for practical level-check workflow, not a guarantee of rigorous perceptual loudness matching."
+    },
+    "mt-040-dawdreamer-guide": {
+      "title": "DawDreamer maintainers, User Guide: RenderEngine, processors, graphs, parameter automation",
+      "kind": "official_software_documentation",
+      "url": "https://github.com/DBraun/DawDreamer/blob/main/docs/user_guide/index.rst",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Source for graph construction, rendering and audio retrieval. This lecture does not include an executed DawDreamer graph."
+    },
+    "mt-040-dawdreamer-plugins": {
+      "title": "DawDreamer maintainers, Plugin Processor User Guide: State Management and Rendering",
+      "kind": "official_software_documentation",
+      "url": "https://github.com/DBraun/DawDreamer/blob/main/docs/user_guide/plugin_processor.rst",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Documents plugin processor, `load_state`, `save_state`, render interactions and per-plugin headless limitations; source for reproducibility cautions."
     }
   }
 }
