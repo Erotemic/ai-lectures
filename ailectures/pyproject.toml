@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ailectures-reader"
+version = "0.1.0"
+description = "Portable audio lecture packs and a local library reader"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["starlette>=1.0.0,<2", "uvicorn>=0.35"]
+
+[project.scripts]
+ailectures = "ailectures.__main__:main"
+
+[tool.setuptools]
+packages = ["ailectures", "ailectures.static"]
+package-dir = {ailectures = "."}
+
+[tool.setuptools.package-data]
+ailectures = ["static/*.html", "static/*.mjs", "static/*.css"]

@@ -1,0 +1,82 @@
+"""Read the original syllabus without importing deck or rendering modules."""
+
+from pathlib import Path
+
+from .core import lecture_revision, text_digest
+
+
+def presentation_pack(repository):
+    import yaml  # Only the optional repository adapter needs YAML.
+
+    root = Path(repository) / "lectures"
+    plan = yaml.safe_load((root / "index.yaml").read_text())["lectures"]
+    ordered, pending = [], dict(plan)
+    while pending:
+        available = next(
+            (
+                key
+                for key, row in pending.items()
+                if all(p in ordered for p in row.get("requires", []))
+            ),
+            None,
+        )
+        if available is None:
+            raise ValueError("Missing or cyclic presentation prerequisite")
+        ordered.append(available)
+        pending.pop(available)
+    lectures, relationships = {}, []
+    for key in ordered:
+        entry = plan[key]
+        folders = list(root.glob("[0-9]" * 6 + "_" + key))
+        if (root / key).is_dir():
+            folders.append(root / key)
+        if len(folders) != 1:
+            raise ValueError(f"Expected one presentation source folder for {key}")
+        folder = folders[0]
+        source = (folder / "lecture.md").read_text()
+        provenance = folder / "provenance.yaml"
+        row = dict(
+            id="g1:" + entry["deck"],
+            namespace="g1",
+            kind="presentation",
+            title=entry["title"],
+            transcript="",
+            spoken_sha256=text_digest(""),
+            source=source,
+            metadata={
+                "provenance": (
+                    yaml.safe_load(provenance.read_text())
+                    if provenance.exists()
+                    else {}
+                )
+            },
+            sources={},
+            recordings=[],
+            section=entry.get("series", ""),
+            deck=entry["deck"],
+            aliases=["g1:" + folder.name],
+        )
+        row["revision"] = lecture_revision(row)
+        lectures[row["id"]] = row
+        for parent in entry.get("requires", []):
+            relationships.append(
+                {
+                    "from": row["id"],
+                    "to": "g1:" + plan[parent]["deck"],
+                    "type": "soft_depends_on",
+                }
+            )
+    course = dict(
+        id="g1:main",
+        title="Animated Mathematics",
+        summary="Original mathematical presentations, handouts, and narrated videos.",
+        lectures=list(lectures),
+    )
+    return dict(
+        id="g1",
+        title=course["title"],
+        lectures=lectures,
+        courses={course["id"]: course},
+        relationships=relationships,
+        extra_files={},
+    )

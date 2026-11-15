@@ -7,7 +7,8 @@ operator equations, and Davis--Kahan perturbation results. The lecture scripts
 are designed for independent listening through text-to-speech, with separate
 mathematical companions and focused learning references.
 
-The audio-first corpus is under `draft-stages/tts-lectures/`: numbered Markdown
+The audio-first corpus spans `draft-stages/tts-*/`; new independent source packs
+can use `content/<namespace>/`. Numbered Markdown
 transcripts contain explicitly marked spoken sections and display-only
 mathematics. Their per-lecture source notes live in
 `draft-stages/tts-lectures/metadata/`, while `curriculum/` holds graph and topic
@@ -15,6 +16,11 @@ navigation. The repository also retains the Manim/VTK visualization, presentatio
 and audio-production tooling extracted from the earlier research project. That
 infrastructure remains supported, but it does not define the scope of future
 subjects in the library.
+
+Start the unified library with `make serve` and open `/`. The
+[content pack guide](docs/content-packs.md) covers portable exports, live updates,
+optional TTS, listener progress, and revision-aware feedback. Original
+presentations remain at `/presentations`; the earlier audio reader is at `/audio`.
 
 The [lecture style rules](LECTURE_STYLE_RULES.md) govern transcript revisions.
 The [lecture vision and history plan](docs/planning/lecture-project-vision-and-history.md)
@@ -24,6 +30,8 @@ records the origin and mathematical goals of the initial curriculum.
 
 | Task | Read or edit |
 | --- | --- |
+| Install or export packs and use the unified library | [Content pack guide](docs/content-packs.md) |
+| Plan portable content packs, library navigation, and listener progress | [Audio first library refactor plan](docs/planning/content-packs-and-library-refactor.md) |
 | Write or revise lecture content | [Lecture style rules](LECTURE_STYLE_RULES.md), then the [authoring guide](dkvis/learning/README.md) |
 | Find a lecture and its prerequisites | [Lecture index](lectures/index.yaml); generated [lecture navigation](lectures/README.md) |
 | Change a transcript, quiz, or model attribution | The lecture's numbered folder under `lectures/` |
@@ -374,11 +382,12 @@ the transcript.
 From `visualizations/`, start the media library:
 
 ```bash
-make serve                          # http://127.0.0.1:8001
+make serve                          # http://127.0.0.1:8001/presentations
 make serve PORT=8002                # use another port if occupied
 ```
 
-The page lists videos by narrator, HTML presentations, and PDF handouts. It has
+Open `/presentations` from the unified library. This page lists videos by narrator,
+HTML presentations, and PDF handouts. It has
 native video seeking, playback-speed controls, skip buttons, remembered playback
 positions, links to particular times, and chapters from the matching render
 timeline (or embedded MP4 chapters). HTML and PDFs open in the same viewer or in
@@ -400,11 +409,12 @@ uv run --isolated --extra serve python -m dkvis.presentation serve --directory /
 The server uses an isolated Python environment, so starting it does not change
 the environment used by concurrent render jobs.
 
-**After adding a new lecture, restart the server and refresh the browser.**
-The running Python process retains its deck registrations and cached lecture
-index. For example, a server started before `000010` was added cannot discover
-that new deck using the page's Refresh button alone. New or replaced renders
-of an already registered deck do appear after Refresh, without a server restart.
+**Content packs and audio manuscripts update live in the unified library.**
+The compatibility presentation viewer retains Python deck registrations and its
+cached lecture index, so new deck code needs a restart. New or replaced renders
+of an already registered deck need only Refresh. See the
+[pack guide](docs/content-packs.md#live-discovery-and-revisions) for live content
+updates without shared registry edits.
 
 
 The default directory is this project's `renders/`, independent of the current

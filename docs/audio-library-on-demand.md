@@ -1,5 +1,9 @@
 # Repo-backed audio lecture reader
 
+This describes the compatibility reader at `/audio`. `make serve` now opens the
+unified library at `/`; see the [content pack guide](content-packs.md) for live
+pack updates, portable recordings, listener profiles, and revision-aware feedback.
+
 ## Run on the LAN
 
 ```bash

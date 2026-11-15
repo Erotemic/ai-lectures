@@ -12,32 +12,10 @@ import pathlib
 import re
 import sys
 
-BEGIN = "<!-- BEGIN SPOKEN LECTURE -->"
-END = "<!-- END SPOKEN LECTURE -->"
+if __package__ in (None, ""):
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2]))
 
-
-def extract(path: pathlib.Path) -> str:
-    data = path.read_text(encoding="utf-8")
-    if data.count(BEGIN) != 1 or data.count(END) != 1:
-        raise ValueError(f"{path}: expected exactly one spoken-region marker pair")
-    begin = data.index(BEGIN) + len(BEGIN)
-    end = data.index(END)
-    if begin >= end:
-        raise ValueError(f"{path}: end marker precedes begin marker")
-    spoken = data[begin:end].strip()
-    if not spoken:
-        raise ValueError(f"{path}: empty spoken portion")
-    for token in ("```", "$$", "\\[", "\\(", "<script", "<!--"):
-        if token in spoken:
-            raise ValueError(f"{path}: non-spoken markup {token!r} within narration")
-    # Normal markdown headings are useful in source but unnecessary in speech.
-    spoken = re.sub(r"(?m)^#{1,6}\s+", "", spoken)
-    # Markdown emphasis is useful when editing a transcript, but asterisks
-    # are not spoken punctuation. Keep the source formatting in place and
-    # remove only matched, single-line emphasis delimiters from TTS output.
-    spoken = re.sub(r"(?<!\*)\*\*([^\n*]+?)\*\*(?!\*)", r"\1", spoken)
-    spoken = re.sub(r"(?<!\w)(?<!\*)\*([^\n*]+?)\*(?!\w)", r"\1", spoken)
-    return spoken + "\n"
+from ailectures.core import extract
 
 
 def main() -> int:

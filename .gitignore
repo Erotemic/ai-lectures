@@ -34,3 +34,8 @@ slides-*/
 /companion-slides/figures/*.svg
 *.tar.gz
 *.zip
+
+# Durable installed packs, listener state, and disposable pack build work.
+/library-data/
+/ailectures/*.egg-info/
+/ailectures/build/

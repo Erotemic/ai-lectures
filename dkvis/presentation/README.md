@@ -197,14 +197,15 @@ timeline snapshot so a concurrent new render cannot change its comparison.
 
 ## Local library server
 
-`make serve` (or `python -m dkvis.presentation serve` with the `serve` extra)
-starts the read-only catalog and player for `renders/`. See the
+`make serve` starts the unified library at `/` and loads this original catalog
+and player lazily at `/presentations`. `python -m dkvis.presentation serve`
+still starts the original player directly for `renders/`. See the
 [quick start](../../README.md#browse-and-watch-rendered-material) for ports,
 network binding and directory options. Static media uses Starlette's byte-range
 implementation; keep that behavior when modifying the server. HTML asset paths
 remain relative under `/files/`, and PDFs use the browser's built-in viewer.
 
-Restart the server after registering a new deck or changing the lecture index:
+For this compatibility viewer, restart after registering new Python deck code:
 Python deck definitions and the cached index are loaded into the running
 process. The UI Refresh button rescans generated files for known decks; it is
 not a Python module reload. New renders of existing decks need only Refresh.

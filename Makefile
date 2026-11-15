@@ -296,4 +296,4 @@ distclean: clean
 
 # Seekable media library, HTML slides and PDFs; no Manim/TTS required.
 serve:
-	$(UV) run --isolated --extra serve python -m dkvis.presentation serve --host $(HOST) --port $(PORT) $(if $(AUDIO_TTS_PROFILE),--audio-tts-profile $(call shell_quote,$(AUDIO_TTS_PROFILE))) $(if $(AUDIO_TTS_ENDPOINT),--audio-tts-endpoint $(call shell_quote,$(AUDIO_TTS_ENDPOINT))) $(if $(TTS_CONFIG),--tts-config $(call shell_quote,$(TTS_CONFIG)))
+	$(UV) run --isolated --extra serve python -m ailectures serve --repository . --host $(HOST) --port $(PORT) $(if $(AUDIO_TTS_PROFILE),--audio-tts-profile $(call shell_quote,$(AUDIO_TTS_PROFILE))) $(if $(AUDIO_TTS_ENDPOINT),--audio-tts-endpoint $(call shell_quote,$(AUDIO_TTS_ENDPOINT))) $(if $(TTS_CONFIG),--tts-config $(call shell_quote,$(TTS_CONFIG)))

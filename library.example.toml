@@ -1,0 +1,13 @@
+# One-time machine configuration; individual packs supply their own manifests.
+# Paths are relative to this configuration file. Completed releases placed in
+# these roots are reconciled without restarting or editing a central registry.
+pack_roots = ["library-inbox"]
+excluded = []
+
+# Optional server-side TTS settings. Existing tts.toml and tts.local.toml are
+# loaded lazily when serving a source checkout without this override.
+# tts_config = "tts.local.toml"
+
+# Optional exact release selections. Omit to follow valid successor releases.
+[pins]
+# music-theory = "<64-character release SHA-256>"

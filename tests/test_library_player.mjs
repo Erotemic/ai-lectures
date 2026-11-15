@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {pageDurations,locateTime} from '../ailectures/static/player.mjs';
+const complete={pages:['first passage','middle passage','last passage'],segments:[{index:0,duration:10},{index:1,duration:20},{index:2,duration:30}]};
+assert.deepEqual(pageDurations(complete),[10,20,30]);
+assert.deepEqual(locateTime([10,20,30],15),{index:1,seconds:5});
+assert.deepEqual(locateTime([10,20,30],10),{index:1,seconds:0});
+assert.deepEqual(locateTime([10,20,30],60),{index:2,seconds:30});
+assert.deepEqual(locateTime([10,20,30],100),{index:2,seconds:30});
+assert.deepEqual(locateTime([10,20,30],-10),{index:0,seconds:0});
+const partial={pages:['first passage','one two three'],segments:[{index:0,duration:7}]};
+const durations=pageDurations(partial);
+assert.equal(durations[0],7);
+assert.ok(durations[1]>0);
+assert.deepEqual(locateTime(durations,8).index,1);
+console.log('Portable player measured/estimated timeline and cross-segment seeking passed');

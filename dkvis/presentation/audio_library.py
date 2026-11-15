@@ -73,14 +73,8 @@ class SpeechSettings:
 
 def narration_extractor(path: Path):
     """Call the canonical spoken-region extractor, including future refinements."""
-    # Both audio tracks use the same canonical spoken-region extractor.
-    module_path = EXTRACTOR
-    spec = importlib.util.spec_from_file_location('dkps_staged_narration_extractor', module_path)
-    if spec is None or spec.loader is None:
-        raise RuntimeError(f'Cannot load narration extractor: {module_path}')
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
-    return module.extract(path).strip()
+    from ailectures.core import extract
+    return extract(path).strip()
 
 
 def _sentences(paragraph: str) -> list[str]:
