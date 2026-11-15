@@ -1,6 +1,6 @@
 # Comedy: Theory, History, and Craft
 
-**Current collection:** 13 substantive, standalone audio-first manuscripts, including a seven-lecture modern theory sequence.
+**Current collection:** 14 substantive, standalone audio-first manuscripts, including a seven-lecture modern theory sequence.
 
 ## Completed lectures
 
@@ -11,10 +11,11 @@
 - 005000: [Rakugo and Manzai: One Voice, Two Voices, and the Comic City](005000-rakugo-and-manzai.md) (2,689 spoken words; approximately 18.5 minutes at 145 words per minute).
 - 006000: [China and Comic Speech: Xiangsheng, Language, and Public Life](006000-china-and-comic-speech.md) (2,930 spoken words; approximately 20.2 minutes at 145 words per minute).
 
-## Modern schools of thought (new seven-lecture sequence)
+## Modern schools of thought (extended introduction plus seven deep dives)
 
-The sequence below is intentionally numbered `031000`–`037000`: the existing historical and craft curriculum reserves `007000`–`030000`. The new sequence is separately listenable and does not imply that those earlier proposals are complete.
+The seven specialized lectures retain IDs `031000`–`037000`: the historical/craft curriculum reserves `007000`–`030000`. The extended orientation uses `030500`, after the reserved sequence and before the specialized work. It is separately listenable and does not imply the historical proposals are complete.
 
+- 030500: [A Field Guide to Modern Comedy: Seven Schools, One Joke, and No Master Formula](030500-a-field-guide-to-modern-comedy-theories.md) (6,785 spoken words; approximately 46.8 minutes).
 - 031000: [Jokes as Linguistic Systems: Raskin, Attardo, and the Architecture of an Interpretation](031000-jokes-as-linguistic-systems.md) (2,021 spoken words).
 - 032000: [The Cognitive Turn: Incongruity, Resolution, and Benign Violation](032000-the-cognitive-turn.md) (1,921 spoken words).
 - 033000: [Psychology Measures Humor: Styles, Wellbeing, and the Problem of What Counts](033000-humor-styles-and-wellbeing.md) (2,024 spoken words).
