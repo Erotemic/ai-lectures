@@ -1,6 +1,6 @@
 # Music Theory and Composition
 
-**Collection:** Forty standalone, audio-first lecture manuscripts. The course remains instrument-agnostic; text-defined original scores and a local standard-library sound renderer are optional companions, not prerequisites for understanding the lectures.
+**Collection:** Forty-one standalone, audio-first lecture manuscripts. The course remains instrument-agnostic; text-defined original scores and a local standard-library sound renderer are optional companions, not prerequisites for understanding the lectures.
 
 ## Completed and indexed lectures
 
@@ -47,6 +47,7 @@
 | 038000 | [Orchestration as Composition: Register, Timbre, Layers, and Attention](038000-orchestration-as-composition.md) | 4,459 | 30.8 |
 | 039000 | [The Fugue as a Musical Argument: Entries, Episodes, Inversion, and Stretto](039000-fugue-and-larger-counterpoint.md) | 3,794 | 26.2 |
 | 040000 | [From Motif to Finished Piece: A Complete-Work Analysis and Revision](040000-from-motif-to-finished-piece.md) | 4,176 | 28.8 |
+| 041000 | [One Motif, Three Ways of Being a Piece: Ground, Rondo, and Continuous Development](041000-three-works-three-organizational-principles.md) | 4,173 | 28.8 |
 
 Word counts are descriptive: they use whitespace-separated words in the narration extractor output, matching the track inventory. Duration is only a rough read-through estimate, not an editorial target.
 
@@ -60,6 +61,8 @@ Examples in `examples/` contain earlier score grids and the original WAV-renderi
 
 Lecture 040000 provides a complete-work composition and revision case study, **The Returning Line**. The 40-bar original score demonstrates a same-note motif return, a +7-semitone contrasting entry, sectional texture changes, two controlled melodic edits, and an alternate mix with exactly the same note events. The [complete-work lab](examples/README-complete-work-040000.md) validates six comparison states and can render optional stereo WAV files locally. Its evidence map distinguishes Caplin/Schoenberg formal pedagogy, Margulis/Huron perceptual scholarship, McAdams–Goodchild–Soden orchestral grouping theory, and official DawDreamer/Ardour engineering documentation from original calculations and subjective listening proposals.
 
+Lecture 041000 compares three **complete original 40-bar works** that begin with the same E-G-A-G motif, 100 BPM, four-quarter meter, and matched source waveform settings. *The Wheel and the Window* keeps an exact four-bar bass cycle across ten variations; *The Gate and the Road* returns an eight-bar refrain in an A-B-A-C-A plan, changing its final close; *The Unbroken Path* develops related gestures continuously without a verbatim full eight-bar refrain. The [three-work laboratory](examples/README-comparing-forms-041000.md) checks 888 authored note events and these specific structural invariants, and optionally generates anonymous listening excerpts and complete WAVs. It does **not** measure whether listeners actually hear a proposed form or judge its artistic merit. Full source attribution distinguishes primary compositional writings, published music theory, and score-derived original claims.
+
 ## Further work (not indexed as completed)
 
 1. Evaluate the original synthetic listening demonstrations with actual listeners; distinguish demonstrated audibility from intended pedagogical effect, and revise ambiguous stimuli.
@@ -70,7 +73,7 @@ Lecture 040000 provides a complete-work composition and revision case study, **T
 
 ## Detailed attribution practice for 025000–038000
 
-Lectures 025000–040000 each contain a **source-to-claim reading map** with direct links and section-level explanations, not just a generic bibliography. Their metadata sidecars have a `claim_evidence` array recording a verbatim narration anchor, source IDs, why the source is relevant, and provenance. An `original_calculation`, `original_example`, or `editorial_inference` is *explicitly not* represented as an experimental result in the cited document. The sources are primarily official manuals, standards, university books, and peer-reviewed research. This is a stronger, local attribution contract; it does not automatically certify every editorial judgment or imply that an online source contains a particular illustrative score.
+Lectures 025000–041000 each contain a **source-to-claim reading map** with direct links and section-level explanations, not just a generic bibliography. Their metadata sidecars have a `claim_evidence` array recording a verbatim narration anchor, source IDs, why the source is relevant, and provenance. An `original_calculation`, `original_example`, or `editorial_inference` is *explicitly not* represented as an experimental result in the cited document. The sources are primarily official manuals, standards, university books, and peer-reviewed research. This is a stronger, local attribution contract; it does not automatically certify every editorial judgment or imply that an online source contains a particular illustrative score.
 
 ## Reference and integrity conventions
 

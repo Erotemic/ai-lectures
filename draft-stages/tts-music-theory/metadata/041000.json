@@ -1,0 +1,547 @@
+{
+  "schema_version": 1,
+  "lecture_id": "041000",
+  "transcript": "041000-three-works-three-organizational-principles.md",
+  "related_resources": [
+    {
+      "source_id": "mt-041-gotham-ground",
+      "reason": "Key Takeaways; Ostinato/Ground Bass/Chaconne distinction; Multiple Harmonizations; Purcell case. Does not establish properties of lecture-original scores."
+    },
+    {
+      "source_id": "mt-041-caplin-rondo",
+      "reason": "ABACA as one Classical rondo type, contrasting refrain/couplets; full chapter not inspected."
+    },
+    {
+      "source_id": "mt-041-open-rondo",
+      "reason": "Refrains, contrasting episodes, common ABACA design, variation and tonal context in Classical repertory. Historical scope; not a universal structural prescription."
+    },
+    {
+      "source_id": "mt-041-open-rondo-five",
+      "reason": "Five-part A-B-A-C-A layout and possible ornamented/abbreviated returns."
+    },
+    {
+      "source_id": "mt-041-caplin-function",
+      "reason": "Author-hosted chapter pp.1-4: recurring thematic content and formal functions are not equivalent; describes Caplin's own theoretical position, not a consensus theorem."
+    },
+    {
+      "source_id": "mt-041-margulis-repeat",
+      "reason": "Abstract distinguishes acoustic, notated and perceived repetition, and perceptual roles; not evidence our examples work for particular listeners."
+    },
+    {
+      "source_id": "mt-041-margulis-attention",
+      "reason": "Abstract supports repeated material as organizing attention in time; no observed listener trials for the classroom pieces."
+    },
+    {
+      "source_id": "mt-041-reich-process",
+      "reason": "Publisher confirms essay attribution and original date. Text itself also inspected from university-hosted teaching scan."
+    },
+    {
+      "source_id": "mt-041-reich-essay-copy",
+      "reason": "Printed pp.9-11 explicit distinction between compositional procedures and perceptible musical processes; this lecture does not claim its through-development example is Reich-style process music."
+    },
+    {
+      "source_id": "mt-041-boss-variation",
+      "reason": "Abstract identifies scholarly disagreement on the theoretical definition of developing variation. Do not overextend to score classification."
+    },
+    {
+      "source_id": "mt-041-cuny-form",
+      "reason": "Defines through-composed in terms of composing new music for successive stanzas or sections without repeating, useful historical context."
+    },
+    {
+      "source_id": "mt-041-ardour-stems",
+      "reason": "Synchronized track exports and processor-application option; does not describe or validate this Python score renderer."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "mt-041-c001",
+      "anchor": "Here are four notes: E, G, A, G.",
+      "source_ids": [
+        "mt-041-caplin-function"
+      ],
+      "evidence_detail": "Original shared motif; first bar of all three pieces is E4,G4,A4,G4, dur=1.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: reference_motif and all pieces lead bar 1"
+    },
+    {
+      "id": "mt-041-c002",
+      "anchor": "The first moves upward by three semitones, the second rises by two, and the third falls by two.",
+      "source_ids": [
+        "mt-041-caplin-function"
+      ],
+      "evidence_detail": "MIDI intervals 64 to 67 (+3), 67 to 69 (+2), 69 to 67 (-2). Not an external experimental finding.",
+      "provenance": "original_calculation",
+      "source_locator": "examples/comparing-forms-041000.json: reference_motif"
+    },
+    {
+      "id": "mt-041-c003",
+      "anchor": "Each occupies forty bars of four-quarter meter at one hundred beats per minute.",
+      "source_ids": [
+        "mt-041-caplin-function"
+      ],
+      "evidence_detail": "Identical tempo, meter, and 40-bar length in each original piece.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: pieces[*].bars, tempo_bpm, beats_per_bar"
+    },
+    {
+      "id": "mt-041-c004",
+      "anchor": "All use the same schematic synthesizer voices: an upper lead, a lower bass, and an inner supporting voice.",
+      "source_ids": [
+        "mt-041-ardour-stems"
+      ],
+      "evidence_detail": "The three pieces share exact waveform/gain/pan configs for these three voices. Ardour reference only contextual.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: pieces[*].voices"
+    },
+    {
+      "id": "mt-041-c005",
+      "anchor": "A ground bass repeats a bass line while other music changes over it.",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Gotham Key Takeaways and main Ground Bass definition.",
+      "provenance": "source_backed",
+      "source_locator": "Gotham, Ground Bass: Key Takeaways and first two paragraphs"
+    },
+    {
+      "id": "mt-041-c006",
+      "anchor": "An ostinato is a repeated pattern; a ground bass is the particular case in which that repetition belongs to the bass.",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Definitions distinguished in Gotham chapter.",
+      "provenance": "source_backed",
+      "source_locator": "Gotham, Ground Bass: terminological distinction below Key Takeaways"
+    },
+    {
+      "id": "mt-041-c007",
+      "anchor": "Historically, composers also used ground bass as the basis of chaconnes and passacaglias, but those labels carry additional conventions.",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Gotham identifies chaconne/passacaglia as subgenres, including triple-meter conventions in Baroque cases.",
+      "provenance": "source_backed",
+      "source_locator": "Gotham, Ground Bass: paragraph beginning It is easy to confuse"
+    },
+    {
+      "id": "mt-041-c008",
+      "anchor": "In the opening bar, the bass plays C followed by G.",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Original score bar 1, bass C3 at beat0 dur2 G3 at beat2 dur2.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: ground_wheel/bass/at=0 and at=2"
+    },
+    {
+      "id": "mt-041-c009",
+      "anchor": "In the second, A followed by E.",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Original score bar 2 bass A2,E3.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: ground_wheel/bass/bar2"
+    },
+    {
+      "id": "mt-041-c010",
+      "anchor": "In the third, F followed by C.",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Original score bar 3 bass F2,C3.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: ground_wheel/bass/bar3"
+    },
+    {
+      "id": "mt-041-c011",
+      "anchor": "In the fourth, G followed by D.",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Original score bar 4 bass G2,D3.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: ground_wheel/bass/bar4"
+    },
+    {
+      "id": "mt-041-c012",
+      "anchor": "It does this ten times without changing its pitches or its timing.",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Exact cross-cycle 4bar ground bass event signatures are asserted by local validator.",
+      "provenance": "original_example",
+      "source_locator": "examples/render_comparing_forms_041000.py: validate, ground bass four-bar loop"
+    },
+    {
+      "id": "mt-041-c013",
+      "anchor": "Bars five through eight preserve the bass literally, while the melody holds some notes longer and shortens others.",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Ground cycle index 1 varies melodic durations only.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: ground_wheel, beats16..32"
+    },
+    {
+      "id": "mt-041-c014",
+      "anchor": "Bars nine through twelve subdivide the melody into more attacks, making the upper surface busier.",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Ground cycle index 2 has 6 lead events per bar instead of 4.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: ground_wheel, bars9..12"
+    },
+    {
+      "id": "mt-041-c015",
+      "anchor": "Bars thirteen through sixteen move the lead down an octave.",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "All four original melody pitches lowered 12 semitones in ground cycle 4.",
+      "provenance": "original_calculation",
+      "source_locator": "examples/comparing-forms-041000.json: ground_wheel, bars13..16"
+    },
+    {
+      "id": "mt-041-c016",
+      "anchor": "Bars twenty-five through twenty-eight delay several lead attacks",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Half-beat rests precede the lead attacks at every bar of this cycle.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: ground_wheel, bars25..28"
+    },
+    {
+      "id": "mt-041-c017",
+      "anchor": "Bars twenty-nine through thirty-two leave deliberate spaces",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Each bar of this cycle omits a beat of melodic events and begins with a held note.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: ground_wheel, bars29..32"
+    },
+    {
+      "id": "mt-041-c018",
+      "anchor": "Elizabeth Hellmuth Margulis's research examines how repetition can establish expectations and redirect attention.",
+      "source_ids": [
+        "mt-041-margulis-repeat",
+        "mt-041-margulis-attention"
+      ],
+      "evidence_detail": "Margulis abstract distinguishes repetition modes and attentional orientation; expectation is a broad pedagogical paraphrase rather than a measured effect for our pieces.",
+      "provenance": "supported_interpretation",
+      "source_locator": "Margulis 2018 abstract; On Repeat ch3 abstract pp55-74"
+    },
+    {
+      "id": "mt-041-c019",
+      "anchor": "Repeating the bass does not mean repeating one fully specified harmony.",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Gotham demonstrates ground bass re-harmonization; a bass pitch does not specify full harmonic realization.",
+      "provenance": "source_backed",
+      "source_locator": "Gotham, Ground Bass: Multiple Harmonizations of a Given Bass"
+    },
+    {
+      "id": "mt-041-c020",
+      "anchor": "In Gotham's analysis of Purcell, changing harmony and imitative relationships are part of how repetition supports variety.",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Chapter sections Harmony, Imitation, Rhythm and Meter on Purcell Sonata in G Minor Z 807.",
+      "provenance": "source_backed",
+      "source_locator": "Gotham, Ground Bass: Analysis Purcells Sonata in G Minor"
+    },
+    {
+      "id": "mt-041-c021",
+      "anchor": "Our last melody rises toward C, but the bass finishes its G-to-D portion of the ground",
+      "source_ids": [
+        "mt-041-gotham-ground"
+      ],
+      "evidence_detail": "Bar 40 lead ends C5, bass G2 then D3. This is not verified as a stylistic perfect authentic cadence.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: ground_wheel bar40 lead and bass"
+    },
+    {
+      "id": "mt-041-c022",
+      "anchor": "The form of our work is A, B, A, C, A.",
+      "source_ids": [
+        "mt-041-caplin-rondo",
+        "mt-041-open-rondo",
+        "mt-041-open-rondo-five"
+      ],
+      "evidence_detail": "ABACA structural designation is a common Classical five-part rondo scheme; specific composition is original.",
+      "provenance": "source_backed",
+      "source_locator": "Caplin 1998 ch16 pp231-241 publisher abstract; Open Music Theory Five-Part Rondo"
+    },
+    {
+      "id": "mt-041-c023",
+      "anchor": "Each letter occupies eight bars.",
+      "source_ids": [
+        "mt-041-caplin-rondo"
+      ],
+      "evidence_detail": "Five formal_map spans cover bars 1-40 as 8 bars each.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: return_arch.formal_map"
+    },
+    {
+      "id": "mt-041-c024",
+      "anchor": "At bar nine, B begins with B, D, E, F sharp, E",
+      "source_ids": [
+        "mt-041-open-rondo"
+      ],
+      "evidence_detail": "Original B first bar has B4,D5,E5,F#5,E5 lead events.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: return_arch lead bar9"
+    },
+    {
+      "id": "mt-041-c025",
+      "anchor": "In fact, the lead melody of bars seventeen through twenty-four is an exact event-for-event copy of bars one through eight.",
+      "source_ids": [
+        "mt-041-open-rondo-five"
+      ],
+      "evidence_detail": "Validator compares time-relative lead pitch/duration signatures A1 and A2.",
+      "provenance": "original_example",
+      "source_locator": "examples/render_comparing_forms_041000.py: validate, return_arch lead windows"
+    },
+    {
+      "id": "mt-041-c026",
+      "anchor": "in the returning A, some bass notes are held for three beats rather than two",
+      "source_ids": [
+        "mt-041-caplin-function"
+      ],
+      "evidence_detail": "The second A bass uses durations 3+1 vs first A 2+2. External form theory is background only.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: return_arch bass bars1..8 vs17..24"
+    },
+    {
+      "id": "mt-041-c027",
+      "anchor": "C begins at bar twenty-five with longer melodic durations and an A-minor-colored opening.",
+      "source_ids": [
+        "mt-041-open-rondo"
+      ],
+      "evidence_detail": "Original C begins A4 2 beats, C5 1.5 beats, B4 0.5; bass A2 and E3; minor color is interpretive.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: return_arch lead and bass bar25"
+    },
+    {
+      "id": "mt-041-c028",
+      "anchor": "The first seven bars of its lead match the corresponding first seven bars of the original refrain.",
+      "source_ids": [
+        "mt-041-open-rondo-five"
+      ],
+      "evidence_detail": "A3 bars33..39 lead signatures exact match A1 bars1..7.",
+      "provenance": "original_example",
+      "source_locator": "examples/render_comparing_forms_041000.py: validate, A3/A1 7-bar relation"
+    },
+    {
+      "id": "mt-041-c029",
+      "anchor": "In the last bar, the final C is sustained rather than ending with the earlier C-to-G gesture.",
+      "source_ids": [
+        "mt-041-open-rondo-five"
+      ],
+      "evidence_detail": "Original lead bar8 C5 dur3 G4 dur1; bar40 C5 dur4.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: return_arch lead bars8,40"
+    },
+    {
+      "id": "mt-041-c030",
+      "anchor": "Rondo refrains can be varied or abbreviated",
+      "source_ids": [
+        "mt-041-open-rondo",
+        "mt-041-open-rondo-five"
+      ],
+      "evidence_detail": "OMT Rondo and Five-Part Rondo discuss variation/abbreviation of refrain returns.",
+      "provenance": "source_backed",
+      "source_locator": "Open Music Theory, Rondo; Five-Part Rondo Form: returns"
+    },
+    {
+      "id": "mt-041-c031",
+      "anchor": "Recognizing a repeated tune tells us something important, but it does not by itself explain what the tune is doing at each appearance.",
+      "source_ids": [
+        "mt-041-caplin-function"
+      ],
+      "evidence_detail": "Caplin chapter pp1-4 argues thematic content and formal function distinct; not a formal proof about this new composition.",
+      "provenance": "supported_interpretation",
+      "source_locator": "Caplin, Formal Function versus Thematic Content, printed pp1-4"
+    },
+    {
+      "id": "mt-041-c032",
+      "anchor": "The third composition begins E, G, A, G as before.",
+      "source_ids": [
+        "mt-041-caplin-function"
+      ],
+      "evidence_detail": "Continuous piece bar1 exactly reference melody.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: continuous_road/lead bar1"
+    },
+    {
+      "id": "mt-041-c033",
+      "anchor": "Our study is instrumental. It has recognizable regions of growth and relaxation",
+      "source_ids": [
+        "mt-041-cuny-form"
+      ],
+      "evidence_detail": "Original work contains only synthetic instrumental voices. Through-composed background distinguishes text-based term, not proof of a specific formal label.",
+      "provenance": "editorial_inference",
+      "source_locator": "examples/comparing-forms-041000.json: continuous_road/formal_map; CUNY glossary"
+    },
+    {
+      "id": "mt-041-c034",
+      "anchor": "By bar seven, an inner voice begins to enter",
+      "source_ids": [
+        "mt-041-caplin-function"
+      ],
+      "evidence_detail": "Continuous inner events absent bars1..6, enter bar7.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: continuous_road/inner first event"
+    },
+    {
+      "id": "mt-041-c035",
+      "anchor": "From roughly bar fifteen through bar twenty-nine, the upper surface becomes busier.",
+      "source_ids": [
+        "mt-041-caplin-function"
+      ],
+      "evidence_detail": "Lead event density varies in middle; the writing intentionally qualifies this as roughly, not monotonically every bar.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: continuous_road/lead bars15..29"
+    },
+    {
+      "id": "mt-041-c036",
+      "anchor": "At bar forty, the lead settles on a single C for the complete measure, over a bass that begins on C.",
+      "source_ids": [
+        "mt-041-caplin-function"
+      ],
+      "evidence_detail": "Lead C4 at bar40 dur4, bass C3 dur3 then G3 dur1. The tonic bass only begins the bar; narration no longer implies it lasts the entire measure.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json: continuous_road lead and bass bar40"
+    },
+    {
+      "id": "mt-041-c037",
+      "anchor": "Steve Reich, in his 1968 essay *Music as a Gradual Process*, describes musical processes that determine the sound-to-sound details and overall form together",
+      "source_ids": [
+        "mt-041-reich-essay-copy",
+        "mt-041-reich-process"
+      ],
+      "evidence_detail": "Primary essay printed p9 explicitly contrasts compositional process with pieces that are literally processes.",
+      "provenance": "source_backed",
+      "source_locator": "Reich 1968, Music as a Gradual Process p9; OUP 2004 pp34-36"
+    },
+    {
+      "id": "mt-041-c038",
+      "anchor": "Our third study is not that.",
+      "source_ids": [
+        "mt-041-reich-essay-copy"
+      ],
+      "evidence_detail": "This original score uses chosen transformations/sectional interventions; does not result solely from one autonomous audible process.",
+      "provenance": "editorial_inference",
+      "source_locator": "examples/comparing-forms-041000.json: continuous_road formal_map and events"
+    },
+    {
+      "id": "mt-041-c039",
+      "anchor": "Jack Boss's survey of the concept stresses that analysts have disagreed about its definition.",
+      "source_ids": [
+        "mt-041-boss-variation"
+      ],
+      "evidence_detail": "2025 publisher chapter abstract contrasts three analytic accounts of developing variation.",
+      "provenance": "source_backed",
+      "source_locator": "Boss 2025 publisher abstract, introduction to chapter18"
+    },
+    {
+      "id": "mt-041-c040",
+      "anchor": "In the score, no complete eight-bar lead window is duplicated elsewhere.",
+      "source_ids": [
+        "mt-041-boss-variation"
+      ],
+      "evidence_detail": "Exact time-relative event signatures for all 33 consecutive 8-bar lead spans are pairwise distinct; not evidence of listener-perceived uniqueness.",
+      "provenance": "original_example",
+      "source_locator": "examples/render_comparing_forms_041000.py: validate, continuous_road windows"
+    },
+    {
+      "id": "mt-041-c041",
+      "anchor": "All three works share the same opening four notes, length, meter, and basic synthesizer setup.",
+      "source_ids": [
+        "mt-041-caplin-function"
+      ],
+      "evidence_detail": "All three piece JSONs have shared lead bar1, 40bars, 100bpm, same voice configurations.",
+      "provenance": "original_example",
+      "source_locator": "examples/render_comparing_forms_041000.py: validate, controls"
+    },
+    {
+      "id": "mt-041-c042",
+      "anchor": "The distinction is not between repetitive and non-repetitive music.",
+      "source_ids": [
+        "mt-041-margulis-repeat"
+      ],
+      "evidence_detail": "Narration synthesis: all three involve lower-level recurrence; not a literature claim that all music must repeat.",
+      "provenance": "editorial_inference",
+      "source_locator": "examples/comparing-forms-041000.json: all pieces"
+    },
+    {
+      "id": "mt-041-c043",
+      "anchor": "A diagram of sections is not the same thing as a piece's experienced temporal function.",
+      "source_ids": [
+        "mt-041-caplin-function"
+      ],
+      "evidence_detail": "Caplin distinguishes alpha-label scheme from form-functional interpretation in discussion of Mozart Rondo.",
+      "provenance": "supported_interpretation",
+      "source_locator": "Caplin, Formal Function versus Thematic Content pp2-4"
+    },
+    {
+      "id": "mt-041-c044",
+      "anchor": "A model can be told to use call-and-response, or to avoid it.",
+      "source_ids": [
+        "mt-041-caplin-function"
+      ],
+      "evidence_detail": "Discussion of promptable formal heuristics; no empirical claim about prevalence in current models or agent behavior.",
+      "provenance": "editorial_inference",
+      "source_locator": "lecture-authored synthesis; form-functions background Caplin 1998"
+    },
+    {
+      "id": "mt-041-c045",
+      "anchor": "fixed synthesizer gains do not guarantee equal loudness",
+      "source_ids": [
+        "mt-041-margulis-repeat"
+      ],
+      "evidence_detail": "Different density/durations produce different amplitude trajectories with same gain; not a study claiming measured perceptual loudness.",
+      "provenance": "original_derivation",
+      "source_locator": "examples/comparing-forms-041000.json source gains and differing voice events"
+    },
+    {
+      "id": "mt-041-c046",
+      "anchor": "The companion renderer can randomize the filenames and write a separate answer key",
+      "source_ids": [
+        "mt-041-ardour-stems"
+      ],
+      "evidence_detail": "CLI --anonymous shuffles names deterministically and writes answer_key.json. No double-blind claim.",
+      "provenance": "original_example",
+      "source_locator": "examples/render_comparing_forms_041000.py: main args and key generation"
+    },
+    {
+      "id": "mt-041-c047",
+      "anchor": "Our score validator checks literal events and the structure described here.",
+      "source_ids": [
+        "mt-041-caplin-function"
+      ],
+      "evidence_detail": "--check verifies typed event ranges and essential formal invariants, not perception.",
+      "provenance": "original_example",
+      "source_locator": "examples/render_comparing_forms_041000.py: validate"
+    },
+    {
+      "id": "mt-041-c048",
+      "anchor": "All three works are original exercises using schematic waveforms.",
+      "source_ids": [
+        "mt-041-ardour-stems"
+      ],
+      "evidence_detail": "Three original JSON scores rendered with pack standard-library oscillator; no sampled instruments or copyrighted scores.",
+      "provenance": "original_example",
+      "source_locator": "examples/comparing-forms-041000.json and render_comparing_forms_041000.py"
+    }
+  ],
+  "original_source_artifacts": [
+    "examples/comparing-forms-041000.json",
+    "examples/render_comparing_forms_041000.py"
+  ],
+  "evidence_scope_note": "Mechanical anchoring validates exact passages, URLs and score invariants, not historical authenticity or perceptual preferences. Sources with publisher_abstract_only access are explicitly marked."
+}

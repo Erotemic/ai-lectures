@@ -1386,6 +1386,90 @@
       "access": "free_no_login",
       "format": "html",
       "notes": "Documents plugin processor, `load_state`, `save_state`, render interactions and per-plugin headless limitations; source for reproducibility cautions."
+    },
+    "mt-041-gotham-ground": {
+      "title": "Mark Gotham, Ground Bass, Open Music Theory 2e, chapter 31 (2023)",
+      "kind": "open_textbook",
+      "url": "https://pressbooks.nebraska.edu/openmusictheory/chapter/ground-bass/",
+      "access": "full_open_text",
+      "notes": "Key Takeaways; Ostinato/Ground Bass/Chaconne distinction; Multiple Harmonizations; Purcell case. Does not establish properties of lecture-original scores."
+    },
+    "mt-041-caplin-rondo": {
+      "title": "William E. Caplin, Classical Form, chapter 16: Rondo Forms, pp. 231-241 (1998)",
+      "kind": "scholarly_book_chapter",
+      "url": "https://academic.oup.com/book/49159/chapter-abstract/422032840",
+      "access": "publisher_abstract_only",
+      "notes": "ABACA as one Classical rondo type, contrasting refrain/couplets; full chapter not inspected."
+    },
+    "mt-041-open-rondo": {
+      "title": "Open Music Theory, Rondo (teaching chapter)",
+      "kind": "open_textbook",
+      "url": "https://openmusictheory.github.io/rondo.html",
+      "access": "full_open_text",
+      "notes": "Refrains, contrasting episodes, common ABACA design, variation and tonal context in Classical repertory. Historical scope; not a universal structural prescription."
+    },
+    "mt-041-open-rondo-five": {
+      "title": "Open Music Theory, Five-Part Rondo Form (teaching chapter)",
+      "kind": "open_textbook",
+      "url": "https://openmusictheory.github.io/fivePartRondo.html",
+      "access": "full_open_text",
+      "notes": "Five-part A-B-A-C-A layout and possible ornamented/abbreviated returns."
+    },
+    "mt-041-caplin-function": {
+      "title": "William E. Caplin, Formal Function versus Thematic Content: Mozart's Rondo in D, K.485",
+      "kind": "author_chapter",
+      "url": "https://williamcaplin.com/download/thematic-content-vs-formal-function.pdf",
+      "access": "full_author_hosted_pdf",
+      "notes": "Author-hosted chapter pp.1-4: recurring thematic content and formal functions are not equivalent; describes Caplin's own theoretical position, not a consensus theorem."
+    },
+    "mt-041-margulis-repeat": {
+      "title": "Elizabeth Hellmuth Margulis, Repetition, Oxford Handbook of Critical Concepts in Music Theory, pp.187-206 (2018)",
+      "kind": "scholarly_chapter",
+      "url": "https://academic.oup.com/edited-volume/43665/chapter-abstract/366144257",
+      "access": "publisher_abstract_only",
+      "notes": "Abstract distinguishes acoustic, notated and perceived repetition, and perceptual roles; not evidence our examples work for particular listeners."
+    },
+    "mt-041-margulis-attention": {
+      "title": "Elizabeth Hellmuth Margulis, Attention, Temporality, and Music that Repeats Itself, On Repeat ch.3 pp.55-74 (2013)",
+      "kind": "scholarly_book_chapter",
+      "url": "https://academic.oup.com/book/9924/chapter-abstract/157252036",
+      "access": "publisher_abstract_only",
+      "notes": "Abstract supports repeated material as organizing attention in time; no observed listener trials for the classroom pieces."
+    },
+    "mt-041-reich-process": {
+      "title": "Steve Reich, Music as a Gradual Process (1968), Writings on Music 1965-2000 pp.34-36 (2004)",
+      "kind": "composer_primary_essay",
+      "url": "https://academic.oup.com/book/27047/chapter-abstract/196341890",
+      "access": "publisher_description",
+      "notes": "Publisher confirms essay attribution and original date. Text itself also inspected from university-hosted teaching scan."
+    },
+    "mt-041-reich-essay-copy": {
+      "title": "Steve Reich, Music as a Gradual Process (1968), university-hosted teaching scan, Writings about Music pp.9-11",
+      "kind": "composer_primary_essay",
+      "url": "https://people.ucsc.edu/~dej/migrated/Ewha%20Materials/RHYTHM/Reich.Writings.pdf",
+      "access": "teaching_scan_full_text",
+      "notes": "Printed pp.9-11 explicit distinction between compositional procedures and perceptible musical processes; this lecture does not claim its through-development example is Reich-style process music."
+    },
+    "mt-041-boss-variation": {
+      "title": "Jack Boss, What Is Developing Variation?, Oxford Handbook of Musical Variation, pp.499-528 (2025)",
+      "kind": "scholarly_chapter",
+      "url": "https://academic.oup.com/edited-volume/61382/chapter-abstract/533161965",
+      "access": "publisher_abstract_only",
+      "notes": "Abstract identifies scholarly disagreement on the theoretical definition of developing variation. Do not overextend to score classification."
+    },
+    "mt-041-cuny-form": {
+      "title": "Understanding Music (BMCC/CUNY), glossary definition: Through-Composed",
+      "kind": "open_textbook_glossary",
+      "url": "https://pressbooks.cuny.edu/understandingmusicbmcc/back-matter/appendix/",
+      "access": "full_open_glossary",
+      "notes": "Defines through-composed in terms of composing new music for successive stanzas or sections without repeating, useful historical context."
+    },
+    "mt-041-ardour-stems": {
+      "title": "Ardour Manual, Stem Exports",
+      "kind": "official_software_manual",
+      "url": "https://manual.ardour.org/working-with-sessions/interchange-with-other-daws/stem-exports/",
+      "access": "full_open_text",
+      "notes": "Synchronized track exports and processor-application option; does not describe or validate this Python score renderer."
     }
   }
 }
