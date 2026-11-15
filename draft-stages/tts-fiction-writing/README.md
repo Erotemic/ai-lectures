@@ -1,6 +1,6 @@
 # Fiction Writing and Worldbuilding
 
-**Current collection:** 15 substantive, independently understandable audio-first manuscripts, including an eight-lecture unit on late-twentieth- and early-twenty-first-century fiction approaches.
+**Current collection:** 16 substantive, independently understandable audio-first manuscripts, including an overview and eight focused lectures on twentieth- and twenty-first-century fiction approaches.
 
 ## Completed lectures
 
@@ -12,10 +12,11 @@
 - 006000: [The First Paragraph and the Promise to a Reader](006000-first-paragraph-and-reader-promise.md) (2,797 spoken words; approximately 19.3 minutes at 145 words per minute).
 - 007000: [Conflict Without Cartoon Villains](007000-conflict-without-cartoon-villains.md) (2,922 spoken words; approximately 20.2 minutes at 145 words per minute).
 
-## Contemporary schools and approaches to fiction (008000–015000)
+## Contemporary schools and approaches to fiction (007500–015000)
 
-These lectures separate pedagogical traditions, aesthetics, critical frameworks, and media-specific techniques. They do not treat a movement's marketing claims as universal laws of storytelling. Each uses an original worked example and discusses limitations as well as contributions.
+The overview maps the history and competing assumptions; the eight specialized lectures then separate pedagogical traditions, aesthetics, critical frameworks, and media-specific techniques. They do not treat a movement's marketing claims as universal laws of storytelling. Each uses an original worked example and discusses limitations as well as contributions.
 
+- 007500: [A Map of Modern Fiction: Schools, Arguments, and Choices](007500-a-map-of-modern-fiction-schools.md) (3,068 spoken words; approximately 21.2 minutes at 145 words per minute).
 - 008000: [The Workshop Aesthetic and Its Critics](008000-workshop-aesthetic-and-its-critics.md) (1,767 spoken words; approximately 12.2 minutes at 145 words per minute).
 - 009000: [Minimalism, Maximalism, and the Scale of Attention](009000-minimalism-maximalism-and-the-scale-of-attention.md) (1,657 spoken words; approximately 11.4 minutes at 145 words per minute).
 - 010000: [Postmodernism, Metafiction, and Constraint](010000-postmodern-metafiction-and-constraint.md) (1,581 spoken words; approximately 10.9 minutes at 145 words per minute).

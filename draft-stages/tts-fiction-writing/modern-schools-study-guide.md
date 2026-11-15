@@ -1,6 +1,10 @@
 # Modern Schools and Approaches to Writing Fiction
 
-This is an orientation guide for the eight-lecture `008000`–`015000` unit. It covers debates active in late-twentieth- and early-twenty-first-century fiction and fiction teaching. They are **not** eight denominations of one settled doctrine. Some are institutions, some are approaches to text, some are genres or critical traditions, and one concerns the design of the reading medium itself.
+This is an orientation guide for the nine-lecture `007500`–`015000` unit (one overview plus eight dedicated studies). It covers debates active in late-twentieth- and early-twenty-first-century fiction and fiction teaching. They are **not** eight denominations of one settled doctrine. Some are institutions, some are approaches to text, some are genres or critical traditions, and one concerns the design of the reading medium itself.
+
+## Start here: historical orientation
+
+Listen to **007500: A Map of Modern Fiction: Schools, Arguments, and Choices** before the eight specialist lectures. It introduces modernism as an early-twentieth-century precursor, distinguishes school labels by kind, and uses one town-and-bell-tower premise to compare what each approach foregrounds. Its central diagnostic questions are reality, significance, narrative authority, reader contract, and revision evidence.
 
 ## What kind of category is each one?
 
