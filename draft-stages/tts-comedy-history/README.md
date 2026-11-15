@@ -1,6 +1,6 @@
 # Comedy: Theory, History, and Craft
 
-**Current collection:** 22 substantive, standalone audio-first manuscripts, including an extended modern theory sequence.
+**Current collection:** 26 substantive, standalone audio-first manuscripts, including an extended modern theory sequence.
 
 ## Completed lectures
 
@@ -11,9 +11,9 @@
 - 005000: [Rakugo and Manzai: One Voice, Two Voices, and the Comic City](005000-rakugo-and-manzai.md) (2,689 spoken words; approximately 18.5 minutes at 145 words per minute).
 - 006000: [China and Comic Speech: Xiangsheng, Language, and Public Life](006000-china-and-comic-speech.md) (2,930 spoken words; approximately 20.2 minutes at 145 words per minute).
 
-## Modern schools of thought (extended introduction plus eleven specialized lectures)
+## Modern schools of thought (extended introduction plus nineteen specialized lectures)
 
-The seven specialized lectures retain IDs `031000`–`037000`: the historical/craft curriculum reserves `007000`–`030000`. The extended orientation uses `030500`, after the reserved sequence and before the specialized work. It is separately listenable and does not imply the historical proposals are complete.
+The initial seven specialized lectures retain IDs `031000`–`037000`: the historical/craft curriculum reserves `007000`–`030000`. The extended orientation uses `030500`, after the reserved sequence and before the specialized work. It is separately listenable and does not imply the historical proposals are complete.
 
 - 030500: [A Field Guide to Modern Comedy: Seven Schools, One Joke, and No Master Formula](030500-a-field-guide-to-modern-comedy-theories.md) (6,785 spoken words; approximately 46.8 minutes).
 - 031000: [Jokes as Linguistic Systems: Raskin, Attardo, and the Architecture of an Interpretation](031000-jokes-as-linguistic-systems.md) (2,021 spoken words).
@@ -47,9 +47,21 @@ These four completed modern-school lectures focus on performance practice, scrip
 
 The spoken examples are all invented. Documented professional lineages are anchored to publisher and institution records plus contemporary research on improvisational emergence.
 
+
+## Stand-up, persona, embodied comedy and sitcom craft (046000–049000)
+
+These four lectures broaden the modern schools sequence from improvisation to direct-address stand-up, the performed self, movement-based theatre, and television genre practice. The scenes are original examples, and the scholarship is attributed in each lecture's text-only sidecar. Spoken word counts and listening estimates describe existing manuscripts only; no length policy applies.
+
+- 046000: [The Stand-Up Argument: Premise, Persona, and the Conversation with a Room](046000-the-standup-argument.md) (2,294 spoken words).
+- 047000: [The Comic Self: Persona, Confession, and the Problem of Truth on Stage](047000-comic-persona-confession-and-truth.md) (2,368 spoken words).
+- 048000: [The Body Gives Away the Joke: Lecoq, Clown, and the Art of Visible Failure](048000-lecoq-clown-bouffon-and-the-body.md) (2,285 spoken words).
+- 049000: [A Situation That Keeps Producing Trouble: Sitcom, Comic Engines, and Writers' Rooms](049000-the-sitcom-comic-engine.md) (2,591 spoken words).
+
+Comparisons among lineages are tools for understanding their different artistic questions, not claims that their teachers empirically established universal methods for making audiences laugh.
+
 ## Planned continuation
 
-The historical deep dives 003000–006000 are complete. The remaining proposed historical episodes are 007000–030000; the modern theory sequence now runs through 045000.
+The historical deep dives 003000–006000 are complete. The remaining proposed historical episodes are 007000–030000; the modern theory sequence now runs through 049000.
 
 The full staged curriculum is in [`docs/planning/comedy-theory-history-curriculum.md`](../../docs/planning/comedy-theory-history-curriculum.md). Titles not listed under completed lectures remain proposals.
 

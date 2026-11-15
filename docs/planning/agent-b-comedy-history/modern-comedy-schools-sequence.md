@@ -2,8 +2,8 @@
 
 **Agent:** B (exclusive track owner)  
 **Scope:** `draft-stages/tts-comedy-history/**` and this agent's planning namespace  
-**Status:** An extended `030500` orientation plus fifteen completed modern audio-first lectures, IDs `031000`–`045000`, based on the prior six-lecture comedy track.  
-**Baseline requirement:** Apply the previous Agent B overlay `003000`–`006000` first; the previous two Agent B modern-school overlays (031000–037000 and 030500) must also be applied before this overlay. The current manifest lists all 22 manuscripts.
+**Status:** An extended `030500` orientation plus nineteen completed modern audio-first lectures, IDs `031000`–`049000`, based on the prior six-lecture comedy track.  
+**Baseline requirement:** Apply the previous Agent B overlay `003000`–`006000` first; the previous two Agent B modern-school overlays (031000–037000 and 030500) must also be applied before this overlay. The current manifest lists all 26 manuscripts.
 
 ## Why a separate high-number sequence?
 
@@ -78,3 +78,16 @@ Each recording stands alone, includes a recurring, original example, traces its 
 ## Editorial length rule
 
 There is no target duration, minimum length, maximum length, or soft target. Each topic determines the amount of explanation, evidence, comparison, and worked practice it needs. Displayed spoken-word counts and minute estimates describe the finished manuscript; they are not rules. Future lectures should be expanded or shortened only to improve substance and pacing.
+
+## Stand-up and screen-comedy methods: delivered 046000–049000
+
+| ID | Distinct theoretical problem | Sources, interpretive limits, and craft example |
+| --- | --- | --- |
+| 046000 | What makes stand-up an address to a room rather than a written sequence of jokes? | Double on craft and audience; Brodie on interpersonal, folkloristic performance; original Department of Apologies. |
+| 047000 | Why is the comedic first person at once autobiographical and constructed? | Brodie on performed self; Gilbert on gendered self-deprecation; Krefting on charged humor; original family historian. |
+| 048000 | What can clown, bouffon, and physical dramaturgy explain that verbal humor analysis misses? | Lecoq's book, school pedagogy and embodied-performance scholarship; original sign-guard scene; respects non-equivalence of clown and bouffon and the risks of ridicule. |
+| 049000 | How does a recurring character system create comedy across television episodes? | Mills on genre, broadcast institutions and qualitative study of production; original elevator committee; workshop terms clearly distinguished from scholar's attributed claims. |
+
+These **four completed manuscripts** have standalone spoken sections, original worked examples, source bibliographies, claim-anchored sidecars, and a refreshed complete track index. They do not modify shared reader code or another agent's course. All references to durations in existing historical manuscripts are measurements only; the editorial policy imposes no length quota.
+
+**Application prerequisite:** The four earlier comedy batches through `045000` must already be present. Apply this ZIP after them; it updates the track-local complete manifest, track-local bibliography, and track-local README, and adds only Agent B's manuscripts and metadata.
