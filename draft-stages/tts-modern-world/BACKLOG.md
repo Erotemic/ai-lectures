@@ -1,6 +1,6 @@
 # Agent B — The Making of the Modern World: next topics and evidence gaps
 
-The completed, indexed sequence currently runs through **026000**. The modern-world pack is exclusive to Agent B. Use `tools/content_overlay.py` for ordinary text ZIP handoffs and the content importer rather than raw extraction. Lecture length is determined only by educational substance.
+The completed, indexed sequence currently runs through **038000**. The modern-world pack is exclusive to Agent B. Use `tools/content_overlay.py` for ordinary text ZIP handoffs and the content importer rather than raw extraction. Lecture length is determined only by educational substance.
 
 ## Newly completed and indexed (023000–026000)
 
@@ -66,3 +66,19 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - For **033000**, seek locally authored accounts of the Gold Coast cocoa hold-up, full Madras debt research, and non-English sources on Japanese employment and social consequences. The colonial report and economic models must not be mistaken for entire lived experiences.
 - For **034000**, strengthen Soviet famine coverage with regional survivor histories and Ukrainian, Kazakh and other national archives. The Kulchytsky publisher description and Naumenko abstract establish the authors' published positions, not a full primary-source audit. Study Chinese civilian records of Japanese occupation in addition to diplomatic histories.
 - **Editorial rule:** attribution, original scholars' names, direct links, source passages, evidentiary limits, and contested interpretations remain explicit. No fixed duration target, quotas or mechanical narrative requirements.
+
+## Completed Second World War section (035000–038000)
+
+- **035000:** The War Was Already Here: China and the Long East Asian Conflict. Manchuria, the 1937 invasion, the Nanjing Massacre, civilian displacement, Chinese resistance, and the politics of wartime remembrance.
+- **036000:** Conquest on Several Continents: How a War Became Global. Invasion and occupation in Europe, the Eastern Front, Asia-Pacific escalation, imperial forces, logistics, and the different meanings of victory.
+- **037000:** The Machinery of Genocide: Persecution, Murder, and the Holocaust. Genocide of European Jews, mobile killing, Wannsee, killing centers, Roma, the murder of disabled people, and the preservation of Jewish testimony.
+- **038000:** Who Paid for the War? Empire, Forced Labor, and Civilian Survival. British India and military service, the Bengal famine, forced Asian labor, prisoner-of-war camps, Japanese American incarceration, and uneven freedom.
+
+## Forward planning, not indexed
+
+- **039000:** Japan’s defeat and the end of the Pacific war: atomic bombing of Hiroshima and Nagasaki, Soviet entry, competing arguments about surrender, and moral questions in the evidence. Distinguish what witnesses and governments could know at the time from later counterfactual debates.
+- **040000:** Refugees, population transfers, displaced persons and the lived problem of reconstruction after 1945; partition, border changes, rationing and access to property.
+- **041000:** Wartime demands for self-government, Indonesia’s and India’s independence struggles, and the tensions between anti-imperial principles and violent state-building.
+- **042000:** United Nations institutions, early human-rights frameworks, the new international economic order and their limitations. Exact subject boundaries to follow research.
+
+**Further evidence work:** Seek Chinese-authored primary materials on Nanjing and everyday occupation; survivor-centered Jewish and Roma archives; Indian-language voices on the Bengal famine and colonial military service; and Asian rōmusha survivor histories. Yale’s missionary archive is explicitly not a complete Chinese record; published retrospective estimates are not precise censuses. Review the full Janam Mukherjee and Amartya Sen chapters and regional primary documents before making more specific individual or causal claims. Source provenance and named scholarly ideas take precedence over writing a seamless narrative where evidence remains partial. No time or word-count constraint applies.

@@ -79,3 +79,12 @@ All four lectures separate narrated prose from display-only paragraph citation l
 - **034000 — [Who Can Order a Society? Dictatorship, Planning, and Democratic Reform](034000-who-can-order-a-society.md).** Italian Fascism, Nazi dictatorship, Soviet collectivization and famine, Japanese expansion, and competing democratic, labor, and agrarian reforms.
 
 Each manuscript pairs an independently speakable lecture with display-only source records mapped paragraph by paragraph. Direct source links, author attribution, locators, review scope, and limits are recorded in sidecars and in the texts. No duration rule is used.
+
+## The Second World War across connected societies (035000–038000)
+
+- **035000 — [The War Was Already Here: China and the Long East Asian Conflict](035000-the-war-was-already-here.md).** Manchuria, the 1937 invasion, the Nanjing Massacre, civilian displacement, Chinese resistance, and the politics of wartime remembrance.
+- **036000 — [Conquest on Several Continents: How a War Became Global](036000-conquest-on-several-continents.md).** Invasion and occupation in Europe, the Eastern Front, Asia-Pacific escalation, imperial forces, logistics, and the different meanings of victory.
+- **037000 — [The Machinery of Genocide: Persecution, Murder, and the Holocaust](037000-the-machinery-of-genocide.md).** Genocide of European Jews, mobile killing, Wannsee, killing centers, Roma, the murder of disabled people, and the preservation of Jewish testimony.
+- **038000 — [Who Paid for the War? Empire, Forced Labor, and Civilian Survival](038000-who-paid-for-the-war.md).** British India and military service, the Bengal famine, forced Asian labor, prisoner-of-war camps, Japanese American incarceration, and uneven freedom.
+
+Each spoken paragraph has a separate evidence record and direct source links, with accurate access scope and limitations. Named scholars and institutions are credited. No duration or word-count target is imposed.
