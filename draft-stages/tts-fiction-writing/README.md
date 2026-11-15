@@ -1,6 +1,6 @@
 # Fiction Writing and Worldbuilding
 
-**Current collection:** 20 substantive, independently understandable audio-first manuscripts, including an overview, eight focused contemporary-approaches lectures, and four historical deep dives.
+**Current collection:** 24 substantive, independently understandable audio-first manuscripts, including an overview, eight focused contemporary-approaches lectures, four historical deep dives, and four author-centered arguments.
 
 ## Completed lectures
 
@@ -36,6 +36,15 @@ These are standalone deeper studies building on the overview. They distinguish t
 - 017000: [The Latin American Boom: Many Realisms, Many Histories](017000-latin-american-boom-and-many-realisms.md) (1,974 spoken words; approximately 13.6 minutes at 145 words per minute).
 - 018000: [Writing Back: Postcolonial Fiction, Language, and Narrative Authority](018000-postcolonial-writing-back-and-language.md) (2,179 spoken words; approximately 15.0 minutes at 145 words per minute).
 - 019000: [Who Teaches a Novel to Be a Novel? Publishing, Genre, and Literary Taste](019000-publishing-systems-and-literary-taste.md) (2,408 spoken words; approximately 16.6 minutes at 145 words per minute).
+
+## Writers in argument: ethics, form, and attention (020000–023000)
+
+These standalone lectures compare different questions about fiction. All use variations on a fictional threatened bathhouse to make the disagreements tangible. Their original examples are not quotations or biographical events.
+
+- 020000: [Ursula K. Le Guin: The Carrier Bag and the Story Beyond the Hero](020000-le-guin-carrier-bag-and-beyond-the-hero.md)
+- 021000: [John Gardner: Moral Fiction, the Continuous Dream, and the Reader's Freedom](021000-gardner-moral-fiction-and-the-dream.md)
+- 022000: [John Barth: Exhaustion, Replenishment, and the Pleasure of the Made-Up Story](022000-barth-exhaustion-replenishment-and-metafiction.md)
+- 023000: [George Saunders: The Reader's Mind, the Sentence, and Revision as Discovery](023000-saunders-reader-attention-and-revision.md)
 
 ## Planned continuation
 
