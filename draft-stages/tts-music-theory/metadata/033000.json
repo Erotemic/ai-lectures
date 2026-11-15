@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "lecture_id": "033000",
+  "transcript": "033000-training-the-musical-ear.md",
+  "related_resources": [
+    {
+      "source_id": "mt-krumhansl-pitch",
+      "reason": "Pitch-function perception, memory and musical context; Krumhansl monograph introduction; publisher description only."
+    },
+    {
+      "source_id": "mt-levitin-rogers-ap",
+      "reason": "Distinguishes absolute-pitch categorization and other stable pitch memories; PubMed abstract."
+    },
+    {
+      "source_id": "mt-omt-ear-training",
+      "reason": "Named authors credit for contour/dot-grid/solmization pedagogy; Open Music Theory dictation strategies."
+    },
+    {
+      "source_id": "mt-dawdreamer-user-guide",
+      "reason": "Documented offline rendering processor graph; original lab remains separate."
+    },
+    {
+      "source_id": "mt-ardour-region-menu",
+      "reason": "Official looping and region audition functionality, not evidence for hearing outcomes."
+    },
+    {
+      "source_id": "mt-unsw-acoustics-faq",
+      "reason": "Provides octave and equal-tempered frequency relations for original A4-to-A5 arithmetic illustration."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "Carol Krumhansl's research program",
+      "source_ids": [
+        "mt-krumhansl-pitch"
+      ],
+      "evidence_detail": "Oxford book description / framework: pitch perception organized by contextual functions; no claim of a particular training effect.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "absolute pitch, distinguish the specialized ability",
+      "source_ids": [
+        "mt-levitin-rogers-ap"
+      ],
+      "evidence_detail": "Levitin & Rogers, 2005 abstract distinguishes rare absolute-pitch labeling from stable memory for pitch.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "stable pitch memory that does not amount to absolute-pitch naming",
+      "source_ids": [
+        "mt-levitin-rogers-ap"
+      ],
+      "evidence_detail": "Review abstract specifically cautions against equating all pitch memories with absolute-pitch categories.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "an A at four hundred forty hertz and an A at eight hundred eighty hertz",
+      "source_ids": [
+        "mt-unsw-acoustics-faq"
+      ],
+      "evidence_detail": "2:1 octave; straightforward authored numerical calculation using equal-tempered pitch conventions, NOT an acoustic experiment.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "Samuel Brady, Chelsey Hamm, and Kris Shaffer describe sight-singing",
+      "source_ids": [
+        "mt-omt-ear-training"
+      ],
+      "evidence_detail": "Open Music Theory chapter authors and topic.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "dot grids, contour lines, slash notation, and solmization",
+      "source_ids": [
+        "mt-omt-ear-training"
+      ],
+      "evidence_detail": "Open Music Theory chapter Key Takeaways and dictation strategies.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "an original two-note question",
+      "source_ids": [
+        "mt-omt-ear-training"
+      ],
+      "evidence_detail": "Original exercise design inspired by dictation vocabulary, not reproduced from the book.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "A C-major triad in equal temperament might be C, E, and G",
+      "source_ids": [
+        "mt-omt-ear-training"
+      ],
+      "evidence_detail": "Original musical demonstration under a named Western pitch system, not a result in a pedagogy study.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "You should obtain up, up, down",
+      "source_ids": [
+        "mt-omt-ear-training"
+      ],
+      "evidence_detail": "Computed contour of the authored E–G–A–G four-note example.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "Render the original examples from the companion's note-event definitions",
+      "source_ids": [
+        "mt-dawdreamer-user-guide"
+      ],
+      "evidence_detail": "Proposed programmatic exercise; the linked guide documents rendering capability, not the proposed lesson.",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "In Ardour, import the anonymous exercise files",
+      "source_ids": [
+        "mt-ardour-region-menu"
+      ],
+      "evidence_detail": "Original procedure; official manual documents region/loop operations but not learning outcomes.",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "Do not turn the whole experience into one score",
+      "source_ids": [
+        "mt-omt-ear-training"
+      ],
+      "evidence_detail": "Pedagogical recommendation of this lecture; not a published measured effect.",
+      "provenance": "editorial_inference"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Claim anchors are exact spoken substrings. A source ID and locator report what a source does and does not establish. Original calculations/scores remain author-derived, not misattributed primary findings. The URL/anchor validator cannot independently prove support."
+}

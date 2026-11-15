@@ -1,0 +1,1383 @@
+{
+  "schema_version": 1,
+  "scope": "Original musical teaching examples for lectures 033000-036000; no existing copyrighted composition is reproduced.",
+  "pitch_system": "12-tone equal temperament with A4=440 Hz unless frequency_hz explicitly overrides",
+  "beat_time": "absolute nonnegative quarter-note beats (0-based), not seconds",
+  "duration": "strictly positive beats",
+  "renderings": [
+    {
+      "id": "ear_7semis",
+      "group": "033-interval",
+      "bars": 1,
+      "tempo_bpm": 80,
+      "beats_per_bar": 4,
+      "description": "A4 to E5: 7 equal-tempered semitones",
+      "voices": [
+        {
+          "name": "melody",
+          "waveform": "sine",
+          "gain": 0.18,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 2,
+              "dur": 1,
+              "pitch": "E5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ear_8semis",
+      "group": "033-interval",
+      "bars": 1,
+      "tempo_bpm": 80,
+      "beats_per_bar": 4,
+      "description": "A4 to F5: 8 equal-tempered semitones",
+      "voices": [
+        {
+          "name": "melody",
+          "waveform": "sine",
+          "gain": 0.18,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 2,
+              "dur": 1,
+              "pitch": "F5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ear_octave",
+      "group": "033-interval",
+      "bars": 1,
+      "tempo_bpm": 80,
+      "beats_per_bar": 4,
+      "description": "A4 to A5: a doubled frequency",
+      "voices": [
+        {
+          "name": "melody",
+          "waveform": "sine",
+          "gain": 0.18,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 2,
+              "dur": 1,
+              "pitch": "A5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ear_triad_major",
+      "group": "033-triad",
+      "bars": 1,
+      "tempo_bpm": 80,
+      "beats_per_bar": 4,
+      "description": "C-major triad",
+      "voices": [
+        {
+          "name": "triad",
+          "waveform": "harmonic",
+          "gain": 0.11,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": "C4"
+            },
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": "E4"
+            },
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": "G4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ear_triad_minor",
+      "group": "033-triad",
+      "bars": 1,
+      "tempo_bpm": 80,
+      "beats_per_bar": 4,
+      "description": "C-minor triad",
+      "voices": [
+        {
+          "name": "triad",
+          "waveform": "harmonic",
+          "gain": 0.11,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": "C4"
+            },
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": "Eb4"
+            },
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": "G4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tuning_5to4",
+      "group": "034-tuning",
+      "bars": 1,
+      "tempo_bpm": 68,
+      "beats_per_bar": 4,
+      "description": "Pure major third, 400 and 500 Hz (5:4)",
+      "voices": [
+        {
+          "name": "harmonic_pair",
+          "waveform": "harmonic",
+          "gain": 0.16,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": null,
+              "frequency_hz": 400
+            },
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": null,
+              "frequency_hz": 500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tuning_12tet",
+      "group": "034-tuning",
+      "bars": 1,
+      "tempo_bpm": 68,
+      "beats_per_bar": 4,
+      "description": "Equal-tempered major third, 400 Hz and 400*2**(4/12) Hz",
+      "voices": [
+        {
+          "name": "harmonic_pair",
+          "waveform": "harmonic",
+          "gain": 0.16,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": null,
+              "frequency_hz": 400
+            },
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": null,
+              "frequency_hz": 503.968419958
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "counterpoint_cantus",
+      "group": "035-species",
+      "bars": 8,
+      "tempo_bpm": 120,
+      "beats_per_bar": 4,
+      "description": "Original lower one-note-per-bar line",
+      "voices": [
+        {
+          "name": "cantus",
+          "waveform": "harmonic",
+          "gain": 0.15,
+          "pan": -0.35,
+          "events": [
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": "C4"
+            },
+            {
+              "at": 4,
+              "dur": 4,
+              "pitch": "D4"
+            },
+            {
+              "at": 8,
+              "dur": 4,
+              "pitch": "E4"
+            },
+            {
+              "at": 12,
+              "dur": 4,
+              "pitch": "F4"
+            },
+            {
+              "at": 16,
+              "dur": 4,
+              "pitch": "G4"
+            },
+            {
+              "at": 20,
+              "dur": 4,
+              "pitch": "F4"
+            },
+            {
+              "at": 24,
+              "dur": 4,
+              "pitch": "D4"
+            },
+            {
+              "at": 28,
+              "dur": 4,
+              "pitch": "C4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "counterpoint_upper",
+      "group": "035-species",
+      "bars": 8,
+      "tempo_bpm": 120,
+      "beats_per_bar": 4,
+      "description": "Original upper one-note-per-bar line",
+      "voices": [
+        {
+          "name": "counterpoint",
+          "waveform": "harmonic",
+          "gain": 0.15,
+          "pan": 0.35,
+          "events": [
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": "G4"
+            },
+            {
+              "at": 4,
+              "dur": 4,
+              "pitch": "F4"
+            },
+            {
+              "at": 8,
+              "dur": 4,
+              "pitch": "G4"
+            },
+            {
+              "at": 12,
+              "dur": 4,
+              "pitch": "A4"
+            },
+            {
+              "at": 16,
+              "dur": 4,
+              "pitch": "B4"
+            },
+            {
+              "at": 20,
+              "dur": 4,
+              "pitch": "A4"
+            },
+            {
+              "at": 24,
+              "dur": 4,
+              "pitch": "B4"
+            },
+            {
+              "at": 28,
+              "dur": 4,
+              "pitch": "C5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "counterpoint_duet",
+      "group": "035-species",
+      "bars": 8,
+      "tempo_bpm": 120,
+      "beats_per_bar": 4,
+      "description": "Two voices combined, consonances as specified in lecture",
+      "voices": [
+        {
+          "name": "cantus",
+          "waveform": "harmonic",
+          "gain": 0.15,
+          "pan": -0.35,
+          "events": [
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": "C4"
+            },
+            {
+              "at": 4,
+              "dur": 4,
+              "pitch": "D4"
+            },
+            {
+              "at": 8,
+              "dur": 4,
+              "pitch": "E4"
+            },
+            {
+              "at": 12,
+              "dur": 4,
+              "pitch": "F4"
+            },
+            {
+              "at": 16,
+              "dur": 4,
+              "pitch": "G4"
+            },
+            {
+              "at": 20,
+              "dur": 4,
+              "pitch": "F4"
+            },
+            {
+              "at": 24,
+              "dur": 4,
+              "pitch": "D4"
+            },
+            {
+              "at": 28,
+              "dur": 4,
+              "pitch": "C4"
+            }
+          ]
+        },
+        {
+          "name": "counterpoint",
+          "waveform": "harmonic",
+          "gain": 0.15,
+          "pan": 0.35,
+          "events": [
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": "G4"
+            },
+            {
+              "at": 4,
+              "dur": 4,
+              "pitch": "F4"
+            },
+            {
+              "at": 8,
+              "dur": 4,
+              "pitch": "G4"
+            },
+            {
+              "at": 12,
+              "dur": 4,
+              "pitch": "A4"
+            },
+            {
+              "at": 16,
+              "dur": 4,
+              "pitch": "B4"
+            },
+            {
+              "at": 20,
+              "dur": 4,
+              "pitch": "A4"
+            },
+            {
+              "at": 24,
+              "dur": 4,
+              "pitch": "B4"
+            },
+            {
+              "at": 28,
+              "dur": 4,
+              "pitch": "C5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "suspension_4_3",
+      "group": "035-suspension",
+      "bars": 2,
+      "tempo_bpm": 88,
+      "beats_per_bar": 4,
+      "description": "A3/F4 6th, C4/F4 4th, C4/E4 3rd; tied upper F4",
+      "voices": [
+        {
+          "name": "lower",
+          "waveform": "harmonic",
+          "gain": 0.16,
+          "pan": -0.3,
+          "events": [
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": "A3"
+            },
+            {
+              "at": 4,
+              "dur": 4,
+              "pitch": "C4"
+            }
+          ]
+        },
+        {
+          "name": "upper",
+          "waveform": "harmonic",
+          "gain": 0.16,
+          "pan": 0.3,
+          "events": [
+            {
+              "at": 2,
+              "dur": 4,
+              "pitch": "F4"
+            },
+            {
+              "at": 6,
+              "dur": 2,
+              "pitch": "E4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canon_leader",
+      "group": "035-canon",
+      "bars": 3,
+      "tempo_bpm": 110,
+      "beats_per_bar": 4,
+      "description": "Original motif with one-beat rest at end of second bar",
+      "voices": [
+        {
+          "name": "leader",
+          "waveform": "harmonic",
+          "gain": 0.17,
+          "pan": -0.35,
+          "events": [
+            {
+              "at": 0,
+              "dur": 1,
+              "pitch": "C4"
+            },
+            {
+              "at": 1,
+              "dur": 1,
+              "pitch": "D4"
+            },
+            {
+              "at": 2,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 3,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 4,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 5,
+              "dur": 1,
+              "pitch": "D4"
+            },
+            {
+              "at": 6,
+              "dur": 1,
+              "pitch": "C4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canon_follower",
+      "group": "035-canon",
+      "bars": 3,
+      "tempo_bpm": 110,
+      "beats_per_bar": 4,
+      "description": "Delayed follower; exactly 4 beats later and one octave lower",
+      "voices": [
+        {
+          "name": "follower",
+          "waveform": "harmonic",
+          "gain": 0.17,
+          "pan": 0.35,
+          "events": [
+            {
+              "at": 4,
+              "dur": 1,
+              "pitch": "C3"
+            },
+            {
+              "at": 5,
+              "dur": 1,
+              "pitch": "D3"
+            },
+            {
+              "at": 6,
+              "dur": 1,
+              "pitch": "E3"
+            },
+            {
+              "at": 7,
+              "dur": 1,
+              "pitch": "G3"
+            },
+            {
+              "at": 8,
+              "dur": 1,
+              "pitch": "E3"
+            },
+            {
+              "at": 9,
+              "dur": 1,
+              "pitch": "D3"
+            },
+            {
+              "at": 10,
+              "dur": 1,
+              "pitch": "C3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canon_duet",
+      "group": "035-canon",
+      "bars": 3,
+      "tempo_bpm": 110,
+      "beats_per_bar": 4,
+      "description": "Lead and strict octave imitation",
+      "voices": [
+        {
+          "name": "leader",
+          "waveform": "harmonic",
+          "gain": 0.17,
+          "pan": -0.35,
+          "events": [
+            {
+              "at": 0,
+              "dur": 1,
+              "pitch": "C4"
+            },
+            {
+              "at": 1,
+              "dur": 1,
+              "pitch": "D4"
+            },
+            {
+              "at": 2,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 3,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 4,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 5,
+              "dur": 1,
+              "pitch": "D4"
+            },
+            {
+              "at": 6,
+              "dur": 1,
+              "pitch": "C4"
+            }
+          ]
+        },
+        {
+          "name": "follower",
+          "waveform": "harmonic",
+          "gain": 0.17,
+          "pan": 0.35,
+          "events": [
+            {
+              "at": 4,
+              "dur": 1,
+              "pitch": "C3"
+            },
+            {
+              "at": 5,
+              "dur": 1,
+              "pitch": "D3"
+            },
+            {
+              "at": 6,
+              "dur": 1,
+              "pitch": "E3"
+            },
+            {
+              "at": 7,
+              "dur": 1,
+              "pitch": "G3"
+            },
+            {
+              "at": 8,
+              "dur": 1,
+              "pitch": "E3"
+            },
+            {
+              "at": 9,
+              "dur": 1,
+              "pitch": "D3"
+            },
+            {
+              "at": 10,
+              "dur": 1,
+              "pitch": "C3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transcription_melody",
+      "group": "036-reconstruction",
+      "bars": 8,
+      "tempo_bpm": 96,
+      "beats_per_bar": 4,
+      "description": "Original 8-bar melody only",
+      "voices": [
+        {
+          "name": "melody",
+          "waveform": "harmonic",
+          "gain": 0.18,
+          "pan": 0.2,
+          "events": [
+            {
+              "at": 0,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 1,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 2,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 3,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 4,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 5,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 6,
+              "dur": 1,
+              "pitch": "F4"
+            },
+            {
+              "at": 7,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 8,
+              "dur": 1,
+              "pitch": "D4"
+            },
+            {
+              "at": 9,
+              "dur": 1,
+              "pitch": "F4"
+            },
+            {
+              "at": 10,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 11,
+              "dur": 1,
+              "pitch": "B4"
+            },
+            {
+              "at": 12,
+              "dur": 1,
+              "pitch": "C5"
+            },
+            {
+              "at": 13,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 14,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 15,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 16,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 17,
+              "dur": 1,
+              "pitch": "C5"
+            },
+            {
+              "at": 18,
+              "dur": 1,
+              "pitch": "B4"
+            },
+            {
+              "at": 19,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 20,
+              "dur": 1,
+              "pitch": "F4"
+            },
+            {
+              "at": 21,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 22,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 23,
+              "dur": 1,
+              "pitch": "F4"
+            },
+            {
+              "at": 24,
+              "dur": 1,
+              "pitch": "D4"
+            },
+            {
+              "at": 25,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 26,
+              "dur": 1,
+              "pitch": "B4"
+            },
+            {
+              "at": 27,
+              "dur": 1,
+              "pitch": "D5"
+            },
+            {
+              "at": 28,
+              "dur": 1,
+              "pitch": "C5"
+            },
+            {
+              "at": 29,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 30,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 31,
+              "dur": 1,
+              "pitch": "C5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transcription_bass",
+      "group": "036-reconstruction",
+      "bars": 8,
+      "tempo_bpm": 96,
+      "beats_per_bar": 4,
+      "description": "Original root bass line only",
+      "voices": [
+        {
+          "name": "bass",
+          "waveform": "harmonic",
+          "gain": 0.16,
+          "pan": -0.2,
+          "events": [
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": "C3"
+            },
+            {
+              "at": 4,
+              "dur": 4,
+              "pitch": "F3"
+            },
+            {
+              "at": 8,
+              "dur": 4,
+              "pitch": "G3"
+            },
+            {
+              "at": 12,
+              "dur": 4,
+              "pitch": "C3"
+            },
+            {
+              "at": 16,
+              "dur": 4,
+              "pitch": "A2"
+            },
+            {
+              "at": 20,
+              "dur": 4,
+              "pitch": "D3"
+            },
+            {
+              "at": 24,
+              "dur": 4,
+              "pitch": "G2"
+            },
+            {
+              "at": 28,
+              "dur": 4,
+              "pitch": "C3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transcription_original",
+      "group": "036-reconstruction",
+      "bars": 8,
+      "tempo_bpm": 96,
+      "beats_per_bar": 4,
+      "description": "Original 8-bar bass and melody",
+      "voices": [
+        {
+          "name": "bass",
+          "waveform": "harmonic",
+          "gain": 0.14,
+          "pan": -0.3,
+          "events": [
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": "C3"
+            },
+            {
+              "at": 4,
+              "dur": 4,
+              "pitch": "F3"
+            },
+            {
+              "at": 8,
+              "dur": 4,
+              "pitch": "G3"
+            },
+            {
+              "at": 12,
+              "dur": 4,
+              "pitch": "C3"
+            },
+            {
+              "at": 16,
+              "dur": 4,
+              "pitch": "A2"
+            },
+            {
+              "at": 20,
+              "dur": 4,
+              "pitch": "D3"
+            },
+            {
+              "at": 24,
+              "dur": 4,
+              "pitch": "G2"
+            },
+            {
+              "at": 28,
+              "dur": 4,
+              "pitch": "C3"
+            }
+          ]
+        },
+        {
+          "name": "melody",
+          "waveform": "harmonic",
+          "gain": 0.17,
+          "pan": 0.3,
+          "events": [
+            {
+              "at": 0,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 1,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 2,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 3,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 4,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 5,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 6,
+              "dur": 1,
+              "pitch": "F4"
+            },
+            {
+              "at": 7,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 8,
+              "dur": 1,
+              "pitch": "D4"
+            },
+            {
+              "at": 9,
+              "dur": 1,
+              "pitch": "F4"
+            },
+            {
+              "at": 10,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 11,
+              "dur": 1,
+              "pitch": "B4"
+            },
+            {
+              "at": 12,
+              "dur": 1,
+              "pitch": "C5"
+            },
+            {
+              "at": 13,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 14,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 15,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 16,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 17,
+              "dur": 1,
+              "pitch": "C5"
+            },
+            {
+              "at": 18,
+              "dur": 1,
+              "pitch": "B4"
+            },
+            {
+              "at": 19,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 20,
+              "dur": 1,
+              "pitch": "F4"
+            },
+            {
+              "at": 21,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 22,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 23,
+              "dur": 1,
+              "pitch": "F4"
+            },
+            {
+              "at": 24,
+              "dur": 1,
+              "pitch": "D4"
+            },
+            {
+              "at": 25,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 26,
+              "dur": 1,
+              "pitch": "B4"
+            },
+            {
+              "at": 27,
+              "dur": 1,
+              "pitch": "D5"
+            },
+            {
+              "at": 28,
+              "dur": 1,
+              "pitch": "C5"
+            },
+            {
+              "at": 29,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 30,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 31,
+              "dur": 1,
+              "pitch": "C5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transcription_revision_b",
+      "group": "036-reconstruction",
+      "bars": 8,
+      "tempo_bpm": 96,
+      "beats_per_bar": 4,
+      "description": "Variant B: only bar 7 melody replaced by D4 F4 G4 B4",
+      "voices": [
+        {
+          "name": "bass",
+          "waveform": "harmonic",
+          "gain": 0.14,
+          "pan": -0.3,
+          "events": [
+            {
+              "at": 0,
+              "dur": 4,
+              "pitch": "C3"
+            },
+            {
+              "at": 4,
+              "dur": 4,
+              "pitch": "F3"
+            },
+            {
+              "at": 8,
+              "dur": 4,
+              "pitch": "G3"
+            },
+            {
+              "at": 12,
+              "dur": 4,
+              "pitch": "C3"
+            },
+            {
+              "at": 16,
+              "dur": 4,
+              "pitch": "A2"
+            },
+            {
+              "at": 20,
+              "dur": 4,
+              "pitch": "D3"
+            },
+            {
+              "at": 24,
+              "dur": 4,
+              "pitch": "G2"
+            },
+            {
+              "at": 28,
+              "dur": 4,
+              "pitch": "C3"
+            }
+          ]
+        },
+        {
+          "name": "melody",
+          "waveform": "harmonic",
+          "gain": 0.17,
+          "pan": 0.3,
+          "events": [
+            {
+              "at": 0,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 1,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 2,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 3,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 4,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 5,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 6,
+              "dur": 1,
+              "pitch": "F4"
+            },
+            {
+              "at": 7,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 8,
+              "dur": 1,
+              "pitch": "D4"
+            },
+            {
+              "at": 9,
+              "dur": 1,
+              "pitch": "F4"
+            },
+            {
+              "at": 10,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 11,
+              "dur": 1,
+              "pitch": "B4"
+            },
+            {
+              "at": 12,
+              "dur": 1,
+              "pitch": "C5"
+            },
+            {
+              "at": 13,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 14,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 15,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 16,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 17,
+              "dur": 1,
+              "pitch": "C5"
+            },
+            {
+              "at": 18,
+              "dur": 1,
+              "pitch": "B4"
+            },
+            {
+              "at": 19,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 20,
+              "dur": 1,
+              "pitch": "F4"
+            },
+            {
+              "at": 21,
+              "dur": 1,
+              "pitch": "A4"
+            },
+            {
+              "at": 22,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 23,
+              "dur": 1,
+              "pitch": "F4"
+            },
+            {
+              "at": 24,
+              "dur": 1,
+              "pitch": "D4"
+            },
+            {
+              "at": 25,
+              "dur": 1,
+              "pitch": "F4"
+            },
+            {
+              "at": 26,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 27,
+              "dur": 1,
+              "pitch": "B4"
+            },
+            {
+              "at": 28,
+              "dur": 1,
+              "pitch": "C5"
+            },
+            {
+              "at": 29,
+              "dur": 1,
+              "pitch": "G4"
+            },
+            {
+              "at": 30,
+              "dur": 1,
+              "pitch": "E4"
+            },
+            {
+              "at": 31,
+              "dur": 1,
+              "pitch": "C5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "answer_notes": {
+    "033": "Compare intervals A4/E5 (7 semitones) vs A4/F5 (8); then compare C-E-G vs C-Eb-G.",
+    "034": "Pure 400:500 Hz versus equal-tempered 400:503.968419958 Hz; the latter third is 13.686 cents wider.",
+    "035": "First-species-inspired intervals P5 m3 m3 M3 M3 M3 M6 P8; 4:3 suspension starts prepared as sixth; follower enters 4 beats later one octave below.",
+    "036": "Eight-bar original: C F G7 C Am Dm G C; four quarter notes per bar; revision B changes ONLY the final three pitches in bar 7."
+  }
+}

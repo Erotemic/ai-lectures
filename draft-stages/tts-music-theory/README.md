@@ -1,10 +1,11 @@
 # Music Theory and Composition
 
-**Collection:** Twenty-eight standalone, audio-first lecture manuscripts. The course is instrument-agnostic and its original text scores remain useful before audio demonstrations are available. Sound-producing examples are an eventual extension, not a requirement for understanding the descriptions.
+**Collection:** Thirty-six standalone, audio-first lecture manuscripts. The course remains instrument-agnostic; text-defined original scores and a local standard-library sound renderer are optional companions, not prerequisites for understanding the lectures.
 
 ## Completed and indexed lectures
 
-| ID | Lecture | Spoken words | Approx. minutes at 145 wpm |
+
+| ID | Lecture | Spoken words | Estimated minutes at 145 wpm (descriptive only) |
 |---|---|---:|---:|
 | 001000 | [Music as Pattern in Time: A Listener's Way into Composition](001000-music-as-pattern-in-time.md) | 2,214 | 15.3 |
 | 002000 | [Pitch, Intervals, and the Shape of a Melody](002000-pitch-intervals-and-melodic-shape.md) | 2,554 | 17.6 |
@@ -26,39 +27,45 @@
 | 018000 | [Four Separate Tracks, One Musical Space: Why Mixing Matters](018000-why-independent-stems-need-mixing.md) | 2,011 | 13.9 |
 | 019000 | [A Mix Is a Processing Graph: DawDreamer, Ardour, and the CPU Budget](019000-a-mix-as-a-processing-graph.md) | 1,765 | 12.2 |
 | 020000 | [From Stems to a Finished Master: Monitoring, Loudness, and Reproducible Exports](020000-from-stems-to-a-finished-master.md) | 1,898 | 13.1 |
-
 | 021000 | [From Notes to Waveforms: MIDI, Sampling, Synthesis, and Recording](021000-from-notes-to-waveforms.md) | 3,493 | 24.1 |
 | 022000 | [What EQ and Compression Actually Do: Spectrum, Level, and Dynamics](022000-equalizers-compressors-and-dynamics.md) | 3,341 | 23.0 |
 | 023000 | [Timing, Phase, and Stereo Space: When Adding Tracks Changes the Sound](023000-timing-phase-and-stereo-space.md) | 2,908 | 20.1 |
 | 024000 | [From Four Agents to One Finished Mix: A Reproducible DawDreamer and Ardour Workflow](024000-building-a-reproducible-production-pipeline.md) | 3,289 | 22.7 |
-
 | 025000 | [From the Room to a Track: Microphones, Monitoring, and Recording Latency](025000-from-room-to-recorded-track.md) | 1,634 | 11.3 |
 | 026000 | [Building a Room with Samples: Delay, Reflections, Convolution, and Reverb](026000-building-a-room-with-samples.md) | 1,830 | 12.6 |
 | 027000 | [What a Spectrogram Can and Cannot Tell You: Windows, Frequency, and Repair](027000-what-a-spectrogram-can-and-cannot-tell-you.md) | 1,737 | 12.0 |
 | 028000 | [Measuring and Listening to a Mix: Loudness, True Peaks, Blind Comparisons, and Provenance](028000-measuring-and-listening-to-a-mix.md) | 2,024 | 14.0 |
+| 029000 | [How Hearing Makes Music: Pitch, Loudness, Timbre, and Time](029000-how-hearing-makes-music.md) | 2,041 | 14.1 |
+| 030000 | [Why Sounds Mask Each Other: Auditory Streams, Competition, and Musical Clarity](030000-why-sounds-mask-each-other.md) | 2,103 | 14.5 |
+| 031000 | [How We Hear Space: Localization, Stereo, Headphones, and the Listening Room](031000-how-we-hear-space.md) | 2,066 | 14.2 |
+| 032000 | [How to Listen Critically: Bias, Comparisons, and Decisions in a Mix](032000-how-to-listen-critically.md) | 1,971 | 13.6 |
+| 033000 | [Training the Musical Ear: From Recognition to Reconstruction](033000-training-the-musical-ear.md) | 1,898 | 13.1 |
+| 034000 | [Tuning, Temperament, and Intonation: When the Notes Refuse to Line Up](034000-tuning-temperament-and-intonation.md) | 1,852 | 12.8 |
+| 035000 | [Counterpoint, Imitation, and Canon: Hearing More Than One Thought](035000-counterpoint-imitation-and-canon.md) | 1,889 | 13.0 |
+| 036000 | [From Sound to Score and Back: Transcribe, Reconstruct, Revise](036000-from-sound-to-score-and-back.md) | 2,223 | 15.3 |
 
 Word counts are descriptive: they use whitespace-separated words in the narration extractor output, matching the track inventory. Duration is only a rough read-through estimate, not an editorial target.
 
 ## Course approach
 
-The first twelve lectures move from musical pattern, pitch and rhythm through harmonic and contrapuntal construction, phrase/form analysis, modal center, chromatic harmony, polyrhythms and revision of a sixteen-bar study. The next four lectures extend that foundation into changes of tonal home, **carefully scoped** cross-cultural comparison, timbre and production, and a complete 48-bar two-line study. Lectures 017000–020000 then explain PCM audio, DAW routing and scheduling, the musical problem of combining independent stems, the differences between offline DawDreamer processing and Ardour live mixing, and the decisions involved in mastering and delivery. Lectures 021000–024000 deepen the distinction between MIDI events and actual sound, work through filters and dynamics quantitatively, explain phase and stereo imaging, and give an end-to-end reproducible workflow for multi-agent music production. The final lectures intentionally have the length needed for their subject rather than a runtime target. Lectures 025000–028000 add capture and monitoring physics, the mathematical and routing models of room effects, spectrogram limitations, and source-grounded mix assessment. Lectures 029000–032000 develop hearing physiology and pitch, energetic and informational masking, perceptual stream formation, spatial localization, and controlled listening. Their reading maps distinguish primary experimental evidence from author-designed DAW exercises.
+The first twelve lectures move from musical pattern, pitch and rhythm through harmonic and contrapuntal construction, phrase/form analysis, modal center, chromatic harmony, polyrhythms and revision of a sixteen-bar study. The next four lectures extend that foundation into changes of tonal home, **carefully scoped** cross-cultural comparison, timbre and production, and a complete 48-bar two-line study. Lectures 017000–020000 then explain PCM audio, DAW routing and scheduling, the musical problem of combining independent stems, the differences between offline DawDreamer processing and Ardour live mixing, and the decisions involved in mastering and delivery. Lectures 021000–024000 deepen the distinction between MIDI events and actual sound, work through filters and dynamics quantitatively, explain phase and stereo imaging, and give an end-to-end reproducible workflow for multi-agent music production. The final lectures intentionally have the length needed for their subject rather than a runtime target. Lectures 025000–028000 add capture and monitoring physics, the mathematical and routing models of room effects, spectrogram limitations, and source-grounded mix assessment. Lectures 029000–032000 develop hearing physiology and pitch, energetic and informational masking, perceptual stream formation, spatial localization, and controlled listening. Their reading maps distinguish primary experimental evidence from author-designed DAW exercises. Lectures 033000–036000 connect those ideas to ear-training, tuning calculations and tempered compromises, two-voice counterpoint, and a complete original eight-bar transcription/revision cycle. The companion listening lab can render 18 original comparisons as WAVs locally; no WAVs are shipped in the source pack.
 
-Examples in `examples/` are optional machine-readable companions to some earlier scores. There is no claim that written pitch grids capture the intonation, ornamentation, idiom, or artistic effect of every musical practice. For traditions best transmitted through performance and listening, further training and direct encounters with sound remain essential.
+Examples in `examples/` contain earlier score grids and the original WAV-rendering lab for 033000–036000; all are optional machine-readable companions. There is no claim that written pitch grids capture the intonation, ornamentation, idiom, or artistic effect of every musical practice. For traditions best transmitted through performance and listening, further training and direct encounters with sound remain essential.
 
 ## Further work (not indexed as completed)
 
-1. Render original, rights-clear listening exercises for the perceptual and ear-training lectures, including controlled variants and a reproducible audio-demonstration mechanism; notation alone does not train listening.
-2. Comparative tuning, including temperaments and context-dependent microtonality, taught without forcing every musical system into fixed Western keyboard notes.
-3. Deeper contrapuntal techniques, imitation, canon, and multi-voice arrangement.
-4. Conduct listener studies or small controlled listening exercises with authorized audio; validate perceptual predictions and revise the manuscripts where examples prove misleading.
-5. Additional large-scale formal types and composition contexts beyond major/minor tonal writing.
+1. Evaluate the original synthetic listening demonstrations with actual listeners; distinguish demonstrated audibility from intended pedagogical effect, and revise ambiguous stimuli.
+2. Add richer instrument timbres via a fully specified DawDreamer processing graph, while retaining the standard-library WAV reference for reproducibility and keeping binary outputs outside the source pack.
+3. Develop broader tuning practices and performance-based melodic inflections using specialist research and appropriately authorized recordings, not only fixed Hz pairs.
+4. Go deeper into later contrapuntal practice, imitative forms, and large ensemble orchestration. The 035000 canon is introductory, not a complete fugue or historical style survey.
+5. Analyze additional forms and styles, including non-major/minor systems, with genuine performance evidence and careful attribution.
 
-## Detailed attribution practice for 025000–032000
+## Detailed attribution practice for 025000–036000
 
-Lectures 025000–032000 each contain a **source-to-claim reading map** with direct links and section-level explanations, not just a generic bibliography. Their metadata sidecars have a `claim_evidence` array recording a verbatim narration anchor, source IDs, why the source is relevant, and provenance. An `original_calculation`, `original_example`, or `editorial_inference` is *explicitly not* represented as an experimental result in the cited document. The sources are primarily official manuals, standards, university books, and peer-reviewed research. This is a stronger, local attribution contract; it does not automatically certify every editorial judgment or imply that an online source contains a particular illustrative score.
+Lectures 025000–036000 each contain a **source-to-claim reading map** with direct links and section-level explanations, not just a generic bibliography. Their metadata sidecars have a `claim_evidence` array recording a verbatim narration anchor, source IDs, why the source is relevant, and provenance. An `original_calculation`, `original_example`, or `editorial_inference` is *explicitly not* represented as an experimental result in the cited document. The sources are primarily official manuals, standards, university books, and peer-reviewed research. This is a stronger, local attribution contract; it does not automatically certify every editorial judgment or imply that an online source contains a particular illustrative score.
 
 ## Reference and integrity conventions
 
 - `track.json` lists **only existing** numbered manuscripts; each has one spoken marker pair and a corresponding `metadata/<id>.json` citation sidecar.
 - `metadata/sources.json` records per-track references, including references to musical traditions by specialist sources rather than treating the original classroom exercises as transcriptions.
-- Do not embed copyrighted music or binary audio in overlay ZIPs. Any future sound renderer should use authorized or original material and track the associated musical data and rights.
+- Do not embed copyrighted music or binary audio in overlay ZIPs. The local renderer for lectures 033000–036000 uses only original scores and standard-library synthesis; any other renderer must respect source rights and record configuration.

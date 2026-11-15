@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "lecture_id": "036000",
+  "transcript": "036000-from-sound-to-score-and-back.md",
+  "related_resources": [
+    {
+      "source_id": "mt-benetos-transcription2013",
+      "reason": "2013 review of transcription scope/limitations and instrument assumptions; current technology may differ."
+    },
+    {
+      "source_id": "mt-omt-ear-training",
+      "reason": "Open Music Theory contour/grid dictation procedures."
+    },
+    {
+      "source_id": "mt-smith-spectral-2011",
+      "reason": "Julius Smith STFT sections and window considerations."
+    },
+    {
+      "source_id": "mt-ardour-region-menu",
+      "reason": "Ardour audio-region analysis and looping operations."
+    },
+    {
+      "source_id": "mt-dawdreamer-user-guide",
+      "reason": "Official processor graph and render workflow."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "Emmanouil Benetos, Simon Dixon, Dimitrios Giannoulis, Holger Kirchhoff, and Anssi Klapuri surveyed automatic music transcription",
+      "source_ids": [
+        "mt-benetos-transcription2013"
+      ],
+      "evidence_detail": "Open university repository journal citation 41(3):407–434 (2013) and abstract.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "does not simply reduce to reading frequencies off a spectrogram",
+      "source_ids": [
+        "mt-benetos-transcription2013"
+      ],
+      "evidence_detail": "2013 review abstract: rich diversity, general-purpose model limitations; concise interpretation rather than direct wording.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "Samuel Brady, Chelsey Hamm, and Kris Shaffer's Open Music Theory chapter",
+      "source_ids": [
+        "mt-omt-ear-training"
+      ],
+      "evidence_detail": "Chapter authorship and dictation strategy.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "contour lines, dot grids, and rhythmic notation",
+      "source_ids": [
+        "mt-omt-ear-training"
+      ],
+      "evidence_detail": "Chapter Key Takeaways and strategies for melodic/rhythmic dictation.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "thirty-two melody attacks, four in every bar",
+      "source_ids": [
+        "mt-omt-ear-training"
+      ],
+      "evidence_detail": "8 authored bars x 4 original quarter-note melody events = 32 attacks; source only provides dictation pedagogy.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "A note G in the bass could support G major",
+      "source_ids": [
+        "mt-benetos-transcription2013"
+      ],
+      "evidence_detail": "Harmonic inference limitation from authored root-only example; 2013 paper motivates ambiguity but not this progression.",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "The third bar is an especially useful question",
+      "source_ids": [
+        "mt-benetos-transcription2013"
+      ],
+      "evidence_detail": "Original G7 bar over G3 with melody D4 F4 G4 B4; composer authored data.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "A pitched sound's harmonics often create several horizontal bands",
+      "source_ids": [
+        "mt-smith-spectral-2011"
+      ],
+      "evidence_detail": "Smith STFT/Time-Frequency Displays and example spectra; spectrum is a representation of partials.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "Choose a very long window and you may distinguish close steady frequencies better",
+      "source_ids": [
+        "mt-smith-spectral-2011"
+      ],
+      "evidence_detail": "Smith online book STFT and spectrum-analysis windows; time/frequency trade-off.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "In Ardour, a region's spectral analysis and loudness-analysis displays",
+      "source_ids": [
+        "mt-ardour-region-menu"
+      ],
+      "evidence_detail": "Official Region Menu: Spectral Analysis and Loudness Analysis dialogs.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "DawDreamer's official documentation describes processor graphs and offline rendering",
+      "source_ids": [
+        "mt-dawdreamer-user-guide"
+      ],
+      "evidence_detail": "Official guide Overview and Basic Workflow: RenderEngine and processor graph.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Replace the seventh bar's melody with D, F, G, B",
+      "source_ids": [
+        "mt-omt-ear-training"
+      ],
+      "evidence_detail": "Original authored revision; not sampled from any published musical work.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "the effective sonority may suggest G seventh",
+      "source_ids": [
+        "mt-benetos-transcription2013"
+      ],
+      "evidence_detail": "Musical interpretation of G bass + F in original revision; no source claims unique harmony identity.",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "Listen to the versions separately",
+      "source_ids": [
+        "mt-ardour-region-menu"
+      ],
+      "evidence_detail": "Original suggested workflow; Ardour supports loops and region audition.",
+      "provenance": "editorial_inference"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Claim anchors are exact spoken substrings. A source ID and locator report what a source does and does not establish. Original calculations/scores remain author-derived, not misattributed primary findings. The URL/anchor validator cannot independently prove support."
+}

@@ -1,7 +1,7 @@
 {
   "id": "music-theory",
   "title": "Music Theory and Composition",
-  "summary": "An instrument-agnostic audio-first course in melody, rhythm, harmony, comparative musical systems, composition, and practical sound production. The later lessons develop reproducible DawDreamer–Ardour workflows, documented auditory science, mixing, and critical listening; notation and source maps are provided as optional companions.",
+  "summary": "Instrument-agnostic, audio-first foundations in composition, comparative musical systems and sound production, now extending into auditory perception, listening practice, tuning and temperaments, counterpoint and transcription. Exercises use original text-defined scores and optional local WAV synthesis, with claim-level research attribution.",
   "assumed_background": [
     "General audience; no notation, instrument, or earlier music theory required."
   ],
@@ -29,7 +29,11 @@
     "hearing-and-musical-perception",
     "masking-and-scene-analysis",
     "spatial-hearing-and-reproduction",
-    "critical-listening-and-validation"
+    "critical-listening-and-validation",
+    "ear-training-and-musical-memory",
+    "tuning-and-intonation",
+    "counterpoint-imitation-and-canon",
+    "transcription-and-revision"
   ],
   "lectures": [
     {
@@ -319,6 +323,42 @@
       "spoken_words": 1971,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 13.6
+    },
+    {
+      "id": "033000",
+      "title": "Training the Musical Ear: From Recognition to Reconstruction",
+      "section": "ear-training-and-musical-memory",
+      "file": "033000-training-the-musical-ear.md",
+      "spoken_words": 1898,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1
+    },
+    {
+      "id": "034000",
+      "title": "Tuning, Temperament, and Intonation: When the Notes Refuse to Line Up",
+      "section": "tuning-and-intonation",
+      "file": "034000-tuning-temperament-and-intonation.md",
+      "spoken_words": 1852,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.8
+    },
+    {
+      "id": "035000",
+      "title": "Counterpoint, Imitation, and Canon: Hearing More Than One Thought",
+      "section": "counterpoint-imitation-and-canon",
+      "file": "035000-counterpoint-imitation-and-canon.md",
+      "spoken_words": 1889,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.0
+    },
+    {
+      "id": "036000",
+      "title": "From Sound to Score and Back: Transcribe, Reconstruct, Revise",
+      "section": "transcription-and-revision",
+      "file": "036000-from-sound-to-score-and-back.md",
+      "spoken_words": 2223,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.3
     }
   ]
 }

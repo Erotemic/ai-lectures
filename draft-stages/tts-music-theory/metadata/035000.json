@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "lecture_id": "035000",
+  "transcript": "035000-counterpoint-imitation-and-canon.md",
+  "related_resources": [
+    {
+      "source_id": "mt-fux-gradus-1725",
+      "reason": "Wienbibliothek digitization of historical original, metadata 1725 Vienna."
+    },
+    {
+      "source_id": "mt-omt-species-intro",
+      "reason": "Modern introduction to species as restricted graded exercises."
+    },
+    {
+      "source_id": "mt-omt-first-species",
+      "reason": "First species constraints, cadence, parallels in the defined tradition."
+    },
+    {
+      "source_id": "mt-omt-fourth-species",
+      "reason": "Prepared 4–3 suspension and standard treatment in that tradition."
+    },
+    {
+      "source_id": "mt-ardour-region-menu",
+      "reason": "Official regional audition and looping for original exercises."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "Johann Joseph Fux's Gradus ad Parnassum was published in Vienna in 1725",
+      "source_ids": [
+        "mt-fux-gradus-1725"
+      ],
+      "evidence_detail": "Wienbibliothek original catalog record: title, Vienna 1725, publisher and scope.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Fux did not invent the existence of independently moving voices",
+      "source_ids": [
+        "mt-omt-species-intro"
+      ],
+      "evidence_detail": "Historical-scope clarification: Fux method is not all counterpoint; no founding-of-polyphony claim.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "A modern, accessible account of the exercise appears in the Open Music Theory chapters",
+      "source_ids": [
+        "mt-omt-first-species"
+      ],
+      "evidence_detail": "Gotham & Shaffer authorship, First-Species Counterpoint.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Their first-species presentation emphasizes one note against one note",
+      "source_ids": [
+        "mt-omt-first-species"
+      ],
+      "evidence_detail": "Key Takeaways: equal rate, 1:1 rhythm and consonant simultaneities.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "C below G produces a fifth",
+      "source_ids": [
+        "mt-omt-first-species"
+      ],
+      "evidence_detail": "Interval arithmetic for original 8-bar score; the source only supplies classification framework.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "The lower voice moves D to C, down by step",
+      "source_ids": [
+        "mt-omt-first-species"
+      ],
+      "evidence_detail": "Constructed cadence re–do in bass, ti–do in upper; matches documented first-species cadence approach.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "four-three suspension",
+      "source_ids": [
+        "mt-omt-fourth-species"
+      ],
+      "evidence_detail": "Fourth Species: Types of suspensions, 4–3 above bass.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "preparation, suspension, and resolution",
+      "source_ids": [
+        "mt-omt-fourth-species"
+      ],
+      "evidence_detail": "Fourth Species: The Suspension section; consonant prep, accented dissonance and stepwise consonant resolution.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Our specific training method comes from the European tradition",
+      "source_ids": [
+        "mt-omt-species-intro"
+      ],
+      "evidence_detail": "Introduction to Species Counterpoint places method in Fux tradition.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Now delay the complete pattern by one measure",
+      "source_ids": [
+        "mt-omt-species-intro"
+      ],
+      "evidence_detail": "Original octave canon specification; NOT an example claimed to occur in Fux or OMT.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "This is a strict imitation rule for the small invented pattern",
+      "source_ids": [
+        "mt-omt-species-intro"
+      ],
+      "evidence_detail": "Fixed four-beat offset and one-octave translation of all authored notes; check by comparing event grids.",
+      "provenance": "original_derivation"
+    },
+    {
+      "anchor": "Ardour allows the resulting stems to be auditioned individually or together",
+      "source_ids": [
+        "mt-ardour-region-menu"
+      ],
+      "evidence_detail": "Official Play Selected Regions/Loop commands; authored workflow recommendation.",
+      "provenance": "supported_interpretation"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Claim anchors are exact spoken substrings. A source ID and locator report what a source does and does not establish. Original calculations/scores remain author-derived, not misattributed primary findings. The URL/anchor validator cannot independently prove support."
+}

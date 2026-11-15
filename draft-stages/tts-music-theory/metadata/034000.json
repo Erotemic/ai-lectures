@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "lecture_id": "034000",
+  "transcript": "034000-tuning-temperament-and-intonation.md",
+  "related_resources": [
+    {
+      "source_id": "mt-unsw-musical-tuning",
+      "reason": "5/4 versus 12-TET major third, pure 3/2 fifth; chords/temperament section."
+    },
+    {
+      "source_id": "mt-unsw-acoustics-faq",
+      "reason": "Frequency ratio examples and limitations of fixed-key instrument tuning."
+    },
+    {
+      "source_id": "mt-unsw-tartini-example",
+      "reason": "Direct 400/500 Hz sound example and harmonic interaction discussion."
+    },
+    {
+      "source_id": "mt-sethares-tuning-2005",
+      "reason": "Book-level spectrum/tuning relation and adaptive-tuning topics; inaccessible book details not asserted."
+    },
+    {
+      "source_id": "mt-plomp-levelt1965",
+      "reason": "Original primary psychoacoustic paper; bibliographic existence/topic only, full numerical results not used."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "A pure octave is a frequency ratio of two to one",
+      "source_ids": [
+        "mt-unsw-acoustics-faq"
+      ],
+      "evidence_detail": "UNSW FAQ, equal-temperament and harmonic/octave ratio discussion.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "A pure major third corresponds to five to four",
+      "source_ids": [
+        "mt-unsw-musical-tuning"
+      ],
+      "evidence_detail": "UNSW Tuning, Chords and temperament: 5/4 pure major third.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "the fifth harmonic of the lower sound lies at two thousand hertz",
+      "source_ids": [
+        "mt-unsw-tartini-example"
+      ],
+      "evidence_detail": "5*400 and 4*500 are both 2000 Hz; source provides acoustic and difference-tone context, not this lecture text.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "r is the twelfth root of two",
+      "source_ids": [
+        "mt-unsw-acoustics-faq"
+      ],
+      "evidence_detail": "UNSW FAQ states 2^(1/12) semitone ratio.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The discrepancy looks small as a decimal",
+      "source_ids": [
+        "mt-unsw-musical-tuning"
+      ],
+      "evidence_detail": "Qualitative contrast of 5/4 vs 2^(1/3) described by UNSW; perceptual salience conditional.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "about thirteen point six nine cents wider",
+      "source_ids": [
+        "mt-unsw-musical-tuning"
+      ],
+      "evidence_detail": "1200*log2(2^(4/12)/(5/4))=13.686... cents; independent authored derivation.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "A pure fifth spans about seven hundred one point nine six cents",
+      "source_ids": [
+        "mt-unsw-acoustics-faq"
+      ],
+      "evidence_detail": "1200*log2(3/2) 701.955; source gives 3:2 interval.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "This is the Pythagorean comma",
+      "source_ids": [
+        "mt-unsw-acoustics-faq"
+      ],
+      "evidence_detail": "(3/2)^12/2^7=531441/524288; arithmetic identity, not asserted as a source quotation.",
+      "provenance": "original_derivation"
+    },
+    {
+      "anchor": "the syntonic comma, about twenty-one point five one cents",
+      "source_ids": [
+        "mt-unsw-musical-tuning"
+      ],
+      "evidence_detail": "(81/64)/(5/4)=81/80; 1200 log2(81/80)=21.506 cents.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "William Sethares develops another central perspective",
+      "source_ids": [
+        "mt-sethares-tuning-2005"
+      ],
+      "evidence_detail": "Publisher description, 2nd ed., chapters Related Spectra and Scales/Adaptive Tunings; no numeric empirical result attributed.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Plomp and Levelt's 1965 paper",
+      "source_ids": [
+        "mt-plomp-levelt1965"
+      ],
+      "evidence_detail": "PubMed bibliography/title and DOI; abstract unavailable, so specific experimental estimates deliberately not asserted.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Render an original root tone at four hundred hertz",
+      "source_ids": [
+        "mt-unsw-tartini-example"
+      ],
+      "evidence_detail": "Authored stimulus specification based on 400/500 Hz pure third; not a claim that all listeners can detect it.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "the equal-tempered third is about thirteen point six nine cents wider",
+      "source_ids": [
+        "mt-unsw-musical-tuning"
+      ],
+      "evidence_detail": "UNSW Tuning, Chords and temperament exact direction of third discrepancy.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "a single note-grid is not enough to render an intonation experiment",
+      "source_ids": [
+        "mt-sethares-tuning-2005"
+      ],
+      "evidence_detail": "Lecture inference from separate roles of timbre/scale; primary text requires book access for finer detail.",
+      "provenance": "supported_interpretation"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Claim anchors are exact spoken substrings. A source ID and locator report what a source does and does not establish. Original calculations/scores remain author-derived, not misattributed primary findings. The URL/anchor validator cannot independently prove support."
+}
