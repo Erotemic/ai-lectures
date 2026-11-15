@@ -13,12 +13,28 @@
 
 These lectures constitute one coherent real-analysis opening. The track also covers complex analysis in its intended broader scope, but the first four recordings establish the real-number techniques used for later complex-variable reasoning. No premature complex analysis claims were inserted into the beginner sequence.
 
-## Planned continuation (not indexed as available)
+## Completed continuation and proposed next material
 
-A sensible next sequence is 005000 differentiability and the linear approximation, 006000 the mean value theorem and rigorous error estimates, 007000 the Riemann integral and criteria for integrability, 008000 the fundamental theorem of calculus, and then finite-dimensional norms, metric spaces, uniform convergence, power series, and the complex plane. Introduce holomorphicity, Cauchy integrals, residues, and analytic continuation after the relevant real-analysis prerequisites. These are proposed topics, **not** empty files or manifest entries.
+The next four lectures are now complete and indexed:
+
+| ID | Topic | Central mathematical result |
+| --- | --- | --- |
+| 005000 | Derivatives and linear approximation | Differentiability as a first-order model, chain rule, counterexamples |
+| 006000 | Mean Value Theorem and error bounds | Rolle, MVT, Lipschitz and Taylor remainder bounds |
+| 007000 | Riemann integration | Tagged sums, Darboux criterion, continuous/monotone integrability |
+| 008000 | Fundamental Theorem of Calculus | Differentiating accumulation and evaluating integrals by endpoints |
+
+The next *proposed* sequence (not yet available) is metric-space foundations,
+compactness and continuity beyond intervals, uniform convergence, sequences
+and series of functions, then the complex plane and complex differentiability.
+The full complex-analysis arc should develop Cauchy's theorem and integral
+formula, power series and isolated singularities, residues, and the argument
+principle without assuming a real-variable Mean Value Theorem for complex
+functions. All later lecture IDs must be allocated within this track's own
+namespace; other agents cannot modify this planning file.
 
 ## Existing shared-test integration request
 
 The snapshot's `tests/test_foundational_expansion_tracks.py` hardcodes exactly two lecture IDs and at least 3,000 spoken words for each lecture in every foundational track. The shared baseline was reportedly altered to expect only the previously available 002000 lecture, but either hardcoded count necessarily becomes stale as soon as Agent C adds manuscripts. This is a **shared-test defect**, not a reason to pad lecture prose to meet a count or edit the shared test from the Agent C fork. A separate baseline maintainer should change that global test to read the full list of expected IDs from the track manifest and check appropriate content and spoken-region quality rather than enforcing an arbitrary uniform transcript length. This request is recorded here; Agent C does not modify shared tests or reader code.
 
-The overlay retains `002000-completeness-and-real-numbers.md` unchanged; it must already be present on the shared baseline. It introduces three new manuscripts and updates the per-track manifest to list all four actual lecture files. The real index is validated against the numbered files in the track directory, not by fabricating missing entries.
+The first Agent C overlay retained `002000-completeness-and-real-numbers.md` unchanged and introduced three additional manuscripts, producing four initial lectures. The present continuation overlay adds 005000–008000 without rewriting any earlier manuscript. The track manifest now indexes eight real lecture files; the overlay must be applied **after the first Agent C overlay**. No future lecture is indexed as available before its manuscript exists.

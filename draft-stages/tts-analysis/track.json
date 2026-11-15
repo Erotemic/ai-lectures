@@ -8,7 +8,9 @@
   "sections": [
     "sequences",
     "function-limits",
-    "compact-intervals"
+    "compact-intervals",
+    "differentiation",
+    "integration"
   ],
   "lectures": [
     {
@@ -46,6 +48,42 @@
       "spoken_words": 2077,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 14.3
+    },
+    {
+      "id": "005000",
+      "title": "The Derivative as a Local Linear Approximation",
+      "section": "differentiation",
+      "file": "005000-derivatives-and-linear-approximation.md",
+      "spoken_words": 1902,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1
+    },
+    {
+      "id": "006000",
+      "title": "The Mean Value Theorem: From Local Slopes to Global Bounds",
+      "section": "differentiation",
+      "file": "006000-mean-value-theorem-and-error-bounds.md",
+      "spoken_words": 1987,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.7
+    },
+    {
+      "id": "007000",
+      "title": "Building an Integral from Finite Sums",
+      "section": "integration",
+      "file": "007000-riemann-integration-from-sums.md",
+      "spoken_words": 2010,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.9
+    },
+    {
+      "id": "008000",
+      "title": "The Fundamental Theorem of Calculus: Recovering Change from Rates",
+      "section": "integration",
+      "file": "008000-fundamental-theorem-of-calculus.md",
+      "spoken_words": 2019,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.9
     }
   ]
 }
