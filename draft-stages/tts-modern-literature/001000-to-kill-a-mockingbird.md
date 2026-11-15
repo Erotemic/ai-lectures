@@ -1,5 +1,7 @@
 # To Kill a Mockingbird: The Stories a Town Tells About Itself
 
+> **Listening path:** For a full story refresher first, listen to `000200` (Maycomb and the Radleys), `000500` (the trial), and `000800` (after the verdict). This is the interpretive lecture. All four contain spoilers.
+
 <!-- BEGIN SPOKEN LECTURE -->
 
 ## A town, a porch, and a verdict

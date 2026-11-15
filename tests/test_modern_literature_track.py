@@ -42,12 +42,13 @@ def test_modern_literature_reader(tmp_path):
         with TestClient(create_app(renders, audio_library=hub)) as client:
             tracks = client.get('/api/audio-tracks').json()['tracks']
             catalog = {item['id']:item for item in tracks}
-            assert catalog['modern-literature']['count'] == 9
+            expected = json.loads((MODERN_LITERATURE_DIRECTORY/'track.json').read_text())['lectures']
+            assert catalog['modern-literature']['count'] == len(expected)
             assert catalog['modern-literature']['url'] == '/audio?track=modern-literature'
             assert catalog['modern-literature']['label'] == json.loads((MODERN_LITERATURE_DIRECTORY/'track.json').read_text())['title']
             listing = client.get('/api/audio-lectures',params={'track':'modern-literature'})
             assert listing.status_code == 200
-            assert [item['id'] for item in listing.json()['items']] == ['001000', '002000', '003000', '004000', '005000', '006000', '007000', '008000', '009000']
+            assert [item['id'] for item in listing.json()['items']] == [row['id'] for row in expected]
             detail = client.get('/api/audio-lectures/001000',params={'track':'modern-literature'})
             assert detail.status_code == 200
             doc = detail.json()
@@ -67,7 +68,8 @@ def test_literature_time_period_and_source_anchors():
     root = MODERN_LITERATURE_DIRECTORY
     manifest = json.loads((root/'track.json').read_text())
     catalog = json.loads((root/'metadata/sources.json').read_text())['sources']
-    assert [int(row['id']) for row in manifest['lectures']] == list(range(1000, 10000, 1000))
+    ids = [int(row['id']) for row in manifest['lectures']]
+    assert ids == sorted(set(ids)), 'Lecture IDs must be unique and ordered for listening'
     for row in manifest['lectures']:
         assert row['draft_status'] == 'substantive'
         text = (root/row['file']).read_text()
