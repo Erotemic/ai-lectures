@@ -21,3 +21,26 @@
 
 Do not impose a fixed story duration. The age range is **3–4**, primarily age 3.
 These are editorial questions, not a validator checklist.
+
+## Added: small choices, curiosity and relationships
+
+- 004000 — small boundary, disappointment and a freely offered turn
+- 005000 — evidence before certainty, no embarrassment for revising a guess
+- 006000 — legitimate frustration, rest, another strategy and support
+- 007000 — do not assume a missed greeting was about you
+- 008000 — asking for trusted help while preserving a child's ownership
+- 009000 — different perspectives and a practical alternative
+
+**Parent-facing evidence:** Every new story has a non-spoken cited rationale and
+optional prompt, with references and limits recorded in PARENTS_GUIDE.md and
+metadata sidecars. No claim of measured developmental efficacy.
+
+### Next evaluation questions
+
+- Does the TTS narrator handle brief dialogue, repeated refrains and softer
+  endings naturally? Keep all voices in a consistent narrator register.
+- Do caregivers find the parent reading useful without wanting lectures in
+  the child's narration?
+- Is the balance of gentle conflict and settling suitable for the individual child?
+- A future story could explore saying no to unwanted affection or contacting
+  a trusted adult, but only with child-safety review; toy sharing is not a substitute.

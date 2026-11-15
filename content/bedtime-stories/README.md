@@ -17,8 +17,29 @@ course browser; each story sidecar repeats genre and age-range metadata.
 | 001000 | [Moss and the Missing Blanket](001000-moss-and-the-missing-blanket.md) | A small mystery with a reassuring resolution |
 | 002000 | [The Little Cloud That Couldn't Settle](002000-the-little-cloud-that-couldnt-settle.md) | A cumulative journey with a repeated phrase |
 | 003000 | [Nia and the Moonlight Garden](003000-nia-and-the-moonlight-garden.md) | A quiet sensory discovery with a caregiver |
+| 004000 | [Moss and the Two Shovels](004000-moss-and-the-two-shovels.md) | Kindness and keeping a boundary |
+| 005000 | [The Footprints by the Pond](005000-the-footprints-by-the-pond.md) | Wondering, checking, revising a guess |
+| 006000 | [Pip's Tower Falls Down](006000-pips-tower-falls-down.md) | Disappointment and flexible problem solving |
+| 007000 | [The Hedgehog Who Didn't Say Hello](007000-the-hedgehog-who-didnt-say-hello.md) | Other people can have reasons we do not see |
+| 008000 | [The Little Bird Who Needed Help](008000-the-little-bird-who-needed-help.md) | Asking for help while keeping agency |
+| 009000 | [The Very Important Puddle](009000-the-very-important-puddle.md) | The same thing can matter differently to different people |
 
-The three stories require no character-specific synthesized voices: dialogue
+## Parents' rationale and citations (004000–009000)
+
+[**A quiet guide for parents and caregivers**](PARENTS_GUIDE.md) explains the
+six intended themes, gives optional conversation prompts, and links directly
+to age-relevant child-development guidance. Each new story has an unspoken
+**For parents and caregivers** section with its own citations, and the
+corresponding metadata sidecar contains `rationale_citations` mapping exact
+story passages to source IDs and scope notes. `metadata/sources.json` stores
+reference titles, institutional authorship, publication dates, sections, and
+limitations. These references support **editorial approaches**, not claims
+that our stories have been tested or cause measured learning outcomes.
+
+The original three pilot stories (001000–003000) remain unchanged and are
+original fiction without claimed developmental intervention effects.
+
+The **nine** stories require no character-specific synthesized voices: dialogue
 is reported by the narrator, or is absent. The stories are not required to
 have a particular duration. They stand alone even though one includes a small
 cross-story reference.
@@ -29,10 +50,11 @@ The exact TTS text is between the `BEGIN SPOKEN LECTURE` and `END SPOKEN
 LECTURE` markers. Author companions below the end marker give reading notes
 and explain what the story is trying to accomplish. They are **not** spoken.
 
-All three manuscripts are newly authored original fiction. They do not adapt
-published plots or reuse external story text. `metadata/sources.json` is
-intentionally empty; original fictional descriptions and bedtime choices should
-not be misrepresented as scientific findings about childhood development.
+All nine manuscripts are newly authored original fiction. They do not adapt
+published plots or reuse external story text. `metadata/sources.json` holds
+parent-facing developmental references for 004000–009000 only. Original
+fictional descriptions and bedtime choices should not be misrepresented as
+scientific findings about childhood development.
 
 ## Suggested pilot evaluation
 

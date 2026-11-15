@@ -1,7 +1,7 @@
 {
   "id": "bedtime-stories",
   "title": "Children's Bedtime Stories (Ages 3–4)",
-  "summary": "Original, gentle, audio-first bedtime stories for children ages 3 to 4, written primarily for a three-year-old listener. Each standalone story uses one narrator and ends calmly, without relying on character voices, music, or sound effects.",
+  "summary": "Original, gentle, audio-first bedtime stories for children ages 3 to 4, written primarily for a three-year-old listener. All nine standalone stories use one narrator, and the later six include non-spoken parent rationales with linked developmental references and explicit evidence limits. Every story ends calmly without relying on character voices, music or sound effects.",
   "assumed_background": [
     "Designed for listeners ages 3–4; no prior familiarity with the characters or other episodes required."
   ],
@@ -17,7 +17,10 @@
   "sections": [
     "small-mysteries",
     "gentle-journeys",
-    "nighttime-discoveries"
+    "nighttime-discoveries",
+    "friendship-and-boundaries",
+    "resilience-and-help",
+    "other-perspectives"
   ],
   "lectures": [
     {
@@ -50,6 +53,72 @@
       "spoken_words": 573,
       "draft_status": "substantive",
       "description": "A child and her grandmother identify three small nighttime sounds before returning to bed.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    },
+    {
+      "id": "004000",
+      "title": "Moss and the Two Shovels",
+      "section": "friendship-and-boundaries",
+      "file": "004000-moss-and-the-two-shovels.md",
+      "spoken_words": 660,
+      "draft_status": "substantive",
+      "description": "Moss keeps using his shovel; Pip finds another way to play, and the friends build a small world side by side.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    },
+    {
+      "id": "005000",
+      "title": "The Footprints by the Pond",
+      "section": "small-mysteries",
+      "file": "005000-the-footprints-by-the-pond.md",
+      "spoken_words": 565,
+      "draft_status": "substantive",
+      "description": "Pip and Moss make guesses about marks beside a pond, then watch a small duck drag a twig through the mud.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    },
+    {
+      "id": "006000",
+      "title": "Pip's Tower Falls Down",
+      "section": "resilience-and-help",
+      "file": "006000-pips-tower-falls-down.md",
+      "spoken_words": 612,
+      "draft_status": "substantive",
+      "description": "A fallen block tower disappoints Pip; after a break and help with one step, he builds a different little house.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    },
+    {
+      "id": "007000",
+      "title": "The Hedgehog Who Didn't Say Hello",
+      "section": "other-perspectives",
+      "file": "007000-the-hedgehog-who-didnt-say-hello.md",
+      "spoken_words": 589,
+      "draft_status": "substantive",
+      "description": "Moss takes a missed greeting personally but learns that Hazel was occupied in the wind.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    },
+    {
+      "id": "008000",
+      "title": "The Little Bird Who Needed Help",
+      "section": "resilience-and-help",
+      "file": "008000-the-little-bird-who-needed-help.md",
+      "spoken_words": 668,
+      "draft_status": "substantive",
+      "description": "Tavi tries to hang a leaf curtain, asks Mama Bird to steady one side, and completes the job.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    },
+    {
+      "id": "009000",
+      "title": "The Very Important Puddle",
+      "section": "other-perspectives",
+      "file": "009000-the-very-important-puddle.md",
+      "spoken_words": 605,
+      "draft_status": "substantive",
+      "description": "Pip plays in a puddle, Hazel notices the sky reflected in it, and Moss finds a dry way around.",
       "genre": "children_bedtime_stories",
       "age_range_label": "Ages 3–4"
     }
