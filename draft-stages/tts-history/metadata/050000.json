@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "lecture_id": "050000",
+  "transcript": "050000-fermat.md",
+  "related_resources": [
+    {
+      "source_id": "history-fermat-mactutor",
+      "reason": "Legal profession, birth-date debate, correspondence, mathematics"
+    },
+    {
+      "source_id": "history-fermat-cambridge",
+      "reason": "Career as magistrate and dispute with Descartes"
+    },
+    {
+      "source_id": "history-fermat-last",
+      "reason": "Wiles and Taylor chronology; surviving Fermat marginal note"
+    },
+    {
+      "source_id": "history-fermat-little",
+      "reason": "Prime residue permutation proof"
+    },
+    {
+      "source_id": "history-fermat-optics",
+      "reason": "Stationary optical travel-time principle"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "050000-h01",
+      "anchor": "lived in seventeenth-century France",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermat-mactutor"
+      ],
+      "source_locator": "Chronology and region",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "050000-h02",
+      "anchor": "lawyer and public official",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermat-mactutor",
+        "history-fermat-cambridge"
+      ],
+      "source_locator": "Legal office and scholarly network",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "050000-h03",
+      "anchor": "scholarship has raised questions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermat-mactutor"
+      ],
+      "source_locator": "Disputed 1601 vs 1607 birth identification",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "050000-h04",
+      "anchor": "Pierre de Carcavi",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermat-mactutor"
+      ],
+      "source_locator": "Connection with Mersenne",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "050000-h05",
+      "anchor": "method of adequality",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermat-mactutor"
+      ],
+      "source_locator": "Maxima, minima and tangent work",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "050000-h06",
+      "anchor": "René Descartes",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermat-cambridge",
+        "history-fermat-mactutor"
+      ],
+      "source_locator": "Tangent and optics dispute",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "050000-h07",
+      "anchor": "exchanged letters with Blaise Pascal",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermat-mactutor"
+      ],
+      "source_locator": "1654 correspondence on probability",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "050000-h08",
+      "anchor": "In the margin of a book by Diophantus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermat-mactutor",
+        "history-fermat-last"
+      ],
+      "source_locator": "Fermat Last Theorem marginal note",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "050000-h09",
+      "anchor": "Andrew Wiles, with a correction developed jointly with Richard Taylor",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermat-last"
+      ],
+      "source_locator": "Modern proof chronology",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "050000-h10",
+      "anchor": "died in sixteen sixty-five",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermat-mactutor"
+      ],
+      "source_locator": "Death and posthumous publication",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

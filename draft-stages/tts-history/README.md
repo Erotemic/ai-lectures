@@ -1,6 +1,6 @@
 # History · People and ideas
 
-The History track contains **46 substantive, standalone historical portraits**, including the original 28 and eighteen additional subjects. All narration is self-contained for a reader with the background indicated in each lecture. Historical claims have linked research sources in `metadata/sources.json`; mathematical appendices after the spoken markers preserve exact formulas without burdening narration.
+The History track contains **50 substantive, standalone historical portraits**, including the original 28 and eighteen additional subjects. All narration is self-contained for a reader with the background indicated in each lecture. Historical claims have linked research sources in `metadata/sources.json`; mathematical appendices after the spoken markers preserve exact formulas without burdening narration.
 
 The newest additions are:
 
@@ -58,3 +58,23 @@ Chandler Davis (`018000`), William Kahan (`019000`), Per-Åke Wedin (`020000`), 
 - **046000 — Srinivasa Ramanujan**: [Srinivasa Ramanujan: How can patterns in numbers become theorems?](046000-ramanujan.md). 2,698 spoken words; approximately 18.6 minutes at 145 words per minute.
 
 These four manuscripts were authored as a separate History expansion following the existing portrait backlog. They contain no image, generated audio, binary assets, or changes to Agent D’s music theory namespace. Sources are in the track-level source registry and each lecture’s metadata file.
+
+
+## Portraits 047000–050000: theories, inventions and proofs
+
+- **047000 — Paul Dirac:** a source-grounded portrait of his Bristol upbringing, engineering training, Cambridge work, family, and the mathematical factorization behind his relativistic electron equation. Distinguishes the 1928 theory, Dirac's changing interpretation, and the 1932 positron observation.
+- **048000 — Nikola Tesla:** explicitly an electrical engineer rather than a mathematician, included as an applied-mathematics portrait. Develops the rotating magnetic-field vector, slip, polyphase power and transmission losses, while distinguishing independently developed inventions and an unrealized wireless-power proposal.
+- **049000 — Johannes Kepler:** Tycho's measurements, the eight-arcminute discrepancy, ellipse geometry, equal areas, the harmonic period law, family and religious upheaval, and the legal defense of Katharina Kepler. Newtonian interpretations are identified as later explanations.
+- **050000 — Pierre de Fermat:** a lawyer's mathematical correspondence, an accessible proof of the little theorem, tangents, Pascal's probability question, optics, infinite descent, and the historical distinction between an announced theorem and a surviving proof.
+
+The source registry and claim metadata for these lectures are local to this track. No new binary media, shared reader edits, or changes to any of the four independent agents' owned namespaces are included.
+
+
+## Portraits 047000–050000: theories, inventions and proofs
+
+- **047000 — Paul Dirac:** a source-grounded portrait of his Bristol upbringing, engineering training, Cambridge work, family, and the mathematical factorization behind his relativistic electron equation. Distinguishes the 1928 theory, Dirac's changing interpretation, and the 1932 positron observation.
+- **048000 — Nikola Tesla:** explicitly an electrical engineer rather than a mathematician, included as an applied-mathematics portrait. Develops the rotating magnetic-field vector, slip, polyphase power and transmission losses, while distinguishing independently developed inventions and an unrealized wireless-power proposal.
+- **049000 — Johannes Kepler:** Tycho's measurements, the eight-arcminute discrepancy, ellipse geometry, equal areas, the harmonic period law, family and religious upheaval, and the legal defense of Katharina Kepler. Newtonian interpretations are identified as later explanations.
+- **050000 — Pierre de Fermat:** a lawyer's mathematical correspondence, an accessible proof of the little theorem, tangents, Pascal's probability question, optics, infinite descent, and the historical distinction between an announced theorem and a surviving proof.
+
+The source registry and claim metadata for these lectures are local to this track. No new binary media, shared reader edits, or changes to any of the four independent agents' owned namespaces are included.

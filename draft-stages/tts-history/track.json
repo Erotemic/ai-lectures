@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "Forty-six substantive standalone portraits of mathematicians, statisticians, computer scientists and closely related researchers, with biographical evidence and mathematical explanations.",
+  "summary": "Fifty substantive standalone portraits of mathematicians, statisticians, physicists, computing researchers and closely related scientists, with documented human context and worked mathematics.",
   "assumed_background": [
     "elementary vectors and eigenvalues; advanced concepts are introduced locally"
   ],
@@ -24,7 +24,10 @@
     "alexandrian-mathematics",
     "measure-theory",
     "machine-learning",
-    "additive-combinatorics"
+    "additive-combinatorics",
+    "foundations-of-physics",
+    "engineering-and-mathematics",
+    "celestial-mechanics"
   ],
   "lectures": [
     {
@@ -532,6 +535,50 @@
       "draft_status": "substantive",
       "source_g2": null,
       "estimated_minutes_at_145_wpm": 18.6
+    },
+    {
+      "id": "047000",
+      "title": "Paul Dirac: What sort of mathematics could make antimatter possible?",
+      "person": "Paul Dirac",
+      "section": "foundations-of-physics",
+      "file": "047000-dirac.md",
+      "spoken_words": 2213,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 15.3
+    },
+    {
+      "id": "048000",
+      "title": "Nikola Tesla: How can mathematics make a magnetic field rotate?",
+      "person": "Nikola Tesla",
+      "section": "engineering-and-mathematics",
+      "file": "048000-tesla.md",
+      "spoken_words": 2109,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 14.5
+    },
+    {
+      "id": "049000",
+      "title": "Johannes Kepler: Why would a planet abandon the perfect circle?",
+      "person": "Johannes Kepler",
+      "section": "celestial-mechanics",
+      "file": "049000-kepler.md",
+      "spoken_words": 2194,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 15.1
+    },
+    {
+      "id": "050000",
+      "title": "Pierre de Fermat: What can a mathematical challenge prove?",
+      "person": "Pierre de Fermat",
+      "section": "number-theory",
+      "file": "050000-fermat.md",
+      "spoken_words": 2397,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 16.5
     }
   ],
   "editorial_policy": "Expose only researched substantive portraits. Draft biographies live in stubs/ until expanded, checked and promoted."
