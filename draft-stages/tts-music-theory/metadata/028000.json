@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "lecture_id": "028000",
+  "transcript": "028000-measuring-and-listening-to-a-mix.md",
+  "related_resources": [
+    {
+      "source_id": "mt-itu-bs1770-5",
+      "reason": "ITU-R BS.1770-5 true-peak algorithm and estimator."
+    },
+    {
+      "source_id": "mt-ebu-r128-2023",
+      "reason": "Loudness algorithm and broadcast loudness convention."
+    },
+    {
+      "source_id": "mt-ardour-export-dialog",
+      "reason": "Export Report section."
+    },
+    {
+      "source_id": "mt-ardour-loudness",
+      "reason": "Loudness Analyzer and Normalizer warning about export normalization."
+    },
+    {
+      "source_id": "mt-itu-bs1116-3",
+      "reason": "Specific scope of standard."
+    },
+    {
+      "source_id": "mt-itu-bs1534-3",
+      "reason": "Specific scope of standard."
+    },
+    {
+      "source_id": "mt-dawdreamer-threading",
+      "reason": "GIL release, independent engine per worker, serialization for loading and Faust compilation."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "A true-peak estimator uses oversampling",
+      "source_ids": [
+        "mt-itu-bs1770-5"
+      ],
+      "evidence_detail": "ITU-R BS.1770-5 true-peak algorithm and estimator.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Recommendation ITU-R BS.1770-5 provides standardized algorithms",
+      "source_ids": [
+        "mt-itu-bs1770-5"
+      ],
+      "evidence_detail": "Normative standard title and edition.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The resulting integrated loudness is commonly expressed in LUFS",
+      "source_ids": [
+        "mt-itu-bs1770-5",
+        "mt-ebu-r128-2023"
+      ],
+      "evidence_detail": "Loudness algorithm and broadcast loudness convention.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Its November 2023 version recommends an average programme loudness of minus twenty-three LUFS",
+      "source_ids": [
+        "mt-ebu-r128-2023"
+      ],
+      "evidence_detail": "EBU R128 v5.0 2023 summary, context limited to broadcast.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Its export report gives file format, sample rate, peak, true peak and integrated loudness",
+      "source_ids": [
+        "mt-ardour-export-dialog"
+      ],
+      "evidence_detail": "Export Report section.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The manual also warns against accidentally applying one normalization",
+      "source_ids": [
+        "mt-ardour-loudness"
+      ],
+      "evidence_detail": "Loudness Analyzer and Normalizer warning about export normalization.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "ITU-R BS.1116-3 concerns the assessment of small impairments",
+      "source_ids": [
+        "mt-itu-bs1116-3"
+      ],
+      "evidence_detail": "Specific scope of standard.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "ITU-R BS.1534-3 describes a method for intermediate-quality impairments",
+      "source_ids": [
+        "mt-itu-bs1534-3"
+      ],
+      "evidence_detail": "Specific scope of standard.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "DawDreamer's documented threading guide describes private engines per worker",
+      "source_ids": [
+        "mt-dawdreamer-threading"
+      ],
+      "evidence_detail": "GIL release, independent engine per worker, serialization for loading and Faust compilation.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Mix A measures minus twelve LUFS integrated",
+      "source_ids": [
+        "mt-itu-bs1770-5"
+      ],
+      "evidence_detail": "Hypothetical data: explicitly fabricated to reason about gain; standard only substantiates metric definitions.",
+      "provenance": "original_example"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Anchor is a verbatim substring of the spoken lecture. source_backed and supported_interpretation mean the linked source actually addresses the topic; original_* claims are authored examples, not claims that a linked source measured or endorsed the example."
+}

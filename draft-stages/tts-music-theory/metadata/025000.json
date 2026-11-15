@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025000",
+  "transcript": "025000-from-room-to-recorded-track.md",
+  "related_resources": [
+    {
+      "source_id": "mt-shure-mic-recording",
+      "reason": "Directional pickup/placement are source-based; illustrated guitar positions are original reasoning."
+    },
+    {
+      "source_id": "mt-shure-sm58",
+      "reason": "SM58 Proximity Effect section; illustrative only for this model and class."
+    },
+    {
+      "source_id": "mt-ardour-latency",
+      "reason": "Propagation is a distinct latency source; 343 m/s and 140-sample arithmetic are author-calculated assumptions, not a measured sample."
+    },
+    {
+      "source_id": "mt-ardour-monitor-flow",
+      "reason": "Monitoring route choices from named manual sections."
+    },
+    {
+      "source_id": "mt-ardour-monitor-setup",
+      "reason": "Monitoring route choices from named manual sections."
+    },
+    {
+      "source_id": "mt-dawdreamer-userguide",
+      "reason": "Graph and audio rendering architecture; rest is general author reasoning."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "The microphone is not at the musician's ears",
+      "source_ids": [
+        "mt-shure-mic-recording"
+      ],
+      "evidence_detail": "Directional pickup/placement are source-based; illustrated guitar positions are original reasoning.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "An ideal omnidirectional microphone responds similarly",
+      "source_ids": [
+        "mt-shure-mic-recording"
+      ],
+      "evidence_detail": "Directionality section; idealization explicitly qualified.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Many directional microphones also change their bass response",
+      "source_ids": [
+        "mt-shure-sm58"
+      ],
+      "evidence_detail": "SM58 Proximity Effect section; illustrative only for this model and class.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "For an illustrative speed of sound of 343 metres per second",
+      "source_ids": [
+        "mt-ardour-latency"
+      ],
+      "evidence_detail": "Propagation is a distinct latency source; 343 m/s and 140-sample arithmetic are author-calculated assumptions, not a measured sample.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "Ardour's manual distinguishes sound traveling through air",
+      "source_ids": [
+        "mt-ardour-latency"
+      ],
+      "evidence_detail": "Latency and Latency-Compensation, Sources of Latency and Latency Chain.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "A buffer of 256 samples at forty-eight kilohertz",
+      "source_ids": [
+        "mt-ardour-latency"
+      ],
+      "evidence_detail": "Block concept corroborated, value 256/48000 original arithmetic; not round-trip guarantee.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "Ardour provides three broad monitoring strategies",
+      "source_ids": [
+        "mt-ardour-monitor-flow",
+        "mt-ardour-monitor-setup"
+      ],
+      "evidence_detail": "Monitoring route choices from named manual sections.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Ardour's latency-compensation documentation explains its read-ahead approach",
+      "source_ids": [
+        "mt-ardour-latency"
+      ],
+      "evidence_detail": "Explicit discussion of read-ahead/write-behind.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "A loopback calibration answers the second question",
+      "source_ids": [
+        "mt-ardour-latency"
+      ],
+      "evidence_detail": "Calibrating JACK Latency; backend/hardware-specific caveat.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "If the guitar part is instead generated as MIDI and rendered through DawDreamer",
+      "source_ids": [
+        "mt-dawdreamer-userguide"
+      ],
+      "evidence_detail": "Graph and audio rendering architecture; rest is general author reasoning.",
+      "provenance": "supported_interpretation"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Anchor is a verbatim substring of the spoken lecture. source_backed and supported_interpretation mean the linked source actually addresses the topic; original_* claims are authored examples, not claims that a linked source measured or endorsed the example."
+}

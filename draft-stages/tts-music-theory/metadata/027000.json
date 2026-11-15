@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "lecture_id": "027000",
+  "transcript": "027000-what-a-spectrogram-can-and-cannot-tell-you.md",
+  "related_resources": [
+    {
+      "source_id": "mt-smith-stft",
+      "reason": "Named mathematical transform defined by cited sources."
+    },
+    {
+      "source_id": "mt-cmu-stft",
+      "reason": "Named mathematical transform defined by cited sources."
+    },
+    {
+      "source_id": "mt-smith-leakage",
+      "reason": "Distinguish sampled-grid interpolation from observation duration."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "This is the short-time Fourier transform, or STFT",
+      "source_ids": [
+        "mt-smith-stft",
+        "mt-cmu-stft"
+      ],
+      "evidence_detail": "Named mathematical transform defined by cited sources.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "A long analysis window includes more cycles of a low note",
+      "source_ids": [
+        "mt-smith-stft"
+      ],
+      "evidence_detail": "Time/frequency trade-off in STFT discussion.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "A window of two thousand forty-eight samples spans approximately 42.67 milliseconds",
+      "source_ids": [
+        "mt-smith-stft"
+      ],
+      "evidence_detail": "Author-calculated STFT sample math; source explains meaning of the parameters.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "Zero padding interpolates the transform's samples",
+      "source_ids": [
+        "mt-smith-stft",
+        "mt-smith-leakage"
+      ],
+      "evidence_detail": "Distinguish sampled-grid interpolation from observation duration.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "The resulting frequency-domain energy leaks away",
+      "source_ids": [
+        "mt-smith-leakage",
+        "mt-cmu-stft"
+      ],
+      "evidence_detail": "Source discussion of leakage from finite window and tapering.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "A complex Fourier coefficient has both magnitude and phase",
+      "source_ids": [
+        "mt-smith-stft"
+      ],
+      "evidence_detail": "STFT complex coefficient and display transformations.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "A spectrogram can suggest that the guitar fills the lead's register",
+      "source_ids": [
+        "mt-smith-stft"
+      ],
+      "evidence_detail": "Interpretation explicitly identified as hypothesis, not source-derived perceptual guarantee.",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "Smith's STFT treatment then connects analysis to overlap-add and reconstruction",
+      "source_ids": [
+        "mt-smith-stft"
+      ],
+      "evidence_detail": "Analysis-modification-resynthesis discussion and window/hop conditions.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "If we modify only the magnitude and then try to turn it back into audio",
+      "source_ids": [
+        "mt-smith-stft"
+      ],
+      "evidence_detail": "Phase relation is analytic inference from complex-valued transform.",
+      "provenance": "supported_interpretation"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Anchor is a verbatim substring of the spoken lecture. source_backed and supported_interpretation mean the linked source actually addresses the topic; original_* claims are authored examples, not claims that a linked source measured or endorsed the example."
+}

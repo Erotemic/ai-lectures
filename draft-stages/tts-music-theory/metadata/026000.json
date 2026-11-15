@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "lecture_id": "026000",
+  "transcript": "026000-building-a-room-with-samples.md",
+  "related_resources": [
+    {
+      "source_id": "mt-w3c-convolver",
+      "reason": "Convolution principle; timing and coefficients are author-invented exact example."
+    },
+    {
+      "source_id": "mt-allen-berkley-1979",
+      "reason": "ConvolverNode and Allen/Berkley introductory model."
+    },
+    {
+      "source_id": "mt-smith-combfilters",
+      "reason": "Feedback delay/comb filters substantiate elementary building blocks; elaborate networks are general synthesis."
+    },
+    {
+      "source_id": "mt-dawdreamer-userguide",
+      "reason": "Graph topological dependency from their routing models; no performance benchmark claimed."
+    },
+    {
+      "source_id": "mt-ardour-signal-flow",
+      "reason": "Graph topological dependency from their routing models; no performance benchmark claimed."
+    },
+    {
+      "source_id": "mt-ardour-stems",
+      "reason": "Original routing arithmetic illustration; Ardour references support stem/bus routing."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "At forty-eight kilohertz, ten milliseconds corresponds to 480 samples",
+      "source_ids": [
+        "mt-w3c-convolver"
+      ],
+      "evidence_detail": "Convolution principle; timing and coefficients are author-invented exact example.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "The list of delayed impulses and their amplitudes is called an impulse response",
+      "source_ids": [
+        "mt-w3c-convolver",
+        "mt-allen-berkley-1979"
+      ],
+      "evidence_detail": "ConvolverNode and Allen/Berkley introductory model.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Convolution with a fixed impulse response describes a system that is approximately linear",
+      "source_ids": [
+        "mt-w3c-convolver",
+        "mt-allen-berkley-1979"
+      ],
+      "evidence_detail": "Explicit LTI-model assumptions; not a claim all real rooms meet them.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "Jont Allen and David Berkley's 1979 paper on the image method",
+      "source_ids": [
+        "mt-allen-berkley-1979"
+      ],
+      "evidence_detail": "Author/year and small rectangular room paper, JASA 65(4).",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "It has ninety-six thousand taps",
+      "source_ids": [
+        "mt-w3c-convolver"
+      ],
+      "evidence_detail": "Tap count and naive multiplication cost are author-derived, not measured CPU utilization.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "The web audio standard defines a convolution effect through an impulse response",
+      "source_ids": [
+        "mt-w3c-convolver"
+      ],
+      "evidence_detail": "ConvolverNode interface, channel constraints and normalize semantics.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "This is an algorithmic reverberator",
+      "source_ids": [
+        "mt-smith-combfilters"
+      ],
+      "evidence_detail": "Feedback delay/comb filters substantiate elementary building blocks; elaborate networks are general synthesis.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "In a real-time processing graph, it cannot finalize its current block",
+      "source_ids": [
+        "mt-dawdreamer-userguide",
+        "mt-ardour-signal-flow"
+      ],
+      "evidence_detail": "Graph topological dependency from their routing models; no performance benchmark claimed.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "If you export the guitar alone with the entire shared return",
+      "source_ids": [
+        "mt-ardour-stems",
+        "mt-ardour-signal-flow"
+      ],
+      "evidence_detail": "Original routing arithmetic illustration; Ardour references support stem/bus routing.",
+      "provenance": "original_derivation"
+    },
+    {
+      "anchor": "At 120 beats per minute, a quarter note is half a second",
+      "source_ids": [
+        "mt-smith-combfilters"
+      ],
+      "evidence_detail": "Original BPM and sample-count arithmetic, not from Smith.",
+      "provenance": "original_calculation"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Anchor is a verbatim substring of the spoken lecture. source_backed and supported_interpretation mean the linked source actually addresses the topic; original_* claims are authored examples, not claims that a linked source measured or endorsed the example."
+}

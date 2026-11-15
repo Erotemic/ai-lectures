@@ -1,6 +1,6 @@
 # Music Theory and Composition
 
-**Collection:** Twenty-four standalone, audio-first lecture manuscripts. The course is instrument-agnostic and its original text scores remain useful before audio demonstrations are available. Sound-producing examples are an eventual extension, not a requirement for understanding the descriptions.
+**Collection:** Twenty-eight standalone, audio-first lecture manuscripts. The course is instrument-agnostic and its original text scores remain useful before audio demonstrations are available. Sound-producing examples are an eventual extension, not a requirement for understanding the descriptions.
 
 ## Completed and indexed lectures
 
@@ -32,11 +32,16 @@
 | 023000 | [Timing, Phase, and Stereo Space: When Adding Tracks Changes the Sound](023000-timing-phase-and-stereo-space.md) | 2,908 | 20.1 |
 | 024000 | [From Four Agents to One Finished Mix: A Reproducible DawDreamer and Ardour Workflow](024000-building-a-reproducible-production-pipeline.md) | 3,289 | 22.7 |
 
+| 025000 | [From the Room to a Track: Microphones, Monitoring, and Recording Latency](025000-from-room-to-recorded-track.md) | 1,634 | 11.3 |
+| 026000 | [Building a Room with Samples: Delay, Reflections, Convolution, and Reverb](026000-building-a-room-with-samples.md) | 1,830 | 12.6 |
+| 027000 | [What a Spectrogram Can and Cannot Tell You: Windows, Frequency, and Repair](027000-what-a-spectrogram-can-and-cannot-tell-you.md) | 1,737 | 12.0 |
+| 028000 | [Measuring and Listening to a Mix: Loudness, True Peaks, Blind Comparisons, and Provenance](028000-measuring-and-listening-to-a-mix.md) | 2,024 | 14.0 |
+
 Word counts are descriptive: they use whitespace-separated words in the narration extractor output, matching the track inventory. Duration is only a rough read-through estimate, not an editorial target.
 
 ## Course approach
 
-The first twelve lectures move from musical pattern, pitch and rhythm through harmonic and contrapuntal construction, phrase/form analysis, modal center, chromatic harmony, polyrhythms and revision of a sixteen-bar study. The next four lectures extend that foundation into changes of tonal home, **carefully scoped** cross-cultural comparison, timbre and production, and a complete 48-bar two-line study. Lectures 017000–020000 then explain PCM audio, DAW routing and scheduling, the musical problem of combining independent stems, the differences between offline DawDreamer processing and Ardour live mixing, and the decisions involved in mastering and delivery. Lectures 021000–024000 deepen the distinction between MIDI events and actual sound, work through filters and dynamics quantitatively, explain phase and stereo imaging, and give an end-to-end reproducible workflow for multi-agent music production. The final lectures intentionally have the length needed for their subject rather than a runtime target.
+The first twelve lectures move from musical pattern, pitch and rhythm through harmonic and contrapuntal construction, phrase/form analysis, modal center, chromatic harmony, polyrhythms and revision of a sixteen-bar study. The next four lectures extend that foundation into changes of tonal home, **carefully scoped** cross-cultural comparison, timbre and production, and a complete 48-bar two-line study. Lectures 017000–020000 then explain PCM audio, DAW routing and scheduling, the musical problem of combining independent stems, the differences between offline DawDreamer processing and Ardour live mixing, and the decisions involved in mastering and delivery. Lectures 021000–024000 deepen the distinction between MIDI events and actual sound, work through filters and dynamics quantitatively, explain phase and stereo imaging, and give an end-to-end reproducible workflow for multi-agent music production. The final lectures intentionally have the length needed for their subject rather than a runtime target. Lectures 025000–028000 add capture and monitoring physics, the mathematical and routing models of room effects, spectrogram limitations, and source-grounded mix assessment.
 
 Examples in `examples/` are optional machine-readable companions to some earlier scores. There is no claim that written pitch grids capture the intonation, ornamentation, idiom, or artistic effect of every musical practice. For traditions best transmitted through performance and listening, further training and direct encounters with sound remain essential.
 
@@ -47,6 +52,10 @@ Examples in `examples/` are optional machine-readable companions to some earlier
 3. Deeper contrapuntal techniques, imitation, canon, and multi-voice arrangement.
 4. Listening-based mix comparisons, production sessions with source-linked authorized audio, and feedback-led edits to actual sounding work.
 5. Additional large-scale formal types and composition contexts beyond major/minor tonal writing.
+
+## Detailed attribution practice for 025000–028000
+
+The last four lectures each contain a **source-to-claim reading map** with direct links and section-level explanations, not just a generic bibliography. Their metadata sidecars have a `claim_evidence` array recording a verbatim narration anchor, source IDs, why the source is relevant, and provenance. An `original_calculation`, `original_example`, or `editorial_inference` is *explicitly not* represented as an experimental result in the cited document. The sources are primarily official manuals, standards, university books, and peer-reviewed research. This is a stronger, local attribution contract; it does not automatically certify every editorial judgment or imply that an online source contains a particular illustrative score.
 
 ## Reference and integrity conventions
 

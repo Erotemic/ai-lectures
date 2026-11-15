@@ -1,0 +1,75 @@
+# 027000 — What a Spectrogram Can and Cannot Tell You: Windows, Frequency, and Repair
+
+**Track:** Music Theory and Composition. **Audience:** producers interested in quantitative analysis, noisy recordings, spectral editing, and programmatic rendering. **Prerequisites:** samples, amplitude, frequency, and FFTs as a general concept; precise Fourier mathematics appears only in the companion. **Purpose:** make measurement a means of asking better musical questions rather than an oracle.
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+# What a Spectrogram Can and Cannot Tell You: Windows, Frequency, and Repair
+
+An engineer opens a recording of a plucked guitar string. The waveform shows oscillations that decrease in amplitude. A spectrum display shows energy around a fundamental frequency and higher harmonics. A spectrogram presents a colored pattern over time. It seems as if the computer can now see the instrument: bright horizontal lines for sustained pitches, brief vertical patterns for attacks, and a low haze for background noise. But what did the program actually measure? And what have those colors hidden?
+
+The original samples are simply numbers ordered in time. To estimate which frequencies contribute to a small portion, we extract a finite window of those numbers and calculate a Fourier transform. The transform describes the contribution of a particular set of oscillatory patterns within that window. We do it again with a window shifted forward, then again, constructing a sequence of local spectra. This is the short-time Fourier transform, or STFT. Julius O. Smith's online text *Spectral Audio Signal Processing* develops exactly that framework. The colors on a spectrogram are a later visualization of magnitudes, powers, or logarithmically transformed values; they are not properties painted directly onto the waveform by nature.
+
+The window is a decision. A long analysis window includes more cycles of a low note and can help distinguish nearby sinusoidal components. It also mixes together more of the time during which the sound may have changed. A short window places an attack more accurately in time, but has coarser ability to separate close frequencies in the simplest display. These are connected constraints, not two independent quality sliders. It is misleading to advertise a spectrogram as having both arbitrarily fine time and frequency discrimination merely because its image has many pixels.
+
+Let's use an exact numerical example. A forty-eight kilohertz recording contains forty-eight thousand samples per second. A window of two thousand forty-eight samples spans approximately 42.67 milliseconds. If its Fourier transform uses two thousand forty-eight bins, the frequency-bin spacing is 23.4375 hertz. A shift of five hundred twelve samples between successive windows produces a new analysis every 10.67 milliseconds. That last number is the hop interval, not the duration of a window. Adjacent windows substantially overlap. For a sustained tone, the result may show a stable ridge. For a sharp drum attack, the energy spreads across many frequencies and some of the windowed frames around the attack.
+
+A common mistake follows from the phrase frequency resolution. The bin spacing tells us how densely the transform samples its frequency axis. It does not alone tell us the effective ability to distinguish two neighboring tones. That also depends on window duration and shape, signal-to-noise ratio, and what estimation algorithm is applied. Suppose we append zeros to the two-thousand-forty-eight-sample window and compute an eight-thousand-one-hundred-ninety-two-point transform. The frequency grid now has spacing of about 5.86 hertz. The display may look smoother, but no new measurement of the guitar was taken. The original time window still lasts 42.67 milliseconds. Zero padding interpolates the transform's samples; it does not grant the time support of a four-times-longer recorded passage.
+
+The window's shape also matters. If we cut out a segment with a hard rectangular boundary, a sinusoid whose period does not fit neatly in the segment is abruptly truncated. The resulting frequency-domain energy leaks away from its nominal frequency. A Hann window gradually tapers near the edges, reducing many sidelobes while broadening the main lobe. This is a trade-off, not a free increase in information. Smith's *Mathematics of the DFT* explains the origin of spectral leakage, and Carnegie Mellon's introductory computer-music chapter gives an accessible comparison of windows. When a spectrogram shows a broad smudge around a quiet tone, part of the smudge may come from the analysis procedure itself.
+
+Now imagine two sustained notes, A and B, very close in frequency. A broad short-window spectrum may merge them into one hump. Increasing the window duration can help separate them, but if one note slides during the window, that longer time average can distort our story about pitch movement. A spectrogram is a family of questions, selected by its settings. We should record those settings when making claims based on an image. Without the sample rate, window length, window function, hop size and display scaling, a screenshot is not a fully specified measurement.
+
+A second question concerns phase. A complex Fourier coefficient has both magnitude and phase. Many spectrograms visualize the magnitude and discard the phase from the display. Two different time-domain signals can share a similar magnitude spectrum while differing in temporal structure. If we modify only the magnitude and then try to turn it back into audio, we must decide how to reconstruct or reuse phase. Otherwise we do not have a complete specification of the new waveform. This is why painting away a bright stripe is not equivalent to deleting a tiny independent instrument from a recording. Each visible spectral patch is generated by overlapping windows containing contributions from several sources.
+
+Let's make a hypothetical repair. A microphone recording of a speech line includes a stable 60-hertz hum and its harmonics. A spectrogram shows narrow horizontal lines. One remedy is a series of narrow notch filters, designed carefully not to damage desired energy at those frequencies. Another is spectral suppression that estimates the hum and reduces particular time-frequency bins. Which is better depends on the actual signal. A notch might affect a bass note that happens to be near the same frequency. Spectral processing may introduce warbling or metallic artifacts if its estimates fluctuate over time. The picture can guide the hypothesis; it cannot certify that the processed sound is better.
+
+Suppose the interference is instead a short click. Its energy is concentrated in time and spread across many frequencies. A frequency-only correction is clumsy because it may remove an entire frequency band throughout the recording to fix one moment. A time-local repair might fit the problem better. Conversely, a persistent tonal whistle may be difficult to eliminate through a simple splice of waveform samples. The distinction is not that time-domain editors are primitive while spectral editors are advanced. The representation should fit the error being addressed.
+
+An agent that renders its own synthetic instrument has a further option: repair the cause before the sound exists. If a MIDI part contains an accidentally sustained note, removing the note event and re-rendering the instrument may be cleaner than attempting to isolate the note's harmonic ridges from a mixed waveform. If a synthesizer patch includes an unwanted oscillator component, adjusting its parameters may be better than erasing frequencies after the fact. But if the agent receives a single live recording with traffic noise, it cannot assume access to a symbolic note sequence. Workflows that preserve composition, synthesis and audio stages separately offer more opportunities for reversible fixes.
+
+The STFT also explains a type of computational cost that differs from a DAW's simple sample addition. For each window, an FFT performs many arithmetic operations. For overlapping windows, there are many transforms per second. Spectral modification may include detectors, masks, noise estimates, phase reconstruction, and inverse transforms. The computation can often be batched efficiently offline, especially when separate tracks do not depend on one another. In real-time monitoring, however, the processor must supply valid output on schedule. A process that needs future samples for analysis, or holds back a large frame to compute it, may introduce latency. Processing work and algorithmic delay are separate quantities: a clever fast algorithm can still need to wait for its analysis window.
+
+If we analyze four stems separately, do their spectrograms tell us which one is masking the melody? They can show coincident energy in a register, but masking is a property of hearing under particular conditions. The ear's sensitivity depends on level, frequency, timing, and listening context. A spectrogram can suggest that the guitar fills the lead's register during a crucial phrase. It cannot decide whether the overlap is beautifully blended or unacceptably muddy. We should use the display to choose a controlled experiment: mute the guitar briefly; reduce its level; shift its voicing; or move a note to another octave, while keeping other factors stable. Then listen and compare.
+
+A useful production analysis therefore contains three columns. In the first are observations the algorithm can establish: this file's sample rate, the approximate locations of spectral peaks under specified STFT settings, the time of an apparent transient, or the measured change in a spectrum after filtering. In the second are hypotheses: perhaps this ridge belongs to mains hum, perhaps that resonance hides a sung vowel, perhaps this reverberant tail extends into the next phrase. In the third are decisions that require musical judgment: make the guitar softer, change the arrangement, retain the ambient noise for atmosphere, or reject the repair because it harms the performance. Moving a statement from column two to column one requires evidence, not confidence in the colors.
+
+Carnegie Mellon's *Introduction to Computer Music* explains the windowing trade-off in a way especially useful to composers: transforming a finite chunk of time changes what the frequency view can faithfully tell us. Smith's STFT treatment then connects analysis to overlap-add and reconstruction. These references also remind us that the STFT is not merely a display technique. Under suitable conditions, carefully designed analysis and synthesis windows can reconstruct the original signal, or allow deliberate transformation of selected portions before resynthesis. The specific reconstruction conditions depend on window, hop, normalization, and whether phase is preserved. It is unsafe to claim that any arbitrary overlap of Hann windows automatically reconstructs perfectly.
+
+The larger compositional lesson is that a recorded waveform admits many descriptions, each useful for a different task. The waveform makes transients and gross amplitude visible. The local spectrum makes sustained frequencies easier to recognize. The score describes intended pitches and musical relationships. A microphone-position map describes acoustic origin. An arrangement document explains why a note is present. None replaces all the others. The best producer switches between descriptions while retaining enough provenance to know what each can and cannot prove.
+
+When future agents perform audio repairs, give them that discipline. Ask for a claimed problem, the measurement supporting it, the settings used, the candidate edit, and a reversible output that can be auditioned against the original. Do not accept a spectrogram as a substitute for listening. A well-sourced technical method makes the candidate defensible; it does not make an aesthetic judgment automatic.
+
+<!-- END SPOKEN LECTURE -->
+
+## Display-only companion: analysis settings
+
+| Property | Value | Interpretation |
+|---|---:|---|
+| Sampling rate | 48,000 Hz | One sample every 20.833... microseconds |
+| Nonzero analysis window | 2,048 samples | 42.666... ms of observed audio |
+| Transform length before zero padding | 2,048 points | 23.4375 Hz DFT bin spacing |
+| Hop | 512 samples | 10.666... ms between analysis frames |
+| Zero-padded transform length | 8,192 points | 5.859375 Hz **display grid spacing**, not improved intrinsic discrimination |
+
+For one conventional STFT convention:
+
+\[
+X(m,k) = \sum_n x[n] w[n-mH] e^{-2\pi i kn/N}.
+\]
+
+`H` is the hop in samples, `w` the window function, and `N` the FFT size. Normalization and phase conventions vary across implementations. Overlap-add resynthesis requires attention to window and hop conditions, rather than assuming any Hann-window combination is perfect.
+
+## Citation map: what each source substantiates
+
+- **Definition, analysis/synthesis, hop and window:** Julius O. Smith III, [*Spectral Audio Signal Processing*, “The Short-Time Fourier Transform”](https://www.dsprelated.com/freebooks/SASP/Short_Time_Fourier_Transform.html). Equations and notation are adapted for this lecture; the numerical 48-kHz example is an **original calculation**.
+- **Why finite windows leak energy:** Julius O. Smith III, [*Mathematics of the DFT*, “Frequencies in the ‘Cracks’”](https://www.dsprelated.com/freebooks/mdft/Frequencies_Cracks.html), especially the discussion of non-bin-centered sinusoids and tapered windows.
+- **Hann-versus-rectangular trade-off:** [Carnegie Mellon University, *Introduction to Computer Music*, “10.4 The short-time Fourier transform”](https://www.cs.cmu.edu/~15322/book/ch10/04.html). This corroborates window leakage and broadening; it does **not** guarantee that noise removal makes audio subjectively better.
+- **Choices between spectral observation and audio processing:** [DawDreamer, *User Guide*](https://github.com/DBraun/DawDreamer/blob/main/docs/user_guide/index.rst), rendering graphs and processors. The proposed hum/noise cases are **hypothetical exercises**, not benchmark results for DawDreamer.
+- **Subjective choice is not reducible to one spectral measurement:** [ITU-R BS.1116-3, *Methods for the subjective assessment of small impairments in audio systems*](https://www.itu.int/rec/R-REC-BS.1116-3-201502-I/en). A formal listening-test method, not a certification of any spectral editing algorithm.
+
+## Exercises
+
+1. Compute the FFT-bin spacing for a 4096-point transform at 48 kHz, then explain why padding a 2048-sample observation to 4096 points does not create new measured audio.
+2. Describe how a time-local click and a persistent tonal hum should appear under the **same** window settings. Decide which measurements would falsify your diagnosis.
+3. Write a reversible repair log for a single hypothetical stem with a fixed whistle at 60 Hz; explicitly distinguish source claims, observations, and choices made without sound playback.

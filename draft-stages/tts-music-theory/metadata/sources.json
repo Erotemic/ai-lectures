@@ -528,6 +528,141 @@
       "access": "free_no_login",
       "format": "html",
       "notes": "Derivation of feedforward delayed-signal comb filtering and frequency-response cancellation."
+    },
+    "mt-shure-mic-recording": {
+      "title": "Microphone Techniques for Recording",
+      "kind": "manufacturer_technical_guide",
+      "url": "https://www.shure.com/en-US/docs/education/microphone-techniques-for-recording",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "Shure Incorporated",
+      "notes": "Polar patterns, placement and recording techniques; manufacturer-authored instructional guidance. Not an empirical comparison of any actual lecture example."
+    },
+    "mt-shure-sm58": {
+      "title": "SM58 User Guide — Applications and Proximity Effect",
+      "kind": "manufacturer_product_manual",
+      "url": "https://www.shure.com/en-US/docs/guide/SM58",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "Shure Incorporated",
+      "notes": "Cardioid microphone placement and proximity effect for the named model. Do not generalize SM58 numerical figures to all microphones."
+    },
+    "mt-ardour-monitor-flow": {
+      "title": "Ardour Manual — Monitor Signal Flow",
+      "kind": "official_technical_manual",
+      "url": "https://manual.ardour.org/recording/monitoring/monitor-signal-flow/",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "Ardour Project",
+      "notes": "External, hardware and software monitoring paths and their tradeoffs."
+    },
+    "mt-ardour-monitor-setup": {
+      "title": "Ardour Manual — Monitor Setup in Ardour",
+      "kind": "official_technical_manual",
+      "url": "https://manual.ardour.org/recording/monitoring/monitor-setup-in-ardour/",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "Ardour Project",
+      "notes": "Monitoring preferences and session auto-input behavior."
+    },
+    "mt-ardour-track-modes": {
+      "title": "Ardour Manual — Track Modes",
+      "kind": "official_technical_manual",
+      "url": "https://manual.ardour.org/working-with-tracks/track-modes/",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "Ardour Project",
+      "notes": "Layered, non-layered, and sound-on-sound recording modes."
+    },
+    "mt-allen-berkley-1979": {
+      "title": "Image method for efficiently simulating small-room acoustics",
+      "kind": "peer_reviewed_primary_research",
+      "url": "https://doi.org/10.1121/1.382599",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "Jont B. Allen; David A. Berkley",
+      "notes": "Journal of the Acoustical Society of America 65(4), 943–950 (1979). Image-source impulse-response simulation for a small rectangular room; applicability is limited by model assumptions."
+    },
+    "mt-w3c-convolver": {
+      "title": "Web Audio API — ConvolverNode",
+      "kind": "official_web_standard",
+      "url": "https://www.w3.org/TR/webaudio/#ConvolverNode",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "W3C Audio Working Group",
+      "notes": "Normative convolution effect and supported channel arrangements in Web Audio, not Ardour/DawDreamer implementation details."
+    },
+    "mt-smith-stft": {
+      "title": "Spectral Audio Signal Processing — The Short-Time Fourier Transform",
+      "kind": "scholarly_online_textbook",
+      "url": "https://www.dsprelated.com/freebooks/SASP/Short_Time_Fourier_Transform.html",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "Julius O. Smith III",
+      "notes": "STFT definition, hop/window/FFT parameters and overlap-add treatment."
+    },
+    "mt-smith-leakage": {
+      "title": "Mathematics of the DFT — Frequencies in the Cracks",
+      "kind": "scholarly_online_textbook",
+      "url": "https://www.dsprelated.com/freebooks/mdft/Frequencies_Cracks.html",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "Julius O. Smith III",
+      "notes": "Spectral leakage for finite records and the effect of tapered windows."
+    },
+    "mt-cmu-stft": {
+      "title": "10.4 The Short-Time Fourier Transform",
+      "kind": "university_open_textbook",
+      "url": "https://www.cs.cmu.edu/~15322/book/ch10/04.html",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "Carnegie Mellon University, Introduction to Computer Music",
+      "notes": "Spectral leakage, rectangular-versus-Hann window properties, and STFT teaching examples."
+    },
+    "mt-itu-bs1770-5": {
+      "title": "Recommendation ITU-R BS.1770-5, Algorithms to measure audio programme loudness and true-peak audio level",
+      "kind": "international_technical_standard",
+      "url": "https://www.itu.int/rec/R-REC-BS.1770-5-202311-I/en",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "ITU Radiocommunication Sector",
+      "notes": "November 2023 edition; standard loudness and true-peak algorithms. Free official download; consult full normative annex for implementation details."
+    },
+    "mt-ebu-r128-2023": {
+      "title": "EBU R 128, Loudness normalisation and permitted maximum level of audio signals, version 5.0",
+      "kind": "broadcast_recommendation",
+      "url": "https://tech.ebu.ch/publications/r128",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "European Broadcasting Union",
+      "notes": "November 2023; -23 LUFS broadcast programme recommendation and other descriptors. Not universal music-delivery target."
+    },
+    "mt-ardour-export-dialog": {
+      "title": "Ardour Manual — Export Dialog",
+      "kind": "official_technical_manual",
+      "url": "https://manual.ardour.org/exporting/export-dialog/",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "Ardour Project",
+      "notes": "Export report with peak, true peak and integrated loudness, as well as output formats and ranges."
+    },
+    "mt-itu-bs1116-3": {
+      "title": "Recommendation ITU-R BS.1116-3, Methods for subjective assessment of small impairments in audio systems",
+      "kind": "international_technical_standard",
+      "url": "https://www.itu.int/rec/R-REC-BS.1116-3-201502-I/en",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "ITU Radiocommunication Sector",
+      "notes": "February 2015 edition; small-impairment evaluation with controlled listener methods. Not an aesthetic music-ranking standard."
+    },
+    "mt-itu-bs1534-3": {
+      "title": "Recommendation ITU-R BS.1534-3, Method for subjective assessment of intermediate quality level of audio systems",
+      "kind": "international_technical_standard",
+      "url": "https://www.itu.int/rec/R-REC-BS.1534/en",
+      "access": "free_no_login",
+      "format": "html",
+      "author_or_publisher": "ITU Radiocommunication Sector",
+      "notes": "October 2015 edition; formal intermediate-quality audio evaluation (MUSHRA family), not compositional preference measurement."
     }
   }
 }
