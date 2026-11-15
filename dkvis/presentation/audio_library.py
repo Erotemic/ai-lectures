@@ -351,6 +351,13 @@ class AudioLectureLibrary:
         return self._record(self._lecture_path(lecture_id), True)
 
     def settings(self, voice=None, speed=None):
+        # The reader page sends blank profile/voice query parameters while it
+        # is still resolving its voice list. Blank means "use the default",
+        # not an invalid explicit value (it used to 400 on every page load).
+        if isinstance(voice, str) and not voice:
+            voice = None
+        if isinstance(speed, str) and not speed:
+            speed = None
         voice = voice if voice is not None else self.default_voice
         if not isinstance(voice, str) or not VOICE_PATTERN.fullmatch(voice):
             raise ValueError('Voice must be 1–80 letters, digits or name punctuation')

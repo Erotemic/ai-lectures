@@ -78,6 +78,7 @@ def test_cache_identity_includes_page_size_and_page_address(audio_site):
     assert changed_path != original_path
     assert lib.detail('123000')['page_chars'] == 260
     second_path, second_text, second_key = lib._target('123000', 1, settings)
+    assert second_key != original_key and second_key != changed_key
     assert second_text == changed_text  # repeated pages have distinct cache jobs
     assert second_key != changed_key
     assert second_path != changed_path
@@ -85,6 +86,24 @@ def test_cache_identity_includes_page_size_and_page_address(audio_site):
     _, restored_text, restored_key = lib._target('123000', 0, settings)
     assert restored_text == original_text
     assert restored_key == original_key
+
+
+def test_settings_treat_blank_query_values_as_defaults(tmp_path):
+    """Blank voice/speed query parameters (sent by the reader page before its
+    voice list resolves) fall back to profile defaults instead of a 400."""
+    library = AudioLectureLibrary(cache=tmp_path / 'blank-settings-cache')
+    try:
+        blank = library.settings('', '')
+        assert blank.voice == library.default_voice
+        assert blank.speed == 1.0
+        assert library.settings(voice='').voice == library.default_voice
+        assert library.settings(speed='').speed == 1.0
+        with pytest.raises(ValueError):
+            library.settings(voice='*invalid*')
+        with pytest.raises(ValueError):
+            library.settings(speed='fast')
+    finally:
+        library.close()
 
 
 def test_versioned_browser_audio_urls_prevent_stale_cached_mp3(audio_site):
