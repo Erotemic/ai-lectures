@@ -57,6 +57,15 @@ This unit moves beyond author portraits into direct comparison. These are constr
 
 Spoken-word counts in the track manifest describe what exists; there is no target length or duration requirement. Form and extent follow the material.
 
+## Psychology, voice, and narrative truth (028000–031000)
+
+These four standalone investigations examine the literary representation of consciousness, the limits of self-conscious irony, the promises surrounding life-writing, and the interaction of independent social voices. Their source notes distinguish historical arguments from the original teaching scenes.
+
+- 028000: [Psychological Realism and the Opacity of Other Minds](028000-psychological-realism-and-the-opacity-of-minds.md).
+- 029000: [Irony, New Sincerity, and the Risk of Belief](029000-irony-new-sincerity-and-the-risk-of-belief.md).
+- 030000: [Autofiction, Documentary Form, and the Contract of Truth](030000-autofiction-documentary-and-the-contract-of-truth.md).
+- 031000: [Polyphony, Dialogism, and the Novel of Voices](031000-polyphony-dialogism-and-the-novel-of-voices.md).
+
 ## Planned continuation
 
 The global curriculum is in [`docs/planning/fiction-storytelling-worldbuilding-curriculum.md`](../../docs/planning/fiction-storytelling-worldbuilding-curriculum.md). Agent A owns its separate continuation notes in [`docs/planning/agent-a-fiction-writing/`](../../docs/planning/agent-a-fiction-writing/). Unwritten titles remain proposals.
