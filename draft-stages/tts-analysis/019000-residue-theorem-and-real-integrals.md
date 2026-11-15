@@ -155,3 +155,4 @@ The semicircle bound is \(\pi R^3/(R^4-1)\to0\).
 - MIT OpenCourseWare, *18.112 Functions of a Complex Variable*, Lecture 14 and Lecture 15: https://ocw.mit.edu/courses/18-112-functions-of-a-complex-variable-fall-2008/pages/lecture-notes/.
 - *A First Course in Complex Analysis*, Residue Theorem: https://complexanalysis.org/web/sec_residue-thm.html.
 - Wikipedia, *Residue theorem*: https://en.wikipedia.org/wiki/Residue_theorem.
+- [Tero Kilpeläinen and Antti Vähäkangas, Complex Analysis 2 (2024)](https://users.jyu.fi/~salomi/teaching/ca2_2024/Lecture_notes_eng.pdf) — Kilpeläinen & Vähäkangas, Complex Analysis 2, chapter 3: residue theorem and applications.

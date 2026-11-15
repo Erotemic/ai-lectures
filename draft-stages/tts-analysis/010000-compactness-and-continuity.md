@@ -141,3 +141,4 @@ Proof by contradiction: pick \(x_n,y_n\) with \(d_K(x_n,y_n)<1/n\) but \(d_Y(f(x
 - [Wikipedia: Heine–Cantor theorem](https://en.wikipedia.org/wiki/Heine%E2%80%93Cantor_theorem) — why continuous functions on compact metric spaces are uniformly continuous.
 - [Wikipedia: Heine–Borel theorem](https://en.wikipedia.org/wiki/Heine%E2%80%93Borel_theorem) — Euclidean closed-and-bounded characterization and its scope.
 - Stephen Abbott, *Understanding Analysis*, compactness and sequential proofs.
+- [MIT OpenCourseWare, 18.S190 Introduction to Metric Spaces (2023)](https://ocw.mit.edu/courses/18-s190-introduction-to-metric-spaces-january-iap-2023/pages/lecture-notes/) — MIT 18.S190, lectures 3–4: metric compactness, sequential compactness and total boundedness.

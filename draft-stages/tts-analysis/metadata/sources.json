@@ -162,13 +162,6 @@
       "access": "free_no_login",
       "notes": "Uniform vs pointwise convergence and conditions for exchanging limits."
     },
-    "an-notredame-uniform": {
-      "title": "University of Notre Dame, Uniform Convergence notes",
-      "kind": "university_notes",
-      "url": "https://www3.nd.edu/~math/restricted/CourseArchive/300Level/366/3662001S/Lectures/02.UniformConvergence.pdf",
-      "access": "free_no_login",
-      "notes": "Short university notes on continuity of limits and function series."
-    },
     "an-wiki-mtest": {
       "title": "Wikipedia, Weierstrass M-test",
       "kind": "focused_wikipedia",
@@ -191,11 +184,11 @@
       "notes": "M-test proof and geometric control on power series."
     },
     "an-ash-complex": {
-      "title": "David Ash, Complex Variables notes",
-      "kind": "university_notes",
+      "title": "Robert B. Ash and W. P. Novinger, Complex Variables, second edition (Dover, 2004)",
+      "kind": "open_textbook",
       "url": "https://people.math.sc.edu/girardi/m7034/book/AshComplexVariablesMerged.pdf",
       "access": "free_no_login",
-      "notes": "Uniform convergence and power-series radius estimates in complex analysis."
+      "notes": "Complete freely accessible graduate-level text: Cauchy theory, power series, and conformal maps. Authorship checked against the PDF title page."
     },
     "an-mit-complex-theory": {
       "title": "MIT OpenCourseWare, 18.112 Functions of a Complex Variable, Fall 2008 lecture notes",
@@ -324,11 +317,11 @@
       "notes": "Arzelà–Ascoli, Cauchy bounds, Montel compactness and diagonal sequences."
     },
     "an-jyu-complex2": {
-      "title": "University of Jyväskylä, Complex Analysis 2 (lecture notes)",
+      "title": "Tero Kilpeläinen and Antti Vähäkangas, Complex Analysis 2 (Spring 2024), English translation by Mikko Salo",
       "kind": "university_open_course",
       "url": "https://users.jyu.fi/~salomi/teaching/ca2_2024/Lecture_notes_eng.pdf",
       "access": "free_no_login",
-      "notes": "Montel theorem, local boundedness and compact convergence."
+      "notes": "Holomorphic convergence, Laurent expansions, residues and the Riemann mapping theorem."
     },
     "an-wiki-max-modulus": {
       "title": "Wikipedia, Maximum modulus principle",
@@ -429,11 +422,11 @@
       "notes": "Normalized extremal-derivative proof, square-root omission argument."
     },
     "an-harvard-conformal-mapping": {
-      "title": "Yum-Tong Siu, Harvard Math 213a, Schwarz-Christoffel Transformations and Riemann Mapping",
+      "title": "Yum-Tong Siu, Math 213a (2024), Schwarz-Christoffel Transformations (includes a Riemann mapping theorem section)",
       "kind": "university_open_course",
       "url": "https://people.math.harvard.edu/~siu/math213a/schwarz_christoffel_transformation.pdf",
       "access": "free_no_login",
-      "notes": "Conformal geometry, polygonal corners and Riemann mapping proof."
+      "notes": "Schwarz–Christoffel factors, polygonal corners and a section on the Riemann mapping theorem."
     },
     "an-wiki-riemann-mapping": {
       "title": "Wikipedia, Riemann mapping theorem",
@@ -443,11 +436,11 @@
       "notes": "Statement, simple connectivity and normalization."
     },
     "an-qmul-potential": {
-      "title": "Queen Mary University London, Potential Theory Notes",
+      "title": "Boris Khoruzhenko, LTCC Potential Theory lecture notes (Queen Mary University of London, 2011)",
       "kind": "university_open_course",
       "url": "https://webspace.maths.qmul.ac.uk/b.khoruzhenko/potential_th_notes.pdf",
       "access": "free_no_login",
-      "notes": "Carathéodory Jordan boundary theorem and transported Poisson formula."
+      "notes": "Harmonic functions, Poisson formula, Dirichlet problem, and harmonic measure. This is not a source for the Carathéodory boundary-extension theorem."
     },
     "an-wiki-caratheodory": {
       "title": "Wikipedia, Carathéodory's theorem (conformal mapping)",
@@ -469,6 +462,27 @@
       "url": "https://en.wikipedia.org/wiki/Conformal_modulus",
       "access": "free_no_login",
       "notes": "Annular conformal type and modulus."
+    },
+    "an-mit-real-2025": {
+      "title": "MIT OpenCourseWare, 18.100B Real Analysis, Spring 2025, lecture notes 1–22",
+      "kind": "university_open_course",
+      "url": "https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/pages/lecture-notes/",
+      "access": "free_no_login",
+      "notes": "Lectures 4–7 sequences; 11–14 metric topology; 15–19 differential and integral calculus; 20–22 uniform convergence and series."
+    },
+    "an-mit-metric-2023": {
+      "title": "MIT OpenCourseWare, 18.S190 Introduction to Metric Spaces, January 2023, lecture notes 1–5",
+      "kind": "university_open_course",
+      "url": "https://ocw.mit.edu/courses/18-s190-introduction-to-metric-spaces-january-iap-2023/pages/lecture-notes/",
+      "access": "free_no_login",
+      "notes": "Compactness, total boundedness, completeness, uniform continuity and metric-space examples."
+    },
+    "an-bishop-conformal": {
+      "title": "Christopher J. Bishop, The Riemann Mapping Theorem, Stony Brook Math 626 lecture notes (2008–2010)",
+      "kind": "university_notes",
+      "url": "https://www.math.stonybrook.edu/~bishop/classes/math626.F08/rmt.pdf",
+      "access": "free_no_login",
+      "notes": "Chapters 1–4 address Möbius maps, hyperbolic geometry, Schwarz–Christoffel maps, Riemann mapping, Carathéodory boundary extension and conformal modulus. Lecture notes are an unfinished draft."
     }
   }
 }

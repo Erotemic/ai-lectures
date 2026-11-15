@@ -108,7 +108,7 @@ Each nonzero \(z\) has logarithms \(\log|z|+i(\arg z+2\pi k)\) for \(k\in\mathbb
 
 ### Relative limits and failed paths
 
-For an open domain \(U\subset\mathbb C\), \(\lim_{z\to a}f(z)=L\) means
+For an open domain \(U\subset\mathbb C\) and an **accumulation point** \(a\) of \(U\), the assertion \(\lim_{z\to a}f(z)=L\) means
 \[
 \forall\varepsilon>0\;\exists\delta>0:\quad z\in U,\ 0<|z-a|<\delta\implies |f(z)-L|<\varepsilon.
 \]
@@ -121,10 +121,11 @@ For \(f(z)=\bar z/z\), \(z=t>0\) gives 1 and \(z=it\), \(t>0\), gives \(-1\). Th
 3. **Roots of unity:** Find the four fourth roots of unity. **Answer:** \(1,i,-1,-i\).
 4. **Two paths:** Show \(\lim_{z\to0}z/\bar z\) fails. **Answer:** Along the real axis it equals 1; along the imaginary axis it equals \(-1\).
 5. **Compactness:** Explain why \(\{z:|z|\le1\}\) is compact but \(\{z:|z|<1\}\) is not. **Answer:** Closed and bounded subsets of \(\mathbb R^2\) are compact; the open disk omits its boundary limit points.
-6. **Distinguish order and modulus:** Does \(f(z)=z\) attain a maximum on the unit disk? **Answer:** There is no natural order-based maximum in \(\mathbb C\), but \(|f|\) attains maximum 1 on the boundary.
+6. **Distinguish open from closed:** Does \(f(z)=z\) have a maximum on the open unit disk? **Answer:** Complex values have no natural order-based maximum. The modulus \(|f(z)|=|z|\) has supremum 1 but does *not* attain it on the open disk. On the *closed* unit disk, its maximum is 1 and occurs at every boundary point.
 
 ### Further reading
 
 - MIT OpenCourseWare, *18.112 Functions of a Complex Variable*, Lecture 1 and Lecture 2, https://ocw.mit.edu/courses/18-112-functions-of-a-complex-variable-fall-2008/pages/lecture-notes/.
 - MIT OpenCourseWare, *18.04 Complex Variables with Applications*, Topic 1, https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-spring-2018/pages/lecture-notes/.
 - Wikipedia, *Complex number*, https://en.wikipedia.org/wiki/Complex_number.
+- [Robert B. Ash and W. P. Novinger, Complex Variables, 2nd ed.](https://people.math.sc.edu/girardi/m7034/book/AshComplexVariablesMerged.pdf) — Ash & Novinger, Complex Variables, chapter 1: complex arithmetic and topology.

@@ -147,3 +147,4 @@ For any \(P\), \(L(f,P)\le S(f,P,\xi)\le U(f,P)\). The Darboux criterion states 
 - Wikipedia, “Riemann integral”: https://en.wikipedia.org/wiki/Riemann_integral
 - Stephen Abbott, *Understanding Analysis*, the Riemann integral and uniform continuity.
 - Terence Tao, *Analysis I*, Riemann integration and Darboux sums.
+- [MIT OpenCourseWare, 18.100B Real Analysis (Spring 2025)](https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/pages/lecture-notes/) — MIT 18.100B, lectures 17–18: Riemann integral and integrability.

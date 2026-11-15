@@ -154,3 +154,4 @@ If f,g are holomorphic on a neighborhood of the closure of a Jordan domain U, an
 - MIT OpenCourseWare, *18.112 Functions of a Complex Variable*, Lecture 14: https://ocw.mit.edu/courses/18-112-functions-of-a-complex-variable-fall-2008/pages/lecture-notes/.
 - Wikipedia, *Argument principle*: https://en.wikipedia.org/wiki/Argument_principle.
 - Wikipedia, *Rouché's theorem*: https://en.wikipedia.org/wiki/Rouch%C3%A9%27s_theorem.
+- [Tero Kilpeläinen and Antti Vähäkangas, Complex Analysis 2 (2024)](https://users.jyu.fi/~salomi/teaching/ca2_2024/Lecture_notes_eng.pdf) — Section 4.2: argument principle and zero counting by the logarithmic derivative.

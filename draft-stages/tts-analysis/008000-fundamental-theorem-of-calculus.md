@@ -156,3 +156,4 @@ Proof: \(A'=f=F'\), so \((F-A)'=0\) on \((a,b)\). By the Mean Value Theorem \(F-
 - Wikipedia, “Fundamental theorem of calculus”: https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus
 - Stephen Abbott, *Understanding Analysis*, the Fundamental Theorem of Calculus.
 - Terence Tao, *Analysis I*, relationship between integration and differentiation.
+- [MIT OpenCourseWare, 18.100B Real Analysis (Spring 2025)](https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/pages/lecture-notes/) — MIT 18.100B, lecture 19: both forms of the Fundamental Theorem of Calculus.

@@ -4,18 +4,18 @@ Limits, continuity, completeness, differentiation, integration, function spaces,
 
 ## Available lectures
 
-- 001000 — What Does It Mean for a Sequence to Converge? (1,855 spoken words; about 12.8 minutes at 145 wpm)
-- 002000 — The Number Line Without Gaps: Completeness and the Real Numbers (3,231 spoken words; about 22.3 minutes at 145 wpm)
-- 003000 — From Nearby Inputs to Nearby Outputs: Limits and Continuity (1,919 spoken words; about 13.2 minutes at 145 wpm)
-- 004000 — What Continuity Guarantees: Roots, Bounds, and Extrema (2,077 spoken words; about 14.3 minutes at 145 wpm)
-- 005000 — The Derivative as a Local Linear Approximation (1,902 spoken words; about 13.1 minutes at 145 wpm)
-- 006000 — The Mean Value Theorem: From Local Slopes to Global Bounds (1,987 spoken words; about 13.7 minutes at 145 wpm)
-- 007000 — Building an Integral from Finite Sums (2,010 spoken words; about 13.9 minutes at 145 wpm)
-- 008000 — The Fundamental Theorem of Calculus: Recovering Change from Rates (2,019 spoken words; about 13.9 minutes at 145 wpm)
+- 001000 — What Does It Mean for a Sequence to Converge?
+- 002000 — The Number Line Without Gaps: Completeness and the Real Numbers
+- 003000 — From Nearby Inputs to Nearby Outputs: Limits and Continuity
+- 004000 — What Continuity Guarantees: Roots, Bounds, and Extrema
+- 005000 — The Derivative as a Local Linear Approximation
+- 006000 — The Mean Value Theorem: From Local Slopes to Global Bounds
+- 007000 — Building an Integral from Finite Sums
+- 008000 — The Fundamental Theorem of Calculus: Recovering Change from Rates
 
 ## Sequence and authoring notes
 
-The opening sequence progresses from epsilon-N control of numerical sequences through completeness and Cauchy sequences, then epsilon-delta continuity, then the consequences of continuity on closed real intervals. The 002000 completeness manuscript is retained intact from the source snapshot; this overlay restores the missing 001000 manuscript and adds 003000 and 004000.
+The opening sequence progresses from epsilon-N control of numerical sequences through completeness and Cauchy sequences, then epsilon-delta continuity, then the consequences of continuity on closed real intervals. The 002000 completeness manuscript came from the original source snapshot; the track also includes the restored 001000 and newly authored subsequent lectures.
 
 Audio extraction uses the single `BEGIN SPOKEN LECTURE` / `END SPOKEN LECTURE` marker pair in each manuscript. Exact equations, proofs, references, and exercises remain available outside the spoken markers in display-only companions.
 
@@ -34,10 +34,10 @@ The manifest includes only present manuscripts.
 
 ## Metric spaces and function limits (lectures 009000–012000)
 
-- 009000 — Distance Without Coordinates: Metric Spaces and Completeness (1,978 spoken words; about 13.6 minutes at 145 wpm)
-- 010000 — Compactness: Turning Infinite Possibilities into Finite Control (1,927 spoken words; about 13.3 minutes at 145 wpm)
-- 011000 — Uniform Convergence: When Limits Preserve Structure (1,898 spoken words; about 13.1 minutes at 145 wpm)
-- 012000 — Infinite Sums of Functions: Uniform Series and the First Power Series (2,070 spoken words; about 14.3 minutes at 145 wpm)
+- 009000 — Distance Without Coordinates: Metric Spaces and Completeness
+- 010000 — Compactness: Turning Infinite Possibilities into Finite Control
+- 011000 — Uniform Convergence: When Limits Preserve Structure
+- 012000 — Infinite Sums of Functions: Uniform Series and the First Power Series
 
 The sequence establishes metric-space completeness, compactness in equivalent metric formulations, uniform convergence with its limit-exchange hypotheses, and the M-test with closed-subdisk power-series control. The next step is complex differentiation and Cauchy–Riemann geometry.
 
@@ -109,8 +109,12 @@ prime ends, Schwarz–Christoffel corner exponents, the transported Poisson solu
 to the Dirichlet problem, and the topological/conformal obstructions caused by
 annuli. The speaker-facing prose does not assume a screen; exact display-only
 mathematics, counterexamples, exercises and references follow each spoken region.
-Word counts and time estimates are **descriptive metadata only**, never a quota.
+Word counts are catalog metadata, not a length quota. The lecture content determines the duration.
 
 Next possible material: conformal capacity and extremal length, elliptic
 functions and doubly connected uniformization, or a return to real-variable
 analysis via measure and Lebesgue integration. No planned manuscripts are indexed.
+
+## Editorial review and source verification
+
+See [`polishing-audit-2026-11-14.md`](../../docs/planning/agent-c-analysis/polishing-audit-2026-11-14.md) for the review census, theorem-qualification checks, the fixed open-versus-closed disk exercise, repaired source metadata, and replacement of a broken reference. The complete 28-lecture sequence retains its ID ordering.

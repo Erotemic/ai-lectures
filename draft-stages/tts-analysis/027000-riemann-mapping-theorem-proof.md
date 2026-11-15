@@ -8,7 +8,7 @@
 
 A circular disk and the interior of a jagged polygon hardly look like the same geometric object. A disk has a smooth boundary. A polygon has corners. A domain bounded by a wildly irregular curve may have no simple formula at all. Yet complex analysis makes a remarkable promise: provided the region is open and connected, has no holes, and is not the entire complex plane, there is a one-to-one holomorphic map from the region onto the disk whose inverse is also holomorphic.
 
-This is the Riemann mapping theorem. It is easy to say and surprisingly difficult to prove. In earlier lectures we transformed half-planes, strips, and wedges using explicit formulas. The Riemann mapping theorem asserts existence even when no useful closed formula is known. So the problem changes character. We are no longer trying to guess a map by algebra. We need a principle that forces *some* map to exist.
+This is the Riemann mapping theorem. It is easy to say and surprisingly difficult to prove. Half-planes, strips, and wedges admit explicit conformal formulas. The Riemann mapping theorem asserts existence even when no useful closed formula is known. So the problem changes character. We are no longer trying to guess a map by algebra. We need a principle that forces *some* map to exist.
 
 The proof we will develop is one of the best examples of a recurring strategy in modern analysis. Instead of solving the desired problem directly, choose an entire family of partial candidates and optimize a simple quantity over that family. Compactness produces a maximizing candidate. Rigidity then forces the maximizer to solve the original, stronger problem.
 
@@ -154,3 +154,4 @@ since \((1-r)^2>0\). Contradiction. Hence \(f(U)=\mathbb D\).
 - [Yum-Tong Siu, Math 213a notes (Harvard), section on the Riemann mapping theorem](https://people.math.harvard.edu/~siu/math213a/schwarz_christoffel_transformation.pdf).
 - [Wikipedia, Riemann mapping theorem](https://en.wikipedia.org/wiki/Riemann_mapping_theorem).
 - [Wikipedia, Montel's theorem](https://en.wikipedia.org/wiki/Montel%27s_theorem).
+- [Christopher Bishop, The Riemann Mapping Theorem (Stony Brook lecture notes)](https://www.math.stonybrook.edu/~bishop/classes/math626.F08/rmt.pdf) — Bishop, chapter 2, section 7: a proof of the Riemann mapping theorem.

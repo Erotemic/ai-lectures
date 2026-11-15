@@ -88,7 +88,7 @@ The theorem also does not make the whole complex plane equivalent to a disk. Lio
 
 The Jordan-boundary conclusion is strong but also carefully limited. For a Jordan domain, we have a continuous, one-to-one correspondence on the closure. It need not preserve tangent directions at corners, and the derivative may diverge or vanish near the edge. For a slit region, a boundary point may have multiple interior approaches, and a continuous extension need not be injective. For more complicated boundary sets, even ordinary continuous extension can fail. Prime ends were invented to describe which boundary approaches remain meaningful.
 
-Our four-lecture journey has now taken us from fractional linear maps, which we can write down explicitly, to the intrinsic geometry of the disk, to an existence theorem that works without a formula, and finally back to the fine structure of boundaries. The strongest general result is not that every shape can be made identical in every sense. It is that simply connected proper plane domains share the same *interior conformal geometry*, while their boundaries, lengths, numerical conditioning, and global topology may demand additional information.
+The path from fractional linear maps to the intrinsic geometry of the disk, the existence theorem for conformal maps, and finally the structure of boundaries reveals how these ideas fit together. The strongest general result is not that every shape can be made identical in every sense. It is that simply connected proper plane domains share the same *interior conformal geometry*, while their boundaries, lengths, numerical conditioning, and global topology may demand additional information.
 
 This difference between a theorem of existence and a theorem of controlled behavior is worth carrying into later analysis. Existence can be established by compactness. Uniqueness can follow from rigidity. But if we want stable approximation, estimates near singular corners, or reliable transport of boundary data, we must ask new questions and prove new theorems. The Riemann mapping theorem gives the coordinate system. It does not finish the analysis of everything we might do in that system.
 
@@ -164,8 +164,10 @@ Two circular annuli are conformally equivalent iff they have equal modulus; topo
 
 ### References
 
-- [Queen Mary University of London, potential theory notes, Carathéodory theorem and Dirichlet problem](https://webspace.maths.qmul.ac.uk/b.khoruzhenko/potential_th_notes.pdf).
+- [Boris Khoruzhenko (Queen Mary University of London), potential theory notes on harmonic measure and the Dirichlet problem](https://webspace.maths.qmul.ac.uk/b.khoruzhenko/potential_th_notes.pdf).
 - [Yum-Tong Siu, *Schwarz–Christoffel Transformations* (Harvard Mathematics)](https://people.math.harvard.edu/~siu/math213a/schwarz_christoffel_transformation.pdf).
 - [Wikipedia, Carathéodory's theorem (conformal mapping)](https://en.wikipedia.org/wiki/Carath%C3%A9odory%27s_theorem_(conformal_mapping)).
 - [Wikipedia, Schwarz–Christoffel mapping](https://en.wikipedia.org/wiki/Schwarz%E2%80%93Christoffel_mapping).
 - [Wikipedia, Conformal modulus](https://en.wikipedia.org/wiki/Conformal_modulus).
+- [Christopher Bishop, The Riemann Mapping Theorem (Stony Brook lecture notes)](https://www.math.stonybrook.edu/~bishop/classes/math626.F08/rmt.pdf) — Bishop, chapter 2, section 9 and chapter 4: Carathéodory theorem, prime ends, conformal modulus.
+- [Robert B. Ash and W. P. Novinger, Complex Variables, 2nd ed.](https://people.math.sc.edu/girardi/m7034/book/AshComplexVariablesMerged.pdf) — Ash & Novinger, boundary extension of conformal maps.

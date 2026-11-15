@@ -195,3 +195,4 @@ If a nonconstant polynomial \(P\) has no zero, \(1/P\) is entire. Since \(|P(z)|
 - MIT OpenCourseWare, *18.04 Complex Variables with Applications*, Topics 3–4, https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-spring-2018/pages/lecture-notes/.
 - *A First Course in Complex Analysis*, section on Cauchy–Goursat, https://complexanalysis.org/web/sec_cauchy-goursat.html.
 - Wikipedia, *Cauchy's integral formula*, https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula.
+- [Robert B. Ash and W. P. Novinger, Complex Variables, 2nd ed.](https://people.math.sc.edu/girardi/m7034/book/AshComplexVariablesMerged.pdf) — Ash & Novinger, Complex Variables, chapters 2–3: Cauchy theory and integral formula.

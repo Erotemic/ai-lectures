@@ -138,3 +138,4 @@ A proof avoiding division by \(g(a+h)-g(a)\) when it is zero: define \(\eta(k)\)
 - Wikipedia, “Derivative”: https://en.wikipedia.org/wiki/Derivative
 - Stephen Abbott, *Understanding Analysis*, differentiation chapter.
 - Terence Tao, *Analysis I*, differentiability of real functions.
+- [MIT OpenCourseWare, 18.100B Real Analysis (Spring 2025)](https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/pages/lecture-notes/) — MIT 18.100B, lecture 15: derivative and differentiation rules.

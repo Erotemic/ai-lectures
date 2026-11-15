@@ -129,3 +129,4 @@ Thus \(\lim_{x\to1}f(x)=2\) with \(\delta=\varepsilon\). Extending by \(f(1)=2\)
 - OpenStax, *Calculus Volume 1*, sections 2.4 and 2.5: https://openstax.org/books/calculus-volume-1/pages/2-4-continuity and https://openstax.org/books/calculus-volume-1/pages/2-5-the-precise-definition-of-a-limit
 - Stephen Abbott, *Understanding Analysis*, sections on the functional limit and continuity.
 - Terence Tao, *Analysis I*, continuity and limits of functions.
+- [MIT OpenCourseWare, 18.100B Real Analysis (Spring 2025)](https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/pages/lecture-notes/) — MIT 18.100B, lectures 9–11: limits and continuity.

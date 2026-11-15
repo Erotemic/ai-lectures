@@ -147,3 +147,4 @@ For \(g(e^{it})=\cos(nt)\) and integer \(n\ge1\), \(u(re^{i\theta})=r^n\cos(n\th
 - MIT OCW, *18.112 Functions of a Complex Variable*, Lecture 16: https://ocw.mit.edu/courses/18-112-functions-of-a-complex-variable-fall-2008/pages/lecture-notes/.
 - Harvard Mathematics 55b complex analysis notes, harmonic functions: https://abel.math.harvard.edu/~ctm/home/text/class/harvard/55b/10/html/home/course/course.pdf.
 - IIT Guwahati, *MA547 Complex Analysis*, harmonic conjugates and periods: https://fac.iitg.ac.in/rksri/MA547%20Complex%20Analysis%20lecture%20notes%202025.pdf.
+- [Boris Khoruzhenko, Potential Theory (QMUL lecture notes)](https://webspace.maths.qmul.ac.uk/b.khoruzhenko/potential_th_notes.pdf) — Khoruzhenko, Potential Theory, lecture 1: harmonic functions, mean-value and maximum principles.

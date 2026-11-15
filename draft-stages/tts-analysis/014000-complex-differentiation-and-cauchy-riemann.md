@@ -159,3 +159,4 @@ At \(a\) with \(f'(a)=A+iB\ne0\), \(\det Df(a)=A^2+B^2=|f'(a)|^2>0\). The first-
 - MIT OpenCourseWare, *18.04 Complex Variables with Applications*, Topic 2, https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-spring-2018/pages/lecture-notes/.
 - MIT OpenCourseWare, *18.112 Functions of a Complex Variable*, Lecture 3, https://ocw.mit.edu/courses/18-112-functions-of-a-complex-variable-fall-2008/pages/lecture-notes/.
 - Wikipedia, *Cauchy–Riemann equations*, https://en.wikipedia.org/wiki/Cauchy%E2%80%93Riemann_equations.
+- [Robert B. Ash and W. P. Novinger, Complex Variables, 2nd ed.](https://people.math.sc.edu/girardi/m7034/book/AshComplexVariablesMerged.pdf) — Ash & Novinger, Complex Variables, chapter 1: the real differentiability hypothesis and Cauchy–Riemann equations.

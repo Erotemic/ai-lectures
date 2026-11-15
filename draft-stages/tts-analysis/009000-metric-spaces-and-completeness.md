@@ -128,3 +128,4 @@ The open ball is \(B_d(x,r)=\{y\in X:d(x,y)<r\}\). The sequence \(x_n\to x\) mea
 - [Wikipedia: Complete metric space](https://en.wikipedia.org/wiki/Complete_metric_space) — Cauchy sequences and function-space completeness.
 - Stephen Abbott, *Understanding Analysis*, chapters on sequences, continuity, and uniform convergence.
 - Terence Tao, *Analysis I*, metric-space limit ideas and Cauchy reasoning.
+- [MIT OpenCourseWare, 18.S190 Introduction to Metric Spaces (2023)](https://ocw.mit.edu/courses/18-s190-introduction-to-metric-spaces-january-iap-2023/pages/lecture-notes/) — MIT 18.S190, lectures 1, 2 and 5: metrics and completeness.

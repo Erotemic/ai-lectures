@@ -160,3 +160,4 @@ That question is one of the foundations of analysis. It turns the image of a con
 - Stanford Encyclopedia of Philosophy, “Continuity and Infinitesimals,” https://plato.stanford.edu/entries/continuity/
 - Stephen Abbott, *Understanding Analysis*, chapters on sequences and completeness.
 - Terence Tao, *Analysis I*, constructions of the reals and Cauchy sequences.
+- [MIT OpenCourseWare, 18.100B Real Analysis (Spring 2025)](https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/pages/lecture-notes/) — MIT 18.100B, lectures 1–7: completeness and convergence of real sequences.

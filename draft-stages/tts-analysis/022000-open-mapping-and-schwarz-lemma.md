@@ -136,3 +136,4 @@ The derivative bound is pointwise Euclidean and need **not** be \(\le1\) for arb
 
 - MIT OCW, *18.112 Functions of a Complex Variable*, Lecture 12: https://ocw.mit.edu/courses/18-112-functions-of-a-complex-variable-fall-2008/pages/lecture-notes/.
 - University of Jyväskylä, *Complex Analysis 2*, normal families and disk maps: https://users.jyu.fi/~salomi/teaching/ca2_2024/Lecture_notes_eng.pdf.
+- [Robert B. Ash and W. P. Novinger, Complex Variables, 2nd ed.](https://people.math.sc.edu/girardi/m7034/book/AshComplexVariablesMerged.pdf) — Ash & Novinger, Complex Variables, open mapping theorem and Schwarz lemma.

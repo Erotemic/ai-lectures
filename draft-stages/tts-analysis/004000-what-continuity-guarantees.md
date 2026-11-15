@@ -147,3 +147,4 @@ f(x_{\min})\le f(x)\le f(x_{\max})\quad\text{for all }x\in[a,b].
 - OpenStax, *Calculus Volume 1*, section 4.3, “Maxima and Minima” (Extreme Value Theorem): https://openstax.org/books/calculus-volume-1/pages/4-3-maxima-and-minima
 - Stephen Abbott, *Understanding Analysis*, chapters on completeness, compact sets, and continuous functions.
 - Terence Tao, *Analysis I*, chapters on the least upper bound property and continuous functions.
+- [MIT OpenCourseWare, 18.100B Real Analysis (Spring 2025)](https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/pages/lecture-notes/) — MIT 18.100B, lectures 11 and 14: IVT, EVT and compactness.

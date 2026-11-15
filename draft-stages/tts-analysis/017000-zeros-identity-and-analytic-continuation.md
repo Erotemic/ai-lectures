@@ -134,3 +134,4 @@ Let D be connected and open, and f,g holomorphic on D. If \(\{z_n\}\subset D\) c
 - MIT OpenCourseWare, *18.04 Complex Variables with Applications*, topics 4, 7 and 13: https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-spring-2018/pages/lecture-notes/.
 - Wikipedia, *Identity theorem*: https://en.wikipedia.org/wiki/Identity_theorem.
 - Wikipedia, *Analytic continuation*: https://en.wikipedia.org/wiki/Analytic_continuation.
+- [Robert B. Ash and W. P. Novinger, Complex Variables, 2nd ed.](https://people.math.sc.edu/girardi/m7034/book/AshComplexVariablesMerged.pdf) — Ash & Novinger, Complex Variables, chapter 3: power series and analytic continuation.

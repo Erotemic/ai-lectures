@@ -142,3 +142,5 @@ Every disk automorphism has the form
 - [Wikipedia, Möbius transformation](https://en.wikipedia.org/wiki/M%C3%B6bius_transformation).
 - [Wikipedia, Riemann sphere](https://en.wikipedia.org/wiki/Riemann_sphere).
 - [Wikipedia, Schwarz lemma](https://en.wikipedia.org/wiki/Schwarz_lemma).
+- [Christopher Bishop, The Riemann Mapping Theorem (Stony Brook lecture notes)](https://www.math.stonybrook.edu/~bishop/classes/math626.F08/rmt.pdf) — Bishop, chapters 1–2: Möbius maps, disk automorphisms and conformal geometry.
+- [Robert B. Ash and W. P. Novinger, Complex Variables, 2nd ed.](https://people.math.sc.edu/girardi/m7034/book/AshComplexVariablesMerged.pdf) — Ash & Novinger, conformal and Möbius mapping chapters.

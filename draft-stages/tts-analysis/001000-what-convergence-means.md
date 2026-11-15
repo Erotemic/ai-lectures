@@ -116,3 +116,4 @@ Let a sequence be a function \(a:\mathbb N_{\ge1}\to\mathbb R\). The statement \
 - OpenStax, *Calculus Volume 2*, section 5.1, “Sequences”: https://openstax.org/books/calculus-volume-2/pages/5-1-sequences
 - Stephen Abbott, *Understanding Analysis*, 2nd ed., chapters on sequences and limits.
 - Terence Tao, *Analysis I*, chapters on limits of sequences.
+- [MIT OpenCourseWare, 18.100B Real Analysis (Spring 2025)](https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/pages/lecture-notes/) — MIT 18.100B, lectures 4–7: epsilon–N convergence, Cauchy sequences and monotone convergence.

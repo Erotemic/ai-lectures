@@ -149,5 +149,6 @@ For \(r<s<R\), the differentiated terms admit bounds of the form \(C n r^{n-1}/s
 
 - [Wikipedia: Weierstrass M-test](https://en.wikipedia.org/wiki/Weierstrass_M-test) — a sufficient test for uniform convergence of function series.
 - [Wikipedia: Power series](https://en.wikipedia.org/wiki/Power_series) — convergence radius, boundary behavior and termwise operations.
-- [David Ash, *Complex Variables* notes, hosted at the University of South Carolina](https://people.math.sc.edu/girardi/m7034/book/AshComplexVariablesMerged.pdf) — M-test and uniform convergence on closed subdisks.
+- [Robert B. Ash and W. P. Novinger, *Complex Variables* (2004), hosted at the University of South Carolina](https://people.math.sc.edu/girardi/m7034/book/AshComplexVariablesMerged.pdf) — M-test and uniform convergence on closed subdisks.
 - [University of Washington: Series notes](https://sites.math.washington.edu/~marshall/math_135/series.pdf) — concise proof of the M-test and power-series radius arguments.
+- [MIT OpenCourseWare, 18.100B Real Analysis (Spring 2025)](https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/pages/lecture-notes/) — MIT 18.100B, lecture 22: differentiating and integrating power series.

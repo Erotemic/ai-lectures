@@ -166,3 +166,4 @@ For continuous \(f:U\to\mathbb C\) on an open path-connected \(U\), the followin
 - MIT OpenCourseWare, *18.112 Functions of a Complex Variable*, Lecture 8, https://ocw.mit.edu/courses/18-112-functions-of-a-complex-variable-fall-2008/pages/lecture-notes/.
 - MIT OpenCourseWare, *18.04 Complex Variables with Applications*, Topic 3, https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-spring-2018/pages/lecture-notes/.
 - Wikipedia, *Contour integration*, https://en.wikipedia.org/wiki/Contour_integration.
+- [Robert B. Ash and W. P. Novinger, Complex Variables, 2nd ed.](https://people.math.sc.edu/girardi/m7034/book/AshComplexVariablesMerged.pdf) — Ash & Novinger, Complex Variables, chapter 2: contour integrals, primitives and winding.

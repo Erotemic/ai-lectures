@@ -158,3 +158,4 @@ Equality in the distance inequality for distinct \(z,w\) forces \(f\) to be a di
 - [Wikipedia, Poincaré disk model](https://en.wikipedia.org/wiki/Poincar%C3%A9_disk_model).
 - [Wikipedia, Poincaré half-plane model](https://en.wikipedia.org/wiki/Poincar%C3%A9_half-plane_model).
 - [Wikipedia, Schwarz–Pick theorem](https://en.wikipedia.org/wiki/Schwarz%E2%80%93Pick_theorem).
+- [Christopher Bishop, The Riemann Mapping Theorem (Stony Brook lecture notes)](https://www.math.stonybrook.edu/~bishop/classes/math626.F08/rmt.pdf) — Bishop, chapter 2, section 1: hyperbolic metric and Schwarz lemma.

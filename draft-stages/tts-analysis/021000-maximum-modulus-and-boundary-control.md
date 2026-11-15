@@ -116,3 +116,4 @@ If \(|f|\) has a local maximum at \(a\), choose \(r>0\) with \(|f(a+re^{it})|\le
 
 - MIT OCW, *18.112 Functions of a Complex Variable*, Lecture 12: https://ocw.mit.edu/courses/18-112-functions-of-a-complex-variable-fall-2008/pages/lecture-notes/.
 - Harvard Mathematics 55b complex analysis notes, harmonic and maximum principles: https://abel.math.harvard.edu/~ctm/home/text/class/harvard/55b/10/html/home/course/course.pdf.
+- [Robert B. Ash and W. P. Novinger, Complex Variables, 2nd ed.](https://people.math.sc.edu/girardi/m7034/book/AshComplexVariablesMerged.pdf) — Ash & Novinger, Complex Variables, maximum modulus principle and Cauchy estimates.

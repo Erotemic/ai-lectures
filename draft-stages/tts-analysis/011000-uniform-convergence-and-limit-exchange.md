@@ -137,5 +137,5 @@ For integrability, if \(\|f-f_N\|_\infty<\eta\), then for any partition \(P\), \
 ### Focused references
 
 - [Wikipedia: Uniform convergence](https://en.wikipedia.org/wiki/Uniform_convergence) — quantifiers, continuity, integration, differentiation, counterexamples.
-- [University of Notre Dame: Uniform Convergence](https://www3.nd.edu/~math/restricted/CourseArchive/300Level/366/3662001S/Lectures/02.UniformConvergence.pdf) — compact lecture notes with examples and interchange questions.
 - Stephen Abbott, *Understanding Analysis*, the uniform convergence chapter.
+- [MIT OpenCourseWare, 18.100B Real Analysis (Spring 2025)](https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/pages/lecture-notes/) — MIT 18.100B, lectures 20–21: pointwise/uniform convergence and interchange theorems.

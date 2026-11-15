@@ -140,3 +140,4 @@ Under merely \(|f'(x)-f'(a)|\le K|x-a|\), the Mean Value Theorem applied to \(g(
 - Wikipedia, “Mean value theorem”: https://en.wikipedia.org/wiki/Mean_value_theorem
 - Stephen Abbott, *Understanding Analysis*, differentiation and the Mean Value Theorem.
 - Terence Tao, *Analysis I*, mean value and derivative bounds.
+- [MIT OpenCourseWare, 18.100B Real Analysis (Spring 2025)](https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/pages/lecture-notes/) — MIT 18.100B, lectures 16–17: Rolle, MVT and Taylor estimates.

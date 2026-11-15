@@ -135,3 +135,4 @@ For f holomorphic on \(0<|z-a|<R\) with an essential singularity at a, and any \
 - MIT OpenCourseWare, *18.112 Functions of a Complex Variable*, isolated singularities: https://ocw.mit.edu/courses/18-112-functions-of-a-complex-variable-fall-2008/pages/lecture-notes/.
 - Wikipedia, *Laurent series*: https://en.wikipedia.org/wiki/Laurent_series.
 - Wikipedia, *Casorati–Weierstrass theorem*: https://en.wikipedia.org/wiki/Casorati%E2%80%93Weierstrass_theorem.
+- [Tero Kilpeläinen and Antti Vähäkangas, Complex Analysis 2 (2024)](https://users.jyu.fi/~salomi/teaching/ca2_2024/Lecture_notes_eng.pdf) — Kilpeläinen & Vähäkangas, Complex Analysis 2, chapters 2–3: Laurent series and isolated singularities.
