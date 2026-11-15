@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-the-contract-and-the-ocean.md",
+  "related_resources": [
+    {
+      "source_id": "indenture-tna",
+      "reason": "Guide: abolition context, record series CO 167/295/111/83 etc, non-digitized files, archival limits; indexed excerpt checked, direct open returned 403",
+      "access_scope": "indexed_page_excerpt"
+    },
+    {
+      "source_id": "indenture-lal",
+      "reason": "ANU repository abstract: emigration-pass dataset, origins, prior mobility and gender; full dissertation not reviewed",
+      "access_scope": "abstract_only"
+    },
+    {
+      "source_id": "indenture-ghat",
+      "reason": "Brief synthesis and authenticity: 1834 migration project, Mauritius depot, receiving buildings, broad arrival count",
+      "access_scope": "direct_page"
+    },
+    {
+      "source_id": "indenture-kale",
+      "reason": "Publisher book description: biased imperial archives and postemancipation labor regimes; full book not reviewed",
+      "access_scope": "catalog_only"
+    },
+    {
+      "source_id": "indenture-mow",
+      "reason": "Documentation and scope of transnational indenture records in Fiji, Guyana, Suriname and Trinidad",
+      "access_scope": "direct_page"
+    },
+    {
+      "source_id": "indenture-trinidad",
+      "reason": "Collection description: destinations, arrival chronology, register fields and archive gaps",
+      "access_scope": "direct_page"
+    },
+    {
+      "source_id": "indenture-bahadur",
+      "reason": "Publisher description: family reconstruction and gendered history of indenture; not a full-text inspection",
+      "access_scope": "publisher_description"
+    },
+    {
+      "source_id": "indenture-kumar",
+      "reason": "Open-access article: introduction; petitions on plantations; Mankuari example; translated petition and response; women’s agency and patriarchy",
+      "access_scope": "direct_article"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "020000-p01",
+      "anchor": "Imagine being offered passage to a country whose shoreline you have never s",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "indenture-tna",
+        "indenture-lal"
+      ],
+      "source_locator": "indenture-tna: Guide: abolition context, record series CO 167/295/111/83 etc, non-digitized files, archival limits; indexed excerpt checked, direct open returned 403; indenture-lal: ANU repository abstract: emigration-pass dataset, origins, prior mobility and gender; full dissertation not reviewed",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Invented decision problem: neither consent nor deception can be inferred for a named worker from this illustration."
+    },
+    {
+      "id": "020000-p02",
+      "anchor": "Britain's abolition of slavery in most of its colonies began a difficult tr",
+      "kind": "historical_research",
+      "source_ids": [
+        "indenture-tna",
+        "indenture-ghat",
+        "indenture-kale"
+      ],
+      "source_locator": "indenture-tna: Guide: abolition context, record series CO 167/295/111/83 etc, non-digitized files, archival limits; indexed excerpt checked, direct open returned 403; indenture-ghat: Brief synthesis and authenticity: 1834 migration project, Mauritius depot, receiving buildings, broad arrival count; indenture-kale: Publisher book description: biased imperial archives and postemancipation labor regimes; full book not reviewed",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "020000-p03",
+      "anchor": "Indenture should neither be treated as slavery under another name in every ",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "indenture-kale",
+        "indenture-tna"
+      ],
+      "source_locator": "indenture-kale: Publisher book description: biased imperial archives and postemancipation labor regimes; full book not reviewed; indenture-tna: Guide: abolition context, record series CO 167/295/111/83 etc, non-digitized files, archival limits; indexed excerpt checked, direct open returned 403",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Indenture/slavery legal comparison is analytic; avoid an undifferentiated equivalence."
+    },
+    {
+      "id": "020000-p04",
+      "anchor": "In 1834 Mauritius became an early center of the colonial policy described a",
+      "kind": "historical_research",
+      "source_ids": [
+        "indenture-ghat"
+      ],
+      "source_locator": "indenture-ghat: Brief synthesis and authenticity: 1834 migration project, Mauritius depot, receiving buildings, broad arrival count",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "UNESCO site-specific arrival totals should not be extended into a global total without consistent periods."
+    },
+    {
+      "id": "020000-p05",
+      "anchor": "A depot can be read in at least two ways. From the administrator's desk, th",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "indenture-ghat",
+        "indenture-mow"
+      ],
+      "source_locator": "indenture-ghat: Brief synthesis and authenticity: 1834 migration project, Mauritius depot, receiving buildings, broad arrival count; indenture-mow: Documentation and scope of transnational indenture records in Fiji, Guyana, Suriname and Trinidad",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "020000-p06",
+      "anchor": "The National Archives' guide describes the Colonial Office correspondence a",
+      "kind": "historical_research",
+      "source_ids": [
+        "indenture-tna"
+      ],
+      "source_locator": "indenture-tna: Guide: abolition context, record series CO 167/295/111/83 etc, non-digitized files, archival limits; indexed excerpt checked, direct open returned 403",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "British research guide documents holdings but is not itself a reading of every archival document."
+    },
+    {
+      "id": "020000-p07",
+      "anchor": "Workers traveled on different routes, under changing laws, to colonies with",
+      "kind": "historical_research",
+      "source_ids": [
+        "indenture-trinidad",
+        "indenture-tna"
+      ],
+      "source_locator": "indenture-trinidad: Collection description: destinations, arrival chronology, register fields and archive gaps; indenture-tna: Guide: abolition context, record series CO 167/295/111/83 etc, non-digitized files, archival limits; indexed excerpt checked, direct open returned 403",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Trinidad archive source has records with gaps and a defined historical period."
+    },
+    {
+      "id": "020000-p08",
+      "anchor": "Brij V. Lal studied Fiji's Indian indenture population through large collec",
+      "kind": "historical_research",
+      "source_ids": [
+        "indenture-lal"
+      ],
+      "source_locator": "indenture-lal: ANU repository abstract: emigration-pass dataset, origins, prior mobility and gender; full dissertation not reviewed",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Lal thesis repository abstract is not a substitute for full statistical data tables."
+    },
+    {
+      "id": "020000-p09",
+      "anchor": "A document called an emigration pass looks authoritative because it can be ",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "indenture-lal",
+        "indenture-mow"
+      ],
+      "source_locator": "indenture-lal: ANU repository abstract: emigration-pass dataset, origins, prior mobility and gender; full dissertation not reviewed; indenture-mow: Documentation and scope of transnational indenture records in Fiji, Guyana, Suriname and Trinidad",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Emigration-register exercise is methodological synthesis, not reconstruction of a named person."
+    },
+    {
+      "id": "020000-p10",
+      "anchor": "Gender alters the entire account. Plantation employers did not simply recru",
+      "kind": "historical_research",
+      "source_ids": [
+        "indenture-bahadur",
+        "indenture-kumar"
+      ],
+      "source_locator": "indenture-bahadur: Publisher description: family reconstruction and gendered history of indenture; not a full-text inspection; indenture-kumar: Open-access article: introduction; petitions on plantations; Mankuari example; translated petition and response; women’s agency and patriarchy",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Bahadur cited from publisher description; Kumar full article independently supports women’s history."
+    },
+    {
+      "id": "020000-p11",
+      "anchor": "One recent piece of scholarship lets us get closer to the documentary groun",
+      "kind": "historical_research",
+      "source_ids": [
+        "indenture-kumar"
+      ],
+      "source_locator": "indenture-kumar: Open-access article: introduction; petitions on plantations; Mankuari example; translated petition and response; women’s agency and patriarchy",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "020000-p12",
+      "anchor": "Kumar discusses a petition from a woman named Mankuari, documented in the N",
+      "kind": "historical_research",
+      "source_ids": [
+        "indenture-kumar"
+      ],
+      "source_locator": "indenture-kumar: Open-access article: introduction; petitions on plantations; Mankuari example; translated petition and response; women’s agency and patriarchy",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Kumar presents Mankuari’s Fiji petition through an archival interpretation; avoid inventing her original words."
+    },
+    {
+      "id": "020000-p13",
+      "anchor": "The same research also considers petitions by men seeking colonial interven",
+      "kind": "historical_research",
+      "source_ids": [
+        "indenture-kumar"
+      ],
+      "source_locator": "indenture-kumar: Open-access article: introduction; petitions on plantations; Mankuari example; translated petition and response; women’s agency and patriarchy",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "020000-p14",
+      "anchor": "The contract created a practical problem: how could the plantation ensure s",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "indenture-tna",
+        "indenture-kumar"
+      ],
+      "source_locator": "indenture-tna: Guide: abolition context, record series CO 167/295/111/83 etc, non-digitized files, archival limits; indexed excerpt checked, direct open returned 403; indenture-kumar: Open-access article: introduction; petitions on plantations; Mankuari example; translated petition and response; women’s agency and patriarchy",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "020000-p15",
+      "anchor": "Workers responded in many ways. They complained, petitioned, negotiated, fo",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "indenture-lal",
+        "indenture-kumar"
+      ],
+      "source_locator": "indenture-lal: ANU repository abstract: emigration-pass dataset, origins, prior mobility and gender; full dissertation not reviewed; indenture-kumar: Open-access article: introduction; petitions on plantations; Mankuari example; translated petition and response; women’s agency and patriarchy",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "020000-p16",
+      "anchor": "In Trinidad, the surviving registers became resources for descendants traci",
+      "kind": "historical_research",
+      "source_ids": [
+        "indenture-trinidad",
+        "indenture-mow"
+      ],
+      "source_locator": "indenture-trinidad: Collection description: destinations, arrival chronology, register fields and archive gaps; indenture-mow: Documentation and scope of transnational indenture records in Fiji, Guyana, Suriname and Trinidad",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "020000-p17",
+      "anchor": "People did more than complete their contracts. Some returned to India; othe",
+      "kind": "historical_research",
+      "source_ids": [
+        "indenture-ghat",
+        "indenture-trinidad",
+        "indenture-bahadur"
+      ],
+      "source_locator": "indenture-ghat: Brief synthesis and authenticity: 1834 migration project, Mauritius depot, receiving buildings, broad arrival count; indenture-trinidad: Collection description: destinations, arrival chronology, register fields and archive gaps; indenture-bahadur: Publisher description: family reconstruction and gendered history of indenture; not a full-text inspection",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "020000-p18",
+      "anchor": "The vocabulary of indenture carries its own history. Girmit, often associat",
+      "kind": "historical_research",
+      "source_ids": [
+        "indenture-lal",
+        "indenture-kumar"
+      ],
+      "source_locator": "indenture-lal: ANU repository abstract: emigration-pass dataset, origins, prior mobility and gender; full dissertation not reviewed; indenture-kumar: Open-access article: introduction; petitions on plantations; Mankuari example; translated petition and response; women’s agency and patriarchy",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Etymology/usage is interpreted cautiously; this is not a linguistic derivation proven by Lal’s abstract."
+    },
+    {
+      "id": "020000-p19",
+      "anchor": "A comparison with Atlantic slavery is necessary and incomplete. Both system",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "indenture-kale",
+        "indenture-tna"
+      ],
+      "source_locator": "indenture-kale: Publisher book description: biased imperial archives and postemancipation labor regimes; full book not reviewed; indenture-tna: Guide: abolition context, record series CO 167/295/111/83 etc, non-digitized files, archival limits; indexed excerpt checked, direct open returned 403",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "020000-p20",
+      "anchor": "Imagine tracing a person's life through three documents: an emigration pass",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "indenture-mow",
+        "indenture-lal"
+      ],
+      "source_locator": "indenture-mow: Documentation and scope of transnational indenture records in Fiji, Guyana, Suriname and Trinidad; indenture-lal: ANU repository abstract: emigration-pass dataset, origins, prior mobility and gender; full dissertation not reviewed",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "020000-p21",
+      "anchor": "A more complete study would add local archives, oral traditions, family tes",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "indenture-tna",
+        "indenture-mow"
+      ],
+      "source_locator": "indenture-tna: Guide: abolition context, record series CO 167/295/111/83 etc, non-digitized files, archival limits; indexed excerpt checked, direct open returned 403; indenture-mow: Documentation and scope of transnational indenture records in Fiji, Guyana, Suriname and Trinidad",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "020000-p22",
+      "anchor": "We began with a contract promising a new life. It was a legal document, but",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "indenture-lal",
+        "indenture-kale"
+      ],
+      "source_locator": "indenture-lal: ANU repository abstract: emigration-pass dataset, origins, prior mobility and gender; full dissertation not reviewed; indenture-kale: Publisher book description: biased imperial archives and postemancipation labor regimes; full book not reviewed",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    }
+  ],
+  "notes": "Paragraph-level evidence ledger after narration; 22 cited paragraphs. Original teaching examples labeled; publisher abstracts and catalogs explicitly scoped. Content length determined by substance."
+}

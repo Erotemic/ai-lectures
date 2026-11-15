@@ -42,3 +42,12 @@ All word counts describe written manuscripts; they are not targets or limits. Th
 Each spoken paragraph is linked to a source-ledger entry **after** the narration markers. Entries identify an exact source record, a direct URL, the relevant document/chapter/section, what the accessible source can support, and an explicit caution where interpretation outruns direct documentation. Sidecar `metadata/<id>.json` has one `historical_claims` entry per paragraph. Check the source-access scope (`direct_page`, `direct_article`, `abstract_only`, `catalog_only`, `excerpt_only`) before treating a supporting reference as inspected full text. The scope does **not** assert that every clause of a long source has been independently audited.
 
 The project does **not** have a ten-minute (or any other fixed) lecture length target. Word counts and duration estimates are descriptive metadata.
+
+## Empire, mobility, Indigenous sovereignty, and networks (019000–022000)
+
+- **019000 — [When the Company Became a Crown](019000-the-rebellion-and-the-raj.md).** The 1857 Indian uprising, its diverse participants, the 1858 shift from Company to Crown, and the contested politics of historical memory.
+- **020000 — [The Contract and the Ocean](020000-the-contract-and-the-ocean.md).** Indentured migration, the meaning and limits of contracts, migrant choices and coercion, women’s petitions, and diasporic historical sources.
+- **021000 — [The Treaty and the Land](021000-the-treaty-and-the-land.md).** Comparative Indigenous sovereignty: Te Tiriti o Waitangi, Māori land struggle, U.S. treaties and allotment, and Australian frontier records.
+- **022000 — [The Shorter Distance](022000-the-shorter-distance.md).** Indian railways, cables and telegraphs, the Suez Canal, and unequal distribution of benefits, labor, and control.
+
+All four lectures carry paragraph-level display-only evidence ledgers with direct links and the narrowest available passage locators. They distinguish public full articles and primary texts from abstracts, publisher descriptions, archival catalogs and indexed excerpts. No target length or duration rule applies. Content authorship remains wholly inside this pack.

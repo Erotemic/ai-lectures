@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "lecture_id": "022000",
+  "transcript": "022000-the-shorter-distance.md",
+  "related_resources": [
+    {
+      "source_id": "networks-museum-cable",
+      "reason": "1858 experimental cable and breakdown, 1866 lasting cable, early telegraph systems",
+      "access_scope": "direct_page"
+    },
+    {
+      "source_id": "networks-rail-education",
+      "reason": "Full open article: historical background, finance and routing, literacy estimation, group differences",
+      "access_scope": "direct_article"
+    },
+    {
+      "source_id": "networks-suez-authority",
+      "reason": "1859–69 works, 17 November 1869 opening, 1875 share sale and 1882 occupation; institutional perspective",
+      "access_scope": "direct_page"
+    },
+    {
+      "source_id": "networks-rail-growth",
+      "reason": "Open article: introduction, historic railway expansion, growth estimation, limitations",
+      "access_scope": "direct_article"
+    },
+    {
+      "source_id": "rebellion-nam-events",
+      "reason": "Decisive events; political changes; military reform; the aftermath",
+      "access_scope": "direct_page"
+    },
+    {
+      "source_id": "networks-rail-famine",
+      "reason": "Accessible abstract in search extract; famine mortality and rainfall shocks; full PDF not audited",
+      "access_scope": "abstract_only"
+    },
+    {
+      "source_id": "networks-rail-critique",
+      "reason": "Journal abstract: critiques railway famine-prevention claims; article text not reviewed",
+      "access_scope": "abstract_only"
+    },
+    {
+      "source_id": "networks-museum-clock",
+      "reason": "1837 telegraph demonstration, source provenance, railway timing and time standardization",
+      "access_scope": "direct_page"
+    },
+    {
+      "source_id": "networks-cable-empire",
+      "reason": "Search-indexed excerpt only: undersea imperial cable network and Britain–India connection; full article PDF not reviewed",
+      "access_scope": "indexed_excerpt"
+    },
+    {
+      "source_id": "networks-frus1879",
+      "reason": "Contemporary US diplomatic report on Suez Canal revenue, construction, British share purchase and trade",
+      "access_scope": "direct_primary_text"
+    },
+    {
+      "source_id": "networks-carminati",
+      "reason": "Publisher abstract only: labor recruitment, corvée, shifts to mechanization 1859–64; chapter not inspected",
+      "access_scope": "abstract_only"
+    },
+    {
+      "source_id": "networks-carminati-book",
+      "reason": "Publisher description and contents only: migrant labor and city formation; book not reviewed",
+      "access_scope": "catalog_only"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "022000-p01",
+      "anchor": "Imagine two letters describing the same event. One travels aboard a ship, c",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "networks-museum-cable"
+      ],
+      "source_locator": "networks-museum-cable: 1858 experimental cable and breakdown, 1866 lasting cable, early telegraph systems",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Two letters are hypothetical, not a pair of recovered documents."
+    },
+    {
+      "id": "022000-p02",
+      "anchor": "We often describe a railway or canal as an improvement in transport. Improv",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "networks-rail-education",
+        "networks-suez-authority"
+      ],
+      "source_locator": "networks-rail-education: Full open article: historical background, finance and routing, literacy estimation, group differences; networks-suez-authority: 1859–69 works, 17 November 1869 opening, 1875 share sale and 1882 occupation; institutional perspective",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "022000-p03",
+      "anchor": "In India, the first passenger railway opened between Bombay, now Mumbai, an",
+      "kind": "historical_research",
+      "source_ids": [
+        "networks-rail-education",
+        "networks-rail-growth"
+      ],
+      "source_locator": "networks-rail-education: Full open article: historical background, finance and routing, literacy estimation, group differences; networks-rail-growth: Open article: introduction, historic railway expansion, growth estimation, limitations",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Railway dates, route motives and effects supported separately; not every route had a single motive."
+    },
+    {
+      "id": "022000-p04",
+      "anchor": "Colonial railway finance was not a simple tale of private investors acting ",
+      "kind": "historical_research",
+      "source_ids": [
+        "networks-rail-education",
+        "networks-rail-growth"
+      ],
+      "source_locator": "networks-rail-education: Full open article: historical background, finance and routing, literacy estimation, group differences; networks-rail-growth: Open article: introduction, historic railway expansion, growth estimation, limitations",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "022000-p05",
+      "anchor": "The Indian uprising of 1857–58 sharpened British concern with moving soldie",
+      "kind": "historical_research",
+      "source_ids": [
+        "networks-rail-education",
+        "rebellion-nam-events"
+      ],
+      "source_locator": "networks-rail-education: Full open article: historical background, finance and routing, literacy estimation, group differences; rebellion-nam-events: Decisive events; political changes; military reform; the aftermath",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "022000-p06",
+      "anchor": "Passengers also changed the railway's use. Chaudhary and Fenske report that",
+      "kind": "historical_research",
+      "source_ids": [
+        "networks-rail-education"
+      ],
+      "source_locator": "networks-rail-education: Full open article: historical background, finance and routing, literacy estimation, group differences",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "022000-p07",
+      "anchor": "Economic historians can now test claims that older narratives often took on",
+      "kind": "historical_research",
+      "source_ids": [
+        "networks-rail-growth"
+      ],
+      "source_locator": "networks-rail-growth: Open article: introduction, historic railway expansion, growth estimation, limitations",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Empirical growth effects of railway construction do not imply a global evaluation of colonialism."
+    },
+    {
+      "id": "022000-p08",
+      "anchor": "Chaudhary and Fenske also find that railway exposure contributed to literac",
+      "kind": "historical_research",
+      "source_ids": [
+        "networks-rail-education"
+      ],
+      "source_locator": "networks-rail-education: Full open article: historical background, finance and routing, literacy estimation, group differences",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "The sample identifies differences by sex and type of literacy; do not universalize to every pupil."
+    },
+    {
+      "id": "022000-p09",
+      "anchor": "The relationship between railways and famine deserves particular care after",
+      "kind": "historical_research",
+      "source_ids": [
+        "networks-rail-famine",
+        "networks-rail-growth"
+      ],
+      "source_locator": "networks-rail-famine: Accessible abstract in search extract; famine mortality and rainfall shocks; full PDF not audited; networks-rail-growth: Open article: introduction, historic railway expansion, growth estimation, limitations",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Working-paper abstract reports a particular estimation strategy; not all famine outcomes are explained."
+    },
+    {
+      "id": "022000-p10",
+      "anchor": "Other research examines what infrastructure did not solve. Stuart Sweeney's",
+      "kind": "historical_research",
+      "source_ids": [
+        "networks-rail-critique",
+        "networks-rail-famine"
+      ],
+      "source_locator": "networks-rail-critique: Journal abstract: critiques railway famine-prevention claims; article text not reviewed; networks-rail-famine: Accessible abstract in search extract; famine mortality and rainfall shocks; full PDF not audited",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sweeney journal abstract and Burgess–Donaldson abstract address related but different research questions."
+    },
+    {
+      "id": "022000-p11",
+      "anchor": "The larger methodological lesson is that a transport network is neither an ",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "networks-rail-famine",
+        "networks-rail-critique"
+      ],
+      "source_locator": "networks-rail-famine: Accessible abstract in search extract; famine mortality and rainfall shocks; full PDF not audited; networks-rail-critique: Journal abstract: critiques railway famine-prevention claims; article text not reviewed",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "022000-p12",
+      "anchor": "Telegraphy introduced an even sharper split between the movement of informa",
+      "kind": "historical_research",
+      "source_ids": [
+        "networks-museum-cable"
+      ],
+      "source_locator": "networks-museum-cable: 1858 experimental cable and breakdown, 1866 lasting cable, early telegraph systems",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "1858 transatlantic cable failed; 1866 yielded a reliable service."
+    },
+    {
+      "id": "022000-p13",
+      "anchor": "Telegraphy changed timekeeping as well as communication. Railway schedules ",
+      "kind": "historical_research",
+      "source_ids": [
+        "networks-museum-clock"
+      ],
+      "source_locator": "networks-museum-clock: 1837 telegraph demonstration, source provenance, railway timing and time standardization",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "022000-p14",
+      "anchor": "Consider again what telegraph messages could achieve. A trading firm might ",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "networks-museum-cable",
+        "networks-cable-empire"
+      ],
+      "source_locator": "networks-museum-cable: 1858 experimental cable and breakdown, 1866 lasting cable, early telegraph systems; networks-cable-empire: Search-indexed excerpt only: undersea imperial cable network and Britain–India connection; full article PDF not reviewed",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "022000-p15",
+      "anchor": "This is especially important for the political history of empire. A cable c",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "networks-cable-empire",
+        "networks-museum-cable"
+      ],
+      "source_locator": "networks-cable-empire: Search-indexed excerpt only: undersea imperial cable network and Britain–India connection; full article PDF not reviewed; networks-museum-cable: 1858 experimental cable and breakdown, 1866 lasting cable, early telegraph systems",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "022000-p16",
+      "anchor": "The Suez Canal opened to international shipping in November 1869, joining t",
+      "kind": "historical_research",
+      "source_ids": [
+        "networks-suez-authority",
+        "networks-frus1879"
+      ],
+      "source_locator": "networks-suez-authority: 1859–69 works, 17 November 1869 opening, 1875 share sale and 1882 occupation; institutional perspective; networks-frus1879: Contemporary US diplomatic report on Suez Canal revenue, construction, British share purchase and trade",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "022000-p17",
+      "anchor": "Historian Lucia Carminati has argued that the canal's history should be tol",
+      "kind": "historical_research",
+      "source_ids": [
+        "networks-carminati",
+        "networks-carminati-book"
+      ],
+      "source_locator": "networks-carminati: Publisher abstract only: labor recruitment, corvée, shifts to mechanization 1859–64; chapter not inspected; networks-carminati-book: Publisher description and contents only: migrant labor and city formation; book not reviewed",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Carminati Oxford chapter is abstract only; avoid invented particulars of canal workers."
+    },
+    {
+      "id": "022000-p18",
+      "anchor": "In 1875 the British government purchased a large block of Suez Canal Compan",
+      "kind": "historical_research",
+      "source_ids": [
+        "networks-suez-authority",
+        "networks-frus1879"
+      ],
+      "source_locator": "networks-suez-authority: 1859–69 works, 17 November 1869 opening, 1875 share sale and 1882 occupation; institutional perspective; networks-frus1879: Contemporary US diplomatic report on Suez Canal revenue, construction, British share purchase and trade",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Company shares and 1882 occupation are distinct events, not a single transfer of canal ownership."
+    },
+    {
+      "id": "022000-p19",
+      "anchor": "A historical source from 1879 praises the canal's financial success and est",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "networks-frus1879",
+        "networks-suez-authority"
+      ],
+      "source_locator": "networks-frus1879: Contemporary US diplomatic report on Suez Canal revenue, construction, British share purchase and trade; networks-suez-authority: 1859–69 works, 17 November 1869 opening, 1875 share sale and 1882 occupation; institutional perspective",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "1879 diplomatic statement reports contemporary financial interests, not all Egyptian experiences."
+    },
+    {
+      "id": "022000-p20",
+      "anchor": "Put a railway ticket, a telegraph form, and a canal share certificate on an",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "networks-suez-authority",
+        "networks-museum-cable"
+      ],
+      "source_locator": "networks-suez-authority: 1859–69 works, 17 November 1869 opening, 1875 share sale and 1882 occupation; institutional perspective; networks-museum-cable: 1858 experimental cable and breakdown, 1866 lasting cable, early telegraph systems",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Desk display is hypothetical, not a museum object grouping."
+    },
+    {
+      "id": "022000-p21",
+      "anchor": "Infrastructure also changes environments. Railroads require land and materi",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "networks-carminati",
+        "networks-rail-growth"
+      ],
+      "source_locator": "networks-carminati: Publisher abstract only: labor recruitment, corvée, shifts to mechanization 1859–64; chapter not inspected; networks-rail-growth: Open article: introduction, historic railway expansion, growth estimation, limitations",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    },
+    {
+      "id": "022000-p22",
+      "anchor": "At the beginning, a message outran the ship. That is one of the most import",
+      "kind": "interpretive_synthesis_or_illustration",
+      "source_ids": [
+        "networks-rail-education",
+        "networks-suez-authority"
+      ],
+      "source_locator": "networks-rail-education: Full open article: historical background, finance and routing, literacy estimation, group differences; networks-suez-authority: 1859–69 works, 17 November 1869 opening, 1875 share sale and 1882 occupation; institutional perspective",
+      "audit_status": "linked_primary_secondary_page_or_abstract_inspected",
+      "source_limitations": "Sources support the cited historical frame; explanatory comparison is authored synthesis, not direct testimony."
+    }
+  ],
+  "notes": "Paragraph-level evidence ledger after narration; 22 cited paragraphs. Original teaching examples labeled; publisher abstracts and catalogs explicitly scoped. Content length determined by substance."
+}
