@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "lecture_id": "039000",
+  "transcript": "039000-fugue-and-larger-counterpoint.md",
+  "related_resources": [
+    {
+      "source_id": "mt-039-gotham-exposition",
+      "reason": "Open Music Theory 2nd ed. II Counterpoint and Galant Schemas, section High Baroque Fugal Exposition. Direct locators: Basic Definitions; Structure / Voice Entries; Subject; Answer; Countersubject; Free Counterpoint; Links; Example (BWV 847 mm. 1-9). Author Mark Gotham credited on chapter. Source for period-specific terminology, not the original note events of this lecture."
+    },
+    {
+      "source_id": "mt-039-hutchinson-analysis",
+      "reason": "Section 30.8 and Figures 30.8.1–30.8.4, BWV 847. Definitions of subject, answers, exposition/episode, bridge, two regular countersubjects, additional free counterpoint, subject-head fragmentation; distinguish from the original Bach source."
+    },
+    {
+      "source_id": "mt-039-ku-counterpoint",
+      "reason": "Terminology list and Fugues—Sample Questions; includes real and tonal answers, invertible counterpoint, episode, stretto, double fugue, canon; pedagogical conventions, not a claim that every fugue contains every device."
+    },
+    {
+      "source_id": "mt-039-ucsb-rothfarb",
+      "reason": "Distinct linked sections Invertible Counterpoint (Discussion and examples) and Fugue (Subject and Answer, Exposition and model fugues). Useful for pedagogy and planning, not an empirical validation of this original score."
+    },
+    {
+      "source_id": "mt-039-bach-wtc1",
+      "reason": "Movement list for 24 prelude-fugue pairs; includes Prelude and Fugue in C minor BWV 847 and links to manuscript sources/editions. Historical score attribution separate from modern analyses and recordings; no score copied into this pack."
+    },
+    {
+      "source_id": "mt-039-renwick-thesis",
+      "reason": "CUNY Graduate Center dissertation landing page; Abstract paragraphs on contrapuntal imitation and voice-leading patterns, 43 non-modulating subjects, three primary paradigms; do not assert detailed results beyond visible abstract."
+    },
+    {
+      "source_id": "mt-039-renwick-1991",
+      "reason": "Music Theory Spectrum 13(2) (Fall 1991), pp. 197–218. Abstract describes subject paradigms, linear progressions and recurring expositions. No specific uninspected passages or formulae asserted."
+    },
+    {
+      "source_id": "mt-039-minnesota-composing",
+      "reason": "Exposition and real/tonal answer definitions visible in indexed search extract; direct full page inaccessible (403) in this pass. Use Gotham/Hutchinson as inspectable corroboration for detailed claims."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "It names a contrapuntal practice in which a characteristic subject and its later statements play a central organizing role.",
+      "source_ids": [
+        "mt-039-gotham-exposition",
+        "mt-039-hutchinson-analysis"
+      ],
+      "evidence_detail": "Gotham Key Takeaways / Basic Definitions; Hutchinson §30.8 fugue and subject definition",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "In the tonal fugues of the High Baroque, the first section commonly establishes those roles through an exposition.",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Gotham, Basic Definitions and Structure/Voice Entries",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "We will build a miniature in three voices.",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "This is an original score following Gotham terminology, not a historical example",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "The work and all its note events are original.",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Authorship declaration; inspect source file examples/fugue-lab-039000.json; Gotham used only for conceptual vocabulary",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "Call-and-response alternates recognizable gestures or performing roles.",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Analytical contrast authored for lesson; Gotham exposition supplies fugue side of comparison",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "A canon imposes a more exact imitative rule:",
+      "source_ids": [
+        "mt-039-ku-counterpoint",
+        "mt-039-ucsb-rothfarb"
+      ],
+      "evidence_detail": "KU Terminology list; UCSB course divides imitation, inversion, fugue; general distinction corroborated by prior lecture 035000",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "a fugue is not merely a canon played for longer",
+      "source_ids": [
+        "mt-039-gotham-exposition",
+        "mt-039-ucsb-rothfarb"
+      ],
+      "evidence_detail": "Gotham sections Basic Definitions / Answers / Free Counterpoint; UCSB Fugue index; shorthand not a definition",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "The University of Kansas counterpoint competency materials list subject, answer, countersubject, episode, stretto, and invertible counterpoint as distinct ideas.",
+      "source_ids": [
+        "mt-039-ku-counterpoint"
+      ],
+      "evidence_detail": "KU Terminology bullets",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "not every fugue includes a recognizable countersubject, and not every fugue includes stretto.",
+      "source_ids": [
+        "mt-039-gotham-exposition",
+        "mt-039-hutchinson-analysis"
+      ],
+      "evidence_detail": "Gotham Free Counterpoint, Hutchinson §30.8 recurring CS versus free counterpoint; no claim of mandatory stretto",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "Open Music Theory likewise treats a fugue's exposition as an imitative process",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Gotham Structure/Voice Entries and Free Counterpoint",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Our original two-bar subject begins in C major.",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Original authored note list. External source supplies term subject, not this note sequence",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "A good subject gives the listener something to recognize after transposition and interruption.",
+      "source_ids": [
+        "mt-039-gotham-exposition",
+        "mt-039-renwick-thesis"
+      ],
+      "evidence_detail": "Gotham Subject; Renwick thesis abstract, voice-leading and subject structure; advice is an editorial synthesis",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "subjects are discussed in terms of head motive, continuation, and cadence",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Gotham Subject subsection, head motive / Fortspinnung / cadence",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "We should not confuse an audible landing on a tonic pitch with a demonstrated perfect authentic cadence.",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Formal style qualification by author; no historical subject claimed to demonstrate cadence",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "real answer is an interval-preserving transposition",
+      "source_ids": [
+        "mt-039-gotham-exposition",
+        "mt-039-hutchinson-analysis",
+        "mt-039-ku-counterpoint"
+      ],
+      "evidence_detail": "Gotham Answer subsection; Hutchinson §30.8; KU real answer exercise",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "raise every note of our C subject by a perfect fifth",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Author-created +7 semitone worked calculation; inspect score and validator",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "tonal answer adjusts selected intervals rather than reproducing every one exactly",
+      "source_ids": [
+        "mt-039-gotham-exposition",
+        "mt-039-hutchinson-analysis"
+      ],
+      "evidence_detail": "Gotham Answer subsection explains tonic-dominant adjustments; Hutchinson §30.8",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Our particular adapted answer is an editorial construction",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Explicit distinction from primary repertoire; source supports method, not created notes",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "Open Music Theory describes the tonal-answer choice as especially relevant when a subject strongly emphasizes tonic–dominant relations",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Gotham Answer, paragraphs on tonic/dominant opening, modulating subject",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The University of Puget Sound's *Fugue Analysis* works through the first exposition of Bach's C-minor fugue",
+      "source_ids": [
+        "mt-039-hutchinson-analysis",
+        "mt-039-bach-wtc1"
+      ],
+      "evidence_detail": "Hutchinson §30.8, Figure 30.8.1; primary work catalog BWV 847",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The opening exposition of a conventional three-voice tonal fugue introduces each voice in turn with the subject or answer.",
+      "source_ids": [
+        "mt-039-gotham-exposition",
+        "mt-039-hutchinson-analysis"
+      ],
+      "evidence_detail": "Gotham Structure/Voice Entries; Hutchinson §30.8 first exposition",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Open Music Theory's exposition chapter identifies the exposition in measures one through eight",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Gotham Example 2, annotation identifies mm. 1–8 / next episode m.9",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "In our miniature the alto begins alone with the subject in C.",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Local original score: entry_map.exposition beat 0 alto; source only for terminology",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "After another two bars, the bass states the original subject an octave lower",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Original event schedule: bass subject at beat 16 transposed -12",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "A single keyboard instrument can play three voices.",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Gotham Voice Entries and keyboard fugue example; mathematical track count distinct from musical line",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "Such a link can smooth a harmonic transition or adjust the timing of the next entry.",
+      "source_ids": [
+        "mt-039-gotham-exposition",
+        "mt-039-hutchinson-analysis"
+      ],
+      "evidence_detail": "Gotham Links; Hutchinson Figure 30.8.1 bridge note",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "a recognizable line that accompanies further subject entries.",
+      "source_ids": [
+        "mt-039-gotham-exposition",
+        "mt-039-hutchinson-analysis"
+      ],
+      "evidence_detail": "Gotham Countersubject and Free Counterpoint; Hutchinson §30.8",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "calling it free counterpoint may be more accurate.",
+      "source_ids": [
+        "mt-039-hutchinson-analysis",
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Hutchinson §30.8 CS versus CTRPT notation, Gotham Free Counterpoint",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Some thirds become sixths at octave inversion.",
+      "source_ids": [
+        "mt-039-ucsb-rothfarb",
+        "mt-039-ku-counterpoint"
+      ],
+      "evidence_detail": "UCSB invertible counterpoint discussion; KU invertible counterpoint terminology. Original interval example verified by score",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "A perfect fifth, inverted at the octave, produces a perfect fourth",
+      "source_ids": [
+        "mt-039-ucsb-rothfarb",
+        "mt-039-ku-counterpoint"
+      ],
+      "evidence_detail": "Elementary interval inversion arithmetic illustrated in UCSB invertible counterpoint section; not a guarantee of forbidden dissonance in all styles",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The validator checks the exact swap and the selected structural intervals.",
+      "source_ids": [
+        "mt-039-ucsb-rothfarb"
+      ],
+      "evidence_detail": "Local program render_fugue_039000.py checks two renderings; UCSB for conceptual background only",
+      "provenance": "original_derivation"
+    },
+    {
+      "anchor": "David Rothfarb's University of California, Santa Barbara counterpoint course offers separate discussions and models for invertible counterpoint and the fugue.",
+      "source_ids": [
+        "mt-039-ucsb-rothfarb"
+      ],
+      "evidence_detail": "UCSB Music 103 navigation, Invertible Counterpoint vs Fugue headings",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "the music following the exposition uses material related to the subject in sequential motion.",
+      "source_ids": [
+        "mt-039-gotham-exposition",
+        "mt-039-hutchinson-analysis"
+      ],
+      "evidence_detail": "Gotham BWV 847 example, episode beginning m.9; Hutchinson Fig. 30.8.2",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Episodes often derive their substance from small motives",
+      "source_ids": [
+        "mt-039-hutchinson-analysis",
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Hutchinson §30.8 episode, fragmentation/sequence; Gotham BWV 847 example",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Take our opening head: C, G, A, G, E.",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Original first bar of subject and generated note events; not excerpt from Gotham",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "Our miniature has one short episode immediately after the exposition and another, longer, sequenced passage in its middle.",
+      "source_ids": [
+        "mt-039-hutchinson-analysis"
+      ],
+      "evidence_detail": "Locally authored entry map and episode_spans; source defines episode but not this miniature",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "the next subject entry begins before the previous statement is complete",
+      "source_ids": [
+        "mt-039-ku-counterpoint",
+        "mt-039-hutchinson-analysis"
+      ],
+      "evidence_detail": "KU Terminology stretto, Hutchinson fugue definitions; exact overlap confirmed locally",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Our two-bar subject lasts eight beats.",
+      "source_ids": [
+        "mt-039-ku-counterpoint"
+      ],
+      "evidence_detail": "Local authored subject and 4/4 event grid; KU for teaching concept",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "the soprano begins at beat zero, and the alto begins at beat four.",
+      "source_ids": [
+        "mt-039-ku-counterpoint"
+      ],
+      "evidence_detail": "Local stretto rendering id; event checker compares start times",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "Bars one through six introduce the voices.",
+      "source_ids": [
+        "mt-039-gotham-exposition"
+      ],
+      "evidence_detail": "Original 28-bar study, entry map in JSON. Gotham identifies exposition concept, not bars of our study",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "Bars seventeen through twenty concentrate subject entries into a stretto-like passage.",
+      "source_ids": [
+        "mt-039-ku-counterpoint"
+      ],
+      "evidence_detail": "Original study at beats 64, 68, 72; KU defines stretto",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "Renwick's 1987 dissertation argues that a fugue subject's voice-leading structure is related to recurring exposition patterns",
+      "source_ids": [
+        "mt-039-renwick-thesis"
+      ],
+      "evidence_detail": "CUNY dissertation landing-page abstract, lines about structures and recurring expositions",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "His 1991 *Music Theory Spectrum* article develops structural patterns in subjects and expositions",
+      "source_ids": [
+        "mt-039-renwick-1991"
+      ],
+      "evidence_detail": "Music Theory Spectrum 13(2) 197–218 (1991), publisher abstract only",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The *Well-Tempered Clavier*, Book One, contains twenty-four prelude-and-fugue pairs in major and minor keys.",
+      "source_ids": [
+        "mt-039-bach-wtc1"
+      ],
+      "evidence_detail": "IMSLP catalog Later Version movement list BWV 846-869",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Bach's C-minor fugue, BWV 847, provides an especially accessible three-voice case",
+      "source_ids": [
+        "mt-039-bach-wtc1",
+        "mt-039-gotham-exposition",
+        "mt-039-hutchinson-analysis"
+      ],
+      "evidence_detail": "Bach primary score catalog and annotated Gotham/Hutchinson teaching analyses",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "The International Music Score Library Project hosts bibliographic entries and public-domain source scores for Book One",
+      "source_ids": [
+        "mt-039-bach-wtc1"
+      ],
+      "evidence_detail": "IMSLP full work catalog and sheet music listings; download restrictions may vary",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Nothing in this method requires you to treat Bach as the origin of imitation.",
+      "source_ids": [
+        "mt-039-gotham-exposition",
+        "mt-039-ucsb-rothfarb"
+      ],
+      "evidence_detail": "Gotham opening transition from 16th century imitative practices; UCSB history index",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "Use DawDreamer to replace the reference oscillators with chosen instrument or synthesizer plugins",
+      "source_ids": [
+        "mt-038-dawdreamer",
+        "mt-dawdreamer-plugin"
+      ],
+      "evidence_detail": "Tool recommendation: official DawDreamer docs for plugins and processing graph. Advice not a historical claim",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "Import the resulting stems into Ardour.",
+      "source_ids": [
+        "mt-037-ardour-import"
+      ],
+      "evidence_detail": "Ardour official manual Adding Pre-existing Material, Session Import; a suggested workflow",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "The fact that the software verifies entry offsets is a necessary but very incomplete test of good counterpoint.",
+      "source_ids": [
+        "mt-039-ucsb-rothfarb",
+        "mt-039-ku-counterpoint"
+      ],
+      "evidence_detail": "Editorial methodological boundary: local script validates events; KU/UCSB formal counterpoint conventions are broader",
+      "provenance": "editorial_inference"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Each external claim is anchored to exact spoken text with an inspectable source locator or an explicit abstract-only limitation. Original score events are not attributed to the cited theorists or Bach. The validator checks structural consistency, not whether interpretations are historically or aesthetically convincing."
+}
