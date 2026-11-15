@@ -22,8 +22,223 @@
     {
       "source_id": "electrical-doe-solar-resilience",
       "reason": "Architectures for local sources and energy resilience"
+    },
+    {
+      "source_id": "electrical-pnnl-distribution",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-osha-ground",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-osha334",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-ieee1547",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-osha-open-neutral",
+      "reason": "Direct primary evidence: open-neutral energized hazard"
     }
   ],
   "practice_classification": "desk_or_visual_only",
-  "historical_claims": []
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E003000-01",
+      "claim": "Typical U.S. center-tapped 120/240-V service has two line-to-neutral 120-V legs",
+      "kind": "distribution_engineering",
+      "supports": [
+        {
+          "source_id": "electrical-pnnl-distribution",
+          "location": "Appendix A §A.1.1.2, printed p. A.2",
+          "role": "main"
+        }
+      ],
+      "verification_level": "editorial_match_needs_full_source_check",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E003000-02",
+      "claim": "Nominal voltages and distribution losses depend on system and loading",
+      "kind": "distribution_engineering",
+      "supports": [
+        {
+          "source_id": "electrical-pnnl-distribution",
+          "location": "Appendix A §A.1.1.2",
+          "role": "main"
+        }
+      ],
+      "verification_level": "editorial_match_needs_full_source_check",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E003000-03",
+      "claim": "Neutral and equipment grounding conductors are different by function",
+      "kind": "workplace_rule",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(a)(1), (g)(8)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha-ground",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E003000-04",
+      "claim": "Neutral cannot be presumed safe to touch: it can remain energized under open-neutral faults",
+      "kind": "hazard_mechanism",
+      "supports": [
+        {
+          "source_id": "electrical-osha-open-neutral",
+          "location": "Background: a broken neutral can remain energized with non-operating equipment",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(a), (b): prevent contact and verify deenergization",
+          "role": "distinct_safety_rule"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E003000-05",
+      "claim": "Grounding and bonding paths must be effective and installed with circuit conductors",
+      "kind": "workplace_rule",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(g)(5), (g)(8)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha-ground",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E003000-06",
+      "claim": "Power distribution requires protection against overloads and faults",
+      "kind": "workplace_rule",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(f): overcurrent protection",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E003000-07",
+      "claim": "A breaker handle or circuit label is not a safe-work verification",
+      "kind": "workplace_rule",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2)(iv): independent voltage verification",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha334",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E003000-08",
+      "claim": "Grid-following PV alone generally does not power a house in outages",
+      "kind": "engineering_guidance",
+      "supports": [
+        {
+          "source_id": "electrical-doe-solar-resilience",
+          "location": "Solar resilience and grid dependence",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-ieee1547",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "editorial_match_needs_full_source_check",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E003000-09",
+      "claim": "Grid interconnection has different requirements from local load operation",
+      "kind": "standard_scope",
+      "supports": [
+        {
+          "source_id": "electrical-ieee1547",
+          "location": "IEEE 1547-2018 interconnection and islanding scope",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-doe-solar-resilience",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "publisher_scope_abstract_only",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E003000-10",
+      "claim": "An appliance nameplate or compatible plug alone does not justify wiring design",
+      "kind": "workplace_rule",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(b),(f); separate local code/product instructions",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    }
+  ],
+  "evidence_review": {
+    "as_of": "2026-11-15",
+    "scope": "source-aware editorial review, not engineering certification",
+    "qualified_electrical_review": "pending",
+    "adopted_code_clause_review": "not_performed",
+    "field_procedure_authorization": false,
+    "claim_level_corroboration": "Not all technical/safety claims independently corroborated; see evidence audit",
+    "publication_status": "source_audited_draft_not_professionally_approved"
+  }
 }

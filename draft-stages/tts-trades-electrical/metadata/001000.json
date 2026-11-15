@@ -14,8 +14,181 @@
     {
       "source_id": "electrical-doe-solar-design",
       "reason": "Solar generation, conversion and system components"
+    },
+    {
+      "source_id": "electrical-openstax-current",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-openstax-ohm",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-openstax-rms",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-openstax-acpower",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-openstax-battery",
+      "reason": "Evidence map, closed battery circuit"
+    },
+    {
+      "source_id": "electrical-openstax-potential",
+      "reason": "Evidence map, definition of voltage"
     }
   ],
   "practice_classification": "desk_or_visual_only",
-  "historical_claims": []
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E001000-01",
+      "claim": "Idealized battery-and-lamp operation uses a closed circuit; voltage is a potential difference between two points",
+      "kind": "underlying_physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-battery",
+          "location": "§10.1: closed source-to-lamp-and-return circuit",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-openstax-current",
+          "location": "§9.1: definition of current",
+          "role": "separate_support"
+        },
+        {
+          "source_id": "electrical-openstax-potential",
+          "location": "§7.2: potential difference",
+          "role": "separate_support"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E001000-02",
+      "claim": "Ohm law applies to ohmic components, not to all appliances",
+      "kind": "underlying_physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "§9.4",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E001000-03",
+      "claim": "Power is energy-transfer rate; VI applies as stated for steady DC / instantaneous port values",
+      "kind": "underlying_physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "§9.5",
+          "role": "main"
+        }
+      ],
+      "verification_level": "editorial_match_needs_full_source_check",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E001000-04",
+      "claim": "Joule heating scales as I squared times resistance",
+      "kind": "underlying_physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "§9.5",
+          "role": "main"
+        }
+      ],
+      "verification_level": "editorial_match_needs_full_source_check",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E001000-05",
+      "claim": "Nominal AC voltage is generally RMS, not instantaneous peak",
+      "kind": "underlying_physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-rms",
+          "location": "§15.2",
+          "role": "main"
+        }
+      ],
+      "verification_level": "editorial_match_needs_full_source_check",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E001000-06",
+      "claim": "Actual AC real power need not equal Vrms times Irms",
+      "kind": "underlying_physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "§15.4, sinusoidal case",
+          "role": "main"
+        }
+      ],
+      "verification_level": "editorial_match_needs_full_source_check",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E001000-07",
+      "claim": "Electrical power and energy estimates do not establish conductor, overcurrent or equipment safety",
+      "kind": "design_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(f),(g); occupational example, not a homeowner design table",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E001000-08",
+      "claim": "PV generation is a system requiring conversion and controls, not only modules",
+      "kind": "design_context",
+      "supports": [
+        {
+          "source_id": "electrical-doe-solar-design",
+          "location": "PV system design basics",
+          "role": "main"
+        }
+      ],
+      "verification_level": "editorial_match_needs_full_source_check",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    }
+  ],
+  "evidence_review": {
+    "as_of": "2026-11-15",
+    "scope": "source-aware editorial review, not engineering certification",
+    "qualified_electrical_review": "pending",
+    "adopted_code_clause_review": "not_performed",
+    "field_procedure_authorization": false,
+    "claim_level_corroboration": "Not all technical/safety claims independently corroborated; see evidence audit",
+    "publication_status": "source_audited_draft_not_professionally_approved"
+  }
 }

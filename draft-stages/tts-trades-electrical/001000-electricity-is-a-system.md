@@ -30,7 +30,7 @@ A source maintains an electrical potential difference, as a pump can maintain a 
 
 Current measures the rate at which charge crosses a boundary. Its unit is the ampere. One ampere is one coulomb of charge per second. Conventional current direction is defined as the direction positive charge would move. In metals the mobile electrons drift in the opposite direction. Engineers still use conventional current because it makes circuit equations consistent.
 
-If you have a battery attached to an appropriate resistive load, increasing the voltage across that load usually increases its current. For an ideal resistor at a fixed temperature, the relationship is Ohm's law: voltage equals current times resistance. A resistance of ten ohms with a voltage of five volts across it carries half an ampere in this simple model. Real components may have resistance that changes with temperature, and many electronic loads are not well described by a fixed resistance.
+If you have a battery attached to an appropriate resistive load, increasing the voltage across that load usually increases its current. For an ideal resistor at a fixed temperature, the relationship is Ohm's law, named for the nineteenth-century physicist Georg Simon Ohm: voltage equals current times resistance. A resistance of ten ohms with a voltage of five volts across it carries half an ampere in this simple model. Real components may have resistance that changes with temperature, and many electronic loads are not well described by a fixed resistance.
 
 That last qualification matters. An LED is not just a little resistor. A motor changes its electrical behavior as it starts and spins. A computer power supply may draw more or less current to maintain a required output power. If you treat every appliance as a fixed resistor, you will make incorrect predictions.
 
@@ -112,3 +112,20 @@ An example load draws 2,000 W for 45 minutes: \(E=(2,000)(0.75)=1,500\ \mathrm{W
 - IEC 60364-1 — safety goals for low-voltage installations (`electrical-iec60364`).
 - U.S. Department of Energy — photovoltaic system design and energy conversion (`electrical-doe-solar-design`).
 - OSHA — wiring/protection and the purpose of overcurrent protection (`electrical-osha-construction`).
+
+### Claim-level source map (editorial review: 2026-11-15)
+
+Each claim has a stable evidence ID in `metadata/001000.json`. The entries below identify the supporting source, a precise section when available, and its **role**. A publisher abstract supports only a standard's edition and scope, not the detailed requirements of its normative clauses. The reader-facing lecture is not an installation authorization.
+
+| Evidence ID | Narrow claim | Evidence links, exact location, and role |
+|---|---|---|
+| E001000-01 | Idealized battery-and-lamp operation uses a closed circuit; voltage is a potential difference between two points | [Samuel J. Ling, William Moebs, Jeff Sanny; OpenStax (2016)](https://openstax.org/books/university-physics-volume-2/pages/10-1-electromotive-force) — §10.1: closed source-to-lamp-and-return circuit (main; `electrical-openstax-battery`); [Samuel J. Ling, William Moebs, Jeff Sanny; OpenStax (2016)](https://openstax.org/books/university-physics-volume-2/pages/9-1-electrical-current) — §9.1: definition of current (separate_support; `electrical-openstax-current`); [Samuel J. Ling, William Moebs, Jeff Sanny; OpenStax (2016)](https://openstax.org/books/university-physics-volume-2/pages/7-2-electric-potential-and-potential-difference) — §7.2: potential difference (separate_support; `electrical-openstax-potential`) |
+| E001000-02 | Ohm law applies to ohmic components, not to all appliances | [Samuel J. Ling, William Moebs, Jeff Sanny; OpenStax (2016)](https://openstax.org/books/university-physics-volume-2/pages/9-4-ohms-law) — §9.4 (main; `electrical-openstax-ohm`) |
+| E001000-03 | Power is energy-transfer rate; VI applies as stated for steady DC / instantaneous port values | [Samuel J. Ling, William Moebs, Jeff Sanny; OpenStax (2016)](https://openstax.org/books/university-physics-volume-2/pages/9-5-electrical-energy-and-power) — §9.5 (main; `electrical-openstax-power`) |
+| E001000-04 | Joule heating scales as I squared times resistance | [Samuel J. Ling, William Moebs, Jeff Sanny; OpenStax (2016)](https://openstax.org/books/university-physics-volume-2/pages/9-5-electrical-energy-and-power) — §9.5 (main; `electrical-openstax-power`) |
+| E001000-05 | Nominal AC voltage is generally RMS, not instantaneous peak | [Samuel J. Ling, William Moebs, Jeff Sanny; OpenStax (2016)](https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits) — §15.2 (main; `electrical-openstax-rms`) |
+| E001000-06 | Actual AC real power need not equal Vrms times Irms | [Samuel J. Ling, William Moebs, Jeff Sanny; OpenStax (2016)](https://openstax.org/books/university-physics-volume-2/pages/15-4-power-in-an-ac-circuit) — §15.4, sinusoidal case (main; `electrical-openstax-acpower`) |
+| E001000-07 | Electrical power and energy estimates do not establish conductor, overcurrent or equipment safety | [U.S. Department of Labor, OSHA](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.304) — §1910.304(f),(g); occupational example, not a homeowner design table (main; `electrical-osha304`) |
+| E001000-08 | PV generation is a system requiring conversion and controls, not only modules | [U.S. Department of Energy](https://www.energy.gov/cmei/systems/solar-photovoltaic-system-design-basics) — PV system design basics (main; `electrical-doe-solar-design`) |
+
+**Editorial limitation:** The citations identify evidence and its intended use. Not all consequential claims have two independent sources, and full locally adopted code clauses and equipment listing conditions have not been checked. A qualified safety/electrical review remains **pending**; the track is currently an educational draft, not a certified field manual.

@@ -34,8 +34,201 @@
     {
       "source_id": "electrical-osha-nrtl",
       "reason": "Product certification and meaning of approval in U.S. workplace context"
+    },
+    {
+      "source_id": "electrical-ieee1547",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-doe-solar-resilience",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
     }
   ],
   "practice_classification": "desk_or_visual_only",
-  "historical_claims": []
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E004000-01",
+      "claim": "Published NEC edition is distinct from local adoption and legal force",
+      "kind": "edition_and_adoption",
+      "supports": [
+        {
+          "source_id": "electrical-nfpa70",
+          "location": "NFPA 70 official 2026 publisher/development page",
+          "role": "main"
+        }
+      ],
+      "verification_level": "publisher_scope_abstract_only",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E004000-02",
+      "claim": "OSHA electrical safe-work rules cover work activities rather than homeowner permissions",
+      "kind": "workplace_rule",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(a),(b); scope of covered employees",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-nfpa70e",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E004000-03",
+      "claim": "NFPA 70E focuses on workplace shock and arc hazards",
+      "kind": "standard_scope",
+      "supports": [
+        {
+          "source_id": "electrical-nfpa70e",
+          "location": "NFPA 70E current published edition page",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "publisher_scope_abstract_only",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E004000-04",
+      "claim": "IEC 60364-1 defines fundamental installation safety objectives",
+      "kind": "standard_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec60364",
+          "location": "IEC 60364-1:2025 abstract",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-asnzs",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "publisher_scope_abstract_only",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E004000-05",
+      "claim": "UK BS 7671:2018+A4:2026 is IET current edition at review date",
+      "kind": "edition_and_adoption",
+      "supports": [
+        {
+          "source_id": "electrical-iet",
+          "location": "IET page: Amendment 4:2026",
+          "role": "main"
+        }
+      ],
+      "verification_level": "publisher_scope_abstract_only",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E004000-06",
+      "claim": "Canadian CEC Part I is the CSA C22.1 family; local implementation varies",
+      "kind": "edition_and_adoption",
+      "supports": [
+        {
+          "source_id": "electrical-csa",
+          "location": "CSA publisher title and edition",
+          "role": "main"
+        }
+      ],
+      "verification_level": "publisher_scope_abstract_only",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E004000-07",
+      "claim": "Australian wiring rules use AS/NZS 3000 and state safety objectives",
+      "kind": "standard_scope",
+      "supports": [
+        {
+          "source_id": "electrical-asnzs",
+          "location": "Standards Australia Wiring Rules overview, Parts 1 and 2",
+          "role": "main"
+        }
+      ],
+      "verification_level": "publisher_scope_abstract_only",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E004000-08",
+      "claim": "NRTL is an OSHA-specific workplace product certification program",
+      "kind": "workplace_rule",
+      "supports": [
+        {
+          "source_id": "electrical-osha-nrtl",
+          "location": "NRTL FAQ: recognized program and scope",
+          "role": "main"
+        }
+      ],
+      "verification_level": "editorial_match_needs_full_source_check",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E004000-09",
+      "claim": "A PV inverter and grid interconnection involve coordinated requirements beyond component ratings",
+      "kind": "standard_scope",
+      "supports": [
+        {
+          "source_id": "electrical-ieee1547",
+          "location": "IEEE 1547 standard scope and islanding",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-doe-solar-resilience",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "publisher_scope_abstract_only",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E004000-10",
+      "claim": "Fault protection and conductor sizing depend on application requirements, not online charts",
+      "kind": "workplace_rule",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(f), (g); do not infer local homeowner compliance",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    }
+  ],
+  "evidence_review": {
+    "as_of": "2026-11-15",
+    "scope": "source-aware editorial review, not engineering certification",
+    "qualified_electrical_review": "pending",
+    "adopted_code_clause_review": "not_performed",
+    "field_procedure_authorization": false,
+    "claim_level_corroboration": "Not all technical/safety claims independently corroborated; see evidence audit",
+    "publication_status": "source_audited_draft_not_professionally_approved"
+  }
 }

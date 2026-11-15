@@ -26,8 +26,219 @@
     {
       "source_id": "electrical-osha-ground",
       "reason": "Protective grounding and bonding motivations"
+    },
+    {
+      "source_id": "electrical-cdc-firstaid",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-osha-gfci",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-iec61008",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
+    },
+    {
+      "source_id": "electrical-nfpa70e",
+      "reason": "Claim-level evidence; see evidence_claims and manuscript evidence map"
     }
   ],
   "practice_classification": "desk_or_visual_only",
-  "historical_claims": []
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E002000-01",
+      "claim": "Shock depends on current path and exposure, not a magic safe household voltage",
+      "kind": "hazard_mechanism",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(a): direct/indirect contact hazard",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-cdc-firstaid",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E002000-02",
+      "claim": "A low-voltage installation can present major arc-flash risk",
+      "kind": "hazard_mechanism",
+      "supports": [
+        {
+          "source_id": "electrical-osha-arc",
+          "location": "Arc flash at 120/208 V",
+          "role": "main"
+        }
+      ],
+      "verification_level": "editorial_match_needs_full_source_check",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E002000-03",
+      "claim": "Ordinary breaker/fuse overcurrent function is not GFCI personnel protection",
+      "kind": "protection_mechanism",
+      "supports": [
+        {
+          "source_id": "electrical-osha-gfci",
+          "location": "GFCI function and line-contact limits",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-esfi-gfci",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E002000-04",
+      "claim": "GFCIs compare outgoing and returning current and may not interrupt balanced contact",
+      "kind": "protection_mechanism",
+      "supports": [
+        {
+          "source_id": "electrical-osha-gfci",
+          "location": "Line-contact limitation",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-esfi-gfci",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E002000-05",
+      "claim": "AFCIs and GFCIs address different failure classes",
+      "kind": "protection_mechanism",
+      "supports": [
+        {
+          "source_id": "electrical-esfi-afci",
+          "location": "AFCI vs GFCI Q&A",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-esfi-gfci",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "editorial_match_needs_full_source_check",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E002000-06",
+      "claim": "The equipment grounding path must be maintained and effective",
+      "kind": "workplace_rule",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(g)(5),(8)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha-ground",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E002000-07",
+      "claim": "Personnel GFCI/RCCB does not automatically provide overcurrent protection",
+      "kind": "standard_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec61008",
+          "location": "Device class title: without integral overcurrent protection",
+          "role": "main"
+        }
+      ],
+      "verification_level": "publisher_scope_abstract_only",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E002000-08",
+      "claim": "Workplace de-energization includes lockout/tagout and qualified verification",
+      "kind": "workplace_rule",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2)(iv)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-nfpa70e",
+          "location": "supporting overview (not an independent clause audit)",
+          "role": "contextual_source_only"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E002000-09",
+      "claim": "Testing equipment needs correct rating and qualified operation",
+      "kind": "workplace_rule",
+      "supports": [
+        {
+          "source_id": "electrical-osha334",
+          "location": "§1910.334(c)(1)-(3)",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E002000-10",
+      "claim": "After a suspected electrical shock, summon emergency medical help and avoid contact with an energized person",
+      "kind": "emergency_safety",
+      "supports": [
+        {
+          "source_id": "electrical-cdc-firstaid",
+          "location": "Key points and First aid, steps 1–2",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_primary_text_checked_for_narrow_claim",
+      "limits": "Check applicable jurisdiction, actual installation, and equipment documentation; no field procedure certified.",
+      "professional_review": "pending"
+    }
+  ],
+  "evidence_review": {
+    "as_of": "2026-11-15",
+    "scope": "source-aware editorial review, not engineering certification",
+    "qualified_electrical_review": "pending",
+    "adopted_code_clause_review": "not_performed",
+    "field_procedure_authorization": false,
+    "claim_level_corroboration": "Not all technical/safety claims independently corroborated; see evidence audit",
+    "publication_status": "source_audited_draft_not_professionally_approved"
+  }
 }

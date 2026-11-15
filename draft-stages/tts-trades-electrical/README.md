@@ -20,3 +20,7 @@ The track's broader proposed curriculum is in [`CURRICULUM.md`](CURRICULUM.md). 
 ## Exercises
 
 Current published lessons use desk calculations, visual-only surveys and controlled low-voltage educational simulations. They do not require opening an electrical panel, exposing wiring or making live measurements. See each lecture's companion section for the concrete activity and its boundary.
+
+## Evidence requirements before publication
+
+This is a high-consequence trades track. Read [`EVIDENCE_POLICY.md`](EVIDENCE_POLICY.md) before authoring or revising any lecture. Source density is measured by **traceable claims with suitable evidence**, not bibliography length. The four opening lectures have claim-specific maps and structured records in their metadata. Reference scope and standards accessibility are explicit. **Qualified electrical/safety review is pending**: successful indexing does not mean the material has been approved as installation instruction.

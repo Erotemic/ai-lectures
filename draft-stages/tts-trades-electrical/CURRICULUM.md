@@ -111,6 +111,10 @@ A home has an induction cooking appliance rated at 2,000 W, a solar array, an in
 
 Stable scientific concepts are taught in the narration. Standards and editions belong in track-local bibliography and *dated* jurisdiction companion pages. Primary reference families: IEC 60364, NFPA 70, OSHA electrical work practice rules, NFPA 70E safety work practice guidance, CSA C22.1, BS 7671, AS/NZS 3000, product markings/instructions, and energy-system research. A publication's edition date does **not** prove it has been legally adopted locally. Do not copy copyrighted code tables into the lectures; teach the hazard they address and how to find the controlling table in the applicable text.
 
+## Attribution and corroboration gate
+
+Every lecture must satisfy [`EVIDENCE_POLICY.md`](EVIDENCE_POLICY.md). Give named researchers and writers appropriate attribution when known, and name the exact standards body, edition and clause when verified. Explain what each source can and cannot support. Corroborate hazardous, decision-relevant claims with independent evidence where possible. Publisher abstracts and employer safety rules alone do not establish requirements for a particular home. For installation, energized testing, source transfer or first-aid procedures, record an outstanding qualified professional review rather than claiming certification. Lecture length remains unrestricted.
+
 ## Review questions for future authors
 
 Before any lesson is indexed: (1) is the hazard model correct, (2) are the assumptions about source, grounding and fault current explicit, (3) could a listener mistake conceptual explanation for permission to work on live equipment, (4) are national or regional examples labeled, (5) is a manufacturer's instruction or engineering assessment being silently substituted with a blanket rule, (6) does the laboratory exercise remain genuinely low energy and controlled, (7) does the narration teach a concept rather than recite code section numbers, and (8) do citation IDs and extracted word counts match? No fixed length threshold.
