@@ -116,6 +116,6 @@ We have arrived at a working definition of the beginning of fiction craft. A cha
 
 - Aristotle, *Poetics*: action, character, plot, and recognition. https://www.gutenberg.org/ebooks/1974
 - Ursula K. Le Guin, *The Carrier Bag Theory of Fiction*, in *Dancing at the Edge of the World*: an alternative to heroic plot assumptions. https://www.ursulakleguin.com/the-carrier-bag-theory-of-fiction
-- E. M. Forster, *Aspects of the Novel* (1927): distinctions among forms of characterization. https://en.wikipedia.org/wiki/Aspects_of_the_Novel
+- E. M. Forster, *Aspects of the Novel* (1927), primary text: distinctions among forms of characterization. https://www.gutenberg.org/ebooks/70492
 
 **Editorial note:** Mira, the family history, and every quoted line of dialogue are invented teaching examples, not quotations from these sources. Their function is to test craft principles, not to assert universal laws of reader response.

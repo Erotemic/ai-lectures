@@ -74,8 +74,8 @@ Gardner was willing to speak as if the best fiction had to be moral, and many wr
 
 ## Companion (display only)
 
-**Critical distinction:** *On Moral Fiction* (1978) is a controversial critical intervention. *The Art of Fiction* is a separate, posthumously published craft book. Gardner's vivid-dream advice and his claims about artistic morality should be evaluated independently.
+**Critical distinction:** *On Moral Fiction* (1978) is a controversial critical intervention. *The Art of Fiction* is a separate, posthumously published craft book (first book edition 1984; a 1983 *Kirkus* review predates that edition). Gardner's vivid-dream advice and his claims about artistic morality should be evaluated independently.
 
 **Exercise:** Write a scene of genuine conflicting obligations; diagnose accidental breaks in the imagined scene separately from productive ethical ambiguity.
 
-**Sources and further reading:** [Marilyn Edelstein on the controversy](https://scholarcommons.scu.edu/engl/92/); [contemporary Kirkus review of *On Moral Fiction*](https://www.kirkusreviews.com/book-reviews/john-gardner/on-moral-fiction/); [Kirkus on *The Art of Fiction*](https://www.kirkusreviews.com/book-reviews/john-gardner/the-art-of-fiction/); [Robert Towers's 1978 review](https://www.nybooks.com/articles/1978/07/20/good-grief/).
+**Sources and further reading:** [Morgan Library catalog record for the 1984 first edition of *The Art of Fiction*](https://www.themorgan.org/printed-books/90504); [Marilyn Edelstein on the controversy](https://scholarcommons.scu.edu/engl/92/); [contemporary Kirkus review of *On Moral Fiction*](https://www.kirkusreviews.com/book-reviews/john-gardner/on-moral-fiction/); [Kirkus on *The Art of Fiction*](https://www.kirkusreviews.com/book-reviews/john-gardner/the-art-of-fiction/); [Robert Towers's 1978 review](https://www.nybooks.com/articles/1978/07/20/good-grief/).

@@ -1,10 +1,10 @@
-# 016000 — Modernism and the Invention of Interior Life
+# 016000 — Modernism and the Forms of Interior Life
 
 **Track:** Fiction Writing and Worldbuilding. **Unit:** Historical schools of fiction. **Audience:** General listeners and working writers. **Prerequisites:** None. **Approach:** Rebuild a single scene through different theories of narrative consciousness.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Modernism and the Invention of Interior Life
+# Modernism and the Forms of Interior Life
 
 A woman steps off a train carrying a sealed envelope. Her brother has asked her to deliver it to their mother. The mother is waiting at a nearby hospital, and the woman already knows the envelope contains a decision her brother cannot bring himself to announce. There is a straightforward way to tell this story. The woman arrives, worries about the message, walks to the hospital, and either delivers the envelope or refuses. External actions organize the reader's experience. We might know the woman's feelings because the narrator describes them, and we might learn the family's history through a well-placed recollection.
 

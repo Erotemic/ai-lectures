@@ -121,6 +121,6 @@ We began with a glowing doorway. An image attracted attention. A constraint made
 
 - Ursula K. Le Guin, *The Carrier Bag Theory of Fiction*, alternatives to linear conquest narratives. https://www.ursulakleguin.com/the-carrier-bag-theory-of-fiction
 - Aristotle, *Poetics*, story causation and action. https://www.gutenberg.org/ebooks/1974
-- Worldbuilding in the broad sense: https://en.wikipedia.org/wiki/Worldbuilding
+- For a developed fictional society, Ursula K. Le Guin, *Always Coming Home* (1985): https://www.ursulakleguin.com/always-coming-home-book ; for the general term, https://en.wikipedia.org/wiki/Worldbuilding
 
 **Original example:** Merehaven, Ilen, Daro, the doorway and its physical law are invented. They do not describe any historical society or existing fictional franchise.

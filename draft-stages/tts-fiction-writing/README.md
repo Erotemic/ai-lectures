@@ -1,6 +1,6 @@
 # Fiction Writing and Worldbuilding
 
-**Current collection:** 28 substantive, independently understandable audio-first manuscripts, including an overview, eight focused contemporary-approaches lectures, four historical deep dives, and four author-centered arguments.
+**Current collection:** 28 substantive, independently understandable audio-first manuscripts, including an overview, eight focused contemporary-approaches lectures, four historical deep dives, four author-centered arguments, and four comparative lectures.
 
 ## Completed lectures
 
@@ -18,7 +18,7 @@ The overview maps the history and competing assumptions; the eight specialized l
 
 - 007500: [A Map of Modern Fiction: Schools, Arguments, and Choices](007500-a-map-of-modern-fiction-schools.md) (3,068 spoken words; approximately 21.2 minutes at 145 words per minute).
 - 008000: [The Workshop Aesthetic and Its Critics](008000-workshop-aesthetic-and-its-critics.md) (1,767 spoken words; approximately 12.2 minutes at 145 words per minute).
-- 009000: [Minimalism, Maximalism, and the Scale of Attention](009000-minimalism-maximalism-and-the-scale-of-attention.md) (1,657 spoken words; approximately 11.4 minutes at 145 words per minute).
+- 009000: [Minimalism, Maximalism, and the Scale of Attention](009000-minimalism-maximalism-and-the-scale-of-attention.md) (1,692 spoken words; approximately 11.7 minutes at 145 words per minute).
 - 010000: [Postmodernism, Metafiction, and Constraint](010000-postmodern-metafiction-and-constraint.md) (1,581 spoken words; approximately 10.9 minutes at 145 words per minute).
 - 011000: [Feminist, Situated, and Alternative Narrative Forms](011000-feminist-situated-and-alternative-narrative-forms.md) (1,677 spoken words; approximately 11.6 minutes at 145 words per minute).
 - 012000: [Beat Sheets, Genre Promises, and Structural Design](012000-beat-sheets-genre-promises-and-structural-design.md) (1,782 spoken words; approximately 12.3 minutes at 145 words per minute).
@@ -32,7 +32,7 @@ A thematic study guide with source categories and follow-on questions appears in
 
 These are standalone deeper studies building on the overview. They distinguish techniques and aesthetic arguments from publishing movements and institutions. Each includes original scene experiments and source notes.
 
-- 016000: [Modernism and the Invention of Interior Life](016000-modernism-and-the-invention-of-interior-life.md) (2,041 spoken words; approximately 14.1 minutes at 145 words per minute).
+- 016000: [Modernism and the Forms of Interior Life](016000-modernism-and-the-invention-of-interior-life.md) (2,041 spoken words; approximately 14.1 minutes at 145 words per minute).
 - 017000: [The Latin American Boom: Many Realisms, Many Histories](017000-latin-american-boom-and-many-realisms.md) (1,974 spoken words; approximately 13.6 minutes at 145 words per minute).
 - 018000: [Writing Back: Postcolonial Fiction, Language, and Narrative Authority](018000-postcolonial-writing-back-and-language.md) (2,179 spoken words; approximately 15.0 minutes at 145 words per minute).
 - 019000: [Who Teaches a Novel to Be a Novel? Publishing, Genre, and Literary Taste](019000-publishing-systems-and-literary-taste.md) (2,408 spoken words; approximately 16.6 minutes at 145 words per minute).

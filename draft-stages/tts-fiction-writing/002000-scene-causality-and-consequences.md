@@ -126,7 +126,7 @@ A scene can be modeled by the state tuple `S=(knowledge, resources, commitments,
 ### References
 
 - Aristotle, *Poetics*, on causally intelligible action. https://www.gutenberg.org/ebooks/1974
-- E. M. Forster, *Aspects of the Novel* (1927), plot and causation. https://en.wikipedia.org/wiki/Aspects_of_the_Novel
+- E. M. Forster, *Aspects of the Novel* (1927), primary text on plot and causation. https://www.gutenberg.org/ebooks/70492
 - Ursula K. Le Guin, *The Carrier Bag Theory of Fiction*, counterpoint to a hero-only model of structure. https://www.ursulakleguin.com/the-carrier-bag-theory-of-fiction
 
 **Original example:** Sera, her bridge, and all invented institutional details are original teaching fiction.
