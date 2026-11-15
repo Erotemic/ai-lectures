@@ -1,12 +1,12 @@
 # A quiet guide for parents and caregivers
 
 **Collection:** Children's Bedtime Stories (Ages 3–4; primarily age three)  
-**Covers:** Stories `004000`–`009000`  
+**Covers:** Stories `004000`–`021000`  
 **Audience:** Adults. **None of this document is TTS narration.**
 
 ## What these stories are for
 
-The six stories offer opportunities to notice and talk about everyday human capacities: saying no politely, noticing clues before deciding, coping when a plan fails, remembering that another person might have a different explanation, requesting help, and allowing different preferences to coexist.
+Stories 004000–009000 offer opportunities to notice and talk about everyday human capacities: saying no politely, noticing clues before deciding, coping when a plan fails, remembering that another person might have a different explanation, requesting help, and allowing different preferences to coexist.
 
 That is an **editorial intention**, not a measured educational outcome. No randomized trial has established that listening to these six original stories causes gains in critical thinking, empathy, resilience, or personal safety. The references below document broader developmental patterns and parent/caregiver strategies. They should not be cited as evaluations of the fiction.
 
@@ -41,6 +41,24 @@ No child is required to answer the questions. The parent sections exist for care
 
 The [CDC's 2026 positive-parenting guidance for ages 2–3][CDC-TODDLER] specifically suggests a play parade or follow-the-leader, and encourages pretend play. These are examples of activities for caregivers, not research establishing that bedtime stories built around such activities change cognitive ability. This distinction is important: *a plausible editorial rationale is not a measured developmental effect*.
 
+
+## Stories 016000–021000: comic little adventures and a few gentle choices
+
+This batch keeps the same single narrator and the same **ages 3–4** classification. None of the six plots has a required moral or desired test outcome; some scenes contain recognizable frustrations, preferences, or helpful adults because those are part of ordinary storytelling.
+
+| Story | What happens | Optional conversation, not homework | Why the reference is relevant—and what it does not show |
+| --- | --- | --- | --- |
+| [016000 — Nia's Cardboard Moon Mission](016000-nias-cardboard-moon-mission.md) | An open box becomes a pretend rocket and a blue sock becomes a gift for the moon | What would you bring on a pretend trip? | [Harvard imaginary play, p. 6][HARVARD-EF] and [ZERO TO THREE pretending][ZTT-THINKING] discuss repurposing props. They have **not tested this story**. |
+| [017000 — Pip and the Very Long Goodnight](017000-pip-and-the-very-long-goodnight.md) | Pip gives increasingly impractical goodnights, including to a painted carrot | Would you say goodnight to a spoon? | [CDC reading, rhymes and counting][CDC-3] and [AAP play][AAP-PLAY] provide age context, **not a mandate to learn from the cumulative joke**. |
+| [018000 — Moss and the Wobbly Pancake](018000-moss-and-the-wobbly-pancake.md) | A pancake becomes an elephant, a boot, a moon, and finally a turtle | Which shape would you eat? | [CDC age-appropriate cooking help][CDC-3] and [ZERO TO THREE frustration guidance][ZTT-FRUSTRATION] support an adult handling unsafe steps and offering patient help. **No pancake-related benefit is claimed**. |
+| [019000 — Hazel's Museum of Ordinary Things](019000-hazels-museum-of-ordinary-things.md) | A stone, a leaf, and a pine cone become museum treasures | What ordinary thing belongs in your imaginary museum? | [NAEYC observation questions][NAEYC-STEAM] and [AAP play][AAP-PLAY] inform the approach. **The museum is fictional, and no learning gain has been measured**. |
+| [020000 — Otis and the Leaf Umbrella](020000-otis-and-the-leaf-umbrella.md) | Otis enjoys the rain while Pip wishes his socks were dry | Do you like rain sounds or dry socks? | [AAP on emerging social sensitivity][AAP-SOCIAL] and [ZERO TO THREE early perspectives][ZTT-THINKING] provide context, **not proof that the story changes empathy**. |
+| [021000 — Tavi's Nest of Soft Things](021000-tavis-nest-of-soft-things.md) | Tavi experiments with dry grass and a crinkly leaf to make her resting spot comfortable | Which part of your bed feels coziest? | [Harvard p. 6 on support and changing play plans][HARVARD-EF] and [ZERO TO THREE on coaching][ZTT-FRUSTRATION] motivate the adult's gentle involvement. **The bird is fictional; this is not wild-bird-care advice**. |
+
+### About these citations
+
+These sources are **not sources for the plots**. The plots are original and the references concern broad caregiver practice or child-development context. Neither a source link nor a metadata citation is evidence that listening to a particular story causes a measurable gain in reasoning, empathy, resilience, or sleep quality. Questions are optional; a child who laughs and falls asleep has received a complete story.
+
 ## Age fitting, without treating milestones as a checklist
 
 The US Centers for Disease Control and Prevention lists asking who/what/where/why questions and reciprocal conversation among milestones most children meet by age three; it recommends asking children about books, choices, and possible next events. CDC milestones describe what *most* children do, **not** what every child must do on a given night and not a diagnosis. [CDC, *Milestones by 3 Years* (2026)][CDC-3].
@@ -63,12 +81,12 @@ A child might answer with a word, a gesture, a story of their own, or nothing at
 
 ## Reference library and attribution limits
 
-These are links to independently authored **guidance**, not to sources for the stories' plots, characters, or dialogue. The six plots and all concrete story details are original. The `metadata/sources.json` catalog records these works by stable source IDs, and each story's `metadata/<ID>.json` maps its author rationale back to relevant sources. Books, web guidance, and standards differ in evidentiary strength; none should be described as direct evidence of an effect caused by this series.
+These are links to independently authored **guidance**, not to sources for the stories' plots, characters, or dialogue. The story plots and concrete fictional details are original. The `metadata/sources.json` catalog records these works by stable source IDs, and each story's `metadata/<ID>.json` maps its author rationale back to relevant sources. Books, web guidance, and standards differ in evidentiary strength; none should be described as direct evidence of an effect caused by this series.
 
 - **[CDC-3]** Centers for Disease Control and Prevention, *Milestones by 3 Years*, May 15, 2026. Relevant sections: “Language/Communication Milestones” and “Parenting Tips and Activities.” [Read the CDC guide][CDC-3].
 - **[AAP-SOCIAL]** American Academy of Pediatrics, *Social Development in Preschoolers: Learning How to Share & Cooperate*, updated December 5, 2024. Relevant sections: “Making friends,” “Sharing & taking turns.” [Read AAP guidance][AAP-SOCIAL].
 - **[AAP-PLAY]** American Academy of Pediatrics, *Young Children Learn a Lot When They Play*, updated April 6, 2022. Relevant sections: using language to express feelings and desires; considering context for children's behavior. [Read AAP play guidance][AAP-PLAY].
-- **[ZTT-THINKING]** ZERO TO THREE, *Developing Thinking Skills From 24–36 Months*, May 19, 2016. Relevant parts: understanding others' feelings and pretending. Although the guide covers the preceding age period, it is used here only as background for emerging capacities. [Read ZERO TO THREE][ZTT-THINKING].
+- **[ZTT-THINKING]** ZERO TO THREE, *Developing Thinking Skills From 24–36 Months*, current online guidance (original publication date unverified). Relevant parts: understanding others' feelings and pretending. Although the guide covers the preceding age period, it is used here only as background for emerging capacities. [Read ZERO TO THREE][ZTT-THINKING].
 - **[ZTT-FRUSTRATION]** ZERO TO THREE, *Parenting Strategies for a Child Who is Easily Frustrated*, February 22, 2010. Relevant parts: acknowledging frustration, coaching manageable steps, taking a break. [Read ZERO TO THREE][ZTT-FRUSTRATION].
 - **[HARVARD-EF]** Center on the Developing Child at Harvard University, *Executive Function Activities for 3- to 5-year-olds* (2014), part of *Enhancing and Practicing Executive Function Skills with Children from Infancy to Adolescence*, p. 6. Relevant sections: “Imaginary play,” “Storytelling.” [Read the Harvard PDF][HARVARD-EF].
 - **[NAEYC-STEAM]** Sandra M. Linder and Angela Eckhoff, *Breaking Down STEAM for Young Children. Part 3: Questioning*, National Association for the Education of Young Children, 2020. Relevant sections: open-ended questions and strategies for investigating ideas. [Read NAEYC][NAEYC-STEAM].
@@ -78,7 +96,7 @@ These are links to independently authored **guidance**, not to sources for the s
 [CDC-3]: https://www.cdc.gov/act-early/milestones/3-years.html
 [AAP-SOCIAL]: https://www.healthychildren.org/English/ages-stages/preschool/Pages/Social-Development-in-Preschoolers.aspx
 [AAP-PLAY]: https://www.healthychildren.org/English/family-life/power-of-play/Pages/young-children-learn-a-lot-when-they-play.aspx
-[ZTT-THINKING]: https://www.zerotothree.org/resource/parenting-resource-developing-thinking-skills-from-24-36-months/
+[ZTT-THINKING]: https://www.zerotothree.org/resource/developing-thinking-skills-from-24-to-36-months/
 [ZTT-FRUSTRATION]: https://www.zerotothree.org/resource/parenting-strategies-for-a-child-who-is-easily-frustrated/
 [HARVARD-EF]: https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf
 [NAEYC-STEAM]: https://www.naeyc.org/resources/pubs/tyc/aug2020/breaking-down-steam

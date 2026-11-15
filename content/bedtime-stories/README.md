@@ -30,7 +30,13 @@ course browser; each story sidecar repeats genre and age-range metadata.
 | 014000 | [Hazel's Hat Shop](014000-hazels-hat-shop.md) | Hazel tries hats on a watering can, a pumpkin, a fence post, and eventually a very fashionable mouse. |
 | 015000 | [Nia's Carpet Sea](015000-nias-carpet-sea.md) | A blanket becomes a sea, a towel becomes a mountain, and a stuffed bear finds a quiet bay for a nap. |
 
-## Parents' rationale and citations (004000–015000)
+| 016000 | [Nia's Cardboard Moon Mission](016000-nias-cardboard-moon-mission.md) | A cardboard-box rocket makes a very quiet pretend trip to the moon and brings a present made from a blue sock. |
+| 017000 | [Pip and the Very Long Goodnight](017000-pip-and-the-very-long-goodnight.md) | Pip tries to say goodnight to every object, pebble, and leaf, then remembers one sleepy mouse. |
+| 018000 | [Moss and the Wobbly Pancake](018000-moss-and-the-wobbly-pancake.md) | Moss and Aunt Juniper make pancakes shaped like an elephant, a boot, a moon, and a turtle. |
+| 019000 | [Hazel's Museum of Ordinary Things](019000-hazels-museum-of-ordinary-things.md) | Hazel opens a tiny museum containing a stone, a leaf window, a pine cone, and a surprise gift shop. |
+| 020000 | [Otis and the Leaf Umbrella](020000-otis-and-the-leaf-umbrella.md) | Otis enjoys the rain, Pip dislikes wet socks, and a broad leaf makes the walk home easier. |
+| 021000 | [Tavi's Nest of Soft Things](021000-tavis-nest-of-soft-things.md) | Tavi searches for a comfy resting spot, testing grass and a crinkly leaf with help from Mama Bird. |
+## Parents' rationale and citations (004000–021000)
 
 [**A quiet guide for parents and caregivers**](PARENTS_GUIDE.md) explains the
 earlier developmental themes and newer play-first stories, gives optional
@@ -48,7 +54,7 @@ that our stories have been tested or cause measured learning outcomes.
 The original three pilot stories (001000–003000) remain unchanged and are
 original fiction without claimed developmental intervention effects.
 
-The **fifteen** stories require no character-specific synthesized voices: dialogue
+The **twenty-one** stories require no character-specific synthesized voices: dialogue
 is reported by the narrator, or is absent. The stories are not required to
 have a particular duration. They stand alone even though one includes a small
 cross-story reference.
@@ -59,15 +65,15 @@ The exact TTS text is between the `BEGIN SPOKEN LECTURE` and `END SPOKEN
 LECTURE` markers. Author companions below the end marker give reading notes
 and explain what the story is trying to accomplish. They are **not** spoken.
 
-All fifteen manuscripts are newly authored original fiction. They do not adapt
+All twenty-one manuscripts are newly authored original fiction. They do not adapt
 published plots or reuse external story text. `metadata/sources.json` holds
-parent-facing developmental and play references for 004000–015000 only. Original
+parent-facing developmental and play references for 004000–021000 only. Original
 fictional descriptions and bedtime choices should not be misrepresented as
 scientific findings about childhood development.
 
 ## Playfulness in this second batch
 
-Stories 010000–015000 include **four stories with no assigned moral**, a gentle sound-play story, and an imaginative voyage. Fun is enough of a reason for a story to exist. The child does not need to answer a prompt, identify a virtue, or demonstrate a skill. As elsewhere in this pack, no fixed duration is imposed.
+Stories 010000–021000 include playful and imaginative narratives, small social moments, and a few adjustments when a plan does not work. No explicit moral is required of any story. Fun is enough of a reason for a story to exist. The child does not need to answer a prompt, identify a virtue, or demonstrate a skill. As elsewhere in this pack, no fixed duration is imposed.
 
 ## Suggested pilot evaluation
 

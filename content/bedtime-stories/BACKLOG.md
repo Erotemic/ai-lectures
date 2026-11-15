@@ -55,3 +55,14 @@ metadata sidecars. No claim of measured developmental efficacy.
 - 015000 — Nia's Carpet Sea: imaginative play returns to a familiar room before bed.
 
 **Editorial balance:** Across the collection, stories may be playful, emotionally substantive, curious, or soothing. No virtue-of-the-week obligation. Cited caregiver notes stay outside narration and never claim the stories were evaluated for developmental effects.
+
+## Added: 016000–021000 — playful range with quieter endings
+
+- 016000 — Nia's Cardboard Moon Mission: a safely contained pretend rocket trip, no assigned moral.
+- 017000 — Pip and the Very Long Goodnight: cumulative bedtime joke, no assigned moral.
+- 018000 — Moss and the Wobbly Pancake: comic cooking shapes and a small disappointment, without a moralizing ending.
+- 019000 — Hazel's Museum of Ordinary Things: imaginative naming and an absurd gift shop, no assigned moral.
+- 020000 — Otis and the Leaf Umbrella: two different preferences about rain, a light practical kindness.
+- 021000 — Tavi's Nest of Soft Things: tactile trial-and-error with a supportive adult, comforting closure.
+
+**Quality rule:** Fun and a satisfying bedtime close are sufficient. Keep caregiver sources precise and outside narration. Claims about benefits from hearing any of these exact manuscripts require research we have not performed. No fixed lecture/story duration target.
