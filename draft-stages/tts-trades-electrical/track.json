@@ -10,7 +10,8 @@
     "safe-work",
     "home-anatomy",
     "code-literacy",
-    "electrical-drawings"
+    "electrical-drawings",
+    "electrical-measurement"
   ],
   "lectures": [
     {
@@ -163,6 +164,42 @@
       "section": "electrical-drawings",
       "file": "017000-reading-electrical-drawings.md",
       "spoken_words": 1602,
+      "draft_status": "substantive",
+      "practice_classification": "desk_or_visual_only"
+    },
+    {
+      "id": "018000",
+      "title": "Following a Circuit: Nodes, Branches, and Return Paths",
+      "section": "electrical-drawings",
+      "file": "018000-following-a-circuit-from-source-to-return.md",
+      "spoken_words": 1892,
+      "draft_status": "substantive",
+      "practice_classification": "desk_or_visual_only"
+    },
+    {
+      "id": "019000",
+      "title": "What a Meter Actually Measures: Voltage, Current, Resistance, and Continuity",
+      "section": "electrical-measurement",
+      "file": "019000-understanding-electrical-measurements.md",
+      "spoken_words": 1714,
+      "draft_status": "substantive",
+      "practice_classification": "desk_or_visual_only"
+    },
+    {
+      "id": "020000",
+      "title": "Why a Meter Can Mislead: Input Impedance, Ghost Voltage, and Measurement Categories",
+      "section": "electrical-measurement",
+      "file": "020000-meter-impedance-transients-and-categories.md",
+      "spoken_words": 1787,
+      "draft_status": "substantive",
+      "practice_classification": "desk_or_visual_only"
+    },
+    {
+      "id": "021000",
+      "title": "Electrical Diagnosis as Evidence: Symptoms, Hypotheses, and the Next Question",
+      "section": "electrical-measurement",
+      "file": "021000-diagnostic-reasoning-as-evidence.md",
+      "spoken_words": 1907,
       "draft_status": "substantive",
       "practice_classification": "desk_or_visual_only"
     }

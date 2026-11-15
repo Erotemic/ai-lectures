@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "lecture_id": "019000",
+  "transcript": "019000-understanding-electrical-measurements.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-fluke-clamp",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-fluke-continuity",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-fluke-resistance",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-keysight-ac-loading",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-mit-node-2006",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-nist-dmm-1988",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-nist-tn1297",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-osha334",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E019000-01",
+      "claim": "Voltmeter measures potential between two nodes and finite input resistance causes loading",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§4.1.1 input impedance",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-keysight-ac-loading",
+          "location": "AC input and cable loading section",
+          "role": "independent_manufacturer_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Meter input varies by function, frequency and instrument.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E019000-02",
+      "claim": "Twelve volt source with one megohm source and ten megohm meter gives about 10.909 V",
+      "kind": "derived_calculation",
+      "supports": [
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§4.1 loading model",
+          "role": "method"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Ideal DC Thevenin model only; numerical calculation independently checked.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E019000-03",
+      "claim": "A shunt current meter changes the measured branch by burden voltage",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§4.2.3 burden voltage",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Instrument and range specific.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E019000-04",
+      "claim": "The five volt, hundred ohm plus one ohm shunt example gives about 49.505 mA",
+      "kind": "derived_calculation",
+      "supports": [
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§4.2.3 burden effect",
+          "role": "method"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Example assumes linear components.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E019000-05",
+      "claim": "Current input is lower impedance than voltage input; wrong input mode changes topology",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§3.1.4 and §4 current input",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha334",
+          "location": "§1910.334(c) test instrument condition/rating",
+          "role": "independent_workplace_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Instrument jacks/fuses vary; occupational law is not universal homeowner law.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E019000-06",
+      "claim": "Clamp senses net magnetic effect and opposite enclosed conductor currents cancel",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-fluke-clamp",
+          "location": "clamp more than one conductor section",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific clamp sensor geometry and bandwidth vary.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E019000-07",
+      "claim": "Not every clamp can measure DC, and arrangement affects the reading",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-fluke-clamp",
+          "location": "instrument setup examples",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "DC capability requires actual sensor design/specification.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E019000-08",
+      "claim": "True RMS is restricted by bandwidth and crest factor and waveform coupling",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§4.3.3 and §4.3.4 true RMS and crest factor",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Historical DMM performance examples are not specifications for a modern meter.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E019000-09",
+      "claim": "Resistance mode applies instrument excitation, while other branches can change reading",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§3.1.3 resistance measurement",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-fluke-resistance",
+          "location": "parallel component effects",
+          "role": "manufacturer_corroboration"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Operation on external energized circuits invalidates the method and may damage meter.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E019000-10",
+      "claim": "Continuity audible response is a device-dependent threshold and not current capacity certification",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-fluke-continuity",
+          "location": "beep trigger description",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-fluke-resistance",
+          "location": "limits of resistance measurements",
+          "role": "same_manufacturer_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Manufacturer examples vary; independent thermal test certification not reviewed.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E019000-11",
+      "claim": "I-squared-R heating differs dramatically between small test and operating currents",
+      "kind": "derived_calculation",
+      "supports": [
+        {
+          "source_id": "electrical-mit-node-2006",
+          "location": "Ohm law and element-power methodology",
+          "role": "physics_method"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Hypothetical 0.1 ohm contact calculation only.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E019000-12",
+      "claim": "Resolution, repeatability, calibration and uncertainty are distinct metrological ideas",
+      "kind": "metrology",
+      "supports": [
+        {
+          "source_id": "electrical-nist-tn1297",
+          "location": "§2 and §7, uncertainty and reporting",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§4.2 and §4.3 instrument performance",
+          "role": "independent_NIST_report_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Reports address different ideas; no specific accuracy guarantee.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E019000-13",
+      "claim": "A measurement is defined by points, waveform, time, instrument and circuit state",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-nist-tn1297",
+          "location": "Appendix D, measurand characterization",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Interpretation of field readings requires application context.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E019000-14",
+      "claim": "A meter can indicate zero because enclosed currents cancel or level is below threshold",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-fluke-clamp",
+          "location": "multiple conductors cancellation",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§4.2 range and response",
+          "role": "independent_instrument_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Do not generalize to proof of deenergization.",
+      "professional_review": "editorial_source_review_only"
+    }
+  ],
+  "limitations": [
+    "Educational technical manuscript; actual product manuals and source conditions govern measurement setup",
+    "Qualified electrical/safety review remains pending for applications involving exposed electrical systems",
+    "Full IEC normative clauses and jurisdiction-specific installation requirements not reviewed in this batch"
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-diagnostic-reasoning-as-evidence.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-bayes-sep",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-doe-causal-2024",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-doe-prints-v1",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-iec61557-1",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-keysight-ghost",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-mit-node-2006",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-nasa-fault-tree",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-nist-dmm-1988",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-nist-tn1297",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-osha334",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E021000-01",
+      "claim": "An observed symptom should be distinguished from an inferred cause",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-causal-2024",
+          "location": "§5 incident investigation and causal analysis",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "DOE industrial causal-analysis context is an adapted framework, not a residential rule.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E021000-02",
+      "claim": "Different protective devices can signal physically distinct causes",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha334",
+          "location": "§1910.334 general equipment usage context",
+          "role": "workplace_context"
+        },
+        {
+          "source_id": "electrical-iec61557-1",
+          "location": "public scope for protective measure testing",
+          "role": "standard_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Device-level diagnosis requires actual markings and manuals; neither source alone defines every device trip code.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E021000-03",
+      "claim": "Shared loads experiencing synchronized symptoms support a common upstream hypothesis",
+      "kind": "inference",
+      "supports": [
+        {
+          "source_id": "electrical-mit-node-2006",
+          "location": "shared impedance and nodal currents method",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-doe-causal-2024",
+          "location": "change/event analysis method",
+          "role": "independent_diagnostic_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Observation supports hypotheses but not precise fault location.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E021000-04",
+      "claim": "Fault tree starts from undesirable top event and breaks down possible causes",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-nasa-fault-tree",
+          "location": "Ch.1 introduction, deductive fault-tree approach",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Pedagogical sketch is not a complete quantitative reliability model.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E021000-05",
+      "claim": "Fault trees use AND/OR event logic and can omit interacting causes if modeled poorly",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-nasa-fault-tree",
+          "location": "Ch.2 fault tree structure and gates",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Example not exhaustive or mutually exclusive.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E021000-06",
+      "claim": "Chronology, changes and preserving evidence help distinguish causal explanations",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-causal-2024",
+          "location": "§5 and causal method summaries",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "DOE report standards apply in DOE context; transferred reasoning only.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E021000-07",
+      "claim": "Repeated symptoms do not distinguish hypotheses if predicted by all",
+      "kind": "inference",
+      "supports": [
+        {
+          "source_id": "electrical-bayes-sep",
+          "location": "§1 likelihood and confirmation",
+          "role": "general_theory"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Qualitative inference, no calibrated failure rates.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E021000-08",
+      "claim": "A normal reading at a different time does not refute an intermittent event",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§4.2 response time and measurement limitations",
+          "role": "measurement_context"
+        },
+        {
+          "source_id": "electrical-doe-causal-2024",
+          "location": "timeline and evidence preservation",
+          "role": "independent_diagnostic_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Exact instrument sampling and event duration determine informativeness.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E021000-09",
+      "claim": "Meter connection and impedance determine whether a test is discriminating",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§4.1 loading and §4.2 response",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-keysight-ghost",
+          "location": "high/low impedance interpretations",
+          "role": "independent_manufacturer_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Selection of actual field test must be matched to qualification and instrument.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E021000-10",
+      "claim": "Bayesian reasoning compares support by likelihood rather than vividness",
+      "kind": "mathematics",
+      "supports": [
+        {
+          "source_id": "electrical-bayes-sep",
+          "location": "§1 Bayes theorem; Bayes 1764 attribution",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No numerical priors or probabilities invented for electrical failures.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E021000-11",
+      "claim": "A source-device log is limited to its sensing point, time and internal definitions",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-nist-tn1297",
+          "location": "measurement context and uncertainty",
+          "role": "metrology_context"
+        },
+        {
+          "source_id": "electrical-doe-causal-2024",
+          "location": "evidence interpretation",
+          "role": "diagnostic_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Product-specific event-code semantics not verified.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E021000-12",
+      "claim": "Visual heat damage supports prompt risk control without a microscopic root cause",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-doe-causal-2024",
+          "location": "graded causal analysis and risk context",
+          "role": "general_method"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Aspirational safe decision principle; no building-specific inspection requirement given.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E021000-13",
+      "claim": "Correction of symptoms and proof of root cause are distinct stages",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-causal-2024",
+          "location": "causal analysis and corrective actions",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-nasa-fault-tree",
+          "location": "analysis of causes and failure events",
+          "role": "independent_analytical_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "No repair acceptance standard for particular appliance is claimed.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E021000-14",
+      "claim": "A documentation-based repair scope should tie observations to acceptance evidence",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-causal-2024",
+          "location": "causal analysis and actions",
+          "role": "general_method"
+        },
+        {
+          "source_id": "electrical-doe-prints-v1",
+          "location": "revision and drawing records",
+          "role": "independent_documentation_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Real job documentation is jurisdiction and product dependent.",
+      "professional_review": "editorial_source_review_only"
+    }
+  ],
+  "limitations": [
+    "Educational technical manuscript; actual product manuals and source conditions govern measurement setup",
+    "Qualified electrical/safety review remains pending for applications involving exposed electrical systems",
+    "Full IEC normative clauses and jurisdiction-specific installation requirements not reviewed in this batch"
+  ]
+}

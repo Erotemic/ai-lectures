@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-meter-impedance-transients-and-categories.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-fluke-cat",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-hse-gs38",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-iec61010-2-030",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-iec61557-1",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-keysight-ac-loading",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-keysight-ghost",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-nist-dmm-1988",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-nist-tn1297",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-osha333",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    },
+    {
+      "source_id": "electrical-osha334",
+      "reason": "Claim-level source map and limitation; read the cited section, not merely the bibliography title"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E020000-01",
+      "claim": "High input impedance and source impedance form a loaded measurement divider",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§4.1 input characteristics",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-keysight-ac-loading",
+          "location": "loading error equations",
+          "role": "independent_manufacturer_example"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Resistive Thevenin approximation, not a general capacitive coupling model.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E020000-02",
+      "claim": "The 80V/2M source gives 66.67 V at 10M input and 3.81 V at 100k input",
+      "kind": "derived_calculation",
+      "supports": [
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§4.1 input loading model",
+          "role": "method"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Idealized values, arithmetic checked; not a real safe-voltage assertion.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E020000-03",
+      "claim": "Capacitive coupling can produce apparent ghost voltage on high impedance inputs",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-keysight-ghost",
+          "location": "ghost voltage mechanism",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-keysight-ac-loading",
+          "location": "frequency-dependent loading",
+          "role": "same_manufacturer_support"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No universal available-current claim from display alone.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E020000-04",
+      "claim": "Low impedance mode changes loading, not necessarily proof that no hazardous energy exists",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-keysight-ghost",
+          "location": "low impedance mode principle",
+          "role": "method"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2)(iv), qualified verification and backfeed",
+          "role": "independent_regulatory_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Field measurement selection and qualification remain site dependent.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E020000-05",
+      "claim": "Short transients may stress meter insulation without stable display indication",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-fluke-cat",
+          "location": "transient discussion",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-iec61010-2-030",
+          "location": "public equipment safety scope",
+          "role": "standards_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Full IEC transient test clauses not verified in this review.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E020000-06",
+      "claim": "Measurement category combines application environment and working voltage rating",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-fluke-cat",
+          "location": "CAT II/III/IV explanation",
+          "role": "manufacturer_example"
+        },
+        {
+          "source_id": "electrical-iec61010-2-030",
+          "location": "published scope, 2023 edition",
+          "role": "independent_standard_scope"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "No particular measurement location/category adjudicated; full text not reviewed.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E020000-07",
+      "claim": "IEC 61010-2-030:2023 scope covers equipment with measuring circuits connected externally",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec61010-2-030",
+          "location": "publisher abstract §1",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Scope verified only, not normative test details.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E020000-08",
+      "claim": "Test leads, probes and selected terminals form part of instrument protection system",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-hse-gs38",
+          "location": "published GS38 guidance scope",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-fluke-cat",
+          "location": "equipment markings and lead ratings",
+          "role": "independent_manufacturer_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Technical specifications and application-specific inspection needed.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E020000-09",
+      "claim": "Current jack/shunt path differs from voltage jack and wrong configuration can cause a fault",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§3.1.4 and §4 current measuring circuit",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-osha334",
+          "location": "§1910.334(c) equipment suitability",
+          "role": "independent_workplace_regulation"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "No live measurement procedure or product wiring instructions.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E020000-10",
+      "claim": "Noncontact voltage indication alone is not comprehensive proof of absence",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-hse-gs38",
+          "location": "guide on voltage detector types and selection",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2)(iv), verification",
+          "role": "independent_workplace_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Specific instruments have distinct sensing modes and performance.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E020000-11",
+      "claim": "True RMS meters remain subject to crest factor, bandwidth and range limits",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-nist-dmm-1988",
+          "location": "§4.3.3–4.3.4",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-keysight-ac-loading",
+          "location": "frequency-dependent input behavior",
+          "role": "independent_manufacturer_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "A True RMS label does not characterize all transients.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E020000-12",
+      "claim": "IEC 61557-1:2019 plus amendment 2024 sets general scope for testing protective measures",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec61557-1",
+          "location": "official IEC consolidated abstract",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Not a general instrument CAT rating and clauses/installation tests not reviewed.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E020000-13",
+      "claim": "NIST frames uncertainty as part of meaningful reported measurements",
+      "kind": "metrology",
+      "supports": [
+        {
+          "source_id": "electrical-nist-tn1297",
+          "location": "§2 and §7",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No numerical uncertainty estimates for the hypothetical instrument.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E020000-14",
+      "claim": "OSHA verification rule covers U.S. workplaces and induced or backfed voltage",
+      "kind": "regulatory_scope",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2)(iv)(B)",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Does not on its own determine homeowner permissions outside covered workplaces.",
+      "professional_review": "pending"
+    }
+  ],
+  "limitations": [
+    "Educational technical manuscript; actual product manuals and source conditions govern measurement setup",
+    "Qualified electrical/safety review remains pending for applications involving exposed electrical systems",
+    "Full IEC normative clauses and jurisdiction-specific installation requirements not reviewed in this batch"
+  ]
+}
