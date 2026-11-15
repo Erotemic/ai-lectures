@@ -1,0 +1,57 @@
+{
+  "id": "bedtime-stories",
+  "title": "Children's Bedtime Stories (Ages 3–4)",
+  "summary": "Original, gentle, audio-first bedtime stories for children ages 3 to 4, written primarily for a three-year-old listener. Each standalone story uses one narrator and ends calmly, without relying on character voices, music, or sound effects.",
+  "assumed_background": [
+    "Designed for listeners ages 3–4; no prior familiarity with the characters or other episodes required."
+  ],
+  "genre": "children_bedtime_stories",
+  "category": "Children's Bedtime Stories",
+  "age_range": {
+    "minimum_years": 3,
+    "maximum_years": 4
+  },
+  "age_range_label": "Ages 3–4",
+  "primary_listener_age_years": 3,
+  "audience": "children",
+  "sections": [
+    "small-mysteries",
+    "gentle-journeys",
+    "nighttime-discoveries"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "Moss and the Missing Blanket",
+      "section": "small-mysteries",
+      "file": "001000-moss-and-the-missing-blanket.md",
+      "spoken_words": 649,
+      "draft_status": "substantive",
+      "description": "A bedtime search for a favorite blue blanket, ending with a remembered afternoon game.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    },
+    {
+      "id": "002000",
+      "title": "The Little Cloud That Couldn't Settle",
+      "section": "gentle-journeys",
+      "file": "002000-the-little-cloud-that-couldnt-settle.md",
+      "spoken_words": 615,
+      "draft_status": "substantive",
+      "description": "A drifting cloud discovers how to rest without stopping the wind.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    },
+    {
+      "id": "003000",
+      "title": "Nia and the Moonlight Garden",
+      "section": "nighttime-discoveries",
+      "file": "003000-nia-and-the-moonlight-garden.md",
+      "spoken_words": 573,
+      "draft_status": "substantive",
+      "description": "A child and her grandmother identify three small nighttime sounds before returning to bed.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4"
+    }
+  ]
+}
