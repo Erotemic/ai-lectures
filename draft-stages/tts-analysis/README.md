@@ -164,3 +164,28 @@ limits were applied in authoring or validation.
 Next possible directions: L-p duality and weak convergence; bounded linear
 operators and Hahn–Banach; Fourier convergence and density; convolution and
 approximate identities; probability measures and conditional expectation.
+
+## Duality, operators, Hahn–Banach and uniform boundedness (037000–040000)
+
+- 037000 — The Dual View of a Function: Linear Measurements and L-p Duality
+- 038000 — Bounded Linear Operators: When Transformations of Functions Are Stable
+- 039000 — Hahn–Banach: Extending Measurements and Seeing Weak Convergence
+- 040000 — Baire Category and Uniform Boundedness: From Individual Control to a Common Bound
+
+The sequence identifies stable scalar measurements of L-p functions with L-q
+weights (under sigma-finiteness and finite p), distinguishes the L-infinity
+endpoint, and uses explicit accumulation/differentiation and sequence projection
+examples to motivate bounded operator norms. Hahn–Banach is developed through
+one-direction extension, Zorn's lemma, norming functionals and weak convergence.
+Baire category then yields Banach–Steinhaus, with an explicit noncomplete-domain
+counterexample, strong-versus-operator-norm convergence, and boundedness of
+weakly convergent sequences. Radon–Nikodym is stated as a named prerequisite
+for the L-p representation proof and merits its own later lecture.
+
+Each manuscript has independently understandable spoken narration, a separate
+math companion, exercises with solutions, and track-local source metadata.
+No runtime or minimum-word target was imposed; manifest counts are descriptive.
+
+Next options: full Radon–Nikodym proof, open mapping and closed graph theorems,
+Banach adjoints and reflexivity, weak compactness, compact operators, and
+Hilbert-space spectral theory.

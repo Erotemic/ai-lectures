@@ -1,7 +1,7 @@
 {
   "id": "analysis",
   "title": "Analysis from First Principles",
-  "summary": "Real and complex analysis from limits and completeness through rigorous calculus, metric spaces, holomorphic functions, contour theory, residues and conformal mapping; then measure and Lebesgue integration, dominated convergence, product measures, L-p norm inequalities, and Hilbert-space geometry.",
+  "summary": "Real and complex analysis from limits and completeness through rigorous calculus, metric spaces, holomorphic functions and conformal mapping; measure and Lebesgue integration, L-p and Hilbert spaces, followed by L-p duality, bounded operators, Hahn–Banach, weak convergence and Banach–Steinhaus.",
   "assumed_background": [
     "Elementary algebra, inequalities, and familiarity with fractions"
   ],
@@ -35,7 +35,11 @@
     "dominated-convergence",
     "product-measures",
     "lp-spaces",
-    "hilbert-spaces"
+    "hilbert-spaces",
+    "lp-duality",
+    "bounded-operators",
+    "hahn-banach-weak",
+    "baire-uniform-boundedness"
   ],
   "lectures": [
     {
@@ -361,6 +365,42 @@
       "spoken_words": 2261,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 15.6
+    },
+    {
+      "id": "037000",
+      "title": "The Dual View of a Function: Linear Measurements and L-p Duality",
+      "section": "lp-duality",
+      "file": "037000-lp-duality-and-bounded-functionals.md",
+      "spoken_words": 1768,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.2
+    },
+    {
+      "id": "038000",
+      "title": "Bounded Linear Operators: When Transformations of Functions Are Stable",
+      "section": "bounded-operators",
+      "file": "038000-bounded-operators-and-operator-norm.md",
+      "spoken_words": 1821,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.6
+    },
+    {
+      "id": "039000",
+      "title": "Hahn–Banach: Extending Measurements and Seeing Weak Convergence",
+      "section": "hahn-banach-weak",
+      "file": "039000-hahn-banach-and-weak-convergence.md",
+      "spoken_words": 1924,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.3
+    },
+    {
+      "id": "040000",
+      "title": "Baire Category and Uniform Boundedness: From Individual Control to a Common Bound",
+      "section": "baire-uniform-boundedness",
+      "file": "040000-baire-category-uniform-boundedness.md",
+      "spoken_words": 2048,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.1
     }
   ]
 }
