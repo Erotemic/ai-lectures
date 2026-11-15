@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-fields-and-interactions.md",
+  "related_resources": [
+    {
+      "source_id": "ph-openstax-field",
+      "reason": "Field definition F=qE, superposition, comparisons with gravity."
+    },
+    {
+      "source_id": "ph-openstax-faraday",
+      "reason": "Induction, flux and Faraday’s experiments."
+    },
+    {
+      "source_id": "ph-ri-faraday-generator",
+      "reason": "Surviving generator; induction discovered 1831 and demonstration apparatus."
+    },
+    {
+      "source_id": "ph-openstax",
+      "reason": "Kinematics, forces, Newtonian mechanics and orbital motion."
+    },
+    {
+      "source_id": "ph-oxford-maxwell",
+      "reason": "Field unification and light"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "004000-h01",
+      "anchor": "In 1831 he found that changing magnetic conditions could induce an electrical response in a circuit.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ph-ri-faraday-generator",
+        "ph-openstax-faraday"
+      ],
+      "source_locator": "1831 discovery and Faraday induction apparatus",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "004000-h02",
+      "anchor": "James Clerk Maxwell later developed a mathematical field theory integrating electric and magnetic phenomena.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ph-oxford-maxwell"
+      ],
+      "source_locator": "Historical context for electromagnetic field theory",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

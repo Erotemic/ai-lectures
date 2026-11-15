@@ -6,9 +6,22 @@
     "Arithmetic, elementary algebra, and coordinate graphs; no calculus required initially"
   ],
   "sections": [
-    "mechanics"
+    "mechanics",
+    "thermodynamics",
+    "fields",
+    "waves",
+    "matter"
   ],
   "lectures": [
+    {
+      "id": "001000",
+      "title": "How Can Motion Become a Law? Measurement, Models, and Forces",
+      "section": "mechanics",
+      "file": "001000-measuring-motion-and-force.md",
+      "spoken_words": 1722,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.9
+    },
     {
       "id": "002000",
       "title": "Where Does the Energy Go? Conservation, Work, and Heat",
@@ -17,6 +30,42 @@
       "spoken_words": 3012,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 20.8
+    },
+    {
+      "id": "003000",
+      "title": "Why Does Heat Flow One Way? Entropy and Irreversible Change",
+      "section": "thermodynamics",
+      "file": "003000-entropy-and-irreversible-change.md",
+      "spoken_words": 1657,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.4
+    },
+    {
+      "id": "004000",
+      "title": "A Force at Every Point: Fields, Charges, and Interactions",
+      "section": "fields",
+      "file": "004000-fields-and-interactions.md",
+      "spoken_words": 1578,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.9
+    },
+    {
+      "id": "005000",
+      "title": "How Does a Disturbance Travel? Waves, Sound, and Resonance",
+      "section": "waves",
+      "file": "005000-waves-sound-and-propagation.md",
+      "spoken_words": 1618,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.2
+    },
+    {
+      "id": "006000",
+      "title": "What Changes Across Scales? Atoms, Radiation, and Mass–Energy",
+      "section": "matter",
+      "file": "006000-matter-energy-and-scales.md",
+      "spoken_words": 1607,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.1
     }
   ]
 }

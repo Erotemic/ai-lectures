@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-measuring-motion-and-force.md",
+  "related_resources": [
+    {
+      "source_id": "ph-sep-galileo",
+      "reason": "Inclined-plane work, projectile laws, inertia and institutional circumstances."
+    },
+    {
+      "source_id": "ph-sep-principia",
+      "reason": "Historical and mathematical interpretation of laws, force, and gravitational reasoning."
+    },
+    {
+      "source_id": "ph-openstax",
+      "reason": "Kinematics, forces, Newtonian mechanics and orbital motion."
+    },
+    {
+      "source_id": "ph-nist-si",
+      "reason": "Second, meter, kilogram, joule and SI dimensional conventions."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "001000-h01",
+      "anchor": "In the early modern period, Galileo studied falling bodies and motion on inclined planes.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ph-sep-galileo"
+      ],
+      "source_locator": "Inclined planes, motion and historical reconstruction",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-h02",
+      "anchor": "Newton later combined terrestrial and celestial dynamics into the laws articulated in his 1687 Principia.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ph-sep-principia"
+      ],
+      "source_locator": "1687 Principia and Newtonian synthesis",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

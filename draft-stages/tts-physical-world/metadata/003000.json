@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-entropy-and-irreversible-change.md",
+  "related_resources": [
+    {
+      "source_id": "ph-openstax-irreversible",
+      "reason": "Second law and limitations of reversibility."
+    },
+    {
+      "source_id": "ph-openstax-entropy",
+      "reason": "Entropy as a state function and reversible-path definition."
+    },
+    {
+      "source_id": "ph-openstax-carnot",
+      "reason": "Two-reservoir heat engines and efficiency bound."
+    },
+    {
+      "source_id": "ph-openstax-microentropy",
+      "reason": "Microstates and volume expansion."
+    },
+    {
+      "source_id": "ph-aps-carnot",
+      "reason": "Historical Carnot treatise and caloric context"
+    },
+    {
+      "source_id": "ph-sep-time-thermo",
+      "reason": "Historical and conceptual second-law formulations"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "003000-h01",
+      "anchor": "Sadi Carnot analyzed heat engines in 1824, before the modern energy principle had been fully consolidated.",
+      "kind": "historical_research",
+      "source_ids": [
+        "ph-aps-carnot",
+        "ph-openstax-carnot"
+      ],
+      "source_locator": "Carnot and historical background to ideal heat engines",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "003000-h02",
+      "anchor": "Clausius and Kelvin developed different formulations of the second law during the nineteenth century",
+      "kind": "historical_research",
+      "source_ids": [
+        "ph-aps-carnot",
+        "ph-sep-time-thermo"
+      ],
+      "source_locator": "Clausius and Kelvin second-law statements",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
