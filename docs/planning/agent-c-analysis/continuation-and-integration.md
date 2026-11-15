@@ -52,3 +52,34 @@ The twelve manuscripts and their metadata are listed in the track-local `track.j
 
 The existing shared-test integration request remains applicable; do not edit central track-count assertions in Agent C's overlays. Likewise, do not change any shared audio-reader or library files. Every continuation ZIP must contain only `draft-stages/tts-analysis/**` and `docs/planning/agent-c-analysis/**`, and must be applied after the first two Agent C ZIPs.
 
+
+## Completed complex-analysis opening: 013000–016000
+
+| ID | Main topic | Verified result or mathematical limitation |
+| --- | --- | --- |
+| 013000 | Complex plane and geometry | Multiplication rotates/scales; complex limits require all approaches; punctured-plane topology |
+| 014000 | Complex differentiation | CR is necessary; real differentiability + CR suffices; a derivative at one point is not holomorphicity |
+| 015000 | Contour integration | ML bound, primitive ↔ path independence, reciprocal integral detects winding around a missing point |
+| 016000 | Cauchy–Goursat and Cauchy's formula | Triangle subdivision proof without derivative-continuity assumption; all derivatives and Taylor series; Liouville and FTA |
+
+The text takes whatever length is pedagogically justified. Exact word counts
+remain solely for catalog extraction integrity and user-facing timing estimates.
+No minimum/maximum duration or word count is used to accept Agent C work.
+The prior local batch-three validator contained an >=1,800-word check;
+that heuristic is **not** used by this batch.
+
+### Shared-test correction (maintainer-only, outside Agent C ownership)
+
+The old `tests/test_foundational_expansion_tracks.py` in the source snapshot
+asserts a fixed two-lecture course and imposes `>=3000` spoken words in two
+places. These are stale, length-based barriers and should be removed. A
+**separate** maintainer-only overlay accompanies this batch to repair
+that test and to remove the legacy ten-minute soft target from the shared
+lecture style guide. It must be committed as its own integration change, rather than
+smuggled into an Agent C ZIP; otherwise it could collide with the other
+independent agent tracks. The new test reads actual lecture IDs from each
+manifest and checks transcript and metadata consistency, not lecture size.
+
+Future material: local Taylor series in greater depth, isolated singularities,
+Laurent series and residues, argument principle and Rouché's theorem, maximum
+modulus and open mapping principles, and selected applications.

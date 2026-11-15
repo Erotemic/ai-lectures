@@ -1,7 +1,7 @@
 {
   "id": "analysis",
   "title": "Analysis from First Principles",
-  "summary": "Limits, continuity, completeness, differentiation, integration, function spaces, and rigorous reasoning.",
+  "summary": "Foundations of real and complex analysis: limits, completeness, differentiation, integration, metric spaces, uniform convergence, holomorphic functions, contours, and Cauchy theory.",
   "assumed_background": [
     "Elementary algebra, inequalities, and familiarity with fractions"
   ],
@@ -12,7 +12,11 @@
     "differentiation",
     "integration",
     "metric-spaces",
-    "function-sequences"
+    "function-sequences",
+    "complex-geometry",
+    "holomorphic-functions",
+    "contour-integration",
+    "cauchy-theory"
   ],
   "lectures": [
     {
@@ -122,6 +126,42 @@
       "spoken_words": 2070,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 14.3
+    },
+    {
+      "id": "013000",
+      "title": "The Complex Plane: Algebra, Geometry, and Limits",
+      "section": "complex-geometry",
+      "file": "013000-the-complex-plane-and-its-geometry.md",
+      "spoken_words": 2449,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.9
+    },
+    {
+      "id": "014000",
+      "title": "Complex Differentiation and the Cauchy–Riemann Equations",
+      "section": "holomorphic-functions",
+      "file": "014000-complex-differentiation-and-cauchy-riemann.md",
+      "spoken_words": 2584,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.8
+    },
+    {
+      "id": "015000",
+      "title": "Integrating Along Curves: Contours, Primitives, and Holes",
+      "section": "contour-integration",
+      "file": "015000-contour-integrals-primitives-and-holes.md",
+      "spoken_words": 2648,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 18.3
+    },
+    {
+      "id": "016000",
+      "title": "Cauchy's Theorem and Integral Formula: How a Boundary Controls the Interior",
+      "section": "cauchy-theory",
+      "file": "016000-cauchy-theorem-and-integral-formula.md",
+      "spoken_words": 3259,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.5
     }
   ]
 }

@@ -40,3 +40,24 @@ The manifest includes only present manuscripts.
 - 012000 — Infinite Sums of Functions: Uniform Series and the First Power Series (2,070 spoken words; about 14.3 minutes at 145 wpm)
 
 The sequence establishes metric-space completeness, compactness in equivalent metric formulations, uniform convergence with its limit-exchange hypotheses, and the M-test with closed-subdisk power-series control. The next step is complex differentiation and Cauchy–Riemann geometry.
+
+## Complex analysis foundations (lectures 013000–016000)
+
+- 013000 — The Complex Plane: Algebra, Geometry, and Limits
+- 014000 — Complex Differentiation and the Cauchy–Riemann Equations
+- 015000 — Integrating Along Curves: Contours, Primitives, and Holes
+- 016000 — Cauchy's Theorem and Integral Formula: How a Boundary Controls the Interior
+
+The lectures move from complex arithmetic and planar topology through the
+complex derivative and its correct Cauchy–Riemann hypotheses, to contour
+integration and its dependence on the path, then to Goursat's theorem, Cauchy's
+integral formula, Taylor expansions, Cauchy's estimates, Liouville, and the
+Fundamental Theorem of Algebra. Formal companions include statements, proof
+details, failure cases, and worked exercises. Theorem scope (holomorphic
+interiors, domain geometry, orientation) is part of the exposition.
+
+**Length policy:** The `estimated_minutes_at_145_wpm` and `spoken_words`
+fields are descriptive catalog metadata, not target values or acceptance
+thresholds. Choose the content, proof depth, and examples required for
+understanding; do not truncate or pad to meet any runtime or word-count rule.
+The track's validation checks exact catalog/prose consistency, not length.
