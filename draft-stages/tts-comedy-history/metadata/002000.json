@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-athens-rome-and-changing-publics.md",
+  "related_resources": [
+    {
+      "source_id": "ch-ucl-menander",
+      "reason": "Old/New Greek comedy, Roman adaptation, manuscript survival and New Comedy context."
+    },
+    {
+      "source_id": "ch-cambridge-roman",
+      "reason": "Open summary of Roman comic genres, Plautus and Terence; chapter full text may be paywalled."
+    },
+    {
+      "source_id": "ch-oxford-greek",
+      "reason": "Public abstract of Old Comedy periodization and the extensive fragmentary record."
+    },
+    {
+      "source_id": "ch-japan-kyogen",
+      "reason": "Independent Japanese theater tradition, developing with noh; chapter summary is open."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-c01",
+      "anchor": "This contrast is often introduced as the difference between Greek Old Comedy and New Comedy.",
+      "kind": "historical_distinction",
+      "source_ids": [
+        "ch-ucl-menander",
+        "ch-oxford-greek"
+      ],
+      "source_locator": "Old and New Comedy",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-c02",
+      "anchor": "The category Middle Comedy is more difficult still.",
+      "kind": "historical_uncertainty",
+      "source_ids": [
+        "ch-oxford-greek"
+      ],
+      "source_locator": "periodization",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-c03",
+      "anchor": "Plautus and Terence, who adapted Greek New Comedy for Roman performance.",
+      "kind": "historical_influence",
+      "source_ids": [
+        "ch-ucl-menander",
+        "ch-cambridge-roman"
+      ],
+      "source_locator": "Roman palliata",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

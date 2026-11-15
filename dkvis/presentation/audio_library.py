@@ -978,6 +978,13 @@ class AudioLectureHub:
         ):
             if self.sources == SOURCE_DIRECTORY.resolve() and directory.is_dir():
                 self.tracks[track_id] = directory.resolve()
+        # Additive lecture-track registration; independent of other track names.
+        for track_id, directory in (
+            ('fiction-writing', ROOT / 'draft-stages' / 'tts-fiction-writing'),
+            ('comedy-history', ROOT / 'draft-stages' / 'tts-comedy-history'),
+        ):
+            if self.sources == SOURCE_DIRECTORY.resolve() and directory.is_dir():
+                self.tracks[track_id] = directory.resolve()
         self._engines = {}
         self._lock = threading.RLock()
         self._voice_registry = self.cache / 'registered-voices.json'
@@ -1082,6 +1089,16 @@ class AudioLectureHub:
                     count=len(self.engine(self.profile, 'deep-time')._files()),
                     summary='Cosmic and Earth history reconstructed from observations, dated traces, and competing models')]
               if 'deep-time' in self.tracks else []),
+            *([dict(id='fiction-writing', label='Fiction Writing and Worldbuilding', kind='audio',
+                    url='/audio?track=fiction-writing',
+                    count=len(self.engine(self.profile, 'fiction-writing')._files()),
+                    summary='Character, plot, scenes, subtext, and constructed worlds')]
+              if 'fiction-writing' in self.tracks else []),
+            *([dict(id='comedy-history', label='Comedy: Theory, History, and Craft', kind='audio',
+                    url='/audio?track=comedy-history',
+                    count=len(self.engine(self.profile, 'comedy-history')._files()),
+                    summary='Rival humor theories and deep histories of comic traditions')]
+              if 'comedy-history' in self.tracks else []),
         ]
 
     def _read_registry(self):

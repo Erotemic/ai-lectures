@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-worldbuilding-constraints-and-living-societies.md",
+  "related_resources": [
+    {
+      "source_id": "fw-leguin",
+      "reason": "Alternative narrative structures and value systems; publisher page is an overview, not full text."
+    },
+    {
+      "source_id": "fw-worldbuilding",
+      "reason": "General overview used for terminology, not a claim that a specific method is empirically validated."
+    },
+    {
+      "source_id": "fw-poetics",
+      "reason": "Action, characterization, recognition and causal plot; a historical theory, not universal law."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "003000-c01",
+      "anchor": "A world is a set of conditions under which people try to live.",
+      "kind": "authorial_model",
+      "source_ids": [
+        "fw-worldbuilding",
+        "fw-leguin"
+      ],
+      "source_locator": "fictional worldbuilding",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "003000-c02",
+      "anchor": "A society is not credible merely because it contains a complete hierarchy of titles.",
+      "kind": "authorial_model",
+      "source_ids": [
+        "fw-worldbuilding"
+      ],
+      "source_locator": "social consequences",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

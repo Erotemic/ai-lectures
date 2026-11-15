@@ -24,7 +24,7 @@
 </head>
 <body>
 <header><div><div class="eyebrow">AI Lectures · Listen</div><h1>Audio lecture library</h1><p class="subtle" id="trackDescription">Choose a course track · speech generated when requested</p></div><a href="/">Presentations &amp; media</a></header>
-<nav class="course-tracks" aria-label="Course tracks"><a href="/" id="g1Link">G1 · Manim presentations</a><button type="button" id="g2Track" data-track="g2">G2 · Comprehensive audio</button><button type="button" id="g3Track" data-track="g3">G3 · Paper audio</button><button type="button" id="historyTrack" data-track="history" hidden>Math history · People &amp; ideas</button><button type="button" id="worldHistoryTrack" data-track="world-history" hidden>World History</button><button type="button" id="worldReconsideredTrack" data-track="world-reconsidered" hidden>The World Reconsidered</button><button type="button" id="categoryTheoryTrack" data-track="category-theory" hidden>Category Theory</button><button type="button" id="logicTypesTrack" data-track="logic-types" hidden>Logic &amp; Type Theory</button><button type="button" id="optimizationDualityTrack" data-track="optimization-duality" hidden>Optimization</button><button type="button" id="probabilityMeasureTrack" data-track="probability-measure" hidden>Probability &amp; Measure</button><button type="button" id="modernLiteratureTrack" data-track="modern-literature" hidden>20th-Century Literature</button><button type="button" id="deepTimeTrack" data-track="deep-time" hidden>Deep Time</button><a href="/learning-paths?track=g4">G4 · YWS path</a><a href="/learning-paths">Course map</a></nav>
+<nav class="course-tracks" aria-label="Course tracks"><a href="/" id="g1Link">G1 · Manim presentations</a><button type="button" id="g2Track" data-track="g2">G2 · Comprehensive audio</button><button type="button" id="g3Track" data-track="g3">G3 · Paper audio</button><button type="button" id="historyTrack" data-track="history" hidden>Math history · People &amp; ideas</button><button type="button" id="worldHistoryTrack" data-track="world-history" hidden>World History</button><button type="button" id="worldReconsideredTrack" data-track="world-reconsidered" hidden>The World Reconsidered</button><button type="button" id="categoryTheoryTrack" data-track="category-theory" hidden>Category Theory</button><button type="button" id="logicTypesTrack" data-track="logic-types" hidden>Logic &amp; Type Theory</button><button type="button" id="optimizationDualityTrack" data-track="optimization-duality" hidden>Optimization</button><button type="button" id="probabilityMeasureTrack" data-track="probability-measure" hidden>Probability &amp; Measure</button><button type="button" id="modernLiteratureTrack" data-track="modern-literature" hidden>20th-Century Literature</button><button type="button" id="deepTimeTrack" data-track="deep-time" hidden>Deep Time</button><a href="/learning-paths?track=g4">G4 · YWS path</a><a href="/learning-paths">Course map</a><button type="button" id="fictionWritingTrack" data-track="fiction-writing" hidden>Fiction Writing and Worldbuilding</button><button type="button" id="comedyHistoryTrack" data-track="comedy-history" hidden>Comedy: Theory, History, and Craft</button></nav>
 <main>
 <aside aria-label="Lecture selection">
 <div class="row space"><strong>Lectures</strong><span id="count" class="subtle"></span></div>
@@ -618,7 +618,7 @@ $('registerVoice').onclick=async()=>{
 $('lectureProgress').oninput=()=>{state.scrubbing=true;const pos=progressModel();if(pos){const pct=Number($('lectureProgress').value)/100;$('lecturePercent').textContent=pct.toFixed(1)+'%';$('lectureRemaining').textContent=`Seek to ${clock(pos.total*pct/100/Math.max(.25,Number($('rate').value)||1))}`}};
 $('lectureProgress').onchange=()=>{const fraction=Number($('lectureProgress').value)/10000;state.scrubbing=false;seekLectureFraction(fraction)};
 async function switchTrack(track){
-  if(!['g2','g3','history','world-history','world-reconsidered','category-theory','logic-types','optimization-duality','probability-measure','modern-literature','deep-time'].includes(track))return;
+  if(!['g2','g3','history','world-history','world-reconsidered','category-theory','logic-types','optimization-duality','probability-measure','modern-literature','deep-time','fiction-writing','comedy-history'].includes(track))return;
   state.track=track;state.inventoryToken++;state.catalogToken++;state.cacheCatalog=new Map();state.cacheCatalogLoaded=false;state.cacheCatalogError=false;state.catalogFetched=0;state.token++;state.cacheJob++;state.doc=null;state.items=[];state.audioId='';state.loadedAudioKey=null;
   audio.pause();audio.removeAttribute('src');audio.load();$('content').hidden=true;$('empty').hidden=true;
   $('loading').hidden=false;$('loading').textContent='Loading '+track.toUpperCase()+' lectures…';
@@ -635,7 +635,9 @@ async function switchTrack(track){
     'history':'Biographical audio essays · the people, publications, and ideas behind spectral theory',
     'g3':'Paper-focused recordings · four angle theorems, counterexample, and matching theorem',
     'g2':'Comprehensive recordings · foundations and theorem development',
-  })[track];
+      'fiction-writing':'Fiction craft · character, scene, structure, worldbuilding, and revision',
+    'comedy-history':'Comedy scholarship · laughter theories, history, performance, and craft',
+})[track];
   const queryParams=new URLSearchParams(location.search);const requestedLecture=queryParams.get('track')===track?queryParams.get('lecture'):null;
   try{history.replaceState(null,'','/audio?'+new URLSearchParams({track}));}catch{}
   try{
@@ -666,12 +668,15 @@ $('audioAvailability').onchange=()=>{remember('audio-availability',$('audioAvail
 audio.addEventListener('timeupdate',updateTranscriptFocus);audio.addEventListener('seeked',updateTranscriptFocus);audio.addEventListener('loadedmetadata',()=>{recordPageDuration();if(Number.isFinite(audio.duration)&&audio.duration>0){if(state.pendingSeekSentence!==null){state.pendingSeekFraction=sentenceStartFraction(state.pendingSeekSentence);state.pendingSeekSentence=null;}if(state.pendingSeekFraction!==null){audio.currentTime=Math.min(audio.duration-.01,audio.duration*state.pendingSeekFraction);state.pendingSeekFraction=null;}}updateTranscriptFocus()});
 audio.onended=()=>{if(!audio.ended||!state.audioId||!state.doc)return;updateLectureProgress();state.playing=false;$('play').textContent='▶ Play page';if($('autoNext').checked&&state.page<state.doc.pages.length-1){selectPage(state.page+1,true)}else setStatus('Page finished.')};audio.onpause=()=>{if(audio.src&&!audio.ended){$('play').textContent='▶ Resume'}};audio.onplay=()=>{$('play').textContent='❚❚ Pause'};audio.onerror=()=>setStatus('The browser could not play this audio page.',true);
 for(const id of ['voice','ttsSpeed']){$(id).addEventListener('change',()=>{remember(id==='voice'?'voice-'+(state.profile||'default'):id,$(id).value);state.cacheJob++;state.catalogToken++;state.cacheCatalog=new Map();state.cacheCatalogLoaded=false;state.cacheCatalogError=false;state.catalogFetched=0;renderList();$('generateAll').disabled=false;$('cacheCount').textContent='';if(state.doc){state.inventoryToken++;loadDurations();selectPage(state.page);loadFeedback();refreshInventory()}if(state.items.length)refreshCacheCatalog()})}for(const id of ['rate','autoNext','prefetch','followText']){$(id).addEventListener('change',()=>{remember(id,$(id).type==='checkbox'?$(id).checked:$(id).value);if(id==='rate'){audio.playbackRate=Number($('rate').value);updateLectureProgress()}})}
+$('fictionWritingTrack').onclick=()=>switchTrack('fiction-writing');
+$('comedyHistoryTrack').onclick=()=>switchTrack('comedy-history');
 async function init(){
   for(const id of ['ttsSpeed','rate']){$(id).value=saved(id,'1')};
   for(const id of ['autoNext','prefetch'])$(id).checked=Boolean(saved(id,true));
   $('followText').checked=Boolean(saved('followText',false));
   try{
     const [tracks,profiles]=await Promise.all([api('/api/audio-tracks'),api('/api/audio-profiles')]);
+    for(const [trackId,elementId] of [['fiction-writing','fictionWritingTrack'], ['comedy-history','comedyHistoryTrack']]){const el=$(elementId);if(el)el.hidden=!tracks.tracks.some(x=>x.id===trackId)}
     const requested=new URLSearchParams(location.search).get('track');
     const supportsG3=tracks.tracks.some(x=>x.id==='g3');
     $('g3Track').hidden=!supportsG3;
