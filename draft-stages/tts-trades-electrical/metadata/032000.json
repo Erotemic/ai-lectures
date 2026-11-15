@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032000",
+  "transcript": "032000-breaker-curves-selectivity-and-fault-current.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-se-coordination",
+      "reason": "Claim-specific support in source map for 032000"
+    },
+    {
+      "source_id": "electrical-se-min-shortcircuit",
+      "reason": "Claim-specific support in source map for 032000"
+    },
+    {
+      "source_id": "electrical-osha303",
+      "reason": "Claim-specific support in source map for 032000"
+    },
+    {
+      "source_id": "electrical-ul-sccr-machinery",
+      "reason": "Claim-specific support in source map for 032000"
+    },
+    {
+      "source_id": "electrical-openstax-ohm",
+      "reason": "Claim-specific support in source map for 032000"
+    },
+    {
+      "source_id": "electrical-iec60947-2-2024",
+      "reason": "Claim-specific support in source map for 032000"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Claim-specific support in source map for 032000"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E032000-01",
+      "claim": "Overcurrent protective devices have current-versus-time characteristics; nominal amperes alone do not specify clearing",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-coordination",
+          "location": "current/time/energy selectivity",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-se-min-shortcircuit",
+          "location": "clearing at minimum fault current",
+          "role": "same_publisher_related_guide"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Exact bands, instantaneous regions and fuse conventions are device-specific",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E032000-02",
+      "claim": "Time-current characteristics involve tolerances and actual settings",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-coordination",
+          "location": "time-based and current-based selectivity",
+          "role": "engineering_guide"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No specific product setting or band claimed",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E032000-03",
+      "claim": "Maximum available fault current at installation governs interrupting rating",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "1910.303(b)(4) interrupting rating",
+          "role": "primary_workplace_rule"
+        },
+        {
+          "source_id": "electrical-ul-sccr-machinery",
+          "location": "available fault current relative to machine supply",
+          "role": "independent_equipment_explainer"
+        }
+      ],
+      "verification_level": "source_audited_independent_professional_review_pending",
+      "limitations": "OSHA applies to covered workplaces; actual equipment may use other standards",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E032000-04",
+      "claim": "Minimum fault current at far/high-impedance points must still operate protection within design limits",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-min-shortcircuit",
+          "location": "minimum Isc versus trip characteristic and conductor withstand",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-osha303",
+          "location": "1910.303(b)(5) circuit impedance and characteristics",
+          "role": "independent_workplace_principle"
+        }
+      ],
+      "verification_level": "source_audited_independent_professional_review_pending",
+      "limitations": "Source, wiring, temperature and time behavior all matter",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E032000-05",
+      "claim": "Simple fault-loop models use I≈U/Z; adding impedance can greatly reduce prospective current",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "§9.4 Ohm’s law and resistance",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-se-min-shortcircuit",
+          "location": "loop-impedance fault-current models",
+          "role": "independent_engineering_application"
+        }
+      ],
+      "verification_level": "source_audited_independent_professional_review_pending",
+      "limitations": "AC, arcing and changing source conditions complicate actual values; worked numbers hypothetical",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E032000-06",
+      "claim": "Interrupting rating is not the operating ampere rating or a guarantee of total installation protection",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "1910.303(b)(4)",
+          "role": "workplace_rating_rule"
+        },
+        {
+          "source_id": "electrical-ul-sccr-machinery",
+          "location": "assembly rating and fault current",
+          "role": "independent_product_context"
+        }
+      ],
+      "verification_level": "source_audited_independent_professional_review_pending",
+      "limitations": "Device rating must match voltage, waveform and specific listing",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E032000-07",
+      "claim": "An equipment assembly SCCR is different from the interrupting rating of a breaker within it",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul-sccr-machinery",
+          "location": "machinery/panel SCCR and available fault current",
+          "role": "UL_product_guidance"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "UL reference focuses on industrial machinery and 2021 NFPA 79; must not generalize code jurisdiction",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E032000-08",
+      "claim": "IEC 60947-2:2024 is a particular IEC circuit breaker product standard developed under TC121/SC121A",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec60947-2-2024",
+          "location": "publisher page, title/edition/TC and scope",
+          "role": "publisher_scope_only"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Publisher abstract only; not full Icu/Ics clauses or national acceptance",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E032000-09",
+      "claim": "Protection selectivity is total or partial over specified fault-current ranges",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-coordination",
+          "location": "Principles of Selectivity: total versus partial",
+          "role": "engineering_guide"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Only manufacturer-verified combinations establish a particular limit",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E032000-10",
+      "claim": "Two breakers with different normal-current ratings are not guaranteed selective at high fault current",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-coordination",
+          "location": "total/partial, instantaneous and energy-based selectivity",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-ul-sccr-machinery",
+          "location": "series-rated combinations require acceptable paired equipment",
+          "role": "separate_UL_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Instantaneous overlap, energy-limiting and series systems may need actual pairing evidence",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E032000-11",
+      "claim": "Trip delay changes downstream I²t stress and can trade speed against selectivity",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-coordination",
+          "location": "time-based selectivity and short-time delays",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "power and energy proportional to I²R",
+          "role": "physics_model"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Equal I²t does not prove equal incident energy or thermal damage",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E032000-12",
+      "claim": "Different utility/generator/inverter source modes can change fault currents and device behavior",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-coordination",
+          "location": "selectivity checked for grid or generator modes",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-se-min-shortcircuit",
+          "location": "source/fault current dependence",
+          "role": "same_publisher_related_guide"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific generator/inverter limits unverified without equipment data",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E032000-13",
+      "claim": "A short-circuit study, time-current curves, ratings and critical-load objectives answer separate parts of protection design",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-coordination",
+          "location": "principles and applications of protection selectivity",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-ul-sccr-machinery",
+          "location": "assembly SCCR separate from breaker selection",
+          "role": "independent_product_context"
+        }
+      ],
+      "verification_level": "source_audited_independent_professional_review_pending",
+      "limitations": "Not a substitute for a complete coordination/incident-energy design",
+      "professional_review": "editorial_source_review_only"
+    }
+  ]
+}

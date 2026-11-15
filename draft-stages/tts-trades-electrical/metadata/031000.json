@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "lecture_id": "031000",
+  "transcript": "031000-cable-protection-penetrations-and-moisture.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-osha305",
+      "reason": "Claim-specific support in source map for 031000"
+    },
+    {
+      "source_id": "electrical-iec60364-552-2024",
+      "reason": "Claim-specific support in source map for 031000"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Claim-specific support in source map for 031000"
+    },
+    {
+      "source_id": "electrical-ul-fireblocking",
+      "reason": "Claim-specific support in source map for 031000"
+    },
+    {
+      "source_id": "electrical-ul-firestop-marks",
+      "reason": "Claim-specific support in source map for 031000"
+    },
+    {
+      "source_id": "electrical-ul-cable-guide",
+      "reason": "Claim-specific support in source map for 031000"
+    },
+    {
+      "source_id": "electrical-ul-enclosure-accessories",
+      "reason": "Claim-specific support in source map for 031000"
+    },
+    {
+      "source_id": "electrical-ul-panelboards",
+      "reason": "Claim-specific support in source map for 031000"
+    },
+    {
+      "source_id": "electrical-osha303",
+      "reason": "Claim-specific support in source map for 031000"
+    },
+    {
+      "source_id": "electrical-se-cable-sizing",
+      "reason": "Claim-specific support in source map for 031000"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Claim-specific support in source map for 031000"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E031000-01",
+      "claim": "Mechanical impact, abrasion, compression and supports can damage cable even before energization",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "1910.305(a)(2)(x)-(xi) physical protection and supports",
+          "role": "primary_workplace_rule"
+        },
+        {
+          "source_id": "electrical-iec60364-552-2024",
+          "location": "publisher description of wiring systems/external influences",
+          "role": "standard_scope_only"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Cable-specific bend/tension limits vary by product",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E031000-02",
+      "claim": "Cable support and enclosure-entry fittings must avoid abrasion and unintended termination load",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "1910.305(a)(2)(xi), (b)(1)(i)-(iii)",
+          "role": "direct_workplace_rule"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Workplace OSHA requirements do not specify all applicable residential distances",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E031000-03",
+      "claim": "Raceway, sleeve, and cable tray have different permitted uses and environmental/continuity functions",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "1910.305(a)(1),(a)(3),(b)(1)",
+          "role": "workplace_methods"
+        },
+        {
+          "source_id": "electrical-osha304",
+          "location": "1910.304(g)(5)-(6)",
+          "role": "separate_grounding_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No generic approval of metallic conduit as equipment grounding path without complete approved assembly",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E031000-04",
+      "claim": "A penetration may affect building fire resistance, fireblocking, air and weather barriers",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul-fireblocking",
+          "location": "fireblocking versus firestopping and concealed spaces",
+          "role": "independent_certification_explainer"
+        },
+        {
+          "source_id": "electrical-ul-firestop-marks",
+          "location": "penetration-system tests and certification differences",
+          "role": "certification_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Required treatment depends on the actual wall/floor assembly and adopted building code",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E031000-05",
+      "claim": "Fireblocking and penetration firestopping are different protection functions",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul-fireblocking",
+          "location": "Q&A: fireblocking different from firestopping",
+          "role": "direct_UL_explanation"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Not all nonrated partitions require listed penetration systems",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E031000-06",
+      "claim": "UL 1479/ASTM E814 firestop certification applies to a complete tested assembly, not an arbitrary sealant",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul-fireblocking",
+          "location": "listed system requirement, UL 1479 and ASTM E814",
+          "role": "UL_authority"
+        },
+        {
+          "source_id": "electrical-ul-firestop-marks",
+          "location": "different firestop certification marks/test standards",
+          "role": "same_org_independent_page"
+        }
+      ],
+      "verification_level": "source_audited_independent_professional_review_pending",
+      "limitations": "Specific construction, penetrant and annulus must match a listing; other jurisdictions use different systems",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E031000-07",
+      "claim": "A firestop certification under one regional standard does not automatically confer certification under a different standard",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul-firestop-marks",
+          "location": "UL 1479, ULC S115, EN 1366 differences",
+          "role": "UL_comparative_technical"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No international compliance assertion drawn without exact listing",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E031000-08",
+      "claim": "Cable insulation, jacket, environmental suitability and enclosure protection serve separate functions",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul-cable-guide",
+          "location": "conductor/cable marking and location suitability",
+          "role": "UL_product_guide"
+        },
+        {
+          "source_id": "electrical-osha305",
+          "location": "1910.305(e), (f) wet location and conductor context",
+          "role": "workplace_rule"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Location and cable markings must be checked on actual product",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E031000-09",
+      "claim": "Electrical enclosures in damp or wet covered workplaces require measures against water ingress and accumulation",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "1910.305(e)(1)-(2) damp and wet enclosures",
+          "role": "primary_workplace_rule"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "OSHA scope occupational; does not establish universal home enclosure ratings",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E031000-10",
+      "claim": "Adding holes or non-evaluated accessories can change an enclosure environmental rating",
+      "kind": "product_specific",
+      "supports": [
+        {
+          "source_id": "electrical-ul-enclosure-accessories",
+          "location": "environmental-rated accessory evaluation",
+          "role": "UL_certification_context"
+        },
+        {
+          "source_id": "electrical-ul-panelboards",
+          "location": "modification of enclosures and ratings",
+          "role": "UL_guidance_same_authority"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Actual entry accessories and listed conditions govern",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E031000-11",
+      "claim": "Moisture, vibration and corrosion can reduce mechanical or electrical connection reliability",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "1910.303(b)(7)(iii)-(iv) contamination/damage",
+          "role": "workplace_rule"
+        },
+        {
+          "source_id": "electrical-osha305",
+          "location": "1910.305(e) moisture provisions",
+          "role": "separate_installation_rule"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Material-specific corrosion rates and failure probability not established here",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E031000-12",
+      "claim": "Increasing route protection can affect heat removal, conductor grouping and applicable ampacity",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "installation methods and correction factors",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "§9.5 heat due to resistance",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "source_audited_independent_professional_review_pending",
+      "limitations": "Impact depends on actual cable geometry and thermal environment",
+      "professional_review": "editorial_source_review_only"
+    }
+  ]
+}

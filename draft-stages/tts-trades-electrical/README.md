@@ -43,6 +43,11 @@ This course is not authorization to work on hazardous circuits, a substitute for
 - `028000` — Ampacity: Heat, Installation Method, and Derating
 - `029000` — Voltage Drop, Distance, and the Cost of Current
 
+- `030000` — Connections Under Pressure: Terminals, Torque, Splices, and Strain Relief
+- `031000` — The Cable Route Is Part of the Circuit: Protection, Penetrations, and Moisture
+- `032000` — Which Breaker Trips? Time-Current Curves, Selectivity, and Fault Current
+- `033000` — Earth Is Not the Return Wire: Grounding Electrodes and Fault Paths
+
 The track's broader proposed curriculum is in [`CURRICULUM.md`](CURRICULUM.md). Planned lectures are not registered until they have real manuscripts and metadata.
 
 ## Exercises
@@ -51,4 +56,4 @@ Current published lessons use desk calculations, visual-only surveys and control
 
 ## Evidence requirements before publication
 
-This is a high-consequence trades track. Read [`EVIDENCE_POLICY.md`](EVIDENCE_POLICY.md) before authoring or revising any lecture. Source density is measured by **traceable claims with suitable evidence**, not bibliography length. The first twenty-nine lectures have claim-specific maps and structured records in their metadata. Reference scope and standards accessibility are explicit. **Qualified electrical/safety review is pending**: successful indexing does not mean the material has been approved as installation instruction.
+This is a high-consequence trades track. Read [`EVIDENCE_POLICY.md`](EVIDENCE_POLICY.md) before authoring or revising any lecture. Source density is measured by **traceable claims with suitable evidence**, not bibliography length. The first thirty-three lectures have claim-specific maps and structured records in their metadata. Reference scope and standards accessibility are explicit. **Qualified electrical/safety review is pending**: successful indexing does not mean the material has been approved as installation instruction.

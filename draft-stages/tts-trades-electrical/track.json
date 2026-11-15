@@ -13,7 +13,8 @@
     "electrical-drawings",
     "electrical-measurement",
     "electrical-distribution",
-    "electrical-materials"
+    "electrical-materials",
+    "electrical-protection"
   ],
   "lectures": [
     {
@@ -274,6 +275,42 @@
       "section": "electrical-materials",
       "file": "029000-voltage-drop-and-conductor-sizing.md",
       "spoken_words": 1676,
+      "draft_status": "substantive",
+      "practice_classification": "desk_or_visual_only"
+    },
+    {
+      "id": "030000",
+      "title": "Connections Under Pressure: Terminals, Torque, Splices, and Strain Relief",
+      "section": "electrical-materials",
+      "file": "030000-terminals-torque-splices-and-strain-relief.md",
+      "spoken_words": 1658,
+      "draft_status": "substantive",
+      "practice_classification": "desk_and_supervised_training"
+    },
+    {
+      "id": "031000",
+      "title": "The Cable Route Is Part of the Circuit: Protection, Penetrations, and Moisture",
+      "section": "electrical-materials",
+      "file": "031000-cable-protection-penetrations-and-moisture.md",
+      "spoken_words": 1709,
+      "draft_status": "substantive",
+      "practice_classification": "desk_or_visual_only"
+    },
+    {
+      "id": "032000",
+      "title": "Which Breaker Trips? Time-Current Curves, Selectivity, and Fault Current",
+      "section": "electrical-protection",
+      "file": "032000-breaker-curves-selectivity-and-fault-current.md",
+      "spoken_words": 1732,
+      "draft_status": "substantive",
+      "practice_classification": "desk_or_visual_only"
+    },
+    {
+      "id": "033000",
+      "title": "Earth Is Not the Return Wire: Grounding Electrodes and Fault Paths",
+      "section": "electrical-protection",
+      "file": "033000-grounding-electrodes-versus-fault-return-paths.md",
+      "spoken_words": 1930,
       "draft_status": "substantive",
       "practice_classification": "desk_or_visual_only"
     }
