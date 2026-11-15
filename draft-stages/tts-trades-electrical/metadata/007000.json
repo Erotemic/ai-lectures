@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-reactive-components-and-transients.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-openstax-cap-energy",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-rc",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-inductors",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-mit-6002-course",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-inductor-energy",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-rl",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-ac-circuits",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-rlc",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-acpower",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-osha333",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E007000-01",
+      "claim": "Capacitor stores energy in electric field, which can remain after disconnection",
+      "kind": "hazard_or_engineering_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-cap-energy",
+          "location": "§8.3",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-openstax-rc",
+          "location": "§10.5",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E007000-02",
+      "claim": "Ideal i=C\\,dv/dt and E=\\tfrac12CV^2",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-cap-energy",
+          "location": "§8.3",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-openstax-rc",
+          "location": "§10.5",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E007000-03",
+      "claim": "RC response is exponential with time constant RC",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-rc",
+          "location": "§10.5",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E007000-04",
+      "claim": "Inductance is an induced-emf response to changing magnetic flux/current",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-inductors",
+          "location": "§14.2",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-mit-6002-course",
+          "location": "Course Description; Lectures 1–3 and 12–18 topic outline",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E007000-05",
+      "claim": "Inductor stores magnetic field energy \\frac12 LI^2",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-inductor-energy",
+          "location": "§14.3",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E007000-06",
+      "claim": "RL response is exponential with time constant L/R",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-rl",
+          "location": "§14.4",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E007000-07",
+      "claim": "Capacitive reactance falls and inductive reactance rises with frequency",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ac-circuits",
+          "location": "§15.2",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-openstax-rlc",
+          "location": "§15.3",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E007000-08",
+      "claim": "Ideal L and C shift phase and return average stored energy over a sinusoidal cycle",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ac-circuits",
+          "location": "§15.2",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "§15.4, time-average power and sinusoidal phase formula",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E007000-09",
+      "claim": "RLC resonance can amplify internal voltages/current",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-rlc",
+          "location": "§15.3",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E007000-10",
+      "claim": "Disconnecting input does not by itself establish safety",
+      "kind": "hazard_or_engineering_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-cap-energy",
+          "location": "§8.3",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "29 CFR 1910.333(b), *occupational* safe work rules",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E007000-11",
+      "claim": "Protective switching for inductive energy requires engineered design",
+      "kind": "hazard_or_engineering_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-inductors",
+          "location": "§14.2",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    }
+  ],
+  "evidence_review": {
+    "as_of": "2026-11-15",
+    "scope": "Public technical source checks plus original conceptual calculations; no independent professional certification",
+    "qualified_electrical_review": "pending",
+    "adopted_code_clause_review": "not_performed",
+    "field_procedure_authorization": false,
+    "claim_level_corroboration": "Incomplete for some narrow claims; see per-claim source and limitations fields and dedicated review note",
+    "publication_status": "source_audited_draft_not_professionally_approved"
+  }
+}

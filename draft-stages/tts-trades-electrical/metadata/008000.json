@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-power-factor-harmonics-and-power-quality.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-openstax-acpower",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-nist-harmonics-measurement",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-fluke-power-factor",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-inductor-energy",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-fluke-harmonics",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-rlc",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-fluke-pq-symptoms",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-osha333",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E008000-01",
+      "claim": "Real power is the time average of instantaneous VI",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "§15.4, time-average power and sinusoidal phase formula",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-nist-harmonics-measurement",
+          "location": "pp. 290–293, abstract, §2, §3, Eqs. (1), (2), (8)–(10)",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E008000-02",
+      "claim": "Apparent power is RMS voltage × RMS current; PF = P/S",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-nist-harmonics-measurement",
+          "location": "pp. 290–293, abstract, §2, §3, Eqs. (1), (2), (8)–(10)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-fluke-power-factor",
+          "location": "Definitions; Ideal power factor; Steps to better power factor",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E008000-03",
+      "claim": "Phase cosine formula is specific to single-frequency sinusoidal conditions",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "§15.4, time-average power and sinusoidal phase formula",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-nist-harmonics-measurement",
+          "location": "pp. 290–293, abstract, §2, §3, Eqs. (1), (2), (8)–(10)",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E008000-04",
+      "claim": "Pure reactive ideal elements exchange field energy over a sinusoidal cycle",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "§15.4, time-average power and sinusoidal phase formula",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-openstax-inductor-energy",
+          "location": "§14.3",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E008000-05",
+      "claim": "Nonlinear electronic loads can produce harmonic current",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-nist-harmonics-measurement",
+          "location": "pp. 290–293, abstract, §2, §3, Eqs. (1), (2), (8)–(10)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-fluke-harmonics",
+          "location": "Overview; Equipment installation needs a power quality analyzer",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E008000-06",
+      "claim": "Harmonics occur at integer multiples of fundamental frequency",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-nist-harmonics-measurement",
+          "location": "pp. 290–293, abstract, §2, §3, Eqs. (1), (2), (8)–(10)",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E008000-07",
+      "claim": "Overall PF can differ from fundamental displacement PF in distorted systems",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-nist-harmonics-measurement",
+          "location": "pp. 290–293, abstract, §2, §3, Eqs. (1), (2), (8)–(10)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-fluke-power-factor",
+          "location": "Definitions; Ideal power factor; Steps to better power factor",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E008000-08",
+      "claim": "Harmonics can affect thermal loading and power metrology",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-nist-harmonics-measurement",
+          "location": "pp. 290–293, abstract, §2, §3, Eqs. (1), (2), (8)–(10)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-fluke-harmonics",
+          "location": "Overview; Equipment installation needs a power quality analyzer",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E008000-09",
+      "claim": "Some three-phase four-wire systems can have neutral harmonic addition",
+      "kind": "hazard_or_engineering_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-fluke-harmonics",
+          "location": "Overview; Equipment installation needs a power quality analyzer",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E008000-10",
+      "claim": "Power factor correction methods depend on cause; added capacitors may interact with harmonics",
+      "kind": "hazard_or_engineering_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-fluke-power-factor",
+          "location": "Definitions; Ideal power factor; Steps to better power factor",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-openstax-rlc",
+          "location": "§15.3",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E008000-11",
+      "claim": "Billing implications vary by actual tariff",
+      "kind": "hazard_or_engineering_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-fluke-power-factor",
+          "location": "Definitions; Ideal power factor; Steps to better power factor",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E008000-12",
+      "claim": "Instrument bandwidth and source impedance affect distorted-waveform power measurements",
+      "kind": "hazard_or_engineering_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-nist-harmonics-measurement",
+          "location": "pp. 290–293, abstract, §2, §3, Eqs. (1), (2), (8)–(10)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-fluke-harmonics",
+          "location": "Overview; Equipment installation needs a power quality analyzer",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E008000-13",
+      "claim": "Symptoms alone cannot identify wiring fault or justify live measurements",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-fluke-pq-symptoms",
+          "location": "Symptoms, causes and power-quality problem table",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "29 CFR 1910.333(b), *occupational* safe work rules",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    }
+  ],
+  "evidence_review": {
+    "as_of": "2026-11-15",
+    "scope": "Public technical source checks plus original conceptual calculations; no independent professional certification",
+    "qualified_electrical_review": "pending",
+    "adopted_code_clause_review": "not_performed",
+    "field_procedure_authorization": false,
+    "claim_level_corroboration": "Incomplete for some narrow claims; see per-claim source and limitations fields and dedicated review note",
+    "publication_status": "source_audited_draft_not_professionally_approved"
+  }
+}

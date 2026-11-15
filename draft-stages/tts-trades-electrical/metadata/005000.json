@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-circuit-laws-and-resistive-networks.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-mit-6002-course",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-mit-6002-lecture2",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-ohm",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-seriesparallel",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-kirchhoff",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-inductors",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-osha333",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-iec60364",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [
+    {
+      "claim": "Kirchhoff names and historical attribution are from modern secondary sources, not original archival papers",
+      "attribution_status": "secondary_source_only",
+      "sources": [
+        "electrical-openstax-kirchhoff"
+      ]
+    }
+  ],
+  "evidence_claims": [
+    {
+      "claim_id": "E005000-01",
+      "claim": "Lumped circuit analysis is an approximation of distributed fields",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-mit-6002-course",
+          "location": "Course Description; Lectures 1–3 and 12–18 topic outline",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-mit-6002-lecture2",
+          "location": "Lecture 2, PDF pp. 1–3: lumped abstraction, KCL/KVL and conventions",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E005000-02",
+      "claim": "Ohm's law is an element model, not universal for devices",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "§9.4, ideal Ohm law and non-ohmic elements",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-mit-6002-course",
+          "location": "Course Description; Lectures 1–3 and 12–18 topic outline",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E005000-03",
+      "claim": "Series topology means common branch current and additive resistances",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-seriesparallel",
+          "location": "§10.2",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E005000-04",
+      "claim": "Parallel topology means common voltage and summed currents",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-seriesparallel",
+          "location": "§10.2",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E005000-05",
+      "claim": "Kirchhoff junction law follows charge conservation in circuit approximation",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-kirchhoff",
+          "location": "§10.3",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-mit-6002-lecture2",
+          "location": "Lecture 2, PDF pp. 1–3: lumped abstraction, KCL/KVL and conventions",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E005000-06",
+      "claim": "Loop equations express voltage changes in standard lumped model",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-kirchhoff",
+          "location": "§10.3",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-mit-6002-lecture2",
+          "location": "Lecture 2, PDF pp. 1–3: lumped abstraction, KCL/KVL and conventions",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E005000-07",
+      "claim": "Physical changing magnetic flux limits naive field interpretation of KVL",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-inductors",
+          "location": "§14.2",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E005000-08",
+      "claim": "I^2R can concentrate heating at a resistive joint",
+      "kind": "hazard_or_engineering_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "§9.5, power and resistive heating",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E005000-09",
+      "claim": "An open branch can have no steady current while terminals remain energized",
+      "kind": "hazard_or_engineering_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-seriesparallel",
+          "location": "§10.2",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "29 CFR 1910.333(b), *occupational* safe work rules",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E005000-10",
+      "claim": "Numeric circuit examples do not certify installation safety",
+      "kind": "hazard_or_engineering_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "29 CFR 1910.304(f),(g), *occupational* installation protection scope",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-iec60364",
+          "location": "IEC 60364-1:2025 public publisher scope ABSTRACT ONLY",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    }
+  ],
+  "evidence_review": {
+    "as_of": "2026-11-15",
+    "scope": "Public technical source checks plus original conceptual calculations; no independent professional certification",
+    "qualified_electrical_review": "pending",
+    "adopted_code_clause_review": "not_performed",
+    "field_procedure_authorization": false,
+    "claim_level_corroboration": "Incomplete for some narrow claims; see per-claim source and limitations fields and dedicated review note",
+    "publication_status": "source_audited_draft_not_professionally_approved"
+  }
+}

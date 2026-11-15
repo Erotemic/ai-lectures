@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-alternating-current-and-rms.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-openstax-ac-sources",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-acpower",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-ac-circuits",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-mit-6002-course",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-openstax-rlc",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-nist-harmonics-measurement",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Narrow claim evidence; see evidence_claims and manuscript claim map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E006000-01",
+      "claim": "AC waveforms vary in time; frequency and phase are distinct parameters",
+      "kind": "hazard_or_engineering_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ac-sources",
+          "location": "§15.1",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E006000-02",
+      "claim": "AC current and voltage can reverse without cancelling resistive heating",
+      "kind": "hazard_or_engineering_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "§15.4, time-average power and sinusoidal phase formula",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "§9.5, power and resistive heating",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E006000-03",
+      "claim": "Regional 50/60 Hz examples are not worldwide defaults",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ac-sources",
+          "location": "§15.1",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E006000-04",
+      "claim": "RMS is the square root of a time mean of a squared waveform",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ac-circuits",
+          "location": "§15.2",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "§15.4, time-average power and sinusoidal phase formula",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E006000-05",
+      "claim": "Pure sine RMS is peak divided by square root of two",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ac-circuits",
+          "location": "§15.2",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "§15.4, time-average power and sinusoidal phase formula",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E006000-06",
+      "claim": "Phase difference of sinusoids yields cosine term in mean real power",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "§15.4, time-average power and sinusoidal phase formula",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-mit-6002-course",
+          "location": "Course Description; Lectures 1–3 and 12–18 topic outline",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E006000-07",
+      "claim": "General real power is time-average of instantaneous VI",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "§15.4, time-average power and sinusoidal phase formula",
+          "role": "main"
+        }
+      ],
+      "verification_level": "public_text_checked_for_narrow_claim_single_line_or_contextual_crosscheck",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E006000-08",
+      "claim": "Inductors/capacitors shift sinusoidal current relative to voltage",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ac-circuits",
+          "location": "§15.2",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-openstax-rlc",
+          "location": "§15.3",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E006000-09",
+      "claim": "Non-sinusoidal waveforms need general RMS, not sine-only peak conversion",
+      "kind": "underlying_physics_or_measurement",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ac-circuits",
+          "location": "§15.2",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-nist-harmonics-measurement",
+          "location": "pp. 290–293, abstract, §2, §3, Eqs. (1), (2), (8)–(10)",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E006000-10",
+      "claim": "Meters, inverters and installation hardware require separate specifications",
+      "kind": "hazard_or_engineering_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-nist-harmonics-measurement",
+          "location": "pp. 290–293, abstract, §2, §3, Eqs. (1), (2), (8)–(10)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha304",
+          "location": "29 CFR 1910.304(f),(g), *occupational* installation protection scope",
+          "role": "corroboration_or_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_multiple_sources_with_scope_limitations",
+      "limitations": "Idealized models and sources do not establish physical component ratings, safe procedure, locally adopted code, product compatibility, or installation approval. Some independent claim-level corroboration remains outstanding.",
+      "professional_review": "pending"
+    }
+  ],
+  "evidence_review": {
+    "as_of": "2026-11-15",
+    "scope": "Public technical source checks plus original conceptual calculations; no independent professional certification",
+    "qualified_electrical_review": "pending",
+    "adopted_code_clause_review": "not_performed",
+    "field_procedure_authorization": false,
+    "claim_level_corroboration": "Incomplete for some narrow claims; see per-claim source and limitations fields and dedicated review note",
+    "publication_status": "source_audited_draft_not_professionally_approved"
+  }
+}
