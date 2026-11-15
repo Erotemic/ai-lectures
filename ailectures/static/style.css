@@ -256,6 +256,9 @@ main {
   border: 1px solid var(--line);
   border-radius: 8px;
 }
+#listening-queue .list li {
+  flex-wrap: wrap;
+}
 .list .copy {
   flex: 1;
   min-width: 0;
@@ -461,6 +464,13 @@ progress {
   .list li {
     padding: 0.8rem;
     align-items: flex-start;
+  }
+  #listening-history li {
+    flex-wrap: wrap;
+  }
+  #listening-queue .copy,
+  #listening-history .copy {
+    flex-basis: 100%;
   }
   .player-heading {
     flex-direction: column;

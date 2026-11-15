@@ -236,7 +236,13 @@ Access is immediate. Use **This device** for browser-local progress, or add/sele
 a named listener to share progress through this server. A device remembers the
 choice. Another device selects the same listener without a password or login.
 The Listening page exports/imports personal history and can copy device-local
-history into a named listener where no shared position already exists.
+history into a named listener where no shared position already exists. Its
+editable listening queue is device-local for anonymous use and shared through
+the server for named listeners. Add a lecture from its lecture page, reorder or
+remove entries in Listening, and choose Play on a queue item to start there.
+Automatic continuation consumes completed queue entries; unavailable lectures
+remain listed. Queue actions apply to the current list so independent additions
+from different devices survive. Listener-history exports include the queue.
 
 Progress is saved locally before network work and queued for replay. Updates use
 optimistic record versions and stable event IDs. Deliberate rewinds are valid;

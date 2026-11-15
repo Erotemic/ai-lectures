@@ -1,12 +1,14 @@
 import { api, post, el, getStored, store, lectureURL, clock } from "./api.mjs";
 import { Player } from "./player.mjs";
 import { reviewFeedback } from "./feedback.mjs";
+import { ListeningQueue } from "./queue.mjs";
 const $ = (id) => document.getElementById(id);
 let catalog = { lectures: [], courses: [], packs: [] },
   profile = getStored("listener", ""),
   progress = {},
   currentCourse = null,
   pendingConflict = null;
+let playingQueueEntry = null;
 let search = "",
   subject = "",
   availability = "",
@@ -192,6 +194,11 @@ const player = new Player({
   checkpoint: saveCheckpoint,
   message,
   next: () => {
+    if (playingQueueEntry) {
+      const id = playingQueueEntry.id;
+      playingQueueEntry = null;
+      return listeningQueue.advance(id);
+    }
     const course = catalog.courses.find((c) => c.id === currentCourse);
     if (!course || !player.row) return;
     const next = course.lectures[course.lectures.indexOf(player.row.id) + 1];
@@ -199,6 +206,15 @@ const player = new Player({
       navigate(lectureLink(next, course.id), true);
     } else if (next)
       message("The next course step is not installed on this server.");
+  },
+});
+const listeningQueue = new ListeningQueue({
+  profile: () => profile,
+  lectures: () => catalog.lectures,
+  message,
+  play: (entry) => {
+    playingQueueEntry = entry;
+    navigate(lectureLink(entry.lecture_id, entry.course_id), true);
   },
 });
 async function loadListeners() {
@@ -225,6 +241,7 @@ async function loadListeners() {
 }
 $("listener").onchange = async () => {
   player.save();
+  playingQueueEntry = null;
   await saveChain;
   profile = $("listener").value;
   store("listener", profile);
@@ -457,14 +474,20 @@ async function lecturePage(id, autoplay = false, historical = null) {
       ? player.row
       : latest;
   if (token !== renderToken) return;
+  if (playingQueueEntry?.lecture_id !== id) playingQueueEntry = null;
   if (row.kind === "presentation") {
     location.href = "/presentations?deck=" + encodeURIComponent(row.deck);
     return;
   }
-  currentCourse =
+  const selectedCourse =
     new URLSearchParams(location.search).get("course") ||
     progress[id]?.course_id ||
     currentCourse;
+  currentCourse = catalog.courses.some(
+    (course) => course.id === selectedCourse && course.lectures.includes(id),
+  )
+    ? selectedCourse
+    : null;
   const position = player.row?.id === id ? player.position() : null;
   player.open(row, position || progress[id]);
   player.course = currentCourse;
@@ -478,6 +501,7 @@ async function lecturePage(id, autoplay = false, historical = null) {
       "div",
       { class: "actions" },
       button(progress[id] ? "Resume" : "Play", () => player.play(), true),
+      button("Add to queue", () => listeningQueue.add(id, currentCourse)),
       badge(row),
       el("span", {
         class: "muted",
@@ -735,13 +759,17 @@ function listeningPage() {
         : "This device remembers your progress. Choose a named listener to share it with other devices.",
     ),
   );
+  const queuePanel = el("section", { class: "section", id: "listening-queue" });
+  main.append(queuePanel);
+  listeningQueue.render(queuePanel);
+  main.append(el("h2", { class: "section", text: "Listening history" }));
   const values = Object.values(progress).sort((a, b) =>
     (b.updated_at || "").localeCompare(a.updated_at || ""),
   );
   main.append(
     el(
       "ul",
-      { class: "list" },
+      { class: "list", id: "listening-history" },
       ...values.map((p) => {
         const row = byId(p.lecture_id);
         const item = row
@@ -787,13 +815,15 @@ function listeningPage() {
       }),
     );
     main.append(
-      button("Copy device history into this listener", async () => {
+      button("Copy device history and queue into this listener", async () => {
         const guest = getStored("progress:device", {});
         for (const [id, position] of Object.entries(guest))
           if (!progress[id]) saveCheckpoint(position);
+        for (const entry of getStored("queue:device", []))
+          await listeningQueue.edit({ action: "add", entry });
         await saveChain;
         message(
-          "Device history copied where this listener had no existing position.",
+          "Device queue copied; history copied where this listener had no existing position.",
         );
         render();
       }),
@@ -1217,6 +1247,8 @@ async function init() {
       }
       await showJobs();
       await refreshProductionHealth();
+      if ($("listening-queue"))
+        await listeningQueue.render($("listening-queue"));
       if (profile) {
         await flushProgress();
         if (!getStored("pending:" + profile, []).length) {

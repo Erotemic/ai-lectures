@@ -84,6 +84,7 @@ class ListenerState:
                     profile TEXT, lecture TEXT, device TEXT, sequence INTEGER NOT NULL,
                     PRIMARY KEY(profile, lecture, device));
                 CREATE TABLE IF NOT EXISTS feedback_events (id TEXT PRIMARY KEY, record TEXT NOT NULL);
+                CREATE TABLE IF NOT EXISTS listening_queues (profile TEXT PRIMARY KEY, entries TEXT NOT NULL);
             """)
 
     @contextmanager
@@ -276,12 +277,98 @@ class ListenerState:
     def export_listener(self, profile):
         progress = self.progress(profile)
         person = next(p for p in self.profiles() if p["id"] == profile)
-        return {"schema_version": 1, "profile": person, "progress": progress}
+        return {
+            "schema_version": 1,
+            "profile": person,
+            "progress": progress,
+            "queue": self.queue(profile),
+        }
+
+    def queue(self, profile):
+        identifier(profile)
+        with self.connect() as db:
+            if not db.execute(
+                "SELECT 1 FROM profiles WHERE id=?", (profile,)
+            ).fetchone():
+                raise KeyError("Unknown listener")
+            row = db.execute(
+                "SELECT entries FROM listening_queues WHERE profile=?", (profile,)
+            ).fetchone()
+            return json.loads(row["entries"]) if row else []
+
+    @staticmethod
+    def queue_entry(entry):
+        identifier(entry["id"])
+        qualified(entry["lecture_id"])
+        if entry.get("course_id"):
+            qualified(entry["course_id"])
+        return {
+            key: entry[key] for key in ("id", "lecture_id", "course_id") if key in entry
+        }
+
+    def edit_queue(self, profile, operation):
+        # Apply one user action to the current queue, never a stale full list.
+        identifier(profile)
+        with self.connect() as db:
+            db.execute("BEGIN IMMEDIATE")
+            if not db.execute(
+                "SELECT 1 FROM profiles WHERE id=?", (profile,)
+            ).fetchone():
+                raise KeyError("Unknown listener")
+            row = db.execute(
+                "SELECT entries FROM listening_queues WHERE profile=?", (profile,)
+            ).fetchone()
+            entries = json.loads(row["entries"]) if row else []
+            action = operation["action"]
+            if action == "add":
+                entry = self.queue_entry(operation["entry"])
+                old = next(
+                    (item for item in entries if item["id"] == entry["id"]), None
+                )
+                if old is not None and old != entry:
+                    raise Conflict("Queue entry ID has conflicting content")
+                if old is None:
+                    entries.append(entry)
+            elif action in {"remove", "move"}:
+                entry_id = identifier(operation["id"])
+                entry = next((item for item in entries if item["id"] == entry_id), None)
+                if action == "move" and entry is None:
+                    raise Conflict("This queue entry has already been removed")
+                before = operation.get("before") if action == "move" else None
+                if before == entry_id:
+                    return entries
+                entries = [item for item in entries if item["id"] != entry_id]
+                if action == "move":
+                    if before is not None and not any(
+                        item["id"] == before for item in entries
+                    ):
+                        raise Conflict(
+                            "The queue changed on another device; refresh before moving this item"
+                        )
+                    index = next(
+                        (i for i, item in enumerate(entries) if item["id"] == before),
+                        len(entries),
+                    )
+                    entries.insert(index, entry)
+            else:
+                raise ValueError("Unknown queue action")
+            db.execute(
+                "INSERT OR REPLACE INTO listening_queues VALUES (?,?)",
+                (profile, canonical(entries).decode()),
+            )
+            return entries
 
     def import_listener(self, document):
         if document.get("schema_version") != 1:
             raise ValueError("Unsupported listener export")
         person, progress = document["profile"], document["progress"]
+        queue = document.get("queue")
+        if queue is not None:
+            if not isinstance(queue, list):
+                raise ValueError("Invalid listening queue")
+            queue = [self.queue_entry(entry) for entry in queue]
+            if len({entry["id"] for entry in queue}) != len(queue):
+                raise ValueError("Duplicate queue entry IDs")
         identifier(person["id"])
         if not isinstance(person["name"], str) or not 1 <= len(person["name"]) <= 80:
             raise ValueError("Invalid listener name")
@@ -296,6 +383,19 @@ class ListenerState:
                 "INSERT OR IGNORE INTO profiles VALUES (?,?)",
                 (person["id"], person["name"]),
             )
+            if queue is not None:
+                current = db.execute(
+                    "SELECT entries FROM listening_queues WHERE profile=?",
+                    (person["id"],),
+                ).fetchone()
+                if current and json.loads(current["entries"]) != queue:
+                    raise Conflict(
+                        "Listening queue conflicts with this listener's existing queue"
+                    )
+                db.execute(
+                    "INSERT OR IGNORE INTO listening_queues VALUES (?,?)",
+                    (person["id"], canonical(queue).decode()),
+                )
             for key, row in progress.items():
                 qualified(key)
                 finite(row["seconds"])

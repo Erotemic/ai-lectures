@@ -196,6 +196,15 @@ def create_app(
             )
         return JSONResponse(listeners.import_listener(await body(request)))
 
+    async def listening_queue(request):
+        profile = request.path_params["profile"]
+        entries = (
+            listeners.queue(profile)
+            if request.method == "GET"
+            else listeners.edit_queue(profile, await body(request))
+        )
+        return JSONResponse({"entries": entries}, headers={"Cache-Control": "no-store"})
+
     async def feedback(request):
         if request.method == "GET":
             return JSONResponse(
@@ -411,6 +420,9 @@ def create_app(
         Route("/api/listeners/import", listener_transfer, methods=["POST"]),
         Route("/api/listeners/{profile}/export", listener_transfer),
         Route("/api/listeners/{profile}/progress", progress, methods=["GET", "POST"]),
+        Route(
+            "/api/listeners/{profile}/queue", listening_queue, methods=["GET", "POST"]
+        ),
         Route("/api/library/feedback", feedback, methods=["GET", "POST"]),
         Route("/api/library/feedback/status", feedback_status, methods=["POST"]),
         Route("/api/library/feedback/import", feedback_import, methods=["POST"]),
