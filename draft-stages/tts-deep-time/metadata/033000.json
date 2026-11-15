@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "lecture_id": "033000",
+  "transcript": "033000-how-the-moon-was-made.md",
+  "related_resources": [
+    {
+      "source_id": "dt-case-moon-nasa",
+      "reason": "Apollo compositional constraints and magma ocean"
+    },
+    {
+      "source_id": "dt-case-moon-rbsr",
+      "reason": "Rb–Sr lunar chronology and model dependence"
+    },
+    {
+      "source_id": "dt-case-moon-multiple",
+      "reason": "Multiple-impact physical alternative"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "033000-e01",
+      "anchor": "Apollo brought back hundreds of kilograms of material",
+      "kind": "technical_review",
+      "source_ids": [
+        "dt-case-moon-nasa"
+      ],
+      "source_locator": "Lunar samples, anorthosite, volatiles",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-e02",
+      "anchor": "A 2025 study of rubidium and strontium",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-case-moon-rbsr"
+      ],
+      "source_locator": "Rb–Sr model-conditioned lunar age",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-e03",
+      "anchor": "A 2025 study published in a 2026 journal issue",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-case-moon-multiple"
+      ],
+      "source_locator": "Hydrodynamic multiple-impact pathway",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

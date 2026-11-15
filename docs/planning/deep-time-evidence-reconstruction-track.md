@@ -92,3 +92,14 @@ The lecture distinguishes: raw observable → processed quantity → physical re
 - New lectures receive one numbered manuscript, one per-lecture source/claim sidecar, and entries in `track.json` and `metadata/sources.json`. Only delivered work goes in `track.json`; proposed IDs live here.
 - The sources catalog records specific primary experiments and review papers with accessible links and access labels. Claim status distinguishes reference recorded from source-passage checked. Do not represent external verification as Lean proof or automated historical fact checking.
 - When the research changes, update a named result and its source, not an entire narrative merely to follow the news. Separate research snapshot dates from the timeless logical distinction between observation and inference.
+
+## Extension arc: Four contested reconstructions (033000–036000)
+
+**Delivered, 14 November 2026.** The 32-lecture original curriculum above remains complete. Four later case studies examine contested reconstructions without replacing that closing methodological synthesis. These use the existing `deep-history-and-method` catalog section and have independent evidence maps in `docs/planning/deep-time-four-contested-reconstructions-2026-11-14.md`.
+
+| ID | Status | New case study | Primary inference test |
+| --- | --- | --- | --- |
+| 033000 | **Delivered** | How the Moon Was Made: Samples, Impacts, and Competing Origins | Isotope ratios and radiometric sample ages vs impact sequence and thermal history |
+| 034000 | **Delivered** | Was Earth a Snowball? Ice, Latitude, and the Survival of Life | Low-paleolatitude glacial evidence vs global ice coverage and climatic cycling |
+| 035000 | **Delivered** | The Great Dying: Timing a Planetary Disaster | Ash chronology, fossils and geochemical perturbations vs multiple linked kill mechanisms |
+| 036000 | **Delivered** | The Vanished Giants: Humans, Climate, and a Contested Catastrophe | Fossil and archaeological chronologies vs human, environmental and proposed impact causes |

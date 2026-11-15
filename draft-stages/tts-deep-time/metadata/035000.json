@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "lecture_id": "035000",
+  "transcript": "035000-the-great-dying.md",
+  "related_resources": [
+    {
+      "source_id": "dt-case-permian-timeline",
+      "reason": "High-resolution zircon U–Pb event chronology"
+    },
+    {
+      "source_id": "dt-case-permian-traps",
+      "reason": "Volcanism and volatile release mechanisms"
+    },
+    {
+      "source_id": "dt-case-permian-feedback",
+      "reason": "Early Triassic feedback dynamics"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "035000-e01",
+      "anchor": "At the Meishan section in China",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-case-permian-timeline"
+      ],
+      "source_locator": "Meishan zircon chronology",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "035000-e02",
+      "anchor": "The 2025 review of the Siberian Traps",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-case-permian-traps"
+      ],
+      "source_locator": "Large igneous province causal uncertainty",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "035000-e03",
+      "anchor": "A 2025 modeling study proposed",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-case-permian-feedback"
+      ],
+      "source_locator": "Redox-phosphorus feedback model",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

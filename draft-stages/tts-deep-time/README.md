@@ -4,6 +4,7 @@ This audio track reconstructs cosmic and terrestrial history from what remains o
 
 - **Audio reader:** `/audio?track=deep-time`
 - **Delivered manuscripts:** `001000`-`032000` (thirty-two substantive lectures; the initial Deep Time curriculum is complete, from cosmic reconstruction to historical method).
+- **Extension case studies:** `033000`-`036000` (four completed deep-time reconstruction investigations, beyond the original 32-lecture curriculum).
 - **Future curriculum:** `docs/planning/deep-time-evidence-reconstruction-track.md` (all 32 reserved IDs in the initial curriculum have delivered manuscripts)
 - **Source records:** `metadata/sources.json`, with per-lecture links and claim anchors under `metadata/<id>.json`
 - **Content boundaries:** No assertion that every claim has the same confidence; no forced equivalence between well-tested models and hypotheses contradicted by observations. Numerical age and composition estimates name their assumptions.

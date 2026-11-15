@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "lecture_id": "034000",
+  "transcript": "034000-snowball-earth.md",
+  "related_resources": [
+    {
+      "source_id": "dt-case-snowball-model",
+      "reason": "Sturtian long-duration climate cycling"
+    },
+    {
+      "source_id": "dt-case-snowball-cap",
+      "reason": "Marinoan cap carbonate mechanisms and glacial dates"
+    },
+    {
+      "source_id": "dt-case-snowball-review",
+      "reason": "Evidence, hard-snowball limits and alternative models"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "034000-e01",
+      "anchor": "Between roughly 720 and 635 million years ago",
+      "kind": "technical_review",
+      "source_ids": [
+        "dt-case-snowball-cap"
+      ],
+      "source_locator": "Cryogenian ice-age timeline",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "034000-e02",
+      "anchor": "A 2024 carbon-cycle study modeled three stages",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-case-snowball-cap"
+      ],
+      "source_locator": "Three-phase cap carbonate mechanism",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "034000-e03",
+      "anchor": "A 2026 study of the Sturtian glaciation",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-case-snowball-model"
+      ],
+      "source_locator": "Sturtian cyclic climate model",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "034000-e04",
+      "anchor": "A separate 2026 review emphasized",
+      "kind": "research_result",
+      "source_ids": [
+        "dt-case-snowball-review"
+      ],
+      "source_locator": "Current status of snowball hypothesis",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
