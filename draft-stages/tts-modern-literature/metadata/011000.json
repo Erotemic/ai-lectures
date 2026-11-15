@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-season-of-migration-to-the-north-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-season-primary",
+      "reason": "Plot, publication, and literary interpretation cross-reference; consult the book itself for literary form."
+    },
+    {
+      "source_id": "ml-season-plot",
+      "reason": "Plot, publication, and literary interpretation cross-reference; consult the book itself for literary form."
+    },
+    {
+      "source_id": "ml-season-hassan",
+      "reason": "Independent contextual scholarship or teaching resource; secondary interpretation is not the author’s own claim."
+    },
+    {
+      "source_id": "ml-season-olszok",
+      "reason": "Independent contextual scholarship or teaching resource; secondary interpretation is not the author’s own claim."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "011000-c01",
+      "anchor": "Salih published the Arabic novel in 1966, and Denys Johnson-Davies's English translation appeared in 1969.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-season-primary"
+      ],
+      "source_locator": "Publication/translation; original Arabic 1966; English 1969",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "011000-c02",
+      "anchor": "Waïl S. Hassan emphasizes the way colonial, racial, and patriarchal systems create unstable and mutually reinforcing constructions of masculinity.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-season-hassan"
+      ],
+      "source_locator": "Hassan 2003 abstract",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "011000-c03",
+      "anchor": "Charis Olszok, for example, reads the novel's climatic and energy structures as more than scenery.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-season-olszok"
+      ],
+      "source_locator": "Olszok 2024 abstract",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "011000-c04",
+      "anchor": "The unnamed narrator has a parallel weakness.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-season-primary",
+        "ml-season-plot"
+      ],
+      "source_locator": "Interpretive claim; comparison of narrators",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

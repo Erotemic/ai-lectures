@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-kokoro-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-kokoro-primary",
+      "reason": "Plot, publication, and literary interpretation cross-reference; consult the book itself for literary form."
+    },
+    {
+      "source_id": "ml-kokoro-text",
+      "reason": "Plot, publication, and literary interpretation cross-reference; consult the book itself for literary form."
+    },
+    {
+      "source_id": "ml-kokoro-criticism",
+      "reason": "Independent contextual scholarship or teaching resource; secondary interpretation is not the author’s own claim."
+    },
+    {
+      "source_id": "ml-kokoro-nogi",
+      "reason": "Independent contextual scholarship or teaching resource; secondary interpretation is not the author’s own claim."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "010000-c01",
+      "anchor": "The novel's three divisions are often translated as 'Sensei and I,' 'My Parents and I,' and 'Sensei and His Testament.'",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-kokoro-primary",
+        "ml-kokoro-criticism"
+      ],
+      "source_locator": "Kokoro, structural section titles",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "010000-c02",
+      "anchor": "Sensei's uncle cheats him after his parents die.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-kokoro-primary",
+        "ml-kokoro-text"
+      ],
+      "source_locator": "Kokoro, confession: inheritance",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "010000-c03",
+      "anchor": "Sōseki serialized Kokoro in 1914, after Emperor Meiji's death in 1912 and the subsequent suicide of General Nogi Maresuke.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-kokoro-primary",
+        "ml-kokoro-criticism",
+        "ml-kokoro-nogi"
+      ],
+      "source_locator": "Publication chronology and historic junshi event",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "010000-c04",
+      "anchor": "Masahiko Nishi, for instance, has argued that Sensei's relationship to the tradition of following one's lord in death should not simply be treated as an affirmative imitation.",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "ml-kokoro-nogi"
+      ],
+      "source_locator": "Nishi 1986 abstract, subversive/parodic reading",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
