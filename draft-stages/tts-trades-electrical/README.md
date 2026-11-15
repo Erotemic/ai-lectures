@@ -18,6 +18,11 @@ This course is not authorization to work on hazardous circuits, a substitute for
 - `006000` — A Voltage That Keeps Changing: AC, Frequency, Phase, and RMS
 - `007000` — Where Electrical Energy Waits: Capacitors, Inductors, Impedance, and Transients
 - `008000` — Useful Power and Distorted Current: Power Factor, Harmonics, and Power Quality
+- `009000` — Fields, Transformers, and the Transfer of Electrical Energy
+- `010000` — Touch Current: How Electrical Contact Becomes Injury
+- `011000` — Overcurrent: Overloads, Faults, and the Energy That Must Be Interrupted
+- `012000` — Earthing and Bonding: Making Faults Clear Without Making Metal Dangerous
+- `013000` — Protective Devices Have Different Jobs: GFCI, RCD, AFCI, Fuses, Breakers, and Surge Protection
 
 The track's broader proposed curriculum is in [`CURRICULUM.md`](CURRICULUM.md). Planned lectures are not registered until they have real manuscripts and metadata.
 
@@ -27,4 +32,4 @@ Current published lessons use desk calculations, visual-only surveys and control
 
 ## Evidence requirements before publication
 
-This is a high-consequence trades track. Read [`EVIDENCE_POLICY.md`](EVIDENCE_POLICY.md) before authoring or revising any lecture. Source density is measured by **traceable claims with suitable evidence**, not bibliography length. The first eight lectures have claim-specific maps and structured records in their metadata. Reference scope and standards accessibility are explicit. **Qualified electrical/safety review is pending**: successful indexing does not mean the material has been approved as installation instruction.
+This is a high-consequence trades track. Read [`EVIDENCE_POLICY.md`](EVIDENCE_POLICY.md) before authoring or revising any lecture. Source density is measured by **traceable claims with suitable evidence**, not bibliography length. The first thirteen lectures have claim-specific maps and structured records in their metadata. Reference scope and standards accessibility are explicit. **Qualified electrical/safety review is pending**: successful indexing does not mean the material has been approved as installation instruction.

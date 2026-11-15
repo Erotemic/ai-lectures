@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-overcurrent-and-fault-energy.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-eaton-fuse",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-eaton-handbook",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-schneider-trips",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha303",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-cpsc-afci",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-ul1699",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha-gfci",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-hse-rcd",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-usbr-transformers",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-openstax-ohm",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E011000-01",
+      "claim": "Overload and short circuit are different overcurrent mechanisms",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(f)(1)(i) protected conductor capacity",
+          "role": "workplace_normative"
+        },
+        {
+          "source_id": "electrical-eaton-fuse",
+          "location": "Overcurrent/fuse ratings FAQ",
+          "role": "independent_technical_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Device and conductor ratings depend on installation and code.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E011000-02",
+      "claim": "Current-squared heating is a model; exposure time matters",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "Electrical power and heat relation",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-eaton-handbook",
+          "location": "Fuseology time/current and energy discussions",
+          "role": "independent_engineering_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Thermal model neglects changing resistance, cooling, cable geometry.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E011000-03",
+      "claim": "Thermal magnetic breakers distinguish delay and high-fault trip regions",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-schneider-trips",
+          "location": "FAQ FA90910, short circuit and overload behavior",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-eaton-handbook",
+          "location": "Time-current curves of overcurrent devices",
+          "role": "corroborating_engineering_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Actual curve and calibration require device-specific specifications.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E011000-04",
+      "claim": "Fuses have distinct operating characteristics and are not interchangeable",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-eaton-fuse",
+          "location": "Ratings, PTC difference, substitution caution",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Manufacturer-only primary explanation; independent certification needed for selection.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E011000-05",
+      "claim": "Interrupting rating limits available fault current safely interruptible",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "§1910.303(b)(4)",
+          "role": "workplace_normative"
+        },
+        {
+          "source_id": "electrical-eaton-fuse",
+          "location": "Interrupting rating definition",
+          "role": "independent_manufacturer_explainer"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Actual application requires prospective current calculation, listing and local code.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E011000-06",
+      "claim": "SCCR and device coordination are separate concerns",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "§1910.303(b)(5) circuit characteristics",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-eaton-handbook",
+          "location": "Equipment withstand and current-limiting coordination",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "A particular panel/equipment SCCR was not verified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E011000-07",
+      "claim": "Fault-limiting performance depends on peak let-through and duration",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-eaton-handbook",
+          "location": "Fuseology; let-through curves, clearing time",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Manufacturer reference; independent product test verification outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E011000-08",
+      "claim": "High-impedance heating or arcing may evade ordinary overload detection",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-cpsc-afci",
+          "location": "p.1 early arcing missed by ordinary protection",
+          "role": "consumer_safety"
+        },
+        {
+          "source_id": "electrical-ul1699",
+          "location": "§1.3 glowing connections excluded from AFCI scope",
+          "role": "independent_standard_scope"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Distinct failure types; does not imply no possible detection for every device.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E011000-09",
+      "claim": "Breakers do not reliably protect body against all shock pathways",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-gfci",
+          "location": "Personnel protection function and limitations",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-rcd",
+          "location": "Supplementary shock protection",
+          "role": "independent"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Different devices perform different tested roles.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E011000-10",
+      "claim": "Breaker compatibility/label instructions matter",
+      "kind": "regulation",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "§1910.303(b)(2) listed equipment instructions",
+          "role": "workplace_normative"
+        },
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(f) protection arrangement",
+          "role": "same_regulator_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Exact homeowner adoption and product compatibility must be verified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E011000-11",
+      "claim": "Motor and transformer transient inrush differ from sustained overload",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-schneider-trips",
+          "location": "FAQ FA90910, permitted motor inrush",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-usbr-transformers",
+          "location": "Transformer magnetizing behavior, §§2.4–2.7",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "No generic permissible inrush duration or selection.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E011000-12",
+      "claim": "Worked hypothetical fault current 120 V/0.020 ohm = 6000 A",
+      "kind": "worked_calculation",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "Ohm law model, ideal resistance",
+          "role": "model_definition"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Self-checked arithmetic only; no physical installation prediction.",
+      "professional_review": "pending"
+    }
+  ],
+  "evidence_review": {
+    "as_of": "2026-11-15",
+    "scope": "claim-level checks of public explanations, regulatory provisions, published standards scope and selected engineering material; original calculations cross-checked",
+    "qualified_electrical_review": "pending",
+    "medical_expert_review": "not_applicable",
+    "adopted_code_clause_review": "not_performed",
+    "field_procedure_authorization": false,
+    "claim_level_corroboration": "Partial; individual claim entries identify evidence and gaps",
+    "publication_status": "source_audited_draft_not_professionally_approved"
+  }
+}

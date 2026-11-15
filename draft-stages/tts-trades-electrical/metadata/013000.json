@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-protective-devices-different-jobs.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-cpsc-afci",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha-gfci",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-hse-rcd",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-iec61008",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-ul943",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-ul1699",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-ul1449",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha333",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha303",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-iec60364",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E013000-01",
+      "claim": "Fuses and ordinary breakers handle overcurrent, not every shock/arc hazard",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(f)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-cpsc-afci",
+          "location": "p.1 AFCI vs GFCI, ordinary protection limitations",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Actual combination devices may offer more than one function.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E013000-02",
+      "claim": "GFCI/RCD measures imbalance through monitored load conductors",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha-gfci",
+          "location": "How it works and limitations",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-rcd",
+          "location": "RCD protection purpose and limitation",
+          "role": "independent_regulator_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Exact sensing type, wiring and response time require full product docs.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E013000-03",
+      "claim": "Balanced line-neutral body contact may evade residual detection",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-gfci",
+          "location": "Line contact hazard examples",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Independent mechanism-specific corroboration not reviewed; safety-critical limitation remains true under specified balance hypothesis.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E013000-04",
+      "claim": "RCD is supplemental; it cannot prevent every electric shock",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-hse-rcd",
+          "location": "Use an RCD section",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha-gfci",
+          "location": "Line contact limitation",
+          "role": "independent_corroboration"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "No recommendation to work energized or deliberate testing by shock.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E013000-05",
+      "claim": "IEC RCCB scope excludes integral overcurrent protection",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec61008",
+          "location": "IEC 61008-1:2024 public abstract, device class",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Full normative text not inspected; application-specific design pending.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E013000-06",
+      "claim": "UL 943 scope refers to specified Class A personnel GFCIs",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-ul943",
+          "location": "§1 Scope, published public abstract",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Scope only; full test requirements and individual certification not checked.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E013000-07",
+      "claim": "AFCI addresses some arcing fire mechanisms distinct from GFCI",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-cpsc-afci",
+          "location": "p.1 AFCI vs GFCI distinctions",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-ul1699",
+          "location": "§1.1 intended arc fire mitigation",
+          "role": "independent_standard_scope"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Device performance conditional and intended application limited.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E013000-08",
+      "claim": "UL 1699:2025 excludes glowing connection detection",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-ul1699",
+          "location": "§1.3 explicitly says not intended to detect glowing connections",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Direct public scope statement; full standard not inspected; not a promise of behavior of every product.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E013000-09",
+      "claim": "UL 1449 covers designated transient surge limiting devices",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-ul1449",
+          "location": "§1.1 published scope",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Publisher scope only; no actual SPD selection/voltage claim verified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E013000-10",
+      "claim": "Test button does not verify entire installation or safe absence of voltage",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-hse-rcd",
+          "location": "RCD user test guidance",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2)(iv) qualified verification of deenergization",
+          "role": "separate_regulatory_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Product instructions and qualified testing required; test button alone not safe-work verification.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E013000-11",
+      "claim": "Code adoption, panel compatibility and listing are separate requirements",
+      "kind": "regulation",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "§1910.303(b)(2) equipment instructions",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-iec60364",
+          "location": "Published IEC 60364 general scope only",
+          "role": "region_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Occupational rule does not prove private-household permission; exact local adopted codes and product list required.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E013000-12",
+      "claim": "A tripping device is a symptom not an assured diagnosis",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-hse-rcd",
+          "location": "RCD testing and faulty devices",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "Safe-work / qualified exposure rules",
+          "role": "limited_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific trip cause must be investigated by competent personnel; not DIY diagnostics.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E013000-13",
+      "claim": "Illustrative 8.00 vs 7.98 ampere residual equals 20 mA",
+      "kind": "worked_calculation",
+      "supports": [
+        {
+          "source_id": "electrical-osha-gfci",
+          "location": "Differential-current principle",
+          "role": "concept_source"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Arithmetic only: no trip-time or waveform prediction and no intentional fault test.",
+      "professional_review": "pending"
+    }
+  ],
+  "evidence_review": {
+    "as_of": "2026-11-15",
+    "scope": "claim-level checks of public explanations, regulatory provisions, published standards scope and selected engineering material; original calculations cross-checked",
+    "qualified_electrical_review": "pending",
+    "medical_expert_review": "not_applicable",
+    "adopted_code_clause_review": "not_performed",
+    "field_procedure_authorization": false,
+    "claim_level_corroboration": "Partial; individual claim entries identify evidence and gaps",
+    "publication_status": "source_audited_draft_not_professionally_approved"
+  }
+}

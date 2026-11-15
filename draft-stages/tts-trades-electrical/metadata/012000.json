@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-earthing-bonding-and-fault-paths.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-iet-bonding",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha-library-ground",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-schneider-tttn",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha-open-neutral",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-hse-rcd",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha-gfci",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-openstax-ohm",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E012000-01",
+      "claim": "Protective earthing and bonding are different objectives",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-iet-bonding",
+          "location": "Earthing and bonding FAQ",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(g) grounding of equipment",
+          "role": "independent_regulatory_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Terminology differs by region; no local BS7671 adoption verified.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E012000-02",
+      "claim": "Metallic protective fault loop can support overcurrent disconnection",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha-library-ground",
+          "location": "System and Equipment Grounding text diagram",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-schneider-tttn",
+          "location": "TN arrangement fault-clearing approach",
+          "role": "independent_technical"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Depends on actual impedance, source bond and device behavior.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E012000-03",
+      "claim": "Earthing electrode is not generally the same as low-impedance protective return",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-schneider-tttn",
+          "location": "TT and TN contrast",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha-library-ground",
+          "location": "Equipment grounding path distinction",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Earth resistance and exact protection scheme vary.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E012000-04",
+      "claim": "Neutral is load-carrying; PE is not an ordinary load return",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(a),(g) grounded versus equipment grounding",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-iet-bonding",
+          "location": "Difference between earthing and protective bonding",
+          "role": "independent_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Some valid systems use combined PEN conductors; no generic field bonding instructions.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E012000-05",
+      "claim": "Improper neutral-to-metal connection may produce parallel current paths",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(g)(4),(8) grounding connection locations",
+          "role": "workplace_normative"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific neutral bonding in existing installations requires professional inspection and local code.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E012000-06",
+      "claim": "Open neutral and PEN failures create dangerous potentials",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-open-neutral",
+          "location": "OSHA open neutral energized conditions",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-schneider-tttn",
+          "location": "TN-C / TN-S arrangements as context",
+          "role": "limited_system_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "PEN-specific risk requires current adopted IEC/UK rules and qualified review.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E012000-07",
+      "claim": "TN arrangement and automatic overcurrent disconnection concept",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-schneider-tttn",
+          "location": "TN system and protection for first fault",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-iet-bonding",
+          "location": "Earthing/bonding importance",
+          "role": "limited_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Secondary Schneider explanation; full IEC 60364 clauses not inspected.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E012000-08",
+      "claim": "TT arrangement commonly uses RCD due to earth return impedance",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-schneider-tttn",
+          "location": "TT system protection for persons",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-rcd",
+          "location": "RCD protective purpose",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Full IEC clause and system-specific verification needed.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E012000-09",
+      "claim": "IT source first-insulation-fault behavior differs from TN/TT",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-schneider-tttn",
+          "location": "IT system first and second insulation fault",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Full IEC standard and actual monitoring/design verification outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E012000-10",
+      "claim": "Water-pipe/extraneous-conductive-part bonding is conditional",
+      "kind": "code_guidance",
+      "supports": [
+        {
+          "source_id": "electrical-iet-bonding",
+          "location": "Pipe examples and extraneous conductive parts",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "UK-specific public guidance; full local clause and actual building conditions need inspection.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E012000-11",
+      "claim": "Receptacle ground contact does not prove effective PE",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(b)(2), (g)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha-gfci",
+          "location": "GFCI vs equipment-grounding differences",
+          "role": "limited_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Visual-only observation cannot verify conductor continuity/impedance.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E012000-12",
+      "claim": "Existing two-wire receptacle may permit labeled GFCI replacement in some OSHA contexts",
+      "kind": "regulation",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(b)(2)(iv)(C) grounded-type replacement labeled No Equipment Ground",
+          "role": "workplace_normative"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Not universally permitted: no locally adopted homeowner code clause reviewed.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E012000-13",
+      "claim": "Worked 120 V / 20 ohm = 6 A demonstrates why electrode alone insufficient",
+      "kind": "worked_calculation",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "Ohm law simple series model",
+          "role": "math_model"
+        },
+        {
+          "source_id": "electrical-schneider-tttn",
+          "location": "TT loop can give limited fault current",
+          "role": "engineering_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Ideal illustrative resistance; not field earthing resistance or safe design.",
+      "professional_review": "pending"
+    }
+  ],
+  "evidence_review": {
+    "as_of": "2026-11-15",
+    "scope": "claim-level checks of public explanations, regulatory provisions, published standards scope and selected engineering material; original calculations cross-checked",
+    "qualified_electrical_review": "pending",
+    "medical_expert_review": "not_applicable",
+    "adopted_code_clause_review": "not_performed",
+    "field_procedure_authorization": false,
+    "claim_level_corroboration": "Partial; individual claim entries identify evidence and gaps",
+    "publication_status": "source_audited_draft_not_professionally_approved"
+  }
+}

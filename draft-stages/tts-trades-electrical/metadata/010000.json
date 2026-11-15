@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-touch-current-and-electrical-injury.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-sbctc-shock",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha-gfci",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-iec60479",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-mayo-shock",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-iet-bonding",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-schneider-tttn",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha-construction",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-cpsc-afci",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-hse-rcd",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha-open-neutral",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha333",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-nhs-shock",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    },
+    {
+      "source_id": "electrical-cdc-firstaid",
+      "reason": "Claim-level traceability; see evidence_claims, caveats and manuscript source map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E010000-01",
+      "claim": "Shock occurs via a complete path involving the body, not necessarily soil",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-sbctc-shock",
+          "location": "Section 3, making dangerous contact",
+          "role": "training_primary"
+        },
+        {
+          "source_id": "electrical-osha-gfci",
+          "location": "Line contact versus ground-fault pathways",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Training binder funded by OSHA but not authored by OSHA; exact pathway depends on source topology.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E010000-02",
+      "claim": "Shock severity depends on current, path, duration and contact conditions including moisture",
+      "kind": "medical_safety",
+      "supports": [
+        {
+          "source_id": "electrical-sbctc-shock",
+          "location": "Section 3 key points on path, current, time, moisture",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-iec60479",
+          "location": "Scope only: physiological effects of shock current",
+          "role": "scope_not_corrob"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No safe human-current threshold determined; full IEC text and clinical review outstanding.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E010000-03",
+      "claim": "Injury may involve burns and falls as well as shock",
+      "kind": "medical_safety",
+      "supports": [
+        {
+          "source_id": "electrical-sbctc-shock",
+          "location": "Section 3 electrical, arc, thermal burns and falls",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-mayo-shock",
+          "location": "Electrical injuries and clinical assessment",
+          "role": "independent_medical_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Actual injury evaluation requires medical professionals.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E010000-04",
+      "claim": "Touch voltage is between simultaneously contacted accessible points",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-iet-bonding",
+          "location": "Touch voltage / equipotential purpose",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-schneider-tttn",
+          "location": "TT/TN protection-of-persons explanations",
+          "role": "technical_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Exact touch voltage assessment requires qualified site measurement and topology.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E010000-05",
+      "claim": "Step voltage around a ground fault is a potentially hazardous difference",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-construction",
+          "location": "Electrical incidents pages: downed high-voltage power lines and contact danger",
+          "role": "limited_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Additional specialized utility/public-safety source required before claim is treated as fully corroborated.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E010000-06",
+      "claim": "A conventional overcurrent breaker is not general personnel shock protection",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-gfci",
+          "location": "GFCI personnel protection versus conventional overcurrent",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-cpsc-afci",
+          "location": "p.1 AFCI/GFCI distinct objectives",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "No fixed universal threshold for every device or body condition.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E010000-07",
+      "claim": "Line-neutral contact may not trip a residual-current device",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-gfci",
+          "location": "Line contact examples; GFCI limits",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-rcd",
+          "location": "RCD is supplemental and not universal",
+          "role": "independent_limited_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Specific device and source arrangement determine detected imbalance.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E010000-08",
+      "claim": "PE and neutral have different intended functions",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(a),(g)",
+          "role": "workplace_rule"
+        },
+        {
+          "source_id": "electrical-iet-bonding",
+          "location": "Earthing and bonding functional distinction",
+          "role": "independent_technical_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "No universal conductor color or topology assumption.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E010000-09",
+      "claim": "Open neutral may still be energized",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-open-neutral",
+          "location": "July 7 2003 interpretation",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304 conductor role requirements",
+          "role": "separate_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Cannot generalize to measured potential of every neutral.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E010000-10",
+      "claim": "Safe work needs source isolation and verification including backfeed",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2), especially (iv)(B)",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Workplace regulation; no homeowner procedure or proof of home-specific compliance.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E010000-11",
+      "claim": "Emergency responders should avoid touching an electrically energized person",
+      "kind": "emergency_medical",
+      "supports": [
+        {
+          "source_id": "electrical-nhs-shock",
+          "location": "Assess the area; source isolation",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-mayo-shock",
+          "location": "What to avoid; seek assistance",
+          "role": "independent_corroboration"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Use local emergency number and dispatcher; no improvised high-voltage rescue.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E010000-12",
+      "claim": "Electrical injury merits medical evaluation after harmful contact",
+      "kind": "medical_safety",
+      "supports": [
+        {
+          "source_id": "electrical-mayo-shock",
+          "location": "When to call doctor and care",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-cdc-firstaid",
+          "location": "Electrical hazards, emergency care",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Severity triage requires medical professional; no diagnosis from lecture.",
+      "professional_review": "pending"
+    }
+  ],
+  "evidence_review": {
+    "as_of": "2026-11-15",
+    "scope": "claim-level checks of public explanations, regulatory provisions, published standards scope and selected engineering material; original calculations cross-checked",
+    "qualified_electrical_review": "pending",
+    "medical_expert_review": "pending",
+    "adopted_code_clause_review": "not_performed",
+    "field_procedure_authorization": false,
+    "claim_level_corroboration": "Partial; individual claim entries identify evidence and gaps",
+    "publication_status": "source_audited_draft_not_professionally_approved"
+  }
+}
