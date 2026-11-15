@@ -39,6 +39,10 @@ OPTIMIZATION_DUALITY_DIRECTORY = ROOT / 'draft-stages' / 'tts-optimization-duali
 PROBABILITY_MEASURE_DIRECTORY = ROOT / 'draft-stages' / 'tts-probability-measure'
 MODERN_LITERATURE_DIRECTORY = ROOT / 'draft-stages' / 'tts-modern-literature'
 DEEP_TIME_DIRECTORY = ROOT / 'draft-stages' / 'tts-deep-time'
+MODERN_WORLD_DIRECTORY = ROOT / 'draft-stages' / 'tts-modern-world'
+PHYSICAL_WORLD_DIRECTORY = ROOT / 'draft-stages' / 'tts-physical-world'
+ANALYSIS_DIRECTORY = ROOT / 'draft-stages' / 'tts-analysis'
+NUMERICAL_ANALYSIS_DIRECTORY = ROOT / 'draft-stages' / 'tts-numerical-analysis'
 EXTRACTOR = SOURCE_DIRECTORY / 'extract_narration.py'
 AUDIO_PAGE = Path(__file__).with_name('audio_library.html')
 LECTURE_NAME = re.compile(r'^(\d{6})-.*\.md$')
@@ -267,17 +271,26 @@ class AudioLectureLibrary:
             return []
         files = sorted(p for p in self.sources.iterdir()
                        if p.is_file() and LECTURE_NAME.fullmatch(p.name))
-        if self.sources not in {PAPER_DIRECTORY.resolve(), HISTORY_DIRECTORY.resolve(),
-                                WORLD_HISTORY_DIRECTORY.resolve(), WORLD_RECONSIDERED_DIRECTORY.resolve(),
-                                CATEGORY_THEORY_DIRECTORY.resolve()}:
-            return files
-        # Curated audio tracks use their own manifest order, independently of
-        # their six-digit source identifiers.
-        plan = json.loads((self.sources / 'track.json').read_text(encoding='utf-8'))
+        manifest = self.sources / 'track.json'
+        if not manifest.is_file():
+            return files  # The original G2 transcript collection has no manifest.
+        # Every manifest-backed track uses its declared listening order. A stale
+        # entry or unindexed transcript is an error rather than silently hiding
+        # work or giving the reader a dead lecture link.
+        plan = json.loads(manifest.read_text(encoding='utf-8'))
+        rows = plan['lectures']
+        names = [row['file'] for row in rows]
+        ids = [row['id'] for row in rows]
+        if (len(names) != len(set(names)) or len(ids) != len(set(ids))
+                or any(not LECTURE_NAME.fullmatch(name) or name[:6] != lecture_id
+                       for name, lecture_id in zip(names, ids))):
+            raise ValueError(f'{self.sources.name}: invalid or duplicate lecture identifiers')
         paths = {path.name: path for path in files}
-        names = [row['file'] for row in plan['lectures']]
-        if len(names) != len(set(names)) or set(names) != set(paths):
-            raise ValueError(f'{self.sources.name} listening path and transcript inventory differ')
+        if set(names) != set(paths):
+            missing = sorted(set(names) - set(paths))
+            unindexed = sorted(set(paths) - set(names))
+            raise ValueError(f'{self.sources.name}: manifest mismatch: missing={missing}, '
+                             f'unindexed={unindexed}')
         return [paths[name] for name in names]
 
     def _lecture_path(self, lecture_id):
@@ -959,32 +972,25 @@ class AudioLectureHub:
         self._sender = sender
         self._page_chars = page_chars
         self.tracks = {'g2': self.sources}
-        if self.sources == SOURCE_DIRECTORY.resolve() and PAPER_DIRECTORY.is_dir():
-            self.tracks['g3'] = PAPER_DIRECTORY.resolve()
-        if self.sources == SOURCE_DIRECTORY.resolve() and HISTORY_DIRECTORY.is_dir():
-            self.tracks['history'] = HISTORY_DIRECTORY.resolve()
-        if self.sources == SOURCE_DIRECTORY.resolve() and WORLD_HISTORY_DIRECTORY.is_dir():
-            self.tracks['world-history'] = WORLD_HISTORY_DIRECTORY.resolve()
-        if self.sources == SOURCE_DIRECTORY.resolve() and WORLD_RECONSIDERED_DIRECTORY.is_dir():
-            self.tracks['world-reconsidered'] = WORLD_RECONSIDERED_DIRECTORY.resolve()
-        if self.sources == SOURCE_DIRECTORY.resolve() and CATEGORY_THEORY_DIRECTORY.is_dir():
-            self.tracks['category-theory'] = CATEGORY_THEORY_DIRECTORY.resolve()
-        for track_id, directory in (
-            ('logic-types', LOGIC_TYPES_DIRECTORY),
-            ('optimization-duality', OPTIMIZATION_DUALITY_DIRECTORY),
-            ('probability-measure', PROBABILITY_MEASURE_DIRECTORY),
-            ('modern-literature', MODERN_LITERATURE_DIRECTORY),
-            ('deep-time', DEEP_TIME_DIRECTORY),
-        ):
-            if self.sources == SOURCE_DIRECTORY.resolve() and directory.is_dir():
+        self.track_descriptions = {}
+        if self.sources == SOURCE_DIRECTORY.resolve():
+            # A manifest and its directory are the only registration mechanism.
+            # New independently-owned tracks must not modify shared Python or HTML.
+            for directory in sorted((ROOT / 'draft-stages').glob('tts-*')):
+                manifest = directory / 'track.json'
+                if not manifest.is_file():
+                    continue
+                plan = json.loads(manifest.read_text(encoding='utf-8'))
+                track_id = plan.get('id')
+                if not isinstance(track_id, str) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', track_id):
+                    raise ValueError(f'Invalid audio track ID in {manifest}')
+                expected_directory = 'tts-paper' if track_id == 'g3' else f'tts-{track_id}'
+                if directory.name != expected_directory or track_id in {'g1', 'g2', 'g4'}:
+                    raise ValueError(f'Track ID/directory mismatch: {manifest}: {track_id}')
+                if track_id in self.tracks:
+                    raise ValueError(f'Duplicate audio track ID: {track_id}')
                 self.tracks[track_id] = directory.resolve()
-        # Additive lecture-track registration; independent of other track names.
-        for track_id, directory in (
-            ('fiction-writing', ROOT / 'draft-stages' / 'tts-fiction-writing'),
-            ('comedy-history', ROOT / 'draft-stages' / 'tts-comedy-history'),
-        ):
-            if self.sources == SOURCE_DIRECTORY.resolve() and directory.is_dir():
-                self.tracks[track_id] = directory.resolve()
+                self.track_descriptions[track_id] = plan
         self._engines = {}
         self._lock = threading.RLock()
         self._voice_registry = self.cache / 'registered-voices.json'
@@ -1034,72 +1040,30 @@ class AudioLectureHub:
         return self.engine(self.profile, track).detail(lecture_id)
 
     def course_tracks(self):
-        return [
+        catalog = [
             dict(id='g1', label='G1 · Manim', kind='presentation', url='/',
                  summary='Original animated presentations and media'),
             dict(id='g2', label='G2 · Comprehensive audio', kind='audio', url='/audio?track=g2',
                  count=len(self.engine(self.profile, 'g2')._files()),
                  summary='Complete foundations and theorem development'),
-            *([dict(id='g3', label='G3 · Paper audio', kind='audio', url='/audio?track=g3',
-                    count=len(self.engine(self.profile, 'g3')._files()),
-                    summary='Shorter path to four angle theorems, counterexample, and matching theorem')]
-              if 'g3' in self.tracks else []),
-            *([dict(id='history', label='Math history · People and ideas', kind='audio',
-                    url='/audio?track=history',
-                    count=len(self.engine(self.profile, 'history')._files()),
-                    summary='Biographical stories behind spectral geometry and perturbation theory')]
-              if 'history' in self.tracks else []),
-            *([dict(id='world-history', label='World History', kind='audio',
-                    url='/audio?track=world-history',
-                    count=len(self.engine(self.profile, 'world-history')._files()),
-                    summary='Independent long-form world-history stories, beginning with Gilgamesh and Mary Leakey')]
-              if 'world-history' in self.tracks else []),
-            *([dict(id='world-reconsidered', label='The World Reconsidered', kind='audio',
-                    url='/audio?track=world-reconsidered',
-                    count=len(self.engine(self.profile, 'world-reconsidered')._files()),
-                    summary='Ideas that change how we think: evidence, causality, systems, and humanity')]
-              if 'world-reconsidered' in self.tracks else []),
-            *([dict(id='category-theory', label='Category Theory · Introduction', kind='audio',
-                    url='/audio?track=category-theory',
-                    count=len(self.engine(self.profile, 'category-theory')._files()),
-                    summary='Objects, arrows, functors, universal properties, adjunctions, Yoneda, and monads')]
-              if 'category-theory' in self.tracks else []),
-            *([dict(id='logic-types', label='Logic and Type Theory', kind='audio',
-                    url='/audio?track=logic-types',
-                    count=len(self.engine(self.profile, 'logic-types')._files()),
-                    summary='Proofs, types, constructive logic, and verified computation')]
-              if 'logic-types' in self.tracks else []),
-            *([dict(id='optimization-duality', label='Optimization and Duality', kind='audio',
-                    url='/audio?track=optimization-duality',
-                    count=len(self.engine(self.profile, 'optimization-duality')._files()),
-                    summary='Convexity, bounds, duality, and optimization certificates')]
-              if 'optimization-duality' in self.tracks else []),
-            *([dict(id='probability-measure', label='Probability and Measure', kind='audio',
-                    url='/audio?track=probability-measure',
-                    count=len(self.engine(self.profile, 'probability-measure')._files()),
-                    summary='Uncertainty, conditioning, expectation, and rigorous probability')]
-              if 'probability-measure' in self.tracks else []),
-            *([dict(id='modern-literature', label='20th-Century Literature', kind='audio',
-                    url='/audio?track=modern-literature',
-                    count=len(self.engine(self.profile, 'modern-literature')._files()),
-                    summary='Close readings of novels, narrative voices, historical contexts, and moral complexity')]
-              if 'modern-literature' in self.tracks else []),
-            *([dict(id='deep-time', label='Deep Time · Evidence and Reconstruction', kind='audio',
-                    url='/audio?track=deep-time',
-                    count=len(self.engine(self.profile, 'deep-time')._files()),
-                    summary='Cosmic and Earth history reconstructed from observations, dated traces, and competing models')]
-              if 'deep-time' in self.tracks else []),
-            *([dict(id='fiction-writing', label='Fiction Writing and Worldbuilding', kind='audio',
-                    url='/audio?track=fiction-writing',
-                    count=len(self.engine(self.profile, 'fiction-writing')._files()),
-                    summary='Character, plot, scenes, subtext, and constructed worlds')]
-              if 'fiction-writing' in self.tracks else []),
-            *([dict(id='comedy-history', label='Comedy: Theory, History, and Craft', kind='audio',
-                    url='/audio?track=comedy-history',
-                    count=len(self.engine(self.profile, 'comedy-history')._files()),
-                    summary='Rival humor theories and deep histories of comic traditions')]
-              if 'comedy-history' in self.tracks else []),
         ]
+        # Preserve familiar ordering for older tracks; unknown tracks join
+        # alphabetically. No new track requires a change to this list.
+        preferred = ('g3', 'history', 'world-history', 'world-reconsidered',
+                     'category-theory', 'logic-types', 'optimization-duality',
+                     'probability-measure', 'modern-literature', 'deep-time',
+                     'fiction-writing', 'comedy-history')
+        priorities = {name: index for index, name in enumerate(preferred)}
+        for track_id in sorted(self.track_descriptions,
+                               key=lambda name: (priorities.get(name, len(preferred)), name)):
+            plan = self.track_descriptions[track_id]
+            catalog.append(dict(
+                id=track_id, label=plan['title'], kind='audio',
+                url=f'/audio?track={track_id}',
+                count=len(self.engine(self.profile, track_id)._files()),
+                summary=plan.get('summary', ''),
+            ))
+        return catalog
 
     def _read_registry(self):
         try:

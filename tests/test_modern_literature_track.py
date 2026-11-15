@@ -45,7 +45,7 @@ def test_modern_literature_reader(tmp_path):
             catalog = {item['id']:item for item in tracks}
             assert catalog['modern-literature']['count'] == 9
             assert catalog['modern-literature']['url'] == '/audio?track=modern-literature'
-            assert catalog['modern-literature']['label'] == '20th-Century Literature'
+            assert catalog['modern-literature']['label'] == json.loads((MODERN_LITERATURE_DIRECTORY/'track.json').read_text())['title']
             listing = client.get('/api/audio-lectures',params={'track':'modern-literature'})
             assert listing.status_code == 200
             assert [item['id'] for item in listing.json()['items']] == ['001000', '002000', '003000', '004000', '005000', '006000', '007000', '008000', '009000']
@@ -58,7 +58,7 @@ def test_modern_literature_reader(tmp_path):
             assert txt.status_code == 200
             assert txt.text == doc['transcript']
             assert hub.engine('kokoro','modern-literature').cache != hub.engine('kokoro','history').cache
-            assert 'modernLiteratureTrack' in client.get('/audio').text
+            assert 'id="courseTracks"' in client.get('/audio').text
     finally:
         hub.close()
 

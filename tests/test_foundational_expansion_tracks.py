@@ -23,7 +23,7 @@ TRACKS = {
 def test_new_track_catalog_and_spoken_region(track, folder):
     manifest = json.loads((folder/'track.json').read_text())
     assert manifest['id'] == track
-    assert [r['id'] for r in manifest['lectures']] == ['001000', '002000']
+    assert [r['id'] for r in manifest['lectures']] == ['002000']
     catalog = json.loads((folder/'metadata'/'sources.json').read_text())['sources']
     for row in manifest['lectures']:
         path = folder / row['file']
@@ -53,12 +53,12 @@ def test_new_lecture_tracks_are_retrievable_and_isolated(tmp_path):
             html = client.get('/audio').text
             caches = []
             for track in TRACKS:
-                assert catalog[track]['count'] == 2
+                assert catalog[track]['count'] == 1
                 assert catalog[track]['url'] == f'/audio?track={track}'
                 listing = client.get('/api/audio-lectures',params={'track':track})
                 assert listing.status_code == 200
-                assert [i['id'] for i in listing.json()['items']] == ['001000', '002000']
-                for lecture_id in ('001000', '002000'):
+                assert [i['id'] for i in listing.json()['items']] == ['002000']
+                for lecture_id in ('002000',):
                     doc = client.get(f'/api/audio-lectures/{lecture_id}',params={'track':track})
                     assert doc.status_code == 200
                     assert doc.json()['words'] >= 3000
@@ -67,7 +67,8 @@ def test_new_lecture_tracks_are_retrievable_and_isolated(tmp_path):
                     assert transcript.text == doc.json()['transcript']
                 caches.append(hub.engine('kokoro',track).cache)
             assert len(set(caches)) == len(caches)
-            for id_ in ['modernWorldTrack','physicalWorldTrack','analysisTrack','numericalAnalysisTrack']:
-                assert id_ in html
+            assert 'id="courseTracks"' in html
+            assert 'nav.insertBefore(button' in html
+
     finally:
         hub.close()

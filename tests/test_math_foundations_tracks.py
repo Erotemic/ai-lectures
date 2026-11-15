@@ -77,9 +77,9 @@ def test_three_foundations_audio_reader_independent_tracks(tmp_path):
                     assert transcript.status_code == 200
                     assert transcript.text == doc['transcript']
                 assert hub.engine('kokoro',track_id).cache != hub.engine('kokoro','category-theory').cache
-            assert 'logicTypesTrack' in html
-            assert 'optimizationDualityTrack' in html
-            assert 'probabilityMeasureTrack' in html
+            assert 'id="courseTracks"' in html
+            assert 'nav.insertBefore(button' in html
+            assert 'track.label' in html
             caches = [hub.engine('kokoro',track_id).cache for track_id in TRACKS]
             assert len(set(caches)) == len(caches)
     finally:

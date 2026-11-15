@@ -55,7 +55,7 @@ def test_world_reconsidered_reader_and_isolation(tmp_path):
                 assert detail['words'] > 4000
                 assert len(detail['related_resources']) >= 5
                 assert client.get(f'/api/audio-lectures/{lecture_id}/transcript.txt?track=world-reconsidered').text == detail['transcript']
-            assert 'worldReconsideredTrack' in client.get('/audio').text
+            assert 'id="courseTracks"' in client.get('/audio').text
             assert hub.engine('kokoro','world-reconsidered').cache != hub.engine('kokoro','world-history').cache
     finally:
         hub.close()

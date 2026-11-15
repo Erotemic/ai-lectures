@@ -55,7 +55,7 @@ def test_category_theory_in_reader(tmp_path):
                 assert len(detail['related_resources']) >= 3
                 assert (client.get(f'/api/audio-lectures/{lecture_id}/transcript.txt',
                                    params={'track':'category-theory'}).text == detail['transcript'])
-            assert 'categoryTheoryTrack' in client.get('/audio').text
+            assert 'id="courseTracks"' in client.get('/audio').text
             assert hub.engine('kokoro','category-theory').cache != hub.engine('kokoro','world-reconsidered').cache
     finally:
         hub.close()
