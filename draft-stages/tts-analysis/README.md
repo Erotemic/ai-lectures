@@ -31,3 +31,12 @@ integrability, and both forms of the Fundamental Theorem of Calculus. Each
 manuscript includes a display-only mathematical companion and per-lecture
 references; spoken regions avoid symbolic TeX and cross-episode chronology.
 The manifest includes only present manuscripts.
+
+## Metric spaces and function limits (lectures 009000–012000)
+
+- 009000 — Distance Without Coordinates: Metric Spaces and Completeness (1,978 spoken words; about 13.6 minutes at 145 wpm)
+- 010000 — Compactness: Turning Infinite Possibilities into Finite Control (1,927 spoken words; about 13.3 minutes at 145 wpm)
+- 011000 — Uniform Convergence: When Limits Preserve Structure (1,898 spoken words; about 13.1 minutes at 145 wpm)
+- 012000 — Infinite Sums of Functions: Uniform Series and the First Power Series (2,070 spoken words; about 14.3 minutes at 145 wpm)
+
+The sequence establishes metric-space completeness, compactness in equivalent metric formulations, uniform convergence with its limit-exchange hypotheses, and the M-test with closed-subdisk power-series control. The next step is complex differentiation and Cauchy–Riemann geometry.

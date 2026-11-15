@@ -10,7 +10,9 @@
     "function-limits",
     "compact-intervals",
     "differentiation",
-    "integration"
+    "integration",
+    "metric-spaces",
+    "function-sequences"
   ],
   "lectures": [
     {
@@ -84,6 +86,42 @@
       "spoken_words": 2019,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 13.9
+    },
+    {
+      "id": "009000",
+      "title": "Distance Without Coordinates: Metric Spaces and Completeness",
+      "section": "metric-spaces",
+      "file": "009000-metric-spaces-and-completeness.md",
+      "spoken_words": 1978,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.6
+    },
+    {
+      "id": "010000",
+      "title": "Compactness: Turning Infinite Possibilities into Finite Control",
+      "section": "metric-spaces",
+      "file": "010000-compactness-and-continuity.md",
+      "spoken_words": 1927,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.3
+    },
+    {
+      "id": "011000",
+      "title": "Uniform Convergence: When Limits Preserve Structure",
+      "section": "function-sequences",
+      "file": "011000-uniform-convergence-and-limit-exchange.md",
+      "spoken_words": 1898,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1
+    },
+    {
+      "id": "012000",
+      "title": "Infinite Sums of Functions: Uniform Series and the First Power Series",
+      "section": "function-sequences",
+      "file": "012000-series-of-functions-and-power-series.md",
+      "spoken_words": 2070,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.3
     }
   ]
 }

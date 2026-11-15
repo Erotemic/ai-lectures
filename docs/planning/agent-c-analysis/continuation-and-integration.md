@@ -38,3 +38,17 @@ namespace; other agents cannot modify this planning file.
 The snapshot's `tests/test_foundational_expansion_tracks.py` hardcodes exactly two lecture IDs and at least 3,000 spoken words for each lecture in every foundational track. The shared baseline was reportedly altered to expect only the previously available 002000 lecture, but either hardcoded count necessarily becomes stale as soon as Agent C adds manuscripts. This is a **shared-test defect**, not a reason to pad lecture prose to meet a count or edit the shared test from the Agent C fork. A separate baseline maintainer should change that global test to read the full list of expected IDs from the track manifest and check appropriate content and spoken-region quality rather than enforcing an arbitrary uniform transcript length. This request is recorded here; Agent C does not modify shared tests or reader code.
 
 The first Agent C overlay retained `002000-completeness-and-real-numbers.md` unchanged and introduced three additional manuscripts, producing four initial lectures. The present continuation overlay adds 005000–008000 without rewriting any earlier manuscript. The track manifest now indexes eight real lecture files; the overlay must be applied **after the first Agent C overlay**. No future lecture is indexed as available before its manuscript exists.
+
+## Completed metric-space and function-series sequence: 009000–012000
+
+| ID | Topic | Main theorem / distinction |
+| --- | --- | --- |
+| 009000 | Metric spaces and completeness | Metric, balls, Cauchy completeness, sequential continuity, sup-metric function spaces |
+| 010000 | Compactness | Equivalence of finite-open-subcover, sequential compactness, and complete-plus-totally-bounded in metric spaces; EVT and Heine–Cantor |
+| 011000 | Uniform convergence | Pointwise versus uniform quantifiers; uniform preservation of continuity and Riemann integration; derivative-limit sufficient conditions |
+| 012000 | Infinite series of functions | Uniform Cauchy criterion, Weierstrass M-test, geometric estimates, interior uniform convergence of complex power series |
+
+The twelve manuscripts and their metadata are listed in the track-local `track.json`, with no unmaterialized lecture entries. The next planned lessons begin a focused complex-analysis segment: complex numbers and geometry, complex differentiation/Cauchy–Riemann conditions, complex integration and path independence, and Cauchy's integral theorem and formula, followed by analytic consequences, singularities, residues and argument principle. These are plans only, not indexed lectures.
+
+The existing shared-test integration request remains applicable; do not edit central track-count assertions in Agent C's overlays. Likewise, do not change any shared audio-reader or library files. Every continuation ZIP must contain only `draft-stages/tts-analysis/**` and `docs/planning/agent-c-analysis/**`, and must be applied after the first two Agent C ZIPs.
+
