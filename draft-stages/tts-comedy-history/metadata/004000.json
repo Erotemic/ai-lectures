@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-kyogen-comic-performance.md",
+  "related_resources": [
+    {
+      "source_id": "ch-japan-kyogen",
+      "reason": "Independent Japanese theater tradition, developing with noh; chapter summary is open."
+    },
+    {
+      "source_id": "ch-japan-ntj-history",
+      "reason": "Muromachi/Tokugawa patronage, schools, stage conventions and increased script use."
+    },
+    {
+      "source_id": "ch-japan-unesco-nohgaku",
+      "reason": "Official description of shared Noh/Kyogen stage, masks, props and training."
+    },
+    {
+      "source_id": "ch-japan-noh-guide",
+      "reason": "Kyogen repertory synopsis including Kakiyamabushi and Tsurigitsune; repertoire account, not specific staging evidence."
+    },
+    {
+      "source_id": "ch-japan-performers",
+      "reason": "Contemporary performance introduction; compare to specialist historical sources."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "004000-c01",
+      "anchor": "Kyogen is a classical Japanese comic theater, historically intertwined with noh.",
+      "kind": "historical_background",
+      "source_ids": [
+        "ch-japan-kyogen",
+        "ch-japan-unesco-nohgaku"
+      ],
+      "source_locator": "paired theatrical traditions",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "004000-c02",
+      "anchor": "The National Noh Theatre's historical material describes a gradual increase in the use of kyogen scripts",
+      "kind": "historical_institution",
+      "source_ids": [
+        "ch-japan-ntj-history"
+      ],
+      "source_locator": "Tokugawa codification and script use",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "004000-c03",
+      "anchor": "Consider a documented kyogen repertory example, Kakiyamabushi",
+      "kind": "repertory_example",
+      "source_ids": [
+        "ch-japan-noh-guide"
+      ],
+      "source_locator": "Kakiyamabushi synopsis",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "004000-c04",
+      "anchor": "Tsurigitsune, often translated as The Fox and the Trap",
+      "kind": "repertory_example",
+      "source_ids": [
+        "ch-japan-noh-guide"
+      ],
+      "source_locator": "Tsurigitsune synopsis",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "notes": "Repertory examples, minimal stage technique, and changing political patronage. Museum scene is original."
+}
