@@ -49,9 +49,9 @@ theorems are essential, but a sequence of correct statements is not by itself a
 teachable lecture. A reader can pause and inspect symbols; a TTS listener must
 follow the argument in real time without a board to look back at.
 
-**Ten minutes is a soft target, not a limit or a writing quota.** Take as long as
-is useful to establish the concept, work an example, and justify the important
-steps. Do not remove hypotheses, rush a proof, omit a calculation, or compress
+**There is no default runtime target, minimum length, or word quota.** Take
+as long as is useful to establish the concept, work an example, and justify
+the important steps. Do not remove hypotheses, rush a proof, omit a calculation, or compress
 explanations to meet a spoken-word or runtime target. Do not pad a short,
 complete lesson either. If several substantial independent ideas are being
 introduced, consider separate, individually standalone recordings; maintain
