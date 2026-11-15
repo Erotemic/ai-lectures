@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "lecture_id": "041000",
+  "transcript": "041000-reading-codes-definitions-scope-and-product-instructions.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-afdc-charging",
+      "reason": "Claim-specific evidence in 041000"
+    },
+    {
+      "source_id": "electrical-afdc-home",
+      "reason": "Claim-specific evidence in 041000"
+    },
+    {
+      "source_id": "electrical-eia-recs",
+      "reason": "Claim-specific evidence in 041000"
+    },
+    {
+      "source_id": "electrical-iec60364",
+      "reason": "Claim-specific evidence in 041000"
+    },
+    {
+      "source_id": "electrical-iec60364-6-2016",
+      "reason": "Claim-specific evidence in 041000"
+    },
+    {
+      "source_id": "electrical-iec60364-6-2026-prv",
+      "reason": "Claim-specific evidence in 041000"
+    },
+    {
+      "source_id": "electrical-nfpa-2026-loads",
+      "reason": "Claim-specific evidence in 041000"
+    },
+    {
+      "source_id": "electrical-nfpa-jurisdiction-changes",
+      "reason": "Claim-specific evidence in 041000"
+    },
+    {
+      "source_id": "electrical-nfpa70",
+      "reason": "Claim-specific evidence in 041000"
+    },
+    {
+      "source_id": "electrical-nfpa70-cmp5-draft",
+      "reason": "Claim-specific evidence in 041000"
+    },
+    {
+      "source_id": "electrical-osha-approval-interpretation",
+      "reason": "Claim-specific evidence in 041000"
+    },
+    {
+      "source_id": "electrical-osha-nrtl-faq",
+      "reason": "Claim-specific evidence in 041000"
+    },
+    {
+      "source_id": "electrical-osha303",
+      "reason": "Claim-specific evidence in 041000"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E041000-01",
+      "claim": "NFPA 70 is developed and published by NFPA; editions and structure change",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-nfpa70",
+          "location": "edition/development information",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-nfpa-2026-loads",
+          "location": "specific 2026 restructuring",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Publication is not automatic adoption for a named municipality",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E041000-02",
+      "claim": "NEC 2026 moved much load-calculation material to Article 120",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-nfpa-2026-loads",
+          "location": "NFPA explanation of new Article 120",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Article-level crosswalk only; no specific 2026 table content or local adoption verified",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E041000-03",
+      "claim": "IEC 60364-1:2025 is a newly restructured fundamentals and definitions edition",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-iec60364",
+          "location": "IEC official edition/scope/restructuring description",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Full normative clauses not accessible from public publisher abstract",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E041000-04",
+      "claim": "IEC 60364-6:2016 describes initial/periodic installation verification, while a 2026 listing is marked PRV",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-iec60364-6-2016",
+          "location": "IEC published 2016 scope",
+          "role": "publisher_scope_or_code_development_context_not_full_normative_text"
+        },
+        {
+          "source_id": "electrical-iec60364-6-2026-prv",
+          "location": "IEC catalog pre-release label",
+          "role": "publisher_scope_or_code_development_context_not_full_normative_text"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Catalog status as of 2026-11-15; do not assert future/current adoption from PRV",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E041000-05",
+      "claim": "In U.S. OSHA-covered workplaces, listed/labeled electrical equipment follows instructions included in listing/labeling",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "§1910.303(b)(2), primary regulation",
+          "role": "primary_workplace_regulation_or_official_interpretation"
+        },
+        {
+          "source_id": "electrical-osha-approval-interpretation",
+          "location": "OSHA official interpretation",
+          "role": "primary_workplace_regulation_or_official_interpretation"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Workplace scope, not automatically private residential law",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E041000-06",
+      "claim": "NRTL approval and test scope refer to particular product standards and certification marks",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-osha-nrtl-faq",
+          "location": "recognition and scope",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-osha-approval-interpretation",
+          "location": "listed/labeled definitions",
+          "role": "primary_workplace_regulation_or_official_interpretation"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Product certification is not a general acceptance of all final installation combinations",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E041000-07",
+      "claim": "Jurisdictions can adopt different NEC editions and amendments",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-nfpa-jurisdiction-changes",
+          "location": "NFPA examples of amended codes",
+          "role": "publisher_scope_or_code_development_context_not_full_normative_text"
+        },
+        {
+          "source_id": "electrical-nfpa70",
+          "location": "publisher edition",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Examples do not identify the code controlling an unspecified project address",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E041000-08",
+      "claim": "Working drafts are not authoritative final requirements",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-nfpa70-cmp5-draft",
+          "location": "2024/2025 code development working document",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-nfpa70",
+          "location": "published edition authority",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "No inference about final clause wording from a proposal",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E041000-09",
+      "claim": "EV charging requirements depend on vehicle/EVSE ratings and supply settings, in addition to adopted installation rules",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-afdc-charging",
+          "location": "AC Level 1/2 and vehicle charging constraints",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-afdc-home",
+          "location": "home installations",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Equipment guidance is not the adopted code or a product certificate",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E041000-10",
+      "claim": "A measured operating profile and normative load calculation are different documents with different purposes",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-eia-recs",
+          "location": "observational household usage",
+          "role": "government_empirical_context"
+        },
+        {
+          "source_id": "electrical-nfpa-2026-loads",
+          "location": "code load calculation methodology",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "No actual project's permitted service load calculated",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    }
+  ]
+}

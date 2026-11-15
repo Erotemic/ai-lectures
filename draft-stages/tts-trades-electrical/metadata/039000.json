@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "lecture_id": "039000",
+  "transcript": "039000-load-inventories-service-capacity-and-room-plans.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-afdc-charging",
+      "reason": "Claim-specific evidence in 039000"
+    },
+    {
+      "source_id": "electrical-afdc-home",
+      "reason": "Claim-specific evidence in 039000"
+    },
+    {
+      "source_id": "electrical-doe-hpwh-femp",
+      "reason": "Claim-specific evidence in 039000"
+    },
+    {
+      "source_id": "electrical-eia-home-electricity",
+      "reason": "Claim-specific evidence in 039000"
+    },
+    {
+      "source_id": "electrical-eia-recs",
+      "reason": "Claim-specific evidence in 039000"
+    },
+    {
+      "source_id": "electrical-iec60364",
+      "reason": "Claim-specific evidence in 039000"
+    },
+    {
+      "source_id": "electrical-nfpa-2026-loads",
+      "reason": "Claim-specific evidence in 039000"
+    },
+    {
+      "source_id": "electrical-nfpa70",
+      "reason": "Claim-specific evidence in 039000"
+    },
+    {
+      "source_id": "electrical-openstax-acpower",
+      "reason": "Claim-specific evidence in 039000"
+    },
+    {
+      "source_id": "electrical-osha-approval-interpretation",
+      "reason": "Claim-specific evidence in 039000"
+    },
+    {
+      "source_id": "electrical-osha303",
+      "reason": "Claim-specific evidence in 039000"
+    },
+    {
+      "source_id": "electrical-se-lv-networks",
+      "reason": "Claim-specific evidence in 039000"
+    },
+    {
+      "source_id": "electrical-se-voltage-ranges",
+      "reason": "Claim-specific evidence in 039000"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E039000-01",
+      "claim": "Annual end-use energy and momentary electrical demand serve different analytical purposes",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-eia-home-electricity",
+          "location": "end-use annual electricity",
+          "role": "government_empirical_context"
+        },
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "AC power/energy relationships",
+          "role": "physical_principle_textbook"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "National averages do not produce a particular home's demand maximum",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E039000-02",
+      "claim": "The RECS program describes household end-use and geographic variation",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-eia-recs",
+          "location": "survey scope, state and end-use data",
+          "role": "government_empirical_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Survey results are not site measurements or adopted load factors",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E039000-03",
+      "claim": "Electrical equipment labels and specific use conditions matter to installation design",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "§1910.303(b),(e),(f), U.S. workplace",
+          "role": "primary_workplace_regulation_or_official_interpretation"
+        },
+        {
+          "source_id": "electrical-osha-approval-interpretation",
+          "location": "listing and instructions interpretation",
+          "role": "primary_workplace_regulation_or_official_interpretation"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Workplace scope; not direct proof of private residential rules or product suitability",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E039000-04",
+      "claim": "Load-calculation requirements are edition-structured and may apply differently to branch, feeder and service design",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-nfpa-2026-loads",
+          "location": "2026 Article 120 restructuring",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-iec60364",
+          "location": "installation scope and general characteristics",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Publisher scope only for IEC, not full normative clauses; adoption and edition control",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E039000-05",
+      "claim": "EVSE power and proposed charging rate depend on configured equipment and vehicle",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-afdc-home",
+          "location": "home charging choice",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-afdc-charging",
+          "location": "AC Level 1/2 supply and charging limits",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Equipment-specific current and circuit design are not established",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E039000-06",
+      "claim": "Space-conditioning and water-heating loads depend strongly on climate, mode and equipment",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-eia-recs",
+          "location": "monthly/end-use variation",
+          "role": "government_empirical_context"
+        },
+        {
+          "source_id": "electrical-doe-hpwh-femp",
+          "location": "water-heater modes",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Model-specific simultaneous operation and auxiliary heat not established",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E039000-07",
+      "claim": "120/240 split-phase and 400/230 three-phase require different phase/line current treatment",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-lv-networks",
+          "location": "regional network layouts and 120/240 supply",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-se-voltage-ranges",
+          "location": "230/400 supply and line/neutral examples",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "independent physical power relationship",
+          "role": "physical_principle_textbook"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Two system-layout references are from the same publisher; utility voltage and exact connection must be verified",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E039000-08",
+      "claim": "A documented electrical one-line and circuit identification help connect inventory to system topology",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "§1910.303(f) identification in workplace",
+          "role": "primary_workplace_regulation_or_official_interpretation"
+        },
+        {
+          "source_id": "electrical-nfpa70",
+          "location": "NEC scope",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Diagram is an engineering planning tool; sources do not prescribe one universal residential drawing format",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    }
+  ]
+}

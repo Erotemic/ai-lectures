@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "lecture_id": "038000",
+  "transcript": "038000-hvac-pumps-water-heating-and-ev-charging.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-afdc-charging",
+      "reason": "Claim-specific evidence in 038000"
+    },
+    {
+      "source_id": "electrical-afdc-home",
+      "reason": "Claim-specific evidence in 038000"
+    },
+    {
+      "source_id": "electrical-doe-heat-pumps",
+      "reason": "Claim-specific evidence in 038000"
+    },
+    {
+      "source_id": "electrical-doe-heatpump-defrost",
+      "reason": "Claim-specific evidence in 038000"
+    },
+    {
+      "source_id": "electrical-doe-hpwh-building-science",
+      "reason": "Claim-specific evidence in 038000"
+    },
+    {
+      "source_id": "electrical-doe-hpwh-femp",
+      "reason": "Claim-specific evidence in 038000"
+    },
+    {
+      "source_id": "electrical-doe-motor-guide",
+      "reason": "Claim-specific evidence in 038000"
+    },
+    {
+      "source_id": "electrical-doe-variable-speed-pumping",
+      "reason": "Claim-specific evidence in 038000"
+    },
+    {
+      "source_id": "electrical-eia-home-electricity",
+      "reason": "Claim-specific evidence in 038000"
+    },
+    {
+      "source_id": "electrical-eia-recs",
+      "reason": "Claim-specific evidence in 038000"
+    },
+    {
+      "source_id": "electrical-nfpa-2026-loads",
+      "reason": "Claim-specific evidence in 038000"
+    },
+    {
+      "source_id": "electrical-openstax-acpower",
+      "reason": "Claim-specific evidence in 038000"
+    },
+    {
+      "source_id": "electrical-openstax-heat",
+      "reason": "Claim-specific evidence in 038000"
+    },
+    {
+      "source_id": "electrical-osha303",
+      "reason": "Claim-specific evidence in 038000"
+    },
+    {
+      "source_id": "electrical-se-motor-starters",
+      "reason": "Claim-specific evidence in 038000"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E038000-01",
+      "claim": "Energy and peak electrical demand are distinct temporal quantities",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "AC real power",
+          "role": "physical_principle_textbook"
+        },
+        {
+          "source_id": "electrical-eia-home-electricity",
+          "location": "annual residential electricity categories",
+          "role": "government_empirical_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "EIA annual end uses do not establish a particular dwelling's peak demand",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E038000-02",
+      "claim": "Heat pump electric input varies by heating, defrost and supplementary-heating mode",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-heatpump-defrost",
+          "location": "defrost and auxiliary-heating FAQ",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-doe-heat-pumps",
+          "location": "heat transfer and varying performance",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Actual concurrent heater/compressor operation requires model-specific diagrams",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E038000-03",
+      "claim": "Centrifugal pump speed changes can strongly change flow, head and power",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-doe-variable-speed-pumping",
+          "location": "Effects of Speed Variation, affinity laws",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Static head and different efficiency curves can invalidate simple cubic scaling",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E038000-04",
+      "claim": "Motor startup and normal running electrical behavior differ",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-motor-starters",
+          "location": "direct and controlled starting",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-doe-motor-guide",
+          "location": "rated motor quantities",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "No generic current multiple applies to every motor",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E038000-05",
+      "claim": "Hybrid heat-pump water heaters can use resistance backup and have different operating modes",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-hpwh-building-science",
+          "location": "what/how, hybrid backup",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-doe-hpwh-femp",
+          "location": "operating modes",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Mode details and input ratings are equipment-specific; two DOE pages are not independent institutional corroboration",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E038000-06",
+      "claim": "Heat needed to warm flowing water follows mass flow times specific heat times temperature rise",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-heat",
+          "location": "Q=mc Delta T",
+          "role": "physical_principle_textbook"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "The 10.475 kW example is idealized heat delivered to water, not a certified product load",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E038000-07",
+      "claim": "AC home EVSE supplies a controlled AC connection; charging power varies by vehicle and supply",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-afdc-charging",
+          "location": "AC levels, onboard charging limits",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-afdc-home",
+          "location": "home charging modes",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Details evolve; check vehicle/EVSE ratings and current product standards",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E038000-08",
+      "claim": "Managed timing can redistribute EV demand across hours",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-afdc-home",
+          "location": "home charging and charging settings",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-eia-recs",
+          "location": "regional/monthly variations",
+          "role": "government_empirical_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "These sources do not validate any particular energy-management control algorithm",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E038000-09",
+      "claim": "Circuit loading and service-level coincidence are separate design questions",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-nfpa-2026-loads",
+          "location": "branch, feeder, service load distinctions",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-osha303",
+          "location": "workplace equipment characteristics and protection",
+          "role": "primary_workplace_regulation_or_official_interpretation"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Neither establishes the code calculation for an unspecified jurisdiction",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    }
+  ]
+}

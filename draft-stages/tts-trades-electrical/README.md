@@ -51,6 +51,10 @@ This course is not authorization to work on hazardous circuits, a substitute for
 - `035000` — Receptacles, Switches, and the Logic of Lighting
 - `036000` — Motors: Why Starting Is Different from Running
 - `037000` — Electric Heating: From Current to Temperature
+- `038000` — The Loads That Change a Building's Electrical Life
+- `039000` — From an Appliance List to a Load Hypothesis
+- `040000` — Designing a Circuit as a Complete System
+- `041000` — How to Read an Electrical Requirement
 
 The track's broader proposed curriculum is in [`CURRICULUM.md`](CURRICULUM.md). Planned lectures are not registered until they have real manuscripts and metadata.
 
@@ -60,4 +64,4 @@ Current published lessons use desk calculations, visual-only surveys and control
 
 ## Evidence requirements before publication
 
-This is a high-consequence trades track. Read [`EVIDENCE_POLICY.md`](EVIDENCE_POLICY.md) before authoring or revising any lecture. Source density is measured by **traceable claims with suitable evidence**, not bibliography length. The first thirty-seven lectures have claim-specific maps and structured records in their metadata. Reference scope and standards accessibility are explicit. **Qualified electrical/safety review is pending**: successful indexing does not mean the material has been approved as installation instruction.
+This is a high-consequence trades track. Read [`EVIDENCE_POLICY.md`](EVIDENCE_POLICY.md) before authoring or revising any lecture. Source density is measured by **traceable claims with suitable evidence**, not bibliography length. The first forty-one lectures have claim-specific maps and structured records in their metadata. Reference scope and standards accessibility are explicit. **Qualified electrical/safety review is pending**: successful indexing does not mean the material has been approved as installation instruction.

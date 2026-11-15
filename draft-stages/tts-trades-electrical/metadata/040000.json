@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "lecture_id": "040000",
+  "transcript": "040000-circuit-design-protection-and-failure-modes.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-afdc-charging",
+      "reason": "Claim-specific evidence in 040000"
+    },
+    {
+      "source_id": "electrical-afdc-home",
+      "reason": "Claim-specific evidence in 040000"
+    },
+    {
+      "source_id": "electrical-iec60364",
+      "reason": "Claim-specific evidence in 040000"
+    },
+    {
+      "source_id": "electrical-iec60364-552-2024",
+      "reason": "Claim-specific evidence in 040000"
+    },
+    {
+      "source_id": "electrical-openstax-ohm",
+      "reason": "Claim-specific evidence in 040000"
+    },
+    {
+      "source_id": "electrical-osha-approval-interpretation",
+      "reason": "Claim-specific evidence in 040000"
+    },
+    {
+      "source_id": "electrical-osha303",
+      "reason": "Claim-specific evidence in 040000"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Claim-specific evidence in 040000"
+    },
+    {
+      "source_id": "electrical-schneider-nema-faq",
+      "reason": "Claim-specific evidence in 040000"
+    },
+    {
+      "source_id": "electrical-se-coordination",
+      "reason": "Claim-specific evidence in 040000"
+    },
+    {
+      "source_id": "electrical-se-earthing-schemes",
+      "reason": "Claim-specific evidence in 040000"
+    },
+    {
+      "source_id": "electrical-se-min-shortcircuit",
+      "reason": "Claim-specific evidence in 040000"
+    },
+    {
+      "source_id": "electrical-ul-connector-cert",
+      "reason": "Claim-specific evidence in 040000"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E040000-01",
+      "claim": "Electrical circuit design must consider equipment rating, conductor/connection conditions and protection together",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "§1910.303(b) and (c), U.S. workplace",
+          "role": "primary_workplace_regulation_or_official_interpretation"
+        },
+        {
+          "source_id": "electrical-iec60364",
+          "location": "scope/general installation principles",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Normative details and national adoption not established by IEC publisher abstract",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E040000-02",
+      "claim": "Conductor heating and voltage drop impose different constraints",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "§9.4 resistance and voltage",
+          "role": "physical_principle_textbook"
+        },
+        {
+          "source_id": "electrical-iec60364-552-2024",
+          "location": "publisher description of wiring-system and voltage-drop topics",
+          "role": "publisher_scope_or_code_development_context_not_full_normative_text"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Full IEC clauses not checked; simplified model omits reactance",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E040000-03",
+      "claim": "Normal neutral return and protective earthing/bonding paths have different roles",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "§1910.304(a),(g), distinction between grounded and grounding conductor in U.S. workplace",
+          "role": "primary_workplace_regulation_or_official_interpretation"
+        },
+        {
+          "source_id": "electrical-se-earthing-schemes",
+          "location": "TN/TT/IT normal and protective path architectures",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Actual earthing and bonding arrangement and adopted clauses vary by system and jurisdiction",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E040000-04",
+      "claim": "Fault protection must consider both available high fault current and remote low fault current",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-min-shortcircuit",
+          "location": "minimum short-circuit current",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-osha303",
+          "location": "§1910.303(b)(4),(5), interrupting rating and coordination",
+          "role": "primary_workplace_regulation_or_official_interpretation"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Different systems/ratings; not a field short-circuit study",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E040000-05",
+      "claim": "Selective coordination requires actual protective-device characteristics and tested combinations",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-coordination",
+          "location": "types and range of coordination",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-osha303",
+          "location": "§1910.303(b)(5)",
+          "role": "primary_workplace_regulation_or_official_interpretation"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Manufacturer engineering guide does not certify a particular breaker pairing",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E040000-06",
+      "claim": "High-resistance connections can produce heating without necessarily causing ordinary overcurrent protection to trip",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "local resistance",
+          "role": "physical_principle_textbook"
+        },
+        {
+          "source_id": "electrical-ul-connector-cert",
+          "location": "terminal and connector assessment categories",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Physics of I-squared-R does not prove incidence or performance of specific terminal",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E040000-07",
+      "claim": "Wet/damp environments and enclosed assembly characteristics affect equipment suitability",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "§1910.303(b)(6),(8), workplace",
+          "role": "primary_workplace_regulation_or_official_interpretation"
+        },
+        {
+          "source_id": "electrical-schneider-nema-faq",
+          "location": "environmental enclosure classifications",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Enclosure ratings do not prove completed cable entries are appropriate",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E040000-08",
+      "claim": "EVSE and other controllable loads can have managed operating profiles",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-afdc-home",
+          "location": "home charging options",
+          "role": "engineering_or_product_context"
+        },
+        {
+          "source_id": "electrical-afdc-charging",
+          "location": "level and current variation",
+          "role": "engineering_or_product_context"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "No specific load-management device or failure behavior is verified",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    },
+    {
+      "claim_id": "E040000-09",
+      "claim": "Circuit identification and device markings matter for maintainability",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "§1910.303(e),(f), U.S. workplace",
+          "role": "primary_workplace_regulation_or_official_interpretation"
+        },
+        {
+          "source_id": "electrical-osha-approval-interpretation",
+          "location": "label and listed use",
+          "role": "primary_workplace_regulation_or_official_interpretation"
+        }
+      ],
+      "verification_level": "source_scoped_editorial_review_not_independent_field_verification",
+      "limitations": "Local residential labels, inspection and paperwork vary",
+      "professional_review": "pending_for_application_specific_or_normative_conclusions"
+    }
+  ]
+}
