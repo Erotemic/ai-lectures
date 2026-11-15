@@ -4644,11 +4644,11 @@
       "notes": "Independent inventors, chronology of polyphase and induction motor systems"
     },
     "history-tesla-patent": {
-      "title": "Tesla, US Patent 555,190, Alternating Motor",
+      "title": "Nikola Tesla, US Patent 555,190, Motor (1896)",
       "kind": "historical_primary_or_exposition",
       "url": "https://patents.google.com/patent/US555190A/en",
       "access": "free_no_login",
-      "notes": "Primary account of phase-controlled windings and electrical transmission"
+      "notes": "A later motor patent from 1896 building on the 1888 system; do not mistake it for the original rotating-field patent US 381,968."
     },
     "history-tesla-center": {
       "title": "Tesla Science Center at Wardenclyffe, biographical chronology",
@@ -4740,6 +4740,62 @@
       "url": "https://en.wikipedia.org/wiki/Fermat%27s_principle",
       "access": "free_no_login",
       "notes": "Stationary optical travel-time principle"
+    },
+    "history-lebesgue-thesis-1902": {
+      "title": "Henri Lebesgue, Intégrale, Longueur, Aire (1902)",
+      "kind": "primary_paper",
+      "url": "https://zenodo.org/records/2313710",
+      "access": "free_no_login",
+      "notes": "Digitized 1902 thesis/publication; historical source for the integration framework, not a biographical testimony."
+    },
+    "history-ramanujan-hardy-1918": {
+      "title": "G. H. Hardy and S. Ramanujan, Asymptotic Formulae in Combinatory Analysis (1918)",
+      "kind": "primary_paper_publisher_record",
+      "url": "https://doi.org/10.1112/plms/s2-17.1.75",
+      "access": "abstract_or_record_public; full text access varies",
+      "notes": "Joint original paper; Proceedings of the London Mathematical Society, s2-17, 75–115. Publisher abstract/citation available; full text access may vary."
+    },
+    "history-dirac-1928-paper": {
+      "title": "P. A. M. Dirac, The Quantum Theory of the Electron (1928)",
+      "kind": "primary_paper_publisher_record",
+      "url": "https://doi.org/10.1098/rspa.1928.0023",
+      "access": "abstract_or_record_public; full text access varies",
+      "notes": "Proc. Royal Society A 117, 610–624; original relativistic electron-equation paper. Distinguish this from later hole theory."
+    },
+    "history-tesla-1888-motor-patent": {
+      "title": "Nikola Tesla, Electro-Magnetic Motor, US 381,968 (1888)",
+      "kind": "primary_patent",
+      "url": "https://patents.google.com/patent/US381968A/en",
+      "access": "free_no_login",
+      "notes": "Published May 1, 1888; describes windings and progressively shifted magnetic poles. More directly relevant than the distinct 1896 patent US555190."
+    },
+    "history-tesla-smithsonian-1888": {
+      "title": "Smithsonian NMAH, Westinghouse electric motor for alternating current (1888)",
+      "kind": "museum_object_record",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_739995",
+      "access": "free_no_login",
+      "notes": "Physical museum object and engineering description, crediting Tesla’s concept and Westinghouse engineers’ refinements."
+    },
+    "history-fermat-pascal-1654-letters": {
+      "title": "Fermat–Pascal correspondence on probability (1654), English translation",
+      "kind": "translated_primary_correspondence",
+      "url": "https://www.york.ac.uk/depts/maths/histstat/pascal.htm",
+      "access": "free_no_login",
+      "notes": "University of York transcription of 1654 letters; distinguish direct evidence from later origin legends."
+    },
+    "history-kepler-astronomia-nova-1609": {
+      "title": "Johannes Kepler, Astronomia nova (1609), Smithsonian Libraries digitization",
+      "kind": "historical_primary_source",
+      "url": "https://library.si.edu/digital-library/book/astronomianovaa00kepl",
+      "access": "free_no_login",
+      "notes": "Primary 1609 book containing Kepler's Mars argument and first two planetary laws; not a Newtonian derivation."
+    },
+    "history-kepler-nasa-history": {
+      "title": "NASA Earth Observatory, Planetary Motion: The History of an Idea",
+      "kind": "institutional_exposition",
+      "url": "https://science.nasa.gov/earth/earth-observatory/planetary-motion/",
+      "access": "free_no_login",
+      "notes": "Accessible secondary reconstruction of Tycho and Kepler's treatment of orbital observations."
     }
   }
 }

@@ -14,6 +14,14 @@
     {
       "source_id": "history-kepler-laws",
       "reason": "Geometry and history of elliptic orbits and area rule"
+    },
+    {
+      "source_id": "history-kepler-astronomia-nova-1609",
+      "reason": "Contemporaneous published source for Kepler's 1609 Mars and orbit arguments, contrasted with modern formulation."
+    },
+    {
+      "source_id": "history-kepler-nasa-history",
+      "reason": "Modern historical explanation of Tycho's observations and the rejection of strictly circular models."
     }
   ],
   "historical_claims": [
@@ -63,7 +71,8 @@
       "anchor": "New Astronomy, published in sixteen hundred nine",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
-        "history-kepler-laws"
+        "history-kepler-laws",
+        "history-kepler-astronomia-nova-1609"
       ],
       "source_locator": "First two planetary laws, Keplerian astronomy",
       "audit_status": "source_cross_checked"
