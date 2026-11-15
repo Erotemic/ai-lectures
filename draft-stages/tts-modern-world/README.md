@@ -12,6 +12,11 @@ Global history since 1500, built around multiple centers, changing networks, ins
 - **005000 — [Silver's Long Journey: Potosí, Manila, and Ming China](005000-silvers-long-journey.md)** (2,334 spoken words).
 - **006000 — [Faith in Motion: Reform, Empire, and Religious Communities after 1500](006000-faith-in-motion.md)** (2,446 spoken words).
 
+- **007000 — [The Work of Unfreedom: Captivity, Debt, Drafts, and Slavery in an Interconnected World](007000-the-work-of-unfreedom.md)** (2,280 spoken words).
+- **008000 — [Who Holds Knowledge? Schools, Manuscripts, Translation, and Living Traditions](008000-who-holds-knowledge.md)** (1,977 spoken words).
+- **009000 — [Sugar's Hidden Ledger: Plantations, Racial Slavery, and the Work of Resistance](009000-sugars-hidden-ledger.md)** (2,058 spoken words).
+- **010000 — [Measurement and Encounter: Astronomy, Medicine, and the Making of Scientific Authority](010000-measurement-and-encounter.md)** (1,946 spoken words).
+
 All word counts describe written manuscripts; they are not targets or limits. The full text between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` is the narrated content. Display-only references and research notes follow each lecture. Bibliographic source IDs are maintained in `metadata/sources.json` with per-lecture support in `metadata/<id>.json`.
 
-**Further development:** see `docs/planning/agent-b-modern-world/global-connections-roadmap.md`. Episodes on bondage and knowledge institutions remain unindexed plans until their manuscripts and sidecars exist. The earlier 002000 lecture remains unchanged.
+**Further development:** see `docs/planning/agent-b-modern-world/global-connections-roadmap.md`. The 007000–010000 lectures now cover bondage, knowledge institutions, Atlantic plantations, and scientific authority. Future topics remain unindexed plans until their manuscripts and sidecars exist. The earlier 002000 lecture remains unchanged.

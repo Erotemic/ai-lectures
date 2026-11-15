@@ -9,9 +9,18 @@ The repaired baseline lacked 001000. Agent B has written it to frame the world a
 - **005000 — Silver, mines, and the price of connection.** Potosí and the colonial mita, Mexican silver, Ming taxes and Asian monetary demand, Manila's commercial intermediaries and the problems of a single globalization date.
 - **006000 — World religions and reform in motion.** European Reformations, Safavid Shi'ism, Southeast Asian Muslim communities, Sikh institutions, Andean Christianities, and comparisons that respect differences of power and evidence.
 
+## Completed in the next Agent B modern-world batch
+
+- **007000 — The Work of Unfreedom.** Compare status, coercion, exit, and social belonging in African slavery, the Atlantic trade, colonial Andean labor drafts, Indian Ocean bondage, and elite servitude. The institutions are not equated; wage and coerced labor can be intertwined.
+- **008000 — Who Holds Knowledge?** Examine Ming examinations and publishing, Timbuktu manuscript culture, Mughal court translation, and Pacific wayfinding as different systems for creating, validating, and transmitting learning.
+- **009000 — Sugar's Hidden Ledger.** Explain plantation capital and racial law from Brazil to Barbados, gendered reproductive labor, resistance in Palmares and Jamaica, and the Haitian Revolution. Keep enslaved people's agency within the central analysis rather than an appendix.
+- **010000 — Measurement and Encounter.** Compare the European Scientific Revolution historiography, Royal Society, Jesuit-Qing calendar and mathematical cooperation, Li Shizhen's pharmacological compendium, and the Jaipur observatory. Distinguish validity of knowledge from the power structures governing its circulation.
+
 ## Directions for future substantive lectures (not yet indexed)
 
-- **007000 — Captivity, plantations, and different forms of bondage.** Changing African, American, European, and Asian labor regimes; resist a timeless global 'slavery' category and reconstruct who was constrained, by whom, and how.
-- **008000 — Knowledge institutions across regions.** Printing and manuscripts, examinations, Islamic scholarship, navigation, astronomy, medicine, Indigenous ecological knowledge, and the politics of what an archive preserves.
+- Changes in sovereignty, citizenship, political revolution, and anticolonial politics in the eighteenth and nineteenth centuries, with the Haitian Revolution developed in its own historical depth rather than as an epilogue to European revolutions.
+- Industrialization and energy histories across different regions, including environmental consequences, the labor embodied in technology, and the uneven relation between empire and industrial growth.
+- World ecological transformations, changing agriculture, climate histories, disease, and agrarian political economy.
+- Qing regional transformations, Japan's political economy and intellectual history, and African polities beyond their relationship to Atlantic commerce.
 
-These are **prospective questions**, not completed manuscripts, duration requirements, or a fixed obligatory sequence. Revisit them in light of research and avoid flattening regional difference into a single progress story. Publication requires an actual manuscript, accompanying metadata sidecar, verified source IDs, and accurate descriptive count. The only writable paths are `draft-stages/tts-modern-world/`, `docs/planning/agent-b-modern-world/`, and `tests/agent-b-modern-world/`.
+These are research directions, **not** lecture-length requirements or preapproved claims. Future entries require actual manuscripts, sidecars and source-verified metadata. Existing `001000` and `002000` remain unchanged. Only Agent B-owned paths may be edited.
