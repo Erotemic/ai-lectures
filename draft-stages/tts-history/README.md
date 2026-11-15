@@ -1,6 +1,6 @@
 # History · People and ideas
 
-The History track contains **42 substantive, standalone historical portraits**, including the original 28 and fourteen additional subjects. All narration is self-contained for a reader with the background indicated in each lecture. Historical claims have linked research sources in `metadata/sources.json`; mathematical appendices after the spoken markers preserve exact formulas without burdening narration.
+The History track contains **46 substantive, standalone historical portraits**, including the original 28 and eighteen additional subjects. All narration is self-contained for a reader with the background indicated in each lecture. Historical claims have linked research sources in `metadata/sources.json`; mathematical appendices after the spoken markers preserve exact formulas without burdening narration.
 
 The newest additions are:
 
@@ -49,3 +49,12 @@ Paul Halmos (`014000`), Jacques Dixmier (`015000`), Tosio Kato (`016000`), and M
 ## Human-portrait and continuity revisions, batch 7 (13 November 2026)
 
 Chandler Davis (`018000`), William Kahan (`019000`), Per-Åke Wedin (`020000`), and Åke Björck (`021000`) have further revisions that connect their mathematics to their education, friendships and family where documented, political or institutional pressures, teaching, students, and collaborators. The first-person interviews with Davis and Kahan supply substantial personal history. Wedin and Björck draw on Swedish institutional records, a student's doctoral acknowledgments, and a colleague's memorial. The display-only mathematical companions and lecture IDs remain unchanged. Sources and claim anchors are recorded in the individual metadata. See `docs/history-four-human-continuity-revisions-batch7-2026-11-13.md`.
+
+## New portraits, November 2026: 043000–046000
+
+- **043000 — Henri Lebesgue**: [Henri Lebesgue: How can we measure a function that changes everywhere?](043000-lebesgue.md). 2,686 spoken words; approximately 18.5 minutes at 145 words per minute.
+- **044000 — Geoffrey Hinton**: [Geoffrey Hinton: How can a network discover a representation?](044000-hinton.md). 2,612 spoken words; approximately 18.0 minutes at 145 words per minute.
+- **045000 — Terence Tao**: [Terence Tao: How can one mathematician connect so many kinds of problems?](045000-tao.md). 2,475 spoken words; approximately 17.1 minutes at 145 words per minute.
+- **046000 — Srinivasa Ramanujan**: [Srinivasa Ramanujan: How can patterns in numbers become theorems?](046000-ramanujan.md). 2,698 spoken words; approximately 18.6 minutes at 145 words per minute.
+
+These four manuscripts were authored as a separate History expansion following the existing portrait backlog. They contain no image, generated audio, binary assets, or changes to Agent D’s music theory namespace. Sources are in the track-level source registry and each lecture’s metadata file.

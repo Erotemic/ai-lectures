@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "lecture_id": "044000",
+  "transcript": "044000-hinton.md",
+  "related_resources": [
+    {
+      "source_id": "history-hinton-toronto",
+      "reason": "Education, Toronto/CIFAR/Google career, distributed representations and collaborators"
+    },
+    {
+      "source_id": "history-hinton-nobel",
+      "reason": "2024 prize, Boltzmann machines and work in statistical physics"
+    },
+    {
+      "source_id": "history-hinton-nobel-interview",
+      "reason": "First-person interview on professional choices and carpentry"
+    },
+    {
+      "source_id": "history-hinton-nobel-podcast",
+      "reason": "First-person extended career reflections and mixed early studies"
+    },
+    {
+      "source_id": "history-hinton-wikipedia",
+      "reason": "Orientation and terminology, not historical attribution"
+    },
+    {
+      "source_id": "history-hinton-backprop",
+      "reason": "Three-author backpropagation paper and shared attribution"
+    },
+    {
+      "source_id": "history-hinton-imagenet",
+      "reason": "Krizhevsky, Sutskever and Hinton on ImageNet 2012"
+    },
+    {
+      "source_id": "history-hinton-bbc",
+      "reason": "Hinton stated risks and reasons for leaving Google; opinions, not proven forecasts"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "044000-h01",
+      "anchor": "born in London in nineteen forty-seven",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hinton-nobel"
+      ],
+      "source_locator": "Geoffrey Hinton, Nobel Prize in Physics 2024 Facts",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "044000-h02",
+      "anchor": "at Cambridge he changed subjects",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hinton-nobel-podcast"
+      ],
+      "source_locator": "Geoffrey Hinton Nobel Prize Conversations podcast (May 2025)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "044000-h03",
+      "anchor": "doctorate in artificial intelligence",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hinton-toronto"
+      ],
+      "source_locator": "Geoffrey E. Hinton, Biographical Sketch, University of Toronto",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "044000-h04",
+      "anchor": "moved to the University of Toronto",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hinton-toronto"
+      ],
+      "source_locator": "Geoffrey E. Hinton, Biographical Sketch, University of Toronto",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "044000-h05",
+      "anchor": "Rumelhart, and Ronald Williams",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hinton-backprop"
+      ],
+      "source_locator": "Rumelhart, Hinton, and Williams, Learning representations by back-propagating errors (1986)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "044000-h06",
+      "anchor": "Boltzmann machines",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hinton-nobel"
+      ],
+      "source_locator": "Geoffrey Hinton, Nobel Prize in Physics 2024 Facts",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "044000-h07",
+      "anchor": "Krizhevsky, Sutskever, and Hinton",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hinton-imagenet"
+      ],
+      "source_locator": "Krizhevsky, Sutskever, and Hinton, ImageNet Classification with Deep Convolutional Neural Networks (2012)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "044000-h08",
+      "anchor": "carpentry as a hands-on hobby",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hinton-nobel-interview"
+      ],
+      "source_locator": "Geoffrey Hinton, Nobel Prize Interview and Conversations",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "044000-h09",
+      "anchor": "left Google and spoke more publicly",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hinton-bbc"
+      ],
+      "source_locator": "BBC News, Geoffrey Hinton on leaving Google and AI risks (2023)",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "044000-h10",
+      "anchor": "shared the Nobel Prize in Physics with John Hopfield",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hinton-nobel"
+      ],
+      "source_locator": "Geoffrey Hinton, Nobel Prize in Physics 2024 Facts",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

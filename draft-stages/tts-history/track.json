@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "Forty-two substantive standalone historical portraits covering mathematics, statistics, computing, physics, ancient scholarship, and the history of ideas.",
+  "summary": "Forty-six substantive standalone portraits of mathematicians, statisticians, computer scientists and closely related researchers, with biographical evidence and mathematical explanations.",
   "assumed_background": [
     "elementary vectors and eigenvalues; advanced concepts are introduced locally"
   ],
@@ -21,7 +21,10 @@
     "calculus",
     "ancient-mathematics",
     "analysis-and-heat",
-    "alexandrian-mathematics"
+    "alexandrian-mathematics",
+    "measure-theory",
+    "machine-learning",
+    "additive-combinatorics"
   ],
   "lectures": [
     {
@@ -485,6 +488,50 @@
       "draft_status": "substantive",
       "source_g2": null,
       "estimated_minutes_at_145_wpm": 34.3
+    },
+    {
+      "id": "043000",
+      "title": "Henri Lebesgue: How can we measure a function that changes everywhere?",
+      "person": "Henri Lebesgue",
+      "section": "measure-theory",
+      "file": "043000-lebesgue.md",
+      "spoken_words": 2686,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 18.5
+    },
+    {
+      "id": "044000",
+      "title": "Geoffrey Hinton: How can a network discover a representation?",
+      "person": "Geoffrey Hinton",
+      "section": "machine-learning",
+      "file": "044000-hinton.md",
+      "spoken_words": 2612,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 18.0
+    },
+    {
+      "id": "045000",
+      "title": "Terence Tao: How can one mathematician connect so many kinds of problems?",
+      "person": "Terence Tao",
+      "section": "additive-combinatorics",
+      "file": "045000-tao.md",
+      "spoken_words": 2475,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 17.1
+    },
+    {
+      "id": "046000",
+      "title": "Srinivasa Ramanujan: How can patterns in numbers become theorems?",
+      "person": "Srinivasa Ramanujan",
+      "section": "number-theory",
+      "file": "046000-ramanujan.md",
+      "spoken_words": 2698,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 18.6
     }
   ],
   "editorial_policy": "Expose only researched substantive portraits. Draft biographies live in stubs/ until expanded, checked and promoted."
