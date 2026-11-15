@@ -13,7 +13,11 @@
     "conditional-expectation",
     "limit-theorems",
     "martingales",
-    "inference-calibration"
+    "inference-calibration",
+    "markov-chains",
+    "product-measures",
+    "weak-convergence",
+    "dependent-concentration"
   ],
   "lectures": [
     {
@@ -87,6 +91,42 @@
       "spoken_words": 3071,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 21.2
+    },
+    {
+      "id": "009000",
+      "title": "Markov Chains: Stationarity, Mixing, and Randomized Computation",
+      "section": "markov-chains",
+      "file": "009000-markov-chains-stationarity-mixing.md",
+      "spoken_words": 3119,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.5
+    },
+    {
+      "id": "010000",
+      "title": "Product Measures, Fubini, and Conditional Distributions",
+      "section": "product-measures",
+      "file": "010000-product-measures-fubini-conditioning.md",
+      "spoken_words": 3112,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.5
+    },
+    {
+      "id": "011000",
+      "title": "Weak Convergence: When Distributions Approach a Limit",
+      "section": "weak-convergence",
+      "file": "011000-weak-convergence-continuous-mapping.md",
+      "spoken_words": 3218,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.2
+    },
+    {
+      "id": "012000",
+      "title": "Concentration Beyond IID: Bounded Differences, Martingales, and Dependence",
+      "section": "dependent-concentration",
+      "file": "012000-concentration-dependence-adaptation.md",
+      "spoken_words": 3285,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.7
     }
   ]
 }

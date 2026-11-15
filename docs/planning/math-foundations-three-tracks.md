@@ -45,8 +45,13 @@ The nine lectures delivered across the three tracks are designed for a mathemati
 - 006000 (delivered): *Large Numbers, Concentration, and Normal Approximation*. Audio-first transcript, proof companion, exercises, source sidecar.
 - 007000 (delivered): *Martingales, Filtrations, and the Limits of Stopping Rules*. Audio-first transcript, proof companion, exercises, source sidecar.
 - 008000 (delivered): *Bayesian Inference, Identification, and Calibration*. Audio-first transcript, proof companion, exercises, source sidecar.
-- 009000: Markov chains/processes, random algorithms, inference on dynamical systems.
-- 010000: Formal probability spaces, measurable functions, and Lean/mathlib proof exercises.
+- 009000 (delivered): *Markov Chains: Stationarity, Mixing, and Randomized Computation*. Finite-state contraction, coupling, detailed balance and mixing caveats.
+- 010000 (delivered): *Product Measures, Fubini, and Conditional Distributions*. Product integration, conditional kernels and failure of nonabsolute rearrangement.
+- 011000 (delivered): *Weak Convergence: When Distributions Approach a Limit*. Portmanteau and mapping, empirical CDFs, and tail counterexamples.
+- 012000 (delivered): *Concentration Beyond IID: Bounded Differences, Martingales, and Dependence*. Doob martingales, concentration and selection caveats.
+- 013000: Statistical decision theory, predictive risk and distribution shift.
+- 014000: Formal probability spaces, measurable functions, conditional expectation, and Lean/mathlib proof exercises.
+- 015000: Brownian motion, hitting times and continuous-time modeling.
 
 ## Authoring and acceptance principles
 

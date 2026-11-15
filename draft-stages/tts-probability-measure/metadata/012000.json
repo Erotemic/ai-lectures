@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-concentration-dependence-adaptation.md",
+  "related_resources": [
+    {
+      "source_id": "pm-mcdiarmid-survey",
+      "reason": "Survey and proof of bounded differences and martingale concentration"
+    },
+    {
+      "source_id": "pm-paulin-mixing",
+      "reason": "Concentration bounds adapted to Markov dependence"
+    },
+    {
+      "source_id": "pm-hoeffding",
+      "reason": "Independent-input exponential concentration bounds"
+    },
+    {
+      "source_id": "pm-mit-theory",
+      "reason": "Martingale and large deviation course materials"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "012000-m01",
+      "anchor": "The method of bounded differences turns such stability into a concentration inequality.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-mcdiarmid-survey"
+      ],
+      "source_locator": "McDiarmid concentration",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "012000-m02",
+      "anchor": "The Azuma–Hoeffding inequality applies to martingales with almost-surely bounded increments.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-mcdiarmid-survey",
+        "pm-mit-theory"
+      ],
+      "source_locator": "Azuma-Hoeffding",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "012000-m03",
+      "anchor": "Variance-aware martingale inequalities, including Freedman's inequality, incorporate the sum of conditional variances along with a bound on positive increments.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-mcdiarmid-survey"
+      ],
+      "source_locator": "Variance-aware martingale tails",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "012000-m04",
+      "anchor": "A mixing condition can control those covariance terms or support a concentration inequality, often with constants depending on a mixing time or spectral gap.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-paulin-mixing"
+      ],
+      "source_locator": "Concentration for Markov dependencies",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

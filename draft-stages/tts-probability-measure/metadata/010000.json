@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-product-measures-fubini-conditioning.md",
+  "related_resources": [
+    {
+      "source_id": "pm-mit-fubini",
+      "reason": "Course source on Fubini, Tonelli and product measures"
+    },
+    {
+      "source_id": "pm-mit-measure",
+      "reason": "Sigma algebras and monotone convergence foundations"
+    },
+    {
+      "source_id": "pm-klenke",
+      "reason": "Joint laws, regular conditional distributions and independence"
+    },
+    {
+      "source_id": "pm-mit-theory",
+      "reason": "Probability course treatment of independent random variables"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "010000-m01",
+      "anchor": "Tonelli's theorem concerns a measurable function that is never negative.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-mit-fubini",
+        "pm-mit-measure"
+      ],
+      "source_locator": "Tonelli theorem for sigma-finite products",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "010000-m02",
+      "anchor": "Fubini's theorem says that if the integral of the absolute value is finite, then both iterated integrals exist in the appropriate almost-everywhere sense, and their values equal the joint integral.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-mit-fubini"
+      ],
+      "source_locator": "Fubini for integrable signed measurable functions",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "010000-m03",
+      "anchor": "Under standard conditions, including random variables taking values in standard Borel spaces, such versions exist.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-klenke"
+      ],
+      "source_locator": "Regular conditional distributions / standard Borel existence",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

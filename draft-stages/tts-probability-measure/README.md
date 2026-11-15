@@ -19,12 +19,20 @@
 - 007000: [Martingales, Filtrations, and the Limits of Stopping Rules](007000-martingales-filtrations-and-stopping.md) (3,073 spoken words).
 - 008000: [Bayesian Inference, Identification, and Calibration](008000-bayesian-inference-identification-and-calibration.md) (3,071 spoken words).
 
+## Completed continuation (009000–012000)
+
+- 009000: [Markov Chains: Stationarity, Mixing, and Randomized Computation](009000-markov-chains-stationarity-mixing.md) (3,119 spoken words).
+- 010000: [Product Measures, Fubini, and Conditional Distributions](010000-product-measures-fubini-conditioning.md) (3,112 spoken words).
+- 011000: [Weak Convergence: When Distributions Approach a Limit](011000-weak-convergence-continuous-mapping.md) (3,218 spoken words).
+- 012000: [Concentration Beyond IID: Bounded Differences, Martingales, and Dependence](012000-concentration-dependence-adaptation.md) (3,285 spoken words).
+
 ## Planned continuation
 
-- 009000: Markov Processes and Stochastic Algorithms
-- 010000: Probability in Formal Proofs and Verified Computation
+- 013000: Statistical Decision Theory and Risk
+- 014000: Probability in Lean and Mathlib
+- 015000: Brownian Motion and Continuous-Time Modeling
 
-The remaining titles are planning proposals; see the curriculum addendum in `docs/planning/probability-measure-expansion-005000-008000-2026-11-14.md`.
+The remaining titles are planning proposals; see the curriculum addenda in `docs/planning/probability-measure-expansion-005000-008000-2026-11-14.md` and `docs/planning/probability-measure-expansion-009000-012000-2026-11-14.md`.
 
 ## Reading and source records
 

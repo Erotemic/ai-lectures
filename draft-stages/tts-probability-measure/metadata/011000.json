@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-weak-convergence-continuous-mapping.md",
+  "related_resources": [
+    {
+      "source_id": "pm-billingsley-weak",
+      "reason": "Reference on weak convergence and continuous mapping"
+    },
+    {
+      "source_id": "pm-mit-theory",
+      "reason": "Course lecture slides on weak convergence and CLT"
+    },
+    {
+      "source_id": "pm-klenke",
+      "reason": "Convergence modes and laws of large numbers"
+    },
+    {
+      "source_id": "pm-weak-course-2026",
+      "reason": "Course coverage of portmanteau and continuous mapping"
+    },
+    {
+      "source_id": "pm-weak-metrics-2026",
+      "reason": "Open teaching notes on weak-convergence interpretations"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "011000-m01",
+      "anchor": "A sequence of probability laws converges weakly to another law when the expected value of every bounded continuous test function under the sequence converges to its expected value under the limiting law.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-billingsley-weak",
+        "pm-mit-theory"
+      ],
+      "source_locator": "Bounded continuous test formulation",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "011000-m02",
+      "anchor": "This is weak convergence: the probability laws of the standardized errors approach a normal law.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-mit-theory"
+      ],
+      "source_locator": "IID CLT limit interpretation",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "011000-m03",
+      "anchor": "That is a route to almost-sure weak convergence of the empirical distribution toward the population distribution for independent identically distributed real-valued observations.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-billingsley-weak",
+        "pm-klenke"
+      ],
+      "source_locator": "Empirical distribution law via strong law",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
