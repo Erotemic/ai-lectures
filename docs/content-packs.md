@@ -250,7 +250,12 @@ had open, even after an update. The form retains drafts across navigation and
 validation errors, and captures the playback context when drafting begins rather
 than moving it as playback continues. Submissions preserve a transcript snapshot. Editorial status
 is appended separately; a new release never automatically closes old feedback.
-The status API accepts an explicit `addressed_revision` when a fix is verified.
+Open **Packs → Review feedback** to search comments, inspect their submitted
+transcripts, and compare changed passages with the current lecture. Status changes
+retain an append-only history and an optional editorial note. Explicitly select
+“Record the current lecture revision as addressed” when a fix is verified; the
+status API records that revision as `addressed_revision`. Imported feedback keeps
+its submitted transcript readable even when the original pack is absent.
 
 Feedback transfers separately from content and listener history:
 

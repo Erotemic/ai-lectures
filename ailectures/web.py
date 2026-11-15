@@ -261,6 +261,7 @@ def create_app(
             feedback_id=payload["feedback_id"],
             status=payload["status"],
             addressed_revision=payload.get("addressed_revision"),
+            note=payload.get("note", ""),
             created_at=payload.get("created_at", utcnow()),
         )
         return JSONResponse(listeners.add_feedback_event(event), status_code=201)
@@ -397,6 +398,7 @@ def create_app(
             "/lectures/{namespace}/{local_id}",
             "/listening",
             "/packs",
+            "/feedback",
             "/production",
         ]
     ]

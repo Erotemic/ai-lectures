@@ -60,6 +60,11 @@ def validate_feedback(event):
             raise ValueError("Unknown editorial status")
         if event.get("addressed_revision") is not None:
             checksum(event["addressed_revision"])
+        if (
+            not isinstance(event.get("note", ""), str)
+            or len(event.get("note", "")) > 4000
+        ):
+            raise ValueError("Editorial note must be at most 4,000 characters")
     else:
         raise ValueError("Unknown feedback event type")
 

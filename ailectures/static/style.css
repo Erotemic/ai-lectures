@@ -198,6 +198,22 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
   gap: 1rem;
 }
+.feedback-list {
+  display: grid;
+  gap: 1.2rem;
+}
+.feedback-text {
+  white-space: pre-wrap;
+  margin-top: 0.8rem;
+}
+.revision-comparison {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+  gap: 1rem;
+}
+.revision-comparison > section {
+  min-width: 0;
+}
 .card {
   padding: 1.2rem 1.3rem;
   border: 1px solid var(--line);

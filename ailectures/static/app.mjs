@@ -1,5 +1,6 @@
 import { api, post, el, getStored, store, lectureURL, clock } from "./api.mjs";
 import { Player } from "./player.mjs";
+import { reviewFeedback } from "./feedback.mjs";
 const $ = (id) => document.getElementById(id);
 let catalog = { lectures: [], courses: [], packs: [] },
   profile = getStored("listener", ""),
@@ -587,7 +588,11 @@ async function lecturePage(id, autoplay = false, historical = null) {
       ),
     ),
   );
-  const resources = (Array.isArray(row.metadata?.related_resources) ? row.metadata.related_resources : [])
+  const resources = (
+    Array.isArray(row.metadata?.related_resources)
+      ? row.metadata.related_resources
+      : []
+  )
     .filter((r) => r && typeof r === "object")
     .map((r) => ({ ...r, source: row.sources?.[r.source_id] }))
     .filter((r) => r.source && /^https?:\/\//.test(r.source.url));
@@ -910,6 +915,7 @@ function packsPage() {
       "section",
       { class: "section" },
       el("h2", { text: "Feedback for revision work" }),
+      link("Review feedback", "/feedback"),
       button("Export feedback", async () =>
         downloadJSON(
           await api("/api/library/feedback"),
@@ -1087,13 +1093,19 @@ async function showJobs() {
           }),
           job.error ? el("p", { class: "notice", text: job.error }) : null,
           job.state === "settings_changed"
-            ? link("Prepare with current settings", "/production?lecture=" + encodeURIComponent(job.lecture_id))
+            ? link(
+                "Prepare with current settings",
+                "/production?lecture=" + encodeURIComponent(job.lecture_id),
+              )
             : ["failed", "cancelled"].includes(job.state)
-            ? button("Retry preparation", async () => {
-                await post("/api/library/production/jobs/" + id + "/retry", {});
-                await showJobs();
-              })
-            : null,
+              ? button("Retry preparation", async () => {
+                  await post(
+                    "/api/library/production/jobs/" + id + "/retry",
+                    {},
+                  );
+                  await showJobs();
+                })
+              : null,
           !job.published &&
             !["failed", "cancelled", "settings_changed"].includes(job.state)
             ? button("Cancel generation", () =>
@@ -1162,6 +1174,8 @@ async function render(autoplay = false) {
       );
     else if (path === "/listening") listeningPage();
     else if (path === "/packs") packsPage();
+    else if (path === "/feedback")
+      await reviewFeedback($("main"), catalog.lectures);
     else if (path === "/production") await productionPage();
     else browse();
   } catch (e) {
@@ -1186,6 +1200,7 @@ async function init() {
       if (
         changed &&
         !location.pathname.startsWith("/lectures/") &&
+        location.pathname != "/feedback" &&
         location.pathname != "/production"
       )
         await render();
