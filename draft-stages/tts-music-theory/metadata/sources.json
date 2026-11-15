@@ -1470,6 +1470,97 @@
       "url": "https://manual.ardour.org/working-with-sessions/interchange-with-other-daws/stem-exports/",
       "access": "full_open_text",
       "notes": "Synchronized track exports and processor-application option; does not describe or validate this Python score renderer."
+    },
+    "mt-042-hasegawa": {
+      "title": "Robert Hasegawa, Creating with Constraints, The Oxford Handbook of the Creative Process in Music (online 2020, volume 2022), abstract",
+      "kind": "scholarly_handbook_chapter",
+      "url": "https://academic.oup.com/edited-volume/42047/chapter-abstract/355802587",
+      "access": "publisher_abstract_only",
+      "notes": "Abstract states material (absolute/relative), formal, style/genre, and process taxonomy; discusses voluntary/received limits. No claim to have read full chapter."
+    },
+    "mt-042-variego": {
+      "title": "Jorge Variego, Composing with Constraints: 100 Practical Exercises in Music Composition (Oxford University Press, 2021)",
+      "kind": "composition_pedagogy_book",
+      "url": "https://academic.oup.com/book/41227",
+      "access": "publisher_book_description",
+      "notes": "Book identification and exercise-based format; not treated as proving constraints always improve outcomes."
+    },
+    "mt-042-variego-foreword": {
+      "title": "Foreword to Jorge Variego, Composing with Constraints (Oxford University Press, 2021), pp.xi-xii",
+      "kind": "book_foreword",
+      "url": "https://academic.oup.com/book/41227/chapter-abstract/350706224",
+      "access": "publisher_foreword_extract",
+      "notes": "Foreword contrasts if-then rule with interdependent constraints; foreword not asserted to be authored by Variego."
+    },
+    "mt-042-boden": {
+      "title": "Margaret A. Boden, Creativity and Artificial Intelligence, Artificial Intelligence 103(1-2):347-356 (1998)",
+      "kind": "peer_reviewed_article",
+      "url": "https://doi.org/10.1016/S0004-3702(98)00055-1",
+      "access": "publisher_abstract_only",
+      "notes": "Abstract presents combination, exploration, transformation and difficulty of evaluation versus generation. No empirical appraisal of this lecture or modern music AI."
+    },
+    "mt-042-reich-process": {
+      "title": "Steve Reich, Music as a Gradual Process (written 1968), Writings on Music 1965-2000, pp.34-36 (OUP 2004)",
+      "kind": "composer_primary_essay",
+      "url": "https://academic.oup.com/book/27047/chapter-abstract/196341890",
+      "access": "publisher_description_and_existing_university_teaching_copy",
+      "notes": "Author distinguishes composing by a procedure from audibly perceptible gradual processes. This original lesson is not a Reich process composition."
+    },
+    "mt-042-reich-preface": {
+      "title": "Steve Reich, Author’s Preface, Writings on Music 1965-2000 (2004)",
+      "kind": "composer_primary_preface",
+      "url": "https://academic.oup.com/book/27047/chapter-abstract/196339930",
+      "access": "publisher_excerpt",
+      "notes": "Reich reflects that his 1968 essay described previous practice and was not a future manifesto."
+    },
+    "mt-042-ircam-cage": {
+      "title": "Carmen Pardo, Cage: A Poetry of Forgetting, IRCAM Composer Resources (2012), sections I-II",
+      "kind": "specialist_composer_profile",
+      "url": "https://ressources.ircam.fr/en/composer/john-cage/workcourse",
+      "access": "full_open_html",
+      "notes": "Supports historical description of Cage, chance operations, indeterminacy; historical framing is not a universal method."
+    },
+    "mt-042-haskins-cage": {
+      "title": "Rob Haskins, Review of The Cambridge Companion to John Cage, Music Theory Online 10(2) (2004)",
+      "kind": "peer_reviewed_review",
+      "url": "https://www.mtosmt.org/issues/mto.04.10.2/mto.04.10.2.haskins.html",
+      "access": "full_open_html",
+      "notes": "Describes Cage’s I Ching mappings and chance operations; useful corroboration for historical method and distinction."
+    },
+    "mt-042-margulis": {
+      "title": "Elizabeth Hellmuth Margulis, Repetition, The Oxford Handbook of Critical Concepts in Music Theory, pp.187-206 (2018)",
+      "kind": "scholarly_handbook_chapter",
+      "url": "https://academic.oup.com/edited-volume/43665/chapter-abstract/366144257",
+      "access": "publisher_abstract_only",
+      "notes": "Acoustic, notated, perceived repetitions and functions of repetition are in abstract; no listening data for these particular scores."
+    },
+    "mt-042-margulis-attention": {
+      "title": "Elizabeth Hellmuth Margulis, Attention, Temporality, and Music That Repeats Itself, On Repeat, ch.3 pp.55-74 (2013)",
+      "kind": "scholarly_book_chapter",
+      "url": "https://academic.oup.com/book/9924/chapter-abstract/157252036",
+      "access": "publisher_abstract_only",
+      "notes": "Abstract connects repeated material with attention in time; not a direct test of this course’s arrangements."
+    },
+    "mt-042-python-random": {
+      "title": "Python standard library documentation, random — Generate pseudo-random numbers",
+      "kind": "official_programming_documentation",
+      "url": "https://docs.python.org/3/library/random.html",
+      "access": "full_open_html",
+      "notes": "Seeded pseudorandom sequences; reproducing exact draws requires this pack’s documented Python call semantics and stored choices."
+    },
+    "mt-042-ardour-import": {
+      "title": "Ardour Manual, Adding Pre-existing Material",
+      "kind": "official_software_manual",
+      "url": "https://manual.ardour.org/adding-pre-existing-material/",
+      "access": "full_open_html",
+      "notes": "Describes import of prerecorded audio; not independent evidence of listening outcomes."
+    },
+    "mt-042-dawdreamer": {
+      "title": "DawDreamer contributors, User Guide, offline rendering engine",
+      "kind": "official_software_documentation",
+      "url": "https://github.com/DBraun/DawDreamer/blob/main/docs/user_guide/index.rst",
+      "access": "public_repository_documentation",
+      "notes": "Documented optional audio-processing workflow. Pack’s executable renderer uses standard library instead."
     }
   }
 }

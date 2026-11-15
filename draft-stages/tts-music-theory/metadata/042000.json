@@ -1,0 +1,561 @@
+{
+  "schema_version": 1,
+  "lecture_id": "042000",
+  "transcript": "042000-rules-that-help-and-rules-that-trap.md",
+  "related_resources": [
+    {
+      "source_id": "mt-042-hasegawa",
+      "reason": "Abstract states material (absolute/relative), formal, style/genre, and process taxonomy; discusses voluntary/received limits. No claim to have read full chapter."
+    },
+    {
+      "source_id": "mt-042-variego",
+      "reason": "Book identification and exercise-based format; not treated as proving constraints always improve outcomes."
+    },
+    {
+      "source_id": "mt-042-variego-foreword",
+      "reason": "Foreword contrasts if-then rule with interdependent constraints; foreword not asserted to be authored by Variego."
+    },
+    {
+      "source_id": "mt-042-boden",
+      "reason": "Abstract presents combination, exploration, transformation and difficulty of evaluation versus generation. No empirical appraisal of this lecture or modern music AI."
+    },
+    {
+      "source_id": "mt-042-reich-process",
+      "reason": "Author distinguishes composing by a procedure from audibly perceptible gradual processes. This original lesson is not a Reich process composition."
+    },
+    {
+      "source_id": "mt-042-reich-preface",
+      "reason": "Reich reflects that his 1968 essay described previous practice and was not a future manifesto."
+    },
+    {
+      "source_id": "mt-042-ircam-cage",
+      "reason": "Supports historical description of Cage, chance operations, indeterminacy; historical framing is not a universal method."
+    },
+    {
+      "source_id": "mt-042-haskins-cage",
+      "reason": "Describes Cage’s I Ching mappings and chance operations; useful corroboration for historical method and distinction."
+    },
+    {
+      "source_id": "mt-042-margulis",
+      "reason": "Acoustic, notated, perceived repetitions and functions of repetition are in abstract; no listening data for these particular scores."
+    },
+    {
+      "source_id": "mt-042-margulis-attention",
+      "reason": "Abstract connects repeated material with attention in time; not a direct test of this course’s arrangements."
+    },
+    {
+      "source_id": "mt-042-python-random",
+      "reason": "Seeded pseudorandom sequences; reproducing exact draws requires this pack’s documented Python call semantics and stored choices."
+    },
+    {
+      "source_id": "mt-042-ardour-import",
+      "reason": "Describes import of prerecorded audio; not independent evidence of listening outcomes."
+    },
+    {
+      "source_id": "mt-042-dawdreamer",
+      "reason": "Documented optional audio-processing workflow. Pack’s executable renderer uses standard library instead."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "mt-042-c001",
+      "anchor": "A rule can change that.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Opening pedagogical proposal, not experimentally established to improve originality.",
+      "provenance": "editorial_inference",
+      "source_locator": "Hasegawa, publisher abstract: constraints as creative framework"
+    },
+    {
+      "id": "mt-042-c002",
+      "anchor": "These are four different dimensions of musical constraint.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Hasegawa abstract explicitly identifies four classes: material, formal, style/genre, process.",
+      "provenance": "source_backed",
+      "source_locator": "Hasegawa, abstract classification paragraph"
+    },
+    {
+      "id": "mt-042-c003",
+      "anchor": "The music theorist Robert Hasegawa makes a related four-part distinction",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Specific scholarly attribution of fourfold classification.",
+      "provenance": "source_backed",
+      "source_locator": "Hasegawa, abstract"
+    },
+    {
+      "id": "mt-042-c004",
+      "anchor": "The second says: the final phrase must recall the beginning.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Original illustration of formal versus pitch-material constraint; no experimental claim.",
+      "provenance": "original_example",
+      "source_locator": "Lecture 042000, invented paired instructions; Hasegawa taxonomy contextual"
+    },
+    {
+      "id": "mt-042-c005",
+      "anchor": "A hard constraint has a checkable condition",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Operational distinction authored for course; not attributed as direct Hasegawa terminology.",
+      "provenance": "editorial_inference",
+      "source_locator": "Lecture 042000, conceptual exercise"
+    },
+    {
+      "id": "mt-042-c006",
+      "anchor": "A computer can check the first kind from symbolic data.",
+      "source_ids": [
+        "mt-042-python-random"
+      ],
+      "evidence_detail": "Score event checks can establish chosen formal conditions but cannot verify listener evaluations.",
+      "provenance": "supported_interpretation",
+      "source_locator": "Local score validator; Python docs for deterministic computation"
+    },
+    {
+      "id": "mt-042-c007",
+      "anchor": "Twelve identical returns might be a compositional failure in one work and the exact point of another.",
+      "source_ids": [
+        "mt-042-margulis"
+      ],
+      "evidence_detail": "Context-dependent artistic interpretation, not a result about a tested score.",
+      "provenance": "editorial_inference",
+      "source_locator": "Margulis, Repetition, abstract: functions of recurrence vary"
+    },
+    {
+      "id": "mt-042-c008",
+      "anchor": "Every version is in four-quarter meter, at one hundred quarter-note beats per minute.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Shared declared tempo and meter across 8 pieces; external source only contextual.",
+      "provenance": "original_example",
+      "source_locator": "Score: comparison_design, versions[*].tempo_bpm/beats_per_bar"
+    },
+    {
+      "id": "mt-042-c009",
+      "anchor": "Every version begins with the same four quarter notes, E, G, A, G.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Exact opening lead events validated across all eight versions.",
+      "provenance": "original_example",
+      "source_locator": "Score: opening_motif, versions[*].voices[lead]"
+    },
+    {
+      "id": "mt-042-c010",
+      "anchor": "The same simple oscillators, source gains, and stereo settings are assigned to corresponding voices.",
+      "source_ids": [
+        "mt-042-python-random"
+      ],
+      "evidence_detail": "Cross-piece voice configurations compared in local checker; differing density can affect perceived loudness.",
+      "provenance": "original_example",
+      "source_locator": "Score: versions[*].voices[*].waveform/gain/pan"
+    },
+    {
+      "id": "mt-042-c011",
+      "anchor": "That four-bar pattern is repeated four times.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Bass event list repeats four-bar cycle 4 times, with two notes per measure.",
+      "provenance": "original_example",
+      "source_locator": "Score: 16-bar shared bass voice"
+    },
+    {
+      "id": "mt-042-c012",
+      "anchor": "But this is not a controlled psychological experiment.",
+      "source_ids": [
+        "mt-042-margulis"
+      ],
+      "evidence_detail": "Audio comparison does not control perception, timbre, or conduct listeners trials.",
+      "provenance": "editorial_inference",
+      "source_locator": "Lecture methodology limitation; Margulis does not test our stimuli"
+    },
+    {
+      "id": "mt-042-c013",
+      "anchor": "the five pitch classes C, D, E, G, and A.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Checker enforces the set on all 64 notes of closed-palette lead.",
+      "provenance": "original_example",
+      "source_locator": "Score: closed_pitch_classes, palette_closed"
+    },
+    {
+      "id": "mt-042-c014",
+      "anchor": "For the first eight bars, nothing changes.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Lead pairs have no changed events until bar 10; shared accompaniment fixed.",
+      "provenance": "original_example",
+      "source_locator": "Score: palette_closed/released lead arrays"
+    },
+    {
+      "id": "mt-042-c015",
+      "anchor": "There are exactly four changed note events in the whole sixteen-bar melody",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Changed events at bar10 beat3, bar11 beat1, bar14 beat2, bar15 beat3, one semitone each.",
+      "provenance": "original_calculation",
+      "source_locator": "Score: pitch_changed_events and comparison of palette leads"
+    },
+    {
+      "id": "mt-042-c016",
+      "anchor": "The bass and inner voice do not change.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Literal companion voice event arrays held fixed in all eight versions.",
+      "provenance": "original_example",
+      "source_locator": "Score: all versions, bass/inner voices"
+    },
+    {
+      "id": "mt-042-c017",
+      "anchor": "The third version keeps every lead attack on a numbered beat.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Rhythm grid starts four one-beat notes at integer offsets in each bar.",
+      "provenance": "original_example",
+      "source_locator": "Score: rhythm_grid lead"
+    },
+    {
+      "id": "mt-042-c018",
+      "anchor": "The first eight bars are identical to the regular version.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Rhythm versions have same first 32 lead events.",
+      "provenance": "original_example",
+      "source_locator": "Score: rhythm_grid/rhythm_shifted lead, bars1-8"
+    },
+    {
+      "id": "mt-042-c019",
+      "anchor": "The second note begins on the offbeat after beat two, and the fourth begins on the offbeat after beat four.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "After midpoint, lead attacks at bar offsets 1.5 and 3.5 beats, .5 durations.",
+      "provenance": "original_example",
+      "source_locator": "Score: rhythm_shifted lead, bars9-16"
+    },
+    {
+      "id": "mt-042-c020",
+      "anchor": "The fifth version adds a follower to the original melody.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Fourth voice present only in echo pair; same lead/bass/inner.",
+      "provenance": "original_example",
+      "source_locator": "Score: echo_exact and echo_broken"
+    },
+    {
+      "id": "mt-042-c021",
+      "anchor": "every note in the lead is repeated one full measure later, an octave lower.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Follower = all lead events before bar16, at+4 beats and pitch octave lowered; beyond piece omitted.",
+      "provenance": "original_calculation",
+      "source_locator": "Score: echo_exact follower vs lead"
+    },
+    {
+      "id": "mt-042-c022",
+      "anchor": "It is not a certification that every simultaneous interval satisfies an eighteenth-century counterpoint exercise.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Local checker tests delay and transposition, no detailed contrapuntal style analysis.",
+      "provenance": "editorial_inference",
+      "source_locator": "Local renderer docstring; lecture caution"
+    },
+    {
+      "id": "mt-042-c023",
+      "anchor": "in bars eleven and twelve, where eight separate quarter-note entries would otherwise occur, the follower uses four two-beat notes instead.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Strict 8 quarter events replaced by 4 half events only at beats40..47; no outside changes.",
+      "provenance": "original_calculation",
+      "source_locator": "Score: echo_exact/broken follower"
+    },
+    {
+      "id": "mt-042-c024",
+      "anchor": "Most of the follower remains an exact delayed octave copy.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "Outside bars11-12 the event arrays are identical.",
+      "provenance": "original_example",
+      "source_locator": "Score: comparison of echo pair"
+    },
+    {
+      "id": "mt-042-c025",
+      "anchor": "a bank of six four-note melodic gestures.",
+      "source_ids": [
+        "mt-042-python-random"
+      ],
+      "evidence_detail": "Six original candidate arrays, each four quarter notes.",
+      "provenance": "original_example",
+      "source_locator": "Score: draw_candidates"
+    },
+    {
+      "id": "mt-042-c026",
+      "anchor": "For each of the remaining fifteen bars, a pseudorandom generator chooses one of the six gestures.",
+      "source_ids": [
+        "mt-042-python-random"
+      ],
+      "evidence_detail": "random.Random(seed).randrange(6) exactly once each for bars2..16; bar1 fixed.",
+      "provenance": "original_derivation",
+      "source_locator": "Score: draw_seed/draw_selected_indices; validator replays draws"
+    },
+    {
+      "id": "mt-042-c027",
+      "anchor": "We record its seed, forty-two thousand.",
+      "source_ids": [
+        "mt-042-python-random"
+      ],
+      "evidence_detail": "Seed explicitly stored as 42000 with choices.",
+      "provenance": "original_example",
+      "source_locator": "Score: draw_seed"
+    },
+    {
+      "id": "mt-042-c028",
+      "anchor": "A pseudorandom draw is not an unrepeatable physical event.",
+      "source_ids": [
+        "mt-042-python-random"
+      ],
+      "evidence_detail": "Python documentation describes pseudorandom generation from deterministic state and seeding.",
+      "provenance": "source_backed",
+      "source_locator": "Python docs, Bookkeeping functions and Notes on Reproducibility"
+    },
+    {
+      "id": "mt-042-c029",
+      "anchor": "the raw draw, exactly as selected.",
+      "source_ids": [
+        "mt-042-python-random"
+      ],
+      "evidence_detail": "Score raw lead must match candidate bank indexed by stored draws.",
+      "provenance": "original_example",
+      "source_locator": "Score: draw_fixed and draw_selected_indices"
+    },
+    {
+      "id": "mt-042-c030",
+      "anchor": "in exactly three measures: eight, twelve, and sixteen.",
+      "source_ids": [
+        "mt-042-python-random"
+      ],
+      "evidence_detail": "Three authored replacements in score map; validator enforces exact bars and changed candidate IDs.",
+      "provenance": "original_calculation",
+      "source_locator": "Score: draw_editorial_swaps_by_bar"
+    },
+    {
+      "id": "mt-042-c031",
+      "anchor": "the revised line uses D, E, G, C instead of the original draw's D, F, E, D.",
+      "source_ids": [
+        "mt-042-python-random"
+      ],
+      "evidence_detail": "Raw choice 3 at bar16; replacement choice5 at bar16.",
+      "provenance": "original_example",
+      "source_locator": "Score: draw candidates and indices for last bar"
+    },
+    {
+      "id": "mt-042-c032",
+      "anchor": "John Cage used chance operations in a way that could deliberately displace the composer's taste",
+      "source_ids": [
+        "mt-042-ircam-cage"
+      ],
+      "evidence_detail": "Pardo discusses Cage using chance to step back from habitual aesthetic choices.",
+      "provenance": "source_backed",
+      "source_locator": "IRCAM profile, section II paragraphs on I Ching and compositional responsibility"
+    },
+    {
+      "id": "mt-042-c033",
+      "anchor": "It should not be described as a realization of Cage's philosophy",
+      "source_ids": [
+        "mt-042-haskins-cage"
+      ],
+      "evidence_detail": "Explicit distinction: controlled composer-picked bank and after-the-fact edits serve different purpose.",
+      "provenance": "editorial_inference",
+      "source_locator": "Haskins, review discussion of Cage chance operations"
+    },
+    {
+      "id": "mt-042-c034",
+      "anchor": "a chance procedure used to *compose a fixed score* from indeterminacy left for a *performance*.",
+      "source_ids": [
+        "mt-042-ircam-cage"
+      ],
+      "evidence_detail": "Distinguishes composition-time selection vs performance-time choices, though practices can overlap.",
+      "provenance": "supported_interpretation",
+      "source_locator": "IRCAM profile, section II; Haskins review"
+    },
+    {
+      "id": "mt-042-c035",
+      "anchor": "Jorge Variego's *Composing with Constraints* is expressly organized around practical exercises",
+      "source_ids": [
+        "mt-042-variego"
+      ],
+      "evidence_detail": "Published title and book description explicitly describe 100 practical exercises.",
+      "provenance": "source_backed",
+      "source_locator": "OUP book record"
+    },
+    {
+      "id": "mt-042-c036",
+      "anchor": "Its publisher's foreword contrasts a simple rule with a larger system of interacting conditions",
+      "source_ids": [
+        "mt-042-variego-foreword"
+      ],
+      "evidence_detail": "OUP Foreword extract contrasts if-then rules with interacting conditions.",
+      "provenance": "source_backed",
+      "source_locator": "OUP foreword extract pp.xi-xii"
+    },
+    {
+      "id": "mt-042-c037",
+      "anchor": "Margaret Boden's work on computational creativity distinguishes combining existing ideas",
+      "source_ids": [
+        "mt-042-boden"
+      ],
+      "evidence_detail": "Abstract distinguishes combinational, exploratory and transformational generation.",
+      "provenance": "source_backed",
+      "source_locator": "Boden 1998 journal abstract"
+    },
+    {
+      "id": "mt-042-c038",
+      "anchor": "generating candidates is not the same as evaluating them.",
+      "source_ids": [
+        "mt-042-boden"
+      ],
+      "evidence_detail": "Abstract explicitly notes evaluation is more difficult than generation.",
+      "provenance": "source_backed",
+      "source_locator": "Boden 1998 journal abstract closing"
+    },
+    {
+      "id": "mt-042-c039",
+      "anchor": "Steve Reich makes a distinction in his 1968 essay *Music as a Gradual Process*.",
+      "source_ids": [
+        "mt-042-reich-process"
+      ],
+      "evidence_detail": "Primary essay specifies audible processes distinct from writing with a process.",
+      "provenance": "source_backed",
+      "source_locator": "Reich 1968 essay, OUP section"
+    },
+    {
+      "id": "mt-042-c040",
+      "anchor": "the listener can perceive as they happen.",
+      "source_ids": [
+        "mt-042-reich-process"
+      ],
+      "evidence_detail": "Reich specifically states interest in perceptible processes.",
+      "provenance": "source_backed",
+      "source_locator": "Reich, Music as a Gradual Process"
+    },
+    {
+      "id": "mt-042-c041",
+      "anchor": "Reich later cautioned against treating his 1968 essay as a manifesto",
+      "source_ids": [
+        "mt-042-reich-preface"
+      ],
+      "evidence_detail": "Author preface explicitly says essay described work up to 1968 and was not future manifesto.",
+      "provenance": "source_backed",
+      "source_locator": "Reich, Writings on Music, Author’s Preface"
+    },
+    {
+      "id": "mt-042-c042",
+      "anchor": "The distinction between acoustic, notated, and *perceived* repetition is also important.",
+      "source_ids": [
+        "mt-042-margulis"
+      ],
+      "evidence_detail": "Margulis abstract explicitly distinguishes acoustic/notated/perceived repetition.",
+      "provenance": "source_backed",
+      "source_locator": "Margulis, Repetition, Oxford Handbook abstract"
+    },
+    {
+      "id": "mt-042-c043",
+      "anchor": "Elizabeth Hellmuth Margulis has analyzed these as distinct aspects of musical repetition",
+      "source_ids": [
+        "mt-042-margulis"
+      ],
+      "evidence_detail": "Author attribution and described focus appear in abstract.",
+      "provenance": "source_backed",
+      "source_locator": "Margulis, Repetition, abstract"
+    },
+    {
+      "id": "mt-042-c044",
+      "anchor": "It does not detect what a listener treats as a return.",
+      "source_ids": [
+        "mt-042-margulis"
+      ],
+      "evidence_detail": "Score equality and perceptual similarity are not the same measurement; no human listeners tested.",
+      "provenance": "editorial_inference",
+      "source_locator": "Score validator limitations; Margulis distinguishes score and perception"
+    },
+    {
+      "id": "mt-042-c045",
+      "anchor": "Use the same bar range and the same monitoring chain.",
+      "source_ids": [
+        "mt-042-ardour-import"
+      ],
+      "evidence_detail": "Original recommended listening protocol, not claimed as standardized perceptual experiment.",
+      "provenance": "editorial_inference",
+      "source_locator": "Lecture 042000 comparison procedure"
+    },
+    {
+      "id": "mt-042-c046",
+      "anchor": "We can use Ardour to align the same passages for comparison",
+      "source_ids": [
+        "mt-042-ardour-import"
+      ],
+      "evidence_detail": "Ardour manual supports importing media; local workflow recommendation not automatically an ABX protocol.",
+      "provenance": "supported_interpretation",
+      "source_locator": "Ardour Manual, adding pre-existing material"
+    },
+    {
+      "id": "mt-042-c047",
+      "anchor": "we can render the note events with alternative patches in DawDreamer",
+      "source_ids": [
+        "mt-042-dawdreamer"
+      ],
+      "evidence_detail": "DawDreamer offline plugin graph allows alternate instrument or processing choices; not implemented in the standard-library pack script.",
+      "provenance": "supported_interpretation",
+      "source_locator": "DawDreamer user guide, plugins and rendering"
+    },
+    {
+      "id": "mt-042-c048",
+      "anchor": "A test for a motif returning at bar twelve is meaningful.",
+      "source_ids": [
+        "mt-042-python-random"
+      ],
+      "evidence_detail": "Can be checked from MIDI/note events, but cannot prove artistic merit.",
+      "provenance": "editorial_inference",
+      "source_locator": "Source event checker model"
+    },
+    {
+      "id": "mt-042-c049",
+      "anchor": "The log says: the melody stayed within five pitch classes;",
+      "source_ids": [
+        "mt-042-python-random"
+      ],
+      "evidence_detail": "Examples summarizing the verified four paired comparisons.",
+      "provenance": "original_example",
+      "source_locator": "Score: all versions and pair metadata"
+    },
+    {
+      "id": "mt-042-c050",
+      "anchor": "Not call-and-response. Not exact canonic imitation.",
+      "source_ids": [
+        "mt-042-hasegawa"
+      ],
+      "evidence_detail": "No universal structural prescription follows from typology or examples.",
+      "provenance": "editorial_inference",
+      "source_locator": "Lecture 042000 concluding argument"
+    }
+  ]
+}

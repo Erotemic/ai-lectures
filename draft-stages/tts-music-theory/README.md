@@ -1,6 +1,6 @@
 # Music Theory and Composition
 
-**Collection:** Forty-one standalone, audio-first lecture manuscripts. The course remains instrument-agnostic; text-defined original scores and a local standard-library sound renderer are optional companions, not prerequisites for understanding the lectures.
+**Collection:** Forty-two standalone, audio-first lecture manuscripts. The course remains instrument-agnostic; text-defined original scores and a local standard-library sound renderer are optional companions, not prerequisites for understanding the lectures.
 
 ## Completed and indexed lectures
 
@@ -48,6 +48,7 @@
 | 039000 | [The Fugue as a Musical Argument: Entries, Episodes, Inversion, and Stretto](039000-fugue-and-larger-counterpoint.md) | 3,794 | 26.2 |
 | 040000 | [From Motif to Finished Piece: A Complete-Work Analysis and Revision](040000-from-motif-to-finished-piece.md) | 4,176 | 28.8 |
 | 041000 | [One Motif, Three Ways of Being a Piece: Ground, Rondo, and Continuous Development](041000-three-works-three-organizational-principles.md) | 4,173 | 28.8 |
+| 042000 | [Rules That Help and Rules That Trap: Constraints, Chance, and Musical Judgment](042000-rules-that-help-and-rules-that-trap.md) | 4,400 | 30.3 |
 
 Word counts are descriptive: they use whitespace-separated words in the narration extractor output, matching the track inventory. Duration is only a rough read-through estimate, not an editorial target.
 
@@ -63,6 +64,8 @@ Lecture 040000 provides a complete-work composition and revision case study, **T
 
 Lecture 041000 compares three **complete original 40-bar works** that begin with the same E-G-A-G motif, 100 BPM, four-quarter meter, and matched source waveform settings. *The Wheel and the Window* keeps an exact four-bar bass cycle across ten variations; *The Gate and the Road* returns an eight-bar refrain in an A-B-A-C-A plan, changing its final close; *The Unbroken Path* develops related gestures continuously without a verbatim full eight-bar refrain. The [three-work laboratory](examples/README-comparing-forms-041000.md) checks 888 authored note events and these specific structural invariants, and optionally generates anonymous listening excerpts and complete WAVs. It does **not** measure whether listeners actually hear a proposed form or judge its artistic merit. Full source attribution distinguishes primary compositional writings, published music theory, and score-derived original claims.
 
+Lecture 042000 examines **compositional constraints and creative judgment** using four paired comparisons: limited versus selectively opened pitch material, onbeat versus offbeat melody timing, exact versus locally interrupted octave imitation, and seeded candidate selection versus three documented editorial replacements. Its [original constraint laboratory](examples/README-constraints-042000.md) validates eight sixteen-bar scores with 1,012 note events, including precise changes and common accompaniment controls. The lecture distinguishes Hasegawa's taxonomy of constraints, Reich's perceptible musical processes, Cage's distinct historical chance practices, and Boden's generative/evaluative creativity framework. It does not claim that validation, the presence of a rule, or subjective post-hoc editing proves artistic quality.
+
 ## Further work (not indexed as completed)
 
 1. Evaluate the original synthetic listening demonstrations with actual listeners; distinguish demonstrated audibility from intended pedagogical effect, and revise ambiguous stimuli.
@@ -73,7 +76,7 @@ Lecture 041000 compares three **complete original 40-bar works** that begin with
 
 ## Detailed attribution practice for 025000–038000
 
-Lectures 025000–041000 each contain a **source-to-claim reading map** with direct links and section-level explanations, not just a generic bibliography. Their metadata sidecars have a `claim_evidence` array recording a verbatim narration anchor, source IDs, why the source is relevant, and provenance. An `original_calculation`, `original_example`, or `editorial_inference` is *explicitly not* represented as an experimental result in the cited document. The sources are primarily official manuals, standards, university books, and peer-reviewed research. This is a stronger, local attribution contract; it does not automatically certify every editorial judgment or imply that an online source contains a particular illustrative score.
+Lectures 025000–042000 each contain a **source-to-claim reading map** with direct links and section-level explanations, not just a generic bibliography. Their metadata sidecars have a `claim_evidence` array recording a verbatim narration anchor, source IDs, why the source is relevant, and provenance. An `original_calculation`, `original_example`, or `editorial_inference` is *explicitly not* represented as an experimental result in the cited document. The sources are primarily official manuals, standards, university books, and peer-reviewed research. This is a stronger, local attribution contract; it does not automatically certify every editorial judgment or imply that an online source contains a particular illustrative score.
 
 ## Reference and integrity conventions
 
