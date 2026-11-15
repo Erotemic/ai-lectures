@@ -1,14 +1,22 @@
 # Agent B — The Making of the Modern World: next topics and evidence gaps
 
-The completed, indexed sequence currently runs through **022000**. The modern-world pack is exclusive to Agent B. Use `tools/content_overlay.py` for ordinary text ZIP handoffs and the content importer rather than raw extraction. Lecture length is determined only by educational substance.
+The completed, indexed sequence currently runs through **026000**. The modern-world pack is exclusive to Agent B. Use `tools/content_overlay.py` for ordinary text ZIP handoffs and the content importer rather than raw extraction. Lecture length is determined only by educational substance.
 
-## Plausible follow-on sequence (unindexed)
+## Newly completed and indexed (023000–026000)
 
-- **023000:** Nationalism and representative politics beyond Europe: late-Qing reform, Indian organizations, Ottoman constitutionalism, Philippine revolution and Latin-American state formations; do not equate elite associations with mass movements.
-- **024000:** Oceanic and land migrations outside indenture: Chinese migration networks, the U.S. Exclusion Act, remittances, port cities, and diaspora political organizing.
-- **025000:** Global extractive frontiers: rubber, minerals, forests and resource concessions; separate documented atrocities from uncertain mortality counts.
-- **026000:** Gender, education, and citizenship in the long nineteenth century; track local campaigns and different meanings of legal inclusion.
-- **Subsequent:** World War I across empires, its origins and colonial fronts; decolonization; global twentieth-century politics and everyday life.
+- **023000:** Nationalism and representative organizations in India, the Ottoman Empire, Egypt and the Philippines.
+- **024000:** Chinese migration, legal exclusion in the United States, Canada and Australia, mutual-aid organizations and the 1905 boycott.
+- **025000:** The Congo Free State, the Putumayo rubber districts and the Kimberley mining economy. No unsupported casualty estimates.
+- **026000:** U.S. Reconstruction and naturalization, women's and Māori parliamentary participation in New Zealand, and Indian women's suffrage movements.
+
+## Next plausible sequence (unindexed)
+
+- **027000:** World War I as a global and imperial war, including African, Middle Eastern, Asian and Pacific campaigns and colonial troops.
+- **028000:** Influenza, mobilization, wartime economies, war debt and the distinct politics of demobilization.
+- **029000:** Self-determination and the postwar peace order: Versailles, the League of Nations, mandate systems, colonial petitions and exclusions.
+- **030000:** Mass politics, labor movements and the changing possibilities of political participation across regions.
+
+Future lectures should remain substantive and driven by the requirements of the subject, not by any duration or word-count quota. Research will require more Indigenous-authored, diaspora-authored, and colonial-subject primary testimony before extending the comparative arguments.
 
 ## Evidence review debt
 
@@ -18,3 +26,11 @@ The completed, indexed sequence currently runs through **022000**. The modern-wo
 - **022000:** Work through full versions and methodological disagreements of famine-rail studies; locate labor archives on Suez, rather than infer the daily work experience from Carminati's abstract. The economic growth estimations are not evaluations of colonial rule overall.
 
 Citation quality takes priority over bibliography size: a reliable passage that establishes a claim is more useful than several tangential links. Source-access scope must be labeled honestly.
+
+
+## Evidence review debt for 023000–026000
+
+- **023000:** The NCERT text is available through an indexed excerpt, and the Heehs, Hanioğlu, Reid, and Ben-Bassat materials are available as abstracts/partial extracts. Consult original regional archives and the full works before expanding any characterization of rank-and-file political motivations. The Indian Congress institutional chronicle is a party self-history.
+- **024000:** Official U.S., Canadian and Australian institutional histories establish legal restrictions and documented organization, but do not exhaust migrant experiences. Find Chinese-language writings and community-led archives before narrating specific families. A 1905 U.S. diplomatic dispatch reports a foreign official's perspective on the boycott.
+- **025000:** Read the Congo commission as a document produced within a colonial administrative structure; confront its categories with local testimony and specialist historians. The Putumayo congressional debates record political accounts of violence, not an exhaustive inventory of victims. No Congo or Putumayo total is asserted without independent demographic work.
+- **026000:** Legal milestones are not universal empirical participation. Verify specific voting and candidacy conditions, and supplement official archives with Māori-authored and Indian women-organized contemporary sources, including vernacular records.

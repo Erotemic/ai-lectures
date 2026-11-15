@@ -51,3 +51,13 @@ The project does **not** have a ten-minute (or any other fixed) lecture length t
 - **022000 — [The Shorter Distance](022000-the-shorter-distance.md).** Indian railways, cables and telegraphs, the Suez Canal, and unequal distribution of benefits, labor, and control.
 
 All four lectures carry paragraph-level display-only evidence ledgers with direct links and the narrowest available passage locators. They distinguish public full articles and primary texts from abstracts, publisher descriptions, archival catalogs and indexed excerpts. No target length or duration rule applies. Content authorship remains wholly inside this pack.
+
+
+## Nationalism, migration, extraction and political membership (023000–026000)
+
+- **023000 — [Who Speaks for a Nation? Associations, Constitutions, and the Politics of Representation](023000-who-speaks-for-a-nation.md).** Political organizations and claims to speak for peoples under empires, from India and Egypt to the Philippines and the Ottoman Empire.
+- **024000 — [Across the Ocean, Against the Border: Migration, Exclusion, and Diaspora Politics](024000-across-the-ocean-against-the-border.md).** Transpacific Chinese migration, mutual aid, racially restrictive borders, diaspora political organization, and the limits of state archives.
+- **025000 — [The Forest, the Mine, and the Ledger: Extraction at the Edges of Empire](025000-the-forest-the-mine-and-the-ledger.md).** Rubber in Congo and Putumayo, mineral production in southern Africa, concession power, colonial violence, documentary limits and Indigenous resistance.
+- **026000 — [The Right to Count: Citizenship, Gender, Race, and the Vote](026000-the-right-to-count.md).** Citizenship versus enfranchisement, Reconstruction in the United States, Māori and Pākehā suffrage campaigns, and early twentieth-century Indian women’s political demands.
+
+Every spoken paragraph in these four lectures maps to a display-only numbered evidence entry with direct source links, passage locators and limitations. Publisher summaries are not labeled as fully reviewed books. No lecture duration or word-count policy is in force. This content pack belongs exclusively to Agent B.
