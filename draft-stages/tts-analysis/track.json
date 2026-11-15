@@ -1,7 +1,7 @@
 {
   "id": "analysis",
   "title": "Analysis from First Principles",
-  "summary": "Foundations of real and complex analysis: limits, completeness, differentiation, integration, metric spaces, uniform convergence, holomorphic functions, contours, and Cauchy theory.",
+  "summary": "Foundations of real and complex analysis: limits, integration, metric spaces, uniform convergence, holomorphic functions, Cauchy theory, analytic continuation, singularities, residues, and zero-counting.",
   "assumed_background": [
     "Elementary algebra, inequalities, and familiarity with fractions"
   ],
@@ -16,7 +16,10 @@
     "complex-geometry",
     "holomorphic-functions",
     "contour-integration",
-    "cauchy-theory"
+    "cauchy-theory",
+    "isolated-singularities",
+    "residue-calculus",
+    "zero-counting"
   ],
   "lectures": [
     {
@@ -162,6 +165,42 @@
       "spoken_words": 3259,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 22.5
+    },
+    {
+      "id": "017000",
+      "title": "Power Series, Isolated Zeros, and Analytic Continuation",
+      "section": "holomorphic-functions",
+      "file": "017000-zeros-identity-and-analytic-continuation.md",
+      "spoken_words": 2434,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.8
+    },
+    {
+      "id": "018000",
+      "title": "Laurent Series and Isolated Singularities: The Anatomy of a Missing Point",
+      "section": "isolated-singularities",
+      "file": "018000-laurent-series-and-isolated-singularities.md",
+      "spoken_words": 2271,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.7
+    },
+    {
+      "id": "019000",
+      "title": "The Residue Theorem: One Coefficient Controls an Entire Contour",
+      "section": "residue-calculus",
+      "file": "019000-residue-theorem-and-real-integrals.md",
+      "spoken_words": 2372,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.4
+    },
+    {
+      "id": "020000",
+      "title": "Counting Invisible Roots: The Argument Principle and Rouché's Theorem",
+      "section": "zero-counting",
+      "file": "020000-argument-principle-and-rouche.md",
+      "spoken_words": 2487,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.2
     }
   ]
 }

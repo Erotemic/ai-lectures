@@ -61,3 +61,19 @@ fields are descriptive catalog metadata, not target values or acceptance
 thresholds. Choose the content, proof depth, and examples required for
 understanding; do not truncate or pad to meet any runtime or word-count rule.
 The track's validation checks exact catalog/prose consistency, not length.
+
+## Complex continuation and residue theory (017000–020000)
+
+- 017000 — Power Series, Isolated Zeros, and Analytic Continuation
+- 018000 — Laurent Series and Isolated Singularities: The Anatomy of a Missing Point
+- 019000 — The Residue Theorem: One Coefficient Controls an Entire Contour
+- 020000 — Counting Invisible Roots: The Argument Principle and Rouché's Theorem
+
+This batch develops local analytic uniqueness, annular Laurent coefficients and
+isolated singularity classification, contour residues and worked real-integral
+estimates, and zero counts via logarithmic derivatives and strict Rouché
+inequalities. Exact formulas and exercises are in nonspoken companions.
+Lecture length is determined by mathematical teaching needs, without a runtime
+or word-count target. The metadata records observed word counts, not quotas.
+The next topics may include maximum modulus, open mapping, Schwarz lemma,
+normal families, harmonic functions, and selected applications.

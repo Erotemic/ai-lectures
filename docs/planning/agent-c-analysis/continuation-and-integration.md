@@ -83,3 +83,17 @@ manifest and checks transcript and metadata consistency, not lecture size.
 Future material: local Taylor series in greater depth, isolated singularities,
 Laurent series and residues, argument principle and Rouché's theorem, maximum
 modulus and open mapping principles, and selected applications.
+
+## Completed residue and zero-counting sequence: 017000–020000
+
+| ID | Topic | Main theorem and proof obligation |
+| --- | --- | --- |
+| 017000 | Power series, identity theorem, continuation | Taylor representation via Cauchy; isolated zeros and order; identity theorem with interior accumulation point and connected domain; local uniqueness versus monodromy |
+| 018000 | Laurent expansions and singularities | Annular coefficient formula; removable/pole/essential trichotomy; bounded implies removable; Casorati–Weierstrass density, distinguished from Picard's value-attainment theorem |
+| 019000 | Residue theorem and real integrals | Laurent negative-first coefficient; multiply-connected deformation; simple/higher-order poles; upper semicircle with explicit ML decay estimates |
+| 020000 | Argument principle and Rouché | Residue of logarithmic derivative at zeros/poles; winding count; homotopy proof of Rouché using strict boundary inequality; exact counts for degree-6 and degree-5 polynomials |
+
+This is an incremental Agent C-only ZIP; apply after the 013000–016000 ZIP.
+It updates only this track's manifest, text manuscripts, README, metadata and
+Agent C-owned planning file. It does not modify shared tests or style rules.
+No word-count floor, 10-minute heuristic, or arbitrary length gate is used.
