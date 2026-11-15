@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "lecture_id": "019000",
+  "transcript": "019000-a-mix-as-a-processing-graph.md",
+  "related_resources": [
+    {
+      "source_id": "mt-dawdreamer-guide",
+      "reason": "The named AddProcessor, oscillator and render-graph APIs in the companion."
+    },
+    {
+      "source_id": "mt-dawdreamer-threading",
+      "reason": "Parallel rendering and independent engine ownership."
+    },
+    {
+      "source_id": "mt-ardour-signal-flow",
+      "reason": "Processor location, flexible IO, bus flow."
+    },
+    {
+      "source_id": "mt-ardour-latency",
+      "reason": "Latency compensation and real-time buffering constraints."
+    }
+  ],
+  "historical_claims": []
+}

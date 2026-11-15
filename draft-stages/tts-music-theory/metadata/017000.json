@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-what-a-daw-computes.md",
+  "related_resources": [
+    {
+      "source_id": "mt-ardour-signal-flow",
+      "reason": "Visual track/bus signal processing and routing."
+    },
+    {
+      "source_id": "mt-ardour-latency",
+      "reason": "Real-time deadlines, buffer size and latency."
+    },
+    {
+      "source_id": "mt-dawdreamer-guide",
+      "reason": "Graph summation and offline rendering APIs."
+    },
+    {
+      "source_id": "mt-dawdreamer-threading",
+      "reason": "Safe parallel offline rendering with separate engines."
+    }
+  ],
+  "historical_claims": []
+}

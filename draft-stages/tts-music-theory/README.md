@@ -1,6 +1,6 @@
 # Music Theory and Composition
 
-**Collection:** Sixteen standalone, audio-first lecture manuscripts. The course is instrument-agnostic and its original text scores remain useful before audio demonstrations are available. Sound-producing examples are an eventual extension, not a requirement for understanding the descriptions.
+**Collection:** Twenty standalone, audio-first lecture manuscripts. The course is instrument-agnostic and its original text scores remain useful before audio demonstrations are available. Sound-producing examples are an eventual extension, not a requirement for understanding the descriptions.
 
 ## Completed and indexed lectures
 
@@ -23,11 +23,16 @@
 | 015000 | [Timbre as Composition: Arrangement, Sound Design, and a First Mix](015000-timbre-arrangement-and-production.md) | 2,001 | 13.8 |
 | 016000 | [The Long Arc: Composing and Revising a Forty-Eight-Bar Work](016000-composing-a-forty-eight-bar-work.md) | 2,100 | 14.5 |
 
+| 017000 | [What a DAW Computes: Samples, Tracks, Routing, and Real-Time Deadlines](017000-what-a-daw-computes.md) | 1,760 | 12.1 |
+| 018000 | [Four Separate Tracks, One Musical Space: Why Mixing Matters](018000-why-independent-stems-need-mixing.md) | 2,011 | 13.9 |
+| 019000 | [A Mix Is a Processing Graph: DawDreamer, Ardour, and the CPU Budget](019000-a-mix-as-a-processing-graph.md) | 1,765 | 12.2 |
+| 020000 | [From Stems to a Finished Master: Monitoring, Loudness, and Reproducible Exports](020000-from-stems-to-a-finished-master.md) | 1,898 | 13.1 |
+
 Word counts are descriptive: they use whitespace-separated words in the narration extractor output, matching the track inventory. Duration is only a rough read-through estimate, not an editorial target.
 
 ## Course approach
 
-The first twelve lectures move from musical pattern, pitch and rhythm through harmonic and contrapuntal construction, phrase/form analysis, modal center, chromatic harmony, polyrhythms and revision of a sixteen-bar study. The four new lectures extend this foundation into changes of tonal home, **carefully scoped** cross-cultural comparison, timbre and production, and a complete 48-bar two-line study.
+The first twelve lectures move from musical pattern, pitch and rhythm through harmonic and contrapuntal construction, phrase/form analysis, modal center, chromatic harmony, polyrhythms and revision of a sixteen-bar study. The next four lectures extend that foundation into changes of tonal home, **carefully scoped** cross-cultural comparison, timbre and production, and a complete 48-bar two-line study. Lectures 017000–020000 then explain PCM audio, DAW routing and scheduling, the musical problem of combining independent stems, the differences between offline DawDreamer processing and Ardour live mixing, and the decisions involved in mastering and delivery.
 
 Examples in `examples/` are optional machine-readable companions to some earlier scores. There is no claim that written pitch grids capture the intonation, ornamentation, idiom, or artistic effect of every musical practice. For traditions best transmitted through performance and listening, further training and direct encounters with sound remain essential.
 

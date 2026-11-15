@@ -400,6 +400,78 @@
       "access": "free_no_login",
       "format": "html",
       "notes": "Musical contrast, sectional roles and practical revision of large-scale songwriting form."
+    },
+    "mt-ardour-signal-flow": {
+      "title": "Ardour Manual, Track/Bus Signal Flow",
+      "kind": "official_technical_manual",
+      "url": "https://manual.ardour.org/signal-routing/signal-flow/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Track and bus processing order, processor routing and flexible input/output channel counts."
+    },
+    "mt-ardour-routing": {
+      "title": "Ardour Manual, Signal Routing",
+      "kind": "official_technical_manual",
+      "url": "https://manual.ardour.org/signal-routing/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Tracks, buses, sends, inserts, monitors, master routes and external connections."
+    },
+    "mt-ardour-latency": {
+      "title": "Ardour Manual, Latency and Latency Compensation",
+      "kind": "official_technical_manual",
+      "url": "https://manual.ardour.org/synchronization/latency-and-latency-compensation/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Buffer periods, xrun conditions, and compensating processor delay."
+    },
+    "mt-ardour-stems": {
+      "title": "Ardour Manual, Stem Exports",
+      "kind": "official_technical_manual",
+      "url": "https://manual.ardour.org/working-with-sessions/interchange-with-other-daws/stem-exports/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Exports with time-aligned silence and optional track/bus processing."
+    },
+    "mt-ardour-loudness": {
+      "title": "Ardour Manual, Loudness Analyzer and Normalizer",
+      "kind": "official_technical_manual",
+      "url": "https://manual.ardour.org/mixing/basic-mixing/loudness-analyzer-and-normalizer/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Sample peak, true peak, integrated loudness, and normalization in context."
+    },
+    "mt-ardour-export": {
+      "title": "Ardour Manual, Export Format Profiles",
+      "kind": "official_technical_manual",
+      "url": "https://manual.ardour.org/exporting/edit-export-format-profile/",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Container and normalization choices during export."
+    },
+    "mt-dawdreamer-guide": {
+      "title": "DawDreamer, Built-in Processors and AddProcessor",
+      "kind": "official_technical_manual",
+      "url": "https://github.com/DBraun/DawDreamer/blob/main/docs/user_guide/other_processors.rst",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "DawDreamer graph-mixer APIs, built-in filters, compressors, reverbs and oscillator testing."
+    },
+    "mt-dawdreamer-threading": {
+      "title": "DawDreamer, Multithreading and Multiprocessing",
+      "kind": "official_technical_manual",
+      "url": "https://github.com/DBraun/DawDreamer/blob/main/docs/user_guide/threading.rst",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "Per-worker RenderEngine ownership and operations releasing the GIL."
+    },
+    "mt-dawdreamer-plugin": {
+      "title": "DawDreamer, Plugin Processor",
+      "kind": "official_technical_manual",
+      "url": "https://github.com/DBraun/DawDreamer/blob/main/docs/user_guide/plugin_processor.rst",
+      "access": "free_no_login",
+      "format": "html",
+      "notes": "VST effects, plugin state, parameter automation and offline rendering."
     }
   }
 }

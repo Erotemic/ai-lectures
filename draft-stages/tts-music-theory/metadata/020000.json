@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-from-stems-to-a-finished-master.md",
+  "related_resources": [
+    {
+      "source_id": "mt-ardour-stems",
+      "reason": "Full timeline stem export and option to include processing."
+    },
+    {
+      "source_id": "mt-ardour-loudness",
+      "reason": "Peak, true peak and loudness measurements."
+    },
+    {
+      "source_id": "mt-ardour-export",
+      "reason": "Normalization and export format settings."
+    },
+    {
+      "source_id": "mt-dawdreamer-plugin",
+      "reason": "Retaining plugin state for more reproducible offline render."
+    },
+    {
+      "source_id": "mt-sos-separation",
+      "reason": "Arrangement as a mixing variable."
+    }
+  ],
+  "historical_claims": []
+}
