@@ -82,3 +82,9 @@ Late-twentieth- and early-twenty-first-century philosophers did not discover one
 - Zupančič (2008): Lacanian/Hegelian philosophical approach to comedy and structures of contradiction; the examples here are analogies, not paraphrases of her specific scenes.
 - Carroll (2014): analytic investigation of theories, comic amusement, and social value.
 - The lectern, anti-bureaucracy committee and improv authorization scenes are original.
+
+## Selected sources and further reading
+
+- Simon Critchley, On Humour (2002). https://www.routledge.com/On-Humour-1st-Edition/Critchley/p/book/9780203870129 (bibliographic/abstract or publisher description; full text may require access)
+- Alenka Zupančič, The Odd One In: On Comedy (2008). https://mitpress.mit.edu/9780262740319/the-odd-one-in/ (bibliographic/abstract or publisher description; full text may require access)
+- Noël Carroll, Humour: A Very Short Introduction (2014). https://doi.org/10.1093/actrade/9780199552221.001.0001 (bibliographic/abstract or publisher description; full text may require access)

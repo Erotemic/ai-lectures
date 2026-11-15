@@ -18,7 +18,7 @@ Older theories of humor were often introduced as rival grand explanations: super
 
 Linguistics supplied a more detailed toolkit. During the twentieth century, scholars described language not merely as strings of words but as an activity involving structured knowledge. We understand a sentence by activating expectations about situations. When someone says, "The customer returned the book," we imagine a shop or library, an object previously borrowed or purchased, and an interaction between people. Much of this knowledge is not spoken. We supply it because the situation seems recognizable.
 
-Victor Raskin's Semantic Script Theory of Humor, developed in his 1985 book, applies this observation to jokes. A script is a structured body of background knowledge: the familiar sequence, roles, and expectations for a situation. A joke can activate two scripts that overlap in the words but oppose each other in some important respect. In the clock exhibit, one script is accurate continuous timekeeping. Another is accurate display at a selected appointment. The shared phrase "correct time" permits both. The guide's final sentence forces the audience to abandon a sensible interpretation of "reliable."
+Victor Raskin's Semantic Script Theory of Humor, developed in his book published in 1984, applies this observation to jokes. A script is a structured body of background knowledge: the familiar sequence, roles, and expectations for a situation. A joke can activate two scripts that overlap in the words but oppose each other in some important respect. In the clock exhibit, one script is accurate continuous timekeeping. Another is accurate display at a selected appointment. The shared phrase "correct time" permits both. The guide's final sentence forces the audience to abandon a sensible interpretation of "reliable."
 
 That account is more precise than saying merely that a surprise occurred. It also suggests a craft method. First establish a plausible script. Then design a later sentence that makes a competing script available and changes the significance of earlier words. But there are limits to the method. Two opposed interpretations are not automatically funny. In a detective story, a clue may support two interpretations and produce suspense. In a medical consultation, ambiguity may produce alarm. Interpretation is part of the mechanism, not a guarantee of comic amusement.
 
@@ -88,3 +88,9 @@ The modern linguistic school contributed something durable: it made the internal
 | Language | Which exact words, order or sound make the version work? |
 
 The order and names derive from Attardo and Raskin's theoretical framework, not from a prescriptive comedic recipe. Museum, library, and committee examples are original inventions.
+
+## Selected sources and further reading
+
+- Victor Raskin, Semantic Mechanisms of Humor (D. Reidel, 1984). https://link.springer.com/book/10.1007/978-94-009-6472-3 (bibliographic/abstract or publisher description; full text may require access)
+- Salvatore Attardo and Victor Raskin, Script theory revis(it)ed: Joke similarity and joke representation model (1991). https://doi.org/10.1515/humr.1991.4.3-4.293 (bibliographic/abstract or publisher description; full text may require access)
+- Salvatore Attardo, The Linguistics of Humor: An Introduction, Chapter 7, The General Theory of Verbal Humor (2020). https://doi.org/10.1093/oso/9780198791270.003.0007 (bibliographic/abstract or publisher description; full text may require access)

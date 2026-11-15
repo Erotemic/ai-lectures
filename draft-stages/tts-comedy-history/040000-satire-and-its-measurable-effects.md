@@ -90,3 +90,9 @@ Our transparency statue remains behind its curtain. The satirist's video may pro
 | A council changed a policy | Documentary decision history | Causation by satire absent comparison of rival causes |
 
 The town, transparency statue, agency, and study-design examples are invented. The identified studies, their reported designs, and their bounded findings are cited in the lecture metadata.
+
+## Selected sources and further reading
+
+- Geoffrey Baym, The Daily Show: Discursive Integration and the Reinvention of Political Journalism (Political Communication, 2005). https://doi.org/10.1080/10584600591006492 (bibliographic/abstract or publisher description; full text may require access)
+- Jody Baumgartner and Jonathan S. Morris, The Daily Show Effect: Candidate Evaluations, Efficacy, and American Youth (American Politics Research, 2006). https://doi.org/10.1177/1532673X05280074 (bibliographic/abstract or publisher description; full text may require access)
+- Heather L. LaMarre, Kristen D. Landreville, and Michael A. Beam, The Irony of Satire (International Journal of Press/Politics, 2009). https://doi.org/10.1177/1940161208330904 (bibliographic/abstract or publisher description; full text may require access)

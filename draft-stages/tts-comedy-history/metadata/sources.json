@@ -57,13 +57,6 @@
       "access": "free_no_login",
       "notes": "Development of Japanese comic partner performance; publicly accessible summary."
     },
-    "ch-met-commedia": {
-      "title": "Metropolitan Museum of Art, Commedia dell’arte",
-      "kind": "museum_essay",
-      "url": "https://www.metmuseum.org/pt/essays/commedia-dellarte",
-      "access": "free_no_login",
-      "notes": "Later European itinerant performance tradition; used for forward comparisons, not ancient origins."
-    },
     "ch-lidova-natya": {
       "title": "Natalia Lidova, Natyashastra (Oxford Bibliographies in Hinduism, 2014)",
       "kind": "scholarly_encyclopedia",
@@ -183,13 +176,6 @@
       "access": "free_no_login",
       "notes": "Kerala performance tradition and vidushaka Malayalam narration; distinguishes living practice and inherited Sanskrit texts."
     },
-    "ch-modern-raskin1985": {
-      "title": "Victor Raskin, Semantic Mechanisms of Humor (1985)",
-      "kind": "scholarly_monograph",
-      "url": "https://link.springer.com/book/10.1007/978-94-009-6472-3",
-      "access": "abstract_or_summary_public_fulltext_may_require_access",
-      "notes": "Semantic Script Theory of Humor; 1984 publishing metadata and 1985 library catalogue date reflect edition records; publisher summary, not full text."
-    },
     "ch-modern-attardo1991": {
       "title": "Salvatore Attardo and Victor Raskin, Script theory revis(it)ed: Joke similarity and joke representation model (1991)",
       "kind": "research_article_abstract",
@@ -205,11 +191,11 @@
       "notes": "Scholarly overview of the six knowledge resources and extensions beyond short jokes."
     },
     "ch-modern-suls1972": {
-      "title": "Jerry M. Suls, A Two-Stage Model for the Appreciation of Jokes and Cartoons (1972)",
-      "kind": "research_chapter_secondary_discussion",
-      "url": "https://www.degruyterbrill.com/document/doi/10.1515/jls-2019-2005/html",
-      "access": "abstract_or_summary_public_fulltext_may_require_access",
-      "notes": "Later scholarly analysis of Suls 1972 two-stage account and limitations of resolution, used as an accessible interpretation of the classic chapter."
+      "title": "Jerry M. Suls, A Two-Stage Model for the Appreciation of Jokes and Cartoons: An Information-Processing Analysis (1972)",
+      "kind": "original_book_chapter_bibliographic_record",
+      "url": "https://doi.org/10.1016/B978-0-12-288950-9.50010-9",
+      "access": "bibliographic_record_full_text_may_require_access",
+      "notes": "Original chapter in The Psychology of Humor: Theoretical Perspectives and Empirical Issues, ed. Goldstein and McGhee, Academic Press (1972), pp. 81-100."
     },
     "ch-modern-ruch1992": {
       "title": "Willibald Ruch, Assessment of Appreciation of Humor: Studies with the 3 WD Humor Test (1992)",
@@ -319,9 +305,9 @@
     "ch-modern-ngai2012": {
       "title": "Sianne Ngai, Our Aesthetic Categories: Zany, Cute, Interesting (2012)",
       "kind": "scholarly_monograph_institutional_summary",
-      "url": "https://english.uchicago.edu/people/sianne-ngai",
+      "url": "https://books.google.com/books/about/Our_Aesthetic_Categories.html?id=Lyz3ugAACAAJ",
       "access": "abstract_or_summary_public_fulltext_may_require_access",
-      "notes": "Academic synopsis of zaniness in relation to labor, performance, aesthetic categories."
+      "notes": "2012 Harvard University Press book record and description; the previous link was an author biography, not a direct book listing."
     },
     "ch-modern-shifman2013": {
       "title": "Limor Shifman, Memes in Digital Culture (2013)",
@@ -447,7 +433,7 @@
       "kind": "primary_pedagogy_publisher",
       "url": "https://nupress.northwestern.edu/9780810140080/improvisation-for-the-theater/",
       "access": "free_public_landing_page_full_text_varies",
-      "notes": "Publisher history and contents; describes focus and theater games, not evidence of effectiveness on every audience."
+      "notes": "First published 1963. Linked Northwestern University Press entry is a revised third edition published 1999, which describes games and side-coaching."
     },
     "ch-improv-johnstone1979": {
       "title": "Keith Johnstone, Impro: Improvisation and the Theatre (1979; Routledge edition)",
@@ -604,11 +590,11 @@
       "notes": "School self-description of parallel paths of movement and improvisation, not independently measured effectiveness."
     },
     "ch-lecoq-embodied2016": {
-      "title": "The embodied performance pedagogy of Jacques Lecoq (2016), scholarly article",
-      "kind": "peer_reviewed_article_public_description",
+      "title": "Rick Kemp, The embodied performance pedagogy of Jacques Lecoq (Connection Science, 2017; online 2016)",
+      "kind": "peer_reviewed_open_article",
       "url": "https://doi.org/10.1080/09540091.2016.1233521",
-      "access": "free_public_landing_page_full_text_varies",
-      "notes": "Publicly indexed discussion identifies Lecoq dramatic territories including clown and grotesque parodies of bouffons; pedagogical interpretations should remain attributed."
+      "access": "free_public_full_text",
+      "notes": "Article published online September 2016 and in journal volume 29 (2017), pp. 94-105. Embodied-cognition interpretation, not empirical proof of a training advantage."
     },
     "ch-sitcom-mills2009": {
       "title": "Brett Mills, The Sitcom (Edinburgh University Press, 2009)",
@@ -630,6 +616,48 @@
       "url": "https://www.cambridge.org/core/books/sitcom/appendix/572CC82768A214903E5471D5ECC58B09",
       "access": "free_public_landing_page_full_text_varies",
       "notes": "Publisher excerpt records qualitative interviews with people working in British television comedy, not a universal writing-room recipe."
+    },
+    "ch-modern-raskin1984": {
+      "title": "Victor Raskin, Semantic Mechanisms of Humor (D. Reidel, 1984)",
+      "kind": "scholarly_monograph",
+      "url": "https://link.springer.com/book/10.1007/978-94-009-6472-3",
+      "access": "abstract_or_summary_public_fulltext_may_require_access",
+      "notes": "Publisher original edition lists 1984 copyright and December 31, 1984 hardcover publication; complete book is not assumed accessible."
+    },
+    "ch-modern-couder2019": {
+      "title": "Olivier Couder, Problem solved? Absurdist humour and incongruity-resolution (2019)",
+      "kind": "peer_reviewed_open_article",
+      "url": "https://doi.org/10.1515/jls-2019-2005",
+      "access": "free_public_full_text",
+      "notes": "Journal of Literary Semantics 48(1):1-21. Scholarly analysis of absurdist literature that critiques extensions of short-joke incongruity-resolution models."
+    },
+    "ch-improv-truth1994": {
+      "title": "Charna Halpern, Del Close, and Kim \"Howard\" Johnson, Truth in Comedy: The Manual of Improvisation (1994)",
+      "kind": "primary_pedagogy_publisher_record",
+      "url": "https://meriwetherpublishing.com/ProductDetail.asp?id=18&pc=TRUTHINCOM",
+      "access": "publisher_description_free_full_text_not_assumed",
+      "notes": "Direct publisher record for 1994 manual and authors, rather than a later obituary."
+    },
+    "ch-modern-hunt2013": {
+      "title": "Leon Hunt, From alternative to cult: mapping post-alternative comedy (2013)",
+      "kind": "scholarly_chapter_abstract",
+      "url": "https://doi.org/10.7228/manchester/9780719083778.003.0001",
+      "access": "free_abstract_full_text_may_require_access",
+      "notes": "Historical analysis of cult television, alternative and post-alternative comedy, niche broadcasting."
+    },
+    "ch-standup-sturges2015": {
+      "title": "Paul Sturges, The Production of Comedy: The Joke in the Age of Social Media (2015)",
+      "kind": "peer_reviewed_open_article",
+      "url": "https://doi.org/10.1177/2158244015612521",
+      "access": "free_public_full_text",
+      "notes": "SAGE Open empirical qualitative study of how interviewed stand-up performers describe joke selection, writing, authenticity, and online testing; not universal generalization."
+    },
+    "ch-hobbes-leviathan1651": {
+      "title": "Thomas Hobbes, Leviathan (1651), Part I, Chapter 6: sudden glory and laughter",
+      "kind": "original_primary_philosophy",
+      "url": "https://en.wikisource.org/wiki/Leviathan_(1651)/Chapter_6",
+      "access": "free_public_text",
+      "notes": "Hobbes primary explanation and criticism of laughter at another person’s failings."
     }
   }
 }

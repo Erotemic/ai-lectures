@@ -80,3 +80,10 @@ Billig's critical theory, Kuipers's sociology of taste, and Krefting's study of 
 4. **Reception:** which groups recognize the joke, laugh, reject it, or reinterpret it?
 
 All examples (meetings, parties, open-mic, accessibility ribbon, prerecorded voices) are original teaching inventions. No research claim is inferred from an invented example.
+
+## Selected sources and further reading
+
+- Michael Billig, Laughter and Ridicule: Towards a Social Critique of Humour (2005). https://www.sagepub.com/shop/buy-a-book/laughter-and-ridicule-1-226971 (bibliographic/abstract or publisher description; full text may require access)
+- Giselinde Kuipers, Television and Taste Hierarchy: The Case of Dutch Television Comedy (2006). https://doi.org/10.1177/0163443706062884 (bibliographic/abstract or publisher description; full text may require access)
+- Sam Friedman and Giselinde Kuipers, The Divisive Power of Humour (2013). https://doi.org/10.1177/1749975513477405 (bibliographic/abstract or publisher description; full text may require access)
+- Rebecca Krefting, All Joking Aside: American Humor and Its Discontents (2014). https://www.press.jhu.edu/books/title/10915/all-joking-aside (bibliographic/abstract or publisher description; full text may require access)

@@ -44,6 +44,8 @@ A writer can test the structure without pretending to predict a room precisely. 
 
 ## The audience is not an instrument that always gives the same reading
 
+A qualitative counterpoint comes from Paul Sturges, who studied joke production through interviews with stand-up comedians and research on social media. The interviewees discussed selecting material from experience and observation, deliberately constructing jokes, and using social platforms to test material or build a public presence. This helps document working methods, but does not establish a universal creative process or prove that a laugh measures authenticity. Responses in a live room and on a social platform can reward different aspects of a performance.
+
 One temptation is to count laughs and declare a theory of what people find funny. Live performance is more difficult than that. Some listeners laugh to show affiliation. Others recognize a joke without laughing. An audience member may refuse a joke because it targets a group they belong to, because they dislike the performer, because the premise is unfamiliar, or because another person beside them has changed the social stakes. Laughter is neither a pure meter of joke quality nor a reliable vote on the moral truth of the premise.
 
 Suppose the Department of Apologies is introduced to an audience of employees who write public-facing notices. They may recognize the professional constraints and hear the routine as a criticism of impossible instructions. An audience of people harmed by a real institutional failure might hear it as minimizing a genuine need for accountability. The same imagined office can become a story about bureaucracy, a story about the limits of formal regret, or a story about people forced to apologize on behalf of systems they cannot control. A performer can make choices that clarify the target. The room can still respond differently.
@@ -72,6 +74,7 @@ The Department of Apologies and all example lines are original teaching material
 
 - Oliver Double, *Getting the Joke: The Inner Workings of Stand-Up Comedy*, 2nd ed. (Bloomsbury, 2014): https://www.bloomsbury.com/us/getting-the-joke-9781408174609/
 - Ian Brodie, *A Vulgar Art: A New Approach to Stand-Up Comedy* (University Press of Mississippi, 2014): https://www.jstor.org/stable/j.ctt9qhmhh
+- Paul Sturges, “The Production of Comedy: The Joke in the Age of Social Media” (*SAGE Open*, 2015), qualitative research: https://doi.org/10.1177/2158244015612521
 - Rebecca Krefting, *All Joking Aside: American Humor and Its Discontents* (Johns Hopkins University Press, 2014): https://www.press.jhu.edu/books/title/10915/all-joking-aside
 
 ### Practice questions

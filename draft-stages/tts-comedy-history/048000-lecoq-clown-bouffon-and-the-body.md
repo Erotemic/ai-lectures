@@ -78,7 +78,7 @@ The sign, museum, guard, and all accompanying scene variants are original illust
 
 - Jacques Lecoq, *The Moving Body: Teaching Creative Theatre* (first English edition, Routledge, 2001): https://www.routledge.com/The-Moving-Body-Teaching-Creative-Theatre/Lecoq-Carasso-Lallias/p/book/9780878301416
 - École internationale de théâtre Jacques Lecoq, “School—Pedagogy”: https://www.ecole-jacqueslecoq.com/school-pedagogy/?lang=en
-- “The embodied performance pedagogy of Jacques Lecoq” (peer-reviewed research article): https://doi.org/10.1080/09540091.2016.1233521
+- Rick Kemp, “The embodied performance pedagogy of Jacques Lecoq” (*Connection Science*, 2017; online 2016): https://doi.org/10.1080/09540091.2016.1233521
 
 ### Optional rehearsal score
 

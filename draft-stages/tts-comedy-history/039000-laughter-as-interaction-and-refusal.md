@@ -101,3 +101,9 @@ Use a recording or an original scene and mark: the proposed humorous line; the p
 | Silent pause | Ambiguous without surrounding actions | What do participants do next? |
 
 The office, dentist, printer, siblings, and train dialogues are original examples. Source claims about conversational laughter and humor support are attributed in the corresponding lecture metadata.
+
+## Selected sources and further reading
+
+- Gail Jefferson, A Technique for Inviting Laughter and its Subsequent Acceptance/Declination (1979). https://liso-archives.liso.ucsb.edu/Jefferson/ (bibliographic/abstract or publisher description; full text may require access)
+- Phillip Glenn, Laughter in Interaction (Cambridge, 2003). https://www.cambridge.org/core/books/laughter-in-interaction/4629463A15293CFEBD21EE70AAC966F2 (bibliographic/abstract or publisher description; full text may require access)
+- Jennifer Hay, The Pragmatics of Humor Support (HUMOR, 2001). https://www.degruyterbrill.com/document/doi/10.1515/humr.14.1.55/html (bibliographic/abstract or publisher description; full text may require access)

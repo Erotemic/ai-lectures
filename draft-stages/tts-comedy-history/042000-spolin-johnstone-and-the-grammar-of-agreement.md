@@ -80,7 +80,7 @@ Afterward, ask which version makes you care about the next line. That is a more 
 
 ## Sources and further reading
 
-- Viola Spolin, *Improvisation for the Theater* (1963; Northwestern University Press edition): https://nupress.northwestern.edu/9780810140080/improvisation-for-the-theater/
+- Viola Spolin, *Improvisation for the Theater* (first published 1963; linked revised third edition 1999): https://nupress.northwestern.edu/9780810140080/improvisation-for-the-theater/
 - Viola Spolin estate/archival site, biography: https://spolin.com/?page_id=212
 - Keith Johnstone, *Impro: Improvisation and the Theatre* (1979; Routledge edition): https://www.routledge.com/impro-improvisation-and-the-theatre/johnstone/p/book/9780878301171
 - International Theatresports Institute, official Johnstone/Theatresports format information: https://www.keithjohnstone.com/theatresports-institute

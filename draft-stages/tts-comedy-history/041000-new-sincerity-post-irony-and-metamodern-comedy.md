@@ -99,3 +99,9 @@ At the end of our opening performance, the cardboard moon finally lights up. The
 | Post-irony | Broad, variably defined usage in criticism and popular discussion | Is sincerity present through absurdity, or is intention simply left ambiguous? |
 
 The cardboard moon, garden, inland lighthouse, toy robot, and public bench scenes are original teaching examples. Scholarship supports the terminology and cited intellectual history, not the invented scenes. These terms are contested aesthetic descriptions, not experimentally validated classifications of jokes.
+
+## Selected sources and further reading
+
+- David Foster Wallace, E Unibus Pluram: Television and U.S. Fiction (Review of Contemporary Fiction, 1993). https://voussoir.net/writing/e_unibus_pluram_1993/e_unibus_pluram.html (bibliographic/abstract or publisher description; full text may require access)
+- Adam Kelly, David Foster Wallace and the New Sincerity in American Fiction (2010). https://pure.york.ac.uk/portal/en/publications/david-foster-wallace-and-the-new-sincerity-in-american-fiction/ (bibliographic/abstract or publisher description; full text may require access)
+- Timotheus Vermeulen and Robin van den Akker, Notes on Metamodernism (Journal of Aesthetics & Culture, 2010). https://www.metamodernism.com/2010/10/24/notes-on-metamodernism/ (bibliographic/abstract or publisher description; full text may require access)

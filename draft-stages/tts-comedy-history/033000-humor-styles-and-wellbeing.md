@@ -80,3 +80,9 @@ The psychological school gives creators and critics a vocabulary for something o
 - **Self-report**, **observed laughter**, **comic appreciation**, **coping outcomes**, and **relationship quality** are different measures.
 - A correlation between styles and wellbeing does not by itself establish which way causation runs.
 - All scenes in the lecture are invented illustrative vignettes, not excerpts from the Humor Styles Questionnaire.
+
+## Selected sources and further reading
+
+- Rod A. Martin and colleagues, Individual Differences in Uses of Humor and Their Relation to Psychological Well-Being (2003). https://doi.org/10.1016/S0092-6566(02)00534-2 (bibliographic/abstract or publisher description; full text may require access)
+- Sonja Heintz and Willibald Ruch, From Four to Nine Styles: An Update on Individual Differences in Humor (2019). https://www.sciencedirect.com/science/article/pii/S0191886918306421 (bibliographic/abstract or publisher description; full text may require access)
+- Jackson G. Lu, Cultural Differences in Humor: A Systematic Review and Critique (2023). https://pubmed.ncbi.nlm.nih.gov/37757489/ (bibliographic/abstract or publisher description; full text may require access)

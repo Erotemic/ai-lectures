@@ -77,3 +77,11 @@ Modern cognitive research has not abolished older theories. It has narrowed and 
 Compare a coherent reversal, an unresolved absurdity, and a harmless norm violation using a single original premise. For each, record the predicted expectation, possible repair inference, perceived stakes, intended target, and what an unfamiliar audience would need to know.
 
 The clock, restaurant, statue, rain-machine, and paperwork examples are invented teaching devices; they are not examples reported in the cited experiments.
+
+## Selected sources and further reading
+
+- Jerry M. Suls, A Two-Stage Model for the Appreciation of Jokes and Cartoons: An Information-Processing Analysis (1972). https://doi.org/10.1016/B978-0-12-288950-9.50010-9 (bibliographic/abstract or publisher description; full text may require access)
+- Willibald Ruch, Assessment of Appreciation of Humor: Studies with the 3 WD Humor Test (1992). https://doi.org/10.5167/uzh-77946 (bibliographic/abstract or publisher description; full text may require access)
+- A. Peter McGraw and Caleb Warren, Benign Violations: Making Immoral Behavior Funny (2010). https://doi.org/10.1177/0956797610376073 (bibliographic/abstract or publisher description; full text may require access)
+- A. Peter McGraw, Caleb Warren, Lawrence E. Williams, and Bridget Leonard, Too Close for Comfort, or Too Far to Care? (2012). https://pubmed.ncbi.nlm.nih.gov/22941877/ (bibliographic/abstract or publisher description; full text may require access)
+- Olivier Couder, Problem solved? Absurdist humour and incongruity-resolution (2019). https://doi.org/10.1515/jls-2019-2005 (open text)

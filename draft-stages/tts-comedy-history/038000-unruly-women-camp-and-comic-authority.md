@@ -97,3 +97,10 @@ The most durable contribution of these modern critical traditions is a richer ac
 | What happens afterward? | Is the disrupted rule abandoned, reaffirmed, commercialized, or revised? |
 
 The Society for Perfect Composure, its hats, and the interview scenes are original teaching inventions. The scholarly sources support the historical and theoretical distinctions rather than these fictional events.
+
+## Selected sources and further reading
+
+- Kathleen Rowe Karlyn, The Unruly Woman: Gender and the Genres of Laughter (1995). https://utpress.utexas.edu/9780292770690/ (bibliographic/abstract or publisher description; full text may require access)
+- Joanne R. Gilbert, Performing Marginality: Humor, Gender, and Cultural Critique (2004). https://wsupress.wayne.edu/9780814328033/ (bibliographic/abstract or publisher description; full text may require access)
+- Susan Sontag, Notes on 'Camp' (Partisan Review, 1964). https://www.bu.edu/partisanreview/books/PR1964V31N4/HTML/files/assets/basic-html/page-515.html (bibliographic/abstract or publisher description; full text may require access)
+- Morris Meyer, ed., The Politics and Poetics of Camp (Routledge, 1994). https://www.routledge.com/The-Politics-and-Poetics-of-Camp/Meyer/p/book/9780203991091 (bibliographic/abstract or publisher description; full text may require access)

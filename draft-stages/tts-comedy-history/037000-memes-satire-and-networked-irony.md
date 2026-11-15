@@ -98,3 +98,9 @@ The early twenty-first century did not invent irony, satire, or collaborative co
 | Evidence | Does popularity tell us anything about whether attitudes or actions changed? |
 
 All city and kiosk examples are invented. Digital-culture scholarship supports the conceptual distinctions, not the fictional events.
+
+## Selected sources and further reading
+
+- Limor Shifman, Memes in Digital Culture (2013). https://mitpress.mit.edu/9780262525435/memes-in-digital-culture/ (bibliographic/abstract or publisher description; full text may require access)
+- Whitney Phillips, This Is Why We Can’t Have Nice Things (2015). https://mitpress.mit.edu/9780262028943/this-is-why-we-cant-have-nice-things/ (bibliographic/abstract or publisher description; full text may require access)
+- James E. Caron, Satire and the Problem of Comic Laughter (2020). https://doi.org/10.1080/2040610X.2020.1729485 (bibliographic/abstract or publisher description; full text may require access)

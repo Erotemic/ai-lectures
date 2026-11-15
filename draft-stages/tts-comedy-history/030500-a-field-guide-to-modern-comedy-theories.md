@@ -228,9 +228,11 @@ The continuous museum story is **invented for teaching**. It is not a report abo
 ### Research orientation and further reading
 
 - John Morreall, “Philosophy of Humor,” *Stanford Encyclopedia of Philosophy*. https://plato.stanford.edu/entries/humor/
-- Victor Raskin, *Semantic Mechanisms of Humor* (1985). https://link.springer.com/book/10.1007/978-94-009-6472-3
+- Victor Raskin, *Semantic Mechanisms of Humor* (1984). https://link.springer.com/book/10.1007/978-94-009-6472-3
 - Salvatore Attardo and Victor Raskin, “Script theory revis(it)ed” (1991). https://doi.org/10.1515/humr.1991.4.3-4.293
 - Salvatore Attardo, *The Linguistics of Humor* (2020), chapter on the General Theory of Verbal Humor. https://doi.org/10.1093/oso/9780198791270.003.0007
+- Jerry M. Suls, “A Two-Stage Model for the Appreciation of Jokes and Cartoons” (1972), original chapter. https://doi.org/10.1016/B978-0-12-288950-9.50010-9
+- Olivier Couder, “Problem solved? Absurdist humour and incongruity-resolution” (2019), a later critique. https://doi.org/10.1515/jls-2019-2005
 - Matthew Hurley, Daniel Dennett, and Reginald Adams, *Inside Jokes* (2011). https://mitpress.mit.edu/9780262518697/inside-jokes/
 - A. Peter McGraw and Caleb Warren, “Benign Violations” (2010). https://doi.org/10.1177/0956797610376073
 - Rod A. Martin and colleagues, “Individual differences in uses of humor” (2003). https://doi.org/10.1016/S0092-6566(02)00534-2

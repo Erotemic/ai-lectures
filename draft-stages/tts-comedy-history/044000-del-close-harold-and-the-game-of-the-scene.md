@@ -85,7 +85,8 @@ The Harold's enduring lesson is not a compulsory arrangement of rounds and games
 ## Sources and further reading
 
 - iO Theater, institutional history: https://ioimprov.com/about-us/
-- Halpern, Close, and Kim “Howard” Johnson, *Truth in Comedy* (1994); background on form: https://www.latimes.com/archives/la-xpm-1999-mar-08-me-15171-story.html
+- Halpern, Close, and Kim “Howard” Johnson, *Truth in Comedy* (1994), publisher listing: https://meriwetherpublishing.com/ProductDetail.asp?id=18&pc=TRUTHINCOM
+- *Los Angeles Times* (1999), Del Close obituary and independent biographical context: https://www.latimes.com/archives/la-xpm-1999-mar-08-me-15171-story.html
 - Upright Citizens Brigade, *Comedy Improvisation Manual* description: https://ucbcomedy.com/improvisation-manual/
 - Del Close, research-archive historical overview: https://improvarchive.org/people/del-close
 - R. Keith Sawyer, “Group Creativity: Musical Performance and Collaboration” (2006), abstract: https://doi.org/10.1177/0305735606061850

@@ -22,7 +22,7 @@ Consider what it means for comedy to have an institution. A venue decides who pe
 
 The relationship between form and politics is not automatic. A surreal rant might subvert familiar comic logic without challenging any social hierarchy. A tightly written conventional joke could expose an unjust institution. But opening new venues and questioning established material can change who gets to write and who gets heard. That is a serious artistic change, even when some acts are better than others.
 
-A contemporary academic account by Oliver Double and Neil Washbourne describes British alternative comedy as arising from 1979 in criticism of perceived racism, sexism, and restricted creativity in established club comedy. Lloyd Peters has stressed the danger of simplified origin stories. Those descriptions help us distinguish a historically documented scene from a myth of pure innovation.
+A contemporary academic account by Oliver Double and Neil Washbourne describes British alternative comedy as arising from 1979 in criticism of perceived racism, sexism, and restricted creativity in established club comedy. Lloyd Peters has stressed the danger of simplified origin stories. Leon Hunt, writing about post-alternative comedy, also directs attention to niche broadcasting and cult television rather than a single replacement of one joke style by another. Those descriptions help us distinguish historically situated scenes from a myth of pure innovation.
 
 ## Anti-comedy is a contract with an audience
 
@@ -89,3 +89,10 @@ The best contemporary comedy scholarship preserves both claims. Institutions and
 - **Zany:** an aesthetic category studied in relation to performance and labor, not a comedy club faction.
 
 The table performer, corporate facilitator, spokesperson and manager are invented cases. The historical discussion of British alternative comedy is based on documented scholarship, not an assumption that all performers shared the same politics or technique.
+
+## Selected sources and further reading
+
+- Oliver Double and Neil Washbourne, Stand-Up in the United Kingdom (2025). https://www.cambridge.org/core/books/abs/cambridge-companion-to-standup-comedy/standup-in-the-united-kingdom/873C10058A32AA3B8BFD01CA325F89ED (bibliographic/abstract or publisher description; full text may require access)
+- Lloyd Peters, The Roots of Alternative Comedy? (2013/2014). https://doi.org/10.1386/cost.4.1.5_1 (bibliographic/abstract or publisher description; full text may require access)
+- Sianne Ngai, Our Aesthetic Categories: Zany, Cute, Interesting (2012). https://books.google.com/books/about/Our_Aesthetic_Categories.html?id=Lyz3ugAACAAJ (bibliographic/abstract or publisher description; full text may require access)
+- Leon Hunt, From alternative to cult: mapping post-alternative comedy (2013). https://doi.org/10.7228/manchester/9780719083778.003.0001 (bibliographic/abstract or publisher description; full text may require access)

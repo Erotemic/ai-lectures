@@ -16,7 +16,7 @@ We need a map that respects that complexity. The classic philosophical families 
 
 Imagine a man entering a town hall in an expensive suit. He approaches a microphone to announce that he alone understands how the new public transport system works. The microphone is not connected. He continues speaking with magnificent confidence while the crowd gradually leaves. One source of amusement is that he has claimed exceptional competence and exposed his own ignorance. The distance between his self-image and his performance lets the audience feel temporarily above him.
 
-This resembles what is now called superiority theory. Ancient discussions of laughter often linked the laughable to human deficiencies or misplaced pretensions. Thomas Hobbes famously analyzed laughter in terms of a sudden experience of one's own advantage, although his formulation was more specific than the casual phrase 'laughing at people.' Such accounts illuminate ridicule, humiliation, competitive joking, and the pleasure of puncturing arrogance. Political satire can use exactly this move: it shrinks an official who presents himself as enormous.
+This resembles what is now called superiority theory. Ancient discussions of laughter often linked the laughable to human deficiencies or misplaced pretensions. In *Leviathan*, Thomas Hobbes described laughter in terms of sudden glory, including the perception of one's relative advantage over another. His formulation was more specific, and often less flattering to the person laughing, than the casual phrase 'laughing at people.' Such accounts illuminate ridicule, humiliation, competitive joking, and the pleasure of puncturing arrogance. Political satire can use exactly this move: it shrinks an official who presents himself as enormous.
 
 But the theory is neither necessary nor sufficient for humor. We can feel superior to someone without laughing. We can laugh when a tiny character outsmarts a powerful one, feeling admiration rather than superiority. We can laugh at ourselves while still feeling embarrassed, or enjoy wordplay without imagining a person beneath us. Even in the town-hall scene, different spectators may respond differently. A supporter of the official may feel secondhand humiliation. A passerby may laugh only when the microphone squeals and startles everyone. A victim of the official's policies may find the humiliation insufficient.
 
@@ -101,6 +101,9 @@ Our imaginary department promised unexpected events while demanding appointments
 <!-- END SPOKEN LECTURE -->
 
 ## Analytical companion (display only)
+
+Thomas Hobbes, *Leviathan* (1651), Part I, Chapter 6, original “sudden glory” passage: https://en.wikisource.org/wiki/Leviathan_(1651)/Chapter_6
+
 
 ### Competing explanatory lenses
 

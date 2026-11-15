@@ -38,6 +38,8 @@ A frequent debate about confessional comedy asks whether the stories are factual
 
 Imagine the family historian says, “My uncle corrected the date of my graduation even though he did not attend.” If this describes a real person whose reputation is implicated, we might ask whether the event occurred. If the line functions as a general portrait of relatives who insist on authority without evidence, the performer could signal exaggeration or invention. The important artistic question is not whether comedy earns a universal exemption from truth. It is how a performance negotiates a promise to be believed.
 
+A study of working comics adds a useful complication. In 2015 Paul Sturges reported that interviewed stand-up performers wanted material to sound like their own voice, rather than simply to produce a laugh. This tells us how those performers described their craft. It does not establish that an audience can infer a speaker’s private self from a crafted public routine. The editing needed to create an impression of spontaneity may be substantial.
+
 “Authenticity” is another slippery word. A casual delivery may feel authentic because it resembles talk among friends. A visibly stylized delivery can communicate an equally personal point of view. A comedian might repeat a routine nightly and still discover something emotionally true in its performance. Conversely, an apparently spontaneous confession can be calculated to create an image that serves the speaker. One can make this distinction without disparaging calculation: an actor's craft is often the means by which a feeling becomes communicable.
 
 Oliver Double's analysis of stand-up pays attention to persona, presence, and the comedian's relation to the audience. In those terms, “the real me” is not a simple stage direction. It is an interpretive agreement. The comic self must be coherent enough for the audience to follow, permeable enough for the performance to change, and accountable enough that humor does not become a pretext for making unsupported factual accusations.
@@ -82,6 +84,7 @@ The family historian, exhibition, notebook dialogue, and all scene variants are 
 - Joanne R. Gilbert, “Performing marginality: Comedy, identity, and cultural critique” (1997), *Text and Performance Quarterly* 17(4): https://doi.org/10.1080/10462939709366196
 - Ian Brodie, *A Vulgar Art* (2014), especially the public abstract for chapter 4 on the performance of self: https://academic.oup.com/mississippi-scholarship-online/book/29800/chapter-abstract/252018155
 - Rebecca Krefting, *All Joking Aside* (2014): https://www.press.jhu.edu/books/title/10915/all-joking-aside
+- Paul Sturges, “The Production of Comedy: The Joke in the Age of Social Media” (2015): https://doi.org/10.1177/2158244015612521
 - Oliver Double, *Getting the Joke* (2014): https://www.bloomsbury.com/us/getting-the-joke-9781408174609/
 
 ### Writing laboratory
