@@ -129,6 +129,21 @@ examples or documentation. Use only approved reference names in shared
 examples. Raw voice recordings remain untracked even when their basenames
 are approved for documentation.
 
+## Independent content pack handoffs
+
+Content authoring can continue independently of the library refactor. Read
+[the handoff guide](docs/agent-content-handoff.md) when preparing or integrating
+agent source snapshots. Each content agent should own an explicit pack directory;
+keep its manuscripts, metadata, source records, and examples together. Existing
+source paths remain supported; new packs can use `content/<namespace>/`.
+
+Use `tools/content_overlay.py` to produce source snapshots and base-hash-checked
+overlays. Do not overwrite the repository with a returned ZIP. Content-only
+overlays must not modify shared server code, global registries, or machine state.
+Runtime pack files are exporter outputs, not an authoring contract that agents
+need to hand-maintain. The specialized World History merge rules below continue
+to apply to concurrent additions within that shared track.
+
 ## Concurrent World History lecture work
 
 The World History audio track accepts contributions from multiple agents.

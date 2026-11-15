@@ -39,3 +39,7 @@ slides-*/
 /library-data/
 /ailectures/*.egg-info/
 /ailectures/build/
+
+# Source handoff receipts and local overlay integration locks.
+/SOURCE_SNAPSHOT.json
+/.content-overlay.lock

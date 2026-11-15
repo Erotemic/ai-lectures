@@ -1,6 +1,7 @@
 """Portable releases, live discovery, and concurrent activation invariants."""
 
 from concurrent.futures import ThreadPoolExecutor
+from contextlib import nullcontext
 from copy import deepcopy
 import json
 from pathlib import Path
@@ -201,7 +202,12 @@ def test_invalid_candidate_and_checksum_preserve_active(tmp_path):
 def test_archive_paths_and_duplicate_entries_are_rejected(tmp_path):
     for index, paths in enumerate([["../escape"], ["catalog.json", "catalog.json"]]):
         archive = tmp_path / f"bad{index}.zip"
-        with ZipFile(archive, "w") as stream:
+        expected_warning = (
+            pytest.warns(UserWarning, match="Duplicate name")
+            if len(paths) > 1
+            else nullcontext()
+        )
+        with expected_warning, ZipFile(archive, "w") as stream:
             for path in paths:
                 stream.writestr(path, "bad")
         with pytest.raises(ValueError):

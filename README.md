@@ -30,6 +30,7 @@ records the origin and mathematical goals of the initial curriculum.
 
 | Task | Read or edit |
 | --- | --- |
+| Hand source work to independent content agents | [Source handoff and overlay guide](docs/agent-content-handoff.md) |
 | Install or export packs and use the unified library | [Content pack guide](docs/content-packs.md) |
 | Plan portable content packs, library navigation, and listener progress | [Audio first library refactor plan](docs/planning/content-packs-and-library-refactor.md) |
 | Write or revise lecture content | [Lecture style rules](LECTURE_STYLE_RULES.md), then the [authoring guide](dkvis/learning/README.md) |
