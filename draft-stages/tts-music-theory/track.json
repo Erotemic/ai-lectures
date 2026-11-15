@@ -1,7 +1,7 @@
 {
   "id": "music-theory",
   "title": "Music Theory and Composition",
-  "summary": "An instrument-agnostic introduction to hearing and composing musical relationships: melody, rhythm, harmony, voice leading, cadence, voicing, form, and arrangement, with reproducible original text scores and optional guitar and keyboard examples.",
+  "summary": "A standalone, instrument-agnostic course in melody, rhythmic design, harmony, voice leading, phrasing, modal centers, chromatic color, interlocking cycles, form and composition revision. Original event grids permit study without audio; guitar and keyboard are optional examples.",
   "assumed_background": [
     "General audience; no notation, instrument, or earlier music theory required."
   ],
@@ -13,7 +13,11 @@
     "counterpoint-and-lines",
     "phrasing-and-cadences",
     "harmonic-color",
-    "form-and-arrangement"
+    "form-and-arrangement",
+    "modal-centers",
+    "chromatic-harmony",
+    "rhythmic-cycles",
+    "composition-workshop"
   ],
   "lectures": [
     {
@@ -87,6 +91,42 @@
       "spoken_words": 2679,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 18.5
+    },
+    {
+      "id": "009000",
+      "title": "Modes, Tonal Centers, and Pitch Collections: The Same Notes, a Different Home",
+      "section": "modal-centers",
+      "file": "009000-modes-tonal-centers-and-pitch-collections.md",
+      "spoken_words": 1756,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.1
+    },
+    {
+      "id": "010000",
+      "title": "Chromatic Harmony: Borrowed Colors and Temporary Destinations",
+      "section": "chromatic-harmony",
+      "file": "010000-chromatic-harmony-and-borrowed-colors.md",
+      "spoken_words": 1730,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.9
+    },
+    {
+      "id": "011000",
+      "title": "Unequal Beats and Interlocking Cycles: Meter Beyond Four",
+      "section": "rhythmic-cycles",
+      "file": "011000-additive-meter-polyrhythm-and-rhythmic-cycles.md",
+      "spoken_words": 1919,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.2
+    },
+    {
+      "id": "012000",
+      "title": "From Sketch to Piece: Variation, Contrast, and Musical Revision",
+      "section": "composition-workshop",
+      "file": "012000-composition-workshop-variation-and-revision.md",
+      "spoken_words": 2407,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.6
     }
   ]
 }
