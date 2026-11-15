@@ -93,3 +93,24 @@ global topology. Montel compactness leads to Hurwitz zero-stability and
 Vitali convergence, with finite-valued versus spherical normal-family
 conventions explained. Each lesson has a proof-and-exercise companion and
 track-local references. No lecture duration or word-count threshold is used.
+
+## Conformal geometry, the Riemann map and boundary behavior (025000–028000)
+
+- 025000 — Möbius Transformations: Moving the Plane Without Tearing Its Angles
+- 026000 — Conformal Geometry: Angles, Coordinate Changes, and Hyperbolic Distance
+- 027000 — The Riemann Mapping Theorem: A Shape-Free Disk and a Proof by Extremality
+- 028000 — Beyond the Riemann Map: Boundaries, Corners, and the Limits of Equivalence
+
+The material derives Möbius and disk automorphism structure, the curvature-minus-one
+Poincaré metrics and Schwarz–Pick contraction, the full normalized Riemann mapping
+theorem via extremal derivatives and a missed-point square-root contradiction, and
+boundary extension under Jordan hypotheses. The last lecture treats slit-boundary
+prime ends, Schwarz–Christoffel corner exponents, the transported Poisson solution
+to the Dirichlet problem, and the topological/conformal obstructions caused by
+annuli. The speaker-facing prose does not assume a screen; exact display-only
+mathematics, counterexamples, exercises and references follow each spoken region.
+Word counts and time estimates are **descriptive metadata only**, never a quota.
+
+Next possible material: conformal capacity and extremal length, elliptic
+functions and doubly connected uniformization, or a return to real-variable
+analysis via measure and Lebesgue integration. No planned manuscripts are indexed.

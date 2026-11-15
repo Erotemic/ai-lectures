@@ -1,7 +1,7 @@
 {
   "id": "analysis",
   "title": "Analysis from First Principles",
-  "summary": "Real and complex analysis from rigorous limits and integration through metric-space convergence, Cauchy theory, analytic continuation, residues, mapping principles, harmonic functions, and normal families.",
+  "summary": "Real and complex analysis from limits and completeness through rigorous calculus, metric spaces, holomorphic functions, Cauchy theory, residues, mapping principles, normal families, Möbius transformations, hyperbolic geometry, the Riemann mapping theorem, and conformal boundary behavior.",
   "assumed_background": [
     "Elementary algebra, inequalities, and familiarity with fractions"
   ],
@@ -23,7 +23,11 @@
     "maximum-principles",
     "holomorphic-mappings",
     "harmonic-functions",
-    "normal-families"
+    "normal-families",
+    "mobius-transformations",
+    "conformal-geometry",
+    "riemann-mapping",
+    "boundary-conformal-mapping"
   ],
   "lectures": [
     {
@@ -241,6 +245,42 @@
       "spoken_words": 2386,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 16.5
+    },
+    {
+      "id": "025000",
+      "title": "Möbius Transformations: Moving the Plane Without Tearing Its Angles",
+      "section": "mobius-transformations",
+      "file": "025000-mobius-transformations-and-sphere.md",
+      "spoken_words": 2020,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.9
+    },
+    {
+      "id": "026000",
+      "title": "Conformal Geometry: Angles, Coordinate Changes, and Hyperbolic Distance",
+      "section": "conformal-geometry",
+      "file": "026000-conformal-geometry-and-hyperbolic-distance.md",
+      "spoken_words": 2066,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.2
+    },
+    {
+      "id": "027000",
+      "title": "The Riemann Mapping Theorem: A Shape-Free Disk and a Proof by Extremality",
+      "section": "riemann-mapping",
+      "file": "027000-riemann-mapping-theorem-proof.md",
+      "spoken_words": 2348,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.2
+    },
+    {
+      "id": "028000",
+      "title": "Beyond the Riemann Map: Boundaries, Corners, and the Limits of Equivalence",
+      "section": "boundary-conformal-mapping",
+      "file": "028000-boundaries-and-conformal-mapping-limits.md",
+      "spoken_words": 2474,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.1
     }
   ]
 }

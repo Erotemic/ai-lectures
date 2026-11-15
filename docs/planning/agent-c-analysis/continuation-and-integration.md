@@ -115,3 +115,26 @@ Potential future topics: conformal maps, Möbius and Riemann surfaces, a
 carefully staged proof of the Riemann mapping theorem, and then selected
 analytic applications. Avoid assuming a global harmonic conjugate on domains
 with holes, or uniform convergence right up to an open domain's boundary.
+
+## Completed conformal mapping and domain-boundary sequence: 025000–028000
+
+| ID | Topic | Theorem and proof responsibility |
+| --- | --- | --- |
+| 025000 | Möbius maps and sphere | Nonzero determinant, global inverses, circles and lines, Cayley transform, disk automorphism classification |
+| 026000 | Hyperbolic conformal geometry | Wedge/strip maps, line elements and disk automorphism invariance, Schwarz–Pick contraction |
+| 027000 | Riemann mapping theorem | Bounded injection from omitted point via square root; Montel extremizer; Hurwitz preserves injectivity; missed point yields strict derivative gain; normalization uniqueness |
+| 028000 | Boundary behavior and applications | Carathéodory for Jordan domains; slit and prime-end caveats; Schwarz–Christoffel local exponents; Dirichlet solution by Poisson transport; annular modulus |
+
+**Overlay dependency:** Apply after the 021000–024000 Agent C overlay. It replaces
+only the track-local manifest, README, source bibliography, this Agent C planning
+file, and creates four lecture manuscripts and corresponding metadata sidecars.
+The installer should reject other-agent directories. No global tests or runtime
+length requirements are changed. This completes 28 present, fully indexed lectures.
+The recorded word counts are facts about extracted spoken text, not targets.
+The Riemann mapping lecture states a complete extremal proof including the
+strict derivative factor `(1+r*r)/(2*r)>1` when `0<r<1`, and distinguishes
+interior existence from separately proved Jordan-boundary continuity.
+
+Potential further mathematics: distortion estimates, univalent-function
+coefficient bounds, harmonic measure beyond Jordan domains, conformal modulus,
+quasiconformal mappings, and real-variable measure theory.
