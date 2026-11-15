@@ -12,12 +12,21 @@
 
 - 004000: [Inductive Types, Recursion, and Structural Induction: Building Proofs from Constructors](004000-inductive-types-and-recursion.md) (3,223 spoken words; ~22 minutes).
 
+- 005000: [When Are Two Expressions the Same? Computation and Equality](005000-judgmental-and-propositional-equality.md).
+- 006000: [Rewriting and Transport: Moving Evidence Across Equality](006000-rewriting-transport-and-dependent-evidence.md).
+- 007000: [Dependent Pattern Matching: Why Some Cases Cannot Happen](007000-dependent-pattern-matching.md).
+- 008000: [What Does a Proof Assistant Actually Check? Elaboration, Kernels, and Meaning](008000-proof-assistants-kernels-and-meaning.md).
+
+## Editorial progression
+
+The first four lectures establish propositions-as-types, natural deduction, dependent quantifiers, and inductive types. Lectures five through eight deepen the technical foundations: two notions of equality; substitution in indexed families; dependent case splits; and the distinction between theorem statements, elaboration, checked core terms, declared axioms, and semantic correctness. The source examples are explanatory; no claim is made that displayed Lean snippets were compiled in this release.
+
 ## Planned continuation
 
-- 005000: Equality, Rewriting, and Definitional Computation
-- 006000: Constructive and Classical Mathematics
-- 007000: Universes, Axioms, and Consistency
-- 008000: Formal Specifications and Verified Algorithms
+- 009000: Constructive and Classical Mathematics — witnesses, excluded middle, and executable content
+- 010000: Universes, Axioms, and Consistency — consistency strength and relative interpretations
+- 011000: Formal Specifications and Verified Algorithms — refinement, termination, and implementation correspondence
+- 012000: Inductive Relations and Operational Semantics — small-step evaluation and subject reduction
 
 The remaining titles are planning proposals.
 

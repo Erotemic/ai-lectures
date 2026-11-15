@@ -56,6 +56,62 @@
       "url": "https://lean-lang.org/theorem_proving_in_lean4/Quantifiers-and-Equality/",
       "access": "free_no_login",
       "notes": "Forall, Exists, and differences from dependent data."
+    },
+    "lt-lean-equality": {
+      "title": "Theorem Proving in Lean 4 — Quantifiers and Equality",
+      "kind": "official_documentation",
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/Quantifiers-and-Equality/",
+      "access": "free_no_login",
+      "notes": "Eq, substitution, congruence, calculational and rewrite proofs."
+    },
+    "lt-lean-induction": {
+      "title": "Theorem Proving in Lean 4 — Induction and Recursion",
+      "kind": "official_documentation",
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/Induction-and-Recursion/",
+      "access": "free_no_login",
+      "notes": "Recursors, elaboration and dependent pattern matching over indexed families."
+    },
+    "lt-lean-inductives": {
+      "title": "Theorem Proving in Lean 4 — Inductive Types",
+      "kind": "official_documentation",
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/Inductive-Types/",
+      "access": "free_no_login",
+      "notes": "Equality as inductive family, Eq.rec and Eq.subst."
+    },
+    "lt-lean-patterns": {
+      "title": "Lean 4 Language Reference — Terms: Pattern Matching",
+      "kind": "official_documentation",
+      "url": "https://lean-lang.org/doc/reference/latest/Terms/Pattern-Matching/",
+      "access": "free_no_login",
+      "notes": "Dependent match motives, inaccessible patterns and elaboration."
+    },
+    "lt-lean-axioms": {
+      "title": "Lean 4 Language Reference — Axioms",
+      "kind": "official_documentation",
+      "url": "https://lean-lang.org/doc/reference/latest/Axioms/",
+      "access": "free_no_login",
+      "notes": "Choice, proposition extensionality, Quot.sound, sorryAx and native evaluation."
+    },
+    "lt-lean-computation": {
+      "title": "Theorem Proving in Lean 4 — Axioms and Computation",
+      "kind": "official_documentation",
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/Axioms-and-Computation/",
+      "access": "free_no_login",
+      "notes": "Classical reasoning, axioms, evaluation and computation."
+    },
+    "lt-hott": {
+      "title": "The Univalent Foundations Program — Homotopy Type Theory: Univalent Foundations of Mathematics (2013)",
+      "kind": "scholarly_textbook",
+      "url": "https://homotopytypetheory.org/book/",
+      "access": "free_no_login",
+      "notes": "Path induction and transport; a foundation with rich identity structure distinct from Lean proof irrelevance."
+    },
+    "lt-lean-dependent": {
+      "title": "Theorem Proving in Lean 4 — Dependent Type Theory",
+      "kind": "official_documentation",
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/Dependent-Type-Theory/",
+      "access": "free_no_login",
+      "notes": "Universe levels, indexed families, Pi and Sigma types and type-checking judgments."
     }
   }
 }

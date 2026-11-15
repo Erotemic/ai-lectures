@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-proof-assistants-kernels-and-meaning.md",
+  "related_resources": [
+    {
+      "source_id": "lt-lean-book",
+      "reason": "Theorem proving in Lean and its architecture"
+    },
+    {
+      "source_id": "lt-lean-axioms",
+      "reason": "Choice, propext, Quot.sound, sorryAx and native evaluation"
+    },
+    {
+      "source_id": "lt-lean-computation",
+      "reason": "Axioms and computational interpretation"
+    },
+    {
+      "source_id": "lt-pierce",
+      "reason": "Typing judgments and operational semantics"
+    },
+    {
+      "source_id": "lt-lean-dependent",
+      "reason": "Universe stratification"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "008000-s01",
+      "anchor": "The kernel checks typing and definitional conversion.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "lt-lean-book",
+        "lt-lean-axioms"
+      ],
+      "source_locator": "Foundational exposition and reference rules",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

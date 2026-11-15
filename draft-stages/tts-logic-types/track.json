@@ -9,7 +9,11 @@
     "proofs-as-objects",
     "proof-normalization",
     "dependent-quantifiers",
-    "inductive-structures"
+    "inductive-structures",
+    "judgmental-and-propositional-equality",
+    "transport-and-rewriting",
+    "dependent-pattern-matching",
+    "proof-assistant-semantics"
   ],
   "lectures": [
     {
@@ -47,6 +51,42 @@
       "spoken_words": 3223,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 22.2
+    },
+    {
+      "id": "005000",
+      "title": "When Are Two Expressions the Same? Computation and Equality",
+      "section": "judgmental-and-propositional-equality",
+      "file": "005000-judgmental-and-propositional-equality.md",
+      "spoken_words": 2127,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.7
+    },
+    {
+      "id": "006000",
+      "title": "Rewriting and Transport: Moving Evidence Across Equality",
+      "section": "transport-and-rewriting",
+      "file": "006000-rewriting-transport-and-dependent-evidence.md",
+      "spoken_words": 2266,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.6
+    },
+    {
+      "id": "007000",
+      "title": "Dependent Pattern Matching: Why Some Cases Cannot Happen",
+      "section": "dependent-pattern-matching",
+      "file": "007000-dependent-pattern-matching.md",
+      "spoken_words": 2435,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.8
+    },
+    {
+      "id": "008000",
+      "title": "What Does a Proof Assistant Actually Check? Elaboration, Kernels, and Meaning",
+      "section": "proof-assistant-semantics",
+      "file": "008000-proof-assistants-kernels-and-meaning.md",
+      "spoken_words": 2620,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 18.1
     }
   ]
 }

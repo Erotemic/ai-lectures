@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-dependent-pattern-matching.md",
+  "related_resources": [
+    {
+      "source_id": "lt-lean-induction",
+      "reason": "Index refinement, motives and impossible vector branches"
+    },
+    {
+      "source_id": "lt-lean-patterns",
+      "reason": "Reference description of elaborated dependent pattern matching"
+    },
+    {
+      "source_id": "lt-martinlof",
+      "reason": "Inductive families and eliminators"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "007000-s01",
+      "anchor": "The empty branch has no valid input; the cons branch exposes exactly the data we need.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "lt-lean-induction",
+        "lt-lean-patterns"
+      ],
+      "source_locator": "Foundational exposition and reference rules",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-judgmental-and-propositional-equality.md",
+  "related_resources": [
+    {
+      "source_id": "lt-lean-equality",
+      "reason": "Definitional versus propositional equality, reflexivity and congruence"
+    },
+    {
+      "source_id": "lt-lean-inductives",
+      "reason": "Eq.rec and identity elimination"
+    },
+    {
+      "source_id": "lt-martinlof",
+      "reason": "Computation and intensional equality"
+    },
+    {
+      "source_id": "lt-hott",
+      "reason": "Contrast with higher identity paths"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "005000-s01",
+      "anchor": "Computation tells the checker which expressions coincide by its own rules.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "lt-lean-equality",
+        "lt-lean-inductives"
+      ],
+      "source_locator": "Foundational exposition and reference rules",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

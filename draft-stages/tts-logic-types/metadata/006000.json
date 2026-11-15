@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-rewriting-transport-and-dependent-evidence.md",
+  "related_resources": [
+    {
+      "source_id": "lt-lean-equality",
+      "reason": "Rewriting, substituting equal terms and congruence"
+    },
+    {
+      "source_id": "lt-lean-inductives",
+      "reason": "Equality recursor and transport"
+    },
+    {
+      "source_id": "lt-hott",
+      "reason": "Transport composition and path action"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "006000-s01",
+      "anchor": "The theorem tells us why the step is allowed.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "lt-lean-equality",
+        "lt-lean-inductives"
+      ],
+      "source_locator": "Foundational exposition and reference rules",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
