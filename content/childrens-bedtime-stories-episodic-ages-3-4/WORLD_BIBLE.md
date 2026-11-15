@@ -1,6 +1,6 @@
 # Willow Bend world bible — continuity authority
 
-For editors and later agents. **Not part of TTS narration.** This is the canonical record for what happens across episodes 001000–006000. Before adding an episode, reconcile its opening state with the final state below.
+For editors and later agents. **Not part of TTS narration.** This is the canonical record for what happens across episodes 001000–012000. Before adding an episode, reconcile its opening state with the final state below.
 
 ## The world
 
@@ -67,3 +67,42 @@ Keep family assumptions limited to what is written. Do not invent a missing pare
 - Be careful around creek/pond, climbing, powered lights, food, and tools. Adults remain responsible for appropriate supervision. The story is not a how-to for unsupervised crafts.
 - Age range remains 3–4, with primary age three. Don't impose a fixed lecture or story duration.
 - Source links, evidence limits, prompts, and continuity notes belong **outside spoken markers**. Avoid runtime TTS directions, recaps by narrator saying “previously on,” or character-voice instructions inside the story.
+
+
+## Season two - Beyond Bell Hill (007000-012000)
+
+**Continuity update, not spoken.** Season one remains complete. Season two follows directly from the empty space on Tess's map past Bell Hill. It ends with a **completed** ribbon picnic, not a cliffhanger.
+
+### Expanded geography and people
+
+- From Village Green walk west past Blue Door Cottage, climb Bell Hill, rest at its halfway bench, cross its rounded crest, and descend the *same path* into **Far Meadow**. The meadow lies west of Bell Hill. The creek and Pebble Bridge remain to the east of the Green; do not place the creek beneath Far Meadow or invent a second crossing.
+- **Windbreak Tree:** a broad tree in Far Meadow with one conspicuously sideways-growing branch; tall grass sometimes makes wave patterns nearby. The tree creates a sheltered side.
+- **Sitting Stone:** broad, flat stone by the Windbreak Tree. Episode 008000 uses it for an *imaginary Pocket Museum*. Tess draws a small **spoon symbol** by the stone to remember the joke. The museum is not a permanent building.
+- **Clover Nook:** a quiet, open, adult-visible patch behind Windbreak Tree, reached by a softer grassy path that later rejoins the wider route at Sitting Stone. Tess marks a **small green circle**, at Nori's request. Its location stays fixed.
+- **Lila:** a young lamb living at Far Meadow's edge in a **cream-colored cottage** with her adult **Aunt Mallow**. Lila wears a straw hat with a **broad blue ribbon**. The breeze often threatens to lift the hat, which is recurring gentle comedy. She is eager to explore Willow Bend, not just a host in Far Meadow. First meets Tess/Bo/Nori in 007000, first visits Village Green and Story House in 010000.
+- **Aunt Mallow:** Lila's grown-up and a dependable adult near the meadow, Story House work, and picnic. Grandma Fern still accompanies Tess, Bo, and Nori on cross-hill outings. Nori's own grown-up remains part of her home life near Round Pond.
+
+### Persisting objects and events
+
+- **Yellow map:** its old drawings remain; new marks: path over Bell Hill, Far Meadow, Lila's cottage, Windbreak Tree, Sitting Stone, small spoon by Sitting Stone, small green circle for Clover Nook, long Bell Hill bench shadow, three colored marks by Windbreak Tree (orange/blue/violet banner). The map is still imperfect and has room beyond the current places.
+- **Bo's red scarf** stays his everyday item. Bo's temporary pocket museum consists of a wooden spoon, folded napkin, leaf shaped like a fish, paper crown, and turnip drawing, all **taken home** after 008000. The tiny spoon on the map is just a symbol.
+- **Nori's violet pouch** continues to hold three pebbles, including a round gray one with a white stripe. She has not given away any pebble or changed this habit.
+- **Lila's hat:** straw with blue ribbon; it is carried during her first Willow Bend visit, worn again at the picnic. Its blue ribbon is the visual inspiration for the banner's blue section.
+- **Picnic banner:** adults finish a banner of broad **orange, blue, violet** fabric sections at the Story House in 011000. It has protected paper sun, pond, and leaf decorations. Adults put it at Far Meadow for the picnic in 012000, then safely take it down and keep it at **Lila's cottage window**. It does not hang outside permanently.
+- **Bo's silver-spotted orange paper lantern** from season one stays **tilted at the Story House** throughout season two; no flame or replacement lantern. It is not relocated for the meadow picnic.
+- **Picnic:** Lila suggests it in 010000, preparations happen in 011000, and everyone attends with adults in 012000. Both the outing and the season end completely.
+
+### Season two state ledger
+
+| Episode | New state after its ending | Carried into later episodes |
+|---|---|---|
+| 007000 | Friends visit Far Meadow and meet Lila/Aunt Mallow; tree, stone, cottage join map | Blue-ribbon hat; path over Bell Hill; new friend |
+| 008000 | Bo creates temporary pocket museum, repacks objects, Tess draws spoon by Sitting Stone | Spoon icon is a shared joke, objects **not** left in meadow |
+| 009000 | Clover Nook named and mapped as a small green circle; Nori chooses softer route | Second path joins at stone; nook stays open and adult-visible |
+| 010000 | Lila visits Willow Bend, sees tilted lantern; changing bench shadow noticed and drawn | First reciprocal visit; picnic idea introduced |
+| 011000 | Story House adults complete ribbon banner; Lila/Aunt Mallow carry it to meadow | Picnic planned for next day; orange/blue/violet colors fixed |
+| 012000 | Picnic occurs; banner goes to Lila's cottage window; all return home | Season ends peacefully; map fully includes Far Meadow; no urgent unresolved problem |
+
+### After season two
+
+Future episodes can visit Far Meadow without treating Lila as a stranger, can use Clover Nook and Sitting Stone, and may explore the as-yet-unvisited Reed Meadow east of Round Pond. Use **Pebble Bridge** as the known creek crossing. Do not restart or erase either season's completed events. Keep one locally satisfying story per episode and a continuing change when appropriate.

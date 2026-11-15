@@ -1,7 +1,7 @@
 # Children's Bedtime Stories — Episodic (Ages 3–4)
 
 **Track ID:** `childrens-bedtime-stories-episodic-ages-3-4`  
-**First original series:** *Willow Bend and the Little Lights*  
+**Series:** *Willow Bend and the Little Lights*; two completed seasons  
 **Primary listener:** age three; intended age range: three to four  
 **Performance:** one consistent TTS narrator; no character acting, music, effects, or images needed  
 **Order:** listen in sequence for the full arc, but each episode supplies enough context to listen alone  
@@ -41,3 +41,19 @@ python tools/content_overlay.py apply ~/Downloads/agent-e-episodic-bedtime-ages-
 ```
 
 This is a new namespace, so `--replace-owned` is not needed for the first import. No other pack or shared registry requires modification.
+
+
+## Season two: Beyond Bell Hill
+
+The friends' map extends west past Bell Hill into Far Meadow. They meet Lila and Aunt Mallow; the new world develops persistent places and familiar jokes. The second six-episode season builds toward a small ribbon picnic and **finishes** that event before bedtime. No episode requires recalling its entire predecessor.
+
+| Episode | Story | Lasting change |
+|---|---|---|
+| 007000 | [The Other Side of Bell Hill](007000-the-other-side-of-bell-hill.md) | Far Meadow visited; Windbreak Tree, Sitting Stone and cream cottage mapped; Lila and Aunt Mallow met; Lila wears a straw hat with blue ribbon. |
+| 008000 | [Bo's Very Big Pocket](008000-bos-very-big-pocket.md) | Sitting Stone hosts the first imaginary Pocket Museum; Tess adds a tiny spoon symbol beside it; Bo takes all his items home in a bag. |
+| 009000 | [Nori and the Soft-Grass Path](009000-nori-and-the-soft-grass-path.md) | Clover Nook named; Tess adds its small green circle to the map; Nori is comfortable choosing a quieter path. |
+| 010000 | [The Shadow with a Very Long Scarf](010000-the-shadow-with-a-very-long-scarf.md) | Lila has visited Village Green and seen the tilted lantern; Tess draws a long shadow by Bell Hill bench; Lila suggests a ribbon picnic. |
+| 011000 | [The Ribbon That Wouldn't Sit Still](011000-the-ribbon-that-wouldnt-sit-still.md) | Adult-finished three-color banner ready for Far Meadow picnic; Lila and Aunt Mallow carry it home; picnic scheduled for next day. |
+| 012000 | [The Picnic Beyond the Hill](012000-the-picnic-beyond-the-hill.md) | Ribbon picnic completed; Lila and Aunt Mallow keep banner in Lila's cottage window; map preserves Willow Bend and Far Meadow; all friends safely home. |
+
+Continuity authority: [WORLD_BIBLE.md](WORLD_BIBLE.md), including an explicit ledger for both seasons. [PARENTS_GUIDE.md](PARENTS_GUIDE.md) supplies non-spoken rationale and links. All six new manuscripts are original single-voice bedtime fiction, with no mandatory story length or imposed moral.

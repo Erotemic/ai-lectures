@@ -1,7 +1,7 @@
 {
   "id": "childrens-bedtime-stories-episodic-ages-3-4",
   "title": "Children's Bedtime Stories — Episodic (Ages 3–4)",
-  "summary": "Original, continuous single-narrator bedtime adventures for ages 3–4, primarily age three. Season one, Willow Bend and the Little Lights, follows Tess, Bo, and Nori through a connected valley over six days. The children gradually fill a yellow map while preparing for a gentle village lantern walk. Every episode provides local closure, and the final episode resolves the season arc. Parent notes and research references remain outside spoken text; no acting voices, sound effects, fixed durations, or assigned morals are required.",
+  "summary": "Original, continuous single-narrator bedtime adventures for ages 3-4, primarily age three. Season one introduces Willow Bend and concludes its Little-Light Walk. Season two follows Tess, Bo, and Nori over Bell Hill into Far Meadow, where they meet Lila and prepare a gentle ribbon picnic. The world, relationships, map, and shared objects persist between episodes; each night settles without a cliffhanger. Non-spoken parent notes and cited editorial context are included, with no claimed developmental or sleep effects.",
   "assumed_background": [
     "Age 3–4; prior episodes enrich continuity but each episode includes enough context to enjoy on its own."
   ],
@@ -18,9 +18,9 @@
   "sequence_recommended": true,
   "series_id": "willow-bend-little-lights",
   "series_title": "Willow Bend and the Little Lights",
-  "season_number": 1,
   "sections": [
-    "season-1-the-little-light-walk"
+    "season-1-the-little-light-walk",
+    "season-2-beyond-bell-hill"
   ],
   "lectures": [
     {
@@ -106,6 +106,119 @@
       "series_id": "willow-bend-little-lights",
       "season_number": 1,
       "episode_number": 6
+    },
+    {
+      "id": "007000",
+      "title": "The Other Side of Bell Hill",
+      "section": "season-2-beyond-bell-hill",
+      "file": "007000-the-other-side-of-bell-hill.md",
+      "spoken_words": 865,
+      "draft_status": "substantive",
+      "description": "Tess, Bo, and Nori cross Bell Hill with Grandma Fern, discover Far Meadow, and meet Lila, whose blue-ribboned hat likes the wind.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 2,
+      "episode_number": 1
+    },
+    {
+      "id": "008000",
+      "title": "Bo's Very Big Pocket",
+      "section": "season-2-beyond-bell-hill",
+      "file": "008000-bos-very-big-pocket.md",
+      "spoken_words": 749,
+      "draft_status": "substantive",
+      "description": "Bo stuffs a coat pocket with ordinary treasures and opens a very silly temporary museum on Far Meadow's Sitting Stone.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 2,
+      "episode_number": 2
+    },
+    {
+      "id": "009000",
+      "title": "Nori and the Soft-Grass Path",
+      "section": "season-2-beyond-bell-hill",
+      "file": "009000-nori-and-the-soft-grass-path.md",
+      "spoken_words": 692,
+      "draft_status": "substantive",
+      "description": "Lila shows the friends a sheltered clover nook behind the Windbreak Tree; Nori helps choose how the newly discovered place appears on the map.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 2,
+      "episode_number": 3
+    },
+    {
+      "id": "010000",
+      "title": "The Shadow with a Very Long Scarf",
+      "section": "season-2-beyond-bell-hill",
+      "file": "010000-the-shadow-with-a-very-long-scarf.md",
+      "spoken_words": 796,
+      "draft_status": "substantive",
+      "description": "Lila visits Willow Bend, sees the Story House and lantern, and the friends notice their shadows looking different as the day passes.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 2,
+      "episode_number": 4
+    },
+    {
+      "id": "011000",
+      "title": "The Ribbon That Wouldn't Sit Still",
+      "section": "season-2-beyond-bell-hill",
+      "file": "011000-the-ribbon-that-wouldnt-sit-still.md",
+      "spoken_words": 742,
+      "draft_status": "substantive",
+      "description": "Friends gather in the Story House to arrange an orange, blue, and violet banner while the breeze gives their decorations ideas of its own.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 2,
+      "episode_number": 5
+    },
+    {
+      "id": "012000",
+      "title": "The Picnic Beyond the Hill",
+      "section": "season-2-beyond-bell-hill",
+      "file": "012000-the-picnic-beyond-the-hill.md",
+      "spoken_words": 1032,
+      "draft_status": "substantive",
+      "description": "The friends share a breezy picnic beneath the Windbreak Tree and recognize the places and friendships that now belong on Tess's expanding map.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 2,
+      "episode_number": 6
+    }
+  ],
+  "season_count": 2,
+  "seasons": [
+    {
+      "number": 1,
+      "title": "The Little-Light Walk",
+      "section": "season-1-the-little-light-walk",
+      "episode_ids": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Beyond Bell Hill",
+      "section": "season-2-beyond-bell-hill",
+      "episode_ids": [
+        "007000",
+        "008000",
+        "009000",
+        "010000",
+        "011000",
+        "012000"
+      ]
     }
   ]
 }
