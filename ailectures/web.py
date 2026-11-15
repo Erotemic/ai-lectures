@@ -8,6 +8,7 @@ from contextlib import asynccontextmanager
 from copy import deepcopy
 from pathlib import Path
 from uuid import uuid4
+from urllib.parse import quote
 
 from starlette.applications import Starlette
 from starlette.concurrency import run_in_threadpool
@@ -25,6 +26,7 @@ from .core import Conflict, checksum, finite, qualified
 from .library import Library
 from .state import ListenerState, utcnow
 from .organization import collection_metadata, item_organization
+from .companions import available_companions
 
 STATIC = Path(__file__).with_name("static")
 
@@ -102,11 +104,28 @@ def create_app(
 
     def annotate(row):
         row = deepcopy(row)
+        origin = row["origin"]
+        if "companions" in row:
+            row["companions"] = list(available_companions(row))
+        for item in row.get("companions", []):
+            release = (
+                "source"
+                if origin.get("source")
+                else origin.get("pack_release", origin["release"])
+            )
+            item["url"] = (
+                f"/api/library/companions/{release}/{quote(row['id'], safe='')}/"
+                f"{quote(item['id'], safe='')}/{item['sha256']}"
+            )
+            item["stale"] = (
+                item.get("input_spoken_sha256", row["spoken_sha256"])
+                != row["spoken_sha256"]
+            )
         for rec in row.get("recordings", []):
             release = rec.pop("_release", row["origin"]["release"])
             for segment in rec["segments"]:
                 segment["url"] = (
-                    f'/api/library/media/{release}/{rec["id"]}/{segment["index"]}'
+                    f"/api/library/media/{release}/{rec['id']}/{segment['index']}"
                 )
         row["words"] = len(row["transcript"].split())
         row["estimated_minutes"] = round(row["words"] / 145, 1)
@@ -217,6 +236,30 @@ def create_app(
                 "Cache-Control": "private, max-age=31536000, immutable",
                 "ETag": '"' + segment["sha256"] + '"',
             },
+        )
+
+    def companion(request):
+        from .companions import companion_file
+
+        params = request.path_params
+        key = qualified(params["lecture_id"])
+        if params["release"] == "source" and library.repository:
+            path, item = library.repository.companion_file(
+                key, params["identifier"], params["sha256"]
+            )
+        else:
+            row, directory = library.store.historical(params["release"], key)
+            path, item = companion_file(
+                directory,
+                row.get("companions", []),
+                params["identifier"],
+                params["sha256"],
+            )
+        return FileResponse(
+            path,
+            media_type=item["media_type"],
+            filename=path.name,
+            headers={"Cache-Control": "no-store", "X-Content-Type-Options": "nosniff"},
         )
 
     async def profiles(request):
@@ -518,6 +561,10 @@ def create_app(
         Route("/api/library/lectures/{lecture_id}/transcript.txt", transcript),
         Route("/api/library/lectures/{lecture_id}", lecture),
         Route("/api/library/media/{release}/{recording}/{index:int}", media),
+        Route(
+            "/api/library/companions/{release}/{lecture_id}/{identifier}/{sha256}",
+            companion,
+        ),
         Route("/api/listeners", profiles, methods=["GET", "POST"]),
         Route("/api/listeners/import", listener_transfer, methods=["POST"]),
         Route("/api/listeners/{profile}/export", listener_transfer),

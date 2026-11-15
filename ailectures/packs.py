@@ -224,7 +224,10 @@ def export_release(
             if target.exists():
                 raise Conflict("Duplicate extra file")
             target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_bytes(data)
+            if isinstance(data, Path):
+                shutil.copyfile(data, target)
+            else:
+                target.write_bytes(data)
         write_json(stage / "catalog.json", catalog)
         sums = {
             p.relative_to(stage).as_posix(): file_digest(p)
@@ -469,7 +472,7 @@ class PackStore:
                 base = expected if expected is not None else manifest.get("parent")
                 if base != previous["release"]:
                     raise Conflict(
-                        f'Stale update to {pack_id}; expected base {previous["release"]}'
+                        f"Stale update to {pack_id}; expected base {previous['release']}"
                     )
             elif expected is not None and previous is None:
                 raise Conflict("Expected base pack is not installed")

@@ -1,3 +1,4 @@
+import { ProductionPanel } from "./production.mjs";
 import { api, post, el, getStored, store, lectureURL, clock } from "./api.mjs";
 import { Player } from "./player.mjs";
 import { reviewFeedback } from "./feedback.mjs";
@@ -6,12 +7,8 @@ import { speechSegments } from "./transcript.mjs";
 import { showStorage } from "./storage.mjs";
 import { referencesPage } from "./references.mjs";
 import { CatalogBrowser } from "./browse.mjs";
-import { NarrationControls, preparationPanel } from "./narration.mjs";
-import {
-  blockGrid,
-  recordingStates,
-  generationStatus,
-} from "./audio-blocks.mjs";
+import { preparationPanel } from "./narration.mjs";
+import { blockGrid, recordingStates } from "./audio-blocks.mjs";
 import {
   legacyPositions,
   approximateLegacyPosition,
@@ -280,6 +277,12 @@ $("listener-form").onsubmit = async (event) => {
     message(e.message);
   }
 };
+const production = new ProductionPanel({
+  catalog: () => catalog,
+  link,
+  button,
+  message,
+});
 const browser = new CatalogBrowser({
   catalog: () => catalog,
   progress: () => progress,
@@ -422,6 +425,33 @@ async function lecturePage(id, autoplay = false, historical = null) {
       },
     }),
   );
+  if (row.companions?.length)
+    top.append(
+      el(
+        "section",
+        {},
+        el("h2", { text: "Companion files" }),
+        ...row.companions.map((item) =>
+          el(
+            "p",
+            {},
+            el("a", { href: item.url, text: item.title, download: "" }),
+            ` · ${item.role === "source" ? "Source" : "Prepared"}`,
+            item.stale ? " · prepared for an earlier transcript" : "",
+            item.attribution
+              ? el("span", {
+                  class: "muted",
+                  text:
+                    " · " +
+                    (typeof item.attribution === "string"
+                      ? item.attribution
+                      : JSON.stringify(item.attribution)),
+                })
+              : null,
+          ),
+        ),
+      ),
+    );
   const text = el("section", {
     class: "transcript",
     "aria-label": "Lecture transcript",
@@ -956,267 +986,6 @@ function packsPage() {
     ),
   );
 }
-async function productionPage() {
-  const target = $("main");
-  const main = el("section");
-  target.replaceChildren(main);
-  main.replaceChildren(
-    title("Audio production"),
-    description(
-      "Prepared recordings play independently of TTS. Generate missing recordings when a configured backend is available.",
-    ),
-  );
-  if (catalog.legacy) main.append(link("Open original audio tools", "/audio"));
-  const profiles = await api("/api/library/production");
-  if (!profiles.profiles.length) {
-    main.append(
-      el("div", {
-        class: "notice",
-        text:
-          profiles.error ||
-          "No TTS connection is configured in this installation. Installed audio and transcripts remain available.",
-      }),
-    );
-    return;
-  }
-  const scope = el(
-    "select",
-    { "aria-label": "Preparation selection" },
-    el("option", { value: "lecture", text: "Lecture" }),
-    el("option", { value: "course", text: "Whole collection" }),
-    el("option", { value: "library", text: "Whole library" }),
-  );
-  const lectures = el(
-    "select",
-    { "aria-label": "Lecture to prepare" },
-    ...catalog.lectures
-      .filter((r) => r.kind === "audio")
-      .map((r) => el("option", { value: r.id, text: r.title })),
-  );
-  const requestedLecture = new URLSearchParams(location.search).get("lecture");
-  if ([...lectures.options].some((option) => option.value === requestedLecture))
-    lectures.value = requestedLecture;
-  scope.onchange = () => {
-    const rows =
-      scope.value === "course"
-        ? catalog.courses.filter((c) =>
-            c.lectures.some((id) => byId(id)?.kind === "audio"),
-          )
-        : catalog.lectures.filter((r) => r.kind === "audio");
-    lectures.replaceChildren(
-      ...rows.map((row) => el("option", { value: row.id, text: row.title })),
-    );
-    lectures.disabled = scope.value === "library";
-    $("prepare-audio").textContent =
-      scope.value === "library"
-        ? `Queue all ${catalog.lectures.filter((row) => row.kind === "audio").length} lectures`
-        : scope.value === "course"
-          ? "Queue whole collection"
-          : "Cache whole lecture";
-  };
-  const narrator = new NarrationControls(profiles, {
-    profileId: "production-profile",
-    discover: true,
-  });
-  const form = el(
-    "form",
-    {},
-    el(
-      "div",
-      { class: "filters" },
-      el("label", {}, "Prepare", scope),
-      el("label", {}, "Selection", lectures),
-    ),
-    narrator.root,
-    el("button", {
-      id: "prepare-audio",
-      type: "submit",
-      class: "primary",
-      text: "Cache whole lecture",
-      disabled: !profiles.tools_available,
-    }),
-  );
-  form.onsubmit = async (e) => {
-    e.preventDefault();
-    try {
-      await post("/api/library/production/prepare", {
-        ...(scope.value === "library"
-          ? {
-              lecture_ids: catalog.lectures
-                .filter((row) => row.kind === "audio")
-                .map((row) => row.id),
-            }
-          : {
-              [scope.value === "course" ? "course_id" : "lecture_id"]:
-                lectures.value,
-            }),
-        ...narrator.settings(),
-      });
-      await showJobs();
-    } catch (error) {
-      message(error.message);
-    }
-  };
-  const registerId = el("input", {
-    type: "text",
-    "aria-label": "Voice ID to register",
-  });
-  const registerLabel = el("input", {
-    type: "text",
-    "aria-label": "Voice display name",
-    maxlength: "80",
-  });
-  const registerMessage = el("p", { role: "status" });
-  main.append(
-    form,
-    button("Refresh available voices", () =>
-      narrator.loadVoices(true, narrator.settings().voice),
-    ),
-    el(
-      "details",
-      { class: "section" },
-      el("summary", { text: "Register a server voice ID" }),
-      description(
-        "Register a voice already available on the selected speech server. Reference recordings stay on that server.",
-      ),
-      el(
-        "div",
-        { class: "filters" },
-        el("label", {}, "Voice ID", registerId),
-        el("label", {}, "Display name", registerLabel),
-      ),
-      button("Register voice", async () => {
-        try {
-          await post("/api/library/production/voices/register", {
-            profile: narrator.profile.value,
-            voice: registerId.value.trim(),
-            label: registerLabel.value.trim() || registerId.value.trim(),
-          });
-          store(
-            "production-voice:" + narrator.profile.value,
-            registerId.value.trim(),
-          );
-          await narrator.loadVoices(false, registerId.value.trim());
-          registerMessage.textContent = "Voice registered for this profile.";
-        } catch (error) {
-          registerMessage.textContent = error.message;
-        }
-      }),
-      registerMessage,
-    ),
-    el("section", { id: "jobs", class: "section" }),
-  );
-  if (!profiles.tools_available)
-    main.append(
-      el("p", {
-        class: "notice",
-        text: "Generation needs the production installation and FFmpeg tools. Playback remains available.",
-      }),
-    );
-  await showJobs();
-  if (location.hash === "#jobs") $("jobs")?.scrollIntoView({ block: "start" });
-}
-async function refreshProductionHealth() {
-  const select = $("production-profile");
-  if (!select) return;
-  const data = await api("/api/library/production");
-  for (const option of select.options) {
-    const profile = data.profiles.find((p) => p.id === option.value);
-    if (profile)
-      option.textContent =
-        profile.label + (profile.reachable === false ? " · unavailable" : "");
-  }
-  if ($("prepare-audio")) $("prepare-audio").disabled = !data.tools_available;
-}
-async function showJobs() {
-  const target = $("jobs");
-  if (!target) return;
-  const cards = [];
-  const jobs = (await api("/api/library/production/jobs")).jobs;
-  for (const job of jobs) {
-    const id = job.id;
-    try {
-      const inv = job.inventory;
-      cards.push(
-        el(
-          "article",
-          { class: "card" },
-          el("h3", { text: byId(job.lecture_id)?.title || job.lecture_id }),
-          el("p", {
-            text: `${job.profile} · ${job.voice || "configured voice"} · ${job.speed || 1}× speech`,
-          }),
-          el("p", {
-            text: job.published
-              ? "Recording published"
-              : `${job.state} · ${inv.ready} / ${inv.total || "?"} passages ready`,
-          }),
-          el("progress", {
-            value: inv.ready,
-            max: Math.max(1, inv.total),
-            "aria-label": "Prepared passages",
-          }),
-          job.error ? el("p", { class: "notice", text: job.error }) : null,
-          blockGrid(inv.states || []),
-          ...(inv.queue || []).map((item) =>
-            el(
-              "div",
-              { class: "generation-item" },
-              el("p", {
-                text: `Block ${item.page + 1} · ${item.kind} · ${generationStatus(item)}`,
-              }),
-              button("Cancel this lecture's generation", async () => {
-                await api("/api/library/production/jobs/" + id, {
-                  method: "DELETE",
-                });
-                await showJobs();
-              }),
-            ),
-          ),
-          job.state === "settings_changed"
-            ? link(
-                "Prepare with current settings",
-                "/production?lecture=" + encodeURIComponent(job.lecture_id),
-              )
-            : ["failed", "cancelled"].includes(job.state)
-              ? button("Retry preparation", async () => {
-                  await post(
-                    "/api/library/production/jobs/" + id + "/retry",
-                    {},
-                  );
-                  await showJobs();
-                })
-              : null,
-          !job.published &&
-            !["failed", "cancelled", "settings_changed"].includes(job.state)
-            ? button("Cancel generation", async () => {
-                await api("/api/library/production/jobs/" + id, {
-                  method: "DELETE",
-                });
-                await showJobs();
-              })
-            : null,
-          el(
-            "details",
-            {},
-            el("summary", { text: "Queue and preparation details" }),
-            el("pre", { text: JSON.stringify(inv, null, 2) }),
-          ),
-        ),
-      );
-    } catch (error) {
-      cards.push(
-        el("p", {
-          class: "muted",
-          text: error.message,
-        }),
-      );
-    }
-  }
-  target.replaceChildren(
-    el("h2", { text: "Preparation jobs" }),
-    el("div", { class: "grid" }, ...cards),
-  );
-}
 function navigate(path, autoplay = false) {
   history.pushState({}, "", path);
   render(autoplay);
@@ -1264,7 +1033,7 @@ async function render(autoplay = false) {
     else if (path === "/feedback")
       await reviewFeedback($("main"), catalog.lectures);
     else if (path === "/references") await referencesPage($("main"), catalog);
-    else if (path === "/production") await productionPage();
+    else if (path === "/production") await production.render($("main"));
     else browse();
   } catch (e) {
     message(e.message);
@@ -1303,8 +1072,8 @@ async function init() {
             "An updated lecture or recording is available. Current playback and feedback retain their revision; reopen the lecture after pausing to load the update.",
           );
       }
-      await showJobs();
-      await refreshProductionHealth();
+      await production.showJobs();
+      await production.refreshHealth();
       if ($("listening-queue"))
         await listeningQueue.render($("listening-queue"));
       if (profile) {

@@ -9,6 +9,7 @@ import json
 import threading
 
 from .core import (
+    contained,
     digest,
     extract_text,
     lecture_revision,
@@ -19,6 +20,7 @@ from .core import (
 )
 from .source_updates import atomic_bytes, source_lock
 from .organization import collection_metadata
+from .companions import discover_companions, companion_file
 
 LECTURE_FILE = re.compile(r"^([0-9]{6})-.*\.md$")
 
@@ -166,7 +168,7 @@ def repository_track(directory, *, previous=None, strict=False):
             "Reading source catalog is malformed; using available recorded references"
         )
         source_catalog = old_sources
-    lectures = {}
+    lectures, extra_files, companion_paths = {}, {}, []
     for entry in entries:
         key = namespace + ":" + entry["id"]
         old = previous.get("lectures", {}).get(key)
@@ -214,6 +216,11 @@ def repository_track(directory, *, previous=None, strict=False):
             kind="audio",
             recordings=[],
         )
+        companions, files, paths = discover_companions(directory, metadata, issue)
+        companion_paths.extend(paths)
+        if companions:
+            row["companions"] = companions
+            extra_files.update(files)
         row["revision"] = lecture_revision(row)
         lectures[key] = row
     course = dict(
@@ -231,7 +238,8 @@ def repository_track(directory, *, previous=None, strict=False):
         lectures=lectures,
         courses={course["id"]: course},
         relationships=[],
-        extra_files={},
+        extra_files=extra_files,
+        companion_paths=sorted(set(companion_paths)),
         warnings=warnings,
     )
 
@@ -266,6 +274,22 @@ class RepositoryCatalog:
                 ]
                 return deepcopy(self._packs)
 
+    def companion_file(self, lecture_id, identifier, expected):
+        namespace = lecture_id.split(":")[0]
+        with self._lock, source_lock(self.root):
+            pack = self._read_snapshot()[namespace]
+            directory = next(
+                directory
+                for directory, pack_id in self._directories.items()
+                if pack_id == namespace
+            )
+            return companion_file(
+                self.root / directory,
+                pack["lectures"][lecture_id].get("companions", []),
+                identifier,
+                expected,
+            )
+
     def _read_snapshot(self):
         with self._lock:
             drafts = self.root / "draft-stages"
@@ -298,9 +322,30 @@ class RepositoryCatalog:
                 if p.is_file() and p.suffix in {".yaml", ".md"}
             )
             paths += sorted((self.root / "curriculum").glob("*.json"))
+            # Watch declared companions only; do not scan generated caches/media.
+            companion_stamps = []
+            for pack in self._packs.values():
+                directory = next(
+                    (
+                        self.root / rel
+                        for rel, pack_id in self._directories.items()
+                        if pack_id == pack["id"]
+                    ),
+                    None,
+                )
+                if directory:
+                    for relative_path in pack.get("companion_paths", []):
+                        path = contained(directory, relative_path)
+                        try:
+                            stat = path.stat()
+                            companion_stamps.append(
+                                (str(path), stat.st_mtime_ns, stat.st_size)
+                            )
+                        except FileNotFoundError:
+                            companion_stamps.append((str(path), None, None))
             stamp = tuple(
                 (str(p), p.stat().st_mtime_ns, p.stat().st_size) for p in paths
-            )
+            ) + tuple(companion_stamps)
             if stamp != self._stamp:
                 packs = dict(self._packs)
                 errors = []
@@ -318,7 +363,7 @@ class RepositoryCatalog:
                         )
                         errors.extend(pack.pop("warnings", []))
                         if pack["id"] in existing:
-                            raise ValueError(f'Duplicate track namespace: {pack["id"]}')
+                            raise ValueError(f"Duplicate track namespace: {pack['id']}")
                         existing.add(pack["id"])
                         extras = [
                             directory / "README.md",
@@ -371,7 +416,9 @@ class RepositoryCatalog:
                                     (
                                         "tts-lectures"
                                         if k == "g2"
-                                        else "tts-paper" if k == "g3" else ""
+                                        else "tts-paper"
+                                        if k == "g3"
+                                        else ""
                                     ),
                                 }
                             ),
@@ -405,8 +452,9 @@ class RepositoryCatalog:
                     try:
                         for edge in read_json(relations).get("edges", []):
                             source, relation, target, *reason = edge
-                            source, target = aliases.get(source, source), aliases.get(
-                                target, target
+                            source, target = (
+                                aliases.get(source, source),
+                                aliases.get(target, target),
                             )
                             namespace = source.split(":")[0]
                             if namespace in packs:

@@ -154,6 +154,42 @@ Agents changing the same source pack still need a deliberate merge. Existing
 World History contributions continue to use `tools/merge_world_history_overlay.py`.
 Use the immutable releases below when transferring prepared playback packs.
 
+### Optional companion files
+
+An individual lecture's metadata can declare pack-local files. No companion is
+required to author, import, listen to, or generate narration:
+
+```json
+{
+  "companions": [
+    {
+      "id": "interval-score",
+      "title": "Interval score",
+      "path": "companions/interval-score.pdf",
+      "role": "prepared",
+      "attribution": "Creator and license credit"
+    }
+  ]
+}
+```
+
+Use `role: "source"` for editable sources (including declarative score JSON), or
+`"prepared"` for a rendered score, image, audio example, or other downloadable
+file. Companion IDs are unique within a lecture. Paths are relative to the pack;
+hidden paths, parent traversal, and symlinks are excluded. Attribution is kept
+with the file's record and displayed beside its reader link. Optional `recipe`
+records how a prepared file was produced; `input_spoken_sha256` binds it to an
+exact transcript and lets the reader label an older realization.
+
+Declared files are copied into exports and served by the standalone reader.
+The reader discovers additions and edits without restarting; missing companions
+produce diagnostics without removing usable narration. Source file links check
+their digest: reopen the lecture after changing a file to get its new link.
+Installed releases retain their original files for historical access. Changing
+companions changes the lecture's content revision, while unchanged speech keeps
+its identity and existing recordings. Synchronized playback and independent
+companion-only add-ons remain later extensions.
+
 ## Export and transfer
 
 Export an existing track, including matching installed recordings:
@@ -399,8 +435,9 @@ Schema version 1 is validated by `ailectures.packs.load_release`:
   are rejected. Unindexed side notes are ignored. Installation stages and
   validates declared payloads before activation.
 
-New renderers and synchronized music/visual production can attach companion
-sources and artifacts later. Existing validated score JSON and source notes are
+Optional companion sources and prepared files now transfer with packs and appear
+as reader downloads. New renderers and synchronized music/visual playback can
+build on those records later. Existing validated score JSON and source notes are
 preserved in source exports. This pass does not alter mathematical models,
 rendered deck composition, or existing presentation scene order.
 
