@@ -60,6 +60,16 @@ and URLs remain compatible. Bedtime stories are a direct category destination;
 mathematics collections are grouped together. No physical source moves are needed
 for this organization, and existing authoring handoffs remain valid.
 
+The final pass separates Production UI into its own native module and adds
+optional companion file downloads with attribution and exact file identity.
+Missing companions leave narration usable. The final reader wheel was exercised
+outside the checkout with three independent packs and 35 actual exported audio
+segments, without outbound connections or accessible FFmpeg tools. Independent
+process publication and killed-activation recovery are covered. See the
+[completion audit](refactor-completion-audit.md) for evidence. Established source
+folders stay in place while authors continue; physical migration and synchronized
+companion playback remain later work.
+
 ## Current repository evidence
 
 Baseline: commit `1ad9dbe`, inspected 15 November 2026. Counts describe this checkout
