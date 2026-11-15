@@ -15,7 +15,7 @@ connect the previous real and complex foundations to modern integration,
 probability and functional analysis. No minutes or minimum words used
 as quality gates.
 
-## Next instructional sequence
+## Delivered as the 033000–036000 overlay
 
 - 033000: Dominated convergence; how control by an integrable majorant
   prevents concentration/escape, with sharp counterexamples.
@@ -34,3 +34,32 @@ The ZIP contains no shared reader, style, test or global registry edits.
 Apply after the 001000–028000 polishing overlay. The updated manifest
 contains all thirty-two manuscripts, so the previous batch files must
 already be installed.
+
+
+## Delivery review: 033000–036000
+
+The manuscripts above are complete. Proof audits focused on the following
+failure modes:
+
+- **DCT:** the bound is one common integrable majorant (not per-function
+  bounds, and not a global constant on infinite measure). DCT yields norm
+  convergence in L-one; the proof starts from Fatou and controls negative
+  contributions using the same envelope.
+- **Tonelli/Fubini:** sigma-finite source measures, product sigma-algebra,
+  section measurability, and exceptional sections of the completed product
+  measure are distinguished. A signed \((x^2-y^2)/(x^2+y^2)^2\) example on
+  the open unit square gives iterated values \(+\pi/4\) and \(-\pi/4\)
+  because absolute integrability fails.
+- **L-p inequalities:** all exponents are at least one for norms, Hölder's
+  conjugate-exponent and endpoint cases are separated, and the p=1 and
+  p=infinity Minkowski cases are direct. Finite-measure inclusions do not
+  extend blindly to infinite measure.
+- **Riesz–Fischer:** an L-p Cauchy sequence has an a.e. convergent subsequence
+  selected using summable successive errors. The full sequence converges in
+  L-p, not necessarily pointwise. Bessel's inequality is distinguished from
+  Parseval's equality, which needs density of the proposed basis.
+
+The source bibliography uses the track-owned existing Axler, MIT OCW 18.125,
+and Tao entries. MIT's lecture index explicitly covers DCT in lecture 5,
+L-p inequalities in lecture 14, completeness in lecture 15, and Fubini/Tonelli
+in lectures 18–20. No shared reader or test files were modified.

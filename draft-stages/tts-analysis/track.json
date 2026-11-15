@@ -1,7 +1,7 @@
 {
   "id": "analysis",
   "title": "Analysis from First Principles",
-  "summary": "Real and complex analysis from limits and completeness through rigorous calculus, metric spaces, holomorphic functions, Cauchy theory, residues, mapping principles, normal families, Möbius transformations, hyperbolic geometry, the Riemann mapping theorem, and conformal boundary behavior, and measure-theoretic foundations for Lebesgue integration.",
+  "summary": "Real and complex analysis from limits and completeness through rigorous calculus, metric spaces, holomorphic functions, contour theory, residues and conformal mapping; then measure and Lebesgue integration, dominated convergence, product measures, L-p norm inequalities, and Hilbert-space geometry.",
   "assumed_background": [
     "Elementary algebra, inequalities, and familiarity with fractions"
   ],
@@ -31,7 +31,11 @@
     "sigma-algebras-and-measures",
     "lebesgue-measure",
     "measurable-functions",
-    "lebesgue-integration"
+    "lebesgue-integration",
+    "dominated-convergence",
+    "product-measures",
+    "lp-spaces",
+    "hilbert-spaces"
   ],
   "lectures": [
     {
@@ -321,6 +325,42 @@
       "spoken_words": 2522,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 17.4
+    },
+    {
+      "id": "033000",
+      "title": "Dominated Convergence: When Limits May Pass Through Integrals",
+      "section": "dominated-convergence",
+      "file": "033000-dominated-convergence-and-integral-limits.md",
+      "spoken_words": 2069,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.3
+    },
+    {
+      "id": "034000",
+      "title": "Fubini and Tonelli: When Two Integrals May Trade Places",
+      "section": "product-measures",
+      "file": "034000-fubini-tonelli-and-product-measures.md",
+      "spoken_words": 2071,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.3
+    },
+    {
+      "id": "035000",
+      "title": "Measuring Functions: L-p Spaces, Hölder, and Minkowski",
+      "section": "lp-spaces",
+      "file": "035000-lp-spaces-holder-minkowski.md",
+      "spoken_words": 2021,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.9
+    },
+    {
+      "id": "036000",
+      "title": "Complete Spaces of Functions: Riesz–Fischer, Hilbert Geometry, and Fourier Projection",
+      "section": "hilbert-spaces",
+      "file": "036000-completeness-hilbert-l2-and-projections.md",
+      "spoken_words": 2261,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.6
     }
   ]
 }

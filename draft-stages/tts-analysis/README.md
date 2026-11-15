@@ -138,3 +138,29 @@ word counts and estimates are descriptive metadata.
 
 Next: dominated convergence, signed and complex integration, product measures
 and Fubini–Tonelli, followed by L-p spaces and Hilbert-space foundations.
+
+## Dominated convergence, product measures, and function spaces (033000–036000)
+
+- 033000 — Dominated Convergence: When Limits May Pass Through Integrals
+- 034000 — Fubini and Tonelli: When Two Integrals May Trade Places
+- 035000 — Measuring Functions: L-p Spaces, Hölder, and Minkowski
+- 036000 — Complete Spaces of Functions: Riesz–Fischer, Hilbert Geometry, and Fourier Projection
+
+This sequence proves DCT via Fatou and L-one convergence, with distinct
+concentration and escape-to-infinity counterexamples. Product measure,
+Tonelli and Fubini are taught with sigma-finiteness, section measurability,
+and a concrete signed-integrand counterexample whose repeated integrals differ.
+L-p spaces are defined as almost-everywhere equivalence classes; Hölder,
+Minkowski and finite-measure embeddings are proved. Riesz–Fischer completeness
+is proved using a summable-difference subsequence, followed by L-two
+projection geometry, Bessel's inequality, and an explicit distinction between
+metric completeness and spanning completeness of an orthonormal family.
+
+All four have self-contained audio-first narration plus non-spoken proof,
+example, exercise, and bibliography companions. Recorded word counts and
+estimated durations are descriptive data **only**. No duration or word-count
+limits were applied in authoring or validation.
+
+Next possible directions: L-p duality and weak convergence; bounded linear
+operators and Hahn–Banach; Fourier convergence and density; convolution and
+approximate identities; probability measures and conditional expectation.
