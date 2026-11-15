@@ -1,7 +1,7 @@
 {
   "id": "music-theory",
   "title": "Music Theory and Composition",
-  "summary": "Instrument-agnostic, audio-first foundations in composition, comparative musical systems and sound production, now extending into auditory perception, listening practice, tuning and temperaments, counterpoint and transcription. Exercises use original text-defined scores and optional local WAV synthesis, with claim-level research attribution.",
+  "summary": "Instrument-agnostic, audio-first foundations in composition, comparative musical systems and sound production, now extending into auditory perception, listening practice, tuning and temperaments, counterpoint, transcription, and strategies for musical development beyond call and response. Exercises use original text-defined scores and optional local WAV synthesis, with claim-level research attribution.",
   "assumed_background": [
     "General audience; no notation, instrument, or earlier music theory required."
   ],
@@ -33,7 +33,8 @@
     "ear-training-and-musical-memory",
     "tuning-and-intonation",
     "counterpoint-imitation-and-canon",
-    "transcription-and-revision"
+    "transcription-and-revision",
+    "motivic-development-and-compositional-strategies"
   ],
   "lectures": [
     {
@@ -359,6 +360,15 @@
       "spoken_words": 2223,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 15.3
+    },
+    {
+      "id": "037000",
+      "title": "Beyond Call and Response: How Musical Ideas Develop",
+      "section": "motivic-development-and-compositional-strategies",
+      "file": "037000-beyond-call-and-response.md",
+      "spoken_words": 4617,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 31.8
     }
   ]
 }

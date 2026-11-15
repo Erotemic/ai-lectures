@@ -1,0 +1,1866 @@
+{
+  "schema_version": 1,
+  "scope": "Eight original examples for 037000, not transcriptions or copies of published music.",
+  "pitch_system": "12-TET A4=440Hz; no claims about historically specific performance practices",
+  "beat_time": "absolute quarter-note beats, 0-based",
+  "source_motif": {
+    "pitches": [
+      "E4",
+      "G4",
+      "A4",
+      "G4"
+    ],
+    "durations_beats": [
+      1.0,
+      0.5,
+      0.5,
+      2.0
+    ]
+  },
+  "fixed_context": {
+    "tempo_bpm": 96,
+    "beats_per_bar": 4,
+    "bars": 8,
+    "drone": "C2",
+    "note": "Same quiet drone and synthesis family, NOT perceptually level-matched and not identical textures."
+  },
+  "renderings": [
+    {
+      "id": "dialogue",
+      "group": "037-motivic-development",
+      "bars": 8,
+      "tempo_bpm": 96,
+      "beats_per_bar": 4,
+      "description": "Alternating left-side call and right-side answer each bar",
+      "voices": [
+        {
+          "name": "quiet C2 reference drone",
+          "waveform": "sine",
+          "gain": 0.045,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 4.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 8.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 12.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 16.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 20.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 24.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 28.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            }
+          ]
+        },
+        {
+          "name": "call (left)",
+          "waveform": "harmonic",
+          "gain": 0.15,
+          "pan": -0.55,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 1.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 1.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 2.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 8.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 9.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 9.5,
+              "dur": 0.5,
+              "pitch": "B4"
+            },
+            {
+              "at": 10.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 16.0,
+              "dur": 1.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 17.0,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 17.5,
+              "dur": 0.5,
+              "pitch": "B4"
+            },
+            {
+              "at": 18.0,
+              "dur": 2.0,
+              "pitch": "A4"
+            },
+            {
+              "at": 24.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 25.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 25.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 26.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            }
+          ]
+        },
+        {
+          "name": "answer (right)",
+          "waveform": "harmonic",
+          "gain": 0.15,
+          "pan": 0.55,
+          "events": [
+            {
+              "at": 4.0,
+              "dur": 2.0,
+              "pitch": "D5"
+            },
+            {
+              "at": 6.0,
+              "dur": 1.0,
+              "pitch": "B4"
+            },
+            {
+              "at": 7.0,
+              "dur": 1.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 12.0,
+              "dur": 2.0,
+              "pitch": "F5"
+            },
+            {
+              "at": 14.0,
+              "dur": 1.0,
+              "pitch": "E5"
+            },
+            {
+              "at": 15.0,
+              "dur": 1.0,
+              "pitch": "C5"
+            },
+            {
+              "at": 20.0,
+              "dur": 2.0,
+              "pitch": "E5"
+            },
+            {
+              "at": 22.0,
+              "dur": 1.0,
+              "pitch": "D5"
+            },
+            {
+              "at": 23.0,
+              "dur": 1.0,
+              "pitch": "B4"
+            },
+            {
+              "at": 28.0,
+              "dur": 2.0,
+              "pitch": "D5"
+            },
+            {
+              "at": 30.0,
+              "dur": 1.0,
+              "pitch": "B4"
+            },
+            {
+              "at": 31.0,
+              "dur": 1.0,
+              "pitch": "C5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sentence_inspired",
+      "group": "037-motivic-development",
+      "bars": 8,
+      "tempo_bpm": 96,
+      "beats_per_bar": 4,
+      "description": "A two-bar idea repeated, then fragmentary continuation; no asserted Classical PAC",
+      "voices": [
+        {
+          "name": "quiet C2 reference drone",
+          "waveform": "sine",
+          "gain": 0.045,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 4.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 8.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 12.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 16.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 20.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 24.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 28.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            }
+          ]
+        },
+        {
+          "name": "one developing thought",
+          "waveform": "harmonic",
+          "gain": 0.16,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 1.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 1.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 2.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 4.0,
+              "dur": 1.0,
+              "pitch": "F4"
+            },
+            {
+              "at": 5.0,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 5.5,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 6.0,
+              "dur": 2.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 8.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 9.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 9.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 10.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 12.0,
+              "dur": 1.0,
+              "pitch": "F4"
+            },
+            {
+              "at": 13.0,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 13.5,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 14.0,
+              "dur": 2.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 16.0,
+              "dur": 0.5,
+              "pitch": "E4"
+            },
+            {
+              "at": 16.5,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 17.0,
+              "dur": 1.0,
+              "pitch": "F4"
+            },
+            {
+              "at": 18.0,
+              "dur": 2.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 20.0,
+              "dur": 0.5,
+              "pitch": "D4"
+            },
+            {
+              "at": 20.5,
+              "dur": 0.5,
+              "pitch": "F4"
+            },
+            {
+              "at": 21.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 22.0,
+              "dur": 2.0,
+              "pitch": "D4"
+            },
+            {
+              "at": 24.0,
+              "dur": 1.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 25.0,
+              "dur": 1.0,
+              "pitch": "F4"
+            },
+            {
+              "at": 26.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 27.0,
+              "dur": 1.0,
+              "pitch": "D4"
+            },
+            {
+              "at": 28.0,
+              "dur": 4.0,
+              "pitch": "C4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sequence",
+      "group": "037-motivic-development",
+      "bars": 8,
+      "tempo_bpm": 96,
+      "beats_per_bar": 4,
+      "description": "Literal chromatic transposition shifts [0,2,4,5,7,5,2,0] semitones against constant C drone",
+      "voices": [
+        {
+          "name": "quiet C2 reference drone",
+          "waveform": "sine",
+          "gain": 0.045,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 4.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 8.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 12.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 16.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 20.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 24.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 28.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            }
+          ]
+        },
+        {
+          "name": "one sequenced melody",
+          "waveform": "harmonic",
+          "gain": 0.15,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 1.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 1.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 2.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 4.0,
+              "dur": 1.0,
+              "pitch": "F#4"
+            },
+            {
+              "at": 5.0,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 5.5,
+              "dur": 0.5,
+              "pitch": "B4"
+            },
+            {
+              "at": 6.0,
+              "dur": 2.0,
+              "pitch": "A4"
+            },
+            {
+              "at": 8.0,
+              "dur": 1.0,
+              "pitch": "G#4"
+            },
+            {
+              "at": 9.0,
+              "dur": 0.5,
+              "pitch": "B4"
+            },
+            {
+              "at": 9.5,
+              "dur": 0.5,
+              "pitch": "C#5"
+            },
+            {
+              "at": 10.0,
+              "dur": 2.0,
+              "pitch": "B4"
+            },
+            {
+              "at": 12.0,
+              "dur": 1.0,
+              "pitch": "A4"
+            },
+            {
+              "at": 13.0,
+              "dur": 0.5,
+              "pitch": "C5"
+            },
+            {
+              "at": 13.5,
+              "dur": 0.5,
+              "pitch": "D5"
+            },
+            {
+              "at": 14.0,
+              "dur": 2.0,
+              "pitch": "C5"
+            },
+            {
+              "at": 16.0,
+              "dur": 1.0,
+              "pitch": "B4"
+            },
+            {
+              "at": 17.0,
+              "dur": 0.5,
+              "pitch": "D5"
+            },
+            {
+              "at": 17.5,
+              "dur": 0.5,
+              "pitch": "E5"
+            },
+            {
+              "at": 18.0,
+              "dur": 2.0,
+              "pitch": "D5"
+            },
+            {
+              "at": 20.0,
+              "dur": 1.0,
+              "pitch": "A4"
+            },
+            {
+              "at": 21.0,
+              "dur": 0.5,
+              "pitch": "C5"
+            },
+            {
+              "at": 21.5,
+              "dur": 0.5,
+              "pitch": "D5"
+            },
+            {
+              "at": 22.0,
+              "dur": 2.0,
+              "pitch": "C5"
+            },
+            {
+              "at": 24.0,
+              "dur": 1.0,
+              "pitch": "F#4"
+            },
+            {
+              "at": 25.0,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 25.5,
+              "dur": 0.5,
+              "pitch": "B4"
+            },
+            {
+              "at": 26.0,
+              "dur": 2.0,
+              "pitch": "A4"
+            },
+            {
+              "at": 28.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 29.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 29.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 30.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "variation",
+      "group": "037-motivic-development",
+      "bars": 8,
+      "tempo_bpm": 96,
+      "beats_per_bar": 4,
+      "description": "Single voice: pitch alteration, exact chromatic inversion about E4, rhythmic diminution, register change and return",
+      "voices": [
+        {
+          "name": "quiet C2 reference drone",
+          "waveform": "sine",
+          "gain": 0.045,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 4.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 8.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 12.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 16.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 20.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 24.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 28.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            }
+          ]
+        },
+        {
+          "name": "one varied melody",
+          "waveform": "harmonic",
+          "gain": 0.16,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 1.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 1.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 2.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 4.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 5.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 5.5,
+              "dur": 0.5,
+              "pitch": "B4"
+            },
+            {
+              "at": 6.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 8.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 9.0,
+              "dur": 0.5,
+              "pitch": "C#4"
+            },
+            {
+              "at": 9.5,
+              "dur": 0.5,
+              "pitch": "B3"
+            },
+            {
+              "at": 10.0,
+              "dur": 2.0,
+              "pitch": "C#4"
+            },
+            {
+              "at": 12.0,
+              "dur": 0.5,
+              "pitch": "E4"
+            },
+            {
+              "at": 12.5,
+              "dur": 0.25,
+              "pitch": "G4"
+            },
+            {
+              "at": 12.75,
+              "dur": 0.25,
+              "pitch": "A4"
+            },
+            {
+              "at": 13.0,
+              "dur": 1.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 14.0,
+              "dur": 0.5,
+              "pitch": "E4"
+            },
+            {
+              "at": 14.5,
+              "dur": 0.25,
+              "pitch": "G4"
+            },
+            {
+              "at": 14.75,
+              "dur": 0.25,
+              "pitch": "A4"
+            },
+            {
+              "at": 15.0,
+              "dur": 1.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 16.0,
+              "dur": 1.0,
+              "pitch": "E3"
+            },
+            {
+              "at": 17.0,
+              "dur": 0.5,
+              "pitch": "G3"
+            },
+            {
+              "at": 17.5,
+              "dur": 0.5,
+              "pitch": "A3"
+            },
+            {
+              "at": 18.0,
+              "dur": 2.0,
+              "pitch": "G3"
+            },
+            {
+              "at": 20.0,
+              "dur": 1.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 21.0,
+              "dur": 0.5,
+              "pitch": "B4"
+            },
+            {
+              "at": 21.5,
+              "dur": 0.5,
+              "pitch": "C5"
+            },
+            {
+              "at": 22.0,
+              "dur": 2.0,
+              "pitch": "B4"
+            },
+            {
+              "at": 24.0,
+              "dur": 0.5,
+              "pitch": "E4"
+            },
+            {
+              "at": 24.5,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 25.0,
+              "dur": 3.0,
+              "pitch": "C5"
+            },
+            {
+              "at": 28.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 29.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 29.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 30.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ostinato_layers",
+      "group": "037-motivic-development",
+      "bars": 8,
+      "tempo_bpm": 96,
+      "beats_per_bar": 4,
+      "description": "Lower ostinato throughout, with additional long upper notes from bar 3",
+      "voices": [
+        {
+          "name": "quiet C2 reference drone",
+          "waveform": "sine",
+          "gain": 0.045,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 4.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 8.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 12.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 16.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 20.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 24.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 28.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            }
+          ]
+        },
+        {
+          "name": "lower repeating ground",
+          "waveform": "harmonic",
+          "gain": 0.12,
+          "pan": -0.45,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 1.0,
+              "pitch": "E3"
+            },
+            {
+              "at": 1.0,
+              "dur": 0.5,
+              "pitch": "G3"
+            },
+            {
+              "at": 1.5,
+              "dur": 0.5,
+              "pitch": "A3"
+            },
+            {
+              "at": 2.0,
+              "dur": 2.0,
+              "pitch": "G3"
+            },
+            {
+              "at": 4.0,
+              "dur": 1.0,
+              "pitch": "E3"
+            },
+            {
+              "at": 5.0,
+              "dur": 0.5,
+              "pitch": "G3"
+            },
+            {
+              "at": 5.5,
+              "dur": 0.5,
+              "pitch": "A3"
+            },
+            {
+              "at": 6.0,
+              "dur": 2.0,
+              "pitch": "G3"
+            },
+            {
+              "at": 8.0,
+              "dur": 1.0,
+              "pitch": "E3"
+            },
+            {
+              "at": 9.0,
+              "dur": 0.5,
+              "pitch": "G3"
+            },
+            {
+              "at": 9.5,
+              "dur": 0.5,
+              "pitch": "A3"
+            },
+            {
+              "at": 10.0,
+              "dur": 2.0,
+              "pitch": "G3"
+            },
+            {
+              "at": 12.0,
+              "dur": 1.0,
+              "pitch": "E3"
+            },
+            {
+              "at": 13.0,
+              "dur": 0.5,
+              "pitch": "G3"
+            },
+            {
+              "at": 13.5,
+              "dur": 0.5,
+              "pitch": "A3"
+            },
+            {
+              "at": 14.0,
+              "dur": 2.0,
+              "pitch": "G3"
+            },
+            {
+              "at": 16.0,
+              "dur": 1.0,
+              "pitch": "E3"
+            },
+            {
+              "at": 17.0,
+              "dur": 0.5,
+              "pitch": "G3"
+            },
+            {
+              "at": 17.5,
+              "dur": 0.5,
+              "pitch": "A3"
+            },
+            {
+              "at": 18.0,
+              "dur": 2.0,
+              "pitch": "G3"
+            },
+            {
+              "at": 20.0,
+              "dur": 1.0,
+              "pitch": "E3"
+            },
+            {
+              "at": 21.0,
+              "dur": 0.5,
+              "pitch": "G3"
+            },
+            {
+              "at": 21.5,
+              "dur": 0.5,
+              "pitch": "A3"
+            },
+            {
+              "at": 22.0,
+              "dur": 2.0,
+              "pitch": "G3"
+            },
+            {
+              "at": 24.0,
+              "dur": 1.0,
+              "pitch": "E3"
+            },
+            {
+              "at": 25.0,
+              "dur": 0.5,
+              "pitch": "G3"
+            },
+            {
+              "at": 25.5,
+              "dur": 0.5,
+              "pitch": "A3"
+            },
+            {
+              "at": 26.0,
+              "dur": 2.0,
+              "pitch": "G3"
+            },
+            {
+              "at": 28.0,
+              "dur": 1.0,
+              "pitch": "E3"
+            },
+            {
+              "at": 29.0,
+              "dur": 0.5,
+              "pitch": "G3"
+            },
+            {
+              "at": 29.5,
+              "dur": 0.5,
+              "pitch": "A3"
+            },
+            {
+              "at": 30.0,
+              "dur": 2.0,
+              "pitch": "G3"
+            }
+          ]
+        },
+        {
+          "name": "upper changing layer",
+          "waveform": "harmonic",
+          "gain": 0.12,
+          "pan": 0.4,
+          "events": [
+            {
+              "at": 8.0,
+              "dur": 4.0,
+              "pitch": "C5"
+            },
+            {
+              "at": 12.0,
+              "dur": 2.0,
+              "pitch": "B4"
+            },
+            {
+              "at": 14.0,
+              "dur": 2.0,
+              "pitch": "A4"
+            },
+            {
+              "at": 16.0,
+              "dur": 4.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 20.0,
+              "dur": 2.0,
+              "pitch": "E5"
+            },
+            {
+              "at": 22.0,
+              "dur": 2.0,
+              "pitch": "F5"
+            },
+            {
+              "at": 24.0,
+              "dur": 4.0,
+              "pitch": "D5"
+            },
+            {
+              "at": 28.0,
+              "dur": 4.0,
+              "pitch": "C5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "octave_canon",
+      "group": "037-motivic-development",
+      "bars": 8,
+      "tempo_bpm": 96,
+      "beats_per_bar": 4,
+      "description": "Exact two-bar delayed, octave-lower imitation of a six-bar leader; overlap is essential",
+      "voices": [
+        {
+          "name": "quiet C2 reference drone",
+          "waveform": "sine",
+          "gain": 0.045,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 4.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 8.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 12.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 16.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 20.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 24.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 28.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            }
+          ]
+        },
+        {
+          "name": "leader",
+          "waveform": "harmonic",
+          "gain": 0.12,
+          "pan": -0.45,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 1.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 1.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 2.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 4.0,
+              "dur": 1.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 5.0,
+              "dur": 0.5,
+              "pitch": "B4"
+            },
+            {
+              "at": 5.5,
+              "dur": 0.5,
+              "pitch": "C5"
+            },
+            {
+              "at": 6.0,
+              "dur": 2.0,
+              "pitch": "B4"
+            },
+            {
+              "at": 8.0,
+              "dur": 1.0,
+              "pitch": "F4"
+            },
+            {
+              "at": 9.0,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 9.5,
+              "dur": 0.5,
+              "pitch": "B4"
+            },
+            {
+              "at": 10.0,
+              "dur": 2.0,
+              "pitch": "A4"
+            },
+            {
+              "at": 12.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 13.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 13.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 14.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 16.0,
+              "dur": 1.0,
+              "pitch": "D4"
+            },
+            {
+              "at": 17.0,
+              "dur": 0.5,
+              "pitch": "F4"
+            },
+            {
+              "at": 17.5,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 18.0,
+              "dur": 2.0,
+              "pitch": "F4"
+            },
+            {
+              "at": 20.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 21.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 21.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 22.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            }
+          ]
+        },
+        {
+          "name": "follower",
+          "waveform": "harmonic",
+          "gain": 0.12,
+          "pan": 0.45,
+          "events": [
+            {
+              "at": 8.0,
+              "dur": 1.0,
+              "pitch": "E3"
+            },
+            {
+              "at": 9.0,
+              "dur": 0.5,
+              "pitch": "G3"
+            },
+            {
+              "at": 9.5,
+              "dur": 0.5,
+              "pitch": "A3"
+            },
+            {
+              "at": 10.0,
+              "dur": 2.0,
+              "pitch": "G3"
+            },
+            {
+              "at": 12.0,
+              "dur": 1.0,
+              "pitch": "G3"
+            },
+            {
+              "at": 13.0,
+              "dur": 0.5,
+              "pitch": "B3"
+            },
+            {
+              "at": 13.5,
+              "dur": 0.5,
+              "pitch": "C4"
+            },
+            {
+              "at": 14.0,
+              "dur": 2.0,
+              "pitch": "B3"
+            },
+            {
+              "at": 16.0,
+              "dur": 1.0,
+              "pitch": "F3"
+            },
+            {
+              "at": 17.0,
+              "dur": 0.5,
+              "pitch": "A3"
+            },
+            {
+              "at": 17.5,
+              "dur": 0.5,
+              "pitch": "B3"
+            },
+            {
+              "at": 18.0,
+              "dur": 2.0,
+              "pitch": "A3"
+            },
+            {
+              "at": 20.0,
+              "dur": 1.0,
+              "pitch": "E3"
+            },
+            {
+              "at": 21.0,
+              "dur": 0.5,
+              "pitch": "G3"
+            },
+            {
+              "at": 21.5,
+              "dur": 0.5,
+              "pitch": "A3"
+            },
+            {
+              "at": 22.0,
+              "dur": 2.0,
+              "pitch": "G3"
+            },
+            {
+              "at": 24.0,
+              "dur": 1.0,
+              "pitch": "D3"
+            },
+            {
+              "at": 25.0,
+              "dur": 0.5,
+              "pitch": "F3"
+            },
+            {
+              "at": 25.5,
+              "dur": 0.5,
+              "pitch": "G3"
+            },
+            {
+              "at": 26.0,
+              "dur": 2.0,
+              "pitch": "F3"
+            },
+            {
+              "at": 28.0,
+              "dur": 1.0,
+              "pitch": "E3"
+            },
+            {
+              "at": 29.0,
+              "dur": 0.5,
+              "pitch": "G3"
+            },
+            {
+              "at": 29.5,
+              "dur": 0.5,
+              "pitch": "A3"
+            },
+            {
+              "at": 30.0,
+              "dur": 2.0,
+              "pitch": "G3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additive_process",
+      "group": "037-motivic-development",
+      "bars": 8,
+      "tempo_bpm": 96,
+      "beats_per_bar": 4,
+      "description": "Bars 1-4 grow from one to four motif attacks; the full shape remains thereafter",
+      "voices": [
+        {
+          "name": "quiet C2 reference drone",
+          "waveform": "sine",
+          "gain": 0.045,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 4.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 8.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 12.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 16.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 20.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 24.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 28.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            }
+          ]
+        },
+        {
+          "name": "additive motive",
+          "waveform": "harmonic",
+          "gain": 0.16,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 4.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 5.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 8.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 9.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 9.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 12.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 13.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 13.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 14.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 16.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 17.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 17.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 18.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 20.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 21.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 21.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 22.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 24.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 25.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 25.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 26.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 28.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 29.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 29.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 30.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contrast_return",
+      "group": "037-motivic-development",
+      "bars": 8,
+      "tempo_bpm": 96,
+      "beats_per_bar": 4,
+      "description": "Motivic A, sustained middle, a silent melody bar, and recognizable but changed return",
+      "voices": [
+        {
+          "name": "quiet C2 reference drone",
+          "waveform": "sine",
+          "gain": 0.045,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 4.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 8.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 12.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 16.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 20.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 24.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            },
+            {
+              "at": 28.0,
+              "dur": 4.0,
+              "pitch": "C2"
+            }
+          ]
+        },
+        {
+          "name": "melodic A-B-A outline",
+          "waveform": "harmonic",
+          "gain": 0.16,
+          "pan": 0.0,
+          "events": [
+            {
+              "at": 0.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 1.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 1.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 2.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 4.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 5.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 5.5,
+              "dur": 0.5,
+              "pitch": "B4"
+            },
+            {
+              "at": 6.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 8.0,
+              "dur": 4.0,
+              "pitch": "C5"
+            },
+            {
+              "at": 12.0,
+              "dur": 4.0,
+              "pitch": "B4"
+            },
+            {
+              "at": 16.0,
+              "dur": 4.0,
+              "pitch": "A4"
+            },
+            {
+              "at": 24.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 25.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 25.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 26.0,
+              "dur": 2.0,
+              "pitch": "G4"
+            },
+            {
+              "at": 28.0,
+              "dur": 1.0,
+              "pitch": "E4"
+            },
+            {
+              "at": 29.0,
+              "dur": 0.5,
+              "pitch": "G4"
+            },
+            {
+              "at": 29.5,
+              "dur": 0.5,
+              "pitch": "A4"
+            },
+            {
+              "at": 30.0,
+              "dur": 2.0,
+              "pitch": "C5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

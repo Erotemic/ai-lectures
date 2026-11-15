@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "lecture_id": "037000",
+  "transcript": "037000-beyond-call-and-response.md",
+  "related_resources": [
+    {
+      "source_id": "mt-037-folkways-jenkins",
+      "reason": "Artist biography, paragraphs about the 1957 Call-and-Response collection, participation and leader-child exchange; the page documents this practice, not a general cross-cultural theory."
+    },
+    {
+      "source_id": "mt-037-folkways-pleneros",
+      "reason": "Smithsonian Folkways article, bomba and plena paragraphs; notes sung call-and-response, dancer–drummer relation, and specific histories."
+    },
+    {
+      "source_id": "mt-037-folkways-sonjarocho",
+      "reason": "Smithsonian teaching resource, section \"Through call and response\" and Extension 3 on improvisation; a specific teaching/pedagogical account."
+    },
+    {
+      "source_id": "mt-037-caplin-classical",
+      "reason": "William E. Caplin (1998), Oxford, ch. 3 Sentence, pp. 35–48. Public metadata/abstract; full chapter may need access. Period details corroborated using Open Music Theory."
+    },
+    {
+      "source_id": "mt-037-omt-period",
+      "reason": "Sections Antecedent phrase and Consequent phrase; weaker cadence then stronger PAC in the discussed Classical theme type."
+    },
+    {
+      "source_id": "mt-037-omt-sentence",
+      "reason": "Sections Presentation phrase, Continuation phrase, Phrase length; example(s) and possible expansions, style-specific criteria."
+    },
+    {
+      "source_id": "mt-037-omt-thematic",
+      "reason": "Reference sections Initiating Functions: Presentation/Antecedent; Medial Functions: Continuation; techniques fragmentation, liquidation, sequential repetition and rhythmic acceleration."
+    },
+    {
+      "source_id": "mt-037-omt-sonata-dev",
+      "reason": "Central-action zone and sequence/fragmentation discussion; explicitly repertoire- and form-specific."
+    },
+    {
+      "source_id": "mt-037-margulis-repeat",
+      "reason": "Elizabeth Hellmuth Margulis, Oxford University Press, published online Dec 2013, print 2014; book abstract and contents open. Full book access may be restricted."
+    },
+    {
+      "source_id": "mt-037-margulis-attention",
+      "reason": "Elizabeth Hellmuth Margulis, On Repeat (Oxford), chapter 3, pp. 55–74; public abstract describes cognition and attention, not effects of this invented ostinato."
+    },
+    {
+      "source_id": "mt-037-reich-process",
+      "reason": "Steve Reich, essay written 1968, in Writings on Music 1965–2000, Oxford 2004, pp. 34–36; primary statement of Reich aesthetics, not a rule for all process composition."
+    },
+    {
+      "source_id": "mt-037-omt-pop-modules",
+      "reason": "Sections Formal Containers, Module boundaries, Module Structures; style-scoped examples of timbral, dynamic, melodic, and harmonic section markers."
+    },
+    {
+      "source_id": "mt-037-ardour-import",
+      "reason": "Official Ardour manual, Session > Import, Region List and drag-drop to editor; tool behavior only, not mixing outcome."
+    },
+    {
+      "source_id": "mt-dawdreamer-user-guide",
+      "reason": "Official software reference for reproducible original audio production."
+    },
+    {
+      "source_id": "mt-ardour-region-menu",
+      "reason": "Region audition/looping in the official Ardour manual."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "Smithsonian Folkways documents Ella Jenkins's educational call-and-response work",
+      "source_ids": [
+        "mt-037-folkways-jenkins"
+      ],
+      "evidence_detail": "Artist profile, 1957 album and child-led group exchanges.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Smithsonian Folkways also documents call-and-response singing in Puerto Rican bomba and plena",
+      "source_ids": [
+        "mt-037-folkways-pleneros"
+      ],
+      "evidence_detail": "Article specifically discusses bomba and plena; do not universalize.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "in son jarocho performance and teaching",
+      "source_ids": [
+        "mt-037-folkways-sonjarocho"
+      ],
+      "evidence_detail": "Teaching resource, Through call and response and improvisation sections.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "William E. Caplin's Classical Form, published in 1998",
+      "source_ids": [
+        "mt-037-caplin-classical"
+      ],
+      "evidence_detail": "Oxford metadata for 1998 book; ch. 3 Sentence pp 35–48.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "In a typical period, an antecedent phrase ends with a relatively weak cadence",
+      "source_ids": [
+        "mt-037-omt-period"
+      ],
+      "evidence_detail": "Period, Antecedent and Consequent sections; a Classical-form definition.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Open Music Theory's period chapter makes the tonal criteria explicit",
+      "source_ids": [
+        "mt-037-omt-period"
+      ],
+      "evidence_detail": "Period, sections Antecedent/Consequent; includes ending on PAC.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Its sentence chapter describes a different shape",
+      "source_ids": [
+        "mt-037-omt-sentence"
+      ],
+      "evidence_detail": "Sentence, Presentation/Continuation sections; this phrasing is my summary.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "The combination of two short middle notes and a long ending",
+      "source_ids": [
+        "mt-037-omt-thematic"
+      ],
+      "evidence_detail": "Authored original motif; structural language of a basic idea is background only.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "The demonstrations use eight bars of four-four at the same tempo",
+      "source_ids": [
+        "mt-037-omt-thematic"
+      ],
+      "evidence_detail": "Score JSON fixed_context bars=8 and meter=4/4; independently authored.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "The left-side voice plays the original motif in the first bar",
+      "source_ids": [
+        "mt-037-omt-thematic"
+      ],
+      "evidence_detail": "Score JSON dialogue: source left channel bar 1, not a published music example.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "Caplin's Classical sentence normally describes a presentation followed by a continuation and cadential function",
+      "source_ids": [
+        "mt-037-caplin-classical",
+        "mt-037-omt-sentence"
+      ],
+      "evidence_detail": "Caplin ch. 3 metadata and OMT Sentence; our C-drone is not a classical cadence.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Open Music Theory's thematic-function reference names specific techniques",
+      "source_ids": [
+        "mt-037-omt-thematic"
+      ],
+      "evidence_detail": "Medial Functions: Continuation; named mechanisms.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "In the sequence rendering, the exact four-note rhythmic pattern repeats at changing pitch levels",
+      "source_ids": [
+        "mt-037-omt-thematic"
+      ],
+      "evidence_detail": "Original JSON sequence shifts in semitones [0,2,4,5,7,5,2,0], not an OMT score.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "its discussion of sonata developments emphasizes sequences and fragmentation",
+      "source_ids": [
+        "mt-037-omt-sonata-dev"
+      ],
+      "evidence_detail": "Sonata development central-action zone paragraphs.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "the original E, G, A, G becomes E, C sharp, B, C sharp",
+      "source_ids": [
+        "mt-037-omt-thematic"
+      ],
+      "evidence_detail": "Original score variation bar 3, inversion about E4; author-created.",
+      "provenance": "original_derivation"
+    },
+    {
+      "anchor": "The inversion uses zero, minus three, minus five, minus three",
+      "source_ids": [
+        "mt-037-omt-thematic"
+      ],
+      "evidence_detail": "Chromatic semitone calculation from midi [64,67,69,67], invert at 64 => [64,61,59,61].",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "The ostinato version relocates the motif into a lower register",
+      "source_ids": [
+        "mt-037-margulis-repeat"
+      ],
+      "evidence_detail": "Original score ostinato repeated at E3 G3 A3 G3; Margulis is not the source of notes.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "Elizabeth Hellmuth Margulis's book On Repeat: How Music Plays the Mind",
+      "source_ids": [
+        "mt-037-margulis-repeat"
+      ],
+      "evidence_detail": "Oxford book page, publication and abstract/contents.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Her discussion includes how repeated material interacts with attention over time",
+      "source_ids": [
+        "mt-037-margulis-attention"
+      ],
+      "evidence_detail": "Chapter 3 Attention, Temporality and Music that Repeats Itself, public abstract.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "The follower copies the leader's pitches one octave lower with a fixed delay",
+      "source_ids": [
+        "mt-037-omt-thematic"
+      ],
+      "evidence_detail": "Original score octave_canon, every event shifted eight beats and minus 12 semitones; validated locally.",
+      "provenance": "original_derivation"
+    },
+    {
+      "anchor": "Exact imitation does not guarantee pleasing consonances",
+      "source_ids": [
+        "mt-037-omt-thematic"
+      ],
+      "evidence_detail": "Editorial caveat: event-copy rule constrains horizontal form, not automatic perceptual success.",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "The gradual-process version begins with only the first note of the motif",
+      "source_ids": [
+        "mt-037-reich-process"
+      ],
+      "evidence_detail": "Original additive score, grows events per bar [1,2,3,4]; Reich is historical comparison only.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "Steve Reich's essay Music as a Gradual Process dates from 1968",
+      "source_ids": [
+        "mt-037-reich-process"
+      ],
+      "evidence_detail": "Primary composer essay OUP reprint metadata: 1968, 2004 publication pp 34–36.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Reich distinguishes music that is a perceptible process from the private process of composing it",
+      "source_ids": [
+        "mt-037-reich-process"
+      ],
+      "evidence_detail": "Primary essay differentiates process-composition and audible process; the current rule is unrelated.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Open Music Theory's discussion of pop and rock modules points out that boundaries may be marked by changes in instrumentation",
+      "source_ids": [
+        "mt-037-omt-pop-modules"
+      ],
+      "evidence_detail": "Formal Containers: Module boundaries list instrumentation, volume, register and others.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The eight renderings share a source motif and some technical conditions",
+      "source_ids": [
+        "mt-037-omt-thematic"
+      ],
+      "evidence_detail": "Original lab JSON shared motif/tempo/drone but intentionally differing textures and event counts.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "A note-event analyzer can count how often track A is silent while track B plays",
+      "source_ids": [
+        "mt-037-omt-thematic"
+      ],
+      "evidence_detail": "Author-proposed computable metric; no source validates it as artistic measure.",
+      "provenance": "original_derivation"
+    },
+    {
+      "anchor": "DawDreamer can render alternative instruments or processing graphs offline",
+      "source_ids": [
+        "mt-dawdreamer-user-guide"
+      ],
+      "evidence_detail": "Official user guide overview and graph/render workflow; availability depends on environment and plugins.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "In Ardour, keep both versions aligned and listen at comparable levels",
+      "source_ids": [
+        "mt-037-ardour-import",
+        "mt-ardour-region-menu"
+      ],
+      "evidence_detail": "Original suggested listening protocol; manual supports import and region playback, not alleged superiority.",
+      "provenance": "editorial_inference"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Verbatim spoken anchors map consequential claims to direct sources with specific locators and access limitations. Original data in examples/development-lab-037000.json are separately marked; source attribution does not imply they are in a cited publication. Mechanical validation cannot prove the source interpretation."
+}
