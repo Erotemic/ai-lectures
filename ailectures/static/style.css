@@ -238,6 +238,9 @@ main {
 .card h3 a:hover {
   text-decoration: underline;
 }
+.category-grid .card { position: relative; }
+.category-grid h3 a::after { content: ""; position: absolute; inset: 0; }
+.library-search { width: 100%; margin: 1.3rem 0 0.6rem; }
 .card p {
   font-size: 0.92rem;
   color: var(--muted);

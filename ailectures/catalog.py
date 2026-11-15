@@ -18,6 +18,7 @@ from .core import (
     text_digest,
 )
 from .source_updates import atomic_bytes, source_lock
+from .organization import collection_metadata
 
 LECTURE_FILE = re.compile(r"^([0-9]{6})-.*\.md$")
 
@@ -222,6 +223,7 @@ def repository_track(directory, *, previous=None, strict=False):
         background=plan.get("assumed_background", old_course.get("background", "")),
         sections=plan.get("sections", old_course.get("sections", [])),
         lectures=course_members,
+        **collection_metadata(plan, namespace),
     )
     return dict(
         id=namespace,

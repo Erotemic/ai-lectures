@@ -53,6 +53,13 @@ activation authority and a generated diagnostic lock file. It retains old releas
 without automatic garbage collection. Existing mathematical renderers and their
 scene compositions remain in `dkvis`.
 
+The household browsing UI uses **Collections** and category-first navigation.
+Optional pack-local `categories` and `audiences` permit multiple groupings without
+changing lecture identities or ordered membership. The existing course records
+and URLs remain compatible. Bedtime stories are a direct category destination;
+mathematics collections are grouped together. No physical source moves are needed
+for this organization, and existing authoring handoffs remain valid.
+
 ## Current repository evidence
 
 Baseline: commit `1ad9dbe`, inspected 15 November 2026. Counts describe this checkout

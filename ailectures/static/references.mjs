@@ -15,8 +15,8 @@ export async function referencesPage(main, catalog) {
   });
   const courses = el(
     "select",
-    { "aria-label": "References for course" },
-    el("option", { value: "", text: "All courses" }),
+    { "aria-label": "References for collection" },
+    el("option", { value: "", text: "All collections" }),
     ...catalog.courses.map((course) =>
       el("option", { value: course.id, text: course.title }),
     ),
@@ -34,7 +34,12 @@ export async function referencesPage(main, catalog) {
       class: "intro",
       text: "Source records, reading notes, and links used by the selected lectures. Reading remains available without audio generation.",
     }),
-    el("div", { class: "filters" }, search, el("label", {}, "Course", courses)),
+    el(
+      "div",
+      { class: "filters" },
+      search,
+      el("label", {}, "Collection", courses),
+    ),
     download,
     list,
   );

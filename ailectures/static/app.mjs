@@ -5,6 +5,7 @@ import { ListeningQueue } from "./queue.mjs";
 import { speechSegments } from "./transcript.mjs";
 import { showStorage } from "./storage.mjs";
 import { referencesPage } from "./references.mjs";
+import { CatalogBrowser } from "./browse.mjs";
 import { NarrationControls, preparationPanel } from "./narration.mjs";
 import {
   blockGrid,
@@ -22,11 +23,7 @@ let catalog = { lectures: [], courses: [], packs: [] },
   currentCourse = null,
   pendingConflict = null;
 let playingQueueEntry = null;
-let search = "",
-  subject = "",
-  availability = "",
-  limit = 24,
-  renderToken = 0;
+let renderToken = 0;
 const device = getStored("device") || crypto.randomUUID();
 store("device", device);
 let sequence = getStored("sequence", 0),
@@ -64,7 +61,7 @@ const badgeText = (row) =>
         ? "Partial audio"
         : "Transcript available";
 const badge = (row) => el("span", { class: "badge", text: badgeText(row) });
-const courseLink = (course) => "/courses/" + encodeURIComponent(course.id);
+const courseLink = (course) => "/collections/" + encodeURIComponent(course.id);
 const lectureLink = (id, course = null) =>
   byId(id)?.kind === "presentation"
     ? "/presentations?deck=" + encodeURIComponent(byId(id).deck)
@@ -283,214 +280,22 @@ $("listener-form").onsubmit = async (event) => {
     message(e.message);
   }
 };
-function courseCard(course) {
-  const rows = course.lectures.map(byId).filter(Boolean);
-  const completed = rows.filter((r) => progress[r.id]?.completed).length;
-  return el(
-    "article",
-    { class: "card" },
-    el("h3", {}, link(course.title, courseLink(course))),
-    el("p", { text: course.summary || "" }),
-    el("small", {
-      text: `${rows.length} lectures · ${rows.filter(ready).length} ready to play${completed ? " · " + completed + " completed" : ""}`,
-    }),
-  );
-}
-function lectureItem(row, course = null) {
-  const saved = progress[row.id];
-  return el(
-    "li",
-    {},
-    el(
-      "div",
-      { class: "copy" },
-      link(row.title, lectureLink(row.id, course)),
-      el("small", {
-        text: `${row.namespace} · ${row.estimated_minutes || Math.round((row.words || 0) / 145)} min${saved?.legacy ? " · Old reader: passage " + (saved.legacy.page_index + 1) : saved?.completed ? " · Completed" : saved ? " · In progress" : ""}`,
-      }),
-    ),
-    badge(row),
-  );
-}
-function continueListening() {
-  const rows = Object.values(progress)
-    .filter((p) => !p.completed && byId(p.lecture_id))
-    .sort((a, b) => (b.updated_at || "").localeCompare(a.updated_at || ""))
-    .slice(0, 4);
-  if (!rows.length) return null;
-  return el(
-    "section",
-    { class: "section" },
-    el("h2", { text: "Continue listening" }),
-    el(
-      "ul",
-      { class: "list" },
-      ...rows.map((p) => lectureItem(byId(p.lecture_id), p.course_id)),
-    ),
-  );
-}
-function browse(coursesOnly = false) {
-  const main = $("main");
-  main.replaceChildren(
-    el("div", { class: "eyebrow", text: "Your installed library" }),
-    title(coursesOnly ? "Courses" : "Listen, learn, explore"),
-    description(
-      "Standalone lectures across subjects. Choose a course, explore a question, or pick up where you left off.",
-    ),
-  );
-  main.append(link("References and reading", "/references"));
-  const continuation = continueListening();
-  if (!coursesOnly && continuation) main.append(continuation);
-  const searchInput = el("input", {
-    type: "search",
-    placeholder: "Search lectures and courses",
-    value: search,
-    "aria-label": "Search lectures and courses",
-  });
-  const subjectSelect = el(
-    "select",
-    { "aria-label": "Subject" },
-    el("option", { value: "", text: "All subjects" }),
-    ...catalog.courses.map((c) =>
-      el("option", { value: c.id.split(":")[0], text: c.title }),
-    ),
-  );
-  subjectSelect.value = subject;
-  const audioSelect = el(
-    "select",
-    { "aria-label": "Audio availability" },
-    el("option", { value: "", text: "All content" }),
-    el("option", { value: "ready", text: "Ready to play" }),
-    el("option", { value: "partial", text: "Has audio" }),
-  );
-  audioSelect.value = availability;
-  const results = el("div");
-  const update = () => {
-    search = searchInput.value;
-    subject = subjectSelect.value;
-    availability = audioSelect.value;
-    const q = search.toLocaleLowerCase();
-    const courses = catalog.courses.filter(
-      (c) =>
-        (!subject || c.id.startsWith(subject + ":")) &&
-        (!availability ||
-          c.lectures.some((id) =>
-            availability === "ready"
-              ? ready(byId(id))
-              : byId(id)?.recordings.length,
-          )) &&
-        (c.title + " " + c.summary).toLocaleLowerCase().includes(q),
-    );
-    const lectures = catalog.lectures.filter(
-      (r) =>
-        (!subject || r.namespace === subject) &&
-        (!availability ||
-          (availability === "ready" ? ready(r) : r.recordings.length)) &&
-        (r.title + " " + r.id).toLocaleLowerCase().includes(q),
-    );
-    results.replaceChildren(
-      el(
-        "section",
-        { class: "section" },
-        el("h2", { text: `${courses.length} courses` }),
-        el(
-          "div",
-          { class: "grid" },
-          ...(coursesOnly || q || subject ? courses : courses.slice(0, 6)).map(
-            courseCard,
-          ),
-        ),
-      ),
-    );
-    if (!coursesOnly && !q && !subject && courses.length > 6)
-      results.append(
-        link("Browse all " + courses.length + " courses", "/courses"),
-      );
-    if (!coursesOnly) {
-      const section = el(
-        "section",
-        { class: "section" },
-        el("h2", { text: `${lectures.length} lectures` }),
-        el(
-          "ul",
-          { class: "list" },
-          ...lectures.slice(0, limit).map((r) => lectureItem(r)),
-        ),
-      );
-      if (lectures.length > limit)
-        section.append(
-          button("Show more lectures", () => {
-            limit += 60;
-            update();
-          }),
-        );
-      results.append(section);
-    }
-    if (!catalog.lectures.length)
-      results.append(
-        el("div", {
-          class: "notice",
-          text: "No content packs are installed yet. Add a pack in Packs, or configure a discovery folder.",
-        }),
-      );
-  };
-  searchInput.oninput = update;
-  subjectSelect.onchange = update;
-  audioSelect.onchange = update;
-  main.append(
-    el(
-      "div",
-      { class: "filters" },
-      searchInput,
-      el("label", {}, "Subject", subjectSelect),
-      el("label", {}, "Audio", audioSelect),
-    ),
-    results,
-  );
-  update();
-}
-function coursePage(courseId) {
-  const course = catalog.courses.find((c) => c.id === courseId);
-  if (!course) throw Error("This course is not installed.");
-  $("main").replaceChildren(
-    link("All courses", "/courses"),
-    title(course.title),
-    description(course.summary),
-    el("p", {
-      class: "muted",
-      text:
-        typeof course.background === "string"
-          ? course.background
-          : JSON.stringify(course.background),
-    }),
-  );
-  let section = null;
-  const list = el("ol", { class: "list" });
-  for (const id of course.lectures) {
-    const row = byId(id);
-    if (row && row.section && row.section !== section) {
-      section = row.section;
-      list.append(
-        el("li", { class: "muted", text: section.replaceAll("-", " ") }),
-      );
-    }
-    list.append(
-      row
-        ? lectureItem(row, course.id)
-        : el("li", { text: id + " · Not installed" }),
-    );
-  }
-  if (course.lectures.some((id) => byId(id)?.kind === "audio"))
-    $("main").append(
-      preparationPanel({
-        courseId: course.id,
-        label: "Generate this course",
-        description:
-          "Queue every installed audio lecture in this course for the selected narrator.",
-      }),
-    );
-  $("main").append(list);
-}
+const browser = new CatalogBrowser({
+  catalog: () => catalog,
+  progress: () => progress,
+  listener: () => profile || "device",
+  link,
+  button,
+  byId,
+  ready,
+  badge,
+  courseLink,
+  lectureLink,
+});
+const lectureItem = (row, collection = null) => browser.item(row, collection);
+const browse = (collectionsOnly = false) =>
+  browser.browse($("main"), collectionsOnly);
+const coursePage = (id) => browser.collection($("main"), id);
 async function lecturePage(id, autoplay = false, historical = null) {
   const token = ++renderToken;
   const latest =
@@ -1178,7 +983,7 @@ async function productionPage() {
     "select",
     { "aria-label": "Preparation selection" },
     el("option", { value: "lecture", text: "Lecture" }),
-    el("option", { value: "course", text: "Whole course" }),
+    el("option", { value: "course", text: "Whole collection" }),
     el("option", { value: "library", text: "Whole library" }),
   );
   const lectures = el(
@@ -1206,7 +1011,7 @@ async function productionPage() {
       scope.value === "library"
         ? `Queue all ${catalog.lectures.filter((row) => row.kind === "audio").length} lectures`
         : scope.value === "course"
-          ? "Queue whole course"
+          ? "Queue whole collection"
           : "Cache whole lecture";
   };
   const narrator = new NarrationControls(profiles, {
@@ -1442,9 +1247,13 @@ async function render(autoplay = false) {
     );
   try {
     const path = location.pathname;
-    if (path === "/courses") browse(true);
-    else if (path.startsWith("/courses/"))
-      coursePage(decodeURIComponent(path.slice(9)));
+    if (["/courses", "/collections"].includes(path)) browse(true);
+    else if (path.startsWith("/courses/") || path.startsWith("/collections/"))
+      coursePage(
+        decodeURIComponent(
+          path.slice(path.startsWith("/collections/") ? 13 : 9),
+        ),
+      );
     else if (path.startsWith("/lectures/"))
       await lecturePage(
         path.slice(10).split("/").map(decodeURIComponent).join(":"),

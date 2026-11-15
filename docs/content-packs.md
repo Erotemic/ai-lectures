@@ -13,6 +13,40 @@ current directories, and new independently owned source packs can live in
 metadata, reading sources, and declarative examples. No shared Python registry,
 global lecture list, or navigation edit is required.
 
+## Browse collections
+
+The UI uses **Collections** for ordered listening groups, including lectures,
+stories, and mixed material. The existing `courses` API records, collection IDs,
+progress context, and `/courses/...` bookmarks stay compatible. New links use
+`/collections/...`.
+
+Library starts with broad category cards. Mathematics is one category containing
+its individual collections; the bedtime category opens its collection directly.
+Optional audience filters and category choices are remembered for the selected
+listener on each device. They are browsing preferences: all content stays
+accessible. Source files, lecture IDs, existing audio and listening progress do
+not change when browsing organization changes.
+
+A pack can declare its own grouping in `track.json`, for example:
+
+```json
+{
+  "categories": ["Stories", "Imagination"],
+  "audiences": ["children", "families"],
+  "age_range_label": "Ages 3–4"
+}
+```
+
+These are optional fields alongside the existing ID, title and lecture list.
+Singular `category` and `audience` fields are also supported. A collection may
+belong to multiple categories. Names are pack-local labels and need no central
+registration. Existing tracks receive compatibility categories; an unclassified
+new pack remains visible under Other collections. Unindexed manuscripts keep
+their categories without being inserted into an ordered collection.
+
+This is a browsing structure that can evolve while independent authoring
+continues. It does not require moving manuscripts or changing pack ownership.
+
 ## Start the server
 
 ```bash
@@ -238,8 +272,8 @@ their chosen revision and immutable media URLs while the library refreshes.
 Lecture pages put the registered **Narrator** profiles beside **Cache whole
 lecture** and **Stop generation**. The cache action queues every block for the
 selected profile, and a completed preparation offers **Play this narrator**.
-Individual voice IDs and speech speed are under advanced settings. Course pages
-can queue a whole course, and Production can explicitly queue the whole library.
+Individual voice IDs and speech speed are under advanced settings. Collection pages
+can queue a whole collection, and Production can explicitly queue the whole library.
 The listening queue is labelled separately from the generation queue.
 
 The Production page retains configured TTS profiles, remembered voice choices,

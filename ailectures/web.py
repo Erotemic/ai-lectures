@@ -24,6 +24,7 @@ from starlette.staticfiles import StaticFiles
 from .core import Conflict, checksum, finite, qualified
 from .library import Library
 from .state import ListenerState, utcnow
+from .organization import collection_metadata, item_organization
 
 STATIC = Path(__file__).with_name("static")
 
@@ -113,9 +114,14 @@ def create_app(
 
     def catalog(request):
         snapshot = library.snapshot(refresh=request.query_params.get("refresh") == "1")
+        collections = [
+            dict(course, **collection_metadata(course, course["id"].split(":")[0]))
+            for course in snapshot["courses"].values()
+        ]
         items = []
         for row in snapshot["lectures"].values():
             summary = annotate(row)
+            summary.update(item_organization(row, collections))
             for key in ("source", "transcript", "metadata", "sources"):
                 summary.pop(key, None)
             for rec in summary.get("recordings", []):
@@ -126,7 +132,7 @@ def create_app(
             {
                 "generation": snapshot["generation"],
                 "lectures": items,
-                "courses": list(snapshot["courses"].values()),
+                "courses": collections,
                 "packs": snapshot["packs"],
                 "errors": snapshot["errors"],
                 "legacy": bool(legacy),
@@ -494,6 +500,8 @@ def create_app(
             "/",
             "/courses",
             "/courses/{course_id}",
+            "/collections",
+            "/collections/{collection_id}",
             "/lectures/{namespace}/{local_id}",
             "/listening",
             "/packs",

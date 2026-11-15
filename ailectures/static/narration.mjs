@@ -190,7 +190,7 @@ export function preparationPanel({
     text: lectureId
       ? "Cache whole lecture"
       : courseId
-        ? "Queue whole course"
+        ? "Queue whole collection"
         : "Queue all lectures in this library",
   });
   const stop = el("button", {
