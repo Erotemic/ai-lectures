@@ -2,8 +2,9 @@
 """Install an independently authored, text-only ZIP within one agent's namespace.
 
 Preflight all paths and the merged track index *before* modifying any files.
-The four agent namespaces are disjoint. This installer does not run ZIP code,
-commit files, delete files, or attempt concurrent edits to a shared checkout.
+Each agent owns one or more disjoint curriculum tracks. The legacy G2/G3
+tracks remain coordinator-only for this campaign. This installer does not run
+ZIP code, commit files, delete files, or attempt concurrent edits.
 """
 from __future__ import annotations
 
@@ -14,21 +15,29 @@ import re
 import stat
 from zipfile import ZipFile
 
+# Content ownership for the completion campaign. A track has exactly one owner.
+# G2 (tts-lectures) contains shared extraction code and G3 (tts-paper) is tied
+# to the paper; neither is writable by ordinary four-agent ZIP overlays.
 OWNERS = {
-    'a': 'fiction-writing',
-    'b': 'comedy-history',
-    'c': 'analysis',
-    'd': 'music-theory',
+    'a': frozenset({'fiction-writing', 'modern-literature', 'world-reconsidered'}),
+    'b': frozenset({'comedy-history', 'modern-world', 'history', 'world-history'}),
+    'c': frozenset({'analysis', 'category-theory', 'logic-types',
+                    'numerical-analysis', 'optimization-duality',
+                    'probability-measure'}),
+    'd': frozenset({'music-theory', 'physical-world', 'deep-time'}),
 }
 TEXT_SUFFIXES = frozenset({'.md', '.json', '.txt', '.yaml', '.yml', '.tsv', '.toml', '.py', '.html'})
 NUMBERED = re.compile(r'[0-9]{6}-[^/]+\.md\Z')
 
 
 def apply(repo: Path, agent: str, archive: Path, check_only: bool = False) -> list[str]:
-    track_id = OWNERS[agent]
-    track_root = f'draft-stages/tts-{track_id}/'
-    plan_root = f'docs/planning/agent-{agent}-{track_id}/'
-    test_root = f'tests/agent-{agent}-{track_id}/'
+    tracks = OWNERS[agent]
+    track_roots = {track: f'draft-stages/tts-{track}/' for track in tracks}
+    permitted_roots = tuple(
+        f'{prefix}{track}/'
+        for track in tracks
+        for prefix in (f'docs/planning/agent-{agent}-', f'tests/agent-{agent}-')
+    ) + tuple(track_roots.values())
     paths = []
     with ZipFile(archive) as z:
         for entry in z.infolist():
@@ -38,7 +47,7 @@ def apply(repo: Path, agent: str, archive: Path, check_only: bool = False) -> li
             path = PurePosixPath(name)
             if ('\\' in name or name.startswith('/') or '..' in path.parts
                     or '.' in path.parts or len(path.parts) < 3
-                    or not name.startswith((track_root, plan_root, test_root))
+                    or not name.startswith(permitted_roots)
                     or path.suffix not in TEXT_SUFFIXES
                     or '__pycache__' in path.parts):
                 raise ValueError(f'Agent {agent.upper()} cannot write {name!r}')
@@ -57,35 +66,39 @@ def apply(repo: Path, agent: str, archive: Path, check_only: bool = False) -> li
             paths.append(name)
         if not paths:
             raise ValueError('ZIP contains no owned text files')
-        # The effective catalog contains on-disk files and newly added files.
-        # Existing files may be updated; deletion by overlay is unsupported.
-        directory = repo / track_root
-        actual = {p.name for p in directory.glob('[0-9][0-9][0-9][0-9][0-9][0-9]-*.md') if p.is_file()}
-        actual.update(PurePosixPath(p).name for p in paths
-                      if p.startswith(track_root) and NUMBERED.fullmatch(PurePosixPath(p).name))
-        manifest_name = track_root + 'track.json'
-        if manifest_name in paths:
-            plan = json.loads(z.read(manifest_name))
-        elif (directory / 'track.json').exists():
-            plan = json.loads((directory / 'track.json').read_text(encoding='utf-8'))
-        else:
-            plan = None
-        if actual and plan is None:
-            raise ValueError(f'Missing {manifest_name} for numbered manuscripts')
-        if plan is not None:
-            if plan.get('id') != track_id:
-                raise ValueError(f'Manifest ID must equal {track_id!r}')
-            rows = plan.get('lectures')
-            if not isinstance(rows, list):
-                raise ValueError('Manifest lectures must be a list')
-            names = [row['file'] for row in rows]
-            ids = [row['id'] for row in rows]
-            if (len(set(names)) != len(names) or len(set(ids)) != len(ids)
-                    or any(not NUMBERED.fullmatch(name) or name[:6] != row_id
-                           for name, row_id in zip(names, ids))
-                    or set(names) != actual):
-                raise ValueError(f'{track_id} index mismatch: missing {sorted(set(names)-actual)}, '
-                                 f'unindexed {sorted(actual-set(names))}')
+        # Verify each touched track against the effective on-disk + ZIP files.
+        # A proposed future lecture must not be indexed before its manuscript
+        # exists. Untouched tracks are outside this overlay's responsibility.
+        for track_id, track_root in sorted(track_roots.items()):
+            if not any(name.startswith(track_root) for name in paths):
+                continue
+            directory = repo / track_root
+            actual = {p.name for p in directory.glob('[0-9][0-9][0-9][0-9][0-9][0-9]-*.md') if p.is_file()}
+            actual.update(PurePosixPath(p).name for p in paths
+                          if p.startswith(track_root) and NUMBERED.fullmatch(PurePosixPath(p).name))
+            manifest_name = track_root + 'track.json'
+            if manifest_name in paths:
+                plan = json.loads(z.read(manifest_name))
+            elif (directory / 'track.json').exists():
+                plan = json.loads((directory / 'track.json').read_text(encoding='utf-8'))
+            else:
+                plan = None
+            if actual and plan is None:
+                raise ValueError(f'Missing {manifest_name} for numbered manuscripts')
+            if plan is not None:
+                if plan.get('id') != track_id:
+                    raise ValueError(f'Manifest ID must equal {track_id!r}')
+                rows = plan.get('lectures')
+                if not isinstance(rows, list):
+                    raise ValueError('Manifest lectures must be a list')
+                names = [row['file'] for row in rows]
+                ids = [row['id'] for row in rows]
+                if (len(set(names)) != len(names) or len(set(ids)) != len(ids)
+                        or any(not NUMBERED.fullmatch(name) or name[:6] != row_id
+                               for name, row_id in zip(names, ids))
+                        or set(names) != actual):
+                    raise ValueError(f'{track_id} index mismatch: missing {sorted(set(names)-actual)}, '
+                                     f'unindexed {sorted(actual-set(names))}')
         for name in paths:
             target = repo / name
             if target.is_symlink() or any(p.is_symlink() for p in target.parents if p != repo.parent):
