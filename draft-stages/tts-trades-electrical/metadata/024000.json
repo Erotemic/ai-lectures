@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "lecture_id": "024000",
+  "transcript": "024000-neutral-earth-and-protective-conductors.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-iec60364-554-2021",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-openstax-kirchhoff",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-openstax-ohm",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-osha-open-neutral",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-osha399",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-schneider-tttn",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-se-earthing-schemes",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-se-neutral-sizing",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-se-pen-faq",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-se-tt-principle",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E024000-01",
+      "claim": "Grounded circuit conductor and equipment grounding conductor have distinct definitions",
+      "kind": "regulatory_terminology",
+      "supports": [
+        {
+          "source_id": "electrical-osha399",
+          "location": "Grounded conductor versus equipment grounding conductor definitions",
+          "role": "primary_us_regulation"
+        },
+        {
+          "source_id": "electrical-iec60364-554-2021",
+          "location": "Part 5-54 protective conductor scope",
+          "role": "standard_scope_only"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "OSHA is workplace regulation; IEC abstract does not certify a clause.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-02",
+      "claim": "Neutral carries ordinary current and can develop voltage due to its impedance",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "Section 9.4 current and resistance",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-osha304",
+          "location": "1910.304 conductor identifications",
+          "role": "regulatory_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "0.2 ohm and 15 A example is a simplifying assumed circuit.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-03",
+      "claim": "Intentionally grounded neutral is not generally safe to touch; open neutral may remain energized",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-open-neutral",
+          "location": "July 7 2003 interpretation, open neutral cases",
+          "role": "primary_hazard_evidence"
+        },
+        {
+          "source_id": "electrical-openstax-kirchhoff",
+          "location": "Circuit voltage laws",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Actual fault topology varies; not a universal neutral-voltage prediction.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-04",
+      "claim": "Equipment grounding/PE can provide protective current route and bonding reference",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "1910.304(g)(5) and (g)(8), equipment grounding",
+          "role": "primary_us_context"
+        },
+        {
+          "source_id": "electrical-iec60364-554-2021",
+          "location": "Published Part 5-54 scope",
+          "role": "independent_standards_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific performance requires fault-loop and equipment design review.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-05",
+      "claim": "Earth electrode resistance can make an earth-only fault loop inadequate for prompt breaker clearing",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-se-tt-principle",
+          "location": "Fault loop impedance and RCD rationale",
+          "role": "technical_guide"
+        },
+        {
+          "source_id": "electrical-osha304",
+          "location": "1910.304(g)(8) grounding path provisions",
+          "role": "independent_regulatory_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "25 ohm example only; actual earth impedance complex and local rules differ.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-06",
+      "claim": "Earthing, bonding and protective disconnection are different functions",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha399",
+          "location": "Bonding and grounding definitions",
+          "role": "primary_us_regulation"
+        },
+        {
+          "source_id": "electrical-se-earthing-schemes",
+          "location": "TN TT IT protective arrangements",
+          "role": "independent_technical_guide"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Neither page alone validates specific system design.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-07",
+      "claim": "TN source-related protective route differs from TT electrode-protective arrangement",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-earthing-schemes",
+          "location": "System descriptions and diagrams",
+          "role": "technical_guide"
+        },
+        {
+          "source_id": "electrical-iec60364-554-2021",
+          "location": "Part 5-54 official scope",
+          "role": "standard_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Single vendor guide; full applicable normative clauses not reviewed.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-08",
+      "claim": "TT systems commonly require RCD for effective fault disconnection given earth-loop impedance",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-se-tt-principle",
+          "location": "TT source and installation electrode discussion",
+          "role": "technical_guide"
+        },
+        {
+          "source_id": "electrical-osha304",
+          "location": "Ground-fault interrupter functions in US context",
+          "role": "independent_device_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No universal RCD type, trip threshold or application prescribed.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-09",
+      "claim": "IT systems often use insulation monitoring and defined response to first and second fault",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-schneider-tttn",
+          "location": "IT system characteristics",
+          "role": "technical_guide"
+        },
+        {
+          "source_id": "electrical-iec60364-554-2021",
+          "location": "Part 5-54 earthing scope",
+          "role": "standard_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No independent primary clause-level verification for specific IT protection thresholds.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-10",
+      "claim": "TN-C-S includes combined PEN upstream and separate PE/N downstream",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-pen-faq",
+          "location": "TN-C-S split point statement",
+          "role": "manufacturer_technical_explanation"
+        },
+        {
+          "source_id": "electrical-se-earthing-schemes",
+          "location": "TN-C and TN-S topologies",
+          "role": "same_publisher_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Two Schneider sources not independent; locally adopted scheme required.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-11",
+      "claim": "Open PEN can elevate exposed metal and undermine intended fault reference",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-se-earthing-schemes",
+          "location": "PEN carries protective and neutral function",
+          "role": "technical_context"
+        },
+        {
+          "source_id": "electrical-osha-open-neutral",
+          "location": "Open-neutral energized conditions",
+          "role": "independent_related_hazard"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific open-PEN exposure mechanisms and mitigations require independent domain expert review.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-12",
+      "claim": "Rejoining PE and N downstream can create unwanted normal-current parallel paths",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "1910.304(g)(4) source-side connections and grounding",
+          "role": "us_regulatory_context"
+        },
+        {
+          "source_id": "electrical-se-pen-faq",
+          "location": "downstream separated TN-C-S conductors",
+          "role": "independent_vendor_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Bonding exceptions and exact points are system and code dependent.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-13",
+      "claim": "Shared-neutral circuit with neutral open may divide 240 V across unlike loads",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-kirchhoff",
+          "location": "Series voltages and loop law",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-osha-open-neutral",
+          "location": "Open-neutral effects",
+          "role": "primary_hazard_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Classroom topology only; real fault may include other paths.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-14",
+      "claim": "Conductor color is jurisdiction- and edition-specific, not proof of conductor function",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "1910.304(a)(1) distinct identification",
+          "role": "us_regulatory_context"
+        },
+        {
+          "source_id": "electrical-se-neutral-sizing",
+          "location": "IEC-style neutral/PEN identification context",
+          "role": "independent_guide"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Historical modifications and local color requirements need investigation.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-15",
+      "claim": "RCD residual imbalance alone does not detect every dangerous voltage or open PEN",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha399",
+          "location": "GFCI current-imbalance device definition",
+          "role": "primary_regulatory_definition"
+        },
+        {
+          "source_id": "electrical-osha-open-neutral",
+          "location": "Interpretation describes some GFCI open-neutral failures",
+          "role": "independent_hazard_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "RCD model-specific behavior varies; open-PEN claims await expert review.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E024000-16",
+      "claim": "Alternative sources can change neutral reference and bonding configuration",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "1910.304(g)(3) generator arrangements",
+          "role": "us_workplace_scope"
+        },
+        {
+          "source_id": "electrical-iec60364-554-2021",
+          "location": "protective conductor scope",
+          "role": "standard_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Inverter/transfer design requires model-specific documents; no field guidance validated.",
+      "professional_review": "editorial_source_review_only"
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "lecture_id": "022000",
+  "transcript": "022000-electrical-services-and-boundaries.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-doe-solar-design",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-nfpa-service-point-record",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-nfpa70",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-nyseg-glossary",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-nyseg-service-manual",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-nyseg-tariff-meter",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-openstax-acpower",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-osha399",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-se-lv-networks",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E022000-01",
+      "claim": "Low-voltage supply can use different transformer-to-premises architectures",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-lv-networks",
+          "location": "North and Central American versus European network discussion",
+          "role": "primary_explanation"
+        },
+        {
+          "source_id": "electrical-nyseg-service-manual",
+          "location": "Service connection index",
+          "role": "regional_utility_example"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Guide gives examples, not a census of national practice.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E022000-02",
+      "claim": "Service point is defined as the connection of serving utility facilities to premises wiring",
+      "kind": "code_terminology",
+      "supports": [
+        {
+          "source_id": "electrical-osha399",
+          "location": "Service point definition",
+          "role": "public_us_regulation"
+        },
+        {
+          "source_id": "electrical-nyseg-glossary",
+          "location": "Electricity Service definition",
+          "role": "independent_utility_usage"
+        },
+        {
+          "source_id": "electrical-nfpa-service-point-record",
+          "location": "Article 100 Service Point definition",
+          "role": "standards_development_history"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "OSHA applies to occupational installations; NFPA record not a final locally adopted code.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E022000-03",
+      "claim": "Service point may differ from property line, meter location or exterior wall",
+      "kind": "utility_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-nyseg-glossary",
+          "location": "Service point and installation terms",
+          "role": "utility_context"
+        },
+        {
+          "source_id": "electrical-nyseg-service-manual",
+          "location": "Service Connections section index",
+          "role": "utility_context"
+        },
+        {
+          "source_id": "electrical-nfpa-service-point-record",
+          "location": "Service Point informational note",
+          "role": "standards_development_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Actual utility service point must be confirmed for particular premises.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E022000-04",
+      "claim": "Service drop and service lateral describe distinct supply approaches",
+      "kind": "code_terminology",
+      "supports": [
+        {
+          "source_id": "electrical-osha399",
+          "location": "Service drop and service conductors definitions",
+          "role": "public_us_regulation"
+        },
+        {
+          "source_id": "electrical-nfpa-service-point-record",
+          "location": "Article 100 definitions",
+          "role": "standards_development_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Exact terms and ownership vary across countries and editions.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E022000-05",
+      "claim": "Utility equipment ownership and customer responsibility differ by component",
+      "kind": "utility_boundary",
+      "supports": [
+        {
+          "source_id": "electrical-nyseg-tariff-meter",
+          "location": "Section 3 Service Connections and Meters",
+          "role": "utility_tariff_context"
+        },
+        {
+          "source_id": "electrical-nyseg-service-manual",
+          "location": "Sections 4, 5 and 7 public index",
+          "role": "supporting_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Tariff excerpt reviewed, not full tariff for any property; other utilities differ.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E022000-06",
+      "claim": "Utility rules and local approvals can both affect a service change",
+      "kind": "regulatory_scope",
+      "supports": [
+        {
+          "source_id": "electrical-nyseg-service-manual",
+          "location": "Introduction and service approval index",
+          "role": "utility_requirements"
+        },
+        {
+          "source_id": "electrical-nfpa70",
+          "location": "official NEC development and scope",
+          "role": "separate_code_framework"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Exact permits, inspectors and adopted code must be verified locally.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E022000-07",
+      "claim": "An energy meter measures consumption, not necessarily disconnect or protective function",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "Section 9.5 energy versus power",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-nyseg-tariff-meter",
+          "location": "Section 3 meter and metering context",
+          "role": "utility_function"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Smart meters may have switching capabilities; model and utility practices vary.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E022000-08",
+      "claim": "Service disconnect opens the defined downstream path, but upstream conductors can remain supplied",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha399",
+          "location": "Service conductors and service equipment definitions",
+          "role": "primary_workplace_definitions"
+        },
+        {
+          "source_id": "electrical-osha304",
+          "location": "Grounding connections on supply side of service disconnect",
+          "role": "regulatory_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Other source, transfer and equipment topology must be considered for any real isolation.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E022000-09",
+      "claim": "Multiple supplies can change energized boundaries in premises",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha399",
+          "location": "Premises wiring definition includes distributed generation",
+          "role": "public_us_regulation"
+        },
+        {
+          "source_id": "electrical-doe-solar-design",
+          "location": "System components and inverter functions",
+          "role": "general_source_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Product-specific transfer and neutral switching not validated.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E022000-10",
+      "claim": "Two kilowatts for 0.5 hour uses one kilowatt-hour in constant-power model",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "Section 9.5 electric power and energy",
+          "role": "textbook_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Ideal constant-power example.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E022000-11",
+      "claim": "240 V times 200 A equals 48 kVA apparent power for ideal single-phase model",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "Section 15.4 power and power factor",
+          "role": "textbook_physics"
+        },
+        {
+          "source_id": "electrical-se-lv-networks",
+          "location": "Nominal 120/240 center-tapped secondary",
+          "role": "network_example"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Does not assert legal service ampacity or continuous power availability.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E022000-12",
+      "claim": "Maximum ordinary load current differs from prospective short-circuit current and interrupting capacity",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "1910.304(f) overcurrent protection and breaker ratings",
+          "role": "workplace_regulation"
+        },
+        {
+          "source_id": "electrical-nfpa70",
+          "location": "NFPA 70 scope and development",
+          "role": "standards_framework"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Actual available fault current and device ratings require site data and product-specific study.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E022000-13",
+      "claim": "Drawings, utility service instructions and adopted code address different properties",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-nyseg-service-manual",
+          "location": "Manual sections 2-7 and section 13",
+          "role": "utility_documents"
+        },
+        {
+          "source_id": "electrical-osha399",
+          "location": "Definitions of premises wiring and service equipment",
+          "role": "terminology"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Site-specific legal obligations not certified by these general sources.",
+      "professional_review": "editorial_source_review_only"
+    }
+  ]
+}

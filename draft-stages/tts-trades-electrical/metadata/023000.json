@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "lecture_id": "023000",
+  "transcript": "023000-split-phase-three-phase-and-supply-systems.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-fluke-harmonics",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-openstax-ac-sources",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-openstax-acpower",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-openstax-kirchhoff",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-openstax-ohm",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-openstax-transformers",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-osha-open-neutral",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-se-lv-networks",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-se-neutral-sizing",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-se-voltage-ranges",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E023000-01",
+      "claim": "North American 120/240 V commonly arises from center-tapped single-phase transformer secondary",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-lv-networks",
+          "location": "North and Central American residential distribution paragraph",
+          "role": "technical_guide"
+        },
+        {
+          "source_id": "electrical-openstax-transformers",
+          "location": "Section 15.6 transformer winding physics",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Not every North American building uses that source arrangement.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E023000-02",
+      "claim": "Split-phase outer-to-midpoint voltages are opposite phasors, yielding 240 V outer-to-outer",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ac-sources",
+          "location": "Section 15.1 AC sinusoidal voltage theory",
+          "role": "physics_foundations"
+        },
+        {
+          "source_id": "electrical-se-lv-networks",
+          "location": "120/240 V center-tap description",
+          "role": "engineering_example"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Ideal equal secondary assumption; real voltage regulation differs.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E023000-03",
+      "claim": "Higher voltage at equal resistive power reduces current in the simplified model",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "Section 9.4 Ohm law",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "Section 9.5 power and Joule losses",
+          "role": "independent_derivation"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Does not determine safe conductor size.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E023000-04",
+      "claim": "Balanced split-phase resistive leg loads cause neutral-current cancellation in ideal model",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-kirchhoff",
+          "location": "Section 10.3 junction rule",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-se-lv-networks",
+          "location": "center-tapped secondary architecture",
+          "role": "system_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Opposite leg phasors and unity-power-factor assumption required.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E023000-05",
+      "claim": "Open center-tap neutral with unequal loads can lead to unequal series voltages",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-open-neutral",
+          "location": "OSHA July 7 2003 open-neutral interpretation",
+          "role": "primary_hazard_support"
+        },
+        {
+          "source_id": "electrical-openstax-kirchhoff",
+          "location": "Voltage division and loop rules",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Fault voltages depend on topology and extra load paths.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E023000-06",
+      "claim": "Balanced three-phase sinusoids have phase separation of 120 degrees",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ac-sources",
+          "location": "General sinusoidal AC theory",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-se-voltage-ranges",
+          "location": "Three-phase system categories",
+          "role": "engineering_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Three-phase angle model is standard phasor derivation; source specifically not a comprehensive 3-phase text.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E023000-07",
+      "claim": "Balanced wye line-to-line voltage magnitude is sqrt(3) times phase-neutral voltage",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ac-sources",
+          "location": "Sinusoidal phasor algebra context",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-se-voltage-ranges",
+          "location": "230/400 and 120/208 examples",
+          "role": "secondary_standards_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Exactly true for balanced sinusoids; nominal rounding affects labels.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E023000-08",
+      "claim": "230/400 V and 120/208 V are standardized supply families but not global rules",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-voltage-ranges",
+          "location": "IEC 60038 summary table",
+          "role": "voltage_guide"
+        },
+        {
+          "source_id": "electrical-se-lv-networks",
+          "location": "regional architecture comparison",
+          "role": "same_publisher_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Both Schneider sources are same publisher and do not count as independent corroboration.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E023000-09",
+      "claim": "Delta connections and wye connections do not necessarily offer same neutral voltages",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "1910.304(g)(1)(iv) includes wye/delta systems",
+          "role": "primary_us_regulation"
+        },
+        {
+          "source_id": "electrical-se-voltage-ranges",
+          "location": "Three-phase three-/four-wire voltage notation",
+          "role": "engineering_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Detailed high-leg identification and application needs local code and equipment specifics.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E023000-10",
+      "claim": "At fixed resistance, a 2400 W 240 V heater draws about 1803 W at 208 V",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "Section 9.4 Ohm law",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "Section 9.5 P equals V squared over R",
+          "role": "physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Purely resistive fixed-temperature model, not equipment approval.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E023000-11",
+      "claim": "Balanced three-phase sinusoidal real power is sqrt(3) V_LL I_L times power factor",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-acpower",
+          "location": "Section 15.4 AC power and power factor",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-se-voltage-ranges",
+          "location": "Three-phase voltage conventions",
+          "role": "system_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Formula assumes balance and sinusoidal definition of power factor.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E023000-12",
+      "claim": "Four-wire three-phase neutral can carry unbalance and triplen harmonic current",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-neutral-sizing",
+          "location": "Influence of harmonics on neutral sizing",
+          "role": "technical_guide"
+        },
+        {
+          "source_id": "electrical-fluke-harmonics",
+          "location": "Harmonic current discussion",
+          "role": "independent_vendor_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Device and waveform specifics matter; instrument measurement required for actual values.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E023000-13",
+      "claim": "Regional nominal voltage and frequency differ across systems",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-voltage-ranges",
+          "location": "IEC nominal voltage summary table",
+          "role": "technical_context"
+        },
+        {
+          "source_id": "electrical-se-lv-networks",
+          "location": "regional network comparison",
+          "role": "same_publisher_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Precise voltage tolerance and frequency require actual utility and national rules.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E023000-14",
+      "claim": "Source phasor compatibility matters to 120/240 versus 120/208 equipment",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-voltage-ranges",
+          "location": "Voltage relationships table",
+          "role": "technical_context"
+        },
+        {
+          "source_id": "electrical-openstax-ac-sources",
+          "location": "AC phasor foundation",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Individual appliance allowable voltage is product specific.",
+      "professional_review": "editorial_source_review_only"
+    }
+  ]
+}

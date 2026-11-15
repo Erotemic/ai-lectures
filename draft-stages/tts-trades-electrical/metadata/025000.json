@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025000",
+  "transcript": "025000-feeders-branches-and-load-diversity.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-doe-prints-v1",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-doe-solar-design",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-fluke-harmonics",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-iec60364-552-2024",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-nfpa-2026-loads",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-nfpa-service-point-record",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-nfpa70",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-openstax-ohm",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-osha399",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-se-diversity",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    },
+    {
+      "source_id": "electrical-se-neutral-sizing",
+      "reason": "Specific supporting context, scope and limitations in claim-level source map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E025000-01",
+      "claim": "Branch circuit is downstream of final circuit overcurrent device and supplies outlets",
+      "kind": "code_terminology",
+      "supports": [
+        {
+          "source_id": "electrical-osha399",
+          "location": "Branch circuit definition",
+          "role": "primary_us_regulation"
+        },
+        {
+          "source_id": "electrical-nfpa-service-point-record",
+          "location": "Article 100 definitions context",
+          "role": "standards_development_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "OSHA is not an adopted residential NEC; Article 100 source is historical public process report.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-02",
+      "claim": "Feeder is upstream of final branch-circuit protective device",
+      "kind": "code_terminology",
+      "supports": [
+        {
+          "source_id": "electrical-osha399",
+          "location": "Feeder definition",
+          "role": "primary_us_regulation"
+        },
+        {
+          "source_id": "electrical-nfpa70",
+          "location": "NEC development and scope",
+          "role": "separate_standards_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Exact adopted code edition remains locally specific.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-03",
+      "claim": "Outlet includes hardwired utilization point; receptacle is a separate device",
+      "kind": "code_terminology",
+      "supports": [
+        {
+          "source_id": "electrical-osha399",
+          "location": "Outlet and Receptacle definitions",
+          "role": "primary_us_regulation"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No universal terminology across all national systems.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-04",
+      "claim": "Overcurrent device rating differs from interrupting rating and time-current behavior",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha399",
+          "location": "Circuit breaker and overload definitions",
+          "role": "primary_us_regulation"
+        },
+        {
+          "source_id": "electrical-osha304",
+          "location": "1910.304(f) overcurrent protection and breaker rating",
+          "role": "same_agency_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Two OSHA pages are not independent corroboration of product-specific curves.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-05",
+      "claim": "Connected nameplate load differs from coincident demand over a time interval",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-diversity",
+          "location": "Definitions of maximum demand and simultaneity",
+          "role": "technical_guide"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "Power versus energy distinction",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Actual permitted design methods depend on jurisdiction.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-06",
+      "claim": "Individual maximum sum can exceed maximum simultaneous sum for multiple loads",
+      "kind": "mathematics",
+      "supports": [
+        {
+          "source_id": "electrical-se-diversity",
+          "location": "Coincidence factor definition",
+          "role": "technical_guide"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "Time-dependent power context",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Hypothetical operating profile is not a regulatory load calculation.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-07",
+      "claim": "Some practice uses word diversity factor for inverse ratio and also for multiplier less than one",
+      "kind": "engineering_terminology",
+      "supports": [
+        {
+          "source_id": "electrical-se-diversity",
+          "location": "Coincidence/diversity definitions and wording note",
+          "role": "direct_publisher_text"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Single technical guide; be explicit about chosen convention.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-08",
+      "claim": "Electrical load requirements depend on duration, start transients and RMS heating",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "Joule heating and power",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-osha304",
+          "location": "Overcurrent and conductor ability to safely carry current",
+          "role": "independent_us_regulation"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific motor loading and protective curves are product dependent.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-09",
+      "claim": "Feeder protective coordination and branch protective device selection are separate design questions",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha304",
+          "location": "1910.304(f) protection",
+          "role": "regulatory_context"
+        },
+        {
+          "source_id": "electrical-osha399",
+          "location": "Feeder and branch definitions",
+          "role": "same_authority_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Selective coordination curves and requirements are not proven for any specific system.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-10",
+      "claim": "2026 NEC reorganizes branch feeder service load calculations into new Article 120",
+      "kind": "code_edition",
+      "supports": [
+        {
+          "source_id": "electrical-nfpa-2026-loads",
+          "location": "2026 NEC change discussion and Article 120 mention",
+          "role": "primary_standards_publisher"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Publisher explanation verified, not full adopted code; 2023 edition differed.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-11",
+      "claim": "IEC 60364 Part 5-52 scope includes wiring systems, ampacity and voltage drop topics",
+      "kind": "standard_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec60364-552-2024",
+          "location": "Official catalogue summary for 2024 consolidated edition",
+          "role": "publisher_scope_only"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Normative sizing clauses and local adoption not examined.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-12",
+      "claim": "Load controls can change coincidence only when operating constraints are reliable and recognized",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-diversity",
+          "location": "Simultaneity concept",
+          "role": "general_context"
+        },
+        {
+          "source_id": "electrical-nfpa-2026-loads",
+          "location": "Article 120 reorganizes load methods",
+          "role": "us_standards_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific power-control-system allowances and reliability criteria not verified.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-13",
+      "claim": "Voltage drop and I^2R heating follow current and loop resistance",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "Ohm law",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "Power dissipation",
+          "role": "physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "0.15 ohm example is classroom idealization, not a wiring design.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-14",
+      "claim": "Balanced currents and nonlinear waveforms affect neutral loading in distribution",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-neutral-sizing",
+          "location": "neutral and harmonic sizing discussion",
+          "role": "technical_guide"
+        },
+        {
+          "source_id": "electrical-fluke-harmonics",
+          "location": "harmonics technical discussion",
+          "role": "independent_vendored_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Actual sizing requires measured or calculated waveform and adopted rules.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-15",
+      "claim": "A panel schedule should preserve source, circuit function and reliable revision data",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-prints-v1",
+          "location": "Drawing/document revision practices",
+          "role": "related_technical_guide"
+        },
+        {
+          "source_id": "electrical-osha399",
+          "location": "Feeder branch service meanings",
+          "role": "independent_regulatory_vocabulary"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Suggested documentation practice, not a prescribed residential panel schedule.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E025000-16",
+      "claim": "Inverter continuous power and available surge cannot be inferred from connected load alone",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-solar-design",
+          "location": "PV system and inverter design fundamentals",
+          "role": "energy_guide"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "Energy versus power",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Exact inverter capability and transfer topology require manufacturer specifications.",
+      "professional_review": "editorial_source_review_only"
+    }
+  ]
+}
