@@ -1,6 +1,6 @@
 # Fiction Writing and Worldbuilding
 
-**Current collection:** 28 substantive, independently understandable audio-first manuscripts, including an overview, eight focused contemporary-approaches lectures, four historical deep dives, four author-centered arguments, and four comparative lectures.
+**Current collection:** 36 substantive, independently understandable audio-first manuscripts, including the introductory craft sequence and a series on late-twentieth- and early-twenty-first-century approaches to fiction.
 
 ## Completed lectures
 
@@ -65,6 +65,17 @@ These four standalone investigations examine the literary representation of cons
 - 029000: [Irony, New Sincerity, and the Risk of Belief](029000-irony-new-sincerity-and-the-risk-of-belief.md).
 - 030000: [Autofiction, Documentary Form, and the Contract of Truth](030000-autofiction-documentary-and-the-contract-of-truth.md).
 - 031000: [Polyphony, Dialogism, and the Novel of Voices](031000-polyphony-dialogism-and-the-novel-of-voices.md).
+
+## Time, testimony, language, and ideas (032000-035000)
+
+Four standalone lectures examine formal and ethical choices that affect a story's intelligibility: the arrangement and tempo of time, the credibility of narration, the circulation of language, and the way ideas become action. They distinguish scholarship from original teaching examples; source notes are in track-local metadata.
+
+- 032000: [Narrative Time: Order, Duration, and Repetition](032000-narrative-time-order-duration-and-repetition.md).
+- 033000: [Unreliable Narration: Evidence, Error, and Testimony](033000-unreliable-narration-evidence-and-testimony.md).
+- 034000: [Translation, Multilingual Voice, and Who Gets to Understand](034000-translation-multilingual-voice-and-reader-access.md).
+- 035000: [The Novel of Ideas: When Arguments Become Events](035000-the-novel-of-ideas-when-arguments-become-events.md).
+
+Word counts and estimated audio lengths in the manifest are descriptions of each existing transcript, not writing targets or duration requirements.
 
 ## Planned continuation
 
