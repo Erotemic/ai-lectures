@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "lecture_id": "030000",
+  "transcript": "030000-the-master-and-margarita-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-bulgakov-primary",
+      "reason": "Primary novel or publicly available editorial, plot, or scholarly context, as identified in the source catalog"
+    },
+    {
+      "source_id": "ml-bulgakov-text",
+      "reason": "Primary novel or publicly available editorial, plot, or scholarly context, as identified in the source catalog"
+    },
+    {
+      "source_id": "ml-bulgakov-curtis",
+      "reason": "Primary novel or publicly available editorial, plot, or scholarly context, as identified in the source catalog"
+    },
+    {
+      "source_id": "ml-bulgakov-sokolov",
+      "reason": "Primary novel or publicly available editorial, plot, or scholarly context, as identified in the source catalog"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "030000-c01",
+      "anchor": "He died in 1940, and the work appeared posthumously in substantially censored issues of the Soviet literary magazine Moskva in 1966 and 1967.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-bulgakov-primary",
+        "ml-bulgakov-text",
+        "ml-bulgakov-sokolov"
+      ],
+      "source_locator": "Publication chronology",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "030000-c02",
+      "anchor": "Editions have differed as editors and scholars worked from revised typescripts and surviving manuscripts.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-bulgakov-text",
+        "ml-bulgakov-curtis"
+      ],
+      "source_locator": "Textual history",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "030000-c03",
+      "anchor": "Bulgakov's Yeshua is not simply a transcription of the Jesus of the canonical Gospels.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-bulgakov-primary"
+      ],
+      "source_locator": "Creative departures in Pilate narrative",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "030000-c04",
+      "anchor": "Near the end Levi Matvei communicates Yeshua's request that the Master be given peace.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-bulgakov-primary"
+      ],
+      "source_locator": "Peace vs light thematic question",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

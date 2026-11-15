@@ -88,3 +88,13 @@ Choose a specific work and verify its primary plot and historical context before
 This is a single literary work, not three separate novels. The narrator introduces geography and characters when needed; the plot lectures contain full spoilers and run in sequence *before* criticism. The analysis lectures are thematically self-contained after that context. No rigid length target or word quota was used. Metadata lengths describe the files after authoring.
 
 Historical and bibliographic anchors include the Tolkien Estate, manuscript records at Marquette, primary Tolkien correspondence, Carl Hostetter's philological scholarship, Dimitra Fimi's published account of the legendarium, Vincent Ferré on contemplative pacing, the 2022 academic companion, and environmental scholarship. Sources restricted to public abstracts are explicitly marked; claims from the primary novel are differentiated from authorial intention and our own interpretation. This pack changes no shared code or any other agent's content.
+
+## Handmaid, Fahrenheit, and Bulgakov: narrative plus criticism
+
+The next three pairs extend the course through three kinds of twentieth-century fiction. All complete their plots before critical discussion, and none is divided to achieve a fixed listening duration.
+
+- `027400` / `028000`: Margaret Atwood, *The Handmaid's Tale* (1985). The novel's own ambiguous van ending and 2195 *Historical Notes* remain intact; neither the television series nor *The Testaments* supplies an invented resolution.
+- `028200` / `029000`: Ray Bradbury, *Fahrenheit 451* (1953). Montag's loss of Clarisse, reading crisis, killing of Beatty, escape, media fabrication, and the destroyed city; then the tension between book censorship and distracted public attention.
+- `029200` / `030000`: Mikhail Bulgakov, *The Master and Margarita* (written before 1940; censored publication 1966–67). The Moscow, Margarita, and Pilate strands are told together through their final resolution. Analysis differentiates authorial manuscript history from the text's supernatural fantasy and rejects a single compulsory theology of 'peace' versus 'light'.
+
+Primary works are copyrighted; story lessons are independent, original expository summaries, not narrated reproductions of their prose. Source catalog records distinguish primary novels, freely available reader guides, original author statements, and scholarship accessible only through abstracts. The entire content addition is owned by `draft-stages/tts-modern-literature/`; no shared registry or tests need changing.
