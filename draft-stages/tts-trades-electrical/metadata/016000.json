@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-human-factors-and-electrical-work.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-hse-hsg48",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-hse-humanfactors",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-hse-hsg85",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha333",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha-arc",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-niosh-hierarchy",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha-hierarchy",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha147",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E016000-01",
+      "claim": "Human factors should consider the job, individual, and organization together",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg48",
+          "location": "p. 5 human factors diagram",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-humanfactors",
+          "location": "HSE summary of model",
+          "role": "same_agency_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Two HSE products are not independent evidence; concept not a quantitative error forecast",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E016000-02",
+      "claim": "Workload, interruptions, poor visibility and fatigue can increase error risk",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg48",
+          "location": "p. 15 Reducing errors, stressors",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-humanfactors",
+          "location": "HSE overview",
+          "role": "same_agency_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Scope is workplace human-factors study; no particular individual risk quantified",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E016000-03",
+      "claim": "A selection slip and a mistaken plan need different safeguards",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg48",
+          "location": "Chapter 2 Understanding human failure and causes",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Taxonomy is simplified and does not assign a diagnosis for actual incidents",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E016000-04",
+      "claim": "Outdated labels and circuit identity require evidence before field work",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "p. 21 paragraph 47",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333 verification",
+          "role": "independent_regulatory_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Do not infer actual branch circuit routing from dated plan",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E016000-05",
+      "claim": "Repeated protective trips do not establish a harmless normal condition",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-arc",
+          "location": "Hazardous fault mechanisms",
+          "role": "hazard_context"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(a) safe-work practices",
+          "role": "regulation_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific trip patterns are not diagnosed from generic guidance; professional review pending",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E016000-06",
+      "claim": "Clear and current procedures and job aids can reduce human errors",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg48",
+          "location": "p. 15 error-reduction recommendations",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "pp. 16–19 work preparation and supervision",
+          "role": "independent_HSE_work_practice"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Same agency publication family; applicability to task requires design",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E016000-07",
+      "claim": "Independent checking must challenge assumptions rather than repeat a signature",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg48",
+          "location": "p. 15 independent checking and supervision",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Interpretive training recommendation; not a formal study of two-signature effectiveness",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E016000-08",
+      "claim": "Fatigue and time pressure justify re-planning rather than improvising",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg48",
+          "location": "p. 15 fatigue and high workload",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-niosh-hierarchy",
+          "location": "Controls beyond individual effort",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "No numerical cutoffs or safe work-time prescription",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E016000-09",
+      "claim": "NIOSH ranks elimination/engineering above administrative controls and PPE",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-niosh-hierarchy",
+          "location": "Elimination-to-PPE hierarchy",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha-hierarchy",
+          "location": "Independent agency hierarchy handout",
+          "role": "independent_corroboration"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Hierarchy generic; does not license unqualified physical modification",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E016000-10",
+      "claim": "Shift/handoff communication and maintained documentation matter to safety",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg48",
+          "location": "HSG48 Ch.4 effective shift communication",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "pp. 16–19 planning, coordination",
+          "role": "same_agency_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Residential documentation must reflect real changes; external case studies not reviewed",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E016000-11",
+      "claim": "Incident investigation should examine conditions that caused error",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg48",
+          "location": "p. 15 error management and Ch.5 incident review",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-humanfactors",
+          "location": "Human factors overview",
+          "role": "same_agency_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Not a blame/liability ruling or quantitative safety proof",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E016000-12",
+      "claim": "Homeowner questions can improve handoff without constituting qualification",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "pp. 4–5 competence and 16–19 planning",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha147",
+          "location": "§1910.147(c)(7) training authorization",
+          "role": "different_jurisdiction_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Permissions differ by jurisdiction; homeowner questioning is not field competence",
+      "professional_review": "pending"
+    }
+  ],
+  "limitations": [
+    "Source-audited educational draft only; not field-validated",
+    "Local adoption, equipment-specific documentation and qualified professional review are not completed",
+    "No lecture authorizes work on live circuits or panel opening"
+  ]
+}

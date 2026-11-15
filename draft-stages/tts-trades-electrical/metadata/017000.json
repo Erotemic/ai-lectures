@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-reading-electrical-drawings.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-doe-prints-v1",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-iec61082-2014",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-doe-prints-v2",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha333",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-hse-hsg85",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-iec60617-2026",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-ieee315-1975",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha-open-neutral",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E017000-01",
+      "claim": "Drawings are abstractions with different information goals",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-prints-v1",
+          "location": "Module 1 pp. 1, 10–16, electrical one-lines and schematics",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-iec61082-2014",
+          "location": "Publisher scope of document rules",
+          "role": "independent_standards_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "A specific drawing must be read according to legend and status",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E017000-02",
+      "claim": "Title, revision block, notes and legend are integral to interpreting drawings",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-prints-v1",
+          "location": "Module 1 pp. 1–8, illustrated legend and revision fields",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-iec61082-2014",
+          "location": "Published scope: drawings and tables",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Different drawing systems use different layouts and notation",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E017000-03",
+      "claim": "One-line diagrams show power topology while abstracting conductor detail",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-prints-v1",
+          "location": "Module 3, electrical single-lines, introductory examples",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "One-line cannot certify absence of neutral/PE or specific device functions",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E017000-04",
+      "claim": "Functional schematics emphasize intended operation rather than actual routing",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-prints-v1",
+          "location": "Module 3, electrical schematics",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-doe-prints-v2",
+          "location": "Module 4, electronic schematics and block diagrams",
+          "role": "same_agency_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Same DOE handbook series, not fully independent corroboration",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E017000-05",
+      "claim": "An open switch on schematic does not prove supply-side is deenergized",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(a),(b) isolation and verification",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "p. 21 identification and disconnect",
+          "role": "independent_guidance"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Schematic may omit other sources and conditions",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E017000-06",
+      "claim": "Normal relay state conventions require legend and actual equipment status",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-prints-v2",
+          "location": "Module 4 electronic schematics; illustrative logic symbols",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Exact relay symbol/normal convention not checked in standard full text; explicit uncertainty",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E017000-07",
+      "claim": "Wiring diagrams and floor plans have different levels of routing/terminal detail",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-prints-v1",
+          "location": "Modules 1,3: drawing types and schematics",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-iec60617-2026",
+          "location": "Publisher coverage includes architectural/topographical installation plans",
+          "role": "independent_scope_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Location lines are not verified hidden-cable survey",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E017000-08",
+      "claim": "IEC TC 3 maintains graphical-symbol database IEC 60617, 2026 edition",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec60617-2026",
+          "location": "Publisher database scope and committee; publication date",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Individual normative symbols not inspected; region may use other conventions",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E017000-09",
+      "claim": "IEC 61082-1:2014 sets presentation rules for electrotechnical documents",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec61082-2014",
+          "location": "Publisher description, edition and committee",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Full rules not inspected; not proof of local mandatory use",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E017000-10",
+      "claim": "IEEE/ANSI 315-1975 is historically influential, now listed inactive-reserved",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-ieee315-1975",
+          "location": "IEEE publisher status and 1975/1993/2019 dates",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Historical status only; not currently mandatory code",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E017000-11",
+      "claim": "Letter names/colors of conductors are not proof of safe touch potential",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-open-neutral",
+          "location": "OSHA 2003 open-neutral hazard",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "p. 21 labeling vs verified dead condition",
+          "role": "independent_guidance"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Material and installation-specific rules must be verified separately",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E017000-12",
+      "claim": "Crossing lines and dashed boxes must be interpreted with drawing-specific notation",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-prints-v1",
+          "location": "Module 1 p. 8 notes and legends",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-iec61082-2014",
+          "location": "Presentation-rule scope",
+          "role": "context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No universal connection dot rule asserted",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E017000-13",
+      "claim": "Old as-built drawings can be stale after changes and require field verification",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "p. 21 paragraph 47 labeling cannot be assumed correct",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-doe-prints-v1",
+          "location": "Module 1 revision and changes sections",
+          "role": "independent_documentation"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "No inference of physical wiring route or deenergization from drawing alone",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E017000-14",
+      "claim": "A one-line and product documentation are complementary for multiple source planning",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-doe-prints-v1",
+          "location": "Module 3 one-line function",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2) all sources and isolation",
+          "role": "independent_safety_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "No source interconnection instructions or live testing procedures supplied",
+      "professional_review": "pending"
+    }
+  ],
+  "limitations": [
+    "Source-audited educational draft only; not field-validated",
+    "Local adoption, equipment-specific documentation and qualified professional review are not completed",
+    "No lecture authorizes work on live circuits or panel opening"
+  ]
+}

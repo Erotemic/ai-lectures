@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-isolation-lockout-and-verification.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-osha333",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-hse-hsg85",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha147",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-hse-gs38",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha-open-neutral",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E015000-01",
+      "claim": "A stop command or interlock alone is not electrical isolation",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2)(ii)(B)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "p. 21 disconnection/secure isolation",
+          "role": "independent_regulator"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Applies to specified electrical work; equipment-specific controls vary",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E015000-02",
+      "claim": "Identify and disconnect all sources, including relevant secondary supplies",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2)(ii)(B) all sources",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "p. 21 paragraph 48",
+          "role": "independent_regulator"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Not a field procedure or device-specific transfer instruction",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E015000-03",
+      "claim": "Stored electrical and non-electrical energy remain relevant after isolation",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2)(ii)(C–D)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "p. 21 paragraphs 48–49",
+          "role": "independent_regulator"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Discharge/grounding procedures require specialized training and approvals",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E015000-04",
+      "claim": "Lockout restricts restoration while tags alone communicate rather than physically restrain",
+      "kind": "regulation",
+      "supports": [
+        {
+          "source_id": "electrical-osha147",
+          "location": "§1910.147(c)(4–5), energy controls",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "p. 21 paragraph 49, secure isolation",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Differences in national requirements; never authorizes improvised lockout",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E015000-05",
+      "claim": "U.S. OSHA 1910.333 and 1910.147 cover defined occupational activities",
+      "kind": "regulation",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333 introductory scope and (b)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha147",
+          "location": "§1910.147(a) scope and applicability",
+          "role": "separate_regulatory_text"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Not an adopted municipal home wiring code; both OSHA rules are same agency",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E015000-06",
+      "claim": "HSE HSG85 guidance covers identification, secure isolation and proving dead",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "pp. 20–22, paragraphs 47–55",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "UK regulator guidance, not globally mandated procedure",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E015000-07",
+      "claim": "Panel labels and controls require confirmation; identification assumptions can fail",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "p. 21 paragraph 47",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2)(iv) verification",
+          "role": "independent_regulator"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "No safe inferred conductor identity from label alone",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E015000-08",
+      "claim": "A qualified person must verify exposed parts deenergized under OSHA covered work",
+      "kind": "regulation",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2)(iv)(A–B)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "p. 22 paragraphs 53–55",
+          "role": "independent_guidance"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "OSHA workplace duty; not instructions for an unqualified homeowner",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E015000-09",
+      "claim": "Non-contact detector or unverified meter alone is not proof of safe isolation",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "p. 22 paragraphs 54–55; non-contact devices not recommended",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-gs38",
+          "location": "2015 guidance title/scope only",
+          "role": "additional_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Full GS38 clauses not read; method and instrument must be assessed by qualified worker",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E015000-10",
+      "claim": "Backfeed and induced voltage are recognized verification concerns",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2)(iv)(B)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "p.21 paragraph 48 multiple sources",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Actual system and instrument behavior unverified",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E015000-11",
+      "claim": "Open neutral can remain hazardous, despite its conductor name",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-open-neutral",
+          "location": "OSHA July 7, 2003 interpretation, open-neutral hazard",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2)(iv) verify all exposed parts",
+          "role": "regulatory_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Independent physical demonstration not reviewed here; never a safe-touch rule",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E015000-12",
+      "claim": "Adjacent live parts require separate protection even after target circuit isolation",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "p. 22 paragraph 59",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(c) and work near energized parts",
+          "role": "independent_regulator"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Specific barriers and distances are task dependent",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E015000-13",
+      "claim": "Re-energizing requires independent checks and communication",
+      "kind": "regulation",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2)(v)",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha147",
+          "location": "§1910.147(e)",
+          "role": "related_workplace_regulation"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Same regulator; employer controls and qualified procedure only",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E015000-14",
+      "claim": "Competence is task and equipment-specific, not gained from a narrated lecture",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "pp. 4–5, competent person definition",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha147",
+          "location": "§1910.147(c)(7), authorization and training",
+          "role": "independent_regulatory_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Homeowner permissions are jurisdiction-specific",
+      "professional_review": "pending"
+    }
+  ],
+  "limitations": [
+    "Source-audited educational draft only; not field-validated",
+    "Local adoption, equipment-specific documentation and qualified professional review are not completed",
+    "No lecture authorizes work on live circuits or panel opening"
+  ]
+}

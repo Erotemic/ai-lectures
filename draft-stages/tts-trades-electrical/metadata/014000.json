@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-arc-flash-and-incident-energy.md",
+  "related_resources": [
+    {
+      "source_id": "electrical-osha-arc",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-hse-hsg85",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-ieee1584-2018",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-ieee1584-xplore",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-niosh-hierarchy",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha-hierarchy",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-nfpa70e",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    },
+    {
+      "source_id": "electrical-osha333",
+      "reason": "Claim-level citation; review evidence_claims and in-manuscript source map"
+    }
+  ],
+  "practice_classification": "desk_or_visual_only",
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "E014000-01",
+      "claim": "Arc flash and blast can injure without direct body contact",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-arc",
+          "location": "Electric-Arc Flash Hazards, injury mechanisms",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "pp. 6–7 workplace electrical hazards",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Device-specific risk and frequency not quantified",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E014000-02",
+      "claim": "Arc thermal exposure differs from pressure, sound and fragments",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-arc",
+          "location": "Flash and blast description",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Independent laboratory model for blast not reviewed; PPE does not eliminate all effects",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E014000-03",
+      "claim": "Arcing and bolted fault currents may differ; protection clearing time matters",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ieee1584-2018",
+          "location": "Publisher guide scope and calculation methods",
+          "role": "model_context"
+        },
+        {
+          "source_id": "electrical-osha-arc",
+          "location": "Hazard mechanism overview",
+          "role": "regulatory_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Detailed current/time behavior requires full power-system study and specialist verification",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E014000-04",
+      "claim": "Incident energy is assessed at a specified working distance",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ieee1584-2018",
+          "location": "Publisher scope: incident energy and hazard distance",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Full model and inputs not independently reproduced",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E014000-05",
+      "claim": "IEEE 1584-2018 models stated 3-phase AC equipment from 208 V to 15 kV",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-ieee1584-xplore",
+          "location": "Published scope statement",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-ieee1584-2018",
+          "location": "IEEE SA scope",
+          "role": "publisher_crosscheck"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Both are IEEE records for the same standard, not independent performance corroboration",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E014000-06",
+      "claim": "IEEE 1584 excludes general 1-phase and DC calculations and does not specify PPE",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-ieee1584-xplore",
+          "location": "Published Scope and Purpose",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Other systems still have arc hazards; separate competent method required",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E014000-07",
+      "claim": "Arcing hazard may remain at common low-voltage levels",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-arc",
+          "location": "Low-voltage arc-flash warning",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-ieee1584-xplore",
+          "location": "Scope includes 208 V 3-phase",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Risk of a particular residential enclosure not established by these statements",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E014000-08",
+      "claim": "Hierarchy of controls favors elimination/engineering before reliance on PPE",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-niosh-hierarchy",
+          "location": "Five levels of hazard control",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha-hierarchy",
+          "location": "Official ordering and explanation",
+          "role": "independent_regulator_confirmation"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Generic hierarchy, not task-specific PPE selection",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E014000-09",
+      "claim": "NFPA currently lists a 2027 edition of the 70E workplace standard",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-nfpa70e",
+          "location": "NFPA publisher edition listing (2027)",
+          "role": "main"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Full edition not reviewed; model standard not universal homeowner law",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E014000-10",
+      "claim": "Fault current alone or a breaker label cannot determine arc incident energy",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ieee1584-2018",
+          "location": "Engineering model inputs and calculations",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha-arc",
+          "location": "Arc injury overview",
+          "role": "independent_hazard_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Quantitative limits and scenario not independently evaluated",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E014000-11",
+      "claim": "Service/panel supply-side and other energized parts may remain after a control is off",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha333",
+          "location": "§1910.333(b)(2), all energy sources and verification",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-hse-hsg85",
+          "location": "pp. 21–22 identification, adjacent live parts",
+          "role": "independent_guidance"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Exact service layout and source conditions need qualified assessment",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E014000-12",
+      "claim": "An arc-rated garment is not complete mechanical or shock protection",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-osha-arc",
+          "location": "Arc blast, shrapnel and burn hazards",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-niosh-hierarchy",
+          "location": "PPE is a last layer",
+          "role": "independent_control_context"
+        }
+      ],
+      "verification_level": "public_text_checked_with_independent_support_in_scope",
+      "limitations": "Specific PPE ratings and requirements not evaluated",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E014000-13",
+      "claim": "Toy model 4 kW at 0.05 s and 0.25 s gives 200 J and 1000 J",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-ieee1584-2018",
+          "location": "Why prediction requires specialized model (scope only)",
+          "role": "model_limit_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Arithmetic self-derived: E=P*t; deliberately not real incident energy or PPE",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "E014000-14",
+      "claim": "An arc-flash boundary is not an absolute safe line for all hazards",
+      "kind": "safety",
+      "supports": [
+        {
+          "source_id": "electrical-ieee1584-2018",
+          "location": "Publisher scope: computed hazard distance",
+          "role": "main"
+        },
+        {
+          "source_id": "electrical-osha-arc",
+          "location": "Mechanical and thermal injuries",
+          "role": "independent_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Not full NFPA 70E boundary-definition verification; no safe approach rule provided",
+      "professional_review": "pending"
+    }
+  ],
+  "limitations": [
+    "Source-audited educational draft only; not field-validated",
+    "Local adoption, equipment-specific documentation and qualified professional review are not completed",
+    "No lecture authorizes work on live circuits or panel opening"
+  ]
+}
