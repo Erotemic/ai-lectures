@@ -101,7 +101,7 @@ Our twelve-bar piece gives us a practical result: a melody, a harmonic framework
 | 11 | A′ | G | G4 q, B4 q, A4 q, G4 q | 4 |
 | 12 | A′ | C | C5 w | 4 |
 
-**Formal checkpoints:** A concludes on G harmony; B also holds G; A′ moves G → C at its conclusion. Bars 9–10 repeat bars 1–2 verbatim. Bars 11–12 replace the original ending, so the return is modified rather than copied.
+**Formal checkpoints:** A concludes on G harmony; B also holds G; A′ moves G → C at its conclusion. Bars 9–10 repeat bars 1–2 verbatim. Bars 11–12 replace the original ending, so the return is modified rather than copied. **Melodic non-chord tones:** D in bars 2 and 10; G in bar 3; E in bar 7; A in bars 1, 9 and 11. The exact category of a non-chord tone depends on its preparation and resolution, not just its pitch class.
 
 ### Arrangement event grid
 
@@ -113,13 +113,13 @@ All tracks below are optional and can be realized by voice, percussion, guitar, 
 | A: bar 2 | melodic notes above | Am root A sustained four beats | silent | silent |
 | A: bars 3–4 | melodic notes above | chord root sustained four beats | quiet attacks on beats 1, 2, 3, 4 | silent |
 | B: bars 5–6 | melody in half notes | root sustained four beats | silent | silent |
-| B: bar 7 | F4 q, E4 q, D4 h | D root sustained | silent | short answer E4 q, G4 q beginning on beat 3 (may collide in pitch; deliberately compare) |
+| B: bar 7 | F4 q, E4 q, D4 h | D root sustained | silent | short answer E4 q on beat 3, G4 q on beat 4; E4 over held D4 makes a minor second on beat 3, followed by G4 over D4 (a perfect fourth) |
 | B: bar 8 | G4 whole | G root sustained | silent | silent |
 | A′: bars 9–10 | opening melody restored | root sustained | four quiet beats | silent |
 | A′: bar 11 | new G-chord melody | G for two beats, D for two beats | four quiet beats | silent |
 | A′: bar 12 | C5 whole | C root sustained | attack on beat 1, then rest | silent |
 
-**Note on bar 7:** The reply E4–G4 overlaps D4 in the melody; the E/D second is a deliberate possible friction. It can be replaced by F4–A4, or omitted entirely, depending on style and desired independence. The example is not prescribed as a consonance exercise.
+**Note on bar 7:** The reply E4–G4 overlaps D4 in the melody on both beats: E/D gives a second, followed by G/D, a fourth. These vertical intervals are part of an exploratory texture, not an example of strict consonant counterpoint. The reply can be changed or omitted to match the desired style. The example is not prescribed as a consonance exercise.
 
 ### Exercises
 
@@ -131,6 +131,7 @@ All tracks below are optional and can be realized by voice, percussion, guitar, 
 
 ### Learning references
 
+- [Margulis, *On Repeat*](https://doi.org/10.1093/acprof:oso/9780199990825.001.0001) — repeating patterns and recognition in musical experience (publisher abstract).
 - [Texture — Music Theory for the 21st-Century Classroom](https://musictheory.pugetsound.edu/mt21c/Texture.html) — number, spacing, and activity of parts.
 - [Accompanimental Textures](https://musictheory.pugetsound.edu/mt21c/AccompanimentalTexture.html) — ways to distribute accompaniment patterns.
 - [Open Music Theory: form in pop/rock and classical styles](https://openmusictheory.github.io/contents) — a catalog of distinct approaches to formal analysis.

@@ -28,7 +28,7 @@ You do not need to hear a perfect recording of this example to inspect its desig
 
 We can build a second phrase from almost the same ingredients. Repeat the first two bars exactly: C, D, E, G, then A, G, F held. The listener can recognize the beginning without learning a completely new motif. Repeat the third bar, G, B, A, G. Up to this point, the answer seems very close to the question.
 
-Change only the last bar. Put C in the melody, held for all four beats. Under it, put a low C and a C major harmony. Now the G chord in the preceding measure leads to C, and the melodic line lands on the same scale degree that we are treating as home. In common-practice tonal analysis, G major going to C major at a phrase ending is an authentic cadence. Since our final chord has C in the bass and tonic C in the upper line, it also has the characteristic endpoint associated with a perfect authentic cadence, assuming the arrival is heard as an actual phrase-ending cadence in the intended style. These are formal labels for a particular harmonic grammar, not requirements for a compelling ending in every genre.
+Change only the last bar. Put C in the melody, held for all four beats. Under it, put a low C and a C major harmony. Now the G chord in the preceding measure leads to C, and the melodic line lands on the same scale degree that we are treating as home. In common-practice tonal analysis, G major going to C major at a phrase ending is an authentic cadence. In our explicitly realized ending, the bass moves from G to C, and the upper melody lands on C. That gives the final dominant and tonic chords in root position with scale degree one on top: the conventional ingredients of a perfect authentic cadence, provided the passage is heard as a real phrase ending in this style. A chord-symbol progression by itself does not establish those details. These are formal labels for a particular harmonic grammar, not requirements for a compelling ending in every genre.
 
 The two phrases together form a simple model of antecedent and consequent. An antecedent is a phrase that ends less conclusively; its consequent responds with a more conclusive ending. When the phrases begin alike, analysts often call this a parallel period. The word parallel here refers to the recurring melodic beginning. It is different from the term parallel motion between two simultaneously moving lines.
 
@@ -82,18 +82,20 @@ Now return to our eight measures. You can state exactly why the opening returns,
 
 Original miniature in C major, 4/4. Unless marked **half** or **whole**, each melody note lasts one quarter-note beat. Chord/bass sound from beat 1 of the bar and sustain to the next bar. A chord symbol is a harmonic plan rather than a claim about exact instrumentation.
 
-| Bar | Role | Harmony | Melody and durations |
-|---|---|---|---|
-| 1 | Antecedent opening | C | C4 q, D4 q, E4 q, G4 q |
-| 2 | Antecedent response | F | A4 q, G4 q, F4 half |
-| 3 | Toward half cadence | G | G4 q, B4 q, A4 q, G4 q |
-| 4 | Half cadence on V | G | B4 half, D5 half |
-| 5 | Consequent opening | C | C4 q, D4 q, E4 q, G4 q |
-| 6 | Consequent response | F | A4 q, G4 q, F4 half |
-| 7 | Approach to authentic cadence | G | G4 q, B4 q, A4 q, G4 q |
-| 8 | Tonic arrival on I | C | C5 whole |
+| Bar | Role | Harmony | Bass (whole note, 4 beats) | Melody and durations |
+|---|---|---|---|---|
+| 1 | Antecedent opening | C | C3 | C4 q, D4 q, E4 q, G4 q |
+| 2 | Antecedent response | F | F3 | A4 q, G4 q, F4 half |
+| 3 | Toward half cadence | G | G2 | G4 q, B4 q, A4 q, G4 q |
+| 4 | Half cadence on V | G | G2 | B4 half, D5 half |
+| 5 | Consequent opening | C | C3 | C4 q, D4 q, E4 q, G4 q |
+| 6 | Consequent response | F | F3 | A4 q, G4 q, F4 half |
+| 7 | Approach to authentic cadence | G | G2 | G4 q, B4 q, A4 q, G4 q |
+| 8 | Tonic arrival on I | C | C3 | C5 whole |
 
 **Cadential precision:** Measure 4 ends on V; the final bar arrives on root-position I from V, with scale-degree 1 in the upper voice. Under a common-practice interpretation of the phrase boundary, the ending has the ingredients of a perfect authentic cadence. Realization and metric articulation determine whether it is perceived as such.
+
+The bass pitches are **one concrete realization**, not the only available accompaniment. The last two bars now specify root-position V to root-position I and a soprano C5 at the ending. Their harmonic and melodic conditions support a perfect authentic cadence in the intended common-practice reading; the phrase boundary and performance still matter. Bars 3–4 sustain G harmony across a bar line, so the half cadence depends on the articulated phrase ending rather than on a new V chord entering only in bar 4.
 
 ### Alternatives to compare
 

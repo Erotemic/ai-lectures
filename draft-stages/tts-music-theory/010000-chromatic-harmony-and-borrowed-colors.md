@@ -12,7 +12,7 @@ This is the basic idea behind several forms of chromatic harmony. In the twelve-
 
 To see one mechanism, begin with an ordinary C-major setting. A C major triad contains C, E, and G. A G major triad contains G, B, and D. In traditional tonal language, C is the tonic, the central or home harmony, and G is the dominant, the chord built on the fifth scale degree. A change from G to C often supports a sense of arrival in that style. But a G chord can itself be approached as if it were temporarily important. We can make another harmony point toward it.
 
-The chord we will use is D major, spelled D, F sharp, A. A D major triad is a fifth above G in root motion, and its F sharp is one semitone below G. That makes F sharp a leading tone to G: a note close enough to the destination to offer a particularly direct motion into it in a tonal context. D major is not made entirely of the seven notes of C major because the C-major scale has F natural. We have changed one pitch in the chord and created a new local direction. If we add C natural to the D major triad, we obtain D dominant seventh, with D, F sharp, A, C. Its seventh, C, can move downward to B when the chord resolves to G major, while F sharp moves upward to G. Two lines arrive by short steps, creating a clear voice-leading plan.
+The chord we will use is D major, spelled D, F sharp, A. A D major triad is a fifth above G in root motion, and its F sharp is one semitone below G. That makes F sharp a leading tone to G: a note close enough to the destination to offer a particularly direct motion into it in a tonal context. D major is not made entirely of the seven notes of C major because the C-major scale has F natural. We have changed one pitch in the chord and created a new local direction. If we add C natural to the D major triad, we obtain D dominant seventh, with D, F sharp, A, C. Its seventh, C, can move downward to B when the chord resolves to G major, while F sharp moves upward to G. Those are **two different simultaneous lines**: F sharp to G can be carried by the upper part while C to B moves in another part. A single monophonic melody cannot play both paths at once. The chord symbols indicate the available notes, not that a complete voicing has already been supplied.
 
 This D seventh chord is called the dominant of the dominant in C major, often abbreviated five of five. The first five means a dominant-type chord; the second identifies its target, the G major chord, which is itself the dominant of C. A listener need not memorize the Roman numerals to understand the action. We briefly treat G like a destination, use D seventh to prepare it, arrive on G, and then potentially continue to C. The temporary emphasis on G is called tonicization. It does not necessarily mean we have modulated, or moved the whole piece into G major. A true change of key involves wider contextual evidence: continued pitch organization, cadences, phrasing, and the degree to which the new center becomes established.
 
@@ -54,6 +54,18 @@ The practical skill to retain is very specific. When you add an altered note, id
 | 8 | C: C E G | E4 h, C5 h | Arrival on tonic harmony |
 
 **Voice-leading caveat:** The melody shows an F#4 → G4 resolution at the bar 3–4 boundary and Ab4 → G4 at the bar 6–7 boundary. The other parts that complete each chord are **not** individually notated in this grid; they must be assigned if a performer wants full four-part counterpoint. The illustrative D7 contains C, which *may* move to B in another voice, but the single upper melody does not specify that motion.
+
+### An explicit two-voice resolution for bar 3 into bar 4
+
+The eight-bar melody above presents only one upper line. Its final F♯4 in bar 3 resolves to G4 at the start of bar 4, but the other tendency C→B is **not** sustained as a second part in that melody. Here is a separate, optional two-part realization of the same D7→G harmony:
+
+| Part | D7 (end of bar 3) | G (start of bar 4) | Intervallic motion |
+|---|---|---|---|
+| Upper | F♯4 | G4 | upward semitone into G |
+| Inner | C4 | B3 | downward semitone into B |
+| Bass | D3 | G2 | down perfect fifth (or up fourth with octave adjustment) |
+
+The D7 voicing omits A; the arrival voicing omits D. The table illustrates an available resolution, not another note secretly present in the original single-line score. An arrangement could sustain the inner and bass parts while keeping the score's existing upper melody.
 
 ### Three versions to write
 
