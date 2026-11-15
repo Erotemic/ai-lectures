@@ -1,7 +1,7 @@
 # A quiet guide for parents and caregivers
 
 **Collection:** Children's Bedtime Stories (Ages 3–4; primarily age three)  
-**Covers:** Stories `004000`–`027000`  
+**Covers:** Stories `004000`–`033000`  
 **Audience:** Adults. **None of this document is TTS narration.**
 
 ## What these stories are for
@@ -67,6 +67,19 @@ All six stories are complete without a teaching objective; **no story is assigne
 | [025000 — The Tallest Hat in Mushroom Village](025000-the-tallest-hat-in-mushroom-village.md) | A hat too tall to wear becomes a village landmark | What would you wear for a very silly hat? | [AAP play guidance][AAP-PLAY] encourages imaginative materials; [CDC (2026)][CDC-3] suggests size/opposites games. No measurement outcome is claimed. |
 | [026000 — The Night Train to Pillow Mountain](026000-the-night-train-to-pillow-mountain.md) | A toy train crosses three imagined places and returns to a familiar bedroom | Where could a small pretend train go? | [CDC (2026)][CDC-3] suggests story conversations and pretend play; [AAP play guidance][AAP-PLAY] discusses imagination. No evidence that the train story helps a child sleep. |
 | [027000 — The Cave That Giggled Back](027000-the-cave-that-giggled-back.md) | A goat hears her own words come back and listens to quieter sounds | Which quiet sound did Fern hear? | [NAEYC, Rebecca Parlakian (2020), *Fostering Curiosity*][NAEYC-CURIOSITY] discusses noticing changes; [CDC (2026)][CDC-3] discusses songs and rhymes. Not a measured intervention or invitation to explore caves. |
+
+## Stories 028000–033000: fun first, with room to notice
+
+The following are **original fiction**, not scripted interventions. Each story is satisfying without a quiz or any named moral. If a child wants to talk, a caregiver can choose a question; if the child wants to sleep, the question should be skipped. Sources describe the age-relevant *practice* of reading, conversing, noticing, or pretending, not experimentally demonstrated results from these particular stories. The single narrated track is not a replacement for shared time with caregivers.
+
+| Story | What the child hears | Optional question | Direct evidence and its limit |
+| --- | --- | --- | --- |
+| [028000 — Della and the Daisy Sneeze](028000-della-and-the-daisy-sneeze.md) | A dragon unexpectedly sneezes flowers into a picnic | Where did the flowers land? | [AAP, *Young Children Learn a Lot When They Play* (2022)](https://www.healthychildren.org/English/family-life/power-of-play/Pages/young-children-learn-a-lot-when-they-play.aspx) gives broad imaginative-play context; [CDC, *Milestones by 3 Years*, Parenting Tips](https://www.cdc.gov/act-early/milestones/3-years.html) includes simple counting. Neither tests a flower-sneeze story. |
+| [029000 — The Little Red Wagon's Holiday](029000-the-little-red-wagons-holiday.md) | Nia and Grandpa take the garden wagon on a holiday to the bean patch | What would a wagon see on holiday? | [AAP, *How to Share Books with Children 2 and 3 Years Old* (2021)](https://www.healthychildren.org/English/ages-stages/toddler/Pages/How-to-Share-Books-with-2-and-3-Year-Olds.aspx) encourages connection to lived experience; [CDC (2026)](https://www.cdc.gov/act-early/milestones/3-years.html) includes caregiver story talk. Neither claims this plot improves resilience. |
+| [030000 — The Upside-Down Picnic Map](030000-the-upside-down-picnic-map.md) | A picture map's pond is on the opposite side until Hazel turns it | What changes when the paper turns? | [NAEYC, Linder and Eckhoff, *Questioning* (2020)](https://www.naeyc.org/resources/pubs/tyc/aug2020/breaking-down-steam) suggests open inquiry; [AAP, *Playful Reading Tips* (2023)](https://www.healthychildren.org/English/family-life/power-of-play/Pages/playful-reading-tips-ways-to-engage-your-child-in-the-magic-of-books.aspx) encourages predictions. These are not studies of map-reading acquisition through fiction. |
+| [031000 — Lina and the Lantern Shadow](031000-lina-and-the-lantern-shadow.md) | A moth makes a giant shadow on a porch wall and watches it change | What moved when Lina moved? | [NASA, *Exploring Earth: Bear's Shadow* (2022)](https://science.nasa.gov/resource/exploring-earth-bears-shadow/) describes an actual object/light/shadow family activity. [NAEYC, *Fostering Curiosity* (2020)](https://www.naeyc.org/resources/pubs/yc/dec2020/fostering-curiosity-infants) offers caregiver noticing practices. Neither tests this moth story or sleep. |
+| [032000 — The Giant's Small Quilt](032000-the-giants-small-quilt.md) | A giant discovers that a tiny quilt is just right for one toe | What else could wear a tiny quilt? | [AAP play guidance (2022)](https://www.healthychildren.org/English/family-life/power-of-play/Pages/young-children-learn-a-lot-when-they-play.aspx) and [ZERO TO THREE, *Developing Thinking Skills From 24–36 Months*](https://www.zerotothree.org/resource/developing-thinking-skills-from-24-to-36-months/) are context for pretending and perspectives, not proof this fiction teaches empathy. |
+| [033000 — The Stars' Small Camping Trip](033000-the-stars-small-camping-trip.md) | Three pretend stars solve a soup-spoon problem and settle into a blue tent | What did Dot bring for camping? | [AAP, *How to Share Books with Children 2 and 3 Years Old* (2021)](https://www.healthychildren.org/English/ages-stages/toddler/Pages/How-to-Share-Books-with-2-and-3-Year-Olds.aspx) and [AAP-hosted *Playful Reading Tips* (2023)](https://www.healthychildren.org/English/family-life/power-of-play/Pages/playful-reading-tips-ways-to-engage-your-child-in-the-magic-of-books.aspx) give shared-reading and imagination context; not evidence that imaginary stars induce sleep. |
 
 ### About these citations
 

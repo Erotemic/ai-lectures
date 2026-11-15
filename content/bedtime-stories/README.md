@@ -43,7 +43,14 @@ course browser; each story sidecar repeats genre and age-range metadata.
 | 026000 | [The Night Train to Pillow Mountain](026000-the-night-train-to-pillow-mountain.md) | A child imagines a wooden train traveling over Button Bridge through Blanket Meadow to a pillow-shaped mountain. |
 | 027000 | [The Cave That Giggled Back](027000-the-cave-that-giggled-back.md) | Fern the little goat and Grandpa discover a soft echo outside a shallow cave, then settle into listening. |
 
-## Parents' rationale and citations (004000–027000)
+| 028000 | [Della and the Daisy Sneeze](028000-della-and-the-daisy-sneeze.md) | A friendly dragon sneezes daisies into a picnic; her friends find the flowers very funny. |
+| 029000 | [The Little Red Wagon's Holiday](029000-the-little-red-wagons-holiday.md) | Nia takes her everyday garden wagon on a small holiday with Grandpa, all the way to the bean patch. |
+| 030000 | [The Upside-Down Picnic Map](030000-the-upside-down-picnic-map.md) | Moss and Hazel follow a picture map, notice the pond on the wrong side, and turn the paper around. |
+| 031000 | [Lina and the Lantern Shadow](031000-lina-and-the-lantern-shadow.md) | A little moth makes an enormous playful shadow beside a softly lit porch and discovers whose shape it is. |
+| 032000 | [The Giant's Small Quilt](032000-the-giants-small-quilt.md) | A mouse offers a little patchwork quilt to a giant, who finds it makes an excellent blanket for one chilly toe. |
+| 033000 | [The Stars' Small Camping Trip](033000-the-stars-small-camping-trip.md) | Three make-believe stars camp between clouds with a tiny spoon, pretend moonberry soup, and an unhurried goodnight. |
+
+## Parents' rationale and citations (004000–033000)
 
 [**A quiet guide for parents and caregivers**](PARENTS_GUIDE.md) explains the
 earlier developmental themes and newer play-first stories, gives optional
@@ -61,7 +68,7 @@ that our stories have been tested or cause measured learning outcomes.
 The original three pilot stories (001000–003000) remain unchanged and are
 original fiction without claimed developmental intervention effects.
 
-The **twenty-seven** stories require no character-specific synthesized voices: dialogue
+The **thirty-three** stories require no character-specific synthesized voices: dialogue
 is reported by the narrator, or is absent. The stories are not required to
 have a particular duration. They stand alone even though one includes a small
 cross-story reference.
@@ -72,9 +79,9 @@ The exact TTS text is between the `BEGIN SPOKEN LECTURE` and `END SPOKEN
 LECTURE` markers. Author companions below the end marker give reading notes
 and explain what the story is trying to accomplish. They are **not** spoken.
 
-All twenty-seven manuscripts are newly authored original fiction. They do not adapt
+All thirty-three manuscripts are newly authored original fiction. They do not adapt
 published plots or reuse external story text. `metadata/sources.json` holds
-parent-facing developmental and play references for 004000–027000 only. Original
+parent-facing developmental and play references for 004000–033000 only. Original
 fictional descriptions and bedtime choices should not be misrepresented as
 scientific findings about childhood development.
 
@@ -95,3 +102,7 @@ music, or sound effects to understand the story.
 ## Added: 022000–027000 — different imagined places
 
 The six new manuscripts shift among an underwater garden, a cloud's pockets, a reflected star, a miniature mushroom village, a bedroom train journey, and a cave's echo. These are mostly **fun-first** stories. A few contain simple observation questions within the plot; none has an assigned moral. The single narrator, age-range labeling, direct caregiver source links, and separation of spoken fiction from parent notes remain unchanged.
+
+## Added: 028000–033000 — garden jokes, gentle puzzles, and a sleeping sky
+
+The six new stories include a flower-sneezing dragon, a garden wagon's holiday, an upside-down map, a moth's changing shadow, a giant's tiny toe quilt, and an invented camping trip among the stars. They deliberately range from nonsense to simple inquiry to quiet fantasy. **No story is required to teach a moral or meet a duration target.** The parent-facing citations explain shared-reading choices and their evidence limits; NASA's shadow activity is the specific reference for the moth story's physical light/shadow idea. All stories require only one TTS narrator, not distinct acting voices, images or sounds.

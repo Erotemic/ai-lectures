@@ -77,3 +77,14 @@ metadata sidecars. No claim of measured developmental efficacy.
 - 027000 — Friendly cave echo heard from outside with a trusted adult; wordplay and quiet listening.
 
 All six remain original, one-narrator fiction for ages 3–4 (primarily three). Parent references are direct and scoped to the editorial approach; the story texts are not presented as developmental intervention evidence. No set length policy, audiovisual dependency, or moral requirement.
+
+## Added: 028000–033000 — lighter stories plus one real-world shadow idea
+
+- 028000 — A dragon sneezes daisies at a picnic; absurd and harmless, no assigned moral.
+- 029000 — An ordinary wagon travels the garden with Nia and Grandpa, including an easy cooperative bump.
+- 030000 — A picture map is upside down; a small orientation puzzle with no required answer.
+- 031000 — A moth discovers an oversized shadow from a paper lantern with an electric light; no flame or acting voice.
+- 032000 — A quilt for a mouse becomes a quilt for a giant's toe; gentle scale joke, gift returned.
+- 033000 — Three entirely imaginary stars camp in the sky; soft cumulative goodnight, not an astronomy lesson.
+
+All six remain text-only single-narrator stories for ages 3–4, primarily age three. Caregiver citations are bounded by their actual scope. There is no assigned moral or duration policy. Later work should prioritize actual TTS listening over more validators or infrastructure work.
