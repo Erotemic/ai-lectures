@@ -41,10 +41,10 @@ The nine lectures delivered across the three tracks are designed for a mathemati
 - 002000 (delivered): *Counting, Conditioning, and Independence: How Evidence Changes the Sample Space*. Standalone spoken manuscript, mathematical companion, exercises, and source sidecar.
 - 003000 (delivered): *Random Variables, Distributions, and Expectation: Turning Outcomes into Quantities*. Standalone spoken manuscript, mathematical companion, exercises, and source sidecar.
 - 004000 (delivered): *Sigma Algebras and Measure: How Probability Handles Infinite Events*. Countable additivity, Lebesgue integration, null sets and distinct convergence modes.
-- 005000: Conditional expectation as integration, projection and information restriction.
-- 006000: Laws of large numbers, concentration, central limit behavior and dependence assumptions.
-- 007000: Martingales, filtrations, stopping times and optional-stopping qualifications.
-- 008000: Bayesian inference, statistical identification, likelihood and calibration.
+- 005000 (delivered): *Conditional Expectation: Information, Averages, and Projection*. Audio-first transcript, proof companion, exercises, source sidecar.
+- 006000 (delivered): *Large Numbers, Concentration, and Normal Approximation*. Audio-first transcript, proof companion, exercises, source sidecar.
+- 007000 (delivered): *Martingales, Filtrations, and the Limits of Stopping Rules*. Audio-first transcript, proof companion, exercises, source sidecar.
+- 008000 (delivered): *Bayesian Inference, Identification, and Calibration*. Audio-first transcript, proof companion, exercises, source sidecar.
 - 009000: Markov chains/processes, random algorithms, inference on dynamical systems.
 - 010000: Formal probability spaces, measurable functions, and Lean/mathlib proof exercises.
 

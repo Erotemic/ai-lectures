@@ -9,7 +9,11 @@
     "event-spaces",
     "conditioning-independence",
     "random-variables",
-    "measurable-spaces"
+    "measurable-spaces",
+    "conditional-expectation",
+    "limit-theorems",
+    "martingales",
+    "inference-calibration"
   ],
   "lectures": [
     {
@@ -47,6 +51,42 @@
       "spoken_words": 3245,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 22.4
+    },
+    {
+      "id": "005000",
+      "title": "Conditional Expectation: Information, Averages, and Projection",
+      "section": "conditional-expectation",
+      "file": "005000-conditional-expectation-information-and-projection.md",
+      "spoken_words": 3049,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.0
+    },
+    {
+      "id": "006000",
+      "title": "Large Numbers, Concentration, and Normal Approximation",
+      "section": "limit-theorems",
+      "file": "006000-laws-concentration-and-normal-approximation.md",
+      "spoken_words": 3002,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 20.7
+    },
+    {
+      "id": "007000",
+      "title": "Martingales, Filtrations, and the Limits of Stopping Rules",
+      "section": "martingales",
+      "file": "007000-martingales-filtrations-and-stopping.md",
+      "spoken_words": 3073,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.2
+    },
+    {
+      "id": "008000",
+      "title": "Bayesian Inference, Identification, and Calibration",
+      "section": "inference-calibration",
+      "file": "008000-bayesian-inference-identification-and-calibration.md",
+      "spoken_words": 3071,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 21.2
     }
   ]
 }

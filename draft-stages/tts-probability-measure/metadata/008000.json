@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-bayesian-inference-identification-and-calibration.md",
+  "related_resources": [
+    {
+      "source_id": "pm-bda3",
+      "reason": "Bayesian inference and predictive model checking"
+    },
+    {
+      "source_id": "pm-brier",
+      "reason": "Original probability forecast scoring"
+    },
+    {
+      "source_id": "pm-proper-scoring",
+      "reason": "Proper scoring and probabilistic forecast evaluation"
+    },
+    {
+      "source_id": "pm-mit",
+      "reason": "Foundational probability worked examples"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "008000-s01",
+      "anchor": "The Bayesian rule is simple in form: posterior density is proportional to likelihood times prior density.",
+      "kind": "methodological_scope",
+      "source_ids": [
+        "pm-bda3"
+      ],
+      "source_locator": "Bayesian updating in conjugate model",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "008000-s02",
+      "anchor": "This is an identification problem.",
+      "kind": "methodological_scope",
+      "source_ids": [
+        "pm-bda3"
+      ],
+      "source_locator": "Nonidentifiable likelihood example",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "008000-s03",
+      "anchor": "That short calculation proves the Brier score is strictly proper for binary events: if the true conditional probability is p, a forecaster minimizes expected score by honestly reporting p.",
+      "kind": "methodological_scope",
+      "source_ids": [
+        "pm-brier",
+        "pm-proper-scoring"
+      ],
+      "source_locator": "Brier propriety and expected score decomposition",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

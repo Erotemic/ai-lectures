@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-conditional-expectation-information-and-projection.md",
+  "related_resources": [
+    {
+      "source_id": "pm-klenke",
+      "reason": "Advanced probability and measure theoretic formulation"
+    },
+    {
+      "source_id": "pm-mit-theory",
+      "reason": "Rigorous lecture treatment of probability theorems"
+    },
+    {
+      "source_id": "pm-mit-675",
+      "reason": "Measure-theoretic limit theorems, conditional expectation and martingales"
+    },
+    {
+      "source_id": "pm-mit-measure",
+      "reason": "Integration and conditional expectations"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "005000-s01",
+      "anchor": "The Radon–Nikodym theorem provides an integrable observable density Y, which has exactly the balance property we require.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-klenke",
+        "pm-mit-675"
+      ],
+      "source_locator": "Radon–Nikodym conditional expectation construction",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "005000-s02",
+      "anchor": "The conditional expectation Y is then the unique best prediction up to almost-sure equality.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-klenke",
+        "pm-mit-theory"
+      ],
+      "source_locator": "L2 orthogonal projection principle",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-laws-concentration-and-normal-approximation.md",
+  "related_resources": [
+    {
+      "source_id": "pm-mit-theory",
+      "reason": "Rigorous lecture treatment of probability theorems"
+    },
+    {
+      "source_id": "pm-mit-675",
+      "reason": "Measure-theoretic limit theorems, conditional expectation and martingales"
+    },
+    {
+      "source_id": "pm-hoeffding",
+      "reason": "Finite-sample concentration for bounded sums"
+    },
+    {
+      "source_id": "pm-mit",
+      "reason": "Foundational probability worked examples"
+    },
+    {
+      "source_id": "pm-klenke",
+      "reason": "Advanced probability and measure theoretic formulation"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "006000-s01",
+      "anchor": "That proves a weak law of large numbers under these assumptions.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-mit-theory"
+      ],
+      "source_locator": "Chebyshev variance argument",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "006000-s02",
+      "anchor": "For independent bounded observations, Hoeffding's inequality gives an exponentially decreasing upper bound on the probability that the sample average differs from its mean by at least epsilon.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-hoeffding"
+      ],
+      "source_locator": "1963 Hoeffding bounded independent sums",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

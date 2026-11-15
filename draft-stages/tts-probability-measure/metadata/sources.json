@@ -56,6 +56,48 @@
       "url": "https://ocw.mit.edu/courses/18-125-measure-and-integration-fall-2003/pages/lecture-notes/",
       "access": "free_no_login",
       "notes": "Sigma algebras, measurable functions, Lebesgue integration, monotone convergence and dominated convergence."
+    },
+    "pm-mit-theory": {
+      "title": "MIT OpenCourseWare 18.175, Theory of Probability (2014), lecture slides",
+      "kind": "course_material",
+      "url": "https://ocw.mit.edu/courses/18-175-theory-of-probability-spring-2014/pages/lecture-slides/",
+      "access": "free_no_login",
+      "notes": "Integration, limit laws, conditional expectation, random walks and martingales."
+    },
+    "pm-mit-675": {
+      "title": "MIT Mathematics 18.675, Theory of Probability (Fall 2019), lecture topics",
+      "kind": "course_material",
+      "url": "https://math.mit.edu/~nsun/f19-18675-sch.pdf",
+      "access": "free_no_login",
+      "notes": "Course progression through L2 convergence, conditional expectations, martingales and optional stopping."
+    },
+    "pm-hoeffding": {
+      "title": "Wassily Hoeffding, Probability Inequalities for Sums of Bounded Random Variables (1963)",
+      "kind": "journal_article",
+      "url": "https://doi.org/10.1080/01621459.1963.10500830",
+      "access": "publisher_or_author",
+      "notes": "Independent bounded-sum concentration bounds; theorem hypotheses are essential."
+    },
+    "pm-bda3": {
+      "title": "Andrew Gelman et al., Bayesian Data Analysis, 3rd edition",
+      "kind": "scholarly_textbook",
+      "url": "https://sites.stat.columbia.edu/gelman/book/",
+      "access": "free_no_login",
+      "notes": "Bayesian model specification, conjugate updates and posterior predictive checking."
+    },
+    "pm-brier": {
+      "title": "Glenn W. Brier, Verification of Forecasts Expressed in Terms of Probability (1950)",
+      "kind": "historical_primary",
+      "url": "https://journals.ametsoc.org/view/journals/mwre/78/1/1520-0493_1950_078_0001_vofeit_2_0_co_2.xml",
+      "access": "free_no_login",
+      "notes": "Original probabilistic forecast verification score."
+    },
+    "pm-proper-scoring": {
+      "title": "Tilmann Gneiting and Adrian E. Raftery, Strictly Proper Scoring Rules, Prediction, and Estimation (2007)",
+      "kind": "journal_article",
+      "url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf",
+      "access": "free_no_login",
+      "notes": "Mathematical foundations of strictly proper scoring rules."
     }
   }
 }

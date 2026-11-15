@@ -12,16 +12,19 @@
 
 - 004000: [Sigma Algebras and Measure: How Probability Handles Infinite Events](004000-sigma-algebras-measures-and-almost-sure.md) (3,245 spoken words; ~22 minutes).
 
+## Completed continuation (005000–008000)
+
+- 005000: [Conditional Expectation: Information, Averages, and Projection](005000-conditional-expectation-information-and-projection.md) (3,049 spoken words).
+- 006000: [Large Numbers, Concentration, and Normal Approximation](006000-laws-concentration-and-normal-approximation.md) (3,002 spoken words).
+- 007000: [Martingales, Filtrations, and the Limits of Stopping Rules](007000-martingales-filtrations-and-stopping.md) (3,073 spoken words).
+- 008000: [Bayesian Inference, Identification, and Calibration](008000-bayesian-inference-identification-and-calibration.md) (3,071 spoken words).
+
 ## Planned continuation
 
-- 005000: Conditional Expectation as Projection
-- 006000: Concentration, Laws of Large Numbers, and Limit Theorems
-- 007000: Martingales, Filtrations, and Stopping Times
-- 008000: Bayesian Models, Likelihood, and Identifiability
 - 009000: Markov Processes and Stochastic Algorithms
 - 010000: Probability in Formal Proofs and Verified Computation
 
-The remaining titles are planning proposals.
+The remaining titles are planning proposals; see the curriculum addendum in `docs/planning/probability-measure-expansion-005000-008000-2026-11-14.md`.
 
 ## Reading and source records
 

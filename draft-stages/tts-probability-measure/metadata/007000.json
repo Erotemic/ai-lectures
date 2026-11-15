@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-martingales-filtrations-and-stopping.md",
+  "related_resources": [
+    {
+      "source_id": "pm-mit-theory",
+      "reason": "Rigorous lecture treatment of probability theorems"
+    },
+    {
+      "source_id": "pm-mit-675",
+      "reason": "Measure-theoretic limit theorems, conditional expectation and martingales"
+    },
+    {
+      "source_id": "pm-klenke",
+      "reason": "Advanced probability and measure theoretic formulation"
+    },
+    {
+      "source_id": "pm-mit",
+      "reason": "Foundational probability worked examples"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "007000-s01",
+      "anchor": "This is optional stopping for bounded stopping times.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-mit-675",
+        "pm-mit-theory"
+      ],
+      "source_locator": "Optional stopping with bounded horizon",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "007000-s02",
+      "anchor": "Because T is not bounded and does not have finite expectation.",
+      "kind": "mathematical_scope",
+      "source_ids": [
+        "pm-mit-675",
+        "pm-klenke"
+      ],
+      "source_locator": "Symmetric random walk hitting time and optional stopping counterexample",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
