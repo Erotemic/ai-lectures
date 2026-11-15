@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-backward-error-and-stability.md",
+  "related_resources": [
+    {
+      "source_id": "na-higham",
+      "reason": "Forward/backward error, conditioning, numerical stability, summation."
+    },
+    {
+      "source_id": "na-demmel",
+      "reason": "Sensitivity, backward-error measures, residual bounds, pivoting, least squares and linear algebra."
+    },
+    {
+      "source_id": "na-trefethen-bau",
+      "reason": "Conditioning, Householder QR, pivoting, stability and iterative methods; Library of Congress table of contents."
+    },
+    {
+      "source_id": "na-wilkinson",
+      "reason": "Development of backward-error viewpoint in numerical linear algebra."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "004000-h01",
+      "anchor": "James Wilkinson and the subsequent literature on numerical linear algebra made this viewpoint central",
+      "kind": "historical_research",
+      "source_ids": [
+        "na-wilkinson",
+        "na-higham"
+      ],
+      "source_locator": "backward error analysis and historical development",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

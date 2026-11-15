@@ -6,9 +6,24 @@
     "Elementary algebra, and familiarity with basic equations; programming is optional"
   ],
   "sections": [
-    "finite-precision"
+    "problem-specification",
+    "finite-precision",
+    "conditioning",
+    "backward-stability",
+    "root-finding",
+    "linear-algebra",
+    "error-certificates"
   ],
   "lectures": [
+    {
+      "id": "001000",
+      "title": "When to Trust a Computed Answer: Models, Data, Approximation, and Tolerances",
+      "section": "problem-specification",
+      "file": "001000-when-to-trust-a-computed-answer.md",
+      "spoken_words": 2006,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.8
+    },
     {
       "id": "002000",
       "title": "Small Errors, Large Consequences: Rounding and Error Propagation",
@@ -17,6 +32,51 @@
       "spoken_words": 3039,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 21.0
+    },
+    {
+      "id": "003000",
+      "title": "Conditioning: When the Problem Amplifies Small Errors",
+      "section": "conditioning",
+      "file": "003000-conditioning-and-sensitivity.md",
+      "spoken_words": 1728,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.9
+    },
+    {
+      "id": "004000",
+      "title": "Backward Error: Which Nearby Problem Did the Algorithm Solve?",
+      "section": "backward-stability",
+      "file": "004000-backward-error-and-stability.md",
+      "spoken_words": 1662,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.5
+    },
+    {
+      "id": "005000",
+      "title": "Finding Roots: Brackets, Newton's Method, and Honest Stopping Rules",
+      "section": "root-finding",
+      "file": "005000-roots-brackets-and-newton.md",
+      "spoken_words": 1741,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.0
+    },
+    {
+      "id": "006000",
+      "title": "Linear Algebra in Finite Precision: Pivoting, Conditioning, and Residuals",
+      "section": "linear-algebra",
+      "file": "006000-linear-algebra-pivoting-and-residuals.md",
+      "spoken_words": 1571,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.8
+    },
+    {
+      "id": "007000",
+      "title": "Convergence and Error Certificates: Knowing When to Stop",
+      "section": "error-certificates",
+      "file": "007000-error-budgets-convergence-certificates.md",
+      "spoken_words": 1844,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.7
     }
   ]
 }
