@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "lecture_id": "043000",
+  "transcript": "043000-writing-fiction-as-a-system.md",
+  "related_resources": [
+    {
+      "source_id": "fw-interactive-montfort",
+      "reason": "History of parser interactive fiction and its literary context"
+    },
+    {
+      "source_id": "fw-interactive-twine",
+      "reason": "Choice-based authoring, state, and HTML output"
+    },
+    {
+      "source_id": "fw-interactive-inform",
+      "reason": "Natural-language-like rules and simulated world authoring"
+    },
+    {
+      "source_id": "fw-interactive-inform-release",
+      "reason": "Independent confirmation of 2006 public release"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "043000-c01",
+      "anchor": "In *Twisty Little Passages*, published in 2003, Nick Montfort",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "fw-interactive-montfort"
+      ],
+      "source_locator": "MIT Press book listing, first-edition date November 7, 2003.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043000-c02",
+      "anchor": "Twine is an open-source tool for creating nonlinear, choice-based stories",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "fw-interactive-twine"
+      ],
+      "source_locator": "Official Twine site, current features and platform output.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043000-c03",
+      "anchor": "Inform 7, developed under Graham Nelson's direction",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "fw-interactive-inform"
+      ],
+      "source_locator": "Inform 7 official documentation.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043000-c04",
+      "anchor": "Inform 7 became publicly available in 2006",
+      "kind": "historical_fact_or_critical_context",
+      "source_ids": [
+        "fw-interactive-inform-release"
+      ],
+      "source_locator": "Nick Montfort, announcement dated April 30, 2006.",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

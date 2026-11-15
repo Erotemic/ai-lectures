@@ -86,3 +86,23 @@ The global curriculum is in [`docs/planning/fiction-storytelling-worldbuilding-c
 Per-track references are in `metadata/sources.json`; per-lecture metadata is in `metadata/<id>.json`. Only text within the spoken lecture delimiters is narrated. Companion exercises and bibliography remain display-only.
 
 This collection is text-only. It includes no generated images or audio.
+
+## Compression, genre, and revision (036000-039000)
+
+These four independent, audio-first lectures compare different problems of form: what a short story can omit, how speculative and literary modes interact, how revision operates at several scales, and what happens when different poetics are applied to one original premise. There is no imposed lecture-length policy; measured narration counts in the manifest describe the finished work.
+
+- 036000: [Short-Story Compression: Poe, Munro, and Lydia Davis](036000-short-story-compression-poe-munro-davis.md). Designed effect, life-spanning compression, and miniature forms.
+- 037000: [Genre Hybridity: Slipstream, New Weird, and Reader Promises](037000-genre-hybridity-slipstream-new-weird-and-reader-promises.md). The history and contested boundaries of hybrid modes, with one speculative municipal-office experiment.
+- 038000: [Revision as Re-Seeing: Structure, Attention, and Ethics](038000-revision-as-reseeing-structure-attention-and-ethics.md). A multiscale greenhouse-story revision, keeping technical, ethical, and reader-experience questions separate.
+- 039000: [A Workshop in Competing Poetics: Four Revisions of One Story](039000-a-workshop-in-competing-poetics-four-revisions.md). Four materially different treatments of an original radio-repair premise.
+
+The source records are in `metadata/sources.json`, with claim anchoring and further reading per lecture in `metadata/<id>.json`. All worked fictional scenes are original. No binary assets are included.
+
+## Forms, workshops, history, and systems (040000-043000)
+
+Four standalone, audio-first lectures address fiction forms, how feedback shapes manuscripts, the evidentiary limits of historical reconstruction, and the authoring of computational narrative systems. Each lecture uses a new extended invented example; the historical sources are identified in `metadata/sources.json` and the lecture sidecars. No prescribed length is imposed; catalog counts are descriptive.
+
+- 040000: [The Novella and the Linked-Story Cycle](040000-the-novella-and-the-linked-story-cycle.md). Concentrated narrative pressure versus independently complete stories whose recurrence changes meaning.
+- 041000: [After the Silent Workshop: Critique, Authority, and Revision](041000-after-the-silent-workshop-critique-and-authority.md). The effects of workshop structure, reader observations versus prescriptions, and alternative feedback methods.
+- 042000: [Historical Fiction: Evidence, Imagination, and Silence](042000-historical-fiction-evidence-imagination-and-silence.md). Documentary claims, historical inference, authorial invention, and archival silence.
+- 043000: [Writing Fiction as a System: Interactive and Computational Authorship](043000-writing-fiction-as-a-system.md). Choice-based and parser fiction, state and continuity, simulation, and generated language.
