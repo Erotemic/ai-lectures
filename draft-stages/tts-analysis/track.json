@@ -6,9 +6,20 @@
     "Elementary algebra, inequalities, and familiarity with fractions"
   ],
   "sections": [
-    "sequences"
+    "sequences",
+    "function-limits",
+    "compact-intervals"
   ],
   "lectures": [
+    {
+      "id": "001000",
+      "title": "What Does It Mean for a Sequence to Converge?",
+      "section": "sequences",
+      "file": "001000-what-convergence-means.md",
+      "spoken_words": 1855,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.8
+    },
     {
       "id": "002000",
       "title": "The Number Line Without Gaps: Completeness and the Real Numbers",
@@ -17,6 +28,24 @@
       "spoken_words": 3231,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 22.3
+    },
+    {
+      "id": "003000",
+      "title": "From Nearby Inputs to Nearby Outputs: Limits and Continuity",
+      "section": "function-limits",
+      "file": "003000-limits-and-continuity.md",
+      "spoken_words": 1919,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.2
+    },
+    {
+      "id": "004000",
+      "title": "What Continuity Guarantees: Roots, Bounds, and Extrema",
+      "section": "compact-intervals",
+      "file": "004000-what-continuity-guarantees.md",
+      "spoken_words": 2077,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.3
     }
   ]
 }
