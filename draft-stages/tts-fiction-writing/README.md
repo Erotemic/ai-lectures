@@ -1,6 +1,6 @@
 # Fiction Writing and Worldbuilding
 
-**Current collection:** 16 substantive, independently understandable audio-first manuscripts, including an overview and eight focused lectures on twentieth- and twenty-first-century fiction approaches.
+**Current collection:** 20 substantive, independently understandable audio-first manuscripts, including an overview, eight focused contemporary-approaches lectures, and four historical deep dives.
 
 ## Completed lectures
 
@@ -27,6 +27,15 @@ The overview maps the history and competing assumptions; the eight specialized l
 - 015000: [Hypertext, Interactive Fiction, and Reader Agency](015000-hypertext-interactive-fiction-and-reader-agency.md) (1,709 spoken words; approximately 11.8 minutes at 145 words per minute).
 
 A thematic study guide with source categories and follow-on questions appears in [modern-schools-study-guide.md](modern-schools-study-guide.md).
+
+## Historical schools and literary institutions (016000–019000)
+
+These are standalone deeper studies building on the overview. They distinguish techniques and aesthetic arguments from publishing movements and institutions. Each includes original scene experiments and source notes.
+
+- 016000: [Modernism and the Invention of Interior Life](016000-modernism-and-the-invention-of-interior-life.md) (2,041 spoken words; approximately 14.1 minutes at 145 words per minute).
+- 017000: [The Latin American Boom: Many Realisms, Many Histories](017000-latin-american-boom-and-many-realisms.md) (1,974 spoken words; approximately 13.6 minutes at 145 words per minute).
+- 018000: [Writing Back: Postcolonial Fiction, Language, and Narrative Authority](018000-postcolonial-writing-back-and-language.md) (2,179 spoken words; approximately 15.0 minutes at 145 words per minute).
+- 019000: [Who Teaches a Novel to Be a Novel? Publishing, Genre, and Literary Taste](019000-publishing-systems-and-literary-taste.md) (2,408 spoken words; approximately 16.6 minutes at 145 words per minute).
 
 ## Planned continuation
 
