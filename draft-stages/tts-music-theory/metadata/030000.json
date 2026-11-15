@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "lecture_id": "030000",
+  "transcript": "030000-why-sounds-mask-each-other.md",
+  "related_resources": [
+    {
+      "source_id": "mt-glasberg-moore-1990",
+      "reason": "Hearing Research 47(1-2):103-138. Abstract and methodological descriptions support estimating auditory filters from controlled notched-noise masking experiments; full article may require access."
+    },
+    {
+      "source_id": "mt-brungart-2001",
+      "reason": "JASA 109(3):1101-1109, DOI 10.1121/1.1345696. PubMed abstract and bibliographic record; speech experiments, not instruments."
+    },
+    {
+      "source_id": "mt-brungart-etal-2001",
+      "reason": "JASA 110(5 Pt 1):2527-2538, DOI 10.1121/1.1408946; three- and four-talker experimental conditions."
+    },
+    {
+      "source_id": "mt-bregman-1990",
+      "reason": "Publisher overview of source grouping and scene analysis; full book may require access, so cite the overview only for its stated theoretical framing."
+    },
+    {
+      "source_id": "mt-bregman-1978",
+      "reason": "Perception & Psychophysics 23(5):391-398, abstract and Experiment 1. Author-hosted full-text scan; tested repeated ABXY tone patterns, not recorded music mixing."
+    },
+    {
+      "source_id": "mt-smith-stft",
+      "reason": "STFT definition, hop/window/FFT parameters and overlap-add treatment."
+    },
+    {
+      "source_id": "mt-moore-glasberg-1981",
+      "reason": "JASA 70(4):1003-1014, DOI 10.1121/1.386950. Abstract comparing simultaneous and forward-masking conditions; no DAW-specific recommendation."
+    },
+    {
+      "source_id": "mt-turner-etal-1992",
+      "reason": "JASA 92(6):3102-3108, DOI 10.1121/1.404206. Psychoacoustic frequency-discrimination task, not production-specific time constants."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "Brian Glasberg and Brian Moore's 1990 paper",
+      "source_ids": [
+        "mt-glasberg-moore-1990"
+      ],
+      "evidence_detail": "Hearing Research 47, paper title and notched-noise detection methodology.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "These filters should not be imagined as the fixed vertical strips on a DAW spectrogram",
+      "source_ids": [
+        "mt-glasberg-moore-1990",
+        "mt-smith-stft"
+      ],
+      "evidence_detail": "Original synthesis contrasting auditory psychophysical filters with STFT grids.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "This is a form of energetic masking",
+      "source_ids": [
+        "mt-glasberg-moore-1990"
+      ],
+      "evidence_detail": "Auditory filter measurements support overlapping energy and detection thresholds; illustrative 1000-Hz test is original.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "Douglas Brungart's 2001 paper",
+      "source_ids": [
+        "mt-brungart-2001"
+      ],
+      "evidence_detail": "2001 two-talker publication, target/masker speech design and distinction of informational masking.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Brungart, Simpson, Ericson, and Scott",
+      "source_ids": [
+        "mt-brungart-etal-2001"
+      ],
+      "evidence_detail": "2001 multiple-talker paper bibliographic authors and test context.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "These are experiments on speech",
+      "source_ids": [
+        "mt-brungart-2001",
+        "mt-brungart-etal-2001"
+      ],
+      "evidence_detail": "PubMed abstracts specify speech, not mixing practices.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Bregman's 1978 paper, Auditory Streaming: Competition Among Alternative Organizations",
+      "source_ids": [
+        "mt-bregman-1978"
+      ],
+      "evidence_detail": "1978 primary paper abstract and Experiment 1: context-dependent stream organization.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "the pattern may instead split into two streams",
+      "source_ids": [
+        "mt-bregman-1978"
+      ],
+      "evidence_detail": "Simplified original teaching exercise inspired by a wider body of tonal streaming work; no precise threshold claimed.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "A carefully chosen silence contributes no competing signal energy",
+      "source_ids": [
+        "mt-bregman-1990"
+      ],
+      "evidence_detail": "Original signal-level observation about planned silence, not a universal perceptual guarantee or frequency-response claim.",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "In version A, reduce the pad by three decibels",
+      "source_ids": [
+        "mt-bregman-1990"
+      ],
+      "evidence_detail": "Original controlled editing proposal; no researcher tested this exact mix.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "the listener's auditory system groups acoustic components into streams and events",
+      "source_ids": [
+        "mt-bregman-1990"
+      ],
+      "evidence_detail": "Bregman source-grouping framework as described by MIT Press.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "Brian Moore and Brian Glasberg compared auditory filter estimates from simultaneous and forward-masking conditions",
+      "source_ids": [
+        "mt-moore-glasberg-1981"
+      ],
+      "evidence_detail": "JASA 70:1003-1014, controlled simultaneous vs forward masking detection thresholds.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Carolyn Turner and colleagues separately studied frequency discrimination under forward and backward masking in 1992",
+      "source_ids": [
+        "mt-turner-etal-1992"
+      ],
+      "evidence_detail": "JASA 92:3102-3108, frequency discrimination in forward and backward masking.",
+      "provenance": "source_backed"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Source IDs identify the original article/standard/book and the supported claim with locator or abstract scope. Original calculations and teaching examples remain explicitly authored. Anchors must be exact narration substrings; mechanical checks cannot confirm source interpretation."
+}

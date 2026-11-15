@@ -1,7 +1,7 @@
 {
   "id": "music-theory",
   "title": "Music Theory and Composition",
-  "summary": "A standalone, instrument-agnostic course in melody, rhythm, harmony, composition, comparative musical systems, and production. Later lectures teach MIDI/audio distinctions, EQ, dynamics, alignment, stereo space, and reproducible DawDreamer–Ardour workflows without requiring playable audio examples.",
+  "summary": "An instrument-agnostic audio-first course in melody, rhythm, harmony, comparative musical systems, composition, and practical sound production. The later lessons develop reproducible DawDreamer–Ardour workflows, documented auditory science, mixing, and critical listening; notation and source maps are provided as optional companions.",
   "assumed_background": [
     "General audience; no notation, instrument, or earlier music theory required."
   ],
@@ -25,7 +25,11 @@
     "notes-to-sound",
     "eq-and-dynamics",
     "timing-phase-and-space",
-    "reproducible-production"
+    "reproducible-production",
+    "hearing-and-musical-perception",
+    "masking-and-scene-analysis",
+    "spatial-hearing-and-reproduction",
+    "critical-listening-and-validation"
   ],
   "lectures": [
     {
@@ -279,6 +283,42 @@
       "spoken_words": 2024,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 14.0
+    },
+    {
+      "id": "029000",
+      "title": "How Hearing Makes Music: Pitch, Loudness, Timbre, and Time",
+      "section": "hearing-and-musical-perception",
+      "file": "029000-how-hearing-makes-music.md",
+      "spoken_words": 2041,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.1
+    },
+    {
+      "id": "030000",
+      "title": "Why Sounds Mask Each Other: Auditory Streams, Competition, and Musical Clarity",
+      "section": "masking-and-scene-analysis",
+      "file": "030000-why-sounds-mask-each-other.md",
+      "spoken_words": 2103,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.5
+    },
+    {
+      "id": "031000",
+      "title": "How We Hear Space: Localization, Stereo, Headphones, and the Listening Room",
+      "section": "spatial-hearing-and-reproduction",
+      "file": "031000-how-we-hear-space.md",
+      "spoken_words": 2066,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.2
+    },
+    {
+      "id": "032000",
+      "title": "How to Listen Critically: Bias, Comparisons, and Decisions in a Mix",
+      "section": "critical-listening-and-validation",
+      "file": "032000-how-to-listen-critically.md",
+      "spoken_words": 1971,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.6
     }
   ]
 }

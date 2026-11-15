@@ -1,6 +1,6 @@
 # Evidence map for the audio-production lessons
 
-For lectures `025000`–`028000`, `metadata/<lecture-id>.json` now contains
+For lectures `025000`–`032000`, `metadata/<lecture-id>.json` now contains
 `claim_evidence` records. Each record has:
 
 - `anchor`: exact substring in the **spoken** lecture, for audit and refactoring;
@@ -20,7 +20,7 @@ underlying measurement method.
 
 ```bash
 python draft-stages/tts-music-theory/citations/validate.py
-python draft-stages/tts-music-theory/citations/validate.py 025000 026000 027000 028000
+python draft-stages/tts-music-theory/citations/validate.py 025000 026000 027000 028000 029000 030000 031000 032000
 ```
 
 This verifies IDs, URL shape and anchor presence. It **cannot** independently

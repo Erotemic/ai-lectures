@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032000",
+  "transcript": "032000-how-to-listen-critically.md",
+  "related_resources": [
+    {
+      "source_id": "mt-itu-bs1116-3",
+      "reason": "February 2015 edition; small-impairment evaluation with controlled listener methods. Not an aesthetic music-ranking standard."
+    },
+    {
+      "source_id": "mt-itu-bs1534-3",
+      "reason": "October 2015 edition; formal intermediate-quality audio evaluation (MUSHRA family), not compositional preference measurement."
+    },
+    {
+      "source_id": "mt-itu-bs1284-2",
+      "reason": "Approved January 2019; official recommendation. General subjective sound-quality evaluation, not aesthetic authority for musical composition."
+    },
+    {
+      "source_id": "mt-ebu-tech3276",
+      "reason": "Official summary of assessment environment for programme selection and sound-control rooms; 1998 edition predates current loudness normalization guidance."
+    },
+    {
+      "source_id": "mt-olive-2003",
+      "reason": "Journal of the Audio Engineering Society 51(9):806-825, 2003. Public abstract reports controlled loudspeaker evaluations of trained and untrained listener groups; full journal article may require access."
+    },
+    {
+      "source_id": "mt-itu-bs1770-5",
+      "reason": "November 2023 edition; standard loudness and true-peak algorithms. Free official download; consult full normative annex for implementation details."
+    },
+    {
+      "source_id": "mt-dawdreamer-guide",
+      "reason": "DawDreamer graph-mixer APIs, built-in filters, compressors, reverbs and oscillator testing."
+    },
+    {
+      "source_id": "mt-ardour-export-dialog",
+      "reason": "Export report with peak, true peak and integrated loudness, as well as output formats and ranges."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "Recommendation ITU-R BS.1116-3 describes subjective assessment of small impairments",
+      "source_ids": [
+        "mt-itu-bs1116-3"
+      ],
+      "evidence_detail": "2015 ITU recommendation, title and scope.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Recommendation ITU-R BS.1534-3 describes MUSHRA",
+      "source_ids": [
+        "mt-itu-bs1534-3"
+      ],
+      "evidence_detail": "2015 ITU recommendation, hidden reference and anchor multi-stimulus methodology.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "not a universal grading system for whether the chorus",
+      "source_ids": [
+        "mt-itu-bs1534-3"
+      ],
+      "evidence_detail": "Editorial interpretation of limited engineering audio-quality scope, not a direct standard claim.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "Another common task is an ABX discrimination comparison",
+      "source_ids": [
+        "mt-itu-bs1284-2"
+      ],
+      "evidence_detail": "Original operational explanation of ABX, situated among general subjective evaluation methods; ITU source is not claimed to prescribe this exact classroom ABX.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "the chance of eight or more by guessing is fifty-six out of one thousand and twenty-four",
+      "source_ids": [
+        "mt-itu-bs1284-2"
+      ],
+      "evidence_detail": "Author calculation for Binomial(n=10,p=.5); ITU source provides research context, not this result.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "The EBU's Tech 3276 concerns listening conditions",
+      "source_ids": [
+        "mt-ebu-tech3276"
+      ],
+      "evidence_detail": "Official EBU document scope for mono/stereo sound programme assessment.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Sean Olive's 2003 study",
+      "source_ids": [
+        "mt-olive-2003"
+      ],
+      "evidence_detail": "JAES 51(9):806-825 public abstract, trained/untrained loudspeaker panels.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Trained listeners were generally more discriminating and reliable",
+      "source_ids": [
+        "mt-olive-2003"
+      ],
+      "evidence_detail": "Study abstract supports discrimination and reliability within loudspeaker evaluations only.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "listeners may perceive it as more forceful or clearer",
+      "source_ids": [
+        "mt-itu-bs1770-5"
+      ],
+      "evidence_detail": "Illustrative perceptual concern; standard only quantifies specific loudness algorithm, not universal preference, so interpret cautiously.",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "In Ardour, create a clearly named snapshot",
+      "source_ids": [
+        "mt-ardour-export-dialog"
+      ],
+      "evidence_detail": "Original workflow recommendation; Ardour manual supports exporting but not this test design.",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "When rendering with DawDreamer, save the source notes or PCM inputs",
+      "source_ids": [
+        "mt-dawdreamer-guide"
+      ],
+      "evidence_detail": "Original reproducibility practice built upon documented DawDreamer graph/render workflow.",
+      "provenance": "editorial_inference"
+    },
+    {
+      "anchor": "If your artistic question is which version makes the singer seem vulnerable",
+      "source_ids": [
+        "mt-itu-bs1284-2"
+      ],
+      "evidence_detail": "Editorial example differentiating task specification and aesthetic judgment.",
+      "provenance": "original_example"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Source IDs identify the original article/standard/book and the supported claim with locator or abstract scope. Original calculations and teaching examples remain explicitly authored. Anchors must be exact narration substrings; mechanical checks cannot confirm source interpretation."
+}

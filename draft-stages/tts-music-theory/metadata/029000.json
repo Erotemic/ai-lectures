@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "lecture_id": "029000",
+  "transcript": "029000-how-hearing-makes-music.md",
+  "related_resources": [
+    {
+      "source_id": "mt-nidcd-hearing",
+      "reason": "Numbered steps 1-6: outer, middle, inner ear; basilar membrane and hair cells. Accessible public explanation; not a comprehensive physiological theory."
+    },
+    {
+      "source_id": "mt-mcdermott-oxenham-2008",
+      "reason": "Current Opinion in Neurobiology 18(4):452-463. DOI 10.1016/j.conb.2008.09.005. Pitch and missing-fundamental sections; openly readable author manuscript."
+    },
+    {
+      "source_id": "mt-fletcher-munson-1933",
+      "reason": "Bell System Technical Journal 12(4):377-430. DOI landing page/abstract accessible; full journal content may require access. Historically foundational loudness experiments; not modern mixing target."
+    },
+    {
+      "source_id": "mt-iso226-2023",
+      "reason": "Official abstract lists continuous pure tones, free-field frontal incidence, binaural hearing, normal-hearing listeners aged 18-25; full normative standard may require purchase."
+    },
+    {
+      "source_id": "mt-bregman-1990",
+      "reason": "Publisher overview of source grouping and scene analysis; full book may require access, so cite the overview only for its stated theoretical framing."
+    },
+    {
+      "source_id": "mt-itu-bs1770-5",
+      "reason": "November 2023 edition; standard loudness and true-peak algorithms. Free official download; consult full normative annex for implementation details."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "The cochlea contains a basilar membrane",
+      "source_ids": [
+        "mt-nidcd-hearing"
+      ],
+      "evidence_detail": "NIDCD numbered hearing stages 3-6: cochlear fluid, basilar membrane, hair cell response.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "higher-frequency sound excites more basal regions",
+      "source_ids": [
+        "mt-nidcd-hearing"
+      ],
+      "evidence_detail": "NIDCD stage 4: locations encoding higher vs lower pitch on cochlear partition; simplifying interpretation.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "The perceptual review by Josh McDermott and Andrew Oxenham",
+      "source_ids": [
+        "mt-mcdermott-oxenham-2008"
+      ],
+      "evidence_detail": "2008 review title and pitch-perception section.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "three sine waves at 400, 600, and 800 hertz",
+      "source_ids": [
+        "mt-mcdermott-oxenham-2008"
+      ],
+      "evidence_detail": "Original harmonic complex, not a published stimulus; review describes the missing fundamental mechanism.",
+      "provenance": "original_example"
+    },
+    {
+      "anchor": "Two hundred hertz is not",
+      "source_ids": [
+        "mt-mcdermott-oxenham-2008"
+      ],
+      "evidence_detail": "Original signal arithmetic: 200 Hz absent as a sinusoidal component.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "two-to-one frequency ratio",
+      "source_ids": [
+        "mt-mcdermott-oxenham-2008"
+      ],
+      "evidence_detail": "Nominal octave relation; review addresses pitch relationships, but the arithmetic is ours.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "Harvey Fletcher and Wilden Munson published measurements and models of auditory loudness in 1933",
+      "source_ids": [
+        "mt-fletcher-munson-1933"
+      ],
+      "evidence_detail": "1933 Bell System Technical Journal article and abstract.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "A modern source is ISO 226:2023",
+      "source_ids": [
+        "mt-iso226-2023"
+      ],
+      "evidence_detail": "Edition and official ISO landing page.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "it concerns pure continuous tones in specified free-field frontal, binaural listening conditions",
+      "source_ids": [
+        "mt-iso226-2023"
+      ],
+      "evidence_detail": "Official abstract, conditions (a)-(f); narrow population and pure tone scope.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "equal physical pressure at different frequencies need not produce equal perceived loudness",
+      "source_ids": [
+        "mt-iso226-2023"
+      ],
+      "evidence_detail": "General perceptual interpretation of equal-loudness contours; not a numeric playback guarantee.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "Albert Bregman's book Auditory Scene Analysis",
+      "source_ids": [
+        "mt-bregman-1990"
+      ],
+      "evidence_detail": "MIT Press book description on separating auditory sources in mixtures.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "A fixed signal-processing time constant cannot be equated with one universal perceptual integration time",
+      "source_ids": [
+        "mt-mcdermott-oxenham-2008"
+      ],
+      "evidence_detail": "General perceptual synthesis; not a directly quoted quantified experimental rule.",
+      "provenance": "editorial_inference"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Source IDs identify the original article/standard/book and the supported claim with locator or abstract scope. Original calculations and teaching examples remain explicitly authored. Anchors must be exact narration substrings; mechanical checks cannot confirm source interpretation."
+}

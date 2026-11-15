@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "lecture_id": "031000",
+  "transcript": "031000-how-we-hear-space.md",
+  "related_resources": [
+    {
+      "source_id": "mt-middlebrooks-green-1991",
+      "reason": "Annual Review of Psychology 42:135-159, DOI 10.1146/annurev.ps.42.020191.001031. Spatial cue review; public abstract/bibliography; full text may require access."
+    },
+    {
+      "source_id": "mt-macpherson-middlebrooks-2002",
+      "reason": "JASA 111(5 Pt 1):2219-2236; DOI 10.1121/1.1471898. Lateral-angle cue weighting and frequency-dependent cues."
+    },
+    {
+      "source_id": "mt-cipic-hrtf-2001",
+      "reason": "IEEE WASPAA 2001, DOI 10.1109/ASPAA.2001.969552. Author repository and abstract: individualized measured HRTFs, 45 subjects and directional grid; not guaranteed fit for a new individual."
+    },
+    {
+      "source_id": "mt-wallach-etal-1949",
+      "reason": "American Journal of Psychology 62(3):315-336. Bibliographic historical attribution; full text may require access. Do not infer a fixed universal delay threshold."
+    },
+    {
+      "source_id": "mt-blauert-1996",
+      "reason": "Publisher description includes research on binaural hearing, enclosed spaces and precedence effect. Complete book may require access."
+    },
+    {
+      "source_id": "mt-ebu-tech3276",
+      "reason": "Official summary of assessment environment for programme selection and sound-control rooms; 1998 edition predates current loudness normalization guidance."
+    },
+    {
+      "source_id": "mt-smith-combfilters",
+      "reason": "Derivation of feedforward delayed-signal comb filtering and frequency-response cancellation."
+    },
+    {
+      "source_id": "mt-wenzel-etal-1993",
+      "reason": "JASA 94(1):111-123, DOI 10.1121/1.407089; compared free-field and virtual-source localization in 16 inexperienced listeners; high front-back and up-down confusions for some virtual conditions."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "anchor": "John Middlebrooks and David Green's review",
+      "source_ids": [
+        "mt-middlebrooks-green-1991"
+      ],
+      "evidence_detail": "1991 Annual Review of Psychology: sound localization review and binaural cues.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Jens Blauert's Spatial Hearing",
+      "source_ids": [
+        "mt-blauert-1996"
+      ],
+      "evidence_detail": "MIT Press revised edition publisher description; 1996, spatial localization and enclosed spaces.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "roughly half a millisecond",
+      "source_ids": [
+        "mt-middlebrooks-green-1991"
+      ],
+      "evidence_detail": "Illustrative path difference 0.17 m divided by chosen 343 m/s speed; arithmetic ours, not a measured head size.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "Ewan Macpherson and John Middlebrooks revisited the classic duplex theory",
+      "source_ids": [
+        "mt-macpherson-middlebrooks-2002"
+      ],
+      "evidence_detail": "JASA 111:2219-2236 experimental cue-weighting study.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The CIPIC HRTF Database, published by Algazi, Duda, Thompson, and Avendano in 2001",
+      "source_ids": [
+        "mt-cipic-hrtf-2001"
+      ],
+      "evidence_detail": "Dataset author archive, 2001 WASPAA paper and directional measurements.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "Different people have different bodies and transfer functions",
+      "source_ids": [
+        "mt-cipic-hrtf-2001"
+      ],
+      "evidence_detail": "45 subjects, different HRTFs and anthropometry; generalizable qualitative point, not universal performance measure.",
+      "provenance": "supported_interpretation"
+    },
+    {
+      "anchor": "a cosine-sine gain pair can keep the sum of channel powers constant",
+      "source_ids": [
+        "mt-smith-combfilters"
+      ],
+      "evidence_detail": "Original panning algebra, not a finding of this filter source; no source-derived user preferences.",
+      "provenance": "original_calculation"
+    },
+    {
+      "anchor": "Wallach, Newman, and Rosenzweig published The Precedence Effect in Sound Localization in 1949",
+      "source_ids": [
+        "mt-wallach-etal-1949"
+      ],
+      "evidence_detail": "1949 American Journal of Psychology historical attribution.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "The European Broadcasting Union's Tech 3276 document",
+      "source_ids": [
+        "mt-ebu-tech3276"
+      ],
+      "evidence_detail": "1998 EBU document, stated broadcast listening room assessment scope.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "a simple sum of the two is zero",
+      "source_ids": [
+        "mt-smith-combfilters"
+      ],
+      "evidence_detail": "Original identical/opposite waveforms calculation, no experimental listener claim.",
+      "provenance": "original_derivation"
+    },
+    {
+      "anchor": "This is comb filtering",
+      "source_ids": [
+        "mt-smith-combfilters"
+      ],
+      "evidence_detail": "Smith comb filtering DSP reference, delayed copies and spectral notches.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "In a 1993 study of localization using nonindividualized head-related transfer functions",
+      "source_ids": [
+        "mt-wenzel-etal-1993"
+      ],
+      "evidence_detail": "JASA 94:111-123, real vs headphone synthesized directions, inexperienced listeners; research aim and population.",
+      "provenance": "source_backed"
+    },
+    {
+      "anchor": "front-back and up-down confusions increased for virtual sources",
+      "source_ids": [
+        "mt-wenzel-etal-1993"
+      ],
+      "evidence_detail": "The study abstract reports confusions increased significantly for virtual versus free-field sources under its conditions.",
+      "provenance": "source_backed"
+    }
+  ],
+  "historical_claims": [],
+  "citation_policy": "Source IDs identify the original article/standard/book and the supported claim with locator or abstract scope. Original calculations and teaching examples remain explicitly authored. Anchors must be exact narration substrings; mechanical checks cannot confirm source interpretation."
+}
