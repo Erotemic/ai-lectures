@@ -20,3 +20,12 @@ Global history since 1500, built around multiple centers, changing networks, ins
 All word counts describe written manuscripts; they are not targets or limits. The full text between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` is the narrated content. Display-only references and research notes follow each lecture. Bibliographic source IDs are maintained in `metadata/sources.json` with per-lecture support in `metadata/<id>.json`.
 
 **Further development:** see `docs/planning/agent-b-modern-world/global-connections-roadmap.md`. The 007000–010000 lectures now cover bondage, knowledge institutions, Atlantic plantations, and scientific authority. Future topics remain unindexed plans until their manuscripts and sidecars exist. The earlier 002000 lecture remains unchanged.
+
+## Revolutions and industrial transformation
+
+- **011000 — [Who Is the People? Revolutions, Constitutions, and the Boundaries of Freedom](011000-who-is-the-people.md).** Comparative sovereignty and citizenship across the United States, France, Haiti, Spanish America and Brazil; attends to slavery, Indigenous sovereignty, gender and contested political membership.
+- **012000 — [Haiti Made Freedom: The Revolution That Reshaped the Atlantic](012000-haiti-made-freedom.md).** A chronological and internally differentiated Haitian Revolution account from Saint-Domingue to the 1825 recognition debt, including land, labor, resistance, gender and the evidentiary limits of inherited narratives.
+- **013000 — [The Factory and Its World: Cotton, Coal, Skill, and the Origins of Industrial Growth](013000-the-factory-and-its-world.md).** Textiles, skills, power, factor prices, ecological constraints, colonial raw materials and debated explanations of Britain's early industrialization.
+- **014000 — [A City Built to Work: Industry, Childhood, Collective Action, and the Environmental Bill](014000-city-of-work.md).** Paid and unpaid labor, early factory regulation, Chartism, housing, urban mortality, sanitation, pollution and uneven global industrial development.
+
+**Editorial rule for this track and the wider lecture project:** The subject matter determines how much explanation is needed. **There is no 10-minute goal or any other mandatory lecture duration.** Manifest word counts and time estimates are measurements of finished text, never constraints, defaults, or pass/fail checks.
