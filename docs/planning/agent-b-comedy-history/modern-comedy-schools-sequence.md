@@ -2,12 +2,12 @@
 
 **Agent:** B (exclusive track owner)  
 **Scope:** `draft-stages/tts-comedy-history/**` and this agent's planning namespace  
-**Status:** An extended `030500` orientation plus seven completed audio-first lectures, IDs `031000`–`037000`, based on the prior six-lecture comedy track.  
-**Baseline requirement:** Apply the previous Agent B overlay `003000`–`006000` first; this ZIP updates the complete `track.json` that lists all thirteen existing manuscripts.
+**Status:** An extended `030500` orientation plus eleven completed modern audio-first lectures, IDs `031000`–`041000`, based on the prior six-lecture comedy track.  
+**Baseline requirement:** Apply the previous Agent B overlay `003000`–`006000` first; the previous two Agent B modern-school overlays (031000–037000 and 030500) must also be applied before this overlay. The current manifest lists all 18 manuscripts.
 
 ## Why a separate high-number sequence?
 
-The shared historical curriculum reserves `007000`–`030000`. These numbers were not treated as free merely because the episodes are not written yet. An orientation at `030500` followed by `031000`–`037000` lets someone listen to modern humor scholarship now, while leaving the historical plan and the other agents' paths unchanged.
+The shared historical curriculum reserves `007000`–`030000`. These numbers were not treated as free merely because the episodes are not written yet. An orientation at `030500` followed by `031000`–`041000` lets someone listen to modern humor scholarship now, while leaving the historical plan and the other agents' paths unchanged.
 
 ## Intellectual map
 
@@ -21,8 +21,12 @@ The shared historical curriculum reserves `007000`–`030000`. These numbers wer
 | 035000 | What can comedy reveal about the contradictions in our ideals? | Critchley (2002) comic human frailty; Zupančič (2008) contradiction and exception; Carroll (2014) analytic philosophy, amusement and ethical value |
 | 036000 | How do artistic schools change who performs and what the audience expects? | British alternative comedy (late 1970s onward); anti-comedy, deadpan and cringe as strategies, not one unified movement; Ngai (2012) zany aesthetics and labor |
 | 037000 | What changes when the audience remakes and distributes the joke? | Shifman (2013) internet memes; Phillips (2015) trolling and media systems; satire, irony, context collapse and shifting targets |
+| 038000 | How can comic excess challenge the rules of gendered respectability and identity? | Rowe (1995) unruly woman; Gilbert (2004) women in stand-up; Sontag (1964) camp as sensibility; Meyer (1994) queer politics of camp |
+| 039000 | How do listeners accept, redirect, or refuse a joke? | Jefferson (1979) invitation/declination; Glenn (2003) laughter sequences; Hay (2001) recognition, understanding, appreciation and agreement |
+| 040000 | Does political satire change beliefs, knowledge or participation? | Baym (2005) journalistic hybrid; Baumgartner/Morris (2006) experimental candidate evaluations; LaMarre et al. (2009) ideology-dependent satire reading |
+| 041000 | Can comic distance and sincere feeling coexist? | Wallace (1993) irony and mass culture; Kelly (2010) new sincerity; Vermeulen/van den Akker (2010) metamodern oscillation; critical vocabulary rather than experimental humor typology |
 
-**Taxonomy warning:** These traditions are not seven mutually exclusive theories. The sequence distinguishes explanations of cognitive response, semantic architecture, socially situated practice, political critique, philosophical interpretation, performance movements, and digital media circulation. Some are empirical models; some are interpretive frameworks; some are historical artistic scenes. No lecture claims to provide a formula for being funny.
+**Taxonomy warning:** These traditions are not eleven mutually exclusive theories. The sequence distinguishes explanations of cognitive response, semantic architecture, socially situated practice, political critique, philosophical interpretation, performance movements, and digital media circulation. Some are empirical models; some are interpretive frameworks; some are historical artistic scenes. No lecture claims to provide a formula for being funny.
 
 ## Editorial constraints met
 
@@ -31,13 +35,13 @@ The shared historical curriculum reserves `007000`–`030000`. These numbers wer
 - The author/source metadata uses named scholarly sources with bibliographic links and marks publisher-only summaries and abstracts as such, rather than implying access to inaccessible full texts.
 - All outputs are UTF-8 text only. No changes to central reader/manifest registries, common curriculum documents, or other track namespaces.
 
-## Potential future deep dives — *not included in this ZIP*
+## Potential future deep dives — *not included in this overlay*
 
 1. Experimental neurocognition and computational theories of joke understanding, with careful distinction between decoding text and amused response.
 2. Cross-cultural empirical methods that go beyond East-Asia/North-America binary comparisons; connect to already-authored Indian, Japanese, and Chinese performance lectures without flattening them.
 3. Improvisation teaching lineages and the relationship of Del Close-style group practice to the concept of a scene's "game"; separate pedagogy from historical exclusivity claims.
-4. Feminist and queer comedy aesthetics and the labor of comic credibility beyond the survey provided in 034000.
-5. Political communication research on satire's measurable effects on knowledge, cynicism, polarization and participation, with stronger causal designs.
+4. Cross-linguistic stand-up translation and multilingual comedy, including whether theoretical categories survive performance translation.
+5. More extensive empirical research on political satire effects, including replication, longer-term outcomes, and study populations beyond the US.
 
 These are research opportunities, not implied promises or ghost-indexed lectures. Reserve `038000` onward only when manuscripts have actually been written.
 
@@ -53,3 +57,7 @@ The lecture-level source sidecars use primary research records and scholarly pub
 ## Extended introductory lecture (030500)
 
 The lecture is a substantial standalone orientation, written to precede and not duplicate the specialized accounts. It begins from one original museum scene and introduces each discipline as a distinct research problem; it also distinguishes a theoretical model from an empirical test, a philosophical interpretation and an artistic scene. The historical IDs up to 030000 remain reserved.
+
+## Additional manuscripts completed (038000–041000)
+
+This batch develops four distinct approaches with original continuous scenes, practical revision exercises, claim-specific sidecars, and an updated per-track bibliography. The previous `030500` introduction and 001000–037000 manuscripts are preserved without rewriting. No other agent namespace or shared reader code is modified.

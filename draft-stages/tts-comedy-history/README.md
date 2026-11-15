@@ -1,6 +1,6 @@
 # Comedy: Theory, History, and Craft
 
-**Current collection:** 14 substantive, standalone audio-first manuscripts, including a seven-lecture modern theory sequence.
+**Current collection:** 18 substantive, standalone audio-first manuscripts, including an extended modern theory sequence.
 
 ## Completed lectures
 
@@ -11,7 +11,7 @@
 - 005000: [Rakugo and Manzai: One Voice, Two Voices, and the Comic City](005000-rakugo-and-manzai.md) (2,689 spoken words; approximately 18.5 minutes at 145 words per minute).
 - 006000: [China and Comic Speech: Xiangsheng, Language, and Public Life](006000-china-and-comic-speech.md) (2,930 spoken words; approximately 20.2 minutes at 145 words per minute).
 
-## Modern schools of thought (extended introduction plus seven deep dives)
+## Modern schools of thought (extended introduction plus eleven specialized lectures)
 
 The seven specialized lectures retain IDs `031000`–`037000`: the historical/craft curriculum reserves `007000`–`030000`. The extended orientation uses `030500`, after the reserved sequence and before the specialized work. It is separately listenable and does not imply the historical proposals are complete.
 
@@ -24,9 +24,18 @@ The seven specialized lectures retain IDs `031000`–`037000`: the historical/cr
 - 036000: [Alternative, Cringe, and Anti-Comedy: When the Rules of Performance Become the Joke](036000-alternative-cringe-and-anti-comedy.md) (1,906 spoken words).
 - 037000: [Satire After the Feed: Memes, Irony, and the Networked Public](037000-memes-satire-and-networked-irony.md) (2,294 spoken words).
 
+## Additional modern schools and reception studies
+
+These lectures add material on performance, reception, politics and contemporary aesthetics. They follow `037000` in the listening order.
+
+- 038000: [Who Gets to Be Ridiculous? Feminist Comedy, the Unruly Woman, and Queer Camp](038000-unruly-women-camp-and-comic-authority.md) (2,659 spoken words; approximately 18.3 minutes).
+- 039000: [The Laugh That Did Not Come: Conversation Analysis, Humor Support, and Social Permission](039000-laughter-as-interaction-and-refusal.md) (2,380 spoken words; approximately 16.4 minutes).
+- 040000: [Does Satire Change Anyone's Mind? The Political Comedy Research Debate](040000-satire-and-its-measurable-effects.md) (2,479 spoken words; approximately 17.1 minutes).
+- 041000: [Can a Joke Be Sincere? Post-Irony, New Sincerity, and Metamodern Comedy](041000-new-sincerity-post-irony-and-metamodern-comedy.md) (2,809 spoken words; approximately 19.4 minutes).
+
 ## Planned continuation
 
-The historical deep dives 003000–006000 are complete. The remaining proposed historical and craft episodes are 007000–030000; the modern theory sequence 031000–037000 is now complete.
+The historical deep dives 003000–006000 are complete. The remaining proposed historical and craft episodes are 007000–030000; the modern theory sequence currently runs through 041000.
 
 The full staged curriculum is in [`docs/planning/comedy-theory-history-curriculum.md`](../../docs/planning/comedy-theory-history-curriculum.md). Titles not listed under completed lectures remain proposals.
 
