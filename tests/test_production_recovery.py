@@ -365,6 +365,9 @@ def test_feedback_revision_two_narrators_transfer_and_resume_roundtrip(
     with TestClient(app) as client:
         row = client.get("/api/library/lectures/music:001000").json()
         assert len(row["recordings"]) == 2
+        assert {first["variant"], alternate["variant"]} == {
+            recording["variant"] for recording in row["recordings"]
+        }
         profile = client.post("/api/listeners", json={"name": "Listener"}).json()
         progress = {
             "lecture_id": row["id"],

@@ -396,19 +396,7 @@ class GenerationManager:
             workers=1,
         )
         settings = engine.settings(spec["voice"], spec["speed"])
-        variant = (
-            "narrator-"
-            + digest(
-                {
-                    "profile": spec["profile"],
-                    "voice": settings.voice,
-                    "speed": settings.speed,
-                    "model": settings.model,
-                    "voice_revision": config.get("voice_revision"),
-                    "reference": document["profiles"][spec["profile"]].get("reference"),
-                }
-            )[:16]
-        )
+        variant = self.variant(spec, settings)
         job = {
             "engine": engine,
             "settings": settings,
@@ -432,6 +420,34 @@ class GenerationManager:
         return job
 
     @staticmethod
+    def variant(spec, settings=None):
+        config = spec["configuration"]["settings"]
+        environment = spec["configuration"]["environment"]
+        return (
+            "narrator-"
+            + digest(
+                {
+                    "profile": spec["profile"],
+                    "voice": (
+                        settings.voice
+                        if settings
+                        else spec["voice"]
+                        or environment.get("DKVIS_AUDIO_TTS_VOICE")
+                        or config["voice"]
+                    ),
+            "speed": settings.speed if settings else round(float(spec["speed"]), 3),
+                    "model": (
+                        settings.model
+                        if settings
+                        else environment.get("DKVIS_AUDIO_TTS_MODEL") or config["model"]
+                    ),
+                    "voice_revision": config.get("voice_revision"),
+                    "reference": spec["configuration"].get("reference"),
+                }
+            )[:16]
+        )
+
+    @staticmethod
     def _public(record):
         spec = record["specification"]
         return {
@@ -440,6 +456,7 @@ class GenerationManager:
             "revision": spec["row"]["revision"],
             "title": spec["row"]["title"],
             "profile": spec["profile"],
+            "variant": GenerationManager.variant(spec),
             "voice": spec["voice"]
             or spec["configuration"]["environment"].get("DKVIS_AUDIO_TTS_VOICE")
             or spec["configuration"]["settings"]["voice"],

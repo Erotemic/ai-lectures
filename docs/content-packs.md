@@ -235,6 +235,13 @@ their chosen revision and immutable media URLs while the library refreshes.
 
 ## Prepare audio
 
+Lecture pages put the registered **Narrator** profiles beside **Cache whole
+lecture** and **Stop generation**. The cache action queues every block for the
+selected profile, and a completed preparation offers **Play this narrator**.
+Individual voice IDs and speech speed are under advanced settings. Course pages
+can queue a whole course, and Production can explicitly queue the whole library.
+The listening queue is labelled separately from the generation queue.
+
 The Production page retains configured TTS profiles, remembered voice choices,
 service voice discovery, voice-ID registration, and speech generation speed.
 Existing `audio-cache/registered-voices.json` entries are imported additively;

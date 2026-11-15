@@ -340,7 +340,9 @@ def create_app(
         return JSONResponse(result, status_code=201)
 
     def production_profiles(request):
-        return JSONResponse(production().profiles(probe=True))
+        return JSONResponse(
+            production().profiles(probe=request.query_params.get("probe", "1") != "0")
+        )
 
     def production_voices(request):
         return JSONResponse(
@@ -368,9 +370,16 @@ def create_app(
         if payload.get("course_id") or payload.get("lecture_ids"):
             selection = payload.get("lecture_ids", [])
             if payload.get("course_id"):
-                selection = library.snapshot()["courses"][
-                    qualified(payload["course_id"])
-                ]["lectures"]
+                snapshot = library.snapshot()
+                selection = snapshot["courses"][qualified(payload["course_id"])][
+                    "lectures"
+                ]
+                selection = [
+                    key
+                    for key in selection
+                    if key in snapshot["lectures"]
+                    and snapshot["lectures"][key].get("kind") == "audio"
+                ]
             if not isinstance(selection, list):
                 raise ValueError("Select a list of lectures or one course")
             result = await run_in_threadpool(
@@ -381,6 +390,16 @@ def create_app(
                 speed=payload.get("speed", 1),
             )
             return JSONResponse({"jobs": result}, status_code=202)
+        if (
+            payload.get("revision")
+            and library.snapshot()["lectures"][qualified(payload["lecture_id"])][
+                "revision"
+            ]
+            != payload["revision"]
+        ):
+            raise Conflict(
+                "This lecture has changed; open its current revision before generating audio."
+            )
         result = await run_in_threadpool(
             production().prepare,
             qualified(payload["lecture_id"]),

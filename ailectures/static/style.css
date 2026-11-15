@@ -175,6 +175,16 @@ main {
 .section {
   margin-top: 2rem;
 }
+.preparation-panel {
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+  margin-bottom: 1.5rem;
+}
+.preparation-panel h2 { font-size: 1.3rem; }
+.preparation-panel .filters { margin: 0.7rem 0; }
+.preparation-panel .actions { margin: 0.8rem 0; }
 .filters,
 .actions {
   display: flex;

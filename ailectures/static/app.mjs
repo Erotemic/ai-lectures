@@ -5,6 +5,7 @@ import { ListeningQueue } from "./queue.mjs";
 import { speechSegments } from "./transcript.mjs";
 import { showStorage } from "./storage.mjs";
 import { referencesPage } from "./references.mjs";
+import { NarrationControls, preparationPanel } from "./narration.mjs";
 import {
   blockGrid,
   recordingStates,
@@ -479,6 +480,15 @@ function coursePage(courseId) {
         : el("li", { text: id + " · Not installed" }),
     );
   }
+  if (course.lectures.some((id) => byId(id)?.kind === "audio"))
+    $("main").append(
+      preparationPanel({
+        courseId: course.id,
+        label: "Generate this course",
+        description:
+          "Queue every installed audio lecture in this course for the selected narrator.",
+      }),
+    );
   $("main").append(list);
 }
 async function lecturePage(id, autoplay = false, historical = null) {
@@ -518,7 +528,9 @@ async function lecturePage(id, autoplay = false, historical = null) {
       "div",
       { class: "actions" },
       button(progress[id] ? "Resume" : "Play", () => player.play(), true),
-      button("Add to queue", () => listeningQueue.add(id, currentCourse)),
+      button("Add to listening queue", () =>
+        listeningQueue.add(id, currentCourse),
+      ),
       badge(row),
       el("span", {
         class: "muted",
@@ -583,6 +595,28 @@ async function lecturePage(id, autoplay = false, historical = null) {
         }),
       ),
     );
+  top.append(
+    preparationPanel({
+      lectureId: id,
+      revision: row.revision,
+      label: "Generate audio",
+      onPlay: async (job) => {
+        const updated = await api(
+          "/api/library/lectures/" + encodeURIComponent(id),
+        );
+        const recording = updated.recordings.find(
+          (recording) => recording.variant === job.variant,
+        );
+        if (!recording)
+          return message(
+            "The prepared recording belongs to another transcript revision.",
+          );
+        store("variant", recording.variant);
+        player.open(updated, player.position() || progress[id], recording.id);
+        await lecturePage(id, true, updated);
+      },
+    }),
+  );
   const text = el("section", {
     class: "transcript",
     "aria-label": "Lecture transcript",
@@ -1118,7 +1152,9 @@ function packsPage() {
   );
 }
 async function productionPage() {
-  const main = $("main");
+  const target = $("main");
+  const main = el("section");
+  target.replaceChildren(main);
   main.replaceChildren(
     title("Audio production"),
     description(
@@ -1143,6 +1179,7 @@ async function productionPage() {
     { "aria-label": "Preparation selection" },
     el("option", { value: "lecture", text: "Lecture" }),
     el("option", { value: "course", text: "Whole course" }),
+    el("option", { value: "library", text: "Whole library" }),
   );
   const lectures = el(
     "select",
@@ -1164,89 +1201,18 @@ async function productionPage() {
     lectures.replaceChildren(
       ...rows.map((row) => el("option", { value: row.id, text: row.title })),
     );
+    lectures.disabled = scope.value === "library";
+    $("prepare-audio").textContent =
+      scope.value === "library"
+        ? `Queue all ${catalog.lectures.filter((row) => row.kind === "audio").length} lectures`
+        : scope.value === "course"
+          ? "Queue whole course"
+          : "Cache whole lecture";
   };
-  const providers = el(
-    "select",
-    { id: "production-profile", "aria-label": "TTS profile" },
-    ...profiles.profiles.map((p) =>
-      el("option", {
-        value: p.id,
-        text: p.label + (p.reachable === false ? " · unavailable" : ""),
-      }),
-    ),
-  );
-  let previousProfile;
-  try {
-    previousProfile = JSON.parse(localStorage.getItem("dkps-audio-profile"));
-  } catch {}
-  const remembered = getStored("production-profile", previousProfile);
-  providers.value = profiles.profiles.some((p) => p.id === remembered)
-    ? remembered
-    : profiles.default_profile || providers.value;
-  const voice = el("input", {
-    type: "text",
-    "aria-label": "Voice ID",
-    list: "production-voices",
+  const narrator = new NarrationControls(profiles, {
+    profileId: "production-profile",
+    discover: true,
   });
-  const voiceOptions = el("datalist", { id: "production-voices" });
-  const voiceMessage = el("p", { class: "muted", role: "status" });
-  let voiceRequest = 0;
-  const updateVoice = async (probe = false, preferred = null) => {
-    const token = ++voiceRequest,
-      selected = providers.value;
-    store("production-profile", selected);
-    let oldVoice;
-    try {
-      oldVoice = JSON.parse(
-        localStorage.getItem("dkps-audio-voice-" + selected),
-      );
-    } catch {}
-    voice.value =
-      preferred ||
-      getStored("production-voice:" + selected, oldVoice) ||
-      profiles.profiles.find((p) => p.id === selected)?.voice ||
-      "";
-    try {
-      const data = await api(
-        "/api/library/production/voices?" +
-          new URLSearchParams({
-            profile: selected,
-            ...(probe ? { probe: "1" } : {}),
-          }),
-      );
-      if (token !== voiceRequest || selected !== providers.value) return;
-      const labels = new Map(
-        data.registered.map((row) => [row.voice, row.label]),
-      );
-      voiceOptions.replaceChildren(
-        ...data.voices.map((name) =>
-          el("option", { value: name, label: labels.get(name) || name }),
-        ),
-      );
-      voiceMessage.textContent = `${data.voices.length} known voice choices · ${data.registered.length} registered. Enter a voice ID or refresh the service catalog.`;
-    } catch (error) {
-      if (token === voiceRequest) voiceMessage.textContent = error.message;
-    }
-  };
-  voice.onchange = () =>
-    store("production-voice:" + providers.value, voice.value);
-  providers.onchange = () =>
-    updateVoice(
-      profiles.profiles.find((p) => p.id === providers.value)?.reachable ===
-        true,
-    );
-  updateVoice(
-    profiles.profiles.find((p) => p.id === providers.value)?.reachable === true,
-  );
-  const speechSpeed = el(
-    "select",
-    { "aria-label": "Speech generation speed" },
-    ...[0.75, 0.9, 1, 1.1, 1.25, 1.5].map((value) =>
-      el("option", { value, text: value + "×" }),
-    ),
-  );
-  speechSpeed.value = String(getStored("speech-speed", 1));
-  speechSpeed.onchange = () => store("speech-speed", Number(speechSpeed.value));
   const form = el(
     "form",
     {},
@@ -1255,15 +1221,13 @@ async function productionPage() {
       { class: "filters" },
       el("label", {}, "Prepare", scope),
       el("label", {}, "Selection", lectures),
-      el("label", {}, "TTS profile", providers),
-      el("label", {}, "Voice", voice),
-      el("label", {}, "Speech speed", speechSpeed),
     ),
+    narrator.root,
     el("button", {
       id: "prepare-audio",
       type: "submit",
       class: "primary",
-      text: "Prepare audio",
+      text: "Cache whole lecture",
       disabled: !profiles.tools_available,
     }),
   );
@@ -1271,10 +1235,17 @@ async function productionPage() {
     e.preventDefault();
     try {
       await post("/api/library/production/prepare", {
-        [scope.value === "course" ? "course_id" : "lecture_id"]: lectures.value,
-        profile: providers.value,
-        voice: voice.value,
-        speed: Number(speechSpeed.value),
+        ...(scope.value === "library"
+          ? {
+              lecture_ids: catalog.lectures
+                .filter((row) => row.kind === "audio")
+                .map((row) => row.id),
+            }
+          : {
+              [scope.value === "course" ? "course_id" : "lecture_id"]:
+                lectures.value,
+            }),
+        ...narrator.settings(),
       });
       await showJobs();
     } catch (error) {
@@ -1293,9 +1264,9 @@ async function productionPage() {
   const registerMessage = el("p", { role: "status" });
   main.append(
     form,
-    voiceOptions,
-    voiceMessage,
-    button("Refresh available voices", () => updateVoice(true, voice.value)),
+    button("Refresh available voices", () =>
+      narrator.loadVoices(true, narrator.settings().voice),
+    ),
     el(
       "details",
       { class: "section" },
@@ -1312,12 +1283,15 @@ async function productionPage() {
       button("Register voice", async () => {
         try {
           await post("/api/library/production/voices/register", {
-            profile: providers.value,
+            profile: narrator.profile.value,
             voice: registerId.value.trim(),
             label: registerLabel.value.trim() || registerId.value.trim(),
           });
-          store("production-voice:" + providers.value, registerId.value.trim());
-          await updateVoice(false, registerId.value.trim());
+          store(
+            "production-voice:" + narrator.profile.value,
+            registerId.value.trim(),
+          );
+          await narrator.loadVoices(false, registerId.value.trim());
           registerMessage.textContent = "Voice registered for this profile.";
         } catch (error) {
           registerMessage.textContent = error.message;
@@ -1335,6 +1309,7 @@ async function productionPage() {
       }),
     );
   await showJobs();
+  if (location.hash === "#jobs") $("jobs")?.scrollIntoView({ block: "start" });
 }
 async function refreshProductionHealth() {
   const select = $("production-profile");
