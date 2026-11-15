@@ -1,0 +1,52 @@
+{
+  "id": "music-theory",
+  "title": "Music Theory and Composition",
+  "summary": "Hear and design patterns in time: pitch, intervals, rhythm, meter, harmony, and compositional form, beginning with fully performable original examples.",
+  "assumed_background": [
+    "General audience; no notation, instrument, or earlier music theory required."
+  ],
+  "sections": [
+    "listening-and-form",
+    "melody-and-intervals",
+    "rhythm-and-meter",
+    "harmony-and-composition"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "Music as Pattern in Time: A Listener's Way into Composition",
+      "section": "listening-and-form",
+      "file": "001000-music-as-pattern-in-time.md",
+      "spoken_words": 2214,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.3
+    },
+    {
+      "id": "002000",
+      "title": "Pitch, Intervals, and the Shape of a Melody",
+      "section": "melody-and-intervals",
+      "file": "002000-pitch-intervals-and-melodic-shape.md",
+      "spoken_words": 2554,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.6
+    },
+    {
+      "id": "003000",
+      "title": "Rhythm, Meter, and Groove: How Music Organizes Time",
+      "section": "rhythm-and-meter",
+      "file": "003000-rhythm-meter-and-groove.md",
+      "spoken_words": 2674,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 18.4
+    },
+    {
+      "id": "004000",
+      "title": "Scales, Chords, and Harmonic Direction: Compose a Four-Bar Phrase",
+      "section": "harmony-and-composition",
+      "file": "004000-scales-chords-and-composing-a-phrase.md",
+      "spoken_words": 2895,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 20.0
+    }
+  ]
+}
