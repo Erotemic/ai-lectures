@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import asyncio
+import json
 from contextlib import asynccontextmanager
 from copy import deepcopy
 from pathlib import Path
@@ -139,6 +140,42 @@ def create_app(
         return JSONResponse(
             storage_summary(library.store), headers={"Cache-Control": "no-store"}
         )
+
+    def references(request):
+        from .references import reference_index
+
+        lecture_id = request.query_params.get("lecture_id")
+        release = request.query_params.get("release")
+        snapshot = library.snapshot()
+        rows = snapshot["lectures"]
+        if lecture_id:
+            lecture_id = qualified(lecture_id)
+            selected = [
+                library.historical(release, lecture_id) if release else rows[lecture_id]
+            ]
+        elif request.query_params.get("course_id"):
+            selected = [
+                rows[key]
+                for key in snapshot["courses"][
+                    qualified(request.query_params["course_id"])
+                ]["lectures"]
+                if key in rows
+            ]
+        else:
+            selected = list(rows.values())
+        items = reference_index(selected)
+        if request.url.path.endswith(".txt"):
+            return PlainTextResponse(
+                "References\n\n"
+                + "\n\n".join(
+                    json.dumps(item["source"], ensure_ascii=False, indent=2)
+                    + "\nUsed by: "
+                    + "; ".join(row["title"] for row in item["used_by"])
+                    + ("\n" + "\n".join(item["reasons"]) if item["reasons"] else "")
+                    for item in items
+                )
+            )
+        return JSONResponse({"items": items}, headers={"Cache-Control": "no-store"})
 
     def lecture(request):
         key = qualified(request.path_params["lecture_id"])
@@ -305,6 +342,27 @@ def create_app(
     def production_profiles(request):
         return JSONResponse(production().profiles(probe=True))
 
+    def production_voices(request):
+        return JSONResponse(
+            production().voices(
+                request.query_params["profile"],
+                probe=request.query_params.get("probe") == "1",
+            ),
+            headers={"Cache-Control": "no-store"},
+        )
+
+    async def register_voice(request):
+        payload = await body(request)
+        return JSONResponse(
+            await run_in_threadpool(
+                production().register_voice,
+                payload["profile"],
+                payload["voice"],
+                payload.get("label"),
+            ),
+            status_code=201,
+        )
+
     async def prepare(request):
         payload = await body(request)
         if payload.get("course_id") or payload.get("lecture_ids"):
@@ -421,12 +479,15 @@ def create_app(
             "/listening",
             "/packs",
             "/feedback",
+            "/references",
             "/production",
         ]
     ]
     routes += [
         Route("/api/library/catalog", catalog),
         Route("/api/library/storage", storage),
+        Route("/api/library/references", references),
+        Route("/api/library/references.txt", references),
         Route("/api/library/lectures/{lecture_id}/transcript.txt", transcript),
         Route("/api/library/lectures/{lecture_id}", lecture),
         Route("/api/library/media/{release}/{recording}/{index:int}", media),
@@ -442,6 +503,10 @@ def create_app(
         Route("/api/library/feedback/import", feedback_import, methods=["POST"]),
         Route("/api/library/packs", pack_change, methods=["POST"]),
         Route("/api/library/production", production_profiles),
+        Route("/api/library/production/voices", production_voices),
+        Route(
+            "/api/library/production/voices/register", register_voice, methods=["POST"]
+        ),
         Route("/api/library/production/prepare", prepare, methods=["POST"]),
         Route("/api/library/production/jobs", jobs),
         Route(

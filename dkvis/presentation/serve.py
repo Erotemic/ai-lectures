@@ -113,7 +113,7 @@ def chapters_for(root, media):
 def create_app(directory=ROOT/'renders', *, feedback_directory=None,
                audio_source_directory=None, audio_cache_directory=None,
                audio_tts_endpoint=None, audio_tts_profile=None, audio_tts_config=None,
-               audio_library=None, slide_library=None):
+               audio_library=None, slide_library=None, audio_voice_store=None):
     root = Path(directory).resolve()
     if not root.is_dir():
         if root == (ROOT/'renders').resolve():
@@ -139,6 +139,7 @@ def create_app(directory=ROOT/'renders', *, feedback_directory=None,
         sources=audio_source_directory or ROOT/'draft-stages'/'tts-lectures',
         cache=audio_cache_directory or ROOT/'audio-cache',
         endpoint=audio_tts_endpoint, profile=audio_tts_profile, config=audio_tts_config,
+        voice_store=audio_voice_store,
     )
 
     # Viewer feedback is authored data, not a disposable render/cache artifact.

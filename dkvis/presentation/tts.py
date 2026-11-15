@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 import json
+import re
 from datetime import datetime, timezone
 import urllib.request
 import urllib.error
@@ -58,6 +59,27 @@ def load_profiles(path=None):
     if path is None:
         merge_local_overlay(document)
     return document
+
+
+def remote_voices(endpoint, default_voice):
+    """Discover a native speech service's voice IDs without loading renderers."""
+    base = endpoint.removesuffix('/v1/audio/speech')
+    for suffix in ('/v1/audio/voices', '/v1/voices'):
+        try:
+            with urllib.request.urlopen(base + suffix, timeout=3) as response:
+                data = json.load(response)
+            items = data.get('voices', data.get('data', data)) if isinstance(data, dict) else data
+            names = []
+            if isinstance(items, list):
+                for item in items:
+                    name = item if isinstance(item, str) else (item.get('id') or item.get('name') if isinstance(item, dict) else None)
+                    if isinstance(name, str) and re.fullmatch(r'[A-Za-z0-9_.+\-]{1,80}', name):
+                        names.append(name)
+            if names:
+                return sorted(set(names) | {default_voice})
+        except (OSError, ValueError, TypeError, AttributeError, urllib.error.URLError):
+            pass
+    return []  # An outage must not erase a previously discovered catalog.
 
 
 def _merge_tables(base, changes):

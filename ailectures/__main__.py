@@ -108,12 +108,19 @@ def main(argv=None):
 
                 def legacy_factory():
                     from dkvis.presentation.serve import create_app as legacy_app
+                    from .voices import VoiceStore
 
                     return legacy_app(
                         repository / "renders",
                         audio_tts_profile=args.audio_tts_profile,
                         audio_tts_endpoint=args.audio_tts_endpoint,
                         audio_tts_config=tts_config,
+                        audio_voice_store=VoiceStore(
+                            args.library / "state",
+                            legacy=repository
+                            / "audio-cache"
+                            / "registered-voices.json",
+                        ),
                     )
 
             app = create_app(

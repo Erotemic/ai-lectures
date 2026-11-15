@@ -923,23 +923,8 @@ class AudioLectureLibrary:
         return target
 
     def voices(self):
-        base = self.endpoint.removesuffix('/v1/audio/speech')
-        for suffix in ('/v1/audio/voices', '/v1/voices'):
-            try:
-                with urllib.request.urlopen(base + suffix, timeout=3) as response:
-                    data = json.load(response)
-                items = data.get('voices', data.get('data', data)) if isinstance(data, dict) else data
-                names = []
-                if isinstance(items, list):
-                    for item in items:
-                        name = item if isinstance(item, str) else (item.get('id') or item.get('name') if isinstance(item, dict) else None)
-                        if isinstance(name, str) and VOICE_PATTERN.fullmatch(name):
-                            names.append(name)
-                if names:
-                    return sorted(set(names) | {self.default_voice})
-            except (OSError, ValueError, TypeError, AttributeError, urllib.error.URLError):
-                pass
-        return [self.default_voice]
+        from dkvis.presentation.tts import remote_voices
+        return remote_voices(self.endpoint, self.default_voice) or [self.default_voice]
 
 
 class AudioLectureHub:
@@ -952,9 +937,10 @@ class AudioLectureHub:
     """
 
     def __init__(self, *, sources=SOURCE_DIRECTORY, cache=None, profile=None,
-                 endpoint=None, sender=None, page_chars=None, config=None):
+                 endpoint=None, sender=None, page_chars=None, config=None, voice_store=None):
         from dkvis.presentation.tts import load_profiles
         self.config = config
+        self.voice_store = voice_store
         self.document = load_profiles(config)
         self.sources = Path(sources).resolve()
         self.cache = Path(cache or (ROOT / 'audio-cache')).resolve()
@@ -1077,6 +1063,8 @@ class AudioLectureHub:
 
     def registered_voices(self, profile):
         self.engine(profile)
+        if self.voice_store is not None:
+            return self.voice_store.registered(profile)
         with self._lock:
             return [dict(item) for item in self._read_registry() if item.get('profile') == profile]
 
@@ -1086,6 +1074,8 @@ class AudioLectureHub:
 
     def register_voice(self, profile, voice, label=None):
         self.engine(profile)
+        if self.voice_store is not None:
+            return self.voice_store.register(profile, voice, label)
         if not isinstance(voice, str) or not VOICE_PATTERN.fullmatch(voice):
             raise ValueError('Voice ID must use 1-80 letters, digits, _, ., +, or -')
         if label is None:

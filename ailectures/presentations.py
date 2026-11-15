@@ -1,8 +1,9 @@
 """Read the original syllabus without importing deck or rendering modules."""
 
 from pathlib import Path
+import json
 
-from .core import lecture_revision, text_digest
+from .core import digest, lecture_revision, text_digest
 
 
 def presentation_pack(repository):
@@ -56,6 +57,28 @@ def presentation_pack(repository):
             deck=entry["deck"],
             aliases=["g1:" + folder.name],
         )
+        readings = folder / "resources.yaml"
+        if readings.is_file():
+            try:
+                data = yaml.safe_load(readings.read_text())
+                for resource in data.get("resources", []):
+                    if not isinstance(resource, dict):
+                        continue
+                    source = json.loads(json.dumps(resource, default=str))
+                    source["checked_on"] = str(data.get("checked_on", "not recorded"))
+                    source_id = "reading-" + digest(source)[:20]
+                    row["sources"][source_id] = source
+                    row["metadata"].setdefault("related_resources", []).append(
+                        {"source_id": source_id, "reason": resource.get("why", "")}
+                    )
+            except (
+                OSError,
+                ValueError,
+                TypeError,
+                AttributeError,
+                yaml.YAMLError,
+            ) as exc:
+                row["metadata"]["reading_diagnostic"] = str(exc)
         row["revision"] = lecture_revision(row)
         lectures[row["id"]] = row
         for parent in entry.get("requires", []):

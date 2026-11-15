@@ -240,6 +240,22 @@ main {
   border-radius: 4px;
   font-size: 0.78rem;
 }
+.audio-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.7rem 0;
+}
+.audio-block {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+}
+.audio-block.ready { background: var(--soft); border-color: var(--accent); }
+.audio-block.queued, .audio-block.rendering { border-style: dashed; }
+.audio-block.error, .audio-block.cancelled { color: var(--error); }
+.generation-item { border-top: 1px solid var(--line); padding: 0.7rem 0; }
 .list {
   display: grid;
   gap: 0.7rem;

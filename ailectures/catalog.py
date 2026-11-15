@@ -24,20 +24,20 @@ LECTURE_FILE = re.compile(r"^([0-9]{6})-.*\.md$")
 
 def referenced_sources(metadata, sources, issue=lambda message: None):
     keys = set()
-    for reading in (
-        metadata.get("related_resources", [])
-        if isinstance(metadata.get("related_resources", []), list)
-        else []
-    ):
-        if isinstance(reading, dict) and isinstance(reading.get("source_id"), str):
-            keys.add(reading["source_id"])
-    for claim in (
-        metadata.get("historical_claims", [])
-        if isinstance(metadata.get("historical_claims", []), list)
-        else []
-    ):
-        if isinstance(claim, dict) and isinstance(claim.get("source_ids", []), list):
-            keys.update(key for key in claim["source_ids"] if isinstance(key, str))
+
+    def collect(value):
+        if isinstance(value, dict):
+            if isinstance(value.get("source_id"), str):
+                keys.add(value["source_id"])
+            if isinstance(value.get("source_ids"), list):
+                keys.update(key for key in value["source_ids"] if isinstance(key, str))
+            for item in value.values():
+                collect(item)
+        elif isinstance(value, list):
+            for item in value:
+                collect(item)
+
+    collect(metadata)
     missing = keys - sources.keys()
     if missing:
         issue(f"Undefined reading sources: {sorted(missing)}")

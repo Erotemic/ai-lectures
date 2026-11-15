@@ -235,8 +235,21 @@ their chosen revision and immutable media URLs while the library refreshes.
 
 ## Prepare audio
 
-The Production page prepares a lecture using configured TTS profiles. The same
-workflow is available without keeping a browser open:
+The Production page retains configured TTS profiles, remembered voice choices,
+service voice discovery, voice-ID registration, and speech generation speed.
+Existing `audio-cache/registered-voices.json` entries are imported additively;
+new registrations live in durable `state/voices.sqlite3` and are shared with the
+compatibility reader. Raw reference material stays on the TTS host. Previously
+discovered voice catalogs remain available during outages; refresh them explicitly
+when the service recovers.
+
+Each preparation shows ready/missing/queued/rendering blocks, its narrator,
+queue position, passage progress and available ETA. Cancel controls stop unfinished
+work for that lecture preparation and retain completed blocks. Lecture pages also
+show block coverage for the selected installed narrator. These controls do not
+require opening JSON diagnostics.
+
+The same preparation workflow is available without keeping a browser open:
 
 ```bash
 python -m ailectures prepare --repository . \
@@ -293,6 +306,14 @@ and recording revisions; those identities remain unknown in imported history.
 Lecture pages offer an explicit approximate resume or a restart. Available old
 layout/settings records remain with personal history, separate from content packs.
 Merely loading an audio file does not overwrite a saved listening position.
+
+References are available from Library and Packs, and each lecture has an
+**Open references page** link. The page supports search, course selection and a
+plain-text view. It retains reading reasons, complete source records and their
+lecture context, including sources cited only in nested evidence claims. Historical
+lecture links retain their original reading records. Original presentation reading
+companions remain available through Presentations; syllabus reading records also
+appear in the new references view.
 
 Feedback stays bound to the exact content revision and recording the listener
 had open, even after an update. The form retains drafts across navigation and

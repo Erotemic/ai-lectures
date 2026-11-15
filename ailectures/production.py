@@ -125,6 +125,7 @@ class GenerationManager:
         self._jobs = {}
         self._lock = threading.RLock()
         self._health = {}
+        self._voice_store = None
         self.jobs = JobStore(library.store.state)
         self.owner = uuid4().hex
         self.max_active_jobs = max_active_jobs
@@ -142,15 +143,24 @@ class GenerationManager:
 
             document = load_profiles(self.config)
             rows = []
+            errors = []
             for key in document.get("profiles", {}):
-                profile = resolve_profile(document, key)
+                try:
+                    profile = resolve_profile(document, key)
+                except (OSError, ValueError, KeyError, TypeError) as exc:
+                    errors.append(f"{key}: {exc}")
+                    continue
                 rows.append(
                     {
                         "id": key,
                         "label": profile.get("display_name", key),
-                        "voice": profile["voice"],
-                        "model": profile["model"],
-                        "_endpoint": self.endpoint or profile["endpoint"],
+                        "voice": os.environ.get("DKVIS_AUDIO_TTS_VOICE")
+                        or profile["voice"],
+                        "model": os.environ.get("DKVIS_AUDIO_TTS_MODEL")
+                        or profile["model"],
+                        "_endpoint": self.endpoint
+                        or os.environ.get("DKVIS_AUDIO_TTS_ENDPOINT")
+                        or profile["endpoint"],
                     }
                 )
             if probe:
@@ -184,16 +194,83 @@ class GenerationManager:
                     row["reachable"] = health[row["_endpoint"]]
             for row in rows:
                 row.pop("_endpoint", None)
+            available = {row["id"] for row in rows}
+            selected = next(
+                (
+                    key
+                    for key in (
+                        self.default_profile,
+                        os.environ.get("DKVIS_AUDIO_TTS_PROFILE"),
+                        os.environ.get("DKVIS_TTS_PROFILE"),
+                        document.get("profile"),
+                    )
+                    if key in available
+                ),
+                None,
+            )
             return {
                 "profiles": rows,
+                "errors": errors,
                 "tools_available": bool(
                     shutil.which("ffmpeg") and shutil.which("ffprobe")
                 ),
-                "default_profile": self.default_profile
-                or (rows[0]["id"] if rows else None),
+                "default_profile": (
+                    selected
+                    if any(row["id"] == selected for row in rows)
+                    else (rows[0]["id"] if rows else None)
+                ),
             }
         except (ImportError, OSError, ValueError, KeyError) as exc:
             return {"profiles": [], "tools_available": False, "error": str(exc)}
+
+    def voice_store(self):
+        if self._voice_store is None:
+            from .voices import VoiceStore
+
+            self._voice_store = VoiceStore(
+                self.library.store.state,
+                legacy=(
+                    self.repository / "audio-cache" / "registered-voices.json"
+                    if self.repository
+                    else None
+                ),
+            )
+        return self._voice_store
+
+    def voices(self, profile, *, probe=False):
+        from dkvis.presentation.tts import load_profiles, resolve_profile, remote_voices
+
+        config = resolve_profile(load_profiles(self.config), profile)
+        profile = config["profile"]
+        default_voice = os.environ.get("DKVIS_AUDIO_TTS_VOICE") or config["voice"]
+        store = self.voice_store()
+        registered = store.registered(profile)
+        available = store.catalog(profile)
+        if probe:
+            fetched = remote_voices(
+                self.endpoint
+                or os.environ.get("DKVIS_AUDIO_TTS_ENDPOINT")
+                or config["endpoint"],
+                default_voice,
+            )
+            if fetched:
+                available = store.catalog(profile, fetched)
+        names = sorted(
+            set(available) | {default_voice} | {row["voice"] for row in registered}
+        )
+        return dict(
+            profile=profile,
+            model=os.environ.get("DKVIS_AUDIO_TTS_MODEL") or config["model"],
+            default_voice=default_voice,
+            voices=names,
+            registered=registered,
+        )
+
+    def register_voice(self, profile, voice, label=None):
+        from dkvis.presentation.tts import load_profiles, resolve_profile
+
+        config = resolve_profile(load_profiles(self.config), profile)
+        return self.voice_store().register(config["profile"], voice, label)
 
     @staticmethod
     def _configuration(document, profile, voice, endpoint):
@@ -363,6 +440,12 @@ class GenerationManager:
             "revision": spec["row"]["revision"],
             "title": spec["row"]["title"],
             "profile": spec["profile"],
+            "voice": spec["voice"]
+            or spec["configuration"]["environment"].get("DKVIS_AUDIO_TTS_VOICE")
+            or spec["configuration"]["settings"]["voice"],
+            "model": spec["configuration"]["environment"].get("DKVIS_AUDIO_TTS_MODEL")
+            or spec["configuration"]["settings"]["model"],
+            "speed": spec["speed"],
             "state": record["state"],
             "attempts": record["attempts"],
             "retry_at": record["retry_at"],
@@ -513,6 +596,13 @@ class GenerationManager:
 
     def cancel(self, job_id):
         with self._lock:
+            job = self._jobs.get(job_id)
+            if job:
+                self.jobs.save(
+                    job_id,
+                    self.owner,
+                    inventory=job["engine"].inventory("000000", job["settings"]),
+                )
             self.jobs.cancel(job_id)
             job = self._jobs.pop(job_id, None)
             if job:
