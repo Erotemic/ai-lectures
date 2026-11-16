@@ -1,10 +1,26 @@
-# 007000 — Ernst Fischer: What Does It Mean for an Infinite Calculation to Have an Answer?
+# 007000 — Ernst Fischer I: Vienna, Brünn, and the problem of mathematical existence
 
-**Track:** History · People and ideas. **Theme:** Spectral min–max geometry, mean-square completeness, positive matrices and institutional history. **Background:** introductory eigenvalues, inner products, and integration; all local notation is established in the recording.
+**Track:** History · People and ideas. **Theme:** Vienna, mathematical education, Brünn, the beginnings of modern spectral and function-space analysis. **Background:** elementary linear algebra and integration; examples are explained in the narration.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Ernst Fischer: What Does It Mean for an Infinite Calculation to Have an Answer?
+# Ernst Fischer I: Vienna, Brünn, and the problem of mathematical existence
+
+## A Vienna household and a mathematical education
+
+In July eighteen seventy-five, Ernst Sigismund Fischer was born in Vienna, capital of an empire whose cities were linked by universities, railway lines, professional societies, and several languages of scholarship. He grew up in a household associated with the city's musical profession. His father, Jacob Fischer, taught at the Vienna Academy and composed music. His mother, Emma Grädener, was the daughter of the composer Karl Grädener; another member of the family, Hermann Grädener, also pursued music professionally. There is a temptation to make this a charming origin story for Fischer's later work on Fourier series. Nothing in the available record establishes that childhood music suggested his mathematical investigations. What the family history establishes is the setting he came from: a serious professional household in which creative work and teaching were ordinary occupations.
+
+In eighteen ninety-four Fischer entered the University of Vienna. The city was an important cultural capital, but Vienna's mathematical teaching was also part of a larger network of German-language universities. Fischer studied with Franz Mertens and Leopold Gegenbauer, and completed his doctorate in eighteen ninety-nine. His work did not remain confined to the university where he earned the degree. After a year in Berlin he continued his mathematical formation in Zürich and Göttingen, encountering the research of Hermann Minkowski. Those moves mattered: what counted as an important problem could change from one university and teacher to another. The young researcher was learning to work across mathematical traditions rather than settling immediately into a single specialization.
+
+In nineteen-oh-two Fischer joined the German Technical University in Brünn, in the Austro-Hungarian lands, now Brno in the Czech Republic. He served as an assistant to Emil Waelsch. A technical university trained engineers and other professionals, but its mathematicians also developed research in geometry, algebra, and analysis. The job was not yet the secure senior professorship that a later reader might imagine. Fischer qualified to teach independently in nineteen-oh-four, became an extraordinary professor in nineteen ten, and only in nineteen eleven moved on to a full professorship at Erlangen. Before that promotion, some of the work for which he is best remembered had already appeared.
+
+Brünn was not Göttingen or Paris, yet Fischer's publications joined a Europe-wide discussion. In nineteen-oh-five he published work on real quadratic forms. Two years later his French-language notes in the proceedings of the Paris Academy treated convergence in the mean and the problem of reconstructing a function from orthogonal coefficients. In nineteen-oh-eight he returned to positive quadratic forms through a determinant inequality. One should not imagine a researcher looking at a modern textbook chapter called functional analysis and choosing which theorem to add. The discipline's familiar organizing language was still being assembled. Researchers argued about which functions existed, what it meant for approximations to converge, and which identities remained valid when a finite calculation became infinite.
+
+Fischer's early papers also belong to the history of scholarly credit. The variational characterization of eigenvalues now bears the names of Courant and Fischer, although Fischer's finite-dimensional contribution preceded Courant's treatment of physical eigenvalue problems. The theorem on square-integrable Fourier data bears the names of Riesz and Fischer, whose publications in nineteen-oh-seven approached related questions by different routes. An eponym is a useful pointer, but it cannot tell us what either mathematician knew when he wrote, or make independently published arguments a single collaboration.
+
+At this point, before following Fischer to Erlangen, we can examine what the papers asked. The mathematical sections that follow use modern terminology and simple examples to explain problems his work helped solve. The examples are not stories of actual calculations performed at his desk in Brünn. They help us understand why a mathematical existence theorem could become an event in the history of ideas.
+
+## A numerical calculation is not yet a mathematical object
 
 A complicated musical note can be described by the strengths of its harmonics. Measure the first, the second, the third, and so on. Each measurement produces a number, and the list is infinite. Even if the individual numbers grow smaller, how can you be sure that all those numbers describe an actual sound? You might be able to write down every finite partial reconstruction while never obtaining a legitimate limiting function. A recipe that works for the first thousand tones must still survive the transition to infinitely many tones.
 
@@ -14,21 +30,9 @@ These sound like different questions. One concerns the existence of an infinite 
 
 Fischer's name survives in two major theorems, and there is a third inequality worth including in the story. The Courant–Fischer principle characterizes the eigenvalues of a symmetric matrix by choosing subspaces and optimizing a quotient. The Riesz–Fischer theorem concerns square-integrable functions, square-summable coordinates, and the existence of limits. A determinant inequality due to Fischer measures how correlations between blocks reduce the determinant of a positive matrix. The three results belong to a time when mathematicians were learning to think of functions, matrices, and infinite sequences as members of geometric spaces.
 
-There is also a human history that cannot be reduced to those theorems. Fischer moved among Vienna, Brno, Erlangen, and Cologne. He worked in algebra as well as analysis, influenced Emmy Noether in the formative years of her mathematical career, served during the First World War, and was forced out of his Cologne professorship in 1938 under Nazi racial policy. He resumed teaching after the war. His biography brings both the creative reach of European mathematics and the destruction inflicted on its institutions into view.
-
 Our mathematical question will be simple enough to hold in mind throughout: when does a finite calculation give reliable information about something larger than the calculation itself? We will approach it first through a three-dimensional matrix and then through infinitely many functions. The recurring lesson comes from the proofs, not from an analogy. Geometry tells us what finite approximations must do. Completeness tells us when an infinite limiting object exists.
 
-## Vienna, matrices, and an emerging geometric language
-
-His family background deserves a little more than a line in a chronology. On his mother's side, his grandfather Karl Grädener and uncle Hermann Grädener were both composers and musicians. On his father's side, Jacob Fischer taught music in Vienna. The sounds of orchestral practice and discussion of composition are part of the documented family setting, although there is no good evidence for a story in which a particular childhood melody made him discover Fourier analysis. What is historically compelling is the independent direction he chose: he trained as a mathematician in a family whose professional language was music, then became known for results that would help mathematicians explain what infinite collections of tones mean.
-
-Fischer grew up in a musical family. His father Jacob Fischer was a composer and professor at the Vienna Academy; his mother's family also included musicians and composers. It is tempting to turn that into a childhood explanation for his later work on Fourier series. The record does not establish such a connection, and we do not need it. The documented contrast is more useful: Fischer grew up around music and became a mathematician whose research helped make the mathematical analysis of complicated signals rigorous.
-
-Beginning in 1894 he studied mathematics at the University of Vienna. His academic formation included Franz Mertens and Leopold Gegenbauer, and he received a doctorate in 1899. He spent time in Berlin and subsequently studied with Hermann Minkowski in Zürich and Göttingen. These moves placed him among several mathematical traditions. Number theory and algebra flourished alongside the new analysis of functions and integral equations. The language of linear transformations, quadratic forms, and invariants was becoming a shared way of stating problems.
-
-This was a mobile early career. Fischer studied in Vienna under Franz Mertens and Leopold Gegenbauer, spent time in Berlin, and went on to Zürich and Göttingen, where he encountered Hermann Minkowski's mathematics. His move to Brünn brought him into a technical university rather than an established center of pure mathematics. It helps to picture the distance between his appointments and his ideas: while holding relatively junior posts he was thinking about a foundational difficulty in the new theory of integration. The problem was not glamorous in the way a famous conjecture might be. It was the stubborn question of whether a natural class of approximations really contained its own limits.
-
-In 1902 Fischer became an assistant at the German Technical University in Brünn, the city now called Brno. He gained the right to teach independently in 1904 and became an extraordinary professor in 1910. He was building a career during a period when the basic mathematical meaning of infinite-dimensional geometry was still being worked out. There was no universal modern textbook definition of a Hilbert space waiting to be applied. Analysts were asking which operations with infinite series and square-integrable functions were justified, and algebraists were learning when a change of coordinates could expose the essence of a calculation.
+## The problem of a middle eigenvalue
 
 A quadratic form is a useful entry into that world. Take a symmetric matrix and a vector of numbers. Multiply the vector by the matrix, then take the dot product with the original vector. You obtain a single real number, an energy-like quantity. Divide by the squared length of the vector, and you have its Rayleigh quotient. Scaling the vector changes neither the quotient nor the directional information. That makes the quotient a function on directions rather than on lengths.
 
@@ -132,63 +136,7 @@ There is an appealing way to read the historical collaboration without inventing
 
 Later expositions sometimes compress the story into the sentence that L two is isomorphic to ell two. This is accurate for a separable infinite-dimensional Hilbert space after choosing a complete orthonormal system, but it hides several achievements. One must show that Fourier coefficients preserve squared length, that sufficiently many functions are represented, and that all square-summable coordinate lists produce members of the function space. Those are substantive analytic steps. The theorem deserved the attention it received because it connected the new Lebesgue integral to a usable geometry of infinitely many coordinates.
 
-## What a determinant says about mixing two sets of variables
-
-Fischer did not stop working on quadratic forms when he turned to Fourier analysis. In 1908 he published an extension of Hadamard's determinant inequality for positive definite matrices, now often called the Hadamard–Fischer or Fischer inequality. It provides a third way to see the same interest in geometry through algebraic quantities.
-
-A determinant measures how a linear transformation scales volume. For a positive definite matrix, its determinant is positive, and it can also be interpreted as a squared volume when the matrix is a Gram matrix of vectors. A Gram matrix records the inner products among a collection of vectors: its diagonal entries are their squared lengths, and its off-diagonal entries measure their mutual alignment.
-
-Start with two vectors of squared lengths two and three. Suppose their inner product is one. Their Gram matrix has two on the first diagonal, three on the second, and one in each off-diagonal position. Its determinant is two times three minus one squared, which equals five. If the two vectors were perpendicular while preserving those squared lengths, the determinant would be six. Correlation reduced the squared area spanned by the vectors. The two vectors contain less independent geometric spread because they lean toward one another.
-
-Hadamard's inequality says more generally that the determinant of a positive definite matrix is no larger than the product of its diagonal entries. Fischer's version allows you to group coordinates into blocks. If a positive definite matrix is divided into two principal diagonal blocks, its full determinant is no larger than the product of the determinants of those blocks. When the cross-block interaction vanishes, equality holds. For a strictly positive definite matrix, any nonzero cross-block interaction makes the inequality strict.
-
-One way to understand the formula is to imagine two groups of measured variables. Analyze each group internally, and its determinant describes its independent volume. When you combine the groups, cross-correlations tie some directions together. They cannot increase the total independent volume beyond the product you would obtain by treating the groups as orthogonal. The proof can be expressed using a positive Schur complement, although Fischer's original treatment came from the matrix techniques of his own time.
-
-The inequality later became part of matrix analysis, statistics, and the study of positive operators. The historical sources credit Fischer's 1908 extension specifically. The modern theorem is not merely a new notation for Hadamard's one-coordinate-at-a-time inequality: it retains information about whole interacting blocks. That makes it a useful addition to the account of a mathematician whose public identity is often reduced to two other hyphenated names.
-
-## Erlangen, Emmy Noether, and a change in algebraic thinking
-
-Emmy Noether's relationship with Fischer brings another side of his working character into focus. Weyl, speaking after Noether's death, said that Fischer's influence on her move from Gordan's computational invariant theory toward Hilbert's structural method was especially deep. The influence appears in written work, not merely retrospective admiration: Noether referred repeatedly to conversations with Fischer. Surviving correspondence includes mathematical exchanges by postcard. The image is almost domestic in scale—a mathematical thought important enough to continue in the mail, after a conversation or lecture had ended. It is a reminder that a research school can form through sustained attention to another person's ideas, rather than only through formal supervision.
-
-In 1911 Fischer became a professor at Erlangen, succeeding Paul Gordan. This brings us to one of the most consequential personal relationships in his mathematical career. Emmy Noether had completed her doctorate under Gordan in 1907 and was continuing mathematical work in an environment where women faced severe barriers to academic appointment and habilitation. She was already a capable, ambitious researcher. Fischer entered this setting with an interest in abstract reasoning shaped by the algebraic methods associated with Hilbert.
-
-The older invariant theory had often proceeded through extensive symbolic calculations. A difficult problem might ask for a catalogue of polynomial expressions left unchanged by specified transformations. The computational methods could be formidable. Hilbert's approach encouraged researchers to ask instead about structural properties of the collections of invariants: which ideals, relations, and finite-generation statements organize all the calculations at once? Fischer's mathematical conversations with Noether helped expose her to that shift.
-
-Noether herself acknowledged his influence on the arithmetical and abstract direction of her algebra. Hermann Weyl later emphasized Fischer's role in her intellectual development. These are strong historical testimonies. They should be read without reducing Noether's later achievements to Fischer's instruction. A formative influence helps explain a transition; it does not transfer authorship of a mature research program. Noether developed far-reaching algebraic methods of her own, and her contributions to ideals, rings, and symmetry reshaped the field. Her statement about Fischer is best understood as testimony to a meaningful intellectual exchange during a period of change.
-
-There is a mathematical connection between that episode and Fischer's work on infinite-dimensional analysis. In both fields, the pressure came from problems that became unmanageable when treated as long lists of individual formulas. In algebra, structure can replace repeated symbolic elimination. In functional analysis, an inner product and a completeness theorem can replace a separate convergence argument for each Fourier series. These are not the same theorem or even the same branch of mathematics. They are related changes in mathematical practice: identify the properties of an entire space that make many particular calculations possible.
-
-Fischer's own publications also covered finite abelian groups, invariant fields, and questions about irreducibility, alongside his work on Fourier analysis and determinants. The biographical record therefore presents someone engaged with both algebra and analysis. His career illustrates how porous the boundaries between those subjects were during the early formation of modern abstract mathematics.
-
-The war and marriage also make the dates of his publications less abstract. Fischer spent part of 1915 through 1918 in military service. During that period, in 1917, he married Elisabeth Strauss, the daughter of a pastor; they later had a daughter. These are facts we can document, although the private feelings of the family are not preserved in the same detail as the mathematical record. It would be easy to imagine a tidy story in which the soldier returns and resumes research without interruption. The actual chronology is rougher: the Erlangen years were divided by war, family formation, and the loss of an academic generation's earlier expectations.
-
-Fischer served during the First World War from 1915 to 1918. He married Elisabeth Strauss in 1917, and the couple had a daughter. In 1920 he moved from Erlangen to a professorship at the University of Cologne. These dates locate his career across two very different political eras: the international expansion of mathematics before 1914, and the dislocation of European academic life after 1933.
-
-## Cologne, persecution, and the limits of an institutional record
-
-Fischer remained at Cologne through the years when the Nazi regime began expelling scholars from German universities. The record for his own retirement deserves to be stated precisely. A university biographical register gives the date of his emeritus status as October 1, 1938, and describes it as retirement for political reasons. Historical research on the Nazi-era dismissal of mathematicians identifies him as a Cologne professor of partly Jewish ancestry who was prematurely retired in 1938. His retirement was forced by the regime's racial policy. This was persecution, not a voluntary withdrawal from mathematics.
-
-There is also a difference between Fischer's visible public record and what a later biographer might wish to know. We can identify his appointments, papers, work with Noether, war service, marriage, and retirement. We cannot responsibly fill the gaps with imagined conversations at home or a confident diagnosis of his attitude toward the regime. The university's surviving record, however, does show that he was again teaching after the war, in 1945 and 1946. The mathematician had lived through two wars, several university systems, and a dramatic change in the meaning of the mathematics he helped create. That longer view gives his relatively short list of famous theorem names its proper human scale.
-
-Other distinguished scholars were expelled earlier, among them Emmy Noether in 1933 because she was Jewish. The dates differ because the Nazi apparatus made distinctions among people it categorized according to its racial laws, while continually extending exclusion and tightening control. Such distinctions did not make the later victims safer or the earlier exclusions less destructive. The consequence for mathematics was the forced removal of people from their positions, the interruption of teaching and research, and the breaking apart of academic communities.
-
-It is important not to let a short biographical entry erase that history. Some general biographies say only that Fischer retired in 1938. That is chronologically correct but materially incomplete. Conversely, the documents do not justify an invented detailed account of his private reactions, conversations, or activities in every year of the dictatorship. We can state the documented forced retirement and the context of racial persecution while leaving unrecorded personal experience unclaimed.
-
-The Erlangen university faculty register records his return to teaching in the winter semester of 1945–46. That detail makes his later career more than a date of dismissal. Fischer lived until November 1954, dying in Cologne at the age of seventy-nine. His surviving mathematical name belongs to results developed decades before the Nazi regime, but his professional life was nevertheless shaped by its persecution. A historically responsible account has room for both facts.
-
-There is also a lesson about the way mathematical memory works. A theorem name is a compressed citation, and a compressed citation leaves out almost everything about the people involved. Courant–Fischer can obscure the difference between Fischer's finite-dimensional 1905 paper and Courant's 1920 applications. Riesz–Fischer can obscure the two researchers' independent methods and the detailed chronology of their 1907 notes. The determinant inequality may be omitted altogether. Noether's acknowledgment of Fischer may disappear behind the achievements of her later Göttingen career. And a neutral phrase like retired in 1938 may conceal political coercion.
-
-Restoring these details does not weaken the mathematical results. It helps explain how they were made, why they mattered, and which parts of the story the familiar names leave out.
-
-## Return to the infinite calculation
-
-We began with a list of sound frequencies and asked whether it could describe a real signal. We also began with a hidden middle eigenvalue and asked whether geometry could identify it. Fischer's career supplies a rigorous answer to each question.
-
-For the matrix, dimension forces trial subspaces to intersect, and the Rayleigh quotient traps the desired eigenvalue. For the Fourier series, orthogonality converts differences of partial sums into sums of squared coefficients, and completeness turns a Cauchy recipe into an actual function. For the determinant, positivity tells us that cross-correlations cannot increase the independent volume of two blocks. These are different results with different hypotheses, united by a practice of turning an apparently enormous calculation into a small set of structural facts.
-
-A calculation with finitely many terms can be persuasive because it agrees with physical intuition. A mathematical theory asks for more. It asks what remains true for every possible trial plane, every square-summable list of coefficients, or every positive definite block matrix. Fischer was among the people who helped articulate and answer those questions as modern spectral and functional analysis took shape.
-
-The enduring value of his work is therefore concrete. When we use a finite basis to approximate a vibrating structure, when we reconstruct a function from Fourier measurements, or when we bound the eigenvalues of an approximate operator, we depend on the relationship between a coordinate calculation and the space in which it is supposed to make sense. Fischer helped turn that relationship into a theorem. And his life reminds us that the institutions which sustain that work have a history that deserves just as careful an accounting as the proofs.
+The important historical distinction is that the papers did not solve every question later associated with Hilbert spaces. They made precise a particular passage from finite numerical data and approximate functions to a completed space of possible answers. That mattered in Brünn in nineteen-oh-seven, and it would matter still more to the generation that learned to treat integral equations, quantum states, and spectral measurements in a common language. Fischer's next appointment would reveal another side of his mathematics: an interest in algebra, and an important intellectual connection with Emmy Noether.
 
 <!-- END SPOKEN LECTURE -->
 
@@ -281,45 +229,11 @@ Historical anchors: Fischer's notes in *Comptes rendus* **144** (1907),
 fonctions*, **144** (1907), 615–619. For the distinct historical formulations
 and their abstract consequences, see John Horváth, *On the Riesz–Fischer theorem*.
 
-### III. Positive matrices and the Hadamard–Fischer inequality
+### Portrait readings (non-spoken)
 
-For real/complex positive definite Hermitian block matrix
-\[
-G=\begin{bmatrix}A&B\\B^*&D\end{bmatrix}>0,
-\qquad A>0,\quad D>0,
-\]
-block Gaussian elimination yields
-\[
-\det G=\det A\,\det(D-B^*A^{-1}B).
-\]
-Since \(0<D-B^*A^{-1}B\le D\), determinant monotonicity among positive
-definite matrices gives \(\det G\le\det A\det D\). Equality forces
-\(B=0\). Example: \(G=\begin{bmatrix}2&1\\1&3\end{bmatrix}\)
-is positive definite and \(\det G=5<6=\det(2)\det(3)\).
-For Gram matrices this is a block-volume statement. Fischer's 1908 theorem
-extends Hadamard's inequality beyond individual diagonal entries.
+- Ernst Sigismund Fischer, MacTutor: https://mathshistory.st-andrews.ac.uk/Biographies/Fischer/
+- Fischer, *Neue Deutsche Biographie*: https://www.deutsche-biographie.de/sfz19606.html
+- John Horváth, *On the Riesz–Fischer theorem* (original-source analysis): https://nuhag-old.univie.ac.at/FEICOURS/ws0506/Riesz-Fisher.pdf
+- Ernst Fischer, Wikipedia orientation: https://en.wikipedia.org/wiki/Ernst_Sigismund_Fischer
 
-### IV. Context and source distinctions
-
-- The 1905 Fischer paper concerns finite-dimensional real quadratic forms;
-  Courant's 1920 work concerns eigenvalue problems of mathematical physics.
-- The Riesz and Fischer papers appeared separately in 1907. They provide
-  different mathematical routes into what is now presented as Hilbert-space
-  completeness and coordinate realization. Avoid collapsing the exact
-  historical formulations into an unsupported claim of abstract equivalence.
-- Emmy Noether credited Fischer for an intellectual impulse toward abstract
-  algebra. This records influence without claiming he authored her theorems.
-- Fischer was forced into retirement at Cologne in 1938 because of his
-  partial Jewish ancestry. The Erlangen faculty register dates his retirement
-  to October 1, 1938, for political reasons, and his resumption of teaching
-  to winter 1945–46. Some short biographies simply list "retired 1938";
-  this is insufficient context. No claims are made about undocumented private
-  conduct under the regime.
-
-## Reading notes (non-spoken)
-
-Biographical and scholarly sources below distinguish the individual historical
-claims from later mathematical formulations. The 1905, 1907, and 1908 publication
-records are treated separately, with Noether's acknowledgment and the history of
-1938 supported by specialist sources. See `metadata/007000.json` for the
-identified reading set and `metadata/sources.json` for persistent source URLs.
+The historical record distinguishes his 1905 quadratic-form theorem, two 1907 mean-convergence notes, and 1908 determinant work. The worked matrices and Fourier examples in the spoken text are modern pedagogical reconstructions.

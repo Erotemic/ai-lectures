@@ -131,3 +131,9 @@ The existing manuscripts have been restructured and expanded into two-part biogr
 - **018000/018500 Chandler Davis:** early political and literary life, Natalie Zemon Davis and *Operation Mind*, HUAC, prison, Canada, professional teaching and academic freedom; principal angles, Davis–Kahan estimates and the transporter norm questions remain. The distinction between the 1953 subpoena and 1954 hearing is explicit.
 
 Primary-person testimony, institutional records and scholarly memorials are linked in the transcripts and indexed in `metadata/sources.json`. No images or other binary assets were added.
+
+## Fischer and Riesz: two-part historical portraits (16 November 2026)
+
+- `007000`/`007500` separate Fischer's Austrian education and early discoveries from the Erlangen–Noether connection, war, and forced 1938 retirement at Cologne. Original min–max, Riesz–Fischer, and determinant examples and display-only mathematical explanations are retained.
+- `009000`/`009500` follow Riesz through schooling, Kolozsvár's 1919 disruption, rebuilding Szeged with Haar, visitor recollections, 1936 Budapest rejection, Nazi persecution, family loss and postwar institutional work. Mathematical examples and technical companions are retained.
+- The 1919 Kolozsvár history includes Riesz's own viewpoint, distinguished from a complete account of all political constituencies; 1944 details and 1936 motives are not invented beyond the evidence. Claims are anchored in each episode's metadata. Wikipedia orientation articles are linked alongside specialist sources in the display-only companions. No duration policy is imposed.

@@ -5,132 +5,87 @@
   "related_resources": [
     {
       "source_id": "history-fischer-bio",
-      "reason": "Life chronology, 1907 Fourier papers and early relationship with Emmy Noether."
+      "reason": "Biographical chronology and work in analysis and algebra, including the role at Erlangen."
     },
     {
       "source_id": "history-fischer-deutsche",
-      "reason": "German biographical record and complete research bibliography."
-    },
-    {
-      "source_id": "history-fischer-erlangen",
-      "reason": "University register with precise career and 1938/1945 dates."
-    },
-    {
-      "source_id": "history-fischer-nazi-history",
-      "reason": "Research record of 1938 forced retirement due to Jewish ancestry."
-    },
-    {
-      "source_id": "history-fischer-primary",
-      "reason": "Bibliographic witness to the original 1905 min–max paper."
-    },
-    {
-      "source_id": "history-fischer-topic",
-      "reason": "Finite-dimensional variational formula and attribution to Fischer and Courant."
-    },
-    {
-      "source_id": "history-fischer-1905-bibliography",
-      "reason": "Publication details of Fischer 1905 and Courant 1920."
+      "reason": "Family, employment, 1907 analysis, 1908 determinant and algebraic publications; short 1938 retirement record without political context."
     },
     {
       "source_id": "history-fischer-riesz-horvath",
-      "reason": "Scholarly analysis of the distinct Riesz/Fischer formulations and 1907 chronology."
+      "reason": "Analyzes original 1907 chronology and subtle differences between completeness and coefficient-existence formulations."
     },
     {
       "source_id": "history-fischer-1907-index",
-      "reason": "The 1907 publication record for both Fischer notes and Riesz’s first note."
+      "reason": "Bibliographic record of Riesz p.615, Fischer p.1022 and Fischer p.1148."
     },
     {
-      "source_id": "history-fischer-1908-survey",
-      "reason": "Fischer determinant inequality, publication history and modern proof."
+      "source_id": "history-fischer-primary",
+      "reason": "The journal table of contents lists Fischer 1905, vol. 16, pp. 234–249; catalog/bibliographic witness to original publication."
     },
     {
-      "source_id": "history-fischer-hadamard",
-      "reason": "Independent matrix inequality attribution and derivation."
+      "source_id": "history-fischer-1905-bibliography",
+      "reason": "Bibliography lists Fischer (1905) and Courant (1920) original titles/pages."
     },
     {
-      "source_id": "history-fischer-noether",
-      "reason": "Noether’s own statement about Fischer’s influence."
-    },
-    {
-      "source_id": "history-fischer-noether-deutsche",
-      "reason": "German biographical account of Noether’s transition from Erlangen to Göttingen."
-    },
-    {
-      "source_id": "history-fischer-weyl-noether",
-      "reason": "Contemporary memorial testimony about Noether and German mathematical institutions."
-    },
-    {
-      "source_id": "history-fischer-dmv-context",
-      "reason": "General institutional context of Nazi mathematical expulsions, not an individual claim."
-    },
-    {
-      "source_id": "history-fischer-ndb-biography",
-      "reason": "Source for documented biographical scenes in the revised portrait."
-    },
-    {
-      "source_id": "history-fischer-mactutor-biography",
-      "reason": "Source for documented biographical scenes in the revised portrait."
+      "source_id": "history-fischer-wikipedia-orientation",
+      "reason": "Orientation only; original historical and primary sources govern contested claims."
     }
   ],
   "historical_claims": [
     {
-      "id": "007000-human-01",
-      "anchor": "His family background deserves a little more than a line in a",
+      "id": "007000-human-v01",
+      "anchor": "In July eighteen seventy-five, Ernst Sigismund Fischer was born in Vienna",
       "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-fischer-ndb-biography"
+        "history-fischer-deutsche",
+        "history-fischer-bio"
       ],
-      "source_locator": "NDB Fischer genealogy",
+      "source_locator": "NDB family genealogy, birthday, musical professions",
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "007000-human-02",
-      "anchor": "This was a mobile early career. Fischer studied in Vienna under Franz",
+      "id": "007000-human-v02",
+      "anchor": "In eighteen ninety-four Fischer entered the University of Vienna",
       "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-fischer-ndb-biography"
+        "history-fischer-deutsche",
+        "history-fischer-bio"
       ],
-      "source_locator": "NDB Fischer educational and appointment chronology",
+      "source_locator": "NDB education 1894–1899 and later institutions",
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "007000-human-03",
-      "anchor": "In 1907, while Fischer was working in Brünn, Riesz was teaching in",
+      "id": "007000-human-v03",
+      "anchor": "In nineteen-oh-two Fischer joined the German Technical University in Brünn",
       "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-fischer-mactutor-biography"
+        "history-fischer-deutsche",
+        "history-fischer-bio"
       ],
-      "source_locator": "MacTutor Fischer 1907 chronology",
+      "source_locator": "NDB Brno appointment, promotions",
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "007000-human-04",
-      "anchor": "Emmy Noether's relationship with Fischer brings another side of his working character",
+      "id": "007000-human-v04",
+      "anchor": "Brünn was not Göttingen or Paris, yet Fischer's publications joined a Europe-wide discussion",
       "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-fischer-mactutor-biography"
+        "history-fischer-deutsche",
+        "history-fischer-1907-index"
       ],
-      "source_locator": "Weyl quoted in MacTutor Fischer biography",
+      "source_locator": "NDB listed publications and Paris Academy dates",
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "007000-human-05",
-      "anchor": "The war and marriage also make the dates of his publications less",
+      "id": "007000-human-v05",
+      "anchor": "Fischer's early papers also belong to the history of scholarly credit",
       "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-fischer-ndb-biography"
+        "history-fischer-1905-bibliography",
+        "history-fischer-riesz-horvath"
       ],
-      "source_locator": "NDB marriage and WWI service record",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "007000-human-06",
-      "anchor": "There is also a difference between Fischer's visible public record and what",
-      "kind": "historical_biography_or_context",
-      "source_ids": [
-        "history-fischer-mactutor-biography"
-      ],
-      "source_locator": "MacTutor Fischer chronology",
+      "source_locator": "distinct 1905/1920 and 1907 publication sequences",
       "audit_status": "source_cross_checked"
     }
   ]

@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007500",
+  "transcript": "007500-fischer-erlangen.md",
+  "related_resources": [
+    {
+      "source_id": "history-fischer-bio",
+      "reason": "Biographical chronology and work in analysis and algebra, including the role at Erlangen."
+    },
+    {
+      "source_id": "history-fischer-deutsche",
+      "reason": "Family, employment, 1907 analysis, 1908 determinant and algebraic publications; short 1938 retirement record without political context."
+    },
+    {
+      "source_id": "history-fischer-erlangen",
+      "reason": "University register gives October 1 1938 political retirement and winter 1945/46 teaching resumption."
+    },
+    {
+      "source_id": "history-fischer-nazi-history",
+      "reason": "Historical study explicitly notes Fischer as a Cologne professor of partly Jewish ancestry forced into early retirement in 1938."
+    },
+    {
+      "source_id": "history-fischer-noether",
+      "reason": "Noether’s own retrospective acknowledgment of Fischer; professional and gender barriers at Erlangen."
+    },
+    {
+      "source_id": "history-fischer-weyl-noether",
+      "reason": "Weyl’s memorial setting and context for Noether’s mathematics and displacement."
+    },
+    {
+      "source_id": "history-fischer-hadamard",
+      "reason": "Historical attribution Fischer 1908; matrix-inequality statement for positive definite block matrices."
+    },
+    {
+      "source_id": "history-fischer-1908-survey",
+      "reason": "Scholarly treatment of Fischer 1908 block determinant inequality and distinction from Hadamard."
+    },
+    {
+      "source_id": "history-fischer-wikipedia-orientation",
+      "reason": "Orientation only; original historical and primary sources govern contested claims."
+    },
+    {
+      "source_id": "history-fischer-cologne-1919",
+      "reason": "University of Cologne first re-established 1919, one year before Fischer moved there."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "007500-human-v01",
+      "anchor": "In nineteen eleven Ernst Fischer left Brünn to take the mathematics chair",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-fischer-bio",
+        "history-fischer-deutsche"
+      ],
+      "source_locator": "Erlangen chair and Paul Gordan succession",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "007500-human-v02",
+      "anchor": "Fischer's interests were wider than the analysis that made his name famous",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-fischer-deutsche",
+        "history-fischer-noether"
+      ],
+      "source_locator": "algebra research and Noether testimony",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "007500-human-v03",
+      "anchor": "The institutional setting should remain visible. Women were largely excluded",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-fischer-noether",
+        "history-fischer-weyl-noether"
+      ],
+      "source_locator": "Noether barriers, Göttingen invitation and later teaching status",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "007500-human-v04",
+      "anchor": "The First World War interrupted Fischer's Erlangen years",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-fischer-deutsche",
+        "history-fischer-bio"
+      ],
+      "source_locator": "1915–18 service, 1917 marriage, one daughter",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "007500-human-v05",
+      "anchor": "The Nazi seizure of power transformed German universities",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-fischer-nazi-history",
+        "history-fischer-erlangen",
+        "history-fischer-noether"
+      ],
+      "source_locator": "forced 1938 retirement and 1933 Noether dismissal",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "007500-human-v06",
+      "anchor": "After the defeat of Nazi Germany, Fischer was again teaching",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-fischer-erlangen"
+      ],
+      "source_locator": "winter 1945–46 return and 1954 death",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "007500-human-v07",
+      "anchor": "In nineteen twenty he accepted a professorship at Cologne",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-fischer-deutsche",
+        "history-fischer-cologne-1919"
+      ],
+      "source_locator": "NDB Fischer 1920 appointment; University of Cologne 1919 institutional history",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

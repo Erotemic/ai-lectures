@@ -5,144 +5,110 @@
   "related_resources": [
     {
       "source_id": "history-riesz-bio",
-      "reason": "Long biography covering professional chronology, family background, exclusion, persecution, and resumption of work."
+      "reason": "Győr family, appointments, Kolozsvár/Szeged, 1936 appointment rejection, 1944 persecution, and postwar academic service."
     },
     {
       "source_id": "history-riesz-horvath",
-      "reason": "Careful primary-text analysis of Riesz and Fischer’s different 1907 results and later modern theorem formulations."
-    },
-    {
-      "source_id": "history-riesz-university",
-      "reason": "Szeged institutional history; construction of the Bolyai Institute and Acta journal."
-    },
-    {
-      "source_id": "history-riesz-dsb",
-      "reason": "Independent expert biographical assessment of Riesz’s mathematical contributions."
-    },
-    {
-      "source_id": "history-riesz-1907-bibliography",
-      "reason": "Publication record for early representation and compact-operator theory."
-    },
-    {
-      "source_id": "history-riesz-primary",
-      "reason": "Riesz’s 1909 Stieltjes representation theorem for functionals on continuous functions."
-    },
-    {
-      "source_id": "history-riesz-1914-primary",
-      "reason": "Riesz’s later direct description of his representation theorem and its earlier history."
-    },
-    {
-      "source_id": "history-riesz-1918-primary",
-      "reason": "Original 1918 work on linear functional equations and compactness."
-    },
-    {
-      "source_id": "history-riesz-1918-context",
-      "reason": "Modern functional-analytic explanation of the spectral consequences of compactness."
-    },
-    {
-      "source_id": "history-riesz-1928-primary",
-      "reason": "First-person account of Riesz’s decomposition of linear functionals into positive functionals."
-    },
-    {
-      "source_id": "history-riesz-lattice",
-      "reason": "Historical and mathematical introduction to the ordered vector-space program."
-    },
-    {
-      "source_id": "history-riesz-ergodic-primary",
-      "reason": "Riesz’s 1938 paper, distinguished from von Neumann’s earlier mean ergodic result."
-    },
-    {
-      "source_id": "history-riesz-ergodic-followup",
-      "reason": "Original short elementary mean-ergodic proof in Acta Sci. Math."
-    },
-    {
-      "source_id": "history-riesz-books",
-      "reason": "1952 joint functional-analysis textbook and publication chronology."
-    },
-    {
-      "source_id": "history-riesz-hungarian-academy",
-      "reason": "Contemporary memorial testimony and Hungarian mathematical institutions."
+      "reason": "Detailed analysis of the three 1907 notes, later 1910 work, and distinction between Fischer completeness and Riesz coefficient realization."
     },
     {
       "source_id": "history-riesz-jewish-gyor",
-      "reason": "Regional historical context for the Riesz family."
+      "reason": "Family background and brothers’ different academic paths; cross-check personal events with MacTutor."
     },
     {
-      "source_id": "history-riesz-national-heritage",
-      "reason": "Independent public institutional appointment chronology."
+      "source_id": "history-riesz-1907-bibliography",
+      "reason": "Selected original publication metadata for 1909–1918; includes exact 1918 article citation."
     },
     {
-      "source_id": "history-riesz-2014-biography",
-      "reason": "Academic history of Frigyes Riesz and functional analysis."
+      "source_id": "history-riesz-szeged-english-2021",
+      "reason": "Original rooms, shared library, journal, Haar, Radó, academic appointments, funding, university operations, and 1921–22 resettlement. Later institutional retrospective."
     },
     {
-      "source_id": "history-riesz-mactutor-wartime",
-      "reason": "Source for documented biographical scenes in the revised portrait."
+      "source_id": "history-riesz-kollar-2023",
+      "reason": "Pages 10–12 and document appendix on 1919 Kolozsvár letters, forced departure, network contacts, and Riesz 1944 petition. Hungarian-language study; avoid treating subjective national narrati"
     },
     {
-      "source_id": "history-riesz-lorch-recollections",
-      "reason": "Source for documented biographical scenes in the revised portrait."
+      "source_id": "history-riesz-primary",
+      "reason": "Original 1909 C. R. Acad. Sci. 149, 974–977: functional on C[0,1] represented by Stieltjes integral; do not conflate with Hilbert-dual theorem."
+    },
+    {
+      "source_id": "history-riesz-wikipedia-orientation",
+      "reason": "Orientation only, not the basis for chronology or persecution claims."
     }
   ],
   "historical_claims": [
     {
-      "id": "009000-human-01",
-      "anchor": "The early career helps explain an aspect of Riesz that students later",
+      "id": "009000-human-v01",
+      "anchor": "Frigyes Riesz was born in Győr in January eighteen eighty",
       "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-riesz-mactutor-wartime"
+        "history-riesz-bio",
+        "history-riesz-jewish-gyor"
       ],
-      "source_locator": "MacTutor Riesz early career",
+      "source_locator": "Győr Jewish household and parents",
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "009000-human-03",
-      "anchor": "The Szeged environment had a personality of its own. Edgar Lorch, an",
+      "id": "009000-human-v02",
+      "anchor": "Frigyes attended a Benedictine secondary school in Győr",
       "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-riesz-lorch-recollections"
+        "history-riesz-bio"
       ],
-      "source_locator": "Lorch 1934 recollections",
+      "source_locator": "Benedictine schooling and problem journal",
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "009000-human-04",
-      "anchor": "Other recollections complicate the portrait. Riesz liked the measured social world of",
+      "id": "009000-human-v03",
+      "anchor": "After graduating in eighteen ninety-seven, Riesz studied at the Zürich polytechnic",
       "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-riesz-lorch-recollections"
+        "history-riesz-bio"
       ],
-      "source_locator": "Vincze retrospective account",
+      "source_locator": "universities and 1902 doctorate",
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "009000-human-05",
-      "anchor": "A story Lorch attributed to Tibor Radó makes the point vividly. Radó",
+      "id": "009000-human-v04",
+      "anchor": "Riesz went on to teach in secondary schools at Lőcse and Budapest",
       "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-riesz-lorch-recollections"
+        "history-riesz-bio",
+        "history-riesz-1907-bibliography"
       ],
-      "source_locator": "Lorch and Radó recollected manuscript",
+      "source_locator": "secondary teaching, early research",
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "009000-human-06",
-      "anchor": "The lecture room was not immune to politics. In 1936 a vacant",
+      "id": "009000-human-v05",
+      "anchor": "In nineteen eleven Riesz sought a university appointment in Budapest",
       "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-riesz-mactutor-wartime"
+        "history-riesz-bio"
       ],
-      "source_locator": "MacTutor 1936 Budapest selection",
+      "source_locator": "failed Budapest appointment, Kolozsvár career",
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "009000-human-07",
-      "anchor": "The wartime record is more painful than that earlier disappointment. Riesz had",
+      "id": "009000-human-v06",
+      "anchor": "The First World War and the collapse of Austria-Hungary brought that order to an end",
       "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-riesz-mactutor-wartime"
+        "history-riesz-bio",
+        "history-riesz-szeged-english-2021",
+        "history-riesz-kollar-2023"
       ],
-      "source_locator": "MacTutor wartime survival account",
+      "source_locator": "1919 military takeover, disrupted university, 1921–22 relocation",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "009000-human-v07",
+      "anchor": "Later archival research records that Riesz communicated with Hungarian contacts",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-riesz-kollar-2023"
+      ],
+      "source_locator": "1919 correspondence and expulsion",
       "audit_status": "source_cross_checked"
     }
   ]

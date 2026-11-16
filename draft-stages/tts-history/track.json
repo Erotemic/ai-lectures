@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "Sixty-five researched historical portrait episodes covering fifty-two mathematicians, scientists, and computing pioneers. The life, social setting, institutions, and political circumstances lead; the substantial existing mathematical explanations follow the biographical narrative. Richard Courant and John von Neumann each have two installments. No fixed duration limit applies.",
+  "summary": "Sixty-seven researched historical portrait episodes covering fifty-two mathematicians, scientists, and computing pioneers. Biography and historical setting lead each revised portrait, with rigorous mathematical discussion following. Ernst Fischer and Frigyes Riesz now have two episodes each. Lecture length has no imposed target or cap.",
   "assumed_background": [
     "Background varies by portrait; newer human-history entries are accessible without technical mathematics, while earlier manuscripts retain their own stated prerequisites."
   ],
@@ -121,14 +121,25 @@
     },
     {
       "id": "007000",
-      "title": "Ernst Fischer: What does it mean for an infinite calculation to have an answer?",
+      "title": "Ernst Fischer I: Vienna, Brünn, and the problem of mathematical existence",
       "person": "Ernst Sigismund Fischer",
       "section": "variational",
       "file": "007000-fischer.md",
-      "spoken_words": 6488,
+      "spoken_words": 4670,
       "draft_status": "substantive",
       "source_g2": null,
-      "estimated_minutes_at_145_wpm": 44.7
+      "estimated_minutes_at_145_wpm": 32.2
+    },
+    {
+      "id": "007500",
+      "title": "Ernst Fischer II: Noether, war, and the losses of German university life",
+      "person": "Ernst Sigismund Fischer",
+      "section": "variational",
+      "file": "007500-fischer-erlangen.md",
+      "draft_status": "substantive",
+      "source_g2": null,
+      "spoken_words": 1961,
+      "estimated_minutes_at_145_wpm": 13.5
     },
     {
       "id": "008000",
@@ -143,14 +154,25 @@
     },
     {
       "id": "009000",
-      "title": "Frigyes Riesz: How can a function become a vector?",
+      "title": "Frigyes Riesz I: Győr, Kolozsvár, and a university uprooted",
       "person": "Frigyes Riesz",
       "section": "operators",
       "file": "009000-riesz.md",
-      "spoken_words": 6280,
+      "spoken_words": 3628,
       "draft_status": "substantive",
       "source_g2": null,
-      "estimated_minutes_at_145_wpm": 43.3
+      "estimated_minutes_at_145_wpm": 25.0
+    },
+    {
+      "id": "009500",
+      "title": "Frigyes Riesz II: Szeged, persecution, and the mathematics of operators",
+      "person": "Frigyes Riesz",
+      "section": "operators",
+      "file": "009500-riesz-szeged.md",
+      "draft_status": "substantive",
+      "source_g2": null,
+      "spoken_words": 3386,
+      "estimated_minutes_at_145_wpm": 23.4
     },
     {
       "id": "010000",
