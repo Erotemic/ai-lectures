@@ -124,6 +124,41 @@ Fanciful similes (giant spoon, cookie roller, gravel mountains) are character jo
 
 **Technical scope:** General haymaking sequence and the reasons for drying/storage are supported by UNH, NC State, Maryland, Cornell, and UMN Extension references in `metadata/sources.json`. Do not extrapolate fictional dates or machinery from exact manufacturer specifications. No weather prediction or moisture measurement is performed by the child characters.
 
+## Season Four - The Garage with the Red Door (019000-024000)
+
+### New location and working routes
+
+- The **Red Door Garage** is at the **west end of Brook Road**, west of Rex's blue front step and near the junction where the **long farm road** branches north. This gives repair and service vehicles access to Green Gate Farm without ever crossing Little Bridge. There is a sign reading **RED DOOR GARAGE**, a separate work yard and bay, and a small public viewing bench near a flowering shrub. A fenced sidewalk viewpoint is near the wide pull-off along the farm road; children watch recovery work from there with adults.
+- **Ms. Pam**, an adult **raccoon** mechanic wearing blue overalls, runs the garage. She has a striped tail and often carries a pencil tucked behind one ear. She is practical and playful with the children's questions. Do not make her an all-purpose superhero or introduce more mechanic names without a continuing need.
+- Pam has a **white flatbed tow truck**: its long tilting/sliding bed and winch can bring disabled light vehicles to the garage, where they are secured and unloaded by adults. She also has a **small white mobile service truck with multiple side compartments** that takes tools and diagnostic equipment to locations such as the farm. These are two distinct trucks, not two modes of one vehicle.
+- In the repair bay is a **two-post vehicle lift** with four arms and support pads. Pam confirms the vehicle's lifting points and checks before raising it. It is for appropriately rated vehicles in a clear adult-only work bay, not a toy or a machine the children operate.
+- **Aunt Jo's small yellow work van** is new to the explicitly described vehicle inventory. In 019 it has a flat tire at a wide farm-road pull-off and is transported to the garage. In 020 Pam determines the original tire is damaged and prepares a suitable replacement, measuring tire pressure with a gauge. In 021 she fits/checks the wheel on the supported lift, finishes her checks and returns the van to Aunt Jo. After 021 it is functioning and parked at the blue-step house between jobs.
+- Pam's garage has a small **outdoor experiment table** separate from the work bay. In 022 Jack rolls *clean toy wheels* over modeling clay to see differing raised patterns. His experiment is about the marks the toy wheels make, not a quantitative test of wet-road vehicle traction.
+
+### Existing farm continues
+
+- Green Gate Farm still has its red barn with **dry hay bales from Season Three stored under cover**. Farmer Ruth owns the **red tractor with two larger rear wheels**. In 023 that tractor does not start, and Pam drives her *mobile service truck along the long farm road*, tests the battery, and replaces the battery that no longer holds a reliable charge. The old battery returns to the garage for recycling. By the end of 023, the tractor works again. No new tractor or barn is invented.
+- Molly still lives at the farm with Farmer Ruth; her blue rope toy remains on the farmhouse porch when she goes visiting. She already knows Rex's Pine Park, the tall single pine and Pancake Hill; her friendship with Rex includes their little tail-wag greeting. She can visit Brook Road with Farmer Ruth, using the Little Bridge on foot.
+
+### Children's continuity and the small repair
+
+- **Rex's wooden toy dump truck** from his Season One blue-step home gets a bit of ribbon caught around an axle after sofa-cushion play. Aunt Jo frees it without replacing the wheel in 024. It remains beside Rex's rug, functional and still his same toy. This is *not* the flatbed tow truck or the big yellow work van.
+- **Jack's blue notebook** retains every earlier entry. New pages: tilted tow-truck bed and van (019), invisible air as dots and gauge (020), van on a lift (021), toy tire stripes, zigzags, puppy paws and a hat edge (022), Pam's service truck and tractor battery (023), Rex's repaired wooden dump truck and its ribbon (024). The paper/ink record grows, it does not reset.
+- **Gus's green cap** stays with him and returns to its hook. No clothing or character names are changed. The small repairs close locally; the next season need not continue a mechanical emergency.
+
+### Season Four state ledger
+
+| ID | Permanent change at episode end | Continuity still open |
+|---|---|---|
+| 019000 | Red Door Garage and Ms. Pam established; flatbed brings yellow van with damaged tire to repair bay | Yellow van awaits repair |
+| 020000 | Damaged tire examined; right replacement selected, checked and prepared | Wheel to be fitted and van checked |
+| 021000 | Lift used for final repair and inspection; yellow van returned to Aunt Jo | No van repair pending |
+| 022000 | Jack adds toy tread prints and questions to his notebook | No mechanical job pending |
+| 023000 | White mobile service truck reaches farm and failing tractor battery replaced | Tractor working again; old battery for recycling |
+| 024000 | Rex's toy dump truck axle freed and four wheels rolling; friends recognize new garage | All six local plots closed |
+
+**Sources and scope:** The AAA, NHTSA, Automotive Lift Institute and Bridgestone sources in `metadata/sources.json` support towing/repair vehicle descriptions, tires and gauge facts, lifts, and mobile battery service only. The mechanical operations remain adult tasks. The toy tread activity is not a real tire-road experiment and is not used to infer actual stopping distances. No listener-outcome claims are made.
+
 ## Authoring guardrails
 
 - Persistent geography, name spellings and object state survive across episodes and seasons. Never erase a completed project without a depicted reason.

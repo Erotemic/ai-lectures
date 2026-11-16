@@ -49,6 +49,23 @@ The two puppies remain distinguishable: Rex has one dark and one light ear and l
 
 **Farm and hay references:** Penn State Extension describes tractor functions; UNH, NC State and Maryland Extension describe cutting, drying, tedding and raking; Cornell Small Farms and University of Minnesota Extension describe baling, hauling and storage. Exact links and claims are in the source catalog and sidecars. These materials do not test this fiction's developmental or sleep effects.
 
+## Season Four: The Garage with the Red Door
+
+This season expands Brook Road **west** to Ms. Pam's repair garage. The first three episodes follow one repair: flatbed transport of Aunt Jo's disabled yellow van, examination and replacement of its damaged tire, and professional inspection on a two-post vehicle lift. Then Jack compares clean toy-wheel prints in clay, a separate mobile service truck brings tools to Farmer Ruth's red tractor, and Rex's existing wooden toy dump truck needs only a bit of trapped ribbon removed. The vehicles have different jobs; no child works beneath a raised van or attempts a recovery.
+
+| Episode | One optional, concrete prompt |
+|---|---|
+| 019 | What part of the tow truck became a ramp? |
+| 020 | How did Pam check the air pressing inside a tire? |
+| 021 | Did the van become bigger, or did the lift raise it? |
+| 022 | What were Jack's two different toy-wheel tracks like? |
+| 023 | Why did the white service truck drive to Molly's farm? |
+| 024 | What stopped Rex's wooden dump truck wheel from turning? |
+
+Rex and Molly are the two puppies; Gus is the little bear, Jack the human boy scientist, Aunt Jo an adult dog, Farmer Ruth a goat, Mr. Lee a beaver, and Ms. Pam an adult raccoon. Neither adults nor children claim that the toy-wheel experiment reproduces real tire safety testing. The adult mechanic, not the children, operates the tow truck, lift, tire tools and battery equipment. A young listener can enjoy the ramp, striped tail, tool drawers and silly guesses without hearing a maintenance lecture.
+
+**Source scope:** AAA describes flatbed and mobile roadside services, NHTSA provides tire-pressure and tread guidance, ALI provides lift guidance, and Bridgestone explains tread grooves on wet roads. These support the linked vehicle facts only, not effects of listening to the fiction. Exact source records and quoted narration anchors are in the sidecars.
+
 ## Why there are sources
 
 - **Machine functions:** Caterpillar's equipment descriptions were consulted to avoid confusing bulldozers, diggers, loaders, trucks and compactors. These are general equipment facts; the fictional site is not an engineering case study and the passages are not operation instructions.

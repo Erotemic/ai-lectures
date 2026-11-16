@@ -1,6 +1,6 @@
 # Brook Road Builders — series atlas and expansion plan (not spoken)
 
-This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 018000. Ideas tagged *future* must not be treated as already present in a spoken episode.
+This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 024000. Ideas tagged *future* must not be treated as already present in a spoken episode.
 
 ## What makes this a world, not a truck catalogue
 
@@ -74,12 +74,28 @@ South of Green Gate Farm's **existing red barn** is a working hayfield reached b
 | Hay rake | 016000 | Draws loose dry hay into long windrows |
 | Small-square hay baler | 017000 | Collects dry windrows into tied rectangular bales |
 
+## Established Season Four garage and roads
+
+West of Rex's blue-step home, close to the long farm-road junction, is the **Red Door Garage**, run by **Ms. Pam**, an adult raccoon mechanic. It has a fenced adult work yard, a two-post vehicle lift in the bay, and a separate watching bench and toy-play table. She operates two distinct white trucks:
+
+| Vehicle or equipment | First scene | Purpose and permanent location |
+|---|---|---|
+| White flatbed tow truck | 019000 | Tilt bed and winch recover a disabled van; based at Red Door Garage |
+| Tire gauge and replacement wheel | 020000 | Pam checks vehicle tire pressure, replaces damaged tire; garage tool collection |
+| Two-post vehicle lift | 021000 | Raises properly supported light vehicles for adult inspection; garage bay |
+| White mobile service truck | 023000 | Takes testing tools and replacement parts to the tractor at Green Gate Farm |
+| Yellow crew work van | 019000-021000 | Aunt Jo's small van, repaired at garage and returned to use |
+
+The van is working after 021000, and Farmer Ruth's red tractor is working again after its battery replacement in 023000. Rex's existing wooden toy dump truck has a freed wheel after 024000. Neither the farm road nor Little Bridge moves, and the service truck uses the farm road. The park's original paved/gravel loops are still for walkers, not hauling trucks.
+
+The story-world map now reads west to east on Brook Road: **Red Door Garage -> Rex/Gus/Jack houses -> Pine Park -> Little Bridge -> Green Gate Farm**. Farm vehicles branch along the longer road near the garage instead of using the footbridge. The exact distances have not been specified to avoid artificial travel-time constraints.
+
 ## Eleven-season horizon (ideas, not canon)
 
 1. **Pine Park** — established and complete (earthmoving, paving, park opening).
 2. **The Little Bridge** — established and complete (supports, mixer, crane, farm connection).
 3. **Farm Workdays** — **complete**: red tractor, mower, tedder, rake, baler, hay wagon and Molly's first park visit.
-4. **Red-Door Garage** — towing, lifting, tires, repairing rather than building.
+4. **Red-Door Garage** — **complete**: Ms. Pam, white flatbed and service trucks, tire gauge, lift, work van and toy-truck repairs.
 5. **Delivery Route** — trucks carry useful things among already established places.
 6. **After the Rain** — drainage, road upkeep and why water follows low places.
 7. **Firehouse Open Day** — engines, ladders, hoses, equipment maintenance; no serial jeopardy.
