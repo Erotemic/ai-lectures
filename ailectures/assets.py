@@ -16,7 +16,7 @@ class LibraryAssets(StaticFiles):
         self.files = {
             path.name: path.read_bytes()
             for path in Path(directory).iterdir()
-            if path.suffix in {".mjs", ".css", ".html"}
+            if path.suffix in {".mjs", ".css", ".html", ".svg"}
         }
         self.hashes = {
             name: sha256(data).hexdigest() for name, data in self.files.items()
@@ -53,6 +53,8 @@ class LibraryAssets(StaticFiles):
             if name.endswith(".css")
             else "text/html"
             if name.endswith(".html")
+            else "image/svg+xml"
+            if name.endswith(".svg")
             else "text/javascript"
         )
         return Response(

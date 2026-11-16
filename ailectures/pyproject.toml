@@ -18,4 +18,4 @@ packages = ["ailectures", "ailectures.static"]
 package-dir = {ailectures = "."}
 
 [tool.setuptools.package-data]
-ailectures = ["static/*.html", "static/*.mjs", "static/*.css"]
+ailectures = ["static/*.html", "static/*.mjs", "static/*.css", "static/*.svg"]

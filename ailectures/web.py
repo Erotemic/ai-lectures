@@ -105,6 +105,9 @@ def create_app(
             return RedirectResponse("/presentations?" + request.url.query)
         return assets.document()
 
+    async def favicon(request):
+        return RedirectResponse("/library-assets/favicon.svg")
+
     def annotate(row):
         row = deepcopy(row)
         origin = row["origin"]
@@ -632,6 +635,7 @@ def create_app(
         ]
     ]
     routes += [
+        Route("/favicon.ico", favicon),
         Route("/api/library/catalog", catalog),
         Route("/api/library/storage", storage),
         Route("/api/library/references", references),
