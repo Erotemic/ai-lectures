@@ -10,6 +10,7 @@ import {
   clock,
 } from "./api.mjs";
 import { Player } from "./player.mjs";
+import { ProgressSync, mergeSharedProgress } from "./progress.mjs";
 import { reviewFeedback } from "./feedback.mjs";
 import { ListeningQueue } from "./queue.mjs";
 import { speechSegments } from "./transcript.mjs";
@@ -111,54 +112,22 @@ function saveCheckpoint(position) {
     .then(() => flushProgress(selectedProfile))
     .catch((e) => message(e.message));
 }
-const flushing = new Map();
-function flushProgress(selectedProfile = profile) {
-  if (!selectedProfile) return Promise.resolve();
-  if (flushing.has(selectedProfile)) return flushing.get(selectedProfile);
-  const work = (async () => {
-    while (true) {
-      const queue = getStored("pending:" + selectedProfile, []);
-      if (!queue.length) return;
-      const payload = queue[0];
-      try {
-        const result = await post(
-          "/api/listeners/" + encodeURIComponent(selectedProfile) + "/progress",
-          payload,
-        );
-        const remaining = getStored("pending:" + selectedProfile, []).filter(
-          (p) => p.update_id !== payload.update_id,
-        );
-        const state = getStored("progress:" + selectedProfile, {});
-        if (
-          !remaining.some(
-            (p) =>
-              p.lecture_id === payload.lecture_id &&
-              p.sequence > payload.sequence,
-          )
-        )
-          state[payload.lecture_id] = result;
-        store("progress:" + selectedProfile, state);
-        store("pending:" + selectedProfile, remaining);
-        if (profile === selectedProfile) progress = state;
-      } catch (error) {
-        if (error.status === 409 && error.data?.conflict) {
-          pendingConflict = {
-            profile: selectedProfile,
-            payload,
-            current: error.data.current,
-          };
-          $("progress-conflict").hidden = false;
-        } else if (error.status !== 409)
-          message(
-            "Progress is saved on this device and will sync when the server is reachable.",
-          );
-        return;
-      }
-    }
-  })().finally(() => flushing.delete(selectedProfile));
-  flushing.set(selectedProfile, work);
-  return work;
-}
+const progressSync = new ProgressSync({
+  onSaved: (selectedProfile, state) => {
+    if (profile === selectedProfile) progress = state;
+  },
+  onConflict: (conflict) => {
+    if (profile !== conflict.profile) return;
+    pendingConflict = conflict;
+    $("progress-conflict").hidden = false;
+  },
+  onError: () =>
+    message(
+      "Progress is saved on this device and will sync when the server is reachable.",
+    ),
+});
+const flushProgress = (selectedProfile = profile) =>
+  progressSync.flush(selectedProfile);
 $("use-local").onclick = async () => {
   if (!pendingConflict) return;
   const c = pendingConflict;
@@ -173,32 +142,16 @@ $("use-local").onclick = async () => {
     sequence: ++sequence,
   };
   store("sequence", sequence);
-  store(
-    "pending:" + c.profile,
-    queue.filter((p) => p.lecture_id !== c.payload.lecture_id),
-  );
-  const rest = getStored("pending:" + c.profile, []);
-  rest.unshift(payload);
-  store("pending:" + c.profile, rest);
+  progressSync.useLocal(c, payload);
   pendingConflict = null;
   $("progress-conflict").hidden = true;
   await flushProgress(c.profile);
 };
-$("keep-shared").onclick = () => {
+$("keep-shared").onclick = async () => {
   if (!pendingConflict) return;
   const c = pendingConflict;
-  store(
-    "pending:" + c.profile,
-    getStored("pending:" + c.profile, []).filter(
-      (p) => p.lecture_id !== c.payload.lecture_id,
-    ),
-  );
-  const state = getStored("progress:" + c.profile, {});
-  if (c.current) state[c.payload.lecture_id] = c.current;
-  else delete state[c.payload.lecture_id];
-  store("progress:" + c.profile, state);
+  progressSync.keepShared(c);
   if (profile === c.profile) {
-    progress = state;
     if (player.row?.id === c.payload.lecture_id) {
       player.ready = false;
       player.open(
@@ -211,6 +164,7 @@ $("keep-shared").onclick = () => {
   pendingConflict = null;
   $("progress-conflict").hidden = true;
   render();
+  await flushProgress(c.profile);
 };
 const player = new Player({
   checkpoint: saveCheckpoint,
@@ -262,16 +216,17 @@ async function loadListeners() {
   );
   if (!data.profiles.some((p) => p.id === profile)) profile = "";
   $("listener").value = profile;
+  pendingConflict = null;
+  $("progress-conflict").hidden = true;
   progress = getStored("progress:" + contextKey(), {});
   if (profile) {
     const remote = await api("/api/listeners/" + profile + "/progress");
     const pending = getStored("pending:" + profile, []);
-    progress = {
-      ...remote,
-      ...Object.fromEntries(
-        pending.map((p) => [p.lecture_id, progress[p.lecture_id] || p]),
-      ),
-    };
+    progress = mergeSharedProgress(
+      remote,
+      getStored("progress:" + profile, {}),
+      pending,
+    );
     persistProgress();
     await flushProgress();
   }
@@ -1093,8 +1048,13 @@ async function init() {
           const selected = profile;
           const remote = await api("/api/listeners/" + selected + "/progress");
           if (profile === selected) {
-            const changed = JSON.stringify(remote) !== JSON.stringify(progress);
-            progress = remote;
+            const merged = mergeSharedProgress(
+              remote,
+              getStored("progress:" + selected, {}),
+              getStored("pending:" + selected, []),
+            );
+            const changed = JSON.stringify(merged) !== JSON.stringify(progress);
+            progress = merged;
             persistProgress();
             if (changed && location.pathname === "/listening") render();
           }
