@@ -7,7 +7,7 @@
 | Deep Time (`draft-stages/tts-deep-time`) | Physical and biological deep history, human evolution, farming transitions and methods of prehistoric evidence; 36 indexed lectures at time of this audit | Does not sustain an account of later states, empires, belief systems, and linked trade networks |
 | World History (`draft-stages/tts-world-history`) | 110 indexed lectures on individual ancient and later people, literary works, archeological methods, and other historical episodes at time of audit | Many focused subjects, but not a sequential global course covering every period |
 | The Making of the Modern World (`draft-stages/tts-modern-world`) | 94 indexed lectures beginning around 1500 CE and continuing into early COVID-19 at time of audit | Starts after many institutions, economic systems, beliefs, and population histories already took shape |
-| **This pack**, `ancient-medieval-world` | Indexed 001000–058000. The first 50 form a chronological bridge through roughly 1500 CE, from Bronze Age cities and networks through Iron Age and classical societies, late antiquity, and medieval connections. The eight new entries deepen specific histories in Central Asia, the Americas, Africa, and Southeast Asia | **Six introductory units and eight targeted deep dives are written**; additional region-specific and source-level gaps remain |
+| **This pack**, `ancient-medieval-world` | Indexed 001000–066000. The first 50 form a chronological bridge through roughly 1500 CE. Sixteen further lectures deepen histories in Central Asia, the Americas, Africa, and Southeast Asia | **Six introductory units and sixteen targeted deep dives are written**; additional region-specific and source-level gaps remain |
 
 The temporal boundary between Deep Time and political history is not a universal date: agriculture, writing, urbanism, and state formation developed at different times in different parts of the world. Our approximate bridge is **3500 BCE–1500 CE**, not a claim that all regions entered the same historical stage together.
 
@@ -34,6 +34,17 @@ Status means sustained *chronological* treatment in this pack. It does not claim
 
 The initial fifty-lecture chronological sequence is unchanged. The new eight are deep dives, not new chronological eras and not proof that each geographic region is now covered comprehensively.
 
+## Second group of regional and documentary deep dives (059000–066000)
+
+- **Great Lakes and Northeast:** 059000 distinguishes indigenous copperworking, changing lakeshores, fishery networks, and regionally different transitions toward maize and village life. 060000 separates physical longhouses, Haudenosaunee constitutional knowledge, Wendat archaeology, and the disputed academic chronology of confederation. These are cases, not a comprehensive map of living nations or their complete precolonial histories.
+- **Northwest Coast:** 061000 connects Kwakwaka'wakw transmitted clam-garden knowledge with archaeological dating and recent fish-trap research; the age of one studied garden cannot be generalized to every community. Relations of access and authority require Indigenous historical interpretation.
+- **Nubian families and women:** 062000 uses identified Old Nubian texts, modern translations, and Maryam's Arabic court dossier to examine legal capacity and property. The most visible actors are disproportionately those documented by institutions; legal capacity cannot be extrapolated equally to every person.
+- **Swahili households:** 063000 examines Songo Mnara's rooms, open spaces, plants, coins, and foodways through specialist site archaeology, distinct from the broader port-and-trade narrative in 036000.
+- **South and Southeast Asian local systems:** 064000 investigates Bagan's donations, inscriptions, labor and landscape; 065000 examines Java's religious monuments, sima land/tax-status texts and Trowulan settlement remains. Archaeological and literary sources are kept distinct.
+- **Central Asian documentary life:** 066000 follows secular and religious texts in Turfan, separating manuscript languages, difficult dates, and the provenance of modern collections. This does not replace region-wide histories of other Central Asian societies.
+
+The new content does not claim equal research depth across periods: some evidence is based on public abstracts of specialist books and articles, while other references give accessible primary translations or full peer-reviewed methods and field results. Source records identify these differences. For future deep dives, prioritize material where direct field reports or primary-language editions can be read and checked in full.
+
 ## Cross-cutting deficits to investigate
 
 **History of ordinary people.** Household organization, farmers' and craftspeople's work, bondage and unfreedom, gender and family, migration and displaced populations should be part of political history rather than appended after rulers and battles.
@@ -48,4 +59,4 @@ The initial fifty-lecture chronological sequence is unchanged. The new eight are
 
 ## Status and next action
 
-Fifty-eight lectures are indexed and contain paragraph-level evidence mapping: the original fifty-lecture chronological bridge plus eight focused regional and documentary deep dives. The planned **introductory chronological bridge** from approximately 3500 BCE to 1500 CE is written, but it is not comprehensive world history. Prioritize the remaining regional and social-history gaps, original-language evidence, specialist archaeology, and explicit links to existing specialist tracks. A future coverage audit should distinguish manuscript existence, evidentiary quality, and depth of teaching instead of treating the presence of a topic as proof that it has been mastered.
+Sixty-six lectures are indexed and contain paragraph-level evidence mapping: the original fifty-lecture chronological bridge plus sixteen focused regional and documentary deep dives. The planned **introductory chronological bridge** from approximately 3500 BCE to 1500 CE is written, but it is not comprehensive world history. Prioritize the remaining regional and social-history gaps, original-language evidence, specialist archaeology, and explicit links to existing specialist tracks. A future coverage audit should distinguish manuscript existence, evidentiary quality, and depth of teaching instead of treating the presence of a topic as proof that it has been mastered.

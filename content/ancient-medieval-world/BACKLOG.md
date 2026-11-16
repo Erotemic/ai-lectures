@@ -1,6 +1,6 @@
 # Backlog — Ancient and Medieval Histories
 
-**Status:** Fifty-eight lectures (001000–058000) are written, indexed, and source-mapped. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
+**Status:** Sixty-six lectures (001000–066000) are written, indexed, and source-mapped. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
 
 The chronology is a scaffold, not a sequence in which one region necessarily learns from another. Each unit should integrate changes to governance with work, family, belief, material culture, economic organization, and what the historical evidence actually allows us to know.
 
@@ -87,12 +87,27 @@ These new IDs continue the index without extending the chronological end date. T
 | 057000 | Around the Moving Lake: Kanem, Bornu, and the Peoples of Central Africa | Arabic geographies, African intra-regional archaeological questions, enslavement |
 | 058000 | Beyond the Temple Walls: Water, Work, and Households at Angkor | Lidar, household archaeology, Khmer inscriptions, population modeling |
 
+## Regional and documentary depth — second installment (written and indexed)
+
+| ID | Lecture | Historical gap and principal evidence |
+| --- | --- | --- |
+| 059000 | Copper, Canoes, and Seasonal Worlds: The Great Lakes before 1500 | Copper tool archaeology, submerged shorelines, fishery economies, maize chronologies and historically distinct Indigenous communities |
+| 060000 | Houses Big Enough for Relations: Villages and Councils in the Northeast | Longhouse archaeology, Haudenosaunee constitutional tradition, Wendat histories, differentiated social institutions and confederacy dating |
+| 061000 | Working with the Tides: Sea Gardens and Communities of the Northwest Coast | Kwakwaka'wakw knowledge, clam-garden chronologies, fish-trap radiocarbon analysis, household and shoreline engineering |
+| 062000 | A Woman's Name in the Archive: Family and Property in Medieval Nubia | Named Old Nubian land transfers; Maryam's Arabic legal dossier; women, property, witnesses, and evidentiary limits |
+| 063000 | Inside the Stone Town: Households and Public Life on the Swahili Coast | Songo Mnara household archaeology, plant remains, public spaces, coins, and local labor |
+| 064000 | The Fields beneath the Pagodas: Bagan and the Making of a Sacred Landscape | Buddhist donations, bound labor, four-language Myazedi inscription, water and settlement history |
+| 065000 | Rice Fields and Stone Temples: Java before 1500 | Borobudur and Prambanan, sima tax-status charters, Trowulan archaeology, political claims in court poetry |
+| 066000 | Papers from the Oasis: Everyday Life in Medieval Turfan | Old Uyghur documents and religious manuscripts, translation, dating ambiguities, oasis governance, collecting history |
+
+These case studies add source-level depth; they are neither a complete enumeration of Indigenous North American history nor a complete account of African, Southeast Asian or Central Asian societies.
+
 ## Next research campaigns (not yet indexed)
 
-The initial bridge and first eight depth lectures are written. The priorities below remain **research proposals**, not existing lectures or assigned identifiers.
+The initial bridge and sixteen regional/documents-based depth lectures are written. The priorities below remain **research proposals**, not existing lectures or assigned identifiers.
 
 - **Original-language and archaeological evidence.** Review Persian, Arabic, Chinese, and Indigenous textual traditions with specialist translations and edition references; expand archaeological field reports rather than relying on heritage summaries alone.
-- **Regions still thinly treated.** Expand beyond the new case studies to Indigenous Great Lakes and Northeast America, the Southeast and Pacific Northwest; inland and eastern African polities, family and kinship histories, Southeast Asian villages beyond Angkor, and further Central Asian communities and languages.
+- **Regions still thinly treated.** Expand beyond the new case studies to Indigenous southeast North America, the Plains and Arctic; inland and eastern African polities, family and kinship histories, Southeast Asian villages beyond Angkor, and further Central Asian communities and languages.
 - **Everyday social histories.** Expand household labor, enslavement and coercion, migration, environment, women and kinship, commercial credit, and religious practice with evidence specific to place and period.
 - **Cross-track synchronization.** Add clear chronology handoffs to the existing Deep Time, World History and Modern World curricula; avoid rewriting stronger specialist lectures already available elsewhere.
 
@@ -103,3 +118,10 @@ The initial bridge and first eight depth lectures are written. The priorities be
 3. Explain consequences for actual communities: coercion, slavery, migration, trade, religious practice, and everyday work should not vanish behind imperial maps.
 4. When a famous label is disputed (a civilizational collapse, a golden age, a unified nation, a religious founding chronology), explain competing arguments and indicate what the available evidence can resolve.
 5. Preserve the independent pack boundary, stable local IDs, text-only delivery, and narration markers. Do not impose a word count or duration quota.
+
+### Remaining high-value targeted research
+
+- **North America:** southeastern Woodlands beyond Cahokia, Plains bison and agro-pastoral histories, Arctic and sub-Arctic societies, and further indigenous-language source work. Do not apply later ethnographies uncritically to earlier centuries.
+- **Africa:** regional histories beyond court documents, economic and family life beyond the Qasr Ibrim elite archive, histories of slavery and coercion within and across regional economies, and additional archaeological landscapes in the Horn and southern Africa.
+- **Asia:** mainland Southeast Asia beyond the Khmer and Bagan cores, island Southeast Asia beyond Java, Korean and Japanese household records, and oasis communities beyond Old Uyghur Turfan and Sogdian letters.
+- **Method:** add independently checked first-language editions, community-led interpretation, dated excavations and clearly labeled archive biases, prioritizing substantive new insights rather than repeating generic caveats.
