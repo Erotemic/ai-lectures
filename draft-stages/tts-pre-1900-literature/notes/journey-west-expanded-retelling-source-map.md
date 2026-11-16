@@ -41,6 +41,14 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 | 473000 | 15 | The Dragon at Eagle-Sorrow Stream | 886 |
 | 474000 | 15 | Guanyin and the Dragon Horse | 940 |
 | 475000 | 15 | Across the Ravine and Onward to the Next Temple | 1182 |
+| 476000 | 16 | The Bell and the Elder Monk | 1088 |
+| 477000 | 16 | The Robe and the Murder Plot | 1063 |
+| 478000 | 16 | A Canopy Against Fire | 905 |
+| 479000 | 16 | Ashes and the Missing Robe | 1028 |
+| 480000 | 17 | The Banquet for a Buddhist Robe | 997 |
+| 481000 | 17 | The Dead Messenger and the False Elder | 1024 |
+| 482000 | 17 | Guanyin’s Rebuke and the Wolf Spirit | 972 |
+| 483000 | 17 | The Pill and the Bear’s New Office | 917 |
 
 ## Text and evidence decisions
 
@@ -67,6 +75,8 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 - Chapter 13: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC013%E5%9B%9E) - lectures 466000, 467000, 468000.
 - Chapter 14: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC014%E5%9B%9E) - lectures 469000, 470000, 471000, 472000.
 - Chapter 15: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC015%E5%9B%9E) - lectures 473000, 474000, 475000.
+- Chapter 16: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC016%E5%9B%9E) — lectures 476000, 477000, 478000, 479000.
+- Chapter 17: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC017%E5%9B%9E) — lectures 480000, 481000, 482000, 483000.
 
 ## Useful reading and navigation
 
@@ -87,10 +97,10 @@ The novella-like origin episode is literary, not a historical biography of the r
 
 ## Progress and next chapter group
 
-The expanded retelling now covers **chapters 1–15** in 35 substantial, original English narrative lectures. Lectures 452000–465000 establish the westward commission, family-origin story, Dragon King episode, Taizong, and Xuanzang's oath. Lectures **466000–475000** cover the monk's first loss on the road, the Gold Star, Liu Boqin, the release of Wukong, the six robbers and tightening spell, and the dragon who becomes his new white horse. The ten newest lectures include a continuous description of the costs and conflicts of recruiting the first companions.
+The expanded retelling now covers **chapters 1–17** in **43** original English narrative lectures. Chapters 13–15 introduce Wukong and the white dragon horse to Xuanzang's pilgrimage; lectures **476000–483000** continue through the Guanyin Monastery episode and Black Wind Mountain. The elder's greed, attempted arson, Wukong's deliberate wind, the bear's opportunistic theft, failed combats, and Guanyin's rebuke and capture are narrated separately. See `notes/journey-west-chapters-16-17-reading-guide.md` for a scene map, character continuity, and direct sources.
 
-**Next:** chapters 16–17, the Guanyin Monastery, the dangerously coveted embroidered robe, the Black Wind Mountain creature, and Guanyin's intervention. Continue through the entire novel without imposing a word-count or lecture-count quota.
+**Next:** chapter 18, the return from Black Wind Mountain, departure from the destroyed monastery, and the first approach to Gao Village, followed by the rest of the Zhu Bajie recruitment sequence in chapter 19. Do not insert chapter 18 resolution events into the chapter 17 narration. Continue without imposing a word-count or duration target.
 
-After chapter 100, a separate critical sequence can examine the novel's textual history, Buddhist and Daoist language, social satire, religious practice, outsiders, relations among the four pilgrims, and later adaptations.
+The chapters 9–12 numbering caveat remains in force for editions that move the River Child story to an appendix; chapter titles and subjects should guide cross-edition comparison.
 
-**Chapters 16–100 remain to be written in the expanded literary retelling.** The six World History survey lectures remain available unchanged for listeners who want the complete plot in a shorter version.
+**Chapters 18–100 remain to be written in the expanded literary retelling.** The six World History survey lectures remain available unchanged for the complete plot at a shorter depth.
