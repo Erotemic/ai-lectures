@@ -1,6 +1,6 @@
 # Backlog — Ancient and Medieval Histories
 
-**Status:** The first twenty-three lectures (001000–023000) are written, indexed, and source-mapped. Unit 3 (016000–023000), on classical-era empires and networks, is complete as an introductory sequence. Entries 024000 onward are **proposed manuscripts only**; they are not indexed and must not be described as complete.
+**Status:** The first thirty-one lectures (001000–031000) are written, indexed, and source-mapped. Unit 4 (024000–031000), on late antiquity and early Islamic transformations, is complete as an introductory sequence. Entries 032000 onward are **proposed manuscripts only**; they are not indexed and must not be described as complete.
 
 The chronology is a scaffold, not a sequence in which one region necessarily learns from another. Each unit should integrate changes to governance with work, family, belief, material culture, economic organization, and what the historical evidence actually allows us to know.
 
@@ -30,7 +30,7 @@ The chronology is a scaffold, not a sequence in which one region necessarily lea
 | 022000 | American Polities and Cities across the First Millennia | Oaxaca, Maya lowlands, early Andean states and relations between material evidence and named histories |
 | 023000 | Houses, Farms, and Inequality in the Classical World | Comparative social history of everyday work, land, gender, and unfree labor |
 
-## Unit 4 — Late antiquity and early Islamic transformations, about 300–750 CE (next to write)
+## Unit 4 — Late antiquity and early Islamic transformations, about 300–750 CE (written and indexed)
 
 | Reserved ID | Working lecture | Guiding questions |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ The chronology is a scaffold, not a sequence in which one region necessarily lea
 | 030000 | Caliphates and Their Subjects | Conquest, taxation, local transitions, religious communities and new institutions |
 | 031000 | Aksum, Indian Ocean Networks, and the Red Sea | Ethiopian and Arabian histories, ports, inscriptions and African regional links |
 
-## Unit 5 — Medieval connections and parallel developments, about 750–1200 CE
+## Unit 5 — Medieval connections and parallel developments, about 750–1200 CE (next to write)
 
 | Reserved ID | Working lecture | Guiding questions |
 | --- | --- | --- |

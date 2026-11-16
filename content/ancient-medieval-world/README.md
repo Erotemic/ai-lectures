@@ -29,12 +29,20 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 021000 | Routes without a Single Silk Road: Merchants, Oceans, and Intermediaries | 1,287 |
 | 022000 | Cities without the Roman Calendar: American Worlds across the Classical Centuries | 1,392 |
 | 023000 | An Empire at the Door: Homes, Labor, and Inequality in the Classical World | 1,410 |
+| 024000 | When Rome Changed Shape: Emperors, Cities, and the Eastern Empire | 1,447 |
+| 025000 | A King of Kings beside Other Worlds: Sasanian Iran and Its Neighbors | 1,365 |
+| 026000 | Beyond a Golden Age: Gupta-Era India and Regional Power | 1,398 |
+| 027000 | Many Courts, One Canal: China from Division to the Early Tang | 1,385 |
+| 028000 | Many Churches, Changing Empires: Christianity in Late Antiquity | 1,368 |
+| 029000 | Arabia and the First Muslim Community: History, Memory, and the Qur'an | 1,377 |
+| 030000 | After the Conquests: Caliphs, Taxpayers, and the Making of an Empire | 1,500 |
+| 031000 | Across the Red Sea: Aksum, Adulis, and a Connected African World | 1,418 |
 
-Lectures 001000–007000 cover early urban and Bronze Age worlds; 008000–015000 cover Iron Age and early classical transformations; 016000–023000 trace classical empires, interregional exchange, American societies, and everyday social life. **The curriculum is not yet a complete bridge to 1500 CE.** The remaining late antique and medieval lectures 024000–050000 are planned in `BACKLOG.md`.
+Lectures 001000–007000 cover early urban and Bronze Age worlds; 008000–015000 cover Iron Age and early classical transformations; 016000–023000 cover classical empires, exchange, and social history; 024000–031000 examine late antique state and religious transformations through about 750 CE. **The bridge to 1500 CE is not yet complete.** Lectures 032000–050000 remain planned in `BACKLOG.md`.
 
 ## How to read and maintain this pack
 
-- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All twenty-three entries are self-contained, without a prerequisite chain.
+- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All thirty-one entries are self-contained, without a prerequisite chain.
 - `NNNNNN-*.md` files contain narration between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. Everything outside those markers is non-spoken editorial or evidence context.
 - `metadata/NNNNNN.json` maps every spoken paragraph to named source records, with explicit source limitations and interpretive cautions.
 - `metadata/sources.json` contains source identities, links, and caveats. Add original-language evidence and specialized excavation reports when a claim needs more precision; do not misrepresent a general survey as an archival or archaeological primary source.
