@@ -22,7 +22,9 @@
     "weak-pde-energies",
     "poincare-floquet",
     "wave-characteristics",
-    "reaction-diffusion-turing"
+    "reaction-diffusion-turing",
+    "spectral-pde-methods",
+    "invariant-manifold-theorems"
   ],
   "lectures": [
     {
@@ -150,6 +152,24 @@
       "spoken_words": 1138,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.8
+    },
+    {
+      "id": "015000",
+      "title": "Spectral Methods for PDEs: Boundary Eigenproblems and Mode Evolution",
+      "section": "spectral-pde-methods",
+      "file": "015000-pde-spectral-boundary-eigenproblems.md",
+      "spoken_words": 1149,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.9
+    },
+    {
+      "id": "016000",
+      "title": "Stable, Unstable, and Center Manifolds: The Geometry Near Equilibria",
+      "section": "invariant-manifold-theorems",
+      "file": "016000-stable-unstable-center-manifolds.md",
+      "spoken_words": 1198,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.3
     }
   ]
 }

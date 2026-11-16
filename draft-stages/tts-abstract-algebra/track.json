@@ -36,7 +36,11 @@
     "number-fields-ramification",
     "flat-modules-tor",
     "nullstellensatz-dimension",
-    "spectral-sequences"
+    "spectral-sequences",
+    "number-field-class-groups",
+    "normalization-singular-curves",
+    "flat-basechange-tor-ss",
+    "projectives-k-theory"
   ],
   "lectures": [
     {
@@ -290,6 +294,42 @@
       "spoken_words": 1106,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.6
+    },
+    {
+      "id": "029000",
+      "title": "Units, Norms, and Class Groups: Measuring Failure of Unique Factorization",
+      "section": "number-field-class-groups",
+      "file": "029000-units-norms-and-class-groups.md",
+      "spoken_words": 1211,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.4
+    },
+    {
+      "id": "030000",
+      "title": "Integral Dependence, Normalization, and Singular Curves",
+      "section": "normalization-singular-curves",
+      "file": "030000-integral-dependence-normalization-and-singular-curves.md",
+      "spoken_words": 1046,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.2
+    },
+    {
+      "id": "031000",
+      "title": "Flat Base Change and Tor Spectral Sequences",
+      "section": "flat-basechange-tor-ss",
+      "file": "031000-flat-base-change-and-tor-spectral-sequences.md",
+      "spoken_words": 1114,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.7
+    },
+    {
+      "id": "032000",
+      "title": "Projective Modules, Vector Bundles, and the First Idea of K-Theory",
+      "section": "projectives-k-theory",
+      "file": "032000-projective-modules-and-k-theory.md",
+      "spoken_words": 1055,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.3
     }
   ]
 }

@@ -1,12 +1,12 @@
-# Numerical Analysis and Reliable Computation — after 14 completed lectures
+# Numerical Analysis and Reliable Computation — after 15 completed lectures
 
-001000–014000 cover floating point, conditioning, stable solvers, quadrature, ODE stepping, adaptive error estimation, verified enclosures, and sparse eigenvalue algorithms using Krylov spaces, Arnoldi and Lanczos.
+The course now includes floating point and conditioning, robust linear algebra, root solving, quadrature, interpolation, time integration and stiffness, interval certificates, Krylov eigensolvers, and Newton-Krylov approaches to implicit time steps.
 
 ## Unindexed continuation proposals
 
-- 015000 — Implicit Time Stepping, Newton–Krylov, and Preconditioning
 - 016000 — Automatic Differentiation, Adjoint Methods, and Sensitivities
 - 017000 — Validated Integration of Differential Equations
 - 018000 — A Posteriori PDE Discretization Error Bounds
+- 019000 — Matrix-Free Preconditioners and Multigrid
 
-A small algebraic eigenpair residual is distinct from an enclosure for the spectrum of the original continuous operator. Proposals are not registered lectures.
+Distinguish stability, accuracy, step residual, time-discretization error and continuum-model error. Proposals are not registered lectures.

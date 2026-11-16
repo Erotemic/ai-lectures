@@ -22,7 +22,9 @@
     "simplicial-homology",
     "cohomology-cup-products",
     "bundles-connections-curvature",
-    "riemannian-metrics"
+    "riemannian-metrics",
+    "mayer-vietoris-excision",
+    "poincare-duality"
   ],
   "lectures": [
     {
@@ -150,6 +152,24 @@
       "spoken_words": 1213,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.4
+    },
+    {
+      "id": "015000",
+      "title": "Mayer–Vietoris and Excision: Computing Homology by Gluing",
+      "section": "mayer-vietoris-excision",
+      "file": "015000-mayer-vietoris-excision-and-gluing-homology.md",
+      "spoken_words": 1128,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.8
+    },
+    {
+      "id": "016000",
+      "title": "Poincaré Duality: Why a Manifold's Dimensions Pair Up",
+      "section": "poincare-duality",
+      "file": "016000-poincare-duality-and-intersection-pairings.md",
+      "spoken_words": 1027,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.1
     }
   ]
 }

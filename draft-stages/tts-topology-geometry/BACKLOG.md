@@ -1,12 +1,12 @@
-# Topology and Geometry — after 14 completed lectures
+# Topology and Geometry — after 16 completed lectures
 
-001000–014000 cover point-set spaces, coverings, smooth manifolds, differential forms and Stokes, homology, cohomology, fiber bundles, connections, Riemannian metrics, geodesics and intrinsic curvature.
+The sequence includes point-set topology, coverings, smooth and Riemannian manifolds, differential forms and Stokes, homology, cohomology, vector bundles and curvature, Mayer-Vietoris gluing and Poincare duality.
 
 ## Unindexed continuation proposals
 
-- 015000 — Mayer–Vietoris, Excision, and Exact Sequences in Topology
-- 016000 — Poincaré Duality and Intersection Pairings
-- 017000 — Gauss–Bonnet: Linking Curvature and Topology
+- 017000 — Gauss–Bonnet and Euler Characteristic
 - 018000 — Characteristic Classes and Bundle Obstructions
+- 019000 — Degree Theory, Fixed Points, and Global Constraints
+- 020000 — Hodge Decomposition: Harmonic Forms and Cohomology
 
-State orientability, compactness, smoothness, coefficient and metric hypotheses whenever they affect a theorem. Proposals are not cataloged lectures.
+Always distinguish closed, oriented, boundary, coefficient and compact-support hypotheses. Proposals are not registered lectures.

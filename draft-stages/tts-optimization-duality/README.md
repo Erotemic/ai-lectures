@@ -56,3 +56,9 @@ The manifest's narration measurements are descriptive only; exact mathematics an
 - 011000 — [Optimization Sensitivity: Perturbation Bounds and Shadow Prices](011000-sensitivity-perturbations-and-shadow-prices.md)
 
 Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.
+
+## Completed continuation — number-theoretic, spectral and dual structures
+
+- 012000 — [Conic Duality: One Language for Linear, Quadratic, and Matrix Inequalities](012000-conic-duality-and-strict-feasibility.md)
+
+Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.

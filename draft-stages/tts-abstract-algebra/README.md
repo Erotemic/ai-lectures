@@ -66,3 +66,12 @@ The manifest's narration measurements are descriptive only; exact mathematics an
 - 028000 — [Spectral Sequences: Recovering Homology in Stages](028000-spectral-sequences-and-filtered-complexes.md)
 
 Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.
+
+## Completed continuation — number-theoretic, spectral and dual structures
+
+- 029000 — [Units, Norms, and Class Groups: Measuring Failure of Unique Factorization](029000-units-norms-and-class-groups.md)
+- 030000 — [Integral Dependence, Normalization, and Singular Curves](030000-integral-dependence-normalization-and-singular-curves.md)
+- 031000 — [Flat Base Change and Tor Spectral Sequences](031000-flat-base-change-and-tor-spectral-sequences.md)
+- 032000 — [Projective Modules, Vector Bundles, and the First Idea of K-Theory](032000-projective-modules-and-k-theory.md)
+
+Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.

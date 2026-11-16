@@ -22,7 +22,9 @@
     "probabilistic-method",
     "coloring-planarity",
     "submodularity-matroid-intersection",
-    "ramsey-theory"
+    "ramsey-theory",
+    "spectral-graph-expansion",
+    "random-graph-thresholds"
   ],
   "lectures": [
     {
@@ -150,6 +152,24 @@
       "spoken_words": 1143,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.9
+    },
+    {
+      "id": "015000",
+      "title": "Spectral Graph Theory: Eigenvalues, Cuts, and Expansion",
+      "section": "spectral-graph-expansion",
+      "file": "015000-spectral-graph-theory-and-expansion.md",
+      "spoken_words": 1113,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.7
+    },
+    {
+      "id": "016000",
+      "title": "Random Graph Thresholds, Second Moments, and Concentration",
+      "section": "random-graph-thresholds",
+      "file": "016000-random-graph-thresholds-and-concentration.md",
+      "spoken_words": 1210,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.3
     }
   ]
 }

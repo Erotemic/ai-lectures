@@ -52,3 +52,10 @@ The manifest's narration measurements are descriptive only; exact mathematics an
 - 014000 — [Riemannian Metrics, Geodesics, and Intrinsic Curvature](014000-riemannian-metrics-geodesics-and-curvature.md)
 
 Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.
+
+## Completed continuation — number-theoretic, spectral and dual structures
+
+- 015000 — [Mayer–Vietoris and Excision: Computing Homology by Gluing](015000-mayer-vietoris-excision-and-gluing-homology.md)
+- 016000 — [Poincaré Duality: Why a Manifold's Dimensions Pair Up](016000-poincare-duality-and-intersection-pairings.md)
+
+Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.

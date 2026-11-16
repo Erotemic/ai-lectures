@@ -52,3 +52,10 @@ The manifest's narration measurements are descriptive only; exact mathematics an
 - 014000 — [Reaction–Diffusion Systems and Turing Instability](014000-reaction-diffusion-and-turing-instability.md)
 
 Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.
+
+## Completed continuation — number-theoretic, spectral and dual structures
+
+- 015000 — [Spectral Methods for PDEs: Boundary Eigenproblems and Mode Evolution](015000-pde-spectral-boundary-eigenproblems.md)
+- 016000 — [Stable, Unstable, and Center Manifolds: The Geometry Near Equilibria](016000-stable-unstable-center-manifolds.md)
+
+Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.

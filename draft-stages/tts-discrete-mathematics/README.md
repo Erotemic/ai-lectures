@@ -52,3 +52,10 @@ The manifest's narration measurements are descriptive only; exact mathematics an
 - 014000 — [Ramsey Theory: Why Large Structures Force Patterns](014000-ramsey-theory-and-unavoidable-patterns.md)
 
 Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.
+
+## Completed continuation — number-theoretic, spectral and dual structures
+
+- 015000 — [Spectral Graph Theory: Eigenvalues, Cuts, and Expansion](015000-spectral-graph-theory-and-expansion.md)
+- 016000 — [Random Graph Thresholds, Second Moments, and Concentration](016000-random-graph-thresholds-and-concentration.md)
+
+Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.

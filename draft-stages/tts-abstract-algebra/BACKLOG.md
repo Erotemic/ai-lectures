@@ -1,12 +1,12 @@
-# Abstract Algebra — after 28 completed lectures
+# Abstract Algebra — after 32 completed lectures
 
-001000–028000 develop groups and quotients, fields and Galois theory, representations, tensors and derived functors, commutative algebra, number fields, flatness, affine geometry, and filtered homological calculations.
+The sequence now develops elementary groups, fields, Galois theory, representations, modules, Ext/Tor, number fields, commutative algebra, derived constructions, class groups, normalization, flat base change, projective modules and the first invariants of algebraic K-theory.
 
 ## Unindexed continuation proposals
 
-- 029000 — Norms, Units, and the Class Group of a Number Field
-- 030000 — Integral Dependence, Normalization, and Singular Curves
-- 031000 — Flat Base Change and Tor Spectral Sequences
-- 032000 — Projective Modules, K-Theory, and Explicit Obstructions
+- 033000 — Spectrum of a Ring: Prime Ideals as Geometric Points
+- 034000 — Sheaves and Quasi-Coherent Modules in Affine Geometry
+- 035000 — Étale Maps, Unramified Extensions, and Local Algebra
+- 036000 — Group Cohomology, Extensions, and Obstruction Classes
 
-Continue with calculations whose hypotheses and coefficient rings are explicit. These are proposals, not registered lectures. Lecture depth, not a duration target, determines manuscript length.
+Use calculations and state base-ring and finiteness hypotheses explicitly. These proposals are not registered lectures. Length is determined by substantive needs rather than duration policy.

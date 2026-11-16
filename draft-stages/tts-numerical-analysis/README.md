@@ -54,3 +54,9 @@ The manifest's narration measurements are descriptive only; exact mathematics an
 - 014000 — [Sparse Eigenvalue Problems: Krylov Spaces, Lanczos, and Arnoldi](014000-sparse-eigenvalues-krylov-lanczos-and-arnoldi.md)
 
 Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.
+
+## Completed continuation — number-theoretic, spectral and dual structures
+
+- 015000 — [Implicit Time Stepping, Newton–Krylov Solvers, and Preconditioning](015000-implicit-stepping-newton-krylov-preconditioning.md)
+
+Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.

@@ -19,7 +19,8 @@
     "numerical-ode-methods",
     "adaptive-quadrature",
     "interval-verification",
-    "sparse-eigen-krylov"
+    "sparse-eigen-krylov",
+    "implicit-stepping-newton-krylov"
   ],
   "lectures": [
     {
@@ -147,6 +148,15 @@
       "spoken_words": 1303,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 9.0
+    },
+    {
+      "id": "015000",
+      "title": "Implicit Time Stepping, Newton–Krylov Solvers, and Preconditioning",
+      "section": "implicit-stepping-newton-krylov",
+      "file": "015000-implicit-stepping-newton-krylov-preconditioning.md",
+      "spoken_words": 1248,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.6
     }
   ]
 }

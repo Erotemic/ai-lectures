@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-implicit-stepping-newton-krylov-preconditioning.md",
+  "related_resources": [
+    {
+      "source_id": "na-scipy-stiff",
+      "reason": "BDF/Radau solver choices, tolerances, and Jacobians."
+    },
+    {
+      "source_id": "na-hairerwanner",
+      "reason": "A- and L-stability, implicit step solvers."
+    },
+    {
+      "source_id": "na-mit-ode",
+      "reason": "ODE stepping and error analysis."
+    },
+    {
+      "source_id": "na-cornell-krylov",
+      "reason": "Krylov iterative linear solver context."
+    }
+  ],
+  "historical_claims": []
+}

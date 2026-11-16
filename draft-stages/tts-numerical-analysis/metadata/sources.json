@@ -126,6 +126,20 @@
       "url": "https://people.inf.ethz.ch/arbenz/ewp/Lnotes/lsevp.pdf",
       "access": "free_no_login",
       "notes": "Lanczos/Arnoldi algorithms, large sparse matrices, numerical stability."
+    },
+    "na-scipy-stiff": {
+      "title": "SciPy, solve_ivp numerical ODE solver documentation",
+      "kind": "official_software_documentation",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html",
+      "access": "free_no_login",
+      "notes": "Implicit Radau and BDF, Jacobian requirements, tolerances."
+    },
+    "na-hairerwanner": {
+      "title": "Ernst Hairer and Gerhard Wanner, Solving Ordinary Differential Equations II",
+      "kind": "scholarly_textbook",
+      "url": "https://link.springer.com/book/10.1007/978-3-642-05221-7",
+      "access": "publisher_or_institutional_access",
+      "notes": "A-stability, L-stability and stiff differential equation algorithms."
     }
   }
 }
