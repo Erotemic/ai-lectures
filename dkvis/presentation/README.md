@@ -1,5 +1,9 @@
 # Shared presentation production
 
+This is the original slide and narrated-video toolchain. For the current audio
+library, source packs, and prepared playback, start with the
+[repository README](../../README.md) and [content pack guide](../../docs/content-packs.md).
+
 Use `python -m dkvis.presentation {list,slides,text,video,audio,serve}`. Deck manifests,
 not this package, select the mathematics, scenes, and transcript. The package
 can be imported without Manim, VTK, or a speech server; rendering loads those
@@ -37,6 +41,71 @@ The old `dkvis.build_slides`, `dkvis.matching_narration`,
 existing invocation patterns. Maintained callers use this package and
 `render_video.sh`. The wrappers contain no production logic.
 
+
+## Render presentations and narrated video
+
+Run commands from the repository root. The rendering stack is optional for the
+audio library:
+
+```bash
+uv sync --extra slides --extra serve --extra test
+# Add --extra vtk when rendering VTK scenes.
+```
+
+Manim also needs the host's Cairo, Pango, FFmpeg, and LaTeX packages. Deck
+manifests live in `dkvis/decks/`; authored presentation transcripts and model
+attribution live in numbered `lectures/` folders. See the
+[learning-module contract](../learning/README.md),
+[slide-authoring notes](../../briefs/slide-authoring.md), and
+[scene reference](../../SCENE_REFERENCE.md).
+
+```bash
+make slides DECK=operators-sylvester QUALITY=l
+make video DECK=operators-sylvester TTS_PROFILE=kokoro
+make lectures-video TTS_PROFILE=kokoro
+```
+
+`QUALITY=l` selects draft slides. Video generation needs the selected TTS service.
+`SKIP_RENDER=1` reuses existing slide renders; `REFRESH_AUDIO=1` forces fresh
+speech. Normal reruns reuse matching speech and encoded segments. Narrator
+profiles retain separate outputs. `kitware-talk` is frozen; use `comprehensive`
+for changes to the long presentation's composition.
+
+Use `tts.toml` and ignored `tts.local.toml` for speech profiles. An explicit
+`TTS_CONFIG` selects a complete config file rather than that automatic overlay.
+The Make interface also accepts `TTS_ENDPOINT`, `TTS_MODEL`, `TTS_VOICE`,
+`TTS_LANGUAGE`, `TTS_RESPONSE_FORMAT`, `TTS_TIMEOUT`, and `TTS_INSTRUCTION`.
+`TTS_REQUEST` is a JSON object of extra API request fields; `TTS_SETTINGS` is a
+JSON object of client settings such as chunking or postprocessing. Explicit
+named options take precedence over client settings. `VIDEO_ARGS` supplies
+additional renderer CLI flags. Keep private endpoints and voice material local.
+See [the pronunciation guide](../../pronunciations/README.md) for synthesis-only
+spelling hints and [long-passage narration experiments](#long-passage-narration-experiments)
+for the separate conditioning and alignment workflow.
+
+### Updating one scene
+
+Edit the scene and its corresponding narration, then run:
+
+```bash
+make video DECK=prereq-complementary-projection TTS_PROFILE=kokoro UPDATE_SCENES="CpSplit"
+```
+
+`UPDATE_SCENES` renders the selected scenes, exports the complete HTML/PDF/handout,
+and assembles the full lecture. The separate `SCENES` / `--scenes` option makes a
+selected-scene video preview. Do not combine `UPDATE_SCENES` with `SKIP_RENDER=1`.
+
+If model attribution changes, include the cover, for example
+`UPDATE_SCENES="CpTitle CpSplit"`, so its visible credit is refreshed. Update the
+lecture's `provenance.yaml` following
+[the attribution contract](../learning/README.md#model-attribution). A rebuilt
+cover appears in an existing MP4 only after video assembly.
+
+For slides alone, use `make slides DECK=... SCENES="CpSplit"`; a later video
+build with `SKIP_RENDER=1` assembles the current pieces. Shared visual styles,
+scene additions, and reordering can affect the whole deck and warrant a full
+render. Inspect draft renders before claiming a visual improvement, and keep
+each scene's complete intended static content in its final build for handouts.
 
 ## Measure and repair existing audio
 
@@ -199,9 +268,15 @@ timeline snapshot so a concurrent new render cannot change its comparison.
 
 `make serve` starts the unified library at `/` and loads this original catalog
 and player lazily at `/presentations`. `python -m dkvis.presentation serve`
-still starts the original player directly for `renders/`. See the
-[quick start](../../README.md#browse-and-watch-rendered-material) for ports,
-network binding and directory options. Static media uses Starlette's byte-range
+still starts the original player directly for `renders/`. For example:
+
+```bash
+uv run --extra serve python -m dkvis.presentation serve --host 127.0.0.1 --port 8002
+```
+
+Use `--help` for media-directory options. The unified reader's port and network
+binding are described in the [quick start](../../README.md#start-the-library).
+Static media uses Starlette's byte-range
 implementation; keep that behavior when modifying the server. HTML asset paths
 remain relative under `/files/`, and PDFs use the browser's built-in viewer.
 
@@ -341,3 +416,86 @@ and lecture switching. A failed save retains the draft.
 
 Both players use `/api/feedback` and the server's `--feedback-directory` option.
 This does not require re-synthesizing speech or changing the lecture sources.
+
+## Long-passage narration experiments
+
+`make tts-experiment` compares three conditioning strategies without replacing a
+lecture's normal narration: `original` uses the approved reference throughout;
+`previous` uses the preceding generated phrase after the first passage;
+`anchored` combines the original excerpt and preceding phrase **into one reference
+recording**. The last strategy is a composite-reference experiment, not native
+multi-context inference. All variants share the first generation and use the same
+text, instruction, model and seed. A seed does not guarantee deterministic server
+inference.
+
+First render the selected deck's Manim scenes as usual. Then, from the repository root:
+
+```bash
+make tts-experiment DECK=operators-rayleigh-ritz \
+  VOICE_DIR=/path/to/server-shared/voice-references \
+  TTS_ENDPOINT="$LECTURE_TTS_ENDPOINT" \
+  TTS_PROFILE=crall-math-dk-v2-breeze-tts2
+```
+
+Set `LECTURE_TTS_ENDPOINT` locally to your server's speech URL. `VOICE_DIR` must
+be a writable directory that the server reads for voice references; the runner
+publishes immutable, content-named `.wav`/`.txt` pairs there. It never replaces the
+original named recording. The default reference files are
+`crall-math-dk-v2.wav` and `crall-math-dk-v2.txt` under that directory. Override
+`REFERENCE_AUDIO` and `REFERENCE_TEXT` together to use another approved pair.
+Keep recordings and personal reference information outside Git.
+
+The pilot selects `RrCompress RrQuotient RrSolve`. Set `EXPERIMENT_SCENES` to
+other scene names, `CONDITIONING_MODES` to a subset of
+`original previous anchored`, and use the usual `TTS_MODEL`, `TTS_VOICE`,
+`TTS_INSTRUCTION`, `TTS_REQUEST` and `TTS_SETTINGS` Make options. Other controls
+pass through `EXPERIMENT_ARGS`, for example:
+
+```bash
+make tts-experiment DECK=operators-rayleigh-ritz \
+  VOICE_DIR=/path/to/server-shared/voice-references \
+  TTS_ENDPOINT="$LECTURE_TTS_ENDPOINT" \
+  EXPERIMENT_ARGS='--max-words 120 --tail-seconds 6 --skip-video'
+```
+
+The optional `align` extra downloads an English Wav2Vec2 acoustic model on first
+use and installs CPU PyTorch on Linux. Models stay in the local Hugging Face
+cache. The experiment runs the model on CPU; it does not need the TTS server's
+GPU. FFmpeg is required. `uv` installs these optional dependencies automatically
+for this Make target. The upstream acoustic model is
+[`facebook/wav2vec2-base-960h`](https://huggingface.co/facebook/wav2vec2-base-960h).
+
+Passages contain complete sentences and can span several visual builds. Forced
+alignment locates the authored words in generated speech. Existing animations
+then wait for their cue, play, and retain their result. Authored phrase cues and
+source animation offsets live in a lecture's `animation_cues.yaml`; see
+[the Rayleigh–Ritz cues](../../lectures/002749_rayleigh_ritz/animation_cues.yaml).
+Each `phrase` must occur exactly once within its narrated build. `visual_at`
+selects an increasing time offset within the original Manim clip;
+`offset_seconds` optionally adjusts its spoken cue. Missing cue files fall back
+to one animation per build. This estimates timing, **not** pronunciation: review
+low-confidence words and listen to the result. The timing manifest records both
+cue confidence and any animation speed adjustment needed to fit the speech.
+
+Open the printed `renders/experiments/<deck>/<run>/index.html` through the media
+server's `/files/experiments/.../index.html` route. It includes synchronized
+videos, optional captions, speeds up to 4×, raw/processed audio, individual
+passages, join excerpts, generation times, and loudness diagnostics. Captions
+come from the authored transcript; they can therefore conceal a spoken error.
+The experiment is not registered as a separate lecture in the library.
+
+Speech is cached by its actual API request, including endpoint, text, temporary
+conditioning voice, model and settings. A preceding clip's changed audio changes
+the next conditioning voice, invalidating subsequent chained speech. Alignment
+is cached by audio bytes, transcript and acoustic model revision. Visual event
+clips are cached independently by source animation, timing and encoding settings.
+Editing cue timing reassembles video without regenerating speech. `REFRESH_AUDIO=1`
+creates a fresh attempt directory, preserving earlier listening comparisons.
+Generated references remain in the shared local directory for reproducibility;
+remove an experiment's `dkvis-exp-*` pairs only when they are no longer needed
+for replaying its requests. Do not delete ordinary named voice references.
+
+Generation/request settings, reference basenames and fingerprints, conditioning
+lineage, source snapshot, alignment revision and processing measurements accompany
+the output. Detailed stage timings also enter `renders/logs/`. All generated
+media, references, reports and model caches remain untracked.
