@@ -296,9 +296,15 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 
 **Evidence to deepen:** Seek refugee testimony in original languages and adjudication outcomes; local epidemic community archives and survivor studies; Ukrainian- and Russian-language contemporaneous sources and incident-specific investigations; and workers' original testimony and labor contract records. Linked source pages distinguish institutional chronology from measured outcomes.
 
+## Indexed addition: Brexit, Rohingya, protests and COVID-19 (091000–094000)
+
+- **091000:** Brexit and European political realignment, 2015–2020. Referendum, institutions, the Irish border, citizens rights and withdrawal. (18 mapped narration paragraphs.)
+- **092000:** Rohingya persecution and displacement, 2016–2020. Citizenship, security operations, flight, evidence, refugee conditions and distinct legal proceedings. (19 mapped narration paragraphs.)
+- **093000:** Global protest movements, 2017–2019. Me Too, France, Sudan, Algeria, Hong Kong, Chile and climate activism. (22 mapped narration paragraphs.)
+- **094000:** Early COVID-19 pandemic, 2019–2021. Scientific evidence, health systems, public decisions, vaccine trials and distribution. (20 mapped narration paragraphs.)
+
+**Evidence to deepen:** Seek referendum campaign archives and comparative estimates of household effects; Rohingya testimony with informed consent and original-language court evidence; participant and local-language records from the distinct protest movements; and country-specific retrospective health-system reviews with uncertainty-aware mortality data. The linked references distinguish contemporary actions from later historical assessment.
+
 ## Next research candidates (not indexed)
 
-- **091000:** Brexit referendum and withdrawal negotiations, 2015–2020: sovereignty, trade, the Irish border and competing national futures.
-- **092000:** Rohingya persecution and displacement, 2016–2018: citizenship, armed forces, refugee flight, evidence and international legal responses.
-- **093000:** Global protests and social movements in 2017–2019: Chile, Hong Kong, Sudan, Algeria and the many institutions protesters confronted.
-- **094000:** Early COVID-19 pandemic, 2019–2021: scientific discovery, public health, vaccine development and the unequal distribution of risk.
+Research new follow-on topics after the four indexed lectures above; no lecture IDs are reserved beyond 094000.

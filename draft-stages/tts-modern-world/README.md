@@ -217,3 +217,13 @@ Supporting references and review limitations remain in non-spoken evidence ledge
 - **090000 — [The Job Beyond the Job: Wages, Platforms, and Inequality in the 2010s](090000-the-job-beyond-the-job.md)** (2,075 spoken words; 19 paragraph-level evidence records). Supply chains, Rana Plaza, microtask platforms, household care, wages and distribution.
 
 Each narration paragraph maps to nonspoken citation records. Source review scope and limitations are explicit; lecture length follows the subject rather than a fixed policy.
+
+
+## Brexit, displacement, mobilization and pandemic response (091000–094000)
+
+- **091000 — [What Does It Mean to Leave? Brexit and Europe's Competing Futures, 2015–2020](091000-what-does-it-mean-to-leave.md)** (2,153 spoken words; 18 paragraph-level evidence records). Referendum, sovereignty, parliamentary authorization, citizens rights, the Northern Ireland border and the terms of withdrawal.
+- **092000 — [The Right to Remain: Rohingya Persecution, Flight, and Evidence, 2016–2020](092000-the-right-to-remain.md)** (2,055 spoken words; 19 paragraph-level evidence records). Myanmar citizenship rules and military operations, Rohingya survival and flight, evidence methods, Bangladesh relief and distinct international legal proceedings.
+- **093000 — [When the Street Answered: Protest and Political Change, 2017–2019](093000-when-the-street-answered.md)** (2,429 spoken words; 22 paragraph-level evidence records). Me Too, French yellow vests, Sudan, Algeria, Hong Kong, Chile and climate action; methods, demands, institutional decisions and their limits.
+- **094000 — [When a Virus Crossed the World: COVID-19, Science, and Public Decisions, 2019–2021](094000-when-a-virus-crossed-the-world.md)** (2,214 spoken words; 20 paragraph-level evidence records). Early COVID-19 chronology and evidence, public health decisions, hospitals, excess mortality, vaccine trials and global access.
+
+Every narration paragraph is linked to source-specific evidence and limitations after the TTS region and in metadata. Spoken length is descriptive rather than prescribed.
