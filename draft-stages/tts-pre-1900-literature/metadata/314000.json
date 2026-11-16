@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "lecture_id": "314000",
+  "transcript": "314000-decameron-day-one-tale-two-abraham-rome.md",
+  "related_resources": [
+    {
+      "source_id": "cl-dc-brown-english",
+      "reason": "Primary narrative, numbering, and translation context"
+    },
+    {
+      "source_id": "cl-dc-gutenberg-rigg1",
+      "reason": "Primary narrative, numbering, and translation context"
+    },
+    {
+      "source_id": "cl-dc-full-text-index",
+      "reason": "Primary narrative, numbering, and translation context"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "314000-c01",
+      "anchor": "Neifile tells of two friends in Paris. Giannotto is a Christian merchant who wants his friend Abraham, a ",
+      "kind": "literary_primary_narrative_retelling",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg1",
+        "cl-dc-full-text-index"
+      ],
+      "source_locator": "Day 1, Tale 2 (Neifile)",
+      "audit_status": "primary_text_and_tale_outline_checked_not_full_translation_collation"
+    },
+    {
+      "id": "314000-c02",
+      "anchor": "Neifile's story also deepens the question raised by Panfilo. In the first tale, a false confession made a",
+      "kind": "literary_interpretation",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg1",
+        "cl-dc-full-text-index"
+      ],
+      "source_locator": "Day 1, Tale 2 (Neifile)",
+      "audit_status": "interpretive_synthesis_grounded_in_primary_tale"
+    }
+  ]
+}

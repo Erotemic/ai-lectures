@@ -1302,6 +1302,76 @@
       "url": "https://chaucer.fas.harvard.edu/pages/chaucers-retraction",
       "access": "free_no_login",
       "notes": "Tale-specific reading orientation and plot/source commentary. Use with the primary Middle English text and acknowledge textual gaps where present."
+    },
+    "cl-dc-brown-english": {
+      "title": "Brown University, Decameron Web: English text, J. M. Rigg translation (1903)",
+      "kind": "literary_primary_translation",
+      "url": "https://cds.library.brown.edu/projects/Decameron/texts/",
+      "access": "free_no_login",
+      "notes": "Brown Italian Studies / Virtual Humanities Lab; Rigg is a historically dated but relatively literal English translation; day and novella labels are the primary locators."
+    },
+    "cl-dc-brown-italian": {
+      "title": "Brown University, Decameron Web: Italian text based on Vittore Branca (Einaudi, 1992)",
+      "kind": "literary_primary_edited",
+      "url": "https://cds.library.brown.edu/projects/Decameron/texts/",
+      "access": "free_no_login",
+      "notes": "Italian edition for cross-checking names and primary literary structure; not evidence that the English lectures are a translation of Branca."
+    },
+    "cl-dc-gutenberg-rigg1": {
+      "title": "Giovanni Boccaccio, The Decameron, trans. J. M. Rigg, Volume I (1903), Project Gutenberg #3726",
+      "kind": "literary_primary_translation",
+      "url": "https://www.gutenberg.org/ebooks/3726",
+      "access": "free_no_login",
+      "notes": "The original public-domain English source for Days I–IV and the opening frame. The 1903 translator’s biographical conjectures are not accepted uncritically."
+    },
+    "cl-dc-full-text-index": {
+      "title": "The Decameron, full text, Rigg translation, sectioned by day and novella, Classics Library",
+      "kind": "literary_primary_translation_reading_access",
+      "url": "https://classicslaunch.org/works/the-decameron/read/",
+      "access": "free_no_login",
+      "notes": "Individual Day I and Day II novella headings and prose, with an index that extends through the end of the text. Reproduces the public-domain Rigg text."
+    },
+    "cl-dc-brown-project": {
+      "title": "Brown University Library, Decameron Web project history and goals",
+      "kind": "academic_digital_edition_context",
+      "url": "https://cds.lib.brown.edu/cds-project/decameron-web",
+      "access": "free_no_login",
+      "notes": "Documents the scholarly digital humanities project and the availability of Italian and English editions."
+    },
+    "cl-dc-brown-syllabus": {
+      "title": "Brown University, Decameron Web seminar syllabus: Days One and Two",
+      "kind": "university_syllabus",
+      "url": "https://webhelper.brown.edu/decameron/the_project/syllabus.php",
+      "access": "free_no_login",
+      "notes": "Corroborates narrator assignment and day theme, Days I–II; a teaching plan, not a substitute for the book."
+    },
+    "cl-dc-cambridge-wallace": {
+      "title": "David J. Wallace, The Decameron, in Boccaccio: Decameron, Cambridge University Press",
+      "kind": "scholarly_interpretation_abstract",
+      "url": "https://www.cambridge.org/core/books/abs/boccaccio-decameron/decameron/BE19BC6EB7005755DC3041DB3793AC95",
+      "access": "abstract_only",
+      "notes": "Discusses the two titles, hundred-tale architecture, narrator/author distinction, rubrics, and Berlin Hamilton 90 autograph; only accessible summary was consulted."
+    },
+    "cl-dc-ente-autograph": {
+      "title": "Ente Nazionale Giovanni Boccaccio, Manoscritti Autografi, Hamilton 90",
+      "kind": "manuscript_inventory",
+      "url": "https://www.enteboccaccio.it/s/ente-boccaccio/page/manoscritti-autografi",
+      "access": "free_no_login",
+      "notes": "Describes the Berlin Staatsbibliothek Hamilton 90 Decameron autograph manuscript, c. 1370, including marginal corrections."
+    },
+    "cl-dc-wikipedia-decameron": {
+      "title": "Wikipedia, The Decameron (navigational reference)",
+      "kind": "general_orientation",
+      "url": "https://en.wikipedia.org/wiki/The_Decameron",
+      "access": "free_no_login",
+      "notes": "For listener navigation and broad thematic comparison, not preferred over primary text or academic source for disputed claims."
+    },
+    "cl-dc-wikipedia-summaries": {
+      "title": "Wikipedia, Summary of Decameron tales (navigational synopsis)",
+      "kind": "general_orientation",
+      "url": "https://en.wikipedia.org/wiki/Summary_of_Decameron_tales",
+      "access": "free_no_login",
+      "notes": "Tale numbering and quick character orientation, cross-checked against published primary text; not used as an authorial text."
     }
   }
 }

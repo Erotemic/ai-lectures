@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "lecture_id": "323000",
+  "transcript": "323000-decameron-story-day-two-fortune-turns.md",
+  "related_resources": [
+    {
+      "source_id": "cl-dc-brown-english",
+      "reason": "Primary narrative, numbering, and translation context"
+    },
+    {
+      "source_id": "cl-dc-gutenberg-rigg1",
+      "reason": "Primary narrative, numbering, and translation context"
+    },
+    {
+      "source_id": "cl-dc-full-text-index",
+      "reason": "Primary narrative, numbering, and translation context"
+    },
+    {
+      "source_id": "cl-dc-cambridge-wallace",
+      "reason": "Scholarly account of frame and narrator architecture"
+    },
+    {
+      "source_id": "cl-dc-brown-syllabus",
+      "reason": "Primary narrative, numbering, and translation context"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "323000-c01",
+      "anchor": "Morning comes to the country retreat. The members of the company rise, walk through the gardens, eat, and",
+      "kind": "literary_primary_narrative_retelling",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg1",
+        "cl-dc-full-text-index"
+      ],
+      "source_locator": "Day Two, introduction and theme",
+      "audit_status": "primary_text_and_tale_outline_checked_not_full_translation_collation"
+    },
+    {
+      "id": "323000-c02",
+      "anchor": "We have already heard that clever words can rescue a person from danger. Now we will hear how little clev",
+      "kind": "literary_interpretation",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg1",
+        "cl-dc-full-text-index",
+        "cl-dc-cambridge-wallace"
+      ],
+      "source_locator": "Day Two, introduction and theme",
+      "audit_status": "interpretive_synthesis_grounded_in_primary_tale"
+    }
+  ]
+}

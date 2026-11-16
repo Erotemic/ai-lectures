@@ -254,3 +254,14 @@ manuscript is not misrepresented as a finished round-trip story. See
 The next major planned work is Boccaccio's *Decameron*, with its hundred
 short narratives, plague frame and ten storytelling days. All spoken lecture
 lengths remain descriptive measurements, not imposed targets.
+
+**Medieval Italian novella — Giovanni Boccaccio, *The Decameron***:
+312000–333000 (**first installment**). A plague-frame lecture introduces the
+seven women, three men, their country retreat and the rules of storytelling.
+Twenty individual tale lectures then cover the whole of Days One and Two,
+with the transition into the second day's theme of adversity and Fortune.
+Days Three through Ten and separate critical studies remain to be written;
+this is not presented as completion of all hundred tales. See
+`notes/decameron-ten-day-plan-and-days-1-2-reading-guide.md` for the
+published tale map, the remaining day's themes, authorial/textual context,
+and source records.

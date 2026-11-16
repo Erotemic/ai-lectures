@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "lecture_id": "312000",
+  "transcript": "312000-decameron-story-florence-plague-and-ten-storytellers.md",
+  "related_resources": [
+    {
+      "source_id": "cl-dc-brown-english",
+      "reason": "Primary narrative, numbering, and translation context"
+    },
+    {
+      "source_id": "cl-dc-gutenberg-rigg1",
+      "reason": "Primary narrative, numbering, and translation context"
+    },
+    {
+      "source_id": "cl-dc-full-text-index",
+      "reason": "Primary narrative, numbering, and translation context"
+    },
+    {
+      "source_id": "cl-dc-cambridge-wallace",
+      "reason": "Scholarly account of frame and narrator architecture"
+    },
+    {
+      "source_id": "cl-dc-brown-syllabus",
+      "reason": "Primary narrative, numbering, and translation context"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "312000-c01",
+      "anchor": "It is Florence in the year 1348. Before Giovanni Boccaccio lets anyone tell a story about love or money o",
+      "kind": "literary_primary_narrative_retelling",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg1",
+        "cl-dc-full-text-index"
+      ],
+      "source_locator": "Day One, plague frame and company",
+      "audit_status": "primary_text_and_tale_outline_checked_not_full_translation_collation"
+    },
+    {
+      "id": "312000-c02",
+      "anchor": "Boccaccio's proem addresses women whose loves and restrictions leave them in need of distraction and cons",
+      "kind": "literary_interpretation",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg1",
+        "cl-dc-full-text-index",
+        "cl-dc-cambridge-wallace"
+      ],
+      "source_locator": "Day One, plague frame and company",
+      "audit_status": "interpretive_synthesis_grounded_in_primary_tale"
+    }
+  ]
+}

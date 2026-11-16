@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "lecture_id": "315000",
+  "transcript": "315000-decameron-day-one-tale-three-three-rings.md",
+  "related_resources": [
+    {
+      "source_id": "cl-dc-brown-english",
+      "reason": "Primary narrative, numbering, and translation context"
+    },
+    {
+      "source_id": "cl-dc-gutenberg-rigg1",
+      "reason": "Primary narrative, numbering, and translation context"
+    },
+    {
+      "source_id": "cl-dc-full-text-index",
+      "reason": "Primary narrative, numbering, and translation context"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "315000-c01",
+      "anchor": "Saladin, a ruler with pressing financial needs, hears that a Jewish moneylender named Melchisedech posses",
+      "kind": "literary_primary_narrative_retelling",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg1",
+        "cl-dc-full-text-index"
+      ],
+      "source_locator": "Day 1, Tale 3 (Filomena)",
+      "audit_status": "primary_text_and_tale_outline_checked_not_full_translation_collation"
+    },
+    {
+      "id": "315000-c02",
+      "anchor": "This story has a long afterlife, including later versions that give the ring parable a more explicit argu",
+      "kind": "literary_interpretation",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg1",
+        "cl-dc-full-text-index"
+      ],
+      "source_locator": "Day 1, Tale 3 (Filomena)",
+      "audit_status": "interpretive_synthesis_grounded_in_primary_tale"
+    }
+  ]
+}
