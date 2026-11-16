@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-logs-time-synchronization-and-reliable-alerts.md",
+  "related_resources": [
+    {
+      "source_id": "ietf-rfc5905-ntp",
+      "reason": "Time synchronization, offsets, delays and network clock discipline"
+    },
+    {
+      "source_id": "nist-sp80092-logs",
+      "reason": "Log collection, retention, analysis, and operational processes"
+    },
+    {
+      "source_id": "omron-control-hysteresis",
+      "reason": "On/off threshold hysteresis and prevention of rapid relay cycling"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P010000-01",
+      "claim": "NTPv4 defines methods for distributing time and estimating clock offsets and network delay.",
+      "kind": "original_ietf_time_standard",
+      "supports": [
+        {
+          "source_id": "ietf-rfc5905-ntp",
+          "location": "RFC 5905 scope and timestamp method",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "System logs require collection, retention, analysis and operational management to be useful for incident investigation.",
+      "kind": "original_nist_log_management",
+      "supports": [
+        {
+          "source_id": "nist-sp80092-logs",
+          "location": "Guide to Computer Security Log Management abstract and process",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Device event time and collector reception time may differ because of clock drift and message transport.",
+      "kind": "derived_distributed_event_semantics",
+      "supports": [
+        {
+          "source_id": "ietf-rfc5905-ntp",
+          "location": "Clock offset and network delay",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp80092-logs",
+          "location": "Log context and collection",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Hysteresis, retries and missing-heartbeat alerts address different operational failure modes.",
+      "kind": "derived_monitoring_system_design",
+      "supports": [
+        {
+          "source_id": "omron-control-hysteresis",
+          "location": "Hysteresis in controls",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp80092-logs",
+          "location": "Operational handling and analysis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+}

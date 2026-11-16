@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-garment-alterations-and-fit-diagnosis.md",
+  "related_resources": [
+    {
+      "source_id": "threads-ease-fitting",
+      "reason": "Finished measurements versus body measurements; wearing and design ease"
+    },
+    {
+      "source_id": "usu-grain",
+      "reason": "Lengthwise, crosswise and bias grain"
+    },
+    {
+      "source_id": "usu-knits",
+      "reason": "Stretch and recovery testing"
+    },
+    {
+      "source_id": "osu-seams",
+      "reason": "Plain seams, allowances, pressing, finish decisions"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P010000-01",
+      "claim": "Garment ease is the difference between body and finished garment measurements and depends on design and use.",
+      "kind": "original_fitting_pattern_reference",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Measuring pattern pieces for fit and ease",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Fabric grain and stretch change how a garment hangs and responds to alteration.",
+      "kind": "original_extension_fabric_reference",
+      "supports": [
+        {
+          "source_id": "usu-grain",
+          "location": "Fabric grain and construction",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-knits",
+          "location": "Knit and stretch properties",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Seam structure and allowance constrain whether alterations can be reversed or let out.",
+      "kind": "derived_garment_construction",
+      "supports": [
+        {
+          "source_id": "osu-seams",
+          "location": "Seams and finishes",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Pattern fit dimensions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Temporary fitting trials permit evaluation of motion and adjacent seams before cutting fabric permanently.",
+      "kind": "derived_fitting_workflow",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Fit assessment",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osu-seams",
+          "location": "Construction behavior",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+}

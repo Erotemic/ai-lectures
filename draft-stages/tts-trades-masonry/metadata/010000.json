@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-concrete-repairs-spalling-and-corrosion.md",
+  "related_resources": [
+    {
+      "source_id": "aci-spall-repair-practice",
+      "reason": "Repair procedure boundaries and causes including reinforcement corrosion and freezing"
+    },
+    {
+      "source_id": "aci-corrosion-repair-2025",
+      "reason": "Corroded reinforcement, evaluation of extent and repair planning"
+    },
+    {
+      "source_id": "aci-224r",
+      "reason": "Restrained shrinkage, reinforcement for crack width, contraction joints"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P010000-01",
+      "claim": "Concrete spalling can result from corroded reinforcement, freezing and thawing, and other deterioration.",
+      "kind": "original_aci_repair_guidance",
+      "supports": [
+        {
+          "source_id": "aci-spall-repair-practice",
+          "location": "RAP-7: horizontal concrete spall causes and repair",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "The condition of reinforcement and adjacent substrate affects repair extent and durability.",
+      "kind": "original_aci_corrosion_repair",
+      "supports": [
+        {
+          "source_id": "aci-corrosion-repair-2025",
+          "location": "Concrete Q&A: corrosion-related damage repair",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Saturation, freezing and thawing, and deicing exposure can contribute to concrete joint deterioration.",
+      "kind": "original_aci_freeze_thaw_repair",
+      "supports": [
+        {
+          "source_id": "aci-spall-repair-practice",
+          "location": "Freeze/thaw deterioration factors",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aci-224r",
+          "location": "Cracking and environmental exposure",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "A patch requires substrate preparation, material compatibility, and assessment of structural function, not merely filling a cavity.",
+      "kind": "derived_repair_performance",
+      "supports": [
+        {
+          "source_id": "aci-spall-repair-practice",
+          "location": "Repair preparation and curing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aci-corrosion-repair-2025",
+          "location": "Evaluation of adjacent condition",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+}

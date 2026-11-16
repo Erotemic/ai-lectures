@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-heat-pump-defrost-cold-weather-and-controls.md",
+  "related_resources": [
+    {
+      "source_id": "nrel-winkler-ramaraj-defrost",
+      "reason": "Sections 4.1.6 and 5.6: reverse-cycle defrost, coil frost and energy impact; installation-dependent evidence"
+    },
+    {
+      "source_id": "energystar-ashp",
+      "reason": "Heating and cooling by reversing heat-transfer direction"
+    },
+    {
+      "source_id": "energystar-hvac-quality",
+      "reason": "Load-based sizing, airflow, refrigerant charge and duct performance"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P010000-01",
+      "claim": "Outdoor coils can become frosted in heating mode because their surface is cold enough for airborne moisture to freeze.",
+      "kind": "original_nrel_heat_pump_field_mechanism",
+      "supports": [
+        {
+          "source_id": "nrel-winkler-ramaraj-defrost",
+          "location": "Section 5.6: coil frost and heat transfer",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Reverse-cycle defrost uses refrigerant heating at the outdoor coil and may consume appreciable energy.",
+      "kind": "original_nrel_defrost_field_data",
+      "supports": [
+        {
+          "source_id": "nrel-winkler-ramaraj-defrost",
+          "location": "Sections 4.1.6 and 5.6: defrost operation and energy",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Cold-climate air-source heat pumps have documented low-ambient performance but require proper equipment and installation choice.",
+      "kind": "agency_cold_climate_selection",
+      "supports": [
+        {
+          "source_id": "energystar-ashp",
+          "location": "Cold-climate product information",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Defrost diagnosis must distinguish normal frost clearing from site drainage, sensor/control and airflow problems.",
+      "kind": "derived_operational_diagnosis",
+      "supports": [
+        {
+          "source_id": "nrel-winkler-ramaraj-defrost",
+          "location": "Defrost variation and site performance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "energystar-hvac-quality",
+          "location": "Installed system quality",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+}

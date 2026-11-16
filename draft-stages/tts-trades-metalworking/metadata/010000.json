@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-soldering-brazing-and-dissimilar-metal-joining.md",
+  "related_resources": [
+    {
+      "source_id": "aws-brazing-handbook-fifth",
+      "reason": "Brazing definition, capillary action and joint preparation"
+    },
+    {
+      "source_id": "ampp-galvanic-corrosion",
+      "reason": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact"
+    },
+    {
+      "source_id": "osha-welding",
+      "reason": "Fumes, ultraviolet radiation, burns, electric shock and protective controls"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P010000-01",
+      "claim": "Brazing uses a filler with liquidus above 450 C, below base-metal solidus, distributed through capillary action at close-fitting surfaces.",
+      "kind": "original_aws_process_definition",
+      "supports": [
+        {
+          "source_id": "aws-brazing-handbook-fifth",
+          "location": "Preface and AWS brazing definition",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Joint preparation and protection against oxidation are essential to brazing wetting and filler flow.",
+      "kind": "original_aws_brazing_practice",
+      "supports": [
+        {
+          "source_id": "aws-brazing-handbook-fifth",
+          "location": "Preface: cleaning, flux/protective atmosphere and joint design",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Electrically connected dissimilar metals in an electrolyte can undergo galvanic corrosion.",
+      "kind": "original_ampp_galvanic_reference",
+      "supports": [
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Electrolyte, dissimilar-metal potential and corrosion mechanism",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Process hazards vary by filler, flux, temperature and atmosphere, so process-specific fume precautions matter.",
+      "kind": "original_osha_joining_safety",
+      "supports": [
+        {
+          "source_id": "osha-welding",
+          "location": "Welding, cutting and brazing hazards and controls",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-navigation-in-poor-visibility-and-decision-thresholds.md",
+  "related_resources": [
+    {
+      "source_id": "usgs-map-compass-guide",
+      "reason": "Map scale, contour terrain interpretation and compass use"
+    },
+    {
+      "source_id": "gpsgov-accuracy",
+      "reason": "Consumer accuracy limits, multipath, blockage, receiver and map errors"
+    },
+    {
+      "source_id": "noaa-declination",
+      "reason": "Signed east-positive declination; magnetic-to-true bearing conversion"
+    },
+    {
+      "source_id": "nysdec-hike-smart",
+      "reason": "Layering, shelter, water, weather and planning for exposure"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P010000-01",
+      "claim": "Map, compass and terrain association provide ways to check position when visibility and electronic navigation are limited.",
+      "kind": "original_usgs_navigation_guidance",
+      "supports": [
+        {
+          "source_id": "usgs-map-compass-guide",
+          "location": "Map and compass navigation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "GNSS position estimates and displayed maps have uncertainty that must be considered in route decisions.",
+      "kind": "original_gps_public_accuracy_guidance",
+      "supports": [
+        {
+          "source_id": "gpsgov-accuracy",
+          "location": "Factors affecting GPS accuracy",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Magnetic north and geographic north differ by a location- and time-dependent declination.",
+      "kind": "original_noaa_declination_reference",
+      "supports": [
+        {
+          "source_id": "noaa-declination",
+          "location": "Declination fundamentals",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Predefined return points, terrain hazards and trip plans improve navigation decisions in worsening weather.",
+      "kind": "derived_route_risk_management",
+      "supports": [
+        {
+          "source_id": "nysdec-hike-smart",
+          "location": "Route planning and hiking safety",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usgs-map-compass-guide",
+          "location": "Confirmed positions and route navigation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+}

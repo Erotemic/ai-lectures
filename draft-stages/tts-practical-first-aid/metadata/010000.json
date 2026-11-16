@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-fractures-sprains-and-immobilization-principles.md",
+  "related_resources": [
+    {
+      "source_id": "aha-redcross-2024-firstaid",
+      "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+    },
+    {
+      "source_id": "redcross-severe-bleed",
+      "reason": "Recognize severe bleeding, apply direct pressure and trained methods, activate emergency help"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P010000-01",
+      "claim": "Fractures, sprains and strains have overlapping signs; painful injuries limiting use warrant assessment rather than informal certainty.",
+      "kind": "original_aha_redcross_firstaid_2024",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Sections 9.6 and 9.7: sprains, strains and fractures",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "First aid splinting may reduce pain and limit injury during transport, but supporting rather than forcibly reducing deformity is generally appropriate.",
+      "kind": "original_aha_redcross_fracture_consensus",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Section 9.7: fracture recommendations and evidence level",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Pale, purple or blue fractured extremities require immediate activation of emergency response.",
+      "kind": "original_aha_redcross_perfursion_guidance",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Section 9.7: vascular warning and EMS activation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Cold can relieve acute sprain/strain pain; avoid direct skin contact and prolonged cooling.",
+      "kind": "original_aha_redcross_sprain_guidance",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Section 9.6: cold and compression limits",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P010000-05",
+      "claim": "Severe bleeding and an open fracture require attention to life-threatening bleeding before routine immobilization.",
+      "kind": "original_aha_redcross_emergency_priorities",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Fractures and severe bleeding recommendations",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "redcross-severe-bleed",
+          "location": "Control of life-threatening external bleeding",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+}

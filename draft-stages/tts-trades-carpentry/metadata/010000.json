@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-finish-carpentry-trim-joints-and-seasonal-movement.md",
+  "related_resources": [
+    {
+      "source_id": "usda-wood",
+      "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+    },
+    {
+      "source_id": "usda-drying",
+      "reason": "Moisture content, equilibrium, shrinkage and storage"
+    },
+    {
+      "source_id": "rammer-fastenings",
+      "reason": "Wood connections, nails, screws, lateral and withdrawal capacity, joist hangers"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P010000-01",
+      "claim": "Solid wood movement with moisture content is strongly direction-dependent.",
+      "kind": "original_usda_wood_engineering",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Wood moisture and directional dimensional change",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-drying",
+          "location": "Moisture content and drying",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Trim joins materials with different directions of grain and can reveal seasonal movement at corners.",
+      "kind": "derived_wood_joint_geometry",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Wood dimensional change and joint behavior",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Fastening and adhesive strategies must be selected for the support and anticipated movement.",
+      "kind": "derived_joinery_constraint_design",
+      "supports": [
+        {
+          "source_id": "rammer-fastenings",
+          "location": "Wood fastening behavior",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-wood",
+          "location": "Dimensional response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Nominal square angles and dimension labels are insufficient when actual walls, jambs, and profiles differ.",
+      "kind": "derived_geometric_layout",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Wood properties affecting fit",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+}

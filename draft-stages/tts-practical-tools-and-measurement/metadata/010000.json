@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-abrasives-tool-maintenance-and-edge-geometry.md",
+  "related_resources": [
+    {
+      "source_id": "osha-grinding-equipment-checklist",
+      "reason": "Wheel guards, compatibility of rotational speed, tool rests and safe abrasive operation"
+    },
+    {
+      "source_id": "osha-hand-power-tools",
+      "reason": "Tool guarding, securing work with clamps and correct tool operation"
+    },
+    {
+      "source_id": "osha-lead-sanding",
+      "reason": "Lead dust hazards and work-control methods for coating preparation"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P010000-01",
+      "claim": "Abrasive-wheel machines need suitable guards, wheel rating compatibility and controlled work support.",
+      "kind": "original_osha_grinder_safety",
+      "supports": [
+        {
+          "source_id": "osha-grinding-equipment-checklist",
+          "location": "Grinder inspection checklist and wheel speed limits",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Abrasive surface condition, edge geometry and burr removal influence cutting behavior.",
+      "kind": "derived_edge_mechanics",
+      "supports": [
+        {
+          "source_id": "osha-hand-power-tools",
+          "location": "Hand tool condition and correct use",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-grinding-equipment-checklist",
+          "location": "Abrasive wheel use context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Sharpening should respond to actual geometric damage rather than defaulting to maximum metal removal.",
+      "kind": "derived_repair_preservation_principle",
+      "supports": [
+        {
+          "source_id": "osha-hand-power-tools",
+          "location": "Tool use and condition",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Powered grinding introduces distinct rotating-wheel failure and dust hazards.",
+      "kind": "original_osha_powered_tool_hazards",
+      "supports": [
+        {
+          "source_id": "osha-grinding-equipment-checklist",
+          "location": "Guards, rating and inspection",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-lead-sanding",
+          "location": "Hazardous sanding dust and coatings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+}

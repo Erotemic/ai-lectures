@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-window-thermal-performance-solar-gain-and-summer-comfort.md",
+  "related_resources": [
+    {
+      "source_id": "doe-energy-star-window-basics",
+      "reason": "Whole-window U-factor and SHGC and their separate heat-flow functions"
+    },
+    {
+      "source_id": "doe-femp-window-purchasing",
+      "reason": "Cold/warm climate energy choices, solar heat gain, condensation and assembly performance"
+    },
+    {
+      "source_id": "pnnl-window-flashing",
+      "reason": "Sill pan, jamb/head flashing and connections to drainage plane"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P010000-01",
+      "claim": "Whole-window U-factor reflects heat transfer at a temperature difference; lower U-factor denotes lower rate in the certified test.",
+      "kind": "agency_window_thermal_rating",
+      "supports": [
+        {
+          "source_id": "doe-energy-star-window-basics",
+          "location": "U-factor rating and performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Solar heat gain coefficient differs from U-factor and describes solar energy admitted as heat.",
+      "kind": "agency_window_solar_rating",
+      "supports": [
+        {
+          "source_id": "doe-energy-star-window-basics",
+          "location": "Solar heat gain coefficient",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Climate, orientation and shading change whether winter solar gain is desirable and summer gains are a problem.",
+      "kind": "derived_climate_and_orientation_design",
+      "supports": [
+        {
+          "source_id": "doe-femp-window-purchasing",
+          "location": "Hot and cold climate fenestration purchasing strategies",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Window flashing, drainage continuity and air sealing are distinct from glass thermal ratings.",
+      "kind": "derived_assembled_window_function",
+      "supports": [
+        {
+          "source_id": "pnnl-window-flashing",
+          "location": "Wall interface and water management",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-energy-star-window-basics",
+          "location": "Product thermal ratings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+}

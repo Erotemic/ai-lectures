@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-project-schedules-sequencing-and-dependencies.md",
+  "related_resources": [
+    {
+      "source_id": "pmi-critical-path-risk",
+      "reason": "Critical path, float, network dependencies, and limits of deterministic schedule assumptions"
+    },
+    {
+      "source_id": "nyag-hiring-contractors",
+      "reason": "Local license checks, insurance, permits/inspections and written scope; NY guidance only"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P010000-01",
+      "claim": "The critical path through task dependencies determines the earliest modeled project completion under stated assumptions.",
+      "kind": "original_pmi_network_schedule_method",
+      "supports": [
+        {
+          "source_id": "pmi-critical-path-risk",
+          "location": "Critical path and slack",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Noncritical activities may have float without controlling the original completion date.",
+      "kind": "original_pmi_critical_path_method",
+      "supports": [
+        {
+          "source_id": "pmi-critical-path-risk",
+          "location": "Float and network joins",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Real-world resource, delay and uncertainty effects limit deterministic critical-path schedule reliability.",
+      "kind": "original_pmi_schedule_risk_analysis",
+      "supports": [
+        {
+          "source_id": "pmi-critical-path-risk",
+          "location": "Limitations of CPM and schedule-risk analysis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Acceptance milestones, contract documentation and owner decisions should be tied to objective deliverables.",
+      "kind": "derived_contract_execution_practice",
+      "supports": [
+        {
+          "source_id": "nyag-hiring-contractors",
+          "location": "Written scope and contract communications",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pmi-critical-path-risk",
+          "location": "Activity dependencies and milestones",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+}

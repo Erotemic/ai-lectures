@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-tree-planting-mulching-and-root-zones.md",
+  "related_resources": [
+    {
+      "source_id": "umn-tree-planting-2025",
+      "reason": "Root flare, wide planting hole, circling and girdling roots"
+    },
+    {
+      "source_id": "umn-new-tree-mulching",
+      "reason": "Mulch placement, trunk clearance and water during establishment"
+    },
+    {
+      "source_id": "nrcs-water",
+      "reason": "Infiltration, retention and structure"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P010000-01",
+      "claim": "Tree root-flare depth and root circling can affect long-term tree establishment and health.",
+      "kind": "original_university_extension_tree_guidance",
+      "supports": [
+        {
+          "source_id": "umn-tree-planting-2025",
+          "location": "Root flare and circling/girdling roots",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Planting holes should emphasize correct root-ball depth and lateral root access rather than extra depth.",
+      "kind": "original_university_extension_planting_mechanism",
+      "supports": [
+        {
+          "source_id": "umn-tree-planting-2025",
+          "location": "Planting hole geometry",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Broad organic mulch reduces turf competition and evaporative losses but should not contact the trunk.",
+      "kind": "original_university_extension_mulching",
+      "supports": [
+        {
+          "source_id": "umn-new-tree-mulching",
+          "location": "Mulch ring and root-flare clearance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Watering decisions depend on site conditions and root establishment, not a universal calendar.",
+      "kind": "derived_horticulture_water_management",
+      "supports": [
+        {
+          "source_id": "umn-new-tree-mulching",
+          "location": "Soil moisture and establishment water needs",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nrcs-water",
+          "location": "Soil and water movement",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+}
