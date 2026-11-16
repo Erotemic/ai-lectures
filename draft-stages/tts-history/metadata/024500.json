@@ -1,0 +1,359 @@
+{
+  "schema_version": 1,
+  "lecture_id": "024500",
+  "transcript": "024500-pearson-institutions.md",
+  "related_resources": [
+    {
+      "source_id": "history-pearson-bio",
+      "reason": "Archive covers letters, family, Men and Women’s Club, statistical and departmental records; institutional career and lab history."
+    },
+    {
+      "source_id": "history-pearson-mactutor",
+      "reason": "Family, Cambridge, German studies, legal training, books, teaching, Weldon/Galton, statistical publications and death."
+    },
+    {
+      "source_id": "history-pearson-rs",
+      "reason": "Birth/death, offices, Cambridge third wrangler, German institutions, marriage, later honors."
+    },
+    {
+      "source_id": "history-pearson-archive",
+      "reason": "Appointments, 1884 UCL, 1885 club, 1901 journal, 1911 endowed chair, 1925 journal."
+    },
+    {
+      "source_id": "history-pearson-primary",
+      "reason": "Philosophical Magazine Series 6 2(11), 559–572; original orthogonal-distance fitting problem."
+    },
+    {
+      "source_id": "history-pearson-topic",
+      "reason": "Discusses nineteenth-century orthogonal-fitting predecessors, Pearson and Hotelling; not a claim of sole invention."
+    },
+    {
+      "source_id": "history-pearson-1896",
+      "reason": "Contains bibliographic detail for Pearson 1895–1900 statistics and 1900 chi-square paper."
+    },
+    {
+      "source_id": "history-pearson-chi-history",
+      "reason": "Historical account of 1900 chi-square, fitted parameters, and Fisher degrees-of-freedom correction."
+    },
+    {
+      "source_id": "history-pearson-fisher",
+      "reason": "Historical explanation of chi-square degrees of freedom and Pearson attribution."
+    },
+    {
+      "source_id": "history-pearson-magnello",
+      "reason": "Historical analysis qualifies simplistic claim that Pearson entirely rejected Mendelian inheritance."
+    },
+    {
+      "source_id": "history-pearson-biometrika",
+      "reason": "Contemporary review of inaugural Biometrika issue and authors including Galton, Weldon, Pearson, Beeton."
+    },
+    {
+      "source_id": "history-pearson-lee",
+      "reason": "Lee’s work on skull measurement and criticism of using skull size as a measure of intelligence."
+    },
+    {
+      "source_id": "history-pearson-lee-primary",
+      "reason": "Article description and Pearson’s prefatory note on Lee’s London D.Sc. thesis."
+    },
+    {
+      "source_id": "history-pearson-hotelling",
+      "reason": "1933 principal components statistical paper; introduction and historical scope."
+    },
+    {
+      "source_id": "history-pearson-debate",
+      "reason": "Historical interpretation of biometrician-Mendelian disputes around 1900."
+    },
+    {
+      "source_id": "history-pearson-eugenics",
+      "reason": "Institutional research on Pearsons 1907 lab, racism targeting immigrant Jewish people, staff culture and institutional support."
+    },
+    {
+      "source_id": "history-pearson-legacy",
+      "reason": "Research records on eugenics and biometric lab, successors and digital collections."
+    },
+    {
+      "source_id": "history-pearson-denaming",
+      "reason": "Announcement that Pearson and Galton names were removed from specified campus spaces."
+    },
+    {
+      "source_id": "history-pearson-early",
+      "reason": "Historical account of Pearson, Weldon and Galton and UCL’s eugenics institutions; later renaming and 1933 succession."
+    },
+    {
+      "source_id": "history-pearson-papers-ucl",
+      "reason": "Scope of personal, family and laboratory archives; Galton Laboratory and Biometrika, 1907 directorship, 1911 chair."
+    },
+    {
+      "source_id": "history-pearson-women-ucl",
+      "reason": "Women working unpaid and below male pay scales; laboratory personnel, scientific contributions, marriage-bar practices."
+    },
+    {
+      "source_id": "history-pearson-eugenics-ucl",
+      "reason": "Documented executive support, Galton Laboratory, 1911 endowment, racist program, 1933 reorganization and later reception."
+    },
+    {
+      "source_id": "history-pearson-alice-lee",
+      "reason": "Lee and Pearson; 1898 cranial research, contested thesis review, his defense of her authorship and comments on her expression."
+    },
+    {
+      "source_id": "history-pearson-alice-lee-context",
+      "reason": "1892 Pearson-Bedford dispute and Lee’s reply; cautions that criticism of sexism did not imply a rejection of racial hierarchy."
+    },
+    {
+      "source_id": "history-pearson-wikipedia",
+      "reason": "Accessible navigation only, not source for contested biographical claims."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "024500-h01",
+      "anchor": "Pearson developed and systematized methods for correlation and regression",
+      "kind": "historical_mathematics",
+      "source_ids": [
+        "history-pearson-1896",
+        "history-pearson-mactutor"
+      ],
+      "source_locator": "1893-1900 papers and historical bibliography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h02",
+      "anchor": "He helped popularize the name standard deviation.",
+      "kind": "historical_mathematics",
+      "source_ids": [
+        "history-pearson-mactutor"
+      ],
+      "source_locator": "MacTutor terminology entry",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h03",
+      "anchor": "Pearson's nineteen hundred paper introduced a general chi-square goodness-of-fit criterion.",
+      "kind": "historical_mathematics",
+      "source_ids": [
+        "history-pearson-1896",
+        "history-pearson-chi-history",
+        "history-pearson-fisher"
+      ],
+      "source_locator": "Pearson 1900 and later degrees-of-freedom history",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h04",
+      "anchor": "Ronald Fisher clarified important aspects of it in the nineteen twenties",
+      "kind": "historical_mathematics",
+      "source_ids": [
+        "history-pearson-chi-history",
+        "history-pearson-fisher"
+      ],
+      "source_locator": "Fisher 1922–1925 methods and historiography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h05",
+      "anchor": "This is the problem Pearson addressed in his nineteen-oh-one paper",
+      "kind": "historical_mathematics",
+      "source_ids": [
+        "history-pearson-primary",
+        "history-pearson-topic"
+      ],
+      "source_locator": "Pearson 1901 original paper and historical prehistory",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h06",
+      "anchor": "It did not present a modern software implementation or use the later terminology",
+      "kind": "historical_mathematics",
+      "source_ids": [
+        "history-pearson-primary",
+        "history-pearson-topic",
+        "history-pearson-hotelling"
+      ],
+      "source_locator": "Original 1901 text and 1933 statistical framing",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h07",
+      "anchor": "The precise spectral perturbation theorems that quantify such behavior were developed decades after Pearson",
+      "kind": "historical_mathematics",
+      "source_ids": [
+        "history-pearson-topic"
+      ],
+      "source_locator": "Chronological distinction from later matrix perturbation work",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h08",
+      "anchor": "After Galton's death in nineteen eleven, Pearson became the first holder",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-pearson-archive",
+        "history-pearson-early",
+        "history-pearson-bio"
+      ],
+      "source_locator": "UCL archival and institutional history",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h09",
+      "anchor": "Francis Galton's money helped him establish the Galton Laboratory for National Eugenics in nineteen-oh-seven.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-pearson-eugenics",
+        "history-pearson-legacy",
+        "history-pearson-bio"
+      ],
+      "source_locator": "UCL archival eugenics history",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h10",
+      "anchor": "The detailed UCL history of its eugenics programs documents his particular hostility toward Jewish immigrant communities",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-pearson-eugenics"
+      ],
+      "source_locator": "UCL digital exhibition on racist eugenic research agenda",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h11",
+      "anchor": "Pearson also had difficult intellectual relations with Ronald Fisher",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-pearson-chi-history",
+        "history-pearson-mactutor"
+      ],
+      "source_locator": "History of chi-square degrees of freedom and statistical debate",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h12",
+      "anchor": "Pearson's son Egon later collaborated with Jerzy Neyman",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-pearson-early",
+        "history-pearson-mactutor"
+      ],
+      "source_locator": "UCL departmental history and succession",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h13",
+      "anchor": "And in nineteen thirty-three Harold Hotelling recast principal components",
+      "kind": "historical_mathematics",
+      "source_ids": [
+        "history-pearson-hotelling",
+        "history-pearson-topic"
+      ],
+      "source_locator": "Hotelling 1933 original, Farebrother 2022 historiography",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h14",
+      "anchor": "Other nineteenth-century researchers had considered closely related orthogonal fitting questions.",
+      "kind": "historical_mathematics",
+      "source_ids": [
+        "history-pearson-topic"
+      ],
+      "source_locator": "Farebrother 2022, Weisbach, Adcock predecessors",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h15",
+      "anchor": "He founded the Annals of Eugenics in nineteen twenty-five.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-pearson-archive",
+        "history-pearson-early"
+      ],
+      "source_locator": "Pearson archival chronology",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h16",
+      "anchor": "He retired from University College London in nineteen thirty-three.",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-pearson-archive",
+        "history-pearson-early"
+      ],
+      "source_locator": "UCL archival/departmental history",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h17",
+      "anchor": "Karl Pearson died on the twenty-seventh of April, nineteen thirty-six",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-pearson-rs",
+        "history-pearson-archive"
+      ],
+      "source_locator": "Royal Society and archival dates",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "024500-h18",
+      "anchor": "In June twenty twenty, University College London removed Pearson's name from named spaces",
+      "kind": "historical_biography",
+      "source_ids": [
+        "history-pearson-denaming",
+        "history-pearson-early"
+      ],
+      "source_locator": "June 19 2020 UCL denaming announcement",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "anchor": "The creation of the Galton Laboratory was not simply Pearson renting a room",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-pearson-papers-ucl",
+        "history-pearson-eugenics-ucl"
+      ],
+      "source_locator": "UCL Galton Laboratory institutional history",
+      "audit_status": "source_cross_checked",
+      "id": "024500-h19"
+    },
+    {
+      "anchor": "Women performed mathematical calculations, assembled and checked datasets",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-pearson-women-ucl"
+      ],
+      "source_locator": "UCL archival accounting of staff",
+      "audit_status": "source_cross_checked",
+      "id": "024500-h20"
+    },
+    {
+      "anchor": "He supervised an institutional program, used a laboratory and academic title to promote it",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-pearson-eugenics-ucl"
+      ],
+      "source_locator": "UCL funded program and scientific advocacy",
+      "audit_status": "source_cross_checked",
+      "id": "024500-h21"
+    },
+    {
+      "anchor": "His son Egon succeeded him in statistical leadership, while Ronald Fisher became the next holder",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-pearson-eugenics-ucl",
+        "history-pearson-early"
+      ],
+      "source_locator": "UCL 1933 succession and reorganization",
+      "audit_status": "source_cross_checked",
+      "id": "024500-h22"
+    },
+    {
+      "anchor": "UCL's history records that Egon did not wish to continue his father's eugenics program.",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-pearson-eugenics-ucl"
+      ],
+      "source_locator": "UCL archives: 1933 institutional response",
+      "audit_status": "source_cross_checked",
+      "id": "024500-h23"
+    }
+  ]
+}

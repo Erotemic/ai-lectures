@@ -1,3 +1,9 @@
+## Pearson and Hotelling: two-part historical revisions (16 November 2026)
+
+The existing statistics portraits were revised without adding new figures. Karl Pearson (`024000`, `024500`) is now approached through his Victorian education, family, Weldon, Lee, Beeton, women in the biometric laboratory, and the history and harms of the Galton eugenics program. Harold Hotelling (`025000`, `025500`) is approached through his education in journalism and mathematics, the Fisher/Rothamsted network, marriages and family, Columbia, wartime research, refugees, international students, Chapel Hill, and economic policy. The 1932/1934 discrepancy about Floy Tracy Hotelling's death is documented rather than silently reconciled.
+
+**All substantive existing worked mathematical paragraphs remain in the spoken episodes**, now placed after the chronological and institutional accounts. The former display-only mathematical companions are preserved in the second episodes, and new first-episode companions include Wikipedia and scholarly reading links. The source register and lecture-specific historical claim anchors have been revised. No limits on lecture lengths were applied; catalog word counts are descriptive.
+
 ## Kepler and Fourier: historical lives in two parts (16 November 2026)
 
 - **041000/041500 — Joseph Fourier:** Auxerre education, revolutionary politics and arrests, scientific work inside the French occupation of Egypt, administration and heat research at Grenoble, the 1815 reversal, the Paris Academy, relations with Germain and his scientific critics, and late life. Detailed heat-flow derivations, sine-series examples, convergence, kernels and modern applications survive in the second part. The original mathematical companion has moved with them.

@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025500",
+  "transcript": "025500-hotelling-war-chapel-hill.md",
+  "related_resources": [
+    {
+      "source_id": "history-hotelling-bio",
+      "reason": "Career chronology, teaching, statistics, economics, wartime group, and principal components."
+    },
+    {
+      "source_id": "history-hotelling-primary",
+      "reason": "Journal of Educational Psychology 24(6), 417-441. Original population-components analysis and acknowledgments to Kelley."
+    },
+    {
+      "source_id": "history-hotelling-topic",
+      "reason": "Modern formulae for whitened covariance and singular values; distinguished from 1936 original."
+    },
+    {
+      "source_id": "history-hotelling-nas",
+      "reason": "National Academy of Sciences Biographical Memoirs 87, pp. 220-233: career, statistics, economics, students, education and wartime group. Memorial has a discrepant early-death year for his first wife."
+    },
+    {
+      "source_id": "history-hotelling-mactutor",
+      "reason": "Birth, Seattle upbringing, journalism, Bell, Princeton/Veblen, Rothamsted, Floy Tracy death in October 1932, second marriage."
+    },
+    {
+      "source_id": "history-hotelling-oxford",
+      "reason": "Birth, Fulda, hay merchant, Seattle, journalism, military service."
+    },
+    {
+      "source_id": "history-hotelling-pca2",
+      "reason": "Journal of Educational Psychology 24(7), 498-520; sampling, score estimation and computation."
+    },
+    {
+      "source_id": "history-hotelling-pca-full1",
+      "reason": "Scan of original paper, pp. 417-441; motivation, correlated variables, normalization, attribution."
+    },
+    {
+      "source_id": "history-hotelling-pca-full2",
+      "reason": "Scan of continuation, pp. 498-520; sampling, measurement reliability, estimation."
+    },
+    {
+      "source_id": "history-hotelling-t2",
+      "reason": "Annals of Mathematical Statistics 2, 360-378; multivariate extension of Student t."
+    },
+    {
+      "source_id": "history-hotelling-cca",
+      "reason": "Biometrika 28(3-4), 321-377. Original canonical correlation analysis and applications."
+    },
+    {
+      "source_id": "history-hotelling-cca-facsimile",
+      "reason": "Accessible scan of original mathematical treatment."
+    },
+    {
+      "source_id": "history-hotelling-pabst",
+      "reason": "Annals of Mathematical Statistics 7, 29-43, with Margaret Richards Pabst."
+    },
+    {
+      "source_id": "history-hotelling-teaching",
+      "reason": "Annals of Mathematical Statistics 11, 457-470; institutional case for specialist statistics teaching."
+    },
+    {
+      "source_id": "history-hotelling-econ-study",
+      "reason": "Journal of Economic Literature 62(3), 1186-1212. Recent archive-based interpretation of mathematical economics."
+    },
+    {
+      "source_id": "history-hotelling-location",
+      "reason": "Economic Journal 39, 41-57. Location and price competition model."
+    },
+    {
+      "source_id": "history-hotelling-location-correction",
+      "reason": "Econometrica 47(5), 1145-1150; no equilibrium price at close locations under original assumptions; corrected countermodel."
+    },
+    {
+      "source_id": "history-hotelling-resource",
+      "reason": "Journal of Political Economy 39(2), 137-175; intertemporal scarcity rent."
+    },
+    {
+      "source_id": "history-hotelling-inference",
+      "reason": "Arrow/Lehmann discussion: 1929 Working confidence bands, 1931 multivariate statistic, 1936 canonical correlation, rank methods."
+    },
+    {
+      "source_id": "history-hotelling-geometry",
+      "reason": "Do not attribute all orthogonal-fit or eigenvector geometry to Hotelling; 1933 introduced statistical principal-component framework."
+    },
+    {
+      "source_id": "history-hotelling-ncpedia",
+      "reason": "Biography describes 1939 trip to Calcutta and Chapel Hill career; reports Floy Tracy death in 1932 (disagrees with NAS 1934)."
+    },
+    {
+      "source_id": "history-hotelling-wikipedia",
+      "reason": "Accessible navigation only, not source for contested biographical claims."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "025500-h01",
+      "anchor": "nineteen thirty-one paper, The Generalization of Student's Ratio.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-t2",
+        "history-hotelling-nas"
+      ],
+      "source_locator": "1931 original",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025500-h02",
+      "anchor": "Later economists, notably d'Aspremont, Gabszewicz, and Thisse in nineteen seventy-nine, demonstrated the problem",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-location-correction",
+        "history-hotelling-nas"
+      ],
+      "source_locator": "1979 correction",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025500-h03",
+      "anchor": "In a nineteen forty-seven letter concerning national parks,",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas"
+      ],
+      "source_locator": "NAS discussion 1947 letter",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025500-h04",
+      "anchor": "Hotelling's original paper frequently worked with standardized variables,",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-pca-full1",
+        "history-hotelling-pca-full2"
+      ],
+      "source_locator": "PCA standard measures",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025500-h05",
+      "anchor": "Hotelling turned this problem into his nineteen thirty-six paper, Relations Between Two Sets of Variates,",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-cca",
+        "history-hotelling-cca-facsimile"
+      ],
+      "source_locator": "Biometrika 28 321-377",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025500-h06",
+      "anchor": "In nineteen thirty-six, with Margaret Richards Pabst, he published research on rank correlation",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-pabst",
+        "history-hotelling-nas"
+      ],
+      "source_locator": "1936 coauthored nonparametric rank paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025500-h07",
+      "anchor": "During the Second World War Hotelling helped create and direct the Statistical Research Group at Columbia.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-bio"
+      ],
+      "source_locator": "SRG wartime",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025500-h08",
+      "anchor": "In nineteen forty he published The Teaching of Statistics.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-teaching",
+        "history-hotelling-nas"
+      ],
+      "source_locator": "1940 journal",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025500-h09",
+      "anchor": "In nineteen forty-six he accepted an invitation to the University of North Carolina at Chapel Hill,",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-bio"
+      ],
+      "source_locator": "UNC department",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025500-h10",
+      "anchor": "The community included scholars such as Raj Chandra Bose, Wassily Hoeffding, P. L. Hsu, Herbert Robbins, and S. N. Roy.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-bio"
+      ],
+      "source_locator": "UNC recruitment",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "025500-h11",
+      "anchor": "He retired from Chapel Hill in nineteen sixty-six and died there on December twenty-six, nineteen seventy-three.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-mactutor"
+      ],
+      "source_locator": "retirement/death",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "anchor": "Colleagues later described his support for displaced European scholars, including Abraham Wald",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-mactutor"
+      ],
+      "source_locator": "NAS and MacTutor refugee support",
+      "audit_status": "source_cross_checked",
+      "id": "025500-h12"
+    },
+    {
+      "anchor": "During the Second World War Hotelling helped create and direct the Statistical Research Group at Columbia.",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-hotelling-nas"
+      ],
+      "source_locator": "NAS war research group memoir",
+      "audit_status": "source_cross_checked",
+      "id": "025500-h13"
+    },
+    {
+      "anchor": "Columbia did not create the independent department Hotelling wanted",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-hotelling-nas"
+      ],
+      "source_locator": "NAS Columbia administration",
+      "audit_status": "source_cross_checked",
+      "id": "025500-h14"
+    },
+    {
+      "anchor": "The group he attracted included researchers with international experiences",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-hotelling-nas"
+      ],
+      "source_locator": "NAS Chapel Hill institutional network",
+      "audit_status": "source_cross_checked",
+      "id": "025500-h15"
+    },
+    {
+      "anchor": "He also maintained his interest in economics and public policy after the most famous statistical papers",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-bio"
+      ],
+      "source_locator": "Hotelling public economics research",
+      "audit_status": "source_cross_checked",
+      "id": "025500-h16"
+    },
+    {
+      "anchor": "Hotelling later visited other universities, including a professorship in Buenos Aires in the nineteen sixties.",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-hotelling-ncpedia"
+      ],
+      "source_locator": "NCpedia visiting professor 1965",
+      "audit_status": "source_cross_checked",
+      "id": "025500-h17"
+    }
+  ]
+}

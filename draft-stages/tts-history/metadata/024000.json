@@ -78,6 +78,30 @@
     {
       "source_id": "history-pearson-early",
       "reason": "Historical account of Pearson, Weldon and Galton and UCL’s eugenics institutions; later renaming and 1933 succession."
+    },
+    {
+      "source_id": "history-pearson-papers-ucl",
+      "reason": "Scope of personal, family and laboratory archives; Galton Laboratory and Biometrika, 1907 directorship, 1911 chair."
+    },
+    {
+      "source_id": "history-pearson-women-ucl",
+      "reason": "Women working unpaid and below male pay scales; laboratory personnel, scientific contributions, marriage-bar practices."
+    },
+    {
+      "source_id": "history-pearson-eugenics-ucl",
+      "reason": "Documented executive support, Galton Laboratory, 1911 endowment, racist program, 1933 reorganization and later reception."
+    },
+    {
+      "source_id": "history-pearson-alice-lee",
+      "reason": "Lee and Pearson; 1898 cranial research, contested thesis review, his defense of her authorship and comments on her expression."
+    },
+    {
+      "source_id": "history-pearson-alice-lee-context",
+      "reason": "1892 Pearson-Bedford dispute and Lee’s reply; cautions that criticism of sexism did not imply a rejection of racial hierarchy."
+    },
+    {
+      "source_id": "history-pearson-wikipedia",
+      "reason": "Accessible navigation only, not source for contested biographical claims."
     }
   ],
   "historical_claims": [
@@ -193,83 +217,6 @@
     },
     {
       "id": "024000-h11",
-      "anchor": "Pearson developed and systematized methods for correlation and regression",
-      "kind": "historical_mathematics",
-      "source_ids": [
-        "history-pearson-1896",
-        "history-pearson-mactutor"
-      ],
-      "source_locator": "1893-1900 papers and historical bibliography",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "024000-h12",
-      "anchor": "He helped popularize the name standard deviation.",
-      "kind": "historical_mathematics",
-      "source_ids": [
-        "history-pearson-mactutor"
-      ],
-      "source_locator": "MacTutor terminology entry",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "024000-h13",
-      "anchor": "Pearson's nineteen hundred paper introduced a general chi-square goodness-of-fit criterion.",
-      "kind": "historical_mathematics",
-      "source_ids": [
-        "history-pearson-1896",
-        "history-pearson-chi-history",
-        "history-pearson-fisher"
-      ],
-      "source_locator": "Pearson 1900 and later degrees-of-freedom history",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "024000-h14",
-      "anchor": "Ronald Fisher clarified important aspects of it in the nineteen twenties",
-      "kind": "historical_mathematics",
-      "source_ids": [
-        "history-pearson-chi-history",
-        "history-pearson-fisher"
-      ],
-      "source_locator": "Fisher 1922–1925 methods and historiography",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "024000-h15",
-      "anchor": "This is the problem Pearson addressed in his nineteen-oh-one paper",
-      "kind": "historical_mathematics",
-      "source_ids": [
-        "history-pearson-primary",
-        "history-pearson-topic"
-      ],
-      "source_locator": "Pearson 1901 original paper and historical prehistory",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "024000-h16",
-      "anchor": "It did not present a modern software implementation or use the later terminology",
-      "kind": "historical_mathematics",
-      "source_ids": [
-        "history-pearson-primary",
-        "history-pearson-topic",
-        "history-pearson-hotelling"
-      ],
-      "source_locator": "Original 1901 text and 1933 statistical framing",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "024000-h17",
-      "anchor": "The precise spectral perturbation theorems that quantify such behavior were developed decades after Pearson",
-      "kind": "historical_mathematics",
-      "source_ids": [
-        "history-pearson-topic"
-      ],
-      "source_locator": "Chronological distinction from later matrix perturbation work",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "024000-h18",
       "anchor": "In nineteen-oh-one he and Weldon founded Biometrika",
       "kind": "historical_biography",
       "source_ids": [
@@ -281,7 +228,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "024000-h19",
+      "id": "024000-h12",
       "anchor": "Alice Lee worked on statistical questions involving measurements of the human skull.",
       "kind": "historical_biography",
       "source_ids": [
@@ -292,7 +239,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "024000-h20",
+      "id": "024000-h13",
       "anchor": "Mary Beeton contributed to analyses of longevity and inherited traits.",
       "kind": "historical_biography",
       "source_ids": [
@@ -302,41 +249,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "024000-h21",
-      "anchor": "After Galton's death in nineteen eleven, Pearson became the first holder",
-      "kind": "historical_biography",
-      "source_ids": [
-        "history-pearson-archive",
-        "history-pearson-early",
-        "history-pearson-bio"
-      ],
-      "source_locator": "UCL archival and institutional history",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "024000-h22",
-      "anchor": "Francis Galton's money helped him establish the Galton Laboratory for National Eugenics in nineteen-oh-seven.",
-      "kind": "historical_biography",
-      "source_ids": [
-        "history-pearson-eugenics",
-        "history-pearson-legacy",
-        "history-pearson-bio"
-      ],
-      "source_locator": "UCL archival eugenics history",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "024000-h23",
-      "anchor": "The detailed UCL history of its eugenics programs documents his particular hostility toward Jewish immigrant communities",
-      "kind": "historical_biography",
-      "source_ids": [
-        "history-pearson-eugenics"
-      ],
-      "source_locator": "UCL digital exhibition on racist eugenic research agenda",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "024000-h24",
+      "id": "024000-h14",
       "anchor": "Historians have shown that Pearson considered several possible theories of inheritance.",
       "kind": "historical_biography",
       "source_ids": [
@@ -346,7 +259,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "024000-h25",
+      "id": "024000-h15",
       "anchor": "William Bateson and others studied discrete patterns associated with Gregor Mendel's work.",
       "kind": "historical_biography",
       "source_ids": [
@@ -357,7 +270,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "024000-h26",
+      "id": "024000-h16",
       "anchor": "Weldon died in nineteen-oh-six",
       "kind": "historical_biography",
       "source_ids": [
@@ -368,91 +281,76 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "024000-h27",
-      "anchor": "Pearson also had difficult intellectual relations with Ronald Fisher",
-      "kind": "historical_biography",
+      "anchor": "Cambridge awarded prestige through the Mathematical Tripos",
+      "kind": "historical_biography_or_interpretation",
       "source_ids": [
-        "history-pearson-chi-history",
+        "history-pearson-mactutor",
+        "history-pearson-bio"
+      ],
+      "source_locator": "Tripos and early education",
+      "audit_status": "source_cross_checked",
+      "id": "024000-h17"
+    },
+    {
+      "anchor": "In Germany, a serious scholar could move between disciplinary traditions",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
         "history-pearson-mactutor"
       ],
-      "source_locator": "History of chi-square degrees of freedom and statistical debate",
-      "audit_status": "source_cross_checked"
+      "source_locator": "German education; contextual synthesis",
+      "audit_status": "source_cross_checked",
+      "id": "024000-h18"
     },
     {
-      "id": "024000-h28",
-      "anchor": "Pearson's son Egon later collaborated with Jerzy Neyman",
-      "kind": "historical_biography",
+      "anchor": "In the early eighteen nineties Pearson publicly disparaged the academic work of women's colleges.",
+      "kind": "historical_biography_or_interpretation",
       "source_ids": [
-        "history-pearson-early",
-        "history-pearson-mactutor"
+        "history-pearson-alice-lee-context"
       ],
-      "source_locator": "UCL departmental history and succession",
-      "audit_status": "source_cross_checked"
+      "source_locator": "Smithsonian, 1892 exchange",
+      "audit_status": "source_cross_checked",
+      "id": "024000-h19"
     },
     {
-      "id": "024000-h29",
-      "anchor": "And in nineteen thirty-three Harold Hotelling recast principal components",
-      "kind": "historical_mathematics",
+      "anchor": "In eighteen ninety-eight Lee measured the heads of participants in a meeting of the Anatomical Society in Dublin.",
+      "kind": "historical_biography_or_interpretation",
       "source_ids": [
-        "history-pearson-hotelling",
-        "history-pearson-topic"
+        "history-pearson-alice-lee",
+        "history-pearson-alice-lee-context"
       ],
-      "source_locator": "Hotelling 1933 original, Farebrother 2022 historiography",
-      "audit_status": "source_cross_checked"
+      "source_locator": "Lee, Dublin measurement 1898",
+      "audit_status": "source_cross_checked",
+      "id": "024000-h20"
     },
     {
-      "id": "024000-h30",
-      "anchor": "Other nineteenth-century researchers had considered closely related orthogonal fitting questions.",
-      "kind": "historical_mathematics",
+      "anchor": "Even the examination of Lee's thesis became contested.",
+      "kind": "historical_biography_or_interpretation",
       "source_ids": [
-        "history-pearson-topic"
+        "history-pearson-alice-lee"
       ],
-      "source_locator": "Farebrother 2022, Weisbach, Adcock predecessors",
-      "audit_status": "source_cross_checked"
+      "source_locator": "Lee dissertation controversy",
+      "audit_status": "source_cross_checked",
+      "id": "024000-h21"
     },
     {
-      "id": "024000-h31",
-      "anchor": "He founded the Annals of Eugenics in nineteen twenty-five.",
-      "kind": "historical_biography",
+      "anchor": "Ethel Elderton became an important scientific worker in the Galton Laboratory.",
+      "kind": "historical_biography_or_interpretation",
       "source_ids": [
-        "history-pearson-archive",
-        "history-pearson-early"
+        "history-pearson-women-ucl"
       ],
-      "source_locator": "Pearson archival chronology",
-      "audit_status": "source_cross_checked"
+      "source_locator": "UCL archive personnel history",
+      "audit_status": "source_cross_checked",
+      "id": "024000-h22"
     },
     {
-      "id": "024000-h32",
-      "anchor": "He retired from University College London in nineteen thirty-three.",
-      "kind": "historical_biography",
+      "anchor": "UCL's recent archival cataloguing documents women who volunteered without pay",
+      "kind": "historical_biography_or_interpretation",
       "source_ids": [
-        "history-pearson-archive",
-        "history-pearson-early"
+        "history-pearson-women-ucl"
       ],
-      "source_locator": "UCL archival/departmental history",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "024000-h33",
-      "anchor": "Karl Pearson died on the twenty-seventh of April, nineteen thirty-six",
-      "kind": "historical_biography",
-      "source_ids": [
-        "history-pearson-rs",
-        "history-pearson-archive"
-      ],
-      "source_locator": "Royal Society and archival dates",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "024000-h34",
-      "anchor": "In June twenty twenty, University College London removed Pearson's name from named spaces",
-      "kind": "historical_biography",
-      "source_ids": [
-        "history-pearson-denaming",
-        "history-pearson-early"
-      ],
-      "source_locator": "June 19 2020 UCL denaming announcement",
-      "audit_status": "source_cross_checked"
+      "source_locator": "UCL gendered salaries and volunteer work",
+      "audit_status": "source_cross_checked",
+      "id": "024000-h23"
     }
   ]
 }

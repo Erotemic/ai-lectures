@@ -82,6 +82,14 @@
     {
       "source_id": "history-hotelling-geometry",
       "reason": "Do not attribute all orthogonal-fit or eigenvector geometry to Hotelling; 1933 introduced statistical principal-component framework."
+    },
+    {
+      "source_id": "history-hotelling-ncpedia",
+      "reason": "Biography describes 1939 trip to Calcutta and Chapel Hill career; reports Floy Tracy death in 1932 (disagrees with NAS 1934)."
+    },
+    {
+      "source_id": "history-hotelling-wikipedia",
+      "reason": "Accessible navigation only, not source for contested biographical claims."
     }
   ],
   "historical_claims": [
@@ -207,17 +215,6 @@
     },
     {
       "id": "025000-h12",
-      "anchor": "nineteen thirty-one paper, The Generalization of Student's Ratio.",
-      "kind": "historical_biography_or_attribution",
-      "source_ids": [
-        "history-hotelling-t2",
-        "history-hotelling-nas"
-      ],
-      "source_locator": "1931 original",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "025000-h13",
       "anchor": "His nineteen twenty-five work on depreciation",
       "kind": "historical_biography_or_attribution",
       "source_ids": [
@@ -228,7 +225,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "025000-h14",
+      "id": "025000-h13",
       "anchor": "In nineteen twenty-nine he published Stability in Competition,",
       "kind": "historical_biography_or_attribution",
       "source_ids": [
@@ -239,18 +236,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "025000-h15",
-      "anchor": "Later economists, notably d'Aspremont, Gabszewicz, and Thisse in nineteen seventy-nine, demonstrated the problem",
-      "kind": "historical_biography_or_attribution",
-      "source_ids": [
-        "history-hotelling-location-correction",
-        "history-hotelling-nas"
-      ],
-      "source_locator": "1979 correction",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "025000-h16",
+      "id": "025000-h14",
       "anchor": "In nineteen thirty-one he published The Economics of Exhaustible Resources,",
       "kind": "historical_biography_or_attribution",
       "source_ids": [
@@ -261,17 +247,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "025000-h17",
-      "anchor": "In a nineteen forty-seven letter concerning national parks,",
-      "kind": "historical_biography_or_attribution",
-      "source_ids": [
-        "history-hotelling-nas"
-      ],
-      "source_locator": "NAS discussion 1947 letter",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "025000-h18",
+      "id": "025000-h15",
       "anchor": "In nineteen thirty-one Hotelling moved to Columbia University",
       "kind": "historical_biography_or_attribution",
       "source_ids": [
@@ -282,7 +258,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "025000-h19",
+      "id": "025000-h16",
       "anchor": "Among the people associated with the Columbia group were Abraham Wald, Samuel Wilks, Jacob Wolfowitz, W. Allen Wallis,",
       "kind": "historical_biography_or_attribution",
       "source_ids": [
@@ -292,18 +268,18 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "025000-h20",
-      "anchor": "His first wife, Floy Tracy, died in nineteen thirty-two,",
+      "id": "025000-h17",
+      "anchor": "His first wife's death in the early nineteen thirties brought a major personal loss",
       "kind": "historical_biography_or_attribution",
       "source_ids": [
         "history-hotelling-mactutor"
       ],
-      "source_locator": "October 1932; discrepancy with NAS memoir",
-      "audit_status": "source_cross_checked"
+      "source_locator": "MacTutor/NCpedia report 1932; NAS memorial reports 1934; year deliberately omitted",
+      "audit_status": "source_discrepancy_acknowledged"
     },
     {
-      "id": "025000-h21",
-      "anchor": "He later married Susanna Porter Edmonson in nineteen thirty-four.",
+      "id": "025000-h18",
+      "anchor": "In nineteen thirty-four he married Susanna Porter Edmonson.",
       "kind": "historical_biography_or_attribution",
       "source_ids": [
         "history-hotelling-mactutor"
@@ -312,7 +288,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "025000-h22",
+      "id": "025000-h19",
       "anchor": "His nineteen thirty-three work on principal components belongs to these years.",
       "kind": "historical_biography_or_attribution",
       "source_ids": [
@@ -324,7 +300,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "025000-h23",
+      "id": "025000-h20",
       "anchor": "It appeared in the Journal of Educational Psychology, in two installments,",
       "kind": "historical_biography_or_attribution",
       "source_ids": [
@@ -335,91 +311,80 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "025000-h24",
-      "anchor": "Hotelling's original paper frequently worked with standardized variables,",
-      "kind": "historical_biography_or_attribution",
-      "source_ids": [
-        "history-hotelling-pca-full1",
-        "history-hotelling-pca-full2"
-      ],
-      "source_locator": "PCA standard measures",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "025000-h25",
-      "anchor": "Hotelling turned this problem into his nineteen thirty-six paper, Relations Between Two Sets of Variates,",
-      "kind": "historical_biography_or_attribution",
-      "source_ids": [
-        "history-hotelling-cca",
-        "history-hotelling-cca-facsimile"
-      ],
-      "source_locator": "Biometrika 28 321-377",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "025000-h26",
-      "anchor": "In nineteen thirty-six, with Margaret Richards Pabst, he published research on rank correlation",
-      "kind": "historical_biography_or_attribution",
-      "source_ids": [
-        "history-hotelling-pabst",
-        "history-hotelling-nas"
-      ],
-      "source_locator": "1936 coauthored nonparametric rank paper",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "025000-h27",
-      "anchor": "During the Second World War Hotelling helped create and direct the Statistical Research Group at Columbia.",
-      "kind": "historical_biography_or_attribution",
-      "source_ids": [
-        "history-hotelling-nas",
-        "history-hotelling-bio"
-      ],
-      "source_locator": "SRG wartime",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "025000-h28",
-      "anchor": "In nineteen forty he published The Teaching of Statistics.",
-      "kind": "historical_biography_or_attribution",
-      "source_ids": [
-        "history-hotelling-teaching",
-        "history-hotelling-nas"
-      ],
-      "source_locator": "1940 journal",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "025000-h29",
-      "anchor": "In nineteen forty-six he accepted an invitation to the University of North Carolina at Chapel Hill,",
-      "kind": "historical_biography_or_attribution",
-      "source_ids": [
-        "history-hotelling-nas",
-        "history-hotelling-bio"
-      ],
-      "source_locator": "UNC department",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "025000-h30",
-      "anchor": "The community included scholars such as Raj Chandra Bose, Wassily Hoeffding, P. L. Hsu, Herbert Robbins, and S. N. Roy.",
-      "kind": "historical_biography_or_attribution",
-      "source_ids": [
-        "history-hotelling-bio"
-      ],
-      "source_locator": "UNC recruitment",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "025000-h31",
-      "anchor": "He retired from Chapel Hill in nineteen sixty-six and died there on December twenty-six, nineteen seventy-three.",
-      "kind": "historical_biography_or_attribution",
+      "anchor": "Journalism requires learning what questions are worth asking",
+      "kind": "historical_biography_or_interpretation",
       "source_ids": [
         "history-hotelling-nas",
         "history-hotelling-mactutor"
       ],
-      "source_locator": "retirement/death",
-      "audit_status": "source_cross_checked"
+      "source_locator": "Narrative interpretation of documented journalism education",
+      "audit_status": "source_cross_checked",
+      "id": "025000-h21"
+    },
+    {
+      "anchor": "Hotelling saw that this was not a collection of isolated tricks",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-mactutor"
+      ],
+      "source_locator": "Fisher Rothamsted and program building",
+      "audit_status": "source_cross_checked",
+      "id": "025000-h22"
+    },
+    {
+      "anchor": "Hotelling married Floy Tracy in nineteen twenty, and they had two children.",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-mactutor"
+      ],
+      "source_locator": "NAS and MacTutor marriage/children",
+      "audit_status": "source_cross_checked",
+      "id": "025000-h23"
+    },
+    {
+      "anchor": "Accounts do not agree on the precise year:",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-hotelling-nas",
+        "history-hotelling-mactutor",
+        "history-hotelling-ncpedia"
+      ],
+      "source_locator": "NAS 1934 vs MacTutor and NCpedia 1932",
+      "audit_status": "source_cross_checked",
+      "id": "025000-h24"
+    },
+    {
+      "anchor": "In nineteen thirty-four he married Susanna Porter Edmonson.",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-hotelling-mactutor",
+        "history-hotelling-ncpedia"
+      ],
+      "source_locator": "1934 remarriage, surname variants",
+      "audit_status": "source_cross_checked",
+      "id": "025000-h25"
+    },
+    {
+      "anchor": "Kenneth Arrow and Erich Lehmann, writing in a National Academy memoir, remembered Hotelling's generosity",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-hotelling-nas"
+      ],
+      "source_locator": "National Academy memoir",
+      "audit_status": "source_cross_checked",
+      "id": "025000-h26"
+    },
+    {
+      "anchor": "In nineteen thirty-nine Hotelling and Susanna traveled to India, where he lectured in Calcutta.",
+      "kind": "historical_biography_or_interpretation",
+      "source_ids": [
+        "history-hotelling-ncpedia"
+      ],
+      "source_locator": "NCpedia India visit 1939",
+      "audit_status": "source_cross_checked",
+      "id": "025000-h27"
     }
   ]
 }
