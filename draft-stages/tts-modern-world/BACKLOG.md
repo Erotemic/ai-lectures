@@ -132,3 +132,20 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **054000:** Oil, environment and the new political economy in the 1960s-1970s: producing countries' aims, 1973 oil shock, inflation, environmental movements and the changing international monetary order.
 
 **Evidence to seek:** For 047000, obtain full conference interventions from African and Asian delegates, in original languages where possible. For 048000, compare village-level land records and surveys with government retrospectives, particularly in Taiwan and China. For 049000, add South African first-person testimony and archived organizing records beyond movement and state summaries. For 050000, review Guatemalan rural petitions, Bolivian Indigenous organizing records, Cuban teacher and learner letters, and rigorous outcome evaluations. Descriptive word counts do not imply a length policy.
+
+
+## Completed: 051000–054000 — Congo, technologies, households and the 1970s economy
+
+- **051000:** Independence Without Control: Congo and the International Crisis, 1960–1965. Congolese independence, rival political programs, Katanga, ONUC, Lumumba and the long struggle over sovereignty.
+- **052000:** The Orbit and the Fallout: Nuclear Danger and the Space Age. Nuclear testing and Pacific testimony, public protest, Cuban missile crisis, space engineering and Apollo.
+- **053000:** Whose Work Counts? Families, Migration, and Labor After 1945. Households, Caribbean and Turkish migrants, Mexican braceros, South African women, labor standards and SEWA.
+- **054000:** The Price of a Barrel: Oil, Money, and Environmental Politics in the 1970s. OPEC, OAPEC, 1971 monetary changes, 1973 oil shock, inflation, New International Economic Order and environmental activism.
+
+**Evidence to deepen:** For 051000, consult full Congolese women’s organization records, ABAKO publications, and Congolese accounts of Kasai violence and the 1964 rebellions; the present diplomatic and UN sources are institutionally selective. For 052000, inspect full Marshallese audio testimony, local health records and Soviet space-program materials, rather than generalize from collection indexes. For 053000, include transcripts of worker/family interviews and disaggregated wage and household-time series before making quantitative outcome claims. For 054000, consult OAPEC member documents in Arabic, producer-country contract histories, and the disagreements over New International Economic Order implementation; do not use an oil price series as proof of household well-being. No fixed lecture duration applies.
+
+## Next research candidates (unindexed)
+
+- **055000:** Vietnam, Laos and Cambodia in wars and revolutions, taking Southeast Asian voices seriously and separating military narratives from civilian experience.
+- **056000:** European integration, social democracy and the strains of postwar welfare settlements.
+- **057000:** Authoritarianism, coups and democracy across the 1970s, including Chile and other regional comparisons; give local political agency and repression their due.
+- **058000:** World food, public health and changing population debates, 1960–1980, distinguishing coercive policy, agricultural technology, and changing health outcomes.

@@ -117,3 +117,13 @@ Every narrated paragraph maps to an independently linked, display-only evidence 
 - **050000 - [Sovereignty and Its Price: Latin America in the Cold War](050000-sovereignty-and-its-price.md)** (2,873 narrated words). Prebisch and industrialization; Bolivian, Guatemalan and Cuban reform; U.S. intervention and the Alliance for Progress.
 
 All historical paragraphs have an external display-only source ledger and structured metadata; explicit access limits prevent abstracts and government statements from being treated as the whole record. Word counts are descriptive, not targets.
+
+
+## Crisis, mobility, and environment, 1960s–1970s (051000–054000)
+
+- **051000 — [Independence Without Control: Congo and the International Crisis, 1960–1965](051000-independence-without-control.md)** (2,791 narrated words). Congolese independence, rival political programs, Katanga, ONUC, Lumumba and the long struggle over sovereignty.
+- **052000 — [The Orbit and the Fallout: Nuclear Danger and the Space Age](052000-the-orbit-and-the-fallout.md)** (2,553 narrated words). Nuclear testing and Pacific testimony, public protest, Cuban missile crisis, space engineering and Apollo.
+- **053000 — [Whose Work Counts? Families, Migration, and Labor After 1945](053000-whose-work-counts.md)** (2,650 narrated words). Households, Caribbean and Turkish migrants, Mexican braceros, South African women, labor standards and SEWA.
+- **054000 — [The Price of a Barrel: Oil, Money, and Environmental Politics in the 1970s](054000-the-price-of-a-barrel.md)** (3,030 narrated words). OPEC, OAPEC, 1971 monetary changes, 1973 oil shock, inflation, New International Economic Order and environmental activism.
+
+Each narrative paragraph has external evidence mappings in the display-only ledger and structured sidecar. The content is written for standalone TTS narration. Manuscript word counts are descriptive, not goals or constraints.
