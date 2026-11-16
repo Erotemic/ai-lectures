@@ -1,7 +1,7 @@
 {
   "id": "childrens-bedtime-stories-episodic-ages-3-4",
   "title": "Children's Bedtime Stories — Episodic (Ages 3–4)",
-  "summary": "Original, continuous single-narrator bedtime adventures for ages 3-4, primarily age three. Season one introduces Willow Bend and concludes its Little-Light Walk. Season two follows Tess, Bo, and Nori over Bell Hill into Far Meadow, where they meet Lila and prepare a gentle ribbon picnic. The world, relationships, map, and shared objects persist between episodes; each night settles without a cliffhanger. Non-spoken parent notes and cited editorial context are included, with no claimed developmental or sleep effects.",
+  "summary": "Original sequential, single-narrator bedtime adventures for ages 3–4, primarily age three. Season one explores Willow Bend and completes the Little-Light Walk; season two travels west to Far Meadow, meets Lila, and completes a ribbon picnic. Season three travels east past Round Pond into Reed Meadow, meets Rill and Aunt Cress, and finishes Bo’s Book of Little Sounds. Places, relationships and objects persist between episodes; every night closes gently. Non-spoken caregiver explanations and citations do not assert developmental or sleep effects.",
   "assumed_background": [
     "Age 3–4; prior episodes enrich continuity but each episode includes enough context to enjoy on its own."
   ],
@@ -20,7 +20,8 @@
   "series_title": "Willow Bend and the Little Lights",
   "sections": [
     "season-1-the-little-light-walk",
-    "season-2-beyond-bell-hill"
+    "season-2-beyond-bell-hill",
+    "season-3-the-book-of-little-sounds"
   ],
   "lectures": [
     {
@@ -190,9 +191,93 @@
       "series_id": "willow-bend-little-lights",
       "season_number": 2,
       "episode_number": 6
+    },
+    {
+      "id": "013000",
+      "title": "The Path Past Round Pond",
+      "section": "season-3-the-book-of-little-sounds",
+      "file": "013000-the-path-past-round-pond.md",
+      "spoken_words": 773,
+      "draft_status": "substantive",
+      "description": "Nori leads the friends east of Round Pond to Reed Meadow, and Bo starts a blue notebook of little sounds.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 3,
+      "episode_number": 1
+    },
+    {
+      "id": "014000",
+      "title": "Bo's Very Serious Listening Hat",
+      "section": "season-3-the-book-of-little-sounds",
+      "file": "014000-bos-very-serious-listening-hat.md",
+      "spoken_words": 697,
+      "draft_status": "substantive",
+      "description": "Bo makes a paper listening hat, discovers that it mostly crinkles, and fills a second notebook page with bridge sounds.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 3,
+      "episode_number": 2
+    },
+    {
+      "id": "015000",
+      "title": "The Croak Behind the Grass",
+      "section": "season-3-the-book-of-little-sounds",
+      "file": "015000-the-croak-behind-the-grass.md",
+      "spoken_words": 709,
+      "draft_status": "substantive",
+      "description": "A rounded bup leads the friends to Rill, a young frog in yellow boots, and a new friendship begins at Reed Meadow.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 3,
+      "episode_number": 3
+    },
+    {
+      "id": "016000",
+      "title": "Lila and the Two Kinds of Wind",
+      "section": "season-3-the-book-of-little-sounds",
+      "file": "016000-lila-and-the-two-kinds-of-wind.md",
+      "spoken_words": 723,
+      "draft_status": "substantive",
+      "description": "Lila travels east with Aunt Mallow, meets Rill, and helps fill the sound book with the different rustles of two meadows.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 3,
+      "episode_number": 4
+    },
+    {
+      "id": "017000",
+      "title": "The Plink Under the Eaves",
+      "section": "season-3-the-book-of-little-sounds",
+      "file": "017000-the-plink-under-the-eaves.md",
+      "spoken_words": 605,
+      "draft_status": "substantive",
+      "description": "From a dry Story House, the friends trace a rainy plink to drops hitting a watering can and add its picture to their book.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 3,
+      "episode_number": 5
+    },
+    {
+      "id": "018000",
+      "title": "The Last Little Sound",
+      "section": "season-3-the-book-of-little-sounds",
+      "file": "018000-the-last-little-sound.md",
+      "spoken_words": 851,
+      "draft_status": "substantive",
+      "description": "Friends from both sides of the valley read Bo’s five pages at Story House, discover a final paper sound, and shelve the completed book.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 3,
+      "episode_number": 6
     }
   ],
-  "season_count": 2,
+  "season_count": 3,
   "seasons": [
     {
       "number": 1,
@@ -218,6 +303,19 @@
         "010000",
         "011000",
         "012000"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "The Book of Little Sounds",
+      "section": "season-3-the-book-of-little-sounds",
+      "episode_ids": [
+        "013000",
+        "014000",
+        "015000",
+        "016000",
+        "017000",
+        "018000"
       ]
     }
   ]

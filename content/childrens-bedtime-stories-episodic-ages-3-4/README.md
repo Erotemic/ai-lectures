@@ -1,7 +1,7 @@
 # Children's Bedtime Stories — Episodic (Ages 3–4)
 
 **Track ID:** `childrens-bedtime-stories-episodic-ages-3-4`  
-**Series:** *Willow Bend and the Little Lights*; two completed seasons  
+**Series:** *Willow Bend and the Little Lights*; three completed seasons  
 **Primary listener:** age three; intended age range: three to four  
 **Performance:** one consistent TTS narrator; no character acting, music, effects, or images needed  
 **Order:** listen in sequence for the full arc, but each episode supplies enough context to listen alone  
@@ -57,3 +57,19 @@ The friends' map extends west past Bell Hill into Far Meadow. They meet Lila and
 | 012000 | [The Picnic Beyond the Hill](012000-the-picnic-beyond-the-hill.md) | Ribbon picnic completed; Lila and Aunt Mallow keep banner in Lila's cottage window; map preserves Willow Bend and Far Meadow; all friends safely home. |
 
 Continuity authority: [WORLD_BIBLE.md](WORLD_BIBLE.md), including an explicit ledger for both seasons. [PARENTS_GUIDE.md](PARENTS_GUIDE.md) supplies non-spoken rationale and links. All six new manuscripts are original single-voice bedtime fiction, with no mandatory story length or imposed moral.
+
+
+## Season three: The Book of Little Sounds
+
+The story expands to **Reed Meadow east of Round Pond**. Nori guides the friends to the reed-lined path; Bo begins a blue book of sounds, meets Rill the frog, and eventually finishes all six pages. This is a gentle story about things people notice, including a few thoroughly silly discoveries, not a required listening curriculum. The season completes without a special festival or cliffhanger.
+
+| Episode | Story | Lasting change |
+|---|---|---|
+| 013000 | [The Path Past Round Pond](013000-the-path-past-round-pond.md) | Reed Meadow and its dry grassy path are discovered east of Round Pond and drawn on Tess’s yellow map; Grandma Fern lends Bo a small blue six-page notebook; the first page depicts shushing reeds; book goes home with Bo. |
+| 014000 | [Bo's Very Serious Listening Hat](014000-bos-very-serious-listening-hat.md) | Second page of blue book shows footsteps tok/tuk on Pebble Bridge; Bo keeps the bent paper listening hat at home; his red scarf remains his. |
+| 015000 | [The Croak Behind the Grass](015000-the-croak-behind-the-grass.md) | Rill and Aunt Cress are established at Reed Meadow; Rill wears yellow boots, one with a blue patch; Tess marks a tiny yellow boot on map; third sound-book page holds bup; Rill has not visited village. |
+| 016000 | [Lila and the Two Kinds of Wind](016000-lila-and-the-two-kinds-of-wind.md) | Lila and Rill have met; Lila knows Reed Meadow east of Round Pond; fourth sound-book page contrasts fluttering Windbreak Tree leaves and shushing reeds; hat’s blue ribbon remains attached; banner remains at cottage. |
+| 017000 | [The Plink Under the Eaves](017000-the-plink-under-the-eaves.md) | Fifth book page records drip on metal watering can, with plink written by Grandma Fern; rain stops; sixth page remains blank; book returns home with Bo. |
+| 018000 | [The Last Little Sound](018000-the-last-little-sound.md) | Sixth page depicts the sound of unfolding Tess’s map; completed Book of Little Sounds rests on the low Story House shelf with Bo’s permission to borrow it again; everyone returns home; lantern and banner remain in established places. |
+
+The canonical notebook-page ledger, new east-west geography and character histories are in [WORLD_BIBLE.md](WORLD_BIBLE.md). The parent-facing source map and optional prompts are in [PARENTS_GUIDE.md](PARENTS_GUIDE.md). All six manuscripts and metadata records preserve **ages 3–4**, single-voice narration, and non-spoken citations.

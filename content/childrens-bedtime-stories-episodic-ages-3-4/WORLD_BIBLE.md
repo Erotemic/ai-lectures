@@ -1,6 +1,6 @@
 # Willow Bend world bible — continuity authority
 
-For editors and later agents. **Not part of TTS narration.** This is the canonical record for what happens across episodes 001000–012000. Before adding an episode, reconcile its opening state with the final state below.
+For editors and later agents. **Not part of TTS narration.** This is the canonical record for what happens across episodes 001000–018000. Before adding an episode, reconcile its opening state with the final state below.
 
 ## The world
 
@@ -106,3 +106,45 @@ Keep family assumptions limited to what is written. Do not invent a missing pare
 ### After season two
 
 Future episodes can visit Far Meadow without treating Lila as a stranger, can use Clover Nook and Sitting Stone, and may explore the as-yet-unvisited Reed Meadow east of Round Pond. Use **Pebble Bridge** as the known creek crossing. Do not restart or erase either season's completed events. Keep one locally satisfying story per episode and a continuing change when appropriate.
+
+
+## Season three — The Book of Little Sounds (013000–018000)
+
+**Continuity update, not spoken.** The Little-Light Walk and the Far Meadow ribbon picnic are both finished. This season introduces a *second* outward journey, east of Round Pond. The six-page sound book completes its little arc and goes on a low shelf at the Story House, with Bo’s permission to borrow it again. Nothing requires an urgent fourth-season follow-up.
+
+### Geography, people and persistent objects
+
+- **Route to Reed Meadow:** Village Green → **Pebble Bridge** (the one established creek crossing) → **Round Pond** and willow → dry winding path **east** → Reed Meadow. The route is on the same far side of the creek as Round Pond; there is **no invented second bridge or crossing**. The low wet hollow lies *below* the dry path, which curves along a small grassy rise above it. A crescent of tall reeds borders the hollow. Children visit accompanied by established adults.
+- **Relative geography:** Far Meadow remains *west* beyond Bell Hill, on the other side of Willow Bend from Reed Meadow. Lila crosses Bell Hill, passes Village Green, and uses Pebble Bridge to visit Reed Meadow. The old mill remains south near the orchard; it is never relocated.
+- **Rill:** a young frog who lives near Reed Meadow with his grown-up **Aunt Cress**, an older frog. He wears two **yellow boots**, one with a **blue patch**. He enjoys making short comic *bup* sounds and likes listening. He meets Tess, Bo and Nori in episode 015000; Lila meets him in 016000. He does not secretly know any character before their depicted meeting. Frog speech, boot-wearing and the particular bup are anthropomorphic fiction.
+- **Aunt Cress:** a reliable adult frog near the dry meadow path. She has a collection of broad, smooth leaves on her windowsill, mentioned in 015000 but not previously visited by the children. She accompanies Rill to Story House in 018000.
+- **Tess's yellow map:** retains all west-side places and the picnic banner marks. Adds the *eastward dry path*, the **crescent of reeds** at Reed Meadow and **small green curve** indicating the dry rise in 013000. Adds one **tiny yellow boot** by the reeds in 015000 to remember Rill. The map is still folded near Tess's bed when at home. No earlier map details are erased.
+- **Book of Little Sounds:** Grandma Fern lends Bo a small **blue six-page notebook** in 013000. It is **not an audio recording**; it carries pictures and a few words written by Grandma at children's requests. Its state is tracked below. Bo keeps it at home between trips until he **asks** that it live on the low shelf at Story House in 018000; Grandma agrees he may borrow it again. The notebook is distinct from Tess's yellow map.
+- **Bo's paper listening hat:** a funny soft-paper hat with drawn oversize ears and a green leaf, folded with Grandma Fern's help in 014000. It does *not* improve hearing; it crinkles. Its tips are bent; Bo keeps it at home after the outing. His **red scarf** remains his daily item.
+- **Prior persistent objects unchanged:** Nori has three pebbles, including the round gray pebble with a white stripe, in her violet pouch; Lila's straw hat still has its blue ribbon; the **orange/blue/violet picnic banner stays *inside* Lila's cream cottage window**; Bo's **tilted silver-spotted orange electric lantern remains by the Story House window**. No flames, magically animated objects, or supernatural geography.
+
+### Exact six-page notebook ledger
+
+| Page | First completed | What is depicted, written, or remembered |
+|---|---|---|
+| 1 | 013000 | Tall reeds and **shhh** in Reed Meadow |
+| 2 | 014000 | Three feet on Pebble Bridge; **tok** and **tuk**, two small bird-note dots; oversized hat joke |
+| 3 | 015000 | Rill's round little croak, **bup** and **buuuuup** |
+| 4 | 016000 | Windbreak Tree branch from Far Meadow and reed crescent from Reed Meadow; **flutter** and **shhh** |
+| 5 | 017000 | Roof drip onto metal watering can outside Story House; **plink**; dots separated by a pause |
+| 6 | 018000 | Two folded corners and yellow map rectangle; the soft **ffft** of Tess opening her map |
+
+### Season-three state ledger
+
+| Episode | New state after its ending | What later chapters must preserve |
+|---|---|---|
+| 013000 | Nori guides the eastward exploration; Reed Meadow and path mapped; Bo receives blue notebook and fills page 1 | East route and notebook exist; nothing about Rill yet |
+| 014000 | Bo makes the paper listening hat and fills notebook page 2 with bridge sounds | Hat stays at Bo's home; book has exactly 2 filled pages |
+| 015000 | Rill and Aunt Cress met; one yellow boot drawn on map; notebook page 3 records bup | Rill's blue-patched yellow boot and new friendship persist; Rill hasn't visited village |
+| 016000 | Lila visits east with Aunt Mallow and meets Rill; notebook page 4 records contrasting winds | Lila and Rill know one another; banner stays at Lila's cottage |
+| 017000 | Rainy-day plink traced to watering can outside Story House; notebook page 5 drawn | The sixth page is still blank; rain ends; book goes home with Bo |
+| 018000 | Friends from east and west share the pages; map's unfolding sound fills page 6; Bo leaves finished book on Story House low shelf | **Season complete.** No impending event, unsolved problem, missing item, or forced cliffhanger |
+
+### After season three
+
+Future episodes may borrow or revisit the book, visit Rill in Reed Meadow, have Lila and Rill encounter one another again, or explore new places. They must not reset the book to empty or turn the low shelf into a magical library. A new season can change the state, but only if the change happens on the page. New stories remain self-contained, gently resolved and suitable for a single TTS narrator.

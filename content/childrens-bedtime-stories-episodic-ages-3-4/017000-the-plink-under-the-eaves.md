@@ -1,0 +1,171 @@
+# 017000 - The Plink Under the Eaves
+
+**Collection:** Children's Bedtime Stories — Episodic (Ages 3–4). **Series:** Willow Bend and the Little Lights. **Season:** Three. **Episode:** 5 of six. **Form:** Original, single-narrator story. **Continuity:** Season three extends the valley to Reed Meadow and develops the Book of Little Sounds.
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+# The Plink Under the Eaves
+
+One morning, rain came to Willow Bend.
+
+Not a rushing, roaring rain.
+
+A soft rain that made small circles in the puddles on Village Green.
+
+Tess sat by the blue-door cottage window with Grandma Fern.
+
+She watched the drops slide down the glass.
+
+One drop caught another drop. They joined together and made a bigger drop, which hurried to the bottom.
+
+"That one had somewhere to go," Tess observed.
+
+Grandma Fern smiled.
+
+"Shall we take the covered path to the Story House when the rain gets lighter?"
+
+Tess liked that idea.
+
+Bo was already at the Story House with the little blue Book of Little Sounds, and Nori was visiting with her grown-up from Round Pond.
+
+When Tess arrived, everyone was warm and dry inside.
+
+Bo had his red scarf wrapped around his neck. The orange paper lantern still leaned safely beside the window.
+
+"I found a new sound," Bo announced.
+
+He held up the book.
+
+Four pages had pictures already: reeds, footsteps, a frog's bup, and two different kinds of windy leaves.
+
+"What sound?" Tess asked.
+
+"Plink."
+
+They waited.
+
+The rain tapped gently on the roof.
+
+Tip, tip, tip.
+
+A drop ran down the window.
+
+Slip.
+
+Then, from somewhere outside the wall, came a clear little sound.
+
+Plink.
+
+Bo looked triumphant.
+
+"There it is!"
+
+Nori went to the window. She listened for a moment.
+
+Tip, tip.
+
+Plink.
+
+"I don't think it's the window," she said.
+
+Tess looked toward the Story House door.
+
+"Is the door squeaking?"
+
+Grandma Fern opened the door a little.
+
+Eeeee.
+
+"That's our squeak," she said, and closed it again.
+
+Then came another plink.
+
+"Different sound," Bo decided.
+
+The friends made guesses from the warm room.
+
+Tess guessed a pebble in a bowl.
+
+Nori guessed a water drop touching something hard.
+
+Bo guessed a very small bell practicing very quietly.
+
+"A bell with a blanket on," he added.
+
+Grandma Fern looked through the window near the door.
+
+"I think I can see where it comes from."
+
+Under the Story House eaves, on the far side of the window, an old metal watering can stood beneath a drip from the roof.
+
+One drop fell from the edge.
+
+Plink.
+
+Then another.
+
+Plink.
+
+The children watched from inside while Grandma Fern explained what they could see.
+
+"The drops are landing on the can," she said. "That gives them a different sound from drops landing in a puddle."
+
+Bo leaned close to the glass.
+
+"So the can is playing the rain."
+
+"You could say that," Grandma Fern replied.
+
+Nori watched the drops.
+
+For a little while they fell almost together.
+
+Plink, plink.
+
+Then they came farther apart.
+
+Plink.
+
+And then there was a quiet space.
+
+Bo opened the fifth page of the blue book.
+
+He drew a watering can with a very long spout. He drew three drops above it.
+
+"That looks like a bird drinking from a teapot," Tess said.
+
+"It can be both," Bo replied.
+
+Nori drew a little gap between the drops. Grandma Fern wrote plink beneath the picture.
+
+By late afternoon, the rain stopped.
+
+The paths outside were damp, but the grown-ups knew which way everyone was going home.
+
+Nori left with her grown-up toward Round Pond. Bo tucked the notebook safely into his bag. Tess and Grandma Fern went back to the blue-door cottage.
+
+At home, Tess watched the last drop slide down the window.
+
+It made no plink at all.
+
+That was fine.
+
+The plink was finished for today.
+
+The puddles rested. The Story House door stayed closed. And Bo's little book had one clean page left.
+
+There was no hurry to fill it.
+
+<!-- END SPOKEN LECTURE -->
+
+## For parents and caregivers - not spoken
+
+**What carries forward:** Fifth book page records drip on metal watering can, with plink written by Grandma Fern; rain stops; sixth page remains blank; book returns home with Bo.
+
+**Why this episode exists:** A gentle sound-source mystery is solved through observation; the story retains pretend guesses and ends without a moral. Adult supervision is explicit and no one must go into rain to investigate. This is original fiction; no developmental or sleep outcome from listening is claimed.
+
+**Optional prompt:** "What made the plink sound?" Optional, especially at bedtime.
+
+**References and evidence limits:** [Janis Strasser, National Association for the Education of Young Children, *Message in a Backpack: Asking Questions to Stretch Your Child's Thinking*](https://www.naeyc.org/node/5321); [U.S. National Park Service, Natural Sounds and Night Skies Division, *Education Resources — Natural Sounds*](https://www.nps.gov/subjects/sound/education-resources.htm). Sources supply general guidance for play, reading or listening, and where applicable a physical or natural-history point; they do not evaluate this story or establish that it improves the listener's development or sleep.
+
+**Single-voice production:** Narrate consistently; character names and actions identify who speaks. Parent-facing notes, source links, and continuity documentation must not be read by TTS. No character acting, music, or effects are required.
