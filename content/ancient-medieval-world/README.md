@@ -37,12 +37,21 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 029000 | Arabia and the First Muslim Community: History, Memory, and the Qur'an | 1,377 |
 | 030000 | After the Conquests: Caliphs, Taxpayers, and the Making of an Empire | 1,500 |
 | 031000 | Across the Red Sea: Aksum, Adulis, and a Connected African World | 1,418 |
+| 032000 | A City of Paper and Rivers: Baghdad and the Abbasid Worlds | 1,378 |
+| 033000 | From Chang'an to the Southern Ports: Tang and Song China | 1,336 |
+| 034000 | Monsoons, Temples, and Ports: South and Southeast Asian Worlds | 1,394 |
+| 035000 | Across the Sahel: Ghana, Cities, and Trans-Saharan Worlds | 1,367 |
+| 036000 | Shorelines of Exchange: East Africa and the Indian Ocean | 1,365 |
+| 037000 | Fields, Lords, and Market Streets: Medieval European Societies | 1,344 |
+| 038000 | Rivers to the Sea: Scandinavians, Rus, and the North Atlantic | 1,307 |
+| 039000 | Courts across the Water: Korea and Japan in Medieval East Asia | 1,337 |
+| 040000 | Reading the Ocean: Voyaging and Settlement in the Pacific | 1,359 |
 
-Lectures 001000–007000 cover early urban and Bronze Age worlds; 008000–015000 cover Iron Age and early classical transformations; 016000–023000 cover classical empires, exchange, and social history; 024000–031000 examine late antique state and religious transformations through about 750 CE. **The bridge to 1500 CE is not yet complete.** Lectures 032000–050000 remain planned in `BACKLOG.md`.
+Lectures 001000–007000 cover early urban and Bronze Age worlds; 008000–015000 cover Iron Age and early classical transformations; 016000–023000 cover classical empires and social history; 024000–031000 cover late antiquity; and 032000–040000 examine medieval societies and networks from roughly 750 to 1200 CE. **The bridge to 1500 CE is not yet complete.** Lectures 041000–050000 remain planned in `BACKLOG.md`.
 
 ## How to read and maintain this pack
 
-- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All thirty-one entries are self-contained, without a prerequisite chain.
+- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All forty entries are self-contained, without a prerequisite chain.
 - `NNNNNN-*.md` files contain narration between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. Everything outside those markers is non-spoken editorial or evidence context.
 - `metadata/NNNNNN.json` maps every spoken paragraph to named source records, with explicit source limitations and interpretive cautions.
 - `metadata/sources.json` contains source identities, links, and caveats. Add original-language evidence and specialized excavation reports when a claim needs more precision; do not misrepresent a general survey as an archival or archaeological primary source.
