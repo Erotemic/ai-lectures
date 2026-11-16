@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-stairs-guardrails-and-geometric-constraints.md",
+  "related_resources": [
+    {
+      "source_id": "icc-irc2021-stairs",
+      "reason": "Example model provisions for guards and handrails; local adoption and edition vary"
+    },
+    {
+      "source_id": "pnnl-loadpath",
+      "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P008000-01",
+      "claim": "Stair and guard requirements include geometry and protective features under adopted building codes.",
+      "kind": "model_code_scope",
+      "supports": [
+        {
+          "source_id": "icc-irc2021-stairs",
+          "location": "Chapter 3 stairs and guards; jurisdiction adoption varies",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "Stringers and protective-rail connections require continuous paths for service loads into structural supports.",
+      "kind": "derived_structural_principle",
+      "supports": [
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Structural continuity and load-path concepts; author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "Finished floor elevation, not rough framing elevation alone, governs usable riser geometry.",
+      "kind": "derived_stair_layout",
+      "supports": [
+        {
+          "source_id": "icc-irc2021-stairs",
+          "location": "R311 stair geometry and riser uniformity; applied layout inference",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+}

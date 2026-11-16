@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-equipment-sizing-commissioning-and-performance-checks.md",
+  "related_resources": [
+    {
+      "source_id": "energystar-hvac-quality",
+      "reason": "Load-based sizing, airflow, refrigerant charge and duct performance"
+    },
+    {
+      "source_id": "acca-manual-j",
+      "reason": "Room and whole-building heating/cooling design load factors"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P008000-01",
+      "claim": "HVAC quality installation involves load-based equipment sizing, suitable airflow, verified refrigerant charge, and duct assessment.",
+      "kind": "quality_installation_guidance",
+      "supports": [
+        {
+          "source_id": "energystar-hvac-quality",
+          "location": "Quality installation guidance under four performance areas",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "Oversizing can increase cycling and reduce comfort, while inadequate airflow can impair performance.",
+      "kind": "quality_installation_guidance",
+      "supports": [
+        {
+          "source_id": "energystar-hvac-quality",
+          "location": "Sizing and airflow sections",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "An equipment nameplate rating is not proof of delivered room-level heating or cooling under design conditions.",
+      "kind": "derived_hvac_system_reasoning",
+      "supports": [
+        {
+          "source_id": "energystar-hvac-quality",
+          "location": "Load calculation, delivered airflow and duct verification; author synthesis",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "acca-manual-j",
+          "location": "Residential load calculation provenance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+}

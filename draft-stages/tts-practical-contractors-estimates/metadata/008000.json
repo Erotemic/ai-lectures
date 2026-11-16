@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-disputes-warranties-and-project-closeout.md",
+  "related_resources": [
+    {
+      "source_id": "ftc-improvement",
+      "reason": "Written estimates, contracts, licenses and payment caution"
+    },
+    {
+      "source_id": "ftc-disaster",
+      "reason": "Licensing/insurance verification and comparable written bids"
+    },
+    {
+      "source_id": "nyag-home-improvement-fact",
+      "reason": "New York progress payments, escrow/bond rules, warranties and lien-related risks"
+    },
+    {
+      "source_id": "nysenate-gbl771",
+      "reason": "Writing and signatures for home-improvement contract amendments under specific state law"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P008000-01",
+      "claim": "Home improvement contracts and closeout records should make scope, payment and obligations explicit.",
+      "kind": "consumer_contract_guidance",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Comparison of estimates and written contractor terms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "Documentation of completed work and payments matters for consumer repair disputes.",
+      "kind": "consumer_contract_guidance",
+      "supports": [
+        {
+          "source_id": "ftc-disaster",
+          "location": "Written agreements, payment and records",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nyag-home-improvement-fact",
+          "location": "New York example of records and contract requirements",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "Warranty, lien, and payment obligations depend on agreement and jurisdiction rather than one universal closeout rule.",
+      "kind": "derived_jurisdictional_contracts",
+      "supports": [
+        {
+          "source_id": "nysenate-gbl771",
+          "location": "New York home improvement contracts, narrow regional example",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ftc-improvement",
+          "location": "FTC state-law variation guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+}

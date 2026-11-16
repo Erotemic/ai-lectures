@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-food-preservation-freezing-drying-and-acidification.md",
+  "related_resources": [
+    {
+      "source_id": "nchfp-safe-canning",
+      "reason": "Distinguish low-acid vs acid foods, pH 4.6 threshold and validated process"
+    },
+    {
+      "source_id": "fsis-safety",
+      "reason": "Clean, separate, cook and chill practices"
+    },
+    {
+      "source_id": "nchfp-drying-foods",
+      "reason": "Food-type appropriate drying and storage"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P008000-01",
+      "claim": "Freezing slows microbial growth but should not be considered sterilization.",
+      "kind": "food_preservation_guidance",
+      "supports": [
+        {
+          "source_id": "nchfp-safe-canning",
+          "location": "Food preservation mechanisms and distinction from microbial destruction",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "fsis-safety",
+          "location": "Safe chilling and freezing food handling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "Drying reduces water availability, but food-specific processing and moisture-protective storage remain important.",
+      "kind": "food_preservation_guidance",
+      "supports": [
+        {
+          "source_id": "nchfp-drying-foods",
+          "location": "Drying methods and food categories",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "Low-acid home-canned foods above pH 4.6 require the appropriate tested pressure-canning process, not improvised acidification.",
+      "kind": "food_preservation_guidance",
+      "supports": [
+        {
+          "source_id": "nchfp-safe-canning",
+          "location": "Food acidity, low-acid classification and processing method",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+}
