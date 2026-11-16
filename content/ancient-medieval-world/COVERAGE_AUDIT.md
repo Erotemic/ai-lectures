@@ -7,7 +7,7 @@
 | Deep Time (`draft-stages/tts-deep-time`) | Physical and biological deep history, human evolution, farming transitions and methods of prehistoric evidence; 36 indexed lectures at time of this audit | Does not sustain an account of later states, empires, belief systems, and linked trade networks |
 | World History (`draft-stages/tts-world-history`) | 110 indexed lectures on individual ancient and later people, literary works, archeological methods, and other historical episodes at time of audit | Many focused subjects, but not a sequential global course covering every period |
 | The Making of the Modern World (`draft-stages/tts-modern-world`) | 94 indexed lectures beginning around 1500 CE and continuing into early COVID-19 at time of audit | Starts after many institutions, economic systems, beliefs, and population histories already took shape |
-| **This pack**, `ancient-medieval-world` | Indexed 001000–040000 on early urban worlds, Bronze Age networks, Iron Age and classical societies, late antiquity, and medieval connections through 1200 | **Five units are written**; final 1200–1500 sequence remains |
+| **This pack**, `ancient-medieval-world` | Indexed 001000–050000 on early urban worlds, Bronze Age networks, Iron Age and classical societies, late antiquity, medieval connections, and developments through roughly 1500 | **Six introductory units are written**; targeted regional and source-level gaps remain |
 
 The temporal boundary between Deep Time and political history is not a universal date: agriculture, writing, urbanism, and state formation developed at different times in different parts of the world. Our approximate bridge is **3500 BCE–1500 CE**, not a claim that all regions entered the same historical stage together.
 
@@ -22,7 +22,7 @@ Status means sustained *chronological* treatment in this pack. It does not claim
 | Connected ancient empires and social life, ca. 300 BCE–300 CE | **Written: 016000–023000 (introductory coverage)** | Further research needed on South Asian regional powers outside Maurya, the Korean peninsula and northern Vietnam under Han expansion, and additional first-millennium African and American societies |
 | Late antiquity and religious/political realignment, ca. 300–750 CE | **Written: 024000–031000 (introductory coverage)** | Additional depth warranted for Southeast Asia, post-classical American societies, Central Asian borderlands, and local Christian, Buddhist, Zoroastrian and early Islamic documentary records |
 | Early and high medieval worlds, ca. 750–1200 CE | **Written: 032000–040000 (introductory coverage)** | Further depth remains needed on Central Asian polities, steppe societies, internal religious disputes and localized archaeological histories |
-| Global transformations before 1500, ca. 1200–1500 CE | **Not yet written** | Mongol empires; plague and demographic changes; Mali and Swahili worlds; Great Zimbabwe; African maritime and caravan trade; late medieval Eurasia; Maya, Mexica, and Andean histories; Ming and early Ottoman states |
+| Global transformations before 1500, ca. 1200–1500 CE | **Written: 041000–050000 (introductory coverage)** | More specialist work needed on Mongol successor institutions, plague outside Europe, local Sahelian and southern African communities, Indigenous American sources, and Asian regional histories |
 
 ## Cross-cutting deficits to investigate
 
@@ -38,4 +38,4 @@ Status means sustained *chronological* treatment in this pack. It does not claim
 
 ## Status and next action
 
-The first forty lectures (through the medieval-connections unit) are indexed and contain paragraph-level evidence mapping. Next, draft lectures `041000–050000` on Mongol expansion, plague, Sahel and southern African centers, American regional transformations, Asian maritime networks, and the fifteenth-century handoff. Continue to deepen omitted regions and original-language evidence. Re-run this audit before declaring the 3500 BCE–1500 CE bridge complete.
+All fifty lectures (through the fifteenth-century handoff) are indexed and contain paragraph-level evidence mapping. The planned **introductory chronological bridge** from approximately 3500 BCE to 1500 CE is written, but it is not comprehensive world history. Prioritize the remaining regional and social-history gaps, original-language evidence, specialist archaeology, and explicit links to existing specialist tracks. A future coverage audit should distinguish manuscript existence, evidentiary quality, and depth of teaching instead of treating the presence of a topic as proof that it has been mastered.

@@ -1,6 +1,6 @@
 # Backlog — Ancient and Medieval Histories
 
-**Status:** The first forty lectures (001000–040000) are written, indexed, and source-mapped. Unit 5 (032000–040000), on medieval networks and parallel histories, is complete as an introductory sequence. Entries 041000 onward are **proposed manuscripts only**; they are not indexed and must not be described as complete.
+**Status:** All fifty lectures (001000–050000) are written, indexed, and source-mapped. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
 
 The chronology is a scaffold, not a sequence in which one region necessarily learns from another. Each unit should integrate changes to governance with work, family, belief, material culture, economic organization, and what the historical evidence actually allows us to know.
 
@@ -57,20 +57,29 @@ The chronology is a scaffold, not a sequence in which one region necessarily lea
 | 039000 | Korea and Japan in East Asian History | Local political formation, Buddhism, literature and changing ties to Chinese states |
 | 040000 | Settling the Pacific | Ocean navigation, migration chronologies, settlement and indigenous knowledge, without equating all islands |
 
-## Unit 6 — Before 1500: states, pandemics, and long-distance networks (next to write)
+## Unit 6 — Before 1500: states, pandemics, and long-distance networks (written and indexed)
 
 | Reserved ID | Working lecture | Guiding questions |
 | --- | --- | --- |
-| 041000 | Mongol Expansion and the Limits of Empire | Conquest, administrative plurality, exchange, war and demographic consequences |
-| 042000 | Plague across Connected Regions | Sources for epidemic history, uncertainty in transmission, inequalities in impact and social responses |
-| 043000 | Mali, Mansa Musa, and Wider Sahelian Worlds | Gold, scholarship, trade and external versus local historical evidence |
-| 044000 | Great Zimbabwe and Southern African Networks | Stone centers, cattle, gold, trade, chronology and colonial misattribution |
-| 045000 | Mesoamerica from Classic Maya to Mexica Polities | Political continuities and changes, inscriptions, tribute, local communities |
-| 046000 | Andean Histories toward the Inca | Regional cultures, roads, labor obligations, Inca imperial expansion and source mediation |
-| 047000 | Maritime Asia: Ports, Empires, and Commerce | Yuan-to-Ming worlds, island Southeast Asia, India, merchants and oceanic travel |
-| 048000 | The Ottoman and Byzantine Worlds in Transition | Regional power, conquest, legal and social life up to the fifteenth century |
-| 049000 | Medieval Europe between Plague and Atlantic Expansion | Population changes, political conflict, labor, intellectual life and commerce |
-| 050000 | The World at 1500: Several Histories Meet | Parallel developments, inequalities, trade, states, and the boundaries of global connection; handoff to modern-world 001000 |
+| 041000 | Many Khans, Many Empires: Conquest and Government across Eurasia | Conquest, administrative plurality, exchange, war and demographic consequences |
+| 042000 | A Disease with Many Histories: Plague across the Fourteenth-Century World | Sources for epidemic history, uncertainty in transmission, inequalities in impact and social responses |
+| 043000 | More than a Pilgrimage: Mali, the Sahel, and the Work of Empire | Gold, scholarship, trade and external versus local historical evidence |
+| 044000 | The Walls and the Lives Beyond Them: Great Zimbabwe and Southern Africa | Stone centers, cattle, gold, trade, chronology and colonial misattribution |
+| 045000 | More than One Capital: Maya and Mexica Worlds before 1500 | Political continuities and changes, inscriptions, tribute, local communities |
+| 046000 | Roads before the Empire: Andean States and the Rise of the Inca | Regional cultures, roads, labor obligations, Inca imperial expansion and source mediation |
+| 047000 | Ports between Monsoons: Maritime Asia before 1500 | Yuan-to-Ming worlds, island Southeast Asia, India, merchants and oceanic travel |
+| 048000 | A City through Several Empires: Byzantines and Ottomans before 1500 | Regional power, conquest, legal and social life up to the fifteenth century |
+| 049000 | After the Plague: Work, War, and Learning in Late Medieval Europe | Population changes, political conflict, labor, intellectual life and commerce |
+| 050000 | The World around 1500: Connections, Boundaries, and New Encounters | Parallel developments, inequalities, trade, states, and the boundaries of global connection; handoff to modern-world 001000 |
+
+## Next research campaigns (not yet indexed)
+
+The initial bridge is now written. The priorities below are **research proposals**, not existing lectures or assigned identifiers.
+
+- **Original-language and archaeological evidence.** Review Persian, Arabic, Chinese, and Indigenous textual traditions with specialist translations and edition references; expand archaeological field reports rather than relying on heritage summaries alone.
+- **Regions with thin treatment.** Add dedicated history of Central Asian societies beyond empire-centered stories, Southeast Asian countryside, inland and eastern African polities, Indigenous North American regions, and Caribbean communities before European arrival.
+- **Everyday social histories.** Expand household labor, enslavement and coercion, migration, environment, women and kinship, commercial credit, and religious practice with evidence specific to place and period.
+- **Cross-track synchronization.** Add clear chronology handoffs to the existing Deep Time, World History and Modern World curricula; avoid rewriting stronger specialist lectures already available elsewhere.
 
 ## Research rules for expansion
 

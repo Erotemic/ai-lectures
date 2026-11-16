@@ -6,13 +6,13 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 
 | ID | Topic | Spoken words |
 | --- | --- | ---: |
-| 001000 | What Makes a City? Households, Fields, and the First Urban Worlds | 1,525 |
+| 001000 | What Makes a City? Households, Fields, and the First Urban Worlds | 1,526 |
 | 002000 | Kingdoms of Clay: Mesopotamia from Sumer to Babylon | 1,369 |
 | 003000 | Beyond the Pyramid: The Nile, the State, and the People Who Built Egypt | 1,436 |
 | 004000 | The Cities That Do Not Name Their Kings: Life in the Indus World | 1,406 |
 | 005000 | Bronze and Bone: Early Chinese States and the Problem of Dynastic Memory | 1,396 |
 | 006000 | The Sea Between Palaces: Trade, Diplomacy, and the End of the Bronze Age | 1,367 |
-| 007000 | Cities on Different Terms: Caral, the Gulf Coast, and Early American Worlds | 1,223 |
+| 007000 | Cities on Different Terms: Caral, the Gulf Coast, and Early American Worlds | 1,225 |
 | 008000 | After the Palaces: Rebuilding Worlds around 1200 BCE | 1,300 |
 | 009000 | The Assyrian Imperial System and the People It Ruled | 1,265 |
 | 010000 | Persia: How an Empire Governs Many Peoples | 1,213 |
@@ -28,15 +28,15 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 020000 | Kingdoms between the Empires: Kush, Aksum, Arabia, and Iran | 1,426 |
 | 021000 | Routes without a Single Silk Road: Merchants, Oceans, and Intermediaries | 1,287 |
 | 022000 | Cities without the Roman Calendar: American Worlds across the Classical Centuries | 1,392 |
-| 023000 | An Empire at the Door: Homes, Labor, and Inequality in the Classical World | 1,410 |
+| 023000 | An Empire at the Door: Homes, Labor, and Inequality in the Classical World | 1,411 |
 | 024000 | When Rome Changed Shape: Emperors, Cities, and the Eastern Empire | 1,447 |
-| 025000 | A King of Kings beside Other Worlds: Sasanian Iran and Its Neighbors | 1,365 |
+| 025000 | A King of Kings beside Other Worlds: Sasanian Iran and Its Neighbors | 1,366 |
 | 026000 | Beyond a Golden Age: Gupta-Era India and Regional Power | 1,398 |
-| 027000 | Many Courts, One Canal: China from Division to the Early Tang | 1,385 |
+| 027000 | Many Courts, One Canal: China from Division to the Early Tang | 1,386 |
 | 028000 | Many Churches, Changing Empires: Christianity in Late Antiquity | 1,368 |
 | 029000 | Arabia and the First Muslim Community: History, Memory, and the Qur'an | 1,377 |
 | 030000 | After the Conquests: Caliphs, Taxpayers, and the Making of an Empire | 1,500 |
-| 031000 | Across the Red Sea: Aksum, Adulis, and a Connected African World | 1,418 |
+| 031000 | Across the Red Sea: Aksum, Adulis, and a Connected African World | 1,419 |
 | 032000 | A City of Paper and Rivers: Baghdad and the Abbasid Worlds | 1,378 |
 | 033000 | From Chang'an to the Southern Ports: Tang and Song China | 1,336 |
 | 034000 | Monsoons, Temples, and Ports: South and Southeast Asian Worlds | 1,394 |
@@ -46,16 +46,26 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 038000 | Rivers to the Sea: Scandinavians, Rus, and the North Atlantic | 1,307 |
 | 039000 | Courts across the Water: Korea and Japan in Medieval East Asia | 1,337 |
 | 040000 | Reading the Ocean: Voyaging and Settlement in the Pacific | 1,359 |
+| 041000 | Many Khans, Many Empires: Conquest and Government across Eurasia | 1,341 |
+| 042000 | A Disease with Many Histories: Plague across the Fourteenth-Century World | 1,342 |
+| 043000 | More than a Pilgrimage: Mali, the Sahel, and the Work of Empire | 1,297 |
+| 044000 | The Walls and the Lives Beyond Them: Great Zimbabwe and Southern Africa | 1,249 |
+| 045000 | More than One Capital: Maya and Mexica Worlds before 1500 | 1,244 |
+| 046000 | Roads before the Empire: Andean States and the Rise of the Inca | 1,237 |
+| 047000 | Ports between Monsoons: Maritime Asia before 1500 | 1,266 |
+| 048000 | A City through Several Empires: Byzantines and Ottomans before 1500 | 1,252 |
+| 049000 | After the Plague: Work, War, and Learning in Late Medieval Europe | 1,297 |
+| 050000 | The World around 1500: Connections, Boundaries, and New Encounters | 1,354 |
 
-Lectures 001000–007000 cover early urban and Bronze Age worlds; 008000–015000 cover Iron Age and early classical transformations; 016000–023000 cover classical empires and social history; 024000–031000 cover late antiquity; and 032000–040000 examine medieval societies and networks from roughly 750 to 1200 CE. **The bridge to 1500 CE is not yet complete.** Lectures 041000–050000 remain planned in `BACKLOG.md`.
+Lectures 001000–007000 cover early urban and Bronze Age worlds; 008000–015000 cover Iron Age and early classical transformations; 016000–023000 cover classical empires and social history; 024000–031000 cover late antiquity; 032000–040000 examine medieval societies and networks from roughly 750 to 1200 CE; and 041000–050000 follow regional developments through roughly 1500 CE. **The initial chronological bridge to the modern-world track is now written and indexed, but is an introductory sequence rather than comprehensive coverage.** Additional work is needed on omitted regional histories, original sources and specialist scholarship; see `COVERAGE_AUDIT.md` and `BACKLOG.md`.
 
 ## How to read and maintain this pack
 
-- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All forty entries are self-contained, without a prerequisite chain.
+- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All fifty entries are self-contained, without a prerequisite chain.
 - `NNNNNN-*.md` files contain narration between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. Everything outside those markers is non-spoken editorial or evidence context.
 - `metadata/NNNNNN.json` maps every spoken paragraph to named source records, with explicit source limitations and interpretive cautions.
 - `metadata/sources.json` contains source identities, links, and caveats. Add original-language evidence and specialized excavation reports when a claim needs more precision; do not misrepresent a general survey as an archival or archaeological primary source.
-- `COVERAGE_AUDIT.md` separates chronology already addressed elsewhere from missing sustained coverage. `BACKLOG.md` is an **editorial plan, not an indexed collection**.
+- `COVERAGE_AUDIT.md` separates chronology already addressed elsewhere from missing sustained coverage. `BACKLOG.md` is an **editorial plan**, identifying both the indexed introductory sequence and research directions still to write; the published index is `track.json`.
 
 ## Editorial orientation
 
