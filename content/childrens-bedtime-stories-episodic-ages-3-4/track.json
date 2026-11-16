@@ -1,7 +1,7 @@
 {
   "id": "childrens-bedtime-stories-episodic-ages-3-4",
   "title": "Children's Bedtime Stories — Episodic (Ages 3–4)",
-  "summary": "Original sequential, single-narrator bedtime adventures for ages 3–4, primarily age three. Season one explores Willow Bend and completes the Little-Light Walk; season two travels west to Far Meadow, meets Lila, and completes a ribbon picnic. Season three travels east past Round Pond into Reed Meadow, meets Rill and Aunt Cress, and finishes Bo’s Book of Little Sounds. Places, relationships and objects persist between episodes; every night closes gently. Non-spoken caregiver explanations and citations do not assert developmental or sleep effects. Season four revisits the southern orchard, corrects one bend on Tess’s real map, and grows an explicitly imaginary Button Town game around the two-trunk Doorway Tree; its pretend map ends safely at the Story House. Season five stays near Story House, where a small garden is permitted, seeded, observed over several visits and celebrated as a little patch of seedlings; it does not grow instant flowers or reset other objects. Season six crosses several evenings from a thin waxing crescent to a full Moon, following distinct observations and silly games at established homes; the same valley, friendships, garden, maps and shelves persist.",
+  "summary": "Original sequential, single-narrator bedtime adventures for ages 3–4, primarily age three. Season one explores Willow Bend and completes the Little-Light Walk; season two travels west to Far Meadow, meets Lila, and completes a ribbon picnic. Season three travels east past Round Pond into Reed Meadow, meets Rill and Aunt Cress, and finishes Bo’s Book of Little Sounds. Places, relationships and objects persist between episodes; every night closes gently. Non-spoken caregiver explanations and citations do not assert developmental or sleep effects. Season four revisits the southern orchard, corrects one bend on Tess’s real map, and grows an explicitly imaginary Button Town game around the two-trunk Doorway Tree; its pretend map ends safely at the Story House. Season five stays near Story House, where a small garden is permitted, seeded, observed over several visits and celebrated as a little patch of seedlings; it does not grow instant flowers or reset other objects. Season six crosses several evenings from a thin waxing crescent to a full Moon, following distinct observations and silly games at established homes; the same valley, friendships, garden, maps and shelves persist. Season seven introduces Mira and Grandpa Rowan at a small stone cottage near the fenced old mill; the six existing friends build relationships in separate playful visits, and Mira chooses the round-window symbol for Tess's real yellow map. No established geography or Story House collection is reset.",
   "assumed_background": [
     "Age 3–4; prior episodes enrich continuity but each episode includes enough context to enjoy on its own."
   ],
@@ -24,7 +24,8 @@
     "season-3-the-book-of-little-sounds",
     "season-4-the-doorway-tree",
     "season-5-the-little-growing-garden",
-    "season-6-the-moon-over-five-windows"
+    "season-6-the-moon-over-five-windows",
+    "season-7-the-round-window-cottage"
   ],
   "lectures": [
     {
@@ -530,9 +531,93 @@
       "series_id": "willow-bend-little-lights",
       "season_number": 6,
       "episode_number": 6
+    },
+    {
+      "id": "037000",
+      "title": "The Blue Cart on the Orchard Path",
+      "section": "season-7-the-round-window-cottage",
+      "file": "037000-the-blue-cart-on-the-orchard-path.md",
+      "spoken_words": 763,
+      "draft_status": "substantive",
+      "description": "Tess and Grandma Fern meet Mira and Grandpa Rowan as they move into the stone cottage with a round window by the orchard path.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 7,
+      "episode_number": 1
+    },
+    {
+      "id": "038000",
+      "title": "Bo and the Castle Bakery",
+      "section": "season-7-the-round-window-cottage",
+      "file": "038000-bo-and-the-castle-bakery.md",
+      "spoken_words": 672,
+      "draft_status": "substantive",
+      "description": "Bo and Mira turn empty moving boxes into a castle bakery, but Mira keeps her favorite cushion for sitting instead of using it as a roof.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 7,
+      "episode_number": 2
+    },
+    {
+      "id": "039000",
+      "title": "Nori and the Little Round Window",
+      "section": "season-7-the-round-window-cottage",
+      "file": "039000-nori-and-the-little-round-window.md",
+      "spoken_words": 718,
+      "draft_status": "substantive",
+      "description": "Nori visits Mira to admire the round window; three familiar pebbles become imaginary mountains and a quiet humming tune finds its ending.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 7,
+      "episode_number": 3
+    },
+    {
+      "id": "040000",
+      "title": "Rill and the Almost Ocean",
+      "section": "season-7-the-round-window-cottage",
+      "file": "040000-rill-and-the-almost-ocean.md",
+      "spoken_words": 701,
+      "draft_status": "substantive",
+      "description": "Rill and Mira give a small rain puddle an enormous name on a grown-up-accompanied walk to Round Pond.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 7,
+      "episode_number": 4
+    },
+    {
+      "id": "041000",
+      "title": "Lila and the Dandelion Hat Show",
+      "section": "season-7-the-round-window-cottage",
+      "file": "041000-lila-and-the-dandelion-hat-show.md",
+      "spoken_words": 609,
+      "draft_status": "substantive",
+      "description": "Lila shows Mira Far Meadow, and a single dandelion becomes the silent audience for a show of hats made from fallen leaves.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 7,
+      "episode_number": 5
+    },
+    {
+      "id": "042000",
+      "title": "The Round Window on the Yellow Map",
+      "section": "season-7-the-round-window-cottage",
+      "file": "042000-the-round-window-on-the-yellow-map.md",
+      "spoken_words": 811,
+      "draft_status": "substantive",
+      "description": "All six friends meet at Story House, and Mira chooses how her newly familiar cottage will appear on Tess's yellow map before returning home with Grandpa Rowan.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 7,
+      "episode_number": 6
     }
   ],
-  "season_count": 6,
+  "season_count": 7,
   "seasons": [
     {
       "number": 1,
@@ -610,6 +695,19 @@
         "034000",
         "035000",
         "036000"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "The Round Window Cottage",
+      "section": "season-7-the-round-window-cottage",
+      "episode_ids": [
+        "037000",
+        "038000",
+        "039000",
+        "040000",
+        "041000",
+        "042000"
       ]
     }
   ]

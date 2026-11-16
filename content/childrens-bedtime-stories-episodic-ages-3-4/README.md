@@ -1,7 +1,7 @@
 # Children's Bedtime Stories — Episodic (Ages 3–4)
 
 **Track ID:** `childrens-bedtime-stories-episodic-ages-3-4`  
-**Series:** *Willow Bend and the Little Lights*; three completed seasons  
+**Series:** *Willow Bend and the Little Lights*; seven completed seasons  
 **Primary listener:** age three; intended age range: three to four  
 **Performance:** one consistent TTS narrator; no character acting, music, effects, or images needed  
 **Order:** listen in sequence for the full arc, but each episode supplies enough context to listen alone  
@@ -118,3 +118,19 @@ Six evenings spread across a gradual change in the Moon's appearance. The friend
 | 036000 | [Five Windows and One Moon](036000-five-windows-and-one-moon.md) | At Village Green the five friends meet during an ordinary afternoon, share Moon jokes, and briefly observe a full Moon rising on the eastern side of the sky at sunset. They return to their established homes with grown-ups. Story House shelf still holds blue Book of Little Sounds, brown Button Town envelope, and LITTLE GROWING GARDEN folder; Bo takes cutout paper home. Real map still has no Moon location, and garden leaves are a little bigger without sunflower blooms or harvest. The season is fully resolved. |
 
 [WORLD_BIBLE.md](WORLD_BIBLE.md) records exact moon-phase order, homes, adult accompaniment, old artifacts, and the garden's still-growing state. Every story has an optional, non-spoken parent section with source links. Each spoken episode is self-contained and ends with rest.
+
+
+## Season seven: The Round Window Cottage
+
+A small **stone cottage with a round window** on the existing southern orchard path gains residents: Mira, a young mouse, and Grandpa Rowan. Rather than another festival or shared shelf project, each episode lets Mira discover a new friendship through funny, complete everyday encounters. Her memories of a previous home are compatible with liking the new one. She keeps her green cushion with one yellow star, while Tess's real yellow map gains the cottage near the fenced old mill only at the season finale.
+
+| Episode | Story | Lasting change |
+|---|---|---|
+| 037000 | [The Blue Cart on the Orchard Path](037000-the-blue-cart-on-the-orchard-path.md) | Mira, a young mouse, and her caregiver Grandpa Rowan move into a small stone cottage on the south orchard path between the Doorway Tree and the fenced old mill, without using the mill. The cottage has a round window. Mira brings a green cushion with one yellow star and Grandpa a small blue handcart. Tess meets them, marks the spot lightly in pencil but does not yet draw the cottage symbol on her map. The important spoon goes on the kitchen table; the cart is unpacked at the doorstep. Mira sleeps at home. |
+| 038000 | [Bo and the Castle Bakery](038000-bo-and-the-castle-bakery.md) | Mira and Bo build a modest cardboard castle bakery with drawn windows, carrot flag, packing-paper roof, and an important spoon-guard. The paper roof leans. The castle bakery remains beside Mira's round window for the next visit; the spoon returns to the kitchen table. Mira's cushion has not been loaned as a roof and stays with her. Bo goes home before dusk. |
+| 039000 | [Nori and the Little Round Window](039000-nori-and-the-little-round-window.md) | Nori and Mira meet at Round Window Cottage. With permission, Nori temporarily arranges three pebbles on a cloth as pretend mountains, then returns all three to her violet pouch. Mira keeps her cushion; the castle bakery stays inside the cottage. Nori and Mira discover a shared taste for a soft song ending. Nori goes home near Round Pond with her grown-up. |
+| 040000 | [Rill and the Almost Ocean](040000-rill-and-the-almost-ocean.md) | Mira meets Rill beside the adult-visible dry path near Round Pond, after Grandpa Rowan and Mira walk from orchard through Village Green and across Pebble Bridge. A temporary rain puddle is jokingly called the Almost Ocean; it is not marked as permanent geography. Mira sees Round Pond for the first time and Rill shows the route back. They part with adults along the established east/west directions. Boots and belongings unchanged. |
+| 041000 | [Lila and the Dandelion Hat Show](041000-lila-and-the-dandelion-hat-show.md) | Mira meets Lila on a supervised trip over Bell Hill via existing halfway bench. They stage a pretend leaf-hat show at the established Sitting Stone for a dandelion, using fallen materials, leaving the flower in place. Mira briefly mentions missing her former square window but also liking the new round one. Grandpa Rowan and Mira return over Bell Hill in daylight. Lila's ribbon and picnic banner remain unchanged. |
+| 042000 | [The Round Window on the Yellow Map](042000-the-round-window-on-the-yellow-map.md) | With Mira's input, Tess draws stone cottage between Doorway Tree and fenced mill on accurate real yellow map, symbolized by a round window and small yellow star representing Mira's green cushion. Tess keeps map and returns to Blue Door Cottage with Grandma. Everyone safely returns by established paths with grown-ups. Mira's cushion and castle bakery remain at Round Window Cottage; the spoon is in kitchen drawer; the blue cart remains with Grandpa. The Story House shelf remains three collections, no new project. Mira is established recurring friend without pressure to abandon memories of the previous home; season closes fully. |
+
+The canonical geography and exact object custody are in [WORLD_BIBLE.md](WORLD_BIBLE.md). Parent explanations, direct citations and evidence limits are outside the spoken narration in [PARENTS_GUIDE.md](PARENTS_GUIDE.md). Every episode remains for **ages 3–4**, primarily age three, with **one consistent narrator**, no assigned moral, and no prescribed runtime.
