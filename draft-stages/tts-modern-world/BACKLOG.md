@@ -166,3 +166,20 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **060000:** China after Mao: reform, rural change, student movements, and contested political futures.
 - **061000:** African societies in the 1980s: debt, adjustment, regional conflicts and popular organizing.
 - **062000:** The public technologies of the late twentieth century: computing, broadcasting, biotechnology and their unequal access.
+
+
+## Completed: 059000–062000 — late Cold War, China reforms, African adjustment and public technology
+
+- **059000:** A Treaty, a War, and the People Between: The Late Cold War, 1975–1989. Helsinki rights commitments, European missile politics, Soviet–Afghan war, refugees, Gorbachev and the INF agreement.
+- **060000:** Two Kinds of Reform: China After Mao, 1976–1989. Rural household contracting, the coastal economic zones, urban inflation and the 1989 demonstrations and crackdown.
+- **061000:** Who Pays for the Adjustment? African Societies in the 1980s. Lagos Plan and World Bank proposals, Ghana and Zambia, human costs, African alternative frameworks and organizing.
+- **062000:** When a Technology Becomes Public: Computing, Broadcasting, and Biotechnology. Personal and networked computing, India satellite television, Philippine radio, recombinant insulin and AIDS activism.
+
+**Evidence deepening:** 059000 needs Afghan- and Soviet-authored local histories, oral accounts and fuller Geneva negotiation files; the 1979 decision makers' beliefs are not proof that their perceived threats existed. 060000 needs Chinese rural contract records, independently preserved worker and student testimonies, and reliable regional economic series; no single disputed 1989 death count is asserted. 061000 needs fuller OAU/ECA policy documents, independent long-run service data, and contemporary organizing records from Ghana and Zambia; IMF and World Bank accounts must be read as institutional perspectives. 062000 needs local-language audience studies, participant oral histories, and workplace labor archives; technical capability does not prove equitable access.
+
+## Next research candidates (unindexed)
+
+- **063000:** Eastern Europe's democratic movements and the end of Soviet control, 1980–1991, from Polish Solidarity through the 1989 revolutions, avoiding a one-cause Cold War finale.
+- **064000:** The global HIV/AIDS epidemic, scientific discovery, treatment activism and international public-health inequalities in the 1980s–1990s.
+- **065000:** The end of apartheid and South Africa's political transition, including civil society, violence and constitutional negotiation.
+- **066000:** The first post-Cold War wars and peace settlements: Yugoslavia, Rwanda and their different local, international and legal histories.

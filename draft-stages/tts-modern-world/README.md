@@ -137,3 +137,13 @@ Each narrative paragraph has external evidence mappings in the display-only ledg
 - **058000 — [The Harvest and the Clinic: Food, Health, and Population, 1960–1980](058000-the-harvest-and-the-clinic.md)** (2,727 narrated words). Green Revolution, 1970s famine and food claims, oral rehydration, smallpox, primary care and reproductive coercion.
 
 Each narrated paragraph is supported by a linked evidence record in the display-only ledger and the metadata sidecar. Source access and interpretive limits are explicit. Word counts are descriptive, not targets.
+
+
+## Late Cold War and changing institutions (059000–062000)
+
+- **059000 — [A Treaty, a War, and the People Between: The Late Cold War, 1975–1989](059000-a-treaty-a-war-and-the-people-between.md)** (2,585 spoken words; 19 source-linked narration paragraphs). Helsinki rights commitments, European missile politics, Soviet–Afghan war, refugees, Gorbachev and the INF agreement.
+- **060000 — [Two Kinds of Reform: China After Mao, 1976–1989](060000-two-kinds-of-reform.md)** (2,453 spoken words; 19 source-linked narration paragraphs). Rural household contracting, the coastal economic zones, urban inflation and the 1989 demonstrations and crackdown.
+- **061000 — [Who Pays for the Adjustment? African Societies in the 1980s](061000-who-pays-for-the-adjustment.md)** (2,533 spoken words; 19 source-linked narration paragraphs). Lagos Plan and World Bank proposals, Ghana and Zambia, human costs, African alternative frameworks and organizing.
+- **062000 — [When a Technology Becomes Public: Computing, Broadcasting, and Biotechnology](062000-when-a-technology-becomes-public.md)** (2,644 spoken words; 21 source-linked narration paragraphs). Personal and networked computing, India satellite television, Philippine radio, recombinant insulin and AIDS activism.
+
+Source links, specific evidence-review scope and interpretation limits are in non-spoken paragraph ledgers and per-lecture JSON sidecars. No lecture-length policy applies.

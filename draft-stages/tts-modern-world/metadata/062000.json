@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "lecture_id": "062000",
+  "transcript": "062000-when-a-technology-becomes-public.md",
+  "related_resources": [
+    {
+      "source_id": "tech-aids",
+      "reason": "ACT UP 1987, clinical research inclusion and treatment advocacy",
+      "access_scope": "web_page_excerpt"
+    },
+    {
+      "source_id": "tech-biotech",
+      "reason": "1974 voluntary pause, 1975 Asilomar recombinant DNA conference and oversight debates",
+      "access_scope": "web_page_excerpt"
+    },
+    {
+      "source_id": "tech-fda",
+      "reason": "Recombinant human insulin development, FDA approval 28 October 1982",
+      "access_scope": "web_page_excerpt"
+    },
+    {
+      "source_id": "tech-net",
+      "reason": "TCP/IP transition 1983, NSFNET backbone 1986 and research-network growth",
+      "access_scope": "web_page_excerpt"
+    },
+    {
+      "source_id": "tech-office",
+      "reason": "1980 desktop word-processing functionality and price",
+      "access_scope": "museum_catalog_excerpt"
+    },
+    {
+      "source_id": "tech-personal",
+      "reason": "1977 Apple II, TRS-80 and Commodore PET as assembled mass-market systems",
+      "access_scope": "web_page_excerpt"
+    },
+    {
+      "source_id": "tech-radio",
+      "reason": "Jaime Cardinal Sin on Radio Veritas and broadcaster June Keithley on Radio Bandido",
+      "access_scope": "web_page_excerpt"
+    },
+    {
+      "source_id": "tech-site",
+      "reason": "1975–76 SITE and approximately 2,400 village receiving sites",
+      "access_scope": "web_page_excerpt"
+    },
+    {
+      "source_id": "tech-site-eval",
+      "reason": "Survey phases and evaluation methods during SITE operation, 1975–76",
+      "access_scope": "official_catalog_abstract"
+    },
+    {
+      "source_id": "tech-unesco-radio",
+      "reason": "1986 broadcasts; preserved collection of 44 cassette tapes and one mini-disc",
+      "access_scope": "direct_html_page"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "062000-p01",
+      "anchor": "Imagine three scenes from the late twentieth century. In a school, a student s",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-personal",
+        "tech-site",
+        "tech-biotech"
+      ],
+      "source_locator": "tech-personal: 1977 Apple II, TRS-80 and Commodore PET as assembled mass-market systems; tech-site: 1975–76 SITE and approximately 2,400 village receiving sites; tech-biotech: 1974 voluntary pause, 1975 Asilomar recombinant DNA conference and oversight debates",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Museum device history, not a social distribution survey. ISRO institutional retrospective; its claimed beneficiary total differs from other sources; omit it. Scientific policy retrospective with institutional lens; public participants not equally represented."
+    },
+    {
+      "id": "062000-p02",
+      "anchor": "For much of computing's earlier history, a person who used a computer was like",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-personal"
+      ],
+      "source_locator": "tech-personal: 1977 Apple II, TRS-80 and Commodore PET as assembled mass-market systems",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Museum device history, not a social distribution survey."
+    },
+    {
+      "id": "062000-p03",
+      "anchor": "The arrival of a computer on a desk altered who could act on information. In a",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-personal",
+        "tech-office"
+      ],
+      "source_locator": "tech-personal: 1977 Apple II, TRS-80 and Commodore PET as assembled mass-market systems; tech-office: 1980 desktop word-processing functionality and price",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Museum device history, not a social distribution survey. Product capability does not by itself prove actual workplace effects or user reactions."
+    },
+    {
+      "id": "062000-p04",
+      "anchor": "Consider the word processing machine as an object of social history. It requir",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-personal",
+        "tech-office"
+      ],
+      "source_locator": "tech-personal: 1977 Apple II, TRS-80 and Commodore PET as assembled mass-market systems; tech-office: 1980 desktop word-processing functionality and price",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Museum device history, not a social distribution survey. Product capability does not by itself prove actual workplace effects or user reactions."
+    },
+    {
+      "id": "062000-p05",
+      "anchor": "By the nineteen eighties, a personal computer and a network connection were st",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-net"
+      ],
+      "source_locator": "tech-net: TCP/IP transition 1983, NSFNET backbone 1986 and research-network growth",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Timeline prioritizes infrastructure and U.S. institutions; not a complete international usage history."
+    },
+    {
+      "id": "062000-p06",
+      "anchor": "The National Science Foundation's network initiatives helped widen academic co",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-net"
+      ],
+      "source_locator": "tech-net: TCP/IP transition 1983, NSFNET backbone 1986 and research-network growth",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Timeline prioritizes infrastructure and U.S. institutions; not a complete international usage history."
+    },
+    {
+      "id": "062000-p07",
+      "anchor": "The distinction between a network and a community is worth making. A protocol ",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-net",
+        "tech-personal"
+      ],
+      "source_locator": "tech-net: TCP/IP transition 1983, NSFNET backbone 1986 and research-network growth; tech-personal: 1977 Apple II, TRS-80 and Commodore PET as assembled mass-market systems",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Timeline prioritizes infrastructure and U.S. institutions; not a complete international usage history. Museum device history, not a social distribution survey."
+    },
+    {
+      "id": "062000-p08",
+      "anchor": "A different experiment makes clear that communications technology need not be ",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-site",
+        "tech-site-eval"
+      ],
+      "source_locator": "tech-site: 1975–76 SITE and approximately 2,400 village receiving sites; tech-site-eval: Survey phases and evaluation methods during SITE operation, 1975–76",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "ISRO institutional retrospective; its claimed beneficiary total differs from other sources; omit it. Study abstract reviewed; not full impact findings. Avoid claiming measured success."
+    },
+    {
+      "id": "062000-p09",
+      "anchor": "SITE illustrates the difference between reaching an audience and improving tha",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-site",
+        "tech-site-eval"
+      ],
+      "source_locator": "tech-site: 1975–76 SITE and approximately 2,400 village receiving sites; tech-site-eval: Survey phases and evaluation methods during SITE operation, 1975–76",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "ISRO institutional retrospective; its claimed beneficiary total differs from other sources; omit it. Study abstract reviewed; not full impact findings. Avoid claiming measured success."
+    },
+    {
+      "id": "062000-p10",
+      "anchor": "Radio in the Philippines shows another function of broadcasting. During the Pe",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-unesco-radio",
+        "tech-radio"
+      ],
+      "source_locator": "tech-unesco-radio: 1986 broadcasts; preserved collection of 44 cassette tapes and one mini-disc; tech-radio: Jaime Cardinal Sin on Radio Veritas and broadcaster June Keithley on Radio Bandido",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Archival nomination summary; recordings not listened to and broadcasters were political participants. Institutional retrospective; does not capture all viewpoints on the revolution."
+    },
+    {
+      "id": "062000-p11",
+      "anchor": "Compare these two communications systems. In India, public agencies planned a ",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-unesco-radio",
+        "tech-site"
+      ],
+      "source_locator": "tech-unesco-radio: 1986 broadcasts; preserved collection of 44 cassette tapes and one mini-disc; tech-site: 1975–76 SITE and approximately 2,400 village receiving sites",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Archival nomination summary; recordings not listened to and broadcasters were political participants. ISRO institutional retrospective; its claimed beneficiary total differs from other sources; omit it."
+    },
+    {
+      "id": "062000-p12",
+      "anchor": "At roughly the same time, molecular biology offered an unfamiliar kind of manu",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-biotech",
+        "tech-fda"
+      ],
+      "source_locator": "tech-biotech: 1974 voluntary pause, 1975 Asilomar recombinant DNA conference and oversight debates; tech-fda: Recombinant human insulin development, FDA approval 28 October 1982",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Scientific policy retrospective with institutional lens; public participants not equally represented. Regulatory and supply history, not evidence of equal worldwide drug access."
+    },
+    {
+      "id": "062000-p13",
+      "anchor": "Insulin provides a clear example. People with diabetes had long been treated w",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-fda",
+        "tech-biotech"
+      ],
+      "source_locator": "tech-fda: Recombinant human insulin development, FDA approval 28 October 1982; tech-biotech: 1974 voluntary pause, 1975 Asilomar recombinant DNA conference and oversight debates",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Regulatory and supply history, not evidence of equal worldwide drug access. Scientific policy retrospective with institutional lens; public participants not equally represented."
+    },
+    {
+      "id": "062000-p14",
+      "anchor": "The significance was not that every patient instantly received cheaper or bett",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-fda"
+      ],
+      "source_locator": "tech-fda: Recombinant human insulin development, FDA approval 28 October 1982",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Regulatory and supply history, not evidence of equal worldwide drug access."
+    },
+    {
+      "id": "062000-p15",
+      "anchor": "Recombinant DNA also revived arguments about intellectual property, environmen",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-biotech",
+        "tech-fda"
+      ],
+      "source_locator": "tech-biotech: 1974 voluntary pause, 1975 Asilomar recombinant DNA conference and oversight debates; tech-fda: Recombinant human insulin development, FDA approval 28 October 1982",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Scientific policy retrospective with institutional lens; public participants not equally represented. Regulatory and supply history, not evidence of equal worldwide drug access."
+    },
+    {
+      "id": "062000-p16",
+      "anchor": "The emergence of the AIDS crisis during the nineteen eighties made questions o",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-aids"
+      ],
+      "source_locator": "tech-aids: ACT UP 1987, clinical research inclusion and treatment advocacy",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "U.S.-focused medical exhibit, not a full global HIV/AIDS history."
+    },
+    {
+      "id": "062000-p17",
+      "anchor": "There is an instructive contrast between the insulin story and AIDS activism. ",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-aids",
+        "tech-fda"
+      ],
+      "source_locator": "tech-aids: ACT UP 1987, clinical research inclusion and treatment advocacy; tech-fda: Recombinant human insulin development, FDA approval 28 October 1982",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "U.S.-focused medical exhibit, not a full global HIV/AIDS history. Regulatory and supply history, not evidence of equal worldwide drug access."
+    },
+    {
+      "id": "062000-p18",
+      "anchor": "These technologies also depended on labor that later publicity could easily hi",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-personal",
+        "tech-office",
+        "tech-aids"
+      ],
+      "source_locator": "tech-personal: 1977 Apple II, TRS-80 and Commodore PET as assembled mass-market systems; tech-office: 1980 desktop word-processing functionality and price; tech-aids: ACT UP 1987, clinical research inclusion and treatment advocacy",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Museum device history, not a social distribution survey. Product capability does not by itself prove actual workplace effects or user reactions. U.S.-focused medical exhibit, not a full global HIV/AIDS history."
+    },
+    {
+      "id": "062000-p19",
+      "anchor": "There were also different kinds of inequality. Computer networks were more ava",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-net",
+        "tech-site",
+        "tech-fda"
+      ],
+      "source_locator": "tech-net: TCP/IP transition 1983, NSFNET backbone 1986 and research-network growth; tech-site: 1975–76 SITE and approximately 2,400 village receiving sites; tech-fda: Recombinant human insulin development, FDA approval 28 October 1982",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Timeline prioritizes infrastructure and U.S. institutions; not a complete international usage history. ISRO institutional retrospective; its claimed beneficiary total differs from other sources; omit it. Regulatory and supply history, not evidence of equal worldwide drug access."
+    },
+    {
+      "id": "062000-p20",
+      "anchor": "By the end of the nineteen eighties, computers, broadcasting, and biotechnolog",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-net",
+        "tech-unesco-radio",
+        "tech-biotech"
+      ],
+      "source_locator": "tech-net: TCP/IP transition 1983, NSFNET backbone 1986 and research-network growth; tech-unesco-radio: 1986 broadcasts; preserved collection of 44 cassette tapes and one mini-disc; tech-biotech: 1974 voluntary pause, 1975 Asilomar recombinant DNA conference and oversight debates",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Timeline prioritizes infrastructure and U.S. institutions; not a complete international usage history. Archival nomination summary; recordings not listened to and broadcasters were political participants. Scientific policy retrospective with institutional lens; public participants not equally represented."
+    },
+    {
+      "id": "062000-p21",
+      "anchor": "Return to the student at the keyboard, the village audience, and the patient w",
+      "kind": "historical_research",
+      "source_ids": [
+        "tech-personal",
+        "tech-site",
+        "tech-aids"
+      ],
+      "source_locator": "tech-personal: 1977 Apple II, TRS-80 and Commodore PET as assembled mass-market systems; tech-site: 1975–76 SITE and approximately 2,400 village receiving sites; tech-aids: ACT UP 1987, clinical research inclusion and treatment advocacy",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Museum device history, not a social distribution survey. ISRO institutional retrospective; its claimed beneficiary total differs from other sources; omit it. U.S.-focused medical exhibit, not a full global HIV/AIDS history."
+    }
+  ],
+  "notes": "21 narration paragraphs; source evidence, review scopes, and limitations are linked in display-only companion. Duration is descriptive, not a target."
+}
