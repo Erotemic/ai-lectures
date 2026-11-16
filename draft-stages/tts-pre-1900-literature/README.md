@@ -227,10 +227,19 @@ theatre, the early Faust myth and the long textual history. The final speeches
 are **not** treated as an uncontested contractual or moral victory. See
 `notes/faust-two-parts-five-acts-text-and-reading-guide.md`.
 
+**English Christian epic — Milton, *Paradise Lost***:
+252000–274000. Twelve consecutive story lectures narrate each book of the
+**1674 twelve-book revision** from the burning lake to Adam and Eve's
+expulsion, preserving the action and the distinct decisions of the two
+humans. Eleven critical studies examine Satan's rhetoric, gender and
+marriage, freedom and grace, Christian heroism, republican politics,
+biblical and classical epic, blank verse, cosmology, embodied allegory,
+Milton's history and editions, and the poem's later readers. The
+**1667 ten-book first edition** is distinguished from the 1674 structure.
+See `notes/paradise-lost-1674-books-texts-and-reading-guide.md`.
+
 ## Substantive next priorities
 
-The next large work planned is **Milton's *Paradise Lost*** (all twelve
-books of the 1674 arrangement, with the 1667 ten-book history described
-separately). Further high-impact omissions include
-Chaucer's *Canterbury Tales* and Boccaccio's *Decameron*. All spoken lecture
+Further high-impact omissions include Chaucer's *Canterbury Tales*
+and Boccaccio's *Decameron*. All spoken lecture
 lengths remain descriptive measurements, not imposed targets.

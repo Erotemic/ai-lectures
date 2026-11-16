@@ -1,7 +1,7 @@
 {
   "id": "pre-1900-literature",
   "title": "Literary Classics Before 1900",
-  "summary": "Audio-first study of influential pre-1900 literature, with complete narrative sequences and analyses from Dante and Shakespeare to Austen, the Brontës, Goethe, Eliot, Tolstoy, and Dostoevsky.",
+  "summary": "Audio-first study of influential pre-1900 literature, with complete narrative sequences and analyses from Dante and Shakespeare to Austen, the Brontës, Goethe, Milton, Eliot, Tolstoy, and Dostoevsky.",
   "categories": [
     "Literature",
     "History & Culture"
@@ -15,7 +15,8 @@
     "The Moby-Dick and Anna Karenina sections each narrate the complete principal plot before interpretive lectures, and name the English text or edition used for orientation.",
     "Middlemarch follows eight books and a Finale; Crime and Punishment follows six parts and its epilogue. All story lectures precede the critical studies.",
     "The Brontë sections use complete story sequences before literary analyses; Jane Eyre is first-person retrospective narration and Wuthering Heights is framed by Lockwood and Nelly Dean. No advance reading is required for the story lectures.",
-    "Goethe’s Faust is narrated in its entirety: Part One’s Gretchen tragedy and all five acts of Part Two; the two wagers and the competing final judgments are kept distinct."
+    "Goethe’s Faust is narrated in its entirety: Part One’s Gretchen tragedy and all five acts of Part Two; the two wagers and the competing final judgments are kept distinct.",
+    "Milton’s Paradise Lost is narrated book by book in the revised twelve-book 1674 arrangement, followed by interpretive lectures. The 1667 ten-book publication is separately identified; the poem is treated as poetry rather than scripture, and critiques are distinguished from the narrator’s positions."
   ],
   "sections": [
     "early-modern-drama",
@@ -42,7 +43,9 @@
     "victorian-gothic-two-generations-bronte-wuthering",
     "german-drama-goethe-faust-one",
     "german-drama-goethe-faust-two",
-    "german-drama-goethe-faust-criticism"
+    "german-drama-goethe-faust-criticism",
+    "english-christian-epic-milton-paradise-lost-story",
+    "english-christian-epic-milton-paradise-lost-criticism"
   ],
   "lectures": [
     {
@@ -2303,6 +2306,213 @@
       "spoken_words": 687,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "252000",
+      "title": "Paradise Lost — Story, Book One: The Burning Lake and Pandemonium",
+      "section": "english-christian-epic-milton-paradise-lost-story",
+      "file": "252000-paradise-lost-story-book-one-the-burning-lake.md",
+      "spoken_words": 657,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.5
+    },
+    {
+      "id": "253000",
+      "title": "Paradise Lost — Story, Book Two: The Council, Sin, Death, and Chaos",
+      "section": "english-christian-epic-milton-paradise-lost-story",
+      "file": "253000-paradise-lost-story-book-two-the-council-and-chaos.md",
+      "spoken_words": 655,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.5
+    },
+    {
+      "id": "254000",
+      "title": "Paradise Lost — Story, Book Three: The Son's Offer and the Sun",
+      "section": "english-christian-epic-milton-paradise-lost-story",
+      "file": "254000-paradise-lost-story-book-three-the-son-and-the-sun.md",
+      "spoken_words": 581,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.0
+    },
+    {
+      "id": "255000",
+      "title": "Paradise Lost — Story, Book Four: Eden Before the Fall",
+      "section": "english-christian-epic-milton-paradise-lost-story",
+      "file": "255000-paradise-lost-story-book-four-eden-before-the-fall.md",
+      "spoken_words": 655,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.5
+    },
+    {
+      "id": "256000",
+      "title": "Paradise Lost — Story, Book Five: Raphael Arrives and Abdiel Refuses",
+      "section": "english-christian-epic-milton-paradise-lost-story",
+      "file": "256000-paradise-lost-story-book-five-the-warning-and-abdiel.md",
+      "spoken_words": 640,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.4
+    },
+    {
+      "id": "257000",
+      "title": "Paradise Lost — Story, Book Six: The War in Heaven",
+      "section": "english-christian-epic-milton-paradise-lost-story",
+      "file": "257000-paradise-lost-story-book-six-the-war-in-heaven.md",
+      "spoken_words": 660,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "258000",
+      "title": "Paradise Lost — Story, Book Seven: The World Is Made",
+      "section": "english-christian-epic-milton-paradise-lost-story",
+      "file": "258000-paradise-lost-story-book-seven-the-world-is-made.md",
+      "spoken_words": 595,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.1
+    },
+    {
+      "id": "259000",
+      "title": "Paradise Lost — Story, Book Eight: Adam Remembers Eve",
+      "section": "english-christian-epic-milton-paradise-lost-story",
+      "file": "259000-paradise-lost-story-book-eight-adam-remembers-eve.md",
+      "spoken_words": 640,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.4
+    },
+    {
+      "id": "260000",
+      "title": "Paradise Lost — Story, Book Nine: The Temptation and the Fall",
+      "section": "english-christian-epic-milton-paradise-lost-story",
+      "file": "260000-paradise-lost-story-book-nine-the-fall.md",
+      "spoken_words": 800,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
+    },
+    {
+      "id": "261000",
+      "title": "Paradise Lost — Story, Book Ten: Judgment, Serpents, and Reconciliation",
+      "section": "english-christian-epic-milton-paradise-lost-story",
+      "file": "261000-paradise-lost-story-book-ten-judgment-and-reconciliation.md",
+      "spoken_words": 703,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.8
+    },
+    {
+      "id": "262000",
+      "title": "Paradise Lost — Story, Book Eleven: Michael's Visions of Human History",
+      "section": "english-christian-epic-milton-paradise-lost-story",
+      "file": "262000-paradise-lost-story-book-eleven-michaels-visions.md",
+      "spoken_words": 665,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "263000",
+      "title": "Paradise Lost — Story, Book Twelve: Beyond the Gate",
+      "section": "english-christian-epic-milton-paradise-lost-story",
+      "file": "263000-paradise-lost-story-book-twelve-beyond-the-gate.md",
+      "spoken_words": 704,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.9
+    },
+    {
+      "id": "264000",
+      "title": "Paradise Lost — Satan, Charisma, and the Misleading Hero",
+      "section": "english-christian-epic-milton-paradise-lost-criticism",
+      "file": "264000-paradise-lost-satan-the-misleading-hero.md",
+      "spoken_words": 707,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.9
+    },
+    {
+      "id": "265000",
+      "title": "Paradise Lost — Eve, Adam, Marriage, and Unequal Freedom",
+      "section": "english-christian-epic-milton-paradise-lost-criticism",
+      "file": "265000-paradise-lost-eve-adam-and-unequal-freedom.md",
+      "spoken_words": 695,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.8
+    },
+    {
+      "id": "266000",
+      "title": "Paradise Lost — Foreknowledge, Freedom, and Grace",
+      "section": "english-christian-epic-milton-paradise-lost-criticism",
+      "file": "266000-paradise-lost-foreknowledge-choice-and-grace.md",
+      "spoken_words": 624,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.3
+    },
+    {
+      "id": "267000",
+      "title": "Paradise Lost — The Son and the Meaning of Heroism",
+      "section": "english-christian-epic-milton-paradise-lost-criticism",
+      "file": "267000-paradise-lost-the-son-and-the-meaning-of-heroism.md",
+      "spoken_words": 616,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.2
+    },
+    {
+      "id": "268000",
+      "title": "Paradise Lost — Milton's Republican Politics and Heaven's Kingship",
+      "section": "english-christian-epic-milton-paradise-lost-criticism",
+      "file": "268000-paradise-lost-miltons-politics-and-heavens-kingship.md",
+      "spoken_words": 681,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "269000",
+      "title": "Paradise Lost — Genesis, Classical Epic, and Milton's Inventions",
+      "section": "english-christian-epic-milton-paradise-lost-criticism",
+      "file": "269000-paradise-lost-genesis-and-the-invented-epic.md",
+      "spoken_words": 670,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "270000",
+      "title": "Paradise Lost — Blank Verse, Syntax, and the Long Sentence",
+      "section": "english-christian-epic-milton-paradise-lost-criticism",
+      "file": "270000-paradise-lost-blank-verse-and-the-long-sentence.md",
+      "spoken_words": 658,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.5
+    },
+    {
+      "id": "271000",
+      "title": "Paradise Lost — Creation, Astronomy, and the Limits of Knowledge",
+      "section": "english-christian-epic-milton-paradise-lost-criticism",
+      "file": "271000-paradise-lost-creation-cosmos-and-the-limits-of-knowledge.md",
+      "spoken_words": 650,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.5
+    },
+    {
+      "id": "272000",
+      "title": "Paradise Lost — Sin, Death, Shame, and the Body of Allegory",
+      "section": "english-christian-epic-milton-paradise-lost-criticism",
+      "file": "272000-paradise-lost-sin-death-and-shame-made-visible.md",
+      "spoken_words": 699,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.8
+    },
+    {
+      "id": "273000",
+      "title": "Paradise Lost — Milton's Life, Dictation, and the 1667 and 1674 Editions",
+      "section": "english-christian-epic-milton-paradise-lost-criticism",
+      "file": "273000-paradise-lost-milton-blindness-publication-and-editions.md",
+      "spoken_words": 726,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "274000",
+      "title": "Paradise Lost — Afterlives, Difficult Readers, and Close Reading",
+      "section": "english-christian-epic-milton-paradise-lost-criticism",
+      "file": "274000-paradise-lost-readers-afterlives-and-a-close-reading-workshop.md",
+      "spoken_words": 729,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
     }
   ]
 }
