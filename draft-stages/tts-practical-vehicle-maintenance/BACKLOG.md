@@ -1,9 +1,8 @@
 # Rotation backlog: Vehicles and Small Engines: Forces, Systems, and Maintenance
 
-Status: lectures `001000`–`004000` authored. Remaining slots below are proposed topics, not completed manuscripts.
+Status: lectures `001000`–`005000` authored. Remaining slots below are proposed topics, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `005000` — Suspension, Steering, and Alignment
 - `006000` — Fluids, Heat Management, and Lubrication
 - `007000` — Sensor Codes, Measurements, and Diagnosing Faults
 

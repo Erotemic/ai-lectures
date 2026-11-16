@@ -1,9 +1,8 @@
 # Rotation backlog: Metalworking and Fabrication: Materials, Processes, and Joints
 
-Status: lectures `001000`–`004000` authored. Remaining slots below are proposed topics, not completed manuscripts.
+Status: lectures `001000`–`005000` authored. Remaining slots below are proposed topics, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `005000` — Welding Processes and Joint Geometry
 - `006000` — Mechanical Fastening and Fatigue
 - `007000` — Corrosion and Outdoor Fabrication
 

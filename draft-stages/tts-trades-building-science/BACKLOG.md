@@ -1,9 +1,8 @@
 # Rotation backlog: Building Science: Heat, Air, Moisture, and Durable Enclosures
 
-Status: lectures `001000`–`004000` authored. Remaining slots below are proposed topics, not completed manuscripts.
+Status: lectures `001000`–`005000` authored. Remaining slots below are proposed topics, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `005000` — Vapor Diffusion, Condensation, and Drying Paths
 - `006000` — Attics, Roofs, and Insulation Choices
 - `007000` — Basements, Foundations, and Groundwater
 

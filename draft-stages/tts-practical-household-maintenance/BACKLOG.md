@@ -1,9 +1,8 @@
 # Rotation backlog: Household Maintenance: Diagnosis, Prevention, and Records
 
-Status: lectures `001000`–`004000` authored. Remaining slots below are proposed topics, not completed manuscripts.
+Status: lectures `001000`–`005000` authored. Remaining slots below are proposed topics, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `005000` — Protective Devices and Quiet Failure Modes
 - `006000` — Observations, Photos, and Diagnostic Logs
 - `007000` — Prioritizing Repairs, Contractors, and Long-Term Costs
 

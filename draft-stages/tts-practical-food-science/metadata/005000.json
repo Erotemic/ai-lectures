@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-emulsions-sauces-and-fat-water-systems.md",
+  "related_resources": [
+    {
+      "source_id": "msu-food-emulsions",
+      "reason": "Oil-in-water mayonnaise emulsion and yolk/mustard interface stabilization"
+    },
+    {
+      "source_id": "asb-starch",
+      "reason": "Granule swelling, gelatinization and paste viscosity"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P005000-01",
+      "claim": "Mayonnaise is an oil-in-water emulsion; yolk proteins and phospholipids help stabilize droplets.",
+      "kind": "food_science_mechanism",
+      "supports": [
+        {
+          "source_id": "msu-food-emulsions",
+          "location": "Experiment 8: Emulsions, Notes and Method",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "Creating many small droplets increases oil-water interface area, requiring mixing energy and stabilization.",
+      "kind": "derived_physics",
+      "supports": [
+        {
+          "source_id": "msu-food-emulsions",
+          "location": "Emulsion demonstration and amphiphilic explanation; geometrical scaling derived",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "Droplet dispersion and starch gelatinization are distinct possible sources of sauce thickness.",
+      "kind": "food_science_distinction",
+      "supports": [
+        {
+          "source_id": "msu-food-emulsions",
+          "location": "Emulsions method; starch gelatinization educational reference",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "asb-starch",
+          "location": "Emulsions method; starch gelatinization educational reference",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+}

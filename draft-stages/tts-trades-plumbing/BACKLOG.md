@@ -1,9 +1,8 @@
 # Rotation backlog: Plumbing: Pressure, Drainage, Water Quality, and Repair
 
-Status: lectures `001000`–`004000` authored. Remaining slots below are proposed topics, not completed manuscripts.
+Status: lectures `001000`–`005000` authored. Remaining slots below are proposed topics, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `005000` — Backflow and Separation of Drinking Water
 - `006000` — Frozen Pipes and Water Damage Mechanisms
 - `007000` — Diagnosing Low Flow, Noise, and Leaks
 

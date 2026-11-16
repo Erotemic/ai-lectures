@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-change-orders-and-hidden-conditions.md",
+  "related_resources": [
+    {
+      "source_id": "nyag-hiring-contractors",
+      "reason": "Local license checks, insurance, permits/inspections and written scope; NY guidance only"
+    },
+    {
+      "source_id": "nysenate-gbl771",
+      "reason": "Writing and signatures for home-improvement contract amendments under specific state law"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P005000-01",
+      "claim": "Hidden conditions, owner-directed changes and initial scope omissions are distinct reasons for proposed changes.",
+      "kind": "derived_contract_classification",
+      "supports": [
+        {
+          "source_id": "nyag-hiring-contractors",
+          "location": "Written scope and amendment requirements; categorization synthesized by author",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nysenate-gbl771",
+          "location": "Written scope and amendment requirements; categorization synthesized by author",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "New York state law requires specified home-improvement contracts and amendments to be documented in signed writing.",
+      "kind": "state_specific_legal_rule",
+      "supports": [
+        {
+          "source_id": "nysenate-gbl771",
+          "location": "NYS General Business Law §771(1), applicability dependent on article scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "A useful change order records added/removed work, price, timing and approval while preserving evidence of discovery.",
+      "kind": "consumer_guidance",
+      "supports": [
+        {
+          "source_id": "nyag-hiring-contractors",
+          "location": "NY Attorney General Get Everything in Writing; statutory amendment requirements",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nysenate-gbl771",
+          "location": "NY Attorney General Get Everything in Writing; statutory amendment requirements",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+}

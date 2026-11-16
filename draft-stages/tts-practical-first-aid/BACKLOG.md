@@ -1,9 +1,8 @@
 # Rotation backlog: First Aid and Emergency Response: Recognition and Coordinated Action
 
-Status: lectures `001000`–`004000` authored. Remaining slots below are proposed topics, not completed manuscripts.
+Status: lectures `001000`–`005000` authored. Remaining slots below are proposed topics, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `005000` — Airway Problems and Age Differences
 - `006000` — Stroke, Heart Attack, and Severe Allergic Reactions
 - `007000` — Preparation, Kits, and Emergency Communication
 

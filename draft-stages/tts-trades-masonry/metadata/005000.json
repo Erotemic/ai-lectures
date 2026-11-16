@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-brick-block-mortar-and-drainage.md",
+  "related_resources": [
+    {
+      "source_id": "bia-builder-notes",
+      "reason": "Drainable veneer, flashing, weeps, air space and moisture control"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P005000-01",
+      "claim": "Anchored brick veneer is a drainable enclosure requiring coordinated air space, flashing and weep outlets.",
+      "kind": "wall_assembly_design",
+      "supports": [
+        {
+          "source_id": "bia-builder-notes",
+          "location": "Builder Notes issue 1 and issue 2 descriptions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "Water can penetrate masonry cladding while a correctly detailed backing layer still protects the building.",
+      "kind": "physical_mechanism",
+      "supports": [
+        {
+          "source_id": "bia-builder-notes",
+          "location": "Basics of resisting water penetration and drainage-type veneer",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "Structural support, lateral anchorage and joint movement are distinct from weather-facing mortar appearance.",
+      "kind": "derived_structural_distinction",
+      "supports": [
+        {
+          "source_id": "bia-builder-notes",
+          "location": "Brick veneer construction/workmanship scope; engineering synthesis by author",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+}

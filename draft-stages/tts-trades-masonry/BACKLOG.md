@@ -1,9 +1,8 @@
 # Rotation backlog: Masonry and Concrete: Materials, Loads, Water, and Repair
 
-Status: lectures `001000`–`004000` authored. Remaining slots below are proposed topics, not completed manuscripts.
+Status: lectures `001000`–`005000` authored. Remaining slots below are proposed topics, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `005000` — Brick, Block, Mortar, and Drainage
 - `006000` — Drilling and Anchoring in Different Masonry
 - `007000` — Crack Patterns and Repair Diagnosis
 

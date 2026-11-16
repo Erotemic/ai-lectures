@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-suspension-steering-and-alignment.md",
+  "related_resources": [
+    {
+      "source_id": "bridgestone-alignment",
+      "reason": "Toe, camber, caster; symptoms and limitations of wheel alignment"
+    },
+    {
+      "source_id": "nhtsa-tires",
+      "reason": "Inflation, vehicle placard, tread, balance and alignment"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P005000-01",
+      "claim": "Toe, camber and caster are distinct alignment angles that affect handling and tire wear.",
+      "kind": "vehicle_mechanics",
+      "supports": [
+        {
+          "source_id": "bridgestone-alignment",
+          "location": "Camber, Toe and Caster explanations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "Uneven tread wear, pulling and an off-center steering wheel warrant inspection but do not uniquely identify a fault.",
+      "kind": "diagnostic_principle",
+      "supports": [
+        {
+          "source_id": "bridgestone-alignment",
+          "location": "Signs of need for alignment and NHTSA Balance and Alignment",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nhtsa-tires",
+          "location": "Signs of need for alignment and NHTSA Balance and Alignment",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "Alignment measurements should be considered alongside tire condition and suspension/steering integrity.",
+      "kind": "derived_field_diagnosis",
+      "supports": [
+        {
+          "source_id": "bridgestone-alignment",
+          "location": "Bridge of manufacturer's adjustment criteria and NHTSA tire safety; author synthesis",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nhtsa-tires",
+          "location": "Bridge of manufacturer's adjustment criteria and NHTSA tire safety; author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-protective-devices-and-quiet-failure-modes.md",
+  "related_resources": [
+    {
+      "source_id": "usfa-smoke-alarms",
+      "reason": "Regular testing, unit age and battery/model-specific maintenance"
+    },
+    {
+      "source_id": "nfpa-home-electrical",
+      "reason": "GFCI and AFCI purpose, periodic functional testing and failure consequences"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P005000-01",
+      "claim": "Smoke alarms require periodic testing and age-related replacement; silent operation is not a functionality test.",
+      "kind": "fire_safety_guidance",
+      "supports": [
+        {
+          "source_id": "usfa-smoke-alarms",
+          "location": "US Fire Administration: How do I take care of my smoke alarm?",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "GFCI/AFCI protective function is different from simple electrical continuity and needs manufacturer-guided tests.",
+      "kind": "electrical_safety_guidance",
+      "supports": [
+        {
+          "source_id": "nfpa-home-electrical",
+          "location": "How often should you test AFCIs and GFCIs?",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "A protective device's availability requires looking for latent failure modes rather than only visible breakage.",
+      "kind": "derived_maintenance_reasoning",
+      "supports": [
+        {
+          "source_id": "usfa-smoke-alarms",
+          "location": "Device readiness guidance; general maintenance synthesis",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nfpa-home-electrical",
+          "location": "Device readiness guidance; general maintenance synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+}

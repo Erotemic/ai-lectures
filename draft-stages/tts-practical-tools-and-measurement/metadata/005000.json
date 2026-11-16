@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-drilling-and-hole-geometry.md",
+  "related_resources": [
+    {
+      "source_id": "osha-drill-press",
+      "reason": "Clamping stock, twist hazards and drill press operational constraints"
+    },
+    {
+      "source_id": "osha-hand-power-tools",
+      "reason": "Tool guarding, securing work with clamps and correct tool operation"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P005000-01",
+      "claim": "A drilled bore has axis, diameter, location and finish characteristics, not merely an entry-point position.",
+      "kind": "derived_geometry",
+      "supports": [
+        {
+          "source_id": "osha-drill-press",
+          "location": "Tool operation and setup; geometric synthesis by author",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "Hand-holding work under a drill press can allow a bit to grab and spin the stock; effective restraint is required.",
+      "kind": "machine_safety",
+      "supports": [
+        {
+          "source_id": "osha-drill-press",
+          "location": "Point of Operation: common hazard from hand-holding stock",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "Tool choice and supported breakthrough affect hole quality; hole types differ by fastening function.",
+      "kind": "derived_field_practice",
+      "supports": [
+        {
+          "source_id": "osha-hand-power-tools",
+          "location": "Hand tool selection and drill press operation; joining-design synthesis by author",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-drill-press",
+          "location": "Hand tool selection and drill press operation; joining-design synthesis by author",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+}

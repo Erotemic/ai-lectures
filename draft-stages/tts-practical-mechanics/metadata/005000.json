@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-springs-stored-energy-and-damping.md",
+  "related_resources": [
+    {
+      "source_id": "openstax-spring-oscillation",
+      "reason": "Linear restoring force, oscillation and damping as physical mechanisms"
+    },
+    {
+      "source_id": "skf-bearing-guide",
+      "reason": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P005000-01",
+      "claim": "For ideal linear springs, restoring force is proportional to displacement and elastic energy scales with displacement squared.",
+      "kind": "derived_physics",
+      "supports": [
+        {
+          "source_id": "openstax-spring-oscillation",
+          "location": "Hooke Law and Energy in Oscillating Systems; energy is derived by integration",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "Damping removes mechanical energy from oscillatory motion and is distinct from stiffness.",
+      "kind": "physical_mechanism",
+      "supports": [
+        {
+          "source_id": "openstax-spring-oscillation",
+          "location": "Simple harmonic oscillation and dissipative forces",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "Vibration diagnosis requires separating energy storage, excitation, damping, and connection failures.",
+      "kind": "derived_diagnostic_reasoning",
+      "supports": [
+        {
+          "source_id": "openstax-spring-oscillation",
+          "location": "Oscillation background and bearing system inspection; synthesized field diagnosis",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "skf-bearing-guide",
+          "location": "Oscillation background and bearing system inspection; synthesized field diagnosis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+}

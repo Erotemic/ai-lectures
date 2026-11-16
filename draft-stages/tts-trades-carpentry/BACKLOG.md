@@ -1,9 +1,8 @@
 # Rotation backlog: Carpentry: Wood, Framing, Joinery, and Structural Judgment
 
-Status: lectures `001000`–`004000` authored. Remaining slots below are proposed topics, not completed manuscripts.
+Status: lectures `001000`–`005000` authored. Remaining slots below are proposed topics, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `005000` — Floor and Roof Systems
 - `006000` — Nails, Screws, Connectors, and Load Transfer
 - `007000` — Windows, Doors, Trim, and Movement
 

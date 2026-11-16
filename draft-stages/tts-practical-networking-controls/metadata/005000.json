@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-sensors-actuators-state-and-hysteresis.md",
+  "related_resources": [
+    {
+      "source_id": "omron-control-hysteresis",
+      "reason": "On/off threshold hysteresis and prevention of rapid relay cycling"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P005000-01",
+      "claim": "An automation can separate sensor evidence, controller state, commands, device acknowledgment and observed physical effects.",
+      "kind": "derived_control_design",
+      "supports": [
+        {
+          "source_id": "omron-control-hysteresis",
+          "location": "ON/OFF control operation; system design synthesis by author",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "On/off controllers use hysteresis bands to avoid relay chatter around a noisy threshold.",
+      "kind": "control_principle",
+      "supports": [
+        {
+          "source_id": "omron-control-hysteresis",
+          "location": "FAQ00549: ON/OFF hysteresis and relay cycling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "Separate turn-on and turn-off thresholds imply retained controller state between the thresholds.",
+      "kind": "derived_state_machine",
+      "supports": [
+        {
+          "source_id": "omron-control-hysteresis",
+          "location": "Hysteresis example and reverse/forward operation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+}
