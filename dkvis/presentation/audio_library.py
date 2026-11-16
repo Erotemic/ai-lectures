@@ -970,6 +970,11 @@ class AudioLectureHub:
                 track_id = plan.get('id')
                 if not isinstance(track_id, str) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', track_id):
                     raise ValueError(f'Invalid audio track ID in {manifest}')
+                if track_id == 'g2' and directory.resolve() == self.sources:
+                    # G2 is already registered under its historical directory.
+                    # Its explicit manuscript order must not register it twice.
+                    self.track_descriptions[track_id] = plan
+                    continue
                 expected_directory = 'tts-paper' if track_id == 'g3' else f'tts-{track_id}'
                 if directory.name != expected_directory or track_id in {'g1', 'g2', 'g4'}:
                     raise ValueError(f'Track ID/directory mismatch: {manifest}: {track_id}')

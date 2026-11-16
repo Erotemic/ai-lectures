@@ -112,7 +112,17 @@ def build_course_graph(*, g1_directory=None, g2_directory=None, g3_directory=Non
                        summary='Visual lecture presentations', path=g1))
 
     g2 = []
-    for path in sorted(g2_directory.glob('[0-9][0-9][0-9][0-9][0-9][0-9]-*.md')):
+    g2_manifest = g2_directory / 'track.json'
+    g2_plan = _read_json(g2_manifest) if g2_manifest.is_file() else None
+    components = {}
+    if g2_plan:
+        paths = [g2_directory / row['file'] for row in g2_plan['lectures']]
+        for row in g2_plan['lectures']:
+            for original in row.get('consolidated_from', []):
+                components['g2:' + original] = 'g2:' + row['id']
+    else:
+        paths = sorted(g2_directory.glob('[0-9][0-9][0-9][0-9][0-9][0-9]-*.md'))
+    for path in paths:
         ident = path.name[:6]
         node_id = 'g2:' + ident
         insert(dict(id=node_id, title=_title_from_file(path), track='g2',
@@ -179,7 +189,7 @@ def build_course_graph(*, g1_directory=None, g2_directory=None, g3_directory=Non
                 if topic is None:
                     parent = next((e['to'] for e in edges
                                    if e['from_'] == node_id and e['type'] == 'original_parent'), None)
-                    topic = assigned[parent] if parent else 'orientation'
+                    topic = assigned[components.get(parent, parent)] if parent else 'orientation'
             else:
                 topic = topic_data['g4_topic']
             if topic not in topic_ids:
@@ -202,24 +212,45 @@ def build_course_graph(*, g1_directory=None, g2_directory=None, g3_directory=Non
         edges.append(dict(from_=first, to=second, type='listening_next',
                           why=f'Next in the {path_label} course path.'))
 
+    # Validate the authored proof claims before contracting component nodes.
+    evidence_edges = [{'from': edge['from_'], 'to': edge['to'], 'type': edge['type']} for edge in edges]
+    for relation in ('hard_depends_on', 'proof_depends_on', 'original_parent'):
+        _check_acyclic(evidence_edges, relation)
     seen = set()
+    contracted = {}
+    internal_components = []
     parents = set()
     normalized = []
     for edge in edges:
         source, relation, target = edge['from_'], edge['type'], edge['to']
         if relation not in RELATION_TYPES:
             raise ValueError(f'Unknown relation {relation}')
+        original = (source, relation, target)
+        if original in seen:
+            raise ValueError(f'Duplicate edge {original}')
+        seen.add(original)
+        # Source evidence remains authored against its original component IDs.
+        # Display its relation between the current combined lecture units.
+        source, target = components.get(source, source), components.get(target, target)
+        if source == target and original[0] != original[2]:
+            internal_components.append({'lecture': source, 'from': original[0], 'to': original[2], 'type': relation,
+                                        **({'why': edge['why']} if edge.get('why') else {})})
+            continue  # An internal relation is now within one manuscript.
         if source not in nodes or target not in nodes or source == target:
             raise ValueError(f'Invalid course edge: {source} {relation} {target}')
         triple = (source, relation, target)
-        if triple in seen:
-            raise ValueError(f'Duplicate edge {triple}')
-        seen.add(triple)
+        evidence = {'from': original[0], 'to': original[2], **({'why': edge['why']} if edge.get('why') else {})}
+        if triple in contracted:
+            contracted[triple].setdefault('component_relations', []).append(evidence)
+            continue
         if relation == 'original_parent':
             if source in parents:
                 raise ValueError(f'Multiple original parents for {source}')
             parents.add(source)
-        normalized.append({'from': source, 'type': relation, 'to': target, **({'why': edge['why']} if edge.get('why') else {})})
+        record = {'from': source, 'type': relation, 'to': target, **({'why': edge['why']} if edge.get('why') else {})}
+        record['component_relations'] = [evidence]
+        contracted[triple] = record
+        normalized.append(record)
     _check_acyclic(normalized, 'hard_depends_on')
     _check_acyclic(normalized, 'proof_depends_on')
     _check_acyclic(normalized, 'original_parent')
@@ -227,6 +258,7 @@ def build_course_graph(*, g1_directory=None, g2_directory=None, g3_directory=Non
         track['available_count'] = sum(nodes[node]['status'] == 'available' for node in track['path'])
         track['planned_count'] = sum(nodes[node]['status'] != 'available' for node in track['path'])
     return {'schema_version': 1, 'nodes': nodes, 'edges': normalized, 'tracks': tracks, 'topics': topics,
+            'component_lectures': components, 'internal_component_relations': internal_components,
             'relations': {
                 'hard_depends_on': 'Required mathematical background for the proof; the lecture still defines what it uses.',
                 'soft_depends_on': 'Helpful preparation, not required listening.',

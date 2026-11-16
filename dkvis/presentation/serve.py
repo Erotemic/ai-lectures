@@ -129,6 +129,7 @@ def create_app(directory=ROOT/'renders', *, feedback_directory=None,
     slides_by_node = {node_id: [] for node_id in course_graph['nodes']}
     for deck in companions.catalog():
         for node_id in deck['lecture_nodes']:
+            node_id = course_graph.get('component_lectures', {}).get(node_id, node_id)
             if node_id not in slides_by_node:
                 raise ValueError(f'Slide deck {deck["id"]} links to missing lecture {node_id}')
             slides_by_node[node_id].append(deck['id'])
@@ -428,7 +429,7 @@ def create_app(directory=ROOT/'renders', *, feedback_directory=None,
             audio_error(exc)
         track = request.query_params.get('track', 'g2')
         row = dict(row, course_connections=connections(course_graph, f'{track}:{row["id"]}'),
-                   companion_slides=companions.list_for_lecture(f'{track}:{row["id"]}'))
+                   companion_slides=[companions.status(key) for key in slides_by_node.get(f'{track}:{row["id"]}', [])])
         return JSONResponse(row, headers={'Cache-Control': 'no-store'})
 
     async def audio_plain_transcript(request):
