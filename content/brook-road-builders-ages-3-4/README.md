@@ -12,6 +12,8 @@ A **separate original episodic children's bedtime-story pack** for ages three to
 
 **Season Four: The Garage with the Red Door** - episodes 019000-024000. Ms. Pam the raccoon mechanic runs a new red-door garage west of Rex's house. Her flatbed recovers Aunt Jo's yellow work van, the shop prepares a new tire and lifts the vehicle, Jack studies toy tire patterns, and a separate service truck visits Farmer Ruth's tractor. Rex's own wooden dump truck receives a tiny home repair. The repaired vehicles, original roads and animals remain part of the continuing town.
 
+**Season Five: The Delivery Route** — episodes 025000–030000. Dan the donkey runs an adult-operated blue box truck from a small parcel shed near the Red Door Garage. Four nesting orange cones arrive at the garage, a rain gauge at Pine Park, and hen feed and a new green wheelbarrow at Green Gate Farm. A liftgate and hand truck do different jobs, the farm road remains for trucks, and the route ends with all packages delivered and Jack sketching the connected roads.
+
 **World expansion:** `SERIES_ATLAS.md` describes the established route between places and a nonbinding multi-season plan with more trucks, working animals and town locations. The canonical state of objects and characters is in `WORLD_BIBLE.md`.
 
 **Use:** Listen in order for callbacks, or start any episode with its self-contained introduction. Spoken text is strictly between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE`. Everything after the end marker is caregiver/editorial material only. A single TTS narrator reads the spoken story; no character voice switching, music, or sound effects are necessary. Written onomatopoeia is narrator-readable; it does not request actual machine audio.

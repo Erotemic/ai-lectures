@@ -66,6 +66,21 @@ Rex and Molly are the two puppies; Gus is the little bear, Jack the human boy sc
 
 **Source scope:** AAA describes flatbed and mobile roadside services, NHTSA provides tire-pressure and tread guidance, ALI provides lift guidance, and Bridgestone explains tread grooves on wet roads. These support the linked vehicle facts only, not effects of listening to the fiction. Exact source records and quoted narration anchors are in the sidecars.
 
+## Season Five: The Delivery Route
+
+Dan the adult donkey drives a blue enclosed box truck to the neighborhood's existing garage, park and farm. Each chapter follows one visible aspect of a real delivery job without asking a preschooler to follow a complicated parcel system. The objects stay where delivered: garage cones, a park rain gauge, balanced hen feed and a green wheelbarrow. The park rain gauge is empty at the end, ready for a later rain story rather than an invented same-day downpour.
+
+| Episode | Optional conversation prompt |
+|---|---|
+| 025 | What did the blue truck have behind its cab? |
+| 026 | How many orange cones were inside the box? |
+| 027 | What will the clear tube catch when it rains? |
+| 028 | Who kept trying to follow the feed boxes? |
+| 029 | How many wheels did the little hand truck have? |
+| 030 | Which way did Dan drive to the farm? |
+
+**Scientific and editorial limits:** Truck bodies, liftgates and wheeled cargo helpers have specific functions. The rain gauge requires adequate open exposure, and a reading is only possible after rain. Chickens are fed a suitable balanced diet distinct from the farm hay used for sheep and goats. All deliveries and powered-equipment operation are done by adults; the animal characters and dialogue remain fiction. Manufacturer, government and extension references establish only these physical claims, not any measured benefit from this story series.
+
 ## Why there are sources
 
 - **Machine functions:** Caterpillar's equipment descriptions were consulted to avoid confusing bulldozers, diggers, loaders, trucks and compactors. These are general equipment facts; the fictional site is not an engineering case study and the passages are not operation instructions.

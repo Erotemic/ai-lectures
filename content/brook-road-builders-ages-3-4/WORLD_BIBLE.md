@@ -159,6 +159,36 @@ Fanciful similes (giant spoon, cookie roller, gravel mountains) are character jo
 
 **Sources and scope:** The AAA, NHTSA, Automotive Lift Institute and Bridgestone sources in `metadata/sources.json` support towing/repair vehicle descriptions, tires and gauge facts, lifts, and mobile battery service only. The mechanical operations remain adult tasks. The toy tread activity is not a real tire-road experiment and is not used to infer actual stopping distances. No listener-outcome claims are made.
 
+## Season Five — The Delivery Route (025000–030000)
+
+### New driver, vehicle and place
+
+- **Dan** is an adult **donkey** delivery driver who wears a plain **blue cap with openings for his ears**. He owns/drives a **blue enclosed box truck with one white stripe**, a rear roll-up cargo door, load-retaining straps and a rear cargo liftgate. This blue truck is *not* the white flatbed recovery truck or the small white mobile service truck owned by Ms. Pam. Neither Jack nor any animal child ever drives or operates it.
+- Dan keeps the blue truck at a **small covered parcel shed** just west of Red Door Garage near the farm-road junction. This is a modest delivery base, not a new shopping mall or large distribution warehouse. It lies on the west approach to Brook Road, and Dan can make a regular route to the existing garage, Pine Park and Green Gate Farm.
+- The truck uses **Brook Road and the long farm road**. Its parked delivery location at Pine Park is a roadside pull-off beside the gate. It never drives the park's original gravel loop, its short new path, or Little Bridge. The child characters reach the farm on foot over Little Bridge with Aunt Jo and/or Farmer Ruth.
+- A **two-wheel hand truck** (manual load-moving frame) and the truck's separate **liftgate** appear during unloading. Adult drivers and workers move cargo. The hand truck is not powered, and the liftgate is not a passenger elevator or play equipment. Box-truck cargo is secured against shifting.
+
+### Permanent delivered things
+
+- **Red Door Garage (026000):** Ms. Pam receives **four nesting orange traffic cones** to mark adult work-yard areas. They are stored together in the yard shed, not left loose on Brook Road. Ms. Pam remains the mechanic; her vans and service trucks remain as established.
+- **Pine Park (027000):** Aunt Jo mounts a **small clear rain gauge with marks on its side**, upright on a post in a flat, unobstructed patch by the park entrance, **away from the big pine canopy**. It is empty at the end of the season. Next season can observe real collected rain, but must not retroactively claim rainfall happened in 027000 or 030000.
+- **Green Gate Farm (028000):** Dan delivers **sealed sacks of balanced hen feed** using the truck's liftgate. Farmer Ruth stores the feed in a closed dry container in the existing barn and later fills the feeder. This is separate from the **dry hay bales stored for sheep and goats** since Season Three. Three hens, two sheep, and the small goat with a striped collar remain the previously established animals.
+- **Green Gate Farm (029000):** Dan delivers a **green wheelbarrow** in a long carton; adults assemble it. This particular wheelbarrow has **one front wheel, two handles, and a green tub**. It rests near the red barn when not in use, available for future soil and farm chores. Do not replace Farmer Ruth's red tractor or hay wagon with it.
+- **Rex's house (030000):** Rex keeps one **clean flat-folded spare carton** behind his rug for pretend-delivery games. His original wooden dump truck still rolls on all four wheels after the Season Four ribbon repair.
+
+### Episode and notebook ledger
+
+| ID | Lasting development | Local plot state |
+|---|---|---|
+| 025000 | Dan and blue box truck, covered parcel shed, and labeled garage/park/farm route established; Jack draws box body beside Pam's flatbed | Several deliveries remain |
+| 026000 | Four orange cones delivered and nested in Pam's garage shed; Jack sketches separate cones and a nested stack | Park and farm stops remain |
+| 027000 | Park rain gauge installed in open position; Jack draws empty marked tube and lumpy cloud | No rain recorded yet; farm deliveries remain |
+| 028000 | Sealed balanced hen feed delivered and stored dry; Molly and Rex use their one-wag greeting | Farm wheelbarrow delivery remains |
+| 029000 | One-front-wheel green wheelbarrow assembled and stored by barn; hand truck contrasted in Jack's two-wheel drawing | All scheduled deliveries completed |
+| 030000 | Dan's blue box truck returns mostly empty to parcel shed; Rex stores a clean folded carton; Jack adds vehicle-road and foot-bridge map to notebook | No unresolved parcel or vehicle job |
+
+**Science and evidence:** The rain gauge has no measurement until precipitation actually falls; do not invent a reading. The children's geometry and wheel-count observations are ordinary play, not a safety or engineering test. The references in `metadata/sources.json` cover enclosed cargo bodies, liftgates, hand trucks, stackable cones, rain gauges, chicken feed and wheelbarrows only. No causal audience-outcome claim is made.
+
 ## Authoring guardrails
 
 - Persistent geography, name spellings and object state survive across episodes and seasons. Never erase a completed project without a depicted reason.

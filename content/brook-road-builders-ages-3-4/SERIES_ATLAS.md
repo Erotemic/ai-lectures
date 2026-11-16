@@ -1,6 +1,6 @@
 # Brook Road Builders — series atlas and expansion plan (not spoken)
 
-This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 024000. Ideas tagged *future* must not be treated as already present in a spoken episode.
+This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 030000. Ideas tagged *future* must not be treated as already present in a spoken episode.
 
 ## What makes this a world, not a truck catalogue
 
@@ -90,13 +90,26 @@ The van is working after 021000, and Farmer Ruth's red tractor is working again 
 
 The story-world map now reads west to east on Brook Road: **Red Door Garage -> Rex/Gus/Jack houses -> Pine Park -> Little Bridge -> Green Gate Farm**. Farm vehicles branch along the longer road near the garage instead of using the footbridge. The exact distances have not been specified to avoid artificial travel-time constraints.
 
+## Season Five — deliveries connect existing places
+
+The **small parcel shed** by the west junction adds Dan, an adult donkey with a blue cap, and his **blue enclosed box truck** with white stripe, rear roll-up door, cargo straps and liftgate. This vehicle delivers goods but does not tow disabled cars (Pam's white flatbed) or bring diagnostic tools (Pam's smaller white service truck). Dan's stops are on accessible roads and pull-offs: **Red Door Garage → Pine Park gate → Green Gate Farm via long farm road**. Little Bridge is still for feet, paws and hooves, never delivery trucks.
+
+| Place | New thing delivered and where it stays |
+|---|---|
+| Red Door Garage | Four orange nesting cones in Pam's yard shed |
+| Pine Park | An empty rain gauge mounted away from the original tall pine |
+| Green Gate Farm | Balanced hen feed in a closed dry container; green single-wheel wheelbarrow near barn |
+| Rex's blue-step house | Spare clean cardboard carton folded behind the rug for play |
+
+Jack's blue notebook keeps new diagrams of box versus flatbed, nested cones, empty gauge, different animal feeds, hand truck versus wheelbarrow, and the roads/footpaths linking all three stops. The farm's stored hay, all earlier machinery, two puppies' tail wave, and Rex's repaired wooden toy truck remain intact. **After 030000 the delivery run is complete**; no boxes remain mysteriously in transit.
+
 ## Eleven-season horizon (ideas, not canon)
 
 1. **Pine Park** — established and complete (earthmoving, paving, park opening).
 2. **The Little Bridge** — established and complete (supports, mixer, crane, farm connection).
 3. **Farm Workdays** — **complete**: red tractor, mower, tedder, rake, baler, hay wagon and Molly's first park visit.
 4. **Red-Door Garage** — **complete**: Ms. Pam, white flatbed and service trucks, tire gauge, lift, work van and toy-truck repairs.
-5. **Delivery Route** — trucks carry useful things among already established places.
+5. **Delivery Route** — **complete**: Dan the donkey, blue box truck and parcel shed, four garage cones, park rain gauge, farm hen feed and wheelbarrow.
 6. **After the Rain** — drainage, road upkeep and why water follows low places.
 7. **Firehouse Open Day** — engines, ladders, hoses, equipment maintenance; no serial jeopardy.
 8. **Snow Trucks** — plowing and sanding after a believable season change.
