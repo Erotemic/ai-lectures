@@ -251,3 +251,20 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **080000:** China and global manufacturing in the 2000s: export factories, migrant workers, changing consumption and the geography of trade.
 - **081000:** Africa in the early twenty-first century: the African Union, political movements, public health and economic change beyond a single continental story.
 - **082000:** The global financial crisis of 2007–2009: securitization, leverage, bank failures, state responses and unequal household consequences.
+
+
+## Completed 079000–082000 — tsunami, manufacturing, African choices, and the global financial crisis
+
+- **079000:** The Sea Has More Than One Clock: The Indian Ocean Tsunami and Reconstruction, 2004–2013. Seismic rupture, coastal warning, aid coordination, land rights and varied reconstruction politics.
+- **080000:** Who Made the World's Goods? China, Factories, and Global Trade in the 2000s. China manufacturing, WTO accession, supply-chain ownership, migrant workers, labor rights and environmental costs.
+- **081000:** No Single African Century: Politics, Health, and Economic Choices After 2000. AU and NEPAD, Ghana and Nigeria political changes, HIV treatment, debt relief, Kenya and mobile money.
+- **082000:** When Credit Stopped Moving: The Global Financial Crisis, 2007–2009. Securitization and leverage, September 2008 crisis, emergency responses, global and household costs.
+
+**Evidence to deepen:** For 079000, obtain survivor-language oral histories, local aid logs, and independent land-restitution outcomes. For 080000, add Chinese migrant and workplace testimonies, firm-level value-added data and independently verified environmental measures. For 081000, obtain participant archives and local studies for each country, not generalized continental claims. For 082000, read the complete FCIC dissent and national inquiry evidence, including borrower and wage records. Source claims are mapped to review scopes; authoring length is content-driven.
+
+## Next research candidates (unindexed)
+
+- **083000:** The uprisings across North Africa and the Middle East, 2010–2013: Tunisia, Egypt, Libya, Syria, varied movement demands and divergent responses. Distinguish protest, state violence, foreign intervention and civil war.
+- **084000:** The euro-area sovereign-debt crisis, 2009–2015: banking exposure, sovereign borrowing, democratic decisions, austerity and households in Greece, Ireland, Portugal and beyond.
+- **085000:** Social media, smartphones, and political communication, 2005–2015: infrastructures, movements, platform business models, censorship and public opinion beyond an exclusively U.S. story.
+- **086000:** Energy transitions and global climate diplomacy after Kyoto, 2000–2015: Copenhagen, Paris, national policies, contested responsibilities, and the distribution of environmental costs.

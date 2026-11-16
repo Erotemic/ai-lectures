@@ -187,3 +187,13 @@ Each narration paragraph has a display-only ledger and metadata reference, with 
 - **078000 — [The Chain and the Warning: SARS and the World Health Response, 2002–2007](078000-the-chain-and-the-warning.md)** (2,263 spoken words; 18 paragraph-level evidence records). SARS origins and outbreak response, pathogen identification, containment and international health rules.
 
 Each paragraph maps to a nonspoken evidence ledger and sidecar claim. Source scope and limitations are preserved; no fixed length target is imposed.
+
+
+## The early twenty-first century: disaster, production, public claims, and financial instability (079000–082000)
+
+- **079000 — [The Sea Has More Than One Clock: The Indian Ocean Tsunami and Reconstruction, 2004–2013](079000-the-sea-has-more-than-one-clock.md)** (2,555 spoken words; 20 source-mapped paragraphs). Seismic rupture, coastal warning, aid coordination, land rights and varied reconstruction politics.
+- **080000 — [Who Made the World's Goods? China, Factories, and Global Trade in the 2000s](080000-who-made-the-worlds-goods.md)** (2,211 spoken words; 18 source-mapped paragraphs). China manufacturing, WTO accession, supply-chain ownership, migrant workers, labor rights and environmental costs.
+- **081000 — [No Single African Century: Politics, Health, and Economic Choices After 2000](081000-no-single-african-century.md)** (2,177 spoken words; 17 source-mapped paragraphs). AU and NEPAD, Ghana and Nigeria political changes, HIV treatment, debt relief, Kenya and mobile money.
+- **082000 — [When Credit Stopped Moving: The Global Financial Crisis, 2007–2009](082000-when-credit-stopped-moving.md)** (2,476 spoken words; 20 source-mapped paragraphs). Securitization and leverage, September 2008 crisis, emergency responses, global and household costs.
+
+Source links, access scopes and evidence limits are recorded in display-only paragraph ledgers and per-lecture metadata. No fixed duration target applies.

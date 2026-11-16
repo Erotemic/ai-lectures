@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "lecture_id": "082000",
+  "transcript": "082000-when-credit-stopped-moving.md",
+  "related_resources": [
+    {
+      "source_id": "fi-bls",
+      "reason": "Labor market downturn, June 2009 recession end and October 2009 unemployment peak",
+      "access_scope": "direct_html_official_labor_statistics"
+    },
+    {
+      "source_id": "fi-fcic",
+      "reason": "Majority findings and published dissenting accounts; mortgage and systemic vulnerabilities",
+      "access_scope": "direct_html_public_inquiry_report"
+    },
+    {
+      "source_id": "fi-fdic",
+      "reason": "2007–08 chronology, Bear Stearns, Lehman, AIG, government responses",
+      "access_scope": "direct_html_FDIC_book_overview_table"
+    },
+    {
+      "source_id": "fi-fed-em",
+      "reason": "Later October 2008 global liquidity coordination beyond Europe and Japan",
+      "access_scope": "direct_html_contemporaneous_press_release"
+    },
+    {
+      "source_id": "fi-fed-history",
+      "reason": "2007–09 housing and banking chronology, recession severity and policy response",
+      "access_scope": "direct_html_central_bank_historical_synthesis"
+    },
+    {
+      "source_id": "fi-fed-swaps",
+      "reason": "Coordinated international dollar liquidity measures with European and Japanese central banks",
+      "access_scope": "direct_html_contemporaneous_press_release"
+    },
+    {
+      "source_id": "fi-treasury",
+      "reason": "2008 stabilization program authorization, institutional chronology and implementation",
+      "access_scope": "direct_html_official_policy_history"
+    },
+    {
+      "source_id": "fi-uk-rock",
+      "reason": "2007 wholesale funding collapse, deposit run and 2008 nationalization",
+      "access_scope": "direct_html_parliamentary_summary"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "082000-p01",
+      "anchor": "A mortgage begins with an apparently simple exchange. A household borrows mo",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fcic",
+        "fi-fed-history"
+      ],
+      "source_locator": "fi-fcic: Majority findings and published dissenting accounts; mortgage and systemic vulnerabilities; fi-fed-history: 2007–09 housing and banking chronology, recession severity and policy response",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Interpretation is contested; report conclusions and dissent are distinct positions. Federal Reserve institutional perspective and retrospective estimates."
+    },
+    {
+      "id": "082000-p02",
+      "anchor": "House prices had risen for years in many American markets, helped by credit ",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fcic",
+        "fi-fed-history"
+      ],
+      "source_locator": "fi-fcic: Majority findings and published dissenting accounts; mortgage and systemic vulnerabilities; fi-fed-history: 2007–09 housing and banking chronology, recession severity and policy response",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Interpretation is contested; report conclusions and dissent are distinct positions. Federal Reserve institutional perspective and retrospective estimates."
+    },
+    {
+      "id": "082000-p03",
+      "anchor": "Securitization converted claims on mortgage payments into tradable instrumen",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fcic",
+        "fi-fdic"
+      ],
+      "source_locator": "fi-fcic: Majority findings and published dissenting accounts; mortgage and systemic vulnerabilities; fi-fdic: 2007–08 chronology, Bear Stearns, Lehman, AIG, government responses",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Interpretation is contested; report conclusions and dissent are distinct positions. Institutional post hoc history, events do not prove one cause; the detailed book was not independently reviewed in full."
+    },
+    {
+      "id": "082000-p04",
+      "anchor": "Investors often relied on ratings and mathematical models that assigned low ",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fcic"
+      ],
+      "source_locator": "fi-fcic: Majority findings and published dissenting accounts; mortgage and systemic vulnerabilities",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Interpretation is contested; report conclusions and dissent are distinct positions."
+    },
+    {
+      "id": "082000-p05",
+      "anchor": "Financial firms also borrowed to enlarge their investments. Leverage can inc",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fcic",
+        "fi-fdic"
+      ],
+      "source_locator": "fi-fcic: Majority findings and published dissenting accounts; mortgage and systemic vulnerabilities; fi-fdic: 2007–08 chronology, Bear Stearns, Lehman, AIG, government responses",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Interpretation is contested; report conclusions and dissent are distinct positions. Institutional post hoc history, events do not prove one cause; the detailed book was not independently reviewed in full."
+    },
+    {
+      "id": "082000-p06",
+      "anchor": "By two thousand and seven, difficulties in the United States subprime mortga",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fdic",
+        "fi-fed-history"
+      ],
+      "source_locator": "fi-fdic: 2007–08 chronology, Bear Stearns, Lehman, AIG, government responses; fi-fed-history: 2007–09 housing and banking chronology, recession severity and policy response",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Institutional post hoc history, events do not prove one cause; the detailed book was not independently reviewed in full. Federal Reserve institutional perspective and retrospective estimates."
+    },
+    {
+      "id": "082000-p07",
+      "anchor": "In Britain, Northern Rock became a public example of the new vulnerability. ",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-uk-rock",
+        "fi-fdic"
+      ],
+      "source_locator": "fi-uk-rock: 2007 wholesale funding collapse, deposit run and 2008 nationalization; fi-fdic: 2007–08 chronology, Bear Stearns, Lehman, AIG, government responses",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Parliamentary oversight account does not fully explain all British banks. Institutional post hoc history, events do not prove one cause; the detailed book was not independently reviewed in full."
+    },
+    {
+      "id": "082000-p08",
+      "anchor": "In March two thousand and eight, Bear Stearns, a major American investment b",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fdic",
+        "fi-fed-history"
+      ],
+      "source_locator": "fi-fdic: 2007–08 chronology, Bear Stearns, Lehman, AIG, government responses; fi-fed-history: 2007–09 housing and banking chronology, recession severity and policy response",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Institutional post hoc history, events do not prove one cause; the detailed book was not independently reviewed in full. Federal Reserve institutional perspective and retrospective estimates."
+    },
+    {
+      "id": "082000-p09",
+      "anchor": "On September fifteenth, two thousand and eight, Lehman Brothers filed for ba",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fdic",
+        "fi-treasury"
+      ],
+      "source_locator": "fi-fdic: 2007–08 chronology, Bear Stearns, Lehman, AIG, government responses; fi-treasury: 2008 stabilization program authorization, institutional chronology and implementation",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Institutional post hoc history, events do not prove one cause; the detailed book was not independently reviewed in full. Program authorization is not cash spent or a claim about net cost; officials explain their own actions."
+    },
+    {
+      "id": "082000-p10",
+      "anchor": "The crisis exposed a problem sometimes called interconnectedness. One firm's",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fdic",
+        "fi-fcic"
+      ],
+      "source_locator": "fi-fdic: 2007–08 chronology, Bear Stearns, Lehman, AIG, government responses; fi-fcic: Majority findings and published dissenting accounts; mortgage and systemic vulnerabilities",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Institutional post hoc history, events do not prove one cause; the detailed book was not independently reviewed in full. Interpretation is contested; report conclusions and dissent are distinct positions."
+    },
+    {
+      "id": "082000-p11",
+      "anchor": "In October two thousand and eight, the United States Congress enacted the Em",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-treasury",
+        "fi-fdic"
+      ],
+      "source_locator": "fi-treasury: 2008 stabilization program authorization, institutional chronology and implementation; fi-fdic: 2007–08 chronology, Bear Stearns, Lehman, AIG, government responses",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Program authorization is not cash spent or a claim about net cost; officials explain their own actions. Institutional post hoc history, events do not prove one cause; the detailed book was not independently reviewed in full."
+    },
+    {
+      "id": "082000-p12",
+      "anchor": "Central banks acted on the shortage of dollars outside the United States. Th",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fed-swaps",
+        "fi-fed-em"
+      ],
+      "source_locator": "fi-fed-swaps: Coordinated international dollar liquidity measures with European and Japanese central banks; fi-fed-em: Later October 2008 global liquidity coordination beyond Europe and Japan",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Announcement is policy intent, not an evaluation of market effects. Announcement does not quantify country-level outcomes."
+    },
+    {
+      "id": "082000-p13",
+      "anchor": "Governments made different choices about banks. Some guaranteed deposits or ",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fdic",
+        "fi-uk-rock"
+      ],
+      "source_locator": "fi-fdic: 2007–08 chronology, Bear Stearns, Lehman, AIG, government responses; fi-uk-rock: 2007 wholesale funding collapse, deposit run and 2008 nationalization",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Institutional post hoc history, events do not prove one cause; the detailed book was not independently reviewed in full. Parliamentary oversight account does not fully explain all British banks."
+    },
+    {
+      "id": "082000-p14",
+      "anchor": "For households the crisis did not arrive as a diagram of securities. It arri",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fed-history",
+        "fi-bls"
+      ],
+      "source_locator": "fi-fed-history: 2007–09 housing and banking chronology, recession severity and policy response; fi-bls: Labor market downturn, June 2009 recession end and October 2009 unemployment peak",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Federal Reserve institutional perspective and retrospective estimates. Aggregate employment figures do not establish the experience of a particular community."
+    },
+    {
+      "id": "082000-p15",
+      "anchor": "Mortgage distress also redistributed the costs of falling house prices. A bo",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-bls",
+        "fi-fcic"
+      ],
+      "source_locator": "fi-bls: Labor market downturn, June 2009 recession end and October 2009 unemployment peak; fi-fcic: Majority findings and published dissenting accounts; mortgage and systemic vulnerabilities",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Aggregate employment figures do not establish the experience of a particular community. Interpretation is contested; report conclusions and dissent are distinct positions."
+    },
+    {
+      "id": "082000-p16",
+      "anchor": "The downturn reached other regions through trade, investment, credit, and ch",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fed-history",
+        "fi-fed-swaps"
+      ],
+      "source_locator": "fi-fed-history: 2007–09 housing and banking chronology, recession severity and policy response; fi-fed-swaps: Coordinated international dollar liquidity measures with European and Japanese central banks",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Federal Reserve institutional perspective and retrospective estimates. Announcement is policy intent, not an evaluation of market effects."
+    },
+    {
+      "id": "082000-p17",
+      "anchor": "In the United States, the Financial Crisis Inquiry Commission investigated t",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fcic"
+      ],
+      "source_locator": "fi-fcic: Majority findings and published dissenting accounts; mortgage and systemic vulnerabilities",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Interpretation is contested; report conclusions and dissent are distinct positions."
+    },
+    {
+      "id": "082000-p18",
+      "anchor": "Another debate concerns rescue and fairness. If the state provides emergency",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fcic",
+        "fi-treasury"
+      ],
+      "source_locator": "fi-fcic: Majority findings and published dissenting accounts; mortgage and systemic vulnerabilities; fi-treasury: 2008 stabilization program authorization, institutional chronology and implementation",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Interpretation is contested; report conclusions and dissent are distinct positions. Program authorization is not cash spent or a claim about net cost; officials explain their own actions."
+    },
+    {
+      "id": "082000-p19",
+      "anchor": "By the middle of two thousand and nine, some immediate financial panic had s",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fdic",
+        "fi-fed-history"
+      ],
+      "source_locator": "fi-fdic: 2007–08 chronology, Bear Stearns, Lehman, AIG, government responses; fi-fed-history: 2007–09 housing and banking chronology, recession severity and policy response",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Institutional post hoc history, events do not prove one cause; the detailed book was not independently reviewed in full. Federal Reserve institutional perspective and retrospective estimates."
+    },
+    {
+      "id": "082000-p20",
+      "anchor": "The crisis of two thousand and seven through two thousand and nine reveals a",
+      "kind": "historical_research",
+      "source_ids": [
+        "fi-fcic",
+        "fi-fed-swaps",
+        "fi-bls"
+      ],
+      "source_locator": "fi-fcic: Majority findings and published dissenting accounts; mortgage and systemic vulnerabilities; fi-fed-swaps: Coordinated international dollar liquidity measures with European and Japanese central banks; fi-bls: Labor market downturn, June 2009 recession end and October 2009 unemployment peak",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Interpretation is contested; report conclusions and dissent are distinct positions. Announcement is policy intent, not an evaluation of market effects. Aggregate employment figures do not establish the experience of a particular community."
+    }
+  ],
+  "notes": "20 evidence-linked narration paragraphs; no word count or duration policy. The evidence ledger is display-only."
+}
