@@ -15,6 +15,16 @@ Record spoken word counts and estimated duration as **measurements only**;
 neither may be used to accept or reject a lecture. There is no stylistic
 keyword blacklist.
 
+For adult course organization, entries under roughly ten minutes deserve review:
+combine neighboring pieces when they develop one coherent subject, rather than
+presenting many five-minute parts as independent lectures. A single lecture can
+comfortably run up to about 40–60 minutes when its content warrants it; beyond
+that, look for meaningful partition points. These are editorial preferences,
+with exceptions for the material, not automatic duration gates or instructions
+to pad a complete explanation. Keep a short overview separate when it serves a
+clear purpose and actually points to its deeper treatment. Children's stories
+are exempt: their short episode lengths are intentional.
+
 **Give the lecture a voice.** A writer can use vivid scenes, dialogue,
 provocation, digressions, first person, humor, questions, statements,
 recurrences, silence, changes of register, an essayistic argument, a

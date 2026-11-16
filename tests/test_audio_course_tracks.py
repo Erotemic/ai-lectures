@@ -51,13 +51,14 @@ def test_course_tracks_and_track_isolation(tmp_path):
         assert {'history', 'world-history', 'world-reconsidered', 'category-theory',
                 'logic-types', 'optimization-duality', 'probability-measure', 'g4'} <= {r['id'] for r in tracks}
         assert tracks[0]['url'] == '/'
-        assert tracks[1]['count'] >= 154
+        g2_count = len(json.loads((SOURCE_DIRECTORY/'track.json').read_text())['lectures'])
+        assert tracks[1]['count'] == g2_count
         g3_count = len(json.loads((PAPER_DIRECTORY/'track.json').read_text())['lectures'])
         assert tracks[2]['count'] == g3_count
         assert tracks[3]['count'] == len(json.loads((HISTORY_DIRECTORY/'track.json').read_text())['lectures'])
         assert tracks[3]['url'] == '/audio?track=history'
         assert len(client.get('/api/audio-lectures?track=history').json()['items']) == tracks[3]['count']
-        assert len(client.get('/api/audio-lectures').json()['items']) >= 154
+        assert len(client.get('/api/audio-lectures').json()['items']) == g2_count
         assert len(client.get('/api/audio-lectures?track=g3').json()['items']) == g3_count
         assert client.get('/api/audio-lectures?track=g2').json()['items'][0]['id'] == '000000'
         assert client.get('/api/audio-lectures?track=g3').json()['items'][0]['id'] == '000000'

@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
+from statistics import median
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -30,10 +31,33 @@ def audit_repository(root):
     minutes = {
         key: len(row["transcript"].split()) / 145 for key, row in lectures.items()
     }
+    named_sessions = {}
+    linked_topics = {}
+    for course in courses.values():
+        for chapter in course.get("chapters", []):
+            if chapter.get("collection"):
+                for key in chapter["lectures"]:
+                    linked_topics.setdefault(key, set()).add(chapter["collection"])
+            for session in chapter.get("sessions", []):
+                for key in session["lectures"]:
+                    named_sessions.setdefault(key, []).append(
+                        dict(
+                            collection=course["id"],
+                            title=session["title"],
+                            parts=len(session["lectures"]),
+                            estimated_minutes=round(
+                                sum(minutes.get(part, 0) for part in session["lectures"]),
+                                1,
+                            ),
+                        )
+                    )
     errors = []
     optional = set()
     stops = []
     inventory = []
+    short_adult_entries = []
+    adult_minutes = []
+    children_entries = 0
     for directory, pack in packs:
         errors.extend(
             warning for warning in pack["warnings"] if "navigation.json" in warning
@@ -49,6 +73,26 @@ def audit_repository(root):
             errors.append(
                 f"{pack['id']}: manuscripts outside all curated routes: {unplaced}"
             )
+        children = "children" in pack["courses"][f"{pack['id']}:main"].get(
+            "audiences", []
+        )
+        durations = [minutes[key] for key in pack["lectures"]]
+        if children:
+            children_entries += len(durations)
+        else:
+            adult_minutes.extend(durations)
+            short_adult_entries.extend(
+                dict(
+                    id=key,
+                    title=row["title"],
+                    pack=pack["id"],
+                    estimated_minutes=round(minutes[key], 1),
+                    named_sessions=named_sessions.get(key, []),
+                    linked_topic_routes=sorted(linked_topics.get(key, [])),
+                )
+                for key, row in pack["lectures"].items()
+                if minutes[key] < 10
+            )
         inventory.append(
             dict(
                 id=pack["id"],
@@ -59,6 +103,13 @@ def audit_repository(root):
                     sum(minutes[key] for key in pack["lectures"]) / 60, 2
                 ),
                 custom_navigation=(directory / "navigation.json").is_file(),
+                duration_review=dict(
+                    audience="children" if children else "adult",
+                    under_ten_minutes=sum(value < 10 for value in durations),
+                    under_five_minutes=sum(value < 5 for value in durations),
+                    over_sixty_minutes=sum(value > 60 for value in durations),
+                    median_minutes=round(median(durations), 1) if durations else 0,
+                ),
                 root_collections=[
                     course["id"] for course in curated if not course.get("parent_id")
                 ],
@@ -123,6 +174,16 @@ def audit_repository(root):
         collections=len(courses),
         inventory=inventory,
         survey_stops=stops,
+        duration_review=dict(
+            words_per_minute=145,
+            note="Duration is descriptive, not an acceptance gate. A linked topic or named session does not establish that an entry is an overview or a combined lecture.",
+            adult_entries=len(adult_minutes),
+            adult_entries_under_ten_minutes=sum(value < 10 for value in adult_minutes),
+            adult_entries_under_five_minutes=sum(value < 5 for value in adult_minutes),
+            adult_entries_over_sixty_minutes=sum(value > 60 for value in adult_minutes),
+            children_entries_excluded=children_entries,
+            short_adult_entries=short_adult_entries,
+        ),
         optional_unavailable_references=sorted(optional),
         errors=errors,
     )
