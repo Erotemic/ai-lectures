@@ -1,6 +1,13 @@
+## Kepler and Fourier: historical lives in two parts (16 November 2026)
+
+- **041000/041500 — Joseph Fourier:** Auxerre education, revolutionary politics and arrests, scientific work inside the French occupation of Egypt, administration and heat research at Grenoble, the 1815 reversal, the Paris Academy, relations with Germain and his scientific critics, and late life. Detailed heat-flow derivations, sine-series examples, convergence, kernels and modern applications survive in the second part. The original mathematical companion has moved with them.
+- **049000/049500 — Johannes Kepler:** Lutheran training and the limits it imposed, Graz and Prague, Tycho's observational workshop and the Mars calculations, then the loss of Barbara, remarriage, confessional exclusion, Katharina's witchcraft case, the Thirty Years' War, Wallenstein's patronage, and the *Rudolphine Tables*. The geometric ellipse and area examples remain in part one; period law and modern mechanics are in part two. The witchcraft narrative follows archived legal material and Ulinka Rublack's scholarship rather than repeating prosecution allegations as facts.
+
+The first IDs remain stable, and the inserted halves use 041500 and 049500. Historical claim anchors, Wikipedia orientation links, and source records are included. There are no fixed lecture lengths.
+
 # History · People and ideas
 
-The History track contains **56 historical-portrait episodes covering 52 historical figures** among mathematicians and scientists. Historical lives, places, relationships, working conditions and institutions are the principal subject. Detailed mathematical work may be narrated after the historical story has established its context; this track is not required to omit proof or calculations. Existing entries retain their identifiers and stated prerequisites. Historical claims have linked sources in `metadata/sources.json`; non-spoken companions can retain formulas, chronology and research qualifications.
+The History track contains **58 historical-portrait episodes covering 52 historical figures** among mathematicians and scientists. Historical lives, places, relationships, working conditions and institutions are the principal subject. Detailed mathematical work may be narrated after the historical story has established its context; this track is not required to omit proof or calculations. Existing entries retain their identifiers and stated prerequisites. Historical claims have linked sources in `metadata/sources.json`; non-spoken companions can retain formulas, chronology and research qualifications.
 
 ## Galois and Gödel: two historical lives expanded (16 November 2026)
 

@@ -5,60 +5,126 @@
   "related_resources": [
     {
       "source_id": "history-fourier-mactutor",
-      "reason": "Childhood, French Revolution, Egyptian expedition, Grenoble administration and Paris career."
-    },
-    {
-      "source_id": "history-fourier-mitpress",
-      "reason": "Research history of 1807 memoir, originality and refereeing of heat theory."
-    },
-    {
-      "source_id": "history-fourier-heatbook",
-      "reason": "1822 French original, later 1878 English translation, boundary value problems and series."
-    },
-    {
-      "source_id": "history-fourier-landmark",
-      "reason": "Historical interpretation of the representability and generality questions."
+      "reason": "Biographical, institutional, primary or mathematical background for this historical portrait."
     },
     {
       "source_id": "history-fourier-grenoble",
-      "reason": "Prefect duties and Grenoble heat memoir development."
+      "reason": "Biographical, institutional, primary or mathematical background for this historical portrait."
     },
     {
-      "source_id": "history-fourier-prize",
-      "reason": "1807 memoir, revised prize submission and 1822 publication."
-    },
-    {
-      "source_id": "history-fourier-ipcc",
-      "reason": "Fourier 1824 atmospheric heat discussion and later Tyndall work."
-    },
-    {
-      "source_id": "history-fourier-earth",
-      "reason": "1824 terrestrial-temperature work and cautions against retrospective greenhouse attribution."
+      "source_id": "history-fourier-grenoble-exhibition",
+      "reason": "Biographical, institutional, primary or mathematical background for this historical portrait."
     },
     {
       "source_id": "history-fourier-britannica",
-      "reason": "Scientific and administrative chronology, publication, Paris academy and Egyptology."
+      "reason": "Biographical, institutional, primary or mathematical background for this historical portrait."
     },
     {
-      "source_id": "history-fourier-foote-noaa",
-      "reason": "Eunice Newton Foote 1856 greenhouse-gas experimental chronology."
+      "source_id": "history-fourier-prize",
+      "reason": "Biographical, institutional, primary or mathematical background for this historical portrait."
     },
     {
-      "source_id": "history-fourier-arago-1833",
-      "reason": "Contemporary recollections of Fourier’s heat-seeking habits, humor, illness and last days."
-    },
-    {
-      "source_id": "history-fourier-1815-ems",
-      "reason": "Historical analysis of Fourier’s changing administrative position in 1815."
-    },
-    {
-      "source_id": "history-fourier-germain-correspondence",
-      "reason": "Fourier’s friendship and correspondence with Sophie Germain, including Academy invitations."
+      "source_id": "history-fourier-mitpress",
+      "reason": "Biographical, institutional, primary or mathematical background for this historical portrait."
     }
   ],
   "historical_claims": [
     {
       "id": "041000-h01",
+      "anchor": "born in seventeen sixty-eight in Auxerre",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-mactutor"
+      ],
+      "source_locator": "Birth and childhood",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h02",
+      "anchor": "an arrest in July seventeen ninety-four",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-mactutor"
+      ],
+      "source_locator": "First arrest and political reversal",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h03",
+      "anchor": "A subsequent arrest interrupted his new Paris teaching career",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-mactutor"
+      ],
+      "source_locator": "Second arrest and subsequent release",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h04",
+      "anchor": "In seventeen ninety-eight Fourier joined the French expedition to Egypt",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-mactutor",
+        "history-fourier-britannica"
+      ],
+      "source_locator": "Expedition and occupation",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h05",
+      "anchor": "secretary of the newly founded Institut d'Égypte",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-mactutor"
+      ],
+      "source_locator": "Institute role",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h06",
+      "anchor": "prefect of the department of Isère in eighteen oh two",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-grenoble",
+        "history-fourier-mactutor"
+      ],
+      "source_locator": "Grenoble prefecture",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h07",
+      "anchor": "draining of marshes near Bourgoin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-grenoble"
+      ],
+      "source_locator": "Engineering projects",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h08",
+      "anchor": "a prize competition announced for eighteen eleven",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-prize",
+        "history-fourier-mitpress"
+      ],
+      "source_locator": "Academy prize chronology",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h09",
+      "anchor": "The Hundred Days of eighteen fifteen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fourier-1815-ems",
+        "history-fourier-grenoble-exhibition"
+      ],
+      "source_locator": "Changes in Napoleonic and Bourbon authority",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "041000-h10",
       "anchor": "He was born in seventeen sixty-eight in Auxerre",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -68,7 +134,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h02",
+      "id": "041000-h11",
       "anchor": "Orphaned young, he received an education",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -78,7 +144,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h03",
+      "id": "041000-h12",
       "anchor": "He lived through the French Revolution",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -88,7 +154,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h04",
+      "id": "041000-h13",
       "anchor": "He became associated with the École Normale and the École Polytechnique",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -98,7 +164,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h05",
+      "id": "041000-h14",
       "anchor": "Fourier was caught in local factional conflict",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -108,18 +174,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h06",
-      "anchor": "In seventeen ninety-eight Fourier joined the French expedition to Egypt",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-mactutor",
-        "history-fourier-britannica"
-      ],
-      "source_locator": "Joseph Fourier: Biography, MacTutor History of Mathematics; Encyclopaedia Britannica, Joseph Fourier, historical biography",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h07",
+      "id": "041000-h15",
       "anchor": "Fourier worked with the Institut d'Égypte",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -129,7 +184,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h08",
+      "id": "041000-h16",
       "anchor": "the monumental Description de l'Égypte",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -139,7 +194,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h09",
+      "id": "041000-h17",
       "anchor": "Fourier was appointed prefect of the department of Isère in eighteen oh two",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -150,17 +205,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h10",
-      "anchor": "draining of marshes near Bourgoin",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-grenoble"
-      ],
-      "source_locator": "Université Grenoble Alpes, Joseph Fourier: prefect and researcher",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h11",
+      "id": "041000-h18",
       "anchor": "His first major memoir on heat was submitted to the Academy in eighteen oh seven",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -171,7 +216,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h12",
+      "id": "041000-h19",
       "anchor": "The Academy's reaction to Fourier's memoir was mixed",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -182,7 +227,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h13",
+      "id": "041000-h20",
       "anchor": "received the prize associated with the eighteen eleven submission",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -193,99 +238,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h14",
-      "anchor": "Théorie analytique de la chaleur, appeared in eighteen twenty-two",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-heatbook"
-      ],
-      "source_locator": "Fourier, The Analytical Theory of Heat, Cambridge University Press record",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h15",
-      "anchor": "He joined the Academy of Sciences and became its permanent secretary in eighteen twenty-two",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-britannica"
-      ],
-      "source_locator": "Encyclopaedia Britannica, Joseph Fourier, historical biography",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h16",
-      "anchor": "In a paper published in eighteen twenty-four",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-earth",
-        "history-fourier-ipcc"
-      ],
-      "source_locator": "Joseph Fourier’s Theory of Terrestrial Temperatures, Oxford Academic; IPCC Fourth Assessment Report, historical science of greenhouse effect",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h17",
-      "anchor": "an atmosphere can alter the exchange of incoming light and outgoing heat",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-ipcc"
-      ],
-      "source_locator": "IPCC Fourth Assessment Report, historical science of greenhouse effect",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h18",
-      "anchor": "John Tyndall later measured selective infrared absorption",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-ipcc"
-      ],
-      "source_locator": "IPCC Fourth Assessment Report, historical science of greenhouse effect",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h19",
-      "anchor": "Eunice Foote had reported experiments",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-foote-noaa"
-      ],
-      "source_locator": "NOAA, Five Significant Moments in Climate Science History",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h20",
-      "anchor": "Svante Arrhenius made quantitative calculations",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-ipcc"
-      ],
-      "source_locator": "IPCC Fourth Assessment Report, historical science of greenhouse effect",
-      "audit_status": "source_cross_checked"
-    },
-    {
       "id": "041000-h21",
-      "anchor": "Euler, Daniel Bernoulli, d'Alembert, and Lagrange had argued",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-landmark"
-      ],
-      "source_locator": "I. Grattan-Guinness, Fourier’s Analytical Theory of Heat, Landmark Writings",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h22",
-      "anchor": "a systematic treatment of heat",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-heatbook",
-        "history-fourier-landmark"
-      ],
-      "source_locator": "Fourier, The Analytical Theory of Heat, Cambridge University Press record; I. Grattan-Guinness, Fourier’s Analytical Theory of Heat, Landmark Writings",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h23",
       "anchor": "Fourier's broad ideas were enormously productive",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -296,17 +249,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h24",
-      "anchor": "including the work of Dirichlet, Riemann, Lebesgue",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-landmark"
-      ],
-      "source_locator": "I. Grattan-Guinness, Fourier’s Analytical Theory of Heat, Landmark Writings",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h25",
+      "id": "041000-h22",
       "anchor": "Fourier was still a boy when both parents died",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -316,7 +259,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h26",
+      "id": "041000-h23",
       "anchor": "At fourteen he had already devoured six volumes",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -326,7 +269,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h27",
+      "id": "041000-h24",
       "anchor": "Then he entered a Benedictine abbey",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -336,7 +279,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h28",
+      "id": "041000-h25",
       "anchor": "A surviving letter from his twenty-first birthday",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -346,7 +289,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h29",
+      "id": "041000-h26",
       "anchor": "He initially embraced the Revolution's promise of equality",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -356,7 +299,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h30",
+      "id": "041000-h27",
       "anchor": "was arrested in seventeen ninety-four",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -366,7 +309,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h31",
+      "id": "041000-h28",
       "anchor": "During the Egyptian occupation Fourier served as secretary",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -376,7 +319,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h32",
+      "id": "041000-h29",
       "anchor": "Fourier supervised roads, drained marshland",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -386,7 +329,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h33",
+      "id": "041000-h30",
       "anchor": "When Napoleon returned from Elba, Fourier",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -396,73 +339,13 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "041000-h34",
+      "id": "041000-h31",
       "anchor": "Fourier accepted office but later refused to carry out measures",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-fourier-1815-ems"
       ],
       "source_locator": "EMS Newsletter study of refusal to apply purges",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h35",
-      "anchor": "A later colleague, François Arago, remembered an apartment",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-arago-1833"
-      ],
-      "source_locator": "Arago 1833 eulogy, English translation, clothing and rooms",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h36",
-      "anchor": "Fourier wore such thick layers that he joked",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-arago-1833"
-      ],
-      "source_locator": "Arago 1833 eulogy, mummy comparison",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h37",
-      "anchor": "including the physician and friend Dominique-Jean Larrey",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-arago-1833"
-      ],
-      "source_locator": "Arago 1833 eulogy, Larrey advice",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h38",
-      "anchor": "After a fall on a staircase in May eighteen thirty",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-arago-1833"
-      ],
-      "source_locator": "Arago 1833 eulogy, final illness",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h39",
-      "anchor": "The mathematician Sophie Germain, who had faced barriers",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-germain-correspondence"
-      ],
-      "source_locator": "Sophie Germain, preserved correspondence",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "041000-h40",
-      "anchor": "he helped her enter the Academy's public scientific world",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-fourier-germain-correspondence"
-      ],
-      "source_locator": "May 30 1823 invitation for Academy public seats",
       "audit_status": "source_cross_checked"
     }
   ]

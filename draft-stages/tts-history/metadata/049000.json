@@ -5,23 +5,23 @@
   "related_resources": [
     {
       "source_id": "history-kepler-sep",
-      "reason": "Biographical timeline, natural philosophy, astronomy, law development"
+      "reason": "Biographical, institutional, primary or mathematical background for this historical portrait."
     },
     {
       "source_id": "history-kepler-mactutor",
-      "reason": "Working life, family, Tycho, legal defense, wartime conditions"
+      "reason": "Biographical, institutional, primary or mathematical background for this historical portrait."
     },
     {
       "source_id": "history-kepler-laws",
-      "reason": "Geometry and history of elliptic orbits and area rule"
+      "reason": "Biographical, institutional, primary or mathematical background for this historical portrait."
     },
     {
       "source_id": "history-kepler-astronomia-nova-1609",
-      "reason": "Contemporaneous published source for Kepler's 1609 Mars and orbit arguments, contrasted with modern formulation."
+      "reason": "Biographical, institutional, primary or mathematical background for this historical portrait."
     },
     {
       "source_id": "history-kepler-nasa-history",
-      "reason": "Modern historical explanation of Tycho's observations and the rejection of strictly circular models."
+      "reason": "Biographical, institutional, primary or mathematical background for this historical portrait."
     }
   ],
   "historical_claims": [
@@ -32,7 +32,7 @@
       "source_ids": [
         "history-kepler-sep"
       ],
-      "source_locator": "Birth and early years",
+      "source_locator": "Birth and upbringing",
       "audit_status": "source_cross_checked"
     },
     {
@@ -43,11 +43,72 @@
         "history-kepler-sep",
         "history-kepler-mactutor"
       ],
-      "source_locator": "Tübingen and Copernican astronomy",
+      "source_locator": "Tübingen education",
       "audit_status": "source_cross_checked"
     },
     {
       "id": "049000-h03",
+      "anchor": "appointment in Graz in fifteen ninety-four",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kepler-sep"
+      ],
+      "source_locator": "Graz appointment",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "049000-h04",
+      "anchor": "published the Mysterium Cosmographicum",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kepler-sep"
+      ],
+      "source_locator": "First book and Platonic solids",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "049000-h05",
+      "anchor": "married Barbara Müller in fifteen ninety-seven",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kepler-sep"
+      ],
+      "source_locator": "Marriage",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "049000-h06",
+      "anchor": "in sixteen hundred he sought refuge and employment elsewhere",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kepler-sep"
+      ],
+      "source_locator": "Graz departure and confessional pressure",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "049000-h07",
+      "anchor": "Tycho died in sixteen hundred one",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kepler-sep"
+      ],
+      "source_locator": "Imperial appointment",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "049000-h08",
+      "anchor": "New Astronomy in sixteen hundred nine",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kepler-sep",
+        "history-kepler-astronomia-nova-1609"
+      ],
+      "source_locator": "First two laws",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "049000-h09",
       "anchor": "joined the household of the Danish astronomer Tycho Brahe",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -57,17 +118,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "049000-h04",
-      "anchor": "Tycho died in sixteen hundred one",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-kepler-sep"
-      ],
-      "source_locator": "Transition to imperial mathematician",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "049000-h05",
+      "id": "049000-h10",
       "anchor": "New Astronomy, published in sixteen hundred nine",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -75,67 +126,6 @@
         "history-kepler-astronomia-nova-1609"
       ],
       "source_locator": "First two planetary laws, Keplerian astronomy",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "049000-h06",
-      "anchor": "The Harmony of the World, published in sixteen nineteen",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-kepler-sep"
-      ],
-      "source_locator": "Third law and harmonic project",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "049000-h07",
-      "anchor": "Barbara died in sixteen eleven",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-kepler-sep"
-      ],
-      "source_locator": "Family and relocation chronology",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "049000-h08",
-      "anchor": "married Susanna Reuttinger in sixteen thirteen",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-kepler-sep"
-      ],
-      "source_locator": "Second marriage",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "049000-h09",
-      "anchor": "accused of witchcraft in a Württemberg legal proceeding",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-kepler-mactutor",
-        "history-kepler-sep"
-      ],
-      "source_locator": "Katharina Kepler legal case",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "049000-h10",
-      "anchor": "Rudolphine Tables",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-kepler-sep"
-      ],
-      "source_locator": "Table publication, 1627",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "049000-h11",
-      "anchor": "died in sixteen thirty at Regensburg",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-kepler-sep"
-      ],
-      "source_locator": "Death and unpaid stipends",
       "audit_status": "source_cross_checked"
     }
   ]
