@@ -44,3 +44,23 @@ Most consequential remaining prerequisites:
 - **Check 032000 mathematical companion sign.** The older companion writes plus symplectic area minus Hamiltonian with a plus-sign Floer PDE. Under the documented track convention i_X omega = dH, the consistent action is negative area minus Hamiltonian, as derived in 025600-025700. No old manuscript was modified in Continuation 28.
 
 These are proposals, not registered lectures. No fixed narration duration, minimum, or word-count policy should be introduced.
+
+## Continuation 29 dispositions and further prerequisite priorities
+
+Continuation 29 (2026-11-16) **completed** the immediate equivariant and sheaf/K-theory gaps identified after Continuation 28:
+
+- **018200–018500:** Grothendieck K-theory, Hopf class and Bott periodicity, Chern character, K-theory pushforwards and a calculable topological index.
+- **020300–020700:** Borel quotient, Cartan differential, equivariant Euler classes and ABBV, complete CP¹ restrictions and integrals, Duistermaat–Heckman density.
+- **022200–022600:** sheaf gluing and stalks, a real Čech calculation, derived global sections, O(k) holomorphic line-bundle cohomology, fine de Rham and Dolbeault resolutions.
+- **039100:** determinant line and index class of a varying rank-one linear map, ahead of families index 040000.
+
+**111 lectures are registered**. Retain Continuation 28's independent sign-consistency note for old 032000; 032000 has not been edited.
+
+Next foundational targets with direct advanced destinations:
+
+- Contact forms, Reeb orbits, Liouville domains/completions, admissible Hamiltonians and no-escape/maximum principles before 037000 wrapped Floer and 038000 ECH capacities.
+- Fredholm orientation lines, coherent signs, Morse/Floer continuation maps in nonexact settings, and action filtrations when the geometry demands more than the existing introductory survey.
+- Spectral sequences in elementary filtered-complex examples, derived tensor products and Kunneth/Tor/Ext where existing topology and index lectures invoke them without explanation.
+- A separate narrow edit to resolve the older 032000 Floer-sign discrepancy once the track owner is ready, rather than silently changing an earlier manuscript in a content addition.
+
+No new duration policy is proposed.

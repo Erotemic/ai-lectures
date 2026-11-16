@@ -46,11 +46,20 @@
     "gauss-bonnet-triangulation",
     "characteristic-classes",
     "clutching-chern",
+    "virtual-bundles-k0",
+    "hopf-bundle-k0-sphere",
+    "chern-character-rationalization",
+    "bott-periodicity-index-pushforward",
     "topological-degree",
     "regular-values-degree",
     "hodge-harmonic",
     "hodge-star-adjoint",
     "elliptic-symbol-fredholm",
+    "equivariant-borel-cohomology",
+    "equivariant-cartan-differential",
+    "equivariant-localization-euler",
+    "localization-projective-line",
+    "duistermaat-heckman-foundations",
     "moment-maps-reduction",
     "symplectic-hamiltonian-examples",
     "almost-complex-compatible",
@@ -58,6 +67,11 @@
     "lagrangian-graphs-exactness",
     "chern-weil-bundles",
     "gauge-holonomy-calculations",
+    "sheaves-restriction-stalks",
+    "cech-cohomology-calculation",
+    "derived-global-sections",
+    "projective-line-h0-h1",
+    "fine-sheaves-resolutions",
     "morse-handles",
     "morse-chain-complex",
     "elliptic-index",
@@ -102,6 +116,7 @@
     "wrapped-floer-symplectic",
     "ech-capacities-staircases",
     "donaldson-invariants",
+    "determinant-line-family-model",
     "families-index-determinant",
     "seiberg-witten-monopoles",
     "seiberg-witten-adjunction"
@@ -441,6 +456,42 @@
       "estimated_minutes_at_145_wpm": 7.0
     },
     {
+      "id": "018200",
+      "title": "Vector Bundle K-Theory: Why Subtraction Needs New Objects",
+      "section": "virtual-bundles-k0",
+      "file": "018200-vector-bundle-k-theory-from-stable-differences.md",
+      "spoken_words": 976,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.7
+    },
+    {
+      "id": "018300",
+      "title": "K-Theory of the Sphere: The Hopf Bundle as a Generator",
+      "section": "hopf-bundle-k0-sphere",
+      "file": "018300-k-theory-of-the-sphere-and-the-hopf-bundle.md",
+      "spoken_words": 860,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.9
+    },
+    {
+      "id": "018400",
+      "title": "The Chern Character: Why Exponentials Connect Bundles to Cohomology",
+      "section": "chern-character-rationalization",
+      "file": "018400-chern-character-rational-cohomology-and-exponentials.md",
+      "spoken_words": 957,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.6
+    },
+    {
+      "id": "018500",
+      "title": "Bott Periodicity and Index Pushforwards: Turning Symbols into Integers",
+      "section": "bott-periodicity-index-pushforward",
+      "file": "018500-bott-periodicity-pushforwards-and-index.md",
+      "spoken_words": 881,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
       "id": "019000",
       "title": "Degree Theory, Brouwer Fixed Points, and Global Constraints",
       "section": "topological-degree",
@@ -484,6 +535,51 @@
       "spoken_words": 1091,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "020300",
+      "title": "Equivariant Cohomology: The Space That Remembers Its Symmetry",
+      "section": "equivariant-borel-cohomology",
+      "file": "020300-equivariant-cohomology-the-borel-construction.md",
+      "spoken_words": 938,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "020400",
+      "title": "The Cartan Model: An Exterior Derivative that Knows the Action",
+      "section": "equivariant-cartan-differential",
+      "file": "020400-cartan-model-and-equivariant-differential.md",
+      "spoken_words": 899,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "020500",
+      "title": "Fixed-Point Localization: Weights, Euler Classes, and Denominators",
+      "section": "equivariant-localization-euler",
+      "file": "020500-equivariant-euler-classes-and-localization.md",
+      "spoken_words": 859,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.9
+    },
+    {
+      "id": "020600",
+      "title": "Localization on the Projective Line: An Integral from Two Fractions",
+      "section": "localization-projective-line",
+      "file": "020600-localization-calculation-projective-line.md",
+      "spoken_words": 965,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.7
+    },
+    {
+      "id": "020700",
+      "title": "Moment-Map Measures: From Symplectic Area to Duistermaat–Heckman",
+      "section": "duistermaat-heckman-foundations",
+      "file": "020700-moment-map-distribution-and-duistermaat-heckman.md",
+      "spoken_words": 954,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.6
     },
     {
       "id": "021000",
@@ -547,6 +643,51 @@
       "spoken_words": 1200,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.3
+    },
+    {
+      "id": "022200",
+      "title": "Sheaves: Local Information That Knows How to Glue",
+      "section": "sheaves-restriction-stalks",
+      "file": "022200-sheaves-stalks-restrictions-and-gluing.md",
+      "spoken_words": 941,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "022300",
+      "title": "Čech Cohomology by Calculation: Recovering the Circle's One Hole",
+      "section": "cech-cohomology-calculation",
+      "file": "022300-cech-cohomology-calculation-circle.md",
+      "spoken_words": 929,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "022400",
+      "title": "Why Sheaf Cohomology Is Derived: A Global Logarithm That Fails",
+      "section": "derived-global-sections",
+      "file": "022400-derived-sections-and-long-exact-cohomology.md",
+      "spoken_words": 890,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "022500",
+      "title": "Holomorphic Line Bundles on the Projective Line: Counting H-Zero and H-One",
+      "section": "projective-line-h0-h1",
+      "file": "022500-cohomology-of-line-bundles-on-projective-line.md",
+      "spoken_words": 1010,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.0
+    },
+    {
+      "id": "022600",
+      "title": "Fine Resolutions: Why de Rham and Dolbeault Compute Sheaf Cohomology",
+      "section": "fine-sheaves-resolutions",
+      "file": "022600-fine-sheaves-de-rham-and-dolbeault-resolutions.md",
+      "spoken_words": 908,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.3
     },
     {
       "id": "023000",
@@ -943,6 +1084,15 @@
       "spoken_words": 966,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.7
+    },
+    {
+      "id": "039100",
+      "title": "A Family Index and Determinant Line by Hand: One Zero, One Twist",
+      "section": "determinant-line-family-model",
+      "file": "039100-a-family-index-and-determinant-line-by-hand.md",
+      "spoken_words": 1042,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.2
     },
     {
       "id": "040000",

@@ -234,3 +234,26 @@ Fifteen calculation-first foundation lectures were inserted at 021200-021400, 02
 - 031300 — [A Complete Lagrangian Floer Model: Two Graphs over a Circle](031300-exact-lagrangian-floer-circle-worked-example.md)
 
 The sequence supplies the local geometry, nonlinear Cauchy–Riemann analysis, compactification and algebraic invariance arguments needed to read 032000 Floer Homology, 034000 Symplectic Nonsqueezing, and later wrapped Floer/symplectic-capacity work. The independent sign note in CONTINUATION_28_SYMPLECTIC_FLOER_FOUNDATIONS.md flags an earlier action-formula inconsistency without overwriting the existing 032000 manuscript.
+
+
+## Continuation 29: Equivariant, Sheaf and K-Theory Foundations (2026-11-16)
+
+Fifteen substantive standalone lectures were added at 018200–018500, 020300–020700, 022200–022600 and 039100. The prior 96 manuscripts remain unchanged; the track now has 111 lectures. The additions supply the missing bridges into 021000 moment maps, 025000 localization, 029000 quantization and reduction, 024000 elliptic index, and 040000 families index and determinant bundles. Each transcript has a complete spoken lecture and separate mathematical companion, answered exercises and source records. Lecture length is governed by the mathematics, without a duration cap.
+
+- 018200 — [Vector Bundle K-Theory: Why Subtraction Needs New Objects](018200-vector-bundle-k-theory-from-stable-differences.md)
+- 018300 — [K-Theory of the Sphere: The Hopf Bundle as a Generator](018300-k-theory-of-the-sphere-and-the-hopf-bundle.md)
+- 018400 — [The Chern Character: Why Exponentials Connect Bundles to Cohomology](018400-chern-character-rational-cohomology-and-exponentials.md)
+- 018500 — [Bott Periodicity and Index Pushforwards: Turning Symbols into Integers](018500-bott-periodicity-pushforwards-and-index.md)
+- 020300 — [Equivariant Cohomology: The Space That Remembers Its Symmetry](020300-equivariant-cohomology-the-borel-construction.md)
+- 020400 — [The Cartan Model: An Exterior Derivative that Knows the Action](020400-cartan-model-and-equivariant-differential.md)
+- 020500 — [Fixed-Point Localization: Weights, Euler Classes, and Denominators](020500-equivariant-euler-classes-and-localization.md)
+- 020600 — [Localization on the Projective Line: An Integral from Two Fractions](020600-localization-calculation-projective-line.md)
+- 020700 — [Moment-Map Measures: From Symplectic Area to Duistermaat–Heckman](020700-moment-map-distribution-and-duistermaat-heckman.md)
+- 022200 — [Sheaves: Local Information That Knows How to Glue](022200-sheaves-stalks-restrictions-and-gluing.md)
+- 022300 — [Čech Cohomology by Calculation: Recovering the Circle's One Hole](022300-cech-cohomology-calculation-circle.md)
+- 022400 — [Why Sheaf Cohomology Is Derived: A Global Logarithm That Fails](022400-derived-sections-and-long-exact-cohomology.md)
+- 022500 — [Holomorphic Line Bundles on the Projective Line: Counting H-Zero and H-One](022500-cohomology-of-line-bundles-on-projective-line.md)
+- 022600 — [Fine Resolutions: Why de Rham and Dolbeault Compute Sheaf Cohomology](022600-fine-sheaves-de-rham-and-dolbeault-resolutions.md)
+- 039100 — [A Family Index and Determinant Line by Hand: One Zero, One Twist](039100-a-family-index-and-determinant-line-by-hand.md)
+
+The sequence calculates stable differences of bundles and the Hopf class, converts K-theory to rational cohomology using the Chern character, derives a Riemann–Roch index, constructs Borel and Cartan equivariant cohomology, calculates equivariant localization on CP¹, derives the sphere's Duistermaat–Heckman pushforward measure, computes Čech cohomology on S¹ and sheaf cohomology of O(k) on CP¹, and finishes with a nontrivial determinant line over a family of rank-one maps.
