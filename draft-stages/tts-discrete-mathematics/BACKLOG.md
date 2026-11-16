@@ -1,12 +1,12 @@
-# Discrete Mathematics and Combinatorics — after 34 completed lectures
+# Discrete Mathematics and Combinatorics - after 36 completed lectures
 
-Hypergraph container theorems turn forbidden configurations into independent sets and obtain sharp asymptotic counts through supersaturation. Boolean Fourier expansions give exact influence, noise stability and Poincaré identities with their product-measure hypotheses stated.
+Hypercontractive noise smoothing gives a quantitative link from Boolean Fourier coefficients to influence bounds and sharp thresholds. Hadamard local correction recovers a selected symbol with two queries; Parseval bounds high-correlation candidate lists.
 
 ## Unindexed continuation proposals
 
-- 035000 — Local Correctability and List Decoding
-- 036000 — Explicit Small-Bias Sets and Error-Correcting Codes
-- 037000 — Hypercontractivity, Influences, and Sharp Thresholds
-- 038000 — Sparse Random Hypergraphs and Arithmetic Containers
+- 037000 - Explicit Small-Bias Spaces and Derandomization
+- 038000 - Threshold Phenomena and Friedgut Junta Theorems
+- 039000 - Polynomial Codes and Locally Testable Proofs
+- 040000 - Hypergraph Matchings and Absorption
 
 Proposals are not registered; manuscripts are added only when written. There is no fixed narration duration or word-count policy.

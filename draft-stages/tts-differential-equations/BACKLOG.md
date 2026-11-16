@@ -1,12 +1,12 @@
-# Differential Equations and Dynamical Systems — after 34 completed lectures
+# Differential Equations and Dynamical Systems - after 36 completed lectures
 
-The critical-element argument separates profile compactness from an equation-specific rigidity theorem. The Allen–Cahn front supplies a fully calculable neutral translation mode and spectral gap, with nonlinear stability understood modulo spatial shifts.
+Viscous Burgers shocks give exact profile and translation-mode benchmarks; the Evans function counts unstable eigenvalues under analytic hypotheses. Discrete action principles produce multisymplectic wave integrators, whose geometric conservation and CFL stability remain distinct questions.
 
 ## Unindexed continuation proposals
 
-- 035000 — Viscous Shock Profiles and Evans Function Tests
-- 036000 — Multisymplectic Variational Field Integrators
-- 037000 — Profile Decompositions for Critical Wave Equations
-- 038000 — Multi-Front Metastability and Slow-Manifold Dynamics
+- 037000 - Pointwise Green Kernels and Nonlinear Shock Stability
+- 038000 - Metastable Multi-Front Motion
+- 039000 - Dispersive Limits and Whitham Modulation
+- 040000 - Geometric Integrators for Moving-Boundary PDEs
 
 Proposals are not registered; manuscripts are added only when written. There is no fixed narration duration or word-count policy.

@@ -122,3 +122,10 @@ The spoken manuscripts are standalone. Precise statements, proof calculations, e
 - 034000 — [Symplectic Nonsqueezing: A Constraint That Volume Cannot See](034000-symplectic-capacities-and-nonsqueezing.md)
 
 Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.
+
+## Continuation 18: Arithmetic obstructions, discrete harmonic analysis, gauge topology, and certified dynamics
+
+- 035000 - [Uhlenbeck Compactness: Where Instanton Energy Goes](035000-uhlenbeck-compactness-and-instanton-bubbling.md)
+- 036000 - [Chern Numbers and the Integer Quantum Hall Effect](036000-chern-numbers-and-integer-quantum-hall-transport.md)
+
+All narrations are standalone. Precise assumptions, worked derivations, exercises with answers, and references remain outside spoken markers. Recorded length is descriptive, not a policy.

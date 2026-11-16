@@ -122,3 +122,10 @@ The spoken manuscripts are standalone. Precise statements, proof calculations, e
 - 034000 — [Fourier Analysis on the Boolean Cube](034000-fourier-analysis-of-boolean-functions.md)
 
 Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.
+
+## Continuation 18: Arithmetic obstructions, discrete harmonic analysis, gauge topology, and certified dynamics
+
+- 035000 - [Hypercontractivity: Why Boolean Functions Have Influential Coordinates](035000-hypercontractivity-influences-and-thresholds.md)
+- 036000 - [Local Correction and List Decoding: Recovering Information from Few Queries](036000-local-correction-and-list-decoding.md)
+
+All narrations are standalone. Precise assumptions, worked derivations, exercises with answers, and references remain outside spoken markers. Recorded length is descriptive, not a policy.

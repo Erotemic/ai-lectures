@@ -1,12 +1,12 @@
-# Topology and Geometry — after 34 completed lectures
+# Topology and Geometry - after 36 completed lectures
 
-Berry curvature connects eigenline holonomy to an integral Chern number, while symplectic nonsqueezing supplies a global obstruction that volume cannot detect. Both lectures distinguish local gauge or normal-form flexibility from global geometry.
+ASD compactness accounts for curvature escaping in scale through quantized instanton bubbles. The Berry eigenbundle over a Brillouin torus yields an integral Chern number that the TKNN response formula turns into a Hall-conductance plateau.
 
 ## Unindexed continuation proposals
 
-- 035000 — Uhlenbeck Compactness and Donaldson Invariants
-- 036000 — Wrapped Floer Homology and Noncompact Symplectic Geometry
-- 037000 — Chern Numbers and Quantum Hall Transport
-- 038000 — Symplectic Embedding Problems and Capacity Staircases
+- 037000 - Wrapped Floer Homology and Symplectic Cohomology
+- 038000 - Symplectic Embedding Capacities and Staircases
+- 039000 - Donaldson Intersection Invariants
+- 040000 - Family Index Theory and Determinant Line Bundles
 
 Proposals are not registered; manuscripts are added only when written. There is no fixed narration duration or word-count policy.

@@ -114,3 +114,9 @@ The spoken manuscripts are standalone. Precise statements, proof calculations, e
 - 024000 — [Validated Bifurcation Diagrams and Computer-Assisted Proof](024000-validated-bifurcation-diagrams.md)
 
 Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.
+
+## Continuation 18: Arithmetic obstructions, discrete harmonic analysis, gauge topology, and certified dynamics
+
+- 025000 - [Validated Periodic Orbits and Floquet Multipliers](025000-validated-periodic-orbits-and-floquet-multipliers.md)
+
+All narrations are standalone. Precise assumptions, worked derivations, exercises with answers, and references remain outside spoken markers. Recorded length is descriptive, not a policy.

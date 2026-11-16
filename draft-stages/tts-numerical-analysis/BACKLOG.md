@@ -1,12 +1,12 @@
-# Numerical Analysis and Reliable Computation — after 24 completed lectures
+# Numerical Analysis and Reliable Computation - after 25 completed lectures
 
-Validated bifurcation now distinguishes plotted roots, interval-verified folds, continued branch segments and completeness of the solution set. An exact rational isolation for the cubic saddle-node gives a reference for computer-assisted proof procedures.
+Phase-fixed validated shooting and interval Poincare maps prove existence of genuine periodic orbits. Variational integration yields rigorous monodromy enclosures and transverse Floquet multipliers, with separate treatment of the neutral phase direction.
 
 ## Unindexed continuation proposals
 
-- 025000 — Event-Time Sensitivities in Hybrid Solvers
-- 026000 — Goal-Oriented Dual-Weighted Residual Certificates
-- 027000 — Algebraic Multigrid for Rotated Anisotropy
-- 028000 — Validated Periodic Orbits and Floquet Multipliers
+- 026000 - Event-Time Sensitivities in Hybrid Solvers
+- 027000 - Goal-Oriented Dual-Weighted Residual Certificates
+- 028000 - Algebraic Multigrid for Rotated Anisotropy
+- 029000 - Rigorous Floquet Bundles and Validated Manifolds
 
 Proposals are not registered; manuscripts are added only when written. There is no fixed narration duration or word-count policy.

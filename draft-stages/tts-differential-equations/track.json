@@ -42,7 +42,9 @@
     "structure-preserving-pde",
     "compressible-shocks",
     "concentration-compactness-scattering",
-    "pattern-forming-interface-stability"
+    "pattern-forming-interface-stability",
+    "viscous-shocks-evans",
+    "multisymplectic-integrators"
   ],
   "lectures": [
     {
@@ -350,6 +352,24 @@
       "spoken_words": 1158,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.0
+    },
+    {
+      "id": "035000",
+      "title": "Viscous Shock Profiles and the Evans Function",
+      "section": "viscous-shocks-evans",
+      "file": "035000-viscous-shock-profiles-and-evans-functions.md",
+      "spoken_words": 1239,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.5
+    },
+    {
+      "id": "036000",
+      "title": "Multisymplectic Variational Integrators for Wave Equations",
+      "section": "multisymplectic-integrators",
+      "file": "036000-multisymplectic-variational-wave-integrators.md",
+      "spoken_words": 1320,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.1
     }
   ]
 }

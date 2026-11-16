@@ -42,7 +42,9 @@
     "property-testing",
     "extractors-and-generators",
     "hypergraph-containers",
-    "boolean-fourier-analysis"
+    "boolean-fourier-analysis",
+    "hypercontractivity-influences",
+    "local-correction-list-decoding"
   ],
   "lectures": [
     {
@@ -350,6 +352,24 @@
       "spoken_words": 1215,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.4
+    },
+    {
+      "id": "035000",
+      "title": "Hypercontractivity: Why Boolean Functions Have Influential Coordinates",
+      "section": "hypercontractivity-influences",
+      "file": "035000-hypercontractivity-influences-and-thresholds.md",
+      "spoken_words": 1288,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.9
+    },
+    {
+      "id": "036000",
+      "title": "Local Correction and List Decoding: Recovering Information from Few Queries",
+      "section": "local-correction-list-decoding",
+      "file": "036000-local-correction-and-list-decoding.md",
+      "spoken_words": 1274,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.8
     }
   ]
 }

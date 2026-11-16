@@ -76,7 +76,11 @@
     "mordell-weil-saturation",
     "weyl-character-formula",
     "quantum-differential-equations",
-    "dt-pt-wall-crossing"
+    "dt-pt-wall-crossing",
+    "cassels-tate-pairings",
+    "littlewood-richardson",
+    "quantum-monodromy-stokes",
+    "motivic-dt-wall-crossing"
   ],
   "lectures": [
     {
@@ -690,6 +694,42 @@
       "spoken_words": 1063,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.3
+    },
+    {
+      "id": "069000",
+      "title": "Cassels-Tate Pairings: How an Obstruction Sharpens a Rank Bound",
+      "section": "cassels-tate-pairings",
+      "file": "069000-cassels-tate-pairing-and-rank-certification.md",
+      "spoken_words": 1235,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.5
+    },
+    {
+      "id": "070000",
+      "title": "Littlewood-Richardson Rules: Counting Tensor-Product Multiplicities",
+      "section": "littlewood-richardson",
+      "file": "070000-littlewood-richardson-tableaux-and-tensor-products.md",
+      "spoken_words": 1186,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.2
+    },
+    {
+      "id": "071000",
+      "title": "Quantum Connections, Monodromy, and Stokes Matrices",
+      "section": "quantum-monodromy-stokes",
+      "file": "071000-quantum-connections-monodromy-and-stokes.md",
+      "spoken_words": 1108,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.6
+    },
+    {
+      "id": "072000",
+      "title": "Motivic Donaldson-Thomas Invariants and Quantum Wall Crossing",
+      "section": "motivic-dt-wall-crossing",
+      "file": "072000-motivic-dt-invariants-and-quantum-wall-crossing.md",
+      "spoken_words": 1191,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.2
     }
   ]
 }

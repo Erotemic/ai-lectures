@@ -156,3 +156,12 @@ The spoken manuscripts are standalone. Precise statements, proof calculations, e
 - 068000 — [DT/PT Wall Crossing: Two Ways to Count Curves](068000-dt-pt-wall-crossing-and-curve-correspondences.md)
 
 Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.
+
+## Continuation 18: Arithmetic obstructions, discrete harmonic analysis, gauge topology, and certified dynamics
+
+- 069000 - [Cassels-Tate Pairings: How an Obstruction Sharpens a Rank Bound](069000-cassels-tate-pairing-and-rank-certification.md)
+- 070000 - [Littlewood-Richardson Rules: Counting Tensor-Product Multiplicities](070000-littlewood-richardson-tableaux-and-tensor-products.md)
+- 071000 - [Quantum Connections, Monodromy, and Stokes Matrices](071000-quantum-connections-monodromy-and-stokes.md)
+- 072000 - [Motivic Donaldson-Thomas Invariants and Quantum Wall Crossing](072000-motivic-dt-invariants-and-quantum-wall-crossing.md)
+
+All narrations are standalone. Precise assumptions, worked derivations, exercises with answers, and references remain outside spoken markers. Recorded length is descriptive, not a policy.

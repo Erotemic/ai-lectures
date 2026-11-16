@@ -122,3 +122,10 @@ The spoken manuscripts are standalone. Precise statements, proof calculations, e
 - 034000 — [Pattern-Forming Interfaces: Stability Beyond an Exact Front](034000-pattern-forming-interfaces-and-spectral-stability.md)
 
 Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.
+
+## Continuation 18: Arithmetic obstructions, discrete harmonic analysis, gauge topology, and certified dynamics
+
+- 035000 - [Viscous Shock Profiles and the Evans Function](035000-viscous-shock-profiles-and-evans-functions.md)
+- 036000 - [Multisymplectic Variational Integrators for Wave Equations](036000-multisymplectic-variational-wave-integrators.md)
+
+All narrations are standalone. Precise assumptions, worked derivations, exercises with answers, and references remain outside spoken markers. Recorded length is descriptive, not a policy.

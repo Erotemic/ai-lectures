@@ -116,3 +116,9 @@ The spoken manuscripts are standalone. Precise statements, proof calculations, e
 - 021000 — [Submodular Maximization Under Intersecting Matroid Constraints](021000-submodular-maximization-under-matroid-intersections.md)
 
 Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.
+
+## Continuation 18: Arithmetic obstructions, discrete harmonic analysis, gauge topology, and certified dynamics
+
+- 022000 - [Mirror-Prox: Solving Monotone Games Without Rotating Forever](022000-mirror-prox-and-bregman-variational-inequalities.md)
+
+All narrations are standalone. Precise assumptions, worked derivations, exercises with answers, and references remain outside spoken markers. Recorded length is descriptive, not a policy.

@@ -26,7 +26,8 @@
     "inexact-proximal-steps",
     "wasserstein-distributional-robustness",
     "facial-reduction-sdp",
-    "multiple-matroid-submodular"
+    "multiple-matroid-submodular",
+    "mirror-prox-bregman"
   ],
   "lectures": [
     {
@@ -217,6 +218,15 @@
       "spoken_words": 1137,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.8
+    },
+    {
+      "id": "022000",
+      "title": "Mirror-Prox: Solving Monotone Games Without Rotating Forever",
+      "section": "mirror-prox-bregman",
+      "file": "022000-mirror-prox-and-bregman-variational-inequalities.md",
+      "spoken_words": 1450,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.0
     }
   ]
 }

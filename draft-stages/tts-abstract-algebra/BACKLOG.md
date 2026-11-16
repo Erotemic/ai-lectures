@@ -1,12 +1,12 @@
-# Abstract Algebra: Structure, Symmetry, and Arithmetic — after 68 completed lectures
+# Abstract Algebra: Structure, Symmetry, and Arithmetic - after 72 completed lectures
 
-Saturation now separates rank, independent point search, complete Mordell–Weil generators and the regulator. Character identities connect representation weights to flag geometry, quantum differential equations turn curve counts into hypergeometric periods, and DT/PT wall crossing separates pure one-dimensional geometry from point contributions.
+Cassels-Tate duality sharpens descent bounds without confusing Sha with rational points. Schur tableaux compute tensor multiplicities; the CP1 quantum connection has separate regular-monodromy and irregular-Stokes structures; motivic DT counts are related through noncommutative ordered wall-crossing products.
 
 ## Unindexed continuation proposals
 
-- 069000 — Cassels–Tate Pairings and Effective Rank Certification
-- 070000 — Tensor Products and Littlewood–Richardson Rules
-- 071000 — Quantum Connections, Monodromy, and Stokes Matrices
-- 072000 — Motivic DT Invariants and Wall-Crossing Categories
+- 073000 - Effective Chabauty-Coleman Bounds on Rational Points
+- 074000 - Crystal Bases and Canonical Bases
+- 075000 - Quantum Cohomology and Gamma-Class Integral Structures
+- 076000 - Hall Algebras and Cluster Mutations
 
 Proposals are not registered; manuscripts are added only when written. There is no fixed narration duration or word-count policy.
