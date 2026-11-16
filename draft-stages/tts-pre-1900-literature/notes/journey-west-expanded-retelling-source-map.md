@@ -58,6 +58,15 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 | 490000 | 19 | The Cave, the Iron Head, and the Vow to Travel West | 1039 |
 | 491000 | 19 | Zhu Wuneng, Zhu Bajie, and the Road Out of Gao Village | 1156 |
 | 492000 | 19 | Crow-Nest Chan Master and the Heart Sutra | 1460 |
+| 493000 | 20 | A House at Sundown and a Disciple Who Was Hungry | 963 |
+| 494000 | 20 | The Wind That Wukong Could Smell | 824 |
+| 495000 | 20 | The Skin Left on the Stone | 910 |
+| 496000 | 20 | Tiger Vanguard's Last Escape | 890 |
+| 497000 | 21 | The King Whose Breath Darkened the Sky | 907 |
+| 498000 | 21 | The House That Wasn't There at Dawn | 1000 |
+| 499000 | 21 | A Mosquito, a Bound Monk, and a Name Overheard | 936 |
+| 500000 | 21 | The Bodhisattva of Little Sumeru | 807 |
+| 501000 | 21 | The Golden Dragon and the Yellow-Furred Marten | 993 |
 
 ## Text and evidence decisions
 
@@ -88,6 +97,8 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 - Chapter 17: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC017%E5%9B%9E) — lectures 480000, 481000, 482000, 483000.
 - Chapter 18: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC018%E5%9B%9E) — lectures 484000, 485000, 486000, 487000.
 - Chapter 19: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC019%E5%9B%9E) — lectures 488000, 489000, 490000, 491000, 492000.
+- Chapter 20: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC020%E5%9B%9E) — lectures 493000, 494000, 495000, 496000.
+- Chapter 21: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC021%E5%9B%9E) — lectures 497000, 498000, 499000, 500000, 501000.
 
 ## Useful reading and navigation
 
@@ -108,10 +119,10 @@ The novella-like origin episode is literary, not a historical biography of the r
 
 ## Progress and next chapter group
 
-The expanded retelling covers **chapters 1–19** in **52** original English narrative lectures. The new lectures **484000–492000** cover the return from Black Wind Mountain; Gao Cuilan's rescue; Zhu Ganglie's heavenly origin, fight and conversion; Xuanzang's naming of Zhu Bajie; the pilgrimage's new labor division; and Crow-Nest Chan Master's transmission of the Heart Sutra. See `notes/journey-west-chapters-18-19-reading-guide.md` for scene continuity and direct passage links.
+The expanded retelling covers **chapters 1–21** in **61** original English narrative lectures. The new lectures **493000–501000** narrate the Yellow Wind Ridge household, Tiger Vanguard's abduction of Xuanzang, Bajie's capture of the tiger demon, Wukong's eye injury, the guardians' disguised farmhouse, Wukong's mosquito reconnaissance, Taibai Jinxing's help, Lingji's intervention and the rescue. See `notes/journey-west-chapters-20-21-reading-guide.md` for primary-text links and continuity notes.
 
-**Next:** chapter 20, Yellow Wind Ridge, the tiger vanguard's assault, and the first major peril after Bajie joins. Chapter 19 ends after the Heart Sutra and the mountain descent. Do not move the tiger-vanguard encounter into chapter 19.
+**Next:** chapter 22, the Flowing-Sand River and the encounter with the water monster who becomes Sha Wujing. Chapter 21 ends with Xuanzang rescued from Yellow Wind Cave and the three travelers setting off west; the Flowing-Sand River belongs to chapter 22.
 
 The River Child chapter-9 insertion caveat remains relevant to edition comparison; this retelling continues to use the same selected Chinese witness.
 
-**Chapters 20–100 remain unwritten in this expanded strand.** The World History complete-plot survey remains separately available and unchanged.
+**Chapters 22–100 remain unwritten in this expanded strand.** The World History complete-plot survey remains separately available and unchanged.
