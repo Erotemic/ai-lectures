@@ -197,3 +197,13 @@ Each paragraph maps to a nonspoken evidence ledger and sidecar claim. Source sco
 - **082000 — [When Credit Stopped Moving: The Global Financial Crisis, 2007–2009](082000-when-credit-stopped-moving.md)** (2,476 spoken words; 20 source-mapped paragraphs). Securitization and leverage, September 2008 crisis, emergency responses, global and household costs.
 
 Source links, access scopes and evidence limits are recorded in display-only paragraph ledgers and per-lecture metadata. No fixed duration target applies.
+
+
+## The early 2010s: uprisings, money, media and climate negotiations (083000–086000)
+
+- **083000 — [When the Square Became a Question: Uprisings Across the Arab World, 2010–2013](083000-when-the-square-became-a-question.md)** (2,202 spoken words; 21 paragraph-level evidence records). Tunisia, Egypt, Libya, Syria, and Bahrain: protest, institutions, repression, intervention and diverging outcomes.
+- **084000 — [One Currency, Many Budgets: The Eurozone Crisis, 2009–2015](084000-one-currency-many-budgets.md)** (2,067 spoken words; 19 paragraph-level evidence records). Shared money, distinct budget and banking systems, financial assistance, political tradeoffs and household costs.
+- **085000 — [A Public in Your Pocket: Smartphones, Platforms, and Political Life, 2005–2015](085000-a-public-in-your-pocket.md)** (2,145 spoken words; 21 paragraph-level evidence records). Mobile communication, platform ranking, news, organizing, public surveillance and unequal access.
+- **086000 — [Who Must Change the Weather's Future? Climate Politics from Kyoto to Paris, 2000–2015](086000-who-must-change-the-weathers-future.md)** (2,285 spoken words; 23 paragraph-level evidence records). Kyoto, Copenhagen, Cancun, Durban, Paris, scientific evidence, finance and energy change.
+
+Supporting references and review limitations remain in non-spoken evidence ledgers and metadata sidecars. Length is determined by the content, not a prescribed target.

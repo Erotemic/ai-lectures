@@ -268,3 +268,20 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **084000:** The euro-area sovereign-debt crisis, 2009–2015: banking exposure, sovereign borrowing, democratic decisions, austerity and households in Greece, Ireland, Portugal and beyond.
 - **085000:** Social media, smartphones, and political communication, 2005–2015: infrastructures, movements, platform business models, censorship and public opinion beyond an exclusively U.S. story.
 - **086000:** Energy transitions and global climate diplomacy after Kyoto, 2000–2015: Copenhagen, Paris, national policies, contested responsibilities, and the distribution of environmental costs.
+
+
+## Completed 083000–086000 — uprisings, debt, digital publics, and climate politics
+
+- **083000:** When the Square Became a Question: Uprisings Across the Arab World, 2010–2013. Tunisia, Egypt, Libya, Syria, and Bahrain: protest, institutions, repression, intervention and diverging outcomes. (21 mapped narration paragraphs).
+- **084000:** One Currency, Many Budgets: The Eurozone Crisis, 2009–2015. Shared money, distinct budget and banking systems, financial assistance, political tradeoffs and household costs. (19 mapped narration paragraphs).
+- **085000:** A Public in Your Pocket: Smartphones, Platforms, and Political Life, 2005–2015. Mobile communication, platform ranking, news, organizing, public surveillance and unequal access. (21 mapped narration paragraphs).
+- **086000:** Who Must Change the Weather's Future? Climate Politics from Kyoto to Paris, 2000–2015. Kyoto, Copenhagen, Cancun, Durban, Paris, scientific evidence, finance and energy change. (23 mapped narration paragraphs).
+
+**Evidence to deepen:** 083000 needs Arabic-language oral archives from protesters and political opponents and full operational reviews of the Libyan campaign. 084000 needs household-level and program-negotiation records independent of lenders. 085000 needs local-language interviews and platform-ranking records unavailable from public summaries. 086000 needs country-level emissions inventories, climate finance disbursements and small-island delegate records. Existing linked documents distinguish reports, institutional positions and outcome evidence; no fixed lecture duration rule applies.
+
+## Next research candidates (not indexed)
+
+- **087000:** Migration and forced displacement around the Mediterranean in 2014–2016; conflicts, asylum law, smuggling routes, reception politics and refugee voices.
+- **088000:** The West African Ebola epidemic, 2013–2016: infection control, local care systems, scientific research, survivor experiences and the international response.
+- **089000:** Ukraine's political upheaval and armed conflict, 2013–2015: competing civic claims, Crimea, Donbas, foreign involvement and civilian life; carefully distinguish verified records and disputed interpretations.
+- **090000:** Work, wages, and inequality in the 2010s: global supply chains, platform labor, labor organizing, public services and economic measurement beyond headline GDP.

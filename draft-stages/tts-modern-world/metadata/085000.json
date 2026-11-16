@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "lecture_id": "085000",
+  "transcript": "085000-a-public-in-your-pocket.md",
+  "related_resources": [
+    {
+      "source_id": "b3-sm-arab",
+      "reason": "Limits of treating social-media link sharing as a complete record of street protest mobilization",
+      "access_scope": "web_page_reviewed_or_locator_only"
+    },
+    {
+      "source_id": "b3-sm-eg",
+      "reason": "Egypt protests, communications restriction and persistence of street mobilization",
+      "access_scope": "web_page_reviewed_or_locator_only"
+    },
+    {
+      "source_id": "b3-sm-freedom",
+      "reason": "Censorship, surveillance, online restrictions and national comparisons during 2014-15",
+      "access_scope": "web_page_reviewed_or_locator_only"
+    },
+    {
+      "source_id": "b3-sm-hk",
+      "reason": "Forty 2014 Umbrella Movement interviews on social platforms, chats, organizing and persuasion",
+      "access_scope": "web_page_reviewed_or_locator_only"
+    },
+    {
+      "source_id": "b3-sm-hk-survey",
+      "reason": "2014 Hong Kong survey of media and movement support",
+      "access_scope": "web_page_reviewed_or_locator_only"
+    },
+    {
+      "source_id": "b3-sm-itu",
+      "reason": "2015 subscriptions versus internet users and inequality in connectivity",
+      "access_scope": "web_page_reviewed_or_locator_only"
+    },
+    {
+      "source_id": "b3-sm-nigeria",
+      "reason": "Chibok abduction and Nigerian women-led organizing and international hashtag visibility",
+      "access_scope": "web_page_reviewed_or_locator_only"
+    },
+    {
+      "source_id": "b3-sm-pclob",
+      "reason": "2014 oversight studies of bulk telephone records and Section 702 authorities",
+      "access_scope": "web_page_reviewed_or_locator_only"
+    },
+    {
+      "source_id": "b3-sm-pew-global",
+      "reason": "Uneven cell-phone, smartphone and internet access and demographics",
+      "access_scope": "web_page_reviewed_or_locator_only"
+    },
+    {
+      "source_id": "b3-sm-pew-us",
+      "reason": "Smartphone dependency for news, work and community, US sample",
+      "access_scope": "web_page_reviewed_or_locator_only"
+    },
+    {
+      "source_id": "b3-sm-platform",
+      "reason": "News Feed history, platform ranking and journalism distribution economics",
+      "access_scope": "web_page_reviewed_or_locator_only"
+    },
+    {
+      "source_id": "b3-sm-wb",
+      "reason": "Why subscriptions and active SIM accounts are not distinct smartphone owners",
+      "access_scope": "web_page_reviewed_or_locator_only"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "085000-p01",
+      "anchor": "A person riding a bus in two thousand and fifteen might look up a route, se",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-pew-us",
+        "b3-sm-itu"
+      ],
+      "source_locator": "b3-sm-pew-us: Smartphone dependency for news, work and community, US sample; b3-sm-itu: 2015 subscriptions versus internet users and inequality in connectivity",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "US survey not a model for global smartphone experiences ITU estimates; subscriptions are not distinct individuals or smartphones"
+    },
+    {
+      "id": "085000-p02",
+      "anchor": "The commercial internet already existed before smartphones became widesprea",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-platform"
+      ],
+      "source_locator": "b3-sm-platform: News Feed history, platform ranking and journalism distribution economics",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Retrospective media-sector analysis through 2017, not a causal estimate of every ranking change"
+    },
+    {
+      "id": "085000-p03",
+      "anchor": "A mobile subscription is not the same as an individual person with a smartp",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-itu",
+        "b3-sm-wb"
+      ],
+      "source_locator": "b3-sm-itu: 2015 subscriptions versus internet users and inequality in connectivity; b3-sm-wb: Why subscriptions and active SIM accounts are not distinct smartphone owners",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "ITU estimates; subscriptions are not distinct individuals or smartphones Indicator methodology; not a population survey"
+    },
+    {
+      "id": "085000-p04",
+      "anchor": "A smartphone cannot send a political message by itself. The signal must pas",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-itu",
+        "b3-sm-wb"
+      ],
+      "source_locator": "b3-sm-itu: 2015 subscriptions versus internet users and inequality in connectivity; b3-sm-wb: Why subscriptions and active SIM accounts are not distinct smartphone owners",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "ITU estimates; subscriptions are not distinct individuals or smartphones Indicator methodology; not a population survey"
+    },
+    {
+      "id": "085000-p05",
+      "anchor": "The users were not evenly distributed. Surveys in emerging and developing e",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-pew-global"
+      ],
+      "source_locator": "b3-sm-pew-global: Uneven cell-phone, smartphone and internet access and demographics",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Survey coverage and respondent definitions matter; not a census of all countries"
+    },
+    {
+      "id": "085000-p06",
+      "anchor": "As mobile screens became a regular source of news, the relationship between",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-platform"
+      ],
+      "source_locator": "b3-sm-platform: News Feed history, platform ranking and journalism distribution economics",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Retrospective media-sector analysis through 2017, not a causal estimate of every ranking change"
+    },
+    {
+      "id": "085000-p07",
+      "anchor": "Publishing became cheap enough for a witness to document an event without w",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-platform"
+      ],
+      "source_locator": "b3-sm-platform: News Feed history, platform ranking and journalism distribution economics",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Retrospective media-sector analysis through 2017, not a causal estimate of every ranking change"
+    },
+    {
+      "id": "085000-p08",
+      "anchor": "The new media altered the work of reporters. Journalists monitored social n",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-platform"
+      ],
+      "source_locator": "b3-sm-platform: News Feed history, platform ranking and journalism distribution economics",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Retrospective media-sector analysis through 2017, not a causal estimate of every ranking change"
+    },
+    {
+      "id": "085000-p09",
+      "anchor": "Online publication also increased the reach of false claims. A false image ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-platform",
+        "b3-sm-freedom"
+      ],
+      "source_locator": "b3-sm-platform: News Feed history, platform ranking and journalism distribution economics; b3-sm-freedom: Censorship, surveillance, online restrictions and national comparisons during 2014-15",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Retrospective media-sector analysis through 2017, not a causal estimate of every ranking change Advocacy index with country-specific coverage and methodology; not exhaustive global surveillance data"
+    },
+    {
+      "id": "085000-p10",
+      "anchor": "The Arab uprisings of two thousand and eleven made online networks part of ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-arab",
+        "b3-sm-eg"
+      ],
+      "source_locator": "b3-sm-arab: Limits of treating social-media link sharing as a complete record of street protest mobilization; b3-sm-eg: Egypt protests, communications restriction and persistence of street mobilization",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Authors describe study limitations based on URL-sharing data; these data do not capture all media or prove causal effects Human-rights report focuses on repression and political events, not platform use in every neighborhood"
+    },
+    {
+      "id": "085000-p11",
+      "anchor": "In Egypt, authorities disrupted internet access during the uprising. People",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-eg",
+        "b3-sm-freedom"
+      ],
+      "source_locator": "b3-sm-eg: Egypt protests, communications restriction and persistence of street mobilization; b3-sm-freedom: Censorship, surveillance, online restrictions and national comparisons during 2014-15",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Human-rights report focuses on repression and political events, not platform use in every neighborhood Advocacy index with country-specific coverage and methodology; not exhaustive global surveillance data"
+    },
+    {
+      "id": "085000-p12",
+      "anchor": "Hong Kong's Umbrella Movement in two thousand and fourteen offers a differe",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-hk",
+        "b3-sm-hk-survey"
+      ],
+      "source_locator": "b3-sm-hk: Forty 2014 Umbrella Movement interviews on social platforms, chats, organizing and persuasion; b3-sm-hk-survey: 2014 Hong Kong survey of media and movement support",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Retrospective, nonrepresentative interviews; not a census of participants or causal experimental proof Abstract and study description inspected, not full data or methods; association not causality"
+    },
+    {
+      "id": "085000-p13",
+      "anchor": "In Nigeria, the campaign known as Bring Back Our Girls drew public attentio",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-nigeria"
+      ],
+      "source_locator": "b3-sm-nigeria: Chibok abduction and Nigerian women-led organizing and international hashtag visibility",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Reporter synthesis; social media attention cannot measure concrete rescue outcomes"
+    },
+    {
+      "id": "085000-p14",
+      "anchor": "A company running a social platform often offers its core service to users ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-platform"
+      ],
+      "source_locator": "b3-sm-platform: News Feed history, platform ranking and journalism distribution economics",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Retrospective media-sector analysis through 2017, not a causal estimate of every ranking change"
+    },
+    {
+      "id": "085000-p15",
+      "anchor": "A ranking system does not need to be malicious to shape conversation. If it",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-platform"
+      ],
+      "source_locator": "b3-sm-platform: News Feed history, platform ranking and journalism distribution economics",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Retrospective media-sector analysis through 2017, not a causal estimate of every ranking change"
+    },
+    {
+      "id": "085000-p16",
+      "anchor": "The growth of social networks also created labor that disappeared behind th",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-itu",
+        "b3-sm-platform"
+      ],
+      "source_locator": "b3-sm-itu: 2015 subscriptions versus internet users and inequality in connectivity; b3-sm-platform: News Feed history, platform ranking and journalism distribution economics",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "ITU estimates; subscriptions are not distinct individuals or smartphones Retrospective media-sector analysis through 2017, not a causal estimate of every ranking change"
+    },
+    {
+      "id": "085000-p17",
+      "anchor": "A message stored by an online service is different from words spoken only i",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-pclob",
+        "b3-sm-freedom"
+      ],
+      "source_locator": "b3-sm-pclob: 2014 oversight studies of bulk telephone records and Section 702 authorities; b3-sm-freedom: Censorship, surveillance, online restrictions and national comparisons during 2014-15",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Describes specific US programs, not all international surveillance systems Advocacy index with country-specific coverage and methodology; not exhaustive global surveillance data"
+    },
+    {
+      "id": "085000-p18",
+      "anchor": "Authorities did not need to control every server to restrict speech. They c",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-freedom"
+      ],
+      "source_locator": "b3-sm-freedom: Censorship, surveillance, online restrictions and national comparisons during 2014-15",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Advocacy index with country-specific coverage and methodology; not exhaustive global surveillance data"
+    },
+    {
+      "id": "085000-p19",
+      "anchor": "People were inventive within these limits. They used pseudonyms, multiple a",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-hk",
+        "b3-sm-freedom"
+      ],
+      "source_locator": "b3-sm-hk: Forty 2014 Umbrella Movement interviews on social platforms, chats, organizing and persuasion; b3-sm-freedom: Censorship, surveillance, online restrictions and national comparisons during 2014-15",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Retrospective, nonrepresentative interviews; not a census of participants or causal experimental proof Advocacy index with country-specific coverage and methodology; not exhaustive global surveillance data"
+    },
+    {
+      "id": "085000-p20",
+      "anchor": "By two thousand and fifteen, the smartphone had become a major gateway to n",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-platform",
+        "b3-sm-freedom"
+      ],
+      "source_locator": "b3-sm-platform: News Feed history, platform ranking and journalism distribution economics; b3-sm-freedom: Censorship, surveillance, online restrictions and national comparisons during 2014-15",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "Retrospective media-sector analysis through 2017, not a causal estimate of every ranking change Advocacy index with country-specific coverage and methodology; not exhaustive global surveillance data"
+    },
+    {
+      "id": "085000-p21",
+      "anchor": "The history of social media in this period is best told through relationshi",
+      "kind": "historical_research",
+      "source_ids": [
+        "b3-sm-pew-us",
+        "b3-sm-pew-global",
+        "b3-sm-freedom"
+      ],
+      "source_locator": "b3-sm-pew-us: Smartphone dependency for news, work and community, US sample; b3-sm-pew-global: Uneven cell-phone, smartphone and internet access and demographics; b3-sm-freedom: Censorship, surveillance, online restrictions and national comparisons during 2014-15",
+      "audit_status": "sources_reviewed_with_scopes_and_limitations",
+      "source_limitations": "US survey not a model for global smartphone experiences Survey coverage and respondent definitions matter; not a census of all countries Advocacy index with country-specific coverage and methodology; not exhaustive global surveillance data"
+    }
+  ]
+}
