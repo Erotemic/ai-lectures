@@ -190,3 +190,24 @@ Fourteen additional lectures have been inserted after the relevant survey lectur
 - 024100 — [An Index Theorem We Can Calculate: The de Rham Operator and Euler Characteristic](024100-de-rham-elliptic-complex-and-euler-index.md)
 
 The sequence strengthens the foundations for Hodge decomposition, Chern–Weil theory, moment maps, elliptic index, Morse–Floer theory, holonomy, and four-dimensional gauge theory. Each new transcript has a marked spoken lecture and a separate non-spoken mathematical companion, worked checks, and cited source records. No duration or word-count target was applied.
+
+
+## Continuation 27: Spin, Dirac and Gauge Analysis Foundations (2026-11-16)
+
+Thirteen standalone prerequisite manuscripts have been inserted in the lower-significance positions 024200-024300, 030100-030800 and 034100-034300, rather than appended after the most advanced lectures. The preceding 68 entries remain unchanged. Each new lecture includes separate spoken narration, formal non-spoken mathematical companion, answered exercises, and scholarship plus Wikipedia references.
+
+- 024200 - [Weak Derivatives and Sobolev Estimates on Manifolds](024200-weak-derivatives-and-sobolev-estimates-on-manifolds.md)
+- 024300 - [Elliptic Regularity: From Weak Solutions to Smooth Fields](024300-elliptic-regularity-weak-to-smooth-solutions.md)
+- 030100 - [Clifford Algebra: How a Metric Becomes Operator Multiplication](030100-clifford-algebra-from-metric-to-operators.md)
+- 030200 - [Spin and Spin-C Structures: Gluing Rotations and Spinors](030200-spin-and-spinc-structures-gluing-rotations.md)
+- 030300 - [Spinor Bundles and Dirac Operators: Differentiating a Spinor](030300-spinc-spinor-bundles-and-dirac-operators.md)
+- 030400 - [The Weitzenbock Formula: Curvature in the Square of Dirac](030400-weizenbock-formula-and-curvature-estimates.md)
+- 030500 - [Computing the Spin-C Dirac Index on a Four-Manifold](030500-spinc-dirac-index-on-four-manifolds.md)
+- 030600 - [Deformation Complexes: Tangents, Symmetries, and Obstructions](030600-elliptic-deformation-complexes-from-symmetries.md)
+- 030700 - [Coulomb Gauge and Local Moduli: Removing Redundant Directions](030700-coulomb-gauge-slices-and-local-moduli.md)
+- 030800 - [Instanton Expected Dimension: What the Index Really Counts](030800-asd-index-expected-dimension-and-reducibles.md)
+- 034100 - [Yang-Mills Energy and Instanton Charge: Why Four Dimensions Matter](034100-yang-mills-energy-and-instanton-charge.md)
+- 034200 - [Small-Energy Gauges and Compactness: The Local Uhlenbeck Estimate](034200-small-energy-coulomb-gauges-and-weak-compactness.md)
+- 034300 - [Bubbling and Removable Singularities: Where Instanton Energy Goes](034300-bubbling-energy-quantization-and-removable-singularities.md)
+
+The sequence builds from weak derivatives through elliptic regularity, Clifford algebra, Spin-C structures, Dirac operators, curvature estimates, index formulas, elliptic deformation complexes, Coulomb slices, instanton expected dimensions, and Uhlenbeck bubbling. Narration duration is governed by the amount of explanation required; no word or duration target is imposed.

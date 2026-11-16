@@ -59,16 +59,29 @@
     "morse-chain-complex",
     "elliptic-index",
     "de-rham-elliptic-index",
+    "weak-derivatives-sobolev",
+    "elliptic-regularity",
     "morse-bott-localization",
     "holonomy-gauge-moduli",
     "prequantum-line-bundles",
     "holomorphic-quantization",
     "quantization-symplectic-reduction",
     "maslov-index-semiclassical-phase",
+    "clifford-algebra-metric",
+    "spin-spinc-structures",
+    "spinor-connections-dirac",
+    "weitzenbock-bochner",
+    "spinc-dirac-index",
+    "gauge-deformation-cohomology",
+    "gauge-slices-kuranishi",
+    "instantons-virtual-dimension",
     "anti-self-dual-instantons",
     "floer-homology",
     "berry-curvature",
     "symplectic-nonsqueezing",
+    "yang-mills-energy",
+    "uhlenbeck-local-gauges",
+    "instanton-bubble-compactification",
     "uhlenbeck-compactness",
     "chern-numbers-hall",
     "wrapped-floer-symplectic",
@@ -530,6 +543,24 @@
       "estimated_minutes_at_145_wpm": 7.3
     },
     {
+      "id": "024200",
+      "title": "Weak Derivatives and Sobolev Estimates on Manifolds",
+      "section": "weak-derivatives-sobolev",
+      "file": "024200-weak-derivatives-and-sobolev-estimates-on-manifolds.md",
+      "spoken_words": 1011,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.0
+    },
+    {
+      "id": "024300",
+      "title": "Elliptic Regularity: From Weak Solutions to Smooth Fields",
+      "section": "elliptic-regularity",
+      "file": "024300-elliptic-regularity-weak-to-smooth-solutions.md",
+      "spoken_words": 925,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
       "id": "025000",
       "title": "Morse–Bott Theory and Equivariant Localization",
       "section": "morse-bott-localization",
@@ -584,6 +615,78 @@
       "estimated_minutes_at_145_wpm": 6.8
     },
     {
+      "id": "030100",
+      "title": "Clifford Algebra: How a Metric Becomes Operator Multiplication",
+      "section": "clifford-algebra-metric",
+      "file": "030100-clifford-algebra-from-metric-to-operators.md",
+      "spoken_words": 943,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "030200",
+      "title": "Spin and Spin-C Structures: Gluing Rotations and Spinors",
+      "section": "spin-spinc-structures",
+      "file": "030200-spin-and-spinc-structures-gluing-rotations.md",
+      "spoken_words": 893,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "030300",
+      "title": "Spinor Bundles and Dirac Operators: Differentiating a Spinor",
+      "section": "spinor-connections-dirac",
+      "file": "030300-spinc-spinor-bundles-and-dirac-operators.md",
+      "spoken_words": 891,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "030400",
+      "title": "The Weitzenbock Formula: Curvature in the Square of Dirac",
+      "section": "weitzenbock-bochner",
+      "file": "030400-weizenbock-formula-and-curvature-estimates.md",
+      "spoken_words": 851,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.9
+    },
+    {
+      "id": "030500",
+      "title": "Computing the Spin-C Dirac Index on a Four-Manifold",
+      "section": "spinc-dirac-index",
+      "file": "030500-spinc-dirac-index-on-four-manifolds.md",
+      "spoken_words": 805,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.6
+    },
+    {
+      "id": "030600",
+      "title": "Deformation Complexes: Tangents, Symmetries, and Obstructions",
+      "section": "gauge-deformation-cohomology",
+      "file": "030600-elliptic-deformation-complexes-from-symmetries.md",
+      "spoken_words": 921,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "030700",
+      "title": "Coulomb Gauge and Local Moduli: Removing Redundant Directions",
+      "section": "gauge-slices-kuranishi",
+      "file": "030700-coulomb-gauge-slices-and-local-moduli.md",
+      "spoken_words": 928,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "030800",
+      "title": "Instanton Expected Dimension: What the Index Really Counts",
+      "section": "instantons-virtual-dimension",
+      "file": "030800-asd-index-expected-dimension-and-reducibles.md",
+      "spoken_words": 866,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
       "id": "031000",
       "title": "Instantons: Curvature, Topological Charge, and Gauge Moduli",
       "section": "anti-self-dual-instantons",
@@ -618,6 +721,33 @@
       "spoken_words": 1105,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.6
+    },
+    {
+      "id": "034100",
+      "title": "Yang-Mills Energy and Instanton Charge: Why Four Dimensions Matter",
+      "section": "yang-mills-energy",
+      "file": "034100-yang-mills-energy-and-instanton-charge.md",
+      "spoken_words": 843,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "034200",
+      "title": "Small-Energy Gauges and Compactness: The Local Uhlenbeck Estimate",
+      "section": "uhlenbeck-local-gauges",
+      "file": "034200-small-energy-coulomb-gauges-and-weak-compactness.md",
+      "spoken_words": 914,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.3
+    },
+    {
+      "id": "034300",
+      "title": "Bubbling and Removable Singularities: Where Instanton Energy Goes",
+      "section": "instanton-bubble-compactification",
+      "file": "034300-bubbling-energy-quantization-and-removable-singularities.md",
+      "spoken_words": 938,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
     },
     {
       "id": "035000",
