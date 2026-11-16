@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-welding-distortion-and-fixture-design.md",
+  "related_resources": [
+    {
+      "source_id": "twi-tack-distortion",
+      "reason": "Effect of tack spacing, sequence, and root-gap control on welding shrinkage"
+    },
+    {
+      "source_id": "osha-welding",
+      "reason": "Fumes, ultraviolet radiation, burns, electric shock and protective controls"
+    },
+    {
+      "source_id": "asm-sheet-bending",
+      "reason": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked"
+    },
+    {
+      "source_id": "nasa-crews-fatigue",
+      "reason": "Fatigue cracking under cyclic loading and geometric stress concentration"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P015000-01",
+      "claim": "Weld heating and cooling generate contraction and can distort the joined assembly.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "twi-tack-distortion",
+          "location": "Effect of tack spacing, sequence, and root-gap control on welding shrinkage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Tack placement and sequence influence joint gap and transverse shrinkage.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "twi-tack-distortion",
+          "location": "Effect of tack spacing, sequence, and root-gap control on welding shrinkage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Restraint may reduce visible movement during welding without eliminating residual stresses.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "twi-tack-distortion",
+          "location": "Effect of tack spacing, sequence, and root-gap control on welding shrinkage",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Welding fume and process hazards require controls independent of dimensional-fixture quality.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "osha-welding",
+          "location": "Fumes, ultraviolet radiation, burns, electric shock and protective controls",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+}

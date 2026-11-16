@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-diagnosing-tool-runout-vibration-and-repeatability.md",
+  "related_resources": [
+    {
+      "source_id": "nist-uncertainty",
+      "reason": "Measurement values, standards and uncertainty"
+    },
+    {
+      "source_id": "nist-repeatability",
+      "reason": "Definition and conditions for repeatability"
+    },
+    {
+      "source_id": "nist-calibration",
+      "reason": "Calibration limitations; precision, bias, operator changes"
+    },
+    {
+      "source_id": "osha-drill-press",
+      "reason": "Clamping stock, twist hazards and drill press operational constraints"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P015000-01",
+      "claim": "Indicated runout measures motion relative to a reference axis, not all error under cutting load.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Measurement values, standards and uncertainty",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-calibration",
+          "location": "Calibration limitations; precision, bias, operator changes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Separating spindle, holder and tool measurements helps localize rotational eccentricity.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Measurement values, standards and uncertainty",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-drill-press",
+          "location": "Clamping stock, twist hazards and drill press operational constraints",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Repeatability and accuracy answer different measurement questions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-repeatability",
+          "location": "Definition and conditions for repeatability",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-calibration",
+          "location": "Calibration limitations; precision, bias, operator changes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Clamping and support under actual cutting forces can dominate apparent machine precision.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "osha-drill-press",
+          "location": "Clamping stock, twist hazards and drill press operational constraints",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Measurement values, standards and uncertainty",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+}

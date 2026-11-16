@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-material-procurement-substitutions-and-lead-times.md",
+  "related_resources": [
+    {
+      "source_id": "ftc-improvement",
+      "reason": "Written estimates, contracts, licenses and payment caution"
+    },
+    {
+      "source_id": "aba-contract",
+      "reason": "Scope, materials, change orders, responsibility and payment terms"
+    },
+    {
+      "source_id": "aia-lima-submittals",
+      "reason": "AIA A201 distinction between submittals and contract documents; contract dependent"
+    },
+    {
+      "source_id": "pmi-critical-path-risk",
+      "reason": "Critical path, float, network dependencies, and limits of deterministic schedule assumptions"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P015000-01",
+      "claim": "A substitute material can affect fit, installed cost, performance and warranty beyond its purchase price.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Submittals and specification reviews have defined responsibilities under applicable contract terms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Manufacturing, review and shipping dependencies can affect the critical path of a project.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "pmi-critical-path-risk",
+          "location": "Critical path, float, network dependencies, and limits of deterministic schedule assumptions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Written change and procurement records help compare scope, price and schedule consistently.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written estimates, contracts, licenses and payment caution",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-engineered-wood-panels-and-moisture-sensitive-connections.md",
+  "related_resources": [
+    {
+      "source_id": "usfs-composite-wood-2021",
+      "reason": "Chapter 11 panel products: plywood, OSB, structural composite lumber; Chapter 12 mechanical property context"
+    },
+    {
+      "source_id": "usda-wood",
+      "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+    },
+    {
+      "source_id": "usda-drying",
+      "reason": "Moisture content, equilibrium, shrinkage and storage"
+    },
+    {
+      "source_id": "awc-span-tutorial",
+      "reason": "Floor and roof load paths, stiffness, joist/rafter span assumptions and deflection"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P015000-01",
+      "claim": "Plywood, OSB and structural composite members use different internal wood orientations and product designs.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usfs-composite-wood-2021",
+          "location": "Chapter 11 panel products: plywood, OSB, structural composite lumber; Chapter 12 mechanical property context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Panel bending, stiffness and load-bearing performance depend on orientation, support and grade.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usfs-composite-wood-2021",
+          "location": "Chapter 11 panel products: plywood, OSB, structural composite lumber; Chapter 12 mechanical property context",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-span-tutorial",
+          "location": "Floor and roof load paths, stiffness, joist/rafter span assumptions and deflection",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Wood moisture changes dimensions and may affect panel edges and fastening behavior.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usda-drying",
+          "location": "Moisture content, equilibrium, shrinkage and storage",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Structural substitutions and I-joist modifications require manufacturer-specific details rather than appearance matching.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "usfs-composite-wood-2021",
+          "location": "Chapter 11 panel products: plywood, OSB, structural composite lumber; Chapter 12 mechanical property context",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-span-tutorial",
+          "location": "Floor and roof load paths, stiffness, joist/rafter span assumptions and deflection",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+}

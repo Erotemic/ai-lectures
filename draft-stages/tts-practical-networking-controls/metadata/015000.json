@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-retries-timekeeping-and-event-delivery-in-automation.md",
+  "related_resources": [
+    {
+      "source_id": "ietf-rfc9110-idempotency",
+      "reason": "Idempotent request semantics and when a client may safely retry after a lost response"
+    },
+    {
+      "source_id": "ietf-rfc5905-ntp",
+      "reason": "Time synchronization, offsets, delays and network clock discipline"
+    },
+    {
+      "source_id": "nist-sp80092-logs",
+      "reason": "Log collection, retention, analysis, and operational processes"
+    },
+    {
+      "source_id": "omron-control-hysteresis",
+      "reason": "On/off threshold hysteresis and prevention of rapid relay cycling"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P015000-01",
+      "claim": "A lost response can leave the sender uncertain whether a request was applied, requiring safe retry semantics.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ietf-rfc9110-idempotency",
+          "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Idempotent desired-state requests are easier to retry than blind toggle operations.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ietf-rfc9110-idempotency",
+          "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Occurrence time and receipt time may differ, and synchronized wall clocks are distinct from elapsed-time timers.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ietf-rfc5905-ntp",
+          "location": "Time synchronization, offsets, delays and network clock discipline",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp80092-logs",
+          "location": "Log collection, retention, analysis, and operational processes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Automation logs should distinguish command, acknowledgment and observed physical state.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-sp80092-logs",
+          "location": "Log collection, retention, analysis, and operational processes",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "omron-control-hysteresis",
+          "location": "On/off threshold hysteresis and prevention of rapid relay cycling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+}

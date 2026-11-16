@@ -173,6 +173,14 @@
       "access": "original_publisher_page_or_search_excerpt",
       "notes": "Restrict IoT traffic to device-appropriate purposes and apply updates and access controls",
       "verification": "original_publisher_web_page_or_search_excerpt_examined_2026-11-15; subject_matter_editorial_review_pending"
+    },
+    "ietf-rfc9110-idempotency": {
+      "title": "Roy T. Fielding et al., RFC 9110: HTTP Semantics, Section 9.2.2 (IETF, 2022)",
+      "kind": "original_internet_protocol_standard",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "access": "public_publisher_page_or_public_document",
+      "notes": "Idempotent request semantics and when a client may safely retry after a lost response",
+      "verification": "official_issuer_page_or_web_search_result_reviewed_2026-11-15; independent_subject_matter_review_pending"
     }
   }
 }
