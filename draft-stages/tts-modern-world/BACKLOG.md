@@ -82,3 +82,19 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **042000:** United Nations institutions, early human-rights frameworks, the new international economic order and their limitations. Exact subject boundaries to follow research.
 
 **Further evidence work:** Seek Chinese-authored primary materials on Nanjing and everyday occupation; survivor-centered Jewish and Roma archives; Indian-language voices on the Bengal famine and colonial military service; and Asian rōmusha survivor histories. Yale’s missionary archive is explicitly not a complete Chinese record; published retrospective estimates are not precise censuses. Review the full Janam Mukherjee and Amartya Sen chapters and regional primary documents before making more specific individual or causal claims. Source provenance and named scholarly ideas take precedence over writing a seamless narrative where evidence remains partial. No time or word-count constraint applies.
+
+## Completed: 039000–042000, postwar settlements
+
+- **039000:** A War Ends, a Nuclear Age Begins: Japan, August 1945. Japanese surrender, the atomic attacks, Soviet entry, imperial decision-making, civilian testimony, and the limits of counterfactual history.
+- **040000:** When the War Is Over, Where Is Home? Displacement after 1945. Displaced persons, family tracing, population transfers, repatriation after empire, Partition and the practical meaning of reconstruction.
+- **041000:** Who Inherited the Empire? Independence, Partition, and Revolution, 1945–1949. Indonesia, India and Pakistan, and Vietnam after Japan’s defeat, with attention to anticolonial agency, partition, warfare and rival claims to legitimacy.
+- **042000:** Rules for a Broken World: The United Nations, Rights, and Postwar Economic Order. 1945 United Nations Charter and veto, Nuremberg, genocide and human-rights law, refugee protection, and the Bretton Woods and GATT economic settlements.
+
+## Next research and composition candidates (not indexed)
+
+- **043000:** 1945–1953 Cold War entanglements and the divided Korean peninsula, with Korean civilian agency rather than a purely US–Soviet diplomatic account; verify chronology of trusteeship disputes, rival governments and wartime displacement using Korean-authored scholarship.
+- **044000:** Competing postwar economic and social programs: postwar welfare states, Japanese land reforms, recovery in China and the contested meanings of development; do not treat one national recovery story as global.
+- **045000:** African independence movements from late colonial labor politics through Ghana’s independence and beyond; source local political testimony and study French and British imperial differences.
+- **046000:** The Middle East after 1945, including the end of the Palestine Mandate, the 1948 war, Palestinian displacement and Jewish state formation, and the history of decolonization and oil politics; avoid making one refugee community a proxy for another.
+
+**Evidence work remaining:** For 039000, compare the full Asada article with Hasegawa’s claims before presenting detailed differences in evidence or a stronger causal verdict. For 040000, consult full Japanese and Korean repatriation monographs and local records; the Bull and Park material is abstract-only. For 041000, seek Indonesian-language memoirs, Partition oral histories from across communities, and Vietnamese participant archives beyond state commemorations. For 042000, extend treaty-language analysis with enforcement histories and developing-state perspectives. Source passage locators and scope cautions are attached to each paragraph.

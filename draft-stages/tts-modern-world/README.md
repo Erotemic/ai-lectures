@@ -88,3 +88,12 @@ Each manuscript pairs an independently speakable lecture with display-only sourc
 - **038000 — [Who Paid for the War? Empire, Forced Labor, and Civilian Survival](038000-who-paid-for-the-war.md).** British India and military service, the Bengal famine, forced Asian labor, prisoner-of-war camps, Japanese American incarceration, and uneven freedom.
 
 Each spoken paragraph has a separate evidence record and direct source links, with accurate access scope and limitations. Named scholars and institutions are credited. No duration or word-count target is imposed.
+
+## War termination, displacement, decolonization and institutions (039000–042000)
+
+- **039000 — [A War Ends, a Nuclear Age Begins: Japan, August 1945](039000-the-surrender-and-the-bomb.md).** Japanese surrender, the atomic attacks, Soviet entry, imperial decision-making, civilian testimony, and the limits of counterfactual history.
+- **040000 — [When the War Is Over, Where Is Home? Displacement after 1945](040000-when-the-war-is-over-where-is-home.md).** Displaced persons, family tracing, population transfers, repatriation after empire, Partition and the practical meaning of reconstruction.
+- **041000 — [Who Inherited the Empire? Independence, Partition, and Revolution, 1945–1949](041000-who-inherited-the-empire.md).** Indonesia, India and Pakistan, and Vietnam after Japan’s defeat, with attention to anticolonial agency, partition, warfare and rival claims to legitimacy.
+- **042000 — [Rules for a Broken World: The United Nations, Rights, and Postwar Economic Order](042000-rules-for-a-broken-world.md).** 1945 United Nations Charter and veto, Nuremberg, genocide and human-rights law, refugee protection, and the Bretton Woods and GATT economic settlements.
+
+Each lecture is complete, spoken narration followed by a paragraph-mapped evidence ledger (display only) and a JSON metadata sidecar. Primary materials, archival overviews, historian articles, abstract-only sources, and uncertain estimates are distinguished. The track is exclusively maintained by Agent B; no runtime or global-registry change is part of this delivery.
