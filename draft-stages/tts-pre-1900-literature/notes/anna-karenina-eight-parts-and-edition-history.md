@@ -1,5 +1,7 @@
 # Anna Karenina — eight-part story map and textual notes
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 **Non-spoken companion** to lectures 160000–172000. The original Russian work is discussed through a named public-domain English reading text (Constance Garnett) and selected bibliographic sources. It is not a critical Russian-language edition or a full scholarly collation. These are explanatory lectures, not the novel itself. No length policy applies.
 
 ## Narrative map

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-open-sets-and-continuity.md",
+  "transcript": "001000-open-set-geometry-global-properties-and-building-spaces.md",
   "related_resources": [
     {
       "source_id": "tg-mit18901",
@@ -10,7 +10,125 @@
     {
       "source_id": "tg-readings",
       "reason": "Corresponding textbook topics and academic course organization."
+    },
+    {
+      "source_id": "tg-mit18901",
+      "reason": "Continuous images of compact and connected spaces, separation and counterexamples."
+    },
+    {
+      "source_id": "tg-readings",
+      "reason": "Compactness, connectedness and homeomorphism reading progression."
+    },
+    {
+      "source_id": "tg-mit18901",
+      "reason": "Product topology, quotient maps, and gluing spaces."
+    },
+    {
+      "source_id": "tg-readings",
+      "reason": "Lecture sequence on product and quotient topologies."
+    },
+    {
+      "source_id": "tg-mit18901",
+      "reason": "Hausdorff spaces, separation axioms, and metrization."
+    },
+    {
+      "source_id": "tg-readings",
+      "reason": "Study sequence for countability and separation theorems."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:001000",
+        "file": "001000-open-sets-and-continuity.md",
+        "sha256": "1a571c70edcc2c8b0d0e7b91790673691247f55d6431800f771b2d92ef767bc5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-open-sets-and-continuity.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit18901",
+              "reason": "Topology axioms, metric-induced topology, closure and continuous maps."
+            },
+            {
+              "source_id": "tg-readings",
+              "reason": "Corresponding textbook topics and academic course organization."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:002000",
+        "file": "002000-compactness-and-connectedness.md",
+        "sha256": "6a0feee2589973fa921be9516a33406f496401720c8b21ee8515c8b200893dde",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-compactness-and-connectedness.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit18901",
+              "reason": "Continuous images of compact and connected spaces, separation and counterexamples."
+            },
+            {
+              "source_id": "tg-readings",
+              "reason": "Compactness, connectedness and homeomorphism reading progression."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:003000",
+        "file": "003000-products-quotients-and-gluing.md",
+        "sha256": "499cc561f4b84a4597e28ae30e6e266a85b4ad2b7ae416b35bb09c5d39fe8abf",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-products-quotients-and-gluing.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit18901",
+              "reason": "Product topology, quotient maps, and gluing spaces."
+            },
+            {
+              "source_id": "tg-readings",
+              "reason": "Lecture sequence on product and quotient topologies."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:004000",
+        "file": "004000-separation-axioms-and-metrization.md",
+        "sha256": "be4d3df7bee17004c5b7115faa78fa85d7cbf4369b4ae3e20ca09df1647752af",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-separation-axioms-and-metrization.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit18901",
+              "reason": "Hausdorff spaces, separation axioms, and metrization."
+            },
+            {
+              "source_id": "tg-readings",
+              "reason": "Study sequence for countability and separation theorems."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

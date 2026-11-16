@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "026000",
-  "transcript": "026000-holonomy-parallel-transport-and-gauge-moduli.md",
+  "transcript": "026000-gauge-moduli-and-quantization.md",
   "related_resources": [
     {
       "source_id": "to-r13-026000-1",
@@ -14,7 +14,190 @@
     {
       "source_id": "to-r13-026000-3",
       "reason": "Connection holonomy, parallel transport, gauge transformations and flat moduli"
+    },
+    {
+      "source_id": "to-r14-027000-1",
+      "reason": "Prequantum Hermitian line bundles, integral symplectic classes and Chern numbers"
+    },
+    {
+      "source_id": "to-r14-027000-2",
+      "reason": "Prequantum Hermitian line bundles, integral symplectic classes and Chern numbers"
+    },
+    {
+      "source_id": "to-r14-027000-3",
+      "reason": "Prequantum Hermitian line bundles, integral symplectic classes and Chern numbers"
+    },
+    {
+      "source_id": "to-r14-027000-1",
+      "reason": "Holomorphic polarizations, CP1 sections and SU2 spin representations"
+    },
+    {
+      "source_id": "to-r14-027000-2",
+      "reason": "Holomorphic polarizations, CP1 sections and SU2 spin representations"
+    },
+    {
+      "source_id": "to-r14-028000-3",
+      "reason": "Holomorphic polarizations, CP1 sections and SU2 spin representations"
+    },
+    {
+      "source_id": "to-r15-029000-1",
+      "reason": "Quantization commutes with reduction, moment maps and CP1 weights"
+    },
+    {
+      "source_id": "to-r15-029000-2",
+      "reason": "Quantization commutes with reduction, moment maps and CP1 weights"
+    },
+    {
+      "source_id": "to-r15-029000-3",
+      "reason": "Quantization commutes with reduction, moment maps and CP1 weights"
+    },
+    {
+      "source_id": "to-r15-030000-1",
+      "reason": "Maslov indices, WKB turning points and semiclassical quantization"
+    },
+    {
+      "source_id": "to-r15-030000-2",
+      "reason": "Maslov indices, WKB turning points and semiclassical quantization"
+    },
+    {
+      "source_id": "to-r15-030000-3",
+      "reason": "Maslov indices, WKB turning points and semiclassical quantization"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:026000",
+        "file": "026000-holonomy-parallel-transport-and-gauge-moduli.md",
+        "sha256": "8a1c96e65204bad959c9c21e095b1b6daa962f16d53f58130a48ddcf8dc573f4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "026000",
+          "transcript": "026000-holonomy-parallel-transport-and-gauge-moduli.md",
+          "related_resources": [
+            {
+              "source_id": "to-r13-026000-1",
+              "reason": "Connection holonomy, parallel transport, gauge transformations and flat moduli"
+            },
+            {
+              "source_id": "to-r12-023000-3",
+              "reason": "Connection holonomy, parallel transport, gauge transformations and flat moduli"
+            },
+            {
+              "source_id": "to-r13-026000-3",
+              "reason": "Connection holonomy, parallel transport, gauge transformations and flat moduli"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:027000",
+        "file": "027000-prequantum-line-bundles-and-integrality.md",
+        "sha256": "31469e5b9ac3e01a0fb5fd486cc3b141a1f3514c21a692d3aa2297d56e147f8b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "027000",
+          "transcript": "027000-prequantum-line-bundles-and-integrality.md",
+          "related_resources": [
+            {
+              "source_id": "to-r14-027000-1",
+              "reason": "Prequantum Hermitian line bundles, integral symplectic classes and Chern numbers"
+            },
+            {
+              "source_id": "to-r14-027000-2",
+              "reason": "Prequantum Hermitian line bundles, integral symplectic classes and Chern numbers"
+            },
+            {
+              "source_id": "to-r14-027000-3",
+              "reason": "Prequantum Hermitian line bundles, integral symplectic classes and Chern numbers"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:028000",
+        "file": "028000-holomorphic-quantization-of-the-sphere.md",
+        "sha256": "0dcb088f73c78348132a8af7088d92cc5d95d567875786b75599613ade77e257",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "028000",
+          "transcript": "028000-holomorphic-quantization-of-the-sphere.md",
+          "related_resources": [
+            {
+              "source_id": "to-r14-027000-1",
+              "reason": "Holomorphic polarizations, CP1 sections and SU2 spin representations"
+            },
+            {
+              "source_id": "to-r14-027000-2",
+              "reason": "Holomorphic polarizations, CP1 sections and SU2 spin representations"
+            },
+            {
+              "source_id": "to-r14-028000-3",
+              "reason": "Holomorphic polarizations, CP1 sections and SU2 spin representations"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:029000",
+        "file": "029000-quantization-and-symplectic-reduction.md",
+        "sha256": "b918b0e02026479468b12444b57ce2056448d72584288dad288553eb8a2fe294",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "029000",
+          "transcript": "029000-quantization-and-symplectic-reduction.md",
+          "related_resources": [
+            {
+              "source_id": "to-r15-029000-1",
+              "reason": "Quantization commutes with reduction, moment maps and CP1 weights"
+            },
+            {
+              "source_id": "to-r15-029000-2",
+              "reason": "Quantization commutes with reduction, moment maps and CP1 weights"
+            },
+            {
+              "source_id": "to-r15-029000-3",
+              "reason": "Quantization commutes with reduction, moment maps and CP1 weights"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:030000",
+        "file": "030000-maslov-index-and-semiclassical-phase.md",
+        "sha256": "456345be24de27917b00c636cd76b4cbf192cd0f911bc0b9aba99f17988a3072",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "030000",
+          "transcript": "030000-maslov-index-and-semiclassical-phase.md",
+          "related_resources": [
+            {
+              "source_id": "to-r15-030000-1",
+              "reason": "Maslov indices, WKB turning points and semiclassical quantization"
+            },
+            {
+              "source_id": "to-r15-030000-2",
+              "reason": "Maslov indices, WKB turning points and semiclassical quantization"
+            },
+            {
+              "source_id": "to-r15-030000-3",
+              "reason": "Maslov indices, WKB turning points and semiclassical quantization"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

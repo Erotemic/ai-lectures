@@ -1,5 +1,7 @@
 # Editorial dossier — Ernest Hemingway, *The Sun Also Rises* (051300–052200)
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## Purpose and structure
 
 The novel is selected for the influential combination of economical prose, dramatic omission, first-person selection, precise physical description, and its portrait of expatriate social life after the First World War. **Three complete story narrations** come first: Paris; Burguete and the return to Pamplona; the fiesta, its aftermath, San Sebastián, and Madrid. **Seven analyses** then address style and omission, Jake's selective account of Robert Cohn, Brett's decisions and gender, bullfighting, social economy, dialogue and close reading, and publishing history. The phrase "lost generation" is examined rather than used as a total character diagnosis.
@@ -27,4 +29,4 @@ No claim is made that Hemingway invented economical prose, nor that later books 
 
 The study keeps bullfighting's historical aesthetic and animal suffering in view without assuming that admiration of Jake's technical vocabulary requires ethical approval of the sport. It also examines the class and national position of tourists in the Spanish festival. Brett's actions are read through Jake's selective narration rather than presumed as direct access to her mind.
 
-The source catalog registers all sources under `ml-hemingway-*`; claim anchors are in the ten metadata files `metadata/051300.json` to `metadata/052200.json`.
+The source catalog registers all sources under `ml-hemingway-*`; claim anchors are in the ten metadata files `metadata/051300.json` to `metadata/051300.json`.

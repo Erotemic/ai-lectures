@@ -22,6 +22,12 @@ manuscript counts rather than distinct literary works or equal units of study.
 The [coverage review](literature-coverage-2026-11-16.json) counts 88 named literary
 work units across the literature holdings, with its counting convention stated.
 
+The subsequent [adult-lecture consolidation](adult-lecture-consolidation.md)
+changes the manuscript units themselves. The user explicitly chose single
+combined manuscripts over playback-only sessions and did not require backward
+compatibility. The counts and preservation assumptions below describe the
+earlier route-only handoff; use current pack indexes for authoring.
+
 ## Main routes and branches
 
 | Area | Organization |

@@ -1,5 +1,7 @@
 # To the Lighthouse (1927): four-part narrative and eight-part criticism — editorial dossier
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## Selection and scope
 
 Virginia Woolf's *To the Lighthouse* is a central text for the literary history of modernist time, free indirect perspective, and the relation of women's work to literary and visual form. The work was selected for its formal achievement, ongoing scholarly importance, and significance to literary pedagogy; this is **one work**, not three different works because it has three movements. The section adds 12 original TTS manuscripts to the existing modern-literature track, in two parts: a continuous spoiler-complete retelling first, then eight analytical lectures. Length follows explanatory need, not a time or word quota. No audio, binary art, or runtime code is included.

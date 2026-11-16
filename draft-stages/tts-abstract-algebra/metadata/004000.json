@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "004000",
-  "transcript": "004000-euclidean-algorithm-and-modular-arithmetic.md",
+  "transcript": "004000-arithmetic-rings-polynomials-fields-and-modules-shared-core.md",
   "related_resources": [
     {
       "source_id": "aa-judson",
@@ -10,7 +10,125 @@
     {
       "source_id": "aa-mit6042",
       "reason": "Bézout coefficients, linear congruences, and divisibility."
+    },
+    {
+      "source_id": "aa-judson",
+      "reason": "Ideals, quotient rings, and the ring isomorphism theorem."
+    },
+    {
+      "source_id": "aa-conrad",
+      "reason": "Prime and maximal ideals and concrete ring examples."
+    },
+    {
+      "source_id": "aa-judson",
+      "reason": "Polynomial division, irreducibility, and field constructions."
+    },
+    {
+      "source_id": "aa-conrad",
+      "reason": "Irreducibility tests, roots, and polynomial arithmetic."
+    },
+    {
+      "source_id": "aa-judson",
+      "reason": "Algebraic extensions and the tower law."
+    },
+    {
+      "source_id": "aa-conrad",
+      "reason": "Minimal polynomials and splitting-field constructions."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:004000",
+        "file": "004000-euclidean-algorithm-and-modular-arithmetic.md",
+        "sha256": "4e1e8317cadaebaad23364158fdc7c937a7dc646a86e059fd6c801f94767846d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-euclidean-algorithm-and-modular-arithmetic.md",
+          "related_resources": [
+            {
+              "source_id": "aa-judson",
+              "reason": "Euclidean algorithm, algebraic arithmetic, rings and fields."
+            },
+            {
+              "source_id": "aa-mit6042",
+              "reason": "Bézout coefficients, linear congruences, and divisibility."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:005000",
+        "file": "005000-rings-ideals-and-quotients.md",
+        "sha256": "a18696073e0e624a24e3d32aa4b1e44a3860487bf292ebbb7ba5588409d8b6ae",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-rings-ideals-and-quotients.md",
+          "related_resources": [
+            {
+              "source_id": "aa-judson",
+              "reason": "Ideals, quotient rings, and the ring isomorphism theorem."
+            },
+            {
+              "source_id": "aa-conrad",
+              "reason": "Prime and maximal ideals and concrete ring examples."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:006000",
+        "file": "006000-polynomial-rings-and-irreducibility.md",
+        "sha256": "a485f128b3793fa9c5d4ceb3cec20d78230de9507c6eac61d8a4c127822c7e14",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-polynomial-rings-and-irreducibility.md",
+          "related_resources": [
+            {
+              "source_id": "aa-judson",
+              "reason": "Polynomial division, irreducibility, and field constructions."
+            },
+            {
+              "source_id": "aa-conrad",
+              "reason": "Irreducibility tests, roots, and polynomial arithmetic."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:007000",
+        "file": "007000-field-extensions-and-minimal-polynomials.md",
+        "sha256": "e66676ec8aaad44f94d216952fc760fcc25166a2a951fead9b08185b254dff17",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-field-extensions-and-minimal-polynomials.md",
+          "related_resources": [
+            {
+              "source_id": "aa-judson",
+              "reason": "Algebraic extensions and the tower law."
+            },
+            {
+              "source_id": "aa-conrad",
+              "reason": "Minimal polynomials and splitting-field constructions."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "005000",
-  "transcript": "005000-springs-stored-energy-and-damping.md",
+  "transcript": "005000-read-vibration-motion-and-condition-evidence.md",
   "related_resources": [
     {
       "source_id": "openstax-spring-oscillation",
@@ -10,6 +10,26 @@
     {
       "source_id": "skf-bearing-guide",
       "reason": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings"
+    },
+    {
+      "source_id": "skf-damage",
+      "reason": "Bearing removal symptoms and lubrication/contamination damage mechanisms"
+    },
+    {
+      "source_id": "skf-grease",
+      "reason": "Grease churning, replenishment, starvation and film breakdown"
+    },
+    {
+      "source_id": "doe-electric-motor-systems",
+      "reason": "Motor load, alignment, drive losses and troubleshooting; linked technical bulletins"
+    },
+    {
+      "source_id": "openstax-torque",
+      "reason": "Moment arm and torque"
+    },
+    {
+      "source_id": "osha-hazardous-energy",
+      "reason": "Stored pneumatic, hydraulic and mechanical energy during servicing"
     }
   ],
   "historical_claims": [],
@@ -63,8 +83,695 @@
       "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
       "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-01",
+      "claim": "Excessive vibration/noise and temperature are common reasons bearings are removed for inspection or replacement.",
+      "kind": "bearing_maintenance_research",
+      "supports": [
+        {
+          "source_id": "skf-damage",
+          "location": "SKF ISO 15243 article: reasons for bearing removal",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "Insufficient or inappropriate lubrication and contamination are major mechanisms of bearing damage.",
+      "kind": "bearing_mechanics",
+      "supports": [
+        {
+          "source_id": "skf-damage",
+          "location": "SKF ISO 15243 article: failure causes",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "skf-grease",
+          "location": "Rolling-bearing grease lubrication mechanisms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "Trend-based monitoring requires matched operating conditions and should not infer a failed part from sound alone.",
+      "kind": "derived_condition_monitoring",
+      "supports": [
+        {
+          "source_id": "skf-damage",
+          "location": "Condition monitoring and damage-analysis context; author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P009000-01",
+      "claim": "Motor system analysis includes motor load, efficiency, belt drive and shaft alignment, not just motor nameplate power.",
+      "kind": "original_us_energy_agency_technical_resources",
+      "supports": [
+        {
+          "source_id": "doe-electric-motor-systems",
+          "location": "Motor systems, determining motor load, shaft alignment and V-belt tip sheets",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Mechanical output power depends on both shaft torque and angular velocity.",
+      "kind": "established_physics",
+      "supports": [
+        {
+          "source_id": "openstax-torque",
+          "location": "Rotational work and torque principles",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Overloading or misalignment can create heat and shorten service life.",
+      "kind": "derived_motor_system_diagnosis",
+      "supports": [
+        {
+          "source_id": "doe-electric-motor-systems",
+          "location": "Motor-load and alignment resources",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-01",
+      "claim": "Mass, stiffness and damping determine the response of a forced mechanical oscillator near resonance.",
+      "kind": "derived_linear_oscillator_mechanics",
+      "supports": [
+        {
+          "source_id": "openstax-spring-oscillation",
+          "location": "Oscillator mechanics and restoring force",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Bearing-related faults and misalignment are distinct contributors to rotating-machine vibration and failure.",
+      "kind": "original_bearing_damage_diagnosis",
+      "supports": [
+        {
+          "source_id": "skf-bearing-guide",
+          "location": "Bearing damage mechanisms and inspection",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "skf-damage",
+          "location": "ISO 15243 damage interpretation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Changing rotating speed changes the frequency of periodic imbalance forcing.",
+      "kind": "derived_rotational_kinematics",
+      "supports": [
+        {
+          "source_id": "openstax-spring-oscillation",
+          "location": "Oscillatory frequency basis",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-electric-motor-systems",
+          "location": "Rotating machinery operating conditions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Vibration measurements require comparable measurement conditions and consistent machine-state interpretation.",
+      "kind": "derived_condition_monitoring",
+      "supports": [
+        {
+          "source_id": "skf-bearing-guide",
+          "location": "Inspection and failure analysis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "Bearing condition may be assessed by combining vibration, temperature, lubrication and operating history.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "skf-damage",
+          "location": "Bearing removal symptoms and lubrication/contamination damage mechanisms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "skf-bearing-guide",
+          "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "A spectrum component at running frequency is not, by itself, proof of a particular fault.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "skf-bearing-guide",
+          "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Lubrication and operating load alter mechanical losses and condition-monitoring baselines.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "skf-grease",
+          "location": "Grease churning, replenishment, starvation and film breakdown",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "skf-damage",
+          "location": "Bearing removal symptoms and lubrication/contamination damage mechanisms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Monitoring procedures must preserve guarding and control unexpected energization or stored energy.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "osha-hazardous-energy",
+          "location": "Stored pneumatic, hydraulic and mechanical energy during servicing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-mechanics:005000",
+        "file": "005000-springs-stored-energy-and-damping.md",
+        "sha256": "ec9d4b2ccdd53b7d5605b56ff5dd292b378e02dde7bac6314230014529998eb5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-springs-stored-energy-and-damping.md",
+          "related_resources": [
+            {
+              "source_id": "openstax-spring-oscillation",
+              "reason": "Linear restoring force, oscillation and damping as physical mechanisms"
+            },
+            {
+              "source_id": "skf-bearing-guide",
+              "reason": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P005000-01",
+              "claim": "For ideal linear springs, restoring force is proportional to displacement and elastic energy scales with displacement squared.",
+              "kind": "derived_physics",
+              "supports": [
+                {
+                  "source_id": "openstax-spring-oscillation",
+                  "location": "Hooke Law and Energy in Oscillating Systems; energy is derived by integration",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-02",
+              "claim": "Damping removes mechanical energy from oscillatory motion and is distinct from stiffness.",
+              "kind": "physical_mechanism",
+              "supports": [
+                {
+                  "source_id": "openstax-spring-oscillation",
+                  "location": "Simple harmonic oscillation and dissipative forces",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-03",
+              "claim": "Vibration diagnosis requires separating energy storage, excitation, damping, and connection failures.",
+              "kind": "derived_diagnostic_reasoning",
+              "supports": [
+                {
+                  "source_id": "openstax-spring-oscillation",
+                  "location": "Oscillation background and bearing system inspection; synthesized field diagnosis",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "skf-bearing-guide",
+                  "location": "Oscillation background and bearing system inspection; synthesized field diagnosis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+        }
+      },
+      {
+        "id": "practical-mechanics:007000",
+        "file": "007000-failure-diagnosis-from-sound-heat-and-motion.md",
+        "sha256": "c5a46d93138513f8f4176ab157ee7d1c0b2416d3f73c0b62eebcd2e008062d04",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-failure-diagnosis-from-sound-heat-and-motion.md",
+          "related_resources": [
+            {
+              "source_id": "skf-damage",
+              "reason": "Bearing removal symptoms and lubrication/contamination damage mechanisms"
+            },
+            {
+              "source_id": "skf-grease",
+              "reason": "Grease churning, replenishment, starvation and film breakdown"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "Excessive vibration/noise and temperature are common reasons bearings are removed for inspection or replacement.",
+              "kind": "bearing_maintenance_research",
+              "supports": [
+                {
+                  "source_id": "skf-damage",
+                  "location": "SKF ISO 15243 article: reasons for bearing removal",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "Insufficient or inappropriate lubrication and contamination are major mechanisms of bearing damage.",
+              "kind": "bearing_mechanics",
+              "supports": [
+                {
+                  "source_id": "skf-damage",
+                  "location": "SKF ISO 15243 article: failure causes",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "skf-grease",
+                  "location": "Rolling-bearing grease lubrication mechanisms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "Trend-based monitoring requires matched operating conditions and should not infer a failed part from sound alone.",
+              "kind": "derived_condition_monitoring",
+              "supports": [
+                {
+                  "source_id": "skf-damage",
+                  "location": "Condition monitoring and damage-analysis context; author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      },
+      {
+        "id": "practical-mechanics:009000",
+        "file": "009000-motors-drives-and-mechanical-fault-isolation.md",
+        "sha256": "764e2e799e58e862c945ff4557e9ce7aec6d61d7d0b8ac053741fa5e4ad072ed",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-motors-drives-and-mechanical-fault-isolation.md",
+          "related_resources": [
+            {
+              "source_id": "doe-electric-motor-systems",
+              "reason": "Motor load, alignment, drive losses and troubleshooting; linked technical bulletins"
+            },
+            {
+              "source_id": "openstax-torque",
+              "reason": "Moment arm and torque"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P009000-01",
+              "claim": "Motor system analysis includes motor load, efficiency, belt drive and shaft alignment, not just motor nameplate power.",
+              "kind": "original_us_energy_agency_technical_resources",
+              "supports": [
+                {
+                  "source_id": "doe-electric-motor-systems",
+                  "location": "Motor systems, determining motor load, shaft alignment and V-belt tip sheets",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-02",
+              "claim": "Mechanical output power depends on both shaft torque and angular velocity.",
+              "kind": "established_physics",
+              "supports": [
+                {
+                  "source_id": "openstax-torque",
+                  "location": "Rotational work and torque principles",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-03",
+              "claim": "Overloading or misalignment can create heat and shorten service life.",
+              "kind": "derived_motor_system_diagnosis",
+              "supports": [
+                {
+                  "source_id": "doe-electric-motor-systems",
+                  "location": "Motor-load and alignment resources",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+        }
+      },
+      {
+        "id": "practical-mechanics:010000",
+        "file": "010000-balancing-vibration-and-resonance.md",
+        "sha256": "7dcdfede8e7639a70998ea3b16c6036ec2352a4c33c4504b21edaccaa75e0c89",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-balancing-vibration-and-resonance.md",
+          "related_resources": [
+            {
+              "source_id": "openstax-spring-oscillation",
+              "reason": "Linear restoring force, oscillation and damping as physical mechanisms"
+            },
+            {
+              "source_id": "skf-bearing-guide",
+              "reason": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings"
+            },
+            {
+              "source_id": "skf-damage",
+              "reason": "Bearing removal symptoms and lubrication/contamination damage mechanisms"
+            },
+            {
+              "source_id": "doe-electric-motor-systems",
+              "reason": "Motor load, alignment, drive losses and troubleshooting; linked technical bulletins"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Mass, stiffness and damping determine the response of a forced mechanical oscillator near resonance.",
+              "kind": "derived_linear_oscillator_mechanics",
+              "supports": [
+                {
+                  "source_id": "openstax-spring-oscillation",
+                  "location": "Oscillator mechanics and restoring force",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "Bearing-related faults and misalignment are distinct contributors to rotating-machine vibration and failure.",
+              "kind": "original_bearing_damage_diagnosis",
+              "supports": [
+                {
+                  "source_id": "skf-bearing-guide",
+                  "location": "Bearing damage mechanisms and inspection",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "skf-damage",
+                  "location": "ISO 15243 damage interpretation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Changing rotating speed changes the frequency of periodic imbalance forcing.",
+              "kind": "derived_rotational_kinematics",
+              "supports": [
+                {
+                  "source_id": "openstax-spring-oscillation",
+                  "location": "Oscillatory frequency basis",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-electric-motor-systems",
+                  "location": "Rotating machinery operating conditions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Vibration measurements require comparable measurement conditions and consistent machine-state interpretation.",
+              "kind": "derived_condition_monitoring",
+              "supports": [
+                {
+                  "source_id": "skf-bearing-guide",
+                  "location": "Inspection and failure analysis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "practical-mechanics:017000",
+        "file": "017000-condition-monitoring-of-rotating-equipment.md",
+        "sha256": "38d94e52644ba72b38e26a6db0bfa87994b2173643ed4a1adb4a4d9f67da5cf6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-condition-monitoring-of-rotating-equipment.md",
+          "related_resources": [
+            {
+              "source_id": "skf-damage",
+              "reason": "Bearing removal symptoms and lubrication/contamination damage mechanisms"
+            },
+            {
+              "source_id": "skf-bearing-guide",
+              "reason": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings"
+            },
+            {
+              "source_id": "skf-grease",
+              "reason": "Grease churning, replenishment, starvation and film breakdown"
+            },
+            {
+              "source_id": "osha-hazardous-energy",
+              "reason": "Stored pneumatic, hydraulic and mechanical energy during servicing"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "Bearing condition may be assessed by combining vibration, temperature, lubrication and operating history.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "skf-damage",
+                  "location": "Bearing removal symptoms and lubrication/contamination damage mechanisms",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "skf-bearing-guide",
+                  "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "A spectrum component at running frequency is not, by itself, proof of a particular fault.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "skf-bearing-guide",
+                  "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "Lubrication and operating load alter mechanical losses and condition-monitoring baselines.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "skf-grease",
+                  "location": "Grease churning, replenishment, starvation and film breakdown",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "skf-damage",
+                  "location": "Bearing removal symptoms and lubrication/contamination damage mechanisms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "Monitoring procedures must preserve guarding and control unexpected energization or stored energy.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "osha-hazardous-energy",
+                  "location": "Stored pneumatic, hydraulic and mechanical energy during servicing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "005000-read-vibration-motion-and-condition-evidence.md"
+      ],
+      "joined_before_source_parts": [
+        "007000",
+        "017000"
+      ]
+    }
+  ]
 }

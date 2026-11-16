@@ -1,12 +1,60 @@
 {
   "schema_version": 1,
   "lecture_id": "013000",
-  "transcript": "013000-representations-and-maschkes-theorem.md",
+  "transcript": "013000-representations-characters-tensors-and-nonsplitting-shared-core.md",
   "related_resources": [
     {
       "source_id": "aa-etingof",
       "reason": "Representations of finite groups, invariant subspaces, Maschke averaging, and modular counterexamples."
+    },
+    {
+      "source_id": "aa-etingof",
+      "reason": "Complex character tables, character orthogonality, and decomposition into irreducibles."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:013000",
+        "file": "013000-representations-and-maschkes-theorem.md",
+        "sha256": "6ac5812480a502212c1999bbd9cf821fe9df369d5f51a31148c8b075d7ffc46b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-representations-and-maschkes-theorem.md",
+          "related_resources": [
+            {
+              "source_id": "aa-etingof",
+              "reason": "Representations of finite groups, invariant subspaces, Maschke averaging, and modular counterexamples."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:014000",
+        "file": "014000-characters-and-orthogonality.md",
+        "sha256": "b664989b58e29cdf5bdd8e7e66c1fd7e3e2071a4784c4452c5b1369f5a222c82",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-characters-and-orthogonality.md",
+          "related_resources": [
+            {
+              "source_id": "aa-etingof",
+              "reason": "Complex character tables, character orthogonality, and decomposition into irreducibles."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

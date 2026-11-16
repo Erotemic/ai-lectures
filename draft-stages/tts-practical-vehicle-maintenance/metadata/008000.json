@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "008000",
-  "transcript": "008000-batteries-charging-and-electrical-diagnosis.md",
+  "transcript": "008000-diagnose-starting-charging-and-intermittent-electrical-faults.md",
   "related_resources": [
     {
       "source_id": "openstax-ohms-law",
@@ -10,6 +10,14 @@
     {
       "source_id": "sae-dtc-j2012-2025",
       "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+    },
+    {
+      "source_id": "nhtsa-maintain-vehicle",
+      "reason": "Vehicle service records, tire/fluids/light checks and owner manual priority"
+    },
+    {
+      "source_id": "nhtsa-winter-battery",
+      "reason": "Cold weather reduces battery power and engine starting can require more power; service system check"
     }
   ],
   "historical_claims": [],
@@ -63,8 +71,582 @@
       "verification_level": "original_publisher_claim_mapping; professional_review_pending",
       "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P013000-01",
+      "claim": "Voltage measured without loading does not prove that a circuit can sustain its operating current.",
+      "kind": "derived_electrical_diagnostics",
+      "supports": [
+        {
+          "source_id": "openstax-ohms-law",
+          "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "Automotive diagnostic trouble codes represent monitor-detected conditions rather than proof that a specific part is faulty.",
+      "kind": "original_vehicle_diagnostic_standard_scope",
+      "supports": [
+        {
+          "source_id": "sae-dtc-j2012-2025",
+          "location": "Standardized DTC definitions; standards page abstract, full text may require purchase",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Intermittent symptom timing, shared dependencies, and loaded voltage-drop testing help isolate faults.",
+      "kind": "derived_diagnostic_method",
+      "supports": [
+        {
+          "source_id": "openstax-ohms-law",
+          "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-01",
+      "claim": "A high-current starting circuit can experience large voltage drops across apparently small connection resistance.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "openstax-ohms-law",
+          "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-02",
+      "claim": "Open-circuit battery voltage alone does not distinguish a discharged but healthy battery from one with high internal resistance.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-03",
+      "claim": "Parked current measurements must account for module sleep sequences and tester-induced wakeups.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "openstax-ohms-law",
+          "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-04",
+      "claim": "Parasitic current times parked duration gives approximate charge consumption but not remaining cranking ability.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "openstax-ohms-law",
+          "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "Cold weather reduces battery power while an engine may require more power for starting.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nhtsa-winter-battery",
+          "location": "Cold weather reduces battery power and engine starting can require more power; service system check",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "A small resistive fault in a high-current starting path can produce a meaningful voltage drop under load.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "openstax-ohms-law",
+          "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "No-crank and crank-but-no-start symptoms point to different diagnostic branches.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "openstax-ohms-law",
+          "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Battery and charging system should be evaluated together under appropriate conditions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nhtsa-winter-battery",
+          "location": "Cold weather reduces battery power and engine starting can require more power; service system check",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+  "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-vehicle-maintenance:008000",
+        "file": "008000-batteries-charging-and-electrical-diagnosis.md",
+        "sha256": "f70792f6aaca7dab8982cdc92571320ed897363db06391aa9458b36a2b531344",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-batteries-charging-and-electrical-diagnosis.md",
+          "related_resources": [
+            {
+              "source_id": "openstax-ohms-law",
+              "reason": "Voltage drop I × R, resistive heating and limitations of linear Ohm model"
+            },
+            {
+              "source_id": "sae-dtc-j2012-2025",
+              "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P008000-01",
+              "claim": "Voltage drop across an ohmic connection is proportional to current and resistance.",
+              "kind": "electrical_physics",
+              "supports": [
+                {
+                  "source_id": "openstax-ohms-law",
+                  "location": "Ohm’s law and voltage drop V=IR",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-02",
+              "claim": "A small additional contact resistance can produce substantial losses during a high-current start.",
+              "kind": "derived_automotive_electrical",
+              "supports": [
+                {
+                  "source_id": "openstax-ohms-law",
+                  "location": "V=IR and electrical power dissipation applied to a model starter circuit",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-03",
+              "claim": "Vehicle starting and charging faults should be distinguished by resting, loaded, and operating observations.",
+              "kind": "derived_vehicle_diagnostics",
+              "supports": [
+                {
+                  "source_id": "openstax-ohms-law",
+                  "location": "Loaded voltage-drop physics and circuit reasoning; author synthesis",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "sae-dtc-j2012-2025",
+                  "location": "Scope of standardized diagnostic codes, not a substitute for tests",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+        }
+      },
+      {
+        "id": "practical-vehicle-maintenance:013000",
+        "file": "013000-diagnosing-intermittent-electrical-faults.md",
+        "sha256": "3a05ccd2ea43659db9c46b4ab8aa4490c9e3190e946a5fd18fcfb662b3ecfb92",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-diagnosing-intermittent-electrical-faults.md",
+          "related_resources": [
+            {
+              "source_id": "openstax-ohms-law",
+              "reason": "Voltage drop I × R, resistive heating and limitations of linear Ohm model"
+            },
+            {
+              "source_id": "sae-dtc-j2012-2025",
+              "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+            },
+            {
+              "source_id": "nhtsa-maintain-vehicle",
+              "reason": "Vehicle service records, tire/fluids/light checks and owner manual priority"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "Voltage measured without loading does not prove that a circuit can sustain its operating current.",
+              "kind": "derived_electrical_diagnostics",
+              "supports": [
+                {
+                  "source_id": "openstax-ohms-law",
+                  "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "Automotive diagnostic trouble codes represent monitor-detected conditions rather than proof that a specific part is faulty.",
+              "kind": "original_vehicle_diagnostic_standard_scope",
+              "supports": [
+                {
+                  "source_id": "sae-dtc-j2012-2025",
+                  "location": "Standardized DTC definitions; standards page abstract, full text may require purchase",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "Intermittent symptom timing, shared dependencies, and loaded voltage-drop testing help isolate faults.",
+              "kind": "derived_diagnostic_method",
+              "supports": [
+                {
+                  "source_id": "openstax-ohms-law",
+                  "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nhtsa-maintain-vehicle",
+                  "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-vehicle-maintenance:014000",
+        "file": "014000-starting-circuits-parasitic-draw-and-battery-health.md",
+        "sha256": "d21340dffcaf5d3bb8da96ca7f79c74beadc2f7eb5247c0ba2ecb0daaea26c67",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-starting-circuits-parasitic-draw-and-battery-health.md",
+          "related_resources": [
+            {
+              "source_id": "openstax-ohms-law",
+              "reason": "Voltage drop I × R, resistive heating and limitations of linear Ohm model"
+            },
+            {
+              "source_id": "nhtsa-maintain-vehicle",
+              "reason": "Vehicle service records, tire/fluids/light checks and owner manual priority"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P014000-01",
+              "claim": "A high-current starting circuit can experience large voltage drops across apparently small connection resistance.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "openstax-ohms-law",
+                  "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nhtsa-maintain-vehicle",
+                  "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-02",
+              "claim": "Open-circuit battery voltage alone does not distinguish a discharged but healthy battery from one with high internal resistance.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nhtsa-maintain-vehicle",
+                  "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-03",
+              "claim": "Parked current measurements must account for module sleep sequences and tester-induced wakeups.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nhtsa-maintain-vehicle",
+                  "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "openstax-ohms-law",
+                  "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-04",
+              "claim": "Parasitic current times parked duration gives approximate charge consumption but not remaining cranking ability.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "openstax-ohms-law",
+                  "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nhtsa-maintain-vehicle",
+                  "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-vehicle-maintenance:015000",
+        "file": "015000-starting-and-charging-faults-across-hot-and-cold-conditions.md",
+        "sha256": "bf1957970798d00a2e5ae5572d825e96aef9d971bd686ae0cf0eb2abc0f4ea73",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-starting-and-charging-faults-across-hot-and-cold-conditions.md",
+          "related_resources": [
+            {
+              "source_id": "nhtsa-winter-battery",
+              "reason": "Cold weather reduces battery power and engine starting can require more power; service system check"
+            },
+            {
+              "source_id": "nhtsa-maintain-vehicle",
+              "reason": "Vehicle service records, tire/fluids/light checks and owner manual priority"
+            },
+            {
+              "source_id": "openstax-ohms-law",
+              "reason": "Voltage drop I × R, resistive heating and limitations of linear Ohm model"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "Cold weather reduces battery power while an engine may require more power for starting.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nhtsa-winter-battery",
+                  "location": "Cold weather reduces battery power and engine starting can require more power; service system check",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "A small resistive fault in a high-current starting path can produce a meaningful voltage drop under load.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "openstax-ohms-law",
+                  "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "No-crank and crank-but-no-start symptoms point to different diagnostic branches.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nhtsa-maintain-vehicle",
+                  "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "openstax-ohms-law",
+                  "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Battery and charging system should be evaluated together under appropriate conditions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nhtsa-winter-battery",
+                  "location": "Cold weather reduces battery power and engine starting can require more power; service system check",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nhtsa-maintain-vehicle",
+                  "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "008000-diagnose-starting-charging-and-intermittent-electrical-faults.md"
+      ],
+      "joined_before_source_parts": [
+        "013000",
+        "015000"
+      ]
+    }
+  ]
 }

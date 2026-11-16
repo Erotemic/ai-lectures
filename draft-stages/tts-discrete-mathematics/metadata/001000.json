@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-bijections-and-double-counting.md",
+  "transcript": "001000-counting-generating-functions-and-symmetry-orbits.md",
   "related_resources": [
     {
       "source_id": "dm-mit6042",
@@ -10,7 +10,209 @@
     {
       "source_id": "dm-mit-text",
       "reason": "Proof-oriented counting examples and the pigeonhole principle."
+    },
+    {
+      "source_id": "dm-mit6042",
+      "reason": "Finite inclusion–exclusion, counting with overlapping cases, derangements."
+    },
+    {
+      "source_id": "dm-mit-text",
+      "reason": "Permutations, surjections and related counting identities."
+    },
+    {
+      "source_id": "dm-wilf",
+      "reason": "Formal power series, products, and coefficient extraction."
+    },
+    {
+      "source_id": "dm-mit6042",
+      "reason": "Combinatorial counting and generating-function methods."
+    },
+    {
+      "source_id": "dm-wilf",
+      "reason": "Rational generating functions, recurrences, and asymptotic growth."
+    },
+    {
+      "source_id": "dm-mit-text",
+      "reason": "Fibonacci, combinatorial recurrences, and sequence enumeration."
+    },
+    {
+      "source_id": "dm-cornell-polya",
+      "reason": "Pólya enumeration and square colorings."
+    },
+    {
+      "source_id": "dm-mit6042",
+      "reason": "Burnside counting and group actions."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "discrete-mathematics:001000",
+        "file": "001000-counting-by-correspondence-cancellation-and-generating-series.md",
+        "sha256": "9e881efd47bee87281e2b440aa97d48bcfb6e928324342ea0f46f4e9e53ac311",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-counting-by-correspondence-cancellation-and-generating-series.md",
+          "related_resources": [
+            {
+              "source_id": "dm-mit6042",
+              "reason": "Finite counting, cardinality rules, graph degree identities, and combinatorial proof methods."
+            },
+            {
+              "source_id": "dm-mit-text",
+              "reason": "Proof-oriented counting examples and the pigeonhole principle."
+            },
+            {
+              "source_id": "dm-mit6042",
+              "reason": "Finite inclusion–exclusion, counting with overlapping cases, derangements."
+            },
+            {
+              "source_id": "dm-mit-text",
+              "reason": "Permutations, surjections and related counting identities."
+            },
+            {
+              "source_id": "dm-wilf",
+              "reason": "Formal power series, products, and coefficient extraction."
+            },
+            {
+              "source_id": "dm-mit6042",
+              "reason": "Combinatorial counting and generating-function methods."
+            },
+            {
+              "source_id": "dm-wilf",
+              "reason": "Rational generating functions, recurrences, and asymptotic growth."
+            },
+            {
+              "source_id": "dm-mit-text",
+              "reason": "Fibonacci, combinatorial recurrences, and sequence enumeration."
+            }
+          ],
+          "historical_claims": [],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "discrete-mathematics:001000",
+                "file": "001000-bijections-and-double-counting.md",
+                "sha256": "b2527d9491dd9758dcdf45c4ad23fa016c5c36c13a917da3a1c4aa04147a1612",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "001000",
+                  "transcript": "001000-bijections-and-double-counting.md",
+                  "related_resources": [
+                    {
+                      "source_id": "dm-mit6042",
+                      "reason": "Finite counting, cardinality rules, graph degree identities, and combinatorial proof methods."
+                    },
+                    {
+                      "source_id": "dm-mit-text",
+                      "reason": "Proof-oriented counting examples and the pigeonhole principle."
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "discrete-mathematics:002000",
+                "file": "002000-inclusion-exclusion-and-derangements.md",
+                "sha256": "b70b5e59ad26be037be59ea23cc438598fc81f0ea61f659aaf055c821e0cfd2a",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "002000",
+                  "transcript": "002000-inclusion-exclusion-and-derangements.md",
+                  "related_resources": [
+                    {
+                      "source_id": "dm-mit6042",
+                      "reason": "Finite inclusion–exclusion, counting with overlapping cases, derangements."
+                    },
+                    {
+                      "source_id": "dm-mit-text",
+                      "reason": "Permutations, surjections and related counting identities."
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "discrete-mathematics:003000",
+                "file": "003000-generating-functions.md",
+                "sha256": "589d4b67150f0acd4198f12ab90cc02a5a468ea64540cf62e052964e73518c4a",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "003000",
+                  "transcript": "003000-generating-functions.md",
+                  "related_resources": [
+                    {
+                      "source_id": "dm-wilf",
+                      "reason": "Formal power series, products, and coefficient extraction."
+                    },
+                    {
+                      "source_id": "dm-mit6042",
+                      "reason": "Combinatorial counting and generating-function methods."
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "discrete-mathematics:004000",
+                "file": "004000-recurrences-and-rational-generating-functions.md",
+                "sha256": "7e646727b4936e7ae8ff69a61b5bdb83fb1397d9f9b6642670a0ad70c0ee8e79",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "004000",
+                  "transcript": "004000-recurrences-and-rational-generating-functions.md",
+                  "related_resources": [
+                    {
+                      "source_id": "dm-wilf",
+                      "reason": "Rational generating functions, recurrences, and asymptotic growth."
+                    },
+                    {
+                      "source_id": "dm-mit-text",
+                      "reason": "Fibonacci, combinatorial recurrences, and sequence enumeration."
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "discrete-mathematics:008000",
+        "file": "008000-polya-enumeration-and-cycle-indices.md",
+        "sha256": "73ff40839ac02e2c96f08987763eac2f61cc22cebed127300e27058bd6038dc9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-polya-enumeration-and-cycle-indices.md",
+          "related_resources": [
+            {
+              "source_id": "dm-cornell-polya",
+              "reason": "Pólya enumeration and square colorings."
+            },
+            {
+              "source_id": "dm-mit6042",
+              "reason": "Burnside counting and group actions."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

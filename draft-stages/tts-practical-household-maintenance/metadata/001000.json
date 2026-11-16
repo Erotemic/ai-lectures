@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-a-home-is-a-maintained-system.md",
+  "transcript": "001000-build-a-home-maintenance-and-evidence-plan.md",
   "related_resources": [
     {
       "source_id": "epa-maintenance",
@@ -14,6 +14,18 @@
     {
       "source_id": "cdc-mold",
       "reason": "Moisture as the major cause of indoor mold growth"
+    },
+    {
+      "source_id": "epa-mold-home",
+      "reason": "Fixing leaks, prompt drying and distinguishing moisture problems"
+    },
+    {
+      "source_id": "mass-moisture-meter",
+      "reason": "Moisture-meter limitations and origin/timing of wetting"
+    },
+    {
+      "source_id": "usfa-smoke-alarms",
+      "reason": "Regular testing, unit age and battery/model-specific maintenance"
     }
   ],
   "historical_claims": [],
@@ -62,8 +74,779 @@
       "verification_level": "public_source_identified_editorial_check_pending",
       "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
       "professional_review": "pending"
+    },
+    {
+      "claim_id": "P002000-01",
+      "claim": "Routine checks for leaks and monitoring devices are useful home maintenance activities.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "epa-maintenance",
+          "location": "EPA WaterSense home maintenance",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-02",
+      "claim": "Building moisture problems must be traced through more than one possible pathway.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "DOE air/moisture distinctions and CDC mold/moisture relation",
+          "role": "reference"
+        },
+        {
+          "source_id": "cdc-mold",
+          "location": "DOE air/moisture distinctions and CDC mold/moisture relation",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-03",
+      "claim": "A household system inventory should distinguish components and control points.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "epa-maintenance",
+          "location": "EPA home maintenance, conceptual synthesis (not prescriptive agency schema)",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P006000-01",
+      "claim": "Moisture stains and elevated moisture readings can arise from multiple sources, so observations require environmental context.",
+      "kind": "derived_building_investigation",
+      "supports": [
+        {
+          "source_id": "epa-mold-home",
+          "location": "EPA moisture source guidance; Massachusetts moisture meter guidance; derived diagnosis",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "mass-moisture-meter",
+          "location": "EPA moisture source guidance; Massachusetts moisture meter guidance; derived diagnosis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-02",
+      "claim": "A moisture instrument result depends on material and method and should not be treated alone as proof of hidden mold or dryness.",
+      "kind": "instrumentation_limit",
+      "supports": [
+        {
+          "source_id": "mass-moisture-meter",
+          "location": "Massachusetts Public Health: use and limitations of moisture measuring devices",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-03",
+      "claim": "Recording conditions and repair history helps distinguish moisture sources and guide timely remediation.",
+      "kind": "derived_maintenance_method",
+      "supports": [
+        {
+          "source_id": "epa-mold-home",
+          "location": "EPA moisture and maintenance recommendations; author observational-method synthesis",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-maintenance",
+          "location": "EPA moisture and maintenance recommendations; author observational-method synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-01",
+      "claim": "Smoke alarms should be tested and replaced according to manufacturer information and authoritative safety guidance.",
+      "kind": "fire_safety_guidance",
+      "supports": [
+        {
+          "source_id": "usfa-smoke-alarms",
+          "location": "USFA Smoke Alarms: Taking care of alarms and general maintenance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-02",
+      "claim": "Maintenance planning should reflect mechanisms of failure and consequences, not simply uniform dates.",
+      "kind": "derived_maintenance_planning",
+      "supports": [
+        {
+          "source_id": "usfa-smoke-alarms",
+          "location": "Author synthesis using scheduled safety-device and water-system maintenance examples",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-maintenance",
+          "location": "Author synthesis using scheduled safety-device and water-system maintenance examples",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Author-derived formula, arithmetic or system synthesis; cited source supplies context rather than an identical theorem or numerical guarantee.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-03",
+      "claim": "A component's presence does not establish operational readiness, especially for protective devices.",
+      "kind": "field_practice",
+      "supports": [
+        {
+          "source_id": "usfa-smoke-alarms",
+          "location": "USFA need for periodic operational testing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-01",
+      "claim": "Household water management and leak observation should be tied to the actual moisture pathway.",
+      "kind": "derived_building_maintenance",
+      "supports": [
+        {
+          "source_id": "epa-mold-home",
+          "location": "Address sources of moisture",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-maintenance",
+          "location": "Leak and water-use monitoring",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "Smoke alarms require recurring testing and age-sensitive replacement according to published maintenance guidance.",
+      "kind": "home_fire_guidance",
+      "supports": [
+        {
+          "source_id": "usfa-smoke-alarms",
+          "location": "Testing and maintenance recommendations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "Seasonal inspections are more diagnostic when linked to the environmental conditions under which faults appear.",
+      "kind": "derived_household_method",
+      "supports": [
+        {
+          "source_id": "epa-mold-home",
+          "location": "Moisture source and conditions; applied author synthesis",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-maintenance",
+          "location": "Seasonal home maintenance practices",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-01",
+      "claim": "Unnoticed water leaks can waste water and cause lasting property damage, making investigation of water pathways a maintenance priority.",
+      "kind": "building_maintenance_guidance",
+      "supports": [
+        {
+          "source_id": "epa-maintenance",
+          "location": "WaterSense Home Maintenance: identify leaks and monitor bills",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-mold-home",
+          "location": "EPA: moisture and home materials",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "Protective fire devices require maintenance and checking independent of cosmetic appearance.",
+      "kind": "home_fire_safety_guidance",
+      "supports": [
+        {
+          "source_id": "usfa-smoke-alarms",
+          "location": "US Fire Administration smoke alarm installation and maintenance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "Repair priorities should consider ongoing consequence and underlying failure mechanism rather than cosmetic urgency alone.",
+      "kind": "derived_household_risk_method",
+      "supports": [
+        {
+          "source_id": "epa-mold-home",
+          "location": "Prevent moisture damage and remediate sources",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usfa-smoke-alarms",
+          "location": "Consequences of failed protective devices",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
     }
   ],
   "editorial_status": "educational_draft_sources_recorded_not_field_validated",
-  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-household-maintenance:001000",
+        "file": "001000-a-home-is-a-maintained-system.md",
+        "sha256": "ca3cabf8ee7721971878b293e4467c20dfd4b22562ed5db57f9c6239d3a3890b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-a-home-is-a-maintained-system.md",
+          "related_resources": [
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leak monitoring and water-using systems"
+            },
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Different enclosure moisture pathways"
+            },
+            {
+              "source_id": "cdc-mold",
+              "reason": "Moisture as the major cause of indoor mold growth"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P001000-01",
+              "claim": "Maintenance includes checking and correcting leaks",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "Leak monitoring and water-using systems",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-02",
+              "claim": "Moisture control depends on enclosure pathways",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Different enclosure moisture pathways",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-03",
+              "claim": "Persistent moisture supports indoor mold growth",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "cdc-mold",
+                  "location": "Moisture as the major cause of indoor mold growth",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            }
+          ],
+          "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+          "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+        }
+      },
+      {
+        "id": "practical-household-maintenance:002000",
+        "file": "002000-building-a-home-systems-and-asset-inventory.md",
+        "sha256": "ef66d4f62d83ee7a27918f039714900d8075f13d3a4efe11c546124833a02cc0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-building-a-home-systems-and-asset-inventory.md",
+          "related_resources": [
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leak monitoring and water-using systems"
+            },
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Different enclosure moisture pathways"
+            },
+            {
+              "source_id": "cdc-mold",
+              "reason": "Moisture as the major cause of indoor mold growth"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P002000-01",
+              "claim": "Routine checks for leaks and monitoring devices are useful home maintenance activities.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "EPA WaterSense home maintenance",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-02",
+              "claim": "Building moisture problems must be traced through more than one possible pathway.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "DOE air/moisture distinctions and CDC mold/moisture relation",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "cdc-mold",
+                  "location": "DOE air/moisture distinctions and CDC mold/moisture relation",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-03",
+              "claim": "A household system inventory should distinguish components and control points.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "EPA home maintenance, conceptual synthesis (not prescriptive agency schema)",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+        }
+      },
+      {
+        "id": "practical-household-maintenance:006000",
+        "file": "006000-observations-photos-and-diagnostic-logs.md",
+        "sha256": "9653b4c96f0cd8a8cdb922344929e7b54aaad5e8338496c6512f2690c20dfcc8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-observations-photos-and-diagnostic-logs.md",
+          "related_resources": [
+            {
+              "source_id": "epa-mold-home",
+              "reason": "Fixing leaks, prompt drying and distinguishing moisture problems"
+            },
+            {
+              "source_id": "mass-moisture-meter",
+              "reason": "Moisture-meter limitations and origin/timing of wetting"
+            },
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leak monitoring and water-using systems"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P006000-01",
+              "claim": "Moisture stains and elevated moisture readings can arise from multiple sources, so observations require environmental context.",
+              "kind": "derived_building_investigation",
+              "supports": [
+                {
+                  "source_id": "epa-mold-home",
+                  "location": "EPA moisture source guidance; Massachusetts moisture meter guidance; derived diagnosis",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "mass-moisture-meter",
+                  "location": "EPA moisture source guidance; Massachusetts moisture meter guidance; derived diagnosis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-02",
+              "claim": "A moisture instrument result depends on material and method and should not be treated alone as proof of hidden mold or dryness.",
+              "kind": "instrumentation_limit",
+              "supports": [
+                {
+                  "source_id": "mass-moisture-meter",
+                  "location": "Massachusetts Public Health: use and limitations of moisture measuring devices",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-03",
+              "claim": "Recording conditions and repair history helps distinguish moisture sources and guide timely remediation.",
+              "kind": "derived_maintenance_method",
+              "supports": [
+                {
+                  "source_id": "epa-mold-home",
+                  "location": "EPA moisture and maintenance recommendations; author observational-method synthesis",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "EPA moisture and maintenance recommendations; author observational-method synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+        }
+      },
+      {
+        "id": "practical-household-maintenance:004000",
+        "file": "004000-preventive-maintenance-cycles-and-consumables.md",
+        "sha256": "3644cd18362df09c1db77801604bc6ab847df58ae4284f4caab842d4717d4169",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-preventive-maintenance-cycles-and-consumables.md",
+          "related_resources": [
+            {
+              "source_id": "usfa-smoke-alarms",
+              "reason": "Regular testing, unit age and battery/model-specific maintenance"
+            },
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leak monitoring and water-using systems"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P004000-01",
+              "claim": "Smoke alarms should be tested and replaced according to manufacturer information and authoritative safety guidance.",
+              "kind": "fire_safety_guidance",
+              "supports": [
+                {
+                  "source_id": "usfa-smoke-alarms",
+                  "location": "USFA Smoke Alarms: Taking care of alarms and general maintenance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-02",
+              "claim": "Maintenance planning should reflect mechanisms of failure and consequences, not simply uniform dates.",
+              "kind": "derived_maintenance_planning",
+              "supports": [
+                {
+                  "source_id": "usfa-smoke-alarms",
+                  "location": "Author synthesis using scheduled safety-device and water-system maintenance examples",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "Author synthesis using scheduled safety-device and water-system maintenance examples",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Author-derived formula, arithmetic or system synthesis; cited source supplies context rather than an identical theorem or numerical guarantee.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-03",
+              "claim": "A component's presence does not establish operational readiness, especially for protective devices.",
+              "kind": "field_practice",
+              "supports": [
+                {
+                  "source_id": "usfa-smoke-alarms",
+                  "location": "USFA need for periodic operational testing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design."
+        }
+      },
+      {
+        "id": "practical-household-maintenance:008000",
+        "file": "008000-seasonal-inspection-and-system-boundaries.md",
+        "sha256": "003aaf3db0ab4c8c35d930cda388db9c8d313f08e0f44f3857945d6a219f49eb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-seasonal-inspection-and-system-boundaries.md",
+          "related_resources": [
+            {
+              "source_id": "epa-mold-home",
+              "reason": "Fixing leaks, prompt drying and distinguishing moisture problems"
+            },
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leak monitoring and water-using systems"
+            },
+            {
+              "source_id": "usfa-smoke-alarms",
+              "reason": "Regular testing, unit age and battery/model-specific maintenance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P008000-01",
+              "claim": "Household water management and leak observation should be tied to the actual moisture pathway.",
+              "kind": "derived_building_maintenance",
+              "supports": [
+                {
+                  "source_id": "epa-mold-home",
+                  "location": "Address sources of moisture",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "Leak and water-use monitoring",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-02",
+              "claim": "Smoke alarms require recurring testing and age-sensitive replacement according to published maintenance guidance.",
+              "kind": "home_fire_guidance",
+              "supports": [
+                {
+                  "source_id": "usfa-smoke-alarms",
+                  "location": "Testing and maintenance recommendations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-03",
+              "claim": "Seasonal inspections are more diagnostic when linked to the environmental conditions under which faults appear.",
+              "kind": "derived_household_method",
+              "supports": [
+                {
+                  "source_id": "epa-mold-home",
+                  "location": "Moisture source and conditions; applied author synthesis",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "Seasonal home maintenance practices",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+        }
+      },
+      {
+        "id": "practical-household-maintenance:007000",
+        "file": "007000-prioritizing-repairs-contractors-and-long-term-costs.md",
+        "sha256": "adaebfb527bc81fa9f17c852832c0842c9a1d6161d2b5b1a7f8439832c81c037",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-prioritizing-repairs-contractors-and-long-term-costs.md",
+          "related_resources": [
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leak monitoring and water-using systems"
+            },
+            {
+              "source_id": "epa-mold-home",
+              "reason": "Fixing leaks, prompt drying and distinguishing moisture problems"
+            },
+            {
+              "source_id": "usfa-smoke-alarms",
+              "reason": "Regular testing, unit age and battery/model-specific maintenance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "Unnoticed water leaks can waste water and cause lasting property damage, making investigation of water pathways a maintenance priority.",
+              "kind": "building_maintenance_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "WaterSense Home Maintenance: identify leaks and monitor bills",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-mold-home",
+                  "location": "EPA: moisture and home materials",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "Protective fire devices require maintenance and checking independent of cosmetic appearance.",
+              "kind": "home_fire_safety_guidance",
+              "supports": [
+                {
+                  "source_id": "usfa-smoke-alarms",
+                  "location": "US Fire Administration smoke alarm installation and maintenance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "Repair priorities should consider ongoing consequence and underlying failure mechanism rather than cosmetic urgency alone.",
+              "kind": "derived_household_risk_method",
+              "supports": [
+                {
+                  "source_id": "epa-mold-home",
+                  "location": "Prevent moisture damage and remediate sources",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usfa-smoke-alarms",
+                  "location": "Consequences of failed protective devices",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "001000-build-a-home-maintenance-and-evidence-plan.md"
+      ],
+      "joined_before_source_parts": [
+        "002000",
+        "006000"
+      ]
+    }
+  ]
 }

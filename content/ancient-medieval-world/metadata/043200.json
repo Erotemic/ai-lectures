@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "043200",
-  "transcript": "043200-bronze-beads-igbo-ukwu.md",
+  "transcript": "043200-metalwork-and-political-authority-in-the-nigerian-region.md",
   "related_resources": [
     {
       "source_id": "d7-ig-reappraisal",
@@ -32,6 +32,51 @@
       "source_id": "d7-ig-provenance",
       "reason": "Hypotheses on local metal sourcing and longer-distance bead exchange; speculative trade routes should not be treated as proven.",
       "access_scope": "abstract_reviewed"
+    },
+    {
+      "source_id": "d6-ife-british",
+      "reason": "Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "d6-ife-met",
+      "reason": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "d6-ife-paving",
+      "reason": "Art-historical organization of archaeological periods, ceramic paving associated with growth of urban spaces; period labels are scholarly conventions.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "d6-ife-terra",
+      "reason": "Terracotta and copper alloy artistic traditions; caution against uncritically projecting later gendered craft divisions backward.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "d6-ife-urban",
+      "reason": "Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article.",
+      "access_scope": "excerpt_reviewed"
+    },
+    {
+      "source_id": "d6-ife-food",
+      "reason": "Scholarly article excerpt indicates archaeobotanical wheat and cotton finds in medieval Ilé-Ifẹ̀; the crops cannot supply a population-wide diet or trade census.",
+      "access_scope": "excerpt_reviewed"
+    },
+    {
+      "source_id": "d9-ben-nms",
+      "reason": "Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "d9-ben-prm",
+      "reason": "Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "d9-ben-met",
+      "reason": "Court craft and regional trade; much extant court art is from after 1500, not a contemporaneous view of early Benin.",
+      "access_scope": "webpage_reviewed"
     }
   ],
   "historical_claims": [
@@ -197,6 +242,1275 @@
       "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022); A Multivocal Case Study of Decoloniality in Archaeological Exploration in Igbo-Ukwu, Nigeria (1938-2024)",
       "audit_status": "source_scope_and_limits_mapped",
       "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked. Recorded local family accounts of discovery and collection, to be assessed alongside excavation records; public excerpts inspected."
+    },
+    {
+      "id": "043100-p01",
+      "anchor": "In the late 1930s, workers digging in a compound at Ife, in what is now ",
+      "kind": "historical_research",
+      "source_ids": [
+        "d6-ife-british"
+      ],
+      "source_locator": "British Museum, Brass head from Wunmonije Compound, Ife, collection Af1939,34.1",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown."
+    },
+    {
+      "id": "043100-p02",
+      "anchor": "Ilé-Ifẹ̀ holds a central place in Yoruba religious, political, and histo",
+      "kind": "historical_research",
+      "source_ids": [
+        "d6-ife-met"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Ife (from ca. 6th Century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished."
+    },
+    {
+      "id": "043100-p03",
+      "anchor": "Archaeological and art-historical syntheses describe settlement at Ife b",
+      "kind": "historical_research",
+      "source_ids": [
+        "d6-ife-paving"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Ife Pre-Pavement and Pavement Era (800–1000 A.D.)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Art-historical organization of archaeological periods, ceramic paving associated with growth of urban spaces; period labels are scholarly conventions."
+    },
+    {
+      "id": "043100-p04",
+      "anchor": "Between roughly the twelfth and fifteenth centuries, artists at Ife prod",
+      "kind": "historical_research",
+      "source_ids": [
+        "d6-ife-british",
+        "d6-ife-terra"
+      ],
+      "source_locator": "British Museum, Brass head from Wunmonije Compound, Ife, collection Af1939,34.1; Metropolitan Museum of Art, Ife Terracottas (1000–1400 A.D.)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown. Terracotta and copper alloy artistic traditions; caution against uncritically projecting later gendered craft divisions backward."
+    },
+    {
+      "id": "043100-p05",
+      "anchor": "How does such a head get made? In lost-wax casting, a model is formed in",
+      "kind": "historical_research",
+      "source_ids": [
+        "d6-ife-terra"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Ife Terracottas (1000–1400 A.D.)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Terracotta and copper alloy artistic traditions; caution against uncritically projecting later gendered craft divisions backward."
+    },
+    {
+      "id": "043100-p06",
+      "anchor": "The sculptures were found through different histories of recovery. The f",
+      "kind": "historical_research",
+      "source_ids": [
+        "d6-ife-british"
+      ],
+      "source_locator": "British Museum, Brass head from Wunmonije Compound, Ife, collection Af1939,34.1",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown."
+    },
+    {
+      "id": "043100-p07",
+      "anchor": "The city was not simply an artistic workshop serving a palace. Research ",
+      "kind": "historical_research",
+      "source_ids": [
+        "d6-ife-urban"
+      ],
+      "source_locator": "Akinwumi Ogundiran, A Mosaic of Yorùbá Ontology and Materiality of Pleasure Since AD 1000, African Studies Review",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article."
+    },
+    {
+      "id": "043100-p08",
+      "anchor": "Trade mattered, but not every bead or metal object reveals its full jour",
+      "kind": "historical_research",
+      "source_ids": [
+        "d6-ife-urban",
+        "d6-ife-met"
+      ],
+      "source_locator": "Akinwumi Ogundiran, A Mosaic of Yorùbá Ontology and Materiality of Pleasure Since AD 1000, African Studies Review; Metropolitan Museum of Art, Ife (from ca. 6th Century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article. Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished."
+    },
+    {
+      "id": "043100-p09",
+      "anchor": "Newer studies add crops to the picture. Archaeobotanical research has re",
+      "kind": "historical_research",
+      "source_ids": [
+        "d6-ife-food"
+      ],
+      "source_locator": "Early archaeological evidence of wheat and cotton from medieval Ile-Ife, Nigeria, PNAS (2024)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Scholarly article excerpt indicates archaeobotanical wheat and cotton finds in medieval Ilé-Ifẹ̀; the crops cannot supply a population-wide diet or trade census."
+    },
+    {
+      "id": "043100-p10",
+      "anchor": "The history of how outsiders received Ife art also matters. When these w",
+      "kind": "historical_research",
+      "source_ids": [
+        "d6-ife-met",
+        "d6-ife-british"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Ife (from ca. 6th Century); British Museum, Brass head from Wunmonije Compound, Ife, collection Af1939,34.1",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished. Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown."
+    },
+    {
+      "id": "043100-p11",
+      "anchor": "There is a more subtle danger in treating the sculptures as timeless sym",
+      "kind": "historical_research",
+      "source_ids": [
+        "d6-ife-met"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Ife (from ca. 6th Century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished."
+    },
+    {
+      "id": "043100-p12",
+      "anchor": "The buried heads survived; many workshops, houses, and ordinary objects ",
+      "kind": "historical_research",
+      "source_ids": [
+        "d6-ife-urban",
+        "d6-ife-paving"
+      ],
+      "source_locator": "Akinwumi Ogundiran, A Mosaic of Yorùbá Ontology and Materiality of Pleasure Since AD 1000, African Studies Review; Metropolitan Museum of Art, Ife Pre-Pavement and Pavement Era (800–1000 A.D.)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article. Art-historical organization of archaeological periods, ceramic paving associated with growth of urban spaces; period labels are scholarly conventions."
+    },
+    {
+      "id": "043100-p13",
+      "anchor": "Ilé-Ifẹ̀ is therefore more than the answer to a question about where a f",
+      "kind": "historical_research",
+      "source_ids": [
+        "d6-ife-met",
+        "d6-ife-urban"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Ife (from ca. 6th Century); Akinwumi Ogundiran, A Mosaic of Yorùbá Ontology and Materiality of Pleasure Since AD 1000, African Studies Review",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished. Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article."
+    },
+    {
+      "id": "044200-p01",
+      "anchor": "The name Benin can confuse a modern map. The historical Kingdom of Benin",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-ben-nms",
+        "d9-ben-prm"
+      ],
+      "source_locator": "National Museums Scotland, The Court Arts and History of the Kingdom of Benin; Pitt Rivers Museum, University of Oxford, The Kingdom of Benin",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates. Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500."
+    },
+    {
+      "id": "044200-p02",
+      "anchor": "Edo oral traditions recount an earlier line of rulers known as the Ogiso",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-ben-nms"
+      ],
+      "source_locator": "National Museums Scotland, The Court Arts and History of the Kingdom of Benin",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates."
+    },
+    {
+      "id": "044200-p03",
+      "anchor": "Benin's urban history was shaped by its environment. The forest supplied",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-ben-prm",
+        "d9-ben-nms"
+      ],
+      "source_locator": "Pitt Rivers Museum, University of Oxford, The Kingdom of Benin; National Museums Scotland, The Court Arts and History of the Kingdom of Benin",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500. Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates."
+    },
+    {
+      "id": "044200-p04",
+      "anchor": "Earthworks and channels associated with Benin City belong to a long hist",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-ben-prm",
+        "d9-ben-nms"
+      ],
+      "source_locator": "Pitt Rivers Museum, University of Oxford, The Kingdom of Benin; National Museums Scotland, The Court Arts and History of the Kingdom of Benin",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500. Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates."
+    },
+    {
+      "id": "044200-p05",
+      "anchor": "Court craft was central to political life. Artists worked in materials i",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-ben-nms",
+        "d9-ben-met"
+      ],
+      "source_locator": "National Museums Scotland, The Court Arts and History of the Kingdom of Benin; Metropolitan Museum of Art, Edo Ivory and Wood Carving Guilds, Vessel",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates. Court craft and regional trade; much extant court art is from after 1500, not a contemporaneous view of early Benin."
+    },
+    {
+      "id": "044200-p06",
+      "anchor": "Trade mattered before direct contact with Portugal in the late fifteenth",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-ben-prm",
+        "d9-ben-met"
+      ],
+      "source_locator": "Pitt Rivers Museum, University of Oxford, The Kingdom of Benin; Metropolitan Museum of Art, Edo Ivory and Wood Carving Guilds, Vessel",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500. Court craft and regional trade; much extant court art is from after 1500, not a contemporaneous view of early Benin."
+    },
+    {
+      "id": "044200-p07",
+      "anchor": "The royal court was an institution with rituals, offices, and interests,",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-ben-nms",
+        "d9-ben-met"
+      ],
+      "source_locator": "National Museums Scotland, The Court Arts and History of the Kingdom of Benin; Metropolitan Museum of Art, Edo Ivory and Wood Carving Guilds, Vessel",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates. Court craft and regional trade; much extant court art is from after 1500, not a contemporaneous view of early Benin."
+    },
+    {
+      "id": "044200-p08",
+      "anchor": "Families outside the court also had histories. Agriculture, markets, fis",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-ben-prm",
+        "d9-ben-nms"
+      ],
+      "source_locator": "Pitt Rivers Museum, University of Oxford, The Kingdom of Benin; National Museums Scotland, The Court Arts and History of the Kingdom of Benin",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500. Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates."
+    },
+    {
+      "id": "044200-p09",
+      "anchor": "Political expansion during the fifteenth century changed relationships w",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-ben-nms",
+        "d9-ben-prm"
+      ],
+      "source_locator": "National Museums Scotland, The Court Arts and History of the Kingdom of Benin; Pitt Rivers Museum, University of Oxford, The Kingdom of Benin",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates. Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500."
+    },
+    {
+      "id": "044200-p10",
+      "anchor": "There is also a modern history inside every surviving court object. Brit",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-ben-met",
+        "d9-ben-nms"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Edo Ivory and Wood Carving Guilds, Vessel; National Museums Scotland, The Court Arts and History of the Kingdom of Benin",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Court craft and regional trade; much extant court art is from after 1500, not a contemporaneous view of early Benin. Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates."
+    },
+    {
+      "id": "044200-p11",
+      "anchor": "The strongest accounts therefore combine several lines of evidence. Oral",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-ben-prm",
+        "d9-ben-nms"
+      ],
+      "source_locator": "Pitt Rivers Museum, University of Oxford, The Kingdom of Benin; National Museums Scotland, The Court Arts and History of the Kingdom of Benin",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500. Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates."
+    },
+    {
+      "id": "044200-p12",
+      "anchor": "Before 1500, the Edo kingdom was already a developing political and urba",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-ben-prm",
+        "d9-ben-nms",
+        "d9-ben-met"
+      ],
+      "source_locator": "Pitt Rivers Museum, University of Oxford, The Kingdom of Benin; National Museums Scotland, The Court Arts and History of the Kingdom of Benin; Metropolitan Museum of Art, Edo Ivory and Wood Carving Guilds, Vessel",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500. Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates. Court craft and regional trade; much extant court art is from after 1500, not a contemporaneous view of early Benin."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "ancient-medieval-world:043200",
+        "file": "043200-metalwork-and-political-authority-in-the-nigerian-region-selected-route-subset.md",
+        "sha256": "3980f5ea7b4be981bcdba0389ec7953f05110b235f535a95dba2a639e22d59f4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "043200",
+          "transcript": "043200-metalwork-and-political-authority-in-the-nigerian-region-selected-route-subset.md",
+          "related_resources": [
+            {
+              "source_id": "d7-ig-reappraisal",
+              "reason": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked.",
+              "access_scope": "excerpt_reviewed"
+            },
+            {
+              "source_id": "d7-ig-local",
+              "reason": "Recorded local family accounts of discovery and collection, to be assessed alongside excavation records; public excerpts inspected.",
+              "access_scope": "excerpt_reviewed"
+            },
+            {
+              "source_id": "d7-ig-met",
+              "reason": "Object range and technical practices; its ninth-century label is not decisive given more recent chronometric work.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d7-ig-metals",
+              "reason": "Technical study of copper-alloy fragments, mostly lost-wax castings and limitations of pre-excavation collecting; abstract inspected.",
+              "access_scope": "abstract_reviewed"
+            },
+            {
+              "source_id": "d7-ig-old-dates",
+              "reason": "Historical dispute over ninth-century dating, earlier critique not current chronometric consensus; abstract inspected.",
+              "access_scope": "abstract_reviewed"
+            },
+            {
+              "source_id": "d7-ig-provenance",
+              "reason": "Hypotheses on local metal sourcing and longer-distance bead exchange; speculative trade routes should not be treated as proven.",
+              "access_scope": "abstract_reviewed"
+            },
+            {
+              "source_id": "d6-ife-british",
+              "reason": "Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d6-ife-met",
+              "reason": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d6-ife-paving",
+              "reason": "Art-historical organization of archaeological periods, ceramic paving associated with growth of urban spaces; period labels are scholarly conventions.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d6-ife-terra",
+              "reason": "Terracotta and copper alloy artistic traditions; caution against uncritically projecting later gendered craft divisions backward.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d6-ife-urban",
+              "reason": "Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article.",
+              "access_scope": "excerpt_reviewed"
+            },
+            {
+              "source_id": "d6-ife-food",
+              "reason": "Scholarly article excerpt indicates archaeobotanical wheat and cotton finds in medieval Ilé-Ifẹ̀; the crops cannot supply a population-wide diet or trade census.",
+              "access_scope": "excerpt_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "043200-p01",
+              "anchor": "In 1938, Isaiah Anozie was digging a cistern in his compound at Igbo-Ukw",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ig-reappraisal",
+                "d7-ig-local"
+              ],
+              "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022); A Multivocal Case Study of Decoloniality in Archaeological Exploration in Igbo-Ukwu, Nigeria (1938-2024)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked. Recorded local family accounts of discovery and collection, to be assessed alongside excavation records; public excerpts inspected."
+            },
+            {
+              "id": "043200-p02",
+              "anchor": "The metalwork from Igbo-Ukwu is technically elaborate. It includes vesse",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ig-met",
+                "d7-ig-metals"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Igbo-Ukwu (ca. 9th Century), Heilbrunn Timeline (2001); Quanyu Wang, Paul Craddock and Julie Hudson, Metallographic study of objects from Igbo Isaiah, British Museum research (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Object range and technical practices; its ninth-century label is not decisive given more recent chronometric work. Technical study of copper-alloy fragments, mostly lost-wax castings and limitations of pre-excavation collecting; abstract inspected."
+            },
+            {
+              "id": "043200-p03",
+              "anchor": "It helps to understand the process without romanticizing it. A lost-wax ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ig-metals"
+              ],
+              "source_locator": "Quanyu Wang, Paul Craddock and Julie Hudson, Metallographic study of objects from Igbo Isaiah, British Museum research (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Technical study of copper-alloy fragments, mostly lost-wax castings and limitations of pre-excavation collecting; abstract inspected."
+            },
+            {
+              "id": "043200-p04",
+              "anchor": "The discoveries led to excavations directed by Thurstan Shaw in 1959 and",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ig-reappraisal"
+              ],
+              "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+            },
+            {
+              "id": "043200-p05",
+              "anchor": "The site's chronology is a continuing lesson in revision. Igbo-Ukwu has ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ig-reappraisal",
+                "d7-ig-old-dates"
+              ],
+              "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022); Babatunde Lawal, Dating Problems at Igbo-Ukwu, Journal of African History 14 (1973)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked. Historical dispute over ninth-century dating, earlier critique not current chronometric consensus; abstract inspected."
+            },
+            {
+              "id": "043200-p06",
+              "anchor": "The dating problem is not a reason to retreat to a vague story that ever",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ig-reappraisal",
+                "d7-ig-old-dates"
+              ],
+              "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022); Babatunde Lawal, Dating Problems at Igbo-Ukwu, Journal of African History 14 (1973)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked. Historical dispute over ninth-century dating, earlier critique not current chronometric consensus; abstract inspected."
+            },
+            {
+              "id": "043200-p07",
+              "anchor": "Beads are especially revealing. The excavated assemblages included large",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ig-reappraisal"
+              ],
+              "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+            },
+            {
+              "id": "043200-p08",
+              "anchor": "The metals raise a similar issue. Studies of composition and manufacturi",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ig-provenance",
+                "d7-ig-reappraisal"
+              ],
+              "source_locator": "J. E. G. Sutton, The international factor at Igbo-Ukwu, Smithsonian Libraries catalog; Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Hypotheses on local metal sourcing and longer-distance bead exchange; speculative trade routes should not be treated as proven. Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+            },
+            {
+              "id": "043200-p09",
+              "anchor": "For a long time, writing about West African metalworking was shaped by c",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ig-met",
+                "d7-ig-reappraisal"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Igbo-Ukwu (ca. 9th Century), Heilbrunn Timeline (2001); Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Object range and technical practices; its ninth-century label is not decisive given more recent chronometric work. Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+            },
+            {
+              "id": "043200-p10",
+              "anchor": "The local social setting remains difficult to reconstruct. Were certain ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ig-reappraisal"
+              ],
+              "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+            },
+            {
+              "id": "043200-p11",
+              "anchor": "The excavation's modern history also deserves attention. Colonial offici",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ig-local",
+                "d7-ig-reappraisal"
+              ],
+              "source_locator": "A Multivocal Case Study of Decoloniality in Archaeological Exploration in Igbo-Ukwu, Nigeria (1938-2024); Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Recorded local family accounts of discovery and collection, to be assessed alongside excavation records; public excerpts inspected. Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+            },
+            {
+              "id": "043200-p12",
+              "anchor": "A museum object presents another problem of scale. A beautifully photogr",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ig-reappraisal"
+              ],
+              "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+            },
+            {
+              "id": "043200-p13",
+              "anchor": "What does Igbo-Ukwu teach us about the wider medieval world? Exchange ro",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ig-met",
+                "d7-ig-reappraisal"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Igbo-Ukwu (ca. 9th Century), Heilbrunn Timeline (2001); Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Object range and technical practices; its ninth-century label is not decisive given more recent chronometric work. Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+            },
+            {
+              "id": "043200-p14",
+              "anchor": "The objects beneath Isaiah Anozie's courtyard became famous for their wo",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ig-reappraisal",
+                "d7-ig-local"
+              ],
+              "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022); A Multivocal Case Study of Decoloniality in Archaeological Exploration in Igbo-Ukwu, Nigeria (1938-2024)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked. Recorded local family accounts of discovery and collection, to be assessed alongside excavation records; public excerpts inspected."
+            },
+            {
+              "id": "043100-p01",
+              "anchor": "In the late 1930s, workers digging in a compound at Ife, in what is now ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-ife-british"
+              ],
+              "source_locator": "British Museum, Brass head from Wunmonije Compound, Ife, collection Af1939,34.1",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown."
+            },
+            {
+              "id": "043100-p02",
+              "anchor": "Ilé-Ifẹ̀ holds a central place in Yoruba religious, political, and histo",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-ife-met"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Ife (from ca. 6th Century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished."
+            },
+            {
+              "id": "043100-p03",
+              "anchor": "Archaeological and art-historical syntheses describe settlement at Ife b",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-ife-paving"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Ife Pre-Pavement and Pavement Era (800–1000 A.D.)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Art-historical organization of archaeological periods, ceramic paving associated with growth of urban spaces; period labels are scholarly conventions."
+            },
+            {
+              "id": "043100-p04",
+              "anchor": "Between roughly the twelfth and fifteenth centuries, artists at Ife prod",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-ife-british",
+                "d6-ife-terra"
+              ],
+              "source_locator": "British Museum, Brass head from Wunmonije Compound, Ife, collection Af1939,34.1; Metropolitan Museum of Art, Ife Terracottas (1000–1400 A.D.)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown. Terracotta and copper alloy artistic traditions; caution against uncritically projecting later gendered craft divisions backward."
+            },
+            {
+              "id": "043100-p05",
+              "anchor": "How does such a head get made? In lost-wax casting, a model is formed in",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-ife-terra"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Ife Terracottas (1000–1400 A.D.)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Terracotta and copper alloy artistic traditions; caution against uncritically projecting later gendered craft divisions backward."
+            },
+            {
+              "id": "043100-p06",
+              "anchor": "The sculptures were found through different histories of recovery. The f",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-ife-british"
+              ],
+              "source_locator": "British Museum, Brass head from Wunmonije Compound, Ife, collection Af1939,34.1",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown."
+            },
+            {
+              "id": "043100-p07",
+              "anchor": "The city was not simply an artistic workshop serving a palace. Research ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-ife-urban"
+              ],
+              "source_locator": "Akinwumi Ogundiran, A Mosaic of Yorùbá Ontology and Materiality of Pleasure Since AD 1000, African Studies Review",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article."
+            },
+            {
+              "id": "043100-p08",
+              "anchor": "Trade mattered, but not every bead or metal object reveals its full jour",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-ife-urban",
+                "d6-ife-met"
+              ],
+              "source_locator": "Akinwumi Ogundiran, A Mosaic of Yorùbá Ontology and Materiality of Pleasure Since AD 1000, African Studies Review; Metropolitan Museum of Art, Ife (from ca. 6th Century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article. Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished."
+            },
+            {
+              "id": "043100-p09",
+              "anchor": "Newer studies add crops to the picture. Archaeobotanical research has re",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-ife-food"
+              ],
+              "source_locator": "Early archaeological evidence of wheat and cotton from medieval Ile-Ife, Nigeria, PNAS (2024)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Scholarly article excerpt indicates archaeobotanical wheat and cotton finds in medieval Ilé-Ifẹ̀; the crops cannot supply a population-wide diet or trade census."
+            },
+            {
+              "id": "043100-p10",
+              "anchor": "The history of how outsiders received Ife art also matters. When these w",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-ife-met",
+                "d6-ife-british"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Ife (from ca. 6th Century); British Museum, Brass head from Wunmonije Compound, Ife, collection Af1939,34.1",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished. Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown."
+            },
+            {
+              "id": "043100-p11",
+              "anchor": "There is a more subtle danger in treating the sculptures as timeless sym",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-ife-met"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Ife (from ca. 6th Century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished."
+            },
+            {
+              "id": "043100-p12",
+              "anchor": "The buried heads survived; many workshops, houses, and ordinary objects ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-ife-urban",
+                "d6-ife-paving"
+              ],
+              "source_locator": "Akinwumi Ogundiran, A Mosaic of Yorùbá Ontology and Materiality of Pleasure Since AD 1000, African Studies Review; Metropolitan Museum of Art, Ife Pre-Pavement and Pavement Era (800–1000 A.D.)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article. Art-historical organization of archaeological periods, ceramic paving associated with growth of urban spaces; period labels are scholarly conventions."
+            },
+            {
+              "id": "043100-p13",
+              "anchor": "Ilé-Ifẹ̀ is therefore more than the answer to a question about where a f",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-ife-met",
+                "d6-ife-urban"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Ife (from ca. 6th Century); Akinwumi Ogundiran, A Mosaic of Yorùbá Ontology and Materiality of Pleasure Since AD 1000, African Studies Review",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished. Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article."
+            }
+          ],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "ancient-medieval-world:043200",
+                "file": "043200-bronze-beads-igbo-ukwu.md",
+                "sha256": "25c264ec93397b784eb857969363408b323382a052869b4c6225a4d02c30e6ae",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "043200",
+                  "transcript": "043200-bronze-beads-igbo-ukwu.md",
+                  "related_resources": [
+                    {
+                      "source_id": "d7-ig-reappraisal",
+                      "reason": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked.",
+                      "access_scope": "excerpt_reviewed"
+                    },
+                    {
+                      "source_id": "d7-ig-local",
+                      "reason": "Recorded local family accounts of discovery and collection, to be assessed alongside excavation records; public excerpts inspected.",
+                      "access_scope": "excerpt_reviewed"
+                    },
+                    {
+                      "source_id": "d7-ig-met",
+                      "reason": "Object range and technical practices; its ninth-century label is not decisive given more recent chronometric work.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "d7-ig-metals",
+                      "reason": "Technical study of copper-alloy fragments, mostly lost-wax castings and limitations of pre-excavation collecting; abstract inspected.",
+                      "access_scope": "abstract_reviewed"
+                    },
+                    {
+                      "source_id": "d7-ig-old-dates",
+                      "reason": "Historical dispute over ninth-century dating, earlier critique not current chronometric consensus; abstract inspected.",
+                      "access_scope": "abstract_reviewed"
+                    },
+                    {
+                      "source_id": "d7-ig-provenance",
+                      "reason": "Hypotheses on local metal sourcing and longer-distance bead exchange; speculative trade routes should not be treated as proven.",
+                      "access_scope": "abstract_reviewed"
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "043200-p01",
+                      "anchor": "In 1938, Isaiah Anozie was digging a cistern in his compound at Igbo-Ukw",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d7-ig-reappraisal",
+                        "d7-ig-local"
+                      ],
+                      "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022); A Multivocal Case Study of Decoloniality in Archaeological Exploration in Igbo-Ukwu, Nigeria (1938-2024)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked. Recorded local family accounts of discovery and collection, to be assessed alongside excavation records; public excerpts inspected."
+                    },
+                    {
+                      "id": "043200-p02",
+                      "anchor": "The metalwork from Igbo-Ukwu is technically elaborate. It includes vesse",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d7-ig-met",
+                        "d7-ig-metals"
+                      ],
+                      "source_locator": "Metropolitan Museum of Art, Igbo-Ukwu (ca. 9th Century), Heilbrunn Timeline (2001); Quanyu Wang, Paul Craddock and Julie Hudson, Metallographic study of objects from Igbo Isaiah, British Museum research (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Object range and technical practices; its ninth-century label is not decisive given more recent chronometric work. Technical study of copper-alloy fragments, mostly lost-wax castings and limitations of pre-excavation collecting; abstract inspected."
+                    },
+                    {
+                      "id": "043200-p03",
+                      "anchor": "It helps to understand the process without romanticizing it. A lost-wax ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d7-ig-metals"
+                      ],
+                      "source_locator": "Quanyu Wang, Paul Craddock and Julie Hudson, Metallographic study of objects from Igbo Isaiah, British Museum research (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Technical study of copper-alloy fragments, mostly lost-wax castings and limitations of pre-excavation collecting; abstract inspected."
+                    },
+                    {
+                      "id": "043200-p04",
+                      "anchor": "The discoveries led to excavations directed by Thurstan Shaw in 1959 and",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d7-ig-reappraisal"
+                      ],
+                      "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+                    },
+                    {
+                      "id": "043200-p05",
+                      "anchor": "The site's chronology is a continuing lesson in revision. Igbo-Ukwu has ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d7-ig-reappraisal",
+                        "d7-ig-old-dates"
+                      ],
+                      "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022); Babatunde Lawal, Dating Problems at Igbo-Ukwu, Journal of African History 14 (1973)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked. Historical dispute over ninth-century dating, earlier critique not current chronometric consensus; abstract inspected."
+                    },
+                    {
+                      "id": "043200-p06",
+                      "anchor": "The dating problem is not a reason to retreat to a vague story that ever",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d7-ig-reappraisal",
+                        "d7-ig-old-dates"
+                      ],
+                      "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022); Babatunde Lawal, Dating Problems at Igbo-Ukwu, Journal of African History 14 (1973)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked. Historical dispute over ninth-century dating, earlier critique not current chronometric consensus; abstract inspected."
+                    },
+                    {
+                      "id": "043200-p07",
+                      "anchor": "Beads are especially revealing. The excavated assemblages included large",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d7-ig-reappraisal"
+                      ],
+                      "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+                    },
+                    {
+                      "id": "043200-p08",
+                      "anchor": "The metals raise a similar issue. Studies of composition and manufacturi",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d7-ig-provenance",
+                        "d7-ig-reappraisal"
+                      ],
+                      "source_locator": "J. E. G. Sutton, The international factor at Igbo-Ukwu, Smithsonian Libraries catalog; Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Hypotheses on local metal sourcing and longer-distance bead exchange; speculative trade routes should not be treated as proven. Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+                    },
+                    {
+                      "id": "043200-p09",
+                      "anchor": "For a long time, writing about West African metalworking was shaped by c",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d7-ig-met",
+                        "d7-ig-reappraisal"
+                      ],
+                      "source_locator": "Metropolitan Museum of Art, Igbo-Ukwu (ca. 9th Century), Heilbrunn Timeline (2001); Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Object range and technical practices; its ninth-century label is not decisive given more recent chronometric work. Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+                    },
+                    {
+                      "id": "043200-p10",
+                      "anchor": "The local social setting remains difficult to reconstruct. Were certain ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d7-ig-reappraisal"
+                      ],
+                      "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+                    },
+                    {
+                      "id": "043200-p11",
+                      "anchor": "The excavation's modern history also deserves attention. Colonial offici",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d7-ig-local",
+                        "d7-ig-reappraisal"
+                      ],
+                      "source_locator": "A Multivocal Case Study of Decoloniality in Archaeological Exploration in Igbo-Ukwu, Nigeria (1938-2024); Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Recorded local family accounts of discovery and collection, to be assessed alongside excavation records; public excerpts inspected. Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+                    },
+                    {
+                      "id": "043200-p12",
+                      "anchor": "A museum object presents another problem of scale. A beautifully photogr",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d7-ig-reappraisal"
+                      ],
+                      "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+                    },
+                    {
+                      "id": "043200-p13",
+                      "anchor": "What does Igbo-Ukwu teach us about the wider medieval world? Exchange ro",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d7-ig-met",
+                        "d7-ig-reappraisal"
+                      ],
+                      "source_locator": "Metropolitan Museum of Art, Igbo-Ukwu (ca. 9th Century), Heilbrunn Timeline (2001); Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Object range and technical practices; its ninth-century label is not decisive given more recent chronometric work. Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked."
+                    },
+                    {
+                      "id": "043200-p14",
+                      "anchor": "The objects beneath Isaiah Anozie's courtyard became famous for their wo",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d7-ig-reappraisal",
+                        "d7-ig-local"
+                      ],
+                      "source_locator": "Susan Keech McIntosh, Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis, African Archaeological Review 39 (2022); A Multivocal Case Study of Decoloniality in Archaeological Exploration in Igbo-Ukwu, Nigeria (1938-2024)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Find histories, three excavation locations, bead provenance and newer high-precision dates; web indexing exposed detailed excerpts, full page intermittently blocked. Recorded local family accounts of discovery and collection, to be assessed alongside excavation records; public excerpts inspected."
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "ancient-medieval-world:043100",
+                "file": "043100-ile-ife-pavements-and-faces.md",
+                "sha256": "480e620a350840b0e615859fb8dfdc3d33c4a712e74d88104e480b79a3e9cb35",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "043100",
+                  "transcript": "043100-ile-ife-pavements-and-faces.md",
+                  "related_resources": [
+                    {
+                      "source_id": "d6-ife-british",
+                      "reason": "Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "d6-ife-met",
+                      "reason": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "d6-ife-paving",
+                      "reason": "Art-historical organization of archaeological periods, ceramic paving associated with growth of urban spaces; period labels are scholarly conventions.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "d6-ife-terra",
+                      "reason": "Terracotta and copper alloy artistic traditions; caution against uncritically projecting later gendered craft divisions backward.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "d6-ife-urban",
+                      "reason": "Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article.",
+                      "access_scope": "excerpt_reviewed"
+                    },
+                    {
+                      "source_id": "d6-ife-food",
+                      "reason": "Scholarly article excerpt indicates archaeobotanical wheat and cotton finds in medieval Ilé-Ifẹ̀; the crops cannot supply a population-wide diet or trade census.",
+                      "access_scope": "excerpt_reviewed"
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "043100-p01",
+                      "anchor": "In the late 1930s, workers digging in a compound at Ife, in what is now ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-ife-british"
+                      ],
+                      "source_locator": "British Museum, Brass head from Wunmonije Compound, Ife, collection Af1939,34.1",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown."
+                    },
+                    {
+                      "id": "043100-p02",
+                      "anchor": "Ilé-Ifẹ̀ holds a central place in Yoruba religious, political, and histo",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-ife-met"
+                      ],
+                      "source_locator": "Metropolitan Museum of Art, Ife (from ca. 6th Century)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished."
+                    },
+                    {
+                      "id": "043100-p03",
+                      "anchor": "Archaeological and art-historical syntheses describe settlement at Ife b",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-ife-paving"
+                      ],
+                      "source_locator": "Metropolitan Museum of Art, Ife Pre-Pavement and Pavement Era (800–1000 A.D.)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Art-historical organization of archaeological periods, ceramic paving associated with growth of urban spaces; period labels are scholarly conventions."
+                    },
+                    {
+                      "id": "043100-p04",
+                      "anchor": "Between roughly the twelfth and fifteenth centuries, artists at Ife prod",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-ife-british",
+                        "d6-ife-terra"
+                      ],
+                      "source_locator": "British Museum, Brass head from Wunmonije Compound, Ife, collection Af1939,34.1; Metropolitan Museum of Art, Ife Terracottas (1000–1400 A.D.)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown. Terracotta and copper alloy artistic traditions; caution against uncritically projecting later gendered craft divisions backward."
+                    },
+                    {
+                      "id": "043100-p05",
+                      "anchor": "How does such a head get made? In lost-wax casting, a model is formed in",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-ife-terra"
+                      ],
+                      "source_locator": "Metropolitan Museum of Art, Ife Terracottas (1000–1400 A.D.)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Terracotta and copper alloy artistic traditions; caution against uncritically projecting later gendered craft divisions backward."
+                    },
+                    {
+                      "id": "043100-p06",
+                      "anchor": "The sculptures were found through different histories of recovery. The f",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-ife-british"
+                      ],
+                      "source_locator": "British Museum, Brass head from Wunmonije Compound, Ife, collection Af1939,34.1",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown."
+                    },
+                    {
+                      "id": "043100-p07",
+                      "anchor": "The city was not simply an artistic workshop serving a palace. Research ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-ife-urban"
+                      ],
+                      "source_locator": "Akinwumi Ogundiran, A Mosaic of Yorùbá Ontology and Materiality of Pleasure Since AD 1000, African Studies Review",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article."
+                    },
+                    {
+                      "id": "043100-p08",
+                      "anchor": "Trade mattered, but not every bead or metal object reveals its full jour",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-ife-urban",
+                        "d6-ife-met"
+                      ],
+                      "source_locator": "Akinwumi Ogundiran, A Mosaic of Yorùbá Ontology and Materiality of Pleasure Since AD 1000, African Studies Review; Metropolitan Museum of Art, Ife (from ca. 6th Century)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article. Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished."
+                    },
+                    {
+                      "id": "043100-p09",
+                      "anchor": "Newer studies add crops to the picture. Archaeobotanical research has re",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-ife-food"
+                      ],
+                      "source_locator": "Early archaeological evidence of wheat and cotton from medieval Ile-Ife, Nigeria, PNAS (2024)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Scholarly article excerpt indicates archaeobotanical wheat and cotton finds in medieval Ilé-Ifẹ̀; the crops cannot supply a population-wide diet or trade census."
+                    },
+                    {
+                      "id": "043100-p10",
+                      "anchor": "The history of how outsiders received Ife art also matters. When these w",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-ife-met",
+                        "d6-ife-british"
+                      ],
+                      "source_locator": "Metropolitan Museum of Art, Ife (from ca. 6th Century); British Museum, Brass head from Wunmonije Compound, Ife, collection Af1939,34.1",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished. Object record: cast brass, probable 14th to early 15th century, found 1938; specific identification and original function unknown."
+                    },
+                    {
+                      "id": "043100-p11",
+                      "anchor": "There is a more subtle danger in treating the sculptures as timeless sym",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-ife-met"
+                      ],
+                      "source_locator": "Metropolitan Museum of Art, Ife (from ca. 6th Century)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished."
+                    },
+                    {
+                      "id": "043100-p12",
+                      "anchor": "The buried heads survived; many workshops, houses, and ordinary objects ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-ife-urban",
+                        "d6-ife-paving"
+                      ],
+                      "source_locator": "Akinwumi Ogundiran, A Mosaic of Yorùbá Ontology and Materiality of Pleasure Since AD 1000, African Studies Review; Metropolitan Museum of Art, Ife Pre-Pavement and Pavement Era (800–1000 A.D.)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article. Art-historical organization of archaeological periods, ceramic paving associated with growth of urban spaces; period labels are scholarly conventions."
+                    },
+                    {
+                      "id": "043100-p13",
+                      "anchor": "Ilé-Ifẹ̀ is therefore more than the answer to a question about where a f",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-ife-met",
+                        "d6-ife-urban"
+                      ],
+                      "source_locator": "Metropolitan Museum of Art, Ife (from ca. 6th Century); Akinwumi Ogundiran, A Mosaic of Yorùbá Ontology and Materiality of Pleasure Since AD 1000, African Studies Review",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Overview of Ilé-Ifẹ̀ archaeology, Yoruba sacred history and the 1200–1500 art tradition; community historical traditions and archaeological chronologies must be distinguished. Archaeological interpretation of early Yoruba urbanism, material culture and city-scale economic life; selected excerpt rather than full article."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ancient-medieval-world:044200",
+        "file": "044200-edo-kingdom-before-1500.md",
+        "sha256": "fcf3507d9e8ef0fad0a3415dfa31497af3c020bf4ef0823d8eb884a7e27e3de6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "044200",
+          "transcript": "044200-edo-kingdom-before-1500.md",
+          "related_resources": [
+            {
+              "source_id": "d9-ben-nms",
+              "reason": "Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d9-ben-prm",
+              "reason": "Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d9-ben-met",
+              "reason": "Court craft and regional trade; much extant court art is from after 1500, not a contemporaneous view of early Benin.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "044200-p01",
+              "anchor": "The name Benin can confuse a modern map. The historical Kingdom of Benin",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-ben-nms",
+                "d9-ben-prm"
+              ],
+              "source_locator": "National Museums Scotland, The Court Arts and History of the Kingdom of Benin; Pitt Rivers Museum, University of Oxford, The Kingdom of Benin",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates. Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500."
+            },
+            {
+              "id": "044200-p02",
+              "anchor": "Edo oral traditions recount an earlier line of rulers known as the Ogiso",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-ben-nms"
+              ],
+              "source_locator": "National Museums Scotland, The Court Arts and History of the Kingdom of Benin",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates."
+            },
+            {
+              "id": "044200-p03",
+              "anchor": "Benin's urban history was shaped by its environment. The forest supplied",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-ben-prm",
+                "d9-ben-nms"
+              ],
+              "source_locator": "Pitt Rivers Museum, University of Oxford, The Kingdom of Benin; National Museums Scotland, The Court Arts and History of the Kingdom of Benin",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500. Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates."
+            },
+            {
+              "id": "044200-p04",
+              "anchor": "Earthworks and channels associated with Benin City belong to a long hist",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-ben-prm",
+                "d9-ben-nms"
+              ],
+              "source_locator": "Pitt Rivers Museum, University of Oxford, The Kingdom of Benin; National Museums Scotland, The Court Arts and History of the Kingdom of Benin",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500. Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates."
+            },
+            {
+              "id": "044200-p05",
+              "anchor": "Court craft was central to political life. Artists worked in materials i",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-ben-nms",
+                "d9-ben-met"
+              ],
+              "source_locator": "National Museums Scotland, The Court Arts and History of the Kingdom of Benin; Metropolitan Museum of Art, Edo Ivory and Wood Carving Guilds, Vessel",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates. Court craft and regional trade; much extant court art is from after 1500, not a contemporaneous view of early Benin."
+            },
+            {
+              "id": "044200-p06",
+              "anchor": "Trade mattered before direct contact with Portugal in the late fifteenth",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-ben-prm",
+                "d9-ben-met"
+              ],
+              "source_locator": "Pitt Rivers Museum, University of Oxford, The Kingdom of Benin; Metropolitan Museum of Art, Edo Ivory and Wood Carving Guilds, Vessel",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500. Court craft and regional trade; much extant court art is from after 1500, not a contemporaneous view of early Benin."
+            },
+            {
+              "id": "044200-p07",
+              "anchor": "The royal court was an institution with rituals, offices, and interests,",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-ben-nms",
+                "d9-ben-met"
+              ],
+              "source_locator": "National Museums Scotland, The Court Arts and History of the Kingdom of Benin; Metropolitan Museum of Art, Edo Ivory and Wood Carving Guilds, Vessel",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates. Court craft and regional trade; much extant court art is from after 1500, not a contemporaneous view of early Benin."
+            },
+            {
+              "id": "044200-p08",
+              "anchor": "Families outside the court also had histories. Agriculture, markets, fis",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-ben-prm",
+                "d9-ben-nms"
+              ],
+              "source_locator": "Pitt Rivers Museum, University of Oxford, The Kingdom of Benin; National Museums Scotland, The Court Arts and History of the Kingdom of Benin",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500. Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates."
+            },
+            {
+              "id": "044200-p09",
+              "anchor": "Political expansion during the fifteenth century changed relationships w",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-ben-nms",
+                "d9-ben-prm"
+              ],
+              "source_locator": "National Museums Scotland, The Court Arts and History of the Kingdom of Benin; Pitt Rivers Museum, University of Oxford, The Kingdom of Benin",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates. Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500."
+            },
+            {
+              "id": "044200-p10",
+              "anchor": "There is also a modern history inside every surviving court object. Brit",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-ben-met",
+                "d9-ben-nms"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Edo Ivory and Wood Carving Guilds, Vessel; National Museums Scotland, The Court Arts and History of the Kingdom of Benin",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Court craft and regional trade; much extant court art is from after 1500, not a contemporaneous view of early Benin. Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates."
+            },
+            {
+              "id": "044200-p11",
+              "anchor": "The strongest accounts therefore combine several lines of evidence. Oral",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-ben-prm",
+                "d9-ben-nms"
+              ],
+              "source_locator": "Pitt Rivers Museum, University of Oxford, The Kingdom of Benin; National Museums Scotland, The Court Arts and History of the Kingdom of Benin",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500. Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates."
+            },
+            {
+              "id": "044200-p12",
+              "anchor": "Before 1500, the Edo kingdom was already a developing political and urba",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-ben-prm",
+                "d9-ben-nms",
+                "d9-ben-met"
+              ],
+              "source_locator": "Pitt Rivers Museum, University of Oxford, The Kingdom of Benin; National Museums Scotland, The Court Arts and History of the Kingdom of Benin; Metropolitan Museum of Art, Edo Ivory and Wood Carving Guilds, Vessel",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Geography and trade; summary spans centuries and later features must not automatically be backdated pre-1500. Clearly labels Ogiso/Oranmiyan history as oral traditions; court chronology and objects differ in dates. Court craft and regional trade; much extant court art is from after 1500, not a contemporaneous view of early Benin."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "030100",
-  "transcript": "030100-clifford-algebra-from-metric-to-operators.md",
+  "transcript": "030100-spinors-dirac-operators-and-an-explicit-spin-c-index.md",
   "related_resources": [
     {
       "source_id": "tg-nicolaescu-sw",
@@ -10,7 +10,170 @@
     {
       "source_id": "tg-perutz-sw",
       "reason": "Clifford algebra and Spin-C orientation."
+    },
+    {
+      "source_id": "tg-nicolaescu-sw",
+      "reason": "Spin structures and characteristic obstruction classes."
+    },
+    {
+      "source_id": "tg-perutz-sw",
+      "reason": "Spin-C determinant line."
+    },
+    {
+      "source_id": "tg-hatcher-vb",
+      "reason": "Bundle-gluing and characteristic classes background."
+    },
+    {
+      "source_id": "tg-nicolaescu-sw",
+      "reason": "Spinor bundle and chiral Dirac operator construction."
+    },
+    {
+      "source_id": "tg-perutz-sw",
+      "reason": "Four-dimensional spin-C Dirac operator."
+    },
+    {
+      "source_id": "tg-nicolaescu-sw",
+      "reason": "Weitzenbock formula for spin-C Dirac operators."
+    },
+    {
+      "source_id": "tg-freed-uhlenbeck",
+      "reason": "Geometric analytic curvature estimates."
+    },
+    {
+      "source_id": "tg-nicolaescu-sw",
+      "reason": "Spin-C Dirac index on a four-manifold."
+    },
+    {
+      "source_id": "tg-perutz-sw",
+      "reason": "Spin-C topological data and characteristic classes."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Index-theoretic preliminaries."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:030100",
+        "file": "030100-clifford-algebra-from-metric-to-operators.md",
+        "sha256": "715fa2771aea4b96de99ace874107853d8f17be4c5bde5a8bd1de35803982336",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "030100",
+          "transcript": "030100-clifford-algebra-from-metric-to-operators.md",
+          "related_resources": [
+            {
+              "source_id": "tg-nicolaescu-sw",
+              "reason": "Clifford modules and algebraic construction of spinors."
+            },
+            {
+              "source_id": "tg-perutz-sw",
+              "reason": "Clifford algebra and Spin-C orientation."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:030200",
+        "file": "030200-spin-and-spinc-structures-gluing-rotations.md",
+        "sha256": "06c7f120b177005281071dc7ec08f7bb6f7c04849520130a03f5c9886bbcbdf9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "030200",
+          "transcript": "030200-spin-and-spinc-structures-gluing-rotations.md",
+          "related_resources": [
+            {
+              "source_id": "tg-nicolaescu-sw",
+              "reason": "Spin structures and characteristic obstruction classes."
+            },
+            {
+              "source_id": "tg-perutz-sw",
+              "reason": "Spin-C determinant line."
+            },
+            {
+              "source_id": "tg-hatcher-vb",
+              "reason": "Bundle-gluing and characteristic classes background."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:030300",
+        "file": "030300-spinc-spinor-bundles-and-dirac-operators.md",
+        "sha256": "5880531d1ffd789af9ebc1c428a999cdfa99ea82f8f35496a4e4b3f6e5cbabaf",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "030300",
+          "transcript": "030300-spinc-spinor-bundles-and-dirac-operators.md",
+          "related_resources": [
+            {
+              "source_id": "tg-nicolaescu-sw",
+              "reason": "Spinor bundle and chiral Dirac operator construction."
+            },
+            {
+              "source_id": "tg-perutz-sw",
+              "reason": "Four-dimensional spin-C Dirac operator."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:030400",
+        "file": "030400-weizenbock-formula-and-curvature-estimates.md",
+        "sha256": "12fc004d4950435ddaf831794dbaf5fed5934dddac1f4e6998056eeb4d378534",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "030400",
+          "transcript": "030400-weizenbock-formula-and-curvature-estimates.md",
+          "related_resources": [
+            {
+              "source_id": "tg-nicolaescu-sw",
+              "reason": "Weitzenbock formula for spin-C Dirac operators."
+            },
+            {
+              "source_id": "tg-freed-uhlenbeck",
+              "reason": "Geometric analytic curvature estimates."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:030500",
+        "file": "030500-spinc-dirac-index-on-four-manifolds.md",
+        "sha256": "bb7c7cfc028666466543777774b1e0fd0de7296b36f58fbc1effa99fc0bfad13",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "030500",
+          "transcript": "030500-spinc-dirac-index-on-four-manifolds.md",
+          "related_resources": [
+            {
+              "source_id": "tg-nicolaescu-sw",
+              "reason": "Spin-C Dirac index on a four-manifold."
+            },
+            {
+              "source_id": "tg-perutz-sw",
+              "reason": "Spin-C topological data and characteristic classes."
+            },
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Index-theoretic preliminaries."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

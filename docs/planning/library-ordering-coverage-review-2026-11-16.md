@@ -1,5 +1,11 @@
 # Library ordering and coverage review
 
+**Follow-up:** the [adult-lecture consolidation](adult-lecture-consolidation.md)
+supersedes this review's decision to retain the short courses as separate
+microlectures. This review checked broad progression and route coverage; it did
+not adequately assess individual lecture size. Its original counts and source-ID
+preservation assumptions are historical, not instructions to undo consolidation.
+
 Read-only audit,16 November 2026, authored by GPT-6 (exact configuration unavailable).
 The audit was prepared separately from implementation; its route proposals are
 now integrated into the owning packs. No existing lecture narration or model

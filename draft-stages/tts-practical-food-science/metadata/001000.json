@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-heat-water-and-the-structure-of-food.md",
+  "transcript": "001000-plan-a-safe-controllable-cooking-process.md",
   "related_resources": [
     {
       "source_id": "fsis-safety",
@@ -14,6 +14,22 @@
     {
       "source_id": "foodsafety-temps",
       "reason": "Current food-type-specific safe minimum temperatures"
+    },
+    {
+      "source_id": "foodsafety-four-steps",
+      "reason": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules"
+    },
+    {
+      "source_id": "fsis-cutting-board-cleaning",
+      "reason": "Cleaning surfaces, separation of raw meat and produce, replacement of hard-to-clean boards"
+    },
+    {
+      "source_id": "asb-starch",
+      "reason": "Granule swelling, gelatinization and paste viscosity"
+    },
+    {
+      "source_id": "usda-fsis-temps",
+      "reason": "Home-cooking category minimums and rest periods; checked 2026-11-15"
     }
   ],
   "historical_claims": [],
@@ -67,8 +83,522 @@
       "verification_level": "public_source_identified_editorial_check_pending",
       "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
       "professional_review": "pending"
+    },
+    {
+      "claim_id": "P007000-01",
+      "claim": "Home food-safety prevention is organized around cleaning, separating, cooking and chilling.",
+      "kind": "food_safety_guidance",
+      "supports": [
+        {
+          "source_id": "foodsafety-four-steps",
+          "location": "Clean, Separate, Cook, Chill sections",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "General US household guidance sets refrigeration at 40°F or below and food refrigeration deadlines of 2 hours, or 1 hour above 90°F ambient.",
+      "kind": "food_safety_guidance",
+      "supports": [
+        {
+          "source_id": "foodsafety-four-steps",
+          "location": "Chill: temperatures and time limits",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "A suitable food thermometer is necessary to evaluate the internal cooking temperature rather than relying on appearance.",
+      "kind": "food_safety_guidance",
+      "supports": [
+        {
+          "source_id": "fsis-thermometer",
+          "location": "USDA FSIS: thermometer use to measure internal temperature",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "foodsafety-four-steps",
+          "location": "Cook: temperature checks",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P010000-01",
+      "claim": "Cutting boards and utensils should be cleaned between food-preparation tasks to prevent transfer of foodborne pathogens.",
+      "kind": "original_usda_cross_contamination_guidance",
+      "supports": [
+        {
+          "source_id": "fsis-cutting-board-cleaning",
+          "location": "Cleaning and separate boards",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Separate raw meat, poultry and seafood from ready-to-eat ingredients and use clean surfaces.",
+      "kind": "original_us_food_safety_guidance",
+      "supports": [
+        {
+          "source_id": "foodsafety-four-steps",
+          "location": "Clean and separate steps",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "fsis-cutting-board-cleaning",
+          "location": "Board contamination",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Food cut size changes exposed surface and conduction distances, influencing the cooking process.",
+      "kind": "derived_geometric_heat_transfer",
+      "supports": [
+        {
+          "source_id": "asb-starch",
+          "location": "Food structure and heating context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Stable workpieces, boards, and predictable cutting strokes improve control during knife work.",
+      "kind": "derived_workholding_and_food_preparation",
+      "supports": [
+        {
+          "source_id": "fsis-cutting-board-cleaning",
+          "location": "Board maintenance and safe prep context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-01",
+      "claim": "Safe food preparation requires separation, cleaning, adequate cooking and controlled chilling.",
+      "kind": "original_us_food_safety_guidance",
+      "supports": [
+        {
+          "source_id": "foodsafety-four-steps",
+          "location": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-fsis-temps",
+          "location": "Home-cooking category minimums and rest periods; checked 2026-11-15",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Internal food temperature provides more reliable safety information than appearance alone for applicable foods.",
+      "kind": "original_us_food_safety_guidance",
+      "supports": [
+        {
+          "source_id": "usda-fsis-temps",
+          "location": "Home-cooking category minimums and rest periods; checked 2026-11-15",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Preparation sequencing can reduce cross-contamination and scheduling conflicts.",
+      "kind": "derived_cooking_process_design",
+      "supports": [
+        {
+          "source_id": "foodsafety-four-steps",
+          "location": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "educational_draft_sources_recorded_not_field_validated",
-  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-food-science:001000",
+        "file": "001000-heat-water-and-the-structure-of-food.md",
+        "sha256": "46e1c133a4292b04c2e940ae7d4280fa592a64936efcf7f0b9e9318038357316",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-heat-water-and-the-structure-of-food.md",
+          "related_resources": [
+            {
+              "source_id": "fsis-safety",
+              "reason": "Clean, separate, cook and chill practices"
+            },
+            {
+              "source_id": "fsis-thermometer",
+              "reason": "Measurement in thickest relevant portion of food"
+            },
+            {
+              "source_id": "foodsafety-temps",
+              "reason": "Current food-type-specific safe minimum temperatures"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P001000-01",
+              "claim": "Visual cues alone are insufficient for food safety",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "fsis-safety",
+                  "location": "Clean, separate, cook and chill practices",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "fsis-thermometer",
+                  "location": "Measurement in thickest relevant portion of food",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-02",
+              "claim": "Food-specific internal temperatures and storage conditions vary",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "foodsafety-temps",
+                  "location": "Current food-type-specific safe minimum temperatures",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-03",
+              "claim": "Food thermometers must measure relevant interior locations",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "fsis-thermometer",
+                  "location": "Measurement in thickest relevant portion of food",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            }
+          ],
+          "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+          "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+        }
+      },
+      {
+        "id": "practical-food-science:007000",
+        "file": "007000-food-storage-thermometers-and-cross-contamination.md",
+        "sha256": "3bf00c94f7fbe6da7821a20c9c8d7de633ffcc65b200dbbbab8aa668a5fa0501",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-food-storage-thermometers-and-cross-contamination.md",
+          "related_resources": [
+            {
+              "source_id": "foodsafety-four-steps",
+              "reason": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules"
+            },
+            {
+              "source_id": "fsis-thermometer",
+              "reason": "Measurement in thickest relevant portion of food"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "Home food-safety prevention is organized around cleaning, separating, cooking and chilling.",
+              "kind": "food_safety_guidance",
+              "supports": [
+                {
+                  "source_id": "foodsafety-four-steps",
+                  "location": "Clean, Separate, Cook, Chill sections",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "General US household guidance sets refrigeration at 40°F or below and food refrigeration deadlines of 2 hours, or 1 hour above 90°F ambient.",
+              "kind": "food_safety_guidance",
+              "supports": [
+                {
+                  "source_id": "foodsafety-four-steps",
+                  "location": "Chill: temperatures and time limits",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "A suitable food thermometer is necessary to evaluate the internal cooking temperature rather than relying on appearance.",
+              "kind": "food_safety_guidance",
+              "supports": [
+                {
+                  "source_id": "fsis-thermometer",
+                  "location": "USDA FSIS: thermometer use to measure internal temperature",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "foodsafety-four-steps",
+                  "location": "Cook: temperature checks",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      },
+      {
+        "id": "practical-food-science:010000",
+        "file": "010000-knife-skills-cutting-geometry-and-safe-preparation.md",
+        "sha256": "c3b326929931cfba21102b1b923c8044ea791b92012da7e364b3def3df17f130",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-knife-skills-cutting-geometry-and-safe-preparation.md",
+          "related_resources": [
+            {
+              "source_id": "fsis-cutting-board-cleaning",
+              "reason": "Cleaning surfaces, separation of raw meat and produce, replacement of hard-to-clean boards"
+            },
+            {
+              "source_id": "foodsafety-four-steps",
+              "reason": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules"
+            },
+            {
+              "source_id": "asb-starch",
+              "reason": "Granule swelling, gelatinization and paste viscosity"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Cutting boards and utensils should be cleaned between food-preparation tasks to prevent transfer of foodborne pathogens.",
+              "kind": "original_usda_cross_contamination_guidance",
+              "supports": [
+                {
+                  "source_id": "fsis-cutting-board-cleaning",
+                  "location": "Cleaning and separate boards",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "Separate raw meat, poultry and seafood from ready-to-eat ingredients and use clean surfaces.",
+              "kind": "original_us_food_safety_guidance",
+              "supports": [
+                {
+                  "source_id": "foodsafety-four-steps",
+                  "location": "Clean and separate steps",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "fsis-cutting-board-cleaning",
+                  "location": "Board contamination",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Food cut size changes exposed surface and conduction distances, influencing the cooking process.",
+              "kind": "derived_geometric_heat_transfer",
+              "supports": [
+                {
+                  "source_id": "asb-starch",
+                  "location": "Food structure and heating context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Stable workpieces, boards, and predictable cutting strokes improve control during knife work.",
+              "kind": "derived_workholding_and_food_preparation",
+              "supports": [
+                {
+                  "source_id": "fsis-cutting-board-cleaning",
+                  "location": "Board maintenance and safe prep context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "practical-food-science:012000",
+        "file": "012000-mise-en-place-and-cooking-as-process-engineering.md",
+        "sha256": "6117b24b3b538be89701f7f0cdaab9ea2a57d749fe33b11e8690d98b10877572",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-mise-en-place-and-cooking-as-process-engineering.md",
+          "related_resources": [
+            {
+              "source_id": "foodsafety-four-steps",
+              "reason": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules"
+            },
+            {
+              "source_id": "usda-fsis-temps",
+              "reason": "Home-cooking category minimums and rest periods; checked 2026-11-15"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P012000-01",
+              "claim": "Safe food preparation requires separation, cleaning, adequate cooking and controlled chilling.",
+              "kind": "original_us_food_safety_guidance",
+              "supports": [
+                {
+                  "source_id": "foodsafety-four-steps",
+                  "location": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usda-fsis-temps",
+                  "location": "Home-cooking category minimums and rest periods; checked 2026-11-15",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-02",
+              "claim": "Internal food temperature provides more reliable safety information than appearance alone for applicable foods.",
+              "kind": "original_us_food_safety_guidance",
+              "supports": [
+                {
+                  "source_id": "usda-fsis-temps",
+                  "location": "Home-cooking category minimums and rest periods; checked 2026-11-15",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-03",
+              "claim": "Preparation sequencing can reduce cross-contamination and scheduling conflicts.",
+              "kind": "derived_cooking_process_design",
+              "supports": [
+                {
+                  "source_id": "foodsafety-four-steps",
+                  "location": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "001000-plan-a-safe-controllable-cooking-process.md"
+      ],
+      "joined_before_source_parts": [
+        "007000",
+        "012000"
+      ]
+    }
+  ]
 }

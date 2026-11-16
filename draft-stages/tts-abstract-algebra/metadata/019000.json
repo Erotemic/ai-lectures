@@ -1,12 +1,97 @@
 {
   "schema_version": 1,
   "lecture_id": "019000",
-  "transcript": "019000-dedekind-domains-and-ideal-factorization.md",
+  "transcript": "019000-ideal-factorization-primary-support-and-local-completion.md",
   "related_resources": [
     {
       "source_id": "aa-mit785",
       "reason": "Dedekind domains, discrete valuation localizations, factorization of ideals and class groups."
+    },
+    {
+      "source_id": "aa-eisenbud",
+      "reason": "Primary decomposition, associated primes, radicals, and support."
+    },
+    {
+      "source_id": "aa-eisenbud",
+      "reason": "Completions and Hensel lemma."
+    },
+    {
+      "source_id": "aa-mit785",
+      "reason": "Valuations, local fields and Hensel lifting."
+    },
+    {
+      "source_id": "aa-conrad",
+      "reason": "Elementary p-adic examples."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:019000",
+        "file": "019000-dedekind-domains-and-ideal-factorization.md",
+        "sha256": "fe658eaba871321e243decc249e0d34efc8c21199109112f92ccbfa0b30b6b9c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-dedekind-domains-and-ideal-factorization.md",
+          "related_resources": [
+            {
+              "source_id": "aa-mit785",
+              "reason": "Dedekind domains, discrete valuation localizations, factorization of ideals and class groups."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:022000",
+        "file": "022000-primary-decomposition-associated-primes-and-support.md",
+        "sha256": "b372ee88957496e87826e0fa4b4a0a4b6cdee335e24d5e99e2459dc761653ddf",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "022000",
+          "transcript": "022000-primary-decomposition-associated-primes-and-support.md",
+          "related_resources": [
+            {
+              "source_id": "aa-eisenbud",
+              "reason": "Primary decomposition, associated primes, radicals, and support."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:023000",
+        "file": "023000-completion-valuations-and-hensels-lemma.md",
+        "sha256": "6a4512a755fafb9a74acd8478c9e021d08a28a7bb0e3b170862b60b6e37ee22b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "023000",
+          "transcript": "023000-completion-valuations-and-hensels-lemma.md",
+          "related_resources": [
+            {
+              "source_id": "aa-eisenbud",
+              "reason": "Completions and Hensel lemma."
+            },
+            {
+              "source_id": "aa-mit785",
+              "reason": "Valuations, local fields and Hensel lifting."
+            },
+            {
+              "source_id": "aa-conrad",
+              "reason": "Elementary p-adic examples."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

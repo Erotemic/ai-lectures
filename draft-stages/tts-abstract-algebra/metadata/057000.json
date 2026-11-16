@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "057000",
-  "transcript": "057000-selmer-groups-and-arithmetic-duality.md",
+  "transcript": "057000-selmer-tests-heights-and-effective-point-bounds.md",
   "related_resources": [
     {
       "source_id": "ab-r15-057000-1",
@@ -14,7 +14,182 @@
     {
       "source_id": "ab-r15-057000-3",
       "reason": "Selmer groups, local-global obstructions, arithmetic duality and Sha"
+    },
+    {
+      "source_id": "ab-r16-061000-1",
+      "reason": "Reference on Heights, Mordell–Weil, and Explicit Descent Algorithms (1 of 3)"
+    },
+    {
+      "source_id": "ab-r16-061000-2",
+      "reason": "Reference on Heights, Mordell–Weil, and Explicit Descent Algorithms (2 of 3)"
+    },
+    {
+      "source_id": "ab-r16-061000-3",
+      "reason": "Reference on Heights, Mordell–Weil, and Explicit Descent Algorithms (3 of 3)"
+    },
+    {
+      "source_id": "ab-r17-065000-1",
+      "reason": "Reference on Mordell–Weil Saturation and Height Pairings (1 of 3)"
+    },
+    {
+      "source_id": "ab-r17-065000-2",
+      "reason": "Reference on Mordell–Weil Saturation and Height Pairings (2 of 3)"
+    },
+    {
+      "source_id": "ab-r17-065000-3",
+      "reason": "Reference on Mordell–Weil Saturation and Height Pairings (3 of 3)"
+    },
+    {
+      "source_id": "ab-r18-069000-1",
+      "reason": "Reference on Cassels-Tate Pairings: How an Obstruction Sharpens a Rank Bound (1 of 3)"
+    },
+    {
+      "source_id": "ab-r18-069000-2",
+      "reason": "Reference on Cassels-Tate Pairings: How an Obstruction Sharpens a Rank Bound (2 of 3)"
+    },
+    {
+      "source_id": "ab-r18-069000-3",
+      "reason": "Reference on Cassels-Tate Pairings: How an Obstruction Sharpens a Rank Bound (3 of 3)"
+    },
+    {
+      "source_id": "ab-r19-073000-1",
+      "reason": "Reference for Effective Chabauty-Coleman Bounds on Rational Points (1 of 2)"
+    },
+    {
+      "source_id": "ab-r19-073000-2",
+      "reason": "Reference for Effective Chabauty-Coleman Bounds on Rational Points (2 of 2)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:057000",
+        "file": "057000-selmer-groups-and-arithmetic-duality.md",
+        "sha256": "bb958bb9b6c8e77ee04ca79502315dc6c8d671c1c37a32fc5aa1dc75a6042b50",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "057000",
+          "transcript": "057000-selmer-groups-and-arithmetic-duality.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r15-057000-1",
+              "reason": "Selmer groups, local-global obstructions, arithmetic duality and Sha"
+            },
+            {
+              "source_id": "ab-r15-057000-2",
+              "reason": "Selmer groups, local-global obstructions, arithmetic duality and Sha"
+            },
+            {
+              "source_id": "ab-r15-057000-3",
+              "reason": "Selmer groups, local-global obstructions, arithmetic duality and Sha"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:061000",
+        "file": "061000-heights-mordell-weil-and-explicit-descent.md",
+        "sha256": "7b0355e297a8317c703899a18fd3a86d300ace5a2157c3878b2a7e9212eaf23c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "061000",
+          "transcript": "061000-heights-mordell-weil-and-explicit-descent.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r16-061000-1",
+              "reason": "Reference on Heights, Mordell–Weil, and Explicit Descent Algorithms (1 of 3)"
+            },
+            {
+              "source_id": "ab-r16-061000-2",
+              "reason": "Reference on Heights, Mordell–Weil, and Explicit Descent Algorithms (2 of 3)"
+            },
+            {
+              "source_id": "ab-r16-061000-3",
+              "reason": "Reference on Heights, Mordell–Weil, and Explicit Descent Algorithms (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:065000",
+        "file": "065000-mordell-weil-saturation-and-regulators.md",
+        "sha256": "e5aef1dc5a2252ae5835107e32d2b08010b5ae17b66ad0956f9d766f2e157ee9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "065000",
+          "transcript": "065000-mordell-weil-saturation-and-regulators.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r17-065000-1",
+              "reason": "Reference on Mordell–Weil Saturation and Height Pairings (1 of 3)"
+            },
+            {
+              "source_id": "ab-r17-065000-2",
+              "reason": "Reference on Mordell–Weil Saturation and Height Pairings (2 of 3)"
+            },
+            {
+              "source_id": "ab-r17-065000-3",
+              "reason": "Reference on Mordell–Weil Saturation and Height Pairings (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:069000",
+        "file": "069000-cassels-tate-pairing-and-rank-certification.md",
+        "sha256": "10d2aa54e3f3bc3eefc6c8eb9d2be500ac7b125e34c2d70b47d486ef68747537",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "069000",
+          "transcript": "069000-cassels-tate-pairing-and-rank-certification.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r18-069000-1",
+              "reason": "Reference on Cassels-Tate Pairings: How an Obstruction Sharpens a Rank Bound (1 of 3)"
+            },
+            {
+              "source_id": "ab-r18-069000-2",
+              "reason": "Reference on Cassels-Tate Pairings: How an Obstruction Sharpens a Rank Bound (2 of 3)"
+            },
+            {
+              "source_id": "ab-r18-069000-3",
+              "reason": "Reference on Cassels-Tate Pairings: How an Obstruction Sharpens a Rank Bound (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:073000",
+        "file": "073000-effective-chabauty-coleman-rational-points.md",
+        "sha256": "877514b6d231a21c8fd67ccc15580dd14340495f12e1652136aeea5d6bd6a489",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "073000",
+          "transcript": "073000-effective-chabauty-coleman-rational-points.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r19-073000-1",
+              "reason": "Reference for Effective Chabauty-Coleman Bounds on Rational Points (1 of 2)"
+            },
+            {
+              "source_id": "ab-r19-073000-2",
+              "reason": "Reference for Effective Chabauty-Coleman Bounds on Rational Points (2 of 2)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

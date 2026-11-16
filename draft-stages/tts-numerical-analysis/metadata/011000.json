@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "011000",
-  "transcript": "011000-euler-runge-kutta-and-stability.md",
+  "transcript": "011000-time-stepping-verified-enclosures-and-validated-dynamics.md",
   "related_resources": [
     {
       "source_id": "na-mit18330",
@@ -10,7 +10,294 @@
     {
       "source_id": "na-mit-ode",
       "reason": "Local/global error and absolute stability for one-step solvers."
+    },
+    {
+      "source_id": "na-rump",
+      "reason": "Validated floating-point computation and rigorous enclosures."
+    },
+    {
+      "source_id": "na-ieee-1788",
+      "reason": "Historical standard definition of interval models and arithmetic operations."
+    },
+    {
+      "source_id": "na-higham",
+      "reason": "Relation of residual, conditioning and floating-point error."
+    },
+    {
+      "source_id": "nu-r13-020000-1",
+      "reason": "Interval Newton, Krawczyk enclosures and fixed-point existence and uniqueness"
+    },
+    {
+      "source_id": "nu-r13-020000-2",
+      "reason": "Interval Newton, Krawczyk enclosures and fixed-point existence and uniqueness"
+    },
+    {
+      "source_id": "nu-r13-020000-3",
+      "reason": "Interval Newton, Krawczyk enclosures and fixed-point existence and uniqueness"
+    },
+    {
+      "source_id": "na-capd-rigorous",
+      "reason": "Validated flow enclosures and rigorous return-map evaluation."
+    },
+    {
+      "source_id": "na-capd-sets",
+      "reason": "Rigorously transported sets and affine coordinate transformations."
+    },
+    {
+      "source_id": "na-capd-taylor",
+      "reason": "Taylor methods and distinction between ordinary and rigorous variants."
+    },
+    {
+      "source_id": "na-r17-024000-1",
+      "reason": "Reference on Validated Bifurcation Diagrams and Computer-Assisted Proof (1 of 3)"
+    },
+    {
+      "source_id": "na-r17-024000-2",
+      "reason": "Reference on Validated Bifurcation Diagrams and Computer-Assisted Proof (2 of 3)"
+    },
+    {
+      "source_id": "na-r17-024000-3",
+      "reason": "Reference on Validated Bifurcation Diagrams and Computer-Assisted Proof (3 of 3)"
+    },
+    {
+      "source_id": "na-r18-025000-1",
+      "reason": "Reference on Validated Periodic Orbits and Floquet Multipliers (1 of 3)"
+    },
+    {
+      "source_id": "na-r18-025000-2",
+      "reason": "Reference on Validated Periodic Orbits and Floquet Multipliers (2 of 3)"
+    },
+    {
+      "source_id": "na-r18-025000-3",
+      "reason": "Reference on Validated Periodic Orbits and Floquet Multipliers (3 of 3)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "numerical-analysis:011000",
+        "file": "011000-euler-runge-kutta-and-stability.md",
+        "sha256": "e83d975f2db798ff88ceead380fc0f8e9907fca0e615b3416b0467210f13d24f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-euler-runge-kutta-and-stability.md",
+          "related_resources": [
+            {
+              "source_id": "na-mit18330",
+              "reason": "Numerical ODE time stepping and truncation errors."
+            },
+            {
+              "source_id": "na-mit-ode",
+              "reason": "Local/global error and absolute stability for one-step solvers."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "numerical-analysis:013000",
+        "file": "013000-interval-arithmetic-and-verified-enclosures.md",
+        "sha256": "d2eb8b125faf2410c1a7d0d2a65309ab43a3c247810f8fd681473a4e63163fa2",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-interval-arithmetic-and-verified-enclosures.md",
+          "related_resources": [
+            {
+              "source_id": "na-rump",
+              "reason": "Validated floating-point computation and rigorous enclosures."
+            },
+            {
+              "source_id": "na-ieee-1788",
+              "reason": "Historical standard definition of interval models and arithmetic operations."
+            },
+            {
+              "source_id": "na-higham",
+              "reason": "Relation of residual, conditioning and floating-point error."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "numerical-analysis:020000",
+        "file": "020000-verified-nonlinear-systems-trajectories-bifurcations-and-periods.md",
+        "sha256": "078f1feeec83eb879b9b110a470d5d5703348d7e969d90ef22839945c23787e5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-verified-nonlinear-systems-trajectories-bifurcations-and-periods.md",
+          "related_resources": [
+            {
+              "source_id": "nu-r13-020000-1",
+              "reason": "Interval Newton, Krawczyk enclosures and fixed-point existence and uniqueness"
+            },
+            {
+              "source_id": "nu-r13-020000-2",
+              "reason": "Interval Newton, Krawczyk enclosures and fixed-point existence and uniqueness"
+            },
+            {
+              "source_id": "nu-r13-020000-3",
+              "reason": "Interval Newton, Krawczyk enclosures and fixed-point existence and uniqueness"
+            },
+            {
+              "source_id": "na-capd-rigorous",
+              "reason": "Validated flow enclosures and rigorous return-map evaluation."
+            },
+            {
+              "source_id": "na-capd-sets",
+              "reason": "Rigorously transported sets and affine coordinate transformations."
+            },
+            {
+              "source_id": "na-capd-taylor",
+              "reason": "Taylor methods and distinction between ordinary and rigorous variants."
+            },
+            {
+              "source_id": "na-r17-024000-1",
+              "reason": "Reference on Validated Bifurcation Diagrams and Computer-Assisted Proof (1 of 3)"
+            },
+            {
+              "source_id": "na-r17-024000-2",
+              "reason": "Reference on Validated Bifurcation Diagrams and Computer-Assisted Proof (2 of 3)"
+            },
+            {
+              "source_id": "na-r17-024000-3",
+              "reason": "Reference on Validated Bifurcation Diagrams and Computer-Assisted Proof (3 of 3)"
+            },
+            {
+              "source_id": "na-r18-025000-1",
+              "reason": "Reference on Validated Periodic Orbits and Floquet Multipliers (1 of 3)"
+            },
+            {
+              "source_id": "na-r18-025000-2",
+              "reason": "Reference on Validated Periodic Orbits and Floquet Multipliers (2 of 3)"
+            },
+            {
+              "source_id": "na-r18-025000-3",
+              "reason": "Reference on Validated Periodic Orbits and Floquet Multipliers (3 of 3)"
+            }
+          ],
+          "historical_claims": [],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "numerical-analysis:020000",
+                "file": "020000-verified-nonlinear-systems-krawczyk-and-interval-newton.md",
+                "sha256": "e1bd056b7c223fad414e00a702f28fb0add925018f9cb4e5810a7322ca50d762",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "020000",
+                  "transcript": "020000-verified-nonlinear-systems-krawczyk-and-interval-newton.md",
+                  "related_resources": [
+                    {
+                      "source_id": "nu-r13-020000-1",
+                      "reason": "Interval Newton, Krawczyk enclosures and fixed-point existence and uniqueness"
+                    },
+                    {
+                      "source_id": "nu-r13-020000-2",
+                      "reason": "Interval Newton, Krawczyk enclosures and fixed-point existence and uniqueness"
+                    },
+                    {
+                      "source_id": "nu-r13-020000-3",
+                      "reason": "Interval Newton, Krawczyk enclosures and fixed-point existence and uniqueness"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "numerical-analysis:017000",
+                "file": "017000-validated-integration-of-ordinary-differential-equations.md",
+                "sha256": "b11f603c8ac0dca08dd6ed275e3829db824ae3534b873f2c1b145a1d9e5afca5",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "017000",
+                  "transcript": "017000-validated-integration-of-ordinary-differential-equations.md",
+                  "related_resources": [
+                    {
+                      "source_id": "na-capd-rigorous",
+                      "reason": "Validated flow enclosures and rigorous return-map evaluation."
+                    },
+                    {
+                      "source_id": "na-capd-sets",
+                      "reason": "Rigorously transported sets and affine coordinate transformations."
+                    },
+                    {
+                      "source_id": "na-capd-taylor",
+                      "reason": "Taylor methods and distinction between ordinary and rigorous variants."
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "numerical-analysis:024000",
+                "file": "024000-validated-bifurcation-diagrams.md",
+                "sha256": "a713bc94da9cf6092161851d174de18072accfc078af1ea5ada963b0183e3701",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "024000",
+                  "transcript": "024000-validated-bifurcation-diagrams.md",
+                  "related_resources": [
+                    {
+                      "source_id": "na-r17-024000-1",
+                      "reason": "Reference on Validated Bifurcation Diagrams and Computer-Assisted Proof (1 of 3)"
+                    },
+                    {
+                      "source_id": "na-r17-024000-2",
+                      "reason": "Reference on Validated Bifurcation Diagrams and Computer-Assisted Proof (2 of 3)"
+                    },
+                    {
+                      "source_id": "na-r17-024000-3",
+                      "reason": "Reference on Validated Bifurcation Diagrams and Computer-Assisted Proof (3 of 3)"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "numerical-analysis:025000",
+                "file": "025000-validated-periodic-orbits-and-floquet-multipliers.md",
+                "sha256": "1335241e6c0593dd25c54f56f5c095b60c29cd8b0fdafd4e0d4d47990d9ef7a0",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "025000",
+                  "transcript": "025000-validated-periodic-orbits-and-floquet-multipliers.md",
+                  "related_resources": [
+                    {
+                      "source_id": "na-r18-025000-1",
+                      "reason": "Reference on Validated Periodic Orbits and Floquet Multipliers (1 of 3)"
+                    },
+                    {
+                      "source_id": "na-r18-025000-2",
+                      "reason": "Reference on Validated Periodic Orbits and Floquet Multipliers (2 of 3)"
+                    },
+                    {
+                      "source_id": "na-r18-025000-3",
+                      "reason": "Reference on Validated Periodic Orbits and Floquet Multipliers (3 of 3)"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
 }

@@ -1,5 +1,7 @@
 # Journey to the West — expanded retelling, chapters 20–21: reading and evidence guide
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## Scope and narrative order
 
 This installment adds nine independently written narrative lectures, 493000–501000, after the Heart Sutra and Pagoda Mountain conclusion of 492000. They cover the full selected-witness chapters 20 and 21. Existing chapters 1–19 and the World History survey remain unchanged. The literary strand now has 61 lectures covering chapters 1–21.

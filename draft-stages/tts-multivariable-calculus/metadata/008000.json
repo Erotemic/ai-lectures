@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "008000",
-  "transcript": "008000-second-derivatives-and-taylor-geometry.md",
+  "transcript": "008000-curvature-constrained-extrema-and-volume-integration.md",
   "related_resources": [
     {
       "source_id": "mv-openstax-v3",
@@ -14,7 +14,220 @@
     {
       "source_id": "mv-wiki-008000",
       "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-mit-1802sc",
+      "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+    },
+    {
+      "source_id": "mv-wiki-009000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-wiki-010000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-wiki-011000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-wiki-012000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-wiki-013000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-wiki-014000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "multivariable-calculus:008000",
+        "file": "008000-second-derivatives-and-taylor-geometry.md",
+        "sha256": "ac552290795e8de90d8df0e94c008c3a5ee11ce23a874d1a4485774e24817ba3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-second-derivatives-and-taylor-geometry.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-18022",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-008000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:009000",
+        "file": "009000-critical-points-and-boundary-extrema.md",
+        "sha256": "26019a57c468352b7645ef1be88ba799e22d4a2ff177b237a1bfceebc69fd940",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-critical-points-and-boundary-extrema.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-1802sc",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-009000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:010000",
+        "file": "010000-lagrange-multipliers-and-regular-constraints.md",
+        "sha256": "bc61177d54f926dfa7f9ca75fad384de354eae919b3cbba3093f87b239706e62",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-lagrange-multipliers-and-regular-constraints.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-1802sc",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-010000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:011000",
+        "file": "011000-double-integrals-and-riemann-sums.md",
+        "sha256": "0154f8d335af17bc88d3cbe88575794297b856cf82f68fe6e856c806abe08840",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-double-integrals-and-riemann-sums.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-1802sc",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-011000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:012000",
+        "file": "012000-iterated-integrals-fubini-and-tonelli.md",
+        "sha256": "5803332c317911876b0042810cd23fddd268d6bd85d7d587eb5621bdb57399a7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-iterated-integrals-fubini-and-tonelli.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-1802sc",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-012000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:013000",
+        "file": "013000-polar-cylindrical-spherical-integrals.md",
+        "sha256": "438bf5028c80cdc3c510c79a56bf076998ddb73400bfb591f038c697be4eb93f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-polar-cylindrical-spherical-integrals.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-1802sc",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-013000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:014000",
+        "file": "014000-change-of-variables-and-jacobian-determinants.md",
+        "sha256": "9969f5b87769bb6583415b6c1317a2b6e4d477c3ea3675561fc8eb8d58445633",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-change-of-variables-and-jacobian-determinants.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-18022",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-014000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

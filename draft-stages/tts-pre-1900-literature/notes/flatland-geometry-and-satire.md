@@ -1,5 +1,7 @@
 # Flatland: A Compact Literary and Mathematical Section
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 **Content range:** 048000–049000. **Work:** Edwin Abbott Abbott, *Flatland: A Romance of Many Dimensions* (1884), originally presented as written by **A Square**, its fictional narrator.
 
 ## Two-lecture structure
@@ -25,4 +27,4 @@ The section is intentionally short **relative to the full King Lear section**, a
 - Cambridge University Press, *Flatland: An Edition with Notes and Commentary*, excerpt: https://assets.cambridge.org/97805217/69884/excerpt/9780521769884_excerpt.pdf
 - Xiang Fu (Open University Mathematics Education), on *Flatland* and women's education: https://www.open.ac.uk/blogs/MathEd/index.php/2022/09/12/flatland-as-social-satire-womens-status-in-victorian-times-and-the-push-for-educational-reform-by-xiang-fu/
 
-The original can be consulted by section number (1–22) without needing a proprietary edition. The sources and claims are also linked in `metadata/048000.json` and `metadata/049000.json`. There are no binary assets or audio files in this pack.
+The original can be consulted by section number (1–22) without needing a proprietary edition. The sources and claims are also linked in `metadata/048000.json` and `metadata/048000.json`. There are no binary assets or audio files in this pack.

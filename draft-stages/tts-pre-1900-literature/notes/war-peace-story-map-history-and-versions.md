@@ -1,5 +1,7 @@
 # War and Peace — editorial map, historical sources, and translation boundaries
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 This is a **non-spoken source companion** to lectures 114000–129000. The spoken lectures are original explanatory retellings and criticism; they do not reproduce a copyrighted edition and should not be represented as an unabridged performance of the novel. There is no target duration.
 
 ## Narrative route

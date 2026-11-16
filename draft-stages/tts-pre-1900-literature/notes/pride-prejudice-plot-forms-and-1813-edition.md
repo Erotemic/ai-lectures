@@ -1,5 +1,7 @@
 # Austen: *Pride and Prejudice* — Story Map, Narrative Method, and Evidence
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 **Author:** Jane Austen. **Publication:** January 1813, anonymously, in three volumes by Thomas Egerton. **Pack lectures:** 069000–078000. **Primary text for orientation:** [University of Virginia's 1813 edition transcription](https://anthology.lib.virginia.edu/work/Austen/austen-pride), supplemented with [Project Gutenberg's 61-chapter reading text](https://www.gutenberg.org/ebooks/1342).
 
 ## Read or listen in order

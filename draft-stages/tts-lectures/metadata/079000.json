@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "079000",
-  "transcript": "079000-bounded-borel-functional-calculus.md",
+  "transcript": "079000-borel-restrictions-continuous-spectrum-and-cutoffs.md",
   "historical_claims": [],
   "related_resources": [
     {
@@ -39,6 +39,289 @@
     {
       "source_id": "wiki-functional-calculus",
       "reason": "How scalar functions become operator functions; distinguish continuous calculus from the Borel indicator construction."
+    },
+    {
+      "source_id": "wiki-spectral-theory",
+      "reason": "Context connecting finite eigenvalue calculations to operator spectral theory."
+    },
+    {
+      "source_id": "wiki-spectral-theorem",
+      "reason": "Spectral representation including operator and unbounded-operator cases."
+    },
+    {
+      "source_id": "wiki-spectrum-operator",
+      "reason": "Spectrum, resolvent set and the difference between eigenvalues and spectral points."
+    },
+    {
+      "source_id": "wiki-resolvent-set",
+      "reason": "Resolvent-set definitions and the spectral complement for closed operators."
+    },
+    {
+      "source_id": "wiki-spectral-theorem",
+      "reason": "Spectral-measure viewpoint underlying functional calculus."
+    },
+    {
+      "source_id": "wiki-resolvent-formalism",
+      "reason": "How shifted inverses encode spectral information."
+    },
+    {
+      "source_id": "bell-spectrum-decomposition",
+      "reason": "Compare spectra and resolvent decomposition beyond diagonal finite matrices."
+    },
+    {
+      "source_id": "wiki-cauchy-sequence",
+      "reason": "The Cauchy criterion and the distinction between completeness and convergence in an ambient space."
+    },
+    {
+      "source_id": "wiki-weak-convergence",
+      "reason": "An orthonormal-sequence counterexample distinguishing weak and norm convergence."
+    },
+    {
+      "source_id": "wiki-weak-op-topology",
+      "reason": "Scalar testing of operators, contrasted with norm and strong convergence."
+    },
+    {
+      "source_id": "wiki-strong-op-topology",
+      "reason": "Convergence on each fixed input as distinct from uniform operator-norm convergence."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "g2:079000",
+        "file": "079000-bounded-borel-functional-calculus.md",
+        "sha256": "6800b2e3c7ce68fd66f3257a3d5a5c4da1280791793a66b886e86a72e3e860be",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "079000",
+          "transcript": "079000-bounded-borel-functional-calculus.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "higham-matrix-function",
+              "reason": "Compare the finite-matrix functional calculus with the lecture’s operator calculus."
+            },
+            {
+              "source_id": "jordan-bell-pvm",
+              "reason": "Work through spectral measures and spectral integrals from their definitions."
+            },
+            {
+              "source_id": "teschl-qm-free",
+              "reason": "Use the full free text for spectral calculus and domains of unbounded self-adjoint operators."
+            },
+            {
+              "source_id": "wiki-finite-spectral",
+              "reason": "Diagonalization of self-adjoint matrices and multiplication-operator interpretations."
+            },
+            {
+              "source_id": "wiki-sigma-algebra",
+              "reason": "Measurable sets and the closure operations required by spectral measures."
+            },
+            {
+              "source_id": "wiki-analytic-matrix-function",
+              "reason": "Defining functions of matrices and recognizing analytic versus discontinuous functional calculus."
+            },
+            {
+              "source_id": "wiki-projection-valued-measure",
+              "reason": "Spectral projections, reducing spaces and spectral integration."
+            },
+            {
+              "source_id": "wiki-functional-calculus",
+              "reason": "How scalar functions become operator functions; distinguish continuous calculus from the Borel indicator construction."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:080000",
+        "file": "080000-measurable-spectral-restrictions.md",
+        "sha256": "2a9105ea4be6976bd4ae464da2c46bf7d4f34bdd3c9331d509f02f25dad66031",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "080000",
+          "transcript": "080000-measurable-spectral-restrictions.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "jordan-bell-pvm",
+              "reason": "Work through spectral measures and spectral integrals from their definitions."
+            },
+            {
+              "source_id": "teschl-qm-free",
+              "reason": "Use the full free text for spectral calculus and domains of unbounded self-adjoint operators."
+            },
+            {
+              "source_id": "wiki-spectral-theory",
+              "reason": "Context connecting finite eigenvalue calculations to operator spectral theory."
+            },
+            {
+              "source_id": "wiki-projection-valued-measure",
+              "reason": "Spectral projections, reducing spaces and spectral integration."
+            },
+            {
+              "source_id": "wiki-functional-calculus",
+              "reason": "How scalar functions become operator functions; distinguish continuous calculus from the Borel indicator construction."
+            },
+            {
+              "source_id": "wiki-spectral-theorem",
+              "reason": "Spectral representation including operator and unbounded-operator cases."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:080500",
+        "file": "080500-approximate-eigenvectors-and-the-continuous-spectrum.md",
+        "sha256": "c03d66e5eb46ab805b6fd07a157fbe0f56d6410b46970bb9782ebca483174a8d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "080500",
+          "transcript": "080500-approximate-eigenvectors-and-the-continuous-spectrum.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-spectrum-operator",
+              "reason": "Spectrum, resolvent set and the difference between eigenvalues and spectral points."
+            },
+            {
+              "source_id": "wiki-spectral-theorem",
+              "reason": "Spectral representation including operator and unbounded-operator cases."
+            },
+            {
+              "source_id": "wiki-resolvent-set",
+              "reason": "Resolvent-set definitions and the spectral complement for closed operators."
+            },
+            {
+              "source_id": "wiki-projection-valued-measure",
+              "reason": "Spectral projections, reducing spaces and spectral integration."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:081000",
+        "file": "081000-resolvents-from-spectral-integrals.md",
+        "sha256": "d88838dbd77e2e1052bcdf80cd33167a248ee60cb3fe90b05185ac31aff5ec3a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "081000",
+          "transcript": "081000-resolvents-from-spectral-integrals.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-spectral-theorem",
+              "reason": "Spectral-measure viewpoint underlying functional calculus."
+            },
+            {
+              "source_id": "wiki-resolvent-formalism",
+              "reason": "How shifted inverses encode spectral information."
+            },
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "higham-matrix-function",
+              "reason": "Compare the finite-matrix functional calculus with the lecture’s operator calculus."
+            },
+            {
+              "source_id": "jordan-bell-pvm",
+              "reason": "Work through spectral measures and spectral integrals from their definitions."
+            },
+            {
+              "source_id": "teschl-qm-free",
+              "reason": "Use the full free text for spectral calculus and domains of unbounded self-adjoint operators."
+            },
+            {
+              "source_id": "bell-spectrum-decomposition",
+              "reason": "Compare spectra and resolvent decomposition beyond diagonal finite matrices."
+            },
+            {
+              "source_id": "wiki-spectrum-operator",
+              "reason": "Spectrum, resolvent set and the difference between eigenvalues and spectral points."
+            },
+            {
+              "source_id": "wiki-resolvent-set",
+              "reason": "Resolvent-set definitions and the spectral complement for closed operators."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:082000",
+        "file": "082000-spectral-approximation-by-cutoffs.md",
+        "sha256": "92a162fdce9399349c265974e4c83c00823bf6f818a7a91cbb4e118ed56fdb6a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "082000",
+          "transcript": "082000-spectral-approximation-by-cutoffs.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "higham-matrix-function",
+              "reason": "Compare the finite-matrix functional calculus with the lecture’s operator calculus."
+            },
+            {
+              "source_id": "jordan-bell-pvm",
+              "reason": "Work through spectral measures and spectral integrals from their definitions."
+            },
+            {
+              "source_id": "teschl-qm-free",
+              "reason": "Use the full free text for spectral calculus and domains of unbounded self-adjoint operators."
+            },
+            {
+              "source_id": "bell-spectrum-decomposition",
+              "reason": "Compare spectra and resolvent decomposition beyond diagonal finite matrices."
+            },
+            {
+              "source_id": "wiki-cauchy-sequence",
+              "reason": "The Cauchy criterion and the distinction between completeness and convergence in an ambient space."
+            },
+            {
+              "source_id": "wiki-spectrum-operator",
+              "reason": "Spectrum, resolvent set and the difference between eigenvalues and spectral points."
+            },
+            {
+              "source_id": "wiki-weak-convergence",
+              "reason": "An orthonormal-sequence counterexample distinguishing weak and norm convergence."
+            },
+            {
+              "source_id": "wiki-weak-op-topology",
+              "reason": "Scalar testing of operators, contrasted with norm and strong convergence."
+            },
+            {
+              "source_id": "wiki-strong-op-topology",
+              "reason": "Convergence on each fixed input as distinct from uniform operator-norm convergence."
+            },
+            {
+              "source_id": "wiki-functional-calculus",
+              "reason": "How scalar functions become operator functions; distinguish continuous calculus from the Borel indicator construction."
+            },
+            {
+              "source_id": "wiki-resolvent-set",
+              "reason": "Resolvent-set definitions and the spectral complement for closed operators."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

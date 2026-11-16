@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "064000",
-  "transcript": "064000-stable-pairs-and-donaldson-thomas-theory.md",
+  "transcript": "064000-dt-pt-counts-hall-algebras-and-stability-walls.md",
   "related_resources": [
     {
       "source_id": "ab-r16-064000-1",
@@ -14,7 +14,182 @@
     {
       "source_id": "ab-r16-064000-3",
       "reason": "Reference on Stable Pairs and Donaldson–Thomas Theory: Curves as Sheaves (3 of 3)"
+    },
+    {
+      "source_id": "ab-r17-068000-1",
+      "reason": "Reference on DT/PT Wall Crossing: Two Ways to Count Curves (1 of 3)"
+    },
+    {
+      "source_id": "ab-r17-068000-2",
+      "reason": "Reference on DT/PT Wall Crossing: Two Ways to Count Curves (2 of 3)"
+    },
+    {
+      "source_id": "ab-r17-068000-3",
+      "reason": "Reference on DT/PT Wall Crossing: Two Ways to Count Curves (3 of 3)"
+    },
+    {
+      "source_id": "ab-r18-072000-1",
+      "reason": "Reference on Motivic Donaldson-Thomas Invariants and Quantum Wall Crossing (1 of 3)"
+    },
+    {
+      "source_id": "ab-r18-072000-2",
+      "reason": "Reference on Motivic Donaldson-Thomas Invariants and Quantum Wall Crossing (2 of 3)"
+    },
+    {
+      "source_id": "ab-r18-072000-3",
+      "reason": "Reference on Motivic Donaldson-Thomas Invariants and Quantum Wall Crossing (3 of 3)"
+    },
+    {
+      "source_id": "ab-r19-076000-1",
+      "reason": "Reference for Hall Algebras, Extensions, and Cluster Mutations (1 of 2)"
+    },
+    {
+      "source_id": "ab-r19-076000-2",
+      "reason": "Reference for Hall Algebras, Extensions, and Cluster Mutations (2 of 2)"
+    },
+    {
+      "source_id": "ab-r20-080000-1",
+      "reason": "Reference for Stability Conditions, Quiver Mutations, and Wall Crossing (1 of 3)"
+    },
+    {
+      "source_id": "ab-r20-080000-2",
+      "reason": "Reference for Stability Conditions, Quiver Mutations, and Wall Crossing (2 of 3)"
+    },
+    {
+      "source_id": "ab-r20-080000-3",
+      "reason": "Reference for Stability Conditions, Quiver Mutations, and Wall Crossing (3 of 3)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:064000",
+        "file": "064000-stable-pairs-and-donaldson-thomas-theory.md",
+        "sha256": "6e5e4ac067943bc0d5c945bc0f04a7f62c204477bab84f8e4cdec2ee33ec6b8c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "064000",
+          "transcript": "064000-stable-pairs-and-donaldson-thomas-theory.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r16-064000-1",
+              "reason": "Reference on Stable Pairs and Donaldson–Thomas Theory: Curves as Sheaves (1 of 3)"
+            },
+            {
+              "source_id": "ab-r16-064000-2",
+              "reason": "Reference on Stable Pairs and Donaldson–Thomas Theory: Curves as Sheaves (2 of 3)"
+            },
+            {
+              "source_id": "ab-r16-064000-3",
+              "reason": "Reference on Stable Pairs and Donaldson–Thomas Theory: Curves as Sheaves (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:068000",
+        "file": "068000-dt-pt-wall-crossing-and-curve-correspondences.md",
+        "sha256": "6dfccab3f371ccf8646150e5b1e8dbf19cd254fe148966a9dbfbb906a1cabb5d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "068000",
+          "transcript": "068000-dt-pt-wall-crossing-and-curve-correspondences.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r17-068000-1",
+              "reason": "Reference on DT/PT Wall Crossing: Two Ways to Count Curves (1 of 3)"
+            },
+            {
+              "source_id": "ab-r17-068000-2",
+              "reason": "Reference on DT/PT Wall Crossing: Two Ways to Count Curves (2 of 3)"
+            },
+            {
+              "source_id": "ab-r17-068000-3",
+              "reason": "Reference on DT/PT Wall Crossing: Two Ways to Count Curves (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:072000",
+        "file": "072000-motivic-dt-invariants-and-quantum-wall-crossing.md",
+        "sha256": "90ad5e4c9cf46ff18afa5bdab4092d651d2ffb56d3a1cb2303c02fe1141650ce",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "072000",
+          "transcript": "072000-motivic-dt-invariants-and-quantum-wall-crossing.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r18-072000-1",
+              "reason": "Reference on Motivic Donaldson-Thomas Invariants and Quantum Wall Crossing (1 of 3)"
+            },
+            {
+              "source_id": "ab-r18-072000-2",
+              "reason": "Reference on Motivic Donaldson-Thomas Invariants and Quantum Wall Crossing (2 of 3)"
+            },
+            {
+              "source_id": "ab-r18-072000-3",
+              "reason": "Reference on Motivic Donaldson-Thomas Invariants and Quantum Wall Crossing (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:076000",
+        "file": "076000-hall-algebras-and-cluster-mutations.md",
+        "sha256": "7df68aac3c5acf4775283e52b2273b95fa19be87b1f7cc8b7f04a317045a99bf",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "076000",
+          "transcript": "076000-hall-algebras-and-cluster-mutations.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r19-076000-1",
+              "reason": "Reference for Hall Algebras, Extensions, and Cluster Mutations (1 of 2)"
+            },
+            {
+              "source_id": "ab-r19-076000-2",
+              "reason": "Reference for Hall Algebras, Extensions, and Cluster Mutations (2 of 2)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:080000",
+        "file": "080000-stability-quivers-and-wall-crossing.md",
+        "sha256": "3d23189f8ff69050c1b223983b7dcec2f8f5ba6b0f814f9fa4d57ea2fb2ff6cc",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "080000",
+          "transcript": "080000-stability-quivers-and-wall-crossing.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r20-080000-1",
+              "reason": "Reference for Stability Conditions, Quiver Mutations, and Wall Crossing (1 of 3)"
+            },
+            {
+              "source_id": "ab-r20-080000-2",
+              "reason": "Reference for Stability Conditions, Quiver Mutations, and Wall Crossing (2 of 3)"
+            },
+            {
+              "source_id": "ab-r20-080000-3",
+              "reason": "Reference for Stability Conditions, Quiver Mutations, and Wall Crossing (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "048000",
-  "transcript": "048000-deformation-obstruction-complexes-in-moduli.md",
+  "transcript": "048000-derived-moduli-obstructions-and-virtual-curve-counts.md",
   "related_resources": [
     {
       "source_id": "ab-r12-048000-1",
@@ -14,7 +14,382 @@
     {
       "source_id": "ab-r12-048000-3",
       "reason": "Ext groups, cotangent complexes and moduli deformation-obstruction theory"
+    },
+    {
+      "source_id": "ab-r12-048000-1",
+      "reason": "Derived infinitesimal deformations, Maurer-Cartan equations and obstruction triangles"
+    },
+    {
+      "source_id": "ab-r12-048000-3",
+      "reason": "Derived infinitesimal deformations, Maurer-Cartan equations and obstruction triangles"
+    },
+    {
+      "source_id": "ab-r13-049000-3",
+      "reason": "Derived infinitesimal deformations, Maurer-Cartan equations and obstruction triangles"
+    },
+    {
+      "source_id": "ab-r13-052000-1",
+      "reason": "Quotient stacks, stabilizers, inertia and descent through principal bundles"
+    },
+    {
+      "source_id": "ab-r13-051000-3",
+      "reason": "Quotient stacks, stabilizers, inertia and descent through principal bundles"
+    },
+    {
+      "source_id": "ab-r13-052000-3",
+      "reason": "Quotient stacks, stabilizers, inertia and descent through principal bundles"
+    },
+    {
+      "source_id": "ab-r14-053000-1",
+      "reason": "Cotangent complexes, singularities, square-zero liftings and derived geometry"
+    },
+    {
+      "source_id": "ab-r12-048000-1",
+      "reason": "Cotangent complexes, singularities, square-zero liftings and derived geometry"
+    },
+    {
+      "source_id": "ab-r14-053000-3",
+      "reason": "Cotangent complexes, singularities, square-zero liftings and derived geometry"
+    },
+    {
+      "source_id": "ab-r14-054000-1",
+      "reason": "Derived fiber products, Tor-independent intersections and excess homology"
+    },
+    {
+      "source_id": "ab-r14-054000-2",
+      "reason": "Derived fiber products, Tor-independent intersections and excess homology"
+    },
+    {
+      "source_id": "ab-r14-053000-3",
+      "reason": "Derived fiber products, Tor-independent intersections and excess homology"
+    },
+    {
+      "source_id": "ab-r14-055000-1",
+      "reason": "Perfect complexes, Ext self-deformations, automorphisms and moduli stacks"
+    },
+    {
+      "source_id": "ab-r14-055000-2",
+      "reason": "Perfect complexes, Ext self-deformations, automorphisms and moduli stacks"
+    },
+    {
+      "source_id": "ab-r14-055000-3",
+      "reason": "Perfect complexes, Ext self-deformations, automorphisms and moduli stacks"
+    },
+    {
+      "source_id": "ab-r14-056000-1",
+      "reason": "Virtual fundamental classes, intersection theory and perfect obstruction theories"
+    },
+    {
+      "source_id": "ab-r14-054000-2",
+      "reason": "Virtual fundamental classes, intersection theory and perfect obstruction theories"
+    },
+    {
+      "source_id": "ab-r14-053000-3",
+      "reason": "Virtual fundamental classes, intersection theory and perfect obstruction theories"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:048000",
+        "file": "048000-complexes-riemann-roch-and-moduli-obstructions-shared-core.md",
+        "sha256": "39be526317954141d4d03edad9fc5632d7df48d7231c6489892960f421b15054",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "048000",
+          "transcript": "048000-complexes-riemann-roch-and-moduli-obstructions-shared-core.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r12-048000-1",
+              "reason": "Ext groups, cotangent complexes and moduli deformation-obstruction theory"
+            },
+            {
+              "source_id": "ab-r12-048000-2",
+              "reason": "Ext groups, cotangent complexes and moduli deformation-obstruction theory"
+            },
+            {
+              "source_id": "ab-r12-048000-3",
+              "reason": "Ext groups, cotangent complexes and moduli deformation-obstruction theory"
+            },
+            {
+              "source_id": "ab-r12-048000-1",
+              "reason": "Derived infinitesimal deformations, Maurer-Cartan equations and obstruction triangles"
+            },
+            {
+              "source_id": "ab-r12-048000-3",
+              "reason": "Derived infinitesimal deformations, Maurer-Cartan equations and obstruction triangles"
+            },
+            {
+              "source_id": "ab-r13-049000-3",
+              "reason": "Derived infinitesimal deformations, Maurer-Cartan equations and obstruction triangles"
+            }
+          ],
+          "historical_claims": [],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "abstract-algebra:048000",
+                "file": "048000-deformation-obstruction-complexes-in-moduli.md",
+                "sha256": "de870007d69638af7d5b197257c61f59ca5c180ced321ae8374aea6f94fcc930",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "048000",
+                  "transcript": "048000-deformation-obstruction-complexes-in-moduli.md",
+                  "related_resources": [
+                    {
+                      "source_id": "ab-r12-048000-1",
+                      "reason": "Ext groups, cotangent complexes and moduli deformation-obstruction theory"
+                    },
+                    {
+                      "source_id": "ab-r12-048000-2",
+                      "reason": "Ext groups, cotangent complexes and moduli deformation-obstruction theory"
+                    },
+                    {
+                      "source_id": "ab-r12-048000-3",
+                      "reason": "Ext groups, cotangent complexes and moduli deformation-obstruction theory"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "abstract-algebra:049000",
+                "file": "049000-derived-deformation-theory-and-obstruction-triangles.md",
+                "sha256": "77c5d146965c28886b66c3fa504f66eeac726514e029a91356e823cb29f122cd",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "049000",
+                  "transcript": "049000-derived-deformation-theory-and-obstruction-triangles.md",
+                  "related_resources": [
+                    {
+                      "source_id": "ab-r12-048000-1",
+                      "reason": "Derived infinitesimal deformations, Maurer-Cartan equations and obstruction triangles"
+                    },
+                    {
+                      "source_id": "ab-r12-048000-3",
+                      "reason": "Derived infinitesimal deformations, Maurer-Cartan equations and obstruction triangles"
+                    },
+                    {
+                      "source_id": "ab-r13-049000-3",
+                      "reason": "Derived infinitesimal deformations, Maurer-Cartan equations and obstruction triangles"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "abstract-algebra:052000",
+        "file": "052000-quotient-stacks-stabilizers-and-inertia.md",
+        "sha256": "068a24fc19316b8c39ee9364d57a77c4cad1bf27e2e05ee0125154a219dedd83",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "052000",
+          "transcript": "052000-quotient-stacks-stabilizers-and-inertia.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r13-052000-1",
+              "reason": "Quotient stacks, stabilizers, inertia and descent through principal bundles"
+            },
+            {
+              "source_id": "ab-r13-051000-3",
+              "reason": "Quotient stacks, stabilizers, inertia and descent through principal bundles"
+            },
+            {
+              "source_id": "ab-r13-052000-3",
+              "reason": "Quotient stacks, stabilizers, inertia and descent through principal bundles"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:053000",
+        "file": "053000-cotangent-complexes-derived-intersections-and-virtual-counts.md",
+        "sha256": "f1334fc977d01a93d0f81df20fe16bc97366e6e48be929b1ef4ae4dca45da9c1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "053000",
+          "transcript": "053000-cotangent-complexes-derived-intersections-and-virtual-counts.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r14-053000-1",
+              "reason": "Cotangent complexes, singularities, square-zero liftings and derived geometry"
+            },
+            {
+              "source_id": "ab-r12-048000-1",
+              "reason": "Cotangent complexes, singularities, square-zero liftings and derived geometry"
+            },
+            {
+              "source_id": "ab-r14-053000-3",
+              "reason": "Cotangent complexes, singularities, square-zero liftings and derived geometry"
+            },
+            {
+              "source_id": "ab-r14-054000-1",
+              "reason": "Derived fiber products, Tor-independent intersections and excess homology"
+            },
+            {
+              "source_id": "ab-r14-054000-2",
+              "reason": "Derived fiber products, Tor-independent intersections and excess homology"
+            },
+            {
+              "source_id": "ab-r14-053000-3",
+              "reason": "Derived fiber products, Tor-independent intersections and excess homology"
+            },
+            {
+              "source_id": "ab-r14-055000-1",
+              "reason": "Perfect complexes, Ext self-deformations, automorphisms and moduli stacks"
+            },
+            {
+              "source_id": "ab-r14-055000-2",
+              "reason": "Perfect complexes, Ext self-deformations, automorphisms and moduli stacks"
+            },
+            {
+              "source_id": "ab-r14-055000-3",
+              "reason": "Perfect complexes, Ext self-deformations, automorphisms and moduli stacks"
+            },
+            {
+              "source_id": "ab-r14-056000-1",
+              "reason": "Virtual fundamental classes, intersection theory and perfect obstruction theories"
+            },
+            {
+              "source_id": "ab-r14-054000-2",
+              "reason": "Virtual fundamental classes, intersection theory and perfect obstruction theories"
+            },
+            {
+              "source_id": "ab-r14-053000-3",
+              "reason": "Virtual fundamental classes, intersection theory and perfect obstruction theories"
+            }
+          ],
+          "historical_claims": [],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "abstract-algebra:053000",
+                "file": "053000-cotangent-complex-and-derived-geometry.md",
+                "sha256": "588aaf33f504bd450af8234e63e41dd99bdc2cf3a0421e18cdf410d1740f68a9",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "053000",
+                  "transcript": "053000-cotangent-complex-and-derived-geometry.md",
+                  "related_resources": [
+                    {
+                      "source_id": "ab-r14-053000-1",
+                      "reason": "Cotangent complexes, singularities, square-zero liftings and derived geometry"
+                    },
+                    {
+                      "source_id": "ab-r12-048000-1",
+                      "reason": "Cotangent complexes, singularities, square-zero liftings and derived geometry"
+                    },
+                    {
+                      "source_id": "ab-r14-053000-3",
+                      "reason": "Cotangent complexes, singularities, square-zero liftings and derived geometry"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "abstract-algebra:054000",
+                "file": "054000-derived-intersections-and-tor.md",
+                "sha256": "6ed85aaf4db6cbcdaf3bc4ce209d325c56d185586dc8a0c4f4cce2629d741366",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "054000",
+                  "transcript": "054000-derived-intersections-and-tor.md",
+                  "related_resources": [
+                    {
+                      "source_id": "ab-r14-054000-1",
+                      "reason": "Derived fiber products, Tor-independent intersections and excess homology"
+                    },
+                    {
+                      "source_id": "ab-r14-054000-2",
+                      "reason": "Derived fiber products, Tor-independent intersections and excess homology"
+                    },
+                    {
+                      "source_id": "ab-r14-053000-3",
+                      "reason": "Derived fiber products, Tor-independent intersections and excess homology"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "abstract-algebra:055000",
+                "file": "055000-derived-moduli-of-perfect-complexes.md",
+                "sha256": "a305dd6b35caa9b149a7c52fecd0c2c0c54058d9fa523d6ce05d3deb520b488f",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "055000",
+                  "transcript": "055000-derived-moduli-of-perfect-complexes.md",
+                  "related_resources": [
+                    {
+                      "source_id": "ab-r14-055000-1",
+                      "reason": "Perfect complexes, Ext self-deformations, automorphisms and moduli stacks"
+                    },
+                    {
+                      "source_id": "ab-r14-055000-2",
+                      "reason": "Perfect complexes, Ext self-deformations, automorphisms and moduli stacks"
+                    },
+                    {
+                      "source_id": "ab-r14-055000-3",
+                      "reason": "Perfect complexes, Ext self-deformations, automorphisms and moduli stacks"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "abstract-algebra:056000",
+                "file": "056000-virtual-fundamental-classes.md",
+                "sha256": "cf322c88e853de8f80084cc30f82955e4d79afa8245b3272a648fa10607b92db",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "056000",
+                  "transcript": "056000-virtual-fundamental-classes.md",
+                  "related_resources": [
+                    {
+                      "source_id": "ab-r14-056000-1",
+                      "reason": "Virtual fundamental classes, intersection theory and perfect obstruction theories"
+                    },
+                    {
+                      "source_id": "ab-r14-054000-2",
+                      "reason": "Virtual fundamental classes, intersection theory and perfect obstruction theories"
+                    },
+                    {
+                      "source_id": "ab-r14-053000-3",
+                      "reason": "Virtual fundamental classes, intersection theory and perfect obstruction theories"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
 }

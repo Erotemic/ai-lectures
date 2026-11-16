@@ -1,5 +1,7 @@
 # Journey to the West — expanded literary retelling, chapters 16–17
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## Listening sequence and continuity
 
 This installment adds IDs **476000–483000**, continuing from the end of 475000. The title and route in the source pack have been updated through chapter 17. The existing World History six-part survey remains separate. The original plot and voice are drawn from the selected Chinese Wikisource witness, and the English text is newly written narrative prose, not a modern English translation.

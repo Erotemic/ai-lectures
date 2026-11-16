@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "053000",
-  "transcript": "053000-cahokia-mississippian-world.md",
+  "transcript": "053000-eastern-north-america-towns-seasonal-work-villages-and-relations.md",
   "related_resources": [
     {
       "source_id": "gap-cah-unesco",
@@ -32,6 +32,76 @@
       "source_id": "gap-cah-osage",
       "reason": "Osage accounts and analysis of cultural relationships with Mississippi Valley mound traditions; not a license to assign all Cahokia residents one modern identity.",
       "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-mv-ua",
+      "reason": "Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-mv-ency",
+      "reason": "Settlement, maize, occupations, construction, burials and shifting population; estimates and elite interpretations are reconstructive.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-mv-tribal",
+      "reason": "Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-mv-blitz",
+      "reason": "Specialist four-phase occupation chronology and social-memory interpretation; only abstract publicly reviewed.",
+      "access_scope": "abstract_or_excerpt_reviewed"
+    },
+    {
+      "source_id": "g3-mv-exhibit",
+      "reason": "Current Seminole co-curation and continuities of craft and culture; not independent proof of individual ancient genealogies.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g2-gl-ont",
+      "reason": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g2-gl-copper",
+      "reason": "Copper-tool types, processing and early chronology in Great Lakes sites; object distribution does not identify the language or political identity of makers.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g2-gl-hopewell",
+      "reason": "Chronology and characteristics of Ohio earthworks and distant raw materials; the modern Hopewell category is not an Indigenous self-designation.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g2-gl-nps",
+      "reason": "Archaeological labels, early excavations and colonial displacement affecting evidence; not a source for specific Great Lakes group identities.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g2-gl-maize",
+      "reason": "Five direct AMS dates at one Ontario site, calibrated circa 540–1030 CE; presence is not proof of region-wide dependence or identical farming practices.",
+      "access_scope": "abstract_or_summary_reviewed"
+    },
+    {
+      "source_id": "g2-ne-nysm",
+      "reason": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g2-ne-jemison",
+      "reason": "Named Haudenosaunee account of the Peacemaker and Great Law; oral constitutional history is not by itself a precise archaeological founding date.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g2-ne-confed",
+      "reason": "Specialist comparison of Northern Iroquoian alliances and local autonomy; comparative interpretation, not authoritative replacement for nations’ own constitutions.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g2-ne-wendat",
+      "reason": "Scholarly regional archaeology and cautions distinguishing Wendat, Iroquoian linguistic group, and Haudenosaunee politics; introductory public excerpt reviewed, not entire PDF.",
+      "access_scope": "abstract_or_summary_reviewed"
     }
   ],
   "historical_claims": [
@@ -205,6 +275,1356 @@
       "source_locator": "UNESCO World Heritage Centre, Cahokia Mounds State Historic Site; Osage Nation, Osage Cultural History (Historic Preservation)",
       "audit_status": "source_scope_and_limits_mapped",
       "source_limitations": "Site, chronology, mounds, plazas and approximate peak population; official heritage estimates and classifications remain interpretive. Osage accounts and analysis of cultural relationships with Mississippi Valley mound traditions; not a license to assign all Cahokia residents one modern identity."
+    },
+    {
+      "id": "067000-p01",
+      "anchor": "On a bluff above the Black Warrior River in present-day Alabama, an immense open",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-mv-ua",
+        "g3-mv-ency"
+      ],
+      "source_locator": "University of Alabama Museums, Moundville Archaeological Park, Ancient Site; Vernon James Knight and Encyclopedia of Alabama, Moundville Archaeological Park",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research. Settlement, maize, occupations, construction, burials and shifting population; estimates and elite interpretations are reconstructive."
+    },
+    {
+      "id": "067000-p02",
+      "anchor": "The name Mississippian is an archaeological convention for related but varied so",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-mv-tribal"
+      ],
+      "source_locator": "Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census."
+    },
+    {
+      "id": "067000-p03",
+      "anchor": "Consider the geography of the Black Warrior Valley. The river connected settleme",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-mv-ua"
+      ],
+      "source_locator": "University of Alabama Museums, Moundville Archaeological Park, Ancient Site",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research."
+    },
+    {
+      "id": "067000-p04",
+      "anchor": "Archaeologists distinguish several phases rather than one timeless Moundville. J",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-mv-blitz",
+        "g3-mv-ua"
+      ],
+      "source_locator": "John H. Blitz, Moundville in the Mississippian World, Oxford Handbook of North American Archaeology (2012); University of Alabama Museums, Moundville Archaeological Park, Ancient Site",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Specialist four-phase occupation chronology and social-memory interpretation; only abstract publicly reviewed. Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research."
+    },
+    {
+      "id": "067000-p05",
+      "anchor": "Look at the design. Earthen platforms surround the plaza in a deliberate arrange",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-mv-ua",
+        "g3-mv-tribal"
+      ],
+      "source_locator": "University of Alabama Museums, Moundville Archaeological Park, Ancient Site; Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research. Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census."
+    },
+    {
+      "id": "067000-p06",
+      "anchor": "The placement and height of the mounds have led archaeologists to investigate ra",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-mv-ency",
+        "g3-mv-blitz"
+      ],
+      "source_locator": "Vernon James Knight and Encyclopedia of Alabama, Moundville Archaeological Park; John H. Blitz, Moundville in the Mississippian World, Oxford Handbook of North American Archaeology (2012)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Settlement, maize, occupations, construction, burials and shifting population; estimates and elite interpretations are reconstructive. Specialist four-phase occupation chronology and social-memory interpretation; only abstract publicly reviewed."
+    },
+    {
+      "id": "067000-p07",
+      "anchor": "Food production makes these distinctions concrete. Maize was an important crop, ",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-mv-ency"
+      ],
+      "source_locator": "Vernon James Knight and Encyclopedia of Alabama, Moundville Archaeological Park",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Settlement, maize, occupations, construction, burials and shifting population; estimates and elite interpretations are reconstructive."
+    },
+    {
+      "id": "067000-p08",
+      "anchor": "Moundville's artisans left pottery, stone objects, copper ornaments, and worked ",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-mv-ency",
+        "g3-mv-tribal"
+      ],
+      "source_locator": "Vernon James Knight and Encyclopedia of Alabama, Moundville Archaeological Park; Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Settlement, maize, occupations, construction, burials and shifting population; estimates and elite interpretations are reconstructive. Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census."
+    },
+    {
+      "id": "067000-p09",
+      "anchor": "Art created at Moundville includes recurring beings and signs: birds, serpents, ",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-mv-tribal"
+      ],
+      "source_locator": "Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census."
+    },
+    {
+      "id": "067000-p10",
+      "anchor": "Burial sites reveal another change. During later centuries, portions of Moundvil",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-mv-ua",
+        "g3-mv-blitz"
+      ],
+      "source_locator": "University of Alabama Museums, Moundville Archaeological Park, Ancient Site; John H. Blitz, Moundville in the Mississippian World, Oxford Handbook of North American Archaeology (2012)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research. Specialist four-phase occupation chronology and social-memory interpretation; only abstract publicly reviewed."
+    },
+    {
+      "id": "067000-p11",
+      "anchor": "The site's excavation history is also part of the story. Early Euro-American exp",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-mv-tribal",
+        "g3-mv-exhibit"
+      ],
+      "source_locator": "Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities; Moundville Archaeological Park, The Home of Our Ancestors exhibit co-curated by Jake Tiger (2026)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census. Current Seminole co-curation and continuities of craft and culture; not independent proof of individual ancient genealogies."
+    },
+    {
+      "id": "067000-p12",
+      "anchor": "A collaborative account is not simply a replacement of one authority by another.",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-mv-tribal",
+        "g3-mv-exhibit"
+      ],
+      "source_locator": "Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities; Moundville Archaeological Park, The Home of Our Ancestors exhibit co-curated by Jake Tiger (2026)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census. Current Seminole co-curation and continuities of craft and culture; not independent proof of individual ancient genealogies."
+    },
+    {
+      "id": "067000-p13",
+      "anchor": "Moundville also teaches us to read decline with precision. A reduced permanent p",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-mv-blitz",
+        "g3-mv-ua"
+      ],
+      "source_locator": "John H. Blitz, Moundville in the Mississippian World, Oxford Handbook of North American Archaeology (2012); University of Alabama Museums, Moundville Archaeological Park, Ancient Site",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Specialist four-phase occupation chronology and social-memory interpretation; only abstract publicly reviewed. Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research."
+    },
+    {
+      "id": "067000-p14",
+      "anchor": "Return, finally, to the plaza. Its level surface depended on earth carried by ma",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-mv-ua",
+        "g3-mv-tribal"
+      ],
+      "source_locator": "University of Alabama Museums, Moundville Archaeological Park, Ancient Site; Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research. Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census."
+    },
+    {
+      "id": "059000-p01",
+      "anchor": "Imagine traveling along the Great Lakes without a modern road or a national bord",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-ont"
+      ],
+      "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "059000-p02",
+      "anchor": "One of the region's most striking archaeological materials is native copper. Aro",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-copper"
+      ],
+      "source_locator": "Milwaukee Public Museum, Old Copper Culture",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Copper-tool types, processing and early chronology in Great Lakes sites; object distribution does not identify the language or political identity of makers."
+    },
+    {
+      "id": "059000-p03",
+      "anchor": "The tools pose practical questions. A copper fishhook had to be shaped for use i",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-copper",
+        "g2-gl-ont"
+      ],
+      "source_locator": "Milwaukee Public Museum, Old Copper Culture; Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Copper-tool types, processing and early chronology in Great Lakes sites; object distribution does not identify the language or political identity of makers. Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "059000-p04",
+      "anchor": "Even the shoreline itself changed. The great ice sheets left behind lakes that a",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-ont"
+      ],
+      "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "059000-p05",
+      "anchor": "Fishing connected ecology with decisions made by households. Sturgeon gather nea",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-ont"
+      ],
+      "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "059000-p06",
+      "anchor": "Archaeologists have divided these long periods into what they call Archaic and W",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-ont"
+      ],
+      "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "059000-p07",
+      "anchor": "Burial places and ceremonial landscapes also reveal that the region's lives invo",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-ont",
+        "g2-gl-hopewell"
+      ],
+      "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology; UNESCO World Heritage Centre, Hopewell Ceremonial Earthworks",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating. Chronology and characteristics of Ohio earthworks and distant raw materials; the modern Hopewell category is not an Indigenous self-designation."
+    },
+    {
+      "id": "059000-p08",
+      "anchor": "The extraordinary earthworks built in the Ohio River valleys between roughly two",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-hopewell",
+        "g2-gl-nps"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Hopewell Ceremonial Earthworks; US National Park Service, Hopewell Earthworks",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Chronology and characteristics of Ohio earthworks and distant raw materials; the modern Hopewell category is not an Indigenous self-designation. Archaeological labels, early excavations and colonial displacement affecting evidence; not a source for specific Great Lakes group identities."
+    },
+    {
+      "id": "059000-p09",
+      "anchor": "Agriculture reached different shores at different times. Directly dated corn rem",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-maize",
+        "g2-gl-ont"
+      ],
+      "source_locator": "Gary W. Crawford, David G. Smith and Vandy E. Bowyer, Dating the Entry of Corn into the Lower Great Lakes Region (American Antiquity, 1997); Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Five direct AMS dates at one Ontario site, calibrated circa 540–1030 CE; presence is not proof of region-wide dependence or identical farming practices. Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "059000-p10",
+      "anchor": "This variation becomes clearer if we resist treating farming as the endpoint of ",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-ont"
+      ],
+      "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "059000-p11",
+      "anchor": "Around the turn of the second millennium, village landscapes in southern parts o",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-ont"
+      ],
+      "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "059000-p12",
+      "anchor": "The identities of later Indigenous nations matter to this story. Anishinaabe, We",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-ont",
+        "g2-ne-nysm"
+      ],
+      "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology; New York State Museum, Mohawk Haudenosaunee Longhouse",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating. Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries."
+    },
+    {
+      "id": "059000-p13",
+      "anchor": "The Great Lakes were also a place where power and conflict changed. Fortified se",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-ont"
+      ],
+      "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "059000-p14",
+      "anchor": "What survives is shaped by later history too. Colonial expansion, removal, colle",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-nps",
+        "g2-gl-ont"
+      ],
+      "source_locator": "US National Park Service, Hopewell Earthworks; Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaeological labels, early excavations and colonial displacement affecting evidence; not a source for specific Great Lakes group identities. Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "059000-p15",
+      "anchor": "Before fifteen hundred, the Great Lakes connected societies with different ways ",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-ont",
+        "g2-gl-copper"
+      ],
+      "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology; Milwaukee Public Museum, Old Copper Culture",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating. Copper-tool types, processing and early chronology in Great Lakes sites; object distribution does not identify the language or political identity of makers."
+    },
+    {
+      "id": "060000-p01",
+      "anchor": "A longhouse is more than a building large enough to shelter many people. Its len",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-ne-nysm",
+        "g2-gl-ont"
+      ],
+      "source_locator": "New York State Museum, Mohawk Haudenosaunee Longhouse; Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries. Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "060000-p02",
+      "anchor": "Consider what an excavated village can show. Posts once set into the soil leave ",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-ne-nysm"
+      ],
+      "source_locator": "New York State Museum, Mohawk Haudenosaunee Longhouse",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries."
+    },
+    {
+      "id": "060000-p03",
+      "anchor": "Food connects the longhouse to the fields and waterways outside. By the later ce",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-maize",
+        "g2-gl-ont"
+      ],
+      "source_locator": "Gary W. Crawford, David G. Smith and Vandy E. Bowyer, Dating the Entry of Corn into the Lower Great Lakes Region (American Antiquity, 1997); Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Five direct AMS dates at one Ontario site, calibrated circa 540–1030 CE; presence is not proof of region-wide dependence or identical farming practices. Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "060000-p04",
+      "anchor": "A shared house helped organize shared work, but archaeological dimensions cannot",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-ne-nysm"
+      ],
+      "source_locator": "New York State Museum, Mohawk Haudenosaunee Longhouse",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries."
+    },
+    {
+      "id": "060000-p05",
+      "anchor": "The northeast's political history includes the Haudenosaunee Confederacy, tradit",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-ne-jemison",
+        "g2-ne-nysm"
+      ],
+      "source_locator": "Smithsonian Archives of American Art, Oral history interview with G. Peter Jemison (2021); New York State Museum, Mohawk Haudenosaunee Longhouse",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Named Haudenosaunee account of the Peacemaker and Great Law; oral constitutional history is not by itself a precise archaeological founding date. Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries."
+    },
+    {
+      "id": "060000-p06",
+      "anchor": "The exact founding date of the Confederacy remains debated in academic chronolog",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-ne-confed",
+        "g2-ne-jemison"
+      ],
+      "source_locator": "Premodern Confederacies: Balancing Strategic Collective Action and Local Autonomy (Frontiers in Political Science, 2022); Smithsonian Archives of American Art, Oral history interview with G. Peter Jemison (2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Specialist comparison of Northern Iroquoian alliances and local autonomy; comparative interpretation, not authoritative replacement for nations’ own constitutions. Named Haudenosaunee account of the Peacemaker and Great Law; oral constitutional history is not by itself a precise archaeological founding date."
+    },
+    {
+      "id": "060000-p07",
+      "anchor": "It is also important not to confuse Haudenosaunee with every people speaking an ",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-ne-wendat",
+        "g2-gl-ont"
+      ],
+      "source_locator": "Archaeological History of the Wendat to AD 1651 (2015); Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Scholarly regional archaeology and cautions distinguishing Wendat, Iroquoian linguistic group, and Haudenosaunee politics; introductory public excerpt reviewed, not entire PDF. Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "060000-p08",
+      "anchor": "Many settlements were protected by palisades. Defensive walls required enormous ",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-ont"
+      ],
+      "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "060000-p09",
+      "anchor": "Households were connected across villages through visits, exchange, marriage, ce",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-ne-confed",
+        "g2-ne-nysm"
+      ],
+      "source_locator": "Premodern Confederacies: Balancing Strategic Collective Action and Local Autonomy (Frontiers in Political Science, 2022); New York State Museum, Mohawk Haudenosaunee Longhouse",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Specialist comparison of Northern Iroquoian alliances and local autonomy; comparative interpretation, not authoritative replacement for nations’ own constitutions. Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries."
+    },
+    {
+      "id": "060000-p10",
+      "anchor": "Not every northeastern community lived in an agricultural longhouse village. Acr",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-gl-ont"
+      ],
+      "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+    },
+    {
+      "id": "060000-p11",
+      "anchor": "The sources that describe this region changed dramatically after fifteen hundred",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-ne-nysm"
+      ],
+      "source_locator": "New York State Museum, Mohawk Haudenosaunee Longhouse",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries."
+    },
+    {
+      "id": "060000-p12",
+      "anchor": "Even the language of the historian deserves attention. Calling a village a prehi",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-ne-nysm",
+        "g2-ne-jemison"
+      ],
+      "source_locator": "New York State Museum, Mohawk Haudenosaunee Longhouse; Smithsonian Archives of American Art, Oral history interview with G. Peter Jemison (2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries. Named Haudenosaunee account of the Peacemaker and Great Law; oral constitutional history is not by itself a precise archaeological founding date."
+    },
+    {
+      "id": "060000-p13",
+      "anchor": "The political significance of the longhouse becomes clearer if we return to the ",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-ne-nysm",
+        "g2-ne-confed"
+      ],
+      "source_locator": "New York State Museum, Mohawk Haudenosaunee Longhouse; Premodern Confederacies: Balancing Strategic Collective Action and Local Autonomy (Frontiers in Political Science, 2022)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries. Specialist comparison of Northern Iroquoian alliances and local autonomy; comparative interpretation, not authoritative replacement for nations’ own constitutions."
+    },
+    {
+      "id": "060000-p14",
+      "anchor": "By fifteen hundred the northeast contained communities with substantial agricult",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-ne-nysm",
+        "g2-ne-confed"
+      ],
+      "source_locator": "New York State Museum, Mohawk Haudenosaunee Longhouse; Premodern Confederacies: Balancing Strategic Collective Action and Local Autonomy (Frontiers in Political Science, 2022)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries. Specialist comparison of Northern Iroquoian alliances and local autonomy; comparative interpretation, not authoritative replacement for nations’ own constitutions."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "ancient-medieval-world:053000",
+        "file": "053000-cahokia-mississippian-world.md",
+        "sha256": "ea95690a6035dd3c540deed113e87d02cebdaa03fb0d5f71c85b990db73dcfab",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "053000",
+          "transcript": "053000-cahokia-mississippian-world.md",
+          "related_resources": [
+            {
+              "source_id": "gap-cah-unesco",
+              "reason": "Site, chronology, mounds, plazas and approximate peak population; official heritage estimates and classifications remain interpretive.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "gap-cah-nps",
+              "reason": "Site layout, residential areas and scale; visitor overview cannot identify undocumented leaders or individual labor obligations.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "gap-cah-timber",
+              "reason": "Dendrochronological and isotopic results for one marker post, dated c.1124 CE and sourced beyond local area; one object cannot map every exchange route.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "gap-cah-name",
+              "reason": "Reports disputed interpretation and later origin of site name Cahokia; secondary journalistic synthesis, not original excavation.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "gap-cah-hydro",
+              "reason": "Lake sediment proxies and possible climatic stress; associations are not a uniquely established cause of social change.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "gap-cah-osage",
+              "reason": "Osage accounts and analysis of cultural relationships with Mississippi Valley mound traditions; not a license to assign all Cahokia residents one modern identity.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "053000-p01",
+              "anchor": "Imagine a settlement large enough to require coordinated streets, public spaces,",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-unesco"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Cahokia Mounds State Historic Site",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site, chronology, mounds, plazas and approximate peak population; official heritage estimates and classifications remain interpretive."
+            },
+            {
+              "id": "053000-p02",
+              "anchor": "The settlement stood in the American Bottom, a broad Mississippi floodplain near",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-unesco",
+                "gap-cah-nps"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Cahokia Mounds State Historic Site; US National Park Service, Cahokia Mounds State Historic Site: World Heritage Site",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site, chronology, mounds, plazas and approximate peak population; official heritage estimates and classifications remain interpretive. Site layout, residential areas and scale; visitor overview cannot identify undocumented leaders or individual labor obligations."
+            },
+            {
+              "id": "053000-p03",
+              "anchor": "Cahokia was already part of a changing landscape when its most dramatic construc",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-nps",
+                "gap-cah-unesco"
+              ],
+              "source_locator": "US National Park Service, Cahokia Mounds State Historic Site: World Heritage Site; UNESCO World Heritage Centre, Cahokia Mounds State Historic Site",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site layout, residential areas and scale; visitor overview cannot identify undocumented leaders or individual labor obligations. Site, chronology, mounds, plazas and approximate peak population; official heritage estimates and classifications remain interpretive."
+            },
+            {
+              "id": "053000-p04",
+              "anchor": "At the center stands Monks Mound, a vast platform constructed in stages from tra",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-unesco"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Cahokia Mounds State Historic Site",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site, chronology, mounds, plazas and approximate peak population; official heritage estimates and classifications remain interpretive."
+            },
+            {
+              "id": "053000-p05",
+              "anchor": "Cahokia's public landscape also included timber circles, often called woodhenges",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-unesco"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Cahokia Mounds State Historic Site",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site, chronology, mounds, plazas and approximate peak population; official heritage estimates and classifications remain interpretive."
+            },
+            {
+              "id": "053000-p06",
+              "anchor": "Food production sustained the concentration of people. Maize was central to Miss",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-nps"
+              ],
+              "source_locator": "US National Park Service, Cahokia Mounds State Historic Site: World Heritage Site",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site layout, residential areas and scale; visitor overview cannot identify undocumented leaders or individual labor obligations."
+            },
+            {
+              "id": "053000-p07",
+              "anchor": "The estimate commonly given for Cahokia's peak population is about ten to twenty",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-unesco",
+                "gap-cah-nps"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Cahokia Mounds State Historic Site; US National Park Service, Cahokia Mounds State Historic Site: World Heritage Site",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site, chronology, mounds, plazas and approximate peak population; official heritage estimates and classifications remain interpretive. Site layout, residential areas and scale; visitor overview cannot identify undocumented leaders or individual labor obligations."
+            },
+            {
+              "id": "053000-p08",
+              "anchor": "Material found at Cahokia and related sites shows that contacts extended far bey",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-timber"
+              ],
+              "source_locator": "Age and Origin of a Cahokian Wooden Monument at the Mitchell Site, Illinois (2025)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dendrochronological and isotopic results for one marker post, dated c.1124 CE and sourced beyond local area; one object cannot map every exchange route."
+            },
+            {
+              "id": "053000-p09",
+              "anchor": "The social structure of Cahokia is debated. Archaeologists identify differences ",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-unesco",
+                "gap-cah-name"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Cahokia Mounds State Historic Site; National Geographic History, This American Indian Metropolis Was Mysteriously Abandoned (2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site, chronology, mounds, plazas and approximate peak population; official heritage estimates and classifications remain interpretive. Reports disputed interpretation and later origin of site name Cahokia; secondary journalistic synthesis, not original excavation."
+            },
+            {
+              "id": "053000-p10",
+              "anchor": "The settlement also belongs to a wider world of communities that were not simply",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-nps"
+              ],
+              "source_locator": "US National Park Service, Cahokia Mounds State Historic Site: World Heritage Site",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site layout, residential areas and scale; visitor overview cannot identify undocumented leaders or individual labor obligations."
+            },
+            {
+              "id": "053000-p11",
+              "anchor": "As the centuries passed, Cahokia changed substantially. Monument building slowed",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-hydro"
+              ],
+              "source_locator": "Fecal Stanols Show Simultaneous Flooding and Seasonal Precipitation Change Correlate with Cahokia’s Population Decline (2019)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Lake sediment proxies and possible climatic stress; associations are not a uniquely established cause of social change."
+            },
+            {
+              "id": "053000-p12",
+              "anchor": "A community can reorganize without its members vanishing. Residents and descenda",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-osage",
+                "gap-cah-name"
+              ],
+              "source_locator": "Osage Nation, Osage Cultural History (Historic Preservation); National Geographic History, This American Indian Metropolis Was Mysteriously Abandoned (2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Osage accounts and analysis of cultural relationships with Mississippi Valley mound traditions; not a license to assign all Cahokia residents one modern identity. Reports disputed interpretation and later origin of site name Cahokia; secondary journalistic synthesis, not original excavation."
+            },
+            {
+              "id": "053000-p13",
+              "anchor": "Even the name Cahokia requires care. It comes from a later Indigenous name assoc",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-name"
+              ],
+              "source_locator": "National Geographic History, This American Indian Metropolis Was Mysteriously Abandoned (2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Reports disputed interpretation and later origin of site name Cahokia; secondary journalistic synthesis, not original excavation."
+            },
+            {
+              "id": "053000-p14",
+              "anchor": "The earthworks have also had a modern history. Farming, construction, and the gr",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-nps"
+              ],
+              "source_locator": "US National Park Service, Cahokia Mounds State Historic Site: World Heritage Site",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site layout, residential areas and scale; visitor overview cannot identify undocumented leaders or individual labor obligations."
+            },
+            {
+              "id": "053000-p15",
+              "anchor": "Cahokia changes the questions we ask about city life. Its builders did not need ",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-cah-unesco",
+                "gap-cah-osage"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Cahokia Mounds State Historic Site; Osage Nation, Osage Cultural History (Historic Preservation)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site, chronology, mounds, plazas and approximate peak population; official heritage estimates and classifications remain interpretive. Osage accounts and analysis of cultural relationships with Mississippi Valley mound traditions; not a license to assign all Cahokia residents one modern identity."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:067000",
+        "file": "067000-moundville-black-warrior.md",
+        "sha256": "ce135668a301cdc5d89e0232573d989ec099386c770bdb3caf877b03fc5bb85f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "067000",
+          "transcript": "067000-moundville-black-warrior.md",
+          "related_resources": [
+            {
+              "source_id": "g3-mv-ua",
+              "reason": "Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-mv-ency",
+              "reason": "Settlement, maize, occupations, construction, burials and shifting population; estimates and elite interpretations are reconstructive.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-mv-tribal",
+              "reason": "Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-mv-blitz",
+              "reason": "Specialist four-phase occupation chronology and social-memory interpretation; only abstract publicly reviewed.",
+              "access_scope": "abstract_or_excerpt_reviewed"
+            },
+            {
+              "source_id": "g3-mv-exhibit",
+              "reason": "Current Seminole co-curation and continuities of craft and culture; not independent proof of individual ancient genealogies.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "067000-p01",
+              "anchor": "On a bluff above the Black Warrior River in present-day Alabama, an immense open",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-mv-ua",
+                "g3-mv-ency"
+              ],
+              "source_locator": "University of Alabama Museums, Moundville Archaeological Park, Ancient Site; Vernon James Knight and Encyclopedia of Alabama, Moundville Archaeological Park",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research. Settlement, maize, occupations, construction, burials and shifting population; estimates and elite interpretations are reconstructive."
+            },
+            {
+              "id": "067000-p02",
+              "anchor": "The name Mississippian is an archaeological convention for related but varied so",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-mv-tribal"
+              ],
+              "source_locator": "Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census."
+            },
+            {
+              "id": "067000-p03",
+              "anchor": "Consider the geography of the Black Warrior Valley. The river connected settleme",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-mv-ua"
+              ],
+              "source_locator": "University of Alabama Museums, Moundville Archaeological Park, Ancient Site",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research."
+            },
+            {
+              "id": "067000-p04",
+              "anchor": "Archaeologists distinguish several phases rather than one timeless Moundville. J",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-mv-blitz",
+                "g3-mv-ua"
+              ],
+              "source_locator": "John H. Blitz, Moundville in the Mississippian World, Oxford Handbook of North American Archaeology (2012); University of Alabama Museums, Moundville Archaeological Park, Ancient Site",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Specialist four-phase occupation chronology and social-memory interpretation; only abstract publicly reviewed. Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research."
+            },
+            {
+              "id": "067000-p05",
+              "anchor": "Look at the design. Earthen platforms surround the plaza in a deliberate arrange",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-mv-ua",
+                "g3-mv-tribal"
+              ],
+              "source_locator": "University of Alabama Museums, Moundville Archaeological Park, Ancient Site; Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research. Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census."
+            },
+            {
+              "id": "067000-p06",
+              "anchor": "The placement and height of the mounds have led archaeologists to investigate ra",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-mv-ency",
+                "g3-mv-blitz"
+              ],
+              "source_locator": "Vernon James Knight and Encyclopedia of Alabama, Moundville Archaeological Park; John H. Blitz, Moundville in the Mississippian World, Oxford Handbook of North American Archaeology (2012)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Settlement, maize, occupations, construction, burials and shifting population; estimates and elite interpretations are reconstructive. Specialist four-phase occupation chronology and social-memory interpretation; only abstract publicly reviewed."
+            },
+            {
+              "id": "067000-p07",
+              "anchor": "Food production makes these distinctions concrete. Maize was an important crop, ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-mv-ency"
+              ],
+              "source_locator": "Vernon James Knight and Encyclopedia of Alabama, Moundville Archaeological Park",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Settlement, maize, occupations, construction, burials and shifting population; estimates and elite interpretations are reconstructive."
+            },
+            {
+              "id": "067000-p08",
+              "anchor": "Moundville's artisans left pottery, stone objects, copper ornaments, and worked ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-mv-ency",
+                "g3-mv-tribal"
+              ],
+              "source_locator": "Vernon James Knight and Encyclopedia of Alabama, Moundville Archaeological Park; Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Settlement, maize, occupations, construction, burials and shifting population; estimates and elite interpretations are reconstructive. Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census."
+            },
+            {
+              "id": "067000-p09",
+              "anchor": "Art created at Moundville includes recurring beings and signs: birds, serpents, ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-mv-tribal"
+              ],
+              "source_locator": "Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census."
+            },
+            {
+              "id": "067000-p10",
+              "anchor": "Burial sites reveal another change. During later centuries, portions of Moundvil",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-mv-ua",
+                "g3-mv-blitz"
+              ],
+              "source_locator": "University of Alabama Museums, Moundville Archaeological Park, Ancient Site; John H. Blitz, Moundville in the Mississippian World, Oxford Handbook of North American Archaeology (2012)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research. Specialist four-phase occupation chronology and social-memory interpretation; only abstract publicly reviewed."
+            },
+            {
+              "id": "067000-p11",
+              "anchor": "The site's excavation history is also part of the story. Early Euro-American exp",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-mv-tribal",
+                "g3-mv-exhibit"
+              ],
+              "source_locator": "Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities; Moundville Archaeological Park, The Home of Our Ancestors exhibit co-curated by Jake Tiger (2026)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census. Current Seminole co-curation and continuities of craft and culture; not independent proof of individual ancient genealogies."
+            },
+            {
+              "id": "067000-p12",
+              "anchor": "A collaborative account is not simply a replacement of one authority by another.",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-mv-tribal",
+                "g3-mv-exhibit"
+              ],
+              "source_locator": "Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities; Moundville Archaeological Park, The Home of Our Ancestors exhibit co-curated by Jake Tiger (2026)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census. Current Seminole co-curation and continuities of craft and culture; not independent proof of individual ancient genealogies."
+            },
+            {
+              "id": "067000-p13",
+              "anchor": "Moundville also teaches us to read decline with precision. A reduced permanent p",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-mv-blitz",
+                "g3-mv-ua"
+              ],
+              "source_locator": "John H. Blitz, Moundville in the Mississippian World, Oxford Handbook of North American Archaeology (2012); University of Alabama Museums, Moundville Archaeological Park, Ancient Site",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Specialist four-phase occupation chronology and social-memory interpretation; only abstract publicly reviewed. Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research."
+            },
+            {
+              "id": "067000-p14",
+              "anchor": "Return, finally, to the plaza. Its level surface depended on earth carried by ma",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-mv-ua",
+                "g3-mv-tribal"
+              ],
+              "source_locator": "University of Alabama Museums, Moundville Archaeological Park, Ancient Site; Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research. Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:059000",
+        "file": "059000-shores-of-great-lakes.md",
+        "sha256": "a03ebd032824ed23c72f443d6d4f806fe6185bc09d596fcf5189c9e339ec0c77",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "059000",
+          "transcript": "059000-shores-of-great-lakes.md",
+          "related_resources": [
+            {
+              "source_id": "g2-gl-ont",
+              "reason": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g2-gl-copper",
+              "reason": "Copper-tool types, processing and early chronology in Great Lakes sites; object distribution does not identify the language or political identity of makers.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g2-gl-hopewell",
+              "reason": "Chronology and characteristics of Ohio earthworks and distant raw materials; the modern Hopewell category is not an Indigenous self-designation.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g2-gl-nps",
+              "reason": "Archaeological labels, early excavations and colonial displacement affecting evidence; not a source for specific Great Lakes group identities.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g2-gl-maize",
+              "reason": "Five direct AMS dates at one Ontario site, calibrated circa 540–1030 CE; presence is not proof of region-wide dependence or identical farming practices.",
+              "access_scope": "abstract_or_summary_reviewed"
+            },
+            {
+              "source_id": "g2-ne-nysm",
+              "reason": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "059000-p01",
+              "anchor": "Imagine traveling along the Great Lakes without a modern road or a national bord",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-ont"
+              ],
+              "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "059000-p02",
+              "anchor": "One of the region's most striking archaeological materials is native copper. Aro",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-copper"
+              ],
+              "source_locator": "Milwaukee Public Museum, Old Copper Culture",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Copper-tool types, processing and early chronology in Great Lakes sites; object distribution does not identify the language or political identity of makers."
+            },
+            {
+              "id": "059000-p03",
+              "anchor": "The tools pose practical questions. A copper fishhook had to be shaped for use i",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-copper",
+                "g2-gl-ont"
+              ],
+              "source_locator": "Milwaukee Public Museum, Old Copper Culture; Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Copper-tool types, processing and early chronology in Great Lakes sites; object distribution does not identify the language or political identity of makers. Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "059000-p04",
+              "anchor": "Even the shoreline itself changed. The great ice sheets left behind lakes that a",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-ont"
+              ],
+              "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "059000-p05",
+              "anchor": "Fishing connected ecology with decisions made by households. Sturgeon gather nea",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-ont"
+              ],
+              "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "059000-p06",
+              "anchor": "Archaeologists have divided these long periods into what they call Archaic and W",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-ont"
+              ],
+              "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "059000-p07",
+              "anchor": "Burial places and ceremonial landscapes also reveal that the region's lives invo",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-ont",
+                "g2-gl-hopewell"
+              ],
+              "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology; UNESCO World Heritage Centre, Hopewell Ceremonial Earthworks",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating. Chronology and characteristics of Ohio earthworks and distant raw materials; the modern Hopewell category is not an Indigenous self-designation."
+            },
+            {
+              "id": "059000-p08",
+              "anchor": "The extraordinary earthworks built in the Ohio River valleys between roughly two",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-hopewell",
+                "g2-gl-nps"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Hopewell Ceremonial Earthworks; US National Park Service, Hopewell Earthworks",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Chronology and characteristics of Ohio earthworks and distant raw materials; the modern Hopewell category is not an Indigenous self-designation. Archaeological labels, early excavations and colonial displacement affecting evidence; not a source for specific Great Lakes group identities."
+            },
+            {
+              "id": "059000-p09",
+              "anchor": "Agriculture reached different shores at different times. Directly dated corn rem",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-maize",
+                "g2-gl-ont"
+              ],
+              "source_locator": "Gary W. Crawford, David G. Smith and Vandy E. Bowyer, Dating the Entry of Corn into the Lower Great Lakes Region (American Antiquity, 1997); Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Five direct AMS dates at one Ontario site, calibrated circa 540–1030 CE; presence is not proof of region-wide dependence or identical farming practices. Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "059000-p10",
+              "anchor": "This variation becomes clearer if we resist treating farming as the endpoint of ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-ont"
+              ],
+              "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "059000-p11",
+              "anchor": "Around the turn of the second millennium, village landscapes in southern parts o",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-ont"
+              ],
+              "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "059000-p12",
+              "anchor": "The identities of later Indigenous nations matter to this story. Anishinaabe, We",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-ont",
+                "g2-ne-nysm"
+              ],
+              "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology; New York State Museum, Mohawk Haudenosaunee Longhouse",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating. Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries."
+            },
+            {
+              "id": "059000-p13",
+              "anchor": "The Great Lakes were also a place where power and conflict changed. Fortified se",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-ont"
+              ],
+              "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "059000-p14",
+              "anchor": "What survives is shaped by later history too. Colonial expansion, removal, colle",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-nps",
+                "g2-gl-ont"
+              ],
+              "source_locator": "US National Park Service, Hopewell Earthworks; Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological labels, early excavations and colonial displacement affecting evidence; not a source for specific Great Lakes group identities. Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "059000-p15",
+              "anchor": "Before fifteen hundred, the Great Lakes connected societies with different ways ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-ont",
+                "g2-gl-copper"
+              ],
+              "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology; Milwaukee Public Museum, Old Copper Culture",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating. Copper-tool types, processing and early chronology in Great Lakes sites; object distribution does not identify the language or political identity of makers."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:060000",
+        "file": "060000-longhouses-councils-northeast.md",
+        "sha256": "e0ee1094691be612ba2e1678d110fbf7faf43158847498ba57fcc995b47f2780",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "060000",
+          "transcript": "060000-longhouses-councils-northeast.md",
+          "related_resources": [
+            {
+              "source_id": "g2-ne-nysm",
+              "reason": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g2-gl-ont",
+              "reason": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g2-gl-maize",
+              "reason": "Five direct AMS dates at one Ontario site, calibrated circa 540–1030 CE; presence is not proof of region-wide dependence or identical farming practices.",
+              "access_scope": "abstract_or_summary_reviewed"
+            },
+            {
+              "source_id": "g2-ne-jemison",
+              "reason": "Named Haudenosaunee account of the Peacemaker and Great Law; oral constitutional history is not by itself a precise archaeological founding date.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g2-ne-confed",
+              "reason": "Specialist comparison of Northern Iroquoian alliances and local autonomy; comparative interpretation, not authoritative replacement for nations’ own constitutions.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g2-ne-wendat",
+              "reason": "Scholarly regional archaeology and cautions distinguishing Wendat, Iroquoian linguistic group, and Haudenosaunee politics; introductory public excerpt reviewed, not entire PDF.",
+              "access_scope": "abstract_or_summary_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "060000-p01",
+              "anchor": "A longhouse is more than a building large enough to shelter many people. Its len",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-ne-nysm",
+                "g2-gl-ont"
+              ],
+              "source_locator": "New York State Museum, Mohawk Haudenosaunee Longhouse; Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries. Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "060000-p02",
+              "anchor": "Consider what an excavated village can show. Posts once set into the soil leave ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-ne-nysm"
+              ],
+              "source_locator": "New York State Museum, Mohawk Haudenosaunee Longhouse",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries."
+            },
+            {
+              "id": "060000-p03",
+              "anchor": "Food connects the longhouse to the fields and waterways outside. By the later ce",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-maize",
+                "g2-gl-ont"
+              ],
+              "source_locator": "Gary W. Crawford, David G. Smith and Vandy E. Bowyer, Dating the Entry of Corn into the Lower Great Lakes Region (American Antiquity, 1997); Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Five direct AMS dates at one Ontario site, calibrated circa 540–1030 CE; presence is not proof of region-wide dependence or identical farming practices. Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "060000-p04",
+              "anchor": "A shared house helped organize shared work, but archaeological dimensions cannot",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-ne-nysm"
+              ],
+              "source_locator": "New York State Museum, Mohawk Haudenosaunee Longhouse",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries."
+            },
+            {
+              "id": "060000-p05",
+              "anchor": "The northeast's political history includes the Haudenosaunee Confederacy, tradit",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-ne-jemison",
+                "g2-ne-nysm"
+              ],
+              "source_locator": "Smithsonian Archives of American Art, Oral history interview with G. Peter Jemison (2021); New York State Museum, Mohawk Haudenosaunee Longhouse",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Named Haudenosaunee account of the Peacemaker and Great Law; oral constitutional history is not by itself a precise archaeological founding date. Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries."
+            },
+            {
+              "id": "060000-p06",
+              "anchor": "The exact founding date of the Confederacy remains debated in academic chronolog",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-ne-confed",
+                "g2-ne-jemison"
+              ],
+              "source_locator": "Premodern Confederacies: Balancing Strategic Collective Action and Local Autonomy (Frontiers in Political Science, 2022); Smithsonian Archives of American Art, Oral history interview with G. Peter Jemison (2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Specialist comparison of Northern Iroquoian alliances and local autonomy; comparative interpretation, not authoritative replacement for nations’ own constitutions. Named Haudenosaunee account of the Peacemaker and Great Law; oral constitutional history is not by itself a precise archaeological founding date."
+            },
+            {
+              "id": "060000-p07",
+              "anchor": "It is also important not to confuse Haudenosaunee with every people speaking an ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-ne-wendat",
+                "g2-gl-ont"
+              ],
+              "source_locator": "Archaeological History of the Wendat to AD 1651 (2015); Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Scholarly regional archaeology and cautions distinguishing Wendat, Iroquoian linguistic group, and Haudenosaunee politics; introductory public excerpt reviewed, not entire PDF. Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "060000-p08",
+              "anchor": "Many settlements were protected by palisades. Defensive walls required enormous ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-ont"
+              ],
+              "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "060000-p09",
+              "anchor": "Households were connected across villages through visits, exchange, marriage, ce",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-ne-confed",
+                "g2-ne-nysm"
+              ],
+              "source_locator": "Premodern Confederacies: Balancing Strategic Collective Action and Local Autonomy (Frontiers in Political Science, 2022); New York State Museum, Mohawk Haudenosaunee Longhouse",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Specialist comparison of Northern Iroquoian alliances and local autonomy; comparative interpretation, not authoritative replacement for nations’ own constitutions. Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries."
+            },
+            {
+              "id": "060000-p10",
+              "anchor": "Not every northeastern community lived in an agricultural longhouse village. Acr",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-gl-ont"
+              ],
+              "source_locator": "Ontario Archaeological Society, Summary of Ontario Archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaic and Woodland chronologies, shore changes, pottery, fishing and north-south subsistence differences; broad regional synthesis with locally variable dating."
+            },
+            {
+              "id": "060000-p11",
+              "anchor": "The sources that describe this region changed dramatically after fifteen hundred",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-ne-nysm"
+              ],
+              "source_locator": "New York State Museum, Mohawk Haudenosaunee Longhouse",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries."
+            },
+            {
+              "id": "060000-p12",
+              "anchor": "Even the language of the historian deserves attention. Calling a village a prehi",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-ne-nysm",
+                "g2-ne-jemison"
+              ],
+              "source_locator": "New York State Museum, Mohawk Haudenosaunee Longhouse; Smithsonian Archives of American Art, Oral history interview with G. Peter Jemison (2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries. Named Haudenosaunee account of the Peacemaker and Great Law; oral constitutional history is not by itself a precise archaeological founding date."
+            },
+            {
+              "id": "060000-p13",
+              "anchor": "The political significance of the longhouse becomes clearer if we return to the ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-ne-nysm",
+                "g2-ne-confed"
+              ],
+              "source_locator": "New York State Museum, Mohawk Haudenosaunee Longhouse; Premodern Confederacies: Balancing Strategic Collective Action and Local Autonomy (Frontiers in Political Science, 2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries. Specialist comparison of Northern Iroquoian alliances and local autonomy; comparative interpretation, not authoritative replacement for nations’ own constitutions."
+            },
+            {
+              "id": "060000-p14",
+              "anchor": "By fifteen hundred the northeast contained communities with substantial agricult",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-ne-nysm",
+                "g2-ne-confed"
+              ],
+              "source_locator": "New York State Museum, Mohawk Haudenosaunee Longhouse; Premodern Confederacies: Balancing Strategic Collective Action and Local Autonomy (Frontiers in Political Science, 2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Household and clan description using archaeology, Haudenosaunee tradition and postcontact records; distinct evidence for different centuries. Specialist comparison of Northern Iroquoian alliances and local autonomy; comparative interpretation, not authoritative replacement for nations’ own constitutions."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

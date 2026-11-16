@@ -18,192 +18,72 @@
   "lectures": [
     {
       "id": "001000",
-      "title": "Moving Heat and Moving Air: The Two Jobs of HVAC",
+      "title": "Balance heat, air, and moisture",
       "section": "energy-and-airflow",
-      "file": "001000-moving-heat-and-moving-air.md",
-      "spoken_words": 1253,
+      "file": "001000-balance-heat-air-and-moisture.md",
+      "spoken_words": 6364,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "002000",
-      "title": "The Refrigeration Cycle: Compressor, Condenser, Expansion, Evaporator",
-      "section": "energy-and-airflow",
-      "file": "002000-the-refrigeration-cycle-compressor-condenser-expansion-evaporator.md",
-      "spoken_words": 1147,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "003000",
-      "title": "Heating and Cooling Loads in Real Rooms",
-      "section": "energy-and-airflow",
-      "file": "003000-heating-and-cooling-loads-in-real-rooms.md",
-      "spoken_words": 1014,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "004000",
-      "title": "Airflow: Fans, Ducts, Filters, and Resistance",
-      "section": "energy-and-airflow",
-      "file": "004000-airflow-fans-ducts-filters-and-resistance.md",
-      "spoken_words": 932,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "005000",
-      "title": "Ventilation and Pressure Management",
-      "section": "energy-and-airflow",
-      "file": "005000-ventilation-and-pressure-management.md",
-      "spoken_words": 976,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "006000",
-      "title": "Humidity, Dew Point, and Latent Cooling",
-      "section": "energy-and-airflow",
-      "file": "006000-humidity-dew-point-and-latent-cooling.md",
-      "spoken_words": 1009,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 43.9,
+      "consolidated_from": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000"
+      ]
     },
     {
       "id": "007000",
-      "title": "Thermostats, Controls, and Diagnostic Patterns",
+      "title": "Interpret controls and room-level performance",
       "section": "energy-and-airflow",
-      "file": "007000-thermostats-controls-and-diagnostic-patterns.md",
-      "spoken_words": 973,
+      "file": "007000-interpret-controls-and-room-level-performance.md",
+      "spoken_words": 6003,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 41.4,
+      "consolidated_from": [
+        "007000",
+        "010000",
+        "011000",
+        "015000",
+        "016000",
+        "017000"
+      ]
     },
     {
       "id": "008000",
-      "title": "Equipment Sizing, Commissioning, and Performance Checks",
+      "title": "Verify equipment and hydronic performance",
       "section": "energy-and-airflow",
-      "file": "008000-equipment-sizing-commissioning-and-performance-checks.md",
-      "spoken_words": 880,
+      "file": "008000-verify-equipment-and-hydronic-performance.md",
+      "spoken_words": 4831,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "009000",
-      "title": "Combustion, Flues, and Carbon Monoxide",
-      "section": "energy-and-airflow",
-      "file": "009000-combustion-flues-and-carbon-monoxide.md",
-      "spoken_words": 969,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "010000",
-      "title": "Heat Pump Defrost, Cold Weather, and Controls",
-      "section": "energy-and-airflow",
-      "file": "010000-heat-pump-defrost-cold-weather-and-controls.md",
-      "spoken_words": 1059,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "011000",
-      "title": "Duct Leakage, Zoning, and Temperature Imbalance",
-      "section": "energy-and-airflow",
-      "file": "011000-duct-leakage-zoning-and-temperature-imbalance.md",
-      "spoken_words": 913,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "012000",
-      "title": "Hydronic Heating: Pumps, Loops, Radiators, and Balancing",
-      "section": "energy-and-airflow",
-      "file": "012000-hydronic-heating-pumps-loops-radiators-and-balancing.md",
-      "spoken_words": 927,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "013000",
-      "title": "Heating System Commissioning: Supply, Controls, and Documentation",
-      "section": "energy-and-airflow",
-      "file": "013000-heating-system-commissioning-supply-controls-and-documentation.md",
-      "spoken_words": 910,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "014000",
-      "title": "Refrigerant-System Measurements and Diagnostic Boundaries",
-      "section": "energy-and-airflow",
-      "file": "014000-refrigerant-system-measurements-and-diagnostic-boundaries.md",
-      "spoken_words": 1090,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "015000",
-      "title": "Variable-Speed Equipment, Sensors, and Control Modes",
-      "section": "energy-and-airflow",
-      "file": "015000-variable-speed-equipment-sensors-and-control-modes.md",
-      "spoken_words": 1022,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "016000",
-      "title": "Diagnosing Comfort Complaints with Occupancy and Sensor Logs",
-      "section": "energy-and-airflow",
-      "file": "016000-diagnosing-comfort-complaints-with-occupancy-and-sensor-logs.md",
-      "spoken_words": 991,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "017000",
-      "title": "Heat Pump Cycling, Recovery, and Electrical Demand",
-      "section": "energy-and-airflow",
-      "file": "017000-heat-pump-cycling-recovery-and-electrical-demand.md",
-      "spoken_words": 973,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 33.3,
+      "consolidated_from": [
+        "008000",
+        "009000",
+        "012000",
+        "013000",
+        "014000"
+      ]
     },
     {
       "id": "018000",
-      "title": "Heat-Recovery Ventilation, Filters, and Pressure Boundaries",
+      "title": "Deliver ventilation and shared-system airflow",
       "section": "energy-and-airflow",
-      "file": "018000-heat-recovery-ventilation-filters-and-pressure-boundaries.md",
-      "spoken_words": 959,
+      "file": "018000-deliver-ventilation-and-shared-system-airflow.md",
+      "spoken_words": 3876,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "019000",
-      "title": "Commissioning Balanced Ventilation and Finding Fan-Flow Imbalance",
-      "section": "energy-and-airflow",
-      "file": "019000-commissioning-balanced-ventilation-and-finding-fan-flow-imbalance.md",
-      "spoken_words": 993,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "020000",
-      "title": "Measuring Duct Static Pressure and Room Air Delivery",
-      "section": "energy-and-airflow",
-      "file": "020000-measuring-duct-static-pressure-and-room-air-delivery.md",
-      "spoken_words": 905,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "021000",
-      "title": "Variable Refrigerant Flow: Shared Capacity, Zone Controls, and Heat Recovery",
-      "section": "energy-and-airflow",
-      "file": "021000-variable-refrigerant-flow-shared-capacity-zone-controls-and-heat-recovery.md",
-      "spoken_words": 947,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 26.7,
+      "consolidated_from": [
+        "018000",
+        "019000",
+        "020000",
+        "021000"
+      ]
     }
   ]
 }

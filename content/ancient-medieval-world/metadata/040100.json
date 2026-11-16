@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "040100",
-  "transcript": "040100-country-water-fire-australian-histories.md",
+  "transcript": "040100-engineering-inhabited-landscapes-in-australia-and-the-pacific.md",
   "related_resources": [
     {
       "source_id": "m10-australia-willandra",
@@ -42,6 +42,86 @@
       "source_id": "m10-wiki-martu",
       "reason": "Relevant Wikipedia article for orientation and further browsing, not used to substantiate historical claims.",
       "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "b16-davis24",
+      "reason": "SWIR mapping estimates around 0.76 square km of rock gardens, below previous estimates; this is a model-dependent land-use measure, not a precontact population census.",
+      "access_scope": "open_full_article_retrieved"
+    },
+    {
+      "source_id": "b16-wilmshurst11",
+      "reason": "Review of 1,434 dates emphasizes short-lived samples; proposed late eastern-Polynesian chronology is an evidence-driven model, not a log of named voyages.",
+      "access_scope": "open_full_article_retrieved"
+    },
+    {
+      "source_id": "b16-rapagen24",
+      "reason": "Fifteen sequenced individuals dated 1670–1950 CE, simulations reject a severe 1600s bottleneck, admixture estimated c. 1250–1430; genetics does not specify the direction of an individual canoe voyage.",
+      "access_scope": "published_full_text_search_index_reviewed; direct_open_redirect_blocked"
+    },
+    {
+      "source_id": "b16-moai25",
+      "reason": "Drone photogrammetry authorized by Rapa Nui Comunidad Indígena Maʻu Henua identifies 30 distinct quarrying foci at Rano Raraku and tests decentralized production interpretations; the clustering does not date every carved figure.",
+      "access_scope": "open_full_article_retrieved"
+    },
+    {
+      "source_id": "b16-wiki-rapa",
+      "reason": "Supplementary orientation; no historical claim rests solely on this source.",
+      "access_scope": "orientation_link_only"
+    },
+    {
+      "source_id": "b16-wiki-moai",
+      "reason": "Supplementary orientation; no historical claim rests solely on this source.",
+      "access_scope": "orientation_link_only"
+    },
+    {
+      "source_id": "b16-bunbury22",
+      "reason": "Marine-reservoir corrected chronology places North Island settlement c. 1250–1275 and South Island c. 1280–1295, with later subsistence transitions. Site-date models are not exact dates for each ancestor story.",
+      "access_scope": "open_full_article_retrieved"
+    },
+    {
+      "source_id": "b16-otago-wairau",
+      "reason": "Excavation history, village/cooking/tool contexts and 2009 research invited by Rangitāne o Wairau after ancestral repatriation; source does not represent all Māori views.",
+      "access_scope": "open_full_institutional_research_page_reviewed"
+    },
+    {
+      "source_id": "b16-tepapa",
+      "reason": "Records the prolonged requests for return of Māori ancestors and Rangitāne objections to Wairau Bar removals; a twentieth-century archaeological ethical history.",
+      "access_scope": "open_full_museum_page_reviewed"
+    },
+    {
+      "source_id": "b16-wiki-maori",
+      "reason": "Supplementary orientation; no historical claim rests solely on this source.",
+      "access_scope": "orientation_link_only"
+    },
+    {
+      "source_id": "b16-wiki-wairau",
+      "reason": "Supplementary orientation; no historical claim rests solely on this source.",
+      "access_scope": "orientation_link_only"
+    },
+    {
+      "source_id": "b16-hawaii11",
+      "reason": "48 radiocarbon dates on 43 residential features around leeward Kohala; field/household change extends 1400–1800, mostly after 1500, so avoid projecting peak intensity backwards.",
+      "access_scope": "open_full_article_retrieved"
+    },
+    {
+      "source_id": "b16-hawaii08",
+      "reason": "Kohala dryland field-system paths start as early as the fourteenth century in favorable zones, later paths expand after seventeenth-century conditions; full article restricted.",
+      "access_scope": "open_publisher_abstract_only"
+    },
+    {
+      "source_id": "b16-unm-hawaii",
+      "reason": "Windward Kohala irrigated and coastal residential contexts; project reports thirteenth-century coastal dates and recognizes community collaborators.",
+      "access_scope": "open_full_research_project_page_reviewed"
+    },
+    {
+      "source_id": "b16-wiki-kohala",
+      "reason": "Supplementary orientation; no historical claim rests solely on this source.",
+      "access_scope": "orientation_link_only"
+    },
+    {
+      "source_id": "b16-wiki-ahupuaa",
+      "reason": "Supplementary orientation; no historical claim rests solely on this source.",
+      "access_scope": "orientation_link_only"
     }
   ],
   "historical_claims": [
@@ -188,6 +268,1050 @@
       "source_locator": "Willandra Lakes Region — UNESCO World Heritage Centre; Budj Bim Cultural Landscape — UNESCO World Heritage Centre; R. Bliege Bird et al., The fire stick farming hypothesis (PNAS, 2008)",
       "audit_status": "source_scope_and_limits_mapped",
       "source_limitations": "Comparative conclusion does not identify shared institutions among the three case-study communities."
+    },
+    {
+      "id": "040230-p01",
+      "anchor": "On Rapa Nui, an island in the southeastern Pacific, stone figures called moai st",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-davis24",
+        "b16-wilmshurst11"
+      ],
+      "source_locator": "Dylan S. Davis, Robert J. DiNapoli, Gina Pakarati, Terry L. Hunt, and Carl P. Lipo, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui, Science Advances 10 (2024) (Abstract, remote-sensing methods, Discussion, Table 3); Janet M. Wilmshurst, Terry L. Hunt, Carl P. Lipo, and Atholl J. Anderson, High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia, PNAS 108 (2011) (abstract, methods and conclusions; initial settlement phases)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The introduction is anchored in known monument and agricultural evidence; details about individual households are reconstructive."
+    },
+    {
+      "id": "040230-p02",
+      "anchor": "The first sustained Polynesian settlement of Rapa Nui is generally placed around",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-wilmshurst11"
+      ],
+      "source_locator": "Janet M. Wilmshurst, Terry L. Hunt, Carl P. Lipo, and Atholl J. Anderson, High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia, PNAS 108 (2011) (abstract, methods and conclusions; initial settlement phases)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Date windows are model estimates from accepted samples and may be revised as new early contexts are excavated."
+    },
+    {
+      "id": "040230-p03",
+      "anchor": "Rapa Nui's environment placed real constraints on cultivation. Soils, rainfall, ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-davis24"
+      ],
+      "source_locator": "Dylan S. Davis, Robert J. DiNapoli, Gina Pakarati, Terry L. Hunt, and Carl P. Lipo, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui, Science Advances 10 (2024) (Abstract, remote-sensing methods, Discussion, Table 3)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Agricultural functions are supported by specialist interpretation; yield varies with environment and field use."
+    },
+    {
+      "id": "040230-p04",
+      "anchor": "In 2024, Dylan Davis, Robert DiNapoli, Gina Pakarati, Terry Hunt, and Carl Lipo ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-davis24"
+      ],
+      "source_locator": "Dylan S. Davis, Robert J. DiNapoli, Gina Pakarati, Terry L. Hunt, and Carl P. Lipo, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui, Science Advances 10 (2024) (Abstract, remote-sensing methods, Discussion, Table 3)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The 0.76 square kilometer classification is method-dependent, and the paper models rather than directly measures population."
+    },
+    {
+      "id": "040230-p05",
+      "anchor": "The famous collapse story has often presented the islanders as having destroyed ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-davis24"
+      ],
+      "source_locator": "Dylan S. Davis, Robert J. DiNapoli, Gina Pakarati, Terry L. Hunt, and Carl P. Lipo, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui, Science Advances 10 (2024) (Abstract, remote-sensing methods, Discussion, Table 3)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The article challenges specified high-population and collapse models; it does not settle every ecological change."
+    },
+    {
+      "id": "040230-p06",
+      "anchor": "A different body of evidence comes from ancient genomes. A 2024 study analyzed f",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-rapagen24"
+      ],
+      "source_locator": "Ancient Rapanui genomes reveal resilience and pre-European contact with the Americas, Nature (2024) (abstract, no-collapse analysis, Native American ancestry and discussion; publicly indexed article text)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Genomic simulations address a severe pre-European bottleneck scenario, not exact census size or the absence of all upheaval."
+    },
+    {
+      "id": "040230-p07",
+      "anchor": "The same genetic study reported ancestry connected to Indigenous populations of ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-rapagen24"
+      ],
+      "source_locator": "Ancient Rapanui genomes reveal resilience and pre-European contact with the Americas, Nature (2024) (abstract, no-collapse analysis, Native American ancestry and discussion; publicly indexed article text)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The dating and existence of genetic admixture are supported within this model; contact route, voyage direction and specific encounter remain unresolved."
+    },
+    {
+      "id": "040230-p08",
+      "anchor": "The moai and their stone platforms are another form of evidence for sustained sk",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-moai25",
+        "b16-davis24"
+      ],
+      "source_locator": "Carl P. Lipo, Terry L. Hunt, Gina Pakarati, and colleagues, Megalithic statue (moai) production on Rapa Nui, PLOS ONE 20 (2025), e0336251 (Abstract, Methods, inventory of production features, discussion of 30 quarrying foci); Dylan S. Davis, Robert J. DiNapoli, Gina Pakarati, Terry L. Hunt, and Carl P. Lipo, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui, Science Advances 10 (2024) (Abstract, remote-sensing methods, Discussion, Table 3)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The 2025 mapped quarry clusters support a decentralized-production interpretation, but do not assign dates or affiliations to every carving."
+    },
+    {
+      "id": "040230-p09",
+      "anchor": "The people whose history is being studied are not an extinct puzzle population. ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-rapagen24",
+        "b16-davis24"
+      ],
+      "source_locator": "Ancient Rapanui genomes reveal resilience and pre-European contact with the Americas, Nature (2024) (abstract, no-collapse analysis, Native American ancestry and discussion; publicly indexed article text); Dylan S. Davis, Robert J. DiNapoli, Gina Pakarati, Terry L. Hunt, and Carl P. Lipo, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui, Science Advances 10 (2024) (Abstract, remote-sensing methods, Discussion, Table 3)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Modern and later historical context is mentioned to prevent false pre-contact causation; no detailed post-1722 chronology is reconstructed."
+    },
+    {
+      "id": "040230-p10",
+      "anchor": "A more complete pre-1500 history therefore begins with arrival, turns to food sy",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-davis24",
+        "b16-rapagen24",
+        "b16-wilmshurst11"
+      ],
+      "source_locator": "Dylan S. Davis, Robert J. DiNapoli, Gina Pakarati, Terry L. Hunt, and Carl P. Lipo, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui, Science Advances 10 (2024) (Abstract, remote-sensing methods, Discussion, Table 3); Ancient Rapanui genomes reveal resilience and pre-European contact with the Americas, Nature (2024) (abstract, no-collapse analysis, Native American ancestry and discussion; publicly indexed article text); Janet M. Wilmshurst, Terry L. Hunt, Carl P. Lipo, and Atholl J. Anderson, High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia, PNAS 108 (2011) (abstract, methods and conclusions; initial settlement phases)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Final synthesis retains model-dependent demography and avoids claims of total ecological or political consensus."
+    },
+    {
+      "id": "040240-p01",
+      "anchor": "Imagine a family arriving in Aotearoa after crossing water from islands where th",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-bunbury22",
+        "b16-wilmshurst11"
+      ],
+      "source_locator": "Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology); Janet M. Wilmshurst, Terry L. Hunt, Carl P. Lipo, and Atholl J. Anderson, High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia, PNAS 108 (2011) (abstract, methods and conclusions; initial settlement phases)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The family is an illustrative scene, not an identified historical group; chronological claims derive from radiocarbon models."
+    },
+    {
+      "id": "040240-p02",
+      "anchor": "The timing matters because older accounts sometimes placed initial settlement ce",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-bunbury22"
+      ],
+      "source_locator": "Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dates describe the modelled first occupation in the sampled record, not the exact arrival of each waka or ancestor."
+    },
+    {
+      "id": "040240-p03",
+      "anchor": "People reached a large and varied land. Northern regions offered warm areas more",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-bunbury22",
+        "b16-otago-wairau"
+      ],
+      "source_locator": "Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology); University of Otago, Southern Pacific Archaeological Research, Migration, colonisation and Polynesian settlement of Aotearoa: Wairau Bar (Wairau Bar, 2009 Repatriation and 2009 Excavations)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Regional variation is documented, but no single site supplies a complete picture of diets across all Aotearoa."
+    },
+    {
+      "id": "040240-p04",
+      "anchor": "Te Pokohiwi o Kupe, often called Wairau Bar, offers a particularly important ear",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-otago-wairau"
+      ],
+      "source_locator": "University of Otago, Southern Pacific Archaeological Research, Migration, colonisation and Polynesian settlement of Aotearoa: Wairau Bar (Wairau Bar, 2009 Repatriation and 2009 Excavations)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Site report documents a local village sequence; its size and practices are not generalized to the entire country."
+    },
+    {
+      "id": "040240-p05",
+      "anchor": "Wairau Bar also has a modern history that changes how the archaeological record ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-otago-wairau",
+        "b16-tepapa"
+      ],
+      "source_locator": "University of Otago, Southern Pacific Archaeological Research, Migration, colonisation and Polynesian settlement of Aotearoa: Wairau Bar (Wairau Bar, 2009 Repatriation and 2009 Excavations); Museum of New Zealand Te Papa Tongarewa, Repatriation: How it all began (sections on Māori return practices and Wairau Bar objections)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Institutional histories support the chronology and repatriation; the lecture does not claim to speak for all Rangitāne views."
+    },
+    {
+      "id": "040240-p06",
+      "anchor": "Moa hunting offers another way to follow change through time. The new radiocarbo",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-bunbury22"
+      ],
+      "source_locator": "Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The hunting window is a modeled aggregate; extinction mechanisms involve multiple ecological and human factors."
+    },
+    {
+      "id": "040240-p07",
+      "anchor": "Environmental change complicates the sequence further. The later fourteenth cent",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-bunbury22"
+      ],
+      "source_locator": "Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Climate and settlement activity are correlated in the research model; direct causation for individual movements is not demonstrated."
+    },
+    {
+      "id": "040240-p08",
+      "anchor": "Garden skills also changed as people learned what could grow. A plant cultivated",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-bunbury22",
+        "b16-otago-wairau"
+      ],
+      "source_locator": "Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology); University of Otago, Southern Pacific Archaeological Research, Migration, colonisation and Polynesian settlement of Aotearoa: Wairau Bar (Wairau Bar, 2009 Repatriation and 2009 Excavations)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Detailed household adaptations are reasonable social reconstruction from crops and sites, not surviving written instructions."
+    },
+    {
+      "id": "040240-p09",
+      "anchor": "Māori oral histories remember ancestors, waka journeys, places, and relationship",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-tepapa",
+        "b16-otago-wairau",
+        "b16-bunbury22"
+      ],
+      "source_locator": "Museum of New Zealand Te Papa Tongarewa, Repatriation: How it all began (sections on Māori return practices and Wairau Bar objections); University of Otago, Southern Pacific Archaeological Research, Migration, colonisation and Polynesian settlement of Aotearoa: Wairau Bar (Wairau Bar, 2009 Repatriation and 2009 Excavations); Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The lecture recognizes living traditions but does not date a named waka or purport to translate oral accounts."
+    },
+    {
+      "id": "040240-p10",
+      "anchor": "Before 1500, the descendants of these early settlers had already been shaping lo",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-bunbury22",
+        "b16-otago-wairau",
+        "b16-tepapa"
+      ],
+      "source_locator": "Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology); University of Otago, Southern Pacific Archaeological Research, Migration, colonisation and Polynesian settlement of Aotearoa: Wairau Bar (Wairau Bar, 2009 Repatriation and 2009 Excavations); Museum of New Zealand Te Papa Tongarewa, Repatriation: How it all began (sections on Māori return practices and Wairau Bar objections)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Final synthesis does not project later iwi political arrangements unchanged into the fourteenth century."
+    },
+    {
+      "id": "040250-p01",
+      "anchor": "On the leeward slopes of Kohala on Hawaiʻi Island, long lines of stone and earth",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-hawaii11",
+        "b16-hawaii08"
+      ],
+      "source_locator": "Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520); Thegn N. Ladefoged and Michael W. Graves, Variable Development of Dryland Agriculture in Hawaiʻi, Current Anthropology 49 (2008) (publisher abstract and dated expansion claims)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Field forms and chronology are documented; the experiences of particular workers are reconstructed rather than directly witnessed."
+    },
+    {
+      "id": "040250-p02",
+      "anchor": "Hawaiʻi is part of a later phase of East Polynesian settlement. A major radiocar",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-wilmshurst11",
+        "b16-unm-hawaii",
+        "b16-hawaii08"
+      ],
+      "source_locator": "Janet M. Wilmshurst, Terry L. Hunt, Carl P. Lipo, and Atholl J. Anderson, High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia, PNAS 108 (2011) (abstract, methods and conclusions; initial settlement phases); University of New Mexico Anthropology, Hawaiʻi Historical and Archaeological Research Project (windward Kohala and coastal agricultural site descriptions); Thegn N. Ladefoged and Michael W. Graves, Variable Development of Dryland Agriculture in Hawaiʻi, Current Anthropology 49 (2008) (publisher abstract and dated expansion claims)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Island chronology and agricultural environments are broad synthesis; not every Hawaiian locality was settled at one modeled date."
+    },
+    {
+      "id": "040250-p03",
+      "anchor": "In wetter valleys, people could build and maintain irrigated cultivation systems",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-unm-hawaii",
+        "b16-hawaii11"
+      ],
+      "source_locator": "University of New Mexico Anthropology, Hawaiʻi Historical and Archaeological Research Project (windward Kohala and coastal agricultural site descriptions); Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The thirteenth-century coastal dates apply to excavated windward settings, not automatically to all dryland field alignments."
+    },
+    {
+      "id": "040250-p04",
+      "anchor": "The leeward Kohala field system is especially informative because researchers ha",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-hawaii11"
+      ],
+      "source_locator": "Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The ahupuaʻa interpretation is grounded in study area and later land divisions, not a claim of identical boundary rules across all periods."
+    },
+    {
+      "id": "040250-p05",
+      "anchor": "Thegn Ladefoged and Michael Graves used radiocarbon and relative sequencing to d",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-hawaii08",
+        "b16-hawaii11"
+      ],
+      "source_locator": "Thegn N. Ladefoged and Michael W. Graves, Variable Development of Dryland Agriculture in Hawaiʻi, Current Anthropology 49 (2008) (publisher abstract and dated expansion claims); Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The early development chronology is based on calibrated field dates; late phases must not be attributed to the fifteenth century."
+    },
+    {
+      "id": "040250-p06",
+      "anchor": "Another study dated forty-eight samples from forty-three residential features as",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-hawaii11"
+      ],
+      "source_locator": "Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Residential sample dates are not a full district census; the strongest sampled increase lies outside the pre-1500 window."
+    },
+    {
+      "id": "040250-p07",
+      "anchor": "Households changed alongside fields. A family's labor might be divided among pla",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-hawaii11"
+      ],
+      "source_locator": "Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Household fission and demographic implications are inferences from dated house features and mapped field subdivisions."
+    },
+    {
+      "id": "040250-p08",
+      "anchor": "Political hierarchy became increasingly important in later Hawaiian history, and",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-hawaii11",
+        "b16-hawaii08"
+      ],
+      "source_locator": "Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520); Thegn N. Ladefoged and Michael W. Graves, Variable Development of Dryland Agriculture in Hawaiʻi, Current Anthropology 49 (2008) (publisher abstract and dated expansion claims)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Chiefly demand is a research interpretation of later changes; direct orders and individual labor arrangements are not documented."
+    },
+    {
+      "id": "040250-p09",
+      "anchor": "A further caution concerns the word sustainability. A field system capable of pr",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-hawaii08",
+        "b16-hawaii11"
+      ],
+      "source_locator": "Thegn N. Ladefoged and Michael W. Graves, Variable Development of Dryland Agriculture in Hawaiʻi, Current Anthropology 49 (2008) (publisher abstract and dated expansion claims); Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Descriptions of risks follow local environmental interpretation; no exact productivity figures are assigned to unsampled early plots."
+    },
+    {
+      "id": "040250-p10",
+      "anchor": "By 1500, some Kohala agricultural landscapes had already been established for ge",
+      "kind": "historical_research",
+      "source_ids": [
+        "b16-hawaii11",
+        "b16-hawaii08",
+        "b16-unm-hawaii"
+      ],
+      "source_locator": "Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520); Thegn N. Ladefoged and Michael W. Graves, Variable Development of Dryland Agriculture in Hawaiʻi, Current Anthropology 49 (2008) (publisher abstract and dated expansion claims); University of New Mexico Anthropology, Hawaiʻi Historical and Archaeological Research Project (windward Kohala and coastal agricultural site descriptions)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The conclusion separates early site and field phases from mainly post-1500 intensification."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "ancient-medieval-world:040100",
+        "file": "040100-country-water-fire-australian-histories.md",
+        "sha256": "44d3d0990be914d53dfdcebfd06ccfa128e94872a4963a7f086e27d6653d866b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "040100",
+          "transcript": "040100-country-water-fire-australian-histories.md",
+          "related_resources": [
+            {
+              "source_id": "m10-australia-willandra",
+              "reason": "Archaeological and geoenvironmental summary of ancient lake occupation, burials, food resources and dated footprints; individual dates have sampling uncertainties.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "m10-australia-budj",
+              "reason": "Recognition of Gunditjmara wetland engineering across millennia; no implication that every component dates to the beginning of the sequence.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "m10-australia-martu",
+              "reason": "Research combines observations of Martu burning/hunting with satellite analysis. Measured patterns are site-specific and recent, not direct millennia-long continuity evidence.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "m10-australia-mungo",
+              "reason": "Museum synthesis on burial, chronology, and repatriation including Indigenous historical context; reports selected scholarship rather than presenting a full excavation monograph.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "m10-australia-gunditjmara",
+              "reason": "Local cultural landscape and community history, including living knowledge; community source speaks to Gunditjmara Country, not a general Australian cultural model.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "m10-wiki-willandra",
+              "reason": "Relevant Wikipedia article for orientation and further browsing, not used to substantiate historical claims.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "m10-wiki-budj",
+              "reason": "Relevant Wikipedia article for orientation and further browsing, not used to substantiate historical claims.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "m10-wiki-martu",
+              "reason": "Relevant Wikipedia article for orientation and further browsing, not used to substantiate historical claims.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "040100-p01",
+              "anchor": "There is no single precolonial Australian story that can be told through one kin",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-australia-willandra",
+                "m10-australia-budj",
+                "m10-australia-martu"
+              ],
+              "source_locator": "Willandra Lakes Region — UNESCO World Heritage Centre; Budj Bim Cultural Landscape — UNESCO World Heritage Centre; R. Bliege Bird et al., The fire stick farming hypothesis (PNAS, 2008)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Three case studies deliberately do not represent all Aboriginal or Torres Strait Islander histories."
+            },
+            {
+              "id": "040100-p02",
+              "anchor": "Begin in the Willandra Lakes region of southwestern New South Wales. Today the l",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-australia-willandra"
+              ],
+              "source_locator": "Willandra Lakes Region — UNESCO World Heritage Centre",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Date ranges refer to a stratified region and sampled deposits, not a single uninterrupted settlement."
+            },
+            {
+              "id": "040100-p03",
+              "anchor": "At Lake Mungo, archaeologists found the cremated remains of a woman and the ochr",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-australia-mungo",
+                "m10-australia-willandra"
+              ],
+              "source_locator": "National Museum of Australia, Mungo Lady; Willandra Lakes Region — UNESCO World Heritage Centre",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Age estimates vary; repatriation dates are modern events reported by heritage institutions."
+            },
+            {
+              "id": "040100-p04",
+              "anchor": "Farther south, in what is now western Victoria, the Gunditjmara developed and ma",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-australia-budj",
+                "m10-australia-gunditjmara"
+              ],
+              "source_locator": "Budj Bim Cultural Landscape — UNESCO World Heritage Centre; Gunditjmara Culture and Country — Budj Bim Cultural Landscape",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The 6,600-year duration refers to the aquaculture tradition, not to individual stone walls."
+            },
+            {
+              "id": "040100-p05",
+              "anchor": "Imagine the knowledge required to keep such a system productive. People needed t",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-australia-gunditjmara",
+                "m10-australia-budj"
+              ],
+              "source_locator": "Gunditjmara Culture and Country — Budj Bim Cultural Landscape; Budj Bim Cultural Landscape — UNESCO World Heritage Centre",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Illustration of work practices is an inference from infrastructure and community knowledge, not a preserved first-person account."
+            },
+            {
+              "id": "040100-p06",
+              "anchor": "The Budj Bim landscape also challenges a distinction that often appears in simpl",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-australia-budj",
+                "m10-australia-gunditjmara"
+              ],
+              "source_locator": "Budj Bim Cultural Landscape — UNESCO World Heritage Centre; Gunditjmara Culture and Country — Budj Bim Cultural Landscape",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The modern category aquaculture is interpretive; precolonial social organization must not be generalized from one site."
+            },
+            {
+              "id": "040100-p07",
+              "anchor": "Now move to the Western Desert. Researchers working with Martu communities have ",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-australia-martu"
+              ],
+              "source_locator": "R. Bliege Bird et al., The fire stick farming hypothesis (PNAS, 2008)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Recent Martu ethnography and satellite fire patterns do not date ancient burning events."
+            },
+            {
+              "id": "040100-p08",
+              "anchor": "Yet this study does not license a single story of Aboriginal fire management for",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-australia-martu"
+              ],
+              "source_locator": "R. Bliege Bird et al., The fire stick farming hypothesis (PNAS, 2008)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site-specific ecological findings cannot support a continent-wide uniform burning history."
+            },
+            {
+              "id": "040100-p09",
+              "anchor": "Even a landscape without monumental stonework can hold traces of intensive knowl",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-australia-willandra",
+                "m10-australia-budj"
+              ],
+              "source_locator": "Willandra Lakes Region — UNESCO World Heritage Centre; Budj Bim Cultural Landscape — UNESCO World Heritage Centre",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological preservation biases are methodological observations, not evidence for undocumented specific institutions."
+            },
+            {
+              "id": "040100-p10",
+              "anchor": "Country is more than a convenient word for land. For many Aboriginal communities",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-australia-gunditjmara",
+                "m10-australia-martu",
+                "m10-australia-mungo"
+              ],
+              "source_locator": "Gunditjmara Culture and Country — Budj Bim Cultural Landscape; R. Bliege Bird et al., The fire stick farming hypothesis (PNAS, 2008); National Museum of Australia, Mungo Lady",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Country and customary responsibilities have community-specific meanings; avoid a single pan-Australian legal system."
+            },
+            {
+              "id": "040100-p11",
+              "anchor": "The records themselves have histories. A date may be revised as geological sampl",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-australia-mungo",
+                "m10-australia-willandra"
+              ],
+              "source_locator": "National Museum of Australia, Mungo Lady; Willandra Lakes Region — UNESCO World Heritage Centre",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Scientific dates and custody decisions belong to different sorts of evidence and are explicitly distinguished."
+            },
+            {
+              "id": "040100-p12",
+              "anchor": "The lakes of Willandra, the engineered wetlands of Budj Bim, and the Martu-manag",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-australia-willandra",
+                "m10-australia-budj",
+                "m10-australia-martu"
+              ],
+              "source_locator": "Willandra Lakes Region — UNESCO World Heritage Centre; Budj Bim Cultural Landscape — UNESCO World Heritage Centre; R. Bliege Bird et al., The fire stick farming hypothesis (PNAS, 2008)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Comparative conclusion does not identify shared institutions among the three case-study communities."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:040230",
+        "file": "040230-rapa-nui-gardens-monuments-and-evidence.md",
+        "sha256": "170184ce9de46e388433dddd4919e280965b126c8797b6797fbfa3e8d92944a9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "040230",
+          "transcript": "040230-rapa-nui-gardens-monuments-and-evidence.md",
+          "related_resources": [
+            {
+              "source_id": "b16-davis24",
+              "reason": "SWIR mapping estimates around 0.76 square km of rock gardens, below previous estimates; this is a model-dependent land-use measure, not a precontact population census.",
+              "access_scope": "open_full_article_retrieved"
+            },
+            {
+              "source_id": "b16-wilmshurst11",
+              "reason": "Review of 1,434 dates emphasizes short-lived samples; proposed late eastern-Polynesian chronology is an evidence-driven model, not a log of named voyages.",
+              "access_scope": "open_full_article_retrieved"
+            },
+            {
+              "source_id": "b16-rapagen24",
+              "reason": "Fifteen sequenced individuals dated 1670–1950 CE, simulations reject a severe 1600s bottleneck, admixture estimated c. 1250–1430; genetics does not specify the direction of an individual canoe voyage.",
+              "access_scope": "published_full_text_search_index_reviewed; direct_open_redirect_blocked"
+            },
+            {
+              "source_id": "b16-moai25",
+              "reason": "Drone photogrammetry authorized by Rapa Nui Comunidad Indígena Maʻu Henua identifies 30 distinct quarrying foci at Rano Raraku and tests decentralized production interpretations; the clustering does not date every carved figure.",
+              "access_scope": "open_full_article_retrieved"
+            },
+            {
+              "source_id": "b16-wiki-rapa",
+              "reason": "Supplementary orientation; no historical claim rests solely on this source.",
+              "access_scope": "orientation_link_only"
+            },
+            {
+              "source_id": "b16-wiki-moai",
+              "reason": "Supplementary orientation; no historical claim rests solely on this source.",
+              "access_scope": "orientation_link_only"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "040230-p01",
+              "anchor": "On Rapa Nui, an island in the southeastern Pacific, stone figures called moai st",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-davis24",
+                "b16-wilmshurst11"
+              ],
+              "source_locator": "Dylan S. Davis, Robert J. DiNapoli, Gina Pakarati, Terry L. Hunt, and Carl P. Lipo, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui, Science Advances 10 (2024) (Abstract, remote-sensing methods, Discussion, Table 3); Janet M. Wilmshurst, Terry L. Hunt, Carl P. Lipo, and Atholl J. Anderson, High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia, PNAS 108 (2011) (abstract, methods and conclusions; initial settlement phases)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The introduction is anchored in known monument and agricultural evidence; details about individual households are reconstructive."
+            },
+            {
+              "id": "040230-p02",
+              "anchor": "The first sustained Polynesian settlement of Rapa Nui is generally placed around",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-wilmshurst11"
+              ],
+              "source_locator": "Janet M. Wilmshurst, Terry L. Hunt, Carl P. Lipo, and Atholl J. Anderson, High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia, PNAS 108 (2011) (abstract, methods and conclusions; initial settlement phases)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Date windows are model estimates from accepted samples and may be revised as new early contexts are excavated."
+            },
+            {
+              "id": "040230-p03",
+              "anchor": "Rapa Nui's environment placed real constraints on cultivation. Soils, rainfall, ",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-davis24"
+              ],
+              "source_locator": "Dylan S. Davis, Robert J. DiNapoli, Gina Pakarati, Terry L. Hunt, and Carl P. Lipo, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui, Science Advances 10 (2024) (Abstract, remote-sensing methods, Discussion, Table 3)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Agricultural functions are supported by specialist interpretation; yield varies with environment and field use."
+            },
+            {
+              "id": "040230-p04",
+              "anchor": "In 2024, Dylan Davis, Robert DiNapoli, Gina Pakarati, Terry Hunt, and Carl Lipo ",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-davis24"
+              ],
+              "source_locator": "Dylan S. Davis, Robert J. DiNapoli, Gina Pakarati, Terry L. Hunt, and Carl P. Lipo, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui, Science Advances 10 (2024) (Abstract, remote-sensing methods, Discussion, Table 3)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The 0.76 square kilometer classification is method-dependent, and the paper models rather than directly measures population."
+            },
+            {
+              "id": "040230-p05",
+              "anchor": "The famous collapse story has often presented the islanders as having destroyed ",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-davis24"
+              ],
+              "source_locator": "Dylan S. Davis, Robert J. DiNapoli, Gina Pakarati, Terry L. Hunt, and Carl P. Lipo, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui, Science Advances 10 (2024) (Abstract, remote-sensing methods, Discussion, Table 3)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The article challenges specified high-population and collapse models; it does not settle every ecological change."
+            },
+            {
+              "id": "040230-p06",
+              "anchor": "A different body of evidence comes from ancient genomes. A 2024 study analyzed f",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-rapagen24"
+              ],
+              "source_locator": "Ancient Rapanui genomes reveal resilience and pre-European contact with the Americas, Nature (2024) (abstract, no-collapse analysis, Native American ancestry and discussion; publicly indexed article text)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Genomic simulations address a severe pre-European bottleneck scenario, not exact census size or the absence of all upheaval."
+            },
+            {
+              "id": "040230-p07",
+              "anchor": "The same genetic study reported ancestry connected to Indigenous populations of ",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-rapagen24"
+              ],
+              "source_locator": "Ancient Rapanui genomes reveal resilience and pre-European contact with the Americas, Nature (2024) (abstract, no-collapse analysis, Native American ancestry and discussion; publicly indexed article text)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The dating and existence of genetic admixture are supported within this model; contact route, voyage direction and specific encounter remain unresolved."
+            },
+            {
+              "id": "040230-p08",
+              "anchor": "The moai and their stone platforms are another form of evidence for sustained sk",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-moai25",
+                "b16-davis24"
+              ],
+              "source_locator": "Carl P. Lipo, Terry L. Hunt, Gina Pakarati, and colleagues, Megalithic statue (moai) production on Rapa Nui, PLOS ONE 20 (2025), e0336251 (Abstract, Methods, inventory of production features, discussion of 30 quarrying foci); Dylan S. Davis, Robert J. DiNapoli, Gina Pakarati, Terry L. Hunt, and Carl P. Lipo, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui, Science Advances 10 (2024) (Abstract, remote-sensing methods, Discussion, Table 3)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The 2025 mapped quarry clusters support a decentralized-production interpretation, but do not assign dates or affiliations to every carving."
+            },
+            {
+              "id": "040230-p09",
+              "anchor": "The people whose history is being studied are not an extinct puzzle population. ",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-rapagen24",
+                "b16-davis24"
+              ],
+              "source_locator": "Ancient Rapanui genomes reveal resilience and pre-European contact with the Americas, Nature (2024) (abstract, no-collapse analysis, Native American ancestry and discussion; publicly indexed article text); Dylan S. Davis, Robert J. DiNapoli, Gina Pakarati, Terry L. Hunt, and Carl P. Lipo, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui, Science Advances 10 (2024) (Abstract, remote-sensing methods, Discussion, Table 3)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Modern and later historical context is mentioned to prevent false pre-contact causation; no detailed post-1722 chronology is reconstructed."
+            },
+            {
+              "id": "040230-p10",
+              "anchor": "A more complete pre-1500 history therefore begins with arrival, turns to food sy",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-davis24",
+                "b16-rapagen24",
+                "b16-wilmshurst11"
+              ],
+              "source_locator": "Dylan S. Davis, Robert J. DiNapoli, Gina Pakarati, Terry L. Hunt, and Carl P. Lipo, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui, Science Advances 10 (2024) (Abstract, remote-sensing methods, Discussion, Table 3); Ancient Rapanui genomes reveal resilience and pre-European contact with the Americas, Nature (2024) (abstract, no-collapse analysis, Native American ancestry and discussion; publicly indexed article text); Janet M. Wilmshurst, Terry L. Hunt, Carl P. Lipo, and Atholl J. Anderson, High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia, PNAS 108 (2011) (abstract, methods and conclusions; initial settlement phases)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Final synthesis retains model-dependent demography and avoids claims of total ecological or political consensus."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:040240",
+        "file": "040240-first-maori-centuries-in-aotearoa.md",
+        "sha256": "6d9669d45df443ace4610f47cafc6e0b5fb26f0793df054adacee874e84ef1b3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "040240",
+          "transcript": "040240-first-maori-centuries-in-aotearoa.md",
+          "related_resources": [
+            {
+              "source_id": "b16-bunbury22",
+              "reason": "Marine-reservoir corrected chronology places North Island settlement c. 1250–1275 and South Island c. 1280–1295, with later subsistence transitions. Site-date models are not exact dates for each ancestor story.",
+              "access_scope": "open_full_article_retrieved"
+            },
+            {
+              "source_id": "b16-wilmshurst11",
+              "reason": "Review of 1,434 dates emphasizes short-lived samples; proposed late eastern-Polynesian chronology is an evidence-driven model, not a log of named voyages.",
+              "access_scope": "open_full_article_retrieved"
+            },
+            {
+              "source_id": "b16-otago-wairau",
+              "reason": "Excavation history, village/cooking/tool contexts and 2009 research invited by Rangitāne o Wairau after ancestral repatriation; source does not represent all Māori views.",
+              "access_scope": "open_full_institutional_research_page_reviewed"
+            },
+            {
+              "source_id": "b16-tepapa",
+              "reason": "Records the prolonged requests for return of Māori ancestors and Rangitāne objections to Wairau Bar removals; a twentieth-century archaeological ethical history.",
+              "access_scope": "open_full_museum_page_reviewed"
+            },
+            {
+              "source_id": "b16-wiki-maori",
+              "reason": "Supplementary orientation; no historical claim rests solely on this source.",
+              "access_scope": "orientation_link_only"
+            },
+            {
+              "source_id": "b16-wiki-wairau",
+              "reason": "Supplementary orientation; no historical claim rests solely on this source.",
+              "access_scope": "orientation_link_only"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "040240-p01",
+              "anchor": "Imagine a family arriving in Aotearoa after crossing water from islands where th",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-bunbury22",
+                "b16-wilmshurst11"
+              ],
+              "source_locator": "Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology); Janet M. Wilmshurst, Terry L. Hunt, Carl P. Lipo, and Atholl J. Anderson, High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia, PNAS 108 (2011) (abstract, methods and conclusions; initial settlement phases)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The family is an illustrative scene, not an identified historical group; chronological claims derive from radiocarbon models."
+            },
+            {
+              "id": "040240-p02",
+              "anchor": "The timing matters because older accounts sometimes placed initial settlement ce",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-bunbury22"
+              ],
+              "source_locator": "Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dates describe the modelled first occupation in the sampled record, not the exact arrival of each waka or ancestor."
+            },
+            {
+              "id": "040240-p03",
+              "anchor": "People reached a large and varied land. Northern regions offered warm areas more",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-bunbury22",
+                "b16-otago-wairau"
+              ],
+              "source_locator": "Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology); University of Otago, Southern Pacific Archaeological Research, Migration, colonisation and Polynesian settlement of Aotearoa: Wairau Bar (Wairau Bar, 2009 Repatriation and 2009 Excavations)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Regional variation is documented, but no single site supplies a complete picture of diets across all Aotearoa."
+            },
+            {
+              "id": "040240-p04",
+              "anchor": "Te Pokohiwi o Kupe, often called Wairau Bar, offers a particularly important ear",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-otago-wairau"
+              ],
+              "source_locator": "University of Otago, Southern Pacific Archaeological Research, Migration, colonisation and Polynesian settlement of Aotearoa: Wairau Bar (Wairau Bar, 2009 Repatriation and 2009 Excavations)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site report documents a local village sequence; its size and practices are not generalized to the entire country."
+            },
+            {
+              "id": "040240-p05",
+              "anchor": "Wairau Bar also has a modern history that changes how the archaeological record ",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-otago-wairau",
+                "b16-tepapa"
+              ],
+              "source_locator": "University of Otago, Southern Pacific Archaeological Research, Migration, colonisation and Polynesian settlement of Aotearoa: Wairau Bar (Wairau Bar, 2009 Repatriation and 2009 Excavations); Museum of New Zealand Te Papa Tongarewa, Repatriation: How it all began (sections on Māori return practices and Wairau Bar objections)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Institutional histories support the chronology and repatriation; the lecture does not claim to speak for all Rangitāne views."
+            },
+            {
+              "id": "040240-p06",
+              "anchor": "Moa hunting offers another way to follow change through time. The new radiocarbo",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-bunbury22"
+              ],
+              "source_locator": "Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The hunting window is a modeled aggregate; extinction mechanisms involve multiple ecological and human factors."
+            },
+            {
+              "id": "040240-p07",
+              "anchor": "Environmental change complicates the sequence further. The later fourteenth cent",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-bunbury22"
+              ],
+              "source_locator": "Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Climate and settlement activity are correlated in the research model; direct causation for individual movements is not demonstrated."
+            },
+            {
+              "id": "040240-p08",
+              "anchor": "Garden skills also changed as people learned what could grow. A plant cultivated",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-bunbury22",
+                "b16-otago-wairau"
+              ],
+              "source_locator": "Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology); University of Otago, Southern Pacific Archaeological Research, Migration, colonisation and Polynesian settlement of Aotearoa: Wairau Bar (Wairau Bar, 2009 Repatriation and 2009 Excavations)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Detailed household adaptations are reasonable social reconstruction from crops and sites, not surviving written instructions."
+            },
+            {
+              "id": "040240-p09",
+              "anchor": "Māori oral histories remember ancestors, waka journeys, places, and relationship",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-tepapa",
+                "b16-otago-wairau",
+                "b16-bunbury22"
+              ],
+              "source_locator": "Museum of New Zealand Te Papa Tongarewa, Repatriation: How it all began (sections on Māori return practices and Wairau Bar objections); University of Otago, Southern Pacific Archaeological Research, Migration, colonisation and Polynesian settlement of Aotearoa: Wairau Bar (Wairau Bar, 2009 Repatriation and 2009 Excavations); Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The lecture recognizes living traditions but does not date a named waka or purport to translate oral accounts."
+            },
+            {
+              "id": "040240-p10",
+              "anchor": "Before 1500, the descendants of these early settlers had already been shaping lo",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-bunbury22",
+                "b16-otago-wairau",
+                "b16-tepapa"
+              ],
+              "source_locator": "Magdalena M. E. Bunbury, Fiona Petchey, and Simon H. Bickler, A new chronology for the Māori settlement of Aotearoa (NZ), PNAS 119 (2022) (Abstract, Significance, Results and Discussion of initial settlement and ecology); University of Otago, Southern Pacific Archaeological Research, Migration, colonisation and Polynesian settlement of Aotearoa: Wairau Bar (Wairau Bar, 2009 Repatriation and 2009 Excavations); Museum of New Zealand Te Papa Tongarewa, Repatriation: How it all began (sections on Māori return practices and Wairau Bar objections)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Final synthesis does not project later iwi political arrangements unchanged into the fourteenth century."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:040250",
+        "file": "040250-hawaii-early-fields-households-and-authority.md",
+        "sha256": "6aeeff795af5ab250537b04fac14c8aa5e1485d40508936e52e5aa62c90f3649",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "040250",
+          "transcript": "040250-hawaii-early-fields-households-and-authority.md",
+          "related_resources": [
+            {
+              "source_id": "b16-hawaii11",
+              "reason": "48 radiocarbon dates on 43 residential features around leeward Kohala; field/household change extends 1400–1800, mostly after 1500, so avoid projecting peak intensity backwards.",
+              "access_scope": "open_full_article_retrieved"
+            },
+            {
+              "source_id": "b16-hawaii08",
+              "reason": "Kohala dryland field-system paths start as early as the fourteenth century in favorable zones, later paths expand after seventeenth-century conditions; full article restricted.",
+              "access_scope": "open_publisher_abstract_only"
+            },
+            {
+              "source_id": "b16-wilmshurst11",
+              "reason": "Review of 1,434 dates emphasizes short-lived samples; proposed late eastern-Polynesian chronology is an evidence-driven model, not a log of named voyages.",
+              "access_scope": "open_full_article_retrieved"
+            },
+            {
+              "source_id": "b16-unm-hawaii",
+              "reason": "Windward Kohala irrigated and coastal residential contexts; project reports thirteenth-century coastal dates and recognizes community collaborators.",
+              "access_scope": "open_full_research_project_page_reviewed"
+            },
+            {
+              "source_id": "b16-wiki-kohala",
+              "reason": "Supplementary orientation; no historical claim rests solely on this source.",
+              "access_scope": "orientation_link_only"
+            },
+            {
+              "source_id": "b16-wiki-ahupuaa",
+              "reason": "Supplementary orientation; no historical claim rests solely on this source.",
+              "access_scope": "orientation_link_only"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "040250-p01",
+              "anchor": "On the leeward slopes of Kohala on Hawaiʻi Island, long lines of stone and earth",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-hawaii11",
+                "b16-hawaii08"
+              ],
+              "source_locator": "Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520); Thegn N. Ladefoged and Michael W. Graves, Variable Development of Dryland Agriculture in Hawaiʻi, Current Anthropology 49 (2008) (publisher abstract and dated expansion claims)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Field forms and chronology are documented; the experiences of particular workers are reconstructed rather than directly witnessed."
+            },
+            {
+              "id": "040250-p02",
+              "anchor": "Hawaiʻi is part of a later phase of East Polynesian settlement. A major radiocar",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-wilmshurst11",
+                "b16-unm-hawaii",
+                "b16-hawaii08"
+              ],
+              "source_locator": "Janet M. Wilmshurst, Terry L. Hunt, Carl P. Lipo, and Atholl J. Anderson, High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia, PNAS 108 (2011) (abstract, methods and conclusions; initial settlement phases); University of New Mexico Anthropology, Hawaiʻi Historical and Archaeological Research Project (windward Kohala and coastal agricultural site descriptions); Thegn N. Ladefoged and Michael W. Graves, Variable Development of Dryland Agriculture in Hawaiʻi, Current Anthropology 49 (2008) (publisher abstract and dated expansion claims)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Island chronology and agricultural environments are broad synthesis; not every Hawaiian locality was settled at one modeled date."
+            },
+            {
+              "id": "040250-p03",
+              "anchor": "In wetter valleys, people could build and maintain irrigated cultivation systems",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-unm-hawaii",
+                "b16-hawaii11"
+              ],
+              "source_locator": "University of New Mexico Anthropology, Hawaiʻi Historical and Archaeological Research Project (windward Kohala and coastal agricultural site descriptions); Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The thirteenth-century coastal dates apply to excavated windward settings, not automatically to all dryland field alignments."
+            },
+            {
+              "id": "040250-p04",
+              "anchor": "The leeward Kohala field system is especially informative because researchers ha",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-hawaii11"
+              ],
+              "source_locator": "Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The ahupuaʻa interpretation is grounded in study area and later land divisions, not a claim of identical boundary rules across all periods."
+            },
+            {
+              "id": "040250-p05",
+              "anchor": "Thegn Ladefoged and Michael Graves used radiocarbon and relative sequencing to d",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-hawaii08",
+                "b16-hawaii11"
+              ],
+              "source_locator": "Thegn N. Ladefoged and Michael W. Graves, Variable Development of Dryland Agriculture in Hawaiʻi, Current Anthropology 49 (2008) (publisher abstract and dated expansion claims); Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The early development chronology is based on calibrated field dates; late phases must not be attributed to the fifteenth century."
+            },
+            {
+              "id": "040250-p06",
+              "anchor": "Another study dated forty-eight samples from forty-three residential features as",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-hawaii11"
+              ],
+              "source_locator": "Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Residential sample dates are not a full district census; the strongest sampled increase lies outside the pre-1500 window."
+            },
+            {
+              "id": "040250-p07",
+              "anchor": "Households changed alongside fields. A family's labor might be divided among pla",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-hawaii11"
+              ],
+              "source_locator": "Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Household fission and demographic implications are inferences from dated house features and mapped field subdivisions."
+            },
+            {
+              "id": "040250-p08",
+              "anchor": "Political hierarchy became increasingly important in later Hawaiian history, and",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-hawaii11",
+                "b16-hawaii08"
+              ],
+              "source_locator": "Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520); Thegn N. Ladefoged and Michael W. Graves, Variable Development of Dryland Agriculture in Hawaiʻi, Current Anthropology 49 (2008) (publisher abstract and dated expansion claims)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Chiefly demand is a research interpretation of later changes; direct orders and individual labor arrangements are not documented."
+            },
+            {
+              "id": "040250-p09",
+              "anchor": "A further caution concerns the word sustainability. A field system capable of pr",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-hawaii08",
+                "b16-hawaii11"
+              ],
+              "source_locator": "Thegn N. Ladefoged and Michael W. Graves, Variable Development of Dryland Agriculture in Hawaiʻi, Current Anthropology 49 (2008) (publisher abstract and dated expansion claims); Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Descriptions of risks follow local environmental interpretation; no exact productivity figures are assigned to unsampled early plots."
+            },
+            {
+              "id": "040250-p10",
+              "anchor": "By 1500, some Kohala agricultural landscapes had already been established for ge",
+              "kind": "historical_research",
+              "source_ids": [
+                "b16-hawaii11",
+                "b16-hawaii08",
+                "b16-unm-hawaii"
+              ],
+              "source_locator": "Household expansion linked to agricultural intensification during emergence of Hawaiian archaic states, PNAS 108 (2011) (Abstract, Kohala system, results, discussion and period I AD 1400–1520); Thegn N. Ladefoged and Michael W. Graves, Variable Development of Dryland Agriculture in Hawaiʻi, Current Anthropology 49 (2008) (publisher abstract and dated expansion claims); University of New Mexico Anthropology, Hawaiʻi Historical and Archaeological Research Project (windward Kohala and coastal agricultural site descriptions)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The conclusion separates early site and field phases from mainly post-1500 intensification."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

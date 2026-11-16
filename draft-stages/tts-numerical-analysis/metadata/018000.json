@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "018000",
-  "transcript": "018000-a-posteriori-pde-error-estimates.md",
+  "transcript": "018000-finite-element-error-bounds-equilibrated-fluxes-and-goal-functionals.md",
   "related_resources": [
     {
       "source_id": "na-verfurth-fem",
@@ -10,7 +10,104 @@
     {
       "source_id": "na-evans-pde",
       "reason": "Weak formulations and elliptic problem well-posedness."
+    },
+    {
+      "source_id": "nu-r15-022000-1",
+      "reason": "Equilibrated flux reconstruction and guaranteed finite element energy error bounds"
+    },
+    {
+      "source_id": "nu-r15-022000-2",
+      "reason": "Equilibrated flux reconstruction and guaranteed finite element energy error bounds"
+    },
+    {
+      "source_id": "nu-r15-022000-3",
+      "reason": "Equilibrated flux reconstruction and guaranteed finite element energy error bounds"
+    },
+    {
+      "source_id": "na-r20-027000-1",
+      "reason": "Reference for Goal-Oriented Error Estimation and Dual-Weighted Residuals (1 of 2)"
+    },
+    {
+      "source_id": "na-r20-027000-2",
+      "reason": "Reference for Goal-Oriented Error Estimation and Dual-Weighted Residuals (2 of 2)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "numerical-analysis:018000",
+        "file": "018000-a-posteriori-pde-error-estimates.md",
+        "sha256": "09041b413c0549f93971ea7ad3a71da3c68bc075d520ddc8f18eec1f555bfb91",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-a-posteriori-pde-error-estimates.md",
+          "related_resources": [
+            {
+              "source_id": "na-verfurth-fem",
+              "reason": "Residual indicators, reliability, efficiency and adaptive refinement."
+            },
+            {
+              "source_id": "na-evans-pde",
+              "reason": "Weak formulations and elliptic problem well-posedness."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "numerical-analysis:022000",
+        "file": "022000-equilibrated-fluxes-and-guaranteed-error-bounds.md",
+        "sha256": "324d2fff4bb9a6c7acc84edac01949cb1614110edf7bfe5276ef393fceff1712",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "022000",
+          "transcript": "022000-equilibrated-fluxes-and-guaranteed-error-bounds.md",
+          "related_resources": [
+            {
+              "source_id": "nu-r15-022000-1",
+              "reason": "Equilibrated flux reconstruction and guaranteed finite element energy error bounds"
+            },
+            {
+              "source_id": "nu-r15-022000-2",
+              "reason": "Equilibrated flux reconstruction and guaranteed finite element energy error bounds"
+            },
+            {
+              "source_id": "nu-r15-022000-3",
+              "reason": "Equilibrated flux reconstruction and guaranteed finite element energy error bounds"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "numerical-analysis:027000",
+        "file": "027000-goal-oriented-dual-weighted-residual.md",
+        "sha256": "bd39b277fccf1ec26723f8a79d045c70917e1a25a9f5f6d318334f5fdd691602",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "027000",
+          "transcript": "027000-goal-oriented-dual-weighted-residual.md",
+          "related_resources": [
+            {
+              "source_id": "na-r20-027000-1",
+              "reason": "Reference for Goal-Oriented Error Estimation and Dual-Weighted Residuals (1 of 2)"
+            },
+            {
+              "source_id": "na-r20-027000-2",
+              "reason": "Reference for Goal-Oriented Error Estimation and Dual-Weighted Residuals (2 of 2)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

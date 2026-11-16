@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "012000",
-  "transcript": "012000-dual-spaces-and-covectors.md",
+  "transcript": "012000-linear-measurements-and-constructions-beyond-vectors.md",
   "related_resources": [
     {
       "source_id": "la-hefferon",
@@ -10,7 +10,109 @@
     {
       "source_id": "la-axler-fourth",
       "reason": "Proofs and structural development of the relevant finite-dimensional theory."
+    },
+    {
+      "source_id": "la-bott-tu",
+      "reason": "Exterior calculus and the geometric meaning of alternating tensors."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "linear-algebra:012000",
+        "file": "012000-dual-spaces-and-covectors.md",
+        "sha256": "da97a47f7d5dd31e57ca161fc031f4ecd8e97e9f4f9d4b5111e7d0c00f73f060",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-dual-spaces-and-covectors.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-axler-fourth",
+              "reason": "Proofs and structural development of the relevant finite-dimensional theory."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "linear-algebra:013000",
+        "file": "013000-bilinear-forms-and-quadratic-geometry.md",
+        "sha256": "b71aed9bf694ae9c66df2d10972e6ec9b82432181a9689be804c1d122807a61c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-bilinear-forms-and-quadratic-geometry.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-axler-fourth",
+              "reason": "Proofs and structural development of the relevant finite-dimensional theory."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "linear-algebra:014000",
+        "file": "014000-tensor-products-and-exterior-algebra.md",
+        "sha256": "8dede6d33a32fd58c47de3a836644fcb6d9169c5f365e04561fbb5ac013769a6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-tensor-products-and-exterior-algebra.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-axler-fourth",
+              "reason": "Proofs and structural development of the relevant finite-dimensional theory."
+            },
+            {
+              "source_id": "la-bott-tu",
+              "reason": "Exterior calculus and the geometric meaning of alternating tensors."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "linear-algebra:015000",
+        "file": "015000-quotient-spaces-and-exact-sequences.md",
+        "sha256": "a95dc42ee6750e822287517d2e53fee8c6f743b3aa2cb9577cfecdcf1879d3c8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-quotient-spaces-and-exact-sequences.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-axler-fourth",
+              "reason": "Proofs and structural development of the relevant finite-dimensional theory."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "015000",
-  "transcript": "015000-diagnosing-tool-runout-vibration-and-repeatability.md",
+  "transcript": "015000-diagnose-process-error-and-prove-acceptance.md",
   "related_resources": [
     {
       "source_id": "nist-uncertainty",
@@ -18,6 +18,14 @@
     {
       "source_id": "osha-drill-press",
       "reason": "Clamping stock, twist hazards and drill press operational constraints"
+    },
+    {
+      "source_id": "openstax-torque",
+      "reason": "Torque and perpendicular moment arm"
+    },
+    {
+      "source_id": "usda-fasteners",
+      "reason": "Chapter 8: fastening; Chapters 4–5: wood properties"
     }
   ],
   "historical_claims": [],
@@ -101,8 +109,722 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
       "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-01",
+      "claim": "Measurement repeatability, resolution and accuracy or bias are distinct attributes.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-repeatability",
+          "location": "Definition and conditions for repeatability",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Measurement values, standards and uncertainty",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Calibration and checking against reference standards reduce systematic error but have their own limitations.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-calibration",
+          "location": "Calibration limitations; precision, bias, operator changes",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Measurement values, standards and uncertainty",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "A shop transfer gauge can control relative part dimensions without proving absolute traceability.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Measurement values, standards and uncertainty",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-calibration",
+          "location": "Calibration limitations; precision, bias, operator changes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "First-, middle- and last-part checks can reveal process drift that repeated nominal measurements miss.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-repeatability",
+          "location": "Definition and conditions for repeatability",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-calibration",
+          "location": "Calibration limitations; precision, bias, operator changes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "Measurement context, instrument uncertainty and repeatability affect whether an observed difference is meaningful.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Measurement values, standards and uncertainty",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-repeatability",
+          "location": "Definition and conditions for repeatability",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "A no-load measurement may not represent a system under operating load.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "openstax-torque",
+          "location": "Torque and perpendicular moment arm",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Measurement values, standards and uncertainty",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Instrument calibration and sensor location affect interpretation of time-varying diagnostics.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-calibration",
+          "location": "Calibration limitations; precision, bias, operator changes",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Measurement values, standards and uncertainty",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "A discriminating test should change one key operating condition while recording other relevant variables.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-repeatability",
+          "location": "Definition and conditions for repeatability",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Measurement values, standards and uncertainty",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "Go/no-go decisions depend on defined tolerance boundaries and reference geometry.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Measurement values, standards and uncertainty",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-calibration",
+          "location": "Calibration limitations; precision, bias, operator changes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Gauge uncertainty and operator repeatability can alter pass/fail classification.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Measurement values, standards and uncertainty",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-repeatability",
+          "location": "Definition and conditions for repeatability",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "A functional assembly test may detect failures not determined by a single dimension.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-repeatability",
+          "location": "Definition and conditions for repeatability",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-fasteners",
+          "location": "Chapter 8: fastening; Chapters 4–5: wood properties",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "Repeated inspection should use documented conditions and traceable instrument identity.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-calibration",
+          "location": "Calibration limitations; precision, bias, operator changes",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-repeatability",
+          "location": "Definition and conditions for repeatability",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-tools-and-measurement:015000",
+        "file": "015000-diagnosing-tool-runout-vibration-and-repeatability.md",
+        "sha256": "be85f77f6a4000c61e9c094397e337033cfc5cbc0481bdc80f30d9c160b21c78",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-diagnosing-tool-runout-vibration-and-repeatability.md",
+          "related_resources": [
+            {
+              "source_id": "nist-uncertainty",
+              "reason": "Measurement values, standards and uncertainty"
+            },
+            {
+              "source_id": "nist-repeatability",
+              "reason": "Definition and conditions for repeatability"
+            },
+            {
+              "source_id": "nist-calibration",
+              "reason": "Calibration limitations; precision, bias, operator changes"
+            },
+            {
+              "source_id": "osha-drill-press",
+              "reason": "Clamping stock, twist hazards and drill press operational constraints"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "Indicated runout measures motion relative to a reference axis, not all error under cutting load.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement values, standards and uncertainty",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-calibration",
+                  "location": "Calibration limitations; precision, bias, operator changes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "Separating spindle, holder and tool measurements helps localize rotational eccentricity.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement values, standards and uncertainty",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-drill-press",
+                  "location": "Clamping stock, twist hazards and drill press operational constraints",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Repeatability and accuracy answer different measurement questions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-repeatability",
+                  "location": "Definition and conditions for repeatability",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-calibration",
+                  "location": "Calibration limitations; precision, bias, operator changes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Clamping and support under actual cutting forces can dominate apparent machine precision.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "osha-drill-press",
+                  "location": "Clamping stock, twist hazards and drill press operational constraints",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement values, standards and uncertainty",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-tools-and-measurement:016000",
+        "file": "016000-quality-control-and-reference-standards-for-home-workshops.md",
+        "sha256": "04188b73f7c74044c13f1952591934410ce188aa52cdee47782685d935288203",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-quality-control-and-reference-standards-for-home-workshops.md",
+          "related_resources": [
+            {
+              "source_id": "nist-uncertainty",
+              "reason": "Measurement values, standards and uncertainty"
+            },
+            {
+              "source_id": "nist-repeatability",
+              "reason": "Definition and conditions for repeatability"
+            },
+            {
+              "source_id": "nist-calibration",
+              "reason": "Calibration limitations; precision, bias, operator changes"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "Measurement repeatability, resolution and accuracy or bias are distinct attributes.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-repeatability",
+                  "location": "Definition and conditions for repeatability",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement values, standards and uncertainty",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "Calibration and checking against reference standards reduce systematic error but have their own limitations.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-calibration",
+                  "location": "Calibration limitations; precision, bias, operator changes",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement values, standards and uncertainty",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "A shop transfer gauge can control relative part dimensions without proving absolute traceability.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement values, standards and uncertainty",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-calibration",
+                  "location": "Calibration limitations; precision, bias, operator changes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "First-, middle- and last-part checks can reveal process drift that repeated nominal measurements miss.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-repeatability",
+                  "location": "Definition and conditions for repeatability",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-calibration",
+                  "location": "Calibration limitations; precision, bias, operator changes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-tools-and-measurement:017000",
+        "file": "017000-diagnostic-measurements-under-load-and-over-time.md",
+        "sha256": "bd236cc2085beee3bde3e4294a473c3c6d79317b6e9ebce8574df0ba17073e8a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-diagnostic-measurements-under-load-and-over-time.md",
+          "related_resources": [
+            {
+              "source_id": "nist-uncertainty",
+              "reason": "Measurement values, standards and uncertainty"
+            },
+            {
+              "source_id": "nist-repeatability",
+              "reason": "Definition and conditions for repeatability"
+            },
+            {
+              "source_id": "nist-calibration",
+              "reason": "Calibration limitations; precision, bias, operator changes"
+            },
+            {
+              "source_id": "openstax-torque",
+              "reason": "Torque and perpendicular moment arm"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "Measurement context, instrument uncertainty and repeatability affect whether an observed difference is meaningful.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement values, standards and uncertainty",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-repeatability",
+                  "location": "Definition and conditions for repeatability",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "A no-load measurement may not represent a system under operating load.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "openstax-torque",
+                  "location": "Torque and perpendicular moment arm",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement values, standards and uncertainty",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "Instrument calibration and sensor location affect interpretation of time-varying diagnostics.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-calibration",
+                  "location": "Calibration limitations; precision, bias, operator changes",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement values, standards and uncertainty",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "A discriminating test should change one key operating condition while recording other relevant variables.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-repeatability",
+                  "location": "Definition and conditions for repeatability",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement values, standards and uncertainty",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-tools-and-measurement:018000",
+        "file": "018000-go-no-go-fixtures-and-repeatable-acceptance-tests.md",
+        "sha256": "5de16abc9ed17663810e295ea247c8c40c39f941c61a3c09a1de5327c8accf65",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-go-no-go-fixtures-and-repeatable-acceptance-tests.md",
+          "related_resources": [
+            {
+              "source_id": "nist-uncertainty",
+              "reason": "Measurement values, standards and uncertainty"
+            },
+            {
+              "source_id": "nist-repeatability",
+              "reason": "Definition and conditions for repeatability"
+            },
+            {
+              "source_id": "nist-calibration",
+              "reason": "Calibration limitations; precision, bias, operator changes"
+            },
+            {
+              "source_id": "usda-fasteners",
+              "reason": "Chapter 8: fastening; Chapters 4–5: wood properties"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "Go/no-go decisions depend on defined tolerance boundaries and reference geometry.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement values, standards and uncertainty",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-calibration",
+                  "location": "Calibration limitations; precision, bias, operator changes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Gauge uncertainty and operator repeatability can alter pass/fail classification.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement values, standards and uncertainty",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-repeatability",
+                  "location": "Definition and conditions for repeatability",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "A functional assembly test may detect failures not determined by a single dimension.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-repeatability",
+                  "location": "Definition and conditions for repeatability",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usda-fasteners",
+                  "location": "Chapter 8: fastening; Chapters 4–5: wood properties",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "Repeated inspection should use documented conditions and traceable instrument identity.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-calibration",
+                  "location": "Calibration limitations; precision, bias, operator changes",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-repeatability",
+                  "location": "Definition and conditions for repeatability",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "015000-diagnose-process-error-and-prove-acceptance.md"
+      ],
+      "joined_before_source_parts": [
+        "016000",
+        "018000"
+      ]
+    }
+  ]
 }

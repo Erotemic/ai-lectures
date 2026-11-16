@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "014000",
-  "transcript": "014000-riemannian-metrics-geodesics-and-curvature.md",
+  "transcript": "014000-metrics-curvature-degree-and-gauss-bonnet.md",
   "related_resources": [
     {
       "source_id": "tg-ucla-gauss",
@@ -14,6 +14,58 @@
     {
       "source_id": "tg-mit-manifolds",
       "reason": "Metrics and Levi-Civita connection background."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Metric coefficients, Christoffel symbols and geodesic calculations."
+    },
+    {
+      "source_id": "tg-mit-differential",
+      "reason": "The sphere and the flat polar plane."
+    },
+    {
+      "source_id": "tg-mit-differential",
+      "reason": "Curvature, Jacobi equation and conjugate points."
+    },
+    {
+      "source_id": "tg-moore-hodge",
+      "reason": "Riemannian Jacobi-field background."
+    },
+    {
+      "source_id": "tg-ucla-gauss",
+      "reason": "Geodesic triangles and intrinsic curvature."
+    },
+    {
+      "source_id": "tg-notredame-gauss",
+      "reason": "Boundary formula and triangulation method."
+    },
+    {
+      "source_id": "tg-mit-differential",
+      "reason": "Curvature of Riemannian surfaces."
+    },
+    {
+      "source_id": "tg-notredame-gauss",
+      "reason": "Gauss–Bonnet with boundary and triangulations."
+    },
+    {
+      "source_id": "tg-mit-differential",
+      "reason": "Gaussian curvature and geodesic triangles."
+    },
+    {
+      "source_id": "tg-hatcher-algtop",
+      "reason": "Degree, homology, and fixed-point obstructions."
+    },
+    {
+      "source_id": "tg-may-fixedpoint",
+      "reason": "Brouwer fixed-point argument using no retraction."
+    },
+    {
+      "source_id": "tg-hatcher-algtop",
+      "reason": "Degree as orientation count and fixed-point obstruction."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Regular value theorem and Sard theorem."
     }
   ],
   "historical_claims": [
@@ -26,6 +78,203 @@
       ],
       "source_locator": "UCLA historical attribution for Gauss theorem.",
       "audit_status": "reference_recorded"
+    },
+    {
+      "id": "017000-h01",
+      "anchor": "Gauss–Bonnet",
+      "kind": "historical_research",
+      "source_ids": [
+        "tg-notredame-gauss"
+      ],
+      "source_locator": "Local-to-global triangulation derivation.",
+      "audit_status": "reference_recorded"
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:014000",
+        "file": "014000-riemannian-metrics-geodesics-and-curvature.md",
+        "sha256": "e4caf5a55b68b746bd42b5066be8dec3897989a858c139b8b06efa436da0344f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-riemannian-metrics-geodesics-and-curvature.md",
+          "related_resources": [
+            {
+              "source_id": "tg-ucla-gauss",
+              "reason": "Intrinsic curvature, metric and Gauss theorem."
+            },
+            {
+              "source_id": "tg-colorado-gauss",
+              "reason": "Geodesics, intrinsic curvature and interpretation."
+            },
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Metrics and Levi-Civita connection background."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "014000-h01",
+              "anchor": "Historically, Carl Friedrich Gauss established that the Gaussian curvature of a regular surface is intrinsic.",
+              "kind": "historical_research",
+              "source_ids": [
+                "tg-ucla-gauss"
+              ],
+              "source_locator": "UCLA historical attribution for Gauss theorem.",
+              "audit_status": "reference_recorded"
+            }
+          ]
+        }
+      },
+      {
+        "id": "topology-geometry:014100",
+        "file": "014100-riemannian-geometry-calculations-in-coordinates.md",
+        "sha256": "ceaf12bb7e6204361f1964ed48f2db76f76938ef8f6f069a3078b6a09a00c803",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014100",
+          "transcript": "014100-riemannian-geometry-calculations-in-coordinates.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Metric coefficients, Christoffel symbols and geodesic calculations."
+            },
+            {
+              "source_id": "tg-mit-differential",
+              "reason": "The sphere and the flat polar plane."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:014200",
+        "file": "014200-jacobi-fields-and-geodesic-deviation.md",
+        "sha256": "8879c11a05c1f257e909da65aeb6615f895c1ab9f45b982afe11a98c069d03da",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014200",
+          "transcript": "014200-jacobi-fields-and-geodesic-deviation.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit-differential",
+              "reason": "Curvature, Jacobi equation and conjugate points."
+            },
+            {
+              "source_id": "tg-moore-hodge",
+              "reason": "Riemannian Jacobi-field background."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:017000",
+        "file": "017000-gauss-bonnet-curvature-and-euler-characteristic.md",
+        "sha256": "ee5ecd1281e5bc5f4bb097b6a906bbc90079c883659c1592ef1899b18e4e6597",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-gauss-bonnet-curvature-and-euler-characteristic.md",
+          "related_resources": [
+            {
+              "source_id": "tg-ucla-gauss",
+              "reason": "Geodesic triangles and intrinsic curvature."
+            },
+            {
+              "source_id": "tg-notredame-gauss",
+              "reason": "Boundary formula and triangulation method."
+            },
+            {
+              "source_id": "tg-mit-differential",
+              "reason": "Curvature of Riemannian surfaces."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "017000-h01",
+              "anchor": "Gauss–Bonnet",
+              "kind": "historical_research",
+              "source_ids": [
+                "tg-notredame-gauss"
+              ],
+              "source_locator": "Local-to-global triangulation derivation.",
+              "audit_status": "reference_recorded"
+            }
+          ]
+        }
+      },
+      {
+        "id": "topology-geometry:017100",
+        "file": "017100-gauss-bonnet-from-triangles-to-euler-characteristic.md",
+        "sha256": "ed6e1c720793afe1e3d99224dfef534e2c98e64de972f494b6c2052c82f4444d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017100",
+          "transcript": "017100-gauss-bonnet-from-triangles-to-euler-characteristic.md",
+          "related_resources": [
+            {
+              "source_id": "tg-notredame-gauss",
+              "reason": "Gauss–Bonnet with boundary and triangulations."
+            },
+            {
+              "source_id": "tg-mit-differential",
+              "reason": "Gaussian curvature and geodesic triangles."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:019000",
+        "file": "019000-degree-theory-and-brouwer-fixed-points.md",
+        "sha256": "6ce89926fe3893615b2f2e9eef59755263fba99304cf309a3837a85999ea477e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-degree-theory-and-brouwer-fixed-points.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher-algtop",
+              "reason": "Degree, homology, and fixed-point obstructions."
+            },
+            {
+              "source_id": "tg-may-fixedpoint",
+              "reason": "Brouwer fixed-point argument using no retraction."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:019100",
+        "file": "019100-regular-values-degree-and-fixed-points.md",
+        "sha256": "365fdd5a92cf5000d64bbe23f12181346a5c93d2f546274ad5de7709f0972549",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019100",
+          "transcript": "019100-regular-values-degree-and-fixed-points.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher-algtop",
+              "reason": "Degree as orientation count and fixed-point obstruction."
+            },
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Regular value theorem and Sard theorem."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

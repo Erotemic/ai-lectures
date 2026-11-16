@@ -1,12 +1,179 @@
 {
   "schema_version": 1,
   "lecture_id": "021100",
-  "transcript": "021100-symplectic-forms-and-hamiltonian-motion.md",
+  "transcript": "021100-hamiltonian-geometry-symmetries-and-local-normal-forms.md",
   "related_resources": [
     {
       "source_id": "tg-toronto-symplectic",
       "reason": "Symplectic forms and Hamiltonian dynamics."
+    },
+    {
+      "source_id": "tg-toronto-symplectic",
+      "reason": "Moment maps, Hamiltonian group actions and symplectic reduction."
+    },
+    {
+      "source_id": "tg-eth-moment-map",
+      "reason": "Examples, convexity and geometry of moment maps."
+    },
+    {
+      "source_id": "tg-wendl-holomorphic",
+      "reason": "Compatible/tame almost-complex structures, associated metrics and J-curves."
+    },
+    {
+      "source_id": "tg-r16-032000-3",
+      "reason": "Foundational monograph for pseudoholomorphic curves."
+    },
+    {
+      "source_id": "tg-mit-lectures-symplectic",
+      "reason": "Symplectic linear algebra and compatible complex structures."
+    },
+    {
+      "source_id": "tg-moser-volume-1965",
+      "reason": "Original Moser volume-form transport argument and idea attribution."
+    },
+    {
+      "source_id": "tg-mit-lectures-symplectic",
+      "reason": "Symplectic Moser isotopies and local Darboux theorem."
+    },
+    {
+      "source_id": "tg-toronto-symplectic",
+      "reason": "Symplectic form and coordinate foundations."
+    },
+    {
+      "source_id": "tg-r16-032000-1",
+      "reason": "Original Lagrangian intersection Floer framework."
+    },
+    {
+      "source_id": "tg-hutchings-floer-course",
+      "reason": "Intersections and holomorphic curve setup."
+    },
+    {
+      "source_id": "tg-mit-lectures-symplectic",
+      "reason": "Cotangent bundles, canonical one-form, Lagrangians."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:021100",
+        "file": "021100-symplectic-forms-and-hamiltonian-motion.md",
+        "sha256": "26d650996d0fae170b147c38e44a2ba6ad716df09f0e549963081aa0fce150b4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021100",
+          "transcript": "021100-symplectic-forms-and-hamiltonian-motion.md",
+          "related_resources": [
+            {
+              "source_id": "tg-toronto-symplectic",
+              "reason": "Symplectic forms and Hamiltonian dynamics."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:021000",
+        "file": "021000-symplectic-moment-maps-and-reduction.md",
+        "sha256": "32adf476ebfe56f5f67f8992f9e4d58c07a9c27345733a4e6ca0bfbe493fe346",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-symplectic-moment-maps-and-reduction.md",
+          "related_resources": [
+            {
+              "source_id": "tg-toronto-symplectic",
+              "reason": "Moment maps, Hamiltonian group actions and symplectic reduction."
+            },
+            {
+              "source_id": "tg-eth-moment-map",
+              "reason": "Examples, convexity and geometry of moment maps."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:021200",
+        "file": "021200-compatible-almost-complex-structures-and-metrics.md",
+        "sha256": "729683da585717c02e3fce7a7c6e51b8ecf53c050fe995cfc05e0928367bb201",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021200",
+          "transcript": "021200-compatible-almost-complex-structures-and-metrics.md",
+          "related_resources": [
+            {
+              "source_id": "tg-wendl-holomorphic",
+              "reason": "Compatible/tame almost-complex structures, associated metrics and J-curves."
+            },
+            {
+              "source_id": "tg-r16-032000-3",
+              "reason": "Foundational monograph for pseudoholomorphic curves."
+            },
+            {
+              "source_id": "tg-mit-lectures-symplectic",
+              "reason": "Symplectic linear algebra and compatible complex structures."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:021300",
+        "file": "021300-darboux-moser-and-changing-symplectic-forms.md",
+        "sha256": "f49a0b9996164cd9fe3bf8590857945957de95f4880355c0a4d813e8dbfaab0b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021300",
+          "transcript": "021300-darboux-moser-and-changing-symplectic-forms.md",
+          "related_resources": [
+            {
+              "source_id": "tg-moser-volume-1965",
+              "reason": "Original Moser volume-form transport argument and idea attribution."
+            },
+            {
+              "source_id": "tg-mit-lectures-symplectic",
+              "reason": "Symplectic Moser isotopies and local Darboux theorem."
+            },
+            {
+              "source_id": "tg-toronto-symplectic",
+              "reason": "Symplectic form and coordinate foundations."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:021400",
+        "file": "021400-lagrangian-graphs-and-exactness-in-cotangent-bundles.md",
+        "sha256": "03414e4304738d9f8ab50d79c8085414b5e0ea627d5ca4eb93e37cd62715e13c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021400",
+          "transcript": "021400-lagrangian-graphs-and-exactness-in-cotangent-bundles.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r16-032000-1",
+              "reason": "Original Lagrangian intersection Floer framework."
+            },
+            {
+              "source_id": "tg-hutchings-floer-course",
+              "reason": "Intersections and holomorphic curve setup."
+            },
+            {
+              "source_id": "tg-mit-lectures-symplectic",
+              "reason": "Cotangent bundles, canonical one-form, Lagrangians."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

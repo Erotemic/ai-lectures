@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "009000",
-  "transcript": "009000-splitting-fields-and-separability.md",
+  "transcript": "009000-splitting-fields-and-the-galois-correspondence.md",
   "related_resources": [
     {
       "source_id": "aa-mit702",
@@ -10,7 +10,125 @@
     {
       "source_id": "aa-conrad",
       "reason": "Proofs and examples of splitting fields and separable extensions."
+    },
+    {
+      "source_id": "aa-mit702",
+      "reason": "Galois groups as root-preserving field automorphisms."
+    },
+    {
+      "source_id": "aa-conrad",
+      "reason": "Cubic and biquadratic splitting fields and permutation groups."
+    },
+    {
+      "source_id": "aa-conrad",
+      "reason": "Fixed fields and inclusion-reversing Galois correspondence."
+    },
+    {
+      "source_id": "aa-mit702",
+      "reason": "Intermediate fields, subgroup correspondence, normality."
+    },
+    {
+      "source_id": "aa-mit702",
+      "reason": "Cubic and quintic equations and Galois solvability."
+    },
+    {
+      "source_id": "aa-conrad",
+      "reason": "Radical extensions and solvable Galois groups."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:009000",
+        "file": "009000-splitting-fields-and-separability.md",
+        "sha256": "9dc76015368709d11e4bdb2acfbd375618e9b018b0fde8f7ea3e52203387897c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-splitting-fields-and-separability.md",
+          "related_resources": [
+            {
+              "source_id": "aa-mit702",
+              "reason": "Finite fields, splitting fields, and separability."
+            },
+            {
+              "source_id": "aa-conrad",
+              "reason": "Proofs and examples of splitting fields and separable extensions."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:010000",
+        "file": "010000-galois-groups-and-root-symmetries.md",
+        "sha256": "ad110aa2d727f613cb48bf5faaecf45724aa8d924c92bb5c1cf6405b90f6c743",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-galois-groups-and-root-symmetries.md",
+          "related_resources": [
+            {
+              "source_id": "aa-mit702",
+              "reason": "Galois groups as root-preserving field automorphisms."
+            },
+            {
+              "source_id": "aa-conrad",
+              "reason": "Cubic and biquadratic splitting fields and permutation groups."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:011000",
+        "file": "011000-galois-correspondence.md",
+        "sha256": "e86cfcc7c42195f73e237dc93fd09941c16c154440a3ea1533ea090c009e67f1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-galois-correspondence.md",
+          "related_resources": [
+            {
+              "source_id": "aa-conrad",
+              "reason": "Fixed fields and inclusion-reversing Galois correspondence."
+            },
+            {
+              "source_id": "aa-mit702",
+              "reason": "Intermediate fields, subgroup correspondence, normality."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:012000",
+        "file": "012000-radicals-and-limits-of-formulas.md",
+        "sha256": "834a5e79bbfea188c73eca6da12c96597babb45b410ca3163ae104a81f0f94b5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-radicals-and-limits-of-formulas.md",
+          "related_resources": [
+            {
+              "source_id": "aa-mit702",
+              "reason": "Cubic and quintic equations and Galois solvability."
+            },
+            {
+              "source_id": "aa-conrad",
+              "reason": "Radical extensions and solvable Galois groups."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

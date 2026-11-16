@@ -1,12 +1,205 @@
 {
   "schema_version": 1,
   "lecture_id": "011000",
-  "transcript": "011000-simplicial-chains-cycles-and-homology.md",
+  "transcript": "011000-chains-homology-cohomology-and-concrete-calculations.md",
   "related_resources": [
     {
       "source_id": "tg-hatcher",
       "reason": "Simplicial and singular homology, boundary operators and computations."
+    },
+    {
+      "source_id": "tg-hatcher-algtop",
+      "reason": "Cellular and relative homology, torsion, exact sequences."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Chain complex and topology background."
+    },
+    {
+      "source_id": "tg-hatcher-algtop",
+      "reason": "Mayer–Vietoris, circle, sphere and torus calculations."
+    },
+    {
+      "source_id": "tg-hatcher",
+      "reason": "Singular chains, homology and real cohomology."
+    },
+    {
+      "source_id": "tg-salamon-difftop",
+      "reason": "De Rham cohomology and the integration comparison map."
+    },
+    {
+      "source_id": "tg-hatcher",
+      "reason": "Cohomology, cup product, torus ring and wedge-space comparisons."
+    },
+    {
+      "source_id": "tg-auroux",
+      "reason": "Closed/exact differential forms and de Rham classes."
+    },
+    {
+      "source_id": "tg-salamon-difftop",
+      "reason": "Cohomology calculations for circle and higher-dimensional tori."
+    },
+    {
+      "source_id": "tg-hatcher",
+      "reason": "Cohomology rings and product spaces."
+    },
+    {
+      "source_id": "tg-hatcher",
+      "reason": "Mayer-Vietoris and excision in singular homology."
+    },
+    {
+      "source_id": "tg-mit18901",
+      "reason": "Open-cover homology and long exact sequences."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:011000",
+        "file": "011000-simplicial-chains-cycles-and-homology.md",
+        "sha256": "e6e80dcc64e7ed9d3d867c4471589dc1d15c61492216ca247a2541f85099aa8a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-simplicial-chains-cycles-and-homology.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher",
+              "reason": "Simplicial and singular homology, boundary operators and computations."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:015100",
+        "file": "015100-chain-complexes-exact-sequences-and-relative-homology.md",
+        "sha256": "27cc02fb304d93f08a98cf22247a1cd20585c045cd639dc025f4846e615becd5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015100",
+          "transcript": "015100-chain-complexes-exact-sequences-and-relative-homology.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher-algtop",
+              "reason": "Cellular and relative homology, torsion, exact sequences."
+            },
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Chain complex and topology background."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:015200",
+        "file": "015200-mayer-vietoris-and-cellular-homology-by-example.md",
+        "sha256": "9fc9574646443ef74a342c4db8789ef4bfe3c1dac9be1b3641f3f3db832f5d40",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015200",
+          "transcript": "015200-mayer-vietoris-and-cellular-homology-by-example.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher-algtop",
+              "reason": "Mayer–Vietoris, circle, sphere and torus calculations."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:011100",
+        "file": "011100-integration-over-cycles-and-de-rham-map.md",
+        "sha256": "5c1816dc56535dd7b151805f159821de16a833bad1ab44640ae22b4e94259b7d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011100",
+          "transcript": "011100-integration-over-cycles-and-de-rham-map.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher",
+              "reason": "Singular chains, homology and real cohomology."
+            },
+            {
+              "source_id": "tg-salamon-difftop",
+              "reason": "De Rham cohomology and the integration comparison map."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:012000",
+        "file": "012000-cohomology-cup-products-and-de-rham-classes.md",
+        "sha256": "7cac6564bdc2c042b49190006033700e7f6628cab0ce06f1b2bc50e89c17b122",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-cohomology-cup-products-and-de-rham-classes.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher",
+              "reason": "Cohomology, cup product, torus ring and wedge-space comparisons."
+            },
+            {
+              "source_id": "tg-auroux",
+              "reason": "Closed/exact differential forms and de Rham classes."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:012100",
+        "file": "012100-computing-cohomology-of-circles-and-tori.md",
+        "sha256": "2c67e4077a70308c7f0e1ac089862e420bf837933bdf5038321939c6f1d1963f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012100",
+          "transcript": "012100-computing-cohomology-of-circles-and-tori.md",
+          "related_resources": [
+            {
+              "source_id": "tg-salamon-difftop",
+              "reason": "Cohomology calculations for circle and higher-dimensional tori."
+            },
+            {
+              "source_id": "tg-hatcher",
+              "reason": "Cohomology rings and product spaces."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:015000",
+        "file": "015000-mayer-vietoris-excision-and-gluing-homology.md",
+        "sha256": "60cfd72ea53194c00168b6bcac11780c37681c83d46209fafbf0daecd76323cc",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-mayer-vietoris-excision-and-gluing-homology.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher",
+              "reason": "Mayer-Vietoris and excision in singular homology."
+            },
+            {
+              "source_id": "tg-mit18901",
+              "reason": "Open-cover homology and long exact sequences."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

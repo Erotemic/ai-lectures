@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "039000",
-  "transcript": "039000-donaldson-intersection-invariants.md",
+  "transcript": "039000-four-manifold-invariants-family-indices-and-genus-bounds.md",
   "related_resources": [
     {
       "source_id": "tg-r20-039000-1",
@@ -14,7 +14,174 @@
     {
       "source_id": "tg-r20-039000-3",
       "reason": "Reference for Donaldson Invariants and the Smooth Topology of Four-Manifolds (3 of 3)"
+    },
+    {
+      "source_id": "tg-hatcher-vb",
+      "reason": "Virtual class and determinant line of bundles."
+    },
+    {
+      "source_id": "tg-atiyah-singer-families-iv",
+      "reason": "Families index theorem and virtual kernel-minus-cokernel."
+    },
+    {
+      "source_id": "tg-bismut-freed-det-i",
+      "reason": "Later analytic determinant-line geometry, distinguished from finite model."
+    },
+    {
+      "source_id": "tg-r20-040000-1",
+      "reason": "Reference for Families Index Theory and Determinant Line Bundles (1 of 3)"
+    },
+    {
+      "source_id": "tg-r20-040000-2",
+      "reason": "Reference for Families Index Theory and Determinant Line Bundles (2 of 3)"
+    },
+    {
+      "source_id": "tg-r20-040000-3",
+      "reason": "Reference for Families Index Theory and Determinant Line Bundles (3 of 3)"
+    },
+    {
+      "source_id": "tg-r21-041000-1",
+      "reason": "original Seiberg–Witten perspective on smooth topology"
+    },
+    {
+      "source_id": "tg-r21-041000-2",
+      "reason": "connections to symplectic structures and pseudoholomorphic curves"
+    },
+    {
+      "source_id": "tg-r21-042000-1",
+      "reason": "Seiberg–Witten invariants and four-manifold constraints"
+    },
+    {
+      "source_id": "tg-r21-042000-2",
+      "reason": "modern extension and a discussion of adjunction constraints"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:039000",
+        "file": "039000-donaldson-intersection-invariants.md",
+        "sha256": "df7a991db6f258b7a5a3c3cf98385f140ee4bab2a0a066f229237d704fa9c06e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "039000",
+          "transcript": "039000-donaldson-intersection-invariants.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r20-039000-1",
+              "reason": "Reference for Donaldson Invariants and the Smooth Topology of Four-Manifolds (1 of 3)"
+            },
+            {
+              "source_id": "tg-r20-039000-2",
+              "reason": "Reference for Donaldson Invariants and the Smooth Topology of Four-Manifolds (2 of 3)"
+            },
+            {
+              "source_id": "tg-r20-039000-3",
+              "reason": "Reference for Donaldson Invariants and the Smooth Topology of Four-Manifolds (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:039100",
+        "file": "039100-a-family-index-and-determinant-line-by-hand.md",
+        "sha256": "585e797664d6231157bd4b7812bc486b87bde4e3497bdc169dc331efdfa739bd",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "039100",
+          "transcript": "039100-a-family-index-and-determinant-line-by-hand.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher-vb",
+              "reason": "Virtual class and determinant line of bundles."
+            },
+            {
+              "source_id": "tg-atiyah-singer-families-iv",
+              "reason": "Families index theorem and virtual kernel-minus-cokernel."
+            },
+            {
+              "source_id": "tg-bismut-freed-det-i",
+              "reason": "Later analytic determinant-line geometry, distinguished from finite model."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:040000",
+        "file": "040000-families-index-and-determinant-lines.md",
+        "sha256": "8d977e4f26763e54a3bbe936fd98ad0d049d68d53f16d8f3a17c482657ac2616",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "040000",
+          "transcript": "040000-families-index-and-determinant-lines.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r20-040000-1",
+              "reason": "Reference for Families Index Theory and Determinant Line Bundles (1 of 3)"
+            },
+            {
+              "source_id": "tg-r20-040000-2",
+              "reason": "Reference for Families Index Theory and Determinant Line Bundles (2 of 3)"
+            },
+            {
+              "source_id": "tg-r20-040000-3",
+              "reason": "Reference for Families Index Theory and Determinant Line Bundles (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:041000",
+        "file": "041000-seiberg-witten-monopoles-and-four-manifolds.md",
+        "sha256": "1a9ecc6db45fc8193ccf0ca218c53ba54b2e562cf53012a5269bdfef514693a6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "041000",
+          "transcript": "041000-seiberg-witten-monopoles-and-four-manifolds.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r21-041000-1",
+              "reason": "original Seiberg–Witten perspective on smooth topology"
+            },
+            {
+              "source_id": "tg-r21-041000-2",
+              "reason": "connections to symplectic structures and pseudoholomorphic curves"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:042000",
+        "file": "042000-adjunction-inequalities-and-smooth-genus-bounds.md",
+        "sha256": "2c1ab530f5940dcdbf3e856650bfb5ba302f18c79bf0c2978402f444b5d23c1a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "042000",
+          "transcript": "042000-adjunction-inequalities-and-smooth-genus-bounds.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r21-042000-1",
+              "reason": "Seiberg–Witten invariants and four-manifold constraints"
+            },
+            {
+              "source_id": "tg-r21-042000-2",
+              "reason": "modern extension and a discussion of adjunction constraints"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

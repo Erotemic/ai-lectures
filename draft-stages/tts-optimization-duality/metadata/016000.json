@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "016000",
-  "transcript": "016000-homogeneous-self-dual-embedding-and-certificates.md",
+  "transcript": "016000-infeasibility-embeddings-faces-and-exact-arithmetic.md",
   "related_resources": [
     {
       "source_id": "op-r12-016000-1",
@@ -14,7 +14,108 @@
     {
       "source_id": "op-r12-016000-3",
       "reason": "Homogeneous embedding, optimality and conic infeasibility certificates"
+    },
+    {
+      "source_id": "op-r16-020000-1",
+      "reason": "Reference on Facial Reduction: Finding the True Interior of a Semidefinite Program (1 of 3)"
+    },
+    {
+      "source_id": "op-r16-020000-2",
+      "reason": "Reference on Facial Reduction: Finding the True Interior of a Semidefinite Program (2 of 3)"
+    },
+    {
+      "source_id": "op-r16-020000-3",
+      "reason": "Reference on Facial Reduction: Finding the True Interior of a Semidefinite Program (3 of 3)"
+    },
+    {
+      "source_id": "od-r21-025000-1",
+      "reason": "exact infeasibility and facial-reduction reformulations"
+    },
+    {
+      "source_id": "od-r21-025000-2",
+      "reason": "semidefinite cones and exact algebraic certificates"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "optimization-duality:016000",
+        "file": "016000-homogeneous-self-dual-embedding-and-certificates.md",
+        "sha256": "bd421cc26638ad99e4bf36ea298708aa5a8757bf7e12b88e4694a9bf6cb063e9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-homogeneous-self-dual-embedding-and-certificates.md",
+          "related_resources": [
+            {
+              "source_id": "op-r12-016000-1",
+              "reason": "Homogeneous embedding, optimality and conic infeasibility certificates"
+            },
+            {
+              "source_id": "op-r12-016000-2",
+              "reason": "Homogeneous embedding, optimality and conic infeasibility certificates"
+            },
+            {
+              "source_id": "op-r12-016000-3",
+              "reason": "Homogeneous embedding, optimality and conic infeasibility certificates"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "optimization-duality:020000",
+        "file": "020000-facial-reduction-and-degenerate-sdp.md",
+        "sha256": "c874754ed52a7904079c988a75000e79afbd14c773ec5255f49d96cd61ddc855",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-facial-reduction-and-degenerate-sdp.md",
+          "related_resources": [
+            {
+              "source_id": "op-r16-020000-1",
+              "reason": "Reference on Facial Reduction: Finding the True Interior of a Semidefinite Program (1 of 3)"
+            },
+            {
+              "source_id": "op-r16-020000-2",
+              "reason": "Reference on Facial Reduction: Finding the True Interior of a Semidefinite Program (2 of 3)"
+            },
+            {
+              "source_id": "op-r16-020000-3",
+              "reason": "Reference on Facial Reduction: Finding the True Interior of a Semidefinite Program (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "optimization-duality:025000",
+        "file": "025000-exact-semidefinite-certificates-and-weak-infeasibility.md",
+        "sha256": "c81fd217a9086930e5e9dd197361d1229e4821a2e6d39bd3cd1efb27a3148e18",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025000",
+          "transcript": "025000-exact-semidefinite-certificates-and-weak-infeasibility.md",
+          "related_resources": [
+            {
+              "source_id": "od-r21-025000-1",
+              "reason": "exact infeasibility and facial-reduction reformulations"
+            },
+            {
+              "source_id": "od-r21-025000-2",
+              "reason": "semidefinite cones and exact algebraic certificates"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

@@ -166,6 +166,8 @@ def create_app(
         for row in snapshot["lectures"].values():
             summary = annotate(row)
             summary.update(item_organization(row, collections))
+            if row.get("metadata", {}).get("short_format_reason"):
+                summary["short_format_reason"] = row["metadata"]["short_format_reason"]
             for key in ("source", "transcript", "metadata", "sources"):
                 summary.pop(key, None)
             for rec in summary.get("recordings", []):

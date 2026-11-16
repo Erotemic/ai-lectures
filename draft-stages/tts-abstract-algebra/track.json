@@ -10,846 +10,354 @@
   ],
   "sections": [
     "groups-and-symmetry",
-    "homomorphisms-and-quotients",
-    "group-actions",
     "modular-arithmetic",
-    "rings-and-ideals",
-    "polynomial-rings",
-    "field-extensions",
     "modules",
     "splitting-fields-and-separability",
-    "galois-groups",
-    "galois-correspondence",
-    "solvability-by-radicals",
     "representations-and-maschke",
-    "characters-and-orthogonality",
-    "tensor-products",
     "homological-algebra-foundations",
     "localization-prime-ideals",
-    "noetherian-hilbert-basis",
     "dedekind-domains",
     "modular-representations",
     "ext-long-exact",
-    "primary-decomposition",
-    "hensel-completion",
-    "pid-structure-theorem",
     "number-fields-ramification",
-    "flat-modules-tor",
     "nullstellensatz-dimension",
-    "spectral-sequences",
-    "number-field-class-groups",
-    "normalization-singular-curves",
-    "flat-basechange-tor-ss",
-    "projectives-k-theory",
-    "prime-spectra-affine-schemes",
-    "quasi-coherent-affine-gluing",
-    "etale-maps-jacobian",
-    "group-cohomology-extensions",
-    "divisors-picard",
     "riemann-roch-curves",
     "intersection-local",
-    "derived-global-sections",
-    "faithfully-flat-descent",
-    "etale-fundamental-groups",
-    "deformation-tangents",
-    "surface-riemann-roch",
-    "derived-perfect",
-    "grr-pushforwards",
     "algebraic-groups",
     "moduli-obstructions",
-    "derived-obstruction-triangles",
-    "arithmetic-intersections-heights",
-    "tannakian-reconstruction",
-    "quotient-stacks-inertia",
-    "cotangent-complex-derived-geometry",
-    "derived-intersections-and-tor",
-    "derived-moduli-perfect-complexes",
-    "virtual-fundamental-classes",
     "selmer-groups-arithmetic-duality",
-    "roots-weights-reductive-representations",
     "stable-maps-gromov-witten",
-    "virtual-localization",
-    "heights-mordell-weil-explicit-descent",
-    "borel-weil-bott-cohomology",
     "quantum-cohomology-wdvv",
     "stable-pairs-donaldson-thomas",
-    "mordell-weil-saturation",
-    "weyl-character-formula",
-    "quantum-differential-equations",
-    "dt-pt-wall-crossing",
-    "cassels-tate-pairings",
     "littlewood-richardson",
-    "quantum-monodromy-stokes",
-    "motivic-dt-wall-crossing",
-    "effective-chabauty",
-    "crystal-canonical-bases",
-    "gamma-integral-structures",
-    "hall-cluster-mutations",
-    "quadratic-chabauty-p-adic-height",
-    "demazure-crystals-key-polynomials",
-    "quantum-lefschetz-gamma",
-    "stability-conditions-quiver-walls",
-    "p-adic-hodge-tate",
-    "crystalline-filtered-frobenius",
-    "kazhdan-lusztig-hecke",
-    "quantum-k-difference"
+    "quadratic-chabauty-p-adic-height"
   ],
   "lectures": [
     {
       "id": "001000",
-      "title": "Symmetry and Groups: Why Composition Creates Structure",
+      "title": "Symmetry, structure-preserving maps, and actions",
       "section": "groups-and-symmetry",
-      "file": "001000-symmetry-and-groups.md",
-      "spoken_words": 1457,
+      "file": "001000-symmetry-structure-preserving-maps-and-actions.md",
+      "spoken_words": 4210,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 10.0
-    },
-    {
-      "id": "002000",
-      "title": "Homomorphisms, Kernels, and Quotients: The Structure a Map Preserves",
-      "section": "homomorphisms-and-quotients",
-      "file": "002000-homomorphisms-and-quotients.md",
-      "spoken_words": 1454,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 10.0
-    },
-    {
-      "id": "003000",
-      "title": "Group Actions, Orbits, and Counting Symmetry",
-      "section": "group-actions",
-      "file": "003000-group-actions-and-orbits.md",
-      "spoken_words": 1289,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.9
+      "estimated_minutes_at_145_wpm": 29.0,
+      "consolidated_from": [
+        "001000",
+        "002000",
+        "003000"
+      ]
     },
     {
       "id": "004000",
-      "title": "Divisibility, the Euclidean Algorithm, and Arithmetic Modulo n",
+      "title": "Modular arithmetic, polynomial rings, and field extensions",
       "section": "modular-arithmetic",
-      "file": "004000-euclidean-algorithm-and-modular-arithmetic.md",
-      "spoken_words": 1450,
+      "file": "004000-arithmetic-rings-polynomials-fields-and-modules-shared-core.md",
+      "spoken_words": 5571,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 10.0
-    },
-    {
-      "id": "005000",
-      "title": "Rings, Ideals, and Quotients: Which Arithmetic Can Be Collapsed?",
-      "section": "rings-and-ideals",
-      "file": "005000-rings-ideals-and-quotients.md",
-      "spoken_words": 1368,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.4
-    },
-    {
-      "id": "006000",
-      "title": "Polynomial Rings, Factorization, and Irreducibility",
-      "section": "polynomial-rings",
-      "file": "006000-polynomial-rings-and-irreducibility.md",
-      "spoken_words": 1418,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.8
-    },
-    {
-      "id": "007000",
-      "title": "Field Extensions, Minimal Polynomials, and Degrees",
-      "section": "field-extensions",
-      "file": "007000-field-extensions-and-minimal-polynomials.md",
-      "spoken_words": 1328,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.2
+      "estimated_minutes_at_145_wpm": 38.4,
+      "consolidated_from": [
+        "004000",
+        "005000",
+        "006000",
+        "007000"
+      ]
     },
     {
       "id": "008000",
-      "title": "Modules: Linear Algebra without Division",
+      "title": "Modules, tensor products, and PID classification",
       "section": "modules",
-      "file": "008000-modules-and-linear-algebra-over-rings.md",
-      "spoken_words": 1315,
+      "file": "008000-modules-tensor-products-and-pid-classification.md",
+      "spoken_words": 3687,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.1
+      "estimated_minutes_at_145_wpm": 25.4,
+      "consolidated_from": [
+        "008000",
+        "015000",
+        "024000"
+      ]
     },
     {
       "id": "009000",
-      "title": "Splitting Fields, Finite Fields, and Separability",
+      "title": "Splitting fields and the Galois correspondence",
       "section": "splitting-fields-and-separability",
-      "file": "009000-splitting-fields-and-separability.md",
-      "spoken_words": 1271,
+      "file": "009000-splitting-fields-and-the-galois-correspondence.md",
+      "spoken_words": 5333,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.8
-    },
-    {
-      "id": "010000",
-      "title": "Galois Groups: Symmetries of the Roots",
-      "section": "galois-groups",
-      "file": "010000-galois-groups-and-root-symmetries.md",
-      "spoken_words": 1260,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.7
-    },
-    {
-      "id": "011000",
-      "title": "The Galois Correspondence: Intermediate Fields and Subgroups",
-      "section": "galois-correspondence",
-      "file": "011000-galois-correspondence.md",
-      "spoken_words": 1549,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 10.7
-    },
-    {
-      "id": "012000",
-      "title": "Solvability by Radicals and the Limits of Algebraic Formulas",
-      "section": "solvability-by-radicals",
-      "file": "012000-radicals-and-limits-of-formulas.md",
-      "spoken_words": 1247,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.6
+      "estimated_minutes_at_145_wpm": 36.8,
+      "consolidated_from": [
+        "009000",
+        "010000",
+        "011000",
+        "012000"
+      ]
     },
     {
       "id": "013000",
-      "title": "Representations: Making Symmetry Act on Vector Spaces",
+      "title": "Representations and characters",
       "section": "representations-and-maschke",
-      "file": "013000-representations-and-maschkes-theorem.md",
-      "spoken_words": 1329,
+      "file": "013000-representations-characters-tensors-and-nonsplitting-shared-core.md",
+      "spoken_words": 2452,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.2
-    },
-    {
-      "id": "014000",
-      "title": "Characters: Traces, Orthogonality, and the Anatomy of a Representation",
-      "section": "characters-and-orthogonality",
-      "file": "014000-characters-and-orthogonality.md",
-      "spoken_words": 1120,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.7
-    },
-    {
-      "id": "015000",
-      "title": "Tensor Products: Encoding Bilinear Structure in a Linear Map",
-      "section": "tensor-products",
-      "file": "015000-tensor-products-and-universal-properties.md",
-      "spoken_words": 1282,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.8
+      "estimated_minutes_at_145_wpm": 16.9,
+      "consolidated_from": [
+        "013000",
+        "014000"
+      ]
     },
     {
       "id": "016000",
-      "title": "Exact Sequences and Resolutions: Measuring Lost Information",
+      "title": "Exact sequences, resolutions, and flatness",
       "section": "homological-algebra-foundations",
-      "file": "016000-exact-sequences-and-projective-resolutions.md",
-      "spoken_words": 1282,
+      "file": "016000-modules-tensor-products-classification-and-exactness-shared-core.md",
+      "spoken_words": 2431,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.8
+      "estimated_minutes_at_145_wpm": 16.8,
+      "consolidated_from": [
+        "016000",
+        "026000"
+      ]
     },
     {
       "id": "017000",
-      "title": "Localization and Prime Ideals: Arithmetic Near One Prime",
+      "title": "Localization, prime ideals, and Noetherian finiteness",
       "section": "localization-prime-ideals",
-      "file": "017000-localization-and-prime-ideals.md",
-      "spoken_words": 1317,
+      "file": "017000-local-algebra-and-finite-module-structure-shared-core.md",
+      "spoken_words": 2564,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.1
-    },
-    {
-      "id": "018000",
-      "title": "Noetherian Rings: Why Finitely Many Equations Can Suffice",
-      "section": "noetherian-hilbert-basis",
-      "file": "018000-noetherian-rings-and-hilbert-basis-theorem.md",
-      "spoken_words": 1241,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.6
+      "estimated_minutes_at_145_wpm": 17.7,
+      "consolidated_from": [
+        "017000",
+        "018000"
+      ]
     },
     {
       "id": "019000",
-      "title": "Dedekind Domains: Factorization Survives When Elements Fail",
+      "title": "Ideal factorization, primary support, and local completion",
       "section": "dedekind-domains",
-      "file": "019000-dedekind-domains-and-ideal-factorization.md",
-      "spoken_words": 1241,
+      "file": "019000-ideal-factorization-primary-support-and-local-completion.md",
+      "spoken_words": 3467,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.6
+      "estimated_minutes_at_145_wpm": 23.9,
+      "consolidated_from": [
+        "019000",
+        "022000",
+        "023000"
+      ]
     },
     {
       "id": "020000",
-      "title": "Modular Representations: When Symmetry No Longer Splits",
+      "title": "Modular representations and group-cohomology obstructions",
       "section": "modular-representations",
-      "file": "020000-modular-representations-and-extensions.md",
-      "spoken_words": 1132,
+      "file": "020000-modular-representations-and-group-cohomology-obstructions.md",
+      "spoken_words": 2194,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.8
+      "estimated_minutes_at_145_wpm": 15.1,
+      "consolidated_from": [
+        "020000",
+        "036000"
+      ]
     },
     {
       "id": "021000",
-      "title": "Ext, Long Exact Sequences, and the Algebra of Extensions",
+      "title": "Extensions, spectral sequences, base change, and projectives",
       "section": "ext-long-exact",
-      "file": "021000-ext-long-exact-sequences-and-yoneda-extensions.md",
-      "spoken_words": 1228,
+      "file": "021000-extensions-spectral-sequences-and-cohomological-obstructions-shared-core.md",
+      "spoken_words": 4511,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.5
-    },
-    {
-      "id": "022000",
-      "title": "Primary Decomposition, Associated Primes, and Support",
-      "section": "primary-decomposition",
-      "file": "022000-primary-decomposition-associated-primes-and-support.md",
-      "spoken_words": 1073,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.4
-    },
-    {
-      "id": "023000",
-      "title": "Completion, Discrete Valuations, and Hensel's Lemma",
-      "section": "hensel-completion",
-      "file": "023000-completion-valuations-and-hensels-lemma.md",
-      "spoken_words": 1122,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.7
-    },
-    {
-      "id": "024000",
-      "title": "Finitely Generated Modules over a PID: A Classification Theorem",
-      "section": "pid-structure-theorem",
-      "file": "024000-structure-theorem-for-modules-over-a-pid.md",
-      "spoken_words": 1084,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.5
+      "estimated_minutes_at_145_wpm": 31.1,
+      "consolidated_from": [
+        "021000",
+        "028000",
+        "031000",
+        "032000"
+      ]
     },
     {
       "id": "025000",
-      "title": "Algebraic Number Fields: Discriminants and Ramification",
+      "title": "Number fields, class groups, and arithmetic heights",
       "section": "number-fields-ramification",
-      "file": "025000-number-fields-discriminants-and-ramification.md",
-      "spoken_words": 1139,
+      "file": "025000-dedekind-arithmetic-completions-and-class-groups-shared-core.md",
+      "spoken_words": 3319,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.9
-    },
-    {
-      "id": "026000",
-      "title": "Flat Modules: When Tensor Products Preserve Exactness",
-      "section": "flat-modules-tor",
-      "file": "026000-flat-modules-and-tensor-exactness.md",
-      "spoken_words": 1144,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.9
+      "estimated_minutes_at_145_wpm": 22.9,
+      "consolidated_from": [
+        "025000",
+        "029000",
+        "050000"
+      ]
     },
     {
       "id": "027000",
-      "title": "Krull Dimension and Hilbert's Nullstellensatz",
+      "title": "Dimension, normalization, spectra, and geometric gluing",
       "section": "nullstellensatz-dimension",
-      "file": "027000-krull-dimension-and-nullstellensatz.md",
-      "spoken_words": 1120,
+      "file": "027000-from-affine-algebra-to-spaces-and-sheaves-shared-core.md",
+      "spoken_words": 6120,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.7
-    },
-    {
-      "id": "028000",
-      "title": "Spectral Sequences: Recovering Homology in Stages",
-      "section": "spectral-sequences",
-      "file": "028000-spectral-sequences-and-filtered-complexes.md",
-      "spoken_words": 1106,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.6
-    },
-    {
-      "id": "029000",
-      "title": "Units, Norms, and Class Groups: Measuring Failure of Unique Factorization",
-      "section": "number-field-class-groups",
-      "file": "029000-units-norms-and-class-groups.md",
-      "spoken_words": 1211,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.4
-    },
-    {
-      "id": "030000",
-      "title": "Integral Dependence, Normalization, and Singular Curves",
-      "section": "normalization-singular-curves",
-      "file": "030000-integral-dependence-normalization-and-singular-curves.md",
-      "spoken_words": 1046,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.2
-    },
-    {
-      "id": "031000",
-      "title": "Flat Base Change and Tor Spectral Sequences",
-      "section": "flat-basechange-tor-ss",
-      "file": "031000-flat-base-change-and-tor-spectral-sequences.md",
-      "spoken_words": 1114,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.7
-    },
-    {
-      "id": "032000",
-      "title": "Projective Modules, Vector Bundles, and the First Idea of K-Theory",
-      "section": "projectives-k-theory",
-      "file": "032000-projective-modules-and-k-theory.md",
-      "spoken_words": 1055,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.3
-    },
-    {
-      "id": "033000",
-      "title": "Prime Spectra: Turning Rings into Geometric Spaces",
-      "section": "prime-spectra-affine-schemes",
-      "file": "033000-prime-spectra-and-affine-schemes.md",
-      "spoken_words": 1093,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.5
-    },
-    {
-      "id": "034000",
-      "title": "Sheaves and Quasi-Coherent Modules: Algebra that Glues",
-      "section": "quasi-coherent-affine-gluing",
-      "file": "034000-quasi-coherent-sheaves-and-affine-descent.md",
-      "spoken_words": 1074,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.4
-    },
-    {
-      "id": "035000",
-      "title": "Etale Maps, Derivatives, and Unramified Geometry",
-      "section": "etale-maps-jacobian",
-      "file": "035000-etale-maps-and-the-jacobian-criterion.md",
-      "spoken_words": 993,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.8
-    },
-    {
-      "id": "036000",
-      "title": "Group Cohomology: When a Group Extension Refuses to Split",
-      "section": "group-cohomology-extensions",
-      "file": "036000-group-cohomology-and-extension-classes.md",
-      "spoken_words": 1033,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.1
-    },
-    {
-      "id": "037000",
-      "title": "Divisors, Line Bundles, and Picard Groups",
-      "section": "divisors-picard",
-      "file": "037000-divisors-line-bundles-and-picard-groups.md",
-      "spoken_words": 788,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.4
+      "estimated_minutes_at_145_wpm": 42.2,
+      "consolidated_from": [
+        "027000",
+        "030000",
+        "033000",
+        "034000",
+        "035000",
+        "037000"
+      ]
     },
     {
       "id": "038000",
-      "title": "Algebraic Curves, Genus, and Riemann–Roch",
+      "title": "Riemann-Roch from curves to derived pushforwards",
       "section": "riemann-roch-curves",
-      "file": "038000-riemann-roch-on-algebraic-curves.md",
-      "spoken_words": 835,
+      "file": "038000-riemann-roch-from-curves-to-derived-pushforwards.md",
+      "spoken_words": 3501,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.8
+      "estimated_minutes_at_145_wpm": 24.1,
+      "consolidated_from": [
+        "038000",
+        "044000",
+        "045000",
+        "046000"
+      ]
     },
     {
       "id": "039000",
-      "title": "Local Intersection Multiplicity and Completion",
+      "title": "Intersections, sheaf cohomology, descent, and deformations",
       "section": "intersection-local",
-      "file": "039000-local-intersection-multiplicity-and-completion.md",
-      "spoken_words": 812,
+      "file": "039000-intersections-cohomology-descent-and-first-deformations-shared-core.md",
+      "spoken_words": 4321,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.6
-    },
-    {
-      "id": "040000",
-      "title": "Sheaf Cohomology and the Failure of Global Sections to Be Exact",
-      "section": "derived-global-sections",
-      "file": "040000-sheaf-cohomology-and-global-sections.md",
-      "spoken_words": 741,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.1
-    },
-    {
-      "id": "041000",
-      "title": "Faithfully Flat Descent: Recovering Objects from a Larger Ring",
-      "section": "faithfully-flat-descent",
-      "file": "041000-faithfully-flat-descent-and-gluing.md",
-      "spoken_words": 1001,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.9
-    },
-    {
-      "id": "042000",
-      "title": "Étale Fundamental Groups: The Symmetries of Finite Covers",
-      "section": "etale-fundamental-groups",
-      "file": "042000-etale-fundamental-groups-and-finite-covers.md",
-      "spoken_words": 871,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.0
-    },
-    {
-      "id": "043000",
-      "title": "Deformation Theory: Tangent Directions and Obstructed Lifts",
-      "section": "deformation-tangents",
-      "file": "043000-deformation-theory-tangent-spaces-and-obstructions.md",
-      "spoken_words": 883,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.1
-    },
-    {
-      "id": "044000",
-      "title": "Surface Riemann–Roch, Intersection Numbers, and Genus",
-      "section": "surface-riemann-roch",
-      "file": "044000-surface-riemann-roch-and-intersection-classes.md",
-      "spoken_words": 915,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.3
-    },
-    {
-      "id": "045000",
-      "title": "Derived Categories and Perfect Complexes on Schemes",
-      "section": "derived-perfect",
-      "file": "045000-derived-categories-and-perfect-complexes.md",
-      "spoken_words": 895,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.2
-    },
-    {
-      "id": "046000",
-      "title": "Grothendieck-Riemann-Roch and Pushforwards",
-      "section": "grr-pushforwards",
-      "file": "046000-grothendieck-riemann-roch-and-pushforwards.md",
-      "spoken_words": 822,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.7
+      "estimated_minutes_at_145_wpm": 29.8,
+      "consolidated_from": [
+        "039000",
+        "040000",
+        "041000",
+        "042000",
+        "043000"
+      ]
     },
     {
       "id": "047000",
-      "title": "Algebraic Groups, Group Schemes, and Lie Algebras",
+      "title": "Algebraic symmetry, weights, and geometric realization",
       "section": "algebraic-groups",
-      "file": "047000-algebraic-groups-group-schemes-and-lie-algebras.md",
-      "spoken_words": 804,
+      "file": "047000-algebraic-symmetry-weights-and-geometric-realization.md",
+      "spoken_words": 4760,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.5
+      "estimated_minutes_at_145_wpm": 32.8,
+      "consolidated_from": [
+        "047000",
+        "051000",
+        "058000",
+        "062000",
+        "066000"
+      ]
     },
     {
       "id": "048000",
-      "title": "Deformation-Obstruction Complexes in Moduli Problems",
+      "title": "Derived moduli, obstructions, and virtual curve counts",
       "section": "moduli-obstructions",
-      "file": "048000-deformation-obstruction-complexes-in-moduli.md",
-      "spoken_words": 822,
+      "file": "048000-derived-moduli-obstructions-and-virtual-curve-counts.md",
+      "spoken_words": 6468,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.7
-    },
-    {
-      "id": "049000",
-      "title": "Derived Deformation Theory: Obstructions Beyond the Tangent Space",
-      "section": "derived-obstruction-triangles",
-      "file": "049000-derived-deformation-theory-and-obstruction-triangles.md",
-      "spoken_words": 887,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.1
-    },
-    {
-      "id": "050000",
-      "title": "Arithmetic Intersection Theory: Heights and the Size of Rational Points",
-      "section": "arithmetic-intersections-heights",
-      "file": "050000-arithmetic-intersection-theory-and-heights.md",
-      "spoken_words": 960,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.6
-    },
-    {
-      "id": "051000",
-      "title": "Tannakian Reconstruction: Recovering Symmetry from Representations",
-      "section": "tannakian-reconstruction",
-      "file": "051000-tannakian-reconstruction-and-tensor-categories.md",
-      "spoken_words": 913,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.3
-    },
-    {
-      "id": "052000",
-      "title": "Quotient Stacks: Spaces That Remember Symmetry",
-      "section": "quotient-stacks-inertia",
-      "file": "052000-quotient-stacks-stabilizers-and-inertia.md",
-      "spoken_words": 905,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.2
-    },
-    {
-      "id": "053000",
-      "title": "The Cotangent Complex: Differentials That Remember Singularities",
-      "section": "cotangent-complex-derived-geometry",
-      "file": "053000-cotangent-complex-and-derived-geometry.md",
-      "spoken_words": 997,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.9
-    },
-    {
-      "id": "054000",
-      "title": "Derived Intersections: Where Hidden Multiplicity Lives",
-      "section": "derived-intersections-and-tor",
-      "file": "054000-derived-intersections-and-tor.md",
-      "spoken_words": 942,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
-    },
-    {
-      "id": "055000",
-      "title": "Deforming a Complex: Ext Groups as Tangents and Obstructions",
-      "section": "derived-moduli-perfect-complexes",
-      "file": "055000-derived-moduli-of-perfect-complexes.md",
-      "spoken_words": 886,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.1
-    },
-    {
-      "id": "056000",
-      "title": "Virtual Fundamental Classes: Counting with Obstructions",
-      "section": "virtual-fundamental-classes",
-      "file": "056000-virtual-fundamental-classes.md",
-      "spoken_words": 1010,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.0
+      "estimated_minutes_at_145_wpm": 44.6,
+      "consolidated_from": [
+        "048000",
+        "049000",
+        "052000",
+        "053000",
+        "054000",
+        "055000",
+        "056000"
+      ]
     },
     {
       "id": "057000",
-      "title": "Selmer Groups: Global Points, Local Tests, and Arithmetic Duality",
+      "title": "Selmer tests, heights, and effective point bounds",
       "section": "selmer-groups-arithmetic-duality",
-      "file": "057000-selmer-groups-and-arithmetic-duality.md",
-      "spoken_words": 1086,
+      "file": "057000-selmer-tests-heights-and-effective-point-bounds.md",
+      "spoken_words": 5955,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.5
-    },
-    {
-      "id": "058000",
-      "title": "Roots, Weights, and Representations of Reductive Groups",
-      "section": "roots-weights-reductive-representations",
-      "file": "058000-roots-weights-and-reductive-representations.md",
-      "spoken_words": 977,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.7
+      "estimated_minutes_at_145_wpm": 41.1,
+      "consolidated_from": [
+        "057000",
+        "061000",
+        "065000",
+        "069000",
+        "073000"
+      ]
     },
     {
       "id": "059000",
-      "title": "Stable Maps and Gromov–Witten Invariants: Counting Curves with Multiplicity",
+      "title": "Stable maps, virtual curve counts, and equivariant localization",
       "section": "stable-maps-gromov-witten",
-      "file": "059000-stable-maps-and-gromov-witten-invariants.md",
-      "spoken_words": 1057,
+      "file": "059000-derived-intersections-and-virtual-curve-counts-shared-core.md",
+      "spoken_words": 2076,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.3
-    },
-    {
-      "id": "060000",
-      "title": "Equivariant Localization: A Global Count from Fixed Points",
-      "section": "virtual-localization",
-      "file": "060000-virtual-localization-and-fixed-point-geometry.md",
-      "spoken_words": 1004,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.9
-    },
-    {
-      "id": "061000",
-      "title": "Heights, Mordell–Weil, and Explicit Descent Algorithms",
-      "section": "heights-mordell-weil-explicit-descent",
-      "file": "061000-heights-mordell-weil-and-explicit-descent.md",
-      "spoken_words": 1105,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.6
-    },
-    {
-      "id": "062000",
-      "title": "Borel–Weil–Bott: Finding Representations in Line-Bundle Cohomology",
-      "section": "borel-weil-bott-cohomology",
-      "file": "062000-borel-weil-bott-and-line-bundle-cohomology.md",
-      "spoken_words": 1030,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.1
+      "estimated_minutes_at_145_wpm": 14.3,
+      "consolidated_from": [
+        "059000",
+        "060000"
+      ]
     },
     {
       "id": "063000",
-      "title": "Quantum Cohomology: When Curves Change Multiplication",
+      "title": "Quantum products, differential equations, and integral structures",
       "section": "quantum-cohomology-wdvv",
-      "file": "063000-quantum-cohomology-and-associativity.md",
-      "spoken_words": 1047,
+      "file": "063000-quantum-products-differential-equations-and-integral-structures.md",
+      "spoken_words": 6238,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.2
+      "estimated_minutes_at_145_wpm": 43.0,
+      "consolidated_from": [
+        "063000",
+        "067000",
+        "071000",
+        "075000",
+        "079000",
+        "084000"
+      ]
     },
     {
       "id": "064000",
-      "title": "Stable Pairs and Donaldson–Thomas Theory: Curves as Sheaves",
+      "title": "DT/PT counts, Hall algebras, and stability walls",
       "section": "stable-pairs-donaldson-thomas",
-      "file": "064000-stable-pairs-and-donaldson-thomas-theory.md",
-      "spoken_words": 1163,
+      "file": "064000-dt-pt-counts-hall-algebras-and-stability-walls.md",
+      "spoken_words": 5563,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.0
-    },
-    {
-      "id": "065000",
-      "title": "Mordell–Weil Saturation and Height Pairings",
-      "section": "mordell-weil-saturation",
-      "file": "065000-mordell-weil-saturation-and-regulators.md",
-      "spoken_words": 1185,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.2
-    },
-    {
-      "id": "066000",
-      "title": "Weyl Characters, Root Symmetry, and Flag Varieties",
-      "section": "weyl-character-formula",
-      "file": "066000-weyl-character-formula-and-flag-varieties.md",
-      "spoken_words": 1025,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.1
-    },
-    {
-      "id": "067000",
-      "title": "Quantum Differential Equations and Mirror Periods",
-      "section": "quantum-differential-equations",
-      "file": "067000-quantum-differential-equations-and-mirror-periods.md",
-      "spoken_words": 1034,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.1
-    },
-    {
-      "id": "068000",
-      "title": "DT/PT Wall Crossing: Two Ways to Count Curves",
-      "section": "dt-pt-wall-crossing",
-      "file": "068000-dt-pt-wall-crossing-and-curve-correspondences.md",
-      "spoken_words": 1063,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.3
-    },
-    {
-      "id": "069000",
-      "title": "Cassels-Tate Pairings: How an Obstruction Sharpens a Rank Bound",
-      "section": "cassels-tate-pairings",
-      "file": "069000-cassels-tate-pairing-and-rank-certification.md",
-      "spoken_words": 1235,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.5
+      "estimated_minutes_at_145_wpm": 38.4,
+      "consolidated_from": [
+        "064000",
+        "068000",
+        "072000",
+        "076000",
+        "080000"
+      ]
     },
     {
       "id": "070000",
-      "title": "Littlewood-Richardson Rules: Counting Tensor-Product Multiplicities",
+      "title": "Tensor multiplicities, crystal combinatorics, and Hecke theory",
       "section": "littlewood-richardson",
-      "file": "070000-littlewood-richardson-tableaux-and-tensor-products.md",
-      "spoken_words": 1186,
+      "file": "070000-tensor-multiplicities-crystal-combinatorics-and-hecke-theory.md",
+      "spoken_words": 4108,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.2
-    },
-    {
-      "id": "071000",
-      "title": "Quantum Connections, Monodromy, and Stokes Matrices",
-      "section": "quantum-monodromy-stokes",
-      "file": "071000-quantum-connections-monodromy-and-stokes.md",
-      "spoken_words": 1108,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.6
-    },
-    {
-      "id": "072000",
-      "title": "Motivic Donaldson-Thomas Invariants and Quantum Wall Crossing",
-      "section": "motivic-dt-wall-crossing",
-      "file": "072000-motivic-dt-invariants-and-quantum-wall-crossing.md",
-      "spoken_words": 1191,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.2
-    },
-    {
-      "id": "073000",
-      "title": "Effective Chabauty-Coleman Bounds on Rational Points",
-      "section": "effective-chabauty",
-      "file": "073000-effective-chabauty-coleman-rational-points.md",
-      "spoken_words": 1336,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.2
-    },
-    {
-      "id": "074000",
-      "title": "Crystal Bases and Canonical Bases",
-      "section": "crystal-canonical-bases",
-      "file": "074000-crystal-and-canonical-bases.md",
-      "spoken_words": 1176,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.1
-    },
-    {
-      "id": "075000",
-      "title": "Gamma Classes and Integral Structures in Quantum Cohomology",
-      "section": "gamma-integral-structures",
-      "file": "075000-gamma-class-integral-structures.md",
-      "spoken_words": 1251,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.6
-    },
-    {
-      "id": "076000",
-      "title": "Hall Algebras, Extensions, and Cluster Mutations",
-      "section": "hall-cluster-mutations",
-      "file": "076000-hall-algebras-and-cluster-mutations.md",
-      "spoken_words": 1194,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.2
+      "estimated_minutes_at_145_wpm": 28.3,
+      "consolidated_from": [
+        "070000",
+        "074000",
+        "078000",
+        "083000"
+      ]
     },
     {
       "id": "077000",
-      "title": "Quadratic Chabauty and p-Adic Height Pairings",
+      "title": "p-Adic refinements and representation-theoretic information",
       "section": "quadratic-chabauty-p-adic-height",
-      "file": "077000-quadratic-chabauty-and-p-adic-heights.md",
-      "spoken_words": 1075,
+      "file": "077000-p-adic-refinements-and-representation-theoretic-information.md",
+      "spoken_words": 2726,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.4
-    },
-    {
-      "id": "078000",
-      "title": "Demazure Crystals and Key Polynomials",
-      "section": "demazure-crystals-key-polynomials",
-      "file": "078000-demazure-crystals-and-key-polynomials.md",
-      "spoken_words": 936,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
-    },
-    {
-      "id": "079000",
-      "title": "Quantum Lefschetz, Hypergeometric Periods, and Gamma Classes",
-      "section": "quantum-lefschetz-gamma",
-      "file": "079000-quantum-lefschetz-and-gamma-class.md",
-      "spoken_words": 987,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.8
-    },
-    {
-      "id": "080000",
-      "title": "Stability Conditions, Quiver Mutations, and Wall Crossing",
-      "section": "stability-conditions-quiver-walls",
-      "file": "080000-stability-quivers-and-wall-crossing.md",
-      "spoken_words": 945,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
-    },
-    {
-      "id": "081000",
-      "title": "p-Adic Galois Representations and Hodge-Tate Weights",
-      "section": "p-adic-hodge-tate",
-      "file": "081000-p-adic-galois-representations-and-hodge-tate-weights.md",
-      "spoken_words": 841,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.8
-    },
-    {
-      "id": "082000",
-      "title": "Crystalline Representations and Filtered Frobenius Modules",
-      "section": "crystalline-filtered-frobenius",
-      "file": "082000-crystalline-representations-and-filtered-frobenius.md",
-      "spoken_words": 805,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.6
-    },
-    {
-      "id": "083000",
-      "title": "Kazhdan-Lusztig Polynomials and Hecke Algebras",
-      "section": "kazhdan-lusztig-hecke",
-      "file": "083000-kazhdan-lusztig-polynomials-and-hecke-algebras.md",
-      "spoken_words": 806,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.6
-    },
-    {
-      "id": "084000",
-      "title": "Quantum K-Theory and Difference Connections",
-      "section": "quantum-k-difference",
-      "file": "084000-quantum-k-theory-and-difference-connections.md",
-      "spoken_words": 805,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.6
+      "estimated_minutes_at_145_wpm": 18.8,
+      "consolidated_from": [
+        "077000",
+        "081000",
+        "082000"
+      ]
     }
   ]
 }

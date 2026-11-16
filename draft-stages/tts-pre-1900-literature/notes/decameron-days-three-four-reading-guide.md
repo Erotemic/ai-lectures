@@ -1,5 +1,7 @@
 # Boccaccio's *Decameron*: Days Three and Four, primary-text map and close-reading guide
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 **Coverage:** IDs 334000–355000 constitute the **second** *Decameron* installment.
 With IDs 312000–333000 already in place, the track covers **40 of 100 tales**,
 plus the opening plague frame and transitions into Days Two, Three and Four.

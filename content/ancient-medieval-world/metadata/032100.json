@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "032100",
-  "transcript": "032100-translating-baghdad.md",
+  "transcript": "032100-making-translating-and-preserving-books-baghdad-dunhuang-goryeo-timbuktu.md",
   "related_resources": [
     {
       "source_id": "d8-ab-primary",
@@ -16,6 +16,86 @@
     {
       "source_id": "d8-ab-chicago",
       "reason": "Historical analysis of Arabic science and competing explanations for translation; attributive arguments should not be treated as consensus.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-dun-scribes",
+      "reason": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-dun-work",
+      "reason": "Census, irrigation, taxes, local administration and diplomatic responsibilities under Guiyijun; general archive synthesis.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-dun-timeline",
+      "reason": "Tibetan rule approximately 781–848 and local Guiyijun regime; overview chronology.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-dun-taenzer",
+      "reason": "Chinese and Tibetan tax records, land, contracts and mixed administrative practice; part of scholarly book accessible in JSTOR text preview.",
+      "access_scope": "abstract_or_excerpt_reviewed"
+    },
+    {
+      "source_id": "g3-dun-history",
+      "reason": "Sealing, discovery, dispersion of Cave 17 materials; institutional history of collections.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-dun-languages",
+      "reason": "Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-dun-circular",
+      "reason": "886 circular for meeting, fines, signatures and other local associations; translated summary of original document.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-dun-guangde",
+      "reason": "Contract recording transfer of seven-year-old Guangde by mother A Wu, coercion and reused scroll; cannot establish the child’s later fate.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g5-go-unesco",
+      "reason": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g5-go-met",
+      "reason": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g5-go-nmk",
+      "reason": "Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g5-go-asian",
+      "reason": "Academic exhibition chapter excerpt on Buddhist images, woodblock projects and material production; published interpretive essay not craftsperson diary.",
+      "access_scope": "abstract_or_excerpt_reviewed"
+    },
+    {
+      "source_id": "d9-timb-uct",
+      "reason": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "d9-timb-unesco",
+      "reason": "Broad fifteen-sixteenth century city history, with institutional terms and numerical claims not independently corroborated.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "d9-timb-loc",
+      "reason": "Documents manuscript subjects and custody; cataloged objects vary by copy date and cannot all be placed in the fifteenth century.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "d9-timb-cambridge",
+      "reason": "Inventory of 31 libraries reveals many undated/recent manuscripts; conclusions apply to surveyed holdings, not every collection.",
       "access_scope": "webpage_reviewed"
     }
   ],
@@ -185,6 +265,1700 @@
       "source_locator": "Why Do We Translate? Arabic Sources on Translation, primary texts with editorial introductions; Stanford Encyclopedia of Philosophy, Greek Sources in Arabic and Islamic Philosophy; In a Clear Arabic Tongue: Arabic and the Making of a Science-Language Regime",
       "audit_status": "source_scope_and_limits_mapped",
       "source_limitations": "Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished. Documents translation networks and philosophical texts; focuses particularly on philosophical transmission rather than the whole scholarly economy. Historical analysis of Arabic science and competing explanations for translation; attributive arguments should not be treated as consensus."
+    },
+    {
+      "id": "074000-p01",
+      "anchor": "In a ninth-century register from Dunhuang, an official kept track of paper owed ",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-scribes"
+      ],
+      "source_locator": "International Dunhuang Programme, Scribes at Dunhuang: Pens, Paper and Punishments (2025)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement."
+    },
+    {
+      "id": "074000-p02",
+      "anchor": "Dunhuang was an oasis in the corridor between northwestern China and the wider I",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-work"
+      ],
+      "source_locator": "International Dunhuang Programme, Dunhuang at Work",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Census, irrigation, taxes, local administration and diplomatic responsibilities under Guiyijun; general archive synthesis."
+    },
+    {
+      "id": "074000-p03",
+      "anchor": "A critical chronological distinction is the period of Tibetan imperial control. ",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-timeline",
+        "g3-dun-taenzer"
+      ],
+      "source_locator": "International Dunhuang Programme, A Timeline of Dunhuang; Gertraud Taenzer, The Dunhuang Region during Tibetan Rule (787–848): A Study of Secular Manuscripts, Harrassowitz (2012)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Tibetan rule approximately 781–848 and local Guiyijun regime; overview chronology. Chinese and Tibetan tax records, land, contracts and mixed administrative practice; part of scholarly book accessible in JSTOR text preview."
+    },
+    {
+      "id": "074000-p04",
+      "anchor": "The cache is usually called the Library Cave, Mogao Cave 17. It contained tens o",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-history"
+      ],
+      "source_locator": "International Dunhuang Programme, History of the IDP and Cave 17",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Sealing, discovery, dispersion of Cave 17 materials; institutional history of collections."
+    },
+    {
+      "id": "074000-p05",
+      "anchor": "The texts are multilingual. The International Dunhuang Programme identifies Chin",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-languages"
+      ],
+      "source_locator": "International Dunhuang Programme, What Was Stored in Cave 17?",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile."
+    },
+    {
+      "id": "074000-p06",
+      "anchor": "The paper register belongs to a much larger copying enterprise. Under Tibetan im",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-scribes"
+      ],
+      "source_locator": "International Dunhuang Programme, Scribes at Dunhuang: Pens, Paper and Punishments (2025)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement."
+    },
+    {
+      "id": "074000-p07",
+      "anchor": "Scribes were not interchangeable hands. They maintained brushes, made errors, pr",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-scribes"
+      ],
+      "source_locator": "International Dunhuang Programme, Scribes at Dunhuang: Pens, Paper and Punishments (2025)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement."
+    },
+    {
+      "id": "074000-p08",
+      "anchor": "Paper was reused. A Buddhist scripture might be copied on one side of a sheet wh",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-languages"
+      ],
+      "source_locator": "International Dunhuang Programme, What Was Stored in Cave 17?",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile."
+    },
+    {
+      "id": "074000-p09",
+      "anchor": "Local associations organized another layer of society. The International Dunhuan",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-circular"
+      ],
+      "source_locator": "International Dunhuang Programme, Entertainment and Social Life",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "886 circular for meeting, fines, signatures and other local associations; translated summary of original document."
+    },
+    {
+      "id": "074000-p10",
+      "anchor": "The irrigation notices are especially important. In an oasis, a channel that fai",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-circular",
+        "g3-dun-work"
+      ],
+      "source_locator": "International Dunhuang Programme, Entertainment and Social Life; International Dunhuang Programme, Dunhuang at Work",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "886 circular for meeting, fines, signatures and other local associations; translated summary of original document. Census, irrigation, taxes, local administration and diplomatic responsibilities under Guiyijun; general archive synthesis."
+    },
+    {
+      "id": "074000-p11",
+      "anchor": "One surviving contract, dated to 916, records the sale of a seven-year-old child",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-guangde"
+      ],
+      "source_locator": "International Dunhuang Programme, Daily Life Collection Items, contract of 916",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Contract recording transfer of seven-year-old Guangde by mother A Wu, coercion and reused scroll; cannot establish the child’s later fate."
+    },
+    {
+      "id": "074000-p12",
+      "anchor": "Specialist scholarship by Gertraud Taenzer compares Chinese and Tibetan secular ",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-taenzer"
+      ],
+      "source_locator": "Gertraud Taenzer, The Dunhuang Region during Tibetan Rule (787–848): A Study of Secular Manuscripts, Harrassowitz (2012)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Chinese and Tibetan tax records, land, contracts and mixed administrative practice; part of scholarly book accessible in JSTOR text preview."
+    },
+    {
+      "id": "074000-p13",
+      "anchor": "Another selection bias comes from religious preservation. Many manuscripts in Ca",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-languages"
+      ],
+      "source_locator": "International Dunhuang Programme, What Was Stored in Cave 17?",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile."
+    },
+    {
+      "id": "074000-p14",
+      "anchor": "Dunhuang's modern history is inseparable from this research. Expeditions removed",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-history",
+        "g3-dun-languages"
+      ],
+      "source_locator": "International Dunhuang Programme, History of the IDP and Cave 17; International Dunhuang Programme, What Was Stored in Cave 17?",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Sealing, discovery, dispersion of Cave 17 materials; institutional history of collections. Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile."
+    },
+    {
+      "id": "074000-p15",
+      "anchor": "The history of Dunhuang is often introduced with an image of Buddhist painting o",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-dun-scribes",
+        "g3-dun-circular",
+        "g3-dun-guangde"
+      ],
+      "source_locator": "International Dunhuang Programme, Scribes at Dunhuang: Pens, Paper and Punishments (2025); International Dunhuang Programme, Entertainment and Social Life; International Dunhuang Programme, Daily Life Collection Items, contract of 916",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement. 886 circular for meeting, fines, signatures and other local associations; translated summary of original document. Contract recording transfer of seven-year-old Guangde by mother A Wu, coercion and reused scroll; cannot establish the child’s later fate."
+    },
+    {
+      "id": "088000-p01",
+      "anchor": "Hold a wooden printing block in your mind. The surface is engraved with characte",
+      "kind": "historical_research",
+      "source_ids": [
+        "g5-go-unesco",
+        "g5-go-met"
+      ],
+      "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures; Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger. Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+    },
+    {
+      "id": "088000-p02",
+      "anchor": "Goryeo ruled the Korean peninsula from 918 until 1392. Its institutions develope",
+      "kind": "historical_research",
+      "source_ids": [
+        "g5-go-met",
+        "g5-go-nmk"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline; National Museum of Korea, Buddhist Scriptures Printed from the Second Tripitaka Koreana Woodblocks",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized. Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints."
+    },
+    {
+      "id": "088000-p03",
+      "anchor": "The first major Goryeo project to print a Buddhist canon began in the early elev",
+      "kind": "historical_research",
+      "source_ids": [
+        "g5-go-met"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+    },
+    {
+      "id": "088000-p04",
+      "anchor": "The first major set of printing blocks was destroyed during the Mongol invasions",
+      "kind": "historical_research",
+      "source_ids": [
+        "g5-go-nmk",
+        "g5-go-met"
+      ],
+      "source_locator": "National Museum of Korea, Buddhist Scriptures Printed from the Second Tripitaka Koreana Woodblocks; Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints. Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+    },
+    {
+      "id": "088000-p05",
+      "anchor": "The surviving second Tripitaka comprises 81,258 printing blocks, preserved at Ha",
+      "kind": "historical_research",
+      "source_ids": [
+        "g5-go-unesco"
+      ],
+      "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger."
+    },
+    {
+      "id": "088000-p06",
+      "anchor": "A block could not be carved by a person who had never seen the intended text. Co",
+      "kind": "historical_research",
+      "source_ids": [
+        "g5-go-met",
+        "g5-go-unesco"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline; UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized. Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger."
+    },
+    {
+      "id": "088000-p07",
+      "anchor": "The task was also scholarly. A Buddhist canon is not a single short scripture bu",
+      "kind": "historical_research",
+      "source_ids": [
+        "g5-go-unesco"
+      ],
+      "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger."
+    },
+    {
+      "id": "088000-p08",
+      "anchor": "Religious institutions across Korea took part in wider networks of making and pr",
+      "kind": "historical_research",
+      "source_ids": [
+        "g5-go-unesco",
+        "g5-go-nmk"
+      ],
+      "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures; National Museum of Korea, Buddhist Scriptures Printed from the Second Tripitaka Koreana Woodblocks",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger. Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints."
+    },
+    {
+      "id": "088000-p09",
+      "anchor": "Nor should Goryeo printing be treated as a solitary technological miracle separa",
+      "kind": "historical_research",
+      "source_ids": [
+        "g5-go-asian",
+        "g5-go-met"
+      ],
+      "source_locator": "Smithsonian/Asian Art Museum publications, Goryeo Buddhist art and printing; Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Academic exhibition chapter excerpt on Buddhist images, woodblock projects and material production; published interpretive essay not craftsperson diary. Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+    },
+    {
+      "id": "088000-p10",
+      "anchor": "Goryeo also participated in experiments with movable metal type. A surviving Bud",
+      "kind": "historical_research",
+      "source_ids": [
+        "g5-go-met",
+        "g5-go-unesco"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline; UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized. Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger."
+    },
+    {
+      "id": "088000-p11",
+      "anchor": "The Mongol invasions are part of this story, but they are not its entire explana",
+      "kind": "historical_research",
+      "source_ids": [
+        "g5-go-met",
+        "g5-go-nmk"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline; National Museum of Korea, Buddhist Scriptures Printed from the Second Tripitaka Koreana Woodblocks",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized. Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints."
+    },
+    {
+      "id": "088000-p12",
+      "anchor": "For the historian, the blocks are both evidence and a temptation. Their remarkab",
+      "kind": "historical_research",
+      "source_ids": [
+        "g5-go-unesco",
+        "g5-go-asian"
+      ],
+      "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures; Smithsonian/Asian Art Museum publications, Goryeo Buddhist art and printing",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger. Academic exhibition chapter excerpt on Buddhist images, woodblock projects and material production; published interpretive essay not craftsperson diary."
+    },
+    {
+      "id": "088000-p13",
+      "anchor": "Imagine the carved block again, now inked and pressed to a sheet. For a moment, ",
+      "kind": "historical_research",
+      "source_ids": [
+        "g5-go-unesco",
+        "g5-go-met"
+      ],
+      "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures; Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger. Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+    },
+    {
+      "id": "043300-p01",
+      "anchor": "Near a bend of the Niger River, close to the southern edge of the Sahara",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-timb-uct",
+        "d9-timb-unesco"
+      ],
+      "source_locator": "University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History; UNESCO World Heritage Centre, Timbuktu",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500. Broad fifteen-sixteenth century city history, with institutional terms and numerical claims not independently corroborated."
+    },
+    {
+      "id": "043300-p02",
+      "anchor": "Timbuktu's location explains part of its history. It stood near the Nige",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-timb-uct",
+        "d9-timb-unesco"
+      ],
+      "source_locator": "University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History; UNESCO World Heritage Centre, Timbuktu",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500. Broad fifteen-sixteenth century city history, with institutional terms and numerical claims not independently corroborated."
+    },
+    {
+      "id": "043300-p03",
+      "anchor": "Families and teachers did that work. Islamic learning depended on people",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-timb-uct",
+        "d9-timb-loc"
+      ],
+      "source_locator": "University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History; Library of Congress, Timbuktu: An Islamic Cultural Center, Islamic Manuscripts from Mali",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500. Documents manuscript subjects and custody; cataloged objects vary by copy date and cannot all be placed in the fifteenth century."
+    },
+    {
+      "id": "043300-p04",
+      "anchor": "One familiar name is Sankore, associated with a mosque and traditions of",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-timb-uct",
+        "d9-timb-unesco"
+      ],
+      "source_locator": "University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History; UNESCO World Heritage Centre, Timbuktu",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500. Broad fifteen-sixteenth century city history, with institutional terms and numerical claims not independently corroborated."
+    },
+    {
+      "id": "043300-p05",
+      "anchor": "The manuscripts themselves demand similar care. A scholarly survey of th",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-timb-cambridge",
+        "d9-timb-uct"
+      ],
+      "source_locator": "Charles Stewart and collaborators, What’s in the Manuscripts of Timbuktu? History in Africa; University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Inventory of 31 libraries reveals many undated/recent manuscripts; conclusions apply to surveyed holdings, not every collection. Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500."
+    },
+    {
+      "id": "043300-p06",
+      "anchor": "The Library of Congress has displayed manuscripts from Mali that show th",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-timb-loc",
+        "d9-timb-cambridge"
+      ],
+      "source_locator": "Library of Congress, Timbuktu: An Islamic Cultural Center, Islamic Manuscripts from Mali; Charles Stewart and collaborators, What’s in the Manuscripts of Timbuktu? History in Africa",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Documents manuscript subjects and custody; cataloged objects vary by copy date and cannot all be placed in the fifteenth century. Inventory of 31 libraries reveals many undated/recent manuscripts; conclusions apply to surveyed holdings, not every collection."
+    },
+    {
+      "id": "043300-p07",
+      "anchor": "Around the fifteenth century, Timbuktu's intellectual importance increas",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-timb-uct",
+        "d9-timb-unesco"
+      ],
+      "source_locator": "University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History; UNESCO World Heritage Centre, Timbuktu",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500. Broad fifteen-sixteenth century city history, with institutional terms and numerical claims not independently corroborated."
+    },
+    {
+      "id": "043300-p08",
+      "anchor": "A historian trying to reconstruct one scholar's library faces several se",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-timb-uct",
+        "d9-timb-cambridge"
+      ],
+      "source_locator": "University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History; Charles Stewart and collaborators, What’s in the Manuscripts of Timbuktu? History in Africa",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500. Inventory of 31 libraries reveals many undated/recent manuscripts; conclusions apply to surveyed holdings, not every collection."
+    },
+    {
+      "id": "043300-p09",
+      "anchor": "The importance of scholarly households also changes the picture of intel",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-timb-loc",
+        "d9-timb-uct"
+      ],
+      "source_locator": "Library of Congress, Timbuktu: An Islamic Cultural Center, Islamic Manuscripts from Mali; University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Documents manuscript subjects and custody; cataloged objects vary by copy date and cannot all be placed in the fifteenth century. Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500."
+    },
+    {
+      "id": "043300-p10",
+      "anchor": "There is a risk in arguing the other way, too. Because many surviving ma",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-timb-cambridge",
+        "d9-timb-uct"
+      ],
+      "source_locator": "Charles Stewart and collaborators, What’s in the Manuscripts of Timbuktu? History in Africa; University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Inventory of 31 libraries reveals many undated/recent manuscripts; conclusions apply to surveyed holdings, not every collection. Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500."
+    },
+    {
+      "id": "043300-p11",
+      "anchor": "The city also changed after 1500. Sixteenth- and seventeenth-century sch",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-timb-unesco",
+        "d9-timb-uct"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Timbuktu; University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Broad fifteen-sixteenth century city history, with institutional terms and numerical claims not independently corroborated. Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500."
+    },
+    {
+      "id": "043300-p12",
+      "anchor": "Today, the work of cataloguing, conserving, and making manuscripts avail",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-timb-loc",
+        "d9-timb-cambridge"
+      ],
+      "source_locator": "Library of Congress, Timbuktu: An Islamic Cultural Center, Islamic Manuscripts from Mali; Charles Stewart and collaborators, What’s in the Manuscripts of Timbuktu? History in Africa",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Documents manuscript subjects and custody; cataloged objects vary by copy date and cannot all be placed in the fifteenth century. Inventory of 31 libraries reveals many undated/recent manuscripts; conclusions apply to surveyed holdings, not every collection."
+    },
+    {
+      "id": "043300-p13",
+      "anchor": "Timbuktu teaches us to see learning as an institution made of people rat",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-timb-uct",
+        "d9-timb-cambridge",
+        "d9-timb-unesco"
+      ],
+      "source_locator": "University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History; Charles Stewart and collaborators, What’s in the Manuscripts of Timbuktu? History in Africa; UNESCO World Heritage Centre, Timbuktu",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500. Inventory of 31 libraries reveals many undated/recent manuscripts; conclusions apply to surveyed holdings, not every collection. Broad fifteen-sixteenth century city history, with institutional terms and numerical claims not independently corroborated."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "ancient-medieval-world:032100",
+        "file": "032100-translating-baghdad.md",
+        "sha256": "e45bd123dd2792076f76a2f6a8269dec50b299711a217a5857d95a708d436109",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "032100",
+          "transcript": "032100-translating-baghdad.md",
+          "related_resources": [
+            {
+              "source_id": "d8-ab-primary",
+              "reason": "Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d8-ab-sep",
+              "reason": "Documents translation networks and philosophical texts; focuses particularly on philosophical transmission rather than the whole scholarly economy.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d8-ab-chicago",
+              "reason": "Historical analysis of Arabic science and competing explanations for translation; attributive arguments should not be treated as consensus.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "032100-p01",
+              "anchor": "A translator in ninth-century Baghdad might compare several copies of a ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-ab-primary",
+                "d8-ab-sep"
+              ],
+              "source_locator": "Why Do We Translate? Arabic Sources on Translation, primary texts with editorial introductions; Stanford Encyclopedia of Philosophy, Greek Sources in Arabic and Islamic Philosophy",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished. Documents translation networks and philosophical texts; focuses particularly on philosophical transmission rather than the whole scholarly economy."
+            },
+            {
+              "id": "032100-p02",
+              "anchor": "The Abbasid caliphate established Baghdad as a political and intellectua",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-ab-primary",
+                "d8-ab-chicago"
+              ],
+              "source_locator": "Why Do We Translate? Arabic Sources on Translation, primary texts with editorial introductions; In a Clear Arabic Tongue: Arabic and the Making of a Science-Language Regime",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished. Historical analysis of Arabic science and competing explanations for translation; attributive arguments should not be treated as consensus."
+            },
+            {
+              "id": "032100-p03",
+              "anchor": "One of the most informative witnesses is Hunayn ibn Ishaq, a ninth-centu",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-ab-primary"
+              ],
+              "source_locator": "Why Do We Translate? Arabic Sources on Translation, primary texts with editorial introductions",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished."
+            },
+            {
+              "id": "032100-p04",
+              "anchor": "Hunayn was not alone. His son Ishaq ibn Hunayn and other associates part",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-ab-primary",
+                "d8-ab-sep"
+              ],
+              "source_locator": "Why Do We Translate? Arabic Sources on Translation, primary texts with editorial introductions; Stanford Encyclopedia of Philosophy, Greek Sources in Arabic and Islamic Philosophy",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished. Documents translation networks and philosophical texts; focuses particularly on philosophical transmission rather than the whole scholarly economy."
+            },
+            {
+              "id": "032100-p05",
+              "anchor": "The demand for translations came from several directions. Physicians nee",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-ab-primary",
+                "d8-ab-chicago"
+              ],
+              "source_locator": "Why Do We Translate? Arabic Sources on Translation, primary texts with editorial introductions; In a Clear Arabic Tongue: Arabic and the Making of a Science-Language Regime",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished. Historical analysis of Arabic science and competing explanations for translation; attributive arguments should not be treated as consensus."
+            },
+            {
+              "id": "032100-p06",
+              "anchor": "A famous name associated with this intellectual life is the House of Wis",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-ab-primary",
+                "d8-ab-chicago"
+              ],
+              "source_locator": "Why Do We Translate? Arabic Sources on Translation, primary texts with editorial introductions; In a Clear Arabic Tongue: Arabic and the Making of a Science-Language Regime",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished. Historical analysis of Arabic science and competing explanations for translation; attributive arguments should not be treated as consensus."
+            },
+            {
+              "id": "032100-p07",
+              "anchor": "Manuscript scarcity made skill especially important. A translator could ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-ab-primary"
+              ],
+              "source_locator": "Why Do We Translate? Arabic Sources on Translation, primary texts with editorial introductions",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished."
+            },
+            {
+              "id": "032100-p08",
+              "anchor": "The people participating in these chains belonged to different religious",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-ab-sep",
+                "d8-ab-primary"
+              ],
+              "source_locator": "Stanford Encyclopedia of Philosophy, Greek Sources in Arabic and Islamic Philosophy; Why Do We Translate? Arabic Sources on Translation, primary texts with editorial introductions",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Documents translation networks and philosophical texts; focuses particularly on philosophical transmission rather than the whole scholarly economy. Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished."
+            },
+            {
+              "id": "032100-p09",
+              "anchor": "The translation movement also involved disagreement about why it happene",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-ab-chicago",
+                "d8-ab-sep"
+              ],
+              "source_locator": "In a Clear Arabic Tongue: Arabic and the Making of a Science-Language Regime; Stanford Encyclopedia of Philosophy, Greek Sources in Arabic and Islamic Philosophy",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Historical analysis of Arabic science and competing explanations for translation; attributive arguments should not be treated as consensus. Documents translation networks and philosophical texts; focuses particularly on philosophical transmission rather than the whole scholarly economy."
+            },
+            {
+              "id": "032100-p10",
+              "anchor": "Consider how a medical text might change once translated. Its observatio",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-ab-primary",
+                "d8-ab-sep"
+              ],
+              "source_locator": "Why Do We Translate? Arabic Sources on Translation, primary texts with editorial introductions; Stanford Encyclopedia of Philosophy, Greek Sources in Arabic and Islamic Philosophy",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished. Documents translation networks and philosophical texts; focuses particularly on philosophical transmission rather than the whole scholarly economy."
+            },
+            {
+              "id": "032100-p11",
+              "anchor": "A later bibliographical work, Ibn al-Nadim's Catalogue, or Fihrist, is a",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-ab-primary"
+              ],
+              "source_locator": "Why Do We Translate? Arabic Sources on Translation, primary texts with editorial introductions",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished."
+            },
+            {
+              "id": "032100-p12",
+              "anchor": "There were costs and exclusions in this scholarly life. Producing manusc",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-ab-primary",
+                "d8-ab-chicago"
+              ],
+              "source_locator": "Why Do We Translate? Arabic Sources on Translation, primary texts with editorial introductions; In a Clear Arabic Tongue: Arabic and the Making of a Science-Language Regime",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished. Historical analysis of Arabic science and competing explanations for translation; attributive arguments should not be treated as consensus."
+            },
+            {
+              "id": "032100-p13",
+              "anchor": "Translations made in Abbasid settings eventually circulated through furt",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-ab-primary",
+                "d8-ab-sep"
+              ],
+              "source_locator": "Why Do We Translate? Arabic Sources on Translation, primary texts with editorial introductions; Stanford Encyclopedia of Philosophy, Greek Sources in Arabic and Islamic Philosophy",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished. Documents translation networks and philosophical texts; focuses particularly on philosophical transmission rather than the whole scholarly economy."
+            },
+            {
+              "id": "032100-p14",
+              "anchor": "The lesson of Abbasid translation is that knowledge survives through peo",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-ab-primary",
+                "d8-ab-sep",
+                "d8-ab-chicago"
+              ],
+              "source_locator": "Why Do We Translate? Arabic Sources on Translation, primary texts with editorial introductions; Stanford Encyclopedia of Philosophy, Greek Sources in Arabic and Islamic Philosophy; In a Clear Arabic Tongue: Arabic and the Making of a Science-Language Regime",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gives Hunayn’s epistle context and later bibliographers; distinct genres, retrospective sources and translation histories must be distinguished. Documents translation networks and philosophical texts; focuses particularly on philosophical transmission rather than the whole scholarly economy. Historical analysis of Arabic science and competing explanations for translation; attributive arguments should not be treated as consensus."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:074000",
+        "file": "074000-making-translating-and-preserving-books-baghdad-dunhuang-goryeo-timbuktu-selected-route-subset.md",
+        "sha256": "5ab4ab80eacabd5632d8ef6275e9212bd613997dfb1ef270482dc25d5b60af4c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "074000",
+          "transcript": "074000-making-translating-and-preserving-books-baghdad-dunhuang-goryeo-timbuktu-selected-route-subset.md",
+          "related_resources": [
+            {
+              "source_id": "g3-dun-scribes",
+              "reason": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-dun-work",
+              "reason": "Census, irrigation, taxes, local administration and diplomatic responsibilities under Guiyijun; general archive synthesis.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-dun-timeline",
+              "reason": "Tibetan rule approximately 781–848 and local Guiyijun regime; overview chronology.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-dun-taenzer",
+              "reason": "Chinese and Tibetan tax records, land, contracts and mixed administrative practice; part of scholarly book accessible in JSTOR text preview.",
+              "access_scope": "abstract_or_excerpt_reviewed"
+            },
+            {
+              "source_id": "g3-dun-history",
+              "reason": "Sealing, discovery, dispersion of Cave 17 materials; institutional history of collections.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-dun-languages",
+              "reason": "Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-dun-circular",
+              "reason": "886 circular for meeting, fines, signatures and other local associations; translated summary of original document.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-dun-guangde",
+              "reason": "Contract recording transfer of seven-year-old Guangde by mother A Wu, coercion and reused scroll; cannot establish the child’s later fate.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g5-go-unesco",
+              "reason": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g5-go-met",
+              "reason": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g5-go-nmk",
+              "reason": "Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g5-go-asian",
+              "reason": "Academic exhibition chapter excerpt on Buddhist images, woodblock projects and material production; published interpretive essay not craftsperson diary.",
+              "access_scope": "abstract_or_excerpt_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "074000-p01",
+              "anchor": "In a ninth-century register from Dunhuang, an official kept track of paper owed ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-scribes"
+              ],
+              "source_locator": "International Dunhuang Programme, Scribes at Dunhuang: Pens, Paper and Punishments (2025)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement."
+            },
+            {
+              "id": "074000-p02",
+              "anchor": "Dunhuang was an oasis in the corridor between northwestern China and the wider I",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-work"
+              ],
+              "source_locator": "International Dunhuang Programme, Dunhuang at Work",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Census, irrigation, taxes, local administration and diplomatic responsibilities under Guiyijun; general archive synthesis."
+            },
+            {
+              "id": "074000-p03",
+              "anchor": "A critical chronological distinction is the period of Tibetan imperial control. ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-timeline",
+                "g3-dun-taenzer"
+              ],
+              "source_locator": "International Dunhuang Programme, A Timeline of Dunhuang; Gertraud Taenzer, The Dunhuang Region during Tibetan Rule (787–848): A Study of Secular Manuscripts, Harrassowitz (2012)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Tibetan rule approximately 781–848 and local Guiyijun regime; overview chronology. Chinese and Tibetan tax records, land, contracts and mixed administrative practice; part of scholarly book accessible in JSTOR text preview."
+            },
+            {
+              "id": "074000-p04",
+              "anchor": "The cache is usually called the Library Cave, Mogao Cave 17. It contained tens o",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-history"
+              ],
+              "source_locator": "International Dunhuang Programme, History of the IDP and Cave 17",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Sealing, discovery, dispersion of Cave 17 materials; institutional history of collections."
+            },
+            {
+              "id": "074000-p05",
+              "anchor": "The texts are multilingual. The International Dunhuang Programme identifies Chin",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-languages"
+              ],
+              "source_locator": "International Dunhuang Programme, What Was Stored in Cave 17?",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile."
+            },
+            {
+              "id": "074000-p06",
+              "anchor": "The paper register belongs to a much larger copying enterprise. Under Tibetan im",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-scribes"
+              ],
+              "source_locator": "International Dunhuang Programme, Scribes at Dunhuang: Pens, Paper and Punishments (2025)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement."
+            },
+            {
+              "id": "074000-p07",
+              "anchor": "Scribes were not interchangeable hands. They maintained brushes, made errors, pr",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-scribes"
+              ],
+              "source_locator": "International Dunhuang Programme, Scribes at Dunhuang: Pens, Paper and Punishments (2025)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement."
+            },
+            {
+              "id": "074000-p08",
+              "anchor": "Paper was reused. A Buddhist scripture might be copied on one side of a sheet wh",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-languages"
+              ],
+              "source_locator": "International Dunhuang Programme, What Was Stored in Cave 17?",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile."
+            },
+            {
+              "id": "074000-p09",
+              "anchor": "Local associations organized another layer of society. The International Dunhuan",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-circular"
+              ],
+              "source_locator": "International Dunhuang Programme, Entertainment and Social Life",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "886 circular for meeting, fines, signatures and other local associations; translated summary of original document."
+            },
+            {
+              "id": "074000-p10",
+              "anchor": "The irrigation notices are especially important. In an oasis, a channel that fai",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-circular",
+                "g3-dun-work"
+              ],
+              "source_locator": "International Dunhuang Programme, Entertainment and Social Life; International Dunhuang Programme, Dunhuang at Work",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "886 circular for meeting, fines, signatures and other local associations; translated summary of original document. Census, irrigation, taxes, local administration and diplomatic responsibilities under Guiyijun; general archive synthesis."
+            },
+            {
+              "id": "074000-p11",
+              "anchor": "One surviving contract, dated to 916, records the sale of a seven-year-old child",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-guangde"
+              ],
+              "source_locator": "International Dunhuang Programme, Daily Life Collection Items, contract of 916",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Contract recording transfer of seven-year-old Guangde by mother A Wu, coercion and reused scroll; cannot establish the child’s later fate."
+            },
+            {
+              "id": "074000-p12",
+              "anchor": "Specialist scholarship by Gertraud Taenzer compares Chinese and Tibetan secular ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-taenzer"
+              ],
+              "source_locator": "Gertraud Taenzer, The Dunhuang Region during Tibetan Rule (787–848): A Study of Secular Manuscripts, Harrassowitz (2012)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Chinese and Tibetan tax records, land, contracts and mixed administrative practice; part of scholarly book accessible in JSTOR text preview."
+            },
+            {
+              "id": "074000-p13",
+              "anchor": "Another selection bias comes from religious preservation. Many manuscripts in Ca",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-languages"
+              ],
+              "source_locator": "International Dunhuang Programme, What Was Stored in Cave 17?",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile."
+            },
+            {
+              "id": "074000-p14",
+              "anchor": "Dunhuang's modern history is inseparable from this research. Expeditions removed",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-history",
+                "g3-dun-languages"
+              ],
+              "source_locator": "International Dunhuang Programme, History of the IDP and Cave 17; International Dunhuang Programme, What Was Stored in Cave 17?",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Sealing, discovery, dispersion of Cave 17 materials; institutional history of collections. Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile."
+            },
+            {
+              "id": "074000-p15",
+              "anchor": "The history of Dunhuang is often introduced with an image of Buddhist painting o",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-dun-scribes",
+                "g3-dun-circular",
+                "g3-dun-guangde"
+              ],
+              "source_locator": "International Dunhuang Programme, Scribes at Dunhuang: Pens, Paper and Punishments (2025); International Dunhuang Programme, Entertainment and Social Life; International Dunhuang Programme, Daily Life Collection Items, contract of 916",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement. 886 circular for meeting, fines, signatures and other local associations; translated summary of original document. Contract recording transfer of seven-year-old Guangde by mother A Wu, coercion and reused scroll; cannot establish the child’s later fate."
+            },
+            {
+              "id": "088000-p01",
+              "anchor": "Hold a wooden printing block in your mind. The surface is engraved with characte",
+              "kind": "historical_research",
+              "source_ids": [
+                "g5-go-unesco",
+                "g5-go-met"
+              ],
+              "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures; Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger. Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+            },
+            {
+              "id": "088000-p02",
+              "anchor": "Goryeo ruled the Korean peninsula from 918 until 1392. Its institutions develope",
+              "kind": "historical_research",
+              "source_ids": [
+                "g5-go-met",
+                "g5-go-nmk"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline; National Museum of Korea, Buddhist Scriptures Printed from the Second Tripitaka Koreana Woodblocks",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized. Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints."
+            },
+            {
+              "id": "088000-p03",
+              "anchor": "The first major Goryeo project to print a Buddhist canon began in the early elev",
+              "kind": "historical_research",
+              "source_ids": [
+                "g5-go-met"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+            },
+            {
+              "id": "088000-p04",
+              "anchor": "The first major set of printing blocks was destroyed during the Mongol invasions",
+              "kind": "historical_research",
+              "source_ids": [
+                "g5-go-nmk",
+                "g5-go-met"
+              ],
+              "source_locator": "National Museum of Korea, Buddhist Scriptures Printed from the Second Tripitaka Koreana Woodblocks; Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints. Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+            },
+            {
+              "id": "088000-p05",
+              "anchor": "The surviving second Tripitaka comprises 81,258 printing blocks, preserved at Ha",
+              "kind": "historical_research",
+              "source_ids": [
+                "g5-go-unesco"
+              ],
+              "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger."
+            },
+            {
+              "id": "088000-p06",
+              "anchor": "A block could not be carved by a person who had never seen the intended text. Co",
+              "kind": "historical_research",
+              "source_ids": [
+                "g5-go-met",
+                "g5-go-unesco"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline; UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized. Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger."
+            },
+            {
+              "id": "088000-p07",
+              "anchor": "The task was also scholarly. A Buddhist canon is not a single short scripture bu",
+              "kind": "historical_research",
+              "source_ids": [
+                "g5-go-unesco"
+              ],
+              "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger."
+            },
+            {
+              "id": "088000-p08",
+              "anchor": "Religious institutions across Korea took part in wider networks of making and pr",
+              "kind": "historical_research",
+              "source_ids": [
+                "g5-go-unesco",
+                "g5-go-nmk"
+              ],
+              "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures; National Museum of Korea, Buddhist Scriptures Printed from the Second Tripitaka Koreana Woodblocks",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger. Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints."
+            },
+            {
+              "id": "088000-p09",
+              "anchor": "Nor should Goryeo printing be treated as a solitary technological miracle separa",
+              "kind": "historical_research",
+              "source_ids": [
+                "g5-go-asian",
+                "g5-go-met"
+              ],
+              "source_locator": "Smithsonian/Asian Art Museum publications, Goryeo Buddhist art and printing; Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Academic exhibition chapter excerpt on Buddhist images, woodblock projects and material production; published interpretive essay not craftsperson diary. Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+            },
+            {
+              "id": "088000-p10",
+              "anchor": "Goryeo also participated in experiments with movable metal type. A surviving Bud",
+              "kind": "historical_research",
+              "source_ids": [
+                "g5-go-met",
+                "g5-go-unesco"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline; UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized. Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger."
+            },
+            {
+              "id": "088000-p11",
+              "anchor": "The Mongol invasions are part of this story, but they are not its entire explana",
+              "kind": "historical_research",
+              "source_ids": [
+                "g5-go-met",
+                "g5-go-nmk"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline; National Museum of Korea, Buddhist Scriptures Printed from the Second Tripitaka Koreana Woodblocks",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized. Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints."
+            },
+            {
+              "id": "088000-p12",
+              "anchor": "For the historian, the blocks are both evidence and a temptation. Their remarkab",
+              "kind": "historical_research",
+              "source_ids": [
+                "g5-go-unesco",
+                "g5-go-asian"
+              ],
+              "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures; Smithsonian/Asian Art Museum publications, Goryeo Buddhist art and printing",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger. Academic exhibition chapter excerpt on Buddhist images, woodblock projects and material production; published interpretive essay not craftsperson diary."
+            },
+            {
+              "id": "088000-p13",
+              "anchor": "Imagine the carved block again, now inked and pressed to a sheet. For a moment, ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g5-go-unesco",
+                "g5-go-met"
+              ],
+              "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures; Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger. Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+            }
+          ],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "ancient-medieval-world:074000",
+                "file": "074000-dunhuang-paper-and-power.md",
+                "sha256": "71148165c05120490ffe5819e22f9f992cc076f95b3bc7f9ff296d53d4a9a7bf",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "074000",
+                  "transcript": "074000-dunhuang-paper-and-power.md",
+                  "related_resources": [
+                    {
+                      "source_id": "g3-dun-scribes",
+                      "reason": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "g3-dun-work",
+                      "reason": "Census, irrigation, taxes, local administration and diplomatic responsibilities under Guiyijun; general archive synthesis.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "g3-dun-timeline",
+                      "reason": "Tibetan rule approximately 781–848 and local Guiyijun regime; overview chronology.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "g3-dun-taenzer",
+                      "reason": "Chinese and Tibetan tax records, land, contracts and mixed administrative practice; part of scholarly book accessible in JSTOR text preview.",
+                      "access_scope": "abstract_or_excerpt_reviewed"
+                    },
+                    {
+                      "source_id": "g3-dun-history",
+                      "reason": "Sealing, discovery, dispersion of Cave 17 materials; institutional history of collections.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "g3-dun-languages",
+                      "reason": "Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "g3-dun-circular",
+                      "reason": "886 circular for meeting, fines, signatures and other local associations; translated summary of original document.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "g3-dun-guangde",
+                      "reason": "Contract recording transfer of seven-year-old Guangde by mother A Wu, coercion and reused scroll; cannot establish the child’s later fate.",
+                      "access_scope": "webpage_reviewed"
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "074000-p01",
+                      "anchor": "In a ninth-century register from Dunhuang, an official kept track of paper owed ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-scribes"
+                      ],
+                      "source_locator": "International Dunhuang Programme, Scribes at Dunhuang: Pens, Paper and Punishments (2025)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement."
+                    },
+                    {
+                      "id": "074000-p02",
+                      "anchor": "Dunhuang was an oasis in the corridor between northwestern China and the wider I",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-work"
+                      ],
+                      "source_locator": "International Dunhuang Programme, Dunhuang at Work",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Census, irrigation, taxes, local administration and diplomatic responsibilities under Guiyijun; general archive synthesis."
+                    },
+                    {
+                      "id": "074000-p03",
+                      "anchor": "A critical chronological distinction is the period of Tibetan imperial control. ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-timeline",
+                        "g3-dun-taenzer"
+                      ],
+                      "source_locator": "International Dunhuang Programme, A Timeline of Dunhuang; Gertraud Taenzer, The Dunhuang Region during Tibetan Rule (787–848): A Study of Secular Manuscripts, Harrassowitz (2012)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Tibetan rule approximately 781–848 and local Guiyijun regime; overview chronology. Chinese and Tibetan tax records, land, contracts and mixed administrative practice; part of scholarly book accessible in JSTOR text preview."
+                    },
+                    {
+                      "id": "074000-p04",
+                      "anchor": "The cache is usually called the Library Cave, Mogao Cave 17. It contained tens o",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-history"
+                      ],
+                      "source_locator": "International Dunhuang Programme, History of the IDP and Cave 17",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Sealing, discovery, dispersion of Cave 17 materials; institutional history of collections."
+                    },
+                    {
+                      "id": "074000-p05",
+                      "anchor": "The texts are multilingual. The International Dunhuang Programme identifies Chin",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-languages"
+                      ],
+                      "source_locator": "International Dunhuang Programme, What Was Stored in Cave 17?",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile."
+                    },
+                    {
+                      "id": "074000-p06",
+                      "anchor": "The paper register belongs to a much larger copying enterprise. Under Tibetan im",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-scribes"
+                      ],
+                      "source_locator": "International Dunhuang Programme, Scribes at Dunhuang: Pens, Paper and Punishments (2025)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement."
+                    },
+                    {
+                      "id": "074000-p07",
+                      "anchor": "Scribes were not interchangeable hands. They maintained brushes, made errors, pr",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-scribes"
+                      ],
+                      "source_locator": "International Dunhuang Programme, Scribes at Dunhuang: Pens, Paper and Punishments (2025)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement."
+                    },
+                    {
+                      "id": "074000-p08",
+                      "anchor": "Paper was reused. A Buddhist scripture might be copied on one side of a sheet wh",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-languages"
+                      ],
+                      "source_locator": "International Dunhuang Programme, What Was Stored in Cave 17?",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile."
+                    },
+                    {
+                      "id": "074000-p09",
+                      "anchor": "Local associations organized another layer of society. The International Dunhuan",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-circular"
+                      ],
+                      "source_locator": "International Dunhuang Programme, Entertainment and Social Life",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "886 circular for meeting, fines, signatures and other local associations; translated summary of original document."
+                    },
+                    {
+                      "id": "074000-p10",
+                      "anchor": "The irrigation notices are especially important. In an oasis, a channel that fai",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-circular",
+                        "g3-dun-work"
+                      ],
+                      "source_locator": "International Dunhuang Programme, Entertainment and Social Life; International Dunhuang Programme, Dunhuang at Work",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "886 circular for meeting, fines, signatures and other local associations; translated summary of original document. Census, irrigation, taxes, local administration and diplomatic responsibilities under Guiyijun; general archive synthesis."
+                    },
+                    {
+                      "id": "074000-p11",
+                      "anchor": "One surviving contract, dated to 916, records the sale of a seven-year-old child",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-guangde"
+                      ],
+                      "source_locator": "International Dunhuang Programme, Daily Life Collection Items, contract of 916",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Contract recording transfer of seven-year-old Guangde by mother A Wu, coercion and reused scroll; cannot establish the child’s later fate."
+                    },
+                    {
+                      "id": "074000-p12",
+                      "anchor": "Specialist scholarship by Gertraud Taenzer compares Chinese and Tibetan secular ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-taenzer"
+                      ],
+                      "source_locator": "Gertraud Taenzer, The Dunhuang Region during Tibetan Rule (787–848): A Study of Secular Manuscripts, Harrassowitz (2012)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Chinese and Tibetan tax records, land, contracts and mixed administrative practice; part of scholarly book accessible in JSTOR text preview."
+                    },
+                    {
+                      "id": "074000-p13",
+                      "anchor": "Another selection bias comes from religious preservation. Many manuscripts in Ca",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-languages"
+                      ],
+                      "source_locator": "International Dunhuang Programme, What Was Stored in Cave 17?",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile."
+                    },
+                    {
+                      "id": "074000-p14",
+                      "anchor": "Dunhuang's modern history is inseparable from this research. Expeditions removed",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-history",
+                        "g3-dun-languages"
+                      ],
+                      "source_locator": "International Dunhuang Programme, History of the IDP and Cave 17; International Dunhuang Programme, What Was Stored in Cave 17?",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Sealing, discovery, dispersion of Cave 17 materials; institutional history of collections. Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile."
+                    },
+                    {
+                      "id": "074000-p15",
+                      "anchor": "The history of Dunhuang is often introduced with an image of Buddhist painting o",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g3-dun-scribes",
+                        "g3-dun-circular",
+                        "g3-dun-guangde"
+                      ],
+                      "source_locator": "International Dunhuang Programme, Scribes at Dunhuang: Pens, Paper and Punishments (2025); International Dunhuang Programme, Entertainment and Social Life; International Dunhuang Programme, Daily Life Collection Items, contract of 916",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement. 886 circular for meeting, fines, signatures and other local associations; translated summary of original document. Contract recording transfer of seven-year-old Guangde by mother A Wu, coercion and reused scroll; cannot establish the child’s later fate."
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "ancient-medieval-world:088000",
+                "file": "088000-goryeo-woodblock-library.md",
+                "sha256": "b25410f0764d23ebad6f5f251c57b6e722b54e32fd241c106a4c615b23e5dc7b",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "088000",
+                  "transcript": "088000-goryeo-woodblock-library.md",
+                  "related_resources": [
+                    {
+                      "source_id": "g5-go-unesco",
+                      "reason": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "g5-go-met",
+                      "reason": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "g5-go-nmk",
+                      "reason": "Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "g5-go-asian",
+                      "reason": "Academic exhibition chapter excerpt on Buddhist images, woodblock projects and material production; published interpretive essay not craftsperson diary.",
+                      "access_scope": "abstract_or_excerpt_reviewed"
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "088000-p01",
+                      "anchor": "Hold a wooden printing block in your mind. The surface is engraved with characte",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g5-go-unesco",
+                        "g5-go-met"
+                      ],
+                      "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures; Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger. Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+                    },
+                    {
+                      "id": "088000-p02",
+                      "anchor": "Goryeo ruled the Korean peninsula from 918 until 1392. Its institutions develope",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g5-go-met",
+                        "g5-go-nmk"
+                      ],
+                      "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline; National Museum of Korea, Buddhist Scriptures Printed from the Second Tripitaka Koreana Woodblocks",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized. Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints."
+                    },
+                    {
+                      "id": "088000-p03",
+                      "anchor": "The first major Goryeo project to print a Buddhist canon began in the early elev",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g5-go-met"
+                      ],
+                      "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+                    },
+                    {
+                      "id": "088000-p04",
+                      "anchor": "The first major set of printing blocks was destroyed during the Mongol invasions",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g5-go-nmk",
+                        "g5-go-met"
+                      ],
+                      "source_locator": "National Museum of Korea, Buddhist Scriptures Printed from the Second Tripitaka Koreana Woodblocks; Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints. Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+                    },
+                    {
+                      "id": "088000-p05",
+                      "anchor": "The surviving second Tripitaka comprises 81,258 printing blocks, preserved at Ha",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g5-go-unesco"
+                      ],
+                      "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger."
+                    },
+                    {
+                      "id": "088000-p06",
+                      "anchor": "A block could not be carved by a person who had never seen the intended text. Co",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g5-go-met",
+                        "g5-go-unesco"
+                      ],
+                      "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline; UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized. Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger."
+                    },
+                    {
+                      "id": "088000-p07",
+                      "anchor": "The task was also scholarly. A Buddhist canon is not a single short scripture bu",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g5-go-unesco"
+                      ],
+                      "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger."
+                    },
+                    {
+                      "id": "088000-p08",
+                      "anchor": "Religious institutions across Korea took part in wider networks of making and pr",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g5-go-unesco",
+                        "g5-go-nmk"
+                      ],
+                      "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures; National Museum of Korea, Buddhist Scriptures Printed from the Second Tripitaka Koreana Woodblocks",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger. Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints."
+                    },
+                    {
+                      "id": "088000-p09",
+                      "anchor": "Nor should Goryeo printing be treated as a solitary technological miracle separa",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g5-go-asian",
+                        "g5-go-met"
+                      ],
+                      "source_locator": "Smithsonian/Asian Art Museum publications, Goryeo Buddhist art and printing; Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Academic exhibition chapter excerpt on Buddhist images, woodblock projects and material production; published interpretive essay not craftsperson diary. Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+                    },
+                    {
+                      "id": "088000-p10",
+                      "anchor": "Goryeo also participated in experiments with movable metal type. A surviving Bud",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g5-go-met",
+                        "g5-go-unesco"
+                      ],
+                      "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline; UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized. Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger."
+                    },
+                    {
+                      "id": "088000-p11",
+                      "anchor": "The Mongol invasions are part of this story, but they are not its entire explana",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g5-go-met",
+                        "g5-go-nmk"
+                      ],
+                      "source_locator": "Metropolitan Museum of Art, Korea, 1000–1400 CE timeline; National Museum of Korea, Buddhist Scriptures Printed from the Second Tripitaka Koreana Woodblocks",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized. Museum object description distinguishes first and second Tripitaka projects and the Tripitaka Bureau, war context and subsequent prints."
+                    },
+                    {
+                      "id": "088000-p12",
+                      "anchor": "For the historian, the blocks are both evidence and a temptation. Their remarkab",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g5-go-unesco",
+                        "g5-go-asian"
+                      ],
+                      "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures; Smithsonian/Asian Art Museum publications, Goryeo Buddhist art and printing",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger. Academic exhibition chapter excerpt on Buddhist images, woodblock projects and material production; published interpretive essay not craftsperson diary."
+                    },
+                    {
+                      "id": "088000-p13",
+                      "anchor": "Imagine the carved block again, now inked and pressed to a sheet. For a moment, ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "g5-go-unesco",
+                        "g5-go-met"
+                      ],
+                      "source_locator": "UNESCO Memory of the World, Printing Woodblocks of the Tripitaka Koreana and Miscellaneous Buddhist Scriptures; Metropolitan Museum of Art, Korea, 1000–1400 CE timeline",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Institutional register describes 81,258 Goryeo-era blocks, preservation at Haeinsa and wider manuscript/translating traditions. Heritage nomination is not a complete labor ledger. Museum chronology on first and second Goryeo Tripitaka projects, war, Buddhist patronage, paper and ink, movable type and painting; chronology is synthesized."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ancient-medieval-world:043300",
+        "file": "043300-timbuktu-scholarship-dating.md",
+        "sha256": "f596cb9d8a9c9a012b9a5d0da746afaabde623d954d874b134cd820f92cb75aa",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "043300",
+          "transcript": "043300-timbuktu-scholarship-dating.md",
+          "related_resources": [
+            {
+              "source_id": "d9-timb-uct",
+              "reason": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d9-timb-unesco",
+              "reason": "Broad fifteen-sixteenth century city history, with institutional terms and numerical claims not independently corroborated.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d9-timb-loc",
+              "reason": "Documents manuscript subjects and custody; cataloged objects vary by copy date and cannot all be placed in the fifteenth century.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d9-timb-cambridge",
+              "reason": "Inventory of 31 libraries reveals many undated/recent manuscripts; conclusions apply to surveyed holdings, not every collection.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "043300-p01",
+              "anchor": "Near a bend of the Niger River, close to the southern edge of the Sahara",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-timb-uct",
+                "d9-timb-unesco"
+              ],
+              "source_locator": "University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History; UNESCO World Heritage Centre, Timbuktu",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500. Broad fifteen-sixteenth century city history, with institutional terms and numerical claims not independently corroborated."
+            },
+            {
+              "id": "043300-p02",
+              "anchor": "Timbuktu's location explains part of its history. It stood near the Nige",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-timb-uct",
+                "d9-timb-unesco"
+              ],
+              "source_locator": "University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History; UNESCO World Heritage Centre, Timbuktu",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500. Broad fifteen-sixteenth century city history, with institutional terms and numerical claims not independently corroborated."
+            },
+            {
+              "id": "043300-p03",
+              "anchor": "Families and teachers did that work. Islamic learning depended on people",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-timb-uct",
+                "d9-timb-loc"
+              ],
+              "source_locator": "University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History; Library of Congress, Timbuktu: An Islamic Cultural Center, Islamic Manuscripts from Mali",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500. Documents manuscript subjects and custody; cataloged objects vary by copy date and cannot all be placed in the fifteenth century."
+            },
+            {
+              "id": "043300-p04",
+              "anchor": "One familiar name is Sankore, associated with a mosque and traditions of",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-timb-uct",
+                "d9-timb-unesco"
+              ],
+              "source_locator": "University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History; UNESCO World Heritage Centre, Timbuktu",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500. Broad fifteen-sixteenth century city history, with institutional terms and numerical claims not independently corroborated."
+            },
+            {
+              "id": "043300-p05",
+              "anchor": "The manuscripts themselves demand similar care. A scholarly survey of th",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-timb-cambridge",
+                "d9-timb-uct"
+              ],
+              "source_locator": "Charles Stewart and collaborators, What’s in the Manuscripts of Timbuktu? History in Africa; University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Inventory of 31 libraries reveals many undated/recent manuscripts; conclusions apply to surveyed holdings, not every collection. Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500."
+            },
+            {
+              "id": "043300-p06",
+              "anchor": "The Library of Congress has displayed manuscripts from Mali that show th",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-timb-loc",
+                "d9-timb-cambridge"
+              ],
+              "source_locator": "Library of Congress, Timbuktu: An Islamic Cultural Center, Islamic Manuscripts from Mali; Charles Stewart and collaborators, What’s in the Manuscripts of Timbuktu? History in Africa",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Documents manuscript subjects and custody; cataloged objects vary by copy date and cannot all be placed in the fifteenth century. Inventory of 31 libraries reveals many undated/recent manuscripts; conclusions apply to surveyed holdings, not every collection."
+            },
+            {
+              "id": "043300-p07",
+              "anchor": "Around the fifteenth century, Timbuktu's intellectual importance increas",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-timb-uct",
+                "d9-timb-unesco"
+              ],
+              "source_locator": "University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History; UNESCO World Heritage Centre, Timbuktu",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500. Broad fifteen-sixteenth century city history, with institutional terms and numerical claims not independently corroborated."
+            },
+            {
+              "id": "043300-p08",
+              "anchor": "A historian trying to reconstruct one scholar's library faces several se",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-timb-uct",
+                "d9-timb-cambridge"
+              ],
+              "source_locator": "University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History; Charles Stewart and collaborators, What’s in the Manuscripts of Timbuktu? History in Africa",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500. Inventory of 31 libraries reveals many undated/recent manuscripts; conclusions apply to surveyed holdings, not every collection."
+            },
+            {
+              "id": "043300-p09",
+              "anchor": "The importance of scholarly households also changes the picture of intel",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-timb-loc",
+                "d9-timb-uct"
+              ],
+              "source_locator": "Library of Congress, Timbuktu: An Islamic Cultural Center, Islamic Manuscripts from Mali; University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Documents manuscript subjects and custody; cataloged objects vary by copy date and cannot all be placed in the fifteenth century. Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500."
+            },
+            {
+              "id": "043300-p10",
+              "anchor": "There is a risk in arguing the other way, too. Because many surviving ma",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-timb-cambridge",
+                "d9-timb-uct"
+              ],
+              "source_locator": "Charles Stewart and collaborators, What’s in the Manuscripts of Timbuktu? History in Africa; University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Inventory of 31 libraries reveals many undated/recent manuscripts; conclusions apply to surveyed holdings, not every collection. Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500."
+            },
+            {
+              "id": "043300-p11",
+              "anchor": "The city also changed after 1500. Sixteenth- and seventeenth-century sch",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-timb-unesco",
+                "d9-timb-uct"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Timbuktu; University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Broad fifteen-sixteenth century city history, with institutional terms and numerical claims not independently corroborated. Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500."
+            },
+            {
+              "id": "043300-p12",
+              "anchor": "Today, the work of cataloguing, conserving, and making manuscripts avail",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-timb-loc",
+                "d9-timb-cambridge"
+              ],
+              "source_locator": "Library of Congress, Timbuktu: An Islamic Cultural Center, Islamic Manuscripts from Mali; Charles Stewart and collaborators, What’s in the Manuscripts of Timbuktu? History in Africa",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Documents manuscript subjects and custody; cataloged objects vary by copy date and cannot all be placed in the fifteenth century. Inventory of 31 libraries reveals many undated/recent manuscripts; conclusions apply to surveyed holdings, not every collection."
+            },
+            {
+              "id": "043300-p13",
+              "anchor": "Timbuktu teaches us to see learning as an institution made of people rat",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-timb-uct",
+                "d9-timb-cambridge",
+                "d9-timb-unesco"
+              ],
+              "source_locator": "University of Cape Town Tombouctou Manuscripts Project, Timbuktu’s History; Charles Stewart and collaborators, What’s in the Manuscripts of Timbuktu? History in Africa; UNESCO World Heritage Centre, Timbuktu",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dates development as intellectual center primarily to fifteenth century; later scholar Ahmad Baba must not be moved before 1500. Inventory of 31 libraries reveals many undated/recent manuscripts; conclusions apply to surveyed holdings, not every collection. Broad fifteen-sixteenth century city history, with institutional terms and numerical claims not independently corroborated."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

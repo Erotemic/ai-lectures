@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "027000",
-  "transcript": "027000-krull-dimension-and-nullstellensatz.md",
+  "transcript": "027000-from-affine-algebra-to-spaces-and-sheaves-shared-core.md",
   "related_resources": [
     {
       "source_id": "aa-stacks-null",
@@ -14,7 +14,211 @@
     {
       "source_id": "aa-eisenbud",
       "reason": "Affine coordinate rings and algebraic geometry context."
+    },
+    {
+      "source_id": "aa-stacks-normal",
+      "reason": "Integral dependence and normalization conditions."
+    },
+    {
+      "source_id": "aa-eisenbud",
+      "reason": "Affine coordinate rings and tangent-space singularity tests."
+    },
+    {
+      "source_id": "aa-stacks-affine-schemes",
+      "reason": "Basic affine scheme structure and localizations."
+    },
+    {
+      "source_id": "aa-stacks-zariski",
+      "reason": "Topology, specialization, and generic points."
+    },
+    {
+      "source_id": "aa-stacks-null",
+      "reason": "Hilbert Nullstellensatz background for algebraic points."
+    },
+    {
+      "source_id": "aa-stacks-qcoh-affine",
+      "reason": "Modules and quasi-coherent sheaves on affine schemes."
+    },
+    {
+      "source_id": "aa-stacks-gluing",
+      "reason": "Compatibility data and gluing constructions."
+    },
+    {
+      "source_id": "aa-stacks-projective-bundles",
+      "reason": "Twisting sheaves over projective space."
+    },
+    {
+      "source_id": "aa-stacks-etale",
+      "reason": "Etale definitions, permanence and flatness."
+    },
+    {
+      "source_id": "aa-stacks-etale-local",
+      "reason": "Simple-root/Jacobian criterion."
+    },
+    {
+      "source_id": "aa-stacks-differentials",
+      "reason": "Presentation of Kahler differentials."
+    },
+    {
+      "source_id": "aa-cartier-linebundles",
+      "reason": "Line-bundle construction from local defining equations."
+    },
+    {
+      "source_id": "aa-pic-projective",
+      "reason": "Pic(P^1) and the twists O(n)."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:027000",
+        "file": "027000-krull-dimension-and-nullstellensatz.md",
+        "sha256": "98c2315c5f54ae27db2086aa6df114d8c6f1348916a2a9f00b0084b6944d3a73",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "027000",
+          "transcript": "027000-krull-dimension-and-nullstellensatz.md",
+          "related_resources": [
+            {
+              "source_id": "aa-stacks-null",
+              "reason": "Weak and strong Nullstellensatz; hypotheses about algebraic closure."
+            },
+            {
+              "source_id": "aa-stacks-dim",
+              "reason": "Krull dimension of finite-type algebras."
+            },
+            {
+              "source_id": "aa-eisenbud",
+              "reason": "Affine coordinate rings and algebraic geometry context."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:030000",
+        "file": "030000-integral-dependence-normalization-and-singular-curves.md",
+        "sha256": "9b478c01307ad23b54a4d4f33cd789a6aa9d4887a77a16e605f8a18790e5cf94",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "030000",
+          "transcript": "030000-integral-dependence-normalization-and-singular-curves.md",
+          "related_resources": [
+            {
+              "source_id": "aa-stacks-normal",
+              "reason": "Integral dependence and normalization conditions."
+            },
+            {
+              "source_id": "aa-eisenbud",
+              "reason": "Affine coordinate rings and tangent-space singularity tests."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:033000",
+        "file": "033000-prime-spectra-and-affine-schemes.md",
+        "sha256": "d9b2a0beb155751592b4fa2232cfa3e26bebfcc8fd49b545c22bbfe466566d65",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "033000",
+          "transcript": "033000-prime-spectra-and-affine-schemes.md",
+          "related_resources": [
+            {
+              "source_id": "aa-stacks-affine-schemes",
+              "reason": "Basic affine scheme structure and localizations."
+            },
+            {
+              "source_id": "aa-stacks-zariski",
+              "reason": "Topology, specialization, and generic points."
+            },
+            {
+              "source_id": "aa-stacks-null",
+              "reason": "Hilbert Nullstellensatz background for algebraic points."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:034000",
+        "file": "034000-quasi-coherent-sheaves-and-affine-descent.md",
+        "sha256": "0da8d1510d4c22c7c850c89b276325263805adc00a0dd76da1bd4d923fdae594",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "034000",
+          "transcript": "034000-quasi-coherent-sheaves-and-affine-descent.md",
+          "related_resources": [
+            {
+              "source_id": "aa-stacks-qcoh-affine",
+              "reason": "Modules and quasi-coherent sheaves on affine schemes."
+            },
+            {
+              "source_id": "aa-stacks-gluing",
+              "reason": "Compatibility data and gluing constructions."
+            },
+            {
+              "source_id": "aa-stacks-projective-bundles",
+              "reason": "Twisting sheaves over projective space."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:035000",
+        "file": "035000-etale-maps-and-the-jacobian-criterion.md",
+        "sha256": "3854dbcb07a8dd4d9b5fd0e074af96c4c80c7c09417fd2e909bba74a390f3622",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "035000",
+          "transcript": "035000-etale-maps-and-the-jacobian-criterion.md",
+          "related_resources": [
+            {
+              "source_id": "aa-stacks-etale",
+              "reason": "Etale definitions, permanence and flatness."
+            },
+            {
+              "source_id": "aa-stacks-etale-local",
+              "reason": "Simple-root/Jacobian criterion."
+            },
+            {
+              "source_id": "aa-stacks-differentials",
+              "reason": "Presentation of Kahler differentials."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:037000",
+        "file": "037000-divisors-line-bundles-and-picard-groups.md",
+        "sha256": "6b30c0162b1ab12601b58c65344c5e12f1a7d7a21c118c4673b1b2dca2ee721e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "037000",
+          "transcript": "037000-divisors-line-bundles-and-picard-groups.md",
+          "related_resources": [
+            {
+              "source_id": "aa-cartier-linebundles",
+              "reason": "Line-bundle construction from local defining equations."
+            },
+            {
+              "source_id": "aa-pic-projective",
+              "reason": "Pic(P^1) and the twists O(n)."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

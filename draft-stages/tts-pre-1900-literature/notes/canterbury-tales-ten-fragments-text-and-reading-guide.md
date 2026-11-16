@@ -1,5 +1,7 @@
 # Geoffrey Chaucer, *The Canterbury Tales*: tale map, source guide and unfinished design
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 This section contains **28 story-focused lectures (275000–302000)** and **9 critical
 studies (303000–311000)**. Every surviving one of the **twenty-four tales** has
 an individual story treatment, with the long Knight’s Tale in two parts. The

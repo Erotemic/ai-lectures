@@ -2,151 +2,42 @@
 
 Finite structures and counting arguments, progressing from bijections and double counting through graph theory, generating functions, recurrences, matching, matroids and extremal combinatorics. Distinct from the Algorithms course: mathematical structure and proof first.
 
-## Available lectures
+The current pack contains **13 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
-- 001000 — Bijections and Double Counting: Proving Equations by Counting Objects
-- 002000 — Inclusion–Exclusion: Counting When Cases Overlap
+## Listening routes
 
-Every numbered manuscript has a single spoken-region marker pair. Its mathematical companion and bibliography are not spoken. The source records are in `metadata/sources.json`; per-lecture reading links are in `metadata/<id>.json`.
+`track.json` owns the current manuscripts and complete sequence. `navigation.json` selects the guided and deeper routes listed below.
 
-The recorded word counts and estimated audio durations in `track.json` describe the existing narration; they are not writing targets or constraints.
+- **Discrete Mathematics · Counting and Finite Structures** (Guided route): `001000`, `005000`, `009000`, `011000`.
+- **Discrete Mathematics · Graph Structure and Expansion** (Deep dive): `005000`, `009000`, `013000`, `014000`, `011000`, `021000`, `040000`, `042000`.
+- **Discrete Mathematics · Randomness and Counting** (Deep dive): `011000`, `018000`, `013000`, `031000`.
+- **Discrete Mathematics · Set Systems and Discrepancy** (Deep dive): `018000`.
+- **Discrete Mathematics · Codes, Fourier Methods, and Pseudorandomness** (Deep dive): `020000`, `036000`.
 
-## Newly completed continuation
+## Current manuscripts
 
-- 003000 — [Generating Functions: Turn Counting into Algebra](003000-generating-functions.md)
-- 004000 — [Recurrences, Rational Generating Functions, and Growth](004000-recurrences-and-rational-generating-functions.md)
+Durations are measured from the current spoken text at 145 words per minute, before synthesis; they are descriptions, not writing targets.
 
-Lecture lengths in the track manifest are measured, not prescribed. Exact mathematics and references remain in non-spoken companions.
+| ID | Lecture | Approximate minutes |
+|---|---|---:|
+| `001000` | [Counting, generating functions, and symmetry orbits](001000-counting-generating-functions-and-symmetry-orbits.md) | 45.5 |
+| `005000` | [Graphs, matchings, and flow certificates](005000-graphs-matchings-and-flow-certificates.md) | 26.8 |
+| `009000` | [Greedy graph structure, extremal bounds, and coloring](009000-greedy-graph-structure-extremal-bounds-and-coloring.md) | 23.9 |
+| `011000` | [Random discrete structures: existence, reliability, and concentration](011000-random-discrete-structures-existence-reliability-and-concentration.md) | 28.8 |
+| `013000` | [Submodular structure and randomized rounding](013000-submodular-structure-and-randomized-rounding.md) | 15.2 |
+| `014000` | [Forced patterns, spectral expansion, and graph separators](014000-forced-patterns-spectral-expansion-and-separators-shared-core.md) | 23.7 |
+| `018000` | [Set-system complexity, sampling, and constructive discrepancy](018000-set-system-complexity-sampling-and-constructive-discrepancy.md) | 42.7 |
+| `020000` | [Codes, extraction, Fourier analysis, and influence](020000-codes-extraction-fourier-analysis-and-influence.md) | 37.8 |
+| `021000` | [Parameterized algorithms and expander structure](021000-forced-patterns-spectral-expansion-and-separators-shared-core.md) | 12.8 |
+| `031000` | [Local tests and structural containers](031000-set-systems-rounding-range-sampling-and-containers-shared-core.md) | 15.2 |
+| `036000` | [Local recovery, derandomization, and Fourier uniformity](036000-local-recovery-derandomization-and-fourier-uniformity.md) | 40.1 |
+| `040000` | [Hypergraph Matchings and the Absorption Method](040000-hypergraph-matchings-and-absorption.md) | 7.1 |
+| `042000` | [Quasirandom Graphs and Four-Cycle Counts](042000-quasirandom-graphs-and-four-cycle-counts.md) | 5.9 |
 
-## Further completed lectures
+The short 040000 hypergraph-absorption introduction and 042000 four-cycle/quasirandomness reference address distinct advanced questions. 040000 has no same-method expanded sequel in the current pack; it is labelled as a compact introduction. 042000 contains its own focused argument. They are not combined merely to make a longer recording.
 
-- 005000 — [Graphs, Trees, and the Structure of Cycles](005000-graphs-trees-and-cycle-structure.md)
-- 006000 — [Matchings and Hall's Marriage Theorem](006000-hall-marriage-theorem-and-matchings.md)
+## Sources and authoring
 
-The word counts in `track.json` are descriptive measurements from the canonical extractor, not targets. The mathematical companions and references are outside the spoken region.
+Per-lecture source records live in `metadata/`; the bibliography is in `metadata/sources.json` when present. Composition lineage and editorial revisions are recorded in per-lecture metadata and `provenance.yaml`. Original arguments and exact companions remain with their consolidated manuscript.
 
-## Completed continuation — representations, discrete structure and dynamics
-
-- 007000 — [Flows and Cuts: A Combinatorial Equality with Two Certificates](007000-flows-cuts-and-integrality.md)
-- 008000 — [Pólya Enumeration: Counting Colorings without Double-Counting Symmetry](008000-polya-enumeration-and-cycle-indices.md)
-
-Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.
-
-## Completed continuation — local algebra, geometry and certified computation
-
-- 009000 — [Matroids: Why Some Greedy Algorithms Are Exactly Right](009000-matroids-and-greedy-optimality.md)
-- 010000 — [Extremal Graph Theory: How Many Edges Avoid a Clique?](010000-extremal-graphs-and-turan-theorem.md)
-
-Word counts and narration durations in the manifest are descriptive measurements, not length targets. Exact equations and references remain in non-spoken companions.
-
-## Completed continuation — derived algebra and verified analysis
-
-- 011000 — [The Probabilistic Method: Existence without Construction](011000-probabilistic-method-existence-without-construction.md)
-- 012000 — [Graph Coloring, Chromatic Polynomials, and Planarity](012000-graph-coloring-chromatic-polynomials-and-planarity.md)
-
-The manifest's narration measurements are descriptive only; exact mathematics and source records are in the non-spoken companions.
-
-## Completed continuation — structures, stability and sensitivity
-
-- 013000 — [Submodularity, Matroid Intersection, and the Limits of Greedy Choice](013000-submodularity-and-matroid-intersection.md)
-- 014000 — [Ramsey Theory: Why Large Structures Force Patterns](014000-ramsey-theory-and-unavoidable-patterns.md)
-
-Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.
-
-## Completed continuation — number-theoretic, spectral and dual structures
-
-- 015000 — [Spectral Graph Theory: Eigenvalues, Cuts, and Expansion](015000-spectral-graph-theory-and-expansion.md)
-- 016000 — [Random Graph Thresholds, Second Moments, and Concentration](016000-random-graph-thresholds-and-concentration.md)
-
-Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.
-
-## Completed continuation — geometry, combinatorics and computational sensitivity
-
-- 017000 — [Graph Minors and Treewidth: Solving Hard Problems by Separators](017000-graph-minors-and-treewidth.md)
-- 018000 — [Entropy as a Counting Tool: Shearer's Inequality](018000-entropy-method-and-shearers-inequality.md)
-
-Word counts and estimated minutes are descriptive metadata, not length requirements. Exact notation, proofs and references accompany the spoken manuscripts.
-
-## Continuation 10: Geometry, discrete structures and rigorous computation
-
-- 019000 — [Network Reliability and Random Connectivity](019000-network-reliability-and-random-connectivity.md)
-- 020000 — [Block Designs, Finite Planes, and Hamming Codes](020000-block-designs-finite-planes-and-hamming-codes.md)
-
-The narration is standalone. Formulae, proofs, exercises and source references are provided in non-spoken companions. Recorded word counts are descriptive, not length requirements.
-
-## Continuation 11: Descent, geometry, and dependable computation
-
-- 021000 — [Parameterized Algorithms: Finding Structure Inside Hard Problems](021000-parameterized-algorithms-and-kernels.md)
-- 022000 — [Martingales, Bounded Differences, and Concentration](022000-martingales-and-concentration-inequalities.md)
-
-Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.
-
-## Continuation 12: Algebraic structure, geometry, and computation
-
-- 023000 — [Expander Constructions and Pseudorandom Graphs](023000-expander-constructions-and-pseudorandom-graphs.md)
-- 024000 — [Coding Bounds, Duality, and Probabilistic Codes](024000-coding-bounds-duality-and-probabilistic-codes.md)
-
-Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
-
-## Continuation 13: Deformation, structure and rigorous computation
-
-- 025000 — [Extremal Set Systems: Intersections, Sunflowers, and Forced Structure](025000-extremal-set-systems-and-sunflower-lemma.md)
-- 026000 — [Randomized Rounding: From Fractional Answers to Reliable Discrete Choices](026000-randomized-rounding-and-conditional-expectation.md)
-
-Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
-
-## Continuation 14: Derived geometry, combinatorics and rigorous algorithms
-
-- 027000 — [VC Dimension: How Many Patterns Can a Family Realize?](027000-vc-dimension-and-sauer-shelah.md)
-- 028000 — [Discrepancy: Balancing Many Sets at Once](028000-discrepancy-and-partial-coloring.md)
-
-Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
-
-## Continuation 15: Epsilon-nets and constructive discrepancy
-
-- 029000 — [Epsilon-Nets: Hitting Every Large Geometric Range](029000-epsilon-nets-and-uniform-convergence.md)
-- 030000 — [Constructive Discrepancy: From Random Signs to Partial Coloring](030000-constructive-discrepancy-and-partial-colorings.md)
-
-Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
-
-## Continuation 16: Arithmetic, geometry, local algorithms and reliable computation
-
-- 031000 — [Property Testing: Deciding Without Reading Everything](031000-property-testing-and-local-graph-algorithms.md)
-- 032000 — [Randomness Extractors: Recovering Usable Random Bits](032000-extractors-and-pseudorandom-generators.md)
-
-The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.
-
-## Continuation 17: Arithmetic completeness, harmonic analysis, geometry and rigorous computation
-
-- 033000 — [Hypergraph Containers: Counting Rare Combinatorial Structures](033000-hypergraph-containers-and-independent-sets.md)
-- 034000 — [Fourier Analysis on the Boolean Cube](034000-fourier-analysis-of-boolean-functions.md)
-
-Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.
-
-## Continuation 18: Arithmetic obstructions, discrete harmonic analysis, gauge topology, and certified dynamics
-
-- 035000 - [Hypercontractivity: Why Boolean Functions Have Influential Coordinates](035000-hypercontractivity-influences-and-thresholds.md)
-- 036000 - [Local Correction and List Decoding: Recovering Information from Few Queries](036000-local-correction-and-list-decoding.md)
-
-All narrations are standalone. Precise assumptions, worked derivations, exercises with answers, and references remain outside spoken markers. Recorded length is descriptive, not a policy.
-
-## Continuation 19: arithmetic finiteness, pseudorandomness, symplectic rigidity, and reliable dynamics
-
-- 037000 - [Small-Bias Spaces and Derandomization](037000-small-bias-spaces-and-derandomization.md)
-- 038000 - [Sharp Thresholds, Influences, and the Tribes Function](038000-sharp-thresholds-and-tribes.md)
-
-All narrations stand alone. Derivations, exact assumptions, exercises with answers, and references remain outside spoken markers. Length is set by the material, not a word-count or duration target.
-
-## Continuation 20: Polynomial evaluation codes and hypergraph absorption
-
-- 039000 — [Polynomial Codes and Local Testability](039000-polynomial-codes-and-local-testability.md)
-- 040000 — [Hypergraph Matchings and the Absorption Method](040000-hypergraph-matchings-and-absorption.md)
-
-The spoken manuscripts stand alone. Their mathematical companions preserve exact hypotheses, derivations, exercises with answers, and references. Duration is descriptive, never a content quota.
-
-## Continuation 21: mathematical structure and checkable certificates
-
-- 041000 — [Additive Combinatorics and Fourier Uniformity](041000-additive-combinatorics-and-fourier-uniformity.md)
-- 042000 — [Quasirandom Graphs and Four-Cycle Counts](042000-quasirandom-graphs-and-four-cycle-counts.md)
-
-These narrations stand alone. The mathematical companions contain exact conventions, derivations, exercises with answers, and source links. Descriptive lengths are not authoring constraints.
+Read [the lecture style rules](../../LECTURE_STYLE_RULES.md) before changing narration. Use the spoken-region markers for extraction; keep raw mathematics, code, and source records in the non-spoken companion. Teaching preparation, proof dependencies, and historical influence are distinct.

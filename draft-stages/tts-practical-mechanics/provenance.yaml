@@ -1,0 +1,31 @@
+transcript:
+  revisions:
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - lecture: '001000'
+      composition_record: metadata/001000.json
+    - lecture: '005000'
+      composition_record: metadata/005000.json
+    - lecture: '013000'
+      composition_record: metadata/013000.json
+    - lecture: 008000
+      composition_record: metadata/008000.json
+    - lecture: '011000'
+      composition_record: metadata/011000.json
+    scope: Consolidate reviewed source parts into single lecture manuscripts. Original
+      text and source attribution are retained in component records and Git history;
+      this revision does not claim original authorship of inherited prose.
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - 001000-transmit-power-through-real-parts.md
+    - 005000-read-vibration-motion-and-condition-evidence.md
+    - 013000-keep-mechanical-transmissions-aligned-and-intact.md
+    - 008000-match-a-pump-to-its-inlet-network-and-seal.md
+    - 011000-control-fluid-power-and-stored-pressure.md
+    scope: Reviewed combined-manuscript joins and added connections among preserved
+      source arguments; scoped inherited part-level framing. No original authorship
+      of inherited prose, new technical guidance, or field validation is claimed.

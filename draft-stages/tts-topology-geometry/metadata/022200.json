@@ -1,12 +1,155 @@
 {
   "schema_version": 1,
   "lecture_id": "022200",
-  "transcript": "022200-sheaves-stalks-restrictions-and-gluing.md",
+  "transcript": "022200-sheaves-cech-calculations-and-derived-cohomology.md",
   "related_resources": [
     {
       "source_id": "tg-vakil-rising-sea",
       "reason": "Sheaf axioms, stalks and local-global gluing."
+    },
+    {
+      "source_id": "tg-stacks-cech-01EO",
+      "reason": "Cech construction and cover-to-derived comparisons."
+    },
+    {
+      "source_id": "tg-hatcher",
+      "reason": "Cohomology of the circle by open covers."
+    },
+    {
+      "source_id": "tg-stacks-cech-01EO",
+      "reason": "Global sections, exactness and sheaf cohomology."
+    },
+    {
+      "source_id": "tg-vakil-rising-sea",
+      "reason": "Local-to-global obstruction framework."
+    },
+    {
+      "source_id": "tg-stacks-cech-01EO",
+      "reason": "Cech-acyclic covers and derived cohomology."
+    },
+    {
+      "source_id": "tg-vakil-rising-sea",
+      "reason": "Projective line, coherent sheaves and O(k)."
+    },
+    {
+      "source_id": "tg-bott-tu-forms",
+      "reason": "De Rham resolution and fine sheaves."
+    },
+    {
+      "source_id": "tg-stacks-cech-01EO",
+      "reason": "Acyclic resolutions and sheaf cohomology."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:022200",
+        "file": "022200-sheaves-stalks-restrictions-and-gluing.md",
+        "sha256": "d2b6c31191f8de3a228c8f80deb3ddbc7f5ac437ca02ac728187672c0df1e160",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "022200",
+          "transcript": "022200-sheaves-stalks-restrictions-and-gluing.md",
+          "related_resources": [
+            {
+              "source_id": "tg-vakil-rising-sea",
+              "reason": "Sheaf axioms, stalks and local-global gluing."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:022300",
+        "file": "022300-cech-cohomology-calculation-circle.md",
+        "sha256": "3c7deced20068a927b8ada68991858e5e984758ecd4b97a27387ce43a06dd1b0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "022300",
+          "transcript": "022300-cech-cohomology-calculation-circle.md",
+          "related_resources": [
+            {
+              "source_id": "tg-stacks-cech-01EO",
+              "reason": "Cech construction and cover-to-derived comparisons."
+            },
+            {
+              "source_id": "tg-hatcher",
+              "reason": "Cohomology of the circle by open covers."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:022400",
+        "file": "022400-derived-sections-and-long-exact-cohomology.md",
+        "sha256": "dac93e7e2693cf3bb9f22a8d06a780eabbb6718c51f450c0dc5eb064060dfd09",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "022400",
+          "transcript": "022400-derived-sections-and-long-exact-cohomology.md",
+          "related_resources": [
+            {
+              "source_id": "tg-stacks-cech-01EO",
+              "reason": "Global sections, exactness and sheaf cohomology."
+            },
+            {
+              "source_id": "tg-vakil-rising-sea",
+              "reason": "Local-to-global obstruction framework."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:022500",
+        "file": "022500-cohomology-of-line-bundles-on-projective-line.md",
+        "sha256": "a5945d449cbe1372c8a96d7a0ee4bdf3333334be70e4419bdd885bbead8d41d1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "022500",
+          "transcript": "022500-cohomology-of-line-bundles-on-projective-line.md",
+          "related_resources": [
+            {
+              "source_id": "tg-stacks-cech-01EO",
+              "reason": "Cech-acyclic covers and derived cohomology."
+            },
+            {
+              "source_id": "tg-vakil-rising-sea",
+              "reason": "Projective line, coherent sheaves and O(k)."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:022600",
+        "file": "022600-fine-sheaves-de-rham-and-dolbeault-resolutions.md",
+        "sha256": "a80742486ad05e4b8a3840e322f0a7a54ec4d7bb9df89d1a26aee52facae1581",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "022600",
+          "transcript": "022600-fine-sheaves-de-rham-and-dolbeault-resolutions.md",
+          "related_resources": [
+            {
+              "source_id": "tg-bott-tu-forms",
+              "reason": "De Rham resolution and fine sheaves."
+            },
+            {
+              "source_id": "tg-stacks-cech-01EO",
+              "reason": "Acyclic resolutions and sheaf cohomology."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

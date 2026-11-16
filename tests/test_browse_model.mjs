@@ -51,6 +51,7 @@ assert.deepEqual(sections.map((section) => section.lectures), [["sample:one", "s
 assert.deepEqual(sections.flatMap((section) => section.lectures), ordered.lectures);
 assert.equal(sections[0].id, "section-sample%3Aone");
 assert.equal(collectionSections({ lectures: ["sample:one", "sample:two"] }, byId)[0].title, "Contents");
+assert.equal(collectionSections({ lectures: ["sample:one"] }, byId)[0].title, byId("sample:one").title);
 assert.deepEqual(collectionSections({ lectures: [] }, byId), []);
 
 const authored = {

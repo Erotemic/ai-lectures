@@ -1,5 +1,7 @@
 # Gustave Flaubert, *Madame Bovary*: story map, voice, and textual history
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 **Work and source policy.** The 11 original spoken manuscripts 103000–113000 describe the three-part novel and its critical influence. Their narrative uses the commonly read book storyline, with French place names and a limited number of original French terms where they clarify history. The accessible [Wikisource French text](https://fr.wikisource.org/wiki/Madame_Bovary) is based on a later Louis Conard *Œuvres complètes* printing (1910), **not** a digital facsimile of the 1857 Michel Lévy first book edition. It should not be used to claim exact first-edition punctuation or unmediated variant history.
 
 ## Three-part story guide

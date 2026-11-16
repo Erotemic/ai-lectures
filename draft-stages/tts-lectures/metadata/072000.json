@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "072000",
-  "transcript": "072000-infinite-dimensional-hilbert-examples.md",
+  "transcript": "072000-infinite-hilbert-examples-convergence-modes-and-measures.md",
   "historical_claims": [],
   "related_resources": [
     {
@@ -31,6 +31,180 @@
     {
       "source_id": "wiki-compact-operator",
       "reason": "Relative compactness and finite-rank approximation in Hilbert spaces."
+    },
+    {
+      "source_id": "wiki-strong-op-topology",
+      "reason": "Convergence on each fixed input as distinct from uniform operator-norm convergence."
+    },
+    {
+      "source_id": "wiki-weak-op-topology",
+      "reason": "Scalar testing of operators, contrasted with norm and strong convergence."
+    },
+    {
+      "source_id": "mit-functional-analysis-videos",
+      "reason": "Open the corresponding 18.102 lecture: Banach and Hilbert space foundations, measure, or compact operators."
+    },
+    {
+      "source_id": "wiki-spectrum-operator",
+      "reason": "Spectrum, resolvent set and the difference between eigenvalues and spectral points."
+    },
+    {
+      "source_id": "wiki-sigma-algebra",
+      "reason": "Measurable sets and the closure operations required by spectral measures."
+    },
+    {
+      "source_id": "wiki-measure-math",
+      "reason": "Countably additive measures and their role in integration."
+    },
+    {
+      "source_id": "wiki-square-integrable",
+      "reason": "Square-integrability, the L2 norm and quotienting almost-everywhere equality."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "g2:072000",
+        "file": "072000-infinite-dimensional-hilbert-examples.md",
+        "sha256": "b5e6632f7d154b38bc457c838e4a889196c6e6decbe30364ce3eba4ee4df17dc",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "072000",
+          "transcript": "072000-infinite-dimensional-hilbert-examples.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "hunter-nachtergaele-applied",
+              "reason": "Read the matching open chapter for foundational analytic hypotheses and worked proofs."
+            },
+            {
+              "source_id": "wiki-bounded-operator",
+              "reason": "Bounded linear maps and their equivalence with continuity."
+            },
+            {
+              "source_id": "wiki-hilbert-space",
+              "reason": "Complete inner-product spaces, orthogonal projections and foundational examples."
+            },
+            {
+              "source_id": "wiki-weak-convergence",
+              "reason": "An orthonormal-sequence counterexample distinguishing weak and norm convergence."
+            },
+            {
+              "source_id": "wiki-sequence-space",
+              "reason": "Sequence-space examples such as ℓ² and diagonal operators."
+            },
+            {
+              "source_id": "wiki-compact-operator",
+              "reason": "Relative compactness and finite-rank approximation in Hilbert spaces."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:072500",
+        "file": "072500-weak-strong-and-uniform-convergence.md",
+        "sha256": "a0bd2a3435c92fb46ce4270df768a9e5df19102ce1e95c9e84a817706288a2f8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "072500",
+          "transcript": "072500-weak-strong-and-uniform-convergence.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-weak-convergence",
+              "reason": "An orthonormal-sequence counterexample distinguishing weak and norm convergence."
+            },
+            {
+              "source_id": "wiki-strong-op-topology",
+              "reason": "Convergence on each fixed input as distinct from uniform operator-norm convergence."
+            },
+            {
+              "source_id": "wiki-weak-op-topology",
+              "reason": "Scalar testing of operators, contrasted with norm and strong convergence."
+            },
+            {
+              "source_id": "wiki-sequence-space",
+              "reason": "Sequence-space examples such as ℓ² and diagonal operators."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:073000",
+        "file": "073000-sigma-algebras-and-borel-sets.md",
+        "sha256": "a50f44ba0df018e2f22367155d5f2a7612a963dcab468a43a8ca3427bf30e3c9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "073000",
+          "transcript": "073000-sigma-algebras-and-borel-sets.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "mit-functional-analysis-videos",
+              "reason": "Open the corresponding 18.102 lecture: Banach and Hilbert space foundations, measure, or compact operators."
+            },
+            {
+              "source_id": "hunter-nachtergaele-applied",
+              "reason": "Read the matching open chapter for foundational analytic hypotheses and worked proofs."
+            },
+            {
+              "source_id": "wiki-spectrum-operator",
+              "reason": "Spectrum, resolvent set and the difference between eigenvalues and spectral points."
+            },
+            {
+              "source_id": "wiki-sigma-algebra",
+              "reason": "Measurable sets and the closure operations required by spectral measures."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:074000",
+        "file": "074000-measures-integration-and-l2.md",
+        "sha256": "030aca81712ae1a031e2dc4ed12ceeacd46e1be4c462046f1aea9c6d915d4d5e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "074000",
+          "transcript": "074000-measures-integration-and-l2.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "mit-functional-analysis-videos",
+              "reason": "Open the corresponding 18.102 lecture: Banach and Hilbert space foundations, measure, or compact operators."
+            },
+            {
+              "source_id": "hunter-nachtergaele-applied",
+              "reason": "Read the matching open chapter for foundational analytic hypotheses and worked proofs."
+            },
+            {
+              "source_id": "wiki-measure-math",
+              "reason": "Countably additive measures and their role in integration."
+            },
+            {
+              "source_id": "wiki-square-integrable",
+              "reason": "Square-integrability, the L2 norm and quotienting almost-everywhere equality."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

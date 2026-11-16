@@ -1,254 +1,72 @@
 # Analysis from First Principles
 
-Limits, continuity, completeness, differentiation, integration, function spaces, and rigorous reasoning.
+Real and complex analysis from limits and completeness through rigorous calculus, metric spaces, holomorphic functions and conformal mapping; measure and Lebesgue integration, L-p and Hilbert spaces, followed by L-p duality, bounded operators, Hahn–Banach, weak convergence and Banach–Steinhaus. A further twelve-lecture foundational bridge now develops adjoints, spectra, continuous and Borel functional calculi, unbounded domains, holomorphic calculus, and evolution equations. A twelve-lecture bridge now develops Fourier transforms, distributions, Sobolev spaces, weak elliptic equations, and C-zero semigroups, with preceding functional-analytic representation theorems. A further foundational sequence covers Banach/C-star algebras, weak-star compactness, analytic semigroups, boundary traces, fractional and nonlinear Sobolev estimates, fixed-point methods, energy and compactness arguments, and monotone variational existence.
 
-## Available lectures
+The current pack contains **44 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
-- 001000 — What Does It Mean for a Sequence to Converge?
-- 002000 — The Number Line Without Gaps: Completeness and the Real Numbers
-- 003000 — From Nearby Inputs to Nearby Outputs: Limits and Continuity
-- 004000 — What Continuity Guarantees: Roots, Bounds, and Extrema
-- 005000 — The Derivative as a Local Linear Approximation
-- 006000 — The Mean Value Theorem: From Local Slopes to Global Bounds
-- 007000 — Building an Integral from Finite Sums
-- 008000 — The Fundamental Theorem of Calculus: Recovering Change from Rates
+## Listening routes
 
-## Sequence and authoring notes
+`track.json` owns the current manuscripts and complete sequence. `navigation.json` selects the guided and deeper routes listed below.
 
-The opening sequence progresses from epsilon-N control of numerical sequences through completeness and Cauchy sequences, then epsilon-delta continuity, then the consequences of continuity on closed real intervals. The 002000 completeness manuscript came from the original source snapshot; the track also includes the restored 001000 and newly authored subsequent lectures.
+- **Analysis · Foundations and Further Routes** (Guided route): `001000`, `002000`, `003000`, `004000`, `005000`, `006000`, `007000`, `008000`, `009000`, `010000`, `011000`, `012000`.
+- **Complex Analysis** (Deep dive): `013000`, `014000`, `015000`, `016000`, `017000`, `018000`, `019000`, `020000`, `021000`, `022000`, `023000`, `024000`, `025000`, `026000`, `027000`, `028000`.
+- **Measure and Functional Analysis** (Deep dive): `029000`, `030000`, `031000`, `032000`, `033000`, `034000`, `035000`, `036000`, `037000`, `038000`, `039000`.
+- **Spectral Theory and Functional Calculus** (Deep dive): `065000`, `046000`.
+- **Fourier, Weak Solutions, and Nonlinear Analysis** (Deep dive): `056000`, `068000`, `064000`.
 
-Audio extraction uses the single `BEGIN SPOKEN LECTURE` / `END SPOKEN LECTURE` marker pair in each manuscript. Exact equations, proofs, references, and exercises remain available outside the spoken markers in display-only companions.
+## Current manuscripts
 
-Every numbered manuscript is indexed in `track.json`; each lecture has a per-lecture `metadata/<id>.json` and all source IDs resolve through `metadata/sources.json`. Section labels are internal to this track and do not require central reader changes.
+Durations are measured from the current spoken text at 145 words per minute, before synthesis; they are descriptions, not writing targets.
 
-The earlier planning discussion is in `docs/planning/foundational-curriculum-expansion-batch2.md` (read-only to Agent C).
+| ID | Lecture | Approximate minutes |
+|---|---|---:|
+| `001000` | [What Does It Mean for a Sequence to Converge?](001000-what-convergence-means.md) | 12.8 |
+| `002000` | [The Number Line Without Gaps: Completeness and the Real Numbers](002000-completeness-and-real-numbers.md) | 22.3 |
+| `003000` | [From Nearby Inputs to Nearby Outputs: Limits and Continuity](003000-limits-and-continuity.md) | 13.2 |
+| `004000` | [What Continuity Guarantees: Roots, Bounds, and Extrema](004000-what-continuity-guarantees.md) | 14.3 |
+| `005000` | [The Derivative as a Local Linear Approximation](005000-derivatives-and-linear-approximation.md) | 13.1 |
+| `006000` | [The Mean Value Theorem: From Local Slopes to Global Bounds](006000-mean-value-theorem-and-error-bounds.md) | 13.7 |
+| `007000` | [Building an Integral from Finite Sums](007000-riemann-integration-from-sums.md) | 13.9 |
+| `008000` | [The Fundamental Theorem of Calculus: Recovering Change from Rates](008000-fundamental-theorem-of-calculus.md) | 13.9 |
+| `009000` | [Distance Without Coordinates: Metric Spaces and Completeness](009000-metric-spaces-and-completeness.md) | 13.6 |
+| `010000` | [Compactness: Turning Infinite Possibilities into Finite Control](010000-compactness-and-continuity.md) | 13.3 |
+| `011000` | [Uniform Convergence: When Limits Preserve Structure](011000-uniform-convergence-and-limit-exchange.md) | 13.1 |
+| `012000` | [Infinite Sums of Functions: Uniform Series and the First Power Series](012000-series-of-functions-and-power-series.md) | 14.3 |
+| `013000` | [The Complex Plane: Algebra, Geometry, and Limits](013000-the-complex-plane-and-its-geometry.md) | 16.9 |
+| `014000` | [Complex Differentiation and the Cauchy–Riemann Equations](014000-complex-differentiation-and-cauchy-riemann.md) | 17.8 |
+| `015000` | [Integrating Along Curves: Contours, Primitives, and Holes](015000-contour-integrals-primitives-and-holes.md) | 18.3 |
+| `016000` | [Cauchy's Theorem and Integral Formula: How a Boundary Controls the Interior](016000-cauchy-theorem-and-integral-formula.md) | 22.5 |
+| `017000` | [Power Series, Isolated Zeros, and Analytic Continuation](017000-zeros-identity-and-analytic-continuation.md) | 16.8 |
+| `018000` | [Laurent Series and Isolated Singularities: The Anatomy of a Missing Point](018000-laurent-series-and-isolated-singularities.md) | 15.7 |
+| `019000` | [The Residue Theorem: One Coefficient Controls an Entire Contour](019000-residue-theorem-and-real-integrals.md) | 16.4 |
+| `020000` | [Counting Invisible Roots: The Argument Principle and Rouché's Theorem](020000-argument-principle-and-rouche.md) | 17.2 |
+| `021000` | [The Maximum Modulus Principle: Why the Interior Cannot Hide a Peak](021000-maximum-modulus-and-boundary-control.md) | 14.1 |
+| `022000` | [The Open Mapping Theorem and Schwarz's Lemma: Two Forms of Rigidity](022000-open-mapping-and-schwarz-lemma.md) | 15.7 |
+| `023000` | [Harmonic Functions: A Value Determined by Its Neighbors](023000-harmonic-functions-and-poisson-boundary-values.md) | 15.2 |
+| `024000` | [Normal Families: Finding Convergent Functions in an Infinite Collection](024000-normal-families-and-montel.md) | 16.5 |
+| `025000` | [Möbius Transformations: Moving the Plane Without Tearing Its Angles](025000-mobius-transformations-and-sphere.md) | 13.9 |
+| `026000` | [Conformal Geometry: Angles, Coordinate Changes, and Hyperbolic Distance](026000-conformal-geometry-and-hyperbolic-distance.md) | 14.2 |
+| `027000` | [The Riemann Mapping Theorem: A Shape-Free Disk and a Proof by Extremality](027000-riemann-mapping-theorem-proof.md) | 16.2 |
+| `028000` | [Beyond the Riemann Map: Boundaries, Corners, and the Limits of Equivalence](028000-boundaries-and-conformal-mapping-limits.md) | 17.0 |
+| `029000` | [Sigma-Algebras: What Does It Mean to Measure a Set?](029000-sigma-algebras-and-measure-spaces.md) | 13.6 |
+| `030000` | [Building Lebesgue Measure: Coverings, Null Sets, and a Necessary Boundary](030000-building-lebesgue-measure.md) | 14.5 |
+| `031000` | [Measurable Functions: Seeing a Function Through Its Level Sets](031000-measurable-functions-and-almost-everywhere.md) | 16.2 |
+| `032000` | [The Lebesgue Integral: Building an Area That Survives Limits](032000-lebesgue-integral-and-monotone-convergence.md) | 17.4 |
+| `033000` | [Dominated Convergence: When Limits May Pass Through Integrals](033000-dominated-convergence-and-integral-limits.md) | 14.3 |
+| `034000` | [Fubini and Tonelli: When Two Integrals May Trade Places](034000-fubini-tonelli-and-product-measures.md) | 14.3 |
+| `035000` | [Measuring Functions: L-p Spaces, Hölder, and Minkowski](035000-lp-spaces-holder-minkowski.md) | 13.9 |
+| `036000` | [Complete Spaces of Functions: Riesz–Fischer, Hilbert Geometry, and Fourier Projection](036000-completeness-hilbert-l2-and-projections.md) | 15.6 |
+| `037000` | [The Dual View of a Function: Linear Measurements and L-p Duality](037000-lp-duality-and-bounded-functionals.md) | 12.2 |
+| `038000` | [Bounded Linear Operators: When Transformations of Functions Are Stable](038000-bounded-operators-and-operator-norm.md) | 12.6 |
+| `039000` | [Weak measurements, bounded inverses, and representation](039000-weak-measurements-bounded-inverses-and-representation.md) | 45.6 |
+| `065000` | [Operator algebra, adjoints, spectra, and Fredholm alternatives](065000-operator-algebra-adjoints-spectra-and-fredholm-alternatives.md) | 48.3 |
+| `046000` | [Continuous and measurable calculus, domains, and evolution](046000-continuous-and-measurable-calculus-domains-and-evolution.md) | 54.8 |
+| `056000` | [Fourier approximation, rough derivatives, and weak solutions](056000-fourier-approximation-rough-derivatives-and-weak-solutions.md) | 48.8 |
+| `064000` | [Semigroups, smoothing, and nonlinear existence](064000-semigroups-smoothing-and-nonlinear-existence.md) | 36.8 |
+| `068000` | [Boundary traces, fractional norms, and nonlinear products](068000-boundary-traces-fractional-norms-and-nonlinear-products.md) | 20.8 |
 
-## Continuation through integration
+## Sources and authoring
 
-Lectures 005000–008000 cover the derivative as an exact first-order linear model,
-Rolle's theorem and the Mean Value Theorem, tagged Riemann sums and Darboux
-integrability, and both forms of the Fundamental Theorem of Calculus. Each
-manuscript includes a display-only mathematical companion and per-lecture
-references; spoken regions avoid symbolic TeX and cross-episode chronology.
-The manifest includes only present manuscripts.
+Per-lecture source records live in `metadata/`; the bibliography is in `metadata/sources.json` when present. Composition lineage and editorial revisions are recorded in per-lecture metadata and `provenance.yaml`. Original arguments and exact companions remain with their consolidated manuscript.
 
-## Metric spaces and function limits (lectures 009000–012000)
-
-- 009000 — Distance Without Coordinates: Metric Spaces and Completeness
-- 010000 — Compactness: Turning Infinite Possibilities into Finite Control
-- 011000 — Uniform Convergence: When Limits Preserve Structure
-- 012000 — Infinite Sums of Functions: Uniform Series and the First Power Series
-
-The sequence establishes metric-space completeness, compactness in equivalent metric formulations, uniform convergence with its limit-exchange hypotheses, and the M-test with closed-subdisk power-series control. The next step is complex differentiation and Cauchy–Riemann geometry.
-
-## Complex analysis foundations (lectures 013000–016000)
-
-- 013000 — The Complex Plane: Algebra, Geometry, and Limits
-- 014000 — Complex Differentiation and the Cauchy–Riemann Equations
-- 015000 — Integrating Along Curves: Contours, Primitives, and Holes
-- 016000 — Cauchy's Theorem and Integral Formula: How a Boundary Controls the Interior
-
-The lectures move from complex arithmetic and planar topology through the
-complex derivative and its correct Cauchy–Riemann hypotheses, to contour
-integration and its dependence on the path, then to Goursat's theorem, Cauchy's
-integral formula, Taylor expansions, Cauchy's estimates, Liouville, and the
-Fundamental Theorem of Algebra. Formal companions include statements, proof
-details, failure cases, and worked exercises. Theorem scope (holomorphic
-interiors, domain geometry, orientation) is part of the exposition.
-
-**Length policy:** The `estimated_minutes_at_145_wpm` and `spoken_words`
-fields are descriptive catalog metadata, not target values or acceptance
-thresholds. Choose the content, proof depth, and examples required for
-understanding; do not truncate or pad to meet any runtime or word-count rule.
-The track's validation checks exact catalog/prose consistency, not length.
-
-## Complex continuation and residue theory (017000–020000)
-
-- 017000 — Power Series, Isolated Zeros, and Analytic Continuation
-- 018000 — Laurent Series and Isolated Singularities: The Anatomy of a Missing Point
-- 019000 — The Residue Theorem: One Coefficient Controls an Entire Contour
-- 020000 — Counting Invisible Roots: The Argument Principle and Rouché's Theorem
-
-This batch develops local analytic uniqueness, annular Laurent coefficients and
-isolated singularity classification, contour residues and worked real-integral
-estimates, and zero counts via logarithmic derivatives and strict Rouché
-inequalities. Exact formulas and exercises are in nonspoken companions.
-Lecture length is determined by mathematical teaching needs, without a runtime
-or word-count target. The metadata records observed word counts, not quotas.
-The next topics may include maximum modulus, open mapping, Schwarz lemma,
-normal families, harmonic functions, and selected applications.
-
-## Boundary rigidity, harmonicity, and compactness (021000–024000)
-
-- 021000 — The Maximum Modulus Principle: Why the Interior Cannot Hide a Peak
-- 022000 — The Open Mapping Theorem and Schwarz's Lemma: Two Forms of Rigidity
-- 023000 — Harmonic Functions: A Value Determined by Its Neighbors
-- 024000 — Normal Families: Finding Convergent Functions in an Infinite Collection
-
-The lectures use local maximum-modulus rigidity to explain compact-boundary
-bounds, Rouché zero-counting to prove openness even at branch points, and
-disk automorphisms to obtain Schwarz–Pick. Harmonic conjugates, the Poisson
-formula, and punctured-plane periods distinguish local PDE constraints from
-global topology. Montel compactness leads to Hurwitz zero-stability and
-Vitali convergence, with finite-valued versus spherical normal-family
-conventions explained. Each lesson has a proof-and-exercise companion and
-track-local references. No lecture duration or word-count threshold is used.
-
-## Conformal geometry, the Riemann map and boundary behavior (025000–028000)
-
-- 025000 — Möbius Transformations: Moving the Plane Without Tearing Its Angles
-- 026000 — Conformal Geometry: Angles, Coordinate Changes, and Hyperbolic Distance
-- 027000 — The Riemann Mapping Theorem: A Shape-Free Disk and a Proof by Extremality
-- 028000 — Beyond the Riemann Map: Boundaries, Corners, and the Limits of Equivalence
-
-The material derives Möbius and disk automorphism structure, the curvature-minus-one
-Poincaré metrics and Schwarz–Pick contraction, the full normalized Riemann mapping
-theorem via extremal derivatives and a missed-point square-root contradiction, and
-boundary extension under Jordan hypotheses. The last lecture treats slit-boundary
-prime ends, Schwarz–Christoffel corner exponents, the transported Poisson solution
-to the Dirichlet problem, and the topological/conformal obstructions caused by
-annuli. The speaker-facing prose does not assume a screen; exact display-only
-mathematics, counterexamples, exercises and references follow each spoken region.
-Word counts are catalog metadata, not a length quota. The lecture content determines the duration.
-
-Next possible material: conformal capacity and extremal length, elliptic
-functions and doubly connected uniformization, or a return to real-variable
-analysis via measure and Lebesgue integration. No planned manuscripts are indexed.
-
-## Editorial review and source verification
-
-See [`polishing-audit-2026-11-14.md`](../../docs/planning/agent-c-analysis/polishing-audit-2026-11-14.md) for the review census, theorem-qualification checks, the fixed open-versus-closed disk exercise, repaired source metadata, and replacement of a broken reference. The complete 28-lecture sequence retains its ID ordering.
-
-## Measure theory and Lebesgue integration (029000–032000)
-
-- 029000 — Sigma-Algebras: What Does It Mean to Measure a Set?
-- 030000 — Building Lebesgue Measure: Coverings, Null Sets, and a Necessary Boundary
-- 031000 — Measurable Functions: Seeing a Function Through Its Level Sets
-- 032000 — The Lebesgue Integral: Building an Area That Survives Limits
-
-The sequence develops a general measurable-space framework, constructs Lebesgue
-outer measure and the Carathéodory sigma-algebra, distinguishes Borel sets
-from their Lebesgue completion, and derives simple approximations,
-almost-everywhere convergence, Egoroff's theorem, monotone convergence,
-and Fatou's lemma. Definite failure examples (Vitali selection, nonuniform
-function limits, concentrating mass) are retained alongside proof hypotheses.
-Source notes link to Axler's open-access textbook, MIT 18.125, Tao's notes,
-and selected Wikipedia overviews. Lecture length has no target or threshold;
-word counts and estimates are descriptive metadata.
-
-Next: dominated convergence, signed and complex integration, product measures
-and Fubini–Tonelli, followed by L-p spaces and Hilbert-space foundations.
-
-## Dominated convergence, product measures, and function spaces (033000–036000)
-
-- 033000 — Dominated Convergence: When Limits May Pass Through Integrals
-- 034000 — Fubini and Tonelli: When Two Integrals May Trade Places
-- 035000 — Measuring Functions: L-p Spaces, Hölder, and Minkowski
-- 036000 — Complete Spaces of Functions: Riesz–Fischer, Hilbert Geometry, and Fourier Projection
-
-This sequence proves DCT via Fatou and L-one convergence, with distinct
-concentration and escape-to-infinity counterexamples. Product measure,
-Tonelli and Fubini are taught with sigma-finiteness, section measurability,
-and a concrete signed-integrand counterexample whose repeated integrals differ.
-L-p spaces are defined as almost-everywhere equivalence classes; Hölder,
-Minkowski and finite-measure embeddings are proved. Riesz–Fischer completeness
-is proved using a summable-difference subsequence, followed by L-two
-projection geometry, Bessel's inequality, and an explicit distinction between
-metric completeness and spanning completeness of an orthonormal family.
-
-All four have self-contained audio-first narration plus non-spoken proof,
-example, exercise, and bibliography companions. Recorded word counts and
-estimated durations are descriptive data **only**. No duration or word-count
-limits were applied in authoring or validation.
-
-Next possible directions: L-p duality and weak convergence; bounded linear
-operators and Hahn–Banach; Fourier convergence and density; convolution and
-approximate identities; probability measures and conditional expectation.
-
-## Duality, operators, Hahn–Banach and uniform boundedness (037000–040000)
-
-- 037000 — The Dual View of a Function: Linear Measurements and L-p Duality
-- 038000 — Bounded Linear Operators: When Transformations of Functions Are Stable
-- 039000 — Hahn–Banach: Extending Measurements and Seeing Weak Convergence
-- 040000 — Baire Category and Uniform Boundedness: From Individual Control to a Common Bound
-
-The sequence identifies stable scalar measurements of L-p functions with L-q
-weights (under sigma-finiteness and finite p), distinguishes the L-infinity
-endpoint, and uses explicit accumulation/differentiation and sequence projection
-examples to motivate bounded operator norms. Hahn–Banach is developed through
-one-direction extension, Zorn's lemma, norming functionals and weak convergence.
-Baire category then yields Banach–Steinhaus, with an explicit noncomplete-domain
-counterexample, strong-versus-operator-norm convergence, and boundedness of
-weakly convergent sequences. Radon–Nikodym is stated as a named prerequisite
-for the L-p representation proof and merits its own later lecture.
-
-Each manuscript has independently understandable spoken narration, a separate
-math companion, exercises with solutions, and track-local source metadata.
-No runtime or minimum-word target was imposed; manifest counts are descriptive.
-
-Next options: full Radon–Nikodym proof, open mapping and closed graph theorems,
-Banach adjoints and reflexivity, weak compactness, compact operators, and
-Hilbert-space spectral theory.
-
-## Functional calculus foundation bridge (041000–052000)
-
-A listener-first route from adjoints and spectrum to measurable/unbounded functions of operators, holomorphic contour calculus, and heat/wave/quantum evolution. The new sequence starts with finite matrix examples and multiplication on L-two before presenting the general theorems.
-
-Listening route and remaining prerequisites: [FUNCTIONAL_CALCULUS_LEARNING_PATH.md](FUNCTIONAL_CALCULUS_LEARNING_PATH.md).
-
-- 041000 — [Adjoints: Moving an Operator Across an Inner Product](041000-adjoints-and-inner-product-geometry.md)
-- 042000 — [Self-Adjoint and Positive Operators: The Geometry of Energy](042000-positivity-and-self-adjoint-operators.md)
-- 043000 — [Spectra and Resolvents: What If an Operator Cannot Be Inverted?](043000-spectrum-resolvents-and-approximate-eigenvectors.md)
-- 044000 — [Matrix Functions: Turning Scalar Formulas into Operator Formulas](044000-matrix-functions-from-eigenvectors.md)
-- 045000 — [Compact Operators and Continuous Spectrum: Two Ways Infinity Enters](045000-compact-operators-and-continuous-spectrum.md)
-- 046000 — [Continuous Functional Calculus: Build the Operator by Approximation](046000-continuous-functional-calculus-from-approximation.md)
-- 047000 — [Spectral Projections: Filtering an Operator by Frequency](047000-spectral-projections-as-filters.md)
-- 048000 — [Borel Functional Calculus: When a Function Has Jumps](048000-borel-functional-calculus-and-strong-limits.md)
-- 049000 — [Unbounded Operators: Why the Domain Is Part of the Definition](049000-unbounded-operators-and-their-domains.md)
-- 050000 — [Unbounded Functional Calculus: A Formula with an Input Test](050000-unbounded-functional-calculus-and-spectral-integrals.md)
-- 051000 — [Holomorphic Functional Calculus: Cauchy's Formula for Operators](051000-holomorphic-functional-calculus-and-resolvents.md)
-- 052000 — [Functional Calculus in Motion: Heat, Waves, and Quantum Evolution](052000-functional-calculus-heat-waves-and-quantum-motion.md)
-
-Spoken narration is independent of visual companions; exact mathematics, exercises, and references are retained after the spoken markers. Counts and estimates are descriptive only.
-
-## Fourier, distributions, and PDE foundations (053000–064000)
-
-This bridge fills open-mapping, Fredholm and Radon–Nikodym prerequisites, then develops Fourier decompositions, distributions, weak derivatives, Sobolev control, weak elliptic equations, and evolution semigroups. It uses recurring examples rather than presuming that formal calculations imply pointwise smoothness.
-
-Start with [FOURIER_TO_PDE_LEARNING_PATH.md](FOURIER_TO_PDE_LEARNING_PATH.md) for the three-stage listening route and advanced-course connections.
-
-- 053000 — [Why a Bijective Operator Has a Bounded Inverse](053000-why-bijective-operators-have-bounded-inverses.md)
-- 054000 — [Compact Operators, Fredholm Alternatives, and Integral Equations](054000-compactness-fredholm-and-integral-equations.md)
-- 055000 — [Radon–Nikodym and Riesz: When Measurements Have Densities](055000-measures-as-densities-and-linear-measurements.md)
-- 056000 — [Fourier Series, Convolution, and the Shape of Approximation](056000-fourier-series-convolution-and-approximate-identities.md)
-- 057000 — [The Fourier Transform: Plancherel, Derivatives, and the Heat Equation](057000-fourier-transform-plancherel-and-derivatives.md)
-- 058000 — [Frequency Localization: Why Derivatives Measure High Frequencies](058000-frequency-localization-and-fourier-multipliers.md)
-- 059000 — [Distributions: Making Sense of Delta Functions and Rough Derivatives](059000-distributions-delta-functions-and-weak-derivatives.md)
-- 060000 — [Mollifiers and Weak Derivatives: Smooth Approximations to Rough Functions](060000-mollifiers-and-weak-derivatives.md)
-- 061000 — [Sobolev Spaces: Measuring Smoothness Without Pointwise Derivatives](061000-sobolev-spaces-and-compactness.md)
-- 062000 — [A Differential Equation Without Second Derivatives: Weak Poisson Problems](062000-weak-poisson-equations-and-lax-milgram.md)
-- 063000 — [Elliptic Regularity: Why Solutions Gain Derivatives](063000-elliptic-regularity-and-fourier-parametrices.md)
-- 064000 — [Semigroups and Generators: Solving Time Evolution Beyond Self-Adjoint Operators](064000-semigroups-generators-and-evolution.md)
-
-The narration is standalone; exact formulas, exercises and source references are outside the spoken extraction markers. Word counts and durations in track metadata are descriptive, not content goals.
-
-## Banach algebras, nonlinear analysis, and PDE existence (065000–076000)
-
-A foundational sequence that joins functional calculus and weak convergence to fractional Sobolev regularity, local nonlinear well-posedness, energy methods, compactness and variational existence. It builds explicit examples and states the domain and dimension assumptions of each theorem.
-
-Use [NONLINEAR_PDE_LEARNING_PATH.md](NONLINEAR_PDE_LEARNING_PATH.md) for entry points, checkpoints, and remaining gaps.
-
-- 065000 — [Banach and C-Star Algebras: Where Functional Calculus Lives](065000-banach-and-cstar-algebras.md)
-- 066000 — [Weak and Weak-Star Convergence: Compactness Without Norm Convergence](066000-weak-and-weakstar-compactness.md)
-- 067000 — [Sectorial Operators: Why Diffusion Smooths Immediately](067000-sectorial-operators-and-analytic-semigroups.md)
-- 068000 — [Sobolev Traces: How a Rough Function Reaches the Boundary](068000-sobolev-traces-and-boundary-data.md)
-- 069000 — [Fractional Smoothness and Littlewood–Paley Frequency Blocks](069000-fractional-sobolev-and-frequency-blocks.md)
-- 070000 — [Interpolation: Estimates Between the Norms We Already Know](070000-interpolation-and-estimates-between-spaces.md)
-- 071000 — [Nonlinear Products in Sobolev Spaces: When Multiplication Is Safe](071000-nonlinear-products-and-compositions.md)
-- 072000 — [Banach Fixed Points and Picard Iteration: Constructing a Solution](072000-contractions-and-picard-iteration.md)
-- 073000 — [Duhamel’s Formula: Solving a Nonlinear Equation with a Linear Flow](073000-duhamel-and-semilinear-evolution.md)
-- 074000 — [Energy Estimates and Gronwall: Turning Local Calculations into Global Bounds](074000-energy-estimates-and-gronwall.md)
-- 075000 — [Compactness in Space and Time: Passing to a Nonlinear Limit](075000-time-compactness-and-aubin-lions.md)
-- 076000 — [The Direct Method and Monotone Operators: Nonlinear Existence Without a Contraction](076000-direct-method-and-monotone-operators.md)
-
-These are standalone spoken lectures with exact mathematics, hypotheses, references and exercises in the non-spoken companions. Catalog words and estimated minutes are descriptive metadata; there is no target duration.
+Read [the lecture style rules](../../LECTURE_STYLE_RULES.md) before changing narration. Use the spoken-region markers for extraction; keep raw mathematics, code, and source records in the non-spoken companion. Teaching preparation, proof dependencies, and historical influence are distinct.

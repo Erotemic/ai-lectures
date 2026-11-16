@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-hamlet-story-the-ghost-and-the-court.md",
+  "transcript": "001000-hamlet-the-complete-tragedy-and-its-arguments.md",
   "related_resources": [
     {
       "source_id": "cl-hamlet-primary",
@@ -10,6 +10,22 @@
     {
       "source_id": "cl-hamlet-rsc-plot",
       "reason": "Independent outline of major plot beats and staging decisions."
+    },
+    {
+      "source_id": "cl-hamlet-ophelia",
+      "reason": "Interpretive discussion of the ambiguity of Ophelia’s drowning and burial; consulted source description."
+    },
+    {
+      "source_id": "cl-hamlet-folger-critical",
+      "reason": "Revenge plot, doubts, performance and sources; interpretive perspective, not direct authorial intent."
+    },
+    {
+      "source_id": "cl-hamlet-rsc-sources",
+      "reason": "Composition circa 1600–1601 and earlier Amleth, Saxo, Belleforest and lost play."
+    },
+    {
+      "source_id": "cl-hamlet-folger-texts",
+      "reason": "First Quarto 1603; Second Quarto 1604/1605; First Folio 1623. Competing readings."
     }
   ],
   "historical_claims": [
@@ -56,6 +72,826 @@
       ],
       "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
       "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "002000-c01",
+      "anchor": "Together they arrange an encounter between Hamlet and Ophelia",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "002000-c02",
+      "anchor": "Claudius breaks off the performance and leaves.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "002000-c03",
+      "anchor": "The king recognizes his crime and tries to pray.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "002000-c04",
+      "anchor": "The victim is Polonius, not Claudius.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "003000-c01",
+      "anchor": "In a sealed commission carried by the escorts, however, the king instructs England to have Hamlet executed.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot",
+        "cl-hamlet-ophelia"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "003000-c02",
+      "anchor": "Gertrude reports that Ophelia has drowned.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot",
+        "cl-hamlet-ophelia"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "003000-c03",
+      "anchor": "Hamlet, meanwhile, survives the voyage.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot",
+        "cl-hamlet-ophelia"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "003000-c04",
+      "anchor": "Laertes wounds Hamlet with the poisoned blade",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot",
+        "cl-hamlet-ophelia"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "003000-c05",
+      "anchor": "Fortinbras enters to find the royal household ruined.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot",
+        "cl-hamlet-ophelia"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "004000-c01",
+      "anchor": "Revenge tragedy was a familiar theatrical kind by Shakespeare's time.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-folger-critical",
+        "cl-hamlet-rsc-sources"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "004000-c02",
+      "anchor": "The audience later receives stronger evidence from Claudius himself",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-folger-critical",
+        "cl-hamlet-rsc-sources"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "004000-c03",
+      "anchor": "A few minutes later Hamlet kills Polonius through a curtain.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-folger-critical",
+        "cl-hamlet-rsc-sources"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "004000-c04",
+      "anchor": "Laertes is another mirror.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-folger-critical",
+        "cl-hamlet-rsc-sources"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "005000-c01",
+      "anchor": "In Hamlet, nearly everyone wants a performance from someone else.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-folger-critical",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "005000-c02",
+      "anchor": "The supposed madness is never just a costume he can remove without consequences.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-folger-critical",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "005000-c03",
+      "anchor": "The performance within the play has several frames.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-folger-critical",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "005000-c04",
+      "anchor": "A production is an interpretation made in bodies and timing.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-folger-critical",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "006000-c01",
+      "anchor": "Ophelia first appears in a family that wishes to instruct her.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot",
+        "cl-hamlet-ophelia"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "006000-c02",
+      "anchor": "Her drowning happens offstage.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot",
+        "cl-hamlet-ophelia"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "006000-c03",
+      "anchor": "does not give the audience direct certainty about what she knew of the old king's murder.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot",
+        "cl-hamlet-ophelia"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "006000-c04",
+      "anchor": "At the fencing match Gertrude drinks from the poisoned cup.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot",
+        "cl-hamlet-ophelia"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "007000-c01",
+      "anchor": "A short quarto appeared in 1603.",
+      "kind": "literary_history_or_textual_claim",
+      "source_ids": [
+        "cl-hamlet-folger-texts",
+        "cl-hamlet-rsc-sources",
+        "cl-hamlet-folger-critical"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "007000-c02",
+      "anchor": "The First Folio printed another version in 1623.",
+      "kind": "literary_history_or_textual_claim",
+      "source_ids": [
+        "cl-hamlet-folger-texts",
+        "cl-hamlet-rsc-sources",
+        "cl-hamlet-folger-critical"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "007000-c03",
+      "anchor": "Shakespeare did not invent the bare revenge story.",
+      "kind": "literary_history_or_textual_claim",
+      "source_ids": [
+        "cl-hamlet-folger-texts",
+        "cl-hamlet-rsc-sources",
+        "cl-hamlet-folger-critical"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "007000-c04",
+      "anchor": "An earlier English stage play, conventionally called the Ur-Hamlet, is documented but does not survive in a text that we can consult.",
+      "kind": "literary_history_or_textual_claim",
+      "source_ids": [
+        "cl-hamlet-folger-texts",
+        "cl-hamlet-rsc-sources",
+        "cl-hamlet-folger-critical"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "pre-1900-literature:001000",
+        "file": "001000-hamlet-story-the-ghost-and-the-court.md",
+        "sha256": "1ad08e8b64d1cb29836bf011f7585969ce77fb6e57ee668737803156b1fa9099",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-hamlet-story-the-ghost-and-the-court.md",
+          "related_resources": [
+            {
+              "source_id": "cl-hamlet-primary",
+              "reason": "Modern edited, sometimes conflated reading text. Folger flags the textual witnesses and variants."
+            },
+            {
+              "source_id": "cl-hamlet-rsc-plot",
+              "reason": "Independent outline of major plot beats and staging decisions."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "001000-c01",
+              "anchor": "The castle is Elsinore.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "001000-c02",
+              "anchor": "The ghost orders Hamlet to remember and avenge him",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "001000-c03",
+              "anchor": "The apparent gesture of friendship comes with a political assignment.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "001000-c04",
+              "anchor": "Hamlet asks the players to stage a murder resembling the ghost's story",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            }
+          ]
+        }
+      },
+      {
+        "id": "pre-1900-literature:002000",
+        "file": "002000-hamlet-story-the-play-and-the-closet.md",
+        "sha256": "3049e541723f4ae39e69d961fc5266bd7f797131fcc0adc3f89ba4dc890d94d6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-hamlet-story-the-play-and-the-closet.md",
+          "related_resources": [
+            {
+              "source_id": "cl-hamlet-primary",
+              "reason": "Modern edited, sometimes conflated reading text. Folger flags the textual witnesses and variants."
+            },
+            {
+              "source_id": "cl-hamlet-rsc-plot",
+              "reason": "Independent outline of major plot beats and staging decisions."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "002000-c01",
+              "anchor": "Together they arrange an encounter between Hamlet and Ophelia",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "002000-c02",
+              "anchor": "Claudius breaks off the performance and leaves.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "002000-c03",
+              "anchor": "The king recognizes his crime and tries to pray.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "002000-c04",
+              "anchor": "The victim is Polonius, not Claudius.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            }
+          ]
+        }
+      },
+      {
+        "id": "pre-1900-literature:003000",
+        "file": "003000-hamlet-story-the-return-and-the-deaths.md",
+        "sha256": "9482882fd14ec8802601cb485d4330769d5725a64d7cf1ac695c60088472f7b7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-hamlet-story-the-return-and-the-deaths.md",
+          "related_resources": [
+            {
+              "source_id": "cl-hamlet-primary",
+              "reason": "Modern edited, sometimes conflated reading text. Folger flags the textual witnesses and variants."
+            },
+            {
+              "source_id": "cl-hamlet-rsc-plot",
+              "reason": "Independent outline of major plot beats and staging decisions."
+            },
+            {
+              "source_id": "cl-hamlet-ophelia",
+              "reason": "Interpretive discussion of the ambiguity of Ophelia’s drowning and burial; consulted source description."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "003000-c01",
+              "anchor": "In a sealed commission carried by the escorts, however, the king instructs England to have Hamlet executed.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot",
+                "cl-hamlet-ophelia"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "003000-c02",
+              "anchor": "Gertrude reports that Ophelia has drowned.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot",
+                "cl-hamlet-ophelia"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "003000-c03",
+              "anchor": "Hamlet, meanwhile, survives the voyage.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot",
+                "cl-hamlet-ophelia"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "003000-c04",
+              "anchor": "Laertes wounds Hamlet with the poisoned blade",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot",
+                "cl-hamlet-ophelia"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "003000-c05",
+              "anchor": "Fortinbras enters to find the royal household ruined.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot",
+                "cl-hamlet-ophelia"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            }
+          ]
+        }
+      },
+      {
+        "id": "pre-1900-literature:004000",
+        "file": "004000-hamlet-revenge-conscience-and-uncertainty.md",
+        "sha256": "eceeedae7d8a4694506cd7094b735085522cb4539eb7060e501c97cb31c16173",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-hamlet-revenge-conscience-and-uncertainty.md",
+          "related_resources": [
+            {
+              "source_id": "cl-hamlet-primary",
+              "reason": "Modern edited, sometimes conflated reading text. Folger flags the textual witnesses and variants."
+            },
+            {
+              "source_id": "cl-hamlet-folger-critical",
+              "reason": "Revenge plot, doubts, performance and sources; interpretive perspective, not direct authorial intent."
+            },
+            {
+              "source_id": "cl-hamlet-rsc-sources",
+              "reason": "Composition circa 1600–1601 and earlier Amleth, Saxo, Belleforest and lost play."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "004000-c01",
+              "anchor": "Revenge tragedy was a familiar theatrical kind by Shakespeare's time.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-folger-critical",
+                "cl-hamlet-rsc-sources"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "004000-c02",
+              "anchor": "The audience later receives stronger evidence from Claudius himself",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-folger-critical",
+                "cl-hamlet-rsc-sources"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "004000-c03",
+              "anchor": "A few minutes later Hamlet kills Polonius through a curtain.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-folger-critical",
+                "cl-hamlet-rsc-sources"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "004000-c04",
+              "anchor": "Laertes is another mirror.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-folger-critical",
+                "cl-hamlet-rsc-sources"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            }
+          ]
+        }
+      },
+      {
+        "id": "pre-1900-literature:005000",
+        "file": "005000-hamlet-theatre-acting-and-surveillance.md",
+        "sha256": "126ae6ab008d11fc72fa8acea4cfd14112c07cd29c276aecca6a5cabef7b5f3a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-hamlet-theatre-acting-and-surveillance.md",
+          "related_resources": [
+            {
+              "source_id": "cl-hamlet-primary",
+              "reason": "Modern edited, sometimes conflated reading text. Folger flags the textual witnesses and variants."
+            },
+            {
+              "source_id": "cl-hamlet-folger-critical",
+              "reason": "Revenge plot, doubts, performance and sources; interpretive perspective, not direct authorial intent."
+            },
+            {
+              "source_id": "cl-hamlet-rsc-plot",
+              "reason": "Independent outline of major plot beats and staging decisions."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "005000-c01",
+              "anchor": "In Hamlet, nearly everyone wants a performance from someone else.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-folger-critical",
+                "cl-hamlet-rsc-plot"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "005000-c02",
+              "anchor": "The supposed madness is never just a costume he can remove without consequences.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-folger-critical",
+                "cl-hamlet-rsc-plot"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "005000-c03",
+              "anchor": "The performance within the play has several frames.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-folger-critical",
+                "cl-hamlet-rsc-plot"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "005000-c04",
+              "anchor": "A production is an interpretation made in bodies and timing.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-folger-critical",
+                "cl-hamlet-rsc-plot"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            }
+          ]
+        }
+      },
+      {
+        "id": "pre-1900-literature:006000",
+        "file": "006000-hamlet-ophelia-gertrude-and-the-state.md",
+        "sha256": "09eec53546dc8d10018e5991d3920a427a776d408467d2411912f30605aa42fe",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-hamlet-ophelia-gertrude-and-the-state.md",
+          "related_resources": [
+            {
+              "source_id": "cl-hamlet-primary",
+              "reason": "Modern edited, sometimes conflated reading text. Folger flags the textual witnesses and variants."
+            },
+            {
+              "source_id": "cl-hamlet-rsc-plot",
+              "reason": "Independent outline of major plot beats and staging decisions."
+            },
+            {
+              "source_id": "cl-hamlet-ophelia",
+              "reason": "Interpretive discussion of the ambiguity of Ophelia’s drowning and burial; consulted source description."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "006000-c01",
+              "anchor": "Ophelia first appears in a family that wishes to instruct her.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot",
+                "cl-hamlet-ophelia"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "006000-c02",
+              "anchor": "Her drowning happens offstage.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot",
+                "cl-hamlet-ophelia"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "006000-c03",
+              "anchor": "does not give the audience direct certainty about what she knew of the old king's murder.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot",
+                "cl-hamlet-ophelia"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "006000-c04",
+              "anchor": "At the fencing match Gertrude drinks from the poisoned cup.",
+              "kind": "plot_evidence_or_editorial_interpretation",
+              "source_ids": [
+                "cl-hamlet-primary",
+                "cl-hamlet-rsc-plot",
+                "cl-hamlet-ophelia"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            }
+          ]
+        }
+      },
+      {
+        "id": "pre-1900-literature:007000",
+        "file": "007000-hamlet-sources-texts-and-stage-life.md",
+        "sha256": "7ff7923d86d54f2adc66cfc0302088768d826f5d685d45e1cab7e209501abc11",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-hamlet-sources-texts-and-stage-life.md",
+          "related_resources": [
+            {
+              "source_id": "cl-hamlet-folger-texts",
+              "reason": "First Quarto 1603; Second Quarto 1604/1605; First Folio 1623. Competing readings."
+            },
+            {
+              "source_id": "cl-hamlet-rsc-sources",
+              "reason": "Composition circa 1600–1601 and earlier Amleth, Saxo, Belleforest and lost play."
+            },
+            {
+              "source_id": "cl-hamlet-folger-critical",
+              "reason": "Revenge plot, doubts, performance and sources; interpretive perspective, not direct authorial intent."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "007000-c01",
+              "anchor": "A short quarto appeared in 1603.",
+              "kind": "literary_history_or_textual_claim",
+              "source_ids": [
+                "cl-hamlet-folger-texts",
+                "cl-hamlet-rsc-sources",
+                "cl-hamlet-folger-critical"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "007000-c02",
+              "anchor": "The First Folio printed another version in 1623.",
+              "kind": "literary_history_or_textual_claim",
+              "source_ids": [
+                "cl-hamlet-folger-texts",
+                "cl-hamlet-rsc-sources",
+                "cl-hamlet-folger-critical"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "007000-c03",
+              "anchor": "Shakespeare did not invent the bare revenge story.",
+              "kind": "literary_history_or_textual_claim",
+              "source_ids": [
+                "cl-hamlet-folger-texts",
+                "cl-hamlet-rsc-sources",
+                "cl-hamlet-folger-critical"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            },
+            {
+              "id": "007000-c04",
+              "anchor": "An earlier English stage play, conventionally called the Ur-Hamlet, is documented but does not survive in a text that we can consult.",
+              "kind": "literary_history_or_textual_claim",
+              "source_ids": [
+                "cl-hamlet-folger-texts",
+                "cl-hamlet-rsc-sources",
+                "cl-hamlet-folger-critical"
+              ],
+              "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+              "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

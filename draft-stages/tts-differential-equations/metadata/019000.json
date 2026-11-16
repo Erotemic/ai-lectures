@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "019000",
-  "transcript": "019000-hamiltonian-systems-and-symplectic-flows.md",
+  "transcript": "019000-hamiltonian-and-variational-structure-in-geometric-pde-solvers.md",
   "related_resources": [
     {
       "source_id": "de-mit-symplectic",
@@ -14,7 +14,261 @@
     {
       "source_id": "de-mit-classical",
       "reason": "Liouville theorem and symplectic mappings."
+    },
+    {
+      "source_id": "di-r12-024000-1",
+      "reason": "Euler-Lagrange PDEs and Noether conservation identities"
+    },
+    {
+      "source_id": "di-r12-024000-2",
+      "reason": "Euler-Lagrange PDEs and Noether conservation identities"
+    },
+    {
+      "source_id": "de-evans-pde",
+      "reason": "Euler-Lagrange PDEs and Noether conservation identities"
+    },
+    {
+      "source_id": "de-r16-031000-1",
+      "reason": "Reference on Structure-Preserving PDE Integrators: Discretizing Without Losing Geometry (1 of 3)"
+    },
+    {
+      "source_id": "de-r16-031000-2",
+      "reason": "Reference on Structure-Preserving PDE Integrators: Discretizing Without Losing Geometry (2 of 3)"
+    },
+    {
+      "source_id": "de-r16-031000-3",
+      "reason": "Reference on Structure-Preserving PDE Integrators: Discretizing Without Losing Geometry (3 of 3)"
+    },
+    {
+      "source_id": "de-r18-036000-1",
+      "reason": "Reference on Multisymplectic Variational Integrators for Wave Equations (1 of 3)"
+    },
+    {
+      "source_id": "de-r18-036000-2",
+      "reason": "Reference on Multisymplectic Variational Integrators for Wave Equations (2 of 3)"
+    },
+    {
+      "source_id": "de-r18-036000-3",
+      "reason": "Reference on Multisymplectic Variational Integrators for Wave Equations (3 of 3)"
+    },
+    {
+      "source_id": "de-r20-040000-1",
+      "reason": "Reference for Moving-Boundary PDEs and the Geometric Conservation Law (1 of 3)"
+    },
+    {
+      "source_id": "de-r20-040000-2",
+      "reason": "Reference for Moving-Boundary PDEs and the Geometric Conservation Law (2 of 3)"
+    },
+    {
+      "source_id": "de-r20-040000-3",
+      "reason": "Reference for Moving-Boundary PDEs and the Geometric Conservation Law (3 of 3)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "differential-equations:019000",
+        "file": "019000-hamiltonian-systems-and-symplectic-flows.md",
+        "sha256": "351689abdc2d66dac0a297b85c496657c34fc3032d0fec7cf87563696933ec8e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-hamiltonian-systems-and-symplectic-flows.md",
+          "related_resources": [
+            {
+              "source_id": "de-mit-symplectic",
+              "reason": "Symplectic flow theorem via Cartan formula."
+            },
+            {
+              "source_id": "de-mit-mechanics",
+              "reason": "Canonical coordinates and Hamiltonian dynamics."
+            },
+            {
+              "source_id": "de-mit-classical",
+              "reason": "Liouville theorem and symplectic mappings."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:024000",
+        "file": "024000-hamiltonian-and-variational-structure-through-discretization-shared-core.md",
+        "sha256": "a161af971a1d540a2fdf1fa8afe557f1d48bc784253abf39687e4ce4dc7ece5d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "024000",
+          "transcript": "024000-hamiltonian-and-variational-structure-through-discretization-shared-core.md",
+          "related_resources": [
+            {
+              "source_id": "di-r12-024000-1",
+              "reason": "Euler-Lagrange PDEs and Noether conservation identities"
+            },
+            {
+              "source_id": "di-r12-024000-2",
+              "reason": "Euler-Lagrange PDEs and Noether conservation identities"
+            },
+            {
+              "source_id": "de-evans-pde",
+              "reason": "Euler-Lagrange PDEs and Noether conservation identities"
+            },
+            {
+              "source_id": "de-r16-031000-1",
+              "reason": "Reference on Structure-Preserving PDE Integrators: Discretizing Without Losing Geometry (1 of 3)"
+            },
+            {
+              "source_id": "de-r16-031000-2",
+              "reason": "Reference on Structure-Preserving PDE Integrators: Discretizing Without Losing Geometry (2 of 3)"
+            },
+            {
+              "source_id": "de-r16-031000-3",
+              "reason": "Reference on Structure-Preserving PDE Integrators: Discretizing Without Losing Geometry (3 of 3)"
+            },
+            {
+              "source_id": "de-r18-036000-1",
+              "reason": "Reference on Multisymplectic Variational Integrators for Wave Equations (1 of 3)"
+            },
+            {
+              "source_id": "de-r18-036000-2",
+              "reason": "Reference on Multisymplectic Variational Integrators for Wave Equations (2 of 3)"
+            },
+            {
+              "source_id": "de-r18-036000-3",
+              "reason": "Reference on Multisymplectic Variational Integrators for Wave Equations (3 of 3)"
+            },
+            {
+              "source_id": "de-r20-040000-1",
+              "reason": "Reference for Moving-Boundary PDEs and the Geometric Conservation Law (1 of 3)"
+            },
+            {
+              "source_id": "de-r20-040000-2",
+              "reason": "Reference for Moving-Boundary PDEs and the Geometric Conservation Law (2 of 3)"
+            },
+            {
+              "source_id": "de-r20-040000-3",
+              "reason": "Reference for Moving-Boundary PDEs and the Geometric Conservation Law (3 of 3)"
+            }
+          ],
+          "historical_claims": [],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "differential-equations:024000",
+                "file": "024000-variational-pdes-and-noether-identities.md",
+                "sha256": "f70fdd75f187beaa804ef2b74bc0af69ae943ba8deadb6b5d2e5da890321eaa3",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "024000",
+                  "transcript": "024000-variational-pdes-and-noether-identities.md",
+                  "related_resources": [
+                    {
+                      "source_id": "di-r12-024000-1",
+                      "reason": "Euler-Lagrange PDEs and Noether conservation identities"
+                    },
+                    {
+                      "source_id": "di-r12-024000-2",
+                      "reason": "Euler-Lagrange PDEs and Noether conservation identities"
+                    },
+                    {
+                      "source_id": "de-evans-pde",
+                      "reason": "Euler-Lagrange PDEs and Noether conservation identities"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "differential-equations:031000",
+                "file": "031000-structure-preserving-numerical-pde-integrators.md",
+                "sha256": "a80954acbc237917d7fbfe6077f5b9e18a36f7ccd078bd4be048bd4cebd0c201",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "031000",
+                  "transcript": "031000-structure-preserving-numerical-pde-integrators.md",
+                  "related_resources": [
+                    {
+                      "source_id": "de-r16-031000-1",
+                      "reason": "Reference on Structure-Preserving PDE Integrators: Discretizing Without Losing Geometry (1 of 3)"
+                    },
+                    {
+                      "source_id": "de-r16-031000-2",
+                      "reason": "Reference on Structure-Preserving PDE Integrators: Discretizing Without Losing Geometry (2 of 3)"
+                    },
+                    {
+                      "source_id": "de-r16-031000-3",
+                      "reason": "Reference on Structure-Preserving PDE Integrators: Discretizing Without Losing Geometry (3 of 3)"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "differential-equations:036000",
+                "file": "036000-multisymplectic-variational-wave-integrators.md",
+                "sha256": "50261e2d833589feaf7afe2539424c75fcd0c1c05e52e794959d99ec037b2242",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "036000",
+                  "transcript": "036000-multisymplectic-variational-wave-integrators.md",
+                  "related_resources": [
+                    {
+                      "source_id": "de-r18-036000-1",
+                      "reason": "Reference on Multisymplectic Variational Integrators for Wave Equations (1 of 3)"
+                    },
+                    {
+                      "source_id": "de-r18-036000-2",
+                      "reason": "Reference on Multisymplectic Variational Integrators for Wave Equations (2 of 3)"
+                    },
+                    {
+                      "source_id": "de-r18-036000-3",
+                      "reason": "Reference on Multisymplectic Variational Integrators for Wave Equations (3 of 3)"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "differential-equations:040000",
+                "file": "040000-moving-boundary-pdes-and-geometric-conservation.md",
+                "sha256": "c4b3ff6ed47dacce8eb545572eb1e87158cfb92e549d8a6ba7ecf8b39a487321",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "040000",
+                  "transcript": "040000-moving-boundary-pdes-and-geometric-conservation.md",
+                  "related_resources": [
+                    {
+                      "source_id": "de-r20-040000-1",
+                      "reason": "Reference for Moving-Boundary PDEs and the Geometric Conservation Law (1 of 3)"
+                    },
+                    {
+                      "source_id": "de-r20-040000-2",
+                      "reason": "Reference for Moving-Boundary PDEs and the Geometric Conservation Law (2 of 3)"
+                    },
+                    {
+                      "source_id": "de-r20-040000-3",
+                      "reason": "Reference for Moving-Boundary PDEs and the Geometric Conservation Law (3 of 3)"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
 }

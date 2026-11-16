@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "041900",
-  "transcript": "041900-woolf-analysis-mrs-ramsay-domestic-power.md",
+  "transcript": "041900-to-the-lighthouse-ii-ramsays-lily-war-gender-class-and-form.md",
   "related_resources": [
     {
       "source_id": "ml-woolf-window",
@@ -14,6 +14,42 @@
     {
       "source_id": "ml-woolf-cambridge-empire",
       "reason": "Quotes the daughters’ text about Bank of England and Indian Empire, and situates patriarchy/finance/empire as related subjects. Full chapter not claimed to have been read."
+    },
+    {
+      "source_id": "ml-woolf-lighthouse",
+      "reason": "Direct primary text for Lily, Mr Ramsay, James, Cam, Macalister and his son, the boat, boots, recognition of James, and the last canvas line. Not an edition-independent authority on typography."
+    },
+    {
+      "source_id": "ml-woolf-yale",
+      "reason": "Discussion of Lily’s modernist painting, family, multiple consciousnesses, and the war as rupture. Direct page access may fail; no claim of full-page inspection."
+    },
+    {
+      "source_id": "ml-woolf-cambridge-form",
+      "reason": "Authoritative description of the three-part architecture, first-section day, roughly decade-long middle, final morning, Isle of Skye setting and Lily’s role. Do not pretend to have inspected the whole chapter."
+    },
+    {
+      "source_id": "ml-woolf-mendelson",
+      "reason": "Comparison of 1927 US/UK editions, the 1930 revised British impression, proof and section-number variants. Some editorial prescriptions are Mendelson’s judgments; do not flatten contested textual judgments into consensus."
+    },
+    {
+      "source_id": "ml-woolf-cambridge-chronology",
+      "reason": "Chronology lists composition started 8 January 1926, British publication 5 May 1927, and 1928 Prix Femina. Preview is a partial book, not complete analysis."
+    },
+    {
+      "source_id": "ml-woolf-princeton",
+      "reason": "Lists 1927 Hogarth Press publication; describes literary perspectives, gender and the intellectual freedom of self-publishing. Exhibition summary is not a proof of Woolf’s personal intention in each passage."
+    },
+    {
+      "source_id": "ml-woolf-society",
+      "reason": "Records Talland House holidays in St Ives and the novel’s relocated Isle of Skye setting; biographical family history and death of Julia Stephen in 1895. Biographical source, not proof of fictional identity."
+    },
+    {
+      "source_id": "ml-woolf-smith",
+      "reason": "Catalogs corrections in Woolf’s handwriting on 1927 page proofs; documents her roles as writer, editor and publisher. Specific American editorial interventions must be checked against proofs."
+    },
+    {
+      "source_id": "ml-woolf-npg",
+      "reason": "Institutional summary of Woolf’s role in modernist fiction and Bloomsbury; a general assessment, not evidence of direct influence on specific later novelists."
     }
   ],
   "historical_claims": [
@@ -66,6 +102,880 @@
       ],
       "source_locator": "Time Passes, Mrs Ramsay death notice",
       "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042000-c01",
+      "anchor": "She places Mrs. Ramsay and James within a form which may be more like a purple triangle",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, Lily and Bankes on painting",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042000-c02",
+      "anchor": "Charles Tansley has pronounced that women cannot paint and cannot write.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, Lily remembers Tansley",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042000-c03",
+      "anchor": "After the decade of absence, Lily returns to the painting.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, opening canvas scene",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042000-c04",
+      "anchor": "The novel's last gesture is a line drawn through the center of Lily's picture.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, final paragraph",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042000-c05",
+      "anchor": "We are not told that the painting will hang in a gallery",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, limits of narrated conclusion",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042100-c01",
+      "anchor": "Mr. Ramsay imagines scholarship as a sequence from A to Z.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, letter sequence",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042100-c02",
+      "anchor": "William Bankes admires him and remembers his vigorous, concentrated younger self.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, Bankes’ recollection",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042100-c03",
+      "anchor": "Lily's memory in the last section reduces those difficult inquiries to the image of a kitchen table when no one is there.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, Lily on Ramsay’s philosophy",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042100-c04",
+      "anchor": "Her unexpected praise of his boots nonetheless helps.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, boots episode",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042100-c05",
+      "anchor": "Near the lighthouse James steers well.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, final boat approach",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042200-c01",
+      "anchor": "Andrew Ramsay's death in France is mentioned with stark brevity",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes, wartime notice",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042200-c02",
+      "anchor": "Mrs. Ramsay's own death comes through a bracketed report of Mr. Ramsay stretching out his arms into emptiness.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes, Mrs Ramsay death notice",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042200-c03",
+      "anchor": "Mrs. McNab is joined by Mrs. Bast.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes, house restorers",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042200-c04",
+      "anchor": "The opening gathering occurs before the First World War",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-cambridge-form"
+      ],
+      "source_locator": "Cambridge synopsis and Woolf three-part structure",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "042200-c05",
+      "anchor": "The servants are not simply atmosphere around the family's grief.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes; interpretive reading of restoration work",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042300-c01",
+      "anchor": "Charles Tansley dismisses women's ability to paint or write.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, Tansley and Lily",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042300-c02",
+      "anchor": "Mrs. McNab remembers Mrs. Ramsay's manner and feels the weight of the family's absence",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes, McNab memories",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042300-c03",
+      "anchor": "Empire is present in the language of the opening section.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-cambridge-empire"
+      ],
+      "source_locator": "Cambridge scholarly excerpt quotes empire and banking references",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "042300-c04",
+      "anchor": "The Ramsay daughters imagine a freer life",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, daughters and Paris",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042300-c05",
+      "anchor": "For Macalister and his son the sea is a site of skill, danger and work.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, Macalister storm accounts; interpretive",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042400-c01",
+      "anchor": "First, read the opening exchange in The Window.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, section I",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042400-c02",
+      "anchor": "Second, find the passage where Mr. Ramsay imagines intellectual accomplishment as an alphabet.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, letter passage",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042400-c03",
+      "anchor": "Fifth, turn to Time Passes and find the bracketed notice of Mrs. Ramsay's death.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes, bracketed sentence",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042400-c04",
+      "anchor": "Sixth, read the last morning as a double construction.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, boat and canvas alternating",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042400-c05",
+      "anchor": "The goal of close reading is not to produce a correct answer to a symbol quiz.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "Methodological synthesis with primary text, not documentary claim",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042500-c01",
+      "anchor": "Virginia Woolf published To the Lighthouse in nineteen twenty-seven.",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-woolf-cambridge-chronology"
+      ],
+      "source_locator": "Cambridge author chronology, 1927",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "042500-c02",
+      "anchor": "Woolf remembered childhood holidays in St Ives, Cornwall",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-woolf-society"
+      ],
+      "source_locator": "Virginia Woolf Society biographical entry",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "042500-c03",
+      "anchor": "Woolf began serious work on the novel in nineteen twenty-six.",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-woolf-cambridge-chronology"
+      ],
+      "source_locator": "Cambridge author chronology: 8 January 1926",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "042500-c04",
+      "anchor": "The British and American editions appeared in the same year, but their texts do not represent one mechanically identical state.",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-woolf-mendelson"
+      ],
+      "source_locator": "Mendelson scanned edition collation, 1927 and 1930",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "042500-c05",
+      "anchor": "The Hogarth Press matters beyond a decorative imprint on the title page.",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-woolf-princeton"
+      ],
+      "source_locator": "Princeton Library exhibition on Hogarth Press",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "042500-c06",
+      "anchor": "Her novel has become an essential example in accounts of literary modernism",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-woolf-npg"
+      ],
+      "source_locator": "NPG broad modernist assessment; rest is interpretive synthesis",
+      "audit_status": "reference_recorded"
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "modern-literature:041900",
+        "file": "041900-woolf-analysis-mrs-ramsay-domestic-power.md",
+        "sha256": "41f8f2b9b4668bbd3de8ea458d5ce3a59b7455929b105744bae1ead790299c74",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "041900",
+          "transcript": "041900-woolf-analysis-mrs-ramsay-domestic-power.md",
+          "related_resources": [
+            {
+              "source_id": "ml-woolf-window",
+              "reason": "Direct primary text for the opening day, child James, Mrs/Mr Ramsay, Tansley, Lily, Bankes, Paul and Minta, nursery, meal, and ending. Wikisource uses an American-edition witness; differences from first British edition matter in word-level textual comparison."
+            },
+            {
+              "source_id": "ml-woolf-time",
+              "reason": "Direct primary text for the empty house, bracketed notices of Mrs Ramsay, Prue and Andrew, wartime absence, Mrs McNab, Mrs Bast, George and restoration. Specific wording may differ in early British editions."
+            },
+            {
+              "source_id": "ml-woolf-cambridge-empire",
+              "reason": "Quotes the daughters’ text about Bank of England and Indian Empire, and situates patriarchy/finance/empire as related subjects. Full chapter not claimed to have been read."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "041900-c01",
+              "anchor": "She also helps people in the village, attempting to keep track of earnings and hardship",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, charitable visits and notebook",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041900-c02",
+              "anchor": "Mrs. Ramsay believes in marriage.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, Paul and Minta and Lily",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041900-c03",
+              "anchor": "she covers the boar's skull for Cam without moving it against James's wish.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, nursery scene",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041900-c04",
+              "anchor": "Mrs. Ramsay requires privacy.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, the private beam of lighthouse light; interpretive",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041900-c05",
+              "anchor": "Then Mrs. Ramsay dies, reported in a sentence placed within brackets.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-time"
+              ],
+              "source_locator": "Time Passes, Mrs Ramsay death notice",
+              "audit_status": "source_recorded_primary_checked"
+            }
+          ]
+        }
+      },
+      {
+        "id": "modern-literature:042000",
+        "file": "042000-woolf-analysis-lily-painting-art.md",
+        "sha256": "dcad951ebad23af18ecf4f6b2024fb86a8f85b761f41d51805e7f5127d0fd8c4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "042000",
+          "transcript": "042000-woolf-analysis-lily-painting-art.md",
+          "related_resources": [
+            {
+              "source_id": "ml-woolf-window",
+              "reason": "Direct primary text for the opening day, child James, Mrs/Mr Ramsay, Tansley, Lily, Bankes, Paul and Minta, nursery, meal, and ending. Wikisource uses an American-edition witness; differences from first British edition matter in word-level textual comparison."
+            },
+            {
+              "source_id": "ml-woolf-lighthouse",
+              "reason": "Direct primary text for Lily, Mr Ramsay, James, Cam, Macalister and his son, the boat, boots, recognition of James, and the last canvas line. Not an edition-independent authority on typography."
+            },
+            {
+              "source_id": "ml-woolf-yale",
+              "reason": "Discussion of Lily’s modernist painting, family, multiple consciousnesses, and the war as rupture. Direct page access may fail; no claim of full-page inspection."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "042000-c01",
+              "anchor": "She places Mrs. Ramsay and James within a form which may be more like a purple triangle",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, Lily and Bankes on painting",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042000-c02",
+              "anchor": "Charles Tansley has pronounced that women cannot paint and cannot write.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, Lily remembers Tansley",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042000-c03",
+              "anchor": "After the decade of absence, Lily returns to the painting.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, opening canvas scene",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042000-c04",
+              "anchor": "The novel's last gesture is a line drawn through the center of Lily's picture.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, final paragraph",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042000-c05",
+              "anchor": "We are not told that the painting will hang in a gallery",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, limits of narrated conclusion",
+              "audit_status": "source_recorded_primary_checked"
+            }
+          ]
+        }
+      },
+      {
+        "id": "modern-literature:042100",
+        "file": "042100-woolf-analysis-mr-ramsay-knowledge-and-need.md",
+        "sha256": "5e2b834cfad2a263417c6b47ec1cf1f58b7defd1881d5ee4559bf9f6bd39ac0c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "042100",
+          "transcript": "042100-woolf-analysis-mr-ramsay-knowledge-and-need.md",
+          "related_resources": [
+            {
+              "source_id": "ml-woolf-window",
+              "reason": "Direct primary text for the opening day, child James, Mrs/Mr Ramsay, Tansley, Lily, Bankes, Paul and Minta, nursery, meal, and ending. Wikisource uses an American-edition witness; differences from first British edition matter in word-level textual comparison."
+            },
+            {
+              "source_id": "ml-woolf-lighthouse",
+              "reason": "Direct primary text for Lily, Mr Ramsay, James, Cam, Macalister and his son, the boat, boots, recognition of James, and the last canvas line. Not an edition-independent authority on typography."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "042100-c01",
+              "anchor": "Mr. Ramsay imagines scholarship as a sequence from A to Z.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, letter sequence",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042100-c02",
+              "anchor": "William Bankes admires him and remembers his vigorous, concentrated younger self.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, Bankes’ recollection",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042100-c03",
+              "anchor": "Lily's memory in the last section reduces those difficult inquiries to the image of a kitchen table when no one is there.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, Lily on Ramsay’s philosophy",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042100-c04",
+              "anchor": "Her unexpected praise of his boots nonetheless helps.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, boots episode",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042100-c05",
+              "anchor": "Near the lighthouse James steers well.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, final boat approach",
+              "audit_status": "source_recorded_primary_checked"
+            }
+          ]
+        }
+      },
+      {
+        "id": "modern-literature:042200",
+        "file": "042200-woolf-analysis-war-death-and-restoration.md",
+        "sha256": "059178e60101a510a086870cd36845ab895e28f715461de6db4346947159e13a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "042200",
+          "transcript": "042200-woolf-analysis-war-death-and-restoration.md",
+          "related_resources": [
+            {
+              "source_id": "ml-woolf-time",
+              "reason": "Direct primary text for the empty house, bracketed notices of Mrs Ramsay, Prue and Andrew, wartime absence, Mrs McNab, Mrs Bast, George and restoration. Specific wording may differ in early British editions."
+            },
+            {
+              "source_id": "ml-woolf-cambridge-form",
+              "reason": "Authoritative description of the three-part architecture, first-section day, roughly decade-long middle, final morning, Isle of Skye setting and Lily’s role. Do not pretend to have inspected the whole chapter."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "042200-c01",
+              "anchor": "Andrew Ramsay's death in France is mentioned with stark brevity",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-time"
+              ],
+              "source_locator": "Time Passes, wartime notice",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042200-c02",
+              "anchor": "Mrs. Ramsay's own death comes through a bracketed report of Mr. Ramsay stretching out his arms into emptiness.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-time"
+              ],
+              "source_locator": "Time Passes, Mrs Ramsay death notice",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042200-c03",
+              "anchor": "Mrs. McNab is joined by Mrs. Bast.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-time"
+              ],
+              "source_locator": "Time Passes, house restorers",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042200-c04",
+              "anchor": "The opening gathering occurs before the First World War",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-cambridge-form"
+              ],
+              "source_locator": "Cambridge synopsis and Woolf three-part structure",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "042200-c05",
+              "anchor": "The servants are not simply atmosphere around the family's grief.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-time"
+              ],
+              "source_locator": "Time Passes; interpretive reading of restoration work",
+              "audit_status": "source_recorded_primary_checked"
+            }
+          ]
+        }
+      },
+      {
+        "id": "modern-literature:042300",
+        "file": "042300-woolf-analysis-gender-class-and-empire.md",
+        "sha256": "83892ae96c2b02cd39fc37e43321241c6edbc3d9ac8c26c98bf222960bfa56a3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "042300",
+          "transcript": "042300-woolf-analysis-gender-class-and-empire.md",
+          "related_resources": [
+            {
+              "source_id": "ml-woolf-window",
+              "reason": "Direct primary text for the opening day, child James, Mrs/Mr Ramsay, Tansley, Lily, Bankes, Paul and Minta, nursery, meal, and ending. Wikisource uses an American-edition witness; differences from first British edition matter in word-level textual comparison."
+            },
+            {
+              "source_id": "ml-woolf-time",
+              "reason": "Direct primary text for the empty house, bracketed notices of Mrs Ramsay, Prue and Andrew, wartime absence, Mrs McNab, Mrs Bast, George and restoration. Specific wording may differ in early British editions."
+            },
+            {
+              "source_id": "ml-woolf-lighthouse",
+              "reason": "Direct primary text for Lily, Mr Ramsay, James, Cam, Macalister and his son, the boat, boots, recognition of James, and the last canvas line. Not an edition-independent authority on typography."
+            },
+            {
+              "source_id": "ml-woolf-cambridge-empire",
+              "reason": "Quotes the daughters’ text about Bank of England and Indian Empire, and situates patriarchy/finance/empire as related subjects. Full chapter not claimed to have been read."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "042300-c01",
+              "anchor": "Charles Tansley dismisses women's ability to paint or write.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, Tansley and Lily",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042300-c02",
+              "anchor": "Mrs. McNab remembers Mrs. Ramsay's manner and feels the weight of the family's absence",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-time"
+              ],
+              "source_locator": "Time Passes, McNab memories",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042300-c03",
+              "anchor": "Empire is present in the language of the opening section.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-cambridge-empire"
+              ],
+              "source_locator": "Cambridge scholarly excerpt quotes empire and banking references",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "042300-c04",
+              "anchor": "The Ramsay daughters imagine a freer life",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, daughters and Paris",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042300-c05",
+              "anchor": "For Macalister and his son the sea is a site of skill, danger and work.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, Macalister storm accounts; interpretive",
+              "audit_status": "source_recorded_primary_checked"
+            }
+          ]
+        }
+      },
+      {
+        "id": "modern-literature:042400",
+        "file": "042400-woolf-analysis-close-reading-workshop.md",
+        "sha256": "20ed953d06060ca73b45e98ed449708e10221303cca96d30335ba4fac9495241",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "042400",
+          "transcript": "042400-woolf-analysis-close-reading-workshop.md",
+          "related_resources": [
+            {
+              "source_id": "ml-woolf-window",
+              "reason": "Direct primary text for the opening day, child James, Mrs/Mr Ramsay, Tansley, Lily, Bankes, Paul and Minta, nursery, meal, and ending. Wikisource uses an American-edition witness; differences from first British edition matter in word-level textual comparison."
+            },
+            {
+              "source_id": "ml-woolf-time",
+              "reason": "Direct primary text for the empty house, bracketed notices of Mrs Ramsay, Prue and Andrew, wartime absence, Mrs McNab, Mrs Bast, George and restoration. Specific wording may differ in early British editions."
+            },
+            {
+              "source_id": "ml-woolf-lighthouse",
+              "reason": "Direct primary text for Lily, Mr Ramsay, James, Cam, Macalister and his son, the boat, boots, recognition of James, and the last canvas line. Not an edition-independent authority on typography."
+            },
+            {
+              "source_id": "ml-woolf-mendelson",
+              "reason": "Comparison of 1927 US/UK editions, the 1930 revised British impression, proof and section-number variants. Some editorial prescriptions are Mendelson’s judgments; do not flatten contested textual judgments into consensus."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "042400-c01",
+              "anchor": "First, read the opening exchange in The Window.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, section I",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042400-c02",
+              "anchor": "Second, find the passage where Mr. Ramsay imagines intellectual accomplishment as an alphabet.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, letter passage",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042400-c03",
+              "anchor": "Fifth, turn to Time Passes and find the bracketed notice of Mrs. Ramsay's death.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-time"
+              ],
+              "source_locator": "Time Passes, bracketed sentence",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042400-c04",
+              "anchor": "Sixth, read the last morning as a double construction.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, boat and canvas alternating",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "042400-c05",
+              "anchor": "The goal of close reading is not to produce a correct answer to a symbol quiz.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "Methodological synthesis with primary text, not documentary claim",
+              "audit_status": "source_recorded_primary_checked"
+            }
+          ]
+        }
+      },
+      {
+        "id": "modern-literature:042500",
+        "file": "042500-woolf-analysis-composition-editions-influence.md",
+        "sha256": "95cb20c2f98e754d8ce8c98f480aa7dfcd8b683ef402d7e2a8e245b36c36b762",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "042500",
+          "transcript": "042500-woolf-analysis-composition-editions-influence.md",
+          "related_resources": [
+            {
+              "source_id": "ml-woolf-cambridge-chronology",
+              "reason": "Chronology lists composition started 8 January 1926, British publication 5 May 1927, and 1928 Prix Femina. Preview is a partial book, not complete analysis."
+            },
+            {
+              "source_id": "ml-woolf-princeton",
+              "reason": "Lists 1927 Hogarth Press publication; describes literary perspectives, gender and the intellectual freedom of self-publishing. Exhibition summary is not a proof of Woolf’s personal intention in each passage."
+            },
+            {
+              "source_id": "ml-woolf-society",
+              "reason": "Records Talland House holidays in St Ives and the novel’s relocated Isle of Skye setting; biographical family history and death of Julia Stephen in 1895. Biographical source, not proof of fictional identity."
+            },
+            {
+              "source_id": "ml-woolf-smith",
+              "reason": "Catalogs corrections in Woolf’s handwriting on 1927 page proofs; documents her roles as writer, editor and publisher. Specific American editorial interventions must be checked against proofs."
+            },
+            {
+              "source_id": "ml-woolf-mendelson",
+              "reason": "Comparison of 1927 US/UK editions, the 1930 revised British impression, proof and section-number variants. Some editorial prescriptions are Mendelson’s judgments; do not flatten contested textual judgments into consensus."
+            },
+            {
+              "source_id": "ml-woolf-npg",
+              "reason": "Institutional summary of Woolf’s role in modernist fiction and Bloomsbury; a general assessment, not evidence of direct influence on specific later novelists."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "042500-c01",
+              "anchor": "Virginia Woolf published To the Lighthouse in nineteen twenty-seven.",
+              "kind": "documentary_fact_or_textual_history",
+              "source_ids": [
+                "ml-woolf-cambridge-chronology"
+              ],
+              "source_locator": "Cambridge author chronology, 1927",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "042500-c02",
+              "anchor": "Woolf remembered childhood holidays in St Ives, Cornwall",
+              "kind": "documentary_fact_or_textual_history",
+              "source_ids": [
+                "ml-woolf-society"
+              ],
+              "source_locator": "Virginia Woolf Society biographical entry",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "042500-c03",
+              "anchor": "Woolf began serious work on the novel in nineteen twenty-six.",
+              "kind": "documentary_fact_or_textual_history",
+              "source_ids": [
+                "ml-woolf-cambridge-chronology"
+              ],
+              "source_locator": "Cambridge author chronology: 8 January 1926",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "042500-c04",
+              "anchor": "The British and American editions appeared in the same year, but their texts do not represent one mechanically identical state.",
+              "kind": "documentary_fact_or_textual_history",
+              "source_ids": [
+                "ml-woolf-mendelson"
+              ],
+              "source_locator": "Mendelson scanned edition collation, 1927 and 1930",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "042500-c05",
+              "anchor": "The Hogarth Press matters beyond a decorative imprint on the title page.",
+              "kind": "documentary_fact_or_textual_history",
+              "source_ids": [
+                "ml-woolf-princeton"
+              ],
+              "source_locator": "Princeton Library exhibition on Hogarth Press",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "042500-c06",
+              "anchor": "Her novel has become an essential example in accounts of literary modernism",
+              "kind": "documentary_fact_or_textual_history",
+              "source_ids": [
+                "ml-woolf-npg"
+              ],
+              "source_locator": "NPG broad modernist assessment; rest is interpretive synthesis",
+              "audit_status": "reference_recorded"
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,5 +1,7 @@
 # Dante's *Commedia*: sources, textual boundaries, and editorial decisions
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 This dossier accompanies lectures **016000–037000** of `pre-1900-literature`.
 It is non-spoken. The lectures are original explanatory prose, not recitations or
 substitutes for one particular edition of the poem.

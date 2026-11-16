@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "003000",
-  "transcript": "003000-sawing-drilling-grinding-and-machining.md",
+  "transcript": "003000-cut-form-and-join-a-workable-part.md",
   "related_resources": [
     {
       "source_id": "osha-mwf",
@@ -10,6 +10,46 @@
     {
       "source_id": "osha-mwf-exposure",
       "reason": "Mist exposure controls and fluid delivery"
+    },
+    {
+      "source_id": "asm-sheet-bending",
+      "reason": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked"
+    },
+    {
+      "source_id": "worksafe-weld-fumes",
+      "reason": "SMAW, GMAW, GTAW and FCAW process distinctions and relative fume mechanisms"
+    },
+    {
+      "source_id": "osha-welding",
+      "reason": "Fumes, ultraviolet radiation, burns, electric shock and protective controls"
+    },
+    {
+      "source_id": "osha-fact",
+      "reason": "Distinction between SMAW, GMAW, GTAW and brazing"
+    },
+    {
+      "source_id": "nasa-crews-fatigue",
+      "reason": "Fatigue cracking under cyclic loading and geometric stress concentration"
+    },
+    {
+      "source_id": "asm-steel",
+      "reason": "Iron-carbon transformations, quenching and tempering"
+    },
+    {
+      "source_id": "iso-fastener-grade",
+      "reason": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed"
+    },
+    {
+      "source_id": "nasa-barrett-fastener",
+      "reason": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary"
+    },
+    {
+      "source_id": "aws-brazing-handbook-fifth",
+      "reason": "Brazing definition, capillary action and joint preparation"
+    },
+    {
+      "source_id": "ampp-galvanic-corrosion",
+      "reason": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact"
     }
   ],
   "historical_claims": [],
@@ -63,8 +103,752 @@
       "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
       "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
       "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P004000-01",
+      "claim": "Metal bending combines elastic and plastic deformation; elastic recovery causes springback on unloading.",
+      "kind": "physical_mechanism",
+      "supports": [
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "ASM Handbook public chapter abstract: elastic/plastic bending and springback",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-02",
+      "claim": "Bendability depends on material, thickness, radius, tooling and deformation distribution.",
+      "kind": "engineering_principle",
+      "supports": [
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "ASM Handbook public abstract: bendability and effect of variables",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-03",
+      "claim": "Bend allowance is a geometric manufacturing estimate; empirical calibration is needed for accurate formed dimensions.",
+      "kind": "derived_geometry",
+      "supports": [
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "Author-derived flat-pattern model; handbook supports forming concepts, not quoted coefficient",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Author-derived formula, arithmetic or system synthesis; cited source supplies context rather than an identical theorem or numerical guarantee.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-01",
+      "claim": "Stick, GMAW, GTAW and flux-cored processes differ in electrode, shielding and fume mechanisms.",
+      "kind": "process_comparison",
+      "supports": [
+        {
+          "source_id": "worksafe-weld-fumes",
+          "location": "Four main arc welding processes; OSHA Welding Hazards and Solutions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-welding",
+          "location": "Four main arc welding processes; OSHA Welding Hazards and Solutions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "Welded joint quality depends on geometry, fusion, material/thermal conditions and defect control, not just bead appearance.",
+      "kind": "derived_materials_reasoning",
+      "supports": [
+        {
+          "source_id": "osha-welding",
+          "location": "Process descriptions; structural-joint considerations synthesized by author",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "worksafe-weld-fumes",
+          "location": "Process descriptions; structural-joint considerations synthesized by author",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "Fume risk varies with process, coating and alloy and requires independent exposure control.",
+      "kind": "occupational_safety",
+      "supports": [
+        {
+          "source_id": "worksafe-weld-fumes",
+          "location": "Welding fume sources, process comparison and contaminants/coatings",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-fact",
+          "location": "Welding fume sources, process comparison and contaminants/coatings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-01",
+      "claim": "Cyclic loading at a stress concentration can initiate fatigue cracking even below a one-time overload.",
+      "kind": "fatigue_mechanics",
+      "supports": [
+        {
+          "source_id": "nasa-crews-fatigue",
+          "location": "NASA TM title and subject: fatigue cracking at stress concentrations under cyclic loading",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-02",
+      "claim": "The geometry of holes and notches can concentrate local stress, motivating better transitions and inspection.",
+      "kind": "derived_fatigue_design",
+      "supports": [
+        {
+          "source_id": "nasa-crews-fatigue",
+          "location": "NASA TM stress-concentration fatigue context; design synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-03",
+      "claim": "Heat treatment and material structure affect metal behavior and therefore inspection and fabrication choices.",
+      "kind": "metallurgy_context",
+      "supports": [
+        {
+          "source_id": "asm-steel",
+          "location": "ASM: heat treatment of steel; author synthesis about material behavior",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P009000-01",
+      "claim": "Carbon/alloy steel fastener property classes specify mechanical behavior under a defined test-temperature scope.",
+      "kind": "original_iso_standard_public_abstract",
+      "supports": [
+        {
+          "source_id": "iso-fastener-grade",
+          "location": "ISO 898-1 abstract and scope/exclusions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Fastener selection includes preload, fatigue, corrosion and surface treatment rather than strength grade alone.",
+      "kind": "original_nasa_engineering_reference",
+      "supports": [
+        {
+          "source_id": "nasa-barrett-fastener",
+          "location": "NASA RP 1228 publication summary and design criteria",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Steel heat treatment changes material structure and trades hardness against toughness depending on alloy/process.",
+      "kind": "original_metallurgy_publisher_abstract",
+      "supports": [
+        {
+          "source_id": "asm-steel",
+          "location": "Heat-treatment chapter abstract",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-01",
+      "claim": "Brazing uses a filler with liquidus above 450 C, below base-metal solidus, distributed through capillary action at close-fitting surfaces.",
+      "kind": "original_aws_process_definition",
+      "supports": [
+        {
+          "source_id": "aws-brazing-handbook-fifth",
+          "location": "Preface and AWS brazing definition",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Joint preparation and protection against oxidation are essential to brazing wetting and filler flow.",
+      "kind": "original_aws_brazing_practice",
+      "supports": [
+        {
+          "source_id": "aws-brazing-handbook-fifth",
+          "location": "Preface: cleaning, flux/protective atmosphere and joint design",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Electrically connected dissimilar metals in an electrolyte can undergo galvanic corrosion.",
+      "kind": "original_ampp_galvanic_reference",
+      "supports": [
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Electrolyte, dissimilar-metal potential and corrosion mechanism",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Process hazards vary by filler, flux, temperature and atmosphere, so process-specific fume precautions matter.",
+      "kind": "original_osha_joining_safety",
+      "supports": [
+        {
+          "source_id": "osha-welding",
+          "location": "Welding, cutting and brazing hazards and controls",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+  "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-metalworking:003000",
+        "file": "003000-sawing-drilling-grinding-and-machining.md",
+        "sha256": "2a35b233f925a3b56297f3d56b9b2fe210a788717977ce7a5a799eece20905b6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-sawing-drilling-grinding-and-machining.md",
+          "related_resources": [
+            {
+              "source_id": "osha-mwf",
+              "reason": "Tool/workpiece heat, chip removal, cooling and lubrication of machining operations"
+            },
+            {
+              "source_id": "osha-mwf-exposure",
+              "reason": "Mist exposure controls and fluid delivery"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P003000-01",
+              "claim": "Chip-making cutting operations generate substantial heat and can require cooling and lubrication.",
+              "kind": "physical_mechanism",
+              "supports": [
+                {
+                  "source_id": "osha-mwf",
+                  "location": "OSHA MWF manual introduction: functions of cutting fluids",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-02",
+              "claim": "Metalworking fluids can help cool, lubricate, move chips and protect against corrosion.",
+              "kind": "field_practice",
+              "supports": [
+                {
+                  "source_id": "osha-mwf",
+                  "location": "OSHA MWF manual fluid functions and management",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-03",
+              "claim": "Machining-fluid mist exposures and fluid delivery require process-specific controls.",
+              "kind": "occupational_safety_practice",
+              "supports": [
+                {
+                  "source_id": "osha-mwf",
+                  "location": "OSHA evaluating exposure and best practices",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-mwf-exposure",
+                  "location": "OSHA evaluating exposure and best practices",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+        }
+      },
+      {
+        "id": "trades-metalworking:004000",
+        "file": "004000-bending-forming-and-springback.md",
+        "sha256": "f648cecf9b5474bccc53a76b6ee3061a3d8e201dde706f0a749ec4dec1a21e72",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-bending-forming-and-springback.md",
+          "related_resources": [
+            {
+              "source_id": "asm-sheet-bending",
+              "reason": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P004000-01",
+              "claim": "Metal bending combines elastic and plastic deformation; elastic recovery causes springback on unloading.",
+              "kind": "physical_mechanism",
+              "supports": [
+                {
+                  "source_id": "asm-sheet-bending",
+                  "location": "ASM Handbook public chapter abstract: elastic/plastic bending and springback",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-02",
+              "claim": "Bendability depends on material, thickness, radius, tooling and deformation distribution.",
+              "kind": "engineering_principle",
+              "supports": [
+                {
+                  "source_id": "asm-sheet-bending",
+                  "location": "ASM Handbook public abstract: bendability and effect of variables",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-03",
+              "claim": "Bend allowance is a geometric manufacturing estimate; empirical calibration is needed for accurate formed dimensions.",
+              "kind": "derived_geometry",
+              "supports": [
+                {
+                  "source_id": "asm-sheet-bending",
+                  "location": "Author-derived flat-pattern model; handbook supports forming concepts, not quoted coefficient",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Author-derived formula, arithmetic or system synthesis; cited source supplies context rather than an identical theorem or numerical guarantee.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design."
+        }
+      },
+      {
+        "id": "trades-metalworking:005000",
+        "file": "005000-welding-processes-and-joint-geometry.md",
+        "sha256": "3b91a5581cf757b5f626d3326e05b7d7a1869d91bb2ccbfbc473199648a2a7f1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-welding-processes-and-joint-geometry.md",
+          "related_resources": [
+            {
+              "source_id": "worksafe-weld-fumes",
+              "reason": "SMAW, GMAW, GTAW and FCAW process distinctions and relative fume mechanisms"
+            },
+            {
+              "source_id": "osha-welding",
+              "reason": "Fumes, ultraviolet radiation, burns, electric shock and protective controls"
+            },
+            {
+              "source_id": "osha-fact",
+              "reason": "Distinction between SMAW, GMAW, GTAW and brazing"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P005000-01",
+              "claim": "Stick, GMAW, GTAW and flux-cored processes differ in electrode, shielding and fume mechanisms.",
+              "kind": "process_comparison",
+              "supports": [
+                {
+                  "source_id": "worksafe-weld-fumes",
+                  "location": "Four main arc welding processes; OSHA Welding Hazards and Solutions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-welding",
+                  "location": "Four main arc welding processes; OSHA Welding Hazards and Solutions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-02",
+              "claim": "Welded joint quality depends on geometry, fusion, material/thermal conditions and defect control, not just bead appearance.",
+              "kind": "derived_materials_reasoning",
+              "supports": [
+                {
+                  "source_id": "osha-welding",
+                  "location": "Process descriptions; structural-joint considerations synthesized by author",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "worksafe-weld-fumes",
+                  "location": "Process descriptions; structural-joint considerations synthesized by author",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-03",
+              "claim": "Fume risk varies with process, coating and alloy and requires independent exposure control.",
+              "kind": "occupational_safety",
+              "supports": [
+                {
+                  "source_id": "worksafe-weld-fumes",
+                  "location": "Welding fume sources, process comparison and contaminants/coatings",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-fact",
+                  "location": "Welding fume sources, process comparison and contaminants/coatings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+        }
+      },
+      {
+        "id": "trades-metalworking:006000",
+        "file": "006000-mechanical-fastening-and-fatigue.md",
+        "sha256": "b03984099e0d1e64a6cadcb12ad8eb1896dc5e6b6a569349fbee8ac2682c15a8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-mechanical-fastening-and-fatigue.md",
+          "related_resources": [
+            {
+              "source_id": "nasa-crews-fatigue",
+              "reason": "Fatigue cracking under cyclic loading and geometric stress concentration"
+            },
+            {
+              "source_id": "asm-steel",
+              "reason": "Iron-carbon transformations, quenching and tempering"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P006000-01",
+              "claim": "Cyclic loading at a stress concentration can initiate fatigue cracking even below a one-time overload.",
+              "kind": "fatigue_mechanics",
+              "supports": [
+                {
+                  "source_id": "nasa-crews-fatigue",
+                  "location": "NASA TM title and subject: fatigue cracking at stress concentrations under cyclic loading",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-02",
+              "claim": "The geometry of holes and notches can concentrate local stress, motivating better transitions and inspection.",
+              "kind": "derived_fatigue_design",
+              "supports": [
+                {
+                  "source_id": "nasa-crews-fatigue",
+                  "location": "NASA TM stress-concentration fatigue context; design synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-03",
+              "claim": "Heat treatment and material structure affect metal behavior and therefore inspection and fabrication choices.",
+              "kind": "metallurgy_context",
+              "supports": [
+                {
+                  "source_id": "asm-steel",
+                  "location": "ASM: heat treatment of steel; author synthesis about material behavior",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+        }
+      },
+      {
+        "id": "trades-metalworking:009000",
+        "file": "009000-heat-treatment-and-fastener-selection.md",
+        "sha256": "27629ba8d531afbd95d2c2edf38c2dc86423524244cb0a826ddc8eb2ba268e25",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-heat-treatment-and-fastener-selection.md",
+          "related_resources": [
+            {
+              "source_id": "iso-fastener-grade",
+              "reason": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed"
+            },
+            {
+              "source_id": "nasa-barrett-fastener",
+              "reason": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary"
+            },
+            {
+              "source_id": "asm-steel",
+              "reason": "Iron-carbon transformations, quenching and tempering"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P009000-01",
+              "claim": "Carbon/alloy steel fastener property classes specify mechanical behavior under a defined test-temperature scope.",
+              "kind": "original_iso_standard_public_abstract",
+              "supports": [
+                {
+                  "source_id": "iso-fastener-grade",
+                  "location": "ISO 898-1 abstract and scope/exclusions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-02",
+              "claim": "Fastener selection includes preload, fatigue, corrosion and surface treatment rather than strength grade alone.",
+              "kind": "original_nasa_engineering_reference",
+              "supports": [
+                {
+                  "source_id": "nasa-barrett-fastener",
+                  "location": "NASA RP 1228 publication summary and design criteria",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-03",
+              "claim": "Steel heat treatment changes material structure and trades hardness against toughness depending on alloy/process.",
+              "kind": "original_metallurgy_publisher_abstract",
+              "supports": [
+                {
+                  "source_id": "asm-steel",
+                  "location": "Heat-treatment chapter abstract",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+        }
+      },
+      {
+        "id": "trades-metalworking:010000",
+        "file": "010000-soldering-brazing-and-dissimilar-metal-joining.md",
+        "sha256": "3b6120f294fac9d8489480dd36b83d7b15bed9cd6a0f6c7aa8b2a26bed251cca",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-soldering-brazing-and-dissimilar-metal-joining.md",
+          "related_resources": [
+            {
+              "source_id": "aws-brazing-handbook-fifth",
+              "reason": "Brazing definition, capillary action and joint preparation"
+            },
+            {
+              "source_id": "ampp-galvanic-corrosion",
+              "reason": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact"
+            },
+            {
+              "source_id": "osha-welding",
+              "reason": "Fumes, ultraviolet radiation, burns, electric shock and protective controls"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Brazing uses a filler with liquidus above 450 C, below base-metal solidus, distributed through capillary action at close-fitting surfaces.",
+              "kind": "original_aws_process_definition",
+              "supports": [
+                {
+                  "source_id": "aws-brazing-handbook-fifth",
+                  "location": "Preface and AWS brazing definition",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "Joint preparation and protection against oxidation are essential to brazing wetting and filler flow.",
+              "kind": "original_aws_brazing_practice",
+              "supports": [
+                {
+                  "source_id": "aws-brazing-handbook-fifth",
+                  "location": "Preface: cleaning, flux/protective atmosphere and joint design",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Electrically connected dissimilar metals in an electrolyte can undergo galvanic corrosion.",
+              "kind": "original_ampp_galvanic_reference",
+              "supports": [
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Electrolyte, dissimilar-metal potential and corrosion mechanism",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Process hazards vary by filler, flux, temperature and atmosphere, so process-specific fume precautions matter.",
+              "kind": "original_osha_joining_safety",
+              "supports": [
+                {
+                  "source_id": "osha-welding",
+                  "location": "Welding, cutting and brazing hazards and controls",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "003000-cut-form-and-join-a-workable-part.md"
+      ],
+      "joined_before_source_parts": [
+        "004000",
+        "005000"
+      ]
+    }
+  ]
 }

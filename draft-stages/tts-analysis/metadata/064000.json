@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "064000",
-  "transcript": "064000-semigroups-generators-and-evolution.md",
+  "transcript": "064000-semigroups-smoothing-and-nonlinear-existence.md",
   "related_resources": [
     {
       "source_id": "an-found23-064000-1",
@@ -14,7 +14,216 @@
     {
       "source_id": "an-found23-064000-3",
       "reason": "Reference for definitions, examples, and precise hypotheses in Semigroups and Generators: Solving Time Evolution Beyond Self-Adjoint Operators."
+    },
+    {
+      "source_id": "an-found24-067000-1",
+      "reason": "Supports definitions, statements, and worked examples in Sectorial Operators: Why Diffusion Smooths Immediately."
+    },
+    {
+      "source_id": "an-found24-067000-2",
+      "reason": "Supports definitions, statements, and worked examples in Sectorial Operators: Why Diffusion Smooths Immediately."
+    },
+    {
+      "source_id": "an-found24-072000-1",
+      "reason": "Supports definitions, statements, and worked examples in Banach Fixed Points and Picard Iteration: Constructing a Solution."
+    },
+    {
+      "source_id": "an-found24-072000-2",
+      "reason": "Supports definitions, statements, and worked examples in Banach Fixed Points and Picard Iteration: Constructing a Solution."
+    },
+    {
+      "source_id": "an-found24-073000-1",
+      "reason": "Supports definitions, statements, and worked examples in Duhamel’s Formula: Solving a Nonlinear Equation with a Linear Flow."
+    },
+    {
+      "source_id": "an-found24-073000-2",
+      "reason": "Supports definitions, statements, and worked examples in Duhamel’s Formula: Solving a Nonlinear Equation with a Linear Flow."
+    },
+    {
+      "source_id": "an-found24-074000-1",
+      "reason": "Supports definitions, statements, and worked examples in Energy Estimates and Gronwall: Turning Local Calculations into Global Bounds."
+    },
+    {
+      "source_id": "an-found24-074000-2",
+      "reason": "Supports definitions, statements, and worked examples in Energy Estimates and Gronwall: Turning Local Calculations into Global Bounds."
+    },
+    {
+      "source_id": "an-found24-075000-1",
+      "reason": "Supports definitions, statements, and worked examples in Compactness in Space and Time: Passing to a Nonlinear Limit."
+    },
+    {
+      "source_id": "an-found24-075000-2",
+      "reason": "Supports definitions, statements, and worked examples in Compactness in Space and Time: Passing to a Nonlinear Limit."
+    },
+    {
+      "source_id": "an-found24-076000-1",
+      "reason": "Supports definitions, statements, and worked examples in The Direct Method and Monotone Operators: Nonlinear Existence Without a Contraction."
+    },
+    {
+      "source_id": "an-found24-076000-2",
+      "reason": "Supports definitions, statements, and worked examples in The Direct Method and Monotone Operators: Nonlinear Existence Without a Contraction."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "analysis:064000",
+        "file": "064000-semigroups-generators-and-evolution.md",
+        "sha256": "c203d725b03ab270c0074252fb8780bb4eabae1a7c6909a14e7e4227cb5b0a6d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "064000",
+          "transcript": "064000-semigroups-generators-and-evolution.md",
+          "related_resources": [
+            {
+              "source_id": "an-found23-064000-1",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Semigroups and Generators: Solving Time Evolution Beyond Self-Adjoint Operators."
+            },
+            {
+              "source_id": "an-found23-064000-2",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Semigroups and Generators: Solving Time Evolution Beyond Self-Adjoint Operators."
+            },
+            {
+              "source_id": "an-found23-064000-3",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Semigroups and Generators: Solving Time Evolution Beyond Self-Adjoint Operators."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:067000",
+        "file": "067000-sectorial-operators-and-analytic-semigroups.md",
+        "sha256": "715dbcb416db1cd2554b3e5cd3b8dc4166c1c78f856e1bd3ec45b65db9140712",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "067000",
+          "transcript": "067000-sectorial-operators-and-analytic-semigroups.md",
+          "related_resources": [
+            {
+              "source_id": "an-found24-067000-1",
+              "reason": "Supports definitions, statements, and worked examples in Sectorial Operators: Why Diffusion Smooths Immediately."
+            },
+            {
+              "source_id": "an-found24-067000-2",
+              "reason": "Supports definitions, statements, and worked examples in Sectorial Operators: Why Diffusion Smooths Immediately."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:072000",
+        "file": "072000-contractions-and-picard-iteration.md",
+        "sha256": "64fb715c00683bae7762be9118917608d4bbe06566fc504d8ead8aded4ebca22",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "072000",
+          "transcript": "072000-contractions-and-picard-iteration.md",
+          "related_resources": [
+            {
+              "source_id": "an-found24-072000-1",
+              "reason": "Supports definitions, statements, and worked examples in Banach Fixed Points and Picard Iteration: Constructing a Solution."
+            },
+            {
+              "source_id": "an-found24-072000-2",
+              "reason": "Supports definitions, statements, and worked examples in Banach Fixed Points and Picard Iteration: Constructing a Solution."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:073000",
+        "file": "073000-duhamel-and-semilinear-evolution.md",
+        "sha256": "0b1a1f8af4de5866f302a9c423758e1b4a650341737e1a967d33bf7bf0b75fc7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "073000",
+          "transcript": "073000-duhamel-and-semilinear-evolution.md",
+          "related_resources": [
+            {
+              "source_id": "an-found24-073000-1",
+              "reason": "Supports definitions, statements, and worked examples in Duhamel’s Formula: Solving a Nonlinear Equation with a Linear Flow."
+            },
+            {
+              "source_id": "an-found24-073000-2",
+              "reason": "Supports definitions, statements, and worked examples in Duhamel’s Formula: Solving a Nonlinear Equation with a Linear Flow."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:074000",
+        "file": "074000-energy-estimates-and-gronwall.md",
+        "sha256": "39bd26ba93a16154b0b396282468ae76a89ad713fe64e35cda7d7567b8e84be4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "074000",
+          "transcript": "074000-energy-estimates-and-gronwall.md",
+          "related_resources": [
+            {
+              "source_id": "an-found24-074000-1",
+              "reason": "Supports definitions, statements, and worked examples in Energy Estimates and Gronwall: Turning Local Calculations into Global Bounds."
+            },
+            {
+              "source_id": "an-found24-074000-2",
+              "reason": "Supports definitions, statements, and worked examples in Energy Estimates and Gronwall: Turning Local Calculations into Global Bounds."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:075000",
+        "file": "075000-time-compactness-and-aubin-lions.md",
+        "sha256": "b0f1de9a284d71d8d3f6d2c8a8080479650416588e3f56117a3a267689474592",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "075000",
+          "transcript": "075000-time-compactness-and-aubin-lions.md",
+          "related_resources": [
+            {
+              "source_id": "an-found24-075000-1",
+              "reason": "Supports definitions, statements, and worked examples in Compactness in Space and Time: Passing to a Nonlinear Limit."
+            },
+            {
+              "source_id": "an-found24-075000-2",
+              "reason": "Supports definitions, statements, and worked examples in Compactness in Space and Time: Passing to a Nonlinear Limit."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:076000",
+        "file": "076000-direct-method-and-monotone-operators.md",
+        "sha256": "65daae8e33f8fbb1e2aa9632422c373f6be9c86ac524b3c14c8691b77ad56272",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "076000",
+          "transcript": "076000-direct-method-and-monotone-operators.md",
+          "related_resources": [
+            {
+              "source_id": "an-found24-076000-1",
+              "reason": "Supports definitions, statements, and worked examples in The Direct Method and Monotone Operators: Nonlinear Existence Without a Contraction."
+            },
+            {
+              "source_id": "an-found24-076000-2",
+              "reason": "Supports definitions, statements, and worked examples in The Direct Method and Monotone Operators: Nonlinear Existence Without a Contraction."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

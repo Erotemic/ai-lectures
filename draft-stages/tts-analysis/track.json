@@ -39,43 +39,11 @@
     "lp-duality",
     "bounded-operators",
     "hahn-banach-weak",
-    "baire-uniform-boundedness",
-    "adjoints-and-hilbert-duality",
-    "positive-operators",
-    "resolvents-spectrum",
-    "finite-matrix-functional-calculus",
-    "compact-continuous-spectrum",
     "continuous-functional-calculus",
-    "projection-valued-measures",
-    "borel-functional-calculus",
-    "unbounded-operator-domains",
-    "unbounded-functional-calculus",
-    "holomorphic-functional-calculus",
-    "spectral-evolution-applications",
-    "open-mapping-and-inverses",
-    "fredholm-compact-integral",
-    "radon-nikodym-and-riesz",
     "fourier-series-and-convolution",
-    "fourier-transforms-and-plancherel",
-    "frequency-localization",
-    "distributions",
-    "weak-derivatives-and-mollifiers",
-    "sobolev-spaces",
-    "weak-elliptic-problems",
-    "elliptic-regularity",
     "c0-semigroups-and-generators",
     "banach-algebras-and-gelfand",
-    "weak-star-compactness",
-    "sectorial-analytic-semigroups",
-    "sobolev-traces-boundaries",
-    "fractional-sobolev-littlewood-paley",
-    "interpolation-methods",
-    "nonlinear-product-estimates",
-    "fixed-point-local-existence",
-    "mild-solutions-and-duhamel",
-    "energy-gronwall-stability",
-    "aubin-lions-time-compactness",
-    "nonlinear-variational-methods"
+    "sobolev-traces-boundaries"
   ],
   "lectures": [
     {
@@ -422,345 +390,107 @@
     },
     {
       "id": "039000",
-      "title": "Hahn–Banach: Extending Measurements and Seeing Weak Convergence",
+      "title": "Weak measurements, bounded inverses, and representation",
       "section": "hahn-banach-weak",
-      "file": "039000-hahn-banach-and-weak-convergence.md",
-      "spoken_words": 1924,
+      "file": "039000-weak-measurements-bounded-inverses-and-representation.md",
+      "spoken_words": 6618,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 13.3
-    },
-    {
-      "id": "040000",
-      "title": "Baire Category and Uniform Boundedness: From Individual Control to a Common Bound",
-      "section": "baire-uniform-boundedness",
-      "file": "040000-baire-category-uniform-boundedness.md",
-      "spoken_words": 2048,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 14.1
-    },
-    {
-      "id": "041000",
-      "title": "Adjoints: Moving an Operator Across an Inner Product",
-      "section": "adjoints-and-hilbert-duality",
-      "file": "041000-adjoints-and-inner-product-geometry.md",
-      "spoken_words": 1058,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.3
-    },
-    {
-      "id": "042000",
-      "title": "Self-Adjoint and Positive Operators: The Geometry of Energy",
-      "section": "positive-operators",
-      "file": "042000-positivity-and-self-adjoint-operators.md",
-      "spoken_words": 1121,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.7
-    },
-    {
-      "id": "043000",
-      "title": "Spectra and Resolvents: What If an Operator Cannot Be Inverted?",
-      "section": "resolvents-spectrum",
-      "file": "043000-spectrum-resolvents-and-approximate-eigenvectors.md",
-      "spoken_words": 1040,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.2
-    },
-    {
-      "id": "044000",
-      "title": "Matrix Functions: Turning Scalar Formulas into Operator Formulas",
-      "section": "finite-matrix-functional-calculus",
-      "file": "044000-matrix-functions-from-eigenvectors.md",
-      "spoken_words": 1089,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.5
-    },
-    {
-      "id": "045000",
-      "title": "Compact Operators and Continuous Spectrum: Two Ways Infinity Enters",
-      "section": "compact-continuous-spectrum",
-      "file": "045000-compact-operators-and-continuous-spectrum.md",
-      "spoken_words": 1024,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.1
-    },
-    {
-      "id": "046000",
-      "title": "Continuous Functional Calculus: Build the Operator by Approximation",
-      "section": "continuous-functional-calculus",
-      "file": "046000-continuous-functional-calculus-from-approximation.md",
-      "spoken_words": 1093,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.5
-    },
-    {
-      "id": "047000",
-      "title": "Spectral Projections: Filtering an Operator by Frequency",
-      "section": "projection-valued-measures",
-      "file": "047000-spectral-projections-as-filters.md",
-      "spoken_words": 1124,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.8
-    },
-    {
-      "id": "048000",
-      "title": "Borel Functional Calculus: When a Function Has Jumps",
-      "section": "borel-functional-calculus",
-      "file": "048000-borel-functional-calculus-and-strong-limits.md",
-      "spoken_words": 1015,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.0
-    },
-    {
-      "id": "049000",
-      "title": "Unbounded Operators: Why the Domain Is Part of the Definition",
-      "section": "unbounded-operator-domains",
-      "file": "049000-unbounded-operators-and-their-domains.md",
-      "spoken_words": 1194,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.2
-    },
-    {
-      "id": "050000",
-      "title": "Unbounded Functional Calculus: A Formula with an Input Test",
-      "section": "unbounded-functional-calculus",
-      "file": "050000-unbounded-functional-calculus-and-spectral-integrals.md",
-      "spoken_words": 1218,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.4
-    },
-    {
-      "id": "051000",
-      "title": "Holomorphic Functional Calculus: Cauchy's Formula for Operators",
-      "section": "holomorphic-functional-calculus",
-      "file": "051000-holomorphic-functional-calculus-and-resolvents.md",
-      "spoken_words": 1060,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.3
-    },
-    {
-      "id": "052000",
-      "title": "Functional Calculus in Motion: Heat, Waves, and Quantum Evolution",
-      "section": "spectral-evolution-applications",
-      "file": "052000-functional-calculus-heat-waves-and-quantum-motion.md",
-      "spoken_words": 1236,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.5
-    },
-    {
-      "id": "053000",
-      "title": "Why a Bijective Operator Has a Bounded Inverse",
-      "section": "open-mapping-and-inverses",
-      "file": "053000-why-bijective-operators-have-bounded-inverses.md",
-      "spoken_words": 980,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.8
-    },
-    {
-      "id": "054000",
-      "title": "Compact Operators, Fredholm Alternatives, and Integral Equations",
-      "section": "fredholm-compact-integral",
-      "file": "054000-compactness-fredholm-and-integral-equations.md",
-      "spoken_words": 942,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
-    },
-    {
-      "id": "055000",
-      "title": "Radon–Nikodym and Riesz: When Measurements Have Densities",
-      "section": "radon-nikodym-and-riesz",
-      "file": "055000-measures-as-densities-and-linear-measurements.md",
-      "spoken_words": 1000,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.9
-    },
-    {
-      "id": "056000",
-      "title": "Fourier Series, Convolution, and the Shape of Approximation",
-      "section": "fourier-series-and-convolution",
-      "file": "056000-fourier-series-convolution-and-approximate-identities.md",
-      "spoken_words": 882,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.1
-    },
-    {
-      "id": "057000",
-      "title": "The Fourier Transform: Plancherel, Derivatives, and the Heat Equation",
-      "section": "fourier-transforms-and-plancherel",
-      "file": "057000-fourier-transform-plancherel-and-derivatives.md",
-      "spoken_words": 848,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.8
-    },
-    {
-      "id": "058000",
-      "title": "Frequency Localization: Why Derivatives Measure High Frequencies",
-      "section": "frequency-localization",
-      "file": "058000-frequency-localization-and-fourier-multipliers.md",
-      "spoken_words": 867,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.0
-    },
-    {
-      "id": "059000",
-      "title": "Distributions: Making Sense of Delta Functions and Rough Derivatives",
-      "section": "distributions",
-      "file": "059000-distributions-delta-functions-and-weak-derivatives.md",
-      "spoken_words": 949,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
-    },
-    {
-      "id": "060000",
-      "title": "Mollifiers and Weak Derivatives: Smooth Approximations to Rough Functions",
-      "section": "weak-derivatives-and-mollifiers",
-      "file": "060000-mollifiers-and-weak-derivatives.md",
-      "spoken_words": 881,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.1
-    },
-    {
-      "id": "061000",
-      "title": "Sobolev Spaces: Measuring Smoothness Without Pointwise Derivatives",
-      "section": "sobolev-spaces",
-      "file": "061000-sobolev-spaces-and-compactness.md",
-      "spoken_words": 896,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.2
-    },
-    {
-      "id": "062000",
-      "title": "A Differential Equation Without Second Derivatives: Weak Poisson Problems",
-      "section": "weak-elliptic-problems",
-      "file": "062000-weak-poisson-equations-and-lax-milgram.md",
-      "spoken_words": 869,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.0
-    },
-    {
-      "id": "063000",
-      "title": "Elliptic Regularity: Why Solutions Gain Derivatives",
-      "section": "elliptic-regularity",
-      "file": "063000-elliptic-regularity-and-fourier-parametrices.md",
-      "spoken_words": 878,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.1
-    },
-    {
-      "id": "064000",
-      "title": "Semigroups and Generators: Solving Time Evolution Beyond Self-Adjoint Operators",
-      "section": "c0-semigroups-and-generators",
-      "file": "064000-semigroups-generators-and-evolution.md",
-      "spoken_words": 945,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
+      "estimated_minutes_at_145_wpm": 45.6,
+      "consolidated_from": [
+        "039000",
+        "066000",
+        "040000",
+        "053000",
+        "055000"
+      ]
     },
     {
       "id": "065000",
-      "title": "Banach and C-Star Algebras: Where Functional Calculus Lives",
+      "title": "Operator algebra, adjoints, spectra, and Fredholm alternatives",
       "section": "banach-algebras-and-gelfand",
-      "file": "065000-banach-and-cstar-algebras.md",
-      "spoken_words": 716,
+      "file": "065000-operator-algebra-adjoints-spectra-and-fredholm-alternatives.md",
+      "spoken_words": 6997,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 4.9
+      "estimated_minutes_at_145_wpm": 48.3,
+      "consolidated_from": [
+        "065000",
+        "041000",
+        "042000",
+        "043000",
+        "044000",
+        "045000",
+        "054000"
+      ]
     },
     {
-      "id": "066000",
-      "title": "Weak and Weak-Star Convergence: Compactness Without Norm Convergence",
-      "section": "weak-star-compactness",
-      "file": "066000-weak-and-weakstar-compactness.md",
-      "spoken_words": 660,
+      "id": "046000",
+      "title": "Continuous and measurable calculus, domains, and evolution",
+      "section": "continuous-functional-calculus",
+      "file": "046000-continuous-and-measurable-calculus-domains-and-evolution.md",
+      "spoken_words": 7947,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 4.6
+      "estimated_minutes_at_145_wpm": 54.8,
+      "consolidated_from": [
+        "046000",
+        "047000",
+        "048000",
+        "049000",
+        "050000",
+        "051000",
+        "052000"
+      ]
     },
     {
-      "id": "067000",
-      "title": "Sectorial Operators: Why Diffusion Smooths Immediately",
-      "section": "sectorial-analytic-semigroups",
-      "file": "067000-sectorial-operators-and-analytic-semigroups.md",
-      "spoken_words": 675,
+      "id": "056000",
+      "title": "Fourier approximation, rough derivatives, and weak solutions",
+      "section": "fourier-series-and-convolution",
+      "file": "056000-fourier-approximation-rough-derivatives-and-weak-solutions.md",
+      "spoken_words": 7077,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 4.7
+      "estimated_minutes_at_145_wpm": 48.8,
+      "consolidated_from": [
+        "056000",
+        "057000",
+        "058000",
+        "059000",
+        "060000",
+        "061000",
+        "062000",
+        "063000"
+      ]
+    },
+    {
+      "id": "064000",
+      "title": "Semigroups, smoothing, and nonlinear existence",
+      "section": "c0-semigroups-and-generators",
+      "file": "064000-semigroups-smoothing-and-nonlinear-existence.md",
+      "spoken_words": 5343,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 36.8,
+      "consolidated_from": [
+        "064000",
+        "067000",
+        "072000",
+        "073000",
+        "074000",
+        "075000",
+        "076000"
+      ]
     },
     {
       "id": "068000",
-      "title": "Sobolev Traces: How a Rough Function Reaches the Boundary",
+      "title": "Boundary traces, fractional norms, and nonlinear products",
       "section": "sobolev-traces-boundaries",
-      "file": "068000-sobolev-traces-and-boundary-data.md",
-      "spoken_words": 715,
+      "file": "068000-boundary-traces-fractional-norms-and-nonlinear-products.md",
+      "spoken_words": 3011,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 4.9
-    },
-    {
-      "id": "069000",
-      "title": "Fractional Smoothness and Littlewood–Paley Frequency Blocks",
-      "section": "fractional-sobolev-littlewood-paley",
-      "file": "069000-fractional-sobolev-and-frequency-blocks.md",
-      "spoken_words": 782,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.4
-    },
-    {
-      "id": "070000",
-      "title": "Interpolation: Estimates Between the Norms We Already Know",
-      "section": "interpolation-methods",
-      "file": "070000-interpolation-and-estimates-between-spaces.md",
-      "spoken_words": 726,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.0
-    },
-    {
-      "id": "071000",
-      "title": "Nonlinear Products in Sobolev Spaces: When Multiplication Is Safe",
-      "section": "nonlinear-product-estimates",
-      "file": "071000-nonlinear-products-and-compositions.md",
-      "spoken_words": 781,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.4
-    },
-    {
-      "id": "072000",
-      "title": "Banach Fixed Points and Picard Iteration: Constructing a Solution",
-      "section": "fixed-point-local-existence",
-      "file": "072000-contractions-and-picard-iteration.md",
-      "spoken_words": 743,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.1
-    },
-    {
-      "id": "073000",
-      "title": "Duhamel’s Formula: Solving a Nonlinear Equation with a Linear Flow",
-      "section": "mild-solutions-and-duhamel",
-      "file": "073000-duhamel-and-semilinear-evolution.md",
-      "spoken_words": 755,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.2
-    },
-    {
-      "id": "074000",
-      "title": "Energy Estimates and Gronwall: Turning Local Calculations into Global Bounds",
-      "section": "energy-gronwall-stability",
-      "file": "074000-energy-estimates-and-gronwall.md",
-      "spoken_words": 764,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.3
-    },
-    {
-      "id": "075000",
-      "title": "Compactness in Space and Time: Passing to a Nonlinear Limit",
-      "section": "aubin-lions-time-compactness",
-      "file": "075000-time-compactness-and-aubin-lions.md",
-      "spoken_words": 739,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.1
-    },
-    {
-      "id": "076000",
-      "title": "The Direct Method and Monotone Operators: Nonlinear Existence Without a Contraction",
-      "section": "nonlinear-variational-methods",
-      "file": "076000-direct-method-and-monotone-operators.md",
-      "spoken_words": 717,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 4.9
+      "estimated_minutes_at_145_wpm": 20.8,
+      "consolidated_from": [
+        "068000",
+        "069000",
+        "070000",
+        "071000"
+      ]
     }
   ]
 }

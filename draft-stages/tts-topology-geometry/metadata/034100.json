@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "034100",
-  "transcript": "034100-yang-mills-energy-and-instanton-charge.md",
+  "transcript": "034100-yang-mills-energy-small-energy-gauges-bubbling-and-compactness.md",
   "related_resources": [
     {
       "source_id": "tg-freed-uhlenbeck",
@@ -10,7 +10,141 @@
     {
       "source_id": "tg-uhlenbeck-lp",
       "reason": "Why small-energy gauges enter compactness theory."
+    },
+    {
+      "source_id": "tg-uhlenbeck-lp",
+      "reason": "Original local gauge theorem and weak compactness conditions."
+    },
+    {
+      "source_id": "tg-freed-uhlenbeck",
+      "reason": "Four-dimensional Yang-Mills compactness."
+    },
+    {
+      "source_id": "tg-uhlenbeck-removable",
+      "reason": "Original Yang-Mills removable-singularity theorem."
+    },
+    {
+      "source_id": "tg-uhlenbeck-lp",
+      "reason": "Original curvature-norm gauge theorem."
+    },
+    {
+      "source_id": "tg-freed-uhlenbeck",
+      "reason": "Bubbling and compactification of instanton moduli."
+    },
+    {
+      "source_id": "tg-r18-035000-1",
+      "reason": "Reference on Uhlenbeck Compactness: Where Instanton Energy Goes (1 of 3)"
+    },
+    {
+      "source_id": "tg-r18-035000-2",
+      "reason": "Reference on Uhlenbeck Compactness: Where Instanton Energy Goes (2 of 3)"
+    },
+    {
+      "source_id": "tg-r18-035000-3",
+      "reason": "Reference on Uhlenbeck Compactness: Where Instanton Energy Goes (3 of 3)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:034100",
+        "file": "034100-yang-mills-energy-and-instanton-charge.md",
+        "sha256": "5d480f2681aa06f1358cc6f49442a482ca15bdd9de5d7367e075f35612b99970",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "034100",
+          "transcript": "034100-yang-mills-energy-and-instanton-charge.md",
+          "related_resources": [
+            {
+              "source_id": "tg-freed-uhlenbeck",
+              "reason": "Topological Yang-Mills energy bound and instanton charge."
+            },
+            {
+              "source_id": "tg-uhlenbeck-lp",
+              "reason": "Why small-energy gauges enter compactness theory."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:034200",
+        "file": "034200-small-energy-coulomb-gauges-and-weak-compactness.md",
+        "sha256": "9ca5df6b0160b08ecda307c8fb30b953b852db457ed4926c6cd8ac2e65d96a74",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "034200",
+          "transcript": "034200-small-energy-coulomb-gauges-and-weak-compactness.md",
+          "related_resources": [
+            {
+              "source_id": "tg-uhlenbeck-lp",
+              "reason": "Original local gauge theorem and weak compactness conditions."
+            },
+            {
+              "source_id": "tg-freed-uhlenbeck",
+              "reason": "Four-dimensional Yang-Mills compactness."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:034300",
+        "file": "034300-bubbling-energy-quantization-and-removable-singularities.md",
+        "sha256": "f7242868abb61219ce1ed0c700a28910f890e706d5ffc15a5350787ff040e115",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "034300",
+          "transcript": "034300-bubbling-energy-quantization-and-removable-singularities.md",
+          "related_resources": [
+            {
+              "source_id": "tg-uhlenbeck-removable",
+              "reason": "Original Yang-Mills removable-singularity theorem."
+            },
+            {
+              "source_id": "tg-uhlenbeck-lp",
+              "reason": "Original curvature-norm gauge theorem."
+            },
+            {
+              "source_id": "tg-freed-uhlenbeck",
+              "reason": "Bubbling and compactification of instanton moduli."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:035000",
+        "file": "035000-uhlenbeck-compactness-and-instanton-bubbling.md",
+        "sha256": "7f665fbbd65c7e8b6813b163ed92496db688f3c6bb650af0c75eeb9302a8c5fb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "035000",
+          "transcript": "035000-uhlenbeck-compactness-and-instanton-bubbling.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r18-035000-1",
+              "reason": "Reference on Uhlenbeck Compactness: Where Instanton Energy Goes (1 of 3)"
+            },
+            {
+              "source_id": "tg-r18-035000-2",
+              "reason": "Reference on Uhlenbeck Compactness: Where Instanton Energy Goes (2 of 3)"
+            },
+            {
+              "source_id": "tg-r18-035000-3",
+              "reason": "Reference on Uhlenbeck Compactness: Where Instanton Energy Goes (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

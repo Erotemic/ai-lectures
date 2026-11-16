@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "000000",
-  "transcript": "000000-course-introduction.md",
+  "transcript": "000000-why-spectral-subspaces-move-eigenvalues-eigenspaces-and-residuals.md",
   "historical_claims": [
     {
       "id": "000000-h01",
@@ -48,6 +48,167 @@
     {
       "source_id": "wiki-pca",
       "reason": "Application context for perturbed invariant subspaces and spectral estimators."
+    },
+    {
+      "source_id": "wiki-eigenvalue-perturbation",
+      "reason": "Explore small-matrix eigenvalue and eigenvector sensitivity before subspace estimates."
+    },
+    {
+      "source_id": "wiki-weyl-inequality",
+      "reason": "Read the Hermitian matrix eigenvalue displacement bound derived from the min–max principle."
+    },
+    {
+      "source_id": "wiki-spectral-gap",
+      "reason": "Review how a gap separates spectral clusters and why a collision disrupts a selected eigenspace."
+    },
+    {
+      "source_id": "higham-eigen-ineq",
+      "reason": "Concise matrix-level comparison of Rayleigh quotients and eigenvalue inequalities."
+    },
+    {
+      "source_id": "davis-kahan-1970",
+      "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+    },
+    {
+      "source_id": "hsu-dk-notes",
+      "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+    },
+    {
+      "source_id": "bindel-eigen-perturbation",
+      "reason": "Study concrete perturbation examples and first-order spectral sensitivity."
+    },
+    {
+      "source_id": "bindel-hermitian-svd",
+      "reason": "Review a computational proof of symmetric eigenvalue and singular-value properties."
+    },
+    {
+      "source_id": "wiki-eigen-perturbation-extra",
+      "reason": "Examples of eigenvalue derivatives and dependence of eigenvectors on perturbations."
+    },
+    {
+      "source_id": "wiki-complexification",
+      "reason": "Extending scalars from real to complex vector spaces; the lecture also covers Hilbert norms and operator adjoints."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Separate the accessible motivating overview from the advanced proof capstone; compose inherited arguments, retain companions and source metadata, and edit repeated opening/transitional prose.",
+    "sources": [
+      {
+        "id": "g2:000000",
+        "file": "000000-course-introduction.md",
+        "sha256": "b97d72b41b99e041b5553faad7474bd92bcfabca9cf7c8bf16f21b0c80338d69",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "000000",
+          "transcript": "000000-course-introduction.md",
+          "historical_claims": [
+            {
+              "id": "000000-h01",
+              "anchor": "Davis and Kahan developed methods for controlling how spectral subspaces move when the underlying operator is perturbed.",
+              "kind": "historical_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Paper abstract",
+              "audit_status": "pending_primary_passage_comparison"
+            },
+            {
+              "id": "000000-h02",
+              "anchor": "Davis and Kahan also studied unitarily invariant norms, whose value is unchanged by unitary changes of coordinates.",
+              "kind": "historical_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Norm treatment; check section",
+              "audit_status": "pending_primary_passage_comparison"
+            },
+            {
+              "id": "000000-h03",
+              "anchor": "The original 1970 paper contains a broad claim about unsquared whole-space displacement that is false.",
+              "kind": "source_scope",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Proposition 4.4; compare the corrected four-dimensional counterexample",
+              "audit_status": "pending_primary_passage_comparison"
+            },
+            {
+              "id": "000000-h04",
+              "anchor": "Section ten of the 1970 paper raises questions that reach beyond the estimates established there.",
+              "kind": "source_scope",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Section 10, questions and problems",
+              "audit_status": "pending_primary_passage_comparison"
+            }
+          ],
+          "related_resources": [
+            {
+              "source_id": "wiki-pca",
+              "reason": "Application context for perturbed invariant subspaces and spectral estimators."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:106000",
+        "file": "106000-what-changes-and-what-stays-invariant.md",
+        "sha256": "be11534291df57a8379e25f1ed49f1ce599753a1af9dc3b676f985bb877e62f3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "106000",
+          "transcript": "106000-what-changes-and-what-stays-invariant.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-eigenvalue-perturbation",
+              "reason": "Explore small-matrix eigenvalue and eigenvector sensitivity before subspace estimates."
+            },
+            {
+              "source_id": "wiki-weyl-inequality",
+              "reason": "Read the Hermitian matrix eigenvalue displacement bound derived from the min–max principle."
+            },
+            {
+              "source_id": "wiki-spectral-gap",
+              "reason": "Review how a gap separates spectral clusters and why a collision disrupts a selected eigenspace."
+            },
+            {
+              "source_id": "higham-eigen-ineq",
+              "reason": "Concise matrix-level comparison of Rayleigh quotients and eigenvalue inequalities."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "hsu-dk-notes",
+              "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+            },
+            {
+              "source_id": "bindel-eigen-perturbation",
+              "reason": "Study concrete perturbation examples and first-order spectral sensitivity."
+            },
+            {
+              "source_id": "bindel-hermitian-svd",
+              "reason": "Review a computational proof of symmetric eigenvalue and singular-value properties."
+            },
+            {
+              "source_id": "wiki-eigen-perturbation-extra",
+              "reason": "Examples of eigenvalue derivatives and dependence of eigenvectors on perturbations."
+            },
+            {
+              "source_id": "wiki-complexification",
+              "reason": "Extending scalars from real to complex vector spaces; the lecture also covers Hilbert norms and operator adjoints."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

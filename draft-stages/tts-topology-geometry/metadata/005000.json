@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "005000",
-  "transcript": "005000-homotopy-and-path-deformations.md",
+  "transcript": "005000-paths-winding-and-covering-spaces.md",
   "related_resources": [
     {
       "source_id": "tg-hatcher",
@@ -10,7 +10,80 @@
     {
       "source_id": "tg-mit18901",
       "reason": "Continuity, quotient spaces and path connectedness."
+    },
+    {
+      "source_id": "tg-hatcher",
+      "reason": "Circle fundamental group, covering maps and winding number."
+    },
+    {
+      "source_id": "tg-hatcher",
+      "reason": "Covering maps, path and homotopy lifting, subgroup classification."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:005000",
+        "file": "005000-homotopy-and-path-deformations.md",
+        "sha256": "5618fa6462a28d553b50a710e8f04a97b932261171ebf0d815f06f76c1ba42cf",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-homotopy-and-path-deformations.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher",
+              "reason": "Path homotopy, fundamental groups and homotopy invariance."
+            },
+            {
+              "source_id": "tg-mit18901",
+              "reason": "Continuity, quotient spaces and path connectedness."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:006000",
+        "file": "006000-fundamental-group-of-circle.md",
+        "sha256": "ce8206ccdedb9d3c0e5159fd697df17adbb12392401204678fb01a89dc29e6aa",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-fundamental-group-of-circle.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher",
+              "reason": "Circle fundamental group, covering maps and winding number."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:007000",
+        "file": "007000-covering-spaces-and-lifting.md",
+        "sha256": "d5f036290d9483bdea6beb7ada164b285b122a7aaeb2b369b271aa9ccae1bdbd",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-covering-spaces-and-lifting.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher",
+              "reason": "Covering maps, path and homotopy lifting, subgroup classification."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

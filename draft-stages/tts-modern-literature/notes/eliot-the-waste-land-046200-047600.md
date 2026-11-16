@@ -1,5 +1,7 @@
 # Eliot, *The Waste Land*: literary landmark (046200–047600)
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## Listening order and shape
 
 This is an extended **poetry** section, not a novel retelling or a performed reading of Eliot’s poem. First come an accessible listening guide and five self-contained, complete movement-by-movement orientations. Nine analytical lectures follow: montage and voice; sound and prosody; ritual and mythic method; women and coercive relations; London, class, empire and trade; cross-tradition religious references; composition and publication; close-reading practice; reception and influence. A listener may follow these without prior reading, though side-by-side access to a legitimately obtained poem makes the close-reading workshop more useful. The manuscripts are original explanatory prose and do **not** reproduce the poem or create an audio book of it.

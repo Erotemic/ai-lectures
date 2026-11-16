@@ -1,5 +1,7 @@
 # Agent A — Three more story-before-analysis pairs
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 This addition works only in `draft-stages/tts-modern-literature/`. Original manuscripts and analysis remain in place and keep their stable IDs. Three new works are each given one continuous, original plot orientation and one analytical lecture. No duration or word-count target has been imposed.
 
 | Story ID | Analysis ID | Work | Coverage gained |

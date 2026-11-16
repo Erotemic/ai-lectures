@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-how-a-wooden-house-carries-load.md",
+  "transcript": "001000-build-continuous-load-paths-in-real-wood.md",
   "related_resources": [
     {
       "source_id": "usda-wood",
@@ -10,6 +10,26 @@
     {
       "source_id": "awc-wfcm",
       "reason": "Structural load-path and connection design reference, with prescribed scope limits"
+    },
+    {
+      "source_id": "usda-drying",
+      "reason": "Moisture content, equilibrium, shrinkage and storage"
+    },
+    {
+      "source_id": "awc-wfcm",
+      "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+    },
+    {
+      "source_id": "pnnl-loadpath",
+      "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+    },
+    {
+      "source_id": "awc-span-tutorial",
+      "reason": "Floor and roof load paths, stiffness, joist/rafter span assumptions and deflection"
+    },
+    {
+      "source_id": "rammer-fastenings",
+      "reason": "Wood connections, nails, screws, lateral and withdrawal capacity, joist hangers"
     }
   ],
   "historical_claims": [],
@@ -68,8 +88,835 @@
       "verification_level": "public_source_identified_editorial_check_pending",
       "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
       "professional_review": "pending"
+    },
+    {
+      "claim_id": "P002000-01",
+      "claim": "Wood tends toward moisture equilibrium with surrounding humidity and temperature.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Wood Handbook Chapters 4 and 13",
+          "role": "reference"
+        },
+        {
+          "source_id": "usda-drying",
+          "location": "Wood Handbook Chapters 4 and 13",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-02",
+      "claim": "Dimensional changes differ across wood grain directions.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Drying, shrinkage and physical properties",
+          "role": "reference"
+        },
+        {
+          "source_id": "usda-drying",
+          "location": "Drying, shrinkage and physical properties",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-03",
+      "claim": "Species, stress grade and moisture designation are separate parts of structural lumber specification.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Wood Handbook Chapters 6 and 7; wood frame construction",
+          "role": "reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Wood Handbook Chapters 6 and 7; wood frame construction",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-04",
+      "claim": "Wood moisture content is conventionally expressed as water mass over oven-dry wood mass.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Wood Handbook moisture definition",
+          "role": "reference"
+        },
+        {
+          "source_id": "usda-drying",
+          "location": "Wood Handbook moisture definition",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P003000-01",
+      "claim": "Plumb and level reference gravity while square denotes a right angle; they are distinct geometric conditions.",
+      "kind": "derived_geometry_not_source_specific",
+      "supports": [
+        {
+          "source_id": "awc-wfcm",
+          "location": "General construction-geometry synthesis; AWC used for framing context only",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Mathematical deduction or author synthesis; cited source supplies context, not direct wording.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P003000-02",
+      "claim": "The 3–4–5 triangle is a right-angle construction; diagonal checks are useful with verified frame dimensions and planarity.",
+      "kind": "derived_mathematics",
+      "supports": [
+        {
+          "source_id": "awc-wfcm",
+          "location": "Elementary Pythagorean derivation; not a direct AWC claim",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Mathematical deduction or author synthesis; cited source supplies context, not direct wording.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P003000-03",
+      "claim": "Wood dimensional changes and warping can undermine finished geometry.",
+      "kind": "materials_science",
+      "supports": [
+        {
+          "source_id": "usda-drying",
+          "location": "2021 Wood Handbook chapter 13 moisture and dimensional change",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-wood",
+          "location": "2021 Wood Handbook chapter 13 moisture and dimensional change",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P004000-01",
+      "claim": "Gravity loads at openings can be transferred by headers to supporting studs and the structure below.",
+      "kind": "structural_mechanism",
+      "supports": [
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Loads around openings; AWC Wood Frame Construction Manual scope",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Loads around openings; AWC Wood Frame Construction Manual scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-02",
+      "claim": "A continuous load path includes connections carrying both downward and lateral/uplift actions to the foundation.",
+      "kind": "structural_mechanism",
+      "supports": [
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Continuous Load Path scope/description and wood-framed prescriptions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Continuous Load Path scope/description and wood-framed prescriptions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-03",
+      "claim": "Alterations to bearing or lateral-force-resisting walls require checking more than the replacement beam size.",
+      "kind": "design_scope",
+      "supports": [
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Discussion of connections, progressive failure and openings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-01",
+      "claim": "Joist/rafter sizing depends on structural loads, span, species or grade, spacing and serviceability limits.",
+      "kind": "structural_principle",
+      "supports": [
+        {
+          "source_id": "awc-span-tutorial",
+          "location": "AWC Span Table Tutorial, Factors That Influence and floor/rafter steps",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "AWC Span Table Tutorial, Factors That Influence and floor/rafter steps",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "Structural stiffness and strength are separate requirements; deflection can matter without collapse.",
+      "kind": "structural_principle",
+      "supports": [
+        {
+          "source_id": "awc-span-tutorial",
+          "location": "Residential Loading: strength versus deflection, L/360 examples",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "Continuous support and connection paths matter for roof and floor gravity/lateral loads.",
+      "kind": "structural_principle",
+      "supports": [
+        {
+          "source_id": "awc-span-tutorial",
+          "location": "AWC Pulling It All Together and PNNL load path scope",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "AWC Pulling It All Together and PNNL load path scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-01",
+      "claim": "Structural wood connections depend on fastener type, geometry, grain orientation and joint design.",
+      "kind": "wood_structural_design",
+      "supports": [
+        {
+          "source_id": "rammer-fastenings",
+          "location": "Abstract: fasteners and joint design adapted to wood properties",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-02",
+      "claim": "A complete structural load path requires appropriate member-to-member connections from roof to foundation.",
+      "kind": "structural_load_path",
+      "supports": [
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Resource guide: continuous load path from roof through wall to foundation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-03",
+      "claim": "Joist hangers and similar engineered connectors require specified installation details to achieve published capacities.",
+      "kind": "derived_connector_practice",
+      "supports": [
+        {
+          "source_id": "rammer-fastenings",
+          "location": "Wood Handbook: joist hanger/fasteners; AWC frame-construction manual; author synthesis",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Wood Handbook: joist hanger/fasteners; AWC frame-construction manual; author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
     }
   ],
   "editorial_status": "educational_draft_sources_recorded_not_field_validated",
-  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-carpentry:001000",
+        "file": "001000-how-a-wooden-house-carries-load.md",
+        "sha256": "cc47a2de328ba92a766d1204e1d2002e9cf5a54a581d85776aea235123a2baf1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-how-a-wooden-house-carries-load.md",
+          "related_resources": [
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+            },
+            {
+              "source_id": "awc-wfcm",
+              "reason": "Structural load-path and connection design reference, with prescribed scope limits"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P001000-01",
+              "claim": "Wood properties and movement depend on grain and moisture",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-02",
+              "claim": "Structural member behavior depends on load direction and cross section",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Design scope, engineered and prescriptive provisions for connections, floor, wall, roof systems",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-03",
+              "claim": "Fastener performance depends on connection geometry",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Design scope, engineered and prescriptive provisions for connections, floor, wall, roof systems",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            }
+          ],
+          "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+          "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+        }
+      },
+      {
+        "id": "trades-carpentry:002000",
+        "file": "002000-wood-moisture-grain-species-and-grades.md",
+        "sha256": "4606e1ca7ee03a2c664173921cc34a147ab803a8dbc0c1dfed905995bd2e4617",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-wood-moisture-grain-species-and-grades.md",
+          "related_resources": [
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+            },
+            {
+              "source_id": "usda-drying",
+              "reason": "Moisture content, equilibrium, shrinkage and storage"
+            },
+            {
+              "source_id": "awc-wfcm",
+              "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P002000-01",
+              "claim": "Wood tends toward moisture equilibrium with surrounding humidity and temperature.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Wood Handbook Chapters 4 and 13",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "usda-drying",
+                  "location": "Wood Handbook Chapters 4 and 13",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-02",
+              "claim": "Dimensional changes differ across wood grain directions.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Drying, shrinkage and physical properties",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "usda-drying",
+                  "location": "Drying, shrinkage and physical properties",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-03",
+              "claim": "Species, stress grade and moisture designation are separate parts of structural lumber specification.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Wood Handbook Chapters 6 and 7; wood frame construction",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Wood Handbook Chapters 6 and 7; wood frame construction",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-04",
+              "claim": "Wood moisture content is conventionally expressed as water mass over oven-dry wood mass.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Wood Handbook moisture definition",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "usda-drying",
+                  "location": "Wood Handbook moisture definition",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+        }
+      },
+      {
+        "id": "trades-carpentry:003000",
+        "file": "003000-layout-plumb-level-and-square.md",
+        "sha256": "472c9a2da596c3c5fd1fafe89a404595e2d681764ca4aa3c2a23745fb99477e6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-layout-plumb-level-and-square.md",
+          "related_resources": [
+            {
+              "source_id": "awc-wfcm",
+              "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+            },
+            {
+              "source_id": "usda-drying",
+              "reason": "Moisture content, equilibrium, shrinkage and storage"
+            },
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P003000-01",
+              "claim": "Plumb and level reference gravity while square denotes a right angle; they are distinct geometric conditions.",
+              "kind": "derived_geometry_not_source_specific",
+              "supports": [
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "General construction-geometry synthesis; AWC used for framing context only",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Mathematical deduction or author synthesis; cited source supplies context, not direct wording.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-02",
+              "claim": "The 3–4–5 triangle is a right-angle construction; diagonal checks are useful with verified frame dimensions and planarity.",
+              "kind": "derived_mathematics",
+              "supports": [
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Elementary Pythagorean derivation; not a direct AWC claim",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Mathematical deduction or author synthesis; cited source supplies context, not direct wording.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-03",
+              "claim": "Wood dimensional changes and warping can undermine finished geometry.",
+              "kind": "materials_science",
+              "supports": [
+                {
+                  "source_id": "usda-drying",
+                  "location": "2021 Wood Handbook chapter 13 moisture and dimensional change",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usda-wood",
+                  "location": "2021 Wood Handbook chapter 13 moisture and dimensional change",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+        }
+      },
+      {
+        "id": "trades-carpentry:004000",
+        "file": "004000-framing-walls-and-openings-as-load-paths.md",
+        "sha256": "f580249bae6e977ae88f7e4e13b185d92993ba5e89da4344dafd2f5349c9d8e0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-framing-walls-and-openings-as-load-paths.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-loadpath",
+              "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+            },
+            {
+              "source_id": "awc-wfcm",
+              "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P004000-01",
+              "claim": "Gravity loads at openings can be transferred by headers to supporting studs and the structure below.",
+              "kind": "structural_mechanism",
+              "supports": [
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "Loads around openings; AWC Wood Frame Construction Manual scope",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Loads around openings; AWC Wood Frame Construction Manual scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-02",
+              "claim": "A continuous load path includes connections carrying both downward and lateral/uplift actions to the foundation.",
+              "kind": "structural_mechanism",
+              "supports": [
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "Continuous Load Path scope/description and wood-framed prescriptions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Continuous Load Path scope/description and wood-framed prescriptions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-03",
+              "claim": "Alterations to bearing or lateral-force-resisting walls require checking more than the replacement beam size.",
+              "kind": "design_scope",
+              "supports": [
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "Discussion of connections, progressive failure and openings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design."
+        }
+      },
+      {
+        "id": "trades-carpentry:005000",
+        "file": "005000-floor-and-roof-systems.md",
+        "sha256": "3ae7443c4b0e9a0fec92a5cd72bd0e79eba79136c5ea358875bba9ea27dcb6d7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-floor-and-roof-systems.md",
+          "related_resources": [
+            {
+              "source_id": "awc-span-tutorial",
+              "reason": "Floor and roof load paths, stiffness, joist/rafter span assumptions and deflection"
+            },
+            {
+              "source_id": "awc-wfcm",
+              "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+            },
+            {
+              "source_id": "pnnl-loadpath",
+              "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P005000-01",
+              "claim": "Joist/rafter sizing depends on structural loads, span, species or grade, spacing and serviceability limits.",
+              "kind": "structural_principle",
+              "supports": [
+                {
+                  "source_id": "awc-span-tutorial",
+                  "location": "AWC Span Table Tutorial, Factors That Influence and floor/rafter steps",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "AWC Span Table Tutorial, Factors That Influence and floor/rafter steps",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-02",
+              "claim": "Structural stiffness and strength are separate requirements; deflection can matter without collapse.",
+              "kind": "structural_principle",
+              "supports": [
+                {
+                  "source_id": "awc-span-tutorial",
+                  "location": "Residential Loading: strength versus deflection, L/360 examples",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-03",
+              "claim": "Continuous support and connection paths matter for roof and floor gravity/lateral loads.",
+              "kind": "structural_principle",
+              "supports": [
+                {
+                  "source_id": "awc-span-tutorial",
+                  "location": "AWC Pulling It All Together and PNNL load path scope",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "AWC Pulling It All Together and PNNL load path scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+        }
+      },
+      {
+        "id": "trades-carpentry:006000",
+        "file": "006000-nails-screws-connectors-and-load-transfer.md",
+        "sha256": "114ba56ed5d2950d25fa4adefa2efae2103ebfb572c94b6d6ab2de45e5b4c9bc",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-nails-screws-connectors-and-load-transfer.md",
+          "related_resources": [
+            {
+              "source_id": "rammer-fastenings",
+              "reason": "Wood connections, nails, screws, lateral and withdrawal capacity, joist hangers"
+            },
+            {
+              "source_id": "pnnl-loadpath",
+              "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+            },
+            {
+              "source_id": "awc-wfcm",
+              "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P006000-01",
+              "claim": "Structural wood connections depend on fastener type, geometry, grain orientation and joint design.",
+              "kind": "wood_structural_design",
+              "supports": [
+                {
+                  "source_id": "rammer-fastenings",
+                  "location": "Abstract: fasteners and joint design adapted to wood properties",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-02",
+              "claim": "A complete structural load path requires appropriate member-to-member connections from roof to foundation.",
+              "kind": "structural_load_path",
+              "supports": [
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "Resource guide: continuous load path from roof through wall to foundation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-03",
+              "claim": "Joist hangers and similar engineered connectors require specified installation details to achieve published capacities.",
+              "kind": "derived_connector_practice",
+              "supports": [
+                {
+                  "source_id": "rammer-fastenings",
+                  "location": "Wood Handbook: joist hanger/fasteners; AWC frame-construction manual; author synthesis",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Wood Handbook: joist hanger/fasteners; AWC frame-construction manual; author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "001000-build-continuous-load-paths-in-real-wood.md"
+      ],
+      "joined_before_source_parts": [
+        "002000",
+        "004000"
+      ]
+    }
+  ]
 }

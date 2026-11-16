@@ -10,399 +10,180 @@
   ],
   "sections": [
     "bijections-and-counting",
-    "inclusion-exclusion",
-    "generating-functions",
-    "recurrences-and-growth",
     "graphs-trees-and-cycles",
-    "matchings-and-hall",
-    "flows-cuts-and-integrality",
-    "polya-enumeration",
     "matroids-greedy",
-    "extremal-graphs",
     "probabilistic-method",
-    "coloring-planarity",
     "submodularity-matroid-intersection",
     "ramsey-theory",
-    "spectral-graph-expansion",
-    "random-graph-thresholds",
-    "graph-minors-treewidth",
     "entropy-shearer-counting",
-    "random-connectivity",
     "designs-codes",
     "parameterized-algorithms",
-    "concentration-martingales",
-    "expander-constructions",
-    "coding-bounds",
-    "extremal-sets-sunflowers",
-    "randomized-rounding",
-    "vc-dimension-sauer-shelah",
-    "discrepancy-partial-coloring",
-    "epsilon-nets-uniform-convergence",
-    "constructive-discrepancy",
     "property-testing",
-    "extractors-and-generators",
-    "hypergraph-containers",
-    "boolean-fourier-analysis",
-    "hypercontractivity-influences",
     "local-correction-list-decoding",
-    "small-bias-derandomization",
-    "sharp-thresholds-tribes",
-    "polynomial-codes-local-testing",
     "hypergraph-matchings-absorption",
-    "additive-fourier-uniformity",
     "quasirandom-four-cycles"
   ],
   "lectures": [
     {
       "id": "001000",
-      "title": "Bijections and Double Counting: Proving Equations by Counting Objects",
+      "title": "Counting, generating functions, and symmetry orbits",
       "section": "bijections-and-counting",
-      "file": "001000-bijections-and-double-counting.md",
-      "spoken_words": 1430,
+      "file": "001000-counting-generating-functions-and-symmetry-orbits.md",
+      "spoken_words": 6596,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.9
-    },
-    {
-      "id": "002000",
-      "title": "Inclusion–Exclusion: Counting When Cases Overlap",
-      "section": "inclusion-exclusion",
-      "file": "002000-inclusion-exclusion-and-derangements.md",
-      "spoken_words": 1466,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 10.1
-    },
-    {
-      "id": "003000",
-      "title": "Generating Functions: Turn Counting into Algebra",
-      "section": "generating-functions",
-      "file": "003000-generating-functions.md",
-      "spoken_words": 1361,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.4
-    },
-    {
-      "id": "004000",
-      "title": "Recurrences, Rational Generating Functions, and Growth",
-      "section": "recurrences-and-growth",
-      "file": "004000-recurrences-and-rational-generating-functions.md",
-      "spoken_words": 1231,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.5
+      "estimated_minutes_at_145_wpm": 45.5,
+      "consolidated_from": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "008000"
+      ]
     },
     {
       "id": "005000",
-      "title": "Graphs, Trees, and the Structure of Cycles",
+      "title": "Graphs, matchings, and flow certificates",
       "section": "graphs-trees-and-cycles",
-      "file": "005000-graphs-trees-and-cycle-structure.md",
-      "spoken_words": 1241,
+      "file": "005000-graphs-matchings-and-flow-certificates.md",
+      "spoken_words": 3879,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.6
-    },
-    {
-      "id": "006000",
-      "title": "Matchings and Hall's Marriage Theorem",
-      "section": "matchings-and-hall",
-      "file": "006000-hall-marriage-theorem-and-matchings.md",
-      "spoken_words": 1316,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.1
-    },
-    {
-      "id": "007000",
-      "title": "Flows and Cuts: A Combinatorial Equality with Two Certificates",
-      "section": "flows-cuts-and-integrality",
-      "file": "007000-flows-cuts-and-integrality.md",
-      "spoken_words": 1317,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.1
-    },
-    {
-      "id": "008000",
-      "title": "Pólya Enumeration: Counting Colorings without Double-Counting Symmetry",
-      "section": "polya-enumeration",
-      "file": "008000-polya-enumeration-and-cycle-indices.md",
-      "spoken_words": 1090,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.5
+      "estimated_minutes_at_145_wpm": 26.8,
+      "consolidated_from": [
+        "005000",
+        "006000",
+        "007000"
+      ]
     },
     {
       "id": "009000",
-      "title": "Matroids: Why Some Greedy Algorithms Are Exactly Right",
+      "title": "Greedy graph structure, extremal bounds, and coloring",
       "section": "matroids-greedy",
-      "file": "009000-matroids-and-greedy-optimality.md",
-      "spoken_words": 1180,
+      "file": "009000-greedy-graph-structure-extremal-bounds-and-coloring.md",
+      "spoken_words": 3466,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.1
-    },
-    {
-      "id": "010000",
-      "title": "Extremal Graph Theory: How Many Edges Avoid a Clique?",
-      "section": "extremal-graphs",
-      "file": "010000-extremal-graphs-and-turan-theorem.md",
-      "spoken_words": 1183,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.2
+      "estimated_minutes_at_145_wpm": 23.9,
+      "consolidated_from": [
+        "009000",
+        "010000",
+        "012000"
+      ]
     },
     {
       "id": "011000",
-      "title": "The Probabilistic Method: Existence without Construction",
+      "title": "Random discrete structures: existence, reliability, and concentration",
       "section": "probabilistic-method",
-      "file": "011000-probabilistic-method-existence-without-construction.md",
-      "spoken_words": 1140,
+      "file": "011000-random-discrete-structures-existence-reliability-and-concentration.md",
+      "spoken_words": 4180,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.9
-    },
-    {
-      "id": "012000",
-      "title": "Graph Coloring, Chromatic Polynomials, and Planarity",
-      "section": "coloring-planarity",
-      "file": "012000-graph-coloring-chromatic-polynomials-and-planarity.md",
-      "spoken_words": 1090,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.5
+      "estimated_minutes_at_145_wpm": 28.8,
+      "consolidated_from": [
+        "011000",
+        "016000",
+        "019000",
+        "022000"
+      ]
     },
     {
       "id": "013000",
-      "title": "Submodularity, Matroid Intersection, and the Limits of Greedy Choice",
+      "title": "Submodular structure and randomized rounding",
       "section": "submodularity-matroid-intersection",
-      "file": "013000-submodularity-and-matroid-intersection.md",
-      "spoken_words": 1241,
+      "file": "013000-submodular-structure-and-randomized-rounding.md",
+      "spoken_words": 2206,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.6
+      "estimated_minutes_at_145_wpm": 15.2,
+      "consolidated_from": [
+        "013000",
+        "026000"
+      ]
     },
     {
       "id": "014000",
-      "title": "Ramsey Theory: Why Large Structures Force Patterns",
+      "title": "Forced patterns, spectral expansion, and graph separators",
       "section": "ramsey-theory",
-      "file": "014000-ramsey-theory-and-unavoidable-patterns.md",
-      "spoken_words": 1143,
+      "file": "014000-forced-patterns-spectral-expansion-and-separators-shared-core.md",
+      "spoken_words": 3438,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.9
-    },
-    {
-      "id": "015000",
-      "title": "Spectral Graph Theory: Eigenvalues, Cuts, and Expansion",
-      "section": "spectral-graph-expansion",
-      "file": "015000-spectral-graph-theory-and-expansion.md",
-      "spoken_words": 1113,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.7
-    },
-    {
-      "id": "016000",
-      "title": "Random Graph Thresholds, Second Moments, and Concentration",
-      "section": "random-graph-thresholds",
-      "file": "016000-random-graph-thresholds-and-concentration.md",
-      "spoken_words": 1210,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.3
-    },
-    {
-      "id": "017000",
-      "title": "Graph Minors and Treewidth: Solving Hard Problems by Separators",
-      "section": "graph-minors-treewidth",
-      "file": "017000-graph-minors-and-treewidth.md",
-      "spoken_words": 1175,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.1
+      "estimated_minutes_at_145_wpm": 23.7,
+      "consolidated_from": [
+        "014000",
+        "015000",
+        "017000"
+      ]
     },
     {
       "id": "018000",
-      "title": "Entropy as a Counting Tool: Shearer's Inequality",
+      "title": "Set-system complexity, sampling, and constructive discrepancy",
       "section": "entropy-shearer-counting",
-      "file": "018000-entropy-method-and-shearers-inequality.md",
-      "spoken_words": 1130,
+      "file": "018000-set-system-complexity-sampling-and-constructive-discrepancy.md",
+      "spoken_words": 6191,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.8
-    },
-    {
-      "id": "019000",
-      "title": "Network Reliability and Random Connectivity",
-      "section": "random-connectivity",
-      "file": "019000-network-reliability-and-random-connectivity.md",
-      "spoken_words": 872,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.0
+      "estimated_minutes_at_145_wpm": 42.7,
+      "consolidated_from": [
+        "018000",
+        "025000",
+        "027000",
+        "028000",
+        "029000",
+        "030000"
+      ]
     },
     {
       "id": "020000",
-      "title": "Block Designs, Finite Planes, and Hamming Codes",
+      "title": "Codes, extraction, Fourier analysis, and influence",
       "section": "designs-codes",
-      "file": "020000-block-designs-finite-planes-and-hamming-codes.md",
-      "spoken_words": 860,
+      "file": "020000-codes-extraction-fourier-analysis-and-influence.md",
+      "spoken_words": 5476,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.9
+      "estimated_minutes_at_145_wpm": 37.8,
+      "consolidated_from": [
+        "020000",
+        "024000",
+        "032000",
+        "034000",
+        "035000"
+      ]
     },
     {
       "id": "021000",
-      "title": "Parameterized Algorithms: Finding Structure Inside Hard Problems",
+      "title": "Parameterized algorithms and expander structure",
       "section": "parameterized-algorithms",
-      "file": "021000-parameterized-algorithms-and-kernels.md",
-      "spoken_words": 979,
+      "file": "021000-forced-patterns-spectral-expansion-and-separators-shared-core.md",
+      "spoken_words": 1855,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.8
-    },
-    {
-      "id": "022000",
-      "title": "Martingales, Bounded Differences, and Concentration",
-      "section": "concentration-martingales",
-      "file": "022000-martingales-and-concentration-inequalities.md",
-      "spoken_words": 924,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.4
-    },
-    {
-      "id": "023000",
-      "title": "Expander Constructions and Pseudorandom Graphs",
-      "section": "expander-constructions",
-      "file": "023000-expander-constructions-and-pseudorandom-graphs.md",
-      "spoken_words": 875,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.0
-    },
-    {
-      "id": "024000",
-      "title": "Coding Bounds, Duality, and Probabilistic Codes",
-      "section": "coding-bounds",
-      "file": "024000-coding-bounds-duality-and-probabilistic-codes.md",
-      "spoken_words": 936,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
-    },
-    {
-      "id": "025000",
-      "title": "Extremal Set Systems: Intersections, Sunflowers, and Forced Structure",
-      "section": "extremal-sets-sunflowers",
-      "file": "025000-extremal-set-systems-and-sunflower-lemma.md",
-      "spoken_words": 885,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.1
-    },
-    {
-      "id": "026000",
-      "title": "Randomized Rounding: From Fractional Answers to Reliable Discrete Choices",
-      "section": "randomized-rounding",
-      "file": "026000-randomized-rounding-and-conditional-expectation.md",
-      "spoken_words": 967,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.7
-    },
-    {
-      "id": "027000",
-      "title": "VC Dimension: How Many Patterns Can a Family Realize?",
-      "section": "vc-dimension-sauer-shelah",
-      "file": "027000-vc-dimension-and-sauer-shelah.md",
-      "spoken_words": 992,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.8
-    },
-    {
-      "id": "028000",
-      "title": "Discrepancy: Balancing Many Sets at Once",
-      "section": "discrepancy-partial-coloring",
-      "file": "028000-discrepancy-and-partial-coloring.md",
-      "spoken_words": 1087,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.5
-    },
-    {
-      "id": "029000",
-      "title": "Epsilon-Nets: Hitting Every Large Geometric Range",
-      "section": "epsilon-nets-uniform-convergence",
-      "file": "029000-epsilon-nets-and-uniform-convergence.md",
-      "spoken_words": 1001,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.9
-    },
-    {
-      "id": "030000",
-      "title": "Constructive Discrepancy: From Random Signs to Partial Coloring",
-      "section": "constructive-discrepancy",
-      "file": "030000-constructive-discrepancy-and-partial-colorings.md",
-      "spoken_words": 1091,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.5
+      "estimated_minutes_at_145_wpm": 12.8,
+      "consolidated_from": [
+        "021000",
+        "023000"
+      ]
     },
     {
       "id": "031000",
-      "title": "Property Testing: Deciding Without Reading Everything",
+      "title": "Local tests and structural containers",
       "section": "property-testing",
-      "file": "031000-property-testing-and-local-graph-algorithms.md",
-      "spoken_words": 1137,
+      "file": "031000-set-systems-rounding-range-sampling-and-containers-shared-core.md",
+      "spoken_words": 2201,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.8
-    },
-    {
-      "id": "032000",
-      "title": "Randomness Extractors: Recovering Usable Random Bits",
-      "section": "extractors-and-generators",
-      "file": "032000-extractors-and-pseudorandom-generators.md",
-      "spoken_words": 1170,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.1
-    },
-    {
-      "id": "033000",
-      "title": "Hypergraph Containers: Counting Rare Combinatorial Structures",
-      "section": "hypergraph-containers",
-      "file": "033000-hypergraph-containers-and-independent-sets.md",
-      "spoken_words": 1065,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.3
-    },
-    {
-      "id": "034000",
-      "title": "Fourier Analysis on the Boolean Cube",
-      "section": "boolean-fourier-analysis",
-      "file": "034000-fourier-analysis-of-boolean-functions.md",
-      "spoken_words": 1215,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.4
-    },
-    {
-      "id": "035000",
-      "title": "Hypercontractivity: Why Boolean Functions Have Influential Coordinates",
-      "section": "hypercontractivity-influences",
-      "file": "035000-hypercontractivity-influences-and-thresholds.md",
-      "spoken_words": 1288,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.9
+      "estimated_minutes_at_145_wpm": 15.2,
+      "consolidated_from": [
+        "031000",
+        "033000"
+      ]
     },
     {
       "id": "036000",
-      "title": "Local Correction and List Decoding: Recovering Information from Few Queries",
+      "title": "Local recovery, derandomization, and Fourier uniformity",
       "section": "local-correction-list-decoding",
-      "file": "036000-local-correction-and-list-decoding.md",
-      "spoken_words": 1274,
+      "file": "036000-local-recovery-derandomization-and-fourier-uniformity.md",
+      "spoken_words": 5810,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.8
-    },
-    {
-      "id": "037000",
-      "title": "Small-Bias Spaces and Derandomization",
-      "section": "small-bias-derandomization",
-      "file": "037000-small-bias-spaces-and-derandomization.md",
-      "spoken_words": 1265,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.7
-    },
-    {
-      "id": "038000",
-      "title": "Sharp Thresholds, Influences, and the Tribes Function",
-      "section": "sharp-thresholds-tribes",
-      "file": "038000-sharp-thresholds-and-tribes.md",
-      "spoken_words": 1304,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.0
-    },
-    {
-      "id": "039000",
-      "title": "Polynomial Codes and Local Testability",
-      "section": "polynomial-codes-local-testing",
-      "file": "039000-polynomial-codes-and-local-testability.md",
-      "spoken_words": 1109,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.6
+      "estimated_minutes_at_145_wpm": 40.1,
+      "consolidated_from": [
+        "036000",
+        "037000",
+        "038000",
+        "039000",
+        "041000"
+      ]
     },
     {
       "id": "040000",
@@ -411,16 +192,9 @@
       "file": "040000-hypergraph-matchings-and-absorption.md",
       "spoken_words": 1024,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.1
-    },
-    {
-      "id": "041000",
-      "title": "Additive Combinatorics and Fourier Uniformity",
-      "section": "additive-fourier-uniformity",
-      "file": "041000-additive-combinatorics-and-fourier-uniformity.md",
-      "spoken_words": 856,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.9
+      "estimated_minutes_at_145_wpm": 7.1,
+      "editorial_role": "compact_advanced_introduction",
+      "organization_note": "An overview of hypergraph absorption with no same-method deep sequel yet. Do not merge it with the distinct quasirandom four-cycle argument merely to increase length."
     },
     {
       "id": "042000",
@@ -429,7 +203,9 @@
       "file": "042000-quasirandom-graphs-and-four-cycle-counts.md",
       "spoken_words": 858,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.9
+      "estimated_minutes_at_145_wpm": 5.9,
+      "editorial_role": "focused_reference",
+      "organization_note": "A compact self-contained four-cycle/quasirandomness argument, distinct from hypergraph absorption. Its short duration is intentional."
     }
   ]
 }

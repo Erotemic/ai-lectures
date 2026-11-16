@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "010000",
-  "transcript": "010000-logs-time-synchronization-and-reliable-alerts.md",
+  "transcript": "010000-observe-failures-and-rehearse-recovery.md",
   "related_resources": [
     {
       "source_id": "ietf-rfc5905-ntp",
@@ -14,6 +14,34 @@
     {
       "source_id": "omron-control-hysteresis",
       "reason": "On/off threshold hysteresis and prevention of rapid relay cycling"
+    },
+    {
+      "source_id": "nist-sp80034r1-contingency",
+      "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+    },
+    {
+      "source_id": "cisco-poe",
+      "reason": "PoE standards family and source/device power relationships"
+    },
+    {
+      "source_id": "nist-router-security",
+      "reason": "Router integrity, availability, and security as system dependencies"
+    },
+    {
+      "source_id": "nist-smart-home-auditing",
+      "reason": "Device audit challenges, readings, logs, configurations, and actionable policies"
+    },
+    {
+      "source_id": "ietf-rfc9110-idempotency",
+      "reason": "Idempotent request semantics and when a client may safely retry after a lost response"
+    },
+    {
+      "source_id": "nist-ir8350-iot-onboarding",
+      "reason": "Onboarding functional roles, trust, lifecycle management and credentials"
+    },
+    {
+      "source_id": "cisa-segmentation-2022",
+      "reason": "Segmentation restricts communication paths and requires appropriate access control boundaries"
     }
   ],
   "historical_claims": [],
@@ -87,8 +115,713 @@
       "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
       "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
       "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-01",
+      "claim": "Critical service availability depends on all required powered and logical components, not solely the router or UPS.",
+      "kind": "derived_network_resilience_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cisco-poe",
+          "location": "PoE standards family and source/device power relationships",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "UPS energy capacity and instantaneous VA/watt limits are distinct dimensions of backup-power selection.",
+      "kind": "derived_power_engineering_principle",
+      "supports": [
+        {
+          "source_id": "cisco-poe",
+          "location": "PoE standards family and source/device power relationships",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Recovery planning must include actual service testing and dependencies such as address, time and storage readiness.",
+      "kind": "original_nist_contingency_guidance",
+      "supports": [
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp80092-logs",
+          "location": "Log collection, retention, analysis, and operational processes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P008000-01",
+      "claim": "Connected consumer devices and routers need managed updates and access security to reduce vulnerabilities.",
+      "kind": "iot_security_guidance",
+      "supports": [
+        {
+          "source_id": "nist-router-security",
+          "location": "Router security and firmware principles",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-smart-home-auditing",
+          "location": "Security audit of smart-home devices",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "Configuration backups require consideration of security, credentials, and hardware compatibility.",
+      "kind": "derived_recovery_method",
+      "supports": [
+        {
+          "source_id": "nist-router-security",
+          "location": "Router configuration/security properties; author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "Restoring a service depends on configurations and network dependencies, not merely replacing its hardware.",
+      "kind": "derived_systems_reliability",
+      "supports": [
+        {
+          "source_id": "nist-smart-home-auditing",
+          "location": "IoT devices, identities, configurations, and audit implications; author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P016000-01",
+      "claim": "A recovery plan needs dependency analysis and should be tested rather than relying only on the existence of backups.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Effective operational logs help distinguish events, state changes and failures across distributed components.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp80092-logs",
+          "location": "Log collection, retention, analysis, and operational processes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Desired-state idempotent requests are safer to retry after uncertain network delivery than blind toggles.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ietf-rfc9110-idempotency",
+          "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Device identity and secure onboarding remain relevant when failed hardware must be replaced.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-ir8350-iot-onboarding",
+          "location": "Onboarding functional roles, trust, lifecycle management and credentials",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "A recovery plan requires dependency identification, priorities, and tested steps.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Logs and consistent event chronology support diagnosis and incident reconstruction.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp80092-logs",
+          "location": "Log collection, retention, analysis, and operational processes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "IoT device onboarding and identity management remain relevant during device replacement and reset.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-ir8350-iot-onboarding",
+          "location": "Onboarding functional roles, trust, lifecycle management and credentials",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Segmentation can constrain network reach while also changing permitted discovery and management paths.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "cisa-segmentation-2022",
+          "location": "Segmentation restricts communication paths and requires appropriate access control boundaries",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-networking-controls:010000",
+        "file": "010000-logs-time-synchronization-and-reliable-alerts.md",
+        "sha256": "f31fbc6737f131150172c3396d974edb3004e326e7784f8326612f669f0e2ec2",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-logs-time-synchronization-and-reliable-alerts.md",
+          "related_resources": [
+            {
+              "source_id": "ietf-rfc5905-ntp",
+              "reason": "Time synchronization, offsets, delays and network clock discipline"
+            },
+            {
+              "source_id": "nist-sp80092-logs",
+              "reason": "Log collection, retention, analysis, and operational processes"
+            },
+            {
+              "source_id": "omron-control-hysteresis",
+              "reason": "On/off threshold hysteresis and prevention of rapid relay cycling"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "NTPv4 defines methods for distributing time and estimating clock offsets and network delay.",
+              "kind": "original_ietf_time_standard",
+              "supports": [
+                {
+                  "source_id": "ietf-rfc5905-ntp",
+                  "location": "RFC 5905 scope and timestamp method",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "System logs require collection, retention, analysis and operational management to be useful for incident investigation.",
+              "kind": "original_nist_log_management",
+              "supports": [
+                {
+                  "source_id": "nist-sp80092-logs",
+                  "location": "Guide to Computer Security Log Management abstract and process",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Device event time and collector reception time may differ because of clock drift and message transport.",
+              "kind": "derived_distributed_event_semantics",
+              "supports": [
+                {
+                  "source_id": "ietf-rfc5905-ntp",
+                  "location": "Clock offset and network delay",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-sp80092-logs",
+                  "location": "Log context and collection",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Hysteresis, retries and missing-heartbeat alerts address different operational failure modes.",
+              "kind": "derived_monitoring_system_design",
+              "supports": [
+                {
+                  "source_id": "omron-control-hysteresis",
+                  "location": "Hysteresis in controls",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-sp80092-logs",
+                  "location": "Operational handling and analysis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "practical-networking-controls:013000",
+        "file": "013000-power-failures-ups-design-and-recovery-testing.md",
+        "sha256": "8c72b74652f063ae02e84382dc3e0c04f9b98e9d389e2eb2648527b5a97c7d98",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-power-failures-ups-design-and-recovery-testing.md",
+          "related_resources": [
+            {
+              "source_id": "nist-sp80034r1-contingency",
+              "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+            },
+            {
+              "source_id": "cisco-poe",
+              "reason": "PoE standards family and source/device power relationships"
+            },
+            {
+              "source_id": "nist-sp80092-logs",
+              "reason": "Log collection, retention, analysis, and operational processes"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "Critical service availability depends on all required powered and logical components, not solely the router or UPS.",
+              "kind": "derived_network_resilience_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-sp80034r1-contingency",
+                  "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cisco-poe",
+                  "location": "PoE standards family and source/device power relationships",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "UPS energy capacity and instantaneous VA/watt limits are distinct dimensions of backup-power selection.",
+              "kind": "derived_power_engineering_principle",
+              "supports": [
+                {
+                  "source_id": "cisco-poe",
+                  "location": "PoE standards family and source/device power relationships",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-sp80034r1-contingency",
+                  "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "Recovery planning must include actual service testing and dependencies such as address, time and storage readiness.",
+              "kind": "original_nist_contingency_guidance",
+              "supports": [
+                {
+                  "source_id": "nist-sp80034r1-contingency",
+                  "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-sp80092-logs",
+                  "location": "Log collection, retention, analysis, and operational processes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-networking-controls:008000",
+        "file": "008000-backups-updates-and-configuration-recovery.md",
+        "sha256": "3a7bfa8cad8fc739a26049e287eafb6672b8607f16f416f1ec7d6e0d4fb03cdb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-backups-updates-and-configuration-recovery.md",
+          "related_resources": [
+            {
+              "source_id": "nist-router-security",
+              "reason": "Router integrity, availability, and security as system dependencies"
+            },
+            {
+              "source_id": "nist-smart-home-auditing",
+              "reason": "Device audit challenges, readings, logs, configurations, and actionable policies"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P008000-01",
+              "claim": "Connected consumer devices and routers need managed updates and access security to reduce vulnerabilities.",
+              "kind": "iot_security_guidance",
+              "supports": [
+                {
+                  "source_id": "nist-router-security",
+                  "location": "Router security and firmware principles",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-smart-home-auditing",
+                  "location": "Security audit of smart-home devices",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-02",
+              "claim": "Configuration backups require consideration of security, credentials, and hardware compatibility.",
+              "kind": "derived_recovery_method",
+              "supports": [
+                {
+                  "source_id": "nist-router-security",
+                  "location": "Router configuration/security properties; author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-03",
+              "claim": "Restoring a service depends on configurations and network dependencies, not merely replacing its hardware.",
+              "kind": "derived_systems_reliability",
+              "supports": [
+                {
+                  "source_id": "nist-smart-home-auditing",
+                  "location": "IoT devices, identities, configurations, and audit implications; author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+        }
+      },
+      {
+        "id": "practical-networking-controls:016000",
+        "file": "016000-home-automation-recovery-drills-and-observability.md",
+        "sha256": "8ab08daee21272e5ff4071c186344726278d9e180bdb0e6c61c0254b984624c2",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-home-automation-recovery-drills-and-observability.md",
+          "related_resources": [
+            {
+              "source_id": "nist-sp80034r1-contingency",
+              "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+            },
+            {
+              "source_id": "nist-sp80092-logs",
+              "reason": "Log collection, retention, analysis, and operational processes"
+            },
+            {
+              "source_id": "ietf-rfc9110-idempotency",
+              "reason": "Idempotent request semantics and when a client may safely retry after a lost response"
+            },
+            {
+              "source_id": "nist-ir8350-iot-onboarding",
+              "reason": "Onboarding functional roles, trust, lifecycle management and credentials"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "A recovery plan needs dependency analysis and should be tested rather than relying only on the existence of backups.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-sp80034r1-contingency",
+                  "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "Effective operational logs help distinguish events, state changes and failures across distributed components.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-sp80092-logs",
+                  "location": "Log collection, retention, analysis, and operational processes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "Desired-state idempotent requests are safer to retry after uncertain network delivery than blind toggles.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ietf-rfc9110-idempotency",
+                  "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Device identity and secure onboarding remain relevant when failed hardware must be replaced.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-ir8350-iot-onboarding",
+                  "location": "Onboarding functional roles, trust, lifecycle management and credentials",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-networking-controls:017000",
+        "file": "017000-home-network-access-inventory-and-incident-recovery.md",
+        "sha256": "182850f5d540ddcc95492126cc5e029b9ba5350042d6ea3acb00f5bf7d172a7b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-home-network-access-inventory-and-incident-recovery.md",
+          "related_resources": [
+            {
+              "source_id": "nist-sp80034r1-contingency",
+              "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+            },
+            {
+              "source_id": "nist-sp80092-logs",
+              "reason": "Log collection, retention, analysis, and operational processes"
+            },
+            {
+              "source_id": "nist-ir8350-iot-onboarding",
+              "reason": "Onboarding functional roles, trust, lifecycle management and credentials"
+            },
+            {
+              "source_id": "cisa-segmentation-2022",
+              "reason": "Segmentation restricts communication paths and requires appropriate access control boundaries"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "A recovery plan requires dependency identification, priorities, and tested steps.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-sp80034r1-contingency",
+                  "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "Logs and consistent event chronology support diagnosis and incident reconstruction.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-sp80092-logs",
+                  "location": "Log collection, retention, analysis, and operational processes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "IoT device onboarding and identity management remain relevant during device replacement and reset.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-ir8350-iot-onboarding",
+                  "location": "Onboarding functional roles, trust, lifecycle management and credentials",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "Segmentation can constrain network reach while also changing permitted discovery and management paths.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "cisa-segmentation-2022",
+                  "location": "Segmentation restricts communication paths and requires appropriate access control boundaries",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "010000-observe-failures-and-rehearse-recovery.md"
+      ],
+      "joined_before_source_parts": [
+        "013000",
+        "016000"
+      ]
+    }
+  ]
 }

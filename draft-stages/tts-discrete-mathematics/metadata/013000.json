@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "013000",
-  "transcript": "013000-submodularity-and-matroid-intersection.md",
+  "transcript": "013000-submodular-structure-and-randomized-rounding.md",
   "related_resources": [
     {
       "source_id": "dm-princeton-submod",
@@ -14,6 +14,18 @@
     {
       "source_id": "dm-oxley",
       "reason": "Rank submodularity and matroid axioms."
+    },
+    {
+      "source_id": "di-r13-026000-1",
+      "reason": "Randomized rounding, conditional expectations, and constraint-preserving pipage"
+    },
+    {
+      "source_id": "di-r13-026000-2",
+      "reason": "Randomized rounding, conditional expectations, and constraint-preserving pipage"
+    },
+    {
+      "source_id": "di-r13-026000-3",
+      "reason": "Randomized rounding, conditional expectations, and constraint-preserving pipage"
     }
   ],
   "historical_claims": [
@@ -27,5 +39,76 @@
       "source_locator": "Edmonds attribution for matroid intersection theorem.",
       "audit_status": "reference_recorded"
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "discrete-mathematics:013000",
+        "file": "013000-submodularity-and-matroid-intersection.md",
+        "sha256": "e99d5a4f3c8b9d14aa3c0d05cf6cd5ec6615499c03708788b5e3052c27622620",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-submodularity-and-matroid-intersection.md",
+          "related_resources": [
+            {
+              "source_id": "dm-princeton-submod",
+              "reason": "Submodularity and diminishing returns."
+            },
+            {
+              "source_id": "dm-stanford-matroid",
+              "reason": "Edmonds matroid-intersection theorem and proof."
+            },
+            {
+              "source_id": "dm-oxley",
+              "reason": "Rank submodularity and matroid axioms."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "013000-h01",
+              "anchor": "Jack Edmonds",
+              "kind": "historical_research",
+              "source_ids": [
+                "dm-stanford-matroid"
+              ],
+              "source_locator": "Edmonds attribution for matroid intersection theorem.",
+              "audit_status": "reference_recorded"
+            }
+          ]
+        }
+      },
+      {
+        "id": "discrete-mathematics:026000",
+        "file": "026000-randomized-rounding-and-conditional-expectation.md",
+        "sha256": "954c265824b3ac07d0c5681ea4b68c636c5466473c539fadd70a9604d1cd0026",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "026000",
+          "transcript": "026000-randomized-rounding-and-conditional-expectation.md",
+          "related_resources": [
+            {
+              "source_id": "di-r13-026000-1",
+              "reason": "Randomized rounding, conditional expectations, and constraint-preserving pipage"
+            },
+            {
+              "source_id": "di-r13-026000-2",
+              "reason": "Randomized rounding, conditional expectations, and constraint-preserving pipage"
+            },
+            {
+              "source_id": "di-r13-026000-3",
+              "reason": "Randomized rounding, conditional expectations, and constraint-preserving pipage"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "068000",
-  "transcript": "068000-sobolev-traces-and-boundary-data.md",
+  "transcript": "068000-boundary-traces-fractional-norms-and-nonlinear-products.md",
   "related_resources": [
     {
       "source_id": "an-found24-068000-1",
@@ -10,7 +10,125 @@
     {
       "source_id": "an-found24-068000-2",
       "reason": "Supports definitions, statements, and worked examples in Sobolev Traces: How a Rough Function Reaches the Boundary."
+    },
+    {
+      "source_id": "an-found24-069000-1",
+      "reason": "Supports definitions, statements, and worked examples in Fractional Smoothness and Littlewood–Paley Frequency Blocks."
+    },
+    {
+      "source_id": "an-found24-069000-2",
+      "reason": "Supports definitions, statements, and worked examples in Fractional Smoothness and Littlewood–Paley Frequency Blocks."
+    },
+    {
+      "source_id": "an-found24-070000-1",
+      "reason": "Supports definitions, statements, and worked examples in Interpolation: Estimates Between the Norms We Already Know."
+    },
+    {
+      "source_id": "an-found24-070000-2",
+      "reason": "Supports definitions, statements, and worked examples in Interpolation: Estimates Between the Norms We Already Know."
+    },
+    {
+      "source_id": "an-found24-071000-1",
+      "reason": "Supports definitions, statements, and worked examples in Nonlinear Products in Sobolev Spaces: When Multiplication Is Safe."
+    },
+    {
+      "source_id": "an-found24-071000-2",
+      "reason": "Supports definitions, statements, and worked examples in Nonlinear Products in Sobolev Spaces: When Multiplication Is Safe."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "analysis:068000",
+        "file": "068000-sobolev-traces-and-boundary-data.md",
+        "sha256": "035f50238e3537b8e339605761f5893952ccbb617f7b6812e41d50f801c3af89",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "068000",
+          "transcript": "068000-sobolev-traces-and-boundary-data.md",
+          "related_resources": [
+            {
+              "source_id": "an-found24-068000-1",
+              "reason": "Supports definitions, statements, and worked examples in Sobolev Traces: How a Rough Function Reaches the Boundary."
+            },
+            {
+              "source_id": "an-found24-068000-2",
+              "reason": "Supports definitions, statements, and worked examples in Sobolev Traces: How a Rough Function Reaches the Boundary."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:069000",
+        "file": "069000-fractional-sobolev-and-frequency-blocks.md",
+        "sha256": "c05afece1c1723ecefdca459f58669962382b2a6cee09bb78a7ec89c23c4951c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "069000",
+          "transcript": "069000-fractional-sobolev-and-frequency-blocks.md",
+          "related_resources": [
+            {
+              "source_id": "an-found24-069000-1",
+              "reason": "Supports definitions, statements, and worked examples in Fractional Smoothness and Littlewood–Paley Frequency Blocks."
+            },
+            {
+              "source_id": "an-found24-069000-2",
+              "reason": "Supports definitions, statements, and worked examples in Fractional Smoothness and Littlewood–Paley Frequency Blocks."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:070000",
+        "file": "070000-interpolation-and-estimates-between-spaces.md",
+        "sha256": "9bfac5968598b747d20cd659808558cae5964a5cfa482aaef32fe74352ec24df",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "070000",
+          "transcript": "070000-interpolation-and-estimates-between-spaces.md",
+          "related_resources": [
+            {
+              "source_id": "an-found24-070000-1",
+              "reason": "Supports definitions, statements, and worked examples in Interpolation: Estimates Between the Norms We Already Know."
+            },
+            {
+              "source_id": "an-found24-070000-2",
+              "reason": "Supports definitions, statements, and worked examples in Interpolation: Estimates Between the Norms We Already Know."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:071000",
+        "file": "071000-nonlinear-products-and-compositions.md",
+        "sha256": "89ccf76c6c5c9436869211d1d9dc18f785240c00e02ae0c002c3caadcf801643",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "071000",
+          "transcript": "071000-nonlinear-products-and-compositions.md",
+          "related_resources": [
+            {
+              "source_id": "an-found24-071000-1",
+              "reason": "Supports definitions, statements, and worked examples in Nonlinear Products in Sobolev Spaces: When Multiplication Is Safe."
+            },
+            {
+              "source_id": "an-found24-071000-2",
+              "reason": "Supports definitions, statements, and worked examples in Nonlinear Products in Sobolev Spaces: When Multiplication Is Safe."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

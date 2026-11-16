@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "033000",
-  "transcript": "033000-berry-curvature-and-geometric-holonomy.md",
+  "transcript": "033000-berry-curvature-and-the-quantum-hall-chern-number.md",
   "related_resources": [
     {
       "source_id": "tg-r17-033000-1",
@@ -14,7 +14,79 @@
     {
       "source_id": "tg-r17-033000-3",
       "reason": "Reference on Berry Curvature: Holonomy in a Family of Quantum States (3 of 3)"
+    },
+    {
+      "source_id": "tg-r18-036000-1",
+      "reason": "Reference on Chern Numbers and the Integer Quantum Hall Effect (1 of 3)"
+    },
+    {
+      "source_id": "tg-r18-036000-2",
+      "reason": "Reference on Chern Numbers and the Integer Quantum Hall Effect (2 of 3)"
+    },
+    {
+      "source_id": "tg-r18-036000-3",
+      "reason": "Reference on Chern Numbers and the Integer Quantum Hall Effect (3 of 3)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:033000",
+        "file": "033000-berry-curvature-and-geometric-holonomy.md",
+        "sha256": "bfbab5b795acaff6e2f25f18ab632922fa793ea12839daa2da3bc2f5bb590154",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "033000",
+          "transcript": "033000-berry-curvature-and-geometric-holonomy.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r17-033000-1",
+              "reason": "Reference on Berry Curvature: Holonomy in a Family of Quantum States (1 of 3)"
+            },
+            {
+              "source_id": "tg-r17-033000-2",
+              "reason": "Reference on Berry Curvature: Holonomy in a Family of Quantum States (2 of 3)"
+            },
+            {
+              "source_id": "tg-r17-033000-3",
+              "reason": "Reference on Berry Curvature: Holonomy in a Family of Quantum States (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:036000",
+        "file": "036000-chern-numbers-and-integer-quantum-hall-transport.md",
+        "sha256": "b251f23eb37219c4a0d789dffba25e4c4851e7e4650fbcd777515b7084b941a6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "036000",
+          "transcript": "036000-chern-numbers-and-integer-quantum-hall-transport.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r18-036000-1",
+              "reason": "Reference on Chern Numbers and the Integer Quantum Hall Effect (1 of 3)"
+            },
+            {
+              "source_id": "tg-r18-036000-2",
+              "reason": "Reference on Chern Numbers and the Integer Quantum Hall Effect (2 of 3)"
+            },
+            {
+              "source_id": "tg-r18-036000-3",
+              "reason": "Reference on Chern Numbers and the Integer Quantum Hall Effect (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

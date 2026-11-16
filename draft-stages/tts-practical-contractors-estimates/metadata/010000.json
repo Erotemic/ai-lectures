@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "010000",
-  "transcript": "010000-project-schedules-sequencing-and-dependencies.md",
+  "transcript": "010000-plan-the-work-and-control-changes.md",
   "related_resources": [
     {
       "source_id": "pmi-critical-path-risk",
@@ -10,6 +10,30 @@
     {
       "source_id": "nyag-hiring-contractors",
       "reason": "Local license checks, insurance, permits/inspections and written scope; NY guidance only"
+    },
+    {
+      "source_id": "ftc-improvement",
+      "reason": "Written estimates, contracts, licenses and payment caution"
+    },
+    {
+      "source_id": "aba-contract",
+      "reason": "Scope, materials, change orders, responsibility and payment terms"
+    },
+    {
+      "source_id": "aia-lima-submittals",
+      "reason": "AIA A201 distinction between submittals and contract documents; contract dependent"
+    },
+    {
+      "source_id": "nysenate-gbl771",
+      "reason": "Writing and signatures for home-improvement contract amendments under specific state law"
+    },
+    {
+      "source_id": "md-allowances",
+      "reason": "Allowances and differences between fixed price and time/materials"
+    },
+    {
+      "source_id": "nyag-home-improvement-fact",
+      "reason": "New York progress payments, escrow/bond rules, warranties and lien-related risks"
     }
   ],
   "historical_claims": [],
@@ -78,8 +102,782 @@
       "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
       "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
       "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "A substitute material can affect fit, installed cost, performance and warranty beyond its purchase price.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Submittals and specification reviews have defined responsibilities under applicable contract terms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Manufacturing, review and shipping dependencies can affect the critical path of a project.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "pmi-critical-path-risk",
+          "location": "Critical path, float, network dependencies, and limits of deterministic schedule assumptions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Written change and procurement records help compare scope, price and schedule consistently.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written estimates, contracts, licenses and payment caution",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P005000-01",
+      "claim": "Hidden conditions, owner-directed changes and initial scope omissions are distinct reasons for proposed changes.",
+      "kind": "derived_contract_classification",
+      "supports": [
+        {
+          "source_id": "nyag-hiring-contractors",
+          "location": "Written scope and amendment requirements; categorization synthesized by author",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nysenate-gbl771",
+          "location": "Written scope and amendment requirements; categorization synthesized by author",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "New York state law requires specified home-improvement contracts and amendments to be documented in signed writing.",
+      "kind": "state_specific_legal_rule",
+      "supports": [
+        {
+          "source_id": "nysenate-gbl771",
+          "location": "NYS General Business Law §771(1), applicability dependent on article scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "A useful change order records added/removed work, price, timing and approval while preserving evidence of discovery.",
+      "kind": "consumer_guidance",
+      "supports": [
+        {
+          "source_id": "nyag-hiring-contractors",
+          "location": "NY Attorney General Get Everything in Writing; statutory amendment requirements",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nysenate-gbl771",
+          "location": "NY Attorney General Get Everything in Writing; statutory amendment requirements",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P014000-01",
+      "claim": "Distinguishing owner-requested changes, hidden conditions and corrections to existing scope makes cost allocation more intelligible.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written estimates, contracts, licenses and payment caution",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-02",
+      "claim": "An approved change record should identify scope, price basis, authorization and schedule effects.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nyag-hiring-contractors",
+          "location": "Local license checks, insurance, permits/inspections and written scope; NY guidance only",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-03",
+      "claim": "A proposed but unapproved change is not the same as authorized contract value.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written estimates, contracts, licenses and payment caution",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "md-allowances",
+          "location": "Allowances and differences between fixed price and time/materials",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-04",
+      "claim": "Construction schedule impact depends on task dependencies and critical path, not simply adding all stated workdays.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "pmi-critical-path-risk",
+          "location": "Critical path, float, network dependencies, and limits of deterministic schedule assumptions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P006000-01",
+      "claim": "Payment schedules should correlate with documented work and materials and not require full upfront payment.",
+      "kind": "new_york_specific_consumer_guidance",
+      "supports": [
+        {
+          "source_id": "nyag-home-improvement-fact",
+          "location": "NY Attorney General home improvement: progress payments and contracts",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nyag-hiring-contractors",
+          "location": "NY Attorney General home improvement: progress payments and contracts",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-02",
+      "claim": "Covered New York home-improvement contracts have particular escrow or bond safeguards for advance payments.",
+      "kind": "new_york_specific_legal_guidance",
+      "supports": [
+        {
+          "source_id": "nyag-home-improvement-fact",
+          "location": "NY Attorney General payment protection summary; statutory scope of contract provisions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nysenate-gbl771",
+          "location": "NY Attorney General payment protection summary; statutory scope of contract provisions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-03",
+      "claim": "A contractor or subcontractor unpaid for covered work may have lien-related rights; specific documents and waivers vary by jurisdiction.",
+      "kind": "state_specific_legal_concept",
+      "supports": [
+        {
+          "source_id": "nyag-home-improvement-fact",
+          "location": "NY Attorney General: lien claims after nonpayment; jurisdiction-variability author distinction",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-contractors-estimates:010000",
+        "file": "010000-project-schedules-sequencing-and-dependencies.md",
+        "sha256": "4ea4415dc458f5975e8ba39fa83a0ad24b0e59cbac35c2838f350c28a7d99b27",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-project-schedules-sequencing-and-dependencies.md",
+          "related_resources": [
+            {
+              "source_id": "pmi-critical-path-risk",
+              "reason": "Critical path, float, network dependencies, and limits of deterministic schedule assumptions"
+            },
+            {
+              "source_id": "nyag-hiring-contractors",
+              "reason": "Local license checks, insurance, permits/inspections and written scope; NY guidance only"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "The critical path through task dependencies determines the earliest modeled project completion under stated assumptions.",
+              "kind": "original_pmi_network_schedule_method",
+              "supports": [
+                {
+                  "source_id": "pmi-critical-path-risk",
+                  "location": "Critical path and slack",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "Noncritical activities may have float without controlling the original completion date.",
+              "kind": "original_pmi_critical_path_method",
+              "supports": [
+                {
+                  "source_id": "pmi-critical-path-risk",
+                  "location": "Float and network joins",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Real-world resource, delay and uncertainty effects limit deterministic critical-path schedule reliability.",
+              "kind": "original_pmi_schedule_risk_analysis",
+              "supports": [
+                {
+                  "source_id": "pmi-critical-path-risk",
+                  "location": "Limitations of CPM and schedule-risk analysis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Acceptance milestones, contract documentation and owner decisions should be tied to objective deliverables.",
+              "kind": "derived_contract_execution_practice",
+              "supports": [
+                {
+                  "source_id": "nyag-hiring-contractors",
+                  "location": "Written scope and contract communications",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pmi-critical-path-risk",
+                  "location": "Activity dependencies and milestones",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:015000",
+        "file": "015000-material-procurement-substitutions-and-lead-times.md",
+        "sha256": "9697663aca4011187fdc97b2731b8b84193a2290fc434f7244619eeb85173e53",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-material-procurement-substitutions-and-lead-times.md",
+          "related_resources": [
+            {
+              "source_id": "ftc-improvement",
+              "reason": "Written estimates, contracts, licenses and payment caution"
+            },
+            {
+              "source_id": "aba-contract",
+              "reason": "Scope, materials, change orders, responsibility and payment terms"
+            },
+            {
+              "source_id": "aia-lima-submittals",
+              "reason": "AIA A201 distinction between submittals and contract documents; contract dependent"
+            },
+            {
+              "source_id": "pmi-critical-path-risk",
+              "reason": "Critical path, float, network dependencies, and limits of deterministic schedule assumptions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "A substitute material can affect fit, installed cost, performance and warranty beyond its purchase price.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "aba-contract",
+                  "location": "Scope, materials, change orders, responsibility and payment terms",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aia-lima-submittals",
+                  "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "Submittals and specification reviews have defined responsibilities under applicable contract terms.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aia-lima-submittals",
+                  "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aba-contract",
+                  "location": "Scope, materials, change orders, responsibility and payment terms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Manufacturing, review and shipping dependencies can affect the critical path of a project.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "pmi-critical-path-risk",
+                  "location": "Critical path, float, network dependencies, and limits of deterministic schedule assumptions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Written change and procurement records help compare scope, price and schedule consistently.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Written estimates, contracts, licenses and payment caution",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aba-contract",
+                  "location": "Scope, materials, change orders, responsibility and payment terms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:005000",
+        "file": "005000-change-orders-and-hidden-conditions.md",
+        "sha256": "ff27befde0950491bd56ae7233bb322726f83031e903076dbf2efa4905448730",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-change-orders-and-hidden-conditions.md",
+          "related_resources": [
+            {
+              "source_id": "nyag-hiring-contractors",
+              "reason": "Local license checks, insurance, permits/inspections and written scope; NY guidance only"
+            },
+            {
+              "source_id": "nysenate-gbl771",
+              "reason": "Writing and signatures for home-improvement contract amendments under specific state law"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P005000-01",
+              "claim": "Hidden conditions, owner-directed changes and initial scope omissions are distinct reasons for proposed changes.",
+              "kind": "derived_contract_classification",
+              "supports": [
+                {
+                  "source_id": "nyag-hiring-contractors",
+                  "location": "Written scope and amendment requirements; categorization synthesized by author",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nysenate-gbl771",
+                  "location": "Written scope and amendment requirements; categorization synthesized by author",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-02",
+              "claim": "New York state law requires specified home-improvement contracts and amendments to be documented in signed writing.",
+              "kind": "state_specific_legal_rule",
+              "supports": [
+                {
+                  "source_id": "nysenate-gbl771",
+                  "location": "NYS General Business Law §771(1), applicability dependent on article scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-03",
+              "claim": "A useful change order records added/removed work, price, timing and approval while preserving evidence of discovery.",
+              "kind": "consumer_guidance",
+              "supports": [
+                {
+                  "source_id": "nyag-hiring-contractors",
+                  "location": "NY Attorney General Get Everything in Writing; statutory amendment requirements",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nysenate-gbl771",
+                  "location": "NY Attorney General Get Everything in Writing; statutory amendment requirements",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:014000",
+        "file": "014000-scope-creep-change-orders-and-cost-tracking-a-case-study.md",
+        "sha256": "48f2dc23d04ab86634bd89f25a1d87d52b29deacbf86686eb4223b5ae006e11e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-scope-creep-change-orders-and-cost-tracking-a-case-study.md",
+          "related_resources": [
+            {
+              "source_id": "aba-contract",
+              "reason": "Scope, materials, change orders, responsibility and payment terms"
+            },
+            {
+              "source_id": "ftc-improvement",
+              "reason": "Written estimates, contracts, licenses and payment caution"
+            },
+            {
+              "source_id": "nyag-hiring-contractors",
+              "reason": "Local license checks, insurance, permits/inspections and written scope; NY guidance only"
+            },
+            {
+              "source_id": "md-allowances",
+              "reason": "Allowances and differences between fixed price and time/materials"
+            },
+            {
+              "source_id": "pmi-critical-path-risk",
+              "reason": "Critical path, float, network dependencies, and limits of deterministic schedule assumptions"
+            },
+            {
+              "source_id": "aia-lima-submittals",
+              "reason": "AIA A201 distinction between submittals and contract documents; contract dependent"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P014000-01",
+              "claim": "Distinguishing owner-requested changes, hidden conditions and corrections to existing scope makes cost allocation more intelligible.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "aba-contract",
+                  "location": "Scope, materials, change orders, responsibility and payment terms",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Written estimates, contracts, licenses and payment caution",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-02",
+              "claim": "An approved change record should identify scope, price basis, authorization and schedule effects.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aba-contract",
+                  "location": "Scope, materials, change orders, responsibility and payment terms",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nyag-hiring-contractors",
+                  "location": "Local license checks, insurance, permits/inspections and written scope; NY guidance only",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-03",
+              "claim": "A proposed but unapproved change is not the same as authorized contract value.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Written estimates, contracts, licenses and payment caution",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "md-allowances",
+                  "location": "Allowances and differences between fixed price and time/materials",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-04",
+              "claim": "Construction schedule impact depends on task dependencies and critical path, not simply adding all stated workdays.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "pmi-critical-path-risk",
+                  "location": "Critical path, float, network dependencies, and limits of deterministic schedule assumptions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aia-lima-submittals",
+                  "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:006000",
+        "file": "006000-progress-payments-warranties-and-liens.md",
+        "sha256": "5affb7a091149572f8aa3c659d03d0d1b46ee98c69b7199e924ea6b329385800",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-progress-payments-warranties-and-liens.md",
+          "related_resources": [
+            {
+              "source_id": "nyag-home-improvement-fact",
+              "reason": "New York progress payments, escrow/bond rules, warranties and lien-related risks"
+            },
+            {
+              "source_id": "nyag-hiring-contractors",
+              "reason": "Local license checks, insurance, permits/inspections and written scope; NY guidance only"
+            },
+            {
+              "source_id": "nysenate-gbl771",
+              "reason": "Writing and signatures for home-improvement contract amendments under specific state law"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P006000-01",
+              "claim": "Payment schedules should correlate with documented work and materials and not require full upfront payment.",
+              "kind": "new_york_specific_consumer_guidance",
+              "supports": [
+                {
+                  "source_id": "nyag-home-improvement-fact",
+                  "location": "NY Attorney General home improvement: progress payments and contracts",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nyag-hiring-contractors",
+                  "location": "NY Attorney General home improvement: progress payments and contracts",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-02",
+              "claim": "Covered New York home-improvement contracts have particular escrow or bond safeguards for advance payments.",
+              "kind": "new_york_specific_legal_guidance",
+              "supports": [
+                {
+                  "source_id": "nyag-home-improvement-fact",
+                  "location": "NY Attorney General payment protection summary; statutory scope of contract provisions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nysenate-gbl771",
+                  "location": "NY Attorney General payment protection summary; statutory scope of contract provisions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-03",
+              "claim": "A contractor or subcontractor unpaid for covered work may have lien-related rights; specific documents and waivers vary by jurisdiction.",
+              "kind": "state_specific_legal_concept",
+              "supports": [
+                {
+                  "source_id": "nyag-home-improvement-fact",
+                  "location": "NY Attorney General: lien claims after nonpayment; jurisdiction-variability author distinction",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "010000-plan-the-work-and-control-changes.md"
+      ],
+      "joined_before_source_parts": [
+        "015000",
+        "014000"
+      ]
+    }
+  ]
 }

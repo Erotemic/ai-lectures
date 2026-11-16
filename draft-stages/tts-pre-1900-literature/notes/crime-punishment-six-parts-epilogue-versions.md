@@ -1,5 +1,7 @@
 # Crime and Punishment — Six Parts, Epilogue, Publication, and Interpretive Limits
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 **Non-spoken companion** for lectures 188000–202000. This is an explanatory course section using a named public-domain English translation and selected institutional bibliography, not a full collation of Russian serial and book texts.
 
 ## Story and analysis map

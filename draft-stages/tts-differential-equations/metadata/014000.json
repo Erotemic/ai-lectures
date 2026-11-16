@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "014000",
-  "transcript": "014000-reaction-diffusion-and-turing-instability.md",
+  "transcript": "014000-reaction-diffusion-modes-pattern-onset-and-traveling-fronts.md",
   "related_resources": [
     {
       "source_id": "de-turing1952",
@@ -14,6 +14,30 @@
     {
       "source_id": "de-ubc-turing",
       "reason": "Two-species linear Turing instability conditions."
+    },
+    {
+      "source_id": "de-evans",
+      "reason": "Dirichlet Laplacian eigenfunctions, heat semigroup and weak solutions."
+    },
+    {
+      "source_id": "de-mit18303",
+      "reason": "Linear PDE modal expansion and boundary conditions."
+    },
+    {
+      "source_id": "de-toronto-pde",
+      "reason": "Separation of variables and Fourier solution methods."
+    },
+    {
+      "source_id": "de-kpp-notes",
+      "reason": "Fisher-KPP traveling fronts and critical speed."
+    },
+    {
+      "source_id": "de-evans-book",
+      "reason": "PDE theory and diffusion-reaction equations."
+    },
+    {
+      "source_id": "de-mit385",
+      "reason": "Phase-plane dynamics and heteroclinic trajectories."
     }
   ],
   "historical_claims": [
@@ -27,5 +51,101 @@
       "source_locator": "Original paper and publication record.",
       "audit_status": "reference_recorded"
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "differential-equations:014000",
+        "file": "014000-reaction-diffusion-and-turing-instability.md",
+        "sha256": "4de2441a35ac2792d7c1f944ffed707960d5e22a767b9d04a0cd935643deb83d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-reaction-diffusion-and-turing-instability.md",
+          "related_resources": [
+            {
+              "source_id": "de-turing1952",
+              "reason": "Original 1952 reaction-diffusion instability model."
+            },
+            {
+              "source_id": "de-turing-hodges",
+              "reason": "Authorship, chronology and publication confirmation."
+            },
+            {
+              "source_id": "de-ubc-turing",
+              "reason": "Two-species linear Turing instability conditions."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "014000-h01",
+              "anchor": "Alan Turing analyzed this possibility in his 1952 paper, The Chemical Basis of Morphogenesis.",
+              "kind": "historical_research",
+              "source_ids": [
+                "de-turing1952"
+              ],
+              "source_locator": "Original paper and publication record.",
+              "audit_status": "reference_recorded"
+            }
+          ]
+        }
+      },
+      {
+        "id": "differential-equations:015000",
+        "file": "015000-pde-spectral-boundary-eigenproblems.md",
+        "sha256": "4f8a236d2e55ac033bd96cf82109747e400160e1cc4dc34ad3049c20b5d482ef",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-pde-spectral-boundary-eigenproblems.md",
+          "related_resources": [
+            {
+              "source_id": "de-evans",
+              "reason": "Dirichlet Laplacian eigenfunctions, heat semigroup and weak solutions."
+            },
+            {
+              "source_id": "de-mit18303",
+              "reason": "Linear PDE modal expansion and boundary conditions."
+            },
+            {
+              "source_id": "de-toronto-pde",
+              "reason": "Separation of variables and Fourier solution methods."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:017000",
+        "file": "017000-traveling-waves-and-front-propagation.md",
+        "sha256": "ff76b8b13d77adc2cff9ba9282a05c2c75278bc2a33adc7838b7dde5b73d6cff",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-traveling-waves-and-front-propagation.md",
+          "related_resources": [
+            {
+              "source_id": "de-kpp-notes",
+              "reason": "Fisher-KPP traveling fronts and critical speed."
+            },
+            {
+              "source_id": "de-evans-book",
+              "reason": "PDE theory and diffusion-reaction equations."
+            },
+            {
+              "source_id": "de-mit385",
+              "reason": "Phase-plane dynamics and heteroclinic trajectories."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

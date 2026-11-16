@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "039000",
-  "transcript": "039000-hahn-banach-and-weak-convergence.md",
+  "transcript": "039000-weak-measurements-bounded-inverses-and-representation.md",
   "related_resources": [
     {
       "source_id": "an-mit-functional-18102",
@@ -14,7 +14,174 @@
     {
       "source_id": "an-tao-functional-weak",
       "reason": "Weak and weak-star topologies and duality-based convergence."
+    },
+    {
+      "source_id": "an-found24-066000-1",
+      "reason": "Supports definitions, statements, and worked examples in Weak and Weak-Star Convergence: Compactness Without Norm Convergence."
+    },
+    {
+      "source_id": "an-found24-066000-2",
+      "reason": "Supports definitions, statements, and worked examples in Weak and Weak-Star Convergence: Compactness Without Norm Convergence."
+    },
+    {
+      "source_id": "an-mit-functional-18102",
+      "reason": "Lecture 3: quotient spaces, Baire category and uniform boundedness; Lecture 4 related Banach consequences."
+    },
+    {
+      "source_id": "an-tao-functional-baire",
+      "reason": "Baire theorem, Banach–Steinhaus and consequences for operator convergence."
+    },
+    {
+      "source_id": "an-tao-functional-weak",
+      "reason": "Weakly convergent sequences, norm-boundedness, and dual-space viewpoint."
+    },
+    {
+      "source_id": "an-found23-053000-1",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Why a Bijective Operator Has a Bounded Inverse."
+    },
+    {
+      "source_id": "an-found23-053000-2",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Why a Bijective Operator Has a Bounded Inverse."
+    },
+    {
+      "source_id": "an-found23-055000-1",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Radon–Nikodym and Riesz: When Measurements Have Densities."
+    },
+    {
+      "source_id": "an-found23-055000-2",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Radon–Nikodym and Riesz: When Measurements Have Densities."
+    },
+    {
+      "source_id": "an-found23-055000-3",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Radon–Nikodym and Riesz: When Measurements Have Densities."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "analysis:039000",
+        "file": "039000-hahn-banach-and-weak-convergence.md",
+        "sha256": "6494f41e1305919eb8bf9772e6ea5704b2f7e4dc721ccee25ac9ff76147b6436",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "039000",
+          "transcript": "039000-hahn-banach-and-weak-convergence.md",
+          "related_resources": [
+            {
+              "source_id": "an-mit-functional-18102",
+              "reason": "Lecture 5: Zorn’s lemma and Hahn–Banach extension theorem."
+            },
+            {
+              "source_id": "an-tao-functional-duality",
+              "reason": "Proof and applications of norm-preserving extension and point/subspace separation."
+            },
+            {
+              "source_id": "an-tao-functional-weak",
+              "reason": "Weak and weak-star topologies and duality-based convergence."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:066000",
+        "file": "066000-weak-and-weakstar-compactness.md",
+        "sha256": "51fe8c7d02d19024669f8a12f7f122825d1fa72e3846ed1472cda3a1400bfb2a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "066000",
+          "transcript": "066000-weak-and-weakstar-compactness.md",
+          "related_resources": [
+            {
+              "source_id": "an-found24-066000-1",
+              "reason": "Supports definitions, statements, and worked examples in Weak and Weak-Star Convergence: Compactness Without Norm Convergence."
+            },
+            {
+              "source_id": "an-found24-066000-2",
+              "reason": "Supports definitions, statements, and worked examples in Weak and Weak-Star Convergence: Compactness Without Norm Convergence."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:040000",
+        "file": "040000-baire-category-uniform-boundedness.md",
+        "sha256": "efd9c89bb2e4fdd2c8f354c74cafc4e82675933055654ff8b1310b262f999f67",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "040000",
+          "transcript": "040000-baire-category-uniform-boundedness.md",
+          "related_resources": [
+            {
+              "source_id": "an-mit-functional-18102",
+              "reason": "Lecture 3: quotient spaces, Baire category and uniform boundedness; Lecture 4 related Banach consequences."
+            },
+            {
+              "source_id": "an-tao-functional-baire",
+              "reason": "Baire theorem, Banach–Steinhaus and consequences for operator convergence."
+            },
+            {
+              "source_id": "an-tao-functional-weak",
+              "reason": "Weakly convergent sequences, norm-boundedness, and dual-space viewpoint."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:053000",
+        "file": "053000-why-bijective-operators-have-bounded-inverses.md",
+        "sha256": "5fe9f8f1eeb106787e11645cbc98cbdbbd7c02b03b3f8bd63940b31f931203fe",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "053000",
+          "transcript": "053000-why-bijective-operators-have-bounded-inverses.md",
+          "related_resources": [
+            {
+              "source_id": "an-found23-053000-1",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Why a Bijective Operator Has a Bounded Inverse."
+            },
+            {
+              "source_id": "an-found23-053000-2",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Why a Bijective Operator Has a Bounded Inverse."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:055000",
+        "file": "055000-measures-as-densities-and-linear-measurements.md",
+        "sha256": "616192b1228e0e970c1ef1d496916f03118b44c9e4ef8811562aeca57901e2b0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "055000",
+          "transcript": "055000-measures-as-densities-and-linear-measurements.md",
+          "related_resources": [
+            {
+              "source_id": "an-found23-055000-1",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Radon–Nikodym and Riesz: When Measurements Have Densities."
+            },
+            {
+              "source_id": "an-found23-055000-2",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Radon–Nikodym and Riesz: When Measurements Have Densities."
+            },
+            {
+              "source_id": "an-found23-055000-3",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Radon–Nikodym and Riesz: When Measurements Have Densities."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

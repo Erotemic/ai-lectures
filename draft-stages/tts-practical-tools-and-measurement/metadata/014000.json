@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "014000",
-  "transcript": "014000-workshop-lighting-layout-and-work-sequence-design.md",
+  "transcript": "014000-prepare-the-workshop-cut-drill-and-hold-work.md",
   "related_resources": [
     {
       "source_id": "nist-uncertainty",
@@ -30,6 +30,14 @@
     {
       "source_id": "nist-calibration",
       "reason": "Calibration limitations; precision, bias, operator changes"
+    },
+    {
+      "source_id": "osha-wood-dust-fire",
+      "reason": "Combustible dust, housekeeping, ignition and local extraction"
+    },
+    {
+      "source_id": "osha-table-saws",
+      "reason": "Saw binding, kickback, guides, stock support and guarding"
     }
   ],
   "historical_claims": [],
@@ -113,8 +121,735 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
       "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-01",
+      "claim": "Local exhaust capture near wood cutting or sanding source is a primary occupational dust-control method.",
+      "kind": "original_osha_woodworking_guidance",
+      "supports": [
+        {
+          "source_id": "osha-wood-dust-local-exhaust",
+          "location": "Production wood dust; local capture",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Dust collection and cleaning methods must account for combustible wood dust and possible ignition sources.",
+      "kind": "original_osha_fire_explosion_guidance",
+      "supports": [
+        {
+          "source_id": "osha-wood-dust-fire",
+          "location": "Woodworking fire/explosion prevention",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Cutting and grinding concrete, brick, and mortar create respirable crystalline silica hazards distinct from wood-dust exposure.",
+      "kind": "original_osha_silica_guidance",
+      "supports": [
+        {
+          "source_id": "osha-crystalline-silica",
+          "location": "Sources and consequences of respirable silica",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Respiratory equipment selection must be matched to the actual contaminant and cannot replace sound engineering control.",
+      "kind": "derived_exposure_control_synthesis",
+      "supports": [
+        {
+          "source_id": "osha-wood-dust-local-exhaust",
+          "location": "Local collection",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-crystalline-silica",
+          "location": "Material-specific risk",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P004000-01",
+      "claim": "The kerf removes material from a cut and must be accounted for in finished-length layout.",
+      "kind": "derived_physical_geometry",
+      "supports": [
+        {
+          "source_id": "osha-table-saws",
+          "location": "Saw-blade clearance and cutting action; physical geometry derived by author",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Author-derived formula, arithmetic or system synthesis; cited source supplies context rather than an identical theorem or numerical guarantee.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-02",
+      "claim": "Secure workholding and stock support reduce tool instability and blade-binding/kickback hazards.",
+      "kind": "field_practice",
+      "supports": [
+        {
+          "source_id": "osha-hand-power-tools",
+          "location": "OSHA 3080 power-tool precautions; Table Saw Kickbacks and Additional Safety Measures",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-table-saws",
+          "location": "OSHA 3080 power-tool precautions; Table Saw Kickbacks and Additional Safety Measures",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-03",
+      "claim": "Tools must be guarded, maintained and operated according to their intended mechanisms and specific instructions.",
+      "kind": "field_practice",
+      "supports": [
+        {
+          "source_id": "osha-hand-power-tools",
+          "location": "General precautions and machine guarding",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-table-saws",
+          "location": "General precautions and machine guarding",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-01",
+      "claim": "A drilled bore has axis, diameter, location and finish characteristics, not merely an entry-point position.",
+      "kind": "derived_geometry",
+      "supports": [
+        {
+          "source_id": "osha-drill-press",
+          "location": "Tool operation and setup; geometric synthesis by author",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "Hand-holding work under a drill press can allow a bit to grab and spin the stock; effective restraint is required.",
+      "kind": "machine_safety",
+      "supports": [
+        {
+          "source_id": "osha-drill-press",
+          "location": "Point of Operation: common hazard from hand-holding stock",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "Tool choice and supported breakthrough affect hole quality; hole types differ by fastening function.",
+      "kind": "derived_field_practice",
+      "supports": [
+        {
+          "source_id": "osha-hand-power-tools",
+          "location": "Hand tool selection and drill press operation; joining-design synthesis by author",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-drill-press",
+          "location": "Hand tool selection and drill press operation; joining-design synthesis by author",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P013000-01",
+      "claim": "A repeatable fixture requires stable references, restraint against tool forces and independent verification of setup accuracy.",
+      "kind": "derived_tooling_method",
+      "supports": [
+        {
+          "source_id": "nist-repeatability",
+          "location": "Definition and conditions for repeatability",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-calibration",
+          "location": "Calibration limitations; precision, bias, operator changes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "Clamping force alone does not necessarily constrain a workpiece against torque or unintended movement.",
+      "kind": "derived_workholding_principle",
+      "supports": [
+        {
+          "source_id": "osha-hand-power-tools",
+          "location": "Tool guarding, securing work with clamps and correct tool operation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-drill-press",
+          "location": "Clamping stock, twist hazards and drill press operational constraints",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Portable benches can be strong yet mechanically flexible when they rack or rock under lateral loads.",
+      "kind": "derived_mechanics_synthesis",
+      "supports": [
+        {
+          "source_id": "osha-hand-power-tools",
+          "location": "Tool guarding, securing work with clamps and correct tool operation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Measurement values, standards and uncertainty",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-tools-and-measurement:014000",
+        "file": "014000-workshop-lighting-layout-and-work-sequence-design.md",
+        "sha256": "12250b18ba012ecfd3782918fdbef53032b349535ef7b3d3762c8191a1fd305c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-workshop-lighting-layout-and-work-sequence-design.md",
+          "related_resources": [
+            {
+              "source_id": "nist-uncertainty",
+              "reason": "Measurement values, standards and uncertainty"
+            },
+            {
+              "source_id": "nist-repeatability",
+              "reason": "Definition and conditions for repeatability"
+            },
+            {
+              "source_id": "osha-hand-power-tools",
+              "reason": "Tool guarding, securing work with clamps and correct tool operation"
+            },
+            {
+              "source_id": "osha-drill-press",
+              "reason": "Clamping stock, twist hazards and drill press operational constraints"
+            },
+            {
+              "source_id": "osha-wood-dust-local-exhaust",
+              "reason": "Wood dust exposure and preferred local source capture, hoods and collectors"
+            },
+            {
+              "source_id": "osha-crystalline-silica",
+              "reason": "Respirable silica production by concrete and masonry work and control distinction"
+            },
+            {
+              "source_id": "nist-calibration",
+              "reason": "Calibration limitations; precision, bias, operator changes"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P014000-01",
+              "claim": "Task lighting and viewing geometry affect whether surface defects and measurement references can be seen.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement values, standards and uncertainty",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-repeatability",
+                  "location": "Definition and conditions for repeatability",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-02",
+              "claim": "Fixtures and workholding must resist actual operating forces and moments, not merely clamp a part downward.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "osha-hand-power-tools",
+                  "location": "Tool guarding, securing work with clamps and correct tool operation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-drill-press",
+                  "location": "Clamping stock, twist hazards and drill press operational constraints",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-03",
+              "claim": "Dust capture and ventilation depend on the material and process, not simply moving contamination out of the work area.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "osha-wood-dust-local-exhaust",
+                  "location": "Wood dust exposure and preferred local source capture, hoods and collectors",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-crystalline-silica",
+                  "location": "Respirable silica production by concrete and masonry work and control distinction",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-04",
+              "claim": "First-article inspection before batching irreversible operations reduces replicated setup errors.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-repeatability",
+                  "location": "Definition and conditions for repeatability",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-calibration",
+                  "location": "Calibration limitations; precision, bias, operator changes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-tools-and-measurement:011000",
+        "file": "011000-dust-collection-respiratory-exposure-and-workshop-ventilation.md",
+        "sha256": "b86bf2ad4884c36095d6b4c5e311439c8ac92944607be8b5497ad7cfaf7a2c10",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-dust-collection-respiratory-exposure-and-workshop-ventilation.md",
+          "related_resources": [
+            {
+              "source_id": "osha-wood-dust-local-exhaust",
+              "reason": "Wood dust exposure and preferred local source capture, hoods and collectors"
+            },
+            {
+              "source_id": "osha-wood-dust-fire",
+              "reason": "Combustible dust, housekeeping, ignition and local extraction"
+            },
+            {
+              "source_id": "osha-crystalline-silica",
+              "reason": "Respirable silica production by concrete and masonry work and control distinction"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "Local exhaust capture near wood cutting or sanding source is a primary occupational dust-control method.",
+              "kind": "original_osha_woodworking_guidance",
+              "supports": [
+                {
+                  "source_id": "osha-wood-dust-local-exhaust",
+                  "location": "Production wood dust; local capture",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "Dust collection and cleaning methods must account for combustible wood dust and possible ignition sources.",
+              "kind": "original_osha_fire_explosion_guidance",
+              "supports": [
+                {
+                  "source_id": "osha-wood-dust-fire",
+                  "location": "Woodworking fire/explosion prevention",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "Cutting and grinding concrete, brick, and mortar create respirable crystalline silica hazards distinct from wood-dust exposure.",
+              "kind": "original_osha_silica_guidance",
+              "supports": [
+                {
+                  "source_id": "osha-crystalline-silica",
+                  "location": "Sources and consequences of respirable silica",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "Respiratory equipment selection must be matched to the actual contaminant and cannot replace sound engineering control.",
+              "kind": "derived_exposure_control_synthesis",
+              "supports": [
+                {
+                  "source_id": "osha-wood-dust-local-exhaust",
+                  "location": "Local collection",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-crystalline-silica",
+                  "location": "Material-specific risk",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-tools-and-measurement:004000",
+        "file": "004000-cutting-kerf-and-workholding.md",
+        "sha256": "36d26e557a92309db9bdb047b6db5e29140143bf55ad633fc93e2888446f3915",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-cutting-kerf-and-workholding.md",
+          "related_resources": [
+            {
+              "source_id": "osha-table-saws",
+              "reason": "Saw binding, kickback, guides, stock support and guarding"
+            },
+            {
+              "source_id": "osha-hand-power-tools",
+              "reason": "Tool guarding, securing work with clamps and correct tool operation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P004000-01",
+              "claim": "The kerf removes material from a cut and must be accounted for in finished-length layout.",
+              "kind": "derived_physical_geometry",
+              "supports": [
+                {
+                  "source_id": "osha-table-saws",
+                  "location": "Saw-blade clearance and cutting action; physical geometry derived by author",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Author-derived formula, arithmetic or system synthesis; cited source supplies context rather than an identical theorem or numerical guarantee.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-02",
+              "claim": "Secure workholding and stock support reduce tool instability and blade-binding/kickback hazards.",
+              "kind": "field_practice",
+              "supports": [
+                {
+                  "source_id": "osha-hand-power-tools",
+                  "location": "OSHA 3080 power-tool precautions; Table Saw Kickbacks and Additional Safety Measures",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-table-saws",
+                  "location": "OSHA 3080 power-tool precautions; Table Saw Kickbacks and Additional Safety Measures",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-03",
+              "claim": "Tools must be guarded, maintained and operated according to their intended mechanisms and specific instructions.",
+              "kind": "field_practice",
+              "supports": [
+                {
+                  "source_id": "osha-hand-power-tools",
+                  "location": "General precautions and machine guarding",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-table-saws",
+                  "location": "General precautions and machine guarding",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design."
+        }
+      },
+      {
+        "id": "practical-tools-and-measurement:005000",
+        "file": "005000-drilling-and-hole-geometry.md",
+        "sha256": "2043a5e4b3c92048c947c842c1c716a72ef0a9445a5d3f185e069f18888312e6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-drilling-and-hole-geometry.md",
+          "related_resources": [
+            {
+              "source_id": "osha-drill-press",
+              "reason": "Clamping stock, twist hazards and drill press operational constraints"
+            },
+            {
+              "source_id": "osha-hand-power-tools",
+              "reason": "Tool guarding, securing work with clamps and correct tool operation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P005000-01",
+              "claim": "A drilled bore has axis, diameter, location and finish characteristics, not merely an entry-point position.",
+              "kind": "derived_geometry",
+              "supports": [
+                {
+                  "source_id": "osha-drill-press",
+                  "location": "Tool operation and setup; geometric synthesis by author",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-02",
+              "claim": "Hand-holding work under a drill press can allow a bit to grab and spin the stock; effective restraint is required.",
+              "kind": "machine_safety",
+              "supports": [
+                {
+                  "source_id": "osha-drill-press",
+                  "location": "Point of Operation: common hazard from hand-holding stock",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-03",
+              "claim": "Tool choice and supported breakthrough affect hole quality; hole types differ by fastening function.",
+              "kind": "derived_field_practice",
+              "supports": [
+                {
+                  "source_id": "osha-hand-power-tools",
+                  "location": "Hand tool selection and drill press operation; joining-design synthesis by author",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-drill-press",
+                  "location": "Hand tool selection and drill press operation; joining-design synthesis by author",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+        }
+      },
+      {
+        "id": "practical-tools-and-measurement:013000",
+        "file": "013000-portable-workbenches-clamping-layouts-and-repeatable-assembly.md",
+        "sha256": "19f1e868452567e06b293e74efd1a046a0ff4aff34cac1d72cd546ec93a0b18a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-portable-workbenches-clamping-layouts-and-repeatable-assembly.md",
+          "related_resources": [
+            {
+              "source_id": "nist-repeatability",
+              "reason": "Definition and conditions for repeatability"
+            },
+            {
+              "source_id": "nist-calibration",
+              "reason": "Calibration limitations; precision, bias, operator changes"
+            },
+            {
+              "source_id": "osha-hand-power-tools",
+              "reason": "Tool guarding, securing work with clamps and correct tool operation"
+            },
+            {
+              "source_id": "osha-drill-press",
+              "reason": "Clamping stock, twist hazards and drill press operational constraints"
+            },
+            {
+              "source_id": "nist-uncertainty",
+              "reason": "Measurement values, standards and uncertainty"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "A repeatable fixture requires stable references, restraint against tool forces and independent verification of setup accuracy.",
+              "kind": "derived_tooling_method",
+              "supports": [
+                {
+                  "source_id": "nist-repeatability",
+                  "location": "Definition and conditions for repeatability",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-calibration",
+                  "location": "Calibration limitations; precision, bias, operator changes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "Clamping force alone does not necessarily constrain a workpiece against torque or unintended movement.",
+              "kind": "derived_workholding_principle",
+              "supports": [
+                {
+                  "source_id": "osha-hand-power-tools",
+                  "location": "Tool guarding, securing work with clamps and correct tool operation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-drill-press",
+                  "location": "Clamping stock, twist hazards and drill press operational constraints",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "Portable benches can be strong yet mechanically flexible when they rack or rock under lateral loads.",
+              "kind": "derived_mechanics_synthesis",
+              "supports": [
+                {
+                  "source_id": "osha-hand-power-tools",
+                  "location": "Tool guarding, securing work with clamps and correct tool operation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement values, standards and uncertainty",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "014000-prepare-the-workshop-cut-drill-and-hold-work.md"
+      ],
+      "joined_before_source_parts": [
+        "011000",
+        "004000"
+      ]
+    }
+  ]
 }

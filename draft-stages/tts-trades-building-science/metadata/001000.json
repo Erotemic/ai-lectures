@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-a-house-is-a-system-of-flows.md",
+  "transcript": "001000-follow-heat-air-rain-and-drying-through-an-enclosure.md",
   "related_resources": [
     {
       "source_id": "doe-air-vapor",
@@ -14,6 +14,34 @@
     {
       "source_id": "cdc-mold",
       "reason": "Moisture as a prerequisite for indoor mold growth"
+    },
+    {
+      "source_id": "doe-ci",
+      "reason": "Framing thermal bridges and continuous insulation"
+    },
+    {
+      "source_id": "pnnl-ci",
+      "reason": "Assembly details, moisture/climate and thermal bridging"
+    },
+    {
+      "source_id": "pnnl-air-flow",
+      "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+    },
+    {
+      "source_id": "pnnl-drainage-plane",
+      "reason": "Continuity of water-control layer; shingle laps and exterior drainage"
+    },
+    {
+      "source_id": "pnnl-window-flashing",
+      "reason": "Sill pan, jamb/head flashing and connections to drainage plane"
+    },
+    {
+      "source_id": "pnnl-cold-condensation",
+      "reason": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways"
+    },
+    {
+      "source_id": "doe-airsealing-audit-2010",
+      "reason": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions"
     }
   ],
   "historical_claims": [],
@@ -67,8 +95,841 @@
       "verification_level": "public_source_identified_editorial_check_pending",
       "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
       "professional_review": "pending"
+    },
+    {
+      "claim_id": "P002000-01",
+      "claim": "Framing creates parallel lower-resistance thermal pathways in insulated walls.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "doe-ci",
+          "location": "DOE discussion of thermal bridges through framing",
+          "role": "reference"
+        },
+        {
+          "source_id": "pnnl-ci",
+          "location": "DOE discussion of thermal bridges through framing",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-02",
+      "claim": "Continuous insulation reduces the effect of bridging that bypasses cavity insulation.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "doe-ci",
+          "location": "Continuous insulation discussion and detailed assemblies",
+          "role": "reference"
+        },
+        {
+          "source_id": "pnnl-ci",
+          "location": "Continuous insulation discussion and detailed assemblies",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-03",
+      "claim": "Quantitative whole-wall values require recognizing assembly and boundary conditions.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "pnnl-ci",
+          "location": "Whole-wall coverage and enclosure moisture/air effects",
+          "role": "reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Whole-wall coverage and enclosure moisture/air effects",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P003000-01",
+      "claim": "Winter stack effect commonly creates inward leakage low and exfiltration high with an intervening neutral pressure plane.",
+      "kind": "physical_mechanism",
+      "supports": [
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack Effect and Neutral Pressure Plane subsections",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P003000-02",
+      "claim": "Wind and fans alter pressure fields and leakage flow independently of the opening itself.",
+      "kind": "physical_mechanism",
+      "supports": [
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Air Flow and Duct Leakage; air barriers discussion",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Air Flow and Duct Leakage; air barriers discussion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P003000-03",
+      "claim": "A continuous air barrier is distinct from vapor diffusion control and planned ventilation.",
+      "kind": "field_practice",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Enclosure air barriers versus vapor barriers and air flow overview",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Enclosure air barriers versus vapor barriers and air flow overview",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P004000-01",
+      "claim": "Drainage planes are secondary water-control layers behind cladding, connected to paths that shed water down and out.",
+      "kind": "physical_mechanism",
+      "supports": [
+        {
+          "source_id": "pnnl-drainage-plane",
+          "location": "Scope and Description: continuous drainage plane, shingle-lapped WRB",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-02",
+      "claim": "Water-control layers and flashing must be integrated at windows, doors, penetrations and wall terminations.",
+      "kind": "field_practice",
+      "supports": [
+        {
+          "source_id": "pnnl-window-flashing",
+          "location": "Scope: pan, jamb and head flashing; Description: intersections and exit",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-drainage-plane",
+          "location": "Scope: pan, jamb and head flashing; Description: intersections and exit",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-03",
+      "claim": "Surface cladding, drainage layer, and air-barrier functions should not be treated as interchangeable.",
+      "kind": "design_distinction",
+      "supports": [
+        {
+          "source_id": "pnnl-drainage-plane",
+          "location": "Description: rainwater versus air-barrier function",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-01",
+      "claim": "Air transport, diffusion and liquid-water movement are physically distinct moisture transport mechanisms.",
+      "kind": "physical_mechanism",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Air barriers vs vapor barriers; cold-weather condensation: air leakage and vapor retarders",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-cold-condensation",
+          "location": "Air barriers vs vapor barriers; cold-weather condensation: air leakage and vapor retarders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "Exterior insulation affects sheathing temperature and may change moisture-condensation and drying risks.",
+      "kind": "building_assembly_design",
+      "supports": [
+        {
+          "source_id": "pnnl-cold-condensation",
+          "location": "Description and Ensuring Success: continuous insulation and drying pathways",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-ci",
+          "location": "Description and Ensuring Success: continuous insulation and drying pathways",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "Moisture management must consider drying paths, including avoiding double vapor-resistant layers when appropriate.",
+      "kind": "field_practice",
+      "supports": [
+        {
+          "source_id": "pnnl-cold-condensation",
+          "location": "Ensuring Success: avoid double vapor retarders and support assembly drying",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "Air leakage requires a pressure difference and a connected flow path across an air boundary.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Separate air leakage, vapor diffusion and water-management functions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Chases, dropped soffits, and utility penetrations can bypass insulation and ceiling air boundaries.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-airsealing-audit-2010",
+          "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Duct leakage and envelope-chase leakage are physically distinct paths with potentially interacting pressure effects.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Separate air leakage, vapor diffusion and water-management functions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Air-sealing interventions must preserve fire and combustion clearances and intentional ventilation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-airsealing-audit-2010",
+          "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "educational_draft_sources_recorded_not_field_validated",
-  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-building-science:001000",
+        "file": "001000-a-house-is-a-system-of-flows.md",
+        "sha256": "c6bf2e6daf148a3d8183e60e6c0c9645d3d0786eb0db030fda83678f6968598a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-a-house-is-a-system-of-flows.md",
+          "related_resources": [
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Separate air leakage, vapor diffusion and water-management functions"
+            },
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4, 13–17: wood moisture, drying and buildings"
+            },
+            {
+              "source_id": "cdc-mold",
+              "reason": "Moisture as a prerequisite for indoor mold growth"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P001000-01",
+              "claim": "Air barriers and vapor retarders perform different transport-control functions",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Separate air leakage, vapor diffusion and water-management functions",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-02",
+              "claim": "Moisture changes wood performance and decay risk",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4, 13–17: wood moisture, drying and buildings",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "cdc-mold",
+                  "location": "Moisture as a prerequisite for indoor mold growth",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-03",
+              "claim": "Enclosure strategy depends on climate and assembly",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Separate air leakage, vapor diffusion and water-management functions",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            }
+          ],
+          "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+          "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+        }
+      },
+      {
+        "id": "trades-building-science:002000",
+        "file": "002000-heat-flow-thermal-bridges-and-whole-assembly-r-values.md",
+        "sha256": "36e81008f6ff607de8ec4cb4c8dc4bbb25789130cc935a307e3286338ccb62d8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-heat-flow-thermal-bridges-and-whole-assembly-r-values.md",
+          "related_resources": [
+            {
+              "source_id": "doe-ci",
+              "reason": "Framing thermal bridges and continuous insulation"
+            },
+            {
+              "source_id": "pnnl-ci",
+              "reason": "Assembly details, moisture/climate and thermal bridging"
+            },
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Separate air leakage, vapor diffusion and water-management functions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P002000-01",
+              "claim": "Framing creates parallel lower-resistance thermal pathways in insulated walls.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "doe-ci",
+                  "location": "DOE discussion of thermal bridges through framing",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "pnnl-ci",
+                  "location": "DOE discussion of thermal bridges through framing",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-02",
+              "claim": "Continuous insulation reduces the effect of bridging that bypasses cavity insulation.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "doe-ci",
+                  "location": "Continuous insulation discussion and detailed assemblies",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "pnnl-ci",
+                  "location": "Continuous insulation discussion and detailed assemblies",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-03",
+              "claim": "Quantitative whole-wall values require recognizing assembly and boundary conditions.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "pnnl-ci",
+                  "location": "Whole-wall coverage and enclosure moisture/air effects",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Whole-wall coverage and enclosure moisture/air effects",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+        }
+      },
+      {
+        "id": "trades-building-science:003000",
+        "file": "003000-air-leakage-pressure-differences-and-stack-effect.md",
+        "sha256": "bfc0e5df7e84d53a3958d45dc618c50689c5e85f051bb36a3451c4425fbcd466",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-air-leakage-pressure-differences-and-stack-effect.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-air-flow",
+              "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+            },
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Separate air leakage, vapor diffusion and water-management functions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P003000-01",
+              "claim": "Winter stack effect commonly creates inward leakage low and exfiltration high with an intervening neutral pressure plane.",
+              "kind": "physical_mechanism",
+              "supports": [
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Stack Effect and Neutral Pressure Plane subsections",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-02",
+              "claim": "Wind and fans alter pressure fields and leakage flow independently of the opening itself.",
+              "kind": "physical_mechanism",
+              "supports": [
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Air Flow and Duct Leakage; air barriers discussion",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Air Flow and Duct Leakage; air barriers discussion",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-03",
+              "claim": "A continuous air barrier is distinct from vapor diffusion control and planned ventilation.",
+              "kind": "field_practice",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Enclosure air barriers versus vapor barriers and air flow overview",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Enclosure air barriers versus vapor barriers and air flow overview",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+        }
+      },
+      {
+        "id": "trades-building-science:004000",
+        "file": "004000-rain-control-flashing-and-drainage-planes.md",
+        "sha256": "abb42c6a0b5e2a65a0a143bf6af7e112e9243d5a540101af7ce13eca7b0c2a74",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-rain-control-flashing-and-drainage-planes.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-drainage-plane",
+              "reason": "Continuity of water-control layer; shingle laps and exterior drainage"
+            },
+            {
+              "source_id": "pnnl-window-flashing",
+              "reason": "Sill pan, jamb/head flashing and connections to drainage plane"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P004000-01",
+              "claim": "Drainage planes are secondary water-control layers behind cladding, connected to paths that shed water down and out.",
+              "kind": "physical_mechanism",
+              "supports": [
+                {
+                  "source_id": "pnnl-drainage-plane",
+                  "location": "Scope and Description: continuous drainage plane, shingle-lapped WRB",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-02",
+              "claim": "Water-control layers and flashing must be integrated at windows, doors, penetrations and wall terminations.",
+              "kind": "field_practice",
+              "supports": [
+                {
+                  "source_id": "pnnl-window-flashing",
+                  "location": "Scope: pan, jamb and head flashing; Description: intersections and exit",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-drainage-plane",
+                  "location": "Scope: pan, jamb and head flashing; Description: intersections and exit",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-03",
+              "claim": "Surface cladding, drainage layer, and air-barrier functions should not be treated as interchangeable.",
+              "kind": "design_distinction",
+              "supports": [
+                {
+                  "source_id": "pnnl-drainage-plane",
+                  "location": "Description: rainwater versus air-barrier function",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design."
+        }
+      },
+      {
+        "id": "trades-building-science:005000",
+        "file": "005000-vapor-diffusion-condensation-and-drying-paths.md",
+        "sha256": "b518333287f2186b70f2caee3f0d7a4f2977f8ae4bb131913f241267c89ab842",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-vapor-diffusion-condensation-and-drying-paths.md",
+          "related_resources": [
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Separate air leakage, vapor diffusion and water-management functions"
+            },
+            {
+              "source_id": "pnnl-cold-condensation",
+              "reason": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways"
+            },
+            {
+              "source_id": "pnnl-ci",
+              "reason": "Assembly details, moisture/climate and thermal bridging"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P005000-01",
+              "claim": "Air transport, diffusion and liquid-water movement are physically distinct moisture transport mechanisms.",
+              "kind": "physical_mechanism",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Air barriers vs vapor barriers; cold-weather condensation: air leakage and vapor retarders",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-cold-condensation",
+                  "location": "Air barriers vs vapor barriers; cold-weather condensation: air leakage and vapor retarders",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-02",
+              "claim": "Exterior insulation affects sheathing temperature and may change moisture-condensation and drying risks.",
+              "kind": "building_assembly_design",
+              "supports": [
+                {
+                  "source_id": "pnnl-cold-condensation",
+                  "location": "Description and Ensuring Success: continuous insulation and drying pathways",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-ci",
+                  "location": "Description and Ensuring Success: continuous insulation and drying pathways",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-03",
+              "claim": "Moisture management must consider drying paths, including avoiding double vapor-resistant layers when appropriate.",
+              "kind": "field_practice",
+              "supports": [
+                {
+                  "source_id": "pnnl-cold-condensation",
+                  "location": "Ensuring Success: avoid double vapor retarders and support assembly drying",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+        }
+      },
+      {
+        "id": "trades-building-science:017000",
+        "file": "017000-airflow-pathways-in-rooms-duct-chases-and-bypasses.md",
+        "sha256": "d3211ec2abb163b27275bd1168a8379b5ed4be1764eacdf5113fd39936de0e31",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-airflow-pathways-in-rooms-duct-chases-and-bypasses.md",
+          "related_resources": [
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Separate air leakage, vapor diffusion and water-management functions"
+            },
+            {
+              "source_id": "pnnl-air-flow",
+              "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+            },
+            {
+              "source_id": "doe-airsealing-audit-2010",
+              "reason": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "Air leakage requires a pressure difference and a connected flow path across an air boundary.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Separate air leakage, vapor diffusion and water-management functions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "Chases, dropped soffits, and utility penetrations can bypass insulation and ceiling air boundaries.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-airsealing-audit-2010",
+                  "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "Duct leakage and envelope-chase leakage are physically distinct paths with potentially interacting pressure effects.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Separate air leakage, vapor diffusion and water-management functions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "Air-sealing interventions must preserve fire and combustion clearances and intentional ventilation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-airsealing-audit-2010",
+                  "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "001000-follow-heat-air-rain-and-drying-through-an-enclosure.md"
+      ],
+      "joined_before_source_parts": [
+        "002000",
+        "005000",
+        "017000"
+      ]
+    }
+  ]
 }

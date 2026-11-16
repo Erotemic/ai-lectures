@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-see-the-problem-and-organize-the-response.md",
+  "transcript": "001000-organize-the-first-minutes-and-immediate-life-threats.md",
   "related_resources": [
     {
       "source_id": "rc-first-aid",
@@ -18,6 +18,34 @@
     {
       "source_id": "rc-hands",
       "reason": "Compression-only adult CPR context"
+    },
+    {
+      "source_id": "aha-warning",
+      "reason": "Heart attack symptoms and B.E.F.A.S.T. stroke recognition"
+    },
+    {
+      "source_id": "redcross-stroke",
+      "reason": "Stroke symptoms, FAST and emergency activation"
+    },
+    {
+      "source_id": "aha-bls-2025",
+      "reason": "Adult lay responder algorithm, compressions, activation and defibrillation"
+    },
+    {
+      "source_id": "aha-redcross-2024-firstaid",
+      "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+    },
+    {
+      "source_id": "redcross-severe-bleed",
+      "reason": "Recognize severe bleeding, apply direct pressure and trained methods, activate emergency help"
+    },
+    {
+      "source_id": "aha-adult-bls-2025",
+      "reason": "Severe adult choking 5 back blows then 5 abdominal thrusts; pregnancy exception; CPR and visible-object guidance"
+    },
+    {
+      "source_id": "aha-pediatric-bls-2025",
+      "reason": "Infant 5 back blows and 5 chest thrusts, child abdominal thrusts, recognition of unresponsiveness and airway obstruction"
     }
   ],
   "historical_claims": [],
@@ -81,8 +109,842 @@
       "verification_level": "public_source_identified_editorial_check_pending",
       "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
       "professional_review": "pending"
+    },
+    {
+      "claim_id": "P002000-01",
+      "claim": "Unresponsiveness with absent or abnormal breathing warrants emergency call, CPR and AED access.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "rc-first-aid",
+          "location": "Red Cross: life threats and cardiac arrest",
+          "role": "reference"
+        },
+        {
+          "source_id": "rc-cpr",
+          "location": "Red Cross: life threats and cardiac arrest",
+          "role": "reference"
+        },
+        {
+          "source_id": "rc-aed",
+          "location": "Red Cross: life threats and cardiac arrest",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-02",
+      "claim": "Stroke warning signs include facial, arm, speech and sudden balance/visual changes.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "aha-warning",
+          "location": "AHA BE FAST and Red Cross FAST",
+          "role": "reference"
+        },
+        {
+          "source_id": "redcross-stroke",
+          "location": "AHA BE FAST and Red Cross FAST",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-03",
+      "claim": "Emergency assessment should distinguish observations from a presumed diagnosis.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "rc-first-aid",
+          "location": "Check-Call-Care and condition signs",
+          "role": "reference"
+        },
+        {
+          "source_id": "redcross-stroke",
+          "location": "Check-Call-Care and condition signs",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-04",
+      "claim": "Heart attack warning signs can include chest discomfort and other associated symptoms.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "aha-warning",
+          "location": "AHA heart attack symptoms",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P003000-01",
+      "claim": "For an unresponsive adult who is absent normal breathing or only gasping, activate EMS promptly and begin CPR.",
+      "kind": "clinical_guideline",
+      "supports": [
+        {
+          "source_id": "aha-bls-2025",
+          "location": "AHA 2025 lay-rescuer BLS algorithm; Red Cross steps 2–5",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rc-cpr",
+          "location": "AHA 2025 lay-rescuer BLS algorithm; Red Cross steps 2–5",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "medical_editorial_review_pending_and_current_guidelines_must_be_checked"
+    },
+    {
+      "claim_id": "P003000-02",
+      "claim": "For an average adult, compressions are 100–120 per minute at least 5 cm deep while avoiding >6 cm.",
+      "kind": "clinical_guideline",
+      "supports": [
+        {
+          "source_id": "aha-bls-2025",
+          "location": "AHA 2025 compression depth/rate section; Red Cross CPR step 5",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rc-cpr",
+          "location": "AHA 2025 compression depth/rate section; Red Cross CPR step 5",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "medical_editorial_review_pending_and_current_guidelines_must_be_checked"
+    },
+    {
+      "claim_id": "P003000-03",
+      "claim": "Adult compression-only CPR is an important option for untrained lay rescuers, while trained standard CPR uses 30:2.",
+      "kind": "clinical_guideline",
+      "supports": [
+        {
+          "source_id": "aha-bls-2025",
+          "location": "AHA 2025 lay-rescuer sections; Red Cross hands-only and breaths",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rc-hands",
+          "location": "AHA 2025 lay-rescuer sections; Red Cross hands-only and breaths",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rc-cpr",
+          "location": "AHA 2025 lay-rescuer sections; Red Cross hands-only and breaths",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "medical_editorial_review_pending_and_current_guidelines_must_be_checked"
+    },
+    {
+      "claim_id": "P003000-04",
+      "claim": "An AED should be applied promptly and its prompts followed, resuming CPR whether shock is or is not advised.",
+      "kind": "clinical_guideline",
+      "supports": [
+        {
+          "source_id": "aha-bls-2025",
+          "location": "AHA 2025 AED and adult algorithm; Red Cross AED steps 2–7",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rc-aed",
+          "location": "AHA 2025 AED and adult algorithm; Red Cross AED steps 2–7",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "medical_editorial_review_pending_and_current_guidelines_must_be_checked"
+    },
+    {
+      "claim_id": "P004000-01",
+      "claim": "Life-threatening external bleeding requires prompt recognition, emergency activation and direct manual pressure.",
+      "kind": "clinical_consensus",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "2024 AHA/Red Cross top take-home and First Aid for Severe External Bleeding",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "redcross-severe-bleed",
+          "location": "2024 AHA/Red Cross top take-home and First Aid for Severe External Bleeding",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "clinical_review_required_before_authoritative_first_aid_publication"
+    },
+    {
+      "claim_id": "P004000-02",
+      "claim": "A manufactured tourniquet is an appropriate intervention for severe extremity bleeding under current first-aid guidance.",
+      "kind": "clinical_consensus",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "AHA/Red Cross severe extremity bleeding table, Red Cross trained response",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "redcross-severe-bleed",
+          "location": "AHA/Red Cross severe extremity bleeding table, Red Cross trained response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "clinical_review_required_before_authoritative_first_aid_publication"
+    },
+    {
+      "claim_id": "P004000-03",
+      "claim": "Wound packing and tourniquet use require attention to injury location and training, not a universal one-method response.",
+      "kind": "clinical_consensus",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Severe external bleeding guideline; Red Cross trained wound packing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "redcross-severe-bleed",
+          "location": "Severe external bleeding guideline; Red Cross trained wound packing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "clinical_review_required_before_authoritative_first_aid_publication"
+    },
+    {
+      "claim_id": "P005000-01",
+      "claim": "2025 AHA guidelines recommend repeated five back blows and five abdominal thrusts for severe conscious adult and child choking, with specified adult pregnancy/encircling exceptions.",
+      "kind": "2025_resuscitation_guideline",
+      "supports": [
+        {
+          "source_id": "aha-adult-bls-2025",
+          "location": "Adult 10.1/10.3 and Pediatric foreign-body airway obstruction recommendations",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aha-pediatric-bls-2025",
+          "location": "Adult 10.1/10.3 and Pediatric foreign-body airway obstruction recommendations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "clinical_review_required_before_authoritative_publication"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "Infants with severe foreign-body airway obstruction receive five back blows and five chest thrusts, not abdominal thrusts.",
+      "kind": "2025_resuscitation_guideline",
+      "supports": [
+        {
+          "source_id": "aha-pediatric-bls-2025",
+          "location": "Pediatric BLS key take-home 4-5, FBAO recommendations 2-3",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "clinical_review_required_before_authoritative_publication"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "Unresponsive choking patients should enter age-appropriate CPR response, with visible-object removal only and no blind finger sweep.",
+      "kind": "2025_resuscitation_guideline",
+      "supports": [
+        {
+          "source_id": "aha-adult-bls-2025",
+          "location": "Adult 10.2, Pediatric FBAO recommendations 4-7",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aha-pediatric-bls-2025",
+          "location": "Adult 10.2, Pediatric FBAO recommendations 4-7",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "clinical_review_required_before_authoritative_publication"
+    },
+    {
+      "claim_id": "P005000-04",
+      "claim": "Severe allergic respiratory distress is different from foreign-body choking and requires condition-specific emergency care.",
+      "kind": "clinical_consensus",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "First Aid guideline general emergency recognition and anaphylaxis sections",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "clinical_review_required_before_authoritative_publication"
     }
   ],
   "editorial_status": "educational_draft_sources_recorded_not_field_validated",
-  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-first-aid:001000",
+        "file": "001000-see-the-problem-and-organize-the-response.md",
+        "sha256": "6edd48be7343d08df65be0357ffb592e5af667ac641dd10aee201623acb83c34",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-see-the-problem-and-organize-the-response.md",
+          "related_resources": [
+            {
+              "source_id": "rc-first-aid",
+              "reason": "Check, Call, Care and emergency activation"
+            },
+            {
+              "source_id": "rc-cpr",
+              "reason": "Cardiac arrest CPR and age-specific guidance"
+            },
+            {
+              "source_id": "rc-aed",
+              "reason": "AED prompts, clear before analysis and shock"
+            },
+            {
+              "source_id": "rc-hands",
+              "reason": "Compression-only adult CPR context"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P001000-01",
+              "claim": "Cardiac arrest response needs emergency activation and CPR/AED",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "rc-first-aid",
+                  "location": "Check, Call, Care and emergency activation",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "rc-cpr",
+                  "location": "Cardiac arrest CPR and age-specific guidance",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "rc-aed",
+                  "location": "AED prompts, clear before analysis and shock",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-02",
+              "claim": "An AED is used following device prompts and clear commands",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "rc-aed",
+                  "location": "AED prompts, clear before analysis and shock",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-03",
+              "claim": "Hands-only CPR guidance is distinct from age-specific conventional CPR",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "rc-hands",
+                  "location": "Compression-only adult CPR context",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "rc-cpr",
+                  "location": "Cardiac arrest CPR and age-specific guidance",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            }
+          ],
+          "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+          "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+        }
+      },
+      {
+        "id": "practical-first-aid:002000",
+        "file": "002000-recognizing-urgent-conditions-and-calling-for-help.md",
+        "sha256": "5559c5a07c7db3ab01e4f5c88c7c72ea263e0a1dae1d909c0de13f268a6bde2a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-recognizing-urgent-conditions-and-calling-for-help.md",
+          "related_resources": [
+            {
+              "source_id": "rc-first-aid",
+              "reason": "Check, Call, Care and emergency activation"
+            },
+            {
+              "source_id": "rc-cpr",
+              "reason": "Cardiac arrest CPR and age-specific guidance"
+            },
+            {
+              "source_id": "rc-aed",
+              "reason": "AED prompts, clear before analysis and shock"
+            },
+            {
+              "source_id": "aha-warning",
+              "reason": "Heart attack symptoms and B.E.F.A.S.T. stroke recognition"
+            },
+            {
+              "source_id": "redcross-stroke",
+              "reason": "Stroke symptoms, FAST and emergency activation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P002000-01",
+              "claim": "Unresponsiveness with absent or abnormal breathing warrants emergency call, CPR and AED access.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "rc-first-aid",
+                  "location": "Red Cross: life threats and cardiac arrest",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "rc-cpr",
+                  "location": "Red Cross: life threats and cardiac arrest",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "rc-aed",
+                  "location": "Red Cross: life threats and cardiac arrest",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-02",
+              "claim": "Stroke warning signs include facial, arm, speech and sudden balance/visual changes.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "aha-warning",
+                  "location": "AHA BE FAST and Red Cross FAST",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "redcross-stroke",
+                  "location": "AHA BE FAST and Red Cross FAST",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-03",
+              "claim": "Emergency assessment should distinguish observations from a presumed diagnosis.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "rc-first-aid",
+                  "location": "Check-Call-Care and condition signs",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "redcross-stroke",
+                  "location": "Check-Call-Care and condition signs",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-04",
+              "claim": "Heart attack warning signs can include chest discomfort and other associated symptoms.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "aha-warning",
+                  "location": "AHA heart attack symptoms",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+        }
+      },
+      {
+        "id": "practical-first-aid:003000",
+        "file": "003000-cpr-and-aed-adult-principles-and-training-practice.md",
+        "sha256": "de11cc0af4c6b7224fb754eb36acabb9dbeb384ca5498c80cb54dd6b03a6c06d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-cpr-and-aed-adult-principles-and-training-practice.md",
+          "related_resources": [
+            {
+              "source_id": "aha-bls-2025",
+              "reason": "Adult lay responder algorithm, compressions, activation and defibrillation"
+            },
+            {
+              "source_id": "rc-cpr",
+              "reason": "Cardiac arrest CPR and age-specific guidance"
+            },
+            {
+              "source_id": "rc-hands",
+              "reason": "Compression-only adult CPR context"
+            },
+            {
+              "source_id": "rc-aed",
+              "reason": "AED prompts, clear before analysis and shock"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P003000-01",
+              "claim": "For an unresponsive adult who is absent normal breathing or only gasping, activate EMS promptly and begin CPR.",
+              "kind": "clinical_guideline",
+              "supports": [
+                {
+                  "source_id": "aha-bls-2025",
+                  "location": "AHA 2025 lay-rescuer BLS algorithm; Red Cross steps 2–5",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "rc-cpr",
+                  "location": "AHA 2025 lay-rescuer BLS algorithm; Red Cross steps 2–5",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "medical_editorial_review_pending_and_current_guidelines_must_be_checked"
+            },
+            {
+              "claim_id": "P003000-02",
+              "claim": "For an average adult, compressions are 100–120 per minute at least 5 cm deep while avoiding >6 cm.",
+              "kind": "clinical_guideline",
+              "supports": [
+                {
+                  "source_id": "aha-bls-2025",
+                  "location": "AHA 2025 compression depth/rate section; Red Cross CPR step 5",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "rc-cpr",
+                  "location": "AHA 2025 compression depth/rate section; Red Cross CPR step 5",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "medical_editorial_review_pending_and_current_guidelines_must_be_checked"
+            },
+            {
+              "claim_id": "P003000-03",
+              "claim": "Adult compression-only CPR is an important option for untrained lay rescuers, while trained standard CPR uses 30:2.",
+              "kind": "clinical_guideline",
+              "supports": [
+                {
+                  "source_id": "aha-bls-2025",
+                  "location": "AHA 2025 lay-rescuer sections; Red Cross hands-only and breaths",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "rc-hands",
+                  "location": "AHA 2025 lay-rescuer sections; Red Cross hands-only and breaths",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "rc-cpr",
+                  "location": "AHA 2025 lay-rescuer sections; Red Cross hands-only and breaths",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "medical_editorial_review_pending_and_current_guidelines_must_be_checked"
+            },
+            {
+              "claim_id": "P003000-04",
+              "claim": "An AED should be applied promptly and its prompts followed, resuming CPR whether shock is or is not advised.",
+              "kind": "clinical_guideline",
+              "supports": [
+                {
+                  "source_id": "aha-bls-2025",
+                  "location": "AHA 2025 AED and adult algorithm; Red Cross AED steps 2–7",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "rc-aed",
+                  "location": "AHA 2025 AED and adult algorithm; Red Cross AED steps 2–7",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "medical_editorial_review_pending_and_current_guidelines_must_be_checked"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+        }
+      },
+      {
+        "id": "practical-first-aid:004000",
+        "file": "004000-severe-bleeding-and-immediate-control.md",
+        "sha256": "817abf12441a32e51a1d665da340f9238fbc4ed6c0dd221d281983292cc58bc3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-severe-bleeding-and-immediate-control.md",
+          "related_resources": [
+            {
+              "source_id": "aha-redcross-2024-firstaid",
+              "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+            },
+            {
+              "source_id": "redcross-severe-bleed",
+              "reason": "Recognize severe bleeding, apply direct pressure and trained methods, activate emergency help"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P004000-01",
+              "claim": "Life-threatening external bleeding requires prompt recognition, emergency activation and direct manual pressure.",
+              "kind": "clinical_consensus",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "2024 AHA/Red Cross top take-home and First Aid for Severe External Bleeding",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "redcross-severe-bleed",
+                  "location": "2024 AHA/Red Cross top take-home and First Aid for Severe External Bleeding",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "clinical_review_required_before_authoritative_first_aid_publication"
+            },
+            {
+              "claim_id": "P004000-02",
+              "claim": "A manufactured tourniquet is an appropriate intervention for severe extremity bleeding under current first-aid guidance.",
+              "kind": "clinical_consensus",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "AHA/Red Cross severe extremity bleeding table, Red Cross trained response",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "redcross-severe-bleed",
+                  "location": "AHA/Red Cross severe extremity bleeding table, Red Cross trained response",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "clinical_review_required_before_authoritative_first_aid_publication"
+            },
+            {
+              "claim_id": "P004000-03",
+              "claim": "Wound packing and tourniquet use require attention to injury location and training, not a universal one-method response.",
+              "kind": "clinical_consensus",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Severe external bleeding guideline; Red Cross trained wound packing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "redcross-severe-bleed",
+                  "location": "Severe external bleeding guideline; Red Cross trained wound packing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "clinical_review_required_before_authoritative_first_aid_publication"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design."
+        }
+      },
+      {
+        "id": "practical-first-aid:005000",
+        "file": "005000-airway-problems-and-age-differences.md",
+        "sha256": "384eaa04d3bd85d3459c19f6c04f6d78e3b9d085da0b3c5945432409fe68c89f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-airway-problems-and-age-differences.md",
+          "related_resources": [
+            {
+              "source_id": "aha-adult-bls-2025",
+              "reason": "Severe adult choking 5 back blows then 5 abdominal thrusts; pregnancy exception; CPR and visible-object guidance"
+            },
+            {
+              "source_id": "aha-pediatric-bls-2025",
+              "reason": "Infant 5 back blows and 5 chest thrusts, child abdominal thrusts, recognition of unresponsiveness and airway obstruction"
+            },
+            {
+              "source_id": "aha-redcross-2024-firstaid",
+              "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P005000-01",
+              "claim": "2025 AHA guidelines recommend repeated five back blows and five abdominal thrusts for severe conscious adult and child choking, with specified adult pregnancy/encircling exceptions.",
+              "kind": "2025_resuscitation_guideline",
+              "supports": [
+                {
+                  "source_id": "aha-adult-bls-2025",
+                  "location": "Adult 10.1/10.3 and Pediatric foreign-body airway obstruction recommendations",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aha-pediatric-bls-2025",
+                  "location": "Adult 10.1/10.3 and Pediatric foreign-body airway obstruction recommendations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "clinical_review_required_before_authoritative_publication"
+            },
+            {
+              "claim_id": "P005000-02",
+              "claim": "Infants with severe foreign-body airway obstruction receive five back blows and five chest thrusts, not abdominal thrusts.",
+              "kind": "2025_resuscitation_guideline",
+              "supports": [
+                {
+                  "source_id": "aha-pediatric-bls-2025",
+                  "location": "Pediatric BLS key take-home 4-5, FBAO recommendations 2-3",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "clinical_review_required_before_authoritative_publication"
+            },
+            {
+              "claim_id": "P005000-03",
+              "claim": "Unresponsive choking patients should enter age-appropriate CPR response, with visible-object removal only and no blind finger sweep.",
+              "kind": "2025_resuscitation_guideline",
+              "supports": [
+                {
+                  "source_id": "aha-adult-bls-2025",
+                  "location": "Adult 10.2, Pediatric FBAO recommendations 4-7",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aha-pediatric-bls-2025",
+                  "location": "Adult 10.2, Pediatric FBAO recommendations 4-7",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "clinical_review_required_before_authoritative_publication"
+            },
+            {
+              "claim_id": "P005000-04",
+              "claim": "Severe allergic respiratory distress is different from foreign-body choking and requires condition-specific emergency care.",
+              "kind": "clinical_consensus",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "First Aid guideline general emergency recognition and anaphylaxis sections",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "clinical_review_required_before_authoritative_publication"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "001000-organize-the-first-minutes-and-immediate-life-threats.md"
+      ],
+      "joined_before_source_parts": [
+        "002000",
+        "004000",
+        "005000"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "012000",
-  "transcript": "012000-inspecting-work-before-concealment-and-at-handover.md",
+  "transcript": "012000-inspect-commission-and-close-out-a-project.md",
   "related_resources": [
     {
       "source_id": "ftc-improvement",
@@ -14,6 +14,26 @@
     {
       "source_id": "aia-lima-submittals",
       "reason": "AIA A201 distinction between submittals and contract documents; contract dependent"
+    },
+    {
+      "source_id": "aba-contract",
+      "reason": "Scope, materials, change orders, responsibility and payment terms"
+    },
+    {
+      "source_id": "ftc-disaster",
+      "reason": "Licensing/insurance verification and comparable written bids"
+    },
+    {
+      "source_id": "nyag-home-improvement-fact",
+      "reason": "New York progress payments, escrow/bond rules, warranties and lien-related risks"
+    },
+    {
+      "source_id": "nysenate-gbl771",
+      "reason": "Writing and signatures for home-improvement contract amendments under specific state law"
+    },
+    {
+      "source_id": "nyag-hiring-contractors",
+      "reason": "Local license checks, insurance, permits/inspections and written scope; NY guidance only"
     }
   ],
   "historical_claims": [],
@@ -77,8 +97,955 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Explanatory synthesis; claims are not independently certified.",
       "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-01",
+      "claim": "Written scope and change documentation provide the reference for comparing installed work with contracted obligations.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written estimates, contracts, licenses and payment caution",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Owner and contractor should record defects by location and an agreed correction or acceptance criterion.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Submittal review and contract documents have distinct roles under relevant construction contracts.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Final payment, acceptance, punch lists and warranties have contract- and jurisdiction-specific legal consequences.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written estimates, contracts, licenses and payment caution",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "An installed component can meet a trade task description while the integrated system does not perform as intended.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "far-52-246-12-inspection",
+          "location": "An example of contract-specified inspection and records; not universally binding for residential jobs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Pre-concealment inspection records preserve evidence of otherwise inaccessible work.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "far-52-246-12-inspection",
+          "location": "An example of contract-specified inspection and records; not universally binding for residential jobs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Acceptance tests require defined scope, conditions, responsible parties and outcomes.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "far-52-246-12-inspection",
+          "location": "An example of contract-specified inspection and records; not universally binding for residential jobs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "Contract acceptance, permits and legal warranty rights are separate processes and may vary by jurisdiction.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written estimates, contracts, licenses and payment caution",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P008000-01",
+      "claim": "Home improvement contracts and closeout records should make scope, payment and obligations explicit.",
+      "kind": "consumer_contract_guidance",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Comparison of estimates and written contractor terms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "Documentation of completed work and payments matters for consumer repair disputes.",
+      "kind": "consumer_contract_guidance",
+      "supports": [
+        {
+          "source_id": "ftc-disaster",
+          "location": "Written agreements, payment and records",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nyag-home-improvement-fact",
+          "location": "New York example of records and contract requirements",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "Warranty, lien, and payment obligations depend on agreement and jurisdiction rather than one universal closeout rule.",
+      "kind": "derived_jurisdictional_contracts",
+      "supports": [
+        {
+          "source_id": "nysenate-gbl771",
+          "location": "New York home improvement contracts, narrow regional example",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ftc-improvement",
+          "location": "FTC state-law variation guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "Written scope, change orders and agreed contract terms provide a basis for evaluating completed work.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written estimates, contracts, licenses and payment caution",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Submittals, approvals, and final work records serve distinct functions in construction documentation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Contractor and consumer rights around final payment, warranties and dispute resolution depend on jurisdiction and contract.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nyag-hiring-contractors",
+          "location": "Local license checks, insurance, permits/inspections and written scope; NY guidance only",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Location-specific punch-list evidence and verification criteria support clearer correction and handover.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written estimates, contracts, licenses and payment caution",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-01",
+      "claim": "Usable construction closeout records connect installed assets with specifications, inspections, work history and service contacts.",
+      "kind": "derived_handover_management",
+      "supports": [
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written estimates, contracts, licenses and payment caution",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "Product warranties, contractor workmanship obligations and local statutory rights are separate concepts.",
+      "kind": "derived_contract_scope_distinction",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written estimates, contracts, licenses and payment caution",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "As-built photographs and documented inspections help future maintenance when work becomes concealed.",
+      "kind": "derived_handover_method",
+      "supports": [
+        {
+          "source_id": "far-52-246-12-inspection",
+          "location": "An example of contract-specified inspection and records; not universally binding for residential jobs",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+  "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-contractors-estimates:012000",
+        "file": "012000-inspecting-work-before-concealment-and-at-handover.md",
+        "sha256": "fc3ad247c3e21204ad2ccfe1d2ae40a3c81a0e9109fa3f8bbf1f7916978bb5b1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-inspecting-work-before-concealment-and-at-handover.md",
+          "related_resources": [
+            {
+              "source_id": "ftc-improvement",
+              "reason": "Written estimates, contracts, licenses and payment caution"
+            },
+            {
+              "source_id": "far-52-246-12-inspection",
+              "reason": "An example of contract-specified inspection and records; not universally binding for residential jobs"
+            },
+            {
+              "source_id": "aia-lima-submittals",
+              "reason": "AIA A201 distinction between submittals and contract documents; contract dependent"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P012000-01",
+              "claim": "Contract-specific inspection and acceptance depend on the specified scope and inspection rights.",
+              "kind": "original_contract_quality_framework",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Written estimates, contracts, licenses and payment caution",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "far-52-246-12-inspection",
+                  "location": "An example of contract-specified inspection and records; not universally binding for residential jobs",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-02",
+              "claim": "Construction inspection records are important evidence of work performed before subsequent concealment.",
+              "kind": "derived_construction_documentation",
+              "supports": [
+                {
+                  "source_id": "far-52-246-12-inspection",
+                  "location": "An example of contract-specified inspection and records; not universally binding for residential jobs",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aia-lima-submittals",
+                  "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-03",
+              "claim": "Submittal approval and official inspection do not universally replace the contract's own performance obligations.",
+              "kind": "derived_contract_scope_distinction",
+              "supports": [
+                {
+                  "source_id": "far-52-246-12-inspection",
+                  "location": "An example of contract-specified inspection and records; not universally binding for residential jobs",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aia-lima-submittals",
+                  "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:016000",
+        "file": "016000-inspection-punch-lists-and-evidence-trails.md",
+        "sha256": "c35d6dca94b03b55076c4496e72c2035035e0665923dc01ac69b91909125b178",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-inspection-punch-lists-and-evidence-trails.md",
+          "related_resources": [
+            {
+              "source_id": "ftc-improvement",
+              "reason": "Written estimates, contracts, licenses and payment caution"
+            },
+            {
+              "source_id": "aba-contract",
+              "reason": "Scope, materials, change orders, responsibility and payment terms"
+            },
+            {
+              "source_id": "aia-lima-submittals",
+              "reason": "AIA A201 distinction between submittals and contract documents; contract dependent"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "Written scope and change documentation provide the reference for comparing installed work with contracted obligations.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Written estimates, contracts, licenses and payment caution",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aba-contract",
+                  "location": "Scope, materials, change orders, responsibility and payment terms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "Owner and contractor should record defects by location and an agreed correction or acceptance criterion.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "aba-contract",
+                  "location": "Scope, materials, change orders, responsibility and payment terms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "Submittal review and contract documents have distinct roles under relevant construction contracts.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aia-lima-submittals",
+                  "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Final payment, acceptance, punch lists and warranties have contract- and jurisdiction-specific legal consequences.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aba-contract",
+                  "location": "Scope, materials, change orders, responsibility and payment terms",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Written estimates, contracts, licenses and payment caution",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:018000",
+        "file": "018000-commissioning-and-acceptance-of-multi-trade-systems.md",
+        "sha256": "2c8fa8cbe67373e64df1ed57ac4faada761cf2f011d48c46584a5ed0a5ea11bf",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-commissioning-and-acceptance-of-multi-trade-systems.md",
+          "related_resources": [
+            {
+              "source_id": "ftc-improvement",
+              "reason": "Written estimates, contracts, licenses and payment caution"
+            },
+            {
+              "source_id": "aba-contract",
+              "reason": "Scope, materials, change orders, responsibility and payment terms"
+            },
+            {
+              "source_id": "aia-lima-submittals",
+              "reason": "AIA A201 distinction between submittals and contract documents; contract dependent"
+            },
+            {
+              "source_id": "far-52-246-12-inspection",
+              "reason": "An example of contract-specified inspection and records; not universally binding for residential jobs"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "An installed component can meet a trade task description while the integrated system does not perform as intended.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "aia-lima-submittals",
+                  "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "far-52-246-12-inspection",
+                  "location": "An example of contract-specified inspection and records; not universally binding for residential jobs",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Pre-concealment inspection records preserve evidence of otherwise inaccessible work.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "far-52-246-12-inspection",
+                  "location": "An example of contract-specified inspection and records; not universally binding for residential jobs",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "Acceptance tests require defined scope, conditions, responsible parties and outcomes.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aba-contract",
+                  "location": "Scope, materials, change orders, responsibility and payment terms",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "far-52-246-12-inspection",
+                  "location": "An example of contract-specified inspection and records; not universally binding for residential jobs",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "Contract acceptance, permits and legal warranty rights are separate processes and may vary by jurisdiction.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Written estimates, contracts, licenses and payment caution",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aba-contract",
+                  "location": "Scope, materials, change orders, responsibility and payment terms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:008000",
+        "file": "008000-disputes-warranties-and-project-closeout.md",
+        "sha256": "095966e5543233022d555ac5c25d16f0937b0c6b97dbf96dc37bf59725a9a894",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-disputes-warranties-and-project-closeout.md",
+          "related_resources": [
+            {
+              "source_id": "ftc-improvement",
+              "reason": "Written estimates, contracts, licenses and payment caution"
+            },
+            {
+              "source_id": "ftc-disaster",
+              "reason": "Licensing/insurance verification and comparable written bids"
+            },
+            {
+              "source_id": "nyag-home-improvement-fact",
+              "reason": "New York progress payments, escrow/bond rules, warranties and lien-related risks"
+            },
+            {
+              "source_id": "nysenate-gbl771",
+              "reason": "Writing and signatures for home-improvement contract amendments under specific state law"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P008000-01",
+              "claim": "Home improvement contracts and closeout records should make scope, payment and obligations explicit.",
+              "kind": "consumer_contract_guidance",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Comparison of estimates and written contractor terms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-02",
+              "claim": "Documentation of completed work and payments matters for consumer repair disputes.",
+              "kind": "consumer_contract_guidance",
+              "supports": [
+                {
+                  "source_id": "ftc-disaster",
+                  "location": "Written agreements, payment and records",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nyag-home-improvement-fact",
+                  "location": "New York example of records and contract requirements",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-03",
+              "claim": "Warranty, lien, and payment obligations depend on agreement and jurisdiction rather than one universal closeout rule.",
+              "kind": "derived_jurisdictional_contracts",
+              "supports": [
+                {
+                  "source_id": "nysenate-gbl771",
+                  "location": "New York home improvement contracts, narrow regional example",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "FTC state-law variation guidance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:017000",
+        "file": "017000-owner-walkthroughs-and-post-completion-documentation.md",
+        "sha256": "2f505c0f89acbde66010f99c5efbad4aad22172892639797359555a4f1d23fa7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-owner-walkthroughs-and-post-completion-documentation.md",
+          "related_resources": [
+            {
+              "source_id": "ftc-improvement",
+              "reason": "Written estimates, contracts, licenses and payment caution"
+            },
+            {
+              "source_id": "aba-contract",
+              "reason": "Scope, materials, change orders, responsibility and payment terms"
+            },
+            {
+              "source_id": "aia-lima-submittals",
+              "reason": "AIA A201 distinction between submittals and contract documents; contract dependent"
+            },
+            {
+              "source_id": "nyag-hiring-contractors",
+              "reason": "Local license checks, insurance, permits/inspections and written scope; NY guidance only"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "Written scope, change orders and agreed contract terms provide a basis for evaluating completed work.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Written estimates, contracts, licenses and payment caution",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aba-contract",
+                  "location": "Scope, materials, change orders, responsibility and payment terms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "Submittals, approvals, and final work records serve distinct functions in construction documentation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aia-lima-submittals",
+                  "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "Contractor and consumer rights around final payment, warranties and dispute resolution depend on jurisdiction and contract.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aba-contract",
+                  "location": "Scope, materials, change orders, responsibility and payment terms",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nyag-hiring-contractors",
+                  "location": "Local license checks, insurance, permits/inspections and written scope; NY guidance only",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "Location-specific punch-list evidence and verification criteria support clearer correction and handover.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Written estimates, contracts, licenses and payment caution",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aba-contract",
+                  "location": "Scope, materials, change orders, responsibility and payment terms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:013000",
+        "file": "013000-building-a-maintenance-and-warranty-handover-archive.md",
+        "sha256": "b4c6bb5d083fc9b64ebaa3f73841bfd6cdf2fedca321307443c8b76cafdcad95",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-building-a-maintenance-and-warranty-handover-archive.md",
+          "related_resources": [
+            {
+              "source_id": "aia-lima-submittals",
+              "reason": "AIA A201 distinction between submittals and contract documents; contract dependent"
+            },
+            {
+              "source_id": "ftc-improvement",
+              "reason": "Written estimates, contracts, licenses and payment caution"
+            },
+            {
+              "source_id": "aba-contract",
+              "reason": "Scope, materials, change orders, responsibility and payment terms"
+            },
+            {
+              "source_id": "far-52-246-12-inspection",
+              "reason": "An example of contract-specified inspection and records; not universally binding for residential jobs"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "Usable construction closeout records connect installed assets with specifications, inspections, work history and service contacts.",
+              "kind": "derived_handover_management",
+              "supports": [
+                {
+                  "source_id": "aia-lima-submittals",
+                  "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Written estimates, contracts, licenses and payment caution",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "Product warranties, contractor workmanship obligations and local statutory rights are separate concepts.",
+              "kind": "derived_contract_scope_distinction",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Written estimates, contracts, licenses and payment caution",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aba-contract",
+                  "location": "Scope, materials, change orders, responsibility and payment terms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "As-built photographs and documented inspections help future maintenance when work becomes concealed.",
+              "kind": "derived_handover_method",
+              "supports": [
+                {
+                  "source_id": "far-52-246-12-inspection",
+                  "location": "An example of contract-specified inspection and records; not universally binding for residential jobs",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aia-lima-submittals",
+                  "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "012000-inspect-commission-and-close-out-a-project.md"
+      ],
+      "joined_before_source_parts": [
+        "016000",
+        "018000",
+        "013000"
+      ]
+    }
+  ]
 }

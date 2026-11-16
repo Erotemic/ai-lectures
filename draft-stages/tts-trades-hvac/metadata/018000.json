@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "018000",
-  "transcript": "018000-heat-recovery-ventilation-filters-and-pressure-boundaries.md",
+  "transcript": "018000-deliver-ventilation-and-shared-system-airflow.md",
   "related_resources": [
     {
       "source_id": "doe-energy-recovery-ventilation",
@@ -18,6 +18,34 @@
     {
       "source_id": "cdc-co-furnaces",
       "reason": "CO hazards, furnace/water heater service and venting"
+    },
+    {
+      "source_id": "energystar-hvac-quality",
+      "reason": "Load-based sizing, airflow, refrigerant charge and duct performance"
+    },
+    {
+      "source_id": "basc-heatpump-commission",
+      "reason": "Total external static pressure and fan flow estimation; equipment-specific measurement boundaries"
+    },
+    {
+      "source_id": "energystar-contractor-resources",
+      "reason": "Commissioning methods for static pressure, fan airflow and whole-house ventilation flow"
+    },
+    {
+      "source_id": "ca-hvac-pressure",
+      "reason": "Fan pressure budget, filter pressure drop, coil, ducts and registers"
+    },
+    {
+      "source_id": "doe-vrf-system21",
+      "reason": "Multiple individually controlled fan coil units, shared refrigerant circuit and capacity modulation"
+    },
+    {
+      "source_id": "neep-vrf-field21",
+      "reason": "VRF field performance, heat recovery topology and cold-climate capacity constraints"
+    },
+    {
+      "source_id": "doe-thermal-systems-guide",
+      "reason": "Inverter-based variable-speed compressors, feedback sensor controls and capacity modulation"
     }
   ],
   "historical_claims": [],
@@ -91,8 +119,746 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
       "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-01",
+      "claim": "Balanced mechanical ventilation has separately measured supply and exhaust airflows.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-energy-recovery-ventilation",
+          "location": "HRV versus ERV energy and vapor transfer, balanced supply and exhaust, and system components",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-whole-house-ventilation",
+          "location": "Exhaust, supply, balanced, and energy-recovery ventilation as distinct systems",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Delivered fan flow depends on duct and filter resistance, not fan rotation alone.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "energystar-ducts",
+          "location": "Duct leakage as an energy and air delivery problem",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "energystar-hvac-quality",
+          "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "Commissioning requires documenting operating conditions and performance measurements.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "energystar-hvac-quality",
+          "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Heat and energy recovery performance is distinct from balancing the flow rates.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-energy-recovery-ventilation",
+          "location": "HRV versus ERV energy and vapor transfer, balanced supply and exhaust, and system components",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-01",
+      "claim": "Static pressure measurement and air volume flow measurement are distinct.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "basc-heatpump-commission",
+          "location": "Total external static pressure and fan flow estimation; equipment-specific measurement boundaries",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "energystar-contractor-resources",
+          "location": "Commissioning methods for static pressure, fan airflow and whole-house ventilation flow",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "The definition of total external static pressure depends on system and measurement boundary.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "basc-heatpump-commission",
+          "location": "Total external static pressure and fan flow estimation; equipment-specific measurement boundaries",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ca-hvac-pressure",
+          "location": "Fan pressure budget, filter pressure drop, coil, ducts and registers",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "Manufacturer fan data are needed to infer flow from pressure under stated fan settings.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "basc-heatpump-commission",
+          "location": "Total external static pressure and fan flow estimation; equipment-specific measurement boundaries",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Pressure, supply/return airflows and equipment mode must be recorded together.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "energystar-hvac-quality",
+          "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "energystar-contractor-resources",
+          "location": "Commissioning methods for static pressure, fan airflow and whole-house ventilation flow",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Room flow can differ from fan flow owing to branch distribution and leaks.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "energystar-ducts",
+          "location": "Duct leakage as an energy and air delivery problem",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "energystar-contractor-resources",
+          "location": "Commissioning methods for static pressure, fan airflow and whole-house ventilation flow",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-06",
+      "claim": "Duct conditions alone do not explain every room temperature complaint.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "energystar-hvac-quality",
+          "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ca-hvac-pressure",
+          "location": "Fan pressure budget, filter pressure drop, coil, ducts and registers",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-01",
+      "claim": "VRF connects multiple indoor units with shared refrigerant infrastructure and individually controlled zones.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-vrf-system21",
+          "location": "Multiple individually controlled fan coil units, shared refrigerant circuit and capacity modulation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-02",
+      "claim": "Variable compressors and refrigerant metering have finite part-load and peak capacity ranges.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-vrf-system21",
+          "location": "Multiple individually controlled fan coil units, shared refrigerant circuit and capacity modulation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "neep-vrf-field21",
+          "location": "VRF field performance, heat recovery topology and cold-climate capacity constraints",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-03",
+      "claim": "Heat-recovery VRF arrangements can move heat between simultaneous heating and cooling zones.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "neep-vrf-field21",
+          "location": "VRF field performance, heat recovery topology and cold-climate capacity constraints",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-04",
+      "claim": "Zone controls, shared mode priorities and communications can produce interacting performance symptoms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-vrf-system21",
+          "location": "Multiple individually controlled fan coil units, shared refrigerant circuit and capacity modulation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-thermal-systems-guide",
+          "location": "Inverter-based variable-speed compressors, feedback sensor controls and capacity modulation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-hvac:018000",
+        "file": "018000-heat-recovery-ventilation-filters-and-pressure-boundaries.md",
+        "sha256": "135941ec6cee6d305a8db14ebad6cb66663ab7aeeac22c40c6e3cd0b3d1a8aba",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-heat-recovery-ventilation-filters-and-pressure-boundaries.md",
+          "related_resources": [
+            {
+              "source_id": "doe-energy-recovery-ventilation",
+              "reason": "HRV versus ERV energy and vapor transfer, balanced supply and exhaust, and system components"
+            },
+            {
+              "source_id": "doe-whole-house-ventilation",
+              "reason": "Exhaust, supply, balanced, and energy-recovery ventilation as distinct systems"
+            },
+            {
+              "source_id": "energystar-ducts",
+              "reason": "Duct leakage as an energy and air delivery problem"
+            },
+            {
+              "source_id": "cdc-co-furnaces",
+              "reason": "CO hazards, furnace/water heater service and venting"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "Heat recovery ventilation uses heat exchange between supply and exhaust airstreams.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-energy-recovery-ventilation",
+                  "location": "HRV versus ERV energy and vapor transfer, balanced supply and exhaust, and system components",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Energy recovery ventilators can transfer moisture as well as sensible heat, unlike simple heat recovery systems.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-energy-recovery-ventilation",
+                  "location": "HRV versus ERV energy and vapor transfer, balanced supply and exhaust, and system components",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "Duct resistance, filter loading and simultaneous exhaust fans affect actual delivered airflow and building pressure.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-whole-house-ventilation",
+                  "location": "Exhaust, supply, balanced, and energy-recovery ventilation as distinct systems",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "energystar-ducts",
+                  "location": "Duct leakage as an energy and air delivery problem",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "Ventilation changes must consider combustion appliance backdraft and carbon monoxide hazards.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cdc-co-furnaces",
+                  "location": "CO hazards, furnace/water heater service and venting",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-whole-house-ventilation",
+                  "location": "Exhaust, supply, balanced, and energy-recovery ventilation as distinct systems",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-hvac:019000",
+        "file": "019000-commissioning-balanced-ventilation-and-finding-fan-flow-imbalance.md",
+        "sha256": "6e6724649c9fbb05d22186ef37f165a0475c0f9688c8fb7927b30b378b910200",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-commissioning-balanced-ventilation-and-finding-fan-flow-imbalance.md",
+          "related_resources": [
+            {
+              "source_id": "doe-energy-recovery-ventilation",
+              "reason": "HRV versus ERV energy and vapor transfer, balanced supply and exhaust, and system components"
+            },
+            {
+              "source_id": "doe-whole-house-ventilation",
+              "reason": "Exhaust, supply, balanced, and energy-recovery ventilation as distinct systems"
+            },
+            {
+              "source_id": "energystar-hvac-quality",
+              "reason": "Load-based sizing, airflow, refrigerant charge and duct performance"
+            },
+            {
+              "source_id": "energystar-ducts",
+              "reason": "Duct leakage as an energy and air delivery problem"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P019000-01",
+              "claim": "Balanced mechanical ventilation has separately measured supply and exhaust airflows.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-energy-recovery-ventilation",
+                  "location": "HRV versus ERV energy and vapor transfer, balanced supply and exhaust, and system components",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-whole-house-ventilation",
+                  "location": "Exhaust, supply, balanced, and energy-recovery ventilation as distinct systems",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-02",
+              "claim": "Delivered fan flow depends on duct and filter resistance, not fan rotation alone.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "energystar-ducts",
+                  "location": "Duct leakage as an energy and air delivery problem",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "energystar-hvac-quality",
+                  "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-03",
+              "claim": "Commissioning requires documenting operating conditions and performance measurements.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "energystar-hvac-quality",
+                  "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-04",
+              "claim": "Heat and energy recovery performance is distinct from balancing the flow rates.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-energy-recovery-ventilation",
+                  "location": "HRV versus ERV energy and vapor transfer, balanced supply and exhaust, and system components",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-hvac:020000",
+        "file": "020000-measuring-duct-static-pressure-and-room-air-delivery.md",
+        "sha256": "e27c76ff65953a1d32a6d5ae069c7320b8e1d7c53eb863cf3e4c016cf2a6006f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-measuring-duct-static-pressure-and-room-air-delivery.md",
+          "related_resources": [
+            {
+              "source_id": "basc-heatpump-commission",
+              "reason": "Total external static pressure and fan flow estimation; equipment-specific measurement boundaries"
+            },
+            {
+              "source_id": "energystar-contractor-resources",
+              "reason": "Commissioning methods for static pressure, fan airflow and whole-house ventilation flow"
+            },
+            {
+              "source_id": "energystar-hvac-quality",
+              "reason": "Load-based sizing, airflow, refrigerant charge and duct performance"
+            },
+            {
+              "source_id": "energystar-ducts",
+              "reason": "Duct leakage as an energy and air delivery problem"
+            },
+            {
+              "source_id": "ca-hvac-pressure",
+              "reason": "Fan pressure budget, filter pressure drop, coil, ducts and registers"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P020000-01",
+              "claim": "Static pressure measurement and air volume flow measurement are distinct.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "basc-heatpump-commission",
+                  "location": "Total external static pressure and fan flow estimation; equipment-specific measurement boundaries",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "energystar-contractor-resources",
+                  "location": "Commissioning methods for static pressure, fan airflow and whole-house ventilation flow",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-02",
+              "claim": "The definition of total external static pressure depends on system and measurement boundary.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "basc-heatpump-commission",
+                  "location": "Total external static pressure and fan flow estimation; equipment-specific measurement boundaries",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ca-hvac-pressure",
+                  "location": "Fan pressure budget, filter pressure drop, coil, ducts and registers",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-03",
+              "claim": "Manufacturer fan data are needed to infer flow from pressure under stated fan settings.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "basc-heatpump-commission",
+                  "location": "Total external static pressure and fan flow estimation; equipment-specific measurement boundaries",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-04",
+              "claim": "Pressure, supply/return airflows and equipment mode must be recorded together.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "energystar-hvac-quality",
+                  "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "energystar-contractor-resources",
+                  "location": "Commissioning methods for static pressure, fan airflow and whole-house ventilation flow",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-05",
+              "claim": "Room flow can differ from fan flow owing to branch distribution and leaks.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "energystar-ducts",
+                  "location": "Duct leakage as an energy and air delivery problem",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "energystar-contractor-resources",
+                  "location": "Commissioning methods for static pressure, fan airflow and whole-house ventilation flow",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-06",
+              "claim": "Duct conditions alone do not explain every room temperature complaint.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "energystar-hvac-quality",
+                  "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ca-hvac-pressure",
+                  "location": "Fan pressure budget, filter pressure drop, coil, ducts and registers",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+        }
+      },
+      {
+        "id": "trades-hvac:021000",
+        "file": "021000-variable-refrigerant-flow-shared-capacity-zone-controls-and-heat-recovery.md",
+        "sha256": "7f6966a94973c37f0b2f8325107d9e5ebd9a54e189b8dc062ac774f27648e6a3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-variable-refrigerant-flow-shared-capacity-zone-controls-and-heat-recovery.md",
+          "related_resources": [
+            {
+              "source_id": "doe-vrf-system21",
+              "reason": "Multiple individually controlled fan coil units, shared refrigerant circuit and capacity modulation"
+            },
+            {
+              "source_id": "neep-vrf-field21",
+              "reason": "VRF field performance, heat recovery topology and cold-climate capacity constraints"
+            },
+            {
+              "source_id": "doe-thermal-systems-guide",
+              "reason": "Inverter-based variable-speed compressors, feedback sensor controls and capacity modulation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P021000-01",
+              "claim": "VRF connects multiple indoor units with shared refrigerant infrastructure and individually controlled zones.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-vrf-system21",
+                  "location": "Multiple individually controlled fan coil units, shared refrigerant circuit and capacity modulation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-02",
+              "claim": "Variable compressors and refrigerant metering have finite part-load and peak capacity ranges.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-vrf-system21",
+                  "location": "Multiple individually controlled fan coil units, shared refrigerant circuit and capacity modulation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "neep-vrf-field21",
+                  "location": "VRF field performance, heat recovery topology and cold-climate capacity constraints",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-03",
+              "claim": "Heat-recovery VRF arrangements can move heat between simultaneous heating and cooling zones.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "neep-vrf-field21",
+                  "location": "VRF field performance, heat recovery topology and cold-climate capacity constraints",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-04",
+              "claim": "Zone controls, shared mode priorities and communications can produce interacting performance symptoms.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-vrf-system21",
+                  "location": "Multiple individually controlled fan coil units, shared refrigerant circuit and capacity modulation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-thermal-systems-guide",
+                  "location": "Inverter-based variable-speed compressors, feedback sensor controls and capacity modulation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_or_clinical_review_pending",
+          "citation_policy": "Credit original authors and standards issuers; cite educational synthesis accurately. No engineering, clinical, or jurisdictional certification is claimed."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "018000-deliver-ventilation-and-shared-system-airflow.md"
+      ],
+      "joined_before_source_parts": [
+        "019000",
+        "021000"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "133000",
-  "transcript": "133000-unsquared-ambient-displacement-is-different.md",
+  "transcript": "133000-unsquared-failure-correction-and-real-matching.md",
   "historical_claims": [
     {
       "id": "133000-h01",
@@ -11,6 +11,26 @@
         "davis-kahan-1970"
       ],
       "source_locator": "Section 4, Proposition 4.4",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "134000-h01",
+      "anchor": "This supplies two acute real subspaces, an admissible orthogonal transporter, and a specific invariant norm for which the direct rotation loses.",
+      "kind": "source_scope",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Proposition 4.4",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "135000-h01",
+      "anchor": "Thus the printed general statement about every invariant norm of unsquared ambient displacement cannot be correct.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Section 4; Proposition 4.4",
       "audit_status": "pending_primary_passage_comparison"
     }
   ],
@@ -50,6 +70,286 @@
     {
       "source_id": "wiki-schatten-norm",
       "reason": "Singular-value p-summability, trace class and Hilbert-Schmidt special cases."
+    },
+    {
+      "source_id": "davis-kahan-1970",
+      "reason": "Original Section 4 statements on transport minimization, including Proposition 4.4."
+    },
+    {
+      "source_id": "wiki-unitary-rotation",
+      "reason": "Simple rotations as real orthogonal maps and transport candidates."
+    },
+    {
+      "source_id": "wiki-polar-decomposition",
+      "reason": "Polar factors, positive modulus, and rectangular matrix examples; compare full-unitary extensions with the canonical kernel-zero partial isometry."
+    },
+    {
+      "source_id": "halmos-1969",
+      "reason": "Original treatment of two subspaces and their generic part; complements principal-angle geometry."
+    },
+    {
+      "source_id": "kostrykin-tan2-theorem",
+      "reason": "Compare the off-diagonal perturbation theorem with a graph/Riccati formulation."
+    },
+    {
+      "source_id": "wiki-orthogonal-projection-extra",
+      "reason": "Orthogonal projections, matrix formulas and their connection to subspace distance."
+    },
+    {
+      "source_id": "wisc-uniform-convergence",
+      "reason": "Review the uniform-control principle used when passing from approximating costs to limiting minima."
+    },
+    {
+      "source_id": "mml-free-text",
+      "reason": "Use analytic-geometry, decomposition or PCA examples to connect the operator calculation to data analysis."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "g2:133000",
+        "file": "133000-unsquared-ambient-displacement-is-different.md",
+        "sha256": "0771e16cf2967aeb4db798ef1c9e000d28ecc21dc44d1d1c885ecd0dc03c92b5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "133000",
+          "transcript": "133000-unsquared-ambient-displacement-is-different.md",
+          "historical_claims": [
+            {
+              "id": "133000-h01",
+              "anchor": "The unrestricted ambient problem includes internal source and complement motions, and those motions can couple principal planes.",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Section 4, Proposition 4.4",
+              "audit_status": "pending_primary_passage_comparison"
+            }
+          ],
+          "related_resources": [
+            {
+              "source_id": "higham-polar",
+              "reason": "Alternative polar-factor explanation; distinguish a kernel-zero partial isometry from full unitary extensions."
+            },
+            {
+              "source_id": "bhatia-1997",
+              "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "higham-unitarily-invariant-norm",
+              "reason": "Connect singular-value inequalities with symmetric gauges, Schatten and Ky Fan norms."
+            },
+            {
+              "source_id": "mit-strang-18065-procrustes",
+              "reason": "See an orthogonal transport problem where minimizing displacement becomes a matrix alignment calculation."
+            },
+            {
+              "source_id": "wiki-angles-between-flats",
+              "reason": "Principal angles defined using subspace vectors and singular values of overlaps."
+            },
+            {
+              "source_id": "wiki-orthogonal-procrustes",
+              "reason": "Finding the orthogonal alignment of two finite point or coordinate configurations."
+            },
+            {
+              "source_id": "wiki-matrix-norm",
+              "reason": "Schatten and unitarily invariant norms for finite matrices."
+            },
+            {
+              "source_id": "wiki-schatten-norm",
+              "reason": "Singular-value p-summability, trace class and Hilbert-Schmidt special cases."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:134000",
+        "file": "134000-the-four-dimensional-real-counterexample.md",
+        "sha256": "7a008eb5ab452699b5c8fb6e6935b317b3cda346ef52b1b08f3d6c1f94773c41",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "134000",
+          "transcript": "134000-the-four-dimensional-real-counterexample.md",
+          "historical_claims": [
+            {
+              "id": "134000-h01",
+              "anchor": "This supplies two acute real subspaces, an admissible orthogonal transporter, and a specific invariant norm for which the direct rotation loses.",
+              "kind": "source_scope",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Proposition 4.4",
+              "audit_status": "pending_primary_passage_comparison"
+            }
+          ],
+          "related_resources": [
+            {
+              "source_id": "higham-polar",
+              "reason": "Alternative polar-factor explanation; distinguish a kernel-zero partial isometry from full unitary extensions."
+            },
+            {
+              "source_id": "bhatia-1997",
+              "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original Section 4 statements on transport minimization, including Proposition 4.4."
+            },
+            {
+              "source_id": "higham-unitarily-invariant-norm",
+              "reason": "Connect singular-value inequalities with symmetric gauges, Schatten and Ky Fan norms."
+            },
+            {
+              "source_id": "wiki-unitary-rotation",
+              "reason": "Simple rotations as real orthogonal maps and transport candidates."
+            },
+            {
+              "source_id": "wiki-schatten-norm",
+              "reason": "Singular-value p-summability, trace class and Hilbert-Schmidt special cases."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:135000",
+        "file": "135000-corrected-scopes-and-surviving-results.md",
+        "sha256": "a76c219bb541a78283a237af3763d19e231ab0686be31937d14ba4ac13a9e72b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "135000",
+          "transcript": "135000-corrected-scopes-and-surviving-results.md",
+          "historical_claims": [
+            {
+              "id": "135000-h01",
+              "anchor": "Thus the printed general statement about every invariant norm of unsquared ambient displacement cannot be correct.",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Section 4; Proposition 4.4",
+              "audit_status": "pending_primary_passage_comparison"
+            }
+          ],
+          "related_resources": [
+            {
+              "source_id": "higham-polar",
+              "reason": "Alternative polar-factor explanation; distinguish a kernel-zero partial isometry from full unitary extensions."
+            },
+            {
+              "source_id": "bhatia-1997",
+              "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "wiki-unitary-rotation",
+              "reason": "Simple rotations as real orthogonal maps and transport candidates."
+            },
+            {
+              "source_id": "wiki-polar-decomposition",
+              "reason": "Polar factors, positive modulus, and rectangular matrix examples; compare full-unitary extensions with the canonical kernel-zero partial isometry."
+            },
+            {
+              "source_id": "wiki-schatten-norm",
+              "reason": "Singular-value p-summability, trace class and Hilbert-Schmidt special cases."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:136000",
+        "file": "136000-classification-and-realizations-of-direct-rotations.md",
+        "sha256": "c51e36dac0af53d4e39b029e15cd6af9fbc5cecb0863cbe8e8c1f13d11dfddca",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "136000",
+          "transcript": "136000-classification-and-realizations-of-direct-rotations.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "higham-polar",
+              "reason": "Alternative polar-factor explanation; distinguish a kernel-zero partial isometry from full unitary extensions."
+            },
+            {
+              "source_id": "halmos-1969",
+              "reason": "Original treatment of two subspaces and their generic part; complements principal-angle geometry."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "kostrykin-tan2-theorem",
+              "reason": "Compare the off-diagonal perturbation theorem with a graph/Riccati formulation."
+            },
+            {
+              "source_id": "wiki-angles-between-flats",
+              "reason": "Principal angles defined using subspace vectors and singular values of overlaps."
+            },
+            {
+              "source_id": "wiki-orthogonal-projection-extra",
+              "reason": "Orthogonal projections, matrix formulas and their connection to subspace distance."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:145000",
+        "file": "145000-from-rotation-counterexample-to-real-transport-matching.md",
+        "sha256": "51777b3ce9a3cf4367da84301b772e5d9ded8d6b00da8a645ac54dbb0feecfc8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "145000",
+          "transcript": "145000-from-rotation-counterexample-to-real-transport-matching.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "higham-polar",
+              "reason": "Alternative polar-factor explanation; distinguish a kernel-zero partial isometry from full unitary extensions."
+            },
+            {
+              "source_id": "bhatia-1997",
+              "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
+            },
+            {
+              "source_id": "wisc-uniform-convergence",
+              "reason": "Review the uniform-control principle used when passing from approximating costs to limiting minima."
+            },
+            {
+              "source_id": "mit-strang-18065-procrustes",
+              "reason": "See an orthogonal transport problem where minimizing displacement becomes a matrix alignment calculation."
+            },
+            {
+              "source_id": "mml-free-text",
+              "reason": "Use analytic-geometry, decomposition or PCA examples to connect the operator calculation to data analysis."
+            },
+            {
+              "source_id": "wiki-orthogonal-procrustes",
+              "reason": "Finding the orthogonal alignment of two finite point or coordinate configurations."
+            },
+            {
+              "source_id": "wiki-unitary-rotation",
+              "reason": "Simple rotations as real orthogonal maps and transport candidates."
+            },
+            {
+              "source_id": "wiki-schatten-norm",
+              "reason": "Singular-value p-summability, trace class and Hilbert-Schmidt special cases."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

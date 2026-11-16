@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "016000",
-  "transcript": "016000-poincare-duality-and-intersection-pairings.md",
+  "transcript": "016000-duality-cup-products-bundles-and-connection-geometry.md",
   "related_resources": [
     {
       "source_id": "tg-hatcher",
@@ -14,7 +14,211 @@
     {
       "source_id": "tg-mit18901",
       "reason": "Homology and cohomology prerequisites."
+    },
+    {
+      "source_id": "tg-hatcher-algtop",
+      "reason": "Cohomology ring and intersection theory."
+    },
+    {
+      "source_id": "tg-auroux",
+      "reason": "Wedge products and de Rham classes."
+    },
+    {
+      "source_id": "tg-hatcher-vb",
+      "reason": "Vector bundles, transition functions and Möbius example."
+    },
+    {
+      "source_id": "tg-baez-muniain",
+      "reason": "Covariant derivative, local gauge transformation and curvature."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Smooth-manifold background."
+    },
+    {
+      "source_id": "tg-hatcher-vb",
+      "reason": "Vector bundles, clutching, Mobius line and classification examples."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Vector bundles and tangent bundle local frames."
+    },
+    {
+      "source_id": "tg-baez-muniain",
+      "reason": "Vector bundle connections and path-ordered transport."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Connections and tangent-bundle context."
+    },
+    {
+      "source_id": "tg-baez-muniain",
+      "reason": "Local gauge transformation and curvature."
+    },
+    {
+      "source_id": "tg-hatcher-vb",
+      "reason": "Line-bundle twisting and first Chern classes."
+    },
+    {
+      "source_id": "tg-toronto-equivariant",
+      "reason": "Principal U(1) bundles and first Chern numbers."
+    },
+    {
+      "source_id": "tg-meinrenken-signs",
+      "reason": "The chosen c1 = iF/(2pi) curvature normalization and orientation signs."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:016000",
+        "file": "016000-poincare-duality-and-intersection-pairings.md",
+        "sha256": "62cc8c3e30e99738d9970449cb25742c24b3410a3c4caa8f924bdb7d91b2efae",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-poincare-duality-and-intersection-pairings.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher",
+              "reason": "Poincare duality, cup and cap products, and boundary forms."
+            },
+            {
+              "source_id": "tg-hatcher-vb",
+              "reason": "Bundle orientation background."
+            },
+            {
+              "source_id": "tg-mit18901",
+              "reason": "Homology and cohomology prerequisites."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:016100",
+        "file": "016100-cup-products-and-intersection-numbers-worked.md",
+        "sha256": "dce9d388b82142ddcc673c9d8e6d8a41196ae42911c4d94b3f2bf50cfa91ea63",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016100",
+          "transcript": "016100-cup-products-and-intersection-numbers-worked.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher-algtop",
+              "reason": "Cohomology ring and intersection theory."
+            },
+            {
+              "source_id": "tg-auroux",
+              "reason": "Wedge products and de Rham classes."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:013000",
+        "file": "013000-fiber-bundles-connections-and-curvature.md",
+        "sha256": "dc830499142232f66b1a4655641debe3649591c24072bb717ef3350359bf3392",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-fiber-bundles-connections-and-curvature.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher-vb",
+              "reason": "Vector bundles, transition functions and Möbius example."
+            },
+            {
+              "source_id": "tg-baez-muniain",
+              "reason": "Covariant derivative, local gauge transformation and curvature."
+            },
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Smooth-manifold background."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:013100",
+        "file": "013100-bundle-transition-functions-and-global-twisting.md",
+        "sha256": "d66bf6d60b5297151fe76f6921254ad7ae2a451602baa6c290bab132eaeff0c1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013100",
+          "transcript": "013100-bundle-transition-functions-and-global-twisting.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher-vb",
+              "reason": "Vector bundles, clutching, Mobius line and classification examples."
+            },
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Vector bundles and tangent bundle local frames."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:013200",
+        "file": "013200-covariant-derivatives-and-parallel-transport.md",
+        "sha256": "2ff8ac6764bb1bc6b4c780350e2fa210476a38650ccbb4f1d475048ab7739957",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013200",
+          "transcript": "013200-covariant-derivatives-and-parallel-transport.md",
+          "related_resources": [
+            {
+              "source_id": "tg-baez-muniain",
+              "reason": "Vector bundle connections and path-ordered transport."
+            },
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Connections and tangent-bundle context."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:013300",
+        "file": "013300-curvature-holonomy-and-chern-numbers.md",
+        "sha256": "8e4461e709243f3630ff8a483d3f8ed76fbf322513f06f0c584aec91bc5a8e6d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013300",
+          "transcript": "013300-curvature-holonomy-and-chern-numbers.md",
+          "related_resources": [
+            {
+              "source_id": "tg-baez-muniain",
+              "reason": "Local gauge transformation and curvature."
+            },
+            {
+              "source_id": "tg-hatcher-vb",
+              "reason": "Line-bundle twisting and first Chern classes."
+            },
+            {
+              "source_id": "tg-toronto-equivariant",
+              "reason": "Principal U(1) bundles and first Chern numbers."
+            },
+            {
+              "source_id": "tg-meinrenken-signs",
+              "reason": "The chosen c1 = iF/(2pi) curvature normalization and orientation signs."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

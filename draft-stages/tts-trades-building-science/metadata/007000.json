@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "007000",
-  "transcript": "007000-basements-foundations-and-groundwater.md",
+  "transcript": "007000-join-foundation-wall-and-ground-boundaries.md",
   "related_resources": [
     {
       "source_id": "pnnl-basement-drain",
@@ -14,6 +14,38 @@
     {
       "source_id": "cdc-mold",
       "reason": "Moisture as a prerequisite for indoor mold growth"
+    },
+    {
+      "source_id": "cdc-radon-test",
+      "reason": "Test conditions, short/long tests, confirmation, retesting after mitigation"
+    },
+    {
+      "source_id": "epa-radon-action",
+      "reason": "EPA US 4 pCi/L action recommendation and 2–4 pCi/L consider-action range"
+    },
+    {
+      "source_id": "pnnl-air-flow",
+      "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+    },
+    {
+      "source_id": "doe-rim-joist-bsec",
+      "reason": "Rim joist air barrier continuity, rigid/spray foam insulation and basement/crawlspace interface"
+    },
+    {
+      "source_id": "usda-wood",
+      "reason": "Chapters 4, 13–17: wood moisture, drying and buildings"
+    },
+    {
+      "source_id": "pnnl-air-sealed-basements",
+      "reason": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design"
+    },
+    {
+      "source_id": "pnnl-crawl-water21",
+      "reason": "Window-well grading, roof drainage, sump limits and concealed moisture paths"
+    },
+    {
+      "source_id": "nyserda-build-better21",
+      "reason": "Site drainage, foundation drains, window well drainage integration; region and design matter"
     }
   ],
   "historical_claims": [],
@@ -67,8 +99,801 @@
       "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
       "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-01",
+      "claim": "Radon is a naturally occurring radioactive soil gas whose concentration cannot be determined by appearance or smell.",
+      "kind": "radon_health_guidance",
+      "supports": [
+        {
+          "source_id": "cdc-radon-test",
+          "location": "Radon basics and requirement to test homes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "EPA recommends fixing a home with 4 pCi/L or more of indoor radon and considering mitigation between 2 and 4 pCi/L.",
+      "kind": "us_radon_action_guidance",
+      "supports": [
+        {
+          "source_id": "epa-radon-action",
+          "location": "Action level and consider-action range",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "Pressure-driven soil-gas entry and test conditions must be evaluated separately from visible dampness.",
+      "kind": "derived_building_physics",
+      "supports": [
+        {
+          "source_id": "cdc-radon-test",
+          "location": "Measured indoor exposure and recommended testing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Air-pressure driven pathways in enclosure; author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "Rim-joist boundaries require air-sealing continuity separately from cavity insulation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-rim-joist-bsec",
+          "location": "Rim joist air barrier continuity, rigid/spray foam insulation and basement/crawlspace interface",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Separate air leakage, vapor diffusion and water-management functions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Cantilevered joist bays may connect an exterior underside to interior framing through poorly blocked cavities.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-rim-joist-bsec",
+          "location": "Rim joist air barrier continuity, rigid/spray foam insulation and basement/crawlspace interface",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Wood moisture and drying capacity depend on the enclosure layers and exposure.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4, 13–17: wood moisture, drying and buildings",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Separate air leakage, vapor diffusion and water-management functions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "Thermal images and moisture meters provide observations, not a definitive leak-path diagnosis.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4, 13–17: wood moisture, drying and buildings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-01",
+      "claim": "Air and thermal boundaries need continuous detailing at transitions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-air-sealed-basements",
+          "location": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Separate air leakage, vapor diffusion and water-management functions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Basement retrofit assessment must consider water, drying, and existing material condition.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Footing drainage, sump pit, below-floor water management and discharge",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-sealed-basements",
+          "location": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "Air movement responds to wind, stack effect and other pressure drivers.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Sealing apparent soil-gas entry seams does not replace radon testing.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-radon-action",
+          "location": "EPA US 4 pCi/L action recommendation and 2–4 pCi/L consider-action range",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-01",
+      "claim": "Window-well entry may be from direct rainfall, surface runoff or below-grade water; sources need different responses.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-crawl-water21",
+          "location": "Window-well grading, roof drainage, sump limits and concealed moisture paths",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nyserda-build-better21",
+          "location": "Site drainage, foundation drains, window well drainage integration; region and design matter",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-02",
+      "claim": "A gravel pocket without a drain outlet is storage, not complete drainage.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nyserda-build-better21",
+          "location": "Site drainage, foundation drains, window well drainage integration; region and design matter",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Footing drainage, sump pit, below-floor water management and discharge",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-03",
+      "claim": "Surface grade, downspout discharge and well rim conditions can cause bulk-water entry.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-crawl-water21",
+          "location": "Window-well grading, roof drainage, sump limits and concealed moisture paths",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nyserda-build-better21",
+          "location": "Site drainage, foundation drains, window well drainage integration; region and design matter",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-04",
+      "claim": "Egress clearances and the foundation drainage design constrain covers and repairs.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nyserda-build-better21",
+          "location": "Site drainage, foundation drains, window well drainage integration; region and design matter",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Footing drainage, sump pit, below-floor water management and discharge",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-building-science:007000",
+        "file": "007000-basements-foundations-and-groundwater.md",
+        "sha256": "29ee917197625b26c3fc55d8cf0dd15eee37adf4cd4608843809f4130ef9a480",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-basements-foundations-and-groundwater.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-basement-drain",
+              "reason": "Footing drainage, sump pit, below-floor water management and discharge"
+            },
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Separate air leakage, vapor diffusion and water-management functions"
+            },
+            {
+              "source_id": "cdc-mold",
+              "reason": "Moisture as a prerequisite for indoor mold growth"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "Subgrade footing drains and covered sump systems can remove collected water near or below the interior basement floor.",
+              "kind": "building_water_control",
+              "supports": [
+                {
+                  "source_id": "pnnl-basement-drain",
+                  "location": "Scope and Description: footing drain and sump as bulk-water collection and removal",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "Air and vapor pathways require different analysis from liquid rainwater and groundwater pathways.",
+              "kind": "derived_building_physics",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Air barriers vs vapor barriers: distinction; applied to basement moisture in the author’s synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "The correct moisture strategy depends on active water sources and the assembly, not only the visible wet finish.",
+              "kind": "derived_building_diagnosis",
+              "supports": [
+                {
+                  "source_id": "pnnl-basement-drain",
+                  "location": "Description: water collection and site conditions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cdc-mold",
+                  "location": "Moisture control and indoor mold context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      },
+      {
+        "id": "trades-building-science:008000",
+        "file": "008000-radon-soil-gas-and-foundation-air-boundaries.md",
+        "sha256": "4a821d582f9e877a3a5ec5306104cac984a736f3945bd2c84ef9e4c4fe29ff94",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-radon-soil-gas-and-foundation-air-boundaries.md",
+          "related_resources": [
+            {
+              "source_id": "cdc-radon-test",
+              "reason": "Test conditions, short/long tests, confirmation, retesting after mitigation"
+            },
+            {
+              "source_id": "epa-radon-action",
+              "reason": "EPA US 4 pCi/L action recommendation and 2–4 pCi/L consider-action range"
+            },
+            {
+              "source_id": "pnnl-air-flow",
+              "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P008000-01",
+              "claim": "Radon is a naturally occurring radioactive soil gas whose concentration cannot be determined by appearance or smell.",
+              "kind": "radon_health_guidance",
+              "supports": [
+                {
+                  "source_id": "cdc-radon-test",
+                  "location": "Radon basics and requirement to test homes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-02",
+              "claim": "EPA recommends fixing a home with 4 pCi/L or more of indoor radon and considering mitigation between 2 and 4 pCi/L.",
+              "kind": "us_radon_action_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-radon-action",
+                  "location": "Action level and consider-action range",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-03",
+              "claim": "Pressure-driven soil-gas entry and test conditions must be evaluated separately from visible dampness.",
+              "kind": "derived_building_physics",
+              "supports": [
+                {
+                  "source_id": "cdc-radon-test",
+                  "location": "Measured indoor exposure and recommended testing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Air-pressure driven pathways in enclosure; author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+        }
+      },
+      {
+        "id": "trades-building-science:018000",
+        "file": "018000-rim-joists-cantilevers-and-concealed-air-boundaries.md",
+        "sha256": "675efbb01eeaf3ea8677f4f80b7e64c5d9aa5f50535c7873e1677d48abf8eedc",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-rim-joists-cantilevers-and-concealed-air-boundaries.md",
+          "related_resources": [
+            {
+              "source_id": "doe-rim-joist-bsec",
+              "reason": "Rim joist air barrier continuity, rigid/spray foam insulation and basement/crawlspace interface"
+            },
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Separate air leakage, vapor diffusion and water-management functions"
+            },
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4, 13–17: wood moisture, drying and buildings"
+            },
+            {
+              "source_id": "pnnl-air-flow",
+              "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "Rim-joist boundaries require air-sealing continuity separately from cavity insulation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-rim-joist-bsec",
+                  "location": "Rim joist air barrier continuity, rigid/spray foam insulation and basement/crawlspace interface",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Separate air leakage, vapor diffusion and water-management functions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Cantilevered joist bays may connect an exterior underside to interior framing through poorly blocked cavities.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-rim-joist-bsec",
+                  "location": "Rim joist air barrier continuity, rigid/spray foam insulation and basement/crawlspace interface",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "Wood moisture and drying capacity depend on the enclosure layers and exposure.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4, 13–17: wood moisture, drying and buildings",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Separate air leakage, vapor diffusion and water-management functions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "Thermal images and moisture meters provide observations, not a definitive leak-path diagnosis.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4, 13–17: wood moisture, drying and buildings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-building-science:019000",
+        "file": "019000-joining-the-foundation-air-barrier-to-the-wall-above.md",
+        "sha256": "3823a97fbce4fa280ab13e378517d077ca2d924b59d5a6478f4b1744b42802c8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-joining-the-foundation-air-barrier-to-the-wall-above.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-air-sealed-basements",
+              "reason": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design"
+            },
+            {
+              "source_id": "pnnl-basement-drain",
+              "reason": "Footing drainage, sump pit, below-floor water management and discharge"
+            },
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Separate air leakage, vapor diffusion and water-management functions"
+            },
+            {
+              "source_id": "pnnl-air-flow",
+              "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+            },
+            {
+              "source_id": "epa-radon-action",
+              "reason": "EPA US 4 pCi/L action recommendation and 2–4 pCi/L consider-action range"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P019000-01",
+              "claim": "Air and thermal boundaries need continuous detailing at transitions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "pnnl-air-sealed-basements",
+                  "location": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Separate air leakage, vapor diffusion and water-management functions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-02",
+              "claim": "Basement retrofit assessment must consider water, drying, and existing material condition.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "pnnl-basement-drain",
+                  "location": "Footing drainage, sump pit, below-floor water management and discharge",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-air-sealed-basements",
+                  "location": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-03",
+              "claim": "Air movement responds to wind, stack effect and other pressure drivers.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-04",
+              "claim": "Sealing apparent soil-gas entry seams does not replace radon testing.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-radon-action",
+                  "location": "EPA US 4 pCi/L action recommendation and 2–4 pCi/L consider-action range",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-building-science:021000",
+        "file": "021000-window-wells-below-grade-water-entry-and-drainage-diagnosis.md",
+        "sha256": "cc9b14f29e9bae54a8d49ad8bcad1032ef621dfe3ece5b692d243b80e1b4566d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-window-wells-below-grade-water-entry-and-drainage-diagnosis.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-crawl-water21",
+              "reason": "Window-well grading, roof drainage, sump limits and concealed moisture paths"
+            },
+            {
+              "source_id": "nyserda-build-better21",
+              "reason": "Site drainage, foundation drains, window well drainage integration; region and design matter"
+            },
+            {
+              "source_id": "pnnl-basement-drain",
+              "reason": "Footing drainage, sump pit, below-floor water management and discharge"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P021000-01",
+              "claim": "Window-well entry may be from direct rainfall, surface runoff or below-grade water; sources need different responses.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "pnnl-crawl-water21",
+                  "location": "Window-well grading, roof drainage, sump limits and concealed moisture paths",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nyserda-build-better21",
+                  "location": "Site drainage, foundation drains, window well drainage integration; region and design matter",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-02",
+              "claim": "A gravel pocket without a drain outlet is storage, not complete drainage.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nyserda-build-better21",
+                  "location": "Site drainage, foundation drains, window well drainage integration; region and design matter",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-basement-drain",
+                  "location": "Footing drainage, sump pit, below-floor water management and discharge",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-03",
+              "claim": "Surface grade, downspout discharge and well rim conditions can cause bulk-water entry.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "pnnl-crawl-water21",
+                  "location": "Window-well grading, roof drainage, sump limits and concealed moisture paths",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nyserda-build-better21",
+                  "location": "Site drainage, foundation drains, window well drainage integration; region and design matter",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-04",
+              "claim": "Egress clearances and the foundation drainage design constrain covers and repairs.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nyserda-build-better21",
+                  "location": "Site drainage, foundation drains, window well drainage integration; region and design matter",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-basement-drain",
+                  "location": "Footing drainage, sump pit, below-floor water management and discharge",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_or_clinical_review_pending",
+          "citation_policy": "Credit original authors and standards issuers; cite educational synthesis accurately. No engineering, clinical, or jurisdictional certification is claimed."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "007000-join-foundation-wall-and-ground-boundaries.md"
+      ],
+      "joined_before_source_parts": [
+        "008000",
+        "019000"
+      ]
+    }
+  ]
 }

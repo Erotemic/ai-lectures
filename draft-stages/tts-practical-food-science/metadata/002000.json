@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "002000",
-  "transcript": "002000-heat-transfer-surface-browning-and-evaporation.md",
+  "transcript": "002000-control-heat-seasoning-and-pan-sauces.md",
   "related_resources": [
     {
       "source_id": "ksu-maillard",
@@ -18,6 +18,38 @@
     {
       "source_id": "foodsafety-temps",
       "reason": "Current food-type-specific safe minimum temperatures"
+    },
+    {
+      "source_id": "usda-fsis-temps",
+      "reason": "Home-cooking category minimums and rest periods; checked 2026-11-15"
+    },
+    {
+      "source_id": "foodsafety-four-steps",
+      "reason": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules"
+    },
+    {
+      "source_id": "fao-carb",
+      "reason": "Starch pasting, retrogradation, syneresis and polysaccharide chains"
+    },
+    {
+      "source_id": "nih-taste-smell",
+      "reason": "Five basic taste qualities and interaction with texture, temperature and aroma"
+    },
+    {
+      "source_id": "nih-flavor-smell",
+      "reason": "Orthonasal and retronasal olfaction in the experience of food flavor"
+    },
+    {
+      "source_id": "nchfp-safe-canning",
+      "reason": "Distinguish low-acid vs acid foods, pH 4.6 threshold and validated process"
+    },
+    {
+      "source_id": "msu-food-emulsions",
+      "reason": "Oil-in-water mayonnaise emulsion and yolk/mustard interface stabilization"
+    },
+    {
+      "source_id": "asb-starch",
+      "reason": "Granule swelling, gelatinization and paste viscosity"
     }
   ],
   "historical_claims": [],
@@ -81,8 +113,949 @@
       "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
       "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
       "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "Wet surfaces dissipate heat through evaporation, often delaying surface browning.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "illinois-maillard",
+          "location": "Moisture, heating and browning",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ksu-maillard",
+          "location": "Maillard chemistry contrasted with caramelization",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Maillard browning and caramelization are distinct pathways.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ksu-maillard",
+          "location": "Maillard chemistry contrasted with caramelization",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Food size, moisture and heat-transfer medium change cooking time and texture.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "fao-carb",
+          "location": "Starch pasting, retrogradation, syneresis and polysaccharide chains",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "illinois-maillard",
+          "location": "Moisture, heating and browning",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Surface color does not establish safe internal temperature for animal products.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usda-fsis-temps",
+          "location": "Home-cooking category minimums and rest periods; checked 2026-11-15",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "foodsafety-four-steps",
+          "location": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "Browning reactions and food-surface water content interact during high-heat cooking.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "illinois-maillard",
+          "location": "Moisture, heating and browning",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ksu-maillard",
+          "location": "Maillard chemistry contrasted with caramelization",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Evaporation changes sauce concentration and can alter saltiness and texture.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ksu-maillard",
+          "location": "Maillard chemistry contrasted with caramelization",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Surface browning is not a substitute for verified safe internal food temperature.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usda-fsis-temps",
+          "location": "Home-cooking category minimums and rest periods; checked 2026-11-15",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "foodsafety-four-steps",
+          "location": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Batch size and pan geometry influence how much energy is used to evaporate water instead of heating a dry surface.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ksu-maillard",
+          "location": "Maillard chemistry contrasted with caramelization",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-01",
+      "claim": "Taste and smell contribute distinct signals to the combined perception of flavor.",
+      "kind": "original_nih_sensory_education",
+      "supports": [
+        {
+          "source_id": "nih-taste-smell",
+          "location": "Taste modalities and flavor integration",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Orthonasal and retronasal olfaction can substantially change perceived food flavor.",
+      "kind": "original_nidcd_smell_education",
+      "supports": [
+        {
+          "source_id": "nih-flavor-smell",
+          "location": "Two odor routes during eating",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Salt, acids and aromas influence sensory balance through distinct mechanisms rather than interchangeable seasoning effects.",
+      "kind": "derived_food_sensory_synthesis",
+      "supports": [
+        {
+          "source_id": "nih-taste-smell",
+          "location": "Different sensory channels",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nih-flavor-smell",
+          "location": "Aroma role",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Food preservation safety cannot be verified from taste or attractive aroma; validated methods matter.",
+      "kind": "original_preservation_scope",
+      "supports": [
+        {
+          "source_id": "nchfp-safe-canning",
+          "location": "Validated preservation and low-acid risk distinction",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P005000-01",
+      "claim": "Mayonnaise is an oil-in-water emulsion; yolk proteins and phospholipids help stabilize droplets.",
+      "kind": "food_science_mechanism",
+      "supports": [
+        {
+          "source_id": "msu-food-emulsions",
+          "location": "Experiment 8: Emulsions, Notes and Method",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "Creating many small droplets increases oil-water interface area, requiring mixing energy and stabilization.",
+      "kind": "derived_physics",
+      "supports": [
+        {
+          "source_id": "msu-food-emulsions",
+          "location": "Emulsion demonstration and amphiphilic explanation; geometrical scaling derived",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "Droplet dispersion and starch gelatinization are distinct possible sources of sauce thickness.",
+      "kind": "food_science_distinction",
+      "supports": [
+        {
+          "source_id": "msu-food-emulsions",
+          "location": "Emulsions method; starch gelatinization educational reference",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "asb-starch",
+          "location": "Emulsions method; starch gelatinization educational reference",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "Browning reactions can create flavorful pan deposits that dissolve during deglazing.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "illinois-maillard",
+          "location": "Moisture, heating and browning",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ksu-maillard",
+          "location": "Maillard chemistry contrasted with caramelization",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Reducing a liquid concentrates some nonvolatile dissolved ingredients, including salt.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ksu-maillard",
+          "location": "Maillard chemistry contrasted with caramelization",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Butter enrichment involves fat dispersion whose stability depends on temperature and liquid composition.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "msu-food-emulsions",
+          "location": "Oil-in-water mayonnaise emulsion and yolk/mustard interface stabilization",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "Surface browning does not verify safe internal cooking temperature.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usda-fsis-temps",
+          "location": "Home-cooking category minimums and rest periods; checked 2026-11-15",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "foodsafety-four-steps",
+          "location": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+  "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-food-science:002000",
+        "file": "002000-heat-transfer-surface-browning-and-evaporation.md",
+        "sha256": "13243846e622c160323d274019184fa3efb26b558a9d85622efe1b44a219e4a7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-heat-transfer-surface-browning-and-evaporation.md",
+          "related_resources": [
+            {
+              "source_id": "ksu-maillard",
+              "reason": "Maillard chemistry contrasted with caramelization"
+            },
+            {
+              "source_id": "illinois-maillard",
+              "reason": "Moisture, heating and browning"
+            },
+            {
+              "source_id": "fsis-thermometer",
+              "reason": "Measurement in thickest relevant portion of food"
+            },
+            {
+              "source_id": "foodsafety-temps",
+              "reason": "Current food-type-specific safe minimum temperatures"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P002000-01",
+              "claim": "Maillard browning involves reducing sugars and amino compounds, distinct from caramelization.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "ksu-maillard",
+                  "location": "University extension: chemistry comparison",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "illinois-maillard",
+                  "location": "University extension: chemistry comparison",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-02",
+              "claim": "Moisture and heating conditions affect the development of roasted surface browning.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "ksu-maillard",
+                  "location": "University extension: high heat and evaporation",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "illinois-maillard",
+                  "location": "University extension: high heat and evaporation",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-03",
+              "claim": "Food safety endpoints must be measured or referenced by ingredient-specific guidance, not exterior color alone.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "fsis-thermometer",
+                  "location": "USDA/FoodSafety.gov thermometer and endpoint charts",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "foodsafety-temps",
+                  "location": "USDA/FoodSafety.gov thermometer and endpoint charts",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+        }
+      },
+      {
+        "id": "practical-food-science:015000",
+        "file": "015000-dry-heat-and-wet-heat-cooking-by-energy-transfer.md",
+        "sha256": "d346e1e5670077d39bc48dfc67af5e25ebaad0ac22a1b3447fe6bb51d5ccbf89",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-dry-heat-and-wet-heat-cooking-by-energy-transfer.md",
+          "related_resources": [
+            {
+              "source_id": "ksu-maillard",
+              "reason": "Maillard chemistry contrasted with caramelization"
+            },
+            {
+              "source_id": "illinois-maillard",
+              "reason": "Moisture, heating and browning"
+            },
+            {
+              "source_id": "usda-fsis-temps",
+              "reason": "Home-cooking category minimums and rest periods; checked 2026-11-15"
+            },
+            {
+              "source_id": "foodsafety-four-steps",
+              "reason": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules"
+            },
+            {
+              "source_id": "fao-carb",
+              "reason": "Starch pasting, retrogradation, syneresis and polysaccharide chains"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "Wet surfaces dissipate heat through evaporation, often delaying surface browning.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "illinois-maillard",
+                  "location": "Moisture, heating and browning",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ksu-maillard",
+                  "location": "Maillard chemistry contrasted with caramelization",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "Maillard browning and caramelization are distinct pathways.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ksu-maillard",
+                  "location": "Maillard chemistry contrasted with caramelization",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Food size, moisture and heat-transfer medium change cooking time and texture.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "fao-carb",
+                  "location": "Starch pasting, retrogradation, syneresis and polysaccharide chains",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "illinois-maillard",
+                  "location": "Moisture, heating and browning",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Surface color does not establish safe internal temperature for animal products.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usda-fsis-temps",
+                  "location": "Home-cooking category minimums and rest periods; checked 2026-11-15",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "foodsafety-four-steps",
+                  "location": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-food-science:017000",
+        "file": "017000-stovetop-heat-control-searing-and-sauce-reduction.md",
+        "sha256": "ef3c63fcd08340cc41232ed37171436699bae4674256d2978298fdef059e84ea",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-stovetop-heat-control-searing-and-sauce-reduction.md",
+          "related_resources": [
+            {
+              "source_id": "illinois-maillard",
+              "reason": "Moisture, heating and browning"
+            },
+            {
+              "source_id": "ksu-maillard",
+              "reason": "Maillard chemistry contrasted with caramelization"
+            },
+            {
+              "source_id": "usda-fsis-temps",
+              "reason": "Home-cooking category minimums and rest periods; checked 2026-11-15"
+            },
+            {
+              "source_id": "foodsafety-four-steps",
+              "reason": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "Browning reactions and food-surface water content interact during high-heat cooking.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "illinois-maillard",
+                  "location": "Moisture, heating and browning",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ksu-maillard",
+                  "location": "Maillard chemistry contrasted with caramelization",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "Evaporation changes sauce concentration and can alter saltiness and texture.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ksu-maillard",
+                  "location": "Maillard chemistry contrasted with caramelization",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "Surface browning is not a substitute for verified safe internal food temperature.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usda-fsis-temps",
+                  "location": "Home-cooking category minimums and rest periods; checked 2026-11-15",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "foodsafety-four-steps",
+                  "location": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "Batch size and pan geometry influence how much energy is used to evaporate water instead of heating a dry surface.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ksu-maillard",
+                  "location": "Maillard chemistry contrasted with caramelization",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-food-science:011000",
+        "file": "011000-salt-acidity-aroma-and-flavor-perception.md",
+        "sha256": "42e831fc40e4e9947dab4264b5ddb10da84055285a1d386149e96fc90609a82e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-salt-acidity-aroma-and-flavor-perception.md",
+          "related_resources": [
+            {
+              "source_id": "nih-taste-smell",
+              "reason": "Five basic taste qualities and interaction with texture, temperature and aroma"
+            },
+            {
+              "source_id": "nih-flavor-smell",
+              "reason": "Orthonasal and retronasal olfaction in the experience of food flavor"
+            },
+            {
+              "source_id": "nchfp-safe-canning",
+              "reason": "Distinguish low-acid vs acid foods, pH 4.6 threshold and validated process"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "Taste and smell contribute distinct signals to the combined perception of flavor.",
+              "kind": "original_nih_sensory_education",
+              "supports": [
+                {
+                  "source_id": "nih-taste-smell",
+                  "location": "Taste modalities and flavor integration",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "Orthonasal and retronasal olfaction can substantially change perceived food flavor.",
+              "kind": "original_nidcd_smell_education",
+              "supports": [
+                {
+                  "source_id": "nih-flavor-smell",
+                  "location": "Two odor routes during eating",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "Salt, acids and aromas influence sensory balance through distinct mechanisms rather than interchangeable seasoning effects.",
+              "kind": "derived_food_sensory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nih-taste-smell",
+                  "location": "Different sensory channels",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nih-flavor-smell",
+                  "location": "Aroma role",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "Food preservation safety cannot be verified from taste or attractive aroma; validated methods matter.",
+              "kind": "original_preservation_scope",
+              "supports": [
+                {
+                  "source_id": "nchfp-safe-canning",
+                  "location": "Validated preservation and low-acid risk distinction",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-food-science:005000",
+        "file": "005000-emulsions-sauces-and-fat-water-systems.md",
+        "sha256": "0d490cf0c3c9eb10c6702f8d1274fb85f2ef68460cf317d6b03a9eb07ea52cfa",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-emulsions-sauces-and-fat-water-systems.md",
+          "related_resources": [
+            {
+              "source_id": "msu-food-emulsions",
+              "reason": "Oil-in-water mayonnaise emulsion and yolk/mustard interface stabilization"
+            },
+            {
+              "source_id": "asb-starch",
+              "reason": "Granule swelling, gelatinization and paste viscosity"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P005000-01",
+              "claim": "Mayonnaise is an oil-in-water emulsion; yolk proteins and phospholipids help stabilize droplets.",
+              "kind": "food_science_mechanism",
+              "supports": [
+                {
+                  "source_id": "msu-food-emulsions",
+                  "location": "Experiment 8: Emulsions, Notes and Method",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-02",
+              "claim": "Creating many small droplets increases oil-water interface area, requiring mixing energy and stabilization.",
+              "kind": "derived_physics",
+              "supports": [
+                {
+                  "source_id": "msu-food-emulsions",
+                  "location": "Emulsion demonstration and amphiphilic explanation; geometrical scaling derived",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-03",
+              "claim": "Droplet dispersion and starch gelatinization are distinct possible sources of sauce thickness.",
+              "kind": "food_science_distinction",
+              "supports": [
+                {
+                  "source_id": "msu-food-emulsions",
+                  "location": "Emulsions method; starch gelatinization educational reference",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "asb-starch",
+                  "location": "Emulsions method; starch gelatinization educational reference",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+        }
+      },
+      {
+        "id": "practical-food-science:018000",
+        "file": "018000-deglazing-seasoning-and-building-pan-sauces.md",
+        "sha256": "dea911ca95fb7e416a893d4cf318949789385c5e3634791405f390867950b8e3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-deglazing-seasoning-and-building-pan-sauces.md",
+          "related_resources": [
+            {
+              "source_id": "illinois-maillard",
+              "reason": "Moisture, heating and browning"
+            },
+            {
+              "source_id": "ksu-maillard",
+              "reason": "Maillard chemistry contrasted with caramelization"
+            },
+            {
+              "source_id": "msu-food-emulsions",
+              "reason": "Oil-in-water mayonnaise emulsion and yolk/mustard interface stabilization"
+            },
+            {
+              "source_id": "usda-fsis-temps",
+              "reason": "Home-cooking category minimums and rest periods; checked 2026-11-15"
+            },
+            {
+              "source_id": "foodsafety-four-steps",
+              "reason": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "Browning reactions can create flavorful pan deposits that dissolve during deglazing.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "illinois-maillard",
+                  "location": "Moisture, heating and browning",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ksu-maillard",
+                  "location": "Maillard chemistry contrasted with caramelization",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Reducing a liquid concentrates some nonvolatile dissolved ingredients, including salt.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ksu-maillard",
+                  "location": "Maillard chemistry contrasted with caramelization",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "Butter enrichment involves fat dispersion whose stability depends on temperature and liquid composition.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "msu-food-emulsions",
+                  "location": "Oil-in-water mayonnaise emulsion and yolk/mustard interface stabilization",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "Surface browning does not verify safe internal cooking temperature.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usda-fsis-temps",
+                  "location": "Home-cooking category minimums and rest periods; checked 2026-11-15",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "foodsafety-four-steps",
+                  "location": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "002000-control-heat-seasoning-and-pan-sauces.md"
+      ],
+      "joined_before_source_parts": [
+        "015000",
+        "005000",
+        "018000"
+      ]
+    }
+  ]
 }

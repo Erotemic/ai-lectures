@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "003000",
-  "transcript": "003000-traps-vents-cleanouts-and-the-gravity-drain.md",
+  "transcript": "003000-give-wastewater-air-and-floodwater-workable-paths.md",
   "related_resources": [
     {
       "source_id": "icc-ipc24-vent",
@@ -14,6 +14,26 @@
     {
       "source_id": "iapmo-upc",
       "reason": "Chapters 9–10: vents and traps; code adoption varies"
+    },
+    {
+      "source_id": "epa-septic-path",
+      "reason": "Tank solids separation and soil treatment/dispersal mechanisms"
+    },
+    {
+      "source_id": "epa-septic-malfunctions",
+      "reason": "Common signs, inspection, pumping and onsite system limitations"
+    },
+    {
+      "source_id": "fema-nfip-basement-protection",
+      "reason": "Sump pumps, water alarms, backup power and basement flood-loss reduction"
+    },
+    {
+      "source_id": "ngwa-well-pressure",
+      "reason": "Pressure tank storage vs pump capacity; diagnose low water pressure"
+    },
+    {
+      "source_id": "epa-maintenance",
+      "reason": "Leaks, service pressure and maintenance"
     }
   ],
   "historical_claims": [],
@@ -77,8 +97,694 @@
       "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
       "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
       "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P009000-01",
+      "claim": "A conventional septic tank retains sludge and scum while the soil drainfield treats and disperses the effluent.",
+      "kind": "original_agency_septic_mechanism",
+      "supports": [
+        {
+          "source_id": "epa-septic-path",
+          "location": "Tank, sludge, scum, effluent and soil absorption descriptions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Slow drains and wastewater backups are among the possible signs of a malfunctioning septic system.",
+      "kind": "original_agency_septic_guidance",
+      "supports": [
+        {
+          "source_id": "epa-septic-malfunctions",
+          "location": "Common signs of failure",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "A drain backup at a low fixture during a high-volume discharge may originate in a shared downstream path rather than that fixture trap.",
+      "kind": "derived_drainage_network_model",
+      "supports": [
+        {
+          "source_id": "epa-septic-malfunctions",
+          "location": "Backups and system failure conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-septic-path",
+          "location": "House discharge to sewer and downstream destination",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-01",
+      "claim": "Sump pumps, water alarms and backup pumps can help reduce basement flood damage under suitable conditions.",
+      "kind": "original_fema_flood_guidance",
+      "supports": [
+        {
+          "source_id": "fema-nfip-basement-protection",
+          "location": "Basement flood mitigation recommendations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Pump operating flow depends on elevation head and friction rather than a single zero-head rating.",
+      "kind": "derived_pump_system_curve",
+      "supports": [
+        {
+          "source_id": "fema-nfip-basement-protection",
+          "location": "Sump function and contingency",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ngwa-well-pressure",
+          "location": "Pump flow and pressure relationships",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "A wastewater backup route is different from groundwater entering through foundation drainage, and protection must match the pathway.",
+      "kind": "derived_separate_hydraulic_systems",
+      "supports": [
+        {
+          "source_id": "epa-septic-malfunctions",
+          "location": "Sewage system failure and backing-up",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "fema-nfip-basement-protection",
+          "location": "Basement water-control strategies",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Flood protection includes maintaining external drainage and the destination for removed water.",
+      "kind": "derived_source_path_destination",
+      "supports": [
+        {
+          "source_id": "fema-nfip-basement-protection",
+          "location": "Risk reduction and drainage",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-maintenance",
+          "location": "Water and leak management",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-01",
+      "claim": "Drain venting preserves an air path and protects fixture trap water seals.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "icc-ipc24-vent",
+          "location": "Vents protect trap seals and regulate pressure in drainage network",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "iapmo-venting",
+          "location": "Trap seal protection against siphonage and backpressure",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "Multiple fixture discharges can produce changing air pressures and hydraulic conditions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "icc-ipc24-vent",
+          "location": "Vents protect trap seals and regulate pressure in drainage network",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "iapmo-venting",
+          "location": "Trap seal protection against siphonage and backpressure",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "Individual, common and wet-vent systems have defined code-dependent limits.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "icc-ipc24-vent",
+          "location": "Vents protect trap seals and regulate pressure in drainage network",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "An air-admittance valve is not equivalent to a universally open pressure-relief vent.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "icc-ipc24-vent",
+          "location": "Vents protect trap seals and regulate pressure in drainage network",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "iapmo-venting",
+          "location": "Trap seal protection against siphonage and backpressure",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "A drain restriction and a lost water seal may present some similar symptoms but require different responses.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "iapmo-venting",
+          "location": "Trap seal protection against siphonage and backpressure",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-septic-path",
+          "location": "Tank solids separation and soil treatment/dispersal mechanisms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-06",
+      "claim": "Vent lengths and slopes are edition- and configuration-specific.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "icc-ipc24-vent",
+          "location": "Vents protect trap seals and regulate pressure in drainage network",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "iapmo-upc",
+          "location": "Chapters 9–10: vents and traps; code adoption varies",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+  "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-plumbing:003000",
+        "file": "003000-traps-vents-cleanouts-and-the-gravity-drain.md",
+        "sha256": "adb278f8f43db53366778e0ca9a099179b991db3af87de613147b09a5a69dcf0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-traps-vents-cleanouts-and-the-gravity-drain.md",
+          "related_resources": [
+            {
+              "source_id": "icc-ipc24-vent",
+              "reason": "Vents protect trap seals and regulate pressure in drainage network"
+            },
+            {
+              "source_id": "iapmo-venting",
+              "reason": "Trap seal protection against siphonage and backpressure"
+            },
+            {
+              "source_id": "iapmo-upc",
+              "reason": "Chapters 9–10: vents and traps; code adoption varies"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P003000-01",
+              "claim": "Traps maintain a liquid seal separating occupied rooms from drain gas.",
+              "kind": "field_practice",
+              "supports": [
+                {
+                  "source_id": "icc-ipc24-vent",
+                  "location": "Chapter 9 introduction and IAPMO trap-seal discussion",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "iapmo-venting",
+                  "location": "Chapter 9 introduction and IAPMO trap-seal discussion",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-02",
+              "claim": "Venting manages drain-network air-pressure disturbances to preserve trap seals.",
+              "kind": "physical_mechanism",
+              "supports": [
+                {
+                  "source_id": "icc-ipc24-vent",
+                  "location": "IPC Chapter 9 Scope/901.2; IAPMO pressure effects",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "iapmo-venting",
+                  "location": "IPC Chapter 9 Scope/901.2; IAPMO pressure effects",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-03",
+              "claim": "Drainage vent layout and cleanout geometry must be evaluated under an adopted local plumbing code.",
+              "kind": "regulatory_scope",
+              "supports": [
+                {
+                  "source_id": "icc-ipc24-vent",
+                  "location": "IPC Chapter 9 model provisions; UPC reference for alternate model",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "iapmo-upc",
+                  "location": "IPC Chapter 9 model provisions; UPC reference for alternate model",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+        }
+      },
+      {
+        "id": "trades-plumbing:009000",
+        "file": "009000-sewer-laterals-septic-systems-and-drainage-failures.md",
+        "sha256": "9ccbec18c141961ddad4ff2a327f8ae9fcdab26ff06871a99f9e634f4b0ff90c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-sewer-laterals-septic-systems-and-drainage-failures.md",
+          "related_resources": [
+            {
+              "source_id": "epa-septic-path",
+              "reason": "Tank solids separation and soil treatment/dispersal mechanisms"
+            },
+            {
+              "source_id": "epa-septic-malfunctions",
+              "reason": "Common signs, inspection, pumping and onsite system limitations"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P009000-01",
+              "claim": "A conventional septic tank retains sludge and scum while the soil drainfield treats and disperses the effluent.",
+              "kind": "original_agency_septic_mechanism",
+              "supports": [
+                {
+                  "source_id": "epa-septic-path",
+                  "location": "Tank, sludge, scum, effluent and soil absorption descriptions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-02",
+              "claim": "Slow drains and wastewater backups are among the possible signs of a malfunctioning septic system.",
+              "kind": "original_agency_septic_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-septic-malfunctions",
+                  "location": "Common signs of failure",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-03",
+              "claim": "A drain backup at a low fixture during a high-volume discharge may originate in a shared downstream path rather than that fixture trap.",
+              "kind": "derived_drainage_network_model",
+              "supports": [
+                {
+                  "source_id": "epa-septic-malfunctions",
+                  "location": "Backups and system failure conditions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-septic-path",
+                  "location": "House discharge to sewer and downstream destination",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+        }
+      },
+      {
+        "id": "trades-plumbing:010000",
+        "file": "010000-sump-pumps-backwater-valves-and-flood-protection.md",
+        "sha256": "77a29e48e6c4381a32ff69f72f932130849f861c7fa35c5a3bbba766af19e94c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-sump-pumps-backwater-valves-and-flood-protection.md",
+          "related_resources": [
+            {
+              "source_id": "fema-nfip-basement-protection",
+              "reason": "Sump pumps, water alarms, backup power and basement flood-loss reduction"
+            },
+            {
+              "source_id": "ngwa-well-pressure",
+              "reason": "Pressure tank storage vs pump capacity; diagnose low water pressure"
+            },
+            {
+              "source_id": "epa-septic-malfunctions",
+              "reason": "Common signs, inspection, pumping and onsite system limitations"
+            },
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leaks, service pressure and maintenance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Sump pumps, water alarms and backup pumps can help reduce basement flood damage under suitable conditions.",
+              "kind": "original_fema_flood_guidance",
+              "supports": [
+                {
+                  "source_id": "fema-nfip-basement-protection",
+                  "location": "Basement flood mitigation recommendations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "Pump operating flow depends on elevation head and friction rather than a single zero-head rating.",
+              "kind": "derived_pump_system_curve",
+              "supports": [
+                {
+                  "source_id": "fema-nfip-basement-protection",
+                  "location": "Sump function and contingency",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ngwa-well-pressure",
+                  "location": "Pump flow and pressure relationships",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "A wastewater backup route is different from groundwater entering through foundation drainage, and protection must match the pathway.",
+              "kind": "derived_separate_hydraulic_systems",
+              "supports": [
+                {
+                  "source_id": "epa-septic-malfunctions",
+                  "location": "Sewage system failure and backing-up",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "fema-nfip-basement-protection",
+                  "location": "Basement water-control strategies",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Flood protection includes maintaining external drainage and the destination for removed water.",
+              "kind": "derived_source_path_destination",
+              "supports": [
+                {
+                  "source_id": "fema-nfip-basement-protection",
+                  "location": "Risk reduction and drainage",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "Water and leak management",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "trades-plumbing:020000",
+        "file": "020000-drainage-venting-under-simultaneous-fixture-loads.md",
+        "sha256": "3730b208e1b09aa93838b0b500743fca2e713d1b473f1dc719ccbe1ac441c996",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-drainage-venting-under-simultaneous-fixture-loads.md",
+          "related_resources": [
+            {
+              "source_id": "icc-ipc24-vent",
+              "reason": "Vents protect trap seals and regulate pressure in drainage network"
+            },
+            {
+              "source_id": "iapmo-venting",
+              "reason": "Trap seal protection against siphonage and backpressure"
+            },
+            {
+              "source_id": "iapmo-upc",
+              "reason": "Chapters 9–10: vents and traps; code adoption varies"
+            },
+            {
+              "source_id": "epa-septic-path",
+              "reason": "Tank solids separation and soil treatment/dispersal mechanisms"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P020000-01",
+              "claim": "Drain venting preserves an air path and protects fixture trap water seals.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "icc-ipc24-vent",
+                  "location": "Vents protect trap seals and regulate pressure in drainage network",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "iapmo-venting",
+                  "location": "Trap seal protection against siphonage and backpressure",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-02",
+              "claim": "Multiple fixture discharges can produce changing air pressures and hydraulic conditions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "icc-ipc24-vent",
+                  "location": "Vents protect trap seals and regulate pressure in drainage network",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "iapmo-venting",
+                  "location": "Trap seal protection against siphonage and backpressure",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-03",
+              "claim": "Individual, common and wet-vent systems have defined code-dependent limits.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "icc-ipc24-vent",
+                  "location": "Vents protect trap seals and regulate pressure in drainage network",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-04",
+              "claim": "An air-admittance valve is not equivalent to a universally open pressure-relief vent.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "icc-ipc24-vent",
+                  "location": "Vents protect trap seals and regulate pressure in drainage network",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "iapmo-venting",
+                  "location": "Trap seal protection against siphonage and backpressure",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-05",
+              "claim": "A drain restriction and a lost water seal may present some similar symptoms but require different responses.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "iapmo-venting",
+                  "location": "Trap seal protection against siphonage and backpressure",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-septic-path",
+                  "location": "Tank solids separation and soil treatment/dispersal mechanisms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-06",
+              "claim": "Vent lengths and slopes are edition- and configuration-specific.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "icc-ipc24-vent",
+                  "location": "Vents protect trap seals and regulate pressure in drainage network",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "iapmo-upc",
+                  "location": "Chapters 9–10: vents and traps; code adoption varies",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "003000-give-wastewater-air-and-floodwater-workable-paths.md"
+      ],
+      "joined_before_source_parts": [
+        "009000",
+        "020000"
+      ]
+    }
+  ]
 }

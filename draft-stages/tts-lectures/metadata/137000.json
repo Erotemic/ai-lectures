@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "137000",
-  "transcript": "137000-the-free-beam-operator-and-its-domain.md",
+  "transcript": "137000-free-beam-model-rayleigh-ritz-and-angle-certificates.md",
   "historical_claims": [
     {
       "id": "137000-h01",
@@ -21,6 +21,66 @@
         "davis-kahan-1970"
       ],
       "source_locator": "Section 9: beam trial space",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "138000-h01",
+      "anchor": "Davis and Kahan begin with a simpler comparison operator on the trial space: zero.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Section 9: beam trial calculation",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "138000-h02",
+      "anchor": "the paper's first sine-angle estimate and its Ky Fan two-term estimate.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Section 9: beam sine/Ky Fan estimates",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "139000-h01",
+      "anchor": "t zero zero two one eight times epsilon. So the sum of the sines of the two principal angles is bounded by that quantity. This is the paper's equation nine point three.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Equation (9.3)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "139000-h02",
+      "anchor": "The paper next applies the sine-two-theta theorem. This theorem compares two reducing subspaces of the unperturbed and perturbed operators, not simply one trial residual. In the beam example the perturbati",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Section 9, sin(2Θ)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "139000-h03",
+      "anchor": "the paper obtains point zero zero one zero three two eight times epsilon, divided by the same denominator, one minus point zero zero one five seven seven four times epsilon.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Section 9, tan(2Θ)",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "140000-h01",
+      "anchor": "The paper also applies its one-vector tangent theorem directly to each Ritz vector.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Section 9, one-vector tangent estimate",
       "audit_status": "pending_primary_passage_comparison"
     }
   ],
@@ -56,6 +116,324 @@
     {
       "source_id": "wiki-quadratic-form",
       "reason": "Elementary quadratic forms and associated matrices before unbounded form-domain questions."
+    },
+    {
+      "source_id": "cornell-ritz",
+      "reason": "Projection/Ritz perspective and residual orthogonality; advanced sections are optional."
+    },
+    {
+      "source_id": "boyd-vandenberghe-applied",
+      "reason": "Work through concrete linear algebra, least-squares or SVD calculations in an applied treatment."
+    },
+    {
+      "source_id": "bindel-ritz-eigensolvers",
+      "reason": "Follow Rayleigh-Ritz residual orthogonality and the logic of extracting approximate eigenpairs."
+    },
+    {
+      "source_id": "wiki-rayleigh-quotient",
+      "reason": "Extremal eigenvalue characterizations through quadratic forms."
+    },
+    {
+      "source_id": "wiki-courant-minimax",
+      "reason": "The variational min–max formula and the role of competing subspaces."
+    },
+    {
+      "source_id": "wiki-rayleigh-ritz-method",
+      "reason": "Finite-dimensional trial-space compression and approximate eigenvalues."
+    },
+    {
+      "source_id": "wiki-spectral-gap",
+      "reason": "Basic interpretations of gaps between spectral regions; definitions vary by setting."
+    },
+    {
+      "source_id": "hsu-dk-notes",
+      "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+    },
+    {
+      "source_id": "wiki-majorization-extra",
+      "reason": "Partial-sum inequalities, weak majorization and convex functions."
+    },
+    {
+      "source_id": "wiki-eigenvalues-eigenvectors",
+      "reason": "Eigenvectors and eigenvalues before moving to spectral subspaces."
+    },
+    {
+      "source_id": "wiki-schur-complement",
+      "reason": "Eliminating blocks to get an effective operator or reduced eigenvalue equation."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "g2:137000",
+        "file": "137000-the-free-beam-operator-and-its-domain.md",
+        "sha256": "7c3a646f4db7cc812a9010a963610eebd779dfd1bdfd795f8e44b7428396d1a1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "137000",
+          "transcript": "137000-the-free-beam-operator-and-its-domain.md",
+          "historical_claims": [
+            {
+              "id": "137000-h01",
+              "anchor": "This is the trial subspace Davis and Kahan will use: the two-dimensional affine plane inside the infinite-dimensional Hilbert space.",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Section 9: beam example",
+              "audit_status": "pending_primary_passage_comparison"
+            },
+            {
+              "id": "137000-h02",
+              "anchor": "This is the trial subspace Davis and Kahan will use: the two-dimensional affine plane inside the infinite-dimensional Hilbert space.",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Section 9: beam trial space",
+              "audit_status": "pending_primary_passage_comparison"
+            }
+          ],
+          "related_resources": [
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "hunter-nachtergaele-applied",
+              "reason": "Read the matching open chapter for foundational analytic hypotheses and worked proofs."
+            },
+            {
+              "source_id": "teschl-qm-free",
+              "reason": "Use the full free text for spectral calculus and domains of unbounded self-adjoint operators."
+            },
+            {
+              "source_id": "bell-sturm-liouville",
+              "reason": "Relate differential-operator spectra to integral-operator reductions and boundary conditions."
+            },
+            {
+              "source_id": "wiki-sequence-space",
+              "reason": "Sequence-space examples such as ℓ² and diagonal operators."
+            },
+            {
+              "source_id": "wiki-closed-operator",
+              "reason": "Closed graphs and domains of operators that are not defined everywhere."
+            },
+            {
+              "source_id": "wiki-quadratic-form",
+              "reason": "Elementary quadratic forms and associated matrices before unbounded form-domain questions."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:138000",
+        "file": "138000-beam-rayleigh-ritz-calculation.md",
+        "sha256": "3610bb8122ce138ff393e28720e312c390997128aec605835ebe29bcdf088985",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "138000",
+          "transcript": "138000-beam-rayleigh-ritz-calculation.md",
+          "historical_claims": [
+            {
+              "id": "138000-h01",
+              "anchor": "Davis and Kahan begin with a simpler comparison operator on the trial space: zero.",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Section 9: beam trial calculation",
+              "audit_status": "pending_primary_passage_comparison"
+            },
+            {
+              "id": "138000-h02",
+              "anchor": "the paper's first sine-angle estimate and its Ky Fan two-term estimate.",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Section 9: beam sine/Ky Fan estimates",
+              "audit_status": "pending_primary_passage_comparison"
+            }
+          ],
+          "related_resources": [
+            {
+              "source_id": "cornell-ritz",
+              "reason": "Projection/Ritz perspective and residual orthogonality; advanced sections are optional."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "boyd-vandenberghe-applied",
+              "reason": "Work through concrete linear algebra, least-squares or SVD calculations in an applied treatment."
+            },
+            {
+              "source_id": "bell-sturm-liouville",
+              "reason": "Relate differential-operator spectra to integral-operator reductions and boundary conditions."
+            },
+            {
+              "source_id": "bindel-ritz-eigensolvers",
+              "reason": "Follow Rayleigh-Ritz residual orthogonality and the logic of extracting approximate eigenpairs."
+            },
+            {
+              "source_id": "wiki-rayleigh-quotient",
+              "reason": "Extremal eigenvalue characterizations through quadratic forms."
+            },
+            {
+              "source_id": "wiki-courant-minimax",
+              "reason": "The variational min–max formula and the role of competing subspaces."
+            },
+            {
+              "source_id": "wiki-rayleigh-ritz-method",
+              "reason": "Finite-dimensional trial-space compression and approximate eigenvalues."
+            },
+            {
+              "source_id": "wiki-spectral-gap",
+              "reason": "Basic interpretations of gaps between spectral regions; definitions vary by setting."
+            },
+            {
+              "source_id": "wiki-quadratic-form",
+              "reason": "Elementary quadratic forms and associated matrices before unbounded form-domain questions."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:139000",
+        "file": "139000-comparing-angle-and-ky-fan-beam-estimates.md",
+        "sha256": "0ff9667d2972a3d1d4a47101c925632f73b0d104b31c2c28fab35459f125c6c6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "139000",
+          "transcript": "139000-comparing-angle-and-ky-fan-beam-estimates.md",
+          "historical_claims": [
+            {
+              "id": "139000-h01",
+              "anchor": "t zero zero two one eight times epsilon. So the sum of the sines of the two principal angles is bounded by that quantity. This is the paper's equation nine point three.",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Equation (9.3)",
+              "audit_status": "pending_primary_passage_comparison"
+            },
+            {
+              "id": "139000-h02",
+              "anchor": "The paper next applies the sine-two-theta theorem. This theorem compares two reducing subspaces of the unperturbed and perturbed operators, not simply one trial residual. In the beam example the perturbati",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Section 9, sin(2Θ)",
+              "audit_status": "pending_primary_passage_comparison"
+            },
+            {
+              "id": "139000-h03",
+              "anchor": "the paper obtains point zero zero one zero three two eight times epsilon, divided by the same denominator, one minus point zero zero one five seven seven four times epsilon.",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Section 9, tan(2Θ)",
+              "audit_status": "pending_primary_passage_comparison"
+            }
+          ],
+          "related_resources": [
+            {
+              "source_id": "cornell-ritz",
+              "reason": "Projection/Ritz perspective and residual orthogonality; advanced sections are optional."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "hsu-dk-notes",
+              "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+            },
+            {
+              "source_id": "bell-sturm-liouville",
+              "reason": "Relate differential-operator spectra to integral-operator reductions and boundary conditions."
+            },
+            {
+              "source_id": "bindel-ritz-eigensolvers",
+              "reason": "Follow Rayleigh-Ritz residual orthogonality and the logic of extracting approximate eigenpairs."
+            },
+            {
+              "source_id": "wiki-majorization-extra",
+              "reason": "Partial-sum inequalities, weak majorization and convex functions."
+            },
+            {
+              "source_id": "wiki-spectral-gap",
+              "reason": "Basic interpretations of gaps between spectral regions; definitions vary by setting."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:140000",
+        "file": "140000-from-subspace-bounds-to-individual-modes.md",
+        "sha256": "62056a291d66157d24344149692ca13cb4a3b0d65629d4c7110c3a10f0d4242f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "140000",
+          "transcript": "140000-from-subspace-bounds-to-individual-modes.md",
+          "historical_claims": [
+            {
+              "id": "140000-h01",
+              "anchor": "The paper also applies its one-vector tangent theorem directly to each Ritz vector.",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Section 9, one-vector tangent estimate",
+              "audit_status": "pending_primary_passage_comparison"
+            }
+          ],
+          "related_resources": [
+            {
+              "source_id": "cornell-ritz",
+              "reason": "Projection/Ritz perspective and residual orthogonality; advanced sections are optional."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "hsu-dk-notes",
+              "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+            },
+            {
+              "source_id": "bell-sturm-liouville",
+              "reason": "Relate differential-operator spectra to integral-operator reductions and boundary conditions."
+            },
+            {
+              "source_id": "bindel-ritz-eigensolvers",
+              "reason": "Follow Rayleigh-Ritz residual orthogonality and the logic of extracting approximate eigenpairs."
+            },
+            {
+              "source_id": "wiki-eigenvalues-eigenvectors",
+              "reason": "Eigenvectors and eigenvalues before moving to spectral subspaces."
+            },
+            {
+              "source_id": "wiki-schur-complement",
+              "reason": "Eliminating blocks to get an effective operator or reduced eigenvalue equation."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

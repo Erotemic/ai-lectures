@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "077000",
-  "transcript": "077000-quadratic-chabauty-and-p-adic-heights.md",
+  "transcript": "077000-p-adic-refinements-and-representation-theoretic-information.md",
   "related_resources": [
     {
       "source_id": "ab-r20-077000-1",
@@ -14,7 +14,100 @@
     {
       "source_id": "ab-r20-077000-3",
       "reason": "Reference for Quadratic Chabauty and p-Adic Height Pairings (3 of 3)"
+    },
+    {
+      "source_id": "ab-r21-081000-1",
+      "reason": "period-ring and representation-theoretic foundations"
+    },
+    {
+      "source_id": "ab-r21-081000-2",
+      "reason": "modern geometric comparison in a substantially broader setting"
+    },
+    {
+      "source_id": "ab-r21-082000-1",
+      "reason": "crystalline and semistable period-module descriptions"
+    },
+    {
+      "source_id": "ab-r21-082000-2",
+      "reason": "equivalence between admissible filtered modules and semistable representations (consult theorem and base-field hypotheses)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:077000",
+        "file": "077000-quadratic-chabauty-and-p-adic-heights.md",
+        "sha256": "c19c7776a5781d4e564cf558ce6869fa2aba496c1361ecf06632b3fa5f677f97",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "077000",
+          "transcript": "077000-quadratic-chabauty-and-p-adic-heights.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r20-077000-1",
+              "reason": "Reference for Quadratic Chabauty and p-Adic Height Pairings (1 of 3)"
+            },
+            {
+              "source_id": "ab-r20-077000-2",
+              "reason": "Reference for Quadratic Chabauty and p-Adic Height Pairings (2 of 3)"
+            },
+            {
+              "source_id": "ab-r20-077000-3",
+              "reason": "Reference for Quadratic Chabauty and p-Adic Height Pairings (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:081000",
+        "file": "081000-p-adic-galois-representations-and-hodge-tate-weights.md",
+        "sha256": "624d1b5826a9d17eb6b312288e2ae235974c2ef3ea28ea7a155db615501b8be1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "081000",
+          "transcript": "081000-p-adic-galois-representations-and-hodge-tate-weights.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r21-081000-1",
+              "reason": "period-ring and representation-theoretic foundations"
+            },
+            {
+              "source_id": "ab-r21-081000-2",
+              "reason": "modern geometric comparison in a substantially broader setting"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:082000",
+        "file": "082000-crystalline-representations-and-filtered-frobenius.md",
+        "sha256": "7d701784c9c28cedcb222d68dcceb4b3119359f46339ed5232e1c2c11715486c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "082000",
+          "transcript": "082000-crystalline-representations-and-filtered-frobenius.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r21-082000-1",
+              "reason": "crystalline and semistable period-module descriptions"
+            },
+            {
+              "source_id": "ab-r21-082000-2",
+              "reason": "equivalence between admissible filtered modules and semistable representations (consult theorem and base-field hypotheses)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

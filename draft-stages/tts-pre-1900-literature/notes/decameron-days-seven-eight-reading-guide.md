@@ -1,5 +1,7 @@
 # Boccaccio’s *Decameron*: Days Seven and Eight — source and reading guide
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 **Coverage:** 378000–399000, the fourth installment of this work in the
 pre-1900 literature track. Days One–Six occupy 312000–377000. With this
 installment **80 of the 100 tales** have individual narrated manuscripts,

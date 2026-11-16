@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "017000",
-  "transcript": "017000-localization-and-prime-ideals.md",
+  "transcript": "017000-local-algebra-and-finite-module-structure-shared-core.md",
   "related_resources": [
     {
       "source_id": "aa-mit785",
@@ -10,7 +10,59 @@
     {
       "source_id": "aa-conrad",
       "reason": "Commutative ring and module examples."
+    },
+    {
+      "source_id": "aa-bristol-hilbert",
+      "reason": "Noetherian ascending-chain characterization and Hilbert basis theorem."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:017000",
+        "file": "017000-localization-and-prime-ideals.md",
+        "sha256": "13e000f132bbb3533f181e133e340492ebf0c017c01933e08cec9e6d84f2c47a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-localization-and-prime-ideals.md",
+          "related_resources": [
+            {
+              "source_id": "aa-mit785",
+              "reason": "Localization, universal property, prime correspondence and local rings."
+            },
+            {
+              "source_id": "aa-conrad",
+              "reason": "Commutative ring and module examples."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:018000",
+        "file": "018000-noetherian-rings-and-hilbert-basis-theorem.md",
+        "sha256": "7e6899500d774b776d764b3d883358171e4cc1d4f6952927d2ea8a56065ec0a2",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-noetherian-rings-and-hilbert-basis-theorem.md",
+          "related_resources": [
+            {
+              "source_id": "aa-bristol-hilbert",
+              "reason": "Noetherian ascending-chain characterization and Hilbert basis theorem."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

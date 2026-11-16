@@ -18,192 +18,84 @@
   "lectures": [
     {
       "id": "001000",
-      "title": "Machines Trade Force for Motion: Torque, Friction, and Wear",
+      "title": "Transmit power through real parts",
       "section": "mechanical-principles",
-      "file": "001000-machines-trade-force-for-motion.md",
-      "spoken_words": 1185,
+      "file": "001000-transmit-power-through-real-parts.md",
+      "spoken_words": 5062,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "002000",
-      "title": "Gear Ratios and Transmission Layouts",
-      "section": "mechanical-principles",
-      "file": "002000-gear-ratios-and-transmission-layouts.md",
-      "spoken_words": 1014,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "003000",
-      "title": "Friction, Lubrication, and Heat",
-      "section": "mechanical-principles",
-      "file": "003000-friction-lubrication-and-heat.md",
-      "spoken_words": 1008,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "004000",
-      "title": "Bearings, Seals, and Alignment",
-      "section": "mechanical-principles",
-      "file": "004000-bearings-seals-and-alignment.md",
-      "spoken_words": 831,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 34.9,
+      "consolidated_from": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "006000"
+      ]
     },
     {
       "id": "005000",
-      "title": "Springs, Stored Energy, and Damping",
+      "title": "Read vibration, motion, and condition evidence",
       "section": "mechanical-principles",
-      "file": "005000-springs-stored-energy-and-damping.md",
-      "spoken_words": 910,
+      "file": "005000-read-vibration-motion-and-condition-evidence.md",
+      "spoken_words": 4659,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "006000",
-      "title": "Fits, Clearances, and Thermal Expansion",
-      "section": "mechanical-principles",
-      "file": "006000-fits-clearances-and-thermal-expansion.md",
-      "spoken_words": 987,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "007000",
-      "title": "Failure Diagnosis from Sound, Heat, and Motion",
-      "section": "mechanical-principles",
-      "file": "007000-failure-diagnosis-from-sound-heat-and-motion.md",
-      "spoken_words": 899,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "008000",
-      "title": "Pumps, Fans, and Performance Curves",
-      "section": "mechanical-principles",
-      "file": "008000-pumps-fans-and-performance-curves.md",
-      "spoken_words": 879,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "009000",
-      "title": "Motors, Drives, and Mechanical Fault Isolation",
-      "section": "mechanical-principles",
-      "file": "009000-motors-drives-and-mechanical-fault-isolation.md",
-      "spoken_words": 892,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "010000",
-      "title": "Balancing, Vibration, and Resonance",
-      "section": "mechanical-principles",
-      "file": "010000-balancing-vibration-and-resonance.md",
-      "spoken_words": 991,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "011000",
-      "title": "Hydraulic Circuits, Valves, and Actuators",
-      "section": "mechanical-principles",
-      "file": "011000-hydraulic-circuits-valves-and-actuators.md",
-      "spoken_words": 892,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "012000",
-      "title": "Pneumatics, Compressors, and Compressed-Air Controls",
-      "section": "mechanical-principles",
-      "file": "012000-pneumatics-compressors-and-compressed-air-controls.md",
-      "spoken_words": 870,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 32.1,
+      "consolidated_from": [
+        "005000",
+        "007000",
+        "009000",
+        "010000",
+        "017000"
+      ]
     },
     {
       "id": "013000",
-      "title": "Chains, Belts, and Transmission Wear",
+      "title": "Keep mechanical transmissions aligned and intact",
       "section": "mechanical-principles",
-      "file": "013000-chains-belts-and-transmission-wear.md",
-      "spoken_words": 886,
+      "file": "013000-keep-mechanical-transmissions-aligned-and-intact.md",
+      "spoken_words": 3879,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 26.8,
+      "consolidated_from": [
+        "013000",
+        "014000",
+        "015000",
+        "016000"
+      ]
     },
     {
-      "id": "014000",
-      "title": "Threaded Joints, Preload Loss, and Fastener Failure",
+      "id": "008000",
+      "title": "Match a pump to its inlet, network, and seal",
       "section": "mechanical-principles",
-      "file": "014000-threaded-joints-preload-loss-and-fastener-failure.md",
-      "spoken_words": 997,
+      "file": "008000-match-a-pump-to-its-inlet-network-and-seal.md",
+      "spoken_words": 3842,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 26.5,
+      "consolidated_from": [
+        "008000",
+        "018000",
+        "019000",
+        "020000"
+      ]
     },
     {
-      "id": "015000",
-      "title": "Shafts, Couplings, and Alignment",
+      "id": "011000",
+      "title": "Control fluid power and stored pressure",
       "section": "mechanical-principles",
-      "file": "015000-shafts-couplings-and-alignment.md",
-      "spoken_words": 992,
+      "file": "011000-control-fluid-power-and-stored-pressure.md",
+      "spoken_words": 2864,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "016000",
-      "title": "Gearboxes, Lubrication, and Thermal Limits",
-      "section": "mechanical-principles",
-      "file": "016000-gearboxes-lubrication-and-thermal-limits.md",
-      "spoken_words": 946,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "017000",
-      "title": "Condition Monitoring of Rotating Equipment",
-      "section": "mechanical-principles",
-      "file": "017000-condition-monitoring-of-rotating-equipment.md",
-      "spoken_words": 925,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "018000",
-      "title": "Pump Cavitation, Inlet Conditions, and Impeller Wear",
-      "section": "mechanical-principles",
-      "file": "018000-pump-cavitation-inlet-conditions-and-impeller-wear.md",
-      "spoken_words": 960,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "019000",
-      "title": "Pump Selection, Efficiency, and the Cost of Moving Water",
-      "section": "mechanical-principles",
-      "file": "019000-pump-selection-efficiency-and-the-cost-of-moving-water.md",
-      "spoken_words": 1086,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "020000",
-      "title": "Mechanical Seals and Leaks at Rotating Shafts",
-      "section": "mechanical-principles",
-      "file": "020000-mechanical-seals-and-leaks-at-rotating-shafts.md",
-      "spoken_words": 850,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "021000",
-      "title": "Pressure Relief, Accumulators, and Stored Energy in Fluid-Power Systems",
-      "section": "mechanical-principles",
-      "file": "021000-pressure-relief-accumulators-and-stored-energy-in-fluid-power-systems.md",
-      "spoken_words": 1042,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 19.8,
+      "consolidated_from": [
+        "011000",
+        "012000",
+        "021000"
+      ]
     }
   ]
 }

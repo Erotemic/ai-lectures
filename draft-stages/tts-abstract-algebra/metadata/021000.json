@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "021000",
-  "transcript": "021000-ext-long-exact-sequences-and-yoneda-extensions.md",
+  "transcript": "021000-extensions-spectral-sequences-and-cohomological-obstructions-shared-core.md",
   "related_resources": [
     {
       "source_id": "aa-weibel",
@@ -10,7 +10,163 @@
     {
       "source_id": "aa-mit-homological",
       "reason": "Short exact sequences and derived-functor background."
+    },
+    {
+      "source_id": "aa-stacks-spectral",
+      "reason": "Filtered cochain complex page conventions and convergence."
+    },
+    {
+      "source_id": "aa-weibel",
+      "reason": "Homological applications and extension problems."
+    },
+    {
+      "source_id": "aa-stacks-tor-ss",
+      "reason": "Change-of-rings spectral sequences, sign and convergence conventions."
+    },
+    {
+      "source_id": "aa-stacks-tor-ind",
+      "reason": "Derived versus ordinary base change."
+    },
+    {
+      "source_id": "aa-weibel",
+      "reason": "General homological algebra background."
+    },
+    {
+      "source_id": "aa-swan",
+      "reason": "Original Serre-Swan vector bundles and projective modules correspondence."
+    },
+    {
+      "source_id": "aa-hatcher-k",
+      "reason": "Möbius bundle, stable classes, K-theory."
+    },
+    {
+      "source_id": "aa-mit-homological",
+      "reason": "Projectives as direct summands and lifting property."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "032000-h01",
+      "anchor": "The Serre–Swan theorem",
+      "kind": "historical_research",
+      "source_ids": [
+        "aa-swan"
+      ],
+      "source_locator": "Swan 1962 original article and Serre antecedent.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:021000",
+        "file": "021000-ext-long-exact-sequences-and-yoneda-extensions.md",
+        "sha256": "f1a02249eba0061e6b4df27bd5ed5265a57b9466de27f4acdb4d08b10029fe21",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-ext-long-exact-sequences-and-yoneda-extensions.md",
+          "related_resources": [
+            {
+              "source_id": "aa-weibel",
+              "reason": "Resolution computation of Ext, Yoneda extensions and long exact sequences."
+            },
+            {
+              "source_id": "aa-mit-homological",
+              "reason": "Short exact sequences and derived-functor background."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:028000",
+        "file": "028000-spectral-sequences-and-filtered-complexes.md",
+        "sha256": "6f1eb6a75e4c222d9eab94d02ef5be83a978575f86306e08cf23922bd50c871a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "028000",
+          "transcript": "028000-spectral-sequences-and-filtered-complexes.md",
+          "related_resources": [
+            {
+              "source_id": "aa-stacks-spectral",
+              "reason": "Filtered cochain complex page conventions and convergence."
+            },
+            {
+              "source_id": "aa-weibel",
+              "reason": "Homological applications and extension problems."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:031000",
+        "file": "031000-flat-base-change-and-tor-spectral-sequences.md",
+        "sha256": "c899caf514e53c2e3aee472baec627718d28e094283e00c1f1694aec15d263c9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "031000",
+          "transcript": "031000-flat-base-change-and-tor-spectral-sequences.md",
+          "related_resources": [
+            {
+              "source_id": "aa-stacks-tor-ss",
+              "reason": "Change-of-rings spectral sequences, sign and convergence conventions."
+            },
+            {
+              "source_id": "aa-stacks-tor-ind",
+              "reason": "Derived versus ordinary base change."
+            },
+            {
+              "source_id": "aa-weibel",
+              "reason": "General homological algebra background."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:032000",
+        "file": "032000-projective-modules-and-k-theory.md",
+        "sha256": "2ded16105369763570258580876f4bdae01d5b55d734d0f9701c88eca43e6484",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "032000",
+          "transcript": "032000-projective-modules-and-k-theory.md",
+          "related_resources": [
+            {
+              "source_id": "aa-swan",
+              "reason": "Original Serre-Swan vector bundles and projective modules correspondence."
+            },
+            {
+              "source_id": "aa-hatcher-k",
+              "reason": "Möbius bundle, stable classes, K-theory."
+            },
+            {
+              "source_id": "aa-mit-homological",
+              "reason": "Projectives as direct summands and lifting property."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "032000-h01",
+              "anchor": "The Serre–Swan theorem",
+              "kind": "historical_research",
+              "source_ids": [
+                "aa-swan"
+              ],
+              "source_locator": "Swan 1962 original article and Serre antecedent.",
+              "audit_status": "reference_recorded"
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

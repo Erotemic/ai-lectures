@@ -1,0 +1,25 @@
+transcript:
+  revisions:
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - lecture: '001000'
+      composition_record: metadata/001000.json
+    - lecture: '010000'
+      composition_record: metadata/010000.json
+    - lecture: '012000'
+      composition_record: metadata/012000.json
+    scope: Consolidate reviewed source parts into single lecture manuscripts. Original
+      text and source attribution are retained in component records and Git history;
+      this revision does not claim original authorship of inherited prose.
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - 001000-define-the-work-so-bids-can-be-compared.md
+    - 010000-plan-the-work-and-control-changes.md
+    - 012000-inspect-commission-and-close-out-a-project.md
+    scope: Reviewed combined-manuscript joins and added connections among preserved
+      source arguments; scoped inherited part-level framing. No original authorship
+      of inherited prose, new technical guidance, or field validation is claimed.

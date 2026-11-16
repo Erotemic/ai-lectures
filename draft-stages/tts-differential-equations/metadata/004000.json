@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "004000",
-  "transcript": "004000-oscillators-and-resonance.md",
+  "transcript": "004000-oscillation-linear-systems-and-forcing.md",
   "related_resources": [
     {
       "source_id": "de-mit1803",
@@ -10,7 +10,88 @@
     {
       "source_id": "de-mattuck",
       "reason": "Oscillators, frequency response, and physical models."
+    },
+    {
+      "source_id": "de-mit1803",
+      "reason": "Linear systems, eigenvalues, phase portraits and matrix exponentials."
+    },
+    {
+      "source_id": "de-mit1803",
+      "reason": "Variation of parameters, convolution and transfer functions."
+    },
+    {
+      "source_id": "de-mattuck",
+      "reason": "Forced oscillators, damping and resonance."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "differential-equations:004000",
+        "file": "004000-oscillators-and-resonance.md",
+        "sha256": "cac588036f0413da1f0e8ccc2e71799be0a25c67f57d877239cfae1b862e9480",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-oscillators-and-resonance.md",
+          "related_resources": [
+            {
+              "source_id": "de-mit1803",
+              "reason": "Second-order oscillators, characteristic roots, resonance and damping."
+            },
+            {
+              "source_id": "de-mattuck",
+              "reason": "Oscillators, frequency response, and physical models."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:005000",
+        "file": "005000-linear-systems-and-matrix-exponentials.md",
+        "sha256": "1f45b844a42de3b73a78d78537a373e8dc24b990b2b3ac3d9ac78374242089c0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-linear-systems-and-matrix-exponentials.md",
+          "related_resources": [
+            {
+              "source_id": "de-mit1803",
+              "reason": "Linear systems, eigenvalues, phase portraits and matrix exponentials."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:006000",
+        "file": "006000-forced-systems-and-green-functions.md",
+        "sha256": "59c6dee46533c52dac198b26f5c1c9ae9852b8cc020acd814d04fee64b5790ff",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-forced-systems-and-green-functions.md",
+          "related_resources": [
+            {
+              "source_id": "de-mit1803",
+              "reason": "Variation of parameters, convolution and transfer functions."
+            },
+            {
+              "source_id": "de-mattuck",
+              "reason": "Forced oscillators, damping and resonance."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "008000",
-  "transcript": "008000-discrete-optimization-relaxations-and-bounds.md",
+  "transcript": "008000-combinatorial-relaxation-and-submodular-approximation.md",
   "related_resources": [
     {
       "source_id": "od-boyd",
@@ -10,7 +10,241 @@
     {
       "source_id": "od-stanford-364b",
       "reason": "Branch-and-bound, rounding, and relaxation methods."
+    },
+    {
+      "source_id": "od-nwf1978",
+      "reason": "Original submodular maximization guarantee."
+    },
+    {
+      "source_id": "od-nw1978",
+      "reason": "Cardinality-budget greedy and oracle bounds."
+    },
+    {
+      "source_id": "od-bach-submodular",
+      "reason": "Lovasz extension and convexity."
+    },
+    {
+      "source_id": "op-r13-017000-1",
+      "reason": "Nonmonotone submodular maximization and matroid-feasible approximation"
+    },
+    {
+      "source_id": "op-r13-017000-2",
+      "reason": "Nonmonotone submodular maximization and matroid-feasible approximation"
+    },
+    {
+      "source_id": "op-r13-017000-3",
+      "reason": "Nonmonotone submodular maximization and matroid-feasible approximation"
+    },
+    {
+      "source_id": "op-r17-021000-1",
+      "reason": "Reference on Submodular Maximization Under Intersecting Matroid Constraints (1 of 3)"
+    },
+    {
+      "source_id": "op-r17-021000-2",
+      "reason": "Reference on Submodular Maximization Under Intersecting Matroid Constraints (2 of 3)"
+    },
+    {
+      "source_id": "op-r17-021000-3",
+      "reason": "Reference on Submodular Maximization Under Intersecting Matroid Constraints (3 of 3)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "013000-h01",
+      "anchor": "Nemhauser–Wolsey–Fisher",
+      "kind": "historical_research",
+      "source_ids": [
+        "od-nwf1978"
+      ],
+      "source_locator": "Original 1978 approximation paper.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "optimization-duality:008000",
+        "file": "008000-discrete-optimization-relaxations-and-bounds.md",
+        "sha256": "0e97464cf53156f01752c78ec15de3d1bffc49687c84ea71bf13896f1163f865",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-discrete-optimization-relaxations-and-bounds.md",
+          "related_resources": [
+            {
+              "source_id": "od-boyd",
+              "reason": "Relaxations, convex bounds and dual certificates."
+            },
+            {
+              "source_id": "od-stanford-364b",
+              "reason": "Branch-and-bound, rounding, and relaxation methods."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "optimization-duality:013000",
+        "file": "013000-relaxation-submodularity-nonmonotonicity-and-matroid-constraints-shared-core.md",
+        "sha256": "e1283268ac76e9f505a3e06569cec15613e0f5a7293d16634b9d644afa4a66f1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-relaxation-submodularity-nonmonotonicity-and-matroid-constraints-shared-core.md",
+          "related_resources": [
+            {
+              "source_id": "od-nwf1978",
+              "reason": "Original submodular maximization guarantee."
+            },
+            {
+              "source_id": "od-nw1978",
+              "reason": "Cardinality-budget greedy and oracle bounds."
+            },
+            {
+              "source_id": "od-bach-submodular",
+              "reason": "Lovasz extension and convexity."
+            },
+            {
+              "source_id": "op-r13-017000-1",
+              "reason": "Nonmonotone submodular maximization and matroid-feasible approximation"
+            },
+            {
+              "source_id": "op-r13-017000-2",
+              "reason": "Nonmonotone submodular maximization and matroid-feasible approximation"
+            },
+            {
+              "source_id": "op-r13-017000-3",
+              "reason": "Nonmonotone submodular maximization and matroid-feasible approximation"
+            },
+            {
+              "source_id": "op-r17-021000-1",
+              "reason": "Reference on Submodular Maximization Under Intersecting Matroid Constraints (1 of 3)"
+            },
+            {
+              "source_id": "op-r17-021000-2",
+              "reason": "Reference on Submodular Maximization Under Intersecting Matroid Constraints (2 of 3)"
+            },
+            {
+              "source_id": "op-r17-021000-3",
+              "reason": "Reference on Submodular Maximization Under Intersecting Matroid Constraints (3 of 3)"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "013000-h01",
+              "anchor": "Nemhauser–Wolsey–Fisher",
+              "kind": "historical_research",
+              "source_ids": [
+                "od-nwf1978"
+              ],
+              "source_locator": "Original 1978 approximation paper.",
+              "audit_status": "reference_recorded"
+            }
+          ],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "optimization-duality:013000",
+                "file": "013000-submodular-optimization-and-greedy-guarantees.md",
+                "sha256": "7cdeef25eeae2fbd436c5928786a797417a2665028316f272fbcb30f4c048da9",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "013000",
+                  "transcript": "013000-submodular-optimization-and-greedy-guarantees.md",
+                  "related_resources": [
+                    {
+                      "source_id": "od-nwf1978",
+                      "reason": "Original submodular maximization guarantee."
+                    },
+                    {
+                      "source_id": "od-nw1978",
+                      "reason": "Cardinality-budget greedy and oracle bounds."
+                    },
+                    {
+                      "source_id": "od-bach-submodular",
+                      "reason": "Lovasz extension and convexity."
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "013000-h01",
+                      "anchor": "Nemhauser–Wolsey–Fisher",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "od-nwf1978"
+                      ],
+                      "source_locator": "Original 1978 approximation paper.",
+                      "audit_status": "reference_recorded"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "optimization-duality:017000",
+                "file": "017000-nonmonotone-submodular-maximization-and-matroids.md",
+                "sha256": "6309536a357c1133b725899f732ae67955bf85de53a8ef4b5b7896b8171e54a8",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "017000",
+                  "transcript": "017000-nonmonotone-submodular-maximization-and-matroids.md",
+                  "related_resources": [
+                    {
+                      "source_id": "op-r13-017000-1",
+                      "reason": "Nonmonotone submodular maximization and matroid-feasible approximation"
+                    },
+                    {
+                      "source_id": "op-r13-017000-2",
+                      "reason": "Nonmonotone submodular maximization and matroid-feasible approximation"
+                    },
+                    {
+                      "source_id": "op-r13-017000-3",
+                      "reason": "Nonmonotone submodular maximization and matroid-feasible approximation"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "optimization-duality:021000",
+                "file": "021000-submodular-maximization-under-matroid-intersections.md",
+                "sha256": "99ff92128ea648538332b499097b12cee070691c2298c440e3022545bf85b46d",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "021000",
+                  "transcript": "021000-submodular-maximization-under-matroid-intersections.md",
+                  "related_resources": [
+                    {
+                      "source_id": "op-r17-021000-1",
+                      "reason": "Reference on Submodular Maximization Under Intersecting Matroid Constraints (1 of 3)"
+                    },
+                    {
+                      "source_id": "op-r17-021000-2",
+                      "reason": "Reference on Submodular Maximization Under Intersecting Matroid Constraints (2 of 3)"
+                    },
+                    {
+                      "source_id": "op-r17-021000-3",
+                      "reason": "Reference on Submodular Maximization Under Intersecting Matroid Constraints (3 of 3)"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
 }

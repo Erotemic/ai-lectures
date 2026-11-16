@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "102000",
-  "transcript": "102000-real-hilbert-complexification.md",
+  "transcript": "102000-complexifying-real-operators-without-changing-theorem-scope.md",
   "historical_claims": [],
   "related_resources": [
     {
@@ -19,6 +19,163 @@
     {
       "source_id": "wiki-polar-decomposition",
       "reason": "Polar factors, positive modulus, and rectangular matrix examples; compare full-unitary extensions with the canonical kernel-zero partial isometry."
+    },
+    {
+      "source_id": "wiki-functional-calculus",
+      "reason": "Read how functions of a scalar variable become functions of a self-adjoint operator."
+    },
+    {
+      "source_id": "wiki-projection-valued-measure",
+      "reason": "Connect spectral sets with orthogonal projections and the more general Borel functional calculus."
+    },
+    {
+      "source_id": "wiki-complexification",
+      "reason": "Extending scalars from real to complex vector spaces; the lecture also covers Hilbert norms and operator adjoints."
+    },
+    {
+      "source_id": "wiki-sylvester-equation",
+      "reason": "Begin with the finite matrix equation; the lecture adds real complexification, unbounded domains and ideal gauges."
+    },
+    {
+      "source_id": "wiki-complexification",
+      "reason": "Review why both real and imaginary coordinates are required for a complexified unbounded domain."
+    },
+    {
+      "source_id": "wiki-spectral-gap",
+      "reason": "Review spectral separation; the theorem uses a more specific form-bounded Sylvester gap."
+    },
+    {
+      "source_id": "higham-sylvester",
+      "reason": "Matrix Sylvester equation; note the lecture-specific operator norm and spectral-gap conditions."
+    },
+    {
+      "source_id": "rosenblum-1956",
+      "reason": "Primary paper on the operator equation and disjoint spectra; comparison resource, not a verified source check."
+    },
+    {
+      "source_id": "teschl-qm-free",
+      "reason": "Use the full free text for spectral calculus and domains of unbounded self-adjoint operators."
+    },
+    {
+      "source_id": "bell-unbounded-operators",
+      "reason": "Follow the concrete graph/domain argument and the unbounded adjoint definition."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "g2:102000",
+        "file": "102000-real-hilbert-complexification.md",
+        "sha256": "b1f56bd54dd9a8161baadbd5dc6b98f676dbaa4e27f78087b49b32f7762a348c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "102000",
+          "transcript": "102000-real-hilbert-complexification.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-complexification",
+              "reason": "See the scalar-extension construction x plus i y; the lecture adds Hilbert norm, adjoint and conjugation details."
+            },
+            {
+              "source_id": "wiki-spectral-theorem",
+              "reason": "Background on why complex self-adjoint operators are convenient for spectral analysis."
+            },
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "wiki-polar-decomposition",
+              "reason": "Polar factors, positive modulus, and rectangular matrix examples; compare full-unitary extensions with the canonical kernel-zero partial isometry."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:103000",
+        "file": "103000-real-and-complex-spectra-and-functional-calculus.md",
+        "sha256": "d544b3b44ba656506c88d1b886aa3e899c440bd7d0469deed774ac47c3b53c80",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "103000",
+          "transcript": "103000-real-and-complex-spectra-and-functional-calculus.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-functional-calculus",
+              "reason": "Read how functions of a scalar variable become functions of a self-adjoint operator."
+            },
+            {
+              "source_id": "wiki-projection-valued-measure",
+              "reason": "Connect spectral sets with orthogonal projections and the more general Borel functional calculus."
+            },
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "wiki-polar-decomposition",
+              "reason": "Polar factors, positive modulus, and rectangular matrix examples; compare full-unitary extensions with the canonical kernel-zero partial isometry."
+            },
+            {
+              "source_id": "wiki-complexification",
+              "reason": "Extending scalars from real to complex vector spaces; the lecture also covers Hilbert norms and operator adjoints."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:104000",
+        "file": "104000-real-versions-of-unbounded-sylvester-bounds.md",
+        "sha256": "ee0901e0b733d95f636e8c7d52a8528977c38a2b7e3fbb93aa583112b1c50aca",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "104000",
+          "transcript": "104000-real-versions-of-unbounded-sylvester-bounds.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-sylvester-equation",
+              "reason": "Begin with the finite matrix equation; the lecture adds real complexification, unbounded domains and ideal gauges."
+            },
+            {
+              "source_id": "wiki-complexification",
+              "reason": "Review why both real and imaginary coordinates are required for a complexified unbounded domain."
+            },
+            {
+              "source_id": "wiki-spectral-gap",
+              "reason": "Review spectral separation; the theorem uses a more specific form-bounded Sylvester gap."
+            },
+            {
+              "source_id": "higham-sylvester",
+              "reason": "Matrix Sylvester equation; note the lecture-specific operator norm and spectral-gap conditions."
+            },
+            {
+              "source_id": "rosenblum-1956",
+              "reason": "Primary paper on the operator equation and disjoint spectra; comparison resource, not a verified source check."
+            },
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "teschl-qm-free",
+              "reason": "Use the full free text for spectral calculus and domains of unbounded self-adjoint operators."
+            },
+            {
+              "source_id": "bell-unbounded-operators",
+              "reason": "Follow the concrete graph/domain argument and the unbounded adjoint definition."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

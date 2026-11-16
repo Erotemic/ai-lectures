@@ -1,5 +1,7 @@
 # Samuel Beckett: *Waiting for Godot* (045000–046000)
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## Editorial intent and listening order
 
 A complete, spoiler-containing retelling of the two-act play precedes nine interpretive lectures. The act retellings explain what spectators actually see, rather than presenting the play as a story about a secret identity that is ultimately revealed. The analyses investigate time and repetition, physical comedy, dialogue, master/servant power, religion and negative certainty, memory, stage craft, bilingual authorial versions, and documented influence. The course treats stage directions and silence as essential evidence. These are original explanatory manuscripts, not performances or reproductions of the copyrighted play.

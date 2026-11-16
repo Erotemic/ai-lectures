@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "025600",
-  "transcript": "025600-hamiltonian-action-cappings-and-periodic-orbits.md",
+  "transcript": "025600-action-floer-cylinders-compactness-and-boundary-cancellation.md",
   "related_resources": [
     {
       "source_id": "tg-r16-032000-2",
@@ -14,7 +14,153 @@
     {
       "source_id": "tg-mit-lectures-symplectic",
       "reason": "Hamiltonian vector field and symplectic form conventions."
+    },
+    {
+      "source_id": "tg-r16-032000-2",
+      "reason": "Floer gradient equation, action and energy identity."
+    },
+    {
+      "source_id": "tg-hutchings-floer-course",
+      "reason": "Morse-to-Floer conceptual bridge."
+    },
+    {
+      "source_id": "tg-floer-symplectic-fixed-points-1989",
+      "reason": "Hamiltonian Floer PDE construction."
+    },
+    {
+      "source_id": "tg-gromov-pseudoholomorphic-1985",
+      "reason": "Gromov compactness and holomorphic sphere bubbling."
+    },
+    {
+      "source_id": "tg-r16-032000-3",
+      "reason": "Stable-map and bubble-tree compactness."
+    },
+    {
+      "source_id": "tg-wendl-holomorphic",
+      "reason": "Energy quantization and compactness techniques."
+    },
+    {
+      "source_id": "tg-r16-032000-1",
+      "reason": "Original Lagrangian differential construction."
+    },
+    {
+      "source_id": "tg-r16-032000-2",
+      "reason": "Gluing, compactified moduli and differential squared zero."
+    },
+    {
+      "source_id": "tg-hutchings-floer-course",
+      "reason": "Morse homology and Floer boundary analogy."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:025600",
+        "file": "025600-hamiltonian-action-cappings-and-periodic-orbits.md",
+        "sha256": "ed65a76dbed28e9ff2164878d82a13da738dcef0ed68a2db1873a5ddcb840c54",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025600",
+          "transcript": "025600-hamiltonian-action-cappings-and-periodic-orbits.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r16-032000-2",
+              "reason": "The 1997 Salamon action convention and first variation."
+            },
+            {
+              "source_id": "tg-floer-symplectic-fixed-points-1989",
+              "reason": "Original Hamiltonian fixed-point Floer construction."
+            },
+            {
+              "source_id": "tg-mit-lectures-symplectic",
+              "reason": "Hamiltonian vector field and symplectic form conventions."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:025700",
+        "file": "025700-floer-equation-negative-gradient-and-energy-identity.md",
+        "sha256": "d3932e6c3a4095a9d0b3dc5213fd55d0a92db237bc98661ffb43ac9097bf706e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025700",
+          "transcript": "025700-floer-equation-negative-gradient-and-energy-identity.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r16-032000-2",
+              "reason": "Floer gradient equation, action and energy identity."
+            },
+            {
+              "source_id": "tg-hutchings-floer-course",
+              "reason": "Morse-to-Floer conceptual bridge."
+            },
+            {
+              "source_id": "tg-floer-symplectic-fixed-points-1989",
+              "reason": "Hamiltonian Floer PDE construction."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:025800",
+        "file": "025800-gromov-compactness-bubbles-and-broken-trajectories.md",
+        "sha256": "9a5162792a69c5531a2b68664c07f3795d6f4222be349a7856629b799c33e4db",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025800",
+          "transcript": "025800-gromov-compactness-bubbles-and-broken-trajectories.md",
+          "related_resources": [
+            {
+              "source_id": "tg-gromov-pseudoholomorphic-1985",
+              "reason": "Gromov compactness and holomorphic sphere bubbling."
+            },
+            {
+              "source_id": "tg-r16-032000-3",
+              "reason": "Stable-map and bubble-tree compactness."
+            },
+            {
+              "source_id": "tg-wendl-holomorphic",
+              "reason": "Energy quantization and compactness techniques."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:025900",
+        "file": "025900-floer-differential-gluing-and-d-squared.md",
+        "sha256": "7b2edcf641602e8f539fff936b6a335fdf098a1d7910a69d51600e41f13f8b1c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025900",
+          "transcript": "025900-floer-differential-gluing-and-d-squared.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r16-032000-1",
+              "reason": "Original Lagrangian differential construction."
+            },
+            {
+              "source_id": "tg-r16-032000-2",
+              "reason": "Gluing, compactified moduli and differential squared zero."
+            },
+            {
+              "source_id": "tg-hutchings-floer-course",
+              "reason": "Morse homology and Floer boundary analogy."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

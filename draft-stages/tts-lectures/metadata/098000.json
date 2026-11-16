@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "098000",
-  "transcript": "098000-symmetric-operator-ideals-and-membership.md",
+  "transcript": "098000-ideal-membership-trace-classes-and-modulus-invariance.md",
   "historical_claims": [],
   "related_resources": [
     {
@@ -31,6 +31,329 @@
     {
       "source_id": "wiki-compact-operator",
       "reason": "Relative compactness and finite-rank approximation in Hilbert spaces."
+    },
+    {
+      "source_id": "wiki-hilbert-schmidt-operator",
+      "reason": "Basis-independent sum of squared output norms and operator inner product."
+    },
+    {
+      "source_id": "wiki-trace-class",
+      "reason": "Trace norm, absolute convergence and basis-independent trace."
+    },
+    {
+      "source_id": "higham-matrix-trace",
+      "reason": "Review trace identities used in norm and displacement calculations."
+    },
+    {
+      "source_id": "mit-functional-analysis-videos",
+      "reason": "Open the corresponding 18.102 lecture: Banach and Hilbert space foundations, measure, or compact operators."
+    },
+    {
+      "source_id": "mit-functional-analysis-notes",
+      "reason": "Follow the corresponding written 18.102 notes on spaces, duality, projections or compact operators."
+    },
+    {
+      "source_id": "wiki-square-integrable",
+      "reason": "Square-integrability, the L2 norm and quotienting almost-everywhere equality."
+    },
+    {
+      "source_id": "wiki-hermitian-trace",
+      "reason": "Trace as the sum of eigenvalues and the basis-independent total in finite dimensions."
+    },
+    {
+      "source_id": "wiki-schatten-norm",
+      "reason": "Singular-value p-summability, trace class and Hilbert-Schmidt special cases."
+    },
+    {
+      "source_id": "wiki-huber-loss",
+      "reason": "Read the pseudo-Huber subsection for a related smooth square-root scalar loss; scaling differs."
+    },
+    {
+      "source_id": "wiki-schatten-norm",
+      "reason": "Hilbert-Schmidt and trace-class summability behind the penalty's finite-energy domain."
+    },
+    {
+      "source_id": "bell-trace-ideals",
+      "reason": "For Hilbert-Schmidt summability and the relationship with trace-class operators."
+    },
+    {
+      "source_id": "higham-unitarily-invariant-norm",
+      "reason": "For the matrix singular-value perspective that motivates spectral penalties."
+    },
+    {
+      "source_id": "wiki-polar-decomposition",
+      "reason": "Start with the positive modulus and polar factor; the lecture uses the canonical partial isometry for maps with a kernel."
+    },
+    {
+      "source_id": "wiki-partial-isometry",
+      "reason": "Review the initial space, final space and kernel-zero construction that make the gauge proof work."
+    },
+    {
+      "source_id": "wiki-matrix-norm",
+      "reason": "Connect the finite matrix example to singular-value norms before general symmetric ideals."
+    },
+    {
+      "source_id": "higham-polar",
+      "reason": "Alternative polar-factor explanation; distinguish a kernel-zero partial isometry from full unitary extensions."
+    },
+    {
+      "source_id": "higham-matrix-square-root",
+      "reason": "Read matrix square-root examples alongside the positive-operator construction."
+    },
+    {
+      "source_id": "wiki-projection-linear-algebra",
+      "reason": "Review how orthogonal projections select source and target components of an operator."
+    },
+    {
+      "source_id": "wiki-matrix-norm",
+      "reason": "Compare trace, Frobenius and operator norms under pinching and block direct sums."
+    },
+    {
+      "source_id": "wiki-majorization",
+      "reason": "Review descending singular-value prefix comparisons before the Ky Fan dominance conclusion."
+    },
+    {
+      "source_id": "wiki-trace-class",
+      "reason": "Trace-norm summability, basis-independent traces and trace-class properties."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "g2:098000",
+        "file": "098000-symmetric-operator-ideals-and-membership.md",
+        "sha256": "4708c5f1ca06fe4eec740b175ff6df18cf1442ae6f383cfe52de81e8b5ccf716",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "098000",
+          "transcript": "098000-symmetric-operator-ideals-and-membership.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-operator-ideal",
+              "reason": "Ideal membership and stability under left and right composition."
+            },
+            {
+              "source_id": "wiki-schatten-norm",
+              "reason": "The p-summability hierarchy and special cases p equal to one and two."
+            },
+            {
+              "source_id": "bhatia-1997",
+              "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
+            },
+            {
+              "source_id": "higham-unitarily-invariant-norm",
+              "reason": "Connect singular-value inequalities with symmetric gauges, Schatten and Ky Fan norms."
+            },
+            {
+              "source_id": "bell-trace-ideals",
+              "reason": "Work through trace-ideal and Hilbert-Schmidt definitions and inequalities in Hilbert space."
+            },
+            {
+              "source_id": "bell-compact-svd",
+              "reason": "Read an infinite-dimensional account connecting compact SVD, min-max and Schatten classes."
+            },
+            {
+              "source_id": "wiki-compact-operator",
+              "reason": "Relative compactness and finite-rank approximation in Hilbert spaces."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:099000",
+        "file": "099000-hilbert-schmidt-and-trace-class-operators.md",
+        "sha256": "6075017dce2457af7e9fdc730a36441bd6ab9c1e798dfd814558b513788b57a0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "099000",
+          "transcript": "099000-hilbert-schmidt-and-trace-class-operators.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-hilbert-schmidt-operator",
+              "reason": "Basis-independent sum of squared output norms and operator inner product."
+            },
+            {
+              "source_id": "wiki-trace-class",
+              "reason": "Trace norm, absolute convergence and basis-independent trace."
+            },
+            {
+              "source_id": "bhatia-1997",
+              "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
+            },
+            {
+              "source_id": "higham-matrix-trace",
+              "reason": "Review trace identities used in norm and displacement calculations."
+            },
+            {
+              "source_id": "mit-functional-analysis-videos",
+              "reason": "Open the corresponding 18.102 lecture: Banach and Hilbert space foundations, measure, or compact operators."
+            },
+            {
+              "source_id": "mit-functional-analysis-notes",
+              "reason": "Follow the corresponding written 18.102 notes on spaces, duality, projections or compact operators."
+            },
+            {
+              "source_id": "bell-trace-ideals",
+              "reason": "Work through trace-ideal and Hilbert-Schmidt definitions and inequalities in Hilbert space."
+            },
+            {
+              "source_id": "bell-compact-svd",
+              "reason": "Read an infinite-dimensional account connecting compact SVD, min-max and Schatten classes."
+            },
+            {
+              "source_id": "wiki-square-integrable",
+              "reason": "Square-integrability, the L2 norm and quotienting almost-everywhere equality."
+            },
+            {
+              "source_id": "wiki-hermitian-trace",
+              "reason": "Trace as the sum of eigenvalues and the basis-independent total in finite dimensions."
+            },
+            {
+              "source_id": "wiki-schatten-norm",
+              "reason": "Singular-value p-summability, trace class and Hilbert-Schmidt special cases."
+            },
+            {
+              "source_id": "wiki-compact-operator",
+              "reason": "Relative compactness and finite-rank approximation in Hilbert spaces."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:099500",
+        "file": "099500-smoothed-singular-value-energies.md",
+        "sha256": "be52d7884d8f0361dbcc0eb86ffc1e52081b3fa5f651b587852ffdd21602dd94",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "099500",
+          "transcript": "099500-smoothed-singular-value-energies.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-huber-loss",
+              "reason": "Read the pseudo-Huber subsection for a related smooth square-root scalar loss; scaling differs."
+            },
+            {
+              "source_id": "wiki-schatten-norm",
+              "reason": "Hilbert-Schmidt and trace-class summability behind the penalty's finite-energy domain."
+            },
+            {
+              "source_id": "bell-trace-ideals",
+              "reason": "For Hilbert-Schmidt summability and the relationship with trace-class operators."
+            },
+            {
+              "source_id": "higham-unitarily-invariant-norm",
+              "reason": "For the matrix singular-value perspective that motivates spectral penalties."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:100000",
+        "file": "100000-modulus-polar-factors-and-ideal-invariance.md",
+        "sha256": "e27b0ac35c9632f6897723d869763c4f48860fd71b3413d91e51611a24f36dc9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "100000",
+          "transcript": "100000-modulus-polar-factors-and-ideal-invariance.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-polar-decomposition",
+              "reason": "Start with the positive modulus and polar factor; the lecture uses the canonical partial isometry for maps with a kernel."
+            },
+            {
+              "source_id": "wiki-partial-isometry",
+              "reason": "Review the initial space, final space and kernel-zero construction that make the gauge proof work."
+            },
+            {
+              "source_id": "wiki-matrix-norm",
+              "reason": "Connect the finite matrix example to singular-value norms before general symmetric ideals."
+            },
+            {
+              "source_id": "higham-polar",
+              "reason": "Alternative polar-factor explanation; distinguish a kernel-zero partial isometry from full unitary extensions."
+            },
+            {
+              "source_id": "bhatia-1997",
+              "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
+            },
+            {
+              "source_id": "higham-matrix-square-root",
+              "reason": "Read matrix square-root examples alongside the positive-operator construction."
+            },
+            {
+              "source_id": "bell-trace-ideals",
+              "reason": "Work through trace-ideal and Hilbert-Schmidt definitions and inequalities in Hilbert space."
+            },
+            {
+              "source_id": "bell-compact-svd",
+              "reason": "Read an infinite-dimensional account connecting compact SVD, min-max and Schatten classes."
+            },
+            {
+              "source_id": "wiki-schatten-norm",
+              "reason": "Singular-value p-summability, trace class and Hilbert-Schmidt special cases."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:101000",
+        "file": "101000-ideal-estimates-for-compressions-and-block-sums.md",
+        "sha256": "9465125b7a92b121834365eb433755dbb9c4ff25e0e2573f55afe9774052e043",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "101000",
+          "transcript": "101000-ideal-estimates-for-compressions-and-block-sums.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-projection-linear-algebra",
+              "reason": "Review how orthogonal projections select source and target components of an operator."
+            },
+            {
+              "source_id": "wiki-matrix-norm",
+              "reason": "Compare trace, Frobenius and operator norms under pinching and block direct sums."
+            },
+            {
+              "source_id": "wiki-majorization",
+              "reason": "Review descending singular-value prefix comparisons before the Ky Fan dominance conclusion."
+            },
+            {
+              "source_id": "bhatia-1997",
+              "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
+            },
+            {
+              "source_id": "higham-unitarily-invariant-norm",
+              "reason": "Connect singular-value inequalities with symmetric gauges, Schatten and Ky Fan norms."
+            },
+            {
+              "source_id": "bell-trace-ideals",
+              "reason": "Work through trace-ideal and Hilbert-Schmidt definitions and inequalities in Hilbert space."
+            },
+            {
+              "source_id": "bell-compact-svd",
+              "reason": "Read an infinite-dimensional account connecting compact SVD, min-max and Schatten classes."
+            },
+            {
+              "source_id": "wiki-schatten-norm",
+              "reason": "Singular-value p-summability, trace class and Hilbert-Schmidt special cases."
+            },
+            {
+              "source_id": "wiki-trace-class",
+              "reason": "Trace-norm summability, basis-independent traces and trace-class properties."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

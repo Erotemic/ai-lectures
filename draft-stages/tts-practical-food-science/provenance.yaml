@@ -1,0 +1,28 @@
+transcript:
+  revisions:
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - lecture: '001000'
+      composition_record: metadata/001000.json
+    - lecture: '002000'
+      composition_record: metadata/002000.json
+    - lecture: '003000'
+      composition_record: metadata/003000.json
+    - lecture: '006000'
+      composition_record: metadata/006000.json
+    scope: Consolidate reviewed source parts into single lecture manuscripts. Original
+      text and source attribution are retained in component records and Git history;
+      this revision does not claim original authorship of inherited prose.
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - 001000-plan-a-safe-controllable-cooking-process.md
+    - 002000-control-heat-seasoning-and-pan-sauces.md
+    - 003000-build-texture-in-starches-proteins-and-doughs.md
+    - 006000-control-microbes-acidity-storage-and-preservation.md
+    scope: Reviewed combined-manuscript joins and added connections among preserved
+      source arguments; scoped inherited part-level framing. No original authorship
+      of inherited prose, new technical guidance, or field validation is claimed.

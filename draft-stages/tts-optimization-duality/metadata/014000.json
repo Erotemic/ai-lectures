@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "014000",
-  "transcript": "014000-monotone-operators-and-splitting-methods.md",
+  "transcript": "014000-from-gradient-and-prox-steps-to-inexact-and-stochastic-games-shared-core.md",
   "related_resources": [
     {
       "source_id": "od-proximal-boyd",
@@ -14,7 +14,145 @@
     {
       "source_id": "od-dr-scaling",
       "reason": "Resolvent and proximal-operator identities."
+    },
+    {
+      "source_id": "od-proximal-boyd",
+      "reason": "Inexact proximal algorithms, residual certificates and summable errors"
+    },
+    {
+      "source_id": "op-r14-018000-2",
+      "reason": "Inexact proximal algorithms, residual certificates and summable errors"
+    },
+    {
+      "source_id": "op-r14-018000-3",
+      "reason": "Inexact proximal algorithms, residual certificates and summable errors"
+    },
+    {
+      "source_id": "op-r18-022000-1",
+      "reason": "Reference on Mirror-Prox: Solving Monotone Games Without Rotating Forever (1 of 3)"
+    },
+    {
+      "source_id": "op-r18-022000-2",
+      "reason": "Reference on Mirror-Prox: Solving Monotone Games Without Rotating Forever (2 of 3)"
+    },
+    {
+      "source_id": "op-r18-022000-3",
+      "reason": "Reference on Mirror-Prox: Solving Monotone Games Without Rotating Forever (3 of 3)"
+    },
+    {
+      "source_id": "op-r19-023000-1",
+      "reason": "Reference for Stochastic Mirror-Prox and the Cost of Noisy Oracles (1 of 2)"
+    },
+    {
+      "source_id": "op-r19-023000-2",
+      "reason": "Reference for Stochastic Mirror-Prox and the Cost of Noisy Oracles (2 of 2)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "optimization-duality:014000",
+        "file": "014000-monotone-operators-and-splitting-methods.md",
+        "sha256": "160c584da35f66e14e5484dab434a2bc5bb23d2a76465f56248d127fa83cd405",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-monotone-operators-and-splitting-methods.md",
+          "related_resources": [
+            {
+              "source_id": "od-proximal-boyd",
+              "reason": "Resolvents, firm nonexpansiveness and splitting methods."
+            },
+            {
+              "source_id": "od-admm-boyd",
+              "reason": "ADMM, DR and primal-dual distinctions."
+            },
+            {
+              "source_id": "od-dr-scaling",
+              "reason": "Resolvent and proximal-operator identities."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "optimization-duality:018000",
+        "file": "018000-inexact-proximal-steps-and-certificates.md",
+        "sha256": "d242a12d65be59d013e3dd80625f615517501096ae896ca4b4c1fca9736d2284",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-inexact-proximal-steps-and-certificates.md",
+          "related_resources": [
+            {
+              "source_id": "od-proximal-boyd",
+              "reason": "Inexact proximal algorithms, residual certificates and summable errors"
+            },
+            {
+              "source_id": "op-r14-018000-2",
+              "reason": "Inexact proximal algorithms, residual certificates and summable errors"
+            },
+            {
+              "source_id": "op-r14-018000-3",
+              "reason": "Inexact proximal algorithms, residual certificates and summable errors"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "optimization-duality:022000",
+        "file": "022000-mirror-prox-and-bregman-variational-inequalities.md",
+        "sha256": "3d91e14a9c5ec8eac9a76bacb5166acbc44d969f4a664abdf370ef9fda5ef516",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "022000",
+          "transcript": "022000-mirror-prox-and-bregman-variational-inequalities.md",
+          "related_resources": [
+            {
+              "source_id": "op-r18-022000-1",
+              "reason": "Reference on Mirror-Prox: Solving Monotone Games Without Rotating Forever (1 of 3)"
+            },
+            {
+              "source_id": "op-r18-022000-2",
+              "reason": "Reference on Mirror-Prox: Solving Monotone Games Without Rotating Forever (2 of 3)"
+            },
+            {
+              "source_id": "op-r18-022000-3",
+              "reason": "Reference on Mirror-Prox: Solving Monotone Games Without Rotating Forever (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "optimization-duality:023000",
+        "file": "023000-stochastic-mirror-prox-and-oracle-noise.md",
+        "sha256": "fda298c22dfbd1bb230b27e789943ce78cf407e636c6af8a141f87c7ff5e488a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "023000",
+          "transcript": "023000-stochastic-mirror-prox-and-oracle-noise.md",
+          "related_resources": [
+            {
+              "source_id": "op-r19-023000-1",
+              "reason": "Reference for Stochastic Mirror-Prox and the Cost of Noisy Oracles (1 of 2)"
+            },
+            {
+              "source_id": "op-r19-023000-2",
+              "reason": "Reference for Stochastic Mirror-Prox and the Cost of Noisy Oracles (2 of 2)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

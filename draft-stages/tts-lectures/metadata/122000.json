@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "122000",
-  "transcript": "122000-direct-sum-norm-comparison.md",
+  "transcript": "122000-ambient-comparisons-and-generalized-frames.md",
   "historical_claims": [
     {
       "id": "122000-h01",
@@ -11,6 +11,56 @@
         "davis-kahan-1970"
       ],
       "source_locator": "Lemma 6.1",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "123000-h01",
+      "anchor": "Davis and Kahan's Lemma six point two says no. The proof is short, but it is worth deriving carefully because it works for different projections on the input and output sides. Its key device is averaging K",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Lemma 6.2",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "124000-h01",
+      "anchor": "Proposition six point one seeks a bound for the entire ambient angle, which sees both directions.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Proposition 6.1",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "124000-h02",
+      "anchor": "The original paper states its theorem in a separable ambient Hilbert space and uses interval-versus-exterior crossed gaps.",
+      "kind": "source_scope",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Proposition 6.1",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "125000-h01",
+      "anchor": "Davis and Kahan's Theorem six point one keeps the trial map itself rather than silently replacing it with an isometry.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Theorem 6.1",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "125000-h02",
+      "anchor": "The original Section six theorem uses interval-versus-exterior spectral separation, with either ordering allowed.",
+      "kind": "source_scope",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Theorem 6.1",
       "audit_status": "pending_primary_passage_comparison"
     }
   ],
@@ -46,6 +96,300 @@
     {
       "source_id": "wiki-schatten-norm",
       "reason": "Singular-value p-summability, trace class and Hilbert-Schmidt special cases."
+    },
+    {
+      "source_id": "wiki-unitary-rotation",
+      "reason": "Simple rotations as real orthogonal maps and transport candidates."
+    },
+    {
+      "source_id": "davis-kahan-1970",
+      "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+    },
+    {
+      "source_id": "hsu-dk-notes",
+      "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+    },
+    {
+      "source_id": "wiki-angles-between-flats",
+      "reason": "Principal angles defined using subspace vectors and singular values of overlaps."
+    },
+    {
+      "source_id": "wiki-orthogonal-projection-extra",
+      "reason": "Orthogonal projections, matrix formulas and their connection to subspace distance."
+    },
+    {
+      "source_id": "wiki-spectral-gap",
+      "reason": "Basic interpretations of gaps between spectral regions; definitions vary by setting."
+    },
+    {
+      "source_id": "higham-sylvester",
+      "reason": "Matrix Sylvester equation; note the lecture-specific operator norm and spectral-gap conditions."
+    },
+    {
+      "source_id": "higham-pseudoinverse",
+      "reason": "Explore the SVD approach to rectangular or rank-deficient matrix maps."
+    },
+    {
+      "source_id": "intel-principal-angles",
+      "reason": "Compute principal angles numerically from orthonormal bases using QR and SVD."
+    },
+    {
+      "source_id": "zhu-knyazev-tangent-angles",
+      "reason": "Compare projector and frame formulas for principal-angle cosines, sines, and tangents."
+    },
+    {
+      "source_id": "wiki-gram-matrix",
+      "reason": "Pairwise inner products, positive Gram operators, and geometric reconstruction."
+    },
+    {
+      "source_id": "wiki-spectral-clustering",
+      "reason": "Application of invariant subspaces and eigenvector embeddings to data partitioning."
+    },
+    {
+      "source_id": "wiki-singular-value-decomposition",
+      "reason": "Geometric SVD, best low-rank approximation and the Ky Fan norms subsection."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "g2:122000",
+        "file": "122000-direct-sum-norm-comparison.md",
+        "sha256": "3f13704b32bcccd5b1add9d95909c08c1a623be6c98470ee314d30d9a18dad31",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "122000",
+          "transcript": "122000-direct-sum-norm-comparison.md",
+          "historical_claims": [
+            {
+              "id": "122000-h01",
+              "anchor": "Davis and Kahan answer this with Lemma six point one. Its basic operation is an orthogonal direct sum. When the two summands act on orthogonal initial spaces and have orthogonal output spaces, their singul",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Lemma 6.1",
+              "audit_status": "pending_primary_passage_comparison"
+            }
+          ],
+          "related_resources": [
+            {
+              "source_id": "bhatia-1997",
+              "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
+            },
+            {
+              "source_id": "higham-block-matrix",
+              "reason": "Review block multiplication and compression identities in finite matrices."
+            },
+            {
+              "source_id": "higham-unitarily-invariant-norm",
+              "reason": "Connect singular-value inequalities with symmetric gauges, Schatten and Ky Fan norms."
+            },
+            {
+              "source_id": "tao-hermitian-matrix-sums",
+              "reason": "Study min-max proofs and eigenvalue inequalities from a matrix-analysis viewpoint."
+            },
+            {
+              "source_id": "bell-trace-ideals",
+              "reason": "Work through trace-ideal and Hilbert-Schmidt definitions and inequalities in Hilbert space."
+            },
+            {
+              "source_id": "wiki-direct-sum",
+              "reason": "Decomposing a vector space into independent pieces for block calculations."
+            },
+            {
+              "source_id": "wiki-matrix-norm",
+              "reason": "Schatten and unitarily invariant norms for finite matrices."
+            },
+            {
+              "source_id": "wiki-schatten-norm",
+              "reason": "Singular-value p-summability, trace class and Hilbert-Schmidt special cases."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:123000",
+        "file": "123000-pinching-through-an-involution.md",
+        "sha256": "d27abfa71e6561e6b30bda7bc33441b7232e5f56a8f5198126ae1ea32a5c267d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "123000",
+          "transcript": "123000-pinching-through-an-involution.md",
+          "historical_claims": [
+            {
+              "id": "123000-h01",
+              "anchor": "Davis and Kahan's Lemma six point two says no. The proof is short, but it is worth deriving carefully because it works for different projections on the input and output sides. Its key device is averaging K",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Lemma 6.2",
+              "audit_status": "pending_primary_passage_comparison"
+            }
+          ],
+          "related_resources": [
+            {
+              "source_id": "bhatia-1997",
+              "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
+            },
+            {
+              "source_id": "higham-block-matrix",
+              "reason": "Review block multiplication and compression identities in finite matrices."
+            },
+            {
+              "source_id": "higham-unitarily-invariant-norm",
+              "reason": "Connect singular-value inequalities with symmetric gauges, Schatten and Ky Fan norms."
+            },
+            {
+              "source_id": "bell-trace-ideals",
+              "reason": "Work through trace-ideal and Hilbert-Schmidt definitions and inequalities in Hilbert space."
+            },
+            {
+              "source_id": "wiki-unitary-rotation",
+              "reason": "Simple rotations as real orthogonal maps and transport candidates."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:124000",
+        "file": "124000-ambient-sine-from-an-ambient-perturbation.md",
+        "sha256": "fbbb9322c4c8abdf5b88a4373636c5aa74ba95a5a8a00ba09d6b32cb5f133c8c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "124000",
+          "transcript": "124000-ambient-sine-from-an-ambient-perturbation.md",
+          "historical_claims": [
+            {
+              "id": "124000-h01",
+              "anchor": "Proposition six point one seeks a bound for the entire ambient angle, which sees both directions.",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Proposition 6.1",
+              "audit_status": "pending_primary_passage_comparison"
+            },
+            {
+              "id": "124000-h02",
+              "anchor": "The original paper states its theorem in a separable ambient Hilbert space and uses interval-versus-exterior crossed gaps.",
+              "kind": "source_scope",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Proposition 6.1",
+              "audit_status": "pending_primary_passage_comparison"
+            }
+          ],
+          "related_resources": [
+            {
+              "source_id": "bhatia-1997",
+              "reason": "Matrix inequalities and unitarily invariant norms; compare finite vs. infinite dimensional statements."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "hsu-dk-notes",
+              "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+            },
+            {
+              "source_id": "wiki-angles-between-flats",
+              "reason": "Principal angles defined using subspace vectors and singular values of overlaps."
+            },
+            {
+              "source_id": "wiki-orthogonal-projection-extra",
+              "reason": "Orthogonal projections, matrix formulas and their connection to subspace distance."
+            },
+            {
+              "source_id": "wiki-spectral-gap",
+              "reason": "Basic interpretations of gaps between spectral regions; definitions vary by setting."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:125000",
+        "file": "125000-non-isometric-frames-and-unequal-dimensions.md",
+        "sha256": "99c12ed502ef2304019d07c471f4dedfbff4bc42a9debab889219f094661a051",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "125000",
+          "transcript": "125000-non-isometric-frames-and-unequal-dimensions.md",
+          "historical_claims": [
+            {
+              "id": "125000-h01",
+              "anchor": "Davis and Kahan's Theorem six point one keeps the trial map itself rather than silently replacing it with an isometry.",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Theorem 6.1",
+              "audit_status": "pending_primary_passage_comparison"
+            },
+            {
+              "id": "125000-h02",
+              "anchor": "The original Section six theorem uses interval-versus-exterior spectral separation, with either ordering allowed.",
+              "kind": "source_scope",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Theorem 6.1",
+              "audit_status": "pending_primary_passage_comparison"
+            }
+          ],
+          "related_resources": [
+            {
+              "source_id": "higham-sylvester",
+              "reason": "Matrix Sylvester equation; note the lecture-specific operator norm and spectral-gap conditions."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "hsu-dk-notes",
+              "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+            },
+            {
+              "source_id": "higham-pseudoinverse",
+              "reason": "Explore the SVD approach to rectangular or rank-deficient matrix maps."
+            },
+            {
+              "source_id": "intel-principal-angles",
+              "reason": "Compute principal angles numerically from orthonormal bases using QR and SVD."
+            },
+            {
+              "source_id": "zhu-knyazev-tangent-angles",
+              "reason": "Compare projector and frame formulas for principal-angle cosines, sines, and tangents."
+            },
+            {
+              "source_id": "wiki-gram-matrix",
+              "reason": "Pairwise inner products, positive Gram operators, and geometric reconstruction."
+            },
+            {
+              "source_id": "wiki-angles-between-flats",
+              "reason": "Principal angles defined using subspace vectors and singular values of overlaps."
+            },
+            {
+              "source_id": "wiki-spectral-clustering",
+              "reason": "Application of invariant subspaces and eigenvector embeddings to data partitioning."
+            },
+            {
+              "source_id": "wiki-singular-value-decomposition",
+              "reason": "Geometric SVD, best low-rank approximation and the Ky Fan norms subsection."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

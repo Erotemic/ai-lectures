@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "010000",
-  "transcript": "010000-transport-diffusion-and-pdes.md",
+  "transcript": "010000-pde-evolution-transport-diffusion-waves-and-energy.md",
   "related_resources": [
     {
       "source_id": "de-mit18303",
@@ -10,7 +10,172 @@
     {
       "source_id": "de-heath-stiff",
       "reason": "Numerical stability constraints of stiff spatially discretized dynamics."
+    },
+    {
+      "source_id": "de-evans",
+      "reason": "Sobolev spaces, weak elliptic equations, energy methods and Lax-Milgram."
+    },
+    {
+      "source_id": "de-toronto-pde",
+      "reason": "Current public syllabus on weak solutions and energy estimates."
+    },
+    {
+      "source_id": "de-wave-cambridge",
+      "reason": "D Alembert solution, characteristics and finite propagation."
+    },
+    {
+      "source_id": "de-mit18303",
+      "reason": "Wave/heat comparison and linear PDE course coverage."
+    },
+    {
+      "source_id": "de-evans",
+      "reason": "Energy estimates and well-posedness."
+    },
+    {
+      "source_id": "de-uchicago-energy",
+      "reason": "Heat equation energy estimates and boundary conditions."
+    },
+    {
+      "source_id": "de-evans-pde",
+      "reason": "Parabolic PDE and nonlinear energy arguments."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "differential-equations:010000",
+        "file": "010000-transport-diffusion-weak-energy-and-pattern-onset-shared-core.md",
+        "sha256": "d05ed22dd0c101bb498ec1dd255cbca92a9fd507459f234374b35972fe19e375",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-transport-diffusion-weak-energy-and-pattern-onset-shared-core.md",
+          "related_resources": [
+            {
+              "source_id": "de-mit18303",
+              "reason": "Heat equation, Fourier separation of variables and method of characteristics."
+            },
+            {
+              "source_id": "de-heath-stiff",
+              "reason": "Numerical stability constraints of stiff spatially discretized dynamics."
+            },
+            {
+              "source_id": "de-evans",
+              "reason": "Sobolev spaces, weak elliptic equations, energy methods and Lax-Milgram."
+            },
+            {
+              "source_id": "de-toronto-pde",
+              "reason": "Current public syllabus on weak solutions and energy estimates."
+            }
+          ],
+          "historical_claims": [],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "differential-equations:010000",
+                "file": "010000-transport-diffusion-and-pdes.md",
+                "sha256": "59e2586cae17103319d957e21b3b75f5ad5adbd7ed9f9c1b2510c62e32e5737a",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "010000",
+                  "transcript": "010000-transport-diffusion-and-pdes.md",
+                  "related_resources": [
+                    {
+                      "source_id": "de-mit18303",
+                      "reason": "Heat equation, Fourier separation of variables and method of characteristics."
+                    },
+                    {
+                      "source_id": "de-heath-stiff",
+                      "reason": "Numerical stability constraints of stiff spatially discretized dynamics."
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "differential-equations:011000",
+                "file": "011000-boundary-value-problems-weak-solutions-and-energy.md",
+                "sha256": "e63f2b059ea955c55aaa38fcb445d8eba960422b1371cf87f5544e669532b3a3",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "011000",
+                  "transcript": "011000-boundary-value-problems-weak-solutions-and-energy.md",
+                  "related_resources": [
+                    {
+                      "source_id": "de-evans",
+                      "reason": "Sobolev spaces, weak elliptic equations, energy methods and Lax-Milgram."
+                    },
+                    {
+                      "source_id": "de-toronto-pde",
+                      "reason": "Current public syllabus on weak solutions and energy estimates."
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "differential-equations:013000",
+        "file": "013000-wave-equations-characteristics-and-propagation.md",
+        "sha256": "e7341494f8aa0e4cea55e13bb92ac064cb2df613a1f0a307740b3c9b6607bf5d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-wave-equations-characteristics-and-propagation.md",
+          "related_resources": [
+            {
+              "source_id": "de-wave-cambridge",
+              "reason": "D Alembert solution, characteristics and finite propagation."
+            },
+            {
+              "source_id": "de-mit18303",
+              "reason": "Wave/heat comparison and linear PDE course coverage."
+            },
+            {
+              "source_id": "de-evans",
+              "reason": "Energy estimates and well-posedness."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:020000",
+        "file": "020000-nonlinear-pde-stability-and-energy-estimates.md",
+        "sha256": "2ff01bf227e70178545b31ed435dd20f5ff3f1a133cce09bfa15c6e593200c1d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-nonlinear-pde-stability-and-energy-estimates.md",
+          "related_resources": [
+            {
+              "source_id": "de-uchicago-energy",
+              "reason": "Heat equation energy estimates and boundary conditions."
+            },
+            {
+              "source_id": "de-evans-pde",
+              "reason": "Parabolic PDE and nonlinear energy arguments."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

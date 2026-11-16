@@ -1,0 +1,28 @@
+transcript:
+  revisions:
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - lecture: '001000'
+      composition_record: metadata/001000.json
+    - lecture: '005000'
+      composition_record: metadata/005000.json
+    - lecture: '011000'
+      composition_record: metadata/011000.json
+    - lecture: '006000'
+      composition_record: metadata/006000.json
+    scope: Consolidate reviewed source parts into single lecture manuscripts. Original
+      text and source attribution are retained in component records and Git history;
+      this revision does not claim original authorship of inherited prose.
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - 001000-read-cloth-and-control-the-sewing-process.md
+    - 005000-model-fit-and-build-the-pattern.md
+    - 011000-specify-durable-and-repairable-construction.md
+    - 006000-repair-and-alter-different-materials.md
+    scope: Reviewed combined-manuscript joins and added connections among preserved
+      source arguments; scoped inherited part-level framing. No original authorship
+      of inherited prose, new technical guidance, or field validation is claimed.

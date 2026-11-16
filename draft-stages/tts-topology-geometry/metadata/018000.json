@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "018000",
-  "transcript": "018000-characteristic-classes-and-bundle-obstructions.md",
+  "transcript": "018000-characteristic-classes-k-theory-and-index-pushforwards.md",
   "related_resources": [
     {
       "source_id": "tg-hatcher-vb",
@@ -14,7 +14,179 @@
     {
       "source_id": "tg-ucla-gauss",
       "reason": "Curvature and the Euler characteristic."
+    },
+    {
+      "source_id": "tg-hatcher-vb",
+      "reason": "Clutching functions and Chern classes."
+    },
+    {
+      "source_id": "tg-toronto-equivariant",
+      "reason": "Unitary connections and first Chern numbers."
+    },
+    {
+      "source_id": "tg-meinrenken-signs",
+      "reason": "Sign normalization for curvature and the first Chern form."
+    },
+    {
+      "source_id": "tg-hatcher-vb",
+      "reason": "Bundle Grothendieck completion, stable equivalence and tensor products."
+    },
+    {
+      "source_id": "tg-hatcher-vb",
+      "reason": "Clutching, the reduced K group of S2, and the basic Bott class."
+    },
+    {
+      "source_id": "tg-hatcher-vb",
+      "reason": "Chern classes and rational K theory."
+    },
+    {
+      "source_id": "tg-bott-tu-forms",
+      "reason": "Characteristic classes and rational de Rham cohomology."
+    },
+    {
+      "source_id": "tg-hatcher-vb",
+      "reason": "Bott periodicity and compactly supported K groups."
+    },
+    {
+      "source_id": "tg-atiyah-singer-families-iv",
+      "reason": "K theoretic index and its families extension."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:018000",
+        "file": "018000-characteristic-classes-and-bundle-obstructions.md",
+        "sha256": "9958f8bac9bf7580e57e9c24d1bce77d662dc62bdb372c2132feed49f839aea1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-characteristic-classes-and-bundle-obstructions.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher-vb",
+              "reason": "Stiefel-Whitney, Chern and Euler classes."
+            },
+            {
+              "source_id": "tg-hatcher",
+              "reason": "Cohomology and naturality."
+            },
+            {
+              "source_id": "tg-ucla-gauss",
+              "reason": "Curvature and the Euler characteristic."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:018100",
+        "file": "018100-characteristic-classes-and-clutching-maps.md",
+        "sha256": "67903028bf1f00dd0f2654d12587b1b1a97663ce316d927065df7068694146e7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018100",
+          "transcript": "018100-characteristic-classes-and-clutching-maps.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher-vb",
+              "reason": "Clutching functions and Chern classes."
+            },
+            {
+              "source_id": "tg-toronto-equivariant",
+              "reason": "Unitary connections and first Chern numbers."
+            },
+            {
+              "source_id": "tg-meinrenken-signs",
+              "reason": "Sign normalization for curvature and the first Chern form."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:018200",
+        "file": "018200-vector-bundle-k-theory-from-stable-differences.md",
+        "sha256": "ffb2e6dfd621a747e6a105986bfc7801a39569affc73873a445e2978f3ba42f5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018200",
+          "transcript": "018200-vector-bundle-k-theory-from-stable-differences.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher-vb",
+              "reason": "Bundle Grothendieck completion, stable equivalence and tensor products."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:018300",
+        "file": "018300-k-theory-of-the-sphere-and-the-hopf-bundle.md",
+        "sha256": "ea92584521eb9104f305460bc63b8238d5b9504051524b16589499dac6f34b55",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018300",
+          "transcript": "018300-k-theory-of-the-sphere-and-the-hopf-bundle.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher-vb",
+              "reason": "Clutching, the reduced K group of S2, and the basic Bott class."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:018400",
+        "file": "018400-chern-character-rational-cohomology-and-exponentials.md",
+        "sha256": "a0a6ce85edd395e0382ac81ca6603f7def0b71bd50fa468f1b1e36af2f6f6f2a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018400",
+          "transcript": "018400-chern-character-rational-cohomology-and-exponentials.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher-vb",
+              "reason": "Chern classes and rational K theory."
+            },
+            {
+              "source_id": "tg-bott-tu-forms",
+              "reason": "Characteristic classes and rational de Rham cohomology."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:018500",
+        "file": "018500-bott-periodicity-pushforwards-and-index.md",
+        "sha256": "65edbefdd8cd526128512511d791fbf4350839e3839491eff5097af54d8a3a03",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018500",
+          "transcript": "018500-bott-periodicity-pushforwards-and-index.md",
+          "related_resources": [
+            {
+              "source_id": "tg-hatcher-vb",
+              "reason": "Bott periodicity and compactly supported K groups."
+            },
+            {
+              "source_id": "tg-atiyah-singer-families-iv",
+              "reason": "K theoretic index and its families extension."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

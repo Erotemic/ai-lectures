@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "036960",
-  "transcript": "036960-red-metal-many-routes-copperbelt.md",
+  "transcript": "036960-central-african-exchange-chronologies-and-gaps-in-the-archaeological-record.md",
   "related_resources": [
     {
       "source_id": "b14-phillipson72",
@@ -32,6 +32,71 @@
       "source_id": "b14-wiki-upemba",
       "reason": "Wikipedia orientation only. Never sole support for an archival or historical claim.",
       "access_scope": "orientation_link_only"
+    },
+    {
+      "source_id": "b14-dlamini16",
+      "reason": "Sanga sample richer in C4 foods and higher caries, Katoto more C3; isotopes cannot uniquely name specific cereals or whole diet; full specimen-level data not examined.",
+      "access_scope": "research_abstract_reviewed"
+    },
+    {
+      "source_id": "b14-wiki-lualaba",
+      "reason": "Wikipedia orientation only. Never sole support for an archival or historical claim.",
+      "access_scope": "orientation_link_only"
+    },
+    {
+      "source_id": "b14-wiki-luba",
+      "reason": "Wikipedia orientation only. Never sole support for an archival or historical claim.",
+      "access_scope": "orientation_link_only"
+    },
+    {
+      "source_id": "b15-nikis21",
+      "reason": "Pages 1-7: Upemba graves, Kisalian, Kabambian, copper cross ingots and later Luba material continuity. Graves do not directly document households or the dates of royal dynasties.",
+      "access_scope": "open_full_text_reviewed"
+    },
+    {
+      "source_id": "b15-macola15",
+      "reason": "Origins, dynastic authority by about 1700, Luba/Ruund distinctions, positional succession, perpetual kinship. Early causes are proposed mechanisms, not established institutions.",
+      "access_scope": "open_html_text_reviewed"
+    },
+    {
+      "source_id": "b15-wiki-upemba",
+      "reason": "Supplementary orientation only; not a primary or sole historical authority.",
+      "access_scope": "orientation_link_only"
+    },
+    {
+      "source_id": "b15-wiki-luba",
+      "reason": "Supplementary orientation only; not a primary or sole historical authority.",
+      "access_scope": "orientation_link_only"
+    },
+    {
+      "source_id": "b15-coutros25",
+      "reason": "Chapter 24 pp. 543-564; BantuFirst survey, Luani burial, Nkar iron, variable environments, settlement decline and late interaction spheres. Site sample is not a regional population census.",
+      "access_scope": "open_full_chapter_reviewed"
+    },
+    {
+      "source_id": "b15-coutros24",
+      "reason": "Idiofa early metallurgy around 146 BCE and much later distinct LIA pottery; source dates are contextual radiocarbon, not a date for first iron everywhere.",
+      "access_scope": "publisher_abstract_and_open_pdf_result_reviewed"
+    },
+    {
+      "source_id": "b15-wiki-kwilu",
+      "reason": "Supplementary orientation only; not a primary or sole historical authority.",
+      "access_scope": "orientation_link_only"
+    },
+    {
+      "source_id": "b15-wiki-kasai",
+      "reason": "Supplementary orientation only; not a primary or sole historical authority.",
+      "access_scope": "orientation_link_only"
+    },
+    {
+      "source_id": "b15-wiki-bantu",
+      "reason": "Supplementary orientation only; not a primary or sole historical authority.",
+      "access_scope": "orientation_link_only"
+    },
+    {
+      "source_id": "b15-seiden21",
+      "reason": "1149 dates and 726 sites, modeled regional activity decline ~400-600 CE with low levels ~600-1000; relative activity is not a headcount; proposed epidemic is not demonstrated.",
+      "access_scope": "open_full_text_reviewed"
     }
   ],
   "historical_claims": [
@@ -170,6 +235,1340 @@
       "source_locator": "Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911)",
       "audit_status": "source_scope_and_limits_mapped",
       "source_limitations": "Conclusion is synthesis about changing uses and values rather than one historical standardized exchange rate."
+    },
+    {
+      "id": "036970-p01",
+      "anchor": "A burial can tell us how a person was laid to rest. It may also tell us what obj",
+      "kind": "historical_research",
+      "source_ids": [
+        "b14-nikis21"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Graves document selected funerary acts, not all households or whole society."
+    },
+    {
+      "id": "036970-p02",
+      "anchor": "The depression lies within the upper Congo drainage, crossed by the river also k",
+      "kind": "historical_research",
+      "source_ids": [
+        "b14-nikis21"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Approximate site and grave counts are from Nikis synthesis; most habitation patterns remain unexcavated."
+    },
+    {
+      "id": "036970-p03",
+      "anchor": "In the earliest clearly identified iron-using archaeological phase, called Kamil",
+      "kind": "historical_research",
+      "source_ids": [
+        "b14-nikis21"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Kamilambian sixth-eighth-century chronology is approximate; inferred livelihoods rest on limited material assemblages."
+    },
+    {
+      "id": "036970-p04",
+      "anchor": "The following Early Kisalian phase, roughly the eighth and ninth centuries, is a",
+      "kind": "historical_research",
+      "source_ids": [
+        "b14-nikis21"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Authority-symbol reading is an interpretation of particular grave goods, not a translated title."
+    },
+    {
+      "id": "036970-p05",
+      "anchor": "Copper then becomes increasingly significant. It is not the chief mineral resour",
+      "kind": "historical_research",
+      "source_ids": [
+        "b14-nikis21",
+        "b14-nikis17"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021); Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Copperbelt origin and intermediate exchange routes remain inferred rather than direct preserved itinerary."
+    },
+    {
+      "id": "036970-p06",
+      "anchor": "The Classic Kisalian phase, approximately the tenth through thirteenth centuries",
+      "kind": "historical_research",
+      "source_ids": [
+        "b14-nikis21"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Rich funerary deposits cannot be converted into exact living household wealth or class membership."
+    },
+    {
+      "id": "036970-p07",
+      "anchor": "There is a striking aquatic dimension to this history. The Upemba wetlands suppl",
+      "kind": "historical_research",
+      "source_ids": [
+        "b14-nikis21"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Fish-based exchange and boating are contextual possibilities with some tools and remains, not physical proof of every commodity path."
+    },
+    {
+      "id": "036970-p08",
+      "anchor": "Burials have also made it possible to ask about diet in a more direct, though st",
+      "kind": "historical_research",
+      "source_ids": [
+        "b14-dlamini16",
+        "b14-nikis21"
+      ],
+      "source_locator": "Nonhlanhla Dlamini, Alan Morris, and Judith Sealy, Carbon Isotopes and Dental Caries as Evidence for Regional Variation in the Diets of Early Farming Communities from Katanga (Journal of African Archaeology 14, 2016, 135–153); Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Sanga versus Katoto isotope/carious tooth comparisons are from abstract; specific cereal types are not determined."
+    },
+    {
+      "id": "036970-p09",
+      "anchor": "The comparison between Sanga and Katoto is especially useful because the two are",
+      "kind": "historical_research",
+      "source_ids": [
+        "b14-dlamini16",
+        "b14-nikis21"
+      ],
+      "source_locator": "Nonhlanhla Dlamini, Alan Morris, and Judith Sealy, Carbon Isotopes and Dental Caries as Evidence for Regional Variation in the Diets of Early Farming Communities from Katanga (Journal of African Archaeology 14, 2016, 135–153); Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Katotian archaeological identity is less well understood than northern Kisalian and is not a named people."
+    },
+    {
+      "id": "036970-p10",
+      "anchor": "A further transition is marked by what archaeologists call Kabambian A, approxim",
+      "kind": "historical_research",
+      "source_ids": [
+        "b14-nikis21",
+        "b14-nikis17"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021); Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Kabambian A chronology broad; political interpretation of copper burial differences is not direct tax-office record."
+    },
+    {
+      "id": "036970-p11",
+      "anchor": "Later Kabambian phases and the eventual integration of parts of the region into ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b14-nikis21"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Later Luba integration is chronologically distinct and no dynasty can be projected backward from modern memory."
+    },
+    {
+      "id": "036970-p12",
+      "anchor": "The history of the excavations is also part of the history of knowledge. Researc",
+      "kind": "historical_research",
+      "source_ids": [
+        "b14-nikis21"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Curatorial locations reflect historical research; provenance is not a count of all excavated settlement sites."
+    },
+    {
+      "id": "036970-p13",
+      "anchor": "What, then, does Upemba contribute to the wider story of pre-1500 Africa? It sho",
+      "kind": "historical_research",
+      "source_ids": [
+        "b14-nikis21",
+        "b14-dlamini16"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021); Nonhlanhla Dlamini, Alan Morris, and Judith Sealy, Carbon Isotopes and Dental Caries as Evidence for Regional Variation in the Diets of Early Farming Communities from Katanga (Journal of African Archaeology 14, 2016, 135–153)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Conclusion weighs uneven ceramic, fish, burial and enamel evidence and does not invent political legal details."
+    },
+    {
+      "id": "036980-p01",
+      "anchor": "A cluster of copper crosses lies in a grave in the wetlands of southeastern Cong",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-nikis21"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The opening uses known Kabambian ingots but does not assign an individual identity or known meaning to a specific grave."
+    },
+    {
+      "id": "036980-p02",
+      "anchor": "Upemba is not a single village. It is a long floodplain with lakes, marshes, cha",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-nikis21"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Graves reflect selected funerary goods and cannot be converted to social census or district-by-district hierarchy."
+    },
+    {
+      "id": "036980-p03",
+      "anchor": "The transition archaeologists call Kabambian A began around the thirteenth or fo",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-nikis21"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Period boundaries differ slightly between syntheses and transitional pottery makes sharp cultural replacement implausible."
+    },
+    {
+      "id": "036980-p04",
+      "anchor": "At Malemba-Nkulu, two particularly rich Kabambian A burials held hundreds of iro",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-nikis21"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Concentration is from excavated sample, not all Kabambian graves; mechanisms of accumulation remain unknown."
+    },
+    {
+      "id": "036980-p05",
+      "anchor": "The shape and size of the copper pieces are important. Large cross-shaped ingots",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-nikis21"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Typological and compositional changes signal networks; neither exact exchange equivalences nor direct personal routes survive."
+    },
+    {
+      "id": "036980-p06",
+      "anchor": "Kabambian B begins around the middle of the fifteenth century and extends well b",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-nikis21"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Decline in burial objects is a funerary observation; production levels and household inventories cannot be inferred directly."
+    },
+    {
+      "id": "036980-p07",
+      "anchor": "In the same later centuries, ceramics changed in ways that researchers have conn",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-nikis21",
+        "b15-macola15"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development); Giacomo Macola, Luba-Lunda states, Wiley Encyclopedia of Empire (2015) (Origins; The Luba and Lunda states to the early 19th century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Technological continuity is not proof of uninterrupted families, identities, or dynastic rule."
+    },
+    {
+      "id": "036980-p08",
+      "anchor": "It is tempting to put a famous name at the center of the rich medieval burials. ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-macola15",
+        "b15-nikis21"
+      ],
+      "source_locator": "Giacomo Macola, Luba-Lunda states, Wiley Encyclopedia of Empire (2015) (Origins; The Luba and Lunda states to the early 19th century); Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The link between early political differentiation and later kingdom is interpretive; later dynastic titles are not excavated labels."
+    },
+    {
+      "id": "036980-p09",
+      "anchor": "The location of the wetland matters to this problem. Upemba offered productive f",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-macola15",
+        "b15-nikis21"
+      ],
+      "source_locator": "Giacomo Macola, Luba-Lunda states, Wiley Encyclopedia of Empire (2015) (Origins; The Luba and Lunda states to the early 19th century); Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Resource coordination and access control are scholarly hypotheses rather than attested regulations."
+    },
+    {
+      "id": "036980-p10",
+      "anchor": "The larger history of Upemba is a history of change on several scales. A pot can",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-nikis21",
+        "b15-macola15"
+      ],
+      "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development); Giacomo Macola, Luba-Lunda states, Wiley Encyclopedia of Empire (2015) (Origins; The Luba and Lunda states to the early 19th century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Concluding synthesis distinguishes documented material changes from reconstructed state genealogy."
+    },
+    {
+      "id": "036982-p01",
+      "anchor": "A nearly whole pottery vessel was placed with a person whose body was cremated n",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-coutros25"
+      ],
+      "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Burial pottery is associated with ca. 2400 BCE context; excavation cannot tell whether the pot was made locally."
+    },
+    {
+      "id": "036982-p02",
+      "anchor": "Researchers working on the BantuFirst project investigated the Kwilu-Kasai regio",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-coutros25"
+      ],
+      "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "The 152 is a project count of newly identified sites, not all ancient settlements or a complete regional census."
+    },
+    {
+      "id": "036982-p03",
+      "anchor": "At Luani the striking feature is a cremation with associated objects, including ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-coutros25"
+      ],
+      "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Food residues are interpretive identifications; cremation does not establish a living village diet."
+    },
+    {
+      "id": "036982-p04",
+      "anchor": "The vessel was found among Late Stone Age material. It may have been manufacture",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-coutros25"
+      ],
+      "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Pottery predates currently reconstructed Bantu dispersal here; neither ethnicity nor linguistic identity is directly measurable from a sherd."
+    },
+    {
+      "id": "036982-p05",
+      "anchor": "Centuries later the record changes again. Around the fourth century before the c",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-coutros25"
+      ],
+      "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Early dates and the diversity of pottery are site-specific; population directions remain debated."
+    },
+    {
+      "id": "036982-p06",
+      "anchor": "At Nkar, in the highland Idiofa region, researchers found evidence for ironworki",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-coutros24",
+        "b15-coutros25"
+      ],
+      "source_locator": "Peter R. Coutros et al., The beginning of the Iron Age south of the Congo rainforest: investigations around Idiofa, Azania 59 (2024), 213-248 (abstract; early Idiofa and later pottery results); Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Iron is dated to an excavated early context; the evidence does not establish a first invention or language identification."
+    },
+    {
+      "id": "036982-p07",
+      "anchor": "The environmental setting at Nkar also corrects a simple narrative. The study re",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-coutros24",
+        "b15-coutros25"
+      ],
+      "source_locator": "Peter R. Coutros et al., The beginning of the Iron Age south of the Congo rainforest: investigations around Idiofa, Azania 59 (2024), 213-248 (abstract; early Idiofa and later pottery results); Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Environmental proxies show local vegetation history; motivations of named households cannot be recovered."
+    },
+    {
+      "id": "036982-p08",
+      "anchor": "The team notes several contemporary sites with pots but without direct evidence ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-coutros25",
+        "b15-coutros24"
+      ],
+      "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion); Peter R. Coutros et al., The beginning of the Iron Age south of the Congo rainforest: investigations around Idiofa, Azania 59 (2024), 213-248 (abstract; early Idiofa and later pottery results)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Shared pottery traits and intermittent iron production cannot specify a single lineage or migratory direction."
+    },
+    {
+      "id": "036982-p09",
+      "anchor": "Consider how differently the same object is read by three kinds of researcher. A",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-coutros25",
+        "b15-coutros24"
+      ],
+      "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion); Peter R. Coutros et al., The beginning of the Iron Age south of the Congo rainforest: investigations around Idiofa, Azania 59 (2024), 213-248 (abstract; early Idiofa and later pottery results)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Methodological comparison is explanatory synthesis and not direct proof of a specific linguistic history."
+    },
+    {
+      "id": "036982-p10",
+      "anchor": "The western Congo interior was inhabited long before metalworking became common ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-coutros25",
+        "b15-coutros24"
+      ],
+      "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion); Peter R. Coutros et al., The beginning of the Iron Age south of the Congo rainforest: investigations around Idiofa, Azania 59 (2024), 213-248 (abstract; early Idiofa and later pottery results)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "This summary does not assert that all described technologies occurred simultaneously in one community."
+    },
+    {
+      "id": "036984-p01",
+      "anchor": "Imagine making a history from a map in which the points suddenly grow scarce. In",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-seiden21",
+        "b15-coutros25"
+      ],
+      "source_locator": "Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections); Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "A radiocarbon sample is an indirect proxy for activity and does not directly count population."
+    },
+    {
+      "id": "036984-p02",
+      "anchor": "Dirk Seidensticker and colleagues assembled more than one thousand radiocarbon d",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-seiden21"
+      ],
+      "source_locator": "Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Aggregated dates are filtered and calibrated; the collapse is inferred regional activity, not a count of persons."
+    },
+    {
+      "id": "036984-p03",
+      "anchor": "In the Kwilu-Kasai region south of the rainforest, the chronology is different i",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-coutros25",
+        "b15-seiden21"
+      ],
+      "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion); Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Regional dating spans are estimates; comparison does not establish one synchronous continent-wide event."
+    },
+    {
+      "id": "036984-p04",
+      "anchor": "The apparent gap also has exceptions. In the Idiofa area, Okwon and Esal have co",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-coutros25"
+      ],
+      "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Okwon/Esal and Ntswo have dated contexts; other sites rely on tentative pottery comparisons."
+    },
+    {
+      "id": "036984-p05",
+      "anchor": "There are several ways a settlement could become hard to find. People might move",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-seiden21",
+        "b15-coutros25"
+      ],
+      "source_locator": "Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections); Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Competing survey-bias explanations are hypotheses; the low dated activity remains a reproducible pattern in reviewed samples."
+    },
+    {
+      "id": "036984-p06",
+      "anchor": "Climate has been considered carefully. Parts of Central Africa experienced shift",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-coutros25",
+        "b15-seiden21"
+      ],
+      "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion); Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Climate chronology does not establish causation and ecological proxies come from limited local sites."
+    },
+    {
+      "id": "036984-p07",
+      "anchor": "Disease has also been proposed. The 2021 rainforest study raised the possibility",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-seiden21",
+        "b15-coutros25"
+      ],
+      "source_locator": "Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections); Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "No pathogen is identified in the source studies; plague association must remain speculation."
+    },
+    {
+      "id": "036984-p08",
+      "anchor": "The sparse centuries change how we read the history of languages. A map of langu",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-seiden21",
+        "b15-coutros25"
+      ],
+      "source_locator": "Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections); Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Spread-over-spread is a broad synthesis; site-level language or identity assignments are not demonstrated."
+    },
+    {
+      "id": "036984-p09",
+      "anchor": "Around the fifteenth and sixteenth centuries, the Kwilu-Kasai region shows new c",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-coutros25"
+      ],
+      "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Late pottery interaction spheres identify material similarity; political unity and identity remain unproven."
+    },
+    {
+      "id": "036984-p10",
+      "anchor": "A pause in the archaeological record can be a historical problem rather than a b",
+      "kind": "historical_research",
+      "source_ids": [
+        "b15-seiden21",
+        "b15-coutros25"
+      ],
+      "source_locator": "Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections); Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Concluding interpretation does not resolve the cause of the archaeologically observed hiatus."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "ancient-medieval-world:036960",
+        "file": "036960-red-metal-many-routes-copperbelt.md",
+        "sha256": "c788bb06a48cdef261cdc40696afac9246bf7f0b9566b043db0af97bda04aae9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "036960",
+          "transcript": "036960-red-metal-many-routes-copperbelt.md",
+          "related_resources": [
+            {
+              "source_id": "b14-phillipson72",
+              "reason": "Chondwe ceramics from nineteen open sites and five shelters; infers small-scale mining by local early ironworkers. Full mining and pottery tables not reviewed.",
+              "access_scope": "publisher_abstract_reviewed"
+            },
+            {
+              "source_id": "b14-nikis17",
+              "reason": "Copperbelt production fourth-seventh centuries, HIH large ingots ninth-fourteenth, later types and shifting distribution; interpretations of political boundaries and currency remain hypotheses.",
+              "access_scope": "publisher_article_and_indexed_extract_reviewed"
+            },
+            {
+              "source_id": "b14-nikis21",
+              "reason": "Approx. fifty Upemba sites, almost three hundred burials, Kamilambian, Kisalian and Kabambian chronologies, wetlands, fisheries, copper; domestic archaeology weak.",
+              "access_scope": "open_full_text_reviewed"
+            },
+            {
+              "source_id": "b14-wiki-copperbelt",
+              "reason": "Wikipedia orientation only. Never sole support for an archival or historical claim.",
+              "access_scope": "orientation_link_only"
+            },
+            {
+              "source_id": "b14-wiki-copper",
+              "reason": "Wikipedia orientation only. Never sole support for an archival or historical claim.",
+              "access_scope": "orientation_link_only"
+            },
+            {
+              "source_id": "b14-wiki-upemba",
+              "reason": "Wikipedia orientation only. Never sole support for an archival or historical claim.",
+              "access_scope": "orientation_link_only"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "036960-p01",
+              "anchor": "In the ground of the region now called the Copperbelt, across northern Zambia an",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-phillipson72",
+                "b14-nikis17"
+              ],
+              "source_locator": "D. W. Phillipson, Early Iron Age Sites on the Zambian Copperbelt (Azania 7, 1972, 93–128); Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Copper production documented regionally; present-day industrial geography should not be projected onto specific ancient mines."
+            },
+            {
+              "id": "036960-p02",
+              "anchor": "Copper is unlike iron in ways that change its history. Iron smelting typically p",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis17"
+              ],
+              "source_locator": "Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "General metallurgical explanation does not identify any individual excavated furnace."
+            },
+            {
+              "id": "036960-p03",
+              "anchor": "David Phillipson's survey of the Zambian Copperbelt described the Chondwe cerami",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-phillipson72"
+              ],
+              "source_locator": "D. W. Phillipson, Early Iron Age Sites on the Zambian Copperbelt (Azania 7, 1972, 93–128)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Chondwe site counts and small-scale mining hypothesis based on Phillipson publisher abstract, not full field tables."
+            },
+            {
+              "id": "036960-p04",
+              "anchor": "There is a long interval between early local extraction and the later wide circu",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis17"
+              ],
+              "source_locator": "Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Copperbelt source range is broad and multi-site; it does not establish a continuously operating mine."
+            },
+            {
+              "id": "036960-p05",
+              "anchor": "One particular form, often called the H I H type of croisette, circulated betwee",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis17"
+              ],
+              "source_locator": "Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "HIH type distribution and molds support indirect links, not direct travel between every matching findspot."
+            },
+            {
+              "id": "036960-p06",
+              "anchor": "What was a cross-shaped ingot worth? The answer is not as simple as its weight. ",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis17"
+              ],
+              "source_locator": "Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Raw material, ritual and early currency interpretations vary by type and period; no dated price list exists."
+            },
+            {
+              "id": "036960-p07",
+              "anchor": "The Upemba Depression offers evidence that value could change as copper entered ",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis17",
+                "b14-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911); Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Kabambian grave goods may register prestige but cannot identify a named official or the method of acquisition."
+            },
+            {
+              "id": "036960-p08",
+              "anchor": "By the later medieval centuries, the pattern had changed. Different forms, label",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis17",
+                "b14-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911); Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "HX/HH/HXR distributions differ across time; much of smallest-HH use lies after 1500."
+            },
+            {
+              "id": "036960-p09",
+              "anchor": "Copper did not move through empty space. Goods went between places occupied by p",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis17"
+              ],
+              "source_locator": "Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Unpreserved commodities and intermediate trading arrangements are inferential, not excavated contracts."
+            },
+            {
+              "id": "036960-p10",
+              "anchor": "The geography of the Copperbelt and its connections also resists the idea that a",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis17"
+              ],
+              "source_locator": "Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Geographical network description avoids assuming all routes were to the Indian Ocean."
+            },
+            {
+              "id": "036960-p11",
+              "anchor": "These findings raise political questions without yielding instant answers. Who c",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis17",
+                "b14-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911); Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Political territory interpretation is authors’ hypothesis based on artifact distribution, not direct administrative texts."
+            },
+            {
+              "id": "036960-p12",
+              "anchor": "The history of copper before 1500 is thus about both production and translation.",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis17"
+              ],
+              "source_locator": "Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Conclusion is synthesis about changing uses and values rather than one historical standardized exchange rate."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:036970",
+        "file": "036970-burials-beside-the-lualaba-upemba.md",
+        "sha256": "a78c3145e62e72fc560c7be86edac2bad17d3af58b0ba7529235bd286ebd8a84",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "036970",
+          "transcript": "036970-burials-beside-the-lualaba-upemba.md",
+          "related_resources": [
+            {
+              "source_id": "b14-nikis21",
+              "reason": "Approx. fifty Upemba sites, almost three hundred burials, Kamilambian, Kisalian and Kabambian chronologies, wetlands, fisheries, copper; domestic archaeology weak.",
+              "access_scope": "open_full_text_reviewed"
+            },
+            {
+              "source_id": "b14-nikis17",
+              "reason": "Copperbelt production fourth-seventh centuries, HIH large ingots ninth-fourteenth, later types and shifting distribution; interpretations of political boundaries and currency remain hypotheses.",
+              "access_scope": "publisher_article_and_indexed_extract_reviewed"
+            },
+            {
+              "source_id": "b14-dlamini16",
+              "reason": "Sanga sample richer in C4 foods and higher caries, Katoto more C3; isotopes cannot uniquely name specific cereals or whole diet; full specimen-level data not examined.",
+              "access_scope": "research_abstract_reviewed"
+            },
+            {
+              "source_id": "b14-wiki-upemba",
+              "reason": "Wikipedia orientation only. Never sole support for an archival or historical claim.",
+              "access_scope": "orientation_link_only"
+            },
+            {
+              "source_id": "b14-wiki-lualaba",
+              "reason": "Wikipedia orientation only. Never sole support for an archival or historical claim.",
+              "access_scope": "orientation_link_only"
+            },
+            {
+              "source_id": "b14-wiki-luba",
+              "reason": "Wikipedia orientation only. Never sole support for an archival or historical claim.",
+              "access_scope": "orientation_link_only"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "036970-p01",
+              "anchor": "A burial can tell us how a person was laid to rest. It may also tell us what obj",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Graves document selected funerary acts, not all households or whole society."
+            },
+            {
+              "id": "036970-p02",
+              "anchor": "The depression lies within the upper Congo drainage, crossed by the river also k",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Approximate site and grave counts are from Nikis synthesis; most habitation patterns remain unexcavated."
+            },
+            {
+              "id": "036970-p03",
+              "anchor": "In the earliest clearly identified iron-using archaeological phase, called Kamil",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Kamilambian sixth-eighth-century chronology is approximate; inferred livelihoods rest on limited material assemblages."
+            },
+            {
+              "id": "036970-p04",
+              "anchor": "The following Early Kisalian phase, roughly the eighth and ninth centuries, is a",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Authority-symbol reading is an interpretation of particular grave goods, not a translated title."
+            },
+            {
+              "id": "036970-p05",
+              "anchor": "Copper then becomes increasingly significant. It is not the chief mineral resour",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis21",
+                "b14-nikis17"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021); Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Copperbelt origin and intermediate exchange routes remain inferred rather than direct preserved itinerary."
+            },
+            {
+              "id": "036970-p06",
+              "anchor": "The Classic Kisalian phase, approximately the tenth through thirteenth centuries",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Rich funerary deposits cannot be converted into exact living household wealth or class membership."
+            },
+            {
+              "id": "036970-p07",
+              "anchor": "There is a striking aquatic dimension to this history. The Upemba wetlands suppl",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Fish-based exchange and boating are contextual possibilities with some tools and remains, not physical proof of every commodity path."
+            },
+            {
+              "id": "036970-p08",
+              "anchor": "Burials have also made it possible to ask about diet in a more direct, though st",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-dlamini16",
+                "b14-nikis21"
+              ],
+              "source_locator": "Nonhlanhla Dlamini, Alan Morris, and Judith Sealy, Carbon Isotopes and Dental Caries as Evidence for Regional Variation in the Diets of Early Farming Communities from Katanga (Journal of African Archaeology 14, 2016, 135–153); Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Sanga versus Katoto isotope/carious tooth comparisons are from abstract; specific cereal types are not determined."
+            },
+            {
+              "id": "036970-p09",
+              "anchor": "The comparison between Sanga and Katoto is especially useful because the two are",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-dlamini16",
+                "b14-nikis21"
+              ],
+              "source_locator": "Nonhlanhla Dlamini, Alan Morris, and Judith Sealy, Carbon Isotopes and Dental Caries as Evidence for Regional Variation in the Diets of Early Farming Communities from Katanga (Journal of African Archaeology 14, 2016, 135–153); Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Katotian archaeological identity is less well understood than northern Kisalian and is not a named people."
+            },
+            {
+              "id": "036970-p10",
+              "anchor": "A further transition is marked by what archaeologists call Kabambian A, approxim",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis21",
+                "b14-nikis17"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021); Nicolas Nikis and Alexandre Livingstone Smith, Copper, Trade and Polities (Journal of Southern African Studies 43, 2017, 895–911)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Kabambian A chronology broad; political interpretation of copper burial differences is not direct tax-office record."
+            },
+            {
+              "id": "036970-p11",
+              "anchor": "Later Kabambian phases and the eventual integration of parts of the region into ",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Later Luba integration is chronologically distinct and no dynasty can be projected backward from modern memory."
+            },
+            {
+              "id": "036970-p12",
+              "anchor": "The history of the excavations is also part of the history of knowledge. Researc",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Curatorial locations reflect historical research; provenance is not a count of all excavated settlement sites."
+            },
+            {
+              "id": "036970-p13",
+              "anchor": "What, then, does Upemba contribute to the wider story of pre-1500 Africa? It sho",
+              "kind": "historical_research",
+              "source_ids": [
+                "b14-nikis21",
+                "b14-dlamini16"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression (Encyclopedia of Ancient History: Asia and Africa, 2021); Nonhlanhla Dlamini, Alan Morris, and Judith Sealy, Carbon Isotopes and Dental Caries as Evidence for Regional Variation in the Diets of Early Farming Communities from Katanga (Journal of African Archaeology 14, 2016, 135–153)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Conclusion weighs uneven ceramic, fish, burial and enamel evidence and does not invent political legal details."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:036980",
+        "file": "036980-when-the-copper-crosses-changed-kabambian.md",
+        "sha256": "8b851ce46c1b3ea617214dbe189af9a5e33b645094be7f0d745b726f18946dff",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "036980",
+          "transcript": "036980-when-the-copper-crosses-changed-kabambian.md",
+          "related_resources": [
+            {
+              "source_id": "b15-nikis21",
+              "reason": "Pages 1-7: Upemba graves, Kisalian, Kabambian, copper cross ingots and later Luba material continuity. Graves do not directly document households or the dates of royal dynasties.",
+              "access_scope": "open_full_text_reviewed"
+            },
+            {
+              "source_id": "b15-macola15",
+              "reason": "Origins, dynastic authority by about 1700, Luba/Ruund distinctions, positional succession, perpetual kinship. Early causes are proposed mechanisms, not established institutions.",
+              "access_scope": "open_html_text_reviewed"
+            },
+            {
+              "source_id": "b15-wiki-upemba",
+              "reason": "Supplementary orientation only; not a primary or sole historical authority.",
+              "access_scope": "orientation_link_only"
+            },
+            {
+              "source_id": "b15-wiki-luba",
+              "reason": "Supplementary orientation only; not a primary or sole historical authority.",
+              "access_scope": "orientation_link_only"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "036980-p01",
+              "anchor": "A cluster of copper crosses lies in a grave in the wetlands of southeastern Cong",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The opening uses known Kabambian ingots but does not assign an individual identity or known meaning to a specific grave."
+            },
+            {
+              "id": "036980-p02",
+              "anchor": "Upemba is not a single village. It is a long floodplain with lakes, marshes, cha",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Graves reflect selected funerary goods and cannot be converted to social census or district-by-district hierarchy."
+            },
+            {
+              "id": "036980-p03",
+              "anchor": "The transition archaeologists call Kabambian A began around the thirteenth or fo",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Period boundaries differ slightly between syntheses and transitional pottery makes sharp cultural replacement implausible."
+            },
+            {
+              "id": "036980-p04",
+              "anchor": "At Malemba-Nkulu, two particularly rich Kabambian A burials held hundreds of iro",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Concentration is from excavated sample, not all Kabambian graves; mechanisms of accumulation remain unknown."
+            },
+            {
+              "id": "036980-p05",
+              "anchor": "The shape and size of the copper pieces are important. Large cross-shaped ingots",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Typological and compositional changes signal networks; neither exact exchange equivalences nor direct personal routes survive."
+            },
+            {
+              "id": "036980-p06",
+              "anchor": "Kabambian B begins around the middle of the fifteenth century and extends well b",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-nikis21"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Decline in burial objects is a funerary observation; production levels and household inventories cannot be inferred directly."
+            },
+            {
+              "id": "036980-p07",
+              "anchor": "In the same later centuries, ceramics changed in ways that researchers have conn",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-nikis21",
+                "b15-macola15"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development); Giacomo Macola, Luba-Lunda states, Wiley Encyclopedia of Empire (2015) (Origins; The Luba and Lunda states to the early 19th century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Technological continuity is not proof of uninterrupted families, identities, or dynastic rule."
+            },
+            {
+              "id": "036980-p08",
+              "anchor": "It is tempting to put a famous name at the center of the rich medieval burials. ",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-macola15",
+                "b15-nikis21"
+              ],
+              "source_locator": "Giacomo Macola, Luba-Lunda states, Wiley Encyclopedia of Empire (2015) (Origins; The Luba and Lunda states to the early 19th century); Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The link between early political differentiation and later kingdom is interpretive; later dynastic titles are not excavated labels."
+            },
+            {
+              "id": "036980-p09",
+              "anchor": "The location of the wetland matters to this problem. Upemba offered productive f",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-macola15",
+                "b15-nikis21"
+              ],
+              "source_locator": "Giacomo Macola, Luba-Lunda states, Wiley Encyclopedia of Empire (2015) (Origins; The Luba and Lunda states to the early 19th century); Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Resource coordination and access control are scholarly hypotheses rather than attested regulations."
+            },
+            {
+              "id": "036980-p10",
+              "anchor": "The larger history of Upemba is a history of change on several scales. A pot can",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-nikis21",
+                "b15-macola15"
+              ],
+              "source_locator": "Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021) (pp. 4-7, especially Kabambian and Later Development); Giacomo Macola, Luba-Lunda states, Wiley Encyclopedia of Empire (2015) (Origins; The Luba and Lunda states to the early 19th century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Concluding synthesis distinguishes documented material changes from reconstructed state genealogy."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:036982",
+        "file": "036982-a-pot-before-the-ironworker-luani-nkar.md",
+        "sha256": "6dc91d7bac96d8f599ef1469c7aadbd27a0ba8b8151334bc8b09978b7dc28e89",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "036982",
+          "transcript": "036982-a-pot-before-the-ironworker-luani-nkar.md",
+          "related_resources": [
+            {
+              "source_id": "b15-coutros25",
+              "reason": "Chapter 24 pp. 543-564; BantuFirst survey, Luani burial, Nkar iron, variable environments, settlement decline and late interaction spheres. Site sample is not a regional population census.",
+              "access_scope": "open_full_chapter_reviewed"
+            },
+            {
+              "source_id": "b15-coutros24",
+              "reason": "Idiofa early metallurgy around 146 BCE and much later distinct LIA pottery; source dates are contextual radiocarbon, not a date for first iron everywhere.",
+              "access_scope": "publisher_abstract_and_open_pdf_result_reviewed"
+            },
+            {
+              "source_id": "b15-wiki-kwilu",
+              "reason": "Supplementary orientation only; not a primary or sole historical authority.",
+              "access_scope": "orientation_link_only"
+            },
+            {
+              "source_id": "b15-wiki-kasai",
+              "reason": "Supplementary orientation only; not a primary or sole historical authority.",
+              "access_scope": "orientation_link_only"
+            },
+            {
+              "source_id": "b15-wiki-bantu",
+              "reason": "Supplementary orientation only; not a primary or sole historical authority.",
+              "access_scope": "orientation_link_only"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "036982-p01",
+              "anchor": "A nearly whole pottery vessel was placed with a person whose body was cremated n",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-coutros25"
+              ],
+              "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Burial pottery is associated with ca. 2400 BCE context; excavation cannot tell whether the pot was made locally."
+            },
+            {
+              "id": "036982-p02",
+              "anchor": "Researchers working on the BantuFirst project investigated the Kwilu-Kasai regio",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-coutros25"
+              ],
+              "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "The 152 is a project count of newly identified sites, not all ancient settlements or a complete regional census."
+            },
+            {
+              "id": "036982-p03",
+              "anchor": "At Luani the striking feature is a cremation with associated objects, including ",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-coutros25"
+              ],
+              "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Food residues are interpretive identifications; cremation does not establish a living village diet."
+            },
+            {
+              "id": "036982-p04",
+              "anchor": "The vessel was found among Late Stone Age material. It may have been manufacture",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-coutros25"
+              ],
+              "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Pottery predates currently reconstructed Bantu dispersal here; neither ethnicity nor linguistic identity is directly measurable from a sherd."
+            },
+            {
+              "id": "036982-p05",
+              "anchor": "Centuries later the record changes again. Around the fourth century before the c",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-coutros25"
+              ],
+              "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Early dates and the diversity of pottery are site-specific; population directions remain debated."
+            },
+            {
+              "id": "036982-p06",
+              "anchor": "At Nkar, in the highland Idiofa region, researchers found evidence for ironworki",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-coutros24",
+                "b15-coutros25"
+              ],
+              "source_locator": "Peter R. Coutros et al., The beginning of the Iron Age south of the Congo rainforest: investigations around Idiofa, Azania 59 (2024), 213-248 (abstract; early Idiofa and later pottery results); Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Iron is dated to an excavated early context; the evidence does not establish a first invention or language identification."
+            },
+            {
+              "id": "036982-p07",
+              "anchor": "The environmental setting at Nkar also corrects a simple narrative. The study re",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-coutros24",
+                "b15-coutros25"
+              ],
+              "source_locator": "Peter R. Coutros et al., The beginning of the Iron Age south of the Congo rainforest: investigations around Idiofa, Azania 59 (2024), 213-248 (abstract; early Idiofa and later pottery results); Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Environmental proxies show local vegetation history; motivations of named households cannot be recovered."
+            },
+            {
+              "id": "036982-p08",
+              "anchor": "The team notes several contemporary sites with pots but without direct evidence ",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-coutros25",
+                "b15-coutros24"
+              ],
+              "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion); Peter R. Coutros et al., The beginning of the Iron Age south of the Congo rainforest: investigations around Idiofa, Azania 59 (2024), 213-248 (abstract; early Idiofa and later pottery results)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Shared pottery traits and intermittent iron production cannot specify a single lineage or migratory direction."
+            },
+            {
+              "id": "036982-p09",
+              "anchor": "Consider how differently the same object is read by three kinds of researcher. A",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-coutros25",
+                "b15-coutros24"
+              ],
+              "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion); Peter R. Coutros et al., The beginning of the Iron Age south of the Congo rainforest: investigations around Idiofa, Azania 59 (2024), 213-248 (abstract; early Idiofa and later pottery results)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Methodological comparison is explanatory synthesis and not direct proof of a specific linguistic history."
+            },
+            {
+              "id": "036982-p10",
+              "anchor": "The western Congo interior was inhabited long before metalworking became common ",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-coutros25",
+                "b15-coutros24"
+              ],
+              "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion); Peter R. Coutros et al., The beginning of the Iron Age south of the Congo rainforest: investigations around Idiofa, Azania 59 (2024), 213-248 (abstract; early Idiofa and later pottery results)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "This summary does not assert that all described technologies occurred simultaneously in one community."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:036984",
+        "file": "036984-centuries-with-few-dates-congo-basin.md",
+        "sha256": "36b7c285f3b4bc86c9e3749ad7b46d4912fd806e48ebbd516332252c5238e326",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "036984",
+          "transcript": "036984-centuries-with-few-dates-congo-basin.md",
+          "related_resources": [
+            {
+              "source_id": "b15-seiden21",
+              "reason": "1149 dates and 726 sites, modeled regional activity decline ~400-600 CE with low levels ~600-1000; relative activity is not a headcount; proposed epidemic is not demonstrated.",
+              "access_scope": "open_full_text_reviewed"
+            },
+            {
+              "source_id": "b15-coutros25",
+              "reason": "Chapter 24 pp. 543-564; BantuFirst survey, Luani burial, Nkar iron, variable environments, settlement decline and late interaction spheres. Site sample is not a regional population census.",
+              "access_scope": "open_full_chapter_reviewed"
+            },
+            {
+              "source_id": "b15-wiki-kwilu",
+              "reason": "Supplementary orientation only; not a primary or sole historical authority.",
+              "access_scope": "orientation_link_only"
+            },
+            {
+              "source_id": "b15-wiki-kasai",
+              "reason": "Supplementary orientation only; not a primary or sole historical authority.",
+              "access_scope": "orientation_link_only"
+            },
+            {
+              "source_id": "b15-wiki-bantu",
+              "reason": "Supplementary orientation only; not a primary or sole historical authority.",
+              "access_scope": "orientation_link_only"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "036984-p01",
+              "anchor": "Imagine making a history from a map in which the points suddenly grow scarce. In",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-seiden21",
+                "b15-coutros25"
+              ],
+              "source_locator": "Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections); Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "A radiocarbon sample is an indirect proxy for activity and does not directly count population."
+            },
+            {
+              "id": "036984-p02",
+              "anchor": "Dirk Seidensticker and colleagues assembled more than one thousand radiocarbon d",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-seiden21"
+              ],
+              "source_locator": "Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Aggregated dates are filtered and calibrated; the collapse is inferred regional activity, not a count of persons."
+            },
+            {
+              "id": "036984-p03",
+              "anchor": "In the Kwilu-Kasai region south of the rainforest, the chronology is different i",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-coutros25",
+                "b15-seiden21"
+              ],
+              "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion); Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Regional dating spans are estimates; comparison does not establish one synchronous continent-wide event."
+            },
+            {
+              "id": "036984-p04",
+              "anchor": "The apparent gap also has exceptions. In the Idiofa area, Okwon and Esal have co",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-coutros25"
+              ],
+              "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Okwon/Esal and Ntswo have dated contexts; other sites rely on tentative pottery comparisons."
+            },
+            {
+              "id": "036984-p05",
+              "anchor": "There are several ways a settlement could become hard to find. People might move",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-seiden21",
+                "b15-coutros25"
+              ],
+              "source_locator": "Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections); Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Competing survey-bias explanations are hypotheses; the low dated activity remains a reproducible pattern in reviewed samples."
+            },
+            {
+              "id": "036984-p06",
+              "anchor": "Climate has been considered carefully. Parts of Central Africa experienced shift",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-coutros25",
+                "b15-seiden21"
+              ],
+              "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion); Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Climate chronology does not establish causation and ecological proxies come from limited local sites."
+            },
+            {
+              "id": "036984-p07",
+              "anchor": "Disease has also been proposed. The 2021 rainforest study raised the possibility",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-seiden21",
+                "b15-coutros25"
+              ],
+              "source_locator": "Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections); Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "No pathogen is identified in the source studies; plague association must remain speculation."
+            },
+            {
+              "id": "036984-p08",
+              "anchor": "The sparse centuries change how we read the history of languages. A map of langu",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-seiden21",
+                "b15-coutros25"
+              ],
+              "source_locator": "Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections); Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Spread-over-spread is a broad synthesis; site-level language or identity assignments are not demonstrated."
+            },
+            {
+              "id": "036984-p09",
+              "anchor": "Around the fifteenth and sixteenth centuries, the Kwilu-Kasai region shows new c",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-coutros25"
+              ],
+              "source_locator": "Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Late pottery interaction spheres identify material similarity; political unity and identity remain unproven."
+            },
+            {
+              "id": "036984-p10",
+              "anchor": "A pause in the archaeological record can be a historical problem rather than a b",
+              "kind": "historical_research",
+              "source_ids": [
+                "b15-seiden21",
+                "b15-coutros25"
+              ],
+              "source_locator": "Dirk Seidensticker et al., Population collapse in Congo rainforest from 400 CE urges reassessment of the Bantu Expansion, Science Advances 7 (2021) eabd8352 (Abstract; Results, collapse and spread-over-spread sections); Peter R. Coutros, Jessamy H. Doman, Igor Matonda Sakala and Koen Bostoen, A longue duree Socio-Environmental History of the Kwilu-Kasai Region, in An Archaeology of the Bantu Expansion (2025) (ch. 24, pp. 543-564; historical trajectories and discussion)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Concluding interpretation does not resolve the cause of the archaeologically observed hiatus."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

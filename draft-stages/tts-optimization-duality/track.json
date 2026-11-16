@@ -11,26 +11,11 @@
     "linear-duality",
     "kkt-conditions",
     "first-order-methods",
-    "proximal-and-nonsmooth",
     "semidefinite-programming",
     "discrete-optimization",
-    "verifiable-optimality",
-    "interior-point",
     "optimization-sensitivity",
-    "conic-duality-slater",
-    "submodular-approximation",
     "monotone-splitting",
-    "robust-uncertainty-sets",
-    "hsd-embedding",
-    "nonmonotone-submodular",
-    "inexact-proximal-steps",
-    "wasserstein-distributional-robustness",
-    "facial-reduction-sdp",
-    "multiple-matroid-submodular",
-    "mirror-prox-bregman",
-    "stochastic-mirror-prox",
-    "entropic-cvar-distributional-ambiguity",
-    "exact-sdp-weak-infeasibility"
+    "hsd-embedding"
   ],
   "lectures": [
     {
@@ -71,192 +56,90 @@
     },
     {
       "id": "005000",
-      "title": "Gradient Descent, Smoothness, and the Price of Poor Conditioning",
+      "title": "Gradient descent and proximal methods",
       "section": "first-order-methods",
-      "file": "005000-gradient-descent-and-conditioning.md",
-      "spoken_words": 1603,
+      "file": "005000-first-order-iteration-and-convex-certificates-shared-core.md",
+      "spoken_words": 2868,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 11.1
-    },
-    {
-      "id": "006000",
-      "title": "Proximal Methods: Optimization When the Best Point Has a Corner",
-      "section": "proximal-and-nonsmooth",
-      "file": "006000-proximal-methods-and-nonsmooth-convexity.md",
-      "spoken_words": 1260,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.7
+      "estimated_minutes_at_145_wpm": 19.8,
+      "consolidated_from": [
+        "005000",
+        "006000"
+      ]
     },
     {
       "id": "007000",
-      "title": "Semidefinite Programming: Optimizing over Positive Matrices",
+      "title": "Conic optimization: matrix inequalities, barriers, and verified witnesses",
       "section": "semidefinite-programming",
-      "file": "007000-semidefinite-programming-and-certificates.md",
-      "spoken_words": 1416,
+      "file": "007000-conic-optimization-matrix-inequalities-barriers-and-verified-witnesses.md",
+      "spoken_words": 5184,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.8
+      "estimated_minutes_at_145_wpm": 35.8,
+      "consolidated_from": [
+        "007000",
+        "012000",
+        "010000",
+        "009000"
+      ]
     },
     {
       "id": "008000",
-      "title": "Discrete Optimization: Relaxations, Integrality Gaps, and Certificates",
+      "title": "Combinatorial relaxation and submodular approximation",
       "section": "discrete-optimization",
-      "file": "008000-discrete-optimization-relaxations-and-bounds.md",
-      "spoken_words": 1365,
+      "file": "008000-combinatorial-relaxation-and-submodular-approximation.md",
+      "spoken_words": 4744,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.4
-    },
-    {
-      "id": "009000",
-      "title": "Verifiable Optimization Certificates: From Solver Output to Proof",
-      "section": "verifiable-optimality",
-      "file": "009000-verifiable-optimality-certificates-and-numerical-error.md",
-      "spoken_words": 1327,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.2
-    },
-    {
-      "id": "010000",
-      "title": "Interior-Point Methods: Central Paths, Barriers, and Newton Systems",
-      "section": "interior-point",
-      "file": "010000-interior-point-methods-central-paths-and-barriers.md",
-      "spoken_words": 1233,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.5
+      "estimated_minutes_at_145_wpm": 32.7,
+      "consolidated_from": [
+        "008000",
+        "013000",
+        "017000",
+        "021000"
+      ]
     },
     {
       "id": "011000",
-      "title": "Optimization Sensitivity: Perturbation Bounds and Shadow Prices",
+      "title": "Sensitivity, robust uncertainty, and distributional risk",
       "section": "optimization-sensitivity",
-      "file": "011000-sensitivity-perturbations-and-shadow-prices.md",
-      "spoken_words": 1282,
+      "file": "011000-sensitivity-robust-uncertainty-and-distributional-risk.md",
+      "spoken_words": 4607,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.8
-    },
-    {
-      "id": "012000",
-      "title": "Conic Duality: One Language for Linear, Quadratic, and Matrix Inequalities",
-      "section": "conic-duality-slater",
-      "file": "012000-conic-duality-and-strict-feasibility.md",
-      "spoken_words": 1170,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.1
-    },
-    {
-      "id": "013000",
-      "title": "Submodular Optimization: Why Greedy Choices Can Be Provably Good",
-      "section": "submodular-approximation",
-      "file": "013000-submodular-optimization-and-greedy-guarantees.md",
-      "spoken_words": 1210,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.3
+      "estimated_minutes_at_145_wpm": 31.8,
+      "consolidated_from": [
+        "011000",
+        "015000",
+        "019000",
+        "024000"
+      ]
     },
     {
       "id": "014000",
-      "title": "Monotone Operators, Resolvents, and Splitting Methods",
+      "title": "Monotone splitting, inexact proximal steps, and stochastic games",
       "section": "monotone-splitting",
-      "file": "014000-monotone-operators-and-splitting-methods.md",
-      "spoken_words": 840,
+      "file": "014000-from-gradient-and-prox-steps-to-inexact-and-stochastic-games-shared-core.md",
+      "spoken_words": 4749,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.8
-    },
-    {
-      "id": "015000",
-      "title": "Robust Optimization: Worst-Case Constraints and Tractable Reformulations",
-      "section": "robust-uncertainty-sets",
-      "file": "015000-robust-optimization-and-uncertainty-sets.md",
-      "spoken_words": 1050,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.2
+      "estimated_minutes_at_145_wpm": 32.8,
+      "consolidated_from": [
+        "014000",
+        "018000",
+        "022000",
+        "023000"
+      ]
     },
     {
       "id": "016000",
-      "title": "Homogeneous Self-Dual Embeddings and Infeasibility Certificates",
+      "title": "Infeasibility embeddings, faces, and exact arithmetic",
       "section": "hsd-embedding",
-      "file": "016000-homogeneous-self-dual-embedding-and-certificates.md",
-      "spoken_words": 910,
+      "file": "016000-infeasibility-embeddings-faces-and-exact-arithmetic.md",
+      "spoken_words": 3212,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.3
-    },
-    {
-      "id": "017000",
-      "title": "Nonmonotone Submodular Optimization: When More Can Be Worse",
-      "section": "nonmonotone-submodular",
-      "file": "017000-nonmonotone-submodular-maximization-and-matroids.md",
-      "spoken_words": 1021,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.0
-    },
-    {
-      "id": "018000",
-      "title": "Inexact Proximal Algorithms: Convergence When Inner Solves Are Imperfect",
-      "section": "inexact-proximal-steps",
-      "file": "018000-inexact-proximal-steps-and-certificates.md",
-      "spoken_words": 1128,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.8
-    },
-    {
-      "id": "019000",
-      "title": "Wasserstein Distributionally Robust Optimization: Decisions under Uncertain Laws",
-      "section": "wasserstein-distributional-robustness",
-      "file": "019000-wasserstein-distributionally-robust-optimization.md",
-      "spoken_words": 1136,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.8
-    },
-    {
-      "id": "020000",
-      "title": "Facial Reduction: Finding the True Interior of a Semidefinite Program",
-      "section": "facial-reduction-sdp",
-      "file": "020000-facial-reduction-and-degenerate-sdp.md",
-      "spoken_words": 1353,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.3
-    },
-    {
-      "id": "021000",
-      "title": "Submodular Maximization Under Intersecting Matroid Constraints",
-      "section": "multiple-matroid-submodular",
-      "file": "021000-submodular-maximization-under-matroid-intersections.md",
-      "spoken_words": 1137,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.8
-    },
-    {
-      "id": "022000",
-      "title": "Mirror-Prox: Solving Monotone Games Without Rotating Forever",
-      "section": "mirror-prox-bregman",
-      "file": "022000-mirror-prox-and-bregman-variational-inequalities.md",
-      "spoken_words": 1450,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 10.0
-    },
-    {
-      "id": "023000",
-      "title": "Stochastic Mirror-Prox and the Cost of Noisy Oracles",
-      "section": "stochastic-mirror-prox",
-      "file": "023000-stochastic-mirror-prox-and-oracle-noise.md",
-      "spoken_words": 1320,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.1
-    },
-    {
-      "id": "024000",
-      "title": "Entropic Risk, CVaR, and Distributional Ambiguity",
-      "section": "entropic-cvar-distributional-ambiguity",
-      "file": "024000-entropic-risk-cvar-and-ambiguity.md",
-      "spoken_words": 1099,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.6
-    },
-    {
-      "id": "025000",
-      "title": "Exact Semidefinite Certificates and Weak Infeasibility",
-      "section": "exact-sdp-weak-infeasibility",
-      "file": "025000-exact-semidefinite-certificates-and-weak-infeasibility.md",
-      "spoken_words": 941,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
+      "estimated_minutes_at_145_wpm": 22.2,
+      "consolidated_from": [
+        "016000",
+        "020000",
+        "025000"
+      ]
     }
   ]
 }

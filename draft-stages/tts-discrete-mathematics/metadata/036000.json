@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "036000",
-  "transcript": "036000-local-correction-and-list-decoding.md",
+  "transcript": "036000-local-recovery-derandomization-and-fourier-uniformity.md",
   "related_resources": [
     {
       "source_id": "dm-r18-036000-1",
@@ -14,7 +14,166 @@
     {
       "source_id": "dm-r18-036000-3",
       "reason": "Reference on Local Correction and List Decoding: Recovering Information from Few Queries (3 of 3)"
+    },
+    {
+      "source_id": "dm-r19-037000-1",
+      "reason": "Reference for Small-Bias Spaces and Derandomization (1 of 2)"
+    },
+    {
+      "source_id": "dm-r19-037000-2",
+      "reason": "Reference for Small-Bias Spaces and Derandomization (2 of 2)"
+    },
+    {
+      "source_id": "dm-r19-038000-1",
+      "reason": "Reference for Sharp Thresholds, Influences, and the Tribes Function (1 of 2)"
+    },
+    {
+      "source_id": "dm-r19-038000-2",
+      "reason": "Reference for Sharp Thresholds, Influences, and the Tribes Function (2 of 2)"
+    },
+    {
+      "source_id": "dm-r20-039000-1",
+      "reason": "Reference for Polynomial Codes and Local Testability (1 of 3)"
+    },
+    {
+      "source_id": "dm-r20-039000-2",
+      "reason": "Reference for Polynomial Codes and Local Testability (2 of 3)"
+    },
+    {
+      "source_id": "dm-r20-039000-3",
+      "reason": "Reference for Polynomial Codes and Local Testability (3 of 3)"
+    },
+    {
+      "source_id": "dm-r21-041000-1",
+      "reason": "Fourier proof methods and density increments"
+    },
+    {
+      "source_id": "dm-r21-041000-2",
+      "reason": "general structure and uniformity methods"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "discrete-mathematics:036000",
+        "file": "036000-local-correction-and-list-decoding.md",
+        "sha256": "0109152e7b96a04ef3458524056aa1b02509cd76ac2ab966451e0104bb928d51",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "036000",
+          "transcript": "036000-local-correction-and-list-decoding.md",
+          "related_resources": [
+            {
+              "source_id": "dm-r18-036000-1",
+              "reason": "Reference on Local Correction and List Decoding: Recovering Information from Few Queries (1 of 3)"
+            },
+            {
+              "source_id": "dm-r18-036000-2",
+              "reason": "Reference on Local Correction and List Decoding: Recovering Information from Few Queries (2 of 3)"
+            },
+            {
+              "source_id": "dm-r18-036000-3",
+              "reason": "Reference on Local Correction and List Decoding: Recovering Information from Few Queries (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:037000",
+        "file": "037000-small-bias-spaces-and-derandomization.md",
+        "sha256": "29084939e856a4988558fa6718db2a12ffcae5ce59c5e22bf24fe212c09ff607",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "037000",
+          "transcript": "037000-small-bias-spaces-and-derandomization.md",
+          "related_resources": [
+            {
+              "source_id": "dm-r19-037000-1",
+              "reason": "Reference for Small-Bias Spaces and Derandomization (1 of 2)"
+            },
+            {
+              "source_id": "dm-r19-037000-2",
+              "reason": "Reference for Small-Bias Spaces and Derandomization (2 of 2)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:038000",
+        "file": "038000-sharp-thresholds-and-tribes.md",
+        "sha256": "47f7d19e3c722461c7b2ffa2abf343d17d9ef8803758cb4d690a219b620760b5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "038000",
+          "transcript": "038000-sharp-thresholds-and-tribes.md",
+          "related_resources": [
+            {
+              "source_id": "dm-r19-038000-1",
+              "reason": "Reference for Sharp Thresholds, Influences, and the Tribes Function (1 of 2)"
+            },
+            {
+              "source_id": "dm-r19-038000-2",
+              "reason": "Reference for Sharp Thresholds, Influences, and the Tribes Function (2 of 2)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:039000",
+        "file": "039000-polynomial-codes-and-local-testability.md",
+        "sha256": "dbd6a0e59747eb421b17592c85ac81150b37b46ada2c5ac6a644ab7b497b4b7d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "039000",
+          "transcript": "039000-polynomial-codes-and-local-testability.md",
+          "related_resources": [
+            {
+              "source_id": "dm-r20-039000-1",
+              "reason": "Reference for Polynomial Codes and Local Testability (1 of 3)"
+            },
+            {
+              "source_id": "dm-r20-039000-2",
+              "reason": "Reference for Polynomial Codes and Local Testability (2 of 3)"
+            },
+            {
+              "source_id": "dm-r20-039000-3",
+              "reason": "Reference for Polynomial Codes and Local Testability (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:041000",
+        "file": "041000-additive-combinatorics-and-fourier-uniformity.md",
+        "sha256": "7891155574a67c4a1eecbaf804b3fb6f9dd086261c8fe24fb52d8802d0aacdcc",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "041000",
+          "transcript": "041000-additive-combinatorics-and-fourier-uniformity.md",
+          "related_resources": [
+            {
+              "source_id": "dm-r21-041000-1",
+              "reason": "Fourier proof methods and density increments"
+            },
+            {
+              "source_id": "dm-r21-041000-2",
+              "reason": "general structure and uniformity methods"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

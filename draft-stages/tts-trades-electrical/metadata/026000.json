@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "026000",
-  "transcript": "026000-copper-aluminum-and-conductor-connections.md",
+  "transcript": "026000-choose-conductors-and-make-durable-connections.md",
   "related_resources": [
     {
       "source_id": "electrical-cpsc-aluminum-1978",
@@ -34,6 +34,102 @@
     {
       "source_id": "electrical-ul486-2025",
       "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-iec60364-552-2024",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-iec60529",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-osha305",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-se-cable-sizing",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-ul-enclosure-accessories",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-ul-panelboards",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-iec60287-2023",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-se-neutral-sizing",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-se-voltage-drop",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-openstax-ac-circuits",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-openstax-ac-sources",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-openstax-kirchhoff",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-openstax-ohm",
+      "reason": "Source-specific support and limitations are recorded in claim-level map"
+    },
+    {
+      "source_id": "electrical-se-nec21019-historic",
+      "reason": "Historical voltage-drop guidance; edition and adoption limits in E029000-10"
+    },
+    {
+      "source_id": "electrical-persson-contact-2022",
+      "reason": "Claim-specific support in source map for 030000"
+    },
+    {
+      "source_id": "electrical-aip-contact-2022",
+      "reason": "Claim-specific support in source map for 030000"
+    },
+    {
+      "source_id": "electrical-openstax-power",
+      "reason": "Claim-specific support in source map for 030000"
+    },
+    {
+      "source_id": "electrical-iaei-torque-2011",
+      "reason": "Claim-specific support in source map for 030000"
+    },
+    {
+      "source_id": "electrical-osha303",
+      "reason": "Claim-specific support in source map for 030000"
+    },
+    {
+      "source_id": "electrical-ul-connector-cert",
+      "reason": "Claim-specific support in source map for 030000"
+    },
+    {
+      "source_id": "electrical-cpsc-aluminum-1978",
+      "reason": "Claim-specific support in source map for 030000"
+    },
+    {
+      "source_id": "electrical-osha305",
+      "reason": "Claim-specific support in source map for 030000"
+    },
+    {
+      "source_id": "electrical-ul-panelboards",
+      "reason": "Claim-specific support in source map for 030000"
+    },
+    {
+      "source_id": "electrical-osha304",
+      "reason": "Claim-specific support in source map for 030000"
     }
   ],
   "practice_classification": "desk_or_visual_only",
@@ -277,6 +373,2366 @@
       "verification_level": "limited_source_support_or_independent_review_pending",
       "limitations": "Heat removal, installed geometry and connection constraints not captured.",
       "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E027000-01",
+      "claim": "Conductor insulation, jackets, armor, shielding and raceways have different functional roles",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul-cable-guide",
+          "location": "wire and cable categories, markings",
+          "role": "product_guide"
+        },
+        {
+          "source_id": "electrical-osha305",
+          "location": "wiring-method classes, metallic raceway and cable armor",
+          "role": "independent_workplace_rule"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific layers and bonding roles require product-level verification.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E027000-02",
+      "claim": "Wet/dry ratings and temperature marks depend on the cable type and suffix",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul-cable-guide",
+          "location": "temperature dry/wet columns; -2 suffix note",
+          "role": "product_guide"
+        },
+        {
+          "source_id": "electrical-osha305",
+          "location": "1910.305(f)(2) insulation approval by voltage/temperature/location",
+          "role": "independent_regulation"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Do not infer all markings from a single suffix without a product listing.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E027000-03",
+      "claim": "Insulation temperature class does not automatically set allowable terminal or circuit current",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "reference insulation classes and current ratings",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-osha303",
+          "location": "equipment suitability and heating effects",
+          "role": "separate_workplace_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Exact NEC terminal column/derating methods not verified.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E027000-04",
+      "claim": "Flexible cord and permanent wiring methods have different permitted uses",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "1910.305(g)(1) permitted and prohibited cord uses",
+          "role": "primary_us_workplace_rule"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Other jurisdictions have different definitions and exceptions.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E027000-05",
+      "claim": "Raceways influence mechanical protection and heat transfer",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "1910.305(a) raceways and wiring methods",
+          "role": "workplace_rules"
+        },
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "reference methods in conduit, free air and ground",
+          "role": "independent_engineering_model"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Exact conduit type/fill limits not checked.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E027000-06",
+      "claim": "Metallic raceway bonding/continuity depends on the complete installation and fittings",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "1910.305(a)(1)(i) metal parts used as grounding conductors",
+          "role": "workplace_rule"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Cannot generalize fault-return suitability of any conduit without product/system evidence.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E027000-07",
+      "claim": "Cable entries and enclosure openings affect installed integrity",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "1910.305(b)(1) entries and closure",
+          "role": "workplace_rule"
+        },
+        {
+          "source_id": "electrical-ul-enclosure-accessories",
+          "location": "rated enclosure fittings and modification concerns",
+          "role": "independent_product_certification_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Concrete approval depends on enclosure and fitting details.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E027000-08",
+      "claim": "IEC 60228 covers conductor nominal cross sections, classes and resistance",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec60228-2023",
+          "location": "official catalogue scope",
+          "role": "publisher_scope_only"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No detailed normative clause examined.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E027000-09",
+      "claim": "IEC 60529 standardizes degrees of protection of enclosures by IP code",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec60529",
+          "location": "official scope and TC 70 attribution",
+          "role": "publisher_scope_only"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Actual IP test details not established by abstract.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E027000-10",
+      "claim": "NEMA enclosure types differ in specified environmental protections and do not map universally to IP numbers",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul-panelboards",
+          "location": "published Type 1, 3R, 4 and 4X characteristics",
+          "role": "product_guide"
+        },
+        {
+          "source_id": "electrical-iec60529",
+          "location": "different IEC IP classification scope",
+          "role": "separate_standard_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Do not infer complete equivalence tables or installed equipment rating.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E027000-11",
+      "claim": "An enclosure rating may depend on its evaluated accessories, openings and installation",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul-enclosure-accessories",
+          "location": "type/IP-rated accessory discussion",
+          "role": "product_evaluation"
+        },
+        {
+          "source_id": "electrical-osha303",
+          "location": "1910.303(b)(7) openings and general suitability",
+          "role": "separate_regulation"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No aftermarket modification claimed to preserve rating automatically.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E027000-12",
+      "claim": "Routes crossing walls and environmental boundaries require compatibility of the whole wiring system",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "1910.305(b), (e), (f) environment and cable entries",
+          "role": "workplace_context"
+        },
+        {
+          "source_id": "electrical-iec60364-552-2024",
+          "location": "IEC catalogue selection and erection scope",
+          "role": "separate_standard_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Firestopping specifics require building/fire assembly listings and local rules.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-01",
+      "claim": "I-squared-R heating increases quadratically with current at fixed resistance",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "§9.5 electrical power",
+          "role": "physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Current RMS and resistance model must be appropriate to waveform.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-02",
+      "claim": "Ampacity combines internal heat generation and external heat removal",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "Joule heating basis",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-iec60287-2023",
+          "location": "steady-state current rating and losses scope",
+          "role": "engineering_standard_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Lumped thermal model is original synthesis, not a standard calculation procedure.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-03",
+      "claim": "Reference ampacity depends on insulation type and installation method",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "reference methods A-G and insulation temperature chart",
+          "role": "public_engineering_guide"
+        },
+        {
+          "source_id": "electrical-iec60364-552-2024",
+          "location": "standard selection/erection scope",
+          "role": "standard_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Published guide may rely on specific earlier tables; adopted full clauses not checked.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-04",
+      "claim": "Ambient temperature can require correction of reference current ratings",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "air temperature corrections reference 30°C",
+          "role": "public_engineering_guide"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Not universal across every cable standard or application.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-05",
+      "claim": "Grouping loaded circuits can reduce permissible continuous current",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "group reduction factors and installation differences",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-osha303",
+          "location": "heating effects considered in suitability",
+          "role": "independent_workplace_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No actual group factor selected for field use.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-06",
+      "claim": "Loaded neutral status may depend on harmonics and waveform, not insulation color",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-neutral-sizing",
+          "location": "neutral and harmonic sizing discussion",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "grouping of current-carrying conductors",
+          "role": "same_publisher_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Product and rule-specific conductor-count treatment not independently checked.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-07",
+      "claim": "Buried cable heat rejection depends on soil temperature and thermal resistivity",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "ground conditions and soil resistivity correction",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-iec60287-2023",
+          "location": "buried and ducted steady-state cables in scope",
+          "role": "independent_standard_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Actual soil properties, drying and transient thermal behavior need site-specific study.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-08",
+      "claim": "IEC 60287-1-1:2023 uses steady-state cable current-rating equations at 100% load factor",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec60287-2023",
+          "location": "official catalogue abstract",
+          "role": "publisher_scope_only"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Cannot reproduce normative methods from publisher summary.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-09",
+      "claim": "Terminal restrictions can limit use of high-temperature insulation ratings",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "equipment heating, ratings, instructions",
+          "role": "workplace_rule"
+        },
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "insulation conductor temperature classes",
+          "role": "engineering_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific code column and allowed correction basis depends on edition and device.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-10",
+      "claim": "Thermal mass delays temperature response to a transient current",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-iec60287-2023",
+          "location": "steady-state versus other regimes explicit",
+          "role": "standard_scope"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "electrical heat generation",
+          "role": "physics_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Thermal capacitance ODE is original teaching model, not verified cable transient standard.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-11",
+      "claim": "Conductor length affects total resistance and voltage drop even if local heat rate is similar",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-resistivity",
+          "location": "R proportional to length",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-se-voltage-drop",
+          "location": "voltage drop formula and length",
+          "role": "independent_engineering_guide"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Local cooling uniformity assumed; cables in varying conditions may have different ratings.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E028000-12",
+      "claim": "Ampacity check is distinct from fault withstand and voltage delivery",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "thermal sizing criteria",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-se-voltage-drop",
+          "location": "separate voltage-drop analysis",
+          "role": "same_publisher_context"
+        },
+        {
+          "source_id": "electrical-osha303",
+          "location": "interrupting rating and heating requirements",
+          "role": "independent_us_workplace_rule"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific fault withstand and protective coordination not calculated.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-01",
+      "claim": "Two-wire supply-return geometry uses total loop length for DC/resistive drop",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-resistivity",
+          "location": "R proportional to conductor length and inverse area",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "Ohm law",
+          "role": "same_textbook_equation"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Only valid for explicitly stated symmetric two-wire loop geometry.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-02",
+      "claim": "Resistive voltage drop grows with current and length at fixed area and resistivity",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "Ohm law",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-openstax-resistivity",
+          "location": "resistivity expression",
+          "role": "same_publisher_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Not a complete dynamic source/load network model.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-03",
+      "claim": "Dissipation increases with square of current while idealized drop grows linearly",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "P=I²R",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "V=IR",
+          "role": "same_textbook_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Resistance and source/load states held fixed.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-04",
+      "claim": "Reference resistivity and temperature coefficient determine hypothetical hot-loop resistance",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-resistivity",
+          "location": "20°C table and linear temperature relation",
+          "role": "physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Actual cable composition, hot spots and temperature vary.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-05",
+      "claim": "Thermal ampacity and voltage-drop criteria are different sizing constraints",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-cable-sizing",
+          "location": "reference current ratings",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-se-voltage-drop",
+          "location": "steady voltage-drop analysis",
+          "role": "same_publisher_other_guide"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Independently check installed code, equipment voltage tolerance, fault and terminal constraints.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-06",
+      "claim": "In AC wiring the resistive and reactive components of impedance affect voltage drop",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-voltage-drop",
+          "location": "R cos φ + X sin φ terms",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-openstax-ac-circuits",
+          "location": "phasor circuit impedance principles",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Sinusoidal steady-state conditions; nonlinear loads and transients may violate assumptions.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-07",
+      "claim": "Balanced three-phase voltage drop uses phasor geometry and a square-root-of-three factor",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-voltage-drop",
+          "location": "balanced three-phase formula in public guide",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-openstax-ac-sources",
+          "location": "AC phase relationships",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Not for arbitrary unbalanced harmonics, or single-phase DC.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-08",
+      "claim": "Upstream source sag must be distinguished from losses in downstream cable",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-se-voltage-drop",
+          "location": "guide example includes upstream distribution-board drop",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-openstax-kirchhoff",
+          "location": "loop voltage conservation",
+          "role": "independent_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Requires load-current and source-impedance model for quantitative diagnosis.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-09",
+      "claim": "Load voltage dependence differs between fixed resistance and regulated constant power",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-ohm",
+          "location": "resistance current-versus-voltage relationship",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "power/current relation",
+          "role": "same_textbook_physics"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Constant-power behavior only over converter regulation range; actual equipment specs needed.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-10",
+      "claim": "Common U.S. 3% branch and 5% feeder-plus-branch guidelines are not universally mandatory",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-se-nec21019-historic",
+          "location": "NEC 210.19 Informational Note excerpt, historical 3% and 5% guidance",
+          "role": "secondary_historical_code_excerpt"
+        },
+        {
+          "source_id": "electrical-se-voltage-drop",
+          "location": "engineering performance criteria context",
+          "role": "engineering_guide"
+        },
+        {
+          "source_id": "electrical-iec60364-552-2024",
+          "location": "IEC Clause 525 catalogue changes and annex reference",
+          "role": "separate_standard_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "This secondary excerpt documents an older NEC informational note, not the 2026 NEC text or a binding universally adopted limit; local code and equipment requirements differ.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-11",
+      "claim": "IEC 60364-5-52 scope covers wiring-system voltage drop and a 2024 clause revision",
+      "kind": "standards_scope",
+      "supports": [
+        {
+          "source_id": "electrical-iec60364-552-2024",
+          "location": "official catalogue Clause 525 change note",
+          "role": "publisher_scope_only"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Publisher summary not full adopted annex; local requirements unknown.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E029000-12",
+      "claim": "Conductor upsizing trades resistance and loss against material, route and terminal constraints",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-resistivity",
+          "location": "R decreases with area",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-ul486-2025",
+          "location": "connector material and size scope",
+          "role": "separate_product_standard_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No life-cycle economic or field-sizing conclusion without duty and product info.",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E030000-01",
+      "claim": "Metallic contact occurs at asperities, so actual conducting contact area differs from apparent area",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-persson-contact-2022",
+          "location": "abstract: asperity constriction, Holm/contact stiffness",
+          "role": "primary_theory"
+        },
+        {
+          "source_id": "electrical-aip-contact-2022",
+          "location": "opening section: real microcontacts, oxide films",
+          "role": "independent_model"
+        }
+      ],
+      "verification_level": "source_audited_independent_professional_review_pending",
+      "limitations": "Contact theory is not a field test of a specific connector",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E030000-02",
+      "claim": "A series connection dissipates I squared R locally; small resistance changes can produce substantial thermal change",
+      "kind": "physics",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "§9.5 electrical power I²R",
+          "role": "textbook_physics"
+        },
+        {
+          "source_id": "electrical-persson-contact-2022",
+          "location": "contact resistance as interface property",
+          "role": "independent_interface_theory"
+        }
+      ],
+      "verification_level": "source_audited_independent_professional_review_pending",
+      "limitations": "Examples assume constant current and resistance for comparison; no accepted joint resistance inferred",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E030000-03",
+      "claim": "Electrical terminal torque is an installation variable, not a direct measurement of completed contact force or resistance",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-iaei-torque-2011",
+          "location": "torque and installation practice; limits of retorque",
+          "role": "trade_engineering_commentary"
+        },
+        {
+          "source_id": "electrical-persson-contact-2022",
+          "location": "contact resistance related to interface stiffness",
+          "role": "independent_physics_context"
+        }
+      ],
+      "verification_level": "source_audited_independent_professional_review_pending",
+      "limitations": "Fastener relation T≈KFd is illustrative and not a terminal tightening algorithm",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E030000-04",
+      "claim": "Under- or over-tightened terminals can be impaired; manufacturer-specific method and tool are controlling",
+      "kind": "product_specific",
+      "supports": [
+        {
+          "source_id": "electrical-iaei-torque-2011",
+          "location": "manufacturer guidance, proper torque",
+          "role": "historical_industry_practice"
+        },
+        {
+          "source_id": "electrical-osha303",
+          "location": "1910.303(b)(2),(c)(2) installation and terminals",
+          "role": "primary_workplace_rule"
+        }
+      ],
+      "verification_level": "source_audited_independent_professional_review_pending",
+      "limitations": "No universal numeric torque values or field procedure supplied",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E030000-05",
+      "claim": "Conductors and splicing devices must be compatible with material, number and construction under their identification",
+      "kind": "code_context",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "1910.303(c)(1)-(3) metals, terminals, splices",
+          "role": "primary_workplace_rule"
+        },
+        {
+          "source_id": "electrical-ul-connector-cert",
+          "location": "UL 486 family product scopes",
+          "role": "independent_product_scope"
+        }
+      ],
+      "verification_level": "source_audited_independent_professional_review_pending",
+      "limitations": "Applicable OSHA text applies to covered workplaces; actual product marking must be checked",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E030000-06",
+      "claim": "Spring terminals, screw clamps, crimp lugs and ferrules involve distinct certification and compatibility questions",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-ul-connector-cert",
+          "location": "listed UL 486A-486B/C/E/F categories",
+          "role": "product_certification_scope"
+        },
+        {
+          "source_id": "electrical-osha303",
+          "location": "1910.303(c) terminals and splices",
+          "role": "workplace_rule_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Category distinctions do not show that any individual products are interchangeable",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E030000-07",
+      "claim": "A torque reading on an in-service fastener does not reconstruct original installation torque",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-iaei-torque-2011",
+          "location": "retorque/settling note discussion",
+          "role": "single_industry_source"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Older trade article is one source; actual maintenance requirements are equipment-specific",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E030000-08",
+      "claim": "Historical North American aluminum branch-wiring faults do not prove all aluminum conductors defective",
+      "kind": "historical",
+      "supports": [
+        {
+          "source_id": "electrical-cpsc-aluminum-1978",
+          "location": "1965–1973 residential wiring scope",
+          "role": "primary_historical_agency"
+        },
+        {
+          "source_id": "electrical-osha303",
+          "location": "1910.303(c)(1) dissimilar metals",
+          "role": "separate_material_rule"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Historical CPSC cohort and repairs must not be extrapolated to modern approved aluminum feeders",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E030000-09",
+      "claim": "Antioxidant compounds and other materials must be compatible with connector and conductor",
+      "kind": "product_specific",
+      "supports": [
+        {
+          "source_id": "electrical-osha303",
+          "location": "1910.303(c)(1)(iii) compounds",
+          "role": "primary_workplace_rule"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "No connector chemistry generalized; instructions govern use",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E030000-10",
+      "claim": "Cable support, strain relief, and enclosure entries must prevent mechanical stress and abrasion at terminations",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-osha305",
+          "location": "1910.305(a)(2)(x)-(xi), (b)(1) cable support and entry",
+          "role": "primary_workplace_rule"
+        },
+        {
+          "source_id": "electrical-ul-panelboards",
+          "location": "wire connector and enclosure modification discussion",
+          "role": "independent_ul_product_guidance"
+        }
+      ],
+      "verification_level": "source_audited_independent_professional_review_pending",
+      "limitations": "Appropriate assembly depends on cable type and fitting",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E030000-11",
+      "claim": "An ohmmeter continuity indication alone cannot validate full-load thermal behavior",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "§9.5 resistance heating",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-persson-contact-2022",
+          "location": "contact-resistance variability",
+          "role": "research_context"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Logical limitation from measurement and power; not an endorsement of energized inspection",
+      "professional_review": "editorial_source_review_only"
+    },
+    {
+      "claim_id": "E030000-12",
+      "claim": "High-resistance series faults may heat without exceeding ordinary circuit overcurrent rating",
+      "kind": "engineering",
+      "supports": [
+        {
+          "source_id": "electrical-openstax-power",
+          "location": "I²R mechanism",
+          "role": "physics"
+        },
+        {
+          "source_id": "electrical-osha304",
+          "location": "1910.304(f)(1) overcurrent protection function",
+          "role": "regulatory_scope"
+        }
+      ],
+      "verification_level": "limited_source_support_or_independent_review_pending",
+      "limitations": "Specific detector capabilities and failure modes require product and application review",
+      "professional_review": "editorial_source_review_only"
+    }
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-electrical:026000",
+        "file": "026000-copper-aluminum-and-conductor-connections.md",
+        "sha256": "013e7e8734474bd5ecbdf19d27cddddddcedfae1767d08fed81a01ab1c16c793",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "026000",
+          "transcript": "026000-copper-aluminum-and-conductor-connections.md",
+          "related_resources": [
+            {
+              "source_id": "electrical-cpsc-aluminum-1978",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-cpsc-aluminum-2003",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-iec60228-2023",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-openstax-power",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-openstax-resistivity",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-osha303",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-ul-cable-guide",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-ul486-2025",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            }
+          ],
+          "practice_classification": "desk_or_visual_only",
+          "historical_claims": [
+            {
+              "claim": "CPSC publicly reported investigation of 1965-1973-era U.S. residential aluminum wiring connection hazards in 1978, with related 2003 agency followup; historical scope excludes present-day aluminum feeder performance.",
+              "attribution_status": "primary_agency_publication",
+              "sources": [
+                "electrical-cpsc-aluminum-1978",
+                "electrical-cpsc-aluminum-2003"
+              ]
+            }
+          ],
+          "evidence_claims": [
+            {
+              "claim_id": "E026000-01",
+              "claim": "Uniform-conductor resistance scales with resistivity and length, and inversely with cross-section",
+              "kind": "physics",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-resistivity",
+                  "location": "§9.3 uniform conductor resistance derivation",
+                  "role": "independent_physics"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Assumes homogeneous material and geometry.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E026000-02",
+              "claim": "Aluminum has greater 20°C resistivity than copper so equal-resistance area is larger",
+              "kind": "materials",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-resistivity",
+                  "location": "§9.3 Table 9.1",
+                  "role": "physics_table"
+                },
+                {
+                  "source_id": "electrical-iec60228-2023",
+                  "location": "official catalogue scope of conductor materials and resistance",
+                  "role": "standard_context"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Illustrative pure-metal ratios are not alloy-specific standardized cable dimensions.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E026000-03",
+              "claim": "Conductor electrical cross section is distinct from outside diameter, stranding and insulation",
+              "kind": "materials",
+              "supports": [
+                {
+                  "source_id": "electrical-iec60228-2023",
+                  "location": "official scope on nominal areas, solid and stranded classes",
+                  "role": "standard_scope"
+                },
+                {
+                  "source_id": "electrical-ul-cable-guide",
+                  "location": "wire/cable designations and marking",
+                  "role": "independent_product_context"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Actual dimensional tolerances and stranding types depend on specific product standards.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E026000-04",
+              "claim": "Conductor resistivity commonly increases with temperature; linear alpha is a limited approximation",
+              "kind": "physics",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-resistivity",
+                  "location": "§9.3 temperature dependence and coefficients",
+                  "role": "independent_physics"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Not valid for every temperature/material condition; fixed geometry approximation.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E026000-05",
+              "claim": "Resistance creates localized I-squared-R heating at a connection",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-power",
+                  "location": "§9.5 electrical energy and power",
+                  "role": "physics"
+                },
+                {
+                  "source_id": "electrical-cpsc-aluminum-2003",
+                  "location": "description of connection deterioration and heat",
+                  "role": "independent_historical_observation"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "The numeric contact-resistance example is constructed; thermal outcome needs real geometry and current.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E026000-06",
+              "claim": "Pressure contact quality and surface condition are central to conductor-terminal performance",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-ul486-2025",
+                  "location": "connector scope and test-product families",
+                  "role": "product_standard_scope"
+                },
+                {
+                  "source_id": "electrical-cpsc-aluminum-1978",
+                  "location": "connection-focused hazard population",
+                  "role": "agency_observation"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Microscopic mechanism is engineering synthesis; product-specific long-term data not independently examined.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E026000-07",
+              "claim": "Conductor alloy, size, stranding and terminal compatibility must be jointly evaluated",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-ul486-2025",
+                  "location": "public connector scope",
+                  "role": "primary_product_standard_context"
+                },
+                {
+                  "source_id": "electrical-osha303",
+                  "location": "1910.303(b) suitability, size and instructions",
+                  "role": "independent_us_workplace_rule"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Scope neither permits arbitrary conductor combinations nor fixes torque or crimp tool.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E026000-08",
+              "claim": "CPSC investigated overheating of 1965–1973-era aluminum residential branch wiring",
+              "kind": "historical",
+              "supports": [
+                {
+                  "source_id": "electrical-cpsc-aluminum-1978",
+                  "location": "1978 release, opening paragraphs",
+                  "role": "primary_historical"
+                },
+                {
+                  "source_id": "electrical-cpsc-aluminum-2003",
+                  "location": "2003 release, hazard description",
+                  "role": "same_agency_followup"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Historical population only; two CPSC publications are not independent authorities.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E026000-09",
+              "claim": "Older aluminum branch wiring concerns do not prove that all modern large aluminum feeders are defective",
+              "kind": "scope",
+              "supports": [
+                {
+                  "source_id": "electrical-cpsc-aluminum-1978",
+                  "location": "scope of CPSC investigation",
+                  "role": "specific_population"
+                },
+                {
+                  "source_id": "electrical-iec60228-2023",
+                  "location": "current standards recognize Al/alloy conductor families",
+                  "role": "independent_scope"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "No quantitative comparison of modern feeder reliability has been established.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E026000-10",
+              "claim": "Contact force can be affected by thermal cycling and mechanical behavior",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-ul486-2025",
+                  "location": "evaluated connector families (scope only)",
+                  "role": "standard_context"
+                },
+                {
+                  "source_id": "electrical-cpsc-aluminum-2003",
+                  "location": "connection deterioration context",
+                  "role": "failure_context"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Exact creep, expansion and contact-force models require alloy/terminal research and product data.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E026000-11",
+              "claim": "Torque and compression tools must follow the evaluated connector installation method",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-osha303",
+                  "location": "1910.303(b)(2) listing/labeling instructions",
+                  "role": "primary_workplace_rule"
+                },
+                {
+                  "source_id": "electrical-ul486-2025",
+                  "location": "scope of connector classes",
+                  "role": "product_standard_context"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "No universal torque value or connector procedure is asserted.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E026000-12",
+              "claim": "Same conductor resistance and current imply same I²R loss, not necessarily same installation suitability",
+              "kind": "physics",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-resistivity",
+                  "location": "§9.3 resistivity and geometry",
+                  "role": "physics"
+                },
+                {
+                  "source_id": "electrical-openstax-power",
+                  "location": "§9.5 Joule heating",
+                  "role": "same_textbook_physics"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Heat removal, installed geometry and connection constraints not captured.",
+              "professional_review": "editorial_source_review_only"
+            }
+          ]
+        }
+      },
+      {
+        "id": "trades-electrical:027000",
+        "file": "027000-insulation-cable-assemblies-and-raceways.md",
+        "sha256": "25ce6a362b22d90f2fb99202aa4cd2dba68fd6866d2c6a2636b8486826edfb53",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "027000",
+          "transcript": "027000-insulation-cable-assemblies-and-raceways.md",
+          "related_resources": [
+            {
+              "source_id": "electrical-iec60228-2023",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-iec60364-552-2024",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-iec60529",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-osha303",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-osha305",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-se-cable-sizing",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-ul-cable-guide",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-ul-enclosure-accessories",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-ul-panelboards",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            }
+          ],
+          "practice_classification": "desk_or_visual_only",
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "E027000-01",
+              "claim": "Conductor insulation, jackets, armor, shielding and raceways have different functional roles",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-ul-cable-guide",
+                  "location": "wire and cable categories, markings",
+                  "role": "product_guide"
+                },
+                {
+                  "source_id": "electrical-osha305",
+                  "location": "wiring-method classes, metallic raceway and cable armor",
+                  "role": "independent_workplace_rule"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Specific layers and bonding roles require product-level verification.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E027000-02",
+              "claim": "Wet/dry ratings and temperature marks depend on the cable type and suffix",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-ul-cable-guide",
+                  "location": "temperature dry/wet columns; -2 suffix note",
+                  "role": "product_guide"
+                },
+                {
+                  "source_id": "electrical-osha305",
+                  "location": "1910.305(f)(2) insulation approval by voltage/temperature/location",
+                  "role": "independent_regulation"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Do not infer all markings from a single suffix without a product listing.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E027000-03",
+              "claim": "Insulation temperature class does not automatically set allowable terminal or circuit current",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-se-cable-sizing",
+                  "location": "reference insulation classes and current ratings",
+                  "role": "engineering_guide"
+                },
+                {
+                  "source_id": "electrical-osha303",
+                  "location": "equipment suitability and heating effects",
+                  "role": "separate_workplace_context"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Exact NEC terminal column/derating methods not verified.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E027000-04",
+              "claim": "Flexible cord and permanent wiring methods have different permitted uses",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-osha305",
+                  "location": "1910.305(g)(1) permitted and prohibited cord uses",
+                  "role": "primary_us_workplace_rule"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Other jurisdictions have different definitions and exceptions.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E027000-05",
+              "claim": "Raceways influence mechanical protection and heat transfer",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-osha305",
+                  "location": "1910.305(a) raceways and wiring methods",
+                  "role": "workplace_rules"
+                },
+                {
+                  "source_id": "electrical-se-cable-sizing",
+                  "location": "reference methods in conduit, free air and ground",
+                  "role": "independent_engineering_model"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Exact conduit type/fill limits not checked.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E027000-06",
+              "claim": "Metallic raceway bonding/continuity depends on the complete installation and fittings",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-osha305",
+                  "location": "1910.305(a)(1)(i) metal parts used as grounding conductors",
+                  "role": "workplace_rule"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Cannot generalize fault-return suitability of any conduit without product/system evidence.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E027000-07",
+              "claim": "Cable entries and enclosure openings affect installed integrity",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-osha305",
+                  "location": "1910.305(b)(1) entries and closure",
+                  "role": "workplace_rule"
+                },
+                {
+                  "source_id": "electrical-ul-enclosure-accessories",
+                  "location": "rated enclosure fittings and modification concerns",
+                  "role": "independent_product_certification_context"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Concrete approval depends on enclosure and fitting details.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E027000-08",
+              "claim": "IEC 60228 covers conductor nominal cross sections, classes and resistance",
+              "kind": "standards_scope",
+              "supports": [
+                {
+                  "source_id": "electrical-iec60228-2023",
+                  "location": "official catalogue scope",
+                  "role": "publisher_scope_only"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "No detailed normative clause examined.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E027000-09",
+              "claim": "IEC 60529 standardizes degrees of protection of enclosures by IP code",
+              "kind": "standards_scope",
+              "supports": [
+                {
+                  "source_id": "electrical-iec60529",
+                  "location": "official scope and TC 70 attribution",
+                  "role": "publisher_scope_only"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Actual IP test details not established by abstract.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E027000-10",
+              "claim": "NEMA enclosure types differ in specified environmental protections and do not map universally to IP numbers",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-ul-panelboards",
+                  "location": "published Type 1, 3R, 4 and 4X characteristics",
+                  "role": "product_guide"
+                },
+                {
+                  "source_id": "electrical-iec60529",
+                  "location": "different IEC IP classification scope",
+                  "role": "separate_standard_scope"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Do not infer complete equivalence tables or installed equipment rating.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E027000-11",
+              "claim": "An enclosure rating may depend on its evaluated accessories, openings and installation",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-ul-enclosure-accessories",
+                  "location": "type/IP-rated accessory discussion",
+                  "role": "product_evaluation"
+                },
+                {
+                  "source_id": "electrical-osha303",
+                  "location": "1910.303(b)(7) openings and general suitability",
+                  "role": "separate_regulation"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "No aftermarket modification claimed to preserve rating automatically.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E027000-12",
+              "claim": "Routes crossing walls and environmental boundaries require compatibility of the whole wiring system",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-osha305",
+                  "location": "1910.305(b), (e), (f) environment and cable entries",
+                  "role": "workplace_context"
+                },
+                {
+                  "source_id": "electrical-iec60364-552-2024",
+                  "location": "IEC catalogue selection and erection scope",
+                  "role": "separate_standard_scope"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Firestopping specifics require building/fire assembly listings and local rules.",
+              "professional_review": "editorial_source_review_only"
+            }
+          ]
+        }
+      },
+      {
+        "id": "trades-electrical:028000",
+        "file": "028000-ampacity-temperature-and-derating.md",
+        "sha256": "0294e37a8c6c940c8a95b10bc2a53f5be28102e331809feed63ff2de030eed88",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "028000",
+          "transcript": "028000-ampacity-temperature-and-derating.md",
+          "related_resources": [
+            {
+              "source_id": "electrical-iec60287-2023",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-iec60364-552-2024",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-openstax-power",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-openstax-resistivity",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-osha303",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-se-cable-sizing",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-se-neutral-sizing",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-se-voltage-drop",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            }
+          ],
+          "practice_classification": "desk_or_visual_only",
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "E028000-01",
+              "claim": "I-squared-R heating increases quadratically with current at fixed resistance",
+              "kind": "physics",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-power",
+                  "location": "§9.5 electrical power",
+                  "role": "physics"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Current RMS and resistance model must be appropriate to waveform.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E028000-02",
+              "claim": "Ampacity combines internal heat generation and external heat removal",
+              "kind": "physics",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-power",
+                  "location": "Joule heating basis",
+                  "role": "physics"
+                },
+                {
+                  "source_id": "electrical-iec60287-2023",
+                  "location": "steady-state current rating and losses scope",
+                  "role": "engineering_standard_context"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Lumped thermal model is original synthesis, not a standard calculation procedure.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E028000-03",
+              "claim": "Reference ampacity depends on insulation type and installation method",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-se-cable-sizing",
+                  "location": "reference methods A-G and insulation temperature chart",
+                  "role": "public_engineering_guide"
+                },
+                {
+                  "source_id": "electrical-iec60364-552-2024",
+                  "location": "standard selection/erection scope",
+                  "role": "standard_scope"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Published guide may rely on specific earlier tables; adopted full clauses not checked.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E028000-04",
+              "claim": "Ambient temperature can require correction of reference current ratings",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-se-cable-sizing",
+                  "location": "air temperature corrections reference 30°C",
+                  "role": "public_engineering_guide"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Not universal across every cable standard or application.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E028000-05",
+              "claim": "Grouping loaded circuits can reduce permissible continuous current",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-se-cable-sizing",
+                  "location": "group reduction factors and installation differences",
+                  "role": "engineering_guide"
+                },
+                {
+                  "source_id": "electrical-osha303",
+                  "location": "heating effects considered in suitability",
+                  "role": "independent_workplace_context"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "No actual group factor selected for field use.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E028000-06",
+              "claim": "Loaded neutral status may depend on harmonics and waveform, not insulation color",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-se-neutral-sizing",
+                  "location": "neutral and harmonic sizing discussion",
+                  "role": "engineering_guide"
+                },
+                {
+                  "source_id": "electrical-se-cable-sizing",
+                  "location": "grouping of current-carrying conductors",
+                  "role": "same_publisher_context"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Product and rule-specific conductor-count treatment not independently checked.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E028000-07",
+              "claim": "Buried cable heat rejection depends on soil temperature and thermal resistivity",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-se-cable-sizing",
+                  "location": "ground conditions and soil resistivity correction",
+                  "role": "engineering_guide"
+                },
+                {
+                  "source_id": "electrical-iec60287-2023",
+                  "location": "buried and ducted steady-state cables in scope",
+                  "role": "independent_standard_scope"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Actual soil properties, drying and transient thermal behavior need site-specific study.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E028000-08",
+              "claim": "IEC 60287-1-1:2023 uses steady-state cable current-rating equations at 100% load factor",
+              "kind": "standards_scope",
+              "supports": [
+                {
+                  "source_id": "electrical-iec60287-2023",
+                  "location": "official catalogue abstract",
+                  "role": "publisher_scope_only"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Cannot reproduce normative methods from publisher summary.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E028000-09",
+              "claim": "Terminal restrictions can limit use of high-temperature insulation ratings",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-osha303",
+                  "location": "equipment heating, ratings, instructions",
+                  "role": "workplace_rule"
+                },
+                {
+                  "source_id": "electrical-se-cable-sizing",
+                  "location": "insulation conductor temperature classes",
+                  "role": "engineering_context"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Specific code column and allowed correction basis depends on edition and device.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E028000-10",
+              "claim": "Thermal mass delays temperature response to a transient current",
+              "kind": "physics",
+              "supports": [
+                {
+                  "source_id": "electrical-iec60287-2023",
+                  "location": "steady-state versus other regimes explicit",
+                  "role": "standard_scope"
+                },
+                {
+                  "source_id": "electrical-openstax-power",
+                  "location": "electrical heat generation",
+                  "role": "physics_context"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Thermal capacitance ODE is original teaching model, not verified cable transient standard.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E028000-11",
+              "claim": "Conductor length affects total resistance and voltage drop even if local heat rate is similar",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-resistivity",
+                  "location": "R proportional to length",
+                  "role": "physics"
+                },
+                {
+                  "source_id": "electrical-se-voltage-drop",
+                  "location": "voltage drop formula and length",
+                  "role": "independent_engineering_guide"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Local cooling uniformity assumed; cables in varying conditions may have different ratings.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E028000-12",
+              "claim": "Ampacity check is distinct from fault withstand and voltage delivery",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-se-cable-sizing",
+                  "location": "thermal sizing criteria",
+                  "role": "engineering_guide"
+                },
+                {
+                  "source_id": "electrical-se-voltage-drop",
+                  "location": "separate voltage-drop analysis",
+                  "role": "same_publisher_context"
+                },
+                {
+                  "source_id": "electrical-osha303",
+                  "location": "interrupting rating and heating requirements",
+                  "role": "independent_us_workplace_rule"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Specific fault withstand and protective coordination not calculated.",
+              "professional_review": "editorial_source_review_only"
+            }
+          ]
+        }
+      },
+      {
+        "id": "trades-electrical:029000",
+        "file": "029000-voltage-drop-and-conductor-sizing.md",
+        "sha256": "6c505fff797a387a9b9e73b70e6539a5185b3af75a1a2f52c1e7abb16057281b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "029000",
+          "transcript": "029000-voltage-drop-and-conductor-sizing.md",
+          "related_resources": [
+            {
+              "source_id": "electrical-iec60364-552-2024",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-openstax-ac-circuits",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-openstax-ac-sources",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-openstax-kirchhoff",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-openstax-ohm",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-openstax-power",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-openstax-resistivity",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-se-cable-sizing",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-se-nec21019-historic",
+              "reason": "Historical voltage-drop guidance; edition and adoption limits in E029000-10"
+            },
+            {
+              "source_id": "electrical-se-voltage-drop",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            },
+            {
+              "source_id": "electrical-ul486-2025",
+              "reason": "Source-specific support and limitations are recorded in claim-level map"
+            }
+          ],
+          "practice_classification": "desk_or_visual_only",
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "E029000-01",
+              "claim": "Two-wire supply-return geometry uses total loop length for DC/resistive drop",
+              "kind": "physics",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-resistivity",
+                  "location": "R proportional to conductor length and inverse area",
+                  "role": "physics"
+                },
+                {
+                  "source_id": "electrical-openstax-ohm",
+                  "location": "Ohm law",
+                  "role": "same_textbook_equation"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Only valid for explicitly stated symmetric two-wire loop geometry.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E029000-02",
+              "claim": "Resistive voltage drop grows with current and length at fixed area and resistivity",
+              "kind": "physics",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-ohm",
+                  "location": "Ohm law",
+                  "role": "physics"
+                },
+                {
+                  "source_id": "electrical-openstax-resistivity",
+                  "location": "resistivity expression",
+                  "role": "same_publisher_physics"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Not a complete dynamic source/load network model.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E029000-03",
+              "claim": "Dissipation increases with square of current while idealized drop grows linearly",
+              "kind": "physics",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-power",
+                  "location": "P=I²R",
+                  "role": "physics"
+                },
+                {
+                  "source_id": "electrical-openstax-ohm",
+                  "location": "V=IR",
+                  "role": "same_textbook_physics"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Resistance and source/load states held fixed.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E029000-04",
+              "claim": "Reference resistivity and temperature coefficient determine hypothetical hot-loop resistance",
+              "kind": "physics",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-resistivity",
+                  "location": "20°C table and linear temperature relation",
+                  "role": "physics"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Actual cable composition, hot spots and temperature vary.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E029000-05",
+              "claim": "Thermal ampacity and voltage-drop criteria are different sizing constraints",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-se-cable-sizing",
+                  "location": "reference current ratings",
+                  "role": "engineering_guide"
+                },
+                {
+                  "source_id": "electrical-se-voltage-drop",
+                  "location": "steady voltage-drop analysis",
+                  "role": "same_publisher_other_guide"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Independently check installed code, equipment voltage tolerance, fault and terminal constraints.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E029000-06",
+              "claim": "In AC wiring the resistive and reactive components of impedance affect voltage drop",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-se-voltage-drop",
+                  "location": "R cos φ + X sin φ terms",
+                  "role": "engineering_guide"
+                },
+                {
+                  "source_id": "electrical-openstax-ac-circuits",
+                  "location": "phasor circuit impedance principles",
+                  "role": "independent_physics"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Sinusoidal steady-state conditions; nonlinear loads and transients may violate assumptions.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E029000-07",
+              "claim": "Balanced three-phase voltage drop uses phasor geometry and a square-root-of-three factor",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-se-voltage-drop",
+                  "location": "balanced three-phase formula in public guide",
+                  "role": "engineering_guide"
+                },
+                {
+                  "source_id": "electrical-openstax-ac-sources",
+                  "location": "AC phase relationships",
+                  "role": "independent_physics"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Not for arbitrary unbalanced harmonics, or single-phase DC.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E029000-08",
+              "claim": "Upstream source sag must be distinguished from losses in downstream cable",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-se-voltage-drop",
+                  "location": "guide example includes upstream distribution-board drop",
+                  "role": "engineering_guide"
+                },
+                {
+                  "source_id": "electrical-openstax-kirchhoff",
+                  "location": "loop voltage conservation",
+                  "role": "independent_physics"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Requires load-current and source-impedance model for quantitative diagnosis.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E029000-09",
+              "claim": "Load voltage dependence differs between fixed resistance and regulated constant power",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-ohm",
+                  "location": "resistance current-versus-voltage relationship",
+                  "role": "physics"
+                },
+                {
+                  "source_id": "electrical-openstax-power",
+                  "location": "power/current relation",
+                  "role": "same_textbook_physics"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Constant-power behavior only over converter regulation range; actual equipment specs needed.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E029000-10",
+              "claim": "Common U.S. 3% branch and 5% feeder-plus-branch guidelines are not universally mandatory",
+              "kind": "code_context",
+              "supports": [
+                {
+                  "source_id": "electrical-se-nec21019-historic",
+                  "location": "NEC 210.19 Informational Note excerpt, historical 3% and 5% guidance",
+                  "role": "secondary_historical_code_excerpt"
+                },
+                {
+                  "source_id": "electrical-se-voltage-drop",
+                  "location": "engineering performance criteria context",
+                  "role": "engineering_guide"
+                },
+                {
+                  "source_id": "electrical-iec60364-552-2024",
+                  "location": "IEC Clause 525 catalogue changes and annex reference",
+                  "role": "separate_standard_scope"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "This secondary excerpt documents an older NEC informational note, not the 2026 NEC text or a binding universally adopted limit; local code and equipment requirements differ.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E029000-11",
+              "claim": "IEC 60364-5-52 scope covers wiring-system voltage drop and a 2024 clause revision",
+              "kind": "standards_scope",
+              "supports": [
+                {
+                  "source_id": "electrical-iec60364-552-2024",
+                  "location": "official catalogue Clause 525 change note",
+                  "role": "publisher_scope_only"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Publisher summary not full adopted annex; local requirements unknown.",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E029000-12",
+              "claim": "Conductor upsizing trades resistance and loss against material, route and terminal constraints",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-resistivity",
+                  "location": "R decreases with area",
+                  "role": "physics"
+                },
+                {
+                  "source_id": "electrical-ul486-2025",
+                  "location": "connector material and size scope",
+                  "role": "separate_product_standard_context"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "No life-cycle economic or field-sizing conclusion without duty and product info.",
+              "professional_review": "editorial_source_review_only"
+            }
+          ]
+        }
+      },
+      {
+        "id": "trades-electrical:030000",
+        "file": "030000-terminals-torque-splices-and-strain-relief.md",
+        "sha256": "463c83767d4a16566d50ab73547bd65a3920580c52893d3d3bb61e883f2f39ef",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "030000",
+          "transcript": "030000-terminals-torque-splices-and-strain-relief.md",
+          "related_resources": [
+            {
+              "source_id": "electrical-persson-contact-2022",
+              "reason": "Claim-specific support in source map for 030000"
+            },
+            {
+              "source_id": "electrical-aip-contact-2022",
+              "reason": "Claim-specific support in source map for 030000"
+            },
+            {
+              "source_id": "electrical-openstax-power",
+              "reason": "Claim-specific support in source map for 030000"
+            },
+            {
+              "source_id": "electrical-iaei-torque-2011",
+              "reason": "Claim-specific support in source map for 030000"
+            },
+            {
+              "source_id": "electrical-osha303",
+              "reason": "Claim-specific support in source map for 030000"
+            },
+            {
+              "source_id": "electrical-ul-connector-cert",
+              "reason": "Claim-specific support in source map for 030000"
+            },
+            {
+              "source_id": "electrical-cpsc-aluminum-1978",
+              "reason": "Claim-specific support in source map for 030000"
+            },
+            {
+              "source_id": "electrical-osha305",
+              "reason": "Claim-specific support in source map for 030000"
+            },
+            {
+              "source_id": "electrical-ul-panelboards",
+              "reason": "Claim-specific support in source map for 030000"
+            },
+            {
+              "source_id": "electrical-osha304",
+              "reason": "Claim-specific support in source map for 030000"
+            }
+          ],
+          "practice_classification": "desk_and_supervised_training",
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "E030000-01",
+              "claim": "Metallic contact occurs at asperities, so actual conducting contact area differs from apparent area",
+              "kind": "physics",
+              "supports": [
+                {
+                  "source_id": "electrical-persson-contact-2022",
+                  "location": "abstract: asperity constriction, Holm/contact stiffness",
+                  "role": "primary_theory"
+                },
+                {
+                  "source_id": "electrical-aip-contact-2022",
+                  "location": "opening section: real microcontacts, oxide films",
+                  "role": "independent_model"
+                }
+              ],
+              "verification_level": "source_audited_independent_professional_review_pending",
+              "limitations": "Contact theory is not a field test of a specific connector",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E030000-02",
+              "claim": "A series connection dissipates I squared R locally; small resistance changes can produce substantial thermal change",
+              "kind": "physics",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-power",
+                  "location": "§9.5 electrical power I²R",
+                  "role": "textbook_physics"
+                },
+                {
+                  "source_id": "electrical-persson-contact-2022",
+                  "location": "contact resistance as interface property",
+                  "role": "independent_interface_theory"
+                }
+              ],
+              "verification_level": "source_audited_independent_professional_review_pending",
+              "limitations": "Examples assume constant current and resistance for comparison; no accepted joint resistance inferred",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E030000-03",
+              "claim": "Electrical terminal torque is an installation variable, not a direct measurement of completed contact force or resistance",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-iaei-torque-2011",
+                  "location": "torque and installation practice; limits of retorque",
+                  "role": "trade_engineering_commentary"
+                },
+                {
+                  "source_id": "electrical-persson-contact-2022",
+                  "location": "contact resistance related to interface stiffness",
+                  "role": "independent_physics_context"
+                }
+              ],
+              "verification_level": "source_audited_independent_professional_review_pending",
+              "limitations": "Fastener relation T≈KFd is illustrative and not a terminal tightening algorithm",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E030000-04",
+              "claim": "Under- or over-tightened terminals can be impaired; manufacturer-specific method and tool are controlling",
+              "kind": "product_specific",
+              "supports": [
+                {
+                  "source_id": "electrical-iaei-torque-2011",
+                  "location": "manufacturer guidance, proper torque",
+                  "role": "historical_industry_practice"
+                },
+                {
+                  "source_id": "electrical-osha303",
+                  "location": "1910.303(b)(2),(c)(2) installation and terminals",
+                  "role": "primary_workplace_rule"
+                }
+              ],
+              "verification_level": "source_audited_independent_professional_review_pending",
+              "limitations": "No universal numeric torque values or field procedure supplied",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E030000-05",
+              "claim": "Conductors and splicing devices must be compatible with material, number and construction under their identification",
+              "kind": "code_context",
+              "supports": [
+                {
+                  "source_id": "electrical-osha303",
+                  "location": "1910.303(c)(1)-(3) metals, terminals, splices",
+                  "role": "primary_workplace_rule"
+                },
+                {
+                  "source_id": "electrical-ul-connector-cert",
+                  "location": "UL 486 family product scopes",
+                  "role": "independent_product_scope"
+                }
+              ],
+              "verification_level": "source_audited_independent_professional_review_pending",
+              "limitations": "Applicable OSHA text applies to covered workplaces; actual product marking must be checked",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E030000-06",
+              "claim": "Spring terminals, screw clamps, crimp lugs and ferrules involve distinct certification and compatibility questions",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-ul-connector-cert",
+                  "location": "listed UL 486A-486B/C/E/F categories",
+                  "role": "product_certification_scope"
+                },
+                {
+                  "source_id": "electrical-osha303",
+                  "location": "1910.303(c) terminals and splices",
+                  "role": "workplace_rule_context"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Category distinctions do not show that any individual products are interchangeable",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E030000-07",
+              "claim": "A torque reading on an in-service fastener does not reconstruct original installation torque",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-iaei-torque-2011",
+                  "location": "retorque/settling note discussion",
+                  "role": "single_industry_source"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Older trade article is one source; actual maintenance requirements are equipment-specific",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E030000-08",
+              "claim": "Historical North American aluminum branch-wiring faults do not prove all aluminum conductors defective",
+              "kind": "historical",
+              "supports": [
+                {
+                  "source_id": "electrical-cpsc-aluminum-1978",
+                  "location": "1965–1973 residential wiring scope",
+                  "role": "primary_historical_agency"
+                },
+                {
+                  "source_id": "electrical-osha303",
+                  "location": "1910.303(c)(1) dissimilar metals",
+                  "role": "separate_material_rule"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Historical CPSC cohort and repairs must not be extrapolated to modern approved aluminum feeders",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E030000-09",
+              "claim": "Antioxidant compounds and other materials must be compatible with connector and conductor",
+              "kind": "product_specific",
+              "supports": [
+                {
+                  "source_id": "electrical-osha303",
+                  "location": "1910.303(c)(1)(iii) compounds",
+                  "role": "primary_workplace_rule"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "No connector chemistry generalized; instructions govern use",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E030000-10",
+              "claim": "Cable support, strain relief, and enclosure entries must prevent mechanical stress and abrasion at terminations",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-osha305",
+                  "location": "1910.305(a)(2)(x)-(xi), (b)(1) cable support and entry",
+                  "role": "primary_workplace_rule"
+                },
+                {
+                  "source_id": "electrical-ul-panelboards",
+                  "location": "wire connector and enclosure modification discussion",
+                  "role": "independent_ul_product_guidance"
+                }
+              ],
+              "verification_level": "source_audited_independent_professional_review_pending",
+              "limitations": "Appropriate assembly depends on cable type and fitting",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E030000-11",
+              "claim": "An ohmmeter continuity indication alone cannot validate full-load thermal behavior",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-power",
+                  "location": "§9.5 resistance heating",
+                  "role": "physics"
+                },
+                {
+                  "source_id": "electrical-persson-contact-2022",
+                  "location": "contact-resistance variability",
+                  "role": "research_context"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Logical limitation from measurement and power; not an endorsement of energized inspection",
+              "professional_review": "editorial_source_review_only"
+            },
+            {
+              "claim_id": "E030000-12",
+              "claim": "High-resistance series faults may heat without exceeding ordinary circuit overcurrent rating",
+              "kind": "engineering",
+              "supports": [
+                {
+                  "source_id": "electrical-openstax-power",
+                  "location": "I²R mechanism",
+                  "role": "physics"
+                },
+                {
+                  "source_id": "electrical-osha304",
+                  "location": "1910.304(f)(1) overcurrent protection function",
+                  "role": "regulatory_scope"
+                }
+              ],
+              "verification_level": "limited_source_support_or_independent_review_pending",
+              "limitations": "Specific detector capabilities and failure modes require product and application review",
+              "professional_review": "editorial_source_review_only"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "026000-choose-conductors-and-make-durable-connections.md"
+      ],
+      "joined_before_source_parts": [
+        "027000",
+        "028000",
+        "030000"
+      ]
     }
   ]
 }

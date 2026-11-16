@@ -10,1146 +10,408 @@
   ],
   "sections": [
     "open-sets-continuity",
-    "compactness-connectedness",
-    "products-and-quotients",
-    "separation-and-metrization",
     "homotopy-and-loops",
-    "circle-and-winding",
-    "covering-spaces-and-lifting",
     "smooth-manifolds",
-    "inverse-implicit-functions",
-    "vector-fields-flows",
-    "cotangent-tensors-pullbacks",
     "differential-forms",
-    "forms-vector-calculus",
-    "partitions-unity-integration",
-    "generalized-stokes",
-    "stokes-from-calculus",
-    "poincare-lemma-homotopy",
     "simplicial-homology",
-    "cycle-integration-de-rham",
-    "cohomology-cup-products",
-    "circle-torus-cohomology",
-    "bundles-connections-curvature",
-    "bundle-gluing",
-    "covariant-transport",
-    "curvature-holonomy-chern",
     "riemannian-metrics",
-    "metric-connection-calculations",
-    "jacobi-geodesic-deviation",
-    "mayer-vietoris-excision",
-    "chain-complexes-exactness",
-    "homology-computations",
     "poincare-duality",
-    "cup-products-intersections",
-    "gauss-bonnet-euler",
-    "gauss-bonnet-triangulation",
     "characteristic-classes",
-    "clutching-chern",
-    "virtual-bundles-k0",
-    "hopf-bundle-k0-sphere",
-    "chern-character-rationalization",
-    "bott-periodicity-index-pushforward",
-    "topological-degree",
-    "regular-values-degree",
     "hodge-harmonic",
-    "hodge-star-adjoint",
-    "elliptic-symbol-fredholm",
     "equivariant-borel-cohomology",
-    "equivariant-cartan-differential",
-    "equivariant-localization-euler",
-    "localization-projective-line",
-    "duistermaat-heckman-foundations",
-    "moment-maps-reduction",
     "symplectic-hamiltonian-examples",
-    "almost-complex-compatible",
-    "darboux-moser-calculations",
-    "lagrangian-graphs-exactness",
     "chern-weil-bundles",
-    "gauge-holonomy-calculations",
     "sheaves-restriction-stalks",
-    "cech-cohomology-calculation",
-    "derived-global-sections",
-    "projective-line-h0-h1",
-    "fine-sheaves-resolutions",
     "morse-handles",
-    "morse-chain-complex",
-    "elliptic-index",
-    "de-rham-elliptic-index",
-    "weak-derivatives-sobolev",
-    "elliptic-regularity",
-    "morse-bott-localization",
     "riemann-holomorphic-examples",
-    "pseudoholomorphic-area-energy",
-    "cauchy-riemann-elliptic",
-    "curve-index-transversality",
-    "lagrangian-maslov-boundary",
     "hamiltonian-action-cappings",
-    "floer-equation-energy",
-    "gromov-bubbles-breaking",
-    "floer-differential-gluing",
     "holonomy-gauge-moduli",
-    "prequantum-line-bundles",
-    "holomorphic-quantization",
-    "quantization-symplectic-reduction",
-    "maslov-index-semiclassical-phase",
     "clifford-algebra-metric",
-    "spin-spinc-structures",
-    "spinor-connections-dirac",
-    "weitzenbock-bochner",
-    "spinc-dirac-index",
     "gauge-deformation-cohomology",
-    "gauge-slices-kuranishi",
-    "instantons-virtual-dimension",
-    "anti-self-dual-instantons",
-    "floer-novikov-filtration",
-    "floer-continuation-invariance",
-    "exact-lagrangian-floer-circle",
     "floer-homology",
     "berry-curvature",
-    "symplectic-nonsqueezing",
     "yang-mills-energy",
-    "uhlenbeck-local-gauges",
-    "instanton-bubble-compactification",
-    "uhlenbeck-compactness",
-    "chern-numbers-hall",
     "contact-reeb-foundations",
-    "liouville-completions",
-    "wrapping-no-escape",
-    "wrapped-floer-symplectic",
-    "ech-capacities-staircases",
-    "donaldson-invariants",
-    "determinant-line-family-model",
-    "families-index-determinant",
-    "seiberg-witten-monopoles",
-    "seiberg-witten-adjunction"
+    "donaldson-invariants"
   ],
   "lectures": [
     {
       "id": "001000",
-      "title": "Open Sets and Continuity: Geometry Without a Ruler",
+      "title": "Open-set geometry, global properties, and building spaces",
       "section": "open-sets-continuity",
-      "file": "001000-open-sets-and-continuity.md",
-      "spoken_words": 1465,
+      "file": "001000-open-set-geometry-global-properties-and-building-spaces.md",
+      "spoken_words": 5413,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 10.1
-    },
-    {
-      "id": "002000",
-      "title": "Compactness and Connectedness: Two Global Consequences of Open Sets",
-      "section": "compactness-connectedness",
-      "file": "002000-compactness-and-connectedness.md",
-      "spoken_words": 1483,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 10.2
-    },
-    {
-      "id": "003000",
-      "title": "Products, Quotients, and Gluing: How to Build Spaces",
-      "section": "products-and-quotients",
-      "file": "003000-products-quotients-and-gluing.md",
-      "spoken_words": 1216,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.4
-    },
-    {
-      "id": "004000",
-      "title": "Separation Axioms: When Can Points and Sets Be Told Apart?",
-      "section": "separation-and-metrization",
-      "file": "004000-separation-axioms-and-metrization.md",
-      "spoken_words": 1236,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.5
+      "estimated_minutes_at_145_wpm": 37.3,
+      "consolidated_from": [
+        "001000",
+        "002000",
+        "003000",
+        "004000"
+      ]
     },
     {
       "id": "005000",
-      "title": "Homotopy: When Paths Count as the Same Route",
+      "title": "Paths, winding, and covering spaces",
       "section": "homotopy-and-loops",
-      "file": "005000-homotopy-and-path-deformations.md",
-      "spoken_words": 1310,
+      "file": "005000-paths-winding-and-covering-spaces.md",
+      "spoken_words": 3876,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.0
-    },
-    {
-      "id": "006000",
-      "title": "The Fundamental Group of the Circle and Winding Numbers",
-      "section": "circle-and-winding",
-      "file": "006000-fundamental-group-of-circle.md",
-      "spoken_words": 1263,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.7
-    },
-    {
-      "id": "007000",
-      "title": "Covering Spaces: Local Copies and Global Winding",
-      "section": "covering-spaces-and-lifting",
-      "file": "007000-covering-spaces-and-lifting.md",
-      "spoken_words": 1298,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.0
+      "estimated_minutes_at_145_wpm": 26.7,
+      "consolidated_from": [
+        "005000",
+        "006000",
+        "007000"
+      ]
     },
     {
       "id": "008000",
-      "title": "Smooth Manifolds: Coordinates without a Global Grid",
+      "title": "Coordinates, local solvability, flows, and tensors",
       "section": "smooth-manifolds",
-      "file": "008000-smooth-manifolds-and-tangent-spaces.md",
-      "spoken_words": 1246,
+      "file": "008000-coordinates-local-solvability-flows-and-tensors.md",
+      "spoken_words": 5017,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.6
-    },
-    {
-      "id": "008100",
-      "title": "Inverse and Implicit Function Theorems",
-      "section": "inverse-implicit-functions",
-      "file": "008100-inverse-and-implicit-function-theorems.md",
-      "spoken_words": 1319,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.1
-    },
-    {
-      "id": "008200",
-      "title": "Vector Fields, Flows, and Lie Brackets",
-      "section": "vector-fields-flows",
-      "file": "008200-vector-fields-flows-and-lie-brackets.md",
-      "spoken_words": 1266,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.7
-    },
-    {
-      "id": "008300",
-      "title": "Cotangent Vectors, Tensors, and Pullbacks",
-      "section": "cotangent-tensors-pullbacks",
-      "file": "008300-cotangent-vectors-tensors-and-pullbacks.md",
-      "spoken_words": 1180,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.1
+      "estimated_minutes_at_145_wpm": 34.6,
+      "consolidated_from": [
+        "008000",
+        "008100",
+        "008200",
+        "008300"
+      ]
     },
     {
       "id": "009000",
-      "title": "Differential Forms: Calculus That Survives a Change of Coordinates",
+      "title": "Forms, integration, Stokes, and local exactness",
       "section": "differential-forms",
-      "file": "009000-differential-forms-and-exterior-derivative.md",
-      "spoken_words": 1272,
+      "file": "009000-forms-integration-stokes-and-local-exactness.md",
+      "spoken_words": 7293,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.8
-    },
-    {
-      "id": "009100",
-      "title": "Differential Forms: Circulation, Flux, and Curl",
-      "section": "forms-vector-calculus",
-      "file": "009100-differential-forms-circulation-flux-and-curl.md",
-      "spoken_words": 1125,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.8
-    },
-    {
-      "id": "009200",
-      "title": "Partitions of Unity and Global Integration",
-      "section": "partitions-unity-integration",
-      "file": "009200-partitions-of-unity-and-global-integration.md",
-      "spoken_words": 1205,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.3
-    },
-    {
-      "id": "010000",
-      "title": "Generalized Stokes' Theorem: The Interior Speaks Through Its Boundary",
-      "section": "generalized-stokes",
-      "file": "010000-orientation-and-generalized-stokes-theorem.md",
-      "spoken_words": 1232,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.5
-    },
-    {
-      "id": "010100",
-      "title": "Deriving Stokes' Theorem from Elementary Calculus",
-      "section": "stokes-from-calculus",
-      "file": "010100-deriving-stokes-theorem-from-elementary-calculus.md",
-      "spoken_words": 1288,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.9
-    },
-    {
-      "id": "010200",
-      "title": "Poincare Lemma and Homotopy Invariance",
-      "section": "poincare-lemma-homotopy",
-      "file": "010200-poincare-lemma-and-homotopy-invariance.md",
-      "spoken_words": 1165,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.0
+      "estimated_minutes_at_145_wpm": 50.3,
+      "consolidated_from": [
+        "009000",
+        "009100",
+        "009200",
+        "010000",
+        "010100",
+        "010200"
+      ]
     },
     {
       "id": "011000",
-      "title": "Homology: Cycles, Boundaries, and Holes",
+      "title": "Chains, homology, cohomology, and concrete calculations",
       "section": "simplicial-homology",
-      "file": "011000-simplicial-chains-cycles-and-homology.md",
-      "spoken_words": 1144,
+      "file": "011000-chains-homology-cohomology-and-concrete-calculations.md",
+      "spoken_words": 7816,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.9
-    },
-    {
-      "id": "011100",
-      "title": "Integration over Cycles and the de Rham Map",
-      "section": "cycle-integration-de-rham",
-      "file": "011100-integration-over-cycles-and-de-rham-map.md",
-      "spoken_words": 1221,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.4
-    },
-    {
-      "id": "012000",
-      "title": "Cohomology, Cup Products, and de Rham Classes",
-      "section": "cohomology-cup-products",
-      "file": "012000-cohomology-cup-products-and-de-rham-classes.md",
-      "spoken_words": 1125,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.8
-    },
-    {
-      "id": "012100",
-      "title": "Computing Cohomology of Circles and Tori",
-      "section": "circle-torus-cohomology",
-      "file": "012100-computing-cohomology-of-circles-and-tori.md",
-      "spoken_words": 1176,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.1
-    },
-    {
-      "id": "013000",
-      "title": "Fiber Bundles, Connections, and Curvature",
-      "section": "bundles-connections-curvature",
-      "file": "013000-fiber-bundles-connections-and-curvature.md",
-      "spoken_words": 1215,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.4
-    },
-    {
-      "id": "013100",
-      "title": "Bundle Transition Functions and Global Twisting",
-      "section": "bundle-gluing",
-      "file": "013100-bundle-transition-functions-and-global-twisting.md",
-      "spoken_words": 1143,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.9
-    },
-    {
-      "id": "013200",
-      "title": "Covariant Derivatives and Parallel Transport",
-      "section": "covariant-transport",
-      "file": "013200-covariant-derivatives-and-parallel-transport.md",
-      "spoken_words": 1217,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.4
-    },
-    {
-      "id": "013300",
-      "title": "Curvature, Holonomy, and Chern Numbers",
-      "section": "curvature-holonomy-chern",
-      "file": "013300-curvature-holonomy-and-chern-numbers.md",
-      "spoken_words": 1291,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.9
-    },
-    {
-      "id": "014000",
-      "title": "Riemannian Metrics, Geodesics, and Intrinsic Curvature",
-      "section": "riemannian-metrics",
-      "file": "014000-riemannian-metrics-geodesics-and-curvature.md",
-      "spoken_words": 1213,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.4
-    },
-    {
-      "id": "014100",
-      "title": "Riemannian Geometry by Calculation: Metric, Connection, and Geodesics",
-      "section": "metric-connection-calculations",
-      "file": "014100-riemannian-geometry-calculations-in-coordinates.md",
-      "spoken_words": 1097,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.6
-    },
-    {
-      "id": "014200",
-      "title": "Jacobi Fields: Curvature Seen Through Neighboring Geodesics",
-      "section": "jacobi-geodesic-deviation",
-      "file": "014200-jacobi-fields-and-geodesic-deviation.md",
-      "spoken_words": 1043,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.2
-    },
-    {
-      "id": "015000",
-      "title": "Mayer–Vietoris and Excision: Computing Homology by Gluing",
-      "section": "mayer-vietoris-excision",
-      "file": "015000-mayer-vietoris-excision-and-gluing-homology.md",
-      "spoken_words": 1128,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.8
-    },
-    {
-      "id": "015100",
-      "title": "Chain Complexes and Exact Sequences: How Topology Becomes Algebra",
-      "section": "chain-complexes-exactness",
-      "file": "015100-chain-complexes-exact-sequences-and-relative-homology.md",
-      "spoken_words": 1022,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.0
-    },
-    {
-      "id": "015200",
-      "title": "Calculating Homology of Circles, Spheres, and Tori",
-      "section": "homology-computations",
-      "file": "015200-mayer-vietoris-and-cellular-homology-by-example.md",
-      "spoken_words": 994,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.9
+      "estimated_minutes_at_145_wpm": 53.9,
+      "consolidated_from": [
+        "011000",
+        "015100",
+        "015200",
+        "011100",
+        "012000",
+        "012100",
+        "015000"
+      ]
     },
     {
       "id": "016000",
-      "title": "Poincaré Duality: Why a Manifold's Dimensions Pair Up",
+      "title": "Duality, cup products, bundles, and connection geometry",
       "section": "poincare-duality",
-      "file": "016000-poincare-duality-and-intersection-pairings.md",
-      "spoken_words": 1027,
+      "file": "016000-duality-cup-products-bundles-and-connection-geometry.md",
+      "spoken_words": 6941,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.1
+      "estimated_minutes_at_145_wpm": 47.9,
+      "consolidated_from": [
+        "016000",
+        "016100",
+        "013000",
+        "013100",
+        "013200",
+        "013300"
+      ]
     },
     {
-      "id": "016100",
-      "title": "Cup Products and Intersection Numbers: What Two Holes Say to Each Other",
-      "section": "cup-products-intersections",
-      "file": "016100-cup-products-and-intersection-numbers-worked.md",
-      "spoken_words": 1041,
+      "id": "014000",
+      "title": "Metrics, curvature, degree, and Gauss-Bonnet",
+      "section": "riemannian-metrics",
+      "file": "014000-metrics-curvature-degree-and-gauss-bonnet.md",
+      "spoken_words": 7419,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.2
-    },
-    {
-      "id": "017000",
-      "title": "Gauss–Bonnet: Curvature Counts Topology",
-      "section": "gauss-bonnet-euler",
-      "file": "017000-gauss-bonnet-curvature-and-euler-characteristic.md",
-      "spoken_words": 1125,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.8
-    },
-    {
-      "id": "017100",
-      "title": "Gauss–Bonnet by Triangulation: From Angle Excess to Euler Characteristic",
-      "section": "gauss-bonnet-triangulation",
-      "file": "017100-gauss-bonnet-from-triangles-to-euler-characteristic.md",
-      "spoken_words": 1031,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.1
+      "estimated_minutes_at_145_wpm": 51.2,
+      "consolidated_from": [
+        "014000",
+        "014100",
+        "014200",
+        "017000",
+        "017100",
+        "019000",
+        "019100"
+      ]
     },
     {
       "id": "018000",
-      "title": "Characteristic Classes: Detecting the Twist in a Bundle",
+      "title": "Characteristic classes, K-theory, and index pushforwards",
       "section": "characteristic-classes",
-      "file": "018000-characteristic-classes-and-bundle-obstructions.md",
-      "spoken_words": 1191,
+      "file": "018000-characteristic-classes-k-theory-and-index-pushforwards.md",
+      "spoken_words": 5896,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.2
-    },
-    {
-      "id": "018100",
-      "title": "Characteristic Classes by Example: Gluing Lines over a Sphere",
-      "section": "clutching-chern",
-      "file": "018100-characteristic-classes-and-clutching-maps.md",
-      "spoken_words": 1020,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.0
-    },
-    {
-      "id": "018200",
-      "title": "Vector Bundle K-Theory: Why Subtraction Needs New Objects",
-      "section": "virtual-bundles-k0",
-      "file": "018200-vector-bundle-k-theory-from-stable-differences.md",
-      "spoken_words": 976,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.7
-    },
-    {
-      "id": "018300",
-      "title": "K-Theory of the Sphere: The Hopf Bundle as a Generator",
-      "section": "hopf-bundle-k0-sphere",
-      "file": "018300-k-theory-of-the-sphere-and-the-hopf-bundle.md",
-      "spoken_words": 860,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.9
-    },
-    {
-      "id": "018400",
-      "title": "The Chern Character: Why Exponentials Connect Bundles to Cohomology",
-      "section": "chern-character-rationalization",
-      "file": "018400-chern-character-rational-cohomology-and-exponentials.md",
-      "spoken_words": 957,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.6
-    },
-    {
-      "id": "018500",
-      "title": "Bott Periodicity and Index Pushforwards: Turning Symbols into Integers",
-      "section": "bott-periodicity-index-pushforward",
-      "file": "018500-bott-periodicity-pushforwards-and-index.md",
-      "spoken_words": 881,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.1
-    },
-    {
-      "id": "019000",
-      "title": "Degree Theory, Brouwer Fixed Points, and Global Constraints",
-      "section": "topological-degree",
-      "file": "019000-degree-theory-and-brouwer-fixed-points.md",
-      "spoken_words": 835,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.8
-    },
-    {
-      "id": "019100",
-      "title": "Regular Values and Degree: Counting Solutions with Signs",
-      "section": "regular-values-degree",
-      "file": "019100-regular-values-degree-and-fixed-points.md",
-      "spoken_words": 1070,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.4
+      "estimated_minutes_at_145_wpm": 40.7,
+      "consolidated_from": [
+        "018000",
+        "018100",
+        "018200",
+        "018300",
+        "018400",
+        "018500"
+      ]
     },
     {
       "id": "020000",
-      "title": "Hodge Decomposition and Harmonic Forms",
+      "title": "Hodge and elliptic operators by example",
       "section": "hodge-harmonic",
-      "file": "020000-hodge-decomposition-and-harmonic-forms.md",
-      "spoken_words": 788,
+      "file": "020000-hodge-and-elliptic-operators-by-example.md",
+      "spoken_words": 3036,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.4
-    },
-    {
-      "id": "020100",
-      "title": "Hodge Theory by Hand: Star, Adjoint, and Laplacian",
-      "section": "hodge-star-adjoint",
-      "file": "020100-hodge-star-adjoints-and-the-laplacian.md",
-      "spoken_words": 1151,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.9
-    },
-    {
-      "id": "020200",
-      "title": "Elliptic Operators: From Their Symbols to Finite-Dimensional Obstructions",
-      "section": "elliptic-symbol-fredholm",
-      "file": "020200-elliptic-operators-symbols-and-fredholm-theory.md",
-      "spoken_words": 1091,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.5
+      "estimated_minutes_at_145_wpm": 20.9,
+      "consolidated_from": [
+        "020000",
+        "020100",
+        "020200"
+      ]
     },
     {
       "id": "020300",
-      "title": "Equivariant Cohomology: The Space That Remembers Its Symmetry",
+      "title": "Equivariant cohomology and fixed-point localization",
       "section": "equivariant-borel-cohomology",
-      "file": "020300-equivariant-cohomology-the-borel-construction.md",
-      "spoken_words": 938,
+      "file": "020300-equivariant-cohomology-and-fixed-point-localization.md",
+      "spoken_words": 4620,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
-    },
-    {
-      "id": "020400",
-      "title": "The Cartan Model: An Exterior Derivative that Knows the Action",
-      "section": "equivariant-cartan-differential",
-      "file": "020400-cartan-model-and-equivariant-differential.md",
-      "spoken_words": 899,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.2
-    },
-    {
-      "id": "020500",
-      "title": "Fixed-Point Localization: Weights, Euler Classes, and Denominators",
-      "section": "equivariant-localization-euler",
-      "file": "020500-equivariant-euler-classes-and-localization.md",
-      "spoken_words": 859,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.9
-    },
-    {
-      "id": "020600",
-      "title": "Localization on the Projective Line: An Integral from Two Fractions",
-      "section": "localization-projective-line",
-      "file": "020600-localization-calculation-projective-line.md",
-      "spoken_words": 965,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.7
-    },
-    {
-      "id": "020700",
-      "title": "Moment-Map Measures: From Symplectic Area to Duistermaat–Heckman",
-      "section": "duistermaat-heckman-foundations",
-      "file": "020700-moment-map-distribution-and-duistermaat-heckman.md",
-      "spoken_words": 954,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.6
-    },
-    {
-      "id": "021000",
-      "title": "Moment Maps: Symmetry, Conserved Quantities, and Reduction",
-      "section": "moment-maps-reduction",
-      "file": "021000-symplectic-moment-maps-and-reduction.md",
-      "spoken_words": 919,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.3
+      "estimated_minutes_at_145_wpm": 31.9,
+      "consolidated_from": [
+        "020300",
+        "020400",
+        "020500",
+        "020600",
+        "020700"
+      ]
     },
     {
       "id": "021100",
-      "title": "Symplectic Geometry by Example: Area Forms and Hamiltonian Motion",
+      "title": "Hamiltonian geometry, symmetries, and local normal forms",
       "section": "symplectic-hamiltonian-examples",
-      "file": "021100-symplectic-forms-and-hamiltonian-motion.md",
-      "spoken_words": 1078,
+      "file": "021100-hamiltonian-geometry-symmetries-and-local-normal-forms.md",
+      "spoken_words": 5110,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.4
-    },
-    {
-      "id": "021200",
-      "title": "Almost-Complex Structures: Turning Symplectic Area into Length",
-      "section": "almost-complex-compatible",
-      "file": "021200-compatible-almost-complex-structures-and-metrics.md",
-      "spoken_words": 1068,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.4
-    },
-    {
-      "id": "021300",
-      "title": "Darboux and Moser: Why Symplectic Forms Are Locally Simple",
-      "section": "darboux-moser-calculations",
-      "file": "021300-darboux-moser-and-changing-symplectic-forms.md",
-      "spoken_words": 1001,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.9
-    },
-    {
-      "id": "021400",
-      "title": "Lagrangian Geometry: Graphs, Intersections, and Exactness",
-      "section": "lagrangian-graphs-exactness",
-      "file": "021400-lagrangian-graphs-and-exactness-in-cotangent-bundles.md",
-      "spoken_words": 1035,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.1
+      "estimated_minutes_at_145_wpm": 35.2,
+      "consolidated_from": [
+        "021100",
+        "021000",
+        "021200",
+        "021300",
+        "021400"
+      ]
     },
     {
       "id": "022000",
-      "title": "Chern–Weil Theory: How Curvature Records Bundle Topology",
+      "title": "Chern-Weil curvature and explicit gauge calculations",
       "section": "chern-weil-bundles",
-      "file": "022000-chern-weil-theory-and-bundle-curvature.md",
-      "spoken_words": 912,
+      "file": "022000-chern-weil-curvature-and-explicit-gauge-calculations.md",
+      "spoken_words": 2120,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.3
-    },
-    {
-      "id": "022100",
-      "title": "Gauge Geometry by Calculation: Connections, Curvature, and Holonomy",
-      "section": "gauge-holonomy-calculations",
-      "file": "022100-principal-connections-gauge-changes-and-holonomy.md",
-      "spoken_words": 1200,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.3
+      "estimated_minutes_at_145_wpm": 14.6,
+      "consolidated_from": [
+        "022000",
+        "022100"
+      ]
     },
     {
       "id": "022200",
-      "title": "Sheaves: Local Information That Knows How to Glue",
+      "title": "Sheaves, Cech calculations, and derived cohomology",
       "section": "sheaves-restriction-stalks",
-      "file": "022200-sheaves-stalks-restrictions-and-gluing.md",
-      "spoken_words": 941,
+      "file": "022200-sheaves-cech-calculations-and-derived-cohomology.md",
+      "spoken_words": 4684,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
-    },
-    {
-      "id": "022300",
-      "title": "Čech Cohomology by Calculation: Recovering the Circle's One Hole",
-      "section": "cech-cohomology-calculation",
-      "file": "022300-cech-cohomology-calculation-circle.md",
-      "spoken_words": 929,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.4
-    },
-    {
-      "id": "022400",
-      "title": "Why Sheaf Cohomology Is Derived: A Global Logarithm That Fails",
-      "section": "derived-global-sections",
-      "file": "022400-derived-sections-and-long-exact-cohomology.md",
-      "spoken_words": 890,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.1
-    },
-    {
-      "id": "022500",
-      "title": "Holomorphic Line Bundles on the Projective Line: Counting H-Zero and H-One",
-      "section": "projective-line-h0-h1",
-      "file": "022500-cohomology-of-line-bundles-on-projective-line.md",
-      "spoken_words": 1010,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.0
-    },
-    {
-      "id": "022600",
-      "title": "Fine Resolutions: Why de Rham and Dolbeault Compute Sheaf Cohomology",
-      "section": "fine-sheaves-resolutions",
-      "file": "022600-fine-sheaves-de-rham-and-dolbeault-resolutions.md",
-      "spoken_words": 908,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.3
+      "estimated_minutes_at_145_wpm": 32.3,
+      "consolidated_from": [
+        "022200",
+        "022300",
+        "022400",
+        "022500",
+        "022600"
+      ]
     },
     {
       "id": "023000",
-      "title": "Morse Theory: Critical Points and Handle Decompositions",
+      "title": "Morse complexes and elliptic index foundations",
       "section": "morse-handles",
-      "file": "023000-morse-theory-critical-points-and-handles.md",
-      "spoken_words": 923,
+      "file": "023000-morse-complexes-and-elliptic-index-foundations.md",
+      "spoken_words": 6830,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.4
-    },
-    {
-      "id": "023100",
-      "title": "Morse Theory by Example: Critical Points Become a Chain Complex",
-      "section": "morse-chain-complex",
-      "file": "023100-morse-complexes-from-critical-points.md",
-      "spoken_words": 1201,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.3
-    },
-    {
-      "id": "024000",
-      "title": "Elliptic Index and the Atiyah-Singer Perspective",
-      "section": "elliptic-index",
-      "file": "024000-elliptic-index-and-atiyah-singer.md",
-      "spoken_words": 800,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.5
-    },
-    {
-      "id": "024100",
-      "title": "An Index Theorem We Can Calculate: The de Rham Operator and Euler Characteristic",
-      "section": "de-rham-elliptic-index",
-      "file": "024100-de-rham-elliptic-complex-and-euler-index.md",
-      "spoken_words": 1054,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.3
-    },
-    {
-      "id": "024200",
-      "title": "Weak Derivatives and Sobolev Estimates on Manifolds",
-      "section": "weak-derivatives-sobolev",
-      "file": "024200-weak-derivatives-and-sobolev-estimates-on-manifolds.md",
-      "spoken_words": 1011,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.0
-    },
-    {
-      "id": "024300",
-      "title": "Elliptic Regularity: From Weak Solutions to Smooth Fields",
-      "section": "elliptic-regularity",
-      "file": "024300-elliptic-regularity-weak-to-smooth-solutions.md",
-      "spoken_words": 925,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.4
-    },
-    {
-      "id": "025000",
-      "title": "Morse–Bott Theory and Equivariant Localization",
-      "section": "morse-bott-localization",
-      "file": "025000-morse-bott-theory-and-equivariant-localization.md",
-      "spoken_words": 918,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.3
+      "estimated_minutes_at_145_wpm": 47.1,
+      "consolidated_from": [
+        "023000",
+        "023100",
+        "024200",
+        "024300",
+        "024000",
+        "024100",
+        "025000"
+      ]
     },
     {
       "id": "025100",
-      "title": "Riemann Surfaces and Holomorphic Maps: The Models We Can Calculate",
+      "title": "Holomorphic curves, Fredholm dimensions, and strip boundaries",
       "section": "riemann-holomorphic-examples",
-      "file": "025100-riemann-surfaces-and-holomorphic-map-examples.md",
-      "spoken_words": 1081,
+      "file": "025100-holomorphic-curves-fredholm-dimensions-and-strip-boundaries.md",
+      "spoken_words": 4996,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.5
-    },
-    {
-      "id": "025200",
-      "title": "Pseudoholomorphic Curves: The Equation and the Area–Energy Identity",
-      "section": "pseudoholomorphic-area-energy",
-      "file": "025200-pseudoholomorphic-curves-and-area-energy.md",
-      "spoken_words": 990,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.8
-    },
-    {
-      "id": "025300",
-      "title": "Cauchy–Riemann Operators: From Complex Derivatives to Elliptic Estimates",
-      "section": "cauchy-riemann-elliptic",
-      "file": "025300-cauchy-riemann-operators-and-elliptic-estimates.md",
-      "spoken_words": 950,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.6
-    },
-    {
-      "id": "025400",
-      "title": "Fredholm Index and Transversality: Counting Dimensions Before Curves",
-      "section": "curve-index-transversality",
-      "file": "025400-fredholm-index-and-transversality-of-curves.md",
-      "spoken_words": 919,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.3
-    },
-    {
-      "id": "025500",
-      "title": "Boundary Conditions for Holomorphic Strips and the Maslov Index",
-      "section": "lagrangian-maslov-boundary",
-      "file": "025500-lagrangian-boundary-problems-and-maslov-index.md",
-      "spoken_words": 1049,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.2
+      "estimated_minutes_at_145_wpm": 34.5,
+      "consolidated_from": [
+        "025100",
+        "025200",
+        "025300",
+        "025400",
+        "025500"
+      ]
     },
     {
       "id": "025600",
-      "title": "Hamiltonian Action: Why Periodic Orbits Are Critical Points",
+      "title": "Action, Floer cylinders, compactness, and boundary cancellation",
       "section": "hamiltonian-action-cappings",
-      "file": "025600-hamiltonian-action-cappings-and-periodic-orbits.md",
-      "spoken_words": 1172,
+      "file": "025600-action-floer-cylinders-compactness-and-boundary-cancellation.md",
+      "spoken_words": 4489,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.1
-    },
-    {
-      "id": "025700",
-      "title": "Floer Cylinders: Negative Gradient Flow Becomes an Elliptic Equation",
-      "section": "floer-equation-energy",
-      "file": "025700-floer-equation-negative-gradient-and-energy-identity.md",
-      "spoken_words": 1064,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.3
-    },
-    {
-      "id": "025800",
-      "title": "Compactness for Holomorphic Curves: Bubbles, Breaking, and Escape",
-      "section": "gromov-bubbles-breaking",
-      "file": "025800-gromov-compactness-bubbles-and-broken-trajectories.md",
-      "spoken_words": 1070,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.4
-    },
-    {
-      "id": "025900",
-      "title": "Why Floer Boundaries Cancel: Moduli Spaces and Differential Squared",
-      "section": "floer-differential-gluing",
-      "file": "025900-floer-differential-gluing-and-d-squared.md",
-      "spoken_words": 1167,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.0
+      "estimated_minutes_at_145_wpm": 31.0,
+      "consolidated_from": [
+        "025600",
+        "025700",
+        "025800",
+        "025900"
+      ]
     },
     {
       "id": "026000",
-      "title": "Holonomy and Gauge Moduli: Transport Around a Loop",
+      "title": "Gauge moduli and quantization",
       "section": "holonomy-gauge-moduli",
-      "file": "026000-holonomy-parallel-transport-and-gauge-moduli.md",
-      "spoken_words": 936,
+      "file": "026000-gauge-moduli-and-quantization.md",
+      "spoken_words": 4883,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
-    },
-    {
-      "id": "027000",
-      "title": "Prequantization: When Symplectic Area Must Be Integral",
-      "section": "prequantum-line-bundles",
-      "file": "027000-prequantum-line-bundles-and-integrality.md",
-      "spoken_words": 927,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.4
-    },
-    {
-      "id": "028000",
-      "title": "Quantizing the Sphere: Holomorphic Sections and Spin",
-      "section": "holomorphic-quantization",
-      "file": "028000-holomorphic-quantization-of-the-sphere.md",
-      "spoken_words": 1031,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.1
-    },
-    {
-      "id": "029000",
-      "title": "Quantization and Symplectic Reduction: Which Operation Comes First?",
-      "section": "quantization-symplectic-reduction",
-      "file": "029000-quantization-and-symplectic-reduction.md",
-      "spoken_words": 995,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.9
-    },
-    {
-      "id": "030000",
-      "title": "The Maslov Index: Why a Classical Orbit Acquires a Quantum Half-Step",
-      "section": "maslov-index-semiclassical-phase",
-      "file": "030000-maslov-index-and-semiclassical-phase.md",
-      "spoken_words": 982,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.8
+      "estimated_minutes_at_145_wpm": 33.7,
+      "consolidated_from": [
+        "026000",
+        "027000",
+        "028000",
+        "029000",
+        "030000"
+      ]
     },
     {
       "id": "030100",
-      "title": "Clifford Algebra: How a Metric Becomes Operator Multiplication",
+      "title": "Spinors, Dirac operators, and an explicit spin-c index",
       "section": "clifford-algebra-metric",
-      "file": "030100-clifford-algebra-from-metric-to-operators.md",
-      "spoken_words": 943,
+      "file": "030100-spinors-dirac-operators-and-an-explicit-spin-c-index.md",
+      "spoken_words": 4391,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
-    },
-    {
-      "id": "030200",
-      "title": "Spin and Spin-C Structures: Gluing Rotations and Spinors",
-      "section": "spin-spinc-structures",
-      "file": "030200-spin-and-spinc-structures-gluing-rotations.md",
-      "spoken_words": 893,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.2
-    },
-    {
-      "id": "030300",
-      "title": "Spinor Bundles and Dirac Operators: Differentiating a Spinor",
-      "section": "spinor-connections-dirac",
-      "file": "030300-spinc-spinor-bundles-and-dirac-operators.md",
-      "spoken_words": 891,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.1
-    },
-    {
-      "id": "030400",
-      "title": "The Weitzenbock Formula: Curvature in the Square of Dirac",
-      "section": "weitzenbock-bochner",
-      "file": "030400-weizenbock-formula-and-curvature-estimates.md",
-      "spoken_words": 851,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.9
-    },
-    {
-      "id": "030500",
-      "title": "Computing the Spin-C Dirac Index on a Four-Manifold",
-      "section": "spinc-dirac-index",
-      "file": "030500-spinc-dirac-index-on-four-manifolds.md",
-      "spoken_words": 805,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.6
+      "estimated_minutes_at_145_wpm": 30.3,
+      "consolidated_from": [
+        "030100",
+        "030200",
+        "030300",
+        "030400",
+        "030500"
+      ]
     },
     {
       "id": "030600",
-      "title": "Deformation Complexes: Tangents, Symmetries, and Obstructions",
+      "title": "Deformations, gauge slices, dimensions, and instantons",
       "section": "gauge-deformation-cohomology",
-      "file": "030600-elliptic-deformation-complexes-from-symmetries.md",
-      "spoken_words": 921,
+      "file": "030600-deformations-gauge-slices-dimensions-and-instantons.md",
+      "spoken_words": 3805,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.4
-    },
-    {
-      "id": "030700",
-      "title": "Coulomb Gauge and Local Moduli: Removing Redundant Directions",
-      "section": "gauge-slices-kuranishi",
-      "file": "030700-coulomb-gauge-slices-and-local-moduli.md",
-      "spoken_words": 928,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.4
-    },
-    {
-      "id": "030800",
-      "title": "Instanton Expected Dimension: What the Index Really Counts",
-      "section": "instantons-virtual-dimension",
-      "file": "030800-asd-index-expected-dimension-and-reducibles.md",
-      "spoken_words": 866,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.0
-    },
-    {
-      "id": "031000",
-      "title": "Instantons: Curvature, Topological Charge, and Gauge Moduli",
-      "section": "anti-self-dual-instantons",
-      "file": "031000-anti-self-dual-connections-and-instanton-moduli.md",
-      "spoken_words": 1083,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.5
-    },
-    {
-      "id": "031100",
-      "title": "Action Filtrations and Novikov Series: Keeping Infinite Floer Counts Finite",
-      "section": "floer-novikov-filtration",
-      "file": "031100-action-filtrations-cappings-and-novikov-completions.md",
-      "spoken_words": 1056,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.3
-    },
-    {
-      "id": "031200",
-      "title": "Continuation Maps: Why Floer Homology Survives Changing the Hamiltonian",
-      "section": "floer-continuation-invariance",
-      "file": "031200-continuation-maps-invariance-and-arnold-bound.md",
-      "spoken_words": 1030,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.1
-    },
-    {
-      "id": "031300",
-      "title": "A Complete Lagrangian Floer Model: Two Graphs over a Circle",
-      "section": "exact-lagrangian-floer-circle",
-      "file": "031300-exact-lagrangian-floer-circle-worked-example.md",
-      "spoken_words": 1107,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.6
+      "estimated_minutes_at_145_wpm": 26.2,
+      "consolidated_from": [
+        "030600",
+        "030700",
+        "030800",
+        "031000"
+      ]
     },
     {
       "id": "032000",
-      "title": "Floer Homology: Morse Theory for Periodic Trajectories",
+      "title": "Floer overview, action completion, invariance, and a complete model",
       "section": "floer-homology",
-      "file": "032000-floer-homology-and-infinite-dimensional-morse-theory.md",
-      "spoken_words": 1139,
+      "file": "032000-floer-overview-action-completion-invariance-and-a-complete-model.md",
+      "spoken_words": 4341,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.9
+      "estimated_minutes_at_145_wpm": 29.9,
+      "consolidated_from": [
+        "032000",
+        "031100",
+        "031200",
+        "031300"
+      ]
     },
     {
       "id": "033000",
-      "title": "Berry Curvature: Holonomy in a Family of Quantum States",
+      "title": "Berry curvature and the quantum Hall Chern number",
       "section": "berry-curvature",
-      "file": "033000-berry-curvature-and-geometric-holonomy.md",
-      "spoken_words": 1106,
+      "file": "033000-berry-curvature-and-the-quantum-hall-chern-number.md",
+      "spoken_words": 2333,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.6
-    },
-    {
-      "id": "034000",
-      "title": "Symplectic Nonsqueezing: A Constraint That Volume Cannot See",
-      "section": "symplectic-nonsqueezing",
-      "file": "034000-symplectic-capacities-and-nonsqueezing.md",
-      "spoken_words": 1105,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.6
-    },
-    {
-      "id": "034100",
-      "title": "Yang-Mills Energy and Instanton Charge: Why Four Dimensions Matter",
-      "section": "yang-mills-energy",
-      "file": "034100-yang-mills-energy-and-instanton-charge.md",
-      "spoken_words": 843,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.8
-    },
-    {
-      "id": "034200",
-      "title": "Small-Energy Gauges and Compactness: The Local Uhlenbeck Estimate",
-      "section": "uhlenbeck-local-gauges",
-      "file": "034200-small-energy-coulomb-gauges-and-weak-compactness.md",
-      "spoken_words": 914,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.3
-    },
-    {
-      "id": "034300",
-      "title": "Bubbling and Removable Singularities: Where Instanton Energy Goes",
-      "section": "instanton-bubble-compactification",
-      "file": "034300-bubbling-energy-quantization-and-removable-singularities.md",
-      "spoken_words": 938,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
-    },
-    {
-      "id": "035000",
-      "title": "Uhlenbeck Compactness: Where Instanton Energy Goes",
-      "section": "uhlenbeck-compactness",
-      "file": "035000-uhlenbeck-compactness-and-instanton-bubbling.md",
-      "spoken_words": 1187,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.2
-    },
-    {
-      "id": "036000",
-      "title": "Chern Numbers and the Integer Quantum Hall Effect",
-      "section": "chern-numbers-hall",
-      "file": "036000-chern-numbers-and-integer-quantum-hall-transport.md",
-      "spoken_words": 1217,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.4
+      "estimated_minutes_at_145_wpm": 16.1,
+      "consolidated_from": [
+        "033000",
+        "036000"
+      ]
     },
     {
       "id": "036100",
-      "title": "Contact Forms and Reeb Flows: Dynamics on an Odd-Dimensional Boundary",
+      "title": "Contact boundaries, wrapping, and embedding obstructions",
       "section": "contact-reeb-foundations",
-      "file": "036100-contact-forms-and-reeb-flows.md",
-      "spoken_words": 947,
+      "file": "036100-contact-boundaries-wrapping-and-embedding-obstructions.md",
+      "spoken_words": 6576,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
+      "estimated_minutes_at_145_wpm": 45.4,
+      "consolidated_from": [
+        "036100",
+        "036200",
+        "036300",
+        "037000",
+        "034000",
+        "038000"
+      ]
     },
     {
-      "id": "036200",
-      "title": "Liouville Domains and Completions: Turning a Boundary into Infinity",
-      "section": "liouville-completions",
-      "file": "036200-liouville-domains-and-completions.md",
-      "spoken_words": 1007,
+      "id": "034100",
+      "title": "Yang-Mills energy, small-energy gauges, bubbling, and compactness",
+      "section": "yang-mills-energy",
+      "file": "034100-yang-mills-energy-small-energy-gauges-bubbling-and-compactness.md",
+      "spoken_words": 3887,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.9
-    },
-    {
-      "id": "036300",
-      "title": "Wrapping Hamiltonians and No-Escape Estimates",
-      "section": "wrapping-no-escape",
-      "file": "036300-wrapping-hamiltonians-and-no-escape.md",
-      "spoken_words": 1202,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.3
-    },
-    {
-      "id": "037000",
-      "title": "Wrapped Floer Homology and Symplectic Cohomology",
-      "section": "wrapped-floer-symplectic",
-      "file": "037000-wrapped-floer-and-symplectic-cohomology.md",
-      "spoken_words": 1137,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.8
-    },
-    {
-      "id": "038000",
-      "title": "ECH Capacities and Symplectic Embedding Staircases",
-      "section": "ech-capacities-staircases",
-      "file": "038000-ech-capacities-and-embedding-staircases.md",
-      "spoken_words": 1169,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.1
+      "estimated_minutes_at_145_wpm": 26.8,
+      "consolidated_from": [
+        "034100",
+        "034200",
+        "034300",
+        "035000"
+      ]
     },
     {
       "id": "039000",
-      "title": "Donaldson Invariants and the Smooth Topology of Four-Manifolds",
+      "title": "Four-manifold invariants, family indices, and genus bounds",
       "section": "donaldson-invariants",
-      "file": "039000-donaldson-intersection-invariants.md",
-      "spoken_words": 966,
+      "file": "039000-four-manifold-invariants-family-indices-and-genus-bounds.md",
+      "spoken_words": 4743,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.7
-    },
-    {
-      "id": "039100",
-      "title": "A Family Index and Determinant Line by Hand: One Zero, One Twist",
-      "section": "determinant-line-family-model",
-      "file": "039100-a-family-index-and-determinant-line-by-hand.md",
-      "spoken_words": 1042,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.2
-    },
-    {
-      "id": "040000",
-      "title": "Families Index Theory and Determinant Line Bundles",
-      "section": "families-index-determinant",
-      "file": "040000-families-index-and-determinant-lines.md",
-      "spoken_words": 1081,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.5
-    },
-    {
-      "id": "041000",
-      "title": "Seiberg-Witten Monopoles and Four-Manifolds",
-      "section": "seiberg-witten-monopoles",
-      "file": "041000-seiberg-witten-monopoles-and-four-manifolds.md",
-      "spoken_words": 813,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.6
-    },
-    {
-      "id": "042000",
-      "title": "Adjunction Inequalities and Smooth Genus Bounds",
-      "section": "seiberg-witten-adjunction",
-      "file": "042000-adjunction-inequalities-and-smooth-genus-bounds.md",
-      "spoken_words": 842,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.8
+      "estimated_minutes_at_145_wpm": 32.7,
+      "consolidated_from": [
+        "039000",
+        "039100",
+        "040000",
+        "041000",
+        "042000"
+      ]
     }
   ]
 }

@@ -1,5 +1,7 @@
 # Faust — Two Parts, Five Acts, and the Changing Bargain
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 **Non-spoken reading companion** for 229000–251000. This original lecture sequence follows Goethe's dramatic text, not a film adaptation or a shortened retelling based solely on Part One. Reading references are primarily Goethe's German text and the public-domain English translation of Bayard Taylor. Scenes and verse phrasing differ by edition and translation.
 
 ## Full story map

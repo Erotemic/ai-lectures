@@ -1,5 +1,7 @@
 # Othello: Story Map, Evidence Chain, Textual Witnesses, and Performance
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 **Content:** 059000–068000. **Primary author:** William Shakespeare. **Work:** *Othello* (recorded performance in 1604; earliest surviving printed quarto 1622). **Scope:** Ten original, spoken explanatory lectures; not a reproduction of a performance or the full text.
 
 ## Listening order

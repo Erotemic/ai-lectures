@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "019000",
-  "transcript": "019000-multigrid-and-matrix-free-preconditioning.md",
+  "transcript": "019000-multigrid-from-near-nullspace-to-anisotropy.md",
   "related_resources": [
     {
       "source_id": "nu-r12-019000-1",
@@ -14,7 +14,108 @@
     {
       "source_id": "nu-r12-019000-3",
       "reason": "Two-grid, smoothing, Galerkin coarse operators and preconditioners"
+    },
+    {
+      "source_id": "na-r16-023000-1",
+      "reason": "Reference on Anisotropic Multigrid: When the Grid Has a Preferred Direction (1 of 3)"
+    },
+    {
+      "source_id": "na-r16-023000-2",
+      "reason": "Reference on Anisotropic Multigrid: When the Grid Has a Preferred Direction (2 of 3)"
+    },
+    {
+      "source_id": "na-r16-023000-3",
+      "reason": "Reference on Anisotropic Multigrid: When the Grid Has a Preferred Direction (3 of 3)"
+    },
+    {
+      "source_id": "na-r21-028000-1",
+      "reason": "practical coarsening, interpolation, strength thresholds, and system modes"
+    },
+    {
+      "source_id": "na-r21-028000-2",
+      "reason": "multigrid convergence mechanisms and anisotropy"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "numerical-analysis:019000",
+        "file": "019000-multigrid-and-matrix-free-preconditioning.md",
+        "sha256": "a8cb5d5e27a9fd05e8e44a52023070da1f2be79b3f57c496c5c3c955776774c5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-multigrid-and-matrix-free-preconditioning.md",
+          "related_resources": [
+            {
+              "source_id": "nu-r12-019000-1",
+              "reason": "Two-grid, smoothing, Galerkin coarse operators and preconditioners"
+            },
+            {
+              "source_id": "nu-r12-019000-2",
+              "reason": "Two-grid, smoothing, Galerkin coarse operators and preconditioners"
+            },
+            {
+              "source_id": "nu-r12-019000-3",
+              "reason": "Two-grid, smoothing, Galerkin coarse operators and preconditioners"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "numerical-analysis:023000",
+        "file": "023000-anisotropic-multigrid-line-smoothing-and-semicoarsening.md",
+        "sha256": "af4421290cc9e6cd5b07f0d9fd94badad3ca9c880f6aa6a01bcfb8fa7058b02e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "023000",
+          "transcript": "023000-anisotropic-multigrid-line-smoothing-and-semicoarsening.md",
+          "related_resources": [
+            {
+              "source_id": "na-r16-023000-1",
+              "reason": "Reference on Anisotropic Multigrid: When the Grid Has a Preferred Direction (1 of 3)"
+            },
+            {
+              "source_id": "na-r16-023000-2",
+              "reason": "Reference on Anisotropic Multigrid: When the Grid Has a Preferred Direction (2 of 3)"
+            },
+            {
+              "source_id": "na-r16-023000-3",
+              "reason": "Reference on Anisotropic Multigrid: When the Grid Has a Preferred Direction (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "numerical-analysis:028000",
+        "file": "028000-algebraic-multigrid-for-rotated-anisotropy.md",
+        "sha256": "3e87fd87f8cc197d532ba59701f7a11aac0e07714fff6e13b884e3c2bac961bb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "028000",
+          "transcript": "028000-algebraic-multigrid-for-rotated-anisotropy.md",
+          "related_resources": [
+            {
+              "source_id": "na-r21-028000-1",
+              "reason": "practical coarsening, interpolation, strength thresholds, and system modes"
+            },
+            {
+              "source_id": "na-r21-028000-2",
+              "reason": "multigrid convergence mechanisms and anisotropy"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

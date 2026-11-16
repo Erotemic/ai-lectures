@@ -18,192 +18,72 @@
   "lectures": [
     {
       "id": "001000",
-      "title": "Follow the Packet and the Power: A Physical Model of a Home Network",
+      "title": "Trace and test the packet-and-power system",
       "section": "packet-and-power-paths",
-      "file": "001000-follow-the-packet-and-the-power.md",
-      "spoken_words": 1259,
+      "file": "001000-trace-and-test-the-packet-and-power-system.md",
+      "spoken_words": 6419,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "002000",
-      "title": "Copper Cable, Pairs, Termination, and Link Tests",
-      "section": "packet-and-power-paths",
-      "file": "002000-copper-cable-pairs-termination-and-link-tests.md",
-      "spoken_words": 1099,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "003000",
-      "title": "Switches, Routers, IP, DHCP, and DNS",
-      "section": "packet-and-power-paths",
-      "file": "003000-switches-routers-ip-dhcp-and-dns.md",
-      "spoken_words": 1018,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "004000",
-      "title": "PoE Budgets, Voltage Drop, and Cable Runs",
-      "section": "packet-and-power-paths",
-      "file": "004000-poe-budgets-voltage-drop-and-cable-runs.md",
-      "spoken_words": 950,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 44.3,
+      "consolidated_from": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "006000",
+        "007000"
+      ]
     },
     {
       "id": "005000",
-      "title": "Sensors, Actuators, State, and Hysteresis",
+      "title": "Model dependable local automation",
       "section": "packet-and-power-paths",
-      "file": "005000-sensors-actuators-state-and-hysteresis.md",
-      "spoken_words": 1061,
+      "file": "005000-model-dependable-local-automation.md",
+      "spoken_words": 5105,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "006000",
-      "title": "Local-First Reliability and Dependency Mapping",
-      "section": "packet-and-power-paths",
-      "file": "006000-local-first-reliability-and-dependency-mapping.md",
-      "spoken_words": 1055,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "007000",
-      "title": "Monitoring, Security, and Fault Isolation",
-      "section": "packet-and-power-paths",
-      "file": "007000-monitoring-security-and-fault-isolation.md",
-      "spoken_words": 1003,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "008000",
-      "title": "Backups, Updates, and Configuration Recovery",
-      "section": "packet-and-power-paths",
-      "file": "008000-backups-updates-and-configuration-recovery.md",
-      "spoken_words": 835,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "009000",
-      "title": "Threat Models and Secure Remote Access",
-      "section": "packet-and-power-paths",
-      "file": "009000-threat-models-and-secure-remote-access.md",
-      "spoken_words": 1010,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 35.2,
+      "consolidated_from": [
+        "005000",
+        "019000",
+        "012000",
+        "015000",
+        "018000"
+      ]
     },
     {
       "id": "010000",
-      "title": "Logs, Time Synchronization, and Reliable Alerts",
+      "title": "Observe failures and rehearse recovery",
       "section": "packet-and-power-paths",
-      "file": "010000-logs-time-synchronization-and-reliable-alerts.md",
-      "spoken_words": 1127,
+      "file": "010000-observe-failures-and-rehearse-recovery.md",
+      "spoken_words": 4920,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 33.9,
+      "consolidated_from": [
+        "010000",
+        "013000",
+        "008000",
+        "016000",
+        "017000"
+      ]
     },
     {
-      "id": "011000",
-      "title": "Device Identity, Credentials, and Secure Provisioning",
+      "id": "009000",
+      "title": "Secure and commission devices repeatably",
       "section": "packet-and-power-paths",
-      "file": "011000-device-identity-credentials-and-secure-provisioning.md",
-      "spoken_words": 981,
+      "file": "009000-secure-and-commission-devices-repeatably.md",
+      "spoken_words": 4932,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "012000",
-      "title": "Control Interlocks, Debouncing, and Fail-Safe States",
-      "section": "packet-and-power-paths",
-      "file": "012000-control-interlocks-debouncing-and-fail-safe-states.md",
-      "spoken_words": 873,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "013000",
-      "title": "Power Failures, UPS Design, and Recovery Testing",
-      "section": "packet-and-power-paths",
-      "file": "013000-power-failures-ups-design-and-recovery-testing.md",
-      "spoken_words": 920,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "014000",
-      "title": "Network Segmentation, Local Discovery, and Access Control",
-      "section": "packet-and-power-paths",
-      "file": "014000-network-segmentation-local-discovery-and-access-control.md",
-      "spoken_words": 1054,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "015000",
-      "title": "Retries, Timekeeping, and Event Delivery in Automation",
-      "section": "packet-and-power-paths",
-      "file": "015000-retries-timekeeping-and-event-delivery-in-automation.md",
-      "spoken_words": 1005,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "016000",
-      "title": "Home Automation Recovery Drills and Observability",
-      "section": "packet-and-power-paths",
-      "file": "016000-home-automation-recovery-drills-and-observability.md",
-      "spoken_words": 1000,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "017000",
-      "title": "Home Network Access Inventory and Incident Recovery",
-      "section": "packet-and-power-paths",
-      "file": "017000-home-network-access-inventory-and-incident-recovery.md",
-      "spoken_words": 980,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "018000",
-      "title": "Testing Offline Automation During Router and Cloud Outages",
-      "section": "packet-and-power-paths",
-      "file": "018000-testing-offline-automation-during-router-and-cloud-outages.md",
-      "spoken_words": 1022,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "019000",
-      "title": "Reliable Automations as State Machines, Not Chains of Notifications",
-      "section": "packet-and-power-paths",
-      "file": "019000-reliable-automations-as-state-machines-not-chains-of-notifications.md",
-      "spoken_words": 1050,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "020000",
-      "title": "Configuration as Code and Repeatable Device Commissioning",
-      "section": "packet-and-power-paths",
-      "file": "020000-configuration-as-code-and-repeatable-device-commissioning.md",
-      "spoken_words": 834,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "021000",
-      "title": "Device Certificates, Authentication, and Recovery in Local Networks",
-      "section": "packet-and-power-paths",
-      "file": "021000-device-certificates-authentication-and-recovery-in-local-networks.md",
-      "spoken_words": 989,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 34.0,
+      "consolidated_from": [
+        "009000",
+        "011000",
+        "014000",
+        "020000",
+        "021000"
+      ]
     }
   ]
 }

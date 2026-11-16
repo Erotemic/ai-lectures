@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "009000",
-  "transcript": "009000-decks-porches-and-exterior-load-paths.md",
+  "transcript": "009000-inspect-and-repair-exterior-load-paths.md",
   "related_resources": [
     {
       "source_id": "icc-deck-ledger",
@@ -10,6 +10,30 @@
     {
       "source_id": "awc-deck-lateral",
       "reason": "Deck lateral connection considerations and DCA 6 design scope"
+    },
+    {
+      "source_id": "usda-wood",
+      "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+    },
+    {
+      "source_id": "usda-drying",
+      "reason": "Moisture content, equilibrium, shrinkage and storage"
+    },
+    {
+      "source_id": "pnnl-loadpath",
+      "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+    },
+    {
+      "source_id": "awc-wfcm",
+      "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+    },
+    {
+      "source_id": "rammer-fastenings",
+      "reason": "Wood connections, nails, screws, lateral and withdrawal capacity, joist hangers"
+    },
+    {
+      "source_id": "awc-dca6-decks",
+      "reason": "Footing support, deck post bases, load paths and design assumptions; applicable edition must be checked"
     }
   ],
   "historical_claims": [],
@@ -58,8 +82,786 @@
       "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
       "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
       "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-01",
+      "claim": "Wood decay relates to biological attack under sustained or recurrent wetting and can reduce structural performance.",
+      "kind": "original_us_forest_service_science",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-drying",
+          "location": "Moisture content, equilibrium, shrinkage and storage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "Repairing a structural member requires restoring load transfer, bearing and connection performance, not merely replacing missing surface material.",
+      "kind": "derived_structural_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Nonstructural finish repair is distinct from structural reinforcement and must not be treated as a capacity certification.",
+      "kind": "derived_repair_scope_distinction",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "Deck ledger fastener design and placement depend on the house substrate and prescriptive conditions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "icc-deck-ledger",
+          "location": "Deck ledger connection to actual house structure and limits of attachment",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Deck lateral load resistance and guard connections are distinct from the gravity-load path.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "awc-deck-lateral",
+          "location": "Deck lateral connection considerations and DCA 6 design scope",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Moisture and long-term decay can undermine concealed timber connections despite sound surface finishes.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "icc-deck-ledger",
+          "location": "Deck ledger connection to actual house structure and limits of attachment",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "When load-path conditions cannot be verified, prescriptive details should not be applied without design review.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "icc-deck-ledger",
+          "location": "Deck ledger connection to actual house structure and limits of attachment",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-deck-lateral",
+          "location": "Deck lateral connection considerations and DCA 6 design scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "Deck ledger attachment requirements depend on the actual house substrate and load path.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "icc-deck-ledger",
+          "location": "Deck ledger connection to actual house structure and limits of attachment",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-deck-lateral",
+          "location": "Deck lateral connection considerations and DCA 6 design scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Lateral/guard connections are distinct from gravity-load supports in deck design.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "awc-deck-lateral",
+          "location": "Deck lateral connection considerations and DCA 6 design scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Wood decay and wetting at concealed connections can compromise strength without an obvious surface defect.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rammer-fastenings",
+          "location": "Wood connections, nails, screws, lateral and withdrawal capacity, joist hangers",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "Replacing fasteners without addressing the substrate and water path is not a demonstrated structural repair.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "icc-deck-ledger",
+          "location": "Deck ledger connection to actual house structure and limits of attachment",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-01",
+      "claim": "Deck footings and post connections transmit gravity loads to soil and require suitable support details.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "awc-dca6-decks",
+          "location": "Footing support, deck post bases, load paths and design assumptions; applicable edition must be checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Gravity support does not by itself establish lateral/uplift load-path continuity.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "awc-deck-lateral",
+          "location": "Deck lateral connection considerations and DCA 6 design scope",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-dca6-decks",
+          "location": "Footing support, deck post bases, load paths and design assumptions; applicable edition must be checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "Wood and connection durability depend on moisture and exposure.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Deck ledger detailing involves both structural attachment and water management.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "icc-deck-ledger",
+          "location": "Deck ledger connection to actual house structure and limits of attachment",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+  "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-carpentry:009000",
+        "file": "009000-decks-porches-and-exterior-load-paths.md",
+        "sha256": "84af1576443d189677f301a639a200dcfd3f1a7e40a8c03c4879b51191cd050c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-decks-porches-and-exterior-load-paths.md",
+          "related_resources": [
+            {
+              "source_id": "icc-deck-ledger",
+              "reason": "Deck ledger connection to actual house structure and limits of attachment"
+            },
+            {
+              "source_id": "awc-deck-lateral",
+              "reason": "Deck lateral connection considerations and DCA 6 design scope"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P009000-01",
+              "claim": "Deck ledger design and attachment must account for the load-bearing framing of the house, not merely the cladding.",
+              "kind": "original_model_code_publisher_article",
+              "supports": [
+                {
+                  "source_id": "icc-deck-ledger",
+                  "location": "Deck ledger attachment and house band/rim joist",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-02",
+              "claim": "Decks require lateral as well as gravity load resistance.",
+              "kind": "original_wood_design_authority_guidance",
+              "supports": [
+                {
+                  "source_id": "awc-deck-lateral",
+                  "location": "Lateral load devices and DCA 6 scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-03",
+              "claim": "Flashing and deterioration at a deck-to-house connection are separate durability issues from nominal fastener size.",
+              "kind": "derived_building_structure",
+              "supports": [
+                {
+                  "source_id": "icc-deck-ledger",
+                  "location": "Ledger detail and installation conditions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+        }
+      },
+      {
+        "id": "trades-carpentry:013000",
+        "file": "013000-repairing-rot-and-evaluating-structural-wood-damage.md",
+        "sha256": "2b7f69c9e4bbea06518fe21bde76f4932120a6a4ba56e247d365ad8f93e3b326",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-repairing-rot-and-evaluating-structural-wood-damage.md",
+          "related_resources": [
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+            },
+            {
+              "source_id": "usda-drying",
+              "reason": "Moisture content, equilibrium, shrinkage and storage"
+            },
+            {
+              "source_id": "pnnl-loadpath",
+              "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+            },
+            {
+              "source_id": "awc-wfcm",
+              "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "Wood decay relates to biological attack under sustained or recurrent wetting and can reduce structural performance.",
+              "kind": "original_us_forest_service_science",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usda-drying",
+                  "location": "Moisture content, equilibrium, shrinkage and storage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "Repairing a structural member requires restoring load transfer, bearing and connection performance, not merely replacing missing surface material.",
+              "kind": "derived_structural_synthesis",
+              "supports": [
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "Nonstructural finish repair is distinct from structural reinforcement and must not be treated as a capacity certification.",
+              "kind": "derived_repair_scope_distinction",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "trades-carpentry:017000",
+        "file": "017000-deck-anchorage-and-long-term-inspection.md",
+        "sha256": "f0d607db699b66df2cd0c382eff262a8c50fe2bb20739a927b62310b2bf92b10",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-deck-anchorage-and-long-term-inspection.md",
+          "related_resources": [
+            {
+              "source_id": "icc-deck-ledger",
+              "reason": "Deck ledger connection to actual house structure and limits of attachment"
+            },
+            {
+              "source_id": "awc-deck-lateral",
+              "reason": "Deck lateral connection considerations and DCA 6 design scope"
+            },
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+            },
+            {
+              "source_id": "pnnl-loadpath",
+              "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "Deck ledger fastener design and placement depend on the house substrate and prescriptive conditions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "icc-deck-ledger",
+                  "location": "Deck ledger connection to actual house structure and limits of attachment",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "Deck lateral load resistance and guard connections are distinct from the gravity-load path.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "awc-deck-lateral",
+                  "location": "Deck lateral connection considerations and DCA 6 design scope",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "Moisture and long-term decay can undermine concealed timber connections despite sound surface finishes.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "icc-deck-ledger",
+                  "location": "Deck ledger connection to actual house structure and limits of attachment",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "When load-path conditions cannot be verified, prescriptive details should not be applied without design review.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "icc-deck-ledger",
+                  "location": "Deck ledger connection to actual house structure and limits of attachment",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-deck-lateral",
+                  "location": "Deck lateral connection considerations and DCA 6 design scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-carpentry:018000",
+        "file": "018000-repairing-deck-connections-without-concealing-decay.md",
+        "sha256": "fc4902b84c4a7435052992b15d95c0d87623ab95c3d4db56c0602c10458d4928",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-repairing-deck-connections-without-concealing-decay.md",
+          "related_resources": [
+            {
+              "source_id": "icc-deck-ledger",
+              "reason": "Deck ledger connection to actual house structure and limits of attachment"
+            },
+            {
+              "source_id": "awc-deck-lateral",
+              "reason": "Deck lateral connection considerations and DCA 6 design scope"
+            },
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+            },
+            {
+              "source_id": "rammer-fastenings",
+              "reason": "Wood connections, nails, screws, lateral and withdrawal capacity, joist hangers"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "Deck ledger attachment requirements depend on the actual house substrate and load path.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "icc-deck-ledger",
+                  "location": "Deck ledger connection to actual house structure and limits of attachment",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-deck-lateral",
+                  "location": "Deck lateral connection considerations and DCA 6 design scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Lateral/guard connections are distinct from gravity-load supports in deck design.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "awc-deck-lateral",
+                  "location": "Deck lateral connection considerations and DCA 6 design scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "Wood decay and wetting at concealed connections can compromise strength without an obvious surface defect.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "rammer-fastenings",
+                  "location": "Wood connections, nails, screws, lateral and withdrawal capacity, joist hangers",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "Replacing fasteners without addressing the substrate and water path is not a demonstrated structural repair.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "icc-deck-ledger",
+                  "location": "Deck ledger connection to actual house structure and limits of attachment",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-carpentry:019000",
+        "file": "019000-deck-footings-post-bases-and-the-long-term-load-path.md",
+        "sha256": "2437d056bf939e3d5c81933a265d10a994b732d19a9030beddc0ba3c9a9c4b74",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-deck-footings-post-bases-and-the-long-term-load-path.md",
+          "related_resources": [
+            {
+              "source_id": "awc-dca6-decks",
+              "reason": "Footing support, deck post bases, load paths and design assumptions; applicable edition must be checked"
+            },
+            {
+              "source_id": "awc-deck-lateral",
+              "reason": "Deck lateral connection considerations and DCA 6 design scope"
+            },
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+            },
+            {
+              "source_id": "icc-deck-ledger",
+              "reason": "Deck ledger connection to actual house structure and limits of attachment"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P019000-01",
+              "claim": "Deck footings and post connections transmit gravity loads to soil and require suitable support details.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "awc-dca6-decks",
+                  "location": "Footing support, deck post bases, load paths and design assumptions; applicable edition must be checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-02",
+              "claim": "Gravity support does not by itself establish lateral/uplift load-path continuity.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "awc-deck-lateral",
+                  "location": "Deck lateral connection considerations and DCA 6 design scope",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-dca6-decks",
+                  "location": "Footing support, deck post bases, load paths and design assumptions; applicable edition must be checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-03",
+              "claim": "Wood and connection durability depend on moisture and exposure.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-04",
+              "claim": "Deck ledger detailing involves both structural attachment and water management.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "icc-deck-ledger",
+                  "location": "Deck ledger connection to actual house structure and limits of attachment",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "009000-inspect-and-repair-exterior-load-paths.md"
+      ],
+      "joined_before_source_parts": [
+        "013000",
+        "018000"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "009000",
-  "transcript": "009000-quadrature-error-and-adaptivity.md",
+  "transcript": "009000-quadrature-and-adaptive-error-control.md",
   "related_resources": [
     {
       "source_id": "na-mit18330",
@@ -14,7 +14,79 @@
     {
       "source_id": "na-burden-faires",
       "reason": "Composite quadrature error bounds."
+    },
+    {
+      "source_id": "na-scipy-tutorial",
+      "reason": "Sampling pitfalls and the wide-interval Gaussian example."
+    },
+    {
+      "source_id": "na-scipy-quad",
+      "reason": "Quadrature error estimates and adaptive tolerance semantics."
+    },
+    {
+      "source_id": "na-mit18330",
+      "reason": "Quadrature rules and error analysis."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "numerical-analysis:009000",
+        "file": "009000-quadrature-error-and-adaptivity.md",
+        "sha256": "b54f64c2bc04d1601a5691d8127ee2676f2ff53b75c5aaa4556bbc42a59be5f4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-quadrature-error-and-adaptivity.md",
+          "related_resources": [
+            {
+              "source_id": "na-mit18330",
+              "reason": "Numerical integration methods and truncation error."
+            },
+            {
+              "source_id": "na-trefethen-atap",
+              "reason": "Approximation and Gauss-type quadrature."
+            },
+            {
+              "source_id": "na-burden-faires",
+              "reason": "Composite quadrature error bounds."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "numerical-analysis:012000",
+        "file": "012000-adaptive-quadrature-and-error-estimators.md",
+        "sha256": "7b32201dffb489d2fe1f6ea8a41604026a6e2419b03734b7c0d358a4dbe78166",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-adaptive-quadrature-and-error-estimators.md",
+          "related_resources": [
+            {
+              "source_id": "na-scipy-tutorial",
+              "reason": "Sampling pitfalls and the wide-interval Gaussian example."
+            },
+            {
+              "source_id": "na-scipy-quad",
+              "reason": "Quadrature error estimates and adaptive tolerance semantics."
+            },
+            {
+              "source_id": "na-mit18330",
+              "reason": "Quadrature rules and error analysis."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

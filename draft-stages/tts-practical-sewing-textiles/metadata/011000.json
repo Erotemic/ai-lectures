@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "011000",
-  "transcript": "011000-choosing-fabrics-for-durability-drape-and-use.md",
+  "transcript": "011000-specify-durable-and-repairable-construction.md",
   "related_resources": [
     {
       "source_id": "usu-knits",
@@ -26,6 +26,26 @@
     {
       "source_id": "ftc-care-label",
       "reason": "Garment care instructions and warnings; what a washing instruction must consider"
+    },
+    {
+      "source_id": "okstate-seams",
+      "reason": "French and flat-felled seams and finishing methods"
+    },
+    {
+      "source_id": "usu-machine",
+      "reason": "Upper thread tension, balanced stitches, bobbin factory setting"
+    },
+    {
+      "source_id": "ykk-zipper-anatomy",
+      "reason": "Teeth/elements, slider, tape and geometry of engagement"
+    },
+    {
+      "source_id": "ykk-zipper-faq",
+      "reason": "Slider problems and model-specific zipper installation guidance"
+    },
+    {
+      "source_id": "threads-ease-fitting",
+      "reason": "Finished measurements versus body measurements; wearing and design ease"
     }
   ],
   "historical_claims": [],
@@ -104,8 +124,840 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Claim limited to source context and design/application; local requirements may differ.",
       "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-01",
+      "claim": "Lining, interfacing and reinforcement layers serve different comfort, shape and load-transfer functions.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "wsu-fabrics",
+          "location": "Woven, knit, nonwoven and fabric grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-02",
+      "claim": "Stretch direction, shrinkage and heat tolerance influence the compatibility of interfacing with the fashion fabric.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "usu-knits",
+          "location": "Stretch and recovery testing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ftc-care-label",
+          "location": "Garment care instructions and warnings; what a washing instruction must consider",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-03",
+      "claim": "Stress-point reinforcement must spread force through fabric without creating an excessive perforation or stiffness concentration.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "osu-seams",
+          "location": "Plain seams, allowances, pressing, finish decisions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "okstate-seams",
+          "location": "French and flat-felled seams and finishing methods",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-04",
+      "claim": "Material and construction swatches reveal effects of fusible bonding, laundering, seams and buttonholes before final assembly.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "wsu-fabrics",
+          "location": "Woven, knit, nonwoven and fabric grain",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-machine",
+          "location": "Upper thread tension, balanced stitches, bobbin factory setting",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-01",
+      "claim": "A zipper comprises interlocking elements, a slider and tape whose geometry controls engagement.",
+      "kind": "original_manufacturer_design",
+      "supports": [
+        {
+          "source_id": "ykk-zipper-anatomy",
+          "location": "Y-shaped slider geometry and zipper elements/tape",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Applying excessive force to a jammed slider can damage zipper elements.",
+      "kind": "original_manufacturer_service",
+      "supports": [
+        {
+          "source_id": "ykk-zipper-faq",
+          "location": "Slider does not open or close smoothly",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Closure durability depends on the load path from hardware into the surrounding textile.",
+      "kind": "derived_sewing_mechanics",
+      "supports": [
+        {
+          "source_id": "ykk-zipper-anatomy",
+          "location": "Zipper tape, elements and slider",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osu-seams",
+          "location": "Seam construction and fabric support",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "Seam construction influences seam durability, stretch and the ease of opening for repair.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "osu-seams",
+          "location": "Plain seams, allowances, pressing, finish decisions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-knits",
+          "location": "Stretch and recovery testing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Zippers and closures can fail independently of the surrounding garment fabric.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ykk-zipper-faq",
+          "location": "Slider problems and model-specific zipper installation guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Planned access to replace closures or elastic is an explanatory repairability design principle, not a standard-specific requirement.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "osu-seams",
+          "location": "Plain seams, allowances, pressing, finish decisions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ykk-zipper-faq",
+          "location": "Slider problems and model-specific zipper installation guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Fabric care properties and seam-finish choices affect future maintenance and repair.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ftc-care-label",
+          "location": "Garment care instructions and warnings; what a washing instruction must consider",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osu-seams",
+          "location": "Plain seams, allowances, pressing, finish decisions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-01",
+      "claim": "Garment ease is the distinction between finished pattern dimensions and body measurements, varying by intended fit.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Finished measurements versus body measurements; wearing and design ease",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Grain direction and fabric construction affect drape, stretch and stability of fitted garments.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Changing one pattern piece may require changes to adjacent joining seams and ease allowances.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Finished measurements versus body measurements; wearing and design ease",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Repair decisions should consider closure function and fabric condition, not only the cost of replacement parts.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ykk-zipper-faq",
+          "location": "Slider problems and model-specific zipper installation guidance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ftc-care-label",
+          "location": "Garment care instructions and warnings; what a washing instruction must consider",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+  "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-sewing-textiles:011000",
+        "file": "011000-choosing-fabrics-for-durability-drape-and-use.md",
+        "sha256": "69dbfb842dc64deed402d064f9086ad342c5271b687e0fffa4c174489389f9b0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-choosing-fabrics-for-durability-drape-and-use.md",
+          "related_resources": [
+            {
+              "source_id": "usu-knits",
+              "reason": "Stretch and recovery testing"
+            },
+            {
+              "source_id": "wsu-fabrics",
+              "reason": "Woven, knit, nonwoven and fabric grain"
+            },
+            {
+              "source_id": "usu-grain",
+              "reason": "Lengthwise, crosswise and bias grain"
+            },
+            {
+              "source_id": "sewing-seams",
+              "reason": "Stitch lines and seam allowances"
+            },
+            {
+              "source_id": "osu-seams",
+              "reason": "Plain seams, allowances, pressing, finish decisions"
+            },
+            {
+              "source_id": "ftc-care-label",
+              "reason": "Garment care instructions and warnings; what a washing instruction must consider"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "Woven and knitted structures differ in stretch behavior and pattern construction assumptions.",
+              "kind": "original_extension_textile_guidance",
+              "supports": [
+                {
+                  "source_id": "usu-knits",
+                  "location": "Knit characteristics",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "wsu-fabrics",
+                  "location": "Woven and knit comparison",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "Fabric yarn direction and grain affect deformation and bias behavior.",
+              "kind": "original_extension_sewing_guidance",
+              "supports": [
+                {
+                  "source_id": "usu-grain",
+                  "location": "Grain and bias placement",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "Seam construction must suit fabric properties and intended use, not just the fiber label.",
+              "kind": "derived_sewing_synthesis",
+              "supports": [
+                {
+                  "source_id": "sewing-seams",
+                  "location": "Seam selection and strength",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osu-seams",
+                  "location": "Seam construction",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "Care and laundering instructions can help anticipate shrinkage and wear but are not exhaustive fabric performance tests.",
+              "kind": "regulatory_and_technical_scope",
+              "supports": [
+                {
+                  "source_id": "ftc-care-label",
+                  "location": "Care label requirements",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "wsu-fabrics",
+                  "location": "Material properties",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-sewing-textiles:014000",
+        "file": "014000-linings-interfacings-and-reinforcing-stress-points.md",
+        "sha256": "4d532f2788a1da1694466d6b20c2f144bb36534a86619c3d6791d63d1f0530e0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-linings-interfacings-and-reinforcing-stress-points.md",
+          "related_resources": [
+            {
+              "source_id": "usu-grain",
+              "reason": "Lengthwise, crosswise and bias grain"
+            },
+            {
+              "source_id": "wsu-fabrics",
+              "reason": "Woven, knit, nonwoven and fabric grain"
+            },
+            {
+              "source_id": "usu-knits",
+              "reason": "Stretch and recovery testing"
+            },
+            {
+              "source_id": "ftc-care-label",
+              "reason": "Garment care instructions and warnings; what a washing instruction must consider"
+            },
+            {
+              "source_id": "osu-seams",
+              "reason": "Plain seams, allowances, pressing, finish decisions"
+            },
+            {
+              "source_id": "okstate-seams",
+              "reason": "French and flat-felled seams and finishing methods"
+            },
+            {
+              "source_id": "usu-machine",
+              "reason": "Upper thread tension, balanced stitches, bobbin factory setting"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P014000-01",
+              "claim": "Lining, interfacing and reinforcement layers serve different comfort, shape and load-transfer functions.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "usu-grain",
+                  "location": "Lengthwise, crosswise and bias grain",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "wsu-fabrics",
+                  "location": "Woven, knit, nonwoven and fabric grain",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-02",
+              "claim": "Stretch direction, shrinkage and heat tolerance influence the compatibility of interfacing with the fashion fabric.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "usu-knits",
+                  "location": "Stretch and recovery testing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ftc-care-label",
+                  "location": "Garment care instructions and warnings; what a washing instruction must consider",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-03",
+              "claim": "Stress-point reinforcement must spread force through fabric without creating an excessive perforation or stiffness concentration.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "osu-seams",
+                  "location": "Plain seams, allowances, pressing, finish decisions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "okstate-seams",
+                  "location": "French and flat-felled seams and finishing methods",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-04",
+              "claim": "Material and construction swatches reveal effects of fusible bonding, laundering, seams and buttonholes before final assembly.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "wsu-fabrics",
+                  "location": "Woven, knit, nonwoven and fabric grain",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-machine",
+                  "location": "Upper thread tension, balanced stitches, bobbin factory setting",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-sewing-textiles:009000",
+        "file": "009000-zippers-buttons-and-other-closures.md",
+        "sha256": "f6bc6b47d354518fccbc1ffd748e1020ad557fd4070b75aebc7f87cf95e75d13",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-zippers-buttons-and-other-closures.md",
+          "related_resources": [
+            {
+              "source_id": "ykk-zipper-anatomy",
+              "reason": "Teeth/elements, slider, tape and geometry of engagement"
+            },
+            {
+              "source_id": "ykk-zipper-faq",
+              "reason": "Slider problems and model-specific zipper installation guidance"
+            },
+            {
+              "source_id": "osu-seams",
+              "reason": "Plain seams, allowances, pressing, finish decisions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P009000-01",
+              "claim": "A zipper comprises interlocking elements, a slider and tape whose geometry controls engagement.",
+              "kind": "original_manufacturer_design",
+              "supports": [
+                {
+                  "source_id": "ykk-zipper-anatomy",
+                  "location": "Y-shaped slider geometry and zipper elements/tape",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-02",
+              "claim": "Applying excessive force to a jammed slider can damage zipper elements.",
+              "kind": "original_manufacturer_service",
+              "supports": [
+                {
+                  "source_id": "ykk-zipper-faq",
+                  "location": "Slider does not open or close smoothly",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-03",
+              "claim": "Closure durability depends on the load path from hardware into the surrounding textile.",
+              "kind": "derived_sewing_mechanics",
+              "supports": [
+                {
+                  "source_id": "ykk-zipper-anatomy",
+                  "location": "Zipper tape, elements and slider",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osu-seams",
+                  "location": "Seam construction and fabric support",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+        }
+      },
+      {
+        "id": "practical-sewing-textiles:017000",
+        "file": "017000-sewing-for-repairable-construction.md",
+        "sha256": "80408475d2142414965de0160944593fe8a503540c77bc93d8ebb6b8d4667ee4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-sewing-for-repairable-construction.md",
+          "related_resources": [
+            {
+              "source_id": "osu-seams",
+              "reason": "Plain seams, allowances, pressing, finish decisions"
+            },
+            {
+              "source_id": "usu-knits",
+              "reason": "Stretch and recovery testing"
+            },
+            {
+              "source_id": "ftc-care-label",
+              "reason": "Garment care instructions and warnings; what a washing instruction must consider"
+            },
+            {
+              "source_id": "ykk-zipper-faq",
+              "reason": "Slider problems and model-specific zipper installation guidance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "Seam construction influences seam durability, stretch and the ease of opening for repair.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "osu-seams",
+                  "location": "Plain seams, allowances, pressing, finish decisions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-knits",
+                  "location": "Stretch and recovery testing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "Zippers and closures can fail independently of the surrounding garment fabric.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ykk-zipper-faq",
+                  "location": "Slider problems and model-specific zipper installation guidance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "Planned access to replace closures or elastic is an explanatory repairability design principle, not a standard-specific requirement.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "osu-seams",
+                  "location": "Plain seams, allowances, pressing, finish decisions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ykk-zipper-faq",
+                  "location": "Slider problems and model-specific zipper installation guidance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "Fabric care properties and seam-finish choices affect future maintenance and repair.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ftc-care-label",
+                  "location": "Garment care instructions and warnings; what a washing instruction must consider",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osu-seams",
+                  "location": "Plain seams, allowances, pressing, finish decisions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-sewing-textiles:016000",
+        "file": "016000-pattern-grading-and-garment-repair-economics.md",
+        "sha256": "86e81990fe9f1220071fc9fac03b9633102656617f541125cec91852f33242aa",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-pattern-grading-and-garment-repair-economics.md",
+          "related_resources": [
+            {
+              "source_id": "threads-ease-fitting",
+              "reason": "Finished measurements versus body measurements; wearing and design ease"
+            },
+            {
+              "source_id": "usu-grain",
+              "reason": "Lengthwise, crosswise and bias grain"
+            },
+            {
+              "source_id": "ftc-care-label",
+              "reason": "Garment care instructions and warnings; what a washing instruction must consider"
+            },
+            {
+              "source_id": "ykk-zipper-faq",
+              "reason": "Slider problems and model-specific zipper installation guidance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "Garment ease is the distinction between finished pattern dimensions and body measurements, varying by intended fit.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "threads-ease-fitting",
+                  "location": "Finished measurements versus body measurements; wearing and design ease",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "Grain direction and fabric construction affect drape, stretch and stability of fitted garments.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usu-grain",
+                  "location": "Lengthwise, crosswise and bias grain",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "Changing one pattern piece may require changes to adjacent joining seams and ease allowances.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "threads-ease-fitting",
+                  "location": "Finished measurements versus body measurements; wearing and design ease",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-grain",
+                  "location": "Lengthwise, crosswise and bias grain",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Repair decisions should consider closure function and fabric condition, not only the cost of replacement parts.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ykk-zipper-faq",
+                  "location": "Slider problems and model-specific zipper installation guidance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ftc-care-label",
+                  "location": "Garment care instructions and warnings; what a washing instruction must consider",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "011000-specify-durable-and-repairable-construction.md"
+      ],
+      "joined_before_source_parts": [
+        "014000",
+        "017000"
+      ]
+    }
+  ]
 }

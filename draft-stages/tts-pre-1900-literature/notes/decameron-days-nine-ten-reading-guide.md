@@ -1,5 +1,7 @@
 # Boccaccio’s *Decameron*: Days Nine and Ten — source and reading guide
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 **Coverage:** 400000–423000, the fifth narrative installment of this work in
 our pre-1900 literature track. Days One–Eight occupy 312000–399000. This
 installment completes **all 100 individually narrated tales**. Each of ten

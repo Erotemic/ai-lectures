@@ -17,23 +17,10 @@
     "quadrature-and-error",
     "iterative-linear-algebra",
     "numerical-ode-methods",
-    "adaptive-quadrature",
-    "interval-verification",
     "sparse-eigen-krylov",
-    "implicit-stepping-newton-krylov",
     "automatic-differentiation-adjoints",
-    "validated-ode",
     "posteriori-fem-errors",
-    "multigrid-preconditioning",
-    "verified-nonlinear-systems",
-    "nonsmooth-sensitivities",
-    "equilibrated-flux-certificates",
-    "anisotropic-multigrid",
-    "validated-bifurcation-diagrams",
-    "validated-periodic-orbits",
-    "hybrid-event-sensitivity",
-    "goal-oriented-dual-weighted-residual",
-    "rotated-anisotropy-amg"
+    "multigrid-preconditioning"
   ],
   "lectures": [
     {
@@ -110,12 +97,16 @@
     },
     {
       "id": "009000",
-      "title": "Numerical Integration: Accuracy, Quadrature, and Honest Error Estimates",
+      "title": "Quadrature and adaptive error control",
       "section": "quadrature-and-error",
-      "file": "009000-quadrature-error-and-adaptivity.md",
-      "spoken_words": 1307,
+      "file": "009000-quadrature-and-adaptive-error-control.md",
+      "spoken_words": 2649,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.0
+      "estimated_minutes_at_145_wpm": 18.3,
+      "consolidated_from": [
+        "009000",
+        "012000"
+      ]
     },
     {
       "id": "010000",
@@ -128,165 +119,75 @@
     },
     {
       "id": "011000",
-      "title": "Euler and Runge–Kutta Methods: Accuracy Is Not Stability",
+      "title": "Time stepping, verified enclosures, and validated dynamics",
       "section": "numerical-ode-methods",
-      "file": "011000-euler-runge-kutta-and-stability.md",
-      "spoken_words": 1363,
+      "file": "011000-time-stepping-verified-enclosures-and-validated-dynamics.md",
+      "spoken_words": 7031,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.4
-    },
-    {
-      "id": "012000",
-      "title": "Adaptive Quadrature: Spend Computation Where the Integral Is Difficult",
-      "section": "adaptive-quadrature",
-      "file": "012000-adaptive-quadrature-and-error-estimators.md",
-      "spoken_words": 1337,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.2
-    },
-    {
-      "id": "013000",
-      "title": "Interval Arithmetic: From Plausible Answers to Verified Enclosures",
-      "section": "interval-verification",
-      "file": "013000-interval-arithmetic-and-verified-enclosures.md",
-      "spoken_words": 1220,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.4
+      "estimated_minutes_at_145_wpm": 48.5,
+      "consolidated_from": [
+        "011000",
+        "013000",
+        "020000",
+        "017000",
+        "024000",
+        "025000"
+      ]
     },
     {
       "id": "014000",
-      "title": "Sparse Eigenvalue Problems: Krylov Spaces, Lanczos, and Arnoldi",
+      "title": "Krylov eigenproblems, implicit time steps, and preconditioning",
       "section": "sparse-eigen-krylov",
-      "file": "014000-sparse-eigenvalues-krylov-lanczos-and-arnoldi.md",
-      "spoken_words": 1303,
+      "file": "014000-residuals-krylov-eigenproblems-and-implicit-solves-shared-core.md",
+      "spoken_words": 2558,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.0
-    },
-    {
-      "id": "015000",
-      "title": "Implicit Time Stepping, Newton–Krylov Solvers, and Preconditioning",
-      "section": "implicit-stepping-newton-krylov",
-      "file": "015000-implicit-stepping-newton-krylov-preconditioning.md",
-      "spoken_words": 1248,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.6
+      "estimated_minutes_at_145_wpm": 17.6,
+      "consolidated_from": [
+        "014000",
+        "015000"
+      ]
     },
     {
       "id": "016000",
-      "title": "Automatic Differentiation and Adjoint Sensitivity",
+      "title": "Differentiating algorithms, nonsmooth outputs, and event times",
       "section": "automatic-differentiation-adjoints",
-      "file": "016000-automatic-differentiation-adjoints-and-sensitivity.md",
-      "spoken_words": 1262,
+      "file": "016000-differentiating-algorithms-nonsmooth-outputs-and-event-times.md",
+      "spoken_words": 3716,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.7
-    },
-    {
-      "id": "017000",
-      "title": "Validated Integration of Ordinary Differential Equations",
-      "section": "validated-ode",
-      "file": "017000-validated-integration-of-ordinary-differential-equations.md",
-      "spoken_words": 831,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 5.7
+      "estimated_minutes_at_145_wpm": 25.6,
+      "consolidated_from": [
+        "016000",
+        "021000",
+        "026000"
+      ]
     },
     {
       "id": "018000",
-      "title": "A Posteriori Error Estimates for Finite Element Solutions",
+      "title": "Finite-element error bounds, equilibrated fluxes, and goal functionals",
       "section": "posteriori-fem-errors",
-      "file": "018000-a-posteriori-pde-error-estimates.md",
-      "spoken_words": 1025,
+      "file": "018000-finite-element-error-bounds-equilibrated-fluxes-and-goal-functionals.md",
+      "spoken_words": 3241,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.1
+      "estimated_minutes_at_145_wpm": 22.4,
+      "consolidated_from": [
+        "018000",
+        "022000",
+        "027000"
+      ]
     },
     {
       "id": "019000",
-      "title": "Multigrid and Matrix-Free Preconditioning",
+      "title": "Multigrid from near-nullspace to anisotropy",
       "section": "multigrid-preconditioning",
-      "file": "019000-multigrid-and-matrix-free-preconditioning.md",
-      "spoken_words": 947,
+      "file": "019000-multigrid-from-near-nullspace-to-anisotropy.md",
+      "spoken_words": 3075,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.5
-    },
-    {
-      "id": "020000",
-      "title": "Verified Nonlinear Systems: Interval Newton and Krawczyk Operators",
-      "section": "verified-nonlinear-systems",
-      "file": "020000-verified-nonlinear-systems-krawczyk-and-interval-newton.md",
-      "spoken_words": 968,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.7
-    },
-    {
-      "id": "021000",
-      "title": "Nonsmooth Sensitivity: What a Derivative Can and Cannot Tell You",
-      "section": "nonsmooth-sensitivities",
-      "file": "021000-nonsmooth-sensitivities-and-algorithmic-derivatives.md",
-      "spoken_words": 1113,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.7
-    },
-    {
-      "id": "022000",
-      "title": "Equilibrated Fluxes: A Computable Upper Bound on PDE Error",
-      "section": "equilibrated-flux-certificates",
-      "file": "022000-equilibrated-fluxes-and-guaranteed-error-bounds.md",
-      "spoken_words": 1124,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.8
-    },
-    {
-      "id": "023000",
-      "title": "Anisotropic Multigrid: When the Grid Has a Preferred Direction",
-      "section": "anisotropic-multigrid",
-      "file": "023000-anisotropic-multigrid-line-smoothing-and-semicoarsening.md",
-      "spoken_words": 1244,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.6
-    },
-    {
-      "id": "024000",
-      "title": "Validated Bifurcation Diagrams and Computer-Assisted Proof",
-      "section": "validated-bifurcation-diagrams",
-      "file": "024000-validated-bifurcation-diagrams.md",
-      "spoken_words": 1209,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 8.3
-    },
-    {
-      "id": "025000",
-      "title": "Validated Periodic Orbits and Floquet Multipliers",
-      "section": "validated-periodic-orbits",
-      "file": "025000-validated-periodic-orbits-and-floquet-multipliers.md",
-      "spoken_words": 1407,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.7
-    },
-    {
-      "id": "026000",
-      "title": "Event-Time Sensitivities and Saltation Matrices",
-      "section": "hybrid-event-sensitivity",
-      "file": "026000-event-time-sensitivities-and-saltation.md",
-      "spoken_words": 1337,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 9.2
-    },
-    {
-      "id": "027000",
-      "title": "Goal-Oriented Error Estimation and Dual-Weighted Residuals",
-      "section": "goal-oriented-dual-weighted-residual",
-      "file": "027000-goal-oriented-dual-weighted-residual.md",
-      "spoken_words": 1080,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 7.4
-    },
-    {
-      "id": "028000",
-      "title": "Algebraic Multigrid for Rotated Anisotropy",
-      "section": "rotated-anisotropy-amg",
-      "file": "028000-algebraic-multigrid-for-rotated-anisotropy.md",
-      "spoken_words": 887,
-      "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 6.1
+      "estimated_minutes_at_145_wpm": 21.2,
+      "consolidated_from": [
+        "019000",
+        "023000",
+        "028000"
+      ]
     }
   ]
 }

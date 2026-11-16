@@ -57,6 +57,12 @@ def test_real_source_merge_removes_parts_and_updates_every_route_and_metadata(tm
     assert len(metadata['consolidation']['sources']) == 2
     assert (directory / 'provenance.yaml').is_file()
     assert not result['warnings']
+    # A later composition retains the original component lineage for graph evidence.
+    again = dict(groups=[dict(pack='sample', title='A larger connected argument', lectures=['001000', '003000'])], collection_orders={'elsewhere:survey': ['sample:001000', 'sample:003000']})
+    observed, writes, deletes, _ = prepare(tmp_path, again)
+    apply_prepared(observed, writes, deletes)
+    entry = json.loads((directory / 'track.json').read_text())['lectures'][0]
+    assert entry['consolidated_from'] == ['001000', '002000', '003000']
 
 
 def test_partial_survey_coverage_requires_an_explicit_editorial_choice(tmp_path):

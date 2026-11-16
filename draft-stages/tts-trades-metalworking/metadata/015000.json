@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "015000",
-  "transcript": "015000-welding-distortion-and-fixture-design.md",
+  "transcript": "015000-control-distortion-and-build-sheet-metal-assemblies.md",
   "related_resources": [
     {
       "source_id": "twi-tack-distortion",
@@ -18,6 +18,30 @@
     {
       "source_id": "nasa-crews-fatigue",
       "reason": "Fatigue cracking under cyclic loading and geometric stress concentration"
+    },
+    {
+      "source_id": "asme-y145-2018",
+      "reason": "Geometric specification of part size, location, form, orientation, and datum relationships"
+    },
+    {
+      "source_id": "ampp-galvanic-corrosion",
+      "reason": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact"
+    },
+    {
+      "source_id": "iso-fastener-grade",
+      "reason": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed"
+    },
+    {
+      "source_id": "aws-brazing-handbook-fifth",
+      "reason": "Brazing definition, capillary action and joint preparation"
+    },
+    {
+      "source_id": "nasa-barrett-fastener",
+      "reason": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary"
+    },
+    {
+      "source_id": "osha-mwf",
+      "reason": "Tool/workpiece heat, chip removal, cooling and lubrication of machining operations"
     }
   ],
   "historical_claims": [],
@@ -86,8 +110,824 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
       "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-01",
+      "claim": "Sheet metal gains directional bending stiffness when formed into flanges, hems and stiffened sections.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "asme-y145-2018",
+          "location": "Geometric specification of part size, location, form, orientation, and datum relationships",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-02",
+      "claim": "Bend allowance and springback depend on sheet thickness, material, bend radius and tooling.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-03",
+      "claim": "Outdoor enclosure weather resistance depends on all seams, openings, cable entries and corrosion-prone interfaces.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-04",
+      "claim": "Metal enclosure use around electrical equipment adds listing, penetration and bonding requirements beyond basic fabrication.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "iso-fastener-grade",
+          "location": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-01",
+      "claim": "Dissimilar metals in electrical contact with an electrolyte may experience galvanic corrosion.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Brazing and fusion welding join metals through different thermal and metallurgical mechanisms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aws-brazing-handbook-fifth",
+          "location": "Brazing definition, capillary action and joint preparation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-welding",
+          "location": "Fumes, ultraviolet radiation, burns, electric shock and protective controls",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Differential thermal movement and environmental exposure must be considered alongside static joint strength.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Welding fumes and process exposure hazards are independent of whether the resulting joint looks sound.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "osha-welding",
+          "location": "Fumes, ultraviolet radiation, burns, electric shock and protective controls",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "Thin sheet joint performance depends on bearing, tear-out, peel and fatigue as well as fastener strength.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Weld heating can distort thin-sheet assemblies and alter coatings or heat-affected zones.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-welding",
+          "location": "Fumes, ultraviolet radiation, burns, electric shock and protective controls",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Brazing and welding rely on different metallurgical joining mechanisms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aws-brazing-handbook-fifth",
+          "location": "Brazing definition, capillary action and joint preparation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-welding",
+          "location": "Fumes, ultraviolet radiation, burns, electric shock and protective controls",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Dissimilar metals in an electrolyte can form a galvanic corrosion system.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "Folded sheet-metal edges can increase panel stiffness compared with a flat sheet of equal thickness.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Fastener choices and thread support affect service durability of a removable panel.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nasa-barrett-fastener",
+          "location": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Dissimilar wet metals may suffer galvanic corrosion depending on compatibility and exposure.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "A gasket-and-spray prototype test is not equivalent to formal ingress rating certification.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nasa-barrett-fastener",
+          "location": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-metalworking:015000",
+        "file": "015000-welding-distortion-and-fixture-design.md",
+        "sha256": "f6f12bf24474da8a6690909e50ab6e4a6ec0683376520d8c85f8c97001791b2e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-welding-distortion-and-fixture-design.md",
+          "related_resources": [
+            {
+              "source_id": "twi-tack-distortion",
+              "reason": "Effect of tack spacing, sequence, and root-gap control on welding shrinkage"
+            },
+            {
+              "source_id": "osha-welding",
+              "reason": "Fumes, ultraviolet radiation, burns, electric shock and protective controls"
+            },
+            {
+              "source_id": "asm-sheet-bending",
+              "reason": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked"
+            },
+            {
+              "source_id": "nasa-crews-fatigue",
+              "reason": "Fatigue cracking under cyclic loading and geometric stress concentration"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "Weld heating and cooling generate contraction and can distort the joined assembly.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "twi-tack-distortion",
+                  "location": "Effect of tack spacing, sequence, and root-gap control on welding shrinkage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "Tack placement and sequence influence joint gap and transverse shrinkage.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "twi-tack-distortion",
+                  "location": "Effect of tack spacing, sequence, and root-gap control on welding shrinkage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Restraint may reduce visible movement during welding without eliminating residual stresses.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "twi-tack-distortion",
+                  "location": "Effect of tack spacing, sequence, and root-gap control on welding shrinkage",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "asm-sheet-bending",
+                  "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Welding fume and process hazards require controls independent of dimensional-fixture quality.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "osha-welding",
+                  "location": "Fumes, ultraviolet radiation, burns, electric shock and protective controls",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-metalworking:014000",
+        "file": "014000-sheet-metal-enclosures-stiffening-and-weather-sealing.md",
+        "sha256": "93804e640878a80bffd389c4cd1b792906ba58e01d76d5647171dd7b6c727a56",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-sheet-metal-enclosures-stiffening-and-weather-sealing.md",
+          "related_resources": [
+            {
+              "source_id": "asm-sheet-bending",
+              "reason": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked"
+            },
+            {
+              "source_id": "asme-y145-2018",
+              "reason": "Geometric specification of part size, location, form, orientation, and datum relationships"
+            },
+            {
+              "source_id": "ampp-galvanic-corrosion",
+              "reason": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact"
+            },
+            {
+              "source_id": "iso-fastener-grade",
+              "reason": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P014000-01",
+              "claim": "Sheet metal gains directional bending stiffness when formed into flanges, hems and stiffened sections.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "asm-sheet-bending",
+                  "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "asme-y145-2018",
+                  "location": "Geometric specification of part size, location, form, orientation, and datum relationships",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-02",
+              "claim": "Bend allowance and springback depend on sheet thickness, material, bend radius and tooling.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "asm-sheet-bending",
+                  "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-03",
+              "claim": "Outdoor enclosure weather resistance depends on all seams, openings, cable entries and corrosion-prone interfaces.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "asm-sheet-bending",
+                  "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-04",
+              "claim": "Metal enclosure use around electrical equipment adds listing, penetration and bonding requirements beyond basic fabrication.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "iso-fastener-grade",
+                  "location": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-metalworking:016000",
+        "file": "016000-machining-and-welding-dissimilar-metals.md",
+        "sha256": "0210ae0891541cc306153bf9bf1875b8b15f7e2d4617c5994d07eab1ad1a474e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-machining-and-welding-dissimilar-metals.md",
+          "related_resources": [
+            {
+              "source_id": "ampp-galvanic-corrosion",
+              "reason": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact"
+            },
+            {
+              "source_id": "aws-brazing-handbook-fifth",
+              "reason": "Brazing definition, capillary action and joint preparation"
+            },
+            {
+              "source_id": "osha-welding",
+              "reason": "Fumes, ultraviolet radiation, burns, electric shock and protective controls"
+            },
+            {
+              "source_id": "asm-sheet-bending",
+              "reason": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "Dissimilar metals in electrical contact with an electrolyte may experience galvanic corrosion.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "Brazing and fusion welding join metals through different thermal and metallurgical mechanisms.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aws-brazing-handbook-fifth",
+                  "location": "Brazing definition, capillary action and joint preparation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-welding",
+                  "location": "Fumes, ultraviolet radiation, burns, electric shock and protective controls",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "Differential thermal movement and environmental exposure must be considered alongside static joint strength.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "asm-sheet-bending",
+                  "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Welding fumes and process exposure hazards are independent of whether the resulting joint looks sound.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "osha-welding",
+                  "location": "Fumes, ultraviolet radiation, burns, electric shock and protective controls",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-metalworking:017000",
+        "file": "017000-joining-strategies-for-thin-sheet-metal.md",
+        "sha256": "d0cfe32e0f6a631528861f5e529ff0b81bda92743a9c93011d5c4df3257ca4bb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-joining-strategies-for-thin-sheet-metal.md",
+          "related_resources": [
+            {
+              "source_id": "asm-sheet-bending",
+              "reason": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked"
+            },
+            {
+              "source_id": "osha-welding",
+              "reason": "Fumes, ultraviolet radiation, burns, electric shock and protective controls"
+            },
+            {
+              "source_id": "ampp-galvanic-corrosion",
+              "reason": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact"
+            },
+            {
+              "source_id": "aws-brazing-handbook-fifth",
+              "reason": "Brazing definition, capillary action and joint preparation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "Thin sheet joint performance depends on bearing, tear-out, peel and fatigue as well as fastener strength.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "asm-sheet-bending",
+                  "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "Weld heating can distort thin-sheet assemblies and alter coatings or heat-affected zones.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "asm-sheet-bending",
+                  "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-welding",
+                  "location": "Fumes, ultraviolet radiation, burns, electric shock and protective controls",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "Brazing and welding rely on different metallurgical joining mechanisms.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aws-brazing-handbook-fifth",
+                  "location": "Brazing definition, capillary action and joint preparation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-welding",
+                  "location": "Fumes, ultraviolet radiation, burns, electric shock and protective controls",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "Dissimilar metals in an electrolyte can form a galvanic corrosion system.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-metalworking:018000",
+        "file": "018000-designing-weatherproof-removable-panels.md",
+        "sha256": "cf6bbc248f7e570d986faf3d7fe4b712977af68c39dc37671efe1acfb12df1ee",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-designing-weatherproof-removable-panels.md",
+          "related_resources": [
+            {
+              "source_id": "asm-sheet-bending",
+              "reason": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked"
+            },
+            {
+              "source_id": "nasa-barrett-fastener",
+              "reason": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary"
+            },
+            {
+              "source_id": "ampp-galvanic-corrosion",
+              "reason": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact"
+            },
+            {
+              "source_id": "osha-mwf",
+              "reason": "Tool/workpiece heat, chip removal, cooling and lubrication of machining operations"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "Folded sheet-metal edges can increase panel stiffness compared with a flat sheet of equal thickness.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "asm-sheet-bending",
+                  "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Fastener choices and thread support affect service durability of a removable panel.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nasa-barrett-fastener",
+                  "location": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "Dissimilar wet metals may suffer galvanic corrosion depending on compatibility and exposure.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "A gasket-and-spray prototype test is not equivalent to formal ingress rating certification.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "asm-sheet-bending",
+                  "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nasa-barrett-fastener",
+                  "location": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "015000-control-distortion-and-build-sheet-metal-assemblies.md"
+      ],
+      "joined_before_source_parts": [
+        "014000",
+        "018000"
+      ]
+    }
+  ]
 }

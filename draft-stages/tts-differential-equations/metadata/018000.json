@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "018000",
-  "transcript": "018000-conservation-laws-shocks-and-entropy-solutions.md",
+  "transcript": "018000-entropy-shocks-viscous-profiles-and-nonlinear-stability.md",
   "related_resources": [
     {
       "source_id": "de-stanford-conservation",
@@ -14,6 +14,38 @@
     {
       "source_id": "de-evans-book",
       "reason": "Scalar conservation-law arguments."
+    },
+    {
+      "source_id": "de-r16-032000-1",
+      "reason": "Reference on Compressible Fluids and Shock Stability: When Solutions Disagree on Smoothness (1 of 3)"
+    },
+    {
+      "source_id": "de-r16-032000-2",
+      "reason": "Reference on Compressible Fluids and Shock Stability: When Solutions Disagree on Smoothness (2 of 3)"
+    },
+    {
+      "source_id": "de-r16-032000-3",
+      "reason": "Reference on Compressible Fluids and Shock Stability: When Solutions Disagree on Smoothness (3 of 3)"
+    },
+    {
+      "source_id": "de-r18-035000-1",
+      "reason": "Reference on Viscous Shock Profiles and the Evans Function (1 of 3)"
+    },
+    {
+      "source_id": "de-r18-035000-2",
+      "reason": "Reference on Viscous Shock Profiles and the Evans Function (2 of 3)"
+    },
+    {
+      "source_id": "de-r18-035000-3",
+      "reason": "Reference on Viscous Shock Profiles and the Evans Function (3 of 3)"
+    },
+    {
+      "source_id": "de-r19-037000-1",
+      "reason": "Reference for Pointwise Green Kernels and Nonlinear Viscous-Shock Stability (1 of 2)"
+    },
+    {
+      "source_id": "de-r19-037000-2",
+      "reason": "Reference for Pointwise Green Kernels and Nonlinear Viscous-Shock Stability (2 of 2)"
     }
   ],
   "historical_claims": [
@@ -27,5 +59,177 @@
       "source_locator": "Conservation-laws lecture notes: jump relation.",
       "audit_status": "reference_recorded"
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "differential-equations:018000",
+        "file": "018000-conservation-laws-shocks-and-entropy-solutions.md",
+        "sha256": "d70b04f7fa31ba020c34f54ee42b93a2bc47cbcd51c3ce1774d06da6fc02a2f0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-conservation-laws-shocks-and-entropy-solutions.md",
+          "related_resources": [
+            {
+              "source_id": "de-stanford-conservation",
+              "reason": "Weak solutions, Rankine-Hugoniot and entropy conditions."
+            },
+            {
+              "source_id": "de-lax-shocks",
+              "reason": "Classical mathematical theory of shocks and entropy."
+            },
+            {
+              "source_id": "de-evans-book",
+              "reason": "Scalar conservation-law arguments."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "018000-h01",
+              "anchor": "Rankine–Hugoniot",
+              "kind": "historical_research",
+              "source_ids": [
+                "de-stanford-conservation"
+              ],
+              "source_locator": "Conservation-laws lecture notes: jump relation.",
+              "audit_status": "reference_recorded"
+            }
+          ]
+        }
+      },
+      {
+        "id": "differential-equations:032000",
+        "file": "032000-nonlinear-shock-stability-and-green-kernel-control-shared-core.md",
+        "sha256": "42db282ae5d541b65d97da3b8bf2cf3d1d791eb9390e081a83e7e7491dd09969",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "032000",
+          "transcript": "032000-nonlinear-shock-stability-and-green-kernel-control-shared-core.md",
+          "related_resources": [
+            {
+              "source_id": "de-r16-032000-1",
+              "reason": "Reference on Compressible Fluids and Shock Stability: When Solutions Disagree on Smoothness (1 of 3)"
+            },
+            {
+              "source_id": "de-r16-032000-2",
+              "reason": "Reference on Compressible Fluids and Shock Stability: When Solutions Disagree on Smoothness (2 of 3)"
+            },
+            {
+              "source_id": "de-r16-032000-3",
+              "reason": "Reference on Compressible Fluids and Shock Stability: When Solutions Disagree on Smoothness (3 of 3)"
+            },
+            {
+              "source_id": "de-r18-035000-1",
+              "reason": "Reference on Viscous Shock Profiles and the Evans Function (1 of 3)"
+            },
+            {
+              "source_id": "de-r18-035000-2",
+              "reason": "Reference on Viscous Shock Profiles and the Evans Function (2 of 3)"
+            },
+            {
+              "source_id": "de-r18-035000-3",
+              "reason": "Reference on Viscous Shock Profiles and the Evans Function (3 of 3)"
+            },
+            {
+              "source_id": "de-r19-037000-1",
+              "reason": "Reference for Pointwise Green Kernels and Nonlinear Viscous-Shock Stability (1 of 2)"
+            },
+            {
+              "source_id": "de-r19-037000-2",
+              "reason": "Reference for Pointwise Green Kernels and Nonlinear Viscous-Shock Stability (2 of 2)"
+            }
+          ],
+          "historical_claims": [],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "differential-equations:032000",
+                "file": "032000-compressible-fluids-shocks-and-stability.md",
+                "sha256": "8084386e123c7c1d6a88200d4bbbe542a98ca543f4ea454da07c34e172e7bd74",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "032000",
+                  "transcript": "032000-compressible-fluids-shocks-and-stability.md",
+                  "related_resources": [
+                    {
+                      "source_id": "de-r16-032000-1",
+                      "reason": "Reference on Compressible Fluids and Shock Stability: When Solutions Disagree on Smoothness (1 of 3)"
+                    },
+                    {
+                      "source_id": "de-r16-032000-2",
+                      "reason": "Reference on Compressible Fluids and Shock Stability: When Solutions Disagree on Smoothness (2 of 3)"
+                    },
+                    {
+                      "source_id": "de-r16-032000-3",
+                      "reason": "Reference on Compressible Fluids and Shock Stability: When Solutions Disagree on Smoothness (3 of 3)"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "differential-equations:035000",
+                "file": "035000-viscous-shock-profiles-and-evans-functions.md",
+                "sha256": "081168742d02387f238483f16a62cb75c37005735c542ddf4cbd8d858e624e9b",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "035000",
+                  "transcript": "035000-viscous-shock-profiles-and-evans-functions.md",
+                  "related_resources": [
+                    {
+                      "source_id": "de-r18-035000-1",
+                      "reason": "Reference on Viscous Shock Profiles and the Evans Function (1 of 3)"
+                    },
+                    {
+                      "source_id": "de-r18-035000-2",
+                      "reason": "Reference on Viscous Shock Profiles and the Evans Function (2 of 3)"
+                    },
+                    {
+                      "source_id": "de-r18-035000-3",
+                      "reason": "Reference on Viscous Shock Profiles and the Evans Function (3 of 3)"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "differential-equations:037000",
+                "file": "037000-green-kernels-and-nonlinear-shock-stability.md",
+                "sha256": "584a5938d2c0d23a819af400f6e1527d94f3881d7650fff2cb9cfd6180c6707b",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "037000",
+                  "transcript": "037000-green-kernels-and-nonlinear-shock-stability.md",
+                  "related_resources": [
+                    {
+                      "source_id": "de-r19-037000-1",
+                      "reason": "Reference for Pointwise Green Kernels and Nonlinear Viscous-Shock Stability (1 of 2)"
+                    },
+                    {
+                      "source_id": "de-r19-037000-2",
+                      "reason": "Reference for Pointwise Green Kernels and Nonlinear Viscous-Shock Stability (2 of 2)"
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
 }

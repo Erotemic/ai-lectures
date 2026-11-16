@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "041400",
-  "transcript": "041400-woolf-story-the-window-afternoon.md",
+  "transcript": "041400-to-the-lighthouse-i-the-whole-story-and-its-two-clocks.md",
   "related_resources": [
     {
       "source_id": "ml-woolf-window",
@@ -10,6 +10,18 @@
     {
       "source_id": "ml-woolf-cambridge-form",
       "reason": "Authoritative description of the three-part architecture, first-section day, roughly decade-long middle, final morning, Isle of Skye setting and Lily’s role. Do not pretend to have inspected the whole chapter."
+    },
+    {
+      "source_id": "ml-woolf-nyrb-editions",
+      "reason": "Illustrates disagreement over the final emotional vantage of The Window and the first American/British variants. Treat the ending as focalization open to argument, not a narrator-certified fact."
+    },
+    {
+      "source_id": "ml-woolf-time",
+      "reason": "Direct primary text for the empty house, bracketed notices of Mrs Ramsay, Prue and Andrew, wartime absence, Mrs McNab, Mrs Bast, George and restoration. Specific wording may differ in early British editions."
+    },
+    {
+      "source_id": "ml-woolf-lighthouse",
+      "reason": "Direct primary text for Lily, Mr Ramsay, James, Cam, Macalister and his son, the boat, boots, recognition of James, and the last canvas line. Not an edition-independent authority on typography."
     }
   ],
   "historical_claims": [
@@ -72,6 +84,634 @@
       ],
       "source_locator": "The Window, Mrs Ramsay on lighthouse-keeper gifts",
       "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041500-c01",
+      "anchor": "The cook, Mildred, has made a special beef dish, and it cannot wait forever.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, dinner preparation",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041500-c02",
+      "anchor": "The meal changes as people begin talking",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, dinner scene; interpretive synthesis",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041500-c03",
+      "anchor": "A boar's skull hangs on the wall.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, nursery and skull",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041500-c04",
+      "anchor": "She feels she has communicated something without a formal declaration.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-nyrb-editions"
+      ],
+      "source_locator": "Discussion of The Window ending and divergent editions",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "041500-c05",
+      "anchor": "The dinner is a fleeting achievement; the nursery scene a minor triumph",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, interpretive synthesis",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041600-c01",
+      "anchor": "The middle part of To the Lighthouse is called Time Passes.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Part II heading",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041600-c02",
+      "anchor": "Mrs. Ramsay dies suddenly one night.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes, bracketed death notice",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041600-c03",
+      "anchor": "Prue Ramsay marries, then dies in an illness connected with childbirth.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes, bracketed death notice for Prue",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041600-c04",
+      "anchor": "Andrew Ramsay is killed by an exploding shell in France",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes, bracketed death notice for Andrew",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041600-c05",
+      "anchor": "Mrs. McNab and Mrs. Bast begin a larger restoration.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes, restoration passage",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041600-c06",
+      "anchor": "Mrs. Bast's son George helps with the grounds.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes, George and ground restoration",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041700-c01",
+      "anchor": "Mr. Ramsay is a widower.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, returning household and voyage",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041700-c02",
+      "anchor": "James and Cam have made a private agreement to resist their father's tyranny.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, children’s pact",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041700-c03",
+      "anchor": "The boat takes them across the water with Macalister and his son.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, voyage and crew",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041700-c04",
+      "anchor": "Near the landing he praises James's steering.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, final approach",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041700-c05",
+      "anchor": "She makes a final line in the center of the canvas, and the composition comes together for her.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, final paragraph",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041700-c06",
+      "anchor": "The boat reaches the lighthouse.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, ending",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041800-c01",
+      "anchor": "The structure has three named movements: The Window, Time Passes, and The Lighthouse.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-cambridge-form"
+      ],
+      "source_locator": "Cambridge chapter summary; also primary headings",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "041800-c02",
+      "anchor": "The famous bracketed notices in Time Passes sharpen the effect.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes, bracket placement",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041800-c03",
+      "anchor": "A sentence may say she or he while carrying the urgency of an inward thought.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-cambridge-form"
+      ],
+      "source_locator": "Author’s analysis of free indirect style; interpretive",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "041800-c04",
+      "anchor": "The first is long in words but short in fictional time.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-cambridge-form"
+      ],
+      "source_locator": "Cambridge chapter: asymmetric narrative time",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "041800-c05",
+      "anchor": "The ending's parallel completions, journey and canvas, are coordinated by the novel's design",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, alternating scenes; interpretive",
+      "audit_status": "source_recorded_primary_checked"
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "modern-literature:041400",
+        "file": "041400-woolf-story-the-window-afternoon.md",
+        "sha256": "7061ca0bf847f374319eda2d13e45a93bd571caf4d949791d210241c8304b07e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "041400",
+          "transcript": "041400-woolf-story-the-window-afternoon.md",
+          "related_resources": [
+            {
+              "source_id": "ml-woolf-window",
+              "reason": "Direct primary text for the opening day, child James, Mrs/Mr Ramsay, Tansley, Lily, Bankes, Paul and Minta, nursery, meal, and ending. Wikisource uses an American-edition witness; differences from first British edition matter in word-level textual comparison."
+            },
+            {
+              "source_id": "ml-woolf-cambridge-form",
+              "reason": "Authoritative description of the three-part architecture, first-section day, roughly decade-long middle, final morning, Isle of Skye setting and Lily’s role. Do not pretend to have inspected the whole chapter."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "041400-c01",
+              "anchor": "The first section is called The Window.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, section I and subsequent afternoon",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041400-c02",
+              "anchor": "Mr. and Mrs. Ramsay have eight children.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, section I",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041400-c03",
+              "anchor": "Tansley has supplied a familiar discouragement: women cannot paint, women cannot write.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, Lily and Tansley scenes",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041400-c04",
+              "anchor": "He has reached Q; perhaps he might reach R.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, Mr Ramsay alphabet passage",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041400-c05",
+              "anchor": "Paul, Minta, Andrew Ramsay, and Nancy Ramsay are late in returning from the beach.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, the walk to the beach and dinner",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041400-c06",
+              "anchor": "The lighthouse, distant and almost dreamlike to the child, is a workplace to its keepers",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, Mrs Ramsay on lighthouse-keeper gifts",
+              "audit_status": "source_recorded_primary_checked"
+            }
+          ]
+        }
+      },
+      {
+        "id": "modern-literature:041500",
+        "file": "041500-woolf-story-the-window-evening.md",
+        "sha256": "ef656f155ee16e6d51f6cb66af8f3c6f9af3cc10233f3c7e15baf80a2132feb6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "041500",
+          "transcript": "041500-woolf-story-the-window-evening.md",
+          "related_resources": [
+            {
+              "source_id": "ml-woolf-window",
+              "reason": "Direct primary text for the opening day, child James, Mrs/Mr Ramsay, Tansley, Lily, Bankes, Paul and Minta, nursery, meal, and ending. Wikisource uses an American-edition witness; differences from first British edition matter in word-level textual comparison."
+            },
+            {
+              "source_id": "ml-woolf-nyrb-editions",
+              "reason": "Illustrates disagreement over the final emotional vantage of The Window and the first American/British variants. Treat the ending as focalization open to argument, not a narrator-certified fact."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "041500-c01",
+              "anchor": "The cook, Mildred, has made a special beef dish, and it cannot wait forever.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, dinner preparation",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041500-c02",
+              "anchor": "The meal changes as people begin talking",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, dinner scene; interpretive synthesis",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041500-c03",
+              "anchor": "A boar's skull hangs on the wall.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, nursery and skull",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041500-c04",
+              "anchor": "She feels she has communicated something without a formal declaration.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-nyrb-editions"
+              ],
+              "source_locator": "Discussion of The Window ending and divergent editions",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "041500-c05",
+              "anchor": "The dinner is a fleeting achievement; the nursery scene a minor triumph",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-window"
+              ],
+              "source_locator": "The Window, interpretive synthesis",
+              "audit_status": "source_recorded_primary_checked"
+            }
+          ]
+        }
+      },
+      {
+        "id": "modern-literature:041600",
+        "file": "041600-woolf-story-time-passes.md",
+        "sha256": "f200cecf5d09b92523e0be3a9796408571fd086359ab498f48e2844d75e80b5f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "041600",
+          "transcript": "041600-woolf-story-time-passes.md",
+          "related_resources": [
+            {
+              "source_id": "ml-woolf-time",
+              "reason": "Direct primary text for the empty house, bracketed notices of Mrs Ramsay, Prue and Andrew, wartime absence, Mrs McNab, Mrs Bast, George and restoration. Specific wording may differ in early British editions."
+            },
+            {
+              "source_id": "ml-woolf-cambridge-form",
+              "reason": "Authoritative description of the three-part architecture, first-section day, roughly decade-long middle, final morning, Isle of Skye setting and Lily’s role. Do not pretend to have inspected the whole chapter."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "041600-c01",
+              "anchor": "The middle part of To the Lighthouse is called Time Passes.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-time"
+              ],
+              "source_locator": "Part II heading",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041600-c02",
+              "anchor": "Mrs. Ramsay dies suddenly one night.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-time"
+              ],
+              "source_locator": "Time Passes, bracketed death notice",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041600-c03",
+              "anchor": "Prue Ramsay marries, then dies in an illness connected with childbirth.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-time"
+              ],
+              "source_locator": "Time Passes, bracketed death notice for Prue",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041600-c04",
+              "anchor": "Andrew Ramsay is killed by an exploding shell in France",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-time"
+              ],
+              "source_locator": "Time Passes, bracketed death notice for Andrew",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041600-c05",
+              "anchor": "Mrs. McNab and Mrs. Bast begin a larger restoration.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-time"
+              ],
+              "source_locator": "Time Passes, restoration passage",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041600-c06",
+              "anchor": "Mrs. Bast's son George helps with the grounds.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-time"
+              ],
+              "source_locator": "Time Passes, George and ground restoration",
+              "audit_status": "source_recorded_primary_checked"
+            }
+          ]
+        }
+      },
+      {
+        "id": "modern-literature:041700",
+        "file": "041700-woolf-story-the-lighthouse-and-the-picture.md",
+        "sha256": "6c24b3a8226697cd4bd320cb263c666fae85d30953e33bd4824d67ea15bc1b7b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "041700",
+          "transcript": "041700-woolf-story-the-lighthouse-and-the-picture.md",
+          "related_resources": [
+            {
+              "source_id": "ml-woolf-lighthouse",
+              "reason": "Direct primary text for Lily, Mr Ramsay, James, Cam, Macalister and his son, the boat, boots, recognition of James, and the last canvas line. Not an edition-independent authority on typography."
+            },
+            {
+              "source_id": "ml-woolf-window",
+              "reason": "Direct primary text for the opening day, child James, Mrs/Mr Ramsay, Tansley, Lily, Bankes, Paul and Minta, nursery, meal, and ending. Wikisource uses an American-edition witness; differences from first British edition matter in word-level textual comparison."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "041700-c01",
+              "anchor": "Mr. Ramsay is a widower.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, returning household and voyage",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041700-c02",
+              "anchor": "James and Cam have made a private agreement to resist their father's tyranny.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, children’s pact",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041700-c03",
+              "anchor": "The boat takes them across the water with Macalister and his son.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, voyage and crew",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041700-c04",
+              "anchor": "Near the landing he praises James's steering.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, final approach",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041700-c05",
+              "anchor": "She makes a final line in the center of the canvas, and the composition comes together for her.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, final paragraph",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041700-c06",
+              "anchor": "The boat reaches the lighthouse.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, ending",
+              "audit_status": "source_recorded_primary_checked"
+            }
+          ]
+        }
+      },
+      {
+        "id": "modern-literature:041800",
+        "file": "041800-woolf-analysis-time-consciousness-form.md",
+        "sha256": "ac2054ec6a1dc0174e7d58132ad54497aae9cad5633765567242b0d9dcd704ac",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "041800",
+          "transcript": "041800-woolf-analysis-time-consciousness-form.md",
+          "related_resources": [
+            {
+              "source_id": "ml-woolf-window",
+              "reason": "Direct primary text for the opening day, child James, Mrs/Mr Ramsay, Tansley, Lily, Bankes, Paul and Minta, nursery, meal, and ending. Wikisource uses an American-edition witness; differences from first British edition matter in word-level textual comparison."
+            },
+            {
+              "source_id": "ml-woolf-time",
+              "reason": "Direct primary text for the empty house, bracketed notices of Mrs Ramsay, Prue and Andrew, wartime absence, Mrs McNab, Mrs Bast, George and restoration. Specific wording may differ in early British editions."
+            },
+            {
+              "source_id": "ml-woolf-lighthouse",
+              "reason": "Direct primary text for Lily, Mr Ramsay, James, Cam, Macalister and his son, the boat, boots, recognition of James, and the last canvas line. Not an edition-independent authority on typography."
+            },
+            {
+              "source_id": "ml-woolf-cambridge-form",
+              "reason": "Authoritative description of the three-part architecture, first-section day, roughly decade-long middle, final morning, Isle of Skye setting and Lily’s role. Do not pretend to have inspected the whole chapter."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "041800-c01",
+              "anchor": "The structure has three named movements: The Window, Time Passes, and The Lighthouse.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-cambridge-form"
+              ],
+              "source_locator": "Cambridge chapter summary; also primary headings",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "041800-c02",
+              "anchor": "The famous bracketed notices in Time Passes sharpen the effect.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-time"
+              ],
+              "source_locator": "Time Passes, bracket placement",
+              "audit_status": "source_recorded_primary_checked"
+            },
+            {
+              "id": "041800-c03",
+              "anchor": "A sentence may say she or he while carrying the urgency of an inward thought.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-cambridge-form"
+              ],
+              "source_locator": "Author’s analysis of free indirect style; interpretive",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "041800-c04",
+              "anchor": "The first is long in words but short in fictional time.",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-cambridge-form"
+              ],
+              "source_locator": "Cambridge chapter: asymmetric narrative time",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "041800-c05",
+              "anchor": "The ending's parallel completions, journey and canvas, are coordinated by the novel's design",
+              "kind": "literary_interpretation_with_primary_text",
+              "source_ids": [
+                "ml-woolf-lighthouse"
+              ],
+              "source_locator": "The Lighthouse, alternating scenes; interpretive",
+              "audit_status": "source_recorded_primary_checked"
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

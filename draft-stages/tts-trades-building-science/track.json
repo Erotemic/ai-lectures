@@ -18,192 +18,72 @@
   "lectures": [
     {
       "id": "001000",
-      "title": "A House Is a System of Flows: Heat, Air, Water, and Drying",
+      "title": "Follow heat, air, rain, and drying through an enclosure",
       "section": "enclosure-physics",
-      "file": "001000-a-house-is-a-system-of-flows.md",
-      "spoken_words": 1457,
+      "file": "001000-follow-heat-air-rain-and-drying-through-an-enclosure.md",
+      "spoken_words": 6791,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "002000",
-      "title": "Heat Flow, Thermal Bridges, and Whole-Assembly R-Values",
-      "section": "enclosure-physics",
-      "file": "002000-heat-flow-thermal-bridges-and-whole-assembly-r-values.md",
-      "spoken_words": 1188,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "003000",
-      "title": "Air Leakage, Pressure Differences, and Stack Effect",
-      "section": "enclosure-physics",
-      "file": "003000-air-leakage-pressure-differences-and-stack-effect.md",
-      "spoken_words": 1050,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "004000",
-      "title": "Rain Control, Flashing, and Drainage Planes",
-      "section": "enclosure-physics",
-      "file": "004000-rain-control-flashing-and-drainage-planes.md",
-      "spoken_words": 1029,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "005000",
-      "title": "Vapor Diffusion, Condensation, and Drying Paths",
-      "section": "enclosure-physics",
-      "file": "005000-vapor-diffusion-condensation-and-drying-paths.md",
-      "spoken_words": 1001,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "006000",
-      "title": "Attics, Roofs, and Insulation Choices",
-      "section": "enclosure-physics",
-      "file": "006000-attics-roofs-and-insulation-choices.md",
-      "spoken_words": 1016,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 46.8,
+      "consolidated_from": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "017000"
+      ]
     },
     {
       "id": "007000",
-      "title": "Basements, Foundations, and Groundwater",
+      "title": "Join foundation, wall, and ground boundaries",
       "section": "enclosure-physics",
-      "file": "007000-basements-foundations-and-groundwater.md",
-      "spoken_words": 985,
+      "file": "007000-join-foundation-wall-and-ground-boundaries.md",
+      "spoken_words": 4878,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 33.6,
+      "consolidated_from": [
+        "007000",
+        "008000",
+        "018000",
+        "019000",
+        "021000"
+      ]
     },
     {
-      "id": "008000",
-      "title": "Radon, Soil Gas, and Foundation Air Boundaries",
+      "id": "006000",
+      "title": "Control roof, window, and summer comfort performance",
       "section": "enclosure-physics",
-      "file": "008000-radon-soil-gas-and-foundation-air-boundaries.md",
-      "spoken_words": 822,
+      "file": "006000-control-roof-window-and-summer-comfort-performance.md",
+      "spoken_words": 4261,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 29.4,
+      "consolidated_from": [
+        "006000",
+        "010000",
+        "015000",
+        "016000"
+      ]
     },
     {
       "id": "009000",
-      "title": "Combustion Appliances, Depressurization, and Indoor Air",
+      "title": "Measure first and retrofit without creating new failures",
       "section": "enclosure-physics",
-      "file": "009000-combustion-appliances-depressurization-and-indoor-air.md",
-      "spoken_words": 1071,
+      "file": "009000-measure-first-and-retrofit-without-creating-new-failures.md",
+      "spoken_words": 6016,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "010000",
-      "title": "Window Thermal Performance, Solar Gain, and Summer Comfort",
-      "section": "enclosure-physics",
-      "file": "010000-window-thermal-performance-solar-gain-and-summer-comfort.md",
-      "spoken_words": 1069,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "011000",
-      "title": "Inspecting an Existing House: An Evidence-Based Walkthrough",
-      "section": "enclosure-physics",
-      "file": "011000-inspecting-an-existing-house-an-evidence-based-walkthrough.md",
-      "spoken_words": 1001,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "012000",
-      "title": "Planning Envelope Retrofits Without Trapping Moisture",
-      "section": "enclosure-physics",
-      "file": "012000-planning-envelope-retrofits-without-trapping-moisture.md",
-      "spoken_words": 901,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "013000",
-      "title": "Thermal Imaging, Blower Doors, and Diagnosing Envelope Leaks",
-      "section": "enclosure-physics",
-      "file": "013000-thermal-imaging-blower-doors-and-diagnosing-envelope-leaks.md",
-      "spoken_words": 892,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "014000",
-      "title": "Diagnosing Heat Loss with Utility Data and Weather Normalization",
-      "section": "enclosure-physics",
-      "file": "014000-diagnosing-heat-loss-with-utility-data-and-weather-normalization.md",
-      "spoken_words": 1140,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "015000",
-      "title": "Controlling Summer Overheating with Shading and Thermal Mass",
-      "section": "enclosure-physics",
-      "file": "015000-controlling-summer-overheating-with-shading-and-thermal-mass.md",
-      "spoken_words": 1097,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "016000",
-      "title": "Diagnosing Summer Heat Gain with Solar and Room Temperature Logs",
-      "section": "enclosure-physics",
-      "file": "016000-diagnosing-summer-heat-gain-with-solar-and-room-temperature-logs.md",
-      "spoken_words": 1010,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "017000",
-      "title": "Airflow Pathways in Rooms, Duct Chases, and Bypasses",
-      "section": "enclosure-physics",
-      "file": "017000-airflow-pathways-in-rooms-duct-chases-and-bypasses.md",
-      "spoken_words": 1005,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "018000",
-      "title": "Rim Joists, Cantilevers, and Concealed Air Boundaries",
-      "section": "enclosure-physics",
-      "file": "018000-rim-joists-cantilevers-and-concealed-air-boundaries.md",
-      "spoken_words": 1031,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "019000",
-      "title": "Joining the Foundation Air Barrier to the Wall Above",
-      "section": "enclosure-physics",
-      "file": "019000-joining-the-foundation-air-barrier-to-the-wall-above.md",
-      "spoken_words": 1011,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "020000",
-      "title": "Distinguishing Residual Moisture from New Wetting After an Enclosure Retrofit",
-      "section": "enclosure-physics",
-      "file": "020000-distinguishing-residual-moisture-from-new-wetting-after-an-enclosure-retrofit.md",
-      "spoken_words": 908,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "021000",
-      "title": "Window Wells, Below-Grade Water Entry, and Drainage Diagnosis",
-      "section": "enclosure-physics",
-      "file": "021000-window-wells-below-grade-water-entry-and-drainage-diagnosis.md",
-      "spoken_words": 970,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 41.5,
+      "consolidated_from": [
+        "009000",
+        "011000",
+        "013000",
+        "014000",
+        "012000",
+        "020000"
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "046200",
-  "transcript": "046200-two-andean-worlds-wari-tiwanaku.md",
+  "transcript": "046200-andean-societies-cities-social-obligation-and-khipu-knowledge.md",
   "related_resources": [
     {
       "source_id": "d8-wa-met",
@@ -31,6 +31,61 @@
     {
       "source_id": "d8-wa-cambridge",
       "reason": "Drought and water-related religious expansion are proposed explanations, not settled motives for all Wari actions.",
+      "access_scope": "abstract_reviewed"
+    },
+    {
+      "source_id": "m10-andes-ayllu",
+      "reason": "Open-access review of ayllu and relational kinship and limits of archaeological genetic inference. Colonial ethnography should not be projected unchanged into earlier periods.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "m10-andes-nmai",
+      "reason": "Museum interpretation of mit’a, ayni, and road labor. Does not document every local form of reciprocity or every individual worker.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "m10-andes-paracas",
+      "reason": "Excavated Paracas settlement and material evidence from the northern Nasca drainage; economic-directness model is place- and period-specific.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "m10-andes-mitmaq",
+      "reason": "Site-level archaeobotanical and labor-context research on Inka transplanted workers; cannot generalize a single enclave to all imperial populations.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "m10-wiki-ayllu",
+      "reason": "Relevant Wikipedia article for orientation and further browsing, not used to substantiate historical claims.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "m10-wiki-mita",
+      "reason": "Relevant Wikipedia article for orientation and further browsing, not used to substantiate historical claims.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "m10-wiki-inca",
+      "reason": "Relevant Wikipedia article for orientation and further browsing, not used to substantiate historical claims.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "d7-ki-nist",
+      "reason": "Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "d7-ki-oxford",
+      "reason": "Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings.",
+      "access_scope": "excerpt_reviewed"
+    },
+    {
+      "source_id": "d7-ki-pur",
+      "reason": "Study of 21 Puruchuco khipu and hierarchical aggregation of accounting information; only abstract inspected.",
+      "access_scope": "abstract_reviewed"
+    },
+    {
+      "source_id": "d7-ki-wari",
+      "reason": "AMS dates and suggested quinary groupings of Wari-era khipu; proposed system interpretation not confirmed for every artifact.",
       "access_scope": "abstract_reviewed"
     }
   ],
@@ -203,6 +258,934 @@
       "source_locator": "Metropolitan Museum of Art, Central and Southern Andes 500–1000 AD; José Ochatoma Paravicino, Wari Imperial Art, Metropolitan Museum of Art, 2025; UNESCO World Heritage Centre, Tiwanaku: Spiritual and Political Centre",
       "audit_status": "source_scope_and_limits_mapped",
       "source_limitations": "Chronology and regional spread of Wari and Tiwanaku; estimates and old dates are subject to later research. Separates Wari and Tiwanaku political histories and related imagery; art-historical emphasis. Monuments and raised fields; site-level institutional narrative may overstate uniform rule or precise numerical estimates."
+    },
+    {
+      "id": "046300-p01",
+      "anchor": "Before a ruler could order the building of an Andean road, people had to decide ",
+      "kind": "historical_research",
+      "source_ids": [
+        "m10-andes-ayllu",
+        "m10-andes-nmai"
+      ],
+      "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026); Smithsonian National Museum of the American Indian, The Great Inka Road: Building the Road",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Opening is interpretive social history, not the report of one named household."
+    },
+    {
+      "id": "046300-p02",
+      "anchor": "The Andes are not one environment. In parts of what are now Peru and Bolivia, co",
+      "kind": "historical_research",
+      "source_ids": [
+        "m10-andes-paracas",
+        "m10-andes-ayllu"
+      ],
+      "source_locator": "Economic Directness in the Western Andes: Paracas in the First Millennium BC (Latin American Antiquity, 2023); Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ecological zones and resources differ by region and epoch; no single Andean distribution pattern is asserted."
+    },
+    {
+      "id": "046300-p03",
+      "anchor": "One of the most important concepts in Andean historical study is the ayllu. The ",
+      "kind": "historical_research",
+      "source_ids": [
+        "m10-andes-ayllu"
+      ],
+      "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ayllu is a variable social category, not a biological clan established by genetic evidence."
+    },
+    {
+      "id": "046300-p04",
+      "anchor": "What would membership mean in practice? It could matter when a household needed ",
+      "kind": "historical_research",
+      "source_ids": [
+        "m10-andes-ayllu"
+      ],
+      "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Moiety and reciprocity arrangements vary regionally; colonial descriptions are not a universal precontact template."
+    },
+    {
+      "id": "046300-p05",
+      "anchor": "The evidence poses a difficulty. Spanish administrators, chroniclers, and Indige",
+      "kind": "historical_research",
+      "source_ids": [
+        "m10-andes-ayllu"
+      ],
+      "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Guamán Poma’s work is post-conquest, and archaeological genetic methods do not directly classify social membership."
+    },
+    {
+      "id": "046300-p06",
+      "anchor": "Land access shows why the definition matters. A field might belong to a househol",
+      "kind": "historical_research",
+      "source_ids": [
+        "m10-andes-ayllu"
+      ],
+      "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Modern property categories do not map neatly to historically overlapping access, claims, and ritual rights."
+    },
+    {
+      "id": "046300-p07",
+      "anchor": "For decades, the model often called the vertical archipelago has helped scholars",
+      "kind": "historical_research",
+      "source_ids": [
+        "m10-andes-ayllu",
+        "m10-andes-paracas"
+      ],
+      "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026); Economic Directness in the Western Andes: Paracas in the First Millennium BC (Latin American Antiquity, 2023)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Vertical archipelago is a hypothesis developed using colonial-era documentation, not a law of Andean exchange."
+    },
+    {
+      "id": "046300-p08",
+      "anchor": "A study of Paracas society in southern Peru, between about 800 and 200 BCE, offe",
+      "kind": "historical_research",
+      "source_ids": [
+        "m10-andes-paracas"
+      ],
+      "source_locator": "Economic Directness in the Western Andes: Paracas in the First Millennium BC (Latin American Antiquity, 2023)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Paracas model applies to a sampled northern Nasca drainage and 800–200 BCE context, not the whole Andes."
+    },
+    {
+      "id": "046300-p09",
+      "anchor": "Work carried social meanings as well as economic ones. In later Andean settings,",
+      "kind": "historical_research",
+      "source_ids": [
+        "m10-andes-nmai",
+        "m10-andes-ayllu"
+      ],
+      "source_locator": "Smithsonian National Museum of the American Indian, The Great Inka Road: Building the Road; Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ayni description is a regional historical gloss; evidence for labor is not evidence for workers’ unrecorded motives."
+    },
+    {
+      "id": "046300-p10",
+      "anchor": "The Inca Empire, which expanded rapidly in the fifteenth century, worked through",
+      "kind": "historical_research",
+      "source_ids": [
+        "m10-andes-nmai"
+      ],
+      "source_locator": "Smithsonian National Museum of the American Indian, The Great Inka Road: Building the Road",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Smithsonian overview is a museum synthesis, not a roster of each provincial labor practice."
+    },
+    {
+      "id": "046300-p11",
+      "anchor": "Some imperial policies went farther. The term mitmaqkuna refers to communities r",
+      "kind": "historical_research",
+      "source_ids": [
+        "m10-andes-mitmaq"
+      ],
+      "source_locator": "Di Hu et al., Food and Labour under Imperial Rule: mitmaqkuna (2024)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Site-specific resettlement research cannot establish every mitmaqkuna group’s labor and diet."
+    },
+    {
+      "id": "046300-p12",
+      "anchor": "The people studied by archaeologists did not experience themselves as illustrati",
+      "kind": "historical_research",
+      "source_ids": [
+        "m10-andes-ayllu",
+        "m10-andes-nmai"
+      ],
+      "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026); Smithsonian National Museum of the American Indian, The Great Inka Road: Building the Road",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Individual experiences are illustrative inferences rather than directly recorded biographies."
+    },
+    {
+      "id": "046300-p13",
+      "anchor": "Ancient Andean societies therefore offer no single answer to the question of how",
+      "kind": "historical_research",
+      "source_ids": [
+        "m10-andes-ayllu",
+        "m10-andes-paracas",
+        "m10-andes-nmai"
+      ],
+      "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026); Economic Directness in the Western Andes: Paracas in the First Millennium BC (Latin American Antiquity, 2023); Smithsonian National Museum of the American Indian, The Great Inka Road: Building the Road",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Concluding synthesis retains locally varied and historically contingent institutions."
+    },
+    {
+      "id": "046100-p01",
+      "anchor": "Imagine being responsible for a storehouse. Bags of maize arrive from on",
+      "kind": "historical_research",
+      "source_ids": [
+        "d7-ki-nist",
+        "d7-ki-oxford"
+      ],
+      "source_locator": "National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023); Manuel Medrano and Galen Brokaw, Quipu, Oxford Bibliographies in Latin American Studies (updated 2023)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels. Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings."
+    },
+    {
+      "id": "046100-p02",
+      "anchor": "A khipu may have a main cord, with many hanging cords, and sometimes fur",
+      "kind": "historical_research",
+      "source_ids": [
+        "d7-ki-nist"
+      ],
+      "source_locator": "National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels."
+    },
+    {
+      "id": "046100-p03",
+      "anchor": "The best-understood Inca khipu records use a decimal place-value system.",
+      "kind": "historical_research",
+      "source_ids": [
+        "d7-ki-nist"
+      ],
+      "source_locator": "National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels."
+    },
+    {
+      "id": "046100-p04",
+      "anchor": "Inca administration did not operate in isolation from local communities.",
+      "kind": "historical_research",
+      "source_ids": [
+        "d7-ki-pur",
+        "d7-ki-nist"
+      ],
+      "source_locator": "Gary Urton and Carrie J. Brezine, Khipu Accounting in Ancient Peru, Science 309 (2005); National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Study of 21 Puruchuco khipu and hierarchical aggregation of accounting information; only abstract inspected. Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels."
+    },
+    {
+      "id": "046100-p05",
+      "anchor": "Researchers Gary Urton and Carrie Brezine studied a group of twenty-one ",
+      "kind": "historical_research",
+      "source_ids": [
+        "d7-ki-pur"
+      ],
+      "source_locator": "Gary Urton and Carrie J. Brezine, Khipu Accounting in Ancient Peru, Science 309 (2005)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Study of 21 Puruchuco khipu and hierarchical aggregation of accounting information; only abstract inspected."
+    },
+    {
+      "id": "046100-p06",
+      "anchor": "The work also raises a human question. Who knew how to tie and interpret",
+      "kind": "historical_research",
+      "source_ids": [
+        "d7-ki-oxford"
+      ],
+      "source_locator": "Manuel Medrano and Galen Brokaw, Quipu, Oxford Bibliographies in Latin American Studies (updated 2023)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings."
+    },
+    {
+      "id": "046100-p07",
+      "anchor": "Khipu traditions were older than the Inca Empire. Researchers have ident",
+      "kind": "historical_research",
+      "source_ids": [
+        "d7-ki-wari",
+        "d7-ki-oxford"
+      ],
+      "source_locator": "Gary Urton, From Middle Horizon Cord-Keeping to the Rise of Inka Khipus, Antiquity 88 (2014); Manuel Medrano and Galen Brokaw, Quipu, Oxford Bibliographies in Latin American Studies (updated 2023)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "AMS dates and suggested quinary groupings of Wari-era khipu; proposed system interpretation not confirmed for every artifact. Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings."
+    },
+    {
+      "id": "046100-p08",
+      "anchor": "That history matters because the word Inca can hide generations of earli",
+      "kind": "historical_research",
+      "source_ids": [
+        "d7-ki-wari"
+      ],
+      "source_locator": "Gary Urton, From Middle Horizon Cord-Keeping to the Rise of Inka Khipus, Antiquity 88 (2014)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "AMS dates and suggested quinary groupings of Wari-era khipu; proposed system interpretation not confirmed for every artifact."
+    },
+    {
+      "id": "046100-p09",
+      "anchor": "Could khipu preserve stories rather than only numbers? This remains a ma",
+      "kind": "historical_research",
+      "source_ids": [
+        "d7-ki-oxford",
+        "d7-ki-nist"
+      ],
+      "source_locator": "Manuel Medrano and Galen Brokaw, Quipu, Oxford Bibliographies in Latin American Studies (updated 2023); National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings. Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels."
+    },
+    {
+      "id": "046100-p10",
+      "anchor": "The language of writing can itself mislead us. If writing is defined nar",
+      "kind": "historical_research",
+      "source_ids": [
+        "d7-ki-nist",
+        "d7-ki-oxford"
+      ],
+      "source_locator": "National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023); Manuel Medrano and Galen Brokaw, Quipu, Oxford Bibliographies in Latin American Studies (updated 2023)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels. Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings."
+    },
+    {
+      "id": "046100-p11",
+      "anchor": "Conquest damaged the systems within which these records made sense. Span",
+      "kind": "historical_research",
+      "source_ids": [
+        "d7-ki-oxford"
+      ],
+      "source_locator": "Manuel Medrano and Galen Brokaw, Quipu, Oxford Bibliographies in Latin American Studies (updated 2023)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings."
+    },
+    {
+      "id": "046100-p12",
+      "anchor": "Living Andean communities have also maintained diverse forms of knotting",
+      "kind": "historical_research",
+      "source_ids": [
+        "d7-ki-oxford"
+      ],
+      "source_locator": "Manuel Medrano and Galen Brokaw, Quipu, Oxford Bibliographies in Latin American Studies (updated 2023)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings."
+    },
+    {
+      "id": "046100-p13",
+      "anchor": "Try again to picture the storehouse. A keeper may receive reports, compa",
+      "kind": "historical_research",
+      "source_ids": [
+        "d7-ki-pur",
+        "d7-ki-nist"
+      ],
+      "source_locator": "Gary Urton and Carrie J. Brezine, Khipu Accounting in Ancient Peru, Science 309 (2005); National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Study of 21 Puruchuco khipu and hierarchical aggregation of accounting information; only abstract inspected. Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels."
+    },
+    {
+      "id": "046100-p14",
+      "anchor": "Khipu change how we describe Inca history. Roads, terraces, and stone bu",
+      "kind": "historical_research",
+      "source_ids": [
+        "d7-ki-nist",
+        "d7-ki-pur"
+      ],
+      "source_locator": "National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023); Gary Urton and Carrie J. Brezine, Khipu Accounting in Ancient Peru, Science 309 (2005)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels. Study of 21 Puruchuco khipu and hierarchical aggregation of accounting information; only abstract inspected."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "ancient-medieval-world:046200",
+        "file": "046200-two-andean-worlds-wari-tiwanaku.md",
+        "sha256": "9ae91e208c8e88e7ee1fa7a3cba765a3eabd76ea728b409ecc103cc462241f86",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "046200",
+          "transcript": "046200-two-andean-worlds-wari-tiwanaku.md",
+          "related_resources": [
+            {
+              "source_id": "d8-wa-met",
+              "reason": "Chronology and regional spread of Wari and Tiwanaku; estimates and old dates are subject to later research.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d8-wa-met-essay",
+              "reason": "Separates Wari and Tiwanaku political histories and related imagery; art-historical emphasis.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d8-wa-pik",
+              "reason": "Book description outlines archaeology and planning at Pikillacta; detailed results not independently consulted.",
+              "access_scope": "catalogue_reviewed"
+            },
+            {
+              "source_id": "d8-wa-unesco",
+              "reason": "Monuments and raised fields; site-level institutional narrative may overstate uniform rule or precise numerical estimates.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d8-wa-survey",
+              "reason": "Survey abstract establishes dense settlement, terracing and water-related features; individual construction phases remain under study.",
+              "access_scope": "abstract_reviewed"
+            },
+            {
+              "source_id": "d8-wa-cambridge",
+              "reason": "Drought and water-related religious expansion are proposed explanations, not settled motives for all Wari actions.",
+              "access_scope": "abstract_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "046200-p01",
+              "anchor": "The Inca built an empire in the Andes, but they did not invent the idea ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-wa-met",
+                "d8-wa-met-essay"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Central and Southern Andes 500–1000 AD; José Ochatoma Paravicino, Wari Imperial Art, Metropolitan Museum of Art, 2025",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Chronology and regional spread of Wari and Tiwanaku; estimates and old dates are subject to later research. Separates Wari and Tiwanaku political histories and related imagery; art-historical emphasis."
+            },
+            {
+              "id": "046200-p02",
+              "anchor": "Between approximately the sixth and eleventh centuries of the Common Era",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-wa-met",
+                "d8-wa-met-essay"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Central and Southern Andes 500–1000 AD; José Ochatoma Paravicino, Wari Imperial Art, Metropolitan Museum of Art, 2025",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Chronology and regional spread of Wari and Tiwanaku; estimates and old dates are subject to later research. Separates Wari and Tiwanaku political histories and related imagery; art-historical emphasis."
+            },
+            {
+              "id": "046200-p03",
+              "anchor": "Wari developed a major center near Ayacucho and established settlements ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-wa-met-essay",
+                "d8-wa-pik"
+              ],
+              "source_locator": "José Ochatoma Paravicino, Wari Imperial Art, Metropolitan Museum of Art, 2025; Gordon F. McEwan, Pikillacta: The Wari Empire in Cuzco, Smithsonian Libraries record",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Separates Wari and Tiwanaku political histories and related imagery; art-historical emphasis. Book description outlines archaeology and planning at Pikillacta; detailed results not independently consulted."
+            },
+            {
+              "id": "046200-p04",
+              "anchor": "Building such a site required surveying, quarrying, carrying materials, ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-wa-pik",
+                "d8-wa-met-essay"
+              ],
+              "source_locator": "Gordon F. McEwan, Pikillacta: The Wari Empire in Cuzco, Smithsonian Libraries record; José Ochatoma Paravicino, Wari Imperial Art, Metropolitan Museum of Art, 2025",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Book description outlines archaeology and planning at Pikillacta; detailed results not independently consulted. Separates Wari and Tiwanaku political histories and related imagery; art-historical emphasis."
+            },
+            {
+              "id": "046200-p05",
+              "anchor": "Tiwanaku's ceremonial center stood in the Lake Titicaca basin. Monumenta",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-wa-unesco",
+                "d8-wa-survey"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Tiwanaku: Spiritual and Political Centre; New insights into prehispanic urban organization at Tiwanaku, 2019 archaeological survey",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Monuments and raised fields; site-level institutional narrative may overstate uniform rule or precise numerical estimates. Survey abstract establishes dense settlement, terracing and water-related features; individual construction phases remain under study."
+            },
+            {
+              "id": "046200-p06",
+              "anchor": "Farmers around Lake Titicaca used raised fields and other techniques ada",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-wa-unesco",
+                "d8-wa-met"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Tiwanaku: Spiritual and Political Centre; Metropolitan Museum of Art, Central and Southern Andes 500–1000 AD",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Monuments and raised fields; site-level institutional narrative may overstate uniform rule or precise numerical estimates. Chronology and regional spread of Wari and Tiwanaku; estimates and old dates are subject to later research."
+            },
+            {
+              "id": "046200-p07",
+              "anchor": "Objects associated with Wari and Tiwanaku circulated over long distances",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-wa-met",
+                "d8-wa-met-essay"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Central and Southern Andes 500–1000 AD; José Ochatoma Paravicino, Wari Imperial Art, Metropolitan Museum of Art, 2025",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Chronology and regional spread of Wari and Tiwanaku; estimates and old dates are subject to later research. Separates Wari and Tiwanaku political histories and related imagery; art-historical emphasis."
+            },
+            {
+              "id": "046200-p08",
+              "anchor": "Both centers also reveal how religious and political power could overlap",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-wa-met-essay",
+                "d8-wa-survey"
+              ],
+              "source_locator": "José Ochatoma Paravicino, Wari Imperial Art, Metropolitan Museum of Art, 2025; New insights into prehispanic urban organization at Tiwanaku, 2019 archaeological survey",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Separates Wari and Tiwanaku political histories and related imagery; art-historical emphasis. Survey abstract establishes dense settlement, terracing and water-related features; individual construction phases remain under study."
+            },
+            {
+              "id": "046200-p09",
+              "anchor": "Environmental conditions mattered, but they did not mechanically determi",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-wa-cambridge",
+                "d8-wa-met-essay"
+              ],
+              "source_locator": "Water, Huacas, and Ancestor Worship: Traces of a Sacred Wari Landscape; José Ochatoma Paravicino, Wari Imperial Art, Metropolitan Museum of Art, 2025",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Drought and water-related religious expansion are proposed explanations, not settled motives for all Wari actions. Separates Wari and Tiwanaku political histories and related imagery; art-historical emphasis."
+            },
+            {
+              "id": "046200-p10",
+              "anchor": "Both political networks changed markedly around the end of the first mil",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-wa-met",
+                "d8-wa-unesco"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Central and Southern Andes 500–1000 AD; UNESCO World Heritage Centre, Tiwanaku: Spiritual and Political Centre",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Chronology and regional spread of Wari and Tiwanaku; estimates and old dates are subject to later research. Monuments and raised fields; site-level institutional narrative may overstate uniform rule or precise numerical estimates."
+            },
+            {
+              "id": "046200-p11",
+              "anchor": "A useful comparison is what different sites let us see. Pikillacta's wal",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-wa-pik",
+                "d8-wa-survey"
+              ],
+              "source_locator": "Gordon F. McEwan, Pikillacta: The Wari Empire in Cuzco, Smithsonian Libraries record; New insights into prehispanic urban organization at Tiwanaku, 2019 archaeological survey",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Book description outlines archaeology and planning at Pikillacta; detailed results not independently consulted. Survey abstract establishes dense settlement, terracing and water-related features; individual construction phases remain under study."
+            },
+            {
+              "id": "046200-p12",
+              "anchor": "The perspective of ordinary producers matters here as much as in any emp",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-wa-met-essay",
+                "d8-wa-met"
+              ],
+              "source_locator": "José Ochatoma Paravicino, Wari Imperial Art, Metropolitan Museum of Art, 2025; Metropolitan Museum of Art, Central and Southern Andes 500–1000 AD",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Separates Wari and Tiwanaku political histories and related imagery; art-historical emphasis. Chronology and regional spread of Wari and Tiwanaku; estimates and old dates are subject to later research."
+            },
+            {
+              "id": "046200-p13",
+              "anchor": "Modern archaeological interpretation is also historically situated. Muse",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-wa-met-essay",
+                "d8-wa-cambridge"
+              ],
+              "source_locator": "José Ochatoma Paravicino, Wari Imperial Art, Metropolitan Museum of Art, 2025; Water, Huacas, and Ancestor Worship: Traces of a Sacred Wari Landscape",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Separates Wari and Tiwanaku political histories and related imagery; art-historical emphasis. Drought and water-related religious expansion are proposed explanations, not settled motives for all Wari actions."
+            },
+            {
+              "id": "046200-p14",
+              "anchor": "Before the Inca, Andean societies had already developed far-reaching con",
+              "kind": "historical_research",
+              "source_ids": [
+                "d8-wa-met",
+                "d8-wa-met-essay",
+                "d8-wa-unesco"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Central and Southern Andes 500–1000 AD; José Ochatoma Paravicino, Wari Imperial Art, Metropolitan Museum of Art, 2025; UNESCO World Heritage Centre, Tiwanaku: Spiritual and Political Centre",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Chronology and regional spread of Wari and Tiwanaku; estimates and old dates are subject to later research. Separates Wari and Tiwanaku political histories and related imagery; art-historical emphasis. Monuments and raised fields; site-level institutional narrative may overstate uniform rule or precise numerical estimates."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:046300",
+        "file": "046300-land-kin-and-reciprocity-in-the-andes.md",
+        "sha256": "b49755b4b61b3064efdf5b507f779b628210b3925e06737948dcd1dd205030a8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "046300",
+          "transcript": "046300-land-kin-and-reciprocity-in-the-andes.md",
+          "related_resources": [
+            {
+              "source_id": "m10-andes-ayllu",
+              "reason": "Open-access review of ayllu and relational kinship and limits of archaeological genetic inference. Colonial ethnography should not be projected unchanged into earlier periods.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "m10-andes-nmai",
+              "reason": "Museum interpretation of mit’a, ayni, and road labor. Does not document every local form of reciprocity or every individual worker.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "m10-andes-paracas",
+              "reason": "Excavated Paracas settlement and material evidence from the northern Nasca drainage; economic-directness model is place- and period-specific.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "m10-andes-mitmaq",
+              "reason": "Site-level archaeobotanical and labor-context research on Inka transplanted workers; cannot generalize a single enclave to all imperial populations.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "m10-wiki-ayllu",
+              "reason": "Relevant Wikipedia article for orientation and further browsing, not used to substantiate historical claims.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "m10-wiki-mita",
+              "reason": "Relevant Wikipedia article for orientation and further browsing, not used to substantiate historical claims.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "m10-wiki-inca",
+              "reason": "Relevant Wikipedia article for orientation and further browsing, not used to substantiate historical claims.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "046300-p01",
+              "anchor": "Before a ruler could order the building of an Andean road, people had to decide ",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-andes-ayllu",
+                "m10-andes-nmai"
+              ],
+              "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026); Smithsonian National Museum of the American Indian, The Great Inka Road: Building the Road",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Opening is interpretive social history, not the report of one named household."
+            },
+            {
+              "id": "046300-p02",
+              "anchor": "The Andes are not one environment. In parts of what are now Peru and Bolivia, co",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-andes-paracas",
+                "m10-andes-ayllu"
+              ],
+              "source_locator": "Economic Directness in the Western Andes: Paracas in the First Millennium BC (Latin American Antiquity, 2023); Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ecological zones and resources differ by region and epoch; no single Andean distribution pattern is asserted."
+            },
+            {
+              "id": "046300-p03",
+              "anchor": "One of the most important concepts in Andean historical study is the ayllu. The ",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-andes-ayllu"
+              ],
+              "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ayllu is a variable social category, not a biological clan established by genetic evidence."
+            },
+            {
+              "id": "046300-p04",
+              "anchor": "What would membership mean in practice? It could matter when a household needed ",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-andes-ayllu"
+              ],
+              "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Moiety and reciprocity arrangements vary regionally; colonial descriptions are not a universal precontact template."
+            },
+            {
+              "id": "046300-p05",
+              "anchor": "The evidence poses a difficulty. Spanish administrators, chroniclers, and Indige",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-andes-ayllu"
+              ],
+              "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Guamán Poma’s work is post-conquest, and archaeological genetic methods do not directly classify social membership."
+            },
+            {
+              "id": "046300-p06",
+              "anchor": "Land access shows why the definition matters. A field might belong to a househol",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-andes-ayllu"
+              ],
+              "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Modern property categories do not map neatly to historically overlapping access, claims, and ritual rights."
+            },
+            {
+              "id": "046300-p07",
+              "anchor": "For decades, the model often called the vertical archipelago has helped scholars",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-andes-ayllu",
+                "m10-andes-paracas"
+              ],
+              "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026); Economic Directness in the Western Andes: Paracas in the First Millennium BC (Latin American Antiquity, 2023)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Vertical archipelago is a hypothesis developed using colonial-era documentation, not a law of Andean exchange."
+            },
+            {
+              "id": "046300-p08",
+              "anchor": "A study of Paracas society in southern Peru, between about 800 and 200 BCE, offe",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-andes-paracas"
+              ],
+              "source_locator": "Economic Directness in the Western Andes: Paracas in the First Millennium BC (Latin American Antiquity, 2023)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Paracas model applies to a sampled northern Nasca drainage and 800–200 BCE context, not the whole Andes."
+            },
+            {
+              "id": "046300-p09",
+              "anchor": "Work carried social meanings as well as economic ones. In later Andean settings,",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-andes-nmai",
+                "m10-andes-ayllu"
+              ],
+              "source_locator": "Smithsonian National Museum of the American Indian, The Great Inka Road: Building the Road; Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ayni description is a regional historical gloss; evidence for labor is not evidence for workers’ unrecorded motives."
+            },
+            {
+              "id": "046300-p10",
+              "anchor": "The Inca Empire, which expanded rapidly in the fifteenth century, worked through",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-andes-nmai"
+              ],
+              "source_locator": "Smithsonian National Museum of the American Indian, The Great Inka Road: Building the Road",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Smithsonian overview is a museum synthesis, not a roster of each provincial labor practice."
+            },
+            {
+              "id": "046300-p11",
+              "anchor": "Some imperial policies went farther. The term mitmaqkuna refers to communities r",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-andes-mitmaq"
+              ],
+              "source_locator": "Di Hu et al., Food and Labour under Imperial Rule: mitmaqkuna (2024)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site-specific resettlement research cannot establish every mitmaqkuna group’s labor and diet."
+            },
+            {
+              "id": "046300-p12",
+              "anchor": "The people studied by archaeologists did not experience themselves as illustrati",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-andes-ayllu",
+                "m10-andes-nmai"
+              ],
+              "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026); Smithsonian National Museum of the American Indian, The Great Inka Road: Building the Road",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Individual experiences are illustrative inferences rather than directly recorded biographies."
+            },
+            {
+              "id": "046300-p13",
+              "anchor": "Ancient Andean societies therefore offer no single answer to the question of how",
+              "kind": "historical_research",
+              "source_ids": [
+                "m10-andes-ayllu",
+                "m10-andes-paracas",
+                "m10-andes-nmai"
+              ],
+              "source_locator": "Beth K. Scaffidi, Landscapes of Pre-Hispanic Andean Kinship: Ancestors, Ayllus and Relationality (2026); Economic Directness in the Western Andes: Paracas in the First Millennium BC (Latin American Antiquity, 2023); Smithsonian National Museum of the American Indian, The Great Inka Road: Building the Road",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Concluding synthesis retains locally varied and historically contingent institutions."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:046100",
+        "file": "046100-knots-and-numbers-inca-khipu.md",
+        "sha256": "6c8cf2b4ff125948957ad7bb545b3ddca31d0f2883174d20150997c489a4c3e0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "046100",
+          "transcript": "046100-knots-and-numbers-inca-khipu.md",
+          "related_resources": [
+            {
+              "source_id": "d7-ki-nist",
+              "reason": "Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d7-ki-oxford",
+              "reason": "Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings.",
+              "access_scope": "excerpt_reviewed"
+            },
+            {
+              "source_id": "d7-ki-pur",
+              "reason": "Study of 21 Puruchuco khipu and hierarchical aggregation of accounting information; only abstract inspected.",
+              "access_scope": "abstract_reviewed"
+            },
+            {
+              "source_id": "d7-ki-wari",
+              "reason": "AMS dates and suggested quinary groupings of Wari-era khipu; proposed system interpretation not confirmed for every artifact.",
+              "access_scope": "abstract_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "046100-p01",
+              "anchor": "Imagine being responsible for a storehouse. Bags of maize arrive from on",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ki-nist",
+                "d7-ki-oxford"
+              ],
+              "source_locator": "National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023); Manuel Medrano and Galen Brokaw, Quipu, Oxford Bibliographies in Latin American Studies (updated 2023)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels. Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings."
+            },
+            {
+              "id": "046100-p02",
+              "anchor": "A khipu may have a main cord, with many hanging cords, and sometimes fur",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ki-nist"
+              ],
+              "source_locator": "National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels."
+            },
+            {
+              "id": "046100-p03",
+              "anchor": "The best-understood Inca khipu records use a decimal place-value system.",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ki-nist"
+              ],
+              "source_locator": "National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels."
+            },
+            {
+              "id": "046100-p04",
+              "anchor": "Inca administration did not operate in isolation from local communities.",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ki-pur",
+                "d7-ki-nist"
+              ],
+              "source_locator": "Gary Urton and Carrie J. Brezine, Khipu Accounting in Ancient Peru, Science 309 (2005); National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Study of 21 Puruchuco khipu and hierarchical aggregation of accounting information; only abstract inspected. Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels."
+            },
+            {
+              "id": "046100-p05",
+              "anchor": "Researchers Gary Urton and Carrie Brezine studied a group of twenty-one ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ki-pur"
+              ],
+              "source_locator": "Gary Urton and Carrie J. Brezine, Khipu Accounting in Ancient Peru, Science 309 (2005)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Study of 21 Puruchuco khipu and hierarchical aggregation of accounting information; only abstract inspected."
+            },
+            {
+              "id": "046100-p06",
+              "anchor": "The work also raises a human question. Who knew how to tie and interpret",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ki-oxford"
+              ],
+              "source_locator": "Manuel Medrano and Galen Brokaw, Quipu, Oxford Bibliographies in Latin American Studies (updated 2023)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings."
+            },
+            {
+              "id": "046100-p07",
+              "anchor": "Khipu traditions were older than the Inca Empire. Researchers have ident",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ki-wari",
+                "d7-ki-oxford"
+              ],
+              "source_locator": "Gary Urton, From Middle Horizon Cord-Keeping to the Rise of Inka Khipus, Antiquity 88 (2014); Manuel Medrano and Galen Brokaw, Quipu, Oxford Bibliographies in Latin American Studies (updated 2023)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "AMS dates and suggested quinary groupings of Wari-era khipu; proposed system interpretation not confirmed for every artifact. Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings."
+            },
+            {
+              "id": "046100-p08",
+              "anchor": "That history matters because the word Inca can hide generations of earli",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ki-wari"
+              ],
+              "source_locator": "Gary Urton, From Middle Horizon Cord-Keeping to the Rise of Inka Khipus, Antiquity 88 (2014)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "AMS dates and suggested quinary groupings of Wari-era khipu; proposed system interpretation not confirmed for every artifact."
+            },
+            {
+              "id": "046100-p09",
+              "anchor": "Could khipu preserve stories rather than only numbers? This remains a ma",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ki-oxford",
+                "d7-ki-nist"
+              ],
+              "source_locator": "Manuel Medrano and Galen Brokaw, Quipu, Oxford Bibliographies in Latin American Studies (updated 2023); National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings. Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels."
+            },
+            {
+              "id": "046100-p10",
+              "anchor": "The language of writing can itself mislead us. If writing is defined nar",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ki-nist",
+                "d7-ki-oxford"
+              ],
+              "source_locator": "National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023); Manuel Medrano and Galen Brokaw, Quipu, Oxford Bibliographies in Latin American Studies (updated 2023)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels. Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings."
+            },
+            {
+              "id": "046100-p11",
+              "anchor": "Conquest damaged the systems within which these records made sense. Span",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ki-oxford"
+              ],
+              "source_locator": "Manuel Medrano and Galen Brokaw, Quipu, Oxford Bibliographies in Latin American Studies (updated 2023)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings."
+            },
+            {
+              "id": "046100-p12",
+              "anchor": "Living Andean communities have also maintained diverse forms of knotting",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ki-oxford"
+              ],
+              "source_locator": "Manuel Medrano and Galen Brokaw, Quipu, Oxford Bibliographies in Latin American Studies (updated 2023)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Distinguishes Inka, Wari and colonial records and broader encoding possibilities; not a decipherment of nonnumeric strings."
+            },
+            {
+              "id": "046100-p13",
+              "anchor": "Try again to picture the storehouse. A keeper may receive reports, compa",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ki-pur",
+                "d7-ki-nist"
+              ],
+              "source_locator": "Gary Urton and Carrie J. Brezine, Khipu Accounting in Ancient Peru, Science 309 (2005); National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Study of 21 Puruchuco khipu and hierarchical aggregation of accounting information; only abstract inspected. Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels."
+            },
+            {
+              "id": "046100-p14",
+              "anchor": "Khipu change how we describe Inca history. Roads, terraces, and stone bu",
+              "kind": "historical_research",
+              "source_ids": [
+                "d7-ki-nist",
+                "d7-ki-pur"
+              ],
+              "source_locator": "National Institute of Standards and Technology, Standardizing an Empire: Inka Khipu (2023); Gary Urton and Carrie J. Brezine, Khipu Accounting in Ancient Peru, Science 309 (2005)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Decimal knot notation, cord construction, twist and color; explanation is a modern decoding, not access to every cord's original labels. Study of 21 Puruchuco khipu and hierarchical aggregation of accounting information; only abstract inspected."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "018000",
-  "transcript": "018000-entropy-method-and-shearers-inequality.md",
+  "transcript": "018000-set-system-complexity-sampling-and-constructive-discrepancy.md",
   "related_resources": [
     {
       "source_id": "dm-entropy-survey",
@@ -14,6 +14,66 @@
     {
       "source_id": "dm-mit6042",
       "reason": "Probability and entropy prerequisites."
+    },
+    {
+      "source_id": "di-r13-025000-1",
+      "reason": "Erdos-Ko-Rado theorem and the classical sunflower lemma with inductive proof"
+    },
+    {
+      "source_id": "di-r13-025000-2",
+      "reason": "Erdos-Ko-Rado theorem and the classical sunflower lemma with inductive proof"
+    },
+    {
+      "source_id": "di-r13-025000-3",
+      "reason": "Erdos-Ko-Rado theorem and the classical sunflower lemma with inductive proof"
+    },
+    {
+      "source_id": "di-r14-027000-1",
+      "reason": "VC dimension, shattering and the Sauer-Shelah growth-function bound"
+    },
+    {
+      "source_id": "di-r14-027000-2",
+      "reason": "VC dimension, shattering and the Sauer-Shelah growth-function bound"
+    },
+    {
+      "source_id": "di-r14-027000-3",
+      "reason": "VC dimension, shattering and the Sauer-Shelah growth-function bound"
+    },
+    {
+      "source_id": "di-r14-027000-3",
+      "reason": "Discrepancy theory, random sign bounds and partial-coloring methods"
+    },
+    {
+      "source_id": "di-r14-028000-2",
+      "reason": "Discrepancy theory, random sign bounds and partial-coloring methods"
+    },
+    {
+      "source_id": "di-r14-028000-3",
+      "reason": "Discrepancy theory, random sign bounds and partial-coloring methods"
+    },
+    {
+      "source_id": "di-r15-029000-1",
+      "reason": "Epsilon-nets, VC dimensions, random sampling and uniform convergence"
+    },
+    {
+      "source_id": "di-r15-029000-2",
+      "reason": "Epsilon-nets, VC dimensions, random sampling and uniform convergence"
+    },
+    {
+      "source_id": "dm-mit-probability",
+      "reason": "Epsilon-nets, VC dimensions, random sampling and uniform convergence"
+    },
+    {
+      "source_id": "di-r15-030000-1",
+      "reason": "Constructive discrepancy via conditional expectation and partial coloring"
+    },
+    {
+      "source_id": "di-r15-030000-2",
+      "reason": "Constructive discrepancy via conditional expectation and partial coloring"
+    },
+    {
+      "source_id": "dm-mit-probability",
+      "reason": "Constructive discrepancy via conditional expectation and partial coloring"
     }
   ],
   "historical_claims": [
@@ -27,5 +87,176 @@
       "source_locator": "ICM 2026 survey, section on Shearer inequality and attribution.",
       "audit_status": "reference_recorded"
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "discrete-mathematics:018000",
+        "file": "018000-entropy-method-and-shearers-inequality.md",
+        "sha256": "f505a71819698551cedfeb62a6e553d2912e3cb63468d714da2a32b5a8b8868e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-entropy-method-and-shearers-inequality.md",
+          "related_resources": [
+            {
+              "source_id": "dm-entropy-survey",
+              "reason": "Shearer inequality and attribution."
+            },
+            {
+              "source_id": "dm-radhakrishnan-entropy",
+              "reason": "Entropy counting and combinatorial projections."
+            },
+            {
+              "source_id": "dm-mit6042",
+              "reason": "Probability and entropy prerequisites."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "018000-h01",
+              "anchor": "Shearer's inequality",
+              "kind": "historical_research",
+              "source_ids": [
+                "dm-entropy-survey"
+              ],
+              "source_locator": "ICM 2026 survey, section on Shearer inequality and attribution.",
+              "audit_status": "reference_recorded"
+            }
+          ]
+        }
+      },
+      {
+        "id": "discrete-mathematics:025000",
+        "file": "025000-extremal-set-systems-and-sunflower-lemma.md",
+        "sha256": "39da3a0805f60954bdaa73a468d1cac1a5da92c2ea41b1e1538ec46e2cc6e758",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025000",
+          "transcript": "025000-extremal-set-systems-and-sunflower-lemma.md",
+          "related_resources": [
+            {
+              "source_id": "di-r13-025000-1",
+              "reason": "Erdos-Ko-Rado theorem and the classical sunflower lemma with inductive proof"
+            },
+            {
+              "source_id": "di-r13-025000-2",
+              "reason": "Erdos-Ko-Rado theorem and the classical sunflower lemma with inductive proof"
+            },
+            {
+              "source_id": "di-r13-025000-3",
+              "reason": "Erdos-Ko-Rado theorem and the classical sunflower lemma with inductive proof"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:027000",
+        "file": "027000-vc-dimension-and-sauer-shelah.md",
+        "sha256": "e42c8e8d69a1e3279ce73b0948bebc66419346566f27c1c44df5923c1471c9ac",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "027000",
+          "transcript": "027000-vc-dimension-and-sauer-shelah.md",
+          "related_resources": [
+            {
+              "source_id": "di-r14-027000-1",
+              "reason": "VC dimension, shattering and the Sauer-Shelah growth-function bound"
+            },
+            {
+              "source_id": "di-r14-027000-2",
+              "reason": "VC dimension, shattering and the Sauer-Shelah growth-function bound"
+            },
+            {
+              "source_id": "di-r14-027000-3",
+              "reason": "VC dimension, shattering and the Sauer-Shelah growth-function bound"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:028000",
+        "file": "028000-discrepancy-and-partial-coloring.md",
+        "sha256": "e5f865237b1415f3307795d59ce93e02223816443a69f1d929c00c88f1b271a1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "028000",
+          "transcript": "028000-discrepancy-and-partial-coloring.md",
+          "related_resources": [
+            {
+              "source_id": "di-r14-027000-3",
+              "reason": "Discrepancy theory, random sign bounds and partial-coloring methods"
+            },
+            {
+              "source_id": "di-r14-028000-2",
+              "reason": "Discrepancy theory, random sign bounds and partial-coloring methods"
+            },
+            {
+              "source_id": "di-r14-028000-3",
+              "reason": "Discrepancy theory, random sign bounds and partial-coloring methods"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:029000",
+        "file": "029000-epsilon-nets-and-uniform-convergence.md",
+        "sha256": "42256ebeec2426c957b94f6c973dfe104999fba4a65b2355cda53bb6ae3396b2",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "029000",
+          "transcript": "029000-epsilon-nets-and-uniform-convergence.md",
+          "related_resources": [
+            {
+              "source_id": "di-r15-029000-1",
+              "reason": "Epsilon-nets, VC dimensions, random sampling and uniform convergence"
+            },
+            {
+              "source_id": "di-r15-029000-2",
+              "reason": "Epsilon-nets, VC dimensions, random sampling and uniform convergence"
+            },
+            {
+              "source_id": "dm-mit-probability",
+              "reason": "Epsilon-nets, VC dimensions, random sampling and uniform convergence"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:030000",
+        "file": "030000-constructive-discrepancy-and-partial-colorings.md",
+        "sha256": "630bac40b76f1fb14ae7aa010280915c3c2764ad8e9017716fc4385bb7c38ede",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "030000",
+          "transcript": "030000-constructive-discrepancy-and-partial-colorings.md",
+          "related_resources": [
+            {
+              "source_id": "di-r15-030000-1",
+              "reason": "Constructive discrepancy via conditional expectation and partial coloring"
+            },
+            {
+              "source_id": "di-r15-030000-2",
+              "reason": "Constructive discrepancy via conditional expectation and partial coloring"
+            },
+            {
+              "source_id": "dm-mit-probability",
+              "reason": "Constructive discrepancy via conditional expectation and partial coloring"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

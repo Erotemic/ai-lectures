@@ -1,5 +1,7 @@
 # King Lear: Story Map, Textual Witnesses, and Editorial Boundaries
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 **Content range:** 038000–047000. **Primary author:** William Shakespeare. **Work:** *King Lear*, written around 1605–1606; first quarto printed in 1608, Folio in 1623.
 
 ## How the lectures are arranged

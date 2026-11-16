@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "011000",
-  "transcript": "011000-irrigation-scheduling-and-soil-water-budgets.md",
+  "transcript": "011000-manage-water-plant-architecture-and-ecological-stress.md",
   "related_resources": [
     {
       "source_id": "nrcs-water",
@@ -18,6 +18,30 @@
     {
       "source_id": "epa-watersense-soil-controller",
       "reason": "Feedback irrigation controllers with soil-moisture thresholds"
+    },
+    {
+      "source_id": "umn-pruning",
+      "reason": "Thinning and heading cuts, branch collar, and appropriate species/season timing"
+    },
+    {
+      "source_id": "psu-plant-diagnosis",
+      "reason": "Pattern, timing, host and cultural conditions to separate biotic from abiotic causes"
+    },
+    {
+      "source_id": "nrcs-compaction",
+      "reason": "Soil pores, reduced infiltration and root restrictions"
+    },
+    {
+      "source_id": "epa-ipm-principles",
+      "reason": "Action threshold, pest identification, prevention and control decisions"
+    },
+    {
+      "source_id": "nrcs-pollinator-fact-sheet",
+      "reason": "Flowering across seasons, nesting habitat, and minimizing adverse pesticide effects"
+    },
+    {
+      "source_id": "uf-ifas-right-plant",
+      "reason": "Microclimate, soil, moisture, light and plant siting"
     }
   ],
   "historical_claims": [],
@@ -91,8 +115,800 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
       "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-01",
+      "claim": "Evaporation and transpiration interact with plant water use and seasonal weather.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usace-evapo",
+          "location": "Stomata and soil-plant-atmosphere water transport",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Soil structure and infiltration affect where water delivered to the surface becomes available to roots.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nrcs-water",
+          "location": "Infiltration, retention and structure",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nrcs-agronomy-manual",
+          "location": "Water potential, field capacity, and permanent wilting point",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Soil-moisture sensing may improve irrigation scheduling but depends on installation and soil context.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-watersense-soil-controller",
+          "location": "Feedback irrigation controllers with soil-moisture thresholds",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Emitter output and operating pressure must be assessed separately from nominal timer runtime.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nrcs-agronomy-manual",
+          "location": "Water potential, field capacity, and permanent wilting point",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-watersense-soil-controller",
+          "location": "Feedback irrigation controllers with soil-moisture thresholds",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P006000-01",
+      "claim": "Thinning cuts and heading cuts affect branch architecture and subsequent growth differently.",
+      "kind": "horticulture",
+      "supports": [
+        {
+          "source_id": "umn-pruning",
+          "location": "Pruning trees and shrubs: heading versus thinning cuts",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-02",
+      "claim": "Branch-removal cuts should preserve the branch collar rather than cut flush or leave long stubs.",
+      "kind": "horticultural_practice",
+      "supports": [
+        {
+          "source_id": "umn-pruning",
+          "location": "Proper branch pruning: branch collar and multi-stage removal",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-03",
+      "claim": "Pruning timing depends on the plant and its flowering and disease context.",
+      "kind": "derived_horticulture",
+      "supports": [
+        {
+          "source_id": "umn-pruning",
+          "location": "When to prune: season and plant types; author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-01",
+      "claim": "Plant symptoms may be caused by living agents or by light, soil, water, weather and cultural conditions.",
+      "kind": "horticultural_diagnosis",
+      "supports": [
+        {
+          "source_id": "psu-plant-diagnosis",
+          "location": "Introduction and Investigate Symptom Progression",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "Plant symptom distribution, time course and affected hosts help distinguish competing causes.",
+      "kind": "horticultural_diagnosis",
+      "supports": [
+        {
+          "source_id": "psu-plant-diagnosis",
+          "location": "Observe Patterns and Ask Questions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "Soil compaction and moisture conditions affect root-zone function and complicate interpretation of nutrient symptoms.",
+      "kind": "derived_horticulture",
+      "supports": [
+        {
+          "source_id": "nrcs-compaction",
+          "location": "USDA NRCS: soil structure and compaction",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "psu-plant-diagnosis",
+          "location": "Review cultural practices and environmental causes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-01",
+      "claim": "IPM uses action thresholds, pest identification, prevention and suitable control rather than immediate treatment of every sighting.",
+      "kind": "integrated_pest_management",
+      "supports": [
+        {
+          "source_id": "epa-ipm-principles",
+          "location": "Four-tiered IPM process",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "Some organisms found on plants are harmless or beneficial and should be distinguished from the cause of damage.",
+      "kind": "integrated_pest_management",
+      "supports": [
+        {
+          "source_id": "epa-ipm-principles",
+          "location": "Monitor and identify pests, beneficial organisms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "Plant stress patterns and environmental context can help distinguish pest damage from abiotic causes.",
+      "kind": "derived_plant_diagnosis",
+      "supports": [
+        {
+          "source_id": "psu-plant-diagnosis",
+          "location": "Diagnostic observation of host, signs, and environment",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P013000-01",
+      "claim": "Pollinator habitats benefit from forage and nesting resources distributed across life stages and flowering seasons.",
+      "kind": "original_us_conservation_agency_guidance",
+      "supports": [
+        {
+          "source_id": "nrcs-pollinator-fact-sheet",
+          "location": "Flowering across seasons, nesting habitat, and minimizing adverse pesticide effects",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "Broad pesticide treatment can affect non-target beneficial species; identification and proportional responses are central to integrated pest management.",
+      "kind": "original_us_environmental_guidance",
+      "supports": [
+        {
+          "source_id": "epa-ipm-principles",
+          "location": "Action threshold, pest identification, prevention and control decisions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nrcs-pollinator-fact-sheet",
+          "location": "Flowering across seasons, nesting habitat, and minimizing adverse pesticide effects",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Site-specific soil, water and climate conditions matter in plant selection for habitat gardens.",
+      "kind": "derived_site_design",
+      "supports": [
+        {
+          "source_id": "uf-ifas-right-plant",
+          "location": "Microclimate, soil, moisture, light and plant siting",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nrcs-pollinator-fact-sheet",
+          "location": "Flowering across seasons, nesting habitat, and minimizing adverse pesticide effects",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+  "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-gardening:011000",
+        "file": "011000-irrigation-scheduling-and-soil-water-budgets.md",
+        "sha256": "e7dcf3f9a75f32c234e9b0098467271b373841001a6c76401a97232894579e03",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-irrigation-scheduling-and-soil-water-budgets.md",
+          "related_resources": [
+            {
+              "source_id": "nrcs-water",
+              "reason": "Infiltration, retention and structure"
+            },
+            {
+              "source_id": "nrcs-agronomy-manual",
+              "reason": "Water potential, field capacity, and permanent wilting point"
+            },
+            {
+              "source_id": "usace-evapo",
+              "reason": "Stomata and soil-plant-atmosphere water transport"
+            },
+            {
+              "source_id": "epa-watersense-soil-controller",
+              "reason": "Feedback irrigation controllers with soil-moisture thresholds"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "Soil water available to plants depends on pore structure, storage and root-zone conditions.",
+              "kind": "original_nrcs_soil_water",
+              "supports": [
+                {
+                  "source_id": "nrcs-water",
+                  "location": "Soil-water and retention principles",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "Irrigation planning balances rain and applied water against crop/plant use, runoff and drainage.",
+              "kind": "derived_water_budget",
+              "supports": [
+                {
+                  "source_id": "nrcs-agronomy-manual",
+                  "location": "Water budget and soil hydrology",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usace-evapo",
+                  "location": "Evaporation and transpiration mechanisms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "Soil moisture sensors can inhibit or allow scheduled irrigation based on measured threshold conditions.",
+              "kind": "original_epa_watersense_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-watersense-soil-controller",
+                  "location": "Sensor-based scheduling",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "Irrigation runtime and applied water depth are not interchangeable without measuring application rate and distribution.",
+              "kind": "derived_irrigation_mechanics",
+              "supports": [
+                {
+                  "source_id": "nrcs-water",
+                  "location": "Soil water movement",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-watersense-soil-controller",
+                  "location": "System measurement and control purpose",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-gardening:016000",
+        "file": "016000-irrigation-distribution-for-mixed-beds.md",
+        "sha256": "10d350b392654e15b3c61e1d6a163d58d55644ca2fbe001c50a900fb6eec914b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-irrigation-distribution-for-mixed-beds.md",
+          "related_resources": [
+            {
+              "source_id": "epa-watersense-soil-controller",
+              "reason": "Feedback irrigation controllers with soil-moisture thresholds"
+            },
+            {
+              "source_id": "nrcs-water",
+              "reason": "Infiltration, retention and structure"
+            },
+            {
+              "source_id": "usace-evapo",
+              "reason": "Stomata and soil-plant-atmosphere water transport"
+            },
+            {
+              "source_id": "nrcs-agronomy-manual",
+              "reason": "Water potential, field capacity, and permanent wilting point"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "Evaporation and transpiration interact with plant water use and seasonal weather.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usace-evapo",
+                  "location": "Stomata and soil-plant-atmosphere water transport",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "Soil structure and infiltration affect where water delivered to the surface becomes available to roots.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nrcs-water",
+                  "location": "Infiltration, retention and structure",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nrcs-agronomy-manual",
+                  "location": "Water potential, field capacity, and permanent wilting point",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "Soil-moisture sensing may improve irrigation scheduling but depends on installation and soil context.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-watersense-soil-controller",
+                  "location": "Feedback irrigation controllers with soil-moisture thresholds",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Emitter output and operating pressure must be assessed separately from nominal timer runtime.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nrcs-agronomy-manual",
+                  "location": "Water potential, field capacity, and permanent wilting point",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-watersense-soil-controller",
+                  "location": "Feedback irrigation controllers with soil-moisture thresholds",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-gardening:006000",
+        "file": "006000-pruning-seasonality-and-plant-architecture.md",
+        "sha256": "1827a684e0b82f75254498dc8c8d848182eeead58196cd2f89b1ec40c35bafa9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-pruning-seasonality-and-plant-architecture.md",
+          "related_resources": [
+            {
+              "source_id": "umn-pruning",
+              "reason": "Thinning and heading cuts, branch collar, and appropriate species/season timing"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P006000-01",
+              "claim": "Thinning cuts and heading cuts affect branch architecture and subsequent growth differently.",
+              "kind": "horticulture",
+              "supports": [
+                {
+                  "source_id": "umn-pruning",
+                  "location": "Pruning trees and shrubs: heading versus thinning cuts",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-02",
+              "claim": "Branch-removal cuts should preserve the branch collar rather than cut flush or leave long stubs.",
+              "kind": "horticultural_practice",
+              "supports": [
+                {
+                  "source_id": "umn-pruning",
+                  "location": "Proper branch pruning: branch collar and multi-stage removal",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-03",
+              "claim": "Pruning timing depends on the plant and its flowering and disease context.",
+              "kind": "derived_horticulture",
+              "supports": [
+                {
+                  "source_id": "umn-pruning",
+                  "location": "When to prune: season and plant types; author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+        }
+      },
+      {
+        "id": "practical-gardening:007000",
+        "file": "007000-observing-pests-disease-and-nutrient-stress.md",
+        "sha256": "8f9a2c13b3aa7978adfa36aa20fe1e3b35098aa69490e8b4b75b5c4328df605c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-observing-pests-disease-and-nutrient-stress.md",
+          "related_resources": [
+            {
+              "source_id": "psu-plant-diagnosis",
+              "reason": "Pattern, timing, host and cultural conditions to separate biotic from abiotic causes"
+            },
+            {
+              "source_id": "nrcs-compaction",
+              "reason": "Soil pores, reduced infiltration and root restrictions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "Plant symptoms may be caused by living agents or by light, soil, water, weather and cultural conditions.",
+              "kind": "horticultural_diagnosis",
+              "supports": [
+                {
+                  "source_id": "psu-plant-diagnosis",
+                  "location": "Introduction and Investigate Symptom Progression",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "Plant symptom distribution, time course and affected hosts help distinguish competing causes.",
+              "kind": "horticultural_diagnosis",
+              "supports": [
+                {
+                  "source_id": "psu-plant-diagnosis",
+                  "location": "Observe Patterns and Ask Questions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "Soil compaction and moisture conditions affect root-zone function and complicate interpretation of nutrient symptoms.",
+              "kind": "derived_horticulture",
+              "supports": [
+                {
+                  "source_id": "nrcs-compaction",
+                  "location": "USDA NRCS: soil structure and compaction",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "psu-plant-diagnosis",
+                  "location": "Review cultural practices and environmental causes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      },
+      {
+        "id": "practical-gardening:008000",
+        "file": "008000-integrated-pest-management-and-beneficial-species.md",
+        "sha256": "43071af0eb3ed1d6e1bcda72e8154e1d85ca00f1fc8d25697b80bc4708d6abfa",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-integrated-pest-management-and-beneficial-species.md",
+          "related_resources": [
+            {
+              "source_id": "epa-ipm-principles",
+              "reason": "Action threshold, pest identification, prevention and control decisions"
+            },
+            {
+              "source_id": "psu-plant-diagnosis",
+              "reason": "Pattern, timing, host and cultural conditions to separate biotic from abiotic causes"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P008000-01",
+              "claim": "IPM uses action thresholds, pest identification, prevention and suitable control rather than immediate treatment of every sighting.",
+              "kind": "integrated_pest_management",
+              "supports": [
+                {
+                  "source_id": "epa-ipm-principles",
+                  "location": "Four-tiered IPM process",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-02",
+              "claim": "Some organisms found on plants are harmless or beneficial and should be distinguished from the cause of damage.",
+              "kind": "integrated_pest_management",
+              "supports": [
+                {
+                  "source_id": "epa-ipm-principles",
+                  "location": "Monitor and identify pests, beneficial organisms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-03",
+              "claim": "Plant stress patterns and environmental context can help distinguish pest damage from abiotic causes.",
+              "kind": "derived_plant_diagnosis",
+              "supports": [
+                {
+                  "source_id": "psu-plant-diagnosis",
+                  "location": "Diagnostic observation of host, signs, and environment",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+        }
+      },
+      {
+        "id": "practical-gardening:013000",
+        "file": "013000-pollinator-habitat-and-ecological-gardening.md",
+        "sha256": "a9aaec2bb4669a8fb2bc7c771c366ed088286fc9ef2313cdf0f69c889bd2664f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-pollinator-habitat-and-ecological-gardening.md",
+          "related_resources": [
+            {
+              "source_id": "nrcs-pollinator-fact-sheet",
+              "reason": "Flowering across seasons, nesting habitat, and minimizing adverse pesticide effects"
+            },
+            {
+              "source_id": "epa-ipm-principles",
+              "reason": "Action threshold, pest identification, prevention and control decisions"
+            },
+            {
+              "source_id": "uf-ifas-right-plant",
+              "reason": "Microclimate, soil, moisture, light and plant siting"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "Pollinator habitats benefit from forage and nesting resources distributed across life stages and flowering seasons.",
+              "kind": "original_us_conservation_agency_guidance",
+              "supports": [
+                {
+                  "source_id": "nrcs-pollinator-fact-sheet",
+                  "location": "Flowering across seasons, nesting habitat, and minimizing adverse pesticide effects",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "Broad pesticide treatment can affect non-target beneficial species; identification and proportional responses are central to integrated pest management.",
+              "kind": "original_us_environmental_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-ipm-principles",
+                  "location": "Action threshold, pest identification, prevention and control decisions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nrcs-pollinator-fact-sheet",
+                  "location": "Flowering across seasons, nesting habitat, and minimizing adverse pesticide effects",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "Site-specific soil, water and climate conditions matter in plant selection for habitat gardens.",
+              "kind": "derived_site_design",
+              "supports": [
+                {
+                  "source_id": "uf-ifas-right-plant",
+                  "location": "Microclimate, soil, moisture, light and plant siting",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nrcs-pollinator-fact-sheet",
+                  "location": "Flowering across seasons, nesting habitat, and minimizing adverse pesticide effects",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "011000-manage-water-plant-architecture-and-ecological-stress.md"
+      ],
+      "joined_before_source_parts": [
+        "016000",
+        "007000"
+      ]
+    }
+  ]
 }

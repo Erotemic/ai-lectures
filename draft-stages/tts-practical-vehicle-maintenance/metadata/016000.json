@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "016000",
-  "transcript": "016000-roadside-fault-triage-and-service-documentation.md",
+  "transcript": "016000-know-roadside-and-electric-drivetrain-boundaries.md",
   "related_resources": [
     {
       "source_id": "nhtsa-maintain-vehicle",
@@ -18,6 +18,22 @@
     {
       "source_id": "openstax-ohms-law",
       "reason": "Voltage drop I × R, resistive heating and limitations of linear Ohm model"
+    },
+    {
+      "source_id": "doe-afdc-ev-maintenance",
+      "reason": "Maintenance differences among battery electric, hybrid and combustion vehicles"
+    },
+    {
+      "source_id": "nhtsa-ev-hybrid-safety",
+      "reason": "Traction batteries, DC/DC conversion, auxiliary batteries, high-voltage service and towing precautions"
+    },
+    {
+      "source_id": "fueleconomy-ev",
+      "reason": "Drive-cycle efficiency, losses, regeneration and vehicle resistance"
+    },
+    {
+      "source_id": "nrel-leighton-evthermal21",
+      "reason": "Separate/combined cooling loops, battery and power-electronics heat, cabin conditioning and range"
     }
   ],
   "historical_claims": [],
@@ -86,8 +102,524 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
       "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-01",
+      "claim": "BEVs differ in maintenance needs from HEVs and conventional gasoline vehicles.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-afdc-ev-maintenance",
+          "location": "Maintenance differences among battery electric, hybrid and combustion vehicles",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "Many EVs use separate low-voltage and high-voltage electrical systems.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nhtsa-ev-hybrid-safety",
+          "location": "Traction batteries, DC/DC conversion, auxiliary batteries, high-voltage service and towing precautions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "DC-to-DC conversion commonly maintains low-voltage power in electrified vehicles.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nhtsa-ev-hybrid-safety",
+          "location": "Traction batteries, DC/DC conversion, auxiliary batteries, high-voltage service and towing precautions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Traction batteries require specialized high-voltage service qualifications and procedures.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nhtsa-ev-hybrid-safety",
+          "location": "Traction batteries, DC/DC conversion, auxiliary batteries, high-voltage service and towing precautions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Regenerative braking can reduce friction wear but does not remove brake maintenance.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-afdc-ev-maintenance",
+          "location": "Maintenance differences among battery electric, hybrid and combustion vehicles",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-06",
+      "claim": "Charging and towing procedures depend on the specific vehicle and charging interface.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nhtsa-ev-hybrid-safety",
+          "location": "Traction batteries, DC/DC conversion, auxiliary batteries, high-voltage service and towing precautions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "fueleconomy-ev",
+          "location": "Drive-cycle efficiency, losses, regeneration and vehicle resistance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-01",
+      "claim": "Electric drivetrains have battery, power-electronics, motor and cabin thermal-management needs.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nrel-leighton-evthermal21",
+          "location": "Separate/combined cooling loops, battery and power-electronics heat, cabin conditioning and range",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-02",
+      "claim": "Battery temperature influences allowable power, charging limits and energy use.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nrel-leighton-evthermal21",
+          "location": "Separate/combined cooling loops, battery and power-electronics heat, cabin conditioning and range",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-afdc-ev-maintenance",
+          "location": "Maintenance differences among battery electric, hybrid and combustion vehicles",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-03",
+      "claim": "Thermal architecture may use separate or combined coolant circuits for components and cabin systems.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nrel-leighton-evthermal21",
+          "location": "Separate/combined cooling loops, battery and power-electronics heat, cabin conditioning and range",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-04",
+      "claim": "High-voltage electric-drive equipment requires model-specific isolation and service procedures.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nhtsa-ev-hybrid-safety",
+          "location": "Traction batteries, DC/DC conversion, auxiliary batteries, high-voltage service and towing precautions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-afdc-ev-maintenance",
+          "location": "Maintenance differences among battery electric, hybrid and combustion vehicles",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-vehicle-maintenance:016000",
+        "file": "016000-roadside-fault-triage-and-service-documentation.md",
+        "sha256": "88aa199f5373db2ff1f741850ebb5d2ea35d5ae4b2cae4454f66d3506f9e0778",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-roadside-fault-triage-and-service-documentation.md",
+          "related_resources": [
+            {
+              "source_id": "nhtsa-maintain-vehicle",
+              "reason": "Vehicle service records, tire/fluids/light checks and owner manual priority"
+            },
+            {
+              "source_id": "nhtsa-winter-battery",
+              "reason": "Cold weather reduces battery power and engine starting can require more power; service system check"
+            },
+            {
+              "source_id": "sae-dtc-j2012-2025",
+              "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+            },
+            {
+              "source_id": "openstax-ohms-law",
+              "reason": "Voltage drop I × R, resistive heating and limitations of linear Ohm model"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "Vehicle maintenance should follow owner instructions and include documentation of conditions and service history.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nhtsa-maintain-vehicle",
+                  "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "A starting fault can involve battery performance or high-current connection resistance, not only battery open-circuit voltage.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nhtsa-winter-battery",
+                  "location": "Cold weather reduces battery power and engine starting can require more power; service system check",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "openstax-ohms-law",
+                  "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "Standardized diagnostic trouble codes identify detected conditions but not necessarily the defective physical part.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "sae-dtc-j2012-2025",
+                  "location": "Standardized DTC definitions; standards page abstract, full text may require purchase",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Vehicle roadside observations should prioritize personal safety and preserve diagnostic evidence for later service.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nhtsa-maintain-vehicle",
+                  "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-vehicle-maintenance:020000",
+        "file": "020000-hybrid-and-electric-vehicle-systems-diagnostic-boundaries-and-safe-maintenance.md",
+        "sha256": "1fdc93b496c6bac63a97bca91648c5366cfaf75280cf7933707c7e81d1e9b9e3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-hybrid-and-electric-vehicle-systems-diagnostic-boundaries-and-safe-maintenance.md",
+          "related_resources": [
+            {
+              "source_id": "doe-afdc-ev-maintenance",
+              "reason": "Maintenance differences among battery electric, hybrid and combustion vehicles"
+            },
+            {
+              "source_id": "nhtsa-ev-hybrid-safety",
+              "reason": "Traction batteries, DC/DC conversion, auxiliary batteries, high-voltage service and towing precautions"
+            },
+            {
+              "source_id": "fueleconomy-ev",
+              "reason": "Drive-cycle efficiency, losses, regeneration and vehicle resistance"
+            },
+            {
+              "source_id": "nhtsa-maintain-vehicle",
+              "reason": "Vehicle service records, tire/fluids/light checks and owner manual priority"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P020000-01",
+              "claim": "BEVs differ in maintenance needs from HEVs and conventional gasoline vehicles.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-afdc-ev-maintenance",
+                  "location": "Maintenance differences among battery electric, hybrid and combustion vehicles",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-02",
+              "claim": "Many EVs use separate low-voltage and high-voltage electrical systems.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nhtsa-ev-hybrid-safety",
+                  "location": "Traction batteries, DC/DC conversion, auxiliary batteries, high-voltage service and towing precautions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-03",
+              "claim": "DC-to-DC conversion commonly maintains low-voltage power in electrified vehicles.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nhtsa-ev-hybrid-safety",
+                  "location": "Traction batteries, DC/DC conversion, auxiliary batteries, high-voltage service and towing precautions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-04",
+              "claim": "Traction batteries require specialized high-voltage service qualifications and procedures.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nhtsa-ev-hybrid-safety",
+                  "location": "Traction batteries, DC/DC conversion, auxiliary batteries, high-voltage service and towing precautions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-05",
+              "claim": "Regenerative braking can reduce friction wear but does not remove brake maintenance.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-afdc-ev-maintenance",
+                  "location": "Maintenance differences among battery electric, hybrid and combustion vehicles",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-06",
+              "claim": "Charging and towing procedures depend on the specific vehicle and charging interface.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nhtsa-ev-hybrid-safety",
+                  "location": "Traction batteries, DC/DC conversion, auxiliary batteries, high-voltage service and towing precautions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "fueleconomy-ev",
+                  "location": "Drive-cycle efficiency, losses, regeneration and vehicle resistance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+        }
+      },
+      {
+        "id": "practical-vehicle-maintenance:021000",
+        "file": "021000-electric-drivetrain-cooling-loops-battery-temperature-and-power-derating.md",
+        "sha256": "169ea7ae0624b07f8dcf58b2815f5ee6a2035e2b57e15a48c3407df463f2ebcf",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-electric-drivetrain-cooling-loops-battery-temperature-and-power-derating.md",
+          "related_resources": [
+            {
+              "source_id": "nrel-leighton-evthermal21",
+              "reason": "Separate/combined cooling loops, battery and power-electronics heat, cabin conditioning and range"
+            },
+            {
+              "source_id": "doe-afdc-ev-maintenance",
+              "reason": "Maintenance differences among battery electric, hybrid and combustion vehicles"
+            },
+            {
+              "source_id": "nhtsa-ev-hybrid-safety",
+              "reason": "Traction batteries, DC/DC conversion, auxiliary batteries, high-voltage service and towing precautions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P021000-01",
+              "claim": "Electric drivetrains have battery, power-electronics, motor and cabin thermal-management needs.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nrel-leighton-evthermal21",
+                  "location": "Separate/combined cooling loops, battery and power-electronics heat, cabin conditioning and range",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-02",
+              "claim": "Battery temperature influences allowable power, charging limits and energy use.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nrel-leighton-evthermal21",
+                  "location": "Separate/combined cooling loops, battery and power-electronics heat, cabin conditioning and range",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-afdc-ev-maintenance",
+                  "location": "Maintenance differences among battery electric, hybrid and combustion vehicles",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-03",
+              "claim": "Thermal architecture may use separate or combined coolant circuits for components and cabin systems.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nrel-leighton-evthermal21",
+                  "location": "Separate/combined cooling loops, battery and power-electronics heat, cabin conditioning and range",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-04",
+              "claim": "High-voltage electric-drive equipment requires model-specific isolation and service procedures.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nhtsa-ev-hybrid-safety",
+                  "location": "Traction batteries, DC/DC conversion, auxiliary batteries, high-voltage service and towing precautions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-afdc-ev-maintenance",
+                  "location": "Maintenance differences among battery electric, hybrid and combustion vehicles",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_or_clinical_review_pending",
+          "citation_policy": "Credit original authors and standards issuers; cite educational synthesis accurately. No engineering, clinical, or jurisdictional certification is claimed."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "016000-know-roadside-and-electric-drivetrain-boundaries.md"
+      ],
+      "joined_before_source_parts": [
+        "020000",
+        "021000"
+      ]
+    }
+  ]
 }

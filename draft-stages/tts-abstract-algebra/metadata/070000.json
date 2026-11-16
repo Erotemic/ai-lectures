@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "070000",
-  "transcript": "070000-littlewood-richardson-tableaux-and-tensor-products.md",
+  "transcript": "070000-tensor-multiplicities-crystal-combinatorics-and-hecke-theory.md",
   "related_resources": [
     {
       "source_id": "ab-r18-070000-1",
@@ -14,7 +14,145 @@
     {
       "source_id": "ab-r18-070000-3",
       "reason": "Reference on Littlewood-Richardson Rules: Counting Tensor-Product Multiplicities (3 of 3)"
+    },
+    {
+      "source_id": "ab-r19-074000-1",
+      "reason": "Reference for Crystal Bases and Canonical Bases (1 of 2)"
+    },
+    {
+      "source_id": "ab-r19-074000-2",
+      "reason": "Reference for Crystal Bases and Canonical Bases (2 of 2)"
+    },
+    {
+      "source_id": "ab-r20-078000-1",
+      "reason": "Reference for Demazure Crystals and Key Polynomials (1 of 3)"
+    },
+    {
+      "source_id": "ab-r20-078000-2",
+      "reason": "Reference for Demazure Crystals and Key Polynomials (2 of 3)"
+    },
+    {
+      "source_id": "ab-r20-078000-3",
+      "reason": "Reference for Demazure Crystals and Key Polynomials (3 of 3)"
+    },
+    {
+      "source_id": "ab-r21-083000-1",
+      "reason": "original polynomial and canonical-basis construction"
+    },
+    {
+      "source_id": "ab-r21-083000-2",
+      "reason": "positivity by categorified Hodge theory"
+    },
+    {
+      "source_id": "ab-r21-083000-3",
+      "reason": "published account and theorem statements"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:070000",
+        "file": "070000-littlewood-richardson-tableaux-and-tensor-products.md",
+        "sha256": "edce46adc847ec58419f2bf1b76b151f8d9d6d57dd7748badf5b9a5f5506b2ec",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "070000",
+          "transcript": "070000-littlewood-richardson-tableaux-and-tensor-products.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r18-070000-1",
+              "reason": "Reference on Littlewood-Richardson Rules: Counting Tensor-Product Multiplicities (1 of 3)"
+            },
+            {
+              "source_id": "ab-r18-070000-2",
+              "reason": "Reference on Littlewood-Richardson Rules: Counting Tensor-Product Multiplicities (2 of 3)"
+            },
+            {
+              "source_id": "ab-r18-070000-3",
+              "reason": "Reference on Littlewood-Richardson Rules: Counting Tensor-Product Multiplicities (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:074000",
+        "file": "074000-crystal-and-canonical-bases.md",
+        "sha256": "3c6e9eb050fb3eb4509b62e6f5b2ac14484790058abda3ec27c008ca6f3a3699",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "074000",
+          "transcript": "074000-crystal-and-canonical-bases.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r19-074000-1",
+              "reason": "Reference for Crystal Bases and Canonical Bases (1 of 2)"
+            },
+            {
+              "source_id": "ab-r19-074000-2",
+              "reason": "Reference for Crystal Bases and Canonical Bases (2 of 2)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:078000",
+        "file": "078000-demazure-crystals-and-key-polynomials.md",
+        "sha256": "ee599da8ce6768f199881e1b8d0dabc019fa1e6cd381dc87c70e11eb07c017df",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "078000",
+          "transcript": "078000-demazure-crystals-and-key-polynomials.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r20-078000-1",
+              "reason": "Reference for Demazure Crystals and Key Polynomials (1 of 3)"
+            },
+            {
+              "source_id": "ab-r20-078000-2",
+              "reason": "Reference for Demazure Crystals and Key Polynomials (2 of 3)"
+            },
+            {
+              "source_id": "ab-r20-078000-3",
+              "reason": "Reference for Demazure Crystals and Key Polynomials (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:083000",
+        "file": "083000-kazhdan-lusztig-polynomials-and-hecke-algebras.md",
+        "sha256": "3c8b91c6b573e7c44a1e8943ebbdaf8281f37ea388d763a0c19297b158f98d07",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "083000",
+          "transcript": "083000-kazhdan-lusztig-polynomials-and-hecke-algebras.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r21-083000-1",
+              "reason": "original polynomial and canonical-basis construction"
+            },
+            {
+              "source_id": "ab-r21-083000-2",
+              "reason": "positivity by categorified Hodge theory"
+            },
+            {
+              "source_id": "ab-r21-083000-3",
+              "reason": "published account and theorem statements"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "007000",
-  "transcript": "007000-corrosion-and-outdoor-fabrication.md",
+  "transcript": "007000-inspect-corrosion-welds-and-durable-finishes.md",
   "related_resources": [
     {
       "source_id": "ampp-galvanic-corrosion",
@@ -10,6 +10,42 @@
     {
       "source_id": "nasa-crews-fatigue",
       "reason": "Fatigue cracking under cyclic loading and geometric stress concentration"
+    },
+    {
+      "source_id": "iso-fastener-grade",
+      "reason": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed"
+    },
+    {
+      "source_id": "nasa-barrett-fastener",
+      "reason": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary"
+    },
+    {
+      "source_id": "aws-b111-visual",
+      "reason": "Visual examination stages, weld surface discontinuities, equipment and prerequisites; full standard may require purchase"
+    },
+    {
+      "source_id": "twi-weld-defects",
+      "reason": "Weld imperfection taxonomy, hidden fusion limits, design-dependent acceptance"
+    },
+    {
+      "source_id": "osha-welding",
+      "reason": "Fumes, ultraviolet radiation, burns, electric shock and protective controls"
+    },
+    {
+      "source_id": "twi-tack-distortion",
+      "reason": "Effect of tack spacing, sequence, and root-gap control on welding shrinkage"
+    },
+    {
+      "source_id": "aga-galvanized-paint-prep",
+      "reason": "Surface condition, cleaning and profiling requirements; reference ASTM D6386"
+    },
+    {
+      "source_id": "osha-mwf",
+      "reason": "Tool/workpiece heat, chip removal, cooling and lubrication of machining operations"
+    },
+    {
+      "source_id": "osha-mwf-exposure",
+      "reason": "Mist exposure controls and fluid delivery"
     }
   ],
   "historical_claims": [],
@@ -58,8 +94,714 @@
       "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
       "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-01",
+      "claim": "Galvanic corrosion depends on connected dissimilar metals and an electrolyte.",
+      "kind": "corrosion_science_guidance",
+      "supports": [
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Galvanic corrosion mechanism",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "A repair that changes joint geometry or moisture retention can change corrosion even if the surface looks improved.",
+      "kind": "derived_corrosion_design",
+      "supports": [
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Electrolyte and metal compatibility mechanisms; applied author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "Structural significance of corrosion depends on location and remaining section rather than surface color alone.",
+      "kind": "derived_structural_assessment",
+      "supports": [
+        {
+          "source_id": "nasa-crews-fatigue",
+          "location": "Fatigue and stressed connection vulnerability; combined with galvanic corrosion mechanism",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Corrosion processes, author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P013000-01",
+      "claim": "Dissimilar metals in electrical contact and wetted by electrolyte can exhibit galvanic corrosion depending on geometry and environment.",
+      "kind": "original_corrosion_engineering_reference",
+      "supports": [
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "Fasteners must satisfy mechanical properties as well as environmental compatibility.",
+      "kind": "derived_joint_design_synthesis",
+      "supports": [
+        {
+          "source_id": "iso-fastener-grade",
+          "location": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nasa-barrett-fastener",
+          "location": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Corrosion of the attached member can compromise a joint even when the visible fastener appears intact.",
+      "kind": "derived_corrosion_failure_analysis",
+      "supports": [
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nasa-barrett-fastener",
+          "location": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-01",
+      "claim": "Visual weld examination depends on joint preparation, fit-up and defined acceptance criteria.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aws-b111-visual",
+          "location": "Visual examination stages, weld surface discontinuities, equipment and prerequisites; full standard may require purchase",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Some weld imperfections are visible at the surface while others require further examination.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aws-b111-visual",
+          "location": "Visual examination stages, weld surface discontinuities, equipment and prerequisites; full standard may require purchase",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "twi-weld-defects",
+          "location": "Weld imperfection taxonomy, hidden fusion limits, design-dependent acceptance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "Lack of fusion, cracking, undercut and porosity are distinct discontinuity mechanisms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "twi-weld-defects",
+          "location": "Weld imperfection taxonomy, hidden fusion limits, design-dependent acceptance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Welding sequence and heat input influence distortion.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "twi-tack-distortion",
+          "location": "Effect of tack spacing, sequence, and root-gap control on welding shrinkage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-01",
+      "claim": "Substrate identification and cleaning affect coating adhesion and durability.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aga-galvanized-paint-prep",
+          "location": "Surface condition, cleaning and profiling requirements; reference ASTM D6386",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "New and weathered galvanized surfaces need condition-specific paint preparation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aga-galvanized-paint-prep",
+          "location": "Surface condition, cleaning and profiling requirements; reference ASTM D6386",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "Coatings and corrosion behavior change with galvanic couples and exposure.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Surface profile and coating selection must match the intended specification.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aga-galvanized-paint-prep",
+          "location": "Surface condition, cleaning and profiling requirements; reference ASTM D6386",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Hazardous surface preparation may involve exposure controls beyond ordinary workshop cleaning.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "osha-mwf-exposure",
+          "location": "Mist exposure controls and fluid delivery",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-metalworking:007000",
+        "file": "007000-corrosion-and-outdoor-fabrication.md",
+        "sha256": "42d4da5a0d8795be40d55d56f3568ba66703a591988a90eccbf6af4f2a6e456b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-corrosion-and-outdoor-fabrication.md",
+          "related_resources": [
+            {
+              "source_id": "ampp-galvanic-corrosion",
+              "reason": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact"
+            },
+            {
+              "source_id": "nasa-crews-fatigue",
+              "reason": "Fatigue cracking under cyclic loading and geometric stress concentration"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "Galvanic attack can be driven by dissimilar conductive materials coupled in an electrolyte.",
+              "kind": "corrosion_mechanism",
+              "supports": [
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Galvanic corrosion: anode/cathode, electrical connection and electrolyte",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "Outdoor dissimilar-metal contact and water retention should be considered together when designing and coating a joint.",
+              "kind": "derived_corrosion_design",
+              "supports": [
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Galvanic couple in corrosive electrolyte; assembly design synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "Stress concentrations and cyclic loads can create fatigue cracking in fabricated components.",
+              "kind": "fatigue_mechanics",
+              "supports": [
+                {
+                  "source_id": "nasa-crews-fatigue",
+                  "location": "NASA TM: cyclic loading and stress concentrations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      },
+      {
+        "id": "trades-metalworking:008000",
+        "file": "008000-inspecting-and-repairing-corroded-assemblies.md",
+        "sha256": "8d0b0109c33d11b6b8399ed64a1723deeaac21f15870b4f4a8f5951794dcb0fe",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-inspecting-and-repairing-corroded-assemblies.md",
+          "related_resources": [
+            {
+              "source_id": "ampp-galvanic-corrosion",
+              "reason": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact"
+            },
+            {
+              "source_id": "nasa-crews-fatigue",
+              "reason": "Fatigue cracking under cyclic loading and geometric stress concentration"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P008000-01",
+              "claim": "Galvanic corrosion depends on connected dissimilar metals and an electrolyte.",
+              "kind": "corrosion_science_guidance",
+              "supports": [
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Galvanic corrosion mechanism",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-02",
+              "claim": "A repair that changes joint geometry or moisture retention can change corrosion even if the surface looks improved.",
+              "kind": "derived_corrosion_design",
+              "supports": [
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Electrolyte and metal compatibility mechanisms; applied author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-03",
+              "claim": "Structural significance of corrosion depends on location and remaining section rather than surface color alone.",
+              "kind": "derived_structural_assessment",
+              "supports": [
+                {
+                  "source_id": "nasa-crews-fatigue",
+                  "location": "Fatigue and stressed connection vulnerability; combined with galvanic corrosion mechanism",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Corrosion processes, author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+        }
+      },
+      {
+        "id": "trades-metalworking:013000",
+        "file": "013000-choosing-metals-and-fasteners-for-corrosive-environments.md",
+        "sha256": "0a2916eb97e2436760c73f27d8a9aeee293928d0de85174c357e6296ddf3935b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-choosing-metals-and-fasteners-for-corrosive-environments.md",
+          "related_resources": [
+            {
+              "source_id": "ampp-galvanic-corrosion",
+              "reason": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact"
+            },
+            {
+              "source_id": "iso-fastener-grade",
+              "reason": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed"
+            },
+            {
+              "source_id": "nasa-barrett-fastener",
+              "reason": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "Dissimilar metals in electrical contact and wetted by electrolyte can exhibit galvanic corrosion depending on geometry and environment.",
+              "kind": "original_corrosion_engineering_reference",
+              "supports": [
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "Fasteners must satisfy mechanical properties as well as environmental compatibility.",
+              "kind": "derived_joint_design_synthesis",
+              "supports": [
+                {
+                  "source_id": "iso-fastener-grade",
+                  "location": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nasa-barrett-fastener",
+                  "location": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "Corrosion of the attached member can compromise a joint even when the visible fastener appears intact.",
+              "kind": "derived_corrosion_failure_analysis",
+              "supports": [
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nasa-barrett-fastener",
+                  "location": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "trades-metalworking:019000",
+        "file": "019000-reading-a-weld-fit-up-surface-evidence-and-hidden-defects.md",
+        "sha256": "3153190b909298ceb49a992dc59e290c6dd6f69015712f7684d18dcdbccb2544",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-reading-a-weld-fit-up-surface-evidence-and-hidden-defects.md",
+          "related_resources": [
+            {
+              "source_id": "aws-b111-visual",
+              "reason": "Visual examination stages, weld surface discontinuities, equipment and prerequisites; full standard may require purchase"
+            },
+            {
+              "source_id": "twi-weld-defects",
+              "reason": "Weld imperfection taxonomy, hidden fusion limits, design-dependent acceptance"
+            },
+            {
+              "source_id": "osha-welding",
+              "reason": "Fumes, ultraviolet radiation, burns, electric shock and protective controls"
+            },
+            {
+              "source_id": "twi-tack-distortion",
+              "reason": "Effect of tack spacing, sequence, and root-gap control on welding shrinkage"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P019000-01",
+              "claim": "Visual weld examination depends on joint preparation, fit-up and defined acceptance criteria.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aws-b111-visual",
+                  "location": "Visual examination stages, weld surface discontinuities, equipment and prerequisites; full standard may require purchase",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-02",
+              "claim": "Some weld imperfections are visible at the surface while others require further examination.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aws-b111-visual",
+                  "location": "Visual examination stages, weld surface discontinuities, equipment and prerequisites; full standard may require purchase",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "twi-weld-defects",
+                  "location": "Weld imperfection taxonomy, hidden fusion limits, design-dependent acceptance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-03",
+              "claim": "Lack of fusion, cracking, undercut and porosity are distinct discontinuity mechanisms.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "twi-weld-defects",
+                  "location": "Weld imperfection taxonomy, hidden fusion limits, design-dependent acceptance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-04",
+              "claim": "Welding sequence and heat input influence distortion.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "twi-tack-distortion",
+                  "location": "Effect of tack spacing, sequence, and root-gap control on welding shrinkage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-metalworking:020000",
+        "file": "020000-surface-preparation-coatings-and-durable-metal-finishes.md",
+        "sha256": "7f62dd6ae2387298d060a3b2d6a792f0473bcd3009782270d46ded524d767373",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-surface-preparation-coatings-and-durable-metal-finishes.md",
+          "related_resources": [
+            {
+              "source_id": "aga-galvanized-paint-prep",
+              "reason": "Surface condition, cleaning and profiling requirements; reference ASTM D6386"
+            },
+            {
+              "source_id": "ampp-galvanic-corrosion",
+              "reason": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact"
+            },
+            {
+              "source_id": "osha-mwf",
+              "reason": "Tool/workpiece heat, chip removal, cooling and lubrication of machining operations"
+            },
+            {
+              "source_id": "osha-mwf-exposure",
+              "reason": "Mist exposure controls and fluid delivery"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P020000-01",
+              "claim": "Substrate identification and cleaning affect coating adhesion and durability.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aga-galvanized-paint-prep",
+                  "location": "Surface condition, cleaning and profiling requirements; reference ASTM D6386",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-02",
+              "claim": "New and weathered galvanized surfaces need condition-specific paint preparation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aga-galvanized-paint-prep",
+                  "location": "Surface condition, cleaning and profiling requirements; reference ASTM D6386",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-03",
+              "claim": "Coatings and corrosion behavior change with galvanic couples and exposure.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ampp-galvanic-corrosion",
+                  "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-04",
+              "claim": "Surface profile and coating selection must match the intended specification.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aga-galvanized-paint-prep",
+                  "location": "Surface condition, cleaning and profiling requirements; reference ASTM D6386",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-05",
+              "claim": "Hazardous surface preparation may involve exposure controls beyond ordinary workshop cleaning.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "osha-mwf-exposure",
+                  "location": "Mist exposure controls and fluid delivery",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "007000-inspect-corrosion-welds-and-durable-finishes.md"
+      ],
+      "joined_before_source_parts": [
+        "008000",
+        "019000"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-symmetry-and-groups.md",
+  "transcript": "001000-symmetry-structure-preserving-maps-and-actions.md",
   "related_resources": [
     {
       "source_id": "aa-judson",
@@ -10,7 +10,96 @@
     {
       "source_id": "aa-mit701",
       "reason": "Course treatment of groups, generators and permutation groups."
+    },
+    {
+      "source_id": "aa-judson",
+      "reason": "Kernels, normal subgroups, quotient groups and the first isomorphism theorem."
+    },
+    {
+      "source_id": "aa-mit701",
+      "reason": "Homomorphisms, cosets and correspondence theorem material."
+    },
+    {
+      "source_id": "aa-judson",
+      "reason": "Actions, orbits, stabilizers and symmetry counting."
+    },
+    {
+      "source_id": "aa-mit701-notes",
+      "reason": "Action formalism, orbits and counting formula for stabilizers."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:001000",
+        "file": "001000-symmetry-and-groups.md",
+        "sha256": "8d308802a28b47531c0e806286d2782c17799eadd526b85377b1b4d9727e0183",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-symmetry-and-groups.md",
+          "related_resources": [
+            {
+              "source_id": "aa-judson",
+              "reason": "Definitions and examples of groups, the square symmetry group, subgroups and cyclic groups."
+            },
+            {
+              "source_id": "aa-mit701",
+              "reason": "Course treatment of groups, generators and permutation groups."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:002000",
+        "file": "002000-homomorphisms-and-quotients.md",
+        "sha256": "e5965a1d41194a06948c41f28f770d2708ffda76cd05cf47e006d97b1b6a68a1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-homomorphisms-and-quotients.md",
+          "related_resources": [
+            {
+              "source_id": "aa-judson",
+              "reason": "Kernels, normal subgroups, quotient groups and the first isomorphism theorem."
+            },
+            {
+              "source_id": "aa-mit701",
+              "reason": "Homomorphisms, cosets and correspondence theorem material."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:003000",
+        "file": "003000-group-actions-and-orbits.md",
+        "sha256": "f4eb6cc6eb08e60e457727c897d1902c66e2b70bbff6e1fcc1e603d8dd68d87b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-group-actions-and-orbits.md",
+          "related_resources": [
+            {
+              "source_id": "aa-judson",
+              "reason": "Actions, orbits, stabilizers and symmetry counting."
+            },
+            {
+              "source_id": "aa-mit701-notes",
+              "reason": "Action formalism, orbits and counting formula for stabilizers."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

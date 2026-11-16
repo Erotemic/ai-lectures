@@ -6,22 +6,20 @@
       "title": "Operator Theory · Choose a Topic",
       "role": "hub",
       "lectures": [],
-      "summary": "Topic routes reuse the maintained curriculum assignments. The complete156-lecture learner sequence remains available in its original order."
+      "summary": "Topic routes organize the current 109 lecture manuscripts. The complete sequence includes the motivating overview, developed topic lectures, and the final proof capstone."
     },
     {
       "id": "orientation",
       "title": "Course orientation",
       "role": "deep_dive",
       "lectures": [
-        "000000",
-        "105000",
-        "106000",
-        "149000"
+        "000000"
       ],
       "parent": "topics",
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
-      ]
+      ],
+      "summary": "An accessible motivating overview of eigenvalue motion, eigenspace motion, residuals, and the route through the subject."
     },
     {
       "id": "foundations",
@@ -63,20 +61,11 @@
       "role": "deep_dive",
       "lectures": [
         "024000",
-        "025000",
-        "026000",
-        "027000",
-        "028000",
         "029000",
         "030000",
         "031000",
         "032000",
         "033000",
-        "034000",
-        "035000",
-        "036000",
-        "037000",
-        "038000",
         "039000",
         "040000",
         "041000"
@@ -138,10 +127,6 @@
         "064000",
         "065000",
         "066000",
-        "067000",
-        "068000",
-        "069000",
-        "070000",
         "071000"
       ],
       "parent": "topics",
@@ -155,18 +140,11 @@
       "role": "deep_dive",
       "lectures": [
         "072000",
-        "072500",
-        "073000",
-        "074000",
         "075000",
         "076000",
         "077000",
         "078000",
-        "079000",
-        "080000",
-        "080500",
-        "081000",
-        "082000"
+        "079000"
       ],
       "parent": "topics",
       "assumed_background": [
@@ -183,9 +161,6 @@
         "085000",
         "086000",
         "087000",
-        "088000",
-        "089000",
-        "090000",
         "091000",
         "091250",
         "091500",
@@ -208,13 +183,7 @@
         "096000",
         "097000",
         "098000",
-        "099000",
-        "099500",
-        "100000",
-        "101000",
-        "102000",
-        "103000",
-        "104000"
+        "102000"
       ],
       "parent": "topics",
       "assumed_background": [
@@ -227,33 +196,26 @@
       "role": "deep_dive",
       "lectures": [
         "107000",
-        "108000",
-        "109000",
-        "110000",
         "111000",
         "112000",
         "113000",
         "114000",
-        "115000",
-        "116000",
-        "117000",
         "118000",
         "119000",
         "120000",
         "121000",
         "122000",
-        "123000",
-        "124000",
-        "125000",
         "126000",
         "127000",
         "128000",
-        "129000"
+        "129000",
+        "105000"
       ],
       "parent": "topics",
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
-      ]
+      ],
+      "summary": "Residual, sine, tangent, and double-angle estimates, ending with an advanced proof reconstruction. The capstone also draws on the matching and beam application routes."
     },
     {
       "id": "matching",
@@ -263,11 +225,7 @@
         "130000",
         "131000",
         "132000",
-        "133000",
-        "134000",
-        "135000",
-        "136000",
-        "145000"
+        "133000"
       ],
       "parent": "topics",
       "assumed_background": [
@@ -280,9 +238,6 @@
       "role": "deep_dive",
       "lectures": [
         "137000",
-        "138000",
-        "139000",
-        "140000",
         "141000",
         "142000",
         "143000",

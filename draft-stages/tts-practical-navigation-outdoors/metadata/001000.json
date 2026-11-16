@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-read-the-land-not-just-the-arrow.md",
+  "transcript": "001000-read-the-map-and-locate-yourself.md",
   "related_resources": [
     {
       "source_id": "usgs-topo",
@@ -10,6 +10,34 @@
     {
       "source_id": "nps-compass",
       "reason": "Magnetic declination and north reference"
+    },
+    {
+      "source_id": "usgs-symbols",
+      "reason": "Contour interval, index contours, spacing and depiction"
+    },
+    {
+      "source_id": "usgs-map-compass",
+      "reason": "Elevation, distance, direction and terrain reading"
+    },
+    {
+      "source_id": "noaa-declination",
+      "reason": "Signed east-positive declination; magnetic-to-true bearing conversion"
+    },
+    {
+      "source_id": "usgs-gps-compass",
+      "reason": "Practical examples converting GPS/map references and compass settings"
+    },
+    {
+      "source_id": "usgs-maps-booklet",
+      "reason": "Map scale and contour basics, examples at 1:24,000"
+    },
+    {
+      "source_id": "usgs-topo-symbols",
+      "reason": "Index contours, contour interval, elevation and relative steepness"
+    },
+    {
+      "source_id": "usgs-map-compass-guide",
+      "reason": "Map scale, contour terrain interpretation and compass use"
     }
   ],
   "historical_claims": [],
@@ -58,8 +86,670 @@
       "verification_level": "public_source_identified_editorial_check_pending",
       "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
       "professional_review": "pending"
+    },
+    {
+      "claim_id": "P002000-01",
+      "claim": "Contours connect equal mapped elevation; contour spacing indicates slope.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "usgs-symbols",
+          "location": "USGS contour and spacing conventions",
+          "role": "reference"
+        },
+        {
+          "source_id": "usgs-map-compass",
+          "location": "USGS contour and spacing conventions",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-02",
+      "claim": "Index contours and map marginalia communicate elevations and contour interval.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "usgs-symbols",
+          "location": "USGS map symbols and interval information",
+          "role": "reference"
+        },
+        {
+          "source_id": "usgs-topo",
+          "location": "USGS map symbols and interval information",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-03",
+      "claim": "Topographic maps represent generalized landform, distance and direction.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "usgs-map-compass",
+          "location": "USGS description of map features",
+          "role": "reference"
+        },
+        {
+          "source_id": "usgs-symbols",
+          "location": "USGS description of map features",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P003000-01",
+      "claim": "Magnetic declination is the local angle between true north and horizontal magnetic direction, changing with place and time.",
+      "kind": "geomagnetic_reference",
+      "supports": [
+        {
+          "source_id": "noaa-declination",
+          "location": "NOAA NCEI declination introduction and USGS example",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usgs-gps-compass",
+          "location": "NOAA NCEI declination introduction and USGS example",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P003000-02",
+      "claim": "With east positive, true bearing equals magnetic bearing plus signed declination.",
+      "kind": "derived_navigation_conversion",
+      "supports": [
+        {
+          "source_id": "noaa-declination",
+          "location": "NOAA NCEI conversion formula and USGS workflow",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usgs-gps-compass",
+          "location": "NOAA NCEI conversion formula and USGS workflow",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Mathematical deduction or author synthesis; cited source supplies context, not direct wording.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P003000-03",
+      "claim": "Adjustable and nonadjustable compasses require different but consistent conversion workflows.",
+      "kind": "field_navigation",
+      "supports": [
+        {
+          "source_id": "usgs-gps-compass",
+          "location": "USGS GPS/compass reference with NPS general use",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-compass",
+          "location": "USGS GPS/compass reference with NPS general use",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P004000-01",
+      "claim": "Map scale is a dimensionless ratio of map distance to corresponding ground distance; 1:24,000 means 1 inch is 2,000 feet.",
+      "kind": "cartographic_principle",
+      "supports": [
+        {
+          "source_id": "usgs-maps-booklet",
+          "location": "USGS Maps: Scale and 1:24,000 mapping examples",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-02",
+      "claim": "Contours join points of equal elevation; contour interval and spacing communicate terrain gradient.",
+      "kind": "cartographic_principle",
+      "supports": [
+        {
+          "source_id": "usgs-topo-symbols",
+          "location": "USGS map symbol guide: index contours and intervals",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usgs-topo",
+          "location": "USGS map symbol guide: index contours and intervals",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-03",
+      "claim": "Cumulative elevation gain differs from final-minus-initial elevation when a route contains descents.",
+      "kind": "derived_geometric_reasoning",
+      "supports": [
+        {
+          "source_id": "usgs-topo-symbols",
+          "location": "Author-derived arithmetic based on contour elevations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Author-derived formula, arithmetic or system synthesis; cited source supplies context rather than an identical theorem or numerical guarantee.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-01",
+      "claim": "Topographic contours and mapped features allow terrain shapes and direction to be inferred.",
+      "kind": "cartographic_principle",
+      "supports": [
+        {
+          "source_id": "usgs-map-compass-guide",
+          "location": "USGS map/compass and topographic map overview",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usgs-topo",
+          "location": "USGS map/compass and topographic map overview",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "Handrails, catching features and attack points constrain navigation error through observed landmarks.",
+      "kind": "derived_navigation_method",
+      "supports": [
+        {
+          "source_id": "usgs-map-compass-guide",
+          "location": "Map/compass terrain usage; specialized orienteering strategies synthesized by author",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "A bearing and distance estimate alone do not prove position; compare terrain with expected mapped features.",
+      "kind": "derived_navigation_reasoning",
+      "supports": [
+        {
+          "source_id": "usgs-map-compass-guide",
+          "location": "Finding Your Way: orientation and feature matching; author synthesis",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usgs-map-compass",
+          "location": "Finding Your Way: orientation and feature matching; author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
     }
   ],
   "editorial_status": "educational_draft_sources_recorded_not_field_validated",
-  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-navigation-outdoors:001000",
+        "file": "001000-read-the-land-not-just-the-arrow.md",
+        "sha256": "eedf3989ded83ccc7966c2afe515d398d727a708f63ea61022f2a7a6dd857a86",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-read-the-land-not-just-the-arrow.md",
+          "related_resources": [
+            {
+              "source_id": "usgs-topo",
+              "reason": "Contour lines, elevation and mapping scales"
+            },
+            {
+              "source_id": "nps-compass",
+              "reason": "Magnetic declination and north reference"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P001000-01",
+              "claim": "Contour lines represent equal-elevation positions",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "usgs-topo",
+                  "location": "Contour lines, elevation and mapping scales",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-02",
+              "claim": "Magnetic and true north can differ by local declination",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "nps-compass",
+                  "location": "Magnetic declination and north reference",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-03",
+              "claim": "Map scale distances need to be interpreted as projected distances",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "usgs-topo",
+                  "location": "Contour lines, elevation and mapping scales",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            }
+          ],
+          "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+          "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+        }
+      },
+      {
+        "id": "practical-navigation-outdoors:002000",
+        "file": "002000-topographic-contours-slope-and-landforms.md",
+        "sha256": "eaf093253e9f2019bcd5d7155320fe584654f1431f308d9008e2e577846e3266",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-topographic-contours-slope-and-landforms.md",
+          "related_resources": [
+            {
+              "source_id": "usgs-symbols",
+              "reason": "Contour interval, index contours, spacing and depiction"
+            },
+            {
+              "source_id": "usgs-map-compass",
+              "reason": "Elevation, distance, direction and terrain reading"
+            },
+            {
+              "source_id": "usgs-topo",
+              "reason": "Contour lines, elevation and mapping scales"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P002000-01",
+              "claim": "Contours connect equal mapped elevation; contour spacing indicates slope.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "usgs-symbols",
+                  "location": "USGS contour and spacing conventions",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "usgs-map-compass",
+                  "location": "USGS contour and spacing conventions",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-02",
+              "claim": "Index contours and map marginalia communicate elevations and contour interval.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "usgs-symbols",
+                  "location": "USGS map symbols and interval information",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "usgs-topo",
+                  "location": "USGS map symbols and interval information",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-03",
+              "claim": "Topographic maps represent generalized landform, distance and direction.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "usgs-map-compass",
+                  "location": "USGS description of map features",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "usgs-symbols",
+                  "location": "USGS description of map features",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+        }
+      },
+      {
+        "id": "practical-navigation-outdoors:003000",
+        "file": "003000-compass-bearings-true-and-magnetic-north.md",
+        "sha256": "75c54213e6e2ad1078bd79a38482f6cef0dadebb20f0b16d8c2f0a80c386c4f2",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-compass-bearings-true-and-magnetic-north.md",
+          "related_resources": [
+            {
+              "source_id": "noaa-declination",
+              "reason": "Signed east-positive declination; magnetic-to-true bearing conversion"
+            },
+            {
+              "source_id": "usgs-gps-compass",
+              "reason": "Practical examples converting GPS/map references and compass settings"
+            },
+            {
+              "source_id": "nps-compass",
+              "reason": "Magnetic declination and north reference"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P003000-01",
+              "claim": "Magnetic declination is the local angle between true north and horizontal magnetic direction, changing with place and time.",
+              "kind": "geomagnetic_reference",
+              "supports": [
+                {
+                  "source_id": "noaa-declination",
+                  "location": "NOAA NCEI declination introduction and USGS example",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usgs-gps-compass",
+                  "location": "NOAA NCEI declination introduction and USGS example",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-02",
+              "claim": "With east positive, true bearing equals magnetic bearing plus signed declination.",
+              "kind": "derived_navigation_conversion",
+              "supports": [
+                {
+                  "source_id": "noaa-declination",
+                  "location": "NOAA NCEI conversion formula and USGS workflow",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usgs-gps-compass",
+                  "location": "NOAA NCEI conversion formula and USGS workflow",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Mathematical deduction or author synthesis; cited source supplies context, not direct wording.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-03",
+              "claim": "Adjustable and nonadjustable compasses require different but consistent conversion workflows.",
+              "kind": "field_navigation",
+              "supports": [
+                {
+                  "source_id": "usgs-gps-compass",
+                  "location": "USGS GPS/compass reference with NPS general use",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-compass",
+                  "location": "USGS GPS/compass reference with NPS general use",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+        }
+      },
+      {
+        "id": "practical-navigation-outdoors:004000",
+        "file": "004000-map-scales-distance-and-elevation-gain.md",
+        "sha256": "a77a136b29cfb9d040b0d9b2190c8e293f6648d1117d8091cb956114823cb481",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-map-scales-distance-and-elevation-gain.md",
+          "related_resources": [
+            {
+              "source_id": "usgs-maps-booklet",
+              "reason": "Map scale and contour basics, examples at 1:24,000"
+            },
+            {
+              "source_id": "usgs-topo-symbols",
+              "reason": "Index contours, contour interval, elevation and relative steepness"
+            },
+            {
+              "source_id": "usgs-topo",
+              "reason": "Contour lines, elevation and mapping scales"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P004000-01",
+              "claim": "Map scale is a dimensionless ratio of map distance to corresponding ground distance; 1:24,000 means 1 inch is 2,000 feet.",
+              "kind": "cartographic_principle",
+              "supports": [
+                {
+                  "source_id": "usgs-maps-booklet",
+                  "location": "USGS Maps: Scale and 1:24,000 mapping examples",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-02",
+              "claim": "Contours join points of equal elevation; contour interval and spacing communicate terrain gradient.",
+              "kind": "cartographic_principle",
+              "supports": [
+                {
+                  "source_id": "usgs-topo-symbols",
+                  "location": "USGS map symbol guide: index contours and intervals",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usgs-topo",
+                  "location": "USGS map symbol guide: index contours and intervals",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-03",
+              "claim": "Cumulative elevation gain differs from final-minus-initial elevation when a route contains descents.",
+              "kind": "derived_geometric_reasoning",
+              "supports": [
+                {
+                  "source_id": "usgs-topo-symbols",
+                  "location": "Author-derived arithmetic based on contour elevations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Author-derived formula, arithmetic or system synthesis; cited source supplies context rather than an identical theorem or numerical guarantee.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design."
+        }
+      },
+      {
+        "id": "practical-navigation-outdoors:005000",
+        "file": "005000-terrain-association-and-catching-features.md",
+        "sha256": "dccf03a92f23df4ab31cf1c98ef3e9de4c847faec18400dff473473f02f296c9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-terrain-association-and-catching-features.md",
+          "related_resources": [
+            {
+              "source_id": "usgs-map-compass-guide",
+              "reason": "Map scale, contour terrain interpretation and compass use"
+            },
+            {
+              "source_id": "usgs-topo",
+              "reason": "Contour lines, elevation and mapping scales"
+            },
+            {
+              "source_id": "usgs-map-compass",
+              "reason": "Elevation, distance, direction and terrain reading"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P005000-01",
+              "claim": "Topographic contours and mapped features allow terrain shapes and direction to be inferred.",
+              "kind": "cartographic_principle",
+              "supports": [
+                {
+                  "source_id": "usgs-map-compass-guide",
+                  "location": "USGS map/compass and topographic map overview",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usgs-topo",
+                  "location": "USGS map/compass and topographic map overview",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-02",
+              "claim": "Handrails, catching features and attack points constrain navigation error through observed landmarks.",
+              "kind": "derived_navigation_method",
+              "supports": [
+                {
+                  "source_id": "usgs-map-compass-guide",
+                  "location": "Map/compass terrain usage; specialized orienteering strategies synthesized by author",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-03",
+              "claim": "A bearing and distance estimate alone do not prove position; compare terrain with expected mapped features.",
+              "kind": "derived_navigation_reasoning",
+              "supports": [
+                {
+                  "source_id": "usgs-map-compass-guide",
+                  "location": "Finding Your Way: orientation and feature matching; author synthesis",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usgs-map-compass",
+                  "location": "Finding Your Way: orientation and feature matching; author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "001000-read-the-map-and-locate-yourself.md"
+      ],
+      "joined_before_source_parts": [
+        "002000",
+        "005000"
+      ]
+    }
+  ]
 }

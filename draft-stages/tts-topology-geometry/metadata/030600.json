@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "030600",
-  "transcript": "030600-elliptic-deformation-complexes-from-symmetries.md",
+  "transcript": "030600-deformations-gauge-slices-dimensions-and-instantons.md",
   "related_resources": [
     {
       "source_id": "tg-freed-uhlenbeck",
@@ -14,7 +14,137 @@
     {
       "source_id": "tg-nd-elliptic",
       "reason": "Elliptic complex and Fredholm background."
+    },
+    {
+      "source_id": "tg-freed-uhlenbeck",
+      "reason": "Local slices and gauge-orbit quotient."
+    },
+    {
+      "source_id": "tg-uhlenbeck-lp",
+      "reason": "Small-energy Coulomb gauge construction."
+    },
+    {
+      "source_id": "tg-freed-uhlenbeck",
+      "reason": "ASD index and expected dimension."
+    },
+    {
+      "source_id": "tg-perutz-gauge",
+      "reason": "Gauge-invariant moduli interpretation."
+    },
+    {
+      "source_id": "tg-r16-031000-1",
+      "reason": "Reference on Instantons: Curvature, Topological Charge, and Gauge Moduli (1 of 3)"
+    },
+    {
+      "source_id": "tg-r16-031000-2",
+      "reason": "Reference on Instantons: Curvature, Topological Charge, and Gauge Moduli (2 of 3)"
+    },
+    {
+      "source_id": "tg-r16-031000-3",
+      "reason": "Reference on Instantons: Curvature, Topological Charge, and Gauge Moduli (3 of 3)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:030600",
+        "file": "030600-elliptic-deformation-complexes-from-symmetries.md",
+        "sha256": "32e9465a822e14306a56065b8fc779d34dc4ec0ab61dd6062169f472c31c7cd7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "030600",
+          "transcript": "030600-elliptic-deformation-complexes-from-symmetries.md",
+          "related_resources": [
+            {
+              "source_id": "tg-freed-uhlenbeck",
+              "reason": "Instanton deformation complex and index."
+            },
+            {
+              "source_id": "tg-perutz-gauge",
+              "reason": "Gauge equations and moduli problems."
+            },
+            {
+              "source_id": "tg-nd-elliptic",
+              "reason": "Elliptic complex and Fredholm background."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:030700",
+        "file": "030700-coulomb-gauge-slices-and-local-moduli.md",
+        "sha256": "1a127dada2af654d88ffa8884c1885cf27373cf45b1f6a408f3b20b792499e83",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "030700",
+          "transcript": "030700-coulomb-gauge-slices-and-local-moduli.md",
+          "related_resources": [
+            {
+              "source_id": "tg-freed-uhlenbeck",
+              "reason": "Local slices and gauge-orbit quotient."
+            },
+            {
+              "source_id": "tg-uhlenbeck-lp",
+              "reason": "Small-energy Coulomb gauge construction."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:030800",
+        "file": "030800-asd-index-expected-dimension-and-reducibles.md",
+        "sha256": "62551f420fdec475c47e8a154ea224219d25224d13cc7f8911615773c0c5d044",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "030800",
+          "transcript": "030800-asd-index-expected-dimension-and-reducibles.md",
+          "related_resources": [
+            {
+              "source_id": "tg-freed-uhlenbeck",
+              "reason": "ASD index and expected dimension."
+            },
+            {
+              "source_id": "tg-perutz-gauge",
+              "reason": "Gauge-invariant moduli interpretation."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:031000",
+        "file": "031000-anti-self-dual-connections-and-instanton-moduli.md",
+        "sha256": "72f799abf1790551cb38c4f73e0263ff979f38887d0014eb8bc7a703c90ea23d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "031000",
+          "transcript": "031000-anti-self-dual-connections-and-instanton-moduli.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r16-031000-1",
+              "reason": "Reference on Instantons: Curvature, Topological Charge, and Gauge Moduli (1 of 3)"
+            },
+            {
+              "source_id": "tg-r16-031000-2",
+              "reason": "Reference on Instantons: Curvature, Topological Charge, and Gauge Moduli (2 of 3)"
+            },
+            {
+              "source_id": "tg-r16-031000-3",
+              "reason": "Reference on Instantons: Curvature, Topological Charge, and Gauge Moduli (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

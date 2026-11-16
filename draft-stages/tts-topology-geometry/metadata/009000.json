@@ -1,12 +1,184 @@
 {
   "schema_version": 1,
   "lecture_id": "009000",
-  "transcript": "009000-differential-forms-and-exterior-derivative.md",
+  "transcript": "009000-forms-integration-stokes-and-local-exactness.md",
   "related_resources": [
     {
       "source_id": "tg-auroux",
       "reason": "Differential forms, wedge products, exterior derivative and de Rham cohomology."
+    },
+    {
+      "source_id": "tg-auroux",
+      "reason": "Differential forms and the exterior derivative as the language of integral calculus."
+    },
+    {
+      "source_id": "tg-joyce-stokes",
+      "reason": "Boundary orientation and Stokes in arbitrary dimension."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Partitions of unity and local-to-global constructions."
+    },
+    {
+      "source_id": "tg-joyce-stokes",
+      "reason": "Orientation and integration of smooth forms."
+    },
+    {
+      "source_id": "tg-joyce-stokes",
+      "reason": "Orientations, induced boundary orientation and generalized Stokes theorem."
+    },
+    {
+      "source_id": "tg-auroux",
+      "reason": "Differential forms and exterior derivatives on manifolds."
+    },
+    {
+      "source_id": "tg-joyce-stokes",
+      "reason": "General Stokes theorem and boundary orientation."
+    },
+    {
+      "source_id": "tg-auroux",
+      "reason": "Exterior derivatives and form integration in coordinates."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Poincare lemma and homotopy-invariance lecture."
+    },
+    {
+      "source_id": "tg-auroux",
+      "reason": "Exterior derivative and de Rham prerequisites."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:009000",
+        "file": "009000-differential-forms-and-exterior-derivative.md",
+        "sha256": "4fc78ecd6e8da0d0d8a0d98960ad0fe63f3c36d4efe97d0c7c111b2121e42be9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-differential-forms-and-exterior-derivative.md",
+          "related_resources": [
+            {
+              "source_id": "tg-auroux",
+              "reason": "Differential forms, wedge products, exterior derivative and de Rham cohomology."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:009100",
+        "file": "009100-differential-forms-circulation-flux-and-curl.md",
+        "sha256": "35797a0f94cf20e56e4700ee35ee7005f305c1f40fde8fed17b8da6ad503e685",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009100",
+          "transcript": "009100-differential-forms-circulation-flux-and-curl.md",
+          "related_resources": [
+            {
+              "source_id": "tg-auroux",
+              "reason": "Differential forms and the exterior derivative as the language of integral calculus."
+            },
+            {
+              "source_id": "tg-joyce-stokes",
+              "reason": "Boundary orientation and Stokes in arbitrary dimension."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:009200",
+        "file": "009200-partitions-of-unity-and-global-integration.md",
+        "sha256": "a3a49830c0291a7bae4421a1bfd8562ceb5a8bf8f848e32197264909fb7ca857",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009200",
+          "transcript": "009200-partitions-of-unity-and-global-integration.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Partitions of unity and local-to-global constructions."
+            },
+            {
+              "source_id": "tg-joyce-stokes",
+              "reason": "Orientation and integration of smooth forms."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:010000",
+        "file": "010000-orientation-and-generalized-stokes-theorem.md",
+        "sha256": "5fdbca018b705acb8bc6d9d00ee48989cefea746c357e83a04cd3289adc91240",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-orientation-and-generalized-stokes-theorem.md",
+          "related_resources": [
+            {
+              "source_id": "tg-joyce-stokes",
+              "reason": "Orientations, induced boundary orientation and generalized Stokes theorem."
+            },
+            {
+              "source_id": "tg-auroux",
+              "reason": "Differential forms and exterior derivatives on manifolds."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:010100",
+        "file": "010100-deriving-stokes-theorem-from-elementary-calculus.md",
+        "sha256": "1a9298613094ec47f355ed868b42fb32786f9080f026b412a125c740a4a42aec",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010100",
+          "transcript": "010100-deriving-stokes-theorem-from-elementary-calculus.md",
+          "related_resources": [
+            {
+              "source_id": "tg-joyce-stokes",
+              "reason": "General Stokes theorem and boundary orientation."
+            },
+            {
+              "source_id": "tg-auroux",
+              "reason": "Exterior derivatives and form integration in coordinates."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:010200",
+        "file": "010200-poincare-lemma-and-homotopy-invariance.md",
+        "sha256": "08ffa8d57cf2ac490b88c6c6ae8b719b099b81ccba94c3781cac5f9704982e62",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010200",
+          "transcript": "010200-poincare-lemma-and-homotopy-invariance.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Poincare lemma and homotopy-invariance lecture."
+            },
+            {
+              "source_id": "tg-auroux",
+              "reason": "Exterior derivative and de Rham prerequisites."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

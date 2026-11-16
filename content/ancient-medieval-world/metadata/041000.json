@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "041000",
-  "transcript": "041000-mongol-worlds.md",
+  "transcript": "041000-late-medieval-crises-and-african-and-american-centers-of-power.md",
   "related_resources": [
     {
       "source_id": "mw-met-mongol-legacy",
@@ -16,6 +16,81 @@
     {
       "source_id": "mw-met-ilkhanid-art",
       "reason": "Ilkhanid Iran, Ghazan, art and interactions across Eurasia; visual and courtly emphasis does not establish the lives of all subjects.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "mw-nature-plague-source",
+      "reason": "Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "mw-jmw-maghreb-plague",
+      "reason": "North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "mw-hopley-ibn-khaldun-plague",
+      "reason": "Ibn Khaldun and plague in the Maghreb; only bibliographic abstract checked, not independent verification of all specific medieval events.",
+      "access_scope": "abstract_or_summary_reviewed"
+    },
+    {
+      "source_id": "mw-cohn-postplague-labor",
+      "reason": "Comparative European labor legislation and responses to post-plague scarcity; conclusions are region-specific and do not provide a global mortality estimate.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "mw-met-west-central-sudan",
+      "reason": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "mw-met-transsaharan-gold",
+      "reason": "Gold production and trade networks among West Africa, the Sahara and North Africa; cannot locate every source mine or reconstruct every caravan.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "mw-unesco-timbuktu",
+      "reason": "Timbuktu material heritage, mosques and later traditions of Islamic learning; much of the best-documented manuscript culture and scholarship developed after Musa, so it should not be projected wholly into 1324.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "mw-unesco-great-zimbabwe",
+      "reason": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "mw-met-zimbabwe-art",
+      "reason": "Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "mw-antiquity-zimbabwe-walls",
+      "reason": "Archaeological critique of simple social zoning based on surviving dry-stone walls; abstract, not a complete site-stratigraphic report.",
+      "access_scope": "abstract_or_summary_reviewed"
+    },
+    {
+      "source_id": "mw-cam-zimbabwe-colonial-labor",
+      "reason": "African labor and recognition in colonial/postcolonial archaeology; scholarly abstract, not a quantified history of every Great Zimbabwe excavation crew.",
+      "access_scope": "abstract_or_summary_reviewed"
+    },
+    {
+      "source_id": "mw-met-tenochtitlan-early",
+      "reason": "Tenochtitlan founding traditions, water infrastructure, urban institutions, and Mexica expansion; later accounts must be cross-read with archaeology.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "mw-met-maya-1400",
+      "reason": "Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "mw-met-mexico-1400",
+      "reason": "Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "mw-met-maya-1000",
+      "reason": "Later Maya city states and regional transformations; chronology is broad and archaeological interpretations remain debated.",
       "access_scope": "webpage_reviewed"
     }
   ],
@@ -168,6 +243,1555 @@
       "source_locator": "Qamar Adamjee and Stefano Carboni, The Legacy of Genghis Khan, Metropolitan Museum of Art; Metropolitan Museum of Art, The Art of the Ilkhanid Period (1256–1353)",
       "audit_status": "source_scope_and_limits_mapped",
       "source_limitations": "Mongol campaigns, successor states, institutional adaptation and elite artistic networks; art-historical synthesis, not a census of conquered subjects or independently quantified civilian losses. Ilkhanid Iran, Ghazan, art and interactions across Eurasia; visual and courtly emphasis does not establish the lives of all subjects."
+    },
+    {
+      "id": "042000-p01",
+      "anchor": "In a cemetery in what is now Kyrgyzstan, stones commemorate people who died in t",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-nature-plague-source"
+      ],
+      "source_locator": "Maria A. Spyrou et al., The source of the Black Death in fourteenth-century central Eurasia, Nature 606 (2022)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality."
+    },
+    {
+      "id": "042000-p02",
+      "anchor": "The Black Death is often introduced as a European catastrophe in the years 1347 ",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-nature-plague-source",
+        "mw-jmw-maghreb-plague"
+      ],
+      "source_locator": "Maria A. Spyrou et al., The source of the Black Death in fourteenth-century central Eurasia, Nature 606 (2022); The Black Death in the Maghreb: A Call to Action, Journal of Medieval Worlds",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality. North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions."
+    },
+    {
+      "id": "042000-p03",
+      "anchor": "Yersinia pestis is a bacterium that can produce different clinical forms of plag",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-nature-plague-source"
+      ],
+      "source_locator": "Maria A. Spyrou et al., The source of the Black Death in fourteenth-century central Eurasia, Nature 606 (2022)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality."
+    },
+    {
+      "id": "042000-p04",
+      "anchor": "By the later 1340s, plague was spreading across the Mediterranean world. Ports, ",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-jmw-maghreb-plague",
+        "mw-hopley-ibn-khaldun-plague"
+      ],
+      "source_locator": "The Black Death in the Maghreb: A Call to Action, Journal of Medieval Worlds; Russell Hopley, Plague, Demographic Upheaval and Civilisational Decline: Ibn Khaldun and the Black Death in the Maghreb, Landscapes (2016)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions. Ibn Khaldun and plague in the Maghreb; only bibliographic abstract checked, not independent verification of all specific medieval events."
+    },
+    {
+      "id": "042000-p05",
+      "anchor": "In European cities, church bells, burial practices, and the organization of care",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-cohn-postplague-labor"
+      ],
+      "source_locator": "Samuel K. Cohn Jr., After the Black Death: labour legislation and attitudes towards labour in late-medieval western Europe, Economic History Review (2007)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Comparative European labor legislation and responses to post-plague scarcity; conclusions are region-specific and do not provide a global mortality estimate."
+    },
+    {
+      "id": "042000-p06",
+      "anchor": "Cairo, Alexandria, and other cities in the eastern and southern Mediterranean al",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-jmw-maghreb-plague",
+        "mw-hopley-ibn-khaldun-plague"
+      ],
+      "source_locator": "The Black Death in the Maghreb: A Call to Action, Journal of Medieval Worlds; Russell Hopley, Plague, Demographic Upheaval and Civilisational Decline: Ibn Khaldun and the Black Death in the Maghreb, Landscapes (2016)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions. Ibn Khaldun and plague in the Maghreb; only bibliographic abstract checked, not independent verification of all specific medieval events."
+    },
+    {
+      "id": "042000-p07",
+      "anchor": "War provided further vulnerabilities. Siege, dislocation, hungry populations, an",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-nature-plague-source",
+        "mw-jmw-maghreb-plague"
+      ],
+      "source_locator": "Maria A. Spyrou et al., The source of the Black Death in fourteenth-century central Eurasia, Nature 606 (2022); The Black Death in the Maghreb: A Call to Action, Journal of Medieval Worlds",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality. North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions."
+    },
+    {
+      "id": "042000-p08",
+      "anchor": "Disease affected more than the people who became ill. It deprived households of ",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-cohn-postplague-labor"
+      ],
+      "source_locator": "Samuel K. Cohn Jr., After the Black Death: labour legislation and attitudes towards labour in late-medieval western Europe, Economic History Review (2007)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Comparative European labor legislation and responses to post-plague scarcity; conclusions are region-specific and do not provide a global mortality estimate."
+    },
+    {
+      "id": "042000-p09",
+      "anchor": "The labor question became politically charged. In England, rulers issued the Ord",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-cohn-postplague-labor"
+      ],
+      "source_locator": "Samuel K. Cohn Jr., After the Black Death: labour legislation and attitudes towards labour in late-medieval western Europe, Economic History Review (2007)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Comparative European labor legislation and responses to post-plague scarcity; conclusions are region-specific and do not provide a global mortality estimate."
+    },
+    {
+      "id": "042000-p10",
+      "anchor": "Fear could also become persecution. In parts of Europe, Jews were falsely accuse",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-cohn-postplague-labor"
+      ],
+      "source_locator": "Samuel K. Cohn Jr., After the Black Death: labour legislation and attitudes towards labour in late-medieval western Europe, Economic History Review (2007)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Comparative European labor legislation and responses to post-plague scarcity; conclusions are region-specific and do not provide a global mortality estimate."
+    },
+    {
+      "id": "042000-p11",
+      "anchor": "Medical explanations available to fourteenth-century people differed from germ t",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-jmw-maghreb-plague",
+        "mw-nature-plague-source"
+      ],
+      "source_locator": "The Black Death in the Maghreb: A Call to Action, Journal of Medieval Worlds; Maria A. Spyrou et al., The source of the Black Death in fourteenth-century central Eurasia, Nature 606 (2022)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions. Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality."
+    },
+    {
+      "id": "042000-p12",
+      "anchor": "Survivors inherited altered societies. Property could change hands; charitable i",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-cohn-postplague-labor",
+        "mw-jmw-maghreb-plague"
+      ],
+      "source_locator": "Samuel K. Cohn Jr., After the Black Death: labour legislation and attitudes towards labour in late-medieval western Europe, Economic History Review (2007); The Black Death in the Maghreb: A Call to Action, Journal of Medieval Worlds",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Comparative European labor legislation and responses to post-plague scarcity; conclusions are region-specific and do not provide a global mortality estimate. North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions."
+    },
+    {
+      "id": "042000-p13",
+      "anchor": "The research methods themselves have a history. Before ancient DNA, historians u",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-nature-plague-source",
+        "mw-jmw-maghreb-plague"
+      ],
+      "source_locator": "Maria A. Spyrou et al., The source of the Black Death in fourteenth-century central Eurasia, Nature 606 (2022); The Black Death in the Maghreb: A Call to Action, Journal of Medieval Worlds",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality. North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions."
+    },
+    {
+      "id": "042000-p14",
+      "anchor": "When we speak of the Black Death, we name a crisis that unfolded in many communi",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-nature-plague-source",
+        "mw-cohn-postplague-labor"
+      ],
+      "source_locator": "Maria A. Spyrou et al., The source of the Black Death in fourteenth-century central Eurasia, Nature 606 (2022); Samuel K. Cohn Jr., After the Black Death: labour legislation and attitudes towards labour in late-medieval western Europe, Economic History Review (2007)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality. Comparative European labor legislation and responses to post-plague scarcity; conclusions are region-specific and do not provide a global mortality estimate."
+    },
+    {
+      "id": "043000-p01",
+      "anchor": "A map made on the island of Majorca in 1375 shows a ruler in western Africa hold",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-west-central-sudan",
+        "mw-met-transsaharan-gold"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.; Metropolitan Museum of Art, The Trans-Saharan Gold Trade (7th–14th Century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction. Gold production and trade networks among West Africa, the Sahara and North Africa; cannot locate every source mine or reconstruct every caravan."
+    },
+    {
+      "id": "043000-p02",
+      "anchor": "The Sahel is the broad region south of the Sahara, with different climates and s",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-west-central-sudan"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction."
+    },
+    {
+      "id": "043000-p03",
+      "anchor": "The history of Mali's founding is associated with Sundiata Keita, a thirteenth-c",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-west-central-sudan"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction."
+    },
+    {
+      "id": "043000-p04",
+      "anchor": "Mali's rulers drew power from access to agricultural regions, tributary relation",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-west-central-sudan",
+        "mw-met-transsaharan-gold"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.; Metropolitan Museum of Art, The Trans-Saharan Gold Trade (7th–14th Century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction. Gold production and trade networks among West Africa, the Sahara and North Africa; cannot locate every source mine or reconstruct every caravan."
+    },
+    {
+      "id": "043000-p05",
+      "anchor": "Gold was especially important to Mali's external reputation. Gold-bearing zones ",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-transsaharan-gold"
+      ],
+      "source_locator": "Metropolitan Museum of Art, The Trans-Saharan Gold Trade (7th–14th Century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Gold production and trade networks among West Africa, the Sahara and North Africa; cannot locate every source mine or reconstruct every caravan."
+    },
+    {
+      "id": "043000-p06",
+      "anchor": "Mansa Musa, who ruled in the early fourteenth century, undertook a pilgrimage to",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-west-central-sudan",
+        "mw-met-transsaharan-gold"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.; Metropolitan Museum of Art, The Trans-Saharan Gold Trade (7th–14th Century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction. Gold production and trade networks among West Africa, the Sahara and North Africa; cannot locate every source mine or reconstruct every caravan."
+    },
+    {
+      "id": "043000-p07",
+      "anchor": "The pilgrimage was also part of an Islamic intellectual and diplomatic world. Mu",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-west-central-sudan",
+        "mw-unesco-timbuktu"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.; UNESCO World Heritage Centre, Timbuktu",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction. Timbuktu material heritage, mosques and later traditions of Islamic learning; much of the best-documented manuscript culture and scholarship developed after Musa, so it should not be projected wholly into 1324."
+    },
+    {
+      "id": "043000-p08",
+      "anchor": "Timbuktu grew as a center of trade and learning, connected to the Niger bend and",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-unesco-timbuktu"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Timbuktu",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Timbuktu material heritage, mosques and later traditions of Islamic learning; much of the best-documented manuscript culture and scholarship developed after Musa, so it should not be projected wholly into 1324."
+    },
+    {
+      "id": "043000-p09",
+      "anchor": "A second kind of witness arrived after Musa's death. The traveler Ibn Battuta vi",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-west-central-sudan"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction."
+    },
+    {
+      "id": "043000-p10",
+      "anchor": "Mali's subjects occupied different positions. Farmers and fishers supplied food;",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-west-central-sudan",
+        "mw-met-transsaharan-gold"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.; Metropolitan Museum of Art, The Trans-Saharan Gold Trade (7th–14th Century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction. Gold production and trade networks among West Africa, the Sahara and North Africa; cannot locate every source mine or reconstruct every caravan."
+    },
+    {
+      "id": "043000-p11",
+      "anchor": "The Mali Empire was neither identical to all of West Africa nor permanently fixe",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-west-central-sudan"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction."
+    },
+    {
+      "id": "043000-p12",
+      "anchor": "The evidence presents difficulties that are themselves instructive. Arabic accou",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-west-central-sudan",
+        "mw-unesco-timbuktu"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.; UNESCO World Heritage Centre, Timbuktu",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction. Timbuktu material heritage, mosques and later traditions of Islamic learning; much of the best-documented manuscript culture and scholarship developed after Musa, so it should not be projected wholly into 1324."
+    },
+    {
+      "id": "043000-p13",
+      "anchor": "Return to that golden object on the 1375 map. It is useful evidence of internati",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-transsaharan-gold",
+        "mw-unesco-timbuktu"
+      ],
+      "source_locator": "Metropolitan Museum of Art, The Trans-Saharan Gold Trade (7th–14th Century); UNESCO World Heritage Centre, Timbuktu",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Gold production and trade networks among West Africa, the Sahara and North Africa; cannot locate every source mine or reconstruct every caravan. Timbuktu material heritage, mosques and later traditions of Islamic learning; much of the best-documented manuscript culture and scholarship developed after Musa, so it should not be projected wholly into 1324."
+    },
+    {
+      "id": "044000-p01",
+      "anchor": "The walls of Great Zimbabwe stand without mortar. Their builders placed shaped a",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-unesco-great-zimbabwe",
+        "mw-met-zimbabwe-art"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Great Zimbabwe National Monument; Metropolitan Museum of Art, Great Zimbabwe (11th–15th Century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction. Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture."
+    },
+    {
+      "id": "044000-p02",
+      "anchor": "Great Zimbabwe developed within a southern African history of farming, pastorali",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-unesco-great-zimbabwe"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Great Zimbabwe National Monument",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction."
+    },
+    {
+      "id": "044000-p03",
+      "anchor": "The surviving site includes areas commonly called the Hill Complex, the Great En",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-antiquity-zimbabwe-walls",
+        "mw-unesco-great-zimbabwe"
+      ],
+      "source_locator": "Shadreck Chirikure and Innocent Pikirayi, Inside and outside the dry stone walls: revisiting the material culture of Great Zimbabwe, Antiquity (2008); UNESCO World Heritage Centre, Great Zimbabwe National Monument",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaeological critique of simple social zoning based on surviving dry-stone walls; abstract, not a complete site-stratigraphic report. Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction."
+    },
+    {
+      "id": "044000-p04",
+      "anchor": "Think about cattle. Herds were not just units of meat or milk. In many southern ",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-unesco-great-zimbabwe",
+        "mw-met-zimbabwe-art"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Great Zimbabwe National Monument; Metropolitan Museum of Art, Great Zimbabwe (11th–15th Century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction. Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture."
+    },
+    {
+      "id": "044000-p05",
+      "anchor": "Metals were another part of the region's economy. Gold mining and exchange conne",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-unesco-great-zimbabwe"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Great Zimbabwe National Monument",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction."
+    },
+    {
+      "id": "044000-p06",
+      "anchor": "Archaeologists have recovered imported glass beads, ceramics, and other objects ",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-unesco-great-zimbabwe",
+        "mw-met-zimbabwe-art"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Great Zimbabwe National Monument; Metropolitan Museum of Art, Great Zimbabwe (11th–15th Century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction. Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture."
+    },
+    {
+      "id": "044000-p07",
+      "anchor": "East African coastal settlements acted as important intermediaries in these netw",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-zimbabwe-art"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Great Zimbabwe (11th–15th Century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture."
+    },
+    {
+      "id": "044000-p08",
+      "anchor": "The stone complexes also need their absent buildings restored to the story. Most",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-antiquity-zimbabwe-walls",
+        "mw-met-zimbabwe-art"
+      ],
+      "source_locator": "Shadreck Chirikure and Innocent Pikirayi, Inside and outside the dry stone walls: revisiting the material culture of Great Zimbabwe, Antiquity (2008); Metropolitan Museum of Art, Great Zimbabwe (11th–15th Century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaeological critique of simple social zoning based on surviving dry-stone walls; abstract, not a complete site-stratigraphic report. Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture."
+    },
+    {
+      "id": "044000-p09",
+      "anchor": "Religious and political meanings remain debated. Carved soapstone birds and part",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-unesco-great-zimbabwe",
+        "mw-antiquity-zimbabwe-walls"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Great Zimbabwe National Monument; Shadreck Chirikure and Innocent Pikirayi, Inside and outside the dry stone walls: revisiting the material culture of Great Zimbabwe, Antiquity (2008)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction. Archaeological critique of simple social zoning based on surviving dry-stone walls; abstract, not a complete site-stratigraphic report."
+    },
+    {
+      "id": "044000-p10",
+      "anchor": "Great Zimbabwe's modern interpretation has an especially consequential history. ",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-zimbabwe-art"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Great Zimbabwe (11th–15th Century)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture."
+    },
+    {
+      "id": "044000-p11",
+      "anchor": "African workers took part in the excavations, clearing, transport, and maintenan",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-cam-zimbabwe-colonial-labor"
+      ],
+      "source_locator": "In the Shadows of Colonialism: Archaeological Labor Practices in (Post-)Colonial Zimbabwe, Advances in Archaeological Practice",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "African labor and recognition in colonial/postcolonial archaeology; scholarly abstract, not a quantified history of every Great Zimbabwe excavation crew."
+    },
+    {
+      "id": "044000-p12",
+      "anchor": "Why did Great Zimbabwe change and eventually cease to be the same kind of major ",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-unesco-great-zimbabwe",
+        "mw-antiquity-zimbabwe-walls"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Great Zimbabwe National Monument; Shadreck Chirikure and Innocent Pikirayi, Inside and outside the dry stone walls: revisiting the material culture of Great Zimbabwe, Antiquity (2008)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction. Archaeological critique of simple social zoning based on surviving dry-stone walls; abstract, not a complete site-stratigraphic report."
+    },
+    {
+      "id": "044000-p13",
+      "anchor": "Great Zimbabwe therefore teaches two histories at once. One concerns the people ",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-zimbabwe-art",
+        "mw-cam-zimbabwe-colonial-labor"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Great Zimbabwe (11th–15th Century); In the Shadows of Colonialism: Archaeological Labor Practices in (Post-)Colonial Zimbabwe, Advances in Archaeological Practice",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture. African labor and recognition in colonial/postcolonial archaeology; scholarly abstract, not a quantified history of every Great Zimbabwe excavation crew."
+    },
+    {
+      "id": "045000-p01",
+      "anchor": "A visitor entering Tenochtitlan in the late fifteenth century would have crossed",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-tenochtitlan-early"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Tenochtitlan",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Tenochtitlan founding traditions, water infrastructure, urban institutions, and Mexica expansion; later accounts must be cross-read with archaeology."
+    },
+    {
+      "id": "045000-p02",
+      "anchor": "Mesoamerica is a modern term for a region of shared and interacting cultural tra",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-maya-1400",
+        "mw-met-mexico-1400"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.; Metropolitan Museum of Art, Mexico, 1400–1600 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition. Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category."
+    },
+    {
+      "id": "045000-p03",
+      "anchor": "In the northern Yucatán peninsula, the city of Mayapan became an influential pol",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-maya-1000",
+        "mw-met-maya-1400"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Maya Area, 1000–1400 A.D.; Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Later Maya city states and regional transformations; chronology is broad and archaeological interpretations remain debated. Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition."
+    },
+    {
+      "id": "045000-p04",
+      "anchor": "In the Guatemalan highlands, K'iche' and neighboring states formed a different p",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-maya-1400"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition."
+    },
+    {
+      "id": "045000-p05",
+      "anchor": "In central Mexico, the Mexica were among several groups competing for authority ",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-tenochtitlan-early",
+        "mw-met-mexico-1400"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Tenochtitlan; Metropolitan Museum of Art, Mexico, 1400–1600 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Tenochtitlan founding traditions, water infrastructure, urban institutions, and Mexica expansion; later accounts must be cross-read with archaeology. Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category."
+    },
+    {
+      "id": "045000-p06",
+      "anchor": "Political expansion reshaped the region. Conquered city-states often retained lo",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-tenochtitlan-early",
+        "mw-met-mexico-1400"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Tenochtitlan; Metropolitan Museum of Art, Mexico, 1400–1600 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Tenochtitlan founding traditions, water infrastructure, urban institutions, and Mexica expansion; later accounts must be cross-read with archaeology. Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category."
+    },
+    {
+      "id": "045000-p07",
+      "anchor": "Tenochtitlan's urban life depended on the basin's environment. Causeways and can",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-tenochtitlan-early"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Tenochtitlan",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Tenochtitlan founding traditions, water infrastructure, urban institutions, and Mexica expansion; later accounts must be cross-read with archaeology."
+    },
+    {
+      "id": "045000-p08",
+      "anchor": "Religion and political authority were closely connected, but neither can be expl",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-tenochtitlan-early",
+        "mw-met-maya-1400"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Tenochtitlan; Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Tenochtitlan founding traditions, water infrastructure, urban institutions, and Mexica expansion; later accounts must be cross-read with archaeology. Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition."
+    },
+    {
+      "id": "045000-p09",
+      "anchor": "Beyond the Mexica-led alliance stood polities that did not submit to it. In west",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-mexico-1400"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Mexico, 1400–1600 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category."
+    },
+    {
+      "id": "045000-p10",
+      "anchor": "Trade linked communities across Mesoamerica without eliminating local economies.",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-mexico-1400",
+        "mw-met-maya-1400"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Mexico, 1400–1600 A.D.; Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category. Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition."
+    },
+    {
+      "id": "045000-p11",
+      "anchor": "The evidence comes from several kinds of records. Maya inscriptions from earlier",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-maya-1400",
+        "mw-met-mexico-1400"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.; Metropolitan Museum of Art, Mexico, 1400–1600 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition. Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category."
+    },
+    {
+      "id": "045000-p12",
+      "anchor": "The year 1500 is not the climax of one Mesoamerican narrative. The Mexica-led al",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-maya-1400",
+        "mw-met-mexico-1400"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.; Metropolitan Museum of Art, Mexico, 1400–1600 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition. Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category."
+    },
+    {
+      "id": "045000-p13",
+      "anchor": "Tenochtitlan, Mayapan, Q'umarkaj, and the many towns between them give us a way ",
+      "kind": "historical_research",
+      "source_ids": [
+        "mw-met-tenochtitlan-early",
+        "mw-met-maya-1400"
+      ],
+      "source_locator": "Metropolitan Museum of Art, Tenochtitlan; Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Tenochtitlan founding traditions, water infrastructure, urban institutions, and Mexica expansion; later accounts must be cross-read with archaeology. Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "ancient-medieval-world:041000",
+        "file": "041000-mongol-worlds.md",
+        "sha256": "e1fccd444fa1d05936cec256caf58689c21aa2b32df37aa4a0d4a0a9cc7a5678",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "041000",
+          "transcript": "041000-mongol-worlds.md",
+          "related_resources": [
+            {
+              "source_id": "mw-met-mongol-legacy",
+              "reason": "Mongol campaigns, successor states, institutional adaptation and elite artistic networks; art-historical synthesis, not a census of conquered subjects or independently quantified civilian losses.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "mw-met-yuan-1271",
+              "reason": "Yuan administration, dynastic chronology and material culture; court-centered synthesis, not comprehensive local social history.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "mw-met-ilkhanid-art",
+              "reason": "Ilkhanid Iran, Ghazan, art and interactions across Eurasia; visual and courtly emphasis does not establish the lives of all subjects.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "041000-p01",
+              "anchor": "Picture a messenger changing horses at a relay station somewhere on the immense ",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-mongol-legacy"
+              ],
+              "source_locator": "Qamar Adamjee and Stefano Carboni, The Legacy of Genghis Khan, Metropolitan Museum of Art",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mongol campaigns, successor states, institutional adaptation and elite artistic networks; art-historical synthesis, not a census of conquered subjects or independently quantified civilian losses."
+            },
+            {
+              "id": "041000-p02",
+              "anchor": "The political world of the steppe had its own histories long before the rise of ",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-mongol-legacy"
+              ],
+              "source_locator": "Qamar Adamjee and Stefano Carboni, The Legacy of Genghis Khan, Metropolitan Museum of Art",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mongol campaigns, successor states, institutional adaptation and elite artistic networks; art-historical synthesis, not a census of conquered subjects or independently quantified civilian losses."
+            },
+            {
+              "id": "041000-p03",
+              "anchor": "Mongol armies combined mobility with intelligence gathering, coordinated command",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-mongol-legacy"
+              ],
+              "source_locator": "Qamar Adamjee and Stefano Carboni, The Legacy of Genghis Khan, Metropolitan Museum of Art",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mongol campaigns, successor states, institutional adaptation and elite artistic networks; art-historical synthesis, not a census of conquered subjects or independently quantified civilian losses."
+            },
+            {
+              "id": "041000-p04",
+              "anchor": "The conquest of Central Asia in the early thirteenth century exposed inhabitants",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-mongol-legacy"
+              ],
+              "source_locator": "Qamar Adamjee and Stefano Carboni, The Legacy of Genghis Khan, Metropolitan Museum of Art",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mongol campaigns, successor states, institutional adaptation and elite artistic networks; art-historical synthesis, not a census of conquered subjects or independently quantified civilian losses."
+            },
+            {
+              "id": "041000-p05",
+              "anchor": "After Chinggis Khan's death in 1227, succession mattered as much as battlefield ",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-mongol-legacy",
+                "mw-met-yuan-1271"
+              ],
+              "source_locator": "Qamar Adamjee and Stefano Carboni, The Legacy of Genghis Khan, Metropolitan Museum of Art; Metropolitan Museum of Art, Yuan Dynasty (1271–1368)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mongol campaigns, successor states, institutional adaptation and elite artistic networks; art-historical synthesis, not a census of conquered subjects or independently quantified civilian losses. Yuan administration, dynastic chronology and material culture; court-centered synthesis, not comprehensive local social history."
+            },
+            {
+              "id": "041000-p06",
+              "anchor": "Consider Baghdad in 1258. The city had been a center of Islamic scholarship, gov",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-ilkhanid-art",
+                "mw-met-mongol-legacy"
+              ],
+              "source_locator": "Metropolitan Museum of Art, The Art of the Ilkhanid Period (1256–1353); Qamar Adamjee and Stefano Carboni, The Legacy of Genghis Khan, Metropolitan Museum of Art",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ilkhanid Iran, Ghazan, art and interactions across Eurasia; visual and courtly emphasis does not establish the lives of all subjects. Mongol campaigns, successor states, institutional adaptation and elite artistic networks; art-historical synthesis, not a census of conquered subjects or independently quantified civilian losses."
+            },
+            {
+              "id": "041000-p07",
+              "anchor": "In China, Mongol rulers faced an administrative problem of a different scale. Go",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-yuan-1271"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Yuan Dynasty (1271–1368)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Yuan administration, dynastic chronology and material culture; court-centered synthesis, not comprehensive local social history."
+            },
+            {
+              "id": "041000-p08",
+              "anchor": "Across the successor states, imperial authority and local practice had to negoti",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-mongol-legacy",
+                "mw-met-yuan-1271"
+              ],
+              "source_locator": "Qamar Adamjee and Stefano Carboni, The Legacy of Genghis Khan, Metropolitan Museum of Art; Metropolitan Museum of Art, Yuan Dynasty (1271–1368)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mongol campaigns, successor states, institutional adaptation and elite artistic networks; art-historical synthesis, not a census of conquered subjects or independently quantified civilian losses. Yuan administration, dynastic chronology and material culture; court-centered synthesis, not comprehensive local social history."
+            },
+            {
+              "id": "041000-p09",
+              "anchor": "Religious life further complicates the idea of a single Mongol civilization. Dif",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-ilkhanid-art",
+                "mw-met-mongol-legacy"
+              ],
+              "source_locator": "Metropolitan Museum of Art, The Art of the Ilkhanid Period (1256–1353); Qamar Adamjee and Stefano Carboni, The Legacy of Genghis Khan, Metropolitan Museum of Art",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ilkhanid Iran, Ghazan, art and interactions across Eurasia; visual and courtly emphasis does not establish the lives of all subjects. Mongol campaigns, successor states, institutional adaptation and elite artistic networks; art-historical synthesis, not a census of conquered subjects or independently quantified civilian losses."
+            },
+            {
+              "id": "041000-p10",
+              "anchor": "Artists and writers worked across networks that the conquests reorganized. In il",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-ilkhanid-art"
+              ],
+              "source_locator": "Metropolitan Museum of Art, The Art of the Ilkhanid Period (1256–1353)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ilkhanid Iran, Ghazan, art and interactions across Eurasia; visual and courtly emphasis does not establish the lives of all subjects."
+            },
+            {
+              "id": "041000-p11",
+              "anchor": "The supposed Mongol peace, often called the Pax Mongolica, needs similar care. C",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-mongol-legacy"
+              ],
+              "source_locator": "Qamar Adamjee and Stefano Carboni, The Legacy of Genghis Khan, Metropolitan Museum of Art",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mongol campaigns, successor states, institutional adaptation and elite artistic networks; art-historical synthesis, not a census of conquered subjects or independently quantified civilian losses."
+            },
+            {
+              "id": "041000-p12",
+              "anchor": "How do we know these things? Persian chronicles, Chinese dynastic histories, Mon",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-mongol-legacy",
+                "mw-met-yuan-1271"
+              ],
+              "source_locator": "Qamar Adamjee and Stefano Carboni, The Legacy of Genghis Khan, Metropolitan Museum of Art; Metropolitan Museum of Art, Yuan Dynasty (1271–1368)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mongol campaigns, successor states, institutional adaptation and elite artistic networks; art-historical synthesis, not a census of conquered subjects or independently quantified civilian losses. Yuan administration, dynastic chronology and material culture; court-centered synthesis, not comprehensive local social history."
+            },
+            {
+              "id": "041000-p13",
+              "anchor": "The long-term significance of the Mongol conquests is not adequately captured by",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-mongol-legacy",
+                "mw-met-ilkhanid-art"
+              ],
+              "source_locator": "Qamar Adamjee and Stefano Carboni, The Legacy of Genghis Khan, Metropolitan Museum of Art; Metropolitan Museum of Art, The Art of the Ilkhanid Period (1256–1353)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mongol campaigns, successor states, institutional adaptation and elite artistic networks; art-historical synthesis, not a census of conquered subjects or independently quantified civilian losses. Ilkhanid Iran, Ghazan, art and interactions across Eurasia; visual and courtly emphasis does not establish the lives of all subjects."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:042000",
+        "file": "042000-plague-across-regions.md",
+        "sha256": "cef70133dcf597c198b61a30fa9b32a98722cacc4223428b50dc989fac8f6616",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "042000",
+          "transcript": "042000-plague-across-regions.md",
+          "related_resources": [
+            {
+              "source_id": "mw-nature-plague-source",
+              "reason": "Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "mw-jmw-maghreb-plague",
+              "reason": "North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "mw-hopley-ibn-khaldun-plague",
+              "reason": "Ibn Khaldun and plague in the Maghreb; only bibliographic abstract checked, not independent verification of all specific medieval events.",
+              "access_scope": "abstract_or_summary_reviewed"
+            },
+            {
+              "source_id": "mw-cohn-postplague-labor",
+              "reason": "Comparative European labor legislation and responses to post-plague scarcity; conclusions are region-specific and do not provide a global mortality estimate.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "042000-p01",
+              "anchor": "In a cemetery in what is now Kyrgyzstan, stones commemorate people who died in t",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-nature-plague-source"
+              ],
+              "source_locator": "Maria A. Spyrou et al., The source of the Black Death in fourteenth-century central Eurasia, Nature 606 (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality."
+            },
+            {
+              "id": "042000-p02",
+              "anchor": "The Black Death is often introduced as a European catastrophe in the years 1347 ",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-nature-plague-source",
+                "mw-jmw-maghreb-plague"
+              ],
+              "source_locator": "Maria A. Spyrou et al., The source of the Black Death in fourteenth-century central Eurasia, Nature 606 (2022); The Black Death in the Maghreb: A Call to Action, Journal of Medieval Worlds",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality. North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions."
+            },
+            {
+              "id": "042000-p03",
+              "anchor": "Yersinia pestis is a bacterium that can produce different clinical forms of plag",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-nature-plague-source"
+              ],
+              "source_locator": "Maria A. Spyrou et al., The source of the Black Death in fourteenth-century central Eurasia, Nature 606 (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality."
+            },
+            {
+              "id": "042000-p04",
+              "anchor": "By the later 1340s, plague was spreading across the Mediterranean world. Ports, ",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-jmw-maghreb-plague",
+                "mw-hopley-ibn-khaldun-plague"
+              ],
+              "source_locator": "The Black Death in the Maghreb: A Call to Action, Journal of Medieval Worlds; Russell Hopley, Plague, Demographic Upheaval and Civilisational Decline: Ibn Khaldun and the Black Death in the Maghreb, Landscapes (2016)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions. Ibn Khaldun and plague in the Maghreb; only bibliographic abstract checked, not independent verification of all specific medieval events."
+            },
+            {
+              "id": "042000-p05",
+              "anchor": "In European cities, church bells, burial practices, and the organization of care",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-cohn-postplague-labor"
+              ],
+              "source_locator": "Samuel K. Cohn Jr., After the Black Death: labour legislation and attitudes towards labour in late-medieval western Europe, Economic History Review (2007)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Comparative European labor legislation and responses to post-plague scarcity; conclusions are region-specific and do not provide a global mortality estimate."
+            },
+            {
+              "id": "042000-p06",
+              "anchor": "Cairo, Alexandria, and other cities in the eastern and southern Mediterranean al",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-jmw-maghreb-plague",
+                "mw-hopley-ibn-khaldun-plague"
+              ],
+              "source_locator": "The Black Death in the Maghreb: A Call to Action, Journal of Medieval Worlds; Russell Hopley, Plague, Demographic Upheaval and Civilisational Decline: Ibn Khaldun and the Black Death in the Maghreb, Landscapes (2016)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions. Ibn Khaldun and plague in the Maghreb; only bibliographic abstract checked, not independent verification of all specific medieval events."
+            },
+            {
+              "id": "042000-p07",
+              "anchor": "War provided further vulnerabilities. Siege, dislocation, hungry populations, an",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-nature-plague-source",
+                "mw-jmw-maghreb-plague"
+              ],
+              "source_locator": "Maria A. Spyrou et al., The source of the Black Death in fourteenth-century central Eurasia, Nature 606 (2022); The Black Death in the Maghreb: A Call to Action, Journal of Medieval Worlds",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality. North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions."
+            },
+            {
+              "id": "042000-p08",
+              "anchor": "Disease affected more than the people who became ill. It deprived households of ",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-cohn-postplague-labor"
+              ],
+              "source_locator": "Samuel K. Cohn Jr., After the Black Death: labour legislation and attitudes towards labour in late-medieval western Europe, Economic History Review (2007)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Comparative European labor legislation and responses to post-plague scarcity; conclusions are region-specific and do not provide a global mortality estimate."
+            },
+            {
+              "id": "042000-p09",
+              "anchor": "The labor question became politically charged. In England, rulers issued the Ord",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-cohn-postplague-labor"
+              ],
+              "source_locator": "Samuel K. Cohn Jr., After the Black Death: labour legislation and attitudes towards labour in late-medieval western Europe, Economic History Review (2007)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Comparative European labor legislation and responses to post-plague scarcity; conclusions are region-specific and do not provide a global mortality estimate."
+            },
+            {
+              "id": "042000-p10",
+              "anchor": "Fear could also become persecution. In parts of Europe, Jews were falsely accuse",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-cohn-postplague-labor"
+              ],
+              "source_locator": "Samuel K. Cohn Jr., After the Black Death: labour legislation and attitudes towards labour in late-medieval western Europe, Economic History Review (2007)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Comparative European labor legislation and responses to post-plague scarcity; conclusions are region-specific and do not provide a global mortality estimate."
+            },
+            {
+              "id": "042000-p11",
+              "anchor": "Medical explanations available to fourteenth-century people differed from germ t",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-jmw-maghreb-plague",
+                "mw-nature-plague-source"
+              ],
+              "source_locator": "The Black Death in the Maghreb: A Call to Action, Journal of Medieval Worlds; Maria A. Spyrou et al., The source of the Black Death in fourteenth-century central Eurasia, Nature 606 (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions. Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality."
+            },
+            {
+              "id": "042000-p12",
+              "anchor": "Survivors inherited altered societies. Property could change hands; charitable i",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-cohn-postplague-labor",
+                "mw-jmw-maghreb-plague"
+              ],
+              "source_locator": "Samuel K. Cohn Jr., After the Black Death: labour legislation and attitudes towards labour in late-medieval western Europe, Economic History Review (2007); The Black Death in the Maghreb: A Call to Action, Journal of Medieval Worlds",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Comparative European labor legislation and responses to post-plague scarcity; conclusions are region-specific and do not provide a global mortality estimate. North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions."
+            },
+            {
+              "id": "042000-p13",
+              "anchor": "The research methods themselves have a history. Before ancient DNA, historians u",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-nature-plague-source",
+                "mw-jmw-maghreb-plague"
+              ],
+              "source_locator": "Maria A. Spyrou et al., The source of the Black Death in fourteenth-century central Eurasia, Nature 606 (2022); The Black Death in the Maghreb: A Call to Action, Journal of Medieval Worlds",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality. North African plague historiography and major documentary gaps; explicitly warns against projecting European records onto other regions."
+            },
+            {
+              "id": "042000-p14",
+              "anchor": "When we speak of the Black Death, we name a crisis that unfolded in many communi",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-nature-plague-source",
+                "mw-cohn-postplague-labor"
+              ],
+              "source_locator": "Maria A. Spyrou et al., The source of the Black Death in fourteenth-century central Eurasia, Nature 606 (2022); Samuel K. Cohn Jr., After the Black Death: labour legislation and attitudes towards labour in late-medieval western Europe, Economic History Review (2007)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ancient DNA and 1338–1339 plague-related cemeteries in modern Kyrgyzstan; phylogenetic placement does not establish an exact path of movement or complete 14th-century regional mortality. Comparative European labor legislation and responses to post-plague scarcity; conclusions are region-specific and do not provide a global mortality estimate."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:043000",
+        "file": "043000-mali-and-sahel-worlds.md",
+        "sha256": "6b297f31b4dc379abfbcdf54e190698e322ddc76144a542f5666e69137a271df",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "043000",
+          "transcript": "043000-mali-and-sahel-worlds.md",
+          "related_resources": [
+            {
+              "source_id": "mw-met-west-central-sudan",
+              "reason": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "mw-met-transsaharan-gold",
+              "reason": "Gold production and trade networks among West Africa, the Sahara and North Africa; cannot locate every source mine or reconstruct every caravan.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "mw-unesco-timbuktu",
+              "reason": "Timbuktu material heritage, mosques and later traditions of Islamic learning; much of the best-documented manuscript culture and scholarship developed after Musa, so it should not be projected wholly into 1324.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "043000-p01",
+              "anchor": "A map made on the island of Majorca in 1375 shows a ruler in western Africa hold",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-west-central-sudan",
+                "mw-met-transsaharan-gold"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.; Metropolitan Museum of Art, The Trans-Saharan Gold Trade (7th–14th Century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction. Gold production and trade networks among West Africa, the Sahara and North Africa; cannot locate every source mine or reconstruct every caravan."
+            },
+            {
+              "id": "043000-p02",
+              "anchor": "The Sahel is the broad region south of the Sahara, with different climates and s",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-west-central-sudan"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction."
+            },
+            {
+              "id": "043000-p03",
+              "anchor": "The history of Mali's founding is associated with Sundiata Keita, a thirteenth-c",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-west-central-sudan"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction."
+            },
+            {
+              "id": "043000-p04",
+              "anchor": "Mali's rulers drew power from access to agricultural regions, tributary relation",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-west-central-sudan",
+                "mw-met-transsaharan-gold"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.; Metropolitan Museum of Art, The Trans-Saharan Gold Trade (7th–14th Century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction. Gold production and trade networks among West Africa, the Sahara and North Africa; cannot locate every source mine or reconstruct every caravan."
+            },
+            {
+              "id": "043000-p05",
+              "anchor": "Gold was especially important to Mali's external reputation. Gold-bearing zones ",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-transsaharan-gold"
+              ],
+              "source_locator": "Metropolitan Museum of Art, The Trans-Saharan Gold Trade (7th–14th Century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gold production and trade networks among West Africa, the Sahara and North Africa; cannot locate every source mine or reconstruct every caravan."
+            },
+            {
+              "id": "043000-p06",
+              "anchor": "Mansa Musa, who ruled in the early fourteenth century, undertook a pilgrimage to",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-west-central-sudan",
+                "mw-met-transsaharan-gold"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.; Metropolitan Museum of Art, The Trans-Saharan Gold Trade (7th–14th Century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction. Gold production and trade networks among West Africa, the Sahara and North Africa; cannot locate every source mine or reconstruct every caravan."
+            },
+            {
+              "id": "043000-p07",
+              "anchor": "The pilgrimage was also part of an Islamic intellectual and diplomatic world. Mu",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-west-central-sudan",
+                "mw-unesco-timbuktu"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.; UNESCO World Heritage Centre, Timbuktu",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction. Timbuktu material heritage, mosques and later traditions of Islamic learning; much of the best-documented manuscript culture and scholarship developed after Musa, so it should not be projected wholly into 1324."
+            },
+            {
+              "id": "043000-p08",
+              "anchor": "Timbuktu grew as a center of trade and learning, connected to the Niger bend and",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-unesco-timbuktu"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Timbuktu",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Timbuktu material heritage, mosques and later traditions of Islamic learning; much of the best-documented manuscript culture and scholarship developed after Musa, so it should not be projected wholly into 1324."
+            },
+            {
+              "id": "043000-p09",
+              "anchor": "A second kind of witness arrived after Musa's death. The traveler Ibn Battuta vi",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-west-central-sudan"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction."
+            },
+            {
+              "id": "043000-p10",
+              "anchor": "Mali's subjects occupied different positions. Farmers and fishers supplied food;",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-west-central-sudan",
+                "mw-met-transsaharan-gold"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.; Metropolitan Museum of Art, The Trans-Saharan Gold Trade (7th–14th Century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction. Gold production and trade networks among West Africa, the Sahara and North Africa; cannot locate every source mine or reconstruct every caravan."
+            },
+            {
+              "id": "043000-p11",
+              "anchor": "The Mali Empire was neither identical to all of West Africa nor permanently fixe",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-west-central-sudan"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction."
+            },
+            {
+              "id": "043000-p12",
+              "anchor": "The evidence presents difficulties that are themselves instructive. Arabic accou",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-west-central-sudan",
+                "mw-unesco-timbuktu"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Western and Central Sudan, 1000–1400 A.D.; UNESCO World Heritage Centre, Timbuktu",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Political geography of medieval Sahel and Mali and regional artistic history; outsider written accounts and artifacts limit personal-level reconstruction. Timbuktu material heritage, mosques and later traditions of Islamic learning; much of the best-documented manuscript culture and scholarship developed after Musa, so it should not be projected wholly into 1324."
+            },
+            {
+              "id": "043000-p13",
+              "anchor": "Return to that golden object on the 1375 map. It is useful evidence of internati",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-transsaharan-gold",
+                "mw-unesco-timbuktu"
+              ],
+              "source_locator": "Metropolitan Museum of Art, The Trans-Saharan Gold Trade (7th–14th Century); UNESCO World Heritage Centre, Timbuktu",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gold production and trade networks among West Africa, the Sahara and North Africa; cannot locate every source mine or reconstruct every caravan. Timbuktu material heritage, mosques and later traditions of Islamic learning; much of the best-documented manuscript culture and scholarship developed after Musa, so it should not be projected wholly into 1324."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:044000",
+        "file": "044000-great-zimbabwe-and-southern-africa.md",
+        "sha256": "764aa3a4800c33a45345c422bb7704caad62d2df8307a8a89983e06fb1e9827b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "044000",
+          "transcript": "044000-great-zimbabwe-and-southern-africa.md",
+          "related_resources": [
+            {
+              "source_id": "mw-unesco-great-zimbabwe",
+              "reason": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "mw-met-zimbabwe-art",
+              "reason": "Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "mw-antiquity-zimbabwe-walls",
+              "reason": "Archaeological critique of simple social zoning based on surviving dry-stone walls; abstract, not a complete site-stratigraphic report.",
+              "access_scope": "abstract_or_summary_reviewed"
+            },
+            {
+              "source_id": "mw-cam-zimbabwe-colonial-labor",
+              "reason": "African labor and recognition in colonial/postcolonial archaeology; scholarly abstract, not a quantified history of every Great Zimbabwe excavation crew.",
+              "access_scope": "abstract_or_summary_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "044000-p01",
+              "anchor": "The walls of Great Zimbabwe stand without mortar. Their builders placed shaped a",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-unesco-great-zimbabwe",
+                "mw-met-zimbabwe-art"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Great Zimbabwe National Monument; Metropolitan Museum of Art, Great Zimbabwe (11th–15th Century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction. Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture."
+            },
+            {
+              "id": "044000-p02",
+              "anchor": "Great Zimbabwe developed within a southern African history of farming, pastorali",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-unesco-great-zimbabwe"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Great Zimbabwe National Monument",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction."
+            },
+            {
+              "id": "044000-p03",
+              "anchor": "The surviving site includes areas commonly called the Hill Complex, the Great En",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-antiquity-zimbabwe-walls",
+                "mw-unesco-great-zimbabwe"
+              ],
+              "source_locator": "Shadreck Chirikure and Innocent Pikirayi, Inside and outside the dry stone walls: revisiting the material culture of Great Zimbabwe, Antiquity (2008); UNESCO World Heritage Centre, Great Zimbabwe National Monument",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological critique of simple social zoning based on surviving dry-stone walls; abstract, not a complete site-stratigraphic report. Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction."
+            },
+            {
+              "id": "044000-p04",
+              "anchor": "Think about cattle. Herds were not just units of meat or milk. In many southern ",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-unesco-great-zimbabwe",
+                "mw-met-zimbabwe-art"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Great Zimbabwe National Monument; Metropolitan Museum of Art, Great Zimbabwe (11th–15th Century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction. Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture."
+            },
+            {
+              "id": "044000-p05",
+              "anchor": "Metals were another part of the region's economy. Gold mining and exchange conne",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-unesco-great-zimbabwe"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Great Zimbabwe National Monument",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction."
+            },
+            {
+              "id": "044000-p06",
+              "anchor": "Archaeologists have recovered imported glass beads, ceramics, and other objects ",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-unesco-great-zimbabwe",
+                "mw-met-zimbabwe-art"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Great Zimbabwe National Monument; Metropolitan Museum of Art, Great Zimbabwe (11th–15th Century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction. Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture."
+            },
+            {
+              "id": "044000-p07",
+              "anchor": "East African coastal settlements acted as important intermediaries in these netw",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-zimbabwe-art"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Great Zimbabwe (11th–15th Century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture."
+            },
+            {
+              "id": "044000-p08",
+              "anchor": "The stone complexes also need their absent buildings restored to the story. Most",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-antiquity-zimbabwe-walls",
+                "mw-met-zimbabwe-art"
+              ],
+              "source_locator": "Shadreck Chirikure and Innocent Pikirayi, Inside and outside the dry stone walls: revisiting the material culture of Great Zimbabwe, Antiquity (2008); Metropolitan Museum of Art, Great Zimbabwe (11th–15th Century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological critique of simple social zoning based on surviving dry-stone walls; abstract, not a complete site-stratigraphic report. Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture."
+            },
+            {
+              "id": "044000-p09",
+              "anchor": "Religious and political meanings remain debated. Carved soapstone birds and part",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-unesco-great-zimbabwe",
+                "mw-antiquity-zimbabwe-walls"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Great Zimbabwe National Monument; Shadreck Chirikure and Innocent Pikirayi, Inside and outside the dry stone walls: revisiting the material culture of Great Zimbabwe, Antiquity (2008)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction. Archaeological critique of simple social zoning based on surviving dry-stone walls; abstract, not a complete site-stratigraphic report."
+            },
+            {
+              "id": "044000-p10",
+              "anchor": "Great Zimbabwe's modern interpretation has an especially consequential history. ",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-zimbabwe-art"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Great Zimbabwe (11th–15th Century)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture."
+            },
+            {
+              "id": "044000-p11",
+              "anchor": "African workers took part in the excavations, clearing, transport, and maintenan",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-cam-zimbabwe-colonial-labor"
+              ],
+              "source_locator": "In the Shadows of Colonialism: Archaeological Labor Practices in (Post-)Colonial Zimbabwe, Advances in Archaeological Practice",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "African labor and recognition in colonial/postcolonial archaeology; scholarly abstract, not a quantified history of every Great Zimbabwe excavation crew."
+            },
+            {
+              "id": "044000-p12",
+              "anchor": "Why did Great Zimbabwe change and eventually cease to be the same kind of major ",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-unesco-great-zimbabwe",
+                "mw-antiquity-zimbabwe-walls"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Great Zimbabwe National Monument; Shadreck Chirikure and Innocent Pikirayi, Inside and outside the dry stone walls: revisiting the material culture of Great Zimbabwe, Antiquity (2008)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Dry-stone architecture, 11th–15th-century settlement, farming and imported materials; heritage summary contains inherited legends not evidence for outsider construction. Archaeological critique of simple social zoning based on surviving dry-stone walls; abstract, not a complete site-stratigraphic report."
+            },
+            {
+              "id": "044000-p13",
+              "anchor": "Great Zimbabwe therefore teaches two histories at once. One concerns the people ",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-zimbabwe-art",
+                "mw-cam-zimbabwe-colonial-labor"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Great Zimbabwe (11th–15th Century); In the Shadows of Colonialism: Archaeological Labor Practices in (Post-)Colonial Zimbabwe, Advances in Archaeological Practice",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Shona ancestors, indigenous construction, trade objects and colonial misattributions; museum synthesis does not identify exact intentions of every wall or sculpture. African labor and recognition in colonial/postcolonial archaeology; scholarly abstract, not a quantified history of every Great Zimbabwe excavation crew."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:045000",
+        "file": "045000-maya-mexica-late-mesoamerica.md",
+        "sha256": "663d04062904c133a2f371fae9aeccf574560bec94e2d2c011f3ef079e2110db",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "045000",
+          "transcript": "045000-maya-mexica-late-mesoamerica.md",
+          "related_resources": [
+            {
+              "source_id": "mw-met-tenochtitlan-early",
+              "reason": "Tenochtitlan founding traditions, water infrastructure, urban institutions, and Mexica expansion; later accounts must be cross-read with archaeology.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "mw-met-maya-1400",
+              "reason": "Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "mw-met-mexico-1400",
+              "reason": "Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "mw-met-maya-1000",
+              "reason": "Later Maya city states and regional transformations; chronology is broad and archaeological interpretations remain debated.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "045000-p01",
+              "anchor": "A visitor entering Tenochtitlan in the late fifteenth century would have crossed",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-tenochtitlan-early"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Tenochtitlan",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Tenochtitlan founding traditions, water infrastructure, urban institutions, and Mexica expansion; later accounts must be cross-read with archaeology."
+            },
+            {
+              "id": "045000-p02",
+              "anchor": "Mesoamerica is a modern term for a region of shared and interacting cultural tra",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-maya-1400",
+                "mw-met-mexico-1400"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.; Metropolitan Museum of Art, Mexico, 1400–1600 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition. Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category."
+            },
+            {
+              "id": "045000-p03",
+              "anchor": "In the northern Yucatán peninsula, the city of Mayapan became an influential pol",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-maya-1000",
+                "mw-met-maya-1400"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Maya Area, 1000–1400 A.D.; Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Later Maya city states and regional transformations; chronology is broad and archaeological interpretations remain debated. Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition."
+            },
+            {
+              "id": "045000-p04",
+              "anchor": "In the Guatemalan highlands, K'iche' and neighboring states formed a different p",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-maya-1400"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition."
+            },
+            {
+              "id": "045000-p05",
+              "anchor": "In central Mexico, the Mexica were among several groups competing for authority ",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-tenochtitlan-early",
+                "mw-met-mexico-1400"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Tenochtitlan; Metropolitan Museum of Art, Mexico, 1400–1600 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Tenochtitlan founding traditions, water infrastructure, urban institutions, and Mexica expansion; later accounts must be cross-read with archaeology. Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category."
+            },
+            {
+              "id": "045000-p06",
+              "anchor": "Political expansion reshaped the region. Conquered city-states often retained lo",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-tenochtitlan-early",
+                "mw-met-mexico-1400"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Tenochtitlan; Metropolitan Museum of Art, Mexico, 1400–1600 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Tenochtitlan founding traditions, water infrastructure, urban institutions, and Mexica expansion; later accounts must be cross-read with archaeology. Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category."
+            },
+            {
+              "id": "045000-p07",
+              "anchor": "Tenochtitlan's urban life depended on the basin's environment. Causeways and can",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-tenochtitlan-early"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Tenochtitlan",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Tenochtitlan founding traditions, water infrastructure, urban institutions, and Mexica expansion; later accounts must be cross-read with archaeology."
+            },
+            {
+              "id": "045000-p08",
+              "anchor": "Religion and political authority were closely connected, but neither can be expl",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-tenochtitlan-early",
+                "mw-met-maya-1400"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Tenochtitlan; Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Tenochtitlan founding traditions, water infrastructure, urban institutions, and Mexica expansion; later accounts must be cross-read with archaeology. Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition."
+            },
+            {
+              "id": "045000-p09",
+              "anchor": "Beyond the Mexica-led alliance stood polities that did not submit to it. In west",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-mexico-1400"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Mexico, 1400–1600 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category."
+            },
+            {
+              "id": "045000-p10",
+              "anchor": "Trade linked communities across Mesoamerica without eliminating local economies.",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-mexico-1400",
+                "mw-met-maya-1400"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Mexico, 1400–1600 A.D.; Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category. Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition."
+            },
+            {
+              "id": "045000-p11",
+              "anchor": "The evidence comes from several kinds of records. Maya inscriptions from earlier",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-maya-1400",
+                "mw-met-mexico-1400"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.; Metropolitan Museum of Art, Mexico, 1400–1600 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition. Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category."
+            },
+            {
+              "id": "045000-p12",
+              "anchor": "The year 1500 is not the climax of one Mesoamerican narrative. The Mexica-led al",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-maya-1400",
+                "mw-met-mexico-1400"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.; Metropolitan Museum of Art, Mexico, 1400–1600 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition. Mexica Triple Alliance, independent rivals, central Mexican art and politics; short regional synopsis does not document every tribute category."
+            },
+            {
+              "id": "045000-p13",
+              "anchor": "Tenochtitlan, Mayapan, Q'umarkaj, and the many towns between them give us a way ",
+              "kind": "historical_research",
+              "source_ids": [
+                "mw-met-tenochtitlan-early",
+                "mw-met-maya-1400"
+              ],
+              "source_locator": "Metropolitan Museum of Art, Tenochtitlan; Metropolitan Museum of Art, Maya Area, 1400–1600 A.D.",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Tenochtitlan founding traditions, water infrastructure, urban institutions, and Mexica expansion; later accounts must be cross-read with archaeology. Mayapan and later northern Yucatán centers, K’iche’ and other highland polities; a regional chronology, not a primary K’iche’ text edition."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

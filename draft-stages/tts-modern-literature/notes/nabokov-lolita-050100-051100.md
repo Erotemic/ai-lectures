@@ -1,5 +1,7 @@
 # Editorial dossier — Vladimir Nabokov, *Lolita* (050100–051100)
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## Why this book and what the section teaches
 
 The novel is selected for its literary impact and the challenge it presents to readers of first-person fiction: a rhetorically skilled narrator makes an extended claim on the reader's sympathy while the narrative continually supplies evidence of his wrongdoing. This section consists of **three complete story lectures** followed by **eight analyses**, preserving full story orientation before interpretation. The analyses treat framing documents, rhetoric, the constrained representation of Dolores Haze, landscape and movement, detectives and doubles, Charlotte Haze's household, the ethical demands of aesthetic pleasure, and documented reception.
@@ -31,4 +33,4 @@ The manuscripts are original critical prose, not a reading of or adaptation of c
 
 This work's ethical difficulty is substantive, not a reason to replace close reading with repeated disclaimers. Explain why rhetorical skill can misdirect judgment, and preserve Dolores's agency where it is evidenced: everyday preferences, tactical responses, the departure from Humbert, and her refusal at Coalmont. Do not invent her missing interior narration. Distinguish Humbert's late remorse from the act of repairing harm. Do not repeat Humbert's classification of children as though it were valid neutral taxonomy. The narrator's self-description is **evidence of his story-making**, not an independent witness for the facts it seeks to establish.
 
-Sources are registered under `ml-nabokov-*` in `metadata/sources.json`; exact-text anchored records appear in `metadata/050100.json` through `metadata/051100.json`.
+Sources are registered under `ml-nabokov-*` in `metadata/sources.json`; exact-text anchored records appear in `metadata/050100.json` through `metadata/050700.json`.

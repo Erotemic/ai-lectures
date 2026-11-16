@@ -1,5 +1,7 @@
 # Agent A: Mainstream literature continuation, 023200-026000
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 The authoring boundary for this handoff is exactly `draft-stages/tts-modern-literature/`. The ordinary content ZIP contains this pack alone, so it can be imported with `python tools/content_overlay.py apply ZIP --replace-owned` and can be safely reimported. No server code, global registries, other tracks, or shared tests are included. ZIP omissions do not delete existing content; previous Agent A contributions are deliberately retained to support a skipped-batch import.
 
 ## New works and listening order

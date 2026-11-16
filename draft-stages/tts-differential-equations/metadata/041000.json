@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "041000",
-  "transcript": "041000-wave-decay-and-vector-fields.md",
+  "transcript": "041000-wave-decay-and-null-form-cancellation.md",
   "related_resources": [
     {
       "source_id": "de-r21-041000-1",
@@ -10,7 +10,67 @@
     {
       "source_id": "de-r21-041000-2",
       "reason": "nonlinear wave estimates and the null condition"
+    },
+    {
+      "source_id": "de-r21-042000-1",
+      "reason": "null-form identities and global small-data mechanisms"
+    },
+    {
+      "source_id": "de-r21-042000-2",
+      "reason": "the precise null condition and examples"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "differential-equations:041000",
+        "file": "041000-wave-decay-and-vector-fields.md",
+        "sha256": "51295329eea3d7c0e73d40aa0276eff7cccfe24f9c389a0e7b80f534e5a03af9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "041000",
+          "transcript": "041000-wave-decay-and-vector-fields.md",
+          "related_resources": [
+            {
+              "source_id": "de-r21-041000-1",
+              "reason": "light-cone decay and the vector-field approach"
+            },
+            {
+              "source_id": "de-r21-041000-2",
+              "reason": "nonlinear wave estimates and the null condition"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:042000",
+        "file": "042000-null-forms-and-small-data-global-waves.md",
+        "sha256": "658291634989de9e57c61d43c46a8b55c0d27b670838130889c176e4b99bbac5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "042000",
+          "transcript": "042000-null-forms-and-small-data-global-waves.md",
+          "related_resources": [
+            {
+              "source_id": "de-r21-042000-1",
+              "reason": "null-form identities and global small-data mechanisms"
+            },
+            {
+              "source_id": "de-r21-042000-2",
+              "reason": "the precise null condition and examples"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

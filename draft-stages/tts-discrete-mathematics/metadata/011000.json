@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "011000",
-  "transcript": "011000-probabilistic-method-existence-without-construction.md",
+  "transcript": "011000-random-discrete-structures-existence-reliability-and-concentration.md",
   "related_resources": [
     {
       "source_id": "dm-spencer",
@@ -10,6 +10,34 @@
     {
       "source_id": "dm-mit6042",
       "reason": "Independent sets and expectation background."
+    },
+    {
+      "source_id": "dm-gatech-random",
+      "reason": "Isolated vertex threshold via first and second moments."
+    },
+    {
+      "source_id": "dm-spencer",
+      "reason": "Probabilistic method, random graphs and concentration bounds."
+    },
+    {
+      "source_id": "dm-mit6042",
+      "reason": "Combinatorial probability and union-bound background."
+    },
+    {
+      "source_id": "dm-durrett-graph",
+      "reason": "Poisson isolated-vertex limit and connectivity threshold."
+    },
+    {
+      "source_id": "dm-odonnell-probability",
+      "reason": "Random graph connectivity and threshold scales."
+    },
+    {
+      "source_id": "dm-mit-probability",
+      "reason": "Conditional probability, concentration and probabilistic combinatorics."
+    },
+    {
+      "source_id": "dm-cmu-parameterized",
+      "reason": "FPT, vertex-cover branching/kernelization and randomized FPT methods."
     }
   ],
   "historical_claims": [
@@ -23,5 +51,114 @@
       "source_locator": "Opening paragraphs of Spencer, Probabilistic Methods in Combinatorics; Erdős 1947 Ramsey lower bound",
       "audit_status": "reference_recorded"
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "discrete-mathematics:011000",
+        "file": "011000-probabilistic-method-existence-without-construction.md",
+        "sha256": "72c69ff58a595e31bd0a7a4ed3a9d04567eccc70b4d9ba6ef65a14681c03a915",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-probabilistic-method-existence-without-construction.md",
+          "related_resources": [
+            {
+              "source_id": "dm-spencer",
+              "reason": "Erdos probabilistic Ramsey bound and first-moment method."
+            },
+            {
+              "source_id": "dm-mit6042",
+              "reason": "Independent sets and expectation background."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "011000-h01",
+              "anchor": "It was among the influential early examples developed by Paul Erdős.",
+              "kind": "historical_research",
+              "source_ids": [
+                "dm-spencer"
+              ],
+              "source_locator": "Opening paragraphs of Spencer, Probabilistic Methods in Combinatorics; Erdős 1947 Ramsey lower bound",
+              "audit_status": "reference_recorded"
+            }
+          ]
+        }
+      },
+      {
+        "id": "discrete-mathematics:016000",
+        "file": "016000-random-graph-thresholds-and-concentration.md",
+        "sha256": "21d4667c944bf7a558c062e572de67629b384fc4c84f6dae3253f64014b938ce",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-random-graph-thresholds-and-concentration.md",
+          "related_resources": [
+            {
+              "source_id": "dm-gatech-random",
+              "reason": "Isolated vertex threshold via first and second moments."
+            },
+            {
+              "source_id": "dm-spencer",
+              "reason": "Probabilistic method, random graphs and concentration bounds."
+            },
+            {
+              "source_id": "dm-mit6042",
+              "reason": "Combinatorial probability and union-bound background."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:019000",
+        "file": "019000-network-reliability-and-random-connectivity.md",
+        "sha256": "e5f1f8f3f9b68ea489f13d61988d923e33cfe8c4be17eeb19a04893af531810f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-network-reliability-and-random-connectivity.md",
+          "related_resources": [
+            {
+              "source_id": "dm-durrett-graph",
+              "reason": "Poisson isolated-vertex limit and connectivity threshold."
+            },
+            {
+              "source_id": "dm-odonnell-probability",
+              "reason": "Random graph connectivity and threshold scales."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:022000",
+        "file": "022000-martingales-and-concentration-inequalities.md",
+        "sha256": "3ba3a6065ae6d84d7574b9154e07ed281f7da6a260e8947061b6b273af7417ca",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "022000",
+          "transcript": "022000-martingales-and-concentration-inequalities.md",
+          "related_resources": [
+            {
+              "source_id": "dm-mit-probability",
+              "reason": "Conditional probability, concentration and probabilistic combinatorics."
+            },
+            {
+              "source_id": "dm-cmu-parameterized",
+              "reason": "FPT, vertex-cover branching/kernelization and randomized FPT methods."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

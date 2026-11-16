@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "036100",
-  "transcript": "036100-contact-forms-and-reeb-flows.md",
+  "transcript": "036100-contact-boundaries-wrapping-and-embedding-obstructions.md",
   "related_resources": [
     {
       "source_id": "tg-wendl-holomorphic",
@@ -10,7 +10,199 @@
     {
       "source_id": "tg-hutchings-ech-notes",
       "reason": "Reeb orbit action and ECH input objects."
+    },
+    {
+      "source_id": "tg-wendl-holomorphic",
+      "reason": "Contact boundaries and exact symplectic geometry."
+    },
+    {
+      "source_id": "tg-auroux-intro-fukaya",
+      "reason": "Exact Fukaya-theoretic and Liouville background."
+    },
+    {
+      "source_id": "tg-wendl-holomorphic",
+      "reason": "Contact-type almost-complex structures and positivity."
+    },
+    {
+      "source_id": "tg-r19-037000-1",
+      "reason": "Wrapped cotangent fiber and based-loop correspondence."
+    },
+    {
+      "source_id": "tg-auroux-intro-fukaya",
+      "reason": "Wrapped Floer context and categorical limits."
+    },
+    {
+      "source_id": "tg-r19-037000-1",
+      "reason": "Reference for Wrapped Floer Homology and Symplectic Cohomology (1 of 2)"
+    },
+    {
+      "source_id": "tg-r19-037000-2",
+      "reason": "Reference for Wrapped Floer Homology and Symplectic Cohomology (2 of 2)"
+    },
+    {
+      "source_id": "tg-r17-034000-1",
+      "reason": "Reference on Symplectic Nonsqueezing: A Constraint That Volume Cannot See (1 of 3)"
+    },
+    {
+      "source_id": "tg-r17-034000-2",
+      "reason": "Reference on Symplectic Nonsqueezing: A Constraint That Volume Cannot See (2 of 3)"
+    },
+    {
+      "source_id": "tg-r17-034000-3",
+      "reason": "Reference on Symplectic Nonsqueezing: A Constraint That Volume Cannot See (3 of 3)"
+    },
+    {
+      "source_id": "tg-r19-038000-1",
+      "reason": "Reference for ECH Capacities and Symplectic Embedding Staircases (1 of 2)"
+    },
+    {
+      "source_id": "tg-r19-038000-2",
+      "reason": "Reference for ECH Capacities and Symplectic Embedding Staircases (2 of 2)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:036100",
+        "file": "036100-contact-forms-and-reeb-flows.md",
+        "sha256": "3d3ad016214b096515d4ed8a33fff8b1bf356d560fd22194d0f222b777e89486",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "036100",
+          "transcript": "036100-contact-forms-and-reeb-flows.md",
+          "related_resources": [
+            {
+              "source_id": "tg-wendl-holomorphic",
+              "reason": "Contact plane fields, Reeb normalization and symplectizations."
+            },
+            {
+              "source_id": "tg-hutchings-ech-notes",
+              "reason": "Reeb orbit action and ECH input objects."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:036200",
+        "file": "036200-liouville-domains-and-completions.md",
+        "sha256": "2234673a5a6066c2bf1b366d44c0b9ffa5880fe2b525565f2a31deede0d2ac97",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "036200",
+          "transcript": "036200-liouville-domains-and-completions.md",
+          "related_resources": [
+            {
+              "source_id": "tg-wendl-holomorphic",
+              "reason": "Contact boundaries and exact symplectic geometry."
+            },
+            {
+              "source_id": "tg-auroux-intro-fukaya",
+              "reason": "Exact Fukaya-theoretic and Liouville background."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:036300",
+        "file": "036300-wrapping-hamiltonians-and-no-escape.md",
+        "sha256": "644cc86f1a2de7b21dee90d9f97383be7e926576554a6b55d42059c71f21bf31",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "036300",
+          "transcript": "036300-wrapping-hamiltonians-and-no-escape.md",
+          "related_resources": [
+            {
+              "source_id": "tg-wendl-holomorphic",
+              "reason": "Contact-type almost-complex structures and positivity."
+            },
+            {
+              "source_id": "tg-r19-037000-1",
+              "reason": "Wrapped cotangent fiber and based-loop correspondence."
+            },
+            {
+              "source_id": "tg-auroux-intro-fukaya",
+              "reason": "Wrapped Floer context and categorical limits."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:037000",
+        "file": "037000-wrapped-floer-and-symplectic-cohomology.md",
+        "sha256": "30ca6ef2274a43ad62d3220bba3e73eab9b96212edf99c9af69c9b5b1a77752c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "037000",
+          "transcript": "037000-wrapped-floer-and-symplectic-cohomology.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r19-037000-1",
+              "reason": "Reference for Wrapped Floer Homology and Symplectic Cohomology (1 of 2)"
+            },
+            {
+              "source_id": "tg-r19-037000-2",
+              "reason": "Reference for Wrapped Floer Homology and Symplectic Cohomology (2 of 2)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:034000",
+        "file": "034000-symplectic-capacities-and-nonsqueezing.md",
+        "sha256": "bcdba1a7f900cfe7ef36eed24bfbb3caf07e87da7432edb391d270831839078a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "034000",
+          "transcript": "034000-symplectic-capacities-and-nonsqueezing.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r17-034000-1",
+              "reason": "Reference on Symplectic Nonsqueezing: A Constraint That Volume Cannot See (1 of 3)"
+            },
+            {
+              "source_id": "tg-r17-034000-2",
+              "reason": "Reference on Symplectic Nonsqueezing: A Constraint That Volume Cannot See (2 of 3)"
+            },
+            {
+              "source_id": "tg-r17-034000-3",
+              "reason": "Reference on Symplectic Nonsqueezing: A Constraint That Volume Cannot See (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:038000",
+        "file": "038000-ech-capacities-and-embedding-staircases.md",
+        "sha256": "91f180689907038d89fe7e1823d833ceeffdfe6a21ffb8182d733db8e36f3f96",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "038000",
+          "transcript": "038000-ech-capacities-and-embedding-staircases.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r19-038000-1",
+              "reason": "Reference for ECH Capacities and Symplectic Embedding Staircases (1 of 2)"
+            },
+            {
+              "source_id": "tg-r19-038000-2",
+              "reason": "Reference for ECH Capacities and Symplectic Embedding Staircases (2 of 2)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

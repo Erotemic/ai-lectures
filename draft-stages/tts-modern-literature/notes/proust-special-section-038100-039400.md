@@ -1,5 +1,7 @@
 # Proust: seven-volume story and critical-study editorial dossier
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## Selection and teaching objective
 
 Marcel Proust's *À la recherche du temps perdu* (*In Search of Lost Time*) earns a major section through its sustained influence on literary treatments of memory, time, consciousness, social identity, and narrative architecture. It is selected for critical and literary-historical importance, **not** to fill a geographic or demographic representation quota. The manuscript sequence teaches the **complete narrative orientation** first, in seven volume-by-volume retellings, then seven independently coherent close studies of the novel's techniques and history. Read in numerical order. These transcripts are **original critical prose**, not a replacement transcription or unauthorized translation of Proust.
@@ -32,7 +34,7 @@ Marcel Proust's *À la recherche du temps perdu* (*In Search of Lost Time*) earn
 - **Specific historical corroboration** — United States Holocaust Memorial Museum's *Alfred Dreyfus and the Dreyfus Affair* for the historical conviction and exoneration; the Dreyfus Affair's influence on fictional characters remains an interpretation of Proust's text, not a literal historical case record.
 - **Secondary interpretive context** — Joshua Landy's Oxford book abstract for memory versus impression; Gabrielle Townsend's Cambridge chapter abstract for the fictional artists. Neither **abstract-only** record should be presented as having been read in full. General references and encyclopedia summaries are orientation only, not independent confirmation of disputed matters.
 
-The detailed source catalog is `metadata/sources.json`; all lecture-specific resources and claim anchors are in `metadata/038100.json` through `metadata/039400.json`. A claim anchor locates the claim exactly once in spoken text, with source IDs and a locator; the anchoring mechanism alone does not establish that a literary interpretation is uniquely correct.
+The detailed source catalog is `metadata/sources.json`; all lecture-specific resources and claim anchors are in `metadata/038100.json` through `metadata/038900.json`. A claim anchor locates the claim exactly once in spoken text, with source IDs and a locator; the anchoring mechanism alone does not establish that a literary interpretation is uniquely correct.
 
 ## Factual and interpretive guardrails
 

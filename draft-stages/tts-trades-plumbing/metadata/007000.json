@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "007000",
-  "transcript": "007000-diagnosing-low-flow-noise-and-leaks.md",
+  "transcript": "007000-diagnose-flow-and-verify-the-repair-boundary.md",
   "related_resources": [
     {
       "source_id": "pnnl-service-pressure",
@@ -14,6 +14,46 @@
     {
       "source_id": "epa-maintenance",
       "reason": "Leaks, service pressure and maintenance"
+    },
+    {
+      "source_id": "moen-fixture-spout-leak",
+      "reason": "On Moen designs, spout leaks can indicate cartridge or related parts; identify specific model before replacing"
+    },
+    {
+      "source_id": "moen-fixture-handle-leak",
+      "reason": "Distinguishes handle leaks and cartridges for particular Moen products"
+    },
+    {
+      "source_id": "iapmo-upc",
+      "reason": "Chapters 9–10: vents and traps; code adoption varies"
+    },
+    {
+      "source_id": "epa-cross-connections",
+      "reason": "Cross-connections, upstream pressure reversal and drinking-water contamination hazards"
+    },
+    {
+      "source_id": "moen-low-flow-both",
+      "reason": "Manufacturer explanation of aerator/cartridge/diverter debris and model-specific flow diagnosis"
+    },
+    {
+      "source_id": "moen-low-flow-one-side",
+      "reason": "Fixture supply-stop and supply-line checks when hot and cold behavior differs"
+    },
+    {
+      "source_id": "ashrae-valves-waterhammer-2024",
+      "reason": "Transient pressure pulses, abrupt closure, dependence on velocity and water-hammer noise"
+    },
+    {
+      "source_id": "doe-wh-expansion-workshop",
+      "reason": "Closed-system thermal expansion, expansion tanks and T&P warnings; historical industry material, not an adopted code"
+    },
+    {
+      "source_id": "epa-water-filter-lead",
+      "reason": "Accredited certified filter selection for lead and associated particle reduction claims"
+    },
+    {
+      "source_id": "epa-water-filter-pfas",
+      "reason": "Contaminant-specific certifications, carbon/ion-exchange/RO limitations and filter replacement"
     }
   ],
   "historical_claims": [],
@@ -62,8 +102,988 @@
       "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
       "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P011000-01",
+      "claim": "A spout drip with valve closed can arise from a failing sealing element or cartridge and requires model-specific diagnosis.",
+      "kind": "original_manufacturer_guidance",
+      "supports": [
+        {
+          "source_id": "moen-fixture-spout-leak",
+          "location": "Typical cause and model-specific repair",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Leaks at a faucet handle and at its base can indicate different paths and may require different repair parts.",
+      "kind": "original_manufacturer_diagnostic_guidance",
+      "supports": [
+        {
+          "source_id": "moen-fixture-handle-leak",
+          "location": "Handle leak and cartridge identification",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "moen-fixture-spout-leak",
+          "location": "Spout leak distinct from handle leak",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Supply pressure and flow under demand differ because restrictions introduce loss across valve and line paths.",
+      "kind": "derived_fluid_systems_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Distribution pressure and flow control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Fixture repair and replacement must preserve approved potable-water connections and locally adopted plumbing requirements.",
+      "kind": "original_plumbing_code_scope",
+      "supports": [
+        {
+          "source_id": "iapmo-upc",
+          "location": "Potable water supply and fixture requirements",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-01",
+      "claim": "A pressure test is meaningful only for a defined connected section and an appropriate test condition.",
+      "kind": "derived_plumbing_testing_method",
+      "supports": [
+        {
+          "source_id": "iapmo-upc",
+          "location": "Chapters 9–10: vents and traps; code adoption varies",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "Static supply pressure does not uniquely establish delivered flow under demand.",
+      "kind": "derived_fluid_flow_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-water-leak-monitor-2026",
+          "location": "Detecting irregular flow patterns, point-of-use and point-of-entry devices, limitations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Pressure test requirements differ by piping material, system and applicable adopted code; one universal pressure is inappropriate.",
+      "kind": "original_code_scope_distinction",
+      "supports": [
+        {
+          "source_id": "iapmo-upc",
+          "location": "Chapters 9–10: vents and traps; code adoption varies",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-04",
+      "claim": "Potable-water repairs must address backflow and contamination risks as well as leaks.",
+      "kind": "original_us_water_safety_guidance",
+      "supports": [
+        {
+          "source_id": "epa-cross-connections",
+          "location": "Cross-connections, upstream pressure reversal and drinking-water contamination hazards",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "iapmo-upc",
+          "location": "Chapters 9–10: vents and traps; code adoption varies",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "Adequate static supply pressure can coexist with low fixture flow due to local flow resistance.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "moen-low-flow-both",
+          "location": "Manufacturer explanation of aerator/cartridge/diverter debris and model-specific flow diagnosis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Blocked aerators or faucet cartridges can restrict hot and cold flow in model-dependent patterns.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "moen-low-flow-both",
+          "location": "Manufacturer explanation of aerator/cartridge/diverter debris and model-specific flow diagnosis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "A restriction in one fixture supply stop or feed can affect hot and cold delivery differently.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "moen-low-flow-one-side",
+          "location": "Fixture supply-stop and supply-line checks when hot and cold behavior differs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Fixture isolation and leak inspection after service are separate from diagnosing the original flow restriction.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "moen-fixture-handle-leak",
+          "location": "Distinguishes handle leaks and cartridges for particular Moen products",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "Abrupt flow-velocity change can generate propagating transient pressure waves beyond steady system pressure.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ashrae-valves-waterhammer-2024",
+          "location": "Transient pressure pulses, abrupt closure, dependence on velocity and water-hammer noise",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Static pressure, flowing pressure loss and brief surge peaks measure different aspects of a piping system.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ashrae-valves-waterhammer-2024",
+          "location": "Transient pressure pulses, abrupt closure, dependence on velocity and water-hammer noise",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Water-heater thermal expansion and fast valve-closing transients are distinct timescale problems.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-wh-expansion-workshop",
+          "location": "Closed-system thermal expansion, expansion tanks and T&P warnings; historical industry material, not an adopted code",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ashrae-valves-waterhammer-2024",
+          "location": "Transient pressure pulses, abrupt closure, dependence on velocity and water-hammer noise",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "A fitting noise by itself does not establish the magnitude or cause of transient loading.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ashrae-valves-waterhammer-2024",
+          "location": "Transient pressure pulses, abrupt closure, dependence on velocity and water-hammer noise",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-01",
+      "claim": "A restriction may cause a larger dynamic pressure loss when water flows than under static conditions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "A certification to reduce particular contaminants is distinct from a filter flow and pressure-drop specification.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-water-filter-lead",
+          "location": "Accredited certified filter selection for lead and associated particle reduction claims",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-water-filter-pfas",
+          "location": "Contaminant-specific certifications, carbon/ion-exchange/RO limitations and filter replacement",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "Comparing hot/cold and affected fixtures can narrow an apparent low-flow fault.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "moen-low-flow-both",
+          "location": "Manufacturer explanation of aerator/cartridge/diverter debris and model-specific flow diagnosis",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "moen-low-flow-one-side",
+          "location": "Fixture supply-stop and supply-line checks when hot and cold behavior differs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Filter service and pressure testing must use equipment-approved methods.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-water-filter-lead",
+          "location": "Accredited certified filter selection for lead and associated particle reduction claims",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-plumbing:007000",
+        "file": "007000-diagnosing-low-flow-noise-and-leaks.md",
+        "sha256": "94e34a307812cb52df2bad9481978fcfe028f2436f416ce53c7599fe0150f420",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-diagnosing-low-flow-noise-and-leaks.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-service-pressure",
+              "reason": "Static supply pressure, PRV mechanism and closed-system expansion"
+            },
+            {
+              "source_id": "epa-water-leak-monitor-2026",
+              "reason": "Detecting irregular flow patterns, point-of-use and point-of-entry devices, limitations"
+            },
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leaks, service pressure and maintenance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "A household can have acceptable static pressure but restricted flow under demand; pressure and flow measurements describe different conditions.",
+              "kind": "derived_water_hydraulics",
+              "supports": [
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Service water pressure and demand context; physical distinction explained by author",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "Flow and moisture monitors can detect irregular water use or leaks, but devices at different locations have different blind spots.",
+              "kind": "water_monitoring_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-water-leak-monitor-2026",
+                  "location": "Device types, installation locations, advantages and limitations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "Meter readings during no intended usage can help distinguish continuing supply flow from event-specific plumbing leaks.",
+              "kind": "water_leak_diagnosis",
+              "supports": [
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "Home Maintenance: water meter read during no-use interval",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      },
+      {
+        "id": "trades-plumbing:011000",
+        "file": "011000-fixture-valves-cartridges-and-practical-repair-decisions.md",
+        "sha256": "950a1f498a10ea750e81711a449a01486984510ec5a3e6f2eb52c1817cb24afb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-fixture-valves-cartridges-and-practical-repair-decisions.md",
+          "related_resources": [
+            {
+              "source_id": "moen-fixture-spout-leak",
+              "reason": "On Moen designs, spout leaks can indicate cartridge or related parts; identify specific model before replacing"
+            },
+            {
+              "source_id": "moen-fixture-handle-leak",
+              "reason": "Distinguishes handle leaks and cartridges for particular Moen products"
+            },
+            {
+              "source_id": "pnnl-service-pressure",
+              "reason": "Static supply pressure, PRV mechanism and closed-system expansion"
+            },
+            {
+              "source_id": "iapmo-upc",
+              "reason": "Chapters 9–10: vents and traps; code adoption varies"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "A spout drip with valve closed can arise from a failing sealing element or cartridge and requires model-specific diagnosis.",
+              "kind": "original_manufacturer_guidance",
+              "supports": [
+                {
+                  "source_id": "moen-fixture-spout-leak",
+                  "location": "Typical cause and model-specific repair",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "Leaks at a faucet handle and at its base can indicate different paths and may require different repair parts.",
+              "kind": "original_manufacturer_diagnostic_guidance",
+              "supports": [
+                {
+                  "source_id": "moen-fixture-handle-leak",
+                  "location": "Handle leak and cartridge identification",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "moen-fixture-spout-leak",
+                  "location": "Spout leak distinct from handle leak",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "Supply pressure and flow under demand differ because restrictions introduce loss across valve and line paths.",
+              "kind": "derived_fluid_systems_synthesis",
+              "supports": [
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Distribution pressure and flow control",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "Fixture repair and replacement must preserve approved potable-water connections and locally adopted plumbing requirements.",
+              "kind": "original_plumbing_code_scope",
+              "supports": [
+                {
+                  "source_id": "iapmo-upc",
+                  "location": "Potable water supply and fixture requirements",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "trades-plumbing:013000",
+        "file": "013000-pressure-testing-isolation-and-recommissioning-plumbing-repairs.md",
+        "sha256": "51a8600816807f9dd4968f0441373d50efb488347b15aec79b97614111552d58",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-pressure-testing-isolation-and-recommissioning-plumbing-repairs.md",
+          "related_resources": [
+            {
+              "source_id": "iapmo-upc",
+              "reason": "Chapters 9–10: vents and traps; code adoption varies"
+            },
+            {
+              "source_id": "pnnl-service-pressure",
+              "reason": "Static supply pressure, PRV mechanism and closed-system expansion"
+            },
+            {
+              "source_id": "epa-water-leak-monitor-2026",
+              "reason": "Detecting irregular flow patterns, point-of-use and point-of-entry devices, limitations"
+            },
+            {
+              "source_id": "epa-cross-connections",
+              "reason": "Cross-connections, upstream pressure reversal and drinking-water contamination hazards"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "A pressure test is meaningful only for a defined connected section and an appropriate test condition.",
+              "kind": "derived_plumbing_testing_method",
+              "supports": [
+                {
+                  "source_id": "iapmo-upc",
+                  "location": "Chapters 9–10: vents and traps; code adoption varies",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "Static supply pressure does not uniquely establish delivered flow under demand.",
+              "kind": "derived_fluid_flow_synthesis",
+              "supports": [
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-water-leak-monitor-2026",
+                  "location": "Detecting irregular flow patterns, point-of-use and point-of-entry devices, limitations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "Pressure test requirements differ by piping material, system and applicable adopted code; one universal pressure is inappropriate.",
+              "kind": "original_code_scope_distinction",
+              "supports": [
+                {
+                  "source_id": "iapmo-upc",
+                  "location": "Chapters 9–10: vents and traps; code adoption varies",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-04",
+              "claim": "Potable-water repairs must address backflow and contamination risks as well as leaks.",
+              "kind": "original_us_water_safety_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-cross-connections",
+                  "location": "Cross-connections, upstream pressure reversal and drinking-water contamination hazards",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "iapmo-upc",
+                  "location": "Chapters 9–10: vents and traps; code adoption varies",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "trades-plumbing:017000",
+        "file": "017000-fixture-supply-stops-and-flow-restriction-diagnostics.md",
+        "sha256": "72e74f077c3ce0af3896e7d3f984f5eab5fee87fe5dd334c922b32bc9ef8f5dc",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-fixture-supply-stops-and-flow-restriction-diagnostics.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-service-pressure",
+              "reason": "Static supply pressure, PRV mechanism and closed-system expansion"
+            },
+            {
+              "source_id": "moen-low-flow-both",
+              "reason": "Manufacturer explanation of aerator/cartridge/diverter debris and model-specific flow diagnosis"
+            },
+            {
+              "source_id": "moen-low-flow-one-side",
+              "reason": "Fixture supply-stop and supply-line checks when hot and cold behavior differs"
+            },
+            {
+              "source_id": "moen-fixture-handle-leak",
+              "reason": "Distinguishes handle leaks and cartridges for particular Moen products"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "Adequate static supply pressure can coexist with low fixture flow due to local flow resistance.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "moen-low-flow-both",
+                  "location": "Manufacturer explanation of aerator/cartridge/diverter debris and model-specific flow diagnosis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "Blocked aerators or faucet cartridges can restrict hot and cold flow in model-dependent patterns.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "moen-low-flow-both",
+                  "location": "Manufacturer explanation of aerator/cartridge/diverter debris and model-specific flow diagnosis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "A restriction in one fixture supply stop or feed can affect hot and cold delivery differently.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "moen-low-flow-one-side",
+                  "location": "Fixture supply-stop and supply-line checks when hot and cold behavior differs",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "Fixture isolation and leak inspection after service are separate from diagnosing the original flow restriction.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "moen-fixture-handle-leak",
+                  "location": "Distinguishes handle leaks and cartridges for particular Moen products",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-plumbing:018000",
+        "file": "018000-water-hammer-pressure-regulators-and-transient-loads.md",
+        "sha256": "fb92369cd7a309c6bf7b1cdc1eeb241e941a14e3c196573dfb99a1d90434266f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-water-hammer-pressure-regulators-and-transient-loads.md",
+          "related_resources": [
+            {
+              "source_id": "ashrae-valves-waterhammer-2024",
+              "reason": "Transient pressure pulses, abrupt closure, dependence on velocity and water-hammer noise"
+            },
+            {
+              "source_id": "pnnl-service-pressure",
+              "reason": "Static supply pressure, PRV mechanism and closed-system expansion"
+            },
+            {
+              "source_id": "doe-wh-expansion-workshop",
+              "reason": "Closed-system thermal expansion, expansion tanks and T&P warnings; historical industry material, not an adopted code"
+            },
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leaks, service pressure and maintenance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "Abrupt flow-velocity change can generate propagating transient pressure waves beyond steady system pressure.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ashrae-valves-waterhammer-2024",
+                  "location": "Transient pressure pulses, abrupt closure, dependence on velocity and water-hammer noise",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Static pressure, flowing pressure loss and brief surge peaks measure different aspects of a piping system.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ashrae-valves-waterhammer-2024",
+                  "location": "Transient pressure pulses, abrupt closure, dependence on velocity and water-hammer noise",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "Water-heater thermal expansion and fast valve-closing transients are distinct timescale problems.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-wh-expansion-workshop",
+                  "location": "Closed-system thermal expansion, expansion tanks and T&P warnings; historical industry material, not an adopted code",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ashrae-valves-waterhammer-2024",
+                  "location": "Transient pressure pulses, abrupt closure, dependence on velocity and water-hammer noise",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "A fitting noise by itself does not establish the magnitude or cause of transient loading.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ashrae-valves-waterhammer-2024",
+                  "location": "Transient pressure pulses, abrupt closure, dependence on velocity and water-hammer noise",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-plumbing:019000",
+        "file": "019000-diagnosing-pressure-loss-through-filters-and-fixtures.md",
+        "sha256": "a43bbd869d17ae36e6199fd4c2900a9dfc5468ebf14a9ba5a86c6d0e1c77f8f1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-diagnosing-pressure-loss-through-filters-and-fixtures.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-service-pressure",
+              "reason": "Static supply pressure, PRV mechanism and closed-system expansion"
+            },
+            {
+              "source_id": "epa-water-filter-lead",
+              "reason": "Accredited certified filter selection for lead and associated particle reduction claims"
+            },
+            {
+              "source_id": "epa-water-filter-pfas",
+              "reason": "Contaminant-specific certifications, carbon/ion-exchange/RO limitations and filter replacement"
+            },
+            {
+              "source_id": "moen-low-flow-both",
+              "reason": "Manufacturer explanation of aerator/cartridge/diverter debris and model-specific flow diagnosis"
+            },
+            {
+              "source_id": "moen-low-flow-one-side",
+              "reason": "Fixture supply-stop and supply-line checks when hot and cold behavior differs"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P019000-01",
+              "claim": "A restriction may cause a larger dynamic pressure loss when water flows than under static conditions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-02",
+              "claim": "A certification to reduce particular contaminants is distinct from a filter flow and pressure-drop specification.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-water-filter-lead",
+                  "location": "Accredited certified filter selection for lead and associated particle reduction claims",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-water-filter-pfas",
+                  "location": "Contaminant-specific certifications, carbon/ion-exchange/RO limitations and filter replacement",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-03",
+              "claim": "Comparing hot/cold and affected fixtures can narrow an apparent low-flow fault.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "moen-low-flow-both",
+                  "location": "Manufacturer explanation of aerator/cartridge/diverter debris and model-specific flow diagnosis",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "moen-low-flow-one-side",
+                  "location": "Fixture supply-stop and supply-line checks when hot and cold behavior differs",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-04",
+              "claim": "Filter service and pressure testing must use equipment-approved methods.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-water-filter-lead",
+                  "location": "Accredited certified filter selection for lead and associated particle reduction claims",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "007000-diagnose-flow-and-verify-the-repair-boundary.md"
+      ],
+      "joined_before_source_parts": [
+        "011000",
+        "013000",
+        "018000"
+      ]
+    }
+  ]
 }

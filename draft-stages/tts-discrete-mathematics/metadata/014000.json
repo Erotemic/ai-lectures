@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "014000",
-  "transcript": "014000-ramsey-theory-and-unavoidable-patterns.md",
+  "transcript": "014000-forced-patterns-spectral-expansion-and-separators-shared-core.md",
   "related_resources": [
     {
       "source_id": "dm-applied-ramsey",
@@ -14,7 +14,138 @@
     {
       "source_id": "dm-diestel",
       "reason": "Graph-theoretic context."
+    },
+    {
+      "source_id": "dm-chung",
+      "reason": "Normalized Laplacian and Cheeger inequalities."
+    },
+    {
+      "source_id": "dm-yale-spectral",
+      "reason": "Spectral partitioning, Rayleigh quotients and random walks."
+    },
+    {
+      "source_id": "dm-diestel",
+      "reason": "Graph structure and cut definitions."
+    },
+    {
+      "source_id": "dm-feige-treewidth",
+      "reason": "Tree decompositions and dynamic programming."
+    },
+    {
+      "source_id": "dm-bodlaender",
+      "reason": "Foundational algorithms parameterized by treewidth."
+    },
+    {
+      "source_id": "dm-minors-tutorial",
+      "reason": "Robertson-Seymour graph-minor context and structural consequences."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "017000-h01",
+      "anchor": "Robertson–Seymour graph-minor program",
+      "kind": "historical_research",
+      "source_ids": [
+        "dm-minors-tutorial"
+      ],
+      "source_locator": "Survey of Robertson–Seymour graph minor program.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "discrete-mathematics:014000",
+        "file": "014000-ramsey-theory-and-unavoidable-patterns.md",
+        "sha256": "9dac6d73a35546400711aa84f0c94e6a241d767186c2cfea8500a8721f071880",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-ramsey-theory-and-unavoidable-patterns.md",
+          "related_resources": [
+            {
+              "source_id": "dm-applied-ramsey",
+              "reason": "Ramsey numbers, basic exact values and classic graph coloring example."
+            },
+            {
+              "source_id": "dm-spencer",
+              "reason": "Probabilistic Ramsey lower-bound argument."
+            },
+            {
+              "source_id": "dm-diestel",
+              "reason": "Graph-theoretic context."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:015000",
+        "file": "015000-spectral-graph-theory-and-expansion.md",
+        "sha256": "2167458803dee835bafadbb4acd9011eb94643e27d1fb03a56082f832afe00a9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-spectral-graph-theory-and-expansion.md",
+          "related_resources": [
+            {
+              "source_id": "dm-chung",
+              "reason": "Normalized Laplacian and Cheeger inequalities."
+            },
+            {
+              "source_id": "dm-yale-spectral",
+              "reason": "Spectral partitioning, Rayleigh quotients and random walks."
+            },
+            {
+              "source_id": "dm-diestel",
+              "reason": "Graph structure and cut definitions."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:017000",
+        "file": "017000-graph-minors-and-treewidth.md",
+        "sha256": "d23bfa7fcd2ad726f485ce3e1b7c55ef745f7d4dc697e339a010c7cc2f5ce9d9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-graph-minors-and-treewidth.md",
+          "related_resources": [
+            {
+              "source_id": "dm-feige-treewidth",
+              "reason": "Tree decompositions and dynamic programming."
+            },
+            {
+              "source_id": "dm-bodlaender",
+              "reason": "Foundational algorithms parameterized by treewidth."
+            },
+            {
+              "source_id": "dm-minors-tutorial",
+              "reason": "Robertson-Seymour graph-minor context and structural consequences."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "017000-h01",
+              "anchor": "Robertson–Seymour graph-minor program",
+              "kind": "historical_research",
+              "source_ids": [
+                "dm-minors-tutorial"
+              ],
+              "source_locator": "Survey of Robertson–Seymour graph minor program.",
+              "audit_status": "reference_recorded"
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

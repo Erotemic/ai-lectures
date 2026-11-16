@@ -1,5 +1,7 @@
 # Story and analysis expansion: 012200–015000
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 The pre-refactor authoring assignment identified several blind spots in the existing 12-novel selection. This pass adds three pairs without renumbering existing IDs and without touching code, tests, shared configuration or any other content pack.
 
 - *Ceremony*: a Laguna Pueblo writer’s novel about a veteran and the reconnection of memory, land, community and action; avoid presenting specific storytelling traditions as generic Indigenous spirituality.

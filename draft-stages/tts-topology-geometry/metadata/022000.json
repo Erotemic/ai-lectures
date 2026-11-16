@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "022000",
-  "transcript": "022000-chern-weil-theory-and-bundle-curvature.md",
+  "transcript": "022000-chern-weil-curvature-and-explicit-gauge-calculations.md",
   "related_resources": [
     {
       "source_id": "tg-cambridge-chern",
@@ -10,7 +10,67 @@
     {
       "source_id": "tg-toronto-equivariant",
       "reason": "Principal U(1)-bundles, connections and first Chern numbers."
+    },
+    {
+      "source_id": "tg-baez-muniain",
+      "reason": "Connection one-forms, gauge transformations, curvature and holonomy."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Connections and bundle transitions."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:022000",
+        "file": "022000-chern-weil-theory-and-bundle-curvature.md",
+        "sha256": "dede91b0ab36bf2e61a5b2f07aada8b43ce738d949fcfc19bf1dab1d459bd69e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "022000",
+          "transcript": "022000-chern-weil-theory-and-bundle-curvature.md",
+          "related_resources": [
+            {
+              "source_id": "tg-cambridge-chern",
+              "reason": "The Chern-Weil map and first Chern classes."
+            },
+            {
+              "source_id": "tg-toronto-equivariant",
+              "reason": "Principal U(1)-bundles, connections and first Chern numbers."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:022100",
+        "file": "022100-principal-connections-gauge-changes-and-holonomy.md",
+        "sha256": "e761b7c8e987acfe6a5ba7e9f5335ea243dd35ba53223469d028a99173feda40",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "022100",
+          "transcript": "022100-principal-connections-gauge-changes-and-holonomy.md",
+          "related_resources": [
+            {
+              "source_id": "tg-baez-muniain",
+              "reason": "Connection one-forms, gauge transformations, curvature and holonomy."
+            },
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Connections and bundle transitions."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

@@ -1,5 +1,7 @@
 # Agent A: Lispector, Pramoedya, du Maurier — editorial and verification record
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## Boundaries
 
 Content-pack-only overlay. Six original expository manuscripts and six sidecars, with two shared pack indexes (`track.json` and `metadata/sources.json`) plus this note and `README.md`. No other track, application code, media assets, or fixed length policy is changed. The new IDs follow the six in the preceding Agent A expansion: `033200`, `034000`, `034200`, `035000`, `035200`, and `036000`.

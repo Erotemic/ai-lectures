@@ -18,165 +18,69 @@
   "lectures": [
     {
       "id": "001000",
-      "title": "Measure First, Then Shape: Error, Reference Surfaces, and Tool Choice",
+      "title": "Plan accurate work from shared references",
       "section": "measurement-and-layout",
-      "file": "001000-measure-first-then-shape.md",
-      "spoken_words": 1352,
+      "file": "001000-plan-accurate-work-from-shared-references.md",
+      "spoken_words": 4406,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "002000",
-      "title": "Reference Faces, Datums, and Practical Layout",
-      "section": "measurement-and-layout",
-      "file": "002000-reference-faces-datums-and-practical-layout.md",
-      "spoken_words": 1184,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "003000",
-      "title": "Precision, Repeatability, and Calibration",
-      "section": "measurement-and-layout",
-      "file": "003000-precision-repeatability-and-calibration.md",
-      "spoken_words": 955,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "004000",
-      "title": "Cutting, Kerf, and Workholding",
-      "section": "measurement-and-layout",
-      "file": "004000-cutting-kerf-and-workholding.md",
-      "spoken_words": 938,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "005000",
-      "title": "Drilling and Hole Geometry",
-      "section": "measurement-and-layout",
-      "file": "005000-drilling-and-hole-geometry.md",
-      "spoken_words": 1001,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "006000",
-      "title": "Fasteners, Torque, and Connection Design",
-      "section": "measurement-and-layout",
-      "file": "006000-fasteners-torque-and-connection-design.md",
-      "spoken_words": 964,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "007000",
-      "title": "Jigs, Templates, and Inspection",
-      "section": "measurement-and-layout",
-      "file": "007000-jigs-templates-and-inspection.md",
-      "spoken_words": 928,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "008000",
-      "title": "Surface Preparation, Finishing, and Fit",
-      "section": "measurement-and-layout",
-      "file": "008000-surface-preparation-finishing-and-fit.md",
-      "spoken_words": 858,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "009000",
-      "title": "Adhesives, Sealants, and Joint Preparation",
-      "section": "measurement-and-layout",
-      "file": "009000-adhesives-sealants-and-joint-preparation.md",
-      "spoken_words": 977,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "010000",
-      "title": "Abrasives, Tool Maintenance, and Edge Geometry",
-      "section": "measurement-and-layout",
-      "file": "010000-abrasives-tool-maintenance-and-edge-geometry.md",
-      "spoken_words": 1008,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "011000",
-      "title": "Dust Collection, Respiratory Exposure, and Workshop Ventilation",
-      "section": "measurement-and-layout",
-      "file": "011000-dust-collection-respiratory-exposure-and-workshop-ventilation.md",
-      "spoken_words": 937,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "012000",
-      "title": "Measurement and Setup Plans for Multi-Step Repairs",
-      "section": "measurement-and-layout",
-      "file": "012000-measurement-and-setup-plans-for-multi-step-repairs.md",
-      "spoken_words": 871,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "013000",
-      "title": "Portable Workbenches, Clamping Layouts, and Repeatable Assembly",
-      "section": "measurement-and-layout",
-      "file": "013000-portable-workbenches-clamping-layouts-and-repeatable-assembly.md",
-      "spoken_words": 863,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 30.4,
+      "consolidated_from": [
+        "001000",
+        "002000",
+        "003000",
+        "012000"
+      ]
     },
     {
       "id": "014000",
-      "title": "Workshop Lighting, Layout, and Work Sequence Design",
+      "title": "Prepare the workshop, cut, drill, and hold work",
       "section": "measurement-and-layout",
-      "file": "014000-workshop-lighting-layout-and-work-sequence-design.md",
-      "spoken_words": 1122,
+      "file": "014000-prepare-the-workshop-cut-drill-and-hold-work.md",
+      "spoken_words": 4914,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 33.9,
+      "consolidated_from": [
+        "014000",
+        "011000",
+        "004000",
+        "005000",
+        "013000"
+      ]
+    },
+    {
+      "id": "006000",
+      "title": "Make repeatable joints and surface finishes",
+      "section": "measurement-and-layout",
+      "file": "006000-make-repeatable-joints-and-surface-finishes.md",
+      "spoken_words": 4769,
+      "draft_status": "substantive",
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 32.9,
+      "consolidated_from": [
+        "006000",
+        "007000",
+        "008000",
+        "009000",
+        "010000"
+      ]
     },
     {
       "id": "015000",
-      "title": "Diagnosing Tool Runout, Vibration, and Repeatability",
+      "title": "Diagnose process error and prove acceptance",
       "section": "measurement-and-layout",
-      "file": "015000-diagnosing-tool-runout-vibration-and-repeatability.md",
-      "spoken_words": 1039,
+      "file": "015000-diagnose-process-error-and-prove-acceptance.md",
+      "spoken_words": 4065,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "016000",
-      "title": "Quality Control and Reference Standards for Home Workshops",
-      "section": "measurement-and-layout",
-      "file": "016000-quality-control-and-reference-standards-for-home-workshops.md",
-      "spoken_words": 982,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "017000",
-      "title": "Diagnostic Measurements Under Load and Over Time",
-      "section": "measurement-and-layout",
-      "file": "017000-diagnostic-measurements-under-load-and-over-time.md",
-      "spoken_words": 951,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "018000",
-      "title": "Go/No-Go Fixtures and Repeatable Acceptance Tests",
-      "section": "measurement-and-layout",
-      "file": "018000-go-no-go-fixtures-and-repeatable-acceptance-tests.md",
-      "spoken_words": 1029,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 28.0,
+      "consolidated_from": [
+        "015000",
+        "016000",
+        "017000",
+        "018000"
+      ]
     }
   ]
 }

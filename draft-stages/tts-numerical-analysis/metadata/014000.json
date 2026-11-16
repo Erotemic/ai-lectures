@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "014000",
-  "transcript": "014000-sparse-eigenvalues-krylov-lanczos-and-arnoldi.md",
+  "transcript": "014000-residuals-krylov-eigenproblems-and-implicit-solves-shared-core.md",
   "related_resources": [
     {
       "source_id": "na-cornell-krylov",
@@ -18,7 +18,91 @@
     {
       "source_id": "na-higham",
       "reason": "Conditioning and numerical stability."
+    },
+    {
+      "source_id": "na-scipy-stiff",
+      "reason": "BDF/Radau solver choices, tolerances, and Jacobians."
+    },
+    {
+      "source_id": "na-hairerwanner",
+      "reason": "A- and L-stability, implicit step solvers."
+    },
+    {
+      "source_id": "na-mit-ode",
+      "reason": "ODE stepping and error analysis."
+    },
+    {
+      "source_id": "na-cornell-krylov",
+      "reason": "Krylov iterative linear solver context."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "numerical-analysis:014000",
+        "file": "014000-sparse-eigenvalues-krylov-lanczos-and-arnoldi.md",
+        "sha256": "b2ff0bf1c99f7b3d6c09073fd45e5221c258d323a7c910a80e6b37fd9f6e83e7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-sparse-eigenvalues-krylov-lanczos-and-arnoldi.md",
+          "related_resources": [
+            {
+              "source_id": "na-cornell-krylov",
+              "reason": "Krylov spaces, Arnoldi and Lanczos recurrences."
+            },
+            {
+              "source_id": "na-cornell-eigen",
+              "reason": "Rayleigh-Ritz and Ritz residual properties."
+            },
+            {
+              "source_id": "na-eth-sparse",
+              "reason": "Sparse eigensolver practical methods."
+            },
+            {
+              "source_id": "na-higham",
+              "reason": "Conditioning and numerical stability."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "numerical-analysis:015000",
+        "file": "015000-implicit-stepping-newton-krylov-preconditioning.md",
+        "sha256": "c7f65ec5d987623c9c8e2c4ee2deb0667a62df42fc9dedc65d215f2038323157",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-implicit-stepping-newton-krylov-preconditioning.md",
+          "related_resources": [
+            {
+              "source_id": "na-scipy-stiff",
+              "reason": "BDF/Radau solver choices, tolerances, and Jacobians."
+            },
+            {
+              "source_id": "na-hairerwanner",
+              "reason": "A- and L-stability, implicit step solvers."
+            },
+            {
+              "source_id": "na-mit-ode",
+              "reason": "ODE stepping and error analysis."
+            },
+            {
+              "source_id": "na-cornell-krylov",
+              "reason": "Krylov iterative linear solver context."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

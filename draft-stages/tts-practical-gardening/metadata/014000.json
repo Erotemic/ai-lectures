@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "014000",
-  "transcript": "014000-perennial-beds-succession-and-long-term-planting-design.md",
+  "transcript": "014000-plan-the-garden-across-seasons-and-generations.md",
   "related_resources": [
     {
       "source_id": "umd-perennial-planning",
@@ -26,6 +26,50 @@
     {
       "source_id": "epa-watersense-soil-controller",
       "reason": "Feedback irrigation controllers with soil-moisture thresholds"
+    },
+    {
+      "source_id": "cornell-succession",
+      "reason": "Succession strategies, temperature tolerance and autumn growth slowing"
+    },
+    {
+      "source_id": "cornell-albany-first-planting",
+      "reason": "Regional averages, spring seed/transplant planning; not nationally applicable"
+    },
+    {
+      "source_id": "cornell-rensselaer-last-planting",
+      "reason": "Regional fall frost and latest crop planting examples; not universal"
+    },
+    {
+      "source_id": "umn-seed-starting",
+      "reason": "Medium temperature, watering, seedling light and growing conditions"
+    },
+    {
+      "source_id": "uga-vegetable-disease-rotation",
+      "reason": "Plant families, disease persistence, appropriate rotation intervals and integrated control"
+    },
+    {
+      "source_id": "cornell-rotation-pathogens",
+      "reason": "Disease-specific host rotations and pathogen persistence; intervals not universal"
+    },
+    {
+      "source_id": "iowa-vegetable-rotation",
+      "reason": "Botanical crop families, typical rotation reasoning and small-garden limitations"
+    },
+    {
+      "source_id": "epa-ipm-principles",
+      "reason": "Action threshold, pest identification, prevention and control decisions"
+    },
+    {
+      "source_id": "psu-plant-diagnosis",
+      "reason": "Pattern, timing, host and cultural conditions to separate biotic from abiotic causes"
+    },
+    {
+      "source_id": "sse-isolation21",
+      "reason": "Distance, timing, containment, cross-pollination and variety preservation limits"
+    },
+    {
+      "source_id": "sse-seed-saving21",
+      "reason": "Dry/wet seed processing, maturity, drying, storage and labeling"
     }
   ],
   "historical_claims": [],
@@ -109,8 +153,720 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
       "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-01",
+      "claim": "Succession planting can stagger harvests by repeated sowing, maturity selection or crop replacement.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cornell-succession",
+          "location": "Succession strategies, temperature tolerance and autumn growth slowing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Local first and last frost dates are regional averages, not guarantees.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cornell-albany-first-planting",
+          "location": "Regional averages, spring seed/transplant planning; not nationally applicable",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cornell-rensselaer-last-planting",
+          "location": "Regional fall frost and latest crop planting examples; not universal",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "Fall growing time may exceed stated variety maturation times as conditions change.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cornell-succession",
+          "location": "Succession strategies, temperature tolerance and autumn growth slowing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cornell-rensselaer-last-planting",
+          "location": "Regional fall frost and latest crop planting examples; not universal",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Transplant timing should account for plant growth and local planting conditions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "umn-seed-starting",
+          "location": "Medium temperature, watering, seedling light and growing conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cornell-albany-first-planting",
+          "location": "Regional averages, spring seed/transplant planning; not nationally applicable",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-01",
+      "claim": "Crop rotation is most relevant to pests and pathogens that persist in soil or crop residue and rely on compatible hosts.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "uga-vegetable-disease-rotation",
+          "location": "Plant families, disease persistence, appropriate rotation intervals and integrated control",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cornell-rotation-pathogens",
+          "location": "Disease-specific host rotations and pathogen persistence; intervals not universal",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "Plants in the same family may share pathogens, but host ranges and survival times differ.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "iowa-vegetable-rotation",
+          "location": "Botanical crop families, typical rotation reasoning and small-garden limitations",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cornell-rotation-pathogens",
+          "location": "Disease-specific host rotations and pathogen persistence; intervals not universal",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "A disease triangle includes host susceptibility, pathogen and conducive environment.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "uga-vegetable-disease-rotation",
+          "location": "Plant families, disease persistence, appropriate rotation intervals and integrated control",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "psu-plant-diagnosis",
+          "location": "Pattern, timing, host and cultural conditions to separate biotic from abiotic causes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Rotation cannot by itself control every pathogen, particularly those with broad hosts or persistent survival structures.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cornell-rotation-pathogens",
+          "location": "Disease-specific host rotations and pathogen persistence; intervals not universal",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "uga-vegetable-disease-rotation",
+          "location": "Plant families, disease persistence, appropriate rotation intervals and integrated control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Disease management also uses sanitation, resistant cultivars, good irrigation and observation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-ipm-principles",
+          "location": "Action threshold, pest identification, prevention and control decisions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "uga-vegetable-disease-rotation",
+          "location": "Plant families, disease persistence, appropriate rotation intervals and integrated control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-01",
+      "claim": "Variety preservation depends on pollination biology, flowering overlap and compatible plants.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "sse-isolation21",
+          "location": "Distance, timing, containment, cross-pollination and variety preservation limits",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-02",
+      "claim": "Isolation can rely on distance, time and physical/control measures; required distances vary by species.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "sse-isolation21",
+          "location": "Distance, timing, containment, cross-pollination and variety preservation limits",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-03",
+      "claim": "Wet- and dry-fruited crops often require different seed separation and cleaning methods.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "sse-seed-saving21",
+          "location": "Dry/wet seed processing, maturity, drying, storage and labeling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-04",
+      "claim": "Maturity, drying and labeled storage influence subsequent seed viability and traceability.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "sse-seed-saving21",
+          "location": "Dry/wet seed processing, maturity, drying, storage and labeling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-gardening:014000",
+        "file": "014000-perennial-beds-succession-and-long-term-planting-design.md",
+        "sha256": "e210eab00bebe85254b8bebccd4cd18ebbb701caef4fba244164c705febe3967",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-perennial-beds-succession-and-long-term-planting-design.md",
+          "related_resources": [
+            {
+              "source_id": "umd-perennial-planning",
+              "reason": "Allow mature spacing, varied flowering periods, soil conditions and seasonal care"
+            },
+            {
+              "source_id": "uf-ifas-right-plant",
+              "reason": "Microclimate, soil, moisture, light and plant siting"
+            },
+            {
+              "source_id": "cornell-native-pollinators-albany",
+              "reason": "Successive blooms, host plants and grouped plantings for local pollinators"
+            },
+            {
+              "source_id": "nrcs-pollinator-fact-sheet",
+              "reason": "Flowering across seasons, nesting habitat, and minimizing adverse pesticide effects"
+            },
+            {
+              "source_id": "umn-pruning",
+              "reason": "Thinning and heading cuts, branch collar, and appropriate species/season timing"
+            },
+            {
+              "source_id": "epa-watersense-soil-controller",
+              "reason": "Feedback irrigation controllers with soil-moisture thresholds"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P014000-01",
+              "claim": "Perennial-bed success depends on matching plants to site drainage, light, soil and mature spacing.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "umd-perennial-planning",
+                  "location": "Allow mature spacing, varied flowering periods, soil conditions and seasonal care",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "uf-ifas-right-plant",
+                  "location": "Microclimate, soil, moisture, light and plant siting",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-02",
+              "claim": "Bloom succession and habitat resources across seasons benefit diverse pollinator populations.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cornell-native-pollinators-albany",
+                  "location": "Successive blooms, host plants and grouped plantings for local pollinators",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nrcs-pollinator-fact-sheet",
+                  "location": "Flowering across seasons, nesting habitat, and minimizing adverse pesticide effects",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-03",
+              "claim": "Plants change through multiple seasons and some require division or replacement as they mature.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "umd-perennial-planning",
+                  "location": "Allow mature spacing, varied flowering periods, soil conditions and seasonal care",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "umn-pruning",
+                  "location": "Thinning and heading cuts, branch collar, and appropriate species/season timing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-04",
+              "claim": "Observation and establishment-period irrigation enable more reliable revisions than judging a new bed by its initial appearance.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "epa-watersense-soil-controller",
+                  "location": "Feedback irrigation controllers with soil-moisture thresholds",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "umd-perennial-planning",
+                  "location": "Allow mature spacing, varied flowering periods, soil conditions and seasonal care",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-gardening:019000",
+        "file": "019000-planning-vegetable-harvests-with-frost-light-and-succession.md",
+        "sha256": "72e6278cf17e142b68ce45e212a2ae21b7c66e2617e05e2e08e791d30a055dfd",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-planning-vegetable-harvests-with-frost-light-and-succession.md",
+          "related_resources": [
+            {
+              "source_id": "cornell-succession",
+              "reason": "Succession strategies, temperature tolerance and autumn growth slowing"
+            },
+            {
+              "source_id": "cornell-albany-first-planting",
+              "reason": "Regional averages, spring seed/transplant planning; not nationally applicable"
+            },
+            {
+              "source_id": "cornell-rensselaer-last-planting",
+              "reason": "Regional fall frost and latest crop planting examples; not universal"
+            },
+            {
+              "source_id": "umn-seed-starting",
+              "reason": "Medium temperature, watering, seedling light and growing conditions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P019000-01",
+              "claim": "Succession planting can stagger harvests by repeated sowing, maturity selection or crop replacement.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cornell-succession",
+                  "location": "Succession strategies, temperature tolerance and autumn growth slowing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-02",
+              "claim": "Local first and last frost dates are regional averages, not guarantees.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cornell-albany-first-planting",
+                  "location": "Regional averages, spring seed/transplant planning; not nationally applicable",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cornell-rensselaer-last-planting",
+                  "location": "Regional fall frost and latest crop planting examples; not universal",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-03",
+              "claim": "Fall growing time may exceed stated variety maturation times as conditions change.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cornell-succession",
+                  "location": "Succession strategies, temperature tolerance and autumn growth slowing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cornell-rensselaer-last-planting",
+                  "location": "Regional fall frost and latest crop planting examples; not universal",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-04",
+              "claim": "Transplant timing should account for plant growth and local planting conditions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "umn-seed-starting",
+                  "location": "Medium temperature, watering, seedling light and growing conditions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cornell-albany-first-planting",
+                  "location": "Regional averages, spring seed/transplant planning; not nationally applicable",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-gardening:020000",
+        "file": "020000-crop-rotation-and-vegetable-disease-ecology.md",
+        "sha256": "90152c5ee5e485331a76b471cbb869a0f327f02e1146fb5edb8fee46c4bf7bb4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-crop-rotation-and-vegetable-disease-ecology.md",
+          "related_resources": [
+            {
+              "source_id": "uga-vegetable-disease-rotation",
+              "reason": "Plant families, disease persistence, appropriate rotation intervals and integrated control"
+            },
+            {
+              "source_id": "cornell-rotation-pathogens",
+              "reason": "Disease-specific host rotations and pathogen persistence; intervals not universal"
+            },
+            {
+              "source_id": "iowa-vegetable-rotation",
+              "reason": "Botanical crop families, typical rotation reasoning and small-garden limitations"
+            },
+            {
+              "source_id": "epa-ipm-principles",
+              "reason": "Action threshold, pest identification, prevention and control decisions"
+            },
+            {
+              "source_id": "psu-plant-diagnosis",
+              "reason": "Pattern, timing, host and cultural conditions to separate biotic from abiotic causes"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P020000-01",
+              "claim": "Crop rotation is most relevant to pests and pathogens that persist in soil or crop residue and rely on compatible hosts.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "uga-vegetable-disease-rotation",
+                  "location": "Plant families, disease persistence, appropriate rotation intervals and integrated control",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cornell-rotation-pathogens",
+                  "location": "Disease-specific host rotations and pathogen persistence; intervals not universal",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-02",
+              "claim": "Plants in the same family may share pathogens, but host ranges and survival times differ.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "iowa-vegetable-rotation",
+                  "location": "Botanical crop families, typical rotation reasoning and small-garden limitations",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cornell-rotation-pathogens",
+                  "location": "Disease-specific host rotations and pathogen persistence; intervals not universal",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-03",
+              "claim": "A disease triangle includes host susceptibility, pathogen and conducive environment.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "uga-vegetable-disease-rotation",
+                  "location": "Plant families, disease persistence, appropriate rotation intervals and integrated control",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "psu-plant-diagnosis",
+                  "location": "Pattern, timing, host and cultural conditions to separate biotic from abiotic causes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-04",
+              "claim": "Rotation cannot by itself control every pathogen, particularly those with broad hosts or persistent survival structures.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cornell-rotation-pathogens",
+                  "location": "Disease-specific host rotations and pathogen persistence; intervals not universal",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "uga-vegetable-disease-rotation",
+                  "location": "Plant families, disease persistence, appropriate rotation intervals and integrated control",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-05",
+              "claim": "Disease management also uses sanitation, resistant cultivars, good irrigation and observation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-ipm-principles",
+                  "location": "Action threshold, pest identification, prevention and control decisions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "uga-vegetable-disease-rotation",
+                  "location": "Plant families, disease persistence, appropriate rotation intervals and integrated control",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+        }
+      },
+      {
+        "id": "practical-gardening:021000",
+        "file": "021000-saving-seeds-pollination-genetic-diversity-and-isolation.md",
+        "sha256": "9692ac53974916a0c9a25c9049e237e83e200cee1d2d45738989c62eed10a194",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-saving-seeds-pollination-genetic-diversity-and-isolation.md",
+          "related_resources": [
+            {
+              "source_id": "sse-isolation21",
+              "reason": "Distance, timing, containment, cross-pollination and variety preservation limits"
+            },
+            {
+              "source_id": "sse-seed-saving21",
+              "reason": "Dry/wet seed processing, maturity, drying, storage and labeling"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P021000-01",
+              "claim": "Variety preservation depends on pollination biology, flowering overlap and compatible plants.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "sse-isolation21",
+                  "location": "Distance, timing, containment, cross-pollination and variety preservation limits",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-02",
+              "claim": "Isolation can rely on distance, time and physical/control measures; required distances vary by species.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "sse-isolation21",
+                  "location": "Distance, timing, containment, cross-pollination and variety preservation limits",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-03",
+              "claim": "Wet- and dry-fruited crops often require different seed separation and cleaning methods.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "sse-seed-saving21",
+                  "location": "Dry/wet seed processing, maturity, drying, storage and labeling",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-04",
+              "claim": "Maturity, drying and labeled storage influence subsequent seed viability and traceability.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "sse-seed-saving21",
+                  "location": "Dry/wet seed processing, maturity, drying, storage and labeling",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_or_clinical_review_pending",
+          "citation_policy": "Credit original authors and standards issuers; cite educational synthesis accurately. No engineering, clinical, or jurisdictional certification is claimed."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "014000-plan-the-garden-across-seasons-and-generations.md"
+      ],
+      "joined_before_source_parts": [
+        "019000",
+        "021000"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "031000",
-  "transcript": "031000-property-testing-and-local-graph-algorithms.md",
+  "transcript": "031000-set-systems-rounding-range-sampling-and-containers-shared-core.md",
   "related_resources": [
     {
       "source_id": "dm-r16-031000-1",
@@ -14,7 +14,79 @@
     {
       "source_id": "dm-r16-031000-3",
       "reason": "Reference on Property Testing: Deciding Without Reading Everything (3 of 3)"
+    },
+    {
+      "source_id": "dm-r17-033000-1",
+      "reason": "Reference on Hypergraph Containers: Counting Rare Combinatorial Structures (1 of 3)"
+    },
+    {
+      "source_id": "dm-r17-033000-2",
+      "reason": "Reference on Hypergraph Containers: Counting Rare Combinatorial Structures (2 of 3)"
+    },
+    {
+      "source_id": "dm-r17-033000-3",
+      "reason": "Reference on Hypergraph Containers: Counting Rare Combinatorial Structures (3 of 3)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "discrete-mathematics:031000",
+        "file": "031000-property-testing-and-local-graph-algorithms.md",
+        "sha256": "ec51351bf00be37fdaefa5fdae6ab9d6a9d160d63136e52d54ecb000353da696",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "031000",
+          "transcript": "031000-property-testing-and-local-graph-algorithms.md",
+          "related_resources": [
+            {
+              "source_id": "dm-r16-031000-1",
+              "reason": "Reference on Property Testing: Deciding Without Reading Everything (1 of 3)"
+            },
+            {
+              "source_id": "dm-r16-031000-2",
+              "reason": "Reference on Property Testing: Deciding Without Reading Everything (2 of 3)"
+            },
+            {
+              "source_id": "dm-r16-031000-3",
+              "reason": "Reference on Property Testing: Deciding Without Reading Everything (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:033000",
+        "file": "033000-hypergraph-containers-and-independent-sets.md",
+        "sha256": "a6b04c5741bbed8d5030f0fd95a19359486a08f9fae44c67ce2b0f89b711104a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "033000",
+          "transcript": "033000-hypergraph-containers-and-independent-sets.md",
+          "related_resources": [
+            {
+              "source_id": "dm-r17-033000-1",
+              "reason": "Reference on Hypergraph Containers: Counting Rare Combinatorial Structures (1 of 3)"
+            },
+            {
+              "source_id": "dm-r17-033000-2",
+              "reason": "Reference on Hypergraph Containers: Counting Rare Combinatorial Structures (2 of 3)"
+            },
+            {
+              "source_id": "dm-r17-033000-3",
+              "reason": "Reference on Hypergraph Containers: Counting Rare Combinatorial Structures (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

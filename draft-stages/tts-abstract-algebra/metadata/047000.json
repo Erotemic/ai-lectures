@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "047000",
-  "transcript": "047000-algebraic-groups-group-schemes-and-lie-algebras.md",
+  "transcript": "047000-algebraic-symmetry-weights-and-geometric-realization.md",
   "related_resources": [
     {
       "source_id": "ab-r12-047000-1",
@@ -14,7 +14,190 @@
     {
       "source_id": "ab-r12-047000-3",
       "reason": "Group schemes, Hopf algebra coordinates and tangent Lie algebras"
+    },
+    {
+      "source_id": "ab-r13-051000-1",
+      "reason": "Neutral Tannakian categories and reconstruction of affine group schemes"
+    },
+    {
+      "source_id": "ab-r12-047000-2",
+      "reason": "Neutral Tannakian categories and reconstruction of affine group schemes"
+    },
+    {
+      "source_id": "ab-r13-051000-3",
+      "reason": "Neutral Tannakian categories and reconstruction of affine group schemes"
+    },
+    {
+      "source_id": "ab-r15-058000-1",
+      "reason": "Complex reductive groups, root systems, highest weights and SL2 representations"
+    },
+    {
+      "source_id": "ab-r15-058000-2",
+      "reason": "Complex reductive groups, root systems, highest weights and SL2 representations"
+    },
+    {
+      "source_id": "aa-etingof",
+      "reason": "Complex reductive groups, root systems, highest weights and SL2 representations"
+    },
+    {
+      "source_id": "ab-r16-062000-1",
+      "reason": "Reference on Borel–Weil–Bott: Finding Representations in Line-Bundle Cohomology (1 of 3)"
+    },
+    {
+      "source_id": "ab-r16-062000-2",
+      "reason": "Reference on Borel–Weil–Bott: Finding Representations in Line-Bundle Cohomology (2 of 3)"
+    },
+    {
+      "source_id": "ab-r16-062000-3",
+      "reason": "Reference on Borel–Weil–Bott: Finding Representations in Line-Bundle Cohomology (3 of 3)"
+    },
+    {
+      "source_id": "ab-r17-066000-1",
+      "reason": "Reference on Weyl Characters, Root Symmetry, and Flag Varieties (1 of 3)"
+    },
+    {
+      "source_id": "ab-r17-066000-2",
+      "reason": "Reference on Weyl Characters, Root Symmetry, and Flag Varieties (2 of 3)"
+    },
+    {
+      "source_id": "ab-r17-066000-3",
+      "reason": "Reference on Weyl Characters, Root Symmetry, and Flag Varieties (3 of 3)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:047000",
+        "file": "047000-algebraic-groups-group-schemes-and-lie-algebras.md",
+        "sha256": "edf5c2fbde1be0378313592093fbc458615557ec706a27dfebf94078ddf6a277",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "047000",
+          "transcript": "047000-algebraic-groups-group-schemes-and-lie-algebras.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r12-047000-1",
+              "reason": "Group schemes, Hopf algebra coordinates and tangent Lie algebras"
+            },
+            {
+              "source_id": "ab-r12-047000-2",
+              "reason": "Group schemes, Hopf algebra coordinates and tangent Lie algebras"
+            },
+            {
+              "source_id": "ab-r12-047000-3",
+              "reason": "Group schemes, Hopf algebra coordinates and tangent Lie algebras"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:051000",
+        "file": "051000-tannakian-reconstruction-and-tensor-categories.md",
+        "sha256": "a7c9fe61387d43f92613179503f9e9ff2394d103f816d839c1ebf31a47dd49bf",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "051000",
+          "transcript": "051000-tannakian-reconstruction-and-tensor-categories.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r13-051000-1",
+              "reason": "Neutral Tannakian categories and reconstruction of affine group schemes"
+            },
+            {
+              "source_id": "ab-r12-047000-2",
+              "reason": "Neutral Tannakian categories and reconstruction of affine group schemes"
+            },
+            {
+              "source_id": "ab-r13-051000-3",
+              "reason": "Neutral Tannakian categories and reconstruction of affine group schemes"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:058000",
+        "file": "058000-roots-weights-and-reductive-representations.md",
+        "sha256": "a93453e70c170f23095d4776f3cc56b0f0300f420e7cd232d91dd66b735d58bb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "058000",
+          "transcript": "058000-roots-weights-and-reductive-representations.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r15-058000-1",
+              "reason": "Complex reductive groups, root systems, highest weights and SL2 representations"
+            },
+            {
+              "source_id": "ab-r15-058000-2",
+              "reason": "Complex reductive groups, root systems, highest weights and SL2 representations"
+            },
+            {
+              "source_id": "aa-etingof",
+              "reason": "Complex reductive groups, root systems, highest weights and SL2 representations"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:062000",
+        "file": "062000-borel-weil-bott-and-line-bundle-cohomology.md",
+        "sha256": "85f119a0b05820c079d4f96a29985ccf3b6c218a3e42056d360d24efe852e231",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "062000",
+          "transcript": "062000-borel-weil-bott-and-line-bundle-cohomology.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r16-062000-1",
+              "reason": "Reference on Borel–Weil–Bott: Finding Representations in Line-Bundle Cohomology (1 of 3)"
+            },
+            {
+              "source_id": "ab-r16-062000-2",
+              "reason": "Reference on Borel–Weil–Bott: Finding Representations in Line-Bundle Cohomology (2 of 3)"
+            },
+            {
+              "source_id": "ab-r16-062000-3",
+              "reason": "Reference on Borel–Weil–Bott: Finding Representations in Line-Bundle Cohomology (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:066000",
+        "file": "066000-weyl-character-formula-and-flag-varieties.md",
+        "sha256": "f4814e3094d060b445135dabc3fb4572f2130d443660a449ed2432c5529f286e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "066000",
+          "transcript": "066000-weyl-character-formula-and-flag-varieties.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r17-066000-1",
+              "reason": "Reference on Weyl Characters, Root Symmetry, and Flag Varieties (1 of 3)"
+            },
+            {
+              "source_id": "ab-r17-066000-2",
+              "reason": "Reference on Weyl Characters, Root Symmetry, and Flag Varieties (2 of 3)"
+            },
+            {
+              "source_id": "ab-r17-066000-3",
+              "reason": "Reference on Weyl Characters, Root Symmetry, and Flag Varieties (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "056000",
-  "transcript": "056000-fourier-series-convolution-and-approximate-identities.md",
+  "transcript": "056000-fourier-approximation-rough-derivatives-and-weak-solutions.md",
   "related_resources": [
     {
       "source_id": "an-found23-056000-1",
@@ -10,7 +10,241 @@
     {
       "source_id": "an-found23-056000-2",
       "reason": "Reference for definitions, examples, and precise hypotheses in Fourier Series, Convolution, and the Shape of Approximation."
+    },
+    {
+      "source_id": "an-found23-057000-1",
+      "reason": "Reference for definitions, examples, and precise hypotheses in The Fourier Transform: Plancherel, Derivatives, and the Heat Equation."
+    },
+    {
+      "source_id": "an-found23-057000-2",
+      "reason": "Reference for definitions, examples, and precise hypotheses in The Fourier Transform: Plancherel, Derivatives, and the Heat Equation."
+    },
+    {
+      "source_id": "an-found23-058000-1",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Frequency Localization: Why Derivatives Measure High Frequencies."
+    },
+    {
+      "source_id": "an-found23-058000-2",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Frequency Localization: Why Derivatives Measure High Frequencies."
+    },
+    {
+      "source_id": "an-found23-059000-1",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Distributions: Making Sense of Delta Functions and Rough Derivatives."
+    },
+    {
+      "source_id": "an-found23-059000-2",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Distributions: Making Sense of Delta Functions and Rough Derivatives."
+    },
+    {
+      "source_id": "an-found23-060000-1",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Mollifiers and Weak Derivatives: Smooth Approximations to Rough Functions."
+    },
+    {
+      "source_id": "an-found23-060000-2",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Mollifiers and Weak Derivatives: Smooth Approximations to Rough Functions."
+    },
+    {
+      "source_id": "an-found23-061000-1",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Sobolev Spaces: Measuring Smoothness Without Pointwise Derivatives."
+    },
+    {
+      "source_id": "an-found23-061000-2",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Sobolev Spaces: Measuring Smoothness Without Pointwise Derivatives."
+    },
+    {
+      "source_id": "an-found23-062000-1",
+      "reason": "Reference for definitions, examples, and precise hypotheses in A Differential Equation Without Second Derivatives: Weak Poisson Problems."
+    },
+    {
+      "source_id": "an-found23-062000-2",
+      "reason": "Reference for definitions, examples, and precise hypotheses in A Differential Equation Without Second Derivatives: Weak Poisson Problems."
+    },
+    {
+      "source_id": "an-found23-063000-1",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Elliptic Regularity: Why Solutions Gain Derivatives."
+    },
+    {
+      "source_id": "an-found23-063000-2",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Elliptic Regularity: Why Solutions Gain Derivatives."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "analysis:056000",
+        "file": "056000-fourier-series-convolution-and-approximate-identities.md",
+        "sha256": "e8492a22ebf8db62aa2cd890eaa08e7513c3a785788e9bd69483a43a6e25fdb6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "056000",
+          "transcript": "056000-fourier-series-convolution-and-approximate-identities.md",
+          "related_resources": [
+            {
+              "source_id": "an-found23-056000-1",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Fourier Series, Convolution, and the Shape of Approximation."
+            },
+            {
+              "source_id": "an-found23-056000-2",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Fourier Series, Convolution, and the Shape of Approximation."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:057000",
+        "file": "057000-fourier-transform-plancherel-and-derivatives.md",
+        "sha256": "475f6bae7ef1a9f729ff651a9098ef6af4ee2b3f00e02ed5cba3a669c56d5047",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "057000",
+          "transcript": "057000-fourier-transform-plancherel-and-derivatives.md",
+          "related_resources": [
+            {
+              "source_id": "an-found23-057000-1",
+              "reason": "Reference for definitions, examples, and precise hypotheses in The Fourier Transform: Plancherel, Derivatives, and the Heat Equation."
+            },
+            {
+              "source_id": "an-found23-057000-2",
+              "reason": "Reference for definitions, examples, and precise hypotheses in The Fourier Transform: Plancherel, Derivatives, and the Heat Equation."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:058000",
+        "file": "058000-frequency-localization-and-fourier-multipliers.md",
+        "sha256": "57af3730accec2a12e75437e16ffd0b4daf79a3b75c253e5a06ec0abac49989d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "058000",
+          "transcript": "058000-frequency-localization-and-fourier-multipliers.md",
+          "related_resources": [
+            {
+              "source_id": "an-found23-058000-1",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Frequency Localization: Why Derivatives Measure High Frequencies."
+            },
+            {
+              "source_id": "an-found23-058000-2",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Frequency Localization: Why Derivatives Measure High Frequencies."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:059000",
+        "file": "059000-distributions-delta-functions-and-weak-derivatives.md",
+        "sha256": "f583e9d3496759821ac527f6636a318cccbf8adee3132981667ab7cf76c8af0f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "059000",
+          "transcript": "059000-distributions-delta-functions-and-weak-derivatives.md",
+          "related_resources": [
+            {
+              "source_id": "an-found23-059000-1",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Distributions: Making Sense of Delta Functions and Rough Derivatives."
+            },
+            {
+              "source_id": "an-found23-059000-2",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Distributions: Making Sense of Delta Functions and Rough Derivatives."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:060000",
+        "file": "060000-mollifiers-and-weak-derivatives.md",
+        "sha256": "3e26647115292353a1109f72386140ac0844c20fa7d82daa02a7e65ccaf4467e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "060000",
+          "transcript": "060000-mollifiers-and-weak-derivatives.md",
+          "related_resources": [
+            {
+              "source_id": "an-found23-060000-1",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Mollifiers and Weak Derivatives: Smooth Approximations to Rough Functions."
+            },
+            {
+              "source_id": "an-found23-060000-2",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Mollifiers and Weak Derivatives: Smooth Approximations to Rough Functions."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:061000",
+        "file": "061000-sobolev-spaces-and-compactness.md",
+        "sha256": "d9626170618d2c26c434151a2097ba435b393f407706da8c4d00d8c8b76c27d3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "061000",
+          "transcript": "061000-sobolev-spaces-and-compactness.md",
+          "related_resources": [
+            {
+              "source_id": "an-found23-061000-1",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Sobolev Spaces: Measuring Smoothness Without Pointwise Derivatives."
+            },
+            {
+              "source_id": "an-found23-061000-2",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Sobolev Spaces: Measuring Smoothness Without Pointwise Derivatives."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:062000",
+        "file": "062000-weak-poisson-equations-and-lax-milgram.md",
+        "sha256": "c2e6260d0e58051316a4cf5ce82b69a0fb2443ca862ca6a1734e5524f35edfc8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "062000",
+          "transcript": "062000-weak-poisson-equations-and-lax-milgram.md",
+          "related_resources": [
+            {
+              "source_id": "an-found23-062000-1",
+              "reason": "Reference for definitions, examples, and precise hypotheses in A Differential Equation Without Second Derivatives: Weak Poisson Problems."
+            },
+            {
+              "source_id": "an-found23-062000-2",
+              "reason": "Reference for definitions, examples, and precise hypotheses in A Differential Equation Without Second Derivatives: Weak Poisson Problems."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:063000",
+        "file": "063000-elliptic-regularity-and-fourier-parametrices.md",
+        "sha256": "46d3eb10bed0fc7ae4c3bd38cbdf5347af8e725b104d42156c93e96f15d3beb6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "063000",
+          "transcript": "063000-elliptic-regularity-and-fourier-parametrices.md",
+          "related_resources": [
+            {
+              "source_id": "an-found23-063000-1",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Elliptic Regularity: Why Solutions Gain Derivatives."
+            },
+            {
+              "source_id": "an-found23-063000-2",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Elliptic Regularity: Why Solutions Gain Derivatives."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

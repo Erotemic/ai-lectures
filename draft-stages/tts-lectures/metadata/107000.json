@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "107000",
-  "transcript": "107000-trial-spaces-exact-subspaces-and-residuals.md",
+  "transcript": "107000-residuals-block-equations-and-the-sine-theorem.md",
   "historical_claims": [],
   "related_resources": [
     {
@@ -63,6 +63,308 @@
     {
       "source_id": "wiki-rayleigh-ritz-method",
       "reason": "Finite-dimensional trial-space compression and approximate eigenvalues."
+    },
+    {
+      "source_id": "higham-sylvester",
+      "reason": "Matrix Sylvester equation; note the lecture-specific operator norm and spectral-gap conditions."
+    },
+    {
+      "source_id": "higham-block-matrix",
+      "reason": "Review block multiplication and compression identities in finite matrices."
+    },
+    {
+      "source_id": "wiki-sylvester-equation",
+      "reason": "Finite-dimensional Sylvester equations, spectral separation and uniqueness."
+    },
+    {
+      "source_id": "wiki-spectral-gap",
+      "reason": "Basic interpretations of gaps between spectral regions; definitions vary by setting."
+    },
+    {
+      "source_id": "halmos-1969",
+      "reason": "Original treatment of two subspaces and their generic part; complements principal-angle geometry."
+    },
+    {
+      "source_id": "zhu-knyazev-tangent-angles",
+      "reason": "Compare projector and frame formulas for principal-angle cosines, sines, and tangents."
+    },
+    {
+      "source_id": "wiki-gram-matrix",
+      "reason": "Pairwise inner products, positive Gram operators, and geometric reconstruction."
+    },
+    {
+      "source_id": "wiki-angles-between-flats",
+      "reason": "Principal angles defined using subspace vectors and singular values of overlaps."
+    },
+    {
+      "source_id": "wiki-orthogonal-projection-extra",
+      "reason": "Orthogonal projections, matrix formulas and their connection to subspace distance."
+    },
+    {
+      "source_id": "wiki-singular-value-decomposition",
+      "reason": "Geometric SVD, best low-rank approximation and the Ky Fan norms subsection."
+    },
+    {
+      "source_id": "wiki-eigenvalue-perturbation",
+      "reason": "Finite-dimensional eigenvector sensitivity as context; this lecture uses stronger subspace-angle estimates."
+    },
+    {
+      "source_id": "wiki-spectral-gap",
+      "reason": "Basic gap terminology, with the theorem-specific ordered gap hypotheses given in narration."
+    },
+    {
+      "source_id": "motovilov-selin-subspace-bounds",
+      "reason": "Contrast ordered-gap and convex-hull gap hypotheses in sharp tangent estimates."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "g2:107000",
+        "file": "107000-trial-spaces-exact-subspaces-and-residuals.md",
+        "sha256": "86c8869d8f72a516f083d2ebbc21879cf6a12f7ea55f3fce19bd55cdc3f770c7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "107000",
+          "transcript": "107000-trial-spaces-exact-subspaces-and-residuals.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "higham-eigen-ineq",
+              "reason": "Concise matrix-level comparison of Rayleigh quotients and eigenvalue inequalities."
+            },
+            {
+              "source_id": "cornell-ritz",
+              "reason": "Projection/Ritz perspective and residual orthogonality; advanced sections are optional."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "hsu-dk-notes",
+              "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+            },
+            {
+              "source_id": "higham-invariant-subspace",
+              "reason": "Relate invariant subspaces to an adapted block matrix representation."
+            },
+            {
+              "source_id": "intel-principal-angles",
+              "reason": "Compute principal angles numerically from orthonormal bases using QR and SVD."
+            },
+            {
+              "source_id": "boyd-vandenberghe-applied",
+              "reason": "Work through concrete linear algebra, least-squares or SVD calculations in an applied treatment."
+            },
+            {
+              "source_id": "bindel-eigen-perturbation",
+              "reason": "Study concrete perturbation examples and first-order spectral sensitivity."
+            },
+            {
+              "source_id": "bindel-hermitian-svd",
+              "reason": "Review a computational proof of symmetric eigenvalue and singular-value properties."
+            },
+            {
+              "source_id": "bindel-ritz-eigensolvers",
+              "reason": "Follow Rayleigh-Ritz residual orthogonality and the logic of extracting approximate eigenpairs."
+            },
+            {
+              "source_id": "mml-free-text",
+              "reason": "Use analytic-geometry, decomposition or PCA examples to connect the operator calculation to data analysis."
+            },
+            {
+              "source_id": "wiki-invariant-subspace",
+              "reason": "What it means for a subspace to be preserved under a linear map."
+            },
+            {
+              "source_id": "wiki-rayleigh-quotient",
+              "reason": "Extremal eigenvalue characterizations through quadratic forms."
+            },
+            {
+              "source_id": "wiki-pca",
+              "reason": "Application context for perturbed invariant subspaces and spectral estimators."
+            },
+            {
+              "source_id": "wiki-rayleigh-ritz-method",
+              "reason": "Finite-dimensional trial-space compression and approximate eigenvalues."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:108000",
+        "file": "108000-the-complementary-block-sylvester-equation.md",
+        "sha256": "9e7b8191641b24c664ccd49db2a645456cf9e4158e211479f90bb51915bbb35d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "108000",
+          "transcript": "108000-the-complementary-block-sylvester-equation.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "higham-eigen-ineq",
+              "reason": "Concise matrix-level comparison of Rayleigh quotients and eigenvalue inequalities."
+            },
+            {
+              "source_id": "cornell-ritz",
+              "reason": "Projection/Ritz perspective and residual orthogonality; advanced sections are optional."
+            },
+            {
+              "source_id": "higham-sylvester",
+              "reason": "Matrix Sylvester equation; note the lecture-specific operator norm and spectral-gap conditions."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "hsu-dk-notes",
+              "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+            },
+            {
+              "source_id": "higham-block-matrix",
+              "reason": "Review block multiplication and compression identities in finite matrices."
+            },
+            {
+              "source_id": "bindel-eigen-perturbation",
+              "reason": "Study concrete perturbation examples and first-order spectral sensitivity."
+            },
+            {
+              "source_id": "bindel-ritz-eigensolvers",
+              "reason": "Follow Rayleigh-Ritz residual orthogonality and the logic of extracting approximate eigenpairs."
+            },
+            {
+              "source_id": "wiki-invariant-subspace",
+              "reason": "What it means for a subspace to be preserved under a linear map."
+            },
+            {
+              "source_id": "wiki-sylvester-equation",
+              "reason": "Finite-dimensional Sylvester equations, spectral separation and uniqueness."
+            },
+            {
+              "source_id": "wiki-spectral-gap",
+              "reason": "Basic interpretations of gaps between spectral regions; definitions vary by setting."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:109000",
+        "file": "109000-directed-sine-as-a-rectangular-modulus.md",
+        "sha256": "eb0a07999bd72dd9993bff3445d184176ef82d84d0727b76f665bae40b556663",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "109000",
+          "transcript": "109000-directed-sine-as-a-rectangular-modulus.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "higham-sylvester",
+              "reason": "Matrix Sylvester equation; note the lecture-specific operator norm and spectral-gap conditions."
+            },
+            {
+              "source_id": "halmos-1969",
+              "reason": "Original treatment of two subspaces and their generic part; complements principal-angle geometry."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "hsu-dk-notes",
+              "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+            },
+            {
+              "source_id": "intel-principal-angles",
+              "reason": "Compute principal angles numerically from orthonormal bases using QR and SVD."
+            },
+            {
+              "source_id": "zhu-knyazev-tangent-angles",
+              "reason": "Compare projector and frame formulas for principal-angle cosines, sines, and tangents."
+            },
+            {
+              "source_id": "wiki-gram-matrix",
+              "reason": "Pairwise inner products, positive Gram operators, and geometric reconstruction."
+            },
+            {
+              "source_id": "wiki-angles-between-flats",
+              "reason": "Principal angles defined using subspace vectors and singular values of overlaps."
+            },
+            {
+              "source_id": "wiki-orthogonal-projection-extra",
+              "reason": "Orthogonal projections, matrix formulas and their connection to subspace distance."
+            },
+            {
+              "source_id": "wiki-singular-value-decomposition",
+              "reason": "Geometric SVD, best low-rank approximation and the Ky Fan norms subsection."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:110000",
+        "file": "110000-the-single-angle-sine-theorem.md",
+        "sha256": "d1cab9dc4c22efcdef61590eb690f8a7bdb99873d4c142021519fee45d50cba1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "110000",
+          "transcript": "110000-the-single-angle-sine-theorem.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-eigenvalue-perturbation",
+              "reason": "Finite-dimensional eigenvector sensitivity as context; this lecture uses stronger subspace-angle estimates."
+            },
+            {
+              "source_id": "wiki-spectral-gap",
+              "reason": "Basic gap terminology, with the theorem-specific ordered gap hypotheses given in narration."
+            },
+            {
+              "source_id": "higham-sylvester",
+              "reason": "Matrix Sylvester equation; note the lecture-specific operator norm and spectral-gap conditions."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "hsu-dk-notes",
+              "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+            },
+            {
+              "source_id": "motovilov-selin-subspace-bounds",
+              "reason": "Contrast ordered-gap and convex-hull gap hypotheses in sharp tangent estimates."
+            },
+            {
+              "source_id": "bindel-eigen-perturbation",
+              "reason": "Study concrete perturbation examples and first-order spectral sensitivity."
+            },
+            {
+              "source_id": "bindel-ritz-eigensolvers",
+              "reason": "Follow Rayleigh-Ritz residual orthogonality and the logic of extracting approximate eigenpairs."
+            },
+            {
+              "source_id": "wiki-angles-between-flats",
+              "reason": "Principal angles defined using subspace vectors and singular values of overlaps."
+            },
+            {
+              "source_id": "wiki-orthogonal-projection-extra",
+              "reason": "Orthogonal projections, matrix formulas and their connection to subspace distance."
+            },
+            {
+              "source_id": "wiki-sylvester-equation",
+              "reason": "Finite-dimensional Sylvester equations, spectral separation and uniqueness."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

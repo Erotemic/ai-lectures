@@ -1,12 +1,120 @@
 {
   "schema_version": 1,
   "lecture_id": "009000",
-  "transcript": "009000-matroids-and-greedy-optimality.md",
+  "transcript": "009000-greedy-graph-structure-extremal-bounds-and-coloring.md",
   "related_resources": [
     {
       "source_id": "dm-oxley",
       "reason": "Matroid independence and basis exchange, rank, greedy optimality and examples."
+    },
+    {
+      "source_id": "dm-turan-graph-notes",
+      "reason": "Mantel and Turan theorems and their edge bounds; inductive clique-removal proof."
+    },
+    {
+      "source_id": "dm-diestel",
+      "reason": "Planar graphs, graph coloring, chromatic polynomials and graph structure."
+    },
+    {
+      "source_id": "dm-mit6042",
+      "reason": "Counting colorings and Euler formula background."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "discrete-mathematics:009000",
+        "file": "009000-symmetry-greedy-structure-and-existence-obstructions-shared-core.md",
+        "sha256": "56ceddfa7000af91b30cfc81e01c215c30b3e701836675559762e727d2f2af20",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-symmetry-greedy-structure-and-existence-obstructions-shared-core.md",
+          "related_resources": [
+            {
+              "source_id": "dm-oxley",
+              "reason": "Matroid independence and basis exchange, rank, greedy optimality and examples."
+            },
+            {
+              "source_id": "dm-turan-graph-notes",
+              "reason": "Mantel and Turan theorems and their edge bounds; inductive clique-removal proof."
+            }
+          ],
+          "historical_claims": [],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "discrete-mathematics:009000",
+                "file": "009000-matroids-and-greedy-optimality.md",
+                "sha256": "502f16fd84f4d51c095ce1deb7926520f6093cf95f83e3da1bd7ce8008c8e24d",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "009000",
+                  "transcript": "009000-matroids-and-greedy-optimality.md",
+                  "related_resources": [
+                    {
+                      "source_id": "dm-oxley",
+                      "reason": "Matroid independence and basis exchange, rank, greedy optimality and examples."
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              },
+              {
+                "id": "discrete-mathematics:010000",
+                "file": "010000-extremal-graphs-and-turan-theorem.md",
+                "sha256": "101598730e2c0a7cdc8da685a485b40efbfd2246ded6ee271e6bd3d88648a93c",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "010000",
+                  "transcript": "010000-extremal-graphs-and-turan-theorem.md",
+                  "related_resources": [
+                    {
+                      "source_id": "dm-turan-graph-notes",
+                      "reason": "Mantel and Turan theorems and their edge bounds; inductive clique-removal proof."
+                    }
+                  ],
+                  "historical_claims": []
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "discrete-mathematics:012000",
+        "file": "012000-graph-coloring-chromatic-polynomials-and-planarity.md",
+        "sha256": "b89e7985f180e1bd8e37e101eeee790bef3ca03dc460ca4dfbed6b5bdf932ca6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-graph-coloring-chromatic-polynomials-and-planarity.md",
+          "related_resources": [
+            {
+              "source_id": "dm-diestel",
+              "reason": "Planar graphs, graph coloring, chromatic polynomials and graph structure."
+            },
+            {
+              "source_id": "dm-mit6042",
+              "reason": "Counting colorings and Euler formula background."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

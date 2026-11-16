@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "007000",
-  "transcript": "007000-crack-patterns-and-repair-diagnosis.md",
+  "transcript": "007000-diagnose-deterioration-and-choose-compatible-repairs.md",
   "related_resources": [
     {
       "source_id": "aci-crack-technical-qa",
@@ -10,6 +10,30 @@
     {
       "source_id": "aci-224r",
       "reason": "Restrained shrinkage, reinforcement for crack width, contraction joints"
+    },
+    {
+      "source_id": "nps-repointing-brief2",
+      "reason": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation"
+    },
+    {
+      "source_id": "aci-spall-repair-practice",
+      "reason": "Repair procedure boundaries and causes including reinforcement corrosion and freezing"
+    },
+    {
+      "source_id": "aci-corrosion-repair-2025",
+      "reason": "Corroded reinforcement, evaluation of extent and repair planning"
+    },
+    {
+      "source_id": "nps-brick-masonry-problems",
+      "reason": "Hard mortar damage and compatible repointing of historic masonry"
+    },
+    {
+      "source_id": "aci-curing",
+      "reason": "Curing, hydration, moisture and favorable temperature"
+    },
+    {
+      "source_id": "fhwa-frost",
+      "reason": "Frost penetration, footing embedment, and need for site-specific foundation design"
     }
   ],
   "historical_claims": [],
@@ -63,8 +87,850 @@
       "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
       "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-01",
+      "claim": "Repointing requires diagnosing underlying moisture or movement causes before replacing mortar joints.",
+      "kind": "historic_preservation_guidance",
+      "supports": [
+        {
+          "source_id": "nps-repointing-brief2",
+          "location": "Identifying the Problem Before Repointing, pp. 2–3",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "Historic masonry mortar should be selected for compatible softness and permeability rather than high compressive strength alone.",
+      "kind": "historic_preservation_guidance",
+      "supports": [
+        {
+          "source_id": "nps-repointing-brief2",
+          "location": "Finding an Appropriate Mortar Match / Properties of Mortar, pp. 3–4",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "Repointing is not a substitute for restoring damaged units, drainage or structural stability.",
+      "kind": "derived_masonry_diagnosis",
+      "supports": [
+        {
+          "source_id": "nps-repointing-brief2",
+          "location": "Root-cause work before repointing; applied author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P010000-01",
+      "claim": "Concrete spalling can result from corroded reinforcement, freezing and thawing, and other deterioration.",
+      "kind": "original_aci_repair_guidance",
+      "supports": [
+        {
+          "source_id": "aci-spall-repair-practice",
+          "location": "RAP-7: horizontal concrete spall causes and repair",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "The condition of reinforcement and adjacent substrate affects repair extent and durability.",
+      "kind": "original_aci_corrosion_repair",
+      "supports": [
+        {
+          "source_id": "aci-corrosion-repair-2025",
+          "location": "Concrete Q&A: corrosion-related damage repair",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Saturation, freezing and thawing, and deicing exposure can contribute to concrete joint deterioration.",
+      "kind": "original_aci_freeze_thaw_repair",
+      "supports": [
+        {
+          "source_id": "aci-spall-repair-practice",
+          "location": "Freeze/thaw deterioration factors",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aci-224r",
+          "location": "Cracking and environmental exposure",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "A patch requires substrate preparation, material compatibility, and assessment of structural function, not merely filling a cavity.",
+      "kind": "derived_repair_performance",
+      "supports": [
+        {
+          "source_id": "aci-spall-repair-practice",
+          "location": "Repair preparation and curing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aci-corrosion-repair-2025",
+          "location": "Evaluation of adjacent condition",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-01",
+      "claim": "Mortar hardness, permeability and compatibility matter for repairs to historic masonry.",
+      "kind": "original_nps_preservation_guidance",
+      "supports": [
+        {
+          "source_id": "nps-repointing-brief2",
+          "location": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-brick-masonry-problems",
+          "location": "Hard mortar damage and compatible repointing of historic masonry",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Overly hard or impermeable repointing mortar can shift damage to softer historic masonry units.",
+      "kind": "original_nps_preservation_guidance",
+      "supports": [
+        {
+          "source_id": "nps-brick-masonry-problems",
+          "location": "Hard mortar damage and compatible repointing of historic masonry",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-repointing-brief2",
+          "location": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Repointing a moving wall without investigating structural causes is not a sufficient diagnosis.",
+      "kind": "derived_masonry_failure_synthesis",
+      "supports": [
+        {
+          "source_id": "nps-brick-masonry-problems",
+          "location": "Hard mortar damage and compatible repointing of historic masonry",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aci-crack-technical-qa",
+          "location": "Crack significance depends on structure, exposure, durability and mechanism",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-01",
+      "claim": "Efflorescence results when soluble material transported with moisture crystallizes at or near a masonry surface.",
+      "kind": "original_historic_preservation_guidance",
+      "supports": [
+        {
+          "source_id": "nps-brick-masonry-problems",
+          "location": "Hard mortar damage and compatible repointing of historic masonry",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "Salt crystallization within porous masonry can contribute to surface deterioration and spalling.",
+      "kind": "original_historic_preservation_guidance",
+      "supports": [
+        {
+          "source_id": "nps-brick-masonry-problems",
+          "location": "Hard mortar damage and compatible repointing of historic masonry",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-repointing-brief2",
+          "location": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Incompatible repointing or coatings may change where an old masonry wall dries and deteriorates.",
+      "kind": "original_us_historic_preservation_guidance",
+      "supports": [
+        {
+          "source_id": "nps-repointing-brief2",
+          "location": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "Moisture availability and freeze conditions contribute jointly to masonry deterioration.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "fhwa-frost",
+          "location": "Frost penetration, footing embedment, and need for site-specific foundation design",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aci-spall-repair-practice",
+          "location": "Repair procedure boundaries and causes including reinforcement corrosion and freezing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Salt exposure, reinforcement corrosion and surface scaling can produce different damage mechanisms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aci-spall-repair-practice",
+          "location": "Repair procedure boundaries and causes including reinforcement corrosion and freezing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-brick-masonry-problems",
+          "location": "Hard mortar damage and compatible repointing of historic masonry",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Coating a wet masonry assembly without addressing moisture entry can redirect or trap moisture.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nps-brick-masonry-problems",
+          "location": "Hard mortar damage and compatible repointing of historic masonry",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-repointing-brief2",
+          "location": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Repair materials must be compatible with substrate and original masonry properties.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nps-repointing-brief2",
+          "location": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-masonry:007000",
+        "file": "007000-crack-patterns-and-repair-diagnosis.md",
+        "sha256": "267c5fe78f5156a698e7c0f4bb3a554a5381235c9f3c4a0b45538b148b30eb0e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-crack-patterns-and-repair-diagnosis.md",
+          "related_resources": [
+            {
+              "source_id": "aci-crack-technical-qa",
+              "reason": "Crack significance depends on structure, exposure, durability and mechanism"
+            },
+            {
+              "source_id": "aci-224r",
+              "reason": "Restrained shrinkage, reinforcement for crack width, contraction joints"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "Concrete cracking ranges from cosmetic to structural or durability-related significance depending on setting and environment.",
+              "kind": "concrete_technical_guidance",
+              "supports": [
+                {
+                  "source_id": "aci-crack-technical-qa",
+                  "location": "ACI FAQ: do we always need to repair cracked concrete?",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "Shrinkage, thermal effects and restraint are among the physical mechanisms that cause cracking.",
+              "kind": "concrete_material_science",
+              "supports": [
+                {
+                  "source_id": "aci-224r",
+                  "location": "ACI 224R-01: control and causes of cracking",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "A crack repair should account for the cause, movement, and water exposure rather than only its width.",
+              "kind": "derived_crack_assessment",
+              "supports": [
+                {
+                  "source_id": "aci-crack-technical-qa",
+                  "location": "ACI FAQ: crack effects depend on structure and exposure",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aci-224r",
+                  "location": "ACI Committee 224: causation and mitigation context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      },
+      {
+        "id": "trades-masonry:008000",
+        "file": "008000-repointing-patching-and-material-compatibility.md",
+        "sha256": "9efa7fcb6e2312447e6112ae941e31c17f1025a8a095c26fbcb1b45d9a2c0e44",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-repointing-patching-and-material-compatibility.md",
+          "related_resources": [
+            {
+              "source_id": "nps-repointing-brief2",
+              "reason": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P008000-01",
+              "claim": "Repointing requires diagnosing underlying moisture or movement causes before replacing mortar joints.",
+              "kind": "historic_preservation_guidance",
+              "supports": [
+                {
+                  "source_id": "nps-repointing-brief2",
+                  "location": "Identifying the Problem Before Repointing, pp. 2–3",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-02",
+              "claim": "Historic masonry mortar should be selected for compatible softness and permeability rather than high compressive strength alone.",
+              "kind": "historic_preservation_guidance",
+              "supports": [
+                {
+                  "source_id": "nps-repointing-brief2",
+                  "location": "Finding an Appropriate Mortar Match / Properties of Mortar, pp. 3–4",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-03",
+              "claim": "Repointing is not a substitute for restoring damaged units, drainage or structural stability.",
+              "kind": "derived_masonry_diagnosis",
+              "supports": [
+                {
+                  "source_id": "nps-repointing-brief2",
+                  "location": "Root-cause work before repointing; applied author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+        }
+      },
+      {
+        "id": "trades-masonry:010000",
+        "file": "010000-concrete-repairs-spalling-and-corrosion.md",
+        "sha256": "a8308d8e96b47406e5777baebbd8f6715fe720fc10235e3e798f61b9bf637a26",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-concrete-repairs-spalling-and-corrosion.md",
+          "related_resources": [
+            {
+              "source_id": "aci-spall-repair-practice",
+              "reason": "Repair procedure boundaries and causes including reinforcement corrosion and freezing"
+            },
+            {
+              "source_id": "aci-corrosion-repair-2025",
+              "reason": "Corroded reinforcement, evaluation of extent and repair planning"
+            },
+            {
+              "source_id": "aci-224r",
+              "reason": "Restrained shrinkage, reinforcement for crack width, contraction joints"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Concrete spalling can result from corroded reinforcement, freezing and thawing, and other deterioration.",
+              "kind": "original_aci_repair_guidance",
+              "supports": [
+                {
+                  "source_id": "aci-spall-repair-practice",
+                  "location": "RAP-7: horizontal concrete spall causes and repair",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "The condition of reinforcement and adjacent substrate affects repair extent and durability.",
+              "kind": "original_aci_corrosion_repair",
+              "supports": [
+                {
+                  "source_id": "aci-corrosion-repair-2025",
+                  "location": "Concrete Q&A: corrosion-related damage repair",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Saturation, freezing and thawing, and deicing exposure can contribute to concrete joint deterioration.",
+              "kind": "original_aci_freeze_thaw_repair",
+              "supports": [
+                {
+                  "source_id": "aci-spall-repair-practice",
+                  "location": "Freeze/thaw deterioration factors",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aci-224r",
+                  "location": "Cracking and environmental exposure",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "A patch requires substrate preparation, material compatibility, and assessment of structural function, not merely filling a cavity.",
+              "kind": "derived_repair_performance",
+              "supports": [
+                {
+                  "source_id": "aci-spall-repair-practice",
+                  "location": "Repair preparation and curing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aci-corrosion-repair-2025",
+                  "location": "Evaluation of adjacent condition",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "trades-masonry:012000",
+        "file": "012000-historic-stone-masonry-mortar-and-repair-compatibility.md",
+        "sha256": "be81e5e43812ae08fefdfc8d0e7a56145379ae5dbc08a0977d34524ea6b5d4d0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-historic-stone-masonry-mortar-and-repair-compatibility.md",
+          "related_resources": [
+            {
+              "source_id": "nps-repointing-brief2",
+              "reason": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation"
+            },
+            {
+              "source_id": "nps-brick-masonry-problems",
+              "reason": "Hard mortar damage and compatible repointing of historic masonry"
+            },
+            {
+              "source_id": "aci-crack-technical-qa",
+              "reason": "Crack significance depends on structure, exposure, durability and mechanism"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P012000-01",
+              "claim": "Mortar hardness, permeability and compatibility matter for repairs to historic masonry.",
+              "kind": "original_nps_preservation_guidance",
+              "supports": [
+                {
+                  "source_id": "nps-repointing-brief2",
+                  "location": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-brick-masonry-problems",
+                  "location": "Hard mortar damage and compatible repointing of historic masonry",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-02",
+              "claim": "Overly hard or impermeable repointing mortar can shift damage to softer historic masonry units.",
+              "kind": "original_nps_preservation_guidance",
+              "supports": [
+                {
+                  "source_id": "nps-brick-masonry-problems",
+                  "location": "Hard mortar damage and compatible repointing of historic masonry",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-repointing-brief2",
+                  "location": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-03",
+              "claim": "Repointing a moving wall without investigating structural causes is not a sufficient diagnosis.",
+              "kind": "derived_masonry_failure_synthesis",
+              "supports": [
+                {
+                  "source_id": "nps-brick-masonry-problems",
+                  "location": "Hard mortar damage and compatible repointing of historic masonry",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aci-crack-technical-qa",
+                  "location": "Crack significance depends on structure, exposure, durability and mechanism",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "trades-masonry:013000",
+        "file": "013000-salt-damage-efflorescence-and-masonry-maintenance-plans.md",
+        "sha256": "0020a38ecc79341de84c6bc70034669941d1d39067034122d8b07ffe16acd86f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-salt-damage-efflorescence-and-masonry-maintenance-plans.md",
+          "related_resources": [
+            {
+              "source_id": "nps-brick-masonry-problems",
+              "reason": "Hard mortar damage and compatible repointing of historic masonry"
+            },
+            {
+              "source_id": "nps-repointing-brief2",
+              "reason": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "Efflorescence results when soluble material transported with moisture crystallizes at or near a masonry surface.",
+              "kind": "original_historic_preservation_guidance",
+              "supports": [
+                {
+                  "source_id": "nps-brick-masonry-problems",
+                  "location": "Hard mortar damage and compatible repointing of historic masonry",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "Salt crystallization within porous masonry can contribute to surface deterioration and spalling.",
+              "kind": "original_historic_preservation_guidance",
+              "supports": [
+                {
+                  "source_id": "nps-brick-masonry-problems",
+                  "location": "Hard mortar damage and compatible repointing of historic masonry",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-repointing-brief2",
+                  "location": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "Incompatible repointing or coatings may change where an old masonry wall dries and deteriorates.",
+              "kind": "original_us_historic_preservation_guidance",
+              "supports": [
+                {
+                  "source_id": "nps-repointing-brief2",
+                  "location": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "trades-masonry:015000",
+        "file": "015000-moisture-freeze-thaw-and-surface-protection.md",
+        "sha256": "87953112a33035b5c699eb41093337212995ea573391efeb491cedbea065a013",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-moisture-freeze-thaw-and-surface-protection.md",
+          "related_resources": [
+            {
+              "source_id": "aci-spall-repair-practice",
+              "reason": "Repair procedure boundaries and causes including reinforcement corrosion and freezing"
+            },
+            {
+              "source_id": "aci-curing",
+              "reason": "Curing, hydration, moisture and favorable temperature"
+            },
+            {
+              "source_id": "fhwa-frost",
+              "reason": "Frost penetration, footing embedment, and need for site-specific foundation design"
+            },
+            {
+              "source_id": "nps-brick-masonry-problems",
+              "reason": "Hard mortar damage and compatible repointing of historic masonry"
+            },
+            {
+              "source_id": "nps-repointing-brief2",
+              "reason": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "Moisture availability and freeze conditions contribute jointly to masonry deterioration.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "fhwa-frost",
+                  "location": "Frost penetration, footing embedment, and need for site-specific foundation design",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aci-spall-repair-practice",
+                  "location": "Repair procedure boundaries and causes including reinforcement corrosion and freezing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "Salt exposure, reinforcement corrosion and surface scaling can produce different damage mechanisms.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aci-spall-repair-practice",
+                  "location": "Repair procedure boundaries and causes including reinforcement corrosion and freezing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-brick-masonry-problems",
+                  "location": "Hard mortar damage and compatible repointing of historic masonry",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Coating a wet masonry assembly without addressing moisture entry can redirect or trap moisture.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nps-brick-masonry-problems",
+                  "location": "Hard mortar damage and compatible repointing of historic masonry",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-repointing-brief2",
+                  "location": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Repair materials must be compatible with substrate and original masonry properties.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nps-repointing-brief2",
+                  "location": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "007000-diagnose-deterioration-and-choose-compatible-repairs.md"
+      ],
+      "joined_before_source_parts": [
+        "008000",
+        "015000"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "006000",
-  "transcript": "006000-fluids-heat-management-and-lubrication.md",
+  "transcript": "006000-manage-heat-lubrication-emissions-and-service-intervals.md",
   "related_resources": [
     {
       "source_id": "aaa-fluids-guide",
@@ -10,6 +10,30 @@
     {
       "source_id": "doe-ice",
       "reason": "Four-stroke combustion engine energy flow"
+    },
+    {
+      "source_id": "nhtsa-summer",
+      "reason": "Cold pressure, vehicle placard rather than tire sidewall maximum"
+    },
+    {
+      "source_id": "epa-catalytic-converters-legacy",
+      "reason": "Three-way converter functions and replacement-application context; historic guidance, check current requirements"
+    },
+    {
+      "source_id": "epa-obd-procedures",
+      "reason": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria"
+    },
+    {
+      "source_id": "sae-dtc-j2012-2025",
+      "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+    },
+    {
+      "source_id": "nhtsa-maintain-vehicle",
+      "reason": "Vehicle service records, tire/fluids/light checks and owner manual priority"
+    },
+    {
+      "source_id": "nhtsa-tires",
+      "reason": "Inflation, vehicle placard, tread, balance and alignment"
     }
   ],
   "historical_claims": [],
@@ -63,8 +87,667 @@
       "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
       "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P009000-01",
+      "claim": "Cooling-system maintenance requires the manufacturer-specified coolant, checks for leaks and appropriate replacement as needed.",
+      "kind": "original_us_road_safety_guidance",
+      "supports": [
+        {
+          "source_id": "nhtsa-summer",
+          "location": "NHTSA cooling-system advice and owner-manual specificity",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Cooling, lubrication and other vehicle fluids require separate systems and service specifications.",
+      "kind": "original_motoring_service_guidance",
+      "supports": [
+        {
+          "source_id": "aaa-fluids-guide",
+          "location": "Vehicle fluid management overview",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Diagnosing overheating requires distinguishing coolant inventory, airflow and heat-exchanger capacity.",
+      "kind": "derived_engineering_energy_balance",
+      "supports": [
+        {
+          "source_id": "nhtsa-summer",
+          "location": "Cooling performance and leak-check scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-01",
+      "claim": "Three-way catalysts address oxidation of carbon monoxide and hydrocarbons and reduction of nitrogen oxides in gasoline emissions.",
+      "kind": "original_epa_catalytic_converter_description",
+      "supports": [
+        {
+          "source_id": "epa-catalytic-converters-legacy",
+          "location": "Three-way catalyst type and pollutant reactions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Air-fuel mixture management and oxygen sensing interact with catalyst operation.",
+      "kind": "original_epa_emissions_control_mechanism",
+      "supports": [
+        {
+          "source_id": "epa-catalytic-converters-legacy",
+          "location": "Air/fuel ratio and oxygen sensor description",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Diagnostic trouble codes reflect monitor logic and require contextual testing before a part is condemned.",
+      "kind": "derived_vehicle_diagnostic_interpretation",
+      "supports": [
+        {
+          "source_id": "epa-obd-procedures",
+          "location": "OBD readiness/diagnostic tests",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "sae-dtc-j2012-2025",
+          "location": "DTC nomenclature and standard",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Replacement emissions parts must meet applicable vehicle and jurisdiction requirements.",
+      "kind": "original_epa_replacement_rules_context",
+      "supports": [
+        {
+          "source_id": "epa-catalytic-converters-legacy",
+          "location": "Aftermarket converter type and marking; verify current rules separately",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-01",
+      "claim": "OBD readiness status and malfunction indicator lamp state are distinct diagnostic outputs.",
+      "kind": "original_epa_obd_guidance",
+      "supports": [
+        {
+          "source_id": "epa-obd-procedures",
+          "location": "Readiness and MIL interpretations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Clearing diagnostic codes or resetting a vehicle can leave monitored emissions checks incomplete until enabling conditions occur.",
+      "kind": "original_epa_obd_guidance",
+      "supports": [
+        {
+          "source_id": "epa-obd-procedures",
+          "location": "Readiness reset and drive-cycle context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Trouble codes identify diagnostic conditions rather than necessarily a defective named physical component.",
+      "kind": "derived_diagnostic_method",
+      "supports": [
+        {
+          "source_id": "sae-dtc-j2012-2025",
+          "location": "Diagnostic code terminology and standardization",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Inspection programs and readiness exceptions differ by state, vehicle age, and applicable emissions rules.",
+      "kind": "regulatory_scope_qualification",
+      "supports": [
+        {
+          "source_id": "epa-obd-procedures",
+          "location": "EPA program framework and state inspection applications",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-01",
+      "claim": "Vehicle maintenance should follow applicable owner manual intervals and include periodic functional inspection.",
+      "kind": "original_nhtsa_vehicle_safety",
+      "supports": [
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Tire pressure and condition affect vehicle safety and should be checked periodically.",
+      "kind": "original_nhtsa_vehicle_safety",
+      "supports": [
+        {
+          "source_id": "nhtsa-tires",
+          "location": "Inflation, vehicle placard, tread, balance and alignment",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Fluid checks and lighting inspection are part of vehicle upkeep distinct from diagnosis after failure.",
+      "kind": "original_nhtsa_vehicle_safety",
+      "supports": [
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aaa-fluids-guide",
+          "location": "Roles and compatibility of engine coolant, oil, brake fluid and other vehicle fluids",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-vehicle-maintenance:006000",
+        "file": "006000-fluids-heat-management-and-lubrication.md",
+        "sha256": "c2bcea5aee2c30c5c94e5bb1bd60ca9b07a6723b0c95414e9c420d451afafd5f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-fluids-heat-management-and-lubrication.md",
+          "related_resources": [
+            {
+              "source_id": "aaa-fluids-guide",
+              "reason": "Roles and compatibility of engine coolant, oil, brake fluid and other vehicle fluids"
+            },
+            {
+              "source_id": "doe-ice",
+              "reason": "Four-stroke combustion engine energy flow"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P006000-01",
+              "claim": "Engine oil, coolant, and brake fluid perform different thermal and mechanical functions and cannot be substituted casually.",
+              "kind": "automotive_fluids_guidance",
+              "supports": [
+                {
+                  "source_id": "aaa-fluids-guide",
+                  "location": "AAA Car Maintenance Guide Fluids: engine oil, engine coolant, brake fluid",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-02",
+              "claim": "Incorrect brake-fluid selection or contamination can cause damage or brake malfunction.",
+              "kind": "automotive_safety_guidance",
+              "supports": [
+                {
+                  "source_id": "aaa-fluids-guide",
+                  "location": "Brake Fluid: manufacturer-specific type and contamination precautions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-03",
+              "claim": "Repeated fluid loss and overheating symptoms require tracing the fluid and heat flow path, not simply topping up.",
+              "kind": "derived_automotive_diagnosis",
+              "supports": [
+                {
+                  "source_id": "aaa-fluids-guide",
+                  "location": "AAA coolant/oil maintenance; DOE internal combustion engine function; derived diagnosis",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-ice",
+                  "location": "AAA coolant/oil maintenance; DOE internal combustion engine function; derived diagnosis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+        }
+      },
+      {
+        "id": "practical-vehicle-maintenance:009000",
+        "file": "009000-cooling-systems-radiators-and-thermostats.md",
+        "sha256": "80e7d7ece6d51f5de34b3595075c03ef5888898ca80d3343e8ab80ec7076a1ce",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-cooling-systems-radiators-and-thermostats.md",
+          "related_resources": [
+            {
+              "source_id": "nhtsa-summer",
+              "reason": "Cold pressure, vehicle placard rather than tire sidewall maximum"
+            },
+            {
+              "source_id": "aaa-fluids-guide",
+              "reason": "Roles and compatibility of engine coolant, oil, brake fluid and other vehicle fluids"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P009000-01",
+              "claim": "Cooling-system maintenance requires the manufacturer-specified coolant, checks for leaks and appropriate replacement as needed.",
+              "kind": "original_us_road_safety_guidance",
+              "supports": [
+                {
+                  "source_id": "nhtsa-summer",
+                  "location": "NHTSA cooling-system advice and owner-manual specificity",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-02",
+              "claim": "Cooling, lubrication and other vehicle fluids require separate systems and service specifications.",
+              "kind": "original_motoring_service_guidance",
+              "supports": [
+                {
+                  "source_id": "aaa-fluids-guide",
+                  "location": "Vehicle fluid management overview",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-03",
+              "claim": "Diagnosing overheating requires distinguishing coolant inventory, airflow and heat-exchanger capacity.",
+              "kind": "derived_engineering_energy_balance",
+              "supports": [
+                {
+                  "source_id": "nhtsa-summer",
+                  "location": "Cooling performance and leak-check scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+        }
+      },
+      {
+        "id": "practical-vehicle-maintenance:010000",
+        "file": "010000-exhaust-emissions-and-catalytic-converters.md",
+        "sha256": "6ae8404fa8c035fd8be9233e59e684caafe7d7e69aeb931a29694a45360d79f0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-exhaust-emissions-and-catalytic-converters.md",
+          "related_resources": [
+            {
+              "source_id": "epa-catalytic-converters-legacy",
+              "reason": "Three-way converter functions and replacement-application context; historic guidance, check current requirements"
+            },
+            {
+              "source_id": "epa-obd-procedures",
+              "reason": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria"
+            },
+            {
+              "source_id": "sae-dtc-j2012-2025",
+              "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Three-way catalysts address oxidation of carbon monoxide and hydrocarbons and reduction of nitrogen oxides in gasoline emissions.",
+              "kind": "original_epa_catalytic_converter_description",
+              "supports": [
+                {
+                  "source_id": "epa-catalytic-converters-legacy",
+                  "location": "Three-way catalyst type and pollutant reactions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "Air-fuel mixture management and oxygen sensing interact with catalyst operation.",
+              "kind": "original_epa_emissions_control_mechanism",
+              "supports": [
+                {
+                  "source_id": "epa-catalytic-converters-legacy",
+                  "location": "Air/fuel ratio and oxygen sensor description",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Diagnostic trouble codes reflect monitor logic and require contextual testing before a part is condemned.",
+              "kind": "derived_vehicle_diagnostic_interpretation",
+              "supports": [
+                {
+                  "source_id": "epa-obd-procedures",
+                  "location": "OBD readiness/diagnostic tests",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "sae-dtc-j2012-2025",
+                  "location": "DTC nomenclature and standard",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Replacement emissions parts must meet applicable vehicle and jurisdiction requirements.",
+              "kind": "original_epa_replacement_rules_context",
+              "supports": [
+                {
+                  "source_id": "epa-catalytic-converters-legacy",
+                  "location": "Aftermarket converter type and marking; verify current rules separately",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "practical-vehicle-maintenance:011000",
+        "file": "011000-diagnostic-readiness-monitors-and-emissions-test-interpretation.md",
+        "sha256": "e0e26479a66508dc4f8fbc853ca5387511c5884683d5e5961a4ae22f8f9db98e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-diagnostic-readiness-monitors-and-emissions-test-interpretation.md",
+          "related_resources": [
+            {
+              "source_id": "epa-obd-procedures",
+              "reason": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria"
+            },
+            {
+              "source_id": "sae-dtc-j2012-2025",
+              "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "OBD readiness status and malfunction indicator lamp state are distinct diagnostic outputs.",
+              "kind": "original_epa_obd_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-obd-procedures",
+                  "location": "Readiness and MIL interpretations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "Clearing diagnostic codes or resetting a vehicle can leave monitored emissions checks incomplete until enabling conditions occur.",
+              "kind": "original_epa_obd_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-obd-procedures",
+                  "location": "Readiness reset and drive-cycle context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "Trouble codes identify diagnostic conditions rather than necessarily a defective named physical component.",
+              "kind": "derived_diagnostic_method",
+              "supports": [
+                {
+                  "source_id": "sae-dtc-j2012-2025",
+                  "location": "Diagnostic code terminology and standardization",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "Inspection programs and readiness exceptions differ by state, vehicle age, and applicable emissions rules.",
+              "kind": "regulatory_scope_qualification",
+              "supports": [
+                {
+                  "source_id": "epa-obd-procedures",
+                  "location": "EPA program framework and state inspection applications",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-vehicle-maintenance:012000",
+        "file": "012000-vehicle-inspection-service-intervals-and-safety-critical-wear.md",
+        "sha256": "447085633d66449d7d4fcc7141144c3f5ba15ab7885c904ab9e72d991f2fd7c5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-vehicle-inspection-service-intervals-and-safety-critical-wear.md",
+          "related_resources": [
+            {
+              "source_id": "nhtsa-maintain-vehicle",
+              "reason": "Vehicle service records, tire/fluids/light checks and owner manual priority"
+            },
+            {
+              "source_id": "nhtsa-tires",
+              "reason": "Inflation, vehicle placard, tread, balance and alignment"
+            },
+            {
+              "source_id": "aaa-fluids-guide",
+              "reason": "Roles and compatibility of engine coolant, oil, brake fluid and other vehicle fluids"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P012000-01",
+              "claim": "Vehicle maintenance should follow applicable owner manual intervals and include periodic functional inspection.",
+              "kind": "original_nhtsa_vehicle_safety",
+              "supports": [
+                {
+                  "source_id": "nhtsa-maintain-vehicle",
+                  "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-02",
+              "claim": "Tire pressure and condition affect vehicle safety and should be checked periodically.",
+              "kind": "original_nhtsa_vehicle_safety",
+              "supports": [
+                {
+                  "source_id": "nhtsa-tires",
+                  "location": "Inflation, vehicle placard, tread, balance and alignment",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nhtsa-maintain-vehicle",
+                  "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-03",
+              "claim": "Fluid checks and lighting inspection are part of vehicle upkeep distinct from diagnosis after failure.",
+              "kind": "original_nhtsa_vehicle_safety",
+              "supports": [
+                {
+                  "source_id": "nhtsa-maintain-vehicle",
+                  "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aaa-fluids-guide",
+                  "location": "Roles and compatibility of engine coolant, oil, brake fluid and other vehicle fluids",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "006000-manage-heat-lubrication-emissions-and-service-intervals.md"
+      ],
+      "joined_before_source_parts": [
+        "009000",
+        "011000"
+      ]
+    }
+  ]
 }

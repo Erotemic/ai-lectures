@@ -1,5 +1,7 @@
 # Journey to the West - Expanded narrative, chapters 13-15
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## Scope and listening order
 
 This is the continuation of the *Journey to the West* expanded retelling in the `pre-1900-literature` source pack. It adds local lecture IDs **466000-475000** after **465000**, without changing the existing world-history overview or the 441000-465000 manuscripts. The new episodes follow the same Chinese Wikisource chapter sequence as the preceding installment; each has original English prose, its own `metadata/ID.json`, and a direct primary source ID.

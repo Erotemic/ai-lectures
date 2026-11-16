@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "020300",
-  "transcript": "020300-equivariant-cohomology-the-borel-construction.md",
+  "transcript": "020300-equivariant-cohomology-and-fixed-point-localization.md",
   "related_resources": [
     {
       "source_id": "tg-at-bott-moment-1984",
@@ -10,7 +10,154 @@
     {
       "source_id": "tg-jeffrey-equivariant-notes",
       "reason": "Cohomology of a point and free circle actions."
+    },
+    {
+      "source_id": "tg-jeffrey-equivariant-notes",
+      "reason": "Cartan model, sign conventions and equivariant differentials."
+    },
+    {
+      "source_id": "tg-at-bott-moment-1984",
+      "reason": "Moment-map extension of a symplectic form."
+    },
+    {
+      "source_id": "tg-at-bott-moment-1984",
+      "reason": "Atiyah-Bott fixed-point localization."
+    },
+    {
+      "source_id": "tg-jeffrey-equivariant-notes",
+      "reason": "Euler weights and the abelian localization formula."
+    },
+    {
+      "source_id": "tg-jeffrey-equivariant-notes",
+      "reason": "Isolated weights and equivariant pushforwards."
+    },
+    {
+      "source_id": "tg-at-bott-moment-1984",
+      "reason": "Localization of equivariant characteristic classes."
+    },
+    {
+      "source_id": "tg-duistermaat-heckman-1982",
+      "reason": "Original theorem for moment-map measures."
+    },
+    {
+      "source_id": "tg-at-bott-moment-1984",
+      "reason": "Connections to localization and fixed-point formulas."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:020300",
+        "file": "020300-equivariant-cohomology-the-borel-construction.md",
+        "sha256": "3ecc8f82645cd8048a909db11a28f03c813df2ee6f558dfb5bf1fb1897c341dc",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020300",
+          "transcript": "020300-equivariant-cohomology-the-borel-construction.md",
+          "related_resources": [
+            {
+              "source_id": "tg-at-bott-moment-1984",
+              "reason": "Equivariant cohomology as symmetry-sensitive topology."
+            },
+            {
+              "source_id": "tg-jeffrey-equivariant-notes",
+              "reason": "Cohomology of a point and free circle actions."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:020400",
+        "file": "020400-cartan-model-and-equivariant-differential.md",
+        "sha256": "a133061e5994d8917e95133bb8be326b7274e3bb6703c222188b415905eacd05",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020400",
+          "transcript": "020400-cartan-model-and-equivariant-differential.md",
+          "related_resources": [
+            {
+              "source_id": "tg-jeffrey-equivariant-notes",
+              "reason": "Cartan model, sign conventions and equivariant differentials."
+            },
+            {
+              "source_id": "tg-at-bott-moment-1984",
+              "reason": "Moment-map extension of a symplectic form."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:020500",
+        "file": "020500-equivariant-euler-classes-and-localization.md",
+        "sha256": "729118482a35f133306670b1abd0e41c057e2d1d0efc5e277683098c7919493d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020500",
+          "transcript": "020500-equivariant-euler-classes-and-localization.md",
+          "related_resources": [
+            {
+              "source_id": "tg-at-bott-moment-1984",
+              "reason": "Atiyah-Bott fixed-point localization."
+            },
+            {
+              "source_id": "tg-jeffrey-equivariant-notes",
+              "reason": "Euler weights and the abelian localization formula."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:020600",
+        "file": "020600-localization-calculation-projective-line.md",
+        "sha256": "c13dfc5c0bda3b310e785b7b8aef2d634316dfdfd250d70af116a9718cfc7125",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020600",
+          "transcript": "020600-localization-calculation-projective-line.md",
+          "related_resources": [
+            {
+              "source_id": "tg-jeffrey-equivariant-notes",
+              "reason": "Isolated weights and equivariant pushforwards."
+            },
+            {
+              "source_id": "tg-at-bott-moment-1984",
+              "reason": "Localization of equivariant characteristic classes."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:020700",
+        "file": "020700-moment-map-distribution-and-duistermaat-heckman.md",
+        "sha256": "69462150fc5b0bcd4a6bb01423e003a9a812722b99d208a0a2923259f9d4cba6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020700",
+          "transcript": "020700-moment-map-distribution-and-duistermaat-heckman.md",
+          "related_resources": [
+            {
+              "source_id": "tg-duistermaat-heckman-1982",
+              "reason": "Original theorem for moment-map measures."
+            },
+            {
+              "source_id": "tg-at-bott-moment-1984",
+              "reason": "Connections to localization and fixed-point formulas."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

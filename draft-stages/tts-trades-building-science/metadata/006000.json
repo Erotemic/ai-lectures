@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "006000",
-  "transcript": "006000-attics-roofs-and-insulation-choices.md",
+  "transcript": "006000-control-roof-window-and-summer-comfort-performance.md",
   "related_resources": [
     {
       "source_id": "pnnl-vented-attic",
@@ -10,6 +10,30 @@
     {
       "source_id": "pnnl-ice-dam",
       "reason": "Heat-leak, roof-temperature, and ice-dam prevention mechanisms"
+    },
+    {
+      "source_id": "doe-energy-star-window-basics",
+      "reason": "Whole-window U-factor and SHGC and their separate heat-flow functions"
+    },
+    {
+      "source_id": "doe-femp-window-purchasing",
+      "reason": "Cold/warm climate energy choices, solar heat gain, condensation and assembly performance"
+    },
+    {
+      "source_id": "pnnl-window-flashing",
+      "reason": "Sill pan, jamb/head flashing and connections to drainage plane"
+    },
+    {
+      "source_id": "doe-passive-solar-guide",
+      "reason": "Solar absorber, exposed thermal mass, heat distribution, and summer shading control"
+    },
+    {
+      "source_id": "ashrae-2025-energy-estimating",
+      "reason": "Degree-day and change-point regression models, base use and weather-dependent slope"
+    },
+    {
+      "source_id": "doe-airsealing-audit-2010",
+      "reason": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions"
     }
   ],
   "historical_claims": [],
@@ -63,8 +87,604 @@
       "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
       "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P010000-01",
+      "claim": "Whole-window U-factor reflects heat transfer at a temperature difference; lower U-factor denotes lower rate in the certified test.",
+      "kind": "agency_window_thermal_rating",
+      "supports": [
+        {
+          "source_id": "doe-energy-star-window-basics",
+          "location": "U-factor rating and performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Solar heat gain coefficient differs from U-factor and describes solar energy admitted as heat.",
+      "kind": "agency_window_solar_rating",
+      "supports": [
+        {
+          "source_id": "doe-energy-star-window-basics",
+          "location": "Solar heat gain coefficient",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Climate, orientation and shading change whether winter solar gain is desirable and summer gains are a problem.",
+      "kind": "derived_climate_and_orientation_design",
+      "supports": [
+        {
+          "source_id": "doe-femp-window-purchasing",
+          "location": "Hot and cold climate fenestration purchasing strategies",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Window flashing, drainage continuity and air sealing are distinct from glass thermal ratings.",
+      "kind": "derived_assembled_window_function",
+      "supports": [
+        {
+          "source_id": "pnnl-window-flashing",
+          "location": "Wall interface and water management",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-energy-star-window-basics",
+          "location": "Product thermal ratings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "U-factor and solar heat-gain coefficient describe different window energy-transfer pathways.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-energy-star-window-basics",
+          "location": "Whole-window U-factor and SHGC and their separate heat-flow functions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-femp-window-purchasing",
+          "location": "Cold/warm climate energy choices, solar heat gain, condensation and assembly performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Window orientation and external shading geometry change the time and magnitude of solar loads.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-femp-window-purchasing",
+          "location": "Cold/warm climate energy choices, solar heat gain, condensation and assembly performance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-passive-solar-guide",
+          "location": "Solar absorber, exposed thermal mass, heat distribution, and summer shading control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Exposed thermal mass can shift peak indoor temperatures but cannot eliminate stored heat without a removal path.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-passive-solar-guide",
+          "location": "Solar absorber, exposed thermal mass, heat distribution, and summer shading control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Night ventilation decisions must account for outdoor temperature, moisture and air quality as well as thermal storage.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-passive-solar-guide",
+          "location": "Solar absorber, exposed thermal mass, heat distribution, and summer shading control",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ashrae-2025-energy-estimating",
+          "location": "Degree-day and change-point regression models, base use and weather-dependent slope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-01",
+      "claim": "Whole-window U-factor describes thermal transfer while SHGC describes solar heat gain, so the values answer different questions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-energy-star-window-basics",
+          "location": "Whole-window U-factor and SHGC and their separate heat-flow functions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Solar exposure, shading and exposed thermal mass can produce delayed indoor temperature peaks.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-passive-solar-guide",
+          "location": "Solar absorber, exposed thermal mass, heat distribution, and summer shading control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Comparisons across days require accounting for outdoor weather, occupancy and equipment changes.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ashrae-2025-energy-estimating",
+          "location": "Degree-day and change-point regression models, base use and weather-dependent slope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Thermography interpretation requires controlled observation conditions rather than assuming apparent IR temperature is always true surface temperature.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-airsealing-audit-2010",
+          "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-building-science:006000",
+        "file": "006000-attics-roofs-and-insulation-choices.md",
+        "sha256": "dd2b62e9ca5dfb00fa5ff74bad08434da1d00440765d6fe197a4ccf345e10a7c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-attics-roofs-and-insulation-choices.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-vented-attic",
+              "reason": "Ceiling air barrier, baffles, ventilation paths, and attic insulation sequencing"
+            },
+            {
+              "source_id": "pnnl-ice-dam",
+              "reason": "Heat-leak, roof-temperature, and ice-dam prevention mechanisms"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P006000-01",
+              "claim": "In a vented attic, a continuous ceiling air barrier and correctly installed insulation form the thermal and air control boundary.",
+              "kind": "building_assembly_physics",
+              "supports": [
+                {
+                  "source_id": "pnnl-vented-attic",
+                  "location": "Scope and Description: air-seal ceiling penetrations before insulation; align air and thermal barriers",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-02",
+              "claim": "Attic ventilation baffles preserve soffit air passages while preventing edge wind-washing of insulation.",
+              "kind": "construction_detail",
+              "supports": [
+                {
+                  "source_id": "pnnl-vented-attic",
+                  "location": "Scope: soffit baffles, eave dams and ceiling insulation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-03",
+              "claim": "Air leakage and insulation discontinuity can contribute to winter roof warming and ice-dam processes.",
+              "kind": "derived_building_diagnosis",
+              "supports": [
+                {
+                  "source_id": "pnnl-ice-dam",
+                  "location": "Attic air sealing, insulating, and venting for ice-dam prevention; author synthesis",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-vented-attic",
+                  "location": "Attic air sealing, insulating, and venting for ice-dam prevention; author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+        }
+      },
+      {
+        "id": "trades-building-science:010000",
+        "file": "010000-window-thermal-performance-solar-gain-and-summer-comfort.md",
+        "sha256": "30836c30ff1c70a8e6c5e725496a30429aa87267cb03e50815c00df7c459eb19",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-window-thermal-performance-solar-gain-and-summer-comfort.md",
+          "related_resources": [
+            {
+              "source_id": "doe-energy-star-window-basics",
+              "reason": "Whole-window U-factor and SHGC and their separate heat-flow functions"
+            },
+            {
+              "source_id": "doe-femp-window-purchasing",
+              "reason": "Cold/warm climate energy choices, solar heat gain, condensation and assembly performance"
+            },
+            {
+              "source_id": "pnnl-window-flashing",
+              "reason": "Sill pan, jamb/head flashing and connections to drainage plane"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Whole-window U-factor reflects heat transfer at a temperature difference; lower U-factor denotes lower rate in the certified test.",
+              "kind": "agency_window_thermal_rating",
+              "supports": [
+                {
+                  "source_id": "doe-energy-star-window-basics",
+                  "location": "U-factor rating and performance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "Solar heat gain coefficient differs from U-factor and describes solar energy admitted as heat.",
+              "kind": "agency_window_solar_rating",
+              "supports": [
+                {
+                  "source_id": "doe-energy-star-window-basics",
+                  "location": "Solar heat gain coefficient",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Climate, orientation and shading change whether winter solar gain is desirable and summer gains are a problem.",
+              "kind": "derived_climate_and_orientation_design",
+              "supports": [
+                {
+                  "source_id": "doe-femp-window-purchasing",
+                  "location": "Hot and cold climate fenestration purchasing strategies",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Window flashing, drainage continuity and air sealing are distinct from glass thermal ratings.",
+              "kind": "derived_assembled_window_function",
+              "supports": [
+                {
+                  "source_id": "pnnl-window-flashing",
+                  "location": "Wall interface and water management",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-energy-star-window-basics",
+                  "location": "Product thermal ratings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "trades-building-science:015000",
+        "file": "015000-controlling-summer-overheating-with-shading-and-thermal-mass.md",
+        "sha256": "00d89dfa57ac392fa23e320c0ad5e789b68bcf78e20d8870a73f057880383d1e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-controlling-summer-overheating-with-shading-and-thermal-mass.md",
+          "related_resources": [
+            {
+              "source_id": "doe-energy-star-window-basics",
+              "reason": "Whole-window U-factor and SHGC and their separate heat-flow functions"
+            },
+            {
+              "source_id": "doe-femp-window-purchasing",
+              "reason": "Cold/warm climate energy choices, solar heat gain, condensation and assembly performance"
+            },
+            {
+              "source_id": "doe-passive-solar-guide",
+              "reason": "Solar absorber, exposed thermal mass, heat distribution, and summer shading control"
+            },
+            {
+              "source_id": "ashrae-2025-energy-estimating",
+              "reason": "Degree-day and change-point regression models, base use and weather-dependent slope"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "U-factor and solar heat-gain coefficient describe different window energy-transfer pathways.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-energy-star-window-basics",
+                  "location": "Whole-window U-factor and SHGC and their separate heat-flow functions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-femp-window-purchasing",
+                  "location": "Cold/warm climate energy choices, solar heat gain, condensation and assembly performance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "Window orientation and external shading geometry change the time and magnitude of solar loads.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-femp-window-purchasing",
+                  "location": "Cold/warm climate energy choices, solar heat gain, condensation and assembly performance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-passive-solar-guide",
+                  "location": "Solar absorber, exposed thermal mass, heat distribution, and summer shading control",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Exposed thermal mass can shift peak indoor temperatures but cannot eliminate stored heat without a removal path.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-passive-solar-guide",
+                  "location": "Solar absorber, exposed thermal mass, heat distribution, and summer shading control",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Night ventilation decisions must account for outdoor temperature, moisture and air quality as well as thermal storage.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-passive-solar-guide",
+                  "location": "Solar absorber, exposed thermal mass, heat distribution, and summer shading control",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ashrae-2025-energy-estimating",
+                  "location": "Degree-day and change-point regression models, base use and weather-dependent slope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-building-science:016000",
+        "file": "016000-diagnosing-summer-heat-gain-with-solar-and-room-temperature-logs.md",
+        "sha256": "743f98fbb4f187f2236cac5965023cc10de999b78c76de7a1f5b68f977c85822",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-diagnosing-summer-heat-gain-with-solar-and-room-temperature-logs.md",
+          "related_resources": [
+            {
+              "source_id": "doe-energy-star-window-basics",
+              "reason": "Whole-window U-factor and SHGC and their separate heat-flow functions"
+            },
+            {
+              "source_id": "doe-passive-solar-guide",
+              "reason": "Solar absorber, exposed thermal mass, heat distribution, and summer shading control"
+            },
+            {
+              "source_id": "ashrae-2025-energy-estimating",
+              "reason": "Degree-day and change-point regression models, base use and weather-dependent slope"
+            },
+            {
+              "source_id": "doe-airsealing-audit-2010",
+              "reason": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "Whole-window U-factor describes thermal transfer while SHGC describes solar heat gain, so the values answer different questions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-energy-star-window-basics",
+                  "location": "Whole-window U-factor and SHGC and their separate heat-flow functions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "Solar exposure, shading and exposed thermal mass can produce delayed indoor temperature peaks.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-passive-solar-guide",
+                  "location": "Solar absorber, exposed thermal mass, heat distribution, and summer shading control",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "Comparisons across days require accounting for outdoor weather, occupancy and equipment changes.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ashrae-2025-energy-estimating",
+                  "location": "Degree-day and change-point regression models, base use and weather-dependent slope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Thermography interpretation requires controlled observation conditions rather than assuming apparent IR temperature is always true surface temperature.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-airsealing-audit-2010",
+                  "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "006000-control-roof-window-and-summer-comfort-performance.md"
+      ],
+      "joined_before_source_parts": [
+        "010000",
+        "016000"
+      ]
+    }
+  ]
 }

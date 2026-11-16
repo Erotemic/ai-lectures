@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "006000",
-  "transcript": "006000-stroke-heart-attack-and-severe-allergic-reactions.md",
+  "transcript": "006000-recognize-acute-illness-and-deterioration.md",
   "related_resources": [
     {
       "source_id": "aha-redcross-2024-firstaid",
@@ -14,6 +14,62 @@
     {
       "source_id": "aha-warning",
       "reason": "Heart attack symptoms and B.E.F.A.S.T. stroke recognition"
+    },
+    {
+      "source_id": "redcross-respiratory-distress",
+      "reason": "Severe respiratory signs, emergency activation, positioning and transition to CPR when needed"
+    },
+    {
+      "source_id": "cdc-respiratory-warning-signs",
+      "reason": "Emergency breathing signs and pediatric chest retractions, color changes and mental status"
+    },
+    {
+      "source_id": "rc-first-aid",
+      "reason": "Check, Call, Care and emergency activation"
+    },
+    {
+      "source_id": "aha-bls-2025",
+      "reason": "Adult lay responder algorithm, compressions, activation and defibrillation"
+    },
+    {
+      "source_id": "aha-redcross-seizure-firstaid-2024",
+      "reason": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid"
+    },
+    {
+      "source_id": "cdc-seizure-firstaid-2024",
+      "reason": "First-aid actions, timing, reasons to call 911, and avoidance of restraint or mouth insertion"
+    },
+    {
+      "source_id": "cdc-hypoglycemia-treatment",
+      "reason": "Recognizing and treating hypoglycemia, severe episodes, prescribed glucagon and medical follow-up"
+    },
+    {
+      "source_id": "cdc-dka-about",
+      "reason": "DKA causes, symptoms, red flags and need for emergency treatment"
+    },
+    {
+      "source_id": "redcross-dehydration-2026",
+      "reason": "Dehydration warning signs, vomiting, reduced urination, and indications for emergency treatment"
+    },
+    {
+      "source_id": "redcross-hypothermia",
+      "reason": "Hypothermia warning signs, EMS, gradual rewarming"
+    },
+    {
+      "source_id": "aap-pediatric-ems-2026",
+      "reason": "Signs warranting emergency response in infants and children: behavior, breathing and circulation"
+    },
+    {
+      "source_id": "aap-newborn-illness-warning",
+      "reason": "Poor feeding, new weakness, abnormal breathing, color and urgent fever assessment in young infants"
+    },
+    {
+      "source_id": "redcross-child-baby-firstaid",
+      "reason": "Child/infant initial assessment, emergency call, age-specific first-aid steps"
+    },
+    {
+      "source_id": "aha-pediatric-bls-2025",
+      "reason": "Infant 5 back blows and 5 chest thrusts, child abdominal thrusts, recognition of unresponsiveness and airway obstruction"
     }
   ],
   "historical_claims": [],
@@ -72,8 +128,1034 @@
       "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
       "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
       "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "Severe respiratory distress can show difficult breathing, accessory muscle effort, color change and reduced alertness.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "redcross-respiratory-distress",
+          "location": "Severe respiratory signs, emergency activation, positioning and transition to CPR when needed",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-respiratory-warning-signs",
+          "location": "Emergency breathing signs and pediatric chest retractions, color changes and mental status",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Urgent emergency activation is indicated for serious breathing difficulty rather than waiting for a diagnosis.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "redcross-respiratory-distress",
+          "location": "Severe respiratory signs, emergency activation, positioning and transition to CPR when needed",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rc-first-aid",
+          "location": "Check, Call, Care and emergency activation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "A responsive person should be supported in a position of comfort while emergency aid is arranged.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "redcross-respiratory-distress",
+          "location": "Severe respiratory signs, emergency activation, positioning and transition to CPR when needed",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "If a person becomes unresponsive and is not breathing normally, CPR/AED and dispatcher instructions apply.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "redcross-respiratory-distress",
+          "location": "Severe respiratory signs, emergency activation, positioning and transition to CPR when needed",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aha-bls-2025",
+          "location": "Adult lay responder algorithm, compressions, activation and defibrillation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-01",
+      "claim": "First-aid providers should protect against injury, stay with a person having a seizure, and time the event.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-seizure-firstaid-2024",
+          "location": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-seizure-firstaid-2024",
+          "location": "First-aid actions, timing, reasons to call 911, and avoidance of restraint or mouth insertion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Restraint and insertion of objects into the mouth during a seizure can cause harm and are not recommended.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-seizure-firstaid-2024",
+          "location": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-seizure-firstaid-2024",
+          "location": "First-aid actions, timing, reasons to call 911, and avoidance of restraint or mouth insertion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "A seizure lasting about five minutes, repeated without recovery, first-time event, water involvement, breathing trouble, injury, pregnancy, or infant under six months warrants emergency service activation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-seizure-firstaid-2024",
+          "location": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Following the seizure, support recovery and check normal responsiveness and breathing.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-seizure-firstaid-2024",
+          "location": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rc-first-aid",
+          "location": "Check, Call, Care and emergency activation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "For suspected hypoglycemia in an awake person able to swallow, first-aid guidance recommends oral glucose.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-hypoglycemia-treatment",
+          "location": "Recognizing and treating hypoglycemia, severe episodes, prescribed glucagon and medical follow-up",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Oral glucose should not be given when the person is not awake or cannot swallow safely; emergency help is indicated.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "The 2024 AHA/Red Cross recommendation calls for EMS activation if suspected hypoglycemia fails to improve within ten minutes of oral glucose.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Vomiting, deep breathing, marked confusion and other DKA warning signs require emergency medical evaluation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cdc-dka-about",
+          "location": "DKA causes, symptoms, red flags and need for emergency treatment",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "Exertional dehydration without shock or inability to swallow may be addressed with oral water or rehydration drinks.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Confusion, breathing changes, severe weakness and other deterioration signs warrant urgent first-aid assessment and escalation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "redcross-dehydration-2026",
+          "location": "Dehydration warning signs, vomiting, reduced urination, and indications for emergency treatment",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Shock from different causes cannot be assumed to be ordinary dehydration.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "Positioning a person with possible shock depends on consciousness, airway risk, trauma and symptoms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rc-first-aid",
+          "location": "Check, Call, Care and emergency activation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-01",
+      "claim": "Altered responsiveness and abnormal breathing in children warrant prompt emergency evaluation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aap-pediatric-ems-2026",
+          "location": "Signs warranting emergency response in infants and children: behavior, breathing and circulation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "New poor feeding, weakness or color change can be important illness indicators in newborns.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aap-newborn-illness-warning",
+          "location": "Poor feeding, new weakness, abnormal breathing, color and urgent fever assessment in young infants",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "Fever in a very young infant requires prompt medical evaluation rather than routine home treatment.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aap-newborn-illness-warning",
+          "location": "Poor feeding, new weakness, abnormal breathing, color and urgent fever assessment in young infants",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Child and infant first aid require age-specific assessment and care.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "redcross-child-baby-firstaid",
+          "location": "Child/infant initial assessment, emergency call, age-specific first-aid steps",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aha-pediatric-bls-2025",
+          "location": "Infant 5 back blows and 5 chest thrusts, child abdominal thrusts, recognition of unresponsiveness and airway obstruction",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Clinical emergency communication should include the time course and observed physiological change.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aap-pediatric-ems-2026",
+          "location": "Signs warranting emergency response in infants and children: behavior, breathing and circulation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-first-aid:006000",
+        "file": "006000-stroke-heart-attack-and-severe-allergic-reactions.md",
+        "sha256": "791b439e8a0167f48b287af2cbd1c6815b5ba3e24a8e26fb062acc6dff227741",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-stroke-heart-attack-and-severe-allergic-reactions.md",
+          "related_resources": [
+            {
+              "source_id": "aha-redcross-2024-firstaid",
+              "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+            },
+            {
+              "source_id": "cdc-stroke-may2026",
+              "reason": "BE FAST signs, emergency activation, symptoms that resolve and onset timing"
+            },
+            {
+              "source_id": "aha-warning",
+              "reason": "Heart attack symptoms and B.E.F.A.S.T. stroke recognition"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P006000-01",
+              "claim": "FAST/B.E. FAST symptoms can support layperson stroke recognition, but emergency services should be activated immediately.",
+              "kind": "clinical_guideline",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "2024 First Aid guideline stroke recognition; CDC BE FAST and EMS guidance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cdc-stroke-may2026",
+                  "location": "2024 First Aid guideline stroke recognition; CDC BE FAST and EMS guidance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P006000-02",
+              "claim": "Chest pain or other possible heart-attack symptoms merit emergency activation; aspirin use has specific eligibility and uncertainty caveats.",
+              "kind": "clinical_guideline",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "2024 First Aid guideline Chest Pain in Adults; AHA warning signs",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aha-warning",
+                  "location": "2024 First Aid guideline Chest Pain in Adults; AHA warning signs",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P006000-03",
+              "claim": "Epinephrine is primary immediate treatment for anaphylaxis; first aid may assist with a prescribed auto-injector and activate EMS.",
+              "kind": "clinical_guideline",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "2024 First Aid guideline Anaphylaxis recommendations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+        }
+      },
+      {
+        "id": "practical-first-aid:015000",
+        "file": "015000-breathing-distress-recognition-and-escalation.md",
+        "sha256": "444f54d9036f1c4c15541ddeb89983f3011a736fff82f343aef10d09d20b9c41",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-breathing-distress-recognition-and-escalation.md",
+          "related_resources": [
+            {
+              "source_id": "redcross-respiratory-distress",
+              "reason": "Severe respiratory signs, emergency activation, positioning and transition to CPR when needed"
+            },
+            {
+              "source_id": "cdc-respiratory-warning-signs",
+              "reason": "Emergency breathing signs and pediatric chest retractions, color changes and mental status"
+            },
+            {
+              "source_id": "rc-first-aid",
+              "reason": "Check, Call, Care and emergency activation"
+            },
+            {
+              "source_id": "aha-bls-2025",
+              "reason": "Adult lay responder algorithm, compressions, activation and defibrillation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "Severe respiratory distress can show difficult breathing, accessory muscle effort, color change and reduced alertness.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "redcross-respiratory-distress",
+                  "location": "Severe respiratory signs, emergency activation, positioning and transition to CPR when needed",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cdc-respiratory-warning-signs",
+                  "location": "Emergency breathing signs and pediatric chest retractions, color changes and mental status",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "Urgent emergency activation is indicated for serious breathing difficulty rather than waiting for a diagnosis.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "redcross-respiratory-distress",
+                  "location": "Severe respiratory signs, emergency activation, positioning and transition to CPR when needed",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "rc-first-aid",
+                  "location": "Check, Call, Care and emergency activation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "A responsive person should be supported in a position of comfort while emergency aid is arranged.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "redcross-respiratory-distress",
+                  "location": "Severe respiratory signs, emergency activation, positioning and transition to CPR when needed",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "If a person becomes unresponsive and is not breathing normally, CPR/AED and dispatcher instructions apply.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "redcross-respiratory-distress",
+                  "location": "Severe respiratory signs, emergency activation, positioning and transition to CPR when needed",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aha-bls-2025",
+                  "location": "Adult lay responder algorithm, compressions, activation and defibrillation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-first-aid:016000",
+        "file": "016000-seizures-recognition-and-scene-care.md",
+        "sha256": "0e9b56173b760c9967ae966f00bf59acef9d3a8745f48ec60cf0c474c561d63b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-seizures-recognition-and-scene-care.md",
+          "related_resources": [
+            {
+              "source_id": "aha-redcross-seizure-firstaid-2024",
+              "reason": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid"
+            },
+            {
+              "source_id": "cdc-seizure-firstaid-2024",
+              "reason": "First-aid actions, timing, reasons to call 911, and avoidance of restraint or mouth insertion"
+            },
+            {
+              "source_id": "rc-first-aid",
+              "reason": "Check, Call, Care and emergency activation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "First-aid providers should protect against injury, stay with a person having a seizure, and time the event.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-seizure-firstaid-2024",
+                  "location": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cdc-seizure-firstaid-2024",
+                  "location": "First-aid actions, timing, reasons to call 911, and avoidance of restraint or mouth insertion",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "Restraint and insertion of objects into the mouth during a seizure can cause harm and are not recommended.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-seizure-firstaid-2024",
+                  "location": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cdc-seizure-firstaid-2024",
+                  "location": "First-aid actions, timing, reasons to call 911, and avoidance of restraint or mouth insertion",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "A seizure lasting about five minutes, repeated without recovery, first-time event, water involvement, breathing trouble, injury, pregnancy, or infant under six months warrants emergency service activation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-seizure-firstaid-2024",
+                  "location": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Following the seizure, support recovery and check normal responsiveness and breathing.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-seizure-firstaid-2024",
+                  "location": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "rc-first-aid",
+                  "location": "Check, Call, Care and emergency activation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-first-aid:017000",
+        "file": "017000-diabetes-emergencies-recognition-and-first-response.md",
+        "sha256": "c3f917a2c0902280e8719ea40cf62b09827657edaf52dd786f65a5dc18f215ee",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-diabetes-emergencies-recognition-and-first-response.md",
+          "related_resources": [
+            {
+              "source_id": "aha-redcross-2024-firstaid",
+              "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+            },
+            {
+              "source_id": "cdc-hypoglycemia-treatment",
+              "reason": "Recognizing and treating hypoglycemia, severe episodes, prescribed glucagon and medical follow-up"
+            },
+            {
+              "source_id": "cdc-dka-about",
+              "reason": "DKA causes, symptoms, red flags and need for emergency treatment"
+            },
+            {
+              "source_id": "rc-first-aid",
+              "reason": "Check, Call, Care and emergency activation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "For suspected hypoglycemia in an awake person able to swallow, first-aid guidance recommends oral glucose.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cdc-hypoglycemia-treatment",
+                  "location": "Recognizing and treating hypoglycemia, severe episodes, prescribed glucagon and medical follow-up",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "Oral glucose should not be given when the person is not awake or cannot swallow safely; emergency help is indicated.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "The 2024 AHA/Red Cross recommendation calls for EMS activation if suspected hypoglycemia fails to improve within ten minutes of oral glucose.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "Vomiting, deep breathing, marked confusion and other DKA warning signs require emergency medical evaluation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cdc-dka-about",
+                  "location": "DKA causes, symptoms, red flags and need for emergency treatment",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-first-aid:018000",
+        "file": "018000-dehydration-shock-and-signs-of-deterioration.md",
+        "sha256": "0fa3e56794f3a0e31e85420a4848049603f9ba8e6d56b8259a64e67f1cf9fa06",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-dehydration-shock-and-signs-of-deterioration.md",
+          "related_resources": [
+            {
+              "source_id": "aha-redcross-2024-firstaid",
+              "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+            },
+            {
+              "source_id": "redcross-dehydration-2026",
+              "reason": "Dehydration warning signs, vomiting, reduced urination, and indications for emergency treatment"
+            },
+            {
+              "source_id": "rc-first-aid",
+              "reason": "Check, Call, Care and emergency activation"
+            },
+            {
+              "source_id": "redcross-hypothermia",
+              "reason": "Hypothermia warning signs, EMS, gradual rewarming"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "Exertional dehydration without shock or inability to swallow may be addressed with oral water or rehydration drinks.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Confusion, breathing changes, severe weakness and other deterioration signs warrant urgent first-aid assessment and escalation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "redcross-dehydration-2026",
+                  "location": "Dehydration warning signs, vomiting, reduced urination, and indications for emergency treatment",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "Shock from different causes cannot be assumed to be ordinary dehydration.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "Positioning a person with possible shock depends on consciousness, airway risk, trauma and symptoms.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "rc-first-aid",
+                  "location": "Check, Call, Care and emergency activation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-first-aid:020000",
+        "file": "020000-child-and-infant-illness-recognizing-deterioration-and-calling-for-help.md",
+        "sha256": "65c9c196e0d55cc177c12be50e4aa61ad3201f8828eac6f593472836d0567758",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-child-and-infant-illness-recognizing-deterioration-and-calling-for-help.md",
+          "related_resources": [
+            {
+              "source_id": "aap-pediatric-ems-2026",
+              "reason": "Signs warranting emergency response in infants and children: behavior, breathing and circulation"
+            },
+            {
+              "source_id": "aap-newborn-illness-warning",
+              "reason": "Poor feeding, new weakness, abnormal breathing, color and urgent fever assessment in young infants"
+            },
+            {
+              "source_id": "redcross-child-baby-firstaid",
+              "reason": "Child/infant initial assessment, emergency call, age-specific first-aid steps"
+            },
+            {
+              "source_id": "aha-redcross-2024-firstaid",
+              "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+            },
+            {
+              "source_id": "aha-pediatric-bls-2025",
+              "reason": "Infant 5 back blows and 5 chest thrusts, child abdominal thrusts, recognition of unresponsiveness and airway obstruction"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P020000-01",
+              "claim": "Altered responsiveness and abnormal breathing in children warrant prompt emergency evaluation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aap-pediatric-ems-2026",
+                  "location": "Signs warranting emergency response in infants and children: behavior, breathing and circulation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-02",
+              "claim": "New poor feeding, weakness or color change can be important illness indicators in newborns.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aap-newborn-illness-warning",
+                  "location": "Poor feeding, new weakness, abnormal breathing, color and urgent fever assessment in young infants",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-03",
+              "claim": "Fever in a very young infant requires prompt medical evaluation rather than routine home treatment.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aap-newborn-illness-warning",
+                  "location": "Poor feeding, new weakness, abnormal breathing, color and urgent fever assessment in young infants",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-04",
+              "claim": "Child and infant first aid require age-specific assessment and care.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "redcross-child-baby-firstaid",
+                  "location": "Child/infant initial assessment, emergency call, age-specific first-aid steps",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aha-pediatric-bls-2025",
+                  "location": "Infant 5 back blows and 5 chest thrusts, child abdominal thrusts, recognition of unresponsiveness and airway obstruction",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-05",
+              "claim": "Clinical emergency communication should include the time course and observed physiological change.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aap-pediatric-ems-2026",
+                  "location": "Signs warranting emergency response in infants and children: behavior, breathing and circulation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "006000-recognize-acute-illness-and-deterioration.md"
+      ],
+      "joined_before_source_parts": [
+        "015000",
+        "018000",
+        "020000"
+      ]
+    }
+  ]
 }

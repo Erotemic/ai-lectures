@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "015000",
-  "transcript": "015000-parametric-curves-arc-length-line-integrals.md",
+  "transcript": "015000-integrating-over-curves-surfaces-and-boundaries.md",
   "related_resources": [
     {
       "source_id": "mv-openstax-v3",
@@ -14,7 +14,133 @@
     {
       "source_id": "mv-wiki-015000",
       "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-wiki-016000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-wiki-017000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-mit-18022",
+      "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+    },
+    {
+      "source_id": "mv-wiki-018000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "multivariable-calculus:015000",
+        "file": "015000-parametric-curves-arc-length-line-integrals.md",
+        "sha256": "63773aa3773a16f299c4e9434f340ec6ad75b2eaf45a6984efa496f56aa625f8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-parametric-curves-arc-length-line-integrals.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-1802sc",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-015000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:016000",
+        "file": "016000-greens-theorem-and-planar-flux.md",
+        "sha256": "b9142987e295eb6f0de278dc658b771d543f6c268f0fc40b8cd4d31fb3c3b8d6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-greens-theorem-and-planar-flux.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-1802sc",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-016000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:017000",
+        "file": "017000-parametrized-surfaces-area-and-flux.md",
+        "sha256": "61434157261f32aedafd5ccd7a201ddd0e1c70b7175d192a0510ff442381acf4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-parametrized-surfaces-area-and-flux.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-1802sc",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-017000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:018000",
+        "file": "018000-stokes-divergence-and-unified-ftc.md",
+        "sha256": "a8c3d9a93e0042a333d9d5618a37fd11495a3085db4324b15d89325b33e94e33",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-stokes-divergence-and-unified-ftc.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-18022",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-018000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

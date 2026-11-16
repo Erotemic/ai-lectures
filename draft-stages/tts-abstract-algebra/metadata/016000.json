@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "016000",
-  "transcript": "016000-exact-sequences-and-projective-resolutions.md",
+  "transcript": "016000-modules-tensor-products-classification-and-exactness-shared-core.md",
   "related_resources": [
     {
       "source_id": "aa-mit-homological",
@@ -10,7 +10,67 @@
     {
       "source_id": "aa-weibel",
       "reason": "Projective resolutions, Tor groups and Ext groups."
+    },
+    {
+      "source_id": "aa-stacks-flat",
+      "reason": "Flatness and exactness of localization, Tor criterion and local tests."
+    },
+    {
+      "source_id": "aa-weibel",
+      "reason": "Homological algebra treatment of flatness and derived tensor products."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:016000",
+        "file": "016000-exact-sequences-and-projective-resolutions.md",
+        "sha256": "5b6ceeeb70ab395953df895d4473bd244558a48223cbadabf716702b1df44d40",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-exact-sequences-and-projective-resolutions.md",
+          "related_resources": [
+            {
+              "source_id": "aa-mit-homological",
+              "reason": "Exact sequences, homology and derived functors."
+            },
+            {
+              "source_id": "aa-weibel",
+              "reason": "Projective resolutions, Tor groups and Ext groups."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:026000",
+        "file": "026000-flat-modules-and-tensor-exactness.md",
+        "sha256": "b31dd4ff2ade89077b7d9c004057ca554c892c723522e8d18fc46fbff439e9f7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "026000",
+          "transcript": "026000-flat-modules-and-tensor-exactness.md",
+          "related_resources": [
+            {
+              "source_id": "aa-stacks-flat",
+              "reason": "Flatness and exactness of localization, Tor criterion and local tests."
+            },
+            {
+              "source_id": "aa-weibel",
+              "reason": "Homological algebra treatment of flatness and derived tensor products."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

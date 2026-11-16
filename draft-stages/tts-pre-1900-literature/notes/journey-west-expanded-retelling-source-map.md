@@ -2,7 +2,29 @@
 
 This is a separate literary retelling of the conventional 100-chapter Ming novel, and not a revision of the World History series 048000–054000. The existing six narrative lectures give a concise complete-plot survey; the new retelling is intended to let characters, incidents, reversals, and the changing relationships develop at listening pace. The length of each episode follows its material.
 
-## Initial listening index
+## Current playback index after consolidation
+
+The expanded retelling is complete through selected-witness chapter 21 and remains in progress. These 13 manuscripts retain the earlier 61 writing components. Continue with chapter 22 using [the current writer handoff](journey-west-continuation-handoff.md); no future ID is reserved here.
+
+| Current playback ID | Selected-witness chapters | Current manuscript | Minutes at 145 wpm |
+| --- | --- | --- | ---: |
+| 441000 | 1 | [Journey to the West — The Stone Monkey, the Waterfall, and the Fear of Death](../441000-journey-west-expanded-the-stone-king.md) | 13.7 |
+| 442000 | 2 | [Journey to the West — The Midnight Lesson and the Demon King of Havoc](../442000-journey-west-expanded-subodhi-and-the-demon-king.md) | 12.6 |
+| 443000 | 3 | [Journey to the West — The Dragon King’s Treasure and the Registers of Death](../443000-journey-west-expanded-dragons-and-death-ledgers.md) | 15.0 |
+| 444000 | 4–5 | [Journey to the West expanded II: heavenly office, the peaches, and the banquet](../444000-journey-to-the-west-expanded-ii-heavenly-office-the-peaches-and-the-banquet.md) | 41.7 |
+| 448000 | 6–7 | [Journey to the West expanded III: Erlang, the furnace, and the Buddha’s palm](../448000-journey-to-the-west-expanded-iii-erlang-the-furnace-and-the-buddhas-palm.md) | 38.2 |
+| 452000 | 8–9, with the edition-sensitive River Child insertion | [Journey to the West expanded IV: the scripture mission and the River Child](../452000-journey-to-the-west-expanded-iv-the-scripture-mission-and-the-river-child.md) | 41.2 |
+| 458000 | 10–12 | [Journey to the West expanded V: the dragon wager, the underworld, and the pilgrim’s oath](../458000-journey-to-the-west-expanded-v-the-dragon-wager-the-underworld-and-the-pilgrims-oath.md) | 54.6 |
+| 466000 | 13–14 | [Journey to the West: beyond the frontier, the freed disciple, and the binding fillet](../466000-journey-to-the-west-beyond-the-frontier-the-freed-disciple-and-the-binding-fillet.md) | 46.3 |
+| 473000 | 15–16 | [Journey to the West: the dragon horse and the burning monastery](../473000-journey-to-the-west-the-dragon-horse-and-the-burning-monastery.md) | 49.2 |
+| 480000 | 17 | [Journey to the West: Black Wind Mountain and the recovery of the robe](../480000-journey-to-the-west-black-wind-mountain-and-the-recovery-of-the-robe.md) | 27.2 |
+| 484000 | 18 | [Journey to the West: the captive daughter and the unwanted husband of Gao Village](../484000-journey-to-the-west-the-captive-daughter-and-the-unwanted-husband-of-gao-village.md) | 28.1 |
+| 488000 | 19 | [Journey to the West: Zhu Bajie joins the pilgrimage and the Heart Sutra warning](../488000-journey-to-the-west-zhu-bajie-joins-the-pilgrimage-and-the-heart-sutra-warning.md) | 38.3 |
+| 493000 | 20–21 | [Journey to the West: Yellow Wind Ridge, the injured disciple, and Lingji’s rescue](../493000-journey-to-the-west-yellow-wind-ridge-the-injured-disciple-and-lingjis-rescue.md) | 57.2 |
+
+The ledger below preserves original component IDs, scene boundaries, and original measurements for evidence traceability. Those rows are no longer separate playable files.
+
+## Original writing-component ledger (not the current playback index)
 
 | Lecture | Source chapter | Subject | Spoken words (descriptive) |
 |---|---:|---|---:|

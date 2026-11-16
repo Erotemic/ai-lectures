@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "038000",
-  "transcript": "038000-riemann-roch-on-algebraic-curves.md",
+  "transcript": "038000-riemann-roch-from-curves-to-derived-pushforwards.md",
   "related_resources": [
     {
       "source_id": "aa-riemann-roch-stacks",
@@ -10,7 +10,145 @@
     {
       "source_id": "aa-algebraic-curves-stacks",
       "reason": "Divisors, curves, genus, and singularities."
+    },
+    {
+      "source_id": "aa-hartshorne-algebraic",
+      "reason": "Algebraic curves, intersection theory and Riemann-Roch on surfaces."
+    },
+    {
+      "source_id": "aa-chern-cambridge",
+      "reason": "Chern-Weil background and characteristic-class expressions."
+    },
+    {
+      "source_id": "ab-r12-045000-1",
+      "reason": "Derived localization, projective resolutions, and perfect objects"
+    },
+    {
+      "source_id": "ab-r12-045000-2",
+      "reason": "Derived localization, projective resolutions, and perfect objects"
+    },
+    {
+      "source_id": "ab-r12-045000-3",
+      "reason": "Derived localization, projective resolutions, and perfect objects"
+    },
+    {
+      "source_id": "ab-r12-046000-1",
+      "reason": "GRR compatibility of K-theory pushforward and characteristic classes"
+    },
+    {
+      "source_id": "ab-r12-046000-2",
+      "reason": "GRR compatibility of K-theory pushforward and characteristic classes"
+    },
+    {
+      "source_id": "ab-r12-045000-1",
+      "reason": "GRR compatibility of K-theory pushforward and characteristic classes"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:038000",
+        "file": "038000-riemann-roch-on-algebraic-curves.md",
+        "sha256": "51d8454a8bc70fb21fd3a1edb655e493b681c6fdd485380edc6520c74ed65a78",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "038000",
+          "transcript": "038000-riemann-roch-on-algebraic-curves.md",
+          "related_resources": [
+            {
+              "source_id": "aa-riemann-roch-stacks",
+              "reason": "Line-bundle Euler characteristic, canonical divisor and genus."
+            },
+            {
+              "source_id": "aa-algebraic-curves-stacks",
+              "reason": "Divisors, curves, genus, and singularities."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:044000",
+        "file": "044000-surface-riemann-roch-and-intersection-classes.md",
+        "sha256": "6c009c66aae9a280cd50b44d6d161d5b9fbbc4692fefe8f54cc4b5f74312873a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "044000",
+          "transcript": "044000-surface-riemann-roch-and-intersection-classes.md",
+          "related_resources": [
+            {
+              "source_id": "aa-hartshorne-algebraic",
+              "reason": "Algebraic curves, intersection theory and Riemann-Roch on surfaces."
+            },
+            {
+              "source_id": "aa-chern-cambridge",
+              "reason": "Chern-Weil background and characteristic-class expressions."
+            },
+            {
+              "source_id": "aa-riemann-roch-stacks",
+              "reason": "Line-bundle Euler characteristic, canonical divisor and genus."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:045000",
+        "file": "045000-derived-categories-and-perfect-complexes.md",
+        "sha256": "99eac714398d90c9b2e0e3e8d73ae2e249c957d6c253fb2a40e54dd4f8b8f756",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "045000",
+          "transcript": "045000-derived-categories-and-perfect-complexes.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r12-045000-1",
+              "reason": "Derived localization, projective resolutions, and perfect objects"
+            },
+            {
+              "source_id": "ab-r12-045000-2",
+              "reason": "Derived localization, projective resolutions, and perfect objects"
+            },
+            {
+              "source_id": "ab-r12-045000-3",
+              "reason": "Derived localization, projective resolutions, and perfect objects"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:046000",
+        "file": "046000-grothendieck-riemann-roch-and-pushforwards.md",
+        "sha256": "a8d117d7acd0384f193a8280b8c6c0ec7a36ed82c2734ee63e46eac61a2e887c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "046000",
+          "transcript": "046000-grothendieck-riemann-roch-and-pushforwards.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r12-046000-1",
+              "reason": "GRR compatibility of K-theory pushforward and characteristic classes"
+            },
+            {
+              "source_id": "ab-r12-046000-2",
+              "reason": "GRR compatibility of K-theory pushforward and characteristic classes"
+            },
+            {
+              "source_id": "ab-r12-045000-1",
+              "reason": "GRR compatibility of K-theory pushforward and characteristic classes"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

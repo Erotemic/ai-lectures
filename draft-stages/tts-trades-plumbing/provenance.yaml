@@ -1,0 +1,28 @@
+transcript:
+  revisions:
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - lecture: '001000'
+      composition_record: metadata/001000.json
+    - lecture: '003000'
+      composition_record: metadata/003000.json
+    - lecture: '004000'
+      composition_record: metadata/004000.json
+    - lecture: '007000'
+      composition_record: metadata/007000.json
+    scope: Consolidate reviewed source parts into single lecture manuscripts. Original
+      text and source attribution are retained in component records and Git history;
+      this revision does not claim original authorship of inherited prose.
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - 001000-trace-supply-materials-valves-and-clean-water-boundaries.md
+    - 003000-give-wastewater-air-and-floodwater-workable-paths.md
+    - 004000-manage-heat-private-supply-and-water-conditioning.md
+    - 007000-diagnose-flow-and-verify-the-repair-boundary.md
+    scope: Reviewed combined-manuscript joins and added connections among preserved
+      source arguments; scoped inherited part-level framing. No original authorship
+      of inherited prose, new technical guidance, or field validation is claimed.

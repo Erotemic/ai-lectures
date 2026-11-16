@@ -1,5 +1,7 @@
 # Tolkien special treatment — editorial record
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 Agent A scope: `draft-stages/tts-modern-literature/` only. Added eleven lecture records with stable local IDs `026200–027200`. One listening-oriented entrance, complete story narrations for the three published volumes (corresponding to Books I–VI), and seven separate analytical essays. The analysis lectures are *after*, not interspersed within, the story sequence.
 
 ## Why the volume break?

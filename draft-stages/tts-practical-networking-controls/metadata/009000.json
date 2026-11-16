@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "009000",
-  "transcript": "009000-threat-models-and-secure-remote-access.md",
+  "transcript": "009000-secure-and-commission-devices-repeatably.md",
   "related_resources": [
     {
       "source_id": "cisco-secure-remote-access",
@@ -14,6 +14,50 @@
     {
       "source_id": "nist-smart-home-auditing",
       "reason": "Device audit challenges, readings, logs, configurations, and actionable policies"
+    },
+    {
+      "source_id": "nist-cswp42-iot-onboarding",
+      "reason": "Device/network trust and secure provisioning of local network credentials"
+    },
+    {
+      "source_id": "nist-ir8350-iot-onboarding",
+      "reason": "Onboarding functional roles, trust, lifecycle management and credentials"
+    },
+    {
+      "source_id": "cisco-switch",
+      "reason": "Switch forwarding using Ethernet MAC addresses"
+    },
+    {
+      "source_id": "cisa-segmentation-2022",
+      "reason": "Segmentation restricts communication paths and requires appropriate access control boundaries"
+    },
+    {
+      "source_id": "nist-sp1800-15-iot",
+      "reason": "Restrict IoT traffic to device-appropriate purposes and apply updates and access controls"
+    },
+    {
+      "source_id": "rfc1034",
+      "reason": "Domain names and DNS resolution architecture"
+    },
+    {
+      "source_id": "rfc791",
+      "reason": "IPv4 addressing and IP layer; updated by later RFCs"
+    },
+    {
+      "source_id": "nist-sp80034r1-contingency",
+      "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+    },
+    {
+      "source_id": "nist-iot-device-configuration",
+      "reason": "Logical access configuration, authorized software changes and secure state restoration"
+    },
+    {
+      "source_id": "ietf-rfc9110-idempotency",
+      "reason": "Idempotent request semantics and when a client may safely retry after a lost response"
+    },
+    {
+      "source_id": "nist-sp80057-part1r5-21",
+      "reason": "Certificate inventory, validity/expiration, key ownership, replacement and incident recovery"
     }
   ],
   "historical_claims": [],
@@ -62,8 +106,878 @@
       "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
       "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
       "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-01",
+      "claim": "A trusted IoT onboarding system verifies network-device trust before provisioning connection credentials.",
+      "kind": "original_nist_network_onboarding",
+      "supports": [
+        {
+          "source_id": "nist-cswp42-iot-onboarding",
+          "location": "Network layer trust and credential provisioning",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "IoT onboarding includes lifecycle roles, not just initial Wi-Fi or Ethernet connectivity.",
+      "kind": "original_nist_iot_lifecycle",
+      "supports": [
+        {
+          "source_id": "nist-ir8350-iot-onboarding",
+          "location": "Lifecycle, roles and responsibilities",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Unique per-device credentials support differentiated access and revocation in suitable systems.",
+      "kind": "original_nist_onboarding_principles",
+      "supports": [
+        {
+          "source_id": "nist-cswp42-iot-onboarding",
+          "location": "Network-layer credentials and trust",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Network access boundaries and application permissions are distinct controls.",
+      "kind": "derived_security_architecture_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-router-security",
+          "location": "Router/network security practices",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-ir8350-iot-onboarding",
+          "location": "Device and network trust distinctions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-01",
+      "claim": "VLANs separate link-layer traffic, but inter-subnet access requires correctly configured routing and firewall policy.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "cisco-switch",
+          "location": "Switch forwarding using Ethernet MAC addresses",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cisa-segmentation-2022",
+          "location": "Segmentation restricts communication paths and requires appropriate access control boundaries",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-02",
+      "claim": "Least-necessary communication access and secure updates limit the consequences of vulnerable IoT devices.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp1800-15-iot",
+          "location": "Restrict IoT traffic to device-appropriate purposes and apply updates and access controls",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cisa-segmentation-2022",
+          "location": "Segmentation restricts communication paths and requires appropriate access control boundaries",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-03",
+      "claim": "Local discovery mechanisms may not cross network boundaries even when unicast routing would permit a service connection.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "rfc1034",
+          "location": "Domain names and DNS resolution architecture",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rfc791",
+          "location": "IPv4 addressing and IP layer; updated by later RFCs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-04",
+      "claim": "Testing both allowed and disallowed paths and preserving configurations is part of reliable segmentation.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-router-security",
+          "location": "Router integrity, availability, and security as system dependencies",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-01",
+      "claim": "Device identity, logical function and current IP address are distinct.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-cswp42-iot-onboarding",
+          "location": "Device/network trust and secure provisioning of local network credentials",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-iot-device-configuration",
+          "location": "Logical access configuration, authorized software changes and secure state restoration",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "Only authorized entities should change security-related device configuration.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-iot-device-configuration",
+          "location": "Logical access configuration, authorized software changes and secure state restoration",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "Restoring a defined secure configuration is an explicit device capability goal.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-iot-device-configuration",
+          "location": "Logical access configuration, authorized software changes and secure state restoration",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Retry-safe desired-state commands can differ from repeated toggle actions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ietf-rfc9110-idempotency",
+          "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Contingency plans should consider power, connectivity and recovery.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-06",
+      "claim": "An exported interface state may omit device-side settings; functional commissioning remains necessary.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-smart-home-auditing",
+          "location": "Device audit challenges, readings, logs, configurations, and actionable policies",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-cswp42-iot-onboarding",
+          "location": "Device/network trust and secure provisioning of local network credentials",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-01",
+      "claim": "Certificate inventory and proactive replacement reduce outages from credential expiration.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp80057-part1r5-21",
+          "location": "Certificate inventory, validity/expiration, key ownership, replacement and incident recovery",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-02",
+      "claim": "Device enrollment is a separate trust-establishment step from later operation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-cswp42-iot-onboarding",
+          "location": "Device/network trust and secure provisioning of local network credentials",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-03",
+      "claim": "Certificate-based authentication and device authorization are distinct security decisions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-cswp42-iot-onboarding",
+          "location": "Device/network trust and secure provisioning of local network credentials",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp80057-part1r5-21",
+          "location": "Certificate inventory, validity/expiration, key ownership, replacement and incident recovery",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-04",
+      "claim": "Recovery plans must account for lost keys, controller state and availability dependencies.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp80057-part1r5-21",
+          "location": "Certificate inventory, validity/expiration, key ownership, replacement and incident recovery",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+  "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-networking-controls:009000",
+        "file": "009000-threat-models-and-secure-remote-access.md",
+        "sha256": "f37ac70a9cac6ac94b0abf4a1a9f005dd2fed5dcb7e2a04dadc9a11647c20162",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-threat-models-and-secure-remote-access.md",
+          "related_resources": [
+            {
+              "source_id": "cisco-secure-remote-access",
+              "reason": "Endpoint updates, access policy, MFA and VPN limitations; vendor-authored source"
+            },
+            {
+              "source_id": "nist-router-security",
+              "reason": "Router integrity, availability, and security as system dependencies"
+            },
+            {
+              "source_id": "nist-smart-home-auditing",
+              "reason": "Device audit challenges, readings, logs, configurations, and actionable policies"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P009000-01",
+              "claim": "Remote access should include account authentication, restricted authorization and regularly updated endpoints.",
+              "kind": "original_vendor_security_overview",
+              "supports": [
+                {
+                  "source_id": "cisco-secure-remote-access",
+                  "location": "Remote-access controls and endpoint maintenance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-02",
+              "claim": "Exposing a device management interface directly to the internet increases exposure beyond its original private LAN scope.",
+              "kind": "derived_network_boundary_reasoning",
+              "supports": [
+                {
+                  "source_id": "nist-router-security",
+                  "location": "Home network configuration and exposure management",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-03",
+              "claim": "Network cameras and other smart devices benefit from security auditing and scoped access controls.",
+              "kind": "derived_smart_home_security",
+              "supports": [
+                {
+                  "source_id": "nist-smart-home-auditing",
+                  "location": "Home/IoT security audit and device inventory",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+        }
+      },
+      {
+        "id": "practical-networking-controls:011000",
+        "file": "011000-device-identity-credentials-and-secure-provisioning.md",
+        "sha256": "4df6f55bd0d06012dea87b1400a414a55a8a92f29912cd30e2a1758f8f0e9500",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-device-identity-credentials-and-secure-provisioning.md",
+          "related_resources": [
+            {
+              "source_id": "nist-cswp42-iot-onboarding",
+              "reason": "Device/network trust and secure provisioning of local network credentials"
+            },
+            {
+              "source_id": "nist-ir8350-iot-onboarding",
+              "reason": "Onboarding functional roles, trust, lifecycle management and credentials"
+            },
+            {
+              "source_id": "nist-router-security",
+              "reason": "Router integrity, availability, and security as system dependencies"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "A trusted IoT onboarding system verifies network-device trust before provisioning connection credentials.",
+              "kind": "original_nist_network_onboarding",
+              "supports": [
+                {
+                  "source_id": "nist-cswp42-iot-onboarding",
+                  "location": "Network layer trust and credential provisioning",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "IoT onboarding includes lifecycle roles, not just initial Wi-Fi or Ethernet connectivity.",
+              "kind": "original_nist_iot_lifecycle",
+              "supports": [
+                {
+                  "source_id": "nist-ir8350-iot-onboarding",
+                  "location": "Lifecycle, roles and responsibilities",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "Unique per-device credentials support differentiated access and revocation in suitable systems.",
+              "kind": "original_nist_onboarding_principles",
+              "supports": [
+                {
+                  "source_id": "nist-cswp42-iot-onboarding",
+                  "location": "Network-layer credentials and trust",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "Network access boundaries and application permissions are distinct controls.",
+              "kind": "derived_security_architecture_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-router-security",
+                  "location": "Router/network security practices",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-ir8350-iot-onboarding",
+                  "location": "Device and network trust distinctions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-networking-controls:014000",
+        "file": "014000-network-segmentation-local-discovery-and-access-control.md",
+        "sha256": "4fdd457e5d09ff3d8fbc3965a01cf8bb172aed32147a9e3b20695c24833fb802",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-network-segmentation-local-discovery-and-access-control.md",
+          "related_resources": [
+            {
+              "source_id": "cisco-switch",
+              "reason": "Switch forwarding using Ethernet MAC addresses"
+            },
+            {
+              "source_id": "cisa-segmentation-2022",
+              "reason": "Segmentation restricts communication paths and requires appropriate access control boundaries"
+            },
+            {
+              "source_id": "nist-sp1800-15-iot",
+              "reason": "Restrict IoT traffic to device-appropriate purposes and apply updates and access controls"
+            },
+            {
+              "source_id": "rfc1034",
+              "reason": "Domain names and DNS resolution architecture"
+            },
+            {
+              "source_id": "rfc791",
+              "reason": "IPv4 addressing and IP layer; updated by later RFCs"
+            },
+            {
+              "source_id": "nist-router-security",
+              "reason": "Router integrity, availability, and security as system dependencies"
+            },
+            {
+              "source_id": "nist-sp80034r1-contingency",
+              "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P014000-01",
+              "claim": "VLANs separate link-layer traffic, but inter-subnet access requires correctly configured routing and firewall policy.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "cisco-switch",
+                  "location": "Switch forwarding using Ethernet MAC addresses",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cisa-segmentation-2022",
+                  "location": "Segmentation restricts communication paths and requires appropriate access control boundaries",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-02",
+              "claim": "Least-necessary communication access and secure updates limit the consequences of vulnerable IoT devices.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-sp1800-15-iot",
+                  "location": "Restrict IoT traffic to device-appropriate purposes and apply updates and access controls",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cisa-segmentation-2022",
+                  "location": "Segmentation restricts communication paths and requires appropriate access control boundaries",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-03",
+              "claim": "Local discovery mechanisms may not cross network boundaries even when unicast routing would permit a service connection.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "rfc1034",
+                  "location": "Domain names and DNS resolution architecture",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "rfc791",
+                  "location": "IPv4 addressing and IP layer; updated by later RFCs",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-04",
+              "claim": "Testing both allowed and disallowed paths and preserving configurations is part of reliable segmentation.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-router-security",
+                  "location": "Router integrity, availability, and security as system dependencies",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-sp80034r1-contingency",
+                  "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-networking-controls:020000",
+        "file": "020000-configuration-as-code-and-repeatable-device-commissioning.md",
+        "sha256": "33c1a941276e177a929e291827844b8a2fbb029ed602b4a0e19330e0a41a1234",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-configuration-as-code-and-repeatable-device-commissioning.md",
+          "related_resources": [
+            {
+              "source_id": "nist-iot-device-configuration",
+              "reason": "Logical access configuration, authorized software changes and secure state restoration"
+            },
+            {
+              "source_id": "nist-cswp42-iot-onboarding",
+              "reason": "Device/network trust and secure provisioning of local network credentials"
+            },
+            {
+              "source_id": "nist-sp80034r1-contingency",
+              "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+            },
+            {
+              "source_id": "ietf-rfc9110-idempotency",
+              "reason": "Idempotent request semantics and when a client may safely retry after a lost response"
+            },
+            {
+              "source_id": "nist-smart-home-auditing",
+              "reason": "Device audit challenges, readings, logs, configurations, and actionable policies"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P020000-01",
+              "claim": "Device identity, logical function and current IP address are distinct.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-cswp42-iot-onboarding",
+                  "location": "Device/network trust and secure provisioning of local network credentials",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-iot-device-configuration",
+                  "location": "Logical access configuration, authorized software changes and secure state restoration",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-02",
+              "claim": "Only authorized entities should change security-related device configuration.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-iot-device-configuration",
+                  "location": "Logical access configuration, authorized software changes and secure state restoration",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-03",
+              "claim": "Restoring a defined secure configuration is an explicit device capability goal.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-iot-device-configuration",
+                  "location": "Logical access configuration, authorized software changes and secure state restoration",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-04",
+              "claim": "Retry-safe desired-state commands can differ from repeated toggle actions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ietf-rfc9110-idempotency",
+                  "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-05",
+              "claim": "Contingency plans should consider power, connectivity and recovery.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-sp80034r1-contingency",
+                  "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-06",
+              "claim": "An exported interface state may omit device-side settings; functional commissioning remains necessary.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-smart-home-auditing",
+                  "location": "Device audit challenges, readings, logs, configurations, and actionable policies",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-cswp42-iot-onboarding",
+                  "location": "Device/network trust and secure provisioning of local network credentials",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+        }
+      },
+      {
+        "id": "practical-networking-controls:021000",
+        "file": "021000-device-certificates-authentication-and-recovery-in-local-networks.md",
+        "sha256": "80cbca1df9517c4adc5b7abc675e576c3b0169f6d1ef904c120670c411b50ad7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-device-certificates-authentication-and-recovery-in-local-networks.md",
+          "related_resources": [
+            {
+              "source_id": "nist-sp80057-part1r5-21",
+              "reason": "Certificate inventory, validity/expiration, key ownership, replacement and incident recovery"
+            },
+            {
+              "source_id": "nist-cswp42-iot-onboarding",
+              "reason": "Device/network trust and secure provisioning of local network credentials"
+            },
+            {
+              "source_id": "nist-sp80034r1-contingency",
+              "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P021000-01",
+              "claim": "Certificate inventory and proactive replacement reduce outages from credential expiration.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-sp80057-part1r5-21",
+                  "location": "Certificate inventory, validity/expiration, key ownership, replacement and incident recovery",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-02",
+              "claim": "Device enrollment is a separate trust-establishment step from later operation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-cswp42-iot-onboarding",
+                  "location": "Device/network trust and secure provisioning of local network credentials",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-03",
+              "claim": "Certificate-based authentication and device authorization are distinct security decisions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-cswp42-iot-onboarding",
+                  "location": "Device/network trust and secure provisioning of local network credentials",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-sp80057-part1r5-21",
+                  "location": "Certificate inventory, validity/expiration, key ownership, replacement and incident recovery",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-04",
+              "claim": "Recovery plans must account for lost keys, controller state and availability dependencies.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-sp80034r1-contingency",
+                  "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-sp80057-part1r5-21",
+                  "location": "Certificate inventory, validity/expiration, key ownership, replacement and incident recovery",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_or_clinical_review_pending",
+          "citation_policy": "Credit original authors and standards issuers; cite educational synthesis accurately. No engineering, clinical, or jurisdictional certification is claimed."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "009000-secure-and-commission-devices-repeatably.md"
+      ],
+      "joined_before_source_parts": [
+        "011000",
+        "020000"
+      ]
+    }
+  ]
 }

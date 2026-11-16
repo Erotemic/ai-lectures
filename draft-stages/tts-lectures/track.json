@@ -1,0 +1,785 @@
+{
+  "id": "g2",
+  "title": "Operator Theory and Spectral Perturbation",
+  "categories": [
+    "Mathematics"
+  ],
+  "lectures": [
+    {
+      "id": "000000",
+      "file": "000000-why-spectral-subspaces-move-eigenvalues-eigenspaces-and-residuals.md",
+      "title": "Why spectral subspaces move: eigenvalues, eigenspaces, and residuals",
+      "section": "orientation",
+      "spoken_words": 3117,
+      "estimated_minutes_at_145_wpm": 21.5,
+      "consolidated_from": [
+        "000000",
+        "106000"
+      ]
+    },
+    {
+      "id": "001000",
+      "file": "001000-linear-maps-independent-of-coordinates.md",
+      "title": "Linear maps independent of coordinates",
+      "section": ""
+    },
+    {
+      "id": "002000",
+      "file": "002000-norms-distances-and-convergence.md",
+      "title": "Norms, distances, and convergence",
+      "section": ""
+    },
+    {
+      "id": "003000",
+      "file": "003000-cauchy-sequences-and-banach-spaces.md",
+      "title": "Cauchy sequences and Banach spaces",
+      "section": ""
+    },
+    {
+      "id": "004000",
+      "file": "004000-bounded-linear-maps-and-the-operator-norm.md",
+      "title": "Bounded linear maps and the operator norm",
+      "section": ""
+    },
+    {
+      "id": "005000",
+      "file": "005000-the-banach-algebra-of-bounded-operators.md",
+      "title": "The Banach algebra of bounded operators",
+      "section": ""
+    },
+    {
+      "id": "006000",
+      "file": "006000-linear-functionals-and-dual-spaces.md",
+      "title": "Linear functionals and dual spaces",
+      "section": ""
+    },
+    {
+      "id": "007000",
+      "file": "007000-real-and-complex-scalars.md",
+      "title": "Real and complex scalars",
+      "section": ""
+    },
+    {
+      "id": "008000",
+      "file": "008000-resolvents-and-invertibility.md",
+      "title": "Resolvents and invertibility",
+      "section": ""
+    },
+    {
+      "id": "009000",
+      "file": "009000-inner-products-and-polarization.md",
+      "title": "Inner products and polarization",
+      "section": ""
+    },
+    {
+      "id": "010000",
+      "file": "010000-hilbert-spaces-and-orthogonal-complements.md",
+      "title": "Hilbert spaces and orthogonal complements",
+      "section": ""
+    },
+    {
+      "id": "011000",
+      "file": "011000-the-projection-theorem.md",
+      "title": "The projection theorem",
+      "section": ""
+    },
+    {
+      "id": "012000",
+      "file": "012000-adjoints-and-the-riesz-representation-theorem.md",
+      "title": "Adjoints and the Riesz representation theorem",
+      "section": ""
+    },
+    {
+      "id": "013000",
+      "file": "013000-self-adjoint-normal-and-unitary-maps.md",
+      "title": "Self-adjoint, normal, and unitary maps",
+      "section": ""
+    },
+    {
+      "id": "014000",
+      "file": "014000-isometries-coisometries-and-partial-isometries.md",
+      "title": "Isometries, coisometries, and partial isometries",
+      "section": ""
+    },
+    {
+      "id": "015000",
+      "file": "015000-invariant-and-reducing-subspaces.md",
+      "title": "Invariant and reducing subspaces",
+      "section": ""
+    },
+    {
+      "id": "016000",
+      "file": "016000-orthogonal-sums-and-block-operator-matrices.md",
+      "title": "Orthogonal sums and block-operator matrices",
+      "section": ""
+    },
+    {
+      "id": "017000",
+      "file": "017000-analysis-and-synthesis-maps.md",
+      "title": "Analysis and synthesis maps",
+      "section": ""
+    },
+    {
+      "id": "018000",
+      "file": "018000-gram-matrices-and-positive-gram-operators.md",
+      "title": "Gram matrices and positive Gram operators",
+      "section": ""
+    },
+    {
+      "id": "019000",
+      "file": "019000-frame-operators-and-parseval-identities.md",
+      "title": "Frame operators and Parseval identities",
+      "section": ""
+    },
+    {
+      "id": "020000",
+      "file": "020000-orthogonal-coordinate-embeddings.md",
+      "title": "Orthogonal coordinate embeddings",
+      "section": ""
+    },
+    {
+      "id": "021000",
+      "file": "021000-compressions-and-rayleigh-ritz-matrices.md",
+      "title": "Compressions and Rayleigh–Ritz matrices",
+      "section": ""
+    },
+    {
+      "id": "022000",
+      "file": "022000-overlaps-alignment-and-gram-rigidity.md",
+      "title": "Overlaps, alignment, and Gram rigidity",
+      "section": ""
+    },
+    {
+      "id": "023000",
+      "file": "023000-gram-operators-of-rectangular-maps.md",
+      "title": "Gram operators of rectangular maps",
+      "section": ""
+    },
+    {
+      "id": "024000",
+      "file": "024000-spectral-data-and-min-max-geometry.md",
+      "title": "Spectral data and min-max geometry",
+      "section": "",
+      "spoken_words": 7684,
+      "estimated_minutes_at_145_wpm": 53.0,
+      "consolidated_from": [
+        "024000",
+        "025000",
+        "026000",
+        "027000",
+        "028000"
+      ]
+    },
+    {
+      "id": "029000",
+      "file": "029000-weyl-monotonicity-and-variational-eigenvalue-inequalities.md",
+      "title": "Weyl monotonicity and eigenvalue inequalities: comparing operators without matching eigenvectors",
+      "section": ""
+    },
+    {
+      "id": "030000",
+      "file": "030000-spectral-projections-for-selected-sets.md",
+      "title": "Spectral projections: selecting whole pieces of an operator",
+      "section": ""
+    },
+    {
+      "id": "031000",
+      "file": "031000-ordered-gaps-versus-distance-gaps.md",
+      "title": "Ordered gaps versus distance gaps",
+      "section": ""
+    },
+    {
+      "id": "032000",
+      "file": "032000-coordinate-free-finite-functional-calculus.md",
+      "title": "Coordinate-free finite functional calculus",
+      "section": ""
+    },
+    {
+      "id": "033000",
+      "file": "033000-positivity-moduli-singular-values-and-polar-factors.md",
+      "title": "Positivity, moduli, singular values, and polar factors",
+      "section": "",
+      "spoken_words": 8976,
+      "estimated_minutes_at_145_wpm": 61.9,
+      "consolidated_from": [
+        "033000",
+        "034000",
+        "035000",
+        "036000",
+        "037000",
+        "038000"
+      ]
+    },
+    {
+      "id": "039000",
+      "file": "039000-matrix-exponentials-from-the-power-series.md",
+      "title": "Matrix exponentials from the power series",
+      "section": ""
+    },
+    {
+      "id": "040000",
+      "file": "040000-skew-adjoint-generators-and-unitary-flows.md",
+      "title": "Skew-adjoint generators and unitary flows",
+      "section": ""
+    },
+    {
+      "id": "041000",
+      "file": "041000-operator-trigonometric-functions.md",
+      "title": "Operator trigonometric functions",
+      "section": ""
+    },
+    {
+      "id": "042000",
+      "file": "042000-cross-gram-overlap-and-principal-angles.md",
+      "title": "Cross-Gram overlap and principal angles",
+      "section": ""
+    },
+    {
+      "id": "043000",
+      "file": "043000-sines-cosines-and-cross-projections.md",
+      "title": "Sines, cosines, and cross projections",
+      "section": ""
+    },
+    {
+      "id": "044000",
+      "file": "044000-the-cosine-sine-decomposition.md",
+      "title": "The cosine–sine decomposition",
+      "section": ""
+    },
+    {
+      "id": "045000",
+      "file": "045000-halmos-two-projection-decomposition.md",
+      "title": "Halmos two-projection decomposition",
+      "section": ""
+    },
+    {
+      "id": "046000",
+      "file": "046000-positive-cosine-and-sine-operators.md",
+      "title": "Positive cosine and sine operators",
+      "section": ""
+    },
+    {
+      "id": "047000",
+      "file": "047000-acute-pairs-and-transversality.md",
+      "title": "Acute pairs and transversality",
+      "section": ""
+    },
+    {
+      "id": "048000",
+      "file": "048000-the-sz-nagy-kato-intertwiner.md",
+      "title": "The Sz.-Nagy–Kato intertwiner",
+      "section": ""
+    },
+    {
+      "id": "049000",
+      "file": "049000-canonical-direct-rotation.md",
+      "title": "Canonical direct rotation",
+      "section": ""
+    },
+    {
+      "id": "050000",
+      "file": "050000-nonacute-angles-and-defect-matching.md",
+      "title": "Nonacute angles and defect matching",
+      "section": ""
+    },
+    {
+      "id": "051000",
+      "file": "051000-compact-angle-spectra-and-classification.md",
+      "title": "Compact angle spectra and classification",
+      "section": ""
+    },
+    {
+      "id": "052000",
+      "file": "052000-min-max-principles-for-singular-values.md",
+      "title": "Min–max principles for singular values",
+      "section": ""
+    },
+    {
+      "id": "053000",
+      "file": "053000-low-rank-approximation-and-eckart-young.md",
+      "title": "Low-rank approximation and Eckart–Young",
+      "section": ""
+    },
+    {
+      "id": "054000",
+      "file": "054000-ky-fan-sums-and-inequalities.md",
+      "title": "Ky Fan sums and inequalities",
+      "section": ""
+    },
+    {
+      "id": "055000",
+      "file": "055000-majorization-and-weak-majorization.md",
+      "title": "Majorization and weak majorization",
+      "section": ""
+    },
+    {
+      "id": "056000",
+      "file": "056000-convexity-and-majorization-descent.md",
+      "title": "Convexity and majorization descent",
+      "section": ""
+    },
+    {
+      "id": "057000",
+      "file": "057000-schatten-and-frobenius-norms.md",
+      "title": "Schatten and Frobenius norms",
+      "section": ""
+    },
+    {
+      "id": "058000",
+      "file": "058000-unitary-invariant-norms-and-symmetric-gauges.md",
+      "title": "Unitary-invariant norms and symmetric gauges",
+      "section": ""
+    },
+    {
+      "id": "059000",
+      "file": "059000-rectangular-invariance-and-zero-padding.md",
+      "title": "Rectangular invariance and zero padding",
+      "section": ""
+    },
+    {
+      "id": "060000",
+      "file": "060000-pinching-and-block-direct-sums.md",
+      "title": "Pinching and block direct sums",
+      "section": ""
+    },
+    {
+      "id": "061000",
+      "file": "061000-quadratic-form-inequalities-and-singular-values.md",
+      "title": "Quadratic-form inequalities and singular values",
+      "section": ""
+    },
+    {
+      "id": "062000",
+      "file": "062000-from-scalar-division-to-ax-xb-c.md",
+      "title": "From scalar division to AX−XB=C",
+      "section": ""
+    },
+    {
+      "id": "063000",
+      "file": "063000-diagonal-matrices-and-the-entrywise-solution.md",
+      "title": "Diagonal matrices and the entrywise solution",
+      "section": ""
+    },
+    {
+      "id": "064000",
+      "file": "064000-kronecker-sums-and-sylvester-invertibility.md",
+      "title": "Kronecker sums and Sylvester invertibility",
+      "section": ""
+    },
+    {
+      "id": "065000",
+      "file": "065000-ordered-spectral-separation.md",
+      "title": "Ordered spectral separation",
+      "section": ""
+    },
+    {
+      "id": "066000",
+      "file": "066000-semigroup-representations-and-distance-gap-limits.md",
+      "title": "Semigroup representations and distance-gap limits",
+      "section": "",
+      "spoken_words": 6842,
+      "estimated_minutes_at_145_wpm": 47.2,
+      "consolidated_from": [
+        "066000",
+        "067000",
+        "068000",
+        "069000",
+        "070000"
+      ]
+    },
+    {
+      "id": "071000",
+      "file": "071000-sylvester-identities-for-compressed-blocks.md",
+      "title": "Sylvester identities for compressed blocks",
+      "section": ""
+    },
+    {
+      "id": "072000",
+      "file": "072000-infinite-hilbert-examples-convergence-modes-and-measures.md",
+      "title": "Infinite Hilbert examples, convergence modes, and measures",
+      "section": "",
+      "spoken_words": 6053,
+      "estimated_minutes_at_145_wpm": 41.7,
+      "consolidated_from": [
+        "072000",
+        "072500",
+        "073000",
+        "074000"
+      ]
+    },
+    {
+      "id": "075000",
+      "file": "075000-continuous-functional-calculus-and-c-star-identities.md",
+      "title": "Continuous functional calculus and C-star identities",
+      "section": ""
+    },
+    {
+      "id": "076000",
+      "file": "076000-projection-valued-measures.md",
+      "title": "Projection-valued measures",
+      "section": ""
+    },
+    {
+      "id": "077000",
+      "file": "077000-scalar-spectral-measures-and-polarization.md",
+      "title": "Scalar spectral measures and polarization",
+      "section": ""
+    },
+    {
+      "id": "078000",
+      "file": "078000-cyclic-decompositions-and-multiplication-models.md",
+      "title": "Cyclic decompositions and multiplication models",
+      "section": ""
+    },
+    {
+      "id": "079000",
+      "file": "079000-borel-restrictions-continuous-spectrum-and-cutoffs.md",
+      "title": "Borel restrictions, continuous spectrum, and cutoffs",
+      "section": "",
+      "spoken_words": 8592,
+      "estimated_minutes_at_145_wpm": 59.3,
+      "consolidated_from": [
+        "079000",
+        "080000",
+        "080500",
+        "081000",
+        "082000"
+      ]
+    },
+    {
+      "id": "083000",
+      "file": "083000-densely-defined-operators-and-their-graphs.md",
+      "title": "Densely defined operators and their graphs",
+      "section": ""
+    },
+    {
+      "id": "084000",
+      "file": "084000-adjoints-of-unbounded-operators.md",
+      "title": "Adjoints of unbounded operators",
+      "section": ""
+    },
+    {
+      "id": "085000",
+      "file": "085000-hellinger-toeplitz-and-common-domain-discipline.md",
+      "title": "Hellinger–Toeplitz and common-domain discipline",
+      "section": ""
+    },
+    {
+      "id": "086000",
+      "file": "086000-resolvents-coercivity-and-spectral-location.md",
+      "title": "Resolvents, coercivity, and spectral location",
+      "section": ""
+    },
+    {
+      "id": "087000",
+      "file": "087000-cayley-spectral-calculus-reducing-domains-and-forms.md",
+      "title": "Cayley, spectral calculus, reducing domains, and forms",
+      "section": "",
+      "spoken_words": 6674,
+      "estimated_minutes_at_145_wpm": 46.0,
+      "consolidated_from": [
+        "087000",
+        "088000",
+        "089000",
+        "090000"
+      ]
+    },
+    {
+      "id": "091000",
+      "file": "091000-yosida-approximation-and-bounded-truncations.md",
+      "title": "Yosida approximation and bounded truncations",
+      "section": ""
+    },
+    {
+      "id": "091250",
+      "file": "091250-resolvents-and-yosida-regularization.md",
+      "title": "Resolvents and Yosida regularization",
+      "section": ""
+    },
+    {
+      "id": "091500",
+      "file": "091500-strong-resolvent-convergence-and-spectral-limits.md",
+      "title": "Strong resolvent convergence and spectral limits",
+      "section": ""
+    },
+    {
+      "id": "092000",
+      "file": "092000-one-parameter-unitary-groups-and-their-generators.md",
+      "title": "One-parameter unitary groups and their generators",
+      "section": ""
+    },
+    {
+      "id": "092250",
+      "file": "092250-hille-yosida-and-contraction-semigroups.md",
+      "title": "Hille–Yosida and contraction semigroups",
+      "section": ""
+    },
+    {
+      "id": "093000",
+      "file": "093000-domain-aware-sylvester-identities-and-cutoffs.md",
+      "title": "Domain-aware Sylvester identities and cutoffs",
+      "section": ""
+    },
+    {
+      "id": "094000",
+      "file": "094000-unbounded-sylvester-estimates.md",
+      "title": "Unbounded Sylvester estimates",
+      "section": ""
+    },
+    {
+      "id": "095000",
+      "file": "095000-compactness-and-finite-rank-approximation.md",
+      "title": "Compactness and finite-rank approximation",
+      "section": ""
+    },
+    {
+      "id": "096000",
+      "file": "096000-approximation-numbers-and-singular-value-sequences.md",
+      "title": "Approximation numbers and singular-value sequences",
+      "section": ""
+    },
+    {
+      "id": "097000",
+      "file": "097000-ky-fan-dominance-in-hilbert-space.md",
+      "title": "Ky Fan dominance in Hilbert space",
+      "section": ""
+    },
+    {
+      "id": "098000",
+      "file": "098000-ideal-membership-trace-classes-and-modulus-invariance.md",
+      "title": "Ideal membership, trace classes, and modulus invariance",
+      "section": "",
+      "spoken_words": 7793,
+      "estimated_minutes_at_145_wpm": 53.7,
+      "consolidated_from": [
+        "098000",
+        "099000",
+        "099500",
+        "100000",
+        "101000"
+      ]
+    },
+    {
+      "id": "102000",
+      "file": "102000-complexifying-real-operators-without-changing-theorem-scope.md",
+      "title": "Complexifying real operators without changing theorem scope",
+      "section": "",
+      "spoken_words": 3997,
+      "estimated_minutes_at_145_wpm": 27.6,
+      "consolidated_from": [
+        "102000",
+        "103000",
+        "104000"
+      ]
+    },
+    {
+      "id": "107000",
+      "file": "107000-residuals-block-equations-and-the-sine-theorem.md",
+      "title": "Residuals, block equations, and the sine theorem",
+      "section": "",
+      "spoken_words": 6830,
+      "estimated_minutes_at_145_wpm": 47.1,
+      "consolidated_from": [
+        "107000",
+        "108000",
+        "109000",
+        "110000"
+      ]
+    },
+    {
+      "id": "111000",
+      "file": "111000-graph-subspaces-and-tangent-geometry.md",
+      "title": "Graph subspaces and tangent geometry",
+      "section": ""
+    },
+    {
+      "id": "112000",
+      "file": "112000-the-single-angle-tangent-theorem.md",
+      "title": "The single-angle tangent theorem",
+      "section": ""
+    },
+    {
+      "id": "113000",
+      "file": "113000-sharp-examples-and-norm-class-comparisons.md",
+      "title": "Sharp examples and norm-class comparisons",
+      "section": ""
+    },
+    {
+      "id": "114000",
+      "file": "114000-reflections-and-double-angle-estimates.md",
+      "title": "Reflections and double-angle estimates",
+      "section": "",
+      "spoken_words": 6090,
+      "estimated_minutes_at_145_wpm": 42.0,
+      "consolidated_from": [
+        "114000",
+        "115000",
+        "116000",
+        "117000"
+      ]
+    },
+    {
+      "id": "118000",
+      "file": "118000-why-a-small-doubled-sine-proves-little-alone.md",
+      "title": "Why a small doubled sine proves little alone",
+      "section": ""
+    },
+    {
+      "id": "119000",
+      "file": "119000-spectral-selection-and-repulsion.md",
+      "title": "Spectral selection and repulsion",
+      "section": ""
+    },
+    {
+      "id": "120000",
+      "file": "120000-small-angle-certification.md",
+      "title": "Small-angle certification",
+      "section": ""
+    },
+    {
+      "id": "121000",
+      "file": "121000-a-comparative-theorem-decision-procedure.md",
+      "title": "A comparative theorem decision procedure",
+      "section": ""
+    },
+    {
+      "id": "122000",
+      "file": "122000-ambient-comparisons-and-generalized-frames.md",
+      "title": "Ambient comparisons and generalized frames",
+      "section": "",
+      "spoken_words": 6147,
+      "estimated_minutes_at_145_wpm": 42.4,
+      "consolidated_from": [
+        "122000",
+        "123000",
+        "124000",
+        "125000"
+      ]
+    },
+    {
+      "id": "126000",
+      "file": "126000-weak-spectral-gaps-and-hilbert-schmidt-estimates.md",
+      "title": "Weak spectral gaps and Hilbert–Schmidt estimates",
+      "section": ""
+    },
+    {
+      "id": "127000",
+      "file": "127000-the-generalized-tangent-bound.md",
+      "title": "The generalized tangent bound",
+      "section": ""
+    },
+    {
+      "id": "128000",
+      "file": "128000-spectral-cutoff-and-finite-rank-source-lemmas.md",
+      "title": "Spectral cutoff and finite-rank source lemmas",
+      "section": ""
+    },
+    {
+      "id": "129000",
+      "file": "129000-one-complete-original-paper-proof-reconstruction.md",
+      "title": "One complete original-paper proof reconstruction",
+      "section": ""
+    },
+    {
+      "id": "130000",
+      "file": "130000-restricted-direct-rotation-optimality.md",
+      "title": "Restricted direct-rotation optimality",
+      "section": ""
+    },
+    {
+      "id": "131000",
+      "file": "131000-the-squared-displacement-of-orthonormal-frames.md",
+      "title": "The squared displacement of orthonormal frames",
+      "section": ""
+    },
+    {
+      "id": "132000",
+      "file": "132000-whole-space-squared-displacement-and-q-norms.md",
+      "title": "Whole-space squared displacement and Q-norms",
+      "section": ""
+    },
+    {
+      "id": "133000",
+      "file": "133000-unsquared-failure-correction-and-real-matching.md",
+      "title": "Unsquared failure, correction, and real matching",
+      "section": "",
+      "spoken_words": 7759,
+      "estimated_minutes_at_145_wpm": 53.5,
+      "consolidated_from": [
+        "133000",
+        "134000",
+        "135000",
+        "136000",
+        "145000"
+      ]
+    },
+    {
+      "id": "137000",
+      "file": "137000-free-beam-model-rayleigh-ritz-and-angle-certificates.md",
+      "title": "Free-beam model, Rayleigh-Ritz, and angle certificates",
+      "section": "",
+      "spoken_words": 6109,
+      "estimated_minutes_at_145_wpm": 42.1,
+      "consolidated_from": [
+        "137000",
+        "138000",
+        "139000",
+        "140000"
+      ]
+    },
+    {
+      "id": "141000",
+      "file": "141000-how-much-can-a-distance-only-gap-say.md",
+      "title": "How much can a distance-only gap say",
+      "section": ""
+    },
+    {
+      "id": "142000",
+      "file": "142000-three-subspaces-and-higher-order-interactions.md",
+      "title": "Three subspaces and higher-order interactions",
+      "section": ""
+    },
+    {
+      "id": "143000",
+      "file": "143000-joint-movement-of-eigenvalues-and-angles.md",
+      "title": "Joint movement of eigenvalues and angles",
+      "section": ""
+    },
+    {
+      "id": "144000",
+      "file": "144000-stability-of-functions-of-operators.md",
+      "title": "Stability of functions of operators",
+      "section": ""
+    },
+    {
+      "id": "146000",
+      "file": "146000-rectangular-singular-subspace-bounds.md",
+      "title": "Rectangular singular-subspace bounds",
+      "section": ""
+    },
+    {
+      "id": "147000",
+      "file": "147000-population-gap-spectral-statistics.md",
+      "title": "Population-gap spectral statistics",
+      "section": ""
+    },
+    {
+      "id": "148000",
+      "file": "148000-procrustes-and-spectral-embeddings.md",
+      "title": "Procrustes and spectral embeddings",
+      "section": ""
+    },
+    {
+      "id": "105000",
+      "file": "105000-proof-reconstruction-residual-estimates-and-the-davis-kahan-theorem-families.md",
+      "title": "Proof reconstruction: residual estimates and the Davis-Kahan theorem families",
+      "section": "davis-kahan",
+      "spoken_words": 4092,
+      "estimated_minutes_at_145_wpm": 28.2,
+      "consolidated_from": [
+        "105000",
+        "149000"
+      ]
+    }
+  ]
+}

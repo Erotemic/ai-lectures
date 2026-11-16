@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "014000",
-  "transcript": "014000-window-condensation-case-study-surface-versus-hidden-moisture.md",
+  "transcript": "014000-distinguish-seasonal-moisture-mechanisms.md",
   "related_resources": [
     {
       "source_id": "epa-moisture-mold-guide",
@@ -22,6 +22,18 @@
     {
       "source_id": "epa-mold-home",
       "reason": "Fixing leaks, prompt drying and distinguishing moisture problems"
+    },
+    {
+      "source_id": "redcross-frozen-pipes",
+      "reason": "Vulnerable pipe locations, preventive heating, safe thaw methods, and warning against open flames"
+    },
+    {
+      "source_id": "michigan-frozen-pipes",
+      "reason": "Cold-air leakage prevention, hose disconnection, water shutoff and frozen-line handling"
+    },
+    {
+      "source_id": "epa-maintenance",
+      "reason": "Leak monitoring and water-using systems"
     }
   ],
   "historical_claims": [],
@@ -105,8 +117,517 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
       "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "A cold attic can receive moisture either from exterior roof leakage or air transported from indoor spaces.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Different enclosure moisture pathways",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-flashing-buildings",
+          "location": "Building envelope flashing and continuity of drainage plane around openings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Air leakage and vapor diffusion are distinct water-vapor transport pathways.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Different enclosure moisture pathways",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Moisture stains and meter readings require timing and context to infer the true water path.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "mass-moisture-meter",
+          "location": "Moisture-meter limitations and origin/timing of wetting",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-mold-home",
+          "location": "Fixing leaks, prompt drying and distinguishing moisture problems",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Durable repairs require source control and material drying rather than simply covering visible damage.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-mold-home",
+          "location": "Fixing leaks, prompt drying and distinguishing moisture problems",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-flashing-buildings",
+          "location": "Building envelope flashing and continuity of drainage plane around openings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-01",
+      "claim": "Pipes in cold exterior walls and unheated spaces are vulnerable to freezing, particularly where warm air cannot reach them.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "redcross-frozen-pipes",
+          "location": "Vulnerable pipe locations, preventive heating, safe thaw methods, and warning against open flames",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "michigan-frozen-pipes",
+          "location": "Cold-air leakage prevention, hose disconnection, water shutoff and frozen-line handling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Air leakage and thermal boundary placement can expose plumbing to very cold local conditions.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Different enclosure moisture pathways",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "michigan-frozen-pipes",
+          "location": "Cold-air leakage prevention, hose disconnection, water shutoff and frozen-line handling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Open flames should not be used to thaw frozen pipes and electricity must be kept out of standing water.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "redcross-frozen-pipes",
+          "location": "Vulnerable pipe locations, preventive heating, safe thaw methods, and warning against open flames",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Long-term repair should control the cold exposure pathway rather than merely replace a ruptured pipe in the same cavity.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "michigan-frozen-pipes",
+          "location": "Cold-air leakage prevention, hose disconnection, water shutoff and frozen-line handling",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "redcross-frozen-pipes",
+          "location": "Vulnerable pipe locations, preventive heating, safe thaw methods, and warning against open flames",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-household-maintenance:014000",
+        "file": "014000-window-condensation-case-study-surface-versus-hidden-moisture.md",
+        "sha256": "d9ec2132d52e293013b296c48f63b1b25247ef03f393e9a018e2b9f4af2dc3fd",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-window-condensation-case-study-surface-versus-hidden-moisture.md",
+          "related_resources": [
+            {
+              "source_id": "epa-moisture-mold-guide",
+              "reason": "Moisture control, prompt drying and source repair; mold prevention scope"
+            },
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Different enclosure moisture pathways"
+            },
+            {
+              "source_id": "pnnl-flashing-buildings",
+              "reason": "Building envelope flashing and continuity of drainage plane around openings"
+            },
+            {
+              "source_id": "mass-moisture-meter",
+              "reason": "Moisture-meter limitations and origin/timing of wetting"
+            },
+            {
+              "source_id": "epa-mold-home",
+              "reason": "Fixing leaks, prompt drying and distinguishing moisture problems"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P014000-01",
+              "claim": "Indoor-surface condensation is plausible when local surface temperature falls below the indoor-air dew point.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "epa-moisture-mold-guide",
+                  "location": "Moisture control, prompt drying and source repair; mold prevention scope",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Different enclosure moisture pathways",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-02",
+              "claim": "Moisture visible at a window may arise from indoor condensation, failed glazing seals or exterior bulk-water intrusion.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "pnnl-flashing-buildings",
+                  "location": "Building envelope flashing and continuity of drainage plane around openings",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-moisture-mold-guide",
+                  "location": "Moisture control, prompt drying and source repair; mold prevention scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-03",
+              "claim": "Rainwater control and air/vapor control serve different functions; interior caulk alone does not restore a failed exterior drainage plane.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "pnnl-flashing-buildings",
+                  "location": "Building envelope flashing and continuity of drainage plane around openings",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Different enclosure moisture pathways",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-04",
+              "claim": "Time-aligned humidity, surface, and rain observations help discriminate moisture sources before repairs.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "mass-moisture-meter",
+                  "location": "Moisture-meter limitations and origin/timing of wetting",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-mold-home",
+                  "location": "Fixing leaks, prompt drying and distinguishing moisture problems",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-household-maintenance:015000",
+        "file": "015000-attic-dampness-case-study-roof-leak-versus-air-leakage.md",
+        "sha256": "a7c12f37293b60937180ab51f0525238d902e0e736df6774bce4c70f3e288fa6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-attic-dampness-case-study-roof-leak-versus-air-leakage.md",
+          "related_resources": [
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Different enclosure moisture pathways"
+            },
+            {
+              "source_id": "epa-mold-home",
+              "reason": "Fixing leaks, prompt drying and distinguishing moisture problems"
+            },
+            {
+              "source_id": "mass-moisture-meter",
+              "reason": "Moisture-meter limitations and origin/timing of wetting"
+            },
+            {
+              "source_id": "pnnl-flashing-buildings",
+              "reason": "Building envelope flashing and continuity of drainage plane around openings"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "A cold attic can receive moisture either from exterior roof leakage or air transported from indoor spaces.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Different enclosure moisture pathways",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-flashing-buildings",
+                  "location": "Building envelope flashing and continuity of drainage plane around openings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "Air leakage and vapor diffusion are distinct water-vapor transport pathways.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Different enclosure moisture pathways",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Moisture stains and meter readings require timing and context to infer the true water path.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "mass-moisture-meter",
+                  "location": "Moisture-meter limitations and origin/timing of wetting",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-mold-home",
+                  "location": "Fixing leaks, prompt drying and distinguishing moisture problems",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Durable repairs require source control and material drying rather than simply covering visible damage.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-mold-home",
+                  "location": "Fixing leaks, prompt drying and distinguishing moisture problems",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-flashing-buildings",
+                  "location": "Building envelope flashing and continuity of drainage plane around openings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-household-maintenance:016000",
+        "file": "016000-frozen-pipe-case-study-prevention-and-recovery.md",
+        "sha256": "02f922b6194d7a6a7da4a51c2df0d1e5436bc4ef41e0cd193e8c65ec3442705f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-frozen-pipe-case-study-prevention-and-recovery.md",
+          "related_resources": [
+            {
+              "source_id": "redcross-frozen-pipes",
+              "reason": "Vulnerable pipe locations, preventive heating, safe thaw methods, and warning against open flames"
+            },
+            {
+              "source_id": "michigan-frozen-pipes",
+              "reason": "Cold-air leakage prevention, hose disconnection, water shutoff and frozen-line handling"
+            },
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Different enclosure moisture pathways"
+            },
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leak monitoring and water-using systems"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "Pipes in cold exterior walls and unheated spaces are vulnerable to freezing, particularly where warm air cannot reach them.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "redcross-frozen-pipes",
+                  "location": "Vulnerable pipe locations, preventive heating, safe thaw methods, and warning against open flames",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "michigan-frozen-pipes",
+                  "location": "Cold-air leakage prevention, hose disconnection, water shutoff and frozen-line handling",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "Air leakage and thermal boundary placement can expose plumbing to very cold local conditions.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Different enclosure moisture pathways",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "michigan-frozen-pipes",
+                  "location": "Cold-air leakage prevention, hose disconnection, water shutoff and frozen-line handling",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "Open flames should not be used to thaw frozen pipes and electricity must be kept out of standing water.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "redcross-frozen-pipes",
+                  "location": "Vulnerable pipe locations, preventive heating, safe thaw methods, and warning against open flames",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Long-term repair should control the cold exposure pathway rather than merely replace a ruptured pipe in the same cavity.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "michigan-frozen-pipes",
+                  "location": "Cold-air leakage prevention, hose disconnection, water shutoff and frozen-line handling",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "redcross-frozen-pipes",
+                  "location": "Vulnerable pipe locations, preventive heating, safe thaw methods, and warning against open flames",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "014000-distinguish-seasonal-moisture-mechanisms.md"
+      ],
+      "joined_before_source_parts": [
+        "015000",
+        "016000"
+      ]
+    }
+  ]
 }

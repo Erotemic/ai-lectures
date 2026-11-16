@@ -47,6 +47,9 @@ export class CatalogBrowser {
         el("small", {
           text: `${formatMinutes(row.estimated_minutes || (row.words || 0) / 145)}${saved?.legacy ? " · Old reader: passage " + (saved.legacy.page_index + 1) : saved?.completed ? " · Completed" : saved ? " · In progress" : ""}`,
         }),
+        (row.short_format_reason || row.metadata?.short_format_reason)
+          ? el("small", { class: "format-note", text: row.short_format_reason || row.metadata.short_format_reason })
+          : null,
       ),
       this.badge(row),
     );
@@ -426,7 +429,7 @@ export class CatalogBrowser {
       ));
     const archives = children.filter(c => c.role === "archive");
     if (archives.length)
-      resources.append(el("details", {}, el("summary", { text: "Complete original sequences" }),
+      resources.append(el("details", {}, el("summary", { text: "Full collections" }),
         el("div", { class: "route-links" }, ...archives.map(c => this.routeLink(c.id, null, id))),
       ));
     if (directRows.some(row => row.kind === "audio")) {
@@ -455,6 +458,8 @@ export class CatalogBrowser {
   collectionContents(contents, collection, refreshStart) {
     const id = collection.id;
     const sections = collectionSections(collection, this.byId);
+    const flat = collection.lectures.length <= 12 && sections.every(section =>
+      !section.sessions?.length && !section.collection && (sections.length === 1 || section.lectures.length === 1));
     const params = new URLSearchParams(location.search);
     const search = el("input", { id: "collection-search", type: "search", placeholder: "Search titles, topics, or IDs", "aria-label": "Search this collection", value: params.get("find") || "" });
     const jump = el("select", { "aria-label": "Jump to section" },
@@ -470,8 +475,8 @@ export class CatalogBrowser {
     const openState = getStored(openedKey, {});
     const controls = el("div", { class: "contents-controls" }, search,
       el("div", { class: "actions" }, sections.length > 1 || sections.some(s => s.sessions?.length) ? jump : null,
-        this.button("Expand all", () => results.querySelectorAll("details").forEach(d => { d.open = true; })),
-        this.button("Collapse all", () => results.querySelectorAll("details").forEach(d => { d.open = false; })),
+        !flat ? this.button("Expand all", () => results.querySelectorAll("details").forEach(d => { d.open = true; })) : null,
+        !flat ? this.button("Collapse all", () => results.querySelectorAll("details").forEach(d => { d.open = false; })) : null,
         this.button("Clear search", () => { search.value = ""; update(); search.focus(); }),
       ), count,
     );
@@ -492,6 +497,12 @@ export class CatalogBrowser {
         if (!groups.length) continue;
         const keys = groups.flatMap(group => group.lectures);
         shown += keys.length;
+        if (flat) {
+          const list = el("ol", { class: "list", id: section.id, tabindex: "-1" });
+          for (const key of keys) this.appendItem(list, key, id);
+          results.append(list);
+          continue;
+        }
         const minutes = keys.reduce((sum, key) => sum + (this.byId(key)?.estimated_minutes || (this.byId(key)?.words || 0) / 145), 0);
         const done = keys.filter(key => this.progress()[key]?.completed).length;
         const detail = el("details", { class: "contents-section", id: section.id },
@@ -513,7 +524,7 @@ export class CatalogBrowser {
         }
         results.append(detail);
       }
-      count.textContent = q ? `${shown} of ${collection.lectures.length} items match` : `${collection.lectures.length} items · Original listening order`;
+      count.textContent = q ? `${shown} of ${collection.lectures.length} items match` : `${collection.lectures.length} items · Collection order`;
       if (!shown) results.append(el("p", { class: "notice", text: "No matching items. Try another title or ID, or clear the search." }));
     };
     search.addEventListener("input", update);

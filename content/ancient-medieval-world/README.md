@@ -1,264 +1,39 @@
 # Before the Modern World: Ancient and Medieval Histories
 
-This is an independent, source-grounded, audio-first world-history curriculum for the approximately five millennia between the first large urban societies and the modern-world track's opening around 1500 CE. It fills chronological gaps rather than replacing the existing Deep Time, World History, or Modern World collections.
+Forty-two manuscripts now carry the inherited material as coherent lectures: ten comparative survey lectures and thirty-two regional or evidence studies. The main survey follows broad historical periods from early urban worlds to around 1500. Each linked study keeps its own geography and chronology; early East African livelihoods and later Central African memory are no longer filed automatically under a medieval coastal or 1500 survey entry.
 
-## Published-in-index manuscripts
+The source inventory follows the survey, then the explicit regional map. Within each lecture, spoken transitions identify changes of place, period, scale, and evidence. Comparison does not imply contact or a single path of development. The Caribbean orientation (`055000`, about nine minutes) remains a complete focused exception; it has not been fused with an unrelated mainland history.
 
-| ID | Topic | Spoken words |
+See [COVERAGE_AUDIT.md](COVERAGE_AUDIT.md) and [BACKLOG.md](BACKLOG.md) for research gaps. Their original component numbers are historical coverage locators; use the current inventory below for playback.
+
+## Current inventory
+
+Checked 16 November 2026: **42 indexed manuscripts**. Durations are descriptive estimates from canonical spoken text, not acceptance limits.
+
+| Route | Current lecture IDs | Estimated minutes at 145 wpm |
 | --- | --- | ---: |
-| 001000 | What Makes a City? Households, Fields, and the First Urban Worlds | 1,526 |
-| 002000 | Kingdoms of Clay: Mesopotamia from Sumer to Babylon | 1,369 |
-| 002100 | When a Tablet Counts Workers: Women and Labor in Ur III | 1,320 |
-| 003000 | Beyond the Pyramid: The Nile, the State, and the People Who Built Egypt | 1,436 |
-| 004000 | The Cities That Do Not Name Their Kings: Life in the Indus World | 1,406 |
-| 005000 | Bronze and Bone: Early Chinese States and the Problem of Dynastic Memory | 1,396 |
-| 006000 | The Sea Between Palaces: Trade, Diplomacy, and the End of the Bronze Age | 1,367 |
-| 007000 | Cities on Different Terms: Caral, the Gulf Coast, and Early American Worlds | 1,225 |
-| 008000 | After the Palaces: Rebuilding Worlds around 1200 BCE | 1,300 |
-| 008100 | Letters across the Water: Phoenician Cities and the Making of a Mediterranean | 1,322 |
-| 009000 | The Assyrian Imperial System and the People It Ruled | 1,265 |
-| 009100 | Between the Story and the Stone: Israel, Judah, and the Empires Around Them | 1,331 |
-| 010000 | Persia: How an Empire Governs Many Peoples | 1,213 |
-| 011000 | Greek Worlds before Alexander: Citizenship, Conflict, and the Polis | 1,239 |
-| 011100 | Who Counted as the People? Democracy, Law, and Labor in Athens | 1,299 |
-| 012000 | The Ganges Plain: Cities, Kingdoms, and Paths to Liberation | 1,196 |
-| 013000 | Eastern Zhou: Contending States and Arguments about Rule | 1,124 |
-| 014000 | Beyond Egypt's Southern Border: Kush and the Early Sahel | 1,241 |
-| 014100 | Beyond the Pyramids: Rulers, Scribes, and the Meroitic Kingdom of Kush | 1,269 |
-| 015000 | Several American Worlds: Ceremonial Centers, Settlements, and Exchange | 1,166 |
-| 016000 | After Alexander: Conquest, Succession, and the Hellenistic Kingdoms | 1,455 |
-| 017000 | A King's Words in Stone: The Maurya World and Ashoka's Edicts | 1,354 |
-| 018000 | Counting Households, Governing Distances: Qin and Han China | 1,287 |
-| 019000 | Who Owned the Republic? Rome's Road to Imperial Rule | 1,350 |
-| 020000 | Kingdoms between the Empires: Kush, Aksum, Arabia, and Iran | 1,426 |
-| 020100 | Water before Incense: Engineering and Power in Ancient Saba | 1,286 |
-| 021000 | Routes without a Single Silk Road: Merchants, Oceans, and Intermediaries | 1,287 |
-| 022000 | Cities without the Roman Calendar: American Worlds across the Classical Centuries | 1,392 |
-| 022100 | A City of Many Neighbors: Migration and Work at Teotihuacan | 1,254 |
-| 022200 | Signs above the Valley: Writing, Power, and Households at Monte Albán | 1,316 |
-| 022210 | The Work behind the Walls: Families and Crafts at El Palmillo | 1,087 |
-| 022220 | A Sea in the City: Teopancazco and Teotihuacan’s Neighborhood Economy | 1,000 |
-| 022230 | One Day in 378: Tikal, Teotihuacan, and the Politics of an Arrival | 1,017 |
-| 023000 | An Empire at the Door: Homes, Labor, and Inequality in the Classical World | 1,411 |
-| 024000 | When Rome Changed Shape: Emperors, Cities, and the Eastern Empire | 1,447 |
-| 025000 | A King of Kings beside Other Worlds: Sasanian Iran and Its Neighbors | 1,366 |
-| 025100 | Who Inherits the Orchard? Houses, Debts, and Sasanian Law | 1,287 |
-| 025110 | Five Marks in Clay: Seals and Offices in Sasanian Iran | 1,176 |
-| 026000 | Beyond a Golden Age: Gupta-Era India and Regional Power | 1,398 |
-| 027000 | Many Courts, One Canal: China from Division to the Early Tang | 1,386 |
-| 028000 | Many Churches, Changing Empires: Christianity in Late Antiquity | 1,368 |
-| 029000 | Arabia and the First Muslim Community: History, Memory, and the Qur'an | 1,377 |
-| 030000 | After the Conquests: Caliphs, Taxpayers, and the Making of an Empire | 1,500 |
-| 030100 | A Release Written on Papyrus: Law and Justice in Early Islamic Egypt | 1,293 |
-| 031000 | Across the Red Sea: Aksum, Adulis, and a Connected African World | 1,419 |
-| 032000 | A City of Paper and Rivers: Baghdad and the Abbasid Worlds | 1,378 |
-| 032100 | The Work between Languages: Translation and Knowledge in Abbasid Baghdad | 1,332 |
-| 033000 | From Chang'an to the Southern Ports: Tang and Song China | 1,336 |
-| 033100 | Exams, Paper, and Families: The Song State’s Printed World | 1,298 |
-| 033200 | When Property Went to Court: Women and Judgment in Song China | 1,280 |
-| 034000 | Monsoons, Temples, and Ports: South and Southeast Asian Worlds | 1,394 |
-| 034100 | A Debt Cleared in Copper: Law and Language in Tenth-Century Luzon | 1,258 |
-| 034200 | A Kingdom in the River Mouths: Srivijaya, Oaths, and the Straits | 1,297 |
-| 034300 | The Reservoir beyond the Palace: Water and Work in Ancient Sri Lanka | 1,134 |
-| 034310 | A Grant at Kollam: Traders, Churches, and the Work of a Port | 1,050 |
-| 034320 | A House inside the Walls: The Pyu Cities before Bagan | 1,121 |
-| 034330 | Beads along a Changing Delta: Angkor Borei and Óc Eo | 1,127 |
-| 035000 | Across the Sahel: Ghana, Cities, and Trans-Saharan Worlds | 1,367 |
-| 035100 | Before the Gold Crossed the Desert: Tadmekka, Gao, and the Work of Trade | 1,200 |
-| 036000 | Shorelines of Exchange: East Africa and the Indian Ocean | 1,365 |
-| 036100 | Rice across an Ocean: Madagascar, the Comoros, and Early Island Settlement | 1,288 |
-| 036200 | Coins beneath the House: Kilwa and the Meaning of Swahili Wealth | 1,169 |
-| 036300 | Rooms beneath the Shore: Unguja Ukuu, Fukuchani, and Early Zanzibar | 1,436 |
-| 036400 | Trade without a Stone Palace: Tumbe, Kimimba, and the Villages of Pemba | 1,544 |
-| 036500 | Pots across Rivers and Coasts: The Early Tana Tradition and Africa's Hinterland | 1,520 |
-| 036600 | Who Founded the Coast? Shanga, Mijikenda Histories, and Disputed Origins | 1,611 |
-| 036700 | Beyond the Beach Market: Chibuene and the Routes into Southern Africa | 1,587 |
-| 036800 | Stones for the Living: Lake Turkana's First Herders and a Monument for Many | 1,088 |
-| 036810 | A Herd and Grinding Stones: Working Life at Luxmanda | 1,089 |
-| 036820 | After the Lake Shifted: Kansyore Fishing Communities and Changing Neighbors | 1,197 |
-| 036830 | A Seed in the Hearth: Kakapel and the Crops of Eastern Africa | 1,165 |
-| 036840 | Iron behind the Ports: Kasigau, Tsavo, and the Work of Trade | 1,198 |
-| 036850 | Building Fields from Rivers: Engaruka and the Engineering of Water | 1,237 |
-| 036860 | What a Pot Cannot Say: Urewe across the Great Lakes | 1,105 |
-| 036870 | What the Slag Remembers: Early Iron Furnaces in Rwanda and Burundi | 1,071 |
-| 036880 | Fuel and Iron in Buhaya: Technology, Forests, and Change beside Lake Victoria | 1,061 |
-| 036890 | Neighbors by the Lake: Kansyore, Urewe, and the Problems of a Farming Frontier | 1,094 |
-| 036900 | Words, Genes, and Moving Families: What the Bantu Expansion Explains | 1,276 |
-| 036910 | Mounds, Cattle, and Enclosures: Ntusi, Bigo, and Political Change in Uganda | 1,296 |
-| 036920 | At the Falls Again: Kalambo and the Many Ages of a Place | 1,026 |
-| 036930 | The Shelter Was Not Empty: Nakapapula and Contact in Central Zambia | 1,003 |
-| 036940 | Houses on a Moving Shore: The Iron Age beside Lake Malawi | 1,121 |
-| 036950 | A Seed, a Bone, and a Village: Farming in the Zambian Interior | 1,212 |
-| 036960 | Red Metal, Many Routes: Copper and Exchange in Central Africa | 1,211 |
-| 036970 | Burials beside the Lualaba: Work, Wealth, and the Upemba Wetlands | 1,317 |
-| 036980 | When the Copper Crosses Changed: Upemba and the Kabambian Centuries | 972 |
-| 036982 | A Pot before the Ironworker: Luani, Nkar, and the Kwilu-Kasai Interior | 978 |
-| 036984 | The Centuries with Few Dates: Settlement Gaps in the Congo Basin | 976 |
-| 036986 | A King in the Story: Luba Origins, Authority, and Historical Evidence | 931 |
-| 036988 | A History in the Hand: Luba Lukasa and the Work of Remembering | 993 |
-| 036990 | A Marriage Told Many Ways: Luba, Lunda, and Political Histories | 997 |
-| 037000 | Fields, Lords, and Market Streets: Medieval European Societies | 1,344 |
-| 037100 | A Charter under Pressure: Magna Carta and the Claims of Law | 1,300 |
-| 038000 | Rivers to the Sea: Scandinavians, Rus, and the North Atlantic | 1,307 |
-| 039000 | Courts across the Water: Korea and Japan in Medieval East Asia | 1,337 |
-| 039100 | A Field under Several Names: Estates, Taxes, and Work in Medieval Japan | 1,293 |
-| 039200 | A Room behind the Screen: Women, Writing, and Power at the Heian Court | 1,357 |
-| 040000 | Reading the Ocean: Voyaging and Settlement in the Pacific | 1,359 |
-| 040100 | Country, Water, and Fire: Different Histories of Australia before Colonization | 1,189 |
-| 040200 | Before the Distant Islands: Lapita Households and the First Remote Ocean Voyages | 1,187 |
-| 040210 | Stone from Faraway Shores: Tonga, Samoa, and Maritime Power | 1,101 |
-| 040220 | Islands Made by Hand: Nan Madol and the Histories of Pohnpei | 1,055 |
-| 040230 | Gardens among the Stones: Rapa Nui before European Arrival | 1,107 |
-| 040240 | A New Land with Old Skills: The First Māori Centuries in Aotearoa | 1,030 |
-| 040250 | Fields between Rain and Sea: Farming and Authority in Early Hawaiʻi | 1,032 |
-| 041000 | Many Khans, Many Empires: Conquest and Government across Eurasia | 1,341 |
-| 042000 | A Disease with Many Histories: Plague across the Fourteenth-Century World | 1,342 |
-| 043000 | More than a Pilgrimage: Mali, the Sahel, and the Work of Empire | 1,297 |
-| 043100 | Faces from a City: Pavements, Craft, and Authority at Ilé-Ifẹ̀ | 1,265 |
-| 043200 | The Metalwork beneath the Courtyard: Igbo-Ukwu and the Limits of an Excavation | 1,333 |
-| 043300 | When Was the Book Written? Timbuktu, Scholars, and the Lives of Manuscripts | 1,274 |
-| 044000 | The Walls and the Lives Beyond Them: Great Zimbabwe and Southern Africa | 1,249 |
-| 044100 | A Hill above the River: Cattle, Gold, and Power at Mapungubwe | 1,164 |
-| 044200 | Before the Brass Plaques: The Edo Kingdom and Benin City | 1,209 |
-| 044300 | Before the Portuguese Arrived: How the Kingdom of Kongo Took Shape | 1,233 |
-| 045000 | More than One Capital: Maya and Mexica Worlds before 1500 | 1,244 |
-| 045100 | A Book of Returning Days: Maya Manuscripts, Astronomy, and Lost Libraries | 1,356 |
-| 045200 | Names Cut into Stone: Rival Kings and the Classic Maya World | 1,236 |
-| 045300 | Eight Deer and the Painted History: Reading Mixtec Books | 1,020 |
-| 045310 | Lakes, Workshops, and a Court: The Purépecha State before 1500 | 1,030 |
-| 045320 | A Field Drawn and Measured: Indigenous Land Records after Conquest | 1,011 |
-| 046000 | Roads before the Empire: Andean States and the Rise of the Inca | 1,237 |
-| 046100 | Counting without a Page: Khipu and Knowledge in the Andes | 1,289 |
-| 046200 | Before the Inca: Wari, Tiwanaku, and Two Andean Ways of Power | 1,221 |
-| 046300 | Kin, Fields, and Obligation: Social Worlds of the Andes before 1500 | 1,362 |
-| 047000 | Ports between Monsoons: Maritime Asia before 1500 | 1,266 |
-| 047100 | Timber Sewn to the Sea: The Boats and River Ports of Butuan | 1,146 |
-| 047200 | Ships under Imperial Orders: Zheng He and the Ming Indian Ocean | 1,280 |
-| 048000 | A City through Several Empires: Byzantines and Ottomans before 1500 | 1,252 |
-| 048100 | The Village as a Taxpayer: Farming and Property in Byzantium | 1,349 |
-| 048110 | Boundaries in Three Languages: Land and Labor in Norman Sicily | 1,275 |
-| 049000 | After the Plague: Work, War, and Learning in Late Medieval Europe | 1,297 |
-| 050000 | The World around 1500: Connections, Boundaries, and New Encounters | 1,354 |
-| 051000 | Power That Moved: Pastoral Worlds and the Empires of the Eurasian Steppe | 1,543 |
-| 052000 | Letters That Never Arrived: Sogdian Families and the Cities of Central Asia | 1,492 |
-| 052100 | The Painted Room: Households and Stories in Panjikent | 1,247 |
-| 052110 | Cities beyond the Pass: Suyab and Navikat in the Chuy Valley | 1,208 |
-| 053000 | The City Made of Earth: Cahokia and Its Mississippian Neighbors | 1,544 |
-| 054000 | Roads into the Canyon: Chaco and the Ancestral Pueblo World | 1,429 |
-| 055000 | Islands Connected by Water: Caribbean Societies before 1492 | 1,423 |
-| 056000 | A City without a Palace? Djenné-Jeno and the Inland Niger Delta | 1,407 |
-| 056100 | Houses of Stone on the Sahel: Farming and Community at Dhar Tichitt | 1,286 |
-| 057000 | Around the Moving Lake: Kanem, Bornu, and the Peoples of Central Africa | 1,399 |
-| 058000 | Beyond the Temple Walls: Water, Work, and Households at Angkor | 1,408 |
-| 058100 | A Field Written in Stone: Land, Law, and Obligation in the Khmer World | 1,200 |
-| 059000 | Copper, Canoes, and Seasonal Worlds: The Great Lakes before 1500 | 1,521 |
-| 060000 | Houses Big Enough for Relations: Villages and Councils in the Northeast | 1,406 |
-| 061000 | Working with the Tides: Sea Gardens and Communities of the Northwest Coast | 1,465 |
-| 062000 | A Woman's Name in the Archive: Family and Property in Medieval Nubia | 1,467 |
-| 063000 | Inside the Stone Town: Households and Public Life on the Swahili Coast | 1,493 |
-| 064000 | The Fields beneath the Pagodas: Bagan and the Making of a Sacred Landscape | 1,441 |
-| 065000 | Rice Fields and Stone Temples: Java before 1500 | 1,539 |
-| 065100 | The Water Calendar: Fields and Irrigation Associations in Bali | 1,144 |
-| 065200 | Seventy-Nine Crossings: Ferries, Taxes, and Law in Majapahit Java | 1,130 |
-| 066000 | Papers from the Oasis: Everyday Life in Medieval Turfan | 1,541 |
-| 067000 | The Plaza and the River: Moundville and the Southeastern Woodlands | 1,336 |
-| 068000 | The Plains before the Horse: Bison, Fields, and Earthlodge Villages | 1,250 |
-| 069000 | Homes along the Ice: Inuit Ancestors and the Medieval Arctic | 1,207 |
-| 070000 | Land beneath the Churches: Labor and Faith in Medieval Ethiopia | 1,240 |
-| 071000 | A House in Fustat: Marriage, Credit, and the Cairo Geniza | 1,351 |
-| 072000 | Wheels of the Teaching: Buddhist Towns of Dvaravati | 1,211 |
-| 073000 | River Valleys to the Sea: Cham Worlds before 1500 | 1,356 |
-| 074000 | The Price of Paper: Work, Debt, and Community at Dunhuang | 1,417 |
-| 075000 | Names on the Rock: Donors, Monks, and Political Power in the Western Deccan | 1,353 |
-| 076000 | A Name Drawn from a Pot: Village Government under the Cholas | 1,319 |
-| 077000 | Five Villages for a Monastery: Bengal, Bihar, and the Pala World | 1,287 |
-| 078000 | Where the Rivers Disappear: Wetlands, Farming, and the Great Basin | 1,174 |
-| 079000 | Water before the City: Canals and Communities of the Sonoran Desert | 1,226 |
-| 080000 | Leaving One Home, Making Another: Pueblo Migrations after Chaco | 1,162 |
-| 081000 | Counting Trees and Households: The Silla Village Registers | 1,395 |
-| 082000 | A Vineyard in Bactria: Contracts, Households, and Changing Empires | 1,400 |
-| 083000 | A Poem Is Not a Census: Tamil Voices, Landscapes, and Early Society | 1,372 |
-| 084000 | Five Hundred at the Port: Tamil Merchants across the Bay of Bengal | 1,309 |
-| 085000 | Oak Groves and Ocean Routes: Indigenous California before 1500 | 1,332 |
-| 085100 | A River with Rules: Salmon, Weirs, and Klamath Communities | 1,302 |
-| 086000 | Where Salmon and Camas Meet: Life on the Columbia Plateau | 1,313 |
-| 087000 | Beyond a Border on a Map: Balhae, Its Cities, and Its People | 1,302 |
-| 088000 | Carving a Library: Wood, War, and Learning in Goryeo Korea | 1,345 |
-| 089000 | Letters on a Mountain: Marriage and Power in Sogdiana | 1,296 |
-| 090000 | Seven Silver Coins in Bamiyan: A Jewish Family and the Afghan Genizah | 1,342 |
+| Main survey | [001000](001000-early-cities-households-and-power-in-mesopotamia-egypt-the-indus-and-china.md), [006000](006000-bronze-age-networks-and-the-remaking-of-states-after1200bce.md), [011000](011000-political-and-intellectual-worlds-before-the-great-classical-empires.md), [016000](016000-imperial-rule-from-alexander-to-rome-maurya-and-han.md), [021000](021000-networks-households-and-imperial-change-across-the-classical-centuries.md), [026000](026000-late-antiquity-regional-states-religions-and-the-first-muslim-polities.md), [031000](031000-medieval-worlds-linked-by-courts-learning-monsoons-and-trade.md), [036000](036000-work-authority-and-travel-across-medieval-europe-east-asia-and-the-pacific.md), [041000](041000-late-medieval-crises-and-african-and-american-centers-of-power.md), [046000](046000-the-andean-and-maritime-worlds-late-empires-and-the-threshold-of1500.md) | 50.1, 45.2, 42.4, 48.5, 48.9, 49.7, 48.8, 47.5, 46.1, 45.5 |
+| Iran, Mesopotamia, and Central Asia | [002100](002100-households-contracts-seals-and-kinship-across-iranian-and-central-asian-archives.md), [051000](051000-mobile-power-merchant-families-oasis-towns-and-manuscript-communities.md) | 55.5, 49.8 |
+| Mediterranean and European documentary worlds | [008100](008100-law-citizenship-and-land-in-mediterranean-and-european-documentary-worlds.md) | 55.9 |
+| Red Sea, Nile, and Ethiopian histories | [020100](020100-the-red-sea-and-nile-water-property-religion-and-community.md) | 56.0 |
+| Books, translation, and material knowledge | [032100](032100-making-translating-and-preserving-books-baghdad-dunhuang-goryeo-timbuktu.md) | 38.1 |
+| China, Korea, and Japan | [033100](033100-written-states-and-household-evidence-in-china-and-korea.md), [039100](039100-medieval-japan-estates-taxes-courtly-women-and-the-written-self.md) | 37.6, 19.0 |
+| South Asian fields, institutions, and poetry | [034300](034300-south-asian-fields-monasteries-assemblies-and-poetic-evidence.md) | 45.9 |
+| Southeast Asian landscapes and maritime institutions | [034320](034320-mainland-southeast-asia-i-pyu-and-khmer-towns-water-and-land-records.md), [064000](064000-mainland-southeast-asia-ii-bagan-dvaravati-and-cham-sacred-landscapes.md), [065000](065000-java-and-bali-fields-water-associations-ferries-and-political-obligation.md), [034100](034100-ports-and-merchant-documents-across-the-bay-of-bengal-and-southeast-asia.md) | 34.6, 28.5, 27.1, 52.4 |
+| Eastern and Central African interiors | [036800](036800-herding-fishing-farming-and-language-change-in-east-africa.md), [036840](036840-fields-furnaces-and-frontiers-in-the-great-lakes-and-east-african-interior.md), [036910](036910-settlement-and-work-across-eastern-and-south-central-african-interiors.md), [036960](036960-central-african-exchange-chronologies-and-gaps-in-the-archaeological-record.md), [036986](036986-remembering-political-origins-luba-lunda-and-the-lukasa.md) | 41.5, 48.3, 40.4, 38.9, 21.0 |
+| Swahili coasts and western Indian Ocean islands | [036300](036300-becoming-swahili-early-ports-and-the-coastal-hinterland.md), [036100](036100-island-connections-and-wealth-madagascar-kilwa-and-coastal-households.md) | 54.4, 28.2 |
+| Sahelian towns and Nigerian metalwork | [056100](056100-sahelian-towns-and-trade-through-archaeological-evidence.md), [043200](043200-metalwork-and-political-authority-in-the-nigerian-region.md) | 27.7, 27.2 |
+| Comparing African state formation | [057000](057000-african-state-formation-through-landscapes-and-remembered-institutions.md) | 27.1 |
+| Mesoamerican neighborhoods, states, and records | [022100](022100-classical-mesoamerica-neighborhoods-dynastic-contacts-and-maya-written-memory.md), [022200](022200-mexican-highlands-households-painted-histories-states-and-land-records.md) | 41.8, 38.9 |
+| Andean societies and knowledge | [046200](046200-andean-societies-cities-social-obligation-and-khipu-knowledge.md) | 27.5 |
+| Indigenous North American landscapes and communities | [078000](078000-arid-north-america-water-fields-towns-and-migration.md), [053000](053000-eastern-north-america-towns-seasonal-work-villages-and-relations.md), [068000](068000-homes-and-movement-in-the-plains-and-arctic.md), [061000](061000-the-pacific-coast-land-water-management-and-collective-relations.md) | 35.5, 41.0, 17.5, 38.4 |
+| Caribbean societies before 1492 | [055000](055000-caribbean-before-1492.md) | 9.8 |
+| Oceanic settlement and inhabited landscapes | [040200](040200-remote-oceanic-settlement-and-maritime-centers.md), [040100](040100-engineering-inhabited-landscapes-in-australia-and-the-pacific.md) | 23.9, 31.2 |
 
-Lectures 001000–007000 cover early urban and Bronze Age worlds; 008000–015000 cover Iron Age and early classical transformations; 016000–023000 cover classical empires and social history; 024000–031000 cover late antiquity; 032000–040000 examine medieval societies and networks from roughly 750 to 1200 CE; and 041000–050000 follow regional developments through roughly 1500 CE. **The introductory chronological bridge to the modern-world track is written and indexed. Lectures 051000–090000 and twenty-four inserted lower-order companions add focused regional and evidence-based depth without changing the original chronology.** Additional work is needed on omitted regional histories, original sources and specialist scholarship; see `COVERAGE_AUDIT.md` and `BACKLOG.md`.
+## Sources, narration, and continuation
 
-Lectures 051000–058000 examine Central Asian mobility and Sogdian sources; Cahokia and Chaco in Indigenous North America; Caribbean communities before 1492; the Inland Niger Delta and Lake Chad basin; and the dispersed urban and agricultural landscape at Angkor. Lectures 059000–066000 extend the deeper studies to the Great Lakes, northeastern longhouse and council systems, Northwest Coast food engineering, women and property in medieval Nubia, domestic life on the Swahili coast, Bagan, Java, and documentary Turfan. Lectures 067000–074000 examine the southeastern Woodlands, Plains village societies, ancestral Inuit Arctic communities, medieval Ethiopian land and labor, households in the Cairo Geniza, Dvaravati Buddhist centers, Cham coastal polities, and documentary Dunhuang. Lectures 075000–082000 examine Deccan cave donors, Chola village institutions, Pala-era monastic grants, Great Basin wetlands, Sonoran irrigation, Pueblo migrations, Silla village documents, and rural Bactrian contracts. Lectures 083000–090000 explore Sangam Tamil poetry, Tamil merchant guilds, California oak and maritime practices, Columbia Plateau fisheries and root grounds, Balhae epitaphs, Goryeo printing, the Mount Mugh marriage contract, and the Afghan Genizah. These IDs reflect addition order, not chronological succession.
+`track.json` owns the current local manuscripts and measured lengths. `navigation.json` defines the survey and study routes; numeric IDs identify sources and do not determine teaching order. Absorbed parts have been removed from the playable index and filesystem. Their attribution, source claims, and original component identities remain in the surviving sidecars’ consolidation records and Git history.
 
-## How to read and maintain this pack
+Each manuscript has one spoken marker pair. Bibliographies, source limitations, exercises, and other companions remain outside the narrated region. `metadata/ID.json` records exact spoken anchors and source IDs; `metadata/sources.json` records access limits and bibliographic identities. Retold events, historical claims, an author’s documented views, and editorial interpretations remain distinct. Do not silently substitute a film, sequel, or another edition for the named literary work.
 
-- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All 180 entries are self-contained, without a prerequisite chain.
-- `NNNNNN-*.md` files contain narration between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. Everything outside those markers is non-spoken editorial or evidence context.
-- `metadata/NNNNNN.json` maps every spoken paragraph to named source records, with explicit source limitations and interpretive cautions.
-- `metadata/sources.json` contains source identities, links, and caveats. Add original-language evidence and specialized excavation reports when a claim needs more precision; do not misrepresent a general survey as an archival or archaeological primary source.
-- `COVERAGE_AUDIT.md` separates chronology already addressed elsewhere from missing sustained coverage. `BACKLOG.md` is an **editorial plan**, identifying both the indexed introductory sequence and research directions still to write; the published index is `track.json`.
-
-## Editorial orientation
-
-Introduce places, institutions and methods at listener speed. Explain state formation through households, farmers, workers, merchants, soldiers, enslaved people, and displaced communities, not just rulers. Different societies should be studied in parallel on their own terms, not as prerequisites for European history. Separate excavated facts and textual testimony from reconstructions or later histories. Texts written by kings, imperial bureaucracies, religious communities, foreign travelers, or colonial investigators represent the interests and limits of their authors. Ancient names and dates sometimes remain debated; uncertainty belongs in the spoken narrative when it is essential to understanding the claim.
-
-The materials determine lecture length. Do not impose a fixed narrated duration or word count. No TTS output, private voices, binary images, shared runtime files, or shared course registries belong in this source pack.
-
-## Insertion-ID depth lectures — November 2026
-
-Eight new evidence-led lectures use spare lower-order ID positions (for example, `034100` and `085100`) to place companion studies beside their parent topics, without renumbering the existing 90 lectures. At that point the track had **98 indexed lectures**: 50 introductory chronological entries and 48 regional or documentary deep dives. Manuscript word counts are descriptive, not length targets.
-
-## Seventh regional-depth installment — historically consequential inserted companions (November 2026)
-
-Eight additions use spare sub-thousand IDs near related chronology and regional case studies, with no changes to the existing 98 manuscripts or evidence files. New lectures cover the eastern Mediterranean alphabetic and imperial worlds, Srivijaya, Heian women's writing, Igbo-Ukwu, Maya codices, Andean khipu, and early Ming maritime expeditions. The track has **106 indexed lectures**, including 50 chronological lectures and 56 regional or source-led deep dives. Spoken word counts describe the work and are not requirements.
-
-## Eighth regional-depth installment — institutions and their boundaries (November 2026)
-
-Eight lectures inserted at stable lower-order IDs `002100`, `011100`, `020100`, `022100`, `032100`, `033100`, `037100`, and `046200` examine Ur III labor accounting, Athenian citizenship, Sabaean irrigation, Teotihuacan neighborhoods, Abbasid translation practice, Song print/exams, Magna Carta reissues, and Wari–Tiwanaku state formations. They extend 106 indexed lectures to **114**, without renumbering or modifying earlier manuscripts and paragraph evidence files. Each spoken paragraph has a source record with stated limits; descriptive word counts are not targets.
-
-## Ninth regional-depth installment — courts, writing, and trade (November 2026)
-
-Eight new source-led lectures are inserted into unused lower-order IDs beside related chapters: `022200`, `030100`, `033200`, `035100`, `036200`, `043300`, `044200`, and `045200`. Topics include Zapotec writing and territory, law under the Umayyads in Egypt, contested Southern Song property rights, West African gold technology, Kilwa coins in Swahili homes, dating Timbuktu's manuscript history, the Edo kingdom before 1500, and Classic Maya rival dynasties. The total is **122 indexed lectures**; 114 earlier manuscripts and evidence records remain unchanged.
-
-## Tenth regional-depth installment — institutions, land use, and pre-contact governance (November 2026)
-
-Five new source-mapped lectures use unused lower-order IDs `014100`, `040100`, `044300`, `046300`, and `058100` beside their related surveys. Their subjects are Meroitic Kush's rulers, industrial and hydraulic landscape, and partially understood writing; differentiated Aboriginal histories at Willandra, Budj Bim and Martu Country; Kongo's earlier political formation using critically dated later testimony; the variation of Andean kinship, exchange and work arrangements; and Angkorian land grants, temple rights and local legal practices. The index now has **127 lectures**, retaining all 122 previous indexed manuscripts.
-
-Every spoken paragraph in the five additions maps to an evidence record in `metadata/NNNNNN.json`. Each lecture provides an accessible reading list and specific relevant Wikipedia article links **for orientation only**, distinct from claims grounded in heritage records, academic research or Indigenous community accounts. Sources whose accessible evidence is limited to a public abstract are labeled.
-
-## Eleventh regional-depth installment — early East African households, villages, and inland routes (November 2026)
-
-Five inserted lectures use stable vacant IDs `036300`–`036700`, after the earlier Swahili surveys (`036000`, `036100`, `036200`). Their emphasis is on African local organization and archaeology before 1500: early Zanzibar houses and mixed diets; Tumbe and other Pemba villages rather than a presumed straight road to stone towns; locally made Early Tana pottery connecting coasts and hinterlands; Shanga and Mijikenda oral-historical arguments about settlement; and the Chibuene–Letaba exchange horizon. **132 indexed lectures** are now present; the preceding 127 manuscripts and IDs were not modified.
-
-Every new spoken paragraph has a source mapping and a scope limitation in `metadata/NNNNNN.json`. Full open research pages, article abstracts, heritage summaries, and Wikipedia orientation links are identified distinctly; Wikipedia is not used as the sole evidentiary basis of any spoken paragraph. The Shanga early-mosque hypothesis, reinterpretations of Shungwaya, synoecism on Pemba, and the Letaba river-route hypothesis remain attributed scholarly arguments rather than settled firsthand historical accounts. Manuscript lengths describe completed content and are not targets or ceilings.
-
-## Twelfth regional-depth installment — East African inland livelihood and landscape history (November 2026)
-
-Six further site- and method-led lectures use unused IDs `036800`–`036850` after the early East African settlement sequence. They address the collective herder cemetery at Lothagam North; herding and plant processing at Luxmanda; regional differences among Kansyore fishing and mixed economies; Kakapel's directly dated crop transitions; Kasigau iron production and agricultural landscapes; and Engaruka's engineered fields. **138 indexed lectures** now exist, without modifying any of the preceding 132 spoken manuscripts or their per-lecture evidence files.
-
-All 70 new spoken paragraphs map to scholarly source records with locally relevant evidence boundaries. Every lecture supplies academic references and Wikipedia orientation links. The September 2026 Luxmanda microbotany study is marked as reviewed via publisher abstract and highlights, not full methods. The Engaruka chronology is explicitly allowed to extend past 1500 and into later centuries. No grinding stone is presumed proof of crop cultivation, no ceramic type a direct ethnic label, no site-level plant date a universal crop arrival calendar, and no abandoned irrigation system a demonstration of human-caused ecological collapse.
-
-## Fourteenth regional-depth installment — Tanganyika, Malawi, and central African connections (November 2026)
-
-Six further lectures (`036920`–`036970`) examine Kalambo's temporally distinct occupations, Nakapapula rock-shelter contact, shifting shores and pottery traditions at Lake Malawi, Zambia's plant and faunal evidence, Copperbelt copper circulation, and Upemba graves. The pack now contains **150 indexed lectures**. Every new spoken paragraph has a non-Wikipedia scholarly source map and a claim-specific limitation; Wikipedia appears only as supplementary navigation. Previous 144 manuscripts and their per-lecture metadata remain unchanged.
-
-## Fifteenth regional-depth installment - southern Congo archaeology and later Luba histories (November 2026)
-
-Six standalone lectures (`036980`, `036982`, `036984`, `036986`, `036988`, `036990`) bridge medieval Upemba archaeology to the documentary and oral-historical study of later Luba and Lunda political institutions. Two focus on the separate Kwilu-Kasai evidence, not a demonstrated continuous link to Upemba. **156 indexed lectures** total. The 60 new spoken paragraphs each map to non-Wikipedia sources with paragraph-specific evidence limits; Wikipedia articles are supplemental. No previous manuscript or per-lecture evidence JSON was modified.
-
-## Sixteenth regional-depth installment — Pacific histories beyond the survey (November 2026)
-
-Six new standalone Pacific lectures use `040200`–`040250`: Lapita families and migration; Tongan political exchange; Nan Madol and new monument dates; Rapa Nui agriculture and demography; early Māori settlement and Rangitāne repatriation; and pre-1500 Kohala farming. The indexed pack now contains **162 lectures**. Every new spoken paragraph has non-Wikipedia evidence mapping, and supplementary Wikipedia links are supplied separately. All preceding transcripts and individual metadata remain unchanged.
-
-## Seventeenth regional-depth installment — Mesoamerican families, states, and documents (November 2026)
-
-Six additional independent lectures deepen previously surveyed Teotihuacan and Oaxaca and add Mixtec, Purépecha, and postconquest Indigenous land documents. The collection now contains **168** lectures. Every new narration paragraph has a source map; Wikipedia links appear only in clearly marked supplementary reading. The early colonial land records are identified as such, not silently assigned to pre-1500 dates. Existing manuscripts and individual metadata files are not edited.
-
-## Eighteenth regional-depth installment — institutions in South and Southeast Asia (November 2026)
-
-Six lectures extend historical depth without replacing the existing South/Southeast Asian surveys. Sri Lankan tank cascades, the Kollam Christian-merchant copper-plate grant, Pyu domestic archaeology, the Mekong delta's canals and beads, Old Balinese irrigation records, and a Majapahit ferry charter provide contrasting material and documentary lenses. The collection now contains **174** lectures. Every new spoken paragraph has source-specific evidence-limit metadata; Wikipedia links are grouped solely as additional orientation. Existing manuscripts and their individual metadata remain unchanged.
-
-## Nineteenth regional-depth installment — Iran, Central Asia, and the Mediterranean (November 2026)
-
-Six lectures use case-based legal scholarship, excavated Sasanian sealings, domestic murals and urban archaeology in Sogdian Central Asia, Byzantine village and monastic records, and Greek–Arabic Norman-Sicilian charters to develop regional institutional history. The track now contains **180 indexed lectures**. Each new spoken paragraph is mapped to an identified source and a specific evidence limitation. Wikipedia articles remain orientation links only. Existing manuscripts and their individual metadata files are unchanged.
+Follow [LECTURE_STYLE_RULES.md](../../LECTURE_STYLE_RULES.md) when revising narration. Add new IDs only after checking the current pack; preserve inherited provenance and attribute new writing to the actual runtime model. No TTS run, media build, or repository-wide test is required for a routine source addition.

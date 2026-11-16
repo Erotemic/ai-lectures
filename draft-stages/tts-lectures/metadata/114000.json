@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "114000",
-  "transcript": "114000-off-diagonal-perturbations-and-block-reflection.md",
+  "transcript": "114000-reflections-and-double-angle-estimates.md",
   "historical_claims": [],
   "related_resources": [
     {
@@ -23,6 +23,204 @@
     {
       "source_id": "wiki-invariant-subspace",
       "reason": "What it means for a subspace to be preserved under a linear map."
+    },
+    {
+      "source_id": "halmos-1969",
+      "reason": "Original treatment of two subspaces and their generic part; complements principal-angle geometry."
+    },
+    {
+      "source_id": "wiki-angles-between-flats",
+      "reason": "Principal angles defined using subspace vectors and singular values of overlaps."
+    },
+    {
+      "source_id": "hsu-dk-notes",
+      "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+    },
+    {
+      "source_id": "wiki-eigen-perturbation-extra",
+      "reason": "Examples of eigenvalue derivatives and dependence of eigenvectors on perturbations."
+    },
+    {
+      "source_id": "wiki-spectral-gap",
+      "reason": "Basic interpretations of gaps between spectral regions; definitions vary by setting."
+    },
+    {
+      "source_id": "wiki-riccati-equation",
+      "reason": "Quadratic matrix equations related to invariant graph-subspace calculations."
+    },
+    {
+      "source_id": "wiki-eigenvalue-perturbation",
+      "reason": "Finite-dimensional eigenvalue and eigenvector sensitivity as background for angle estimates."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "g2:114000",
+        "file": "114000-off-diagonal-perturbations-and-block-reflection.md",
+        "sha256": "dc54293da6c0cb6c1591fd6fc271de8b4478e6cd27fd0ccf6608a009e9250dab",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "114000",
+          "transcript": "114000-off-diagonal-perturbations-and-block-reflection.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "kostrykin-tan2-theorem",
+              "reason": "Compare the off-diagonal perturbation theorem with a graph/Riccati formulation."
+            },
+            {
+              "source_id": "motovilov-selin-subspace-bounds",
+              "reason": "Contrast ordered-gap and convex-hull gap hypotheses in sharp tangent estimates."
+            },
+            {
+              "source_id": "wiki-invariant-subspace",
+              "reason": "What it means for a subspace to be preserved under a linear map."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:115000",
+        "file": "115000-doubled-angles-from-symmetry.md",
+        "sha256": "53aa1f5ef5b175400b2d18e87e4508c7618f96107dc4e18f5f6881900580df81",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "115000",
+          "transcript": "115000-doubled-angles-from-symmetry.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "halmos-1969",
+              "reason": "Original treatment of two subspaces and their generic part; complements principal-angle geometry."
+            },
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "kostrykin-tan2-theorem",
+              "reason": "Compare the off-diagonal perturbation theorem with a graph/Riccati formulation."
+            },
+            {
+              "source_id": "motovilov-selin-subspace-bounds",
+              "reason": "Contrast ordered-gap and convex-hull gap hypotheses in sharp tangent estimates."
+            },
+            {
+              "source_id": "wiki-angles-between-flats",
+              "reason": "Principal angles defined using subspace vectors and singular values of overlaps."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:116000",
+        "file": "116000-the-sine-two-theta-theorem.md",
+        "sha256": "4403716c8442c821c430638f8bf8d7ee7ac5775781e09d5a56569ff969043a2f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "116000",
+          "transcript": "116000-the-sine-two-theta-theorem.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "hsu-dk-notes",
+              "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+            },
+            {
+              "source_id": "kostrykin-tan2-theorem",
+              "reason": "Compare the off-diagonal perturbation theorem with a graph/Riccati formulation."
+            },
+            {
+              "source_id": "motovilov-selin-subspace-bounds",
+              "reason": "Contrast ordered-gap and convex-hull gap hypotheses in sharp tangent estimates."
+            },
+            {
+              "source_id": "wiki-angles-between-flats",
+              "reason": "Principal angles defined using subspace vectors and singular values of overlaps."
+            },
+            {
+              "source_id": "wiki-eigen-perturbation-extra",
+              "reason": "Examples of eigenvalue derivatives and dependence of eigenvectors on perturbations."
+            },
+            {
+              "source_id": "wiki-spectral-gap",
+              "reason": "Basic interpretations of gaps between spectral regions; definitions vary by setting."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:117000",
+        "file": "117000-the-tangent-two-theta-theorem.md",
+        "sha256": "3f16939f01715b2b123e1a12f9b0b4546a01d35595a00930ed27e7caf62d1190",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "117000",
+          "transcript": "117000-the-tangent-two-theta-theorem.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "hsu-dk-notes",
+              "reason": "Brief finite-matrix exposition; not an alternate proof of every general theorem in this lecture."
+            },
+            {
+              "source_id": "kostrykin-tan2-theorem",
+              "reason": "Compare the off-diagonal perturbation theorem with a graph/Riccati formulation."
+            },
+            {
+              "source_id": "motovilov-selin-subspace-bounds",
+              "reason": "Contrast ordered-gap and convex-hull gap hypotheses in sharp tangent estimates."
+            },
+            {
+              "source_id": "wiki-angles-between-flats",
+              "reason": "Principal angles defined using subspace vectors and singular values of overlaps."
+            },
+            {
+              "source_id": "wiki-riccati-equation",
+              "reason": "Quadratic matrix equations related to invariant graph-subspace calculations."
+            },
+            {
+              "source_id": "wiki-eigenvalue-perturbation",
+              "reason": "Finite-dimensional eigenvalue and eigenvector sensitivity as background for angle estimates."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

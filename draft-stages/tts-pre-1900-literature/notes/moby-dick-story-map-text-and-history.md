@@ -1,5 +1,7 @@
 # Moby-Dick — editorial map, source record, and interpretive boundaries
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 **Non-spoken companion** to lectures 147000–159000. These lectures are original explanatory prose, not an unabridged text or audio performance. They follow the 1851 American edition's plot, including its epilogue. Chapter numbering refers to the familiar 135-chapter American text; different printed versions differ in wording and paratext. No lecture-duration target applies.
 
 ## Section map

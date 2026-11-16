@@ -1,0 +1,28 @@
+transcript:
+  revisions:
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - lecture: '001000'
+      composition_record: metadata/001000.json
+    - lecture: '003000'
+      composition_record: metadata/003000.json
+    - lecture: '015000'
+      composition_record: metadata/015000.json
+    - lecture: '007000'
+      composition_record: metadata/007000.json
+    scope: Consolidate reviewed source parts into single lecture manuscripts. Original
+      text and source attribution are retained in component records and Git history;
+      this revision does not claim original authorship of inherited prose.
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - 001000-specify-material-geometry-and-acceptance.md
+    - 003000-cut-form-and-join-a-workable-part.md
+    - 015000-control-distortion-and-build-sheet-metal-assemblies.md
+    - 007000-inspect-corrosion-welds-and-durable-finishes.md
+    scope: Reviewed combined-manuscript joins and added connections among preserved
+      source arguments; scoped inherited part-level framing. No original authorship
+      of inherited prose, new technical guidance, or field validation is claimed.

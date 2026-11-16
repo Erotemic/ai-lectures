@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "009000",
-  "transcript": "009000-set-membership-and-identities.md",
+  "transcript": "009000-sets-functions-quotients-induction-and-existence.md",
   "related_resources": [
     {
       "source_id": "proof-hammack",
@@ -14,7 +14,224 @@
     {
       "source_id": "proof-wiki-009000",
       "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-wiki-010000",
+      "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-wiki-011000",
+      "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-wiki-012000",
+      "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-lean",
+      "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+    },
+    {
+      "source_id": "proof-wiki-013000",
+      "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-wiki-014000",
+      "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-wiki-015000",
+      "reason": "Historical/terminological overview and additional reading."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "mathematical-proof:009000",
+        "file": "009000-set-membership-and-identities.md",
+        "sha256": "b7b1e59b6f04713185e676db3ea54826fed5dec4aeddccf1f83efafee29ed5f4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-set-membership-and-identities.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-009000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:010000",
+        "file": "010000-functions-and-inverse-images.md",
+        "sha256": "6c3ee66f33e95655faac2339af59cd658d22e2f5086731ddd5033bed5784d379",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-functions-and-inverse-images.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-010000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:011000",
+        "file": "011000-equivalence-relations-and-quotients.md",
+        "sha256": "8ee341b9d314029d88ba448dcbfded0160dd5b8b0a62ce6b5a98693fc1ddd9bb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-equivalence-relations-and-quotients.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-011000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:012000",
+        "file": "012000-mathematical-induction.md",
+        "sha256": "d37a6b948b48813ae89e94cced3fb1233e71fe0391ac10438a1285573f118a94",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-mathematical-induction.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-012000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:013000",
+        "file": "013000-well-ordering-recursion-invariants.md",
+        "sha256": "6205c892f3585b771fc7aec2288ee5b8efd2b83a030a0777d6d646124c2e1191",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-well-ordering-recursion-invariants.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-lean",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-013000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:014000",
+        "file": "014000-countability-and-diagonal-arguments.md",
+        "sha256": "0fa37dd4335db8bc23cdca4d5fa61124c4d6dc4222e4928ccec9abe608aae24f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-countability-and-diagonal-arguments.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-014000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:015000",
+        "file": "015000-existence-uniqueness-and-well-definedness.md",
+        "sha256": "460464fa584c2e6b9556c1cd76a1bb5ff379054bab8934d165cf9002d6cb8e02",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-existence-uniqueness-and-well-definedness.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-015000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

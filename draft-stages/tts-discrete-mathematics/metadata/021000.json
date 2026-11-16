@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "021000",
-  "transcript": "021000-parameterized-algorithms-and-kernels.md",
+  "transcript": "021000-forced-patterns-spectral-expansion-and-separators-shared-core.md",
   "related_resources": [
     {
       "source_id": "dm-cmu-parameterized",
@@ -10,7 +10,75 @@
     {
       "source_id": "dm-mit-algorithms",
       "reason": "Dynamic programming, reductions, and algorithm analysis."
+    },
+    {
+      "source_id": "di-r12-023000-1",
+      "reason": "Expander mixing, explicit zig-zag constructions and pseudorandom walks"
+    },
+    {
+      "source_id": "di-r12-023000-2",
+      "reason": "Expander mixing, explicit zig-zag constructions and pseudorandom walks"
+    },
+    {
+      "source_id": "di-r12-023000-3",
+      "reason": "Expander mixing, explicit zig-zag constructions and pseudorandom walks"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "discrete-mathematics:021000",
+        "file": "021000-parameterized-algorithms-and-kernels.md",
+        "sha256": "f46181236b803dbff8a2d559b444a1ed344bc453a57ab4aa5cfb40ef055ef335",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-parameterized-algorithms-and-kernels.md",
+          "related_resources": [
+            {
+              "source_id": "dm-cmu-parameterized",
+              "reason": "FPT, vertex-cover branching/kernelization and randomized FPT methods."
+            },
+            {
+              "source_id": "dm-mit-algorithms",
+              "reason": "Dynamic programming, reductions, and algorithm analysis."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:023000",
+        "file": "023000-expander-constructions-and-pseudorandom-graphs.md",
+        "sha256": "5abe98225f2619c8bd0c38b623b33c6eb7b4a50c481a878273850e549424f227",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "023000",
+          "transcript": "023000-expander-constructions-and-pseudorandom-graphs.md",
+          "related_resources": [
+            {
+              "source_id": "di-r12-023000-1",
+              "reason": "Expander mixing, explicit zig-zag constructions and pseudorandom walks"
+            },
+            {
+              "source_id": "di-r12-023000-2",
+              "reason": "Expander mixing, explicit zig-zag constructions and pseudorandom walks"
+            },
+            {
+              "source_id": "di-r12-023000-3",
+              "reason": "Expander mixing, explicit zig-zag constructions and pseudorandom walks"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

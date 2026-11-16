@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "007000",
-  "transcript": "007000-preparation-kits-and-emergency-communication.md",
+  "transcript": "007000-prepare-for-exposure-wounds-and-follow-up.md",
   "related_resources": [
     {
       "source_id": "redcross-emergency-plan",
@@ -14,6 +14,62 @@
     {
       "source_id": "rc-first-aid",
       "reason": "Check, Call, Care and emergency activation"
+    },
+    {
+      "source_id": "redcross-heatstroke",
+      "reason": "Recognize severe heat illness and initiate rapid cooling"
+    },
+    {
+      "source_id": "redcross-hypothermia",
+      "reason": "Hypothermia warning signs, EMS, gradual rewarming"
+    },
+    {
+      "source_id": "nws-lightning-safety",
+      "reason": "Safe shelter, wait 30 minutes after thunder, lightning victims do not carry a charge"
+    },
+    {
+      "source_id": "aha-redcross-burns-2024",
+      "reason": "Thermal burn cooling 5–20 minutes, hypothermia, urgent evaluation and chemical skin decontamination"
+    },
+    {
+      "source_id": "aba-burn-firstaid",
+      "reason": "Cooling, avoiding direct ice, dressings and serious-burn referral"
+    },
+    {
+      "source_id": "poisoncontrol-firstaid",
+      "reason": "Exposure routes, emergency symptoms, initial measures, poison center contact"
+    },
+    {
+      "source_id": "hrsa-poisonhelp",
+      "reason": "Poison Help hotline, prompt response and first-aid priorities"
+    },
+    {
+      "source_id": "redcross-insect-bites-stings",
+      "reason": "Local sting care versus anaphylaxis recognition and epinephrine response"
+    },
+    {
+      "source_id": "aha-redcross-2024-firstaid",
+      "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+    },
+    {
+      "source_id": "cdc-ticks-2026",
+      "reason": "Prompt removal with tweezers, cleaning and symptom monitoring after tick exposure"
+    },
+    {
+      "source_id": "cdc-rabies-care-2025",
+      "reason": "Urgent evaluation of possible rabies exposure, wound washing and post-exposure assessment"
+    },
+    {
+      "source_id": "cdc-niosh-venomous-snakes",
+      "reason": "Urgent care, avoidance of tourniquets, incision, suction and ice after suspected venomous snakebite"
+    },
+    {
+      "source_id": "medlineplus-cuts-punctures",
+      "reason": "Wound warning signs, high-risk mechanisms and indications for prompt medical assessment"
+    },
+    {
+      "source_id": "cdc-disaster-woundcare",
+      "reason": "Wound cleaning, red flags, and tetanus evaluation"
     }
   ],
   "historical_claims": [],
@@ -67,8 +123,882 @@
       "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
       "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
       "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P008000-01",
+      "claim": "Suspected severe heat illness with confusion or collapse requires urgent medical response and rapid cooling.",
+      "kind": "first_aid_original_guidance",
+      "supports": [
+        {
+          "source_id": "redcross-heatstroke",
+          "location": "Emergency recognition and rapid cooling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "Hypothermia calls for emergency assessment and controlled gradual rewarming rather than indiscriminate rapid heating.",
+      "kind": "first_aid_original_guidance",
+      "supports": [
+        {
+          "source_id": "redcross-hypothermia",
+          "location": "General Care: Hypothermia",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "Lightning victims carry no residual electrical charge and may require CPR and AED after safe approach.",
+      "kind": "weather_emergency_guidance",
+      "supports": [
+        {
+          "source_id": "nws-lightning-safety",
+          "location": "Lightning Victims and Minimizing Risk",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P009000-01",
+      "claim": "Immediate cool running water is recommended for thermal burns; cooling for 5 to 20 minutes may be reasonable.",
+      "kind": "original_first_aid_guideline",
+      "supports": [
+        {
+          "source_id": "aha-redcross-burns-2024",
+          "location": "First Aid Cooling of Thermal Burns recommendations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Burn depth, location, inhalation injury and body-surface area affect the urgency of medical assessment.",
+      "kind": "original_first_aid_guideline",
+      "supports": [
+        {
+          "source_id": "aha-redcross-burns-2024",
+          "location": "First aid after cooling and escalation criteria",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Direct ice and improvised household coatings are not suitable routine burn first aid.",
+      "kind": "original_burn_care_provider_guidance",
+      "supports": [
+        {
+          "source_id": "aba-burn-firstaid",
+          "location": "What NOT to do for minor/serious burns",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P012000-01",
+      "claim": "Potential poison exposure requires prompt poison-center help rather than waiting for symptoms.",
+      "kind": "original_us_poison_center_guidance",
+      "supports": [
+        {
+          "source_id": "poisoncontrol-firstaid",
+          "location": "Exposure routes, emergency symptoms, initial measures, poison center contact",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "hrsa-poisonhelp",
+          "location": "Poison Help hotline, prompt response and first-aid priorities",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Inducing vomiting is not recommended for suspected swallowed poison.",
+      "kind": "original_us_poison_center_guidance",
+      "supports": [
+        {
+          "source_id": "poisoncontrol-firstaid",
+          "location": "Exposure routes, emergency symptoms, initial measures, poison center contact",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "hrsa-poisonhelp",
+          "location": "Poison Help hotline, prompt response and first-aid priorities",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Seizure, collapse, difficulty breathing or inability to awaken after possible exposure is an emergency-service trigger.",
+      "kind": "original_us_poison_center_guidance",
+      "supports": [
+        {
+          "source_id": "poisoncontrol-firstaid",
+          "location": "Exposure routes, emergency symptoms, initial measures, poison center contact",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P012000-04",
+      "claim": "The substance, route, concentration and circumstances affect exposure-specific instructions.",
+      "kind": "original_us_poison_center_guidance",
+      "supports": [
+        {
+          "source_id": "poisoncontrol-firstaid",
+          "location": "Exposure routes, emergency symptoms, initial measures, poison center contact",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "hrsa-poisonhelp",
+          "location": "Poison Help hotline, prompt response and first-aid priorities",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P013000-01",
+      "claim": "Immediate local sting care differs from emergency response to signs of anaphylaxis.",
+      "kind": "original_first_aid_training_guidance",
+      "supports": [
+        {
+          "source_id": "redcross-insect-bites-stings",
+          "location": "Local sting care versus anaphylaxis recognition and epinephrine response",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "An attached tick should be removed promptly using steady pressure with tweezers; petroleum jelly and heat are not recommended.",
+      "kind": "original_us_cdc_guidance",
+      "supports": [
+        {
+          "source_id": "cdc-ticks-2026",
+          "location": "Prompt removal with tweezers, cleaning and symptom monitoring after tick exposure",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Possible rabies exposures need prompt professional/public-health assessment and thorough wound washing.",
+      "kind": "original_us_cdc_guidance",
+      "supports": [
+        {
+          "source_id": "cdc-rabies-care-2025",
+          "location": "Urgent evaluation of possible rabies exposure, wound washing and post-exposure assessment",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P013000-04",
+      "claim": "Suspected venomous snakebite warrants urgent care; tourniquets, wound incision, suction and ice are discouraged.",
+      "kind": "original_us_cdc_niosh_guidance",
+      "supports": [
+        {
+          "source_id": "cdc-niosh-venomous-snakes",
+          "location": "Urgent care, avoidance of tourniquets, incision, suction and ice after suspected venomous snakebite",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P014000-01",
+      "claim": "Expected localized wound inflammation is distinct from worsening pain, swelling, spreading skin changes, purulent drainage or fever.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "medlineplus-cuts-punctures",
+          "location": "Wound warning signs, high-risk mechanisms and indications for prompt medical assessment",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-disaster-woundcare",
+          "location": "Wound cleaning, red flags, and tetanus evaluation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P014000-02",
+      "claim": "Deep punctures, bites, embedded objects and impaired function merit prompt assessment regardless of surface appearance.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "medlineplus-cuts-punctures",
+          "location": "Wound warning signs, high-risk mechanisms and indications for prompt medical assessment",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-rabies-care-2025",
+          "location": "Urgent evaluation of possible rabies exposure, wound washing and post-exposure assessment",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P014000-03",
+      "claim": "Tetanus preventive treatment decisions depend on wound mechanism and vaccination history, not visible infection alone.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cdc-disaster-woundcare",
+          "location": "Wound cleaning, red flags, and tetanus evaluation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "medlineplus-cuts-punctures",
+          "location": "Wound warning signs, high-risk mechanisms and indications for prompt medical assessment",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P014000-04",
+      "claim": "Monitoring a wound over time informs escalation but does not substitute for clinical diagnosis.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "medlineplus-cuts-punctures",
+          "location": "Wound warning signs, high-risk mechanisms and indications for prompt medical assessment",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-first-aid:007000",
+        "file": "007000-preparation-kits-and-emergency-communication.md",
+        "sha256": "9671d0787f82326820ca4ffe50d3c58aaf7b1d5f173dd89da58f6fc73ec3b673",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-preparation-kits-and-emergency-communication.md",
+          "related_resources": [
+            {
+              "source_id": "redcross-emergency-plan",
+              "reason": "Household communication, meeting places, roles, and practice"
+            },
+            {
+              "source_id": "redcross-emergency-kit",
+              "reason": "Emergency kit essentials, medications, communications and household adaptation"
+            },
+            {
+              "source_id": "rc-first-aid",
+              "reason": "Check, Call, Care and emergency activation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "A household plan should name responsibilities, contacts, meeting places and a rehearsed response for likely emergencies.",
+              "kind": "first_aid_preparedness_guidance",
+              "supports": [
+                {
+                  "source_id": "redcross-emergency-plan",
+                  "location": "Create emergency plan steps, household roles and two meeting places",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "Emergency supply kits should be accessible and tailored to medications, communication needs and household members.",
+              "kind": "first_aid_preparedness_guidance",
+              "supports": [
+                {
+                  "source_id": "redcross-emergency-kit",
+                  "location": "Survival kit supplies and household-specific additions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "First-aid preparation includes prompt emergency activation and care within training while responders are on the way.",
+              "kind": "clinical_first_aid_guidance",
+              "supports": [
+                {
+                  "source_id": "rc-first-aid",
+                  "location": "American Red Cross first aid steps; call help and provide care",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "redcross-emergency-plan",
+                  "location": "Planning, roles and practice",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      },
+      {
+        "id": "practical-first-aid:008000",
+        "file": "008000-environmental-emergencies-heat-cold-and-lightning.md",
+        "sha256": "b190818fd790866246902742e15ebf03ea203a46ea4565ee15227253af35ba34",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-environmental-emergencies-heat-cold-and-lightning.md",
+          "related_resources": [
+            {
+              "source_id": "redcross-heatstroke",
+              "reason": "Recognize severe heat illness and initiate rapid cooling"
+            },
+            {
+              "source_id": "redcross-hypothermia",
+              "reason": "Hypothermia warning signs, EMS, gradual rewarming"
+            },
+            {
+              "source_id": "nws-lightning-safety",
+              "reason": "Safe shelter, wait 30 minutes after thunder, lightning victims do not carry a charge"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P008000-01",
+              "claim": "Suspected severe heat illness with confusion or collapse requires urgent medical response and rapid cooling.",
+              "kind": "first_aid_original_guidance",
+              "supports": [
+                {
+                  "source_id": "redcross-heatstroke",
+                  "location": "Emergency recognition and rapid cooling",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P008000-02",
+              "claim": "Hypothermia calls for emergency assessment and controlled gradual rewarming rather than indiscriminate rapid heating.",
+              "kind": "first_aid_original_guidance",
+              "supports": [
+                {
+                  "source_id": "redcross-hypothermia",
+                  "location": "General Care: Hypothermia",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P008000-03",
+              "claim": "Lightning victims carry no residual electrical charge and may require CPR and AED after safe approach.",
+              "kind": "weather_emergency_guidance",
+              "supports": [
+                {
+                  "source_id": "nws-lightning-safety",
+                  "location": "Lightning Victims and Minimizing Risk",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+        }
+      },
+      {
+        "id": "practical-first-aid:009000",
+        "file": "009000-burns-scalds-and-wound-healing.md",
+        "sha256": "65fe2dff255c17d1db2880139807fd84e4cf41818899dbba86aee14832275214",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-burns-scalds-and-wound-healing.md",
+          "related_resources": [
+            {
+              "source_id": "aha-redcross-burns-2024",
+              "reason": "Thermal burn cooling 5–20 minutes, hypothermia, urgent evaluation and chemical skin decontamination"
+            },
+            {
+              "source_id": "aba-burn-firstaid",
+              "reason": "Cooling, avoiding direct ice, dressings and serious-burn referral"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P009000-01",
+              "claim": "Immediate cool running water is recommended for thermal burns; cooling for 5 to 20 minutes may be reasonable.",
+              "kind": "original_first_aid_guideline",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-burns-2024",
+                  "location": "First Aid Cooling of Thermal Burns recommendations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P009000-02",
+              "claim": "Burn depth, location, inhalation injury and body-surface area affect the urgency of medical assessment.",
+              "kind": "original_first_aid_guideline",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-burns-2024",
+                  "location": "First aid after cooling and escalation criteria",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P009000-03",
+              "claim": "Direct ice and improvised household coatings are not suitable routine burn first aid.",
+              "kind": "original_burn_care_provider_guidance",
+              "supports": [
+                {
+                  "source_id": "aba-burn-firstaid",
+                  "location": "What NOT to do for minor/serious burns",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+        }
+      },
+      {
+        "id": "practical-first-aid:012000",
+        "file": "012000-poisoning-exposures-and-emergency-information.md",
+        "sha256": "ee6bb5ecbf2be2ce68338f1f72533bbcd6486d0e31a2d7353cea37fac23f751f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-poisoning-exposures-and-emergency-information.md",
+          "related_resources": [
+            {
+              "source_id": "poisoncontrol-firstaid",
+              "reason": "Exposure routes, emergency symptoms, initial measures, poison center contact"
+            },
+            {
+              "source_id": "hrsa-poisonhelp",
+              "reason": "Poison Help hotline, prompt response and first-aid priorities"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P012000-01",
+              "claim": "Potential poison exposure requires prompt poison-center help rather than waiting for symptoms.",
+              "kind": "original_us_poison_center_guidance",
+              "supports": [
+                {
+                  "source_id": "poisoncontrol-firstaid",
+                  "location": "Exposure routes, emergency symptoms, initial measures, poison center contact",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "hrsa-poisonhelp",
+                  "location": "Poison Help hotline, prompt response and first-aid priorities",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P012000-02",
+              "claim": "Inducing vomiting is not recommended for suspected swallowed poison.",
+              "kind": "original_us_poison_center_guidance",
+              "supports": [
+                {
+                  "source_id": "poisoncontrol-firstaid",
+                  "location": "Exposure routes, emergency symptoms, initial measures, poison center contact",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "hrsa-poisonhelp",
+                  "location": "Poison Help hotline, prompt response and first-aid priorities",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P012000-03",
+              "claim": "Seizure, collapse, difficulty breathing or inability to awaken after possible exposure is an emergency-service trigger.",
+              "kind": "original_us_poison_center_guidance",
+              "supports": [
+                {
+                  "source_id": "poisoncontrol-firstaid",
+                  "location": "Exposure routes, emergency symptoms, initial measures, poison center contact",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P012000-04",
+              "claim": "The substance, route, concentration and circumstances affect exposure-specific instructions.",
+              "kind": "original_us_poison_center_guidance",
+              "supports": [
+                {
+                  "source_id": "poisoncontrol-firstaid",
+                  "location": "Exposure routes, emergency symptoms, initial measures, poison center contact",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "hrsa-poisonhelp",
+                  "location": "Poison Help hotline, prompt response and first-aid priorities",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-first-aid:013000",
+        "file": "013000-bites-stings-and-animal-encounters.md",
+        "sha256": "f07e910fa54c6ca49f801941b0f96073db7b9228c08c40da0c6636ca70df43bc",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-bites-stings-and-animal-encounters.md",
+          "related_resources": [
+            {
+              "source_id": "redcross-insect-bites-stings",
+              "reason": "Local sting care versus anaphylaxis recognition and epinephrine response"
+            },
+            {
+              "source_id": "aha-redcross-2024-firstaid",
+              "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+            },
+            {
+              "source_id": "cdc-ticks-2026",
+              "reason": "Prompt removal with tweezers, cleaning and symptom monitoring after tick exposure"
+            },
+            {
+              "source_id": "cdc-rabies-care-2025",
+              "reason": "Urgent evaluation of possible rabies exposure, wound washing and post-exposure assessment"
+            },
+            {
+              "source_id": "cdc-niosh-venomous-snakes",
+              "reason": "Urgent care, avoidance of tourniquets, incision, suction and ice after suspected venomous snakebite"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "Immediate local sting care differs from emergency response to signs of anaphylaxis.",
+              "kind": "original_first_aid_training_guidance",
+              "supports": [
+                {
+                  "source_id": "redcross-insect-bites-stings",
+                  "location": "Local sting care versus anaphylaxis recognition and epinephrine response",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "An attached tick should be removed promptly using steady pressure with tweezers; petroleum jelly and heat are not recommended.",
+              "kind": "original_us_cdc_guidance",
+              "supports": [
+                {
+                  "source_id": "cdc-ticks-2026",
+                  "location": "Prompt removal with tweezers, cleaning and symptom monitoring after tick exposure",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "Possible rabies exposures need prompt professional/public-health assessment and thorough wound washing.",
+              "kind": "original_us_cdc_guidance",
+              "supports": [
+                {
+                  "source_id": "cdc-rabies-care-2025",
+                  "location": "Urgent evaluation of possible rabies exposure, wound washing and post-exposure assessment",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P013000-04",
+              "claim": "Suspected venomous snakebite warrants urgent care; tourniquets, wound incision, suction and ice are discouraged.",
+              "kind": "original_us_cdc_niosh_guidance",
+              "supports": [
+                {
+                  "source_id": "cdc-niosh-venomous-snakes",
+                  "location": "Urgent care, avoidance of tourniquets, incision, suction and ice after suspected venomous snakebite",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-first-aid:014000",
+        "file": "014000-recognizing-infection-and-following-up-wound-care.md",
+        "sha256": "aa03fbcb1ca97baf428466f7aa729f92fcf6da6ea75f6c1e4f485dc1f64a3873",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-recognizing-infection-and-following-up-wound-care.md",
+          "related_resources": [
+            {
+              "source_id": "medlineplus-cuts-punctures",
+              "reason": "Wound warning signs, high-risk mechanisms and indications for prompt medical assessment"
+            },
+            {
+              "source_id": "cdc-disaster-woundcare",
+              "reason": "Wound cleaning, red flags, and tetanus evaluation"
+            },
+            {
+              "source_id": "cdc-rabies-care-2025",
+              "reason": "Urgent evaluation of possible rabies exposure, wound washing and post-exposure assessment"
+            },
+            {
+              "source_id": "aha-redcross-2024-firstaid",
+              "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P014000-01",
+              "claim": "Expected localized wound inflammation is distinct from worsening pain, swelling, spreading skin changes, purulent drainage or fever.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "medlineplus-cuts-punctures",
+                  "location": "Wound warning signs, high-risk mechanisms and indications for prompt medical assessment",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cdc-disaster-woundcare",
+                  "location": "Wound cleaning, red flags, and tetanus evaluation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P014000-02",
+              "claim": "Deep punctures, bites, embedded objects and impaired function merit prompt assessment regardless of surface appearance.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "medlineplus-cuts-punctures",
+                  "location": "Wound warning signs, high-risk mechanisms and indications for prompt medical assessment",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cdc-rabies-care-2025",
+                  "location": "Urgent evaluation of possible rabies exposure, wound washing and post-exposure assessment",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P014000-03",
+              "claim": "Tetanus preventive treatment decisions depend on wound mechanism and vaccination history, not visible infection alone.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cdc-disaster-woundcare",
+                  "location": "Wound cleaning, red flags, and tetanus evaluation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "medlineplus-cuts-punctures",
+                  "location": "Wound warning signs, high-risk mechanisms and indications for prompt medical assessment",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P014000-04",
+              "claim": "Monitoring a wound over time informs escalation but does not substitute for clinical diagnosis.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "medlineplus-cuts-punctures",
+                  "location": "Wound warning signs, high-risk mechanisms and indications for prompt medical assessment",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "007000-prepare-for-exposure-wounds-and-follow-up.md"
+      ],
+      "joined_before_source_parts": [
+        "008000",
+        "014000"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "006000",
-  "transcript": "006000-fasteners-torque-and-connection-design.md",
+  "transcript": "006000-make-repeatable-joints-and-surface-finishes.md",
   "related_resources": [
     {
       "source_id": "rammer-fastenings",
@@ -10,6 +10,34 @@
     {
       "source_id": "openstax-torque",
       "reason": "Torque and perpendicular moment arm"
+    },
+    {
+      "source_id": "nist-repeatability",
+      "reason": "Definition and conditions for repeatability"
+    },
+    {
+      "source_id": "nist-uncertainty",
+      "reason": "Measurement values, standards and uncertainty"
+    },
+    {
+      "source_id": "nist-calibration",
+      "reason": "Calibration limitations; precision, bias, operator changes"
+    },
+    {
+      "source_id": "osha-hand-power-tools",
+      "reason": "Tool guarding, securing work with clamps and correct tool operation"
+    },
+    {
+      "source_id": "osha-lead-sanding",
+      "reason": "Lead dust hazards and work-control methods for coating preparation"
+    },
+    {
+      "source_id": "usfs-adhesives-frihart-hunt",
+      "reason": "Adhesive wetting, bond formation, interface and structural properties; wood-specific scope"
+    },
+    {
+      "source_id": "osha-grinding-equipment-checklist",
+      "reason": "Wheel guards, compatibility of rotational speed, tool rests and safe abrasive operation"
     }
   ],
   "historical_claims": [],
@@ -63,8 +91,645 @@
       "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
       "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-01",
+      "claim": "Repeatability and measurement accuracy are separate characteristics; repeated measurements alone cannot exclude bias.",
+      "kind": "measurement_principle",
+      "supports": [
+        {
+          "source_id": "nist-repeatability",
+          "location": "Terminology for repeatability and reproducibility",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Measurement uncertainty discussion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "Measurement systems need independent checks and awareness of calibration errors.",
+      "kind": "instrumentation_guidance",
+      "supports": [
+        {
+          "source_id": "nist-calibration",
+          "location": "Engineering Statistics Handbook: calibration pitfalls",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "Fixtures and jigs do not replace safe workholding and tool guarding.",
+      "kind": "occupational_tool_guidance",
+      "supports": [
+        {
+          "source_id": "osha-hand-power-tools",
+          "location": "Hand and power tools: guards and securing work",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-01",
+      "claim": "Surface preparation for bonding and finishing includes removing unstable contamination and providing substrate-appropriate geometry.",
+      "kind": "derived_workmanship_principle",
+      "supports": [
+        {
+          "source_id": "osha-hand-power-tools",
+          "location": "Tool and material preparation risks and applicability; author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "Sanding lead-based paint can generate hazardous lead dust, requiring proper controls.",
+      "kind": "surface_preparation_exposure",
+      "supports": [
+        {
+          "source_id": "osha-lead-sanding",
+          "location": "Manual scraping and sanding of lead-based paint hazards",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "Dimensional fit should be checked in the finished assembly, including coatings and fastening effects.",
+      "kind": "derived_geometry_quality",
+      "supports": [
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Dimensional measurement uncertainty; applied synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P009000-01",
+      "claim": "Wood adhesive bonds depend on the substrate surface condition, wetting and bonding mechanisms.",
+      "kind": "original_wood_adhesive_research",
+      "supports": [
+        {
+          "source_id": "usfs-adhesives-frihart-hunt",
+          "location": "Chapter 10 introduction and bond-formation principles",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "A strong adhesive material cannot overcome incompatible joint geometry or a contaminated interface.",
+      "kind": "derived_joint_mechanics",
+      "supports": [
+        {
+          "source_id": "usfs-adhesives-frihart-hunt",
+          "location": "Surface condition and factors affecting bond performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Existing coatings may require hazard-specific preparation rather than uncontrolled sanding.",
+      "kind": "regulatory_work_practice",
+      "supports": [
+        {
+          "source_id": "osha-lead-sanding",
+          "location": "Lead-based paint sanding and scraping hazards",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-01",
+      "claim": "Abrasive-wheel machines need suitable guards, wheel rating compatibility and controlled work support.",
+      "kind": "original_osha_grinder_safety",
+      "supports": [
+        {
+          "source_id": "osha-grinding-equipment-checklist",
+          "location": "Grinder inspection checklist and wheel speed limits",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Abrasive surface condition, edge geometry and burr removal influence cutting behavior.",
+      "kind": "derived_edge_mechanics",
+      "supports": [
+        {
+          "source_id": "osha-hand-power-tools",
+          "location": "Hand tool condition and correct use",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-grinding-equipment-checklist",
+          "location": "Abrasive wheel use context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Sharpening should respond to actual geometric damage rather than defaulting to maximum metal removal.",
+      "kind": "derived_repair_preservation_principle",
+      "supports": [
+        {
+          "source_id": "osha-hand-power-tools",
+          "location": "Tool use and condition",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Powered grinding introduces distinct rotating-wheel failure and dust hazards.",
+      "kind": "original_osha_powered_tool_hazards",
+      "supports": [
+        {
+          "source_id": "osha-grinding-equipment-checklist",
+          "location": "Guards, rating and inspection",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-lead-sanding",
+          "location": "Hazardous sanding dust and coatings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-tools-and-measurement:006000",
+        "file": "006000-fasteners-torque-and-connection-design.md",
+        "sha256": "1a42474bfb3b1a812496bdeeab7fb804333b260e53a6924b34b051ea0505f855",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-fasteners-torque-and-connection-design.md",
+          "related_resources": [
+            {
+              "source_id": "rammer-fastenings",
+              "reason": "Fastener types, withdrawal versus lateral loading, splitting, connector assumptions"
+            },
+            {
+              "source_id": "openstax-torque",
+              "reason": "Torque and perpendicular moment arm"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P006000-01",
+              "claim": "Wood fasteners differ in withdrawal and lateral resistance; joint properties depend on dimensions, spacing and grain direction.",
+              "kind": "wood_mechanics",
+              "supports": [
+                {
+                  "source_id": "rammer-fastenings",
+                  "location": "Abstract and Chapter 8: nail, screw, bolt, connector lateral/withdrawal resistance and spacing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-02",
+              "claim": "Tightening torque is a turning moment and is not interchangeable with direct clamping force.",
+              "kind": "derived_joint_mechanics",
+              "supports": [
+                {
+                  "source_id": "openstax-torque",
+                  "location": "OpenStax moments; fastener-design synthesis about friction-dependent preload",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "rammer-fastenings",
+                  "location": "OpenStax moments; fastener-design synthesis about friction-dependent preload",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-03",
+              "claim": "A connection must be analyzed for pull, shear, and moments as well as substrate or edge damage.",
+              "kind": "derived_connection_design",
+              "supports": [
+                {
+                  "source_id": "rammer-fastenings",
+                  "location": "Fastenings chapter: withdrawal, lateral resistance, bearing, spacing/edge/end distance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+        }
+      },
+      {
+        "id": "practical-tools-and-measurement:007000",
+        "file": "007000-jigs-templates-and-inspection.md",
+        "sha256": "2cc73387f8521b2977d1b9a869d4534024a25a7451c35537af8b3db07b342c0c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-jigs-templates-and-inspection.md",
+          "related_resources": [
+            {
+              "source_id": "nist-repeatability",
+              "reason": "Definition and conditions for repeatability"
+            },
+            {
+              "source_id": "nist-uncertainty",
+              "reason": "Measurement values, standards and uncertainty"
+            },
+            {
+              "source_id": "nist-calibration",
+              "reason": "Calibration limitations; precision, bias, operator changes"
+            },
+            {
+              "source_id": "osha-hand-power-tools",
+              "reason": "Tool guarding, securing work with clamps and correct tool operation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "Repeatability and measurement accuracy are separate characteristics; repeated measurements alone cannot exclude bias.",
+              "kind": "measurement_principle",
+              "supports": [
+                {
+                  "source_id": "nist-repeatability",
+                  "location": "Terminology for repeatability and reproducibility",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Measurement uncertainty discussion",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "Measurement systems need independent checks and awareness of calibration errors.",
+              "kind": "instrumentation_guidance",
+              "supports": [
+                {
+                  "source_id": "nist-calibration",
+                  "location": "Engineering Statistics Handbook: calibration pitfalls",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "Fixtures and jigs do not replace safe workholding and tool guarding.",
+              "kind": "occupational_tool_guidance",
+              "supports": [
+                {
+                  "source_id": "osha-hand-power-tools",
+                  "location": "Hand and power tools: guards and securing work",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      },
+      {
+        "id": "practical-tools-and-measurement:008000",
+        "file": "008000-surface-preparation-finishing-and-fit.md",
+        "sha256": "bfc607cdf86494a8224a9f62da39415178939bf18f4a859bd92804dc9c23ffa1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-surface-preparation-finishing-and-fit.md",
+          "related_resources": [
+            {
+              "source_id": "osha-hand-power-tools",
+              "reason": "Tool guarding, securing work with clamps and correct tool operation"
+            },
+            {
+              "source_id": "osha-lead-sanding",
+              "reason": "Lead dust hazards and work-control methods for coating preparation"
+            },
+            {
+              "source_id": "nist-uncertainty",
+              "reason": "Measurement values, standards and uncertainty"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P008000-01",
+              "claim": "Surface preparation for bonding and finishing includes removing unstable contamination and providing substrate-appropriate geometry.",
+              "kind": "derived_workmanship_principle",
+              "supports": [
+                {
+                  "source_id": "osha-hand-power-tools",
+                  "location": "Tool and material preparation risks and applicability; author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-02",
+              "claim": "Sanding lead-based paint can generate hazardous lead dust, requiring proper controls.",
+              "kind": "surface_preparation_exposure",
+              "supports": [
+                {
+                  "source_id": "osha-lead-sanding",
+                  "location": "Manual scraping and sanding of lead-based paint hazards",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-03",
+              "claim": "Dimensional fit should be checked in the finished assembly, including coatings and fastening effects.",
+              "kind": "derived_geometry_quality",
+              "supports": [
+                {
+                  "source_id": "nist-uncertainty",
+                  "location": "Dimensional measurement uncertainty; applied synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+        }
+      },
+      {
+        "id": "practical-tools-and-measurement:009000",
+        "file": "009000-adhesives-sealants-and-joint-preparation.md",
+        "sha256": "c04c0964a9ca96916544e6bbd416fb0da5065aeaaaabbae48f31976cb4fd8952",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-adhesives-sealants-and-joint-preparation.md",
+          "related_resources": [
+            {
+              "source_id": "usfs-adhesives-frihart-hunt",
+              "reason": "Adhesive wetting, bond formation, interface and structural properties; wood-specific scope"
+            },
+            {
+              "source_id": "osha-lead-sanding",
+              "reason": "Lead dust hazards and work-control methods for coating preparation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P009000-01",
+              "claim": "Wood adhesive bonds depend on the substrate surface condition, wetting and bonding mechanisms.",
+              "kind": "original_wood_adhesive_research",
+              "supports": [
+                {
+                  "source_id": "usfs-adhesives-frihart-hunt",
+                  "location": "Chapter 10 introduction and bond-formation principles",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-02",
+              "claim": "A strong adhesive material cannot overcome incompatible joint geometry or a contaminated interface.",
+              "kind": "derived_joint_mechanics",
+              "supports": [
+                {
+                  "source_id": "usfs-adhesives-frihart-hunt",
+                  "location": "Surface condition and factors affecting bond performance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-03",
+              "claim": "Existing coatings may require hazard-specific preparation rather than uncontrolled sanding.",
+              "kind": "regulatory_work_practice",
+              "supports": [
+                {
+                  "source_id": "osha-lead-sanding",
+                  "location": "Lead-based paint sanding and scraping hazards",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+        }
+      },
+      {
+        "id": "practical-tools-and-measurement:010000",
+        "file": "010000-abrasives-tool-maintenance-and-edge-geometry.md",
+        "sha256": "59be1f7207ffec71ac0d1d5274ecce2e5e8fff808fb7e21006625f3b72ec2487",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-abrasives-tool-maintenance-and-edge-geometry.md",
+          "related_resources": [
+            {
+              "source_id": "osha-grinding-equipment-checklist",
+              "reason": "Wheel guards, compatibility of rotational speed, tool rests and safe abrasive operation"
+            },
+            {
+              "source_id": "osha-hand-power-tools",
+              "reason": "Tool guarding, securing work with clamps and correct tool operation"
+            },
+            {
+              "source_id": "osha-lead-sanding",
+              "reason": "Lead dust hazards and work-control methods for coating preparation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Abrasive-wheel machines need suitable guards, wheel rating compatibility and controlled work support.",
+              "kind": "original_osha_grinder_safety",
+              "supports": [
+                {
+                  "source_id": "osha-grinding-equipment-checklist",
+                  "location": "Grinder inspection checklist and wheel speed limits",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "Abrasive surface condition, edge geometry and burr removal influence cutting behavior.",
+              "kind": "derived_edge_mechanics",
+              "supports": [
+                {
+                  "source_id": "osha-hand-power-tools",
+                  "location": "Hand tool condition and correct use",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-grinding-equipment-checklist",
+                  "location": "Abrasive wheel use context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Sharpening should respond to actual geometric damage rather than defaulting to maximum metal removal.",
+              "kind": "derived_repair_preservation_principle",
+              "supports": [
+                {
+                  "source_id": "osha-hand-power-tools",
+                  "location": "Tool use and condition",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Powered grinding introduces distinct rotating-wheel failure and dust hazards.",
+              "kind": "original_osha_powered_tool_hazards",
+              "supports": [
+                {
+                  "source_id": "osha-grinding-equipment-checklist",
+                  "location": "Guards, rating and inspection",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-lead-sanding",
+                  "location": "Hazardous sanding dust and coatings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "006000-make-repeatable-joints-and-surface-finishes.md"
+      ],
+      "joined_before_source_parts": [
+        "007000",
+        "009000"
+      ]
+    }
+  ]
 }

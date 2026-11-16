@@ -1,5 +1,7 @@
 # Agent A literature expansion: 027400–030000
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 All additions are in `draft-stages/tts-modern-literature/`; no shared code, other-agent content, tests or reader manifests were edited. The content pack is cumulative to allow one ordinary ZIP to restore earlier Agent A literature material, including the Tolkien special. Use the repository's `tools/content_overlay.py apply ZIP --replace-owned` with exclusive ownership of this pack, then optionally run the inventory. The importer preserves changed originals in `.content-update/`.
 
 | Story | Analysis | Work | Editorial boundary |

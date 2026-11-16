@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "014000",
-  "transcript": "014000-wood-joinery-glue-and-mechanical-load-transfer.md",
+  "transcript": "014000-connect-joinery-panels-lateral-resistance-and-roofs.md",
   "related_resources": [
     {
       "source_id": "usda-wood",
@@ -22,6 +22,34 @@
     {
       "source_id": "awc-wfcm",
       "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+    },
+    {
+      "source_id": "usfs-composite-wood-2021",
+      "reason": "Chapter 11 panel products: plywood, OSB, structural composite lumber; Chapter 12 mechanical property context"
+    },
+    {
+      "source_id": "awc-span-tutorial",
+      "reason": "Floor and roof load paths, stiffness, joist/rafter span assumptions and deflection"
+    },
+    {
+      "source_id": "apa-l350-shear-walls",
+      "reason": "Lateral diaphragm and shear-wall load paths, design and construction principles; technical guide revised May 2024"
+    },
+    {
+      "source_id": "rammer-fastenings",
+      "reason": "Wood connections, nails, screws, lateral and withdrawal capacity, joist hangers"
+    },
+    {
+      "source_id": "jlc-roof-truss-2023",
+      "reason": "Truss bracing, installation and need for engineered concurrence on load or field modifications"
+    },
+    {
+      "source_id": "icc-truss-alterations-historical",
+      "reason": "Example code edition illustrating written design approval for truss modifications; adopted edition must be independently checked"
+    },
+    {
+      "source_id": "ibhs-fortified-roof21",
+      "reason": "High-wind roof deck attachment, panel integrity, load-path concepts; site-specific criteria"
     }
   ],
   "historical_claims": [],
@@ -105,8 +133,947 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
       "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "Plywood, OSB and structural composite members use different internal wood orientations and product designs.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usfs-composite-wood-2021",
+          "location": "Chapter 11 panel products: plywood, OSB, structural composite lumber; Chapter 12 mechanical property context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Panel bending, stiffness and load-bearing performance depend on orientation, support and grade.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usfs-composite-wood-2021",
+          "location": "Chapter 11 panel products: plywood, OSB, structural composite lumber; Chapter 12 mechanical property context",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-span-tutorial",
+          "location": "Floor and roof load paths, stiffness, joist/rafter span assumptions and deflection",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Wood moisture changes dimensions and may affect panel edges and fastening behavior.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usda-drying",
+          "location": "Moisture content, equilibrium, shrinkage and storage",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Structural substitutions and I-joist modifications require manufacturer-specific details rather than appearance matching.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "usfs-composite-wood-2021",
+          "location": "Chapter 11 panel products: plywood, OSB, structural composite lumber; Chapter 12 mechanical property context",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-span-tutorial",
+          "location": "Floor and roof load paths, stiffness, joist/rafter span assumptions and deflection",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-01",
+      "claim": "Roofs and floors may act as diaphragms that transfer lateral loads to walls or frames and then to foundations.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "apa-l350-shear-walls",
+          "location": "Lateral diaphragm and shear-wall load paths, design and construction principles; technical guide revised May 2024",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "A sheathed wall obtains lateral resistance through a coordinated assembly of framing, panels, fasteners and anchorage.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "apa-l350-shear-walls",
+          "location": "Lateral diaphragm and shear-wall load paths, design and construction principles; technical guide revised May 2024",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Wall overturning and uplift involve boundary and foundation connections beyond the gravity header over an opening.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "apa-l350-shear-walls",
+          "location": "Lateral diaphragm and shear-wall load paths, design and construction principles; technical guide revised May 2024",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Replacing specified structural connectors with arbitrary fasteners can disrupt the intended load path.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "rammer-fastenings",
+          "location": "Wood connections, nails, screws, lateral and withdrawal capacity, joist hangers",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-01",
+      "claim": "Engineered trusses transfer loads through members and joints in a specific geometry.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "jlc-roof-truss-2023",
+          "location": "Truss bracing, installation and need for engineered concurrence on load or field modifications",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "Temporary and permanent bracing provide distinct stability functions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "jlc-roof-truss-2023",
+          "location": "Truss bracing, installation and need for engineered concurrence on load or field modifications",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "Field cuts or new concentrated loads require approval by an appropriate design professional.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "jlc-roof-truss-2023",
+          "location": "Truss bracing, installation and need for engineered concurrence on load or field modifications",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "icc-truss-alterations-historical",
+          "location": "Example code edition illustrating written design approval for truss modifications; adopted edition must be independently checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Apparent lack of sagging does not establish unused structural capacity.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Excess moisture and connection condition affect structural lumber and installed joints.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "jlc-roof-truss-2023",
+          "location": "Truss bracing, installation and need for engineered concurrence on load or field modifications",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-01",
+      "claim": "Wind can create uplift on roof sheathing, especially at edges and corners.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ibhs-fortified-roof21",
+          "location": "High-wind roof deck attachment, panel integrity, load-path concepts; site-specific criteria",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-02",
+      "claim": "Sheathing attachment and roof-to-wall connections are separate links in the structural load path.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-03",
+      "claim": "Fastener size, placement and substrate condition influence resistance to withdrawal and pull-through.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ibhs-fortified-roof21",
+          "location": "High-wind roof deck attachment, panel integrity, load-path concepts; site-specific criteria",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-04",
+      "claim": "Sheathing diaphragms transfer loads in the roof plane through panels and connections.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "apa-l350-shear-walls",
+          "location": "Lateral diaphragm and shear-wall load paths, design and construction principles; technical guide revised May 2024",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-carpentry:014000",
+        "file": "014000-wood-joinery-glue-and-mechanical-load-transfer.md",
+        "sha256": "47e5d61facd263a3b5e58a23a5df26f4946b437668e1240da1d0a5705793b02f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-wood-joinery-glue-and-mechanical-load-transfer.md",
+          "related_resources": [
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+            },
+            {
+              "source_id": "usda-drying",
+              "reason": "Moisture content, equilibrium, shrinkage and storage"
+            },
+            {
+              "source_id": "pnnl-loadpath",
+              "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+            },
+            {
+              "source_id": "usfs-hunt-finishing-2021",
+              "reason": "Water, ultraviolet exposure, exterior finishes, preparation and expected performance"
+            },
+            {
+              "source_id": "awc-wfcm",
+              "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P014000-01",
+              "claim": "The grain direction and wood moisture affect strength, shrinkage and joint durability.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usda-drying",
+                  "location": "Moisture content, equilibrium, shrinkage and storage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-02",
+              "claim": "Different joint geometries change bearing, shear, withdrawal and bending load paths.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-03",
+              "claim": "Adhesive bond quality depends on surface preparation, mating fit, environmental exposure and curing conditions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usfs-hunt-finishing-2021",
+                  "location": "Water, ultraviolet exposure, exterior finishes, preparation and expected performance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-04",
+              "claim": "Structural connection adequacy requires actual fastener and load-path design rather than generic furniture joint labels.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-carpentry:015000",
+        "file": "015000-engineered-wood-panels-and-moisture-sensitive-connections.md",
+        "sha256": "fd9af1f0463015ee54c698bad9180b66c29fee47fac93ddf274651004ae81061",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-engineered-wood-panels-and-moisture-sensitive-connections.md",
+          "related_resources": [
+            {
+              "source_id": "usfs-composite-wood-2021",
+              "reason": "Chapter 11 panel products: plywood, OSB, structural composite lumber; Chapter 12 mechanical property context"
+            },
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+            },
+            {
+              "source_id": "usda-drying",
+              "reason": "Moisture content, equilibrium, shrinkage and storage"
+            },
+            {
+              "source_id": "awc-span-tutorial",
+              "reason": "Floor and roof load paths, stiffness, joist/rafter span assumptions and deflection"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "Plywood, OSB and structural composite members use different internal wood orientations and product designs.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usfs-composite-wood-2021",
+                  "location": "Chapter 11 panel products: plywood, OSB, structural composite lumber; Chapter 12 mechanical property context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "Panel bending, stiffness and load-bearing performance depend on orientation, support and grade.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usfs-composite-wood-2021",
+                  "location": "Chapter 11 panel products: plywood, OSB, structural composite lumber; Chapter 12 mechanical property context",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-span-tutorial",
+                  "location": "Floor and roof load paths, stiffness, joist/rafter span assumptions and deflection",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Wood moisture changes dimensions and may affect panel edges and fastening behavior.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usda-drying",
+                  "location": "Moisture content, equilibrium, shrinkage and storage",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Structural substitutions and I-joist modifications require manufacturer-specific details rather than appearance matching.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "usfs-composite-wood-2021",
+                  "location": "Chapter 11 panel products: plywood, OSB, structural composite lumber; Chapter 12 mechanical property context",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-span-tutorial",
+                  "location": "Floor and roof load paths, stiffness, joist/rafter span assumptions and deflection",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-carpentry:016000",
+        "file": "016000-shear-walls-diaphragms-and-lateral-resistance.md",
+        "sha256": "d7c607add2a3fe56af2baf3d249533bced1f59399cab512e1b9b84860906e0c8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-shear-walls-diaphragms-and-lateral-resistance.md",
+          "related_resources": [
+            {
+              "source_id": "apa-l350-shear-walls",
+              "reason": "Lateral diaphragm and shear-wall load paths, design and construction principles; technical guide revised May 2024"
+            },
+            {
+              "source_id": "awc-wfcm",
+              "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+            },
+            {
+              "source_id": "pnnl-loadpath",
+              "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+            },
+            {
+              "source_id": "rammer-fastenings",
+              "reason": "Wood connections, nails, screws, lateral and withdrawal capacity, joist hangers"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "Roofs and floors may act as diaphragms that transfer lateral loads to walls or frames and then to foundations.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "apa-l350-shear-walls",
+                  "location": "Lateral diaphragm and shear-wall load paths, design and construction principles; technical guide revised May 2024",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "A sheathed wall obtains lateral resistance through a coordinated assembly of framing, panels, fasteners and anchorage.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "apa-l350-shear-walls",
+                  "location": "Lateral diaphragm and shear-wall load paths, design and construction principles; technical guide revised May 2024",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "Wall overturning and uplift involve boundary and foundation connections beyond the gravity header over an opening.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "apa-l350-shear-walls",
+                  "location": "Lateral diaphragm and shear-wall load paths, design and construction principles; technical guide revised May 2024",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Replacing specified structural connectors with arbitrary fasteners can disrupt the intended load path.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "rammer-fastenings",
+                  "location": "Wood connections, nails, screws, lateral and withdrawal capacity, joist hangers",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-carpentry:020000",
+        "file": "020000-roof-trusses-load-paths-and-the-limits-of-field-modifications.md",
+        "sha256": "b07bc83578a4be54c07f56228add3959dabdbd5251b6b32f60dce6edc35f7cc2",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-roof-trusses-load-paths-and-the-limits-of-field-modifications.md",
+          "related_resources": [
+            {
+              "source_id": "awc-wfcm",
+              "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+            },
+            {
+              "source_id": "pnnl-loadpath",
+              "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+            },
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+            },
+            {
+              "source_id": "jlc-roof-truss-2023",
+              "reason": "Truss bracing, installation and need for engineered concurrence on load or field modifications"
+            },
+            {
+              "source_id": "icc-truss-alterations-historical",
+              "reason": "Example code edition illustrating written design approval for truss modifications; adopted edition must be independently checked"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P020000-01",
+              "claim": "Engineered trusses transfer loads through members and joints in a specific geometry.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "jlc-roof-truss-2023",
+                  "location": "Truss bracing, installation and need for engineered concurrence on load or field modifications",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-02",
+              "claim": "Temporary and permanent bracing provide distinct stability functions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "jlc-roof-truss-2023",
+                  "location": "Truss bracing, installation and need for engineered concurrence on load or field modifications",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-03",
+              "claim": "Field cuts or new concentrated loads require approval by an appropriate design professional.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "jlc-roof-truss-2023",
+                  "location": "Truss bracing, installation and need for engineered concurrence on load or field modifications",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "icc-truss-alterations-historical",
+                  "location": "Example code edition illustrating written design approval for truss modifications; adopted edition must be independently checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-04",
+              "claim": "Apparent lack of sagging does not establish unused structural capacity.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-05",
+              "claim": "Excess moisture and connection condition affect structural lumber and installed joints.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "jlc-roof-truss-2023",
+                  "location": "Truss bracing, installation and need for engineered concurrence on load or field modifications",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+        }
+      },
+      {
+        "id": "trades-carpentry:021000",
+        "file": "021000-roof-sheathing-uplift-connections-and-wind-load-transfer.md",
+        "sha256": "8767aa30ecf7a80cc916e6397570812ce2353d839d080678824f18438ad1aba3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-roof-sheathing-uplift-connections-and-wind-load-transfer.md",
+          "related_resources": [
+            {
+              "source_id": "ibhs-fortified-roof21",
+              "reason": "High-wind roof deck attachment, panel integrity, load-path concepts; site-specific criteria"
+            },
+            {
+              "source_id": "awc-wfcm",
+              "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+            },
+            {
+              "source_id": "apa-l350-shear-walls",
+              "reason": "Lateral diaphragm and shear-wall load paths, design and construction principles; technical guide revised May 2024"
+            },
+            {
+              "source_id": "pnnl-loadpath",
+              "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P021000-01",
+              "claim": "Wind can create uplift on roof sheathing, especially at edges and corners.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ibhs-fortified-roof21",
+                  "location": "High-wind roof deck attachment, panel integrity, load-path concepts; site-specific criteria",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-02",
+              "claim": "Sheathing attachment and roof-to-wall connections are separate links in the structural load path.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-03",
+              "claim": "Fastener size, placement and substrate condition influence resistance to withdrawal and pull-through.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ibhs-fortified-roof21",
+                  "location": "High-wind roof deck attachment, panel integrity, load-path concepts; site-specific criteria",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-04",
+              "claim": "Sheathing diaphragms transfer loads in the roof plane through panels and connections.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "apa-l350-shear-walls",
+                  "location": "Lateral diaphragm and shear-wall load paths, design and construction principles; technical guide revised May 2024",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_or_clinical_review_pending",
+          "citation_policy": "Credit original authors and standards issuers; cite educational synthesis accurately. No engineering, clinical, or jurisdictional certification is claimed."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "014000-connect-joinery-panels-lateral-resistance-and-roofs.md"
+      ],
+      "joined_before_source_parts": [
+        "015000",
+        "020000"
+      ]
+    }
+  ]
 }

@@ -1,5 +1,7 @@
 # Jorge Luis Borges, *Ficciones*: full collection and critical landmarks (043000–044800)
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## Why this work, and why this form
 
 *Ficciones* (*Fictions*) is among the influential story collections of twentieth-century literary history. It changed what a short story could do with the conventions of the book review, encyclopedia article, detective story, theological disputation, and philosophical speculation. It belongs here for the documented importance of these formal inventions and their reception, not to fill a geographic category. The section contributes **one literary work**, not seventeen separate works.

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "046000",
-  "transcript": "046000-continuous-functional-calculus-from-approximation.md",
+  "transcript": "046000-continuous-and-measurable-calculus-domains-and-evolution.md",
   "related_resources": [
     {
       "source_id": "an-fc22-046000-1",
@@ -14,7 +14,240 @@
     {
       "source_id": "an-fc22-046000-3",
       "reason": "Supports the concepts, examples, and theorem scope in Continuous Functional Calculus: Build the Operator by Approximation."
+    },
+    {
+      "source_id": "an-fc22-047000-1",
+      "reason": "Supports the concepts, examples, and theorem scope in Spectral Projections: Filtering an Operator by Frequency."
+    },
+    {
+      "source_id": "an-fc22-047000-2",
+      "reason": "Supports the concepts, examples, and theorem scope in Spectral Projections: Filtering an Operator by Frequency."
+    },
+    {
+      "source_id": "an-fc22-048000-1",
+      "reason": "Supports the concepts, examples, and theorem scope in Borel Functional Calculus: When a Function Has Jumps."
+    },
+    {
+      "source_id": "an-fc22-048000-2",
+      "reason": "Supports the concepts, examples, and theorem scope in Borel Functional Calculus: When a Function Has Jumps."
+    },
+    {
+      "source_id": "an-fc22-048000-3",
+      "reason": "Supports the concepts, examples, and theorem scope in Borel Functional Calculus: When a Function Has Jumps."
+    },
+    {
+      "source_id": "an-fc22-049000-1",
+      "reason": "Supports the concepts, examples, and theorem scope in Unbounded Operators: Why the Domain Is Part of the Definition."
+    },
+    {
+      "source_id": "an-fc22-049000-2",
+      "reason": "Supports the concepts, examples, and theorem scope in Unbounded Operators: Why the Domain Is Part of the Definition."
+    },
+    {
+      "source_id": "an-fc22-049000-3",
+      "reason": "Supports the concepts, examples, and theorem scope in Unbounded Operators: Why the Domain Is Part of the Definition."
+    },
+    {
+      "source_id": "an-fc22-050000-1",
+      "reason": "Supports the concepts, examples, and theorem scope in Unbounded Functional Calculus: A Formula with an Input Test."
+    },
+    {
+      "source_id": "an-fc22-050000-2",
+      "reason": "Supports the concepts, examples, and theorem scope in Unbounded Functional Calculus: A Formula with an Input Test."
+    },
+    {
+      "source_id": "an-fc22-051000-1",
+      "reason": "Supports the concepts, examples, and theorem scope in Holomorphic Functional Calculus: Cauchy's Formula for Operators."
+    },
+    {
+      "source_id": "an-fc22-051000-2",
+      "reason": "Supports the concepts, examples, and theorem scope in Holomorphic Functional Calculus: Cauchy's Formula for Operators."
+    },
+    {
+      "source_id": "an-fc22-052000-1",
+      "reason": "Supports the concepts, examples, and theorem scope in Functional Calculus in Motion: Heat, Waves, and Quantum Evolution."
+    },
+    {
+      "source_id": "an-fc22-052000-2",
+      "reason": "Supports the concepts, examples, and theorem scope in Functional Calculus in Motion: Heat, Waves, and Quantum Evolution."
+    },
+    {
+      "source_id": "an-fc22-052000-3",
+      "reason": "Supports the concepts, examples, and theorem scope in Functional Calculus in Motion: Heat, Waves, and Quantum Evolution."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "analysis:046000",
+        "file": "046000-continuous-functional-calculus-from-approximation.md",
+        "sha256": "935ee523f89eb93bed56d96ddf8e0054ef0c0c293b722821db6da237375e3d02",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "046000",
+          "transcript": "046000-continuous-functional-calculus-from-approximation.md",
+          "related_resources": [
+            {
+              "source_id": "an-fc22-046000-1",
+              "reason": "Supports the concepts, examples, and theorem scope in Continuous Functional Calculus: Build the Operator by Approximation."
+            },
+            {
+              "source_id": "an-fc22-046000-2",
+              "reason": "Supports the concepts, examples, and theorem scope in Continuous Functional Calculus: Build the Operator by Approximation."
+            },
+            {
+              "source_id": "an-fc22-046000-3",
+              "reason": "Supports the concepts, examples, and theorem scope in Continuous Functional Calculus: Build the Operator by Approximation."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:047000",
+        "file": "047000-spectral-projections-as-filters.md",
+        "sha256": "1d8463a0a34605bcf690d5baab9502b506073d2fde7e5d60a089a4b8712d1038",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "047000",
+          "transcript": "047000-spectral-projections-as-filters.md",
+          "related_resources": [
+            {
+              "source_id": "an-fc22-047000-1",
+              "reason": "Supports the concepts, examples, and theorem scope in Spectral Projections: Filtering an Operator by Frequency."
+            },
+            {
+              "source_id": "an-fc22-047000-2",
+              "reason": "Supports the concepts, examples, and theorem scope in Spectral Projections: Filtering an Operator by Frequency."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:048000",
+        "file": "048000-borel-functional-calculus-and-strong-limits.md",
+        "sha256": "eec90443b65811f4038a65da52499e28296fa1fbd71bfdf8d6cb776d0c0869a9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "048000",
+          "transcript": "048000-borel-functional-calculus-and-strong-limits.md",
+          "related_resources": [
+            {
+              "source_id": "an-fc22-048000-1",
+              "reason": "Supports the concepts, examples, and theorem scope in Borel Functional Calculus: When a Function Has Jumps."
+            },
+            {
+              "source_id": "an-fc22-048000-2",
+              "reason": "Supports the concepts, examples, and theorem scope in Borel Functional Calculus: When a Function Has Jumps."
+            },
+            {
+              "source_id": "an-fc22-048000-3",
+              "reason": "Supports the concepts, examples, and theorem scope in Borel Functional Calculus: When a Function Has Jumps."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:049000",
+        "file": "049000-unbounded-operators-and-their-domains.md",
+        "sha256": "aa7e3af0bc5f0c855e56d38ac8ac1bc98acf5aaf78d81cc18869a586a4e1f049",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "049000",
+          "transcript": "049000-unbounded-operators-and-their-domains.md",
+          "related_resources": [
+            {
+              "source_id": "an-fc22-049000-1",
+              "reason": "Supports the concepts, examples, and theorem scope in Unbounded Operators: Why the Domain Is Part of the Definition."
+            },
+            {
+              "source_id": "an-fc22-049000-2",
+              "reason": "Supports the concepts, examples, and theorem scope in Unbounded Operators: Why the Domain Is Part of the Definition."
+            },
+            {
+              "source_id": "an-fc22-049000-3",
+              "reason": "Supports the concepts, examples, and theorem scope in Unbounded Operators: Why the Domain Is Part of the Definition."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:050000",
+        "file": "050000-unbounded-functional-calculus-and-spectral-integrals.md",
+        "sha256": "7fd413bccd323c53bd3e381efc5f5ac3b15075df5e12e88cd50543d97ceb3643",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "050000",
+          "transcript": "050000-unbounded-functional-calculus-and-spectral-integrals.md",
+          "related_resources": [
+            {
+              "source_id": "an-fc22-050000-1",
+              "reason": "Supports the concepts, examples, and theorem scope in Unbounded Functional Calculus: A Formula with an Input Test."
+            },
+            {
+              "source_id": "an-fc22-050000-2",
+              "reason": "Supports the concepts, examples, and theorem scope in Unbounded Functional Calculus: A Formula with an Input Test."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:051000",
+        "file": "051000-holomorphic-functional-calculus-and-resolvents.md",
+        "sha256": "6b1fab20dd0fdb2b5e09acedba4777f5768cbfcb76ed594cf2453724e0621972",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "051000",
+          "transcript": "051000-holomorphic-functional-calculus-and-resolvents.md",
+          "related_resources": [
+            {
+              "source_id": "an-fc22-051000-1",
+              "reason": "Supports the concepts, examples, and theorem scope in Holomorphic Functional Calculus: Cauchy's Formula for Operators."
+            },
+            {
+              "source_id": "an-fc22-051000-2",
+              "reason": "Supports the concepts, examples, and theorem scope in Holomorphic Functional Calculus: Cauchy's Formula for Operators."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:052000",
+        "file": "052000-functional-calculus-heat-waves-and-quantum-motion.md",
+        "sha256": "ac93b753ba63cbb344f0a8bfd60a636c7a9e573644ab0af50373b77caeb315ba",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "052000",
+          "transcript": "052000-functional-calculus-heat-waves-and-quantum-motion.md",
+          "related_resources": [
+            {
+              "source_id": "an-fc22-052000-1",
+              "reason": "Supports the concepts, examples, and theorem scope in Functional Calculus in Motion: Heat, Waves, and Quantum Evolution."
+            },
+            {
+              "source_id": "an-fc22-052000-2",
+              "reason": "Supports the concepts, examples, and theorem scope in Functional Calculus in Motion: Heat, Waves, and Quantum Evolution."
+            },
+            {
+              "source_id": "an-fc22-052000-3",
+              "reason": "Supports the concepts, examples, and theorem scope in Functional Calculus in Motion: Heat, Waves, and Quantum Evolution."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

@@ -1,0 +1,28 @@
+transcript:
+  revisions:
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - lecture: '001000'
+      composition_record: metadata/001000.json
+    - lecture: '014000'
+      composition_record: metadata/014000.json
+    - lecture: '006000'
+      composition_record: metadata/006000.json
+    - lecture: '015000'
+      composition_record: metadata/015000.json
+    scope: Consolidate reviewed source parts into single lecture manuscripts. Original
+      text and source attribution are retained in component records and Git history;
+      this revision does not claim original authorship of inherited prose.
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - 001000-plan-accurate-work-from-shared-references.md
+    - 014000-prepare-the-workshop-cut-drill-and-hold-work.md
+    - 006000-make-repeatable-joints-and-surface-finishes.md
+    - 015000-diagnose-process-error-and-prove-acceptance.md
+    scope: Reviewed combined-manuscript joins and added connections among preserved
+      source arguments; scoped inherited part-level framing. No original authorship
+      of inherited prose, new technical guidance, or field validation is claimed.

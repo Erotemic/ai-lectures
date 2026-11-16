@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "007000",
-  "transcript": "007000-windows-doors-trim-and-movement.md",
+  "transcript": "007000-fit-interior-elements-through-seasonal-movement.md",
   "related_resources": [
     {
       "source_id": "pnnl-window-full-flashing",
@@ -14,6 +14,26 @@
     {
       "source_id": "usda-drying",
       "reason": "Moisture content, equilibrium, shrinkage and storage"
+    },
+    {
+      "source_id": "icc-irc2021-stairs",
+      "reason": "Example model provisions for guards and handrails; local adoption and edition vary"
+    },
+    {
+      "source_id": "usda-wood",
+      "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+    },
+    {
+      "source_id": "rammer-fastenings",
+      "reason": "Wood connections, nails, screws, lateral and withdrawal capacity, joist hangers"
+    },
+    {
+      "source_id": "awc-wfcm",
+      "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+    },
+    {
+      "source_id": "usfs-hunt-finishing-2021",
+      "reason": "Water, ultraviolet exposure, exterior finishes, preparation and expected performance"
     }
   ],
   "historical_claims": [],
@@ -62,8 +82,704 @@
       "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
       "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-01",
+      "claim": "Stair and guard requirements include geometry and protective features under adopted building codes.",
+      "kind": "model_code_scope",
+      "supports": [
+        {
+          "source_id": "icc-irc2021-stairs",
+          "location": "Chapter 3 stairs and guards; jurisdiction adoption varies",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "Stringers and protective-rail connections require continuous paths for service loads into structural supports.",
+      "kind": "derived_structural_principle",
+      "supports": [
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Structural continuity and load-path concepts; author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "Finished floor elevation, not rough framing elevation alone, governs usable riser geometry.",
+      "kind": "derived_stair_layout",
+      "supports": [
+        {
+          "source_id": "icc-irc2021-stairs",
+          "location": "R311 stair geometry and riser uniformity; applied layout inference",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P010000-01",
+      "claim": "Solid wood movement with moisture content is strongly direction-dependent.",
+      "kind": "original_usda_wood_engineering",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Wood moisture and directional dimensional change",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-drying",
+          "location": "Moisture content and drying",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Trim joins materials with different directions of grain and can reveal seasonal movement at corners.",
+      "kind": "derived_wood_joint_geometry",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Wood dimensional change and joint behavior",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Fastening and adhesive strategies must be selected for the support and anticipated movement.",
+      "kind": "derived_joinery_constraint_design",
+      "supports": [
+        {
+          "source_id": "rammer-fastenings",
+          "location": "Wood fastening behavior",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-wood",
+          "location": "Dimensional response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Nominal square angles and dimension labels are insufficient when actual walls, jambs, and profiles differ.",
+      "kind": "derived_geometric_layout",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Wood properties affecting fit",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-01",
+      "claim": "Bending stiffness of a rectangular section increases strongly with vertical thickness and depends on material modulus.",
+      "kind": "derived_elastic_beam_mechanics",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Mechanical material properties and elastic modulus",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Longer spans may deflect substantially more under the same load distribution than otherwise similar shorter spans.",
+      "kind": "derived_beam_theory",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Modulus of elasticity and lumber bending behavior",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Cabinetry loads must pass through shelf support connections, cabinet cases, attachment elements and building substrate.",
+      "kind": "derived_load_path_synthesis",
+      "supports": [
+        {
+          "source_id": "rammer-fastenings",
+          "location": "Connection and withdrawal/load transfer",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Structural load path principles",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Wood products change dimension with moisture and can accumulate deformation during long-term loading.",
+      "kind": "derived_material_behavior_synthesis",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Wood-moisture relations and mechanical behavior",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-drying",
+          "location": "Moisture content and wood movement",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-01",
+      "claim": "Exterior wood finishes help protect surfaces from moisture, ultraviolet exposure and weathering.",
+      "kind": "original_usfs_wood_science",
+      "supports": [
+        {
+          "source_id": "usfs-hunt-finishing-2021",
+          "location": "Water, ultraviolet exposure, exterior finishes, preparation and expected performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Wood moisture cycling causes dimensional changes and affects coating durability.",
+      "kind": "original_usfs_wood_science",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usfs-hunt-finishing-2021",
+          "location": "Water, ultraviolet exposure, exterior finishes, preparation and expected performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Protecting exterior joints and end grain is part of finish performance, not a substitute for sound drainage detailing.",
+      "kind": "derived_carpentry_durability_synthesis",
+      "supports": [
+        {
+          "source_id": "usfs-hunt-finishing-2021",
+          "location": "Water, ultraviolet exposure, exterior finishes, preparation and expected performance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-window-full-flashing",
+          "location": "Sill pan, jamb and head flashing integrated with drainage layer",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-carpentry:007000",
+        "file": "007000-windows-doors-trim-and-movement.md",
+        "sha256": "e94ac1b50f683a504251aaa6d9d3f87f9c7691c80e60a6a5d8b7cac23191e3c3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-windows-doors-trim-and-movement.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-window-full-flashing",
+              "reason": "Sill pan, jamb and head flashing integrated with drainage layer"
+            },
+            {
+              "source_id": "pnnl-loadpath",
+              "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+            },
+            {
+              "source_id": "usda-drying",
+              "reason": "Moisture content, equilibrium, shrinkage and storage"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "Window and door flashing needs shingle-style integration of sill, jamb and head with the wall drainage layer.",
+              "kind": "construction_detail",
+              "supports": [
+                {
+                  "source_id": "pnnl-window-full-flashing",
+                  "location": "Scope and Description: sill pan, jamb/head flashing, drainage plane integration",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "Opening modifications must preserve structural support and load transfer around the product.",
+              "kind": "structural_load_path",
+              "supports": [
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "Continuous load path through wall framing and connections",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "Wood moisture changes can alter dimensions and alignment of frames and trim.",
+              "kind": "wood_material_behavior",
+              "supports": [
+                {
+                  "source_id": "usda-drying",
+                  "location": "Moisture and dimensional change of wood material",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      },
+      {
+        "id": "trades-carpentry:008000",
+        "file": "008000-stairs-guardrails-and-geometric-constraints.md",
+        "sha256": "3e5fe095beb629cd24a81f8249e8ce825b3160f69542ca9ed3fb6037c1b2ea9b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-stairs-guardrails-and-geometric-constraints.md",
+          "related_resources": [
+            {
+              "source_id": "icc-irc2021-stairs",
+              "reason": "Example model provisions for guards and handrails; local adoption and edition vary"
+            },
+            {
+              "source_id": "pnnl-loadpath",
+              "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P008000-01",
+              "claim": "Stair and guard requirements include geometry and protective features under adopted building codes.",
+              "kind": "model_code_scope",
+              "supports": [
+                {
+                  "source_id": "icc-irc2021-stairs",
+                  "location": "Chapter 3 stairs and guards; jurisdiction adoption varies",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-02",
+              "claim": "Stringers and protective-rail connections require continuous paths for service loads into structural supports.",
+              "kind": "derived_structural_principle",
+              "supports": [
+                {
+                  "source_id": "pnnl-loadpath",
+                  "location": "Structural continuity and load-path concepts; author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-03",
+              "claim": "Finished floor elevation, not rough framing elevation alone, governs usable riser geometry.",
+              "kind": "derived_stair_layout",
+              "supports": [
+                {
+                  "source_id": "icc-irc2021-stairs",
+                  "location": "R311 stair geometry and riser uniformity; applied layout inference",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+        }
+      },
+      {
+        "id": "trades-carpentry:010000",
+        "file": "010000-finish-carpentry-trim-joints-and-seasonal-movement.md",
+        "sha256": "06854daff89b050a6ce6101ad8e969c8b5c3b65b6e5ed2386cac6fe3d99d93d7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-finish-carpentry-trim-joints-and-seasonal-movement.md",
+          "related_resources": [
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+            },
+            {
+              "source_id": "usda-drying",
+              "reason": "Moisture content, equilibrium, shrinkage and storage"
+            },
+            {
+              "source_id": "rammer-fastenings",
+              "reason": "Wood connections, nails, screws, lateral and withdrawal capacity, joist hangers"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Solid wood movement with moisture content is strongly direction-dependent.",
+              "kind": "original_usda_wood_engineering",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Wood moisture and directional dimensional change",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usda-drying",
+                  "location": "Moisture content and drying",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "Trim joins materials with different directions of grain and can reveal seasonal movement at corners.",
+              "kind": "derived_wood_joint_geometry",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Wood dimensional change and joint behavior",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Fastening and adhesive strategies must be selected for the support and anticipated movement.",
+              "kind": "derived_joinery_constraint_design",
+              "supports": [
+                {
+                  "source_id": "rammer-fastenings",
+                  "location": "Wood fastening behavior",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usda-wood",
+                  "location": "Dimensional response",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Nominal square angles and dimension labels are insufficient when actual walls, jambs, and profiles differ.",
+              "kind": "derived_geometric_layout",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Wood properties affecting fit",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "trades-carpentry:011000",
+        "file": "011000-cabinetry-shelves-and-deflection-under-load.md",
+        "sha256": "162ebb0ddf946e40a87153da0802a8108b580e7b9193c6f5cefc5ad4a0bb1d22",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-cabinetry-shelves-and-deflection-under-load.md",
+          "related_resources": [
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+            },
+            {
+              "source_id": "rammer-fastenings",
+              "reason": "Wood connections, nails, screws, lateral and withdrawal capacity, joist hangers"
+            },
+            {
+              "source_id": "awc-wfcm",
+              "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+            },
+            {
+              "source_id": "usda-drying",
+              "reason": "Moisture content, equilibrium, shrinkage and storage"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "Bending stiffness of a rectangular section increases strongly with vertical thickness and depends on material modulus.",
+              "kind": "derived_elastic_beam_mechanics",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Mechanical material properties and elastic modulus",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "Longer spans may deflect substantially more under the same load distribution than otherwise similar shorter spans.",
+              "kind": "derived_beam_theory",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Modulus of elasticity and lumber bending behavior",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "Cabinetry loads must pass through shelf support connections, cabinet cases, attachment elements and building substrate.",
+              "kind": "derived_load_path_synthesis",
+              "supports": [
+                {
+                  "source_id": "rammer-fastenings",
+                  "location": "Connection and withdrawal/load transfer",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "awc-wfcm",
+                  "location": "Structural load path principles",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "Wood products change dimension with moisture and can accumulate deformation during long-term loading.",
+              "kind": "derived_material_behavior_synthesis",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Wood-moisture relations and mechanical behavior",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usda-drying",
+                  "location": "Moisture content and wood movement",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "trades-carpentry:012000",
+        "file": "012000-wood-finishes-weathering-and-exterior-durability.md",
+        "sha256": "7b0eddfe4aae845fafceeb7fab52f2e9c10eb4bf106a5033478d1eea38688203",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-wood-finishes-weathering-and-exterior-durability.md",
+          "related_resources": [
+            {
+              "source_id": "usfs-hunt-finishing-2021",
+              "reason": "Water, ultraviolet exposure, exterior finishes, preparation and expected performance"
+            },
+            {
+              "source_id": "usda-wood",
+              "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+            },
+            {
+              "source_id": "pnnl-window-full-flashing",
+              "reason": "Sill pan, jamb and head flashing integrated with drainage layer"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P012000-01",
+              "claim": "Exterior wood finishes help protect surfaces from moisture, ultraviolet exposure and weathering.",
+              "kind": "original_usfs_wood_science",
+              "supports": [
+                {
+                  "source_id": "usfs-hunt-finishing-2021",
+                  "location": "Water, ultraviolet exposure, exterior finishes, preparation and expected performance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-02",
+              "claim": "Wood moisture cycling causes dimensional changes and affects coating durability.",
+              "kind": "original_usfs_wood_science",
+              "supports": [
+                {
+                  "source_id": "usda-wood",
+                  "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usfs-hunt-finishing-2021",
+                  "location": "Water, ultraviolet exposure, exterior finishes, preparation and expected performance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-03",
+              "claim": "Protecting exterior joints and end grain is part of finish performance, not a substitute for sound drainage detailing.",
+              "kind": "derived_carpentry_durability_synthesis",
+              "supports": [
+                {
+                  "source_id": "usfs-hunt-finishing-2021",
+                  "location": "Water, ultraviolet exposure, exterior finishes, preparation and expected performance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-window-full-flashing",
+                  "location": "Sill pan, jamb and head flashing integrated with drainage layer",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "007000-fit-interior-elements-through-seasonal-movement.md"
+      ],
+      "joined_before_source_parts": [
+        "008000",
+        "011000"
+      ]
+    }
+  ]
 }

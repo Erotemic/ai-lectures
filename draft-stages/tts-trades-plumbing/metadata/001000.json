@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-pressure-flow-and-the-two-networks.md",
+  "transcript": "001000-trace-supply-materials-valves-and-clean-water-boundaries.md",
   "related_resources": [
     {
       "source_id": "epa-maintenance",
@@ -14,6 +14,34 @@
     {
       "source_id": "iapmo-upc",
       "reason": "Chapters 9–10: vents and traps; code adoption varies"
+    },
+    {
+      "source_id": "pnnl-service-pressure",
+      "reason": "Static supply pressure, PRV mechanism and closed-system expansion"
+    },
+    {
+      "source_id": "epa-lead-water-sources",
+      "reason": "Lead service lines, solder, fixtures and galvanized-line sediment risks"
+    },
+    {
+      "source_id": "epa-lead-service-replacement",
+      "reason": "Lead service-line exposure, full replacement principles and federal program scope"
+    },
+    {
+      "source_id": "epa-cross-connections",
+      "reason": "Cross-connections, upstream pressure reversal and drinking-water contamination hazards"
+    },
+    {
+      "source_id": "mass-backflow-guide",
+      "reason": "Air gaps, double checks and reduced-pressure assemblies; hazard-specific selection"
+    },
+    {
+      "source_id": "moen-fixture-handle-leak",
+      "reason": "Distinguishes handle leaks and cartridges for particular Moen products"
+    },
+    {
+      "source_id": "epa-ccc-factsheet-2021",
+      "reason": "Describes cross-connections involving private irrigation, pressure reversal, drinking-water contamination, and utility prevention programs"
     }
   ],
   "historical_claims": [],
@@ -67,8 +95,942 @@
       "verification_level": "public_source_identified_editorial_check_pending",
       "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
       "professional_review": "pending"
+    },
+    {
+      "claim_id": "P002000-01",
+      "claim": "Static supply pressure exists when no fixture water is flowing.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Description: static service pressure",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-02",
+      "claim": "Direct-acting PRVs modulate an internal valve with a diaphragm/spring responding to outlet pressure.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Description: direct-acting pressure-reducing valves",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-03",
+      "claim": "PRVs may create a closed domestic system for thermal expansion considerations.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Description: PRV, thermal expansion and local codes",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-04",
+      "claim": "Pressure assessment and leak checks are distinct from simply observing faucet output.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "epa-maintenance",
+          "location": "Service pressure check and monitoring",
+          "role": "reference"
+        },
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Service pressure check and monitoring",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P012000-01",
+      "claim": "Pipe performance depends on material, water chemistry, service temperature and installation conditions.",
+      "kind": "derived_plumbing_materials_synthesis",
+      "supports": [
+        {
+          "source_id": "epa-lead-water-sources",
+          "location": "Lead service lines, solder, fixtures and galvanized-line sediment risks",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Lead-containing plumbing materials can contaminate drinking water through corrosion without reliable sensory warning.",
+      "kind": "original_epa_lead_public_health",
+      "supports": [
+        {
+          "source_id": "epa-lead-water-sources",
+          "location": "Lead service lines, solder, fixtures and galvanized-line sediment risks",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-lead-service-replacement",
+          "location": "Lead service-line exposure, full replacement principles and federal program scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Certain galvanized service pipes can retain upstream lead particles and require investigation as part of service-line decisions.",
+      "kind": "original_epa_lead_service_guidance",
+      "supports": [
+        {
+          "source_id": "epa-lead-water-sources",
+          "location": "Lead service lines, solder, fixtures and galvanized-line sediment risks",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-lead-service-replacement",
+          "location": "Lead service-line exposure, full replacement principles and federal program scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-04",
+      "claim": "Replacing a short indoor pipe is not equivalent to removing an upstream lead service line.",
+      "kind": "derived_water_quality_scope",
+      "supports": [
+        {
+          "source_id": "epa-lead-service-replacement",
+          "location": "Lead service-line exposure, full replacement principles and federal program scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-01",
+      "claim": "Valves serving isolation, modulation, pressure reduction, check flow, and safety relief perform different functions.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "iapmo-upc",
+          "location": "Chapters 9–10: vents and traps; code adoption varies",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-02",
+      "claim": "Potable-water backflow protection depends on the hazard and approved/testable device, not any generic check valve.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-cross-connections",
+          "location": "Cross-connections, upstream pressure reversal and drinking-water contamination hazards",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "mass-backflow-guide",
+          "location": "Air gaps, double checks and reduced-pressure assemblies; hazard-specific selection",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-03",
+      "claim": "Valve selection depends on fluid, service temperature, pressure rating, materials, end connections, and accessibility.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "iapmo-upc",
+          "location": "Chapters 9–10: vents and traps; code adoption varies",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-maintenance",
+          "location": "Leaks, service pressure and maintenance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-04",
+      "claim": "A serviceable valve must reliably isolate the intended branch and be tested for leakage after repair.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "epa-maintenance",
+          "location": "Leaks, service pressure and maintenance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "moen-fixture-handle-leak",
+          "location": "Distinguishes handle leaks and cartridges for particular Moen products",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P005000-01",
+      "claim": "Backflow is unwanted reversal through a cross-connection and can contaminate potable water.",
+      "kind": "public_health_mechanism",
+      "supports": [
+        {
+          "source_id": "epa-cross-connections",
+          "location": "Cross-connection and backflow resource introduction",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-02",
+      "claim": "Backsiphonage and backpressure are distinct pressure regimes and require protection selected to the hazard.",
+      "kind": "hydraulic_mechanism",
+      "supports": [
+        {
+          "source_id": "epa-cross-connections",
+          "location": "Methods/devices sections and backflow definitions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "mass-backflow-guide",
+          "location": "Methods/devices sections and backflow definitions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P005000-03",
+      "claim": "An air gap provides physical separation; mechanical assemblies differ in rated protection and testing needs.",
+      "kind": "field_practice",
+      "supports": [
+        {
+          "source_id": "mass-backflow-guide",
+          "location": "Air Gaps, Double Check Valve Devices, Reduced Pressure Zone Devices",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+      "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P016000-01",
+      "claim": "Cross-connections can contaminate drinking water when supply-side or connected-system pressure reverses intended flow.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-cross-connections",
+          "location": "Cross-connections, upstream pressure reversal and drinking-water contamination hazards",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-ccc-factsheet-2021",
+          "location": "Describes cross-connections involving private irrigation, pressure reversal, drinking-water contamination, and utility prevention programs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Backsiphonage and backpressure are different mechanisms and can require different protective assemblies.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "mass-backflow-guide",
+          "location": "Air gaps, double checks and reduced-pressure assemblies; hazard-specific selection",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Protection devices are hazard-, installation- and test-specific rather than interchangeable check valves.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "mass-backflow-guide",
+          "location": "Air gaps, double checks and reduced-pressure assemblies; hazard-specific selection",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Hoses, irrigation systems and injection points must be included when surveying a potable water boundary.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "epa-ccc-factsheet-2021",
+          "location": "Describes cross-connections involving private irrigation, pressure reversal, drinking-water contamination, and utility prevention programs",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-cross-connections",
+          "location": "Cross-connections, upstream pressure reversal and drinking-water contamination hazards",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "educational_draft_sources_recorded_not_field_validated",
-  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-plumbing:001000",
+        "file": "001000-pressure-flow-and-the-two-networks.md",
+        "sha256": "fda4fd93e2584dc4c33271759f3fcd48e71d6e6d9838e85212671e9bb1c6cf0d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-pressure-flow-and-the-two-networks.md",
+          "related_resources": [
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leaks, service pressure and maintenance"
+            },
+            {
+              "source_id": "iapmo-venting",
+              "reason": "Trap seal protection against siphonage and backpressure"
+            },
+            {
+              "source_id": "iapmo-upc",
+              "reason": "Chapters 9–10: vents and traps; code adoption varies"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P001000-01",
+              "claim": "Water-use performance depends on pressure and system restrictions",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "Leaks, service pressure and maintenance",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-02",
+              "claim": "Trap seals need pressure management and venting",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "iapmo-venting",
+                  "location": "Trap seal protection against siphonage and backpressure",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "iapmo-upc",
+                  "location": "Chapters 9–10: vents and traps; code adoption varies",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-03",
+              "claim": "Plumbing code requirements depend on the adopted edition and jurisdiction",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "iapmo-upc",
+                  "location": "Chapters 9–10: vents and traps; code adoption varies",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            }
+          ],
+          "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+          "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+        }
+      },
+      {
+        "id": "trades-plumbing:002000",
+        "file": "002000-water-mains-shutoffs-valves-and-regulators.md",
+        "sha256": "2d7a3d635abdb3e59c7bd217e0cb28e89dce4680fac32d2249e15b240cdb2ceb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-water-mains-shutoffs-valves-and-regulators.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-service-pressure",
+              "reason": "Static supply pressure, PRV mechanism and closed-system expansion"
+            },
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leaks, service pressure and maintenance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P002000-01",
+              "claim": "Static supply pressure exists when no fixture water is flowing.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Description: static service pressure",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-02",
+              "claim": "Direct-acting PRVs modulate an internal valve with a diaphragm/spring responding to outlet pressure.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Description: direct-acting pressure-reducing valves",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-03",
+              "claim": "PRVs may create a closed domestic system for thermal expansion considerations.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Description: PRV, thermal expansion and local codes",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-04",
+              "claim": "Pressure assessment and leak checks are distinct from simply observing faucet output.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "Service pressure check and monitoring",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Service pressure check and monitoring",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+        }
+      },
+      {
+        "id": "trades-plumbing:012000",
+        "file": "012000-pipe-materials-aging-corrosion-and-replacement-decisions.md",
+        "sha256": "2656001e9ef59d3a1f34cfb7be9c4552ae380db97586b66282c8525a935e68c6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-pipe-materials-aging-corrosion-and-replacement-decisions.md",
+          "related_resources": [
+            {
+              "source_id": "epa-lead-water-sources",
+              "reason": "Lead service lines, solder, fixtures and galvanized-line sediment risks"
+            },
+            {
+              "source_id": "pnnl-service-pressure",
+              "reason": "Static supply pressure, PRV mechanism and closed-system expansion"
+            },
+            {
+              "source_id": "epa-lead-service-replacement",
+              "reason": "Lead service-line exposure, full replacement principles and federal program scope"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P012000-01",
+              "claim": "Pipe performance depends on material, water chemistry, service temperature and installation conditions.",
+              "kind": "derived_plumbing_materials_synthesis",
+              "supports": [
+                {
+                  "source_id": "epa-lead-water-sources",
+                  "location": "Lead service lines, solder, fixtures and galvanized-line sediment risks",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-02",
+              "claim": "Lead-containing plumbing materials can contaminate drinking water through corrosion without reliable sensory warning.",
+              "kind": "original_epa_lead_public_health",
+              "supports": [
+                {
+                  "source_id": "epa-lead-water-sources",
+                  "location": "Lead service lines, solder, fixtures and galvanized-line sediment risks",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-lead-service-replacement",
+                  "location": "Lead service-line exposure, full replacement principles and federal program scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-03",
+              "claim": "Certain galvanized service pipes can retain upstream lead particles and require investigation as part of service-line decisions.",
+              "kind": "original_epa_lead_service_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-lead-water-sources",
+                  "location": "Lead service lines, solder, fixtures and galvanized-line sediment risks",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-lead-service-replacement",
+                  "location": "Lead service-line exposure, full replacement principles and federal program scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-04",
+              "claim": "Replacing a short indoor pipe is not equivalent to removing an upstream lead service line.",
+              "kind": "derived_water_quality_scope",
+              "supports": [
+                {
+                  "source_id": "epa-lead-service-replacement",
+                  "location": "Lead service-line exposure, full replacement principles and federal program scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "trades-plumbing:014000",
+        "file": "014000-valve-selection-serviceability-and-maintenance-intervals.md",
+        "sha256": "9514a4f482d820e8747d0a82a5ac8f596f3d49058774c07526a298aad2784494",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-valve-selection-serviceability-and-maintenance-intervals.md",
+          "related_resources": [
+            {
+              "source_id": "iapmo-upc",
+              "reason": "Chapters 9–10: vents and traps; code adoption varies"
+            },
+            {
+              "source_id": "pnnl-service-pressure",
+              "reason": "Static supply pressure, PRV mechanism and closed-system expansion"
+            },
+            {
+              "source_id": "epa-cross-connections",
+              "reason": "Cross-connections, upstream pressure reversal and drinking-water contamination hazards"
+            },
+            {
+              "source_id": "mass-backflow-guide",
+              "reason": "Air gaps, double checks and reduced-pressure assemblies; hazard-specific selection"
+            },
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leaks, service pressure and maintenance"
+            },
+            {
+              "source_id": "moen-fixture-handle-leak",
+              "reason": "Distinguishes handle leaks and cartridges for particular Moen products"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P014000-01",
+              "claim": "Valves serving isolation, modulation, pressure reduction, check flow, and safety relief perform different functions.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "iapmo-upc",
+                  "location": "Chapters 9–10: vents and traps; code adoption varies",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-02",
+              "claim": "Potable-water backflow protection depends on the hazard and approved/testable device, not any generic check valve.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-cross-connections",
+                  "location": "Cross-connections, upstream pressure reversal and drinking-water contamination hazards",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "mass-backflow-guide",
+                  "location": "Air gaps, double checks and reduced-pressure assemblies; hazard-specific selection",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-03",
+              "claim": "Valve selection depends on fluid, service temperature, pressure rating, materials, end connections, and accessibility.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "iapmo-upc",
+                  "location": "Chapters 9–10: vents and traps; code adoption varies",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "Leaks, service pressure and maintenance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-04",
+              "claim": "A serviceable valve must reliably isolate the intended branch and be tested for leakage after repair.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "Leaks, service pressure and maintenance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "moen-fixture-handle-leak",
+                  "location": "Distinguishes handle leaks and cartridges for particular Moen products",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-plumbing:005000",
+        "file": "005000-backflow-and-separation-of-drinking-water.md",
+        "sha256": "44f40f64c117467a7a029654b14c47861814d01392cc52af27fb593564153c15",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-backflow-and-separation-of-drinking-water.md",
+          "related_resources": [
+            {
+              "source_id": "epa-cross-connections",
+              "reason": "Cross-connections, upstream pressure reversal and drinking-water contamination hazards"
+            },
+            {
+              "source_id": "mass-backflow-guide",
+              "reason": "Air gaps, double checks and reduced-pressure assemblies; hazard-specific selection"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P005000-01",
+              "claim": "Backflow is unwanted reversal through a cross-connection and can contaminate potable water.",
+              "kind": "public_health_mechanism",
+              "supports": [
+                {
+                  "source_id": "epa-cross-connections",
+                  "location": "Cross-connection and backflow resource introduction",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-02",
+              "claim": "Backsiphonage and backpressure are distinct pressure regimes and require protection selected to the hazard.",
+              "kind": "hydraulic_mechanism",
+              "supports": [
+                {
+                  "source_id": "epa-cross-connections",
+                  "location": "Methods/devices sections and backflow definitions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "mass-backflow-guide",
+                  "location": "Methods/devices sections and backflow definitions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-03",
+              "claim": "An air gap provides physical separation; mechanical assemblies differ in rated protection and testing needs.",
+              "kind": "field_practice",
+              "supports": [
+                {
+                  "source_id": "mass-backflow-guide",
+                  "location": "Air Gaps, Double Check Valve Devices, Reduced Pressure Zone Devices",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+        }
+      },
+      {
+        "id": "trades-plumbing:016000",
+        "file": "016000-cross-connections-in-irrigation-and-hose-systems.md",
+        "sha256": "b1ab77601b24ef4b6d07da7cc59fda893de0b8c229fd72a02944d0a5f176721f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-cross-connections-in-irrigation-and-hose-systems.md",
+          "related_resources": [
+            {
+              "source_id": "epa-cross-connections",
+              "reason": "Cross-connections, upstream pressure reversal and drinking-water contamination hazards"
+            },
+            {
+              "source_id": "mass-backflow-guide",
+              "reason": "Air gaps, double checks and reduced-pressure assemblies; hazard-specific selection"
+            },
+            {
+              "source_id": "epa-ccc-factsheet-2021",
+              "reason": "Describes cross-connections involving private irrigation, pressure reversal, drinking-water contamination, and utility prevention programs"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "Cross-connections can contaminate drinking water when supply-side or connected-system pressure reverses intended flow.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-cross-connections",
+                  "location": "Cross-connections, upstream pressure reversal and drinking-water contamination hazards",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-ccc-factsheet-2021",
+                  "location": "Describes cross-connections involving private irrigation, pressure reversal, drinking-water contamination, and utility prevention programs",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "Backsiphonage and backpressure are different mechanisms and can require different protective assemblies.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "mass-backflow-guide",
+                  "location": "Air gaps, double checks and reduced-pressure assemblies; hazard-specific selection",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "Protection devices are hazard-, installation- and test-specific rather than interchangeable check valves.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "mass-backflow-guide",
+                  "location": "Air gaps, double checks and reduced-pressure assemblies; hazard-specific selection",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Hoses, irrigation systems and injection points must be included when surveying a potable water boundary.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "epa-ccc-factsheet-2021",
+                  "location": "Describes cross-connections involving private irrigation, pressure reversal, drinking-water contamination, and utility prevention programs",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-cross-connections",
+                  "location": "Cross-connections, upstream pressure reversal and drinking-water contamination hazards",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "001000-trace-supply-materials-valves-and-clean-water-boundaries.md"
+      ],
+      "joined_before_source_parts": [
+        "002000",
+        "005000"
+      ]
+    }
+  ]
 }

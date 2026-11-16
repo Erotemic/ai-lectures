@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "032000",
-  "transcript": "032000-floer-homology-and-infinite-dimensional-morse-theory.md",
+  "transcript": "032000-floer-overview-action-completion-invariance-and-a-complete-model.md",
   "related_resources": [
     {
       "source_id": "tg-r16-032000-1",
@@ -14,7 +14,153 @@
     {
       "source_id": "tg-r16-032000-3",
       "reason": "Reference on Floer Homology: Morse Theory for Periodic Trajectories (3 of 3)"
+    },
+    {
+      "source_id": "tg-r16-032000-2",
+      "reason": "Novikov rings and recapping of Floer generators."
+    },
+    {
+      "source_id": "tg-oh-floer-spectral",
+      "reason": "Action filtrations and spectral invariants."
+    },
+    {
+      "source_id": "tg-floer-symplectic-fixed-points-1989",
+      "reason": "Hamiltonian Floer theory on non-aspherical targets."
+    },
+    {
+      "source_id": "tg-r16-032000-2",
+      "reason": "Continuation maps, homotopy and Arnold fixed-point arguments."
+    },
+    {
+      "source_id": "tg-floer-symplectic-fixed-points-1989",
+      "reason": "Original Hamiltonian fixed-point construction."
+    },
+    {
+      "source_id": "tg-hutchings-floer-course",
+      "reason": "Morse-Floer comparison and torus worked example."
+    },
+    {
+      "source_id": "tg-r16-032000-1",
+      "reason": "Lagrangian Floer intersections and Morse homology."
+    },
+    {
+      "source_id": "tg-r19-037000-2",
+      "reason": "Cotangent-bundle Floer comparison and analytic framework."
+    },
+    {
+      "source_id": "tg-hutchings-floer-course",
+      "reason": "Morse trajectories and Floer theory."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:032000",
+        "file": "032000-floer-homology-and-infinite-dimensional-morse-theory.md",
+        "sha256": "7dfce44e512644e9cfaf0410161cc8d7a567bfcf294b088b8e23cd10e2a00f64",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "032000",
+          "transcript": "032000-floer-homology-and-infinite-dimensional-morse-theory.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r16-032000-1",
+              "reason": "Reference on Floer Homology: Morse Theory for Periodic Trajectories (1 of 3)"
+            },
+            {
+              "source_id": "tg-r16-032000-2",
+              "reason": "Reference on Floer Homology: Morse Theory for Periodic Trajectories (2 of 3)"
+            },
+            {
+              "source_id": "tg-r16-032000-3",
+              "reason": "Reference on Floer Homology: Morse Theory for Periodic Trajectories (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:031100",
+        "file": "031100-action-filtrations-cappings-and-novikov-completions.md",
+        "sha256": "3c5e05a3ca799824d0aac0ef9c4fdb637c6791ca5d3dab91f142033ded0a5f7a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "031100",
+          "transcript": "031100-action-filtrations-cappings-and-novikov-completions.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r16-032000-2",
+              "reason": "Novikov rings and recapping of Floer generators."
+            },
+            {
+              "source_id": "tg-oh-floer-spectral",
+              "reason": "Action filtrations and spectral invariants."
+            },
+            {
+              "source_id": "tg-floer-symplectic-fixed-points-1989",
+              "reason": "Hamiltonian Floer theory on non-aspherical targets."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:031200",
+        "file": "031200-continuation-maps-invariance-and-arnold-bound.md",
+        "sha256": "48476d21c96d57e8915d4b4d6302b4c5750ac50d33d77476d2a744ed07740e28",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "031200",
+          "transcript": "031200-continuation-maps-invariance-and-arnold-bound.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r16-032000-2",
+              "reason": "Continuation maps, homotopy and Arnold fixed-point arguments."
+            },
+            {
+              "source_id": "tg-floer-symplectic-fixed-points-1989",
+              "reason": "Original Hamiltonian fixed-point construction."
+            },
+            {
+              "source_id": "tg-hutchings-floer-course",
+              "reason": "Morse-Floer comparison and torus worked example."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:031300",
+        "file": "031300-exact-lagrangian-floer-circle-worked-example.md",
+        "sha256": "bc47a0636d593fbdebffb29ed1900ecf330c6974d692ae6409074d3dca55d0b2",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "031300",
+          "transcript": "031300-exact-lagrangian-floer-circle-worked-example.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r16-032000-1",
+              "reason": "Lagrangian Floer intersections and Morse homology."
+            },
+            {
+              "source_id": "tg-r19-037000-2",
+              "reason": "Cotangent-bundle Floer comparison and analytic framework."
+            },
+            {
+              "source_id": "tg-hutchings-floer-course",
+              "reason": "Morse trajectories and Floer theory."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

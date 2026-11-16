@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "048000",
-  "transcript": "048000-flatland-story-square-meets-sphere.md",
+  "transcript": "048000-flatland-the-complete-story-and-its-satire.md",
   "related_resources": [
     {
       "source_id": "cl-flatland-gutenberg",
@@ -76,6 +76,248 @@
       ],
       "source_locator": "Parts I–II, sections 1–22, full narrative",
       "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+    },
+    {
+      "id": "049000-c01",
+      "anchor": "Move a line in a new direction perpendicular to its length and it sweeps out a region in a plane.",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-flatland-gutenberg",
+        "cl-flatland-cambridge",
+        "cl-flatland-open"
+      ],
+      "source_locator": "Geometric analogy, Victorian satire, limits of inference",
+      "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+    },
+    {
+      "id": "049000-c02",
+      "anchor": "The inhabitants do not see a whole orange.",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-flatland-gutenberg",
+        "cl-flatland-cambridge",
+        "cl-flatland-open"
+      ],
+      "source_locator": "Geometric analogy, Victorian satire, limits of inference",
+      "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+    },
+    {
+      "id": "049000-c03",
+      "anchor": "A four-dimensional hypercube is a mathematically defined object",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-flatland-gutenberg",
+        "cl-flatland-cambridge",
+        "cl-flatland-open"
+      ],
+      "source_locator": "Geometric analogy, Victorian satire, limits of inference",
+      "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+    },
+    {
+      "id": "049000-c04",
+      "anchor": "Yet the narrator is not automatically the author.",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-flatland-gutenberg",
+        "cl-flatland-cambridge",
+        "cl-flatland-open"
+      ],
+      "source_locator": "Geometric analogy, Victorian satire, limits of inference",
+      "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+    },
+    {
+      "id": "049000-c05",
+      "anchor": "The more durable lesson is the discipline of revising one's beliefs",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-flatland-gutenberg",
+        "cl-flatland-cambridge",
+        "cl-flatland-open"
+      ],
+      "source_locator": "Geometric analogy, Victorian satire, limits of inference",
+      "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "pre-1900-literature:048000",
+        "file": "048000-flatland-story-square-meets-sphere.md",
+        "sha256": "063961a73da41cb5ffec80c557aef9e763df51f060e2278f76389dccd2faa381",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "048000",
+          "transcript": "048000-flatland-story-square-meets-sphere.md",
+          "related_resources": [
+            {
+              "source_id": "cl-flatland-gutenberg",
+              "reason": "Full public-domain primary text, Parts I and II and section headings; passages summarized in fresh prose."
+            },
+            {
+              "source_id": "cl-flatland-cambridge",
+              "reason": "Editor commentary situates mathematical analogy, science, religion, and satire; excerpt does not represent full volume."
+            },
+            {
+              "source_id": "cl-flatland-open",
+              "reason": "Academic commentary on women, educational reform, narrator versus author, and Victorian culture."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "048000-c01",
+              "anchor": "The lowest male classes are narrow isosceles triangles",
+              "kind": "primary_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-flatland-gutenberg",
+                "cl-flatland-cambridge",
+                "cl-flatland-open"
+              ],
+              "source_locator": "Parts I–II, sections 1–22, full narrative",
+              "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+            },
+            {
+              "id": "048000-c02",
+              "anchor": "A Square dreams of Lineland",
+              "kind": "primary_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-flatland-gutenberg",
+                "cl-flatland-cambridge",
+                "cl-flatland-open"
+              ],
+              "source_locator": "Parts I–II, sections 1–22, full narrative",
+              "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+            },
+            {
+              "id": "048000-c03",
+              "anchor": "He is actually a sphere passing through the plane.",
+              "kind": "primary_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-flatland-gutenberg",
+                "cl-flatland-cambridge",
+                "cl-flatland-open"
+              ],
+              "source_locator": "Parts I–II, sections 1–22, full narrative",
+              "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+            },
+            {
+              "id": "048000-c04",
+              "anchor": "Finally he lifts A Square out of Flatland.",
+              "kind": "primary_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-flatland-gutenberg",
+                "cl-flatland-cambridge",
+                "cl-flatland-open"
+              ],
+              "source_locator": "Parts I–II, sections 1–22, full narrative",
+              "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+            },
+            {
+              "id": "048000-c05",
+              "anchor": "He is imprisoned for spreading doctrines about a third dimension.",
+              "kind": "primary_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-flatland-gutenberg",
+                "cl-flatland-cambridge",
+                "cl-flatland-open"
+              ],
+              "source_locator": "Parts I–II, sections 1–22, full narrative",
+              "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+            }
+          ]
+        }
+      },
+      {
+        "id": "pre-1900-literature:049000",
+        "file": "049000-flatland-dimensions-satire-and-inquiry.md",
+        "sha256": "3727a57fc5f2e616e1c5312d0f920207661dfc5aaab19845f26d5930fe292578",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "049000",
+          "transcript": "049000-flatland-dimensions-satire-and-inquiry.md",
+          "related_resources": [
+            {
+              "source_id": "cl-flatland-gutenberg",
+              "reason": "Full public-domain primary text, Parts I and II and section headings; passages summarized in fresh prose."
+            },
+            {
+              "source_id": "cl-flatland-cambridge",
+              "reason": "Editor commentary situates mathematical analogy, science, religion, and satire; excerpt does not represent full volume."
+            },
+            {
+              "source_id": "cl-flatland-open",
+              "reason": "Academic commentary on women, educational reform, narrator versus author, and Victorian culture."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "049000-c01",
+              "anchor": "Move a line in a new direction perpendicular to its length and it sweeps out a region in a plane.",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-flatland-gutenberg",
+                "cl-flatland-cambridge",
+                "cl-flatland-open"
+              ],
+              "source_locator": "Geometric analogy, Victorian satire, limits of inference",
+              "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+            },
+            {
+              "id": "049000-c02",
+              "anchor": "The inhabitants do not see a whole orange.",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-flatland-gutenberg",
+                "cl-flatland-cambridge",
+                "cl-flatland-open"
+              ],
+              "source_locator": "Geometric analogy, Victorian satire, limits of inference",
+              "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+            },
+            {
+              "id": "049000-c03",
+              "anchor": "A four-dimensional hypercube is a mathematically defined object",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-flatland-gutenberg",
+                "cl-flatland-cambridge",
+                "cl-flatland-open"
+              ],
+              "source_locator": "Geometric analogy, Victorian satire, limits of inference",
+              "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+            },
+            {
+              "id": "049000-c04",
+              "anchor": "Yet the narrator is not automatically the author.",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-flatland-gutenberg",
+                "cl-flatland-cambridge",
+                "cl-flatland-open"
+              ],
+              "source_locator": "Geometric analogy, Victorian satire, limits of inference",
+              "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+            },
+            {
+              "id": "049000-c05",
+              "anchor": "The more durable lesson is the discipline of revising one's beliefs",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-flatland-gutenberg",
+                "cl-flatland-cambridge",
+                "cl-flatland-open"
+              ],
+              "source_locator": "Geometric analogy, Victorian satire, limits of inference",
+              "audit_status": "primary_and_institutional_sources_checked_not_exhaustive_textual_collation"
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

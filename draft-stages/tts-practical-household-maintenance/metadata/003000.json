@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "003000",
-  "transcript": "003000-how-leaks-progress-through-materials.md",
+  "transcript": "003000-trace-water-intrusion-from-symptom-to-source.md",
   "related_resources": [
     {
       "source_id": "mass-moisture-meter",
@@ -14,6 +14,18 @@
     {
       "source_id": "cdc-mold",
       "reason": "Moisture as the major cause of indoor mold growth"
+    },
+    {
+      "source_id": "epa-moisture-mold-guide",
+      "reason": "Moisture control, prompt drying and source repair; mold prevention scope"
+    },
+    {
+      "source_id": "doe-air-vapor",
+      "reason": "Different enclosure moisture pathways"
+    },
+    {
+      "source_id": "pnnl-flashing-buildings",
+      "reason": "Building envelope flashing and continuity of drainage plane around openings"
     }
   ],
   "historical_claims": [],
@@ -72,8 +84,720 @@
       "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
       "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
       "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P009000-01",
+      "claim": "Moisture control and repairing the source are fundamental to prevention of indoor mold growth.",
+      "kind": "original_us_agency_homeowner_guidance",
+      "supports": [
+        {
+          "source_id": "epa-moisture-mold-guide",
+          "location": "Moisture Control Is the Key to Mold Control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Drying wet materials promptly after leaks, often within 24 to 48 hours where feasible, reduces mold risk.",
+      "kind": "original_us_agency_homeowner_guidance",
+      "supports": [
+        {
+          "source_id": "epa-moisture-mold-guide",
+          "location": "Drying window and water damage prevention",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Ceiling stains may be endpoints of water pathways rather than direct indications of an entry point.",
+      "kind": "derived_building_moisture_model",
+      "supports": [
+        {
+          "source_id": "epa-moisture-mold-guide",
+          "location": "Roof, wall, plumbing and condensation sources",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-01",
+      "claim": "Indoor condensation depends on air moisture content and cold surface temperatures; it differs from bulk water entry.",
+      "kind": "derived_dewpoint_building_science",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Air and vapor transport",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-mold-home",
+          "location": "Moisture sources and condensation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Moisture meters provide material-dependent indicators and should be interpreted with context.",
+      "kind": "original_public_health_instrument_guidance",
+      "supports": [
+        {
+          "source_id": "mass-moisture-meter",
+          "location": "Meter use and limitations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Diagnosing moisture requires identifying and correcting the entry or generation source, not only cleaning visible mold.",
+      "kind": "original_epa_moisture_control",
+      "supports": [
+        {
+          "source_id": "epa-mold-home",
+          "location": "Moisture-source correction and mold",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "A dehumidifier can reduce air moisture and condensation but cannot remove the cause of bulk groundwater entry.",
+      "kind": "derived_mass_balance_moisture_diagnosis",
+      "supports": [
+        {
+          "source_id": "epa-mold-home",
+          "location": "Indoor moisture management",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Different transport mechanisms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-01",
+      "claim": "Water visible at an interior finish may have traveled along roof or wall assemblies from a distant entry point.",
+      "kind": "derived_building_enclosure_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-flashing-buildings",
+          "location": "Building envelope flashing and continuity of drainage plane around openings",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Different enclosure moisture pathways",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "Weather correlations and recorded conditions can help distinguish rain entry, ice damming, condensation and plumbing.",
+      "kind": "derived_home_diagnostics",
+      "supports": [
+        {
+          "source_id": "epa-moisture-mold-guide",
+          "location": "Moisture control, prompt drying and source repair; mold prevention scope",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Different enclosure moisture pathways",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Restoring the continuity of flashing and water-control details is different from coating one visible crack.",
+      "kind": "original_building_science_guidance",
+      "supports": [
+        {
+          "source_id": "pnnl-flashing-buildings",
+          "location": "Building envelope flashing and continuity of drainage plane around openings",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-moisture-mold-guide",
+          "location": "Moisture control, prompt drying and source repair; mold prevention scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "A visible water stain may be remote from the actual source due to hidden paths within an assembly.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-flashing-buildings",
+          "location": "Building envelope flashing and continuity of drainage plane around openings",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-moisture-mold-guide",
+          "location": "Moisture control, prompt drying and source repair; mold prevention scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Rainwater intrusion, plumbing leakage and condensation result from distinct mechanisms with overlapping symptoms.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Different enclosure moisture pathways",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-moisture-mold-guide",
+          "location": "Moisture control, prompt drying and source repair; mold prevention scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Moisture meter readings need material and instrument context and cannot alone identify a leak origin.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "mass-moisture-meter",
+          "location": "Moisture-meter limitations and origin/timing of wetting",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Correcting a wetting source and managing drying are separate necessary steps in moisture-related building repairs.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-moisture-mold-guide",
+          "location": "Moisture control, prompt drying and source repair; mold prevention scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+  "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-household-maintenance:003000",
+        "file": "003000-how-leaks-progress-through-materials.md",
+        "sha256": "7389041a65f5fbb3015a12d8c9dec7d828ce1b1596be8773147372b9ee58c8ea",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-how-leaks-progress-through-materials.md",
+          "related_resources": [
+            {
+              "source_id": "mass-moisture-meter",
+              "reason": "Moisture-meter limitations and origin/timing of wetting"
+            },
+            {
+              "source_id": "epa-mold-home",
+              "reason": "Fixing leaks, prompt drying and distinguishing moisture problems"
+            },
+            {
+              "source_id": "cdc-mold",
+              "reason": "Moisture as the major cause of indoor mold growth"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P003000-01",
+              "claim": "Water damage can arise from plumbing, weather and condensation; finding visible staining does not identify the source.",
+              "kind": "building_diagnostics",
+              "supports": [
+                {
+                  "source_id": "mass-moisture-meter",
+                  "location": "Massachusetts water source assessment and EPA moisture causes",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-mold-home",
+                  "location": "Massachusetts water source assessment and EPA moisture causes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-02",
+              "claim": "Moisture instruments need context and have limitations for diagnosing concealed water.",
+              "kind": "building_diagnostics",
+              "supports": [
+                {
+                  "source_id": "mass-moisture-meter",
+                  "location": "Massachusetts moisture meter discussion",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-03",
+              "claim": "EPA recommends promptly drying many wetted materials, often within 24–48 hours, to limit mold growth.",
+              "kind": "public_health_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-mold-home",
+                  "location": "EPA mold/moisture guide and CDC mold information",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cdc-mold",
+                  "location": "EPA mold/moisture guide and CDC mold information",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+        }
+      },
+      {
+        "id": "practical-household-maintenance:009000",
+        "file": "009000-water-intrusion-case-study-from-symptom-to-repair.md",
+        "sha256": "7fd57c3ffbb7e0eb166a26d0150d73a4992a7ecd479a6d36d035525f9683f713",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-water-intrusion-case-study-from-symptom-to-repair.md",
+          "related_resources": [
+            {
+              "source_id": "epa-moisture-mold-guide",
+              "reason": "Moisture control, prompt drying and source repair; mold prevention scope"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P009000-01",
+              "claim": "Moisture control and repairing the source are fundamental to prevention of indoor mold growth.",
+              "kind": "original_us_agency_homeowner_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-moisture-mold-guide",
+                  "location": "Moisture Control Is the Key to Mold Control",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-02",
+              "claim": "Drying wet materials promptly after leaks, often within 24 to 48 hours where feasible, reduces mold risk.",
+              "kind": "original_us_agency_homeowner_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-moisture-mold-guide",
+                  "location": "Drying window and water damage prevention",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-03",
+              "claim": "Ceiling stains may be endpoints of water pathways rather than direct indications of an entry point.",
+              "kind": "derived_building_moisture_model",
+              "supports": [
+                {
+                  "source_id": "epa-moisture-mold-guide",
+                  "location": "Roof, wall, plumbing and condensation sources",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+        }
+      },
+      {
+        "id": "practical-household-maintenance:010000",
+        "file": "010000-damp-basement-case-study-drainage-versus-humidity.md",
+        "sha256": "0ee20ce6a39c8d268b6d4a9b6836f8b5658e5f003d257b6b1b2dc31fe214374c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-damp-basement-case-study-drainage-versus-humidity.md",
+          "related_resources": [
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Different enclosure moisture pathways"
+            },
+            {
+              "source_id": "epa-mold-home",
+              "reason": "Fixing leaks, prompt drying and distinguishing moisture problems"
+            },
+            {
+              "source_id": "mass-moisture-meter",
+              "reason": "Moisture-meter limitations and origin/timing of wetting"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Indoor condensation depends on air moisture content and cold surface temperatures; it differs from bulk water entry.",
+              "kind": "derived_dewpoint_building_science",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Air and vapor transport",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-mold-home",
+                  "location": "Moisture sources and condensation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "Moisture meters provide material-dependent indicators and should be interpreted with context.",
+              "kind": "original_public_health_instrument_guidance",
+              "supports": [
+                {
+                  "source_id": "mass-moisture-meter",
+                  "location": "Meter use and limitations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Diagnosing moisture requires identifying and correcting the entry or generation source, not only cleaning visible mold.",
+              "kind": "original_epa_moisture_control",
+              "supports": [
+                {
+                  "source_id": "epa-mold-home",
+                  "location": "Moisture-source correction and mold",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "A dehumidifier can reduce air moisture and condensation but cannot remove the cause of bulk groundwater entry.",
+              "kind": "derived_mass_balance_moisture_diagnosis",
+              "supports": [
+                {
+                  "source_id": "epa-mold-home",
+                  "location": "Indoor moisture management",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Different transport mechanisms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "practical-household-maintenance:013000",
+        "file": "013000-roof-leak-case-study-evidence-across-weather-events.md",
+        "sha256": "ce48b3c0abf5a977cdf8553c096bd603da1f6a537514ff28b56316802f06f287",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-roof-leak-case-study-evidence-across-weather-events.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-flashing-buildings",
+              "reason": "Building envelope flashing and continuity of drainage plane around openings"
+            },
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Different enclosure moisture pathways"
+            },
+            {
+              "source_id": "epa-moisture-mold-guide",
+              "reason": "Moisture control, prompt drying and source repair; mold prevention scope"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "Water visible at an interior finish may have traveled along roof or wall assemblies from a distant entry point.",
+              "kind": "derived_building_enclosure_synthesis",
+              "supports": [
+                {
+                  "source_id": "pnnl-flashing-buildings",
+                  "location": "Building envelope flashing and continuity of drainage plane around openings",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Different enclosure moisture pathways",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "Weather correlations and recorded conditions can help distinguish rain entry, ice damming, condensation and plumbing.",
+              "kind": "derived_home_diagnostics",
+              "supports": [
+                {
+                  "source_id": "epa-moisture-mold-guide",
+                  "location": "Moisture control, prompt drying and source repair; mold prevention scope",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Different enclosure moisture pathways",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "Restoring the continuity of flashing and water-control details is different from coating one visible crack.",
+              "kind": "original_building_science_guidance",
+              "supports": [
+                {
+                  "source_id": "pnnl-flashing-buildings",
+                  "location": "Building envelope flashing and continuity of drainage plane around openings",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-moisture-mold-guide",
+                  "location": "Moisture control, prompt drying and source repair; mold prevention scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-household-maintenance:017000",
+        "file": "017000-intermittent-leak-case-study-rain-plumbing-and-condensation.md",
+        "sha256": "0a1669faf69e9ffae563b5b739d8737bdb0eeb15ee0cffea208f1bcfefbdbb29",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-intermittent-leak-case-study-rain-plumbing-and-condensation.md",
+          "related_resources": [
+            {
+              "source_id": "epa-moisture-mold-guide",
+              "reason": "Moisture control, prompt drying and source repair; mold prevention scope"
+            },
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Different enclosure moisture pathways"
+            },
+            {
+              "source_id": "pnnl-flashing-buildings",
+              "reason": "Building envelope flashing and continuity of drainage plane around openings"
+            },
+            {
+              "source_id": "mass-moisture-meter",
+              "reason": "Moisture-meter limitations and origin/timing of wetting"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "A visible water stain may be remote from the actual source due to hidden paths within an assembly.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "pnnl-flashing-buildings",
+                  "location": "Building envelope flashing and continuity of drainage plane around openings",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-moisture-mold-guide",
+                  "location": "Moisture control, prompt drying and source repair; mold prevention scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "Rainwater intrusion, plumbing leakage and condensation result from distinct mechanisms with overlapping symptoms.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Different enclosure moisture pathways",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-moisture-mold-guide",
+                  "location": "Moisture control, prompt drying and source repair; mold prevention scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "Moisture meter readings need material and instrument context and cannot alone identify a leak origin.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "mass-moisture-meter",
+                  "location": "Moisture-meter limitations and origin/timing of wetting",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "Correcting a wetting source and managing drying are separate necessary steps in moisture-related building repairs.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-moisture-mold-guide",
+                  "location": "Moisture control, prompt drying and source repair; mold prevention scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "003000-trace-water-intrusion-from-symptom-to-source.md"
+      ],
+      "joined_before_source_parts": [
+        "009000",
+        "017000"
+      ]
+    }
+  ]
 }

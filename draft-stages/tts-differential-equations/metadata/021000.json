@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "021000",
-  "transcript": "021000-kinetic-transport-and-boltzmann-equations.md",
+  "transcript": "021000-transport-energy-particle-distributions-and-hypocoercivity-shared-core.md",
   "related_resources": [
     {
       "source_id": "de-dilute-gases",
@@ -10,7 +10,75 @@
     {
       "source_id": "de-evans-pde",
       "reason": "Parabolic PDE and nonlinear energy arguments."
+    },
+    {
+      "source_id": "di-r13-025000-1",
+      "reason": "Kinetic Fokker-Planck hypocoercivity and transport-collision commutators"
+    },
+    {
+      "source_id": "di-r13-025000-2",
+      "reason": "Kinetic Fokker-Planck hypocoercivity and transport-collision commutators"
+    },
+    {
+      "source_id": "di-r13-025000-3",
+      "reason": "Kinetic Fokker-Planck hypocoercivity and transport-collision commutators"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "differential-equations:021000",
+        "file": "021000-kinetic-transport-and-boltzmann-equations.md",
+        "sha256": "b3e1bc1cd94a52b414c4a2c9892b71d436c5b19d9b6706faaf95228baefeee56",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-kinetic-transport-and-boltzmann-equations.md",
+          "related_resources": [
+            {
+              "source_id": "de-dilute-gases",
+              "reason": "Boltzmann equation, moments, collision invariants and equilibria."
+            },
+            {
+              "source_id": "de-evans-pde",
+              "reason": "Parabolic PDE and nonlinear energy arguments."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:025000",
+        "file": "025000-hypocoercivity-and-return-to-equilibrium.md",
+        "sha256": "8ec6dc266a5730dccacb925b13b1b45a52abf8b38027a46b8f5b6cf673fdb786",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025000",
+          "transcript": "025000-hypocoercivity-and-return-to-equilibrium.md",
+          "related_resources": [
+            {
+              "source_id": "di-r13-025000-1",
+              "reason": "Kinetic Fokker-Planck hypocoercivity and transport-collision commutators"
+            },
+            {
+              "source_id": "di-r13-025000-2",
+              "reason": "Kinetic Fokker-Planck hypocoercivity and transport-collision commutators"
+            },
+            {
+              "source_id": "di-r13-025000-3",
+              "reason": "Kinetic Fokker-Planck hypocoercivity and transport-collision commutators"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

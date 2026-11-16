@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "026200",
-  "transcript": "026200-lord-of-the-rings-before-the-road.md",
+  "transcript": "026200-the-lord-of-the-rings-i-entering-middle-earth-and-the-fellowship.md",
   "related_resources": [
     {
       "source_id": "ml-lotr-primary",
@@ -67,6 +67,295 @@
       ],
       "source_locator": "Narrative texture and interlace",
       "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026300-c01",
+      "anchor": "Bilbo has already decided.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-lotr-primary",
+        "ml-lotr-sixbooks"
+      ],
+      "source_locator": "Fellowship Book I: A Long-Expected Party",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026300-c02",
+      "anchor": "Gandalf tests the Ring in Frodo's fireplace, where writing appears",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-lotr-primary",
+        "ml-lotr-sixbooks"
+      ],
+      "source_locator": "Fellowship Book I: The Shadow of the Past",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026300-c03",
+      "anchor": "Instead of crossing open country where the riders may be waiting, the hobbits enter the Old Forest.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-lotr-primary",
+        "ml-lotr-sixbooks"
+      ],
+      "source_locator": "Old Forest, Bombadil and Barrow-downs",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026300-c04",
+      "anchor": "Frodo loses consciousness before he can know whether he is safe.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-lotr-primary",
+        "ml-lotr-sixbooks"
+      ],
+      "source_locator": "Ford of Bruinen",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026300-c05",
+      "anchor": "Elrond calls a council.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-lotr-primary",
+        "ml-lotr-sixbooks"
+      ],
+      "source_locator": "Council of Elrond",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026300-c06",
+      "anchor": "Moria was once a place of magnificence.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-lotr-primary",
+        "ml-lotr-sixbooks"
+      ],
+      "source_locator": "Khazad-dum, Balin, Gandalf and Balrog",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026300-c07",
+      "anchor": "Galadriel herself is offered the Ring by Frodo.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-lotr-primary",
+        "ml-lotr-sixbooks"
+      ],
+      "source_locator": "Lothlorien: Mirror",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "026300-c08",
+      "anchor": "He tries to take it.",
+      "kind": "plot_fact_or_historical_context",
+      "source_ids": [
+        "ml-lotr-primary",
+        "ml-lotr-sixbooks"
+      ],
+      "source_locator": "Boromir at Parth Galen",
+      "audit_status": "reference_recorded"
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "modern-literature:026200",
+        "file": "026200-lord-of-the-rings-before-the-road.md",
+        "sha256": "a6195df2703769140645aeb23f6136c3f419099ac23904ad4e7802fd7afc0766",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "026200",
+          "transcript": "026200-lord-of-the-rings-before-the-road.md",
+          "related_resources": [
+            {
+              "source_id": "ml-lotr-primary",
+              "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+            },
+            {
+              "source_id": "ml-lotr-estate-history",
+              "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+            },
+            {
+              "source_id": "ml-lotr-fimi",
+              "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+            },
+            {
+              "source_id": "ml-lotr-sixbooks",
+              "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+            },
+            {
+              "source_id": "ml-lotr-ferre",
+              "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "026200-c01",
+              "anchor": "The Lord of the Rings is one long novel, though its original publishers released it in three volumes:",
+              "kind": "literary_context_or_interpretation",
+              "source_ids": [
+                "ml-lotr-estate-history"
+              ],
+              "source_locator": "Three volumes, six internal books",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "026200-c02",
+              "anchor": "The story takes place near the end of what its inhabitants call the Third Age.",
+              "kind": "literary_context_or_interpretation",
+              "source_ids": [
+                "ml-lotr-fimi",
+                "ml-lotr-primary"
+              ],
+              "source_locator": "Secondary world chronology",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "026200-c03",
+              "anchor": "The Ring belongs to a program of control:",
+              "kind": "literary_context_or_interpretation",
+              "source_ids": [
+                "ml-lotr-primary",
+                "ml-lotr-sixbooks"
+              ],
+              "source_locator": "The Ring and its moral purposes",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "026200-c04",
+              "anchor": "Tolkien changes scale and register.",
+              "kind": "literary_context_or_interpretation",
+              "source_ids": [
+                "ml-lotr-ferre",
+                "ml-lotr-holmes"
+              ],
+              "source_locator": "Narrative texture and interlace",
+              "audit_status": "reference_recorded"
+            }
+          ]
+        }
+      },
+      {
+        "id": "modern-literature:026300",
+        "file": "026300-lord-of-the-rings-fellowship-story.md",
+        "sha256": "9dbdd4a596e34cde8a166ecdb188d10690ae4ba9f0cdea775343cd77f4c34a02",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "026300",
+          "transcript": "026300-lord-of-the-rings-fellowship-story.md",
+          "related_resources": [
+            {
+              "source_id": "ml-lotr-primary",
+              "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+            },
+            {
+              "source_id": "ml-lotr-sixbooks",
+              "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+            },
+            {
+              "source_id": "ml-lotr-estate-history",
+              "reason": "Primary work, publicly accessible corroboration, authorial document, or clearly labeled scholarly interpretation, according to the source description"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "026300-c01",
+              "anchor": "Bilbo has already decided.",
+              "kind": "plot_fact_or_historical_context",
+              "source_ids": [
+                "ml-lotr-primary",
+                "ml-lotr-sixbooks"
+              ],
+              "source_locator": "Fellowship Book I: A Long-Expected Party",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "026300-c02",
+              "anchor": "Gandalf tests the Ring in Frodo's fireplace, where writing appears",
+              "kind": "plot_fact_or_historical_context",
+              "source_ids": [
+                "ml-lotr-primary",
+                "ml-lotr-sixbooks"
+              ],
+              "source_locator": "Fellowship Book I: The Shadow of the Past",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "026300-c03",
+              "anchor": "Instead of crossing open country where the riders may be waiting, the hobbits enter the Old Forest.",
+              "kind": "plot_fact_or_historical_context",
+              "source_ids": [
+                "ml-lotr-primary",
+                "ml-lotr-sixbooks"
+              ],
+              "source_locator": "Old Forest, Bombadil and Barrow-downs",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "026300-c04",
+              "anchor": "Frodo loses consciousness before he can know whether he is safe.",
+              "kind": "plot_fact_or_historical_context",
+              "source_ids": [
+                "ml-lotr-primary",
+                "ml-lotr-sixbooks"
+              ],
+              "source_locator": "Ford of Bruinen",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "026300-c05",
+              "anchor": "Elrond calls a council.",
+              "kind": "plot_fact_or_historical_context",
+              "source_ids": [
+                "ml-lotr-primary",
+                "ml-lotr-sixbooks"
+              ],
+              "source_locator": "Council of Elrond",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "026300-c06",
+              "anchor": "Moria was once a place of magnificence.",
+              "kind": "plot_fact_or_historical_context",
+              "source_ids": [
+                "ml-lotr-primary",
+                "ml-lotr-sixbooks"
+              ],
+              "source_locator": "Khazad-dum, Balin, Gandalf and Balrog",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "026300-c07",
+              "anchor": "Galadriel herself is offered the Ring by Frodo.",
+              "kind": "plot_fact_or_historical_context",
+              "source_ids": [
+                "ml-lotr-primary",
+                "ml-lotr-sixbooks"
+              ],
+              "source_locator": "Lothlorien: Mirror",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "026300-c08",
+              "anchor": "He tries to take it.",
+              "kind": "plot_fact_or_historical_context",
+              "source_ids": [
+                "ml-lotr-primary",
+                "ml-lotr-sixbooks"
+              ],
+              "source_locator": "Boromir at Parth Galen",
+              "audit_status": "reference_recorded"
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

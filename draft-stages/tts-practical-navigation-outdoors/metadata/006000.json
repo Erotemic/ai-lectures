@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "006000",
-  "transcript": "006000-route-planning-weather-and-turnaround-decisions.md",
+  "transcript": "006000-plan-and-communicate-a-route-under-uncertainty.md",
   "related_resources": [
     {
       "source_id": "usgs-topo",
@@ -18,6 +18,34 @@
     {
       "source_id": "nws-lightning-tips",
       "reason": "Thunder as warning and immediate shelter; conditions to resume activity"
+    },
+    {
+      "source_id": "gpsgov-accuracy",
+      "reason": "Consumer accuracy limits, multipath, blockage, receiver and map errors"
+    },
+    {
+      "source_id": "usgs-map-compass",
+      "reason": "Elevation, distance, direction and terrain reading"
+    },
+    {
+      "source_id": "nps-trip-plan",
+      "reason": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue"
+    },
+    {
+      "source_id": "nysdec-hike-smart",
+      "reason": "Layering, shelter, water, weather and planning for exposure"
+    },
+    {
+      "source_id": "nps-hike-smart-groups",
+      "reason": "Slowest hiker pace, staying together and time/turnaround guidance"
+    },
+    {
+      "source_id": "nps-trip-planning-health",
+      "reason": "Preparation, group coordination and decisions to turn around when unsafe"
+    },
+    {
+      "source_id": "noaa-declination",
+      "reason": "Signed east-positive declination; magnetic-to-true bearing conversion"
     }
   ],
   "historical_claims": [],
@@ -71,8 +99,881 @@
       "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
       "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-01",
+      "claim": "GNSS user position depends on satellite geometry, obstructions, multipath and receiver quality.",
+      "kind": "satellite_positioning_guidance",
+      "supports": [
+        {
+          "source_id": "gpsgov-accuracy",
+          "location": "Accuracy FAQ: blockage, multipath, receiver/satellite geometry",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "A consumer receiver’s displayed precision is not a guarantee of the true positional uncertainty in terrain.",
+      "kind": "derived_navigation_uncertainty",
+      "supports": [
+        {
+          "source_id": "gpsgov-accuracy",
+          "location": "Accuracy FAQ: smartphone errors; author interpretation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "Using topographic terrain and map/compass observations adds a separate means to check a satellite-derived position.",
+      "kind": "derived_navigation_method",
+      "supports": [
+        {
+          "source_id": "usgs-map-compass",
+          "location": "USGS Finding Your Way with Map and Compass: terrain orientation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "gpsgov-accuracy",
+          "location": "Satellite user accuracy limitations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P011000-01",
+      "claim": "A detailed trip plan left with a trusted contact assists overdue response and rescue coordination.",
+      "kind": "original_nps_trip_plan",
+      "supports": [
+        {
+          "source_id": "nps-trip-plan",
+          "location": "Recommended plan and trusted contact",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "An overdue plan depends on agreed contact thresholds and must be closed out on return.",
+      "kind": "original_nps_trip_plan",
+      "supports": [
+        {
+          "source_id": "nps-trip-plan",
+          "location": "Trusted contact responsibilities",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "GPS fixes have accuracy limits and should be accompanied by format and geographic context when communicated.",
+      "kind": "original_gps_public_guidance_and_synthesis",
+      "supports": [
+        {
+          "source_id": "gpsgov-accuracy",
+          "location": "GPS accuracy limits",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usgs-map-compass-guide",
+          "location": "Mapped route and geographic references",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Communications devices can fail because of terrain, power, service or operational dependencies.",
+      "kind": "derived_risk_assessment",
+      "supports": [
+        {
+          "source_id": "nysdec-hike-smart",
+          "location": "Outdoor preparation and communications",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-trip-plan",
+          "location": "Rescue information needs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-01",
+      "claim": "A hiking group should adjust its pace to members' capacities and maintain group cohesion.",
+      "kind": "original_nps_hiking_guidance",
+      "supports": [
+        {
+          "source_id": "nps-hike-smart-groups",
+          "location": "Slowest hiker pace, staying together and time/turnaround guidance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-trip-planning-health",
+          "location": "Preparation, group coordination and decisions to turn around when unsafe",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "A turnaround decision must account for daylight, time and changing conditions, not just distance to the destination.",
+      "kind": "original_nps_hiking_guidance",
+      "supports": [
+        {
+          "source_id": "nps-hike-smart-groups",
+          "location": "Slowest hiker pace, staying together and time/turnaround guidance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-trip-planning-health",
+          "location": "Preparation, group coordination and decisions to turn around when unsafe",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Detailed trip plans and trusted contacts improve the information available if hikers become overdue.",
+      "kind": "original_nps_trip_plan_guidance",
+      "supports": [
+        {
+          "source_id": "nps-trip-plan",
+          "location": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-trip-planning-health",
+          "location": "Preparation, group coordination and decisions to turn around when unsafe",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-01",
+      "claim": "Map, compass and terrain association provide ways to check position when visibility and electronic navigation are limited.",
+      "kind": "original_usgs_navigation_guidance",
+      "supports": [
+        {
+          "source_id": "usgs-map-compass-guide",
+          "location": "Map and compass navigation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "GNSS position estimates and displayed maps have uncertainty that must be considered in route decisions.",
+      "kind": "original_gps_public_accuracy_guidance",
+      "supports": [
+        {
+          "source_id": "gpsgov-accuracy",
+          "location": "Factors affecting GPS accuracy",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Magnetic north and geographic north differ by a location- and time-dependent declination.",
+      "kind": "original_noaa_declination_reference",
+      "supports": [
+        {
+          "source_id": "noaa-declination",
+          "location": "Declination fundamentals",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Predefined return points, terrain hazards and trip plans improve navigation decisions in worsening weather.",
+      "kind": "derived_route_risk_management",
+      "supports": [
+        {
+          "source_id": "nysdec-hike-smart",
+          "location": "Route planning and hiking safety",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usgs-map-compass-guide",
+          "location": "Confirmed positions and route navigation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-01",
+      "claim": "Route effort and risk vary with elevation, footing, weather and group capacity, not only mapped distance.",
+      "kind": "original_us_public_land_guidance",
+      "supports": [
+        {
+          "source_id": "nps-trip-planning-health",
+          "location": "Preparation, group coordination and decisions to turn around when unsafe",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-hike-smart-groups",
+          "location": "Slowest hiker pace, staying together and time/turnaround guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "A trip plan should include seasonal hazards, route alternatives and conditions for turning around.",
+      "kind": "derived_outdoor_planning_synthesis",
+      "supports": [
+        {
+          "source_id": "nps-trip-plan",
+          "location": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-trip-planning-health",
+          "location": "Preparation, group coordination and decisions to turn around when unsafe",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "GPS and mapping do not establish whether a bridge, slope or crossing is currently passable.",
+      "kind": "derived_navigation_limits",
+      "supports": [
+        {
+          "source_id": "gpsgov-accuracy",
+          "location": "Consumer accuracy limits, multipath, blockage, receiver and map errors",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-trip-plan",
+          "location": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-navigation-outdoors:006000",
+        "file": "006000-route-planning-weather-and-turnaround-decisions.md",
+        "sha256": "90030a7f49362c4ce5edcbeb6fe5f5269616517d3f4f6f2f91fc25f215e419b6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-route-planning-weather-and-turnaround-decisions.md",
+          "related_resources": [
+            {
+              "source_id": "usgs-topo",
+              "reason": "Contour lines, elevation and mapping scales"
+            },
+            {
+              "source_id": "usgs-map-compass-guide",
+              "reason": "Map scale, contour terrain interpretation and compass use"
+            },
+            {
+              "source_id": "nws-lightning-outdoors",
+              "reason": "Lightning hazards and why tents/open shelters are not safe places during storms"
+            },
+            {
+              "source_id": "nws-lightning-tips",
+              "reason": "Thunder as warning and immediate shelter; conditions to resume activity"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P006000-01",
+              "claim": "Terrain shape and checkpoints can be inferred from topographic map contours, but time and pace require additional estimates.",
+              "kind": "derived_route_planning",
+              "supports": [
+                {
+                  "source_id": "usgs-topo",
+                  "location": "USGS topographic map contours and navigating with map and compass",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usgs-map-compass-guide",
+                  "location": "USGS topographic map contours and navigating with map and compass",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-02",
+              "claim": "Thunderstorm exposure cannot be made safe merely by using a tent or open outdoor shelter.",
+              "kind": "national_weather_guidance",
+              "supports": [
+                {
+                  "source_id": "nws-lightning-outdoors",
+                  "location": "NWS lightning outdoors guidance: shelters and exposed terrain",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-03",
+              "claim": "NWS recommends reaching suitable enclosed shelter upon hearing thunder and not resuming promptly after thunder.",
+              "kind": "national_weather_guidance",
+              "supports": [
+                {
+                  "source_id": "nws-lightning-tips",
+                  "location": "Lightning Tips: thunder warning and 30 minutes after last sound",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+        }
+      },
+      {
+        "id": "practical-navigation-outdoors:007000",
+        "file": "007000-gnss-offline-maps-and-uncertainty.md",
+        "sha256": "983f3615b0742a1f44f970b783cdd9516bab3f05948f59fda0b6f5bff2d47201",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-gnss-offline-maps-and-uncertainty.md",
+          "related_resources": [
+            {
+              "source_id": "gpsgov-accuracy",
+              "reason": "Consumer accuracy limits, multipath, blockage, receiver and map errors"
+            },
+            {
+              "source_id": "usgs-map-compass",
+              "reason": "Elevation, distance, direction and terrain reading"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "GNSS user position depends on satellite geometry, obstructions, multipath and receiver quality.",
+              "kind": "satellite_positioning_guidance",
+              "supports": [
+                {
+                  "source_id": "gpsgov-accuracy",
+                  "location": "Accuracy FAQ: blockage, multipath, receiver/satellite geometry",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "A consumer receiver’s displayed precision is not a guarantee of the true positional uncertainty in terrain.",
+              "kind": "derived_navigation_uncertainty",
+              "supports": [
+                {
+                  "source_id": "gpsgov-accuracy",
+                  "location": "Accuracy FAQ: smartphone errors; author interpretation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "Using topographic terrain and map/compass observations adds a separate means to check a satellite-derived position.",
+              "kind": "derived_navigation_method",
+              "supports": [
+                {
+                  "source_id": "usgs-map-compass",
+                  "location": "USGS Finding Your Way with Map and Compass: terrain orientation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "gpsgov-accuracy",
+                  "location": "Satellite user accuracy limitations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      },
+      {
+        "id": "practical-navigation-outdoors:011000",
+        "file": "011000-emergency-communication-trip-plans-and-rescue-handoffs.md",
+        "sha256": "a89d7ef8a90a91e320a7a5a748382865407a47de67f2af2578c7d63fda2b520a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-emergency-communication-trip-plans-and-rescue-handoffs.md",
+          "related_resources": [
+            {
+              "source_id": "nps-trip-plan",
+              "reason": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue"
+            },
+            {
+              "source_id": "gpsgov-accuracy",
+              "reason": "Consumer accuracy limits, multipath, blockage, receiver and map errors"
+            },
+            {
+              "source_id": "usgs-map-compass-guide",
+              "reason": "Map scale, contour terrain interpretation and compass use"
+            },
+            {
+              "source_id": "nysdec-hike-smart",
+              "reason": "Layering, shelter, water, weather and planning for exposure"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "A detailed trip plan left with a trusted contact assists overdue response and rescue coordination.",
+              "kind": "original_nps_trip_plan",
+              "supports": [
+                {
+                  "source_id": "nps-trip-plan",
+                  "location": "Recommended plan and trusted contact",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "An overdue plan depends on agreed contact thresholds and must be closed out on return.",
+              "kind": "original_nps_trip_plan",
+              "supports": [
+                {
+                  "source_id": "nps-trip-plan",
+                  "location": "Trusted contact responsibilities",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "GPS fixes have accuracy limits and should be accompanied by format and geographic context when communicated.",
+              "kind": "original_gps_public_guidance_and_synthesis",
+              "supports": [
+                {
+                  "source_id": "gpsgov-accuracy",
+                  "location": "GPS accuracy limits",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usgs-map-compass-guide",
+                  "location": "Mapped route and geographic references",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "Communications devices can fail because of terrain, power, service or operational dependencies.",
+              "kind": "derived_risk_assessment",
+              "supports": [
+                {
+                  "source_id": "nysdec-hike-smart",
+                  "location": "Outdoor preparation and communications",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-trip-plan",
+                  "location": "Rescue information needs",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-navigation-outdoors:012000",
+        "file": "012000-group-pace-leadership-and-risk-on-longer-hikes.md",
+        "sha256": "011d3cb611e057228599d34ba6bdc04022b06316ae6d5757b26b6ac1553397a1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-group-pace-leadership-and-risk-on-longer-hikes.md",
+          "related_resources": [
+            {
+              "source_id": "nps-hike-smart-groups",
+              "reason": "Slowest hiker pace, staying together and time/turnaround guidance"
+            },
+            {
+              "source_id": "nps-trip-planning-health",
+              "reason": "Preparation, group coordination and decisions to turn around when unsafe"
+            },
+            {
+              "source_id": "nps-trip-plan",
+              "reason": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P012000-01",
+              "claim": "A hiking group should adjust its pace to members' capacities and maintain group cohesion.",
+              "kind": "original_nps_hiking_guidance",
+              "supports": [
+                {
+                  "source_id": "nps-hike-smart-groups",
+                  "location": "Slowest hiker pace, staying together and time/turnaround guidance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-trip-planning-health",
+                  "location": "Preparation, group coordination and decisions to turn around when unsafe",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-02",
+              "claim": "A turnaround decision must account for daylight, time and changing conditions, not just distance to the destination.",
+              "kind": "original_nps_hiking_guidance",
+              "supports": [
+                {
+                  "source_id": "nps-hike-smart-groups",
+                  "location": "Slowest hiker pace, staying together and time/turnaround guidance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-trip-planning-health",
+                  "location": "Preparation, group coordination and decisions to turn around when unsafe",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-03",
+              "claim": "Detailed trip plans and trusted contacts improve the information available if hikers become overdue.",
+              "kind": "original_nps_trip_plan_guidance",
+              "supports": [
+                {
+                  "source_id": "nps-trip-plan",
+                  "location": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-trip-planning-health",
+                  "location": "Preparation, group coordination and decisions to turn around when unsafe",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-navigation-outdoors:010000",
+        "file": "010000-navigation-in-poor-visibility-and-decision-thresholds.md",
+        "sha256": "b2fb103c00e55a0074436501f7bdad2e92a8a930116338dea222a438d7591001",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-navigation-in-poor-visibility-and-decision-thresholds.md",
+          "related_resources": [
+            {
+              "source_id": "usgs-map-compass-guide",
+              "reason": "Map scale, contour terrain interpretation and compass use"
+            },
+            {
+              "source_id": "gpsgov-accuracy",
+              "reason": "Consumer accuracy limits, multipath, blockage, receiver and map errors"
+            },
+            {
+              "source_id": "noaa-declination",
+              "reason": "Signed east-positive declination; magnetic-to-true bearing conversion"
+            },
+            {
+              "source_id": "nysdec-hike-smart",
+              "reason": "Layering, shelter, water, weather and planning for exposure"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Map, compass and terrain association provide ways to check position when visibility and electronic navigation are limited.",
+              "kind": "original_usgs_navigation_guidance",
+              "supports": [
+                {
+                  "source_id": "usgs-map-compass-guide",
+                  "location": "Map and compass navigation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "GNSS position estimates and displayed maps have uncertainty that must be considered in route decisions.",
+              "kind": "original_gps_public_accuracy_guidance",
+              "supports": [
+                {
+                  "source_id": "gpsgov-accuracy",
+                  "location": "Factors affecting GPS accuracy",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Magnetic north and geographic north differ by a location- and time-dependent declination.",
+              "kind": "original_noaa_declination_reference",
+              "supports": [
+                {
+                  "source_id": "noaa-declination",
+                  "location": "Declination fundamentals",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Predefined return points, terrain hazards and trip plans improve navigation decisions in worsening weather.",
+              "kind": "derived_route_risk_management",
+              "supports": [
+                {
+                  "source_id": "nysdec-hike-smart",
+                  "location": "Route planning and hiking safety",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usgs-map-compass-guide",
+                  "location": "Confirmed positions and route navigation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "practical-navigation-outdoors:013000",
+        "file": "013000-route-choices-across-terrain-and-seasons.md",
+        "sha256": "56b58a405842937b6c3f9510486d12bd19c6ac63075e2a9eebd085157b330e9b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-route-choices-across-terrain-and-seasons.md",
+          "related_resources": [
+            {
+              "source_id": "nps-trip-planning-health",
+              "reason": "Preparation, group coordination and decisions to turn around when unsafe"
+            },
+            {
+              "source_id": "nps-hike-smart-groups",
+              "reason": "Slowest hiker pace, staying together and time/turnaround guidance"
+            },
+            {
+              "source_id": "nps-trip-plan",
+              "reason": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue"
+            },
+            {
+              "source_id": "gpsgov-accuracy",
+              "reason": "Consumer accuracy limits, multipath, blockage, receiver and map errors"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "Route effort and risk vary with elevation, footing, weather and group capacity, not only mapped distance.",
+              "kind": "original_us_public_land_guidance",
+              "supports": [
+                {
+                  "source_id": "nps-trip-planning-health",
+                  "location": "Preparation, group coordination and decisions to turn around when unsafe",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-hike-smart-groups",
+                  "location": "Slowest hiker pace, staying together and time/turnaround guidance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "A trip plan should include seasonal hazards, route alternatives and conditions for turning around.",
+              "kind": "derived_outdoor_planning_synthesis",
+              "supports": [
+                {
+                  "source_id": "nps-trip-plan",
+                  "location": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-trip-planning-health",
+                  "location": "Preparation, group coordination and decisions to turn around when unsafe",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "GPS and mapping do not establish whether a bridge, slope or crossing is currently passable.",
+              "kind": "derived_navigation_limits",
+              "supports": [
+                {
+                  "source_id": "gpsgov-accuracy",
+                  "location": "Consumer accuracy limits, multipath, blockage, receiver and map errors",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-trip-plan",
+                  "location": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "006000-plan-and-communicate-a-route-under-uncertainty.md"
+      ],
+      "joined_before_source_parts": [
+        "007000",
+        "011000",
+        "010000"
+      ]
+    }
+  ]
 }

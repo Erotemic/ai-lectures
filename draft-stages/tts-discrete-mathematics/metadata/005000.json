@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "005000",
-  "transcript": "005000-graphs-trees-and-cycle-structure.md",
+  "transcript": "005000-graphs-matchings-and-flow-certificates.md",
   "related_resources": [
     {
       "source_id": "dm-mit-text",
@@ -10,7 +10,96 @@
     {
       "source_id": "dm-mit6042",
       "reason": "Graph theory and parity counting."
+    },
+    {
+      "source_id": "dm-mit-text",
+      "reason": "Bipartite matching, Hall condition and graph counting."
+    },
+    {
+      "source_id": "dm-mit6042",
+      "reason": "Matching, vertex covers and graph theoretic proof techniques."
+    },
+    {
+      "source_id": "dm-mit-flow",
+      "reason": "Residual flows, max-flow min-cut certificates, and integrality."
+    },
+    {
+      "source_id": "dm-mit6042",
+      "reason": "Graph matching and combinatorial counting."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "discrete-mathematics:005000",
+        "file": "005000-graphs-trees-and-cycle-structure.md",
+        "sha256": "6b66f241a53d5cf0287d98a37d0ce2c0df9be721d2b2a7d33d86542f09047075",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-graphs-trees-and-cycle-structure.md",
+          "related_resources": [
+            {
+              "source_id": "dm-mit-text",
+              "reason": "Trees, spanning forests, degrees and cycles."
+            },
+            {
+              "source_id": "dm-mit6042",
+              "reason": "Graph theory and parity counting."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:006000",
+        "file": "006000-hall-marriage-theorem-and-matchings.md",
+        "sha256": "dccdaf0259f5f6fbcbcfb867d503f3a01d8495ad6d0b790682306c189539519d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-hall-marriage-theorem-and-matchings.md",
+          "related_resources": [
+            {
+              "source_id": "dm-mit-text",
+              "reason": "Bipartite matching, Hall condition and graph counting."
+            },
+            {
+              "source_id": "dm-mit6042",
+              "reason": "Matching, vertex covers and graph theoretic proof techniques."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:007000",
+        "file": "007000-flows-cuts-and-integrality.md",
+        "sha256": "0073f071d6085702e58afbab26ca783a5eab9f52fa1577287ec65803fe5cdbfb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-flows-cuts-and-integrality.md",
+          "related_resources": [
+            {
+              "source_id": "dm-mit-flow",
+              "reason": "Residual flows, max-flow min-cut certificates, and integrality."
+            },
+            {
+              "source_id": "dm-mit6042",
+              "reason": "Graph matching and combinatorial counting."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

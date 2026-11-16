@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "007000",
-  "transcript": "007000-sensor-codes-measurements-and-diagnosing-faults.md",
+  "transcript": "007000-design-diagnostic-tests-before-replacing-parts.md",
   "related_resources": [
     {
       "source_id": "sae-dtc-j2012-2025",
@@ -10,6 +10,22 @@
     {
       "source_id": "epa-obd-procedures",
       "reason": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria"
+    },
+    {
+      "source_id": "nhtsa-maintain-vehicle",
+      "reason": "Vehicle service records, tire/fluids/light checks and owner manual priority"
+    },
+    {
+      "source_id": "openstax-ohms-law",
+      "reason": "Voltage drop I \u00d7 R, resistive heating and limitations of linear Ohm model"
+    },
+    {
+      "source_id": "doe-ice",
+      "reason": "Four-stroke combustion engine energy flow"
+    },
+    {
+      "source_id": "ase-a8-fueltrim",
+      "reason": "Short- and long-term fuel trims, lean/rich correction and operating-condition diagnostic examples"
     }
   ],
   "historical_claims": [],
@@ -56,10 +72,612 @@
         }
       ],
       "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
-      "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+      "limits": "The author\u2019s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "A diagnostic trouble code identifies a detected condition, not automatically the defective component.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "sae-dtc-j2012-2025",
+          "location": "Standardized DTC definitions; standards page abstract, full text may require purchase",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-obd-procedures",
+          "location": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Clearing codes can alter monitor-readiness evidence and complicate emissions inspection.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-obd-procedures",
+          "location": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Voltage drop under load can reveal resistive problems missed by open-circuit electrical measurements.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "openstax-ohms-law",
+          "location": "Voltage drop I \u00d7 R, resistive heating and limitations of linear Ohm model",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Maintenance observations and service history improve discrimination among competing mechanical causes.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "Misfire detection codes indicate patterns, not a uniquely failed ignition or fuel part.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "sae-dtc-j2012-2025",
+          "location": "Standardized DTC definitions; standards page abstract, full text may require purchase",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-obd-procedures",
+          "location": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Spark, mixture and compression are different diagnostic categories for spark-ignition combustion.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-ice",
+          "location": "Four-stroke combustion engine energy flow",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Freeze-frame operating state and load conditions help distinguish intermittent misfire causes.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "sae-dtc-j2012-2025",
+          "location": "Standardized DTC definitions; standards page abstract, full text may require purchase",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "Clearing codes can change monitor-readiness information, complicating post-repair verification.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-obd-procedures",
+          "location": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-01",
+      "claim": "Short-term and learned long-term fuel trims represent different correction time scales in typical closed-loop gasoline control.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ase-a8-fueltrim",
+          "location": "Short- and long-term fuel trims, lean/rich correction and operating-condition diagnostic examples",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "A positive fuel-trim correction is a clue, not identification of a failed component.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ase-a8-fueltrim",
+          "location": "Short- and long-term fuel trims, lean/rich correction and operating-condition diagnostic examples",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-obd-procedures",
+          "location": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "Comparing operating conditions and multiple engine measurements narrows lean-mixture hypotheses.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ase-a8-fueltrim",
+          "location": "Short- and long-term fuel trims, lean/rich correction and operating-condition diagnostic examples",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "OBD-II readiness and trouble-code interpretation requires respecting applicable diagnostic protocols.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-obd-procedures",
+          "location": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "sae-dtc-j2012-2025",
+          "location": "Standardized DTC definitions; standards page abstract, full text may require purchase",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-vehicle-maintenance:007000",
+        "file": "007000-sensor-codes-measurements-and-diagnosing-faults.md",
+        "sha256": "5d7714ad47a75e248a29c608fd8568e8c4933e54c8013e0bece53e8d9f4a2102",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-sensor-codes-measurements-and-diagnosing-faults.md",
+          "related_resources": [
+            {
+              "source_id": "sae-dtc-j2012-2025",
+              "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+            },
+            {
+              "source_id": "epa-obd-procedures",
+              "reason": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "SAE J2012 standardizes DTC definitions for monitored faults, not a universal part-replacement procedure.",
+              "kind": "automotive_standard_context",
+              "supports": [
+                {
+                  "source_id": "sae-dtc-j2012-2025",
+                  "location": "SAE J2012 scope: definitions of DTCs when malfunctions are detected",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "OBD systems may store a DTC with operating conditions when an emissions-related malfunction is detected.",
+              "kind": "obd_diagnostic_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-obd-procedures",
+                  "location": "OBDII test procedure introduction: MIL, DTC, engine operating conditions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "A code must be interpreted against measurements and symptoms because multiple physical mechanisms can yield similar sensed outcomes.",
+              "kind": "derived_vehicle_diagnosis",
+              "supports": [
+                {
+                  "source_id": "sae-dtc-j2012-2025",
+                  "location": "Defines fault descriptions rather than root-cause proof; author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "The author\u2019s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      },
+      {
+        "id": "practical-vehicle-maintenance:017000",
+        "file": "017000-diagnostic-test-plans-before-parts-replacement.md",
+        "sha256": "7620895b049a821a9b245dc14d89b04d35f62c987d93e9ede948a60f025400c5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-diagnostic-test-plans-before-parts-replacement.md",
+          "related_resources": [
+            {
+              "source_id": "sae-dtc-j2012-2025",
+              "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+            },
+            {
+              "source_id": "epa-obd-procedures",
+              "reason": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria"
+            },
+            {
+              "source_id": "nhtsa-maintain-vehicle",
+              "reason": "Vehicle service records, tire/fluids/light checks and owner manual priority"
+            },
+            {
+              "source_id": "openstax-ohms-law",
+              "reason": "Voltage drop I \u00d7 R, resistive heating and limitations of linear Ohm model"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "A diagnostic trouble code identifies a detected condition, not automatically the defective component.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "sae-dtc-j2012-2025",
+                  "location": "Standardized DTC definitions; standards page abstract, full text may require purchase",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-obd-procedures",
+                  "location": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "Clearing codes can alter monitor-readiness evidence and complicate emissions inspection.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-obd-procedures",
+                  "location": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "Voltage drop under load can reveal resistive problems missed by open-circuit electrical measurements.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "openstax-ohms-law",
+                  "location": "Voltage drop I \u00d7 R, resistive heating and limitations of linear Ohm model",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "Maintenance observations and service history improve discrimination among competing mechanical causes.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nhtsa-maintain-vehicle",
+                  "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-vehicle-maintenance:018000",
+        "file": "018000-engine-misfire-diagnosis-ignition-fuel-and-compression.md",
+        "sha256": "6ae0664e9883f9d0e248be0c7db3c037d74f08447989343bfa910de62ae8e023",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-engine-misfire-diagnosis-ignition-fuel-and-compression.md",
+          "related_resources": [
+            {
+              "source_id": "sae-dtc-j2012-2025",
+              "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+            },
+            {
+              "source_id": "epa-obd-procedures",
+              "reason": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria"
+            },
+            {
+              "source_id": "nhtsa-maintain-vehicle",
+              "reason": "Vehicle service records, tire/fluids/light checks and owner manual priority"
+            },
+            {
+              "source_id": "doe-ice",
+              "reason": "Four-stroke combustion engine energy flow"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "Misfire detection codes indicate patterns, not a uniquely failed ignition or fuel part.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "sae-dtc-j2012-2025",
+                  "location": "Standardized DTC definitions; standards page abstract, full text may require purchase",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-obd-procedures",
+                  "location": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Spark, mixture and compression are different diagnostic categories for spark-ignition combustion.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-ice",
+                  "location": "Four-stroke combustion engine energy flow",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "Freeze-frame operating state and load conditions help distinguish intermittent misfire causes.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "sae-dtc-j2012-2025",
+                  "location": "Standardized DTC definitions; standards page abstract, full text may require purchase",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nhtsa-maintain-vehicle",
+                  "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "Clearing codes can change monitor-readiness information, complicating post-repair verification.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-obd-procedures",
+                  "location": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-vehicle-maintenance:019000",
+        "file": "019000-fuel-trims-air-leaks-and-diagnosing-mixture-faults.md",
+        "sha256": "eb99153790f96468b5b984f463c4677980e3468ff7a17aa155558253b6608ea4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-fuel-trims-air-leaks-and-diagnosing-mixture-faults.md",
+          "related_resources": [
+            {
+              "source_id": "ase-a8-fueltrim",
+              "reason": "Short- and long-term fuel trims, lean/rich correction and operating-condition diagnostic examples"
+            },
+            {
+              "source_id": "epa-obd-procedures",
+              "reason": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria"
+            },
+            {
+              "source_id": "sae-dtc-j2012-2025",
+              "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P019000-01",
+              "claim": "Short-term and learned long-term fuel trims represent different correction time scales in typical closed-loop gasoline control.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ase-a8-fueltrim",
+                  "location": "Short- and long-term fuel trims, lean/rich correction and operating-condition diagnostic examples",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-02",
+              "claim": "A positive fuel-trim correction is a clue, not identification of a failed component.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ase-a8-fueltrim",
+                  "location": "Short- and long-term fuel trims, lean/rich correction and operating-condition diagnostic examples",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-obd-procedures",
+                  "location": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-03",
+              "claim": "Comparing operating conditions and multiple engine measurements narrows lean-mixture hypotheses.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ase-a8-fueltrim",
+                  "location": "Short- and long-term fuel trims, lean/rich correction and operating-condition diagnostic examples",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-04",
+              "claim": "OBD-II readiness and trouble-code interpretation requires respecting applicable diagnostic protocols.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-obd-procedures",
+                  "location": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "sae-dtc-j2012-2025",
+                  "location": "Standardized DTC definitions; standards page abstract, full text may require purchase",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "007000-design-diagnostic-tests-before-replacing-parts.md"
+      ],
+      "joined_before_source_parts": [
+        "018000",
+        "019000"
+      ],
+      "reframed_repeated_opening": true
+    }
+  ]
 }

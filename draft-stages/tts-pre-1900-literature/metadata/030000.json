@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "030000",
-  "transcript": "030000-dante-purgatory-free-will-memory-and-repair.md",
+  "transcript": "030000-dante-iii-moral-change-exile-guides-verse-and-interpretation.md",
   "related_resources": [
     {
       "source_id": "cl-dante-princeton-text",
@@ -14,6 +14,50 @@
     {
       "source_id": "cl-dante-stanford-encyclopedia",
       "reason": "Biographical, philosophical and political context; Florence and 1302 exile; distinguishes the author's project from pure theology."
+    },
+    {
+      "source_id": "cl-dante-cambridge-narrative",
+      "reason": "Contrasts narrative organization and imagery across realms; scholarly perspective rather than sole interpretive authority."
+    },
+    {
+      "source_id": "cl-dante-leeds-paradiso",
+      "reason": "Canto II–IX outlines and scholarly treatment of Piccarda, vows, and representations of beatitude."
+    },
+    {
+      "source_id": "cl-dante-cambridge-chronology",
+      "reason": "Historical timeline through Dante’s lifetime, including 1300 journey setting and 1302 exile."
+    },
+    {
+      "source_id": "cl-dante-world-of-dante",
+      "reason": "University instructional digital edition, canto geography, searchable Italian and English text, and context for the three cantiche."
+    },
+    {
+      "source_id": "cl-dante-cornell-manuscript",
+      "reason": "No authorial autograph; extensive surviving manuscript tradition; early printed and illustrated editions."
+    },
+    {
+      "source_id": "cl-dante-cornell-foligno",
+      "reason": "Identifies Foligno 1472 as first printed edition and its role in the dissemination of Dante."
+    },
+    {
+      "source_id": "cl-dante-cambridge-transmission",
+      "reason": "No surviving autograph; surviving variants and editorial reconstructions, with interpretive limits."
+    },
+    {
+      "source_id": "cl-dante-princeton-title",
+      "reason": "Distinguishes medieval title forms from later use of Divina Commedia; 1555 Venetian printed title."
+    },
+    {
+      "source_id": "cl-dante-boccaccio-public-readings",
+      "reason": "Boccaccio's October 1373 publicly funded Florentine Dante lectures and the rise of formal public commentary."
+    },
+    {
+      "source_id": "cl-dante-dartmouth-faq",
+      "reason": "Identifies Petrocchi-based Italian text and Longfellow English text; redistribution of Petrocchi material is restricted."
+    },
+    {
+      "source_id": "cl-dante-gutenberg-longfellow",
+      "reason": "Public-domain English translation, 1867; useful for comparison with modern versions, not equivalent to Italian original."
     }
   ],
   "historical_claims": [
@@ -64,6 +108,1595 @@
       ],
       "source_locator": "Purgatorio III–V, XI–XVII, XIX–XXXIII",
       "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "031000-c01",
+      "anchor": "Paradise is often approached as the part of the Comedy",
+      "kind": "textual_plot_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-cambridge-narrative",
+        "cl-dante-leeds-paradiso"
+      ],
+      "source_locator": "Paradiso III–IV, X–XII, XIX–XX, XXIV–XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "031000-c02",
+      "anchor": "Piccarda appears in the Moon",
+      "kind": "textual_plot_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-cambridge-narrative",
+        "cl-dante-leeds-paradiso"
+      ],
+      "source_locator": "Paradiso III–IV, X–XII, XIX–XX, XXIV–XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "031000-c03",
+      "anchor": "In Jupiter, many souls form a single speaking eagle.",
+      "kind": "textual_plot_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-cambridge-narrative",
+        "cl-dante-leeds-paradiso"
+      ],
+      "source_locator": "Paradiso III–IV, X–XII, XIX–XX, XXIV–XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "031000-c04",
+      "anchor": "Bernard's prayer follows the entire sequence",
+      "kind": "textual_plot_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-cambridge-narrative",
+        "cl-dante-leeds-paradiso"
+      ],
+      "source_locator": "Paradiso III–IV, X–XII, XIX–XX, XXIV–XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "032000-c01",
+      "anchor": "He was born in Florence in 1265",
+      "kind": "textual_plot_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-stanford-encyclopedia",
+        "cl-dante-cambridge-chronology"
+      ],
+      "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "032000-c02",
+      "anchor": "In 1302 he was condemned and exiled",
+      "kind": "textual_plot_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-stanford-encyclopedia",
+        "cl-dante-cambridge-chronology"
+      ],
+      "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "032000-c03",
+      "anchor": "The older Guelph and Ghibelline alignments",
+      "kind": "textual_plot_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-stanford-encyclopedia",
+        "cl-dante-cambridge-chronology"
+      ],
+      "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "032000-c04",
+      "anchor": "Dante the author composes with later knowledge.",
+      "kind": "textual_plot_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-stanford-encyclopedia",
+        "cl-dante-cambridge-chronology"
+      ],
+      "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "032000-c05",
+      "anchor": "Imperial authority receives a different treatment.",
+      "kind": "textual_plot_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-stanford-encyclopedia",
+        "cl-dante-cambridge-chronology"
+      ],
+      "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "033000-c01",
+      "anchor": "Virgil is a poet, Beatrice is a remembered woman",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-dartmouth-lab",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "033000-c02",
+      "anchor": "In Limbo, Dante meets noble ancient thinkers",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-dartmouth-lab",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "033000-c03",
+      "anchor": "Beatrice's role begins long before her appearance",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-dartmouth-lab",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "033000-c04",
+      "anchor": "The historical Beatrice associated with Dante's youthful writings",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-dartmouth-lab",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "033000-c05",
+      "anchor": "Bernard's arrival completes the sequence.",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-dartmouth-lab",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "035000-c01",
+      "anchor": "The earth stands at the center of the poem's physical cosmos.",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-world-of-dante",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "035000-c02",
+      "anchor": "In Inferno XI, Virgil explains",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-world-of-dante",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "035000-c03",
+      "anchor": "The mountain imagines an ethics of habit and transformation.",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-world-of-dante",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "035000-c04",
+      "anchor": "The poem's intellectual sources include ancient philosophy",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-world-of-dante",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "035000-c05",
+      "anchor": "In Paradise, the souls' appearance within planetary heavens",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-world-of-dante",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "036000-c01",
+      "anchor": "Begin in Inferno V, with Francesca.",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-dartmouth-lab",
+        "cl-dante-leeds-paradiso"
+      ],
+      "source_locator": "Inferno V; Purgatorio XVI; Paradiso III–IV and XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "036000-c02",
+      "anchor": "For a comparison, choose Purgatorio XVI.",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-dartmouth-lab",
+        "cl-dante-leeds-paradiso"
+      ],
+      "source_locator": "Inferno V; Purgatorio XVI; Paradiso III–IV and XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "036000-c03",
+      "anchor": "The third encounter is Piccarda in Paradiso III.",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-dartmouth-lab",
+        "cl-dante-leeds-paradiso"
+      ],
+      "source_locator": "Inferno V; Purgatorio XVI; Paradiso III–IV and XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "036000-c04",
+      "anchor": "Finally turn to Paradiso XXXIII.",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-dartmouth-lab",
+        "cl-dante-leeds-paradiso"
+      ],
+      "source_locator": "Inferno V; Purgatorio XVI; Paradiso III–IV and XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "037000-c01",
+      "anchor": "no autograph manuscript of the Comedy has survived.",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-cornell-manuscript",
+        "cl-dante-cornell-foligno",
+        "cl-dante-cambridge-transmission",
+        "cl-dante-princeton-title",
+        "cl-dante-boccaccio-public-readings",
+        "cl-dante-dartmouth-faq"
+      ],
+      "source_locator": "Manuscript and print history, commentary, translation, influence",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "037000-c02",
+      "anchor": "Dante himself used the title Commedia",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-cornell-manuscript",
+        "cl-dante-cornell-foligno",
+        "cl-dante-cambridge-transmission",
+        "cl-dante-princeton-title",
+        "cl-dante-boccaccio-public-readings",
+        "cl-dante-dartmouth-faq"
+      ],
+      "source_locator": "Manuscript and print history, commentary, translation, influence",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "037000-c03",
+      "anchor": "The first printed edition appeared at Foligno in 1472.",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-cornell-manuscript",
+        "cl-dante-cornell-foligno",
+        "cl-dante-cambridge-transmission",
+        "cl-dante-princeton-title",
+        "cl-dante-boccaccio-public-readings",
+        "cl-dante-dartmouth-faq"
+      ],
+      "source_locator": "Manuscript and print history, commentary, translation, influence",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "037000-c04",
+      "anchor": "Boccaccio became a crucial admirer and interpreter",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-cornell-manuscript",
+        "cl-dante-cornell-foligno",
+        "cl-dante-cambridge-transmission",
+        "cl-dante-princeton-title",
+        "cl-dante-boccaccio-public-readings",
+        "cl-dante-dartmouth-faq"
+      ],
+      "source_locator": "Manuscript and print history, commentary, translation, influence",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "037000-c05",
+      "anchor": "Henry Wadsworth Longfellow's translation in the nineteenth century",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-cornell-manuscript",
+        "cl-dante-cornell-foligno",
+        "cl-dante-cambridge-transmission",
+        "cl-dante-princeton-title",
+        "cl-dante-boccaccio-public-readings",
+        "cl-dante-dartmouth-faq"
+      ],
+      "source_locator": "Manuscript and print history, commentary, translation, influence",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "034000-c01",
+      "anchor": "Dante chose to write a gigantic learned poem in the Italian vernacular",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-dartmouth-faq",
+        "cl-dante-gutenberg-longfellow",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno I/V, Paradiso XXVI/XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "034000-c02",
+      "anchor": "The poem's most conspicuous formal device is terza rima.",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-dartmouth-faq",
+        "cl-dante-gutenberg-longfellow",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno I/V, Paradiso XXVI/XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "034000-c03",
+      "anchor": "Lines are grouped in three-line units whose rhymes interlock",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-dartmouth-faq",
+        "cl-dante-gutenberg-longfellow",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno I/V, Paradiso XXVI/XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "034000-c04",
+      "anchor": "Henry Wadsworth Longfellow's nineteenth-century English version",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-dartmouth-faq",
+        "cl-dante-gutenberg-longfellow",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno I/V, Paradiso XXVI/XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+    },
+    {
+      "id": "034000-c05",
+      "anchor": "Adam in Paradise discusses the history of human speech.",
+      "kind": "literary_form_history_or_interpretive_claim",
+      "source_ids": [
+        "cl-dante-princeton-text",
+        "cl-dante-dartmouth-faq",
+        "cl-dante-gutenberg-longfellow",
+        "cl-dante-stanford-encyclopedia"
+      ],
+      "source_locator": "Inferno I/V, Paradiso XXVI/XXXIII",
+      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "pre-1900-literature:030000",
+        "file": "030000-dante-iii-moral-change-exile-guides-verse-and-interpretation-selected-route-subset.md",
+        "sha256": "005fc0fa955d4ed30f81c108094833111d7ab6c1b2e2a2b3f9cccc6094a88b6f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "030000",
+          "transcript": "030000-dante-iii-moral-change-exile-guides-verse-and-interpretation-selected-route-subset.md",
+          "related_resources": [
+            {
+              "source_id": "cl-dante-princeton-text",
+              "reason": "English/Italian facing text and scholarly commentary interface; Giorgio Petrocchi base Italian text. Not redistributed."
+            },
+            {
+              "source_id": "cl-dante-dartmouth-lab",
+              "reason": "Multi-century commentary tradition and textual comparison tool; different interpretations must not be treated as one consensus."
+            },
+            {
+              "source_id": "cl-dante-stanford-encyclopedia",
+              "reason": "Biographical, philosophical and political context; Florence and 1302 exile; distinguishes the author's project from pure theology."
+            },
+            {
+              "source_id": "cl-dante-cambridge-narrative",
+              "reason": "Contrasts narrative organization and imagery across realms; scholarly perspective rather than sole interpretive authority."
+            },
+            {
+              "source_id": "cl-dante-leeds-paradiso",
+              "reason": "Canto II–IX outlines and scholarly treatment of Piccarda, vows, and representations of beatitude."
+            },
+            {
+              "source_id": "cl-dante-cambridge-chronology",
+              "reason": "Historical timeline through Dante’s lifetime, including 1300 journey setting and 1302 exile."
+            },
+            {
+              "source_id": "cl-dante-world-of-dante",
+              "reason": "University instructional digital edition, canto geography, searchable Italian and English text, and context for the three cantiche."
+            },
+            {
+              "source_id": "cl-dante-cornell-manuscript",
+              "reason": "No authorial autograph; extensive surviving manuscript tradition; early printed and illustrated editions."
+            },
+            {
+              "source_id": "cl-dante-cornell-foligno",
+              "reason": "Identifies Foligno 1472 as first printed edition and its role in the dissemination of Dante."
+            },
+            {
+              "source_id": "cl-dante-cambridge-transmission",
+              "reason": "No surviving autograph; surviving variants and editorial reconstructions, with interpretive limits."
+            },
+            {
+              "source_id": "cl-dante-princeton-title",
+              "reason": "Distinguishes medieval title forms from later use of Divina Commedia; 1555 Venetian printed title."
+            },
+            {
+              "source_id": "cl-dante-boccaccio-public-readings",
+              "reason": "Boccaccio's October 1373 publicly funded Florentine Dante lectures and the rise of formal public commentary."
+            },
+            {
+              "source_id": "cl-dante-dartmouth-faq",
+              "reason": "Identifies Petrocchi-based Italian text and Longfellow English text; redistribution of Petrocchi material is restricted."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "030000-c01",
+              "anchor": "Purgatory may be the most psychologically revealing",
+              "kind": "textual_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-lab",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Purgatorio III–V, XI–XVII, XIX–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "030000-c02",
+              "anchor": "The souls are not being punished so that they may discover whether they will be saved.",
+              "kind": "textual_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-lab",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Purgatorio III–V, XI–XVII, XIX–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "030000-c03",
+              "anchor": "Marco Lombardo's conversation on the terrace of wrath",
+              "kind": "textual_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-lab",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Purgatorio III–V, XI–XVII, XIX–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "030000-c04",
+              "anchor": "After Lethe, Eunoë renews memory of the good.",
+              "kind": "textual_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-lab",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Purgatorio III–V, XI–XVII, XIX–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "031000-c01",
+              "anchor": "Paradise is often approached as the part of the Comedy",
+              "kind": "textual_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-cambridge-narrative",
+                "cl-dante-leeds-paradiso"
+              ],
+              "source_locator": "Paradiso III–IV, X–XII, XIX–XX, XXIV–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "031000-c02",
+              "anchor": "Piccarda appears in the Moon",
+              "kind": "textual_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-cambridge-narrative",
+                "cl-dante-leeds-paradiso"
+              ],
+              "source_locator": "Paradiso III–IV, X–XII, XIX–XX, XXIV–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "031000-c03",
+              "anchor": "In Jupiter, many souls form a single speaking eagle.",
+              "kind": "textual_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-cambridge-narrative",
+                "cl-dante-leeds-paradiso"
+              ],
+              "source_locator": "Paradiso III–IV, X–XII, XIX–XX, XXIV–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "031000-c04",
+              "anchor": "Bernard's prayer follows the entire sequence",
+              "kind": "textual_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-cambridge-narrative",
+                "cl-dante-leeds-paradiso"
+              ],
+              "source_locator": "Paradiso III–IV, X–XII, XIX–XX, XXIV–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "032000-c01",
+              "anchor": "He was born in Florence in 1265",
+              "kind": "textual_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-stanford-encyclopedia",
+                "cl-dante-cambridge-chronology"
+              ],
+              "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "032000-c02",
+              "anchor": "In 1302 he was condemned and exiled",
+              "kind": "textual_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-stanford-encyclopedia",
+                "cl-dante-cambridge-chronology"
+              ],
+              "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "032000-c03",
+              "anchor": "The older Guelph and Ghibelline alignments",
+              "kind": "textual_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-stanford-encyclopedia",
+                "cl-dante-cambridge-chronology"
+              ],
+              "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "032000-c04",
+              "anchor": "Dante the author composes with later knowledge.",
+              "kind": "textual_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-stanford-encyclopedia",
+                "cl-dante-cambridge-chronology"
+              ],
+              "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "032000-c05",
+              "anchor": "Imperial authority receives a different treatment.",
+              "kind": "textual_plot_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-stanford-encyclopedia",
+                "cl-dante-cambridge-chronology"
+              ],
+              "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "033000-c01",
+              "anchor": "Virgil is a poet, Beatrice is a remembered woman",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-lab",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "033000-c02",
+              "anchor": "In Limbo, Dante meets noble ancient thinkers",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-lab",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "033000-c03",
+              "anchor": "Beatrice's role begins long before her appearance",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-lab",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "033000-c04",
+              "anchor": "The historical Beatrice associated with Dante's youthful writings",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-lab",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "033000-c05",
+              "anchor": "Bernard's arrival completes the sequence.",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-lab",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "035000-c01",
+              "anchor": "The earth stands at the center of the poem's physical cosmos.",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-world-of-dante",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "035000-c02",
+              "anchor": "In Inferno XI, Virgil explains",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-world-of-dante",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "035000-c03",
+              "anchor": "The mountain imagines an ethics of habit and transformation.",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-world-of-dante",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "035000-c04",
+              "anchor": "The poem's intellectual sources include ancient philosophy",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-world-of-dante",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "035000-c05",
+              "anchor": "In Paradise, the souls' appearance within planetary heavens",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-world-of-dante",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "036000-c01",
+              "anchor": "Begin in Inferno V, with Francesca.",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-lab",
+                "cl-dante-leeds-paradiso"
+              ],
+              "source_locator": "Inferno V; Purgatorio XVI; Paradiso III–IV and XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "036000-c02",
+              "anchor": "For a comparison, choose Purgatorio XVI.",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-lab",
+                "cl-dante-leeds-paradiso"
+              ],
+              "source_locator": "Inferno V; Purgatorio XVI; Paradiso III–IV and XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "036000-c03",
+              "anchor": "The third encounter is Piccarda in Paradiso III.",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-lab",
+                "cl-dante-leeds-paradiso"
+              ],
+              "source_locator": "Inferno V; Purgatorio XVI; Paradiso III–IV and XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "036000-c04",
+              "anchor": "Finally turn to Paradiso XXXIII.",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-lab",
+                "cl-dante-leeds-paradiso"
+              ],
+              "source_locator": "Inferno V; Purgatorio XVI; Paradiso III–IV and XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "037000-c01",
+              "anchor": "no autograph manuscript of the Comedy has survived.",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-cornell-manuscript",
+                "cl-dante-cornell-foligno",
+                "cl-dante-cambridge-transmission",
+                "cl-dante-princeton-title",
+                "cl-dante-boccaccio-public-readings",
+                "cl-dante-dartmouth-faq"
+              ],
+              "source_locator": "Manuscript and print history, commentary, translation, influence",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "037000-c02",
+              "anchor": "Dante himself used the title Commedia",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-cornell-manuscript",
+                "cl-dante-cornell-foligno",
+                "cl-dante-cambridge-transmission",
+                "cl-dante-princeton-title",
+                "cl-dante-boccaccio-public-readings",
+                "cl-dante-dartmouth-faq"
+              ],
+              "source_locator": "Manuscript and print history, commentary, translation, influence",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "037000-c03",
+              "anchor": "The first printed edition appeared at Foligno in 1472.",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-cornell-manuscript",
+                "cl-dante-cornell-foligno",
+                "cl-dante-cambridge-transmission",
+                "cl-dante-princeton-title",
+                "cl-dante-boccaccio-public-readings",
+                "cl-dante-dartmouth-faq"
+              ],
+              "source_locator": "Manuscript and print history, commentary, translation, influence",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "037000-c04",
+              "anchor": "Boccaccio became a crucial admirer and interpreter",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-cornell-manuscript",
+                "cl-dante-cornell-foligno",
+                "cl-dante-cambridge-transmission",
+                "cl-dante-princeton-title",
+                "cl-dante-boccaccio-public-readings",
+                "cl-dante-dartmouth-faq"
+              ],
+              "source_locator": "Manuscript and print history, commentary, translation, influence",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "037000-c05",
+              "anchor": "Henry Wadsworth Longfellow's translation in the nineteenth century",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-cornell-manuscript",
+                "cl-dante-cornell-foligno",
+                "cl-dante-cambridge-transmission",
+                "cl-dante-princeton-title",
+                "cl-dante-boccaccio-public-readings",
+                "cl-dante-dartmouth-faq"
+              ],
+              "source_locator": "Manuscript and print history, commentary, translation, influence",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            }
+          ],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "pre-1900-literature:030000",
+                "file": "030000-dante-purgatory-free-will-memory-and-repair.md",
+                "sha256": "0d7057e159d1e8a8253cfdf98b702172ee1f55319b9c65ed0b88fd2424209c5d",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "030000",
+                  "transcript": "030000-dante-purgatory-free-will-memory-and-repair.md",
+                  "related_resources": [
+                    {
+                      "source_id": "cl-dante-princeton-text",
+                      "reason": "English/Italian facing text and scholarly commentary interface; Giorgio Petrocchi base Italian text. Not redistributed."
+                    },
+                    {
+                      "source_id": "cl-dante-dartmouth-lab",
+                      "reason": "Multi-century commentary tradition and textual comparison tool; different interpretations must not be treated as one consensus."
+                    },
+                    {
+                      "source_id": "cl-dante-stanford-encyclopedia",
+                      "reason": "Biographical, philosophical and political context; Florence and 1302 exile; distinguishes the author's project from pure theology."
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "030000-c01",
+                      "anchor": "Purgatory may be the most psychologically revealing",
+                      "kind": "textual_plot_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-dartmouth-lab",
+                        "cl-dante-stanford-encyclopedia"
+                      ],
+                      "source_locator": "Purgatorio III–V, XI–XVII, XIX–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "030000-c02",
+                      "anchor": "The souls are not being punished so that they may discover whether they will be saved.",
+                      "kind": "textual_plot_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-dartmouth-lab",
+                        "cl-dante-stanford-encyclopedia"
+                      ],
+                      "source_locator": "Purgatorio III–V, XI–XVII, XIX–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "030000-c03",
+                      "anchor": "Marco Lombardo's conversation on the terrace of wrath",
+                      "kind": "textual_plot_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-dartmouth-lab",
+                        "cl-dante-stanford-encyclopedia"
+                      ],
+                      "source_locator": "Purgatorio III–V, XI–XVII, XIX–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "030000-c04",
+                      "anchor": "After Lethe, Eunoë renews memory of the good.",
+                      "kind": "textual_plot_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-dartmouth-lab",
+                        "cl-dante-stanford-encyclopedia"
+                      ],
+                      "source_locator": "Purgatorio III–V, XI–XVII, XIX–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "pre-1900-literature:031000",
+                "file": "031000-dante-paradise-intelligence-love-and-limits.md",
+                "sha256": "c8561565b53457a4271be3b5e909cc4082213189668fd5254018e4e33ed77aaa",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "031000",
+                  "transcript": "031000-dante-paradise-intelligence-love-and-limits.md",
+                  "related_resources": [
+                    {
+                      "source_id": "cl-dante-princeton-text",
+                      "reason": "English/Italian facing text and scholarly commentary interface; Giorgio Petrocchi base Italian text. Not redistributed."
+                    },
+                    {
+                      "source_id": "cl-dante-cambridge-narrative",
+                      "reason": "Contrasts narrative organization and imagery across realms; scholarly perspective rather than sole interpretive authority."
+                    },
+                    {
+                      "source_id": "cl-dante-leeds-paradiso",
+                      "reason": "Canto II–IX outlines and scholarly treatment of Piccarda, vows, and representations of beatitude."
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "031000-c01",
+                      "anchor": "Paradise is often approached as the part of the Comedy",
+                      "kind": "textual_plot_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-cambridge-narrative",
+                        "cl-dante-leeds-paradiso"
+                      ],
+                      "source_locator": "Paradiso III–IV, X–XII, XIX–XX, XXIV–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "031000-c02",
+                      "anchor": "Piccarda appears in the Moon",
+                      "kind": "textual_plot_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-cambridge-narrative",
+                        "cl-dante-leeds-paradiso"
+                      ],
+                      "source_locator": "Paradiso III–IV, X–XII, XIX–XX, XXIV–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "031000-c03",
+                      "anchor": "In Jupiter, many souls form a single speaking eagle.",
+                      "kind": "textual_plot_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-cambridge-narrative",
+                        "cl-dante-leeds-paradiso"
+                      ],
+                      "source_locator": "Paradiso III–IV, X–XII, XIX–XX, XXIV–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "031000-c04",
+                      "anchor": "Bernard's prayer follows the entire sequence",
+                      "kind": "textual_plot_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-cambridge-narrative",
+                        "cl-dante-leeds-paradiso"
+                      ],
+                      "source_locator": "Paradiso III–IV, X–XII, XIX–XX, XXIV–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "pre-1900-literature:032000",
+                "file": "032000-dante-florence-exile-pope-empire.md",
+                "sha256": "1f0d6be272212940a1cfba0267594adbc5c7c5aa031ce2a11a1718195841f1f1",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "032000",
+                  "transcript": "032000-dante-florence-exile-pope-empire.md",
+                  "related_resources": [
+                    {
+                      "source_id": "cl-dante-princeton-text",
+                      "reason": "English/Italian facing text and scholarly commentary interface; Giorgio Petrocchi base Italian text. Not redistributed."
+                    },
+                    {
+                      "source_id": "cl-dante-stanford-encyclopedia",
+                      "reason": "Biographical, philosophical and political context; Florence and 1302 exile; distinguishes the author's project from pure theology."
+                    },
+                    {
+                      "source_id": "cl-dante-cambridge-chronology",
+                      "reason": "Historical timeline through Dante’s lifetime, including 1300 journey setting and 1302 exile."
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "032000-c01",
+                      "anchor": "He was born in Florence in 1265",
+                      "kind": "textual_plot_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-stanford-encyclopedia",
+                        "cl-dante-cambridge-chronology"
+                      ],
+                      "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "032000-c02",
+                      "anchor": "In 1302 he was condemned and exiled",
+                      "kind": "textual_plot_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-stanford-encyclopedia",
+                        "cl-dante-cambridge-chronology"
+                      ],
+                      "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "032000-c03",
+                      "anchor": "The older Guelph and Ghibelline alignments",
+                      "kind": "textual_plot_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-stanford-encyclopedia",
+                        "cl-dante-cambridge-chronology"
+                      ],
+                      "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "032000-c04",
+                      "anchor": "Dante the author composes with later knowledge.",
+                      "kind": "textual_plot_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-stanford-encyclopedia",
+                        "cl-dante-cambridge-chronology"
+                      ],
+                      "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "032000-c05",
+                      "anchor": "Imperial authority receives a different treatment.",
+                      "kind": "textual_plot_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-stanford-encyclopedia",
+                        "cl-dante-cambridge-chronology"
+                      ],
+                      "source_locator": "Inferno VI, X, XIX; Paradiso VI, XV–XVII, XXVII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "pre-1900-literature:033000",
+                "file": "033000-dante-guides-beatrice-virgil-and-womens-voices.md",
+                "sha256": "2fb83d5f5a78dd35240a143c7c25285acbab744e1b6c6bc01ab864742942d51b",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "033000",
+                  "transcript": "033000-dante-guides-beatrice-virgil-and-womens-voices.md",
+                  "related_resources": [
+                    {
+                      "source_id": "cl-dante-princeton-text",
+                      "reason": "English/Italian facing text and scholarly commentary interface; Giorgio Petrocchi base Italian text. Not redistributed."
+                    },
+                    {
+                      "source_id": "cl-dante-dartmouth-lab",
+                      "reason": "Multi-century commentary tradition and textual comparison tool; different interpretations must not be treated as one consensus."
+                    },
+                    {
+                      "source_id": "cl-dante-stanford-encyclopedia",
+                      "reason": "Biographical, philosophical and political context; Florence and 1302 exile; distinguishes the author's project from pure theology."
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "033000-c01",
+                      "anchor": "Virgil is a poet, Beatrice is a remembered woman",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-dartmouth-lab",
+                        "cl-dante-stanford-encyclopedia"
+                      ],
+                      "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "033000-c02",
+                      "anchor": "In Limbo, Dante meets noble ancient thinkers",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-dartmouth-lab",
+                        "cl-dante-stanford-encyclopedia"
+                      ],
+                      "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "033000-c03",
+                      "anchor": "Beatrice's role begins long before her appearance",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-dartmouth-lab",
+                        "cl-dante-stanford-encyclopedia"
+                      ],
+                      "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "033000-c04",
+                      "anchor": "The historical Beatrice associated with Dante's youthful writings",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-dartmouth-lab",
+                        "cl-dante-stanford-encyclopedia"
+                      ],
+                      "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "033000-c05",
+                      "anchor": "Bernard's arrival completes the sequence.",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-dartmouth-lab",
+                        "cl-dante-stanford-encyclopedia"
+                      ],
+                      "source_locator": "Inferno I–II; Purgatorio XXVIII–XXXIII; Paradiso III, XXX–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "pre-1900-literature:035000",
+                "file": "035000-dante-medieval-thought-cosmology-and-ethics.md",
+                "sha256": "d6682c7b48ba8752db7dde47eab8e58ed72dd3e50b890127cd41e065eb7e76f1",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "035000",
+                  "transcript": "035000-dante-medieval-thought-cosmology-and-ethics.md",
+                  "related_resources": [
+                    {
+                      "source_id": "cl-dante-princeton-text",
+                      "reason": "English/Italian facing text and scholarly commentary interface; Giorgio Petrocchi base Italian text. Not redistributed."
+                    },
+                    {
+                      "source_id": "cl-dante-world-of-dante",
+                      "reason": "University instructional digital edition, canto geography, searchable Italian and English text, and context for the three cantiche."
+                    },
+                    {
+                      "source_id": "cl-dante-stanford-encyclopedia",
+                      "reason": "Biographical, philosophical and political context; Florence and 1302 exile; distinguishes the author's project from pure theology."
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "035000-c01",
+                      "anchor": "The earth stands at the center of the poem's physical cosmos.",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-world-of-dante",
+                        "cl-dante-stanford-encyclopedia"
+                      ],
+                      "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "035000-c02",
+                      "anchor": "In Inferno XI, Virgil explains",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-world-of-dante",
+                        "cl-dante-stanford-encyclopedia"
+                      ],
+                      "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "035000-c03",
+                      "anchor": "The mountain imagines an ethics of habit and transformation.",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-world-of-dante",
+                        "cl-dante-stanford-encyclopedia"
+                      ],
+                      "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "035000-c04",
+                      "anchor": "The poem's intellectual sources include ancient philosophy",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-world-of-dante",
+                        "cl-dante-stanford-encyclopedia"
+                      ],
+                      "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "035000-c05",
+                      "anchor": "In Paradise, the souls' appearance within planetary heavens",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-world-of-dante",
+                        "cl-dante-stanford-encyclopedia"
+                      ],
+                      "source_locator": "Inferno XI; Purgatorio XVI–XVII; Paradiso III–XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "pre-1900-literature:036000",
+                "file": "036000-dante-close-reading-workshop-four-encounters.md",
+                "sha256": "707058893358b1a9e233cf2af09acfdc842fe70d998656717ec2b7cbe392f207",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "036000",
+                  "transcript": "036000-dante-close-reading-workshop-four-encounters.md",
+                  "related_resources": [
+                    {
+                      "source_id": "cl-dante-princeton-text",
+                      "reason": "English/Italian facing text and scholarly commentary interface; Giorgio Petrocchi base Italian text. Not redistributed."
+                    },
+                    {
+                      "source_id": "cl-dante-dartmouth-lab",
+                      "reason": "Multi-century commentary tradition and textual comparison tool; different interpretations must not be treated as one consensus."
+                    },
+                    {
+                      "source_id": "cl-dante-leeds-paradiso",
+                      "reason": "Canto II–IX outlines and scholarly treatment of Piccarda, vows, and representations of beatitude."
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "036000-c01",
+                      "anchor": "Begin in Inferno V, with Francesca.",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-dartmouth-lab",
+                        "cl-dante-leeds-paradiso"
+                      ],
+                      "source_locator": "Inferno V; Purgatorio XVI; Paradiso III–IV and XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "036000-c02",
+                      "anchor": "For a comparison, choose Purgatorio XVI.",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-dartmouth-lab",
+                        "cl-dante-leeds-paradiso"
+                      ],
+                      "source_locator": "Inferno V; Purgatorio XVI; Paradiso III–IV and XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "036000-c03",
+                      "anchor": "The third encounter is Piccarda in Paradiso III.",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-dartmouth-lab",
+                        "cl-dante-leeds-paradiso"
+                      ],
+                      "source_locator": "Inferno V; Purgatorio XVI; Paradiso III–IV and XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "036000-c04",
+                      "anchor": "Finally turn to Paradiso XXXIII.",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-princeton-text",
+                        "cl-dante-dartmouth-lab",
+                        "cl-dante-leeds-paradiso"
+                      ],
+                      "source_locator": "Inferno V; Purgatorio XVI; Paradiso III–IV and XXXIII",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "pre-1900-literature:037000",
+                "file": "037000-dante-text-manuscripts-commentary-and-influence.md",
+                "sha256": "c427b8930e33b22ecbb72f110d6570c4cef48a58591c6f1f9e7e405323b36978",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "037000",
+                  "transcript": "037000-dante-text-manuscripts-commentary-and-influence.md",
+                  "related_resources": [
+                    {
+                      "source_id": "cl-dante-cornell-manuscript",
+                      "reason": "No authorial autograph; extensive surviving manuscript tradition; early printed and illustrated editions."
+                    },
+                    {
+                      "source_id": "cl-dante-cornell-foligno",
+                      "reason": "Identifies Foligno 1472 as first printed edition and its role in the dissemination of Dante."
+                    },
+                    {
+                      "source_id": "cl-dante-cambridge-transmission",
+                      "reason": "No surviving autograph; surviving variants and editorial reconstructions, with interpretive limits."
+                    },
+                    {
+                      "source_id": "cl-dante-princeton-title",
+                      "reason": "Distinguishes medieval title forms from later use of Divina Commedia; 1555 Venetian printed title."
+                    },
+                    {
+                      "source_id": "cl-dante-boccaccio-public-readings",
+                      "reason": "Boccaccio's October 1373 publicly funded Florentine Dante lectures and the rise of formal public commentary."
+                    },
+                    {
+                      "source_id": "cl-dante-dartmouth-faq",
+                      "reason": "Identifies Petrocchi-based Italian text and Longfellow English text; redistribution of Petrocchi material is restricted."
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "037000-c01",
+                      "anchor": "no autograph manuscript of the Comedy has survived.",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-cornell-manuscript",
+                        "cl-dante-cornell-foligno",
+                        "cl-dante-cambridge-transmission",
+                        "cl-dante-princeton-title",
+                        "cl-dante-boccaccio-public-readings",
+                        "cl-dante-dartmouth-faq"
+                      ],
+                      "source_locator": "Manuscript and print history, commentary, translation, influence",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "037000-c02",
+                      "anchor": "Dante himself used the title Commedia",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-cornell-manuscript",
+                        "cl-dante-cornell-foligno",
+                        "cl-dante-cambridge-transmission",
+                        "cl-dante-princeton-title",
+                        "cl-dante-boccaccio-public-readings",
+                        "cl-dante-dartmouth-faq"
+                      ],
+                      "source_locator": "Manuscript and print history, commentary, translation, influence",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "037000-c03",
+                      "anchor": "The first printed edition appeared at Foligno in 1472.",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-cornell-manuscript",
+                        "cl-dante-cornell-foligno",
+                        "cl-dante-cambridge-transmission",
+                        "cl-dante-princeton-title",
+                        "cl-dante-boccaccio-public-readings",
+                        "cl-dante-dartmouth-faq"
+                      ],
+                      "source_locator": "Manuscript and print history, commentary, translation, influence",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "037000-c04",
+                      "anchor": "Boccaccio became a crucial admirer and interpreter",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-cornell-manuscript",
+                        "cl-dante-cornell-foligno",
+                        "cl-dante-cambridge-transmission",
+                        "cl-dante-princeton-title",
+                        "cl-dante-boccaccio-public-readings",
+                        "cl-dante-dartmouth-faq"
+                      ],
+                      "source_locator": "Manuscript and print history, commentary, translation, influence",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    },
+                    {
+                      "id": "037000-c05",
+                      "anchor": "Henry Wadsworth Longfellow's translation in the nineteenth century",
+                      "kind": "literary_form_history_or_interpretive_claim",
+                      "source_ids": [
+                        "cl-dante-cornell-manuscript",
+                        "cl-dante-cornell-foligno",
+                        "cl-dante-cambridge-transmission",
+                        "cl-dante-princeton-title",
+                        "cl-dante-boccaccio-public-readings",
+                        "cl-dante-dartmouth-faq"
+                      ],
+                      "source_locator": "Manuscript and print history, commentary, translation, influence",
+                      "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "pre-1900-literature:034000",
+        "file": "034000-dante-language-terza-rima-translation.md",
+        "sha256": "1206e0e40e3bf97c03ed6ea90c167efcb72acdb86143c94d9fea89706a2c8926",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "034000",
+          "transcript": "034000-dante-language-terza-rima-translation.md",
+          "related_resources": [
+            {
+              "source_id": "cl-dante-princeton-text",
+              "reason": "English/Italian facing text and scholarly commentary interface; Giorgio Petrocchi base Italian text. Not redistributed."
+            },
+            {
+              "source_id": "cl-dante-dartmouth-faq",
+              "reason": "Identifies Petrocchi-based Italian text and Longfellow English text; redistribution of Petrocchi material is restricted."
+            },
+            {
+              "source_id": "cl-dante-gutenberg-longfellow",
+              "reason": "Public-domain English translation, 1867; useful for comparison with modern versions, not equivalent to Italian original."
+            },
+            {
+              "source_id": "cl-dante-stanford-encyclopedia",
+              "reason": "Biographical, philosophical and political context; Florence and 1302 exile; distinguishes the author's project from pure theology."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "034000-c01",
+              "anchor": "Dante chose to write a gigantic learned poem in the Italian vernacular",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-faq",
+                "cl-dante-gutenberg-longfellow",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno I/V, Paradiso XXVI/XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "034000-c02",
+              "anchor": "The poem's most conspicuous formal device is terza rima.",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-faq",
+                "cl-dante-gutenberg-longfellow",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno I/V, Paradiso XXVI/XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "034000-c03",
+              "anchor": "Lines are grouped in three-line units whose rhymes interlock",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-faq",
+                "cl-dante-gutenberg-longfellow",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno I/V, Paradiso XXVI/XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "034000-c04",
+              "anchor": "Henry Wadsworth Longfellow's nineteenth-century English version",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-faq",
+                "cl-dante-gutenberg-longfellow",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno I/V, Paradiso XXVI/XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            },
+            {
+              "id": "034000-c05",
+              "anchor": "Adam in Paradise discusses the history of human speech.",
+              "kind": "literary_form_history_or_interpretive_claim",
+              "source_ids": [
+                "cl-dante-princeton-text",
+                "cl-dante-dartmouth-faq",
+                "cl-dante-gutenberg-longfellow",
+                "cl-dante-stanford-encyclopedia"
+              ],
+              "source_locator": "Inferno I/V, Paradiso XXVI/XXXIII",
+              "audit_status": "canto_references_and_scholarly_overviews_checked_not_exhaustive_primary_collation"
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

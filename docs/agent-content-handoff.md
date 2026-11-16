@@ -10,6 +10,23 @@ directory. Server and UI development can continue separately.
 
 ### Resume after the listening-route reorganization
 
+The adult-lecture consolidation supersedes the earlier assumption that every
+short source part should remain a separate lecture. The user requested actual
+combined manuscripts and did not require backward compatibility. Read the
+current `track.json` before continuing; do not restore removed part files from
+an older ZIP or use an old item count as a completeness requirement. Combined
+manuscripts retain their arguments, narratives, companions and source records.
+Their sidecars' `consolidation` records preserve component attribution and
+source history; they are not playback aliases. See the
+[ordering and consolidation review](planning/adult-lecture-consolidation.md).
+
+Write adult lectures around coherent subjects and endings. Review fragments
+under roughly ten minutes for combination; a substantive lecture can run up to
+about 40–60 minutes, with content-driven exceptions. Do not pad a finished
+explanation or merge unrelated topics to reach a duration. Children's short
+stories keep their intentional episode lengths. These preferences live in
+`LECTURE_STYLE_RULES.md`.
+
 The source pack and stable lecture IDs remain the authoring boundary. `track.json`
 owns the full inventory; optional `navigation.json` owns listening routes and
 deep dives. Append source manuscripts and metadata where they already live.

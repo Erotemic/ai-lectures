@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "016000",
-  "transcript": "016000-automatic-differentiation-adjoints-and-sensitivity.md",
+  "transcript": "016000-differentiating-algorithms-nonsmooth-outputs-and-event-times.md",
   "related_resources": [
     {
       "source_id": "na-mit-ad",
@@ -14,7 +14,108 @@
     {
       "source_id": "na-scipy-sparse",
       "reason": "Sparse linear system solve prerequisites."
+    },
+    {
+      "source_id": "nu-r14-021000-1",
+      "reason": "Nonsmooth solution sensitivities, Clarke derivatives and algorithmic differentiation"
+    },
+    {
+      "source_id": "nu-r14-021000-2",
+      "reason": "Nonsmooth solution sensitivities, Clarke derivatives and algorithmic differentiation"
+    },
+    {
+      "source_id": "nu-r14-021000-3",
+      "reason": "Nonsmooth solution sensitivities, Clarke derivatives and algorithmic differentiation"
+    },
+    {
+      "source_id": "na-r19-026000-1",
+      "reason": "Reference for Event-Time Sensitivities and Saltation Matrices (1 of 2)"
+    },
+    {
+      "source_id": "na-r19-026000-2",
+      "reason": "Reference for Event-Time Sensitivities and Saltation Matrices (2 of 2)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "numerical-analysis:016000",
+        "file": "016000-automatic-differentiation-adjoints-and-sensitivity.md",
+        "sha256": "05e5d59aab60d9ea5216b87b9ca1e4000620505ebae91d621c48dff18509c145",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-automatic-differentiation-adjoints-and-sensitivity.md",
+          "related_resources": [
+            {
+              "source_id": "na-mit-ad",
+              "reason": "JVP, VJP and reverse-mode differentiation."
+            },
+            {
+              "source_id": "na-griewank-walther",
+              "reason": "Automatic differentiation and adjoint methodology."
+            },
+            {
+              "source_id": "na-scipy-sparse",
+              "reason": "Sparse linear system solve prerequisites."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "numerical-analysis:021000",
+        "file": "021000-nonsmooth-sensitivities-and-algorithmic-derivatives.md",
+        "sha256": "360c928fefc9229e49bb04e2ed859f55c3ec4b3755e75ed6aebd20a060d02e07",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-nonsmooth-sensitivities-and-algorithmic-derivatives.md",
+          "related_resources": [
+            {
+              "source_id": "nu-r14-021000-1",
+              "reason": "Nonsmooth solution sensitivities, Clarke derivatives and algorithmic differentiation"
+            },
+            {
+              "source_id": "nu-r14-021000-2",
+              "reason": "Nonsmooth solution sensitivities, Clarke derivatives and algorithmic differentiation"
+            },
+            {
+              "source_id": "nu-r14-021000-3",
+              "reason": "Nonsmooth solution sensitivities, Clarke derivatives and algorithmic differentiation"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "numerical-analysis:026000",
+        "file": "026000-event-time-sensitivities-and-saltation.md",
+        "sha256": "6b63847d81116502919d56713e79894b73b658e3b571049f6f8503f232c017c9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "026000",
+          "transcript": "026000-event-time-sensitivities-and-saltation.md",
+          "related_resources": [
+            {
+              "source_id": "na-r19-026000-1",
+              "reason": "Reference for Event-Time Sensitivities and Saltation Matrices (1 of 2)"
+            },
+            {
+              "source_id": "na-r19-026000-2",
+              "reason": "Reference for Event-Time Sensitivities and Saltation Matrices (2 of 2)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

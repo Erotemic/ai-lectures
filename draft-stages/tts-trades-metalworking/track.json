@@ -18,192 +18,72 @@
   "lectures": [
     {
       "id": "001000",
-      "title": "Metal Is Not One Material: Structure, Heat, Joining, and Failure",
+      "title": "Specify material, geometry, and acceptance",
       "section": "materials-and-failure",
-      "file": "001000-metal-is-not-one-material.md",
-      "spoken_words": 1213,
+      "file": "001000-specify-material-geometry-and-acceptance.md",
+      "spoken_words": 4999,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "002000",
-      "title": "Alloy Families, Microstructure, and Heat Treatment",
-      "section": "materials-and-failure",
-      "file": "002000-alloy-families-microstructure-and-heat-treatment.md",
-      "spoken_words": 1027,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 34.5,
+      "consolidated_from": [
+        "001000",
+        "002000",
+        "011000",
+        "012000",
+        "021000"
+      ]
     },
     {
       "id": "003000",
-      "title": "Sawing, Drilling, Grinding, and Machining",
+      "title": "Cut, form, and join a workable part",
       "section": "materials-and-failure",
-      "file": "003000-sawing-drilling-grinding-and-machining.md",
-      "spoken_words": 1005,
+      "file": "003000-cut-form-and-join-a-workable-part.md",
+      "spoken_words": 5616,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "004000",
-      "title": "Bending, Forming, and Springback",
-      "section": "materials-and-failure",
-      "file": "004000-bending-forming-and-springback.md",
-      "spoken_words": 830,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "005000",
-      "title": "Welding Processes and Joint Geometry",
-      "section": "materials-and-failure",
-      "file": "005000-welding-processes-and-joint-geometry.md",
-      "spoken_words": 976,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "006000",
-      "title": "Mechanical Fastening and Fatigue",
-      "section": "materials-and-failure",
-      "file": "006000-mechanical-fastening-and-fatigue.md",
-      "spoken_words": 940,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "007000",
-      "title": "Corrosion and Outdoor Fabrication",
-      "section": "materials-and-failure",
-      "file": "007000-corrosion-and-outdoor-fabrication.md",
-      "spoken_words": 922,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "008000",
-      "title": "Inspecting and Repairing Corroded Assemblies",
-      "section": "materials-and-failure",
-      "file": "008000-inspecting-and-repairing-corroded-assemblies.md",
-      "spoken_words": 769,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "009000",
-      "title": "Heat Treatment and Fastener Selection",
-      "section": "materials-and-failure",
-      "file": "009000-heat-treatment-and-fastener-selection.md",
-      "spoken_words": 868,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "010000",
-      "title": "Soldering, Brazing, and Dissimilar-Metal Joining",
-      "section": "materials-and-failure",
-      "file": "010000-soldering-brazing-and-dissimilar-metal-joining.md",
-      "spoken_words": 960,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "011000",
-      "title": "Machining Tolerances, Fits, and Surface Finish",
-      "section": "materials-and-failure",
-      "file": "011000-machining-tolerances-fits-and-surface-finish.md",
-      "spoken_words": 900,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "012000",
-      "title": "Practical Metrology: Indicators, Gauges, and Inspection Plans",
-      "section": "materials-and-failure",
-      "file": "012000-practical-metrology-indicators-gauges-and-inspection-plans.md",
-      "spoken_words": 847,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "013000",
-      "title": "Choosing Metals and Fasteners for Corrosive Environments",
-      "section": "materials-and-failure",
-      "file": "013000-choosing-metals-and-fasteners-for-corrosive-environments.md",
-      "spoken_words": 776,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "014000",
-      "title": "Sheet-Metal Enclosures, Stiffening, and Weather Sealing",
-      "section": "materials-and-failure",
-      "file": "014000-sheet-metal-enclosures-stiffening-and-weather-sealing.md",
-      "spoken_words": 1006,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 38.7,
+      "consolidated_from": [
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "009000",
+        "010000"
+      ]
     },
     {
       "id": "015000",
-      "title": "Welding Distortion and Fixture Design",
+      "title": "Control distortion and build sheet-metal assemblies",
       "section": "materials-and-failure",
-      "file": "015000-welding-distortion-and-fixture-design.md",
-      "spoken_words": 1005,
+      "file": "015000-control-distortion-and-build-sheet-metal-assemblies.md",
+      "spoken_words": 4857,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 33.5,
+      "consolidated_from": [
+        "015000",
+        "014000",
+        "016000",
+        "017000",
+        "018000"
+      ]
     },
     {
-      "id": "016000",
-      "title": "Machining and Welding Dissimilar Metals",
+      "id": "007000",
+      "title": "Inspect corrosion, welds, and durable finishes",
       "section": "materials-and-failure",
-      "file": "016000-machining-and-welding-dissimilar-metals.md",
-      "spoken_words": 880,
+      "file": "007000-inspect-corrosion-welds-and-durable-finishes.md",
+      "spoken_words": 4333,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "017000",
-      "title": "Joining Strategies for Thin Sheet Metal",
-      "section": "materials-and-failure",
-      "file": "017000-joining-strategies-for-thin-sheet-metal.md",
-      "spoken_words": 993,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "018000",
-      "title": "Designing Weatherproof Removable Panels",
-      "section": "materials-and-failure",
-      "file": "018000-designing-weatherproof-removable-panels.md",
-      "spoken_words": 905,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "019000",
-      "title": "Reading a Weld: Fit-Up, Surface Evidence, and Hidden Defects",
-      "section": "materials-and-failure",
-      "file": "019000-reading-a-weld-fit-up-surface-evidence-and-hidden-defects.md",
-      "spoken_words": 1015,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "020000",
-      "title": "Surface Preparation, Coatings, and Durable Metal Finishes",
-      "section": "materials-and-failure",
-      "file": "020000-surface-preparation-coatings-and-durable-metal-finishes.md",
-      "spoken_words": 801,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "021000",
-      "title": "Reading Weld Symbols, Fit-Up Notes, and Fabrication Drawings",
-      "section": "materials-and-failure",
-      "file": "021000-reading-weld-symbols-fit-up-notes-and-fabrication-drawings.md",
-      "spoken_words": 926,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 29.9,
+      "consolidated_from": [
+        "007000",
+        "008000",
+        "013000",
+        "019000",
+        "020000"
+      ]
     }
   ]
 }

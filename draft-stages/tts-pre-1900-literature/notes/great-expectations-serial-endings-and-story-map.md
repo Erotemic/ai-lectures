@@ -1,5 +1,7 @@
 # Charles Dickens, *Great Expectations*: narrative map, serial edition, and two endings
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 **Work and source policy.** The 12 original audio manuscripts 091000–102000 explain the 59-chapter narrative as received in its revised published ending. This is **not** a reading or performance of Dickens's prose. The [Project Gutenberg #1400](https://www.gutenberg.org/files/1400/1400-h/1400-h.htm) accessible text announces itself as an **1867 edition**, not a photographic witness to the 1861 installments; its wording is suitable for checking core plot but must not be used as unqualified proof of every first-edition variant. Refer to individual historical witnesses when discussing the final line.
 
 ## Narrative guide

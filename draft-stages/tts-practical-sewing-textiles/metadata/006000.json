@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "006000",
-  "transcript": "006000-repairing-tears-seams-and-worn-clothing.md",
+  "transcript": "006000-repair-and-alter-different-materials.md",
   "related_resources": [
     {
       "source_id": "wsu-fabrics",
@@ -18,6 +18,34 @@
     {
       "source_id": "sewing-seams",
       "reason": "Stitch lines and seam allowances"
+    },
+    {
+      "source_id": "ftc-care-label",
+      "reason": "Garment care instructions and warnings; what a washing instruction must consider"
+    },
+    {
+      "source_id": "ykk-zipper-faq",
+      "reason": "Slider problems and model-specific zipper installation guidance"
+    },
+    {
+      "source_id": "ykk-zipper-anatomy",
+      "reason": "Teeth/elements, slider, tape and geometry of engagement"
+    },
+    {
+      "source_id": "usu-grain",
+      "reason": "Lengthwise, crosswise and bias grain"
+    },
+    {
+      "source_id": "usu-machine",
+      "reason": "Upper thread tension, balanced stitches, bobbin factory setting"
+    },
+    {
+      "source_id": "threads-ease-fitting",
+      "reason": "Finished measurements versus body measurements; wearing and design ease"
+    },
+    {
+      "source_id": "sewingalliance-grain-bias",
+      "reason": "Woven grain, true bias at approximately forty-five degrees and drape; source link located, full PDF review pending"
     }
   ],
   "historical_claims": [],
@@ -81,8 +109,887 @@
       "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
       "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "Fabric construction and surface finish can have separate roles in water shedding and durability.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "wsu-fabrics",
+          "location": "Woven, knit, nonwoven and fabric grain",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ftc-care-label",
+          "location": "Garment care instructions and warnings; what a washing instruction must consider",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Sewn seams create mechanical joins and needle penetrations that can require separate weather sealing.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "osu-seams",
+          "location": "Plain seams, allowances, pressing, finish decisions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Outdoor repairs must distinguish abrasion, membrane damage, seam leakage and condensation.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "wsu-fabrics",
+          "location": "Woven, knit, nonwoven and fabric grain",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osu-seams",
+          "location": "Plain seams, allowances, pressing, finish decisions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Material-specific care and compatible repair procedures matter for longevity.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ftc-care-label",
+          "location": "Garment care instructions and warnings; what a washing instruction must consider",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ykk-zipper-faq",
+          "location": "Slider problems and model-specific zipper installation guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "Zipper tooth type, slider and bottom-separation components must be compatible.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ykk-zipper-faq",
+          "location": "Slider problems and model-specific zipper installation guidance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ykk-zipper-anatomy",
+          "location": "Teeth/elements, slider, tape and geometry of engagement",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Zipper-tape alignment and fabric grain can affect garment distortion during replacement.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osu-seams",
+          "location": "Plain seams, allowances, pressing, finish decisions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Stitch choice and seam handling influence repair durability and later service.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "osu-seams",
+          "location": "Plain seams, allowances, pressing, finish decisions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "A mechanically functional zipper does not automatically restore a technical waterproof garment rating.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ykk-zipper-faq",
+          "location": "Slider problems and model-specific zipper installation guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-01",
+      "claim": "Knit materials vary in stretch and recovery by fabric structure and direction.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usu-knits",
+          "location": "Stretch and recovery testing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Stretch-compatible seams and needle selection matter for knit garment durability.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usu-knits",
+          "location": "Stretch and recovery testing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osu-seams",
+          "location": "Plain seams, allowances, pressing, finish decisions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "Fit requires ease and movement, not flat dimensions alone.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Finished measurements versus body measurements; wearing and design ease",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Stitch tension, feeding and machine setup can alter seam appearance and stability.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usu-machine",
+          "location": "Upper thread tension, balanced stitches, bobbin factory setting",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-knits",
+          "location": "Stretch and recovery testing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-01",
+      "claim": "True bias is approximately forty-five degrees to lengthwise and crosswise woven grain.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "sewingalliance-grain-bias",
+          "location": "Woven grain, true bias at approximately forty-five degrees and drape; source link located, full PDF review pending",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "Woven bias can deform through yarn rotation and drape even without elastic fibers.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "sewingalliance-grain-bias",
+          "location": "Woven grain, true bias at approximately forty-five degrees and drape; source link located, full PDF review pending",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "A garment measured flat can fit differently when hung and worn.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Finished measurements versus body measurements; wearing and design ease",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Seam construction and sewing-machine feed can affect fabric distortion.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "osu-seams",
+          "location": "Plain seams, allowances, pressing, finish decisions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "wsu-fabrics",
+          "location": "Woven, knit, nonwoven and fabric grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Directional properties and movement ease matter when altering woven garments.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Finished measurements versus body measurements; wearing and design ease",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-sewing-textiles:006000",
+        "file": "006000-repairing-tears-seams-and-worn-clothing.md",
+        "sha256": "f0508115a441ee9d0996bef028fdee74a7516af4420614e9c9c704865eb26cbf",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-repairing-tears-seams-and-worn-clothing.md",
+          "related_resources": [
+            {
+              "source_id": "wsu-fabrics",
+              "reason": "Woven, knit, nonwoven and fabric grain"
+            },
+            {
+              "source_id": "usu-knits",
+              "reason": "Stretch and recovery testing"
+            },
+            {
+              "source_id": "osu-seams",
+              "reason": "Plain seams, allowances, pressing, finish decisions"
+            },
+            {
+              "source_id": "sewing-seams",
+              "reason": "Stitch lines and seam allowances"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P006000-01",
+              "claim": "Woven and knit fabrics have different constructions and extension characteristics, affecting repair stitches.",
+              "kind": "textile_construction",
+              "supports": [
+                {
+                  "source_id": "wsu-fabrics",
+                  "location": "Fabric-construction study guide; knit-fabric considerations",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-knits",
+                  "location": "Fabric-construction study guide; knit-fabric considerations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-02",
+              "claim": "Seam allowances, seam finishing, and compatible stitches affect repair durability.",
+              "kind": "sewing_technique",
+              "supports": [
+                {
+                  "source_id": "osu-seams",
+                  "location": "Plain seams and seam finishes; simple seaming techniques",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "sewing-seams",
+                  "location": "Plain seams and seam finishes; simple seaming techniques",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-03",
+              "claim": "Repairing a tear and repairing a seam failure require different engagement of surrounding material.",
+              "kind": "derived_repair_reasoning",
+              "supports": [
+                {
+                  "source_id": "osu-seams",
+                  "location": "Seams and fabric structures; derived comparison of mechanical failure modes",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "wsu-fabrics",
+                  "location": "Seams and fabric structures; derived comparison of mechanical failure modes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+        }
+      },
+      {
+        "id": "practical-sewing-textiles:015000",
+        "file": "015000-outdoor-fabrics-weatherproof-seams-and-repairs.md",
+        "sha256": "afde5a69a5dfddf30dbeaa75fa757b3f1c736b60be2fa52174c6237d30c3fef7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-outdoor-fabrics-weatherproof-seams-and-repairs.md",
+          "related_resources": [
+            {
+              "source_id": "wsu-fabrics",
+              "reason": "Woven, knit, nonwoven and fabric grain"
+            },
+            {
+              "source_id": "osu-seams",
+              "reason": "Plain seams, allowances, pressing, finish decisions"
+            },
+            {
+              "source_id": "ftc-care-label",
+              "reason": "Garment care instructions and warnings; what a washing instruction must consider"
+            },
+            {
+              "source_id": "ykk-zipper-faq",
+              "reason": "Slider problems and model-specific zipper installation guidance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "Fabric construction and surface finish can have separate roles in water shedding and durability.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "wsu-fabrics",
+                  "location": "Woven, knit, nonwoven and fabric grain",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ftc-care-label",
+                  "location": "Garment care instructions and warnings; what a washing instruction must consider",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "Sewn seams create mechanical joins and needle penetrations that can require separate weather sealing.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "osu-seams",
+                  "location": "Plain seams, allowances, pressing, finish decisions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Outdoor repairs must distinguish abrasion, membrane damage, seam leakage and condensation.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "wsu-fabrics",
+                  "location": "Woven, knit, nonwoven and fabric grain",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osu-seams",
+                  "location": "Plain seams, allowances, pressing, finish decisions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Material-specific care and compatible repair procedures matter for longevity.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ftc-care-label",
+                  "location": "Garment care instructions and warnings; what a washing instruction must consider",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ykk-zipper-faq",
+                  "location": "Slider problems and model-specific zipper installation guidance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-sewing-textiles:018000",
+        "file": "018000-replacing-a-zipper-without-distorting-a-garment.md",
+        "sha256": "0f6883fae635e65c9031d788855f6175260eaed592721f6e0d860b74f7ae3ef1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-replacing-a-zipper-without-distorting-a-garment.md",
+          "related_resources": [
+            {
+              "source_id": "ykk-zipper-faq",
+              "reason": "Slider problems and model-specific zipper installation guidance"
+            },
+            {
+              "source_id": "ykk-zipper-anatomy",
+              "reason": "Teeth/elements, slider, tape and geometry of engagement"
+            },
+            {
+              "source_id": "osu-seams",
+              "reason": "Plain seams, allowances, pressing, finish decisions"
+            },
+            {
+              "source_id": "usu-grain",
+              "reason": "Lengthwise, crosswise and bias grain"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "Zipper tooth type, slider and bottom-separation components must be compatible.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ykk-zipper-faq",
+                  "location": "Slider problems and model-specific zipper installation guidance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ykk-zipper-anatomy",
+                  "location": "Teeth/elements, slider, tape and geometry of engagement",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Zipper-tape alignment and fabric grain can affect garment distortion during replacement.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "usu-grain",
+                  "location": "Lengthwise, crosswise and bias grain",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osu-seams",
+                  "location": "Plain seams, allowances, pressing, finish decisions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "Stitch choice and seam handling influence repair durability and later service.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "osu-seams",
+                  "location": "Plain seams, allowances, pressing, finish decisions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "A mechanically functional zipper does not automatically restore a technical waterproof garment rating.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ykk-zipper-faq",
+                  "location": "Slider problems and model-specific zipper installation guidance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-sewing-textiles:019000",
+        "file": "019000-altering-knit-garments-without-losing-stretch.md",
+        "sha256": "a23f453335363ab215cb5c34d6d4dc12ec3ae6b6cb39b9a40f70ec7924c28340",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-altering-knit-garments-without-losing-stretch.md",
+          "related_resources": [
+            {
+              "source_id": "usu-knits",
+              "reason": "Stretch and recovery testing"
+            },
+            {
+              "source_id": "usu-machine",
+              "reason": "Upper thread tension, balanced stitches, bobbin factory setting"
+            },
+            {
+              "source_id": "threads-ease-fitting",
+              "reason": "Finished measurements versus body measurements; wearing and design ease"
+            },
+            {
+              "source_id": "osu-seams",
+              "reason": "Plain seams, allowances, pressing, finish decisions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P019000-01",
+              "claim": "Knit materials vary in stretch and recovery by fabric structure and direction.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usu-knits",
+                  "location": "Stretch and recovery testing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-02",
+              "claim": "Stretch-compatible seams and needle selection matter for knit garment durability.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usu-knits",
+                  "location": "Stretch and recovery testing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osu-seams",
+                  "location": "Plain seams, allowances, pressing, finish decisions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-03",
+              "claim": "Fit requires ease and movement, not flat dimensions alone.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "threads-ease-fitting",
+                  "location": "Finished measurements versus body measurements; wearing and design ease",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-04",
+              "claim": "Stitch tension, feeding and machine setup can alter seam appearance and stability.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usu-machine",
+                  "location": "Upper thread tension, balanced stitches, bobbin factory setting",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-knits",
+                  "location": "Stretch and recovery testing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-sewing-textiles:020000",
+        "file": "020000-garment-alterations-on-the-bias-and-across-woven-grain.md",
+        "sha256": "733266027a790dc6fa16527769b6ec038a4fa90c7d78116bf0d2a2d33452050d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-garment-alterations-on-the-bias-and-across-woven-grain.md",
+          "related_resources": [
+            {
+              "source_id": "sewingalliance-grain-bias",
+              "reason": "Woven grain, true bias at approximately forty-five degrees and drape; source link located, full PDF review pending"
+            },
+            {
+              "source_id": "usu-grain",
+              "reason": "Lengthwise, crosswise and bias grain"
+            },
+            {
+              "source_id": "usu-knits",
+              "reason": "Stretch and recovery testing"
+            },
+            {
+              "source_id": "wsu-fabrics",
+              "reason": "Woven, knit, nonwoven and fabric grain"
+            },
+            {
+              "source_id": "threads-ease-fitting",
+              "reason": "Finished measurements versus body measurements; wearing and design ease"
+            },
+            {
+              "source_id": "osu-seams",
+              "reason": "Plain seams, allowances, pressing, finish decisions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P020000-01",
+              "claim": "True bias is approximately forty-five degrees to lengthwise and crosswise woven grain.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "sewingalliance-grain-bias",
+                  "location": "Woven grain, true bias at approximately forty-five degrees and drape; source link located, full PDF review pending",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-grain",
+                  "location": "Lengthwise, crosswise and bias grain",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-02",
+              "claim": "Woven bias can deform through yarn rotation and drape even without elastic fibers.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "sewingalliance-grain-bias",
+                  "location": "Woven grain, true bias at approximately forty-five degrees and drape; source link located, full PDF review pending",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-03",
+              "claim": "A garment measured flat can fit differently when hung and worn.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "threads-ease-fitting",
+                  "location": "Finished measurements versus body measurements; wearing and design ease",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-grain",
+                  "location": "Lengthwise, crosswise and bias grain",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-04",
+              "claim": "Seam construction and sewing-machine feed can affect fabric distortion.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "osu-seams",
+                  "location": "Plain seams, allowances, pressing, finish decisions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "wsu-fabrics",
+                  "location": "Woven, knit, nonwoven and fabric grain",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-05",
+              "claim": "Directional properties and movement ease matter when altering woven garments.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "threads-ease-fitting",
+                  "location": "Finished measurements versus body measurements; wearing and design ease",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-grain",
+                  "location": "Lengthwise, crosswise and bias grain",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "006000-repair-and-alter-different-materials.md"
+      ],
+      "joined_before_source_parts": [
+        "015000",
+        "018000"
+      ]
+    }
+  ]
 }

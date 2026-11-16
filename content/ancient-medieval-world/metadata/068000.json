@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "068000",
-  "transcript": "068000-villages-on-the-plains.md",
+  "transcript": "068000-homes-and-movement-in-the-plains-and-arctic.md",
   "related_resources": [
     {
       "source_id": "g3-pl-middle",
@@ -26,6 +26,31 @@
     {
       "source_id": "g3-pl-npsarticle",
       "reason": "Village chronology and later Mandan/Hidatsa/Arikara history, including main Knife River site dates after 1525; careful pre-1500 scope required.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-arctic-sirm",
+      "reason": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-arctic-qutt",
+      "reason": "High Arctic archaeological evidence and Inuit heritage technologies, site variation and preservation.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-arctic-review",
+      "reason": "Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-arctic-ivv",
+      "reason": "Beaufort Sea settlement and subsequent regional adaptation, including thirteenth-century developments; park-region specificity.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g3-arctic-tuktut",
+      "reason": "Regional archaeological site distribution and c. 1200–1500 occupation, not a general chronology for entire Arctic.",
       "access_scope": "webpage_reviewed"
     }
   ],
@@ -179,6 +204,540 @@
       "source_locator": "National Park Service, Knife River People; US National Park Service National Register, Bison Kill Sites in South Dakota thematic context, Middle Missouri archaeology",
       "audit_status": "source_scope_and_limits_mapped",
       "source_limitations": "Upper Missouri riverine farming, bison hunting, earthlodges and oral accounts; many described villages are post-1500, so avoid unqualified projection. Archaeological context for Middle Missouri houses, village layout, mixed horticulture and hunting from AD 900 onward; regional synthesis and interpretive assignments."
+    },
+    {
+      "id": "069000-p01",
+      "anchor": "A winter dwelling built partly into the ground could be warm, durable, and close",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-arctic-sirm"
+      ],
+      "source_locator": "Parks Canada, Sirmilik National Park: History",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions."
+    },
+    {
+      "id": "069000-p02",
+      "anchor": "Archaeologists frequently call one major ancestral tradition Thule, after a plac",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-arctic-sirm",
+        "g3-arctic-qutt"
+      ],
+      "source_locator": "Parks Canada, Sirmilik National Park: History; Parks Canada, Quttinirpaaq Management Plan: Arctic archaeological sequence",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions. High Arctic archaeological evidence and Inuit heritage technologies, site variation and preservation."
+    },
+    {
+      "id": "069000-p03",
+      "anchor": "The spread from Alaska across the Canadian Arctic toward Greenland was rapid by ",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-arctic-sirm",
+        "g3-arctic-review"
+      ],
+      "source_locator": "Parks Canada, Sirmilik National Park: History; Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions. Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
+    },
+    {
+      "id": "069000-p04",
+      "anchor": "Travel technology mattered. Large skin-covered boats, umiaks, could carry people",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-arctic-sirm"
+      ],
+      "source_locator": "Parks Canada, Sirmilik National Park: History",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions."
+    },
+    {
+      "id": "069000-p05",
+      "anchor": "Animals shaped settlement seasons, but no single species fed everyone everywhere",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-arctic-sirm",
+        "g3-arctic-review"
+      ],
+      "source_locator": "Parks Canada, Sirmilik National Park: History; Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions. Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
+    },
+    {
+      "id": "069000-p06",
+      "anchor": "House construction gives evidence of planning across seasons. In parts of the ea",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-arctic-sirm"
+      ],
+      "source_locator": "Parks Canada, Sirmilik National Park: History",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions."
+    },
+    {
+      "id": "069000-p07",
+      "anchor": "The location of a village depended on more than proximity to animals. People nee",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-arctic-review"
+      ],
+      "source_locator": "Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
+    },
+    {
+      "id": "069000-p08",
+      "anchor": "Trade and exchange extended across the Arctic. Stone, native copper, iron, anima",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-arctic-review"
+      ],
+      "source_locator": "Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
+    },
+    {
+      "id": "069000-p09",
+      "anchor": "People of Norse ancestry lived in Greenland from the late tenth century into the",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-arctic-review"
+      ],
+      "source_locator": "Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
+    },
+    {
+      "id": "069000-p10",
+      "anchor": "Parks Canada's accounts of the Beaufort Sea describe changes around the thirteen",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-arctic-ivv"
+      ],
+      "source_locator": "Parks Canada, Ivvavik National Park: Culture and history",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Beaufort Sea settlement and subsequent regional adaptation, including thirteenth-century developments; park-region specificity."
+    },
+    {
+      "id": "069000-p11",
+      "anchor": "Climate entered these choices without controlling them mechanically. Sea-ice con",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-arctic-review"
+      ],
+      "source_locator": "Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
+    },
+    {
+      "id": "069000-p12",
+      "anchor": "Researchers also confront a history of collecting. Archaeological sites can be d",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-arctic-qutt",
+        "g3-arctic-tuktut"
+      ],
+      "source_locator": "Parks Canada, Quttinirpaaq Management Plan: Arctic archaeological sequence; Parks Canada, Tuktut Nogait: Culture and history",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "High Arctic archaeological evidence and Inuit heritage technologies, site variation and preservation. Regional archaeological site distribution and c. 1200–1500 occupation, not a general chronology for entire Arctic."
+    },
+    {
+      "id": "069000-p13",
+      "anchor": "An Inuit ancestral history is not a story that ends with the spread of a cultura",
+      "kind": "historical_research",
+      "source_ids": [
+        "g3-arctic-sirm",
+        "g3-arctic-review"
+      ],
+      "source_locator": "Parks Canada, Sirmilik National Park: History; Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions. Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "ancient-medieval-world:068000",
+        "file": "068000-villages-on-the-plains.md",
+        "sha256": "9b68372d082ffbf42b455413b287547f385f2d1ae76d75dfe5806bf2ba283b13",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "068000",
+          "transcript": "068000-villages-on-the-plains.md",
+          "related_resources": [
+            {
+              "source_id": "g3-pl-middle",
+              "reason": "Archaeological context for Middle Missouri houses, village layout, mixed horticulture and hunting from AD 900 onward; regional synthesis and interpretive assignments.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-pl-npspeople",
+              "reason": "Upper Missouri riverine farming, bison hunting, earthlodges and oral accounts; many described villages are post-1500, so avoid unqualified projection.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-pl-npsplaces",
+              "reason": "Geography, Hidatsa farm labor, earthlodge village traces and historic livelihoods; contact-era evidence cannot establish all prehistoric practices.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-pl-education",
+              "reason": "Earthlodge engineering and documented Mandan/Hidatsa/Arikara households, later-era descriptions that must not be assumed unchanged for year 1000.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-pl-npsarticle",
+              "reason": "Village chronology and later Mandan/Hidatsa/Arikara history, including main Knife River site dates after 1525; careful pre-1500 scope required.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "068000-p01",
+              "anchor": "Picture the northern Plains long before horses became central to the histories m",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-pl-middle",
+                "g3-pl-npspeople"
+              ],
+              "source_locator": "US National Park Service National Register, Bison Kill Sites in South Dakota thematic context, Middle Missouri archaeology; National Park Service, Knife River People",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological context for Middle Missouri houses, village layout, mixed horticulture and hunting from AD 900 onward; regional synthesis and interpretive assignments. Upper Missouri riverine farming, bison hunting, earthlodges and oral accounts; many described villages are post-1500, so avoid unqualified projection."
+            },
+            {
+              "id": "068000-p02",
+              "anchor": "The Missouri River offered something the open prairie could not always provide: ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-pl-npsplaces"
+              ],
+              "source_locator": "National Park Service, Places at Knife River Indian Villages",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Geography, Hidatsa farm labor, earthlodge village traces and historic livelihoods; contact-era evidence cannot establish all prehistoric practices."
+            },
+            {
+              "id": "068000-p03",
+              "anchor": "Archaeologists use the term Plains Village tradition for several related settlem",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-pl-middle"
+              ],
+              "source_locator": "US National Park Service National Register, Bison Kill Sites in South Dakota thematic context, Middle Missouri archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological context for Middle Missouri houses, village layout, mixed horticulture and hunting from AD 900 onward; regional synthesis and interpretive assignments."
+            },
+            {
+              "id": "068000-p04",
+              "anchor": "What does a house reveal? A depression in the earth can mark a floor; postholes ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-pl-middle",
+                "g3-pl-education"
+              ],
+              "source_locator": "US National Park Service National Register, Bison Kill Sites in South Dakota thematic context, Middle Missouri archaeology; National Park Service, Knife River: Early Village Life on the Plains",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological context for Middle Missouri houses, village layout, mixed horticulture and hunting from AD 900 onward; regional synthesis and interpretive assignments. Earthlodge engineering and documented Mandan/Hidatsa/Arikara households, later-era descriptions that must not be assumed unchanged for year 1000."
+            },
+            {
+              "id": "068000-p05",
+              "anchor": "Later Hidatsa villages near the Knife River offer a particularly well-described ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-pl-npsplaces",
+                "g3-pl-education"
+              ],
+              "source_locator": "National Park Service, Places at Knife River Indian Villages; National Park Service, Knife River: Early Village Life on the Plains",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Geography, Hidatsa farm labor, earthlodge village traces and historic livelihoods; contact-era evidence cannot establish all prehistoric practices. Earthlodge engineering and documented Mandan/Hidatsa/Arikara households, later-era descriptions that must not be assumed unchanged for year 1000."
+            },
+            {
+              "id": "068000-p06",
+              "anchor": "The stored harvest was a form of resilience. Maize could be dried, carried, and ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-pl-npspeople"
+              ],
+              "source_locator": "National Park Service, Knife River People",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Upper Missouri riverine farming, bison hunting, earthlodges and oral accounts; many described villages are post-1500, so avoid unqualified projection."
+            },
+            {
+              "id": "068000-p07",
+              "anchor": "Bison provided more than meat. Hides could be worked for clothing and shelter; b",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-pl-middle"
+              ],
+              "source_locator": "US National Park Service National Register, Bison Kill Sites in South Dakota thematic context, Middle Missouri archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological context for Middle Missouri houses, village layout, mixed horticulture and hunting from AD 900 onward; regional synthesis and interpretive assignments."
+            },
+            {
+              "id": "068000-p08",
+              "anchor": "Likewise, maize and other domestic crops did not appear on the Plains in a singl",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-pl-middle",
+                "g3-pl-npsarticle"
+              ],
+              "source_locator": "US National Park Service National Register, Bison Kill Sites in South Dakota thematic context, Middle Missouri archaeology; National Park Service, Knife River Indian Villages National Historic Site",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological context for Middle Missouri houses, village layout, mixed horticulture and hunting from AD 900 onward; regional synthesis and interpretive assignments. Village chronology and later Mandan/Hidatsa/Arikara history, including main Knife River site dates after 1525; careful pre-1500 scope required."
+            },
+            {
+              "id": "068000-p09",
+              "anchor": "The words Mandan, Hidatsa, and Arikara name living peoples with distinct histori",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-pl-npsarticle",
+                "g3-pl-npspeople"
+              ],
+              "source_locator": "National Park Service, Knife River Indian Villages National Historic Site; National Park Service, Knife River People",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Village chronology and later Mandan/Hidatsa/Arikara history, including main Knife River site dates after 1525; careful pre-1500 scope required. Upper Missouri riverine farming, bison hunting, earthlodges and oral accounts; many described villages are post-1500, so avoid unqualified projection."
+            },
+            {
+              "id": "068000-p10",
+              "anchor": "Political life had to operate at more than one scale. A household organized fiel",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-pl-education",
+                "g3-pl-middle"
+              ],
+              "source_locator": "National Park Service, Knife River: Early Village Life on the Plains; US National Park Service National Register, Bison Kill Sites in South Dakota thematic context, Middle Missouri archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Earthlodge engineering and documented Mandan/Hidatsa/Arikara households, later-era descriptions that must not be assumed unchanged for year 1000. Archaeological context for Middle Missouri houses, village layout, mixed horticulture and hunting from AD 900 onward; regional synthesis and interpretive assignments."
+            },
+            {
+              "id": "068000-p11",
+              "anchor": "Try to follow a single seed through this system. Someone saves it from a previou",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-pl-middle"
+              ],
+              "source_locator": "US National Park Service National Register, Bison Kill Sites in South Dakota thematic context, Middle Missouri archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological context for Middle Missouri houses, village layout, mixed horticulture and hunting from AD 900 onward; regional synthesis and interpretive assignments."
+            },
+            {
+              "id": "068000-p12",
+              "anchor": "After 1500, changes intensified. Epidemics, new trade goods, shifting military r",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-pl-npsarticle"
+              ],
+              "source_locator": "National Park Service, Knife River Indian Villages National Historic Site",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Village chronology and later Mandan/Hidatsa/Arikara history, including main Knife River site dates after 1525; careful pre-1500 scope required."
+            },
+            {
+              "id": "068000-p13",
+              "anchor": "Much of the popular image of the Plains is drawn from the horse era, which cover",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-pl-npspeople",
+                "g3-pl-middle"
+              ],
+              "source_locator": "National Park Service, Knife River People; US National Park Service National Register, Bison Kill Sites in South Dakota thematic context, Middle Missouri archaeology",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Upper Missouri riverine farming, bison hunting, earthlodges and oral accounts; many described villages are post-1500, so avoid unqualified projection. Archaeological context for Middle Missouri houses, village layout, mixed horticulture and hunting from AD 900 onward; regional synthesis and interpretive assignments."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ancient-medieval-world:069000",
+        "file": "069000-inuit-arctic-networks.md",
+        "sha256": "700f0e05fe802d810ade10229e8b41de881151bcfd1fb48a21b06d49ee33bd64",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "069000",
+          "transcript": "069000-inuit-arctic-networks.md",
+          "related_resources": [
+            {
+              "source_id": "g3-arctic-sirm",
+              "reason": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-arctic-qutt",
+              "reason": "High Arctic archaeological evidence and Inuit heritage technologies, site variation and preservation.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-arctic-review",
+              "reason": "Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-arctic-ivv",
+              "reason": "Beaufort Sea settlement and subsequent regional adaptation, including thirteenth-century developments; park-region specificity.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g3-arctic-tuktut",
+              "reason": "Regional archaeological site distribution and c. 1200–1500 occupation, not a general chronology for entire Arctic.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "069000-p01",
+              "anchor": "A winter dwelling built partly into the ground could be warm, durable, and close",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-arctic-sirm"
+              ],
+              "source_locator": "Parks Canada, Sirmilik National Park: History",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions."
+            },
+            {
+              "id": "069000-p02",
+              "anchor": "Archaeologists frequently call one major ancestral tradition Thule, after a plac",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-arctic-sirm",
+                "g3-arctic-qutt"
+              ],
+              "source_locator": "Parks Canada, Sirmilik National Park: History; Parks Canada, Quttinirpaaq Management Plan: Arctic archaeological sequence",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions. High Arctic archaeological evidence and Inuit heritage technologies, site variation and preservation."
+            },
+            {
+              "id": "069000-p03",
+              "anchor": "The spread from Alaska across the Canadian Arctic toward Greenland was rapid by ",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-arctic-sirm",
+                "g3-arctic-review"
+              ],
+              "source_locator": "Parks Canada, Sirmilik National Park: History; Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions. Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
+            },
+            {
+              "id": "069000-p04",
+              "anchor": "Travel technology mattered. Large skin-covered boats, umiaks, could carry people",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-arctic-sirm"
+              ],
+              "source_locator": "Parks Canada, Sirmilik National Park: History",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions."
+            },
+            {
+              "id": "069000-p05",
+              "anchor": "Animals shaped settlement seasons, but no single species fed everyone everywhere",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-arctic-sirm",
+                "g3-arctic-review"
+              ],
+              "source_locator": "Parks Canada, Sirmilik National Park: History; Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions. Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
+            },
+            {
+              "id": "069000-p06",
+              "anchor": "House construction gives evidence of planning across seasons. In parts of the ea",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-arctic-sirm"
+              ],
+              "source_locator": "Parks Canada, Sirmilik National Park: History",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions."
+            },
+            {
+              "id": "069000-p07",
+              "anchor": "The location of a village depended on more than proximity to animals. People nee",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-arctic-review"
+              ],
+              "source_locator": "Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
+            },
+            {
+              "id": "069000-p08",
+              "anchor": "Trade and exchange extended across the Arctic. Stone, native copper, iron, anima",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-arctic-review"
+              ],
+              "source_locator": "Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
+            },
+            {
+              "id": "069000-p09",
+              "anchor": "People of Norse ancestry lived in Greenland from the late tenth century into the",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-arctic-review"
+              ],
+              "source_locator": "Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
+            },
+            {
+              "id": "069000-p10",
+              "anchor": "Parks Canada's accounts of the Beaufort Sea describe changes around the thirteen",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-arctic-ivv"
+              ],
+              "source_locator": "Parks Canada, Ivvavik National Park: Culture and history",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Beaufort Sea settlement and subsequent regional adaptation, including thirteenth-century developments; park-region specificity."
+            },
+            {
+              "id": "069000-p11",
+              "anchor": "Climate entered these choices without controlling them mechanically. Sea-ice con",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-arctic-review"
+              ],
+              "source_locator": "Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
+            },
+            {
+              "id": "069000-p12",
+              "anchor": "Researchers also confront a history of collecting. Archaeological sites can be d",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-arctic-qutt",
+                "g3-arctic-tuktut"
+              ],
+              "source_locator": "Parks Canada, Quttinirpaaq Management Plan: Arctic archaeological sequence; Parks Canada, Tuktut Nogait: Culture and history",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "High Arctic archaeological evidence and Inuit heritage technologies, site variation and preservation. Regional archaeological site distribution and c. 1200–1500 occupation, not a general chronology for entire Arctic."
+            },
+            {
+              "id": "069000-p13",
+              "anchor": "An Inuit ancestral history is not a story that ends with the spread of a cultura",
+              "kind": "historical_research",
+              "source_ids": [
+                "g3-arctic-sirm",
+                "g3-arctic-review"
+              ],
+              "source_locator": "Parks Canada, Sirmilik National Park: History; Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions. Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

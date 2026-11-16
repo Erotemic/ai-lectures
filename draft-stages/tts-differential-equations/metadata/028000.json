@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "028000",
-  "transcript": "028000-criticality-blowup-and-wave-scattering.md",
+  "transcript": "028000-critical-scales-solitons-concentration-and-modulation.md",
   "related_resources": [
     {
       "source_id": "di-r14-027000-3",
@@ -14,7 +14,153 @@
     {
       "source_id": "di-r14-027000-2",
       "reason": "Energy-critical wave scaling, nonlinear scattering and focusing thresholds"
+    },
+    {
+      "source_id": "di-r15-030000-1",
+      "reason": "Klein-Gordon solitary waves, linear instability, translation zero mode and modulation"
+    },
+    {
+      "source_id": "di-r15-029000-2",
+      "reason": "Klein-Gordon solitary waves, linear instability, translation zero mode and modulation"
+    },
+    {
+      "source_id": "di-r15-029000-1",
+      "reason": "Klein-Gordon solitary waves, linear instability, translation zero mode and modulation"
+    },
+    {
+      "source_id": "de-r17-033000-1",
+      "reason": "Reference on Concentration–Compactness and Nonlinear Scattering (1 of 3)"
+    },
+    {
+      "source_id": "de-r17-033000-2",
+      "reason": "Reference on Concentration–Compactness and Nonlinear Scattering (2 of 3)"
+    },
+    {
+      "source_id": "de-r17-033000-3",
+      "reason": "Reference on Concentration–Compactness and Nonlinear Scattering (3 of 3)"
+    },
+    {
+      "source_id": "de-r20-039000-1",
+      "reason": "Reference for Whitham Modulation and Dispersive Limits (1 of 3)"
+    },
+    {
+      "source_id": "de-r20-039000-2",
+      "reason": "Reference for Whitham Modulation and Dispersive Limits (2 of 3)"
+    },
+    {
+      "source_id": "de-r20-039000-3",
+      "reason": "Reference for Whitham Modulation and Dispersive Limits (3 of 3)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "differential-equations:028000",
+        "file": "028000-criticality-blowup-and-wave-scattering.md",
+        "sha256": "c1b0a3635825172095d9d1592af295feac17b13d3e1f57909538ed66b23ecbc5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "028000",
+          "transcript": "028000-criticality-blowup-and-wave-scattering.md",
+          "related_resources": [
+            {
+              "source_id": "di-r14-027000-3",
+              "reason": "Energy-critical wave scaling, nonlinear scattering and focusing thresholds"
+            },
+            {
+              "source_id": "di-r14-027000-1",
+              "reason": "Energy-critical wave scaling, nonlinear scattering and focusing thresholds"
+            },
+            {
+              "source_id": "di-r14-027000-2",
+              "reason": "Energy-critical wave scaling, nonlinear scattering and focusing thresholds"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:030000",
+        "file": "030000-solitons-modulation-and-klein-gordon-instability.md",
+        "sha256": "30a6f7e20e847329008285e773326e6f50a93f856ef52b354c472e0d5e8aed59",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "030000",
+          "transcript": "030000-solitons-modulation-and-klein-gordon-instability.md",
+          "related_resources": [
+            {
+              "source_id": "di-r15-030000-1",
+              "reason": "Klein-Gordon solitary waves, linear instability, translation zero mode and modulation"
+            },
+            {
+              "source_id": "di-r15-029000-2",
+              "reason": "Klein-Gordon solitary waves, linear instability, translation zero mode and modulation"
+            },
+            {
+              "source_id": "di-r15-029000-1",
+              "reason": "Klein-Gordon solitary waves, linear instability, translation zero mode and modulation"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:033000",
+        "file": "033000-concentration-compactness-and-scattering.md",
+        "sha256": "f07d8d91807542970d8c632f6703d6ac5aff59d958ca9faa2a185b8c4fe24f80",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "033000",
+          "transcript": "033000-concentration-compactness-and-scattering.md",
+          "related_resources": [
+            {
+              "source_id": "de-r17-033000-1",
+              "reason": "Reference on Concentration–Compactness and Nonlinear Scattering (1 of 3)"
+            },
+            {
+              "source_id": "de-r17-033000-2",
+              "reason": "Reference on Concentration–Compactness and Nonlinear Scattering (2 of 3)"
+            },
+            {
+              "source_id": "de-r17-033000-3",
+              "reason": "Reference on Concentration–Compactness and Nonlinear Scattering (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:039000",
+        "file": "039000-whitham-modulation-and-dispersive-limits.md",
+        "sha256": "98b1f41f62600b0ca8db1b05d55e418d5e6342b9b7aa8fc46e11903593dfb7b3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "039000",
+          "transcript": "039000-whitham-modulation-and-dispersive-limits.md",
+          "related_resources": [
+            {
+              "source_id": "de-r20-039000-1",
+              "reason": "Reference for Whitham Modulation and Dispersive Limits (1 of 3)"
+            },
+            {
+              "source_id": "de-r20-039000-2",
+              "reason": "Reference for Whitham Modulation and Dispersive Limits (2 of 3)"
+            },
+            {
+              "source_id": "de-r20-039000-3",
+              "reason": "Reference for Whitham Modulation and Dispersive Limits (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

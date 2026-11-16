@@ -1,5 +1,7 @@
 # Dante listening guide (non-spoken)
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 The Dante section runs **016000–037000** in the existing *Literary Classics
 Before 1900* track. It is written for listeners unfamiliar with the poem and
 includes complete spoilers for the three cantiche.

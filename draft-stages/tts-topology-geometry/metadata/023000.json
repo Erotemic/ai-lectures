@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "023000",
-  "transcript": "023000-morse-theory-critical-points-and-handles.md",
+  "transcript": "023000-morse-complexes-and-elliptic-index-foundations.md",
   "related_resources": [
     {
       "source_id": "to-r12-023000-1",
@@ -14,7 +14,248 @@
     {
       "source_id": "to-r12-023000-3",
       "reason": "Critical-point indices, handle attachment and Morse homology"
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Morse theory, critical points and gradient flow."
+    },
+    {
+      "source_id": "to-r12-023000-1",
+      "reason": "Morse index, handle attachment and homology."
+    },
+    {
+      "source_id": "tg-harvard-elliptic",
+      "reason": "Weak derivatives and compact Sobolev embeddings."
+    },
+    {
+      "source_id": "tg-hebey-sobolev",
+      "reason": "Sobolev inequalities on manifolds."
+    },
+    {
+      "source_id": "tg-uhlenbeck-lp",
+      "reason": "Why four-dimensional curvature lies at critical exponent."
+    },
+    {
+      "source_id": "tg-harvard-elliptic",
+      "reason": "Elliptic estimates on compact manifolds."
+    },
+    {
+      "source_id": "tg-nd-elliptic",
+      "reason": "Principal symbols and Fredholm regularity."
+    },
+    {
+      "source_id": "to-r12-024000-1",
+      "reason": "Elliptic Fredholm index and Atiyah-Singer topological index"
+    },
+    {
+      "source_id": "to-r12-024000-2",
+      "reason": "Elliptic Fredholm index and Atiyah-Singer topological index"
+    },
+    {
+      "source_id": "to-r12-024000-3",
+      "reason": "Elliptic Fredholm index and Atiyah-Singer topological index"
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Elliptic Fredholm operators and the de Rham differential."
+    },
+    {
+      "source_id": "tg-moore-hodge",
+      "reason": "Hodge theorem."
+    },
+    {
+      "source_id": "tg-nd-elliptic",
+      "reason": "Elliptic symbols and the index."
+    },
+    {
+      "source_id": "to-r13-025000-1",
+      "reason": "Morse-Bott critical manifolds and equivariant fixed-point localization"
+    },
+    {
+      "source_id": "to-r13-025000-2",
+      "reason": "Morse-Bott critical manifolds and equivariant fixed-point localization"
+    },
+    {
+      "source_id": "to-r13-025000-3",
+      "reason": "Morse-Bott critical manifolds and equivariant fixed-point localization"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:023000",
+        "file": "023000-morse-theory-critical-points-and-handles.md",
+        "sha256": "5de6c97dd3febdb38efdf0952f31be46413daf109ea8868919e1fb11840164fc",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "023000",
+          "transcript": "023000-morse-theory-critical-points-and-handles.md",
+          "related_resources": [
+            {
+              "source_id": "to-r12-023000-1",
+              "reason": "Critical-point indices, handle attachment and Morse homology"
+            },
+            {
+              "source_id": "to-r12-023000-2",
+              "reason": "Critical-point indices, handle attachment and Morse homology"
+            },
+            {
+              "source_id": "to-r12-023000-3",
+              "reason": "Critical-point indices, handle attachment and Morse homology"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:023100",
+        "file": "023100-morse-complexes-from-critical-points.md",
+        "sha256": "783a0c850fd8ed96c23ffed29d885221845bfb8dc4c2d0276e9490e58dee8666",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "023100",
+          "transcript": "023100-morse-complexes-from-critical-points.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Morse theory, critical points and gradient flow."
+            },
+            {
+              "source_id": "to-r12-023000-1",
+              "reason": "Morse index, handle attachment and homology."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:024200",
+        "file": "024200-weak-derivatives-and-sobolev-estimates-on-manifolds.md",
+        "sha256": "8fac18d6e8152a938144c7c41511b5dde198e8b4726d19cb64d3aa80557e9b3e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "024200",
+          "transcript": "024200-weak-derivatives-and-sobolev-estimates-on-manifolds.md",
+          "related_resources": [
+            {
+              "source_id": "tg-harvard-elliptic",
+              "reason": "Weak derivatives and compact Sobolev embeddings."
+            },
+            {
+              "source_id": "tg-hebey-sobolev",
+              "reason": "Sobolev inequalities on manifolds."
+            },
+            {
+              "source_id": "tg-uhlenbeck-lp",
+              "reason": "Why four-dimensional curvature lies at critical exponent."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:024300",
+        "file": "024300-elliptic-regularity-weak-to-smooth-solutions.md",
+        "sha256": "a7ff1db090f4ddb5440ecaf7de53757e23a557747e9b394a86156ecca74cb134",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "024300",
+          "transcript": "024300-elliptic-regularity-weak-to-smooth-solutions.md",
+          "related_resources": [
+            {
+              "source_id": "tg-harvard-elliptic",
+              "reason": "Elliptic estimates on compact manifolds."
+            },
+            {
+              "source_id": "tg-nd-elliptic",
+              "reason": "Principal symbols and Fredholm regularity."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:024000",
+        "file": "024000-elliptic-index-and-atiyah-singer.md",
+        "sha256": "a4809fff06cc0345d17320e53abb85354f229be5e33e528cb829ecd151e63731",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "024000",
+          "transcript": "024000-elliptic-index-and-atiyah-singer.md",
+          "related_resources": [
+            {
+              "source_id": "to-r12-024000-1",
+              "reason": "Elliptic Fredholm index and Atiyah-Singer topological index"
+            },
+            {
+              "source_id": "to-r12-024000-2",
+              "reason": "Elliptic Fredholm index and Atiyah-Singer topological index"
+            },
+            {
+              "source_id": "to-r12-024000-3",
+              "reason": "Elliptic Fredholm index and Atiyah-Singer topological index"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:024100",
+        "file": "024100-de-rham-elliptic-complex-and-euler-index.md",
+        "sha256": "b0b8404432d947a31860f0dfda9ed7f8ec1b7da1833435c1d8aa742cc78221b5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "024100",
+          "transcript": "024100-de-rham-elliptic-complex-and-euler-index.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Elliptic Fredholm operators and the de Rham differential."
+            },
+            {
+              "source_id": "tg-moore-hodge",
+              "reason": "Hodge theorem."
+            },
+            {
+              "source_id": "tg-nd-elliptic",
+              "reason": "Elliptic symbols and the index."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:025000",
+        "file": "025000-morse-bott-theory-and-equivariant-localization.md",
+        "sha256": "9c3e0b58786e25b0952760bca8acf7bf427e692ded387f467bad4bf780fcc97a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025000",
+          "transcript": "025000-morse-bott-theory-and-equivariant-localization.md",
+          "related_resources": [
+            {
+              "source_id": "to-r13-025000-1",
+              "reason": "Morse-Bott critical manifolds and equivariant fixed-point localization"
+            },
+            {
+              "source_id": "to-r13-025000-2",
+              "reason": "Morse-Bott critical manifolds and equivariant fixed-point localization"
+            },
+            {
+              "source_id": "to-r13-025000-3",
+              "reason": "Morse-Bott critical manifolds and equivariant fixed-point localization"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

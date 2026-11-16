@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-solving-linear-systems.md",
+  "transcript": "001000-from-elimination-to-coordinate-free-linear-maps.md",
   "related_resources": [
     {
       "source_id": "la-hefferon",
@@ -10,7 +10,130 @@
     {
       "source_id": "la-mit-1806sc",
       "reason": "Complementary computational exposition and examples."
+    },
+    {
+      "source_id": "la-axler-fourth",
+      "reason": "Proofs and structural development of the relevant finite-dimensional theory."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "linear-algebra:001000",
+        "file": "001000-solving-linear-systems.md",
+        "sha256": "3a8fbbf3e032b2ef45928ee85c823db4f7256e96b0cd7923e5be521caf3f381a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-solving-linear-systems.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-mit-1806sc",
+              "reason": "Complementary computational exposition and examples."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "linear-algebra:002000",
+        "file": "002000-vectors-and-subspaces.md",
+        "sha256": "14c0c65e1a41f33638dff76e73a398f1460234dd17bbf7e0d08a2149a15c1b16",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-vectors-and-subspaces.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-axler-fourth",
+              "reason": "Proofs and structural development of the relevant finite-dimensional theory."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "linear-algebra:003000",
+        "file": "003000-bases-independence-dimension.md",
+        "sha256": "de93158b0e2bdcb426716b2a19c453b06dc3e692d2f726b5710311b925015edf",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-bases-independence-dimension.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-axler-fourth",
+              "reason": "Proofs and structural development of the relevant finite-dimensional theory."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "linear-algebra:004000",
+        "file": "004000-linear-maps-rank-nullity.md",
+        "sha256": "e56cdd9186e2c709527d2d4e731e62110a499670bb65b50bebef52aab64e24c0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-linear-maps-rank-nullity.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-axler-fourth",
+              "reason": "Proofs and structural development of the relevant finite-dimensional theory."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "linear-algebra:005000",
+        "file": "005000-matrices-and-coordinate-changes.md",
+        "sha256": "15f0e5de1d2aa386ae5e016688994dbeaf58582b587d38abe40a3a54011dff4e",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-matrices-and-coordinate-changes.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-mit-1806sc",
+              "reason": "Complementary computational exposition and examples."
+            },
+            {
+              "source_id": "la-axler-fourth",
+              "reason": "Proofs and structural development of the relevant finite-dimensional theory."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

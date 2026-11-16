@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-points-vectors-and-neighborhoods.md",
+  "transcript": "001000-local-geometry-and-the-total-derivative.md",
   "related_resources": [
     {
       "source_id": "mv-openstax-v3",
@@ -14,7 +14,216 @@
     {
       "source_id": "mv-wiki-001000",
       "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-wiki-002000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-wiki-003000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-wiki-004000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-wiki-005000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-wiki-006000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
+    },
+    {
+      "source_id": "mv-wiki-007000",
+      "reason": "Relevant terminology, standard theorem names, and further links."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "multivariable-calculus:001000",
+        "file": "001000-points-vectors-and-neighborhoods.md",
+        "sha256": "aeb5645c084fcbab77ef95d467db638f60f9a9670acd4c2414a69804b7556fea",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-points-vectors-and-neighborhoods.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-18022",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-001000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:002000",
+        "file": "002000-limits-continuity-and-path-tests.md",
+        "sha256": "bb6228c776e808ba84c2db540af85ebc5b95f5643f25f161f357307f34d9f446",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-limits-continuity-and-path-tests.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-18022",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-002000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:003000",
+        "file": "003000-partials-directional-derivatives-and-pitfalls.md",
+        "sha256": "339b1e88b96e2285966923f521ba97d746ae93173298703d00a8b0497976f8f5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-partials-directional-derivatives-and-pitfalls.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-18022",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-003000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:004000",
+        "file": "004000-total-derivative-and-tangent-planes.md",
+        "sha256": "303e81973f98b83171fb9d8171c25032f5b0582f7dc873b66bbed62559089691",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-total-derivative-and-tangent-planes.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-18022",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-004000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:005000",
+        "file": "005000-chain-rule-and-jacobian-composition.md",
+        "sha256": "0a0e506aeafef88c979773da93a9736bc2ffd9dfc66a81b2f16e52d45767c8d4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-chain-rule-and-jacobian-composition.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-18022",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-005000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:006000",
+        "file": "006000-gradients-level-sets-and-tangent-spaces.md",
+        "sha256": "d51a86f344ec8e4f8f51ec8e6732e9ca83937b1367f16aca83e29de9ebe28f34",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-gradients-level-sets-and-tangent-spaces.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-18022",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-006000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "multivariable-calculus:007000",
+        "file": "007000-inverse-implicit-function-theorems.md",
+        "sha256": "1b18daaf3ae3bc0e48c590e9d01d2b13c64fe6648cbc07529d22b966d0dd6b3c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-inverse-implicit-function-theorems.md",
+          "related_resources": [
+            {
+              "source_id": "mv-openstax-v3",
+              "reason": "Worked examples and standard multivariable calculus constructions."
+            },
+            {
+              "source_id": "mv-mit-18022",
+              "reason": "Independent course treatment, with attention to hypotheses or computational methods."
+            },
+            {
+              "source_id": "mv-wiki-007000",
+              "reason": "Relevant terminology, standard theorem names, and further links."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

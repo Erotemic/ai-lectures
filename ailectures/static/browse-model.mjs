@@ -128,7 +128,10 @@ export function collectionSections(collection, byId) {
     sections.at(-1).lectures.push(key);
     previous = name;
   }
-  if (sections.length === 1) sections[0].title = "Contents";
+  for (const section of sections)
+    if (section.lectures.length === 1)
+      section.title = byId(section.lectures[0])?.title || section.title;
+  if (sections.length === 1 && sections[0].lectures.length > 1) sections[0].title = "Contents";
   return sections;
 }
 

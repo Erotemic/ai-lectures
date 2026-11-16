@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "020000",
-  "transcript": "020000-block-designs-finite-planes-and-hamming-codes.md",
+  "transcript": "020000-codes-extraction-fourier-analysis-and-influence.md",
   "related_resources": [
     {
       "source_id": "dm-block-design-reference",
@@ -10,7 +10,186 @@
     {
       "source_id": "dm-mit-hamming",
       "reason": "(7,4,3) Hamming code and syndrome decoding."
+    },
+    {
+      "source_id": "di-r12-024000-1",
+      "reason": "Hamming and Gilbert-Varshamov bounds, linear duality and Hamming codes"
+    },
+    {
+      "source_id": "di-r12-024000-2",
+      "reason": "Hamming and Gilbert-Varshamov bounds, linear duality and Hamming codes"
+    },
+    {
+      "source_id": "di-r12-024000-3",
+      "reason": "Hamming and Gilbert-Varshamov bounds, linear duality and Hamming codes"
+    },
+    {
+      "source_id": "dm-r16-032000-1",
+      "reason": "Reference on Randomness Extractors: Recovering Usable Random Bits (1 of 3)"
+    },
+    {
+      "source_id": "dm-r16-032000-2",
+      "reason": "Reference on Randomness Extractors: Recovering Usable Random Bits (2 of 3)"
+    },
+    {
+      "source_id": "dm-r16-032000-3",
+      "reason": "Reference on Randomness Extractors: Recovering Usable Random Bits (3 of 3)"
+    },
+    {
+      "source_id": "dm-r17-034000-1",
+      "reason": "Reference on Fourier Analysis on the Boolean Cube (1 of 3)"
+    },
+    {
+      "source_id": "dm-r17-034000-2",
+      "reason": "Reference on Fourier Analysis on the Boolean Cube (2 of 3)"
+    },
+    {
+      "source_id": "dm-r17-034000-3",
+      "reason": "Reference on Fourier Analysis on the Boolean Cube (3 of 3)"
+    },
+    {
+      "source_id": "dm-r18-035000-1",
+      "reason": "Reference on Hypercontractivity: Why Boolean Functions Have Influential Coordinates (1 of 3)"
+    },
+    {
+      "source_id": "dm-r18-035000-2",
+      "reason": "Reference on Hypercontractivity: Why Boolean Functions Have Influential Coordinates (2 of 3)"
+    },
+    {
+      "source_id": "dm-r18-035000-3",
+      "reason": "Reference on Hypercontractivity: Why Boolean Functions Have Influential Coordinates (3 of 3)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "discrete-mathematics:020000",
+        "file": "020000-block-designs-finite-planes-and-hamming-codes.md",
+        "sha256": "415bf731dfadfcf544a69337b5b5aee8181f1d76f0553f3214780b7e87f8d493",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-block-designs-finite-planes-and-hamming-codes.md",
+          "related_resources": [
+            {
+              "source_id": "dm-block-design-reference",
+              "reason": "BIBD incidence equations and constructions."
+            },
+            {
+              "source_id": "dm-mit-hamming",
+              "reason": "(7,4,3) Hamming code and syndrome decoding."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:024000",
+        "file": "024000-coding-bounds-duality-and-probabilistic-codes.md",
+        "sha256": "bb97ca8366bf64b7b3a3aa41f23bc452b36f0250c622eb2d9bafafcdd7b1bec9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "024000",
+          "transcript": "024000-coding-bounds-duality-and-probabilistic-codes.md",
+          "related_resources": [
+            {
+              "source_id": "di-r12-024000-1",
+              "reason": "Hamming and Gilbert-Varshamov bounds, linear duality and Hamming codes"
+            },
+            {
+              "source_id": "di-r12-024000-2",
+              "reason": "Hamming and Gilbert-Varshamov bounds, linear duality and Hamming codes"
+            },
+            {
+              "source_id": "di-r12-024000-3",
+              "reason": "Hamming and Gilbert-Varshamov bounds, linear duality and Hamming codes"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:032000",
+        "file": "032000-extractors-and-pseudorandom-generators.md",
+        "sha256": "14b397b776a1aad559ea69dc4f544decbaf8ba81821879b97ceefe65f2d17b16",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "032000",
+          "transcript": "032000-extractors-and-pseudorandom-generators.md",
+          "related_resources": [
+            {
+              "source_id": "dm-r16-032000-1",
+              "reason": "Reference on Randomness Extractors: Recovering Usable Random Bits (1 of 3)"
+            },
+            {
+              "source_id": "dm-r16-032000-2",
+              "reason": "Reference on Randomness Extractors: Recovering Usable Random Bits (2 of 3)"
+            },
+            {
+              "source_id": "dm-r16-032000-3",
+              "reason": "Reference on Randomness Extractors: Recovering Usable Random Bits (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:034000",
+        "file": "034000-fourier-analysis-of-boolean-functions.md",
+        "sha256": "48635df273fa51ee037b450c2dd7eb41848cbac97c04ff80c890fcf632485161",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "034000",
+          "transcript": "034000-fourier-analysis-of-boolean-functions.md",
+          "related_resources": [
+            {
+              "source_id": "dm-r17-034000-1",
+              "reason": "Reference on Fourier Analysis on the Boolean Cube (1 of 3)"
+            },
+            {
+              "source_id": "dm-r17-034000-2",
+              "reason": "Reference on Fourier Analysis on the Boolean Cube (2 of 3)"
+            },
+            {
+              "source_id": "dm-r17-034000-3",
+              "reason": "Reference on Fourier Analysis on the Boolean Cube (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "discrete-mathematics:035000",
+        "file": "035000-hypercontractivity-influences-and-thresholds.md",
+        "sha256": "7e53236ed16ebdaac6e4952efd8fb16ca3ccd73fd5e92086b21dca0dc65cf013",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "035000",
+          "transcript": "035000-hypercontractivity-influences-and-thresholds.md",
+          "related_resources": [
+            {
+              "source_id": "dm-r18-035000-1",
+              "reason": "Reference on Hypercontractivity: Why Boolean Functions Have Influential Coordinates (1 of 3)"
+            },
+            {
+              "source_id": "dm-r18-035000-2",
+              "reason": "Reference on Hypercontractivity: Why Boolean Functions Have Influential Coordinates (2 of 3)"
+            },
+            {
+              "source_id": "dm-r18-035000-3",
+              "reason": "Reference on Hypercontractivity: Why Boolean Functions Have Influential Coordinates (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

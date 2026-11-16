@@ -1,5 +1,7 @@
 # Agent A: mainstream twentieth-century expansion — 020200–023000
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 This content-only batch adds three independent **story then analysis** pairs in Agent A's exclusively owned `draft-stages/tts-modern-literature/` pack. No central registry, shared test, build tooling, or other content directory is changed.
 
 | Work | Full story ID | Analysis ID | Main editorial distinctions |

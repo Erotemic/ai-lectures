@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "036100",
-  "transcript": "036100-rice-across-indian-ocean-madagascar.md",
+  "transcript": "036100-island-connections-and-wealth-madagascar-kilwa-and-coastal-households.md",
   "related_resources": [
     {
       "source_id": "d6-mad-crowther",
@@ -12,6 +12,51 @@
       "source_id": "d6-mad-genetics",
       "reason": "Review abstract supports African and Asian population ancestry and uncertainty about migration routes and timing; genetic ancestry does not directly identify language or individual voyages.",
       "access_scope": "abstract_reviewed"
+    },
+    {
+      "source_id": "d9-kilwa-deposit",
+      "reason": "Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention.",
+      "access_scope": "catalogue_abstract_reviewed"
+    },
+    {
+      "source_id": "d9-kilwa-coins",
+      "reason": "Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates.",
+      "access_scope": "abstract_reviewed"
+    },
+    {
+      "source_id": "d9-kilwa-unesco",
+      "reason": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "d9-kilwa-oxford",
+      "reason": "Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed.",
+      "access_scope": "abstract_reviewed"
+    },
+    {
+      "source_id": "g2-sw-unesco",
+      "reason": "Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g2-sw-york",
+      "reason": "Methods and site focus of household and open-space research; institutional summary, not full specialist dataset.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "g2-sw-walshaw",
+      "reason": "Published abstract on plant remains from stone and earthen buildings; abstract excerpt reviewed, not detailed sample distributions.",
+      "access_scope": "abstract_or_summary_reviewed"
+    },
+    {
+      "source_id": "g2-sw-public",
+      "reason": "Spatial method synthesis and conclusions about open spaces; abstract only, no claim to precise identities.",
+      "access_scope": "abstract_or_summary_reviewed"
+    },
+    {
+      "source_id": "g2-sw-coins",
+      "reason": "Well-contextualized coin deposit from a stonehouse foundation; interpretation as investing value in place is tentative.",
+      "access_scope": "abstract_or_summary_reviewed"
     }
   ],
   "historical_claims": [
@@ -161,6 +206,1212 @@
       "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
       "audit_status": "source_scope_and_limits_mapped",
       "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+    },
+    {
+      "id": "036200-p01",
+      "anchor": "More than three hundred small copper coins were found together beneath t",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-kilwa-deposit",
+        "d9-kilwa-coins"
+      ],
+      "source_locator": "John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+    },
+    {
+      "id": "036200-p02",
+      "anchor": "Kilwa Kisiwani and Songo Mnara were towns of the Swahili coast, a long b",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-kilwa-unesco",
+        "d9-kilwa-oxford"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; Oxford Research Encyclopedia, Kilwa and its Environs",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed."
+    },
+    {
+      "id": "036200-p03",
+      "anchor": "The standing buildings show what wealth could make possible. Kilwa had a",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-kilwa-unesco"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census."
+    },
+    {
+      "id": "036200-p04",
+      "anchor": "The coins offer a route into these questions. Kilwa minted copper pieces",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-kilwa-coins",
+        "d9-kilwa-deposit"
+      ],
+      "source_locator": "Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012; John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates. Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention."
+    },
+    {
+      "id": "036200-p05",
+      "anchor": "Stephanie Wynne-Jones and Jeffrey Fleisher ask us not to divide coins ne",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-kilwa-coins",
+        "d9-kilwa-oxford"
+      ],
+      "source_locator": "Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012; Oxford Research Encyclopedia, Kilwa and its Environs",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates. Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed."
+    },
+    {
+      "id": "036200-p06",
+      "anchor": "The geographical networks behind the coins were extensive. Ocean navigat",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-kilwa-unesco",
+        "d9-kilwa-oxford"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; Oxford Research Encyclopedia, Kilwa and its Environs",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed."
+    },
+    {
+      "id": "036200-p07",
+      "anchor": "At Songo Mnara, an excavated house is more informative than a reconstruc",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-kilwa-deposit",
+        "d9-kilwa-coins"
+      ],
+      "source_locator": "John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+    },
+    {
+      "id": "036200-p08",
+      "anchor": "The towns also contained religious and social institutions. Mosques were",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-kilwa-unesco",
+        "d9-kilwa-coins"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+    },
+    {
+      "id": "036200-p09",
+      "anchor": "There is also a difference between trade volume and control. A ruler mig",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-kilwa-oxford",
+        "d9-kilwa-coins"
+      ],
+      "source_locator": "Oxford Research Encyclopedia, Kilwa and its Environs; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+    },
+    {
+      "id": "036200-p10",
+      "anchor": "We should be equally careful about decline. Portuguese attacks and comme",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-kilwa-unesco",
+        "d9-kilwa-oxford"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; Oxford Research Encyclopedia, Kilwa and its Environs",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed."
+    },
+    {
+      "id": "036200-p11",
+      "anchor": "Why did people place coins in a house? We can propose meanings because t",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-kilwa-deposit",
+        "d9-kilwa-coins"
+      ],
+      "source_locator": "John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+    },
+    {
+      "id": "036200-p12",
+      "anchor": "Kilwa's rulers, the traders who crossed the sea, and the people who work",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-kilwa-unesco",
+        "d9-kilwa-deposit"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention."
+    },
+    {
+      "id": "063000-p01",
+      "anchor": "A visitor arriving by sea at a medieval town on the East African coast might fir",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-sw-unesco",
+        "g2-sw-york"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Songo Mnara; University of York, Stephanie Wynne-Jones research profile and Songo Mnara project",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity. Methods and site focus of household and open-space research; institutional summary, not full specialist dataset."
+    },
+    {
+      "id": "063000-p02",
+      "anchor": "Songo Mnara was connected with Kilwa Kisiwani, a major center in the western Ind",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-sw-unesco"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Songo Mnara",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity."
+    },
+    {
+      "id": "063000-p03",
+      "anchor": "Stone buildings are part of the evidence, but their survival creates a bias. Cor",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-sw-york",
+        "g2-sw-unesco"
+      ],
+      "source_locator": "University of York, Stephanie Wynne-Jones research profile and Songo Mnara project; UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Songo Mnara",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Methods and site focus of household and open-space research; institutional summary, not full specialist dataset. Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity."
+    },
+    {
+      "id": "063000-p04",
+      "anchor": "The organization of a house is not transparent from its plan. A room enclosed by",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-sw-york"
+      ],
+      "source_locator": "University of York, Stephanie Wynne-Jones research profile and Songo Mnara project",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Methods and site focus of household and open-space research; institutional summary, not full specialist dataset."
+    },
+    {
+      "id": "063000-p05",
+      "anchor": "Food remains bring another scale of life into view. Archaeobotanist Sarah Walsha",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-sw-walshaw"
+      ],
+      "source_locator": "Sarah Walshaw, Cooking and Crafting at Songo Mnara: Macrobotanical Remains (2015)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Published abstract on plant remains from stone and earthen buildings; abstract excerpt reviewed, not detailed sample distributions."
+    },
+    {
+      "id": "063000-p06",
+      "anchor": "Public places complicate the familiar division between rich houses and busy mark",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-sw-public"
+      ],
+      "source_locator": "Jeffrey Fleisher and Federica Sulas, Deciphering Public Spaces at Songo Mnara (Journal of Archaeological Science, 2015)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Spatial method synthesis and conclusions about open spaces; abstract only, no claim to precise identities."
+    },
+    {
+      "id": "063000-p07",
+      "anchor": "Coins offer another example. Coins of types associated with Kilwa have been foun",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-sw-coins"
+      ],
+      "source_locator": "John Perkins, Jeffrey Fleisher and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara (Azania, 2014)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Well-contextualized coin deposit from a stonehouse foundation; interpretation as investing value in place is tentative."
+    },
+    {
+      "id": "063000-p08",
+      "anchor": "Mosques were central structures in many Swahili towns. Their presence reflects t",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-sw-unesco"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Songo Mnara",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity."
+    },
+    {
+      "id": "063000-p09",
+      "anchor": "Women and families are especially difficult to recover from this material. The a",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-sw-york",
+        "g2-sw-walshaw"
+      ],
+      "source_locator": "University of York, Stephanie Wynne-Jones research profile and Songo Mnara project; Sarah Walshaw, Cooking and Crafting at Songo Mnara: Macrobotanical Remains (2015)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Methods and site focus of household and open-space research; institutional summary, not full specialist dataset. Published abstract on plant remains from stone and earthen buildings; abstract excerpt reviewed, not detailed sample distributions."
+    },
+    {
+      "id": "063000-p10",
+      "anchor": "Songo Mnara was not the whole Swahili coast. Towns such as Kilwa, Mombasa, and s",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-sw-unesco",
+        "g2-sw-york"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Songo Mnara; University of York, Stephanie Wynne-Jones research profile and Songo Mnara project",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity. Methods and site focus of household and open-space research; institutional summary, not full specialist dataset."
+    },
+    {
+      "id": "063000-p11",
+      "anchor": "Our written sources create another imbalance. Foreign travelers and later chroni",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-sw-york",
+        "g2-sw-unesco"
+      ],
+      "source_locator": "University of York, Stephanie Wynne-Jones research profile and Songo Mnara project; UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Songo Mnara",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Methods and site focus of household and open-space research; institutional summary, not full specialist dataset. Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity."
+    },
+    {
+      "id": "063000-p12",
+      "anchor": "The coast's past has also been distorted by claims that substantial African town",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-sw-unesco",
+        "g2-sw-york"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Songo Mnara; University of York, Stephanie Wynne-Jones research profile and Songo Mnara project",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity. Methods and site focus of household and open-space research; institutional summary, not full specialist dataset."
+    },
+    {
+      "id": "063000-p13",
+      "anchor": "The lives of ordinary residents also depended on material constraints. Coral sto",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-sw-york"
+      ],
+      "source_locator": "University of York, Stephanie Wynne-Jones research profile and Songo Mnara project",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Methods and site focus of household and open-space research; institutional summary, not full specialist dataset."
+    },
+    {
+      "id": "063000-p14",
+      "anchor": "By the fifteenth century Songo Mnara was part of a sophisticated network of Afri",
+      "kind": "historical_research",
+      "source_ids": [
+        "g2-sw-york",
+        "g2-sw-walshaw"
+      ],
+      "source_locator": "University of York, Stephanie Wynne-Jones research profile and Songo Mnara project; Sarah Walshaw, Cooking and Crafting at Songo Mnara: Macrobotanical Remains (2015)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Methods and site focus of household and open-space research; institutional summary, not full specialist dataset. Published abstract on plant remains from stone and earthen buildings; abstract excerpt reviewed, not detailed sample distributions."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "ancient-medieval-world:036100",
+        "file": "036100-island-connections-and-wealth-madagascar-kilwa-and-coastal-households-selected-route-subset.md",
+        "sha256": "a89d8489294eb517b47981116cb0f9aef3c78ab8286661cdaf7bc9149cabf608",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "036100",
+          "transcript": "036100-island-connections-and-wealth-madagascar-kilwa-and-coastal-households-selected-route-subset.md",
+          "related_resources": [
+            {
+              "source_id": "d6-mad-crowther",
+              "reason": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals.",
+              "access_scope": "article_reviewed"
+            },
+            {
+              "source_id": "d6-mad-genetics",
+              "reason": "Review abstract supports African and Asian population ancestry and uncertainty about migration routes and timing; genetic ancestry does not directly identify language or individual voyages.",
+              "access_scope": "abstract_reviewed"
+            },
+            {
+              "source_id": "d9-kilwa-deposit",
+              "reason": "Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention.",
+              "access_scope": "catalogue_abstract_reviewed"
+            },
+            {
+              "source_id": "d9-kilwa-coins",
+              "reason": "Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates.",
+              "access_scope": "abstract_reviewed"
+            },
+            {
+              "source_id": "d9-kilwa-unesco",
+              "reason": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "d9-kilwa-oxford",
+              "reason": "Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed.",
+              "access_scope": "abstract_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "036100-p01",
+              "anchor": "A charred grain of rice is small enough to disappear into the soil. But ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-mad-crowther"
+              ],
+              "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+            },
+            {
+              "id": "036100-p02",
+              "anchor": "Madagascar lies off the southeastern coast of Africa, separated from it ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-mad-crowther",
+                "d6-mad-genetics"
+              ],
+              "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016); Genetic evidence and historical theories of the Asian and African origins of the present Malagasy population, 2021 review",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals. Review abstract supports African and Asian population ancestry and uncertainty about migration routes and timing; genetic ancestry does not directly identify language or individual voyages."
+            },
+            {
+              "id": "036100-p03",
+              "anchor": "Archaeologists face a different problem. Where are the physical signs of",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-mad-crowther"
+              ],
+              "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+            },
+            {
+              "id": "036100-p04",
+              "anchor": "Researchers led by Alison Crowther and colleagues approached the questio",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-mad-crowther"
+              ],
+              "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+            },
+            {
+              "id": "036100-p05",
+              "anchor": "A crop can reveal intention as well as contact. Merchants can transport ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-mad-crowther"
+              ],
+              "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+            },
+            {
+              "id": "036100-p06",
+              "anchor": "At the site of Mahilaka in northwestern Madagascar, archaeological evide",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-mad-crowther"
+              ],
+              "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+            },
+            {
+              "id": "036100-p07",
+              "anchor": "What does the African side of this history look like? The East African c",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-mad-genetics",
+                "d6-mad-crowther"
+              ],
+              "source_locator": "Genetic evidence and historical theories of the Asian and African origins of the present Malagasy population, 2021 review; Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Review abstract supports African and Asian population ancestry and uncertainty about migration routes and timing; genetic ancestry does not directly identify language or individual voyages. Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+            },
+            {
+              "id": "036100-p08",
+              "anchor": "The sea itself shaped the possibilities. Monsoon winds create seasonal p",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-mad-crowther"
+              ],
+              "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+            },
+            {
+              "id": "036100-p09",
+              "anchor": "Settlement changed environments, too. People brought crops, animals, fir",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-mad-crowther"
+              ],
+              "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+            },
+            {
+              "id": "036100-p10",
+              "anchor": "A further challenge comes from the way archaeologists recover food. Seed",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-mad-crowther"
+              ],
+              "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+            },
+            {
+              "id": "036100-p11",
+              "anchor": "By the later medieval centuries, Madagascar and the Comoros were tied in",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-mad-genetics",
+                "d6-mad-crowther"
+              ],
+              "source_locator": "Genetic evidence and historical theories of the Asian and African origins of the present Malagasy population, 2021 review; Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Review abstract supports African and Asian population ancestry and uncertainty about migration routes and timing; genetic ancestry does not directly identify language or individual voyages. Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+            },
+            {
+              "id": "036100-p12",
+              "anchor": "The result is a history pieced together by several disciplines that do n",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-mad-crowther",
+                "d6-mad-genetics"
+              ],
+              "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016); Genetic evidence and historical theories of the Asian and African origins of the present Malagasy population, 2021 review",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals. Review abstract supports African and Asian population ancestry and uncertainty about migration routes and timing; genetic ancestry does not directly identify language or individual voyages."
+            },
+            {
+              "id": "036100-p13",
+              "anchor": "Return to the charred rice. It survived because food met fire at one par",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-mad-crowther"
+              ],
+              "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+            },
+            {
+              "id": "036200-p01",
+              "anchor": "More than three hundred small copper coins were found together beneath t",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-kilwa-deposit",
+                "d9-kilwa-coins"
+              ],
+              "source_locator": "John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+            },
+            {
+              "id": "036200-p02",
+              "anchor": "Kilwa Kisiwani and Songo Mnara were towns of the Swahili coast, a long b",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-kilwa-unesco",
+                "d9-kilwa-oxford"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; Oxford Research Encyclopedia, Kilwa and its Environs",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed."
+            },
+            {
+              "id": "036200-p03",
+              "anchor": "The standing buildings show what wealth could make possible. Kilwa had a",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-kilwa-unesco"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census."
+            },
+            {
+              "id": "036200-p04",
+              "anchor": "The coins offer a route into these questions. Kilwa minted copper pieces",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-kilwa-coins",
+                "d9-kilwa-deposit"
+              ],
+              "source_locator": "Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012; John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates. Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention."
+            },
+            {
+              "id": "036200-p05",
+              "anchor": "Stephanie Wynne-Jones and Jeffrey Fleisher ask us not to divide coins ne",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-kilwa-coins",
+                "d9-kilwa-oxford"
+              ],
+              "source_locator": "Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012; Oxford Research Encyclopedia, Kilwa and its Environs",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates. Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed."
+            },
+            {
+              "id": "036200-p06",
+              "anchor": "The geographical networks behind the coins were extensive. Ocean navigat",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-kilwa-unesco",
+                "d9-kilwa-oxford"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; Oxford Research Encyclopedia, Kilwa and its Environs",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed."
+            },
+            {
+              "id": "036200-p07",
+              "anchor": "At Songo Mnara, an excavated house is more informative than a reconstruc",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-kilwa-deposit",
+                "d9-kilwa-coins"
+              ],
+              "source_locator": "John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+            },
+            {
+              "id": "036200-p08",
+              "anchor": "The towns also contained religious and social institutions. Mosques were",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-kilwa-unesco",
+                "d9-kilwa-coins"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+            },
+            {
+              "id": "036200-p09",
+              "anchor": "There is also a difference between trade volume and control. A ruler mig",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-kilwa-oxford",
+                "d9-kilwa-coins"
+              ],
+              "source_locator": "Oxford Research Encyclopedia, Kilwa and its Environs; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+            },
+            {
+              "id": "036200-p10",
+              "anchor": "We should be equally careful about decline. Portuguese attacks and comme",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-kilwa-unesco",
+                "d9-kilwa-oxford"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; Oxford Research Encyclopedia, Kilwa and its Environs",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed."
+            },
+            {
+              "id": "036200-p11",
+              "anchor": "Why did people place coins in a house? We can propose meanings because t",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-kilwa-deposit",
+                "d9-kilwa-coins"
+              ],
+              "source_locator": "John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+            },
+            {
+              "id": "036200-p12",
+              "anchor": "Kilwa's rulers, the traders who crossed the sea, and the people who work",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-kilwa-unesco",
+                "d9-kilwa-deposit"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention."
+            }
+          ],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "ancient-medieval-world:036100",
+                "file": "036100-rice-across-indian-ocean-madagascar.md",
+                "sha256": "3e510ceadd33a62628e5d57928bddfa992b5d5306e9ec526936699aab9964304",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "036100",
+                  "transcript": "036100-rice-across-indian-ocean-madagascar.md",
+                  "related_resources": [
+                    {
+                      "source_id": "d6-mad-crowther",
+                      "reason": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals.",
+                      "access_scope": "article_reviewed"
+                    },
+                    {
+                      "source_id": "d6-mad-genetics",
+                      "reason": "Review abstract supports African and Asian population ancestry and uncertainty about migration routes and timing; genetic ancestry does not directly identify language or individual voyages.",
+                      "access_scope": "abstract_reviewed"
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "036100-p01",
+                      "anchor": "A charred grain of rice is small enough to disappear into the soil. But ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-mad-crowther"
+                      ],
+                      "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+                    },
+                    {
+                      "id": "036100-p02",
+                      "anchor": "Madagascar lies off the southeastern coast of Africa, separated from it ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-mad-crowther",
+                        "d6-mad-genetics"
+                      ],
+                      "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016); Genetic evidence and historical theories of the Asian and African origins of the present Malagasy population, 2021 review",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals. Review abstract supports African and Asian population ancestry and uncertainty about migration routes and timing; genetic ancestry does not directly identify language or individual voyages."
+                    },
+                    {
+                      "id": "036100-p03",
+                      "anchor": "Archaeologists face a different problem. Where are the physical signs of",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-mad-crowther"
+                      ],
+                      "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+                    },
+                    {
+                      "id": "036100-p04",
+                      "anchor": "Researchers led by Alison Crowther and colleagues approached the questio",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-mad-crowther"
+                      ],
+                      "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+                    },
+                    {
+                      "id": "036100-p05",
+                      "anchor": "A crop can reveal intention as well as contact. Merchants can transport ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-mad-crowther"
+                      ],
+                      "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+                    },
+                    {
+                      "id": "036100-p06",
+                      "anchor": "At the site of Mahilaka in northwestern Madagascar, archaeological evide",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-mad-crowther"
+                      ],
+                      "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+                    },
+                    {
+                      "id": "036100-p07",
+                      "anchor": "What does the African side of this history look like? The East African c",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-mad-genetics",
+                        "d6-mad-crowther"
+                      ],
+                      "source_locator": "Genetic evidence and historical theories of the Asian and African origins of the present Malagasy population, 2021 review; Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Review abstract supports African and Asian population ancestry and uncertainty about migration routes and timing; genetic ancestry does not directly identify language or individual voyages. Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+                    },
+                    {
+                      "id": "036100-p08",
+                      "anchor": "The sea itself shaped the possibilities. Monsoon winds create seasonal p",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-mad-crowther"
+                      ],
+                      "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+                    },
+                    {
+                      "id": "036100-p09",
+                      "anchor": "Settlement changed environments, too. People brought crops, animals, fir",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-mad-crowther"
+                      ],
+                      "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+                    },
+                    {
+                      "id": "036100-p10",
+                      "anchor": "A further challenge comes from the way archaeologists recover food. Seed",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-mad-crowther"
+                      ],
+                      "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+                    },
+                    {
+                      "id": "036100-p11",
+                      "anchor": "By the later medieval centuries, Madagascar and the Comoros were tied in",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-mad-genetics",
+                        "d6-mad-crowther"
+                      ],
+                      "source_locator": "Genetic evidence and historical theories of the Asian and African origins of the present Malagasy population, 2021 review; Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Review abstract supports African and Asian population ancestry and uncertainty about migration routes and timing; genetic ancestry does not directly identify language or individual voyages. Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+                    },
+                    {
+                      "id": "036100-p12",
+                      "anchor": "The result is a history pieced together by several disciplines that do n",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-mad-crowther",
+                        "d6-mad-genetics"
+                      ],
+                      "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016); Genetic evidence and historical theories of the Asian and African origins of the present Malagasy population, 2021 review",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals. Review abstract supports African and Asian population ancestry and uncertainty about migration routes and timing; genetic ancestry does not directly identify language or individual voyages."
+                    },
+                    {
+                      "id": "036100-p13",
+                      "anchor": "Return to the charred rice. It survived because food met fire at one par",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-mad-crowther"
+                      ],
+                      "source_locator": "Alison Crowther et al., Ancient crops provide first archaeological signature of the westward Austronesian expansion, PNAS 113 (2016)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Open-access archaeobotanical research on rice and other Asian crops in Madagascar and the Comoros, its sampling limitations and migration models; sites are not a complete census of earliest arrivals."
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "ancient-medieval-world:036200",
+                "file": "036200-kilwa-coins-and-houses.md",
+                "sha256": "75ae2be1c461732b4f518a4c48a3b0e1f7c91b24f646c7299a714ad94732775e",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "036200",
+                  "transcript": "036200-kilwa-coins-and-houses.md",
+                  "related_resources": [
+                    {
+                      "source_id": "d9-kilwa-deposit",
+                      "reason": "Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention.",
+                      "access_scope": "catalogue_abstract_reviewed"
+                    },
+                    {
+                      "source_id": "d9-kilwa-coins",
+                      "reason": "Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates.",
+                      "access_scope": "abstract_reviewed"
+                    },
+                    {
+                      "source_id": "d9-kilwa-unesco",
+                      "reason": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "d9-kilwa-oxford",
+                      "reason": "Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed.",
+                      "access_scope": "abstract_reviewed"
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "036200-p01",
+                      "anchor": "More than three hundred small copper coins were found together beneath t",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d9-kilwa-deposit",
+                        "d9-kilwa-coins"
+                      ],
+                      "source_locator": "John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+                    },
+                    {
+                      "id": "036200-p02",
+                      "anchor": "Kilwa Kisiwani and Songo Mnara were towns of the Swahili coast, a long b",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d9-kilwa-unesco",
+                        "d9-kilwa-oxford"
+                      ],
+                      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; Oxford Research Encyclopedia, Kilwa and its Environs",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed."
+                    },
+                    {
+                      "id": "036200-p03",
+                      "anchor": "The standing buildings show what wealth could make possible. Kilwa had a",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d9-kilwa-unesco"
+                      ],
+                      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census."
+                    },
+                    {
+                      "id": "036200-p04",
+                      "anchor": "The coins offer a route into these questions. Kilwa minted copper pieces",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d9-kilwa-coins",
+                        "d9-kilwa-deposit"
+                      ],
+                      "source_locator": "Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012; John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates. Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention."
+                    },
+                    {
+                      "id": "036200-p05",
+                      "anchor": "Stephanie Wynne-Jones and Jeffrey Fleisher ask us not to divide coins ne",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d9-kilwa-coins",
+                        "d9-kilwa-oxford"
+                      ],
+                      "source_locator": "Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012; Oxford Research Encyclopedia, Kilwa and its Environs",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates. Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed."
+                    },
+                    {
+                      "id": "036200-p06",
+                      "anchor": "The geographical networks behind the coins were extensive. Ocean navigat",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d9-kilwa-unesco",
+                        "d9-kilwa-oxford"
+                      ],
+                      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; Oxford Research Encyclopedia, Kilwa and its Environs",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed."
+                    },
+                    {
+                      "id": "036200-p07",
+                      "anchor": "At Songo Mnara, an excavated house is more informative than a reconstruc",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d9-kilwa-deposit",
+                        "d9-kilwa-coins"
+                      ],
+                      "source_locator": "John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+                    },
+                    {
+                      "id": "036200-p08",
+                      "anchor": "The towns also contained religious and social institutions. Mosques were",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d9-kilwa-unesco",
+                        "d9-kilwa-coins"
+                      ],
+                      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+                    },
+                    {
+                      "id": "036200-p09",
+                      "anchor": "There is also a difference between trade volume and control. A ruler mig",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d9-kilwa-oxford",
+                        "d9-kilwa-coins"
+                      ],
+                      "source_locator": "Oxford Research Encyclopedia, Kilwa and its Environs; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+                    },
+                    {
+                      "id": "036200-p10",
+                      "anchor": "We should be equally careful about decline. Portuguese attacks and comme",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d9-kilwa-unesco",
+                        "d9-kilwa-oxford"
+                      ],
+                      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; Oxford Research Encyclopedia, Kilwa and its Environs",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Describes coastal commerce and development from 11th to 15th centuries; full chapter not reviewed."
+                    },
+                    {
+                      "id": "036200-p11",
+                      "anchor": "Why did people place coins in a house? We can propose meanings because t",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d9-kilwa-deposit",
+                        "d9-kilwa-coins"
+                      ],
+                      "source_locator": "John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014; Stephanie Wynne-Jones and Jeffrey Fleisher, Coins in Context, Cambridge Archaeological Journal, 2012",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention. Treats coins as monetary and socially meaningful objects; abstract cannot establish full regional circulation rates."
+                    },
+                    {
+                      "id": "036200-p12",
+                      "anchor": "Kilwa's rulers, the traders who crossed the sea, and the people who work",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d9-kilwa-unesco",
+                        "d9-kilwa-deposit"
+                      ],
+                      "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Ruins of Songo Mnara; John Perkins, Jeffrey Fleisher, and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara, 2014",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Site chronology, mosques and port trade; the UNESCO summary is not a town-wide economic census. Over 300 copper coins in dated house foundations; ritual meaning is an interpretation, not a recorded intention."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ancient-medieval-world:063000",
+        "file": "063000-inside-swahili-town.md",
+        "sha256": "5f7662303dc30a28be7936e382e685c82c523fd8ee7bd90bae06dc5ff43684e8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "063000",
+          "transcript": "063000-inside-swahili-town.md",
+          "related_resources": [
+            {
+              "source_id": "g2-sw-unesco",
+              "reason": "Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g2-sw-york",
+              "reason": "Methods and site focus of household and open-space research; institutional summary, not full specialist dataset.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "g2-sw-walshaw",
+              "reason": "Published abstract on plant remains from stone and earthen buildings; abstract excerpt reviewed, not detailed sample distributions.",
+              "access_scope": "abstract_or_summary_reviewed"
+            },
+            {
+              "source_id": "g2-sw-public",
+              "reason": "Spatial method synthesis and conclusions about open spaces; abstract only, no claim to precise identities.",
+              "access_scope": "abstract_or_summary_reviewed"
+            },
+            {
+              "source_id": "g2-sw-coins",
+              "reason": "Well-contextualized coin deposit from a stonehouse foundation; interpretation as investing value in place is tentative.",
+              "access_scope": "abstract_or_summary_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "063000-p01",
+              "anchor": "A visitor arriving by sea at a medieval town on the East African coast might fir",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-sw-unesco",
+                "g2-sw-york"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Songo Mnara; University of York, Stephanie Wynne-Jones research profile and Songo Mnara project",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity. Methods and site focus of household and open-space research; institutional summary, not full specialist dataset."
+            },
+            {
+              "id": "063000-p02",
+              "anchor": "Songo Mnara was connected with Kilwa Kisiwani, a major center in the western Ind",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-sw-unesco"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Songo Mnara",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity."
+            },
+            {
+              "id": "063000-p03",
+              "anchor": "Stone buildings are part of the evidence, but their survival creates a bias. Cor",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-sw-york",
+                "g2-sw-unesco"
+              ],
+              "source_locator": "University of York, Stephanie Wynne-Jones research profile and Songo Mnara project; UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Songo Mnara",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Methods and site focus of household and open-space research; institutional summary, not full specialist dataset. Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity."
+            },
+            {
+              "id": "063000-p04",
+              "anchor": "The organization of a house is not transparent from its plan. A room enclosed by",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-sw-york"
+              ],
+              "source_locator": "University of York, Stephanie Wynne-Jones research profile and Songo Mnara project",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Methods and site focus of household and open-space research; institutional summary, not full specialist dataset."
+            },
+            {
+              "id": "063000-p05",
+              "anchor": "Food remains bring another scale of life into view. Archaeobotanist Sarah Walsha",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-sw-walshaw"
+              ],
+              "source_locator": "Sarah Walshaw, Cooking and Crafting at Songo Mnara: Macrobotanical Remains (2015)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Published abstract on plant remains from stone and earthen buildings; abstract excerpt reviewed, not detailed sample distributions."
+            },
+            {
+              "id": "063000-p06",
+              "anchor": "Public places complicate the familiar division between rich houses and busy mark",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-sw-public"
+              ],
+              "source_locator": "Jeffrey Fleisher and Federica Sulas, Deciphering Public Spaces at Songo Mnara (Journal of Archaeological Science, 2015)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Spatial method synthesis and conclusions about open spaces; abstract only, no claim to precise identities."
+            },
+            {
+              "id": "063000-p07",
+              "anchor": "Coins offer another example. Coins of types associated with Kilwa have been foun",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-sw-coins"
+              ],
+              "source_locator": "John Perkins, Jeffrey Fleisher and Stephanie Wynne-Jones, A Deposit of Kilwa-Type Coins from Songo Mnara (Azania, 2014)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Well-contextualized coin deposit from a stonehouse foundation; interpretation as investing value in place is tentative."
+            },
+            {
+              "id": "063000-p08",
+              "anchor": "Mosques were central structures in many Swahili towns. Their presence reflects t",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-sw-unesco"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Songo Mnara",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity."
+            },
+            {
+              "id": "063000-p09",
+              "anchor": "Women and families are especially difficult to recover from this material. The a",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-sw-york",
+                "g2-sw-walshaw"
+              ],
+              "source_locator": "University of York, Stephanie Wynne-Jones research profile and Songo Mnara project; Sarah Walshaw, Cooking and Crafting at Songo Mnara: Macrobotanical Remains (2015)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Methods and site focus of household and open-space research; institutional summary, not full specialist dataset. Published abstract on plant remains from stone and earthen buildings; abstract excerpt reviewed, not detailed sample distributions."
+            },
+            {
+              "id": "063000-p10",
+              "anchor": "Songo Mnara was not the whole Swahili coast. Towns such as Kilwa, Mombasa, and s",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-sw-unesco",
+                "g2-sw-york"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Songo Mnara; University of York, Stephanie Wynne-Jones research profile and Songo Mnara project",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity. Methods and site focus of household and open-space research; institutional summary, not full specialist dataset."
+            },
+            {
+              "id": "063000-p11",
+              "anchor": "Our written sources create another imbalance. Foreign travelers and later chroni",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-sw-york",
+                "g2-sw-unesco"
+              ],
+              "source_locator": "University of York, Stephanie Wynne-Jones research profile and Songo Mnara project; UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Songo Mnara",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Methods and site focus of household and open-space research; institutional summary, not full specialist dataset. Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity."
+            },
+            {
+              "id": "063000-p12",
+              "anchor": "The coast's past has also been distorted by claims that substantial African town",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-sw-unesco",
+                "g2-sw-york"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Ruins of Kilwa Kisiwani and Songo Mnara; University of York, Stephanie Wynne-Jones research profile and Songo Mnara project",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Site locations, date ranges, mosques, coral houses and maritime connections; heritage description not a census of household activity. Methods and site focus of household and open-space research; institutional summary, not full specialist dataset."
+            },
+            {
+              "id": "063000-p13",
+              "anchor": "The lives of ordinary residents also depended on material constraints. Coral sto",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-sw-york"
+              ],
+              "source_locator": "University of York, Stephanie Wynne-Jones research profile and Songo Mnara project",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Methods and site focus of household and open-space research; institutional summary, not full specialist dataset."
+            },
+            {
+              "id": "063000-p14",
+              "anchor": "By the fifteenth century Songo Mnara was part of a sophisticated network of Afri",
+              "kind": "historical_research",
+              "source_ids": [
+                "g2-sw-york",
+                "g2-sw-walshaw"
+              ],
+              "source_locator": "University of York, Stephanie Wynne-Jones research profile and Songo Mnara project; Sarah Walshaw, Cooking and Crafting at Songo Mnara: Macrobotanical Remains (2015)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Methods and site focus of household and open-space research; institutional summary, not full specialist dataset. Published abstract on plant remains from stone and earthen buildings; abstract excerpt reviewed, not detailed sample distributions."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

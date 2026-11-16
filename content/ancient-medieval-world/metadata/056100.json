@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "056100",
-  "transcript": "056100-dhar-tichitt-stone-villages.md",
+  "transcript": "056100-sahelian-towns-and-trade-through-archaeological-evidence.md",
   "related_resources": [
     {
       "source_id": "d6-tich-2026",
@@ -12,6 +12,46 @@
       "source_id": "d6-tich-2022",
       "reason": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional.",
       "access_scope": "article_reviewed"
+    },
+    {
+      "source_id": "gap-dje-mcintosh",
+      "reason": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset.",
+      "access_scope": "abstract_or_summary_reviewed"
+    },
+    {
+      "source_id": "gap-dje-urban",
+      "reason": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract.",
+      "access_scope": "abstract_or_summary_reviewed"
+    },
+    {
+      "source_id": "gap-dje-unesco",
+      "reason": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "gap-dje-equality",
+      "reason": "Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality.",
+      "access_scope": "webpage_reviewed"
+    },
+    {
+      "source_id": "d9-gold-mould",
+      "reason": "Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown.",
+      "access_scope": "abstract_reviewed"
+    },
+    {
+      "source_id": "d9-gold-glass",
+      "reason": "Two crucible fragments support local glass-assisted refining; they cannot measure aggregate trade volumes.",
+      "access_scope": "abstract_reviewed"
+    },
+    {
+      "source_id": "d9-gold-gao",
+      "reason": "Gao Saney and stone-building excavation summary; architectural function and precise period interpretations can be revised.",
+      "access_scope": "abstract_reviewed"
+    },
+    {
+      "source_id": "d9-gold-inscr",
+      "reason": "Bibliographic abstract of seven inscriptions; direct inscription editions and translations not independently checked.",
+      "access_scope": "catalogue_reviewed"
     }
   ],
   "historical_claims": [
@@ -161,6 +201,1220 @@
       "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026); Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
       "audit_status": "source_scope_and_limits_mapped",
       "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps. Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+    },
+    {
+      "id": "056000-p01",
+      "anchor": "What would convince you that a place was a city? Tall walls? A ruler's palace? A",
+      "kind": "historical_research",
+      "source_ids": [
+        "gap-dje-mcintosh",
+        "gap-dje-urban"
+      ],
+      "source_locator": "Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno; Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset. Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract."
+    },
+    {
+      "id": "056000-p02",
+      "anchor": "The inland Niger delta is a changing landscape. Seasonal floods spread water acr",
+      "kind": "historical_research",
+      "source_ids": [
+        "gap-dje-unesco"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns."
+    },
+    {
+      "id": "056000-p03",
+      "anchor": "Roderick and Susan Keech McIntosh, whose excavations helped establish the site's",
+      "kind": "historical_research",
+      "source_ids": [
+        "gap-dje-mcintosh"
+      ],
+      "source_locator": "Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset."
+    },
+    {
+      "id": "056000-p04",
+      "anchor": "The settlement was made largely of earth, and that shapes the evidence. Earthen ",
+      "kind": "historical_research",
+      "source_ids": [
+        "gap-dje-unesco"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns."
+    },
+    {
+      "id": "056000-p05",
+      "anchor": "The most intriguing feature may be the broader cluster. Djenné-Jeno was associat",
+      "kind": "historical_research",
+      "source_ids": [
+        "gap-dje-urban"
+      ],
+      "source_locator": "Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract."
+    },
+    {
+      "id": "056000-p06",
+      "anchor": "This observation has led scholars to discuss heterarchy: forms of social organiz",
+      "kind": "historical_research",
+      "source_ids": [
+        "gap-dje-urban",
+        "gap-dje-equality"
+      ],
+      "source_locator": "Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021); Traditions of Equality: The Archaeology of Egalitarianism and Egalitarian Behavior in Sub-Saharan Africa (2025)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract. Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality."
+    },
+    {
+      "id": "056000-p07",
+      "anchor": "The people who made this city possible were not only merchants. Iron-workers nee",
+      "kind": "historical_research",
+      "source_ids": [
+        "gap-dje-unesco",
+        "gap-dje-mcintosh"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné; Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns. Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset."
+    },
+    {
+      "id": "056000-p08",
+      "anchor": "Trade connected the middle Niger to other ecological zones. The floodplain's pro",
+      "kind": "historical_research",
+      "source_ids": [
+        "gap-dje-mcintosh"
+      ],
+      "source_locator": "Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset."
+    },
+    {
+      "id": "056000-p09",
+      "anchor": "The site also complicates how we think about the relationship between cities and",
+      "kind": "historical_research",
+      "source_ids": [
+        "gap-dje-urban",
+        "gap-dje-equality"
+      ],
+      "source_locator": "Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021); Traditions of Equality: The Archaeology of Egalitarianism and Egalitarian Behavior in Sub-Saharan Africa (2025)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract. Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality."
+    },
+    {
+      "id": "056000-p10",
+      "anchor": "The place name raises an additional problem. The archaeological site called Djen",
+      "kind": "historical_research",
+      "source_ids": [
+        "gap-dje-unesco",
+        "gap-dje-equality"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné; Traditions of Equality: The Archaeology of Egalitarianism and Egalitarian Behavior in Sub-Saharan Africa (2025)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns. Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality."
+    },
+    {
+      "id": "056000-p11",
+      "anchor": "Archaeologists do not work in a social vacuum. The excavated sites are part of t",
+      "kind": "historical_research",
+      "source_ids": [
+        "gap-dje-unesco"
+      ],
+      "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns."
+    },
+    {
+      "id": "056000-p12",
+      "anchor": "There is a temptation to turn Djenné-Jeno into a perfect opposite of a royal cap",
+      "kind": "historical_research",
+      "source_ids": [
+        "gap-dje-equality"
+      ],
+      "source_locator": "Traditions of Equality: The Archaeology of Egalitarianism and Egalitarian Behavior in Sub-Saharan Africa (2025)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality."
+    },
+    {
+      "id": "056000-p13",
+      "anchor": "The comparison with other regions is illuminating if used carefully. Mesopotamia",
+      "kind": "historical_research",
+      "source_ids": [
+        "gap-dje-urban"
+      ],
+      "source_locator": "Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract."
+    },
+    {
+      "id": "056000-p14",
+      "anchor": "When the seasonal waters rise around the inland delta, the landscape changes wit",
+      "kind": "historical_research",
+      "source_ids": [
+        "gap-dje-mcintosh",
+        "gap-dje-urban"
+      ],
+      "source_locator": "Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno; Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021)",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset. Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract."
+    },
+    {
+      "id": "035100-p01",
+      "anchor": "At Tadmekka, near the southern edge of the Sahara in present-day Mali, a",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-gold-mould",
+        "d9-gold-glass"
+      ],
+      "source_locator": "S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka; Th. Rehren and S. Nixon, Refining Gold with Glass: Tadmekka, Mali, Journal of Archaeological Science",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown. Two crucible fragments support local glass-assisted refining; they cannot measure aggregate trade volumes."
+    },
+    {
+      "id": "035100-p02",
+      "anchor": "Tadmekka is also known through the site of Essouk, where desert routes c",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-gold-mould"
+      ],
+      "source_locator": "S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown."
+    },
+    {
+      "id": "035100-p03",
+      "anchor": "The coin moulds are particularly revealing. Sam Nixon and colleagues arg",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-gold-mould",
+        "d9-gold-glass"
+      ],
+      "source_locator": "S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka; Th. Rehren and S. Nixon, Refining Gold with Glass: Tadmekka, Mali, Journal of Archaeological Science",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown. Two crucible fragments support local glass-assisted refining; they cannot measure aggregate trade volumes."
+    },
+    {
+      "id": "035100-p04",
+      "anchor": "Laboratory study of crucible fragments adds another layer. Thilo Rehren ",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-gold-glass"
+      ],
+      "source_locator": "Th. Rehren and S. Nixon, Refining Gold with Glass: Tadmekka, Mali, Journal of Archaeological Science",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Two crucible fragments support local glass-assisted refining; they cannot measure aggregate trade volumes."
+    },
+    {
+      "id": "035100-p05",
+      "anchor": "The Niger valley provides other evidence of early urban and commercial l",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-gold-gao",
+        "d9-gold-inscr"
+      ],
+      "source_locator": "Takezawa and Cisse, Discovery of the Earliest Royal Palace in Gao, Cahiers d’études africaines; The Oldest Extant Writing of West Africa: Medieval Epigraphs from Issuk, Saney and Egeg-n-Tawaqqast, Smithsonian record",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Gao Saney and stone-building excavation summary; architectural function and precise period interpretations can be revised. Bibliographic abstract of seven inscriptions; direct inscription editions and translations not independently checked."
+    },
+    {
+      "id": "035100-p06",
+      "anchor": "Gao and Tadmekka were connected to different environments. The river val",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-gold-gao",
+        "d9-gold-mould"
+      ],
+      "source_locator": "Takezawa and Cisse, Discovery of the Earliest Royal Palace in Gao, Cahiers d’études africaines; S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Gao Saney and stone-building excavation summary; architectural function and precise period interpretations can be revised. Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown."
+    },
+    {
+      "id": "035100-p07",
+      "anchor": "Archaeology does not provide an annual balance sheet. Gold can be melted",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-gold-mould",
+        "d9-gold-glass"
+      ],
+      "source_locator": "S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka; Th. Rehren and S. Nixon, Refining Gold with Glass: Tadmekka, Mali, Journal of Archaeological Science",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown. Two crucible fragments support local glass-assisted refining; they cannot measure aggregate trade volumes."
+    },
+    {
+      "id": "035100-p08",
+      "anchor": "The region's evidence also includes writing, but writing survives select",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-gold-inscr",
+        "d9-gold-gao"
+      ],
+      "source_locator": "The Oldest Extant Writing of West Africa: Medieval Epigraphs from Issuk, Saney and Egeg-n-Tawaqqast, Smithsonian record; Takezawa and Cisse, Discovery of the Earliest Royal Palace in Gao, Cahiers d’études africaines",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Bibliographic abstract of seven inscriptions; direct inscription editions and translations not independently checked. Gao Saney and stone-building excavation summary; architectural function and precise period interpretations can be revised."
+    },
+    {
+      "id": "035100-p09",
+      "anchor": "Who exercised power along these routes? There were rulers who sought tri",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-gold-mould",
+        "d9-gold-gao"
+      ],
+      "source_locator": "S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka; Takezawa and Cisse, Discovery of the Earliest Royal Palace in Gao, Cahiers d’études africaines",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown. Gao Saney and stone-building excavation summary; architectural function and precise period interpretations can be revised."
+    },
+    {
+      "id": "035100-p10",
+      "anchor": "The technology has another important lesson. Glass beads were trade good",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-gold-glass",
+        "d9-gold-mould"
+      ],
+      "source_locator": "Th. Rehren and S. Nixon, Refining Gold with Glass: Tadmekka, Mali, Journal of Archaeological Science; S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Two crucible fragments support local glass-assisted refining; they cannot measure aggregate trade volumes. Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown."
+    },
+    {
+      "id": "035100-p11",
+      "anchor": "The history of West Africa before the great fame of Mali and Songhay was",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-gold-gao",
+        "d9-gold-inscr"
+      ],
+      "source_locator": "Takezawa and Cisse, Discovery of the Earliest Royal Palace in Gao, Cahiers d’études africaines; The Oldest Extant Writing of West Africa: Medieval Epigraphs from Issuk, Saney and Egeg-n-Tawaqqast, Smithsonian record",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Gao Saney and stone-building excavation summary; architectural function and precise period interpretations can be revised. Bibliographic abstract of seven inscriptions; direct inscription editions and translations not independently checked."
+    },
+    {
+      "id": "035100-p12",
+      "anchor": "A textbook map may draw an arrow labeled gold from West Africa across th",
+      "kind": "historical_research",
+      "source_ids": [
+        "d9-gold-mould",
+        "d9-gold-glass"
+      ],
+      "source_locator": "S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka; Th. Rehren and S. Nixon, Refining Gold with Glass: Tadmekka, Mali, Journal of Archaeological Science",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown. Two crucible fragments support local glass-assisted refining; they cannot measure aggregate trade volumes."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "ancient-medieval-world:056100",
+        "file": "056100-sahelian-towns-and-trade-through-archaeological-evidence-selected-route-subset.md",
+        "sha256": "7005acb34b1417fd502df39e04b3e75951c0d0081c6c8a908a538801fc6379f4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "056100",
+          "transcript": "056100-sahelian-towns-and-trade-through-archaeological-evidence-selected-route-subset.md",
+          "related_resources": [
+            {
+              "source_id": "d6-tich-2026",
+              "reason": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps.",
+              "access_scope": "excerpt_reviewed"
+            },
+            {
+              "source_id": "d6-tich-2022",
+              "reason": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional.",
+              "access_scope": "article_reviewed"
+            },
+            {
+              "source_id": "gap-dje-mcintosh",
+              "reason": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset.",
+              "access_scope": "abstract_or_summary_reviewed"
+            },
+            {
+              "source_id": "gap-dje-urban",
+              "reason": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract.",
+              "access_scope": "abstract_or_summary_reviewed"
+            },
+            {
+              "source_id": "gap-dje-unesco",
+              "reason": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns.",
+              "access_scope": "webpage_reviewed"
+            },
+            {
+              "source_id": "gap-dje-equality",
+              "reason": "Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality.",
+              "access_scope": "webpage_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "056100-p01",
+              "anchor": "Across parts of southeastern Mauritania, stone-walled enclosures run alo",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-tich-2026",
+                "d6-tich-2022"
+              ],
+              "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026); Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps. Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+            },
+            {
+              "id": "056100-p02",
+              "anchor": "The word dhar refers here to the plateau landscapes where many of the ar",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-tich-2026"
+              ],
+              "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps."
+            },
+            {
+              "id": "056100-p03",
+              "anchor": "The sequence developed over long stretches of the second millennium befo",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-tich-2022"
+              ],
+              "source_locator": "Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+            },
+            {
+              "id": "056100-p04",
+              "anchor": "One crop is especially important to the story: pearl millet. It is well ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-tich-2022"
+              ],
+              "source_locator": "Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+            },
+            {
+              "id": "056100-p05",
+              "anchor": "What does it take to build with stone on such a scale? People had to gat",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-tich-2022"
+              ],
+              "source_locator": "Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+            },
+            {
+              "id": "056100-p06",
+              "anchor": "Research at Dakhlet el Atrouss and other sites tests exactly that proble",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-tich-2022"
+              ],
+              "source_locator": "Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+            },
+            {
+              "id": "056100-p07",
+              "anchor": "Much of the region's history has been organized through pottery categori",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-tich-2026",
+                "d6-tich-2022"
+              ],
+              "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026); Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps. Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+            },
+            {
+              "id": "056100-p08",
+              "anchor": "That revision changes how a listener should understand the words early a",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-tich-2026"
+              ],
+              "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps."
+            },
+            {
+              "id": "056100-p09",
+              "anchor": "Climate is part of the explanation for change. Across the Holocene, the ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-tich-2022"
+              ],
+              "source_locator": "Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+            },
+            {
+              "id": "056100-p10",
+              "anchor": "These settlements matter also because they interrupt a familiar sequence",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-tich-2026",
+                "d6-tich-2022"
+              ],
+              "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026); Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps. Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+            },
+            {
+              "id": "056100-p11",
+              "anchor": "The everyday population is difficult to reconstruct individually, but th",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-tich-2022"
+              ],
+              "source_locator": "Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+            },
+            {
+              "id": "056100-p12",
+              "anchor": "Excavation itself is selective. A field season exposes only part of a se",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-tich-2026"
+              ],
+              "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps."
+            },
+            {
+              "id": "056100-p13",
+              "anchor": "The dhars give us a different entry into early West African history. No ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d6-tich-2026",
+                "d6-tich-2022"
+              ],
+              "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026); Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps. Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+            },
+            {
+              "id": "056000-p01",
+              "anchor": "What would convince you that a place was a city? Tall walls? A ruler's palace? A",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-dje-mcintosh",
+                "gap-dje-urban"
+              ],
+              "source_locator": "Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno; Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset. Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract."
+            },
+            {
+              "id": "056000-p02",
+              "anchor": "The inland Niger delta is a changing landscape. Seasonal floods spread water acr",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-dje-unesco"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns."
+            },
+            {
+              "id": "056000-p03",
+              "anchor": "Roderick and Susan Keech McIntosh, whose excavations helped establish the site's",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-dje-mcintosh"
+              ],
+              "source_locator": "Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset."
+            },
+            {
+              "id": "056000-p04",
+              "anchor": "The settlement was made largely of earth, and that shapes the evidence. Earthen ",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-dje-unesco"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns."
+            },
+            {
+              "id": "056000-p05",
+              "anchor": "The most intriguing feature may be the broader cluster. Djenné-Jeno was associat",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-dje-urban"
+              ],
+              "source_locator": "Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract."
+            },
+            {
+              "id": "056000-p06",
+              "anchor": "This observation has led scholars to discuss heterarchy: forms of social organiz",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-dje-urban",
+                "gap-dje-equality"
+              ],
+              "source_locator": "Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021); Traditions of Equality: The Archaeology of Egalitarianism and Egalitarian Behavior in Sub-Saharan Africa (2025)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract. Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality."
+            },
+            {
+              "id": "056000-p07",
+              "anchor": "The people who made this city possible were not only merchants. Iron-workers nee",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-dje-unesco",
+                "gap-dje-mcintosh"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné; Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns. Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset."
+            },
+            {
+              "id": "056000-p08",
+              "anchor": "Trade connected the middle Niger to other ecological zones. The floodplain's pro",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-dje-mcintosh"
+              ],
+              "source_locator": "Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset."
+            },
+            {
+              "id": "056000-p09",
+              "anchor": "The site also complicates how we think about the relationship between cities and",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-dje-urban",
+                "gap-dje-equality"
+              ],
+              "source_locator": "Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021); Traditions of Equality: The Archaeology of Egalitarianism and Egalitarian Behavior in Sub-Saharan Africa (2025)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract. Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality."
+            },
+            {
+              "id": "056000-p10",
+              "anchor": "The place name raises an additional problem. The archaeological site called Djen",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-dje-unesco",
+                "gap-dje-equality"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné; Traditions of Equality: The Archaeology of Egalitarianism and Egalitarian Behavior in Sub-Saharan Africa (2025)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns. Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality."
+            },
+            {
+              "id": "056000-p11",
+              "anchor": "Archaeologists do not work in a social vacuum. The excavated sites are part of t",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-dje-unesco"
+              ],
+              "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns."
+            },
+            {
+              "id": "056000-p12",
+              "anchor": "There is a temptation to turn Djenné-Jeno into a perfect opposite of a royal cap",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-dje-equality"
+              ],
+              "source_locator": "Traditions of Equality: The Archaeology of Egalitarianism and Egalitarian Behavior in Sub-Saharan Africa (2025)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality."
+            },
+            {
+              "id": "056000-p13",
+              "anchor": "The comparison with other regions is illuminating if used carefully. Mesopotamia",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-dje-urban"
+              ],
+              "source_locator": "Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract."
+            },
+            {
+              "id": "056000-p14",
+              "anchor": "When the seasonal waters rise around the inland delta, the landscape changes wit",
+              "kind": "historical_research",
+              "source_ids": [
+                "gap-dje-mcintosh",
+                "gap-dje-urban"
+              ],
+              "source_locator": "Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno; Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021)",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset. Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract."
+            }
+          ],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "ancient-medieval-world:056100",
+                "file": "056100-dhar-tichitt-stone-villages.md",
+                "sha256": "53f095687900683251fc4a0626bee6fd11849326d827cc4bf5be2f80f6ed93cf",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "056100",
+                  "transcript": "056100-dhar-tichitt-stone-villages.md",
+                  "related_resources": [
+                    {
+                      "source_id": "d6-tich-2026",
+                      "reason": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps.",
+                      "access_scope": "excerpt_reviewed"
+                    },
+                    {
+                      "source_id": "d6-tich-2022",
+                      "reason": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional.",
+                      "access_scope": "article_reviewed"
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "056100-p01",
+                      "anchor": "Across parts of southeastern Mauritania, stone-walled enclosures run alo",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-tich-2026",
+                        "d6-tich-2022"
+                      ],
+                      "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026); Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps. Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+                    },
+                    {
+                      "id": "056100-p02",
+                      "anchor": "The word dhar refers here to the plateau landscapes where many of the ar",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-tich-2026"
+                      ],
+                      "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps."
+                    },
+                    {
+                      "id": "056100-p03",
+                      "anchor": "The sequence developed over long stretches of the second millennium befo",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-tich-2022"
+                      ],
+                      "source_locator": "Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+                    },
+                    {
+                      "id": "056100-p04",
+                      "anchor": "One crop is especially important to the story: pearl millet. It is well ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-tich-2022"
+                      ],
+                      "source_locator": "Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+                    },
+                    {
+                      "id": "056100-p05",
+                      "anchor": "What does it take to build with stone on such a scale? People had to gat",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-tich-2022"
+                      ],
+                      "source_locator": "Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+                    },
+                    {
+                      "id": "056100-p06",
+                      "anchor": "Research at Dakhlet el Atrouss and other sites tests exactly that proble",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-tich-2022"
+                      ],
+                      "source_locator": "Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+                    },
+                    {
+                      "id": "056100-p07",
+                      "anchor": "Much of the region's history has been organized through pottery categori",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-tich-2026",
+                        "d6-tich-2022"
+                      ],
+                      "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026); Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps. Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+                    },
+                    {
+                      "id": "056100-p08",
+                      "anchor": "That revision changes how a listener should understand the words early a",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-tich-2026"
+                      ],
+                      "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps."
+                    },
+                    {
+                      "id": "056100-p09",
+                      "anchor": "Climate is part of the explanation for change. Across the Holocene, the ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-tich-2022"
+                      ],
+                      "source_locator": "Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+                    },
+                    {
+                      "id": "056100-p10",
+                      "anchor": "These settlements matter also because they interrupt a familiar sequence",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-tich-2026",
+                        "d6-tich-2022"
+                      ],
+                      "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026); Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps. Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+                    },
+                    {
+                      "id": "056100-p11",
+                      "anchor": "The everyday population is difficult to reconstruct individually, but th",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-tich-2022"
+                      ],
+                      "source_locator": "Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+                    },
+                    {
+                      "id": "056100-p12",
+                      "anchor": "Excavation itself is selective. A field season exposes only part of a se",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-tich-2026"
+                      ],
+                      "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps."
+                    },
+                    {
+                      "id": "056100-p13",
+                      "anchor": "The dhars give us a different entry into early West African history. No ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "d6-tich-2026",
+                        "d6-tich-2022"
+                      ],
+                      "source_locator": "Revisiting Tichitt: New Dates and Data from the 1968 Excavations by Patrick Munson, Azania (2026); Spatial Organization and Socio-Economic Differentiation at the Dhar Tichitt Center of Dakhlet el Atrouss I, African Archaeological Review (2022)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "2026 specialist reassessment using 14 AMS dates on curated excavation charcoal samples; improved chronology still reveals large evidentiary gaps. Detailed archaeological account of drystone compounds, millet, cattle, social differentiation hypotheses, and long chronology; interpretations of status remain provisional."
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "ancient-medieval-world:056000",
+                "file": "056000-djenne-jeno-inland-niger.md",
+                "sha256": "ae9ee2db52c9add51830f4c7fbdf08c9164f3004bf133e96f9666609fffff4ff",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "056000",
+                  "transcript": "056000-djenne-jeno-inland-niger.md",
+                  "related_resources": [
+                    {
+                      "source_id": "gap-dje-mcintosh",
+                      "reason": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset.",
+                      "access_scope": "abstract_or_summary_reviewed"
+                    },
+                    {
+                      "source_id": "gap-dje-urban",
+                      "reason": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract.",
+                      "access_scope": "abstract_or_summary_reviewed"
+                    },
+                    {
+                      "source_id": "gap-dje-unesco",
+                      "reason": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns.",
+                      "access_scope": "webpage_reviewed"
+                    },
+                    {
+                      "source_id": "gap-dje-equality",
+                      "reason": "Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality.",
+                      "access_scope": "webpage_reviewed"
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "056000-p01",
+                      "anchor": "What would convince you that a place was a city? Tall walls? A ruler's palace? A",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "gap-dje-mcintosh",
+                        "gap-dje-urban"
+                      ],
+                      "source_locator": "Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno; Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset. Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract."
+                    },
+                    {
+                      "id": "056000-p02",
+                      "anchor": "The inland Niger delta is a changing landscape. Seasonal floods spread water acr",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "gap-dje-unesco"
+                      ],
+                      "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns."
+                    },
+                    {
+                      "id": "056000-p03",
+                      "anchor": "Roderick and Susan Keech McIntosh, whose excavations helped establish the site's",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "gap-dje-mcintosh"
+                      ],
+                      "source_locator": "Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset."
+                    },
+                    {
+                      "id": "056000-p04",
+                      "anchor": "The settlement was made largely of earth, and that shapes the evidence. Earthen ",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "gap-dje-unesco"
+                      ],
+                      "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns."
+                    },
+                    {
+                      "id": "056000-p05",
+                      "anchor": "The most intriguing feature may be the broader cluster. Djenné-Jeno was associat",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "gap-dje-urban"
+                      ],
+                      "source_locator": "Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract."
+                    },
+                    {
+                      "id": "056000-p06",
+                      "anchor": "This observation has led scholars to discuss heterarchy: forms of social organiz",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "gap-dje-urban",
+                        "gap-dje-equality"
+                      ],
+                      "source_locator": "Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021); Traditions of Equality: The Archaeology of Egalitarianism and Egalitarian Behavior in Sub-Saharan Africa (2025)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract. Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality."
+                    },
+                    {
+                      "id": "056000-p07",
+                      "anchor": "The people who made this city possible were not only merchants. Iron-workers nee",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "gap-dje-unesco",
+                        "gap-dje-mcintosh"
+                      ],
+                      "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné; Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns. Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset."
+                    },
+                    {
+                      "id": "056000-p08",
+                      "anchor": "Trade connected the middle Niger to other ecological zones. The floodplain's pro",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "gap-dje-mcintosh"
+                      ],
+                      "source_locator": "Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset."
+                    },
+                    {
+                      "id": "056000-p09",
+                      "anchor": "The site also complicates how we think about the relationship between cities and",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "gap-dje-urban",
+                        "gap-dje-equality"
+                      ],
+                      "source_locator": "Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021); Traditions of Equality: The Archaeology of Egalitarianism and Egalitarian Behavior in Sub-Saharan Africa (2025)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract. Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality."
+                    },
+                    {
+                      "id": "056000-p10",
+                      "anchor": "The place name raises an additional problem. The archaeological site called Djen",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "gap-dje-unesco",
+                        "gap-dje-equality"
+                      ],
+                      "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné; Traditions of Equality: The Archaeology of Egalitarianism and Egalitarian Behavior in Sub-Saharan Africa (2025)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns. Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality."
+                    },
+                    {
+                      "id": "056000-p11",
+                      "anchor": "Archaeologists do not work in a social vacuum. The excavated sites are part of t",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "gap-dje-unesco"
+                      ],
+                      "source_locator": "UNESCO World Heritage Centre, Old Towns of Djenné",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Archaeological sites, material classes, chronologies and conservation setting; World Heritage statement combines earlier and later towns."
+                    },
+                    {
+                      "id": "056000-p12",
+                      "anchor": "There is a temptation to turn Djenné-Jeno into a perfect opposite of a royal cap",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "gap-dje-equality"
+                      ],
+                      "source_locator": "Traditions of Equality: The Archaeology of Egalitarianism and Egalitarian Behavior in Sub-Saharan Africa (2025)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Recent scholarly discussion of heterarchical Djenné-Jeno and the limitations of excavated evidence; lack of elite remains does not logically establish equality."
+                    },
+                    {
+                      "id": "056000-p13",
+                      "anchor": "The comparison with other regions is illuminating if used carefully. Mesopotamia",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "gap-dje-urban"
+                      ],
+                      "source_locator": "Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract."
+                    },
+                    {
+                      "id": "056000-p14",
+                      "anchor": "When the seasonal waters rise around the inland delta, the landscape changes wit",
+                      "kind": "historical_research",
+                      "source_ids": [
+                        "gap-dje-mcintosh",
+                        "gap-dje-urban"
+                      ],
+                      "source_locator": "Roderick J. McIntosh and Susan Keech McIntosh, The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno; Roderick J. McIntosh, Urbanization in the Middle Niger of Mali (Oxford Research Encyclopedia, 2021)",
+                      "audit_status": "source_scope_and_limits_mapped",
+                      "source_limitations": "Original investigators’ published site chronology and early urban occupation; available extract, not full excavation dataset. Regional satellite settlements and argument for possible heterarchy; interpretive synthesis available as abstract."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ancient-medieval-world:035100",
+        "file": "035100-tadmekka-gold-technology.md",
+        "sha256": "34bfb41f9c02c5f51e7285bbf05b994f483417868e100b8a7dfd658ec3a8378d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "035100",
+          "transcript": "035100-tadmekka-gold-technology.md",
+          "related_resources": [
+            {
+              "source_id": "d9-gold-mould",
+              "reason": "Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown.",
+              "access_scope": "abstract_reviewed"
+            },
+            {
+              "source_id": "d9-gold-glass",
+              "reason": "Two crucible fragments support local glass-assisted refining; they cannot measure aggregate trade volumes.",
+              "access_scope": "abstract_reviewed"
+            },
+            {
+              "source_id": "d9-gold-gao",
+              "reason": "Gao Saney and stone-building excavation summary; architectural function and precise period interpretations can be revised.",
+              "access_scope": "abstract_reviewed"
+            },
+            {
+              "source_id": "d9-gold-inscr",
+              "reason": "Bibliographic abstract of seven inscriptions; direct inscription editions and translations not independently checked.",
+              "access_scope": "catalogue_reviewed"
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "035100-p01",
+              "anchor": "At Tadmekka, near the southern edge of the Sahara in present-day Mali, a",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-gold-mould",
+                "d9-gold-glass"
+              ],
+              "source_locator": "S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka; Th. Rehren and S. Nixon, Refining Gold with Glass: Tadmekka, Mali, Journal of Archaeological Science",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown. Two crucible fragments support local glass-assisted refining; they cannot measure aggregate trade volumes."
+            },
+            {
+              "id": "035100-p02",
+              "anchor": "Tadmekka is also known through the site of Essouk, where desert routes c",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-gold-mould"
+              ],
+              "source_locator": "S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown."
+            },
+            {
+              "id": "035100-p03",
+              "anchor": "The coin moulds are particularly revealing. Sam Nixon and colleagues arg",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-gold-mould",
+                "d9-gold-glass"
+              ],
+              "source_locator": "S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka; Th. Rehren and S. Nixon, Refining Gold with Glass: Tadmekka, Mali, Journal of Archaeological Science",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown. Two crucible fragments support local glass-assisted refining; they cannot measure aggregate trade volumes."
+            },
+            {
+              "id": "035100-p04",
+              "anchor": "Laboratory study of crucible fragments adds another layer. Thilo Rehren ",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-gold-glass"
+              ],
+              "source_locator": "Th. Rehren and S. Nixon, Refining Gold with Glass: Tadmekka, Mali, Journal of Archaeological Science",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Two crucible fragments support local glass-assisted refining; they cannot measure aggregate trade volumes."
+            },
+            {
+              "id": "035100-p05",
+              "anchor": "The Niger valley provides other evidence of early urban and commercial l",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-gold-gao",
+                "d9-gold-inscr"
+              ],
+              "source_locator": "Takezawa and Cisse, Discovery of the Earliest Royal Palace in Gao, Cahiers d’études africaines; The Oldest Extant Writing of West Africa: Medieval Epigraphs from Issuk, Saney and Egeg-n-Tawaqqast, Smithsonian record",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gao Saney and stone-building excavation summary; architectural function and precise period interpretations can be revised. Bibliographic abstract of seven inscriptions; direct inscription editions and translations not independently checked."
+            },
+            {
+              "id": "035100-p06",
+              "anchor": "Gao and Tadmekka were connected to different environments. The river val",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-gold-gao",
+                "d9-gold-mould"
+              ],
+              "source_locator": "Takezawa and Cisse, Discovery of the Earliest Royal Palace in Gao, Cahiers d’études africaines; S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gao Saney and stone-building excavation summary; architectural function and precise period interpretations can be revised. Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown."
+            },
+            {
+              "id": "035100-p07",
+              "anchor": "Archaeology does not provide an annual balance sheet. Gold can be melted",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-gold-mould",
+                "d9-gold-glass"
+              ],
+              "source_locator": "S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka; Th. Rehren and S. Nixon, Refining Gold with Glass: Tadmekka, Mali, Journal of Archaeological Science",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown. Two crucible fragments support local glass-assisted refining; they cannot measure aggregate trade volumes."
+            },
+            {
+              "id": "035100-p08",
+              "anchor": "The region's evidence also includes writing, but writing survives select",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-gold-inscr",
+                "d9-gold-gao"
+              ],
+              "source_locator": "The Oldest Extant Writing of West Africa: Medieval Epigraphs from Issuk, Saney and Egeg-n-Tawaqqast, Smithsonian record; Takezawa and Cisse, Discovery of the Earliest Royal Palace in Gao, Cahiers d’études africaines",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Bibliographic abstract of seven inscriptions; direct inscription editions and translations not independently checked. Gao Saney and stone-building excavation summary; architectural function and precise period interpretations can be revised."
+            },
+            {
+              "id": "035100-p09",
+              "anchor": "Who exercised power along these routes? There were rulers who sought tri",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-gold-mould",
+                "d9-gold-gao"
+              ],
+              "source_locator": "S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka; Takezawa and Cisse, Discovery of the Earliest Royal Palace in Gao, Cahiers d’études africaines",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown. Gao Saney and stone-building excavation summary; architectural function and precise period interpretations can be revised."
+            },
+            {
+              "id": "035100-p10",
+              "anchor": "The technology has another important lesson. Glass beads were trade good",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-gold-glass",
+                "d9-gold-mould"
+              ],
+              "source_locator": "Th. Rehren and S. Nixon, Refining Gold with Glass: Tadmekka, Mali, Journal of Archaeological Science; S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Two crucible fragments support local glass-assisted refining; they cannot measure aggregate trade volumes. Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown."
+            },
+            {
+              "id": "035100-p11",
+              "anchor": "The history of West Africa before the great fame of Mali and Songhay was",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-gold-gao",
+                "d9-gold-inscr"
+              ],
+              "source_locator": "Takezawa and Cisse, Discovery of the Earliest Royal Palace in Gao, Cahiers d’études africaines; The Oldest Extant Writing of West Africa: Medieval Epigraphs from Issuk, Saney and Egeg-n-Tawaqqast, Smithsonian record",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Gao Saney and stone-building excavation summary; architectural function and precise period interpretations can be revised. Bibliographic abstract of seven inscriptions; direct inscription editions and translations not independently checked."
+            },
+            {
+              "id": "035100-p12",
+              "anchor": "A textbook map may draw an arrow labeled gold from West Africa across th",
+              "kind": "historical_research",
+              "source_ids": [
+                "d9-gold-mould",
+                "d9-gold-glass"
+              ],
+              "source_locator": "S. Nixon and colleagues, New Light on the Early Islamic West African Gold Trade: Coin Moulds from Tadmekka; Th. Rehren and S. Nixon, Refining Gold with Glass: Tadmekka, Mali, Journal of Archaeological Science",
+              "audit_status": "source_scope_and_limits_mapped",
+              "source_limitations": "Ninth-tenth-century moulds interpreted as evidence of gold pellet coinage; scale and makers’ identities remain unknown. Two crucible fragments support local glass-assisted refining; they cannot measure aggregate trade volumes."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

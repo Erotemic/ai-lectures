@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "022000",
-  "transcript": "022000-comparison-principles-and-reaction-front-stability.md",
+  "transcript": "022000-front-stability-selected-speed-pinning-and-slow-motion-shared-core.md",
   "related_resources": [
     {
       "source_id": "de-fisher-kpp-reference",
@@ -10,7 +10,141 @@
     {
       "source_id": "de-evans-pde",
       "reason": "Parabolic PDE and nonlinear energy arguments."
+    },
+    {
+      "source_id": "di-r13-026000-1",
+      "reason": "Bistable front speeds, heterogeneity, pinning thresholds and depinning"
+    },
+    {
+      "source_id": "di-r13-026000-2",
+      "reason": "Bistable front speeds, heterogeneity, pinning thresholds and depinning"
+    },
+    {
+      "source_id": "di-r13-026000-3",
+      "reason": "Bistable front speeds, heterogeneity, pinning thresholds and depinning"
+    },
+    {
+      "source_id": "de-r17-034000-1",
+      "reason": "Reference on Pattern-Forming Interfaces: Stability Beyond an Exact Front (1 of 3)"
+    },
+    {
+      "source_id": "de-r17-034000-2",
+      "reason": "Reference on Pattern-Forming Interfaces: Stability Beyond an Exact Front (2 of 3)"
+    },
+    {
+      "source_id": "de-r17-034000-3",
+      "reason": "Reference on Pattern-Forming Interfaces: Stability Beyond an Exact Front (3 of 3)"
+    },
+    {
+      "source_id": "de-r19-038000-1",
+      "reason": "Reference for Metastable Multi-Front Motion in Allen-Cahn Equations (1 of 2)"
+    },
+    {
+      "source_id": "de-r19-038000-2",
+      "reason": "Reference for Metastable Multi-Front Motion in Allen-Cahn Equations (2 of 2)"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "differential-equations:022000",
+        "file": "022000-comparison-principles-and-reaction-front-stability.md",
+        "sha256": "1afb4483d432d9f8aef3a9ae8d5030982ae7be025013b4a7e8589594da2a3bbb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "022000",
+          "transcript": "022000-comparison-principles-and-reaction-front-stability.md",
+          "related_resources": [
+            {
+              "source_id": "de-fisher-kpp-reference",
+              "reason": "Background on classical Fisher-KPP traveling-front speed selection."
+            },
+            {
+              "source_id": "de-evans-pde",
+              "reason": "Parabolic PDE and nonlinear energy arguments."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:026000",
+        "file": "026000-front-pinning-and-depinning-in-heterogeneous-media.md",
+        "sha256": "342a3e909ac1c7486f2afb24910a6df22f7aae1b11d8edbd2b41f300cba4fdfe",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "026000",
+          "transcript": "026000-front-pinning-and-depinning-in-heterogeneous-media.md",
+          "related_resources": [
+            {
+              "source_id": "di-r13-026000-1",
+              "reason": "Bistable front speeds, heterogeneity, pinning thresholds and depinning"
+            },
+            {
+              "source_id": "di-r13-026000-2",
+              "reason": "Bistable front speeds, heterogeneity, pinning thresholds and depinning"
+            },
+            {
+              "source_id": "di-r13-026000-3",
+              "reason": "Bistable front speeds, heterogeneity, pinning thresholds and depinning"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:034000",
+        "file": "034000-pattern-forming-interfaces-and-spectral-stability.md",
+        "sha256": "14da587ccf0de346af6ca3f2bbcaf66d28e5cf05750803504c2774b11d8485df",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "034000",
+          "transcript": "034000-pattern-forming-interfaces-and-spectral-stability.md",
+          "related_resources": [
+            {
+              "source_id": "de-r17-034000-1",
+              "reason": "Reference on Pattern-Forming Interfaces: Stability Beyond an Exact Front (1 of 3)"
+            },
+            {
+              "source_id": "de-r17-034000-2",
+              "reason": "Reference on Pattern-Forming Interfaces: Stability Beyond an Exact Front (2 of 3)"
+            },
+            {
+              "source_id": "de-r17-034000-3",
+              "reason": "Reference on Pattern-Forming Interfaces: Stability Beyond an Exact Front (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:038000",
+        "file": "038000-metastable-multifront-allen-cahn-motion.md",
+        "sha256": "61a4f3ca885a53c777c23f0d2135a89169dd176dc890b0124ae2fa5549244fab",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "038000",
+          "transcript": "038000-metastable-multifront-allen-cahn-motion.md",
+          "related_resources": [
+            {
+              "source_id": "de-r19-038000-1",
+              "reason": "Reference for Metastable Multi-Front Motion in Allen-Cahn Equations (1 of 2)"
+            },
+            {
+              "source_id": "de-r19-038000-2",
+              "reason": "Reference for Metastable Multi-Front Motion in Allen-Cahn Equations (2 of 2)"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

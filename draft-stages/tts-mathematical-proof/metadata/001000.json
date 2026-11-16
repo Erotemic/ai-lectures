@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-statements-evidence-and-proof.md",
+  "transcript": "001000-claims-logical-language-and-methods-of-proof.md",
   "related_resources": [
     {
       "source_id": "proof-hammack",
@@ -14,7 +14,273 @@
     {
       "source_id": "proof-wiki-001000",
       "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-forallx",
+      "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+    },
+    {
+      "source_id": "proof-wiki-002000",
+      "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-wiki-003000",
+      "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-lean",
+      "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+    },
+    {
+      "source_id": "proof-wiki-004000",
+      "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-wiki-005000",
+      "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-wiki-006000",
+      "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-wiki-007000",
+      "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-wiki-008000",
+      "reason": "Historical/terminological overview and additional reading."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "mathematical-proof:001000",
+        "file": "001000-statements-evidence-and-proof.md",
+        "sha256": "2f1cf34f441205fe19423295b435ca519c3cf914e6836e0f79fe146d5a8ba6e5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-statements-evidence-and-proof.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-001000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:002000",
+        "file": "002000-connectives-implication-truth.md",
+        "sha256": "e50aa8dcae67140680a65321b77c2c3b13e9a5bec99721f39ef23c74084107a7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-connectives-implication-truth.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-forallx",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-002000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:003000",
+        "file": "003000-quantifiers-domains-and-negation.md",
+        "sha256": "a6ed042d097011b7009c2355646589da9c53c78b22be6d819a9339978b928e7d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-quantifiers-domains-and-negation.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-forallx",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-003000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:004000",
+        "file": "004000-definitions-equivalence-and-scope.md",
+        "sha256": "13609de7bc3d8a23c2ae98452c67073ed50be767af8ec8c3596e22b8146f868b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-definitions-equivalence-and-scope.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-forallx",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-lean",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-004000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:005000",
+        "file": "005000-direct-proof-and-witnesses.md",
+        "sha256": "abdbca8b4d8775530491fd897ba7b79e1cc42778da2916cbbe9817769f508d48",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-direct-proof-and-witnesses.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-005000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:006000",
+        "file": "006000-contraposition-and-proof-by-cases.md",
+        "sha256": "078dfbd2a7e9cf6d0f4efc40755460011a78652c368d729c9e8d14806e7e6309",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-contraposition-and-proof-by-cases.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-006000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:007000",
+        "file": "007000-contradiction-and-irrationality.md",
+        "sha256": "71d8c32389a709ec779de4ac85d7309ca2e27ffc9edff1c5fd6fd189f0298262",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-contradiction-and-irrationality.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-forallx",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-007000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:008000",
+        "file": "008000-counterexamples-and-failed-proofs.md",
+        "sha256": "744e8acb2ef7514f94bde2010e4359cc0010b7b7d97b7c3c95bc03341aaeab1b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-counterexamples-and-failed-proofs.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-008000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

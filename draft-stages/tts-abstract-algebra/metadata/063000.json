@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "063000",
-  "transcript": "063000-quantum-cohomology-and-associativity.md",
+  "transcript": "063000-quantum-products-differential-equations-and-integral-structures.md",
   "related_resources": [
     {
       "source_id": "ab-r16-063000-1",
@@ -14,7 +14,211 @@
     {
       "source_id": "ab-r16-063000-3",
       "reason": "Reference on Quantum Cohomology: When Curves Change Multiplication (3 of 3)"
+    },
+    {
+      "source_id": "ab-r17-067000-1",
+      "reason": "Reference on Quantum Differential Equations and Mirror Periods (1 of 3)"
+    },
+    {
+      "source_id": "ab-r17-067000-2",
+      "reason": "Reference on Quantum Differential Equations and Mirror Periods (2 of 3)"
+    },
+    {
+      "source_id": "ab-r17-067000-3",
+      "reason": "Reference on Quantum Differential Equations and Mirror Periods (3 of 3)"
+    },
+    {
+      "source_id": "ab-r18-071000-1",
+      "reason": "Reference on Quantum Connections, Monodromy, and Stokes Matrices (1 of 3)"
+    },
+    {
+      "source_id": "ab-r18-071000-2",
+      "reason": "Reference on Quantum Connections, Monodromy, and Stokes Matrices (2 of 3)"
+    },
+    {
+      "source_id": "ab-r18-071000-3",
+      "reason": "Reference on Quantum Connections, Monodromy, and Stokes Matrices (3 of 3)"
+    },
+    {
+      "source_id": "ab-r19-075000-1",
+      "reason": "Reference for Gamma Classes and Integral Structures in Quantum Cohomology (1 of 2)"
+    },
+    {
+      "source_id": "ab-r19-075000-2",
+      "reason": "Reference for Gamma Classes and Integral Structures in Quantum Cohomology (2 of 2)"
+    },
+    {
+      "source_id": "ab-r20-079000-1",
+      "reason": "Reference for Quantum Lefschetz, Hypergeometric Periods, and Gamma Classes (1 of 3)"
+    },
+    {
+      "source_id": "ab-r20-079000-2",
+      "reason": "Reference for Quantum Lefschetz, Hypergeometric Periods, and Gamma Classes (2 of 3)"
+    },
+    {
+      "source_id": "ab-r20-079000-3",
+      "reason": "Reference for Quantum Lefschetz, Hypergeometric Periods, and Gamma Classes (3 of 3)"
+    },
+    {
+      "source_id": "ab-r21-084000-1",
+      "reason": "foundational finite-difference setting"
+    },
+    {
+      "source_id": "ab-r21-084000-2",
+      "reason": "genus-zero quantum K-theoretic structures"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:063000",
+        "file": "063000-quantum-cohomology-and-associativity.md",
+        "sha256": "18eabb1dcaa153a08d40ae08994762aa40d6b59b264ae558a5c355d86db831c2",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "063000",
+          "transcript": "063000-quantum-cohomology-and-associativity.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r16-063000-1",
+              "reason": "Reference on Quantum Cohomology: When Curves Change Multiplication (1 of 3)"
+            },
+            {
+              "source_id": "ab-r16-063000-2",
+              "reason": "Reference on Quantum Cohomology: When Curves Change Multiplication (2 of 3)"
+            },
+            {
+              "source_id": "ab-r16-063000-3",
+              "reason": "Reference on Quantum Cohomology: When Curves Change Multiplication (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:067000",
+        "file": "067000-quantum-differential-equations-and-mirror-periods.md",
+        "sha256": "f3d6cee6990315d12cc261a1d897229bc6872f64ffaa90aa73500efb96eeecf9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "067000",
+          "transcript": "067000-quantum-differential-equations-and-mirror-periods.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r17-067000-1",
+              "reason": "Reference on Quantum Differential Equations and Mirror Periods (1 of 3)"
+            },
+            {
+              "source_id": "ab-r17-067000-2",
+              "reason": "Reference on Quantum Differential Equations and Mirror Periods (2 of 3)"
+            },
+            {
+              "source_id": "ab-r17-067000-3",
+              "reason": "Reference on Quantum Differential Equations and Mirror Periods (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:071000",
+        "file": "071000-quantum-connections-monodromy-and-stokes.md",
+        "sha256": "bc01abc346d613f163e47db2630973938ad8eb491392cf5dc879e6e392c265e4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "071000",
+          "transcript": "071000-quantum-connections-monodromy-and-stokes.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r18-071000-1",
+              "reason": "Reference on Quantum Connections, Monodromy, and Stokes Matrices (1 of 3)"
+            },
+            {
+              "source_id": "ab-r18-071000-2",
+              "reason": "Reference on Quantum Connections, Monodromy, and Stokes Matrices (2 of 3)"
+            },
+            {
+              "source_id": "ab-r18-071000-3",
+              "reason": "Reference on Quantum Connections, Monodromy, and Stokes Matrices (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:075000",
+        "file": "075000-gamma-class-integral-structures.md",
+        "sha256": "d2bd2181a24ed9dfcde11fbeac2a6c8540f22fd64e09e6ebdbcbe7daf55b5000",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "075000",
+          "transcript": "075000-gamma-class-integral-structures.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r19-075000-1",
+              "reason": "Reference for Gamma Classes and Integral Structures in Quantum Cohomology (1 of 2)"
+            },
+            {
+              "source_id": "ab-r19-075000-2",
+              "reason": "Reference for Gamma Classes and Integral Structures in Quantum Cohomology (2 of 2)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:079000",
+        "file": "079000-quantum-lefschetz-and-gamma-class.md",
+        "sha256": "d38154ccd27732d3e644fb95687cebd911aaba0ab0e9ec1783eafa7d786a204d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "079000",
+          "transcript": "079000-quantum-lefschetz-and-gamma-class.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r20-079000-1",
+              "reason": "Reference for Quantum Lefschetz, Hypergeometric Periods, and Gamma Classes (1 of 3)"
+            },
+            {
+              "source_id": "ab-r20-079000-2",
+              "reason": "Reference for Quantum Lefschetz, Hypergeometric Periods, and Gamma Classes (2 of 3)"
+            },
+            {
+              "source_id": "ab-r20-079000-3",
+              "reason": "Reference for Quantum Lefschetz, Hypergeometric Periods, and Gamma Classes (3 of 3)"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:084000",
+        "file": "084000-quantum-k-theory-and-difference-connections.md",
+        "sha256": "3f55c2a2fd20c46f0494876af14999d0cc9d8b9724a03b1c1fa950a9e1ac8d21",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "084000",
+          "transcript": "084000-quantum-k-theory-and-difference-connections.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r21-084000-1",
+              "reason": "foundational finite-difference setting"
+            },
+            {
+              "source_id": "ab-r21-084000-2",
+              "reason": "genus-zero quantum K-theoretic structures"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

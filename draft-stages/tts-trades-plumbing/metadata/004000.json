@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "004000",
-  "transcript": "004000-water-heaters-thermal-expansion-and-relief-devices.md",
+  "transcript": "004000-manage-heat-private-supply-and-water-conditioning.md",
   "related_resources": [
     {
       "source_id": "pnnl-service-pressure",
@@ -10,6 +10,50 @@
     {
       "source_id": "doe-wh-expansion-workshop",
       "reason": "Closed-system thermal expansion, expansion tanks and T&P warnings; historical industry material, not an adopted code"
+    },
+    {
+      "source_id": "leane-nafe-freeze",
+      "reason": "Ice plugs, trapped-water pressure, rupture away from initial ice and leaks after thaw"
+    },
+    {
+      "source_id": "nws-cold-after",
+      "reason": "Recognize frozen-pipe exposure and thawing precautions, including avoiding open flame"
+    },
+    {
+      "source_id": "ngwa-well-pressure",
+      "reason": "Pressure tank storage vs pump capacity; diagnose low water pressure"
+    },
+    {
+      "source_id": "ngwa-well-care",
+      "reason": "Well equipment and water quality inspections; control and pressure tank issues"
+    },
+    {
+      "source_id": "epa-water-laboratories",
+      "reason": "State-certified labs for household and private well water analyses"
+    },
+    {
+      "source_id": "epa-water-filter-pfas",
+      "reason": "Contaminant-specific certifications, carbon/ion-exchange/RO limitations and filter replacement"
+    },
+    {
+      "source_id": "epa-water-filter-lead",
+      "reason": "Accredited certified filter selection for lead and associated particle reduction claims"
+    },
+    {
+      "source_id": "epa-lead-water-sources",
+      "reason": "Lead service lines, solder, fixtures and galvanized-line sediment risks"
+    },
+    {
+      "source_id": "doe-tankless-guide21",
+      "reason": "Frequent on/off use, water-temperature fluctuation, selection and performance"
+    },
+    {
+      "source_id": "rinnai-tankless-faq21",
+      "reason": "Manufacturer-specific example of initiation and sustaining flow thresholds; not universal"
+    },
+    {
+      "source_id": "epa-maintenance",
+      "reason": "Leaks, service pressure and maintenance"
     }
   ],
   "historical_claims": [],
@@ -68,8 +112,700 @@
       "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
       "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-01",
+      "claim": "Growing ice plugs can pressurize trapped liquid and cause pipe failure away from the initial freeze point.",
+      "kind": "physical_failure_mechanism",
+      "supports": [
+        {
+          "source_id": "leane-nafe-freeze",
+          "location": "Abstract: isolated downstream piping and growing ice plug raise hydraulic pressure",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-02",
+      "claim": "A pipe can leak primarily after the ice blockage thaws and pressure water flows through a previous rupture.",
+      "kind": "failure_sequence",
+      "supports": [
+        {
+          "source_id": "leane-nafe-freeze",
+          "location": "Abstract: rupture while ice blocks flow, then significant leakage when plug melts",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-03",
+      "claim": "Gentle controlled warming and avoiding open flame are recommended responses to suspected frozen accessible piping.",
+      "kind": "public_weather_hazard_guidance",
+      "supports": [
+        {
+          "source_id": "nws-cold-after",
+          "location": "Check Your Pipes: open faucet, gentle heat and no open flame",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-01",
+      "claim": "Pressure tanks buffer household demand to reduce pump starts but cannot supply long-run flow beyond pump capacity.",
+      "kind": "well_pump_education",
+      "supports": [
+        {
+          "source_id": "ngwa-well-pressure",
+          "location": "Pressure tank capacity and limitation compared with pump flow",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-02",
+      "claim": "Frequent pump cycling can indicate pressure-tank or pressure-switch problems and requires diagnosis.",
+      "kind": "well_maintenance_guidance",
+      "supports": [
+        {
+          "source_id": "ngwa-well-care",
+          "location": "Inspection of control, pressure tanks, and cycle times",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P008000-03",
+      "claim": "Static pressure readings alone cannot distinguish limited well yield, pump limitations, and downstream flow restriction.",
+      "kind": "derived_water_hydraulics",
+      "supports": [
+        {
+          "source_id": "ngwa-well-pressure",
+          "location": "Separate water pressure, flow and pump output; author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+      "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "Drinking-water testing for consequential decisions should use state-certified laboratories and appropriate sampling methods.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-water-laboratories",
+          "location": "State-certified labs for household and private well water analyses",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ngwa-well-care",
+          "location": "Well equipment and water quality inspections; control and pressure tank issues",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "A tap result can reflect premise plumbing as well as source water.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-lead-water-sources",
+          "location": "Lead service lines, solder, fixtures and galvanized-line sediment risks",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-water-filter-lead",
+          "location": "Accredited certified filter selection for lead and associated particle reduction claims",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Filtration and reverse osmosis have different contaminant-specific capabilities, maintenance and operating limitations.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-water-filter-pfas",
+          "location": "Contaminant-specific certifications, carbon/ion-exchange/RO limitations and filter replacement",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Accredited filter certifications and the named contaminant-reduction claim matter more than broad purification language.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-water-filter-lead",
+          "location": "Accredited certified filter selection for lead and associated particle reduction claims",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-water-filter-pfas",
+          "location": "Contaminant-specific certifications, carbon/ion-exchange/RO limitations and filter replacement",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-01",
+      "claim": "Tankless activation and continued operation require sufficient flow, with thresholds varying by model.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "rinnai-tankless-faq21",
+          "location": "Manufacturer-specific example of initiation and sustaining flow thresholds; not universal",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-tankless-guide21",
+          "location": "Frequent on/off use, water-temperature fluctuation, selection and performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-02",
+      "claim": "Required thermal input depends on volume flow and inlet-to-outlet temperature rise.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-tankless-guide21",
+          "location": "Frequent on/off use, water-temperature fluctuation, selection and performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-03",
+      "claim": "Frequent on/off draw can produce temporary temperature fluctuations known as the cold-water sandwich.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-tankless-guide21",
+          "location": "Frequent on/off use, water-temperature fluctuation, selection and performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-04",
+      "claim": "Fixture restriction, strainer condition and mixed hot/cold draw affect the heater flow signal.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "rinnai-tankless-faq21",
+          "location": "Manufacturer-specific example of initiation and sustaining flow thresholds; not universal",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-maintenance",
+          "location": "Leaks, service pressure and maintenance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design."
+  "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-plumbing:004000",
+        "file": "004000-water-heaters-thermal-expansion-and-relief-devices.md",
+        "sha256": "e5f5c6c316e32eb69cc82403bf445a8dd30e831bc6da824434599939f3747262",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-water-heaters-thermal-expansion-and-relief-devices.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-service-pressure",
+              "reason": "Static supply pressure, PRV mechanism and closed-system expansion"
+            },
+            {
+              "source_id": "doe-wh-expansion-workshop",
+              "reason": "Closed-system thermal expansion, expansion tanks and T&P warnings; historical industry material, not an adopted code"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P004000-01",
+              "claim": "Warming water in a closed plumbing system can raise pressure when thermal expansion has no accommodation.",
+              "kind": "physical_mechanism",
+              "supports": [
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Service Water Pressure guide; DOE-hosted industry workshop thermal-expansion section",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-wh-expansion-workshop",
+                  "location": "Service Water Pressure guide; DOE-hosted industry workshop thermal-expansion section",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-02",
+              "claim": "Expansion tanks accommodate normal water-volume increase; relief valves are for protective discharge rather than regular expansion management.",
+              "kind": "field_practice",
+              "supports": [
+                {
+                  "source_id": "doe-wh-expansion-workshop",
+                  "location": "Thermal Expansion and Temperature and Pressure Relief Valve sections",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-03",
+              "claim": "Water-heater protective arrangements and outlet temperature controls depend on equipment and adopted plumbing requirements.",
+              "kind": "regulatory_scope",
+              "supports": [
+                {
+                  "source_id": "pnnl-service-pressure",
+                  "location": "Technical references and manufacturers; installation-specific limitations",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-wh-expansion-workshop",
+                  "location": "Technical references and manufacturers; installation-specific limitations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design."
+        }
+      },
+      {
+        "id": "trades-plumbing:006000",
+        "file": "006000-frozen-pipes-and-water-damage-mechanisms.md",
+        "sha256": "217e6ee1901ed6a672f0e80f9114e6b45de4c2047a2c28f879d307f95427631c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-frozen-pipes-and-water-damage-mechanisms.md",
+          "related_resources": [
+            {
+              "source_id": "leane-nafe-freeze",
+              "reason": "Ice plugs, trapped-water pressure, rupture away from initial ice and leaks after thaw"
+            },
+            {
+              "source_id": "nws-cold-after",
+              "reason": "Recognize frozen-pipe exposure and thawing precautions, including avoiding open flame"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P006000-01",
+              "claim": "Growing ice plugs can pressurize trapped liquid and cause pipe failure away from the initial freeze point.",
+              "kind": "physical_failure_mechanism",
+              "supports": [
+                {
+                  "source_id": "leane-nafe-freeze",
+                  "location": "Abstract: isolated downstream piping and growing ice plug raise hydraulic pressure",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-02",
+              "claim": "A pipe can leak primarily after the ice blockage thaws and pressure water flows through a previous rupture.",
+              "kind": "failure_sequence",
+              "supports": [
+                {
+                  "source_id": "leane-nafe-freeze",
+                  "location": "Abstract: rupture while ice blocks flow, then significant leakage when plug melts",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P006000-03",
+              "claim": "Gentle controlled warming and avoiding open flame are recommended responses to suspected frozen accessible piping.",
+              "kind": "public_weather_hazard_guidance",
+              "supports": [
+                {
+                  "source_id": "nws-cold-after",
+                  "location": "Check Your Pipes: open faucet, gentle heat and no open flame",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+              "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+        }
+      },
+      {
+        "id": "trades-plumbing:008000",
+        "file": "008000-wells-pumps-and-pressure-tanks.md",
+        "sha256": "a7d942edddf8c14723bb2baa5b51cd73eb3899853378f18b0c0f1449a25dbf51",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-wells-pumps-and-pressure-tanks.md",
+          "related_resources": [
+            {
+              "source_id": "ngwa-well-pressure",
+              "reason": "Pressure tank storage vs pump capacity; diagnose low water pressure"
+            },
+            {
+              "source_id": "ngwa-well-care",
+              "reason": "Well equipment and water quality inspections; control and pressure tank issues"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P008000-01",
+              "claim": "Pressure tanks buffer household demand to reduce pump starts but cannot supply long-run flow beyond pump capacity.",
+              "kind": "well_pump_education",
+              "supports": [
+                {
+                  "source_id": "ngwa-well-pressure",
+                  "location": "Pressure tank capacity and limitation compared with pump flow",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-02",
+              "claim": "Frequent pump cycling can indicate pressure-tank or pressure-switch problems and requires diagnosis.",
+              "kind": "well_maintenance_guidance",
+              "supports": [
+                {
+                  "source_id": "ngwa-well-care",
+                  "location": "Inspection of control, pressure tanks, and cycle times",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-03",
+              "claim": "Static pressure readings alone cannot distinguish limited well yield, pump limitations, and downstream flow restriction.",
+              "kind": "derived_water_hydraulics",
+              "supports": [
+                {
+                  "source_id": "ngwa-well-pressure",
+                  "location": "Separate water pressure, flow and pump output; author synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Explanation synthesized from source-backed premises; not a direct quotation or certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+        }
+      },
+      {
+        "id": "trades-plumbing:015000",
+        "file": "015000-water-quality-testing-filtration-and-treatment-claims.md",
+        "sha256": "f44f7737d2e3a6e5b2a46c280bf2dc75a7d4166a9805a4dbc058c4af3b869924",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-water-quality-testing-filtration-and-treatment-claims.md",
+          "related_resources": [
+            {
+              "source_id": "epa-water-laboratories",
+              "reason": "State-certified labs for household and private well water analyses"
+            },
+            {
+              "source_id": "epa-water-filter-pfas",
+              "reason": "Contaminant-specific certifications, carbon/ion-exchange/RO limitations and filter replacement"
+            },
+            {
+              "source_id": "epa-water-filter-lead",
+              "reason": "Accredited certified filter selection for lead and associated particle reduction claims"
+            },
+            {
+              "source_id": "epa-lead-water-sources",
+              "reason": "Lead service lines, solder, fixtures and galvanized-line sediment risks"
+            },
+            {
+              "source_id": "ngwa-well-care",
+              "reason": "Well equipment and water quality inspections; control and pressure tank issues"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "Drinking-water testing for consequential decisions should use state-certified laboratories and appropriate sampling methods.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-water-laboratories",
+                  "location": "State-certified labs for household and private well water analyses",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ngwa-well-care",
+                  "location": "Well equipment and water quality inspections; control and pressure tank issues",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "A tap result can reflect premise plumbing as well as source water.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-lead-water-sources",
+                  "location": "Lead service lines, solder, fixtures and galvanized-line sediment risks",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-water-filter-lead",
+                  "location": "Accredited certified filter selection for lead and associated particle reduction claims",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Filtration and reverse osmosis have different contaminant-specific capabilities, maintenance and operating limitations.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-water-filter-pfas",
+                  "location": "Contaminant-specific certifications, carbon/ion-exchange/RO limitations and filter replacement",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Accredited filter certifications and the named contaminant-reduction claim matter more than broad purification language.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-water-filter-lead",
+                  "location": "Accredited certified filter selection for lead and associated particle reduction claims",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-water-filter-pfas",
+                  "location": "Contaminant-specific certifications, carbon/ion-exchange/RO limitations and filter replacement",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-plumbing:021000",
+        "file": "021000-tankless-water-heaters-minimum-flow-temperature-control-and-service-diagnosis.md",
+        "sha256": "e04169cd211ad955d39497b4f2c426d96257c80a153d4383918ce7c51671e896",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-tankless-water-heaters-minimum-flow-temperature-control-and-service-diagnosis.md",
+          "related_resources": [
+            {
+              "source_id": "doe-tankless-guide21",
+              "reason": "Frequent on/off use, water-temperature fluctuation, selection and performance"
+            },
+            {
+              "source_id": "rinnai-tankless-faq21",
+              "reason": "Manufacturer-specific example of initiation and sustaining flow thresholds; not universal"
+            },
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leaks, service pressure and maintenance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P021000-01",
+              "claim": "Tankless activation and continued operation require sufficient flow, with thresholds varying by model.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "rinnai-tankless-faq21",
+                  "location": "Manufacturer-specific example of initiation and sustaining flow thresholds; not universal",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-tankless-guide21",
+                  "location": "Frequent on/off use, water-temperature fluctuation, selection and performance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-02",
+              "claim": "Required thermal input depends on volume flow and inlet-to-outlet temperature rise.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-tankless-guide21",
+                  "location": "Frequent on/off use, water-temperature fluctuation, selection and performance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-03",
+              "claim": "Frequent on/off draw can produce temporary temperature fluctuations known as the cold-water sandwich.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-tankless-guide21",
+                  "location": "Frequent on/off use, water-temperature fluctuation, selection and performance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-04",
+              "claim": "Fixture restriction, strainer condition and mixed hot/cold draw affect the heater flow signal.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "rinnai-tankless-faq21",
+                  "location": "Manufacturer-specific example of initiation and sustaining flow thresholds; not universal",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "Leaks, service pressure and maintenance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_or_clinical_review_pending",
+          "citation_policy": "Credit original authors and standards issuers; cite educational synthesis accurately. No engineering, clinical, or jurisdictional certification is claimed."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "004000-manage-heat-private-supply-and-water-conditioning.md"
+      ],
+      "joined_before_source_parts": [
+        "006000",
+        "015000"
+      ]
+    }
+  ]
 }

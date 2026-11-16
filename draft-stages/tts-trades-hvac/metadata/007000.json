@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "007000",
-  "transcript": "007000-thermostats-controls-and-diagnostic-patterns.md",
+  "transcript": "007000-interpret-controls-and-room-level-performance.md",
   "related_resources": [
     {
       "source_id": "doe-heatpump-thermostat",
@@ -14,6 +14,34 @@
     {
       "source_id": "energystar-ducts",
       "reason": "Duct leakage as an energy and air delivery problem"
+    },
+    {
+      "source_id": "nrel-winkler-ramaraj-defrost",
+      "reason": "Sections 4.1.6 and 5.6: reverse-cycle defrost, coil frost and energy impact; installation-dependent evidence"
+    },
+    {
+      "source_id": "energystar-ashp",
+      "reason": "Heating and cooling by reversing heat-transfer direction"
+    },
+    {
+      "source_id": "energystar-hvac-quality",
+      "reason": "Load-based sizing, airflow, refrigerant charge and duct performance"
+    },
+    {
+      "source_id": "ca-hvac-pressure",
+      "reason": "Fan pressure budget, filter pressure drop, coil, ducts and registers"
+    },
+    {
+      "source_id": "acca-manual-j",
+      "reason": "Room and whole-building heating/cooling design load factors"
+    },
+    {
+      "source_id": "doe-heatpumps",
+      "reason": "Heat transfer rather than direct heat generation"
+    },
+    {
+      "source_id": "doe-thermal-systems-guide",
+      "reason": "Inverter-based variable-speed compressors, feedback sensor controls and capacity modulation"
     }
   ],
   "historical_claims": [],
@@ -67,8 +95,978 @@
       "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
       "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P010000-01",
+      "claim": "Outdoor coils can become frosted in heating mode because their surface is cold enough for airborne moisture to freeze.",
+      "kind": "original_nrel_heat_pump_field_mechanism",
+      "supports": [
+        {
+          "source_id": "nrel-winkler-ramaraj-defrost",
+          "location": "Section 5.6: coil frost and heat transfer",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Reverse-cycle defrost uses refrigerant heating at the outdoor coil and may consume appreciable energy.",
+      "kind": "original_nrel_defrost_field_data",
+      "supports": [
+        {
+          "source_id": "nrel-winkler-ramaraj-defrost",
+          "location": "Sections 4.1.6 and 5.6: defrost operation and energy",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Cold-climate air-source heat pumps have documented low-ambient performance but require proper equipment and installation choice.",
+      "kind": "agency_cold_climate_selection",
+      "supports": [
+        {
+          "source_id": "energystar-ashp",
+          "location": "Cold-climate product information",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Defrost diagnosis must distinguish normal frost clearing from site drainage, sensor/control and airflow problems.",
+      "kind": "derived_operational_diagnosis",
+      "supports": [
+        {
+          "source_id": "nrel-winkler-ramaraj-defrost",
+          "location": "Defrost variation and site performance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "energystar-hvac-quality",
+          "location": "Installed system quality",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-01",
+      "claim": "Duct leakage can change conditioned air delivered to rooms and increase heating or cooling demand.",
+      "kind": "original_energystar_duct_guidance",
+      "supports": [
+        {
+          "source_id": "energystar-ducts",
+          "location": "Duct sealing and distribution losses",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Filter, duct, coil and grille resistance contributes to system operating pressure and airflow.",
+      "kind": "original_energy_code_technical_manual",
+      "supports": [
+        {
+          "source_id": "ca-hvac-pressure",
+          "location": "Air distribution pressure components",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Room heat losses and gains must be considered separately from supply-air temperature when diagnosing comfort.",
+      "kind": "derived_hvac_energy_balance",
+      "supports": [
+        {
+          "source_id": "acca-manual-j",
+          "location": "Residential room loads and design basis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Air distribution changes and control zoning must remain within equipment and design limits.",
+      "kind": "derived_technical_qualification",
+      "supports": [
+        {
+          "source_id": "energystar-hvac-quality",
+          "location": "Installation quality and system verification",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ca-hvac-pressure",
+          "location": "Air distribution constraints",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "Inverter-driven heat pumps can modulate compressor speed in response to load and sensor readings.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-thermal-systems-guide",
+          "location": "Inverter-based variable-speed compressors, feedback sensor controls and capacity modulation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Long runtime at low output can represent proper variable-capacity operation rather than a malfunction.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-thermal-systems-guide",
+          "location": "Inverter-based variable-speed compressors, feedback sensor controls and capacity modulation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-heatpumps",
+          "location": "Heat transfer rather than direct heat generation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Fan commands, delivered airflow and duct restriction are not interchangeable measurements.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "energystar-hvac-quality",
+          "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Latent humidity control and sensible temperature control may require different operating regimes.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ashrae-2025-res-loads",
+          "location": "Residential sensible and latent loads, short cycling and dehumidification",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-heatpump-thermostat",
+          "location": "Heat pump control, auxiliary resistance heat, and thermostat recovery behavior",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-01",
+      "claim": "The temperature of supply air alone is insufficient to determine sensible room heating or cooling delivery without airflow.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ashrae-2025-res-loads",
+          "location": "Residential sensible and latent loads, short cycling and dehumidification",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ca-hvac-pressure",
+          "location": "Fan pressure budget, filter pressure drop, coil, ducts and registers",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Duct restrictions, leakage and improper airflow affect room comfort and equipment performance.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "energystar-ducts",
+          "location": "Duct leakage as an energy and air delivery problem",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "energystar-hvac-quality",
+          "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Indoor radiant conditions and humidity can affect perceived comfort in ways not captured by a thermostat air reading.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ashrae-2025-res-loads",
+          "location": "Residential sensible and latent loads, short cycling and dehumidification",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Repeated sensor logs should include operating state and thermal conditions before asserting a causal equipment fault.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "energystar-hvac-quality",
+          "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ashrae-2025-res-loads",
+          "location": "Residential sensible and latent loads, short cycling and dehumidification",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "Heat pumps transfer environmental heat and performance varies with operating conditions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-heatpumps",
+          "location": "Heat transfer rather than direct heat generation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "energystar-ashp",
+          "location": "Heating and cooling by reversing heat-transfer direction",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Variable-speed operation and short cycling require distinct interpretations of runtime and control state.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "energystar-ashp",
+          "location": "Heating and cooling by reversing heat-transfer direction",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-heatpump-thermostat",
+          "location": "Heat pump control, auxiliary resistance heat, and thermostat recovery behavior",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Resistance auxiliary heat can create substantial electric demand during setpoint recovery.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-heatpump-thermostat",
+          "location": "Heat pump control, auxiliary resistance heat, and thermostat recovery behavior",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-heatpumps",
+          "location": "Heat transfer rather than direct heat generation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Cold-climate heat pumps may perform intentional outdoor coil defrost operations that temporarily change measured system behavior.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nrel-winkler-ramaraj-defrost",
+          "location": "Sections 4.1.6 and 5.6: reverse-cycle defrost, coil frost and energy impact; installation-dependent evidence",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-hvac:007000",
+        "file": "007000-thermostats-controls-and-diagnostic-patterns.md",
+        "sha256": "e7d323e145d71dea72d3c6e75fb7ce33f064711bac01f42896231534b7220833",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-thermostats-controls-and-diagnostic-patterns.md",
+          "related_resources": [
+            {
+              "source_id": "doe-heatpump-thermostat",
+              "reason": "Heat pump control, auxiliary resistance heat, and thermostat recovery behavior"
+            },
+            {
+              "source_id": "ashrae-2025-res-loads",
+              "reason": "Residential sensible and latent loads, short cycling and dehumidification"
+            },
+            {
+              "source_id": "energystar-ducts",
+              "reason": "Duct leakage as an energy and air delivery problem"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "Heat pumps may call for auxiliary electric resistance heating under particular control strategies, including aggressive setback recovery.",
+              "kind": "heat_pump_control_guidance",
+              "supports": [
+                {
+                  "source_id": "doe-heatpump-thermostat",
+                  "location": "Tips for using heat pumps efficiently: heat-pump-appropriate thermostat and auxiliary heat",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "Heating/cooling calls and actual delivered comfort depend on load, airflow, and staged equipment behavior.",
+              "kind": "derived_hvac_systems",
+              "supports": [
+                {
+                  "source_id": "ashrae-2025-res-loads",
+                  "location": "Residential heating and cooling load concepts; author’s feedback-loop synthesis",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "energystar-ducts",
+                  "location": "Distribution and duct leakage context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "Cooling behavior must consider sensible and latent humidity loads.",
+              "kind": "hvac_thermal_physics",
+              "supports": [
+                {
+                  "source_id": "ashrae-2025-res-loads",
+                  "location": "Residential cooling and heating load calculations: sensible and latent gains",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      },
+      {
+        "id": "trades-hvac:010000",
+        "file": "010000-heat-pump-defrost-cold-weather-and-controls.md",
+        "sha256": "f5728e476f27d24eb68e90b2dc8f5aad240b74feb036261f4e1d8ea4f8fd8b00",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-heat-pump-defrost-cold-weather-and-controls.md",
+          "related_resources": [
+            {
+              "source_id": "nrel-winkler-ramaraj-defrost",
+              "reason": "Sections 4.1.6 and 5.6: reverse-cycle defrost, coil frost and energy impact; installation-dependent evidence"
+            },
+            {
+              "source_id": "energystar-ashp",
+              "reason": "Heating and cooling by reversing heat-transfer direction"
+            },
+            {
+              "source_id": "energystar-hvac-quality",
+              "reason": "Load-based sizing, airflow, refrigerant charge and duct performance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Outdoor coils can become frosted in heating mode because their surface is cold enough for airborne moisture to freeze.",
+              "kind": "original_nrel_heat_pump_field_mechanism",
+              "supports": [
+                {
+                  "source_id": "nrel-winkler-ramaraj-defrost",
+                  "location": "Section 5.6: coil frost and heat transfer",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "Reverse-cycle defrost uses refrigerant heating at the outdoor coil and may consume appreciable energy.",
+              "kind": "original_nrel_defrost_field_data",
+              "supports": [
+                {
+                  "source_id": "nrel-winkler-ramaraj-defrost",
+                  "location": "Sections 4.1.6 and 5.6: defrost operation and energy",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Cold-climate air-source heat pumps have documented low-ambient performance but require proper equipment and installation choice.",
+              "kind": "agency_cold_climate_selection",
+              "supports": [
+                {
+                  "source_id": "energystar-ashp",
+                  "location": "Cold-climate product information",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Defrost diagnosis must distinguish normal frost clearing from site drainage, sensor/control and airflow problems.",
+              "kind": "derived_operational_diagnosis",
+              "supports": [
+                {
+                  "source_id": "nrel-winkler-ramaraj-defrost",
+                  "location": "Defrost variation and site performance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "energystar-hvac-quality",
+                  "location": "Installed system quality",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "trades-hvac:011000",
+        "file": "011000-duct-leakage-zoning-and-temperature-imbalance.md",
+        "sha256": "4d5d289465b79daa1dbb6623ea4634c94ee16c082c9d278ed80471f0316adbf8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-duct-leakage-zoning-and-temperature-imbalance.md",
+          "related_resources": [
+            {
+              "source_id": "energystar-ducts",
+              "reason": "Duct leakage as an energy and air delivery problem"
+            },
+            {
+              "source_id": "ca-hvac-pressure",
+              "reason": "Fan pressure budget, filter pressure drop, coil, ducts and registers"
+            },
+            {
+              "source_id": "acca-manual-j",
+              "reason": "Room and whole-building heating/cooling design load factors"
+            },
+            {
+              "source_id": "energystar-hvac-quality",
+              "reason": "Load-based sizing, airflow, refrigerant charge and duct performance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "Duct leakage can change conditioned air delivered to rooms and increase heating or cooling demand.",
+              "kind": "original_energystar_duct_guidance",
+              "supports": [
+                {
+                  "source_id": "energystar-ducts",
+                  "location": "Duct sealing and distribution losses",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "Filter, duct, coil and grille resistance contributes to system operating pressure and airflow.",
+              "kind": "original_energy_code_technical_manual",
+              "supports": [
+                {
+                  "source_id": "ca-hvac-pressure",
+                  "location": "Air distribution pressure components",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "Room heat losses and gains must be considered separately from supply-air temperature when diagnosing comfort.",
+              "kind": "derived_hvac_energy_balance",
+              "supports": [
+                {
+                  "source_id": "acca-manual-j",
+                  "location": "Residential room loads and design basis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "Air distribution changes and control zoning must remain within equipment and design limits.",
+              "kind": "derived_technical_qualification",
+              "supports": [
+                {
+                  "source_id": "energystar-hvac-quality",
+                  "location": "Installation quality and system verification",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ca-hvac-pressure",
+                  "location": "Air distribution constraints",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "trades-hvac:015000",
+        "file": "015000-variable-speed-equipment-sensors-and-control-modes.md",
+        "sha256": "ea4ee34fea3e54e535dd4fb985a6eac2d3dd1166d5219b334bdc27cfb66d6ee6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-variable-speed-equipment-sensors-and-control-modes.md",
+          "related_resources": [
+            {
+              "source_id": "doe-heatpumps",
+              "reason": "Heat transfer rather than direct heat generation"
+            },
+            {
+              "source_id": "doe-thermal-systems-guide",
+              "reason": "Inverter-based variable-speed compressors, feedback sensor controls and capacity modulation"
+            },
+            {
+              "source_id": "energystar-hvac-quality",
+              "reason": "Load-based sizing, airflow, refrigerant charge and duct performance"
+            },
+            {
+              "source_id": "ashrae-2025-res-loads",
+              "reason": "Residential sensible and latent loads, short cycling and dehumidification"
+            },
+            {
+              "source_id": "doe-heatpump-thermostat",
+              "reason": "Heat pump control, auxiliary resistance heat, and thermostat recovery behavior"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "Inverter-driven heat pumps can modulate compressor speed in response to load and sensor readings.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-thermal-systems-guide",
+                  "location": "Inverter-based variable-speed compressors, feedback sensor controls and capacity modulation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "Long runtime at low output can represent proper variable-capacity operation rather than a malfunction.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-thermal-systems-guide",
+                  "location": "Inverter-based variable-speed compressors, feedback sensor controls and capacity modulation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-heatpumps",
+                  "location": "Heat transfer rather than direct heat generation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Fan commands, delivered airflow and duct restriction are not interchangeable measurements.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "energystar-hvac-quality",
+                  "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Latent humidity control and sensible temperature control may require different operating regimes.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ashrae-2025-res-loads",
+                  "location": "Residential sensible and latent loads, short cycling and dehumidification",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-heatpump-thermostat",
+                  "location": "Heat pump control, auxiliary resistance heat, and thermostat recovery behavior",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-hvac:016000",
+        "file": "016000-diagnosing-comfort-complaints-with-occupancy-and-sensor-logs.md",
+        "sha256": "2995d97db1a2b72b350d457ab78eb97b4074873bcdfcf867553492b660bdeae6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-diagnosing-comfort-complaints-with-occupancy-and-sensor-logs.md",
+          "related_resources": [
+            {
+              "source_id": "energystar-ducts",
+              "reason": "Duct leakage as an energy and air delivery problem"
+            },
+            {
+              "source_id": "energystar-hvac-quality",
+              "reason": "Load-based sizing, airflow, refrigerant charge and duct performance"
+            },
+            {
+              "source_id": "ashrae-2025-res-loads",
+              "reason": "Residential sensible and latent loads, short cycling and dehumidification"
+            },
+            {
+              "source_id": "ca-hvac-pressure",
+              "reason": "Fan pressure budget, filter pressure drop, coil, ducts and registers"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "The temperature of supply air alone is insufficient to determine sensible room heating or cooling delivery without airflow.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ashrae-2025-res-loads",
+                  "location": "Residential sensible and latent loads, short cycling and dehumidification",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ca-hvac-pressure",
+                  "location": "Fan pressure budget, filter pressure drop, coil, ducts and registers",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "Duct restrictions, leakage and improper airflow affect room comfort and equipment performance.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "energystar-ducts",
+                  "location": "Duct leakage as an energy and air delivery problem",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "energystar-hvac-quality",
+                  "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "Indoor radiant conditions and humidity can affect perceived comfort in ways not captured by a thermostat air reading.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ashrae-2025-res-loads",
+                  "location": "Residential sensible and latent loads, short cycling and dehumidification",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Repeated sensor logs should include operating state and thermal conditions before asserting a causal equipment fault.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "energystar-hvac-quality",
+                  "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ashrae-2025-res-loads",
+                  "location": "Residential sensible and latent loads, short cycling and dehumidification",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-hvac:017000",
+        "file": "017000-heat-pump-cycling-recovery-and-electrical-demand.md",
+        "sha256": "fe62defc93c61dcced47c903e0ad119d567c8258b0fc287a24d9891d07aa83b7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-heat-pump-cycling-recovery-and-electrical-demand.md",
+          "related_resources": [
+            {
+              "source_id": "doe-heatpumps",
+              "reason": "Heat transfer rather than direct heat generation"
+            },
+            {
+              "source_id": "energystar-ashp",
+              "reason": "Heating and cooling by reversing heat-transfer direction"
+            },
+            {
+              "source_id": "doe-heatpump-thermostat",
+              "reason": "Heat pump control, auxiliary resistance heat, and thermostat recovery behavior"
+            },
+            {
+              "source_id": "nrel-winkler-ramaraj-defrost",
+              "reason": "Sections 4.1.6 and 5.6: reverse-cycle defrost, coil frost and energy impact; installation-dependent evidence"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "Heat pumps transfer environmental heat and performance varies with operating conditions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-heatpumps",
+                  "location": "Heat transfer rather than direct heat generation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "energystar-ashp",
+                  "location": "Heating and cooling by reversing heat-transfer direction",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "Variable-speed operation and short cycling require distinct interpretations of runtime and control state.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "energystar-ashp",
+                  "location": "Heating and cooling by reversing heat-transfer direction",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-heatpump-thermostat",
+                  "location": "Heat pump control, auxiliary resistance heat, and thermostat recovery behavior",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "Resistance auxiliary heat can create substantial electric demand during setpoint recovery.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-heatpump-thermostat",
+                  "location": "Heat pump control, auxiliary resistance heat, and thermostat recovery behavior",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-heatpumps",
+                  "location": "Heat transfer rather than direct heat generation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "Cold-climate heat pumps may perform intentional outdoor coil defrost operations that temporarily change measured system behavior.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nrel-winkler-ramaraj-defrost",
+                  "location": "Sections 4.1.6 and 5.6: reverse-cycle defrost, coil frost and energy impact; installation-dependent evidence",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "007000-interpret-controls-and-room-level-performance.md"
+      ],
+      "joined_before_source_parts": [
+        "010000",
+        "016000"
+      ]
+    }
+  ]
 }

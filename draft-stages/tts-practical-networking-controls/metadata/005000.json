@@ -1,11 +1,43 @@
 {
   "schema_version": 1,
   "lecture_id": "005000",
-  "transcript": "005000-sensors-actuators-state-and-hysteresis.md",
+  "transcript": "005000-model-dependable-local-automation.md",
   "related_resources": [
     {
       "source_id": "omron-control-hysteresis",
       "reason": "On/off threshold hysteresis and prevention of rapid relay cycling"
+    },
+    {
+      "source_id": "ietf-rfc9110-idempotency",
+      "reason": "Idempotent request semantics and when a client may safely retry after a lost response"
+    },
+    {
+      "source_id": "nist-sp80034r1-contingency",
+      "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+    },
+    {
+      "source_id": "nist-sp80092-logs",
+      "reason": "Log collection, retention, analysis, and operational processes"
+    },
+    {
+      "source_id": "osha-machine-guarding",
+      "reason": "Safeguards, machine protection, and separating personnel safety from convenience control"
+    },
+    {
+      "source_id": "nist-ir8350-iot-onboarding",
+      "reason": "Onboarding functional roles, trust, lifecycle management and credentials"
+    },
+    {
+      "source_id": "nist-router-security",
+      "reason": "Router integrity, availability, and security as system dependencies"
+    },
+    {
+      "source_id": "ietf-rfc5905-ntp",
+      "reason": "Time synchronization, offsets, delays and network clock discipline"
+    },
+    {
+      "source_id": "nist-sp1800-15-iot",
+      "reason": "Restrict IoT traffic to device-appropriate purposes and apply updates and access controls"
     }
   ],
   "historical_claims": [],
@@ -54,8 +86,774 @@
       "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
       "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P019000-01",
+      "claim": "Desired-state commands can be more robust to duplicate requests than ambiguous toggle actions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ietf-rfc9110-idempotency",
+          "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Log design and event timing affect diagnosis of automation faults.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp80092-logs",
+          "location": "Log collection, retention, analysis, and operational processes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "Contingency plans should define behavior when communication or power is unavailable.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Control state transitions and hysteresis matter for sensor-triggered automation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "omron-control-hysteresis",
+          "location": "On/off threshold hysteresis and prevention of rapid relay cycling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-01",
+      "claim": "Ordinary software commands should not be conflated with engineered personnel safety safeguards.",
+      "kind": "original_us_machine_guarding_context",
+      "supports": [
+        {
+          "source_id": "osha-machine-guarding",
+          "location": "Safeguards, machine protection, and separating personnel safety from convenience control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Sensor threshold hysteresis can reduce rapid switching around a setpoint.",
+      "kind": "original_manufacturer_control_concept",
+      "supports": [
+        {
+          "source_id": "omron-control-hysteresis",
+          "location": "On/off threshold hysteresis and prevention of rapid relay cycling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Stateful control needs explicit treatment of unavailable or contradictory observations.",
+      "kind": "derived_control_system_design",
+      "supports": [
+        {
+          "source_id": "omron-control-hysteresis",
+          "location": "On/off threshold hysteresis and prevention of rapid relay cycling",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-ir8350-iot-onboarding",
+          "location": "Onboarding functional roles, trust, lifecycle management and credentials",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-04",
+      "claim": "Local device safety decisions should be distinguished from remote access and network convenience.",
+      "kind": "derived_automation_architecture",
+      "supports": [
+        {
+          "source_id": "osha-machine-guarding",
+          "location": "Safeguards, machine protection, and separating personnel safety from convenience control",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-router-security",
+          "location": "Router integrity, availability, and security as system dependencies",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "A lost response can leave the sender uncertain whether a request was applied, requiring safe retry semantics.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ietf-rfc9110-idempotency",
+          "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Idempotent desired-state requests are easier to retry than blind toggle operations.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ietf-rfc9110-idempotency",
+          "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Occurrence time and receipt time may differ, and synchronized wall clocks are distinct from elapsed-time timers.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ietf-rfc5905-ntp",
+          "location": "Time synchronization, offsets, delays and network clock discipline",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp80092-logs",
+          "location": "Log collection, retention, analysis, and operational processes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Automation logs should distinguish command, acknowledgment and observed physical state.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-sp80092-logs",
+          "location": "Log collection, retention, analysis, and operational processes",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "omron-control-hysteresis",
+          "location": "On/off threshold hysteresis and prevention of rapid relay cycling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "Network/cloud/controller outages may affect different stages of an IoT actuation workflow.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp1800-15-iot",
+          "location": "Restrict IoT traffic to device-appropriate purposes and apply updates and access controls",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Retrying set-state and toggle commands has different idempotence consequences.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ietf-rfc9110-idempotency",
+          "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Clock and time synchronization dependencies can alter scheduled automation recovery.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ietf-rfc5905-ntp",
+          "location": "Time synchronization, offsets, delays and network clock discipline",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "A restore plan needs verified procedures and dependency testing, not only backup files.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-networking-controls:005000",
+        "file": "005000-sensors-actuators-state-and-hysteresis.md",
+        "sha256": "df384a3f4935b8c86aeb7bc3856c6fc689b85d8768414682762d5ab7b52c1bd0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-sensors-actuators-state-and-hysteresis.md",
+          "related_resources": [
+            {
+              "source_id": "omron-control-hysteresis",
+              "reason": "On/off threshold hysteresis and prevention of rapid relay cycling"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P005000-01",
+              "claim": "An automation can separate sensor evidence, controller state, commands, device acknowledgment and observed physical effects.",
+              "kind": "derived_control_design",
+              "supports": [
+                {
+                  "source_id": "omron-control-hysteresis",
+                  "location": "ON/OFF control operation; system design synthesis by author",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-02",
+              "claim": "On/off controllers use hysteresis bands to avoid relay chatter around a noisy threshold.",
+              "kind": "control_principle",
+              "supports": [
+                {
+                  "source_id": "omron-control-hysteresis",
+                  "location": "FAQ00549: ON/OFF hysteresis and relay cycling",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-03",
+              "claim": "Separate turn-on and turn-off thresholds imply retained controller state between the thresholds.",
+              "kind": "derived_state_machine",
+              "supports": [
+                {
+                  "source_id": "omron-control-hysteresis",
+                  "location": "Hysteresis example and reverse/forward operation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+        }
+      },
+      {
+        "id": "practical-networking-controls:019000",
+        "file": "019000-reliable-automations-as-state-machines-not-chains-of-notifications.md",
+        "sha256": "bac25161dfe5d598fd35f0c0b4c4d5a60d91f91ff5c6bc480597b28b1ef18305",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-reliable-automations-as-state-machines-not-chains-of-notifications.md",
+          "related_resources": [
+            {
+              "source_id": "ietf-rfc9110-idempotency",
+              "reason": "Idempotent request semantics and when a client may safely retry after a lost response"
+            },
+            {
+              "source_id": "nist-sp80034r1-contingency",
+              "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+            },
+            {
+              "source_id": "nist-sp80092-logs",
+              "reason": "Log collection, retention, analysis, and operational processes"
+            },
+            {
+              "source_id": "omron-control-hysteresis",
+              "reason": "On/off threshold hysteresis and prevention of rapid relay cycling"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P019000-01",
+              "claim": "Desired-state commands can be more robust to duplicate requests than ambiguous toggle actions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ietf-rfc9110-idempotency",
+                  "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-02",
+              "claim": "Log design and event timing affect diagnosis of automation faults.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-sp80092-logs",
+                  "location": "Log collection, retention, analysis, and operational processes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-03",
+              "claim": "Contingency plans should define behavior when communication or power is unavailable.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-sp80034r1-contingency",
+                  "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-04",
+              "claim": "Control state transitions and hysteresis matter for sensor-triggered automation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "omron-control-hysteresis",
+                  "location": "On/off threshold hysteresis and prevention of rapid relay cycling",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-networking-controls:012000",
+        "file": "012000-control-interlocks-debouncing-and-fail-safe-states.md",
+        "sha256": "aa81ec8870ee33db6b1ec770768661880ac3e252fb913681914e51e2acaee565",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-control-interlocks-debouncing-and-fail-safe-states.md",
+          "related_resources": [
+            {
+              "source_id": "osha-machine-guarding",
+              "reason": "Safeguards, machine protection, and separating personnel safety from convenience control"
+            },
+            {
+              "source_id": "omron-control-hysteresis",
+              "reason": "On/off threshold hysteresis and prevention of rapid relay cycling"
+            },
+            {
+              "source_id": "nist-ir8350-iot-onboarding",
+              "reason": "Onboarding functional roles, trust, lifecycle management and credentials"
+            },
+            {
+              "source_id": "nist-router-security",
+              "reason": "Router integrity, availability, and security as system dependencies"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P012000-01",
+              "claim": "Ordinary software commands should not be conflated with engineered personnel safety safeguards.",
+              "kind": "original_us_machine_guarding_context",
+              "supports": [
+                {
+                  "source_id": "osha-machine-guarding",
+                  "location": "Safeguards, machine protection, and separating personnel safety from convenience control",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-02",
+              "claim": "Sensor threshold hysteresis can reduce rapid switching around a setpoint.",
+              "kind": "original_manufacturer_control_concept",
+              "supports": [
+                {
+                  "source_id": "omron-control-hysteresis",
+                  "location": "On/off threshold hysteresis and prevention of rapid relay cycling",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-03",
+              "claim": "Stateful control needs explicit treatment of unavailable or contradictory observations.",
+              "kind": "derived_control_system_design",
+              "supports": [
+                {
+                  "source_id": "omron-control-hysteresis",
+                  "location": "On/off threshold hysteresis and prevention of rapid relay cycling",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-ir8350-iot-onboarding",
+                  "location": "Onboarding functional roles, trust, lifecycle management and credentials",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-04",
+              "claim": "Local device safety decisions should be distinguished from remote access and network convenience.",
+              "kind": "derived_automation_architecture",
+              "supports": [
+                {
+                  "source_id": "osha-machine-guarding",
+                  "location": "Safeguards, machine protection, and separating personnel safety from convenience control",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-router-security",
+                  "location": "Router integrity, availability, and security as system dependencies",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-networking-controls:015000",
+        "file": "015000-retries-timekeeping-and-event-delivery-in-automation.md",
+        "sha256": "6b92b08e952bd613a4348011eea7be56afd3187c84c5fc30ba00261e4adb8519",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-retries-timekeeping-and-event-delivery-in-automation.md",
+          "related_resources": [
+            {
+              "source_id": "ietf-rfc9110-idempotency",
+              "reason": "Idempotent request semantics and when a client may safely retry after a lost response"
+            },
+            {
+              "source_id": "ietf-rfc5905-ntp",
+              "reason": "Time synchronization, offsets, delays and network clock discipline"
+            },
+            {
+              "source_id": "nist-sp80092-logs",
+              "reason": "Log collection, retention, analysis, and operational processes"
+            },
+            {
+              "source_id": "omron-control-hysteresis",
+              "reason": "On/off threshold hysteresis and prevention of rapid relay cycling"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "A lost response can leave the sender uncertain whether a request was applied, requiring safe retry semantics.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ietf-rfc9110-idempotency",
+                  "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "Idempotent desired-state requests are easier to retry than blind toggle operations.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ietf-rfc9110-idempotency",
+                  "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Occurrence time and receipt time may differ, and synchronized wall clocks are distinct from elapsed-time timers.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ietf-rfc5905-ntp",
+                  "location": "Time synchronization, offsets, delays and network clock discipline",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-sp80092-logs",
+                  "location": "Log collection, retention, analysis, and operational processes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Automation logs should distinguish command, acknowledgment and observed physical state.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-sp80092-logs",
+                  "location": "Log collection, retention, analysis, and operational processes",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "omron-control-hysteresis",
+                  "location": "On/off threshold hysteresis and prevention of rapid relay cycling",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-networking-controls:018000",
+        "file": "018000-testing-offline-automation-during-router-and-cloud-outages.md",
+        "sha256": "398dbf5f17e83ccd23a463741f345a4141db22cd27e926bfb705d1a23095a04d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-testing-offline-automation-during-router-and-cloud-outages.md",
+          "related_resources": [
+            {
+              "source_id": "nist-sp80034r1-contingency",
+              "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+            },
+            {
+              "source_id": "nist-sp1800-15-iot",
+              "reason": "Restrict IoT traffic to device-appropriate purposes and apply updates and access controls"
+            },
+            {
+              "source_id": "ietf-rfc9110-idempotency",
+              "reason": "Idempotent request semantics and when a client may safely retry after a lost response"
+            },
+            {
+              "source_id": "ietf-rfc5905-ntp",
+              "reason": "Time synchronization, offsets, delays and network clock discipline"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "Network/cloud/controller outages may affect different stages of an IoT actuation workflow.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nist-sp80034r1-contingency",
+                  "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-sp1800-15-iot",
+                  "location": "Restrict IoT traffic to device-appropriate purposes and apply updates and access controls",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Retrying set-state and toggle commands has different idempotence consequences.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ietf-rfc9110-idempotency",
+                  "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "Clock and time synchronization dependencies can alter scheduled automation recovery.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ietf-rfc5905-ntp",
+                  "location": "Time synchronization, offsets, delays and network clock discipline",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-sp80034r1-contingency",
+                  "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "A restore plan needs verified procedures and dependency testing, not only backup files.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nist-sp80034r1-contingency",
+                  "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "005000-model-dependable-local-automation.md"
+      ],
+      "joined_before_source_parts": [
+        "012000",
+        "015000",
+        "018000"
+      ],
+      "reframed_repeated_opening": true
+    }
+  ]
 }

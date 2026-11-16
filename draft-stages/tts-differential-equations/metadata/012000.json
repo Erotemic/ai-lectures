@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "012000",
-  "transcript": "012000-poincare-maps-periodic-orbits-and-floquet-theory.md",
+  "transcript": "012000-return-maps-invariant-manifolds-and-hamiltonian-motion-shared-core.md",
   "related_resources": [
     {
       "source_id": "de-chicone",
@@ -10,7 +10,75 @@
     {
       "source_id": "de-mit-nonlinear",
       "reason": "Phase portraits and limit-cycle background."
+    },
+    {
+      "source_id": "de-mit385",
+      "reason": "Nonlinear equilibrium stability and bifurcations."
+    },
+    {
+      "source_id": "de-perko",
+      "reason": "Stable and center manifold theorem statements."
+    },
+    {
+      "source_id": "de-chicone",
+      "reason": "Invariant manifolds and nonlinear dynamics."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "differential-equations:012000",
+        "file": "012000-poincare-maps-periodic-orbits-and-floquet-theory.md",
+        "sha256": "e23ad84a024cbdd966125a4eee1fafc23f58ac3a1b82f0d7d463cdc30ed5693b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-poincare-maps-periodic-orbits-and-floquet-theory.md",
+          "related_resources": [
+            {
+              "source_id": "de-chicone",
+              "reason": "Poincare return maps, Floquet systems and stability of cycles."
+            },
+            {
+              "source_id": "de-mit-nonlinear",
+              "reason": "Phase portraits and limit-cycle background."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:016000",
+        "file": "016000-stable-unstable-center-manifolds.md",
+        "sha256": "3b45f0fd072fe7181cd50d6d1e91643f30de0acb4e999e07630aa88448bf1bcf",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-stable-unstable-center-manifolds.md",
+          "related_resources": [
+            {
+              "source_id": "de-mit385",
+              "reason": "Nonlinear equilibrium stability and bifurcations."
+            },
+            {
+              "source_id": "de-perko",
+              "reason": "Stable and center manifold theorem statements."
+            },
+            {
+              "source_id": "de-chicone",
+              "reason": "Invariant manifolds and nonlinear dynamics."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

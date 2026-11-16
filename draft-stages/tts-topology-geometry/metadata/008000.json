@@ -1,12 +1,110 @@
 {
   "schema_version": 1,
   "lecture_id": "008000",
-  "transcript": "008000-smooth-manifolds-and-tangent-spaces.md",
+  "transcript": "008000-coordinates-local-solvability-flows-and-tensors.md",
   "related_resources": [
     {
       "source_id": "tg-mit-manifolds",
       "reason": "Coordinate charts, transition maps, differentiable maps and tangent bundles."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "The inverse and implicit function theorems and the local regular-level-set argument."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Smooth vector fields, Lie derivatives and bracket calculations."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Tangent/cotangent bundles, differentials and pullbacks."
+    },
+    {
+      "source_id": "tg-auroux",
+      "reason": "Exterior algebra and pullback of forms."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:008000",
+        "file": "008000-smooth-manifolds-and-tangent-spaces.md",
+        "sha256": "f3b0c5bca6a7d4e9f679f3ae1dc59fb131404184c212ea04045111daf2ec904c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-smooth-manifolds-and-tangent-spaces.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Coordinate charts, transition maps, differentiable maps and tangent bundles."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:008100",
+        "file": "008100-inverse-and-implicit-function-theorems.md",
+        "sha256": "b0c7c1cf32a553bc2132f061e0c183f499f22ba34d023543bfb640095b9002f1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008100",
+          "transcript": "008100-inverse-and-implicit-function-theorems.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "The inverse and implicit function theorems and the local regular-level-set argument."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:008200",
+        "file": "008200-vector-fields-flows-and-lie-brackets.md",
+        "sha256": "0ed96090e3e3523928dcfe0cac817fb0cd68d548d939e36c8cf477141d136ef3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008200",
+          "transcript": "008200-vector-fields-flows-and-lie-brackets.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Smooth vector fields, Lie derivatives and bracket calculations."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:008300",
+        "file": "008300-cotangent-vectors-tensors-and-pullbacks.md",
+        "sha256": "0a89d78488a14321e24c702a9d7f8b86d0da9a6d86aabc8df1b10092007a0890",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008300",
+          "transcript": "008300-cotangent-vectors-tensors-and-pullbacks.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Tangent/cotangent bundles, differentials and pullbacks."
+            },
+            {
+              "source_id": "tg-auroux",
+              "reason": "Exterior algebra and pullback of forms."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

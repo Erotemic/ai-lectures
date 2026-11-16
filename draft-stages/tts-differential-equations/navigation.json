@@ -7,14 +7,8 @@
       "role": "main",
       "lectures": [
         "001000",
-        "002000",
-        "003000",
         "004000",
-        "005000",
-        "006000",
-        "007000",
-        "008000",
-        "009000"
+        "007000"
       ],
       "assumed_background": [
         "Derivatives, elementary functions, algebra; linear algebra for systems."
@@ -29,9 +23,7 @@
       "title": "Differential Equations · Periodic Orbits and Hamiltonian Dynamics",
       "role": "deep_dive",
       "lectures": [
-        "012000",
-        "016000",
-        "019000"
+        "012000"
       ],
       "parent": "survey",
       "assumed_background": [
@@ -39,6 +31,9 @@
       ],
       "preparation_collections": [
         "differential-equations:survey"
+      ],
+      "related_collections": [
+        "geometric-numerics"
       ]
     },
     {
@@ -47,15 +42,8 @@
       "role": "deep_dive",
       "lectures": [
         "010000",
-        "011000",
         "014000",
-        "015000",
-        "017000",
-        "020000",
-        "022000",
-        "026000",
-        "034000",
-        "038000"
+        "022000"
       ],
       "parent": "survey",
       "assumed_background": [
@@ -73,13 +61,7 @@
       "role": "deep_dive",
       "lectures": [
         "010000",
-        "011000",
-        "013000",
-        "018000",
-        "020000",
-        "032000",
-        "035000",
-        "037000"
+        "018000"
       ],
       "parent": "survey",
       "assumed_background": [
@@ -96,18 +78,10 @@
       "title": "Differential Equations · Dispersive and Nonlinear Waves",
       "role": "deep_dive",
       "lectures": [
-        "013000",
-        "015000",
-        "020000",
+        "010000",
         "023000",
-        "027000",
-        "029000",
         "028000",
-        "030000",
-        "033000",
-        "039000",
-        "041000",
-        "042000"
+        "041000"
       ],
       "parent": "survey",
       "assumed_background": [
@@ -117,6 +91,9 @@
         "differential-equations:survey",
         "analysis:pde",
         "multivariable-calculus:main"
+      ],
+      "related_collections": [
+        "parabolic-fronts"
       ]
     },
     {
@@ -125,10 +102,7 @@
       "role": "deep_dive",
       "lectures": [
         "010000",
-        "011000",
-        "020000",
-        "021000",
-        "025000"
+        "021000"
       ],
       "parent": "survey",
       "assumed_background": [
@@ -145,11 +119,7 @@
       "title": "Differential Equations · Variational Structure and Integrators",
       "role": "deep_dive",
       "lectures": [
-        "019000",
-        "024000",
-        "031000",
-        "036000",
-        "040000"
+        "019000"
       ],
       "parent": "survey",
       "assumed_background": [

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "025000",
-  "transcript": "025000-number-fields-discriminants-and-ramification.md",
+  "transcript": "025000-dedekind-arithmetic-completions-and-class-groups-shared-core.md",
   "related_resources": [
     {
       "source_id": "aa-mit785",
@@ -10,7 +10,126 @@
     {
       "source_id": "aa-conrad",
       "reason": "Quadratic fields and norms background."
+    },
+    {
+      "source_id": "aa-mit785",
+      "reason": "Class groups, Minkowski norm bounds, Dirichlet unit theorem."
+    },
+    {
+      "source_id": "aa-conrad",
+      "reason": "Quadratic integer rings and norm computations."
+    },
+    {
+      "source_id": "ab-r13-050000-1",
+      "reason": "Weil heights and arithmetic intersections using local contributions and metrized line bundles"
+    },
+    {
+      "source_id": "ab-r13-050000-2",
+      "reason": "Weil heights and arithmetic intersections using local contributions and metrized line bundles"
+    },
+    {
+      "source_id": "ab-r13-050000-3",
+      "reason": "Weil heights and arithmetic intersections using local contributions and metrized line bundles"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "029000-h01",
+      "anchor": "Minkowski's geometry-of-numbers theorem",
+      "kind": "historical_research",
+      "source_ids": [
+        "aa-mit785"
+      ],
+      "source_locator": "Minkowski bound and finite class group.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:025000",
+        "file": "025000-number-fields-discriminants-and-ramification.md",
+        "sha256": "7b6229414eba5ee4516ae23cb51fad1734c6d5d917417b743f13bf523f7e2525",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025000",
+          "transcript": "025000-number-fields-discriminants-and-ramification.md",
+          "related_resources": [
+            {
+              "source_id": "aa-mit785",
+              "reason": "Algebraic integers, discriminants, ramification and Dedekind-Kummer index hypothesis."
+            },
+            {
+              "source_id": "aa-conrad",
+              "reason": "Quadratic fields and norms background."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:029000",
+        "file": "029000-units-norms-and-class-groups.md",
+        "sha256": "e1db21827a382587c639ed9b7122b8237d0fd986b735e85a93297ebeac9e5e51",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "029000",
+          "transcript": "029000-units-norms-and-class-groups.md",
+          "related_resources": [
+            {
+              "source_id": "aa-mit785",
+              "reason": "Class groups, Minkowski norm bounds, Dirichlet unit theorem."
+            },
+            {
+              "source_id": "aa-conrad",
+              "reason": "Quadratic integer rings and norm computations."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "029000-h01",
+              "anchor": "Minkowski's geometry-of-numbers theorem",
+              "kind": "historical_research",
+              "source_ids": [
+                "aa-mit785"
+              ],
+              "source_locator": "Minkowski bound and finite class group.",
+              "audit_status": "reference_recorded"
+            }
+          ]
+        }
+      },
+      {
+        "id": "abstract-algebra:050000",
+        "file": "050000-arithmetic-intersection-theory-and-heights.md",
+        "sha256": "a8b1e65aeedea3e3e5ef8a8e187bf15f600db7f055c1da5c40193dabefcfcd12",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "050000",
+          "transcript": "050000-arithmetic-intersection-theory-and-heights.md",
+          "related_resources": [
+            {
+              "source_id": "ab-r13-050000-1",
+              "reason": "Weil heights and arithmetic intersections using local contributions and metrized line bundles"
+            },
+            {
+              "source_id": "ab-r13-050000-2",
+              "reason": "Weil heights and arithmetic intersections using local contributions and metrized line bundles"
+            },
+            {
+              "source_id": "ab-r13-050000-3",
+              "reason": "Weil heights and arithmetic intersections using local contributions and metrized line bundles"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

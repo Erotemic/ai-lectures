@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "003000",
-  "transcript": "003000-starches-gelatinization-and-texture.md",
+  "transcript": "003000-build-texture-in-starches-proteins-and-doughs.md",
   "related_resources": [
     {
       "source_id": "asb-starch",
@@ -10,6 +10,62 @@
     {
       "source_id": "fao-carb",
       "reason": "Starch pasting, retrogradation, syneresis and polysaccharide chains"
+    },
+    {
+      "source_id": "meatsci-heat-proteins",
+      "reason": "Protein denaturation/aggregation, collagen shrinkage and gelatin formation; abstract only"
+    },
+    {
+      "source_id": "usda-fsis-temps",
+      "reason": "Home-cooking category minimums and rest periods; checked 2026-11-15"
+    },
+    {
+      "source_id": "fsis-safety",
+      "reason": "Clean, separate, cook and chill practices"
+    },
+    {
+      "source_id": "fsis-thermometer",
+      "reason": "Measurement in thickest relevant portion of food"
+    },
+    {
+      "source_id": "fuchigami-vegetable-maceration",
+      "reason": "Cooking pH, pectic-substance release and vegetable-tissue firmness; material-dependent"
+    },
+    {
+      "source_id": "usu-pickle-pectin",
+      "reason": "Pectin and vegetable tissue texture; practical application focused on pickling"
+    },
+    {
+      "source_id": "illinois-maillard",
+      "reason": "Moisture, heating and browning"
+    },
+    {
+      "source_id": "healthcanada-lectins-legumes",
+      "reason": "Red kidney bean phytohaemagglutinin, specified pre-soak, vigorous boil and slow-cooker limitations"
+    },
+    {
+      "source_id": "medlineplus-beans-legumes",
+      "reason": "Dry bean soaking and cooking principles, legumes as food"
+    },
+    {
+      "source_id": "aeb-egg-coagulation21",
+      "reason": "Egg protein denaturation, aggregation, custard texture, sugar and starch effects"
+    },
+    {
+      "source_id": "aeb-egg-foaming21",
+      "reason": "Air-cell stabilization and meringue foam mechanics"
+    },
+    {
+      "source_id": "usda-egg-dishes21",
+      "reason": "160 degrees Fahrenheit guidance for casseroles and dishes containing eggs"
+    },
+    {
+      "source_id": "ka-yeast-reference",
+      "reason": "Yeast fermentation and bread gas production, temperature and sugar/salt effects"
+    },
+    {
+      "source_id": "ka-gluten-author",
+      "reason": "Gliadin/glutenin network and gas retention, gluten-free bread distinctions"
     }
   ],
   "historical_claims": [],
@@ -68,8 +124,932 @@
       "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
       "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
       "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P004000-01",
+      "claim": "Heating can change muscle proteins and collagen, altering water retention and cooked-meat texture.",
+      "kind": "food_science_mechanism",
+      "supports": [
+        {
+          "source_id": "meatsci-heat-proteins",
+          "location": "Journal abstract: globular/fibrous proteins, collagen changes and texture",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-02",
+      "claim": "Whole cuts, ground meats and poultry have different USDA minimum internal temperatures and whole-cut rest guidance.",
+      "kind": "public_health_guidance",
+      "supports": [
+        {
+          "source_id": "usda-fsis-temps",
+          "location": "FSIS September 2024 temperature summary; existing safe-food reference",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "fsis-safety",
+          "location": "FSIS September 2024 temperature summary; existing safe-food reference",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-03",
+      "claim": "Color and texture are insufficient evidence of microbiological cooking safety.",
+      "kind": "public_health_guidance",
+      "supports": [
+        {
+          "source_id": "usda-fsis-temps",
+          "location": "FSIS safe internal temperature and food thermometer guidance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "fsis-thermometer",
+          "location": "FSIS safe internal temperature and food thermometer guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P019000-01",
+      "claim": "Vegetable texture depends on structural cell-wall materials and plant-tissue integrity.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "fuchigami-vegetable-maceration",
+          "location": "Cooking pH, pectic-substance release and vegetable-tissue firmness; material-dependent",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-pickle-pectin",
+          "location": "Pectin and vegetable tissue texture; practical application focused on pickling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Acidity and cooking conditions influence pectic-substance release and vegetable softening.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "fuchigami-vegetable-maceration",
+          "location": "Cooking pH, pectic-substance release and vegetable-tissue firmness; material-dependent",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "Browning and evaporation change dry-heat cooking outcomes.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "illinois-maillard",
+          "location": "Moisture, heating and browning",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Cleaning and cross-contamination control remain necessary independent of desired texture.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "fsis-safety",
+          "location": "Clean, separate, cook and chill practices",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-01",
+      "claim": "Hydration and heat-driven starch gelatinization are different transformations.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "asb-starch",
+          "location": "Granule swelling, gelatinization and paste viscosity",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "fao-carb",
+          "location": "Starch pasting, retrogradation, syneresis and polysaccharide chains",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "Soaking can change dry-legume hydration and subsequent cooking behavior.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "medlineplus-beans-legumes",
+          "location": "Dry bean soaking and cooking principles, legumes as food",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "Cell-wall properties influence the tenderization of beans and vegetables.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "fao-carb",
+          "location": "Starch pasting, retrogradation, syneresis and polysaccharide chains",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-pickle-pectin",
+          "location": "Pectin and vegetable tissue texture; practical application focused on pickling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Raw or undercooked red kidney beans can cause lectin poisoning.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "healthcanada-lectins-legumes",
+          "location": "Red kidney bean phytohaemagglutinin, specified pre-soak, vigorous boil and slow-cooker limitations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Health Canada advises soaking and a vigorous boil and warns against slow-cooker cooking of raw red kidney beans.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "healthcanada-lectins-legumes",
+          "location": "Red kidney bean phytohaemagglutinin, specified pre-soak, vigorous boil and slow-cooker limitations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-06",
+      "claim": "Texture is not a reliable test of kidney-bean lectin inactivation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "healthcanada-lectins-legumes",
+          "location": "Red kidney bean phytohaemagglutinin, specified pre-soak, vigorous boil and slow-cooker limitations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-01",
+      "claim": "Egg proteins denature and aggregate under heat, producing custard thickening and eventual gels.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aeb-egg-coagulation21",
+          "location": "Egg protein denaturation, aggregation, custard texture, sugar and starch effects",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-02",
+      "claim": "Excessive aggregation can yield curdling and loss of retained liquid.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aeb-egg-coagulation21",
+          "location": "Egg protein denaturation, aggregation, custard texture, sugar and starch effects",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-03",
+      "claim": "Egg-white foams depend on protein-stabilized air-water interfaces and are altered by acid and sugar.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aeb-egg-foaming21",
+          "location": "Air-cell stabilization and meringue foam mechanics",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-04",
+      "claim": "USDA recommends cooking egg-containing casseroles and analogous egg dishes to 160 F.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usda-egg-dishes21",
+          "location": "160 degrees Fahrenheit guidance for casseroles and dishes containing eggs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-01",
+      "claim": "Yeast fermentation produces carbon dioxide and alcohol from available sugars in bread dough.",
+      "kind": "original_baking_technical_reference",
+      "supports": [
+        {
+          "source_id": "ka-yeast-reference",
+          "location": "Fermentation mechanism and conditions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Hydrated flour proteins form a gluten network that can retain gas during bread rising.",
+      "kind": "original_baking_educational_author",
+      "supports": [
+        {
+          "source_id": "ka-gluten-author",
+          "location": "Gliadin/glutenin and gluten formation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Fermentation and dough structure must be balanced to support loaf expansion.",
+      "kind": "derived_food_science",
+      "supports": [
+        {
+          "source_id": "ka-yeast-reference",
+          "location": "Gas generation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ka-gluten-author",
+          "location": "Gas retention and network",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+  "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-food-science:003000",
+        "file": "003000-starches-gelatinization-and-texture.md",
+        "sha256": "5bccb7aa89b2038459e5d2cef2301337ac73ed0ff6ca1e1b17b1a1833b84ddbb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-starches-gelatinization-and-texture.md",
+          "related_resources": [
+            {
+              "source_id": "asb-starch",
+              "reason": "Granule swelling, gelatinization and paste viscosity"
+            },
+            {
+              "source_id": "fao-carb",
+              "reason": "Starch pasting, retrogradation, syneresis and polysaccharide chains"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P003000-01",
+              "claim": "Starch gelatinization involves water, heat, granule swelling and loss of molecular order.",
+              "kind": "food_chemistry",
+              "supports": [
+                {
+                  "source_id": "asb-starch",
+                  "location": "ASB gelatinization mechanism; FAO carbohydrate review",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "fao-carb",
+                  "location": "ASB gelatinization mechanism; FAO carbohydrate review",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-02",
+              "claim": "Pasting and cooling can change viscosity and gel structure through polymer release and reassociation.",
+              "kind": "food_chemistry",
+              "supports": [
+                {
+                  "source_id": "asb-starch",
+                  "location": "ASB starch in hot water; FAO retrogradation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "fao-carb",
+                  "location": "ASB starch in hot water; FAO retrogradation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-03",
+              "claim": "Starch functionality depends on botanical origin, water and formulation conditions rather than a universal heating temperature.",
+              "kind": "food_chemistry",
+              "supports": [
+                {
+                  "source_id": "asb-starch",
+                  "location": "ASB gelatinization factors and formulation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+        }
+      },
+      {
+        "id": "practical-food-science:004000",
+        "file": "004000-proteins-tenderness-and-time-temperature.md",
+        "sha256": "5bf4de47fe47a08a9cd3de7259d78cf02df9080b4a1a991c1c2daf5f8b66ad7c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-proteins-tenderness-and-time-temperature.md",
+          "related_resources": [
+            {
+              "source_id": "meatsci-heat-proteins",
+              "reason": "Protein denaturation/aggregation, collagen shrinkage and gelatin formation; abstract only"
+            },
+            {
+              "source_id": "usda-fsis-temps",
+              "reason": "Home-cooking category minimums and rest periods; checked 2026-11-15"
+            },
+            {
+              "source_id": "fsis-safety",
+              "reason": "Clean, separate, cook and chill practices"
+            },
+            {
+              "source_id": "fsis-thermometer",
+              "reason": "Measurement in thickest relevant portion of food"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P004000-01",
+              "claim": "Heating can change muscle proteins and collagen, altering water retention and cooked-meat texture.",
+              "kind": "food_science_mechanism",
+              "supports": [
+                {
+                  "source_id": "meatsci-heat-proteins",
+                  "location": "Journal abstract: globular/fibrous proteins, collagen changes and texture",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-02",
+              "claim": "Whole cuts, ground meats and poultry have different USDA minimum internal temperatures and whole-cut rest guidance.",
+              "kind": "public_health_guidance",
+              "supports": [
+                {
+                  "source_id": "usda-fsis-temps",
+                  "location": "FSIS September 2024 temperature summary; existing safe-food reference",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "fsis-safety",
+                  "location": "FSIS September 2024 temperature summary; existing safe-food reference",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-03",
+              "claim": "Color and texture are insufficient evidence of microbiological cooking safety.",
+              "kind": "public_health_guidance",
+              "supports": [
+                {
+                  "source_id": "usda-fsis-temps",
+                  "location": "FSIS safe internal temperature and food thermometer guidance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "fsis-thermometer",
+                  "location": "FSIS safe internal temperature and food thermometer guidance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design."
+        }
+      },
+      {
+        "id": "practical-food-science:019000",
+        "file": "019000-cooking-vegetables-cell-walls-water-and-texture.md",
+        "sha256": "af9851219cd9095081edf1f74bcabd857eb818a7207f756cd879873c2bf079fa",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-cooking-vegetables-cell-walls-water-and-texture.md",
+          "related_resources": [
+            {
+              "source_id": "fuchigami-vegetable-maceration",
+              "reason": "Cooking pH, pectic-substance release and vegetable-tissue firmness; material-dependent"
+            },
+            {
+              "source_id": "usu-pickle-pectin",
+              "reason": "Pectin and vegetable tissue texture; practical application focused on pickling"
+            },
+            {
+              "source_id": "illinois-maillard",
+              "reason": "Moisture, heating and browning"
+            },
+            {
+              "source_id": "fsis-safety",
+              "reason": "Clean, separate, cook and chill practices"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P019000-01",
+              "claim": "Vegetable texture depends on structural cell-wall materials and plant-tissue integrity.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "fuchigami-vegetable-maceration",
+                  "location": "Cooking pH, pectic-substance release and vegetable-tissue firmness; material-dependent",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-pickle-pectin",
+                  "location": "Pectin and vegetable tissue texture; practical application focused on pickling",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-02",
+              "claim": "Acidity and cooking conditions influence pectic-substance release and vegetable softening.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "fuchigami-vegetable-maceration",
+                  "location": "Cooking pH, pectic-substance release and vegetable-tissue firmness; material-dependent",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-03",
+              "claim": "Browning and evaporation change dry-heat cooking outcomes.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "illinois-maillard",
+                  "location": "Moisture, heating and browning",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-04",
+              "claim": "Cleaning and cross-contamination control remain necessary independent of desired texture.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "fsis-safety",
+                  "location": "Clean, separate, cook and chill practices",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-food-science:020000",
+        "file": "020000-legumes-and-grains-hydration-structure-and-tenderness.md",
+        "sha256": "dd3e7a7e667b232eb497148f07973eda4cfce6f0ba420ffbf51ee661c4dbdd07",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-legumes-and-grains-hydration-structure-and-tenderness.md",
+          "related_resources": [
+            {
+              "source_id": "healthcanada-lectins-legumes",
+              "reason": "Red kidney bean phytohaemagglutinin, specified pre-soak, vigorous boil and slow-cooker limitations"
+            },
+            {
+              "source_id": "medlineplus-beans-legumes",
+              "reason": "Dry bean soaking and cooking principles, legumes as food"
+            },
+            {
+              "source_id": "asb-starch",
+              "reason": "Granule swelling, gelatinization and paste viscosity"
+            },
+            {
+              "source_id": "fao-carb",
+              "reason": "Starch pasting, retrogradation, syneresis and polysaccharide chains"
+            },
+            {
+              "source_id": "usu-pickle-pectin",
+              "reason": "Pectin and vegetable tissue texture; practical application focused on pickling"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P020000-01",
+              "claim": "Hydration and heat-driven starch gelatinization are different transformations.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "asb-starch",
+                  "location": "Granule swelling, gelatinization and paste viscosity",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "fao-carb",
+                  "location": "Starch pasting, retrogradation, syneresis and polysaccharide chains",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-02",
+              "claim": "Soaking can change dry-legume hydration and subsequent cooking behavior.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "medlineplus-beans-legumes",
+                  "location": "Dry bean soaking and cooking principles, legumes as food",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-03",
+              "claim": "Cell-wall properties influence the tenderization of beans and vegetables.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "fao-carb",
+                  "location": "Starch pasting, retrogradation, syneresis and polysaccharide chains",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-pickle-pectin",
+                  "location": "Pectin and vegetable tissue texture; practical application focused on pickling",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-04",
+              "claim": "Raw or undercooked red kidney beans can cause lectin poisoning.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "healthcanada-lectins-legumes",
+                  "location": "Red kidney bean phytohaemagglutinin, specified pre-soak, vigorous boil and slow-cooker limitations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-05",
+              "claim": "Health Canada advises soaking and a vigorous boil and warns against slow-cooker cooking of raw red kidney beans.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "healthcanada-lectins-legumes",
+                  "location": "Red kidney bean phytohaemagglutinin, specified pre-soak, vigorous boil and slow-cooker limitations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-06",
+              "claim": "Texture is not a reliable test of kidney-bean lectin inactivation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "healthcanada-lectins-legumes",
+                  "location": "Red kidney bean phytohaemagglutinin, specified pre-soak, vigorous boil and slow-cooker limitations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+        }
+      },
+      {
+        "id": "practical-food-science:021000",
+        "file": "021000-custards-foams-and-how-egg-proteins-set.md",
+        "sha256": "5f77de862b43e5b54df52c59d87d254218e6551a86121d189bab77bc00065f3a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-custards-foams-and-how-egg-proteins-set.md",
+          "related_resources": [
+            {
+              "source_id": "aeb-egg-coagulation21",
+              "reason": "Egg protein denaturation, aggregation, custard texture, sugar and starch effects"
+            },
+            {
+              "source_id": "aeb-egg-foaming21",
+              "reason": "Air-cell stabilization and meringue foam mechanics"
+            },
+            {
+              "source_id": "usda-egg-dishes21",
+              "reason": "160 degrees Fahrenheit guidance for casseroles and dishes containing eggs"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P021000-01",
+              "claim": "Egg proteins denature and aggregate under heat, producing custard thickening and eventual gels.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aeb-egg-coagulation21",
+                  "location": "Egg protein denaturation, aggregation, custard texture, sugar and starch effects",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-02",
+              "claim": "Excessive aggregation can yield curdling and loss of retained liquid.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aeb-egg-coagulation21",
+                  "location": "Egg protein denaturation, aggregation, custard texture, sugar and starch effects",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-03",
+              "claim": "Egg-white foams depend on protein-stabilized air-water interfaces and are altered by acid and sugar.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aeb-egg-foaming21",
+                  "location": "Air-cell stabilization and meringue foam mechanics",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-04",
+              "claim": "USDA recommends cooking egg-containing casseroles and analogous egg dishes to 160 F.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "usda-egg-dishes21",
+                  "location": "160 degrees Fahrenheit guidance for casseroles and dishes containing eggs",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_or_clinical_review_pending",
+          "citation_policy": "Credit original authors and standards issuers; cite educational synthesis accurately. No engineering, clinical, or jurisdictional certification is claimed."
+        }
+      },
+      {
+        "id": "practical-food-science:009000",
+        "file": "009000-baking-leavening-and-gluten-networks.md",
+        "sha256": "7f9dadec7695580f88d7288d121ed87b6b85f1ae87535c3f3070ba1925e45e1c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-baking-leavening-and-gluten-networks.md",
+          "related_resources": [
+            {
+              "source_id": "ka-yeast-reference",
+              "reason": "Yeast fermentation and bread gas production, temperature and sugar/salt effects"
+            },
+            {
+              "source_id": "ka-gluten-author",
+              "reason": "Gliadin/glutenin network and gas retention, gluten-free bread distinctions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P009000-01",
+              "claim": "Yeast fermentation produces carbon dioxide and alcohol from available sugars in bread dough.",
+              "kind": "original_baking_technical_reference",
+              "supports": [
+                {
+                  "source_id": "ka-yeast-reference",
+                  "location": "Fermentation mechanism and conditions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-02",
+              "claim": "Hydrated flour proteins form a gluten network that can retain gas during bread rising.",
+              "kind": "original_baking_educational_author",
+              "supports": [
+                {
+                  "source_id": "ka-gluten-author",
+                  "location": "Gliadin/glutenin and gluten formation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-03",
+              "claim": "Fermentation and dough structure must be balanced to support loaf expansion.",
+              "kind": "derived_food_science",
+              "supports": [
+                {
+                  "source_id": "ka-yeast-reference",
+                  "location": "Gas generation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ka-gluten-author",
+                  "location": "Gas retention and network",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "003000-build-texture-in-starches-proteins-and-doughs.md"
+      ],
+      "joined_before_source_parts": [
+        "004000",
+        "021000",
+        "009000"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-an-estimate-is-a-model-of-work.md",
+  "transcript": "001000-define-the-work-so-bids-can-be-compared.md",
   "related_resources": [
     {
       "source_id": "ftc-improvement",
@@ -10,6 +10,30 @@
     {
       "source_id": "ftc-disaster",
       "reason": "Licensing/insurance verification and comparable written bids"
+    },
+    {
+      "source_id": "aba-contract",
+      "reason": "Scope, materials, change orders, responsibility and payment terms"
+    },
+    {
+      "source_id": "csi-masterformat-2026",
+      "reason": "Organization of specification sections and coordination of construction information"
+    },
+    {
+      "source_id": "aia-lima-submittals",
+      "reason": "AIA A201 distinction between submittals and contract documents; contract dependent"
+    },
+    {
+      "source_id": "nysenate-gbl771",
+      "reason": "Writing and signatures for home-improvement contract amendments under specific state law"
+    },
+    {
+      "source_id": "nyag-hiring-contractors",
+      "reason": "Local license checks, insurance, permits/inspections and written scope; NY guidance only"
+    },
+    {
+      "source_id": "md-allowances",
+      "reason": "Allowances and differences between fixed price and time/materials"
     }
   ],
   "historical_claims": [],
@@ -63,8 +87,1004 @@
       "verification_level": "public_source_identified_editorial_check_pending",
       "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
       "professional_review": "pending"
+    },
+    {
+      "claim_id": "P002000-01",
+      "claim": "Written scopes and bids should identify the work, materials, dates and price.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "FTC written estimates; ABA work specification",
+          "role": "reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "FTC written estimates; ABA work specification",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-02",
+      "claim": "Contracts benefit from explicit change-order procedures for changed conditions.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "aba-contract",
+          "location": "ABA change orders",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-03",
+      "claim": "Lowest price alone does not establish the value of incomparable bids.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "FTC comparison caution",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-04",
+      "claim": "Permit and credential requirements depend on local law and must be verified.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "ftc-disaster",
+          "location": "FTC and ABA local requirements",
+          "role": "reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "FTC and ABA local requirements",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P009000-01",
+      "claim": "MasterFormat is a CSI/CSC system organizing construction documentation and specification sections.",
+      "kind": "original_standards_issuer_framework",
+      "supports": [
+        {
+          "source_id": "csi-masterformat-2026",
+          "location": "MasterFormat 2026 organization and issuer",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "AIA A201 distinguishes contract documents from project submittals, with defined reviewer and contractor obligations.",
+      "kind": "named_author_professional_analysis",
+      "supports": [
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "A201 section 3.12 submittal discussion; not universally applicable",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Drawing and specification conflicts require project-specific clarification rather than relying on a default document hierarchy.",
+      "kind": "derived_contract_documentation_practice",
+      "supports": [
+        {
+          "source_id": "csi-masterformat-2026",
+          "location": "Coordinating project information",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "Submittals vs contract obligations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P007000-01",
+      "claim": "Consumer home-improvement contracts should describe work scope, timeline, payments and relevant promises.",
+      "kind": "consumer_contractor_guidance",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "FTC contract checklist and estimate comparison",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "The FTC advises against final payment before work is completed to the customer’s satisfaction and preserving invoices/receipts.",
+      "kind": "consumer_contractor_guidance",
+      "supports": [
+        {
+          "source_id": "ftc-disaster",
+          "location": "FTC: How To Pay for Repairs / final payment advice",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "Jurisdiction-specific contract provisions and change orders need written scope and compliance review.",
+      "kind": "legal_consumer_guidance",
+      "supports": [
+        {
+          "source_id": "nysenate-gbl771",
+          "location": "NY General Business Law §771, New York-specific contract provisions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ftc-improvement",
+          "location": "FTC reminder that contract requirements vary by state",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-01",
+      "claim": "License, insurance, permit and inspection represent distinct kinds of verification and cannot be conflated.",
+      "kind": "consumer_guidance",
+      "supports": [
+        {
+          "source_id": "nyag-hiring-contractors",
+          "location": "NY AG Do Your Homework and Permits/Insurance/License; FTC contractor hiring",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ftc-improvement",
+          "location": "NY AG Do Your Homework and Permits/Insurance/License; FTC contractor hiring",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-02",
+      "claim": "Trade licensing and home-improvement requirements vary by locality and exact scope.",
+      "kind": "regulatory_scope",
+      "supports": [
+        {
+          "source_id": "nyag-hiring-contractors",
+          "location": "NY AG local licensing examples, explicitly state-specific",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-03",
+      "claim": "Written scopes should address permits, inspections, change terms and completion records rather than relying on oral assurances.",
+      "kind": "consumer_guidance",
+      "supports": [
+        {
+          "source_id": "nyag-hiring-contractors",
+          "location": "NY AG written contract, inspections, permits; FTC contract guidance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ftc-improvement",
+          "location": "NY AG written contract, inspections, permits; FTC contract guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P003000-01",
+      "claim": "Written estimates should state scope, materials, completion expectations and payment terms for meaningful comparison.",
+      "kind": "consumer_contract_practice",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "FTC home improvement and ABA contract content",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "FTC home improvement and ABA contract content",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P003000-02",
+      "claim": "Allowances are provisional material or selection amounts that can make bid totals noncomparable.",
+      "kind": "consumer_contract_practice",
+      "supports": [
+        {
+          "source_id": "md-allowances",
+          "location": "Maryland People’s Law Library allowances and FTC bid comparison",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ftc-improvement",
+          "location": "Maryland People’s Law Library allowances and FTC bid comparison",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P003000-03",
+      "claim": "Fixed-price and time-and-materials contracts allocate cost uncertainty differently; change-order language matters.",
+      "kind": "consumer_contract_practice",
+      "supports": [
+        {
+          "source_id": "md-allowances",
+          "location": "Maryland education page fixed versus T&M and ABA contract changes",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Maryland education page fixed versus T&M and ABA contract changes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P011000-01",
+      "claim": "Contractors may exclude or leave ambiguous elements even when bidding against a common project sketch.",
+      "kind": "original_ftc_home_improvement_guidance",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written scope and clarifying bids",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Allowances and unit-price provisions should identify their coverage and uncertain quantities to enable comparisons.",
+      "kind": "derived_contract_comparison_practice",
+      "supports": [
+        {
+          "source_id": "md-allowances",
+          "location": "Allowances and specification differences",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Terms, change orders and scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Requirements about deposits, written contracts, licensing, and cancellation can vary with jurisdiction.",
+      "kind": "original_ny_specific_law_not_universal",
+      "supports": [
+        {
+          "source_id": "nyag-hiring-contractors",
+          "location": "State consumer guidance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nysenate-gbl771",
+          "location": "NY statutory written-contract provisions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Schedule, payment and acceptance terms should be compared alongside nominal total price.",
+      "kind": "derived_procurement_method",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Estimates and contractor choice",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Schedule/payment/acceptance concepts",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "educational_draft_sources_recorded_not_field_validated",
-  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-contractors-estimates:001000",
+        "file": "001000-an-estimate-is-a-model-of-work.md",
+        "sha256": "c39a5ceb91deb3a7e1bbbab5d2d69b39102c1290c12889f1656abd0b783d25a5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-an-estimate-is-a-model-of-work.md",
+          "related_resources": [
+            {
+              "source_id": "ftc-improvement",
+              "reason": "Written estimates, contracts, licenses and payment caution"
+            },
+            {
+              "source_id": "ftc-disaster",
+              "reason": "Licensing/insurance verification and comparable written bids"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P001000-01",
+              "claim": "Written estimates require scope details for meaningful comparison",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Written estimates, contracts, licenses and payment caution",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "ftc-disaster",
+                  "location": "Licensing/insurance verification and comparable written bids",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-02",
+              "claim": "Credentials and insurance should be verified against local requirements",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "ftc-disaster",
+                  "location": "Licensing/insurance verification and comparable written bids",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-03",
+              "claim": "Contract and payment protections vary by jurisdiction",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Written estimates, contracts, licenses and payment caution",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            }
+          ],
+          "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+          "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:002000",
+        "file": "002000-problem-statements-diagnoses-and-written-scopes.md",
+        "sha256": "a3fcc6cd8c08b8b443fed07540e982b5e1cdf2e092240e9173466a41fb8ae160",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-problem-statements-diagnoses-and-written-scopes.md",
+          "related_resources": [
+            {
+              "source_id": "ftc-improvement",
+              "reason": "Written estimates, contracts, licenses and payment caution"
+            },
+            {
+              "source_id": "aba-contract",
+              "reason": "Scope, materials, change orders, responsibility and payment terms"
+            },
+            {
+              "source_id": "ftc-disaster",
+              "reason": "Licensing/insurance verification and comparable written bids"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P002000-01",
+              "claim": "Written scopes and bids should identify the work, materials, dates and price.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "FTC written estimates; ABA work specification",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "aba-contract",
+                  "location": "FTC written estimates; ABA work specification",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-02",
+              "claim": "Contracts benefit from explicit change-order procedures for changed conditions.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "aba-contract",
+                  "location": "ABA change orders",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-03",
+              "claim": "Lowest price alone does not establish the value of incomparable bids.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "FTC comparison caution",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-04",
+              "claim": "Permit and credential requirements depend on local law and must be verified.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "ftc-disaster",
+                  "location": "FTC and ABA local requirements",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "aba-contract",
+                  "location": "FTC and ABA local requirements",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:009000",
+        "file": "009000-reading-drawings-specifications-and-submittals.md",
+        "sha256": "a15898dd9652494174b3ecb3bb0306c94ba593c27b647a08c21bfe83cd2cb0a8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-reading-drawings-specifications-and-submittals.md",
+          "related_resources": [
+            {
+              "source_id": "csi-masterformat-2026",
+              "reason": "Organization of specification sections and coordination of construction information"
+            },
+            {
+              "source_id": "aia-lima-submittals",
+              "reason": "AIA A201 distinction between submittals and contract documents; contract dependent"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P009000-01",
+              "claim": "MasterFormat is a CSI/CSC system organizing construction documentation and specification sections.",
+              "kind": "original_standards_issuer_framework",
+              "supports": [
+                {
+                  "source_id": "csi-masterformat-2026",
+                  "location": "MasterFormat 2026 organization and issuer",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-02",
+              "claim": "AIA A201 distinguishes contract documents from project submittals, with defined reviewer and contractor obligations.",
+              "kind": "named_author_professional_analysis",
+              "supports": [
+                {
+                  "source_id": "aia-lima-submittals",
+                  "location": "A201 section 3.12 submittal discussion; not universally applicable",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-03",
+              "claim": "Drawing and specification conflicts require project-specific clarification rather than relying on a default document hierarchy.",
+              "kind": "derived_contract_documentation_practice",
+              "supports": [
+                {
+                  "source_id": "csi-masterformat-2026",
+                  "location": "Coordinating project information",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aia-lima-submittals",
+                  "location": "Submittals vs contract obligations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:007000",
+        "file": "007000-acceptance-criteria-and-documentation.md",
+        "sha256": "b1fc8116cc8dc3a223d81de779257a7f7bde9c549cf4d4068a549f46a8e468aa",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-acceptance-criteria-and-documentation.md",
+          "related_resources": [
+            {
+              "source_id": "ftc-improvement",
+              "reason": "Written estimates, contracts, licenses and payment caution"
+            },
+            {
+              "source_id": "ftc-disaster",
+              "reason": "Licensing/insurance verification and comparable written bids"
+            },
+            {
+              "source_id": "nysenate-gbl771",
+              "reason": "Writing and signatures for home-improvement contract amendments under specific state law"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P007000-01",
+              "claim": "Consumer home-improvement contracts should describe work scope, timeline, payments and relevant promises.",
+              "kind": "consumer_contractor_guidance",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "FTC contract checklist and estimate comparison",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-02",
+              "claim": "The FTC advises against final payment before work is completed to the customer’s satisfaction and preserving invoices/receipts.",
+              "kind": "consumer_contractor_guidance",
+              "supports": [
+                {
+                  "source_id": "ftc-disaster",
+                  "location": "FTC: How To Pay for Repairs / final payment advice",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P007000-03",
+              "claim": "Jurisdiction-specific contract provisions and change orders need written scope and compliance review.",
+              "kind": "legal_consumer_guidance",
+              "supports": [
+                {
+                  "source_id": "nysenate-gbl771",
+                  "location": "NY General Business Law §771, New York-specific contract provisions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "FTC reminder that contract requirements vary by state",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+              "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:004000",
+        "file": "004000-licenses-insurance-permits-and-inspections.md",
+        "sha256": "baeb3e12b1b1afef6e118f5bf2b44c640fb9a6a34bfc8d72add376a4dbfad4d6",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "004000",
+          "transcript": "004000-licenses-insurance-permits-and-inspections.md",
+          "related_resources": [
+            {
+              "source_id": "nyag-hiring-contractors",
+              "reason": "Local license checks, insurance, permits/inspections and written scope; NY guidance only"
+            },
+            {
+              "source_id": "ftc-improvement",
+              "reason": "Written estimates, contracts, licenses and payment caution"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P004000-01",
+              "claim": "License, insurance, permit and inspection represent distinct kinds of verification and cannot be conflated.",
+              "kind": "consumer_guidance",
+              "supports": [
+                {
+                  "source_id": "nyag-hiring-contractors",
+                  "location": "NY AG Do Your Homework and Permits/Insurance/License; FTC contractor hiring",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "NY AG Do Your Homework and Permits/Insurance/License; FTC contractor hiring",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-02",
+              "claim": "Trade licensing and home-improvement requirements vary by locality and exact scope.",
+              "kind": "regulatory_scope",
+              "supports": [
+                {
+                  "source_id": "nyag-hiring-contractors",
+                  "location": "NY AG local licensing examples, explicitly state-specific",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P004000-03",
+              "claim": "Written scopes should address permits, inspections, change terms and completion records rather than relying on oral assurances.",
+              "kind": "consumer_guidance",
+              "supports": [
+                {
+                  "source_id": "nyag-hiring-contractors",
+                  "location": "NY AG written contract, inspections, permits; FTC contract guidance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "NY AG written contract, inspections, permits; FTC contract guidance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+              "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:003000",
+        "file": "003000-estimates-fixed-quotes-allowances-and-unit-prices.md",
+        "sha256": "291d45b871a3c01bd596c4277effa8cdee68fc96eacafbf947d15c5188bd1af8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "003000",
+          "transcript": "003000-estimates-fixed-quotes-allowances-and-unit-prices.md",
+          "related_resources": [
+            {
+              "source_id": "ftc-improvement",
+              "reason": "Written estimates, contracts, licenses and payment caution"
+            },
+            {
+              "source_id": "aba-contract",
+              "reason": "Scope, materials, change orders, responsibility and payment terms"
+            },
+            {
+              "source_id": "md-allowances",
+              "reason": "Allowances and differences between fixed price and time/materials"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P003000-01",
+              "claim": "Written estimates should state scope, materials, completion expectations and payment terms for meaningful comparison.",
+              "kind": "consumer_contract_practice",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "FTC home improvement and ABA contract content",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aba-contract",
+                  "location": "FTC home improvement and ABA contract content",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-02",
+              "claim": "Allowances are provisional material or selection amounts that can make bid totals noncomparable.",
+              "kind": "consumer_contract_practice",
+              "supports": [
+                {
+                  "source_id": "md-allowances",
+                  "location": "Maryland People’s Law Library allowances and FTC bid comparison",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Maryland People’s Law Library allowances and FTC bid comparison",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            },
+            {
+              "claim_id": "P003000-03",
+              "claim": "Fixed-price and time-and-materials contracts allocate cost uncertainty differently; change-order language matters.",
+              "kind": "consumer_contract_practice",
+              "supports": [
+                {
+                  "source_id": "md-allowances",
+                  "location": "Maryland education page fixed versus T&M and ABA contract changes",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aba-contract",
+                  "location": "Maryland education page fixed versus T&M and ABA contract changes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+              "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+              "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+        }
+      },
+      {
+        "id": "practical-contractors-estimates:011000",
+        "file": "011000-comparing-two-renovation-bids-from-the-same-scope.md",
+        "sha256": "bebc5b6c0e763cca46cacfd241abc86c97b093f14e8f1671525a60949ddd8848",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-comparing-two-renovation-bids-from-the-same-scope.md",
+          "related_resources": [
+            {
+              "source_id": "ftc-improvement",
+              "reason": "Written estimates, contracts, licenses and payment caution"
+            },
+            {
+              "source_id": "md-allowances",
+              "reason": "Allowances and differences between fixed price and time/materials"
+            },
+            {
+              "source_id": "aba-contract",
+              "reason": "Scope, materials, change orders, responsibility and payment terms"
+            },
+            {
+              "source_id": "nyag-hiring-contractors",
+              "reason": "Local license checks, insurance, permits/inspections and written scope; NY guidance only"
+            },
+            {
+              "source_id": "nysenate-gbl771",
+              "reason": "Writing and signatures for home-improvement contract amendments under specific state law"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "Contractors may exclude or leave ambiguous elements even when bidding against a common project sketch.",
+              "kind": "original_ftc_home_improvement_guidance",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Written scope and clarifying bids",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "Allowances and unit-price provisions should identify their coverage and uncertain quantities to enable comparisons.",
+              "kind": "derived_contract_comparison_practice",
+              "supports": [
+                {
+                  "source_id": "md-allowances",
+                  "location": "Allowances and specification differences",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aba-contract",
+                  "location": "Terms, change orders and scope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "Requirements about deposits, written contracts, licensing, and cancellation can vary with jurisdiction.",
+              "kind": "original_ny_specific_law_not_universal",
+              "supports": [
+                {
+                  "source_id": "nyag-hiring-contractors",
+                  "location": "State consumer guidance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nysenate-gbl771",
+                  "location": "NY statutory written-contract provisions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "Schedule, payment and acceptance terms should be compared alongside nominal total price.",
+              "kind": "derived_procurement_method",
+              "supports": [
+                {
+                  "source_id": "ftc-improvement",
+                  "location": "Estimates and contractor choice",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aba-contract",
+                  "location": "Schedule/payment/acceptance concepts",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "001000-define-the-work-so-bids-can-be-compared.md"
+      ],
+      "joined_before_source_parts": [
+        "002000",
+        "009000",
+        "011000"
+      ]
+    }
+  ]
 }

@@ -1,142 +1,38 @@
 # Optimization, Convexity, and Duality
 
-**First lecture:** [When Is a Solution Truly Best? Optimization and Certificates](001000-optimality-and-certificates.md) (3,148 spoken words; approximately 22 minutes at 145 words per minute).
+Feasible sets, convexity, Lagrange multipliers, dual certificates, and rigorous algorithms.
 
-**Audience:** algebra, coordinate geometry, functions; elementary calculus introduced as needed. This lecture stands alone and introduces the track's central idea using worked examples, with proofs and calculations in the display-only companion.
+The current pack contains **10 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
-## Completed lectures
+## Listening routes
 
-- 001000: [When Is a Solution Truly Best? Optimization and Certificates](001000-optimality-and-certificates.md) (3,148 spoken words; ~22 minutes).
-- 002000: [Convex Sets and Supporting Hyperplanes: Geometry That Proves Bounds](002000-convexity-and-supporting-hyperplanes.md) (3,308 spoken words; ~23 minutes).
-- 003000: [Linear Programming and Duality: Two Answers That Certify Each Other](003000-linear-programming-duality.md) (3,156 spoken words; ~22 minutes).
+`track.json` owns the current manuscripts and complete sequence. `navigation.json` selects the guided and deeper routes listed below.
 
-- 004000: [Lagrange Multipliers and KKT Conditions: When Local Equations Certify an Optimum](004000-kkt-conditions-and-constraint-qualifications.md) (3,001 spoken words; ~21 minutes).
-- 005000: [Gradient Descent, Smoothness, and the Price of Poor Conditioning](005000-gradient-descent-and-conditioning.md) (1,603 spoken words; measured ~11 minutes at 145 words per minute).
+- **Optimization · Convexity, Algorithms, and Duality** (Guided route): `001000`, `002000`, `003000`, `004000`, `005000`, `007000`, `008000`, `011000`.
+- **Optimization · Submodular and Discrete Guarantees** (Deep dive): `008000`.
+- **Optimization · Monotone and Stochastic Algorithms** (Deep dive): `005000`, `014000`.
+- **Optimization · Sensitivity, Robustness, and Risk** (Deep dive): `011000`.
+- **Optimization · Conic Geometry and Exact Certificates** (Deep dive): `007000`, `016000`.
 
-## Planned continuation
+## Current manuscripts
 
-Further proposals are maintained in [BACKLOG.md](BACKLOG.md).
+Durations are measured from the current spoken text at 145 words per minute, before synthesis; they are descriptions, not writing targets.
 
-## Reading and source records
+| ID | Lecture | Approximate minutes |
+|---|---|---:|
+| `001000` | [When Is a Solution Truly Best? Optimization and Certificates](001000-optimality-and-certificates.md) | 21.7 |
+| `002000` | [Convex Sets and Supporting Hyperplanes: Geometry That Proves Bounds](002000-convexity-and-supporting-hyperplanes.md) | 22.8 |
+| `003000` | [Linear Programming and Duality: Two Answers That Certify Each Other](003000-linear-programming-duality.md) | 21.8 |
+| `004000` | [Lagrange Multipliers and KKT Conditions: When Local Equations Certify an Optimum](004000-kkt-conditions-and-constraint-qualifications.md) | 20.7 |
+| `005000` | [Gradient descent and proximal methods](005000-first-order-iteration-and-convex-certificates-shared-core.md) | 19.8 |
+| `007000` | [Conic optimization: matrix inequalities, barriers, and verified witnesses](007000-conic-optimization-matrix-inequalities-barriers-and-verified-witnesses.md) | 35.8 |
+| `008000` | [Combinatorial relaxation and submodular approximation](008000-combinatorial-relaxation-and-submodular-approximation.md) | 32.7 |
+| `011000` | [Sensitivity, robust uncertainty, and distributional risk](011000-sensitivity-robust-uncertainty-and-distributional-risk.md) | 31.8 |
+| `014000` | [Monotone splitting, inexact proximal steps, and stochastic games](014000-from-gradient-and-prox-steps-to-inexact-and-stochastic-games-shared-core.md) | 32.8 |
+| `016000` | [Infeasibility embeddings, faces, and exact arithmetic](016000-infeasibility-embeddings-faces-and-exact-arithmetic.md) | 22.2 |
 
-See `metadata/sources.json` and the per-lecture sidecars. Citation details and mathematical companions remain outside the spoken narration.
+## Sources and authoring
 
-## Newly completed continuation
+Per-lecture source records live in `metadata/`; the bibliography is in `metadata/sources.json` when present. Composition lineage and editorial revisions are recorded in per-lecture metadata and `provenance.yaml`. Original arguments and exact companions remain with their consolidated manuscript.
 
-- 006000 — [Proximal Methods: Optimization When the Best Point Has a Corner](006000-proximal-methods-and-nonsmooth-convexity.md)
-
-Lecture lengths in the track manifest are measured, not prescribed. Exact mathematics and references remain in non-spoken companions.
-
-## Further completed lectures
-
-- 007000 — [Semidefinite Programming: Optimizing over Positive Matrices](007000-semidefinite-programming-and-certificates.md)
-
-The word counts in `track.json` are descriptive measurements from the canonical extractor, not targets. The mathematical companions and references are outside the spoken region.
-
-## Completed continuation — representations, discrete structure and dynamics
-
-- 008000 — [Discrete Optimization: Relaxations, Integrality Gaps, and Certificates](008000-discrete-optimization-relaxations-and-bounds.md)
-
-Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.
-
-## Completed continuation — local algebra, geometry and certified computation
-
-- 009000 — [Verifiable Optimization Certificates: From Solver Output to Proof](009000-verifiable-optimality-certificates-and-numerical-error.md)
-
-Word counts and narration durations in the manifest are descriptive measurements, not length targets. Exact equations and references remain in non-spoken companions.
-
-## Completed continuation — derived algebra and verified analysis
-
-- 010000 — [Interior-Point Methods: Central Paths, Barriers, and Newton Systems](010000-interior-point-methods-central-paths-and-barriers.md)
-
-The manifest's narration measurements are descriptive only; exact mathematics and source records are in the non-spoken companions.
-
-## Completed continuation — structures, stability and sensitivity
-
-- 011000 — [Optimization Sensitivity: Perturbation Bounds and Shadow Prices](011000-sensitivity-perturbations-and-shadow-prices.md)
-
-Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.
-
-## Completed continuation — number-theoretic, spectral and dual structures
-
-- 012000 — [Conic Duality: One Language for Linear, Quadratic, and Matrix Inequalities](012000-conic-duality-and-strict-feasibility.md)
-
-Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.
-
-## Completed continuation — geometry, combinatorics and computational sensitivity
-
-- 013000 — [Submodular Optimization: Why Greedy Choices Can Be Provably Good](013000-submodular-optimization-and-greedy-guarantees.md)
-
-Word counts and estimated minutes are descriptive metadata, not length requirements. Exact notation, proofs and references accompany the spoken manuscripts.
-
-## Continuation 10: Geometry, discrete structures and rigorous computation
-
-- 014000 — [Monotone Operators, Resolvents, and Splitting Methods](014000-monotone-operators-and-splitting-methods.md)
-
-The narration is standalone. Formulae, proofs, exercises and source references are provided in non-spoken companions. Recorded word counts are descriptive, not length requirements.
-
-## Continuation 11: Descent, geometry, and dependable computation
-
-- 015000 — [Robust Optimization: Worst-Case Constraints and Tractable Reformulations](015000-robust-optimization-and-uncertainty-sets.md)
-
-Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.
-
-## Continuation 12: Algebraic structure, geometry, and computation
-
-- 016000 — [Homogeneous Self-Dual Embeddings and Infeasibility Certificates](016000-homogeneous-self-dual-embedding-and-certificates.md)
-
-Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
-
-## Continuation 13: Deformation, structure and rigorous computation
-
-- 017000 — [Nonmonotone Submodular Optimization: When More Can Be Worse](017000-nonmonotone-submodular-maximization-and-matroids.md)
-
-Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
-
-## Continuation 14: Derived geometry, combinatorics and rigorous algorithms
-
-- 018000 — [Inexact Proximal Algorithms: Convergence When Inner Solves Are Imperfect](018000-inexact-proximal-steps-and-certificates.md)
-
-Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
-
-## Continuation 15: Wasserstein distributional robustness
-
-- 019000 — [Wasserstein Distributionally Robust Optimization: Decisions under Uncertain Laws](019000-wasserstein-distributionally-robust-optimization.md)
-
-Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
-
-## Continuation 16: Arithmetic, geometry, local algorithms and reliable computation
-
-- 020000 — [Facial Reduction: Finding the True Interior of a Semidefinite Program](020000-facial-reduction-and-degenerate-sdp.md)
-
-The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.
-
-## Continuation 17: Arithmetic completeness, harmonic analysis, geometry and rigorous computation
-
-- 021000 — [Submodular Maximization Under Intersecting Matroid Constraints](021000-submodular-maximization-under-matroid-intersections.md)
-
-Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.
-
-## Continuation 18: Arithmetic obstructions, discrete harmonic analysis, gauge topology, and certified dynamics
-
-- 022000 - [Mirror-Prox: Solving Monotone Games Without Rotating Forever](022000-mirror-prox-and-bregman-variational-inequalities.md)
-
-All narrations are standalone. Precise assumptions, worked derivations, exercises with answers, and references remain outside spoken markers. Recorded length is descriptive, not a policy.
-
-## Continuation 19: arithmetic finiteness, pseudorandomness, symplectic rigidity, and reliable dynamics
-
-- 023000 - [Stochastic Mirror-Prox and the Cost of Noisy Oracles](023000-stochastic-mirror-prox-and-oracle-noise.md)
-
-All narrations stand alone. Derivations, exact assumptions, exercises with answers, and references remain outside spoken markers. Length is set by the material, not a word-count or duration target.
-
-## Continuation 20: Entropic risk and CVaR under ambiguity
-
-- 024000 — [Entropic Risk, CVaR, and Distributional Ambiguity](024000-entropic-risk-cvar-and-ambiguity.md)
-
-The spoken manuscripts stand alone. Their mathematical companions preserve exact hypotheses, derivations, exercises with answers, and references. Duration is descriptive, never a content quota.
-
-## Continuation 21: mathematical structure and checkable certificates
-
-- 025000 — [Exact Semidefinite Certificates and Weak Infeasibility](025000-exact-semidefinite-certificates-and-weak-infeasibility.md)
-
-These narrations stand alone. The mathematical companions contain exact conventions, derivations, exercises with answers, and source links. Descriptive lengths are not authoring constraints.
+Read [the lecture style rules](../../LECTURE_STYLE_RULES.md) before changing narration. Use the spoken-region markers for extraction; keep raw mathematics, code, and source records in the non-spoken companion. Teaching preparation, proof dependencies, and historical influence are distinct.

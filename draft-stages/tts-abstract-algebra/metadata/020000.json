@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "020000",
-  "transcript": "020000-modular-representations-and-extensions.md",
+  "transcript": "020000-modular-representations-and-group-cohomology-obstructions.md",
   "related_resources": [
     {
       "source_id": "aa-etingof",
@@ -10,7 +10,97 @@
     {
       "source_id": "aa-weibel",
       "reason": "Projective resolutions and Ext classification of extensions."
+    },
+    {
+      "source_id": "aa-brown-group-cohomology",
+      "reason": "2-cocycles and classification of extensions."
+    },
+    {
+      "source_id": "aa-weibel",
+      "reason": "Ext and derived-functor interpretation."
+    },
+    {
+      "source_id": "aa-mit702",
+      "reason": "Group theory and semidirect-product prerequisites."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [
+    {
+      "id": "036000-h01",
+      "anchor": "group cohomology",
+      "kind": "historical_research",
+      "source_ids": [
+        "aa-brown-group-cohomology"
+      ],
+      "source_locator": "Brown, Chapter IV on low-dimensional cohomology and extensions.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:020000",
+        "file": "020000-modular-representations-and-extensions.md",
+        "sha256": "5b54f9a4aa86885e0fc47d97f1a725015aa0fd46769c1052b7ca3ee33966a2fa",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-modular-representations-and-extensions.md",
+          "related_resources": [
+            {
+              "source_id": "aa-etingof",
+              "reason": "Maschke theorem, group algebras and semisimplicity conditions."
+            },
+            {
+              "source_id": "aa-weibel",
+              "reason": "Projective resolutions and Ext classification of extensions."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:036000",
+        "file": "036000-group-cohomology-and-extension-classes.md",
+        "sha256": "d923addaaa65dddc781a6ed8d5cd2d9ba1ed9af0a63c6104684f15649fc5ae54",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "036000",
+          "transcript": "036000-group-cohomology-and-extension-classes.md",
+          "related_resources": [
+            {
+              "source_id": "aa-brown-group-cohomology",
+              "reason": "2-cocycles and classification of extensions."
+            },
+            {
+              "source_id": "aa-weibel",
+              "reason": "Ext and derived-functor interpretation."
+            },
+            {
+              "source_id": "aa-mit702",
+              "reason": "Group theory and semidirect-product prerequisites."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "036000-h01",
+              "anchor": "group cohomology",
+              "kind": "historical_research",
+              "source_ids": [
+                "aa-brown-group-cohomology"
+              ],
+              "source_locator": "Brown, Chapter IV on low-dimensional cohomology and extensions.",
+              "audit_status": "reference_recorded"
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

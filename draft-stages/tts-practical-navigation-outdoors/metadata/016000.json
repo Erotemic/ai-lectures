@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "016000",
-  "transcript": "016000-weather-forecast-interpretation-for-backcountry-decisions.md",
+  "transcript": "016000-adapt-an-overnight-plan-when-conditions-change.md",
   "related_resources": [
     {
       "source_id": "nws-prob-precip-explanation",
@@ -18,6 +18,26 @@
     {
       "source_id": "nps-backcountry-trip-plan",
       "reason": "Main/alternate itinerary, water and river-crossing risk, check-ins and backup logistics"
+    },
+    {
+      "source_id": "nps-trip-plan",
+      "reason": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue"
+    },
+    {
+      "source_id": "nps-trip-planning-health",
+      "reason": "Preparation, group coordination and decisions to turn around when unsafe"
+    },
+    {
+      "source_id": "nysdec-hike-smart",
+      "reason": "Layering, shelter, water, weather and planning for exposure"
+    },
+    {
+      "source_id": "nps-winter-layers",
+      "reason": "Non-cotton cold-weather layers, wind/rain shell and spare dry clothing"
+    },
+    {
+      "source_id": "nps-hike-smart-groups",
+      "reason": "Slowest hiker pace, staying together and time/turnaround guidance"
     }
   ],
   "historical_claims": [],
@@ -81,8 +101,497 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
       "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "Useful overnight trip plans identify main and alternate routes, risk locations, check-ins and communication arrangements.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nps-backcountry-trip-plan",
+          "location": "Main/alternate itinerary, water and river-crossing risk, check-ins and backup logistics",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-trip-plan",
+          "location": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "River crossings and weather hazards can invalidate a route even when distance and elevation remain manageable.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nps-backcountry-trip-plan",
+          "location": "Main/alternate itinerary, water and river-crossing risk, check-ins and backup logistics",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-trip-planning-health",
+          "location": "Preparation, group coordination and decisions to turn around when unsafe",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Turnaround points and bailout routes require timing and feasible access, not just map labels.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nps-backcountry-trip-plan",
+          "location": "Main/alternate itinerary, water and river-crossing risk, check-ins and backup logistics",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nws-lightning-outdoors",
+          "location": "Lightning hazards and why tents/open shelters are not safe places during storms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Outdoor water availability and crossing conditions need current verification rather than reliance on mapped features.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nps-backcountry-trip-plan",
+          "location": "Main/alternate itinerary, water and river-crossing risk, check-ins and backup logistics",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-trip-plan",
+          "location": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "An injured or immobile hiker changes group pace and exposure risk during a planned route.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nysdec-hike-smart",
+          "location": "Layering, shelter, water, weather and planning for exposure",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-hike-smart-groups",
+          "location": "Slowest hiker pace, staying together and time/turnaround guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Wind, moisture and ground contact reduce thermal protection during unplanned stops.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nps-winter-layers",
+          "location": "Non-cotton cold-weather layers, wind/rain shell and spare dry clothing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Improvised tarp or tree shelter does not provide lightning protection equivalent to a substantial building or enclosed hard-top vehicle.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nws-lightning-outdoors",
+          "location": "Lightning hazards and why tents/open shelters are not safe places during storms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "Location, injury, group resources and changes in intended travel are crucial for rescue coordination.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nps-trip-plan",
+          "location": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nysdec-hike-smart",
+          "location": "Layering, shelter, water, weather and planning for exposure",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-navigation-outdoors:016000",
+        "file": "016000-weather-forecast-interpretation-for-backcountry-decisions.md",
+        "sha256": "6f894b3fc0ac1f428b9816cd0f4acb730f2b3bff3f04457c06b3e5fd129a97fc",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-weather-forecast-interpretation-for-backcountry-decisions.md",
+          "related_resources": [
+            {
+              "source_id": "nws-prob-precip-explanation",
+              "reason": "Point probability of measurable precipitation within the specified valid forecast period"
+            },
+            {
+              "source_id": "nws-area-forecast-discussion",
+              "reason": "Area Forecast Discussion as explanation of significant forecast issues, confidence, and model disagreement"
+            },
+            {
+              "source_id": "nws-lightning-outdoors",
+              "reason": "Lightning hazards and why tents/open shelters are not safe places during storms"
+            },
+            {
+              "source_id": "nps-backcountry-trip-plan",
+              "reason": "Main/alternate itinerary, water and river-crossing risk, check-ins and backup logistics"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "A 40-percent probability of precipitation describes a point likelihood over a specified period, not 40 percent of time raining.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nws-prob-precip-explanation",
+                  "location": "Point probability of measurable precipitation within the specified valid forecast period",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "Area Forecast Discussions can identify significant hazards, forecast uncertainty and disagreements in guidance.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nws-area-forecast-discussion",
+                  "location": "Area Forecast Discussion as explanation of significant forecast issues, confidence, and model disagreement",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "Thunderstorm and lightning threats should inform exposure and route decisions rather than tent shelter assumptions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nws-lightning-outdoors",
+                  "location": "Lightning hazards and why tents/open shelters are not safe places during storms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Alternative routes and turnaround plans must account for water crossings, timing and uncertain conditions.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nps-backcountry-trip-plan",
+                  "location": "Main/alternate itinerary, water and river-crossing risk, check-ins and backup logistics",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-navigation-outdoors:015000",
+        "file": "015000-choosing-an-overnight-route-around-water-weather-and-bailout-points.md",
+        "sha256": "e631a3539d355da0a3fe9fbe461022e88ce77aca3c2227e1ba18e2f7fb5f6358",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-choosing-an-overnight-route-around-water-weather-and-bailout-points.md",
+          "related_resources": [
+            {
+              "source_id": "nps-backcountry-trip-plan",
+              "reason": "Main/alternate itinerary, water and river-crossing risk, check-ins and backup logistics"
+            },
+            {
+              "source_id": "nps-trip-plan",
+              "reason": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue"
+            },
+            {
+              "source_id": "nps-trip-planning-health",
+              "reason": "Preparation, group coordination and decisions to turn around when unsafe"
+            },
+            {
+              "source_id": "nws-lightning-outdoors",
+              "reason": "Lightning hazards and why tents/open shelters are not safe places during storms"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "Useful overnight trip plans identify main and alternate routes, risk locations, check-ins and communication arrangements.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nps-backcountry-trip-plan",
+                  "location": "Main/alternate itinerary, water and river-crossing risk, check-ins and backup logistics",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-trip-plan",
+                  "location": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "River crossings and weather hazards can invalidate a route even when distance and elevation remain manageable.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nps-backcountry-trip-plan",
+                  "location": "Main/alternate itinerary, water and river-crossing risk, check-ins and backup logistics",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-trip-planning-health",
+                  "location": "Preparation, group coordination and decisions to turn around when unsafe",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Turnaround points and bailout routes require timing and feasible access, not just map labels.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nps-backcountry-trip-plan",
+                  "location": "Main/alternate itinerary, water and river-crossing risk, check-ins and backup logistics",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nws-lightning-outdoors",
+                  "location": "Lightning hazards and why tents/open shelters are not safe places during storms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Outdoor water availability and crossing conditions need current verification rather than reliance on mapped features.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nps-backcountry-trip-plan",
+                  "location": "Main/alternate itinerary, water and river-crossing risk, check-ins and backup logistics",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-trip-plan",
+                  "location": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-navigation-outdoors:018000",
+        "file": "018000-emergency-shelter-and-evacuation-after-an-unplanned-stop.md",
+        "sha256": "d680d1cd611d1779081c801f6307ed6dfe3337dcf2ad7178a5ca04eed83f98c3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-emergency-shelter-and-evacuation-after-an-unplanned-stop.md",
+          "related_resources": [
+            {
+              "source_id": "nps-trip-plan",
+              "reason": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue"
+            },
+            {
+              "source_id": "nysdec-hike-smart",
+              "reason": "Layering, shelter, water, weather and planning for exposure"
+            },
+            {
+              "source_id": "nps-winter-layers",
+              "reason": "Non-cotton cold-weather layers, wind/rain shell and spare dry clothing"
+            },
+            {
+              "source_id": "nws-lightning-outdoors",
+              "reason": "Lightning hazards and why tents/open shelters are not safe places during storms"
+            },
+            {
+              "source_id": "nps-hike-smart-groups",
+              "reason": "Slowest hiker pace, staying together and time/turnaround guidance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "An injured or immobile hiker changes group pace and exposure risk during a planned route.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nysdec-hike-smart",
+                  "location": "Layering, shelter, water, weather and planning for exposure",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-hike-smart-groups",
+                  "location": "Slowest hiker pace, staying together and time/turnaround guidance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Wind, moisture and ground contact reduce thermal protection during unplanned stops.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nps-winter-layers",
+                  "location": "Non-cotton cold-weather layers, wind/rain shell and spare dry clothing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "Improvised tarp or tree shelter does not provide lightning protection equivalent to a substantial building or enclosed hard-top vehicle.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nws-lightning-outdoors",
+                  "location": "Lightning hazards and why tents/open shelters are not safe places during storms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "Location, injury, group resources and changes in intended travel are crucial for rescue coordination.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nps-trip-plan",
+                  "location": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nysdec-hike-smart",
+                  "location": "Layering, shelter, water, weather and planning for exposure",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "016000-adapt-an-overnight-plan-when-conditions-change.md"
+      ],
+      "joined_before_source_parts": [
+        "015000",
+        "018000"
+      ]
+    }
+  ]
 }

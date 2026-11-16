@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "005000",
-  "transcript": "005000-patterns-ease-and-geometry.md",
+  "transcript": "005000-model-fit-and-build-the-pattern.md",
   "related_resources": [
     {
       "source_id": "threads-ease-fitting",
@@ -14,6 +14,30 @@
     {
       "source_id": "usu-grain",
       "reason": "Lengthwise, crosswise and bias grain"
+    },
+    {
+      "source_id": "usu-knits",
+      "reason": "Stretch and recovery testing"
+    },
+    {
+      "source_id": "wsu-fabrics",
+      "reason": "Woven, knit, nonwoven and fabric grain"
+    },
+    {
+      "source_id": "sewing-seams",
+      "reason": "Stitch lines and seam allowances"
+    },
+    {
+      "source_id": "usu-machine",
+      "reason": "Upper thread tension, balanced stitches, bobbin factory setting"
+    },
+    {
+      "source_id": "threads-pants-fit21",
+      "reason": "Muslin tests, seat fullness and waistline dip, rise and crotch corrections"
+    },
+    {
+      "source_id": "threads-pants-measure21",
+      "reason": "Body geometry, style-specific crotch length, rise, ease and test fit"
     }
   ],
   "historical_claims": [],
@@ -72,8 +96,775 @@
       "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
       "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P012000-01",
+      "claim": "Grain and bias placement influence the way woven fabric deforms and hangs.",
+      "kind": "original_university_extension_sewing",
+      "supports": [
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Knits and woven fabrics differ in stretch behavior and pattern assumptions.",
+      "kind": "original_university_extension_textile",
+      "supports": [
+        {
+          "source_id": "usu-knits",
+          "location": "Stretch and recovery testing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "wsu-fabrics",
+          "location": "Woven, knit, nonwoven and fabric grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Wearing ease, design ease and seam allowance serve different functions in garment construction.",
+      "kind": "derived_pattern_construction_synthesis",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Finished measurements versus body measurements; wearing and design ease",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "sewing-seams",
+          "location": "Stitch lines and seam allowances",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-01",
+      "claim": "Garment ease is the difference between body and finished garment measurements and depends on design and use.",
+      "kind": "original_fitting_pattern_reference",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Measuring pattern pieces for fit and ease",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Fabric grain and stretch change how a garment hangs and responds to alteration.",
+      "kind": "original_extension_fabric_reference",
+      "supports": [
+        {
+          "source_id": "usu-grain",
+          "location": "Fabric grain and construction",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-knits",
+          "location": "Knit and stretch properties",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Seam structure and allowance constrain whether alterations can be reversed or let out.",
+      "kind": "derived_garment_construction",
+      "supports": [
+        {
+          "source_id": "osu-seams",
+          "location": "Seams and finishes",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Pattern fit dimensions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Temporary fitting trials permit evaluation of motion and adjacent seams before cutting fabric permanently.",
+      "kind": "derived_fitting_workflow",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Fit assessment",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osu-seams",
+          "location": "Construction behavior",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-01",
+      "claim": "Sleeve and armscye geometry affect garment movement independently of chest circumference.",
+      "kind": "derived_pattern_fitting_principle",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Finished measurements versus body measurements; wearing and design ease",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "Woven and knitted materials accommodate motion differently because stretch and recovery depend on structure.",
+      "kind": "original_university_sewing_education",
+      "supports": [
+        {
+          "source_id": "usu-knits",
+          "location": "Stretch and recovery testing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "wsu-fabrics",
+          "location": "Woven, knit, nonwoven and fabric grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "A motion-based fitting trial can isolate seam pitch, cap shape and ease errors more effectively than static fitting alone.",
+      "kind": "derived_practice_method",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Finished measurements versus body measurements; wearing and design ease",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-machine",
+          "location": "Upper thread tension, balanced stitches, bobbin factory setting",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-01",
+      "claim": "Correct trouser fit depends on rise, crotch curve and seat shape, not only waist and hip circumference.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "threads-pants-measure21",
+          "location": "Body geometry, style-specific crotch length, rise, ease and test fit",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "threads-pants-fit21",
+          "location": "Muslin tests, seat fullness and waistline dip, rise and crotch corrections",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-02",
+      "claim": "Drag lines can indicate different pattern-fit causes and require test fittings rather than automatic seam changes.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "threads-pants-fit21",
+          "location": "Muslin tests, seat fullness and waistline dip, rise and crotch corrections",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-03",
+      "claim": "A test muslin with marked balance and grain lines helps isolate reversible fitting adjustments.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "threads-pants-fit21",
+          "location": "Muslin tests, seat fullness and waistline dip, rise and crotch corrections",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-04",
+      "claim": "Style and fabric properties change the amount of comfortable ease and the fitting method.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "threads-pants-measure21",
+          "location": "Body geometry, style-specific crotch length, rise, ease and test fit",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-sewing-textiles:005000",
+        "file": "005000-patterns-ease-and-geometry.md",
+        "sha256": "eb87d86292bffffa9b0d2fd1ff4c939c11760010731a0d1d9c4a1eb93587e8e9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-patterns-ease-and-geometry.md",
+          "related_resources": [
+            {
+              "source_id": "threads-ease-fitting",
+              "reason": "Finished measurements versus body measurements; wearing and design ease"
+            },
+            {
+              "source_id": "osu-seams",
+              "reason": "Plain seams, allowances, pressing, finish decisions"
+            },
+            {
+              "source_id": "usu-grain",
+              "reason": "Lengthwise, crosswise and bias grain"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P005000-01",
+              "claim": "Finished garment measurements include ease; wearing ease and design ease serve different purposes.",
+              "kind": "pattern_fitting_principle",
+              "supports": [
+                {
+                  "source_id": "threads-ease-fitting",
+                  "location": "Ease into a Good Fit and pattern-measurement instructions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-02",
+              "claim": "Pattern measurements should be read at the seam lines while accounting for seam allowances.",
+              "kind": "pattern_geometry",
+              "supports": [
+                {
+                  "source_id": "threads-ease-fitting",
+                  "location": "Measure a pattern for fit and Plain Seams construction notes",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osu-seams",
+                  "location": "Measure a pattern for fit and Plain Seams construction notes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-03",
+              "claim": "Fit must consider movement, pattern shaping and fabric behavior, not body circumference alone.",
+              "kind": "derived_garment_reasoning",
+              "supports": [
+                {
+                  "source_id": "threads-ease-fitting",
+                  "location": "Wearing-ease discussion and fabric grain notes; synthesized pattern fit",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-grain",
+                  "location": "Wearing-ease discussion and fabric grain notes; synthesized pattern fit",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+        }
+      },
+      {
+        "id": "practical-sewing-textiles:012000",
+        "file": "012000-drafting-and-adjusting-simple-garment-patterns.md",
+        "sha256": "e943c6a798a6fa43086eec04ddb187246d712ac24683068514af286bcff3915a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-drafting-and-adjusting-simple-garment-patterns.md",
+          "related_resources": [
+            {
+              "source_id": "usu-grain",
+              "reason": "Lengthwise, crosswise and bias grain"
+            },
+            {
+              "source_id": "usu-knits",
+              "reason": "Stretch and recovery testing"
+            },
+            {
+              "source_id": "wsu-fabrics",
+              "reason": "Woven, knit, nonwoven and fabric grain"
+            },
+            {
+              "source_id": "threads-ease-fitting",
+              "reason": "Finished measurements versus body measurements; wearing and design ease"
+            },
+            {
+              "source_id": "sewing-seams",
+              "reason": "Stitch lines and seam allowances"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P012000-01",
+              "claim": "Grain and bias placement influence the way woven fabric deforms and hangs.",
+              "kind": "original_university_extension_sewing",
+              "supports": [
+                {
+                  "source_id": "usu-grain",
+                  "location": "Lengthwise, crosswise and bias grain",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-02",
+              "claim": "Knits and woven fabrics differ in stretch behavior and pattern assumptions.",
+              "kind": "original_university_extension_textile",
+              "supports": [
+                {
+                  "source_id": "usu-knits",
+                  "location": "Stretch and recovery testing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "wsu-fabrics",
+                  "location": "Woven, knit, nonwoven and fabric grain",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-03",
+              "claim": "Wearing ease, design ease and seam allowance serve different functions in garment construction.",
+              "kind": "derived_pattern_construction_synthesis",
+              "supports": [
+                {
+                  "source_id": "threads-ease-fitting",
+                  "location": "Finished measurements versus body measurements; wearing and design ease",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "sewing-seams",
+                  "location": "Stitch lines and seam allowances",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-sewing-textiles:010000",
+        "file": "010000-garment-alterations-and-fit-diagnosis.md",
+        "sha256": "10af42d66f392e8c59a8918d16f4469b84999bb48c8e2ed5fa48752912bfd51c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-garment-alterations-and-fit-diagnosis.md",
+          "related_resources": [
+            {
+              "source_id": "threads-ease-fitting",
+              "reason": "Finished measurements versus body measurements; wearing and design ease"
+            },
+            {
+              "source_id": "usu-grain",
+              "reason": "Lengthwise, crosswise and bias grain"
+            },
+            {
+              "source_id": "usu-knits",
+              "reason": "Stretch and recovery testing"
+            },
+            {
+              "source_id": "osu-seams",
+              "reason": "Plain seams, allowances, pressing, finish decisions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Garment ease is the difference between body and finished garment measurements and depends on design and use.",
+              "kind": "original_fitting_pattern_reference",
+              "supports": [
+                {
+                  "source_id": "threads-ease-fitting",
+                  "location": "Measuring pattern pieces for fit and ease",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "Fabric grain and stretch change how a garment hangs and responds to alteration.",
+              "kind": "original_extension_fabric_reference",
+              "supports": [
+                {
+                  "source_id": "usu-grain",
+                  "location": "Fabric grain and construction",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-knits",
+                  "location": "Knit and stretch properties",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Seam structure and allowance constrain whether alterations can be reversed or let out.",
+              "kind": "derived_garment_construction",
+              "supports": [
+                {
+                  "source_id": "osu-seams",
+                  "location": "Seams and finishes",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "threads-ease-fitting",
+                  "location": "Pattern fit dimensions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Temporary fitting trials permit evaluation of motion and adjacent seams before cutting fabric permanently.",
+              "kind": "derived_fitting_workflow",
+              "supports": [
+                {
+                  "source_id": "threads-ease-fitting",
+                  "location": "Fit assessment",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osu-seams",
+                  "location": "Construction behavior",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "practical-sewing-textiles:013000",
+        "file": "013000-fitting-sleeves-armholes-and-moving-bodies.md",
+        "sha256": "317a846a11b03574e6e586ead68bdbcd7012b37c58f5e9ea92b3f976d5327b40",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-fitting-sleeves-armholes-and-moving-bodies.md",
+          "related_resources": [
+            {
+              "source_id": "threads-ease-fitting",
+              "reason": "Finished measurements versus body measurements; wearing and design ease"
+            },
+            {
+              "source_id": "usu-grain",
+              "reason": "Lengthwise, crosswise and bias grain"
+            },
+            {
+              "source_id": "usu-knits",
+              "reason": "Stretch and recovery testing"
+            },
+            {
+              "source_id": "wsu-fabrics",
+              "reason": "Woven, knit, nonwoven and fabric grain"
+            },
+            {
+              "source_id": "usu-machine",
+              "reason": "Upper thread tension, balanced stitches, bobbin factory setting"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "Sleeve and armscye geometry affect garment movement independently of chest circumference.",
+              "kind": "derived_pattern_fitting_principle",
+              "supports": [
+                {
+                  "source_id": "threads-ease-fitting",
+                  "location": "Finished measurements versus body measurements; wearing and design ease",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-grain",
+                  "location": "Lengthwise, crosswise and bias grain",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "Woven and knitted materials accommodate motion differently because stretch and recovery depend on structure.",
+              "kind": "original_university_sewing_education",
+              "supports": [
+                {
+                  "source_id": "usu-knits",
+                  "location": "Stretch and recovery testing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "wsu-fabrics",
+                  "location": "Woven, knit, nonwoven and fabric grain",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "A motion-based fitting trial can isolate seam pitch, cap shape and ease errors more effectively than static fitting alone.",
+              "kind": "derived_practice_method",
+              "supports": [
+                {
+                  "source_id": "threads-ease-fitting",
+                  "location": "Finished measurements versus body measurements; wearing and design ease",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-machine",
+                  "location": "Upper thread tension, balanced stitches, bobbin factory setting",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-sewing-textiles:021000",
+        "file": "021000-fitting-trousers-rise-seat-and-balance.md",
+        "sha256": "a879509c23fd9406b6250f04fe6351eda2f154613f1a0a78df1da0516c242a5a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-fitting-trousers-rise-seat-and-balance.md",
+          "related_resources": [
+            {
+              "source_id": "threads-pants-fit21",
+              "reason": "Muslin tests, seat fullness and waistline dip, rise and crotch corrections"
+            },
+            {
+              "source_id": "threads-pants-measure21",
+              "reason": "Body geometry, style-specific crotch length, rise, ease and test fit"
+            },
+            {
+              "source_id": "usu-grain",
+              "reason": "Lengthwise, crosswise and bias grain"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P021000-01",
+              "claim": "Correct trouser fit depends on rise, crotch curve and seat shape, not only waist and hip circumference.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "threads-pants-measure21",
+                  "location": "Body geometry, style-specific crotch length, rise, ease and test fit",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "threads-pants-fit21",
+                  "location": "Muslin tests, seat fullness and waistline dip, rise and crotch corrections",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-02",
+              "claim": "Drag lines can indicate different pattern-fit causes and require test fittings rather than automatic seam changes.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "threads-pants-fit21",
+                  "location": "Muslin tests, seat fullness and waistline dip, rise and crotch corrections",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-03",
+              "claim": "A test muslin with marked balance and grain lines helps isolate reversible fitting adjustments.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "threads-pants-fit21",
+                  "location": "Muslin tests, seat fullness and waistline dip, rise and crotch corrections",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "usu-grain",
+                  "location": "Lengthwise, crosswise and bias grain",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-04",
+              "claim": "Style and fabric properties change the amount of comfortable ease and the fitting method.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "threads-pants-measure21",
+                  "location": "Body geometry, style-specific crotch length, rise, ease and test fit",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_or_clinical_review_pending",
+          "citation_policy": "Credit original authors and standards issuers; cite educational synthesis accurately. No engineering, clinical, or jurisdictional certification is claimed."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "005000-model-fit-and-build-the-pattern.md"
+      ],
+      "joined_before_source_parts": [
+        "010000",
+        "021000"
+      ],
+      "reframed_repeated_opening": true
+    }
+  ]
 }

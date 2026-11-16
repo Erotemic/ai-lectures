@@ -1,8 +1,29 @@
 {
   "schema_version": 1,
   "lecture_id": "105000",
-  "transcript": "105000-a-full-proof-readiness-assembly.md",
-  "historical_claims": [],
+  "transcript": "105000-proof-reconstruction-residual-estimates-and-the-davis-kahan-theorem-families.md",
+  "historical_claims": [
+    {
+      "id": "149000-h01",
+      "anchor": "The 1970 paper also develops direct rotation and an extremal claim about displacement.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Section 4",
+      "audit_status": "pending_primary_passage_comparison"
+    },
+    {
+      "id": "149000-h02",
+      "anchor": "the original paper's Section ten asks questions that are broader than the results established in the main body.",
+      "kind": "source_attribution",
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
+      "source_locator": "Section 10",
+      "audit_status": "pending_primary_passage_comparison"
+    }
+  ],
   "related_resources": [
     {
       "source_id": "wiki-sylvester-equation",
@@ -31,6 +52,111 @@
     {
       "source_id": "wiki-complexification",
       "reason": "Extending scalars from real to complex vector spaces; the lecture also covers Hilbert norms and operator adjoints."
+    },
+    {
+      "source_id": "wiki-spectral-gap",
+      "reason": "Basic interpretations of gaps between spectral regions; definitions vary by setting."
+    },
+    {
+      "source_id": "wiki-eigenvalue-perturbation",
+      "reason": "Finite-dimensional eigenvalue and eigenvector sensitivity as background for angle estimates."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Separate the accessible motivating overview from the advanced proof capstone; compose inherited arguments, retain companions and source metadata, and edit repeated opening/transitional prose.",
+    "sources": [
+      {
+        "id": "g2:105000",
+        "file": "105000-a-full-proof-readiness-assembly.md",
+        "sha256": "e7d67300f698830e46935cf221b1a11d565479ec7e70845efa8cd6507f8b1116",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "105000",
+          "transcript": "105000-a-full-proof-readiness-assembly.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-sylvester-equation",
+              "reason": "Background for the compressed residual equation between the trial space and exact complement."
+            },
+            {
+              "source_id": "wiki-rayleigh-ritz-method",
+              "reason": "Review trial subspaces and approximate eigenvalues before the residual-gap-sine estimate."
+            },
+            {
+              "source_id": "wiki-spectral-gap",
+              "reason": "Introductory background for why separating the trial spectrum from the exact complement is essential."
+            },
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "wiki-polar-decomposition",
+              "reason": "Polar factors, positive modulus, and rectangular matrix examples; compare full-unitary extensions with the canonical kernel-zero partial isometry."
+            },
+            {
+              "source_id": "wiki-complexification",
+              "reason": "Extending scalars from real to complex vector spaces; the lecture also covers Hilbert norms and operator adjoints."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:149000",
+        "file": "149000-proof-practicum-reconstruct-the-1970-theory.md",
+        "sha256": "81a2ca61612a27a9c7f9411005d281e15b55ddd755544f25458e233adc1c815a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "149000",
+          "transcript": "149000-proof-practicum-reconstruct-the-1970-theory.md",
+          "historical_claims": [
+            {
+              "id": "149000-h01",
+              "anchor": "The 1970 paper also develops direct rotation and an extremal claim about displacement.",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Section 4",
+              "audit_status": "pending_primary_passage_comparison"
+            },
+            {
+              "id": "149000-h02",
+              "anchor": "the original paper's Section ten asks questions that are broader than the results established in the main body.",
+              "kind": "source_attribution",
+              "source_ids": [
+                "davis-kahan-1970"
+              ],
+              "source_locator": "Section 10",
+              "audit_status": "pending_primary_passage_comparison"
+            }
+          ],
+          "related_resources": [
+            {
+              "source_id": "davis-kahan-1970",
+              "reason": "Original 1970 source for comparison; use exact source passage and stated hypotheses for historical audits."
+            },
+            {
+              "source_id": "wiki-spectral-gap",
+              "reason": "Basic interpretations of gaps between spectral regions; definitions vary by setting."
+            },
+            {
+              "source_id": "wiki-eigenvalue-perturbation",
+              "reason": "Finite-dimensional eigenvalue and eigenvector sensitivity as background for angle estimates."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

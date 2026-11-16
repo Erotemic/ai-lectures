@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "006000",
-  "transcript": "006000-determinants-and-orientation.md",
+  "transcript": "006000-volume-spectral-directions-and-best-approximation.md",
   "related_resources": [
     {
       "source_id": "la-hefferon",
@@ -10,7 +10,155 @@
     {
       "source_id": "la-mit-1806sc",
       "reason": "Complementary computational exposition and examples."
+    },
+    {
+      "source_id": "la-axler-fourth",
+      "reason": "Proofs and structural development of the relevant finite-dimensional theory."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "linear-algebra:006000",
+        "file": "006000-determinants-and-orientation.md",
+        "sha256": "a7bc4f59f45cfc0c446603b54fd55ea634b53ea61eb7eb7e65ade62413e119d3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-determinants-and-orientation.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-mit-1806sc",
+              "reason": "Complementary computational exposition and examples."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "linear-algebra:007000",
+        "file": "007000-eigenvalues-and-diagonalization.md",
+        "sha256": "76c301ac5a71d8f2e756ff4c5e3ee51d06cbcbdc6f5489c4180f59d074f7eb06",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-eigenvalues-and-diagonalization.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-axler-fourth",
+              "reason": "Proofs and structural development of the relevant finite-dimensional theory."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "linear-algebra:008000",
+        "file": "008000-inner-products-and-projections.md",
+        "sha256": "874cbe532e8e9b49235803bbaaefde86e96263078e11fdf3317d1e1bc4aa30fe",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-inner-products-and-projections.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-mit-1806sc",
+              "reason": "Complementary computational exposition and examples."
+            },
+            {
+              "source_id": "la-axler-fourth",
+              "reason": "Proofs and structural development of the relevant finite-dimensional theory."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "linear-algebra:009000",
+        "file": "009000-least-squares-and-qr.md",
+        "sha256": "83e9f9e4d3433aab493300c3a5608a9b5f0690a03eb2166a963d4d8f055e3c95",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-least-squares-and-qr.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-mit-1806sc",
+              "reason": "Complementary computational exposition and examples."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "linear-algebra:010000",
+        "file": "010000-adjoints-and-spectral-theorem.md",
+        "sha256": "b09b32e8aec58ce4509181b52e1e2186649c4a9bad35417c8d77d38eb3fe01fb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-adjoints-and-spectral-theorem.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-axler-fourth",
+              "reason": "Proofs and structural development of the relevant finite-dimensional theory."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "linear-algebra:011000",
+        "file": "011000-singular-values-and-conditioning.md",
+        "sha256": "19c0868a8879bbd767dd856c6c997d4acdd048fa30ff801e5d6f4e0fb79637ad",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-singular-values-and-conditioning.md",
+          "related_resources": [
+            {
+              "source_id": "la-hefferon",
+              "reason": "Elementary definitions, exact methods, and worked exercises."
+            },
+            {
+              "source_id": "la-mit-1806sc",
+              "reason": "Complementary computational exposition and examples."
+            },
+            {
+              "source_id": "la-axler-fourth",
+              "reason": "Proofs and structural development of the relevant finite-dimensional theory."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

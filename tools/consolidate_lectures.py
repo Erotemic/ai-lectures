@@ -171,7 +171,10 @@ def prepare(root, plan):
         words = len(extract_text(text).split())
         entry = deepcopy(originals[0])
         entry.update(title=group["title"], file=filename, spoken_words=words, estimated_minutes_at_145_wpm=round(words / 145, 1))
-        entry["consolidated_from"] = local_ids
+        entry["consolidated_from"] = list(dict.fromkeys(
+            key for original in originals
+            for key in original.get("consolidated_from", [original["id"]])
+        ))
         by_pack.setdefault(namespace, []).append((keys, entry))
         replacements.update({key: namespace + ":" + survivor for key in keys})
         summaries.append(dict(pack=namespace, id=survivor, title=group["title"], parts=len(keys), estimated_minutes=round(words / 145, 1)))

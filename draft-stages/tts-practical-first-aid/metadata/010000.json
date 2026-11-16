@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "010000",
-  "transcript": "010000-fractures-sprains-and-immobilization-principles.md",
+  "transcript": "010000-recognize-trauma-and-coordinate-the-handoff.md",
   "related_resources": [
     {
       "source_id": "aha-redcross-2024-firstaid",
@@ -10,6 +10,34 @@
     {
       "source_id": "redcross-severe-bleed",
       "reason": "Recognize severe bleeding, apply direct pressure and trained methods, activate emergency help"
+    },
+    {
+      "source_id": "cdc-heads-up-concussion-2025",
+      "reason": "Symptoms, delayed presentation, and emergency danger signs in children"
+    },
+    {
+      "source_id": "cdc-adult-mtbi-2025",
+      "reason": "Adult symptoms, variable presentation and signs requiring emergency assessment"
+    },
+    {
+      "source_id": "cdc-sports-response-2025",
+      "reason": "Remove from play, no same-day return, clinical clearance and danger-sign escalation"
+    },
+    {
+      "source_id": "redcross-internal-bleeding",
+      "reason": "Internal bleeding warning signs, shock, and initial first-aid response"
+    },
+    {
+      "source_id": "rc-first-aid",
+      "reason": "Check, Call, Care and emergency activation"
+    },
+    {
+      "source_id": "iadt-primary-teeth21",
+      "reason": "Primary teeth should not be replanted after complete avulsion; potential harm to permanent successors"
+    },
+    {
+      "source_id": "iadt-permanent-teeth21",
+      "reason": "Handle by crown, root protection, prompt professional intervention"
     }
   ],
   "historical_claims": [],
@@ -93,8 +121,680 @@
       "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
       "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
       "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P011000-01",
+      "claim": "Concussion symptoms may be delayed and do not always include loss of consciousness.",
+      "kind": "original_cdc_concussion_guidance",
+      "supports": [
+        {
+          "source_id": "cdc-heads-up-concussion-2025",
+          "location": "Signs and delayed symptoms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-adult-mtbi-2025",
+          "location": "Adult symptom presentation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Worsening headache, repeated vomiting, seizures, focal neurologic changes, or inability to awaken after head injury are emergency danger signs.",
+      "kind": "original_cdc_danger_signs",
+      "supports": [
+        {
+          "source_id": "cdc-adult-mtbi-2025",
+          "location": "Emergency danger signs",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-heads-up-concussion-2025",
+          "location": "Child danger signs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Athletes with suspected concussion should be removed from play, not returned the same day, and require healthcare clearance for return.",
+      "kind": "original_cdc_sports_guidance",
+      "supports": [
+        {
+          "source_id": "cdc-sports-response-2025",
+          "location": "Immediate response and return-to-sport",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "A first aider should distinguish observed signs and injury history from a clinical diagnosis.",
+      "kind": "derived_clinical_boundary",
+      "supports": [
+        {
+          "source_id": "cdc-heads-up-concussion-2025",
+          "location": "Observed signs and reported symptoms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-sports-response-2025",
+          "location": "Healthcare evaluation role",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P019000-01",
+      "claim": "Internal bleeding can follow blunt trauma even without immediately visible external bleeding.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "redcross-internal-bleeding",
+          "location": "Internal bleeding warning signs, shock, and initial first-aid response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Changes in responsiveness and signs of shock warrant emergency assessment.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "redcross-internal-bleeding",
+          "location": "Internal bleeding warning signs, shock, and initial first-aid response",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "First-aid response emphasizes scene assessment, emergency call, observation and appropriate positioning.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "rc-first-aid",
+          "location": "Check, Call, Care and emergency activation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Internal bleeding cannot be controlled by applying ordinary external direct pressure to an unseen site.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "redcross-internal-bleeding",
+          "location": "Internal bleeding warning signs, shock, and initial first-aid response",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "redcross-severe-bleed",
+          "location": "Recognize severe bleeding, apply direct pressure and trained methods, activate emergency help",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-01",
+      "claim": "Avulsed permanent teeth benefit from immediate replantation when feasible and prompt dental care.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "iadt-permanent-teeth21",
+          "location": "Handle by crown, root protection, prompt professional intervention",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-02",
+      "claim": "Primary teeth should not be replanted following avulsion.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "iadt-primary-teeth21",
+          "location": "Primary teeth should not be replanted after complete avulsion; potential harm to permanent successors",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-03",
+      "claim": "Dry time and transport medium affect viability of periodontal ligament cells.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "iadt-permanent-teeth21",
+          "location": "Handle by crown, root protection, prompt professional intervention",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-04",
+      "claim": "The 2024 first-aid guidance identifies preferred preservation media and advises against storing a permanent tooth in tap water.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+  "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-first-aid:010000",
+        "file": "010000-fractures-sprains-and-immobilization-principles.md",
+        "sha256": "d72350567f722550ca815937e94579cc770d48c0dadd9e69f1ff424093a9b028",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-fractures-sprains-and-immobilization-principles.md",
+          "related_resources": [
+            {
+              "source_id": "aha-redcross-2024-firstaid",
+              "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+            },
+            {
+              "source_id": "redcross-severe-bleed",
+              "reason": "Recognize severe bleeding, apply direct pressure and trained methods, activate emergency help"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Fractures, sprains and strains have overlapping signs; painful injuries limiting use warrant assessment rather than informal certainty.",
+              "kind": "original_aha_redcross_firstaid_2024",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Sections 9.6 and 9.7: sprains, strains and fractures",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "First aid splinting may reduce pain and limit injury during transport, but supporting rather than forcibly reducing deformity is generally appropriate.",
+              "kind": "original_aha_redcross_fracture_consensus",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Section 9.7: fracture recommendations and evidence level",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Pale, purple or blue fractured extremities require immediate activation of emergency response.",
+              "kind": "original_aha_redcross_perfursion_guidance",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Section 9.7: vascular warning and EMS activation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Cold can relieve acute sprain/strain pain; avoid direct skin contact and prolonged cooling.",
+              "kind": "original_aha_redcross_sprain_guidance",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Section 9.6: cold and compression limits",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P010000-05",
+              "claim": "Severe bleeding and an open fracture require attention to life-threatening bleeding before routine immobilization.",
+              "kind": "original_aha_redcross_emergency_priorities",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Fractures and severe bleeding recommendations",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "redcross-severe-bleed",
+                  "location": "Control of life-threatening external bleeding",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "practical-first-aid:011000",
+        "file": "011000-head-injuries-and-concussion-recognition.md",
+        "sha256": "e4365308c2996ba4a61affe7c54916e75f70f18cfd08940836da5c5751bc658c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-head-injuries-and-concussion-recognition.md",
+          "related_resources": [
+            {
+              "source_id": "cdc-heads-up-concussion-2025",
+              "reason": "Symptoms, delayed presentation, and emergency danger signs in children"
+            },
+            {
+              "source_id": "cdc-adult-mtbi-2025",
+              "reason": "Adult symptoms, variable presentation and signs requiring emergency assessment"
+            },
+            {
+              "source_id": "cdc-sports-response-2025",
+              "reason": "Remove from play, no same-day return, clinical clearance and danger-sign escalation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "Concussion symptoms may be delayed and do not always include loss of consciousness.",
+              "kind": "original_cdc_concussion_guidance",
+              "supports": [
+                {
+                  "source_id": "cdc-heads-up-concussion-2025",
+                  "location": "Signs and delayed symptoms",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cdc-adult-mtbi-2025",
+                  "location": "Adult symptom presentation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "Worsening headache, repeated vomiting, seizures, focal neurologic changes, or inability to awaken after head injury are emergency danger signs.",
+              "kind": "original_cdc_danger_signs",
+              "supports": [
+                {
+                  "source_id": "cdc-adult-mtbi-2025",
+                  "location": "Emergency danger signs",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cdc-heads-up-concussion-2025",
+                  "location": "Child danger signs",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "Athletes with suspected concussion should be removed from play, not returned the same day, and require healthcare clearance for return.",
+              "kind": "original_cdc_sports_guidance",
+              "supports": [
+                {
+                  "source_id": "cdc-sports-response-2025",
+                  "location": "Immediate response and return-to-sport",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "A first aider should distinguish observed signs and injury history from a clinical diagnosis.",
+              "kind": "derived_clinical_boundary",
+              "supports": [
+                {
+                  "source_id": "cdc-heads-up-concussion-2025",
+                  "location": "Observed signs and reported symptoms",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cdc-sports-response-2025",
+                  "location": "Healthcare evaluation role",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-first-aid:019000",
+        "file": "019000-internal-bleeding-and-a-change-in-responsiveness.md",
+        "sha256": "f3ec7b46d5adc5e27077800cce5936f8d6ff9326234b16b207ed39aab16b541d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-internal-bleeding-and-a-change-in-responsiveness.md",
+          "related_resources": [
+            {
+              "source_id": "redcross-internal-bleeding",
+              "reason": "Internal bleeding warning signs, shock, and initial first-aid response"
+            },
+            {
+              "source_id": "aha-redcross-2024-firstaid",
+              "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+            },
+            {
+              "source_id": "rc-first-aid",
+              "reason": "Check, Call, Care and emergency activation"
+            },
+            {
+              "source_id": "redcross-severe-bleed",
+              "reason": "Recognize severe bleeding, apply direct pressure and trained methods, activate emergency help"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P019000-01",
+              "claim": "Internal bleeding can follow blunt trauma even without immediately visible external bleeding.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "redcross-internal-bleeding",
+                  "location": "Internal bleeding warning signs, shock, and initial first-aid response",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-02",
+              "claim": "Changes in responsiveness and signs of shock warrant emergency assessment.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "redcross-internal-bleeding",
+                  "location": "Internal bleeding warning signs, shock, and initial first-aid response",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-03",
+              "claim": "First-aid response emphasizes scene assessment, emergency call, observation and appropriate positioning.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "rc-first-aid",
+                  "location": "Check, Call, Care and emergency activation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-04",
+              "claim": "Internal bleeding cannot be controlled by applying ordinary external direct pressure to an unseen site.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "redcross-internal-bleeding",
+                  "location": "Internal bleeding warning signs, shock, and initial first-aid response",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "redcross-severe-bleed",
+                  "location": "Recognize severe bleeding, apply direct pressure and trained methods, activate emergency help",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-first-aid:021000",
+        "file": "021000-knocked-out-teeth-and-dental-injuries-first-response-and-handoff.md",
+        "sha256": "b0df58018ef2e89c58caf3fed55bd9afe0ed28b79c2563c4e26a93a5f90d0fd1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-knocked-out-teeth-and-dental-injuries-first-response-and-handoff.md",
+          "related_resources": [
+            {
+              "source_id": "aha-redcross-2024-firstaid",
+              "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+            },
+            {
+              "source_id": "iadt-primary-teeth21",
+              "reason": "Primary teeth should not be replanted after complete avulsion; potential harm to permanent successors"
+            },
+            {
+              "source_id": "iadt-permanent-teeth21",
+              "reason": "Handle by crown, root protection, prompt professional intervention"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P021000-01",
+              "claim": "Avulsed permanent teeth benefit from immediate replantation when feasible and prompt dental care.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "iadt-permanent-teeth21",
+                  "location": "Handle by crown, root protection, prompt professional intervention",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-02",
+              "claim": "Primary teeth should not be replanted following avulsion.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "iadt-primary-teeth21",
+                  "location": "Primary teeth should not be replanted after complete avulsion; potential harm to permanent successors",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-03",
+              "claim": "Dry time and transport medium affect viability of periodontal ligament cells.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "iadt-permanent-teeth21",
+                  "location": "Handle by crown, root protection, prompt professional intervention",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-04",
+              "claim": "The 2024 first-aid guidance identifies preferred preservation media and advises against storing a permanent tooth in tap water.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aha-redcross-2024-firstaid",
+                  "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_or_clinical_review_pending",
+          "citation_policy": "Credit original authors and standards issuers; cite educational synthesis accurately. No engineering, clinical, or jurisdictional certification is claimed."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "010000-recognize-trauma-and-coordinate-the-handoff.md"
+      ],
+      "joined_before_source_parts": [
+        "011000",
+        "019000"
+      ]
+    }
+  ]
 }

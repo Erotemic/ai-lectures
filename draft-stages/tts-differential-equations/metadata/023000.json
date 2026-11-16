@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "023000",
-  "transcript": "023000-dispersive-schrodinger-strichartz-and-scattering.md",
+  "transcript": "023000-propagation-energy-dispersion-and-nonlinear-wave-tools-shared-core.md",
   "related_resources": [
     {
       "source_id": "di-r12-023000-1",
@@ -14,7 +14,116 @@
     {
       "source_id": "de-evans-pde",
       "reason": "Free Schrodinger dispersion, Strichartz estimates and scattering"
+    },
+    {
+      "source_id": "di-r14-027000-1",
+      "reason": "Semilinear wave equations, Duhamel methods, local energy and focusing blow-up"
+    },
+    {
+      "source_id": "di-r14-027000-2",
+      "reason": "Semilinear wave equations, Duhamel methods, local energy and focusing blow-up"
+    },
+    {
+      "source_id": "di-r14-027000-3",
+      "reason": "Semilinear wave equations, Duhamel methods, local energy and focusing blow-up"
+    },
+    {
+      "source_id": "di-r15-029000-1",
+      "reason": "Wave Strichartz estimates, dispersion, admissibility and endpoint failures"
+    },
+    {
+      "source_id": "di-r15-029000-2",
+      "reason": "Wave Strichartz estimates, dispersion, admissibility and endpoint failures"
+    },
+    {
+      "source_id": "di-r15-029000-3",
+      "reason": "Wave Strichartz estimates, dispersion, admissibility and endpoint failures"
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "differential-equations:023000",
+        "file": "023000-dispersive-schrodinger-strichartz-and-scattering.md",
+        "sha256": "c93f7cfad9c2e57441c308ee595a9110fe5b3b40eecf203abad1c1a4db80cf03",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "023000",
+          "transcript": "023000-dispersive-schrodinger-strichartz-and-scattering.md",
+          "related_resources": [
+            {
+              "source_id": "di-r12-023000-1",
+              "reason": "Free Schrodinger dispersion, Strichartz estimates and scattering"
+            },
+            {
+              "source_id": "di-r12-023000-2",
+              "reason": "Free Schrodinger dispersion, Strichartz estimates and scattering"
+            },
+            {
+              "source_id": "de-evans-pde",
+              "reason": "Free Schrodinger dispersion, Strichartz estimates and scattering"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:027000",
+        "file": "027000-semilinear-wave-equations-and-local-theory.md",
+        "sha256": "c3e1803130da8c768142badf7b0c6ef8e0d34214d7d44eb6cfe3f448a83ee8e0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "027000",
+          "transcript": "027000-semilinear-wave-equations-and-local-theory.md",
+          "related_resources": [
+            {
+              "source_id": "di-r14-027000-1",
+              "reason": "Semilinear wave equations, Duhamel methods, local energy and focusing blow-up"
+            },
+            {
+              "source_id": "di-r14-027000-2",
+              "reason": "Semilinear wave equations, Duhamel methods, local energy and focusing blow-up"
+            },
+            {
+              "source_id": "di-r14-027000-3",
+              "reason": "Semilinear wave equations, Duhamel methods, local energy and focusing blow-up"
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:029000",
+        "file": "029000-strichartz-estimates-and-endpoint-failures.md",
+        "sha256": "9d6357b41bf57d8ced9c1a4f56b28eed6e976d5d6a9a538ddc5756f346e83acc",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "029000",
+          "transcript": "029000-strichartz-estimates-and-endpoint-failures.md",
+          "related_resources": [
+            {
+              "source_id": "di-r15-029000-1",
+              "reason": "Wave Strichartz estimates, dispersion, admissibility and endpoint failures"
+            },
+            {
+              "source_id": "di-r15-029000-2",
+              "reason": "Wave Strichartz estimates, dispersion, admissibility and endpoint failures"
+            },
+            {
+              "source_id": "di-r15-029000-3",
+              "reason": "Wave Strichartz estimates, dispersion, admissibility and endpoint failures"
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

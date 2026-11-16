@@ -1,11 +1,43 @@
 {
   "schema_version": 1,
   "lecture_id": "008000",
-  "transcript": "008000-pumps-fans-and-performance-curves.md",
+  "transcript": "008000-match-a-pump-to-its-inlet-network-and-seal.md",
   "related_resources": [
     {
       "source_id": "doe-hi-pumping-sourcebook",
       "reason": "Pump and system curves, BEP, NPSH, pump selection and maintenance"
+    },
+    {
+      "source_id": "skf-damage",
+      "reason": "Bearing removal symptoms and lubrication/contamination damage mechanisms"
+    },
+    {
+      "source_id": "openstax-thermal",
+      "reason": "Linear thermal expansion, representative material coefficients, and holes expanding with heating"
+    },
+    {
+      "source_id": "osha-hazardous-energy",
+      "reason": "Stored pneumatic, hydraulic and mechanical energy during servicing"
+    },
+    {
+      "source_id": "doe-electric-motor-systems",
+      "reason": "Motor load, alignment, drive losses and troubleshooting; linked technical bulletins"
+    },
+    {
+      "source_id": "johncrane-mechanical-seal",
+      "reason": "Stationary and rotating seal faces, fluid film, secondary seals and supporting systems"
+    },
+    {
+      "source_id": "johncrane-seal-leak-causes",
+      "reason": "Lubrication, contamination, alignment, selection and installation conditions"
+    },
+    {
+      "source_id": "skf-bearing-guide",
+      "reason": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings"
+    },
+    {
+      "source_id": "skf-grease",
+      "reason": "Grease churning, replenishment, starvation and film breakdown"
     }
   ],
   "historical_claims": [],
@@ -17,7 +49,7 @@
       "supports": [
         {
           "source_id": "doe-hi-pumping-sourcebook",
-          "location": "Sections 1–2: pump performance, system resistance and equipment curves",
+          "location": "Sections 1\u20132: pump performance, system resistance and equipment curves",
           "role": "source_reference"
         }
       ],
@@ -54,8 +86,630 @@
       "verification_level": "original_publisher_claim_mapping; professional_review_pending",
       "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "Insufficient available suction head can permit cavitation in a centrifugal pump.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-hi-pumping-sourcebook",
+          "location": "Pump and system curves, BEP, NPSH, pump selection and maintenance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Liquid vapor pressure, temperature and inlet losses affect cavitation margin.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-hi-pumping-sourcebook",
+          "location": "Pump and system curves, BEP, NPSH, pump selection and maintenance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "openstax-thermal",
+          "location": "Linear thermal expansion, representative material coefficients, and holes expanding with heating",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Air ingestion and liquid vapor cavitation have different origins despite overlapping observed symptoms.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-hi-pumping-sourcebook",
+          "location": "Pump and system curves, BEP, NPSH, pump selection and maintenance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "Rotating and pressurized pump inspections require hazardous-energy control.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "osha-hazardous-energy",
+          "location": "Stored pneumatic, hydraulic and mechanical energy during servicing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-01",
+      "claim": "Pump and system head curves intersect at the operating point.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-hi-pumping-sourcebook",
+          "location": "Pump and system curves, BEP, NPSH, pump selection and maintenance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Pump hydraulic power depends on fluid density, flow and developed head.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-hi-pumping-sourcebook",
+          "location": "Pump and system curves, BEP, NPSH, pump selection and maintenance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "Pump, motor and drive efficiencies are separate contributors to electrical input.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-hi-pumping-sourcebook",
+          "location": "Pump and system curves, BEP, NPSH, pump selection and maintenance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-electric-motor-systems",
+          "location": "Motor load, alignment, drive losses and troubleshooting; linked technical bulletins",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Suction conditions and net positive suction head constrain pump selection.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-hi-pumping-sourcebook",
+          "location": "Pump and system curves, BEP, NPSH, pump selection and maintenance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-01",
+      "claim": "Dynamic seals differ from static flange gaskets because motion affects friction, heat and wear.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "johncrane-mechanical-seal",
+          "location": "Stationary and rotating seal faces, fluid film, secondary seals and supporting systems",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "skf-bearing-guide",
+          "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "Face seals use rotating and stationary surfaces with lubricating films and controlled leakage.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "johncrane-mechanical-seal",
+          "location": "Stationary and rotating seal faces, fluid film, secondary seals and supporting systems",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "Contamination, dry running and misalignment can contribute to face-seal failure.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "johncrane-seal-leak-causes",
+          "location": "Lubrication, contamination, alignment, selection and installation conditions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Seal selection depends on fluid, speed, temperature and pressure.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "johncrane-mechanical-seal",
+          "location": "Stationary and rotating seal faces, fluid film, secondary seals and supporting systems",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "skf-bearing-guide",
+          "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Unexpected startup and trapped pressure require appropriate isolation before pump work.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "osha-hazardous-energy",
+          "location": "Stored pneumatic, hydraulic and mechanical energy during servicing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+  "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-mechanics:008000",
+        "file": "008000-pumps-fans-and-performance-curves.md",
+        "sha256": "a37712cfaf03295c1d883a4af6ea5e65f7ae284d5286cc447a4dc3e9c7fe629a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-pumps-fans-and-performance-curves.md",
+          "related_resources": [
+            {
+              "source_id": "doe-hi-pumping-sourcebook",
+              "reason": "Pump and system curves, BEP, NPSH, pump selection and maintenance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P008000-01",
+              "claim": "Centrifugal pump flow depends on the intersection of pump performance and system demand rather than on a standalone catalog flow rate.",
+              "kind": "mechanical_engineering_guidance",
+              "supports": [
+                {
+                  "source_id": "doe-hi-pumping-sourcebook",
+                  "location": "Sections 1\u20132: pump performance, system resistance and equipment curves",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-02",
+              "claim": "A best-efficiency point is one consideration in choosing an operating point, alongside service requirements and reliability.",
+              "kind": "mechanical_engineering_guidance",
+              "supports": [
+                {
+                  "source_id": "doe-hi-pumping-sourcebook",
+                  "location": "Centrifugal Pumps / pump performance curves",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P008000-03",
+              "claim": "Cavitation and inlet conditions must be considered when diagnosing poor pumping performance.",
+              "kind": "mechanical_engineering_guidance",
+              "supports": [
+                {
+                  "source_id": "doe-hi-pumping-sourcebook",
+                  "location": "Common Pumping System Problems: Cavitation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "original_publisher_claim_mapping; professional_review_pending",
+              "limits": "Only within source scope; equipment, jurisdiction, and context need independent validation.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claim vs synthesis distinguished; professional review and local code adoption not implied."
+        }
+      },
+      {
+        "id": "practical-mechanics:018000",
+        "file": "018000-pump-cavitation-inlet-conditions-and-impeller-wear.md",
+        "sha256": "0bbea834b8a6675c877dadf23a8025a637d548a7181762f7cef5231beded0ae2",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-pump-cavitation-inlet-conditions-and-impeller-wear.md",
+          "related_resources": [
+            {
+              "source_id": "doe-hi-pumping-sourcebook",
+              "reason": "Pump and system curves, BEP, NPSH, pump selection and maintenance"
+            },
+            {
+              "source_id": "skf-damage",
+              "reason": "Bearing removal symptoms and lubrication/contamination damage mechanisms"
+            },
+            {
+              "source_id": "openstax-thermal",
+              "reason": "Linear thermal expansion, representative material coefficients, and holes expanding with heating"
+            },
+            {
+              "source_id": "osha-hazardous-energy",
+              "reason": "Stored pneumatic, hydraulic and mechanical energy during servicing"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "Insufficient available suction head can permit cavitation in a centrifugal pump.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-hi-pumping-sourcebook",
+                  "location": "Pump and system curves, BEP, NPSH, pump selection and maintenance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Liquid vapor pressure, temperature and inlet losses affect cavitation margin.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-hi-pumping-sourcebook",
+                  "location": "Pump and system curves, BEP, NPSH, pump selection and maintenance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "openstax-thermal",
+                  "location": "Linear thermal expansion, representative material coefficients, and holes expanding with heating",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "Air ingestion and liquid vapor cavitation have different origins despite overlapping observed symptoms.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-hi-pumping-sourcebook",
+                  "location": "Pump and system curves, BEP, NPSH, pump selection and maintenance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "Rotating and pressurized pump inspections require hazardous-energy control.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "osha-hazardous-energy",
+                  "location": "Stored pneumatic, hydraulic and mechanical energy during servicing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-mechanics:019000",
+        "file": "019000-pump-selection-efficiency-and-the-cost-of-moving-water.md",
+        "sha256": "cef12f424cdcb4bdc22e0f82614642ded4416e687d954abe9b81ef80026e0778",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-pump-selection-efficiency-and-the-cost-of-moving-water.md",
+          "related_resources": [
+            {
+              "source_id": "doe-hi-pumping-sourcebook",
+              "reason": "Pump and system curves, BEP, NPSH, pump selection and maintenance"
+            },
+            {
+              "source_id": "doe-electric-motor-systems",
+              "reason": "Motor load, alignment, drive losses and troubleshooting; linked technical bulletins"
+            },
+            {
+              "source_id": "skf-damage",
+              "reason": "Bearing removal symptoms and lubrication/contamination damage mechanisms"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P019000-01",
+              "claim": "Pump and system head curves intersect at the operating point.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-hi-pumping-sourcebook",
+                  "location": "Pump and system curves, BEP, NPSH, pump selection and maintenance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-02",
+              "claim": "Pump hydraulic power depends on fluid density, flow and developed head.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-hi-pumping-sourcebook",
+                  "location": "Pump and system curves, BEP, NPSH, pump selection and maintenance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-03",
+              "claim": "Pump, motor and drive efficiencies are separate contributors to electrical input.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-hi-pumping-sourcebook",
+                  "location": "Pump and system curves, BEP, NPSH, pump selection and maintenance",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-electric-motor-systems",
+                  "location": "Motor load, alignment, drive losses and troubleshooting; linked technical bulletins",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-04",
+              "claim": "Suction conditions and net positive suction head constrain pump selection.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-hi-pumping-sourcebook",
+                  "location": "Pump and system curves, BEP, NPSH, pump selection and maintenance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-mechanics:020000",
+        "file": "020000-mechanical-seals-and-leaks-at-rotating-shafts.md",
+        "sha256": "74dc497cd9422f4007fc53b3939ba942e40225b0ffe5bde18c5c18234b795149",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-mechanical-seals-and-leaks-at-rotating-shafts.md",
+          "related_resources": [
+            {
+              "source_id": "johncrane-mechanical-seal",
+              "reason": "Stationary and rotating seal faces, fluid film, secondary seals and supporting systems"
+            },
+            {
+              "source_id": "johncrane-seal-leak-causes",
+              "reason": "Lubrication, contamination, alignment, selection and installation conditions"
+            },
+            {
+              "source_id": "skf-bearing-guide",
+              "reason": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings"
+            },
+            {
+              "source_id": "skf-grease",
+              "reason": "Grease churning, replenishment, starvation and film breakdown"
+            },
+            {
+              "source_id": "osha-hazardous-energy",
+              "reason": "Stored pneumatic, hydraulic and mechanical energy during servicing"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P020000-01",
+              "claim": "Dynamic seals differ from static flange gaskets because motion affects friction, heat and wear.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "johncrane-mechanical-seal",
+                  "location": "Stationary and rotating seal faces, fluid film, secondary seals and supporting systems",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "skf-bearing-guide",
+                  "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-02",
+              "claim": "Face seals use rotating and stationary surfaces with lubricating films and controlled leakage.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "johncrane-mechanical-seal",
+                  "location": "Stationary and rotating seal faces, fluid film, secondary seals and supporting systems",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-03",
+              "claim": "Contamination, dry running and misalignment can contribute to face-seal failure.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "johncrane-seal-leak-causes",
+                  "location": "Lubrication, contamination, alignment, selection and installation conditions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-04",
+              "claim": "Seal selection depends on fluid, speed, temperature and pressure.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "johncrane-mechanical-seal",
+                  "location": "Stationary and rotating seal faces, fluid film, secondary seals and supporting systems",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "skf-bearing-guide",
+                  "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-05",
+              "claim": "Unexpected startup and trapped pressure require appropriate isolation before pump work.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "osha-hazardous-energy",
+                  "location": "Stored pneumatic, hydraulic and mechanical energy during servicing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "008000-match-a-pump-to-its-inlet-network-and-seal.md"
+      ],
+      "joined_before_source_parts": [
+        "018000",
+        "020000"
+      ],
+      "reframed_repeated_opening": true
+    }
+  ]
 }

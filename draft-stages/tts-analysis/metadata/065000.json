@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "065000",
-  "transcript": "065000-banach-and-cstar-algebras.md",
+  "transcript": "065000-operator-algebra-adjoints-spectra-and-fredholm-alternatives.md",
   "related_resources": [
     {
       "source_id": "an-found24-065000-1",
@@ -10,7 +10,212 @@
     {
       "source_id": "an-found24-065000-2",
       "reason": "Supports definitions, statements, and worked examples in Banach and C-Star Algebras: Where Functional Calculus Lives."
+    },
+    {
+      "source_id": "an-fc22-041000-1",
+      "reason": "Supports the concepts, examples, and theorem scope in Adjoints: Moving an Operator Across an Inner Product."
+    },
+    {
+      "source_id": "an-fc22-041000-2",
+      "reason": "Supports the concepts, examples, and theorem scope in Adjoints: Moving an Operator Across an Inner Product."
+    },
+    {
+      "source_id": "an-fc22-042000-1",
+      "reason": "Supports the concepts, examples, and theorem scope in Self-Adjoint and Positive Operators: The Geometry of Energy."
+    },
+    {
+      "source_id": "an-fc22-042000-2",
+      "reason": "Supports the concepts, examples, and theorem scope in Self-Adjoint and Positive Operators: The Geometry of Energy."
+    },
+    {
+      "source_id": "an-fc22-043000-1",
+      "reason": "Supports the concepts, examples, and theorem scope in Spectra and Resolvents: What If an Operator Cannot Be Inverted?."
+    },
+    {
+      "source_id": "an-fc22-043000-2",
+      "reason": "Supports the concepts, examples, and theorem scope in Spectra and Resolvents: What If an Operator Cannot Be Inverted?."
+    },
+    {
+      "source_id": "an-fc22-044000-1",
+      "reason": "Supports the concepts, examples, and theorem scope in Matrix Functions: Turning Scalar Formulas into Operator Formulas."
+    },
+    {
+      "source_id": "an-fc22-044000-2",
+      "reason": "Supports the concepts, examples, and theorem scope in Matrix Functions: Turning Scalar Formulas into Operator Formulas."
+    },
+    {
+      "source_id": "an-fc22-045000-1",
+      "reason": "Supports the concepts, examples, and theorem scope in Compact Operators and Continuous Spectrum: Two Ways Infinity Enters."
+    },
+    {
+      "source_id": "an-fc22-045000-2",
+      "reason": "Supports the concepts, examples, and theorem scope in Compact Operators and Continuous Spectrum: Two Ways Infinity Enters."
+    },
+    {
+      "source_id": "an-found23-054000-1",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Compact Operators, Fredholm Alternatives, and Integral Equations."
+    },
+    {
+      "source_id": "an-found23-054000-2",
+      "reason": "Reference for definitions, examples, and precise hypotheses in Compact Operators, Fredholm Alternatives, and Integral Equations."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "analysis:065000",
+        "file": "065000-banach-and-cstar-algebras.md",
+        "sha256": "4ad9d1f5f5859e49b54e4ae53f8942e9f3b3b069140ed883707fb8c00b873924",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "065000",
+          "transcript": "065000-banach-and-cstar-algebras.md",
+          "related_resources": [
+            {
+              "source_id": "an-found24-065000-1",
+              "reason": "Supports definitions, statements, and worked examples in Banach and C-Star Algebras: Where Functional Calculus Lives."
+            },
+            {
+              "source_id": "an-found24-065000-2",
+              "reason": "Supports definitions, statements, and worked examples in Banach and C-Star Algebras: Where Functional Calculus Lives."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:041000",
+        "file": "041000-adjoints-and-inner-product-geometry.md",
+        "sha256": "0b2485d618cf35c700befe186195d8e35640ba8e3b8acdcf235b6a32c11f8c0f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "041000",
+          "transcript": "041000-adjoints-and-inner-product-geometry.md",
+          "related_resources": [
+            {
+              "source_id": "an-fc22-041000-1",
+              "reason": "Supports the concepts, examples, and theorem scope in Adjoints: Moving an Operator Across an Inner Product."
+            },
+            {
+              "source_id": "an-fc22-041000-2",
+              "reason": "Supports the concepts, examples, and theorem scope in Adjoints: Moving an Operator Across an Inner Product."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:042000",
+        "file": "042000-positivity-and-self-adjoint-operators.md",
+        "sha256": "807f563cd5ec30ce70fa0a436d9b8491fe7e2394e349b7834f6e2b877337fc54",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "042000",
+          "transcript": "042000-positivity-and-self-adjoint-operators.md",
+          "related_resources": [
+            {
+              "source_id": "an-fc22-042000-1",
+              "reason": "Supports the concepts, examples, and theorem scope in Self-Adjoint and Positive Operators: The Geometry of Energy."
+            },
+            {
+              "source_id": "an-fc22-042000-2",
+              "reason": "Supports the concepts, examples, and theorem scope in Self-Adjoint and Positive Operators: The Geometry of Energy."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:043000",
+        "file": "043000-spectrum-resolvents-and-approximate-eigenvectors.md",
+        "sha256": "8d010e4372ccc75912788f043e25e335aa3db713e5249bc0de7f520a60856ecb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "043000",
+          "transcript": "043000-spectrum-resolvents-and-approximate-eigenvectors.md",
+          "related_resources": [
+            {
+              "source_id": "an-fc22-043000-1",
+              "reason": "Supports the concepts, examples, and theorem scope in Spectra and Resolvents: What If an Operator Cannot Be Inverted?."
+            },
+            {
+              "source_id": "an-fc22-043000-2",
+              "reason": "Supports the concepts, examples, and theorem scope in Spectra and Resolvents: What If an Operator Cannot Be Inverted?."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:044000",
+        "file": "044000-matrix-functions-from-eigenvectors.md",
+        "sha256": "99098791c42facb5878b8a2f0a92918a7093c7f135136d15b2600ed29f77c190",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "044000",
+          "transcript": "044000-matrix-functions-from-eigenvectors.md",
+          "related_resources": [
+            {
+              "source_id": "an-fc22-044000-1",
+              "reason": "Supports the concepts, examples, and theorem scope in Matrix Functions: Turning Scalar Formulas into Operator Formulas."
+            },
+            {
+              "source_id": "an-fc22-044000-2",
+              "reason": "Supports the concepts, examples, and theorem scope in Matrix Functions: Turning Scalar Formulas into Operator Formulas."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:045000",
+        "file": "045000-compact-operators-and-continuous-spectrum.md",
+        "sha256": "f8edaf5d17d886ce864a5447f55e22142ba257d42b6b8f988dfc4ba5734eb7b8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "045000",
+          "transcript": "045000-compact-operators-and-continuous-spectrum.md",
+          "related_resources": [
+            {
+              "source_id": "an-fc22-045000-1",
+              "reason": "Supports the concepts, examples, and theorem scope in Compact Operators and Continuous Spectrum: Two Ways Infinity Enters."
+            },
+            {
+              "source_id": "an-fc22-045000-2",
+              "reason": "Supports the concepts, examples, and theorem scope in Compact Operators and Continuous Spectrum: Two Ways Infinity Enters."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "analysis:054000",
+        "file": "054000-compactness-fredholm-and-integral-equations.md",
+        "sha256": "e41014b4b8be6a54622b34da610b287fbf2d22fdb14a2c1421adef5c6b0f832b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "054000",
+          "transcript": "054000-compactness-fredholm-and-integral-equations.md",
+          "related_resources": [
+            {
+              "source_id": "an-found23-054000-1",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Compact Operators, Fredholm Alternatives, and Integral Equations."
+            },
+            {
+              "source_id": "an-found23-054000-2",
+              "reason": "Reference for definitions, examples, and precise hypotheses in Compact Operators, Fredholm Alternatives, and Integral Equations."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

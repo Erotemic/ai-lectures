@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "009000",
-  "transcript": "009000-combustion-appliances-depressurization-and-indoor-air.md",
+  "transcript": "009000-measure-first-and-retrofit-without-creating-new-failures.md",
   "related_resources": [
     {
       "source_id": "epa-exhaust-backdraft-2026",
@@ -14,6 +14,58 @@
     {
       "source_id": "pnnl-air-flow",
       "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+    },
+    {
+      "source_id": "doe-air-vapor",
+      "reason": "Separate air leakage, vapor diffusion and water-management functions"
+    },
+    {
+      "source_id": "pnnl-drainage-plane",
+      "reason": "Continuity of water-control layer; shingle laps and exterior drainage"
+    },
+    {
+      "source_id": "pnnl-window-flashing",
+      "reason": "Sill pan, jamb/head flashing and connections to drainage plane"
+    },
+    {
+      "source_id": "pnnl-basement-drain",
+      "reason": "Footing drainage, sump pit, below-floor water management and discharge"
+    },
+    {
+      "source_id": "epa-radon-action",
+      "reason": "EPA US 4 pCi/L action recommendation and 2–4 pCi/L consider-action range"
+    },
+    {
+      "source_id": "doe-airsealing-audit-2010",
+      "reason": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions"
+    },
+    {
+      "source_id": "pnnl-cold-condensation",
+      "reason": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways"
+    },
+    {
+      "source_id": "epa-energy-star-degree-days",
+      "reason": "65°F reference heating/cooling degree days and weather-normalized energy use"
+    },
+    {
+      "source_id": "ashrae-2025-energy-estimating",
+      "reason": "Degree-day and change-point regression models, base use and weather-dependent slope"
+    },
+    {
+      "source_id": "doe-energy-star-window-basics",
+      "reason": "Whole-window U-factor and SHGC and their separate heat-flow functions"
+    },
+    {
+      "source_id": "pnnl-ci",
+      "reason": "Assembly details, moisture/climate and thermal bridging"
+    },
+    {
+      "source_id": "pnnl-air-sealed-basements",
+      "reason": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design"
+    },
+    {
+      "source_id": "cdc-mold",
+      "reason": "Moisture as a prerequisite for indoor mold growth"
     }
   ],
   "historical_claims": [],
@@ -67,8 +119,1155 @@
       "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
       "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
       "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-01",
+      "claim": "Bulk water intrusion, air leakage, and water-vapor diffusion are distinct transport mechanisms and require different observations.",
+      "kind": "derived_building_physics_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Air leakage and vapor diffusion",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-drainage-plane",
+          "location": "Water-control and drainage paths",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Roof and wall flashings need drainage continuity to guide incidental rainwater toward the exterior.",
+      "kind": "agency_drainage_detail_guidance",
+      "supports": [
+        {
+          "source_id": "pnnl-window-flashing",
+          "location": "Window drainage flashing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-drainage-plane",
+          "location": "Drainage plane continuity",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Below-grade moisture symptoms can result from surface water, below-grade seepage, or vapor and humidity transport.",
+      "kind": "derived_diagnostic_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Basement drainage strategies",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Transport distinctions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "A visual walk-through cannot alone establish hidden radon, combustion, electrical, or structural safety.",
+      "kind": "derived_scope_limit",
+      "supports": [
+        {
+          "source_id": "epa-radon-action",
+          "location": "Testing requirement",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-co-basics-building",
+          "location": "Carbon monoxide cannot be detected by smell",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-01",
+      "claim": "Calibrated blower-door airflow at imposed pressure quantifies enclosure leakage but is not directly the natural ventilation rate.",
+      "kind": "original_us_building_diagnostic_principle",
+      "supports": [
+        {
+          "source_id": "doe-airsealing-audit-2010",
+          "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "Infrared images report apparent surface thermal differences; thermal patterns do not uniquely identify moisture or air leakage.",
+      "kind": "derived_building_physics_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-airsealing-audit-2010",
+          "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-cold-condensation",
+          "location": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Controlled pressure changes can help distinguish air leaks from conductive bridges but need comparable environmental conditions.",
+      "kind": "derived_diagnostic_method",
+      "supports": [
+        {
+          "source_id": "doe-airsealing-audit-2010",
+          "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-04",
+      "claim": "Improved airtightness requires coordinating intentional ventilation and combustion safety.",
+      "kind": "original_building_guidance",
+      "supports": [
+        {
+          "source_id": "doe-airsealing-audit-2010",
+          "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Separate air leakage, vapor diffusion and water-management functions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-01",
+      "claim": "Degree days summarize temperatures relative to a stated base but are not a universal building heating balance point.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-energy-star-degree-days",
+          "location": "65°F reference heating/cooling degree days and weather-normalized energy use",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ashrae-2025-energy-estimating",
+          "location": "Degree-day and change-point regression models, base use and weather-dependent slope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-02",
+      "claim": "Purchased fuel or electricity includes both building demand and equipment efficiency or other non-heating loads.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ashrae-2025-energy-estimating",
+          "location": "Degree-day and change-point regression models, base use and weather-dependent slope",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-energy-star-window-basics",
+          "location": "Whole-window U-factor and SHGC and their separate heat-flow functions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-03",
+      "claim": "A weather-normalized model can use an intercept for base usage and a degree-day slope for weather-dependent use.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ashrae-2025-energy-estimating",
+          "location": "Degree-day and change-point regression models, base use and weather-dependent slope",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-energy-star-degree-days",
+          "location": "65°F reference heating/cooling degree days and weather-normalized energy use",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-04",
+      "claim": "Comparing retrofits needs adjusted weather and documented changes in occupancy, controls, and equipment operation.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "epa-energy-star-degree-days",
+          "location": "65°F reference heating/cooling degree days and weather-normalized energy use",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ashrae-2025-energy-estimating",
+          "location": "Degree-day and change-point regression models, base use and weather-dependent slope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-01",
+      "claim": "Adding cavity insulation can lower outward heat flow while decreasing a wall's ability to dry after wetting.",
+      "kind": "original_building_science_guidance",
+      "supports": [
+        {
+          "source_id": "pnnl-cold-condensation",
+          "location": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Bulk water, air leakage and vapor diffusion are distinct routes of moisture transport.",
+      "kind": "derived_building_physics_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-drainage-plane",
+          "location": "Continuity of water-control layer; shingle laps and exterior drainage",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Air sealing and insulation must be coordinated with seasonal drying and intentional ventilation.",
+      "kind": "original_agency_retrofit_guidance",
+      "supports": [
+        {
+          "source_id": "pnnl-cold-condensation",
+          "location": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-ci",
+          "location": "Assembly details, moisture/climate and thermal bridging",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-04",
+      "claim": "The continuity of water-control layers at openings is critical even when thermal performance improves.",
+      "kind": "derived_enclosure_design_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-window-flashing",
+          "location": "Sill pan, jamb/head flashing and connections to drainage plane",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-drainage-plane",
+          "location": "Continuity of water-control layer; shingle laps and exterior drainage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-01",
+      "claim": "An enclosure can change both moisture inputs and drying routes.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-air-sealed-basements",
+          "location": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Separate air leakage, vapor diffusion and water-management functions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "Rain and ground water pathways require consideration before an interior insulation repair.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Footing drainage, sump pit, below-floor water management and discharge",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-sealed-basements",
+          "location": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "Air leakage, vapor diffusion and bulk liquid transport are different mechanisms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Separate air leakage, vapor diffusion and water-management functions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Cold surface temperature and indoor water vapor can influence condensation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-cold-condensation",
+          "location": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Trends at comparable fixed points are more informative than a single ambiguous instrument reading.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cdc-mold",
+          "location": "Moisture as a prerequisite for indoor mold growth",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Footing drainage, sump pit, below-floor water management and discharge",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-06",
+      "claim": "Visible or concealed dampness calls for source correction rather than merely covering a stain.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cdc-mold",
+          "location": "Moisture as a prerequisite for indoor mold growth",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Footing drainage, sump pit, below-floor water management and discharge",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+  "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-building-science:009000",
+        "file": "009000-combustion-appliances-depressurization-and-indoor-air.md",
+        "sha256": "08d083aa81677ef1cbfeb3db2b79ee2e09264f1ddf336e814f0bebaf7ce9d198",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-combustion-appliances-depressurization-and-indoor-air.md",
+          "related_resources": [
+            {
+              "source_id": "epa-exhaust-backdraft-2026",
+              "reason": "Range hoods and combustion-appliance backdrafting from excessive depressurization"
+            },
+            {
+              "source_id": "cdc-co-basics-building",
+              "reason": "CO exposure, fuel appliances, generators and detector maintenance"
+            },
+            {
+              "source_id": "pnnl-air-flow",
+              "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P009000-01",
+              "claim": "High exhaust flows can depressurize a building and interfere with a naturally drafted combustion appliance.",
+              "kind": "original_agency_airflow_guidance",
+              "supports": [
+                {
+                  "source_id": "epa-exhaust-backdraft-2026",
+                  "location": "Caution: range hoods may produce combustion backdrafting",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-02",
+              "claim": "Carbon monoxide is not detectable by smell; alarms and proper fuel-appliance maintenance serve different roles.",
+              "kind": "original_us_public_health_guidance",
+              "supports": [
+                {
+                  "source_id": "cdc-co-basics-building",
+                  "location": "CO basics and prevention advice",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-03",
+              "claim": "Exhaust fan rating alone is insufficient to calculate building depressurization without leakage characteristics.",
+              "kind": "derived_building_mass_balance",
+              "supports": [
+                {
+                  "source_id": "epa-exhaust-backdraft-2026",
+                  "location": "Exhaust air and makeup air mechanism",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Building air pressure and leakage paths",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+        }
+      },
+      {
+        "id": "trades-building-science:011000",
+        "file": "011000-inspecting-an-existing-house-an-evidence-based-walkthrough.md",
+        "sha256": "9c3466ec45995bb5765400f7bc0e64a20b52c31c56412aed94fa7bc1462c9a72",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-inspecting-an-existing-house-an-evidence-based-walkthrough.md",
+          "related_resources": [
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Separate air leakage, vapor diffusion and water-management functions"
+            },
+            {
+              "source_id": "pnnl-drainage-plane",
+              "reason": "Continuity of water-control layer; shingle laps and exterior drainage"
+            },
+            {
+              "source_id": "pnnl-window-flashing",
+              "reason": "Sill pan, jamb/head flashing and connections to drainage plane"
+            },
+            {
+              "source_id": "pnnl-basement-drain",
+              "reason": "Footing drainage, sump pit, below-floor water management and discharge"
+            },
+            {
+              "source_id": "epa-radon-action",
+              "reason": "EPA US 4 pCi/L action recommendation and 2–4 pCi/L consider-action range"
+            },
+            {
+              "source_id": "cdc-co-basics-building",
+              "reason": "CO exposure, fuel appliances, generators and detector maintenance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "Bulk water intrusion, air leakage, and water-vapor diffusion are distinct transport mechanisms and require different observations.",
+              "kind": "derived_building_physics_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Air leakage and vapor diffusion",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-drainage-plane",
+                  "location": "Water-control and drainage paths",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "Roof and wall flashings need drainage continuity to guide incidental rainwater toward the exterior.",
+              "kind": "agency_drainage_detail_guidance",
+              "supports": [
+                {
+                  "source_id": "pnnl-window-flashing",
+                  "location": "Window drainage flashing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-drainage-plane",
+                  "location": "Drainage plane continuity",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "Below-grade moisture symptoms can result from surface water, below-grade seepage, or vapor and humidity transport.",
+              "kind": "derived_diagnostic_synthesis",
+              "supports": [
+                {
+                  "source_id": "pnnl-basement-drain",
+                  "location": "Basement drainage strategies",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Transport distinctions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "A visual walk-through cannot alone establish hidden radon, combustion, electrical, or structural safety.",
+              "kind": "derived_scope_limit",
+              "supports": [
+                {
+                  "source_id": "epa-radon-action",
+                  "location": "Testing requirement",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cdc-co-basics-building",
+                  "location": "Carbon monoxide cannot be detected by smell",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "trades-building-science:013000",
+        "file": "013000-thermal-imaging-blower-doors-and-diagnosing-envelope-leaks.md",
+        "sha256": "bab5055b634d21f1c74ef46f8106d216eed80b9d5df99061457c638b0cad9e03",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-thermal-imaging-blower-doors-and-diagnosing-envelope-leaks.md",
+          "related_resources": [
+            {
+              "source_id": "doe-airsealing-audit-2010",
+              "reason": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions"
+            },
+            {
+              "source_id": "pnnl-air-flow",
+              "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+            },
+            {
+              "source_id": "pnnl-cold-condensation",
+              "reason": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways"
+            },
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Separate air leakage, vapor diffusion and water-management functions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "Calibrated blower-door airflow at imposed pressure quantifies enclosure leakage but is not directly the natural ventilation rate.",
+              "kind": "original_us_building_diagnostic_principle",
+              "supports": [
+                {
+                  "source_id": "doe-airsealing-audit-2010",
+                  "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "Infrared images report apparent surface thermal differences; thermal patterns do not uniquely identify moisture or air leakage.",
+              "kind": "derived_building_physics_synthesis",
+              "supports": [
+                {
+                  "source_id": "doe-airsealing-audit-2010",
+                  "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-cold-condensation",
+                  "location": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "Controlled pressure changes can help distinguish air leaks from conductive bridges but need comparable environmental conditions.",
+              "kind": "derived_diagnostic_method",
+              "supports": [
+                {
+                  "source_id": "doe-airsealing-audit-2010",
+                  "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-04",
+              "claim": "Improved airtightness requires coordinating intentional ventilation and combustion safety.",
+              "kind": "original_building_guidance",
+              "supports": [
+                {
+                  "source_id": "doe-airsealing-audit-2010",
+                  "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Separate air leakage, vapor diffusion and water-management functions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "trades-building-science:014000",
+        "file": "014000-diagnosing-heat-loss-with-utility-data-and-weather-normalization.md",
+        "sha256": "e0c5814448494e66cd0d69ac56fb756359c4a8ed422497c9522d848e98196bc0",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-diagnosing-heat-loss-with-utility-data-and-weather-normalization.md",
+          "related_resources": [
+            {
+              "source_id": "epa-energy-star-degree-days",
+              "reason": "65°F reference heating/cooling degree days and weather-normalized energy use"
+            },
+            {
+              "source_id": "ashrae-2025-energy-estimating",
+              "reason": "Degree-day and change-point regression models, base use and weather-dependent slope"
+            },
+            {
+              "source_id": "doe-energy-star-window-basics",
+              "reason": "Whole-window U-factor and SHGC and their separate heat-flow functions"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P014000-01",
+              "claim": "Degree days summarize temperatures relative to a stated base but are not a universal building heating balance point.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "epa-energy-star-degree-days",
+                  "location": "65°F reference heating/cooling degree days and weather-normalized energy use",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ashrae-2025-energy-estimating",
+                  "location": "Degree-day and change-point regression models, base use and weather-dependent slope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-02",
+              "claim": "Purchased fuel or electricity includes both building demand and equipment efficiency or other non-heating loads.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "ashrae-2025-energy-estimating",
+                  "location": "Degree-day and change-point regression models, base use and weather-dependent slope",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-energy-star-window-basics",
+                  "location": "Whole-window U-factor and SHGC and their separate heat-flow functions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-03",
+              "claim": "A weather-normalized model can use an intercept for base usage and a degree-day slope for weather-dependent use.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "ashrae-2025-energy-estimating",
+                  "location": "Degree-day and change-point regression models, base use and weather-dependent slope",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-energy-star-degree-days",
+                  "location": "65°F reference heating/cooling degree days and weather-normalized energy use",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Statement bounded by source scope and any applicable local requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-04",
+              "claim": "Comparing retrofits needs adjusted weather and documented changes in occupancy, controls, and equipment operation.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "epa-energy-star-degree-days",
+                  "location": "65°F reference heating/cooling degree days and weather-normalized energy use",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "ashrae-2025-energy-estimating",
+                  "location": "Degree-day and change-point regression models, base use and weather-dependent slope",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-building-science:012000",
+        "file": "012000-planning-envelope-retrofits-without-trapping-moisture.md",
+        "sha256": "59e50c0cad024b213aae626b7ed6997b750a7e24275b28529fa77f420e3842e3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-planning-envelope-retrofits-without-trapping-moisture.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-cold-condensation",
+              "reason": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways"
+            },
+            {
+              "source_id": "pnnl-drainage-plane",
+              "reason": "Continuity of water-control layer; shingle laps and exterior drainage"
+            },
+            {
+              "source_id": "pnnl-air-flow",
+              "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+            },
+            {
+              "source_id": "pnnl-ci",
+              "reason": "Assembly details, moisture/climate and thermal bridging"
+            },
+            {
+              "source_id": "pnnl-window-flashing",
+              "reason": "Sill pan, jamb/head flashing and connections to drainage plane"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P012000-01",
+              "claim": "Adding cavity insulation can lower outward heat flow while decreasing a wall's ability to dry after wetting.",
+              "kind": "original_building_science_guidance",
+              "supports": [
+                {
+                  "source_id": "pnnl-cold-condensation",
+                  "location": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-02",
+              "claim": "Bulk water, air leakage and vapor diffusion are distinct routes of moisture transport.",
+              "kind": "derived_building_physics_synthesis",
+              "supports": [
+                {
+                  "source_id": "pnnl-drainage-plane",
+                  "location": "Continuity of water-control layer; shingle laps and exterior drainage",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-03",
+              "claim": "Air sealing and insulation must be coordinated with seasonal drying and intentional ventilation.",
+              "kind": "original_agency_retrofit_guidance",
+              "supports": [
+                {
+                  "source_id": "pnnl-cold-condensation",
+                  "location": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-ci",
+                  "location": "Assembly details, moisture/climate and thermal bridging",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-04",
+              "claim": "The continuity of water-control layers at openings is critical even when thermal performance improves.",
+              "kind": "derived_enclosure_design_synthesis",
+              "supports": [
+                {
+                  "source_id": "pnnl-window-flashing",
+                  "location": "Sill pan, jamb/head flashing and connections to drainage plane",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-drainage-plane",
+                  "location": "Continuity of water-control layer; shingle laps and exterior drainage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "trades-building-science:020000",
+        "file": "020000-distinguishing-residual-moisture-from-new-wetting-after-an-enclosure-retrofit.md",
+        "sha256": "3b36b82b5e541e6a772f1cecc3fb416fccca3ceda6a435ea875983973832247c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-distinguishing-residual-moisture-from-new-wetting-after-an-enclosure-retrofit.md",
+          "related_resources": [
+            {
+              "source_id": "pnnl-air-sealed-basements",
+              "reason": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design"
+            },
+            {
+              "source_id": "pnnl-basement-drain",
+              "reason": "Footing drainage, sump pit, below-floor water management and discharge"
+            },
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Separate air leakage, vapor diffusion and water-management functions"
+            },
+            {
+              "source_id": "pnnl-cold-condensation",
+              "reason": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways"
+            },
+            {
+              "source_id": "pnnl-air-flow",
+              "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+            },
+            {
+              "source_id": "cdc-mold",
+              "reason": "Moisture as a prerequisite for indoor mold growth"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P020000-01",
+              "claim": "An enclosure can change both moisture inputs and drying routes.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "pnnl-air-sealed-basements",
+                  "location": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Separate air leakage, vapor diffusion and water-management functions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-02",
+              "claim": "Rain and ground water pathways require consideration before an interior insulation repair.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "pnnl-basement-drain",
+                  "location": "Footing drainage, sump pit, below-floor water management and discharge",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-air-sealed-basements",
+                  "location": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-03",
+              "claim": "Air leakage, vapor diffusion and bulk liquid transport are different mechanisms.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Separate air leakage, vapor diffusion and water-management functions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-air-flow",
+                  "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-04",
+              "claim": "Cold surface temperature and indoor water vapor can influence condensation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "pnnl-cold-condensation",
+                  "location": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-05",
+              "claim": "Trends at comparable fixed points are more informative than a single ambiguous instrument reading.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cdc-mold",
+                  "location": "Moisture as a prerequisite for indoor mold growth",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-basement-drain",
+                  "location": "Footing drainage, sump pit, below-floor water management and discharge",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-06",
+              "claim": "Visible or concealed dampness calls for source correction rather than merely covering a stain.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cdc-mold",
+                  "location": "Moisture as a prerequisite for indoor mold growth",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "pnnl-basement-drain",
+                  "location": "Footing drainage, sump pit, below-floor water management and discharge",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "009000-measure-first-and-retrofit-without-creating-new-failures.md"
+      ],
+      "joined_before_source_parts": [
+        "011000",
+        "012000",
+        "020000"
+      ]
+    }
+  ]
 }

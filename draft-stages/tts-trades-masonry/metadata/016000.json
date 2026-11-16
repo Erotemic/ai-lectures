@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "016000",
-  "transcript": "016000-masonry-wall-ties-and-anchorage-inspection.md",
+  "transcript": "016000-follow-concealed-support-and-water-around-openings.md",
   "related_resources": [
     {
       "source_id": "bia-tech-note44b-ties",
@@ -14,6 +14,30 @@
     {
       "source_id": "nps-brick-masonry-problems",
       "reason": "Hard mortar damage and compatible repointing of historic masonry"
+    },
+    {
+      "source_id": "nps-repointing-brief2",
+      "reason": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation"
+    },
+    {
+      "source_id": "bia-water-resistance-design",
+      "reason": "Brick veneer drainage systems, flashing at openings and drainage paths"
+    },
+    {
+      "source_id": "aci-corrosion-repair-2025",
+      "reason": "Corroded reinforcement, evaluation of extent and repair planning"
+    },
+    {
+      "source_id": "aci-spall-repair-practice",
+      "reason": "Repair procedure boundaries and causes including reinforcement corrosion and freezing"
+    },
+    {
+      "source_id": "aci-crack-technical-qa",
+      "reason": "Crack significance depends on structure, exposure, durability and mechanism"
+    },
+    {
+      "source_id": "aci-302r",
+      "reason": "Construction, isolation and contraction joints; reinforcement does not prevent cracking"
     }
   ],
   "historical_claims": [],
@@ -82,8 +106,846 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
       "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "Brick veneer has distinct gravity support and lateral tie requirements.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-tech-note44b-ties",
+          "location": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "bia-builder-notes",
+          "location": "Drainable veneer, flashing, weeps, air space and moisture control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Weep openings, flashings and cavities provide water management within veneer assemblies.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-builder-notes",
+          "location": "Drainable veneer, flashing, weeps, air space and moisture control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Corroded ties and displaced masonry cannot be remedied solely by surface repointing.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "bia-tech-note44b-ties",
+          "location": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-brick-masonry-problems",
+          "location": "Hard mortar damage and compatible repointing of historic masonry",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Repair material compatibility and existing movement must be considered in masonry conservation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nps-brick-masonry-problems",
+          "location": "Hard mortar damage and compatible repointing of historic masonry",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "Masonry veneer requires designed gravity support over openings and separate lateral connections.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-builder-notes",
+          "location": "Drainable veneer, flashing, weeps, air space and moisture control",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "bia-tech-note44b-ties",
+          "location": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Flashing and weep paths provide bulk-water drainage from the veneer cavity.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-builder-notes",
+          "location": "Drainable veneer, flashing, weeps, air space and moisture control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Corrosion and expansion at steel support can contribute to cracking and displaced masonry.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nps-brick-masonry-problems",
+          "location": "Hard mortar damage and compatible repointing of historic masonry",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "Repair mortar and movement accommodations need to be compatible with existing historic masonry.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nps-repointing-brief2",
+          "location": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-brick-masonry-problems",
+          "location": "Hard mortar damage and compatible repointing of historic masonry",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-01",
+      "claim": "Drainage-wall masonry expects some water to enter veneer and relies on a route back outside.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-water-resistance-design",
+          "location": "Brick veneer drainage systems, flashing at openings and drainage paths",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "bia-builder-notes",
+          "location": "Drainable veneer, flashing, weeps, air space and moisture control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Flashings at openings and appropriate drainage outlets are central to moisture control.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-water-resistance-design",
+          "location": "Brick veneer drainage systems, flashing at openings and drainage paths",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "A visible stain may be displaced from the water entry point.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-water-resistance-design",
+          "location": "Brick veneer drainage systems, flashing at openings and drainage paths",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Uncontrolled water spraying is not equivalent to a specified field performance test.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-water-resistance-design",
+          "location": "Brick veneer drainage systems, flashing at openings and drainage paths",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-01",
+      "claim": "Reinforcement carries tension and depends on bond and concrete member design.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aci-302r",
+          "location": "Construction, isolation and contraction joints; reinforcement does not prevent cracking",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aci-crack-technical-qa",
+          "location": "Crack significance depends on structure, exposure, durability and mechanism",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "Concrete cover contributes to steel durability under environmental exposure.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aci-corrosion-repair-2025",
+          "location": "Corroded reinforcement, evaluation of extent and repair planning",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "Carbonation and chloride contamination are distinct corrosion mechanisms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aci-corrosion-repair-2025",
+          "location": "Corroded reinforcement, evaluation of extent and repair planning",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Steel corrosion can produce expansive products that crack and spall concrete cover.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aci-corrosion-repair-2025",
+          "location": "Corroded reinforcement, evaluation of extent and repair planning",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aci-spall-repair-practice",
+          "location": "Repair procedure boundaries and causes including reinforcement corrosion and freezing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Patch repairs should address failure mechanisms and material compatibility, not simply cover symptoms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aci-spall-repair-practice",
+          "location": "Repair procedure boundaries and causes including reinforcement corrosion and freezing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aci-corrosion-repair-2025",
+          "location": "Corroded reinforcement, evaluation of extent and repair planning",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-masonry:016000",
+        "file": "016000-masonry-wall-ties-and-anchorage-inspection.md",
+        "sha256": "ef985d76b863c5195fd65a30c80dfa69bc304668c8676f35b1a34acc7ce3d937",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-masonry-wall-ties-and-anchorage-inspection.md",
+          "related_resources": [
+            {
+              "source_id": "bia-tech-note44b-ties",
+              "reason": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry"
+            },
+            {
+              "source_id": "bia-builder-notes",
+              "reason": "Drainable veneer, flashing, weeps, air space and moisture control"
+            },
+            {
+              "source_id": "nps-brick-masonry-problems",
+              "reason": "Hard mortar damage and compatible repointing of historic masonry"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "Veneer ties transfer lateral loads between masonry and structural backing but are distinct from the veneer gravity support.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "bia-tech-note44b-ties",
+                  "location": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "Corrosion resistance, tie geometry, embedment and backing attachment all influence veneer connection performance.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "bia-tech-note44b-ties",
+                  "location": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "Drainage and flashing details help manage rain that penetrates veneer, reducing prolonged wetting of hidden components.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "bia-builder-notes",
+                  "location": "Drainable veneer, flashing, weeps, air space and moisture control",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Surface repointing does not establish the safety of a displaced or detached masonry veneer.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "bia-tech-note44b-ties",
+                  "location": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-brick-masonry-problems",
+                  "location": "Hard mortar damage and compatible repointing of historic masonry",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-masonry:017000",
+        "file": "017000-rebuilding-displaced-veneer-and-drainage-paths.md",
+        "sha256": "16a026c72cada6b340c7e606ba0fe928a78c85d1982cb87dcd80895c6075e2d1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-rebuilding-displaced-veneer-and-drainage-paths.md",
+          "related_resources": [
+            {
+              "source_id": "bia-tech-note44b-ties",
+              "reason": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry"
+            },
+            {
+              "source_id": "bia-builder-notes",
+              "reason": "Drainable veneer, flashing, weeps, air space and moisture control"
+            },
+            {
+              "source_id": "nps-brick-masonry-problems",
+              "reason": "Hard mortar damage and compatible repointing of historic masonry"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "Brick veneer has distinct gravity support and lateral tie requirements.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "bia-tech-note44b-ties",
+                  "location": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "bia-builder-notes",
+                  "location": "Drainable veneer, flashing, weeps, air space and moisture control",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "Weep openings, flashings and cavities provide water management within veneer assemblies.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "bia-builder-notes",
+                  "location": "Drainable veneer, flashing, weeps, air space and moisture control",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "Corroded ties and displaced masonry cannot be remedied solely by surface repointing.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "bia-tech-note44b-ties",
+                  "location": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-brick-masonry-problems",
+                  "location": "Hard mortar damage and compatible repointing of historic masonry",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "Repair material compatibility and existing movement must be considered in masonry conservation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nps-brick-masonry-problems",
+                  "location": "Hard mortar damage and compatible repointing of historic masonry",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-masonry:018000",
+        "file": "018000-lintels-flashing-and-openings-in-masonry-veneers.md",
+        "sha256": "2a39360607da0ee40bc488e2d35ac0806849dbe657fc8cb2aedab546a7462dda",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-lintels-flashing-and-openings-in-masonry-veneers.md",
+          "related_resources": [
+            {
+              "source_id": "bia-builder-notes",
+              "reason": "Drainable veneer, flashing, weeps, air space and moisture control"
+            },
+            {
+              "source_id": "bia-tech-note44b-ties",
+              "reason": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry"
+            },
+            {
+              "source_id": "nps-brick-masonry-problems",
+              "reason": "Hard mortar damage and compatible repointing of historic masonry"
+            },
+            {
+              "source_id": "nps-repointing-brief2",
+              "reason": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "Masonry veneer requires designed gravity support over openings and separate lateral connections.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "bia-builder-notes",
+                  "location": "Drainable veneer, flashing, weeps, air space and moisture control",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "bia-tech-note44b-ties",
+                  "location": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Flashing and weep paths provide bulk-water drainage from the veneer cavity.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "bia-builder-notes",
+                  "location": "Drainable veneer, flashing, weeps, air space and moisture control",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "Corrosion and expansion at steel support can contribute to cracking and displaced masonry.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nps-brick-masonry-problems",
+                  "location": "Hard mortar damage and compatible repointing of historic masonry",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "Repair mortar and movement accommodations need to be compatible with existing historic masonry.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nps-repointing-brief2",
+                  "location": "Root-cause analysis, mortar softness and permeability compatibility, work and joint preparation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nps-brick-masonry-problems",
+                  "location": "Hard mortar damage and compatible repointing of historic masonry",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-masonry:019000",
+        "file": "019000-tracing-rainwater-around-masonry-openings.md",
+        "sha256": "fa239d71ca2ffa2a362d3e2e1b14353c4fc4c3c5e752d6463547475c0285b47a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "019000",
+          "transcript": "019000-tracing-rainwater-around-masonry-openings.md",
+          "related_resources": [
+            {
+              "source_id": "bia-water-resistance-design",
+              "reason": "Brick veneer drainage systems, flashing at openings and drainage paths"
+            },
+            {
+              "source_id": "bia-builder-notes",
+              "reason": "Drainable veneer, flashing, weeps, air space and moisture control"
+            },
+            {
+              "source_id": "bia-tech-note44b-ties",
+              "reason": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P019000-01",
+              "claim": "Drainage-wall masonry expects some water to enter veneer and relies on a route back outside.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "bia-water-resistance-design",
+                  "location": "Brick veneer drainage systems, flashing at openings and drainage paths",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "bia-builder-notes",
+                  "location": "Drainable veneer, flashing, weeps, air space and moisture control",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-02",
+              "claim": "Flashings at openings and appropriate drainage outlets are central to moisture control.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "bia-water-resistance-design",
+                  "location": "Brick veneer drainage systems, flashing at openings and drainage paths",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-03",
+              "claim": "A visible stain may be displaced from the water entry point.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "bia-water-resistance-design",
+                  "location": "Brick veneer drainage systems, flashing at openings and drainage paths",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P019000-04",
+              "claim": "Uncontrolled water spraying is not equivalent to a specified field performance test.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "bia-water-resistance-design",
+                  "location": "Brick veneer drainage systems, flashing at openings and drainage paths",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "trades-masonry:020000",
+        "file": "020000-reinforced-concrete-cover-corrosion-and-long-term-durability.md",
+        "sha256": "4d847d43fc9b6f85995c3c6efa27c72854aa5b651c39a733fd7edf03c7242582",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-reinforced-concrete-cover-corrosion-and-long-term-durability.md",
+          "related_resources": [
+            {
+              "source_id": "aci-corrosion-repair-2025",
+              "reason": "Corroded reinforcement, evaluation of extent and repair planning"
+            },
+            {
+              "source_id": "aci-spall-repair-practice",
+              "reason": "Repair procedure boundaries and causes including reinforcement corrosion and freezing"
+            },
+            {
+              "source_id": "aci-crack-technical-qa",
+              "reason": "Crack significance depends on structure, exposure, durability and mechanism"
+            },
+            {
+              "source_id": "aci-302r",
+              "reason": "Construction, isolation and contraction joints; reinforcement does not prevent cracking"
+            },
+            {
+              "source_id": "nps-brick-masonry-problems",
+              "reason": "Hard mortar damage and compatible repointing of historic masonry"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P020000-01",
+              "claim": "Reinforcement carries tension and depends on bond and concrete member design.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aci-302r",
+                  "location": "Construction, isolation and contraction joints; reinforcement does not prevent cracking",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aci-crack-technical-qa",
+                  "location": "Crack significance depends on structure, exposure, durability and mechanism",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-02",
+              "claim": "Concrete cover contributes to steel durability under environmental exposure.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aci-corrosion-repair-2025",
+                  "location": "Corroded reinforcement, evaluation of extent and repair planning",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-03",
+              "claim": "Carbonation and chloride contamination are distinct corrosion mechanisms.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aci-corrosion-repair-2025",
+                  "location": "Corroded reinforcement, evaluation of extent and repair planning",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-04",
+              "claim": "Steel corrosion can produce expansive products that crack and spall concrete cover.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aci-corrosion-repair-2025",
+                  "location": "Corroded reinforcement, evaluation of extent and repair planning",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aci-spall-repair-practice",
+                  "location": "Repair procedure boundaries and causes including reinforcement corrosion and freezing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P020000-05",
+              "claim": "Patch repairs should address failure mechanisms and material compatibility, not simply cover symptoms.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aci-spall-repair-practice",
+                  "location": "Repair procedure boundaries and causes including reinforcement corrosion and freezing",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aci-corrosion-repair-2025",
+                  "location": "Corroded reinforcement, evaluation of extent and repair planning",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "016000-follow-concealed-support-and-water-around-openings.md"
+      ],
+      "joined_before_source_parts": [
+        "017000",
+        "019000"
+      ]
+    }
+  ]
 }

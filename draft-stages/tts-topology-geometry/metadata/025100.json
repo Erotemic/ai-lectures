@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "025100",
-  "transcript": "025100-riemann-surfaces-and-holomorphic-map-examples.md",
+  "transcript": "025100-holomorphic-curves-fredholm-dimensions-and-strip-boundaries.md",
   "related_resources": [
     {
       "source_id": "tg-gromov-pseudoholomorphic-1985",
@@ -14,7 +14,190 @@
     {
       "source_id": "tg-r16-032000-3",
       "reason": "Degree, branching and moduli background."
+    },
+    {
+      "source_id": "tg-gromov-pseudoholomorphic-1985",
+      "reason": "Area-energy and pseudoholomorphic curve foundations."
+    },
+    {
+      "source_id": "tg-wendl-holomorphic",
+      "reason": "Energy estimates and local holomorphic curve regularity."
+    },
+    {
+      "source_id": "tg-r16-032000-3",
+      "reason": "Energy identity and sphere bubbling."
+    },
+    {
+      "source_id": "tg-wendl-holomorphic",
+      "reason": "Nonlinear Cauchy-Riemann operators and elliptic bootstrapping."
+    },
+    {
+      "source_id": "tg-r16-032000-2",
+      "reason": "Fredholm theory in Floer analysis."
+    },
+    {
+      "source_id": "tg-harvard-elliptic",
+      "reason": "Sobolev and elliptic estimates."
+    },
+    {
+      "source_id": "tg-wendl-holomorphic",
+      "reason": "Fredholm indices, regularity and generic transversality."
+    },
+    {
+      "source_id": "tg-r16-032000-3",
+      "reason": "Riemann-Roch index and stable curve moduli."
+    },
+    {
+      "source_id": "tg-r16-032000-2",
+      "reason": "Fredholm principles and index in Floer theory."
+    },
+    {
+      "source_id": "tg-r16-032000-1",
+      "reason": "Original Lagrangian strip and Maslov index context."
+    },
+    {
+      "source_id": "tg-r16-032000-3",
+      "reason": "Boundary-value holomorphic curve Fredholm theory."
+    },
+    {
+      "source_id": "tg-r16-032000-2",
+      "reason": "Relative index and strip moduli."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:025100",
+        "file": "025100-riemann-surfaces-and-holomorphic-map-examples.md",
+        "sha256": "219d3d9ebe5a777714ca4b6726a44f7e7f129372528f366d0d9f124b528fc8db",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025100",
+          "transcript": "025100-riemann-surfaces-and-holomorphic-map-examples.md",
+          "related_resources": [
+            {
+              "source_id": "tg-gromov-pseudoholomorphic-1985",
+              "reason": "Original extension of holomorphic maps to symplectic targets."
+            },
+            {
+              "source_id": "tg-wendl-holomorphic",
+              "reason": "Holomorphic sphere examples and Riemann surfaces."
+            },
+            {
+              "source_id": "tg-r16-032000-3",
+              "reason": "Degree, branching and moduli background."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:025200",
+        "file": "025200-pseudoholomorphic-curves-and-area-energy.md",
+        "sha256": "9a8207960fddc4aef8ad3a8b821b4c55788fdeeeb0d1fa79c4bc81eae2532de8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025200",
+          "transcript": "025200-pseudoholomorphic-curves-and-area-energy.md",
+          "related_resources": [
+            {
+              "source_id": "tg-gromov-pseudoholomorphic-1985",
+              "reason": "Area-energy and pseudoholomorphic curve foundations."
+            },
+            {
+              "source_id": "tg-wendl-holomorphic",
+              "reason": "Energy estimates and local holomorphic curve regularity."
+            },
+            {
+              "source_id": "tg-r16-032000-3",
+              "reason": "Energy identity and sphere bubbling."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:025300",
+        "file": "025300-cauchy-riemann-operators-and-elliptic-estimates.md",
+        "sha256": "ba7f6c52c907ab66ff346681716cb824195979f4ea7b76189a1978b902013a85",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025300",
+          "transcript": "025300-cauchy-riemann-operators-and-elliptic-estimates.md",
+          "related_resources": [
+            {
+              "source_id": "tg-wendl-holomorphic",
+              "reason": "Nonlinear Cauchy-Riemann operators and elliptic bootstrapping."
+            },
+            {
+              "source_id": "tg-r16-032000-2",
+              "reason": "Fredholm theory in Floer analysis."
+            },
+            {
+              "source_id": "tg-harvard-elliptic",
+              "reason": "Sobolev and elliptic estimates."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:025400",
+        "file": "025400-fredholm-index-and-transversality-of-curves.md",
+        "sha256": "e21f90c84616c9ea99fd5e2bed502deac7534232d4fb9697cd42a07bd058d998",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025400",
+          "transcript": "025400-fredholm-index-and-transversality-of-curves.md",
+          "related_resources": [
+            {
+              "source_id": "tg-wendl-holomorphic",
+              "reason": "Fredholm indices, regularity and generic transversality."
+            },
+            {
+              "source_id": "tg-r16-032000-3",
+              "reason": "Riemann-Roch index and stable curve moduli."
+            },
+            {
+              "source_id": "tg-r16-032000-2",
+              "reason": "Fredholm principles and index in Floer theory."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:025500",
+        "file": "025500-lagrangian-boundary-problems-and-maslov-index.md",
+        "sha256": "26582e83d7676b55dbe357a02707b416ab604b6c798c87011cc3dd9c9621d1bb",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025500",
+          "transcript": "025500-lagrangian-boundary-problems-and-maslov-index.md",
+          "related_resources": [
+            {
+              "source_id": "tg-r16-032000-1",
+              "reason": "Original Lagrangian strip and Maslov index context."
+            },
+            {
+              "source_id": "tg-r16-032000-3",
+              "reason": "Boundary-value holomorphic curve Fredholm theory."
+            },
+            {
+              "source_id": "tg-r16-032000-2",
+              "reason": "Relative index and strip moduli."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "008000",
-  "transcript": "008000-modules-and-linear-algebra-over-rings.md",
+  "transcript": "008000-modules-tensor-products-and-pid-classification.md",
   "related_resources": [
     {
       "source_id": "aa-conrad",
@@ -10,7 +10,96 @@
     {
       "source_id": "aa-judson",
       "reason": "Modules and related linear-algebra structures."
+    },
+    {
+      "source_id": "aa-etingof",
+      "reason": "Tensor products of vector spaces and representations."
+    },
+    {
+      "source_id": "aa-conrad",
+      "reason": "Module tensor products and torsion examples."
+    },
+    {
+      "source_id": "aa-pid-colorado",
+      "reason": "Invariant factors and Smith normal form of finitely generated modules over PIDs."
+    },
+    {
+      "source_id": "aa-pid-ershov",
+      "reason": "Classification and uniqueness, from Smith normal form."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:008000",
+        "file": "008000-modules-and-linear-algebra-over-rings.md",
+        "sha256": "dd73955fe95f00df9ee6862dcdb9d27b61ceda50c6a428016eb01b2382fb2ef1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-modules-and-linear-algebra-over-rings.md",
+          "related_resources": [
+            {
+              "source_id": "aa-conrad",
+              "reason": "Introduction to modules, modules over PIDs, and exact sequences."
+            },
+            {
+              "source_id": "aa-judson",
+              "reason": "Modules and related linear-algebra structures."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:015000",
+        "file": "015000-tensor-products-and-universal-properties.md",
+        "sha256": "19593adfa789597b901660aaae07f7cf2b044d363e740e8d90d872433d593995",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-tensor-products-and-universal-properties.md",
+          "related_resources": [
+            {
+              "source_id": "aa-etingof",
+              "reason": "Tensor products of vector spaces and representations."
+            },
+            {
+              "source_id": "aa-conrad",
+              "reason": "Module tensor products and torsion examples."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:024000",
+        "file": "024000-structure-theorem-for-modules-over-a-pid.md",
+        "sha256": "17c3a5d33c07593c4f4ee453a6c7d164f01c1139416ad17d05ad465cf461f978",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "024000",
+          "transcript": "024000-structure-theorem-for-modules-over-a-pid.md",
+          "related_resources": [
+            {
+              "source_id": "aa-pid-colorado",
+              "reason": "Invariant factors and Smith normal form of finitely generated modules over PIDs."
+            },
+            {
+              "source_id": "aa-pid-ershov",
+              "reason": "Classification and uniqueness, from Smith normal form."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

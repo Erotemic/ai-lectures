@@ -1,5 +1,7 @@
 # Shelley: *Frankenstein* — 1818 Narrative Map, 1831 Revisions, and Witnesses
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 **Author:** Mary Wollstonecraft Shelley. **First published:** 1818 (anonymous three-volume edition). **Pack lectures:** 079000–090000. **Narrative basis:** the [University of Virginia transcription of the 1818 first edition](https://anthology.lib.virginia.edu/work/Shelley/shelley-frankenstein-1818). The 1831 revision is discussed as a different textual witness, not silently merged.
 
 ## Listen first to the complete story

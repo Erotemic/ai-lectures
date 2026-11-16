@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "016000",
-  "transcript": "016000-epsilon-n-sequence-proofs.md",
+  "transcript": "016000-first-epsilon-and-compactness-arguments.md",
   "related_resources": [
     {
       "source_id": "proof-hammack",
@@ -18,7 +18,112 @@
     {
       "source_id": "proof-wiki-016000",
       "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-wiki-017000",
+      "reason": "Historical/terminological overview and additional reading."
+    },
+    {
+      "source_id": "proof-wiki-018000",
+      "reason": "Historical/terminological overview and additional reading."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "mathematical-proof:016000",
+        "file": "016000-epsilon-n-sequence-proofs.md",
+        "sha256": "1c7fcb0a9d417193b744b679d6074385856ee01c0dc77ddd36ea607bc28bdc79",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-epsilon-n-sequence-proofs.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-openstax-calculus",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-016000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:017000",
+        "file": "017000-epsilon-delta-continuity.md",
+        "sha256": "5ff4067e9816fe30ddd7bc7350945152ae8fb344213c56e4ed5e9fa1ef211234",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-epsilon-delta-continuity.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-openstax-calculus",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-017000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "mathematical-proof:018000",
+        "file": "018000-compactness-subsequences-and-structure.md",
+        "sha256": "a34cba36a89281866fea9bf7a8175c6f4c10a1093aa8892c231a9df9e3614342",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-compactness-subsequences-and-structure.md",
+          "related_resources": [
+            {
+              "source_id": "proof-hammack",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-mit-6042",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-openstax-calculus",
+              "reason": "Additional detailed treatment and worked verification of the relevant definitions and techniques."
+            },
+            {
+              "source_id": "proof-wiki-018000",
+              "reason": "Historical/terminological overview and additional reading."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

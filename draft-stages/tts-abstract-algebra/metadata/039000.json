@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "039000",
-  "transcript": "039000-local-intersection-multiplicity-and-completion.md",
+  "transcript": "039000-intersections-cohomology-descent-and-first-deformations-shared-core.md",
   "related_resources": [
     {
       "source_id": "aa-local-intersections",
@@ -10,7 +10,170 @@
     {
       "source_id": "aa-algebraic-curves-stacks",
       "reason": "Divisors, curves, genus, and singularities."
+    },
+    {
+      "source_id": "aa-qcoh-cohom",
+      "reason": "Affine vanishing and Čech comparison."
+    },
+    {
+      "source_id": "aa-projective-cohom",
+      "reason": "Computing O(n) cohomology on projective space."
+    },
+    {
+      "source_id": "aa-riemann-roch-stacks",
+      "reason": "Line-bundle Euler characteristic, canonical divisor and genus."
+    },
+    {
+      "source_id": "aa-ff-descent-stacks",
+      "reason": "Effective descent for quasi-coherent modules under fpqc coverings."
+    },
+    {
+      "source_id": "aa-desc-modules-stacks",
+      "reason": "Module equalizers and equivalence for faithfully flat ring maps."
+    },
+    {
+      "source_id": "aa-etale-pi1-stacks",
+      "reason": "Etale fundamental groups and fiber functors."
+    },
+    {
+      "source_id": "aa-etale-cover-stacks",
+      "reason": "Definition and Galois-category properties of finite etale covers."
+    },
+    {
+      "source_id": "aa-arithmetic-pi1-stacks",
+      "reason": "Arithmetic Galois contributions to etale fundamental groups."
+    },
+    {
+      "source_id": "aa-deformations-stacks",
+      "reason": "First-order deformations and obstruction theory for square-zero extensions."
+    },
+    {
+      "source_id": "aa-deform-cotangent-stacks",
+      "reason": "Lifting ring maps and extension obstructions."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "abstract-algebra:039000",
+        "file": "039000-local-intersection-multiplicity-and-completion.md",
+        "sha256": "f6cdac91fad0eae6d399ebc27070fb56bbb095072bac02726d9fddbdedcbc4c7",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "039000",
+          "transcript": "039000-local-intersection-multiplicity-and-completion.md",
+          "related_resources": [
+            {
+              "source_id": "aa-local-intersections",
+              "reason": "Finite local length formula under proper-intersection and Cohen-Macaulay hypotheses."
+            },
+            {
+              "source_id": "aa-algebraic-curves-stacks",
+              "reason": "Divisors, curves, genus, and singularities."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:040000",
+        "file": "040000-sheaf-cohomology-and-global-sections.md",
+        "sha256": "1959bb5e06eba8a297245751ae7d9f07fc9d670b2593eba8cd12c8fe1d3c9592",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "040000",
+          "transcript": "040000-sheaf-cohomology-and-global-sections.md",
+          "related_resources": [
+            {
+              "source_id": "aa-qcoh-cohom",
+              "reason": "Affine vanishing and Čech comparison."
+            },
+            {
+              "source_id": "aa-projective-cohom",
+              "reason": "Computing O(n) cohomology on projective space."
+            },
+            {
+              "source_id": "aa-riemann-roch-stacks",
+              "reason": "Line-bundle Euler characteristic, canonical divisor and genus."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:041000",
+        "file": "041000-faithfully-flat-descent-and-gluing.md",
+        "sha256": "c245b47c7ae7dace314cd29665ee22ce3405457271d2a0cc6e1e77f3bd9a0661",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "041000",
+          "transcript": "041000-faithfully-flat-descent-and-gluing.md",
+          "related_resources": [
+            {
+              "source_id": "aa-ff-descent-stacks",
+              "reason": "Effective descent for quasi-coherent modules under fpqc coverings."
+            },
+            {
+              "source_id": "aa-desc-modules-stacks",
+              "reason": "Module equalizers and equivalence for faithfully flat ring maps."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:042000",
+        "file": "042000-etale-fundamental-groups-and-finite-covers.md",
+        "sha256": "d6eb8e37c363fcb2ad5d90c87db50edda667a7a206a17521892f1fcbc2311e19",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "042000",
+          "transcript": "042000-etale-fundamental-groups-and-finite-covers.md",
+          "related_resources": [
+            {
+              "source_id": "aa-etale-pi1-stacks",
+              "reason": "Etale fundamental groups and fiber functors."
+            },
+            {
+              "source_id": "aa-etale-cover-stacks",
+              "reason": "Definition and Galois-category properties of finite etale covers."
+            },
+            {
+              "source_id": "aa-arithmetic-pi1-stacks",
+              "reason": "Arithmetic Galois contributions to etale fundamental groups."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "abstract-algebra:043000",
+        "file": "043000-deformation-theory-tangent-spaces-and-obstructions.md",
+        "sha256": "ef9a85b1160992654080b038bc73ea0f57748d01528383512877555a970d17b1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "043000",
+          "transcript": "043000-deformation-theory-tangent-spaces-and-obstructions.md",
+          "related_resources": [
+            {
+              "source_id": "aa-deformations-stacks",
+              "reason": "First-order deformations and obstruction theory for square-zero extensions."
+            },
+            {
+              "source_id": "aa-deform-cotangent-stacks",
+              "reason": "Lifting ring maps and extension obstructions."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

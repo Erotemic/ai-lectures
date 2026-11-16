@@ -1,0 +1,48 @@
+transcript:
+  revisions:
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - lecture: '000000'
+      composition_record: metadata/000000.json
+    - lecture: '024000'
+      composition_record: metadata/024000.json
+    - lecture: '033000'
+      composition_record: metadata/033000.json
+    - lecture: '066000'
+      composition_record: metadata/066000.json
+    - lecture: '072000'
+      composition_record: metadata/072000.json
+    - lecture: 079000
+      composition_record: metadata/079000.json
+    - lecture: 087000
+      composition_record: metadata/087000.json
+    - lecture: 098000
+      composition_record: metadata/098000.json
+    - lecture: '102000'
+      composition_record: metadata/102000.json
+    - lecture: '107000'
+      composition_record: metadata/107000.json
+    - lecture: '114000'
+      composition_record: metadata/114000.json
+    - lecture: '122000'
+      composition_record: metadata/122000.json
+    - lecture: '133000'
+      composition_record: metadata/133000.json
+    - lecture: '137000'
+      composition_record: metadata/137000.json
+    scope: Consolidate reviewed source parts into single lecture manuscripts. Original
+      text and source attribution are retained in component records and Git history;
+      this revision does not claim original authorship of inherited prose.
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - track.json
+    - navigation.json
+    - Inherited source arguments and companions retained by consolidation metadata.
+    scope: Review consolidated narration boundaries, correct stale lecture pointers
+      and overbroad composite titles, add targeted conceptual bridges, and refresh
+      the current manuscript/route inventory. Preserve mathematical arguments and
+      hypotheses; no original authorship is claimed for inherited prose.

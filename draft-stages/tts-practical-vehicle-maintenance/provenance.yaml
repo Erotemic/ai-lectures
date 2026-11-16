@@ -1,0 +1,31 @@
+transcript:
+  revisions:
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - lecture: '001000'
+      composition_record: metadata/001000.json
+    - lecture: '007000'
+      composition_record: metadata/007000.json
+    - lecture: 008000
+      composition_record: metadata/008000.json
+    - lecture: '006000'
+      composition_record: metadata/006000.json
+    - lecture: '016000'
+      composition_record: metadata/016000.json
+    scope: Consolidate reviewed source parts into single lecture manuscripts. Original
+      text and source attribution are retained in component records and Git history;
+      this revision does not claim original authorship of inherited prose.
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - 001000-connect-vehicle-motion-loads-and-stopping.md
+    - 007000-design-diagnostic-tests-before-replacing-parts.md
+    - 008000-diagnose-starting-charging-and-intermittent-electrical-faults.md
+    - 006000-manage-heat-lubrication-emissions-and-service-intervals.md
+    - 016000-know-roadside-and-electric-drivetrain-boundaries.md
+    scope: Reviewed combined-manuscript joins and added connections among preserved
+      source arguments; scoped inherited part-level framing. No original authorship
+      of inherited prose, new technical guidance, or field validation is claimed.

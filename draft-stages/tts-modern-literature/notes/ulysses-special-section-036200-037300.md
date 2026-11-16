@@ -1,5 +1,7 @@
 # Ulysses: editorial dossier and source trail
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## Why this work now
 
 This is a high-impact landmark selected for formal and historical influence, not as a representation quota. The novel has disproportionate value for teaching narrative consciousness, an episodic architecture that changes style, the transformation of epic into ordinary social life, and the legal history of literary expression. One full work is treated as an extended section, not split into equal-duration episodes.

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "087000",
-  "transcript": "087000-cayley-transforms-and-graph-level-equivalence.md",
+  "transcript": "087000-cayley-spectral-calculus-reducing-domains-and-forms.md",
   "historical_claims": [],
   "related_resources": [
     {
@@ -23,6 +23,268 @@
     {
       "source_id": "wiki-closed-operator",
       "reason": "Closed graphs and domains of operators that are not defined everywhere."
+    },
+    {
+      "source_id": "wiki-spectral-theorem",
+      "reason": "Unbounded self-adjoint spectral representation and multiplication operators."
+    },
+    {
+      "source_id": "higham-matrix-function",
+      "reason": "Compare the finite-matrix functional calculus with the lecture’s operator calculus."
+    },
+    {
+      "source_id": "jordan-bell-pvm",
+      "reason": "Work through spectral measures and spectral integrals from their definitions."
+    },
+    {
+      "source_id": "hunter-nachtergaele-applied",
+      "reason": "Read the matching open chapter for foundational analytic hypotheses and worked proofs."
+    },
+    {
+      "source_id": "bell-sturm-liouville",
+      "reason": "Relate differential-operator spectra to integral-operator reductions and boundary conditions."
+    },
+    {
+      "source_id": "wiki-finite-spectral",
+      "reason": "Diagonalization of self-adjoint matrices and multiplication-operator interpretations."
+    },
+    {
+      "source_id": "wiki-spectral-theory",
+      "reason": "Context connecting finite eigenvalue calculations to operator spectral theory."
+    },
+    {
+      "source_id": "wiki-functional-calculus",
+      "reason": "How scalar functions become operator functions; distinguish continuous calculus from the Borel indicator construction."
+    },
+    {
+      "source_id": "wiki-projection-valued-measure",
+      "reason": "Spectral projections, functional calculus and reducing subspaces."
+    },
+    {
+      "source_id": "wiki-quadratic-form",
+      "reason": "Finite-dimensional quadratic forms as an introductory analogy; unbounded form domains require further theory."
+    },
+    {
+      "source_id": "wiki-spectral-gap",
+      "reason": "Basic spectral-separation vocabulary; read with the lecture-specific ordered gap hypotheses."
+    },
+    {
+      "source_id": "mit-strang-positive",
+      "reason": "Quadratic-form and minimization examples in matrices; see the lecture assumptions for generalization."
+    },
+    {
+      "source_id": "higham-eigen-ineq",
+      "reason": "Concise matrix-level comparison of Rayleigh quotients and eigenvalue inequalities."
+    },
+    {
+      "source_id": "higham-positive-definite",
+      "reason": "Compare positive-definiteness tests with quadratic-form reasoning."
+    },
+    {
+      "source_id": "wiki-positive-matrix",
+      "reason": "Positive-semidefinite quadratic forms and spectral positivity."
+    },
+    {
+      "source_id": "wiki-square-integrable",
+      "reason": "Square-integrability, the L2 norm and quotienting almost-everywhere equality."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "g2:087000",
+        "file": "087000-cayley-transforms-and-graph-level-equivalence.md",
+        "sha256": "872359099f0bc718be27ec6a162cc4535c70337d0315071a4dbf4d1df77fbacf",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "087000",
+          "transcript": "087000-cayley-transforms-and-graph-level-equivalence.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-cayley-transform",
+              "reason": "Möbius transformation between self-adjoint and unitary operators."
+            },
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "teschl-qm-free",
+              "reason": "Use the full free text for spectral calculus and domains of unbounded self-adjoint operators."
+            },
+            {
+              "source_id": "bell-unbounded-operators",
+              "reason": "Follow the concrete graph/domain argument and the unbounded adjoint definition."
+            },
+            {
+              "source_id": "wiki-closed-operator",
+              "reason": "Closed graphs and domains of operators that are not defined everywhere."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:088000",
+        "file": "088000-unbounded-spectral-theorem-and-domain-calculus.md",
+        "sha256": "ef8edcd470f96cd8992294ba89d9a60b555e1874ed8c44dbd7e9f1cf3e3b977f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "088000",
+          "transcript": "088000-unbounded-spectral-theorem-and-domain-calculus.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-spectral-theorem",
+              "reason": "Unbounded self-adjoint spectral representation and multiplication operators."
+            },
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "higham-matrix-function",
+              "reason": "Compare the finite-matrix functional calculus with the lecture’s operator calculus."
+            },
+            {
+              "source_id": "jordan-bell-pvm",
+              "reason": "Work through spectral measures and spectral integrals from their definitions."
+            },
+            {
+              "source_id": "hunter-nachtergaele-applied",
+              "reason": "Read the matching open chapter for foundational analytic hypotheses and worked proofs."
+            },
+            {
+              "source_id": "teschl-qm-free",
+              "reason": "Use the full free text for spectral calculus and domains of unbounded self-adjoint operators."
+            },
+            {
+              "source_id": "bell-unbounded-operators",
+              "reason": "Follow the concrete graph/domain argument and the unbounded adjoint definition."
+            },
+            {
+              "source_id": "bell-sturm-liouville",
+              "reason": "Relate differential-operator spectra to integral-operator reductions and boundary conditions."
+            },
+            {
+              "source_id": "wiki-finite-spectral",
+              "reason": "Diagonalization of self-adjoint matrices and multiplication-operator interpretations."
+            },
+            {
+              "source_id": "wiki-spectral-theory",
+              "reason": "Context connecting finite eigenvalue calculations to operator spectral theory."
+            },
+            {
+              "source_id": "wiki-closed-operator",
+              "reason": "Closed graphs and domains of operators that are not defined everywhere."
+            },
+            {
+              "source_id": "wiki-functional-calculus",
+              "reason": "How scalar functions become operator functions; distinguish continuous calculus from the Borel indicator construction."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:089000",
+        "file": "089000-spectral-projections-and-reducing-domains.md",
+        "sha256": "c87f48cf58efe1fd7e65c5064ec6ece46af332f0d26dda18f761c5ec9976bef3",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "089000",
+          "transcript": "089000-spectral-projections-and-reducing-domains.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-projection-valued-measure",
+              "reason": "Spectral projections, functional calculus and reducing subspaces."
+            },
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "teschl-qm-free",
+              "reason": "Use the full free text for spectral calculus and domains of unbounded self-adjoint operators."
+            },
+            {
+              "source_id": "bell-unbounded-operators",
+              "reason": "Follow the concrete graph/domain argument and the unbounded adjoint definition."
+            },
+            {
+              "source_id": "bell-sturm-liouville",
+              "reason": "Relate differential-operator spectra to integral-operator reductions and boundary conditions."
+            },
+            {
+              "source_id": "wiki-closed-operator",
+              "reason": "Closed graphs and domains of operators that are not defined everywhere."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:090000",
+        "file": "090000-quadratic-forms-and-ordered-half-infinite-gaps.md",
+        "sha256": "c5589623f571ac49268467899a78e778d7f469c340ac69a70c8f371019f95470",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "090000",
+          "transcript": "090000-quadratic-forms-and-ordered-half-infinite-gaps.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "wiki-quadratic-form",
+              "reason": "Finite-dimensional quadratic forms as an introductory analogy; unbounded form domains require further theory."
+            },
+            {
+              "source_id": "wiki-spectral-gap",
+              "reason": "Basic spectral-separation vocabulary; read with the lecture-specific ordered gap hypotheses."
+            },
+            {
+              "source_id": "mit-strang-positive",
+              "reason": "Quadratic-form and minimization examples in matrices; see the lecture assumptions for generalization."
+            },
+            {
+              "source_id": "higham-eigen-ineq",
+              "reason": "Concise matrix-level comparison of Rayleigh quotients and eigenvalue inequalities."
+            },
+            {
+              "source_id": "kato-1995",
+              "reason": "Independent operator-theoretic treatment; domain and spectral separation hypotheses may differ."
+            },
+            {
+              "source_id": "higham-positive-definite",
+              "reason": "Compare positive-definiteness tests with quadratic-form reasoning."
+            },
+            {
+              "source_id": "hunter-nachtergaele-applied",
+              "reason": "Read the matching open chapter for foundational analytic hypotheses and worked proofs."
+            },
+            {
+              "source_id": "teschl-qm-free",
+              "reason": "Use the full free text for spectral calculus and domains of unbounded self-adjoint operators."
+            },
+            {
+              "source_id": "bell-sturm-liouville",
+              "reason": "Relate differential-operator spectra to integral-operator reductions and boundary conditions."
+            },
+            {
+              "source_id": "wiki-positive-matrix",
+              "reason": "Positive-semidefinite quadratic forms and spectral positivity."
+            },
+            {
+              "source_id": "wiki-square-integrable",
+              "reason": "Square-integrability, the L2 norm and quotienting almost-everywhere equality."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

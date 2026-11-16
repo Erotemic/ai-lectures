@@ -1,5 +1,7 @@
 # Journey to the West — expanded literary retelling, chapters 18–19
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## What this installment does
 
 Nine new narrative manuscripts, 484000–492000, continue immediately after lecture 483000's departure with the recovered robe. They retell both complete selected-witness chapters (18 and 19), culminating in Crow-Nest Chan Master's Heart Sutra teaching. The World History six-part narrative overview remains separate and unmodified.

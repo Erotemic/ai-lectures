@@ -1,5 +1,7 @@
 # The Sound and the Fury: complete narrative and criticism — editorial dossier
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## Why it belongs in the landmarks track
 
 William Faulkner's *The Sound and the Fury* (1929) occupies a central place in twentieth-century Anglophone modernism. Its formal achievement is not simply telling an otherwise ordinary plot out of sequence. It builds four incommensurate ways of experiencing and accounting for time, including a section whose sensory transitions resist the conventional signals of an explanatory narrator, an obsessively recursive consciousness, an economically calculating narrator, and an externally narrated Easter morning. The novel is a foundation for studying nonlinear narration, the ethics of narrative perspective, and the social history of the U.S. South. The decision to include it rests on literary influence, formal accomplishment, critical endurance, and its teaching value, not on a coverage quota.
@@ -35,7 +37,7 @@ The novel itself is the primary evidence for fictional events and narrative arra
 
 **Title, wider recognition and reception:** The phrase comes from [*Macbeth*, Act 5 scene 5](https://www.folger.edu/explore/shakespeares-works/macbeth/read/5/5/). Faulkner's public remarks say that he was drawn to the sound of the phrase, not that the tragic hero and the novel's people were intentionally a literal parallel. Sources concerning influence include an [Oxford Research Encyclopedia abstract](https://academic.oup.com/edited-volume/61883/chapter-abstract/547846196) and an [academic article abstract on critical reception](https://webbut.unitbv.ro/index.php/Series_IV/article/view/2889), both **abstract only**; generalized claims of direct influence on specific later authors require separately verified evidence. [NobelPrize.org](https://www.nobelprize.org/prizes/literature/1949/faulkner/speech/) records Faulkner's **1949 prize** with his **1950 speech/ceremony**. The independent [SparkNotes plot outline](https://www.sparknotes.com/lit/soundfury/plot-overview/) is a low-priority factual orientation cross-check, not a substitute for reading the novel.
 
-The precise bibliography is in `metadata/sources.json`. Each `metadata/040100.json`–`metadata/041200.json` identifies its resources and exact-text claim anchors, linked by stable source IDs. A unique text anchor is a way to locate a claim in the transcript. It is **not**, by itself, independent proof of an interpretation or of a disputed remembered incident.
+The precise bibliography is in `metadata/sources.json`. Each `metadata/040100.json`–`metadata/041000.json` identifies its resources and exact-text claim anchors, linked by stable source IDs. A unique text anchor is a way to locate a claim in the transcript. It is **not**, by itself, independent proof of an interpretation or of a disputed remembered incident.
 
 ## Guardrails on plot, historical claims and reading
 

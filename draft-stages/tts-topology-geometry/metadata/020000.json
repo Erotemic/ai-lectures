@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "020000",
-  "transcript": "020000-hodge-decomposition-and-harmonic-forms.md",
+  "transcript": "020000-hodge-and-elliptic-operators-by-example.md",
   "related_resources": [
     {
       "source_id": "tg-moore-hodge",
@@ -10,7 +10,96 @@
     {
       "source_id": "tg-schnell-hodge",
       "reason": "Elliptic Laplacian and Hodge decomposition."
+    },
+    {
+      "source_id": "tg-moore-hodge",
+      "reason": "Hodge star, codifferential and harmonic decomposition."
+    },
+    {
+      "source_id": "tg-schnell-hodge",
+      "reason": "Elliptic Hodge-theoretic background."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Linear analysis and Fredholm operators."
+    },
+    {
+      "source_id": "tg-nd-elliptic",
+      "reason": "Ellipticity, symbols, Sobolev spaces and Fredholm index."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "topology-geometry:020000",
+        "file": "020000-hodge-decomposition-and-harmonic-forms.md",
+        "sha256": "ab21b13f2e3d04e268e1a6ec5d7eff2e2272f47c0c324320f8daf4f9a38390c1",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020000",
+          "transcript": "020000-hodge-decomposition-and-harmonic-forms.md",
+          "related_resources": [
+            {
+              "source_id": "tg-moore-hodge",
+              "reason": "Harmonic representative theorem and Poincaré duality."
+            },
+            {
+              "source_id": "tg-schnell-hodge",
+              "reason": "Elliptic Laplacian and Hodge decomposition."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:020100",
+        "file": "020100-hodge-star-adjoints-and-the-laplacian.md",
+        "sha256": "6da801742c993c37a4d5ded110c089903d9d4fbdd7514d973fdf7922115bb40f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020100",
+          "transcript": "020100-hodge-star-adjoints-and-the-laplacian.md",
+          "related_resources": [
+            {
+              "source_id": "tg-moore-hodge",
+              "reason": "Hodge star, codifferential and harmonic decomposition."
+            },
+            {
+              "source_id": "tg-schnell-hodge",
+              "reason": "Elliptic Hodge-theoretic background."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "topology-geometry:020200",
+        "file": "020200-elliptic-operators-symbols-and-fredholm-theory.md",
+        "sha256": "8fe98c28d472f22801029b22b9890695e7d630b9aae72aea8a0e4b1634b03f9b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "020200",
+          "transcript": "020200-elliptic-operators-symbols-and-fredholm-theory.md",
+          "related_resources": [
+            {
+              "source_id": "tg-mit-manifolds",
+              "reason": "Linear analysis and Fredholm operators."
+            },
+            {
+              "source_id": "tg-nd-elliptic",
+              "reason": "Ellipticity, symbols, Sobolev spaces and Fredholm index."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

@@ -1,5 +1,7 @@
 # Editorial dossier: Albert Camus, *The Stranger* / *The Outsider* (`049100`–`049900`)
 
+> Organization note (16 November 2026): the current playback inventory and work order are in [the pack README](../README.md). Numbered parts and former counts in this source/edition dossier describe the original writing components; their narration and evidence now live inside the combined manuscripts. They are not additional playable lectures.
+
 ## Why this work follows Rushdie
 
 Published in 1942 as *L'Étranger*, Camus's short novel is important for the stylistic restraint of its narrator, its role in debates about the absurd, its critique of conventional social judgment, and the scrutiny it has received as a French-colonial Algerian narrative. Those contributions, not a categorical label of "existentialist novel," justify extended study. The two continuous story lectures come first and include the entire ending, then seven independent analyses attend to its narrative omissions, ethics, colonial setting, philosophy, relationships, English textual history and close-reading. The length follows the content and contains no mechanical duration constraint.
@@ -30,7 +32,7 @@ Published in 1942 as *L'Étranger*, Camus's short novel is important for the sty
 
 ## Sources and limitations
 
-The principal bibliographic witness is the Albert Camus Society (`ml-camus-society`, `ml-camus-edition`); philosophical context comes from the Stanford Encyclopedia of Philosophy (`ml-camus-stanford`) and a 2026 *Philosophy* article (`ml-camus-cambridge-2026`); the later response novel is identified through its publisher (`ml-camus-daoud-publisher`) and a reception essay (`ml-camus-daoud-reception`). Secondary story cross-check `ml-camus-classicslaunch` is a reading guide rather than the 1942 primary text. Their URLs, access labels and scope appear in `metadata/sources.json`; five exact-text claim anchors per lecture are in `metadata/049100.json`–`metadata/049900.json`.
+The principal bibliographic witness is the Albert Camus Society (`ml-camus-society`, `ml-camus-edition`); philosophical context comes from the Stanford Encyclopedia of Philosophy (`ml-camus-stanford`) and a 2026 *Philosophy* article (`ml-camus-cambridge-2026`); the later response novel is identified through its publisher (`ml-camus-daoud-publisher`) and a reception essay (`ml-camus-daoud-reception`). Secondary story cross-check `ml-camus-classicslaunch` is a reading guide rather than the 1942 primary text. Their URLs, access labels and scope appear in `metadata/sources.json`; five exact-text claim anchors per lecture are in `metadata/049100.json`–`metadata/049100.json`.
 
 The complete copyrighted French novel and every English edition were **not collated** for this draft. The editorial record thus explicitly avoids claiming edition-level textual verification. The philosophical article's reading is a specific scholarly interpretation, not a universal consensus. Keep attribution of ideas to their original author and treat later critical responses as interpretive interventions rather than corrections to the novel's events.
 

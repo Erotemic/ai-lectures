@@ -1,12 +1,97 @@
 {
   "schema_version": 1,
   "lecture_id": "007000",
-  "transcript": "007000-nonlinear-phase-planes-and-energy.md",
+  "transcript": "007000-nonlinear-phase-portraits-bifurcation-and-stiffness.md",
   "related_resources": [
     {
       "source_id": "de-mit-nonlinear",
       "reason": "Nonlinear phase portraits, pendulum and energy methods."
+    },
+    {
+      "source_id": "de-mit-strogatz",
+      "reason": "Bifurcation normal forms and Hopf theory."
+    },
+    {
+      "source_id": "de-mit-nonlinear",
+      "reason": "Limit cycles and nonlinear dynamical systems."
+    },
+    {
+      "source_id": "de-heath-stiff",
+      "reason": "Explicit versus implicit stability for stiff initial-value problems."
+    },
+    {
+      "source_id": "de-mit1803",
+      "reason": "Linear dynamical systems and exponential decay background."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "differential-equations:007000",
+        "file": "007000-nonlinear-phase-planes-and-energy.md",
+        "sha256": "4514224cb310f64542b757e3990f5323450c984805fe0687abe4aff430581f1b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-nonlinear-phase-planes-and-energy.md",
+          "related_resources": [
+            {
+              "source_id": "de-mit-nonlinear",
+              "reason": "Nonlinear phase portraits, pendulum and energy methods."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:008000",
+        "file": "008000-bifurcations-and-limit-cycles.md",
+        "sha256": "bec5fe5bdc13a57fd1c76beea2f6ecccc6d18fa26921d4b9a6ce2da9c443415f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "008000",
+          "transcript": "008000-bifurcations-and-limit-cycles.md",
+          "related_resources": [
+            {
+              "source_id": "de-mit-strogatz",
+              "reason": "Bifurcation normal forms and Hopf theory."
+            },
+            {
+              "source_id": "de-mit-nonlinear",
+              "reason": "Limit cycles and nonlinear dynamical systems."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "differential-equations:009000",
+        "file": "009000-stiff-systems-and-fast-slow-timescales.md",
+        "sha256": "3639ab5d705865b59c36a5efaba5a97525284b2b15cdfa93b79a903b3e60c11c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-stiff-systems-and-fast-slow-timescales.md",
+          "related_resources": [
+            {
+              "source_id": "de-heath-stiff",
+              "reason": "Explicit versus implicit stability for stiff initial-value problems."
+            },
+            {
+              "source_id": "de-mit1803",
+              "reason": "Linear dynamical systems and exponential decay background."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

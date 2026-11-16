@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "005000",
-  "transcript": "005000-protective-devices-and-quiet-failure-modes.md",
+  "transcript": "005000-investigate-building-service-warnings.md",
   "related_resources": [
     {
       "source_id": "usfa-smoke-alarms",
@@ -10,6 +10,26 @@
     {
       "source_id": "nfpa-home-electrical",
       "reason": "GFCI and AFCI purpose, periodic functional testing and failure consequences"
+    },
+    {
+      "source_id": "energystar-duct-sealing-case",
+      "reason": "Supply and return duct air leakage, comfort and delivery losses"
+    },
+    {
+      "source_id": "doe-air-vapor",
+      "reason": "Different enclosure moisture pathways"
+    },
+    {
+      "source_id": "epa-maintenance",
+      "reason": "Leak monitoring and water-using systems"
+    },
+    {
+      "source_id": "doe-hi-pump-sourcebook-maintenance",
+      "reason": "Pump/system curves, operating points, cavitation and net positive suction head"
+    },
+    {
+      "source_id": "cpsc-home-wiring-guide",
+      "reason": "Electrical-system warning signs, breaker and panel hazards, and qualified inspection; historical numerical incident estimates should not be treated as current"
     }
   ],
   "historical_claims": [],
@@ -63,8 +83,572 @@
       "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
       "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
       "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P011000-01",
+      "claim": "Duct leakage can reduce delivered thermal energy and impair room comfort.",
+      "kind": "original_energystar_duct_guidance",
+      "supports": [
+        {
+          "source_id": "energystar-duct-sealing-case",
+          "location": "Duct loss and leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Room temperature alone cannot distinguish insufficient heat supply from excessive envelope heat loss.",
+      "kind": "derived_building_energy_balance",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Envelope air flow mechanisms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "energystar-duct-sealing-case",
+          "location": "Distribution inefficiency",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Supply and return air paths influence pressure and distribution, including when interior doors close.",
+      "kind": "derived_hvac_flow_synthesis",
+      "supports": [
+        {
+          "source_id": "energystar-duct-sealing-case",
+          "location": "Supply and return duct flow",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Controlled observation before changing equipment reduces the risk of replacing unrelated parts.",
+      "kind": "derived_maintenance_methodology",
+      "supports": [
+        {
+          "source_id": "epa-maintenance",
+          "location": "Maintenance and inspection logic",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Air movement causes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-01",
+      "claim": "Pump operating conditions depend on the pump curve and the system resistance curve.",
+      "kind": "original_us_department_energy_pumping",
+      "supports": [
+        {
+          "source_id": "doe-hi-pump-sourcebook-maintenance",
+          "location": "Pump/system curves, operating points, cavitation and net positive suction head",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Cavitation and insufficient available NPSH can cause pump noise and damage in applicable liquid pumps.",
+      "kind": "original_us_department_energy_pumping",
+      "supports": [
+        {
+          "source_id": "doe-hi-pump-sourcebook-maintenance",
+          "location": "Pump/system curves, operating points, cavitation and net positive suction head",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Sound alone does not uniquely identify an equipment fault; observation across operating states improves diagnosis.",
+      "kind": "derived_pump_diagnostics_method",
+      "supports": [
+        {
+          "source_id": "doe-hi-pump-sourcebook-maintenance",
+          "location": "Pump/system curves, operating points, cavitation and net positive suction head",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-maintenance",
+          "location": "Leak monitoring and water-using systems",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-01",
+      "claim": "Circuit-breaker operation can represent overcurrent or other detected electrical problems and is not itself a faulty-breaker diagnosis.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "cpsc-home-wiring-guide",
+          "location": "Electrical-system warning signs, breaker and panel hazards, and qualified inspection; historical numerical incident estimates should not be treated as current",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nfpa-home-electrical",
+          "location": "GFCI and AFCI purpose, periodic functional testing and failure consequences",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Hot or discolored outlets, burning odors and recurring breaker trips are recognized electrical warning signs.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cpsc-home-wiring-guide",
+          "location": "Electrical-system warning signs, breaker and panel hazards, and qualified inspection; historical numerical incident estimates should not be treated as current",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "A power calculation from appliance nameplate alone does not verify installed circuit capacity.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "cpsc-home-wiring-guide",
+          "location": "Electrical-system warning signs, breaker and panel hazards, and qualified inspection; historical numerical incident estimates should not be treated as current",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "Electrical panel faults and wiring repairs require qualified evaluation rather than defeating or uprating protection.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cpsc-home-wiring-guide",
+          "location": "Electrical-system warning signs, breaker and panel hazards, and qualified inspection; historical numerical incident estimates should not be treated as current",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nfpa-home-electrical",
+          "location": "GFCI and AFCI purpose, periodic functional testing and failure consequences",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+  "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-household-maintenance:005000",
+        "file": "005000-protective-devices-and-quiet-failure-modes.md",
+        "sha256": "f376c837f7679d4421c4af349d8ba0998d455964725ec07f81ef98073d397ffc",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-protective-devices-and-quiet-failure-modes.md",
+          "related_resources": [
+            {
+              "source_id": "usfa-smoke-alarms",
+              "reason": "Regular testing, unit age and battery/model-specific maintenance"
+            },
+            {
+              "source_id": "nfpa-home-electrical",
+              "reason": "GFCI and AFCI purpose, periodic functional testing and failure consequences"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P005000-01",
+              "claim": "Smoke alarms require periodic testing and age-related replacement; silent operation is not a functionality test.",
+              "kind": "fire_safety_guidance",
+              "supports": [
+                {
+                  "source_id": "usfa-smoke-alarms",
+                  "location": "US Fire Administration: How do I take care of my smoke alarm?",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-02",
+              "claim": "GFCI/AFCI protective function is different from simple electrical continuity and needs manufacturer-guided tests.",
+              "kind": "electrical_safety_guidance",
+              "supports": [
+                {
+                  "source_id": "nfpa-home-electrical",
+                  "location": "How often should you test AFCIs and GFCIs?",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "Claim applies at the source scope. Equipment, clinical procedures, climate and adopted local requirements may alter a specific field application.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            },
+            {
+              "claim_id": "P005000-03",
+              "claim": "A protective device's availability requires looking for latent failure modes rather than only visible breakage.",
+              "kind": "derived_maintenance_reasoning",
+              "supports": [
+                {
+                  "source_id": "usfa-smoke-alarms",
+                  "location": "Device readiness guidance; general maintenance synthesis",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nfpa-home-electrical",
+                  "location": "Device readiness guidance; general maintenance synthesis",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "selected_primary_or_authoritative_publisher_page_reviewed_2026-11-15; subject_matter_review_pending",
+              "limits": "The statement is a reasoned synthesis or derived calculation; cited material supports the premises or context, not necessarily an identical quantitative conclusion.",
+              "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Claim-level source locators distinguish agency guidance, original standards, publisher education and derived synthesis; these drafts are not professional certification or adoption of a local code."
+        }
+      },
+      {
+        "id": "practical-household-maintenance:011000",
+        "file": "011000-uneven-heating-case-study-airflow-heat-loss-and-controls.md",
+        "sha256": "064d77e0daee7025e00037178588d46a4b3b1bd50f89bf78508ce889be8d4b1c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-uneven-heating-case-study-airflow-heat-loss-and-controls.md",
+          "related_resources": [
+            {
+              "source_id": "energystar-duct-sealing-case",
+              "reason": "Supply and return duct air leakage, comfort and delivery losses"
+            },
+            {
+              "source_id": "doe-air-vapor",
+              "reason": "Different enclosure moisture pathways"
+            },
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leak monitoring and water-using systems"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "Duct leakage can reduce delivered thermal energy and impair room comfort.",
+              "kind": "original_energystar_duct_guidance",
+              "supports": [
+                {
+                  "source_id": "energystar-duct-sealing-case",
+                  "location": "Duct loss and leakage",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "Room temperature alone cannot distinguish insufficient heat supply from excessive envelope heat loss.",
+              "kind": "derived_building_energy_balance",
+              "supports": [
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Envelope air flow mechanisms",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "energystar-duct-sealing-case",
+                  "location": "Distribution inefficiency",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "Supply and return air paths influence pressure and distribution, including when interior doors close.",
+              "kind": "derived_hvac_flow_synthesis",
+              "supports": [
+                {
+                  "source_id": "energystar-duct-sealing-case",
+                  "location": "Supply and return duct flow",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "Controlled observation before changing equipment reduces the risk of replacing unrelated parts.",
+              "kind": "derived_maintenance_methodology",
+              "supports": [
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "Maintenance and inspection logic",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "doe-air-vapor",
+                  "location": "Air movement causes",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-household-maintenance:012000",
+        "file": "012000-noisy-pump-case-study-vibration-flow-and-cavitation.md",
+        "sha256": "ff8d842d70b0a478c275f8bd1772cfaddc5e97be26f551e16f398b2ef2d7004b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-noisy-pump-case-study-vibration-flow-and-cavitation.md",
+          "related_resources": [
+            {
+              "source_id": "doe-hi-pump-sourcebook-maintenance",
+              "reason": "Pump/system curves, operating points, cavitation and net positive suction head"
+            },
+            {
+              "source_id": "epa-maintenance",
+              "reason": "Leak monitoring and water-using systems"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P012000-01",
+              "claim": "Pump operating conditions depend on the pump curve and the system resistance curve.",
+              "kind": "original_us_department_energy_pumping",
+              "supports": [
+                {
+                  "source_id": "doe-hi-pump-sourcebook-maintenance",
+                  "location": "Pump/system curves, operating points, cavitation and net positive suction head",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-02",
+              "claim": "Cavitation and insufficient available NPSH can cause pump noise and damage in applicable liquid pumps.",
+              "kind": "original_us_department_energy_pumping",
+              "supports": [
+                {
+                  "source_id": "doe-hi-pump-sourcebook-maintenance",
+                  "location": "Pump/system curves, operating points, cavitation and net positive suction head",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-03",
+              "claim": "Sound alone does not uniquely identify an equipment fault; observation across operating states improves diagnosis.",
+              "kind": "derived_pump_diagnostics_method",
+              "supports": [
+                {
+                  "source_id": "doe-hi-pump-sourcebook-maintenance",
+                  "location": "Pump/system curves, operating points, cavitation and net positive suction head",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "epa-maintenance",
+                  "location": "Leak monitoring and water-using systems",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-household-maintenance:018000",
+        "file": "018000-circuit-overload-case-study-evidence-limits-and-safe-escalation.md",
+        "sha256": "4042c6c8adb2257a78c3046c8bf528c348eecd1ee2150ac24ff6556b321e1d99",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "018000",
+          "transcript": "018000-circuit-overload-case-study-evidence-limits-and-safe-escalation.md",
+          "related_resources": [
+            {
+              "source_id": "cpsc-home-wiring-guide",
+              "reason": "Electrical-system warning signs, breaker and panel hazards, and qualified inspection; historical numerical incident estimates should not be treated as current"
+            },
+            {
+              "source_id": "nfpa-home-electrical",
+              "reason": "GFCI and AFCI purpose, periodic functional testing and failure consequences"
+            },
+            {
+              "source_id": "usfa-smoke-alarms",
+              "reason": "Regular testing, unit age and battery/model-specific maintenance"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P018000-01",
+              "claim": "Circuit-breaker operation can represent overcurrent or other detected electrical problems and is not itself a faulty-breaker diagnosis.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "cpsc-home-wiring-guide",
+                  "location": "Electrical-system warning signs, breaker and panel hazards, and qualified inspection; historical numerical incident estimates should not be treated as current",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nfpa-home-electrical",
+                  "location": "GFCI and AFCI purpose, periodic functional testing and failure consequences",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-02",
+              "claim": "Hot or discolored outlets, burning odors and recurring breaker trips are recognized electrical warning signs.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cpsc-home-wiring-guide",
+                  "location": "Electrical-system warning signs, breaker and panel hazards, and qualified inspection; historical numerical incident estimates should not be treated as current",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-03",
+              "claim": "A power calculation from appliance nameplate alone does not verify installed circuit capacity.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "cpsc-home-wiring-guide",
+                  "location": "Electrical-system warning signs, breaker and panel hazards, and qualified inspection; historical numerical incident estimates should not be treated as current",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P018000-04",
+              "claim": "Electrical panel faults and wiring repairs require qualified evaluation rather than defeating or uprating protection.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cpsc-home-wiring-guide",
+                  "location": "Electrical-system warning signs, breaker and panel hazards, and qualified inspection; historical numerical incident estimates should not be treated as current",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nfpa-home-electrical",
+                  "location": "GFCI and AFCI purpose, periodic functional testing and failure consequences",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "005000-investigate-building-service-warnings.md"
+      ],
+      "joined_before_source_parts": [
+        "011000",
+        "018000"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "013000",
-  "transcript": "013000-chains-belts-and-transmission-wear.md",
+  "transcript": "013000-keep-mechanical-transmissions-aligned-and-intact.md",
   "related_resources": [
     {
       "source_id": "openstax-machines",
@@ -26,6 +26,18 @@
     {
       "source_id": "osha-hazardous-energy",
       "reason": "Stored pneumatic, hydraulic and mechanical energy during servicing"
+    },
+    {
+      "source_id": "openstax-thermal",
+      "reason": "Linear thermal expansion, representative material coefficients, and holes expanding with heating"
+    },
+    {
+      "source_id": "mit-gear-ratios",
+      "reason": "Tooth-count and series gearing ratio derivations"
+    },
+    {
+      "source_id": "skf-grease",
+      "reason": "Grease churning, replenishment, starvation and film breakdown"
     }
   ],
   "historical_claims": [],
@@ -89,8 +101,682 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
       "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-01",
+      "claim": "A bolted joint creates elastic stretch in the bolt and compression of clamped members; retained preload helps resist sliding.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "openstax-torque",
+          "location": "Moment arm and torque",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-hazardous-energy",
+          "location": "Stored pneumatic, hydraulic and mechanical energy during servicing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-02",
+      "claim": "Torque is an imperfect proxy for fastener tension because friction and lubrication vary.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "openstax-torque",
+          "location": "Moment arm and torque",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "skf-bearing-guide",
+          "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-03",
+      "claim": "Settling, gasket relaxation, vibration and thermal cycling can change preload without breaking a bolt.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "skf-damage",
+          "location": "Bearing removal symptoms and lubrication/contamination damage mechanisms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "openstax-thermal",
+          "location": "Linear thermal expansion, representative material coefficients, and holes expanding with heating",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-04",
+      "claim": "Loosening and fatigue require investigating joint load path and operating conditions rather than choosing locking hardware by name.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "osha-belt-drive-guarding",
+          "location": "Power-transmission apparatus including belts, pulleys, chains and sprockets must be appropriately guarded",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "skf-damage",
+          "location": "Bearing removal symptoms and lubrication/contamination damage mechanisms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "Coupling geometry must distinguish parallel offset, angular misalignment and axial spacing.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "skf-bearing-guide",
+          "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Bearing and coupling wear can result from operating loads, alignment and mounting conditions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "skf-damage",
+          "location": "Bearing removal symptoms and lubrication/contamination damage mechanisms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "skf-bearing-guide",
+          "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Soft foot, thermal growth and piping strain can change alignment under operating conditions.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "skf-bearing-guide",
+          "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "skf-damage",
+          "location": "Bearing removal symptoms and lubrication/contamination damage mechanisms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Inspection and correction of rotating systems must control unexpected startup and stored energy.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "osha-hazardous-energy",
+          "location": "Stored pneumatic, hydraulic and mechanical energy during servicing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-01",
+      "claim": "Ideal gear trains trade shaft speed against torque with approximate input-output power conservation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "mit-gear-ratios",
+          "location": "Tooth-count and series gearing ratio derivations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Lubricant condition, viscosity and churning influence losses and bearing or gear life.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "skf-grease",
+          "location": "Grease churning, replenishment, starvation and film breakdown",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "skf-bearing-guide",
+          "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Gearbox heating depends on losses, load, duty cycle and heat rejection rather than lubricant quantity alone.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "skf-grease",
+          "location": "Grease churning, replenishment, starvation and film breakdown",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "mit-gear-ratios",
+          "location": "Tooth-count and series gearing ratio derivations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Intrusive inspection of power transmissions must address unexpected startup and stored energy.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "osha-hazardous-energy",
+          "location": "Stored pneumatic, hydraulic and mechanical energy during servicing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+  "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-mechanics:013000",
+        "file": "013000-chains-belts-and-transmission-wear.md",
+        "sha256": "430534f28d7a13bbadd91dbeea5bffbbd891092ea034dae5efcb091944b338e9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "013000",
+          "transcript": "013000-chains-belts-and-transmission-wear.md",
+          "related_resources": [
+            {
+              "source_id": "openstax-machines",
+              "reason": "Mechanical advantage and energy conservation"
+            },
+            {
+              "source_id": "openstax-torque",
+              "reason": "Moment arm and torque"
+            },
+            {
+              "source_id": "skf-damage",
+              "reason": "Bearing removal symptoms and lubrication/contamination damage mechanisms"
+            },
+            {
+              "source_id": "skf-bearing-guide",
+              "reason": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings"
+            },
+            {
+              "source_id": "osha-belt-drive-guarding",
+              "reason": "Power-transmission apparatus including belts, pulleys, chains and sprockets must be appropriately guarded"
+            },
+            {
+              "source_id": "osha-hazardous-energy",
+              "reason": "Stored pneumatic, hydraulic and mechanical energy during servicing"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P013000-01",
+              "claim": "An ideal belt or chain reduction relates angular-speed ratio to pulley diameters or tooth counts.",
+              "kind": "derived_mechanical_kinematics",
+              "supports": [
+                {
+                  "source_id": "openstax-machines",
+                  "location": "Mechanical advantage and energy conservation",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "openstax-torque",
+                  "location": "Moment arm and torque",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-02",
+              "claim": "Wear, misalignment, tension and support-bearing condition can change drive performance and failure patterns.",
+              "kind": "derived_mechanical_diagnostics",
+              "supports": [
+                {
+                  "source_id": "skf-damage",
+                  "location": "Bearing removal symptoms and lubrication/contamination damage mechanisms",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "skf-bearing-guide",
+                  "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P013000-03",
+              "claim": "Belts, chains, pulleys and sprockets are power-transmission components that present guarding hazards.",
+              "kind": "original_us_workplace_safety_guidance",
+              "supports": [
+                {
+                  "source_id": "osha-belt-drive-guarding",
+                  "location": "Power-transmission apparatus including belts, pulleys, chains and sprockets must be appropriately guarded",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-hazardous-energy",
+                  "location": "Stored pneumatic, hydraulic and mechanical energy during servicing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-mechanics:014000",
+        "file": "014000-threaded-joints-preload-loss-and-fastener-failure.md",
+        "sha256": "2670f329c6d2a3a206276407ab4d36a6c4b15bae9fdc11486ec3623112125f8b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "014000",
+          "transcript": "014000-threaded-joints-preload-loss-and-fastener-failure.md",
+          "related_resources": [
+            {
+              "source_id": "openstax-torque",
+              "reason": "Moment arm and torque"
+            },
+            {
+              "source_id": "osha-hazardous-energy",
+              "reason": "Stored pneumatic, hydraulic and mechanical energy during servicing"
+            },
+            {
+              "source_id": "skf-bearing-guide",
+              "reason": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings"
+            },
+            {
+              "source_id": "skf-damage",
+              "reason": "Bearing removal symptoms and lubrication/contamination damage mechanisms"
+            },
+            {
+              "source_id": "openstax-thermal",
+              "reason": "Linear thermal expansion, representative material coefficients, and holes expanding with heating"
+            },
+            {
+              "source_id": "osha-belt-drive-guarding",
+              "reason": "Power-transmission apparatus including belts, pulleys, chains and sprockets must be appropriately guarded"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P014000-01",
+              "claim": "A bolted joint creates elastic stretch in the bolt and compression of clamped members; retained preload helps resist sliding.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "openstax-torque",
+                  "location": "Moment arm and torque",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-hazardous-energy",
+                  "location": "Stored pneumatic, hydraulic and mechanical energy during servicing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-02",
+              "claim": "Torque is an imperfect proxy for fastener tension because friction and lubrication vary.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "openstax-torque",
+                  "location": "Moment arm and torque",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "skf-bearing-guide",
+                  "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-03",
+              "claim": "Settling, gasket relaxation, vibration and thermal cycling can change preload without breaking a bolt.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "skf-damage",
+                  "location": "Bearing removal symptoms and lubrication/contamination damage mechanisms",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "openstax-thermal",
+                  "location": "Linear thermal expansion, representative material coefficients, and holes expanding with heating",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P014000-04",
+              "claim": "Loosening and fatigue require investigating joint load path and operating conditions rather than choosing locking hardware by name.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "osha-belt-drive-guarding",
+                  "location": "Power-transmission apparatus including belts, pulleys, chains and sprockets must be appropriately guarded",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "skf-damage",
+                  "location": "Bearing removal symptoms and lubrication/contamination damage mechanisms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-mechanics:015000",
+        "file": "015000-shafts-couplings-and-alignment.md",
+        "sha256": "414095bdb6a5c5a8986b741e5051348b7b59fb0fcc3ee6bc7ad86b701a9fb6f5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-shafts-couplings-and-alignment.md",
+          "related_resources": [
+            {
+              "source_id": "skf-bearing-guide",
+              "reason": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings"
+            },
+            {
+              "source_id": "skf-damage",
+              "reason": "Bearing removal symptoms and lubrication/contamination damage mechanisms"
+            },
+            {
+              "source_id": "openstax-torque",
+              "reason": "Moment arm and torque"
+            },
+            {
+              "source_id": "osha-hazardous-energy",
+              "reason": "Stored pneumatic, hydraulic and mechanical energy during servicing"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "Coupling geometry must distinguish parallel offset, angular misalignment and axial spacing.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "skf-bearing-guide",
+                  "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "Bearing and coupling wear can result from operating loads, alignment and mounting conditions.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "skf-damage",
+                  "location": "Bearing removal symptoms and lubrication/contamination damage mechanisms",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "skf-bearing-guide",
+                  "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Soft foot, thermal growth and piping strain can change alignment under operating conditions.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "skf-bearing-guide",
+                  "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "skf-damage",
+                  "location": "Bearing removal symptoms and lubrication/contamination damage mechanisms",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Inspection and correction of rotating systems must control unexpected startup and stored energy.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "osha-hazardous-energy",
+                  "location": "Stored pneumatic, hydraulic and mechanical energy during servicing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-mechanics:016000",
+        "file": "016000-gearboxes-lubrication-and-thermal-limits.md",
+        "sha256": "011962b22b608ed4a978128bfb3f3bfe96c10462e582b7e15d66145f49c6d660",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "016000",
+          "transcript": "016000-gearboxes-lubrication-and-thermal-limits.md",
+          "related_resources": [
+            {
+              "source_id": "mit-gear-ratios",
+              "reason": "Tooth-count and series gearing ratio derivations"
+            },
+            {
+              "source_id": "skf-grease",
+              "reason": "Grease churning, replenishment, starvation and film breakdown"
+            },
+            {
+              "source_id": "skf-bearing-guide",
+              "reason": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings"
+            },
+            {
+              "source_id": "osha-hazardous-energy",
+              "reason": "Stored pneumatic, hydraulic and mechanical energy during servicing"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P016000-01",
+              "claim": "Ideal gear trains trade shaft speed against torque with approximate input-output power conservation.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "mit-gear-ratios",
+                  "location": "Tooth-count and series gearing ratio derivations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-02",
+              "claim": "Lubricant condition, viscosity and churning influence losses and bearing or gear life.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "skf-grease",
+                  "location": "Grease churning, replenishment, starvation and film breakdown",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "skf-bearing-guide",
+                  "location": "Misalignment, lubrication, seal contact pattern, locating/non-locating bearings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-03",
+              "claim": "Gearbox heating depends on losses, load, duty cycle and heat rejection rather than lubricant quantity alone.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "skf-grease",
+                  "location": "Grease churning, replenishment, starvation and film breakdown",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "mit-gear-ratios",
+                  "location": "Tooth-count and series gearing ratio derivations",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P016000-04",
+              "claim": "Intrusive inspection of power transmissions must address unexpected startup and stored energy.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "osha-hazardous-energy",
+                  "location": "Stored pneumatic, hydraulic and mechanical energy during servicing",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "013000-keep-mechanical-transmissions-aligned-and-intact.md"
+      ],
+      "joined_before_source_parts": [
+        "014000",
+        "016000"
+      ]
+    }
+  ]
 }

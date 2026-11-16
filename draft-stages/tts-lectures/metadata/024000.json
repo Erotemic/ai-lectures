@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "024000",
-  "transcript": "024000-eigenvalues-eigenspaces-and-algebraic-multiplicity.md",
+  "transcript": "024000-spectral-data-and-min-max-geometry.md",
   "historical_claims": [],
   "related_resources": [
     {
@@ -35,6 +35,345 @@
     {
       "source_id": "wiki-spectrum-operator",
       "reason": "Spectrum, resolvent set and the difference between eigenvalues and spectral points."
+    },
+    {
+      "source_id": "mit-strang-svd",
+      "reason": "Finite-dimensional singular-direction intuition; general operator-ideal and infinite-dimensional claims require additional sources."
+    },
+    {
+      "source_id": "higham-positive-definite",
+      "reason": "Compare positive-definiteness tests with quadratic-form reasoning."
+    },
+    {
+      "source_id": "tao-hermitian-matrix-sums",
+      "reason": "Study min-max proofs and eigenvalue inequalities from a matrix-analysis viewpoint."
+    },
+    {
+      "source_id": "bindel-hermitian-svd",
+      "reason": "Review a computational proof of symmetric eigenvalue and singular-value properties."
+    },
+    {
+      "source_id": "wiki-hermitian-matrix",
+      "reason": "Self-adjoint matrix structure, real eigenvalues and orthogonal eigenspaces."
+    },
+    {
+      "source_id": "wiki-finite-spectral",
+      "reason": "Diagonalization of self-adjoint matrices and multiplication-operator interpretations."
+    },
+    {
+      "source_id": "wiki-spectral-theory",
+      "reason": "Context connecting finite eigenvalue calculations to operator spectral theory."
+    },
+    {
+      "source_id": "wiki-spectral-theorem",
+      "reason": "Spectral representation including operator and unbounded-operator cases."
+    },
+    {
+      "source_id": "mit-strang-positive",
+      "reason": "Quadratic-form and minimization examples in matrices; see the lecture assumptions for generalization."
+    },
+    {
+      "source_id": "higham-eigen-ineq",
+      "reason": "Concise matrix-level comparison of Rayleigh quotients and eigenvalue inequalities."
+    },
+    {
+      "source_id": "cornell-ritz",
+      "reason": "Projection/Ritz perspective and residual orthogonality; advanced sections are optional."
+    },
+    {
+      "source_id": "boyd-vandenberghe-applied",
+      "reason": "Work through concrete linear algebra, least-squares or SVD calculations in an applied treatment."
+    },
+    {
+      "source_id": "boyd-stanford-ee263-archive",
+      "reason": "Use the publicly available course-reader slides for block matrices, quadratic forms, or dynamical examples."
+    },
+    {
+      "source_id": "bindel-ritz-eigensolvers",
+      "reason": "Follow Rayleigh-Ritz residual orthogonality and the logic of extracting approximate eigenpairs."
+    },
+    {
+      "source_id": "wiki-rayleigh-quotient",
+      "reason": "Extremal eigenvalue characterizations through quadratic forms."
+    },
+    {
+      "source_id": "wiki-rayleigh-ritz-method",
+      "reason": "Finite-dimensional trial-space compression and approximate eigenvalues."
+    },
+    {
+      "source_id": "wiki-courant-minimax",
+      "reason": "The variational min–max formula and the role of competing subspaces."
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "g2:024000",
+        "file": "024000-eigenvalues-eigenspaces-and-algebraic-multiplicity.md",
+        "sha256": "ceb756ca7243b5b0bcff094ab8463adb9754a64ec95a4601aa0293cb94e1329d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "024000",
+          "transcript": "024000-eigenvalues-eigenspaces-and-algebraic-multiplicity.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "mit-strang-18-06",
+              "reason": "MIT 18.06 lectures 21 and 25–27 cover eigenvectors, spectral structure and positive definite matrices."
+            },
+            {
+              "source_id": "threeblue-change-basis",
+              "reason": "See how the same linear map takes different matrix forms in different bases."
+            },
+            {
+              "source_id": "threeblue-eigenvalues",
+              "reason": "Study a two-dimensional eigenvector example before the spectral argument."
+            },
+            {
+              "source_id": "axler-open-linear-algebra",
+              "reason": "Consult the proof-led account of linear operators, inner products, adjoints and spectral structure."
+            },
+            {
+              "source_id": "tao-eigenvalue-stability",
+              "reason": "Contrast Hermitian spectral stability with nonnormal sensitivity and pseudospectra."
+            },
+            {
+              "source_id": "bindel-eigen-perturbation",
+              "reason": "Study concrete perturbation examples and first-order spectral sensitivity."
+            },
+            {
+              "source_id": "wiki-eigenvalues-eigenvectors",
+              "reason": "Eigenvectors and eigenvalues before moving to spectral subspaces."
+            },
+            {
+              "source_id": "wiki-spectrum-operator",
+              "reason": "Spectrum, resolvent set and the difference between eigenvalues and spectral points."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:025000",
+        "file": "025000-hermitian-and-self-adjoint-matrices.md",
+        "sha256": "87bccfa443dd92945448122423f46ff536cb14ea04f94eb8635a3a22eda75d11",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "025000",
+          "transcript": "025000-hermitian-and-self-adjoint-matrices.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "mit-strang-svd",
+              "reason": "Finite-dimensional singular-direction intuition; general operator-ideal and infinite-dimensional claims require additional sources."
+            },
+            {
+              "source_id": "mit-strang-18-06",
+              "reason": "MIT 18.06 lectures 21 and 25–27 cover eigenvectors, spectral structure and positive definite matrices."
+            },
+            {
+              "source_id": "threeblue-eigenvalues",
+              "reason": "Study a two-dimensional eigenvector example before the spectral argument."
+            },
+            {
+              "source_id": "higham-positive-definite",
+              "reason": "Compare positive-definiteness tests with quadratic-form reasoning."
+            },
+            {
+              "source_id": "axler-open-linear-algebra",
+              "reason": "Consult the proof-led account of linear operators, inner products, adjoints and spectral structure."
+            },
+            {
+              "source_id": "tao-hermitian-matrix-sums",
+              "reason": "Study min-max proofs and eigenvalue inequalities from a matrix-analysis viewpoint."
+            },
+            {
+              "source_id": "bindel-hermitian-svd",
+              "reason": "Review a computational proof of symmetric eigenvalue and singular-value properties."
+            },
+            {
+              "source_id": "wiki-hermitian-matrix",
+              "reason": "Self-adjoint matrix structure, real eigenvalues and orthogonal eigenspaces."
+            },
+            {
+              "source_id": "wiki-eigenvalues-eigenvectors",
+              "reason": "Eigenvectors and eigenvalues before moving to spectral subspaces."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:026000",
+        "file": "026000-the-finite-spectral-theorem.md",
+        "sha256": "43ee73f54afb13f7e0743ab24073daddca07a3243638c353e79cc918844078f9",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "026000",
+          "transcript": "026000-the-finite-spectral-theorem.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "mit-strang-svd",
+              "reason": "Finite-dimensional singular-direction intuition; general operator-ideal and infinite-dimensional claims require additional sources."
+            },
+            {
+              "source_id": "mit-strang-18-06",
+              "reason": "MIT 18.06 lectures 21 and 25–27 cover eigenvectors, spectral structure and positive definite matrices."
+            },
+            {
+              "source_id": "threeblue-eigenvalues",
+              "reason": "Study a two-dimensional eigenvector example before the spectral argument."
+            },
+            {
+              "source_id": "axler-open-linear-algebra",
+              "reason": "Consult the proof-led account of linear operators, inner products, adjoints and spectral structure."
+            },
+            {
+              "source_id": "tao-hermitian-matrix-sums",
+              "reason": "Study min-max proofs and eigenvalue inequalities from a matrix-analysis viewpoint."
+            },
+            {
+              "source_id": "bindel-hermitian-svd",
+              "reason": "Review a computational proof of symmetric eigenvalue and singular-value properties."
+            },
+            {
+              "source_id": "wiki-finite-spectral",
+              "reason": "Diagonalization of self-adjoint matrices and multiplication-operator interpretations."
+            },
+            {
+              "source_id": "wiki-spectral-theory",
+              "reason": "Context connecting finite eigenvalue calculations to operator spectral theory."
+            },
+            {
+              "source_id": "wiki-spectral-theorem",
+              "reason": "Spectral representation including operator and unbounded-operator cases."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:027000",
+        "file": "027000-rayleigh-quotients-and-extrema.md",
+        "sha256": "a3e4b9e433885b469b8ff618c9163a60c6421e36a3ebc532b5192244554a707a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "027000",
+          "transcript": "027000-rayleigh-quotients-and-extrema.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "mit-strang-18-06",
+              "reason": "MIT 18.06 lectures 21 and 25–27 cover eigenvectors, spectral structure and positive definite matrices."
+            },
+            {
+              "source_id": "mit-strang-positive",
+              "reason": "Quadratic-form and minimization examples in matrices; see the lecture assumptions for generalization."
+            },
+            {
+              "source_id": "higham-eigen-ineq",
+              "reason": "Concise matrix-level comparison of Rayleigh quotients and eigenvalue inequalities."
+            },
+            {
+              "source_id": "cornell-ritz",
+              "reason": "Projection/Ritz perspective and residual orthogonality; advanced sections are optional."
+            },
+            {
+              "source_id": "higham-positive-definite",
+              "reason": "Compare positive-definiteness tests with quadratic-form reasoning."
+            },
+            {
+              "source_id": "boyd-vandenberghe-applied",
+              "reason": "Work through concrete linear algebra, least-squares or SVD calculations in an applied treatment."
+            },
+            {
+              "source_id": "boyd-stanford-ee263-archive",
+              "reason": "Use the publicly available course-reader slides for block matrices, quadratic forms, or dynamical examples."
+            },
+            {
+              "source_id": "tao-hermitian-matrix-sums",
+              "reason": "Study min-max proofs and eigenvalue inequalities from a matrix-analysis viewpoint."
+            },
+            {
+              "source_id": "bindel-eigen-perturbation",
+              "reason": "Study concrete perturbation examples and first-order spectral sensitivity."
+            },
+            {
+              "source_id": "bindel-hermitian-svd",
+              "reason": "Review a computational proof of symmetric eigenvalue and singular-value properties."
+            },
+            {
+              "source_id": "bindel-ritz-eigensolvers",
+              "reason": "Follow Rayleigh-Ritz residual orthogonality and the logic of extracting approximate eigenpairs."
+            },
+            {
+              "source_id": "wiki-eigenvalues-eigenvectors",
+              "reason": "Eigenvectors and eigenvalues before moving to spectral subspaces."
+            },
+            {
+              "source_id": "wiki-rayleigh-quotient",
+              "reason": "Extremal eigenvalue characterizations through quadratic forms."
+            },
+            {
+              "source_id": "wiki-rayleigh-ritz-method",
+              "reason": "Finite-dimensional trial-space compression and approximate eigenvalues."
+            }
+          ]
+        }
+      },
+      {
+        "id": "g2:028000",
+        "file": "028000-courant-fischer-min-max.md",
+        "sha256": "f51de7a78411085a6f1de526b79ba808a26d42cf9d06668eeefaf7cd621b36a8",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "028000",
+          "transcript": "028000-courant-fischer-min-max.md",
+          "historical_claims": [],
+          "related_resources": [
+            {
+              "source_id": "mit-strang-18-06",
+              "reason": "MIT 18.06 lectures 21 and 25–27 cover eigenvectors, spectral structure and positive definite matrices."
+            },
+            {
+              "source_id": "mit-strang-positive",
+              "reason": "Quadratic-form and minimization examples in matrices; see the lecture assumptions for generalization."
+            },
+            {
+              "source_id": "higham-eigen-ineq",
+              "reason": "Concise matrix-level comparison of Rayleigh quotients and eigenvalue inequalities."
+            },
+            {
+              "source_id": "tao-hermitian-matrix-sums",
+              "reason": "Study min-max proofs and eigenvalue inequalities from a matrix-analysis viewpoint."
+            },
+            {
+              "source_id": "bindel-eigen-perturbation",
+              "reason": "Study concrete perturbation examples and first-order spectral sensitivity."
+            },
+            {
+              "source_id": "bindel-hermitian-svd",
+              "reason": "Review a computational proof of symmetric eigenvalue and singular-value properties."
+            },
+            {
+              "source_id": "bindel-ritz-eigensolvers",
+              "reason": "Follow Rayleigh-Ritz residual orthogonality and the logic of extracting approximate eigenpairs."
+            },
+            {
+              "source_id": "wiki-rayleigh-quotient",
+              "reason": "Extremal eigenvalue characterizations through quadratic forms."
+            },
+            {
+              "source_id": "wiki-courant-minimax",
+              "reason": "The variational min–max formula and the role of competing subspaces."
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,140 +1,43 @@
 # Numerical Analysis and Reliable Computation
 
-The course begins with a question: **what, exactly, can a computed answer certify?** It separates mathematical specification, measurement and model uncertainty, numerical approximation, and arithmetic effects before building practical algorithms.
-
-## Available lectures
-
-- 001000 — When to Trust a Computed Answer: Models, Data, Approximation, and Tolerances
-- 002000 — Small Errors, Large Consequences: Rounding and Error Propagation
-- 003000 — Conditioning: When the Problem Amplifies Small Errors
-- 004000 — Backward Error: Which Nearby Problem Did the Algorithm Solve?
-- 005000 — Finding Roots: Brackets, Newton's Method, and Honest Stopping Rules
-- 006000 — Linear Algebra in Finite Precision: Pivoting, Conditioning, and Residuals
-- 007000 — Convergence and Error Certificates: Knowing When to Stop
-- 008000 — Interpolation: Why More Data Points Can Make an Approximation Worse
-
-Each numbered manuscript has exactly one spoken region between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE`. Exact equations, theorem statements, exercises, and references appear in display-only companions. The numbering intentionally retains the original `002000` lecture without modification.
-
-The `001000` entry is a **new composition**, not recovery of a lost original: no copy was found in the supplied Git history. The catalog lists only present, readable manuscript files. Individual lecture metadata and a track bibliography live under `metadata/`.
-
-This course emphasizes independently checked examples, explicitly scoped guarantees, and the distinction among conditioning, algorithm stability, residuals, and forward error. Further extensions may treat ODE discretization, sparse eigenvalue computation, interval verification, and error-aware scientific workflows when they add conceptual depth.
-
-## Newly completed continuation
-
-- 009000 — [Numerical Integration: Accuracy, Quadrature, and Honest Error Estimates](009000-quadrature-error-and-adaptivity.md)
-
-Lecture lengths in the track manifest are measured, not prescribed. Exact mathematics and references remain in non-spoken companions.
-
-## Further completed lectures
-
-- 010000 — [Iterative Linear Solvers: Residuals, Spectra, and Conjugate Gradients](010000-iterative-linear-solvers-and-residuals.md)
-
-The word counts in `track.json` are descriptive measurements from the canonical extractor, not targets. The mathematical companions and references are outside the spoken region.
-
-## Completed continuation — representations, discrete structure and dynamics
-
-- 011000 — [Euler and Runge–Kutta Methods: Accuracy Is Not Stability](011000-euler-runge-kutta-and-stability.md)
-
-Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.
-
-## Completed continuation — local algebra, geometry and certified computation
-
-- 012000 — [Adaptive Quadrature: Spend Computation Where the Integral Is Difficult](012000-adaptive-quadrature-and-error-estimators.md)
-
-Word counts and narration durations in the manifest are descriptive measurements, not length targets. Exact equations and references remain in non-spoken companions.
-
-## Completed continuation — derived algebra and verified analysis
-
-- 013000 — [Interval Arithmetic: From Plausible Answers to Verified Enclosures](013000-interval-arithmetic-and-verified-enclosures.md)
-
-The manifest's narration measurements are descriptive only; exact mathematics and source records are in the non-spoken companions.
-
-## Completed continuation — structures, stability and sensitivity
-
-- 014000 — [Sparse Eigenvalue Problems: Krylov Spaces, Lanczos, and Arnoldi](014000-sparse-eigenvalues-krylov-lanczos-and-arnoldi.md)
-
-Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.
-
-## Completed continuation — number-theoretic, spectral and dual structures
-
-- 015000 — [Implicit Time Stepping, Newton–Krylov Solvers, and Preconditioning](015000-implicit-stepping-newton-krylov-preconditioning.md)
-
-Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.
-
-## Completed continuation — geometry, combinatorics and computational sensitivity
-
-- 016000 — [Automatic Differentiation and Adjoint Sensitivity](016000-automatic-differentiation-adjoints-and-sensitivity.md)
-
-Word counts and estimated minutes are descriptive metadata, not length requirements. Exact notation, proofs and references accompany the spoken manuscripts.
-
-## Continuation 10: Geometry, discrete structures and rigorous computation
-
-- 017000 — [Validated Integration of Ordinary Differential Equations](017000-validated-integration-of-ordinary-differential-equations.md)
-
-The narration is standalone. Formulae, proofs, exercises and source references are provided in non-spoken companions. Recorded word counts are descriptive, not length requirements.
-
-## Continuation 11: Descent, geometry, and dependable computation
-
-- 018000 — [A Posteriori Error Estimates for Finite Element Solutions](018000-a-posteriori-pde-error-estimates.md)
-
-Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.
-
-## Continuation 12: Algebraic structure, geometry, and computation
-
-- 019000 — [Multigrid and Matrix-Free Preconditioning](019000-multigrid-and-matrix-free-preconditioning.md)
-
-Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
-
-## Continuation 13: Deformation, structure and rigorous computation
-
-- 020000 — [Verified Nonlinear Systems: Interval Newton and Krawczyk Operators](020000-verified-nonlinear-systems-krawczyk-and-interval-newton.md)
-
-Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
-
-## Continuation 14: Derived geometry, combinatorics and rigorous algorithms
-
-- 021000 — [Nonsmooth Sensitivity: What a Derivative Can and Cannot Tell You](021000-nonsmooth-sensitivities-and-algorithmic-derivatives.md)
-
-Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
-
-## Continuation 15: Equilibrated flux and guaranteed PDE error bounds
-
-- 022000 — [Equilibrated Fluxes: A Computable Upper Bound on PDE Error](022000-equilibrated-fluxes-and-guaranteed-error-bounds.md)
-
-Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
-
-## Continuation 16: Arithmetic, geometry, local algorithms and reliable computation
-
-- 023000 — [Anisotropic Multigrid: When the Grid Has a Preferred Direction](023000-anisotropic-multigrid-line-smoothing-and-semicoarsening.md)
-
-The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.
-
-## Continuation 17: Arithmetic completeness, harmonic analysis, geometry and rigorous computation
-
-- 024000 — [Validated Bifurcation Diagrams and Computer-Assisted Proof](024000-validated-bifurcation-diagrams.md)
-
-Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.
-
-## Continuation 18: Arithmetic obstructions, discrete harmonic analysis, gauge topology, and certified dynamics
-
-- 025000 - [Validated Periodic Orbits and Floquet Multipliers](025000-validated-periodic-orbits-and-floquet-multipliers.md)
-
-All narrations are standalone. Precise assumptions, worked derivations, exercises with answers, and references remain outside spoken markers. Recorded length is descriptive, not a policy.
-
-## Continuation 19: arithmetic finiteness, pseudorandomness, symplectic rigidity, and reliable dynamics
-
-- 026000 - [Event-Time Sensitivities and Saltation Matrices](026000-event-time-sensitivities-and-saltation.md)
-
-All narrations stand alone. Derivations, exact assumptions, exercises with answers, and references remain outside spoken markers. Length is set by the material, not a word-count or duration target.
-
-## Continuation 20: Goal-oriented PDE accuracy and dual-weighted residuals
-
-- 027000 — [Goal-Oriented Error Estimation and Dual-Weighted Residuals](027000-goal-oriented-dual-weighted-residual.md)
-
-The spoken manuscripts stand alone. Their mathematical companions preserve exact hypotheses, derivations, exercises with answers, and references. Duration is descriptive, never a content quota.
-
-## Continuation 21: mathematical structure and checkable certificates
-
-- 028000 — [Algebraic Multigrid for Rotated Anisotropy](028000-algebraic-multigrid-for-rotated-anisotropy.md)
-
-These narrations stand alone. The mathematical companions contain exact conventions, derivations, exercises with answers, and source links. Descriptive lengths are not authoring constraints.
+Floating-point arithmetic, conditioning, stability, approximation methods, error bounds, and certification.
+
+The current pack contains **15 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+
+## Listening routes
+
+`track.json` owns the current manuscripts and complete sequence. `navigation.json` selects the guided and deeper routes listed below.
+
+- **Numerical Analysis · Reliable Computation Foundations** (Guided route): `001000`, `002000`, `003000`, `004000`, `005000`, `006000`, `007000`, `008000`, `009000`, `010000`, `011000`.
+- **Numerical Analysis · Sparse Solvers and Preconditioning** (Deep dive): `006000`, `010000`, `014000`, `019000`.
+- **Numerical Analysis · Validated Dynamics and Nonlinear Systems** (Deep dive): `005000`, `007000`, `011000`.
+- **Numerical Analysis · Derivatives, Adjoint Methods, and Events** (Deep dive): `016000`.
+- **Numerical Analysis · PDE Error Certificates** (Deep dive): `018000`.
+
+## Current manuscripts
+
+Durations are measured from the current spoken text at 145 words per minute, before synthesis; they are descriptions, not writing targets.
+
+| ID | Lecture | Approximate minutes |
+|---|---|---:|
+| `001000` | [When to Trust a Computed Answer: Models, Data, Approximation, and Tolerances](001000-when-to-trust-a-computed-answer.md) | 13.8 |
+| `002000` | [Small Errors, Large Consequences: Rounding and Error Propagation](002000-rounding-and-error-propagation.md) | 21.0 |
+| `003000` | [Conditioning: When the Problem Amplifies Small Errors](003000-conditioning-and-sensitivity.md) | 11.9 |
+| `004000` | [Backward Error: Which Nearby Problem Did the Algorithm Solve?](004000-backward-error-and-stability.md) | 11.5 |
+| `005000` | [Finding Roots: Brackets, Newton's Method, and Honest Stopping Rules](005000-roots-brackets-and-newton.md) | 12.0 |
+| `006000` | [Linear Algebra in Finite Precision: Pivoting, Conditioning, and Residuals](006000-linear-algebra-pivoting-and-residuals.md) | 10.8 |
+| `007000` | [Convergence and Error Certificates: Knowing When to Stop](007000-error-budgets-convergence-certificates.md) | 12.7 |
+| `008000` | [Interpolation: Why More Data Points Can Make an Approximation Worse](008000-interpolation-nodes-and-conditioning.md) | 11.2 |
+| `009000` | [Quadrature and adaptive error control](009000-quadrature-and-adaptive-error-control.md) | 18.3 |
+| `010000` | [Iterative Linear Solvers: Residuals, Spectra, and Conjugate Gradients](010000-iterative-linear-solvers-and-residuals.md) | 10.3 |
+| `011000` | [Time stepping, verified enclosures, and validated dynamics](011000-time-stepping-verified-enclosures-and-validated-dynamics.md) | 48.5 |
+| `014000` | [Krylov eigenproblems, implicit time steps, and preconditioning](014000-residuals-krylov-eigenproblems-and-implicit-solves-shared-core.md) | 17.6 |
+| `016000` | [Differentiating algorithms, nonsmooth outputs, and event times](016000-differentiating-algorithms-nonsmooth-outputs-and-event-times.md) | 25.6 |
+| `018000` | [Finite-element error bounds, equilibrated fluxes, and goal functionals](018000-finite-element-error-bounds-equilibrated-fluxes-and-goal-functionals.md) | 22.4 |
+| `019000` | [Multigrid from near-nullspace to anisotropy](019000-multigrid-from-near-nullspace-to-anisotropy.md) | 21.2 |
+
+## Sources and authoring
+
+Per-lecture source records live in `metadata/`; the bibliography is in `metadata/sources.json` when present. Composition lineage and editorial revisions are recorded in per-lecture metadata and `provenance.yaml`. Original arguments and exact companions remain with their consolidated manuscript.
+
+Read [the lecture style rules](../../LECTURE_STYLE_RULES.md) before changing narration. Use the spoken-region markers for extraction; keep raw mathematics, code, and source records in the non-spoken companion. Teaching preparation, proof dependencies, and historical influence are distinct.

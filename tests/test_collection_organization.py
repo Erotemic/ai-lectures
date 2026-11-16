@@ -94,3 +94,17 @@ def test_unindexed_drafts_remain_browsable_outside_collection_order(tmp_path):
         assert snapshot["courses"][0]["lectures"] == []
         assert snapshot["lectures"][0]["categories"] == ["Mathematics"]
         assert snapshot["lectures"][0]["id"] == "analysis:001000"
+
+
+def test_focused_short_format_reason_is_available_without_loading_the_manuscript(tmp_path):
+    folder = tmp_path / 'content' / 'sample'
+    folder.mkdir(parents=True)
+    (folder / '001000-example.md').write_text('# A focused example\n<!-- BEGIN SPOKEN LECTURE -->\nAn independent calculation.\n<!-- END SPOKEN LECTURE -->\n')
+    (folder / 'track.json').write_text(json.dumps(dict(id='sample', title='Sample', lectures=[dict(id='001000', file='001000-example.md')])))
+    (folder / 'metadata').mkdir()
+    reason = 'A focused calculation with a distinct subject.'
+    (folder / 'metadata/001000.json').write_text(json.dumps(dict(short_format_reason=reason)))
+    with TestClient(create_app(tmp_path / 'library', repository=tmp_path)) as client:
+        row = client.get('/api/library/catalog').json()['lectures'][0]
+        assert row['short_format_reason'] == reason
+        assert 'metadata' not in row and 'transcript' not in row

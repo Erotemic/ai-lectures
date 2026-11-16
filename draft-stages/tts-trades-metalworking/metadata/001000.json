@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "001000",
-  "transcript": "001000-metal-is-not-one-material.md",
+  "transcript": "001000-specify-material-geometry-and-acceptance.md",
   "related_resources": [
     {
       "source_id": "osha-welding",
@@ -10,6 +10,42 @@
     {
       "source_id": "osha-fact",
       "reason": "Distinction between SMAW, GMAW, GTAW and brazing"
+    },
+    {
+      "source_id": "asm-steel",
+      "reason": "Iron-carbon transformations, quenching and tempering"
+    },
+    {
+      "source_id": "asm-anneal",
+      "reason": "Recovery, recrystallization, grain growth and annealing processes"
+    },
+    {
+      "source_id": "asme-y145-2018",
+      "reason": "Geometric specification of part size, location, form, orientation, and datum relationships"
+    },
+    {
+      "source_id": "osha-mwf",
+      "reason": "Tool/workpiece heat, chip removal, cooling and lubrication of machining operations"
+    },
+    {
+      "source_id": "iso-fastener-grade",
+      "reason": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed"
+    },
+    {
+      "source_id": "nist-metrology-uncertainty",
+      "reason": "Meaning of measurement process and uncertainty"
+    },
+    {
+      "source_id": "aws-a24-2020-preview21",
+      "reason": "Weld symbol versus welding symbol, reference-line and arrow-side conventions"
+    },
+    {
+      "source_id": "aws-thurow-2025-symbols21",
+      "reason": "Correct arrow-side/other-side interpretation; ambiguous details"
+    },
+    {
+      "source_id": "aws-b111-visual",
+      "reason": "Visual examination stages, weld surface discontinuities, equipment and prerequisites; full standard may require purchase"
     }
   ],
   "historical_claims": [],
@@ -63,8 +99,688 @@
       "verification_level": "public_source_identified_editorial_check_pending",
       "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
       "professional_review": "pending"
+    },
+    {
+      "claim_id": "P002000-01",
+      "claim": "Steel microstructure and properties change through austenitization, quenching and tempering.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "asm-steel",
+          "location": "ASM steel heat treatment summary",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-02",
+      "claim": "Annealing may include recovery, recrystallization and grain growth.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "asm-anneal",
+          "location": "ASM annealing chapter abstract",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-03",
+      "claim": "Composition and thermal history affect hardening response.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "asm-steel",
+          "location": "ASM transformation and processing background",
+          "role": "reference"
+        },
+        {
+          "source_id": "asm-anneal",
+          "location": "ASM transformation and processing background",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P011000-01",
+      "claim": "Dimension limits for two mating features jointly determine possible clearance or interference.",
+      "kind": "derived_dimensional_analysis",
+      "supports": [
+        {
+          "source_id": "asme-y145-2018",
+          "location": "Dimensioning and tolerancing for function and fit",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Geometric tolerancing specifies form, orientation and location, not only upper and lower size limits.",
+      "kind": "original_asme_standard_overview",
+      "supports": [
+        {
+          "source_id": "asme-y145-2018",
+          "location": "GD&T and datum controls",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "A surface can satisfy roughness criteria while failing flatness or size constraints.",
+      "kind": "derived_metrology_distinction",
+      "supports": [
+        {
+          "source_id": "asme-y145-2018",
+          "location": "Form and location distinct from size",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-mwf",
+          "location": "Machining process context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Fit inspection must consider the method and uncertainty, rather than the display resolution alone.",
+      "kind": "derived_metrology_synthesis",
+      "supports": [
+        {
+          "source_id": "asme-y145-2018",
+          "location": "Specified geometry and controls",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "iso-fastener-grade",
+          "location": "Practical standards and tolerances context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-01",
+      "claim": "Size, form and location tolerances express distinct requirements for mating features.",
+      "kind": "original_asme_dimensioning_standard_description",
+      "supports": [
+        {
+          "source_id": "asme-y145-2018",
+          "location": "Geometric specification of part size, location, form, orientation, and datum relationships",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Metrology must account for measured quantity, reference and measurement uncertainty.",
+      "kind": "original_nist_metrology_definition",
+      "supports": [
+        {
+          "source_id": "nist-metrology-uncertainty",
+          "location": "Meaning of measurement process and uncertainty",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Runout and local dimensions must be interpreted relative to the chosen support and datum.",
+      "kind": "derived_workshop_inspection_synthesis",
+      "supports": [
+        {
+          "source_id": "asme-y145-2018",
+          "location": "Geometric specification of part size, location, form, orientation, and datum relationships",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-metrology-uncertainty",
+          "location": "Meaning of measurement process and uncertainty",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-01",
+      "claim": "AWS A2.4 separates basic weld symbols from the complete welding-symbol instruction.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aws-a24-2020-preview21",
+          "location": "Weld symbol versus welding symbol, reference-line and arrow-side conventions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-02",
+      "claim": "Under AWS conventions, a symbol below the reference line indicates the arrow side where side significance applies.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aws-a24-2020-preview21",
+          "location": "Weld symbol versus welding symbol, reference-line and arrow-side conventions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aws-thurow-2025-symbols21",
+          "location": "Correct arrow-side/other-side interpretation; ambiguous details",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-03",
+      "claim": "Symbols, dimensions and notes jointly define intended weld type, extent and location.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aws-a24-2020-preview21",
+          "location": "Weld symbol versus welding symbol, reference-line and arrow-side conventions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-04",
+      "claim": "Visual inspection cannot alone verify all subsurface weld characteristics or hidden fusion.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aws-b111-visual",
+          "location": "Visual examination stages, weld surface discontinuities, equipment and prerequisites; full standard may require purchase",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "educational_draft_sources_recorded_not_field_validated",
-  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "trades-metalworking:001000",
+        "file": "001000-metal-is-not-one-material.md",
+        "sha256": "ab44e87ea7229c082cb1271a1ba284218e657f60a69a6e79bfcd95bf19f420f5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "001000",
+          "transcript": "001000-metal-is-not-one-material.md",
+          "related_resources": [
+            {
+              "source_id": "osha-welding",
+              "reason": "Fumes, ultraviolet radiation, burns, electric shock and protective controls"
+            },
+            {
+              "source_id": "osha-fact",
+              "reason": "Distinction between SMAW, GMAW, GTAW and brazing"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P001000-01",
+              "claim": "Welding can expose workers to metal fumes and radiation",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "osha-welding",
+                  "location": "Fumes, ultraviolet radiation, burns, electric shock and protective controls",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "osha-fact",
+                  "location": "Distinction between SMAW, GMAW, GTAW and brazing",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-02",
+              "claim": "Arc welding processes differ in consumables and shielding",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "osha-fact",
+                  "location": "Distinction between SMAW, GMAW, GTAW and brazing",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            },
+            {
+              "claim_id": "P001000-03",
+              "claim": "Metalworking requires process- and material-specific hazard controls",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "osha-welding",
+                  "location": "Fumes, ultraviolet radiation, burns, electric shock and protective controls",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "public_source_identified_editorial_check_pending",
+              "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+              "professional_review": "pending"
+            }
+          ],
+          "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+          "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+        }
+      },
+      {
+        "id": "trades-metalworking:002000",
+        "file": "002000-alloy-families-microstructure-and-heat-treatment.md",
+        "sha256": "8529431a7907970656457a8765b82d18acee18f2cd07721eca26102360e28060",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "002000",
+          "transcript": "002000-alloy-families-microstructure-and-heat-treatment.md",
+          "related_resources": [
+            {
+              "source_id": "asm-steel",
+              "reason": "Iron-carbon transformations, quenching and tempering"
+            },
+            {
+              "source_id": "asm-anneal",
+              "reason": "Recovery, recrystallization, grain growth and annealing processes"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P002000-01",
+              "claim": "Steel microstructure and properties change through austenitization, quenching and tempering.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "asm-steel",
+                  "location": "ASM steel heat treatment summary",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-02",
+              "claim": "Annealing may include recovery, recrystallization and grain growth.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "asm-anneal",
+                  "location": "ASM annealing chapter abstract",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            },
+            {
+              "claim_id": "P002000-03",
+              "claim": "Composition and thermal history affect hardening response.",
+              "kind": "underlying_physics_or_field_practice",
+              "supports": [
+                {
+                  "source_id": "asm-steel",
+                  "location": "ASM transformation and processing background",
+                  "role": "reference"
+                },
+                {
+                  "source_id": "asm-anneal",
+                  "location": "ASM transformation and processing background",
+                  "role": "reference"
+                }
+              ],
+              "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+              "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+              "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+        }
+      },
+      {
+        "id": "trades-metalworking:011000",
+        "file": "011000-machining-tolerances-fits-and-surface-finish.md",
+        "sha256": "76f8d72a708cc462f285e8a1985896b63aea053669646042e1750447b404f26d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "011000",
+          "transcript": "011000-machining-tolerances-fits-and-surface-finish.md",
+          "related_resources": [
+            {
+              "source_id": "asme-y145-2018",
+              "reason": "Geometric specification of part size, location, form, orientation, and datum relationships"
+            },
+            {
+              "source_id": "osha-mwf",
+              "reason": "Tool/workpiece heat, chip removal, cooling and lubrication of machining operations"
+            },
+            {
+              "source_id": "iso-fastener-grade",
+              "reason": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P011000-01",
+              "claim": "Dimension limits for two mating features jointly determine possible clearance or interference.",
+              "kind": "derived_dimensional_analysis",
+              "supports": [
+                {
+                  "source_id": "asme-y145-2018",
+                  "location": "Dimensioning and tolerancing for function and fit",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-02",
+              "claim": "Geometric tolerancing specifies form, orientation and location, not only upper and lower size limits.",
+              "kind": "original_asme_standard_overview",
+              "supports": [
+                {
+                  "source_id": "asme-y145-2018",
+                  "location": "GD&T and datum controls",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source context and design/application; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-03",
+              "claim": "A surface can satisfy roughness criteria while failing flatness or size constraints.",
+              "kind": "derived_metrology_distinction",
+              "supports": [
+                {
+                  "source_id": "asme-y145-2018",
+                  "location": "Form and location distinct from size",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "osha-mwf",
+                  "location": "Machining process context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P011000-04",
+              "claim": "Fit inspection must consider the method and uncertainty, rather than the display resolution alone.",
+              "kind": "derived_metrology_synthesis",
+              "supports": [
+                {
+                  "source_id": "asme-y145-2018",
+                  "location": "Specified geometry and controls",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "iso-fastener-grade",
+                  "location": "Practical standards and tolerances context",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "trades-metalworking:012000",
+        "file": "012000-practical-metrology-indicators-gauges-and-inspection-plans.md",
+        "sha256": "21a8c71b16c23a023d00245f41d53a14e966685cc17eccb8742a77b45e733292",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-practical-metrology-indicators-gauges-and-inspection-plans.md",
+          "related_resources": [
+            {
+              "source_id": "asme-y145-2018",
+              "reason": "Geometric specification of part size, location, form, orientation, and datum relationships"
+            },
+            {
+              "source_id": "nist-metrology-uncertainty",
+              "reason": "Meaning of measurement process and uncertainty"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P012000-01",
+              "claim": "Size, form and location tolerances express distinct requirements for mating features.",
+              "kind": "original_asme_dimensioning_standard_description",
+              "supports": [
+                {
+                  "source_id": "asme-y145-2018",
+                  "location": "Geometric specification of part size, location, form, orientation, and datum relationships",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-02",
+              "claim": "Metrology must account for measured quantity, reference and measurement uncertainty.",
+              "kind": "original_nist_metrology_definition",
+              "supports": [
+                {
+                  "source_id": "nist-metrology-uncertainty",
+                  "location": "Meaning of measurement process and uncertainty",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-03",
+              "claim": "Runout and local dimensions must be interpreted relative to the chosen support and datum.",
+              "kind": "derived_workshop_inspection_synthesis",
+              "supports": [
+                {
+                  "source_id": "asme-y145-2018",
+                  "location": "Geometric specification of part size, location, form, orientation, and datum relationships",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nist-metrology-uncertainty",
+                  "location": "Meaning of measurement process and uncertainty",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "trades-metalworking:021000",
+        "file": "021000-reading-weld-symbols-fit-up-notes-and-fabrication-drawings.md",
+        "sha256": "34ed0f54c2820c6808d60c182d31802ad901abe0f1e668898dcfb748c8f29bb2",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "021000",
+          "transcript": "021000-reading-weld-symbols-fit-up-notes-and-fabrication-drawings.md",
+          "related_resources": [
+            {
+              "source_id": "aws-a24-2020-preview21",
+              "reason": "Weld symbol versus welding symbol, reference-line and arrow-side conventions"
+            },
+            {
+              "source_id": "aws-thurow-2025-symbols21",
+              "reason": "Correct arrow-side/other-side interpretation; ambiguous details"
+            },
+            {
+              "source_id": "aws-b111-visual",
+              "reason": "Visual examination stages, weld surface discontinuities, equipment and prerequisites; full standard may require purchase"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P021000-01",
+              "claim": "AWS A2.4 separates basic weld symbols from the complete welding-symbol instruction.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aws-a24-2020-preview21",
+                  "location": "Weld symbol versus welding symbol, reference-line and arrow-side conventions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-02",
+              "claim": "Under AWS conventions, a symbol below the reference line indicates the arrow side where side significance applies.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aws-a24-2020-preview21",
+                  "location": "Weld symbol versus welding symbol, reference-line and arrow-side conventions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "aws-thurow-2025-symbols21",
+                  "location": "Correct arrow-side/other-side interpretation; ambiguous details",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-03",
+              "claim": "Symbols, dimensions and notes jointly define intended weld type, extent and location.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aws-a24-2020-preview21",
+                  "location": "Weld symbol versus welding symbol, reference-line and arrow-side conventions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P021000-04",
+              "claim": "Visual inspection cannot alone verify all subsurface weld characteristics or hidden fusion.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "aws-b111-visual",
+                  "location": "Visual examination stages, weld surface discontinuities, equipment and prerequisites; full standard may require purchase",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+              "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_independent_technical_or_clinical_review_pending",
+          "citation_policy": "Credit original authors and standards issuers; cite educational synthesis accurately. No engineering, clinical, or jurisdictional certification is claimed."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "001000-specify-material-geometry-and-acceptance.md"
+      ],
+      "joined_before_source_parts": [
+        "002000",
+        "012000",
+        "021000"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "007000",
-  "transcript": "007000-semidefinite-programming-and-certificates.md",
+  "transcript": "007000-conic-optimization-matrix-inequalities-barriers-and-verified-witnesses.md",
   "related_resources": [
     {
       "source_id": "od-boyd",
@@ -10,7 +10,125 @@
     {
       "source_id": "od-sdp",
       "reason": "Semidefinite programming and matrix dual certificates."
+    },
+    {
+      "source_id": "od-boyd",
+      "reason": "Conic duality, Slater and weak/strong duality."
+    },
+    {
+      "source_id": "od-sdp",
+      "reason": "Positive semidefinite cone and matrix complementarity."
+    },
+    {
+      "source_id": "od-scs",
+      "reason": "Primal-dual conic formulation and numerical certificates."
+    },
+    {
+      "source_id": "od-boyd",
+      "reason": "Barrier central path, self-concordance, primal-dual Newton equations and convergence."
+    },
+    {
+      "source_id": "od-boyd",
+      "reason": "Primal/dual feasibility, weak duality, suboptimality certificates."
+    },
+    {
+      "source_id": "od-jump-tolerances",
+      "reason": "Solver feasibility tolerances and numerical interpretability."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "optimization-duality:007000",
+        "file": "007000-semidefinite-programming-and-certificates.md",
+        "sha256": "de4be705713f9de44dea6af6106915632359b74bce0b4c3e1ee0be7613db349b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "007000",
+          "transcript": "007000-semidefinite-programming-and-certificates.md",
+          "related_resources": [
+            {
+              "source_id": "od-boyd",
+              "reason": "Positive semidefinite cones, primal-dual theory and optimality."
+            },
+            {
+              "source_id": "od-sdp",
+              "reason": "Semidefinite programming and matrix dual certificates."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "optimization-duality:012000",
+        "file": "012000-conic-duality-and-strict-feasibility.md",
+        "sha256": "aca52aee1619fe2672ec29c1f7ac0e036ca7bee33acec0c2e0c634e02e40cc5a",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-conic-duality-and-strict-feasibility.md",
+          "related_resources": [
+            {
+              "source_id": "od-boyd",
+              "reason": "Conic duality, Slater and weak/strong duality."
+            },
+            {
+              "source_id": "od-sdp",
+              "reason": "Positive semidefinite cone and matrix complementarity."
+            },
+            {
+              "source_id": "od-scs",
+              "reason": "Primal-dual conic formulation and numerical certificates."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "optimization-duality:010000",
+        "file": "010000-interior-point-methods-central-paths-and-barriers.md",
+        "sha256": "61861cb1a1ee5c6600d04ca6305e6b053f4c9894e0b472a8ea837e0b226ca44d",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-interior-point-methods-central-paths-and-barriers.md",
+          "related_resources": [
+            {
+              "source_id": "od-boyd",
+              "reason": "Barrier central path, self-concordance, primal-dual Newton equations and convergence."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "optimization-duality:009000",
+        "file": "009000-verifiable-optimality-certificates-and-numerical-error.md",
+        "sha256": "e9c61b8470dbdcdf5a0d25572671ee8d57f49f5512526eba8809b69a43a77d57",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-verifiable-optimality-certificates-and-numerical-error.md",
+          "related_resources": [
+            {
+              "source_id": "od-boyd",
+              "reason": "Primal/dual feasibility, weak duality, suboptimality certificates."
+            },
+            {
+              "source_id": "od-jump-tolerances",
+              "reason": "Solver feasibility tolerances and numerical interpretability."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

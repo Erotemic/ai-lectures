@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "012000",
-  "transcript": "012000-choosing-plants-for-microclimate-soil-and-maintenance.md",
+  "transcript": "012000-choose-plants-and-establish-their-root-zones.md",
   "related_resources": [
     {
       "source_id": "uf-ifas-right-plant",
@@ -14,6 +14,42 @@
     {
       "source_id": "umn-tree-planting-2025",
       "reason": "Root flare, wide planting hole, circling and girdling roots"
+    },
+    {
+      "source_id": "umn-seed-starting",
+      "reason": "Medium temperature, watering, seedling light and growing conditions"
+    },
+    {
+      "source_id": "uf-transplants",
+      "reason": "Indoor light direction, leggy growth and transplants"
+    },
+    {
+      "source_id": "umn-new-tree-mulching",
+      "reason": "Mulch placement, trunk clearance and water during establishment"
+    },
+    {
+      "source_id": "nrcs-water",
+      "reason": "Infiltration, retention and structure"
+    },
+    {
+      "source_id": "umn-raised-bed-gardens",
+      "reason": "Topsoil and compost mixes, over-rich compost risks and raised-bed planning"
+    },
+    {
+      "source_id": "nrcs-compaction",
+      "reason": "Soil pores, reduced infiltration and root restrictions"
+    },
+    {
+      "source_id": "cornell-compost-quality",
+      "reason": "Compost mix C:N guidance, microbial carbon consumption and maturity"
+    },
+    {
+      "source_id": "umn-soil-organic-matter",
+      "reason": "High-C:N residues and microbial immobilization versus mineralization"
+    },
+    {
+      "source_id": "cornell-albany-soil-sample",
+      "reason": "Representative mixed sampling, contrasting problem areas, recording site/crop history and laboratory interpretation"
     }
   ],
   "historical_claims": [],
@@ -72,8 +108,768 @@
       "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
       "limits": "Explanatory synthesis; claims are not independently certified.",
       "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-01",
+      "claim": "Seedling germination and growth depend on medium temperature, water and suitable rooting conditions.",
+      "kind": "original_university_extension_guidance",
+      "supports": [
+        {
+          "source_id": "umn-seed-starting",
+          "location": "Temperature and moist rooting-medium guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Insufficient or strongly directional light can lead to weak, elongated seedlings.",
+      "kind": "original_university_extension_guidance",
+      "supports": [
+        {
+          "source_id": "uf-transplants",
+          "location": "Windowsill light and leggy seedlings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Successful transplanting requires a transition between protected growing conditions and outdoor exposure.",
+      "kind": "derived_horticulture_practice",
+      "supports": [
+        {
+          "source_id": "umn-seed-starting",
+          "location": "Indoor establishment conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "uf-transplants",
+          "location": "Transition to outdoor planting conditions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-01",
+      "claim": "Tree root-flare depth and root circling can affect long-term tree establishment and health.",
+      "kind": "original_university_extension_tree_guidance",
+      "supports": [
+        {
+          "source_id": "umn-tree-planting-2025",
+          "location": "Root flare and circling/girdling roots",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-02",
+      "claim": "Planting holes should emphasize correct root-ball depth and lateral root access rather than extra depth.",
+      "kind": "original_university_extension_planting_mechanism",
+      "supports": [
+        {
+          "source_id": "umn-tree-planting-2025",
+          "location": "Planting hole geometry",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-03",
+      "claim": "Broad organic mulch reduces turf competition and evaporative losses but should not contact the trunk.",
+      "kind": "original_university_extension_mulching",
+      "supports": [
+        {
+          "source_id": "umn-new-tree-mulching",
+          "location": "Mulch ring and root-flare clearance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P010000-04",
+      "claim": "Watering decisions depend on site conditions and root establishment, not a universal calendar.",
+      "kind": "derived_horticulture_water_management",
+      "supports": [
+        {
+          "source_id": "umn-new-tree-mulching",
+          "location": "Soil moisture and establishment water needs",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nrcs-water",
+          "location": "Soil and water movement",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-01",
+      "claim": "Raised-bed soil media require mineral particles, organic matter and air-water pore structure, not simply maximum compost.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "umn-raised-bed-gardens",
+          "location": "Topsoil and compost mixes, over-rich compost risks and raised-bed planning",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cornell-compost-quality",
+          "location": "Compost mix C:N guidance, microbial carbon consumption and maturity",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-02",
+      "claim": "Compaction reduces root access to water and air and changes infiltration.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nrcs-compaction",
+          "location": "Soil pores, reduced infiltration and root restrictions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nrcs-water",
+          "location": "Infiltration, retention and structure",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-03",
+      "claim": "Open-bottom beds depend on the native soil and drainage boundary beneath the frame.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "umn-raised-bed-gardens",
+          "location": "Topsoil and compost mixes, over-rich compost risks and raised-bed planning",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nrcs-water",
+          "location": "Infiltration, retention and structure",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P015000-04",
+      "claim": "Soil mixing and irrigation should reflect measured site and crop requirements.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "umn-raised-bed-gardens",
+          "location": "Topsoil and compost mixes, over-rich compost risks and raised-bed planning",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cornell-compost-quality",
+          "location": "Compost mix C:N guidance, microbial carbon consumption and maturity",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-01",
+      "claim": "Compost quality and nutrient content vary with the source and production method.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cornell-compost-quality",
+          "location": "Compost mix C:N guidance, microbial carbon consumption and maturity",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Repeated amendments change soil nutrient status as well as organic-matter properties.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cornell-compost-quality",
+          "location": "Compost mix C:N guidance, microbial carbon consumption and maturity",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "umn-soil-organic-matter",
+          "location": "High-C:N residues and microbial immobilization versus mineralization",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Representative soil tests need multiple subsamples and separate treatment of atypical areas.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cornell-albany-soil-sample",
+          "location": "Representative mixed sampling, contrasting problem areas, recording site/crop history and laboratory interpretation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Poor plant growth can arise from water, root, and soil structure constraints rather than nutrient deficiency alone.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nrcs-water",
+          "location": "Infiltration, retention and structure",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "umn-soil-organic-matter",
+          "location": "High-C:N residues and microbial immobilization versus mineralization",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
     }
   ],
   "editorial_status": "substantive_educational_draft_technical_review_pending",
-  "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+  "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied.",
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "practical-gardening:012000",
+        "file": "012000-choosing-plants-for-microclimate-soil-and-maintenance.md",
+        "sha256": "fe65931a8c3e2cbb446f367dbc2d606913ec61649b1a4d7a8865961a8a750f3c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "012000",
+          "transcript": "012000-choosing-plants-for-microclimate-soil-and-maintenance.md",
+          "related_resources": [
+            {
+              "source_id": "uf-ifas-right-plant",
+              "reason": "Microclimate, soil, moisture, light and plant siting"
+            },
+            {
+              "source_id": "nrcs-agronomy-manual",
+              "reason": "Water potential, field capacity, and permanent wilting point"
+            },
+            {
+              "source_id": "umn-tree-planting-2025",
+              "reason": "Root flare, wide planting hole, circling and girdling roots"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P012000-01",
+              "claim": "Light, drainage, soil conditions and microclimate materially influence which plants suit a site.",
+              "kind": "original_university_extension_guidance",
+              "supports": [
+                {
+                  "source_id": "uf-ifas-right-plant",
+                  "location": "Microclimate, soil, moisture, light and plant siting",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-02",
+              "claim": "Plants selected for the site's existing soil and moisture regime can reduce artificial maintenance needs.",
+              "kind": "original_university_extension_guidance",
+              "supports": [
+                {
+                  "source_id": "uf-ifas-right-plant",
+                  "location": "Microclimate, soil, moisture, light and plant siting",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nrcs-agronomy-manual",
+                  "location": "Water potential, field capacity, and permanent wilting point",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P012000-03",
+              "claim": "Plant establishment requirements can differ from requirements after roots become well established.",
+              "kind": "derived_horticultural_synthesis",
+              "supports": [
+                {
+                  "source_id": "uf-ifas-right-plant",
+                  "location": "Microclimate, soil, moisture, light and plant siting",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "umn-tree-planting-2025",
+                  "location": "Root flare, wide planting hole, circling and girdling roots",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; claims are not independently certified.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+        }
+      },
+      {
+        "id": "practical-gardening:009000",
+        "file": "009000-seed-starting-transplanting-and-establishment.md",
+        "sha256": "a2788bc6b1463cf602f3fe40d624f101bd316a3ede1438734e932a01696a4268",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "009000",
+          "transcript": "009000-seed-starting-transplanting-and-establishment.md",
+          "related_resources": [
+            {
+              "source_id": "umn-seed-starting",
+              "reason": "Medium temperature, watering, seedling light and growing conditions"
+            },
+            {
+              "source_id": "uf-transplants",
+              "reason": "Indoor light direction, leggy growth and transplants"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P009000-01",
+              "claim": "Seedling germination and growth depend on medium temperature, water and suitable rooting conditions.",
+              "kind": "original_university_extension_guidance",
+              "supports": [
+                {
+                  "source_id": "umn-seed-starting",
+                  "location": "Temperature and moist rooting-medium guidance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-02",
+              "claim": "Insufficient or strongly directional light can lead to weak, elongated seedlings.",
+              "kind": "original_university_extension_guidance",
+              "supports": [
+                {
+                  "source_id": "uf-transplants",
+                  "location": "Windowsill light and leggy seedlings",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to cited source; context and local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P009000-03",
+              "claim": "Successful transplanting requires a transition between protected growing conditions and outdoor exposure.",
+              "kind": "derived_horticulture_practice",
+              "supports": [
+                {
+                  "source_id": "umn-seed-starting",
+                  "location": "Indoor establishment conditions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "uf-transplants",
+                  "location": "Transition to outdoor planting conditions",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+        }
+      },
+      {
+        "id": "practical-gardening:010000",
+        "file": "010000-tree-planting-mulching-and-root-zones.md",
+        "sha256": "8f82affa47181a57bb9a3981fd0403681a36c46f145e49ecf6553afb1a35c067",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "010000",
+          "transcript": "010000-tree-planting-mulching-and-root-zones.md",
+          "related_resources": [
+            {
+              "source_id": "umn-tree-planting-2025",
+              "reason": "Root flare, wide planting hole, circling and girdling roots"
+            },
+            {
+              "source_id": "umn-new-tree-mulching",
+              "reason": "Mulch placement, trunk clearance and water during establishment"
+            },
+            {
+              "source_id": "nrcs-water",
+              "reason": "Infiltration, retention and structure"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P010000-01",
+              "claim": "Tree root-flare depth and root circling can affect long-term tree establishment and health.",
+              "kind": "original_university_extension_tree_guidance",
+              "supports": [
+                {
+                  "source_id": "umn-tree-planting-2025",
+                  "location": "Root flare and circling/girdling roots",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-02",
+              "claim": "Planting holes should emphasize correct root-ball depth and lateral root access rather than extra depth.",
+              "kind": "original_university_extension_planting_mechanism",
+              "supports": [
+                {
+                  "source_id": "umn-tree-planting-2025",
+                  "location": "Planting hole geometry",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-03",
+              "claim": "Broad organic mulch reduces turf competition and evaporative losses but should not contact the trunk.",
+              "kind": "original_university_extension_mulching",
+              "supports": [
+                {
+                  "source_id": "umn-new-tree-mulching",
+                  "location": "Mulch ring and root-flare clearance",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Claim limited to the indicated source sections and their scope; local requirements may differ.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P010000-04",
+              "claim": "Watering decisions depend on site conditions and root establishment, not a universal calendar.",
+              "kind": "derived_horticulture_water_management",
+              "supports": [
+                {
+                  "source_id": "umn-new-tree-mulching",
+                  "location": "Soil moisture and establishment water needs",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nrcs-water",
+                  "location": "Soil and water movement",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+              "limits": "Derived explanatory synthesis; cited sources support mechanisms, not a certification.",
+              "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers named; synthesis distinguished from source-backed claims; clinical, technical and jurisdictional adoption reviews not implied."
+        }
+      },
+      {
+        "id": "practical-gardening:015000",
+        "file": "015000-raised-beds-and-soil-mixes-engineering-the-root-zone.md",
+        "sha256": "e042a3a52ea192ee0dc066b56a513bac51cedeb46f2b660b2ab6b1f070cf08a5",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "015000",
+          "transcript": "015000-raised-beds-and-soil-mixes-engineering-the-root-zone.md",
+          "related_resources": [
+            {
+              "source_id": "umn-raised-bed-gardens",
+              "reason": "Topsoil and compost mixes, over-rich compost risks and raised-bed planning"
+            },
+            {
+              "source_id": "nrcs-compaction",
+              "reason": "Soil pores, reduced infiltration and root restrictions"
+            },
+            {
+              "source_id": "nrcs-water",
+              "reason": "Infiltration, retention and structure"
+            },
+            {
+              "source_id": "cornell-compost-quality",
+              "reason": "Compost mix C:N guidance, microbial carbon consumption and maturity"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P015000-01",
+              "claim": "Raised-bed soil media require mineral particles, organic matter and air-water pore structure, not simply maximum compost.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "umn-raised-bed-gardens",
+                  "location": "Topsoil and compost mixes, over-rich compost risks and raised-bed planning",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cornell-compost-quality",
+                  "location": "Compost mix C:N guidance, microbial carbon consumption and maturity",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-02",
+              "claim": "Compaction reduces root access to water and air and changes infiltration.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "nrcs-compaction",
+                  "location": "Soil pores, reduced infiltration and root restrictions",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nrcs-water",
+                  "location": "Infiltration, retention and structure",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Claim limited to source scope, equipment specifics, and adopted requirements.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-03",
+              "claim": "Open-bottom beds depend on the native soil and drainage boundary beneath the frame.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "umn-raised-bed-gardens",
+                  "location": "Topsoil and compost mixes, over-rich compost risks and raised-bed planning",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "nrcs-water",
+                  "location": "Infiltration, retention and structure",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P015000-04",
+              "claim": "Soil mixing and irrigation should reflect measured site and crop requirements.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "umn-raised-bed-gardens",
+                  "location": "Topsoil and compost mixes, over-rich compost risks and raised-bed planning",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "cornell-compost-quality",
+                  "location": "Compost mix C:N guidance, microbial carbon consumption and maturity",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational inference supported by cited background; no source independently certifies the full synthesis.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      },
+      {
+        "id": "practical-gardening:017000",
+        "file": "017000-compost-application-and-nutrient-deficiency-testing.md",
+        "sha256": "edc59808ae8e7e302c6db084db78caa3534f668605af972e9f5db959ec1ff6d4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "017000",
+          "transcript": "017000-compost-application-and-nutrient-deficiency-testing.md",
+          "related_resources": [
+            {
+              "source_id": "cornell-compost-quality",
+              "reason": "Compost mix C:N guidance, microbial carbon consumption and maturity"
+            },
+            {
+              "source_id": "umn-soil-organic-matter",
+              "reason": "High-C:N residues and microbial immobilization versus mineralization"
+            },
+            {
+              "source_id": "cornell-albany-soil-sample",
+              "reason": "Representative mixed sampling, contrasting problem areas, recording site/crop history and laboratory interpretation"
+            },
+            {
+              "source_id": "nrcs-water",
+              "reason": "Infiltration, retention and structure"
+            }
+          ],
+          "historical_claims": [],
+          "evidence_claims": [
+            {
+              "claim_id": "P017000-01",
+              "claim": "Compost quality and nutrient content vary with the source and production method.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cornell-compost-quality",
+                  "location": "Compost mix C:N guidance, microbial carbon consumption and maturity",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-02",
+              "claim": "Repeated amendments change soil nutrient status as well as organic-matter properties.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cornell-compost-quality",
+                  "location": "Compost mix C:N guidance, microbial carbon consumption and maturity",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "umn-soil-organic-matter",
+                  "location": "High-C:N residues and microbial immobilization versus mineralization",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-03",
+              "claim": "Representative soil tests need multiple subsamples and separate treatment of atypical areas.",
+              "kind": "publisher_source_grounded_claim",
+              "supports": [
+                {
+                  "source_id": "cornell-albany-soil-sample",
+                  "location": "Representative mixed sampling, contrasting problem areas, recording site/crop history and laboratory interpretation",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            },
+            {
+              "claim_id": "P017000-04",
+              "claim": "Poor plant growth can arise from water, root, and soil structure constraints rather than nutrient deficiency alone.",
+              "kind": "derived_explanatory_synthesis",
+              "supports": [
+                {
+                  "source_id": "nrcs-water",
+                  "location": "Infiltration, retention and structure",
+                  "role": "source_reference"
+                },
+                {
+                  "source_id": "umn-soil-organic-matter",
+                  "location": "High-C:N residues and microbial immobilization versus mineralization",
+                  "role": "source_reference"
+                }
+              ],
+              "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+              "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+              "professional_review": "subject_matter_review_required_for_consequential_application"
+            }
+          ],
+          "editorial_status": "substantive_educational_draft_technical_review_pending",
+          "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+        }
+      }
+    ]
+  },
+  "editorial_revisions": [
+    {
+      "date": "2026-11-16",
+      "models": [
+        "GPT-6 (exact variant unavailable)"
+      ],
+      "scope": "Editorial seam review: connect existing source sections and scope inherited part-level framing; no new technical or safety guidance.",
+      "sources": [
+        "012000-choose-plants-and-establish-their-root-zones.md"
+      ],
+      "joined_before_source_parts": [
+        "009000",
+        "017000"
+      ]
+    }
+  ]
 }

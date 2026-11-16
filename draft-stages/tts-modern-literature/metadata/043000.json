@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "043000",
-  "transcript": "043000-borges-story-tlon.md",
+  "transcript": "043000-ficciones-i-invented-worlds-authors-dreams-chance-libraries-and-paths.md",
   "related_resources": [
     {
       "source_id": "ml-borges-buffalo",
@@ -14,6 +14,26 @@
     {
       "source_id": "ml-borges-oxford",
       "reason": "Accessible abstract describes transformative reception by postwar writers, poststructuralist/postmodern appropriation and later contextual scholarship. Does not establish particular influence without a further source."
+    },
+    {
+      "source_id": "ml-borges-fiddian",
+      "reason": "Open article on 1939 Sur publication, fictional critic, authorship, war setting, Cervantine precursor, and history of criticism. Interpretive proposals remain proposals."
+    },
+    {
+      "source_id": "ml-borges-oeis",
+      "reason": "Gives alphabet of 25 signs, 410 pages, 40 lines/page, 80 signs/line, 25^(1,312,000) distinct full-length volumes; distinct texts finite despite spatially infinite gallery possibility."
+    },
+    {
+      "source_id": "ml-borges-spark-garden",
+      "reason": "Secondary summary of Yu Tsun, Madden, Stephen Albert, Tsui Pen, motive, murder and coded newspaper message; check interpretation separately."
+    },
+    {
+      "source_id": "ml-borges-encyc-circular",
+      "reason": "Secondary plot and first-publication account for Circular Ruins; not a primary textual witness."
+    },
+    {
+      "source_id": "ml-borges-litcharts",
+      "reason": "Provides plot synopsis for Secret Miracle, Three Versions Judas, Death and Compass and sections of collection; selected story coverage may be restricted."
     }
   ],
   "historical_claims": [
@@ -66,6 +86,970 @@
       ],
       "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
       "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043100-c01",
+      "anchor": "Borges constructs the entire story as an account of Menard's intellectual career.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-fiddian"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043100-c02",
+      "anchor": "He wants to arrive at exactly the same words through a separate act of authorship",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-fiddian"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043100-c03",
+      "anchor": "The narrator then performs the experiment in reading.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-fiddian"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043100-c04",
+      "anchor": "The story appeared in 1939, and its form mattered.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-fiddian"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043400-c01",
+      "anchor": "Each room is hexagonal,",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-cambridge-i"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043400-c02",
+      "anchor": "Each contains a fixed number of pages, lines, and characters.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-oeis"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043400-c03",
+      "anchor": "The number of distinct possible texts of a fixed length over a finite alphabet is enormous but finite.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-oeis"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043400-c04",
+      "anchor": "A true sentence cannot identify itself merely by appearing on a page.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-oeis"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043500-c01",
+      "anchor": "His name is Yu Tsun.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-spark-garden"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043500-c02",
+      "anchor": "working for German intelligence during the First World War.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-spark-garden"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043500-c03",
+      "anchor": "The novel is the labyrinth.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-buffalo"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043500-c04",
+      "anchor": "Albert is not merely a man's surname; it is the name of the French town",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-spark-garden"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043500-c05",
+      "anchor": "The conclusion does not celebrate the strategy.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-spark-garden"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043200-c01",
+      "anchor": "he wants to dream another person into existence.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-encyc-circular"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043200-c02",
+      "anchor": "The god promises to animate the created person",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-buffalo"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043200-c03",
+      "anchor": "Then fire reaches the creator's own ruins.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-buffalo"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043200-c04",
+      "anchor": "he too exists as another being's dream.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-encyc-circular"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043300-c01",
+      "anchor": "almost every status and event may be assigned by chance.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-litcharts"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043300-c02",
+      "anchor": "A mysterious body called the Company gained authority over outcomes",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-litcharts"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043300-c03",
+      "anchor": "Does the Company exist?",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-litcharts"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "043300-c04",
+      "anchor": "An Examination of the Work of Herbert Quain describes a novelist whose formally adventurous works appear to exist only inside Borges's invented criticism.",
+      "kind": "fictional_plot_or_form",
+      "source_ids": [
+        "ml-borges-cambridge-i"
+      ],
+      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+      "audit_status": "reference_recorded"
     }
-  ]
+  ],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "0f34855f63e3c0377923cd544eeca68d18696cef",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "modern-literature:043000",
+        "file": "043000-ficciones-i-invented-worlds-authors-dreams-chance-libraries-and-paths-selected-route-subset.md",
+        "sha256": "fc9ef5c135fabe2f69634997391e4c145e75199ac7429ceb782672c00e94d1d4",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "043000",
+          "transcript": "043000-ficciones-i-invented-worlds-authors-dreams-chance-libraries-and-paths-selected-route-subset.md",
+          "related_resources": [
+            {
+              "source_id": "ml-borges-buffalo",
+              "reason": "University teaching/exhibition guide; detailed synopses for Garden of Forking Paths and Circular Ruins; not a critical edition of Borges’s Spanish."
+            },
+            {
+              "source_id": "ml-borges-cambridge-i",
+              "reason": "Publisher-visible description covers Pierre Menard and context after Borges’s 1938 accident; no claim to have read the entire chapter."
+            },
+            {
+              "source_id": "ml-borges-oxford",
+              "reason": "Accessible abstract describes transformative reception by postwar writers, poststructuralist/postmodern appropriation and later contextual scholarship. Does not establish particular influence without a further source."
+            },
+            {
+              "source_id": "ml-borges-fiddian",
+              "reason": "Open article on 1939 Sur publication, fictional critic, authorship, war setting, Cervantine precursor, and history of criticism. Interpretive proposals remain proposals."
+            },
+            {
+              "source_id": "ml-borges-oeis",
+              "reason": "Gives alphabet of 25 signs, 410 pages, 40 lines/page, 80 signs/line, 25^(1,312,000) distinct full-length volumes; distinct texts finite despite spatially infinite gallery possibility."
+            },
+            {
+              "source_id": "ml-borges-spark-garden",
+              "reason": "Secondary summary of Yu Tsun, Madden, Stephen Albert, Tsui Pen, motive, murder and coded newspaper message; check interpretation separately."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "043000-c01",
+              "anchor": "The story is called Tlön, Uqbar, Orbis Tertius.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-cambridge-i"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043000-c02",
+              "anchor": "It belonged to Herbert Ashe, an acquaintance who has died.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-buffalo"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043000-c03",
+              "anchor": "Borges calls such duplicates by a specialized term, hronir.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-buffalo"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043000-c04",
+              "anchor": "A secret intellectual undertaking has reportedly been trying over generations to fabricate an entire alternative world.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-buffalo"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043000-c05",
+              "anchor": "People are susceptible not simply to a lie but to the relief of a beautifully ordered explanation.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-oxford"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043100-c01",
+              "anchor": "Borges constructs the entire story as an account of Menard's intellectual career.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-fiddian"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043100-c02",
+              "anchor": "He wants to arrive at exactly the same words through a separate act of authorship",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-fiddian"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043100-c03",
+              "anchor": "The narrator then performs the experiment in reading.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-fiddian"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043100-c04",
+              "anchor": "The story appeared in 1939, and its form mattered.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-fiddian"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043400-c01",
+              "anchor": "Each room is hexagonal,",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-cambridge-i"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043400-c02",
+              "anchor": "Each contains a fixed number of pages, lines, and characters.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-oeis"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043400-c03",
+              "anchor": "The number of distinct possible texts of a fixed length over a finite alphabet is enormous but finite.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-oeis"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043400-c04",
+              "anchor": "A true sentence cannot identify itself merely by appearing on a page.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-oeis"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043500-c01",
+              "anchor": "His name is Yu Tsun.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-spark-garden"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043500-c02",
+              "anchor": "working for German intelligence during the First World War.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-spark-garden"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043500-c03",
+              "anchor": "The novel is the labyrinth.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-buffalo"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043500-c04",
+              "anchor": "Albert is not merely a man's surname; it is the name of the French town",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-spark-garden"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043500-c05",
+              "anchor": "The conclusion does not celebrate the strategy.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-spark-garden"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            }
+          ],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "modern-literature:043000",
+                "file": "043000-borges-story-tlon.md",
+                "sha256": "01d5f5914372a0695c616323ee78a814d813fefc976f8a4454f298e22fb535ae",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "043000",
+                  "transcript": "043000-borges-story-tlon.md",
+                  "related_resources": [
+                    {
+                      "source_id": "ml-borges-buffalo",
+                      "reason": "University teaching/exhibition guide; detailed synopses for Garden of Forking Paths and Circular Ruins; not a critical edition of Borges’s Spanish."
+                    },
+                    {
+                      "source_id": "ml-borges-cambridge-i",
+                      "reason": "Publisher-visible description covers Pierre Menard and context after Borges’s 1938 accident; no claim to have read the entire chapter."
+                    },
+                    {
+                      "source_id": "ml-borges-oxford",
+                      "reason": "Accessible abstract describes transformative reception by postwar writers, poststructuralist/postmodern appropriation and later contextual scholarship. Does not establish particular influence without a further source."
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "043000-c01",
+                      "anchor": "The story is called Tlön, Uqbar, Orbis Tertius.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-cambridge-i"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043000-c02",
+                      "anchor": "It belonged to Herbert Ashe, an acquaintance who has died.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-buffalo"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043000-c03",
+                      "anchor": "Borges calls such duplicates by a specialized term, hronir.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-buffalo"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043000-c04",
+                      "anchor": "A secret intellectual undertaking has reportedly been trying over generations to fabricate an entire alternative world.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-buffalo"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043000-c05",
+                      "anchor": "People are susceptible not simply to a lie but to the relief of a beautifully ordered explanation.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-oxford"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "modern-literature:043100",
+                "file": "043100-borges-story-pierre-menard.md",
+                "sha256": "5d3f96f8a44d52c4bed8895fbf977fd476f286f4965a47f2b2390da2685bfa8e",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "043100",
+                  "transcript": "043100-borges-story-pierre-menard.md",
+                  "related_resources": [
+                    {
+                      "source_id": "ml-borges-fiddian",
+                      "reason": "Open article on 1939 Sur publication, fictional critic, authorship, war setting, Cervantine precursor, and history of criticism. Interpretive proposals remain proposals."
+                    },
+                    {
+                      "source_id": "ml-borges-cambridge-i",
+                      "reason": "Publisher-visible description covers Pierre Menard and context after Borges’s 1938 accident; no claim to have read the entire chapter."
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "043100-c01",
+                      "anchor": "Borges constructs the entire story as an account of Menard's intellectual career.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-fiddian"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043100-c02",
+                      "anchor": "He wants to arrive at exactly the same words through a separate act of authorship",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-fiddian"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043100-c03",
+                      "anchor": "The narrator then performs the experiment in reading.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-fiddian"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043100-c04",
+                      "anchor": "The story appeared in 1939, and its form mattered.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-fiddian"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "modern-literature:043400",
+                "file": "043400-borges-story-library-babel.md",
+                "sha256": "e4dbf794ef2447c3e0721ad5950ebccc744246039159665ab19383015061f4e9",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "043400",
+                  "transcript": "043400-borges-story-library-babel.md",
+                  "related_resources": [
+                    {
+                      "source_id": "ml-borges-oeis",
+                      "reason": "Gives alphabet of 25 signs, 410 pages, 40 lines/page, 80 signs/line, 25^(1,312,000) distinct full-length volumes; distinct texts finite despite spatially infinite gallery possibility."
+                    },
+                    {
+                      "source_id": "ml-borges-cambridge-i",
+                      "reason": "Publisher-visible description covers Pierre Menard and context after Borges’s 1938 accident; no claim to have read the entire chapter."
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "043400-c01",
+                      "anchor": "Each room is hexagonal,",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-cambridge-i"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043400-c02",
+                      "anchor": "Each contains a fixed number of pages, lines, and characters.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-oeis"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043400-c03",
+                      "anchor": "The number of distinct possible texts of a fixed length over a finite alphabet is enormous but finite.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-oeis"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043400-c04",
+                      "anchor": "A true sentence cannot identify itself merely by appearing on a page.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-oeis"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "modern-literature:043500",
+                "file": "043500-borges-story-forking-paths.md",
+                "sha256": "b5ae1a06777d06e6481ff22eea0d898d00e6ab5556dc72fd3ffda051f3d31e08",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "043500",
+                  "transcript": "043500-borges-story-forking-paths.md",
+                  "related_resources": [
+                    {
+                      "source_id": "ml-borges-buffalo",
+                      "reason": "University teaching/exhibition guide; detailed synopses for Garden of Forking Paths and Circular Ruins; not a critical edition of Borges’s Spanish."
+                    },
+                    {
+                      "source_id": "ml-borges-spark-garden",
+                      "reason": "Secondary summary of Yu Tsun, Madden, Stephen Albert, Tsui Pen, motive, murder and coded newspaper message; check interpretation separately."
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "043500-c01",
+                      "anchor": "His name is Yu Tsun.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-spark-garden"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043500-c02",
+                      "anchor": "working for German intelligence during the First World War.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-spark-garden"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043500-c03",
+                      "anchor": "The novel is the labyrinth.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-buffalo"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043500-c04",
+                      "anchor": "Albert is not merely a man's surname; it is the name of the French town",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-spark-garden"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043500-c05",
+                      "anchor": "The conclusion does not celebrate the strategy.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-spark-garden"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "modern-literature:043200",
+        "file": "043200-ficciones-i-invented-worlds-authors-dreams-chance-libraries-and-paths-selected-route-subset.md",
+        "sha256": "ffa4139a2c32c5eeb921c407dc199eceb23d1eb8fba5d631e1996cd2b811c27f",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "043200",
+          "transcript": "043200-ficciones-i-invented-worlds-authors-dreams-chance-libraries-and-paths-selected-route-subset.md",
+          "related_resources": [
+            {
+              "source_id": "ml-borges-buffalo",
+              "reason": "University teaching/exhibition guide; detailed synopses for Garden of Forking Paths and Circular Ruins; not a critical edition of Borges’s Spanish."
+            },
+            {
+              "source_id": "ml-borges-encyc-circular",
+              "reason": "Secondary plot and first-publication account for Circular Ruins; not a primary textual witness."
+            },
+            {
+              "source_id": "ml-borges-litcharts",
+              "reason": "Provides plot synopsis for Secret Miracle, Three Versions Judas, Death and Compass and sections of collection; selected story coverage may be restricted."
+            },
+            {
+              "source_id": "ml-borges-cambridge-i",
+              "reason": "Publisher-visible description covers Pierre Menard and context after Borges’s 1938 accident; no claim to have read the entire chapter."
+            }
+          ],
+          "historical_claims": [
+            {
+              "id": "043200-c01",
+              "anchor": "he wants to dream another person into existence.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-encyc-circular"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043200-c02",
+              "anchor": "The god promises to animate the created person",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-buffalo"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043200-c03",
+              "anchor": "Then fire reaches the creator's own ruins.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-buffalo"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043200-c04",
+              "anchor": "he too exists as another being's dream.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-encyc-circular"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043300-c01",
+              "anchor": "almost every status and event may be assigned by chance.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-litcharts"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043300-c02",
+              "anchor": "A mysterious body called the Company gained authority over outcomes",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-litcharts"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043300-c03",
+              "anchor": "Does the Company exist?",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-litcharts"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            },
+            {
+              "id": "043300-c04",
+              "anchor": "An Examination of the Work of Herbert Quain describes a novelist whose formally adventurous works appear to exist only inside Borges's invented criticism.",
+              "kind": "fictional_plot_or_form",
+              "source_ids": [
+                "ml-borges-cambridge-i"
+              ],
+              "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+              "audit_status": "reference_recorded"
+            }
+          ],
+          "consolidation": {
+            "date": "2026-11-16",
+            "models": [
+              "GPT-6 (exact variant unavailable)"
+            ],
+            "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+            "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+            "sources": [
+              {
+                "id": "modern-literature:043200",
+                "file": "043200-borges-story-circular-ruins.md",
+                "sha256": "8e454afcfa4c873c9568b3ea6f0750c8d3b3fd5e830e74597e8d6e8e873cf0cf",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "043200",
+                  "transcript": "043200-borges-story-circular-ruins.md",
+                  "related_resources": [
+                    {
+                      "source_id": "ml-borges-buffalo",
+                      "reason": "University teaching/exhibition guide; detailed synopses for Garden of Forking Paths and Circular Ruins; not a critical edition of Borges’s Spanish."
+                    },
+                    {
+                      "source_id": "ml-borges-encyc-circular",
+                      "reason": "Secondary plot and first-publication account for Circular Ruins; not a primary textual witness."
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "043200-c01",
+                      "anchor": "he wants to dream another person into existence.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-encyc-circular"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043200-c02",
+                      "anchor": "The god promises to animate the created person",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-buffalo"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043200-c03",
+                      "anchor": "Then fire reaches the creator's own ruins.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-buffalo"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043200-c04",
+                      "anchor": "he too exists as another being's dream.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-encyc-circular"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "modern-literature:043300",
+                "file": "043300-borges-story-lottery-and-quain.md",
+                "sha256": "14cd602507604ffe79a04bec35ef72942e7ef9654dc0f3faddadb14b8dcf4059",
+                "metadata": {
+                  "schema_version": 1,
+                  "lecture_id": "043300",
+                  "transcript": "043300-borges-story-lottery-and-quain.md",
+                  "related_resources": [
+                    {
+                      "source_id": "ml-borges-litcharts",
+                      "reason": "Provides plot synopsis for Secret Miracle, Three Versions Judas, Death and Compass and sections of collection; selected story coverage may be restricted."
+                    },
+                    {
+                      "source_id": "ml-borges-cambridge-i",
+                      "reason": "Publisher-visible description covers Pierre Menard and context after Borges’s 1938 accident; no claim to have read the entire chapter."
+                    }
+                  ],
+                  "historical_claims": [
+                    {
+                      "id": "043300-c01",
+                      "anchor": "almost every status and event may be assigned by chance.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-litcharts"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043300-c02",
+                      "anchor": "A mysterious body called the Company gained authority over outcomes",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-litcharts"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043300-c03",
+                      "anchor": "Does the Company exist?",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-litcharts"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    },
+                    {
+                      "id": "043300-c04",
+                      "anchor": "An Examination of the Work of Herbert Quain describes a novelist whose formally adventurous works appear to exist only inside Borges's invented criticism.",
+                      "kind": "fictional_plot_or_form",
+                      "source_ids": [
+                        "ml-borges-cambridge-i"
+                      ],
+                      "source_locator": "See source notes and the relevant story or bibliographic entry; analytical claims are explicitly interpretive.",
+                      "audit_status": "reference_recorded"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
 }

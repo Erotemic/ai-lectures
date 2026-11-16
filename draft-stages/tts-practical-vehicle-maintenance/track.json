@@ -18,192 +18,84 @@
   "lectures": [
     {
       "id": "001000",
-      "title": "What Keeps a Vehicle Moving and Stopping: Forces, Tires, and Maintenance",
+      "title": "Connect vehicle motion, loads, and stopping",
       "section": "vehicle-energy-and-forces",
-      "file": "001000-what-keeps-a-vehicle-moving-and-stopping.md",
-      "spoken_words": 1186,
+      "file": "001000-connect-vehicle-motion-loads-and-stopping.md",
+      "spoken_words": 5092,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "002000",
-      "title": "Tire Pressure, Temperature, Load, and Traction",
-      "section": "vehicle-energy-and-forces",
-      "file": "002000-tire-pressure-temperature-load-and-traction.md",
-      "spoken_words": 1047,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "003000",
-      "title": "Engines, Motors, Gearing, and Efficiency",
-      "section": "vehicle-energy-and-forces",
-      "file": "003000-engines-motors-gearing-and-efficiency.md",
-      "spoken_words": 1008,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "004000",
-      "title": "Hydraulic Brakes and Energy Dissipation",
-      "section": "vehicle-energy-and-forces",
-      "file": "004000-hydraulic-brakes-and-energy-dissipation.md",
-      "spoken_words": 821,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "005000",
-      "title": "Suspension, Steering, and Alignment",
-      "section": "vehicle-energy-and-forces",
-      "file": "005000-suspension-steering-and-alignment.md",
-      "spoken_words": 997,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "006000",
-      "title": "Fluids, Heat Management, and Lubrication",
-      "section": "vehicle-energy-and-forces",
-      "file": "006000-fluids-heat-management-and-lubrication.md",
-      "spoken_words": 875,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 35.1,
+      "consolidated_from": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000"
+      ]
     },
     {
       "id": "007000",
-      "title": "Sensor Codes, Measurements, and Diagnosing Faults",
+      "title": "Design diagnostic tests before replacing parts",
       "section": "vehicle-energy-and-forces",
-      "file": "007000-sensor-codes-measurements-and-diagnosing-faults.md",
-      "spoken_words": 890,
+      "file": "007000-design-diagnostic-tests-before-replacing-parts.md",
+      "spoken_words": 3860,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 26.6,
+      "consolidated_from": [
+        "007000",
+        "017000",
+        "018000",
+        "019000"
+      ]
     },
     {
       "id": "008000",
-      "title": "Batteries, Charging, and Electrical Diagnosis",
+      "title": "Diagnose starting, charging, and intermittent electrical faults",
       "section": "vehicle-energy-and-forces",
-      "file": "008000-batteries-charging-and-electrical-diagnosis.md",
-      "spoken_words": 813,
+      "file": "008000-diagnose-starting-charging-and-intermittent-electrical-faults.md",
+      "spoken_words": 3671,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 25.3,
+      "consolidated_from": [
+        "008000",
+        "013000",
+        "014000",
+        "015000"
+      ]
     },
     {
-      "id": "009000",
-      "title": "Cooling Systems, Radiators, and Thermostats",
+      "id": "006000",
+      "title": "Manage heat, lubrication, emissions, and service intervals",
       "section": "vehicle-energy-and-forces",
-      "file": "009000-cooling-systems-radiators-and-thermostats.md",
-      "spoken_words": 940,
+      "file": "006000-manage-heat-lubrication-emissions-and-service-intervals.md",
+      "spoken_words": 4628,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "010000",
-      "title": "Exhaust, Emissions, and Catalytic Converters",
-      "section": "vehicle-energy-and-forces",
-      "file": "010000-exhaust-emissions-and-catalytic-converters.md",
-      "spoken_words": 984,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "011000",
-      "title": "Diagnostic Readiness Monitors and Emissions Test Interpretation",
-      "section": "vehicle-energy-and-forces",
-      "file": "011000-diagnostic-readiness-monitors-and-emissions-test-interpretation.md",
-      "spoken_words": 904,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "012000",
-      "title": "Vehicle Inspection, Service Intervals, and Safety-Critical Wear",
-      "section": "vehicle-energy-and-forces",
-      "file": "012000-vehicle-inspection-service-intervals-and-safety-critical-wear.md",
-      "spoken_words": 870,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "013000",
-      "title": "Diagnosing Intermittent Electrical Faults",
-      "section": "vehicle-energy-and-forces",
-      "file": "013000-diagnosing-intermittent-electrical-faults.md",
-      "spoken_words": 857,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "014000",
-      "title": "Starting Circuits, Parasitic Draw, and Battery Health",
-      "section": "vehicle-energy-and-forces",
-      "file": "014000-starting-circuits-parasitic-draw-and-battery-health.md",
-      "spoken_words": 1022,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "015000",
-      "title": "Starting and Charging Faults Across Hot and Cold Conditions",
-      "section": "vehicle-energy-and-forces",
-      "file": "015000-starting-and-charging-faults-across-hot-and-cold-conditions.md",
-      "spoken_words": 919,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 31.9,
+      "consolidated_from": [
+        "006000",
+        "009000",
+        "010000",
+        "011000",
+        "012000"
+      ]
     },
     {
       "id": "016000",
-      "title": "Roadside Fault Triage and Service Documentation",
+      "title": "Know roadside and electric-drivetrain boundaries",
       "section": "vehicle-energy-and-forces",
-      "file": "016000-roadside-fault-triage-and-service-documentation.md",
-      "spoken_words": 973,
+      "file": "016000-know-roadside-and-electric-drivetrain-boundaries.md",
+      "spoken_words": 3010,
       "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "017000",
-      "title": "Diagnostic Test Plans Before Parts Replacement",
-      "section": "vehicle-energy-and-forces",
-      "file": "017000-diagnostic-test-plans-before-parts-replacement.md",
-      "spoken_words": 912,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "018000",
-      "title": "Engine Misfire Diagnosis: Ignition, Fuel, and Compression",
-      "section": "vehicle-energy-and-forces",
-      "file": "018000-engine-misfire-diagnosis-ignition-fuel-and-compression.md",
-      "spoken_words": 987,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "019000",
-      "title": "Fuel Trims, Air Leaks, and Diagnosing Mixture Faults",
-      "section": "vehicle-energy-and-forces",
-      "file": "019000-fuel-trims-air-leaks-and-diagnosing-mixture-faults.md",
-      "spoken_words": 1017,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "020000",
-      "title": "Hybrid and Electric Vehicle Systems: Diagnostic Boundaries and Safe Maintenance",
-      "section": "vehicle-energy-and-forces",
-      "file": "020000-hybrid-and-electric-vehicle-systems-diagnostic-boundaries-and-safe-maintenance.md",
-      "spoken_words": 976,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
-    },
-    {
-      "id": "021000",
-      "title": "Electric Drivetrain Cooling Loops, Battery Temperature, and Power Derating",
-      "section": "vehicle-energy-and-forces",
-      "file": "021000-electric-drivetrain-cooling-loops-battery-temperature-and-power-derating.md",
-      "spoken_words": 993,
-      "draft_status": "substantive",
-      "practice_classification": "conceptual_and_observational"
+      "practice_classification": "conceptual_and_observational",
+      "estimated_minutes_at_145_wpm": 20.8,
+      "consolidated_from": [
+        "016000",
+        "020000",
+        "021000"
+      ]
     }
   ]
 }

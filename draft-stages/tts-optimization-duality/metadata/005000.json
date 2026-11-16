@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "lecture_id": "005000",
-  "transcript": "005000-gradient-descent-and-conditioning.md",
+  "transcript": "005000-first-order-iteration-and-convex-certificates-shared-core.md",
   "related_resources": [
     {
       "source_id": "od-boyd",
@@ -10,7 +10,67 @@
     {
       "source_id": "od-stanford-course",
       "reason": "First-order unconstrained optimization and convergence analysis."
+    },
+    {
+      "source_id": "od-parikh-boyd",
+      "reason": "Subgradients, soft thresholding, proximal maps, and proximal gradient."
+    },
+    {
+      "source_id": "od-boyd",
+      "reason": "Convex optimality and supporting-hyperplane principles."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "consolidation": {
+    "date": "2026-11-16",
+    "models": [
+      "GPT-6 (exact variant unavailable)"
+    ],
+    "source_git_revision": "ea704b08a44184abc3a3d37039ab4fdecbb1513b",
+    "scope": "Compose existing narration into one lecture; retain component arguments, source claims and non-spoken companions.",
+    "sources": [
+      {
+        "id": "optimization-duality:005000",
+        "file": "005000-gradient-descent-and-conditioning.md",
+        "sha256": "b5d5ff78d5397162e9655465524b417550047f6256ff8070f3da70625e3c242b",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "005000",
+          "transcript": "005000-gradient-descent-and-conditioning.md",
+          "related_resources": [
+            {
+              "source_id": "od-boyd",
+              "reason": "Smooth convex descent methods, convergence results and quadratic conditioning."
+            },
+            {
+              "source_id": "od-stanford-course",
+              "reason": "First-order unconstrained optimization and convergence analysis."
+            }
+          ],
+          "historical_claims": []
+        }
+      },
+      {
+        "id": "optimization-duality:006000",
+        "file": "006000-proximal-methods-and-nonsmooth-convexity.md",
+        "sha256": "6405a8c941ec706a7b804394820d2306873dfc9eb3ebdf39e931b8861911c46c",
+        "metadata": {
+          "schema_version": 1,
+          "lecture_id": "006000",
+          "transcript": "006000-proximal-methods-and-nonsmooth-convexity.md",
+          "related_resources": [
+            {
+              "source_id": "od-parikh-boyd",
+              "reason": "Subgradients, soft thresholding, proximal maps, and proximal gradient."
+            },
+            {
+              "source_id": "od-boyd",
+              "reason": "Convex optimality and supporting-hyperplane principles."
+            }
+          ],
+          "historical_claims": []
+        }
+      }
+    ]
+  }
 }

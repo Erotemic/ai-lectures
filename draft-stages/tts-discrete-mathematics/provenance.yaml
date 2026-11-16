@@ -1,0 +1,53 @@
+transcript:
+  revisions:
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - lecture: '001000'
+      composition_record: metadata/001000.json
+    - lecture: '005000'
+      composition_record: metadata/005000.json
+    - lecture: '020000'
+      composition_record: metadata/020000.json
+    - lecture: '036000'
+      composition_record: metadata/036000.json
+    - lecture: 009000
+      composition_record: metadata/009000.json
+    - lecture: '014000'
+      composition_record: metadata/014000.json
+    - lecture: '021000'
+      composition_record: metadata/021000.json
+    - lecture: '031000'
+      composition_record: metadata/031000.json
+    scope: Consolidate reviewed source parts into single lecture manuscripts. Original
+      text and source attribution are retained in component records and Git history;
+      this revision does not claim original authorship of inherited prose.
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - lecture: '001000'
+      composition_record: metadata/001000.json
+    - lecture: '011000'
+      composition_record: metadata/011000.json
+    - lecture: 018000
+      composition_record: metadata/018000.json
+    - lecture: '013000'
+      composition_record: metadata/013000.json
+    - lecture: 009000
+      composition_record: metadata/009000.json
+    scope: Consolidate reviewed source parts into single lecture manuscripts. Original
+      text and source attribution are retained in component records and Git history;
+      this revision does not claim original authorship of inherited prose.
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - track.json
+    - navigation.json
+    - Inherited source arguments and companions retained by consolidation metadata.
+    scope: Review consolidated narration boundaries, correct stale lecture pointers
+      and overbroad composite titles, add targeted conceptual bridges, and refresh
+      the current manuscript/route inventory. Preserve mathematical arguments and
+      hypotheses; no original authorship is claimed for inherited prose.
