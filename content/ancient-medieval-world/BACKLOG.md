@@ -279,3 +279,17 @@ Prioritize additional original-language or archaeological accounts rather than i
 | 058100 | A Field Written in Stone | Old Khmer inscription scholarship, Sdok Kak Thom, grants, disputes, temple and private rights |
 
 The next high-priority geographical gap is **early Islamic East African settlement beyond Swahili stone towns**, especially smaller coastal and hinterland communities and how oral traditions relate to excavation. Additional fuller translations and primary archaeological studies remain priorities in the five completed themes. Wikipedia links are supplementary navigation; scholarly, institutional and community materials anchor individual evidence records.
+
+## Eleventh regional-depth installment — completed (November 2026)
+
+| ID | New lecture | Evidence emphasis |
+| --- | --- | --- |
+| 036300 | Rooms beneath the Shore | Unguja Ukuu mapping and household dates; Fukuchani comparative faunal evidence |
+| 036400 | Trade without a Stone Palace | Tumbe's trade and decentralized bead-working; Kimimba, Kaliwa, Chwaka and later settlement changes |
+| 036500 | Pots across Rivers and Coasts | Comparative Early Tana pottery analysis across coast, islands, and mainland hinterland |
+| 036600 | Who Founded the Coast? | Shanga's building phases and contested early mosques; Thomas Govi, Helm and later Mijikenda accounts critically dated |
+| 036700 | Beyond the Beach Market | Chibuene and inland bead routes; Letaba pottery dates and competing Limpopo coastal entry models |
+
+The **132-lecture** index retains the 127 earlier entries. Every new spoken paragraph has source IDs with explicit source limitations. Wikipedia links are supplementary orientation. The Shungwaya migration narrative is treated as a later, changing history of belonging, not an eyewitness ninth-century migration record; the majority of formally recognized Mijikenda kaya sites belong to much later phases than Shanga's initial settlement. No single early Swahili village is made into the automatic developmental ancestor of every stone town.
+
+**Further gaps for targeted study:** More excavation-based mainland East African agriculture and inland settlements beyond diagnostic pottery; rural Indian Ocean networks between Kenya and Mozambique; smaller pre-1500 Philippine communities beyond the Laguna Copperplate Inscription; and southern African social organization before the better-known monumental states. Prefer substantial site-specific evidence to expanding lists of names.

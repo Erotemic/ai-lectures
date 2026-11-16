@@ -59,6 +59,11 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 036000 | Shorelines of Exchange: East Africa and the Indian Ocean | 1,365 |
 | 036100 | Rice across an Ocean: Madagascar, the Comoros, and Early Island Settlement | 1,288 |
 | 036200 | Coins beneath the House: Kilwa and the Meaning of Swahili Wealth | 1,169 |
+| 036300 | Rooms beneath the Shore: Unguja Ukuu, Fukuchani, and Early Zanzibar | 1,436 |
+| 036400 | Trade without a Stone Palace: Tumbe, Kimimba, and the Villages of Pemba | 1,544 |
+| 036500 | Pots across Rivers and Coasts: The Early Tana Tradition and Africa's Hinterland | 1,520 |
+| 036600 | Who Founded the Coast? Shanga, Mijikenda Histories, and Disputed Origins | 1,611 |
+| 036700 | Beyond the Beach Market: Chibuene and the Routes into Southern Africa | 1,587 |
 | 037000 | Fields, Lords, and Market Streets: Medieval European Societies | 1,344 |
 | 037100 | A Charter under Pressure: Magna Carta and the Claims of Law | 1,300 |
 | 038000 | Rivers to the Sea: Scandinavians, Rus, and the North Atlantic | 1,307 |
@@ -173,3 +178,9 @@ Eight new source-led lectures are inserted into unused lower-order IDs beside re
 Five new source-mapped lectures use unused lower-order IDs `014100`, `040100`, `044300`, `046300`, and `058100` beside their related surveys. Their subjects are Meroitic Kush's rulers, industrial and hydraulic landscape, and partially understood writing; differentiated Aboriginal histories at Willandra, Budj Bim and Martu Country; Kongo's earlier political formation using critically dated later testimony; the variation of Andean kinship, exchange and work arrangements; and Angkorian land grants, temple rights and local legal practices. The index now has **127 lectures**, retaining all 122 previous indexed manuscripts.
 
 Every spoken paragraph in the five additions maps to an evidence record in `metadata/NNNNNN.json`. Each lecture provides an accessible reading list and specific relevant Wikipedia article links **for orientation only**, distinct from claims grounded in heritage records, academic research or Indigenous community accounts. Sources whose accessible evidence is limited to a public abstract are labeled.
+
+## Eleventh regional-depth installment — early East African households, villages, and inland routes (November 2026)
+
+Five inserted lectures use stable vacant IDs `036300`–`036700`, after the earlier Swahili surveys (`036000`, `036100`, `036200`). Their emphasis is on African local organization and archaeology before 1500: early Zanzibar houses and mixed diets; Tumbe and other Pemba villages rather than a presumed straight road to stone towns; locally made Early Tana pottery connecting coasts and hinterlands; Shanga and Mijikenda oral-historical arguments about settlement; and the Chibuene–Letaba exchange horizon. **132 indexed lectures** are now present; the preceding 127 manuscripts and IDs were not modified.
+
+Every new spoken paragraph has a source mapping and a scope limitation in `metadata/NNNNNN.json`. Full open research pages, article abstracts, heritage summaries, and Wikipedia orientation links are identified distinctly; Wikipedia is not used as the sole evidentiary basis of any spoken paragraph. The Shanga early-mosque hypothesis, reinterpretations of Shungwaya, synoecism on Pemba, and the Letaba river-route hypothesis remain attributed scholarly arguments rather than settled firsthand historical accounts. Manuscript lengths describe completed content and are not targets or ceilings.
