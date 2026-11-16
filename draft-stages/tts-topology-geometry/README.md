@@ -150,3 +150,22 @@ The spoken manuscripts stand alone. Their mathematical companions preserve exact
 - 042000 — [Adjunction Inequalities and Smooth Genus Bounds](042000-adjunction-inequalities-and-smooth-genus-bounds.md)
 
 These narrations stand alone. The mathematical companions contain exact conventions, derivations, exercises with answers, and source links. Descriptive lengths are not authoring constraints.
+
+## Continuation 25: Geometry Foundations (rebuilt 2026-11-16)
+
+The preceding introductory lectures 008000, 009000, 010000, 011000, 012000 and 013000 are preserved. The following twelve foundation lectures are registered between them using lower-significance IDs, instead of being appended after advanced geometry:
+
+- 008100 - [Inverse and Implicit Function Theorems](008100-inverse-and-implicit-function-theorems.md)
+- 008200 - [Vector Fields, Flows, and Lie Brackets](008200-vector-fields-flows-and-lie-brackets.md)
+- 008300 - [Cotangent Vectors, Tensors, and Pullbacks](008300-cotangent-vectors-tensors-and-pullbacks.md)
+- 009100 - [Differential Forms: Circulation, Flux, and Curl](009100-differential-forms-circulation-flux-and-curl.md)
+- 009200 - [Partitions of Unity and Global Integration](009200-partitions-of-unity-and-global-integration.md)
+- 010100 - [Deriving Stokes' Theorem from Elementary Calculus](010100-deriving-stokes-theorem-from-elementary-calculus.md)
+- 010200 - [Poincare Lemma and Homotopy Invariance](010200-poincare-lemma-and-homotopy-invariance.md)
+- 011100 - [Integration over Cycles and the de Rham Map](011100-integration-over-cycles-and-de-rham-map.md)
+- 012100 - [Computing Cohomology of Circles and Tori](012100-computing-cohomology-of-circles-and-tori.md)
+- 013100 - [Bundle Transition Functions and Global Twisting](013100-bundle-transition-functions-and-global-twisting.md)
+- 013200 - [Covariant Derivatives and Parallel Transport](013200-covariant-derivatives-and-parallel-transport.md)
+- 013300 - [Curvature, Holonomy, and Chern Numbers](013300-curvature-holonomy-and-chern-numbers.md)
+
+These manuscripts were rebuilt after an interrupted previous continuation. The lecture titles and stable IDs were recovered; the prose is newly authored rather than a byte-for-byte recovery of the previous ZIP. Each file contains spoken prose followed by a mathematical companion, checks with answers, and primary reference links with Wikipedia overviews.

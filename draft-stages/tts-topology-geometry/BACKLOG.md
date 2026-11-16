@@ -1,4 +1,6 @@
-# Topology and Geometry — after 42 completed lectures
+# Topology and Geometry — after 54 completed lectures
+
+Continuation 25 inserted 12 geometry-foundation lectures at 008100-013300; the original 42 lectures remain indexed.
 
 Seiberg-Witten monopoles give a gauge-theoretic invariant of smooth four-manifolds; adjunction inequalities use basic classes to bound the genus of embedded surfaces.
 

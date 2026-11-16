@@ -17,11 +17,23 @@
     "circle-and-winding",
     "covering-spaces-and-lifting",
     "smooth-manifolds",
+    "inverse-implicit-functions",
+    "vector-fields-flows",
+    "cotangent-tensors-pullbacks",
     "differential-forms",
+    "forms-vector-calculus",
+    "partitions-unity-integration",
     "generalized-stokes",
+    "stokes-from-calculus",
+    "poincare-lemma-homotopy",
     "simplicial-homology",
+    "cycle-integration-de-rham",
     "cohomology-cup-products",
+    "circle-torus-cohomology",
     "bundles-connections-curvature",
+    "bundle-gluing",
+    "covariant-transport",
+    "curvature-holonomy-chern",
     "riemannian-metrics",
     "mayer-vietoris-excision",
     "poincare-duality",
@@ -126,6 +138,33 @@
       "estimated_minutes_at_145_wpm": 8.6
     },
     {
+      "id": "008100",
+      "title": "Inverse and Implicit Function Theorems",
+      "section": "inverse-implicit-functions",
+      "file": "008100-inverse-and-implicit-function-theorems.md",
+      "spoken_words": 1319,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.1
+    },
+    {
+      "id": "008200",
+      "title": "Vector Fields, Flows, and Lie Brackets",
+      "section": "vector-fields-flows",
+      "file": "008200-vector-fields-flows-and-lie-brackets.md",
+      "spoken_words": 1266,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.7
+    },
+    {
+      "id": "008300",
+      "title": "Cotangent Vectors, Tensors, and Pullbacks",
+      "section": "cotangent-tensors-pullbacks",
+      "file": "008300-cotangent-vectors-tensors-and-pullbacks.md",
+      "spoken_words": 1180,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.1
+    },
+    {
       "id": "009000",
       "title": "Differential Forms: Calculus That Survives a Change of Coordinates",
       "section": "differential-forms",
@@ -133,6 +172,24 @@
       "spoken_words": 1272,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.8
+    },
+    {
+      "id": "009100",
+      "title": "Differential Forms: Circulation, Flux, and Curl",
+      "section": "forms-vector-calculus",
+      "file": "009100-differential-forms-circulation-flux-and-curl.md",
+      "spoken_words": 1125,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.8
+    },
+    {
+      "id": "009200",
+      "title": "Partitions of Unity and Global Integration",
+      "section": "partitions-unity-integration",
+      "file": "009200-partitions-of-unity-and-global-integration.md",
+      "spoken_words": 1205,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.3
     },
     {
       "id": "010000",
@@ -144,6 +201,24 @@
       "estimated_minutes_at_145_wpm": 8.5
     },
     {
+      "id": "010100",
+      "title": "Deriving Stokes' Theorem from Elementary Calculus",
+      "section": "stokes-from-calculus",
+      "file": "010100-deriving-stokes-theorem-from-elementary-calculus.md",
+      "spoken_words": 1288,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.9
+    },
+    {
+      "id": "010200",
+      "title": "Poincare Lemma and Homotopy Invariance",
+      "section": "poincare-lemma-homotopy",
+      "file": "010200-poincare-lemma-and-homotopy-invariance.md",
+      "spoken_words": 1165,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.0
+    },
+    {
       "id": "011000",
       "title": "Homology: Cycles, Boundaries, and Holes",
       "section": "simplicial-homology",
@@ -151,6 +226,15 @@
       "spoken_words": 1144,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.9
+    },
+    {
+      "id": "011100",
+      "title": "Integration over Cycles and the de Rham Map",
+      "section": "cycle-integration-de-rham",
+      "file": "011100-integration-over-cycles-and-de-rham-map.md",
+      "spoken_words": 1221,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.4
     },
     {
       "id": "012000",
@@ -162,6 +246,15 @@
       "estimated_minutes_at_145_wpm": 7.8
     },
     {
+      "id": "012100",
+      "title": "Computing Cohomology of Circles and Tori",
+      "section": "circle-torus-cohomology",
+      "file": "012100-computing-cohomology-of-circles-and-tori.md",
+      "spoken_words": 1176,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.1
+    },
+    {
       "id": "013000",
       "title": "Fiber Bundles, Connections, and Curvature",
       "section": "bundles-connections-curvature",
@@ -169,6 +262,33 @@
       "spoken_words": 1215,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.4
+    },
+    {
+      "id": "013100",
+      "title": "Bundle Transition Functions and Global Twisting",
+      "section": "bundle-gluing",
+      "file": "013100-bundle-transition-functions-and-global-twisting.md",
+      "spoken_words": 1143,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.9
+    },
+    {
+      "id": "013200",
+      "title": "Covariant Derivatives and Parallel Transport",
+      "section": "covariant-transport",
+      "file": "013200-covariant-derivatives-and-parallel-transport.md",
+      "spoken_words": 1217,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.4
+    },
+    {
+      "id": "013300",
+      "title": "Curvature, Holonomy, and Chern Numbers",
+      "section": "curvature-holonomy-chern",
+      "file": "013300-curvature-holonomy-and-chern-numbers.md",
+      "spoken_words": 1291,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.9
     },
     {
       "id": "014000",
