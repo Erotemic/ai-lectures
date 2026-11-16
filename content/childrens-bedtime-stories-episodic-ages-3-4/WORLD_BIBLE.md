@@ -1,6 +1,6 @@
 # Willow Bend world bible — continuity authority
 
-For editors and later agents. **Not part of TTS narration.** This is the canonical record for what happens across episodes 001000–060000. Before adding an episode, reconcile its opening state with the final state below.
+For editors and later agents. **Not part of TTS narration.** This is the canonical record for what happens across episodes 001000–066000. Before adding an episode, reconcile its opening state with the final state below.
 
 ## The world
 
@@ -385,3 +385,50 @@ The map now extends west beyond Far Meadow, so future seasons may revisit Market
 The six friends remain **Amy, Ben, Kim, Wendy, Todd and Sue**, with **Grandma May, Aunt Kay, Aunt Pat and Grandpa Ed** in their established roles. Willow Bend, Pebble Bridge (the only established creek crossing), Round Pond, Reed Meadow to the east, the orchard and fenced mill to the south, Bell Hill and Far Meadow to the west, and the **green bus route beyond Far Meadow to Market Street** remain geographically unchanged. Sue's castle bakery stays in Round Window Cottage with its flup door, WINDOW ORDERS sign, paper beetle and pretend paper-sandwich pocket clock; Sue's green yellow-star cushion remains hers. Wendy's ribbon and banner remain hers. Todd's patched boot, Kim's three pebbles and Ben's red scarf remain theirs. Button Town is still imaginary and stored separately from Amy's **real** map. The Market Street library book was returned in 054000; it is not checked out again in this season. All children are home with their own adult at the final bedtime.
 
 **Next-season contract:** At least one further season is planned to reach eleven; do not roll back the garden to shoots, leave spring radishes standing in midsummer, relocate the sign to its old obscured place, close the first open sunflower without narrating a change, or forget the added garden picture and map dot. A new arc need not be another garden project. Keep the fiction single-narrator and the references outside the spoken markers.
+
+
+## Season eleven — The Book That Took the Bus (061000–066000)
+
+**Continuity update; not spoken.** The season follows one complete, ordinary library-sharing visit across several days, after Season Ten's completed garden drawing. It is **not** the final season of the entire series, only the eleventh completed arc. The children keep their simple names Amy, Ben, Kim, Wendy, Todd and Sue, and each visit occurs with trusted adults. The existing sounds book travels but its **six content pages are never replaced, extended or detached**.
+
+### Places, schedule and custody
+
+- **The established bus route remains unchanged:** from Village Green go west past Blue Door Cottage, over Bell Hill, through Far Meadow to the sheltered **green-bus stop beyond Far Meadow**. The bus travels **west along the paved road** to **Market Street**. It does **not** cross Pebble Bridge or travel along the orchard path. Kim and Todd reach the starting place along already-established paths from the east, with their adults, and Sue comes from her cottage in the southern orchard. The bus seats all members of the party on the joint outings. Market Street already has its public library, bakery, shop clock, flower stall and pigeon bench.
+- **061000:** Earlier in the week, Kim and Sue visit the Market Street library with their grown-ups. In the window they find a note announcing a **Sunday afternoon table for homemade books**. The librarian invites the existing blue Book of Little Sounds if Ben wishes; there is no surprise demand, guaranteed public performance, or new named librarian. The blue book is still on the Story House low shelf when the chapter ends.
+- **062000:** With Grandma May and Amy, Ben agrees to bring his own six-page Book of Little Sounds to the library and return it after the visit. They review its intact page ledger below and place it in a clean soft **cloth bag**. It stays **at Ben's home** afterward until the library trip, rather than remaining on the Story House shelf during the visit.
+- **063000:** On Friday afternoon, the friends try showing the book to a wooden **chair at Story House** as a comic pretend audience. Ben can hold the book; Todd can make a small bup; Wendy may show the wind page; Sue may make jokes; Kim may point or simply listen; Amy may open her real map. All choices are voluntary. Book goes back with Ben at bedtime. No new performance equipment or additional page remains.
+- **064000:** On Saturday, all six children travel west on the green bus with trusted adults, delivering the book to the Market Street library. The librarian takes custody of the blue book, **stores it overnight on the staff shelf**, and promises to put it on the table on Sunday. Ben takes the **empty cloth bag** home. The book is not a library-issued loan and no ticket or donation is created. All children return home that day.
+- **065000:** On Sunday, the group rides the bus to the library's **low table by the window**. Visitors include unnamed children/adults. Ben and friends share the six original pages. Kim chooses to point at Reed Meadow and say a brief line, without being required to speak publicly beyond that. After the visit, the librarian gives Ben a **loose paper bookmark** with a drawing of the library window and the words **THANK YOU, WILLOW BEND**. Ben slips it **inside the front cover**, *not* as an added page. The book returns inside its cloth bag with Ben that evening; everyone goes home with adults. No book is left overnight a second time.
+- **066000:** On Monday, Ben returns the original six-page book to its **same low Story House shelf**, beside the **brown Button Town envelope** and the **LITTLE GROWING GARDEN folder**. The library thank-you remains loose inside the blue front cover, not fastened or counted as a seventh page. The librarian and visiting families have now seen the Willow Bend book, a gentle new relationship between the communities; there is no further appointment, promised new book or pending deadline. The cloth carrier returns with Ben. Children visit the existing garden with adults and all go home that day.
+
+### Exact six-page contents, unchanged since Season Three
+
+1. Reed Meadow reeds and **shhh**.
+2. Pebble Bridge steps **tok**, **tuk**, bird dots and the oversized paper listening hat joke.
+3. Todd's frog sound **bup**, **buuuuup**.
+4. Far Meadow's Windbreak Tree **flutter** and Reed Meadow reeds **shhh**.
+5. Story House rain on the metal watering can **plink**, with pauses.
+6. Amy unfolding the real yellow paper map **ffft**.
+
+**No seventh page.** The bookmark is a separate loose memento. The book is paper, not an electronic recording or magical audible object, and the children illustrate and remember sounds rather than hearing audio play from its pages.
+
+### Other continuity deliberately protected
+
+- Amy's real yellow map retains the attached **western Market Street bus flap**, original geographic landmarks, Sue's Round Window Cottage, the garden's two green marks and one yellow flower dot, and Story House's original squeak curl plus later blue dot. She uses and folds the map, but **adds no further marks this season**. The distinct imaginary Button Town map remains in its brown envelope.
+- The Story House door still opens quietly and **clicks** after Grandpa Ed's repair; the old squeak is only a memory. Ben's **tilted silver-spotted orange electric lantern** still hangs by the window, unchanged.
+- The garden stays as it ended in Season Ten, **one open sunflower and one still-budded sunflower with yellow beginning to show** over these few days. The front row is **empty after harvested spring radishes**, the red picture label remains, the original sign stays readable beside the dry path and two flat viewing stones remain outside planted soil. The three chronological drawings stay in the single original garden folder, not a new folder or shelf project.
+- Kim still keeps **exactly three pebbles** in her violet pouch, one rounded gray with a white stripe. Wendy's **blue-ribboned straw hat** and the earlier picnic banner inside her Far Meadow cottage are unchanged; Todd's **two yellow boots**, one with blue patch, are unchanged. Ben keeps his red scarf. Sue's green cushion with a yellow star, cardboard bakery with flup door and pretend sandwich-pocket clock remain at Round Window Cottage.
+- All six children remain in their established homes at each bedtime. No magic, new crossing, new named resident, dramatic crisis, obligation or travel after dark is introduced.
+
+### Episode ledger
+
+| Episode | Immediate resolution | Persisting change |
+|---|---|---|
+| 061000 | Kim and Sue discover the one-afternoon home-made-book invitation and return home | Librarian's optional Sunday invitation known; blue book still on Story House shelf |
+| 062000 | Ben checks all six pages and agrees to lend the book; plain bag wins over imaginary fancy coat | Book at Ben's home in clean cloth bag, six pages intact |
+| 063000 | Todd reads to a chair; friends choose flexible optional participation | Joint sharing plan agreed; no required solo performance; book goes home with Ben |
+| 064000 | The friends deliver book to library on Saturday and return home | Librarian holds book on staff shelf overnight; empty cloth bag with Ben |
+| 065000 | Sunday story table succeeds; Kim participates on her terms; return bus home | Six-page book back with Ben; loose **THANK YOU, WILLOW BEND** bookmark inside cover |
+| 066000 | Ben replaces the book on Story House shelf; everyone returns home | Book at its original place with new loose library bookmark; Market Street library now knows the Willow Bend book; no event pending |
+
+**Next-season contract:** The series has reached the **at least eleven seasons** goal but need not end. Later visits can refer to the library day without replaying it or reopening its invitation. The bus still follows the established road; the real yellow map's flap is unchanged. Do not create a seventh sound-book page or leave it at Market Street after 066000. If the next season advances time by weeks, the existing flowers may change naturally, but those changes must be narrated rather than silently assumed in the adjacent few-day arc.

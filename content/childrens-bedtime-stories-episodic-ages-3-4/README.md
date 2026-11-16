@@ -182,3 +182,19 @@ After many further weeks of adult care, the Story House's real garden changes su
 | 060000 | [Two Pictures of the Same Garden](060000-two-pictures-of-the-same-garden.md) | Six friends and their trusted grown-ups make a new shared THE GARDEN TODAY picture and place it in the *existing* LITTLE GROWING GARDEN folder behind the original picture and interim sketch. Amy adds one small yellow dot to the existing garden square of her real yellow map while preserving its two green marks and the western bus flap. First sunflower stays open, second stays in bud, front row remains empty with red label. All go home; no new shelf folder or event. |
 
 The season has six complete single-narrator stories, with non-spoken caregiver notes and source anchors. No fixed story duration is imposed. Earlier episodes and metadata are unchanged. See [WORLD_BIBLE.md](WORLD_BIBLE.md) for chronological object/location facts and [PARENTS_GUIDE.md](PARENTS_GUIDE.md) for source scope and optional prompts. No audio or artwork is included.
+
+
+## Season eleven: The Book That Took the Bus
+
+The existing Market Street library invites homemade books for a Sunday afternoon story table. Ben chooses to bring his **original six-page blue Book of Little Sounds**, which travels on the established green bus route under trusted adult supervision. Each episode has a complete bedtime ending and an ongoing, concrete object state. The book is returned to the original Story House low shelf, unchanged except for a **loose library thank-you bookmark** inside its front cover. No seventh page, no new shelf collection and no additional cast members.
+
+| Episode | Story | Lasting change |
+|---|---|---|
+| 061000 | [The Note in the Library Window](061000-the-note-in-the-library-window.md) | Kim and Sue find a note inviting homemade books to the Market Street library and remember Ben's completed Book of Little Sounds. |
+| 062000 | [Ben and the Book's Traveling Coat](062000-ben-and-the-books-traveling-coat.md) | Ben decides to take his six-page blue sound book to the library, checks its exact pages, and chooses a plain cloth bag for the journey. |
+| 063000 | [Todd and the Audience of One Chair](063000-todd-and-the-audience-of-one-chair.md) | Todd practices reading his bup page to a chair, while Kim chooses how she would like to participate without public speaking. |
+| 064000 | [The Bus with a Book in Its Belly](064000-the-bus-with-a-book-in-its-belly.md) | The six friends take Ben's cloth-wrapped book on the green bus to Market Street, where the librarian keeps it safe overnight for Sunday. |
+| 065000 | [Kim and the Table by the Window](065000-kim-and-the-table-by-the-window.md) | The friends show their six sound pages at the Market Street library; Kim chooses a small way to contribute, and Ben receives a thank-you bookmark. |
+| 066000 | [The Book That Came Home](066000-the-book-that-came-home.md) | Ben returns his six-page Book of Little Sounds to the Story House shelf, with a paper thank-you bookmark remembering its Market Street visit. |
+
+The eleven completed seasons now comprise **66 connected single-narrator episodes**. This is a milestone rather than a final farewell; no future season is required for the book's return to make sense. Parents' optional questions and source notes are outside spoken markers. Earlier manuscripts, the real geography, and the renamed cast are preserved. No audio or images are included.
