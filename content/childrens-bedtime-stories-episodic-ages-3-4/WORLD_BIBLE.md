@@ -148,3 +148,33 @@ Future episodes can visit Far Meadow without treating Lila as a stranger, can us
 ### After season three
 
 Future episodes may borrow or revisit the book, visit Rill in Reed Meadow, have Lila and Rill encounter one another again, or explore new places. They must not reset the book to empty or turn the low shelf into a magical library. A new season can change the state, but only if the change happens on the page. New stories remain self-contained, gently resolved and suitable for a single TTS narrator.
+
+## Season four — The Doorway Tree (019000–024000)
+
+**Continuity update, not spoken.** This season stays in the already-known southern orchard rather than inventing a new physical kingdom. The children create **Button Town**, a clearly imaginary place associated with the ordinary two-trunk tree. In episode 024000 they finish a separate pretend map, not a substitute for Tess's actual yellow map. No festival or cliffhanger is pending.
+
+### Geography and new shared story state
+
+- **Real orchard route (corrected 019000):** From Village Green, take the established path south into the orchard, which **curves around the two-trunk tree** and passes a patch of daisies before continuing toward the **old stone mill** near the creek. The mill wheel remains behind its fence. Tess's original *straight* green pencil line was inaccurate; she draws a little curved alternative, marks the old straight line as superseded and adds the tree symbol. The corrected yellow map continues to show the real valley, including Far Meadow **west**, Reed Meadow **east**, and the single crossing at Pebble Bridge.
+- **Doorway Tree:** the **existing two-trunk tree** described in season one as giant trousers. Tess and Bo give it its new name in 019000. It is an ordinary tree, with no actual door, hidden land, or animated object.
+- **Button Town:** a persistent **pretend game** first named in 020000, not a second physical settlement. Imagined places: bakery for ants, blueberry-sized hat shop, street of twelve doors with no houses, **post office** with slipper-wheeled imaginary cart, **Lake Teacup** where a real rain puddle briefly appeared, and **the Little Quiet Place** on the adult-visible grass to the *south* side of the tree. There is a make-believe bell *away* from the quiet area, and a cloud-sock shop. Real papers and basket are taken home after play; no objects are left in the orchard.
+- **Lila:** visits the *orchard for the first time* with Aunt Mallow in 020000 and meets the Doorway Tree. Her straw hat **keeps its blue ribbon** and the picnic banner remains in the **window inside her cream-colored Far Meadow cottage**.
+- **Rill:** visits the *orchard for the first time* with Aunt Cress in 022000. Nori gives Rill her earlier drawing of three ripples and a pair of yellow boots; **Aunt Cress takes that card home with Rill**. Rill's yellow boots, one with the blue patch, remain his. The tiny puddle in the orchard may disappear as the ground dries: in 023000 it is mostly dry. The *imaginary Lake Teacup* stays on their pretend map.
+- **Nori:** still has **all three pebbles** (including the white-striped gray one) inside her violet pouch. She declines to use the striped pebble as a postmark in 021000, without conflict. Her Little Quiet Place is a fixed, adult-visible grassy patch near the tree, not a replacement for **Clover Nook** in Far Meadow or her Round Pond home.
+- **Paper props:** 020000: Tess draws a small square **ticket with a blue circle** and keeps it between the yellow map's folds. 021000: Bo, Tess, Nori draw three real cards (tilted orange lantern, blue-door cottage, ripples + yellow boots) and leave them in a **flat brown envelope at Blue Door Cottage**. 022000: the boot/ripple card is actually delivered to Rill; Tess separately draws Lake Teacup on a small paper. 023000: a *separate* rough Button Town sketch receives a green patch/pillow for the Little Quiet Place. 024000: all five friends produce a new **finished pretend map** on a larger separate sheet; Tess removes the ticket from her yellow map and adds it, the Lake Teacup drawing, the finished map and remaining cards to the brown envelope.
+- **Final storage after 024000:** Grandma Fern helps put the **brown Button Town envelope on the low Story House shelf**, beside but not on top of the already completed **blue Book of Little Sounds**. Both can be borrowed with permission. Bo's tilted, silver-spotted orange *electric* lantern remains by the Story House window; no flames. Tess's correctly revised **real yellow map goes home** beside her bed and has no Button Town fantasy roads added to it.
+
+### Season-four state ledger
+
+| Episode | Persisting change | Continuity to protect later |
+|---|---|---|
+| 019000 | Tess corrects orchard-route bend on physical yellow map and names the Doorway Tree | Ordinary tree and old mill unchanged; Bo only imagines a doorway; Button Town not yet invented |
+| 020000 | Lila first visits orchard; children invent Button Town and create blue-circle paper visitor ticket | Lila knows tree and game; ticket stays in Tess's map folds; Lila's blue ribbon remains on hat |
+| 021000 | Tiny imaginary post office; three picture cards placed in brown envelope at Tess's home | Basket returned home; Nori retains three pebbles; Rill has not received his card yet |
+| 022000 | Rill first visits orchard; receives boot/ripple drawing; rain puddle named Lake Teacup in pretend game | Rill takes card with Aunt Cress; separate lake sketch at cottage; real puddle temporary |
+| 023000 | Nori names Little Quiet Place on grass south of tree; pillow icon added to rough Button Town sketch | Children agree bell is away from that spot; dry ground where puddle had been; no exterior props left |
+| 024000 | Five friends draw completed separate imaginary map at Story House; brown envelope joins blue sound book on low shelf | **Season complete:** Yellow real map stays at Tess's home; imaginary map + props stored in brown envelope; sound book, lantern, banner, pouch and boots unchanged |
+
+### Next-season contract
+
+Future stories may borrow the **brown envelope** from the Story House, follow the accurate real map back to the orchard, or visit friends in either meadow. No new creek crossing has been introduced. Button Town stays an explicitly agreed imaginary game unless a later episode *shows* a real-world change to a real place. The children can change its make-believe rules, but the physical map stays separate. Preserve the completed stories and the quiet bedtime return home.

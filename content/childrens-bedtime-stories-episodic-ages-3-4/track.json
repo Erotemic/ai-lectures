@@ -1,7 +1,7 @@
 {
   "id": "childrens-bedtime-stories-episodic-ages-3-4",
   "title": "Children's Bedtime Stories — Episodic (Ages 3–4)",
-  "summary": "Original sequential, single-narrator bedtime adventures for ages 3–4, primarily age three. Season one explores Willow Bend and completes the Little-Light Walk; season two travels west to Far Meadow, meets Lila, and completes a ribbon picnic. Season three travels east past Round Pond into Reed Meadow, meets Rill and Aunt Cress, and finishes Bo’s Book of Little Sounds. Places, relationships and objects persist between episodes; every night closes gently. Non-spoken caregiver explanations and citations do not assert developmental or sleep effects.",
+  "summary": "Original sequential, single-narrator bedtime adventures for ages 3–4, primarily age three. Season one explores Willow Bend and completes the Little-Light Walk; season two travels west to Far Meadow, meets Lila, and completes a ribbon picnic. Season three travels east past Round Pond into Reed Meadow, meets Rill and Aunt Cress, and finishes Bo’s Book of Little Sounds. Places, relationships and objects persist between episodes; every night closes gently. Non-spoken caregiver explanations and citations do not assert developmental or sleep effects. Season four revisits the southern orchard, corrects one bend on Tess’s real map, and grows an explicitly imaginary Button Town game around the two-trunk Doorway Tree; its pretend map ends safely at the Story House.",
   "assumed_background": [
     "Age 3–4; prior episodes enrich continuity but each episode includes enough context to enjoy on its own."
   ],
@@ -21,7 +21,8 @@
   "sections": [
     "season-1-the-little-light-walk",
     "season-2-beyond-bell-hill",
-    "season-3-the-book-of-little-sounds"
+    "season-3-the-book-of-little-sounds",
+    "season-4-the-doorway-tree"
   ],
   "lectures": [
     {
@@ -275,9 +276,93 @@
       "series_id": "willow-bend-little-lights",
       "season_number": 3,
       "episode_number": 6
+    },
+    {
+      "id": "019000",
+      "title": "Tess and the Bent Orchard Path",
+      "section": "season-4-the-doorway-tree",
+      "file": "019000-tess-and-the-bent-orchard-path.md",
+      "spoken_words": 743,
+      "draft_status": "substantive",
+      "description": "Tess visits the orchard, discovers that her straight map line misses a path bend, and names the two-trunk Doorway Tree.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 4,
+      "episode_number": 1
+    },
+    {
+      "id": "020000",
+      "title": "Lila and the Doorway Tree",
+      "section": "season-4-the-doorway-tree",
+      "file": "020000-lila-and-the-doorway-tree.md",
+      "spoken_words": 759,
+      "draft_status": "substantive",
+      "description": "Lila visits the orchard for the first time, and the children invent Button Town through the ordinary two-trunk Doorway Tree.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 4,
+      "episode_number": 2
+    },
+    {
+      "id": "021000",
+      "title": "Bo's Very Important Tiny Post Office",
+      "section": "season-4-the-doorway-tree",
+      "file": "021000-bos-very-important-tiny-post-office.md",
+      "spoken_words": 706,
+      "draft_status": "substantive",
+      "description": "Bo opens a pretend post office at the Doorway Tree with drawings, slipper wheels and a basket that keeps all the real letters.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 4,
+      "episode_number": 3
+    },
+    {
+      "id": "022000",
+      "title": "Rill and the Lake the Size of a Teacup",
+      "section": "season-4-the-doorway-tree",
+      "file": "022000-rill-and-the-lake-the-size-of-a-teacup.md",
+      "spoken_words": 706,
+      "draft_status": "substantive",
+      "description": "On Rill’s first orchard visit, an ordinary puddle becomes Lake Teacup in the friends’ imagined Button Town.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 4,
+      "episode_number": 4
+    },
+    {
+      "id": "023000",
+      "title": "Nori and Button Town's Quietest Place",
+      "section": "season-4-the-doorway-tree",
+      "file": "023000-nori-and-button-towns-quietest-place.md",
+      "spoken_words": 679,
+      "draft_status": "substantive",
+      "description": "The children add a bell, invisible socks and a bell-free resting spot to Button Town without asking everyone to play the same way.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 4,
+      "episode_number": 5
+    },
+    {
+      "id": "024000",
+      "title": "A Map for Two Kinds of Places",
+      "section": "season-4-the-doorway-tree",
+      "file": "024000-a-map-for-two-kinds-of-places.md",
+      "spoken_words": 875,
+      "draft_status": "substantive",
+      "description": "All five friends make a separate imaginary map of Button Town and place it beside the completed Book of Little Sounds.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 4,
+      "episode_number": 6
     }
   ],
-  "season_count": 3,
+  "season_count": 4,
   "seasons": [
     {
       "number": 1,
@@ -316,6 +401,19 @@
         "016000",
         "017000",
         "018000"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "The Doorway Tree",
+      "section": "season-4-the-doorway-tree",
+      "episode_ids": [
+        "019000",
+        "020000",
+        "021000",
+        "022000",
+        "023000",
+        "024000"
       ]
     }
   ]
