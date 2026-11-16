@@ -103,3 +103,18 @@ Each remains one-narrator original fiction for ages 3–4, primarily three,
 with direct caregiver references and source-specific limits. None has an
 assigned moral. Future work should prioritize live TTS listening feedback
 for this now larger collection, not extra infrastructure or compulsive tests.
+
+
+## Added: 040000–045000 — six more independent bedtime stories
+
+- 040000 — Joe's wagging puppy tail makes a household mess and discovers a lost sock.
+- 041000 — Kate tracks raindrops and the changing paths they make on her window.
+- 042000 — Danny's forked carrot seems to be wearing two orange trouser legs.
+- 043000 — A miniature beetle bus detours around a fallen leaf.
+- 044000 — Lisa and Grandpa ride a library elevator downstairs before going up to the picture books.
+- 045000 — Dora watches the blinking light of a lighthouse beside her mother.
+
+This batch uses the updated names from the previous character-renaming overlay.
+It does not modify episodes 001000–039000 or the separate episodic tracks.
+No fixed duration, prescribed moral, or new source catalog entries are required.
+A real listening review remains the most useful next quality step.

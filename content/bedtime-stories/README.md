@@ -50,7 +50,7 @@ course browser; each story sidecar repeats genre and age-range metadata.
 | 032000 | [The Giant's Small Quilt](032000-the-giants-small-quilt.md) | A mouse offers a little patchwork quilt to a giant, who finds it makes an excellent blanket for one chilly toe. |
 | 033000 | [The Stars' Small Camping Trip](033000-the-stars-small-camping-trip.md) | Three make-believe stars camp between clouds with a tiny spoon, pretend moonberry soup, and an unhurried goodnight. |
 
-## Parents' rationale and citations (004000–039000)
+## Parents' rationale and citations (004000–045000)
 
 [**A quiet guide for parents and caregivers**](PARENTS_GUIDE.md) explains the
 earlier developmental themes and newer play-first stories, gives optional
@@ -68,7 +68,7 @@ that our stories have been tested or cause measured learning outcomes.
 The original three pilot stories (001000–003000) remain unchanged and are
 original fiction without claimed developmental intervention effects.
 
-The **thirty-nine** stories require no character-specific synthesized voices: dialogue
+The **forty-five** stories require no character-specific synthesized voices: dialogue
 is reported by the narrator, or is absent. The stories are not required to
 have a particular duration. They stand alone even though one includes a small
 cross-story reference.
@@ -79,7 +79,7 @@ The exact TTS text is between the `BEGIN SPOKEN LECTURE` and `END SPOKEN
 LECTURE` markers. Author companions below the end marker give reading notes
 and explain what the story is trying to accomplish. They are **not** spoken.
 
-All thirty-nine manuscripts are newly authored original fiction. They do not adapt
+All forty-five manuscripts are newly authored original fiction. They do not adapt
 published plots or reuse external story text. `metadata/sources.json` holds
 parent-facing developmental and play references for 004000–039000 only. Original
 fictional descriptions and bedtime choices should not be misrepresented as
@@ -124,3 +124,26 @@ wind-painting story uses directly observable movement of leaves and ribbons.
 Those claims have targeted parent citations. All fantasy, artistic judgments,
 and suggestions for discussion are labeled accordingly. No sound effects,
 voice acting, images, or fixed duration target are required.
+
+
+## Added: 040000–045000 — a puppy, changing weather, a tiny bus, and a lighthouse
+
+All six are **standalone** stories; no child needs to know the other tracks or the
+characters' earlier appearances. They use a consistent narrator and resolve
+before bedtime, without assigned morals or fixed durations.
+
+| Story ID | Title | Shape |
+| --- | --- | --- |
+| 040000 | [Joe and the Very Helpful Tail](040000-joe-and-the-very-helpful-tail.md) | A puppy tries to keep his wagging tail out of the way while Dad tidies the sitting room, only to discover what it has found. |
+| 041000 | [Kate and the Raindrop Roads](041000-kate-and-the-raindrop-roads.md) | Kate watches two drops travel down the outside of a window, join other drops, and make changing little roads in the rain. |
+| 042000 | [Danny and the Carrot with Two Legs](042000-danny-and-the-carrot-with-two-legs.md) | Danny finds a forked carrot at harvest time and gives it pretend boots before drawing its wonderfully crooked shape. |
+| 043000 | [The Beetle Bus and the Crooked Road](043000-the-beetle-bus-and-the-crooked-road.md) | A seedpod-sized garden bus meets a fallen leaf across its road and takes a new route to deliver its passengers home. |
+| 044000 | [Lisa and the Elevator That Went Down First](044000-lisa-and-the-elevator-that-went-down-first.md) | Lisa and Grandpa ride a library elevator the wrong direction at first, discover the book carts below, and finally reach the upstairs picture books. |
+| 045000 | [Dora and the Lighthouse's Little Blink](045000-dora-and-the-lighthouses-little-blink.md) | Dora the young seal watches a lighthouse go dark between flashes and learns to wait comfortably for its next small blink. |
+
+The earlier character renames remain in place (Danny, Sam, Lisa, Kate, Pete,
+Beth, Abby, Mike, Mona, Tina, June, Eddie, and Dora). Joe is a new standalone
+puppy, not a character in the separate *Brook Road Builders* continuity.
+The caretaker notes and exact story-linked editorial citations remain outside
+spoken narration. The source catalog is unchanged; only existing references
+are reused here.
