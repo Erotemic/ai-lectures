@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-repairing-tears-seams-and-worn-clothing.md",
+  "related_resources": [
+    {
+      "source_id": "wsu-fabrics",
+      "reason": "Woven, knit, nonwoven and fabric grain"
+    },
+    {
+      "source_id": "usu-knits",
+      "reason": "Stretch and recovery testing"
+    },
+    {
+      "source_id": "osu-seams",
+      "reason": "Plain seams, allowances, pressing, finish decisions"
+    },
+    {
+      "source_id": "sewing-seams",
+      "reason": "Stitch lines and seam allowances"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P006000-01",
+      "claim": "Woven and knit fabrics have different constructions and extension characteristics, affecting repair stitches.",
+      "kind": "textile_construction",
+      "supports": [
+        {
+          "source_id": "wsu-fabrics",
+          "location": "Fabric-construction study guide; knit-fabric considerations",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-knits",
+          "location": "Fabric-construction study guide; knit-fabric considerations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-02",
+      "claim": "Seam allowances, seam finishing, and compatible stitches affect repair durability.",
+      "kind": "sewing_technique",
+      "supports": [
+        {
+          "source_id": "osu-seams",
+          "location": "Plain seams and seam finishes; simple seaming techniques",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "sewing-seams",
+          "location": "Plain seams and seam finishes; simple seaming techniques",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-03",
+      "claim": "Repairing a tear and repairing a seam failure require different engagement of surrounding material.",
+      "kind": "derived_repair_reasoning",
+      "supports": [
+        {
+          "source_id": "osu-seams",
+          "location": "Seams and fabric structures; derived comparison of mechanical failure modes",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "wsu-fabrics",
+          "location": "Seams and fabric structures; derived comparison of mechanical failure modes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+}

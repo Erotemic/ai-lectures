@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-stroke-heart-attack-and-severe-allergic-reactions.md",
+  "related_resources": [
+    {
+      "source_id": "aha-redcross-2024-firstaid",
+      "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+    },
+    {
+      "source_id": "cdc-stroke-may2026",
+      "reason": "BE FAST signs, emergency activation, symptoms that resolve and onset timing"
+    },
+    {
+      "source_id": "aha-warning",
+      "reason": "Heart attack symptoms and B.E.F.A.S.T. stroke recognition"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P006000-01",
+      "claim": "FAST/B.E. FAST symptoms can support layperson stroke recognition, but emergency services should be activated immediately.",
+      "kind": "clinical_guideline",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "2024 First Aid guideline stroke recognition; CDC BE FAST and EMS guidance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-stroke-may2026",
+          "location": "2024 First Aid guideline stroke recognition; CDC BE FAST and EMS guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P006000-02",
+      "claim": "Chest pain or other possible heart-attack symptoms merit emergency activation; aspirin use has specific eligibility and uncertainty caveats.",
+      "kind": "clinical_guideline",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "2024 First Aid guideline Chest Pain in Adults; AHA warning signs",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aha-warning",
+          "location": "2024 First Aid guideline Chest Pain in Adults; AHA warning signs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P006000-03",
+      "claim": "Epinephrine is primary immediate treatment for anaphylaxis; first aid may assist with a prescribed auto-injector and activate EMS.",
+      "kind": "clinical_guideline",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "2024 First Aid guideline Anaphylaxis recommendations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+}

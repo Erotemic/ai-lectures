@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-pruning-seasonality-and-plant-architecture.md",
+  "related_resources": [
+    {
+      "source_id": "umn-pruning",
+      "reason": "Thinning and heading cuts, branch collar, and appropriate species/season timing"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P006000-01",
+      "claim": "Thinning cuts and heading cuts affect branch architecture and subsequent growth differently.",
+      "kind": "horticulture",
+      "supports": [
+        {
+          "source_id": "umn-pruning",
+          "location": "Pruning trees and shrubs: heading versus thinning cuts",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-02",
+      "claim": "Branch-removal cuts should preserve the branch collar rather than cut flush or leave long stubs.",
+      "kind": "horticultural_practice",
+      "supports": [
+        {
+          "source_id": "umn-pruning",
+          "location": "Proper branch pruning: branch collar and multi-stage removal",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-03",
+      "claim": "Pruning timing depends on the plant and its flowering and disease context.",
+      "kind": "derived_horticulture",
+      "supports": [
+        {
+          "source_id": "umn-pruning",
+          "location": "When to prune: season and plant types; author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+}

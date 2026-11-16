@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-fasteners-torque-and-connection-design.md",
+  "related_resources": [
+    {
+      "source_id": "rammer-fastenings",
+      "reason": "Fastener types, withdrawal versus lateral loading, splitting, connector assumptions"
+    },
+    {
+      "source_id": "openstax-torque",
+      "reason": "Torque and perpendicular moment arm"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P006000-01",
+      "claim": "Wood fasteners differ in withdrawal and lateral resistance; joint properties depend on dimensions, spacing and grain direction.",
+      "kind": "wood_mechanics",
+      "supports": [
+        {
+          "source_id": "rammer-fastenings",
+          "location": "Abstract and Chapter 8: nail, screw, bolt, connector lateral/withdrawal resistance and spacing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-02",
+      "claim": "Tightening torque is a turning moment and is not interchangeable with direct clamping force.",
+      "kind": "derived_joint_mechanics",
+      "supports": [
+        {
+          "source_id": "openstax-torque",
+          "location": "OpenStax moments; fastener-design synthesis about friction-dependent preload",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rammer-fastenings",
+          "location": "OpenStax moments; fastener-design synthesis about friction-dependent preload",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-03",
+      "claim": "A connection must be analyzed for pull, shear, and moments as well as substrate or edge damage.",
+      "kind": "derived_connection_design",
+      "supports": [
+        {
+          "source_id": "rammer-fastenings",
+          "location": "Fastenings chapter: withdrawal, lateral resistance, bearing, spacing/edge/end distance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+}

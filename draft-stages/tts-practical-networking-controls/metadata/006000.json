@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-local-first-reliability-and-dependency-mapping.md",
+  "related_resources": [
+    {
+      "source_id": "rfc2131",
+      "reason": "DHCP address allocation and configuration"
+    },
+    {
+      "source_id": "rfc1034",
+      "reason": "Domain names and DNS resolution architecture"
+    },
+    {
+      "source_id": "cisco-poe",
+      "reason": "PoE standards family and source/device power relationships"
+    },
+    {
+      "source_id": "cisco-poe-brief",
+      "reason": "IEEE 802.3af/at/bt source and receiver limits and power over pairs"
+    },
+    {
+      "source_id": "nist-router-security",
+      "reason": "Router integrity, availability, and security as system dependencies"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P006000-01",
+      "claim": "DHCP address allocation and DNS name resolution are separate network dependencies.",
+      "kind": "network_protocol_semantics",
+      "supports": [
+        {
+          "source_id": "rfc2131",
+          "location": "RFC 2131 DHCP overview and lease semantics; RFC 1034 domain-name facilities",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rfc1034",
+          "location": "RFC 2131 DHCP overview and lease semantics; RFC 1034 domain-name facilities",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-02",
+      "claim": "A PoE switch can couple data and power availability for attached endpoint devices.",
+      "kind": "network_power_dependency",
+      "supports": [
+        {
+          "source_id": "cisco-poe",
+          "location": "Cisco PoE: Ethernet power and communication over same cable",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cisco-poe-brief",
+          "location": "Cisco PoE: Ethernet power and communication over same cable",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-03",
+      "claim": "Router integrity, availability and security are system-level requirements for home networks.",
+      "kind": "cybersecurity_system_design",
+      "supports": [
+        {
+          "source_id": "nist-router-security",
+          "location": "NISTIR 8425A abstract: router cybersecurity and availability",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+}

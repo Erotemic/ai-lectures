@@ -1,9 +1,8 @@
 # Rotation backlog: Gardening, Soil, and Landscaping: Living Systems and Water
 
-Status: lectures `001000`–`005000` authored. Remaining slots below are proposed topics, not completed manuscripts.
+Status: lectures `001000`–`006000` authored. Remaining slots below are proposed topics, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `006000` — Pruning, Seasonality, and Plant Architecture
 - `007000` — Observing Pests, Disease, and Nutrient Stress
 
 **Editorial method:** Narrate the physics and practice directly; use non-spoken companions for equations, diagrams, source locators, regional code or regulatory scope, and unresolved professional-review needs.

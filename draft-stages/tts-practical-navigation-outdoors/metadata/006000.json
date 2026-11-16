@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-route-planning-weather-and-turnaround-decisions.md",
+  "related_resources": [
+    {
+      "source_id": "usgs-topo",
+      "reason": "Contour lines, elevation and mapping scales"
+    },
+    {
+      "source_id": "usgs-map-compass-guide",
+      "reason": "Map scale, contour terrain interpretation and compass use"
+    },
+    {
+      "source_id": "nws-lightning-outdoors",
+      "reason": "Lightning hazards and why tents/open shelters are not safe places during storms"
+    },
+    {
+      "source_id": "nws-lightning-tips",
+      "reason": "Thunder as warning and immediate shelter; conditions to resume activity"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P006000-01",
+      "claim": "Terrain shape and checkpoints can be inferred from topographic map contours, but time and pace require additional estimates.",
+      "kind": "derived_route_planning",
+      "supports": [
+        {
+          "source_id": "usgs-topo",
+          "location": "USGS topographic map contours and navigating with map and compass",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usgs-map-compass-guide",
+          "location": "USGS topographic map contours and navigating with map and compass",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Derived explanation or calculation: source supports premises/context, not necessarily the identical synthesis; verify application details separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-02",
+      "claim": "Thunderstorm exposure cannot be made safe merely by using a tent or open outdoor shelter.",
+      "kind": "national_weather_guidance",
+      "supports": [
+        {
+          "source_id": "nws-lightning-outdoors",
+          "location": "NWS lightning outdoors guidance: shelters and exposed terrain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P006000-03",
+      "claim": "NWS recommends reaching suitable enclosed shelter upon hearing thunder and not resuming promptly after thunder.",
+      "kind": "national_weather_guidance",
+      "supports": [
+        {
+          "source_id": "nws-lightning-tips",
+          "location": "Lightning Tips: thunder warning and 30 minutes after last sound",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_authoritative_publisher_or_original_work; subject_matter_review_pending",
+      "limits": "Authoritative source is cited within its scope; this is not a universal equipment specification, local code, medical protocol or legal opinion.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Sources credit original researchers or issuers; distinguish author synthesis from sourced facts, and laws/guidelines from adopted local requirements or professional certification."
+}
