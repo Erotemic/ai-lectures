@@ -49,6 +49,15 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 | 481000 | 17 | The Dead Messenger and the False Elder | 1024 |
 | 482000 | 17 | Guanyin’s Rebuke and the Wolf Spirit | 972 |
 | 483000 | 17 | The Pill and the Bear’s New Office | 917 |
+| 484000 | 18 | The Robe Returned and a Servant Stopped on the Road | 1138 |
+| 485000 | 18 | Old Squire Gao and the Husband Who Changed His Face | 1051 |
+| 486000 | 18 | Cuilan Behind the Door and the Visitor in the Wind | 951 |
+| 487000 | 18 | The Name That Sent the Son-in-Law Running | 895 |
+| 488000 | 19 | The Nine-Toothed Rake and Marshal Tianpeng | 870 |
+| 489000 | 19 | A Night of Fighting and a Morning at Gao Village | 984 |
+| 490000 | 19 | The Cave, the Iron Head, and the Vow to Travel West | 1039 |
+| 491000 | 19 | Zhu Wuneng, Zhu Bajie, and the Road Out of Gao Village | 1156 |
+| 492000 | 19 | Crow-Nest Chan Master and the Heart Sutra | 1460 |
 
 ## Text and evidence decisions
 
@@ -77,6 +86,8 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 - Chapter 15: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC015%E5%9B%9E) - lectures 473000, 474000, 475000.
 - Chapter 16: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC016%E5%9B%9E) — lectures 476000, 477000, 478000, 479000.
 - Chapter 17: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC017%E5%9B%9E) — lectures 480000, 481000, 482000, 483000.
+- Chapter 18: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC018%E5%9B%9E) — lectures 484000, 485000, 486000, 487000.
+- Chapter 19: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC019%E5%9B%9E) — lectures 488000, 489000, 490000, 491000, 492000.
 
 ## Useful reading and navigation
 
@@ -97,10 +108,10 @@ The novella-like origin episode is literary, not a historical biography of the r
 
 ## Progress and next chapter group
 
-The expanded retelling now covers **chapters 1–17** in **43** original English narrative lectures. Chapters 13–15 introduce Wukong and the white dragon horse to Xuanzang's pilgrimage; lectures **476000–483000** continue through the Guanyin Monastery episode and Black Wind Mountain. The elder's greed, attempted arson, Wukong's deliberate wind, the bear's opportunistic theft, failed combats, and Guanyin's rebuke and capture are narrated separately. See `notes/journey-west-chapters-16-17-reading-guide.md` for a scene map, character continuity, and direct sources.
+The expanded retelling covers **chapters 1–19** in **52** original English narrative lectures. The new lectures **484000–492000** cover the return from Black Wind Mountain; Gao Cuilan's rescue; Zhu Ganglie's heavenly origin, fight and conversion; Xuanzang's naming of Zhu Bajie; the pilgrimage's new labor division; and Crow-Nest Chan Master's transmission of the Heart Sutra. See `notes/journey-west-chapters-18-19-reading-guide.md` for scene continuity and direct passage links.
 
-**Next:** chapter 18, the return from Black Wind Mountain, departure from the destroyed monastery, and the first approach to Gao Village, followed by the rest of the Zhu Bajie recruitment sequence in chapter 19. Do not insert chapter 18 resolution events into the chapter 17 narration. Continue without imposing a word-count or duration target.
+**Next:** chapter 20, Yellow Wind Ridge, the tiger vanguard's assault, and the first major peril after Bajie joins. Chapter 19 ends after the Heart Sutra and the mountain descent. Do not move the tiger-vanguard encounter into chapter 19.
 
-The chapters 9–12 numbering caveat remains in force for editions that move the River Child story to an appendix; chapter titles and subjects should guide cross-edition comparison.
+The River Child chapter-9 insertion caveat remains relevant to edition comparison; this retelling continues to use the same selected Chinese witness.
 
-**Chapters 18–100 remain to be written in the expanded literary retelling.** The six World History survey lectures remain available unchanged for the complete plot at a shorter depth.
+**Chapters 20–100 remain unwritten in this expanded strand.** The World History complete-plot survey remains separately available and unchanged.
