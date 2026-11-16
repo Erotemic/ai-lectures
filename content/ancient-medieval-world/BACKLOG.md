@@ -293,3 +293,18 @@ The next high-priority geographical gap is **early Islamic East African settleme
 The **132-lecture** index retains the 127 earlier entries. Every new spoken paragraph has source IDs with explicit source limitations. Wikipedia links are supplementary orientation. The Shungwaya migration narrative is treated as a later, changing history of belonging, not an eyewitness ninth-century migration record; the majority of formally recognized Mijikenda kaya sites belong to much later phases than Shanga's initial settlement. No single early Swahili village is made into the automatic developmental ancestor of every stone town.
 
 **Further gaps for targeted study:** More excavation-based mainland East African agriculture and inland settlements beyond diagnostic pottery; rural Indian Ocean networks between Kenya and Mozambique; smaller pre-1500 Philippine communities beyond the Laguna Copperplate Inscription; and southern African social organization before the better-known monumental states. Prefer substantial site-specific evidence to expanding lists of names.
+
+## Twelfth regional-depth installment — completed (November 2026)
+
+| ID | New lecture | Evidence emphasis |
+| --- | --- | --- |
+| 036800 | Stones for the Living | Dated communal monument, burial inclusivity, and limits of hierarchy inferences at Lothagam North |
+| 036810 | A Herd and Grinding Stones | Livestock, domestic deposits, and 2026 plant-residue results at Luxmanda without a crop-cultivation leap |
+| 036820 | After the Lake Shifted | Kansyore site variation, lake-river use, mixed western Uganda economies, and ceramic/social contacts |
+| 036830 | A Seed in the Hearth | Directly dated cowpea and later millet/sorghum, crop transitions and settlement changes at Kakapel |
+| 036840 | Iron behind the Ports | Kasigau iron smelting, Tsavo livelihoods, local labor and interpretive limits of inferred trade networks |
+| 036850 | Building Fields from Rivers | Engaruka check dams, deep alluvial soils, wetting regimes, complex chronology and contested collapse narratives |
+
+The pack now has **138 indexed lectures**. Academic sources are cited in manuscript reading lists and referenced per paragraph by `metadata/NNNNNN.json`; the citation registry notes public-full-text versus public-abstract access. Wikipedia links are explicitly supplementary. The six lectures form a coherent inland extension without asserting one trajectory from hunter-gathering to farming to hierarchical stone-town commerce.
+
+**Next research candidates:** Direct early iron-smelting and agricultural evidence around Rwanda/Burundi outside canonical ceramic typologies; deeper histories of the Ethiopian and Eritrean highlands beyond Aksum royal sources; northern Mozambique and Malawi farming/settlement sequences; and pre-1500 institutions in the Central African forest. Avoid equating archaeological assemblages, languages and modern national populations.

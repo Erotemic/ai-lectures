@@ -64,6 +64,12 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 036500 | Pots across Rivers and Coasts: The Early Tana Tradition and Africa's Hinterland | 1,520 |
 | 036600 | Who Founded the Coast? Shanga, Mijikenda Histories, and Disputed Origins | 1,611 |
 | 036700 | Beyond the Beach Market: Chibuene and the Routes into Southern Africa | 1,587 |
+| 036800 | Stones for the Living: Lake Turkana's First Herders and a Monument for Many | 1,088 |
+| 036810 | A Herd and Grinding Stones: Working Life at Luxmanda | 1,089 |
+| 036820 | After the Lake Shifted: Kansyore Fishing Communities and Changing Neighbors | 1,197 |
+| 036830 | A Seed in the Hearth: Kakapel and the Crops of Eastern Africa | 1,165 |
+| 036840 | Iron behind the Ports: Kasigau, Tsavo, and the Work of Trade | 1,198 |
+| 036850 | Building Fields from Rivers: Engaruka and the Engineering of Water | 1,237 |
 | 037000 | Fields, Lords, and Market Streets: Medieval European Societies | 1,344 |
 | 037100 | A Charter under Pressure: Magna Carta and the Claims of Law | 1,300 |
 | 038000 | Rivers to the Sea: Scandinavians, Rus, and the North Atlantic | 1,307 |
@@ -184,3 +190,9 @@ Every spoken paragraph in the five additions maps to an evidence record in `meta
 Five inserted lectures use stable vacant IDs `036300`–`036700`, after the earlier Swahili surveys (`036000`, `036100`, `036200`). Their emphasis is on African local organization and archaeology before 1500: early Zanzibar houses and mixed diets; Tumbe and other Pemba villages rather than a presumed straight road to stone towns; locally made Early Tana pottery connecting coasts and hinterlands; Shanga and Mijikenda oral-historical arguments about settlement; and the Chibuene–Letaba exchange horizon. **132 indexed lectures** are now present; the preceding 127 manuscripts and IDs were not modified.
 
 Every new spoken paragraph has a source mapping and a scope limitation in `metadata/NNNNNN.json`. Full open research pages, article abstracts, heritage summaries, and Wikipedia orientation links are identified distinctly; Wikipedia is not used as the sole evidentiary basis of any spoken paragraph. The Shanga early-mosque hypothesis, reinterpretations of Shungwaya, synoecism on Pemba, and the Letaba river-route hypothesis remain attributed scholarly arguments rather than settled firsthand historical accounts. Manuscript lengths describe completed content and are not targets or ceilings.
+
+## Twelfth regional-depth installment — East African inland livelihood and landscape history (November 2026)
+
+Six further site- and method-led lectures use unused IDs `036800`–`036850` after the early East African settlement sequence. They address the collective herder cemetery at Lothagam North; herding and plant processing at Luxmanda; regional differences among Kansyore fishing and mixed economies; Kakapel's directly dated crop transitions; Kasigau iron production and agricultural landscapes; and Engaruka's engineered fields. **138 indexed lectures** now exist, without modifying any of the preceding 132 spoken manuscripts or their per-lecture evidence files.
+
+All 70 new spoken paragraphs map to scholarly source records with locally relevant evidence boundaries. Every lecture supplies academic references and Wikipedia orientation links. The September 2026 Luxmanda microbotany study is marked as reviewed via publisher abstract and highlights, not full methods. The Engaruka chronology is explicitly allowed to extend past 1500 and into later centuries. No grinding stone is presumed proof of crop cultivation, no ceramic type a direct ethnic label, no site-level plant date a universal crop arrival calendar, and no abandoned irrigation system a demonstration of human-caused ecological collapse.
