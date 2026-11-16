@@ -234,6 +234,9 @@ The king wanted to outlast death. The flesh-and-blood man, if there was one, die
 4. **British Museum, Flood Tablet K.3375 (via museum's Google Arts & Culture collection entry).** Physical seventh-century BCE tablet, Ashurbanipal library, bird sequence, and George Smith's 1872 recognition. <https://artsandculture.google.com/asset/the-flood-tablet-relating-part-of-the-epic-of-gilgamesh/wQGL1dmyVmXRYA>
 5. **Philip Freeman, "Lessons from a Demigod," National Endowment for the Humanities.** Accessible literary introduction and account of central narrative episodes. <https://www.neh.gov/humanities/2012/julyaugust/feature/lessons-demigod>
 6. **Andrew R. George, *The Epic of Gilgamesh* (Penguin Classics, 1999; revised editions), and *The Babylonian Gilgamesh Epic: Introduction, Critical Edition and Cuneiform Texts* (Oxford University Press, 2003).** Scholarly translations and text criticism. The lecture paraphrases the narrative rather than reproducing a modern translation.
+7. **Wikipedia, “Epic of Gilgamesh.”** General entry point to the epic, its manuscript tradition, and the main translations; the standard reference for a listener who wants to look the work up. <https://en.wikipedia.org/wiki/Epic_of_Gilgamesh>
+8. **Ira Spar, “The Origins of Writing,” Metropolitan Museum of Art.** Proto-cuneiform and the earliest administrative tablets; background for the lecture’s remark that some of the earliest writing served accounting. <https://www.metmuseum.org/essays/the-origins-of-writing>
+9. **Lambert and Millard, *Atra-hasis: The Babylonian Story of the Flood* (standard critical edition; catalog record).** The standard edition of the Atrahasis flood narrative discussed alongside Genesis. <https://search.worldcat.org/search?q=Lambert+Millard+Atra-hasis+Babylonian+Story+of+the+Flood>
 
 ### Interpretive and accuracy notes
 

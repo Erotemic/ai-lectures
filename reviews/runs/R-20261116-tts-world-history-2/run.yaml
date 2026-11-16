@@ -10,6 +10,6 @@
  "adjudicator": {
   "model": "qwen3.8-27b-dbirks-hyperqwen-long",
   "session": "01a1e543-5cac-75f1-b17f-a5c981f73129",
-  "model_actual": "alias is 27b-class; actual weights not exposed by the proxy (operator: >=27b hyperqwen fine-tune); adjudicator tier additionally has agentic repo access"
+  "model_actual": "27b-class hyperqwen fine-tune; actual weights not exposed by the proxy; agentic session with repo access (same 27b tier as the finder, with tools)"
  }
 }
