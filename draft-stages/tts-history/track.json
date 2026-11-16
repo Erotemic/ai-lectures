@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "Fifty-four researched historical portrait episodes about fifty-two mathematicians, scientists, and computing pioneers. Lives, relationships, places, institutions, and political circumstances lead the narratives. The Newton and Leibniz lives each have two episodes, with substantial mathematical work retained after the biographical arc. Detailed explanations are allowed where they illuminate the discoveries and their historical setting.",
+  "summary": "Fifty-six researched historical portrait episodes covering fifty-two mathematicians, scientists, and computing pioneers. Lives, relationships, places, institutions and political circumstances lead; mathematics is retained and explained once the historical setting is established. Newton, Leibniz, Galois, and Gödel each now have two episodes. No fixed duration limit applies.",
   "assumed_background": [
     "Background varies by portrait; newer human-history entries are accessible without technical mathematics, while earlier manuscripts retain their own stated prerequisites."
   ],
@@ -440,25 +440,47 @@
     },
     {
       "id": "037000",
-      "title": "Évariste Galois: Why can some equations never be solved by radicals?",
+      "title": "Évariste Galois I: A young republican in the schools of Paris",
       "person": "Évariste Galois",
       "section": "algebra",
       "file": "037000-galois.md",
-      "spoken_words": 5218,
+      "spoken_words": 2703,
       "draft_status": "substantive",
       "source_g2": null,
-      "estimated_minutes_at_145_wpm": 36.0
+      "estimated_minutes_at_145_wpm": 18.6
+    },
+    {
+      "id": "037500",
+      "title": "Évariste Galois II: Prison, the Chevalier letter, and the afterlife of an idea",
+      "person": "Évariste Galois",
+      "section": "algebra",
+      "file": "037500-galois-last-years.md",
+      "spoken_words": 3379,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 23.3
     },
     {
       "id": "038000",
-      "title": "Kurt Gödel: Can a mathematical system establish every truth about arithmetic?",
+      "title": "Kurt Gödel I: Brno, Vienna, and the limits of formal proof",
       "person": "Kurt Gödel",
       "section": "logic",
       "file": "038000-godel.md",
-      "spoken_words": 5689,
+      "spoken_words": 3846,
       "draft_status": "substantive",
       "source_g2": null,
-      "estimated_minutes_at_145_wpm": 39.2
+      "estimated_minutes_at_145_wpm": 26.5
+    },
+    {
+      "id": "038500",
+      "title": "Kurt Gödel II: Exile, Princeton, and the nature of mathematical reality",
+      "person": "Kurt Gödel",
+      "section": "logic",
+      "file": "038500-godel-princeton.md",
+      "spoken_words": 2821,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 19.5
     },
     {
       "id": "039000",

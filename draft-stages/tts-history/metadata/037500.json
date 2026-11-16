@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "lecture_id": "037500",
+  "transcript": "037500-galois-last-years.md",
+  "related_resources": [
+    {
+      "source_id": "history-galois-1846",
+      "reason": "Published collection of Galois writings and 1832 letter; originally Journal de Mathématiques Pures et Appliquées."
+    },
+    {
+      "source_id": "history-galois-abel",
+      "reason": "Abel and the impossibility of a general radical formula for the quintic before Galois."
+    },
+    {
+      "source_id": "history-galois-archive-review",
+      "reason": "The 1832 Chevalier letter, manuscript transfer, editorial transmission, and collected editions."
+    },
+    {
+      "source_id": "history-galois-bio-context",
+      "reason": "Historical evidence about the subject’s life, relationships or working habits."
+    },
+    {
+      "source_id": "history-galois-computational",
+      "reason": "Examples connecting factorization modulo primes with cycle types of Galois groups."
+    },
+    {
+      "source_id": "history-galois-ems-introduction",
+      "reason": "Primary manuscript overview and chronology of 1830 finite fields, 1831 memoir, 1832 Chevalier letter, 1846 Liouville edition."
+    },
+    {
+      "source_id": "history-galois-groups-exposition",
+      "reason": "Radical-solvability criterion and concrete quintic examples."
+    },
+    {
+      "source_id": "history-galois-jordan",
+      "reason": "Later systematic development of permutation groups and algebraic equations."
+    },
+    {
+      "source_id": "history-galois-mactutor",
+      "reason": "Schooling, academy submissions, politics, exile from school, imprisonment, last letter and duel."
+    },
+    {
+      "source_id": "history-galois-neumann-chronology",
+      "reason": "Documented timeline of multiple submissions, 1831 arrests and Academy report, 1832 letter, and manuscript transmission to Liouville."
+    },
+    {
+      "source_id": "history-galois-neumann-editions",
+      "reason": "Manuscript transmission, 1831 rejection, 1846 publication, and critical editorial work."
+    },
+    {
+      "source_id": "history-galois-quintic-example",
+      "reason": "Checked example x^5−6x+3 with Galois group S5; Eisenstein and root-count argument."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "037500-h01",
+      "anchor": "In eighteen thirty Galois published on the theory of numbers",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-ems-introduction"
+      ],
+      "source_locator": "Peter M. Neumann, The Mathematical Writings of Évariste Galois: Introduction",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037500-h02",
+      "anchor": "the Frobenius map in characteristic p",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-ems-introduction"
+      ],
+      "source_locator": "Peter M. Neumann, The Mathematical Writings of Évariste Galois: Introduction",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037500-h03",
+      "anchor": "for a polynomial over a field of characteristic zero",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-groups-exposition"
+      ],
+      "source_locator": "Thomas Judson, Abstract Algebra: Galois Theory Applications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037500-h04",
+      "anchor": "The group S three is solvable",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-groups-exposition"
+      ],
+      "source_locator": "Thomas Judson, Abstract Algebra: Galois Theory Applications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037500-h05",
+      "anchor": "A five is a nonabelian simple group",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-groups-exposition"
+      ],
+      "source_locator": "Thomas Judson, Abstract Algebra: Galois Theory Applications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037500-h06",
+      "anchor": "The sixty elements of A five divide into conjugacy classes",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-groups-exposition"
+      ],
+      "source_locator": "Thomas Judson, Abstract Algebra: Galois Theory Applications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037500-h07",
+      "anchor": "Consider x to the fifth minus six x plus three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-quintic-example"
+      ],
+      "source_locator": "Michael Mertens, Galois Theory course notes, Example 5.5.16",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037500-h08",
+      "anchor": "A five-cycle together with a transposition",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-quintic-example"
+      ],
+      "source_locator": "Michael Mertens, Galois Theory course notes, Example 5.5.16",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037500-h09",
+      "anchor": "Chevalier published the letter later in eighteen thirty-two",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-archive-review"
+      ],
+      "source_locator": "MacTutor: Peter Neumann book reviews",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037500-h10",
+      "anchor": "The fundamental theorem of Galois theory",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-groups-exposition"
+      ],
+      "source_locator": "Thomas Judson, Abstract Algebra: Galois Theory Applications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "037500-h11",
+      "anchor": "If we can factor a polynomial modulo carefully chosen primes",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-computational"
+      ],
+      "source_locator": "Keith Conrad, Galois Theory at Work",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "anchor": "In May eighteen thirty-one, Évariste Galois joined a republican dinner",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-neumann-chronology",
+        "history-galois-mactutor"
+      ],
+      "source_locator": "Neumann and MacTutor, May arrest and June acquittal",
+      "audit_status": "source_cross_checked",
+      "id": "037500-h12"
+    },
+    {
+      "anchor": "A second arrest followed a republican demonstration on Bastille Day",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-neumann-chronology"
+      ],
+      "source_locator": "Neumann timeline, July 1831 arrest",
+      "audit_status": "source_cross_checked",
+      "id": "037500-h13"
+    },
+    {
+      "anchor": "Before that second arrest, on July fourth, the Academy of Sciences had issued a negative report",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-neumann-chronology"
+      ],
+      "source_locator": "Neumann timeline, Poisson–Lacroix report",
+      "audit_status": "source_cross_checked",
+      "id": "037500-h14"
+    },
+    {
+      "anchor": "Accounts of his imprisonment describe loneliness",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-mactutor"
+      ],
+      "source_locator": "MacTutor narrative of Sainte-Pélagie confinement; retrospective accounts",
+      "audit_status": "source_cross_checked",
+      "id": "037500-h15"
+    },
+    {
+      "anchor": "In March eighteen thirty-two a cholera epidemic swept Paris",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-neumann-chronology",
+        "history-galois-mactutor"
+      ],
+      "source_locator": "Neumann/MacTutor, cholera transfer",
+      "audit_status": "source_cross_checked",
+      "id": "037500-h16"
+    },
+    {
+      "anchor": "The evidence does not firmly establish what caused the duel",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-neumann-chronology"
+      ],
+      "source_locator": "Neumann timeline and limits of duel conjecture",
+      "audit_status": "source_cross_checked",
+      "id": "037500-h17"
+    },
+    {
+      "anchor": "The duel took place on May thirtieth",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-neumann-chronology"
+      ],
+      "source_locator": "Neumann, 30–31 May 1832",
+      "audit_status": "source_cross_checked",
+      "id": "037500-h18"
+    },
+    {
+      "anchor": "he had written to Auguste Chevalier",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-1846",
+        "history-galois-neumann-chronology"
+      ],
+      "source_locator": "Galois’s testamentary letter and Neumann",
+      "audit_status": "source_cross_checked",
+      "id": "037500-h19"
+    },
+    {
+      "anchor": "In eighteen forty-three he passed manuscripts to Joseph Liouville",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-neumann-chronology",
+        "history-galois-neumann-editions"
+      ],
+      "source_locator": "Neumann, manuscripts 1843 and 1846 edition",
+      "audit_status": "source_cross_checked",
+      "id": "037500-h20"
+    },
+    {
+      "anchor": "Camille Jordan's systematic development of permutation groups in eighteen seventy",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-galois-jordan"
+      ],
+      "source_locator": "MacTutor, Jordan and later elaboration",
+      "audit_status": "source_cross_checked",
+      "id": "037500-h21"
+    }
+  ]
+}

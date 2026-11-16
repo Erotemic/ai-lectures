@@ -1,6 +1,17 @@
 # History · People and ideas
 
-The History track contains **54 historical-portrait episodes covering 52 historical figures** among mathematicians and scientists. Historical lives, places, relationships, working conditions and institutions are the principal subject. Detailed mathematical work may be narrated after the historical story has established its context; this track is not required to omit proof or calculations. Existing entries retain their identifiers and stated prerequisites. Historical claims have linked sources in `metadata/sources.json`; non-spoken companions can retain formulas, chronology and research qualifications.
+The History track contains **56 historical-portrait episodes covering 52 historical figures** among mathematicians and scientists. Historical lives, places, relationships, working conditions and institutions are the principal subject. Detailed mathematical work may be narrated after the historical story has established its context; this track is not required to omit proof or calculations. Existing entries retain their identifiers and stated prerequisites. Historical claims have linked sources in `metadata/sources.json`; non-spoken companions can retain formulas, chronology and research qualifications.
+
+## Galois and Gödel: two historical lives expanded (16 November 2026)
+
+The existing technical manuscripts `037000` and `038000` have been reorganized into **two installments for each historical figure**. The original IDs remain as the opening installments. New part-two IDs `037500` and `038500` fit between established thousand-series entries without renumbering other historical figures.
+
+- [037000 — Évariste Galois I: A young republican in the schools of Paris](037000-galois.md): family, the restored monarchy, teachers and examinations, his father's death, the Academy submissions, July Revolution, expulsion, political organizing, independent teaching and correspondence. The basic polynomial and permutation examples follow the history.
+- [037500 — Évariste Galois II: Prison, the Chevalier letter, and the afterlife of an idea](037500-galois-last-years.md): the 1831 arrests, the Poisson–Lacroix review, imprisonment, cholera transfer, uncertain duel, Chevalier, Liouville, Jordan and later editorial transmission. Then the finite fields, group solvability, quintic example and Galois correspondence of the former lecture.
+- [038000 — Kurt Gödel I: Brno, Vienna, and the limits of formal proof](038000-godel.md): Brünn and its changed political borders, family, education, the Vienna Circle, Adele, the Hilbert school and the 1929–1933 scholarly ascent. Then first-order completeness, proof coding, diagonalization and incompleteness with the substantive original examples.
+- [038500 — Kurt Gödel II: Exile, Princeton, and the nature of mathematical reality](038500-godel-princeton.md): the political destruction of Vienna's research world, his marriage and 1940 emigration, IAS, Einstein, Morgenstern, Adele, and personal difficulties. Then constructibility, relativity, functional interpretation and later philosophy.
+
+All four installments retain sources, exact speech markers and descriptive word counts. The split was a narrative decision, **not** a length limit. Existing worked mathematics and its technical qualifications remain in the spoken text; equations are also retained or divided among display-only companions. Contemporary recollections are distinguished from later legends, including the disputed duel motive and the retrospective citizenship story. Reading notes include relevant Wikipedia articles alongside scholarly and primary references.
 
 ## Newton and Leibniz: expanded historical lives (16 November 2026)
 

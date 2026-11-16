@@ -39,6 +39,12 @@ The two existing person-centered histories have now been expanded into four stan
 
 The first Newton and Leibniz parts emphasize the childhood, education and formative networks that precede their major public contributions. In both two-part lives, **sustained mathematical demonstrations follow the main historical arc**, including Newtonian series, fluxions and gravitation, and Leibnizian differential/integral calculus, mechanical and binary calculation, and mathematical physics. Dates and contested attributions are anchored in source metadata. The total length is governed by the material, not a runtime or word-count target.
 
+## Galois and Gödel: historical reconstruction before technical exposition
+
+`037000`/`037500` (Évariste Galois) and `038000`/`038500` (Kurt Gödel) are now two-part portraits each. The person, cities, formative relationships, education, political institutions, research networks, publication and editorial history precede extended technical treatments. No theorem proof is shortened for an arbitrary length policy: the previously narrated group theory, field examples, completeness, Gödel encoding and independence material is retained and distributed across the installments.
+
+For Galois, avoid the false story that the entire theory was produced in the night before his duel; the published and manuscript sequence begins earlier. The duel's motive is disputed. For Gödel, the 1940 migration must be understood in its political and practical setting. Morgenstern's citizenship recollection is retrospective and its dates are imprecise. Neither mathematical brilliance nor private illness should be presented as a diagnosis of the other. Each part has source-claim anchors and nonspoken bibliographies including Wikipedia orientation links.
+
 ## Next review queue
 
 The following are candidates for **restructuring**, not assertions that their existing biographical material is absent. Earlier batches already added valuable historical research to many of them.

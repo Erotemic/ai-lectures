@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "lecture_id": "038500",
+  "transcript": "038500-godel-princeton.md",
+  "related_resources": [
+    {
+      "source_id": "history-godel-1930-1931",
+      "reason": "Bibliographic pointers to 1930 completeness and 1931 incompleteness papers."
+    },
+    {
+      "source_id": "history-godel-ias-einstein",
+      "reason": "Einstein friendship, shared walks, appointment chronology and naturalization recollection."
+    },
+    {
+      "source_id": "history-godel-ias-friendships",
+      "reason": "Einstein friendship and Award, 1948 naturalization, and an appropriately limited use of Morgenstern retrospective testimony."
+    },
+    {
+      "source_id": "history-godel-ias-human",
+      "reason": "Childhood nickname, health concerns, operetta, teaching, Adele, emigration and later personal struggles."
+    },
+    {
+      "source_id": "history-godel-ias-life",
+      "reason": "Family and Vienna years, marriage, 1940 emigration, Adele, and later life."
+    },
+    {
+      "source_id": "history-godel-ias-migration",
+      "reason": "Evidence for family, operetta, Adele, late-1939/1940 eastward migration, appointments and later household difficulties."
+    },
+    {
+      "source_id": "history-godel-ias-scholar",
+      "reason": "IAS dates, career appointments, honors, constructibility, and relative consistency."
+    },
+    {
+      "source_id": "history-godel-incompleteness",
+      "reason": "Technical hypotheses, proofs, omega-consistency, Rosser, and distinctions of completeness and provability."
+    },
+    {
+      "source_id": "history-godel-mactutor",
+      "reason": "Life from Brno and Vienna to Princeton, completeness and incompleteness, set theory, and Einstein."
+    },
+    {
+      "source_id": "history-godel-morgenstern-citizenship",
+      "reason": "A 1971 recollection of Gödel’s citizenship preparation and interview, not a formal constitutional proof."
+    },
+    {
+      "source_id": "history-godel-self-reference",
+      "reason": "The self-reference/diagonalization construction and connection with provability."
+    },
+    {
+      "source_id": "history-godel-sep",
+      "reason": "Technical work and philosophical interests, completeness and incompleteness, constructible universe, relativity, Dialectica interpretation."
+    },
+    {
+      "source_id": "history-godel-set-theory",
+      "reason": "Set-theoretic axioms, continuum hypothesis, constructibility and independence."
+    },
+    {
+      "source_id": "history-godel-university",
+      "reason": "Student history, habilitation, and Vienna historical context."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "038500-h01",
+      "anchor": "One of Gödel's next major achievements concerned the continuum hypothesis",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-sep"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Kurt Gödel",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038500-h02",
+      "anchor": "Gödel introduced the constructible universe",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-set-theory"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Set Theory",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038500-h03",
+      "anchor": "Paul Cohen introduced forcing",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-set-theory"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Set Theory",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038500-h04",
+      "anchor": "In nineteen forty-nine he found solutions of Einstein's equations",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-sep"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Kurt Gödel",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038500-h05",
+      "anchor": "Adele, whom he married in nineteen thirty-eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-ias-life"
+      ],
+      "source_locator": "Institute for Advanced Study: Kurt Gödel—Life, Work and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038500-h06",
+      "anchor": "He died in Princeton in January nineteen seventy-eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-ias-life"
+      ],
+      "source_locator": "Institute for Advanced Study: Kurt Gödel—Life, Work and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038500-h07",
+      "anchor": "his work on the Dialectica interpretation",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-sep"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Kurt Gödel",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038500-h08",
+      "anchor": "first-order semantic consequence and proof",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-incompleteness"
+      ],
+      "source_locator": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038500-h09",
+      "anchor": "Oskar Morgenstern later recalled taking Gödel to the naturalization interview with Einstein",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-godel-ias-einstein",
+        "history-godel-morgenstern-citizenship"
+      ],
+      "source_locator": "Institute for Advanced Study, Kurt Gödel and the Institute",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038500-h10",
+      "anchor": "Georg Kreisel, who visited the Gödels, recalled a more relaxed Kurt in Adele's company",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-godel-ias-human"
+      ],
+      "source_locator": "Institute for Advanced Study, Kurt Gödel: Life, Work, and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "038500-h11",
+      "anchor": "His death involved extreme malnutrition",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-godel-ias-human"
+      ],
+      "source_locator": "Institute for Advanced Study, Kurt Gödel: Life, Work, and Legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "anchor": "Gödel's former adviser Hans Hahn died in nineteen thirty-four",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-sep"
+      ],
+      "source_locator": "SEP, Hahn and Schlick deaths",
+      "audit_status": "source_cross_checked",
+      "id": "038500-h12"
+    },
+    {
+      "anchor": "In March nineteen thirty-eight Nazi Germany annexed Austria",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-sep",
+        "history-godel-ias-life"
+      ],
+      "source_locator": "SEP/IAS, Anschluss, teaching and military conditions",
+      "audit_status": "source_cross_checked",
+      "id": "038500-h13"
+    },
+    {
+      "anchor": "Gödel and Adele married later that year",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-ias-life"
+      ],
+      "source_locator": "IAS, marriage in 1938",
+      "audit_status": "source_cross_checked",
+      "id": "038500-h14"
+    },
+    {
+      "anchor": "arrived in San Francisco on March fourth",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-ias-migration"
+      ],
+      "source_locator": "IAS, 1940 route and arrival date",
+      "audit_status": "source_cross_checked",
+      "id": "038500-h15"
+    },
+    {
+      "anchor": "a permanent member in nineteen forty-six and a professor in nineteen fifty-three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-ias-scholar",
+        "history-godel-sep"
+      ],
+      "source_locator": "IAS/SEP, career dates",
+      "audit_status": "source_cross_checked",
+      "id": "038500-h16"
+    },
+    {
+      "anchor": "Einstein supported his colleague and proposed him for an Institute award",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-ias-friendships"
+      ],
+      "source_locator": "IAS, 1951 award and Einstein nomination",
+      "audit_status": "source_cross_checked",
+      "id": "038500-h17"
+    },
+    {
+      "anchor": "Oskar Morgenstern, his friend and a witness",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-morgenstern-citizenship",
+        "history-godel-ias-friendships"
+      ],
+      "source_locator": "Morgenstern’s 1971 recollection and IAS context",
+      "audit_status": "source_cross_checked",
+      "id": "038500-h18"
+    },
+    {
+      "anchor": "Georg Kreisel remembered that Gödel could relax and laugh when Adele was present",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-ias-life"
+      ],
+      "source_locator": "IAS quoting Kreisel’s recollection of their household",
+      "audit_status": "source_cross_checked",
+      "id": "038500-h19"
+    },
+    {
+      "anchor": "Gödel received the Einstein Award in nineteen fifty-one",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-ias-scholar",
+        "history-godel-ias-friendships"
+      ],
+      "source_locator": "IAS awards chronology",
+      "audit_status": "source_cross_checked",
+      "id": "038500-h20"
+    },
+    {
+      "anchor": "National Medal of Science in nineteen seventy-four",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-godel-ias-life"
+      ],
+      "source_locator": "IAS, science medal 1974",
+      "audit_status": "source_cross_checked",
+      "id": "038500-h21"
+    }
+  ]
+}
