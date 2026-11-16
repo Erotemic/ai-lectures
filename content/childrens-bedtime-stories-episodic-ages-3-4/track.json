@@ -1,7 +1,7 @@
 {
   "id": "childrens-bedtime-stories-episodic-ages-3-4",
   "title": "Children's Bedtime Stories — Episodic (Ages 3–4)",
-  "summary": "Original sequential, single-narrator bedtime adventures for ages 3–4, primarily age three. Season one explores Willow Bend and completes the Little-Light Walk; season two travels west to Far Meadow, meets Wendy, and completes a ribbon picnic. Season three travels east past Round Pond into Reed Meadow, meets Todd and Aunt Pat, and finishes Ben’s Book of Little Sounds. Places, relationships and objects persist between episodes; every night closes gently. Non-spoken caregiver explanations and citations do not assert developmental or sleep effects. Season four revisits the southern orchard, corrects one bend on Amy’s real map, and grows an explicitly imaginary Button Town game around the two-trunk Doorway Tree; its pretend map ends safely at the Story House. Season five stays near Story House, where a small garden is permitted, seeded, observed over several visits and celebrated as a little patch of seedlings; it does not grow instant flowers or reset other objects. Season six crosses several evenings from a thin waxing crescent to a full Moon, following distinct observations and silly games at established homes; the same valley, friendships, garden, maps and shelves persist. Season seven introduces Sue and Grandpa Ed at a small stone cottage near the fenced old mill; the six existing friends build relationships in separate playful visits, and Sue chooses the round-window symbol for Amy's real yellow map. No established geography or Story House collection is reset.",
+  "summary": "Original sequential, single-narrator bedtime adventures for ages 3–4, primarily age three. Season one explores Willow Bend and completes the Little-Light Walk; season two travels west to Far Meadow, meets Wendy, and completes a ribbon picnic. Season three travels east past Round Pond into Reed Meadow, meets Todd and Aunt Pat, and finishes Ben’s Book of Little Sounds. Places, relationships and objects persist between episodes; every night closes gently. Non-spoken caregiver explanations and citations do not assert developmental or sleep effects. Season four revisits the southern orchard, corrects one bend on Amy’s real map, and grows an explicitly imaginary Button Town game around the two-trunk Doorway Tree; its pretend map ends safely at the Story House. Season five stays near Story House, where a small garden is permitted, seeded, observed over several visits and celebrated as a little patch of seedlings; it does not grow instant flowers or reset other objects. Season six crosses several evenings from a thin waxing crescent to a full Moon, following distinct observations and silly games at established homes; the same valley, friendships, garden, maps and shelves persist. Season seven introduces Sue and Grandpa Ed at a small stone cottage near the fenced old mill; the six existing friends build relationships in separate playful visits, and Sue chooses the round-window symbol for Amy's real yellow map. No established geography or Story House collection is reset. Season eight changes the familiar Story House doorway: Grandpa Ed repairs its stiff hinge, the old squeak disappears, new quiet and comic greetings follow, and Amy records the new click beside the old squeak mark on her map.",
   "assumed_background": [
     "Age 3–4; prior episodes enrich continuity but each episode includes enough context to enjoy on its own."
   ],
@@ -25,7 +25,8 @@
     "season-4-the-doorway-tree",
     "season-5-the-little-growing-garden",
     "season-6-the-moon-over-five-windows",
-    "season-7-the-round-window-cottage"
+    "season-7-the-round-window-cottage",
+    "season-8-the-story-houses-quiet-door"
   ],
   "lectures": [
     {
@@ -615,9 +616,93 @@
       "series_id": "willow-bend-little-lights",
       "season_number": 7,
       "episode_number": 6
+    },
+    {
+      "id": "043000",
+      "title": "The Door That Lost Its Squeak",
+      "section": "season-8-the-story-houses-quiet-door",
+      "file": "043000-the-door-that-lost-its-squeak.md",
+      "spoken_words": 610,
+      "draft_status": "substantive",
+      "description": "Amy, Sue and Ben discover that the Story House door no longer squeaks after Grandpa Ed fixes its stiff hinge; Amy keeps the old sound mark on her map.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 8,
+      "episode_number": 1
+    },
+    {
+      "id": "044000",
+      "title": "Ben and the Very Small Welcome Committee",
+      "section": "season-8-the-story-houses-quiet-door",
+      "file": "044000-ben-and-the-very-small-welcome-committee.md",
+      "spoken_words": 557,
+      "draft_status": "substantive",
+      "description": "Ben tries to replace the missing squeak with a committee made of a pebble and a leaf; a wiggly wave works better, and the committee retires.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 8,
+      "episode_number": 2
+    },
+    {
+      "id": "045000",
+      "title": "Sue and the Castle Bakery Door",
+      "section": "season-8-the-story-houses-quiet-door",
+      "file": "045000-sue-and-the-castle-bakery-door.md",
+      "spoken_words": 565,
+      "draft_status": "substantive",
+      "description": "At Round Window Cottage, Sue adds a small flap door to her cardboard castle bakery and invents window orders for customers who cannot fit through it.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 8,
+      "episode_number": 3
+    },
+    {
+      "id": "046000",
+      "title": "Kim and the Little Click",
+      "section": "season-8-the-story-houses-quiet-door",
+      "file": "046000-kim-and-the-little-click.md",
+      "spoken_words": 604,
+      "draft_status": "substantive",
+      "description": "Kim visits the newly quiet Story House with Todd, whose damp yellow boots say shup; she notices the small click of the repaired door latch.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 8,
+      "episode_number": 4
+    },
+    {
+      "id": "047000",
+      "title": "Wendy and the Knock-Knock Hat",
+      "section": "season-8-the-story-houses-quiet-door",
+      "file": "047000-wendy-and-the-knock-knock-hat.md",
+      "spoken_words": 608,
+      "draft_status": "substantive",
+      "description": "Wind makes Wendy's blue hat ribbon tap the Story House doorframe, and Ben thinks the quiet door has learned to knock.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 8,
+      "episode_number": 5
+    },
+    {
+      "id": "048000",
+      "title": "The House with the Quiet Door",
+      "section": "season-8-the-story-houses-quiet-door",
+      "file": "048000-the-house-with-the-quiet-door.md",
+      "spoken_words": 809,
+      "draft_status": "substantive",
+      "description": "All six friends enjoy an ordinary Story House afternoon; Amy keeps the old squeak curl on her map and adds a small blue dot for the new latch click.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 8,
+      "episode_number": 6
     }
   ],
-  "season_count": 7,
+  "season_count": 8,
   "seasons": [
     {
       "number": 1,
@@ -708,6 +793,19 @@
         "040000",
         "041000",
         "042000"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "The Story House's Quiet Door",
+      "section": "season-8-the-story-houses-quiet-door",
+      "episode_ids": [
+        "043000",
+        "044000",
+        "045000",
+        "046000",
+        "047000",
+        "048000"
       ]
     }
   ]

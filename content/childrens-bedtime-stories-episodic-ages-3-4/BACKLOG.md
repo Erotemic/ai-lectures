@@ -10,6 +10,8 @@
 - **Season 6, 031000-036000 - The Moon Over Five Windows.** Over several evenings the waxing Moon progresses from narrow crescent to full. Amy, Ben, Kim, Wendy and Todd observe from familiar places. No new Story House shelf project; the real garden grows modestly, the original objects and home routes persist.
 - **Season 7, 037000-042000 - The Round Window Cottage.** Sue and Grandpa Ed move into a stone cottage between the Doorway Tree and the fenced mill, south of Village Green. Sue meets Amy, Ben, Kim, Todd and Wendy in separate visits. At season end Amy draws Sue's round window, with yellow star cushion symbol, on the real yellow map. No new Story House shelf artifact.
 
+- **Season 8, 043000-048000 - The Story House's Quiet Door.** Grandpa Ed fixes the Story House's stiff hinge, so the door opens silently with a soft latch click. Ben invents a wibble-wave, Sue adds a flap to the castle bakery, and Amy adds a tiny blue dot next to the old squeak curl on the real map at the finale. The book, envelope, garden folder and lantern remain in place.
+
 ## Continuity priorities
 
 `WORLD_BIBLE.md` is authoritative for geography, all friendships, maps and object custody. The garden is a real physical place on Amy's yellow map and should not be confused with imaginary Button Town. The Book of Little Sounds stays complete, the orange lantern stays tilted, Kim keeps three pouch pebbles, Wendy's blue ribbon stays on her hat and her picnic banner inside her cottage window, Todd keeps his yellow boots and sketch.
@@ -21,6 +23,10 @@ The phase sequence is complete at full Moon. Amy's yellow map is physical and st
 ## Season-seven resolved state
 
 Sue is established as a recurring mouse friend with Grandpa Ed at Round Window Cottage. She owns a green cushion with one yellow star; the cardboard castle bakery stays at their cottage. Amy's real yellow map has the new location, while the imaginary Button Town map remains in its brown envelope. Six children know one another. The prior Moon phase sequence is over; garden growth continues naturally rather than resetting or instantly maturing. The move is resolved without a grand welcoming event.
+
+## Season-eight resolved state
+
+The old Story House squeak is a memory, not the door's present sound. Grandpa Ed repaired the hinge and it now opens smoothly and quietly, with a small latch click. Amy's yellow map contains both the old squeak curl and a new blue dot. Ben's wibble-wave is a joke, not a required greeting. Sue's cardboard castle bakery has its small flap and WINDOW ORDERS sign at Round Window Cottage. No new collections were added to Story House. The six friends and their grown-ups return to established homes.
 
 ## Possible future arcs, not commitments
 

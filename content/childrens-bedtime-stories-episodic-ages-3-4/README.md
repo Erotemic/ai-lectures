@@ -1,7 +1,7 @@
 # Children's Bedtime Stories — Episodic (Ages 3–4)
 
 **Track ID:** `childrens-bedtime-stories-episodic-ages-3-4`  
-**Series:** *Willow Bend and the Little Lights*; seven completed seasons  
+**Series:** *Willow Bend and the Little Lights*; eight completed seasons  
 **Primary listener:** age three; intended age range: three to four  
 **Performance:** one consistent TTS narrator; no character acting, music, effects, or images needed  
 **Order:** listen in sequence for the full arc, but each episode supplies enough context to listen alone  
@@ -134,3 +134,19 @@ A small **stone cottage with a round window** on the existing southern orchard p
 | 042000 | [The Round Window on the Yellow Map](042000-the-round-window-on-the-yellow-map.md) | With Sue's input, Amy draws stone cottage between Doorway Tree and fenced mill on accurate real yellow map, symbolized by a round window and small yellow star representing Sue's green cushion. Amy keeps map and returns to Blue Door Cottage with Grandma. Everyone safely returns by established paths with grown-ups. Sue's cushion and castle bakery remain at Round Window Cottage; the spoon is in kitchen drawer; the blue cart remains with Grandpa. The Story House shelf remains three collections, no new project. Sue is established recurring friend without pressure to abandon memories of the previous home; season closes fully. |
 
 The canonical geography and exact object custody are in [WORLD_BIBLE.md](WORLD_BIBLE.md). Parent explanations, direct citations and evidence limits are outside the spoken narration in [PARENTS_GUIDE.md](PARENTS_GUIDE.md). Every episode remains for **ages 3–4**, primarily age three, with **one consistent narrator**, no assigned moral, and no prescribed runtime.
+
+
+## Season eight: The Story House's Quiet Door
+
+A small, **lasting change** happens to an old landmark. Grandpa Ed attends to the stiff hinge of the Story House's familiar squeaky door, leaving the door easy to open and its latch softly clicking. The six friends invent absurd welcome committees, a wibble-wave, a tiny bakery door and a knock-knock hat, then share a quiet ordinary afternoon. Amy does not erase the old squeak mark on her real yellow map; at the finale she draws a small blue dot beside it for the new click. The Story House shelf and the wider valley remain stable.
+
+| Episode | Story | Lasting change |
+|---|---|---|
+| 043000 | [The Door That Lost Its Squeak](043000-the-door-that-lost-its-squeak.md) | Grandpa Ed attends to the stiff Story House hinge; the door now moves freely and quietly and its latch makes a gentle click on closing. Its old squeak is gone as a present sound. Amy keeps the existing curl on her map as a memory without erasing it. No bookshelf item, lantern, garden state or other belonging changes. |
+| 044000 | [Ben and the Very Small Welcome Committee](044000-ben-and-the-very-small-welcome-committee.md) | Ben invents a pretend welcome committee of a found pebble and leaf, then returns them to the path/tree after the afternoon. Ben coins the wibble-wave, which Sue, Amy and Grandpa Ed have seen. No sign, bench prop or new shelf item remains. Story House door still opens quietly. |
+| 045000 | [Sue and the Castle Bakery Door](045000-sue-and-the-castle-bakery-door.md) | With Grandpa Ed's help, Sue adds a small flap to the bakery door; it makes a soft fffup/flup sound. Sue and Amy draw a WINDOW ORDERS sign by the crayon window for pretend oversized customers. A paper beetle remains inside the bakery. The spoon goes back to the kitchen drawer, cushion remains Sue's, bakery remains by the round window. |
+| 046000 | [Kim and the Little Click](046000-kim-and-the-little-click.md) | Kim has personally heard the new latch click, Todd jokes that his boots say shup only when damp. Kim retains all three pebbles, Todd retains both yellow boots, and no finished Book of Little Sounds page or other shelf item is changed. They return east with their grown-ups, then part at Round Pond. |
+| 047000 | [Wendy and the Knock-Knock Hat](047000-wendy-and-the-knock-knock-hat.md) | Wendy's ribbon briefly taps the doorframe in a puff of wind; the door has not developed a knocking sound. She keeps her blue-ribboned hat and returns with Aunt Kay to Far Meadow by the established route. Ben and Amy know the knock-knock-hat joke; garden has additional leaves, no harvest. |
+| 048000 | [The House with the Quiet Door](048000-the-house-with-the-quiet-door.md) | At an ordinary Story House visit, Amy intentionally adds a tiny blue dot beside the old squeak curl on her real yellow map, to represent the door's present soft latch click. Both marks remain; map returns to Amy's home. The six-page Book of Little Sounds is looked at with Ben's permission and returned to its original shelf position beside the Button Town envelope and garden folder. The tilted lantern, garden, Ben's scarf, Kim's three pebbles, Wendy's hat/banner, Todd's boots, Sue's cushion/bakery, and all homes/routes stay as previously recorded. The season ends with the repaired quiet door and no pending event. |
+
+The definitive continuity ledger is in [WORLD_BIBLE.md](WORLD_BIBLE.md). Parent-only sources, rationale and optional questions are in [PARENTS_GUIDE.md](PARENTS_GUIDE.md). Each episode is a complete original, single-voice bedtime story for ages 3–4, with no required duration or assigned moral. Earlier episode IDs, manuscripts and filenames are not changed.

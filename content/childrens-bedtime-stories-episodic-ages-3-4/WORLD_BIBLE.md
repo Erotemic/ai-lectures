@@ -1,6 +1,6 @@
 # Willow Bend world bible — continuity authority
 
-For editors and later agents. **Not part of TTS narration.** This is the canonical record for what happens across episodes 001000–036000. Before adding an episode, reconcile its opening state with the final state below.
+For editors and later agents. **Not part of TTS narration.** This is the canonical record for what happens across episodes 001000–048000. Before adding an episode, reconcile its opening state with the final state below.
 
 ## The world
 
@@ -276,3 +276,37 @@ Future stories may borrow the **brown envelope** from the Story House, follow th
 | 042000 | Sue chooses the new symbol for her cottage on Amy's yellow map; all return to their own homes | All six children now know Sue; real map shows Round Window Cottage with star inside round window; the original shelf collections, lantern, growing garden, pouch, ribbon and boots are preserved; the moving arc is resolved without a party or cliffhanger |
 
 **Next-season contract:** Sue is a recurring friend who may participate in later outings; keep her caregiver, home position, round window and green yellow-star cushion stable. Do not confuse Sue's house symbol with the imaginary Button Town map. Children's different preferences and ordinary moments of missing a previous place are allowed to persist. Future stories need not make her the focus, or keep her worrying about the move. No fixed story length, single-voice narration, and non-spoken parent citations remain required.
+
+
+## Season eight — The Story House's Quiet Door (043000–048000)
+
+**Continuity update, not spoken.** The new family at Round Window Cottage is established, and Sue's home stays south of Village Green along the orchard path. This season returns to a familiar physical landmark rather than creating a festival, another collection, or a new region. A change to a familiar sound is permanent, but characters are allowed to remember the old one. Six fully resolved episodes follow.
+
+### The Story House door now
+
+- Through **episode 042000**, the Story House wooden door **squeaks** when opened; Amy's real folded yellow map has a **curl beside the door** representing the sound, drawn back in season one. Do not retcon the earlier squeak away: it happened in all those earlier episodes.
+- In **043000**, **Grandpa Ed repairs the stiff hinge**, with Grandma May present. Thereafter the door **opens freely and quietly**. When Grandma May gently shuts it fully, the **latch gives one soft click**. The hinge does not magically squeak again; temporary noises from hats or footsteps should not be mistaken for its old creak.
+- Amy **keeps the old curl** on her yellow map in 043000. In **048000** she adds **one tiny blue dot beside the curl** to mark the door's new soft click. Both symbols remain side by side, recording a changed real-world feature without erasing what used to be there. Amy returns the map to Blue Door Cottage each evening.
+- The original **silver-spotted orange paper lantern** stays **tilted near the Story House window**, without a flame. The **low shelf** keeps **exactly the three prior collections**: Ben's completed blue six-page *Book of Little Sounds*, the brown envelope with the imaginary Button Town map and props, and the LITTLE GROWING GARDEN folder. Ben looks at his sound book with permission in 048000 and returns it to its original shelf position; **no seventh page** is added. The garden has somewhat more leaves, not an instant harvest or flowers.
+
+### Characters, properties, and comic details
+
+- **Ben** invents the **wibble-wave**, a silly greeting made by shaking his paw, in 044000. He temporarily appoints a path pebble and fallen leaf to a "very small welcome committee," then **returns both** to where they belong outside. No committee furniture or sign stays at Story House. His red scarf remains his.
+- **Sue** at Round Window Cottage has her own **cardboard castle bakery** by the round window. With Grandpa Ed's help she adds a **cardboard flap door** in 045000 that makes a light *fffup/flup* noise, and Amy helps make a **WINDOW ORDERS** sign for big imaginary customers. A **paper beetle** is tucked inside the bakery afterward. The familiar **one spoon** goes back into Grandpa Ed's **kitchen drawer** and Sue's **green cushion with one yellow star** remains under the round window. Sue is an active friend, not perpetually defined by being new.
+- **Kim** personally hears the Story House's soft latch click in 046000. She retains **exactly three pebbles** in her violet pouch, including the striped gray one; she never gives a pebble to the committee or bakery. Her quieter way of visiting remains valid alongside her jokes and curiosity.
+- **Todd's** yellow boots (one blue-patched) make a playful *shup* on a **damp outdoor path**, not the dry Story House floor. Todd and Aunt Pat live east in Reed Meadow, use the established dry path by Round Pond and the **only Pebble Bridge** crossing. Todd and Kim part near Round Pond on the return trip in 046000.
+- In 047000 a gust makes **Wendy's intact blue hat ribbon briefly tap the Story House doorframe**, producing a false "new knock." It is **her ribbon**, not the repaired door. Wendy and Aunt Kay return to their cream cottage **west beyond Bell Hill**, where the **orange/blue/violet picnic banner** remains indoors. The ribbon stays attached to Wendy's hat.
+- The six friends gather for an **ordinary afternoon** in 048000, not a parade or new project. Existing relationships, homes, safely accompanied routes, and belongings are unchanged. The door stays quiet, and the season ends fully.
+
+### Episode-by-episode ledger
+
+| Episode | Local story completion | State to preserve |
+|---|---|---|
+| 043000 | Amy discovers the door no longer squeaks; Ben unsuccessfully looks for the noise in his pocket | Hinge is fixed; quiet opening and latch click; map retains old curl, without blue dot yet |
+| 044000 | Ben's pebble-and-leaf welcome committee retires; friends enjoy wibble-wave | Leaf/pebble returned outdoors; door still quiet; Ben's wave may recur |
+| 045000 | Sue's castle bakery receives a tiny cardboard flap door and window-order service | Bakery remains at Sue's cottage by round window with beetle/sign; spoon back in drawer; cushion hers |
+| 046000 | Kim and Todd listen to little sounds and discover the door's soft click | Kim has all three pebbles; Todd keeps two boots; book remains complete and untouched |
+| 047000 | Wendy's blue hat ribbon taps the doorframe in the wind; Ben mistakes it for a door knock | Door itself is still quiet; hat/ribbon and indoor picnic banner stay with Wendy; no new prop at Story House |
+| 048000 | Six friends reunite; Amy draws a tiny blue dot beside the old curl on her real yellow map | Both map marks persist; all six children at home with grown-ups; all three Story House shelf items unchanged; no cliffhanger |
+
+**After season eight:** New episodes should describe the Story House as having a **quiet opening and gentle latch click**, not its old long squeak, unless someone is recounting an earlier memory or Amy's old map symbol. No requirement to keep every new plot about the door. The map, notepad, Button Town envelope, garden folder, hat, scarf, pouch, boots, bakery and cushion remain in the established homes. Keep original fiction, single-narrator spoken markers, direct parent citations outside those markers, and no fixed length target.
