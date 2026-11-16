@@ -1,6 +1,6 @@
 # Willow Bend world bible — continuity authority
 
-For editors and later agents. **Not part of TTS narration.** This is the canonical record for what happens across episodes 001000–048000. Before adding an episode, reconcile its opening state with the final state below.
+For editors and later agents. **Not part of TTS narration.** This is the canonical record for what happens across episodes 001000–054000. Before adding an episode, reconcile its opening state with the final state below.
 
 ## The world
 
@@ -310,3 +310,44 @@ Future stories may borrow the **brown envelope** from the Story House, follow th
 | 048000 | Six friends reunite; Amy draws a tiny blue dot beside the old curl on her real yellow map | Both map marks persist; all six children at home with grown-ups; all three Story House shelf items unchanged; no cliffhanger |
 
 **After season eight:** New episodes should describe the Story House as having a **quiet opening and gentle latch click**, not its old long squeak, unless someone is recounting an earlier memory or Amy's old map symbol. No requirement to keep every new plot about the door. The map, notepad, Button Town envelope, garden folder, hat, scarf, pouch, boots, bakery and cushion remain in the established homes. Keep original fiction, single-narrator spoken markers, direct parent citations outside those markers, and no fixed length target.
+
+
+## Season nine — The Green Bus to Market Street (049000–054000)
+
+**Continuity update; not spoken.** This season is a series of **adult-accompanied daytime visits** to a neighboring town, not one uninterrupted outing. The bus is an ordinary vehicle; its psssh door sound is a playful metaphor, not speech or magic. All six friends eventually become familiar with Market Street, and the season ends at home, with no pending journey.
+
+### Western route and new permanent setting
+
+- From **Village Green**, go **west past Blue Door Cottage, over Bell Hill** with the established halfway resting bench, then descend west into **Far Meadow**, where Wendy's cream cottage, Windbreak Tree, Sitting Stone and Clover Nook remain in place.
+- **Beyond Far Meadow**, following the westward path, reach a **paved road** and a roofed **green-bus stop** with a bench. This is an ordinary bus route and a new extension beyond the prior real yellow map, not a second path across the creek.
+- The **green bus** runs west along the road into a **neighboring town**, stopping at **Market Street**. Passengers ride seated with trusted grown-ups. The returning bus uses the reverse route; never present the bus as going directly through the orchard, across Pebble Bridge, or through an imaginary gate. The bus doors give a soft psssh when they open.
+- Market Street has a **bakery** with round loaves, flat bread and bread rings; a **public library** with painted book shapes on its broad front window; a **working two-hand shop clock** above an awning; a square **pigeon bench**; and a **flower stall** with flowers in buckets. They are near each other along the street, but do not require a hyper-precise street map. The library and bakery are different institutions; the **Story House remains in Willow Bend**.
+- **No new named resident or named shopkeeper** is introduced. A bus driver, librarian and baker are incidental adult roles. Market Street is a real place, *not* another Button Town imaginary village.
+
+### Stable objects and changes by episode
+
+- **049000:** Amy and Wendy first identify the bus stop with Grandma May and Aunt Kay, then on the next morning take the bus to Market Street and back. They see all principal new landmarks. **Amy's actual yellow map still ends at Far Meadow** at the end; she intends to add the journey later. No bus tickets, fare or souvenir becomes canonical.
+- **050000:** Ben and his grown-up travel with Amy and Grandma May. Ben makes a silly **pretend pigeon parade** beside the square bench and recognizes the bus's psssh doors. No bird is named, chased or fed, and no committee or parade property remains. His **red scarf** stays with him.
+- **051000:** Kim and her grown-up travel with Sue and Grandpa Ed. At the library, Kim's grown-up borrows an original **fictional picture book, *The Loud Blue Sock***, with a blue wheeled sock on the cover and a beetle-shoe joke in nearby books. Kim takes the library book home beside her **violet pouch with exactly three pebbles**. **The book remains checked out until 054000**; it is not added to the Story House shelf or given to Sue. Sue returns to Round Window Cottage with Grandpa Ed, where her cardboard castle bakery remains.
+- **052000:** Todd and Aunt Pat travel from their home in **Reed Meadow** along the existing dry path, **Round Pond → Pebble Bridge → Village Green → Bell Hill → Far Meadow → bus stop**, with rests. Ben and his grown-up meet them at the stop. Todd and Ben eat purchased **ring-shaped bread** as a comic pretend window at a clean bakery table, with grown-ups. Food is eaten or taken home, no bread window, boots or edible props persist. Todd retains both yellow boots, one blue-patched. All return with their grown-ups.
+- **053000:** Sue and Grandpa Ed visit the Market Street shop clock with Wendy and Aunt Kay. The **real clock** works normally, has two moving hands and no pockets. Back home Grandpa Ed helps Sue attach a new **paper pretend clock face** to the existing **cardboard castle bakery**, below which is a **large paper pocket holding a folded paper sandwich**. That clock does **not** run and is not confused with the real working clock. The bakery still has its flup flap door, WINDOW ORDERS sign and paper beetle, in Sue's home at the **round window**, with green yellow-star cushion. Wendy's blue ribbon and Far Meadow banner remain hers.
+- **054000:** All **six friends**, accompanied by their established adults, visit Market Street together. **Kim returns *The Loud Blue Sock* at the library**, closing that borrowing sequence. Amy uses the visit to settle what belongs on the map. At home **Grandma May helps attach a new yellow fold-out flap** to the real map's **western edge**. It has the stop just west of Far Meadow, a **green BUS route** along the paved road to Market Street, and drawings for its clock, bakery, library, pigeon bench and flower stall. The bus line is **not a walkable shortcut**. The new flap stays attached, and the map returns to Amy's bedside. The small green bus sketch on the old loose scrap is superseded by the completed map; no ongoing need to keep the scrap. The quiet Story House door keeps its old curl and new blue dot drawn on the original map, still distinct from Market Street.
+
+### Unchanged home continuity
+
+The **Story House door** has a quiet opening and soft latch click after Grandpa Ed's repair; the old loud squeak exists only as remembered history and the old curl on Amy's map. The **tilted silver-spotted orange electric lantern** remains by the Story House window. The **Book of Little Sounds**, **brown Button Town envelope**, and **Little Growing Garden folder** remain together on its low shelf. The **real garden** develops normally offstage: do not write it as instant giant flowers or as frozen tiny seedlings forever. **Button Town** remains a pretend map and game, separate from Market Street. Kim retains **all three pebbles**; Wendy retains her **blue-ribboned straw hat** and banner at her Far Meadow cottage; Todd retains his patched yellow boot; Ben retains his red scarf and wibble-wave. Sue retains her green yellow-star cushion and newly updated **cardboard bakery** at Round Window Cottage. Every child is home with their own grown-up after the season.
+
+### Episode ledger
+
+| Episode | Locally complete event | Persisting change |
+|---|---|---|
+| 049000 | First green-bus ride with Amy, Wendy, Grandma May and Aunt Kay | Bus stop and Market Street established; Amy's real map **not yet extended** |
+| 050000 | Ben's failed attempt to conduct pigeons turns into his own parade | Ben familiar with town square and pigeon bench; scarf unchanged |
+| 051000 | Kim and Sue explore library, enjoy books with shoes and socks | *The Loud Blue Sock* checked out to Kim's grown-up; at Kim's home until return |
+| 052000 | Todd and Ben use bread rings as funny windows before eating them | Todd knows the bakery; food eaten; both boots unchanged |
+| 053000 | Sue watches working clock and invents a pretend pocket clock | New paper clock with pocket and sandwich permanently added to Sue's bakery |
+| 054000 | Six friends revisit Market Street; Amy extends her map | Library book **returned**; permanent yellow map flap with separately marked **bus route** and Market Street landmarks; all home |
+
+### Forward path
+
+The map now extends west beyond Far Meadow, so future seasons may revisit Market Street without treating it as a first visit. The next season may return to the existing garden after actual additional growth and/or give one of the adults a larger narrative role; neither is obligatory. We are aiming for at least **eleven complete seasons**. Keep all references and optional prompts outside the spoken narration, maintain the familiar cast, and preserve season-level causality without adding manufactured cliffhangers.
