@@ -354,6 +354,42 @@ Several weeks have passed since the early-spring gravel-yard visit in Season Nin
 
 **Technical/evidence boundaries:** University of Minnesota Extension discusses agricultural roof inspection; U.S. DOE guidance covers roof water management and flashing; FMCSA gives cargo securement principles; WoodWorks describes wood-frame bracing; JLG describes telescoping materials handlers and fork attachments. These references support broad real-world functions only. No professional structural verification, specific telehandler operating instructions or developmental outcome is claimed for the fictional event.
 
+## Season Eleven — One Long Road (061000–066000)
+
+### Setting, time and actual project
+
+Following the completed late-spring barn-side repair in Season Ten, the children consider how their neighborhood is connected. This is **one small wayfinding project plus a quiet picnic**, not a new through road, additional bridge, parade of machines, or a retelling that resets previous achievements. It is mild late spring / early summer; winter plows and barn-repair telehandler are not running around the neighborhood. The **existing original Pine Park entrance sign, rain gauge, gate-side crushed-stone repair, tall pine, bench, loop and Pancake Hill stay exactly where they were**.
+
+**Vehicle routes** are still distinct from **walking routes**. From Brook Road, people, puppies and bears can take the Pine Park footpath and Little Bridge to Green Gate Farm. **Dan's blue box truck**, Ms. Pam's white service truck and other large vehicles reach the farm via the longer farm vehicle road branching west by Ms. Pam's Red Door Garage. **Station Lane** runs north from Brook Road between Rex's blue-step home and Pine Park. **Mr. Fred's gravel yard** is north of Pine Park beyond the **northern service lane**, not inside the pedestrian park. Dan's parcel shed is near the western garage junction. Jack's new board is a **schematic picture map**, not an engineering route survey; its solid vehicle-road line and dotted footpath line have an explicit legend.
+
+The one **new permanent object** is a **small clear-covered framed wooden neighborhood picture map** mounted on prepared supports **beside the entrance to Pine Park**, without replacing the original park sign, blocking the public walking entrance, or moving the rain gauge. Its pictures include the garage's red door, firehouse's two red doors, Dan's parcel shed/blue truck, gravel yard stones, pine tree, Little Bridge over the blue brook and Green Gate Farm's red barn/green gate. The adults verify locations, construct and install the board. The drawn routes help fictional visitors orient themselves, but are not a claim of professional cartographic accuracy.
+
+### Episode-state ledger
+
+| ID | Lasting development | What is still ahead in the season |
+|---|---|---|
+| 061000 | Dan delivers routine hen feed by long farm road while children use Little Bridge; Jack sketches different routes and Gus asks for a public map | More careful mapping and an installed board |
+| 062000 | At Rex's blue-step house, a temporary cardboard toy town tests the difference between footpaths and vehicle roads; Jack rolls the drawing for later | Check true locations, plan construction |
+| 063000 | Molly spots and corrects a missing stretch of footpath to the green gate; Jack adds the brook and farm endpoint; Mr. Lee sees the idea | Garage/firehouse/yard route check, construction |
+| 064000 | Ms. Pam, Captain Ann and Mr. Fred check the road branches, Station Lane's north side and gravel service lane; Mr. Lee and Aunt Jo plan a modest board at the park gate | Adult construction and neighborhood gathering |
+| 065000 | Adult-driven compact loader delivers a modest amount of gravel by northern service lane; Dan delivers framed picture board by blue box truck/liftgate; Mr. Lee's crew finishes and opens new map board beside original sign | Quiet neighborhood picnic and homecoming |
+| 066000 | Long-known neighbors enjoy a small picnic; Jack adds board drawing to original notebook; all friends return home; picture map remains in place | None; the eleven-season arc is complete and the neighborhood can continue |
+
+### Cast and continuing objects
+
+- **Rex** is the brown-and-white puppy, one dark ear and one light, with red collar, blue front step, and the same **repaired wooden dump truck with four turning wheels**. He leads with smells, ears, friendship and a running question about biscuits.
+- **Gus** is the bear cub with the original **green cap**; he calls the block town, sign, and tiny gravel pile other things for comic effect. His cap is **not** a symbol on the real map (he keeps misreading the green gate).
+- **Jack**, the young human scientist, retains the **same blue notebook**, adding a distinct solid-road/dotted-path map, corrected Station Lane orientation, and final drawing of the real map board. The earlier quarry, water, snow, barn and truck pages remain. The household cardboard carton delivered in Season Five is reused as a play map and packed up after.
+- **Molly** is the black-and-white farm puppy with white front paws and the blue rope toy **still at the farm**. She catches the missing footpath segment; she and Rex keep their **one-wag greeting**.
+- **Aunt Jo** supervises the friends and public-board planning; **Mr. Lee** is the same beaver carpenter who oversaw the bridge and barn shelter. **Dan** runs the same blue box truck. **Ms. Pam** the raccoon mechanic, **Captain Ann** the fox firefighter, **Farmer Ruth** the goat farmer and **Mr. Fred** the badger yard manager revisit as themselves. No new named cast is introduced.
+- The **compact loader** in 065000 is existing-style machinery used by adults for a short gravel move on the northern **service lane**, and Dan uses his existing liftgate to deliver the framed board. Neither enters the public walking loop; neither crosses Little Bridge. The mounting takes place behind a temporary adult-work barrier. The map remains permanently after the barrier is taken away. Dan, Ms. Pam, Captain Ann, Ruth and Fred retain all their original vehicles, jobs and places.
+- **Green Gate Farm** retains its red tractor, hay stored in the original red barn, hens, sheep, striped-collar goat, long farm road with culvert and the **newly repaired small wagon-door shelter** with original green wheelbarrow returned beneath it. There is no renewed leak or surprise rebuild.
+- **Pine Park** retains its original entrance sign, repaired small gate strip, rain gauge away from the tall pine, bench and Pancake Hill. The map board is **additional and non-obstructing**. The park picnic uses a temporary blanket and leaves no new permanent facility.
+
+### Technical and citation boundaries
+
+USGS mapping education and National Park Service cartographic symbols illustrate the principle of maps, recognizable features, legends and line styles. Existing manufacturers and technical guidance describe box trucks, hand trucks, dump trucks, compact loaders, liftgates and fire apparatus. Those sources do not verify the fictional layout, site work, load weights, signs or child outcomes. The town's solid-line/dotted-line convention is **the board's own explicit key**, not a universal sign standard.
+
 ## Authoring guardrails
 
 - Persistent geography, name spellings and object state survive across episodes and seasons. Never erase a completed project without a depicted reason.

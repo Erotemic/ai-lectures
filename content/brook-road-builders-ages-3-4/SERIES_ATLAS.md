@@ -1,6 +1,6 @@
 # Brook Road Builders — series atlas and expansion plan (not spoken)
 
-This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 060000. Ideas tagged *future* must not be treated as already present in a spoken episode.
+This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 066000. Ideas tagged *future* must not be treated as already present in a spoken episode.
 
 ## What makes this a world, not a truck catalogue
 
@@ -148,7 +148,15 @@ The repair adds no new roads. A temporary **open-bed building-materials delivery
 
 Jack's original notebook gains a page showing an imperfect **loose-jointed square** versus the same little craft model with a **diagonal brace**, and a before/after roof runoff drawing. Rex and Molly keep their one-wag greeting. Gus's cap, Molly's blue rope toy, the farm's hens, sheep, goat and all earlier objects remain unchanged. No new named friend is introduced.
 
-## Eleven-season horizon (ideas, not canon)
+## Season Eleven — one connected picture map, not a new road
+
+The neighborhood now has a **public framed picture map at Pine Park's entrance**. It is a schematic with a **solid line for vehicle routes and dotted line for the public walking path over Little Bridge**, clearly labeled by a picture key. The board marks the already-established **Red Door Garage, Dan's parcel shed, Station Lane firehouse, gravel-yard service road, Pine Park, brook, Little Bridge and Green Gate Farm**. It stands **beside**, not in place of, the original entrance sign. The rain gauge, recently repaired gravel strip, tall pine, bench and Pancake Hill keep their exact earlier roles. Adult builders prepare supports and install the board; Dan's blue box truck delivers it and a compact loader brings a small amount of gravel via the northern service lane. Neither machine crosses the footbridge or enters the pedestrian park loop.
+
+The arc starts when the puppies and friends walk the short bridge route to the farm while Dan follows the **long vehicle farm road**. Gus and Jack build a temporary cardboard town on Rex's rug using the saved carton and the wooden dump truck; Molly fixes a missing path on the map; Ms. Pam, Captain Ann and Mr. Fred check actual locations; Mr. Lee and Aunt Jo supervise the public board. A quiet picnic brings many old neighbors together; they leave the area tidy. Jack adds the picture board to his existing blue notebook; Rex and Molly resume their one-wag greeting, Gus keeps the green cap, Molly's rope toy stays home at the farm, and the original machines and animal routines remain intact.
+
+All eleven planned seasons are now complete. Later series growth is optional and should start from the persistent town, not erase it.
+
+## Eleven-season ledger (completed canon)
 
 1. **Pine Park** — established and complete (earthmoving, paving, park opening).
 2. **The Little Bridge** — established and complete (supports, mixer, crane, farm connection).
@@ -160,9 +168,9 @@ Jack's original notebook gains a page showing an imperfect **loose-jointed squar
 8. **Snow Trucks** — **complete**: one winter snowfall, orange road plow, red salt spreader, Farmer Ruth’s red tractor with snow blade, park snowblower, hand-cleared pedestrian bridge and Jack’s winter-route page.
 9. **Gravel Yard** — **complete**: upstream quarry stone, crusher, vibrating screen, conveyors and piles, yellow wheel loader, scale, green road dump truck and compacted park gate repair.
 10. **The Big Barn Fix** — **complete**: an existing small wagon-door shelter gets a new braced frame, roof, gutter and downspout. Separate long-bed delivery truck, Dan’s familiar blue box truck and a temporary yellow telehandler; the main red barn and stored hay stay intact.
-11. **One Long Road** — an atlas of connected places and machines through the children's remembered experiences.
+11. **One Long Road** — **complete**: old neighborhoods and machine routes finally appear on a small framed picture map at Pine Park gate; Dan's box truck and a compact loader have distinct small jobs, and old neighbors gather for a picnic without changing the established roads or bridge.
 
-An author can replace any future season with a stronger idea. Don't write stories just to complete this outline. Keep the recurring personalities more important than hitting a vehicle quota.
+Further seasons are possible but not scheduled; continue from what is already canon. Keep the recurring personalities more important than hitting a vehicle quota.
 
 ## Episodic quality checks for future writers
 

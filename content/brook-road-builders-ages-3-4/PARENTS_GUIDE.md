@@ -168,6 +168,23 @@ Six chapters follow **one modest barn-side project**, not a new barn constructio
 
 **Continuity:** Rex still owns his repaired wooden dump truck; Gus his green cap; Jack his same blue notebook; Molly her blue rope toy. The main barn still contains Farmer Ruth's red tractor and dry hay. Three hens, two sheep and the small goat remain. Little Bridge is for people and animals on foot, and all delivery and work trucks use the longer farm road.
 
+## Season Eleven: One Long Road
+
+Six chapters follow one connected idea: a young scientist and his animal friends discover why a **pedestrian bridge is a useful shortcut for walkers but not a road for trucks**, then help make a clear picture map for the entrance to Pine Park. This is a neighborhood project, not a traffic sign design tutorial. Grown-ups check routes, prepare supports, carry the board, and operate the loader and Dan's truck.
+
+| Episode | Optional question |
+|---|---|
+| 061 | Which way did Rex and Molly go, and which way did Dan's truck go? |
+| 062 | What happened when Gus tried to take the toy dump truck across the pretend walking bridge? |
+| 063 | Which bit of the walking path did Molly notice was missing? |
+| 064 | What made Jack turn Station Lane to the other side of Brook Road? |
+| 065 | Did the small loader bring the gravel or the picture board? |
+| 066 | Which picture on the board shows where Molly lives? |
+
+**Reading perspective:** The books/blocks/cushion-town activity is **pretend play**, not an instruction to build a public sign or roadway. Jack makes a simplified model and corrects it by walking around the actual town. The real framed sign is a modest adult-built picture board mounted away from the original park entrance sign and from the walking route. It uses a legend for solid roads and dotted footpaths. Rex and Molly's one-wag greeting, Gus's green cap, Rex's repaired toy truck, and Jack's original blue notebook keep their earlier histories.
+
+**Technical-source scope:** USGS and the National Park Service support general maps and map-symbol ideas. Existing vehicle and equipment sources explain the box truck's rolling door, hand truck, tilt-bed toy action, compact loader bucket, liftgate and basic fire-engine/ladder distinctions. None of them verifies this imaginary town's roads or the child listener's development or sleep. New map symbols are a simple fictional choice, not a universal traffic or accessibility standard.
+
 ## Why there are sources
 
 - **Machine functions:** Caterpillar's equipment descriptions were consulted to avoid confusing bulldozers, diggers, loaders, trucks and compactors. These are general equipment facts; the fictional site is not an engineering case study and the passages are not operation instructions.
