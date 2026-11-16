@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "345000",
+  "transcript": "345000-decameron-day-four-author-defense-and-goslings.md",
+  "related_resources": [
+    {
+      "source_id": "cl-dc-brown-english",
+      "reason": "Primary source for the numbered tale, day frame and English translation"
+    },
+    {
+      "source_id": "cl-dc-gutenberg-rigg1",
+      "reason": "Primary source for the numbered tale, day frame and English translation"
+    },
+    {
+      "source_id": "cl-dc-full-text-index",
+      "reason": "Primary source for the numbered tale, day frame and English translation"
+    },
+    {
+      "source_id": "cl-dc-cambridge-wallace",
+      "reason": "Scholarly account of novella architecture and distinction of author from storyteller"
+    },
+    {
+      "source_id": "cl-dc-brown-italian",
+      "reason": "Original Italian textual context for the frame narrative"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "345000-c01",
+      "anchor": "Before the fourth day's ten tales begin, the book's author interrupts the book. Until now, we have listen",
+      "kind": "literary_primary_narrative_retelling",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg1",
+        "cl-dc-full-text-index"
+      ],
+      "source_locator": "Fourth Day, authorial Introduction (goslings); frame and day theme",
+      "audit_status": "primary_text_and_tale_outline_checked_not_full_translation_collation"
+    },
+    {
+      "id": "345000-c02",
+      "anchor": "We then return to the company and to its new ruler, Filostrato. His theme is radically different from Nei",
+      "kind": "literary_interpretation",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg1",
+        "cl-dc-full-text-index",
+        "cl-dc-cambridge-wallace",
+        "cl-dc-brown-italian"
+      ],
+      "source_locator": "Fourth Day, authorial Introduction (goslings); frame and day theme",
+      "audit_status": "interpretive_synthesis_grounded_in_primary_tale"
+    }
+  ]
+}

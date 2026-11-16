@@ -260,8 +260,20 @@ lengths remain descriptive measurements, not imposed targets.
 seven women, three men, their country retreat and the rules of storytelling.
 Twenty individual tale lectures then cover the whole of Days One and Two,
 with the transition into the second day's theme of adversity and Fortune.
-Days Three through Ten and separate critical studies remain to be written;
-this is not presented as completion of all hundred tales. See
+This was the initial installment, not completion of all hundred tales;
+Days Three and Four are now provided in the subsequent overlay. See
 `notes/decameron-ten-day-plan-and-days-1-2-reading-guide.md` for the
 published tale map, the remaining day's themes, authorial/textual context,
 and source records.
+
+**Giovanni Boccaccio, *The Decameron*, Days Three and Four**: 334000–355000
+(**second installment**). The Day Three frame describes the new garden and
+Neifile's theme of achieving or recovering desired things through effort and
+ingenuity. All ten tales receive individual narrative lectures. The Day Four
+frame separately narrates **Boccaccio's authorial interruption and defense
+of vernacular storytelling**, distinct from Filostrato's ten tales of love
+with disastrous endings; Dioneo's closing farce is retained as a contrast.
+Across the two installments, **40 of 100 tales** are narrated, while Days
+Five through Ten and the critical studies remain forthcoming. See
+`notes/decameron-days-three-four-reading-guide.md` for the tale-by-tale map,
+source references, interpretation cautions and close-reading questions.

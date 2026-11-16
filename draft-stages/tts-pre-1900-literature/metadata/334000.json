@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "334000",
+  "transcript": "334000-decameron-day-three-new-garden-and-desire.md",
+  "related_resources": [
+    {
+      "source_id": "cl-dc-brown-english",
+      "reason": "Primary source for the numbered tale, day frame and English translation"
+    },
+    {
+      "source_id": "cl-dc-gutenberg-rigg1",
+      "reason": "Primary source for the numbered tale, day frame and English translation"
+    },
+    {
+      "source_id": "cl-dc-full-text-index",
+      "reason": "Primary source for the numbered tale, day frame and English translation"
+    },
+    {
+      "source_id": "cl-dc-cambridge-wallace",
+      "reason": "Scholarly account of novella architecture and distinction of author from storyteller"
+    },
+    {
+      "source_id": "cl-dc-brown-italian",
+      "reason": "Original Italian textual context for the frame narrative"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "334000-c01",
+      "anchor": "After two days of stories, the ten members of Boccaccio's company do not simply proceed to a third evenin",
+      "kind": "literary_primary_narrative_retelling",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg1",
+        "cl-dc-full-text-index"
+      ],
+      "source_locator": "Day Three, opening description of garden, transition and theme",
+      "audit_status": "primary_text_and_tale_outline_checked_not_full_translation_collation"
+    },
+    {
+      "id": "334000-c02",
+      "anchor": "A garden is an apt setting for this day. The company has transformed uncultivated movement into a sequenc",
+      "kind": "literary_interpretation",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg1",
+        "cl-dc-full-text-index",
+        "cl-dc-cambridge-wallace",
+        "cl-dc-brown-italian"
+      ],
+      "source_locator": "Day Three, opening description of garden, transition and theme",
+      "audit_status": "interpretive_synthesis_grounded_in_primary_tale"
+    }
+  ]
+}
