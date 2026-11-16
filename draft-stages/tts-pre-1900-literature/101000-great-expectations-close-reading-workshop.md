@@ -1,0 +1,24 @@
+# Great Expectations — Close Reading: Five Changes of Judgment
+
+**Work:** Charles Dickens, *Great Expectations* (1860–61; first published revised ending)  
+**Form:** Analytical lecture
+
+<!-- BEGIN SPOKEN LECTURE -->
+# Great Expectations — Close Reading: Five Changes of Judgment
+
+A close reading of Great Expectations becomes more precise when we select a scene and track the difference between what Pip observes and what he concludes. That method is especially powerful because Pip tells the whole story after the events. We will take five changes of judgment, each separated by years of narrative time, and ask what a listener can know before the character knows it. The aim is not to catch a fictional boy making mistakes. It is to see how Dickens makes a mind capable of correction.
+
+Begin with the graveyard. Pip invents pictures of his dead parents from the appearance of words carved in stone. The joke is gentle, but the method is serious. Evidence is limited; desire supplies the missing image. Now take the convict's threat. The stranger claims he has an accomplice who will punish Pip if he refuses to help. Pip cannot verify that claim and has every reason to be frightened. Keep these two in separate columns: the parents' faces are invented by a lonely child, and the accomplice is a threat invented or exaggerated by a desperate adult. The same child who makes stories is vulnerable to other people's stories.
+
+Second, listen to Estella describing Pip's coarse hands and boots. At first the statement reports a physical difference and a social judgment. What Pip takes away is a general verdict on himself. Write down what was actually visible: his hands, his boots, his manners. Next write the extra conclusion: he is less worthy of affection. No necessary bridge connects these. He brings the wound home and begins to think differently of Joe. The crucial narrative change happens when an insult becomes a rule for evaluating people, including the people who love him.
+
+Third, examine Joe's visit in London. Notice how the scene handles pauses, clothing, address, and physical space. Joe cannot find a comfortable way to place himself in Pip's rooms. He tries to be respectful of the new life Pip has entered. Pip feels embarrassment even while knowing that he ought to offer welcome. Ask who performs the most work to keep the encounter bearable. It is Joe. The scene is not just evidence that Pip is snobbish. It shows an emotional labor that the snobbish person has stopped noticing, and therefore a cost that the social comedy might otherwise conceal.
+
+Fourth, replay the arrival of Magwitch. Before the stranger identifies himself, Pip responds to clothes, age, and behavior. After he speaks, recognition joins shame with disbelief. Then the new information about the fortune changes the meaning of years of scenes. The allowance was never a vague gift from Satis House. It was the product of a convict's overseas labor. Ask what happens to the earlier visits to Miss Havisham when we learn this. Those scenes have not physically changed, but Pip's explanation has collapsed. This is the novel teaching the reader to revise an interpretation retrospectively.
+
+Fifth, set the river and the bedside together. On the water Pip tries to save a man who may be arrested and lose everything. At the bedside he remains when the man can no longer reward him materially. The pair of scenes removes the possibility that protection is merely an investment. Yet a careful listener should not call this a complete repair of all Pip's harms. Joe and Biddy were wounded while he spent his fortune; Magwitch dies; money is confiscated. The new judgment changes how he acts now. It cannot revise the consequences of previous choices out of existence.
+
+A sixth comparison is useful if you have the editions at hand: read the published ending with Estella and the earlier ending Dickens drafted. In both Pip can see Estella after suffering. In the drafted ending, the meeting is brief and final. In the published ending, he sees the possibility of no further parting. The difference is not only about romance. One version asks whether the mature Pip can accept a separation, while the other allows emotional continuity to close a story of loss. That is an interpretive possibility, not a verdict on Dickens's intentions.
+
+Try one final exercise. In any scene, classify sentences as observation, reported speech, immediate feeling, or retrospective judgment. Some contain more than one class. In first-person narration, a character can report something accurately and infer something false from it, or recount something dishonorable with new understanding. This classification helps us hear the two Pips: the child acting with partial knowledge and the adult who has learned from the act. Great Expectations gives us the pleasure of revelation, but its deeper subject is the discipline of revising what we thought we knew.
+<!-- END SPOKEN LECTURE -->

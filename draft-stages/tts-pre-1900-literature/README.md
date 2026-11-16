@@ -86,6 +86,30 @@ The narrative uses the **1818 first edition** and explicitly marks the changed
 Elizabeth backstory in 1831. See
 `notes/frankenstein-1818-1831-versions-and-story-map.md`.
 
+**Victorian development novel — Charles Dickens, *Great Expectations***:
+091000–102000. Four continuous narrative lectures cover the marshes, Satis
+House, London, Magwitch's return, the failed escape, and the ending. Eight
+analyses address retrospective narration and shame, labor and class,
+criminal law and transportation, money and debt, Estella/Miss Havisham,
+place and serialization, close reading, and the **two distinct endings**.
+The spoken story follows the first-published revised conclusion without
+inventing a marriage for Pip and Estella. See
+`notes/great-expectations-serial-endings-and-story-map.md`.
+
+**French realism — Gustave Flaubert, *Madame Bovary***: 103000–113000.
+Four narrative lectures cover all three parts, continuing beyond Emma's death
+to Charles, Berthe, and Homais. Seven analyses study free indirect style,
+romantic reading, marriage, consumer credit, the Hippolyte operation,
+close reading, and publication, censorship and translation. The retelling
+separates Emma's desires from established events and does not treat the
+English translations as identical to the 1857 French book. See
+`notes/madame-bovary-1857-text-and-story-map.md`.
+
+**Metadata correction:** source IDs in `metadata/069000.json` through
+`metadata/078000.json` previously pointed to Mary Shelley sources in error.
+Those ten Austen sidecars now cite Austen primary and scholarly references.
+The corresponding spoken manuscripts are unchanged.
+
 These are original lectures, not extracts or dramatic recordings of the primary
 texts. Source citations, critical questions, and edition notes are outside the
 spoken regions; bibliographic records and anchored claims appear in `metadata/`.
@@ -109,10 +133,8 @@ or binary assets are part of this pack.
 
 ## Substantive next priorities
 
-1. **Charles Dickens, *Great Expectations* or *Bleak House***: Victorian serial form, class mobility and institutions.
-2. **Gustave Flaubert, *Madame Bovary***: the history of realism and the narrator's proximity to characters' minds.
-3. **Leo Tolstoy, *War and Peace***: war, families, the philosophy of history and the novel's capacious form.
-4. **Fyodor Dostoevsky, *The Brothers Karamazov***: conflicting voices, family ethics and religious argument.
+1. **Leo Tolstoy, *War and Peace***: war, families, the philosophy of history and the novel's capacious form.
+2. **Fyodor Dostoevsky, *The Brothers Karamazov***: conflicting voices, family ethics and religious argument.
 
 Other major candidates include Chaucer's *Canterbury Tales*, Boccaccio's
 *Decameron*, Milton's *Paradise Lost*, Goethe's *Faust*, Emily Brontë's

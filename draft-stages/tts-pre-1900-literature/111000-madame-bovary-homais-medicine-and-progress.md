@@ -1,0 +1,24 @@
+# Madame Bovary — Homais, Medicine, and the Claims of Progress
+
+**Work:** Gustave Flaubert, *Madame Bovary* (1856 serial; 1857 book)  
+**Form:** Analytical lecture
+
+<!-- BEGIN SPOKEN LECTURE -->
+# Madame Bovary — Homais, Medicine, and the Claims of Progress
+
+Monsieur Homais likes the vocabulary of progress. He speaks as if rational modern knowledge can be measured by a person's confidence in using its phrases. Charles Bovary is an officer of health, or officier de santé, a historical form of authorized French medical practitioner with a more limited qualification than a doctor of medicine. Neither man's professional place should be confused with what a modern practitioner would be licensed to do. Flaubert's satire depends on the gap between the prestige of expertise, the limits of actual competence, and the ability of patients to consent to risks that they scarcely understand.
+
+The case of Hippolyte reveals the gap. The stable worker has a clubfoot and has built a working life around it. Homais, eager for a modern surgical success that will reflect well on Yonville and on himself, urges Charles to operate. Charles studies descriptions of a treatment and accepts the role. Emma also encourages him, imagining that his success will make their family name famous and at last prove her husband worthy of admiration. Notice who is being promised what. The practitioner may gain status, the pharmacist may gain publicity, and Emma may gain pride. Hippolyte bears the bodily risk.
+
+The operation goes badly. Complications develop, gangrene sets in, and another physician, Canivet, must amputate the affected leg to save the patient. Afterward Hippolyte survives with a far more disabling loss than he had before the procedure. The episode is easy to use as a symbol of Charles's inadequacy, because Emma herself sees it that way. But that reading risks repeating the novel's moral error. The most important consequence is not that a wife loses respect for her husband. It is that a person with less social power has been injured by an attempt made partly for other people's distinction.
+
+The situation exposes several failures of reasoning. The promoters begin with a desired outcome and behave as though the probability of success can be inferred from the prestige of a fashionable technique. They emphasize the potential benefit to the operator and the town. They do not adequately weigh the patient's existing life, the practical skill required, the possibility of complications, or the uncertainty of the evidence. It would be a mistake to infer that all medical innovation is wrong. The scene criticizes the confusion of innovation's public appearance with evidence that a particular procedure is justified for a particular person.
+
+Homais then pursues the publicity that professional triumph might provide. His language of science becomes inseparable from a concern for status. He knows how to make activities sound modern and useful, while his judgment can be guided by fear of losing influence. Flaubert's irony is sharper because Homais is not a simple enemy of knowledge. He admires it, reads about it, and uses its vocabulary constantly. The failure is not an explicit rejection of reason but a performance of reason without sufficient self-correction.
+
+Charles is gentler than Homais and less adept at public self-promotion. Yet personal gentleness is not adequate protection for a patient. He accepts a dangerous undertaking beyond his competence, and his good intentions do not restore the lost leg. The novel refuses a comforting division between the caring but harmless practitioner and the vain but harmful enthusiast. Their different motives can contribute to one injury. Professional ethics requires more than a good heart and more than enthusiasm for technique.
+
+The final honor bestowed on Homais brings the satire full circle. He receives the Legion of Honor while people who bear the costs of the town's decisions, such as Hippolyte and Berthe, receive no comparable recognition. The public institution rewards a man skilled at managing reputation. That ending does not mean everyone who earns an honor is a fraud. It means the novel has constructed one case in which the system's visible signs of merit are badly misaligned with the evidence of good judgment.
+
+A productive reading question is to ask whose evidence counts in the operation episode. Homais offers theories and a newspaper story. Charles offers his professional effort. Emma offers ambition. Hippolyte's body provides the outcome. The narrator allows us to see the discrepancy among them. Flaubert's critique remains useful wherever prestige, publicity, and the language of advancement can crowd out attention to the person exposed to risk. It is a literary lesson in the ethics of evidence, not a replacement for the history of medical science.
+<!-- END SPOKEN LECTURE -->
