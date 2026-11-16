@@ -1,0 +1,153 @@
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "Analysis · Foundations and Further Routes",
+      "role": "main",
+      "summary": "Begin with real analysis: convergence, calculus, metric spaces, and uniform limits. Continue into a named branch with its stated mathematical background. Branches retain their full arguments and examples.",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "007000",
+        "008000",
+        "009000",
+        "010000",
+        "011000",
+        "012000"
+      ],
+      "preparation_collections": [
+        "mathematical-proof:main"
+      ]
+    },
+    {
+      "id": "complex",
+      "title": "Complex Analysis",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "013000",
+        "014000",
+        "015000",
+        "016000",
+        "017000",
+        "018000",
+        "019000",
+        "020000",
+        "021000",
+        "022000",
+        "023000",
+        "024000",
+        "025000",
+        "026000",
+        "027000",
+        "028000"
+      ],
+      "assumed_background": [
+        "Real analysis through limits, differentiation, integration, and uniform convergence."
+      ],
+      "preparation_collections": [
+        "analysis:survey"
+      ]
+    },
+    {
+      "id": "measure-functional",
+      "title": "Measure and Functional Analysis",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "029000",
+        "030000",
+        "031000",
+        "032000",
+        "033000",
+        "034000",
+        "035000",
+        "036000",
+        "037000",
+        "038000",
+        "039000",
+        "040000"
+      ],
+      "assumed_background": [
+        "Real analysis and elementary linear algebra; integration and complete metric spaces."
+      ],
+      "preparation_collections": [
+        "analysis:survey",
+        "linear-algebra:main"
+      ]
+    },
+    {
+      "id": "spectral",
+      "title": "Spectral Theory and Functional Calculus",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "041000",
+        "042000",
+        "043000",
+        "044000",
+        "045000",
+        "046000",
+        "047000",
+        "048000",
+        "049000",
+        "050000",
+        "051000",
+        "052000"
+      ],
+      "assumed_background": [
+        "Measure and functional analysis, Hilbert spaces, bounded operators, and adjoints."
+      ],
+      "preparation_collections": [
+        "analysis:measure-functional",
+        "linear-algebra:main"
+      ]
+    },
+    {
+      "id": "pde",
+      "title": "Fourier, Weak Solutions, and Nonlinear Analysis",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "053000",
+        "054000",
+        "055000",
+        "056000",
+        "057000",
+        "058000",
+        "059000",
+        "060000",
+        "061000",
+        "062000",
+        "063000",
+        "064000",
+        "065000",
+        "066000",
+        "067000",
+        "068000",
+        "069000",
+        "070000",
+        "071000",
+        "072000",
+        "073000",
+        "074000",
+        "075000",
+        "076000"
+      ],
+      "assumed_background": [
+        "Measure and functional analysis, multivariable calculus, linear algebra, and differential equations. Consult spectral theory for functional-calculus passages."
+      ],
+      "preparation_collections": [
+        "analysis:measure-functional",
+        "analysis:spectral",
+        "multivariable-calculus:main",
+        "differential-equations:survey"
+      ]
+    }
+  ]
+}

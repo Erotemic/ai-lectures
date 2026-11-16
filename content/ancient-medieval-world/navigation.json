@@ -1,0 +1,395 @@
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "Ancient and Medieval World · Main Survey",
+      "role": "main",
+      "summary": "The 50 broad survey entries, from early urban societies to around 1500. Regional and evidence studies are linked separately, so the survey can continue across periods and regions.",
+      "chapters": [
+        {
+          "title": "Early urban worlds",
+          "collection": "regional-studies",
+          "include_sections": [
+            "early-urban-worlds"
+          ]
+        },
+        {
+          "title": "Iron Age and classical states",
+          "collection": "regional-studies",
+          "include_sections": [
+            "iron-age-and-classical-states"
+          ]
+        },
+        {
+          "title": "Classical networks and societies",
+          "collection": "regional-studies",
+          "include_sections": [
+            "classical-networks-and-societies"
+          ]
+        },
+        {
+          "title": "Late antique transformations",
+          "collection": "regional-studies",
+          "include_sections": [
+            "late-antique-transformations"
+          ]
+        },
+        {
+          "title": "Medieval worlds",
+          "collection": "regional-studies",
+          "include_sections": [
+            "medieval-worlds"
+          ]
+        },
+        {
+          "title": "The world before 1500",
+          "collection": "regional-studies",
+          "include_sections": [
+            "global-world-before-1500"
+          ]
+        }
+      ],
+      "related_collections": [
+        "deep-time:human-prehistory",
+        "modern-world:main",
+        "world-history:survey"
+      ]
+    },
+    {
+      "id": "regional-studies",
+      "title": "Ancient and Medieval World · Regional and Evidence Studies",
+      "role": "hub",
+      "parent": "survey",
+      "summary": "Choose a region or historical problem. These studies can be followed independently or alongside the broad survey.",
+      "related_collections": [
+        "world-history:how-we-know"
+      ],
+      "include_sections": [
+        "regional-evidence-deep-dives"
+      ]
+    },
+    {
+      "id": "region-002000",
+      "title": "Kingdoms of Clay: Mesopotamia from Sumer to Babylon · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "002100"
+      ]
+    },
+    {
+      "id": "region-008000",
+      "title": "After the Palaces: Rebuilding Worlds around 1200 BCE · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "008100"
+      ]
+    },
+    {
+      "id": "region-009000",
+      "title": "The Assyrian Imperial System and the People It Ruled · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "009100"
+      ]
+    },
+    {
+      "id": "region-011000",
+      "title": "Greek Worlds before Alexander: Citizenship, Conflict, and the Polis · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "011100"
+      ]
+    },
+    {
+      "id": "region-014000",
+      "title": "Beyond Egypt's Southern Border: Kush and the Early Sahel · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "014100"
+      ]
+    },
+    {
+      "id": "region-020000",
+      "title": "Kingdoms between the Empires: Kush, Aksum, Arabia, and Iran · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "020100"
+      ]
+    },
+    {
+      "id": "region-022000",
+      "title": "Cities without the Roman Calendar: American Worlds across the Classical Centuries · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "022100",
+        "022200",
+        "022210",
+        "022220",
+        "022230"
+      ]
+    },
+    {
+      "id": "region-025000",
+      "title": "A King of Kings beside Other Worlds: Sasanian Iran and Its Neighbors · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "025100",
+        "025110"
+      ]
+    },
+    {
+      "id": "region-030000",
+      "title": "After the Conquests: Caliphs, Taxpayers, and the Making of an Empire · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "030100"
+      ]
+    },
+    {
+      "id": "region-032000",
+      "title": "A City of Paper and Rivers: Baghdad and the Abbasid Worlds · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "032100"
+      ]
+    },
+    {
+      "id": "region-033000",
+      "title": "From Chang'an to the Southern Ports: Tang and Song China · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "033100",
+        "033200"
+      ]
+    },
+    {
+      "id": "region-034000",
+      "title": "Monsoons, Temples, and Ports: South and Southeast Asian Worlds · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "034100",
+        "034200",
+        "034300",
+        "034310",
+        "034320",
+        "034330"
+      ]
+    },
+    {
+      "id": "region-035000",
+      "title": "Across the Sahel: Ghana, Cities, and Trans-Saharan Worlds · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "035100"
+      ]
+    },
+    {
+      "id": "region-036000",
+      "title": "Shorelines of Exchange: East Africa and the Indian Ocean · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "036100",
+        "036200",
+        "036300",
+        "036400",
+        "036500",
+        "036600",
+        "036700",
+        "036800",
+        "036810",
+        "036820",
+        "036830",
+        "036840",
+        "036850",
+        "036860",
+        "036870",
+        "036880",
+        "036890",
+        "036900",
+        "036910",
+        "036920",
+        "036930",
+        "036940",
+        "036950",
+        "036960",
+        "036970",
+        "036980",
+        "036982",
+        "036984",
+        "036986",
+        "036988",
+        "036990"
+      ]
+    },
+    {
+      "id": "region-037000",
+      "title": "Fields, Lords, and Market Streets: Medieval European Societies · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "037100"
+      ]
+    },
+    {
+      "id": "region-039000",
+      "title": "Courts across the Water: Korea and Japan in Medieval East Asia · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "039100",
+        "039200"
+      ]
+    },
+    {
+      "id": "region-040000",
+      "title": "Reading the Ocean: Voyaging and Settlement in the Pacific · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "040100",
+        "040200",
+        "040210",
+        "040220",
+        "040230",
+        "040240",
+        "040250"
+      ]
+    },
+    {
+      "id": "region-043000",
+      "title": "More than a Pilgrimage: Mali, the Sahel, and the Work of Empire · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "043100",
+        "043200",
+        "043300"
+      ]
+    },
+    {
+      "id": "region-044000",
+      "title": "The Walls and the Lives Beyond Them: Great Zimbabwe and Southern Africa · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "044100",
+        "044200",
+        "044300"
+      ]
+    },
+    {
+      "id": "region-045000",
+      "title": "More than One Capital: Maya and Mexica Worlds before 1500 · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "045100",
+        "045200",
+        "045300",
+        "045310",
+        "045320"
+      ]
+    },
+    {
+      "id": "region-046000",
+      "title": "Roads before the Empire: Andean States and the Rise of the Inca · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "046100",
+        "046200",
+        "046300"
+      ]
+    },
+    {
+      "id": "region-047000",
+      "title": "Ports between Monsoons: Maritime Asia before 1500 · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "047100",
+        "047200"
+      ]
+    },
+    {
+      "id": "region-048000",
+      "title": "A City through Several Empires: Byzantines and Ottomans before 1500 · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "048100",
+        "048110"
+      ]
+    },
+    {
+      "id": "region-050000",
+      "title": "The World around 1500: Connections, Boundaries, and New Encounters · Evidence and Regional Studies",
+      "role": "deep_dive",
+      "parent": "regional-studies",
+      "lectures": [
+        "051000",
+        "052000",
+        "052100",
+        "052110",
+        "053000",
+        "054000",
+        "055000",
+        "056000",
+        "056100",
+        "057000",
+        "058000",
+        "058100",
+        "059000",
+        "060000",
+        "061000",
+        "062000",
+        "063000",
+        "064000",
+        "065000",
+        "065100",
+        "065200",
+        "066000",
+        "067000",
+        "068000",
+        "069000",
+        "070000",
+        "071000",
+        "072000",
+        "073000",
+        "074000",
+        "075000",
+        "076000",
+        "077000",
+        "078000",
+        "079000",
+        "080000",
+        "081000",
+        "082000",
+        "083000",
+        "084000",
+        "085000",
+        "085100",
+        "086000",
+        "087000",
+        "088000",
+        "089000",
+        "090000"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "Topology and Geometry · Foundations and Further Routes",
+      "role": "main",
+      "summary": "Begin with spaces, continuity, gluing, homotopy, and coverings. Further routes group the existing geometry and topology lectures by the mathematical background they use.",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "007000"
+      ],
+      "preparation_collections": [
+        "mathematical-proof:main"
+      ]
+    },
+    {
+      "id": "manifolds",
+      "title": "Manifolds, Forms, and Stokes",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "008000",
+        "008100",
+        "008200",
+        "008300",
+        "009000",
+        "009100",
+        "009200",
+        "010000",
+        "010100",
+        "010200"
+      ],
+      "assumed_background": [
+        "Multivariable calculus and linear algebra, together with the foundational topology route."
+      ],
+      "preparation_collections": [
+        "topology-geometry:survey",
+        "linear-algebra:main",
+        "multivariable-calculus:main"
+      ]
+    },
+    {
+      "id": "algebraic",
+      "title": "Homology, Bundles, Curvature, and Index",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "011000",
+        "011100",
+        "012000",
+        "012100",
+        "013000",
+        "013100",
+        "013200",
+        "013300",
+        "014000",
+        "014100",
+        "014200",
+        "015000",
+        "015100",
+        "015200",
+        "016000",
+        "016100",
+        "017000",
+        "017100",
+        "018000",
+        "018100",
+        "018200",
+        "018300",
+        "018400",
+        "018500",
+        "019000",
+        "019100",
+        "020000",
+        "020100",
+        "020200",
+        "020300",
+        "020400",
+        "020500",
+        "020600",
+        "020700"
+      ],
+      "assumed_background": [
+        "Foundational topology, linear algebra, abstract algebra, and calculus on manifolds. Analysis is needed for Hodge and elliptic material."
+      ],
+      "preparation_collections": [
+        "topology-geometry:manifolds",
+        "abstract-algebra:survey"
+      ]
+    },
+    {
+      "id": "symplectic",
+      "title": "Symplectic Geometry, Curves, and Quantization",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "021000",
+        "021100",
+        "021200",
+        "021300",
+        "021400",
+        "022000",
+        "022100",
+        "022200",
+        "022300",
+        "022400",
+        "022500",
+        "022600",
+        "023000",
+        "023100",
+        "024000",
+        "024100",
+        "024200",
+        "024300",
+        "025000",
+        "025100",
+        "025200",
+        "025300",
+        "025400",
+        "025500",
+        "025600",
+        "025700",
+        "025800",
+        "025900",
+        "026000",
+        "027000",
+        "028000",
+        "029000",
+        "030000"
+      ],
+      "assumed_background": [
+        "Smooth manifolds, forms, bundles, cohomology, differential equations, and analysis; the holomorphic-curve passages require Sobolev and elliptic theory."
+      ],
+      "preparation_collections": [
+        "topology-geometry:manifolds",
+        "topology-geometry:algebraic",
+        "analysis:pde"
+      ]
+    },
+    {
+      "id": "gauge-floer",
+      "title": "Spin, Gauge Theory, Floer Theory, and Applications",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "030100",
+        "030200",
+        "030300",
+        "030400",
+        "030500",
+        "030600",
+        "030700",
+        "030800",
+        "031000",
+        "031100",
+        "031200",
+        "031300",
+        "032000",
+        "033000",
+        "034000",
+        "034100",
+        "034200",
+        "034300",
+        "035000",
+        "036000",
+        "036100",
+        "036200",
+        "036300",
+        "037000",
+        "038000",
+        "039000",
+        "039100",
+        "040000",
+        "041000",
+        "042000"
+      ],
+      "assumed_background": [
+        "Bundles and curvature, elliptic operators, Sobolev analysis, symplectic geometry, and the earlier index and holomorphic-curve lectures."
+      ],
+      "preparation_collections": [
+        "topology-geometry:algebraic",
+        "topology-geometry:symplectic",
+        "analysis:pde"
+      ]
+    }
+  ]
+}

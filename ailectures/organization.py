@@ -31,8 +31,25 @@ LEGACY_CATEGORIES = {
         "Literature and arts",
     ),
     "trades-electrical": "Practical skills",
-    "bedtime-stories": "Bedtime stories",
+    "bedtime-stories": "Children's Stories",
 }
+
+# Reconcile labels used by older installed releases as well as live sources.
+CATEGORY_ALIASES = {
+    "Literature": "Literature and arts",
+    "History": "History and society",
+    "History & Culture": "History and society",
+    "Bedtime stories": "Children's Stories",
+    "Children's Bedtime Stories": "Children's Stories",
+    "Children's Bedtime Stories — Episodic": "Children's Stories",
+    "Children's Bedtime Stories — Vehicles & Animals (Episodic)": "Children's Stories",
+}
+
+
+def categories(value):
+    return list(
+        dict.fromkeys(CATEGORY_ALIASES.get(label, label) for label in labels(value))
+    )
 
 
 def labels(value):
@@ -50,13 +67,19 @@ def labels(value):
 
 
 def collection_metadata(plan, namespace):
-    categories = labels(plan.get("categories", plan.get("category")))
+    grouping = categories(plan.get("categories", plan.get("category")))
     result = dict(
-        categories=categories
-        or [LEGACY_CATEGORIES.get(namespace, "Other collections")],
+        categories=grouping or [LEGACY_CATEGORIES.get(namespace, "Other collections")],
         audiences=labels(plan.get("audiences", plan.get("audience"))),
     )
-    for field in ("age_range", "age_range_label", "genre"):
+    for field in (
+        "age_range",
+        "age_range_label",
+        "genre",
+        "series_title",
+        "format",
+        "sequence_recommended",
+    ):
         if field in plan:
             result[field] = plan[field]
     return result
@@ -66,6 +89,13 @@ def item_organization(row, collections):
     context = [
         collection for collection in collections if row["id"] in collection["lectures"]
     ]
+    # A compatibility archive can mix subjects; curated routes own browsing
+    # labels once an item has been assigned to them.
+    curated = [
+        collection for collection in context if collection.get("role") != "archive"
+    ]
+    if curated:
+        context = curated
     if not context:
         # Unindexed manuscripts retain categories without becoming ordered members.
         context = [
@@ -78,7 +108,7 @@ def item_organization(row, collections):
     if not isinstance(metadata, dict):
         metadata = {}
     return {
-        "categories": labels(metadata.get("categories", metadata.get("category")))
+        "categories": categories(metadata.get("categories", metadata.get("category")))
         or list(
             dict.fromkeys(
                 label

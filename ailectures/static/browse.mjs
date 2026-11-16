@@ -21,6 +21,13 @@ export function collectionGroups(collections) {
   );
 }
 
+export function rootCollections(collections) {
+  const installed = new Set(collections.map((collection) => collection.id));
+  return collections.filter(
+    (collection) => !installed.has(collection.parent_id),
+  );
+}
+
 export class CatalogBrowser {
   constructor(context) {
     Object.assign(this, context);
@@ -49,13 +56,16 @@ export class CatalogBrowser {
     return el(
       "article",
       { class: "card" },
-      el("h3", {}, this.link(collection.title, this.courseLink(collection))),
+      el("h3", {}, this.link(collection.series_title || collection.title, this.courseLink(collection))),
       collection.age_range_label
         ? el("span", { class: "badge", text: collection.age_range_label })
         : null,
-      el("p", { text: collection.summary || "" }),
+      collection.sequence_recommended
+        ? el("small", { class: "series-order", text: "Listen in episode order" })
+        : null,
+      el("p", { class: "collection-summary", text: collection.summary || "" }),
       el("small", {
-        text: `${rows.length} items · ${rows.filter(this.ready).length} ready to play${completed ? " · " + completed + " completed" : ""}`,
+        text: `${rows.length} items · approximately ${Math.round(rows.reduce((minutes, row) => minutes + (row.estimated_minutes || (row.words || 0) / 145), 0))} min · ${rows.filter(this.ready).length} ready to play${completed ? " · " + completed + " completed" : ""}`,
       }),
     );
   }
@@ -206,7 +216,7 @@ export class CatalogBrowser {
           .map((row) => row.id),
       );
       const q = state.q.toLocaleLowerCase();
-      const collections = filtered.filter(
+      const collections = (q ? filtered : rootCollections(filtered)).filter(
         (c) => !q || `${c.title} ${c.summary}`.toLocaleLowerCase().includes(q),
       );
       const rows = data.lectures.filter(
@@ -216,7 +226,7 @@ export class CatalogBrowser {
       );
       results.replaceChildren();
       if (!q && !state.category) {
-        const groups = collectionGroups(filtered);
+        const groups = collectionGroups(rootCollections(filtered));
         const categoryLink = (group) => {
           const node = this.link(
             group.title,
@@ -311,10 +321,14 @@ export class CatalogBrowser {
   collection(main, id) {
     const collection = this.catalog().courses.find((c) => c.id === id);
     if (!collection) throw Error("This collection is not installed.");
+    const parent = this.catalog().courses.find((c) => c.id === collection.parent_id);
     main.replaceChildren(
       ...[
-        this.link("All collections", "/collections?all=1"),
-        el("h1", { text: collection.title }),
+        el("div", { class: "actions" },
+          parent ? this.link("Back to " + parent.title, this.courseLink(parent)) : null,
+          this.link("All collections", "/collections?all=1"),
+        ),
+        el("h1", { text: collection.series_title || collection.title }),
         collection.age_range_label
           ? el("span", { class: "badge", text: collection.age_range_label })
           : null,
@@ -324,6 +338,17 @@ export class CatalogBrowser {
         ),
       ].filter(Boolean),
     );
+    const related = (collection.related_collections || []).filter((key) => key !== parent?.id);
+    if (related.length)
+      main.append(
+        el("div", { class: "actions" }, ...related.map((key) => this.routeLink(key))),
+      );
+    if (collection.preparation_collections?.length)
+      main.append(el("details", { class: "section" },
+        el("summary", { text: "Suggested preparation" }),
+        el("p", { class: "muted", text: "Review the relevant parts of these routes as needed for the stated background." }),
+        el("div", { class: "actions" }, ...collection.preparation_collections.map((key) => this.routeLink(key))),
+      ));
     if (collection.summary || collection.background)
       main.append(
         el(
@@ -363,6 +388,20 @@ export class CatalogBrowser {
       };
       main.append(preparation);
     }
+    const children = this.catalog().courses.filter((c) => c.parent_id === id);
+    const branches = children.filter((c) => c.role !== "archive");
+    if (branches.length) {
+      const details = el("details", { class: "section" },
+        el("summary", { text: `Explore further · ${branches.length} ${branches.length === 1 ? "route" : "routes"}` }),
+        el("div", { class: "grid" }, ...branches.map((c) => this.card(c))),
+      );
+      details.open = !collection.lectures.length;
+      main.append(details);
+    }
+    const archives = children.filter((c) => c.role === "archive");
+    if (archives.length)
+      main.append(el("div", { class: "actions section" }, ...archives.map((c) => this.routeLink(c.id))));
+    if (!collection.lectures.length) return;
     main.append(
       el("h2", {
         class: "section",
@@ -373,20 +412,49 @@ export class CatalogBrowser {
             : "Items",
       }),
     );
-    let section = null;
     const list = el("ol", { class: "list" });
-    for (const key of collection.lectures) {
-      const row = this.byId(key);
-      if (row?.section && row.section !== section) {
-        section = row.section;
-        list.append(
-          el("li", { class: "muted", text: section.replaceAll("-", " ") }),
-        );
+    if (collection.chapters?.length) {
+      for (const chapter of collection.chapters) {
+        list.append(el("li", { class: "section" },
+          el("h3", { text: chapter.title }),
+          chapter.collection ? this.routeLink(chapter.collection, "Explore the full topic") : null,
+        ));
+        if (chapter.sessions?.length) {
+          for (const session of chapter.sessions) {
+            const minutes = Math.round(session.lectures.reduce((sum, key) =>
+              sum + (this.byId(key)?.estimated_minutes || 0), 0));
+            list.append(el("li", { class: "muted" },
+              el("h4", { text: session.title }),
+              el("small", { text: `Approximately ${minutes} minutes` }),
+            ));
+            for (const key of session.lectures) this.appendItem(list, key, id);
+          }
+        } else {
+          for (const key of chapter.lectures) this.appendItem(list, key, id);
+        }
       }
-      list.append(
-        row ? this.item(row, id) : el("li", { text: key + " · Not installed" }),
-      );
+    } else {
+      let section = null;
+      const showSections = new Set(collection.lectures.map((key) => this.byId(key)?.section).filter(Boolean)).size > 1;
+      for (const key of collection.lectures) {
+        const row = this.byId(key);
+        if (showSections && row?.section && row.section !== section) {
+          section = row.section;
+          list.append(el("li", { class: "muted", text: section.replaceAll("-", " ") }));
+        }
+        this.appendItem(list, key, id);
+      }
     }
     main.append(list);
+  }
+  appendItem(list, key, collection) {
+    const row = this.byId(key);
+    list.append(row ? this.item(row, collection) : el("li", { text: key + " · Not installed" }));
+  }
+  routeLink(key, label = null) {
+    const route = this.catalog().courses.find((course) => course.id === key);
+    return route
+      ? this.link(label || route.title, this.courseLink(route))
+      : el("span", { class: "muted", text: `${label || key} · Not installed` });
   }
 }

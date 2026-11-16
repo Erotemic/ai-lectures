@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { collectionGroups } from "../ailectures/static/browse.mjs";
+import { collectionGroups, rootCollections } from "../ailectures/static/browse.mjs";
 
 const math = {
   id: "analysis:main",
@@ -24,6 +24,12 @@ assert.equal(
   "stories:main",
   "Grouping does not rewrite collection identity",
 );
+const survey = { ...math, id: "analysis:survey" };
+const study = { ...math, id: "analysis:complex", parent_id: survey.id };
+const archive = { ...math, parent_id: survey.id, role: "archive" };
+assert.deepEqual(rootCollections([survey, study, archive, stories]), [survey, stories]);
+assert.deepEqual(rootCollections([study]), [study], "An unavailable parent cannot hide an installed route");
+assert.deepEqual(rootCollections([math, stories]), [math, stories]);
 console.log(
   "Independent collections can belong to several categories, with children's groups easy to reach",
 );

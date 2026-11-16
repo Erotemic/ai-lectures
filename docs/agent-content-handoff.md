@@ -8,6 +8,33 @@ directory. Server and UI development can continue separately.
 
 ## Start an authoring backlog
 
+### Resume after the listening-route reorganization
+
+The source pack and stable lecture IDs remain the authoring boundary. `track.json`
+owns the full inventory; optional `navigation.json` owns listening routes and
+deep dives. Append source manuscripts and metadata where they already live.
+No shared server code, global registration, runtime pack build, or TTS run is
+needed to continue writing.
+
+An `include_sections` route automatically includes newly indexed entries with
+the specified section, in `track.json` order. Preserve that section when
+continuing its strand. Explicitly curated surveys remain separate from the
+expansion; they should not automatically acquire every new deep-dive installment.
+For routes with explicit `lectures`, place the new ID in the appropriate route
+as part of the pack-local metadata update. Original `:main` bookmarks continue
+to expose the complete source sequence.
+
+The interrupted Journey to the West writer should start with the
+[pack-local continuation handoff](../draft-stages/tts-pre-1900-literature/notes/journey-west-continuation-handoff.md).
+It records the exact stopping point, edition choices, and candidate IDs to
+recheck. Its expanded route now follows the section automatically. The
+[reorganization notes](planning/listening-routes-reorganization.md) and
+[navigation format](content-packs.md#main-routes-and-deep-dives) explain the other
+routes. Unfinished narrative coverage is authoring work that can continue after
+the organization handoff; it does not prevent usable lectures from shipping.
+
+### Assign an independent source pack
+
 Give each independent agent the source ZIP and one distinct pack directory.
 Agents can begin drafting immediately; server work does not need to finish first.
 For a new subject, use the minimal source layout in the

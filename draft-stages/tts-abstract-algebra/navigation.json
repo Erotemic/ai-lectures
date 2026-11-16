@@ -1,0 +1,227 @@
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "Abstract Algebra · Groups, Rings, and Fields",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "007000",
+        "008000",
+        "009000",
+        "010000",
+        "011000",
+        "012000"
+      ],
+      "assumed_background": [
+        "Arithmetic, elementary algebra, sets/functions and proof habits."
+      ],
+      "preparation_collections": [
+        "mathematical-proof:main",
+        "linear-algebra:main"
+      ]
+    },
+    {
+      "id": "modules-homological",
+      "title": "Algebra · Modules, Homology, and Resolutions",
+      "role": "deep_dive",
+      "lectures": [
+        "008000",
+        "015000",
+        "024000",
+        "016000",
+        "026000",
+        "021000",
+        "028000",
+        "031000",
+        "032000",
+        "036000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Groups, rings, modules, kernels/quotients, and linear algebra."
+      ],
+      "preparation_collections": [
+        "abstract-algebra:survey"
+      ]
+    },
+    {
+      "id": "commutative-geometry",
+      "title": "Algebra · Commutative Rings, Schemes, and Deformations",
+      "role": "deep_dive",
+      "lectures": [
+        "015000",
+        "017000",
+        "018000",
+        "024000",
+        "022000",
+        "023000",
+        "027000",
+        "030000",
+        "033000",
+        "034000",
+        "035000",
+        "037000",
+        "038000",
+        "039000",
+        "040000",
+        "041000",
+        "042000",
+        "043000",
+        "044000",
+        "045000",
+        "046000",
+        "048000",
+        "049000",
+        "052000",
+        "053000",
+        "054000",
+        "055000",
+        "056000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Commutative rings and module theory; homological algebra and categories become essential for derived/global sections and obstruction theory."
+      ],
+      "preparation_collections": [
+        "abstract-algebra:modules-homological",
+        "category-theory:survey",
+        "topology-geometry:algebraic"
+      ]
+    },
+    {
+      "id": "arithmetic",
+      "title": "Algebra · Number Fields and Arithmetic Geometry",
+      "role": "deep_dive",
+      "lectures": [
+        "004000",
+        "005000",
+        "006000",
+        "007000",
+        "008000",
+        "009000",
+        "010000",
+        "011000",
+        "012000",
+        "024000",
+        "019000",
+        "023000",
+        "025000",
+        "029000",
+        "050000",
+        "057000",
+        "061000",
+        "065000",
+        "069000",
+        "073000",
+        "077000",
+        "081000",
+        "082000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Field theory, Galois correspondence, module classification and local/complete rings; advanced segments use curve and cohomological methods."
+      ],
+      "preparation_collections": [
+        "abstract-algebra:survey"
+      ]
+    },
+    {
+      "id": "representations",
+      "title": "Algebra · Representations, Roots, and Combinatorics",
+      "role": "deep_dive",
+      "lectures": [
+        "013000",
+        "014000",
+        "015000",
+        "020000",
+        "036000",
+        "047000",
+        "051000",
+        "058000",
+        "062000",
+        "066000",
+        "070000",
+        "074000",
+        "078000",
+        "083000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Groups and linear algebra; modular and cohomological portions use module/homological foundations."
+      ],
+      "preparation_collections": [
+        "abstract-algebra:survey"
+      ]
+    },
+    {
+      "id": "enumerative-quantum",
+      "title": "Algebra · Curve Counting and Quantum Geometry",
+      "role": "deep_dive",
+      "lectures": [
+        "038000",
+        "044000",
+        "045000",
+        "046000",
+        "048000",
+        "049000",
+        "053000",
+        "054000",
+        "055000",
+        "056000",
+        "059000",
+        "060000",
+        "063000",
+        "067000",
+        "071000",
+        "075000",
+        "079000",
+        "084000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Schemes, sheaf cohomology, intersections, deformation-obstruction theory and derived complexes; this is an advanced route, not a first algebra course."
+      ],
+      "preparation_collections": [
+        "abstract-algebra:modules-homological",
+        "category-theory:survey",
+        "topology-geometry:algebraic"
+      ]
+    },
+    {
+      "id": "wall-crossing",
+      "title": "Algebra · Sheaf Counts, Hall Algebras, and Wall Crossing",
+      "role": "deep_dive",
+      "lectures": [
+        "045000",
+        "048000",
+        "049000",
+        "052000",
+        "053000",
+        "054000",
+        "055000",
+        "056000",
+        "064000",
+        "068000",
+        "072000",
+        "076000",
+        "080000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Derived categories, moduli and deformation-obstruction theory; Hall-algebra and stability examples remain distinct from numerical verification."
+      ],
+      "preparation_collections": [
+        "abstract-algebra:modules-homological",
+        "category-theory:survey",
+        "topology-geometry:algebraic"
+      ]
+    }
+  ]
+}

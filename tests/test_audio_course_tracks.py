@@ -138,7 +138,8 @@ def test_history_track_manifest_references_and_speech_extraction():
     assert not (HISTORY_DIRECTORY / 'stubs' / '009000-riesz.md').exists()
     assert not (HISTORY_DIRECTORY / 'stubs' / '011000-schatten.md').exists()
     assert len({row['id'] for row in rows}) == len(rows)
-    assert len({row['person'] for row in rows}) == len(rows)
+    # Biographies can span multiple episodes; lecture IDs distinguish them.
+    assert all(isinstance(row.get('person'), str) and row['person'].strip() for row in rows)
     assert len(list(HISTORY_DIRECTORY.glob('[0-9]'*6 + '-*.md'))) == len(rows)
     catalog = json.loads((HISTORY_DIRECTORY / 'metadata' / 'sources.json').read_text())['sources']
     archive = json.loads((HISTORY_DIRECTORY / 'stubs' / 'manifest.json').read_text())

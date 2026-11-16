@@ -1,0 +1,116 @@
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "Comedy · Traditions and Modern Approaches",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "030500"
+      ],
+      "summary": "An introduction to rival explanations and several comic traditions, followed by a map of modern approaches."
+    },
+    {
+      "id": "theories",
+      "title": "Comedy · Linguistic, Cognitive, and Philosophical Theories",
+      "role": "deep_dive",
+      "lectures": [
+        "031000",
+        "032000",
+        "033000",
+        "034000",
+        "035000",
+        "039000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "The orientation introduces the competing questions; no formal logic or psychology course is assumed."
+      ]
+    },
+    {
+      "id": "publics",
+      "title": "Comedy · Publics, Politics, and Comic Selves",
+      "role": "deep_dive",
+      "lectures": [
+        "034000",
+        "035000",
+        "036000",
+        "037000",
+        "038000",
+        "039000",
+        "040000",
+        "041000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "General audience; theories are compared rather than treated as universal laws."
+      ]
+    },
+    {
+      "id": "improvisation",
+      "title": "Comedy · Improvisation and Ensemble Writing",
+      "role": "deep_dive",
+      "lectures": [
+        "042000",
+        "043000",
+        "044000",
+        "045000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "No performance training required; examples introduce the practical vocabulary."
+      ]
+    },
+    {
+      "id": "performance",
+      "title": "Comedy · Stand-Up, Clown, and Sitcom",
+      "role": "deep_dive",
+      "lectures": [
+        "046000",
+        "047000",
+        "048000",
+        "049000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "General audience; technique and cultural institution are kept distinct."
+      ]
+    },
+    {
+      "id": "translation",
+      "title": "Comedy · Language, Translation, and Reception",
+      "role": "deep_dive",
+      "lectures": [
+        "050000",
+        "051000",
+        "052000",
+        "053000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "No second language required; examples distinguish linguistic and cultural knowledge."
+      ]
+    },
+    {
+      "id": "absurd",
+      "title": "Comedy · Absurdism, Surrealism, and Anti-Comedy",
+      "role": "deep_dive",
+      "lectures": [
+        "054000",
+        "055000",
+        "056000",
+        "057000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "The traditions and modern map supply context, while individual lectures establish their works."
+      ]
+    }
+  ]
+}

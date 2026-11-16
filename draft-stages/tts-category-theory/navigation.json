@@ -1,0 +1,102 @@
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "Category Theory · Foundations and Further Routes",
+      "role": "main",
+      "summary": "The foundational sequence through monoidal categories and string diagrams. Continue into tools, semantics, or geometric and higher structures as your background permits.",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "007000",
+        "008000",
+        "009000",
+        "010000",
+        "011000"
+      ],
+      "preparation_collections": [
+        "mathematical-proof:main",
+        "abstract-algebra:survey"
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Categorical Tools",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "015000",
+        "016000",
+        "017000",
+        "019000",
+        "020000",
+        "021000",
+        "023000",
+        "027000"
+      ],
+      "assumed_background": [
+        "Foundational category theory through functors, natural transformations, universal properties, adjunctions, Yoneda, monads, and monoidal categories."
+      ],
+      "preparation_collections": [
+        "category-theory:survey",
+        "abstract-algebra:survey"
+      ]
+    },
+    {
+      "id": "logic-semantics",
+      "title": "Logic, Types, and Categorical Semantics",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "012000",
+        "013000",
+        "014000",
+        "018000",
+        "022000",
+        "024000",
+        "025000"
+      ],
+      "assumed_background": [
+        "Foundational category theory, mathematical logic, and familiarity with types. Sheaves provide context for topoi."
+      ],
+      "preparation_collections": [
+        "category-theory:survey",
+        "logic-types:main"
+      ]
+    },
+    {
+      "id": "geometry-higher",
+      "title": "Sheaves, Descent, and Higher Geometry",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "013000",
+        "014000",
+        "024000",
+        "035000",
+        "026000",
+        "028000",
+        "029000",
+        "030000",
+        "031000",
+        "032000",
+        "033000",
+        "034000"
+      ],
+      "assumed_background": [
+        "Foundational category theory; algebra, topology, and chain complexes become essential in the later lectures. Chain complexes and resolutions are placed before derived geometry."
+      ],
+      "preparation_collections": [
+        "category-theory:survey",
+        "category-theory:tools",
+        "topology-geometry:survey",
+        "abstract-algebra:survey"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Fiction Writing and Worldbuilding
 
-**Current collection:** 36 substantive, independently understandable audio-first manuscripts, including the introductory craft sequence and a series on late-twentieth- and early-twenty-first-century approaches to fiction.
+**Current collection:** 44 substantive, independently understandable audio-first manuscripts, including the introductory craft sequence and a series on late-twentieth- and early-twenty-first-century approaches to fiction.
 
 ## Completed lectures
 

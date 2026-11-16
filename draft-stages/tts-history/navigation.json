@@ -1,0 +1,140 @@
+{
+  "default_collection": "subjects",
+  "collections": [
+    {
+      "id": "subjects",
+      "title": "Mathematical and Scientific Lives · Choose a Strand",
+      "role": "hub",
+      "lectures": [],
+      "summary": "Historical portraits grouped by subject. Paired biographies remain together; these lives are not prerequisites for the mathematical courses."
+    },
+    {
+      "id": "origins",
+      "title": "Lives · Ancient Witnesses and Early Modern Natural Philosophy",
+      "role": "deep_dive",
+      "lectures": [
+        "040000",
+        "042000",
+        "049000",
+        "049500",
+        "050000",
+        "035000",
+        "035500",
+        "039000",
+        "039500"
+      ],
+      "parent": "subjects",
+      "assumed_background": [
+        "Historical curiosity; the lectures distinguish documentary evidence, later tradition and mathematical explanation."
+      ]
+    },
+    {
+      "id": "analysis-geometry",
+      "title": "Lives · Geometry, Analysis, and Operators",
+      "role": "deep_dive",
+      "lectures": [
+        "001000",
+        "001500",
+        "002000",
+        "002500",
+        "003000",
+        "003500",
+        "004000",
+        "004500",
+        "005000",
+        "005500",
+        "006000",
+        "006500",
+        "007000",
+        "007500",
+        "008000",
+        "009000",
+        "009500",
+        "011000",
+        "012000",
+        "013000",
+        "014000",
+        "015000",
+        "016000",
+        "016500",
+        "017000",
+        "018000",
+        "018500",
+        "019000",
+        "030000",
+        "041000",
+        "041500",
+        "043000"
+      ],
+      "parent": "subjects"
+    },
+    {
+      "id": "computation-statistics",
+      "title": "Lives · Computing, Numerical Methods, and Statistics",
+      "role": "deep_dive",
+      "lectures": [
+        "010000",
+        "010500",
+        "020000",
+        "021000",
+        "022000",
+        "023000",
+        "024000",
+        "024500",
+        "025000",
+        "025500",
+        "026000",
+        "027000",
+        "028000",
+        "031000",
+        "032000",
+        "033000",
+        "034000",
+        "044000"
+      ],
+      "parent": "subjects"
+    },
+    {
+      "id": "algebra-proof",
+      "title": "Lives · Algebra, Number, and Proof",
+      "role": "deep_dive",
+      "lectures": [
+        "029000",
+        "037000",
+        "037500",
+        "038000",
+        "038500",
+        "045000",
+        "046000",
+        "051000",
+        "052000"
+      ],
+      "parent": "subjects"
+    },
+    {
+      "id": "physics-engineering",
+      "title": "Lives · Physics, Engineering, and Institutions",
+      "role": "deep_dive",
+      "lectures": [
+        "003000",
+        "003500",
+        "004000",
+        "004500",
+        "005000",
+        "005500",
+        "035000",
+        "035500",
+        "036000",
+        "039000",
+        "039500",
+        "041000",
+        "041500",
+        "047000",
+        "048000",
+        "049000",
+        "049500"
+      ],
+      "parent": "subjects"
+    }
+  ]
+}

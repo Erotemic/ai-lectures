@@ -1,0 +1,66 @@
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "Deep Time · Guided Route",
+      "role": "main",
+      "summary": "The existing evidence-based sequence, with human prehistory also available as a focused route into historical study.",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "007000",
+        "008000",
+        "009000",
+        "010000",
+        "011000",
+        "012000",
+        "013000",
+        "014000",
+        "015000",
+        "016000",
+        "017000",
+        "018000",
+        "019000",
+        "020000",
+        "021000",
+        "022000",
+        "023000",
+        "024000",
+        "025000",
+        "026000",
+        "027000",
+        "028000",
+        "029000",
+        "030000",
+        "031000",
+        "032000",
+        "033000",
+        "034000",
+        "035000",
+        "036000"
+      ]
+    },
+    {
+      "id": "human-prehistory",
+      "title": "Human Prehistory · Evidence and Origins",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "022000",
+        "023000",
+        "024000",
+        "025000",
+        "026000"
+      ],
+      "related_collections": [
+        "ancient-medieval-world:survey",
+        "world-history:how-we-know"
+      ]
+    }
+  ]
+}

@@ -346,6 +346,28 @@ async function lecturePage(id, autoplay = false, historical = null) {
       }),
     ),
   );
+  const otherRoutes = catalog.courses.filter(
+    (candidate) =>
+      candidate.role &&
+      candidate.role !== "archive" &&
+      candidate.id !== currentCourse &&
+      candidate.lectures.includes(id),
+  );
+  if (otherRoutes.length)
+    top.append(
+      el(
+        "details",
+        { class: "section" },
+        el("summary", { text: "Other listening routes" }),
+        el(
+          "div",
+          { class: "actions" },
+          ...otherRoutes.map((candidate) =>
+            link(candidate.title, courseLink(candidate)),
+          ),
+        ),
+      ),
+    );
   if (catalog.lectures.find((r) => r.id === id)?.revision !== row.revision)
     top.append(
       el(

@@ -137,6 +137,11 @@ agent source snapshots. Each content agent should own an explicit pack directory
 keep its manuscripts, metadata, source records, and examples together. Existing
 source paths remain supported; new packs can use `content/<namespace>/`.
 
+When resuming an existing strand after the listening-route reorganization, read
+[the continuation instructions](docs/agent-content-handoff.md#resume-after-the-listening-route-reorganization).
+The interrupted expanded Journey to the West has a pack-local handoff linked
+there. Preserve its existing namespace and playback IDs when continuing.
+
 Ordinary ZIPs of assigned pack directories are supported. Use
 `tools/content_overlay.py apply` for recoverable imports and conflict protection;
 snapshot receipts and hash-aware packaging are optional conveniences handled by

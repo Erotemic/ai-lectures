@@ -1,0 +1,94 @@
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "Music · Composition Foundations",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "007000",
+        "008000",
+        "009000",
+        "010000",
+        "011000",
+        "012000",
+        "013000",
+        "014000",
+        "015000",
+        "016000"
+      ]
+    },
+    {
+      "id": "production",
+      "title": "Music · Recording, Processing, and Delivery",
+      "role": "deep_dive",
+      "lectures": [
+        "017000",
+        "021000",
+        "025000",
+        "018000",
+        "019000",
+        "022000",
+        "023000",
+        "026000",
+        "027000",
+        "020000",
+        "028000",
+        "024000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Basic musical timing and arrangement; arithmetic and graphs for the audio models."
+      ]
+    },
+    {
+      "id": "listening",
+      "title": "Music · Hearing, Listening, and Reconstruction",
+      "role": "deep_dive",
+      "lectures": [
+        "029000",
+        "030000",
+        "031000",
+        "032000",
+        "033000",
+        "034000",
+        "035000",
+        "036000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Basic pitch and rhythm. Direct listening and performance remain necessary companions."
+      ]
+    },
+    {
+      "id": "composition-workshop",
+      "title": "Music · Development, Orchestration, and Complete Works",
+      "role": "deep_dive",
+      "lectures": [
+        "033000",
+        "034000",
+        "035000",
+        "036000",
+        "037000",
+        "038000",
+        "039000",
+        "040000",
+        "041000",
+        "042000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Foundational pitch, rhythm, voice leading and form; later counterpoint and orchestration examples are introduced locally."
+      ],
+      "preparation_collections": [
+        "music-theory:survey"
+      ]
+    }
+  ]
+}

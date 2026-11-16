@@ -1,0 +1,110 @@
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "Numerical Analysis · Reliable Computation Foundations",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "007000",
+        "008000",
+        "009000",
+        "010000",
+        "011000",
+        "012000",
+        "013000"
+      ],
+      "assumed_background": [
+        "Algebra and functions; calculus and linear algebra are useful for the later examples."
+      ],
+      "preparation_collections": [
+        "linear-algebra:main",
+        "analysis:survey"
+      ]
+    },
+    {
+      "id": "linear-solvers",
+      "title": "Numerical Analysis · Sparse Solvers and Preconditioning",
+      "role": "deep_dive",
+      "lectures": [
+        "006000",
+        "010000",
+        "014000",
+        "015000",
+        "019000",
+        "023000",
+        "028000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Matrices, inner products, spectra, conditioning and residuals."
+      ],
+      "preparation_collections": [
+        "numerical-analysis:survey"
+      ]
+    },
+    {
+      "id": "validated-dynamics",
+      "title": "Numerical Analysis · Validated Dynamics and Nonlinear Systems",
+      "role": "deep_dive",
+      "lectures": [
+        "005000",
+        "007000",
+        "011000",
+        "013000",
+        "020000",
+        "017000",
+        "024000",
+        "025000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Root finding, interval arithmetic and ODEs; validated continuation adds nonlinear systems and Floquet concepts."
+      ],
+      "preparation_collections": [
+        "numerical-analysis:survey"
+      ]
+    },
+    {
+      "id": "sensitivity",
+      "title": "Numerical Analysis · Derivatives, Adjoint Methods, and Events",
+      "role": "deep_dive",
+      "lectures": [
+        "016000",
+        "021000",
+        "026000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Multivariable differentiation, linear algebra and ODE flow concepts."
+      ],
+      "preparation_collections": [
+        "numerical-analysis:survey"
+      ]
+    },
+    {
+      "id": "pde-certificates",
+      "title": "Numerical Analysis · PDE Error Certificates",
+      "role": "deep_dive",
+      "lectures": [
+        "018000",
+        "022000",
+        "027000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Weak/variational PDEs, energy norms and finite-element approximations."
+      ],
+      "preparation_collections": [
+        "numerical-analysis:survey",
+        "analysis:pde"
+      ]
+    }
+  ]
+}

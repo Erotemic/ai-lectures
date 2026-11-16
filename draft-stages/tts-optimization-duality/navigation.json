@@ -1,0 +1,108 @@
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "Optimization · Convexity, Algorithms, and Duality",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "007000",
+        "008000",
+        "009000",
+        "010000",
+        "011000",
+        "012000"
+      ],
+      "assumed_background": [
+        "Functions, inequalities and algebra; calculus and linear algebra for gradient and matrix examples."
+      ],
+      "preparation_collections": [
+        "linear-algebra:main",
+        "multivariable-calculus:main"
+      ]
+    },
+    {
+      "id": "combinatorial",
+      "title": "Optimization · Submodular and Discrete Guarantees",
+      "role": "deep_dive",
+      "lectures": [
+        "008000",
+        "013000",
+        "017000",
+        "021000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Finite sets, combinatorics, relaxations and the meaning of approximation guarantees."
+      ],
+      "preparation_collections": [
+        "optimization-duality:survey"
+      ]
+    },
+    {
+      "id": "monotone",
+      "title": "Optimization · Monotone and Stochastic Algorithms",
+      "role": "deep_dive",
+      "lectures": [
+        "005000",
+        "006000",
+        "014000",
+        "018000",
+        "022000",
+        "023000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Convexity, gradients, proximal maps, operator norms and probability for noisy oracles."
+      ],
+      "preparation_collections": [
+        "optimization-duality:survey"
+      ]
+    },
+    {
+      "id": "robust-risk",
+      "title": "Optimization · Sensitivity, Robustness, and Risk",
+      "role": "deep_dive",
+      "lectures": [
+        "011000",
+        "015000",
+        "019000",
+        "024000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Convex duality and probability/expectation; transport and risk definitions are developed in the lectures."
+      ],
+      "preparation_collections": [
+        "optimization-duality:survey"
+      ]
+    },
+    {
+      "id": "conic-certificates",
+      "title": "Optimization · Conic Geometry and Exact Certificates",
+      "role": "deep_dive",
+      "lectures": [
+        "007000",
+        "009000",
+        "010000",
+        "012000",
+        "016000",
+        "020000",
+        "025000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Linear and semidefinite programming, dual cones and the distinction between mathematical and numerical feasibility."
+      ],
+      "preparation_collections": [
+        "optimization-duality:survey"
+      ]
+    }
+  ]
+}

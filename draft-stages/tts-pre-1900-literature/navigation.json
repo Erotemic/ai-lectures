@@ -1,0 +1,1077 @@
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "Literary Classics Before 1900 · Guided Survey",
+      "role": "main",
+      "summary": "A period-ordered route through the available works, pairing narrative with selected criticism. Chaucer and Boccaccio use selected tales; their full sequences remain linked. Durations reflect existing material rather than a fixed session length.",
+      "chapters": [
+        {
+          "title": "Medieval · Dante",
+          "collection": "dante",
+          "sessions": [
+            {
+              "title": "Session 1 · Inferno",
+              "lectures": [
+                "016000",
+                "017000",
+                "018000",
+                "019000"
+              ]
+            },
+            {
+              "title": "Session 2 · Purgatorio",
+              "lectures": [
+                "020000",
+                "021000",
+                "022000",
+                "023000"
+              ]
+            },
+            {
+              "title": "Session 3 · Paradiso and the shape of the poem",
+              "lectures": [
+                "024000",
+                "025000",
+                "026000",
+                "027000",
+                "028000",
+                "034000"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Medieval · The Decameron",
+          "lectures": [
+            "literature-survey:001000"
+          ],
+          "collection": "decameron"
+        },
+        {
+          "title": "Medieval · The Canterbury Tales — selected tales and criticism",
+          "lectures": [
+            "275000",
+            "278000",
+            "282000",
+            "283000",
+            "291000",
+            "297000",
+            "304000",
+            "306000",
+            "310000"
+          ],
+          "collection": "canterbury-tales"
+        },
+        {
+          "title": "Early modern · Hamlet",
+          "lectures": [
+            "001000",
+            "002000",
+            "003000",
+            "004000",
+            "005000",
+            "006000",
+            "007000"
+          ],
+          "collection": "hamlet"
+        },
+        {
+          "title": "Early modern · Othello",
+          "lectures": [
+            "059000",
+            "060000",
+            "061000",
+            "062000",
+            "063000",
+            "064000"
+          ],
+          "collection": "othello"
+        },
+        {
+          "title": "Early modern · King Lear",
+          "lectures": [
+            "038000",
+            "039000",
+            "040000",
+            "041000",
+            "042000",
+            "043000"
+          ],
+          "collection": "king-lear"
+        },
+        {
+          "title": "Early modern · Macbeth",
+          "lectures": [
+            "050000",
+            "051000",
+            "052000",
+            "053000",
+            "054000",
+            "057000"
+          ],
+          "collection": "macbeth"
+        },
+        {
+          "title": "Early modern · Don Quixote",
+          "lectures": [
+            "008000",
+            "009000",
+            "010000",
+            "011000",
+            "012000",
+            "013000"
+          ],
+          "collection": "don-quixote"
+        },
+        {
+          "title": "Early modern · Journey to the West — opening and historical context",
+          "lectures": [
+            "world-history:048000",
+            "world-history:054000"
+          ],
+          "collection": "journey-west-expanded"
+        },
+        {
+          "title": "Early modern · Paradise Lost",
+          "collection": "paradise-lost",
+          "sessions": [
+            {
+              "title": "Session 1 · The fallen angels, creation, and Eden",
+              "lectures": [
+                "252000",
+                "253000",
+                "254000",
+                "255000",
+                "256000",
+                "257000",
+                "258000"
+              ]
+            },
+            {
+              "title": "Session 2 · Human choice, the Fall, and its consequences",
+              "lectures": [
+                "259000",
+                "260000",
+                "261000",
+                "262000",
+                "263000",
+                "264000",
+                "266000"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nineteenth century · Faust",
+          "collection": "faust",
+          "sessions": [
+            {
+              "title": "Session 1 · Part One: the bargain and Gretchen",
+              "lectures": [
+                "229000",
+                "230000",
+                "231000",
+                "232000",
+                "233000",
+                "234000"
+              ]
+            },
+            {
+              "title": "Session 2 · Part Two: the world beyond the study",
+              "lectures": [
+                "235000",
+                "236000",
+                "237000",
+                "238000",
+                "239000",
+                "240000",
+                "241000",
+                "242000",
+                "243000",
+                "250000"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nineteenth century · Pride and Prejudice",
+          "lectures": [
+            "069000",
+            "070000",
+            "071000",
+            "072000",
+            "073000",
+            "075000"
+          ],
+          "collection": "pride-prejudice"
+        },
+        {
+          "title": "Nineteenth century · Frankenstein",
+          "lectures": [
+            "079000",
+            "080000",
+            "081000",
+            "082000",
+            "083000",
+            "089000"
+          ],
+          "collection": "frankenstein"
+        },
+        {
+          "title": "Nineteenth century · Jane Eyre",
+          "lectures": [
+            "203000",
+            "204000",
+            "205000",
+            "206000",
+            "207000",
+            "208000",
+            "209000",
+            "210000",
+            "214000"
+          ],
+          "collection": "jane-eyre"
+        },
+        {
+          "title": "Nineteenth century · Wuthering Heights",
+          "lectures": [
+            "217000",
+            "218000",
+            "219000",
+            "220000",
+            "221000",
+            "222000",
+            "223000",
+            "224000"
+          ],
+          "collection": "wuthering-heights"
+        },
+        {
+          "title": "Nineteenth century · Moby-Dick",
+          "lectures": [
+            "147000",
+            "148000",
+            "149000",
+            "150000",
+            "151000",
+            "152000",
+            "153000",
+            "156000"
+          ],
+          "collection": "moby-dick"
+        },
+        {
+          "title": "Nineteenth century · Madame Bovary",
+          "lectures": [
+            "103000",
+            "104000",
+            "105000",
+            "106000",
+            "107000",
+            "110000"
+          ],
+          "collection": "madame-bovary"
+        },
+        {
+          "title": "Nineteenth century · Great Expectations",
+          "lectures": [
+            "091000",
+            "092000",
+            "093000",
+            "094000",
+            "095000",
+            "098000"
+          ],
+          "collection": "great-expectations"
+        },
+        {
+          "title": "Nineteenth century · Crime and Punishment",
+          "lectures": [
+            "188000",
+            "189000",
+            "190000",
+            "191000",
+            "192000",
+            "193000",
+            "194000",
+            "195000",
+            "199000"
+          ],
+          "collection": "crime-punishment"
+        },
+        {
+          "title": "Nineteenth century · War and Peace",
+          "collection": "war-peace",
+          "sessions": [
+            {
+              "title": "Session 1 · Families, ambitions, and Austerlitz",
+              "lectures": [
+                "114000",
+                "115000",
+                "116000",
+                "117000",
+                "118000"
+              ]
+            },
+            {
+              "title": "Session 2 · The invasion, survival, and the argument about history",
+              "lectures": [
+                "119000",
+                "120000",
+                "121000",
+                "122000",
+                "123000",
+                "124000"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nineteenth century · Middlemarch",
+          "lectures": [
+            "173000",
+            "174000",
+            "175000",
+            "176000",
+            "177000",
+            "178000",
+            "179000",
+            "180000",
+            "181000",
+            "186000"
+          ],
+          "collection": "middlemarch"
+        },
+        {
+          "title": "Nineteenth century · Anna Karenina",
+          "lectures": [
+            "160000",
+            "161000",
+            "162000",
+            "163000",
+            "164000",
+            "165000",
+            "166000",
+            "167000",
+            "169000"
+          ],
+          "collection": "anna-karenina"
+        },
+        {
+          "title": "Nineteenth century · The Brothers Karamazov",
+          "lectures": [
+            "130000",
+            "131000",
+            "132000",
+            "133000",
+            "134000",
+            "135000",
+            "136000",
+            "138000",
+            "143000"
+          ],
+          "collection": "brothers-karamazov"
+        },
+        {
+          "title": "Nineteenth century · Flatland",
+          "lectures": [
+            "048000",
+            "049000"
+          ],
+          "collection": "flatland"
+        }
+      ],
+      "related_collections": [
+        "world-history:literature",
+        "modern-literature:survey"
+      ]
+    },
+    {
+      "id": "dante",
+      "title": "Dante · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "016000",
+        "017000",
+        "018000",
+        "019000",
+        "020000",
+        "021000",
+        "022000",
+        "023000",
+        "024000",
+        "025000",
+        "026000",
+        "027000",
+        "028000",
+        "029000",
+        "030000",
+        "031000",
+        "032000",
+        "033000",
+        "034000",
+        "035000",
+        "036000",
+        "037000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "decameron",
+      "title": "The Decameron · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "312000",
+        "313000",
+        "314000",
+        "315000",
+        "316000",
+        "317000",
+        "318000",
+        "319000",
+        "320000",
+        "321000",
+        "322000",
+        "323000",
+        "324000",
+        "325000",
+        "326000",
+        "327000",
+        "328000",
+        "329000",
+        "330000",
+        "331000",
+        "332000",
+        "333000",
+        "334000",
+        "335000",
+        "336000",
+        "337000",
+        "338000",
+        "339000",
+        "340000",
+        "341000",
+        "342000",
+        "343000",
+        "344000",
+        "345000",
+        "346000",
+        "347000",
+        "348000",
+        "349000",
+        "350000",
+        "351000",
+        "352000",
+        "353000",
+        "354000",
+        "355000",
+        "356000",
+        "357000",
+        "358000",
+        "359000",
+        "360000",
+        "361000",
+        "362000",
+        "363000",
+        "364000",
+        "365000",
+        "366000",
+        "367000",
+        "368000",
+        "369000",
+        "370000",
+        "371000",
+        "372000",
+        "373000",
+        "374000",
+        "375000",
+        "376000",
+        "377000",
+        "378000",
+        "379000",
+        "380000",
+        "381000",
+        "382000",
+        "383000",
+        "384000",
+        "385000",
+        "386000",
+        "387000",
+        "388000",
+        "389000",
+        "390000",
+        "391000",
+        "392000",
+        "393000",
+        "394000",
+        "395000",
+        "396000",
+        "397000",
+        "398000",
+        "399000",
+        "400000",
+        "401000",
+        "402000",
+        "403000",
+        "404000",
+        "405000",
+        "406000",
+        "407000",
+        "408000",
+        "409000",
+        "410000",
+        "411000",
+        "412000",
+        "413000",
+        "414000",
+        "415000",
+        "416000",
+        "417000",
+        "418000",
+        "419000",
+        "420000",
+        "421000",
+        "422000",
+        "423000",
+        "424000",
+        "425000",
+        "426000",
+        "427000",
+        "428000",
+        "429000",
+        "430000",
+        "431000",
+        "432000",
+        "433000",
+        "434000",
+        "435000",
+        "436000",
+        "437000",
+        "438000",
+        "439000",
+        "440000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": [
+        "literature-survey:introductions"
+      ]
+    },
+    {
+      "id": "canterbury-tales",
+      "title": "The Canterbury Tales · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "275000",
+        "276000",
+        "277000",
+        "278000",
+        "279000",
+        "280000",
+        "281000",
+        "282000",
+        "283000",
+        "284000",
+        "285000",
+        "286000",
+        "287000",
+        "288000",
+        "289000",
+        "290000",
+        "291000",
+        "292000",
+        "293000",
+        "294000",
+        "295000",
+        "296000",
+        "297000",
+        "298000",
+        "299000",
+        "300000",
+        "301000",
+        "302000",
+        "303000",
+        "304000",
+        "305000",
+        "306000",
+        "307000",
+        "308000",
+        "309000",
+        "310000",
+        "311000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "hamlet",
+      "title": "Hamlet · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "007000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "othello",
+      "title": "Othello · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "059000",
+        "060000",
+        "061000",
+        "062000",
+        "063000",
+        "064000",
+        "065000",
+        "066000",
+        "067000",
+        "068000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "king-lear",
+      "title": "King Lear · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "038000",
+        "039000",
+        "040000",
+        "041000",
+        "042000",
+        "043000",
+        "044000",
+        "045000",
+        "046000",
+        "047000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "macbeth",
+      "title": "Macbeth · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "050000",
+        "051000",
+        "052000",
+        "053000",
+        "054000",
+        "055000",
+        "056000",
+        "057000",
+        "058000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "don-quixote",
+      "title": "Don Quixote · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "008000",
+        "009000",
+        "010000",
+        "011000",
+        "012000",
+        "013000",
+        "014000",
+        "015000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "journey-west-expanded",
+      "title": "Journey to the West · Expanded Retelling (Chapters 1–12; In Progress)",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Expanded retelling of chapters 1–12 only. Chapters 13–100 are not yet covered here. Use the linked overview for the complete story.",
+      "related_collections": [
+        "world-history:journey-west"
+      ],
+      "include_sections": [
+        "late-ming-chinese-novel-journey-to-the-west-expanded-retelling"
+      ]
+    },
+    {
+      "id": "paradise-lost",
+      "title": "Paradise Lost · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "252000",
+        "253000",
+        "254000",
+        "255000",
+        "256000",
+        "257000",
+        "258000",
+        "259000",
+        "260000",
+        "261000",
+        "262000",
+        "263000",
+        "264000",
+        "265000",
+        "266000",
+        "267000",
+        "268000",
+        "269000",
+        "270000",
+        "271000",
+        "272000",
+        "273000",
+        "274000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "faust",
+      "title": "Faust · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "229000",
+        "230000",
+        "231000",
+        "232000",
+        "233000",
+        "234000",
+        "235000",
+        "236000",
+        "237000",
+        "238000",
+        "239000",
+        "240000",
+        "241000",
+        "242000",
+        "243000",
+        "244000",
+        "245000",
+        "246000",
+        "247000",
+        "248000",
+        "249000",
+        "250000",
+        "251000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "pride-prejudice",
+      "title": "Pride and Prejudice · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "069000",
+        "070000",
+        "071000",
+        "072000",
+        "073000",
+        "074000",
+        "075000",
+        "076000",
+        "077000",
+        "078000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "frankenstein",
+      "title": "Frankenstein · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "079000",
+        "080000",
+        "081000",
+        "082000",
+        "083000",
+        "084000",
+        "085000",
+        "086000",
+        "087000",
+        "088000",
+        "089000",
+        "090000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "jane-eyre",
+      "title": "Jane Eyre · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "203000",
+        "204000",
+        "205000",
+        "206000",
+        "207000",
+        "208000",
+        "209000",
+        "210000",
+        "211000",
+        "212000",
+        "213000",
+        "214000",
+        "215000",
+        "216000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "wuthering-heights",
+      "title": "Wuthering Heights · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "217000",
+        "218000",
+        "219000",
+        "220000",
+        "221000",
+        "222000",
+        "223000",
+        "224000",
+        "225000",
+        "226000",
+        "227000",
+        "228000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "moby-dick",
+      "title": "Moby-Dick · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "147000",
+        "148000",
+        "149000",
+        "150000",
+        "151000",
+        "152000",
+        "153000",
+        "154000",
+        "155000",
+        "156000",
+        "157000",
+        "158000",
+        "159000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "madame-bovary",
+      "title": "Madame Bovary · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "103000",
+        "104000",
+        "105000",
+        "106000",
+        "107000",
+        "108000",
+        "109000",
+        "110000",
+        "111000",
+        "112000",
+        "113000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "great-expectations",
+      "title": "Great Expectations · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "091000",
+        "092000",
+        "093000",
+        "094000",
+        "095000",
+        "096000",
+        "097000",
+        "098000",
+        "099000",
+        "100000",
+        "101000",
+        "102000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "crime-punishment",
+      "title": "Crime and Punishment · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "188000",
+        "189000",
+        "190000",
+        "191000",
+        "192000",
+        "193000",
+        "194000",
+        "195000",
+        "196000",
+        "197000",
+        "198000",
+        "199000",
+        "200000",
+        "201000",
+        "202000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "war-peace",
+      "title": "War and Peace · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "114000",
+        "115000",
+        "116000",
+        "117000",
+        "118000",
+        "119000",
+        "120000",
+        "121000",
+        "122000",
+        "123000",
+        "124000",
+        "125000",
+        "126000",
+        "127000",
+        "128000",
+        "129000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "middlemarch",
+      "title": "Middlemarch · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "173000",
+        "174000",
+        "175000",
+        "176000",
+        "177000",
+        "178000",
+        "179000",
+        "180000",
+        "181000",
+        "182000",
+        "183000",
+        "184000",
+        "185000",
+        "186000",
+        "187000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "anna-karenina",
+      "title": "Anna Karenina · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "160000",
+        "161000",
+        "162000",
+        "163000",
+        "164000",
+        "165000",
+        "166000",
+        "167000",
+        "168000",
+        "169000",
+        "170000",
+        "171000",
+        "172000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "brothers-karamazov",
+      "title": "The Brothers Karamazov · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "130000",
+        "131000",
+        "132000",
+        "133000",
+        "134000",
+        "135000",
+        "136000",
+        "137000",
+        "138000",
+        "139000",
+        "140000",
+        "141000",
+        "142000",
+        "143000",
+        "144000",
+        "145000",
+        "146000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    },
+    {
+      "id": "flatland",
+      "title": "Flatland · Extended study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "048000",
+        "049000"
+      ],
+      "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
+      "related_collections": []
+    }
+  ]
+}

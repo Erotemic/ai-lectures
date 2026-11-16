@@ -1,5 +1,10 @@
 # Literary Classics Before 1900
 
+For the interrupted expanded Journey to the West, start with the
+[continuation handoff](notes/journey-west-continuation-handoff.md). Its route
+includes new entries in the existing section automatically; the shorter survey
+remains separately curated. Source files and playback IDs stay in this pack.
+
 A distinct audio-first literature pack for the period between the ancient narrative
 traditions already covered in **World History** and the twentieth-century works
 covered in **Modern Literature**. The title identifies a chronological scope, not

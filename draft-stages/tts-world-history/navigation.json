@@ -1,0 +1,348 @@
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "World History · Historical Case Studies",
+      "role": "main",
+      "categories": [
+        "History and society"
+      ],
+      "summary": "Historical portraits and case studies from the original mixed collection. For a connected chronological survey, follow Ancient and Medieval World, then Modern World. Literature and archaeological methods have their own routes.",
+      "chapters": [
+        {
+          "title": "People, cities, and connected worlds",
+          "lectures": [
+            "002000",
+            "003000",
+            "004000",
+            "005000",
+            "006000",
+            "007000"
+          ]
+        },
+        {
+          "title": "The Haitian Revolution",
+          "lectures": [
+            "400000",
+            "401000",
+            "402000",
+            "403000",
+            "404000"
+          ]
+        }
+      ],
+      "related_collections": [
+        "ancient-medieval-world:survey",
+        "modern-world:main",
+        "how-we-know",
+        "literature"
+      ]
+    },
+    {
+      "id": "how-we-know",
+      "title": "How We Know · Archaeology and Historical Evidence",
+      "role": "main",
+      "categories": [
+        "History and society"
+      ],
+      "summary": "Methods and case studies in reconstructing the past. Follow the strand on its own or use it as a companion to historical and literary routes.",
+      "related_collections": [
+        "ancient-medieval-world:regional-studies",
+        "survey",
+        "literature"
+      ],
+      "include_sections": [
+        "how-we-know"
+      ]
+    },
+    {
+      "id": "literature",
+      "title": "World Epics and Narrative Traditions · Guided Route",
+      "role": "main",
+      "categories": [
+        "Literature and arts"
+      ],
+      "summary": "A guided route through world epics and narrative traditions. Each work links to its longer existing study. Stops using selected tales or a contextual introduction identify that scope in their headings.",
+      "chapters": [
+        {
+          "title": "Gilgamesh",
+          "lectures": [
+            "001000",
+            "008000"
+          ],
+          "collection": "gilgamesh"
+        },
+        {
+          "title": "Mesopotamian and Egyptian narratives",
+          "lectures": [
+            "009000",
+            "010000",
+            "011000",
+            "012000",
+            "022000",
+            "027000",
+            "028000",
+            "088000"
+          ],
+          "collection": "mesopotamian-egyptian"
+        },
+        {
+          "title": "The Iliad and the Odyssey",
+          "lectures": [
+            "013000",
+            "014000",
+            "015000",
+            "016000",
+            "017000"
+          ],
+          "collection": "homer"
+        },
+        {
+          "title": "The Ramayana and the Mahabharata",
+          "lectures": [
+            "018000",
+            "019000",
+            "023000",
+            "024000",
+            "025000",
+            "026000"
+          ],
+          "collection": "south-asian-epics"
+        },
+        {
+          "title": "Popol Wuj",
+          "lectures": [
+            "020000",
+            "021000"
+          ],
+          "collection": "popol-wuj"
+        },
+        {
+          "title": "Journey to the West — opening and historical context",
+          "lectures": [
+            "048000",
+            "054000"
+          ],
+          "collection": "journey-west"
+        },
+        {
+          "title": "Romance of the Three Kingdoms",
+          "lectures": [
+            "literature-survey:002000"
+          ],
+          "collection": "three-kingdoms"
+        },
+        {
+          "title": "Shahnameh",
+          "lectures": [
+            "literature-survey:003000"
+          ],
+          "collection": "shahnameh"
+        },
+        {
+          "title": "Water Margin — opening and versions",
+          "lectures": [
+            "300000",
+            "306000"
+          ],
+          "collection": "water-margin"
+        }
+      ],
+      "related_collections": [
+        "pre-1900-literature:survey",
+        "how-we-know"
+      ]
+    },
+    {
+      "id": "gilgamesh",
+      "title": "Gilgamesh · Full Study",
+      "role": "deep_dive",
+      "parent": "literature",
+      "lectures": [
+        "001000",
+        "008000"
+      ],
+      "categories": [
+        "Literature and arts"
+      ],
+      "summary": "Full existing narrative and contextual sequence.",
+      "related_collections": []
+    },
+    {
+      "id": "mesopotamian-egyptian",
+      "title": "Mesopotamian and Egyptian narratives · Full Study",
+      "role": "deep_dive",
+      "parent": "literature",
+      "lectures": [
+        "009000",
+        "010000",
+        "011000",
+        "012000",
+        "022000",
+        "027000",
+        "028000",
+        "088000"
+      ],
+      "categories": [
+        "Literature and arts"
+      ],
+      "summary": "Full existing narrative and contextual sequence.",
+      "related_collections": []
+    },
+    {
+      "id": "homer",
+      "title": "The Iliad and the Odyssey · Full Study",
+      "role": "deep_dive",
+      "parent": "literature",
+      "lectures": [
+        "013000",
+        "014000",
+        "015000",
+        "016000",
+        "017000"
+      ],
+      "categories": [
+        "Literature and arts"
+      ],
+      "summary": "Full existing narrative and contextual sequence.",
+      "related_collections": []
+    },
+    {
+      "id": "south-asian-epics",
+      "title": "The Ramayana and the Mahabharata · Full Study",
+      "role": "deep_dive",
+      "parent": "literature",
+      "lectures": [
+        "018000",
+        "019000",
+        "023000",
+        "024000",
+        "025000",
+        "026000"
+      ],
+      "categories": [
+        "Literature and arts"
+      ],
+      "summary": "Full existing narrative and contextual sequence.",
+      "related_collections": []
+    },
+    {
+      "id": "popol-wuj",
+      "title": "Popol Wuj · Full Study",
+      "role": "deep_dive",
+      "parent": "literature",
+      "lectures": [
+        "020000",
+        "021000"
+      ],
+      "categories": [
+        "Literature and arts"
+      ],
+      "summary": "Full existing narrative and contextual sequence.",
+      "related_collections": []
+    },
+    {
+      "id": "journey-west",
+      "title": "Journey to the West · Complete Retelling and Context",
+      "role": "deep_dive",
+      "parent": "literature",
+      "lectures": [
+        "048000",
+        "049000",
+        "050000",
+        "051000",
+        "052000",
+        "053000",
+        "054000"
+      ],
+      "categories": [
+        "Literature and arts"
+      ],
+      "summary": "The complete 100-chapter novel in six existing retelling lectures, followed by historical and textual context. The separately linked expanded retelling is still in progress.",
+      "related_collections": [
+        "pre-1900-literature:journey-west-expanded"
+      ]
+    },
+    {
+      "id": "three-kingdoms",
+      "title": "Romance of the Three Kingdoms · Full Study",
+      "role": "deep_dive",
+      "parent": "literature",
+      "lectures": [
+        "058000",
+        "059000",
+        "060000",
+        "061000",
+        "062000",
+        "063000",
+        "064000",
+        "065000",
+        "066000",
+        "067000",
+        "068000",
+        "069000",
+        "070000",
+        "071000",
+        "072000",
+        "073000",
+        "074000"
+      ],
+      "categories": [
+        "Literature and arts"
+      ],
+      "summary": "Full existing narrative and contextual sequence.",
+      "related_collections": [
+        "literature-survey:introductions"
+      ]
+    },
+    {
+      "id": "shahnameh",
+      "title": "Shahnameh · Full Study",
+      "role": "deep_dive",
+      "parent": "literature",
+      "lectures": [
+        "075000",
+        "076000",
+        "077000",
+        "078000",
+        "079000",
+        "080000",
+        "081000",
+        "082000",
+        "083000",
+        "084000",
+        "085000",
+        "086000",
+        "087000"
+      ],
+      "categories": [
+        "Literature and arts"
+      ],
+      "summary": "Full existing narrative and contextual sequence.",
+      "related_collections": [
+        "literature-survey:introductions"
+      ]
+    },
+    {
+      "id": "water-margin",
+      "title": "Water Margin · Expanded Opening Narrative and Textual History",
+      "role": "deep_dive",
+      "parent": "literature",
+      "lectures": [
+        "300000",
+        "301000",
+        "302000",
+        "303000",
+        "304000",
+        "305000",
+        "306000"
+      ],
+      "categories": [
+        "Literature and arts"
+      ],
+      "summary": "The six narrative lectures reach the assaults on Zhu Family Village. They do not retell the later gathering, amnesty, or campaigns. The textual-history companion explains the principal recensions and their different endings.",
+      "related_collections": []
+    }
+  ]
+}

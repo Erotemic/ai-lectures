@@ -1,0 +1,1034 @@
+{
+  "default_collection": "periods",
+  "collections": [
+    {
+      "id": "periods",
+      "title": "Literature · Routes by Period",
+      "role": "hub",
+      "summary": "Choose a period route, then follow a work into its extended study. Existing recordings are reused across these routes; introductory selections and unfinished retellings are identified explicitly.",
+      "lectures": [],
+      "related_collections": [
+        "world-history:literature",
+        "pre-1900-literature:survey",
+        "modern-literature:survey"
+      ]
+    },
+    {
+      "id": "ancient-narratives",
+      "title": "Ancient Epics and Narrative Traditions",
+      "role": "main",
+      "parent": "periods",
+      "summary": "Mesopotamian, Egyptian, Greek, and South Asian narratives. These are transmitted traditions with complex textual histories, rather than a list of single publication dates.",
+      "chapters": [
+        {
+          "title": "Gilgamesh",
+          "lectures": [
+            "world-history:001000",
+            "world-history:008000"
+          ],
+          "collection": "world-history:gilgamesh"
+        },
+        {
+          "title": "Mesopotamian and Egyptian narratives",
+          "lectures": [
+            "world-history:009000",
+            "world-history:010000",
+            "world-history:011000",
+            "world-history:012000",
+            "world-history:022000",
+            "world-history:027000",
+            "world-history:028000",
+            "world-history:088000"
+          ],
+          "collection": "world-history:mesopotamian-egyptian"
+        },
+        {
+          "title": "The Iliad and the Odyssey",
+          "lectures": [
+            "world-history:013000",
+            "world-history:014000",
+            "world-history:015000",
+            "world-history:016000",
+            "world-history:017000"
+          ],
+          "collection": "world-history:homer"
+        },
+        {
+          "title": "The Ramayana and the Mahabharata",
+          "lectures": [
+            "world-history:018000",
+            "world-history:019000",
+            "world-history:023000",
+            "world-history:024000",
+            "world-history:025000",
+            "world-history:026000"
+          ],
+          "collection": "world-history:south-asian-epics"
+        }
+      ]
+    },
+    {
+      "id": "medieval",
+      "title": "Medieval Literature",
+      "role": "main",
+      "parent": "periods",
+      "summary": "Persian epic, Italian poetry and storytelling, and the English tale collection. Each introductory stop links to the full existing study.",
+      "chapters": [
+        {
+          "title": "Shahnameh",
+          "lectures": [
+            "literature-survey:003000"
+          ],
+          "collection": "world-history:shahnameh"
+        },
+        {
+          "title": "Medieval · Dante",
+          "collection": "pre-1900-literature:dante",
+          "sessions": [
+            {
+              "title": "Session 1 · Inferno",
+              "lectures": [
+                "pre-1900-literature:016000",
+                "pre-1900-literature:017000",
+                "pre-1900-literature:018000",
+                "pre-1900-literature:019000"
+              ]
+            },
+            {
+              "title": "Session 2 · Purgatorio",
+              "lectures": [
+                "pre-1900-literature:020000",
+                "pre-1900-literature:021000",
+                "pre-1900-literature:022000",
+                "pre-1900-literature:023000"
+              ]
+            },
+            {
+              "title": "Session 3 · Paradiso and the shape of the poem",
+              "lectures": [
+                "pre-1900-literature:024000",
+                "pre-1900-literature:025000",
+                "pre-1900-literature:026000",
+                "pre-1900-literature:027000",
+                "pre-1900-literature:028000",
+                "pre-1900-literature:034000"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Medieval · The Decameron",
+          "lectures": [
+            "literature-survey:001000"
+          ],
+          "collection": "pre-1900-literature:decameron"
+        },
+        {
+          "title": "Medieval · The Canterbury Tales — selected tales and criticism",
+          "lectures": [
+            "pre-1900-literature:275000",
+            "pre-1900-literature:278000",
+            "pre-1900-literature:282000",
+            "pre-1900-literature:283000",
+            "pre-1900-literature:291000",
+            "pre-1900-literature:297000",
+            "pre-1900-literature:304000",
+            "pre-1900-literature:306000",
+            "pre-1900-literature:310000"
+          ],
+          "collection": "pre-1900-literature:canterbury-tales"
+        }
+      ]
+    },
+    {
+      "id": "early-modern",
+      "title": "Early Modern Literature and Print Traditions",
+      "role": "main",
+      "parent": "periods",
+      "summary": "Chinese narrative and print traditions, European drama, prose and epic, and the colonial written witness of Popol Wuj. Journey to the West and Water Margin begin with clearly labeled openings and context; their expanded branches remain in progress.",
+      "chapters": [
+        {
+          "title": "Romance of the Three Kingdoms",
+          "lectures": [
+            "literature-survey:002000"
+          ],
+          "collection": "world-history:three-kingdoms"
+        },
+        {
+          "title": "Water Margin — opening and versions",
+          "lectures": [
+            "world-history:300000",
+            "world-history:306000"
+          ],
+          "collection": "world-history:water-margin"
+        },
+        {
+          "title": "Journey to the West — opening and historical context",
+          "lectures": [
+            "world-history:048000",
+            "world-history:054000"
+          ],
+          "collection": "world-history:journey-west"
+        },
+        {
+          "title": "Popol Wuj",
+          "lectures": [
+            "world-history:020000",
+            "world-history:021000"
+          ],
+          "collection": "world-history:popol-wuj"
+        },
+        {
+          "title": "Early modern · Hamlet",
+          "lectures": [
+            "pre-1900-literature:001000",
+            "pre-1900-literature:002000",
+            "pre-1900-literature:003000",
+            "pre-1900-literature:004000",
+            "pre-1900-literature:005000",
+            "pre-1900-literature:006000",
+            "pre-1900-literature:007000"
+          ],
+          "collection": "pre-1900-literature:hamlet"
+        },
+        {
+          "title": "Early modern · Othello",
+          "lectures": [
+            "pre-1900-literature:059000",
+            "pre-1900-literature:060000",
+            "pre-1900-literature:061000",
+            "pre-1900-literature:062000",
+            "pre-1900-literature:063000",
+            "pre-1900-literature:064000"
+          ],
+          "collection": "pre-1900-literature:othello"
+        },
+        {
+          "title": "Early modern · King Lear",
+          "lectures": [
+            "pre-1900-literature:038000",
+            "pre-1900-literature:039000",
+            "pre-1900-literature:040000",
+            "pre-1900-literature:041000",
+            "pre-1900-literature:042000",
+            "pre-1900-literature:043000"
+          ],
+          "collection": "pre-1900-literature:king-lear"
+        },
+        {
+          "title": "Early modern · Macbeth",
+          "lectures": [
+            "pre-1900-literature:050000",
+            "pre-1900-literature:051000",
+            "pre-1900-literature:052000",
+            "pre-1900-literature:053000",
+            "pre-1900-literature:054000",
+            "pre-1900-literature:057000"
+          ],
+          "collection": "pre-1900-literature:macbeth"
+        },
+        {
+          "title": "Early modern · Don Quixote",
+          "lectures": [
+            "pre-1900-literature:008000",
+            "pre-1900-literature:009000",
+            "pre-1900-literature:010000",
+            "pre-1900-literature:011000",
+            "pre-1900-literature:012000",
+            "pre-1900-literature:013000"
+          ],
+          "collection": "pre-1900-literature:don-quixote"
+        },
+        {
+          "title": "Early modern · Paradise Lost",
+          "collection": "pre-1900-literature:paradise-lost",
+          "sessions": [
+            {
+              "title": "Session 1 · The fallen angels, creation, and Eden",
+              "lectures": [
+                "pre-1900-literature:252000",
+                "pre-1900-literature:253000",
+                "pre-1900-literature:254000",
+                "pre-1900-literature:255000",
+                "pre-1900-literature:256000",
+                "pre-1900-literature:257000",
+                "pre-1900-literature:258000"
+              ]
+            },
+            {
+              "title": "Session 2 · Human choice, the Fall, and its consequences",
+              "lectures": [
+                "pre-1900-literature:259000",
+                "pre-1900-literature:260000",
+                "pre-1900-literature:261000",
+                "pre-1900-literature:262000",
+                "pre-1900-literature:263000",
+                "pre-1900-literature:264000",
+                "pre-1900-literature:266000"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nineteenth-century",
+      "title": "Nineteenth-Century Literature",
+      "role": "main",
+      "parent": "periods",
+      "summary": "Complete available story treatments and selected criticism, with named sessions for the longer selections. Full work-level studies remain linked.",
+      "chapters": [
+        {
+          "title": "Nineteenth century · Faust",
+          "collection": "pre-1900-literature:faust",
+          "sessions": [
+            {
+              "title": "Session 1 · Part One: the bargain and Gretchen",
+              "lectures": [
+                "pre-1900-literature:229000",
+                "pre-1900-literature:230000",
+                "pre-1900-literature:231000",
+                "pre-1900-literature:232000",
+                "pre-1900-literature:233000",
+                "pre-1900-literature:234000"
+              ]
+            },
+            {
+              "title": "Session 2 · Part Two: the world beyond the study",
+              "lectures": [
+                "pre-1900-literature:235000",
+                "pre-1900-literature:236000",
+                "pre-1900-literature:237000",
+                "pre-1900-literature:238000",
+                "pre-1900-literature:239000",
+                "pre-1900-literature:240000",
+                "pre-1900-literature:241000",
+                "pre-1900-literature:242000",
+                "pre-1900-literature:243000",
+                "pre-1900-literature:250000"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nineteenth century · Pride and Prejudice",
+          "lectures": [
+            "pre-1900-literature:069000",
+            "pre-1900-literature:070000",
+            "pre-1900-literature:071000",
+            "pre-1900-literature:072000",
+            "pre-1900-literature:073000",
+            "pre-1900-literature:075000"
+          ],
+          "collection": "pre-1900-literature:pride-prejudice"
+        },
+        {
+          "title": "Nineteenth century · Frankenstein",
+          "lectures": [
+            "pre-1900-literature:079000",
+            "pre-1900-literature:080000",
+            "pre-1900-literature:081000",
+            "pre-1900-literature:082000",
+            "pre-1900-literature:083000",
+            "pre-1900-literature:089000"
+          ],
+          "collection": "pre-1900-literature:frankenstein"
+        },
+        {
+          "title": "Nineteenth century · Jane Eyre",
+          "lectures": [
+            "pre-1900-literature:203000",
+            "pre-1900-literature:204000",
+            "pre-1900-literature:205000",
+            "pre-1900-literature:206000",
+            "pre-1900-literature:207000",
+            "pre-1900-literature:208000",
+            "pre-1900-literature:209000",
+            "pre-1900-literature:210000",
+            "pre-1900-literature:214000"
+          ],
+          "collection": "pre-1900-literature:jane-eyre"
+        },
+        {
+          "title": "Nineteenth century · Wuthering Heights",
+          "lectures": [
+            "pre-1900-literature:217000",
+            "pre-1900-literature:218000",
+            "pre-1900-literature:219000",
+            "pre-1900-literature:220000",
+            "pre-1900-literature:221000",
+            "pre-1900-literature:222000",
+            "pre-1900-literature:223000",
+            "pre-1900-literature:224000"
+          ],
+          "collection": "pre-1900-literature:wuthering-heights"
+        },
+        {
+          "title": "Nineteenth century · Moby-Dick",
+          "lectures": [
+            "pre-1900-literature:147000",
+            "pre-1900-literature:148000",
+            "pre-1900-literature:149000",
+            "pre-1900-literature:150000",
+            "pre-1900-literature:151000",
+            "pre-1900-literature:152000",
+            "pre-1900-literature:153000",
+            "pre-1900-literature:156000"
+          ],
+          "collection": "pre-1900-literature:moby-dick"
+        },
+        {
+          "title": "Nineteenth century · Madame Bovary",
+          "lectures": [
+            "pre-1900-literature:103000",
+            "pre-1900-literature:104000",
+            "pre-1900-literature:105000",
+            "pre-1900-literature:106000",
+            "pre-1900-literature:107000",
+            "pre-1900-literature:110000"
+          ],
+          "collection": "pre-1900-literature:madame-bovary"
+        },
+        {
+          "title": "Nineteenth century · Great Expectations",
+          "lectures": [
+            "pre-1900-literature:091000",
+            "pre-1900-literature:092000",
+            "pre-1900-literature:093000",
+            "pre-1900-literature:094000",
+            "pre-1900-literature:095000",
+            "pre-1900-literature:098000"
+          ],
+          "collection": "pre-1900-literature:great-expectations"
+        },
+        {
+          "title": "Nineteenth century · Crime and Punishment",
+          "lectures": [
+            "pre-1900-literature:188000",
+            "pre-1900-literature:189000",
+            "pre-1900-literature:190000",
+            "pre-1900-literature:191000",
+            "pre-1900-literature:192000",
+            "pre-1900-literature:193000",
+            "pre-1900-literature:194000",
+            "pre-1900-literature:195000",
+            "pre-1900-literature:199000"
+          ],
+          "collection": "pre-1900-literature:crime-punishment"
+        },
+        {
+          "title": "Nineteenth century · War and Peace",
+          "collection": "pre-1900-literature:war-peace",
+          "sessions": [
+            {
+              "title": "Session 1 · Families, ambitions, and Austerlitz",
+              "lectures": [
+                "pre-1900-literature:114000",
+                "pre-1900-literature:115000",
+                "pre-1900-literature:116000",
+                "pre-1900-literature:117000",
+                "pre-1900-literature:118000"
+              ]
+            },
+            {
+              "title": "Session 2 · The invasion, survival, and the argument about history",
+              "lectures": [
+                "pre-1900-literature:119000",
+                "pre-1900-literature:120000",
+                "pre-1900-literature:121000",
+                "pre-1900-literature:122000",
+                "pre-1900-literature:123000",
+                "pre-1900-literature:124000"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nineteenth century · Middlemarch",
+          "lectures": [
+            "pre-1900-literature:173000",
+            "pre-1900-literature:174000",
+            "pre-1900-literature:175000",
+            "pre-1900-literature:176000",
+            "pre-1900-literature:177000",
+            "pre-1900-literature:178000",
+            "pre-1900-literature:179000",
+            "pre-1900-literature:180000",
+            "pre-1900-literature:181000",
+            "pre-1900-literature:186000"
+          ],
+          "collection": "pre-1900-literature:middlemarch"
+        },
+        {
+          "title": "Nineteenth century · Anna Karenina",
+          "lectures": [
+            "pre-1900-literature:160000",
+            "pre-1900-literature:161000",
+            "pre-1900-literature:162000",
+            "pre-1900-literature:163000",
+            "pre-1900-literature:164000",
+            "pre-1900-literature:165000",
+            "pre-1900-literature:166000",
+            "pre-1900-literature:167000",
+            "pre-1900-literature:169000"
+          ],
+          "collection": "pre-1900-literature:anna-karenina"
+        },
+        {
+          "title": "Nineteenth century · The Brothers Karamazov",
+          "lectures": [
+            "pre-1900-literature:130000",
+            "pre-1900-literature:131000",
+            "pre-1900-literature:132000",
+            "pre-1900-literature:133000",
+            "pre-1900-literature:134000",
+            "pre-1900-literature:135000",
+            "pre-1900-literature:136000",
+            "pre-1900-literature:138000",
+            "pre-1900-literature:143000"
+          ],
+          "collection": "pre-1900-literature:brothers-karamazov"
+        },
+        {
+          "title": "Nineteenth century · Flatland",
+          "lectures": [
+            "pre-1900-literature:048000",
+            "pre-1900-literature:049000"
+          ],
+          "collection": "pre-1900-literature:flatland"
+        }
+      ]
+    },
+    {
+      "id": "twentieth-century",
+      "title": "Twentieth-Century Literature",
+      "role": "main",
+      "parent": "periods",
+      "summary": "The existing publication-ordered survey. Longer works have session groupings, and every work links to its extended study.",
+      "chapters": [
+        {
+          "title": "1913 · In Search of Lost Time",
+          "collection": "modern-literature:proust",
+          "sessions": [
+            {
+              "title": "Session 1 · Swann, society, and the formation of desire",
+              "lectures": [
+                "modern-literature:038100",
+                "modern-literature:038200",
+                "modern-literature:038300",
+                "modern-literature:038400"
+              ]
+            },
+            {
+              "title": "Session 2 · Loss, return, and the discovery of the book",
+              "lectures": [
+                "modern-literature:038500",
+                "modern-literature:038600",
+                "modern-literature:038700",
+                "modern-literature:038800"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1914 · Kokoro",
+          "lectures": [
+            "modern-literature:009200",
+            "modern-literature:010000"
+          ],
+          "collection": "modern-literature:kokoro"
+        },
+        {
+          "title": "1922 · Ulysses",
+          "collection": "modern-literature:ulysses",
+          "sessions": [
+            {
+              "title": "Session 1 · Stephen, Bloom, and the city in daylight",
+              "lectures": [
+                "modern-literature:036200",
+                "modern-literature:036300",
+                "modern-literature:036400"
+              ]
+            },
+            {
+              "title": "Session 2 · Nighttown, home, and the novel’s changing language",
+              "lectures": [
+                "modern-literature:036500",
+                "modern-literature:036600",
+                "modern-literature:036700"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1922 · The Waste Land",
+          "lectures": [
+            "modern-literature:046200",
+            "modern-literature:046300",
+            "modern-literature:046400",
+            "modern-literature:046500",
+            "modern-literature:046600",
+            "modern-literature:046700",
+            "modern-literature:046800"
+          ],
+          "collection": "modern-literature:waste-land"
+        },
+        {
+          "title": "1925 · The Great Gatsby",
+          "lectures": [
+            "modern-literature:020200",
+            "modern-literature:021000"
+          ],
+          "collection": "modern-literature:great-gatsby"
+        },
+        {
+          "title": "1925 · Mrs Dalloway",
+          "lectures": [
+            "modern-literature:030200",
+            "modern-literature:031000"
+          ],
+          "collection": "modern-literature:mrs-dalloway"
+        },
+        {
+          "title": "1925 · The Trial",
+          "lectures": [
+            "modern-literature:031200",
+            "modern-literature:032000"
+          ],
+          "collection": "modern-literature:trial"
+        },
+        {
+          "title": "1926 · The Sun Also Rises",
+          "lectures": [
+            "modern-literature:051300",
+            "modern-literature:051400",
+            "modern-literature:051500",
+            "modern-literature:051600"
+          ],
+          "collection": "modern-literature:sun-also-rises"
+        },
+        {
+          "title": "1927 · To the Lighthouse",
+          "lectures": [
+            "modern-literature:041400",
+            "modern-literature:041500",
+            "modern-literature:041600",
+            "modern-literature:041700",
+            "modern-literature:041800"
+          ],
+          "collection": "modern-literature:lighthouse"
+        },
+        {
+          "title": "1929 · The Sound and the Fury",
+          "collection": "modern-literature:sound-fury",
+          "sessions": [
+            {
+              "title": "Session 1 · Benjy, Quentin, and Jason",
+              "lectures": [
+                "modern-literature:040100",
+                "modern-literature:040200",
+                "modern-literature:040300"
+              ]
+            },
+            {
+              "title": "Session 2 · Dilsey, the whole story, and competing kinds of time",
+              "lectures": [
+                "modern-literature:040400",
+                "modern-literature:040500",
+                "modern-literature:040600"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1932 · Brave New World",
+          "lectures": [
+            "modern-literature:025200",
+            "modern-literature:026000"
+          ],
+          "collection": "modern-literature:brave-new-world"
+        },
+        {
+          "title": "1938 · Rebecca",
+          "lectures": [
+            "modern-literature:035200",
+            "modern-literature:036000"
+          ],
+          "collection": "modern-literature:rebecca"
+        },
+        {
+          "title": "1939 · The Grapes of Wrath",
+          "lectures": [
+            "modern-literature:024200",
+            "modern-literature:025000"
+          ],
+          "collection": "modern-literature:grapes-wrath"
+        },
+        {
+          "title": "1942 · The Stranger",
+          "lectures": [
+            "modern-literature:049100",
+            "modern-literature:049200",
+            "modern-literature:049300",
+            "modern-literature:049500"
+          ],
+          "collection": "modern-literature:stranger"
+        },
+        {
+          "title": "1944 · Ficciones — selected stories and criticism",
+          "lectures": [
+            "modern-literature:043000",
+            "modern-literature:043100",
+            "modern-literature:043400",
+            "modern-literature:043500",
+            "modern-literature:043600",
+            "modern-literature:044200",
+            "modern-literature:044300"
+          ],
+          "collection": "modern-literature:ficciones"
+        },
+        {
+          "title": "1949 · Nineteen Eighty-Four",
+          "lectures": [
+            "modern-literature:021200",
+            "modern-literature:022000"
+          ],
+          "collection": "modern-literature:nineteen-eighty-four"
+        },
+        {
+          "title": "1952 · Invisible Man",
+          "lectures": [
+            "modern-literature:007200",
+            "modern-literature:008000"
+          ],
+          "collection": "modern-literature:invisible-man"
+        },
+        {
+          "title": "1952 · Waiting for Godot",
+          "lectures": [
+            "modern-literature:045000",
+            "modern-literature:045100",
+            "modern-literature:045200",
+            "modern-literature:045300"
+          ],
+          "collection": "modern-literature:godot"
+        },
+        {
+          "title": "1953 · Fahrenheit 451",
+          "lectures": [
+            "modern-literature:028200",
+            "modern-literature:029000"
+          ],
+          "collection": "modern-literature:fahrenheit-451"
+        },
+        {
+          "title": "1954 · The Lord of the Rings",
+          "collection": "modern-literature:lord-rings",
+          "sessions": [
+            {
+              "title": "Session 1 · The road and the Fellowship",
+              "lectures": [
+                "modern-literature:026200",
+                "modern-literature:026300"
+              ]
+            },
+            {
+              "title": "Session 2 · War, the return, and the problem of power",
+              "lectures": [
+                "modern-literature:026400",
+                "modern-literature:026500",
+                "modern-literature:026600"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1955 · Lolita",
+          "lectures": [
+            "modern-literature:050100",
+            "modern-literature:050200",
+            "modern-literature:050300",
+            "modern-literature:050500",
+            "modern-literature:050600"
+          ],
+          "collection": "modern-literature:lolita"
+        },
+        {
+          "title": "1956 · Giovanni's Room",
+          "lectures": [
+            "modern-literature:015200",
+            "modern-literature:016000"
+          ],
+          "collection": "modern-literature:giovannis-room"
+        },
+        {
+          "title": "1958 · Things Fall Apart",
+          "collection": "modern-literature:things-fall-apart",
+          "sessions": [
+            {
+              "title": "Session 1 · The story",
+              "lectures": [
+                "modern-literature:001200"
+              ]
+            },
+            {
+              "title": "Session 2 · A life within a changing world",
+              "lectures": [
+                "modern-literature:002000"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1960 · To Kill a Mockingbird",
+          "collection": "modern-literature:mockingbird",
+          "sessions": [
+            {
+              "title": "Session 1 · The story",
+              "lectures": [
+                "modern-literature:000200"
+              ]
+            },
+            {
+              "title": "Session 2 · The stories a town tells about itself",
+              "lectures": [
+                "modern-literature:001000"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1961 · Catch-22",
+          "lectures": [
+            "modern-literature:023200",
+            "modern-literature:024000"
+          ],
+          "collection": "modern-literature:catch-22"
+        },
+        {
+          "title": "1965 · Dune",
+          "lectures": [
+            "modern-literature:022200",
+            "modern-literature:023000"
+          ],
+          "collection": "modern-literature:dune"
+        },
+        {
+          "title": "1966 · Season of Migration to the North",
+          "lectures": [
+            "modern-literature:010200",
+            "modern-literature:011000"
+          ],
+          "collection": "modern-literature:season-migration"
+        },
+        {
+          "title": "1966 · Wide Sargasso Sea",
+          "lectures": [
+            "modern-literature:013200",
+            "modern-literature:014000"
+          ],
+          "collection": "modern-literature:wide-sargasso-sea"
+        },
+        {
+          "title": "1967 · One Hundred Years of Solitude",
+          "lectures": [
+            "modern-literature:005200",
+            "modern-literature:006000"
+          ],
+          "collection": "modern-literature:hundred-years-solitude"
+        },
+        {
+          "title": "1967 · The Master and Margarita",
+          "lectures": [
+            "modern-literature:029200",
+            "modern-literature:030000"
+          ],
+          "collection": "modern-literature:master-margarita"
+        },
+        {
+          "title": "1969 · The Left Hand of Darkness",
+          "lectures": [
+            "modern-literature:004200",
+            "modern-literature:005000"
+          ],
+          "collection": "modern-literature:left-hand-darkness"
+        },
+        {
+          "title": "1969 · Slaughterhouse-Five",
+          "lectures": [
+            "modern-literature:019200",
+            "modern-literature:020000"
+          ],
+          "collection": "modern-literature:slaughterhouse-five"
+        },
+        {
+          "title": "1974 · The Dispossessed",
+          "lectures": [
+            "modern-literature:008200",
+            "modern-literature:009000"
+          ],
+          "collection": "modern-literature:dispossessed"
+        },
+        {
+          "title": "1977 · Ceremony",
+          "lectures": [
+            "modern-literature:012200",
+            "modern-literature:013000"
+          ],
+          "collection": "modern-literature:ceremony"
+        },
+        {
+          "title": "1977 · The Hour of the Star",
+          "lectures": [
+            "modern-literature:033200",
+            "modern-literature:034000"
+          ],
+          "collection": "modern-literature:hour-star"
+        },
+        {
+          "title": "1979 · Kindred",
+          "lectures": [
+            "modern-literature:006200",
+            "modern-literature:007000"
+          ],
+          "collection": "modern-literature:kindred"
+        },
+        {
+          "title": "1980 · This Earth of Mankind",
+          "lectures": [
+            "modern-literature:034200",
+            "modern-literature:035000"
+          ],
+          "collection": "modern-literature:earth-mankind"
+        },
+        {
+          "title": "1981 · Midnight’s Children",
+          "lectures": [
+            "modern-literature:047800",
+            "modern-literature:047900",
+            "modern-literature:048000",
+            "modern-literature:048100",
+            "modern-literature:048200"
+          ],
+          "collection": "modern-literature:midnights-children"
+        },
+        {
+          "title": "1982 · The Color Purple",
+          "lectures": [
+            "modern-literature:032200",
+            "modern-literature:033000"
+          ],
+          "collection": "modern-literature:color-purple"
+        },
+        {
+          "title": "1984 · The Unbearable Lightness of Being",
+          "lectures": [
+            "modern-literature:017200",
+            "modern-literature:018000"
+          ],
+          "collection": "modern-literature:unbearable-lightness"
+        },
+        {
+          "title": "1985 · Contact",
+          "lectures": [
+            "modern-literature:018200",
+            "modern-literature:019000"
+          ],
+          "collection": "modern-literature:contact"
+        },
+        {
+          "title": "1985 · The Handmaid's Tale",
+          "lectures": [
+            "modern-literature:027400",
+            "modern-literature:028000"
+          ],
+          "collection": "modern-literature:handmaids-tale"
+        },
+        {
+          "title": "1987 · Beloved",
+          "collection": "modern-literature:beloved",
+          "sessions": [
+            {
+              "title": "Session 1 · The story",
+              "lectures": [
+                "modern-literature:002200"
+              ]
+            },
+            {
+              "title": "Session 2 · Memory, haunting, and the work of narration",
+              "lectures": [
+                "modern-literature:003000"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1988 · Nervous Conditions",
+          "lectures": [
+            "modern-literature:016200",
+            "modern-literature:017000"
+          ],
+          "collection": "modern-literature:nervous-conditions"
+        },
+        {
+          "title": "1989 · The Remains of the Day",
+          "lectures": [
+            "modern-literature:003300",
+            "modern-literature:004000"
+          ],
+          "collection": "modern-literature:remains-day"
+        },
+        {
+          "title": "1993 · To Live",
+          "lectures": [
+            "modern-literature:014200",
+            "modern-literature:015000"
+          ],
+          "collection": "modern-literature:to-live"
+        },
+        {
+          "title": "1997 · The God of Small Things",
+          "lectures": [
+            "modern-literature:011200",
+            "modern-literature:012000"
+          ],
+          "collection": "modern-literature:god-small-things"
+        }
+      ]
+    },
+    {
+      "id": "introductions",
+      "title": "Literature · Compact Introductions",
+      "role": "main",
+      "summary": "Standalone introductions pair the narrative with a reading of its form and choices. Endings are discussed. Each work links to its existing extended study.",
+      "chapters": [
+        {
+          "title": "The Decameron",
+          "lectures": [
+            "001000"
+          ],
+          "collection": "pre-1900-literature:decameron"
+        },
+        {
+          "title": "Romance of the Three Kingdoms",
+          "lectures": [
+            "002000"
+          ],
+          "collection": "world-history:three-kingdoms"
+        },
+        {
+          "title": "Shahnameh",
+          "lectures": [
+            "003000"
+          ],
+          "collection": "world-history:shahnameh"
+        }
+      ],
+      "related_collections": [
+        "pre-1900-literature:survey",
+        "world-history:literature"
+      ],
+      "parent": "periods"
+    }
+  ]
+}

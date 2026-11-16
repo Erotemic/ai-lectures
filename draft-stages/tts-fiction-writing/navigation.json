@@ -1,0 +1,104 @@
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "Fiction Writing · Foundations and Revision",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "007000",
+        "007500",
+        "038000"
+      ],
+      "summary": "Begin with character, scene, worldbuilding, perspective, plot, openings, and conflict; meet the map of competing poetics, then practice revision."
+    },
+    {
+      "id": "schools",
+      "title": "Fiction · Schools and Institutions",
+      "role": "deep_dive",
+      "lectures": [
+        "007500",
+        "008000",
+        "009000",
+        "010000",
+        "011000",
+        "012000",
+        "013000",
+        "014000",
+        "015000",
+        "016000",
+        "017000",
+        "018000",
+        "019000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "No prescribed literary canon; the map introduces the competing schools."
+      ]
+    },
+    {
+      "id": "writers-in-argument",
+      "title": "Fiction · Writers and Competing Poetics",
+      "role": "deep_dive",
+      "lectures": [
+        "020000",
+        "021000",
+        "022000",
+        "023000",
+        "024000",
+        "025000",
+        "026000",
+        "027000",
+        "039000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Introductory craft; original examples establish the shared story situations."
+      ]
+    },
+    {
+      "id": "voice-and-time",
+      "title": "Fiction · Voice, Time, and Testimony",
+      "role": "deep_dive",
+      "lectures": [
+        "028000",
+        "029000",
+        "030000",
+        "031000",
+        "032000",
+        "033000",
+        "034000",
+        "035000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Perspective, scene, and plot from the foundations route."
+      ]
+    },
+    {
+      "id": "forms-and-practice",
+      "title": "Fiction · Forms, Revision, and Workshops",
+      "role": "deep_dive",
+      "lectures": [
+        "036000",
+        "037000",
+        "038000",
+        "039000",
+        "040000",
+        "041000",
+        "042000",
+        "043000"
+      ],
+      "parent": "survey",
+      "assumed_background": [
+        "Introductory craft; the case studies and examples are introduced locally."
+      ]
+    }
+  ]
+}

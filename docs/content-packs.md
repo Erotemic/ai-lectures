@@ -20,8 +20,8 @@ stories, and mixed material. The existing `courses` API records, collection IDs,
 progress context, and `/courses/...` bookmarks stay compatible. New links use
 `/collections/...`.
 
-Library starts with broad category cards. Mathematics is one category containing
-its individual collections; the bedtime category opens its collection directly.
+Library starts with broad category cards. Mathematics contains its individual
+collections; Children's Stories groups standalone stories and episodic series.
 Optional audience filters and category choices are remembered for the selected
 listener on each device. They are browsing preferences: all content stays
 accessible. Source files, lecture IDs, existing audio and listening progress do
@@ -44,8 +44,95 @@ registration. Existing tracks receive compatibility categories; an unclassified
 new pack remains visible under Other collections. Unindexed manuscripts keep
 their categories without being inserted into an ordered collection.
 
+Episodic packs can also supply `series_title` and `sequence_recommended: true`.
+The reader uses the series name and an episode-order cue on its card. Collection
+cards show a compact description; the complete summary remains on the collection
+page under About this collection.
+
 This is a browsing structure that can evolve while independent authoring
 continues. It does not require moving manuscripts or changing pack ownership.
+
+### Main routes and deep dives
+
+An optional `navigation.json` beside `track.json` defines additional listening
+routes. Packs remain the units of authoring and installation; routes reuse the
+same lecture IDs and recordings. The original `namespace:main` collection keeps
+its complete original order and existing bookmarks. Once navigation is present,
+it appears as an archive linked from the chosen default route.
+
+```json
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "My Subject · Guided Survey",
+      "role": "main",
+      "chapters": [
+        {
+          "title": "A first topic",
+          "lectures": ["001000", "003000"],
+          "collection": "first-topic"
+        }
+      ],
+      "related_collections": ["another-pack:survey"]
+    },
+    {
+      "id": "first-topic",
+      "title": "A First Topic · Extended Study",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": ["001000", "002000", "003000"]
+    }
+  ]
+}
+```
+
+Use either an ordered `lectures` list or `chapters`; chapter order flattens into
+the playback order. A chapter's optional `collection` links its extended study.
+Within a chapter, use either `lectures` or an ordered `sessions` list. Each
+session has its own `title` and `lectures` list; the reader displays its estimated
+listening time and keeps the containing route's playback order. Session grouping
+does not split manuscripts, change recording identities, or impose duration
+requirements. Complete existing recordings are the smallest units of grouping.
+Local references use the pack namespace; qualified references can reuse another
+pack's lectures or link its collections. An unavailable optional pack is shown
+as not installed. Exported runtime packs include the expanded routes, so this
+organization also works on a standalone reader.
+
+Collection roles are `main`, `deep_dive`, or `hub`. A `hub` may have no lectures
+and simply introduce child routes. `parent` must identify a collection in the
+same pack; parents cannot cycle. Related links may cross packs. Collections
+inherit categories, audiences, and background, with optional `categories`,
+`audiences`, and `assumed_background` overrides. The reader shows top-level
+routes in category browsing, children on their parent's page, and all matching
+routes in search. Playback keeps the selected route's order and return link.
+
+`preparation_collections` supplies optional links to background courses. These
+are learner suggestions, not formal proof dependencies or access gates.
+
+An ongoing strand can use `include_sections` instead of `lectures`, for example
+`"include_sections": ["my-expanded-retelling"]`. This selects entries from the
+owning pack's current `track.json` in its declared order. The same option works
+on individual chapters. New entries in that section join the route automatically;
+the writer does not maintain a second list of episode IDs. Keep shorter surveys
+explicitly curated so an expanding deep dive does not lengthen the main route.
+Exported packs store the resulting ordered members for independent playback.
+
+Navigation updates reload with source discovery. Invalid navigation retains the
+previous usable routes, or the original collection on first discovery, and
+reports a diagnostic without disabling manuscripts. Newly authored lectures
+remain in the original full collection until explicitly placed in a curated
+route, or are included automatically by its section selector. Do not rename IDs,
+copy transcripts, or regenerate audio to change order.
+
+The current editorial choices and remaining overview work are recorded in
+[the reorganization notes](planning/listening-routes-reorganization.md).
+`python tools/audit_listening_routes.py --output /tmp/listening-routes.json`
+reports the complete audio inventory, route coverage, cross-pack references,
+and estimated listening time. It does not run synthesis or media builds. An
+unavailable optional pack is reported separately from a broken reference to a
+pack that is present.
 
 ## Start the server
 

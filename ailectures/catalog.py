@@ -20,6 +20,7 @@ from .core import (
 )
 from .source_updates import atomic_bytes, source_lock
 from .organization import collection_metadata
+from .navigation import route_collections
 from .companions import discover_companions, companion_file
 
 LECTURE_FILE = re.compile(r"^([0-9]{6})-.*\.md$")
@@ -85,7 +86,7 @@ def repository_track(directory, *, previous=None, strict=False):
     except ValueError:
         issue("Invalid track ID; using the previous identity or directory name")
         namespace = name(namespace)
-    old_course = next(iter(previous.get("courses", {}).values()), {})
+    old_course = previous.get("courses", {}).get(f"{namespace}:main", {})
     title = (
         plan.get("title")
         or old_course.get("title")
@@ -232,11 +233,21 @@ def repository_track(directory, *, previous=None, strict=False):
         lectures=course_members,
         **collection_metadata(plan, namespace),
     )
+    courses = route_collections(
+        directory / "navigation.json",
+        course,
+        known=set(course_members),
+        lecture_sections={
+            f"{namespace}:{entry['id']}": entry.get("section", "") for entry in entries
+        },
+        previous=previous.get("courses"),
+        issue=issue,
+    )
     return dict(
         id=namespace,
         title=title,
         lectures=lectures,
-        courses={course["id"]: course},
+        courses=courses,
         relationships=[],
         extra_files=extra_files,
         companion_paths=sorted(set(companion_paths)),
@@ -301,7 +312,10 @@ class RepositoryCatalog:
                 p
                 for p in drafts.glob("tts-*/*")
                 if p.is_file()
-                and (p.name == "track.json" or LECTURE_FILE.fullmatch(p.name))
+                and (
+                    p.name in {"track.json", "navigation.json"}
+                    or LECTURE_FILE.fullmatch(p.name)
+                )
             )
             paths += sorted(drafts.glob("tts-*/metadata/*.json"))
             paths += sorted(drafts.glob("tts-*/examples/*.json"))

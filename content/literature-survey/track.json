@@ -1,0 +1,48 @@
+{
+  "id": "literature-survey",
+  "title": "Literature · Surveys and Introductions",
+  "summary": "Standalone introductions to works whose extended studies are available elsewhere in the library. Each introduction develops the story, literary form, and interpretive problems before linking to deeper study.",
+  "categories": [
+    "Literature and arts"
+  ],
+  "audiences": [
+    "general"
+  ],
+  "assumed_background": [
+    "No prior reading; the lectures introduce their characters and settings and discuss endings."
+  ],
+  "sections": [
+    "medieval-storytelling",
+    "chinese-narrative-traditions",
+    "persian-epic"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "The Decameron: A World Made by Telling",
+      "section": "medieval-storytelling",
+      "file": "001000-decameron-a-world-made-by-telling.md",
+      "spoken_words": 4555,
+      "estimated_minutes_at_145_wpm": 31.4,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "002000",
+      "title": "Three Kingdoms: The Price of Loyalty",
+      "file": "002000-three-kingdoms-the-price-of-loyalty.md",
+      "section": "chinese-narrative-traditions",
+      "spoken_words": 4192,
+      "estimated_minutes_at_145_wpm": 28.9,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "003000",
+      "title": "Shahnameh: Kings, Heroes, and the World They Lose",
+      "file": "003000-shahnameh-kings-heroes-and-the-world-they-lose.md",
+      "section": "persian-epic",
+      "spoken_words": 4313,
+      "estimated_minutes_at_145_wpm": 29.7,
+      "draft_status": "substantive"
+    }
+  ]
+}
