@@ -5,9 +5,10 @@ state machine (dedup, regression re-open, stale sweep), the resume invariant
 (a crashed mid-run is never re-billed), adjudication, and pack disjointness.
 The reviewer is a scripted fake; no model is called.
 """
-import copy
+
 import importlib.util
 import json
+
 from pathlib import Path
 
 import pytest
@@ -27,8 +28,25 @@ NARRATION_A_STALE = ("The city of Anu-ur was built long before the common era.\n
 NARRATION_B = "A calm story about rivers."
 
 
-def _manuscript(title: str, spoken: str) -> str:
-    return f"# {title}\n\n{BEGIN}\n{spoken}\n{END}\n\nCompanion note (not spoken).\n"
+def _manuscript(title: str, spoken: str, companion: str = "") -> str:
+    body = f"# {title}\n\n{BEGIN}\n{spoken}\n{END}\n"
+    if companion:
+        body += "\n" + companion + "\n"
+    else:
+        body += "\nCompanion note (not spoken).\n"
+    return body
+
+
+def _companion_with_wiki() -> str:
+    return ("## Historical and textual companion (not spoken)\n\n"
+            "### Further reading\n\n"
+            "- Wikipedia: **City of Anu-ur** <https://en.wikipedia.org/wiki/City_of_Anu-ur>\n")
+
+
+def _companion_without_wiki() -> str:
+    return ("## Historical and textual companion (not spoken)\n\n"
+            "### Further reading\n\n"
+            "- A scholarly essay on rivers (publisher page).\n")
 
 
 class FakeReviewer:
@@ -37,11 +55,13 @@ class FakeReviewer:
     def __init__(self, script: dict):
         self.script = script
         self.calls = {}
+        self.payloads = {}
 
     def __call__(self, base, key, model, system, user, **kw):
         for lid, marker in self.script["_markers"].items():
             if marker in user:
                 self.calls[lid] = self.calls.get(lid, 0) + 1
+                self.payloads[lid] = user
                 f = self.script[lid]
                 content = json.dumps(f) if isinstance(f, list) else f
                 return {"choices": [{"message": {"content": content}}],
@@ -56,6 +76,10 @@ def make_repo(tmp_path: Path) -> Path:
     (root / "reviews" / "runs").mkdir(parents=True)
     (root / "reviews" / "contract" / "prompt-v1.md").write_text("You are the finder.\n",
                                                                encoding="utf-8")
+    (root / "reviews" / "contract" / "prompt-v2.md").write_text(
+        "You are the finder (v2, further-reading aware).\n", encoding="utf-8")
+    (root / "reviews" / "contract" / "prompt-v3.md").write_text(
+        "You are the finder (v3).\n", encoding="utf-8")
 
     pack = root / "content" / "fixpack"
     (pack / "metadata").mkdir(parents=True)
@@ -66,8 +90,10 @@ def make_repo(tmp_path: Path) -> Path:
             {"id": "0A", "title": "City", "file": "0A.md", "section": "s"},
             {"id": "0B", "title": "Rivers", "file": "0B.md", "section": "s"},
         ]}, indent=1), encoding="utf-8")
-    (pack / "0A.md").write_text(_manuscript("City", NARRATION_A_V1), encoding="utf-8")
-    (pack / "0B.md").write_text(_manuscript("Rivers", NARRATION_B), encoding="utf-8")
+    (pack / "0A.md").write_text(_manuscript("City", NARRATION_A_V1,
+                                            _companion_with_wiki()), encoding="utf-8")
+    (pack / "0B.md").write_text(_manuscript("Rivers", NARRATION_B,
+                                            _companion_without_wiki()), encoding="utf-8")
     (pack / "metadata" / "0A.json").write_text(json.dumps({
         "schema_version": 1, "lecture_id": "0A",
         "related_resources": [{"source_id": "s1", "reason": "main source"}],
@@ -80,8 +106,10 @@ def make_repo(tmp_path: Path) -> Path:
     (pack / "metadata" / "sources.json").write_text(json.dumps({
         "id": "fixpack",
         "sources": {
-            "s1": {"title": "Source One", "kind": "book", "access": "owned", "notes": ""},
-            "s2": {"title": "Source Two", "kind": "article", "access": "abstract", "notes": ""},
+            "s1": {"title": "Source One", "kind": "book", "access": "owned",
+                   "notes": "", "url": "https://example.org/s1"},
+            "s2": {"title": "Source Two", "kind": "article", "access": "abstract",
+                   "notes": "", "url": "https://example.org/s2"},
         }}, indent=1), encoding="utf-8")
 
     other = root / "draft-stages" / "otherpack"
@@ -165,6 +193,25 @@ def test_extraction():
         rr.extract_spoken(BEGIN + "a\n" + END + BEGIN + "b\n" + END)
 
 
+def test_companion_extraction():
+    text = _manuscript("T", "spoken words", "## Companion (not spoken)\n\nFurther reading here.")
+    assert rr.extract_spoken(text).strip() == "spoken words"
+    assert "Further reading here" in rr.extract_companion(text)
+    assert rr.extract_companion("no markers at all") == ""
+
+
+def test_payload_shows_companion_and_urls(tmp_path):
+    root = make_repo(tmp_path)
+    fake = FakeReviewer(script_for())
+    run_cli(root, "run", "--track", "fixpack", fake=fake)
+    p0a, p0b = fake.payloads["0A"], fake.payloads["0B"]
+    assert "<<<COMPANION" in p0a and "City of Anu-ur" in p0a
+    assert "https://en.wikipedia.org/wiki/City_of_Anu-ur" in p0a
+    assert "https://example.org/s1" in p0a  # source urls exposed
+    assert "<<<COMPANION" in p0b and "scholarly essay on rivers" in p0b
+    assert "en.wikipedia.org" not in p0b  # the label may mention Wikipedia; no link may
+
+
 def test_unit_revision_tracks_every_input(tmp_path):
     root = make_repo(tmp_path)
     track = rr.Track(root, root / "content" / "fixpack")
@@ -173,7 +220,7 @@ def test_unit_revision_tracks_every_input(tmp_path):
     (root / "content" / "fixpack" / "0A.md").write_bytes(b"tampered")
     assert rr.unit_revision(track, "0A") != base
     (root / "content" / "fixpack" / "0A.md").write_text(
-        _manuscript("City", NARRATION_A_V1), encoding="utf-8")
+        _manuscript("City", NARRATION_A_V1, _companion_with_wiki()), encoding="utf-8")
     assert rr.unit_revision(track, "0A") == base
     src = root / "content" / "fixpack" / "metadata" / "sources.json"
     src.write_text(src.read_text() + " ", encoding="utf-8")  # shared input moves every unit
@@ -351,6 +398,69 @@ def test_dry_run_makes_no_calls_or_writes(tmp_path):
     assert calls == []
     assert snapshot([root / "content" / "fixpack", root / "draft-stages" / "otherpack",
                      root / "reviews"]) == before
+
+
+def test_missing_wiki_link_lifecycle(tmp_path):
+    root = make_repo(tmp_path)
+    store = rr.Store(root)
+    script = {"_markers": {"0A": "The city of Anu-ur", "0B": "calm story"},
+              "0A": [],
+              "0B": [{"category": "missing_wiki_link",
+                      "anchor": "A calm story about rivers.",
+                      "claim": "The lecture is about rivers and their course.",
+                      "detail": "No Wikipedia entry point; the article 'Rivers' is "
+                                "substantial. Existing further reading: a scholarly essay.",
+                      "confidence": "high", "source_ids": []}]}
+    fake = FakeReviewer(script)
+    run_cli(root, "run", "--track", "fixpack", fake=fake)
+    rows = store.load_findings("fixpack")
+    assert len(rows) == 1
+    r0 = rows[0]
+    assert r0["lecture_id"] == "0B" and r0["category"] == "missing_wiki_link"
+    assert r0["status"] == "open" and r0["confidence"] == "high"
+    assert r0["anchor"] == "A calm story about rivers."
+    covs = {c["lecture_id"]: c for c in store.load_coverage("fixpack")}
+    assert covs["0B"]["outcome"] == "findings:1" and covs["0B"]["contract"] == "v2"
+    assert covs["0A"]["outcome"] == "clean" and covs["0A"]["contract"] == "v2"
+
+    run = rr.Run(store, [p.name for p in store.runs_dir.iterdir()][0])
+    run_cli(root, "adjudicate", "--track", "fixpack", "--run", run.id, "--unit", "0B",
+            "--finding", r0["finding_id"], "--decision", "confirmed",
+            "--note", "confirmed: no wiki entry point in the companion")
+    rows = store.load_findings("fixpack")
+    assert rows[0]["status"] == "confirmed"
+    run_cli(root, "adjudicate", "--track", "fixpack", "--run", run.id, "--unit", "0B",
+            "--finding", rows[0]["finding_id"], "--decision", "resolved",
+            "--note", "wiki link added to further reading")
+    rows = store.load_findings("fixpack")
+    assert rows[0]["status"] == "resolved"
+    covs = {c["lecture_id"]: c for c in store.load_coverage("fixpack")}
+    assert covs["0B"]["open"] == 0 and covs["0B"]["adjudicated_at"]
+
+
+def test_contract_recheck_flow(tmp_path):
+    root = make_repo(tmp_path)
+    store = rr.Store(root)
+    fake = FakeReviewer(script_for())
+    run_cli(root, "run", "--track", "fixpack", "--contract-version", "v2", fake=fake)
+    covs = {c["lecture_id"]: c for c in store.load_coverage("fixpack")}
+    assert covs["0A"]["contract"] == "v2" and covs["0B"]["contract"] == "v2"
+
+    # A contract bump makes every v2 unit recheckable, but only --recheck-contract
+    # (or explicit --unit) bills the reviewer again.
+    fake2 = FakeReviewer(script_for())
+    run_cli(root, "run", "--track", "fixpack", "--contract-version", "v3",
+            "--recheck-contract", "--fresh", fake=fake2)
+    assert fake2.calls == {"0A": 1, "0B": 1}
+    covs = {c["lecture_id"]: c for c in store.load_coverage("fixpack")}
+    assert covs["0A"]["contract"] == "v3" and covs["0B"]["contract"] == "v3"
+
+    # Without the flag, a unit that is current, clean, and on the same contract
+    # is not re-billed (only the still-active 0A is).
+    fake3 = FakeReviewer(script_for())
+    run_cli(root, "run", "--track", "fixpack", "--contract-version", "v3",
+            "--fresh", fake=fake3)
+    assert fake3.calls == {"0A": 1}, "current+clean unit must not be re-billed on contract bump"
 
 
 def test_report_writes_for_run(tmp_path):

@@ -4,10 +4,15 @@
 - reviewer: `qwen3.8-27b-dbirks-hyperqwen-long` (session `01a1e543-5cac-70bc-820f-5ac6878acec9`)
 - adjudicator: `qwen3.8-27b-dbirks-hyperqwen-long` (session `01a1e543-5cac-75f1-b17f-a5c981f73129`)
 
-## Findings (5 total)
+## Findings (6 total)
 
-### confirmed (3)
+### confirmed (4)
 
+- **001000** `missing_wiki_link` (conf=high)
+  - claim: The lecture is centrally about the Epic of Gilgamesh, establishing it as the main subject of the entire talk.
+  - detail: The further-reading section offers five scholarly and museum sources (George, Spar, ETCSL, British Museum Flood Tablet, Freeman) but no Wikipedia link for the Epic of Gilgamesh, which has a substantial Wikipedia article that would serve as the standard entry-point for a listener wanting to look up the work.
+  - anchor: “This is the center of the Epic of Gilgamesh, one of the earliest surviving extended works of literature.”
+  - adjudication: {"by": "01a1e543-5cac-75f1-b17f-a5c981f73129", "decision": "confirmed", "note": "Confirmed against the companion: all six further-reading items are scholarly/museum (George, Spar/Met, ETCSL, BM Flood Tablet, Freeman/NEH, George Penguin/OUP) and none is a Wikipedia entry point; the lecture's central subject is the Epic of Gilgamesh, which has a substantial article. Fix (content pass): add one Wikipedia link to the further-reading list, e.g. the 'Epic of Gilgamesh' article; verify the exact URL when editing, as this sandbox has no network.", "at": "2026-11-16T19:13:19Z"}
 - **001000** `unverified_claim` (conf=low)
   - claim: The lecture asserts that the transfer of Nineveh tablets to Europe occurred within imperial archaeology and raises modern ownership and heritage questions.
   - detail: The registered sources cover the flood tablet and rediscovery but not the stated scope of modern provenance, repatriation, or imperial archaeology, so a source on the provenance and heritage status of the tablets would be needed.

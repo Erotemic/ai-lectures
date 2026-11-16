@@ -39,7 +39,9 @@ reviews/
   README.md               # this contract
   contract/
     categories.md         # what may be flagged, and explicitly may not
-    prompt-vN.md          # versioned reviewer prompt (version recorded in runs)
+    prompt-vN.md          # versioned reviewer prompt (version recorded in runs;
+                          # v1 frozen; current: v2 — adds missing_wiki_link and the
+                          # further-reading input)
   registry/
     findings-<track>.jsonl   # one row per finding identity (durable)
     coverage-<track>.jsonl   # one row per (track, lecture, revision) reviewed
@@ -97,15 +99,18 @@ State machine:
 
 ```json
 {"track": "…", "lecture_id": "…", "revision": "…", "run": "R-…",
- "reviewed_at": "…", "outcome": "clean|findings:N",
- "adjudicated_at": "…", "open": 0}
+ "reviewed_at": "…", "contract": "v2",
+ "outcome": "clean|findings:N", "adjudicated_at": "…", "open": 0}
 ```
 
 One row per (track, lecture) pair, replaced as newer revisions are reviewed.
 `outcome: clean` is a first-class result: a reviewed-and-clean lecture is not
 re-reviewed until its revision changes. `plan` consults coverage: a unit
 needs work iff its revision changed since its coverage row, it carries open
-findings, or it has never been reviewed.
+findings, or it has never been reviewed. A unit reviewed under an older
+*contract* version is reported for `--recheck-contract` but is not
+re-billed by default: contract changes add capability (e.g. v2's
+`missing_wiki_link`) rather than invalidate prior verdicts.
 
 ## Resume protocol (compaction-safe one-lecture-at-a-time work)
 
@@ -137,7 +142,8 @@ resource tally under their session ids.
 ```
 python3 tools/run_reviews.py plan     --track tts-world-history [--format table|json]
 python3 tools/run_reviews.py run      --track … [--unit ID …] [--limit N]
-                                      [--model M] [--resume RUN | --fresh] [--dry-run]
+                                      [--model M] [--resume RUN | --fresh]
+                                      [--contract-version vN] [--recheck-contract] [--dry-run]
 python3 tools/run_reviews.py adjudicate --run R --unit ID
                                       [--finding FID --decision … --note …]
                                       [--interactive] [--as …]

@@ -1,6 +1,6 @@
-# Review categories (contract v1)
+# Review categories (contract v2)
 
-The reviewer may flag exactly four categories. Every finding needs a
+The reviewer may flag exactly five categories. Every finding needs a
 **verbatim anchor**: a contiguous substring of the spoken narration, at most
 50 words, long enough to locate the issue uniquely. If the problem cannot be
 pointed at with a verbatim quote, it is not a finding.
@@ -61,6 +61,29 @@ lecture, or a track-level statement in `track.json`
   what the evidence *shows*) are the typical forms.
 - Apparent tension that the lecture itself reconciles in a later passage is
   not a conflict.
+
+## `missing_wiki_link`
+
+The lecture's non-spoken further-reading material offers no Wikipedia entry
+point for a **central subject** of the lecture (the main person, place, text,
+or event it is about), and that subject is notable enough that a substantial
+Wikipedia article exists.
+
+- This is an advisory completeness check, not a defect: lectures in this
+  library are expected to give listeners a Wikipedia link as a general
+  further-reading entry point in addition to any scholarly or primary
+  sources. A scholarly source on the same subject does not by itself
+  substitute for that entry-point role; the adjudicator may still reject on
+  those grounds if the existing source genuinely serves both roles.
+- Flag only central subjects, and only ones you are confident have a
+  substantial article. A passing reference to a minor name is not central.
+- At most three findings of this kind per lecture, most central first.
+- The anchor must still come from the **narration**: quote the passage that
+  names or establishes the subject (e.g. the sentence introducing the person
+  or text). In `detail`, name the specific article (e.g. “Epic of Gilgamesh”)
+  and note which further-reading items already exist for that subject.
+- If the further-reading section (or a registered source) already contains a
+  Wikipedia link for that subject, do not flag it.
 
 ## Never flag
 

@@ -32,8 +32,10 @@ from pathlib import Path
 
 # ---------------------------------------------------------------- paths
 
-CATEGORIES = ("unverified_claim", "glossed_step", "unintroduced_term", "internal_conflict")
+CATEGORIES = ("unverified_claim", "glossed_step", "unintroduced_term", "internal_conflict",
+             "missing_wiki_link")
 DEFAULT_REVIEWER_MODEL = "qwen3.8-27b-dbirks-hyperqwen-long"
+DEFAULT_CONTRACT_VERSION = "v2"
 TRACK_ROOTS = ("content", "draft-stages")
 
 
@@ -117,6 +119,13 @@ def extract_spoken(text: str) -> str:
     spoken = re.sub(r"(?<!\*)\*\*([^\n*]+?)\*\*(?!\*)", r"\1", spoken)
     spoken = re.sub(r"(?<!\w)(?<!\*)\*([^\n*]+?)\*(?!\w)", r"\1", spoken)
     return spoken + "\n"
+
+
+def extract_companion(text: str) -> str:
+    """The non-spoken material after the END marker (further reading etc.)."""
+    if text.count(END) != 1:
+        return ""
+    return text[text.index(END) + len(END):].strip()
 
 
 # ---------------------------------------------------------------- revision
@@ -400,7 +409,7 @@ def parse_findings(doc: dict) -> list[dict]:
     return out[:12]
 
 
-def build_payload(track: Track, lecture: dict, spoken: str) -> str:
+def build_payload(track: Track, lecture: dict, spoken: str, companion: str = "") -> str:
     lec_id = lecture["id"]
     sidecar = track.sidecar(lec_id) or {}
     policy = track.track_json.get("editorial_policy") or "(none)"
@@ -418,23 +427,33 @@ def build_payload(track: Track, lecture: dict, spoken: str) -> str:
         "LECTURE METADATA (sidecar; context only, never quote from it):",
         json.dumps(sidecar, ensure_ascii=False, indent=1) if sidecar else "(none)",
         "",
-        f"RESOURCES REGISTERED FOR THIS LECTURE ({len(sidecar.get('related_resources', []))} of {len(track.sources)} track sources):",
+        f"RESOURCES REGISTERED FOR THIS LECTURE ({len(sidecar.get('related_resources', []))} of {len(track.sources)} track sources; id | title | kind | access | url | why registered):",
     ]
     seen = set()
     for rr in sidecar.get("related_resources", []):
         sid = rr.get("source_id")
         rec = track.sources.get(sid, {})
         parts.append(f"- {sid} | {rec.get('title','?')} | {rec.get('kind','?')} | "
-                     f"{rec.get('access','?')} | {rr.get('reason','')}")
+                     f"{rec.get('access','?')} | {rec.get('url','')} | {rr.get('reason','')}")
         seen.add(sid)
     if not sidecar.get("related_resources"):
         parts.append("- (none registered)")
     parts += [
         "",
-        f"FULL TRACK SOURCE REGISTRY ({len(track.sources)} sources; id | title | kind):",
+        f"FULL TRACK SOURCE REGISTRY ({len(track.sources)} sources; id | title | kind | url):",
     ]
     for sid, rec in track.sources.items():
-        parts.append(f"- {sid} | {rec.get('title','?')} | {rec.get('kind','?')}")
+        parts.append(f"- {sid} | {rec.get('title','?')} | {rec.get('kind','?')} | {rec.get('url','')}")
+    if companion:
+        parts += [
+            "",
+            "FURTHER READING / NON-SPKEN COMPANION (context only; shows which entry "
+            "points the lecture already offers, including any Wikipedia links; "
+            "never quote from it):",
+            "<<<COMPANION",
+            companion,
+            "COMPANION>>>",
+        ]
     return "\n".join(parts)
 
 
@@ -508,7 +527,15 @@ def unit_is_adjudicated(store: Store, track_name: str, lecture_id: str) -> bool:
 
 # ---------------------------------------------------------------- plan
 
-def unit_status(store: Store, track: Track, lecture_id: str):
+def version_num(contract: str | None) -> int:
+    if not contract:
+        return 0
+    m = re.search(r"(\d+)$", str(contract))
+    return int(m.group(1)) if m else 0
+
+
+def unit_status(store: Store, track: Track, lecture_id: str,
+                current_contract: str | None = None):
     rev = unit_revision(track, lecture_id)
     cov = store.coverage_row(track.name, lecture_id) or {}
     active = unit_active(store, track.name, lecture_id)
@@ -520,8 +547,11 @@ def unit_status(store: Store, track: Track, lecture_id: str):
         needed = "has_active"
     else:
         needed = "current"
+    recheck = bool(current_contract) and version_num(cov.get("contract")) > 0 and \
+        version_num(cov.get("contract")) < version_num(current_contract)
     return {"id": lecture_id, "revision": rev, "last_run": cov.get("run"),
-            "outcome": cov.get("outcome"), "active": active, "needed": needed}
+            "outcome": cov.get("outcome"), "active": active, "needed": needed,
+            "contract": cov.get("contract"), "recheck": recheck}
 
 
 def needs_work(u: dict) -> bool:
@@ -538,21 +568,26 @@ def cmd_plan(args) -> None:
     for l in track.lectures():
         if not track.manuscript_path(l).is_file():
             continue
-        rows.append(unit_status(store, track, l["id"]))
+        rows.append(unit_status(store, track, l["id"], args.contract_version))
     if args.format == "json":
         print(json.dumps(rows, indent=1))
         return
-    print(f"{'id':>8}  {'needed':<15} {'active':>6}  {'last run':<22} {'outcome':<14} title")
+    print(f"{'id':>8}  {'needed':<15} {'active':>6}  {'contract':<9} {'last run':<22} "
+          f"{'outcome':<14} title")
     for u in rows:
-        mark = " *" if needs_work(u) else ""
+        mark = " *" if needs_work(u) or u["recheck"] else ""
         print(f"{u['id']:>8}  {u['needed']:<15} {u['active']:>6}  "
-              f"{str(u['last_run'] or '-'):22.22} {str(u['outcome'] or '-'):14.14} "
+              f"{str(u['contract'] or '-'):9.9} {str(u['last_run'] or '-'):22.22} "
+              f"{str(u['outcome'] or '-'):14.14} "
               f"{track.unit(u['id']).get('title','')[:56]}{mark}")
     work = [u for u in rows if needs_work(u)]
+    recheck = [u for u in rows if u["recheck"] and not needs_work(u)]
     print(f"\n{len(work)} of {len(rows)} units need work "
           f"(never: {sum(1 for u in work if u['needed']=='never_reviewed')}, "
           f"stale: {sum(1 for u in work if u['needed']=='stale')}, "
-          f"active: {sum(1 for u in work if u['needed']=='has_active')})")
+          f"active: {sum(1 for u in work if u['needed']=='has_active')}); "
+          f"{len(recheck)} more would be rechecked under contract "
+          f"{args.contract_version} with --recheck-contract")
 
 
 def contract_text(root: Path, version: str) -> str:
@@ -564,7 +599,9 @@ def process_unit(track: Track, store: Store, run: Run, lecture: dict, model: str
     lec_id = lecture["id"]
     revision = unit_revision(track, lec_id)
     stage = run.stage_of(lec_id)
-    spoken = extract_spoken(track.manuscript_path(lecture).read_text(encoding="utf-8"))
+    raw_text = track.manuscript_path(lecture).read_text(encoding="utf-8")
+    spoken = extract_spoken(raw_text)
+    companion = extract_companion(raw_text)
 
     stage_rec = run.progress()["stages"].get(lec_id) or {}
     # If the content moved since the raw response was captured, the old
@@ -577,7 +614,7 @@ def process_unit(track: Track, store: Store, run: Run, lecture: dict, model: str
     if stage in (None, "review_failed"):
         doc = call_reviewer(base, key, model,
                             contract_text(root_of(run), contract),
-                            build_payload(track, lecture, spoken))
+                            build_payload(track, lecture, spoken, companion))
         choice = doc["choices"][0]
         msg = choice["message"]
         raw = {"model": model, "at": now_iso(),
@@ -608,7 +645,7 @@ def process_unit(track: Track, store: Store, run: Run, lecture: dict, model: str
 
     active = unit_active(store, track.name, lec_id)
     cov = {"track": track.name, "lecture_id": lec_id, "revision": revision, "run": run.id,
-           "reviewed_at": now_iso(),
+           "reviewed_at": now_iso(), "contract": contract,
            "outcome": "clean" if not accepted else f"findings:{accepted}",
            "open": active}
     if unit_is_adjudicated(store, track.name, lec_id):
@@ -641,7 +678,7 @@ def cmd_run(args) -> None:
             sys.exit(f"error: no run {args.resume} under {store.runs_dir}")
 
     statuses = {u["id"]: u for u in
-                (unit_status(store, track, l["id"]) for l in track.lectures()
+                (unit_status(store, track, l["id"], args.contract_version) for l in track.lectures()
                  if track.manuscript_path(l).is_file())}
     if args.unit:
         missing = [u for u in args.unit if u not in statuses]
@@ -649,7 +686,8 @@ def cmd_run(args) -> None:
             sys.exit(f"error: unknown lecture id(s): {', '.join(missing)}")
         order = args.unit
     else:
-        order = [u for u, s in statuses.items() if needs_work(s)]
+        order = [u for u, s in statuses.items()
+                 if needs_work(s) or (args.recheck_contract and s.get("recheck"))]
         if args.limit:
             order = order[:args.limit]
     if not order:
@@ -659,8 +697,9 @@ def cmd_run(args) -> None:
     if args.dry_run:
         for lec_id in order:
             lec = track.unit(lec_id)
-            spoken = extract_spoken(track.manuscript_path(lec).read_text(encoding="utf-8"))
-            payload = build_payload(track, lec, spoken)
+            raw_text = track.manuscript_path(lec).read_text(encoding="utf-8")
+            payload = build_payload(track, lec, extract_spoken(raw_text),
+                                    extract_companion(raw_text))
             print(f"[dry-run] {lec_id} would call {args.model} ({len(payload)} chars payload)")
         return
 
@@ -916,6 +955,8 @@ def main() -> None:
     p = sub.add_parser("plan")
     p.add_argument("--track", required=True)
     p.add_argument("--format", choices=("table", "json"), default="table")
+    p.add_argument("--contract-version", default=DEFAULT_CONTRACT_VERSION,
+                   help="contract version to compare recorded coverage against")
 
     p = sub.add_parser("run")
     p.add_argument("--track", required=True)
@@ -924,7 +965,9 @@ def main() -> None:
     p.add_argument("--model", default=DEFAULT_REVIEWER_MODEL)
     p.add_argument("--resume", default=None, help="run id to continue")
     p.add_argument("--fresh", action="store_true", help="force a new run id")
-    p.add_argument("--contract-version", default="v1")
+    p.add_argument("--contract-version", default=DEFAULT_CONTRACT_VERSION)
+    p.add_argument("--recheck-contract", action="store_true",
+                  help="also include units last reviewed under an older contract version")
     p.add_argument("--one", action="store_true", help="process one unit and exit")
     p.add_argument("--dry-run", action="store_true")
 
