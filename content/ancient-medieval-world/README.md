@@ -56,12 +56,22 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 048000 | A City through Several Empires: Byzantines and Ottomans before 1500 | 1,252 |
 | 049000 | After the Plague: Work, War, and Learning in Late Medieval Europe | 1,297 |
 | 050000 | The World around 1500: Connections, Boundaries, and New Encounters | 1,354 |
+| 051000 | Power That Moved: Pastoral Worlds and the Empires of the Eurasian Steppe | 1,543 |
+| 052000 | Letters That Never Arrived: Sogdian Families and the Cities of Central Asia | 1,492 |
+| 053000 | The City Made of Earth: Cahokia and Its Mississippian Neighbors | 1,544 |
+| 054000 | Roads into the Canyon: Chaco and the Ancestral Pueblo World | 1,429 |
+| 055000 | Islands Connected by Water: Caribbean Societies before 1492 | 1,423 |
+| 056000 | A City without a Palace? Djenné-Jeno and the Inland Niger Delta | 1,407 |
+| 057000 | Around the Moving Lake: Kanem, Bornu, and the Peoples of Central Africa | 1,399 |
+| 058000 | Beyond the Temple Walls: Water, Work, and Households at Angkor | 1,408 |
 
-Lectures 001000–007000 cover early urban and Bronze Age worlds; 008000–015000 cover Iron Age and early classical transformations; 016000–023000 cover classical empires and social history; 024000–031000 cover late antiquity; 032000–040000 examine medieval societies and networks from roughly 750 to 1200 CE; and 041000–050000 follow regional developments through roughly 1500 CE. **The initial chronological bridge to the modern-world track is now written and indexed, but is an introductory sequence rather than comprehensive coverage.** Additional work is needed on omitted regional histories, original sources and specialist scholarship; see `COVERAGE_AUDIT.md` and `BACKLOG.md`.
+Lectures 001000–007000 cover early urban and Bronze Age worlds; 008000–015000 cover Iron Age and early classical transformations; 016000–023000 cover classical empires and social history; 024000–031000 cover late antiquity; 032000–040000 examine medieval societies and networks from roughly 750 to 1200 CE; and 041000–050000 follow regional developments through roughly 1500 CE. **The introductory chronological bridge to the modern-world track is written and indexed. Lectures 051000–058000 add focused regional and evidence-based depth without changing the original chronology.** Additional work is needed on omitted regional histories, original sources and specialist scholarship; see `COVERAGE_AUDIT.md` and `BACKLOG.md`.
+
+Lectures 051000–058000 examine Central Asian mobility and Sogdian sources; Cahokia and Chaco in Indigenous North America; Caribbean communities before 1492; the Inland Niger Delta and Lake Chad basin; and the dispersed urban and agricultural landscape at Angkor. Their IDs reflect addition order, not chronological succession.
 
 ## How to read and maintain this pack
 
-- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All fifty entries are self-contained, without a prerequisite chain.
+- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All fifty-eight entries are self-contained, without a prerequisite chain.
 - `NNNNNN-*.md` files contain narration between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. Everything outside those markers is non-spoken editorial or evidence context.
 - `metadata/NNNNNN.json` maps every spoken paragraph to named source records, with explicit source limitations and interpretive cautions.
 - `metadata/sources.json` contains source identities, links, and caveats. Add original-language evidence and specialized excavation reports when a claim needs more precision; do not misrepresent a general survey as an archival or archaeological primary source.

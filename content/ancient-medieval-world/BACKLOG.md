@@ -1,6 +1,6 @@
 # Backlog — Ancient and Medieval Histories
 
-**Status:** All fifty lectures (001000–050000) are written, indexed, and source-mapped. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
+**Status:** Fifty-eight lectures (001000–058000) are written, indexed, and source-mapped. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
 
 The chronology is a scaffold, not a sequence in which one region necessarily learns from another. Each unit should integrate changes to governance with work, family, belief, material culture, economic organization, and what the historical evidence actually allows us to know.
 
@@ -72,12 +72,27 @@ The chronology is a scaffold, not a sequence in which one region necessarily lea
 | 049000 | After the Plague: Work, War, and Learning in Late Medieval Europe | Population changes, political conflict, labor, intellectual life and commerce |
 | 050000 | The World around 1500: Connections, Boundaries, and New Encounters | Parallel developments, inequalities, trade, states, and the boundaries of global connection; handoff to modern-world 001000 |
 
+## Regional and documentary depth — first installment (written and indexed)
+
+These new IDs continue the index without extending the chronological end date. The guiding idea is to test existing survey-level accounts against more specific archaeology, original texts, and social histories.
+
+| ID | New lecture | Evidence emphasis |
+| --- | --- | --- |
+| 051000 | Power That Moved: Pastoral Worlds and the Empires of the Eurasian Steppe | Han and Turkic writing versus Xiongnu-period settlement and genomic evidence |
+| 052000 | Letters That Never Arrived: Sogdian Families and the Cities of Central Asia | Named original-language correspondence, editor and translator, Afrasiab murals |
+| 053000 | The City Made of Earth: Cahokia and Its Mississippian Neighbors | Mound architecture, settlement scale, dated timber, climate proxies, Indigenous historical ties |
+| 054000 | Roads into the Canyon: Chaco and the Ancestral Pueblo World | Architectural chronology, material exchange, migration, and descendant oral tradition |
+| 055000 | Islands Connected by Water: Caribbean Societies before 1492 | Archaeology, artistic sources, ancient DNA and colonial-source limitations |
+| 056000 | A City without a Palace? Djenné-Jeno and the Inland Niger Delta | Field archaeology, clustered settlement and the limits of heterarchy inference |
+| 057000 | Around the Moving Lake: Kanem, Bornu, and the Peoples of Central Africa | Arabic geographies, African intra-regional archaeological questions, enslavement |
+| 058000 | Beyond the Temple Walls: Water, Work, and Households at Angkor | Lidar, household archaeology, Khmer inscriptions, population modeling |
+
 ## Next research campaigns (not yet indexed)
 
-The initial bridge is now written. The priorities below are **research proposals**, not existing lectures or assigned identifiers.
+The initial bridge and first eight depth lectures are written. The priorities below remain **research proposals**, not existing lectures or assigned identifiers.
 
 - **Original-language and archaeological evidence.** Review Persian, Arabic, Chinese, and Indigenous textual traditions with specialist translations and edition references; expand archaeological field reports rather than relying on heritage summaries alone.
-- **Regions with thin treatment.** Add dedicated history of Central Asian societies beyond empire-centered stories, Southeast Asian countryside, inland and eastern African polities, Indigenous North American regions, and Caribbean communities before European arrival.
+- **Regions still thinly treated.** Expand beyond the new case studies to Indigenous Great Lakes and Northeast America, the Southeast and Pacific Northwest; inland and eastern African polities, family and kinship histories, Southeast Asian villages beyond Angkor, and further Central Asian communities and languages.
 - **Everyday social histories.** Expand household labor, enslavement and coercion, migration, environment, women and kinship, commercial credit, and religious practice with evidence specific to place and period.
 - **Cross-track synchronization.** Add clear chronology handoffs to the existing Deep Time, World History and Modern World curricula; avoid rewriting stronger specialist lectures already available elsewhere.
 
