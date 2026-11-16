@@ -60,7 +60,15 @@
     "derived-obstruction-triangles",
     "arithmetic-intersections-heights",
     "tannakian-reconstruction",
-    "quotient-stacks-inertia"
+    "quotient-stacks-inertia",
+    "cotangent-complex-derived-geometry",
+    "derived-intersections-and-tor",
+    "derived-moduli-perfect-complexes",
+    "virtual-fundamental-classes",
+    "selmer-groups-arithmetic-duality",
+    "roots-weights-reductive-representations",
+    "stable-maps-gromov-witten",
+    "virtual-localization"
   ],
   "lectures": [
     {
@@ -530,6 +538,78 @@
       "spoken_words": 905,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "053000",
+      "title": "The Cotangent Complex: Differentials That Remember Singularities",
+      "section": "cotangent-complex-derived-geometry",
+      "file": "053000-cotangent-complex-and-derived-geometry.md",
+      "spoken_words": 997,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.9
+    },
+    {
+      "id": "054000",
+      "title": "Derived Intersections: Where Hidden Multiplicity Lives",
+      "section": "derived-intersections-and-tor",
+      "file": "054000-derived-intersections-and-tor.md",
+      "spoken_words": 942,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "055000",
+      "title": "Deforming a Complex: Ext Groups as Tangents and Obstructions",
+      "section": "derived-moduli-perfect-complexes",
+      "file": "055000-derived-moduli-of-perfect-complexes.md",
+      "spoken_words": 886,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "056000",
+      "title": "Virtual Fundamental Classes: Counting with Obstructions",
+      "section": "virtual-fundamental-classes",
+      "file": "056000-virtual-fundamental-classes.md",
+      "spoken_words": 1010,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.0
+    },
+    {
+      "id": "057000",
+      "title": "Selmer Groups: Global Points, Local Tests, and Arithmetic Duality",
+      "section": "selmer-groups-arithmetic-duality",
+      "file": "057000-selmer-groups-and-arithmetic-duality.md",
+      "spoken_words": 1086,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "058000",
+      "title": "Roots, Weights, and Representations of Reductive Groups",
+      "section": "roots-weights-reductive-representations",
+      "file": "058000-roots-weights-and-reductive-representations.md",
+      "spoken_words": 977,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.7
+    },
+    {
+      "id": "059000",
+      "title": "Stable Maps and Gromov–Witten Invariants: Counting Curves with Multiplicity",
+      "section": "stable-maps-gromov-witten",
+      "file": "059000-stable-maps-and-gromov-witten-invariants.md",
+      "spoken_words": 1057,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.3
+    },
+    {
+      "id": "060000",
+      "title": "Equivariant Localization: A Global Count from Fixed Points",
+      "section": "virtual-localization",
+      "file": "060000-virtual-localization-and-fixed-point-geometry.md",
+      "spoken_words": 1004,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.9
     }
   ]
 }

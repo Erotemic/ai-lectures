@@ -25,7 +25,9 @@
     "validated-ode",
     "posteriori-fem-errors",
     "multigrid-preconditioning",
-    "verified-nonlinear-systems"
+    "verified-nonlinear-systems",
+    "nonsmooth-sensitivities",
+    "equilibrated-flux-certificates"
   ],
   "lectures": [
     {
@@ -207,6 +209,24 @@
       "spoken_words": 968,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.7
+    },
+    {
+      "id": "021000",
+      "title": "Nonsmooth Sensitivity: What a Derivative Can and Cannot Tell You",
+      "section": "nonsmooth-sensitivities",
+      "file": "021000-nonsmooth-sensitivities-and-algorithmic-derivatives.md",
+      "spoken_words": 1113,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.7
+    },
+    {
+      "id": "022000",
+      "title": "Equilibrated Fluxes: A Computable Upper Bound on PDE Error",
+      "section": "equilibrated-flux-certificates",
+      "file": "022000-equilibrated-fluxes-and-guaranteed-error-bounds.md",
+      "spoken_words": 1124,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.8
     }
   ]
 }

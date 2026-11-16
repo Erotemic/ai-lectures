@@ -92,3 +92,15 @@ Each narration is standalone; exact hypotheses, proofs, calculations, exercises 
 - 017000 — [Nonmonotone Submodular Optimization: When More Can Be Worse](017000-nonmonotone-submodular-maximization-and-matroids.md)
 
 Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
+
+## Continuation 14: Derived geometry, combinatorics and rigorous algorithms
+
+- 018000 — [Inexact Proximal Algorithms: Convergence When Inner Solves Are Imperfect](018000-inexact-proximal-steps-and-certificates.md)
+
+Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
+
+## Continuation 15: Wasserstein distributional robustness
+
+- 019000 — [Wasserstein Distributionally Robust Optimization: Decisions under Uncertain Laws](019000-wasserstein-distributionally-robust-optimization.md)
+
+Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.

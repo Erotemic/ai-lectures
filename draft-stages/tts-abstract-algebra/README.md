@@ -120,3 +120,21 @@ Each narration is standalone; exact hypotheses, proofs, calculations, exercises 
 - 052000 — [Quotient Stacks: Spaces That Remember Symmetry](052000-quotient-stacks-stabilizers-and-inertia.md)
 
 Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
+
+## Continuation 14: Derived geometry, combinatorics and rigorous algorithms
+
+- 053000 — [The Cotangent Complex: Differentials That Remember Singularities](053000-cotangent-complex-and-derived-geometry.md)
+- 054000 — [Derived Intersections: Where Hidden Multiplicity Lives](054000-derived-intersections-and-tor.md)
+- 055000 — [Deforming a Complex: Ext Groups as Tangents and Obstructions](055000-derived-moduli-of-perfect-complexes.md)
+- 056000 — [Virtual Fundamental Classes: Counting with Obstructions](056000-virtual-fundamental-classes.md)
+
+Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
+
+## Continuation 15: Arithmetic duality and enumerative geometry
+
+- 057000 — [Selmer Groups: Global Points, Local Tests, and Arithmetic Duality](057000-selmer-groups-and-arithmetic-duality.md)
+- 058000 — [Roots, Weights, and Representations of Reductive Groups](058000-roots-weights-and-reductive-representations.md)
+- 059000 — [Stable Maps and Gromov–Witten Invariants: Counting Curves with Multiplicity](059000-stable-maps-and-gromov-witten-invariants.md)
+- 060000 — [Equivariant Localization: A Global Count from Fixed Points](060000-virtual-localization-and-fixed-point-geometry.md)
+
+Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.

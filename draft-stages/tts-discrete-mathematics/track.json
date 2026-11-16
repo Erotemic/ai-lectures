@@ -34,7 +34,11 @@
     "expander-constructions",
     "coding-bounds",
     "extremal-sets-sunflowers",
-    "randomized-rounding"
+    "randomized-rounding",
+    "vc-dimension-sauer-shelah",
+    "discrepancy-partial-coloring",
+    "epsilon-nets-uniform-convergence",
+    "constructive-discrepancy"
   ],
   "lectures": [
     {
@@ -270,6 +274,42 @@
       "spoken_words": 967,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.7
+    },
+    {
+      "id": "027000",
+      "title": "VC Dimension: How Many Patterns Can a Family Realize?",
+      "section": "vc-dimension-sauer-shelah",
+      "file": "027000-vc-dimension-and-sauer-shelah.md",
+      "spoken_words": 992,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.8
+    },
+    {
+      "id": "028000",
+      "title": "Discrepancy: Balancing Many Sets at Once",
+      "section": "discrepancy-partial-coloring",
+      "file": "028000-discrepancy-and-partial-coloring.md",
+      "spoken_words": 1087,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "029000",
+      "title": "Epsilon-Nets: Hitting Every Large Geometric Range",
+      "section": "epsilon-nets-uniform-convergence",
+      "file": "029000-epsilon-nets-and-uniform-convergence.md",
+      "spoken_words": 1001,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.9
+    },
+    {
+      "id": "030000",
+      "title": "Constructive Discrepancy: From Random Signs to Partial Coloring",
+      "section": "constructive-discrepancy",
+      "file": "030000-constructive-discrepancy-and-partial-colorings.md",
+      "spoken_words": 1091,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
     }
   ]
 }

@@ -1,12 +1,12 @@
-# Discrete Mathematics — after 26 completed lectures
+# Discrete Mathematics — after 30 completed lectures
 
-Extremal set systems and sunflower lemmas now connect to parameterized kernels. Randomized rounding and conditional expectation lead from expectation bounds to feasible discrete solutions.
+Epsilon-nets show how bounded VC dimension makes random coverage possible, while constructive discrepancy links probabilistic bounds to conditional expectation and stronger partial-coloring algorithms. The weaker logarithmic coloring bound is not labeled Spencer's sharp-order bound.
 
 ## Unindexed continuation proposals
 
-- 027000 — Property Testing and Local Graph Algorithms
-- 028000 — Pseudorandom Generators and Extractors
-- 029000 — VC Dimension and Sauer–Shelah Bounds
-- 030000 — Discrepancy Theory and Partial Coloring
+- 031000 — Property Testing and Local Graph Algorithms
+- 032000 — Extractors and Pseudorandom Generators
+- 033000 — Hypergraph Containers and Sparse Extremal Results
+- 034000 — Fourier Analysis on the Boolean Cube
 
-Distinguish expectations from almost-sure feasibility and exact kernel equivalence. Proposals are not registered.
+Distinguish coverage, probability estimation, random existence, and polynomial-time construction. Proposals are not registered.

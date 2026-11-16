@@ -1,12 +1,12 @@
-# Optimization and Duality — after 17 completed lectures
+# Optimization and Duality — after 19 completed lectures
 
-Nonmonotone submodular maximization adds negative marginal gains and matroid-feasible rounding to the earlier monotone submodular and discrete optimization material.
+Wasserstein ambiguity sets make uncertainty in an estimated law explicit. The affine example gives an exact worst-case value; the quadratic W1 counterexample explains why growth and support assumptions matter.
 
 ## Unindexed continuation proposals
 
-- 018000 — Inexact Proximal Steps and Convergence Diagnostics
-- 019000 — Distributionally Robust Optimization and Wasserstein Sets
-- 020000 — Facial Reduction and Degenerate Semidefinite Programs
+- 020000 — Facial Reduction for Degenerate Semidefinite Programs
 - 021000 — Approximation Under Multiple Matroid Constraints
+- 022000 — Mirror-Prox and Bregman Splitting
+- 023000 — Entropic Risk, CVaR, and Distributional Ambiguity
 
-The unconstrained one-half double-greedy approximation does not automatically survive matroid constraints. Proposals are not registered.
+Distinguish transport geometry, statistical coverage, finite convex reformulations and guarantees for the true data-generating law. Proposals are not registered.

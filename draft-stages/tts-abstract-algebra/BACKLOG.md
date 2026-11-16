@@ -1,12 +1,12 @@
-# Abstract Algebra — after 52 completed lectures
+# Abstract Algebra — after 60 completed lectures
 
-This continuation develops derived obstructions, arithmetic intersections and heights, Tannakian symmetry reconstruction, and quotient stacks with stabilizers and inertia.
+Arithmetic descent and duality give local-to-global constraints, while the reductive group and enumerative geometry lectures connect symmetry and moduli. The torus fixed-point calculation shows how virtual intersection problems reduce to localized contributions.
 
 ## Unindexed continuation proposals
 
-- 053000 — Derived Algebraic Geometry and the Cotangent Complex
-- 054000 — Selmer Groups and Arithmetic Duality
-- 055000 — Representation Theory of Reductive Groups
-- 056000 — Enumerative Geometry and Virtual Fundamental Classes
+- 061000 — Heights, Mordell–Weil, and Explicit Descent Algorithms
+- 062000 — Borel–Weil–Bott and Geometric Representation Theory
+- 063000 — Quantum Cohomology and Associativity
+- 064000 — Stable Pairs and Donaldson–Thomas Theory
 
-Do not collapse infinitesimal and global automorphism data, or treat potential obstructions as actual obstructions. Proposals are not registered.
+Keep the distinction between Selmer candidates and global points, and between stack/virtual invariants and literal counts of embedded curves. Proposals are not registered.

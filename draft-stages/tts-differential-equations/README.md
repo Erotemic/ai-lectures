@@ -94,3 +94,17 @@ Each narration is standalone; exact hypotheses, proofs, calculations, exercises 
 - 026000 — [Front Pinning: When a Traveling Wave Stops](026000-front-pinning-and-depinning-in-heterogeneous-media.md)
 
 Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
+
+## Continuation 14: Derived geometry, combinatorics and rigorous algorithms
+
+- 027000 — [Semilinear Waves: When Propagation Meets Nonlinearity](027000-semilinear-wave-equations-and-local-theory.md)
+- 028000 — [Critical Waves: Scaling, Blow-Up, and Scattering](028000-criticality-blowup-and-wave-scattering.md)
+
+Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
+
+## Continuation 15: Wave dispersion and solitary-wave instability
+
+- 029000 — [Strichartz Estimates: Measuring the Spreading of Waves](029000-strichartz-estimates-and-endpoint-failures.md)
+- 030000 — [Solitons and Modulation: A Klein–Gordon Wave that Can Become Unstable](030000-solitons-modulation-and-klein-gordon-instability.md)
+
+Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.

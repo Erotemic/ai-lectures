@@ -94,3 +94,17 @@ Each narration is standalone; exact hypotheses, proofs, calculations, exercises 
 - 026000 — [Holonomy and Gauge Moduli: Transport Around a Loop](026000-holonomy-parallel-transport-and-gauge-moduli.md)
 
 Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
+
+## Continuation 14: Derived geometry, combinatorics and rigorous algorithms
+
+- 027000 — [Prequantization: When Symplectic Area Must Be Integral](027000-prequantum-line-bundles-and-integrality.md)
+- 028000 — [Quantizing the Sphere: Holomorphic Sections and Spin](028000-holomorphic-quantization-of-the-sphere.md)
+
+Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
+
+## Continuation 15: Reduction, quantization and semiclassical phase
+
+- 029000 — [Quantization and Symplectic Reduction: Which Operation Comes First?](029000-quantization-and-symplectic-reduction.md)
+- 030000 — [The Maslov Index: Why a Classical Orbit Acquires a Quantum Half-Step](030000-maslov-index-and-semiclassical-phase.md)
+
+Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.

@@ -34,7 +34,11 @@
     "dispersive-scattering",
     "variational-noether",
     "hypocoercivity-equilibrium",
-    "front-pinning"
+    "front-pinning",
+    "semilinear-waves-local-theory",
+    "wave-criticality-scattering",
+    "strichartz-endpoint-estimates",
+    "solitons-klein-gordon-modulation"
   ],
   "lectures": [
     {
@@ -270,6 +274,42 @@
       "spoken_words": 1031,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.1
+    },
+    {
+      "id": "027000",
+      "title": "Semilinear Waves: When Propagation Meets Nonlinearity",
+      "section": "semilinear-waves-local-theory",
+      "file": "027000-semilinear-wave-equations-and-local-theory.md",
+      "spoken_words": 997,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.9
+    },
+    {
+      "id": "028000",
+      "title": "Critical Waves: Scaling, Blow-Up, and Scattering",
+      "section": "wave-criticality-scattering",
+      "file": "028000-criticality-blowup-and-wave-scattering.md",
+      "spoken_words": 968,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.7
+    },
+    {
+      "id": "029000",
+      "title": "Strichartz Estimates: Measuring the Spreading of Waves",
+      "section": "strichartz-endpoint-estimates",
+      "file": "029000-strichartz-estimates-and-endpoint-failures.md",
+      "spoken_words": 1020,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.0
+    },
+    {
+      "id": "030000",
+      "title": "Solitons and Modulation: A Klein–Gordon Wave that Can Become Unstable",
+      "section": "solitons-klein-gordon-modulation",
+      "file": "030000-solitons-modulation-and-klein-gordon-instability.md",
+      "spoken_words": 1044,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.2
     }
   ]
 }

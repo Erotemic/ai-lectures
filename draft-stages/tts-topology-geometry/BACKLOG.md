@@ -1,12 +1,12 @@
-# Topology and Geometry — after 26 completed lectures
+# Topology and Geometry — after 30 completed lectures
 
-Morse-Bott theory, fixed-point localization, holonomy, and gauge moduli deepen the course's connections between topology, curvature, and symmetry.
+Symplectic reduction and geometric quantization agree under stated compactness, integrality and regularity hypotheses, with the CP1 example making weight multiplicities explicit. The Maslov index connects phase-space caustics to semiclassical spectral shifts without claiming exactness for arbitrary potentials.
 
 ## Unindexed continuation proposals
 
-- 027000 — Geometric Quantization and Prequantum Bundles
-- 028000 — Spectral Sequences in Algebraic Topology
-- 029000 — Gauge-Theoretic Moduli and Anti-Self-Dual Connections
-- 030000 — Floer Homology and Infinite-Dimensional Morse Theory
+- 031000 — Anti-Self-Dual Connections and Gauge Moduli
+- 032000 — Floer Homology and Infinite-Dimensional Morse Theory
+- 033000 — Geometric Phases and Berry Curvature
+- 034000 — Symplectic Capacities and Nonsqueezing
 
-Equivariant localization requires precise normal-weight inversions; holonomy is homotopy invariant only for flat connections. Proposals are not registered.
+State conventions for prequantum weights, half-forms, and semiclassical Maslov indices. Proposals are not registered.

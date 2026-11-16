@@ -94,3 +94,17 @@ Each narration is standalone; exact hypotheses, proofs, calculations, exercises 
 - 026000 — [Randomized Rounding: From Fractional Answers to Reliable Discrete Choices](026000-randomized-rounding-and-conditional-expectation.md)
 
 Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
+
+## Continuation 14: Derived geometry, combinatorics and rigorous algorithms
+
+- 027000 — [VC Dimension: How Many Patterns Can a Family Realize?](027000-vc-dimension-and-sauer-shelah.md)
+- 028000 — [Discrepancy: Balancing Many Sets at Once](028000-discrepancy-and-partial-coloring.md)
+
+Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
+
+## Continuation 15: Epsilon-nets and constructive discrepancy
+
+- 029000 — [Epsilon-Nets: Hitting Every Large Geometric Range](029000-epsilon-nets-and-uniform-convergence.md)
+- 030000 — [Constructive Discrepancy: From Random Signs to Partial Coloring](030000-constructive-discrepancy-and-partial-colorings.md)
+
+Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.

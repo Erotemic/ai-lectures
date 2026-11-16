@@ -34,7 +34,11 @@
     "morse-handles",
     "elliptic-index",
     "morse-bott-localization",
-    "holonomy-gauge-moduli"
+    "holonomy-gauge-moduli",
+    "prequantum-line-bundles",
+    "holomorphic-quantization",
+    "quantization-symplectic-reduction",
+    "maslov-index-semiclassical-phase"
   ],
   "lectures": [
     {
@@ -270,6 +274,42 @@
       "spoken_words": 936,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "027000",
+      "title": "Prequantization: When Symplectic Area Must Be Integral",
+      "section": "prequantum-line-bundles",
+      "file": "027000-prequantum-line-bundles-and-integrality.md",
+      "spoken_words": 927,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "028000",
+      "title": "Quantizing the Sphere: Holomorphic Sections and Spin",
+      "section": "holomorphic-quantization",
+      "file": "028000-holomorphic-quantization-of-the-sphere.md",
+      "spoken_words": 1031,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.1
+    },
+    {
+      "id": "029000",
+      "title": "Quantization and Symplectic Reduction: Which Operation Comes First?",
+      "section": "quantization-symplectic-reduction",
+      "file": "029000-quantization-and-symplectic-reduction.md",
+      "spoken_words": 995,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.9
+    },
+    {
+      "id": "030000",
+      "title": "The Maslov Index: Why a Classical Orbit Acquires a Quantum Half-Step",
+      "section": "maslov-index-semiclassical-phase",
+      "file": "030000-maslov-index-and-semiclassical-phase.md",
+      "spoken_words": 982,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.8
     }
   ]
 }

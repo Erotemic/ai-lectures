@@ -1,12 +1,12 @@
-# Differential Equations — after 26 completed lectures
+# Differential Equations — after 30 completed lectures
 
-The track now links kinetic dissipation to transport through hypocoercivity and explains propagating and pinned bistable fronts in heterogeneous media.
+Wave Strichartz estimates add global spacetime control with explicit admissible exponents and a failed endpoint. The cubic Klein-Gordon model gives a checked localized profile with separate neutral translation and exponentially growing linear modes.
 
 ## Unindexed continuation proposals
 
-- 027000 — Semilinear Wave Equations and Critical Exponents
-- 028000 — Structure-Preserving Numerical PDE Integrators
-- 029000 — Compressible Fluid Equations and Shock Stability
-- 030000 — Nonlinear Stability of Periodic Traveling Waves
+- 031000 — Structure-Preserving Numerical PDE Integrators
+- 032000 — Compressible Fluids and Shock Stability
+- 033000 — Concentration-Compactness and Nonlinear Scattering
+- 034000 — Stability of Pattern-Forming Interfaces
 
-Hypocoercive rates need domain, collision, and spectral-gap assumptions; a collective-coordinate pinning model is not an exact PDE reduction. Proposals are not registered.
+Do not infer global nonlinear stability from the existence of an exact coherent state, or scattering from an energy bound. Proposals are not registered.

@@ -90,3 +90,15 @@ Each narration is standalone; exact hypotheses, proofs, calculations, exercises 
 - 020000 — [Verified Nonlinear Systems: Interval Newton and Krawczyk Operators](020000-verified-nonlinear-systems-krawczyk-and-interval-newton.md)
 
 Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
+
+## Continuation 14: Derived geometry, combinatorics and rigorous algorithms
+
+- 021000 — [Nonsmooth Sensitivity: What a Derivative Can and Cannot Tell You](021000-nonsmooth-sensitivities-and-algorithmic-derivatives.md)
+
+Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
+
+## Continuation 15: Equilibrated flux and guaranteed PDE error bounds
+
+- 022000 — [Equilibrated Fluxes: A Computable Upper Bound on PDE Error](022000-equilibrated-fluxes-and-guaranteed-error-bounds.md)
+
+Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.

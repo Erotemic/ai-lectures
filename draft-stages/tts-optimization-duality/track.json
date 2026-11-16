@@ -22,7 +22,9 @@
     "monotone-splitting",
     "robust-uncertainty-sets",
     "hsd-embedding",
-    "nonmonotone-submodular"
+    "nonmonotone-submodular",
+    "inexact-proximal-steps",
+    "wasserstein-distributional-robustness"
   ],
   "lectures": [
     {
@@ -177,6 +179,24 @@
       "spoken_words": 1021,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.0
+    },
+    {
+      "id": "018000",
+      "title": "Inexact Proximal Algorithms: Convergence When Inner Solves Are Imperfect",
+      "section": "inexact-proximal-steps",
+      "file": "018000-inexact-proximal-steps-and-certificates.md",
+      "spoken_words": 1128,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.8
+    },
+    {
+      "id": "019000",
+      "title": "Wasserstein Distributionally Robust Optimization: Decisions under Uncertain Laws",
+      "section": "wasserstein-distributional-robustness",
+      "file": "019000-wasserstein-distributionally-robust-optimization.md",
+      "spoken_words": 1136,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.8
     }
   ]
 }
