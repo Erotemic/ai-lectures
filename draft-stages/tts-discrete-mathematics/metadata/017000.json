@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-graph-minors-and-treewidth.md",
+  "related_resources": [
+    {
+      "source_id": "dm-feige-treewidth",
+      "reason": "Tree decompositions and dynamic programming."
+    },
+    {
+      "source_id": "dm-bodlaender",
+      "reason": "Foundational algorithms parameterized by treewidth."
+    },
+    {
+      "source_id": "dm-minors-tutorial",
+      "reason": "Robertson-Seymour graph-minor context and structural consequences."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "017000-h01",
+      "anchor": "Robertson–Seymour graph-minor program",
+      "kind": "historical_research",
+      "source_ids": [
+        "dm-minors-tutorial"
+      ],
+      "source_locator": "Survey of Robertson–Seymour graph minor program.",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

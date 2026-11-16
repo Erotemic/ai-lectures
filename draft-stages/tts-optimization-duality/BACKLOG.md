@@ -1,12 +1,12 @@
-# Optimization, Convexity, and Duality — after 12 completed lectures
+# Optimization, Convexity, and Duality — after 13 completed lectures
 
-The track extends from convex analysis through KKT conditions, LP and SDP, numerical and dual certificates, perturbation sensitivity, discrete relaxations, interior-point algorithms, and general conic duality under explicit strict-feasibility conditions.
+Coverage runs from convex analysis, KKT conditions, proximal and interior-point methods to linear, conic, semidefinite and discrete optimization, sensitivity, independently checkable certificates and submodular approximation.
 
 ## Unindexed continuation proposals
 
-- 013000 — Submodular Optimization and Approximation Algorithms
 - 014000 — Monotone Operators, Splitting, and Primal-Dual Iterations
 - 015000 — Robust Optimization and Optimization under Uncertainty
 - 016000 — Homogeneous Self-Dual Embedding and Infeasibility Detection
+- 017000 — Nonmonotone Submodular Maximization and Matroid Constraints
 
-Do not equate small numerical gaps with exact proofs. These are proposals, not registered lectures.
+Do not extrapolate a greedy bound beyond its monotonicity/constraint assumptions or treat solver residuals as exact certificates. Proposals are not registered.

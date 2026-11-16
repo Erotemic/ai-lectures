@@ -140,6 +140,27 @@
       "url": "https://link.springer.com/book/10.1007/978-3-642-05221-7",
       "access": "publisher_or_institutional_access",
       "notes": "A-stability, L-stability and stiff differential equation algorithms."
+    },
+    "na-mit-ad": {
+      "title": "MIT OpenCourseWare 18.S096, Forward and Reverse-Mode Automatic Differentiation (2023)",
+      "kind": "university_course_notes",
+      "url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec08.pdf",
+      "access": "free_no_login",
+      "notes": "JVP/VJP algorithms, reverse-mode memory and derivative products."
+    },
+    "na-griewank-walther": {
+      "title": "Andreas Griewank and Andrea Walther, Evaluating Derivatives (2nd ed.)",
+      "kind": "scholarly_textbook",
+      "url": "https://epubs.siam.org/doi/book/10.1137/1.9780898717761",
+      "access": "publisher_or_institutional_access",
+      "notes": "Foundations of forward and reverse automatic differentiation."
+    },
+    "na-scipy-sparse": {
+      "title": "SciPy, Sparse Linear Algebra Documentation",
+      "kind": "official_software_documentation",
+      "url": "https://docs.scipy.org/doc/scipy/reference/sparse.linalg.html",
+      "access": "free_no_login",
+      "notes": "Adjoint linear solves and sparse numerical solvers."
     }
   }
 }

@@ -1,12 +1,12 @@
-# Abstract Algebra — after 32 completed lectures
+# Abstract Algebra — after 36 completed lectures
 
-The sequence now develops elementary groups, fields, Galois theory, representations, modules, Ext/Tor, number fields, commutative algebra, derived constructions, class groups, normalization, flat base change, projective modules and the first invariants of algebraic K-theory.
+This track now includes groups and Galois theory, modules and homological algebra, number fields and commutative algebra, class groups, projectives and K-theory, affine schemes and quasi-coherent sheaves, etale maps, and second group cohomology.
 
 ## Unindexed continuation proposals
 
-- 033000 — Spectrum of a Ring: Prime Ideals as Geometric Points
-- 034000 — Sheaves and Quasi-Coherent Modules in Affine Geometry
-- 035000 — Étale Maps, Unramified Extensions, and Local Algebra
-- 036000 — Group Cohomology, Extensions, and Obstruction Classes
+- 037000 — Divisors, Line Bundles, and the Picard Group of a Scheme
+- 038000 — Algebraic Curves, Genus, and Riemann–Roch
+- 039000 — Localization, Completion, and Local Intersection Multiplicity
+- 040000 — Derived Functors of Global Sections and Sheaf Cohomology
 
-Use calculations and state base-ring and finiteness hypotheses explicitly. These proposals are not registered lectures. Length is determined by substantive needs rather than duration policy.
+Develop definitions from local computations; distinguish schemes over fields from arithmetic bases and state Noetherian, separatedness, finiteness and cohomological hypotheses. Proposals are not registered.

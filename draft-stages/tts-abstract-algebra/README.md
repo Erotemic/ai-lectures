@@ -75,3 +75,12 @@ Spoken narration and non-spoken mathematical companions are separated by the rep
 - 032000 — [Projective Modules, Vector Bundles, and the First Idea of K-Theory](032000-projective-modules-and-k-theory.md)
 
 Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.
+
+## Completed continuation — geometry, combinatorics and computational sensitivity
+
+- 033000 — [Prime Spectra: Turning Rings into Geometric Spaces](033000-prime-spectra-and-affine-schemes.md)
+- 034000 — [Sheaves and Quasi-Coherent Modules: Algebra that Glues](034000-quasi-coherent-sheaves-and-affine-descent.md)
+- 035000 — [Etale Maps, Derivatives, and Unramified Geometry](035000-etale-maps-and-the-jacobian-criterion.md)
+- 036000 — [Group Cohomology: When a Group Extension Refuses to Split](036000-group-cohomology-and-extension-classes.md)
+
+Word counts and estimated minutes are descriptive metadata, not length requirements. Exact notation, proofs and references accompany the spoken manuscripts.

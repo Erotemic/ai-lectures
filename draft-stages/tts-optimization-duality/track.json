@@ -17,7 +17,8 @@
     "verifiable-optimality",
     "interior-point",
     "optimization-sensitivity",
-    "conic-duality-slater"
+    "conic-duality-slater",
+    "submodular-approximation"
   ],
   "lectures": [
     {
@@ -127,6 +128,15 @@
       "spoken_words": 1170,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.1
+    },
+    {
+      "id": "013000",
+      "title": "Submodular Optimization: Why Greedy Choices Can Be Provably Good",
+      "section": "submodular-approximation",
+      "file": "013000-submodular-optimization-and-greedy-guarantees.md",
+      "spoken_words": 1210,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.3
     }
   ]
 }

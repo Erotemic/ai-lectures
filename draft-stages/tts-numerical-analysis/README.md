@@ -60,3 +60,9 @@ Spoken narration and non-spoken mathematical companions are separated by the rep
 - 015000 — [Implicit Time Stepping, Newton–Krylov Solvers, and Preconditioning](015000-implicit-stepping-newton-krylov-preconditioning.md)
 
 Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.
+
+## Completed continuation — geometry, combinatorics and computational sensitivity
+
+- 016000 — [Automatic Differentiation and Adjoint Sensitivity](016000-automatic-differentiation-adjoints-and-sensitivity.md)
+
+Word counts and estimated minutes are descriptive metadata, not length requirements. Exact notation, proofs and references accompany the spoken manuscripts.

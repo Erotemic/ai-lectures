@@ -40,7 +40,11 @@
     "number-field-class-groups",
     "normalization-singular-curves",
     "flat-basechange-tor-ss",
-    "projectives-k-theory"
+    "projectives-k-theory",
+    "prime-spectra-affine-schemes",
+    "quasi-coherent-affine-gluing",
+    "etale-maps-jacobian",
+    "group-cohomology-extensions"
   ],
   "lectures": [
     {
@@ -330,6 +334,42 @@
       "spoken_words": 1055,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.3
+    },
+    {
+      "id": "033000",
+      "title": "Prime Spectra: Turning Rings into Geometric Spaces",
+      "section": "prime-spectra-affine-schemes",
+      "file": "033000-prime-spectra-and-affine-schemes.md",
+      "spoken_words": 1093,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "034000",
+      "title": "Sheaves and Quasi-Coherent Modules: Algebra that Glues",
+      "section": "quasi-coherent-affine-gluing",
+      "file": "034000-quasi-coherent-sheaves-and-affine-descent.md",
+      "spoken_words": 1074,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.4
+    },
+    {
+      "id": "035000",
+      "title": "Etale Maps, Derivatives, and Unramified Geometry",
+      "section": "etale-maps-jacobian",
+      "file": "035000-etale-maps-and-the-jacobian-criterion.md",
+      "spoken_words": 993,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.8
+    },
+    {
+      "id": "036000",
+      "title": "Group Cohomology: When a Group Extension Refuses to Split",
+      "section": "group-cohomology-extensions",
+      "file": "036000-group-cohomology-and-extension-classes.md",
+      "spoken_words": 1033,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.1
     }
   ]
 }

@@ -59,3 +59,10 @@ Spoken narration and non-spoken mathematical companions are separated by the rep
 - 016000 — [Poincaré Duality: Why a Manifold's Dimensions Pair Up](016000-poincare-duality-and-intersection-pairings.md)
 
 Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.
+
+## Completed continuation — geometry, combinatorics and computational sensitivity
+
+- 017000 — [Gauss–Bonnet: Curvature Counts Topology](017000-gauss-bonnet-curvature-and-euler-characteristic.md)
+- 018000 — [Characteristic Classes: Detecting the Twist in a Bundle](018000-characteristic-classes-and-bundle-obstructions.md)
+
+Word counts and estimated minutes are descriptive metadata, not length requirements. Exact notation, proofs and references accompany the spoken manuscripts.

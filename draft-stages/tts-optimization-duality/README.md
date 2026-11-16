@@ -62,3 +62,9 @@ Spoken narration and non-spoken mathematical companions are separated by the rep
 - 012000 — [Conic Duality: One Language for Linear, Quadratic, and Matrix Inequalities](012000-conic-duality-and-strict-feasibility.md)
 
 Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.
+
+## Completed continuation — geometry, combinatorics and computational sensitivity
+
+- 013000 — [Submodular Optimization: Why Greedy Choices Can Be Provably Good](013000-submodular-optimization-and-greedy-guarantees.md)
+
+Word counts and estimated minutes are descriptive metadata, not length requirements. Exact notation, proofs and references accompany the spoken manuscripts.

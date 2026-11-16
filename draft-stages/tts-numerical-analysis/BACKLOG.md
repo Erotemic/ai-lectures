@@ -1,12 +1,12 @@
-# Numerical Analysis and Reliable Computation — after 15 completed lectures
+# Numerical Analysis and Reliable Computation — after 16 completed lectures
 
-The course now includes floating point and conditioning, robust linear algebra, root solving, quadrature, interpolation, time integration and stiffness, interval certificates, Krylov eigensolvers, and Newton-Krylov approaches to implicit time steps.
+Coverage includes conditioning and backward error, linear algebra, interpolation, quadrature, verified enclosures, Krylov eigensolvers, implicit ODE stepping, Newton–Krylov and automatic/adjoint differentiation.
 
 ## Unindexed continuation proposals
 
-- 016000 — Automatic Differentiation, Adjoint Methods, and Sensitivities
 - 017000 — Validated Integration of Differential Equations
 - 018000 — A Posteriori PDE Discretization Error Bounds
 - 019000 — Matrix-Free Preconditioners and Multigrid
+- 020000 — Sensitivity of Nonsmooth and Piecewise Numerical Algorithms
 
-Distinguish stability, accuracy, step residual, time-discretization error and continuum-model error. Proposals are not registered lectures.
+Distinguish an algorithm's derivative from a continuum sensitivity, and conditioning from numerical instability. Proposals are not registered.

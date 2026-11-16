@@ -105,6 +105,27 @@
       "url": "https://web.stanford.edu/~boyd/papers/pdf/scs.pdf",
       "access": "free_no_login",
       "notes": "Conic primal-dual conventions, feasibility and numerical certificates."
+    },
+    "od-nwf1978": {
+      "title": "Nemhauser, Wolsey, Fisher, An Analysis of Approximations for Maximizing Submodular Set Functions I (1978)",
+      "kind": "scholarly_primary",
+      "url": "https://research.dial.uclouvain.be/entities/publication/a725e7a1-a49a-403e-8774-d62d8b8e000a",
+      "access": "free_no_login",
+      "notes": "Monotone submodular maximization and approximation guarantees."
+    },
+    "od-nw1978": {
+      "title": "Nemhauser and Wolsey, Best Algorithms for Approximating the Maximum of a Submodular Set Function (1978)",
+      "kind": "scholarly_primary",
+      "url": "https://pubsonline.informs.org/doi/10.1287/moor.3.3.177",
+      "access": "free_no_login",
+      "notes": "Oracle complexity and greedy bounds for cardinality constraints."
+    },
+    "od-bach-submodular": {
+      "title": "Francis Bach, Learning with Submodular Functions: A Convex Optimization Perspective",
+      "kind": "scholarly_survey",
+      "url": "https://arxiv.org/abs/1111.6453",
+      "access": "free_no_login",
+      "notes": "Lovasz extension, convexity and submodular optimization."
     }
   }
 }

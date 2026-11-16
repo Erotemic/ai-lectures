@@ -59,3 +59,10 @@ Spoken narration and non-spoken mathematical companions are separated by the rep
 - 016000 — [Random Graph Thresholds, Second Moments, and Concentration](016000-random-graph-thresholds-and-concentration.md)
 
 Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.
+
+## Completed continuation — geometry, combinatorics and computational sensitivity
+
+- 017000 — [Graph Minors and Treewidth: Solving Hard Problems by Separators](017000-graph-minors-and-treewidth.md)
+- 018000 — [Entropy as a Counting Tool: Shearer's Inequality](018000-entropy-method-and-shearers-inequality.md)
+
+Word counts and estimated minutes are descriptive metadata, not length requirements. Exact notation, proofs and references accompany the spoken manuscripts.

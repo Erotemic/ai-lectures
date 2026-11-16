@@ -1,12 +1,12 @@
-# Discrete Mathematics and Combinatorics — after 16 completed lectures
+# Discrete Mathematics and Combinatorics — after 18 completed lectures
 
-The course now reaches exact counting, generating functions, matchings, network cuts, enumeration under symmetry, matroids, Turán bounds, the probabilistic method, graph coloring, submodularity, Ramsey theory, spectral graph expansion, and random-graph thresholds.
+Combinatorics now runs from exact counting, generating functions and matroids through flows, extremal graph theory, probabilistic methods, spectral graph theory, random graphs, tree decompositions, graph minors, and entropy counting.
 
 ## Unindexed continuation proposals
 
-- 017000 — Graph Minors, Treewidth, and Structural Decomposition
-- 018000 — Entropy and Information Inequalities in Combinatorics
 - 019000 — Network Reliability and Random Connectivity
 - 020000 — Block Designs, Finite Geometries, and Coding Connections
+- 021000 — Parameterized Algorithms Beyond Treewidth
+- 022000 — Concentration Inequalities and Martingale Methods
 
-Separate asymptotic thresholds, exact finite-graph statements and algorithmic guarantees. Proposals are not registered lectures.
+Separate structural existence from algorithmic constructivity and exact counting from bounds. Proposals are not registered.

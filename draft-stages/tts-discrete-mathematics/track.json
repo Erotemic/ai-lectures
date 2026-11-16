@@ -24,7 +24,9 @@
     "submodularity-matroid-intersection",
     "ramsey-theory",
     "spectral-graph-expansion",
-    "random-graph-thresholds"
+    "random-graph-thresholds",
+    "graph-minors-treewidth",
+    "entropy-shearer-counting"
   ],
   "lectures": [
     {
@@ -170,6 +172,24 @@
       "spoken_words": 1210,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.3
+    },
+    {
+      "id": "017000",
+      "title": "Graph Minors and Treewidth: Solving Hard Problems by Separators",
+      "section": "graph-minors-treewidth",
+      "file": "017000-graph-minors-and-treewidth.md",
+      "spoken_words": 1175,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.1
+    },
+    {
+      "id": "018000",
+      "title": "Entropy as a Counting Tool: Shearer's Inequality",
+      "section": "entropy-shearer-counting",
+      "file": "018000-entropy-method-and-shearers-inequality.md",
+      "spoken_words": 1130,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.8
     }
   ]
 }

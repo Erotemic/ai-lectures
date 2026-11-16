@@ -20,7 +20,8 @@
     "adaptive-quadrature",
     "interval-verification",
     "sparse-eigen-krylov",
-    "implicit-stepping-newton-krylov"
+    "implicit-stepping-newton-krylov",
+    "automatic-differentiation-adjoints"
   ],
   "lectures": [
     {
@@ -157,6 +158,15 @@
       "spoken_words": 1248,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.6
+    },
+    {
+      "id": "016000",
+      "title": "Automatic Differentiation and Adjoint Sensitivity",
+      "section": "automatic-differentiation-adjoints",
+      "file": "016000-automatic-differentiation-adjoints-and-sensitivity.md",
+      "spoken_words": 1262,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.7
     }
   ]
 }

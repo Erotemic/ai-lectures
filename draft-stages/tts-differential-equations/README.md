@@ -59,3 +59,10 @@ Spoken narration and non-spoken mathematical companions are separated by the rep
 - 016000 — [Stable, Unstable, and Center Manifolds: The Geometry Near Equilibria](016000-stable-unstable-center-manifolds.md)
 
 Narration word counts are descriptive. Exact equations, exercises and references are kept in the non-spoken companions.
+
+## Completed continuation — geometry, combinatorics and computational sensitivity
+
+- 017000 — [Traveling Waves and Front Propagation](017000-traveling-waves-and-front-propagation.md)
+- 018000 — [Conservation Laws, Shocks, and Entropy Solutions](018000-conservation-laws-shocks-and-entropy-solutions.md)
+
+Word counts and estimated minutes are descriptive metadata, not length requirements. Exact notation, proofs and references accompany the spoken manuscripts.

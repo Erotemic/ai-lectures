@@ -24,7 +24,9 @@
     "bundles-connections-curvature",
     "riemannian-metrics",
     "mayer-vietoris-excision",
-    "poincare-duality"
+    "poincare-duality",
+    "gauss-bonnet-euler",
+    "characteristic-classes"
   ],
   "lectures": [
     {
@@ -170,6 +172,24 @@
       "spoken_words": 1027,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.1
+    },
+    {
+      "id": "017000",
+      "title": "Gauss–Bonnet: Curvature Counts Topology",
+      "section": "gauss-bonnet-euler",
+      "file": "017000-gauss-bonnet-curvature-and-euler-characteristic.md",
+      "spoken_words": 1125,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.8
+    },
+    {
+      "id": "018000",
+      "title": "Characteristic Classes: Detecting the Twist in a Bundle",
+      "section": "characteristic-classes",
+      "file": "018000-characteristic-classes-and-bundle-obstructions.md",
+      "spoken_words": 1191,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.2
     }
   ]
 }
