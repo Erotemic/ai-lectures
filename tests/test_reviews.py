@@ -78,6 +78,8 @@ def make_repo(tmp_path: Path) -> Path:
                                                                encoding="utf-8")
     (root / "reviews" / "contract" / "prompt-v2.md").write_text(
         "You are the finder (v2, further-reading aware).\n", encoding="utf-8")
+    (root / "reviews" / "contract" / "prompt-v2w.md").write_text(
+        "You are the finder (v2w, wiki bulk).\n", encoding="utf-8")
     (root / "reviews" / "contract" / "prompt-v3.md").write_text(
         "You are the finder (v3).\n", encoding="utf-8")
 
@@ -472,3 +474,87 @@ def test_report_writes_for_run(tmp_path):
     text = (run.dir / "report.md").read_text(encoding="utf-8")
     assert "findings:1" in text or "open (1)" in text
     assert "unverified_claim" in text and "3500 BCE" in text
+
+
+def test_version_num():
+    assert rr.version_num("v1") == 1
+    assert rr.version_num("v2") == 2
+    assert rr.version_num("v2w") == 2
+    assert rr.version_num("v2.1") == 2
+    assert rr.version_num("v3") == 3
+    assert rr.version_num(None) == 0
+    assert rr.version_num("") == 0
+
+
+def script_wiki():
+    return {"_markers": {"0A": "The city of Anu-ur", "0B": "calm story"},
+            "0A": [],
+            "0B": [{"category": "missing_wiki_link",
+                    "anchor": "A calm story about rivers.",
+                    "claim": "The lecture is centrally about rivers.",
+                    "detail": "Further reading has only a scholarly essay; no "
+                              "Wikipedia entry point; 'Rivers' would serve.",
+                    "confidence": "high", "source_ids": [],
+                    "wiki_articles": ["Rivers"]}]}
+
+
+def test_wiki_bulk_pass(tmp_path):
+    root = make_repo(tmp_path)
+    store = rr.Store(root)
+
+    # First bulk pass bills both units: 0A is already wiki-complete (clean),
+    # 0B gets a finding with the structured article field.
+    fake = FakeReviewer(script_wiki())
+    run_cli(root, "run", "--track", "fixpack", "--prompt-variant", "wiki",
+            "--fresh", fake=fake)
+    assert fake.calls == {"0A": 1, "0B": 1}
+
+    rows = store.load_findings("fixpack")
+    assert len(rows) == 1
+    r0 = rows[0]
+    assert r0["lecture_id"] == "0B"
+    assert r0["category"] == "missing_wiki_link"
+    assert r0["wiki_articles"] == ["Rivers"]
+    assert r0["status"] == "open"
+
+    covs = {c["lecture_id"]: c for c in store.load_coverage("fixpack")}
+    assert covs["0A"]["contract"] == "v2w" and covs["0A"]["outcome"] == "wiki:clean"
+    assert covs["0B"]["contract"] == "v2w" and covs["0B"]["outcome"] == "wiki:1"
+
+    # Second bulk pass: nothing to bill (live finding; clean-at-revision).
+    fake2 = FakeReviewer(script_wiki())
+    run_cli(root, "run", "--track", "fixpack", "--prompt-variant", "wiki",
+            "--fresh", fake=fake2)
+    assert fake2.calls == {}
+
+    # Batch adjudication via decisions file, no --unit.
+    run_id = sorted(p.name for p in store.runs_dir.iterdir())[-1]
+    dfile = tmp_path / "d1.json"
+    dfile.write_text(json.dumps({r0["finding_id"]: {"decision": "confirmed",
+                                                    "note": "no wiki link in companion"}}))
+    run_cli(root, "adjudicate", "--track", "fixpack", "--run", run_id,
+            "--decisions-file", str(dfile))
+    rows = store.load_findings("fixpack")
+    assert rows[0]["status"] == "confirmed"
+
+    dfile2 = tmp_path / "d2.json"
+    dfile2.write_text(json.dumps({rows[0]["finding_id"]: {"decision": "resolved",
+                                                         "note": "wiki link added"}}))
+    run_cli(root, "adjudicate", "--track", "fixpack", "--run", run_id,
+            "--decisions-file", str(dfile2))
+    rows = store.load_findings("fixpack")
+    assert rows[0]["status"] == "resolved"
+    covs = {c["lecture_id"]: c for c in store.load_coverage("fixpack")}
+    assert covs["0B"]["open"] == 0 and covs["0B"]["adjudicated_at"]
+
+    # Resolved at the same revision: the bulk pass still skips it (no loop).
+    fake3 = FakeReviewer(script_wiki())
+    run_cli(root, "run", "--track", "fixpack", "--prompt-variant", "wiki",
+            "--fresh", fake=fake3)
+    assert fake3.calls == {}
+
+    # A full-contract plan must not treat wiki-only (v2w) units as current.
+    track = rr.Track(root, root / "content" / "fixpack")
+    st = rr.unit_status(store, track, "0B", "v2")
+    assert st["needed"] == "contract_kind"
+    assert rr.needs_work(st)

@@ -48,6 +48,9 @@ slides-*/
 /.content-update/
 /.content-state/
 
+# Bulk review pass console logs (transient; registry/run state is committed)
+/reviews/bulk-logs/
+
 # >>> llm_resource_tally local state (managed) >>>
 /.llm_resource_tally/local/
 # <<< llm_resource_tally local state (managed) <<<

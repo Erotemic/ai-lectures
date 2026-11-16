@@ -398,22 +398,54 @@ def parse_findings(doc: dict) -> list[dict]:
             continue
         conf = f.get("confidence")
         sids = f.get("source_ids")
-        out.append({
+        rec = {
             "category": cat,
             "anchor_as_quoted": anchor.strip(),
             "claim": f["claim"].strip(),
             "detail": f["detail"].strip(),
             "confidence": conf if conf in ("high", "low") else "low",
             "source_ids": [s for s in sids if isinstance(s, str)] if isinstance(sids, list) else [],
-        })
+        }
+        if isinstance(f.get("wiki_articles"), list):
+            rec["wiki_articles"] = [str(s)[:120] for s in f["wiki_articles"]][:3]
+        out.append(rec)
     return out[:12]
 
 
-def build_payload(track: Track, lecture: dict, spoken: str, companion: str = "") -> str:
+def build_payload(track: Track, lecture: dict, spoken: str, companion: str = "",
+                  lean: bool = False) -> str:
+    """lean: bulk wiki pass — narration + companion + sidecar only; the source
+    registry and policy are irrelevant to the missing_wiki_link check."""
     lec_id = lecture["id"]
     sidecar = track.sidecar(lec_id) or {}
-    policy = track.track_json.get("editorial_policy") or "(none)"
+    parts = [
+        f"TRACK: {track.track_json.get('title', track.name)}",
+        "LECTURE: " + str(lecture.get("title", lec_id)),
+        "",
+        "SPOKEN NARRATION (the only text you may quote verbatim in anchors):",
+        "<<<NARRATION",
+        spoken.strip(),
+        "NARRATION>>>",
+    ]
+    if lean:
+        parts += [
+            "",
+            "LECTURE METADATA (sidecar; context only, never quote from it):",
+            json.dumps(sidecar, ensure_ascii=False, indent=1) if sidecar else "(none)",
+        ]
+        if companion:
+            parts += [
+                "",
+                "FURTHER READING / NON-SPKEN COMPANION (context only; shows which "
+                "entry points the lecture already offers, including any Wikipedia "
+                "links; never quote from it):",
+                "<<<COMPANION",
+                companion,
+                "COMPANION>>>",
+            ]
+        return "\n".join(parts)
 
+    policy = track.track_json.get("editorial_policy") or "(none)"
     parts = [
         f"TRACK: {track.track_json.get('title', track.name)}",
         "TRACK EDITORIAL POLICY (context only):",
@@ -489,6 +521,8 @@ def upsert_findings(store: Store, track: Track, lecture_id: str, run_id: str,
         else:
             st = existing.get("status")
             existing["last_seen"] = {"run": run_id, "revision": revision, "at": at}
+            if "wiki_articles" not in existing and "wiki_articles" in f:
+                existing["wiki_articles"] = f["wiki_articles"]
             if st == "resolved" and revision != (existing.get("resolution") or {}).get("revision"):
                 existing["status"] = "open"
                 existing["history"].append({"status": "open", "run": run_id, "at": at,
@@ -530,7 +564,7 @@ def unit_is_adjudicated(store: Store, track_name: str, lecture_id: str) -> bool:
 def version_num(contract: str | None) -> int:
     if not contract:
         return 0
-    m = re.search(r"(\d+)$", str(contract))
+    m = re.search(r"(\d+)", str(contract))
     return int(m.group(1)) if m else 0
 
 
@@ -549,13 +583,37 @@ def unit_status(store: Store, track: Track, lecture_id: str,
         needed = "current"
     recheck = bool(current_contract) and version_num(cov.get("contract")) > 0 and \
         version_num(cov.get("contract")) < version_num(current_contract)
+    # A wiki-bulk-only pass (contract ending in 'w') has not reviewed the other
+    # categories: a full-contract run must not treat it as current.
+    if needed == "current" and current_contract and cov.get("contract") and \
+            str(cov["contract"]).endswith("w") != str(current_contract).endswith("w"):
+        needed = "contract_kind"
     return {"id": lecture_id, "revision": rev, "last_run": cov.get("run"),
             "outcome": cov.get("outcome"), "active": active, "needed": needed,
             "contract": cov.get("contract"), "recheck": recheck}
 
 
 def needs_work(u: dict) -> bool:
-    return u["needed"] in ("never_reviewed", "stale", "has_active")
+    return u["needed"] in ("never_reviewed", "stale", "has_active", "contract_kind")
+
+
+def unit_wiki_needed(store: Store, track: Track, lecture_id: str) -> bool:
+    """Bulk wiki pre-pass: skip units whose wiki question is already answered
+    at the current revision — a live or rejected finding, a resolved finding
+    last seen here, or a wiki:clean coverage row at this revision."""
+    rev = unit_revision(track, lecture_id)
+    for r in store.load_findings(track.name):
+        if r["lecture_id"] != lecture_id or r["category"] != "missing_wiki_link":
+            continue
+        if r["status"] in ("open", "confirmed", "rejected"):
+            return False
+        if r["status"] == "resolved" and (r.get("last_seen") or {}).get("revision") == rev:
+            return False
+    cov = store.coverage_row(track.name, lecture_id)
+    if cov and str(cov.get("contract", "")).endswith("w") and \
+            cov.get("revision") == rev and cov.get("outcome") == "wiki:clean":
+        return False
+    return True
 
 
 # ---------------------------------------------------------------- commands
@@ -595,7 +653,7 @@ def contract_text(root: Path, version: str) -> str:
 
 
 def process_unit(track: Track, store: Store, run: Run, lecture: dict, model: str,
-                 base: str, key: str, contract: str) -> dict:
+                 base: str, key: str, contract: str, wiki: bool = False) -> dict:
     lec_id = lecture["id"]
     revision = unit_revision(track, lec_id)
     stage = run.stage_of(lec_id)
@@ -612,13 +670,23 @@ def process_unit(track: Track, store: Store, run: Run, lecture: dict, model: str
 
     raw = None
     if stage in (None, "review_failed"):
-        doc = call_reviewer(base, key, model,
-                            contract_text(root_of(run), contract),
-                            build_payload(track, lecture, spoken, companion))
+        try:
+            doc = call_reviewer(base, key, model,
+                                contract_text(root_of(run), contract),
+                                build_payload(track, lecture, spoken, companion, lean=wiki))
+        except ReviewerOutputError as e:
+            _write_json(run.raw_path(lec_id), {"model": model, "at": now_iso(),
+                                               "error": str(e)[:500], "response": None,
+                                               "reasoning": None, "usage": None})
+            run.set_stage(lec_id, "review_failed", revision, meta={"error": str(e)[:500]})
+            return {"id": lec_id, "stage": "review_failed", "findings": 0, "dropped": 0,
+                    "active": unit_active(store, track.name, lec_id),
+                    "revision": revision, "error": str(e)[:200]}
         choice = doc["choices"][0]
         msg = choice["message"]
         raw = {"model": model, "at": now_iso(),
-               "request_chars": len(build_payload(track, lecture, spoken)),
+               "request_chars": len(build_payload(track, lecture, spoken, companion,
+                                                  lean=wiki)),
                "usage": doc.get("usage"),
                "finish_reason": choice.get("finish_reason"),
                "response": msg.get("content"),
@@ -644,9 +712,12 @@ def process_unit(track: Track, store: Store, run: Run, lecture: dict, model: str
     accepted = len(findings) - dropped
 
     active = unit_active(store, track.name, lec_id)
+    outcome = "clean" if not accepted else f"findings:{accepted}"
+    if wiki:
+        outcome = "wiki:clean" if not accepted else f"wiki:{accepted}"
     cov = {"track": track.name, "lecture_id": lec_id, "revision": revision, "run": run.id,
            "reviewed_at": now_iso(), "contract": contract,
-           "outcome": "clean" if not accepted else f"findings:{accepted}",
+           "outcome": outcome,
            "open": active}
     if unit_is_adjudicated(store, track.name, lec_id):
         cov["adjudicated_at"] = now_iso()
@@ -669,6 +740,8 @@ def cmd_run(args) -> None:
     track = Track(root, resolve_track(root, args.track))
     store = Store(root)
     base, key = resolve_litellm()
+    wiki = args.prompt_variant == "wiki"
+    contract = args.contract_version + ("w" if wiki else "")
 
     if args.fresh or not args.resume:
         run = Run(store, new_run_id(store, track.name))
@@ -685,6 +758,12 @@ def cmd_run(args) -> None:
         if missing:
             sys.exit(f"error: unknown lecture id(s): {', '.join(missing)}")
         order = args.unit
+    elif wiki:
+        # Bulk pre-pass: only units that still need a wiki check; already
+        # flagged / rejected / cleared units are not re-billed.
+        order = [u for u in statuses if unit_wiki_needed(store, track, u)]
+        if args.limit:
+            order = order[:args.limit]
     else:
         order = [u for u, s in statuses.items()
                  if needs_work(s) or (args.recheck_contract and s.get("recheck"))]
@@ -699,19 +778,27 @@ def cmd_run(args) -> None:
             lec = track.unit(lec_id)
             raw_text = track.manuscript_path(lec).read_text(encoding="utf-8")
             payload = build_payload(track, lec, extract_spoken(raw_text),
-                                    extract_companion(raw_text))
+                                    extract_companion(raw_text), lean=wiki)
             print(f"[dry-run] {lec_id} would call {args.model} ({len(payload)} chars payload)")
         return
 
     if not run.exists():
-        run.create(track, order, f"prompt-{args.contract_version}", args.model)
-        print(f"started run {run.id} ({len(order)} units, reviewer {args.model})")
+        run.create(track, order, f"prompt-{contract}", args.model)
+        print(f"started run {run.id} ({len(order)} units, reviewer {args.model}, "
+              f"contract prompt-{contract})")
 
     done = 0
     for lec_id in order:
         lecture = track.unit(lec_id)
-        result = process_unit(track, store, run, lecture, args.model, base, key,
-                              args.contract_version)
+        try:
+            result = process_unit(track, store, run, lecture, args.model, base, key,
+                                  contract, wiki=wiki)
+        except Exception as e:
+            run.set_stage(lec_id, "failed", unit_revision(track, lec_id),
+                          meta={"error": f"{type(e).__name__}: {str(e)[:200]}"})
+            print(f"FAILED {lec_id}: {type(e).__name__}: {str(e)[:160]} "
+                  f"(recorded in progress; retry on --resume)", file=sys.stderr)
+            continue
         note = f"{result['findings']} findings ({result['dropped']} dropped), {result['active']} active"
         print(f"reviewed {lec_id} [{result['stage']}]: {note}; "
               f"commit when ready (small batches keep attribution clean)")
@@ -731,17 +818,29 @@ def cmd_adjudicate(args) -> None:
 
     as_ = args.as_id or os.environ.get("PI_SESSION_ID") or "human"
     rows = store.load_findings(track.name)
-    targets = unit_finding_rows(store, track.name, args.unit)
-    if not targets:
-        sys.exit(f"error: no findings on record for {args.unit}")
+    targets = unit_finding_rows(store, track.name, args.unit) if args.unit else rows
+    if not targets and not args.decisions_file:
+        sys.exit(f"error: no findings on record{f' for {args.unit}' if args.unit else ''}")
 
     decisions = {}
     if args.finding and args.decision:
         for fid, d in zip(args.finding, args.decision):
             decisions[fid] = {"decision": d, "note": args.note or ""}
+    if args.decisions_file:
+        valid = {"confirmed", "rejected", "deferred", "resolved"}
+        data = json.loads(Path(args.decisions_file).read_text(encoding="utf-8"))
+        for fid, item in data.items():
+            if not isinstance(item, dict) or item.get("decision") not in valid:
+                sys.exit(f"error: bad decision {item.get('decision')!r} for {fid} "
+                         f"in {args.decisions_file}")
+            decisions[fid] = {"decision": item["decision"],
+                              "note": str(item.get("note", ""))}
+        print(f"loaded {len(data)} decision(s) from {args.decisions_file}")
 
-    spoken = extract_spoken(track.manuscript_path(track.unit(args.unit)).read_text(encoding="utf-8"))
-    if args.interactive or not decisions:
+    spoken = ""
+    if args.unit:
+        spoken = extract_spoken(track.manuscript_path(track.unit(args.unit)).read_text(encoding="utf-8"))
+    if (args.interactive or not decisions) and targets:
         for r in targets:
             if r.get("status") not in ("open", "confirmed", "deferred") or (
                     decisions and r["finding_id"] in decisions):
@@ -788,17 +887,30 @@ def cmd_adjudicate(args) -> None:
                                     "model_actual": args.model_actual or ""})
         _write_json(run.dir / "run.yaml", meta)
 
-    active = unit_active(store, track.name, args.unit)
-    cov = store.coverage_row(track.name, args.unit) or {}
-    cov.update({"open": active})
-    if unit_is_adjudicated(store, track.name, args.unit):
-        cov["adjudicated_at"] = now
-        stage = "adjudicated"
+    if args.unit:
+        active = unit_active(store, track.name, args.unit)
+        cov = store.coverage_row(track.name, args.unit) or {}
+        cov.update({"open": active})
+        if unit_is_adjudicated(store, track.name, args.unit):
+            cov["adjudicated_at"] = now
+            stage = "adjudicated"
+        else:
+            stage = "verified"
+        store.put_coverage(track.name, {**cov, "lecture_id": args.unit})
+        run.set_stage(args.unit, stage, cov.get("revision", ""))
+        print(f"{len(decisions)} decision(s) recorded for {args.unit}; "
+              f"{active} still active; unit={stage}")
     else:
-        stage = "verified"
-    store.put_coverage(track.name, {**cov, "lecture_id": args.unit})
-    run.set_stage(args.unit, stage, cov.get("revision", ""))
-    print(f"{len(decisions)} decision(s) recorded for {args.unit}; {active} still active; unit={stage}")
+        affected = sorted({r["lecture_id"] for fid in decisions
+                           for r in rows if r["finding_id"] == fid})
+        for lec in affected:
+            active = unit_active(store, track.name, lec)
+            cov = store.coverage_row(track.name, lec) or {}
+            cov.update({"open": active})
+            if unit_is_adjudicated(store, track.name, lec):
+                cov["adjudicated_at"] = now
+            store.put_coverage(track.name, {**cov, "lecture_id": lec})
+        print(f"{len(decisions)} decision(s) recorded across {len(affected)} lecture(s)")
 
 
 def cmd_report(args) -> None:
@@ -966,6 +1078,9 @@ def main() -> None:
     p.add_argument("--resume", default=None, help="run id to continue")
     p.add_argument("--fresh", action="store_true", help="force a new run id")
     p.add_argument("--contract-version", default=DEFAULT_CONTRACT_VERSION)
+    p.add_argument("--prompt-variant", choices=("full", "wiki"), default="full",
+                   help="wiki: bulk missing_wiki_link-only pre-pass (lean payload, "
+                        "no full-contract coverage claim)")
     p.add_argument("--recheck-contract", action="store_true",
                   help="also include units last reviewed under an older contract version")
     p.add_argument("--one", action="store_true", help="process one unit and exit")
@@ -974,12 +1089,13 @@ def main() -> None:
     p = sub.add_parser("adjudicate")
     p.add_argument("--track", required=True)
     p.add_argument("--run", required=True)
-    p.add_argument("--unit", required=True)
+    p.add_argument("--unit", default=None, help="lecture id (omit for decisions-file batches)")
     p.add_argument("--finding", action="append", help="finding id (repeatable)")
     p.add_argument("--decision", action="append", help="confirmed|rejected|deferred|resolved (repeatable, in --finding order)")
     p.add_argument("--note", default=None)
     p.add_argument("--interactive", action="store_true")
     p.add_argument("--as", dest="as_id", default=None, help="adjudicator identity (default: PI_SESSION_ID or 'human')")
+    p.add_argument("--decisions-file", default=None, help="JSON file: {finding_id: {decision, note}}")
     p.add_argument("--model", default=None, help="adjudicator model, recorded in run.yaml (per the attribution rule)")
     p.add_argument("--model-actual", default=None, help="free-text note if the model alias understates the deployment")
 

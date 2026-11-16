@@ -84,6 +84,11 @@ Wikipedia article exists.
   and note which further-reading items already exist for that subject.
 - If the further-reading section (or a registered source) already contains a
   Wikipedia link for that subject, do not flag it.
+- The **bulk wiki pre-pass** (contract variant `v2w`, prompt
+  `prompt-v2w.md`) checks only this category with a lean payload and records
+  an extra structured field `wiki_articles` — the exact English-Wikipedia
+  article title(s) the finder proposes, for mechanical existence checking by
+  `tools/verify_wiki_candidates.py` on a machine with network access.
 
 ## Never flag
 

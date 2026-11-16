@@ -128,6 +128,54 @@ adjudicated`:
   the still-`open` findings. The unit stage is *derived* from finding
   statuses, so there is one source of truth.
 
+## Bulk wiki pre-pass
+
+`missing_wiki_link` findings are advisory and batch-friendly, so the track can
+be swept for them with a dedicated cheap pass that runs **detached** (hours,
+survives compaction and session death):
+
+```
+nohup python3 tools/run_reviews.py run --track tts-world-history \
+    --prompt-variant wiki --fresh > reviews/bulk-logs/wiki-v2w-$(date +%s).log 2>&1 &
+```
+
+The `wiki` variant (contract `v2w`, prompt `prompt-v2w.md`) checks only that
+category with a lean payload (narration + companion + sidecar, no source
+registry). Differences from a full run:
+
+- **Order rule:** a unit is billed only if it has no live/rejected
+  `missing_wiki_link` finding and no `wiki:clean` coverage row at the current
+  revision — already-cleared units are never re-billed.
+- **Coverage:** rows record `contract: v2w` and `outcome: wiki:0|1|2|3`.
+  A v2w row does *not* count as a full-contract review: `plan` reports such
+  units as `contract_kind` when a full contract is requested, and a full run
+  still bills them normally.
+- **Structured field:** findings carry `wiki_articles` (proposed exact
+  article titles) so existence can be checked without a capable model.
+
+After the pass completes (and after the fix for `001000` if done separately),
+the pipeline is:
+
+1. **Verify (needs network — user side):** `python3 tools/verify_wiki_candidates.py --track …`
+   → `reviews/registry/wiki-verified-<track>.jsonl` (per title: exists /
+   canonical / redirected).
+2. **Adjudicate (this tier, batch):** read the findings plus the verification
+   table, decide in batches, apply with
+   `adjudicate --track … --run … --decisions-file decisions.json` (JSON:
+   `{finding_id: {decision, note}}`; `--unit` omitted for cross-lecture
+   batches). Titles that do not exist are rejected or re-proposed; existing
+   titles are confirmed or rejected on relevance (is the subject truly
+   central?). A handful of borderline cases are escalated to the user rather
+   than guessed.
+3. **Fix (content pass):** add the confirmed links to the companion further-
+   reading sections (verify URLs in an environment with network), then
+   `adjudicate … --decision resolved` per finding; the revision bump plus
+   stale sweep closes the loop.
+
+Console logs under `reviews/bulk-logs/` are gitignored; the run directory,
+registry, and coverage stay committed. Per-unit failures (proxy outage, bad
+output) are recorded in `progress.json` and re-billed by `--resume`.
+
 ## Attribution
 
 `run.yaml` records, for the reviewer and the adjudicator separately: the
@@ -143,7 +191,8 @@ resource tally under their session ids.
 python3 tools/run_reviews.py plan     --track tts-world-history [--format table|json]
 python3 tools/run_reviews.py run      --track … [--unit ID …] [--limit N]
                                       [--model M] [--resume RUN | --fresh]
-                                      [--contract-version vN] [--recheck-contract] [--dry-run]
+                                      [--contract-version vN] [--recheck-contract]
+                                      [--prompt-variant full|wiki] [--dry-run]
 python3 tools/run_reviews.py adjudicate --run R --unit ID
                                       [--finding FID --decision … --note …]
                                       [--interactive] [--as …]
