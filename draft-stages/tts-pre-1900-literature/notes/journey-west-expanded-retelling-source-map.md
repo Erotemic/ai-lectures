@@ -31,6 +31,16 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 | 463000 | 12 | The Princess’s Borrowed Body and the Debt of Silver | 828 |
 | 464000 | 12 | Xuanzang and the Great Water-and-Land Ceremony | 1124 |
 | 465000 | 12 | Guanyin Revealed and Xuanzang’s Oath | 1058 |
+| 466000 | 13 | The Farewell, the Temple, and the Tiger's Den | 998 |
+| 467000 | 13 | The Gold Star and the Hunter of the Mountain | 978 |
+| 468000 | 13 | The Hunter's Household and the Boundary Mountain | 874 |
+| 469000 | 14 | Freeing the Stone Prisoner | 985 |
+| 470000 | 14 | The Old Man, the Tiger Skin, and the Six Robbers | 1093 |
+| 471000 | 14 | The Dragon King's Lesson and the Old Woman's Gift | 921 |
+| 472000 | 14 | The Fillet That Would Not Come Off | 817 |
+| 473000 | 15 | The Dragon at Eagle-Sorrow Stream | 886 |
+| 474000 | 15 | Guanyin and the Dragon Horse | 940 |
+| 475000 | 15 | Across the Ravine and Onward to the Next Temple | 1182 |
 
 ## Text and evidence decisions
 
@@ -54,6 +64,9 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 - Chapter 10: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC010%E5%9B%9E) — lectures 458000, 459000.
 - Chapter 11: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC011%E5%9B%9E) — lectures 460000, 461000, 462000.
 - Chapter 12: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC012%E5%9B%9E) — lectures 463000, 464000, 465000.
+- Chapter 13: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC013%E5%9B%9E) - lectures 466000, 467000, 468000.
+- Chapter 14: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC014%E5%9B%9E) - lectures 469000, 470000, 471000, 472000.
+- Chapter 15: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC015%E5%9B%9E) - lectures 473000, 474000, 475000.
 
 ## Useful reading and navigation
 
@@ -74,10 +87,10 @@ The novella-like origin episode is literary, not a historical biography of the r
 
 ## Progress and next chapter group
 
-The expanded retelling now covers **chapters 1–12** in 25 substantial, original English narrative lectures. This overlay adds **452000–465000**, chapter 8's westward commission and the future companions, chapter 9's family-origin story in the selected witness, chapter 10's fatal rainfall wager and dream execution, chapter 11's afterlife journey and return, and chapter 12's courtly religious ceremony and the vow to seek the scriptures.
+The expanded retelling now covers **chapters 1–15** in 35 substantial, original English narrative lectures. Lectures 452000–465000 establish the westward commission, family-origin story, Dragon King episode, Taizong, and Xuanzang's oath. Lectures **466000–475000** cover the monk's first loss on the road, the Gold Star, Liu Boqin, the release of Wukong, the six robbers and tightening spell, and the dragon who becomes his new white horse. The ten newest lectures include a continuous description of the costs and conflicts of recruiting the first companions.
 
-**Next:** Chapter 13 (the mountain of tigers, the first loss, the hunter Liu Boqin) and chapter 14 (the release of Wukong from the Mountain of Five Elements and the difficult beginning of their relationship), then chapter 15 (the future white horse and the Eagle-Sorrow Stream). Develop each narrative event and its consequences at a listening pace, without imposing an episode-length or chapter-count quota.
+**Next:** chapters 16–17, the Guanyin Monastery, the dangerously coveted embroidered robe, the Black Wind Mountain creature, and Guanyin's intervention. Continue through the entire novel without imposing a word-count or lecture-count quota.
 
 After chapter 100, a separate critical sequence can examine the novel's textual history, Buddhist and Daoist language, social satire, religious practice, outsiders, relations among the four pilgrims, and later adaptations.
 
-**Chapters 13–100 remain to be written in the expanded literary retelling.** The six World History survey lectures remain available unchanged for listeners who want the complete plot in a shorter version.
+**Chapters 16–100 remain to be written in the expanded literary retelling.** The six World History survey lectures remain available unchanged for listeners who want the complete plot in a shorter version.
