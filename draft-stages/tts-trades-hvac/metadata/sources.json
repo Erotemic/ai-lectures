@@ -173,6 +173,22 @@
       "access": "public_publisher_page_or_public_reference",
       "notes": "Commissioning methods for static pressure, fan airflow and whole-house ventilation flow",
       "verification": "publisher_page_or_search_text_checked_2026-11-15; independent_technical_review_pending"
+    },
+    "doe-vrf-system21": {
+      "title": "US Department of Energy, Variable Refrigerant Flow Air Conditioners and Heat Pumps",
+      "kind": "original_us_energy_regulatory_definition",
+      "url": "https://www.energy.gov/cmei/buildings/variable-refrigerant-flow-air-conditioners-and-heat-pumps",
+      "access": "original_publisher_public_web_or_public_preview",
+      "notes": "Multiple individually controlled fan coil units, shared refrigerant circuit and capacity modulation",
+      "verification": "public_original_issuer_web_reference_located_2026-11-15; independent_technical_or_clinical_review_pending"
+    },
+    "neep-vrf-field21": {
+      "title": "David Lis / Northeast Energy Efficiency Partnership, Field Validation of VRF System Performance in Cold Climates, DOE 2024",
+      "kind": "original_federally_supported_field_study",
+      "url": "https://www.energy.gov/sites/default/files/2024-11/bto-peer-2024-neep-variable-refrigerant-flow-system-performance.pdf",
+      "access": "original_publisher_public_web_or_public_preview",
+      "notes": "VRF field performance, heat recovery topology and cold-climate capacity constraints",
+      "verification": "public_original_issuer_web_reference_located_2026-11-15; independent_technical_or_clinical_review_pending"
     }
   }
 }

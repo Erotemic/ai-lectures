@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-window-wells-below-grade-water-entry-and-drainage-diagnosis.md",
+  "related_resources": [
+    {
+      "source_id": "pnnl-crawl-water21",
+      "reason": "Window-well grading, roof drainage, sump limits and concealed moisture paths"
+    },
+    {
+      "source_id": "nyserda-build-better21",
+      "reason": "Site drainage, foundation drains, window well drainage integration; region and design matter"
+    },
+    {
+      "source_id": "pnnl-basement-drain",
+      "reason": "Footing drainage, sump pit, below-floor water management and discharge"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P021000-01",
+      "claim": "Window-well entry may be from direct rainfall, surface runoff or below-grade water; sources need different responses.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-crawl-water21",
+          "location": "Window-well grading, roof drainage, sump limits and concealed moisture paths",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nyserda-build-better21",
+          "location": "Site drainage, foundation drains, window well drainage integration; region and design matter",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-02",
+      "claim": "A gravel pocket without a drain outlet is storage, not complete drainage.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nyserda-build-better21",
+          "location": "Site drainage, foundation drains, window well drainage integration; region and design matter",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Footing drainage, sump pit, below-floor water management and discharge",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-03",
+      "claim": "Surface grade, downspout discharge and well rim conditions can cause bulk-water entry.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-crawl-water21",
+          "location": "Window-well grading, roof drainage, sump limits and concealed moisture paths",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nyserda-build-better21",
+          "location": "Site drainage, foundation drains, window well drainage integration; region and design matter",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-04",
+      "claim": "Egress clearances and the foundation drainage design constrain covers and repairs.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nyserda-build-better21",
+          "location": "Site drainage, foundation drains, window well drainage integration; region and design matter",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Footing drainage, sump pit, below-floor water management and discharge",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_independent_technical_or_clinical_review_pending",
+  "citation_policy": "Credit original authors and standards issuers; cite educational synthesis accurately. No engineering, clinical, or jurisdictional certification is claimed."
+}

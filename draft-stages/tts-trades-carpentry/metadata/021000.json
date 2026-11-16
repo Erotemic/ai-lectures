@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-roof-sheathing-uplift-connections-and-wind-load-transfer.md",
+  "related_resources": [
+    {
+      "source_id": "ibhs-fortified-roof21",
+      "reason": "High-wind roof deck attachment, panel integrity, load-path concepts; site-specific criteria"
+    },
+    {
+      "source_id": "awc-wfcm",
+      "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+    },
+    {
+      "source_id": "apa-l350-shear-walls",
+      "reason": "Lateral diaphragm and shear-wall load paths, design and construction principles; technical guide revised May 2024"
+    },
+    {
+      "source_id": "pnnl-loadpath",
+      "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P021000-01",
+      "claim": "Wind can create uplift on roof sheathing, especially at edges and corners.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ibhs-fortified-roof21",
+          "location": "High-wind roof deck attachment, panel integrity, load-path concepts; site-specific criteria",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-02",
+      "claim": "Sheathing attachment and roof-to-wall connections are separate links in the structural load path.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-03",
+      "claim": "Fastener size, placement and substrate condition influence resistance to withdrawal and pull-through.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ibhs-fortified-roof21",
+          "location": "High-wind roof deck attachment, panel integrity, load-path concepts; site-specific criteria",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-04",
+      "claim": "Sheathing diaphragms transfer loads in the roof plane through panels and connections.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "apa-l350-shear-walls",
+          "location": "Lateral diaphragm and shear-wall load paths, design and construction principles; technical guide revised May 2024",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_independent_technical_or_clinical_review_pending",
+  "citation_policy": "Credit original authors and standards issuers; cite educational synthesis accurately. No engineering, clinical, or jurisdictional certification is claimed."
+}

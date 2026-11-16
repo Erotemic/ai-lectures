@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-tankless-water-heaters-minimum-flow-temperature-control-and-service-diagnosis.md",
+  "related_resources": [
+    {
+      "source_id": "doe-tankless-guide21",
+      "reason": "Frequent on/off use, water-temperature fluctuation, selection and performance"
+    },
+    {
+      "source_id": "rinnai-tankless-faq21",
+      "reason": "Manufacturer-specific example of initiation and sustaining flow thresholds; not universal"
+    },
+    {
+      "source_id": "epa-maintenance",
+      "reason": "Leaks, service pressure and maintenance"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P021000-01",
+      "claim": "Tankless activation and continued operation require sufficient flow, with thresholds varying by model.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "rinnai-tankless-faq21",
+          "location": "Manufacturer-specific example of initiation and sustaining flow thresholds; not universal",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-tankless-guide21",
+          "location": "Frequent on/off use, water-temperature fluctuation, selection and performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-02",
+      "claim": "Required thermal input depends on volume flow and inlet-to-outlet temperature rise.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-tankless-guide21",
+          "location": "Frequent on/off use, water-temperature fluctuation, selection and performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-03",
+      "claim": "Frequent on/off draw can produce temporary temperature fluctuations known as the cold-water sandwich.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-tankless-guide21",
+          "location": "Frequent on/off use, water-temperature fluctuation, selection and performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P021000-04",
+      "claim": "Fixture restriction, strainer condition and mixed hot/cold draw affect the heater flow signal.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "rinnai-tankless-faq21",
+          "location": "Manufacturer-specific example of initiation and sustaining flow thresholds; not universal",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-maintenance",
+          "location": "Leaks, service pressure and maintenance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, patient condition, adopted regulations and other context; the lecture includes educational synthesis beyond any single source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_independent_technical_or_clinical_review_pending",
+  "citation_policy": "Credit original authors and standards issuers; cite educational synthesis accurately. No engineering, clinical, or jurisdictional certification is claimed."
+}
