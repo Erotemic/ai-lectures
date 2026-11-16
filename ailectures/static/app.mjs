@@ -1,5 +1,14 @@
 import { ProductionPanel } from "./production.mjs";
-import { api, post, el, getStored, store, lectureURL, clock } from "./api.mjs";
+import {
+  randomId,
+  api,
+  post,
+  el,
+  getStored,
+  store,
+  lectureURL,
+  clock,
+} from "./api.mjs";
 import { Player } from "./player.mjs";
 import { reviewFeedback } from "./feedback.mjs";
 import { ListeningQueue } from "./queue.mjs";
@@ -21,7 +30,7 @@ let catalog = { lectures: [], courses: [], packs: [] },
 let playingQueueEntry = null;
 let renderToken = 0;
 let lectureAudio = null;
-const device = getStored("device") || crypto.randomUUID();
+const device = getStored("device") || randomId();
 store("device", device);
 let sequence = getStored("sequence", 0),
   saveChain = Promise.resolve();
@@ -79,7 +88,7 @@ function saveCheckpoint(position) {
     completed: position.explicit_completion
       ? position.completed
       : position.completed || old?.completed || false,
-    update_id: crypto.randomUUID(),
+    update_id: randomId(),
     device_id: device,
     sequence: ++sequence,
     expected_version: old?.version || 0,
@@ -158,7 +167,7 @@ $("use-local").onclick = async () => {
   const payload = {
     ...latest,
     expected_version: c.current?.version || 0,
-    update_id: crypto.randomUUID(),
+    update_id: randomId(),
     sequence: ++sequence,
   };
   store("sequence", sequence);
@@ -622,7 +631,7 @@ function feedbackForm(row) {
   const key = "feedback:" + row.id + ":" + row.revision;
   let draft = getStored(key, {
     text: "",
-    id: crypto.randomUUID(),
+    id: randomId(),
     created_at: new Date().toISOString(),
   });
   const textarea = el("textarea", {
@@ -664,7 +673,7 @@ function feedbackForm(row) {
     if (!textarea.value.trim()) return;
     try {
       if (draft.sent_text !== undefined && draft.sent_text !== textarea.value) {
-        draft.id = crypto.randomUUID();
+        draft.id = randomId();
         draft.created_at = new Date().toISOString();
       }
       draft.sent_text = textarea.value;
@@ -680,7 +689,7 @@ function feedbackForm(row) {
       textarea.value = "";
       draft = {
         text: "",
-        id: crypto.randomUUID(),
+        id: randomId(),
         created_at: new Date().toISOString(),
       };
       status.textContent = "Feedback saved for this revision.";

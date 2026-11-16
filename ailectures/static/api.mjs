@@ -29,6 +29,23 @@ export const store = (key, value) => {
     localStorage.setItem("ailectures:" + key, JSON.stringify(value));
   } catch {}
 };
+export function randomId() {
+  // randomUUID requires a secure context; household HTTP addresses need the
+  // getRandomValues fallback for device, queue, and feedback identifiers.
+  if (globalThis.crypto?.randomUUID) return globalThis.crypto.randomUUID();
+  const bytes = new Uint8Array(16);
+  if (globalThis.crypto?.getRandomValues)
+    globalThis.crypto.getRandomValues(bytes);
+  else
+    for (let index = 0; index < bytes.length; index++)
+      bytes[index] = Math.floor(Math.random() * 256);
+  bytes[6] = (bytes[6] & 15) | 64;
+  bytes[8] = (bytes[8] & 63) | 128;
+  const hex = [...bytes]
+    .map((byte) => byte.toString(16).padStart(2, "0"))
+    .join("");
+  return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
+}
 export function el(tag, attrs = {}, ...children) {
   const node = document.createElement(tag);
   for (const [key, value] of Object.entries(attrs)) {

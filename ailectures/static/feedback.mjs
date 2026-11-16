@@ -1,4 +1,4 @@
-import { api, post, el, lectureURL, clock } from "./api.mjs";
+import { randomId, api, post, el, lectureURL, clock } from "./api.mjs";
 
 export function feedbackThreads(events) {
   const threads = new Map();
@@ -243,7 +243,7 @@ export async function reviewFeedback(main, lectures) {
         )
           pending = {
             change,
-            id: crypto.randomUUID(),
+            id: randomId(),
             created_at: new Date().toISOString(),
           };
         const saved = await post("/api/library/feedback/status", {

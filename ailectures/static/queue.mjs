@@ -1,4 +1,4 @@
-import { api, post, el, getStored, store } from "./api.mjs";
+import { randomId, api, post, el, getStored, store } from "./api.mjs";
 
 export function editDeviceQueue(entries, operation) {
   if (operation.action === "add") {
@@ -58,7 +58,7 @@ export class ListeningQueue {
   async add(lecture_id, course_id = null) {
     await this.edit({
       action: "add",
-      entry: { id: crypto.randomUUID(), lecture_id, course_id },
+      entry: { id: randomId(), lecture_id, course_id },
     });
     this.message("Added to your listening queue.");
   }
