@@ -1,12 +1,12 @@
-# Numerical Analysis and Reliable Computation — after 23 completed lectures
+# Numerical Analysis and Reliable Computation — after 24 completed lectures
 
-Directionally stiff elliptic discretizations can defeat point smoothers even when the grid looks regular. The new lecture derives the precise Jacobi amplification factor and distinguishes line smoothing from strong-direction semicoarsening.
+Validated bifurcation now distinguishes plotted roots, interval-verified folds, continued branch segments and completeness of the solution set. An exact rational isolation for the cubic saddle-node gives a reference for computer-assisted proof procedures.
 
 ## Unindexed continuation proposals
 
-- 024000 — Validated Bifurcation Diagrams and Computer-Assisted Proof
 - 025000 — Event-Time Sensitivities in Hybrid Solvers
 - 026000 — Goal-Oriented Dual-Weighted Residual Certificates
 - 027000 — Algebraic Multigrid for Rotated Anisotropy
+- 028000 — Validated Periodic Orbits and Floquet Multipliers
 
-Proposals are not registered; manuscripts are added only when actually written. No fixed duration or word-count policy is imposed.
+Proposals are not registered; manuscripts are added only when written. There is no fixed narration duration or word-count policy.

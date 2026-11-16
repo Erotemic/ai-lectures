@@ -40,7 +40,9 @@
     "epsilon-nets-uniform-convergence",
     "constructive-discrepancy",
     "property-testing",
-    "extractors-and-generators"
+    "extractors-and-generators",
+    "hypergraph-containers",
+    "boolean-fourier-analysis"
   ],
   "lectures": [
     {
@@ -330,6 +332,24 @@
       "spoken_words": 1170,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.1
+    },
+    {
+      "id": "033000",
+      "title": "Hypergraph Containers: Counting Rare Combinatorial Structures",
+      "section": "hypergraph-containers",
+      "file": "033000-hypergraph-containers-and-independent-sets.md",
+      "spoken_words": 1065,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.3
+    },
+    {
+      "id": "034000",
+      "title": "Fourier Analysis on the Boolean Cube",
+      "section": "boolean-fourier-analysis",
+      "file": "034000-fourier-analysis-of-boolean-functions.md",
+      "spoken_words": 1215,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.4
     }
   ]
 }

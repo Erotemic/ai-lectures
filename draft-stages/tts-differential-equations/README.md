@@ -115,3 +115,10 @@ Each narration stands alone; exact hypotheses, derivations, exercises and source
 - 032000 — [Compressible Fluids and Shock Stability: When Solutions Disagree on Smoothness](032000-compressible-fluids-shocks-and-stability.md)
 
 The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.
+
+## Continuation 17: Arithmetic completeness, harmonic analysis, geometry and rigorous computation
+
+- 033000 — [Concentration–Compactness and Nonlinear Scattering](033000-concentration-compactness-and-scattering.md)
+- 034000 — [Pattern-Forming Interfaces: Stability Beyond an Exact Front](034000-pattern-forming-interfaces-and-spectral-stability.md)
+
+Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.

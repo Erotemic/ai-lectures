@@ -147,3 +147,12 @@ Each narration stands alone; exact hypotheses, derivations, exercises and source
 - 064000 — [Stable Pairs and Donaldson–Thomas Theory: Curves as Sheaves](064000-stable-pairs-and-donaldson-thomas-theory.md)
 
 The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.
+
+## Continuation 17: Arithmetic completeness, harmonic analysis, geometry and rigorous computation
+
+- 065000 — [Mordell–Weil Saturation and Height Pairings](065000-mordell-weil-saturation-and-regulators.md)
+- 066000 — [Weyl Characters, Root Symmetry, and Flag Varieties](066000-weyl-character-formula-and-flag-varieties.md)
+- 067000 — [Quantum Differential Equations and Mirror Periods](067000-quantum-differential-equations-and-mirror-periods.md)
+- 068000 — [DT/PT Wall Crossing: Two Ways to Count Curves](068000-dt-pt-wall-crossing-and-curve-correspondences.md)
+
+Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.

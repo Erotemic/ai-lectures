@@ -115,3 +115,10 @@ Each narration stands alone; exact hypotheses, derivations, exercises and source
 - 032000 — [Floer Homology: Morse Theory for Periodic Trajectories](032000-floer-homology-and-infinite-dimensional-morse-theory.md)
 
 The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.
+
+## Continuation 17: Arithmetic completeness, harmonic analysis, geometry and rigorous computation
+
+- 033000 — [Berry Curvature: Holonomy in a Family of Quantum States](033000-berry-curvature-and-geometric-holonomy.md)
+- 034000 — [Symplectic Nonsqueezing: A Constraint That Volume Cannot See](034000-symplectic-capacities-and-nonsqueezing.md)
+
+Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.

@@ -108,3 +108,9 @@ Each narration stands alone; exact hypotheses, derivations, exercises and source
 - 023000 — [Anisotropic Multigrid: When the Grid Has a Preferred Direction](023000-anisotropic-multigrid-line-smoothing-and-semicoarsening.md)
 
 The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.
+
+## Continuation 17: Arithmetic completeness, harmonic analysis, geometry and rigorous computation
+
+- 024000 — [Validated Bifurcation Diagrams and Computer-Assisted Proof](024000-validated-bifurcation-diagrams.md)
+
+Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.

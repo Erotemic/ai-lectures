@@ -1,12 +1,12 @@
-# Differential Equations and Dynamical Systems — after 32 completed lectures
+# Differential Equations and Dynamical Systems — after 34 completed lectures
 
-Geometric numerical integration now distinguishes symplecticity from exact energy preservation, and shocks are treated through separate conservation, entropy-admissibility and stability tests.
+The critical-element argument separates profile compactness from an equation-specific rigidity theorem. The Allen–Cahn front supplies a fully calculable neutral translation mode and spectral gap, with nonlinear stability understood modulo spatial shifts.
 
 ## Unindexed continuation proposals
 
-- 033000 — Concentration–Compactness and Nonlinear Scattering
-- 034000 — Stability of Pattern-Forming Interfaces
 - 035000 — Viscous Shock Profiles and Evans Function Tests
 - 036000 — Multisymplectic Variational Field Integrators
+- 037000 — Profile Decompositions for Critical Wave Equations
+- 038000 — Multi-Front Metastability and Slow-Manifold Dynamics
 
-Proposals are not registered; manuscripts are added only when actually written. No fixed duration or word-count policy is imposed.
+Proposals are not registered; manuscripts are added only when written. There is no fixed narration duration or word-count policy.

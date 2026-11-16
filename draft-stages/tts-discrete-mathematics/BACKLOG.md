@@ -1,12 +1,12 @@
-# Discrete Mathematics and Combinatorics — after 32 completed lectures
+# Discrete Mathematics and Combinatorics — after 34 completed lectures
 
-Linearity testing and seeded extraction connect local algebraic tests, min-entropy and computation. Query models and distance measures are explicit; the strong leftover-hash guarantee is stated together with seed independence.
+Hypergraph container theorems turn forbidden configurations into independent sets and obtain sharp asymptotic counts through supersaturation. Boolean Fourier expansions give exact influence, noise stability and Poincaré identities with their product-measure hypotheses stated.
 
 ## Unindexed continuation proposals
 
-- 033000 — Hypergraph Containers and Sparse Extremal Combinatorics
-- 034000 — Fourier Analysis on the Boolean Cube
 - 035000 — Local Correctability and List Decoding
 - 036000 — Explicit Small-Bias Sets and Error-Correcting Codes
+- 037000 — Hypercontractivity, Influences, and Sharp Thresholds
+- 038000 — Sparse Random Hypergraphs and Arithmetic Containers
 
-Proposals are not registered; manuscripts are added only when actually written. No fixed duration or word-count policy is imposed.
+Proposals are not registered; manuscripts are added only when written. There is no fixed narration duration or word-count policy.

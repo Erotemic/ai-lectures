@@ -110,3 +110,9 @@ Each narration stands alone; exact hypotheses, derivations, exercises and source
 - 020000 — [Facial Reduction: Finding the True Interior of a Semidefinite Program](020000-facial-reduction-and-degenerate-sdp.md)
 
 The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.
+
+## Continuation 17: Arithmetic completeness, harmonic analysis, geometry and rigorous computation
+
+- 021000 — [Submodular Maximization Under Intersecting Matroid Constraints](021000-submodular-maximization-under-matroid-intersections.md)
+
+Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.

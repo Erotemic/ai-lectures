@@ -1,12 +1,12 @@
-# Topology and Geometry — after 32 completed lectures
+# Topology and Geometry — after 34 completed lectures
 
-Four-dimensional gauge theory gives a sharp topological curvature bound, while Floer theory creates a chain complex from periodic Hamiltonian orbits. Both moduli problems require compactness, transversality and appropriate quotient/virtual constructions.
+Berry curvature connects eigenline holonomy to an integral Chern number, while symplectic nonsqueezing supplies a global obstruction that volume cannot detect. Both lectures distinguish local gauge or normal-form flexibility from global geometry.
 
 ## Unindexed continuation proposals
 
-- 033000 — Berry Curvature and Geometric Holonomy
-- 034000 — Symplectic Capacities and Nonsqueezing
 - 035000 — Uhlenbeck Compactness and Donaldson Invariants
 - 036000 — Wrapped Floer Homology and Noncompact Symplectic Geometry
+- 037000 — Chern Numbers and Quantum Hall Transport
+- 038000 — Symplectic Embedding Problems and Capacity Staircases
 
-Proposals are not registered; manuscripts are added only when actually written. No fixed duration or word-count policy is imposed.
+Proposals are not registered; manuscripts are added only when written. There is no fixed narration duration or word-count policy.

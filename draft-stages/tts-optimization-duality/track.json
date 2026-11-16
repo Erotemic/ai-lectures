@@ -25,7 +25,8 @@
     "nonmonotone-submodular",
     "inexact-proximal-steps",
     "wasserstein-distributional-robustness",
-    "facial-reduction-sdp"
+    "facial-reduction-sdp",
+    "multiple-matroid-submodular"
   ],
   "lectures": [
     {
@@ -207,6 +208,15 @@
       "spoken_words": 1353,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 9.3
+    },
+    {
+      "id": "021000",
+      "title": "Submodular Maximization Under Intersecting Matroid Constraints",
+      "section": "multiple-matroid-submodular",
+      "file": "021000-submodular-maximization-under-matroid-intersections.md",
+      "spoken_words": 1137,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.8
     }
   ]
 }

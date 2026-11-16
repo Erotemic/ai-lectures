@@ -115,3 +115,10 @@ Each narration stands alone; exact hypotheses, derivations, exercises and source
 - 032000 — [Randomness Extractors: Recovering Usable Random Bits](032000-extractors-and-pseudorandom-generators.md)
 
 The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.
+
+## Continuation 17: Arithmetic completeness, harmonic analysis, geometry and rigorous computation
+
+- 033000 — [Hypergraph Containers: Counting Rare Combinatorial Structures](033000-hypergraph-containers-and-independent-sets.md)
+- 034000 — [Fourier Analysis on the Boolean Cube](034000-fourier-analysis-of-boolean-functions.md)
+
+Narrations are self-contained. Exact hypotheses, proof calculations, exercises with answers, and source notes remain outside spoken markers. Lecture lengths are descriptive measurements, not targets.
