@@ -31,3 +31,10 @@ The word counts in `track.json` are descriptive measurements from the canonical 
 - 008000 — [Pólya Enumeration: Counting Colorings without Double-Counting Symmetry](008000-polya-enumeration-and-cycle-indices.md)
 
 Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.
+
+## Completed continuation — local algebra, geometry and certified computation
+
+- 009000 — [Matroids: Why Some Greedy Algorithms Are Exactly Right](009000-matroids-and-greedy-optimality.md)
+- 010000 — [Extremal Graph Theory: How Many Edges Avoid a Clique?](010000-extremal-graphs-and-turan-theorem.md)
+
+Word counts and narration durations in the manifest are descriptive measurements, not length targets. Exact equations and references remain in non-spoken companions.

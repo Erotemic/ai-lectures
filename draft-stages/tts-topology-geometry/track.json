@@ -16,7 +16,9 @@
     "homotopy-and-loops",
     "circle-and-winding",
     "covering-spaces-and-lifting",
-    "smooth-manifolds"
+    "smooth-manifolds",
+    "differential-forms",
+    "generalized-stokes"
   ],
   "lectures": [
     {
@@ -90,6 +92,24 @@
       "spoken_words": 1246,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.6
+    },
+    {
+      "id": "009000",
+      "title": "Differential Forms: Calculus That Survives a Change of Coordinates",
+      "section": "differential-forms",
+      "file": "009000-differential-forms-and-exterior-derivative.md",
+      "spoken_words": 1272,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.8
+    },
+    {
+      "id": "010000",
+      "title": "Generalized Stokes' Theorem: The Interior Speaks Through Its Boundary",
+      "section": "generalized-stokes",
+      "file": "010000-orientation-and-generalized-stokes-theorem.md",
+      "spoken_words": 1232,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.5
     }
   ]
 }

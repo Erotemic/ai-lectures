@@ -16,7 +16,8 @@
     "interpolation-and-approximation",
     "quadrature-and-error",
     "iterative-linear-algebra",
-    "numerical-ode-methods"
+    "numerical-ode-methods",
+    "adaptive-quadrature"
   ],
   "lectures": [
     {
@@ -117,6 +118,15 @@
       "spoken_words": 1363,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 9.4
+    },
+    {
+      "id": "012000",
+      "title": "Adaptive Quadrature: Spend Computation Where the Integral Is Difficult",
+      "section": "adaptive-quadrature",
+      "file": "012000-adaptive-quadrature-and-error-estimators.md",
+      "spoken_words": 1337,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.2
     }
   ]
 }

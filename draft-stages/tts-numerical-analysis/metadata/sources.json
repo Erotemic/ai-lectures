@@ -77,6 +77,20 @@
       "url": "https://math.mit.edu/icg/resources/teaching/18.330/18.330-Feb23.pdf",
       "access": "free_no_login",
       "notes": "Consistency and convergence orders, explicit and implicit Euler and Runge–Kutta stability."
+    },
+    "na-scipy-tutorial": {
+      "title": "SciPy Manual, Integration tutorial",
+      "kind": "official_software_documentation",
+      "url": "https://docs.scipy.org/doc/scipy/tutorial/integrate.html",
+      "access": "free_no_login",
+      "notes": "Adaptive quadrature examples, numerical error and missed-peak limitations."
+    },
+    "na-scipy-quad": {
+      "title": "SciPy Manual, scipy.integrate.quad reference",
+      "kind": "official_software_documentation",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.quad.html",
+      "access": "free_no_login",
+      "notes": "QUADPACK adaptive integration, absolute and relative error estimates."
     }
   }
 }

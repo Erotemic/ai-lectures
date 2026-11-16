@@ -13,11 +13,9 @@
 - 004000: [Lagrange Multipliers and KKT Conditions: When Local Equations Certify an Optimum](004000-kkt-conditions-and-constraint-qualifications.md) (3,001 spoken words; ~21 minutes).
 - 005000: [Gradient Descent, Smoothness, and the Price of Poor Conditioning](005000-gradient-descent-and-conditioning.md) (1,603 spoken words; measured ~11 minutes at 145 words per minute).
 
-## Planned continuation (remaining proposals)
+## Planned continuation
 
-- 009000: Numerical Error and Formally Checkable Certificates
-
-The remaining titles are planning proposals.
+Further proposals are maintained in [BACKLOG.md](BACKLOG.md).
 
 ## Reading and source records
 
@@ -40,3 +38,9 @@ The word counts in `track.json` are descriptive measurements from the canonical 
 - 008000 — [Discrete Optimization: Relaxations, Integrality Gaps, and Certificates](008000-discrete-optimization-relaxations-and-bounds.md)
 
 Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.
+
+## Completed continuation — local algebra, geometry and certified computation
+
+- 009000 — [Verifiable Optimization Certificates: From Solver Output to Proof](009000-verifiable-optimality-certificates-and-numerical-error.md)
+
+Word counts and narration durations in the manifest are descriptive measurements, not length targets. Exact equations and references remain in non-spoken companions.

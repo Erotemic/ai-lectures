@@ -24,7 +24,11 @@
     "representations-and-maschke",
     "characters-and-orthogonality",
     "tensor-products",
-    "homological-algebra-foundations"
+    "homological-algebra-foundations",
+    "localization-prime-ideals",
+    "noetherian-hilbert-basis",
+    "dedekind-domains",
+    "modular-representations"
   ],
   "lectures": [
     {
@@ -170,6 +174,42 @@
       "spoken_words": 1282,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.8
+    },
+    {
+      "id": "017000",
+      "title": "Localization and Prime Ideals: Arithmetic Near One Prime",
+      "section": "localization-prime-ideals",
+      "file": "017000-localization-and-prime-ideals.md",
+      "spoken_words": 1317,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.1
+    },
+    {
+      "id": "018000",
+      "title": "Noetherian Rings: Why Finitely Many Equations Can Suffice",
+      "section": "noetherian-hilbert-basis",
+      "file": "018000-noetherian-rings-and-hilbert-basis-theorem.md",
+      "spoken_words": 1241,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.6
+    },
+    {
+      "id": "019000",
+      "title": "Dedekind Domains: Factorization Survives When Elements Fail",
+      "section": "dedekind-domains",
+      "file": "019000-dedekind-domains-and-ideal-factorization.md",
+      "spoken_words": 1241,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.6
+    },
+    {
+      "id": "020000",
+      "title": "Modular Representations: When Symmetry No Longer Splits",
+      "section": "modular-representations",
+      "file": "020000-modular-representations-and-extensions.md",
+      "spoken_words": 1132,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.8
     }
   ]
 }

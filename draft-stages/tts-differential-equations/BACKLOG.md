@@ -1,12 +1,12 @@
-# Differential Equations and Dynamical Systems — after eight completed lectures
+# Differential Equations and Dynamical Systems — after ten completed lectures
 
-001000–008000 cover scalar initial-value problems, linear systems, forcing, nonlinear phase planes, energy methods, and bifurcation normal forms with limit cycles.
+001000–010000 cover ODEs and phase portraits, linear systems and resonance, nonlinear dynamics, stiffness, and first-order transport and second-order diffusion PDEs.
 
 ## Unindexed continuation proposals
 
-- 009000 — Stiff Systems, Fast and Slow Timescales
-- 010000 — Transport, Diffusion and the First Partial Differential Equations
-- 011000 — Boundary Data, Weak Solutions and Energy Estimates
+- 011000 — Boundary Value Problems, Weak Solutions, and Energy Estimates
 - 012000 — Poincaré Maps, Stability of Periodic Orbits, and Floquet Theory
+- 013000 — Waves, Characteristics, and Finite Propagation Speed
+- 014000 — Reaction–Diffusion Equations and Pattern Formation
 
-Numerical Analysis 011000 separately teaches Euler and Runge–Kutta error/stability; cross-reference it rather than duplicate it here.
+Numerical Analysis separately treats step-size restrictions, error estimators and convergence. These proposals are not registered lectures.

@@ -36,3 +36,9 @@ The word counts in `track.json` are descriptive measurements from the canonical 
 - 011000 — [Euler and Runge–Kutta Methods: Accuracy Is Not Stability](011000-euler-runge-kutta-and-stability.md)
 
 Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.
+
+## Completed continuation — local algebra, geometry and certified computation
+
+- 012000 — [Adaptive Quadrature: Spend Computation Where the Integral Is Difficult](012000-adaptive-quadrature-and-error-estimators.md)
+
+Word counts and narration durations in the manifest are descriptive measurements, not length targets. Exact equations and references remain in non-spoken companions.

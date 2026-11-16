@@ -1,13 +1,12 @@
-# Topology and Geometry — after eight completed lectures
+# Topology and Geometry — after ten completed lectures
 
-001000–008000 cover general topology, homotopy and winding, covering-space classification, and smooth manifolds with tangent maps.
+001000–010000 cover general and algebraic topology, covering spaces, smooth manifolds, differential forms, and the generalized Stokes theorem.
 
 ## Unindexed continuation proposals
 
-- 009000 — Differential Forms: Integration without a Preferred Coordinate System
-- 010000 — Orientation and Generalized Stokes' Theorem
 - 011000 — Simplicial and Singular Homology
-- 012000 — Cohomology and Product Structure
-- 013000 — Fiber Bundles and Characteristic Classes
+- 012000 — Cohomology, Cup Products, and de Rham Classes
+- 013000 — Fiber Bundles, Connections, and Curvature
+- 014000 — Riemannian Metrics, Geodesics, and Curvature
 
-Distinguish smooth geometric constructions from statements requiring global topological hypotheses.
+Explicitly mark smoothness and compactness hypotheses in geometric integration results.

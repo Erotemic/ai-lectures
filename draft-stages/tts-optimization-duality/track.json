@@ -13,7 +13,8 @@
     "first-order-methods",
     "proximal-and-nonsmooth",
     "semidefinite-programming",
-    "discrete-optimization"
+    "discrete-optimization",
+    "verifiable-optimality"
   ],
   "lectures": [
     {
@@ -87,6 +88,15 @@
       "spoken_words": 1365,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 9.4
+    },
+    {
+      "id": "009000",
+      "title": "Verifiable Optimization Certificates: From Solver Output to Proof",
+      "section": "verifiable-optimality",
+      "file": "009000-verifiable-optimality-certificates-and-numerical-error.md",
+      "spoken_words": 1327,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.2
     }
   ]
 }

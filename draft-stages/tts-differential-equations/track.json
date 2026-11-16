@@ -16,7 +16,9 @@
     "linear-systems",
     "forced-systems-and-kernels",
     "nonlinear-phase-planes",
-    "bifurcations-and-limit-cycles"
+    "bifurcations-and-limit-cycles",
+    "stiff-systems",
+    "transport-diffusion-pdes"
   ],
   "lectures": [
     {
@@ -90,6 +92,24 @@
       "spoken_words": 1181,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.1
+    },
+    {
+      "id": "009000",
+      "title": "Stiff Systems: Fast Transients and Slow Motion",
+      "section": "stiff-systems",
+      "file": "009000-stiff-systems-and-fast-slow-timescales.md",
+      "spoken_words": 1223,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.4
+    },
+    {
+      "id": "010000",
+      "title": "Transport and Diffusion: Two Ways a Field Evolves",
+      "section": "transport-diffusion-pdes",
+      "file": "010000-transport-diffusion-and-pdes.md",
+      "spoken_words": 1270,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.8
     }
   ]
 }

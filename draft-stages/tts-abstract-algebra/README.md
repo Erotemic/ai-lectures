@@ -39,3 +39,12 @@ The word counts in `track.json` are descriptive measurements from the canonical 
 - 016000 — [Exact Sequences and Resolutions: Measuring Lost Information](016000-exact-sequences-and-projective-resolutions.md)
 
 Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.
+
+## Completed continuation — local algebra, geometry and certified computation
+
+- 017000 — [Localization and Prime Ideals: Arithmetic Near One Prime](017000-localization-and-prime-ideals.md)
+- 018000 — [Noetherian Rings: Why Finitely Many Equations Can Suffice](018000-noetherian-rings-and-hilbert-basis-theorem.md)
+- 019000 — [Dedekind Domains: Factorization Survives When Elements Fail](019000-dedekind-domains-and-ideal-factorization.md)
+- 020000 — [Modular Representations: When Symmetry No Longer Splits](020000-modular-representations-and-extensions.md)
+
+Word counts and narration durations in the manifest are descriptive measurements, not length targets. Exact equations and references remain in non-spoken companions.

@@ -16,7 +16,9 @@
     "graphs-trees-and-cycles",
     "matchings-and-hall",
     "flows-cuts-and-integrality",
-    "polya-enumeration"
+    "polya-enumeration",
+    "matroids-greedy",
+    "extremal-graphs"
   ],
   "lectures": [
     {
@@ -90,6 +92,24 @@
       "spoken_words": 1090,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "009000",
+      "title": "Matroids: Why Some Greedy Algorithms Are Exactly Right",
+      "section": "matroids-greedy",
+      "file": "009000-matroids-and-greedy-optimality.md",
+      "spoken_words": 1180,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.1
+    },
+    {
+      "id": "010000",
+      "title": "Extremal Graph Theory: How Many Edges Avoid a Clique?",
+      "section": "extremal-graphs",
+      "file": "010000-extremal-graphs-and-turan-theorem.md",
+      "spoken_words": 1183,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.2
     }
   ]
 }

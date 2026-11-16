@@ -31,3 +31,10 @@ The word counts in `track.json` are descriptive measurements from the canonical 
 - 008000 — [Bifurcations and Limit Cycles: When Dynamics Change Their Shape](008000-bifurcations-and-limit-cycles.md)
 
 Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.
+
+## Completed continuation — local algebra, geometry and certified computation
+
+- 009000 — [Stiff Systems: Fast Transients and Slow Motion](009000-stiff-systems-and-fast-slow-timescales.md)
+- 010000 — [Transport and Diffusion: Two Ways a Field Evolves](010000-transport-diffusion-and-pdes.md)
+
+Word counts and narration durations in the manifest are descriptive measurements, not length targets. Exact equations and references remain in non-spoken companions.

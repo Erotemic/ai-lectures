@@ -31,3 +31,10 @@ The word counts in `track.json` are descriptive measurements from the canonical 
 - 008000 — [Smooth Manifolds: Coordinates without a Global Grid](008000-smooth-manifolds-and-tangent-spaces.md)
 
 Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.
+
+## Completed continuation — local algebra, geometry and certified computation
+
+- 009000 — [Differential Forms: Calculus That Survives a Change of Coordinates](009000-differential-forms-and-exterior-derivative.md)
+- 010000 — [Generalized Stokes' Theorem: The Interior Speaks Through Its Boundary](010000-orientation-and-generalized-stokes-theorem.md)
+
+Word counts and narration durations in the manifest are descriptive measurements, not length targets. Exact equations and references remain in non-spoken companions.
