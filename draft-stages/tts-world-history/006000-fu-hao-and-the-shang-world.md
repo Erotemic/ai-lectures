@@ -243,6 +243,9 @@ More than three thousand years separate us from Fu Hao. We do not know what she 
 7. Susie Townsend, **"Two women linked across three thousand years of history,"** Historical Association, 2022. On the archaeological work of Zheng Zhenxiang and the discovery of the tomb. https://www.history.org.uk/primary/categories/305/resource/10529/two-women-linked-across-three-thousand-years-of-hi
 8. **"Now and Then: Fuhao's Tomb and Its Discovery at Yinxu,"** *The Oxford Handbook of Chinese Archaeology* (2026). Reconsiders the excavation, the tomb's social life, and changing scholarly interpretations and museum representations. https://academic.oup.com/edited-volume/63145/chapter-abstract/568224089
 9. **"Fu Hao's Tomb at 50: Unraveling the mysteries of a Shang Dynasty woman,"** *China Daily*, October 2026. Report on the fiftieth-anniversary research forum at the Yinxu Museum. https://english.henan.gov.cn/2026/10-21/3439242.html
+10. Wikipedia, **"Fu Hao."** General entry point for the lecture's central figure. https://en.wikipedia.org/wiki/Fu_Hao
+11. Wikipedia, **"Shang dynasty."** General entry point for the lecture's historical setting. https://en.wikipedia.org/wiki/Shang_dynasty
+12. Wikipedia, **"Oracle bone script."** General entry point for the oracle-bone inscriptions that are the lecture's subject. https://en.wikipedia.org/wiki/Oracle_bone_script
 
 ### Pronunciation guidance (editorial)
 
